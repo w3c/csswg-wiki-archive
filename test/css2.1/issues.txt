@@ -1,3 +1,50 @@
 ====== Known Bugs ======
 
 This page records known problems in the [[test:css2.1|CSS 2.1 Conformance Test Suite]]. For problems with the harness, see [[harness]].
+
+==== Lifecyle of a Bug ====
+
+Valid status markers:
+
+[markdown]
+<dfn>NEEDSFIX</dfn>
+: Initial value.
+
+<dfn>NEEDSINFO</dfn>
+: Needs more information (e.g. from the working group or someone more knowledgeable about the spec) before a fix can be designed.
+
+<dfn>FIXME</dfn>
+: A fix is proposed in the Resolution section, but has not coded and/or checked in.
+
+<dfn>VERIFYME</dfn>
+: A fix has been checked in, someone else needs to verify.
+
+<dfn>INVALID</dfn>
+: There is no bug. Record an explanation in the Resolution section and wait for someone else to verify and remove the bug record.
+
+<dfn>POORDESC</dfn>
+: Not enough information in the summary or discussion to understand the problem and create a fix. The reporter needs to clarify. The issue may be deleted without a fix if the reporter is unresponsive.
+[/markdown]
+
+A bug record is removed once someone else has either verified the fix, or verified that the bug is indeed invalid.
+
+== t1202-counters-17-d ==
+[markdown]
+Discussion
+: http://lists.w3.org/Archives/Public/www-style/2006Nov/0049.html
+: http://www.w3.org/Style/CSS/Test/CSS2.1/current/t1202-counters-17-d.htm
+
+Summary
+
+: Test assumes
+      :before, :after { whitespace: pre-line }
+  is not there, even though it's in the sample style sheet.
+
+Resolution
+
+: Repeat `white-space: pre` on `:before`, `:after` in test
+  `t1202-counters-17-d.htm`.
+
+Status
+: FIXME
+[/markdown]
