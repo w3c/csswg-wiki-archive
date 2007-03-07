@@ -1,4 +1,4 @@
-====== List of Known Bugs ======
+====== Record of Known Bugs ======
 
 This page records known problems in the [[test:css2.1|CSS 2.1 Conformance Test Suite]]. For problems with the harness, see [[harness]].
 
