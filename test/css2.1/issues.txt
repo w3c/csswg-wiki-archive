@@ -28,7 +28,7 @@ Valid status markers:
 
 A bug record is removed once someone else has either verified the fix, or verified that the bug is indeed invalid.
 
-===== Known Bugs =====
+===== Open Bugs =====
 
 ==== t1202-counters-17-d ====
 [markdown]
