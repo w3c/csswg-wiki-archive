@@ -1,3 +1,3 @@
-====== Known Bugs in the CSS2.1 Conformance Test Suite ======
+====== Known Bugs ======
 
 This page records known problems in the [[test:css2.1|CSS2.1 Conformance Test Suite]]. For problems with the harness, see [[harness]].
