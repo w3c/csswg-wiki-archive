@@ -1,3 +1,3 @@
 ====== Testing ======
 
-This page is all about testing.
+Our conformance test suites, how to run them, known bugs, and how to contribute.
