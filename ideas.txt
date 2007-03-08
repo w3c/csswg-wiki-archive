@@ -8,7 +8,7 @@ specifications (yet).
 ===== Resolutions =====
 
   * [[Image Replacement]]
-  * [[generated-content|Generated Content: Scope and Fallbacks]]
+  * [[Content Fallbacks]]
   * [[Image Scaling]]
 
 ===== Ideas and Issues =====
