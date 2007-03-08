@@ -10,9 +10,9 @@ This wiki supports [Markdown Extra](http://www.michelf.com/projects/php-markdown
 
 ===== Basic text formatting =====
 
-DokuWiki supports **bold**, //italic//, __underlined__ and ''monospaced'' texts. Of course you can **__//''combine''//__** all these.
+DokuWiki supports **strong**, //em//, __underlined em__ and ''code'' texts. Of course you can **__//''combine''//__** all these.
 
-  DokuWiki supports **bold**, //italic//, __underlined__ and ''monospaced'' texts.
+  DokuWiki supports **strong**, //em// __underlined em__ and ''code'' texts.
   Of course you can **__//''combine''//__** all these.
 
 You can use <sub>subscript</sub> and <sup>superscript</sup>, too.
