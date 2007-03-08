@@ -76,3 +76,7 @@ h1 span { font-family: biggy }
 h1      { font-family: Times New Roman }
 h1      { content: require-font(biggy) content, url(replacement.png) }
 </code>
+
+====== Expectations ======
+
+Since the Generated Content module is not expected to advance at all for quite some time, this syntax is likely to be incorporated into the Fonts module.
