@@ -1,0 +1,21 @@
+====== Record of Known Bugs ======
+
+==== 19 ====
+<markdown>
+Test
+: http://www.hixie.ch/tests/evil/css/selectors/tests/html/tests/css3-modsel-19.html
+
+Discussion
+: http://lists.w3.org/Archives/Member/w3c-css-wg/2007JanMar/0365.html
+
+Summary
+
+: Test assumes activation is done by clicking.
+
+Resolution
+
+: Adjust wording in test to use more abstract "activation" rather than clicking.
+
+Status
+: VERIFYME
+</markdown>
