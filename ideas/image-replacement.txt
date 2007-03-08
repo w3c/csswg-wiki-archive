@@ -1,6 +1,6 @@
 ====== Image Replacement in CSS3 ======
 
-Image replacement techniques are used on many websites today to replace text, such as a header, with an image of the text rendered in a fancy font. Methods range from image tags to background images with massing negative indentation, all sub-optimal.
+Image replacement techniques are used on many websites today to replace text, such as a header, with an image of the text rendered in a fancy font. Methods range from image tags to background images with massing negative indentation, each with their own disadvantage.
 
 The CSSWG has resolved to allow the `content` property on all elements in CSS3. This property can take a <uri>, creating a replaced element. In CSS3, `content` takes a comma-separated list, so that fallbacks can be specified. Here's an example:
 
@@ -8,6 +8,8 @@ The CSSWG has resolved to allow the `content` property on all elements in CSS3. 
   /* Use image, failing that use element's content. */
   H1 { content: url(sparkly_heading_text.png), contents; }
 </code>
+
+===== Interaction with Fonts =====
 
 We recognize, however, that the likely set of preferences for such headings would be:
 
