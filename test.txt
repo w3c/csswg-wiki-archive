@@ -6,3 +6,7 @@ Our conformance test suites: how to run them, known bugs, and how to contribute.
 ===== CSS 2.1 Conformance Test Suite =====
 
 [[test:CSS2.1|About the CSS2.1 Test Suite]]
+
+===== Selectors Conformance Test Suite =====
+
+[[test:selectors|About the Selectors Test Suite]]
