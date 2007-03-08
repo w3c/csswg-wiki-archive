@@ -1,6 +1,6 @@
 ====== About This Wiki ======
 
-This wiki is to help the CSSWG record resolutions and open issues, to present them to the public, and to encourage public involvement in the development of test suites.
+This wiki is to help the CSSWG record resolutions and open issues, to share them with public, and to encourage public involvement in the development of CSS and its test suites.
 
 
 ===== Why DokuWiki? =====
