@@ -1,14 +1,16 @@
 ====== About This Wiki ======
 
+This wiki is a [[http://wiki.splitbrain.org/wiki:dokuwiki|DokuWiki]].
+
 <markdown>
   * [Syntax](/wiki/syntax)
   * [Index](/?do=index)
   * [Recent Changes](/?do=recent)
 </markdown>
 
-===== Why DokuWiki? =====
+===== About DokuWiki =====
 
-This wiki is a [[http://wiki.splitbrain.org/wiki:dokuwiki|DokuWiki]]. DokuWiki was chosen because
+DokuWiki was chosen because
 
   * it has decent [[wiki:syntax|markup]] capabilities with relatively clean    HTML output
   * it can accept HTML markup
