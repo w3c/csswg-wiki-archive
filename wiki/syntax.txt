@@ -1,6 +1,12 @@
 ====== Formatting Syntax ======
 
-[[wiki:DokuWiki]] supports some simple markup language, which tries to make the datafiles to be as readable as possible. This page contains all possible syntax you may use when editing the pages. Simply have a look at the source of this page by pressing the //Edit this page// button at the top or bottom of the page. If you want to try something, just use the [[playground:playground|playground]] page. The simpler markup is easily accessible via [[doku>wiki:quickbuttons|quickbuttons]], too.
+[[wiki:DokuWiki]] supports some simple markup, which tries to make the datafiles to be as readable as possible. This page contains all possible syntax you may use when editing the pages. Simply have a look at the source of this page by pressing the //Edit this page// button at the top or bottom of the page. If you want to try something, just use the [[playground:playground|playground]] page. The simpler markup is easily accessible via [[doku>wiki:quickbuttons|quickbuttons]], too.
+
+===== Markdown =====
+
+[markdown]
+This wiki supports [Markdown Extra](http://www.michelf.com/projects/php-markdown/extra/) sections, which are enclosed by `[markdown]` and <code>&#x5b;/markdown]</code>. Markdown sections can't generate section edit links and don't trigger typographic substitution, but they are much better at handling lists and embedded HTML.
+[/markdown]
 
 ===== Basic text formatting =====
 
@@ -370,4 +376,4 @@ echo '<img src="' . $_SERVER['PHP_SELF'] . '?=' . php_logo_guid() . '" alt="PHP 
 
 DokuWiki's syntax can be extended by [[doku>wiki:plugins|Plugins]]. How the installed plugins are used is described on their appropriate description pages. The following syntax plugins are available in this particular DokuWiki installation:
 
-~~INFO:syntaxplugins~~
+~~INFO:syntaxplugins~~ 
