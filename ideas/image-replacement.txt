@@ -16,7 +16,9 @@ We recognize, however, that the likely set of preferences for such headings woul
   - Use the preferred font if it is installed on the system.
   - Otherwise download the font and use it, if possible.
   - Otherwise display the image in place of the contents, if possible.
-  - Otherwise display the contents.
+  - Otherwise display the contents in an available font.
+
+The font parts (preferred font, downloaded font, available font) can be done in CSS2 with `font-family` and `@font-face`, but incorporating image replacement into the list requires something more.
 
 At the May 2006 face-to-face meeting, the CSSWG [[http://lists.w3.org/Archives/Member/w3c-css-wg/2006AprJun/0111.html|accepted a proposal]] from Ian to add a `require-font` function to the `content` property. The function would not create any content, but would trigger the next fallback if the fonts in its argument list (whether pre-installed or downloaded via `@font-face`) were not available for use.
 
