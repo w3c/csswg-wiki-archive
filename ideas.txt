@@ -1,6 +1,6 @@
 ====== Ideas and Resolutions ======
 
-A record of ideas and issues we are considering for CSS3
+A record of ideas and issues we we have discussed for CSS3
 and of resolutions we have adopted about the future of CSS,
 particularly those that are not otherwise recorded in our
 specifications (yet).
