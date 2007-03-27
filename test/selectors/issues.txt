@@ -48,5 +48,5 @@ Resolution
   Don't use wording about how the activation ends.
 
 Status
-: VERIFYME
+: FIXME
 </markdown>
