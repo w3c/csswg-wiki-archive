@@ -3,4 +3,5 @@
 Our conformance test suites: how to run them, known bugs, and how to contribute.
 
   * [[test:CSS2.1|CSS2.1 Conformance Test Suite]]
-  * [[test:selectors|Selectors Conformance Test Suite]]
+  * [[test:selectors|Selectors Level 3 Conformance Test Suite]]
+  * [[test:paged-media|Paged Media Level 3 Conformance Test Suite]]
