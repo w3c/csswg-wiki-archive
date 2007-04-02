@@ -183,8 +183,10 @@
       besides you.</p>
 </html>
 
+
 ==== Adding New Files ====
 
+<html>
     <p>To add a file to the tree, first <strong><code class="command">cd</code> to its
       parent directory</strong> then type</p>
 
@@ -196,6 +198,7 @@
       with the <code>-kb</code> options.</p>
 
     <pre><kbd>cvs add -kb <var>filename</var></kbd></pre>
+</html>
 
 ==== Removing Files ====
 
