@@ -11,7 +11,7 @@ NEED TO TEST ON WINDOWS
   * Perl
       * Perl is available on Windows through [[http://www.cygwin.com/|Cygwin]] (make sure you check the box to install perl) and through the [[http://www.activestate.com/Products/ActivePerl/|ActivePerl]] distribution.
       * Perl is usually pre-installed on *nix. Install the ''perl'' package if it's not.
-  * Perl's expat XML parser
+  * Perl's ''XML::Expat'' module
 
 Once you have the pre-requisites set up,
 
