@@ -20,7 +20,8 @@
     manually resolved before trying again.</p>
 </html>
 
-===== Using CVS =====
+
+===== Using Command-line CVS =====
 
 ==== Setting ''$CVSROOT'' ====
 
@@ -161,6 +162,7 @@
 	    <pre><kbd>cvs diff -pu8N path/to/file1 path/to/file2 ... > patch.out</kbd></pre>
 </html>
 
+
 ==== Committing Changes ====
 
 <html>
@@ -179,6 +181,7 @@
     <p>The comment should include the reviewer (<q>r=<var>someone</var></q> and the
       patch author (<q>patch by <var>foo@example.com</var></q>) if written by someone
       besides you.</p>
+</html>
 
 ==== Adding New Files ====
 
