@@ -23,7 +23,7 @@
 
 ===== Using Command-line CVS =====
 
-==== Setting ''$CVSROOT'' ====
+==== Setting $CVSROOT ====
 
 <html>
     <p>Before you can do anything with cvs, you first need to tell it where
@@ -32,7 +32,6 @@
       using the <code>-d</code> option. Setting the <code>$CVSROOT</code>
       environment variable is usually the most convenient because then you
       only have to type it once; subsequent <code class="command">cvs</code>
-
       commands will all use that <code>$CVSROOT</code> setting.</p>
 
     <div class="example" title="Setting the $CVSROOT Environment Variable">
@@ -46,13 +45,14 @@
         <dd><pre><kbd>setenv CVSROOT <var>cvsroot-string</var></kbd></pre></dd>
       </dl>
       <p>where <var>cvsroot-string</var> is of the form
-        <code>:protocol:username@server:/path-to-repository</code>.</p>
-
+        <code>:protocol:username@server:/path-to-repository</code>. (<strong>The
+        <var>cvsroot-string</var> for anonymous read-only access to dev.w3.org
+        is <code>:pserver:anonymous@dev.w3.org:/sources/public</code>.</strong>)</p>
     </div>
 
     <p>To use <code>-d</code> instead, add <kbd>-d <var>cvsroot-string</var></kbd>
       as the first argument after 'cvs' in each <code class="command">cvs</code>
-      command.</p>
+      command. For example:</p>
 
     <div class="example" title="Using the -d Option to Perform a Checkout">
       <pre><kbd>cvs -d :pserver:anonymous@dev.w3.org:/sources/public co CSS</kbd>
