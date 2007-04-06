@@ -707,6 +707,7 @@ XXX If the above constraints are contradictory ("over-constrained") then
 : <q></q>
 </markdown>
 
+
 ==== left side ====
 <markdown>
 The used values of the left-top, left-middle, and left-bottom margin boxes' heights and top and bottom margins are chosen such that the sum of the squares of their top and bottom margins is minimized under the constraints below.
@@ -759,9 +760,7 @@ The used value of the left-bottom box's top margin is its computed value unless 
     <p>7a. If the computed values of the top box's top and bottom margins are 'auto and not 'auto', respectively, then the used value of the bottom margin is its computed value. If the computed values of the bottom box's top and bottom margins are not 'auto' and 'auto', respectively, then the used value of the top margin is its computed value. This effectively means that the specified bottom margin of the top box is ignored if necessary, and ditto for the top margin of the bottom box.</p>
   </blockquote>
 
-XXX If the above constraints are contradictory ("over-constrained") then
-    the bottom margin of the left-top box and the top margin of the left-bottom box
-    are treated as if their computed values were 'auto'.
+XXX If the above constraints are contradictory ("over-constrained") then the bottom margin of the left-top box and the top margin of the left-bottom box are treated as if their computed values were 'auto'.
 : <q></q>
 </markdown>
 
