@@ -2,7 +2,7 @@
 
 <html>
 <p>This document contains a table of testable assertions extracted from the <cite>
-<a href=" http://www.w3.org/TR/2006/WD-css3-page-20061010">CSS3 Paged Media 
+<a href=" http://www.w3.org/TR/2006/WD-css3-page-20061010">CSS3 Paged Media
 Module, W3C Last Call Working Draft 10 October 2006</a> </cite>
 specification, and, for each assertion, a list of associated tests. </p>
 </html>
@@ -45,84 +45,84 @@ Any adjustment to keep content within the printable area must fit constraints in
 : <q>Printing devices MAY adjust the layout of the document so that content falls within the printable area. How this adjustment is accomplished is device dependent within the constraints expressed in the sections Rendering page boxes that do not fit a page sheet and Content outside the page box.</q>
 
   Tests:
-  
-XXX The top-left-corner margin box's margin edges are defined by a fixed-size box defined by the intersection of the top and left margins of the page box.
+
+XX The top-left-corner margin box's margin edges are defined by a fixed-size box defined by the intersection of the top and left margins of the page box.
 : <q></q>
 
   Tests:
 
-XXX The top-left margin box's margin edges are defined by a variable-width box filling the top page margin between the top-left-corner and top-center margin boxes.
+XX The top-left margin box's margin edges are defined by a variable-width box filling the top page margin between the top-left-corner and top-center margin boxes.
 : <q></q>
 
   Tests:
 
-XXX The top-center margin box's margin edges are defined by a variable-width box centered horizontally between the page's left and right border edges and filling the top page margin between the top-left and top-right margin boxes.
-: <q></q>
-
-  Tests:
-    
-XXX The top-right margin box's margin edges are defined bya a variable-width box filling the top page margin between the top-center and top-right-corner margin boxes.
+XX The top-center margin box's margin edges are defined by a variable-width box centered horizontally between the page's left and right border edges and filling the top page margin between the top-left and top-right margin boxes.
 : <q></q>
 
   Tests:
 
-XXX The top-right-corner margin box's margin edges are defined by a a fixed-size box defined by the intersection of the top and right margins of the page box.
+XX The top-right margin box's margin edges are defined bya a variable-width box filling the top page margin between the top-center and top-right-corner margin boxes.
 : <q></q>
 
   Tests:
 
-XXX The left-top margin box's margin edges are defined by a a variable-height box filling the left page margin between the top-left-corner and left-middle margin 
+XX The top-right-corner margin box's margin edges are defined by a a fixed-size box defined by the intersection of the top and right margins of the page box.
+: <q></q>
+
+  Tests:
+
+XX The left-top margin box's margin edges are defined by a a variable-height box filling the left page margin between the top-left-corner and left-middle margin
 boxes.
 : <q></q>
 
   Tests:
 
-XXX The left-middle margin box's margin edges are defined by a a variable-height box centered vertically between the page's top and bottom border edges and filling the left page margin between the left-top and left-bottom margin boxes.
-: <q></q>
-
-  Tests:
-    
-XXX The left-bottom margin box's margin edges are defined by a variable-height box filling the left page margin between the left-middle and bottom-left-corner margin boxes.
-: <q></q>
-
-  Tests:
-    
-XXX The right-top margin box's margin edges are defined by a variable-height box filling the right page margin between the top-right-corner and right-middle margin boxes.
-: <q></q>
-
-  Tests:
-    
-XXX The right-middle margin box's margin edges are defined by a variable-height box centered vertically between the page's top and bottom border edges and filling the right page margin between the right-top and right-bottom margin boxes.
-: <q></q>
-
-  Tests:
-    
-XXX The right-bottom margin box's margin edges are defined by a variable-height box filling the right page margin between the right-middle and bottom-right-corner margin boxes.
-: <q></q>
-
-  Tests:
-    
-XXX The bottom-left-corner margin box's margin edges are defined by a fixed-size box defined by the intersection of the bottom and left margins of the page box.
-: <q></q>
-
-  Tests:
-    
-XXX The bottom-left margin box's margin edges are defined by a variable-width box filling the bottom page margin between the bottom-left-corner and bottom-center margin boxes.
+XX The left-middle margin box's margin edges are defined by a a variable-height box centered vertically between the page's top and bottom border edges and filling the left page margin between the left-top and left-bottom margin boxes.
 : <q></q>
 
   Tests:
 
-XXX The bottom-center margin box's margin edges are defined by a variable-width box centered horizontally between the page's left and right border edges and filling the bottom page margin between the bottom-left and bottom-right margin boxes.
+XX The left-bottom margin box's margin edges are defined by a variable-height box filling the left page margin between the left-middle and bottom-left-corner margin boxes.
 : <q></q>
 
   Tests:
 
-XXX The bottom-right margin box's margin edges are defined by a variable-width box filling the bottom page margin between the bottom-center and bottom-right-corner margin boxes.
+XX The right-top margin box's margin edges are defined by a variable-height box filling the right page margin between the top-right-corner and right-middle margin boxes.
 : <q></q>
 
   Tests:
 
-XXX The bottom-right-corner margin box's margin edges are defined by a fixed-size box defined by the intersection of the bottom and right margins of the page box.
+XX The right-middle margin box's margin edges are defined by a variable-height box centered vertically between the page's top and bottom border edges and filling the right page margin between the right-top and right-bottom margin boxes.
+: <q></q>
+
+  Tests:
+
+XX The right-bottom margin box's margin edges are defined by a variable-height box filling the right page margin between the right-middle and bottom-right-corner margin boxes.
+: <q></q>
+
+  Tests:
+
+XX The bottom-left-corner margin box's margin edges are defined by a fixed-size box defined by the intersection of the bottom and left margins of the page box.
+: <q></q>
+
+  Tests:
+
+XX The bottom-left margin box's margin edges are defined by a variable-width box filling the bottom page margin between the bottom-left-corner and bottom-center margin boxes.
+: <q></q>
+
+  Tests:
+
+XX The bottom-center margin box's margin edges are defined by a variable-width box centered horizontally between the page's left and right border edges and filling the bottom page margin between the bottom-left and bottom-right margin boxes.
+: <q></q>
+
+  Tests:
+
+XX The bottom-right margin box's margin edges are defined by a variable-width box filling the bottom page margin between the bottom-center and bottom-right-corner margin boxes.
+: <q></q>
+
+  Tests:
+
+XX The bottom-right-corner margin box's margin edges are defined by a fixed-size box defined by the intersection of the bottom and right margins of the page box.
 : <q></q>
   Tests:
 </markdown>
@@ -185,12 +185,12 @@ The 'portrait' value of the 'size' property specifies that the page's content be
 : <q>Specifies that the page's content be printed in portrait orientation. The page box is the same size as the page, and the shorter sides are horizontal.</q>
 
   Tests:
-  
+
 XXX If a preferred output media size is indicated via <length> or <page-size> values for the 'size' property, output must be rendered on the media size indicated if available.
 : <q>When possible, output should be rendered on the media size indicated; if not available, a larger size should be used; if not available, the contents of the page box should be scaled down to fit the smaller page sheet.</q>
 
   Tests:
-  
+
 XXX If a preferred output media size is indicated via <length> or <page-size> values for the 'size' property and the indicated media size is not available, a larger size must be used if available.
 : <q>When possible, output should be rendered on the media size indicated; if not available, a larger size should be used; if not available, the contents of the page box should be scaled down to fit the smaller page sheet.</q>
 
@@ -214,47 +214,47 @@ In <length> values for the 'size' property, the 'em' and 'ex' units refer to the
 : <q>Therefore, values in units of 'em' and 'ex' refer to the page context's font.</q>
 
   Tests:
-  
+
 The 'A5' value of the 'size' property specifies that the page box's width be 148mm and its height 210mm.
 : <q>A5: The page box SHOULD be set to the size of ISO A5 media: 148mm wide and 210 mm high.</q>
 
   Tests:
-  
+
 The 'A4' value of the 'size' property specifies that the page box's width be 210m and its height 297mm.
 : <q>A4: The page box SHOULD be set to the size of ISO A4 media: 210mm wide and 297mm high.</q>
 
   Tests:
-  
+
 The 'A3' value of the 'size' property specifies that the page box's width be 297mm and its height 420mm.
 : <q>A3: The page box SHOULD be set to the size of ISO A3 media: 297mm wide and 420mm high.</q>
 
   Tests:
-  
+
 XXX The 'B5' value of the 'size' property specifies that the page box's width be 176mm and its height 250mm.
 : <q>B5: The page box SHOULD be set to the size of ISO B3 media: 176mm wide and 250mm high.</q>
 
   Tests:
-  
+
 The 'B4' value of the 'size' property specifies that the page box's width be 250mm and its height 353mm.
 : <q>B4: The page box SHOULD be set to the size of ISO B4 media: 250mm wide and 353mm high.</q>
 
   Tests:
-  
+
 The 'letter' value of the 'size' property specifies that the page box's width be 8.5in and its height 11in.
 : <q>letter: The page box SHOULD be set to the size of North American letter media: 8.5in wide and 11in high.</q>
 
   Tests:
-  
+
 The 'legal' value of the 'size' property specifies that the page box's width be 8.5in and its height 14in.
 : <q>legal: The page box SHOULD be set to the size of North American media: 8.5in wide and 14in high.</q>
 
   Tests:
-  
+
 The 'ledger' value of the 'size' property specifies that the page box's width be 11in and its height 17in.
 : <q>legal: The page box SHOULD be set to the size of North American media: 11in wide and 17in high.</q>
 
   Tests:
-  
+
 SSS User agents SHOULD also support Media Size Self-Describing Names as defined in Section 5 of [PWGMSN].
 
   Tests:
@@ -310,7 +310,7 @@ TOPLEFT_SYM           ::= "@top-left"
 TOPCENTER_SYM         ::= "@top-center"
 TOPRIGHT_SYM          ::= "@top-right"
 TOPRIGHTCORNER_SYM    ::= "@top-right-corner"
-BOTTOMLEFTCORNER_SYM  ::= "@bottom-left-corner" 
+BOTTOMLEFTCORNER_SYM  ::= "@bottom-left-corner"
 BOTTOMLEFT_SYM        ::= "@bottom-left"
 BOTTOMCENTER_SYM      ::= "@bottom-center"
 BOTTOMRIGHT_SYM       ::= "@bottom-right"
@@ -324,7 +324,7 @@ RIGHTBOTTOM_SYM       ::= "@right-bottom"
 
 
 <a href="#page" id="syntax-prod-page">page</a> :
-       PAGE_SYM S* IDENT? pseudo_page? S* 
+       PAGE_SYM S* IDENT? pseudo_page? S*
        <code class="css">'{'</code> S* [ declaration | margin ]? [ <code class="css">';'</code> S* [ declaration | margin ]? ]* <code class="css">'}'</code> S*
        ;
 
@@ -339,14 +339,14 @@ RIGHTBOTTOM_SYM       ::= "@right-bottom"
 
 
 <span id="syntax-prod-margin-sym">margin_sym</span> :
-       TOPLEFTCORNER_SYM | 
-       TOPLEFT_SYM | 
-       TOPCENTER_SYM | 
-       TOPRIGHT_SYM | 
+       TOPLEFTCORNER_SYM |
+       TOPLEFT_SYM |
+       TOPCENTER_SYM |
+       TOPRIGHT_SYM |
        TOPRIGHTCORNER_SYM |
-       BOTTOMLEFTCORNER_SYM | 
-       BOTTOMLEFT_SYM | 
-       BOTTOMCENTER_SYM | 
+       BOTTOMLEFTCORNER_SYM |
+       BOTTOMLEFT_SYM |
+       BOTTOMCENTER_SYM |
        BOTTOMRIGHT_SYM |
        BOTTOMRIGHTCORNER_SYM |
        LEFTTOP_SYM |
@@ -354,7 +354,7 @@ RIGHTBOTTOM_SYM       ::= "@right-bottom"
        LEFTBOTTOM_SYM |
        RIGHTTOP_SYM |
        RIGHTMIDDLE_SYM |
-       RIGHTBOTTOM_SYM 
+       RIGHTBOTTOM_SYM
        ;</pre>
   </blockquote>
 
@@ -406,7 +406,7 @@ Background properties defined in CSS2.1 apply to the page box.
 : <q></q>
 
   Tests:
-  
+
 Border properties defined in CSS2.1 apply to the page box.
 : <q></q>
 
@@ -451,8 +451,8 @@ XXX Margin boxes inherit inheritable properties from the page context.
 : <q>That is, when set in the page context, the values become the initial values for the margin boxes.</q>
 
   Tests:
-  
-XXX Properties other than those listed above are invalid within the page context. 
+
+XXX Properties other than those listed above are invalid within the page context.
 : <q></q>
 
   Tests:
@@ -462,32 +462,32 @@ Background properties defined in CSS2.1 apply to margin boxes.
 
   Tests:
 
-Border properties defined in CSS2.1 apply to margin boxes. 
+Border properties defined in CSS2.1 apply to margin boxes.
 : <q></q>
 
   Tests:
 
-Margin properties defined in CSS2.1 apply to margin boxes. 
+Margin properties defined in CSS2.1 apply to margin boxes.
 : <q></q>
 
   Tests:
 
-Padding properties defined in CSS2.1 apply to margin boxes. 
+Padding properties defined in CSS2.1 apply to margin boxes.
 : <q></q>
 
   Tests:
 
-The 'color' property applies to margin boxes. 
+The 'color' property applies to margin boxes.
 : <q></q>
 
   Tests:
 
-Font properties defined in CSS2.1 apply to margin boxes. 
+Font properties defined in CSS2.1 apply to margin boxes.
 : <q></q>
 
   Tests:
 
-Text properties defined in CSS2.1 apply to margin boxes. 
+Text properties defined in CSS2.1 apply to margin boxes.
 : <q></q>
 
   Tests:
@@ -542,18 +542,287 @@ A margin-box background is painted over (on top of) the page background.
 
   Tests:
 
-XXX The root element then paints the canvas within the page area.
+XXX The root element then paints the canvas within the page's {border|padding} box?
 : <q>The root element then paints the canvas within the page area</q>
 
   Tests:
-  
+
 XXX The page context's background image is positioned and anchored within the page's padding box.
 : <q>The origin of the page background is the upper-left corner of the page area.</q>
 
   Tests:
-  
+
 When a page break splits a box, the box's margins, borders, and padding have no visual effect where the split occurs.
 : <q>When a page break splits a box, the box's margins, borders, and padding have no visual effect where the split occurs.</q>
 
   Tests:
+
+</markdown>
+
+===== Left, right, and first pages =====
+<markdown>
+User agents automatically classify all pages into either the ':left' or ':right'
+pseudo-class.
+: <q>When printing double-sided documents, the page boxes on left and right pages MAY be different.</q>
+
+  Tests:
+
+XXX The user agent must honor declarations for ':left' and ':right' even if the user agent does not transfer page boxes to left and right sheets (e.g. a printer that only prints single-sided). HOW?
+: <q>If different declarations have been given for left and right pages, the user agent must honor these declarations even if the user agent does not transfer page boxes to left and right sheets (e.g. a printer that only prints single-sided).</q>
+
+  Tests:
+
+XXX Declarations inside a page context defined with the ':first' pseudo-class apply only to the first page of a document.
+: <q>Authors MAY  also specify style for the first page of a document with the ':first' pseudo-class:</q>
+
+  Tests:
+</markdown>
+
+===== Margin Boxes =====
+<markdown>
+XX Margin boxes are oriented with respect to the content and are independent of page orientation.
+: <q>Please note that the margin boxes are oriented with respect to the content and are independent of page orientation</q>
+
+  Tests:
+</markdown>
+
+===== At-rules for margin boxes =====
+
+A margin at-rule consists of an ATKEYWORD that identifies the margin box (e.g. '@top-left') and a block of declarations (said to be in the margin context).
+
+===== Dimension of margin boxes =====
+
+==== top row ====
+
+<markdown>
+The used values of the top-left, top-center, and top-right margin boxes' widths and left and right margins are chosen such that the sum of the squares of their left and right margins is minimized under the constraints below.
+: <blockquote>
+    <p>The following rules apply to 'top-left', 'top-center' and 'top-right' margin boxes, which are referred to as [1], [2], and [3], respectively, in the expression below.</p>
+    <p>The UA chooses used values for each box's width, left and right margin, left and right border thickness, and left and right padding. It chooses them in such a way that the value of: left-margin[1]² + left-margin[2]² + left-margin[3]² + right-margin[1]² + 	right-margin[2]² + right-margin[3]² is as small as possible under the constraints below. ("foo[n]" stands for the used value of property foo of the n'th box and "x²" for the square of x.)</p>
+  </blockquote>
+
+The sum of the outer widths of the top-left, top-center, and top-right boxes is equal to the distance between the right page border edge and the right page border edge.
+: <q>The sum of the outer widths of the three boxes is equal to max box width.</q>
+  <q>max box width, which is the sum of the width of the page's left padding area, the width of the page area, and the width of the page's right padding area. In other words, it is the distance between the left page border and the right page border.</q>
+
+If the top-center box is not empty or its computed width is not 'auto' then the outer widths of the top-left and top-right boxes are equal.
+: <q>If the center box is not empty or if its computed width is not 'auto', then the outer widths of the other two boxes are equal to each other (i.e., the center box is centered in that case).</q>
+
+XX If the top-left box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
+: <q>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</q>
+
+XX If the top-center box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
+: <q>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</q>
+
+XX If the top-right box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
+: <q>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</q>
+
+The used value of the top-left box's left margin is its computed value unless that value is 'auto'.
+: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the top-center box's left margin is its computed value unless that value is 'auto'.
+: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the top-center box's right margin is its computed value unless that value is 'auto'.
+: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the top-right box's right margin is its computed value unless that value is 'auto'.
+: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the top-left box's right margin is its computed value unless that value is 'auto' or unless honoring both this margin and the top-right box's computed left margin contradicts another constraint.
+: <blockquote>
+    <p>7. The used values of the left box's right margin and the right box's left margin are their respective computed values, unless that computed value is 'auto'.</p>
+    <p>If the above constraints are contradictory ("over-constrained"), then constraint 7 is replaced by 7a:</p>
+    <p>7a. If the computed values of the left box's left and right margins are 'auto and not 'auto', respectively, then the used value of the right margin is its computed value. If the computed values of the right box's left and right margins are not 'auto' and 'auto', respectively, then the used value of the left margin is its computed value. This effectively means that the specified right margin of the left box is ignored if necessary, and ditto for the left margin of the right box.</p>
+  </blockquote>
+
+The used value of the top-right box's left margin is its computed value unless that value is 'auto' or unless honoring both this margin and the top-left box's computed right margin contradicts another constraint.
+: <blockquote>
+    <p>7. The used values of the left box's right margin and the right box's left margin are their respective computed values, unless that computed value is 'auto'.</p>
+    <p>If the above constraints are contradictory ("over-constrained"), then constraint 7 is replaced by 7a:</p>
+    <p>7a. If the computed values of the left box's left and right margins are 'auto and not 'auto', respectively, then the used value of the right margin is its computed value. If the computed values of the right box's left and right margins are not 'auto' and 'auto', respectively, then the used value of the left margin is its computed value. This effectively means that the specified right margin of the left box is ignored if necessary, and ditto for the left margin of the right box.</p>
+  </blockquote>
+
+XXX If the above constraints are contradictory ("over-constrained") then
+    the right margin of the top-left box and the left margin of the top-right box
+    are treated as if their computed values were 'auto'.
+: <q></q>
+</markdown>
+
+==== bottom row ====
+
+<markdown>
+The used values of the bottom-left, bottom-center, and bottom-right margin boxes' widths and left and right margins are chosen such that the sum of the squares of their left and right margins is minimized under the constraints below.
+: <blockquote>
+    <p>The following rules apply to 'top-left', 'top-center' and 'top-right' margin boxes, which are referred to as [1], [2], and [3], respectively, in the expression below.</p>
+    <p>The UA chooses used values for each box's width, left and right margin, left and right border thickness, and left and right padding. It chooses them in such a way that the value of: left-margin[1]² + left-margin[2]² + left-margin[3]² + right-margin[1]² + 	right-margin[2]² + right-margin[3]² is as small as possible under the constraints below. ("foo[n]" stands for the used value of property foo of the n'th box and "x²" for the square of x.)</p>
+  </blockquote>
+
+  <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+
+The sum of the outer widths of the bottom-left, bottom-center, and bottom-right boxes is equal to the distance between the right page border edge and the right page border edge.
+: <q>The sum of the outer widths of the three boxes is equal to max box width.</q>
+  <q>max box width, which is the sum of the width of the page's left padding area, the width of the page area, and the width of the page's right padding area. In other words, it is the distance between the left page border and the right page border.</q>
+
+If the bottom-center box is not empty or its computed width is not 'auto' then the outer widths of the bottom-left and bottom-right boxes are equal.
+: <q>If the center box is not empty or if its computed width is not 'auto', then the outer widths of the other two boxes are equal to each other (i.e., the center box is centered in that case).</q>
+
+XX If the bottom-left box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
+: <q>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</q>
+
+XX If the bottom-center box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
+: <q>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</q>
+
+XX If the bottom-right box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
+: <q>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</q>
+
+The used value of the bottom-left box's left margin is its computed value unless that value is 'auto'.
+: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the bottom-center box's left margin is its computed value unless that value is 'auto'.
+: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the bottom-center box's right margin is its computed value unless that value is 'auto'.
+: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the bottom-right box's right margin is its computed value unless that value is 'auto'.
+: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the bottom-left box's right margin is its computed value unless that value is 'auto' or unless honoring both this margin and the bottom-right box's computed left margin contradicts another constraint.
+: <blockquote>
+    <p>7. The used values of the left box's right margin and the right box's left margin are their respective computed values, unless that computed value is 'auto'.</p>
+    <p>If the above constraints are contradictory ("over-constrained"), then constraint 7 is replaced by 7a:</p>
+    <p>7a. If the computed values of the left box's left and right margins are 'auto and not 'auto', respectively, then the used value of the right margin is its computed value. If the computed values of the right box's left and right margins are not 'auto' and 'auto', respectively, then the used value of the left margin is its computed value. This effectively means that the specified right margin of the left box is ignored if necessary, and ditto for the left margin of the right box.</p>
+  </blockquote>
+
+The used value of the bottom-right box's left margin is its computed value unless that value is 'auto' or unless honoring both this margin and the bottom-left box's computed right margin contradicts another constraint.
+: <blockquote>
+    <p>7. The used values of the left box's right margin and the right box's left margin are their respective computed values, unless that computed value is 'auto'.</p>
+    <p>If the above constraints are contradictory ("over-constrained"), then constraint 7 is replaced by 7a:</p>
+    <p>7a. If the computed values of the left box's left and right margins are 'auto and not 'auto', respectively, then the used value of the right margin is its computed value. If the computed values of the right box's left and right margins are not 'auto' and 'auto', respectively, then the used value of the left margin is its computed value. This effectively means that the specified right margin of the left box is ignored if necessary, and ditto for the left margin of the right box.</p>
+  </blockquote>
+
+XXX If the above constraints are contradictory ("over-constrained") then
+    the right margin of the bottom-left box and the left margin of the bottom-right box
+    are treated as if their computed values were 'auto'.
+: <q></q>
+</markdown>
+
+==== left side ====
+<markdown>
+The used values of the left-top, left-middle, and left-bottom margin boxes' heights and top and bottom margins are chosen such that the sum of the squares of their top and bottom margins is minimized under the constraints below.
+: <blockquote>
+    <p>The following rules apply to 'top-left', 'top-center' and 'top-right' margin boxes, which are referred to as [1], [2], and [3], respectively, in the expression below.</p>
+    <p>The UA chooses used values for each box's width, left and right margin, left and right border thickness, and left and right padding. It chooses them in such a way that the value of: left-margin[1]² + left-margin[2]² + left-margin[3]² + right-margin[1]² + 	right-margin[2]² + right-margin[3]² is as small as possible under the constraints below. ("foo[n]" stands for the used value of property foo of the n'th box and "x²" for the square of x.)</p>
+  </blockquote>
+
+  <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+
+The sum of the outer heights of the left-top, left-middle, and left-bottom boxes is equal to the distance between the bottom page border edge and the bottom page border edge.
+: <q>The sum of the outer heights of the three boxes is equal to max box height.</q>
+  <q>max box height, which is the sum of the height of the page's top padding area, the height of the page area, and the height of the page's bottom padding area. In other words, it is the distance between the top page border and the bottom page border.</q>
+
+If the left-middle box is not empty or its computed height is not 'auto' then the outer heights of the left-top and left-bottom boxes are equal.
+: <q>If the center box is not empty or if its computed height is not 'auto', then the outer heights of the other two boxes are equal to each other (i.e., the center box is centered in that case).</q>
+
+XX If the left-top box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
+: <q>3. If a box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border are all 0.</q>
+
+XX If the left-middle box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
+: <q>3. If a box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border are all 0.</q>
+
+XX If the left-bottom box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
+: <q>3. If a box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border are all 0.</q>
+
+The used value of the left-top box's top margin is its computed value unless that value is 'auto'.
+: <q>The used values of the top box's top margin, the center box's top and bottom margin and the bottom box's bottom margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the left-middle box's top margin is its computed value unless that value is 'auto'.
+: <q>The used values of the top box's top margin, the center box's top and bottom margin and the bottom box's bottom margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the left-middle box's bottom margin is its computed value unless that value is 'auto'.
+: <q>The used values of the top box's top margin, the center box's top and bottom margin and the bottom box's bottom margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the left-bottom box's bottom margin is its computed value unless that value is 'auto'.
+: <q>The used values of the top box's top margin, the center box's top and bottom margin and the bottom box's bottom margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the left-top box's bottom margin is its computed value unless that value is 'auto' or unless honoring both this margin and the left-bottom box's computed top margin contradicts another constraint.
+: <blockquote>
+    <p>7. The used values of the top box's bottom margin and the bottom box's top margin are their respective computed values, unless that computed value is 'auto'.</p>
+    <p>If the above constraints are contradictory ("over-constrained"), then constraint 7 is replaced by 7a:</p>
+    <p>7a. If the computed values of the top box's top and bottom margins are 'auto and not 'auto', respectively, then the used value of the bottom margin is its computed value. If the computed values of the bottom box's top and bottom margins are not 'auto' and 'auto', respectively, then the used value of the top margin is its computed value. This effectively means that the specified bottom margin of the top box is ignored if necessary, and ditto for the top margin of the bottom box.</p>
+  </blockquote>
+
+The used value of the left-bottom box's top margin is its computed value unless that value is 'auto' or unless honoring both this margin and the left-top box's computed bottom margin contradicts another constraint.
+: <blockquote>
+    <p>7. The used values of the top box's bottom margin and the bottom box's top margin are their respective computed values, unless that computed value is 'auto'.</p>
+    <p>If the above constraints are contradictory ("over-constrained"), then constraint 7 is replaced by 7a:</p>
+    <p>7a. If the computed values of the top box's top and bottom margins are 'auto and not 'auto', respectively, then the used value of the bottom margin is its computed value. If the computed values of the bottom box's top and bottom margins are not 'auto' and 'auto', respectively, then the used value of the top margin is its computed value. This effectively means that the specified bottom margin of the top box is ignored if necessary, and ditto for the top margin of the bottom box.</p>
+  </blockquote>
+
+XXX If the above constraints are contradictory ("over-constrained") then
+    the bottom margin of the left-top box and the top margin of the left-bottom box
+    are treated as if their computed values were 'auto'.
+: <q></q>
+</markdown>
+
+==== right side ====
+
+<markdown>
+The used values of the right-top, right-middle, and right-bottom margin boxes' heights and top and bottom margins are chosen such that the sum of the squares of their top and bottom margins is minimized under the constraints below.
+: <blockquote>
+    <p>The following rules apply to 'top-left', 'top-center' and 'top-right' margin boxes, which are referred to as [1], [2], and [3], respectively, in the expression below.</p>
+    <p>The UA chooses used values for each box's width, left and right margin, left and right border thickness, and left and right padding. It chooses them in such a way that the value of: right-margin[1]² + right-margin[2]² + right-margin[3]² + right-margin[1]² + 	right-margin[2]² + right-margin[3]² is as small as possible under the constraints below. ("foo[n]" stands for the used value of property foo of the n'th box and "x²" for the square of x.)</p>
+  </blockquote>
+
+  <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+
+  <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+
+The sum of the outer heights of the right-top, right-middle, and right-bottom boxes is equal to the distance between the bottom page border edge and the bottom page border edge.
+: <q>The sum of the outer heights of the three boxes is equal to max box height.</q>
+  <q>max box height, which is the sum of the height of the page's top padding area, the height of the page area, and the height of the page's bottom padding area. In other words, it is the distance between the top page border and the bottom page border.</q>
+
+If the right-middle box is not empty or its computed height is not 'auto' then the outer heights of the right-top and right-bottom boxes are equal.
+: <q>If the center box is not empty or if its computed height is not 'auto', then the outer heights of the other two boxes are equal to each other (i.e., the center box is centered in that case).</q>
+
+XX If the right-top box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
+: <q>3. If a box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border are all 0.</q>
+
+XX If the right-middle box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
+: <q>3. If a box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border are all 0.</q>
+
+XX If the right-bottom box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
+: <q>3. If a box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border are all 0.</q>
+
+The used value of the right-top box's top margin is its computed value unless that value is 'auto'.
+: <q>The used values of the top box's top margin, the center box's top and bottom margin and the bottom box's bottom margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the right-middle box's top margin is its computed value unless that value is 'auto'.
+: <q>The used values of the top box's top margin, the center box's top and bottom margin and the bottom box's bottom margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the right-middle box's bottom margin is its computed value unless that value is 'auto'.
+: <q>The used values of the top box's top margin, the center box's top and bottom margin and the bottom box's bottom margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the right-bottom box's bottom margin is its computed value unless that value is 'auto'.
+: <q>The used values of the top box's top margin, the center box's top and bottom margin and the bottom box's bottom margin are their respective computed values, unless that computed value is 'auto'.</q>
+
+The used value of the right-top box's bottom margin is its computed value unless that value is 'auto' or unless honoring both this margin and the right-bottom box's computed top margin contradicts another constraint.
+: <blockquote>
+    <p>7. The used values of the top box's bottom margin and the bottom box's top margin are their respective computed values, unless that computed value is 'auto'.</p>
+    <p>If the above constraints are contradictory ("over-constrained"), then constraint 7 is replaced by 7a:</p>
+    <p>7a. If the computed values of the top box's top and bottom margins are 'auto and not 'auto', respectively, then the used value of the bottom margin is its computed value. If the computed values of the bottom box's top and bottom margins are not 'auto' and 'auto', respectively, then the used value of the top margin is its computed value. This effectively means that the specified bottom margin of the top box is ignored if necessary, and ditto for the top margin of the bottom box.</p>
+  </blockquote>
+
+The used value of the right-bottom box's top margin is its computed value unless that value is 'auto' or unless honoring both this margin and the right-top box's computed bottom margin contradicts another constraint.
+: <blockquote>
+    <p>7. The used values of the top box's bottom margin and the bottom box's top margin are their respective computed values, unless that computed value is 'auto'.</p>
+    <p>If the above constraints are contradictory ("over-constrained"), then constraint 7 is replaced by 7a:</p>
+    <p>7a. If the computed values of the top box's top and bottom margins are 'auto and not 'auto', respectively, then the used value of the bottom margin is its computed value. If the computed values of the bottom box's top and bottom margins are not 'auto' and 'auto', respectively, then the used value of the top margin is its computed value. This effectively means that the specified bottom margin of the top box is ignored if necessary, and ditto for the top margin of the bottom box.</p>
+  </blockquote>
+
+XXX If the above constraints are contradictory ("over-constrained") then
+    the bottom margin of the right-top box and the top margin of the right-bottom box
+    are treated as if their computed values were 'auto'.
+: <q></q>
 </markdown>
