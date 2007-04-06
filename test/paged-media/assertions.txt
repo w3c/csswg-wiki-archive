@@ -765,6 +765,7 @@ XXX If the above constraints are contradictory ("over-constrained") then
 : <q></q>
 </markdown>
 
+
 ==== right side ====
 
 <markdown>
@@ -820,8 +821,6 @@ The used value of the right-bottom box's top margin is its computed value unless
     <p>7a. If the computed values of the top box's top and bottom margins are 'auto and not 'auto', respectively, then the used value of the bottom margin is its computed value. If the computed values of the bottom box's top and bottom margins are not 'auto' and 'auto', respectively, then the used value of the top margin is its computed value. This effectively means that the specified bottom margin of the top box is ignored if necessary, and ditto for the top margin of the bottom box.</p>
   </blockquote>
 
-XXX If the above constraints are contradictory ("over-constrained") then
-    the bottom margin of the right-top box and the top margin of the right-bottom box
-    are treated as if their computed values were 'auto'.
+XXX If the above constraints are contradictory ("over-constrained") then the bottom margin of the right-top box and the top margin of the right-bottom box are treated as if their computed values were 'auto'.
 : <q></q>
 </markdown>
