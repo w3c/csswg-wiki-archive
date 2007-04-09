@@ -774,3 +774,23 @@ The used value of the right-bottom box's top margin is its computed value unless
 XXX If the above constraints are contradictory ("over-constrained") then the bottom margin of the right-top box and the top margin of the right-bottom box are treated as if their computed values were 'auto'.
 : <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
 </markdown>
+
+===== Margin boxes and default values =====
+<markdown>
+XXX When 'vertical-align' is set on margin boxes, it affects the placement of content within the box as for table cells.
+: <q></q>
+</markdown>
+
+===== Populating margin boxes =====
+<markdown>
+XXX A margin box is instantiated if the computed value of its 'content' property is not 'normal'.
+: <blockquote>A margin box is instantiated if a margin context is established and one of the following conditions holds:
+  <ul>
+    <li>The computed value of 'content' is not 'none'.</li>
+    <li>The properties 'width' and 'height' are set in the margin context.</li>
+  </ul>
+</blockquote>
+
+The value of the counter at the beginning of page processing must be used by default. (?)
+: <q>The value of the counter at the beginning of page processing  MUST be used by default.</q>
+</markdown>
