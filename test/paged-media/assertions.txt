@@ -281,7 +281,7 @@ SSS If the page box is smaller than the page size the user agent SHOULD either c
 </markdown>
 
 ===== Page Selectors and the Page Context =====
-
+<markdown>
 An @page rule consists of the keyword '@page', an  OPTIONAL page name followed with no intervening space by an OPTIONAL page pseudo-class and a block of declarations and margin rules (said to be in the page context).
 : <q></q>
 
@@ -289,6 +289,7 @@ XXX Properties declared within the page context (and not within a margin box con
 : <q>Properties for the page box are specified within the page context.</q>
 
   Tests:
+</markdown>
 
 ===== Page Selector Grammar =====
 <markdown>
