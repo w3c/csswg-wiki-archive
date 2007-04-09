@@ -1011,3 +1011,41 @@ A positive value for 'image-orientation' rotates the image to the right (in a cl
 A negative value for 'image-orientation' rotates the image to the left (in a counter-clockwise direction) by the given number of degrees.
 : <q>Negative values rotate to the left or in a counter-clockwise direction.</q>
 </markdown>
+
+===== The 'image-scaling' and 'image-position' Properties =====
+<markdown>
+XXX The syntax of the 'image-scaling' property is fill | contain | cover.
+: <q>Value: fill | none | contain | cover</q>
+
+The initial value of the 'image-scaling' property is 'fill'.
+: <q>Initial: fill</q>
+
+The 'image-scaling' property applies to replaced elements only.
+: <q>Applies to: replaced elements</q>
+
+The 'image-scaling' property is inherited.
+: <q>Inherited: yes</q>
+
+The 'image-scaling' property applies to visual media.
+: <q>Media: visual</q>
+
+The 'fill' value of the 'image-scaling' property does not affect the usual calculation of the used 'height' and 'width.
+: <q>fill: Determine the used 'height' and 'width' as usual.</q>
+
+The 'fill' value of the 'image-scaling' property scales the content height and width independently so that the edges of the content just meet the edges of the box established by the used 'height' and 'width'.
+: <q>fill: Scale the content height and width independently so that the edges of the content just meet the edges of the box established by the used 'height' and 'width'.</q>
+
+The 'contain' value of the 'image-scaling' property does not affect the usual calculation of the used 'height' and 'width' except if both 'height' and 'width' are 'auto', and the used value of at least one of 'max-width' and 'max-height' is not 'none', in which case the element's used width and used height are calculated as though the intrinsic dimensions of the contents were infinitely large numbers whose ratio is the actual intrinsic ratio of the contents.
+: <q>contain:  Determine the used 'height' and 'width' as usual, except if both 'height' and 'width' are 'auto', and the used value of at least one of 'max-width' and 'max-height' is not 'none', then compute the element's used width and used height as though the intrinsic dimensions of the contents were infinitely large numbers whose ratio is the actual intrinsic ratio of the contents.</q>
+
+The 'contain' value of the 'image-scaling' property scales the contents of the element, preserving their aspect ratio, to the largest size such that the width of the contents is less than or equal to the used width of the box and the height of the contents is less than or equal to the used height of the box.
+: <q>contain: Scale the contents of the element, preserving their aspect ratio, to the largest size such that the width of the contents is less than or equal to the used width of the box and the height of the contents is less than or equal to the used height of the box.</q>
+
+The 'cover' value of the 'image-scaling' property does not affect the usual calculation of the used height and width except if both 'height' and 'width' are 'auto', and the used value of at least one of 'min-width' and 'min-height' is not '0', in which case the used width and used height of the element are calculated as though the intrinsic dimensions of the contents were infinitesimally small numbers whose ratio is the actual intrinsic ratio of the contents.
+: <q>Determine the used 'height' and 'width' as usual, except if both 'height' and 'width' are 'auto', and the used value of at least one of 'min-width' and 'min-height' is not '0', then compute the used width and used height of the element as though the intrinsic dimensions of the contents were infinitesimally small numbers whose ratio is the actual intrinsic ratio of the contents.</q>
+
+The 'cover' value of the 'image-scaling' property scales the contents of the element, preserving their aspect ratio, to the smallest size such that the width of the contents is greater than or equal to the used width of the box and the height of the contents is greater than or equal to the height of the box.
+: <q>Scale the contents of the element, preserving their aspect ratio, to the smallest size such that the width of the contents is greater than or equal to the used width of the box and the height of the contents is greater than or equal to the height of the box.</q>
+
+The 'overflow' property determines how to render parts of the replaced element's content that extend beyond the edges of its box.
+: <q>The 'overflow' property determines how to render parts of the replaced element's content that extend beyond the edges of its box.</q>
