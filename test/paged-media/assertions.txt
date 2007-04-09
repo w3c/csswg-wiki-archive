@@ -940,11 +940,13 @@ Page breaks may occur between line boxes inside a block box subject to the follo
 
 Breaking in the vertical margin between block boxes (or rows in a table) is allowed only if the 'page-break-after' and 'page-break-before' properties of all the elements generating boxes that meet at this margin allow it, which is when at least one of them has the value  'always', 'left', or 'right', or when all of them are 'auto' and the nearest common ancestor of all the elements does not have a 'page-break-inside value of 'avoid'.
 : <q>Rule A: Breaking at (1) is allowed only if the 'page-break-after' and  'page-break-before' properties of all the elements generating boxes that meet at this margin allow it, which is when at least one of them has the value  'always', 'left', or 'right', or when all of them are 'auto'.</q>
+
   <q>Rule B: However, if all of them are  'auto' and the nearest common ancestor of all the elements has a  'page-break-inside' value of 'avoid', then breaking here is not allowed.</q>
 
 Breaking between line boxes is allowed only if the number of line boxes between the break and the start of the enclosing block box is the value of 'orphans' or more, and the number of line boxes between the break and the end of the box is the value of 'widows' or more and the value of the 'page-break-inside' property is 'auto'.
 : <q>Rule C: Breaking at (2) is allowed only if the number of line boxes between the break and the start of the enclosing block box is the value of 'orphans' or more, and the number of line boxes between the break and the end of the box is the value of 'widows' or more.</q>
-  <q>Rule D: breaking at (2) is allowed only if the  'page-break-inside' property is 'auto'.
+
+  <q>Rule D: breaking at (2) is allowed only if the  'page-break-inside' property is 'auto'.</q>
 
 If the above doesn't provide enough break points to keep content from overflowing the page boxes, then the restrictions imposed by 'avoid' on the 'page-break-*' properties are dropped.
 : <q>If the above doesn't provide enough break points to keep content from overflowing the page boxes, then rules A, B and D are dropped in order to find additional breakpoints.</q>
