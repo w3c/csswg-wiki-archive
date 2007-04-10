@@ -1059,22 +1059,34 @@ The 'image-position' property is inherited.
 The 'image-position' property applies to visual media.
 : <q>Media: visual</q>
 
-When two values are given for 'image-position' and at least one of them is not a keyword, the first value represents alignment in the horizontal dimension and the second represents alignment in the vertical.
+XXX When two values are given for 'image-position' and at least one of them is not a keyword, the first value represents alignment in the horizontal dimension and the second represents alignment in the vertical.
+: <q>See background-position  for a detailed description of values other than 'auto'.</q>
 
-When a single value is given for 'image-position' and that value is not a keyword, that value represents alignment in the horizontal dimension and alignment in the vertical dimension is treated as 50%.
+  <q>If two values are given, the horizontal position comes first. (CSS2.1:14.2.1)</q>
 
-When the first value of 'image-position' is a percentage X, the point X% across the image from its left edge must be aligned with the point X% across the padding box of the element.
+XXX When a single value is given for 'image-position' and that value is not a keyword, that value represents alignment in the horizontal dimension and alignment in the vertical dimension is treated as 50%.
+: <q>See background-position  for a detailed description of values other than 'auto'.</q>
+
+  <q>If only one percentage or length value is given, it sets the horizontal position only, and the vertical position will be 50%. (CSS2.1:14.2.1)</q>
+
+XXX When the first value of 'image-position' is a percentage X, the point X% across the image from its left edge must be aligned with the point X% across the padding box of the element.
+: <q>With a value pair of '0% 0%', the upper left corner of the image is aligned with the upper left corner of the box's padding edge. A value pair of '100% 100%' places the lower right corner of the image in the lower right corner of padding area. With a value pair of '14% 84%', the point 14% across and 84% down the image is to be placed at the point 14% across and 84% down the padding area.</q>
 
 When the second value of 'image-position' is a percentage Y, the point Y% down the image from its top edge must be aligned with the point Y% down the padding box of the element.
+: <q>With a value pair of '0% 0%', the upper left corner of the image is aligned with the upper left corner of the box's padding edge. A value pair of '100% 100%' places the lower right corner of the image in the lower right corner of padding area. With a value pair of '14% 84%', the point 14% across and 84% down the image is to be placed at the point 14% across and 84% down the padding area.</q>
 
-When the first value of 'image-position' is a length L, the left edge of the image is placed L to the right of the left edge of the padding box of the element.
+XXX When the first value of 'image-position' is a length L, the left edge of the image is placed L to the right of the left edge of the padding box of the element.
+: <q>With a value pair of '2cm 2cm', the upper left corner of the image is placed 2cm to the right and 2cm below the upper left corner of the padding area.</q>
 
-When the second value of 'image-position' is a length L, the top edge of the image is placed L below the top edge of the padding box of the element.
+XXX When the second value of 'image-position' is a length L, the top edge of the image is placed L below the top edge of the padding box of the element.
+: <q>With a value pair of '2cm 2cm', the upper left corner of the image is placed 2cm to the right and 2cm below the upper left corner of the padding area.</q>
 
 The 'top' value of 'image-position' is the same as 0% for the vertical alignment value.
+: <q>'top left', 'left top': Same as '0% 0%'. 'top', 'top center', 'center top': Same as '50% 0%'. 'right top', 'top right':  Same as '100% 0%'.</q>
 
 The 'left' value of 'image-position' is the same as 0% for the horizontal alignment value.
+: <q>'top left', 'left top': Same as '0% 0%'. 'left', 'left center', 'center left': Same as '0% 50%'. 'bottom left', 'left bottom': Same as '0% 100%'.</q>
 
 The 'center' value of 'image-position' is the same as 50% for either the horizontal alignment value (if it is not otherwise given) or the vertical alignment value (if it is not otherwise given).
-
+: <q>'top', 'top center', 'center top': Same as '50% 0%'. 'left', 'left center', 'center left': Same as '0% 50%'. 'center', 'center center': Same as '50% 50%'. 'center', 'center center': Same as '50% 50%'. 'bottom', 'bottom center', 'center bottom': Same as '50% 100%'.</q>
 </markdown>
