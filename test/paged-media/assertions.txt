@@ -1043,7 +1043,6 @@ The 'cover' value of the 'image-scaling' property scales the contents of the ele
 
 The 'overflow' property determines how to render parts of the replaced element's content that extend beyond the edges of its box.
 : <q>The 'overflow' property determines how to render parts of the replaced element's content that extend beyond the edges of its box.</q>
-</markdown>
 
 The syntax of the 'image-position' property is [ [  <percentage> |  <length> | left | center | right ] [  <percentage> |  <length> | top | center | bottom ]? ] | [ [ left | center | right ] || [ top | center | bottom ] ] | auto.
 : <q>Value: [ [  <percentage> |  <length> | left | center | right ] [  <percentage> |  <length> | top | center | bottom ]? ] | [ [ left | center | right ] || [ top | center | bottom ] ] | auto</q>
@@ -1059,4 +1058,23 @@ The 'image-position' property is inherited.
 
 The 'image-position' property applies to visual media.
 : <q>Media: visual</q>
+
+When two values are given for 'image-position' and at least one of them is not a keyword, the first value represents alignment in the horizontal dimension and the second represents alignment in the vertical.
+
+When a single value is given for 'image-position' and that value is not a keyword, that value represents alignment in the horizontal dimension and alignment in the vertical dimension is treated as 50%.
+
+When the first value of 'image-position' is a percentage X, the point X% across the image from its left edge must be aligned with the point X% across the padding box of the element.
+
+When the second value of 'image-position' is a percentage Y, the point Y% down the image from its top edge must be aligned with the point Y% down the padding box of the element.
+
+When the first value of 'image-position' is a length L, the left edge of the image is placed L to the right of the left edge of the padding box of the element.
+
+When the second value of 'image-position' is a length L, the top edge of the image is placed L below the top edge of the padding box of the element.
+
+The 'top' value of 'image-position' is the same as 0% for the vertical alignment value.
+
+The 'left' value of 'image-position' is the same as 0% for the horizontal alignment value.
+
+The 'center' value of 'image-position' is the same as 50% for either the horizontal alignment value (if it is not otherwise given) or the vertical alignment value (if it is not otherwise given).
+
 </markdown>
