@@ -145,6 +145,7 @@ XXX Page layouts for documents using a right-to-left major writing direction hav
   Tests:
 </markdown>
 
+
 ===== Page size =====
 <markdown>
 The syntax of the 'size' property is <length>{1,2} | auto | [ <page-size> || [ portrait | landscape] ].
@@ -207,7 +208,7 @@ XXX A single <length> value for the 'size' property specifies that the page box 
 
   Tests:
 
-XXX If two <length> values are specified for the 'size' property, the first value set the width of the page box and the second value sets the height.
+XXX If two <length> values are specified for the 'size' property, the first value sets the width of the page box and the second value sets the height.
 
   Tests:
 
