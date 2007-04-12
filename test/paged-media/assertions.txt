@@ -388,55 +388,56 @@ Page contexts cascade
   Tests:
 </markdown>
 
+
 ===== Page Properties =====
 <markdown>
 The 'size' property applies to the page box.
-: <q></q>
+: <q>The following properties can be used in the page context to style the appearance of the page box: ... 'size'</q>
 
   Tests:
 
 Background properties defined in CSS2.1 apply to the page box.
-: <q></q>
+: <q>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/colors.html#background-properties">background properties</a></q>
 
   Tests:
 
 Border properties defined in CSS2.1 apply to the page box.
-: <q></q>
+: <q>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/box.html#border-properties">border properties</a></q>
 
   Tests:
 
 Margin properties defined in CSS2.1 apply to the page box.
-: <q></q>
+: <q>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/box.html#margin-properties">margin properties</a></q>
 
   Tests:
 
 Padding properties defined in CSS2.1 apply to the page box.
-: <q></q>
+: <q>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/box.html#padding-properties">padding properties</a></q>
 
   Tests:
 
 The 'counter-reset' property applies to the page box.
-: <q></q>
+: <q>These properties can be used in the page context to set counters: ... <a href="http://www.w3.org/TR/CSS21/generate.html#counters">counter-reset, counter-increment</a></q>
 
   Tests:
 
 The 'counter-increment' property applies to the page box.
-: <q></q>
+: <q>These properties can be used in the page context to set counters: ... <a href="http://www.w3.org/TR/CSS21/generate.html#counters">counter-reset, counter-increment</a></q>
 
   Tests:
 
-The 'color' property applies to the page box.
-: <q></q>
+XX The 'color' property applies to the page box.
+: <q>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/colors.html#propdef-color">color</a></q>
 
   Tests:
 
 Font properties defined in CSS2.1 apply to the page box.
-: <q></q>
+: <q>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/fonts.html">font properties</a></q>
 
   Tests:
 
 Text properties defined in CSS2.1 apply to the page box.
-: <q></q>
+: <q>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/text.html">text properties</a></q>
 
   Tests:
 
@@ -446,7 +447,7 @@ XXX Margin boxes inherit inheritable properties from the page context.
   Tests:
 
 XXX Properties other than those listed above are invalid within the page context.
-: <q></q>
+: <q>Properties other than those listed above are invalid within the page context.</q>
 
   Tests:
 
