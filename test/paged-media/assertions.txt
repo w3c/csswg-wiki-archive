@@ -7,9 +7,10 @@ Module, W3C Last Call Working Draft 10 October 2006</a> </cite>
 specification, and, for each assertion, a list of associated tests. </p>
 </html>
 
+
 ===== Page Boxes: the @page Rule =====
 <markdown>
-XXX The content of the document is flowed into the page area of one or more page sheets.
+XX The content of the document is flowed into the page area of one or more page sheets.
 : <q>The content of the document is flowed into the page area.</q>
 
   <q>The content area of a page box is called the page area.</q>
@@ -23,7 +24,7 @@ The content edges of the page box on the first page establish the rectangle that
 
   Tests:
 
-XXX The properties of a page box are determined by properties declared within the page context.
+XX The properties of a page box are determined by properties declared within the page context.
 : <q>The properties of a page box are determined by properties established within the page context, which is the rule set of the @page rule.</q>
 
   Tests:
