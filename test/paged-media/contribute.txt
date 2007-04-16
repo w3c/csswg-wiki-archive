@@ -1,4 +1,4 @@
-====== Contributing to the CSS2.1 Test Suite ======
+====== Contributing to the CSS3 Paged Media ======
 
 The CSS2.1 Test Suite still needs a lot of work, and the CSS Working Group can't finish it all by itself. Anyone can contribute: here are the guidelines.
 
@@ -10,7 +10,7 @@ The CSS2.1 Test Suite still needs a lot of work, and the CSS Working Group can't
 
 ===== Template for New Tests =====
 
-The baseline format for CSS2.1 tests is XHTML 1.1. A set of scripts generate the various formats from this source version.
+The baseline format for CSS3 Paged Media tests is XHTML 1.1. A set of scripts generate the various formats from this source version.
 
 Copy and paste the following text into a new file, or save this file, and replace the capitalized parts. ''<link>'' elements are used to [[http://www.w3.org/Style/CSS/Test/guidelines.html#links|link to the relevant section of the spec]]. If this file tests one or more specific [[test:paged-media:assertions|test assertions]], add a ''<meta>'' element for each one, copying the assertion directly into its ''content'' attribute. A test will generally test many sections and assertions (e.g. every test tests for proper parsing): only list ones that the test focuses on: ones that must still be tested in this test even if the test's approach to testing them changes in the future.
 
@@ -18,7 +18,7 @@ Copy and paste the following text into a new file, or save this file, and replac
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
-  <title>CSS 2.1 Test Suite: DESCRIPTION OF TEST</title>
+  <title>DESCRIPTION OF TEST: CSS Paged Media Level 3 Test Suite</title>
   <link rel="help" href="RELEVANT_SPEC_SECTION"/>
   <meta name="assert" content="TEST_ASSERTION"/>
   <style type="text/css">
