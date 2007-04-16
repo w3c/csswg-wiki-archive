@@ -2,3 +2,4 @@
 
   * Known Bugs
   * [[test:paged-media:assertions|Test Assertion List]]
+  * [[test:paged-media:contribute|Contribute]]
