@@ -18,3 +18,7 @@ Once you have the pre-requisites set up,
   - Run ''make'' within the ''CSS2.1-test-suite'' directory
 
 The finished tests will be in the newly-created ''dist'' directory.
+
+===== Harness Issues =====
+
+  * Make an index
