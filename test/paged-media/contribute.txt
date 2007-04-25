@@ -9,6 +9,7 @@ The CSS2.1 Test Suite still needs a lot of work, and the CSS Working Group can't
 ====== How to Contribute a New Test ======
 
 
+
 ===== Template for New Tests =====
 
 The baseline format for CSS3 Paged Media tests is XHTML 1.1. A set of scripts generate the various formats from this source version.
@@ -22,7 +23,7 @@ The ''rel="author"'' link is optional.
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
   <title>DESCRIPTION OF TEST: CSS Paged Media Level 3 Test Suite</title>
-  <link rel="author" title="Name of Author" href="mailto or http"/>
+  <link rel="author" title="NAME OF AUTHOR" href="mailto:EMAIL OR http://CONTACTPAGE"/>
   <link rel="help" href="RELEVANT_SPEC_SECTION"/>
   <meta name="assert" content="TEST_ASSERTION"/>
   <style type="text/css">
