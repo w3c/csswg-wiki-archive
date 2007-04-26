@@ -19,6 +19,7 @@ Copy and paste the following text into a new file, or save this file, and replac
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
   <title>CSS 2.1 Test Suite: DESCRIPTION OF TEST</title>
+  <link rel="author" title="NAME_OF_AUTHOR" href="mailto:EMAIL OR http://CONTACT_PAGE"/>
   <link rel="help" href="RELEVANT_SPEC_SECTION"/>
   <style type="text/css">
    CSS FOR TEST
