@@ -42,6 +42,8 @@ One proposal for ''require-font()'' was to make it the same as ''require-font''.
 
 It was assumed that ''require-font(generic-name)'' would always be true. However this needs to be specified: figuring out ''require-font(serif)'' on a system with only sans-serif fonts is not obvious.
 
+The spec should perhaps specify that ''require-font()'' is always successful in non-visual media.
+
 ===== Examples =====
 
 A basic example from Ian, demonstrating a range of fallback possibilities.
