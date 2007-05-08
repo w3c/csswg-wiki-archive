@@ -40,6 +40,7 @@ The ''require-font'' keyword would automatically take the first font in font-fam
 
 The ''require-font'' keyword or function listed by itself without any other associated content value would imply ''contents'' (i.e. the usual content of the element).
 
+
 ===== Unresolved Details =====
 
 One proposal for ''require-font()'' was to make it the same as ''require-font''. The other, which avoids creating an alias (which would be a pain for DOM-based editors), would interpret it as requiring the font named "" [the empty string], effectively always triggering the fallback. The third possibility would be to make it invalid, causing it to invalidate the entire property declaration.
@@ -48,7 +49,7 @@ It was assumed that ''require-font(generic-name)'' would always be true. However
 
 The spec should perhaps specify that ''require-font()'' is always successful in non-visual media.
 
-
+Would require-font(Arial, Verdana) require both, require at least one, or be syntactically invalid? (Since require-font(Arial) require-font(Verdana) does the && operation, having the comma mean || would be the most useful.)
 
 ===== Examples =====
 
