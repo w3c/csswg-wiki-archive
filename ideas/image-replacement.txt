@@ -48,6 +48,7 @@ It was assumed that ''require-font(generic-name)'' would always be true. However
 
 The spec should perhaps specify that ''require-font()'' is always successful in non-visual media.
 
+
 ===== Examples =====
 
 A basic example from Ian, demonstrating a range of fallback possibilities.
@@ -80,7 +81,8 @@ Another example from Bert, demonstrating the advantage of separating the method 
 <code css>
 h1 span { font-family: biggy }
 h1      { font-family: Times New Roman }
-h1      { content: require-font(biggy) content, url(replacement.png) }
+h1      { content: require-font(biggy), url(replacement.png) }
+h1      { content: require-font(biggy) contents, url(replacement.png) }
 </code>
 
 ===== Expected Spec =====
