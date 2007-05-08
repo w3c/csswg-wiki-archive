@@ -9,6 +9,7 @@ The CSSWG has resolved to allow the ''content'' property on all elements in CSS3
   H1 { content: url(sparkly_heading_text.png), contents; }
 </code>
 
+
 ===== Interaction with Fonts =====
 
 We recognize, however, that the likely set of preferences for such headings would be:
@@ -34,7 +35,9 @@ The consensus on syntax was:
 
 The ''require-font'' keyword would automatically take the first font in font-family as its implied argument. This is not merely syntactic sugar for the author, but also causes a user's font override, if any, to become the required font: in typical usage, this would disable the image replacement fallback and display the contents in the user's selected font.
 
-A suggestion from Håkon was to imply the ''contents'' keyword if the ''require-font'' function were specified alone (with no content).
+The ''content'' keyword may optionally follow the ''require-font()''.
+
+Håkon has later proposed to use ''self'' instead of ''content''.
 
 ===== Unresolved Details =====
 
