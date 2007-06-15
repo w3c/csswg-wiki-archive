@@ -32,8 +32,9 @@ Copy and paste the following text into a new file, or save this file, and replac
 </html>
 </code>
 
+
 ===== Submitting the New Test =====
 
-You can submit a new test through Ian Hickson's [[http://css21:css21@www.hixie.ch/tests/evil/css/css21/contributions/|CSS2.1 Test Contribution Form]] or by [[http://lists.w3.org/Archives/Public/public-css-testsuite/|sending it to public-css-testsuite@w3.org]].
+You can submit a new test by [[http://lists.w3.org/Archives/Public/public-css-testsuite/|sending it to public-css-testsuite@w3.org]].
 
 ====== How to Contribute a Fix to an Existing Test ======
