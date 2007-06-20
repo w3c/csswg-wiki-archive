@@ -1,0 +1,68 @@
+====== Review Process ======
+
+Additions and changes to the CSS2.1 Test Suite must be reviewed before they can be checked in.
+Anyone with the ability to read and understand the spec and a thorough understanding of the
+test suite guidelines can review additions and changes to the tests in the CSS2.1 Test Suite,
+however
+
+  * A reviewer cannot review his/her own tests and changes.
+  * An employee of a company cannot review tests submitted by that company
+    unless he or she is an Owner or Peer.
+
+The reviewer must check each test submitted for inclusion in the test suite for conformance
+to the test suite guidelines. The reviewer may also check each new test for correctness with
+respect to the specification, but is not required to. For proposed changes to existing tests,
+the reviewer //must// check the changes for correctness. If the test does not pass review,
+the reviewer must tell the submitter what is wrong with the test and what steps should be
+taken to correct any problems. New tests and changes that have been declined by one reviewer
+cannot be approved by someone else until the problems are corrected (or have been shown by
+another reviewer to not be valid problems).
+
+Once changes pass review, the reviewer must send notice of approval (which in the case of a
+reviewer with write access can be the same as notice of the checkin) to the
+public-css-testsuite mailing list. New tests and changes that have been reviewed and approved
+can be checked in by anyone with write access, and that person is not required to perform
+any further review.
+
+Changes to the harness (build scripts etc.), must be reviewed by a test suite owner.
+
+To request review, send proposed tests and changes to public-css-testsuite as described
+in the [[test:css2.1:contribute|contribution guidelines]].
+
+If these requirements change, notice will be sent to public-css-testsuite of the changes.
+
+===== Owners and Peers =====
+
+The test suite Owner is the person most responsible for the test suite. Previously
+that was Ian Hickson (Hixie); currently that is Elika J. Etemad (fantasai). A Peer
+is someone the test suite Owner considers equally capable of evaluating changes to
+the test suite and responsible enough to have write access to the test suite. A
+review from a Peer carries equal weight
+
+Currently the following people are Owners or Peers:
+
+  * Anne van Kesteren
+  * fantasai
+  * Ian Hickson (hixie) [INACTIVE]
+
+===== Becoming a Peer =====
+
+There are three basic qualifications you must satisfy to become a Peer:
+
+  * You must demonstrate the ability to read and interpret the spec correctly.
+  * You must demonstrate a thorough understanding of the test suite guidelines.
+  * You must demonstrate that you are trustworthy.
+
+The first two qualifications can be met by submitting good-quality tests for the test suite
+and intelligently critiquing existing tests.
+
+The second qualification is met by someone vouching for you. This could be a
+test suite owner or peer, or it could be someone trusted by an owner.
+For example, since fantasai trusts active members of the CSS Working Group,
+an employee of Microsoft can ask his CSS Working Group representative, Markus
+Mielke, to vouch. As another example, since fantasai trusts Mozilla module owners
+and peers, a contributor to that project could ask Boris Zbarsky to vouch.
+By vouching, a voucher is putting his or her reputation on the line, and is
+confirming that the candidate has established enough credibility in the voucher's
+experience that the voucher would entrust him or her with a similar level of
+write privileges in their own project.
