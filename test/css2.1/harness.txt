@@ -20,11 +20,13 @@ Once you have the pre-requisites set up,
 The finished tests will be in the newly-created ''dist'' directory.
 
 
+
 ===== Harness Issues =====
 
   * revamp the filename format to be simpler (''some-words-##.xht'')
   * move flags from the filename into a <meta> tag
   * add flags for "continuous media specific test" and "paged media specific test"
+  * auto-add flags from meta to filename during build process
   * update the Guidelines with the new template, new flags, and new filename format
   * check build instructions for Windows
   * set up a 'latest' test suite directory that gets a daily update of the test suite 
