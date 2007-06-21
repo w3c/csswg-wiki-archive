@@ -16,7 +16,9 @@ the reviewer //must// check the changes for correctness.
 If the test does not pass review, the reviewer must tell the submitter what is wrong with the
 test and what steps should be taken to correct any problems. New tests and changes that have
 been declined by one reviewer cannot be approved by someone else until the problems are
-corrected or have been demonstrated to be invalid.
+corrected or have been demonstrated to be invalid. In case of a conflict, an Owner or Peer's opinion carries more weight.
+
+In all cases the CSS Working Group has final say in whether a test is valid, and may be consulted if deemed necessary.
 
 Once changes pass review, the reviewer must send notice of approval (which in the case of a
 reviewer with write access can be the same as notice of the checkin) to the 
@@ -24,7 +26,7 @@ public-css-testsuite mailing list. New tests and changes that have been reviewed
 can be checked in by anyone with write access, and that person is not required to perform
 any further review.
 
-Changes to the harness (build scripts etc.), must be reviewed by a test suite owner.
+Changes to the harness (build scripts etc.), must be reviewed by a test suite Owner.
 
 To request review, send proposed tests and changes to public-css-testsuite as described
 in the [[test:css2.1:contribute|contribution guidelines]].
