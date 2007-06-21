@@ -1,9 +1,9 @@
 ====== Review Process ======
 
 Additions and changes to the CSS2.1 Test Suite must be reviewed before they can be checked in.
-Anyone with the ability to read and understand the spec and a thorough understanding of the
-test suite guidelines can review additions and changes to the tests in the CSS2.1 Test Suite,
-however
+Anyone with the ability to read and understand the [[http://www.w3.org/TR/CSS21/|spec]] and a
+thorough understanding of the [[http://www.w3.org/Style/CSS/Test/guidelines.html|test suite guidelines]]
+can review additions and changes to the tests in the CSS2.1 Test Suite, however
 
   * A reviewer cannot review his/her own tests and changes.
   * An employee of or contractor for a company cannot review tests submitted by that company unless he or she is an Owner or Peer.
@@ -16,15 +16,16 @@ the reviewer //must// check the changes for correctness.
 If the test does not pass review, the reviewer must tell the submitter what is wrong with the
 test and what steps should be taken to correct any problems. New tests and changes that have
 been declined by one reviewer cannot be approved by someone else until the problems are
-corrected or have been demonstrated to be invalid. In case of a conflict, an Owner or Peer's opinion carries more weight.
+corrected or have been demonstrated to be invalid. In case of a conflict, an Owner or Peer's
+opinion carries more weight.
 
 In all cases the CSS Working Group has final say in whether a test is valid, and may be consulted if deemed necessary.
 
 Once changes pass review, the reviewer must send notice of approval (which in the case of a
 reviewer with write access can be the same as notice of the checkin) to the 
-public-css-testsuite mailing list. New tests and changes that have been reviewed and approved
-can be checked in by anyone with write access, and that person is not required to perform
-any further review.
+[[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite mailing list]].
+New tests and changes that have been reviewed and approved can be checked in by anyone with write
+access, and that person is not required to perform any further review.
 
 Changes to the harness (build scripts etc.), must be reviewed by a test suite Owner.
 
