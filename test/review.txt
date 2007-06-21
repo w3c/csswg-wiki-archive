@@ -9,7 +9,7 @@ however
   * An employee of a company cannot review tests submitted by that company unless he or she is an Owner or Peer.
 
 The reviewer must check each test submitted for inclusion in the test suite for conformance
-to the test suite guidelines. The reviewer may also check each new test for correctness with
+to the test suite guidelines. The reviewer should also check each new test for correctness with
 respect to the specification, but is not required to. For proposed changes to existing tests,
 the reviewer //must// check the changes for correctness.
 
