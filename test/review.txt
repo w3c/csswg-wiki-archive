@@ -16,7 +16,7 @@ the reviewer //must// check the changes for correctness.
 If the test does not pass review, the reviewer must tell the submitter what is wrong with the
 test and what steps should be taken to correct any problems. New tests and changes that have
 been declined by one reviewer cannot be approved by someone else until the problems are
-corrected (or have been shown by another reviewer to not be valid problems).
+corrected or have been demonstrated to be invalid.
 
 Once changes pass review, the reviewer must send notice of approval (which in the case of a
 reviewer with write access can be the same as notice of the checkin) to the 
