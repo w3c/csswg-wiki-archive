@@ -8,3 +8,4 @@ Discussion about the CSS2.1 Test Suite takes place on the publicly-archived [[ht
   * [[test:css2.1:harness|Harness]]
   * [[test:css2.1:contribute|Contribute]]
   * [[test:css2.1:review|Review Process]]
+  * [[http://fantasai.inkedblade.net/style/tests/about/css21ts/|How to Contribute Slideshow]] (from 2007-06-26 [[http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jun/0010.html|telecon]])
