@@ -22,6 +22,7 @@ The finished tests will be in the newly-created ''dist'' directory.
 
 
 
+
 ===== Harness Issues =====
 
   * revamp the filename format to be simpler (''some-words-##.xht'')
@@ -32,4 +33,5 @@ The finished tests will be in the newly-created ''dist'' directory.
   * make sure build scripts are adding all tests to the index
   * make sure build scripts add title to rel="help" links
   * check build instructions for Windows
-  * set up a 'latest' test suite directory that gets a daily update of the test suite 
+  * set up a 'latest' test suite directory that gets a daily update of the test suite
+  * generate HTML comments corresponding to requirements
