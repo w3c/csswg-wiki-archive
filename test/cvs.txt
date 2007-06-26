@@ -2,10 +2,11 @@
 
 //This document is licensed under the [[http://creativecommons.org/licenses/by-sa/2.0/|Creative Commons Attribution Share-Alike License 2.0]]. The [[http://developer.mozilla.org/tools/cvs/|original]] was written for [[http://www.mozilla.org/|mozilla.org]].//
 
+
 ===== What is CVS? =====
 
 <html>
-  <p><dfn>CVS</dfn> is the <a href="https://www.cvshome.org/">Concurrent
+  <p><dfn>CVS</dfn> is the <a href="http://www.nongnu.org/cvs/">Concurrent
     Versions System</a>. It lets multiple people work on the same set of
     project files at the same time without clobbering each others' changes,
     and it keeps track of who made what changes made to those files. CVS
