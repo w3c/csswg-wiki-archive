@@ -12,6 +12,7 @@ The CSS2.1 Test Suite still needs a lot of work, and the CSS Working Group can't
 
 
 
+
 ===== Template for New Tests =====
 
 The baseline format for CSS2.1 tests is XHTML 1.1. Images must be in PNG format. A set of scripts generate the various formats from this source version.
@@ -25,6 +26,8 @@ Copy and paste the following text into a new file, or save this file, and replac
   <title>CSS 2.1 Test Suite: DESCRIPTION OF TEST</title>
   <link rel="author" title="NAME_OF_AUTHOR" href="mailto:EMAIL OR http://CONTACT_PAGE"/>
   <link rel="help" href="RELEVANT_SPEC_SECTION"/>
+  <meta name="flags" content="TOKENS" />
+  <meta name="assert" content="TEST ASSERTION"/>
   <style type="text/css"><![CDATA[
    CSS FOR TEST
   ]]></style>
