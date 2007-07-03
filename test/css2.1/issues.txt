@@ -55,6 +55,7 @@ Status
 </markdown>
 
 
+
 ==== t1205-c565-list-pos-00-b ====
 <markdown>
 Test
@@ -70,6 +71,26 @@ Summary
 Resolution
 
 : 
+
+Status
+: NEEDSFIX
+</markdown>
+
+==== Tests Assume Non-Latin Font Availability ====
+<markdown>
+Tests
+: http://www.w3.org/Style/CSS/Test/CSS2.1/current/t1205-c565-list-pos-00-b.htm
+
+Discussion
+: http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html
+
+Summary
+
+: Some tests are assuming the system has access to glyphs for non-Latin fonts. If this isn't the case, the test could pass without actually testing anything.
+
+Resolution
+
+: Need tests to fail if glyphs are not available.
 
 Status
 : NEEDSFIX
