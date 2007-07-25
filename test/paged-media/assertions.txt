@@ -1,1091 +1,1857 @@
-====== Test Assertion List ======
+<markdown>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSS3 Paged Media Test Assertions List</title>
+<style type="text/css">
 
-<html>
+.assertion 
+{
+	color: black;
+	font-size: 14pt;
+	margin: 1em;
+}
+.assertion > .tests
+{
+	border-bottom: thin green solid;
+	padding-bottom: 1em;
+} 
+
+h2
+{
+	color: blue;
+}
+
+blockquote
+{
+	color: green;
+	font-size: 10pt;
+}
+
+.missing
+{
+	color: red;
+}
+</style>
+</head>
+<body>
+<div>
+
+<h2>CSS3 Paged Media Testable Assertions List</h2>
+
 <p>This document contains a table of testable assertions extracted from the <cite>
 <a href=" http://www.w3.org/TR/2006/WD-css3-page-20061010">CSS3 Paged Media
 Module, W3C Last Call Working Draft 10 October 2006</a> </cite>
 specification, and, for each assertion, a list of associated tests. </p>
-</html>
 
-===== Page Boxes: the @page Rule =====
-<markdown>
+<h3>==== Page Boxes: the @page Rule ====</h3>
+
+<ol>
+<li class="assertion">
 XX The content of the document is flowed into the page area of one or more page sheets.
-: <q>The content of the document is flowed into the page area.</q>
+<blockquote><div>The content of the document is flowed into the page area.</div></blockquote>
+<blockquote><div>The content area of a page box is called the page area.</div></blockquote>
+<div class="tests">
+Tests:
+</div>
+</li>
 
-  <q>The content area of a page box is called the page area.</q>
+<li class="assertion">The content edges of the page box on the first page establish the rectangle that is the initial containing block of the document.
 
-  Tests:
+<blockquote><div>The content area of a page box is called the page area.</div></blockquote>
 
-The content edges of the page box on the first page establish the rectangle that is the initial containing block of the document.
-: <q>The content area of a page box is called the page area.</q>
+<blockquote><div>The edges of the page area on the first page establish the rectangle that is the initial  containing block of the document.</div></blockquote>
 
-  <q>The edges of the page area on the first page establish the rectangle that is the initial  containing block of the document.</q>
-
-  Tests:
-
+<div class="tests">
+Tests:
+page-cb-000.xht, page-abs-pos-000.xht</div>
+</li>
+<li class="assertion">
 The properties of a page box are determined by properties declared within the page context.
-: <q>The properties of a page box are determined by properties declared within the page context, which is the declaration block of the @page rule.</q>
+: <blockquote><div>The properties of a page box are determined by properties declared within the page context, which is the declaration block of the @page rule.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
 
+</li>
+
+<li class="assertion">
 The 'width' and 'height' properties do not apply to a page box.
-: <q>Page boxes differ from other boxes in that the 'width' and 'height' properties do not apply to a page box.</q>
+: <blockquote><div>Page boxes differ from other boxes in that the 'width' and 'height' properties do not apply to a page box.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
 
+</li>
+
+<li class="assertion">
 The size of the page box is specified using the 'size' property in the page context. SEE [Section]
-: <q>The size of the page box is specified using the 'size' property in the page context.</q>
+: <blockquote><div>The size of the page box is specified using the 'size' property in the page context.</div></blockquote>
 
-  Tests:
-</markdown>
+<div class="tests">
+Tests:
+</div>
 
+<h3 class="section">
 ===== Page Terminology and the Page Model =====
-<markdown>
+</h3>
+
+</li>
+
+<li class="assertion">
 Any adjustment to keep content within the printable area must fit constraints in the "Rendering page boxes that do not fit a page sheet" and "Content outside the page box" sections.
-: <q>Printing devices MAY adjust the layout of the document so that content falls within the printable area. How this adjustment is accomplished is device dependent within the constraints expressed in the sections Rendering page boxes that do not fit a page sheet and Content outside the page box.</q>
+: <blockquote><div>Printing devices MAY adjust the layout of the document so that content falls within the printable area. How this adjustment is accomplished is device dependent within the constraints expressed in the sections Rendering page boxes that do not fit a page sheet and Content outside the page box.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
 
+</li>
+
+<li class="assertion">
 XX The top-left-corner margin box's margin edges are defined by a fixed-size box defined by the intersection of the top and left margins of the page box.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
 
+</li>
+
+<li class="assertion">
 XX The top-left margin box's margin edges are defined by a variable-width box filling the top page margin between the top-left-corner and top-center margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The top-center margin box's margin edges are defined by a variable-width box centered horizontally between the page's left and right border edges and filling the top page margin between the top-left and top-right margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The top-right margin box's margin edges are defined bya a variable-width box filling the top page margin between the top-center and top-right-corner margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The top-right-corner margin box's margin edges are defined by a a fixed-size box defined by the intersection of the top and right margins of the page box.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The left-top margin box's margin edges are defined by a a variable-height box filling the left page margin between the top-left-corner and left-middle margin
 boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The left-middle margin box's margin edges are defined by a a variable-height box centered vertically between the page's top and bottom border edges and filling the left page margin between the left-top and left-bottom margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The left-bottom margin box's margin edges are defined by a variable-height box filling the left page margin between the left-middle and bottom-left-corner margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The right-top margin box's margin edges are defined by a variable-height box filling the right page margin between the top-right-corner and right-middle margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The right-middle margin box's margin edges are defined by a variable-height box centered vertically between the page's top and bottom border edges and filling the right page margin between the right-top and right-bottom margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The right-bottom margin box's margin edges are defined by a variable-height box filling the right page margin between the right-middle and bottom-right-corner margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+</li>
+
+<li class="assertion">
 
 XX The bottom-left-corner margin box's margin edges are defined by a fixed-size box defined by the intersection of the bottom and left margins of the page box.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The bottom-left margin box's margin edges are defined by a variable-width box filling the bottom page margin between the bottom-left-corner and bottom-center margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The bottom-center margin box's margin edges are defined by a variable-width box centered horizontally between the page's left and right border edges and filling the bottom page margin between the bottom-left and bottom-right margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The bottom-right margin box's margin edges are defined by a variable-width box filling the bottom page margin between the bottom-center and bottom-right-corner margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XX The bottom-right-corner margin box's margin edges are defined by a fixed-size box defined by the intersection of the bottom and right margins of the page box.
-: <q></q>
-  Tests:
-</markdown>
+: <blockquote><div></div></blockquote>
+<div class="tests">
+Tests:
+</div>
+
+<h3>
 
 ===== Page types =====
-<markdown>
+</h3>
+
+</li>
+<li class="assertion">
 XXX If the UA supports the 'direction' property from CSS2, it must determine the major writing direction using the value of that property on the root element.
-: <q></q>
-  Tests:
+: <blockquote><div></div></blockquote>
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XXX Page layouts for documents using a left-to-right major writing direction have the earlier of the facing pages on the left.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XXX Page layouts for documents using a right-to-left major writing direction have the ealier of the facing pages on the right.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
-</markdown>
+<div class="tests">
+Tests:
+</div>
+
+<h3>
 
 
 ===== Page size =====
-<markdown>
-The syntax of the 'size' property is <length>{1,2} | auto | [ <page-size> || [ portrait | landscape] ].
-: <q>Value: <length>{1,2} | auto | [ <page-size> || [ portrait | landscape] ]</q>
+</h3>
 
-  Tests:
+</li>
+<li class="assertion">
+The syntax of the 'size' property is &lt;length&gt;{1,2} | auto | [ &lt;page-size&gt; || [ portrait | landscape] ].
+: <blockquote><div>Value: &lt;length&gt;{1,2} | auto | [ &lt;page-size&gt; || [ portrait | landscape] ]</div></blockquote>
+
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The initial value of the 'size' property is 'auto'.
-: <q>Initial: auto</q>
+: <blockquote><div>Initial: auto</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'size' value only applies to the page context.
-: <q>Applies to: page context</q>
+: <blockquote><div>Applies to: page context</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'size' value only applies to paged media.
-: <q>Media: paged</q>
+: <blockquote><div>Media: paged</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The computed value of the 'size' property is its specified value.
-: <q>Computed value: specified value</q>
+: <blockquote><div>Computed value: specified value</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'auto' value of the 'size' property sets the page box to the size and orientation of the page sheet chosen by the UA.
-: <q>auto: The page box will be set to the size and orientation of the page sheet chosen by the UA.</q>
+: <blockquote><div>auto: The page box will be set to the size and orientation of the page sheet chosen by the UA.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'landscape' value of the 'size' property specifies that the page's content be printed in landscape orientation: the longer sides of the page box are horizontal.
-: <q>landscape: Specifies that the page's content be printed in landscape orientation. The page box is the same size as the page, and the longer sides are horizontal.</q>
+: <blockquote><div>landscape: Specifies that the page's content be printed in landscape orientation. The page box is the same size as the page, and the longer sides are horizontal.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'portrait' value of the 'size' property specifies that the page's content be printed in portrait orientation: the shorter sides of the page box are horizontal.
-: <q>Specifies that the page's content be printed in portrait orientation. The page box is the same size as the page, and the shorter sides are horizontal.</q>
+: <blockquote><div>Specifies that the page's content be printed in portrait orientation. The page box is the same size as the page, and the shorter sides are horizontal.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
 
-XXX If a preferred output media size is indicated via <length> or <page-size> values for the 'size' property, output must be rendered on the media size indicated if available.
-: <q>When possible, output should be rendered on the media size indicated; if not available, a larger size should be used; if not available, the contents of the page box should be scaled down to fit the smaller page sheet.</q>
+</li>
+<li class="assertion">
 
-  Tests:
+XXX If a preferred output media size is indicated via &lt;length&gt; or &lt;page-size&gt; values for the 'size' property, output must be rendered on the media size indicated if available.
+: <blockquote><div>When possible, output should be rendered on the media size indicated; if not available, a larger size should be used; if not available, the contents of the page box should be scaled down to fit the smaller page sheet.</div></blockquote>
 
-XXX If a preferred output media size is indicated via <length> or <page-size> values for the 'size' property and the indicated media size is not available, a larger size must be used if available.
-: <q>When possible, output should be rendered on the media size indicated; if not available, a larger size should be used; if not available, the contents of the page box should be scaled down to fit the smaller page sheet.</q>
+<div class="tests">
+Tests:
+</div>
 
-  Tests:
+</li>
+<li class="assertion">
 
-SSS If a preferred output media size is indicated via <length> or <page-size> values for the 'size' property and neither the indiciated media size nor a larger size are available, the contents of the page SHOULD be scaled down to fit the smaller page sheet.
-: <q>When possible, output should be rendered on the media size indicated; if not available, a larger size should be used; if not available, the contents of the page box should be scaled down to fit the smaller page sheet.</q>
+XXX If a preferred output media size is indicated via &lt;length&gt; or &lt;page-size&gt; values for the 'size' property and the indicated media size is not available, a larger size must be used if available.
+: <blockquote><div>When possible, output should be rendered on the media size indicated; if not available, a larger size should be used; if not available, the contents of the page box should be scaled down to fit the smaller page sheet.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
 
-XXX A single <length> value for the 'size' property specifies that the page box width and height both be set to the given length.
-: <q><length> The page box will be set to the given absolute length. If only one length value is specified, it sets both the width and height of the page box (i.e., the box is a square).</q>
+</li>
+<li class="assertion">
 
-  Tests:
+SSS If a preferred output media size is indicated via &lt;length&gt; or &lt;page-size&gt; values for the 'size' property and neither the indiciated media size nor a larger size are available, the contents of the page SHOULD be scaled down to fit the smaller page sheet.
+: <blockquote><div>When possible, output should be rendered on the media size indicated; if not available, a larger size should be used; if not available, the contents of the page box should be scaled down to fit the smaller page sheet.</div></blockquote>
 
-XXX If two <length> values are specified for the 'size' property, the first value sets the width of the page box and the second value sets the height.
+<div class="tests">
+Tests:
+</div>
 
-  Tests:
+</li>
+<li class="assertion">
 
-In <length> values for the 'size' property, the 'em' and 'ex' units refer to the page context's font.
-: <q>Therefore, values in units of 'em' and 'ex' refer to the page context's font.</q>
+XXX A single &lt;length&gt; value for the 'size' property specifies that the page box width and height both be set to the given length.
+: <blockquote><div>&lt;length&gt; The page box will be set to the given absolute length. If only one length value is specified, it sets both the width and height of the page box (i.e., the box is a square).</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
+
+XXX If two &lt;length&gt; values are specified for the 'size' property, the first value sets the width of the page box and the second value sets the height.
+
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
+
+In &lt;length&gt; values for the 'size' property, the 'em' and 'ex' units refer to the page context's font.
+: <blockquote><div>Therefore, values in units of 'em' and 'ex' refer to the page context's font.</div></blockquote>
+
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'A5' value of the 'size' property specifies that the page box's width be 148mm and its height 210mm.
-: <q>A5: The page box SHOULD be set to the size of ISO A5 media: 148mm wide and 210 mm high.</q>
+: <blockquote><div>A5: The page box SHOULD be set to the size of ISO A5 media: 148mm wide and 210 mm high.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'A4' value of the 'size' property specifies that the page box's width be 210m and its height 297mm.
-: <q>A4: The page box SHOULD be set to the size of ISO A4 media: 210mm wide and 297mm high.</q>
+: <blockquote><div>A4: The page box SHOULD be set to the size of ISO A4 media: 210mm wide and 297mm high.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'A3' value of the 'size' property specifies that the page box's width be 297mm and its height 420mm.
-: <q>A3: The page box SHOULD be set to the size of ISO A3 media: 297mm wide and 420mm high.</q>
+: <blockquote><div>A3: The page box SHOULD be set to the size of ISO A3 media: 297mm wide and 420mm high.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XXX The 'B5' value of the 'size' property specifies that the page box's width be 176mm and its height 250mm.
-: <q>B5: The page box SHOULD be set to the size of ISO B3 media: 176mm wide and 250mm high.</q>
+: <blockquote><div>B5: The page box SHOULD be set to the size of ISO B3 media: 176mm wide and 250mm high.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'B4' value of the 'size' property specifies that the page box's width be 250mm and its height 353mm.
-: <q>B4: The page box SHOULD be set to the size of ISO B4 media: 250mm wide and 353mm high.</q>
+: <blockquote><div>B4: The page box SHOULD be set to the size of ISO B4 media: 250mm wide and 353mm high.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'letter' value of the 'size' property specifies that the page box's width be 8.5in and its height 11in.
-: <q>letter: The page box SHOULD be set to the size of North American letter media: 8.5in wide and 11in high.</q>
+: <blockquote><div>letter: The page box SHOULD be set to the size of North American letter media: 8.5in wide and 11in high.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'legal' value of the 'size' property specifies that the page box's width be 8.5in and its height 14in.
-: <q>legal: The page box SHOULD be set to the size of North American media: 8.5in wide and 14in high.</q>
+: <blockquote><div>legal: The page box SHOULD be set to the size of North American media: 8.5in wide and 14in high.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'ledger' value of the 'size' property specifies that the page box's width be 11in and its height 17in.
-: <q>legal: The page box SHOULD be set to the size of North American media: 11in wide and 17in high.</q>
+: <blockquote><div>legal: The page box SHOULD be set to the size of North American media: 11in wide and 17in high.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 SSS User agents SHOULD also support Media Size Self-Describing Names as defined in Section 5 of [PWGMSN].
-: <q>SSS User agents SHOULD also support Media Size Self-Describing Names as defined in Section 5 of [PWGMSN].</q>
-  Tests:
-</markdown>
+: <blockquote><div>SSS User agents SHOULD also support Media Size Self-Describing Names as defined in Section 5 of [PWGMSN].</div></blockquote>
+<div class="tests">
+Tests:
+</div>
+
+<h3>
 
 ===== Rendering page boxes that do not fit a page sheet =====
-<markdown>
+</h3>
+
+</li>
+<li class="assertion">
 XXX If a page box does not match the target page sheet dimensions, the user agent must either render the page box at the indicated size on a larger page sheet; or rotate the page box 90° if this will make the page box fit the page sheet; or scale the page box to fit the page sheet; or reformat the page contents, including 'spilling' onto other page sheets; or clip overflowed content.
-: <blockquote>If a page box does not match the target page sheet dimensions, the user agent  MAY  choose (in order of preference) to:
+: <blockquote><div>If a page box does not match the target page sheet dimensions, the user agent  MAY  choose (in order of preference) to:
    1. Render the page box at the indicated size on a larger page sheet.
    2. Rotate the page box 90° if this will make the page box fit the page sheet.
    3. Scale the page box to fit the page sheet. (There is no requirement to maintain the aspect ratio of the page or of any elements on the page when scaling; however, preservation of the aspect ratio is preferred.)
    4. Reformat the page contents, including 'spilling' onto other page sheets.
-   5. Clip overflowed content (least preferred).</blockquote>
+   5. Clip overflowed content (least preferred).</div></blockquote>
 
-  Tests:
-</markdown>
+<div class="tests">
+Tests:
+</div>
+
+<h3>
 
 ===== Positioning the page box on the sheet =====
-<markdown>
+</h3>
+
+</li>
+<li class="assertion">
 SSS If the page box is smaller than the page size the user agent SHOULD either center the page box on the sheet or position the page box in the upper left corner of the page sheet.
-: <q></q>
-  Tests:
-</markdown>
+: <blockquote><div></div></blockquote>
+<div class="tests">
+Tests:
+</div>
+
+<h3>
 
 ===== Page Selectors and the Page Context =====
-<markdown>
+</h3>
+
+</li>
+<li class="assertion">
 An @page rule consists of the keyword '@page', an  OPTIONAL page name followed with no intervening space by an OPTIONAL page pseudo-class and a block of declarations and margin rules (said to be in the page context).
-: <q></q>
+: <blockquote><div></div></blockquote>
+<div class="tests">
+Tests:
+page-margin-000.xht, page-margin-001.xht, page-margin-002.xht, 
+page-margin-003.xht</div>
 
 XXX Properties declared within the page context (and not within a margin box context) apply to the page box.
-: <q>Properties for the page box are specified within the page context.</q>
+: <blockquote><div>Properties for the page box are specified within the page context.</div></blockquote>
 
-  Tests:
-</markdown>
+<div class="tests">
+Tests:
+</div>
+
+<h3>
 
 
 ===== Page Selector Grammar =====
-<markdown>
-An @page rule must conform to the grammar given in the "Page selector grammar" section.
-: <blockquote>
-See <a href="#CSS21" rel="biblioentry">[CSS21]<!--{{!CSS21}}--></a>,
-    Section 4.1.1 and Appendix G for the expansion of missing productions:</p>
+</h3>
 
-   <p id="specializatons-of-ATKEYWORD">All new lexical tokens are
-    specializations of the ATKEYWORD lexical token:</p>
+</li>
+<li class="assertion missing">
+Assertions about the page grammar go here.
+<div class="tests">
+Tests:
+</div>
 
-   <pre class="lexical">PAGE_SYM              ::= "@page"
-TOPLEFTCORNER_SYM     ::= "@top-left-corner"
-TOPLEFT_SYM           ::= "@top-left"
-TOPCENTER_SYM         ::= "@top-center"
-TOPRIGHT_SYM          ::= "@top-right"
-TOPRIGHTCORNER_SYM    ::= "@top-right-corner"
-BOTTOMLEFTCORNER_SYM  ::= "@bottom-left-corner"
-BOTTOMLEFT_SYM        ::= "@bottom-left"
-BOTTOMCENTER_SYM      ::= "@bottom-center"
-BOTTOMRIGHT_SYM       ::= "@bottom-right"
-BOTTOMRIGHTCORNER_SYM ::= "@bottom-right-corner"
-LEFTTOP_SYM           ::= "@left-top"
-LEFTMIDDLE_SYM        ::= "@left-middle"
-LEFTBOTTOM_SYM       ::= "@right-bottom"
-RIGHTTOP_SYM          ::= "@right-top"
-RIGHTMIDDLE_SYM       ::= "@right-middle"
-RIGHTBOTTOM_SYM       ::= "@right-bottom"
-
-
-<a href="#page" id="syntax-prod-page">page</a> :
-       PAGE_SYM S* IDENT? pseudo_page? S*
-       <code class="css">'{'</code> S* [ declaration | margin ]? [ <code class="css">';'</code> S* [ declaration | margin ]? ]* <code class="css">'}'</code> S*
-       ;
-
-
-<span id="syntax-prod-pseudo-page">pseudo_page</span> :
-       <code class="css">':'</code> [ "left" | "right" | "first" ]
-       ;
-
-<span id="syntax-prod-margin">margin</span> :
-       margin_sym S* <code class="css">'{'</code> declaration [ <code class="css">';'</code> S* declaration? ]* <code class="css">'}'</code> S*
-       ;
-
-
-<span id="syntax-prod-margin-sym">margin_sym</span> :
-       TOPLEFTCORNER_SYM |
-       TOPLEFT_SYM |
-       TOPCENTER_SYM |
-       TOPRIGHT_SYM |
-       TOPRIGHTCORNER_SYM |
-       BOTTOMLEFTCORNER_SYM |
-       BOTTOMLEFT_SYM |
-       BOTTOMCENTER_SYM |
-       BOTTOMRIGHT_SYM |
-       BOTTOMRIGHTCORNER_SYM |
-       LEFTTOP_SYM |
-       LEFTMIDDLE_SYM |
-       LEFTBOTTOM_SYM |
-       RIGHTTOP_SYM |
-       RIGHTMIDDLE_SYM |
-       RIGHTBOTTOM_SYM
-       ;</pre>
-  </blockquote>
-
-  Tests:
+</li>
+<li class="assertion">
 
 XX The value 'auto' used as a page name must be treated as a syntax error.
-: <q>The value 'auto' may not be used as a page name and MUST be treated as a syntax error.</q>
+: <blockquote><div>The value 'auto' may not be used as a page name and MUST be treated as a syntax error.</div></blockquote>
 
-  Tests:
-</markdown>
+<div class="tests">
+Tests:
+</div>
+
+<h3>
 
 
 ===== Cascading in the page context =====
-<markdown>
+</h3>
+
+</li>
+<li class="assertion">
 The specificity of an @page rule is computed by concatenating the numbers f-g-h where f=1 if an @page rule has a named page; g=1 if an @page rule has a ':first' pseudo-class; and h=1 if an @page rule has a ':left' or ':right' pseudo-class.
-: <blockquote>
-    <p>The specificity of @page rules is computed in an analogous manner to the computations defined in the  Selectors module:</p>
+: <blockquote><div>
+    The specificity of @page rules is computed in an analogous manner to the computations defined in the  Selectors module:
     <ul>
     <li>if an @page rule has a named page, f=1</li>
     <li>if an @page rule has a ':first' pseudo-class, g=1</li>
     <li>if an @page rule has a ':left' or ':right' pseudo-class, h=1</li>
     </ul>
-    <p>Concatenating the three numbers f-g-h gives the specificity.</p>
-  </blockquote>
+    Concatenating the three numbers f-g-h gives the specificity.
+  </div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Page contexts cascade
-: <q>Page contexts cascade</q>
+: <blockquote><div>Page contexts cascade</div></blockquote>
 
-  Tests:
-</markdown>
+<div class="tests">
+Tests:
+</div>
+
+<h3>
 
 
 ===== Page Properties =====
-<markdown>
-The 'size' property applies to the page box.
-: <q>The following properties can be used in the page context to style the appearance of the page box: ... 'size'</q>
+</h3>
 
-  Tests:
+</li>
+<li class="assertion">
+The 'size' property applies to the page box.
+: <blockquote><div>The following properties can be used in the page context to style the appearance of the page box: ... 'size'</div></blockquote>
+
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Background properties defined in CSS2.1 apply to the page box.
-: <q>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/colors.html#background-properties">background properties</a></q>
+: <blockquote><div>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/colors.html#background-properties">background properties</a></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Border properties defined in CSS2.1 apply to the page box.
-: <q>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/box.html#border-properties">border properties</a></q>
+: <blockquote><div>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/box.html#border-properties">border properties</a></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Margin properties defined in CSS2.1 apply to the page box.
-: <q>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/box.html#margin-properties">margin properties</a></q>
+: <blockquote><div>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/box.html#margin-properties">margin properties</a></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Padding properties defined in CSS2.1 apply to the page box.
-: <q>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/box.html#padding-properties">padding properties</a></q>
+: <blockquote><div>The following properties can be used in the page context to style the appearance of the page box: ... <a href="http://www.w3.org/TR/CSS21/box.html#padding-properties">padding properties</a></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'counter-reset' property applies to the page box.
-: <q>These properties can be used in the page context to set counters: ... <a href="http://www.w3.org/TR/CSS21/generate.html#counters">counter-reset, counter-increment</a></q>
+: <blockquote><div>These properties can be used in the page context to set counters: ... <a href="http://www.w3.org/TR/CSS21/generate.html#counters">counter-reset, counter-increment</a></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+page-count-001.xht</div>
+
+</li>
+<li class="assertion">
 
 The 'counter-increment' property applies to the page box.
-: <q>These properties can be used in the page context to set counters: ... <a href="http://www.w3.org/TR/CSS21/generate.html#counters">counter-reset, counter-increment</a></q>
+: <blockquote><div>These properties can be used in the page context to set counters: ... <a href="http://www.w3.org/TR/CSS21/generate.html#counters">counter-reset, counter-increment</a></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+page-count-000.xht</div>
+
+</li>
+<li class="assertion">
 
 XX The 'color' property applies to the page box.
-: <q>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/colors.html#propdef-color">color</a></q>
+: <blockquote><div>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/colors.html#propdef-color">color</a></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Font properties defined in CSS2.1 apply to the page box.
-: <q>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/fonts.html">font properties</a></q>
+: <blockquote><div>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/fonts.html">font properties</a></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Text properties defined in CSS2.1 apply to the page box.
-: <q>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/text.html">text properties</a></q>
+: <blockquote><div>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/text.html">text properties</a></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XXX Margin boxes inherit inheritable properties from the page context.
-: <q>That is, when set in the page context, the values become the initial values for the margin boxes.</q>
+: <blockquote><div>That is, when set in the page context, the values become the initial values for the margin boxes.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XXX Properties other than those listed above are invalid within the page context.
-: <q>Properties other than those listed above are invalid within the page context.</q>
+: <blockquote><div>Properties other than those listed above are invalid within the page context.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Background properties defined in CSS2.1 apply to margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Border properties defined in CSS2.1 apply to margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Margin properties defined in CSS2.1 apply to margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Padding properties defined in CSS2.1 apply to margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'color' property applies to margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Font properties defined in CSS2.1 apply to margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 Text properties defined in CSS2.1 apply to margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'content' property applies to margin boxes.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XXX Other properties are invalid within the margin context.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The normal rules for box properties apply with the following exceptions:
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XXX When applied to the page box, values in units of 'em' and 'ex' refer to the page context's font.
-: <q>Values in units of 'em' and 'ex' refer to the page context's font.</q>
+: <blockquote><div>Values in units of 'em' and 'ex' refer to the page context's font.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XXX When applied to a margin box, values in units of 'em' and 'ex' refer to the margin box's font.
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 XXX When applied to the page box, percentage values on the margin and padding properties are relative to the dimensions of the page box (defined by the 'size' property).
-: <q>Percentage values on the margin, padding and border properties are relative to the dimensions of the containing box (defined by the 'size'  property in the page context).</q>
+: <blockquote><div>Percentage values on the margin, padding and border properties are relative to the dimensions of the containing box (defined by the 'size'  property in the page context).</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+page-margin-002.xht</div>
+
+</li>
+<li class="assertion">
 
 XXX When applied to a margin boxes, percentage values ????
-: <q></q>
+: <blockquote><div></div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The 'width' and 'height' properties do not apply to the page box.
-: <q>The 'width' and  'height' properties do not apply to the page box</q>
+: <blockquote><div>The 'width' and  'height' properties do not apply to the page box</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 The page background covers the entire page box, including the page margins.
-: <q>The page background applies to the entire page box, including the page margins.</q>
+: <blockquote><div>The page background applies to the entire page box, including the page margins.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 A margin-box background is painted over (on top of) the page background.
-: <q>A margin-box background is painted over (on top of) the page background.</q>
+: <blockquote><div>A margin-box background is painted over (on top of) the page background.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
 
-XXX The root element then paints the canvas within the page's {border|padding} box?
-: <q>The root element then paints the canvas within the page area</q>
+</li>
+<li class="assertion">
 
-  Tests:
+The root element then paints the canvas within the page's padding box.
+: <blockquote><div>The root element then paints the canvas within the page&#39;s 
+	padding box.</div></blockquote>
+
+<div class="tests">
+Tests:
+page-root-000.xht</div>
+
+</li>
+<li class="assertion">
 
 XXX The page context's background image is positioned and anchored within the page's padding box.
-: <q>The origin of the page background is the upper-left corner of the page area.</q>
+: <blockquote><div>The origin of the page background is the upper-left corner of the page area.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
+
+</li>
+<li class="assertion">
 
 When a page break splits a box, the box's margins, borders, and padding have no visual effect where the split occurs.
-: <q>When a page break splits a box, the box's margins, borders, and padding have no visual effect where the split occurs.</q>
+: <blockquote><div>When a page break splits a box, the box's margins, borders, and padding have no visual effect where the split occurs.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+</div>
 
-</markdown>
+
+<h3>
 
 ===== Left, right, and first pages =====
-<markdown>
+</h3>
+
+</li>
+
+<li class="assertion">
 User agents automatically classify all pages into either the ':left' or ':right'
 pseudo-class.
-: <q>When printing double-sided documents, the page boxes on left and right pages MAY be different.</q>
+: <blockquote><div>When printing double-sided documents, the page boxes on left and right pages MAY be different.</div></blockquote>
 
-  Tests:
+<div class="tests">
+Tests:
+page-pseudo-000.xht</div>
+
+</li>
+<li class="assertion">
 
 XXX The user agent must honor declarations for ':left' and ':right' even if the user agent does not transfer page boxes to left and right sheets (e.g. a printer that only prints single-sided). HOW?
-: <q>If different declarations have been given for left and right pages, the user agent must honor these declarations even if the user agent does not transfer page boxes to left and right sheets (e.g. a printer that only prints single-sided).</q>
+: <blockquote><div>If different declarations have been given for left and right pages, the user agent must honor these declarations even if the user agent does not transfer page boxes to left and right sheets (e.g. a printer that only prints single-sided).</div>
+</blockquote>
 
-  Tests:
+<div class="tests">
+Tests: page-pseudo-000.xht
+</div>
+
+</li>
+<li class="assertion">
+
+For documents with an inline progression of right to left and a block progression of top to bottom, the first page of a document is a :right page.
+<blockquote><div style="color: red">Add statement to spec.</div></blockquote>
+<div class="tests">Tests: page-pseudo-000.xht</div>
+
+</li>
+<li class="assertion">
 
 XXX Declarations inside a page context defined with the ':first' pseudo-class apply only to the first page of a document.
-: <q>Authors MAY  also specify style for the first page of a document with the ':first' pseudo-class:</q>
+: <blockquote><div>Authors MAY  also specify style for the first page of a document with the ':first' pseudo-class:</div></blockquote>
 
-  Tests:
-</markdown>
+<div class="tests">
+Tests:
+page-first-000.xht, page-first-001.xht</div>
+
+<h3>
 
 ===== Margin Boxes =====
-<markdown>
+</h3>
+
+</li>
+<li class="assertion">
 XX Margin boxes are oriented with respect to the content and are independent of page orientation.
-: <q>Please note that the margin boxes are oriented with respect to the content and are independent of page orientation</q>
+: <blockquote><div>Please note that the margin boxes are oriented with respect to the content and are independent of page orientation</div></blockquote>
 
-  Tests:
-</markdown>
+<div class="tests">
+Tests:
+</div>
 
-===== At-rules for margin boxes =====
+<h3>===== At-rules for margin boxes =====</h3>
+</li>
+<li class="assertion">
 
 A margin at-rule consists of an ATKEYWORD that identifies the margin box (e.g. '@top-left') and a block of declarations (said to be in the margin context).
+<div class="tests">Tests: page-mbox-000.xht, page-mbox-001.xht</div>
 
-===== Dimension of margin boxes =====
+<h3>===== Dimension of margin boxes =====</h3>
 
-==== top row ====
+<h3>==== top row ====</h3>
 
-<markdown>
+</li>
+<li class="assertion">
 The used values of the top-left, top-center, and top-right margin boxes' widths and left and right margins are chosen such that the sum of the squares of their left and right margins is minimized under the constraints below.
-: <blockquote>
+: <blockquote><div>
     <p>The following rules apply to 'top-left', 'top-center' and 'top-right' margin boxes, which are referred to as [1], [2], and [3], respectively, in the expression below.</p>
     <p>The UA chooses used values for each box's width, left and right margin, left and right border thickness, and left and right padding. It chooses them in such a way that the value of: left-margin[1]² + left-margin[2]² + left-margin[3]² + right-margin[1]² + 	right-margin[2]² + right-margin[3]² is as small as possible under the constraints below. ("foo[n]" stands for the used value of property foo of the n'th box and "x²" for the square of x.)</p>
-  </blockquote>
+  </div></blockquote>
+</li>
+<li class="assertion">
 
 The sum of the outer widths of the top-left, top-center, and top-right boxes is equal to the distance between the right page border edge and the right page border edge.
-: <q>The sum of the outer widths of the three boxes is equal to max box width.</q>
-  <q>max box width, which is the sum of the width of the page's left padding area, the width of the page area, and the width of the page's right padding area. In other words, it is the distance between the left page border and the right page border.</q>
+: <blockquote><div>The sum of the outer widths of the three boxes is equal to max box width.</div></blockquote>
+  <blockquote><div>max box width, which is the sum of the width of the page's left padding area, the width of the page area, and the width of the page's right padding area. In other words, it is the distance between the left page border and the right page border.</div></blockquote>
+</li>
+<li class="assertion">
 
 If the top-center box is not empty or its computed width is not 'auto' then the outer widths of the top-left and top-right boxes are equal.
-: <q>If the center box is not empty or if its computed width is not 'auto', then the outer widths of the other two boxes are equal to each other (i.e., the center box is centered in that case).</q>
+: <blockquote><div>If the center box is not empty or if its computed width is not 'auto', then the outer widths of the other two boxes are equal to each other (i.e., the center box is centered in that case).</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the top-left box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
-: <q>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</q>
+: <blockquote><div>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the top-center box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
-: <q>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</q>
+: <blockquote><div>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the top-right box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
-: <q>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</q>
+: <blockquote><div>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the top-left box's left margin is its computed value unless that value is 'auto'.
-: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+: <blockquote><div>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the top-center box's left margin is its computed value unless that value is 'auto'.
-: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+: <blockquote><div>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the top-center box's right margin is its computed value unless that value is 'auto'.
-: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+: <blockquote><div>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the top-right box's right margin is its computed value unless that value is 'auto'.
-: <q>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</q>
+: <blockquote><div>The used values of the left box's left margin, the center box's left and right margin and the right box's right margin are their respective computed values, unless that computed value is 'auto'.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the top-left box's right margin is its computed value unless that value is 'auto' or unless honoring both this margin and the top-right box's computed left margin contradicts another constraint.
-: <blockquote>
+: <blockquote><div>
     <p>7. The used values of the left box's right margin and the right box's left margin are their respective computed values, unless that computed value is 'auto'.</p>
     <p>If the above constraints are contradictory ("over-constrained"), then constraint 7 is replaced by 7a:</p>
     <p>7a. If the computed values of the left box's left and right margins are 'auto and not 'auto', respectively, then the used value of the right margin is its computed value. If the computed values of the right box's left and right margins are not 'auto' and 'auto', respectively, then the used value of the left margin is its computed value. This effectively means that the specified right margin of the left box is ignored if necessary, and ditto for the left margin of the right box.</p>
-  </blockquote>
+  </div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the top-right box's left margin is its computed value unless that value is 'auto' or unless honoring both this margin and the top-left box's computed right margin contradicts another constraint.
-: <blockquote>
+: <blockquote><div>
     <p>7. The used values of the left box's right margin and the right box's left margin are their respective computed values, unless that computed value is 'auto'.</p>
     <p>If the above constraints are contradictory ("over-constrained"), then constraint 7 is replaced by 7a:</p>
     <p>7a. If the computed values of the left box's left and right margins are 'auto and not 'auto', respectively, then the used value of the right margin is its computed value. If the computed values of the right box's left and right margins are not 'auto' and 'auto', respectively, then the used value of the left margin is its computed value. This effectively means that the specified right margin of the left box is ignored if necessary, and ditto for the left margin of the right box.</p>
-  </blockquote>
+  </div></blockquote>
+</li>
+<li class="assertion">
 
 XXX If the above constraints are contradictory ("over-constrained") then the right margin of the top-left box and the left margin of the top-right box are treated as if their computed values were 'auto'.
-: <q></q>
-</markdown>
+: <blockquote><div></div></blockquote>
+<h3>
 
 ==== bottom row ====
 
-<markdown>
+</h3>
+</li>
+<li class="assertion">
+
 The used values of the bottom-left, bottom-center, and bottom-right margin boxes' widths and left and right margins are chosen such that the sum of the squares of their left and right margins is minimized under the constraints below.
 :
+</li>
+<li class="assertion">
 
 The sum of the outer widths of the bottom-left, bottom-center, and bottom-right boxes is equal to the distance between the right page border edge and the right page border edge.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+</li>
+<li class="assertion">
 
 If the bottom-center box is not empty or its computed width is not 'auto' then the outer widths of the bottom-left and bottom-right boxes are equal.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the bottom-left box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the bottom-center box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the bottom-right box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the bottom-left box's left margin is its computed value unless that value is 'auto'.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the bottom-center box's left margin is its computed value unless that value is 'auto'.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the bottom-center box's right margin is its computed value unless that value is 'auto'.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the bottom-right box's right margin is its computed value unless that value is 'auto'.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the bottom-left box's right margin is its computed value unless that value is 'auto' or unless honoring both this margin and the bottom-right box's computed left margin contradicts another constraint.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the bottom-right box's left margin is its computed value unless that value is 'auto' or unless honoring both this margin and the bottom-left box's computed right margin contradicts another constraint.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+</li>
+<li class="assertion">
 
 XXX If the above constraints are contradictory ("over-constrained") then the right margin of the bottom-left box and the left margin of the bottom-right box are treated as if their computed values were 'auto'.
-: <q>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</q>
-</markdown>
+: <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
+<h3>
 
 ==== left side ====
-<markdown>
+</h3>
+</li>
+<li class="assertion">
+
 The used values of the left-top, left-middle, and left-bottom margin boxes' heights and top and bottom margins are chosen such that the sum of the squares of their top and bottom margins is minimized under the constraints below.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 The sum of the outer heights of the left-top, left-middle, and left-bottom boxes is equal to the distance between the bottom page border edge and the bottom page border edge.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 If the left-middle box is not empty or its computed height is not 'auto' then the outer heights of the left-top and left-bottom boxes are equal.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the left-top box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the left-middle box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the left-bottom box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the left-top box's top margin is its computed value unless that value is 'auto'.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the left-middle box's top margin is its computed value unless that value is 'auto'.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the left-middle box's bottom margin is its computed value unless that value is 'auto'.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the left-bottom box's bottom margin is its computed value unless that value is 'auto'.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the left-top box's bottom margin is its computed value unless that value is 'auto' or unless honoring both this margin and the left-bottom box's computed top margin contradicts another constraint.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the left-bottom box's top margin is its computed value unless that value is 'auto' or unless honoring both this margin and the left-top box's computed bottom margin contradicts another constraint.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+</li>
+<li class="assertion">
 
 XXX If the above constraints are contradictory ("over-constrained") then the bottom margin of the left-top box and the top margin of the left-bottom box are treated as if their computed values were 'auto'.
-: <q>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</q>
-</markdown>
+: <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
+<h3>
 
 ==== right side ====
 
-<markdown>
+</h3>
+</li>
+<li class="assertion">
+
 The used values of the right-top, right-middle, and right-bottom margin boxes' heights and top and bottom margins are chosen such that the sum of the squares of their top and bottom margins is minimized under the constraints below.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 The sum of the outer heights of the right-top, right-middle, and right-bottom boxes is equal to the distance between the bottom page border edge and the bottom page border edge.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 If the right-middle box is not empty or its computed height is not 'auto' then the outer heights of the right-top and right-bottom boxes are equal.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the right-top box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the right-middle box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX If the right-bottom box is empty and its computed height is 'auto', then the used values of its top and bottom padding and top and bottom border height are all 0.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the right-top box's top margin is its computed value unless that value is 'auto'.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the right-middle box's top margin is its computed value unless that value is 'auto'.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the right-middle box's bottom margin is its computed value unless that value is 'auto'.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the right-bottom box's bottom margin is its computed value unless that value is 'auto'.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the right-top box's bottom margin is its computed value unless that value is 'auto' or unless honoring both this margin and the right-bottom box's computed top margin contradicts another constraint.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 The used value of the right-bottom box's top margin is its computed value unless that value is 'auto' or unless honoring both this margin and the right-top box's computed bottom margin contradicts another constraint.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+</li>
+<li class="assertion">
 
 XXX If the above constraints are contradictory ("over-constrained") then the bottom margin of the right-top box and the top margin of the right-bottom box are treated as if their computed values were 'auto'.
-: <q>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</q>
-</markdown>
+: <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
+<h3>
 
 ===== Margin boxes and default values =====
-<markdown>
+</h3>
+</li>
+<li class="assertion">
+
 XXX When 'vertical-align' is set on margin boxes, it affects the placement of content within the box as for table cells.
-: <q></q>
-</markdown>
+: <blockquote><div></div></blockquote>
+
+<h3>
 
 ===== Populating margin boxes =====
-<markdown>
+</h3>
+</li>
+<li class="assertion">
+
 XXX A margin box is instantiated if the computed value of its 'content' property is not 'normal'.
-: <blockquote>A margin box is instantiated if a margin context is established and one of the following conditions holds:
+: <blockquote><div>A margin box is instantiated if a margin context is established and one of the following conditions holds:
   <ul>
     <li>The computed value of 'content' is not 'none'.</li>
     <li>The properties 'width' and 'height' are set in the margin context.</li>
   </ul>
-</blockquote>
+</div></blockquote>
+</li>
+<li class="assertion">
 
 The value of the counter at the beginning of page processing must be used by default. (?)
-: <q>The value of the counter at the beginning of page processing  MUST be used by default.</q>
-</markdown>
+: <blockquote><div>The value of the counter at the beginning of page processing  MUST be used by default.</div></blockquote>
+<div class="tests">Tests: </div>
+
+<h3>
 
 ===== Page Breaks =====
-<markdown>
+</h3>
+</li>
+<li class="assertion">
+
 The syntax of the 'page-break-before' property is auto | always | avoid | left | right.
-: <q>Value: auto | always | avoid | left | right</q>
+: <blockquote><div>Value: auto | always | avoid | left | right</div></blockquote>
+<div class="tests">Tests: page-breaki-000.xht</div>
+</li>
+<li class="assertion">
 
 The initial value of the 'page-break-before' property is 'auto'.
-: <q>Initial: auto</q>
+: <blockquote><div>Initial: auto</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'page-break-before' property applies to block-level elements only.
-: <q>Applies to: block-level elements</q>
+: <blockquote><div>Applies to: block-level elements</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'page-break-before' property is not inherited.
-: <q>Inherited: no</q>
+: <blockquote><div>Inherited: no</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'page-break-before' property applies to paged media only.
-: <q>Media: paged</q>
+: <blockquote><div>Media: paged</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'auto' value of the 'page-break-before' property neither forces nor forbids a page break before the box.
-: <q>auto: Neither force nor forbid a page break before (after, inside) the generated box.</q>
+: <blockquote><div>auto: Neither force nor forbid a page break before (after, inside) the generated box.</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'always' value of the 'page-break-before' property forces a paage break before the box.
-: <q>always: Always force a page break before (after) the generated box.</q>
+: <blockquote><div>always: Always force a page break before (after) the generated box.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX The 'left' value of the 'page-break-before' property forces one or two page breaks before the box so that the page after the break is formatted as a left page.
-: <q>left: Force one or two page breaks before (after) the generated box so that the next page is formatted as a left page.</q>
+: <blockquote><div>left: Force one or two page breaks before (after) the generated box so that the next page is formatted as a left page.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX The 'right' value of the 'page-break-before' property forces one or two page breaks before the box so that the page after the break is formatted as a right page.
-: <q>right: Force one or two page breaks before (after) the generated box so that the next page is formatted as a right page.</q>
+: <blockquote><div>right: Force one or two page breaks before (after) the generated box so that the next page is formatted as a right page.</div></blockquote>
+</li>
+<li class="assertion">
 
 The syntax of the 'page-break-after' property is auto | always | avoid | left | right.
-: <q>Value: auto | always | avoid | left | right</q>
+: <blockquote><div>Value: auto | always | avoid | left | right</div></blockquote>
+</li>
+<li class="assertion">
 
 The initial value of the 'page-break-after' property is 'auto'.
-: <q>Initial: auto</q>
+: <blockquote><div>Initial: auto</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'page-break-after' property applies to block-level elements only.
-: <q>Applies to: block-level elements</q>
+: <blockquote><div>Applies to: block-level elements</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'page-break-after' property is not inherited.
-: <q>Inherited: no</q>
+: <blockquote><div>Inherited: no</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'page-break-after' property applies to paged media only.
-: <q>Media: paged</q>
+: <blockquote><div>Media: paged</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'auto' value of the 'page-break-before' property neither forces nor forbids a page break before the box.
-: <q>auto: Neither force nor forbid a page break before (after, inside) the generated box.</q>
+: <blockquote><div>auto: Neither force nor forbid a page break before (after, inside) the generated box.</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'always' value of the 'page-break-before' property forces a paage break before the box.
-: <q>always: Always force a page break before (after) the generated box.</q>
+: <blockquote><div>always: Always force a page break before (after) the generated box.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX The 'left' value of the 'page-break-before' property forces one or two page breaks before the box so that the page after the break is formatted as a left page.
-: <q>left: Force one or two page breaks before (after) the generated box so that the next page is formatted as a left page.</q>
+: <blockquote><div>left: Force one or two page breaks before (after) the generated box so that the next page is formatted as a left page.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX The 'right' value of the 'page-break-before' property forces one or two page breaks before the box so that the page after the break is formatted as a right page.
-: <q>right: Force one or two page breaks before (after) the generated box so that the next page is formatted as a right page.</q>
+: <blockquote><div>right: Force one or two page breaks before (after) the generated box so that the next page is formatted as a right page.</div></blockquote>
+</li>
+<li class="assertion">
 
 The syntax of the 'page-break-inside' property is auto | avoid.
-: <q>Value: auto | avoid</q>
+: <blockquote><div>Value: auto | avoid</div></blockquote>
+</li>
+<li class="assertion">
 
 The initial value of the 'page-break-inside' property is 'auto'.
-: <q>Initial: auto</q>
+: <blockquote><div>Initial: auto</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'page-break-inside' property applies to block-level elements only.
-: <q>Applies to: block-level elements</q>
+: <blockquote><div>Applies to: block-level elements</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'page-break-inside' property is inherited.
-: <q>Inherited: yes</q>
+: <blockquote><div>Inherited: yes</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'page-break-inside' property applies to paged media only.
-: <q>Media: paged</q>
+: <blockquote><div>Media: paged</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'auto' value of the 'page-break-before' property neither forces nor forbids a page break inside the box.
-: <q>auto: Neither force nor forbid a page break before (after, inside) the generated box.</q>
-</markdown>
+: <blockquote><div>auto: Neither force nor forbid a page break before (after, inside) the generated box.</div></blockquote>
+<h3>
 
 ===== Using named pages: 'page' =====
-<markdown>
+</h3>
+</li>
+<li class="assertion">
+
 The syntax of the 'page' property is auto | &lt;identifier>.
-: <q>Value: auto | &lt;identifier></q>
+: <blockquote><div>Value: auto | &lt;identifier></div></blockquote>
+</li>
+<li class="assertion">
 
 The initial value of the 'page' property is 'auto'
-: <q>Initial: auto</q>
+: <blockquote><div>Initial: auto</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'page' property only applies to block-level elements
-: <q>Applies to: block-level elements</q>
+: <blockquote><div>Applies to: block-level elements</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'page' property is inherited.
-: <q>Inherited: yes</q>
+: <blockquote><div>Inherited: yes</div></blockquote>
+</li>
+<li class="assertion">
 
 If a block box with inline content has a 'page' property that is different from the preceding block box with inline content, then a page break is inserted between them and the boxes after the break are rendered on a page box of the named type.
-: <q>If a block box with inline content has a 'page' property that is different from the preceding block box with inline content, then one or two page breaks are inserted between them, and the boxes after the break are rendered on a page box of the named type.</q>
-</markdown>
+: <blockquote><div>If a block box with inline content has a 'page' property that is different from the preceding block box with inline content, then one or two page breaks are inserted between them, and the boxes after the break are rendered on a page box of the named type.</div></blockquote>
+<h3>
 
 ===== Breaks inside elements: 'orphans', 'windows' =====
-<markdown>
-The syntax of the 'orphans' property is <integer>.
-: <q>Value: &lt;integer></q>
+</h3>
+</li>
+<li class="assertion">
+
+The syntax of the 'orphans' property is &lt;integer&gt;.
+: <blockquote><div>Value: &lt;integer&gt;</div></blockquote>
+</li>
+<li class="assertion">
 
 The initial value of the 'orphans' property is 2.
-: <q>Initial: 2</q>
+: <blockquote><div>Initial: 2</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'orphans' property applies to block-level elements only.
-: <q>Applies to: block-level elements</q>
+: <blockquote><div>Applies to: block-level elements</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'orphans' property is inherited.
-: <q>Inherited: yes</q>
+: <blockquote><div>Inherited: yes</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'orphans' property applies to visual media.
-: <q>Media: visual</q>
+: <blockquote><div>Media: visual</div></blockquote>
+</li>
+<li class="assertion">
 
 XX The 'orphans' property specifies the minimum number of line boxes in a block element that must be left at the bottom of a page when a page break occurs inside the block.
-: <q>The 'orphans' property specifies the minimum number of line boxes in a block element that must be left at the bottom of a page.</q>
+: <blockquote><div>The 'orphans' property specifies the minimum number of line boxes in a block element that must be left at the bottom of a page.</div></blockquote>
+</li>
+<li class="assertion">
 
-The syntax of the 'windows' property is <integer>.
-: <q>Value: &lt;integer></q>
+The syntax of the 'windows' property is &lt;integer&gt;.
+: <blockquote><div>Value: &lt;integer></div></blockquote>
+</li>
+<li class="assertion">
 
 The initial value of the 'windows' property is 2.
-: <q>Initial: 2</q>
+: <blockquote><div>Initial: 2</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'windows' property applies to block-level elements only.
-: <q>Applies to: block-level elements</q>
+: <blockquote><div>Applies to: block-level elements</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'windows' property is inherited.
-: <q>Inherited: yes</q>
+: <blockquote><div>Inherited: yes</div></blockquote>
+</li>
+<li class="assertion">
 
-The 'windows' property applies to visual media.
-: <q>Media: visual</q>
+The 'widows' property applies to visual media.
+: <blockquote><div>Media: visual</div></blockquote>
+</li>
+<li class="assertion">
 
-The 'windows' property specifies the minimum number of line boxes of a block that must be left at the top of a page when a page break occurs  inside the block.
-: <q>The 'windows' property specifies the minimum number of line boxes of a block that must be left at the top of a page.</q>
-</markdown>
+The 'widows' property specifies the minimum number of line boxes of a block that must be left at the top of a page when a page break occurs  inside the block.
+: <blockquote><div>The 'windows' property specifies the minimum number of line boxes of a block that must be left at the top of a page.</div></blockquote>
+<h3>
 
 ===== Allowed page breaks =====
-<markdown>
+</h3>
+</li>
+<li class="assertion">
+
 Page breaks may occur in the vertical margin between sibling block boxes (or rows in a table) subject to the following rules.
-: <q>In the normal flow, page breaks  may occur at the following places: 1. In the vertical margin between block boxes (or rows in a table). ... These breaks are subject to the following rules:</q>
+: <blockquote><div>In the normal flow, page breaks  may occur at the following places: 1. In the vertical margin between block boxes (or rows in a table). ... These breaks are subject to the following rules:</div></blockquote>
+</li>
+<li class="assertion">
 
 XXX When a page break occurs in the vertical margin between block boxes (or rows in a table), it replaces any clearance and the used values of any adjoining margins are set to '0'.
-: <q>In the vertical margin between block boxes (or rows in a table). When a page break occurs here, the computed values of the relevant  'margin-top' and 'margin-bottom'  properties are set to  '0'.</q>
+: <blockquote><div>In the vertical margin between block boxes (or rows in a table). When a page break occurs here, the computed values of the relevant  'margin-top' and 'margin-bottom'  properties are set to  '0'.</div></blockquote>
+</li>
+<li class="assertion">
 
 Page breaks may occur between line boxes inside a block box subject to the following rules.
-: <q>In the normal flow, page breaks  may occur at the following places: ... 2. Between line boxes inside a block box.  These breaks are subject to the following rules:</q>
+: <blockquote><div>In the normal flow, page breaks  may occur at the following places: ... 2. Between line boxes inside a block box.  These breaks are subject to the following rules:</div></blockquote>
+</li>
+<li class="assertion">
 
 Breaking in the vertical margin between block boxes (or rows in a table) is allowed only if the 'page-break-after' and 'page-break-before' properties of all the elements generating boxes that meet at this margin allow it, which is when at least one of them has the value  'always', 'left', or 'right', or when all of them are 'auto' and the nearest common ancestor of all the elements does not have a 'page-break-inside value of 'avoid'.
-: <q>Rule A: Breaking at (1) is allowed only if the 'page-break-after' and  'page-break-before' properties of all the elements generating boxes that meet at this margin allow it, which is when at least one of them has the value  'always', 'left', or 'right', or when all of them are 'auto'.</q>
+: <blockquote><div>Rule A: Breaking at (1) is allowed only if the 'page-break-after' and  'page-break-before' properties of all the elements generating boxes that meet at this margin allow it, which is when at least one of them has the value  'always', 'left', or 'right', or when all of them are 'auto'.</div></blockquote>
 
-  <q>Rule B: However, if all of them are  'auto' and the nearest common ancestor of all the elements has a  'page-break-inside' value of 'avoid', then breaking here is not allowed.</q>
+  <blockquote><div>Rule B: However, if all of them are  'auto' and the nearest common ancestor of all the elements has a  'page-break-inside' value of 'avoid', then breaking here is not allowed.</div></blockquote>
+</li>
+<li class="assertion">
 
 Breaking between line boxes is allowed only if the number of line boxes between the break and the start of the enclosing block box is the value of 'orphans' or more, and the number of line boxes between the break and the end of the box is the value of 'widows' or more and the value of the 'page-break-inside' property is 'auto'.
-: <q>Rule C: Breaking at (2) is allowed only if the number of line boxes between the break and the start of the enclosing block box is the value of 'orphans' or more, and the number of line boxes between the break and the end of the box is the value of 'widows' or more.</q>
+: <blockquote><div>Rule C: Breaking at (2) is allowed only if the number of line boxes between the break and the start of the enclosing block box is the value of 'orphans' or more, and the number of line boxes between the break and the end of the box is the value of 'widows' or more.</div></blockquote>
 
-  <q>Rule D: breaking at (2) is allowed only if the  'page-break-inside' property is 'auto'.</q>
+  <blockquote><div>Rule D: breaking at (2) is allowed only if the  'page-break-inside' property is 'auto'.</div></blockquote>
+</li>
+<li class="assertion">
 
 If the above doesn't provide enough break points to keep content from overflowing the page boxes, then the restrictions imposed by 'avoid' on the 'page-break-*' properties are dropped.
-: <q>If the above doesn't provide enough break points to keep content from overflowing the page boxes, then rules A, B and D are dropped in order to find additional breakpoints.</q>
+: <blockquote><div>If the above doesn't provide enough break points to keep content from overflowing the page boxes, then rules A, B and D are dropped in order to find additional breakpoints.</div></blockquote>
+</li>
+<li class="assertion">
 
 If even after dropping the restrictions due to 'avoid' values on 'page-break-*' there aren't enough break points to keep content from overflowing the page boxes, then the restrictions due to 'windows' and 'orphans' are dropped as well.
-: <q>If that still does not lead to sufficient break points, rule C is dropped as well, to find still more break points.</q>
-</markdown>
+: <blockquote><div>If that still does not lead to sufficient break points, rule C is dropped as well, to find still more break points.</div></blockquote>
+
+<h3>
 
 ===== Forced Page Breaks =====
-<markdown>
+</h3>
+</li>
+<li class="assertion">
+
 A page break MUST occur in the vertical margin between block boxes (or rows in a table) if, among the 'page-break-after' and 'page-break-before' properties of all the elements generating boxes that meet at this margin, there is at least one with the value 'always', 'left', or  'right'.
-: <q>A page break MUST occur at (1) if, among the 'page-break-after' and 'page-break-before' properties of all the elements generating boxes that meet at this margin, there is at least one with the value 'always', 'left', or  'right'.</q>
+: <blockquote><div>A page break MUST occur at (1) if, among the 'page-break-after' and 'page-break-before' properties of all the elements generating boxes that meet at this margin, there is at least one with the value 'always', 'left', or  'right'.</div></blockquote>
+</li>
+<li class="assertion">
 
 XX When multiple 'page-break-before' and/or 'page-break-after'  properties with values of "always", "left" or "right" apply at a margin, only one of them generates page breaks.
-: <q>When multiple 'page-break-before' and/or 'page-break-after'  properties with values of "always", "left" or "right" apply at a margin, only one of them should generate page breaks. That is, no Content-empty pages are generated by page-break properties, except for at most one Content-empty page as may be required by :right and :left values to position ensuing content on a right- or left-facing page.</q>
+: <blockquote><div>When multiple 'page-break-before' and/or 'page-break-after'  properties with values of "always", "left" or "right" apply at a margin, only one of them should generate page breaks. That is, no Content-empty pages are generated by page-break properties, except for at most one Content-empty page as may be required by :right and :left values to position ensuing content on a right- or left-facing page.</div></blockquote>
+</li>
+<li class="assertion">
 
 A page break MUST occur in the vertical margin between block boxes (or rows in a table) if the last line box above this margin and the first one below it do not have the same value for 'page'.
-: <q>A page break MUST also occur at (1) if the last line box above this margin and the first one below it do not have the same value for 'page'.</q>
-</markdown>
+: <blockquote><div>A page break MUST also occur at (1) if the last line box above this margin and the first one below it do not have the same value for 'page'.</div></blockquote>
+<h3>
 
 ===== Orienting an image on the Page: the image-orientation property =====
-<markdown>
+</h3>
+</li>
+<li class="assertion">
+
 The syntax of the image-orientation property is auto | intrinsic | &lt;angle>.
-: <q>Value: auto | intrinsic | <angle></q>
+: <blockquote><div>Value: auto | intrinsic | &lt;angle&gt;</div></blockquote>
+<div class="tests">Tests: page-img-orient-000.xht, page-img-orient-001.xht</div>
+</li>
+<li class="assertion">
 
 The initial value of the image-orientation property is 'auto'.
-: <q>Initial: auto</q>
+: <blockquote><div>Initial: auto</div></blockquote>
+</li>
+<li class="assertion">
 
 XXX The image-orientation property {is|is not} inherited.
-: <q>Inherited:N/A</q>
+: <blockquote><div>Inherited:N/A</div></blockquote>
+</li>
+<li class="assertion">
 
 The image-orientation property applies to all visual media.
-: <q>Media: visual</q>
+: <blockquote><div>Media: visual</div></blockquote>
+</li>
+<li class="assertion">
 
 XXX The computed value of the image-orientation property is 'intrinsic' as specified or the angle modulo the full circle angle.
-: <q>Computed value: specified value modulo full circle value</q>
+: <blockquote><div>Computed value: specified value modulo full circle value</div></blockquote>
+</li>
+<li class="assertion">
 
 CSS layout processing applies to the image after rotation.
-: <blockquote>
+: <blockquote><div>
     <p>CSS layout processing applies to the image after rotation. This implies, for example:</p>
     <ul>
       <li>The intrinsic height and width are derived from the rotated rather than the original image dimensions</li>
       <li>The height (width) property applies to the vertical (horizontal) dimension of the image, after rotation.</li>
     </ul>
-  </blockquote>
+  </div></blockquote>
+  <div class="tests">Tests: page-img-orient-000.xht, page-img-orient-001.xht</div>
+</li>
+<li class="assertion">
 
 The 'auto' value of 'image-orientation' sets the image to the orientation of the page.
-: <q>auto: The image will be set to the orientation of the page</q>
+: <blockquote><div>auto: The image will be set to the orientation of the page</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'intrinsic' value of 'image-orientation' orients the image according to orientation metadata contained within the image source data, if any.
-: <q>intrinsic: The image will be oriented according to orientation metadata contained within the image source data.</q>
+: <blockquote><div>intrinsic: The image will be oriented according to orientation metadata contained within the image source data.</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'intrinsic' value of 'image-orientation' orients the image as for 'auto' if no orientation metadata is found within the image source data.
-: <q>If no such metadata is found, the image is oriented as for 'auto'.</q>
+: <blockquote><div>If no such metadata is found, the image is oriented as for 'auto'.</div></blockquote>
+</li>
+<li class="assertion">
 
 A value of '0deg' for 'image-orientation' orients the image as for 'auto'.
-: <q>A value of '0deg' orients the image as for 'auto'.</q>
+: <blockquote><div>A value of '0deg' orients the image as for 'auto'.</div></blockquote>
+</li>
+<li class="assertion">
 
 A positive value for 'image-orientation' rotates the image to the right (in a clockwise direction) by the given number of degrees.
-: <q>A positive value rotates the image to the right (in a clockwise direction) by the given number of degrees.</q>
+: <blockquote><div>A positive value rotates the image to the right (in a clockwise direction) by the given number of degrees.</div></blockquote>
+<div class="tests">Tests: page-img-orient-000.xht, page-img-orient-001.xht</div>
+</li>
+<li class="assertion">
 
 A negative value for 'image-orientation' rotates the image to the left (in a counter-clockwise direction) by the given number of degrees.
-: <q>Negative values rotate to the left or in a counter-clockwise direction.</q>
-</markdown>
+: <blockquote><div>Negative values rotate to the left or in a counter-clockwise direction.</div></blockquote>
+<h3>
 
 ===== The 'image-scaling' and 'image-position' Properties =====
-<markdown>
+</h3>
+</li>
+<li class="assertion">
+
 XXX The syntax of the 'image-scaling' property is fill | contain | cover.
-: <q>Value: fill | none | contain | cover</q>
+: <blockquote><div>Value: fill | none | contain | cover</div></blockquote>
+</li>
+<li class="assertion">
 
 The initial value of the 'image-scaling' property is 'fill'.
-: <q>Initial: fill</q>
+: <blockquote><div>Initial: fill</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'image-scaling' property applies to replaced elements only.
-: <q>Applies to: replaced elements</q>
+: <blockquote><div>Applies to: replaced elements</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'image-scaling' property is inherited.
-: <q>Inherited: yes</q>
+: <blockquote><div>Inherited: yes</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'image-scaling' property applies to visual media.
-: <q>Media: visual</q>
+: <blockquote><div>Media: visual</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'fill' value of the 'image-scaling' property does not affect the usual calculation of the used 'height' and 'width.
-: <q>fill: Determine the used 'height' and 'width' as usual.</q>
+: <blockquote><div>fill: Determine the used 'height' and 'width' as usual.</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'fill' value of the 'image-scaling' property scales the content height and width independently so that the edges of the content just meet the edges of the box established by the used 'height' and 'width'.
-: <q>fill: Scale the content height and width independently so that the edges of the content just meet the edges of the box established by the used 'height' and 'width'.</q>
+: <blockquote><div>fill: Scale the content height and width independently so that the edges of the content just meet the edges of the box established by the used 'height' and 'width'.</div></blockquote>
+
+</li>
+<li class="assertion">
 
 The 'contain' value of the 'image-scaling' property does not affect the usual calculation of the used 'height' and 'width' except if both 'height' and 'width' are 'auto', and the used value of at least one of 'max-width' and 'max-height' is not 'none', in which case the element's used width and used height are calculated as though the intrinsic dimensions of the contents were infinitely large numbers whose ratio is the actual intrinsic ratio of the contents.
-: <q>contain:  Determine the used 'height' and 'width' as usual, except if both 'height' and 'width' are 'auto', and the used value of at least one of 'max-width' and 'max-height' is not 'none', then compute the element's used width and used height as though the intrinsic dimensions of the contents were infinitely large numbers whose ratio is the actual intrinsic ratio of the contents.</q>
+: <blockquote><div>contain:  Determine the used 'height' and 'width' as usual, except if both 'height' and 'width' are 'auto', and the used value of at least one of 'max-width' and 'max-height' is not 'none', then compute the element's used width and used height as though the intrinsic dimensions of the contents were infinitely large numbers whose ratio is the actual intrinsic ratio of the contents.</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'contain' value of the 'image-scaling' property scales the contents of the element, preserving their aspect ratio, to the largest size such that the width of the contents is less than or equal to the used width of the box and the height of the contents is less than or equal to the used height of the box.
-: <q>contain: Scale the contents of the element, preserving their aspect ratio, to the largest size such that the width of the contents is less than or equal to the used width of the box and the height of the contents is less than or equal to the used height of the box.</q>
+: <blockquote><div>contain: Scale the contents of the element, preserving their aspect ratio, to the largest size such that the width of the contents is less than or equal to the used width of the box and the height of the contents is less than or equal to the used height of the box.</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'cover' value of the 'image-scaling' property does not affect the usual calculation of the used height and width except if both 'height' and 'width' are 'auto', and the used value of at least one of 'min-width' and 'min-height' is not '0', in which case the used width and used height of the element are calculated as though the intrinsic dimensions of the contents were infinitesimally small numbers whose ratio is the actual intrinsic ratio of the contents.
-: <q>Determine the used 'height' and 'width' as usual, except if both 'height' and 'width' are 'auto', and the used value of at least one of 'min-width' and 'min-height' is not '0', then compute the used width and used height of the element as though the intrinsic dimensions of the contents were infinitesimally small numbers whose ratio is the actual intrinsic ratio of the contents.</q>
+: <blockquote><div>Determine the used 'height' and 'width' as usual, except if both 'height' and 'width' are 'auto', and the used value of at least one of 'min-width' and 'min-height' is not '0', then compute the used width and used height of the element as though the intrinsic dimensions of the contents were infinitesimally small numbers whose ratio is the actual intrinsic ratio of the contents.</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'cover' value of the 'image-scaling' property scales the contents of the element, preserving their aspect ratio, to the smallest size such that the width of the contents is greater than or equal to the used width of the box and the height of the contents is greater than or equal to the height of the box.
-: <q>Scale the contents of the element, preserving their aspect ratio, to the smallest size such that the width of the contents is greater than or equal to the used width of the box and the height of the contents is greater than or equal to the height of the box.</q>
+: <blockquote><div>Scale the contents of the element, preserving their aspect ratio, to the smallest size such that the width of the contents is greater than or equal to the used width of the box and the height of the contents is greater than or equal to the height of the box.</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'overflow' property determines how to render parts of the replaced element's content that extend beyond the edges of its box.
-: <q>The 'overflow' property determines how to render parts of the replaced element's content that extend beyond the edges of its box.</q>
+: <blockquote><div>The 'overflow' property determines how to render parts of the replaced element's content that extend beyond the edges of its box.</div></blockquote>
+</li>
+<li class="assertion">
 
-The syntax of the 'image-position' property is [ [  <percentage> |  <length> | left | center | right ] [  <percentage> |  <length> | top | center | bottom ]? ] | [ [ left | center | right ] || [ top | center | bottom ] ] | auto.
-: <q>Value: [ [  <percentage> |  <length> | left | center | right ] [  <percentage> |  <length> | top | center | bottom ]? ] | [ [ left | center | right ] || [ top | center | bottom ] ] | auto</q>
+The syntax of the 'image-position' property is [ [  &lt;percentage&gt; |  &lt;length&gt; | left | center | right ] [  &lt;percentage&gt; |  &lt;length&gt; | top | center | bottom ]? ] | [ [ left | center | right ] || [ top | center | bottom ] ] | auto.
+: <blockquote><div>Value: [ [  &lt;percentage&gt; |  &lt;length&gt; | left | center | right ] [  &lt;percentage&gt; |  &lt;length&gt; | top | center | bottom ]? ] | [ [ left | center | right ] || [ top | center | bottom ] ] | auto</div></blockquote>
+</li>
+<li class="assertion">
 
 The initial value of the 'image-position' property is 50% 50%.
-: <q>Initial: 50% 50%</q>
+: <blockquote><div>Initial: 50% 50%</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'image-position' property applies to replaced elements.
-: <q>Applies to: replaced elements</q>
+: <blockquote><div>Applies to: replaced elements</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'image-position' property is inherited.
-: <q>Inherited: yes</q>
+: <blockquote><div>Inherited: yes</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'image-position' property applies to visual media.
-: <q>Media: visual</q>
+: <blockquote><div>Media: visual</div></blockquote>
+</li>
+<li class="assertion">
 
 When two values are given for 'image-position' and at least one of them is not a keyword, the first value represents alignment in the horizontal dimension and the second represents alignment in the vertical.
-: <q>See background-position  for a detailed description of values other than 'auto'.</q>
+: <blockquote><div>See background-position  for a detailed description of values other than 'auto'.</div></blockquote>
 
-  <q>If two values are given, the horizontal position comes first. (CSS2.1:14.2.1)</q>
+  <blockquote><div>If two values are given, the horizontal position comes first. (CSS2.1:14.2.1)</div></blockquote>
+</li>
+<li class="assertion">
 
 When a single value is given for 'image-position' and that value is not a keyword, that value represents alignment in the horizontal dimension and alignment in the vertical dimension is treated as 50%.
-: <q>See background-position  for a detailed description of values other than 'auto'.</q>
+: <blockquote><div>See background-position  for a detailed description of values other than 'auto'.</div></blockquote>
 
-  <q>If only one percentage or length value is given, it sets the horizontal position only, and the vertical position will be 50%. (CSS2.1:14.2.1)</q>
+  <blockquote><div>If only one percentage or length value is given, it sets the horizontal position only, and the vertical position will be 50%. (CSS2.1:14.2.1)</div></blockquote>
+</li>
+<li class="assertion">
 
 When the first value of 'image-position' is a percentage X, the point X% across the image from its left edge must be aligned with the point X% across the padding box of the element.
-: <q>With a value pair of '0% 0%', the upper left corner of the image is aligned with the upper left corner of the box's padding edge. A value pair of '100% 100%' places the lower right corner of the image in the lower right corner of padding area. With a value pair of '14% 84%', the point 14% across and 84% down the image is to be placed at the point 14% across and 84% down the padding area.</q>
+: <blockquote><div>With a value pair of '0% 0%', the upper left corner of the image is aligned with the upper left corner of the box's padding edge. A value pair of '100% 100%' places the lower right corner of the image in the lower right corner of padding area. With a value pair of '14% 84%', the point 14% across and 84% down the image is to be placed at the point 14% across and 84% down the padding area.</div></blockquote>
+</li>
+<li class="assertion">
 
 When the second value of 'image-position' is a percentage Y, the point Y% down the image from its top edge must be aligned with the point Y% down the padding box of the element.
-: <q>With a value pair of '0% 0%', the upper left corner of the image is aligned with the upper left corner of the box's padding edge. A value pair of '100% 100%' places the lower right corner of the image in the lower right corner of padding area. With a value pair of '14% 84%', the point 14% across and 84% down the image is to be placed at the point 14% across and 84% down the padding area.</q>
+: <blockquote><div>With a value pair of '0% 0%', the upper left corner of the image is aligned with the upper left corner of the box's padding edge. A value pair of '100% 100%' places the lower right corner of the image in the lower right corner of padding area. With a value pair of '14% 84%', the point 14% across and 84% down the image is to be placed at the point 14% across and 84% down the padding area.</div></blockquote>
+</li>
+<li class="assertion">
 
 When the first value of 'image-position' is a length L, the left edge of the image is placed L to the right of the left edge of the padding box of the element.
-: <q>With a value pair of '2cm 2cm', the upper left corner of the image is placed 2cm to the right and 2cm below the upper left corner of the padding area.</q>
+: <blockquote><div>With a value pair of '2cm 2cm', the upper left corner of the image is placed 2cm to the right and 2cm below the upper left corner of the padding area.</div></blockquote>
+</li>
+<li class="assertion">
 
 When the second value of 'image-position' is a length L, the top edge of the image is placed L below the top edge of the padding box of the element.
-: <q>With a value pair of '2cm 2cm', the upper left corner of the image is placed 2cm to the right and 2cm below the upper left corner of the padding area.</q>
+: <blockquote><div>With a value pair of '2cm 2cm', the upper left corner of the image is placed 2cm to the right and 2cm below the upper left corner of the padding area.</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'top' value of 'image-position' is the same as 0% for the vertical alignment value.
-: <q>'top left', 'left top': Same as '0% 0%'. 'top', 'top center', 'center top': Same as '50% 0%'. 'right top', 'top right':  Same as '100% 0%'.</q>
+: <blockquote><div>'top left', 'left top': Same as '0% 0%'. 'top', 'top center', 'center top': Same as '50% 0%'. 'right top', 'top right':  Same as '100% 0%'.</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'left' value of 'image-position' is the same as 0% for the horizontal alignment value.
-: <q>'top left', 'left top': Same as '0% 0%'. 'left', 'left center', 'center left': Same as '0% 50%'. 'bottom left', 'left bottom': Same as '0% 100%'.</q>
+: <blockquote><div>'top left', 'left top': Same as '0% 0%'. 'left', 'left center', 'center left': Same as '0% 50%'. 'bottom left', 'left bottom': Same as '0% 100%'.</div></blockquote>
+</li>
+<li class="assertion">
 
 The 'center' value of 'image-position' is the same as 50% for either the horizontal alignment value (if it is not otherwise given) or the vertical alignment value (if it is not otherwise given).
-: <q>'top', 'top center', 'center top': Same as '50% 0%'. 'left', 'left center', 'center left': Same as '0% 50%'. 'center', 'center center': Same as '50% 50%'. 'center', 'center center': Same as '50% 50%'. 'bottom', 'bottom center', 'center bottom': Same as '50% 100%'.</q>
+: <blockquote><div>'top', 'top center', 'center top': Same as '50% 0%'. 'left', 'left center', 'center left': Same as '0% 50%'. 'center', 'center center': Same as '50% 50%'. 'center', 'center center': Same as '50% 50%'. 'bottom', 'bottom center', 'center bottom': Same as '50% 100%'.</div></blockquote>
+</li>
+
+</ol>
+</div>
+</body>
+</html>
 </markdown>
