@@ -3,3 +3,4 @@
 This section documents problems found in the CSS specs and working drafts. Problems documented here will be addressed by the editors, possibly after discussion in a CSS Working Group meeting, and will result in changes, corrections, clarifications, or no change.
 
   * [[spec:css2.1|CSS2.1]]
+  * [[spec:css3-lists|CSS3 Lists]]
