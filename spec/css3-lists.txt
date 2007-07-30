@@ -1,0 +1,13 @@
+====== CSS Lists Level 3 ======
+
+...
+
+===== Current Issues =====
+
+The following are known problems in the [[http://www.w3.org/TR/2002/WD-css3-lists-20021107|7 November 2002 CSS Lists Level 3 Working Draft]].
+
+==== Issue 1 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jul/0175.html
+  ;Summary : Georgian list numbering in CSS3 Lists is wrong.
+  ;Status : Open
