@@ -2,6 +2,7 @@
 
 This page records known problems in the [[test:css2.1|CSS 2.1 Conformance Test Suite]]. For problems with the harness, see [[harness]].
 
+
 ===== Lifecyle of a Bug =====
 
 Valid status markers:
@@ -14,7 +15,7 @@ Valid status markers:
 : Needs more information (e.g. from the working group or someone more knowledgeable about the spec) before a fix can be designed.
 
 <dfn>FIXME</dfn>
-: A fix is proposed in the Resolution section, but has not coded and/or checked in.
+: A fix is proposed in the Resolution section, but has been not coded/reviewed/checked in.
 
 <dfn>VERIFYME</dfn>
 : A fix has been checked in, someone else needs to verify.
