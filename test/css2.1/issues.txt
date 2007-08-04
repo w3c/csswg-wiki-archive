@@ -31,6 +31,7 @@ A bug record is removed once someone else has either verified the fix, or verifi
 ===== Open Bugs =====
 
 
+
 ==== t1202-counters-17-d ====
 <markdown>
 Test
@@ -51,7 +52,7 @@ Resolution
   `t1202-counters-17-d.htm`.
 
 Status
-: FIXME
+: VERIFYME
 </markdown>
 
 
