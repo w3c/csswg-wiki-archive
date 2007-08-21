@@ -23,12 +23,13 @@ The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-200
 
 
 
+
 ==== Issue 3 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jul/0097.html
   ;Summary : ''@{C}{H}{A}{R}{S}{E}{T}'' in grammar (G.2) should be reverted to ''%%"@charset "%%''
-  ;Status : Needs resolution
-
+  ;Resolution : Make change.
+  ;Status : =Bert= Edit.
 
 ==== Issue 4 ====
 
