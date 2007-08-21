@@ -10,6 +10,7 @@ The CSS3 Paged Media Test Suite still needs a lot of work, and the CSS Working G
 
 
 
+
 ===== Template for New Tests =====
 
 The baseline format for CSS3 Paged Media tests is XHTML 1.1. A set of scripts generate the various formats from this source version.
@@ -24,7 +25,7 @@ If the test does not contain "@page", the build scripts will add the following s
             @top-right { content: "Test TEST-FILE-BASE-NAME"; }
             @bottom-right { content: counter(page); }
           }
-If the test **does** contain "@page", you need to add any test identifying information yourself, either in margin boxes or directly within the test content.
+If the test **does** contain "@page", the build scripts will instead add this information as the first and last paragraphs inside the <body>.
 
 The ''rel="author"'' link is optional.
 
