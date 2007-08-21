@@ -13,11 +13,13 @@ The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-200
   ;Status : Needs proposal
 
 
+
 ==== Issue 2 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jul/0118.html
   ;Summary : Remove ''DELIM?'' from ''declaration'' definition in 4.1.1. (It was [[http://lists.w3.org/Archives/Member/w3c-css-wg/2003JanMar/0273.html|added there]] to enable vendor extensions, but that's already solved by allowing hyphens at the beginning of an identifier.)
-  ;Status : Needs resolution
+  ;Resolution : Accepted to remove ''DELIM?'' from ''declaration''.
+  ;Status : =Bert= Needs edit.
 
 
 
