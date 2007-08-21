@@ -2,6 +2,8 @@
 
 The [[http://www.w3.org/TR/CSS21/|CSS2.1 specification]] is a revision of of [[http://www.w3.org/TR/REC-CSS2/|CSS2]] that corrects many errors and omissions in the CSS2 Recommendation. It has also dropped unimplemented features and introduced a handful of minor new ones.
 
+There is an <a href="http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html">errata document</a> for CSS2.1.
+
 ===== Current Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. Once resolved, any resulting changes or corrections will be added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|errata list]].
