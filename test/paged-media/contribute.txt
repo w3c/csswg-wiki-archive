@@ -16,6 +16,16 @@ The baseline format for CSS3 Paged Media tests is XHTML 1.1. A set of scripts ge
 
 Copy and paste the following text into a new file, or save this file, and replace the capitalized parts. ''<link>'' elements are used to [[http://www.w3.org/Style/CSS/Test/guidelines.html#links|link to the relevant section of the spec]]. If this file tests one or more specific [[test:paged-media:assertions|test assertions]], add a ''<meta>'' element for each one, copying the assertion directly into its ''content'' attribute. A test will generally test many sections and assertions (e.g. every test tests for proper parsing). Only list assertions that the test focuses on: ones that must still be tested in this test even if the test's approach to testing them changes in the future.
 
+If the test does not contain "@page", the build scripts will add the following style rules:
+    @page { counter-increment: page;
+            font: italic 8pt sans-serif;
+            color: gray;
+            @top-left { content: "CSS 2.1 Conformance Test Suite"; }
+            @top-right { content: "Test TEST-FILE-BASE-NAME"; }
+            @bottom-right { content: counter(page); }
+          }
+If the test **does** contain "@page", you need to add any test identifying information yourself, either in margin boxes or directly within the test content.
+
 The ''rel="author"'' link is optional.
 
 <code html>
@@ -36,5 +46,9 @@ The ''rel="author"'' link is optional.
  </body>
 </html>
 </code>
+
+===== Submitting the New Test =====
+
+You can submit a new test by [[http://lists.w3.org/Archives/Public/public-css-testsuite/|sending it to public-css-testsuite@w3.org]].
 
 ====== How to Contribute a Fix to an Existing Test ======
