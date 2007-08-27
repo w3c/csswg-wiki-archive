@@ -6,9 +6,10 @@ particularly those that are not otherwise recorded in our
 specifications (yet).
 
 
+
 ===== Resolutions =====
 
-(Please do not edit this list unless you are a CSS Working Group member.)
+This list only includes ideas that have been vetted and approved by the CSS Working Group.
 
   * [[ideas:image-replacement|Image Replacement]]
   * [[ideas:content-fallbacks|Content Fallbacks]]
