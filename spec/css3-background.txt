@@ -1,0 +1,34 @@
+====== CSS Backgrounds and Borders Level 3 ======
+
+...
+
+===== Current Issues =====
+
+The following are known problems in the [[http://www.w3.org/TR/2005/WD-css3-background-20050216/|16 February 2005 CSS Backgrounds and Borders Level 3 Working Draft]].
+
+==== Issue 1 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2006Jul/0017.html
+  ;Summary : Specify what happens when border-radius is more than 50% of the box's width/height.
+  ;Status : Needs proposal
+
+
+==== Issue 1 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2006Jul/0017.html
+  ;Summary : Need border-image clarifications
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2007Jun/0096.html
+  ;Resolution : Proposal accepted
+  ;Status : Needs editor approval + edits
+
+==== Issue 3 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jun/0073.html
+  ;Summary : Middle image doesn't scale to match border images
+  ;Status : Needs discussion
+
+==== Issue 4 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jun/0208.html
+  ;Summary : Shorthand for border-radius unnecessarily restrictive.
+  ;Status : Needs proposal
