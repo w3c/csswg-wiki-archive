@@ -1,3 +1,65 @@
 ====== Constants for CSS ======
 
-Link to prior discussion (blogs, www-style), and list use cases here.
+Most recent request for Constants in CSS: http://lists.w3.org/Archives/Public/www-style/2007Aug/0167.html
+
+====== Implementation proposals ======
+
+===== @const at-rule =====
+
+Author: Andrew Fedoniouk. Implementation below is used in h-smile core engine.
+(Do I need to put links here for real life demo?)
+
+==== Declaration of the const. ====
+
+<code css>
+@const name: value(s);
+</code>
+Where:
+  * //name// is a symbolic name (nmtoken?);
+  * //value(s)// - single or sequence of values.
+
+Example:
+<code css>
+@const  THEME-BORDER-WIDTH:  1px 1px 1px 1px;
+@const  THEME-BACKGROUND-COLOR:  orange;
+@const  THEME-DEFAULT-FONT:  12pt arial, helvetica, sans-serif;
+</code>
+
+==== Constant insertion. ====
+
+const insertion point may appear in attribute value production and is marked by '@' symbol immediately followed by the name of the constant:
+
+<code css>
+#something {
+   border-width: @THEME-BORDER-WIDTH;
+   left-border: @THEME-BORDER-WIDTH solid black;
+   font: @THEME-DEFAULT-FONT;
+}
+</code>
+<note>
+  Daniel Glazman prefer to use const(name) as a marker of constant insertion point.
+</note>
+
+==== Undefined constant insertion. ====
+
+non-existent constants produce empty insertion. So
+<code css>
+#something {
+   left-border: @DOES_NOT_EXIST solid black;
+}
+</code>
+will be transformed to 
+<code css>
+#something {
+   left-border: solid black;
+}
+</code>
+
+==== @const are constants. ====
+
+values of @const are immutable in runtime - once parsed they cannot be changed.
+If there are multiple declarations of constant with the same name then only first is used.
+
+
+
+
