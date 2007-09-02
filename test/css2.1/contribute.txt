@@ -44,4 +44,16 @@ Copy and paste the following text into a new file, or save this file, and replac
 
 You can submit a new test by [[http://lists.w3.org/Archives/Public/public-css-testsuite/|sending it to public-css-testsuite@w3.org]].
 
+
 ====== How to Contribute a Fix to an Existing Test ======
+
+To contribute a fix to an existing test, send an email to [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite@w3.org]] with both
+
+  * an explanation of the problem or a reference to a previous message explaining the problem
+  * the precise changes necessary to fix the problem (preferably as a diff)
+
+Fixes to existing tests are also subject to the [[test:css2.1:review|review process]].
+
+====== What to Do If You Receive No Response ======
+
+If you've waited at least a week and your contribution seems to be going nowhere, please complain to the test suite owner (currently [[http://fantasai.inkedblade.net/contact|fantasai]]). No, really, please do complain if this is the case.
