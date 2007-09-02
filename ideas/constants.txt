@@ -1,7 +1,13 @@
 ====== Constants for CSS ======
 
+===== Previous Discussion =====
+
   * [[http://lists.w3.org/Archives/Public/www-style/2007Aug/0167.html|Most recent request for constants in CSS]], www-style, August 2007
   * [[http://lists.w3.org/Archives/Public/www-style/2006Oct/0137.html|A proposal for color palettes]], www-style, October 2006
+
+===== Use Cases =====
+
+** This feature proposal needs specific, realistic use cases, please add yours here. **
 
 ====== Implementation proposals ======
 
