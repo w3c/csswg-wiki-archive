@@ -63,10 +63,11 @@ To contribute a fix to an existing test, send an email to [[http://lists.w3.org/
 Fixes to existing tests are also subject to the [[test:css2.1:review|review process]].
 
 
+
 ====== Other Ways to Contribute ======
 
   * You can subscribe to the [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite mailing list]] and [[test:css2.1:review|review]] test submissions as they come in.
-  * You can go through the issues marked VERIFYME in the [[test:css2.1:issues|Known Problems list]], verify that they are indeed fixed in the [[http://www.w3.org/Style/CSS/Test/CSS2.1/current/|latest version]], and remove them from the know bugs list.
+  * You can go through the issues marked VERIFYME in the [[test:css2.1:issues|Known Problems list]], verify that they are indeed fixed in the [[http://www.w3.org/Style/CSS/Test/CSS2.1/current/|latest version]], and remove them from the known bugs list.
 
 ====== What to Do If You Receive No Response ======
 
