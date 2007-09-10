@@ -6,10 +6,8 @@ The CSSWG has resolved to allow the ''content'' property on all elements in CSS3
 
 <code css>
   /* Use image, failing that use element's content. */
-  H1 { content: url(sparkly_heading_text.png), contents; }
+  H1 { content: url(sparkly_heading_text.png), contents }
 </code>
-
-
 
 
 
@@ -71,6 +69,8 @@ h1 { font-family: Zapfino, cursive;
 h1 { font-family: Zapfino, cursive;
      content: require-font("Zapfino") contents; }
 h1 { font-family: Zapfino, cursive;
+     content: require-font("Zapfino") }
+h1 { font-family: Zapfino, cursive;
      content: require-font("Zapfino") contents, url(images/hello.png); }
 h1 { font-family: Zapfino, Wingdings, Arial;
      content: require-font("Zapfino") require-font("Wingdings") contents, url(images/hello.png); }
@@ -86,6 +86,13 @@ h1 span { font-family: biggy }
 h1      { font-family: Times New Roman }
 h1      { content: require-font(biggy) contents, url(replacement.png) }
 </code>
+
+The ''contents'' keyword is implied and the last line can therefore be written:
+
+<code css>
+h1      { content: require-font(biggy), url(replacement.png) }
+</code>
+
 
 ===== Expected Spec =====
 
