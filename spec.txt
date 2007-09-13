@@ -2,10 +2,11 @@
 
 This section documents problems found in the CSS specs and working drafts. Problems documented here will be addressed by the editors, possibly after discussion in a CSS Working Group meeting, and will result in changes, corrections, clarifications, or no change.
 
-  * [[spec:css2.1|CSS2.1]]
-  * [[spec:css3-background|CSS Backgrounds and Borders Level 3]]
-  * [[spec:css3-lists|CSS Lists Level 3]]
+  * [[spec:css2.1|CSS Level 2 Revision 1]
+  * [[spec:css3-background|CSS Backgrounds and Borders Module Level 3]]
+  * [[spec:css3-lists|CSS Lists Module Level 3]]
   * [[spec:css3-selectors|Selectors Level 3]]
-  * [[spec:mediaqueries|Media Queries]]
-  * [[spec:css3-color|CSS3 Color Module]]
-  * [[spec:css3-text|CSS3 Text]]
+  * [[spec:mediaqueries|Media Queries Level 3]]
+  * [[spec:css3-color|CSS Color Module Level 3]]
+  * [[spec:css3-text|CSS Text Module Level 3]]
+  * [[spec:css3-text-layout|CSS Text Layout Module Level 3]]
