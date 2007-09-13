@@ -19,10 +19,13 @@ This list only includes ideas that have been vetted and approved by the CSS Work
 
 
 
+
 ===== Ideas and Issues =====
 
-This list includes ideas the CSS Working Group believe are worth discussing. Please include real-world use cases and links to prior discussion (e.g. on blogs or [[http://lists.w3.org/Archives/Public/www-style|www-style]]).
+This list includes ideas the CSS Working Group believe are worth discussing. These pages are publicly editable. Please include real-world use cases and links to prior discussion (e.g. on blogs or [[http://lists.w3.org/Archives/Public/www-style|www-style]]).
 
   * [[ideas:hyphenation|Hyphenation]]
   * [[ideas:text-decoration|Text Decoration]]
   * [[ideas:constants|Macros/Variables/Constants]]
+
+  * [[ideas:japanese-layout|Japanese Layout]]
