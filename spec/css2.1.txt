@@ -48,10 +48,11 @@ The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-200
   ;Resolution : Accepted to use ''S+''.
   ;Status : =Bert= Edit.
 
+
 ==== Issue 6 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jul/0104.html
   ;Summary : Position of empty blocks in margin collapsing sub-optimal / inconsistent with implementations
   ;Proposal : In [[http://www.w3.org/TR/CSS21/box.html#collapsing-margins|8.3.1]] bullet 6 subbullet 2, change "non-zero top border" to "non-zero bottom border".
   ;Resolution : Accepted proposal pending Hixie's approval.
-  ;Status : =Hixie= Comment.
+  ;Status : =dbaron= Talk with Hixie.
