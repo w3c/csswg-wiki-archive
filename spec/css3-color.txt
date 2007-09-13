@@ -22,7 +22,8 @@ We still need to go through mailing lists to search for issues raised.  They hav
   ; Summary : definition of attr() syntax and semantics should be removed in favor of definition in css3-values
   ; Status : Needs resolution
 
+
 ==== Issue 3 ====
   ; URL : none
   ; Summary : example of hsl() colors gets light and dark green backwards
-  ; Status: Editorial.  Document needs editing.
+  ; Status : Editorial.  Document needs editing.
