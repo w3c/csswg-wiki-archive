@@ -2,9 +2,12 @@
 
 The [[http://www.w3.org/TR/css3-color/|css3-color specification]] defines color values and color-related properties.
 
+
 ===== Current Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-color-20030514|14 May 2003 css3-color Candidate Recommendation]].
+
+We still need to go through mailing lists to search for issues raised.  They have not yet been included here.
 
 ==== Issue 1 ====
 
