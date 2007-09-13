@@ -1,0 +1,12 @@
+====== CSS Multi-Column Layout ======
+....
+
+===== Current Issues =====
+
+The following are known problems in the [[http://www.w3.org/TR/2007/WD-css3-multicol-20070606/|06 June 2007 CSS Multi-Column Layout Working Draft]]. They should be resolved in the next draft.
+
+==== Issue 1 ====
+
+  ;URL : 
+  ;Summary : Define behavior for a multi-column block with a totally unconstrained width and auto height with a max constraint. (This handles vertical block in horizontal flow and vice versa.)
+  ;Status : Needs proposal
