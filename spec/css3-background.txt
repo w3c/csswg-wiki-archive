@@ -13,7 +13,8 @@ The following are known problems in the [[http://www.w3.org/TR/2005/WD-css3-back
   ;Status : Needs proposal
 
 
-==== Issue 1 ====
+
+==== Issue 2 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2006Jul/0017.html
   ;Summary : Need border-image clarifications
@@ -27,8 +28,10 @@ The following are known problems in the [[http://www.w3.org/TR/2005/WD-css3-back
   ;Summary : Middle image doesn't scale to match border images
   ;Status : Needs discussion
 
+
 ==== Issue 4 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jun/0208.html
-  ;Summary : Shorthand for border-radius unnecessarily restrictive.
-  ;Status : Needs proposal
+  ;Summary : Shorthand for ''border-radius'' unnecessarily restrictive.
+  ;Resolution : the ''border-radius'' shorthand shall take up to four values that each set both radii for the corresponding corner as in Mozilla's implementation. The first value applies to the top-left corner, and rest are assigned clockwise. Missing values are filled in by repeating the pattern. There is no conclusion on adopting an extended syntax that allows setting elliptical curves.
+  ;Status : Needs edits.
