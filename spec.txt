@@ -8,3 +8,4 @@ This section documents problems found in the CSS specs and working drafts. Probl
   * [[spec:css3-selectors|Selectors Level 3]]
   * [[spec:mediaqueries|Media Queries]]
   * [[spec:css3-color|CSS3 Color Module]]
+  * [[spec:css3-text|CSS3 Text]]
