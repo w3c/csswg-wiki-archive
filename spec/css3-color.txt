@@ -12,8 +12,9 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Summary : Should we remove unimplemented features?
   ; Status : Needs information on whether they're really unimplemented.
 
+
 ==== Issue 2 ====
 
   ; URL : none
   ; Summary : definition of attr() syntax and semantics should be removed in favor of definition in css3-values
-  ; Status: Needs resolution
+  ; Status : Needs resolution
