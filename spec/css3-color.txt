@@ -33,9 +33,10 @@ We still need to go through mailing lists to search for issues raised.  They hav
   ; Summary : Handling of S and L values for hsl() and hsla() outside [0%, 100%] is undefined
   ; Status : Needs decision.
 
+
 ==== Issue 5 ====
   ; URL : http://lists.w3.org/Archives/Member/w3c-css-wg/2001JanMar/0265 or https://bugzilla.mozilla.org/show_bug.cgi?id=67448#c15
-  ; Summary: Better definitions needed for system colors for 3-D
+  ; Summary : Better definitions needed for system colors for 3-D
   ; Status : Needs decision
 
 ==== Issue 6 ====
