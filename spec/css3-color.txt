@@ -1,4 +1,4 @@
-====== CSS2.1 ======
+====== css3-color issues list ======
 
 The [[http://www.w3.org/TR/css3-color/|css3-color specification]] defines color values and color-related properties.
 
@@ -32,3 +32,13 @@ We still need to go through mailing lists to search for issues raised.  They hav
   ; URL : none
   ; Summary : Handling of S and L values for hsl() and hsla() outside [0%, 100%] is undefined
   ; Status : Needs decision.
+
+==== Issue 5 ====
+  ; URL : http://lists.w3.org/Archives/Member/w3c-css-wg/2001JanMar/0265 or https://bugzilla.mozilla.org/show_bug.cgi?id=67448#c15
+  ; Summary: Better definitions needed for system colors for 3-D
+  ; Status : Needs decision
+
+==== Issue 6 ====
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0107
+  ; Summary : Does 'flavor' need to be removed to enter PR due to lack of implementations?
+  ; Status : Needs data and decision
