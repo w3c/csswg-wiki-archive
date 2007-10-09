@@ -9,11 +9,12 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
 
 We still need to go through mailing lists to search for issues raised.  They have not yet been included here.
 
+
 ==== Issue 1 ====
 
   ; URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0083.html http://lists.w3.org/Archives/Public/www-svg/2007Sep/0033.html
   ; Summary : Should we remove unimplemented features?
-  ; Status : Needs information on whether they're really unimplemented.
+  ; Status : Needs information on whether they're really unimplemented.  **ACTION dbaron** (2007-10-09): post to www-style (and www-svg?) to propose deadline for removing unimplemented features
 
 
 ==== Issue 2 ====
