@@ -38,12 +38,13 @@ The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-200
   ;Resolution : No change.
   ;Status : Closed.
 
+
 ==== Issue 5 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jul/0104.html
   ;Summary : Descendant combinator should be represented as ''S+'' in grammar instead of ''S''. (This correction matches grammar in [[http://www.w3.org/TR/css3-selectors/#grammar|(CSS3) Selectors]].)
   ;Resolution : Accepted to use ''S+''.
-  ;Status : CLosed.
+  ;Status : Closed.
 
 
 ==== Issue 6 ====
