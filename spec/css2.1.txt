@@ -95,9 +95,17 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007JulSep/0177.html
   ;Resolution : Assumed editorial.
   ;Status : =Bert= Edit.
 
+
 ==== Issue 12 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0101.html
   ;Summary : 300x150 px defaults too aggressive
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2007Sep/0101.html
   ;Status : Open.
+
+==== Issue 13 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jul/0124.html
+  ;Summary : "tag selector" should be "type selector"
+  ;Resolution : Assumed editorial.
+  ;Status : =Bert= Edit.
