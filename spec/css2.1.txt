@@ -70,13 +70,13 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007JulSep/0177.html
   ;Proposal :
   ;Status : Open
 
+
 ==== Issue 9 ====
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0069.html
-  ;Summary : Undefined handling of images without intrinsic sizes in backgrounds, content, cursor, and list-style-image.
-  ;Proposal :
-  ;Status : Open
-
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0087.html
+  ;Summary : Remove "slightly" from note about different uses of 'vertical-align' property.
+  ;Resolution : Assumed editorial.
+  ;Status : =Bert= Edit.
 
 ==== Issue 10 ====
 
