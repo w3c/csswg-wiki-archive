@@ -63,13 +63,13 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007JulSep/0177.html
   ;Proposal :
   ;Status : Open
 
+
 ==== Issue 8 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Aug/0034.html
   ;Summary : Whitespace interferes with anonymous box generation rules.
   ;Proposal :
-  ;Status : Open
-
+  ;Status : Needs proposal.
 
 ==== Issue 9 ====
 
