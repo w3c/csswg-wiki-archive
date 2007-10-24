@@ -121,7 +121,8 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007JulSep/0177.html
   ;Proposal : In 8.3.1 in "The bottom margin of an in-flow block-level element with a 'height' of 'auto' and 'min-height' less than the element's used height and 'max-height' greater than the element's used height is adjoining to its last in-flow block-level child's bottom margin...", replace "less than" with "not affecting" and "greater than" with "not affecting".
   ;Status : Needs resolution.
 
-==== Issue 14 ====
+
+==== Issue 15 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Oct/0174.html
   ;Summary : Clarify that identifiers can start with A-Z
