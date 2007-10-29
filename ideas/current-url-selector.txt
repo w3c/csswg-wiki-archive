@@ -36,12 +36,10 @@ If the client's current URI is: ''http://www.bered.com/style/prom.html''
   - Link 3 would receive style 1 and 3
   - Style 4 would //not// be applied
 
+
 ===== Use Cases =====
 
-
-Site Navigation Menus: Site menus could be consistently styled based on the visitor's location within the site giving them a quick visual representation.
-
-Bread-crumb menus: Levels in a bread-crumb trail can be displayed based on the current page URI, eliminating the need to use server-side technology, JavaScript, or create separate instance for every page within the site.
-
-Internal/External links: Links that point to another domain can be styled separately from links that keep the visitor within the domain. In addition, once the CSS target attribute is added, this will allow designers the ability to always target external links to a new window.
+  ; Site Navigation Menus : Site menus could be consistently styled based on the visitor's location within the site giving them a quick visual representation.
+  ; Bread-crumb menus : Levels in a bread-crumb trail can be displayed based on the current page URI, eliminating the need to use server-side technology, JavaScript, or create separate instance for every page within the site.
+  ; Internal/External links : Links that point to another domain can be styled separately from links that keep the visitor within the domain. In addition, once the CSS target attribute is added, this will allow designers the ability to always target external links to a new window.
 
