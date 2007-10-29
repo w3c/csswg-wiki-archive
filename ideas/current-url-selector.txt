@@ -5,54 +5,36 @@
 
 Current CSS standards allow for the independent styling of links based on the client history using the visited link pseudo-class. This allows designers to indicate which links the visitor has been to previously. However, visitors need to not only know where they have been, but where they are and where they are going as well. Web designers need a way to conveniently style a link based on the clients current URI in order to create more useful menus and bread-crumb trails as well as indicate whether a link is pointing out of the current site.
 
+
 ===== Solution =====
 
 In order style links based on the users current location within a site and to differentiate internal versus external links, I propose the addition of a new “current” link pseudo-class. This pseudo-class would not only be used to style a link if it's href matched the clients current URI, but also style links based on directory level. 
 
 The current link pseudo-class selector would have the following pattern:
+  E:current(n)
 
-
-E:current(n)
-
-
-Matches element E if E is the source anchor of a hyperlink of which the target matches the clients current URI if no number (n) is included or matches up to the directory level indicated by n. A value of n=0 compares only the top level domain.
-
+Matches element ''E'' if ''E'' is the source anchor of a hyperlink of which the target matches the clients current URI if no number (''n'') is included or matches up to the directory level indicated by ''n''. A value of ''n=0'' compares only the top level domain.
 
 So, given the links:
 
-
-1- <a href=”http://www.bered.com”>RED</a>
-
-2- <a href=”http://www.bered.com/style>Style</a>
-
-3- <a href=”http://www.bered.com/style/prom.html>Prom Styles</a>
-
+  - ''<a href=”http://www.bered.com”>RED</a>''
+  - ''<a href=”http://www.bered.com/style>Style</a>''
+  - ''<a href=”http://www.bered.com/style/prom.html>Prom Styles</a>''
 
 and the styles
 
 
-1- a:current {}
+  - ''a:current {}''
+  - ''a:current(0) {}''
+  - ''a:current(1) {}''
+  - ''a:current(2) {}''
 
-2- a:current(0) {}
+If the client's current URI is: ''http://www.bered.com/style/prom.html''
 
-3- a:current(1) {}
-
-4- a:current(2) {}
-
-
-If the client's current URI is:
-
-http://www.bered.com/style/prom.html
-
-
-Link 1 would receive style 2
-
-Link 2 would receive style 3
-
-Link 3 would receive style 1 and 3
-
-Style 4 would NOT be applied
-
+  - Link 1 would receive style 2
+  - Link 2 would receive style 3
+  - Link 3 would receive style 1 and 3
+  - Style 4 would //not// be applied
 
 ===== Use Cases =====
 
