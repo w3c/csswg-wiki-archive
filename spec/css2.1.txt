@@ -60,10 +60,13 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007JulSep/0177.html
   ;Status : Needs resolution.
 
 
+
 ==== Issue 7 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Aug/0079.html
+http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Constant page area width allowance poorly specified.
+  ;Testcase : http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/att-0076/pagemargintest.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2007Aug/0079.html , possibly appending "This adjustment must not create or increase negative page margins unless the target page area is larger than the page box."
   ;Status : Needs resolution.
 
