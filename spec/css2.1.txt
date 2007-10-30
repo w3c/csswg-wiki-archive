@@ -48,6 +48,7 @@ The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-200
 
 
 
+
 ==== Issue 6 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Aug/0174.html
@@ -56,7 +57,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007JulSep/0177.html
   ;Testcase : http://lists.w3.org/Archives/Member/w3c-css-wg/2007JulSep/0147.html
   ;Proposal : In [[http://www.w3.org/TR/CSS21/box.html#collapsing-margins|8.3.1]] bullet 6 subbullet 2, change "non-zero top border" to "non-zero bottom border".
   ;Resolution : Accepted proposal pending Hixie's approval.
-  ;Status : =Melinda= Waiting on feedback from HP.
+  ;Status : Needs resolution.
 
 
 ==== Issue 7 ====
