@@ -130,10 +130,11 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Summary : Should clarify that SVG color keywords apply outside of SVG.
   ; Status : needs editing
 
+
 ==== Issue 20 ====
   ; URL : http://www.w3.org/mid/20030131034516.GA29002@gemini.baron
   ; Raised by : David Baron
-  : Summary : Should opacity group over elements or boxes?
+  ; Summary : Should opacity group over elements or boxes?
   ; Status : needs tests and discussion
 
 ==== Issue 21 ====
