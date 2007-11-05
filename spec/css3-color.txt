@@ -57,99 +57,100 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
 
 
 ==== Issue 8 ====
-  ; URL: none
-  ; Raised by: David Baron
+  ; URL : none
+  ; Raised by : David Baron
   ; Summary : Status section needs to say that comments sent to www-style should say [css3-color] in the subject.
   ; Status : Needs editing.
 
 
 ==== Issue 9 ====
-  ; URL: http://www.w3.org/mid/A134E2426B46D711BB4B000347AE6E7C5915FF@xvan02.vcd.hp.com http://www.w3.org/mid/BAD535BA.26F81%25tantek@cs.stanford.edu
-  ; Raised by: Jacob Refstrup, David Woolley
-  ; Summary: 'opacity' not precisely defined
-  ; Status: Needs proposed text.
+  ; URL : http://www.w3.org/mid/A134E2426B46D711BB4B000347AE6E7C5915FF@xvan02.vcd.hp.com http://www.w3.org/mid/BAD535BA.26F81%25tantek@cs.stanford.edu
+  ; Raised by : Jacob Refstrup, David Woolley
+  ; Summary : 'opacity' not precisely defined
+  ; Status : Needs proposed text.
 
 ==== Issue 10 ====
   ; URL : http://www.w3.org/mid/20040309063205.52668.qmail@web13912.mail.yahoo.com
-  ; Raised by: Alex LeDonne
-  ; Summary: In section 4.2.1. RGB color values, the phrase preceding the second example is "the three rules below are equivalent:", however, four rules are presented.
-  ; Status: Editorial, needs editing.
+  ; Raised by : Alex LeDonne
+  ; Summary : In section 4.2.1. RGB color values, the phrase preceding the second example is "the three rules below are equivalent:", however, four rules are presented.
+  ; Status : Editorial, needs editing.
 
 ==== Issue 11 ====
   ; URL : http://www.w3.org/mid/20040309063205.52668.qmail@web13912.mail.yahoo.com
-  ; Raised by: Alex LeDonne
-  ; Summary: Example of pastel green should be a different shade, in particular, * { color: hsl(120, 75%, 75%) }  /* pastel green, and so on */
-  ; Status: Editorial, needs editing.
+  ; Raised by : Alex LeDonne
+  ; Summary : Example of pastel green should be a different shade, in particular, * { color: hsl(120, 75%, 75%) }  /* pastel green, and so on */
+  ; Status : Editorial, needs editing.
 
 ==== Issue 12 ====
-  ; URL: http://www.w3.org/mid/41406104.4040200@st.jyu.fi http://www.w3.org/mid/000501c496d4$0127df80$e21d4ed8@hyponiqs http://www.w3.org/mid/p06110401bd676a003e73@%5B152.16.223.122%5D http://www.w3.org/mid/42CE0010.9050500@tu-clausthal.de
-  ; Raised by: Mikko Rantalainen, W. Leon Sutton, Jr., Adam Kuehn, Christoph Päper
-  ; Summary: Want #rgba and #rrggbbaa color syntaxes.
-  ; Status: Needs discussion.  dbaron opposed (too late for this version).
+  ; URL : http://www.w3.org/mid/41406104.4040200@st.jyu.fi http://www.w3.org/mid/000501c496d4$0127df80$e21d4ed8@hyponiqs http://www.w3.org/mid/p06110401bd676a003e73@%5B152.16.223.122%5D http://www.w3.org/mid/42CE0010.9050500@tu-clausthal.de
+  ; Raised by : Mikko Rantalainen, W. Leon Sutton, Jr., Adam Kuehn, Christoph Päper
+  ; Summary : Want #rgba and #rrggbbaa color syntaxes.
+  ; Status : Needs discussion.  dbaron opposed (too late for this version).
 
 ==== Issue 13 ====
-  ; URL: http://www.w3.org/mid/43547E63-215B-11D9-AFE8-000393C44C02@goddess-gate.com
-  ; Raised by: David Latapie
-  ; Summary: Want table of contents different for rgb()/rgba(), etc.
-  ; Status: dbaron recommends rejecting, since one subsection for each function or keyword
+  ; URL : http://www.w3.org/mid/43547E63-215B-11D9-AFE8-000393C44C02@goddess-gate.com
+  ; Raised by : David Latapie
+  ; Summary : Want table of contents different for rgb()/rgba(), etc.
+  ; Status : dbaron recommends rejecting, since one subsection for each function or keyword
 
 ==== Issue 14 ====
-  ; URL: http://www.w3.org/mid/42CE0010.9050500@tu-clausthal.de
-  ; Raised by: Christoph Päper
-  ; Summary: Want to allow percentages for alpha value in rgba() and hsla()
-  ; Status: needs discussion.  (dbaron: Too late for this version.)
+  ; URL : http://www.w3.org/mid/42CE0010.9050500@tu-clausthal.de
+  ; Raised by : Christoph Päper
+  ; Summary : Want to allow percentages for alpha value in rgba() and hsla()
+  ; Status : needs discussion.  (dbaron: Too late for this version.)
 
 ==== Issue 15 ====
-  ; URL: http://www.w3.org/mid/42CE0010.9050500@tu-clausthal.de
-  ; Raised by: Christoph Päper
-  ; Summary: Want to allow % instead of deg in hsl()/hsla().
-  ; Status: needs discussion.  (dbaron: Too late for this version.)
+  ; URL : http://www.w3.org/mid/42CE0010.9050500@tu-clausthal.de
+  ; Raised by : Christoph Päper
+  ; Summary : Want to allow % instead of deg in hsl()/hsla().
+  ; Status : needs discussion.  (dbaron: Too late for this version.)
 
 ==== Issue 16 ====
-  ; URL: http://www.w3.org/mid/4319B66D.3050601@splintered.co.uk http://www.w3.org/mid/431A4864.10205@earthlink.net http://www.w3.org/mid/4319B5FF.6040507@splintered.co.uk
+  ; URL : http://www.w3.org/mid/4319B66D.3050601@splintered.co.uk http://www.w3.org/mid/431A4864.10205@earthlink.net http://www.w3.org/mid/4319B5FF.6040507@splintered.co.uk
   ; Opposition: http://www.w3.org/mid/431CAB50.4040007@disruptive-innovations.com
-  ; Raised by: Patrick H. Lauke, Matthew Raymond
-  ; Summary: System colors should not be deprecated
-  ; Status: Needs discussion.
+  ; Raised by : Patrick H. Lauke, Matthew Raymond
+  ; Summary : System colors should not be deprecated
+  ; Status : Needs discussion.
 
 ==== Issue 17 ====
-  ; URL: http://www.w3.org/mid/20060331221047.GA31647@ridley.dbaron.org 
-  ; Raised by: David Baron
-  ; Summary: 'color: currentColor' transformation to 'inherit' shouldn't be at parse time
-  ; Status: needs discussion.
+  ; URL : http://www.w3.org/mid/20060331221047.GA31647@ridley.dbaron.org 
+  ; Raised by : David Baron
+  ; Summary : 'color: currentColor' transformation to 'inherit' shouldn't be at parse time
+  ; Status : needs discussion.
 
 ==== Issue 18 ====
-  ; URL: http://www.w3.org/mid/78A3602ADF54BA4EAB53F378BF55588BB230D0@G3W0067.americas.hpqcorp.net http://www.w3.org/mid/1554581773.20070130144114@w3.org
-  ; Raised by: Melinda Grant
-  ; Summary: Should reference up to date version of ICC profile specification.
-  ; Status: needs editing
+  ; URL : http://www.w3.org/mid/78A3602ADF54BA4EAB53F378BF55588BB230D0@G3W0067.americas.hpqcorp.net http://www.w3.org/mid/1554581773.20070130144114@w3.org
+  ; Raised by : Melinda Grant
+  ; Summary : Should reference up to date version of ICC profile specification.
+  ; Status : needs editing
 
 ==== Issue 19 ====
-  ; URL: http://www.w3.org/mid/4681D29D.1090808@fastmail.us
-  ; Raised by: Patrick Garies
-  ; Summary: Should clarify that SVG color keywords apply outside of SVG.
-  ; Status: needs editing
+  ; URL : http://www.w3.org/mid/4681D29D.1090808@fastmail.us
+  ; Raised by : Patrick Garies
+  ; Summary : Should clarify that SVG color keywords apply outside of SVG.
+  ; Status : needs editing
 
 ==== Issue 20 ====
-  ; URL: http://www.w3.org/mid/20030131034516.GA29002@gemini.baron
-  ; Raised by: David Baron
-  : Summary: Should opacity group over elements or boxes?
-  ; Status: needs tests and discussion
+  ; URL : http://www.w3.org/mid/20030131034516.GA29002@gemini.baron
+  ; Raised by : David Baron
+  : Summary : Should opacity group over elements or boxes?
+  ; Status : needs tests and discussion
 
 ==== Issue 21 ====
-  ; URL: http://www.w3.org/mid/BAE92885.28030%25tantek@cs.stanford.edu http://www.w3.org/mid/20030515184501.GA30313@pool-141-158-45-91.phil.east.verizon.net http://www.w3.org/mid/16069.11954.751430.470156@lanalana.inria.fr http://www.w3.org/mid/BDBFA80D.5060B%25tantek@cs.stanford.edu
-  ; Raised by: Tantek Çelik, David Latapie
-  ; Summary: Issues with default style sheet for TOC
-  ; Status: needs testing whether it still exists
+  ; URL : http://www.w3.org/mid/BAE92885.28030%25tantek@cs.stanford.edu http://www.w3.org/mid/20030515184501.GA30313@pool-141-158-45-91.phil.east.verizon.net http://www.w3.org/mid/16069.11954.751430.470156@lanalana.inria.fr http://www.w3.org/mid/BDBFA80D.5060B%25tantek@cs.stanford.edu
+  ; Raised by : Tantek Çelik, David Latapie
+  ; Summary : Issues with default style sheet for TOC
+  ; Status : needs testing whether it still exists
 
 ==== Issue 22 ====
-  ; URL: http://www.w3.org/mid/ur24h1t6fc4ihbgshjr4c99tii4oqkf8l4@hive.bjoern.hoehrmann.de http://www.w3.org/mid/200508291921.50980.bert@w3.org
-  ; Raised by: Bjoern Hoehrmann
-  ; Summary: <alphavalue> and other productions need more formal grammar
-  ; Status: needs editing
+  ; URL : http://www.w3.org/mid/ur24h1t6fc4ihbgshjr4c99tii4oqkf8l4@hive.bjoern.hoehrmann.de http://www.w3.org/mid/200508291921.50980.bert@w3.org
+  ; Raised by : Bjoern Hoehrmann
+  ; Summary : <alphavalue> and other productions need more formal grammar
+  ; Status : needs editing
 
 ==== Issue 23 ====
-  ; URL: http://www.w3.org/mid/17656.6114.793520.503206@gargle.gargle.HOWL http://www.w3.org/mid/200609011419.05309.bert@w3.org
-  ; Raised by: Håkon Lie
-  ; Summary: proprietary colors
-  ; Status: Needs discussion (dbaron: too late for this version)
+  ; URL : http://www.w3.org/mid/17656.6114.793520.503206@gargle.gargle.HOWL http://www.w3.org/mid/200609011419.05309.bert@w3.org
+  ; Raised by : Håkon Lie
+  ; Summary : proprietary colors
+  ; Status : Needs discussion (dbaron: too late for this version)
+
