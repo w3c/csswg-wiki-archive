@@ -152,9 +152,17 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Proposal accepted.
   ;Status : =Bert= Edit.
 
+
 ==== Issue 17 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Nov/0059.html
   ;Summary : Error in stacking context appendix E
   ;Proposal : s/but any descendants which actually create a new stacking context/but any positioned descendants and descendants which actually create a new stacking context/
-  ;Status : Needs resolution.
+  ;Status : Accepted pending Melinda's ok.
+
+==== Issue 17 ====
+
+  ;URL : http://www.w3.org/mid/op.tv09c9zdp8frts@hasather.net
+  ;Summary : s/tag selector/type selector/ in 5.8.
+  ;Resolution : Assumed editorial.
+  ;Status : =Bert= Edit.
