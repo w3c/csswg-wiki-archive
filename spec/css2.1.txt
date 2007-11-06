@@ -143,12 +143,14 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 
 
 
+
 ==== Issue 16 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Oct/0201.html
   ;Summary : Specify image pixel mapping to CSS lengths.
   ;Proposal : Append "For raster images without reliable resolution information, a size of 1 px unit per image source pixel must be assumed." to definition of "intrinsic dimensions".
-  ;Status : Needs resolution.
+  ;Resolution : Proposal accepted.
+  ;Status : =Bert= Edit.
 
 ==== Issue 17 ====
 
