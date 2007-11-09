@@ -6,6 +6,7 @@
   * [[http://lists.w3.org/Archives/Public/www-style/2006Oct/0137.html|A proposal for color palettes]], www-style, October 2006
 
 
+
 ===== Use Cases =====
 
 ** This feature proposal needs specific, realistic use cases, please add yours here. **
@@ -30,6 +31,19 @@ Example:
 }
 </code>
 
+Another example is style sheet of this wiki installation. For example it has following declaration:
+<code css>
+#config__manager fieldset {
+  margin: 1em;
+  width: auto;
+  margin-bottom: 2em;
+  background-color: #dee7ec;
+  color: #000;
+  padding: 0 1em;
+}
+</code>
+
+There are 10 rules more in the same style sheet that use color value #dee7ec. Clearly this has to be declared once to make this style sheet maintainable.
 
 ====== Implementation proposals ======
 
