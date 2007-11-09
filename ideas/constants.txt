@@ -5,9 +5,31 @@
   * [[http://lists.w3.org/Archives/Public/www-style/2007Aug/0167.html|Most recent request for constants in CSS]], www-style, August 2007
   * [[http://lists.w3.org/Archives/Public/www-style/2006Oct/0137.html|A proposal for color palettes]], www-style, October 2006
 
+
 ===== Use Cases =====
 
 ** This feature proposal needs specific, realistic use cases, please add yours here. **
+
+Theme support:
+
+Theme is usually parametrized by set of colors,images,border widths, etc.
+
+Example:
+
+<code css>
+@const THEME_DARK_COLOR: #FAA
+
+#sidebar
+{
+  background-color: @THEME_DARK_COLOR;
+}
+
+#content h1
+{
+  border-bottom: @THEME_DARK_COLOR 1px solid;
+}
+</code>
+
 
 ====== Implementation proposals ======
 
