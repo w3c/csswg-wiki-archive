@@ -12,3 +12,9 @@ This section documents problems found in the CSS specs and working drafts. Probl
   * [[spec:css3-text|CSS Text Module Level 3]]
   * [[spec:css3-text-layout|CSS Text Layout Module Level 3]]
   * [[spec:css-ruby|CSS Ruby Module]]
+
+====== Specification Outlining ======
+
+This section outlines possibilities for future specs.
+
+  * [[spec:css4-page|CSS Paged Media Level 4]]
