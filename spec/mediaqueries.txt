@@ -1,5 +1,7 @@
 ====== Media Queries Issues ======
 
+===== Issue 1 =====
+
 The syntax for media queries needs some clarification:
 
   * It should be made clear that media queries are split on "," and then parsed.
@@ -11,3 +13,7 @@ The syntax for media queries needs some clarification:
 Came up in discussion: HTML, CSS, and XML differ in their definition of whitespace. XML has U+0020, U+0009, U+000D, and U+000A. CSS adds U+000C to that list. HTML adds U+000B on top of the CSS list. Is the notion of whitespace languages dependent? @media uses CSS and media="" uses HTML?
 
 Related e-mail thread: http://lists.w3.org/Archives/Public/www-style/2007Nov/thread.html#msg125
+
+===== Issue 2 =====
+
+What to do with the 'resolution' feature? See e-mail thread: http://lists.w3.org/Archives/Public/www-style/2007Jan/thread.html#msg63 Use cases, what if horizontal and vertical resolution differ, et cetera.
