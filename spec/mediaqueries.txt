@@ -1,0 +1,13 @@
+The syntax for media queries needs some clarification:
+
+* It should be made clear that media queries are split on "," and then parsed.
+
+* It should be made clear that media=" " is valid and that media="all, " is not.
+
+* It should be made clear where whitespace is required and where it is optional.
+
+* It should be made clear what case-insensitive means.
+
+* It should be made clear that you can not use CSS escapes. (No IDENTS!)
+
+Came up in discussion: HTML, CSS, and XML differ in their definition of whitespace. XML has U+0020, U+0009, U+000D, and U+000A. CSS adds U+000C to that list. HTML adds U+000B on top of the CSS list. Is the notion of whitespace languages dependent? @media uses CSS and media="" uses HTML?
