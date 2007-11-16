@@ -14,13 +14,14 @@ The following are known problems in the [[http://www.w3.org/TR/2005/WD-css3-back
 
 
 
+
 ==== Issue 2 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2006Jul/0017.html
   ;Summary : Need border-image clarifications
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2007Jun/0096.html
   ;Resolution : Proposal accepted
-  ;Status : Needs editor approval + edits
+  ;Status : Closed.
 
 ==== Issue 3 ====
 
