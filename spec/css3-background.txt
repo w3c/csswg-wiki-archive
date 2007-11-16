@@ -77,6 +77,7 @@ http://lists.w3.org/Archives/Public/www-style/2006May/0121.html
   ;Resolution : Use the ''/'' before <background-size>, require <background-position> to occur before <background-size>.
   ;Status : Closed.
 
+
 ==== Issue 9 ====
 
   ;URL : 
@@ -85,4 +86,23 @@ http://lists.w3.org/Archives/Public/www-style/2006May/0120.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2006May/0120.html
   ;Status : Needs resolution
 
-http://lists.w3.org/Archives/Public/www-style/2006May/0037.html
+==== Issue 10 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2006May/0037.html
+  ;Summary : Should negative background-size flip the image?
+  ;Status : Needs resolution
+
+==== Issue 11 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Nov/0091.html
+  ;Summary : Background-position should calculate after background-size is applied
+  ;Status : Needs proposed text
+
+==== Issue 12 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Nov/0105.html
+  ;Summary : Background-position should allow positioning from corners other than top left
+  ;Status : Needs proposed text
+
+
+
