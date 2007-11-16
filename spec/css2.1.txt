@@ -163,9 +163,16 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Status : =Bert= Edit.
 
 
+
 ==== Issue 18 ====
 
   ;URL : http://www.w3.org/mid/op.tv09c9zdp8frts@hasather.net
   ;Summary : s/tag selector/type selector/ in 5.8.
   ;Resolution : Assumed editorial.
   ;Status : =Bert= Edit.
+
+==== Issue 19 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Nov/0169.html
+  ;Summary : case-sensitivity undefined
+  ;Status : Open.
