@@ -1408,6 +1408,11 @@ XX The 'right' value of the 'page-break-before' property forces one or two page 
 </li>
 <li class="assertion">
 
+The 'avoid' value of the 'page-break-before' property prevents a page break before the element when possible.
+: <blockquote><div>avoid: Avoid a page break before / after / inside the generated box.</div></blockquote>
+</li>
+<li class="assertion">
+
 The syntax of the 'page-break-after' property is auto | always | avoid | left | right.
 : <blockquote><div>Value: auto | always | avoid | left | right</div></blockquote>
 </li>
@@ -1433,23 +1438,28 @@ The 'page-break-after' property applies to paged media only.
 </li>
 <li class="assertion">
 
-The 'auto' value of the 'page-break-before' property neither forces nor forbids a page break before the box.
+The 'auto' value of the 'page-break-after' property neither forces nor forbids a page break before the box.
 : <blockquote><div>auto: Neither force nor forbid a page break before (after, inside) the generated box.</div></blockquote>
 </li>
 <li class="assertion">
 
-The 'always' value of the 'page-break-before' property forces a paage break before the box.
+The 'always' value of the 'page-break-after' property forces a paage break before the box.
 : <blockquote><div>always: Always force a page break before (after) the generated box.</div></blockquote>
 </li>
 <li class="assertion">
 
-XX The 'left' value of the 'page-break-before' property forces one or two page breaks before the box so that the page after the break is formatted as a left page.
+XX The 'left' value of the 'page-break-after' property forces one or two page breaks before the box so that the page after the break is formatted as a left page.
 : <blockquote><div>left: Force one or two page breaks before (after) the generated box so that the next page is formatted as a left page.</div></blockquote>
 </li>
 <li class="assertion">
 
-XX The 'right' value of the 'page-break-before' property forces one or two page breaks before the box so that the page after the break is formatted as a right page.
+XX The 'right' value of the 'page-break-after' property forces one or two page breaks before the box so that the page after the break is formatted as a right page.
 : <blockquote><div>right: Force one or two page breaks before (after) the generated box so that the next page is formatted as a right page.</div></blockquote>
+</li>
+<li class="assertion">
+
+The 'avoid' value of the 'page-break-after' property inhibits a page break after the element when possible.
+: <blockquote><div>Avoid a page break before / after / inside the generated box.</div></blockquote>
 </li>
 <li class="assertion">
 
@@ -1478,8 +1488,13 @@ The 'page-break-inside' property applies to paged media only.
 </li>
 <li class="assertion">
 
-The 'auto' value of the 'page-break-before' property neither forces nor forbids a page break inside the box.
+The 'auto' value of the 'page-break-inside' property neither forces nor forbids a page break inside the box.
 : <blockquote><div>auto: Neither force nor forbid a page break before (after, inside) the generated box.</div></blockquote>
+</li>
+<li class="assertion">
+
+The 'avoid' value of the 'page-break-inside' property inhibits a page break inside the block when possible.
+: <blockquote><div>avoid: Avoid a page break before / after / inside the generated box.</div></blockquote>
 <h3>
 
 ===== Using named pages: 'page' =====
