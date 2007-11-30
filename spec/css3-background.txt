@@ -95,11 +95,13 @@ http://lists.w3.org/Archives/Public/www-style/2006May/0120.html
   ;Summary : Should negative background-size flip the image?
   ;Status : Needs resolution
 
+
 ==== Issue 11 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Nov/0091.html
   ;Summary : Background-position should calculate after background-size is applied
-  ;Status : Needs proposed text
+  ;Resolution : Already fixed. :)
+  ;Status : Closed.
 
 ==== Issue 12 ====
 
