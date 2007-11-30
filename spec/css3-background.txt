@@ -60,6 +60,7 @@ http://lists.w3.org/Archives/Public/www-style/2007Aug/0217.html
   ;Resolution : Proposal accepted
   ;Status : Closed.
 
+
 ==== Issue 7 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0092.html
@@ -67,7 +68,7 @@ http://lists.w3.org/Archives/Public/www-style/2007Aug/0217.html
   ;Proposal : The inner border radius is the outer border radius minus the border thickness. In the case where this results in a negative
  value, the inner radius is zero. (In such cases its center might not coincide with that of the outer border curve.)
   ;Resolution : Proposal accepted.
-  ;Status : Needs edits
+  ;Status : Closed.
 
 
 ==== Issue 8 ====
