@@ -1,0 +1,5 @@
+====== Selectors Level 4 ======
+
+  * [[ideas:current-url-selector|Current URL Selector (with directory levels)]]
+  *  [[http://lists.w3.org/Archives/Public/www-style/2005Oct/0173.html|IDREF combinators]]
+  * table column selector (based on source, not on layout)
