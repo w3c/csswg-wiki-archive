@@ -9,9 +9,8 @@ can review additions and changes to the tests in the CSS2.1 Test Suite, however
   * An employee of or contractor for a company cannot review tests submitted by that company unless he or she is an Owner or Peer.
 
 The reviewer must check each test submitted for inclusion in the test suite for conformance
-to the test suite guidelines. The reviewer should also check each new test for correctness with
-respect to the specification, but is not required to. For proposed changes to existing tests,
-the reviewer //must// check the changes for correctness.
+to the test suite guidelines and for correctness with respect to the specification. For
+proposed changes to existing tests, the reviewer must check the changes for correctness.
 
 If the test does not pass review, the reviewer must tell the submitter what is wrong with the
 test and what steps should be taken to correct any problems. New tests and changes that have
