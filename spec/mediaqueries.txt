@@ -17,3 +17,7 @@ Related e-mail thread: http://lists.w3.org/Archives/Public/www-style/2007Nov/thr
 ===== Issue 2 =====
 
 What to do with the 'resolution' feature? See e-mail thread: http://lists.w3.org/Archives/Public/www-style/2007Jan/thread.html#msg63 Use cases, what if horizontal and vertical resolution differ, et cetera.
+
+===== Issue 3 =====
+
+http://lists.w3.org/Archives/Public/www-style/2007Dec/0038.html
