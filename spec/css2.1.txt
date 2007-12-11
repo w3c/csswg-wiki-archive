@@ -157,11 +157,12 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Status : =WG= Discuss.
 
 
+
 ==== Issue 20 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0018.html
   ;Summary : Sentence about text-align being used for horizontal alignment in table cells confusing
-  ;Testcase : C:\Documents and Settings\Home\Desktop\table-align.html
+  ;Testcase : http://www.dhtmlkitchen.com/test/bug/table-alignment.html
   ;Proposal : s/content/inline content/; s/is/can be/
   ;Resolution : Assumed editorial.
   ;Status : =Bert= Edit.
