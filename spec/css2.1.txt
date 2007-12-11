@@ -146,10 +146,11 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Status : =Bert= Edit.
 
 
+
 ==== Issue 19 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Nov/0169.html
   ;Summary : case-sensitivity undefined
   ;Testcase : http://lists.w3.org/Archives/Public/www-style/2007Nov/0222.html
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2007Nov/0219.html
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2007Nov/0219.html http://lists.w3.org/Archives/Public/www-style/2007Nov/0221.html
   ;Status : =WG= Discuss.
