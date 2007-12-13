@@ -1049,9 +1049,10 @@ The used values of the top-left, top-center, and top-right margin boxes' widths 
 </li>
 <li class="assertion">
 
-The sum of the outer widths of the top-left, top-center, and top-right boxes is equal to the distance between the right page border edge and the right page border edge.
+The sum of the outer widths of the top-left, top-center, and top-right boxes is equal to the distance between the left page border edge and the right page border edge.
 : <blockquote><div>The sum of the outer widths of the three boxes is equal to max box width.</div></blockquote>
   <blockquote><div>max box width, which is the sum of the width of the page's left padding area, the width of the page area, and the width of the page's right padding area. In other words, it is the distance between the left page border and the right page border.</div></blockquote>
+<div class="tests">Tests: page-mbox-004.xht</div>
 </li>
 <li class="assertion">
 
