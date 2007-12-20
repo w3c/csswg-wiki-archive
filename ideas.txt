@@ -7,9 +7,10 @@ specifications (yet).
 
 
 
+
 ===== Resolutions =====
 
-This list only includes ideas that have been vetted and approved by the CSS Working Group.
+This list only includes ideas that have been vetted and approved by the CSS Working Group. They're here because we currently don't have a context (actively-edited specification) to put them in.
 
   * [[ideas:image-replacement|Image Replacement]]
   * [[ideas:content-fallbacks|Content Fallbacks]]
