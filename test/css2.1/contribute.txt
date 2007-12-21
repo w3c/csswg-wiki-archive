@@ -42,9 +42,10 @@ Copy and paste the following text into a new file, or save this file, and replac
 
 
 
+
 ===== Submitting the New Test =====
 
-You can submit a new test by [[http://lists.w3.org/Archives/Public/public-css-testsuite/|sending it to public-css-testsuite@w3.org]]. If you're not submitting on behalf of a CSS Working Group Member organization, you'll have to fill out <a href="http://www.w3.org/2002/09/wbs/1/testgrants2-200409/">this form</a> to give W3C permission to use your tests. New tests are subject to the [[test:css2.1:review|review process]].
+You can submit a new test by [[http://lists.w3.org/Archives/Public/public-css-testsuite/|sending it to public-css-testsuite@w3.org]]. If you're not submitting on behalf of a CSS Working Group Member organization, you'll have to fill out [[http://www.w3.org/2002/09/wbs/1/testgrants2-200409/|this form]] to give W3C permission to use your tests. New tests are subject to the [[test:css2.1:review|review process]].
 
 
 
