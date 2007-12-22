@@ -26,7 +26,7 @@ http://lists.w3.org/Archives/Public/www-style/2007Dec/0038.html
 
 An idea based on the CSS 2.1 grammar:
 
-<pre>media_query_list
+<code>media_query_list
  : S* media_query [ COMMA S* media_query]*
  ;
 media_query
@@ -40,4 +40,4 @@ expression
  ;
 media_feature
  : IDENT S*
- ;</pre>
+ ;</code>
