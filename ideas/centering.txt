@@ -2,12 +2,14 @@
 
 A common request is the ability to center blocks. CSS has some capabilities for this, however they are very limited, especially in the vertical direction.
 
+
 ===== Horizontal Centering =====
 
 Horizontal centering can be accomplished in most cases by using ''margin: 0 auto'': setting both the left and right margins to ''auto'' causes them to be equal. There are some limitations however.
 
   * Auto margins can't center an element that is larger than its containing block: in that case it aligns to the "start" edge to avoid overflow in that direction (which could cause awkward scrolling conditions).
   * Centering with margins doesn't inherit, so can't be used to implement <CENTER> functionality.
+  * Centering with auto margins can't be combined with (minimum) side margins.
   * Centering with 'auto' margins is pretty non-obvious.
 
 ==== Use Cases ====
