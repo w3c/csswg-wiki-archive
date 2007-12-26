@@ -17,6 +17,7 @@ Horizontal centering can be accomplished in most cases by using ''margin: 0 auto
 
 
 
+
 ==== Proposals ====
 
 === position: center ===
@@ -33,6 +34,7 @@ Markus started a [[http://lists.w3.org/Archives/Public/www-style/2007Nov/0067.ht
       * One set: ''left'' | ''center'' | ''right''
       * Another set: ''left'' | ''center'' | ''right'' | ''start'' | ''end''
       * A more complex set that includes ''top'' and ''bottom'' values that apply in vertical layout. (Such a set should allow specifying e.g. both ''top'' and ''left'' at the same time, where one takes effect in vertical text and the other in horizontal text.)
+      * Any of the above sets with percentages as an added possibility.
   * What the property is named. ''alignment'' is the working name. An alternative would be ''horizontal-align'', to be consistent with ''vertical-align''.
   * Whether alignment triggered by this property is "true" alignment, or if it only affects blocks smaller than their containing block.
       * If the property triggers "true" alignment, then a value that triggers current behavior must be the default. The disadvantage of this is that most authors will not realize use of this property can cause their content to become inaccessible in some window configurations.
