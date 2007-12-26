@@ -13,7 +13,7 @@ Horizontal centering can be accomplished in most cases by using ''margin: 0 auto
   * Centering with auto margins can't be combined with side margins.
   * Centering with 'auto' margins is pretty non-obvious.
 
-==== Use Cases ====
+
 
 
 ==== Proposals ====
