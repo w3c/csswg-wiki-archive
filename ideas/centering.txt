@@ -55,7 +55,8 @@ Vertical centering currently cannot be done in CSS except for
 
 The main request is to vertically center the contents of a box, as can be done with ''vertical-align: middle'' on table cells. A secondary request is the ability to vertically-justify content within its containing block.
 
-==== Use Cases ====
+
+
 
 ==== Proposals ====
 
