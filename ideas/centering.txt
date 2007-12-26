@@ -18,6 +18,7 @@ Horizontal centering can be accomplished in most cases by using ''margin: 0 auto
 
 
 
+
 ==== Proposals ====
 
 === position: center ===
@@ -38,7 +39,7 @@ Markus started a [[http://lists.w3.org/Archives/Public/www-style/2007Nov/0067.ht
   * What the property is named. ''alignment'' is the working name. An alternative would be ''horizontal-align'', to be consistent with ''vertical-align''.
   * Whether alignment triggered by this property is "true" alignment, or if it only affects blocks smaller than their containing block.
       * If the property triggers "true" alignment, then a value that triggers current behavior must be the default. The disadvantage of this is that most authors will not realize use of this property can cause their content to become inaccessible in some window configurations.
-      * If the property does not trigger "true" alignment, then an additional keyword (or several keywords) could be defined to trigger true alignment (e.g. ''alignment: left'' vs. ''alignment: true left'')
+      * If the property does not trigger "true" alignment, then an additional keyword (or several keywords) could be defined to trigger true alignment (e.g. ''alignment: left'' vs. ''alignment: true left''). In this case both alignment behaviors are possible, and the default behavior emphasizes accessibility.
   * How this alignment interacts with the current margin calculations. Possibilities include:
       * ''alignment'' trumps ''auto'' margins: ''auto'' margins are set to zero and then the box is aligned as specified.
       * ''alignment'' defers to ''auto'' margins: it only affects blocks without ''auto'' side margins. (Note that the default margin is '0'.)
