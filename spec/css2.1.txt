@@ -205,6 +205,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Status : Needs proposal.
 
 
+
 ==== Issue 26 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0252.html
@@ -212,3 +213,10 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Testcase : http://dbaron.org/css/test/2007/height-of-cell-box
   ;Testcase : http://www.brunildo.org/test/td_height1.html
   ;Status : Proposal in http://lists.w3.org/Archives/Public/www-style/2007Dec/0252.html and http://lists.w3.org/Archives/Public/www-style/2007Dec/0253.html but needs resolution on open question in the latter proposal; see http://lists.w3.org/Archives/Public/www-style/2008Jan/0004.html
+
+==== Issue 27 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0188.html
+  ;Summary : Clarify that scrollbar width fits inside specified width
+  ;Testcase : http://lists.w3.org/Archives/Public/www-style/2007Dec/att-0188/scroll1.htm
+  ;Status : Needs proposal.
