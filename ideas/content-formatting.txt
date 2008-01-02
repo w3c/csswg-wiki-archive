@@ -1,6 +1,6 @@
 ====== Content Data Formatting ======
 
-Ideas about data formatting (e.g. transforming date and number formats).
+Ideas/use cases/justifications/proposals about data formatting (e.g. transforming date and number formats).
 
 ===== date formatting =====
 
