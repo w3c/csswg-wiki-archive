@@ -1,16 +1,11 @@
-====== Content Formatting Functions ======
+====== Content Data Functions ======
 
-This page lists and describes data-formatting functions that are needed for use in the 'content' property.
+This page lists and describes data functions that are needed for use in the 'content' property.
 
-===== date formatting =====
+===== Date =====
 
-**Find Tantek's proposals for date formatting functions**
+A function that returns the current date/time is needed for print headers.
 
 ===== Document URL =====
 
-A function that returns the document's URL or other identifier is needed for print headers.
-
-===== Number Formatting =====
-
-http://lists.w3.org/Archives/Public/www-style/2008Jan/0014.html
-
+A function that returns the document's URL or other identifier is also  needed for print headers.
