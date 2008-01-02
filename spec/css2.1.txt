@@ -195,8 +195,17 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Testcase : http://fantasai.inkedblade.net/style/tests/ad-hoc/syntax/matching-brackets-000.xht
   ;Status : Needs proposal.
 
+
 ==== Issue 25 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0167.html
   ;Summary : Define what effect } has in style attribute syntax.
+  ;Status : Needs proposal.
+
+==== Issue 26 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0252.html
+  ;Summary : Does vertical-align affect cell contents or cell's content box?
+  ;Testcase : http://dbaron.org/css/test/2007/height-of-cell-box
+  ;Testcase : http://www.brunildo.org/test/td_height1.html
   ;Status : Needs proposal.
