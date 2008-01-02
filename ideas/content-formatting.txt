@@ -1,0 +1,13 @@
+====== Content Data Formatting ======
+
+Ideas about data formatting (e.g. transforming date and number formats).
+
+===== date formatting =====
+
+**Find Tantek's proposals for date formatting functions**
+
+
+===== Number Formatting =====
+
+http://lists.w3.org/Archives/Public/www-style/2008Jan/0014.html
+
