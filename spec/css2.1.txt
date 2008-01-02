@@ -204,10 +204,11 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Define what effect } has in style attribute syntax.
   ;Status : Needs proposal.
 
+
 ==== Issue 26 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0252.html
   ;Summary : Does vertical-align affect cell contents or cell's content box?
   ;Testcase : http://dbaron.org/css/test/2007/height-of-cell-box
   ;Testcase : http://www.brunildo.org/test/td_height1.html
-  ;Status : Needs proposal.
+  ;Status : Proposal in http://lists.w3.org/Archives/Public/www-style/2007Dec/0252.html and http://lists.w3.org/Archives/Public/www-style/2007Dec/0253.html but needs resolution on open question in the latter proposal; see http://lists.w3.org/Archives/Public/www-style/2008Jan/0004.html
