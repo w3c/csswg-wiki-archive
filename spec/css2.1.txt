@@ -182,11 +182,13 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Unclear that "display: none" affects non-visual display.
   ;Status : Needs proposal.
 
+
 ==== Issue 23 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0215.html
-  ;Summary : "url(" needs to be {u}{r}{l}"("
-  ;Status : Needs proposal.
+  ;Summary : "url(" needs to be {u}{r}{l}"(" in grammar
+  ;Resolution : Assumed editorial.
+  ;Status : =Bert= Edit.
 
 ==== Issue 24 ====
 
