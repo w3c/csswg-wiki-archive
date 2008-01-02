@@ -1,0 +1,16 @@
+====== Content Formatting Functions ======
+
+This page lists and describes data-formatting functions for use in the 'content' property.
+
+===== date formatting =====
+
+**Find Tantek's proposals for date formatting functions**
+
+===== Document URL =====
+
+A function that returns the document's URL or other identifier is needed for print headers.
+
+===== Number Formatting =====
+
+http://lists.w3.org/Archives/Public/www-style/2008Jan/0014.html
+
