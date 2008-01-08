@@ -218,10 +218,12 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Status : Proposal in http://lists.w3.org/Archives/Public/www-style/2007Dec/0252.html and http://lists.w3.org/Archives/Public/www-style/2007Dec/0253.html but needs resolution on open question in the latter proposal; see http://lists.w3.org/Archives/Public/www-style/2008Jan/0004.html
 
 
+
 ==== Issue 27 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0188.html
   ;Summary : Clarify interaction of scrollbar and width/height
   ;Testcase : http://lists.w3.org/Archives/Public/www-style/2007Dec/att-0188/scroll1.htm
   ;Testcase : http://lists.w3.org/Archives/Public/www-style/2008Jan/att-0089/scroll2.htm
-  ;Status : Needs proposal.
+  ;Resolution : Spec Firefox 3's behavior for above testcase.
+  ;Status : =fantasai and alexmog= Draft text
