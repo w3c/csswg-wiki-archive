@@ -35,6 +35,7 @@ No other technology can be made media-specific.
 
 **number-format**   that draws its ideas from xsl:number-format
 
+
 ==== Example CSS ====
   @decimal-format phone {
     grouping-separator: " ";
@@ -57,13 +58,13 @@ No other technology can be made media-specific.
         number-format: "###,##0.00", "price";
         /* price is actually redundant as this format would be the default */
     }
-    td.price:after {
+    td.price::after {
         content: " USD";
     }
     td.sweprice {
         number-format: "### ##0,00", "sweprice";
     }
-    td.sweprice:after {
+    td.sweprice::after {
         content: " SEK";
     }
   }
@@ -78,10 +79,10 @@ No other technology can be made media-specific.
     td.sweprice {
         number-format: "0,00", "sweprice";
     }
-    td.price:after {
+    td.price::after {
         content: " US dollars";
     }
-    td.sweprice:after {
+    td.sweprice::after {
         content: " Swedish crowns";
     }
   }
