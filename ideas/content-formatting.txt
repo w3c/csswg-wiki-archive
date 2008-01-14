@@ -18,14 +18,17 @@ Add a CSS module for numbers
 
 Use XSLT's format-number syntax as a starting ground
 
+
 ==== Rationale ====
 
-   * i18n
-   * Enhanced usability, without sacrificing accessibility or scriptability
-   * Enhanced accessibility, without sacrificing usability or scriptability
+   * i18n - numbers are displayed in many different ways across the world
+   * Enhanced usability, without sacrificing accessibility or scriptability. Grouping numbers in thousands or in pairs will make the easier to read for most users. We do want to suppress line breaks, though.
+   * Enhanced accessibility, without sacrificing usability or scriptability. When numbers are grouped it will be very hard to make some heuristics for screen readers to separate instances where it is useful to insert words like "million" and "thousand" and when such words would actually be a nuisance. 
 
 This is a question about visual presentation. As such it should be handled with CSS.
 No other technology can be made media-specific.
+
+The ability to format numbers without changing their actual value is a common practice in spreadsheet software, and should be just as easy on the web.
 
 === Example HTML ===
   <span class="phone">123467</span>
@@ -43,6 +46,10 @@ one point zero zero US dollars"
 Should be displayed as [987 654 321,00 SEK] and spoken as 
 "nine hundred and eighty seven million six hundred and fifty four thousand three hundred and twenty
 one **comma** zero zero Swedish crowns"
+
+  <span class="creditcard">1234567890123456</span>
+
+Should be displayed as ''1234 5678 9012 3456'' and spoken as ''12 34 56 78 90 12 34 56''
 
 ==== New CSS rules ====
 
