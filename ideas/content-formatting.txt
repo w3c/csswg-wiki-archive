@@ -130,6 +130,13 @@ optional reference to a decimal format, specified with an "at-rule" (see above).
     }
   }
 
+
+==== Parsing ====
+
+When an UA sees that an element has a number format rule, it should try to convert that elements textcontent to a number.
+
+If such a conversion is not possible, the CSS rule should be ignored. This rules is **primarily** intended for table cells, short headings, simple inline elements such as span, some form elements and perhaps a new number element.
+
 ==== Remarks ====
 
 If possible, it would be convenient to add number-format to cols and colgroups!
