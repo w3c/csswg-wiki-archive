@@ -51,13 +51,21 @@ one **comma** zero zero Swedish crowns"
 
 Should be displayed as ''1234 5678 9012 3456'' and spoken as ''12 34 56 78 90 12 34 56''
 
+
 ==== New CSS rules ====
 
-**@decimal-format** that draws its ideas from xsl:decimal-format
+=== @decimal-format ===
 
-**number-format**   that draws its ideas from xsl:number-format
+This rule draws its ideas from xsl:decimal-format.
 
+It is used to specify the same things as its XSL counterpart, e.g. grouping and decimal separators.
 
+=== number-format ===
+
+This rule draws its ideas from xsl:number-format. It shall be used to format actual output.
+
+It consists of two parts for its value. A string that is identical to the second argument in XSL number format, and an
+optional reference to a decimal format, specified with an "at-rule" (see above).
 
 ==== Example CSS ====
   @decimal-format phone {
