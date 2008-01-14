@@ -18,16 +18,31 @@ Add a CSS module for numbers
 
 Use XSLT's format-number syntax as a starting ground
 
-==== Intended purposes ====
+==== Rationale ====
 
    * i18n
    * Enhanced usability, without sacrificing accessibility or scriptability
    * Enhanced accessibility, without sacrificing usability or scriptability
 
-==== Rationale ====
-
 This is a question about visual presentation. As such it should be handled with CSS.
 No other technology can be made media-specific.
+
+=== Example HTML ===
+  <span class="phone">123467</span>
+
+Should be displayed and spoken as "12 34 56"
+
+  <td class="price">987654321</td>
+
+Should be displayed as [987,654,321.00 USD] and spoken as 
+"nine hundred and eighty seven million six hundred and fifty four thousand three hundred and twenty
+one point zero zero US dollars"
+
+  <td class="sweprice">987654321</td>
+
+Should be displayed as [987 654 321,00 SEK] and spoken as 
+"nine hundred and eighty seven million six hundred and fifty four thousand three hundred and twenty
+one **comma** zero zero Swedish crowns"
 
 ==== New CSS rules ====
 
@@ -86,23 +101,6 @@ No other technology can be made media-specific.
         content: " Swedish crowns";
     }
   }
-
-==== Example HTML ====
-  <span class="phone">123467</span>
-
-Should be displayed and spoken as "12 34 56"
-
-  <td class="price">987654321</td>
-
-Should be displayed as [987,654,321.00 USD] and spoken as 
-"nine hundred and eighty seven million six hundred and fifty four thousand three hundred and twenty
-one point zero zero US dollars"
-
-  <td class="sweprice">987654321</td>
-
-Should be displayed as [987 654 321,00 SEK] and spoken as 
-"nine hundred and eighty seven million six hundred and fifty four thousand three hundred and twenty
-one **comma** zero zero Swedish crowns"
 
 ==== Remarks ====
 
