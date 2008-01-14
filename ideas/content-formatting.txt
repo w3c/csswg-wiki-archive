@@ -58,6 +58,7 @@ Should be displayed as ''1234 5678 9012 3456'' and spoken as ''12 34 56 78 90 12
 **number-format**   that draws its ideas from xsl:number-format
 
 
+
 ==== Example CSS ====
   @decimal-format phone {
     grouping-separator: " ";
@@ -69,6 +70,9 @@ Should be displayed as ''1234 5678 9012 3456'' and spoken as ''12 34 56 78 90 12
   @decimal-format sweprice {
     grouping-separator: " ";
     decimal-separator : ","
+  }
+  @decimal-format creditcard {
+    grouping-separator: " ";
   }
   @media all {
     td.phone {
@@ -86,6 +90,9 @@ Should be displayed as ''1234 5678 9012 3456'' and spoken as ''12 34 56 78 90 12
     td.sweprice {
         number-format: "### ##0,00", "sweprice";
     }
+    .creditcard {
+        number-format: "#### ####", "creditcard";
+    }
     td.sweprice::after {
         content: " SEK";
     }
@@ -94,6 +101,8 @@ Should be displayed as ''1234 5678 9012 3456'' and spoken as ''12 34 56 78 90 12
     /* 
         Grouping both unnecessary and unwanted, words like
        "billion", "million" and "thousand" should be spelled out
+       Those words should only be spelled out by a screen reader when
+       grouping is not specified.
     */ 
     td.price {
         number-format: "0.00", "price";
@@ -106,6 +115,10 @@ Should be displayed as ''1234 5678 9012 3456'' and spoken as ''12 34 56 78 90 12
     }
     td.sweprice::after {
         content: " Swedish crowns";
+    }
+    .creditcard {
+        /* Speak numbers in pairs, no nead to hear the word "thousand" */
+        number-format: "## ## ## ##", "creditcard";
     }
   }
 
