@@ -103,11 +103,12 @@ http://lists.w3.org/Archives/Public/www-style/2006May/0120.html
   ;Status : Closed.
 
 
+
 ==== Issue 12 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Nov/0105.html
   ;Summary : Background-position should allow positioning from corners other than top left
-  ;Status : Needs proposed text
+  ;Status : Needs proposal
 
 ==== Issue 13 ====
 
