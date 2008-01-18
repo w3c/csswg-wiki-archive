@@ -6,14 +6,13 @@
 
 The following are known problems in the [[http://www.w3.org/TR/2005/WD-css3-background-20050216/|16 February 2005 CSS Backgrounds and Borders Level 3 Working Draft]].
 
+
 ==== Issue 1 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2006Jul/0017.html
   ;Summary : Specify what happens when border-radius is more than 50% of the box's width/height.
-  ;Status : Needs proposal
-
-
-
+  ;Proposal : a) multiply all radii by a factor K that is just small enough to prevent adjacent radii from intersecting or b) multiply only conflicting radii by a factor of K that is just small enough to prevent adjacent radii from intersecting
+  ;Status : =fantasai= Put together images and ask for feedback.
 
 ==== Issue 2 ====
 
