@@ -13,16 +13,16 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0083.html http://lists.w3.org/Archives/Public/www-svg/2007Sep/0033.html
   ; Raised by : David Baron
   ; Summary : Should we remove unimplemented features?
+  ; Proposed resolution (dbaron) : drop features
   ; Status : Needs information on whether they're really unimplemented.  **ACTION dbaron** (2007-10-09): post to www-style (and www-svg?) to propose deadline for removing unimplemented features
-
 
 ==== Issue 2 ====
 
   ; URL : none
   ; Raised by : David Baron
   ; Summary : definition of attr() syntax and semantics should be removed in favor of definition in css3-values
+  ; Proposed resolution (dbaron) : drop text in favor of css3-values
   ; Status : Needs resolution
-
 
 ==== Issue 3 ====
   ; URL : http://www.w3.org/mid/20040309063205.52668.qmail@web13912.mail.yahoo.com http://www.w3.org/mid/3DB269E1BEC8134084EAA64AD4A1E0CF04C858@stlmail1.corp.amdocs.com
@@ -34,8 +34,8 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; URL : none
   ; Raised by : David Baron
   ; Summary : Handling of S and L values for hsl() and hsla() outside [0%, 100%] is undefined
+  ; Proposed resolution (dbaron) : clamp to device gamut or to sRGB
   ; Status : Needs decision.
-
 
 ==== Issue 5 ====
   ; URL : http://lists.w3.org/Archives/Member/w3c-css-wg/2001JanMar/0265 or https://bugzilla.mozilla.org/show_bug.cgi?id=67448#c15
@@ -47,6 +47,7 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0107
   ; Raised by : David Baron
   ; Summary : Does 'flavor' need to be removed to enter PR due to lack of implementations?
+  ; Proposed resolution (dbaron) : drop features
   ; Status : Needs data and decision
 
 ==== Issue 7 ====
@@ -55,11 +56,11 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Summary : Mention interaction of colors and user style sheets again?  The previous version of the draft did so, but the CR does not.
   ; Status : Needs text.
 
-
 ==== Issue 8 ====
   ; URL : none
   ; Raised by : David Baron
   ; Summary : Status section needs to say that comments sent to www-style should say [css3-color] in the subject.
+  ; Proposed resolution (dbaron) : edit as described
   ; Status : Needs editing.
 
 
@@ -73,37 +74,43 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; URL : http://www.w3.org/mid/20040309063205.52668.qmail@web13912.mail.yahoo.com
   ; Raised by : Alex LeDonne
   ; Summary : In section 4.2.1. RGB color values, the phrase preceding the second example is "the three rules below are equivalent:", however, four rules are presented.
+  ; Proposed resolution (dbaron) : edit as described (editorial)
   ; Status : Editorial, needs editing.
 
 ==== Issue 11 ====
   ; URL : http://www.w3.org/mid/20040309063205.52668.qmail@web13912.mail.yahoo.com
   ; Raised by : Alex LeDonne
   ; Summary : Example of pastel green should be a different shade, in particular, * { color: hsl(120, 75%, 75%) }  /* pastel green, and so on */
+  ; Proposed resolution (dbaron) : edit as described (editorial)
   ; Status : Editorial, needs editing.
 
 ==== Issue 12 ====
   ; URL : http://www.w3.org/mid/41406104.4040200@st.jyu.fi http://www.w3.org/mid/000501c496d4$0127df80$e21d4ed8@hyponiqs http://www.w3.org/mid/p06110401bd676a003e73@%5B152.16.223.122%5D http://www.w3.org/mid/42CE0010.9050500@tu-clausthal.de
   ; Raised by : Mikko Rantalainen, W. Leon Sutton, Jr., Adam Kuehn, Christoph Päper
   ; Summary : Want #rgba and #rrggbbaa color syntaxes.
+  ; Proposed resolution (dbaron) : too late for this version
   ; Status : Needs discussion.  dbaron opposed (too late for this version).
 
 ==== Issue 13 ====
   ; URL : http://www.w3.org/mid/43547E63-215B-11D9-AFE8-000393C44C02@goddess-gate.com
   ; Raised by : David Latapie
   ; Summary : Want table of contents different for rgb()/rgba(), etc.
-  ; Status : dbaron recommends rejecting, since one subsection for each function or keyword
+  ; Proposed resolution (dbaron) : no change, since one subsection for each function or keyword
+  ; Status :
 
 ==== Issue 14 ====
   ; URL : http://www.w3.org/mid/42CE0010.9050500@tu-clausthal.de
   ; Raised by : Christoph Päper
   ; Summary : Want to allow percentages for alpha value in rgba() and hsla()
-  ; Status : needs discussion.  (dbaron: Too late for this version.)
+  ; Proposed resolution (dbaron) : reject, since too late for this version
+  ; Status : needs discussion.
 
 ==== Issue 15 ====
   ; URL : http://www.w3.org/mid/42CE0010.9050500@tu-clausthal.de
   ; Raised by : Christoph Päper
   ; Summary : Want to allow % instead of deg in hsl()/hsla().
-  ; Status : needs discussion.  (dbaron: Too late for this version.)
+  ; Proposed resolution (dbaron) : reject, since too late for this version
+  ; Status : needs discussion.
 
 ==== Issue 16 ====
   ; URL : http://www.w3.org/mid/4319B66D.3050601@splintered.co.uk http://www.w3.org/mid/431A4864.10205@earthlink.net http://www.w3.org/mid/4319B5FF.6040507@splintered.co.uk
@@ -116,20 +123,22 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; URL : http://www.w3.org/mid/20060331221047.GA31647@ridley.dbaron.org 
   ; Raised by : David Baron
   ; Summary : 'color: currentColor' transformation to 'inherit' shouldn't be at parse time
+  ; Proposed resolution (dbaron) : edit as described (obviously)
   ; Status : needs discussion.
 
 ==== Issue 18 ====
   ; URL : http://www.w3.org/mid/78A3602ADF54BA4EAB53F378BF55588BB230D0@G3W0067.americas.hpqcorp.net http://www.w3.org/mid/1554581773.20070130144114@w3.org
   ; Raised by : Melinda Grant
   ; Summary : Should reference up to date version of ICC profile specification.
+  ; Proposed resolution (dbaron) : edit as described (editorial)
   ; Status : needs editing
 
 ==== Issue 19 ====
   ; URL : http://www.w3.org/mid/4681D29D.1090808@fastmail.us
   ; Raised by : Patrick Garies
   ; Summary : Should clarify that SVG color keywords apply outside of SVG.
+  ; Proposed resolution (dbaron) : edit as described (editorial)
   ; Status : needs editing
-
 
 ==== Issue 20 ====
   ; URL : http://www.w3.org/mid/20030131034516.GA29002@gemini.baron
@@ -153,5 +162,6 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; URL : http://www.w3.org/mid/17656.6114.793520.503206@gargle.gargle.HOWL http://www.w3.org/mid/200609011419.05309.bert@w3.org
   ; Raised by : Håkon Lie
   ; Summary : proprietary colors
-  ; Status : Needs discussion (dbaron: too late for this version)
+  ; Proposed resolution (dbaron) : reject, since it's too late for this version
+  ; Status : Needs discussion
 
