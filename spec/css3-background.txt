@@ -80,13 +80,15 @@ http://lists.w3.org/Archives/Public/www-style/2006May/0121.html
   ;Status : Closed.
 
 
+
 ==== Issue 9 ====
 
   ;URL : 
 http://lists.w3.org/Archives/Public/www-style/2006May/0120.html
   ;Summary : Combine 'background-clip' and 'background-origin'?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2006May/0120.html
-  ;Status : Needs resolution
+  ;Resolution : No change.
+  ;Status : Closed.
 
 ==== Issue 10 ====
 
