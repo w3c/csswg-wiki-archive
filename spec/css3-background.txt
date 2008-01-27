@@ -120,10 +120,11 @@ http://lists.w3.org/Archives/Public/www-style/2006May/0120.html
   ;Summary : Background-position should have a figure for percentage positioning
   ;Status : Needs proposed image/text
 
+
 ==== Issue 14 ====
 
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0356.html
   ;Summary : 'background-size' needs a better name
-  ;Proposal : 'background-stretch' or 'background-resize'
+  ;Proposal : 'background-fit'
   ;Status : Needs resolution.
