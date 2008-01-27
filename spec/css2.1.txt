@@ -248,9 +248,22 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Assumed editorial.
   ;Status : =Bert= Edit.
 
+
 ==== Issue 30 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0525.html
   ;Summary : Hebrew list-style-type used in example, though not defined in 2.1
   ;Resolution : Assumed editorial.
   ;Status : =Bert= Edit.
+
+==== Issue 31 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0541.html
+  ;Summary : Are @import rules ignored or honored after invalid but recognized @rules?
+  ;Status : =WG= Discuss.
+
+==== Issue 32 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0544.html
+  ;Summary : Is '@' not followed by a valid identifier parsed as an invalid at-rule or a generic invalid token?
+  ;Status : =WG= Discuss.
