@@ -276,8 +276,15 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Distinguish between preferred and used width for intrinsic percentages that can't be resolved, as for non-replaced elements
   ;Status : Needs proposed text.
 
+
 ==== Issue 34 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0576.html
   ;Summary : Clarify that 'auto' top and bottom margins are not set to zero for absolutely-positioned replaced elements
   ;Status : Needs proposed text.
+
+==== Issue 35 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0432.html
+  ;Summary : Allow absolutely replaced elements to stretch to fit left/right top/bottom constraints
+  ;Status : =WG= Discuss.
