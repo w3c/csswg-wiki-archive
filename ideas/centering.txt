@@ -23,7 +23,7 @@ Horizontal centering can be accomplished in most cases by using ''margin: 0 auto
 
 === position: center ===
 
-Ian and Tantek have a [[http://lists.w3.org/Archives/Public/www-style/2004Jan/0218.html|position:center]] proposal that does both horizontal and vertical centering. It uses the background-position method of calculating positions and applies it to the absolute positioning model. It gives a lot of flexibility in placing boxes relative to their containing block, but is a form of absolute positioning and can't be used for in-flow boxes.
+Ian and Tantek have a [[http://lists.w3.org/Archives/Public/www-style/2004Jan/0218.html|position:center]] proposal that does both horizontal and vertical centering. It uses the background-position method of calculating positions and applies it to the absolute positioning model (see "Positioned Centering", below). It gives a lot of flexibility in placing boxes relative to their containing block, but is a form of absolute positioning and can't be used for in-flow boxes.
 
 
 === alignment property ===
@@ -65,4 +65,38 @@ The main request is to vertically center the contents of a box, as can be done w
 
 === position: center ===
 
-Ian and Tantek have a [[http://lists.w3.org/Archives/Public/www-style/2004Jan/0218.html|position:center]] proposal that does both horizontal and vertical centering. It uses the background-position method of calculating positions and applies it to the absolute positioning model. It gives a lot of flexibility in placing boxes relative to their containing block, but is a form of absolute positioning and can't be used for in-flow boxes.
+Ian and Tantek have a [[http://lists.w3.org/Archives/Public/www-style/2004Jan/0218.html|position:center]] proposal that does both horizontal and vertical centering. It uses the background-position method of calculating positions and applies it to the absolute positioning model (see next section). It gives a lot of flexibility in placing boxes relative to their containing block, but is a form of absolute positioning and can't be used for in-flow boxes.
+
+===== Positioned Centering =====
+
+Positioning objects via the “position” property differs from just moving the object’s edges via “margin” in that positioned objects are either taken out of the flow (“position:absolute”) or leave the flow unaffected (“position:relative”). Because of this, positioned objects are used in different situations and for different reasons than non-positioned objects. They have different use cases.
+
+The need to center objects in a non-positioned context has little bearing on objects that are positioned. “Auto” left and right margins have no effect on the position of absolutely positioned items, and "auto" values for the "left" or "right" properties have different meanings than they do for "margin-left" and "margin-right".
+
+However, there is a way to set the absolute position of an object half way across a page or half way deep in a page: by setting one of its edges to “50%”. The problem is that this only centers that one edge (horizontally if set on “left” or “right”, or vertically if set on “top’ or “bottom”), and not the object itself. What is needed is a way to set the center of a positioned object to the center of its containing block (horizontally, vertically, or both).
+
+==== Proposals ====
+
+=== position: center ===
+Ian and Tantek have a [[http://lists.w3.org/Archives/Public/www-style/2004Jan/0218.html|position:center]] proposal that does both horizontal and vertical centering via a new value (“center”) for the “position” property. This value would be similar to “absolute”, but would automatically center the object it was set on. Because it is similar to, but different from, position:absolute, it changes the effect of other properties, such as the 4 edge properties (right, left, top, and bottom). For instance, the default value of “auto” on these properties with “position:absolute” means (roughly) “don’t move from their original position”, but with “position:center” it means “move to the center”. This implies a limit on the ability of the author to center a positioned object in just one direction.
+
+=== position: center-x and center-y ===
+[[http://lists.w3.org/Archives/Public/www-style/2008Jan/0166.html|A simpler solution]] is to define two new properties that are extremely similar to the very well defined edge properties (right, left, top, and bottom). Thus, center-x would work the same as “left” and “right”, except that it would be the center of the object that was positioned horizontally instead of one of those two edges. Similarly, center-y would work the same as “top” and “bottom”, except that it would be the center of the object that was positioned vertically instead of one of those two edges.
+
+Because the widths of positioned items are determined prior to determining where they will be drawn, and because they are removed from the flow, this proposal would have no greater effect on progressive rendering than when providing a value to the edge-based properties, such as “right” or “bottom”.
+
+Setting “center-x” in combination with a side edge would be analogous to providing two sides edges to determine the width. For instance, with two side edges, the width is calculated as (right pixels – left pixels = width pixels). To determine the width with just a side edge and a center-x, there is a similar subtraction that is then doubled for the width (and the apposing edge becomes a calculated value). Given a left and center-x value, the width calculation becomes ((center-x pixels – left pixels) * 2 = width pixels ), and the calculation for “right” is (left pixels + width pixels). Vertical combinations work the same way with center-y.
+
+Because this proposal adds two simple properties (similar to existing properties) that work with existing values, they can be used in the same way as existing edge properties within all the existing positioning schemes. For instance, with “position:relative”, setting a “center-x” property would have the same effect as setting a “left” or “right” property. Likewise, this proposal has the advantage of allowing centering of a “fixed” positioned object. 
+
+This proposal is also not limited to centering of objects. As with the other edge-based properties, an author could set the center of an object to other values besides just the center of its container. For instance the author could set “center-y” to “25%” in order to have the center of it be at 1/4 of its container’s height (regardless of the positioned object’s height). Or several objects of varying widths could have “center-x” set to “12em” and be center aligned at that position, even if they did not have the same containing block.
+
+The proposal also includes a shorthand property (“center”) that would combine “center-x” and “center-y”, for when the same property (such as “50%”) would apply to both. This follows the same logic as “overflow”, which is shorthand for setting the a single value to both the “overflow-x” and “overflow-y” properties. Thus, aligning an object to the center in both directions would be as simple as “center:50%”.
+
+Unsettled detail:
+
+Should the center be “0”, or should it be “50%”? There is precedent for both ways of thinking:
+
+  * The way “left”, “right”, “top”, and “bottom” work is that when their value is set to zero, their namesake edge is set flush to the same edge of their containing block. Thus, “bottom:0” means that the bottom edge is at the bottom edge of its containing block. To follow this same logic, “center:0” should put the center of the object at the center of its containing block.
+  * It may be more intuitive to think of the center as being “50%”, as with “background-position” or “top” or “left”. However, this may make the values for “right” and “bottom” more confusing for novices.
+
