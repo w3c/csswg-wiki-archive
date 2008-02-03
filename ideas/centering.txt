@@ -28,7 +28,6 @@ So, without shrinking the width of a child box that does not want to be shrunk, 
 
 This leaves one way left to keep the object centered when overflow is set to “visible” (the default) or “hidden”: Centered objects should overflow on the left and right equally. Any centering scheme to be considered will have to decide either to have this feature (so that no matter how a block is overflowed, the content remains centered within its parent), or to more closely replicate legacy behavior of tags like “<CENTER>”.
 
-
 ==== Proposals ====
 
 === position: center ===
@@ -59,7 +58,7 @@ Markus started a [[http://lists.w3.org/Archives/Public/www-style/2007Nov/0067.ht
 
 === block-align property ===
 
-Its been proposed that a property called “block-align” would be useful for centering block level content. Vadim Plessky mentioned it in 2001 (here and here), and more recently David Baron brought it up as a way to separate the block centering behavior of “<CENTER>” (which already exists as “text-align:center”) from its block aligning behavior (here).
+Its been proposed that a property called “block-align” would be useful for centering block level content. Vadim Plessky mentioned it in 2001 ([[http://lists.w3.org/Archives/Public/www-style/2001Oct/0091.html|here]] and [[http://lists.w3.org/Archives/Public/www-style/2001Oct/0145.html|here]]), and more recently David Baron brought it up as a way to separate the block centering behavior of “<CENTER>” (which already exists as “text-align:center”) from its block aligning behavior ([[http://lists.w3.org/Archives/Public/www-style/2008Jan/0441.html|here]]).
 
 Given that CSS already has a property called “text-align” to horizontally align line boxes, “block-align” would logically be analogous to that, but for block level content. Given that “text-align” is well documented and well understood, having a block level version call “block-align” would lead to easy understanding of what it does in turn. This helps solidify the answers to the similar "alignment" property proposed above.
 
@@ -133,4 +132,3 @@ Should the center be “0”, or should it be “50%”? There is precedent for 
 
   * The way “left”, “right”, “top”, and “bottom” work is that when their value is set to zero, their namesake edge is set flush to the same edge of their containing block. Thus, “bottom:0” means that the bottom edge is at the bottom edge of its containing block. To follow this same logic, “center:0” should put the center of the object at the center of its containing block.
   * It may be more intuitive to think of the center as being “50%”, as with “background-position” or “top” or “left”. However, this may make the values for “right” and “bottom” more confusing for novices.
-
