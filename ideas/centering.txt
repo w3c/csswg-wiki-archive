@@ -57,6 +57,30 @@ Markus started a [[http://lists.w3.org/Archives/Public/www-style/2007Nov/0067.ht
       * alignment replaces specified side margins with ''auto'' as appropriate to effect specified alignment
       * alignment shifts the margin box, leaving specified margins intact
 
+=== block-align property ===
+
+Its been proposed that a property called “block-align” would be useful for centering block level content. Vadim Plessky mentioned it in 2001 (here and here), and more recently David Baron brought it up as a way to separate the block centering behavior of “<CENTER>” (which already exists as “text-align:center”) from its block aligning behavior (here).
+
+Given that CSS already has a property called “text-align” to horizontally align line boxes, “block-align” would logically be analogous to that, but for block level content. Given that “text-align” is well documented and well understood, having a block level version call “block-align” would lead to easy understanding of what it does in turn. This helps solidify the answers to the similar "alignment" property proposed above.
+
+== “Block-align’ would also achieve the goal of replicating the desired behavior of the “<CENTER>” tag: ==
+
+A primary feature of the “<CENTER>” tag (that is not currently available to CSS) is that it centers its descendants' blocks. But it does so by adding another element to the HTML between the container (which may already have styling of its own, including auto margins or float or absolute positioning), and the blocks that are to be centered. To reproduce the “ descendant block centering” aspects of the “<CENTER>” tag, without requiring an intermediate block, the property should be settable on any block without affecting the alignment or position of that block itself.
+
+Block-align achieves this, because, like text-align, it only affects the horizontal position of its **descendants** (via the distribution of any “left over” white space available horizontally for each of those line block descendants). Just as setting “text-align” on a “P” tag does not affect the horizontal position of the paragraph within its parent, setting “block-align” on a DIV would not affect the horizontal position of the DIV within its parent. This allows more flexibility for that DIV, as its horizontal position can be determined in ways that are already available (margins, floats, positioning) or by the block-align property of its parent. 
+
+Without this “descendant-only” aspect, a separate, intermediate block would be required in order to have a block level alignment on a parent that was different from that of its descendants. Requiring such an intermediate element with no semantic meaning of its own, that exists solely to separate the alignment of a block from the alignment of its descendants, runs counter to the reasoning that lead to the deprecation of the “<CENTER>” element.
+
+To achieve centering of text and blocks, as is achieved by “<CENTER>” (and other constructs, such as “<TD align=center>”), an author would set the values of both “text-align” and “block-align” to “center”. Because the two properties are separate, an author would have the freedom to set them to different values too. For instance, a centered layout could be achieved with “block-align: center”, but the text within that layout could be flush left with “text-align: left”.
+
+== Other values: ==
+The default value of block-align is “left” (when the text-direction is LTR), or “start”, which would mimic current behavior of where blocks are drawn. A value of “right” or “end” (when the text direction is LTR) would mimic the current behavior of a RTL text direction. 
+
+When thought of this way (as a property whose default value describes the existing behavior of block alignment), it is clear how the property would interact with margins. Descendants with margins set to auto would not have their centered alignment overridden by the block alignment of their parent (whatever its value), just as they are not currently. Likewise, the current behavior makes it clear that an object with “block-align: left” would still be subject to being centered if its right and left margins were set to auto, and thus, the property only affects the descendants of the block it is set upon. 
+
+Floated items within a “block-align: center” block would behave as usual, and a block that came immediately after the float (in the same block as the float), if it fit, would be centered in the remaining space.
+
+
 ===== Vertical Centering =====
 
 ==== Problems ====
