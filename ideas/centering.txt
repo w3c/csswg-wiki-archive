@@ -73,7 +73,7 @@ Without this “descendant-only” aspect, a separate, intermediate block would 
 To achieve centering of text and blocks, as is achieved by “<CENTER>” (and other constructs, such as “<TD align=center>”), an author would set the values of both “text-align” and “block-align” to “center”. Because the two properties are separate, an author would have the freedom to set them to different values too. For instance, a centered layout could be achieved with “block-align: center”, but the text within that layout could be flush left with “text-align: left”.
 
 == Other values: ==
-The default value of block-align is “left” (when the text-direction is LTR), or “start”, which would mimic current behavior of where blocks are drawn. A value of “right” or “end” (when the text direction is LTR) would mimic the current behavior of a RTL text direction. 
+The default value of block-align is “left” (when the text-direction is LTR) or “start”, which would mimic current behavior of where blocks are drawn. A value of “right” or “end” (when the text direction is LTR) would mimic the current block aligning behavior of a RTL text direction. 
 
 When thought of this way (as a property whose default value describes the existing behavior of block alignment), it is clear how the property would interact with margins. Descendants with margins set to auto would not have their centered alignment overridden by the block alignment of their parent (whatever its value), just as they are not currently. Likewise, the current behavior makes it clear that an object with “block-align: left” would still be subject to being centered if its right and left margins were set to auto, and thus, the property only affects the descendants of the block it is set upon. 
 
