@@ -271,11 +271,13 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Status : =WG= Discuss.
 
 
+
 ==== Issue 33 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0568.html
   ;Summary : Distinguish between preferred and used width for intrinsic percentages that can't be resolved, as for non-replaced elements
-  ;Status : Needs proposed text.
+  ;Proposal : In section 10.3.2 replace "If it does, then a percentage intrinsic width on that element can't be resolved and the element is assumed to have no intrinsic width." with "If it does, then the resulting layout is undefined in CSS2.1.", and in section 10.6.2 move the paragraph beginning "Percentage" up to become the second paragraph (to clarify its interaction with the other rules in that section).
+  ;Status : =WG= Discuss.
 
 
 ==== Issue 34 ====
