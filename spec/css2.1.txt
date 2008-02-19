@@ -290,8 +290,10 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Status : Needs proposed text.
 
 
+
 ==== Issue 35 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0432.html
   ;Summary : Allow absolutely replaced elements to stretch to fit left/right top/bottom constraints
-  ;Testcases : http://fantasai.inkedblade.net/style/tests/issues/abspos-replaced-intrinsic-size http://fantasai.inkedblade.net/style/tests/issues/abspos-replaced-intrinsic-ratio   http://fantasai.inkedblade.net/style/tests/issues/abspos-replaced-intrinsic-unsized  ;Status : =WG= Discuss.
+  ;Testcases : http://fantasai.inkedblade.net/style/tests/issues/abspos-replaced-intrinsic-size http://fantasai.inkedblade.net/style/tests/issues/abspos-replaced-intrinsic-ratio   http://fantasai.inkedblade.net/style/tests/issues/abspos-replaced-intrinsic-unsized  
+  ;Status : =WG= Discuss.
