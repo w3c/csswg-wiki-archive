@@ -9,6 +9,7 @@ This section documents problems found in the CSS specs and working drafts. Probl
   * [[spec:mediaqueries|Media Queries Level 3]]
   * [[spec:css3-color|CSS Color Module Level 3]]
   * [[spec:css-multicol|CSS Multi-Column Layout Module Level 3]]
+  * [[http://dev.w3.org/csswg/css3-namespace/issues-2|CSS Namespaces]]
   * [[spec:css3-text|CSS Text Module Level 3]]
   * [[spec:css3-text-layout|CSS Text Layout Module Level 3]]
   * [[spec:css-ruby|CSS Ruby Module]]
