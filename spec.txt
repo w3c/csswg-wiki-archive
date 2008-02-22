@@ -12,7 +12,7 @@ This section documents problems found in the CSS specs and working drafts. Probl
   * [[spec:css3-text|CSS Text Module Level 3]]
   * [[spec:css3-text-layout|CSS Text Layout Module Level 3]]
   * [[spec:css-ruby|CSS Ruby Module]]
-
+  * [[spec:css3-values|CSS Values and Units Module Level 3]]
 
 ====== Specification Outlining ======
 
