@@ -103,12 +103,13 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Proposal accepted.
   ;Status : Closed.
 
+
 ==== Issue 13 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jul/0124.html
   ;Summary : "tag selector" should be "type selector"
   ;Resolution : Assumed editorial.
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 14 ====
 
