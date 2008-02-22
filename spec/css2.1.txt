@@ -85,13 +85,14 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal :
   ;Status : Needs proposal.
 
+
 ==== Issue 11 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0177.html
   ;Summary : Various typos
   ;Proposal : Fix s/boxess/boxes/ and encoding errors.
   ;Resolution : Assumed editorial.
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 12 ====
 
