@@ -35,6 +35,7 @@ If these requirements change, notice will be sent to public-css-testsuite of the
 
 
 
+
 ===== Owners and Peers =====
 
 The test suite Owner is the person most responsible for the test suite. Previously
@@ -47,6 +48,7 @@ Currently the following people are Owners or Peers:
 
   * Anne van Kesteren
   * Elika J. Etemad (fantasai)
+  * L. David Baron
   * Ian Hickson (hixie) [INACTIVE]
 
 
