@@ -291,14 +291,14 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 
 
 
+
 ==== Issue 33 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0568.html
   ;Summary : Distinguish between preferred and used width for intrinsic percentages that can't be resolved, as for non-replaced elements
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Feb/0029.html
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
-
+  ;Status : Closed.
 
 ==== Issue 34 ====
 
