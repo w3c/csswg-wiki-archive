@@ -248,14 +248,14 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Spec Firefox 3's behavior for above testcase. Proposal above accepted with two changes: add "the" between "with" and "scrollbars" and change "excluded from" to "taken out of"
   ;Status : Closed.
 
+
 ==== Issue 28 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0208.html
   ;Summary : Clarify whether mix of comma and space-separated syntax allowed for rect()
   ;Proposal : Add "(but not a combination)" after "without commas" in <shape> definition.
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
-
+  ;Status : Closed.
 
 ==== Issue 29 ====
 
