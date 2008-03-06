@@ -237,6 +237,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 
 
 
+
 ==== Issue 27 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0188.html
@@ -245,7 +246,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Testcase : http://lists.w3.org/Archives/Public/www-style/2008Jan/att-0089/scroll2.htm
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jan/0259.html
   ;Resolution : Spec Firefox 3's behavior for above testcase. Proposal above accepted with two changes: add "the" between "with" and "scrollbars" and change "excluded from" to "taken out of"
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 28 ====
 
