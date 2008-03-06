@@ -173,6 +173,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 
 
 
+
 ==== Issue 20 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0018.html
@@ -180,7 +181,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Testcase : http://www.dhtmlkitchen.com/test/bug/table-alignment.html
   ;Proposal : s/content/inline content/; s/is/can be/
   ;Resolution : Assumed editorial.
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 21 ====
 
