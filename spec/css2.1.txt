@@ -329,8 +329,10 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Proposal accepted.
   ;Status : Closed.
 
+
 ==== Issue 37 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Mar/0038.html
   ;Summary : ":before, :after { white-space: pre-line; }" should be either made normative or dropped
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0070.html as modified by http://lists.w3.org/Archives/Public/www-style/2008Mar/0074.html
   ;Status : =WG= Discuss.
