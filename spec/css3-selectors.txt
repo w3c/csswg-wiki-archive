@@ -2,6 +2,10 @@
 
 (This page needs some organization, just dumping some info atm.)
 
+http://lists.w3.org/Archives/Public/www-style/2008Mar/0078.html
+
+http://lists.w3.org/Archives/Public/www-style/2008Mar/0077.html
+
 http://lists.w3.org/Archives/Public/www-style/2008Feb/0185.html
 
 http://lists.w3.org/Archives/Public/www-style/2008Feb/0163.html (applies to *=, $= and ^=, I think)
