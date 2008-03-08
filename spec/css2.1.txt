@@ -277,11 +277,13 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Assumed editorial.
   ;Status : Closed.
 
+
 ==== Issue 31 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0541.html
   ;Summary : Are @import rules ignored or honored after invalid but recognized @rules?
   ;Status : Needs proposal.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0079.html
 
 ==== Issue 32 ====
 
