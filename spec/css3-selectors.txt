@@ -2,6 +2,8 @@
 
 (This page needs some organization, just dumping some info atm.)
 
+Need to clarify whether the 'xml' prefix is pre-declared.
+
 http://lists.w3.org/Archives/Public/www-style/2008Mar/0083.html
 
 http://lists.w3.org/Archives/Public/www-style/2008Mar/0078.html
