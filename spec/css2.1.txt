@@ -316,12 +316,14 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Proposal accepted.
   ;Status : Closed.
 
+
 ==== Issue 34 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0576.html
   ;Summary : Clarify that 'auto' top and bottom margins are not set to zero for absolutely-positioned replaced elements
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0040.html
-  ;Status : =WG= Discuss.
+  ; Resolution: Proposal accepted.
+  ;Status : =Bert= Edit.
 
 
 
