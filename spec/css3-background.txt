@@ -20,15 +20,13 @@ The following are known problems in the [[http://www.w3.org/TR/2005/WD-css3-back
   ;Resolution : Proposal accepted
   ;Status : Closed.
 
+
 ==== Issue 3 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jun/0073.html
   ;Summary : Middle image doesn't scale to match border images
-  ;Status : Needs discussion
-
-
-
-
+  ;Resolution : Proposal accepted with s/top/left s/width/height and s/bottom/right in the second modification
+  ;Status : =fantasai= Edit.
 
 ==== Issue 4 ====
 
