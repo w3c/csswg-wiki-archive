@@ -88,11 +88,13 @@ http://lists.w3.org/Archives/Public/www-style/2006May/0120.html
   ;Resolution : No change.
   ;Status : Closed.
 
+
 ==== Issue 10 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2006May/0037.html
   ;Summary : Should negative background-size flip the image?
-  ;Status : Needs resolution
+  ;Resolved : No change.
+  ;Status : Closed.
 
 
 ==== Issue 11 ====
