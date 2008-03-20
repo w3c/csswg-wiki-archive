@@ -112,13 +112,14 @@ http://lists.w3.org/Archives/Public/www-style/2006May/0120.html
   ;Status : Needs proposal
 
 
+
 ==== Issue 13 ====
 
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0011.html
   ;Summary : Background-position should have a figure for percentage positioning
-  ;Status : Needs proposed image/text
-
+  ;Resolution : Accepted.
+  ;Status : Closed.
 
 ==== Issue 14 ====
 
