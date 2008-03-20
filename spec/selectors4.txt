@@ -4,5 +4,5 @@
   *  [[http://lists.w3.org/Archives/Public/www-style/2005Oct/0173.html|IDREF combinators]]
   * table column selector (based on source, not on layout)
   * [[http://lists.w3.org/Archives/Public/www-style/2008Mar/0193.html|:rtl and :ltr pseudo-classes]] (based on source ''dir'' attributes)
-  * ability to [[http://lists.w3.org/Archives/Public/www-style/2000Oct/0182.html|choose subject in the selector]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2000Oct/0182.html|:matches(..) pseudo-class]]
+  * ability to [[http://www.w3.org/TR/2000/WD-css3-selectors-20001005/#subject-pseudo|choose subject in the selector]] ([[http://lists.w3.org/Archives/Public/www-style/2000Oct/0182.html|alternative syntax]])
+  * [[http://lists.w3.org/Archives/Public/www-style/2000Oct/0182.html|:matches() pseudo-class]]
