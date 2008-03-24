@@ -119,12 +119,13 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Proposed resolution (dbaron) : reject, since too late for this version
   ; Status : needs discussion.
 
+
 ==== Issue 16 ====
   ; URL : http://www.w3.org/mid/4319B66D.3050601@splintered.co.uk http://www.w3.org/mid/431A4864.10205@earthlink.net http://www.w3.org/mid/4319B5FF.6040507@splintered.co.uk
   ; Opposition: http://www.w3.org/mid/431CAB50.4040007@disruptive-innovations.com
   ; Raised by : Patrick H. Lauke, Matthew Raymond
   ; Summary : System colors should not be deprecated
-  ; Proposed resolution (dbaron) : no change
+  ; Proposed resolution (dbaron) : no substantive change, but perhaps explain deprecation further
   ; Status : Needs discussion.
 
 ==== Issue 17 ====
