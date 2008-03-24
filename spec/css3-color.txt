@@ -141,12 +141,13 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Status : needs editing
 
 
+
 ==== Issue 20 ====
   ; URL : http://www.w3.org/mid/20030131034516.GA29002@gemini.baron
   ; Raised by : David Baron
   ; Summary : Should opacity group over elements or boxes?
   ; Status : tests written (they pass per current spec)
-  ; Proposed resolution (dbaron): no change
+  ; Proposed resolution (dbaron) : no change
 
 ==== Issue 21 ====
   ; URL : http://www.w3.org/mid/BAE92885.28030%25tantek@cs.stanford.edu http://www.w3.org/mid/20030515184501.GA30313@pool-141-158-45-91.phil.east.verizon.net http://www.w3.org/mid/16069.11954.751430.470156@lanalana.inria.fr http://www.w3.org/mid/BDBFA80D.5060B%25tantek@cs.stanford.edu
