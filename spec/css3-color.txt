@@ -133,13 +133,14 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Proposed resolution (dbaron) : edit as described (editorial)
   ; Status : needs editing
 
+
 ==== Issue 19 ====
   ; URL : http://www.w3.org/mid/4681D29D.1090808@fastmail.us
   ; Raised by : Patrick Garies
   ; Summary : Should clarify that SVG color keywords apply outside of SVG.
   ; Proposed resolution (dbaron) : edit as described (editorial)
   ; Status : needs editing
-
+  ; Tests : t43-svg-keywords-a
 
 
 
