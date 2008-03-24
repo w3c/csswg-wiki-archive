@@ -161,11 +161,13 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Proposed resolution (dbaron) : editorial (if it still exists)
   ; Status : needs testing whether it still exists
 
+
 ==== Issue 22 ====
   ; URL : http://www.w3.org/mid/ur24h1t6fc4ihbgshjr4c99tii4oqkf8l4@hive.bjoern.hoehrmann.de http://www.w3.org/mid/200508291921.50980.bert@w3.org
-  ; Raised by : Bjoern Hoehrmann
+  ; Raised by : Björn Höhrmann
   ; Summary : <alphavalue> and other productions need more formal grammar
-  ; Status : needs editing
+  ; Proposed resolution : no change (unless Björn has one to propose)
+  ; Status : Needs decision
 
 ==== Issue 23 ====
   ; URL : http://www.w3.org/mid/17656.6114.793520.503206@gargle.gargle.HOWL http://www.w3.org/mid/200609011419.05309.bert@w3.org
