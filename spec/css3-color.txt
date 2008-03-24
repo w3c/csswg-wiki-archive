@@ -64,11 +64,13 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Status : Needs editing.
 
 
+
 ==== Issue 9 ====
   ; URL : http://www.w3.org/mid/A134E2426B46D711BB4B000347AE6E7C5915FF@xvan02.vcd.hp.com http://www.w3.org/mid/BAD535BA.26F81%25tantek@cs.stanford.edu
   ; Raised by : Jacob Refstrup, David Woolley
   ; Summary : 'opacity' not precisely defined
   ; Status : Needs proposed text.
+  ; Proposed resolution (dbaron) : Cite section 14.2 of SVG 1.1 (here, and for rgba() and hsla() colors).
 
 ==== Issue 10 ====
   ; URL : http://www.w3.org/mid/20040309063205.52668.qmail@web13912.mail.yahoo.com
