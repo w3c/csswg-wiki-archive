@@ -35,8 +35,9 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
 
 
 
+
 ==== Issue 4 ====
-  ; URL : none
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Mar/0305.html
   ; Raised by : David Baron
   ; Summary : Handling of S and L values for hsl() and hsla() outside [0%, 100%] is undefined
   ; Proposed resolution (dbaron) : clamp to device gamut
