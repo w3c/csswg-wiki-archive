@@ -6,4 +6,4 @@ This wiki is to help the CSSWG record [[ideas|resolutions]] and open [[spec|issu
 
 The CSS Working Group welcomes your feedback on our work! Public discussion of our specs happens on the archived [[http://lists.w3.org/Archives/Public/www-style/|www-style]] mailing list, while discussion of our test suites happens on [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]]. If you are part of a W3C Member organization, you can also access our [[http://lists.w3.org/Archives/Member/w3c-css-wg/|internal mailing list]].
 
-The working group may use the [[meetings]] page to coordinate activities occurring during, related and next to official working group meetings.
+The working group may use the [[meetings|meetings]] page to coordinate activities occurring during, related and next to official working group meetings.
