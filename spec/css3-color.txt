@@ -36,13 +36,14 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
 
 
 
+
 ==== Issue 4 ====
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Mar/0305.html
   ; Raised by : David Baron
   ; Summary : Handling of S and L values for hsl() and hsla() outside [0%, 100%] is undefined
   ; Proposed resolution (dbaron) : clamp to device gamut
   ; Status : Needs decision.
-  ; Tests : NEEDS TESTS!  (As do other statements about clamping, except for <alphavalue>.)
+  ; Tests : t421-rgb-clip-outside-gamut-b, t422-rgba-clip-outside-device-gamut-b, t424-hsl-clip-outside-gamut-b, t425-hsla-clip-outside-device-gamut-b
 
 ==== Issue 5 ====
   ; URL : http://lists.w3.org/Archives/Member/w3c-css-wg/2001JanMar/0265 or https://bugzilla.mozilla.org/show_bug.cgi?id=67448#c15
