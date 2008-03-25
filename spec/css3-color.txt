@@ -14,7 +14,7 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Raised by : David Baron
   ; Summary : Should we remove unimplemented features?
   ; Proposed resolution (dbaron) : drop features
-  ; Status : Needs information on whether they're really unimplemented.  **ACTION dbaron** (2007-10-09): post to www-style (and www-svg?) to propose deadline for removing unimplemented features
+  ; Status : Needs information on whether they're really unimplemented.  **ACTION dbaron** (2007-10-09): post to www-style (and www-svg?) to propose deadline for removing unimplemented features.  Action complete.  Spec edited.
 
 ==== Issue 2 ====
 
@@ -22,19 +22,14 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Raised by : David Baron
   ; Summary : definition of attr() syntax and semantics should be removed in favor of definition in css3-values
   ; Proposed resolution (dbaron) : drop text in favor of css3-values
-  ; Status : Needs resolution
+  ; Status : Needs resolution.  Spec edited.
 
 ==== Issue 3 ====
   ; URL : http://www.w3.org/mid/20040309063205.52668.qmail@web13912.mail.yahoo.com http://www.w3.org/mid/3DB269E1BEC8134084EAA64AD4A1E0CF04C858@stlmail1.corp.amdocs.com
   ; Raised by : Chris Moschini, Alex LeDonne, David Baron
   ; Summary : example of hsl() colors gets light and dark green backwards
   ; Proposed resolution (dbaron) : Editorial - edit as described.
-  ; Status : Editorial.  Document needs editing.
-
-
-
-
-
+  ; Status : Editorial.  Spec edited.
 
 
 ==== Issue 4 ====
@@ -42,7 +37,7 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Raised by : David Baron
   ; Summary : Handling of S and L values for hsl() and hsla() outside [0%, 100%] is undefined
   ; Proposed resolution (dbaron) : clamp to device gamut
-  ; Status : Needs decision.
+  ; Status : Needs decision.  Spec edited.
   ; Tests : t421-rgb-clip-outside-gamut-b, t422-rgba-clip-outside-device-gamut-b, t424-hsl-clip-outside-gamut-b, t425-hsla-clip-outside-device-gamut-b
 
 ==== Issue 5 ====
@@ -72,7 +67,7 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Raised by : David Baron
   ; Summary : Status section needs to say that comments sent to www-style should say [css3-color] in the subject.
   ; Proposed resolution (dbaron) : edit as described
-  ; Status : Document edited.
+  ; Status : Document edited (as part of status section cleanup before processing issues).
 
 ==== Issue 9 ====
   ; URL : http://www.w3.org/mid/A134E2426B46D711BB4B000347AE6E7C5915FF@xvan02.vcd.hp.com http://www.w3.org/mid/BAD535BA.26F81%25tantek@cs.stanford.edu
@@ -93,7 +88,7 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Raised by : Alex LeDonne
   ; Summary : Example of pastel green should be a different shade, in particular, * { color: hsl(120, 75%, 75%) }  /* pastel green, and so on */
   ; Proposed resolution (dbaron) : edit as described (editorial)
-  ; Status : Editorial, needs editing.
+  ; Status : Spec edited (as part of editing for issue 3).
 
 ==== Issue 12 ====
   ; URL : http://www.w3.org/mid/41406104.4040200@st.jyu.fi http://www.w3.org/mid/000501c496d4$0127df80$e21d4ed8@hyponiqs http://www.w3.org/mid/p06110401bd676a003e73@%5B152.16.223.122%5D http://www.w3.org/mid/42CE0010.9050500@tu-clausthal.de
