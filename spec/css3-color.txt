@@ -45,7 +45,8 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Raised by : David Baron
   ; Summary : Better definitions needed for system colors for 3-D
   ; Proposed resolution (dbaron) : adopt proposal in URLs above
-  ; Status : Needs decision
+  ; Status : Needs decision.  Spec edited.
+  ; Tests : t040501-system-colors-a
 
 ==== Issue 6 ====
   ; URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0107
@@ -73,7 +74,7 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; URL : http://www.w3.org/mid/A134E2426B46D711BB4B000347AE6E7C5915FF@xvan02.vcd.hp.com http://www.w3.org/mid/BAD535BA.26F81%25tantek@cs.stanford.edu
   ; Raised by : Jacob Refstrup, David Woolley
   ; Summary : 'opacity' not precisely defined
-  ; Status : Needs proposed text.
+  ; Status : Spec edited.
   ; Proposed resolution (dbaron) : Cite section 14.2 of SVG 1.1 (here, and for rgba() and hsla() colors).
 
 ==== Issue 10 ====
@@ -81,7 +82,7 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Raised by : Alex LeDonne
   ; Summary : In section 4.2.1. RGB color values, the phrase preceding the second example is "the three rules below are equivalent:", however, four rules are presented.
   ; Proposed resolution (dbaron) : edit as described (editorial)
-  ; Status : Editorial, needs editing.
+  ; Status : Spec edited.
 
 ==== Issue 11 ====
   ; URL : http://www.w3.org/mid/20040309063205.52668.qmail@web13912.mail.yahoo.com
@@ -101,8 +102,8 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; URL : http://www.w3.org/mid/43547E63-215B-11D9-AFE8-000393C44C02@goddess-gate.com
   ; Raised by : David Latapie
   ; Summary : Want table of contents different for rgb()/rgba(), etc.
-  ; Proposed resolution (dbaron) : no change, since one subsection for each function or keyword
-  ; Status :
+  ; Proposed resolution (dbaron) : no change (editorial), since one subsection for each function or keyword.  (But the default style sheet has improved since the CR.)
+  ; Status : No change.
 
 ==== Issue 14 ====
   ; URL : http://www.w3.org/mid/42CE0010.9050500@tu-clausthal.de
@@ -132,7 +133,7 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Raised by : David Baron
   ; Summary : 'color: currentColor' transformation to 'inherit' shouldn't be at parse time
   ; Proposed resolution (dbaron) : edit as described (obviously)
-  ; Status : needs discussion.
+  ; Status : needs discussion.  Spec edited.
 
 ==== Issue 18 ====
   ; URL : http://www.w3.org/mid/78A3602ADF54BA4EAB53F378BF55588BB230D0@G3W0067.americas.hpqcorp.net http://www.w3.org/mid/1554581773.20070130144114@w3.org
@@ -146,7 +147,7 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Raised by : Patrick Garies
   ; Summary : Should clarify that SVG color keywords apply outside of SVG.
   ; Proposed resolution (dbaron) : edit as described (editorial)
-  ; Status : needs editing
+  ; Status : Spec edited.
   ; Tests : t43-svg-keywords-a
 
 ==== Issue 20 ====
@@ -162,7 +163,7 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Raised by : Tantek Çelik, David Latapie
   ; Summary : Issues with default style sheet for TOC
   ; Proposed resolution (dbaron) : editorial (if it still exists)
-  ; Status : needs testing whether it still exists
+  ; Status : Seems to be fixed by changes in our default style sheet since CR.
 
 
 ==== Issue 22 ====
