@@ -135,12 +135,13 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Proposed resolution (dbaron) : edit as described (obviously)
   ; Status : needs discussion.  Spec edited.
 
+
 ==== Issue 18 ====
   ; URL : http://www.w3.org/mid/78A3602ADF54BA4EAB53F378BF55588BB230D0@G3W0067.americas.hpqcorp.net http://www.w3.org/mid/1554581773.20070130144114@w3.org
   ; Raised by : Melinda Grant
   ; Summary : Should reference up to date version of ICC profile specification.
   ; Proposed resolution (dbaron) : edit as described (editorial)
-  ; Status : needs editing
+  ; Status : Spec edited.
 
 ==== Issue 19 ====
   ; URL : http://www.w3.org/mid/4681D29D.1090808@fastmail.us
