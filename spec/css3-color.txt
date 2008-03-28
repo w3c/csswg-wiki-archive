@@ -184,3 +184,9 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
 ==== Issue 24 ====
   ; Summary : verify that all recent CSS 2.1 changes have been incorporated
   ; Status : dbaron needs to go through the CSS 2.1 HTML diffs for the latest draft
+
+==== Issue 25 ====
+  ; URL : http://www.w3.org/mid/op.t7ykx2yg64w2qv@annevk-t60.oslo.opera.com
+  ; Raised by : Anne van Kesteren
+  ; Summary : supporting hsla() only on screen, not print (for example)
+  ; Status : Unknown
