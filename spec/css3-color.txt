@@ -190,3 +190,9 @@ The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-colo
   ; Raised by : Anne van Kesteren
   ; Summary : supporting hsla() only on screen, not print (for example)
   ; Status : Unknown
+
+==== Issue 26 ====
+  ; Summary : opacity should explain that it creates a new stacking context
+  ; Raised by : Anne van Kesteren
+  ; Status : Unknown
+  ; Tests : http://hixie.ch/tests/adhoc/css/model/stacking/opacity/001.html
