@@ -68,6 +68,7 @@ Example:
 @const  THEME-DEFAULT-FONT:  12pt arial, helvetica, sans-serif;
 </code>
 
+
 ==== Constant insertion. ====
 
 const insertion point may appear in attribute value production and is marked by '@' symbol immediately followed by the name of the constant:
@@ -81,6 +82,7 @@ const insertion point may appear in attribute value production and is marked by 
 </code>
 <note>
 Daniel Glazman prefer to use const(name) as a marker of constant insertion point.
+fantasai prefers to use some kind of punctuation that is not @ :)
 </note>
 
 ==== Undefined constant insertion. ====
