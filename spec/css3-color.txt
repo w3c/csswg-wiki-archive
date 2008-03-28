@@ -6,11 +6,12 @@ The [[http://www.w3.org/TR/css3-color/|css3-color specification]] defines color 
 
 
 
+
 ===== Current Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2003/CR-css3-color-20030514|14 May 2003 css3-color Candidate Recommendation]].
 
-See the [[http://www.w3.org/Style/CSS/Test/#css3-color released]] and [[http://dev.w3.org/CSS/css3-color-test-suite/src/ development]] versions of the test suite for the "Tests" references.
+See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://dev.w3.org/CSS/css3-color-test-suite/src/|development]] versions of the test suite for the "Tests" references.
 
 ==== Issue 1 ====
 
