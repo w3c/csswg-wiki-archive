@@ -19,13 +19,15 @@ Related e-mail thread: http://lists.w3.org/Archives/Public/www-style/2007Nov/thr
 What to do with the 'resolution' feature? See e-mail thread: http://lists.w3.org/Archives/Public/www-style/2007Jan/thread.html#msg63 Use cases, what if horizontal and vertical resolution differ, et cetera.
 
 
+
 ===== Issue 3 =====
 
-http://lists.w3.org/Archives/Public/www-style/2007Dec/0038.html
+RESOLVED http://lists.w3.org/Archives/Public/www-style/2007Dec/0038.html
 
-
-
-
+  * whitespace is as defined by CSS
+  * where whitespace is required and optional is clear in the syntax
+  * EOF handling is handled by "malformed media query" (we don't want style sheet EOF handling as you might get style sheets applying to the wrong device)
+  * HTML needs to deal with media="" and media=" " etc.
 
 ===== More Issues =====
 
