@@ -1,6 +1,9 @@
 ====== Media Queries Issues ======
 
+
 ===== Issue 1 =====
+
+RESOLVED. The draft addresses all of this now. You can use CSS escapes, however.
 
 The syntax for media queries needs some clarification:
 
