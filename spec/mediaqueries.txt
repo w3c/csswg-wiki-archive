@@ -35,7 +35,10 @@ RESOLVED http://lists.w3.org/Archives/Public/www-style/2007Dec/0038.html
   * RESOLVED http://lists.w3.org/Archives/Public/www-style/2007Nov/0212.html (grid no longer applies to aural)
   * http://lists.w3.org/Archives/Public/www-style/2007Nov/0209.html
 
+
 ====== Media Queries Syntax ======
+
+RESOLVED - syntax is now part of the draft.
 
 An idea based on the CSS 2.1 grammar:
 
