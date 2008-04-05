@@ -24,12 +24,12 @@ What to do with the 'resolution' feature? See e-mail thread: http://lists.w3.org
 http://lists.w3.org/Archives/Public/www-style/2007Dec/0038.html
 
 
+
 ===== More Issues =====
 
 http://lists.w3.org/Archives/Public/www-style/2007Dec/0005.html
 http://lists.w3.org/Archives/Public/www-style/2007Nov/0212.html
 http://lists.w3.org/Archives/Public/www-style/2007Nov/0209.html
-http://lists.w3.org/Archives/Public/www-style/2007Nov/0208.html
 
 ====== Media Queries Syntax ======
 
