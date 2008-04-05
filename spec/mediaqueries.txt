@@ -29,11 +29,17 @@ RESOLVED http://lists.w3.org/Archives/Public/www-style/2007Dec/0038.html
   * EOF handling is handled by "malformed media query" (we don't want style sheet EOF handling as you might get style sheets applying to the wrong device)
   * HTML needs to deal with media="" and media=" " etc.
 
+===== Issue 4 =====
+
+http://lists.w3.org/Archives/Public/www-style/2007Nov/0209.html
+
+Can you use a media feature with a media type for which it is not applicable? I vote yes. (I being Anne.)
+
+
 ===== More Issues =====
 
   * RESOLVED http://lists.w3.org/Archives/Public/www-style/2007Dec/0005.html (we now reference CSS 2.1)
   * RESOLVED http://lists.w3.org/Archives/Public/www-style/2007Nov/0212.html (grid no longer applies to aural)
-  * http://lists.w3.org/Archives/Public/www-style/2007Nov/0209.html
 
 
 ====== Media Queries Syntax ======
