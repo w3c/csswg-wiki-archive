@@ -299,12 +299,13 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 
 
 
+
 ==== Issue 32 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0544.html
   ;Summary : Is '@' not followed by a valid identifier parsed as an invalid at-rule or a generic invalid token?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0080.html (no change needed, except issue 24) plus http://lists.w3.org/Archives/Public/www-style/2008Mar/0353.html (ok, a change is needed)
-  ;Status : =WG= Discuss.
+  ;Status : Waiting for issue 24
 
 
 
