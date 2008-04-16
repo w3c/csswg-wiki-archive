@@ -205,13 +205,14 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 
 
 
+
 ==== Issue 22 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0140.html
   ;Summary : Unclear that "display: none" affects non-visual display.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0037.html
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 
 ==== Issue 23 ====
