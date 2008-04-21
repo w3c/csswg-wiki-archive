@@ -24,10 +24,12 @@ Once you have the pre-requisites set up,
 
 The finished tests will be in the newly-created ''dist'' directory.
 
-===== Harness Issues =====
 
-  * add flags for "continuous media specific test" and "paged media specific test"
+===== Build Script Issues =====
+
   * auto-add flags from meta to filename during build process
   * make sure build scripts add title to rel="help" links
   * check build instructions for Windows
   * generate HTML comments corresponding to requirements
+  * filter HTMLonly and XMLonly tests during test generation
+  * create flat-file database of test ID, title, flags, etc.
