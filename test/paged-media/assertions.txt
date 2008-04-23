@@ -142,6 +142,7 @@ The top-center margin box's margin edges are defined by a variable-width box cen
 
 
 
+
 <div class="tests">
 Tests:
 </div>
@@ -572,7 +573,8 @@ An @page rule consists of the keyword '@page', an  OPTIONAL page name followed w
 Tests:
 page-margin-000.xht, page-margin-001.xht, page-margin-002.xht, 
 page-margin-003.xht</div>
-
+</li>
+<li class="assertion">
 XXX Properties declared within the page context (and not within a margin box context) apply to the page box.
 : <blockquote><div>Properties for the page box are specified within the page context.</div></blockquote>
 
