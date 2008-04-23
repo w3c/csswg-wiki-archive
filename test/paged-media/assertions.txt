@@ -1,41 +1,4 @@
 <markdown>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>CSS3 Paged Media Test Assertions List</title>
-<style type="text/css">
-
-.assertion 
-{
-	color: black;
-	font-size: 14pt;
-	margin: 1em;
-}
-.assertion > .tests
-{
-	border-bottom: thin green solid;
-	padding-bottom: 1em;
-} 
-
-h2
-{
-	color: blue;
-}
-
-blockquote
-{
-	color: green;
-	font-size: 10pt;
-}
-
-.missing
-{
-	color: red;
-}
-</style>
-</head>
-<body>
-<div>
 
 <h2>CSS3 Paged Media Testable Assertions List</h2>
 
@@ -716,7 +679,7 @@ page-count-000.xht</div>
 </li>
 <li class="assertion">
 
-The 'color' property applies to the page box.
+The 'color' property specified on the page box inherits to the margin boxes.
 : <blockquote><div>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/colors.html#propdef-color">color</a></div></blockquote>
 
 <div class="tests">
@@ -726,7 +689,7 @@ Tests:
 </li>
 <li class="assertion">
 
-Font properties defined in CSS2.1 apply to the page box.
+Font properties defined in CSS2.1 when specified on the page box inherit to the margin boxes.
 : <blockquote><div>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/fonts.html">font properties</a></div></blockquote>
 
 <div class="tests">
@@ -736,7 +699,7 @@ Tests:
 </li>
 <li class="assertion">
 
-Text properties defined in CSS2.1 apply to the page box.
+Text properties defined in CSS2.1 when specified on the page box inherit to the margin boxes.
 : <blockquote><div>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/text.html">text properties</a></div></blockquote>
 
 <div class="tests">
