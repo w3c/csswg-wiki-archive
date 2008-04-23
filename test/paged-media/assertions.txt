@@ -133,6 +133,7 @@ Tests:
 The top-center margin box's margin edges are defined by a variable-width box centered horizontally between the page's left and right border edges and filling the top page margin between the top-left and top-right margin boxes.
 : <blockquote><div></div></blockquote>
 
+
 <div class="tests">
 Tests:
 </div>
@@ -269,8 +270,7 @@ Tests:
 
 </li>
 <li class="assertion">
-
-XXX Page layouts for documents using a left-to-right major writing direction have the earlier of the facing pages on the left.
+Page layouts for documents using a left-to-right major writing direction have the earlier of the facing pages on the left.
 : <blockquote><div></div></blockquote>
 
 <div class="tests">
@@ -279,8 +279,7 @@ Tests:
 
 </li>
 <li class="assertion">
-
-XXX Page layouts for documents using a right-to-left major writing direction have the ealier of the facing pages on the right.
+Page layouts for documents using a right-to-left major writing direction have the ealier of the facing pages on the right.
 : <blockquote><div></div></blockquote>
 
 <div class="tests">
@@ -1050,6 +1049,7 @@ If the top-center box is not empty or its computed width is not 'auto' then the 
 XX If the top-left box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
 : <blockquote><div>3. If a box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border are all 0.</div></blockquote>
 </li>
+
 <li class="assertion">
 
 XX If the top-center box is empty and its computed width is 'auto', then the used values of its left and right padding and left and right border width are all 0.
