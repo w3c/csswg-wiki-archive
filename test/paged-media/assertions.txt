@@ -138,6 +138,7 @@ The top-center margin box's margin edges are defined by a variable-width box cen
 
 
 
+
 <div class="tests">
 Tests:
 </div>
@@ -592,7 +593,7 @@ Tests:
 </li>
 <li class="assertion">
 
-XX The value 'auto' used as a page name must be treated as a syntax error.
+The value 'auto' used as a page name must be treated as a syntax error.
 : <blockquote><div>The value 'auto' may not be used as a page name and MUST be treated as a syntax error.</div></blockquote>
 
 <div class="tests">
@@ -710,7 +711,7 @@ page-count-000.xht</div>
 </li>
 <li class="assertion">
 
-XX The 'color' property applies to the page box.
+The 'color' property applies to the page box.
 : <blockquote><div>These properties can be used in the page context to style the content of margin boxes: ... <a href="http://www.w3.org/TR/CSS21/colors.html#propdef-color">color</a></div></blockquote>
 
 <div class="tests">
@@ -740,7 +741,7 @@ Tests:
 </li>
 <li class="assertion">
 
-XXX Margin boxes inherit inheritable properties from the page context.
+Margin boxes inherit inheritable properties from the page context.
 : <blockquote><div>That is, when set in the page context, the values become the initial values for the margin boxes.</div></blockquote>
 
 <div class="tests">
@@ -750,7 +751,7 @@ Tests:
 </li>
 <li class="assertion">
 
-XXX Properties other than those listed above are invalid within the page context.
+Properties other than those listed above are invalid within the page context.
 : <blockquote><div>Properties other than those listed above are invalid within the page context.</div></blockquote>
 
 <div class="tests">
@@ -840,7 +841,7 @@ Tests:
 </li>
 <li class="assertion">
 
-XXX Other properties are invalid within the margin context.
+Other properties are invalid within the margin context.
 : <blockquote><div></div></blockquote>
 
 <div class="tests">
