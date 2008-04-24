@@ -1549,7 +1549,7 @@ Page breaks may occur in the vertical margin between sibling block boxes (or row
 </li>
 <li class="assertion">
 
-XXX When a page break occurs in the vertical margin between block boxes (or rows in a table), it replaces any clearance and the used values of any adjoining margins are set to '0'.
+When a page break occurs in the vertical margin between sibling block boxes (or rows in a table), the used values of the adjoining ‘margin-bottom’ and ‘margin-top’ properties are set to ‘0’
 : <blockquote><div>In the vertical margin between block boxes (or rows in a table). When a page break occurs here, the computed values of the relevant  'margin-top' and 'margin-bottom'  properties are set to  '0'.</div></blockquote>
 </li>
 <li class="assertion">
