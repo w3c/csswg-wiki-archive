@@ -2,6 +2,12 @@
 
 [[wiki:DokuWiki]] supports some simple markup language, which tries to make the datafiles to be as readable as possible. This page contains all possible syntax you may use when editing the pages. Simply have a look at the source of this page by pressing the //Edit this page// button at the top or bottom of the page. If you want to try something, just use the [[playground:playground|playground]] page. The simpler markup is easily accessible via [[doku>wiki:quickbuttons|quickbuttons]], too.
 
+===== Markdown =====
+
+<markdown>
+This wiki supports [Markdown Extra](http://www.michelf.com/projects/php-markdown/extra/) sections, which are enclosed by <code>&lt;markdown></code> and <code>&lt;/markdown></code>. Markdown sections can't generate section edit links, **don't handle wiki links**, and don't trigger typographic substitution, but they are much better at handling lists and embedded HTML.
+</markdown>
+
 ===== Basic text formatting =====
 
 DokuWiki supports **bold**, //italic//, __underlined__ and ''monospaced'' texts. Of course you can **__//''combine''//__** all these.
