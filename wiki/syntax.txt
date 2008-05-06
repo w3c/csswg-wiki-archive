@@ -8,11 +8,12 @@
 This wiki supports [Markdown Extra](http://www.michelf.com/projects/php-markdown/extra/) sections, which are enclosed by <code>&lt;markdown></code> and <code>&lt;/markdown></code>. Markdown sections can't generate section edit links, **don't handle wiki links**, and don't trigger typographic substitution, but they are much better at handling lists and embedded HTML.
 </markdown>
 
+
 ===== Basic text formatting =====
 
-DokuWiki supports **bold**, //italic//, __underlined__ and ''monospaced'' texts. Of course you can **__//''combine''//__** all these.
+DokuWiki supports **strong**, //em// __underlined em__ and ''code'' texts. Of course you can **__//''combine''//__** all these.
 
-  DokuWiki supports **bold**, //italic//, __underlined__ and ''monospaced'' texts.
+  DokuWiki supports **strong**, //em// __underlined em__ and ''code'' texts.
   Of course you can **__//''combine''//__** all these.
 
 You can use <sub>subscript</sub> and <sup>superscript</sup>, too.
