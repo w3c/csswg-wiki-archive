@@ -1,9 +1,15 @@
 ====== PlayGround ======
 
+paragraph
+
 <note example>
   Example
 </note>
 
+  * list item
+
 <note tip>
   Tip
 </note>
+
+  ; term : definition
