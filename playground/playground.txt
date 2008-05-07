@@ -1,1 +1,9 @@
 ====== PlayGround ======
+
+<note example>
+  Example
+</note>
+
+<note tip>
+  Tip
+</note>
