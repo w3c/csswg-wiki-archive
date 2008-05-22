@@ -850,8 +850,7 @@ Tests:
 
 </li>
 <li class="assertion">
-
-XXX When applied to the page box, percentage values on the margin and padding properties are relative to the dimensions of the page box (defined by the 'size' property).
+When applied to the page box, percentage values on the margin and padding properties are relative to the dimensions of the page box (defined by the 'size' property).
 : <blockquote><div>Percentage values on the margin, padding and border properties are relative to the dimensions of the containing box (defined by the 'size'  property in the page context).</div></blockquote>
 
 <div class="tests">
