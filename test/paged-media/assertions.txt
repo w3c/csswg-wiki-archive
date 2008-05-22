@@ -1427,7 +1427,7 @@ The 'page-break-inside' property applies to block-level elements only.
 </li>
 <li class="assertion">
 
-The 'page-break-inside' property **is not** inherited.
+The 'page-break-inside' property is not inherited.
 : <blockquote><div>Inherited: yes</div></blockquote>
 </li>
 <li class="assertion">
