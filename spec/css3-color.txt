@@ -10,12 +10,10 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 
 ==== Issue 1 ====
 
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0083.html http://lists.w3.org/Archives/Public/www-svg/2007Sep/0033.html
-  ; Group response (and responses to it) : 
   ; Raised by : David Baron
   ; Summary : Should we remove unimplemented features?
   ; Resolution : drop features
-  ; Action : Needs information on whether they're really unimplemented.  **ACTION dbaron** (2007-10-09): post to www-style (and www-svg?) to propose deadline for removing unimplemented features.  Action complete.
+  ; Action : Needs information on whether they're really unimplemented.  **ACTION dbaron** (2007-10-09): post to www-style (and www-svg?) to propose deadline for removing unimplemented features.  Action http://lists.w3.org/Archives/Public/www-style/2007Sep/0083.html http://lists.w3.org/Archives/Public/www-svg/2007Sep/0033.html
   ; Status : Spec edited.
 
 ==== Issue 2 ====
