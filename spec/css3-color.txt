@@ -136,9 +136,9 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 
 ==== Issue 16 ====
   ; URL : http://www.w3.org/mid/4319B66D.3050601@splintered.co.uk http://www.w3.org/mid/431A4864.10205@earthlink.net http://www.w3.org/mid/4319B5FF.6040507@splintered.co.uk
+  ; Opposition: http://www.w3.org/mid/431CAB50.4040007@disruptive-innovations.com
   ; Group response (and responses to it) : http://lists.w3.org/Archives/Public/www-style/2008May/0123.html http://lists.w3.org/Archives/Public/www-style/2008May/0127.html http://lists.w3.org/Archives/Public/www-style/2008May/0140.html http://lists.w3.org/Archives/Public/www-style/2008May/0144.html http://lists.w3.org/Archives/Public/www-style/2008May/0206.html http://lists.w3.org/Archives/Public/www-style/2008May/0209.html
   ; NOTE NOTE NOTE : Significant feedback to response (although not outright rejection).
-  ; Opposition: http://www.w3.org/mid/431CAB50.4040007@disruptive-innovations.com
   ; Raised by : Patrick H. Lauke, Matthew Raymond
   ; Summary : System colors should not be deprecated
   ; Resolution : No change.
