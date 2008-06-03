@@ -207,7 +207,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 ==== Issue 24 ====
   ; Summary : verify that all recent CSS 2.1 changes have been incorporated
   ; Raised by : David Baron
-  ; Status : dbaron needs to go through the CSS 2.1 HTML diffs for the latest draft
+  ; Status : Done
 
 ==== Issue 25 ====
   ; URL : http://www.w3.org/mid/op.t7ykx2yg64w2qv@annevk-t60.oslo.opera.com
