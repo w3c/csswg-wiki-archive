@@ -136,7 +136,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 
 ==== Issue 16 ====
   ; URL : http://www.w3.org/mid/4319B66D.3050601@splintered.co.uk http://www.w3.org/mid/431A4864.10205@earthlink.net http://www.w3.org/mid/4319B5FF.6040507@splintered.co.uk
-  ; Opposition: http://www.w3.org/mid/431CAB50.4040007@disruptive-innovations.com
+  ; Opposition : http://www.w3.org/mid/431CAB50.4040007@disruptive-innovations.com
   ; Group response (and responses to it) : http://lists.w3.org/Archives/Public/www-style/2008May/0123.html http://lists.w3.org/Archives/Public/www-style/2008May/0127.html http://lists.w3.org/Archives/Public/www-style/2008May/0140.html http://lists.w3.org/Archives/Public/www-style/2008May/0144.html http://lists.w3.org/Archives/Public/www-style/2008May/0206.html http://lists.w3.org/Archives/Public/www-style/2008May/0209.html
   ; NOTE NOTE NOTE : Significant feedback to response (although not outright rejection).
   ; Raised by : Patrick H. Lauke, Matthew Raymond
@@ -190,7 +190,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 
 ==== Issue 22 ====
   ; URL : http://www.w3.org/mid/ur24h1t6fc4ihbgshjr4c99tii4oqkf8l4@hive.bjoern.hoehrmann.de http://www.w3.org/mid/200508291921.50980.bert@w3.org
-  ; Group response (and responses to it) : 
+  ; Group response (and responses to it) : http://lists.w3.org/Archives/Member/w3c-css-wg/2008AprJun/0183.html
   ; Raised by : Björn Höhrmann
   ; Summary : <alphavalue> and other productions need more formal grammar
   ; Resolution : no change (unless Björn has one to propose)
@@ -198,7 +198,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 
 ==== Issue 23 ====
   ; URL : http://www.w3.org/mid/17656.6114.793520.503206@gargle.gargle.HOWL http://www.w3.org/mid/200609011419.05309.bert@w3.org
-  ; Group response (and responses to it) : 
+  ; Group response (and responses to it) : http://lists.w3.org/Archives/Member/w3c-css-wg/2008AprJun/0184.html
   ; Raised by : Håkon Lie
   ; Summary : proprietary colors
   ; Resolution : reject, since it's too late for this version
