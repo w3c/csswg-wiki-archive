@@ -1,0 +1,14 @@
+====== Test Case Submissions ======
+
+Just experimenting for now. --fantasai
+
+---- datacloud ----
+field: status_tag
+min: 2
+limit: 20
+----
+
+---- datatable ----
+cols    : %pageid%, title, status_tag
+headers : Submission, Title, Status
+----
