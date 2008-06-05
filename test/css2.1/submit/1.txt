@@ -2,7 +2,8 @@
 
 ---- dataentry ----
 testcase_url    : http://www.example.com/test-topic-000.xht
-status_tag      : submitted
+status_tag      : Submitted
+# status tags are: Submitted, OutOfScope, Duplicate, NeedsWork, Accepted, CheckedIn
 ----
 
 ~~DISCUSSION~~
