@@ -9,6 +9,6 @@ limit: 20
 ----
 
 ---- datatable ----
-cols    : %pageid%, title, status_tag
-headers : Submission, Title, Status
+cols    : %pageid%, status_tag
+headers : Submission, Status
 ----
