@@ -2,9 +2,20 @@
 
 Just experimenting for now. --fantasai
 
-{{:test:css2.1:review-flowchart.png|}}
+To submit a test case, create a numbered page ''/test/css2.1/submit/N'' and paste in the following template, replacing the Test Title and URL as appropriate.
 
-Possible status tags are:
+<code>
+====== Test Title ======
+
+---- dataentry ----
+testcase_url    : http://www.example.com/test-topic-000.xht
+status_tag      : Submitted
+----
+
+~~DISCUSSION~~
+</code>
+
+Each test submission has a status. Possible status tags are:
 
   ; Submitted : The test case has been submitted (or resubmitted) for review
   ; OutOfScope : The test case is testing something that is out-of-scope for this module and is therefore rejected for inclusion.
@@ -12,6 +23,10 @@ Possible status tags are:
   ; NeedsWork : The test case needs further work before it is ready for inclusion, and should be resubmitted once the requested improvements have been made. (The reviewer setting this status must explain what problems the testcase has.)
   ; Accepted : The test case has passed review and is recommended for inclusion in the test suite.
   ; CheckedIn : The test case has been reviewed, accepted, and checked in. (The test case URL should be updated to match the official w3.org copy.)
+
+Test submissions are subject to the [[test:css2.1:review|review process]]. The reviewer should submit a comment with rationale whenever changing the test status. A typical review process is diagrammed below:
+
+{{:test:css2.1:review-flowchart.png|Review Process Diagram}}
 
 ---- datacloud ----
 field: status_tag
@@ -23,3 +38,4 @@ limit: 20
 cols    : %pageid%, status_tag
 headers : Submission, Status
 ----
+  
