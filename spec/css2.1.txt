@@ -371,3 +371,19 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : Adopt CSS3 Selectors wording
   ;Resolved : Proposal accepted
   ;Status : Closed.
+
+==== Issue 39 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Apr/0516.html
+  ;Summary : Canvas background bounds need clarification for paged media
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Apr/0516.html
+  ;Status : =WG= Discuss.
+
+
+==== Issue 40 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Apr/0516.html
+  ;Summary : Missing "tr{vertical-align:inherit}" in Appendix D
+  ;Proposal : Add tr {vertical-align:inherit} to Appendix D
+  ;Resolution : Proposal accepted.
+  ;Status : =Bert= Edit.
