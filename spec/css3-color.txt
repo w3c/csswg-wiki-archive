@@ -214,14 +214,14 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Group response (and responses to it) : http://lists.w3.org/Archives/Public/www-style/2008May/0139.html
   ; Raised by : Anne van Kesteren
   ; Summary : supporting hsla() only on screen, not print (for example)
-  ; Proposed resolution (dbaron) : no change
+  ; Resolution : no change
 
 ==== Issue 26 ====
   ; Summary : opacity should explain that it creates a new stacking context
   ; Group response (and responses to it) : http://lists.w3.org/Archives/Public/www-style/2008May/0145.html http://lists.w3.org/Archives/Public/www-style/2008May/0147.html http://lists.w3.org/Archives/Public/www-style/2008May/0154.html
   ; Raised by : Anne van Kesteren
   ; Status : Spec edited.
-  ; Proposed resolution (dbaron) : paragraph added to specification
+  ; Resolution : paragraph added to specification per http://lists.w3.org/Archives/Public/www-style/2008May/0147.html
   ; Tests : http://hixie.ch/tests/adhoc/css/model/stacking/opacity/001.html
 
 ==== Issue 27 ====
@@ -229,7 +229,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Raised by : Jacob Refstrup
   ; URL : http://lists.w3.org/Archives/Public/www-style/2003Jul/0210.html
   ; Group response (and responses to it) : http://lists.w3.org/Archives/Public/www-style/2008Jun/0000.html
-  ; Proposed resolution (dbaron) : no change
+  ; Resolution : no change
 
 ==== Issue 28 ====
   ; Summary : allow deg in hsl()/hsla()
