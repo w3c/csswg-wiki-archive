@@ -417,7 +417,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : page-break-inside should not inherit
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Apr/0018.html
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Run make and the following to errata page:
+  ;Status : =Bert= Run make on page.src and the following to errata page:
 
 <code>
 <!--========================== ISSUE-35a ==========================-->
