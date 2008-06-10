@@ -53,7 +53,7 @@ Currently the following people are Owners or Peers:
 
 ==== Junior Peers ====
 
-An Junior Peer is someone who has demonstrated a very strong understanding of the CSS specs and test methodology and an active commitment to working on the test suite but who hasn't quite racked up enough experience points to become a full test suite Peer. A Junior Peer usually has write access to the repository and may be allowed to review his own company's tests under the Owner's supervision.
+An Junior Peer is someone who has demonstrated a very strong understanding of the CSS specs and test methodology and an active commitment to working on the test suite but who hasn't quite racked up enough experience points to become a full test suite Peer. A Junior Peer usually has write access to the repository and may be allowed to review his own company's tests with the Owner's oversight.
 
 Currently the following people are Junior Peers:
 
