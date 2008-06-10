@@ -459,4 +459,5 @@ not just that of the breakpoint's parent.</p>
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0136.html
   ;Summary : HTML+CSS Grand Unified Theory of Whitespace
-  ;Status : =WG= Discuss.
+  ;Resolution : No change.
+  ;Status : Closed.
