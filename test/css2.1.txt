@@ -1,6 +1,6 @@
 ====== CSS 2.1 Test Suite =======
 
-The CSS2.1 Conformance Test Suite tests conformance to the [[http://www.w3.org/TR/CSS21/|CSS2.1 specification]]. It is currently in the earlier stages of development, and is very incomplete. Additionally, some tests may be invalid due to changes in the spec. The [[http://www.w3.org/Style/CSS/Test/CSS2.1/current/|latest version]] is available on the W3C website. The [[http://dev.w3.org/cvsweb/CSS/CSS2.1-test-suite/|source files]] are available on the dev.w3.org website. [[http://dev.w3.org/cvsweb/|Anonymous read-only CVS access]] is available to this repository. The [[http://www.hixie.ch/resources/fonts/|Ahem font]] which many of the tests rely on is available on hixie's web site.
+The CSS2.1 Conformance Test Suite tests conformance to the [[http://www.w3.org/TR/CSS21/|CSS2.1 specification]]. It is currently in the earlier stages of development, and is very incomplete. Additionally, some tests may be invalid due to changes in the spec. The [[http://www.w3.org/Style/CSS/Test/CSS2.1/current/|latest version]] is available on the W3C website. The [[http://dev.w3.org/cvsweb/CSS/CSS2.1-test-suite/|source files]] are available on the dev.w3.org website. [[http://dev.w3.org/cvsweb/|Anonymous read-only CVS access]] is available to this repository. Note that many of the tests rely on the [[http://dev.w3.org/CSS/fonts/ahem/|Ahem font]].
 
 Discussion about the CSS2.1 Test Suite takes place on the publicly-archived [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite@w3.org]] mailing list.
 
