@@ -474,3 +474,10 @@ not just that of the breakpoint's parent.</p>
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0151.html
   ;Summary : Clarify computed value of font-weight wrt bolder/lighter
   ;Status : =WG= Discuss.
+
+==== Issue 50 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0183.html
+  ;Summary : Add note from width def about padding box containing block for percentages to height definition.
+  ;Resolved : Editorial.
+  ;Status : =Bert= Edit or close no change.
