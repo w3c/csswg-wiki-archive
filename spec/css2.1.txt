@@ -229,7 +229,8 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Clarify where bracket/quote pairing is required for parsing invalid syntax. (Only in declaration blocks, or also in selectors/media queries/etc?)
   ;Testcase : http://fantasai.inkedblade.net/style/tests/ad-hoc/syntax/matching-brackets-000.xht
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008May/0252.html
-  ;Status : =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : =Bert= Edit.
 
 
 ==== Issue 25 ====
