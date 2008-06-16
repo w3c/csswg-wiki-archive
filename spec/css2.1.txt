@@ -479,5 +479,5 @@ not just that of the breakpoint's parent.</p>
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0183.html
   ;Summary : Add note from width def about padding box containing block for percentages to height definition.
-  ;Resolved : Editorial.
+  ;Resolved : Assumed editorial.
   ;Status : =Bert= Edit or close no change.
