@@ -1,5 +1,3 @@
-====== Put Test Case Title Here ======
-
 CSS3 Test Suite: Paged Media: image-orientation and scaling
 
 ---- dataentry ----
