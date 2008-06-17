@@ -4,7 +4,7 @@
 testcase_url    : http://savagecreek.net/CSS/Test/CSS3/Page/new/page-img-orient-001.xht
 authors         : Melinda Grant
 # Do not edit below this line
-status_tag      : Submitted
+status_tag      : NeedsWork
 ----
 
 ~~DISCUSSION~~
