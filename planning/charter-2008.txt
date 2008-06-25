@@ -82,14 +82,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Color Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : http://www.w3.org/TR/css3-color/
+  ; Advocate : David Baron
+  ; Description : This module expands the syntax for specifying colors in CSS and adds the ability to specify opacity.
+  ; Status : This module is currently a Candidate Recommendation, but is pending publication as a Last Call Working Draft, from which it is expected to advance to Proposed Recommendation.
+  ; Implementations : There are multiple implementations of this module.
+  ; Test Suite : The test suite is in the Beta phase: it is complete and will be published as a Release Candidate together with the upcoming LC.
+  ; Blocked by : Nothing.
+  ; Rationale : This module standardizes the SVG/X11 color keywords, adds hsl notation for easier color description, and adds opacity, which is a commonly-desired graphical effect in the design community.
 
 ===== CSS Extended Box Model Level 3 =====
 
