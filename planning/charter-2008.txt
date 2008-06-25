@@ -49,14 +49,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Animations =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Backgrounds and Borders Level 3 =====
 
@@ -71,14 +71,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Basic Box Model Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Color Level 3 =====
 
@@ -93,113 +93,113 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Extended Box Model Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Flexible Box =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Fonts Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Generated and Replaced Content Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Generated Content for Paged Media =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Grid Positioning =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Lists Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Marquee Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Mobile Profile 2.0 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Multi-column Layout =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Namespaces =====
 
@@ -214,165 +214,165 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Object Model Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Object Model View Module =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Paged Media Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Ruby =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Snapshot 2007 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Tables Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Template Layout =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Text Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Text Layout Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Transformations =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Transitions =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Values and Units Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== CSS Variables =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== Media Queries =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
 
 ===== Selectors Level 3 =====
 
-  ; Latest Working Draft : pasteURLhere
-  ; Advocate : Your Name Here
-  ; Description : Describe here what it is.
-  ; Status : Explain current status, expected next status, how big of a project it is.
-  ; Implementations : Explain current status and expectations.
-  ; Test Suite : Explain current and expected status, how big of a project it will be.
-  ; Blocked by : Explain anything that is blocking progress.
-  ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
