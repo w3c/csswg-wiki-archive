@@ -68,3 +68,312 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Test Suite : There is an Alpha-stage test suite being prepared. The test suite is a small project: less than 100 tests.
   ; Blocked by : Waiting for W3C Legal to finalize the new test suite licensing policy.
   ; Rationale : This spec is useful for using CSS with multi-namespace documents. It is needed by Selectors.
+
+===== Selectors Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Mobile Profile 2.0 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Color Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Variables =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== Media Queries =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Snapshot 2007 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Object Model View Module =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Paged Media Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Fonts Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Multi-column Layout =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Template Layout =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Ruby =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Animations =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Transitions =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Transformations =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Basic Box Model Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Values and Units Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Grid Positioning =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Marquee Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Generated and Replaced Content Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Object Model Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Tables Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Text Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Text Layout Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Generated Content for Paged Media =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Extended Box Model Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Lists Level 3 =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
+===== CSS Flexible Box =====
+
+  ; Latest Publication : 
+  ; Advocate : 
+  ; Description : 
+  ; Status : 
+  ; Implementations : 
+  ; Test Suite : 
+  ; Blocked by : 
+  ; Rationale : 
+
