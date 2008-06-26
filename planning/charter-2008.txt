@@ -239,7 +239,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Paged Media Level 3 =====
 
   ; Latest Working Draft : http://www.w3.org/TR/css3-page/ http://dev.w3.org/csswg/css3-page
-  ; Advocate : Elika Etemad
+  ; Advocate : Elika Etemad, Håkon Wium Lie
   ; Description : The CSS Paged Media module adds features for better printing, in particular the ability to add page borders and backgrounds, headers and footers, and orphans and widows controls.
   ; Status : The current status is Last Call Working Draft. The next draft (which should be published fairly soon) addresses numerous comments about various features being poorly defined. It is most likely to be another Last Call Working Draft.
   ; Implementations : Most features in the module have multiple implementations. However the level of interoperability is low and most implementations are buggy.
