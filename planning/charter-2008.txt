@@ -142,7 +142,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Advocate : Håkon Wium Lie
   ; Description : The WD describes advanced features necessary for printing web content to paper using traditional printing features.
   ; Status : The current WD needs an update to reflect implementation experience in Prince. The syntax will change slightly in some cases. 
-  ; Implementations : Prince has implemented a significant number of the features described, including: running headers and footers, leaders, cross-references, footnotes, hyphenation, character substitution, image resolution, page floats, crop and cross marks, bookmarks, and CMYK colors.
+  ; Implementations : [http://www.princexml.com/ Prince] has implemented a significant number of the features described, including: running headers and footers, leaders, cross-references, footnotes, hyphenation, character substitution, image resolution, page floats, crop and cross marks, bookmarks, and CMYK colors.
   ; Test Suite : FIXME 
   ; Blocked by : This WD isn't blocked, it will develop along with implementations. Having one more implementation would help progress.
   ; Rationale : This specification will ensure that web content can be printed. 
