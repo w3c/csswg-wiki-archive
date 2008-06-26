@@ -63,7 +63,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Latest Publication : http://www.w3.org/TR/css3-background/ http://dev.w3.org/csswg/css3-background/
   ; Advocate : Bert Bos, Elika Etemad
   ; Description : This draft contains the features of CSS level 3 relating to borders and backgrounds. It extends CSS2 with image borders, multiple backgrounds, rounded corners, and drop shadows.
-  ; Status : This specification is currently a Working Draft. The next expected publication is a Working Draft followed by a Last Call Working Draft. 
+  ; Status : This specification is currently a Working Draft in the Refining stage. The next expected publication is another Working Draft followed by a Last Call Working Draft. 
   ; Implementations : There is at least one implementation of most features in the draft, two of many, and more planned.
   ; Test Suite : The test suite has not been started. It should be a medium-size effort: around 1000 tests.
   ; Blocked by : Nothing currently: steady progress is being made. Resources for a formal test suite may become an issue later on.
