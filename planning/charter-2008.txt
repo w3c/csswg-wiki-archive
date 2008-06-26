@@ -194,14 +194,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Multi-column Layout =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-multicol-20070606
+  ; Advocate : Håkon Wium Lie
+  ; Description : The WD describes how to layout content in multiple columns.
+  ; Status : The WD has been in development since 1999. It now appears stable and seems ready to go to CR.
+  ; Implementations : There are three implementations, namely Gecko, Webkit and Prince. 
+  ; Test Suite : Some test pages exist, but more work is necessary.
+  ; Blocked by : The WD should progress to CR with little effort. 
+  ; Rationale : Multi-column layouts are important in printing and on wide screen. Describing multi-column layouts in CSS will allow HTML markup to be cleaner, which achieving more advanced presentation.
 
 ===== CSS Namespaces =====
 
