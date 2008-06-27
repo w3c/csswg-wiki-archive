@@ -172,14 +172,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Marquee Level 3 =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-box-20070809/#marquee
+  ; Advocate : Bert
+  ; Description : On handheld devices, when the overflow style is marquee, overflow may be handled by automatically scrolling the content back and forth wihout user intervention. The marquee properties determine the speed, style and direction of the movement.
+  ; Status : WD. Content is ready, but needs to be moved to its own module. Needs a last call and then CR.
+  ; Implementations : Mobile phones.
+  ; Test Suite : MWTS WG and OMA have tests. Not checked for completeness by CSS WG yet.
+  ; Blocked by : Nothing.
+  ; Rationale : Required by CSS Mobile Profile.
 
 ===== CSS Mobile Profile 2.0 =====
 
