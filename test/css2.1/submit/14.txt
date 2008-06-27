@@ -2,7 +2,7 @@
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page-mbox-011.xht
-authors         : Tom Clancu
+authors         : Tom Clancy
 status_tag      : Submitted
 # Do not edit below this line
 ----
