@@ -71,14 +71,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Basic Box Model Level 3 =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-box-20070809/
+  ; Advocate : Bert
+  ; Description : The Box Model describes the layout of block-level content in normal flow. When documents are laid out on visual media (e.g. screen or paper), CSS represents the elements of the document as rectangular boxes that are laid out one after the other or nested inside each other in an ordering that is called a flow. The flow can be horizontal (typical for most languages) or vertical (often used for Japanese & Chinese).
+  ; Status : WD as of August 2007. Generalizing the CSS2 model to vertical is complex: clear what it needs to be, difficult to right down clearly in English. Adding new keywords for intrinsic sizes is a somewhat easier task. Nearly all the text is already there, but has not been checked yet. Needs one or two more WDs.
+  ; Implementations : Many of horizontal boxes (i.e., level 2), none of vertical or mixed boxes.
+  ; Test Suite : Needs existing tests for width, height, margins, float and overflow from level 2 (around 120?), plus the same number again for vertical boxes, plus a few for mixed boxes.
+  ; Blocked by : Few people comment, because understanding the text is difficult, so is implementing
+  ; Rationale : Defines the size and stacking order of boxes (width, height, margins, floats) for vertical text, and is thus required for Text Layout.
 
 ===== CSS Color Level 3 =====
 
