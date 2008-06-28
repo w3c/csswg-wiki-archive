@@ -339,12 +339,12 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
   ; Latest Working Draft : http://www.w3.org/TR/2006/WD-css3-values-20060919
   ; Advocate : Håkon Wium Lie
-  ; Description : The draft describes value types and value processing in CSS3
-  ; Status : The current status is WD. As the other CSS3 drafts evolve, this WD will be updated to describe the values used in the other drafts. It therefore makes little sense to go to CR with this draft. Also, it makes little sense to stop working on this draft.
+  ; Description : The draft describes values and units used in CSS3. Most of the values and units are also part of CSS 2.1, but there is one advanced new value type (calc) and several new length units (gd, rem, vw, vh, vm, ch).
+  ; Status : The current status is WD. As the other CSS3 drafts evolve, this WD will be updated to describe the values used in the other drafts. It therefore makes little sense to go to CR with this draft in the short term. Also, it makes little sense to stop working on this draft.
   ; Implementations : All browsers implement the CSS 2.1 subset of this draft. 
   ; Test Suite : None
   ; Blocked by : None
-  ; Rationale : Values are a key part of CSS
+  ; Rationale : Values are a key part of CSS and they should be descrbed in a CSS3 specification. Further, the new fuctionality is much-requested by designers. 
 
 ===== CSS Variables =====
 
