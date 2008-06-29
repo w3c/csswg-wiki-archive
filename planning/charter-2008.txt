@@ -115,14 +115,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Fonts Level 3 =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : Håkon Wium Lie
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://dev.w3.org/csswg/css3-fonts/
+  ; Advocate : John Daggett, Jason Cranford Teague, Håkon Wium Lie
+  ; Description : This module defines how font properties work and describes downloadable font resources.
+  ; Status : Working Draft, currently being rewritten.
+  ; Implementations : Many implementations for general font properties, Safari and Prince for downloadable font resources.
+  ; Test Suite : Tests exist as part of the 2.1 test suite but a larger set are needed.
+  ; Blocked by : N/A
+  ; Rationale : Font properties are some of the most commonly used CSS properties.  Downloadable fonts would vastly improve typographic capabilities on the web.
 
 ===== CSS Generated and Replaced Content Level 3 =====
 
