@@ -293,14 +293,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Text Level 3 =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://www.w3.org/TR/css3-text/ http://dev.w3.org/csswg/css3-text/
+  ; Advocate : Elika Etemad, Paul Nelson
+  ; Description : The CSS3 Text module defines text-level styling such as text decoration, justification, indentation, spacing, and line breaking. It offers much more control than the properties available in CSS2.1.
+  ; Status : The module is currently a Working Draft, and being rewritten section by section. It's a medium-large project with lots of tricky i18n implications. The next publication will be a Working Draft.
+  ; Implementations : There are implementations of some of the properties in the draft, and planned implementations of a few more. However aside from the CSS2.1 subset, most of the module is not implemented.
+  ; Test Suite : The test suite is not started, and is expected to be a medium-large project with on the order of 1000 tests.
+  ; Blocked by : Paul and Elika are not able to work on this module this year.
+  ; Rationale : This module adds much finer controls for text effects and in particular it adds functionality needed for layout in non-European languages.
 
 ===== CSS Text Layout Level 3 =====
 
