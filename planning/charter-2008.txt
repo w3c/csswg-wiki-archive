@@ -260,14 +260,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Snapshot 2007 =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://www.w3.org/TR/css-beijing/
+  ; Advocate : Elika Etemad
+  ; Description : This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS).
+  ; Status : This publication is currently a Last Call Working Draft. It is waiting for CSS3 Color and Selectors to move to CR or PR before advancing to CR itself.
+  ; Implementations : Same as for CSS2.1, CSS3 Color, Selectors, and CSS Namespaces combined.
+  ; Test Suite : None needed.
+  ; Blocked by : Selectors Level 3 moving to either CR or PR.
+  ; Rationale : This publication puts the various stable CSS3 modules in context and explains how they fit together.
 
 ===== CSS Tables Level 3 =====
 
