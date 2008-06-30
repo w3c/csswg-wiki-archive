@@ -1,0 +1,380 @@
+====== CSS Working Group 2008 Charter Table of Specifications ======
+
+This page documents the items the CSSWG intends to work on. Some items will be listed as deliverables for the charter. Others will be merely in scope and can be worked on but not advanced through the Recommendation track unless the charter is amended to include them as a deliverable.
+
+Each module advocate needs to fill out the following information:
+
+<code>
+===== Specification Name =====
+
+  ; Latest Working Draft : pasteURLhere
+  ; Advocate : Your Name Here
+  ; Description : Describe here what it is.
+  ; Status : Explain current status, expected next status, how big of a project it is.
+  ; Implementations : Explain current status and expectations.
+  ; Test Suite : Explain current and expected status, how big of a project it will be.
+  ; Blocked by : Explain anything that is blocking progress.
+  ; Rationale : Explain why we want this, why it is important.
+
+</code>
+
+The CSSWG's [[http://www.w3.org/Style/CSS/current-work|current work page]] is a good starting point. fantasai's [[http://www.w3.org/blog/CSS/2007/11/01/css_recommendation_track|article on specification stages]] might be helpful for describing status. It defines the following stages:
+
+  ; Exploring : In this stage the spec is often incomplete, possibly changing greatly between drafts, and possibly including many features that will be dropped as the module matures.
+  ; Rewriting : Some modules enter this stage, where large parts of the spec are rewritten.
+  ; Refining : At this point the spec is mostly complete and the scope of its functionality is well-defined, but the spec still needs several cycles of publishing, review, and revision to uncover issues and resolve them.
+  ; Stabilizing : At this point the spec is almost stable enough for CR, but still needs some well-defined changes from e.g. last-call comments, or general minor polishing.
+  ; Call for Implementations : At this point the WG believes the specification to be complete and precise enough to be implemented, and by transitioning it into the CR status has issued a call for implementations and test cases. 
+  ; Recommended / Stable : Although the test suite and implementation reports may not be done yet and there may still be a few minor issues left, at this point the WG has enough implementation experience that it considers the spec ready for wide use.
+
+If your spec has a test suite, you can use these [[http://fantasai.inkedblade.net/style/csswg/redesign-2007/Test/|release phase definitions]] to describe its status, reproduced below:
+
+  ; Final : Test suite is complete with no known or suspected bugs. At least two implementations pass, and the specification has reached Recommendation status.
+  ; Release Candidate : Test suite is complete with no known or suspected bugs. At least one implementation passes almost all tests.
+  ; Beta : Test suite has complete coverage of the spec. It may have some bugs but is expected to be mostly reliable. At least one implementation passes a majority of the tests.
+  ; Alpha : Test suite has complete if not thorough coverage of the spec, but is expected to require some revision.
+  ; Pre-Alpha : Test suite is incomplete and/or known to contain bugs at time of publication.
+
+
+===== CSS 2.1 =====
+
+  ; Latest Publication : http://w3.org/TR/CSS21/
+  ; Advocate : CSS Working Group
+  ; Description : CSS2.1 defines CSS Level 2 and forms the basis of the CSS Level 3 specifications.
+  ; Status : CSS2.1 is currently a Candidate Recommendation. We are maintaining [[|errata]], a few of which are substantial but most of which are clarifications. We expect to publish a Last Call next followed shortly by another CR in order to incorporate the errata into the specification.
+  ; Implementations : All features in this specification are implemented by two or more implementations and they are mostly interoperable. However there are still areas of incompatibility as implementations have lots of bugs, and, in some cases, the spec is unclear or has errors.
+  ; Test Suite : The test suite is currently in Pre-Alpha. It is a very large project, currently has hundreds of tests, and is expected to contain on the order of ten thousand tests.
+  ; Blocked by : CSS2.1 is primarily blocked by the test suite and secondarily by implementations.
+  ; Rationale : This is the core specification of CSS. Without it CSS is not defined.
+
+===== CSS Animations =====
+
+  ; Latest Working Draft : http://webkit.org/specs/CSSVisualEffects/CSSAnimation.html
+  ; Advocate : David Hyatt, Dean Jackson, David Singer
+  ; Description : Exposes keyframed animation via CSS.
+  ; Status : Not yet published as a WD, although probably could be.
+  ; Implementations : Implemented in Safari on iPhone version 2.
+  ; Test Suite : None yet.
+  ; Blocked by : N/A.
+  ; Rationale : Animation is part of document style, and thus should be in the styling system.
+
+===== CSS Backgrounds and Borders Level 3 =====
+
+  ; Latest Publication : http://www.w3.org/TR/css3-background/ http://dev.w3.org/csswg/css3-background/
+  ; Advocate : Bert Bos, Elika Etemad
+  ; Description : This draft contains the features of CSS level 3 relating to borders and backgrounds. It extends CSS2 with image borders, multiple backgrounds, rounded corners, and drop shadows.
+  ; Status : This specification is currently a Working Draft in the Refining stage. The next expected publication is another Working Draft followed by a Last Call Working Draft. 
+  ; Implementations : There is at least one implementation of most features in the draft, two of many, and more planned.
+  ; Test Suite : The test suite has not been started. It should be a medium-size effort: around 1000 tests.
+  ; Blocked by : Nothing currently: steady progress is being made. Resources for a formal test suite may become an issue later on.
+  ; Rationale : Most of the CSS3 features designers are most excited about are in this module. It gives them much more graphical control with much less markup hacking.
+
+===== CSS Basic Box Model Level 3 =====
+
+  ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-box-20070809/
+  ; Advocate : Bert
+  ; Description : The Box Model describes the layout of block-level content in normal flow. When documents are laid out on visual media (e.g. screen or paper), CSS represents the elements of the document as rectangular boxes that are laid out one after the other or nested inside each other in an ordering that is called a flow. The flow can be horizontal (typical for most languages) or vertical (often used for Japanese & Chinese).
+  ; Status : WD as of August 2007. Generalizing the CSS2 model to vertical is complex: clear what it needs to be, difficult to write down clearly in English. Adding new keywords for intrinsic sizes is a somewhat easier task. Nearly all the text is already there, but has not been checked yet. Needs one or two more WDs.
+  ; Implementations : Many of horizontal boxes (i.e., level 2), none of vertical or mixed boxes.
+  ; Test Suite : Needs existing tests for width, height, margins, float and overflow from level 2 (over 1000), plus the same number again for vertical boxes, plus a few for mixed boxes.
+  ; Blocked by : Few people comment, because understanding the text is difficult, so is implementing
+  ; Rationale : Defines the size and stacking order of boxes (width, height, margins, floats) for vertical text, and is thus required for Text Layout.
+
+===== CSS Color Level 3 =====
+
+  ; Latest Working Draft : http://www.w3.org/TR/css3-color/
+  ; Advocate : David Baron
+  ; Description : This module expands the syntax for specifying colors in CSS and adds the ability to specify opacity.
+  ; Status : This module is currently a Candidate Recommendation, but is pending publication as a Last Call Working Draft, from which it is expected to advance to Proposed Recommendation.
+  ; Implementations : There are multiple implementations of this module.
+  ; Test Suite : The test suite is in the Beta phase: it is complete and will be published as a Release Candidate together with the upcoming LC.
+  ; Blocked by : Nothing.
+  ; Rationale : This module standardizes the SVG/X11 color keywords, adds hsl notation for easier color description, and adds opacity, which is a commonly-desired graphical effect in the design community.
+
+===== CSS Extended Box Model Level 3 =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Flexible Box =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Fonts Level 3 =====
+
+  ; Latest Working Draft : http://dev.w3.org/csswg/css3-fonts/
+  ; Advocate : John Daggett, Jason Cranford Teague, Håkon Wium Lie
+  ; Description : This module defines additional font features not included in CSS 2.1 (font-stretch) and a simplified specification of downloadable font resources (@font-face).
+  ; Status : Working Draft, currently being rewritten.
+  ; Implementations : No implementations for font-stretch, Safari and Prince support @font-face.
+  ; Test Suite : Tests for CSS3-specific features has not been started. It should be a medium-size effort: around 1000 tests.
+  ; Blocked by : N/A
+  ; Rationale : Font properties are some of the most commonly used CSS properties.  Downloadable fonts would vastly improve typographic capabilities on the web.
+
+===== CSS Generated and Replaced Content Level 3 =====
+
+
+  ; Latest Working Draft : http://www.w3.org/TR/2003/WD-css3-content-20030514/
+  ; Advocate : Giorgi Chavchanidze
+  ; Description :  Generated and replaced content module makes styling of pages more flexible, by providing mechanisms for adding/replacing content through CSS.
+  ; Status : Working draft
+  ; Implementations : Partial. Opera, Prince and Safari support content property on any element, Prince supports also named strings.
+  ; Test Suite : No test suite available at the moment.
+  ; Blocked by : 
+  ; Rationale :  Gives CSS more power and flexibility, allows to create rich layouts while keeping markup minimal and semantics oriented.
+
+===== CSS Generated Content for Paged Media =====
+
+  ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-gcpm-20070504
+  ; Advocate : Håkon Wium Lie
+  ; Description : The WD describes advanced features necessary for printing web content to paper using traditional printing features.
+  ; Status : The current WD needs an update to reflect implementation experience in Prince. The syntax will change slightly in some cases. 
+  ; Implementations : [[http://www.princexml.com/| Prince]] has implemented most of the features described, including: running headers and footers, leaders, cross-references, footnotes, hyphenation, character substitution, image resolution, page floats, crop and cross marks, bookmarks, and CMYK colors. Some experimental features towards the end of the draft are not yet ready for implementation.
+  ; Test Suite : Various independent tests have been developed, but no test suite has yet been assembled. 
+  ; Blocked by : This WD is being developed and is not blocked. It would be helpful to have more implementations of the features described. 
+  ; Rationale : This specification describes various functionality which is commonly used in paper-based publishing. Along with two other CSS3 modules – multi-column layout and paged media – this module offers advanced functionality for presenting structured documents on paged media.
+
+
+===== CSS Grid Positioning =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Lists Level 3 =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Marquee Level 3 =====
+
+  ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-box-20070809/#marquee
+  ; Advocate : Bert
+  ; Description : On handheld devices, when the overflow style is marquee, overflow may be handled by automatically scrolling the content back and forth wihout user intervention. The marquee properties determine the speed, style and direction of the movement.
+  ; Status : WD. Content is ready, but needs to be moved to its own module. Needs a last call and then CR.
+  ; Implementations : Mobile phones.
+  ; Test Suite : MWTS WG and OMA have tests. Not checked for completeness by CSS WG yet.
+  ; Blocked by : Nothing.
+  ; Rationale : Required by CSS Mobile Profile.
+
+===== CSS Mobile Profile 2.0 =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Multi-column Layout =====
+
+  ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-multicol-20070606
+  ; Advocate : Håkon Wium Lie
+  ; Description : The WD describes how to layout content in multiple columns.
+  ; Status : The WD has been in development since 1999. The features set of this specification is stable.
+  ; Implementations : There are three implementations, namely Gecko, Webkit and Prince. 
+  ; Test Suite : Some test pages exist, but more work is necessary.
+  ; Blocked by : There are some remainig comments which should be addressed in another WD. After that, LC and CR seems within reach.
+  ; Rationale : Multi-column layouts are important in printing and on wide screen. Describing multi-column layouts in CSS will allow HTML markup to be cleaner, which achieving more advanced presentation.
+
+===== CSS Namespaces =====
+
+  ; Latest Publication : http://www.w3.org/TR/css3-namespace/
+  ; Advocate : Elika Etemad, Anne van Kesteren
+  ; Description : CSS Namespaces defines syntax for representing namespaced-names in CSS.
+  ; Status : This spec is currently a Candidate Recommendation. The next publication is expected to be Proposed Recommendation. It's a very short spec.
+  ; Implementations : There have been multiple implementations for many years, and only two known points of non-interoperability: case-sensitivity and empty strings namespaces.
+  ; Test Suite : There is an Alpha-stage test suite being prepared. The test suite is a small project: less than 100 tests.
+  ; Blocked by : Waiting for W3C Legal to finalize the new test suite licensing policy.
+  ; Rationale : This spec is useful for using CSS with multi-namespace documents. It is needed by Selectors.
+
+===== CSS Object Model Level 3 =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Object Model View Module =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Paged Media Level 3 =====
+
+  ; Latest Working Draft : http://www.w3.org/TR/css3-page/ http://dev.w3.org/csswg/css3-page
+  ; Advocate : Elika Etemad, Håkon Wium Lie, Melinda Grant
+  ; Description : The CSS Paged Media module adds features for better printing, in particular the ability to add page borders and backgrounds, headers and footers, and orphans and widows controls. It also includes some key image styling controls.
+  ; Status : The current status is Last Call Working Draft. The next draft (which should be published fairly soon) provides many clarifications and one new requirement. The next expected step is another Last Call Working Draft, expected within a month or two.
+  ; Implementations : Most features in the module have multiple implementations. However the level of interoperability has not yet been assessed and may be low.
+  ; Test Suite : The test suite is a medium-size project. It is expected to contain on the order of 1000 tests. HP has dedicated resources to developing this test suite.
+  ; Blocked by : CSS 2.1. As the 2.1 dependency precludes completion any time soon, the module has added additional features and returned to WD. Those features are marked at risk. The module is making steady progress.
+  ; Rationale : This module is key to improving printing of the web.
+
+===== CSS Ruby =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Snapshot 2007 =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Tables Level 3 =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Template Layout =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Text Level 3 =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Text Layout Level 3 =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== CSS Transformations =====
+
+  ; Latest Working Draft : http://webkit.org/specs/CSSVisualEffects/CSSTransforms.html
+  ; Advocate : David Hyatt, Dean Jackson, David Singer
+  ; Description : Allows 2D/3D transforms for content styled with CSS.
+  ; Status : No WD published, although probably ready for first publication.
+  ; Implementations : Implemented in Safari 3.1 and greater, as well as Safari on iPhone 2.0.
+  ; Test Suite : No current test suite.
+  ; Blocked by : N/A.
+  ; Rationale : This functionality is available in SVG but not currently in CSS (without wrapping things in SVG, which has issues). This specification allows elements styled by CSS to be transformed.
+
+===== CSS Transitions =====
+
+  ; Latest Working Draft : http://webkit.org/specs/CSSVisualEffects/CSSTransitions.html
+  ; Advocate : David Hyatt, Dean Jackson, David Singer
+  ; Description : Provides an animated effect as property values change.
+  ; Status : No WD published, although probably ready for first publication.
+  ; Implementations : Implemented in Safari 3.1 and greater, as well as Safari on iPhone 2.0.
+  ; Test Suite : No current test suite.
+  ; Blocked by : N/A
+  ; Rationale : With very little cost and graceful degradation, transitions allow a much nicer UI - replicating a lot of effects that currently use script.
+
+===== CSS Values and Units Level 3 =====
+
+  ; Latest Working Draft : http://www.w3.org/TR/2006/WD-css3-values-20060919
+  ; Advocate : Håkon Wium Lie
+  ; Description : The draft describes values and units used in CSS3. Most of the values and units are also part of CSS 2.1, but there is one advanced new value type (calc) and several new length units (gd, rem, vw, vh, vm, ch).
+  ; Status : The current status is WD. As the other CSS3 drafts evolve, this WD will be updated to describe the values used in the other drafts. It therefore makes little sense to go to CR with this draft in the short term. Also, it makes little sense to stop working on this draft.
+  ; Implementations : All browsers implement the CSS 2.1 subset of this draft. 
+  ; Test Suite : None
+  ; Blocked by : None
+  ; Rationale : Values are a key part of CSS and they should be descrbed in a CSS3 specification. Further, the new fuctionality is much-requested by designers. 
+
+===== CSS Variables =====
+
+  ; Latest Working Draft : FIXME pasteURLhere
+  ; Advocate : FIXME Your Name Here
+  ; Description : FIXME Describe here what it is.
+  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
+  ; Implementations : FIXME Explain current status and expectations.
+  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
+  ; Blocked by : FIXME Explain anything that is blocking progress.
+  ; Rationale : FIXME Explain why we want this, why it is important.
+
+===== Media Queries =====
+
+  ; Latest Working Draft : http://dev.w3.org/csswg/css3-mediaqueries/
+  ; Advocate : Anne van Kesteren, Håkon Wium Lie
+  ; Description : Media Queries allow style sheets to be targeted to certain devices having certain features
+  ; Status : Currently CR draft. Expected to become LCWD soon to fix some issues. Has been relatively stable for over six years so not much work.
+  ; Implementations : Implementations in Safari and Opera. Mozilla is working on it.
+  ; Test Suite : Various independent test suites already available.
+  ; Blocked by : Various small issues being raised on the mailing list.
+  ; Rationale : Nearing three implementations. Important to have with the device world we have so you can apply style sheets based on properties of the device. Infrastructure part of CSS so important to stabalize.
+
+===== Selectors Level 3 =====
+
+  ; Latest Working Draft : http://www.w3.org/TR/css3-selectors/
+  ; Advocate : Daniel Glazman
+  ; Description : This module describes the matching mechanism used in CSS to apply style rules to given elements in a document tree.
+  ; Status : Selectors are back to WD after a 2001 CR. The document should be able to move again along the REC track at fast pace.
+  ; Implementations : Selectors are widely implemented in all modern browsers. Firefox and Opera both have a superb Selectors implementation. IE is a bit behind but not far away. Getting interoperable implems for each feature should not be a problem.
+  ; Test Suite : [[http://www.w3.org/Style/CSS/Test/#css3-selectors|The Test Suite]] was authored with the specification, and continuously improved. One issue though : it's probably too big and tries to cover too many cases (for instance :hover applied to XML inside an HTML4 iframe!!!), slowing down implementation reports.
+  ; Blocked by : We need up-to-date implementation reports.
+  ; Rationale : This spec is mandatory not for the future of CSS but for its present... It's already widely implemented but never reached REC.
