@@ -350,12 +350,12 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
   ; Latest Working Draft : http://disruptive-innovations.com/zoo/cssvariables/
   ; Advocate : Daniel Glazman, David Hyatt
-  ; Description : CSS Variables proposes to add blocks of variables definitions to CSS and extend the values of all properties to a call to these variables through the new functional notation var(). This feature was a top request from the Web Designer's community and received very positive feedback.
+  ; Description : CSS Variables proposes to add blocks of variables definitions to CSS and extend the values of all properties to a call to these variables through the new functional notation var(). This feature was a top request from Web Designers and received very positive feedback.
   ; Status : Editor's draft only for the time being. We're progressing at fast pace towards a FPWD, mostly because Apple is implementing this spec in real time. Given the positive feedback from the public, editors expect a least another browser implementation that should allow us to move along the REC track in the charter's timeframe.
-  ; Implementations : Safari already implements this spec in nightly builds and next official version will ship with it.
+  ; Implementations : WebKit already implements this spec in nightly builds and next official version will ship with it.
   ; Test Suite : None for the time being.
   ; Blocked by : No blocker.
-  ; Rationale : This is spec is important for the Web Designers' community because it allows drastically simplifying stylesheets making a call to a single variable instead of specifying - and possibly modifying - the same value multiple times. It's also important for corporate usage of a common "communication charter" across a company, for instance specifying a single set of CSS Variables in a single location to be reused by all web sites in the company.
+  ; Rationale : This is spec is important for Web Designers because it allows drastically simplifying stylesheets making a call to a single variable instead of specifying - and possibly modifying - the same value multiple times. It's also important for corporate usage of a common "communication charter" across a company, for instance specifying a single set of CSS Variables in a single location to be reused by all web sites in the company.
 
 ===== Media Queries =====
 
