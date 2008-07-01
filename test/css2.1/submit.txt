@@ -10,10 +10,11 @@ Test submissions are subject to the [[test:css2.1:review|review process]]. A tes
 
 Each test submitted into this system has a status. Possible status tags are:
 
-  ; Submitted : The test case has been submitted (or resubmitted) for review
+  ; Submitted : The test case has been submitted for review
   ; OutOfScope : The test case is testing something that is out-of-scope for this module and is therefore rejected for inclusion.
   ; Duplicate : The test case is a duplicate of an existing test case in the test suite and is therefore rejected for inclusion
   ; NeedsWork : The test case needs further work before it is ready for inclusion, and should be resubmitted once the requested improvements have been made. (The reviewer setting this status must explain what problems the testcase has.)
+  ; Resubmitted : The test case has been resubmitted for review after previous review comments have been addressed.
   ; Accepted : The test case has passed review and is recommended for inclusion in the test suite.
   ; Approved : The test case has been approved by a test suite Peer. Someone with write access needs to check it in.
   ; CheckedIn : The test case has been reviewed, approved, and checked in. (The test case URL should be updated to match the official w3.org copy.)
