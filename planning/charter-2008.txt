@@ -155,7 +155,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Description : This module describes grid based layout for CSS
   ; Status : Current status: WD. Expected: last call or CR.
   ; Implementations : None
-  ; Test Suite : No test suite.
+  ; Test Suite : No test created yet. 1000-1500 cases probably needed. Large
   ; Blocked by : SaloniR will begin work on refining this spec later this year.
   ; Rationale : It enables grid based layout, a common technique for publications, on the web.
 
