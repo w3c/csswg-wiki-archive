@@ -271,14 +271,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Tables Level 3 =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://dev.w3.org/csswg/css3-tables-algorithms/Overview.src.htm
+  ; Advocate : Saloni Mira Rai [MSFT]
+  ; Description : This module covers table layout algorithms that were previously undefined in CSS 2.1
+  ; Status :  Current: editor's draft. Expected: Last call or CR
+  ; Implementations : Partial implementation in IE8 Beta 1
+  ; Test Suite : None
+  ; Blocked by : SaloniR will begin working actively on this later this year
+  ; Rationale : This defines a table layout algorithm which is ambiguous in CSS 2.1. It is meant to unify future implementations.
 
 ===== CSS Template Layout =====
 
