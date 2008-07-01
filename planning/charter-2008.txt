@@ -150,14 +150,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Grid Positioning =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://www.w3.org/TR/css3-grid/
+  ; Advocate : Saloni Mira Rai [Microsoft]
+  ; Description : This module describes grid based layout for CSS
+  ; Status : Current status: WD. Expected: last call or CR.
+  ; Implementations : None
+  ; Test Suite : No test suite.
+  ; Blocked by : SaloniR will begin work on refining this spec later this year.
+  ; Rationale : It enables grid based layout, a common technique for publications, on the web.
 
 ===== CSS Lists Level 3 =====
 
