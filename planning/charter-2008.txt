@@ -153,7 +153,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Latest Working Draft : http://www.w3.org/TR/css3-grid/
   ; Advocate : Saloni Mira Rai [Microsoft]
   ; Description : This module describes grid based layout for CSS
-  ; Status : Current status: WD. Expected: last call or CR.
+  ; Status : Current status: WD. Spec will be "refined". Expected: CR.
   ; Implementations : None
   ; Test Suite : No test created yet. 1000-1500 cases probably needed. Large
   ; Blocked by : SaloniR will begin work on refining this spec later this year.
