@@ -254,7 +254,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Description : This module describes properties for layout of Ruby elements (short runs of text usually used in East Asian text to indicate pronunciation or short annotation).
   ; Status : CR
   ; Implementations : None
-  ; Test Suite : None
+  ; Test Suite : None. Probably 300-500 cases needed. Medium
   ; Blocked by : N/a
   ; Rationale : This is important for East Asian text.
 
