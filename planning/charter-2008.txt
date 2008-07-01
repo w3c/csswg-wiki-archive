@@ -305,12 +305,12 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Text Layout Level 3 =====
 
   ; Latest Working Draft : None, based off http://www.w3.org/TR/2003/CR-css3-text-20030514/
-  ; Advocate : Paul Nelson, Elika Etemad
+  ; Advocate : <del>Paul Nelson</del> Sylvain Galineau [MSFT], Elika Etemad
   ; Description : This module defines controls for vertical text layout and for text grid layout.
   ; Status : There is no published Working Draft: the functionality is described in the May 2003 CSS3 Text CR, but many sections need to be rewritten.
   ; Implementations : MSIE has implemented vertical text layout.
   ; Test Suite : There is no test suite. Assuming the Box Model module handles the box model tests for vertical layout, the test suite should be a medium-size effort, around 1000 tests or less.
-  ; Blocked by : CSS Box Model Level 3; also Paul and Elika do not have time to work on this module this year.
+  ; Blocked by : CSS Box Model Level 3; also Paul and Elika do not have time to work on this module this year. Sylvain will be able to pick this up later this year.
   ; Rationale : This module is needed for traditional East Asian typographic layout.
 
 ===== CSS Transformations =====
