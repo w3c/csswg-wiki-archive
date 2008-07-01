@@ -195,7 +195,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Multi-column Layout =====
 
   ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-multicol-20070606
-  ; Advocate : Håkon Wium Lie
+  ; Advocate : Håkon Wium Lie, Saloni Mira Rai [MSFT]
   ; Description : The WD describes how to layout content in multiple columns.
   ; Status : The WD has been in development since 1999. The features set of this specification is stable.
   ; Implementations : There are three implementations, namely Gecko, Webkit and Prince. 
@@ -249,14 +249,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Ruby =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://www.w3.org/TR/css3-ruby
+  ; Advocate : Sylvain Galineau [MSFT]
+  ; Description : This module describes properties for layout of Ruby elements (short runs of text usually used in East Asian text to indicate pronunciation or short annotation).
+  ; Status : CR
+  ; Implementations : None
+  ; Test Suite : None
+  ; Blocked by : N/a
+  ; Rationale : This is important for East Asian text.
 
 ===== CSS Snapshot 2007 =====
 
