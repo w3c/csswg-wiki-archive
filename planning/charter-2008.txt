@@ -155,7 +155,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Description : This module describes grid based layout for CSS
   ; Status : Current status: WD. Expected: last call or CR.
   ; Implementations : None
-  ; Test Suite : No test suite.
+  ; Test Suite : No test created yet. 1000-1500 cases probably needed. Large
   ; Blocked by : SaloniR will begin work on refining this spec later this year.
   ; Rationale : It enables grid based layout, a common technique for publications, on the web.
 
@@ -294,23 +294,23 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Text Level 3 =====
 
   ; Latest Working Draft : http://www.w3.org/TR/css3-text/ http://dev.w3.org/csswg/css3-text/
-  ; Advocate : Elika Etemad, Paul Nelson
+  ; Advocate : Elika Etemad, <del>Paul Nelson</del>, Sylvain Galineau [MSFT]
   ; Description : The CSS3 Text module defines text-level styling such as text decoration, justification, indentation, spacing, and line breaking. It offers much more control than the properties available in CSS2.1.
   ; Status : The module is currently a Working Draft, and being rewritten section by section. It's a medium-large project with lots of tricky i18n implications. The next publication will be a Working Draft.
   ; Implementations : There are implementations of some of the properties in the draft, and planned implementations of a few more. However aside from the CSS2.1 subset, most of the module is not implemented.
   ; Test Suite : The test suite is not started, and is expected to be a medium-large project with on the order of 1000 tests.
-  ; Blocked by : Paul and Elika are not able to work on this module this year.
+  ; Blocked by : Paul and Elika are not able to work on this module this year. HOWEVER, Sylvain will be abe to make progress later this year.
   ; Rationale : This module adds much finer controls for text effects and in particular it adds functionality needed for layout in non-European languages.
 
 ===== CSS Text Layout Level 3 =====
 
   ; Latest Working Draft : None, based off http://www.w3.org/TR/2003/CR-css3-text-20030514/
-  ; Advocate : Paul Nelson, Elika Etemad
+  ; Advocate : <del>Paul Nelson</del> Sylvain Galineau [MSFT], Elika Etemad
   ; Description : This module defines controls for vertical text layout and for text grid layout.
   ; Status : There is no published Working Draft: the functionality is described in the May 2003 CSS3 Text CR, but many sections need to be rewritten.
   ; Implementations : MSIE has implemented vertical text layout.
   ; Test Suite : There is no test suite. Assuming the Box Model module handles the box model tests for vertical layout, the test suite should be a medium-size effort, around 1000 tests or less.
-  ; Blocked by : CSS Box Model Level 3; also Paul and Elika do not have time to work on this module this year.
+  ; Blocked by : CSS Box Model Level 3; also Paul and Elika do not have time to work on this module this year. Sylvain will be able to pick this up later this year.
   ; Rationale : This module is needed for traditional East Asian typographic layout.
 
 ===== CSS Transformations =====
