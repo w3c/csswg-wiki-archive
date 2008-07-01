@@ -276,7 +276,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Description : This module covers table layout algorithms that were previously undefined in CSS 2.1
   ; Status :  Current: editor's draft. Expected: Last call or CR
   ; Implementations : Partial implementation in IE8 Beta 1
-  ; Test Suite : None
+  ; Test Suite : None. About 2000-3000 tests probably needed. Xlarge
   ; Blocked by : SaloniR will begin working actively on this later this year
   ; Rationale : This defines a table layout algorithm which is ambiguous in CSS 2.1. It is meant to unify future implementations.
 
