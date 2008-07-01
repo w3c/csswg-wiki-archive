@@ -497,10 +497,3 @@ not just that of the breakpoint's parent.</p>
   ;Summary : Should page-break-* apply to <BR> ?
   ;Proposal : No change.
   ;Status : =WG= Discuss.
-
-==== Issue 53 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2004Oct/0057.html
-  ;Summary : Should page-break-* apply to internal table elements?
-  ;Proposal : Apply page-break-before/after to table-row-groups and table-rows, page-break-inside to table-row-groups, table-rows, and table-cells. (This should be allowed in CSS3 if not in CSS2.)
-  ;Status : =WG= Discuss.
