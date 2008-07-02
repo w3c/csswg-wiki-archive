@@ -225,16 +225,16 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Blocked by : FIXME Explain anything that is blocking progress.
   ; Rationale : FIXME Explain why we want this, why it is important.
 
-===== CSS Object Model View Module =====
+===== CSSOM View Module =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://dev.w3.org/csswg/cssom-view/
+  ; Advocate : Anne van Kesteren
+  ; Description : API for accessing rendering information.
+  ; Status : Almost ready for Last Call. (offset* attributes need some further consideration.)
+  ; Implementations : Everyone has non-interoperable implementations of most of the features. Some features are new and not yet widely adopted. (There's interest for all features though.)
+  ; Test Suite : There are only a few tests scattered around. It probably takes a few weeks to get a good test suite for this specification.
+  ; Blocked by : Figuring out what to do with the offset* attributes.
+  ; Rationale : Every browser implements this in one way or another. To make the Web platform more stable and allow for competition it is important that it is defined and that implementations converge.
 
 ===== CSS Paged Media Level 3 =====
 
