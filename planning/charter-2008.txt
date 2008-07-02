@@ -355,7 +355,8 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Implementations : WebKit already implements this spec in nightly builds and next official version will ship with it.
   ; Test Suite : None for the time being.
   ; Blocked by : No blocker.
-  ; Rationale : This is spec is important for Web Designers because it allows drastically simplifying stylesheets making a call to a single variable instead of specifying - and possibly modifying - the same value multiple times. It's also important for corporate usage of a common "communication charter" across a company, for instance specifying a single set of CSS Variables in a single location to be reused by all web sites in the company.
+  ; Rationale : This is spec is important for Web Designers because it allows drastically simplifying stylesheets making a call to a single variable instead of specifying - and possibly modifying - the same value multiple times. It's also important for corporate usage of a common "communication charter" across a company, for instance specifying a single set of CSS Variables in a single location to be reused by all web sites in the company.\\ \\
+Comments from Bert Bos "I think any form of macros or additional scopes and indirections, including symbolic constants, is not just redundant, but changes CSS in ways that make it unsuitable for its intended audience. This must not be added until there is a viable alternative to CSS (and maybe not even then)."
 
 ===== Media Queries =====
 
