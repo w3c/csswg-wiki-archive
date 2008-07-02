@@ -174,7 +174,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
   ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-box-20070809/#marquee
   ; Advocate : Bert
-  ; Description : On handheld devices, when the overflow style is marquee, overflow may be handled by automatically scrolling the content back and forth wihout user intervention. The marquee properties determine the speed, style and direction of the movement.
+  ; Description : On handheld devices, when the overflow style is marquee, overflow may be handled by automatically scrolling the content back and forth without user intervention. The marquee properties determine the speed, style and direction of the movement.
   ; Status : WD. Content is ready, but needs to be moved to its own module. Needs a last call and then CR.
   ; Implementations : Mobile phones.
   ; Test Suite : MWTS WG and OMA have tests. Not checked for completeness by CSS WG yet.
