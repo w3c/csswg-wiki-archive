@@ -322,7 +322,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Implementations : Implemented in Safari 3.1 and greater, as well as Safari on iPhone 2.0. Mozilla is also currently implementing it.
   ; Test Suite : No current test suite.
   ; Blocked by : N/A.
-  ; Rationale : This functionality is available in SVG but not currently in CSS (without wrapping things in SVG, which has issues). This specification allows elements styled by CSS to be transformed.
+  ; Rationale : This functionality is available in SVG but not currently in CSS (without wrapping things in SVG, which has issues, in particular in the case of HTML 4). This specification allows elements styled by CSS to be transformed.
 
 ===== CSS Transitions =====
 
