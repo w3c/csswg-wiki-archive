@@ -183,14 +183,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Mobile Profile 2.0 =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css-mobile-20071019/
+  ; Advocate : Svante (editor)
+  ; Description : Defines a subset of CSS 2.1 as a baseline for interoperability between constrained devices (e.g. mobile phones). This specification aligns itself as much as possible with the OMA's Wireless CSS 1.1 specification.
+  ; Status : Last Call is over without any issues left, CR publication request is currently in front of the Director.
+  ; Implementations : Many, except for marquee, which is only implemented on mobile phones.
+  ; Test Suite : A test suite from OMA is available, but has not been published on the W3C site yet.
+  ; Blocked by : nothing
+  ; Rationale : Eases the task of designers for handheld devices and harmonizes W3C and OMA recommendations.
 
 ===== CSS Multi-column Layout =====
 
