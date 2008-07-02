@@ -282,14 +282,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Template Layout =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-layout-20070809/
+  ; Advocate : Bert
+  ; Description : Allows placing elements in arbitrary order on a predefined grid.
+  ; Status : The next WD will drop the unstable (and independent) sections on "deck of cards" displays and row/column layouts of flexible boxes. The remaining template layout is then probably ready for last call. An extension to non-rectangular regions may be attempted in a few years.
+  ; Implementations : None
+  ; Test Suite : None yet, requires a few hundred to a thousand tests.
+  ; Blocked by : nothing
+  ; Rationale : Templates fix the problem that absolute positioning in level 2 can't handle cases where elements of unknown sizes must be aligned to each other. The module furthermore allows designers who work from a "design grid" to transfer that grid almost 1-to-1 into CSS (and vice-versa).
 
 ===== CSS Text Level 3 =====
 
