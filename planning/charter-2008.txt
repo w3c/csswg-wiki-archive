@@ -214,16 +214,16 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Blocked by : Waiting for W3C Legal to finalize the new test suite licensing policy.
   ; Rationale : This spec is useful for using CSS with multi-namespace documents. It is needed by Selectors.
 
-===== CSS Object Model Level 3 =====
+===== Cascading Style Sheets Object Model (CSSOM) =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://dev.w3.org/csswg/cssom/
+  ; Advocate : Anne van Kesteren
+  ; Description : API for CSS style sheets and alternate style sheets.
+  ; Status : Large project. Lots of details not figured out yet.
+  ; Implementations : There are various implementations that are interoperable to some degree. (Though not in the details.)
+  ; Test Suite : I don't think much has been done here though features defined in the spec are based on testing browsers so there are some. (Though a lot adhoc and not that useful.)
+  ; Blocked by : Lack of time.
+  ; Rationale : Everyone implements this with differences that cause QA cost, more work for new players entering the market, more work for developers working with the CSSOM etc.
 
 ===== CSSOM View Module =====
 
