@@ -274,7 +274,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Latest Working Draft : http://dev.w3.org/csswg/css3-tables-algorithms/Overview.src.htm
   ; Advocate : Saloni Mira Rai [MSFT]
   ; Description : This module covers table layout algorithms that were previously undefined in CSS 2.1
-  ; Status :  Current: editor's draft. Expected: Last call or CR
+  ; Status :  Current status is Editor's Draft. It needs further inter-op review but scope and funtionality is pretty well defined. Expected status is Working Draft and then hopefully to last call within this charter period.
   ; Implementations : Partial implementation in IE8 Beta 1
   ; Test Suite : None. About 2000-3000 tests probably needed. Xlarge
   ; Blocked by : SaloniR will begin working actively on this later this year
