@@ -3,8 +3,13 @@
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page-mbox-018.xht
 authors         : Tom Clancy
-status_tag      : Submitted
+status_tag      : NeedsWork
 # Do not edit below this line
 ----
 
 ~~DISCUSSION~~
+
+Title needs a bit more detail; how about "CSS Test: mbox - bottom-left/right width"?  Or is mbox too cryptic?
+
+Lose the http-equiv meta.
+
