@@ -161,14 +161,14 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS Lists Level 3 =====
 
-  ; Latest Working Draft : FIXME pasteURLhere
-  ; Advocate : FIXME Your Name Here
-  ; Description : FIXME Describe here what it is.
-  ; Status : FIXME Explain current status, expected next status, how big of a project it is.
-  ; Implementations : FIXME Explain current status and expectations.
-  ; Test Suite : FIXME Explain current and expected status, how big of a project it will be.
-  ; Blocked by : FIXME Explain anything that is blocking progress.
-  ; Rationale : FIXME Explain why we want this, why it is important.
+  ; Latest Working Draft : http://www.w3.org/TR/2002/WD-css3-lists-20021107/
+  ; Advocate : none
+  ; Description : Describes the position and content of list markers, including the shape of bullets and the numbering schemes (digital, roman, alphabet-based, etc.)
+  ; Status : Needs some refining and especially reviews from experts in various typographic traditions
+  ; Implementations : None for any of the level 3 features
+  ; Test Suite : About a hundred separate styles, with an estimated ten tests per style, requires at least 1000 tests. None exist yet.
+  ; Blocked by : Lack of editor
+  ; Rationale : Although bullets and decimal numbers are the most common labels for lists, there exist many others.
 
 ===== CSS Marquee Level 3 =====
 
