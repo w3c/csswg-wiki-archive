@@ -341,7 +341,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 ==== Issue 35 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0432.html http://lists.w3.org/Archives/Public/www-style/2008Mar/0026.html
-  ;Summary : Allow absolutely replaced elements to stretch to fit left/right top/bottom constraints
+  ;Summary : Allow absolutely positioned replaced elements to stretch to fit left/right top/bottom constraints
   ;Testcases : http://fantasai.inkedblade.net/style/tests/issues/abspos-replaced-intrinsic-size http://fantasai.inkedblade.net/style/tests/issues/abspos-replaced-intrinsic-ratio   http://fantasai.inkedblade.net/style/tests/issues/abspos-replaced-intrinsic-unsized 
   ;Test Results : http://lists.w3.org/Archives/Public/www-style/2008Feb/0204.html http://lists.w3.org/Archives/Public/www-style/2008Feb/0194.html 
   ;Status : =WG= Discuss.
