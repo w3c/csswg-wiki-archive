@@ -1,0 +1,10 @@
+====== CSS Test: Using named pages - 'page' property only applies to block-level elements ======
+
+---- dataentry ----
+testcase_url    : http://www.revenutiontesting.com/w3c/page-name-002.xht
+authors         : Tom Clancy
+status_tag      : Submitted
+# Do not edit below this line
+----
+
+~~DISCUSSION~~
