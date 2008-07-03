@@ -525,3 +525,9 @@ not just that of the breakpoint's parent.</p>
   ;Summary : Should text-decoration propagate through internal table elements?
   ;Status : Needs testcase.
 
+==== Issue 57 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Mar/0184.html
+  ;Summary : Typo in identifier character range
+  ;Status : =WG= Discuss.
+
