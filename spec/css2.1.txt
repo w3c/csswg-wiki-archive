@@ -545,4 +545,8 @@ not just that of the breakpoint's parent.</p>
   ;Summary : Clarify behavior of outside marker when list-item overflow != visible
   ;Status : Needs testcase, proposed text.
 
-~fantasai
+==== Issue 60 ====
+
+  ;URL : http://dev.moonhenge.net/css21/spec/z-index/
+  ;Summary : Z-index and stacking behavior prose needs revision
+  ;Status : =WG= Needs in-depth review, discussion (by experts in this area, and not on the telecon).
