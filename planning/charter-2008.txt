@@ -38,7 +38,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS 2.1 =====
 
-  ; Latest Publication : http://w3.org/TR/CSS21/
+  ; Latest Publication : http://www.w3.org/TR/CSS21/
   ; Advocate : CSS Working Group
   ; Description : CSS2.1 defines CSS Level 2 and forms the basis of the CSS Level 3 specifications.
   ; Status : CSS2.1 is currently a Candidate Recommendation. We are maintaining [[|errata]], a few of which are substantial but most of which are clarifications. We expect to publish a Last Call next followed shortly by another CR in order to incorporate the errata into the specification.
