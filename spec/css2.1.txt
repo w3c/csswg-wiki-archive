@@ -531,3 +531,8 @@ not just that of the breakpoint's parent.</p>
   ;Summary : Typo in identifier character range
   ;Status : Needs testcase.
 
+==== Issue 58 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Mar/0192.html
+  ;Summary : Spec contradictory on whether markers inside principal box or not
+  ;Status : Needs proposed text.
