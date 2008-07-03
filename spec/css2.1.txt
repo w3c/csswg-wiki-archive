@@ -550,3 +550,9 @@ not just that of the breakpoint's parent.</p>
   ;URL : http://dev.moonhenge.net/css21/spec/z-index/
   ;Summary : Z-index and stacking behavior prose needs revision
   ;Status : =WG= Needs in-depth review, discussion (by experts in this area, and not on the telecon).
+
+==== Issue 61 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0264.html
+  ;Summary : percentage table row heights should be undefined, not auto
+  ;Status : Needs proposed text.
