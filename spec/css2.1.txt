@@ -518,3 +518,10 @@ not just that of the breakpoint's parent.</p>
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008May/0269.html
   ;Resolution : Assumed obvious.
   ;Status : =Bert= Fix.
+
+==== Issue 56 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Apr/0460.html
+  ;Summary : Should text-decoration propagate through internal table elements?
+  ;Status : Needs testcase.
+
