@@ -1,0 +1,10 @@
+====== CSS Test: @page padding on all four sides using percentages ======
+
+---- dataentry ----
+testcase_url    : http://www.revenutiontesting.com/w3c/at-page-rule-002-h.xht
+authors         : Tom Clancy
+status_tag      : Submitted
+# Do not edit below this line
+----
+
+~~DISCUSSION~~
