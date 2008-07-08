@@ -23,6 +23,8 @@ You don't need to be logged in to review testcases and make recommendations in t
 
 ===== Submitted Test Cases =====
 
+
+
 ---- datacloud ----
 field: status_tag
 min: 1
@@ -36,6 +38,7 @@ limit: 500
 ----
 
 ---- datatable ----
-cols    : %pageid%, status_tag, authors, group_tags
-headers : Submission, Status, Authors, Groups
+cols    : pageid, %pageid%, status_tag, authors, group_tags
+headers : #, Submission, Status, Authors, Groups
+sort    : pageid
 ----
