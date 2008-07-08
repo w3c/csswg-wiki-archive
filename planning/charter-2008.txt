@@ -38,7 +38,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 ===== CSS 2.1 =====
 
-  ; Latest Publication : http://w3.org/TR/CSS21/
+  ; Latest Publication : http://www.w3.org/TR/CSS21/
   ; Advocate : CSS Working Group
   ; Description : CSS2.1 defines CSS Level 2 and forms the basis of the CSS Level 3 specifications.
   ; Status : CSS2.1 is currently a Candidate Recommendation. We are maintaining [[|errata]], a few of which are substantial but most of which are clarifications. We expect to publish a Last Call next followed shortly by another CR in order to incorporate the errata into the specification.
@@ -72,7 +72,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Basic Box Model Level 3 =====
 
   ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-box-20070809/
-  ; Advocate : Bert
+  ; Advocate : Bert Bos
   ; Description : The Box Model describes the layout of block-level content in normal flow. When documents are laid out on visual media (e.g. screen or paper), CSS represents the elements of the document as rectangular boxes that are laid out one after the other or nested inside each other in an ordering that is called a flow. The flow can be horizontal (typical for most languages) or vertical (often used for Japanese & Chinese).
   ; Status : WD as of August 2007. Generalizing the CSS2 model to vertical is complex: clear what it needs to be, difficult to write down clearly in English. Adding new keywords for intrinsic sizes is a somewhat easier task. Nearly all the text is already there, but has not been checked yet. Needs one or two more WDs.
   ; Implementations : Many of horizontal boxes (i.e., level 2), none of vertical or mixed boxes.
@@ -128,7 +128,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 
 
   ; Latest Working Draft : http://www.w3.org/TR/2003/WD-css3-content-20030514/
-  ; Advocate : Giorgi Chavchanidze
+  ; Advocate : Giorgi Chavchanidze, Elika Etemad
   ; Description :  Generated and replaced content module makes styling of pages more flexible, by providing mechanisms for adding/replacing content through CSS.
   ; Status : Working draft
   ; Implementations : Partial. Opera, Prince and Safari support content property on any element, Prince supports also named strings.
@@ -153,7 +153,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Latest Working Draft : http://www.w3.org/TR/css3-grid/
   ; Advocate : Saloni Mira Rai [Microsoft]
   ; Description : This module describes grid based layout for CSS
-  ; Status : Current status: WD. Spec will be "refined". Expected: CR.
+  ; Status : Current status: WD. Spec and syntax is simple enough to be implementable. There are some open issues around what happens with overflow, invalid combination of properties, etc. SaloniR will be refining this module starting later this year. Expected: CR.
   ; Implementations : None
   ; Test Suite : No test created yet. 1000-1500 cases probably needed. Large
   ; Blocked by : SaloniR will begin work on refining this spec later this year.
@@ -162,7 +162,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Lists Level 3 =====
 
   ; Latest Working Draft : http://www.w3.org/TR/2002/WD-css3-lists-20021107/
-  ; Advocate : none
+  ; Advocate : Arron Eicholz
   ; Description : Describes the position and content of list markers, including the shape of bullets and the numbering schemes (digital, roman, alphabet-based, etc.)
   ; Status : Needs some refining and especially reviews from experts in various typographic traditions
   ; Implementations : None for any of the level 3 features
@@ -173,7 +173,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Marquee Level 3 =====
 
   ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-box-20070809/#marquee
-  ; Advocate : Bert
+  ; Advocate : Bert Bos
   ; Description : On handheld devices, when the overflow style is marquee, overflow may be handled by automatically scrolling the content back and forth without user intervention. The marquee properties determine the speed, style and direction of the movement.
   ; Status : WD. Content is ready, but needs to be moved to its own module. Needs a last call and then CR.
   ; Implementations : Mobile phones.
@@ -250,7 +250,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Ruby =====
 
   ; Latest Working Draft : http://www.w3.org/TR/css3-ruby
-  ; Advocate : Sylvain Galineau [MSFT]
+  ; Advocate : Sylvain Galineau [MSFT], Steve Zilles
   ; Description : This module describes properties for layout of Ruby elements (short runs of text usually used in East Asian text to indicate pronunciation or short annotation).
   ; Status : CR
   ; Implementations : None
@@ -272,7 +272,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Tables Level 3 =====
 
   ; Latest Working Draft : http://dev.w3.org/csswg/css3-tables-algorithms/Overview.src.htm
-  ; Advocate : Saloni Mira Rai [MSFT]
+  ; Advocate : Saloni Mira Rai [MSFT], David Baron
   ; Description : This module covers table layout algorithms that were previously undefined in CSS 2.1
   ; Status :  Current status is Editor's Draft. It needs further inter-op review but scope and funtionality is pretty well defined. Expected status is Working Draft and then hopefully to last call within this charter period.
   ; Implementations : Partial implementation in IE8 Beta 1
@@ -283,7 +283,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Template Layout =====
 
   ; Latest Working Draft : http://www.w3.org/TR/2007/WD-css3-layout-20070809/
-  ; Advocate : Bert
+  ; Advocate : Bert Bos
   ; Description : Allows placing elements in arbitrary order on a predefined grid.
   ; Status : The next WD will drop the unstable (and independent) sections on "deck of cards" displays and row/column layouts of flexible boxes. The remaining template layout is then probably ready for last call. An extension to non-rectangular regions may be attempted in a few years.
   ; Implementations : None
@@ -294,7 +294,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Text Level 3 =====
 
   ; Latest Working Draft : http://www.w3.org/TR/css3-text/ http://dev.w3.org/csswg/css3-text/
-  ; Advocate : Elika Etemad, <del>Paul Nelson</del>, Sylvain Galineau [MSFT]
+  ; Advocate : Elika Etemad, <del>Paul Nelson</del>, Sylvain Galineau [MSFT], Steve Zilles
   ; Description : The CSS3 Text module defines text-level styling such as text decoration, justification, indentation, spacing, and line breaking. It offers much more control than the properties available in CSS2.1.
   ; Status : The module is currently a Working Draft, and being rewritten section by section. It's a medium-large project with lots of tricky i18n implications. The next publication will be a Working Draft.
   ; Implementations : There are implementations of some of the properties in the draft, and planned implementations of a few more. However aside from the CSS2.1 subset, most of the module is not implemented.
@@ -305,7 +305,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Text Layout Level 3 =====
 
   ; Latest Working Draft : None, based off http://www.w3.org/TR/2003/CR-css3-text-20030514/
-  ; Advocate : <del>Paul Nelson</del> Sylvain Galineau [MSFT], Elika Etemad
+  ; Advocate : <del>Paul Nelson</del> Sylvain Galineau [MSFT], Elika Etemad, Steve Zilles
   ; Description : This module defines controls for vertical text layout and for text grid layout.
   ; Status : There is no published Working Draft: the functionality is described in the May 2003 CSS3 Text CR, but many sections need to be rewritten.
   ; Implementations : MSIE has implemented vertical text layout.
@@ -338,7 +338,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
 ===== CSS Values and Units Level 3 =====
 
   ; Latest Working Draft : http://www.w3.org/TR/2006/WD-css3-values-20060919
-  ; Advocate : Håkon Wium Lie
+  ; Advocate : Håkon Wium Lie, David Baron
   ; Description : The draft describes values and units used in CSS3. Most of the values and units are also part of CSS 2.1, but there is one advanced new value type (calc) and several new length units (gd, rem, vw, vh, vm, ch).
   ; Status : The current status is WD. As the other CSS3 drafts evolve, this WD will be updated to describe the values used in the other drafts. It therefore makes little sense to go to CR with this draft in the short term. Also, it makes little sense to stop working on this draft.
   ; Implementations : All browsers implement the CSS 2.1 subset of this draft. 
