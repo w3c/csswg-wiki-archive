@@ -1,0 +1,10 @@
+====== CSS Test: Page Size - Handling Page Size ======
+
+---- dataentry ----
+testcase_url    : http://www.revenutiontesting.com/w3c/page-size-009.xht
+authors         : Tom Clancy
+status_tag      : Submitted
+# Do not edit below this line
+----
+
+~~DISCUSSION~~
