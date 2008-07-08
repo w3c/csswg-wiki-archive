@@ -1,7 +1,7 @@
-====== CSS Test: Margin Boxes - top-center right margin ======
+====== CSS Test: Margin Boxes - Bottom Center, Right Margin ======
 
 ---- dataentry ----
-testcase_url    : http://www.revenutiontesting.com/w3c/page-mbox-011.xht
+testcase_url    : http://www.revenutiontesting.com/w3c/page-mbox-024.xht
 authors         : Tom Clancy
 status_tag      : Submitted
 # Do not edit below this line
