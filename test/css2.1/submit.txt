@@ -2,7 +2,7 @@
 
 This page is the index of a test review and submission system.
 
-You need to be logged in to submit a test case. You can create an account on this wiki, or use an OpenID login. (Yahoo and AOL accounts have OpenID.) To submit a test case, create a numbered page ''/test/css2.1/submit/N'' and fill out the title, url, and contributor fields.
+You need to be logged in to submit a test case. You can create an account on this wiki, or use an OpenID login. (Yahoo and AOL accounts have OpenID.) To submit a test case [[http://csswg.inkedblade.net/submit-test.pl?css2.1|submit this form]] and fill out the title, url, and contributor fields.
 
 Test submissions are subject to the [[test:css2.1:review|review process]]. A test, once submitted (see below), can be accepted and recommended for inclusion or rejected for various reasons by changing the submission status. The reviewer should add a comment with rationale whenever changing the test status. A typical review process is diagrammed below:
 
