@@ -131,7 +131,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Description :  Generated and replaced content module makes styling of pages more flexible, by providing mechanisms for adding/replacing content through CSS.
   ; Status : Working draft
   ; Implementations : Partial. Opera, Prince and Safari support content property on any element, Prince supports also named strings.
-  ; Test Suite : No test suite available at the moment. Probably a medium-size effort, around 1000 tests.
+  ; Test Suite : No test suite available at the moment. Probably a medium-size effort, on the order of 1000 tests.
   ; Blocked by : 
   ; Rationale :  Gives CSS more power and flexibility, allows to create rich layouts while keeping markup minimal and semantics-oriented.
 
