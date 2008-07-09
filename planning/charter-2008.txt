@@ -34,8 +34,6 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Beta : Test suite has complete coverage of the spec. It may have some bugs but is expected to be mostly reliable. At least one implementation passes a majority of the tests.
   ; Alpha : Test suite has complete if not thorough coverage of the spec, but is expected to require some revision.
   ; Pre-Alpha : Test suite is incomplete and/or known to contain bugs at time of publication.
-
-
 ===== CSS 2.1 =====
 
   ; Latest Publication : http://www.w3.org/TR/CSS21/
@@ -46,6 +44,7 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Test Suite : The test suite is currently in Pre-Alpha. It is a very large project, currently has hundreds of tests, and is expected to contain on the order of ten thousand tests.
   ; Blocked by : CSS2.1 is primarily blocked by the test suite and secondarily by implementations.
   ; Rationale : This is the core specification of CSS. Without it CSS is not defined.
+
 ===== CSS Animations =====
 
   ; Latest Working Draft : http://webkit.org/specs/CSSVisualEffects/CSSAnimation.html
