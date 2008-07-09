@@ -46,17 +46,16 @@ If your spec has a test suite, you can use these [[http://fantasai.inkedblade.ne
   ; Test Suite : The test suite is currently in Pre-Alpha. It is a very large project, currently has hundreds of tests, and is expected to contain on the order of ten thousand tests.
   ; Blocked by : CSS2.1 is primarily blocked by the test suite and secondarily by implementations.
   ; Rationale : This is the core specification of CSS. Without it CSS is not defined.
-
 ===== CSS Animations =====
 
   ; Latest Working Draft : http://webkit.org/specs/CSSVisualEffects/CSSAnimation.html
   ; Advocate : David Hyatt, Dean Jackson, David Singer
   ; Description : Exposes keyframed animation via CSS.
   ; Status : Not yet published as a WD, although probably could be.
-  ; Implementations : Implemented in Safari on iPhone version 2.
-  ; Test Suite : None yet.
+  ; Implementations : Implemented in Safari on iPhone version 2. Patch under review for WebKit desktop.
+  ; Test Suite : No current test suite. This would be a significant amount of work to develop, since it is applies behaviour to many other CSS properties. Also, automated testing is more complex. However, as the WebKit implementation progresses it will develop tests that may be suitable. 
   ; Blocked by : N/A.
-  ; Rationale : Animation is part of document style, and thus should be in the styling system.
+  ; Rationale : Animation effects using CSS are possible today but require scripting. This is both inefficient (requires a script to be running in a tight loop), less accessible (since it is not declarative), more verbose (a good animation library is a lot of javascript that must be loaded with each page) and more difficult to maintain. Existing declarative scripting approaches like SMIL provide useful animation models, but often blur the separation of content and style. In many cases, animation is part of the document style and thus belongs in the styling layer provided by CSS. The developer community are using animations more frequently on the Web - hence the active development of animation in many "Ajax"-style libraries.
 
 ===== CSS Backgrounds and Borders Level 3 =====
 
