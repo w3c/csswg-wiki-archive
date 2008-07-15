@@ -11,7 +11,7 @@ Each module advocate is responsible for keeping the information on this page cur
   ; Latest Publication : http://www.w3.org/TR/CSS21/
   ; Advocate : CSS Working Group
   ; Description : CSS2.1 defines CSS Level 2 and forms the basis of the CSS Level 3 specifications.
-  ; Status : CSS2.1 is currently a Candidate Recommendation. We are maintaining [[|errata]], a few of which are substantial but most of which are clarifications. We expect to publish a Last Call next followed shortly by another CR in order to incorporate the errata into the specification.
+  ; Status : CSS2.1 is currently a Candidate Recommendation. We are maintaining [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|errata]], a few of which are substantial but most of which are clarifications. We expect to publish a Last Call next followed shortly by another CR in order to incorporate the errata into the specification.
   ; Implementations : All features in this specification are implemented by two or more implementations and they are mostly interoperable. However there are still areas of incompatibility as implementations have lots of bugs, and, in some cases, the spec is unclear or has errors.
   ; Test Suite : The test suite is currently in Pre-Alpha. It is a very large project, currently has hundreds of tests, and is expected to contain on the order of ten thousand tests.
   ; Blocked by : CSS2.1 is primarily blocked by the test suite and secondarily by implementations.
