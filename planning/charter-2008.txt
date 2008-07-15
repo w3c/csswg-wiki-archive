@@ -327,7 +327,6 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : No current test suite. This would be an average sized test suite. It may be possible to convert the transform tests from SVG into CSS. As the WebKit implementation progresses it will develop tests that may be suitable.  Test suite size is estimated as 'medium' (1,000s of test).
   ; Blocked by : N/A.
   ; Rationale : The ability to apply a geometric transform to Web content is a useful tool in page layout and user interface development. This functionality is available in SVG but not currently in CSS. However, requiring SVG for this feature is problematic: it requires wrapping HTML content in SVG (which has issues, in particular in the case of non-XML formats like HTML 4) and the SVG transform attribute is not a styling property (hence layout is hard coded in the content). This specification allows elements styled by CSS to be transformed and keeps compatibility when using SVG transforms.
-
 ==== CSS Transitions ====
 
   ; Latest Working Draft : http://webkit.org/specs/CSSVisualEffects/CSSTransitions.html
@@ -335,7 +334,7 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Description : Provides an animated effect as property values change.
   ; Status : No WD published, although probably ready for first publication.
   ; Implementations : Implemented in Safari 3.1 and greater, as well as Safari on iPhone 2.0.
-  ; Test Suite : No current test suite. This would be a significant amount of work to develop, since it is applies behaviour to many other CSS properties. Also, automated testing is more complex. However, as the WebKit implementation progresses it will develop tests that may be suitable.
+  ; Test Suite : No current test suite. This would be a significant amount of work to develop, since it is applies behaviour to many other CSS properties. Also, automated testing is more complex. However, as the WebKit implementation progresses it will develop tests that may be suitable. Test suite size is estimated as 'medium' (1,000s of test).
   ; Blocked by : N/A
   ; Rationale : With very little cost and graceful degradation, transitions allow a much nicer UI - replicating a lot of effects that currently use script. Also see rationale for CSS Animations (with which an implementation can share a lot of code)
 
