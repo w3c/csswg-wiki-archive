@@ -3,7 +3,7 @@
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page-mbox-047.xht
 authors         : Tom Clancy
-status_tag      : Accepted
+status_tag      : NeedsWork
 group_tags      : # Can optionally add tags for grouping here
 # Do not edit below this line
 ----
