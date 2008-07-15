@@ -72,6 +72,17 @@ Each module advocate is responsible for keeping the information on this page cur
   ; Blocked by : Figuring out what to do with the offset* attributes.
   ; Rationale : Every browser implements this in one way or another. To make the Web platform more stable and allow for competition it is important that it is defined and that implementations converge.
 
+==== CSS Paged Media Level 3 ====
+
+  ; Latest Working Draft : http://www.w3.org/TR/css3-page/ http://dev.w3.org/csswg/css3-page
+  ; Advocate : Elika Etemad, Håkon Wium Lie, Melinda Grant
+  ; Description : The CSS Paged Media module adds features for better printing, in particular the ability to add page borders and backgrounds, headers and footers, and orphans and widows controls. It also includes some key image styling controls.
+  ; Status : The current status is Last Call Working Draft. The next draft (which should be published fairly soon) provides many clarifications and one new requirement. The next expected step is another Last Call Working Draft, expected within a month or two.
+  ; Implementations : Most features in the module have multiple implementations. However the level of interoperability has not yet been assessed and may be low.
+  ; Test Suite : The test suite is a medium-size project. It is expected to contain on the order of 1000 tests. HP has dedicated resources to developing this test suite.
+  ; Blocked by : CSS 2.1. As the 2.1 dependency precludes completion any time soon, the module has added additional features and returned to WD. Those features are marked at risk. The module is making steady progress.
+  ; Rationale : This module is key to improving printing of the web.
+
 ==== CSS Snapshot 2007 ====
 
   ; Latest Working Draft : http://www.w3.org/TR/css-beijing/
@@ -251,17 +262,6 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : I don't think much has been done here though features defined in the spec are based on testing browsers so there are some. (Though a lot adhoc and not that useful.)
   ; Blocked by : Lack of time.
   ; Rationale : Everyone implements this with differences that cause QA cost, more work for new players entering the market, more work for developers working with the CSSOM etc.
-
-==== CSS Paged Media Level 3 ====
-
-  ; Latest Working Draft : http://www.w3.org/TR/css3-page/ http://dev.w3.org/csswg/css3-page
-  ; Advocate : Elika Etemad, Håkon Wium Lie, Melinda Grant
-  ; Description : The CSS Paged Media module adds features for better printing, in particular the ability to add page borders and backgrounds, headers and footers, and orphans and widows controls. It also includes some key image styling controls.
-  ; Status : The current status is Last Call Working Draft. The next draft (which should be published fairly soon) provides many clarifications and one new requirement. The next expected step is another Last Call Working Draft, expected within a month or two.
-  ; Implementations : Most features in the module have multiple implementations. However the level of interoperability has not yet been assessed and may be low.
-  ; Test Suite : The test suite is a medium-size project. It is expected to contain on the order of 1000 tests. HP has dedicated resources to developing this test suite.
-  ; Blocked by : CSS 2.1. As the 2.1 dependency precludes completion any time soon, the module has added additional features and returned to WD. Those features are marked at risk. The module is making steady progress.
-  ; Rationale : This module is key to improving printing of the web.
 
 ==== CSS Ruby ====
 
