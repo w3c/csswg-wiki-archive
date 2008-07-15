@@ -306,7 +306,6 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : The test suite is not started, and is expected to be a medium-large project with on the order of 1000 tests.
   ; Blocked by : Paul and Elika are not able to work on this module this year. HOWEVER, Sylvain will be abe to make progress later this year.
   ; Rationale : This module adds much finer controls for text effects and in particular it adds functionality needed for layout in non-European languages.
-
 ==== CSS Text Layout Level 3 ====
 
   ; Latest Working Draft : None, based off http://www.w3.org/TR/2003/CR-css3-text-20030514/
@@ -317,6 +316,7 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : There is no test suite. Assuming the Box Model module handles the box model tests for vertical layout, the test suite should be a medium-size effort, around 1000 tests or less.
   ; Blocked by : CSS Box Model Level 3; also Paul and Elika do not have time to work on this module this year. Sylvain will be able to pick this up later this year.
   ; Rationale : This module is needed for traditional East Asian typographic layout.
+
 ==== CSS Transformations ====
 
   ; Latest Working Draft : http://webkit.org/specs/CSSVisualEffects/CSSTransforms.html
