@@ -119,7 +119,6 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
 
 
 ===== In Scope =====
-
 ==== CSS Animations ====
 
   ; Latest Working Draft : http://webkit.org/specs/CSSVisualEffects/CSSAnimation.html
@@ -127,7 +126,7 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Description : Exposes keyframed animation via CSS.
   ; Status : Not yet published as a WD, although probably could be.
   ; Implementations : Implemented in Safari on iPhone version 2. Patch under review for WebKit desktop.
-  ; Test Suite : No current test suite. This would be a significant amount of work to develop, since it is applies behaviour to many other CSS properties. Also, automated testing is more complex. However, as the WebKit implementation progresses it will develop tests that may be suitable. 
+  ; Test Suite : No current test suite. This would be a significant amount of work to develop, since it is applies behaviour to many other CSS properties. Also, automated testing is more complex. However, as the WebKit implementation progresses it will develop tests that may be suitable. Test suite size is estimated as 'medium' (1,000s of test).
   ; Blocked by : N/A.
   ; Rationale : Animation effects using CSS are possible today but require scripting. This is both inefficient (requires a script to be running in a tight loop), less accessible (since it is not declarative), more verbose (a good animation library is a lot of javascript that must be loaded with each page) and more difficult to maintain. Existing declarative scripting approaches like SMIL provide useful animation models, but often blur the separation of content and style. In many cases, animation is part of the document style and thus belongs in the styling layer provided by CSS. The developer community are using animations more frequently on the Web - hence the active development of animation in many "Ajax"-style libraries.
 
@@ -351,4 +350,3 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : None
   ; Blocked by : None
   ; Rationale : Values are a key part of CSS and they should be descrbed in a CSS3 specification. Further, the new fuctionality is much-requested by designers. 
-
