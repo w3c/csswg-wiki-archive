@@ -568,3 +568,10 @@ not just that of the breakpoint's parent.</p>
   ;Proposal : Make Section 2.3 (but not its subsections) informative, remove last three sentences about scope.
   ;Resolution : Proposal accepted.
   ;Status : =Bert= Edit.
+
+==== Issue 64 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Mar/0192.html
+  ;Summary : Marker box may affect height of principal block box.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jul/0453.html
+  ;Status : =WG= Discuss
