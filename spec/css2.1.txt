@@ -560,7 +560,7 @@ not just that of the breakpoint's parent.</p>
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0245.html
   ;Summary : Grammar for @media versus general block parsing
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jul/0105.html
+  ;Proposal : State in 7.2.1 that "At-rules inside @media are invalid in CSS2.1 and must be ignored per 4.2 Rules for handling parsing errors."
   ;Status : =WG= Discuss.
 
 ==== Issue 63 ====
