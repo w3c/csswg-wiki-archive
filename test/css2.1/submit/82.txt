@@ -4,7 +4,7 @@
 testcase_url    : http://www.revenutiontesting.com/w3c/breaks_inside_elements/orphans-003.xht
 authors         : Tom Clancy
 status_tag      : Accepted
-group_tags      : # Can optionally add tags for grouping here
+group_tags      : PageBreaks, BreakInside, Orphans
 # Do not edit below this line
 ----
 
