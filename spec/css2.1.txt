@@ -584,3 +584,17 @@ not just that of the breakpoint's parent.</p>
   ;Summary : Section 9.2.2 says: "Several values of the 'display' property make an element inline: 'inline', 'inline-table', and 'run-in' (part of the time; see run-in boxes)." Seems to be missing 'inline-block'.
   ;Proposal : Add inline-block
   ;Status : =WG= discuss
+
+==== Issue 66 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0473.html
+  ;Summary : Prose and token definition disagree on whether escapes may occur in comments
+  ;Proposal : In 4.1.3 prepend
+    Except within CSS comments
+
+to the sentence
+    Any character (except a hexadecimal digit) can be escaped
+    with a backslash to remove its special meaning.
+
+  ;Proposal : Change COMMENT token (see thread for how)
+  ;Status : =WG= discuss
