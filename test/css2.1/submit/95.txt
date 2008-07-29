@@ -3,7 +3,7 @@
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/img-orient-008-e.xht
 authors         : Tom Clancy
-status_tag      : NeedsWork
+status_tag      : Submitted
 group_tags      : Images,ImageOrientation
 # Do not edit below this line
 ----
