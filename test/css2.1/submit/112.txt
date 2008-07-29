@@ -1,0 +1,11 @@
+====== CSS Test: page-break-before :auto ======
+
+---- dataentry ----
+testcase_url    : http://www.revenutiontesting.com/w3c/page-break-before-007-b.xht
+authors         : Tom Clancy
+status_tag      : Submitted
+group_tags      : PageBreaks, BreakBefore
+# Do not edit below this line
+----
+
+~~DISCUSSION~~
