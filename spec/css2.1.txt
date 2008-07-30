@@ -444,7 +444,8 @@ not just that of the breakpoint's parent.</p>
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0027.html
   ;Summary : Need clarification on allowed guesses for static position?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jun/0177.html
-  ;Status : =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : =Bert= Edit.
 
 ==== Issue 46 ====
 
