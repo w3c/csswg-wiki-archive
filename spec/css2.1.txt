@@ -606,3 +606,10 @@ to the sentence
   ;Summary : Margin collapsing not disabled between fixed-height block and last child
   ;Status : Retracted.
 
+==== Issue 68 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0114.html
+  ;Summary : Case-sensitivity of '':lang()'' and ''[xml|lang|=]''
+  ;Testcase : http://lists.w3.org/Archives/Public/www-archive/2008Jul/att-0026/xmllang.xhtml
+  ;Status : Needs proposal.
+
