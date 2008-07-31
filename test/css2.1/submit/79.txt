@@ -3,7 +3,7 @@
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page-break-before-008.xht
 authors         : Tom Clancy
-status_tag      : NeedsWork
+status_tag      : Submitted
 group_tags      : PageBreaks, BreakBefore
 # Do not edit below this line
 ----
