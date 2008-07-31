@@ -1,9 +1,9 @@
 ====== CSS Test: Image Fit - The 'fill' value does not affect the calculation of 'height' and 'width' ======
 
 ---- dataentry ----
-testcase_url    : http://www.revenutiontesting.com/w3c/img-fit-005.xht
+testcase_url    : http://www.revenutiontesting.com/w3c/image-fit-005.xht
 authors         : Tom Clancy
-status_tag      : NeedsWork
+status_tag      : Submitted
 group_tags      : # Can optionally add tags for grouping here
 # Do not edit below this line
 ----
