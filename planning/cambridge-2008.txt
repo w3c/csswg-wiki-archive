@@ -3,5 +3,7 @@
 Proposed topics for topics for the August 2008 CSS Working Group Face-to-Face meeting in Cambridge. This should be a technical meeting, and focus should be on topics that benefit from us all being in the same room. Add any proposed topics below: we will filter and sort later.
 
   * Vertical layout terminology Note
+  * Styling ('appearance' property?) for the implicit video controls of HTML5
+  * The improved MWI test harness and how to put our existing test suites in it
   * <insert your topic here>
 
