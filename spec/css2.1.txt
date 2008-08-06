@@ -581,7 +581,14 @@ not just that of the breakpoint's parent.</p>
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Mar/0192.html
   ;Summary : Marker box may affect height of principal block box.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jul/0453.html
-  ;Status : =WG= Discuss
+  ;Resolution : Add to definition for ''outside''
+
+
+
+> The size or contents of the marker box may affect the height of the principal block box and/or the height of its first line box, and in some cases may cause the creation of a new line box.
+> Note: This interaction may be more precisely defined in a future level of CSS. 
+
+  ;Status : =Bert= Edit.
 
 ==== Issue 65 ====
 
