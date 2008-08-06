@@ -545,7 +545,9 @@ not just that of the breakpoint's parent.</p>
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Apr/0091.html
   ;Summary : Clarify behavior of outside marker when list-item overflow != visible
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jul/0454.html
-  ;Status : =WG= Discuss
+  ;Resolution : Proposal accepted.
+  ;Status : =Bert= Edit.
+
 
 ==== Issue 60 ====
 
