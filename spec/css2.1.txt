@@ -596,9 +596,8 @@ not just that of the breakpoint's parent.</p>
 to the sentence
     Any character (except a hexadecimal digit) can be escaped
     with a backslash to remove its special meaning.
-
-  ;Proposal : Change COMMENT token (see thread for how)
-  ;Status : =WG= discuss
+  ;Resolution : Accepted proposal to update prose to match tokenization.
+  ;Status : =Bert= Edit.
 
 ==== Issue 67 ====
 
