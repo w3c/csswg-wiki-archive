@@ -5,6 +5,7 @@ Proposed topics for topics for the August 2008 CSS Working Group Face-to-Face me
   * Vertical layout terminology Note
   * Styling ('appearance' property?) for the implicit video controls of HTML5
   * The improved MWI test harness and how to put our existing test suites in it
+    * Follow up conversation about test suite interest group
   * Create a 'milestones' roadmap for completion of CSS 2.1; identify test coverage completion targets
   * What exactly is a <br>?
   * list-tyle: tree
