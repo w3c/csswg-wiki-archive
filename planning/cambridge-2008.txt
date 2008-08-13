@@ -17,5 +17,6 @@ Proposed topics for topics for the August 2008 CSS Working Group Face-to-Face me
     * Issue 42 - Static position should also assume “clear: none”
     * Issue 53 - Interaction of pre* and justification poorly defined (review implementation behavior)
     * Issue 60 - Z-index and stacking behavior
+  * CSS3 Backgrounds and Borders (publish new WD?)
   * <insert your topic here>
 
