@@ -507,7 +507,8 @@ not just that of the breakpoint's parent.</p>
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0349.html
   ;Summary : Specify left/right as being position for ltr/rtl list markers
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jun/0349.html
-  ;Status : =WG= Discuss.
+  ;Resolved : Accept proposal with s/elements/list items/
+  ;Status : =Bert= Edit.
 
 ==== Issue 55 ====
 
