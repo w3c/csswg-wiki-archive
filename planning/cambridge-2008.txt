@@ -18,5 +18,6 @@ Proposed topics for topics for the August 2008 CSS Working Group Face-to-Face me
     * Issue 53 - Interaction of pre* and justification poorly defined (review implementation behavior)
     * Issue 60 - Z-index and stacking behavior
   * CSS3 Backgrounds and Borders (publish new WD?)
+  * Publish update of CSS3 Template Layout? (fell off the [[http://lists.w3.org/Archives/Member/w3c-css-wg/2008AprJun/0236.html|agenda]] in May)
   * <insert your topic here>
 
