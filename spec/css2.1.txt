@@ -466,7 +466,8 @@ not just that of the breakpoint's parent.</p>
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0147.html
   ;Summary : Remove outdated bolder/lighter text from font-weight defs
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jun/0147.html
-  ;Status : =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : =Bert= Edit.
 
 ==== Issue 49 ====
 
