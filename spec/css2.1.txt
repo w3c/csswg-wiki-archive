@@ -130,7 +130,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Oct/0087.html
   ;Summary : margins should be adjoining when min-height == height
   ;Testcase : http://lists.w3.org/Archives/Public/www-style/2008Jul/0448.html
-  ;Proposal : In 8.3.1 paragraph beginning "The bottom margin of an in-flow block-level element with a 'height' of 'auto' and 'min-height' less than the element's used height and 'max-height' greater than the element's used height" replace "less than" with "less than or equal" and "greater than" with "greater than or equal".
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Aug/0154.html
   ;Status : =WG= Discuss.
 
 ==== Issue 15 ====
