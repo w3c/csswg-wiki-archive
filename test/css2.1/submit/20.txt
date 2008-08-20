@@ -1,9 +1,9 @@
-====== CSS Test: Using named pages - 'page' initial value ======
+====== CSS Test: 'page' initial value ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page-name-001.xht
 authors         : Tom Clancy
-status_tag      : NeedsWork
+status_tag      : Submitted
 group_tags      : # Can optionally add tags for grouping here
 # Do not edit below this line
 ----
