@@ -43,3 +43,4 @@ In both cases the test itself should be referenced as a link, not fed through th
 
   * Put requirements up front
   * Add Skip button
+  * Track session so that a bad user's data can be deleted
