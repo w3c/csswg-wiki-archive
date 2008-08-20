@@ -1,4 +1,4 @@
-====== CSS Test: @page padding on all four sides using percentages ======
+====== CSS Test: @page padding on top and right using percentages ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/at-page-rule-002-h.xht
