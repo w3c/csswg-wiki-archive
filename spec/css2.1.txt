@@ -400,7 +400,8 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Static position should also assume "clear: none".
   ;Testcase : https://bugzilla.mozilla.org/attachment.cgi?id=308701
   ;Proposal : Add "and 'clear' had been 'none'" to "and 'float' had been 'none'" sentence in 10.6.4.
-  ;Status : =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : =Bert= Edit.
 
 ==== Issue 43 ====
 
