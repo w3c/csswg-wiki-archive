@@ -3,7 +3,7 @@
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page-mbox-024.xht
 authors         : Tom Clancy
-status_tag      : NeedsWork
+status_tag      : Submitted
 group_tags      : DimensionOfMarginBoxesBottomRow,MarginBoxes
 # Do not edit below this line
 ----
