@@ -639,5 +639,5 @@ to the sentence
 
   ;URL : 
   ;Summary : Bullet points in 8.3.1 about 'overflow' not 'visible' should mention that block formatting contexts, in general, do not collapse margins with their children.
-  ;Status : Needs proposal.
-
+  ;Proposal : In 8.3.1 change "Vertical margins of elements with 'overflow' other than 'visible'" to "Vertical margins of elements that establish new block formatting contexts (such as floats and elements with 'overflow' other than 'visible')"
+  ;Status : =WG= Discuss.
