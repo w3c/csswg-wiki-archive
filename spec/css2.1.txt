@@ -317,7 +317,8 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0544.html http://lists.w3.org/Archives/Public/www-style/2008Mar/0080.html
   ;Summary : Is '@' not followed by a valid identifier parsed as an invalid at-rule or a generic invalid token?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0353.html (clarifications to interaction of various parsing rules with bracket matching) see also http://lists.w3.org/Archives/Public/www-style/2008Aug/0165.html
-  ;Status : =WG= Discuss.
+  ;Resolution : Proposal by dbaron+fantasai accepted.
+  ;Status : =Bert= Edit.
 
 ==== Issue 33 ====
 
