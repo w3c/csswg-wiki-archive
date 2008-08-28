@@ -4,7 +4,7 @@
 testcase_url    : http://www.revenutiontesting.com/w3c/img-orient-002-a.xht
 authors         : Tom Clancy
 status_tag      : Accepted
-group_tags      : Images,ImageOrientation,OrientingAnImageOnThePage2_1
+group_tags      : 1_TestSortImages,ImageOrientation
 # Do not edit below this line
 ----
 
