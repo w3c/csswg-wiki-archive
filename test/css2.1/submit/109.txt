@@ -3,7 +3,7 @@
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/image-position-002.xht
 authors         : Tom Clancy
-status_tag      : NeedsWork
+status_tag      : Submitted
 group_tags      : # Can optionally add tags for grouping here
 # Do not edit below this line
 ----
