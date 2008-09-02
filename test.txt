@@ -2,8 +2,10 @@
 
 Our conformance test suites: how to run them, known bugs, and how to contribute. The tests are maintained in the W3C's [[http://dev.w3.org/|dev.w3.org]] [[http://www.nongnu.org/cvs/|cvs]] repository. Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite mailing list]]. The #css-test channel on irc.w3.org (port 6665) is also available for discussion, although it is not a very active channel.
 
-  * [[test:cvs|Quick-start Guide for CVS]]
+  * [[test:cvs|Quick-start Guide for Commandline CVS]]
+  * [[http://svn.collab.net/repos/svn/trunk/doc/user/cvs-crossover-guide.html|SVN Guide for Commandline CVS Users]]
   * [[test:harness|Browseable Test Harness]]
+
 
 
   * [[test:CSS2.1|CSS2.1 Conformance Test Suite]]
