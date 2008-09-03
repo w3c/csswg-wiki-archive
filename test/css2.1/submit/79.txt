@@ -4,7 +4,7 @@
 testcase_url    : http://www.revenutiontesting.com/w3c/page-break-before-008.xht
 authors         : Tom Clancy
 status_tag      : Accepted
-group_tags      : PageBreaks, BreakBefore
+group_tags      : Rev2030,PageBreaks, BreakBefore
 # Do not edit below this line
 ----
 
