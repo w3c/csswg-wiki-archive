@@ -4,7 +4,7 @@
 testcase_url    : http://www.revenutiontesting.com/w3c/breaks_inside_elements/widows-002.xht
 authors         : Tom Clancy
 status_tag      : Accepted
-group_tags      : PageBreaks, BreakInside, Widows
+group_tags      : Rev2440,PageBreaks, BreakInside, Widows
 # Do not edit below this line
 ----
 
