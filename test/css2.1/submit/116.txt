@@ -4,7 +4,7 @@
 testcase_url    : http://www.revenutiontesting.com/w3c/page-break-inside-005.xht
 authors         : Tom Clancy
 status_tag      : Submitted # status_tag can be Submitted, OutOfScope, Duplicate, NeedsWork, Accepted, or CheckedIn
-group_tags      : # Can optionally add tags for grouping here
+group_tags      : Rev2230
 # Do not edit below this line
 ----
 
