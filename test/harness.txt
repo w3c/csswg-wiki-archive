@@ -8,6 +8,9 @@ See [[http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0027.html
 
   * [[http://www.w3.org/2007/03/mth/harness|MWI's harness]]
   * [[http://dev.w3.org/cvsweb/2007/mobile-test-harness/|MWI's harness source code]]
+  * [[http://www.w3.org/2008/07/test-harness-css/|New harness prototype]]
+  * [[http://dev.w3.org/cvsweb/2008/test-harness/|New harness source code]]
+  * [[http://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&product=Test+Harness+for+Browser+testing&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=|New harness bug database]]
 
 ===== Harness Wishlist =====
 
