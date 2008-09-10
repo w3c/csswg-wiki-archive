@@ -23,14 +23,14 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
       * [1] Give Lachy, bz, Melinda, Zack SVN access (fantasai)
   * Get half of tests checked in without going through fantasai
       * Give more people dev.w3.org CVS access
-          * Train Arron, Eira, Gabriele to check in tests
+          * [1] Train Arron, Eira, Gabriele to check in tests
       * Get review queue under control (2 weeks max lag for review)
           * HP tests reviewed
           * Eira's tests reviewed and checked in
           * Microsoft tests partly reviewed
           * Train several people (Arron, Eira, Gabriele?) to review tests well
               * Explain how to get involved reviewing tests
-      * Handle all submissions through Subversion
+      * [1] Handle all submissions through Subversion
           * Set up test.csswg.org to give useful information on stuff in SVN
           * Explain how to get involved writing tests
   * Write a blog post to encourage contributions
