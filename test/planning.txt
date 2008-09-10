@@ -3,13 +3,14 @@
 This is where fantasai dumps her to-do list and tries to make sense of it.
 
   * Set up test.csswg.org to give useful information on stuff in SVN
-      * Set up Makefile on dev.w3.org to have option for importing tests from test.csswg.org
-      * Set up automatic build of all validating tests on test.csswg.org
+      * Set up Makefile on dev.w3.org to have option for importing tests from test.csswg.org [want]
+      * Set up automatic build of all validating tests on test.csswg.org (tests not in format aren't built, but can be repo)
       * Create test validation script
           * Validate filenames
               * Complete src transition
           * Validate as well-formed XML or die
-          * Validate as XHTML (but don't die)
+          * Validate as XHTML (but don't die if HTMLonly)
+          * Validate CSS unless invalid flag
           * Validate other format-related stuff?
       * Create index of tests by section, including title and assertions, to check for coverage
       * Strip out Eira's completed tests
