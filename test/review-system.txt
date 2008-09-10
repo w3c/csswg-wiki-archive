@@ -1,2 +1,9 @@
 ====== Requirements for a Test Review System ======
 
+  * Check off X tests and give them all the same comment
+  * Find test by ID, URL, title, etc.
+  * Handle renaming of test
+  * Track changes in same stream as comments
+  * Track status of test (needs review, needs work, etc)
+  * Accept comments
+  * Be test suite aware (which test belongs to which test suite)
