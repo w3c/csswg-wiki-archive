@@ -33,17 +33,17 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
       * [1] Handle all submissions through Subversion
           * Set up test.csswg.org to give useful information on stuff in SVN
           * Explain how to get involved writing tests
-  * Write a blog post to encourage contributions
+  * [3] Write a blog post to encourage contributions
       * Figure out which tasks people can do at different ability levels
       * Explain how to get involved writing tests
-          * Teach Gabriele to use SVN and ask for feedback on process/documentation [need]
+          * [1] Teach Gabriele to use SVN and ask for feedback on process/documentation [need]
               * Write documentation on using SVN to submit tests [need]
       * Explain how to get involved reviewing tests
           * Set up a review system that people can use comfortably or at least list all tests that need review somewhere
-              * Write a requirements document for review system [need]
+              * [1] Write a requirements document for review system [need]
                   * Set up telecon for writing req document [need]
-          * Update review process on wiki [need]
-          * Explain how to do a good review on the wiki [need]
+          * [1] Update review process on wiki [need]
+          * [2] Explain how to do a good review on the wiki [need]
       * Explain how to get involved generating test results [want]
           * Complete src transition
           * Set up production harness on w3.org
@@ -51,20 +51,19 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
                   * Create message-flag mapping table
                   * Create sample grouping table
       * Explain how to get involved reporting problems with existing reviewed tests
-          * Set up feedback system for tests and hook up to harness [want]
-      * Explain how to get involved fixing broken tests
-          * List all old tests and mark ones that need improvement
-          * Set up Bugzilla to take bug reports against tests [need]
-      * Load all harness and build system issues into Bugzilla
-          * Set up Bugzilla to take bug reports for harness [need]
+          * [5] Set up feedback system for tests and hook up to harness [want]
+      * [3] Explain how to get involved fixing broken tests
+          * [6] List all old tests and mark ones that need improvement
+          * [3] Set up Bugzilla to take bug reports against tests [need]
+      * [3] Load all harness and build system issues into Bugzilla
+          * [3] Set up Bugzilla to take bug reports for harness [need]
       * Update wiki with necessary information 
       * Move wiki to csswg.org [want]
       * Update w3.org/Style/CSS to be a better testing resource [want]
           * Update w3.org/Style/CSS to new structure
-      * Organize a weekly test day [Wed or Thurs, ask Gabriele?]
-  * Relicense all CSS test suites [need]
+      * [2] Organize a weekly test day [Wed or Thurs, ask Gabriele?]
+  * [1] Relicense all CSS test suites [need]
       * Add new license links to all test suites
-
       * Update /Style/CSS/Test to point to new license
   * Link to CSS1 test suite from /Style/CSS/Test
   * Convince MSFT to develop tests in public
@@ -75,6 +74,6 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
   * Get at least one Mozilla employee (besides dbaron) contributing tests
       * Talk with Zack about creating/checking in css3-background tests
       * Give bzbarsky SVN access
-  * Set up automatic build of test harness on csswg.org
+  * [7] Set up automatic build of test harness on csswg.org
   * Set up build systems for css3-page etc.
       * Make system for importing tests from one suite to another
