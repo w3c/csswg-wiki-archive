@@ -12,6 +12,8 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
           * Validate as XHTML (but don't die if HTMLonly)
           * Validate CSS unless invalid flag (but don't die in case validator has bug)
           * Validate other format-related stuff?
+          * Dump reports of what fails validation
+          * Dump list of all filenames
       * [3] Create index of tests by section, including title and assertions, to check for coverage [need] (may want to split report into one page per section for including assertion [want])
       * [1] Set up directories for css3-background, others [need] (fantasai)
       * [1] Set up ViewVC [need] (Peter)
