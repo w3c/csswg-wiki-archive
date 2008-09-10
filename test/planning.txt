@@ -1,0 +1,69 @@
+====== Test Suite Project Planning ======
+
+This is where fantasai dumps her to-do list and tries to make sense of it.
+
+  * Set up test.csswg.org to give useful information on stuff in SVN
+      * Set up Makefile on dev.w3.org to have option for importing tests from test.csswg.org
+      * Set up automatic build of all validating tests on test.csswg.org
+      * Create test validation script
+          * Validate filenames
+              * Complete src transition
+          * Validate as well-formed XML or die
+          * Validate as XHTML (but don't die)
+          * Validate other format-related stuff?
+      * Create index of tests by section, including title and assertions, to check for coverage
+      * Strip out Eira's completed tests
+      * Check in Gabriele's first set of tests and strip out completed tests
+      * Assign Revenution to check in all their tests
+      * Give Lachy and bz and Zack SVN access
+      * Set up directories for css3-background, others
+      * Set up ViewVC
+      * Create index of tests by contributor
+  * Get half of tests checked in without going through fantasai
+      * Give more people dev.w3.org CVS access
+          * Train Arron, Eira, Gabriele to check in tests
+      * Get review queue under control (2 weeks max lag for review)
+          * HP tests reviewed
+          * Eira's tests reviewed and checked in
+          * Microsoft tests partly reviewed
+          * Train several people (Arron, Eira, Gabriele?) to review tests well
+              * Explain how to get involved reviewing tests
+      * Handle all submissions through Subversion
+          * Set up test.csswg.org to give useful information on stuff in SVN
+          * Explain how to get involved writing tests
+  * Write a blog post to encourage contributions
+      * Figure out which tasks people can do at different ability levels
+      * Explain how to get involved writing tests
+          * Teach Gabriele to use SVN and ask for feedback on process/documentation
+              * Write documentation on using SVN to submit tests
+      * Explain how to get involved reviewing tests
+          * Set up a review system that people can use comfortably or at least list all tests that need review somewhere
+          * Update review process on wiki
+          * Explain how to do a good review on the wiki
+      * Explain how to get involved generating test results
+          * Complete src transition
+          * Set up production harness on w3.org
+              * Get prototype harness to production quality
+                  * Create message-flag mapping table
+                  * Create sample grouping table
+      * Explain how to get involved reporting problems with existing reviewed tests
+          * Set up feedback system for tests and hook up to harness
+      * Explain how to get involved fixing broken tests
+      * Load all harness and build system issues into Bugzilla
+      * Update wiki with necessary information
+      * Move wiki to csswg.org
+      * Update w3.org/Style/CSS to be a better testing resource
+          * Update w3.org/Style/CSS to new structure
+      * Organize a weekly test day
+  * Relicense all CSS test suites
+      * Add new license links to all test suites
+      * Update /Style/CSS/Test to point to new license
+  * Link to CSS1 test suite from /Style/CSS/Test
+  * Convince MSFT to develop tests in public
+      * Talk with Dean about benefits of developing CSS tests in public SVN
+  * Get at least one Opera employee contributing tests
+      * Talk with snorre and chaals at TPAC
+  * Get at least one Mozilla employee (besides dbaron) contributing tests
+      * Talk with Zack about creating/checking in css3-background tests
+      * Give bzbarsky SVN access
+  * Set up automatic build of test harness on csswg.org
