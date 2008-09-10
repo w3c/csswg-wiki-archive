@@ -7,3 +7,4 @@
   * Track status of test (needs review, needs work, etc)
   * Accept comments
   * Be test suite aware (which test belongs to which test suite)
+  * Opt-in to hear comments on tests you reviewed (and accepted but second-level review found problems with?)
