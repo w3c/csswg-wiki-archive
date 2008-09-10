@@ -66,7 +66,8 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
       * Update /Style/CSS/Test to point to new license
   * Link to CSS1 test suite from /Style/CSS/Test
   * Convince MSFT to develop tests in public
-      * Talk with Dean about benefits of developing CSS tests in public SVN
+      * Talk with Dean/Jason/Chris about benefits of developing CSS tests in public SVN
+          * Make presentation on benefits of developing CSS tests in public
   * Get at least one Opera employee contributing tests
       * Talk with snorre and chaals at TPAC
   * Get at least one Mozilla employee (besides dbaron) contributing tests
