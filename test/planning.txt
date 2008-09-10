@@ -60,8 +60,8 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
       * Move wiki to csswg.org [want]
       * Update w3.org/Style/CSS to be a better testing resource [want]
           * Update w3.org/Style/CSS to new structure
-      * Organize a weekly test day
-  * Relicense all CSS test suites
+      * Organize a weekly test day [Wed or Thurs, ask Gabriele?]
+  * Relicense all CSS test suites [need]
       * Add new license links to all test suites
       * Update /Style/CSS/Test to point to new license
   * Link to CSS1 test suite from /Style/CSS/Test
@@ -73,3 +73,4 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
       * Talk with Zack about creating/checking in css3-background tests
       * Give bzbarsky SVN access
   * Set up automatic build of test harness on csswg.org
+  * Make system for importing tests from one suite to another
