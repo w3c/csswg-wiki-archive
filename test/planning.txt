@@ -33,7 +33,7 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
       * [1] Handle all submissions through Subversion
           * Set up test.csswg.org to give useful information on stuff in SVN
           * Explain how to get involved writing tests
-  * [3] Write a blog post to encourage contributions
+  * [5] Write a blog post to encourage contributions
       * Figure out which tasks people can do at different ability levels
       * Explain how to get involved writing tests
           * [1] Teach Gabriele to use SVN and ask for feedback on process/documentation [need]
@@ -75,5 +75,5 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
       * Talk with Zack about creating/checking in css3-background tests
       * Give bzbarsky SVN access
   * [7] Set up automatic build of test harness on csswg.org
-  * Set up build systems for css3-page etc.
+  * [4] Set up build systems for css3-page etc.
       * Make system for importing tests from one suite to another
