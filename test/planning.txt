@@ -53,11 +53,12 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
           * Set up feedback system for tests and hook up to harness [want]
       * Explain how to get involved fixing broken tests
           * List all old tests and mark ones that need improvement
-          * Set up Bugzilla to take bug reports against tests
+          * Set up Bugzilla to take bug reports against tests [need]
       * Load all harness and build system issues into Bugzilla
-      * Update wiki with necessary information
-      * Move wiki to csswg.org
-      * Update w3.org/Style/CSS to be a better testing resource
+          * Set up Bugzilla to take bug reports for harness [need]
+      * Update wiki with necessary information 
+      * Move wiki to csswg.org [want]
+      * Update w3.org/Style/CSS to be a better testing resource [want]
           * Update w3.org/Style/CSS to new structure
       * Organize a weekly test day
   * Relicense all CSS test suites
