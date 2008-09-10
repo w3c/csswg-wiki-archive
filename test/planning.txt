@@ -10,7 +10,7 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
               * Complete src transition
           * Validate as well-formed XML or die
           * Validate as XHTML (but don't die if HTMLonly)
-          * Validate CSS unless invalid flag
+          * Validate CSS unless invalid flag (but don't die in case validator has bug)
           * Validate other format-related stuff?
       * Create index of tests by section, including title and assertions, to check for coverage
       * Strip out Eira's completed tests
