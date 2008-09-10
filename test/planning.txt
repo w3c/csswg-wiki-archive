@@ -74,4 +74,5 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
       * Talk with Zack about creating/checking in css3-background tests
       * Give bzbarsky SVN access
   * Set up automatic build of test harness on csswg.org
-  * Make system for importing tests from one suite to another
+  * Set up build systems for css3-page etc.
+      * Make system for importing tests from one suite to another
