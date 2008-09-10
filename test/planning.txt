@@ -20,7 +20,7 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
       * [1] Check in Gabriele's first set of tests and strip out completed tests (fantasai)
       * [1] Assign Revenution to check in all their tests (Melinda)
       * [1] Get Microsoft's tests all checked in (Arron)
-      * [1] Give Lachy and bz and Zack SVN access (fantasai)
+      * [1] Give Lachy, bz, Melinda, Zack SVN access (fantasai)
   * Get half of tests checked in without going through fantasai
       * Give more people dev.w3.org CVS access
           * Train Arron, Eira, Gabriele to check in tests
