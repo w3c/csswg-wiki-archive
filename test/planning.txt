@@ -35,22 +35,24 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
   * Write a blog post to encourage contributions
       * Figure out which tasks people can do at different ability levels
       * Explain how to get involved writing tests
-          * Teach Gabriele to use SVN and ask for feedback on process/documentation
-              * Write documentation on using SVN to submit tests
+          * Teach Gabriele to use SVN and ask for feedback on process/documentation [need]
+              * Write documentation on using SVN to submit tests [need]
       * Explain how to get involved reviewing tests
           * Set up a review system that people can use comfortably or at least list all tests that need review somewhere
               * Write a requirements document for review system [need]
-          * Update review process on wiki
-          * Explain how to do a good review on the wiki
-      * Explain how to get involved generating test results
+                  * Set up telecon for writing req document [need]
+          * Update review process on wiki [need]
+          * Explain how to do a good review on the wiki [need]
+      * Explain how to get involved generating test results [want]
           * Complete src transition
           * Set up production harness on w3.org
               * Get prototype harness to production quality
                   * Create message-flag mapping table
                   * Create sample grouping table
       * Explain how to get involved reporting problems with existing reviewed tests
-          * Set up feedback system for tests and hook up to harness
+          * Set up feedback system for tests and hook up to harness [want]
       * Explain how to get involved fixing broken tests
+          * List all old tests and mark ones that need improvement
       * Load all harness and build system issues into Bugzilla
       * Update wiki with necessary information
       * Move wiki to csswg.org
