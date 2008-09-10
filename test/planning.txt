@@ -39,6 +39,7 @@ This is where fantasai dumps her to-do list and tries to make sense of it.
               * Write documentation on using SVN to submit tests
       * Explain how to get involved reviewing tests
           * Set up a review system that people can use comfortably or at least list all tests that need review somewhere
+              * Write a requirements document for review system [need]
           * Update review process on wiki
           * Explain how to do a good review on the wiki
       * Explain how to get involved generating test results
