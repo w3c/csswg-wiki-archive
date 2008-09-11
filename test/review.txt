@@ -77,8 +77,8 @@ and intelligently critiquing existing tests.
 The third qualification is met by someone vouching for you. This could be a
 test suite Owner or Peer, or it could be someone else trusted by an Owner.
 For example, since fantasai trusts active members of the CSS Working Group,
-an employee of Microsoft can ask his CSS Working Group representative, Markus
-Mielke, to vouch. As another example, since fantasai trusts Mozilla module owners
+an employee of Microsoft can ask his CSS Working Group representative to vouch.
+As another example, since fantasai trusts Mozilla module owners
 and peers, a contributor to that project could ask one of them to vouch.
 By vouching, a voucher is putting his or her reputation on the line, and is
 confirming that the candidate has established enough credibility in the voucher's
