@@ -1,4 +1,4 @@
-====== CSS Test: Margin Boxes - Top ======
+====== CSS Test: Margin Boxes - Top Center's Left Margin ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page-mbox-010.xht
