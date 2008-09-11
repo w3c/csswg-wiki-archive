@@ -17,7 +17,7 @@ In all cases the CSS Working Group has final say in whether a test is valid, and
 
 Once changes pass review, the reviewer must send notice of their acceptance. The test is now "Accepted".
 
-At this point an Owner or Peer needs to approve the test. The Owner or Peer can either accept the reviewer's judgement (if the reviewer is known to be competent in this area) or review the test himself. Once the Owner or Peer is satisfied the test is "Approved".  New tests and changes that have been reviewed and approved can be checked in by anyone with write access, and that person is not required to perform any further review.
+At this point an Owner or Peer needs to approve the test. The Owner or Peer can either accept the reviewer's judgement (if the reviewer is known to be competent in this area) or review the test himself. Once the Owner or Peer is satisfied the test is "Approved".  New tests and changes that have been reviewed and approved can be checked in by anyone with write access, and that person is not required to perform any further review. The checkin comment should indicate the approver by either "r=approver" if the approver performed a review or "rs=approver" if the approver rubber-stamped the previous reviewer's judgement.
 
 The review process looks like this:
 
