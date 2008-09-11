@@ -23,7 +23,7 @@ The review process looks like this:
 
 {{:test:css2.1:review-flowchart.png|}}
 
-Changes to the build scripts, must be reviewed by a test suite Owner.
+Changes to the build scripts must be reviewed by a test suite Owner.
 
 To request review, send proposed tests and changes to public-css-testsuite as described
 in the [[test:css2.1:contribute|contribution guidelines]].
