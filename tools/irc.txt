@@ -1,6 +1,8 @@
 ====== W3C CSS Testing IRC Discussion ======
 
-IRC stands for "Internet Relay Chat". It's a chat protocol used extensively at W3C. We have weekly "Test Days" on Wednesdays when a bunch of us plan to hang out on the IRC channel to answer questions and discuss CSS testing. There's no set time, but you're more likely to run into people during West Coast daytime / Europe evenings.
+IRC stands for "Internet Relay Chat". It's a chat protocol used extensively at W3C.
+
+We have weekly "Test Days" on Wednesdays when a bunch of us plan to hang out on the IRC channel to answer questions and discuss CSS testing. There's no set time, but you're more likely to run into people during West Coast daytime / Europe evenings.
 
 ===== Server Info =====
 
