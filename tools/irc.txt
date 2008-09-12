@@ -8,7 +8,7 @@ IRC stands for "Internet Relay Chat". It's a chat protocol used extensively at W
 
 You'll need an IRC client. Opera has one built-in. Mozilla has "Chatzilla", which is part of Seamonkey and available as an add-on for Firefox. Pidgin and Trillian can also do IRC. There's a web interface to IRC called [[http://www.mibbit.com/|Mibbit]] (type 'irc.w3.org:6665' as the server name). And there are various stand-alone programs you can download.
 
-Some basic commands:
+IRC commands are prefixed with a slash. Some basic commands:
 
   ; /nick gabriele : change your IRC nick to gabriele
   ; /join #css-test : join the #css-test channel
