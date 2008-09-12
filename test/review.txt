@@ -14,8 +14,7 @@ The review process looks like this:
 
 Changes to the build scripts must be reviewed by a test suite Owner.
 
-To request review, send proposed tests and changes to public-css-testsuite as described
-in the [[test:css2.1:contribute|contribution guidelines]].
+To request review, submit proposed tests and changes as described in the [[test:css2.1:contribute|contribution guidelines]].
 
 If these requirements change, notice will be sent to public-css-testsuite of the changes.
 
