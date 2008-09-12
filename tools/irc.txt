@@ -23,7 +23,7 @@ IRC commands are prefixed with a slash. (Any other text you type into a channel 
   ; /nick gabriele : change your IRC nick to gabriele
   ; /join #css-test : join the #css-test channel
   ; /query fantasai : start a private chat with fantasai
-  ; /me is sleepy : speak in the third person about yourself being sleepy
+  ; /me waves hi : speak in the third person
   ; /away sleep : set your away message to "sleep"
   ; /away : remove your away message
   ; /whois fantasai : see information about user fantasai including idle time and away msg (if any)
