@@ -1,12 +1,20 @@
 ====== W3C CSS Testing IRC Discussion ======
 
-IRC stands for "Internet Relay Chat". It's a chat protocol used extensively at W3C. We have a channel dedicated to CSS testing. Here's the information you'll need:
+IRC stands for "Internet Relay Chat". It's a chat protocol used extensively at W3C.
+
+===== Server Info =====
+
+We have a channel dedicated to CSS testing. Here's the information you'll need:
 
   ; Server : irc.w3.org
   ; Port : 6665 (or 80 if 6665 is blocked on your end)
   ; Channel : #css-test
 
+===== IRC Clients =====
+
 You'll need an IRC client. Opera has one built-in. Mozilla has "Chatzilla", which is part of Seamonkey and available as an add-on for Firefox. Pidgin and Trillian can also do IRC. There's a web interface to IRC called [[http://www.mibbit.com/|Mibbit]] (type 'irc.w3.org:6665' as the server name). And there are various stand-alone programs you can download.
+
+===== IRC Commands =====
 
 IRC commands are prefixed with a slash. (Any other text you type into a channel gets posted as a message to the channel.) Some basic commands:
 
