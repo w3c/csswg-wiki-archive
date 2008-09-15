@@ -10,44 +10,44 @@ Time estimates are raw: multiply by three for planning purposes. ;-)
 |   | ... ... ... Set up validation framework | 1/2 day |
 |   | ... ... ... Validate filenames | 1 hour |
 |   | ... ... ... ... Complete renaming transition | 1 hour |
-|   | ... ... ... Validate as well-formed XML or die | |
-|   | ... ... ... Validate as XHTML (but don't die if HTMLonly) | |
-|   | ... ... ... Validate CSS unless invalid flag (but don't die in case validator has bug) | |
-|   | ... ... ... Validate other format-related stuff? | |
-|   | ... ... ... Dump reports of what fails validation | |
-|   | ... ... Dump list of all filenames | |
-| W | ... Create nice coverage report with summary and one detailed page per section | |
-| 3 | ... ... Create index of tests by section, including title and assertions, to check for coverage | |
-| 1 | ... Set up directories for css3-background, others [need] (fantasai) | |
-| 1 | ... Set up ViewVC [need] (Peter) | |
-| W | ... Create index of tests by contributor | |
-| 1 | ... Strip out Eira's completed tests [need] (fantasai) | |
-| 1 | ... Check in Gabriele's first set of tests and strip out completed tests (fantasai) | |
-| 1 | ... Assign Revenution to check in all their tests (Melinda) | |
-| 1 | ... Get Microsoft's tests all checked in (Arron) | |
-| 1 | ...  Give Lachy, bz, Melinda, Zack SVN access (fantasai) | |
+|   | ... ... ... Validate as well-formed XML or die | 3 hours |
+|   | ... ... ... Validate as XHTML (but don't die if HTMLonly) | 3 hours|
+|   | ... ... ... Validate CSS unless invalid flag (but don't die in case validator has bug) | 3 hours |
+|   | ... ... ... Validate other format-related stuff? | ? |
+|   | ... ... ... Dump reports of what fails validation | 3 hours |
+|   | ... ... Dump list of all filenames | 1 hour |
+| W | ... Create nice coverage report with summary and one detailed page per section | 1/2 day |
+| 3 | ... ... Create index of tests by section, including title and assertions, to check for coverage | 3 hours |
+| 1 | ... Set up directories for css3-background, others [need] (fantasai) | 2 hours |
+| 1 | ... Set up ViewVC [need] (Peter) | ? |
+| W | ... Create index of tests by contributor | 2 hours |
+| 1 | ... Strip out Eira's completed tests [need] (fantasai) | 1 hours |
+| 1 | ... Check in Gabriele's first set of tests and strip out completed tests (fantasai) | 1 hour |
+| 1 | ... Assign Revenution to check in all their tests (Melinda) | ? |
+| 1 | ... Get Microsoft's tests all checked in (Arron) | 1 hour |
+| 1 | ...  Give Lachy, bz, Melinda, Zack SVN access (fantasai) | 1 hour |
 |   | Get half of tests checked in without going through fantasai | |
 |   | ... Give more people dev.w3.org CVS access | |
-|   | ... ... Teach Arron, Eira, Gabriele to check in tests | |
+|   | ... ... Teach Arron, Eira, Gabriele to check in tests | ? |
 |   | ... Get review queue under control (2 weeks max lag for review) | |
-|   | ... ... HP tests reviewed | |
-|   | ... ... Eira's tests reviewed and checked in | |
-|   | ... ... Microsoft tests partly reviewed | |
-|   | ... Train several people (Arron, Eira, Gabriele?) to review tests well | |
-|   | ... ... Explain how to get involved reviewing tests => | |
+|   | ... ... HP tests reviewed | 30 hours |
+|   | ... ... Eira's tests reviewed and checked in | 8 hours |
+|   | ... ... Microsoft tests partly reviewed | ? |
+|   | ... Train several people (Arron, Eira, Gabriele?) to review tests well | ?|
+|   | ... ... Explain how to get involved reviewing tests => | 4 hours |
 | 1 | ... ... Handle all submissions through Subversion | |
 |   | ... ... ... Set up test.csswg.org to give useful information on stuff in SVN => | |
-| 5 | Write a blog post to encourage contributions | |
-|   | ... Figure out which tasks people can do at different ability levels | |
+| 5 | Write a blog post to encourage contributions | 6 hours |
+|   | ... Figure out which tasks people can do at different ability levels |  1 hour |
 |   | ... Explain how to get involved writing tests | |
 | 1 | ... ... Teach Gabriele to use SVN and ask for feedback on process/documentation | |
-|   | ... ... ... Write documentation on using SVN to submit tests [need] | |
+|   | ... ... ... Write documentation on using SVN to submit tests [need] | 6 hours |
 |   | ... Explain how to get involved reviewing tests | |
-|   | ... ... Set up a review system that people can use comfortably or at least list all tests that need review somewhere | |
-| 1 | ... ... ... Write a requirements document for review system | |
-|   | ... ... ... ... Set up telecon for writing req document | |
-| 1 | ... ... Update review process on wiki | |
-| 2 | ... ... Explain how to do a good review on the wiki | |
+|   | ... ... Set up a review system that people can use comfortably or at least list all tests that need review somewhere | ? |
+| 1 | ... ... ... Write a requirements document for review system | 4 hours |
+|   | ... ... ... ... Set up telecon for writing req document | 15 min |
+| 1 | ... ... Update review process on wiki | done |
+| 2 | ... ... Explain how to do a good review on the wiki | 2 hours |
 | W | ... Explain how to get involved generating test results | |
 |   | ... ... Complete naming transition | |
 |   | ... ... Set up production harness on w3.org | |
