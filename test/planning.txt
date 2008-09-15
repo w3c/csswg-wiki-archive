@@ -21,7 +21,7 @@ Time estimates are raw: multiply by three for planning purposes. ;-)
 | 1 | ... Set up directories for css3-background, others [need] (fantasai) | 2 hours |
 | 1 | ... Set up ViewVC [need] (Peter) | ? |
 | W | ... Create index of tests by contributor | 2 hours |
-| 1 | ... Strip out Eira's completed tests [need] (fantasai) | 1 hours |
+| 1 | ... Strip out Eira's completed tests (fantasai) | done |
 | 1 | ... Check in Gabriele's first set of tests and strip out completed tests (fantasai) | 1 hour |
 | 1 | ... Assign Revenution to check in all their tests (Melinda) | ? |
 | 1 | ... Get Microsoft's tests all checked in (Arron) | 1 hour |
