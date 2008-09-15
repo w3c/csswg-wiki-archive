@@ -1,3 +1,7 @@
+This is where fantasai dumps her todo list and tries to make sense of it.
+
+Time estimates are raw: multiply by three for planning purposes. ;-)
+
 ^ P ^ Task ^ Estimate ^
 | 1 | Set up test.csswg.org to give useful information on stuff in SVN | - |
 | 2 | ... Set up automatic build of all validating tests on test.csswg.org (tests not in format aren't built, but can be repo) | 1 day |
