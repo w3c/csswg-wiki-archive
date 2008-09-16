@@ -7,7 +7,7 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
   * [[test:cvs|Quick-start Guide for Commandline CVS]]
   * [[http://svn.collab.net/repos/svn/trunk/doc/user/cvs-crossover-guide.html|SVN Guide for Commandline CVS Users]]
   * [[test:harness|Browseable Test Harness]]
-
+  * [[test:fonts|Installing Fonts for CSS Testing]]
 
 
   * [[test:CSS2.1|CSS2.1 Conformance Test Suite]]
