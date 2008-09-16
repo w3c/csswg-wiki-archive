@@ -1,3 +1,15 @@
 ====== Installing Fonts for CSS Testing ======
 
-http://dev.w3.org/CSS/fonts/ahem/
+**To install the Ahem font on Windows:**
+<html>
+<head><title="" /></head>
+<body>
+<ul>
+<li>
+<strong>For XP:</strong> first download and then <em>Copy</em> the <a href="http://dev.w3.org/CSS/fonts/ahem/">Ahem</a> font file; then go to the drive which Windows is installed in (probably 'C:'), open the  ‘Windows’ folder, then the ‘Fonts’ folder and finally <em>Paste</em> the fonts.
+</li><li>
+<strong>For Vista</strong> you can simply right-click the downloaded file (probably in your Downloads directory) and choose <em>Install</em>. Vista will confirm your acceptance with a User Account Control (UAC) pop-up window. Simply click <em>Continue</em>.
+</li>
+</ul>
+</body>
+</html>
