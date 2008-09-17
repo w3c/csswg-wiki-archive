@@ -4,12 +4,21 @@
 <html>
 <head><title="" /></head>
 <body>
-<ul>
-<li>
-<strong>For XP:</strong> first download and then <em>Copy</em> the <a href="http://dev.w3.org/CSS/fonts/ahem/">Ahem</a> font file; then go to the drive which Windows is installed in (probably 'C:'), open the  ‘Windows’ folder, then the ‘Fonts’ folder and finally <em>Paste</em> the fonts.
-</li><li>
-<strong>For Vista</strong> you can simply right-click the downloaded file (probably in your Downloads directory) and choose <em>Install</em>. Vista will confirm your acceptance with a User Account Control (UAC) pop-up window. Simply click <em>Continue</em>.
-</li>
-</ul>
+    <ul>
+        <li>Download the font you want to install.</li>
+        <li>Open the folder where you downloaded the font file.</li>
+        <li><strong>For Windows XP/Server 2003:</strong>
+            <ul>
+                <li>From the run dialog type '%windir%/fonts' and press <em>enter</em>.</li>
+                <li>From the download folder, where you downloaded the font; drag-and-drop the file to the fonts folder.</li>
+            </ul>
+        </li>
+        <li><strong>For Windows Vista/Server 2008</strong>
+            <ul>
+                <li>From the download folder, where you downloaded the font; right-click the font and select <em>install</em>.</li>
+                <li>Confirm your acceptance to the User Account Control (UAC) pop-up window. Select <em>continue</em></li>
+            </ul>
+        </li>
+    </ul>
 </body>
 </html>
