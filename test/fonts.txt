@@ -5,7 +5,7 @@
 <head><title="" /></head>
 <body>
     <ul>
-        <li>Download the font you want to install.</li>
+        <li>Download the font you want to install. The Ahem font can be obtained at <a href="http://dev.w3.org/CSS/fonts/ahem/">http://dev.w3.org/CSS/fonts/ahem/</a>.</li>
         <li>Open the folder where you downloaded the font file.</li>
         <li><strong>For Windows XP/Server 2003:</strong>
             <ul>
