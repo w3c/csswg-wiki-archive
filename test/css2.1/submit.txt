@@ -39,6 +39,6 @@ limit: 500
 
 
 ---- datatable ----
-cols    : %pageid%, status_tag, authors, group_tags
-headers : Submission, Status, Authors, Groups
+cols    : %pageid%, status_tag, authors, group_tags, testcase_url
+headers : Submission, Status, Authors, Groups, URL
 ----
