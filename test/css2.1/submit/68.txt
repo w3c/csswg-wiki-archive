@@ -3,7 +3,7 @@
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page-mbox-031.xht
 authors         : Tom Clancy
-status_tag      : Accepted
+status_tag      : NeedsWork
 group_tags      : Rev1670,DimensionOfMarginBoxesLeftSide,MarginBoxes
 # Do not edit below this line
 ----
