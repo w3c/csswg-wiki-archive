@@ -657,3 +657,10 @@ to the sentence
   ;Summary : @rules in unexpected contexts should parse as @rules.
   ;Resolution :  @rules inside declaration blocks are ignored if between declarations (i.e. at the beginning of a declaration before the property), invalid if within declarations.
   ;Status : =Bert= Draft proposed text.
+
+==== Issue 72 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html
+  ;Summary : extra columns in fixed tables are rendered
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html
+  ;Status : =WG= Discuss.
