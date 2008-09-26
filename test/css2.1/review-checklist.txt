@@ -26,7 +26,27 @@ Getting these correct lets us automatically index and manipulate the tests.
   * [ ] One or more <link> elements [[test:css2.1:format#credits|credit the author(s)]].
   * [ ] One or more <link> elements [[test:css2.1:format#specification-links|link to the specification]] to show what is being tested.
   * [ ] Any necessary [[test:css2.1:format#requirement-flags|requirement flags]] are given.
-  * [ ] The [[test assertion]] is a **complete**, **detailed** statement expressing **specifically** what the test is attempting to prove.
+  * [ ] The [[test:css2.1:format#test-assertions|test assertion]] is a **complete**, **detailed** statement expressing **specifically** what the test is attempting to prove.
+
+===== Test Contents =====
+
+  * [ ] Test instructions are in ''<p>''.
+  * [ ] Test uses only ''<div>'', ''<span>'', and ''<p>'' unless testing interactions with other elements.
+  * [ ] Table tests using XHTML table elements have an equivalent test with <div> with table display types (and vice versa insofar as possible).
+  * [ ] The test's use of color is consistent with the [[http://www.w3.org/Style/CSS/Test/guidelines.html#color|color usage guidelines]]
+
+===== Test Design =====
+
+Determining whether the test is correct, and whether it is useful.
+
+  * [ ] Test is testing what the author thinks it's testing.
+  * [ ] The test fails obviously whenever it fails.
+  * [ ] The pass condition is clear.
+  * [ ] The test contains no extraneous content.
+  * [ ] The test instructions are accurate, precise, simple, and self-explanatory. (Your mother/husband/roommate/brother/bus driver should be able to say whether the test passed or failed within a few seconds, and not need to spend several minutes thinking or asking questions.)
+  * [ ] The test is as cross-platform as reasonably possible, working across different devices, screen resolutions, paper sizes, etc. If there are limitations (e.g. the test will only work on 96dpi devices, or screens wider than 200 pixels), these are documented in the instructions.
+  * [ ] The spec backs up the expected behavior in the test. (I've run into a number of tests that make assumptions I could've sworn were in the spec, but aren't there when I go and check. Since this often means the spec forgot to handle something, you should send a message to www-style about it.)
+  * [ ] The test makes no assumptions that aren't in the [[http://www.w3.org/Style/CSS/Test/CSS2.1/current/|list of common assumptions]]
 
 ===== Nitpicky =====
 
