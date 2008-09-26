@@ -1,0 +1,36 @@
+====== CSS Test Review Checklist ======
+
+A list of things to check for before accepting a test for the CSS2.1 test suite.
+
+===== Format Validity =====
+
+These are necessary for the test to be processed correctly by our build scripts.
+
+  * [ ] Test is well-formed XML.
+  * [ ] Test validates as XHTML.
+  * [ ] CSS Validates (or CSS Does Not Validate if testing syntax error-handling).
+      * If the CSS Validator has a bug, please either [[http://www.w3.org/Bugs/Public/|file it]] or [[http://lists.w3.org/Archives/Public/www-validator-css/|email www-validator-css@w3.org]].
+  * [ ] Images are in PNG (with no transparency except as required).
+  * [ ] Filename follows [[test:css2.1:format#filename-format|filename format]].
+  * [ ] Filename is unique.
+  * [ ] Support files are in ''support/'' directory.
+  * [ ] Support files follow guidelines for [[test:css2.1:format#support-files|support files' filename format]].
+  * [ ] Source code is indented consistently.
+
+===== Metadata =====
+
+Getting these correct lets us automatically index and manipulate the tests.
+
+  * [ ] Title is //unique// and //descriptive// but not wordy. (It should make sense in the test suite's [[http://www.w3.org/Style/CSS/Test/CSS2.1/current/html4/by-section.htm|table of contents]].)
+  * [ ] Title starts with ''CSS Test: ''.
+  * [ ] One or more <link> elements [[test:css2.1:format#credits|credit the author(s)]].
+  * [ ] One or more <link> elements [[test:css2.1:format#specification-links|link to the specification]] to show what is being tested.
+  * [ ] Any necessary [[test:css2.1:format#requirement-flags|requirement flags]] are given.
+  * [ ] The [[test assertion]] is a **complete**, **detailed** statement expressing **specifically** what the test is attempting to prove.
+
+===== Nitpicky =====
+
+These are optional, but make the tests easier to review.
+
+  * [ ] Declarations are listed in a consistent order throughout a test series. (Always listing properties in alphabetical order makes this easy.)
+  * [ ] Requirement flags are in alphabetical order.
