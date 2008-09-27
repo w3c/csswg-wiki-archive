@@ -54,3 +54,4 @@ These are optional, but make the tests easier to review.
 
   * [ ] Declarations are listed in a consistent order throughout a test series. (Always listing properties in alphabetical order makes this easy.)
   * [ ] Requirement flags are in alphabetical order.
+  * [ ] Sentences have correct grammar, spelling, and punctuation.
