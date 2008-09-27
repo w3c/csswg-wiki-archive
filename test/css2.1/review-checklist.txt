@@ -26,7 +26,7 @@ Getting these correct lets us automatically index and manipulate the tests.
   * [ ] One or more <link> elements [[test:css2.1:format#credits|credit the author(s)]].
   * [ ] One or more <link> elements [[test:css2.1:format#specification-links|link to the specification]] to show what is being tested.
   * [ ] Any necessary [[test:css2.1:format#requirement-flags|requirement flags]] are given.
-  * [ ] The [[test:css2.1:format#test-assertions|test assertion]] is a **complete**, **detailed** statement expressing **specifically** what the test is attempting to prove.
+  * [ ] The [[test:css2.1:format#test-assertions|test assertion]] is a **complete**, **detailed** statement expressing **specifically** what the test is attempting to prove (and is therefore not a duplicate of any other assertion in the test suite).
 
 ===== Test Contents =====
 
