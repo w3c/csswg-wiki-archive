@@ -693,7 +693,7 @@ to the sentence
   ;Resolution : Proposal accepted.
   ;Status : =Bert= Edit.
 
-==== Issue 76 ====
+==== Issue 77 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0233.html
   ;Summary : Printing of fixed position boxes in Paged Media
