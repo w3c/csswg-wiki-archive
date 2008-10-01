@@ -669,7 +669,9 @@ to the sentence
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0216.html
   ;Summary : URL grammar and comments
-  ;Status : == Needs proposal.
+  ;Proposal : No change. Comments are not allowed inside url(). Add a note to clarify.
+  ;Status : =Saloni= Report whether MSFT agrees. =Peter= draft note.
+
 
 ==== Issue 74 ====
 
