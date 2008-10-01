@@ -2,7 +2,7 @@
 
 **Issues are currently tracked at http://www.w3.org/Style/CSS/Tracker/products/11**
 
-===== Current Issues =====
+===== Old Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2005/WD-css3-background-20050216/|16 February 2005 CSS Backgrounds and Borders Level 3 Working Draft]].
 
