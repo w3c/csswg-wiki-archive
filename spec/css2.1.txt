@@ -671,3 +671,11 @@ to the sentence
   ;Summary : URL grammar and comments
   ;Status : == Needs proposal.
 
+==== Issue 74 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0228.html
+  ;Summary : Remove text about avoiding page breaks within floats, tables, and blocks with borders
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Sep/0228.html
+  ;Status : =WG= Discuss.
+
+
