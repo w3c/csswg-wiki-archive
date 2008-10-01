@@ -678,4 +678,11 @@ to the sentence
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Sep/0228.html
   ;Status : =WG= Discuss.
 
+==== Issue 75 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html
+  ;Summary : Browsers don't drop extra columns in fixed table layout
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html and say that width of cells and columns and table are undefined when there are extra cells
+  ;Status : =Saloni= Propose exact text.
+
 
