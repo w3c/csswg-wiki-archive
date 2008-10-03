@@ -4,7 +4,7 @@
 testcase_url    : http://www.revenutiontesting.com/w3c/page-size-012.xht
 authors         : Tom Clancy
 status_tag      : Submitted # status_tag can be Submitted, OutOfScope, Duplicate, NeedsWork, Accepted, or CheckedIn
-group_tags      : PageSize
+group_tags      : Rev0340,PageSize
 # Do not edit below this line
 ----
 
