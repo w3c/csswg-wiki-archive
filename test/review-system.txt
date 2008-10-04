@@ -11,3 +11,10 @@
   * Easy to set up an account
   * Bulk submit preserving folder structure
   * Should work on all browsers
+
+====== Workflow ======
+
+  * Test contributor checks in tests
+  * Someone (?) is notified about the new tests and the available metadata
+  * Reviewers review the tests
+  * ...
