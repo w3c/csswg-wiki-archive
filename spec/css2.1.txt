@@ -503,7 +503,7 @@ not just that of the breakpoint's parent.</p>
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0195.html
   ;Summary : Should page-break-* apply to <BR> ?
   ;Resolution : page-break-* applies to block-level elements and MAY apply to "other elements"
-  ;Status : Needs proposal.
+  ;Status : =Bert= Edit.
 
 ==== Issue 53 ====
 
