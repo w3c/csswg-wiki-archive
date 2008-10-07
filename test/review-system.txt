@@ -1,6 +1,6 @@
 ====== Requirements for a Test Review System ======
 
-See also http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0025.html
+See also [[http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0025.html|outline of a CSS test suite review system]] and [[http://wiki.csswg.org/test/css2.1/review|Review Process Documentation]].
 
   * Check off X tests and give them all the same comment
   * Find test by ID, URL, title, etc.
