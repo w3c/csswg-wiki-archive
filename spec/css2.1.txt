@@ -510,7 +510,7 @@ not just that of the breakpoint's parent.</p>
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0227.html
   ;Summary : Interaction of pre* and justification poorly defined.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jul/0532.html
-  ;Status : Needs testcase.
+  ;Status : Open. Needs testcase.
 
 ==== Issue 54 ====
 
