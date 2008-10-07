@@ -1,5 +1,7 @@
 ====== Requirements for a Test Review System ======
 
+See also http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0025.html
+
   * Check off X tests and give them all the same comment
   * Find test by ID, URL, title, etc.
   * Handle renaming of test
