@@ -18,7 +18,8 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
   * [[test:css2.1:review|CSS2.1 Test Suite Review Process]]
   * [[test:css2.1:format|Test Suite Template and Format Guidelines]]
 
-===== Test Suites =====
+===== Test Suite Wiki Pages =====
+
   * [[test:CSS2.1|CSS2.1 Conformance Test Suite]]
   * [[test:selectors|Selectors Level 3 Conformance Test Suite]]
   * [[test:paged-media|Paged Media Level 3 Conformance Test Suite]]
