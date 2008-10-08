@@ -14,6 +14,7 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
 
 ===== Test Suite Documentation =====
 
+  * [[http://www.w3.org/Style/CSS/Test/|Official W3C CSS Test Suites]]
   * [[test:fonts|Installing Fonts for CSS Testing]]
   * [[test:css2.1:review|CSS2.1 Test Suite Review Process]]
   * [[test:css2.1:format|Test Suite Template and Format Guidelines]]
