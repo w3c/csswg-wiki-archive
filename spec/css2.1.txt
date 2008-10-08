@@ -678,7 +678,7 @@ to the sentence
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0228.html
   ;Summary : Remove text about avoiding page breaks within floats, tables, and blocks with borders
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Sep/0228.html
-  ;Resolution : Proposal accepted.
+  ;Resolution : Proposal accepted, plus add "Avoid breaking inside a replaced element."
   ;Status : =Bert= Edit.
 
 ==== Issue 75 ====
