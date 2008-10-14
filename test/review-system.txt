@@ -26,4 +26,4 @@ See also [[http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0025
   - Contributor receives review comments on 6/9 tests
   - Contributor fixes tests
   - Contributor resubmits tests
-  - Contributor receives acknowledgement that tests have been accepted
+  - Contributor receives acknowledgement that tests have been accepted and checked in
