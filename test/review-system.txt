@@ -16,7 +16,14 @@ See also [[http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0025
 
 ====== Workflow ======
 
-  * Test contributor checks in tests
-  * Someone (?) is notified about the new tests and the available metadata
-  * Reviewers review the tests
-  * ...
+===== Workflow for Individual Contributor =====
+
+  - Contributor submits tests
+  - Contributor gets back automated report of what's wrong
+  - Contributor fixes tests to match format
+  - Contributor resubmits tests, they pass
+  - Contributor waits for review
+  - Contributor receives review comments on 6/9 tests
+  - Contributor fixes tests
+  - Contributor resubmits tests
+  - Contributor receives acknowledgement that tests have been accepted
