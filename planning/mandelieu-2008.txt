@@ -21,3 +21,5 @@ Proposed topics for topics for the October 2008 CSS Working Group Face-to-Face m
   * css3-color (if dbaron is ready)
   * [[http://www.w3.org/Style/css2-updates/issues-4-20061106.html#issue-31|special behavior of BODY]]
   * [[http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2008-October/016544.html|value pseudo-attributes]] (wacky future idea)
+  * WAI issue on system colors (related to css3-color, may not need all of WG, details to be coordinated with Al)
+  * [[http://lists.w3.org/Archives/Member/w3c-html-cg/2008OctDec/0022.html|User control over UI,]] suggested as cross-WG topic by Al and Debbie, could be lunch BOF or bigger, tocuhes Media Queries
