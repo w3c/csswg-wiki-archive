@@ -14,6 +14,7 @@ Proposed topics for topics for the October 2008 CSS Working Group Face-to-Face m
     * [[http://www.w3.org/Style/CSS/Tracker/issues/65|Does :hover apply to parent of hovered element?]]
     * [[http://www.w3.org/Style/CSS/Tracker/issues/66|Add grammar for an+b notation in Selectors]]
     * [[http://www.w3.org/Style/CSS/Tracker/issues/67|::selection pseudo-element]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2006Jan/0209.html|:first-line interaction with inheritance]]
   * CSS3 Page Issues
   * ftf schedule 2009 (I, Bert, only have enough budget for one foreign trip until the next TPAC...)
   * [[http://lists.w3.org/Archives/Member/w3c-css-wg/2008OctDec/0020.html|Text layout/direction module]]
