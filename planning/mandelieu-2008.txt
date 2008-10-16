@@ -18,3 +18,6 @@ Proposed topics for topics for the October 2008 CSS Working Group Face-to-Face m
   * CSS3 Page Issues
   * ftf schedule 2009 (I, Bert, only have enough budget for one foreign trip until the next TPAC...)
   * [[http://lists.w3.org/Archives/Member/w3c-css-wg/2008OctDec/0020.html|Text layout/direction module]]
+  * css3-color (if dbaron is ready)
+  * [[http://www.w3.org/Style/css2-updates/issues-4-20061106.html#issue-31|special behavior of BODY]]
+  * [[http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2008-October/016544.html|value pseudo-attributes]] (wacky future idea)
