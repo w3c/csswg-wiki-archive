@@ -4,13 +4,15 @@ Proposed topics for topics for the October 2008 CSS Working Group Face-to-Face m
 
   * Named pages and inheritance of 'page'
   * Margin collapsing
-  * http://lists.w3.org/Archives/Public/www-style/2008Sep/0232.html
-  * http://lists.w3.org/Archives/Public/www-style/2008Sep/0230.html
-  * http://www.w3.org/Style/CSS/Tracker/issues/63
-  * http://wiki.csswg.org/spec/css2.1#issue-60 (z-index)
+  * [[http://lists.w3.org/Archives/Public/www-style/2008Sep/0232.html|Issue with overflow/scroll in paged media]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2008Sep/0230.html|Issue with computed height in Paged Media]]
+  * [[http://www.w3.org/Style/CSS/Tracker/issues/63|New background shorthand requires 2-token lookahead]]
+  * [[http://wiki.csswg.org/spec/css2.1#issue-60|Z-index in level 2]]
   * Getting a few web designers involved as Invited Experts
     * Keeping Jason as an Invited Expert?
   * Selectors Issues
-    * http://www.w3.org/Style/CSS/Tracker/issues/65
-    * http://www.w3.org/Style/CSS/Tracker/issues/66
+    * [[http://www.w3.org/Style/CSS/Tracker/issues/65|Does :hover apply to parent of hovered element?]]
+    * [[http://www.w3.org/Style/CSS/Tracker/issues/66|Add grammar for an+b notation in Selectors]]
   * CSS3 Page Issues
+  * ftf schedule 2009 (I, Bert, only have enough budget for one foreign trip until the next TPAC...)
+  * [[http://lists.w3.org/Archives/Member/w3c-css-wg/2008OctDec/0020.html|Text layout/direction module]]
