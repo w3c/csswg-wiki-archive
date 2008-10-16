@@ -11,4 +11,5 @@ Proposed topics for topics for the October 2008 CSS Working Group Face-to-Face m
   * Getting a few web designers involved as Invited Experts
     * Keeping Jason as an Invited Expert?
   * Selectors Issues
+    * http://www.w3.org/Style/CSS/Tracker/issues/65
   * CSS3 Page Issues
