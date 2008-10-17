@@ -712,3 +712,9 @@ to the sentence
   ;Proposal : Replace "combined with" with "applied to an element having content generated using" and "including the inserted text" with "including the generated content".
   ;Resolution : Assumed editorial.
   ;Status : =Bert= Edit.
+
+==== Issue 79 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0112.html
+  ;Summary : margin-collapsing with min-height
+  ;Status : =WG= Discuss.
