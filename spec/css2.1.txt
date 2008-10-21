@@ -564,7 +564,7 @@ not just that of the breakpoint's parent.</p>
 
   ;URL : http://dev.moonhenge.net/css21/spec/z-index/
   ;Summary : Z-index and stacking behavior prose needs revision
-  ;Status : =WG= Needs in-depth review, discussion (by experts in this area, and not on the telecon).
+  ;Status : =Bert= Edit.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Oct/0238.html and http://lists.w3.org/Archives/Public/www-style/2008Oct/0240.html
   ;Resolution : (1) in section 9.5, change "float's parent's stacking context" to "float's parent stacking context" and (2) in section 9.9.1, add "non-positioned" to items 3, 4, and 5 in the 7-point list
 
