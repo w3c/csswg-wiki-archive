@@ -728,3 +728,10 @@ to the sentence
   ;Proposal : http://www.w3.org/Style/css2-updates/issues-4-20061106.html#issue-31
   ;Resolution : Accepted proposed text for body magic from issues-4
   ;Status : =Bert= Edit.
+
+==== Issue 81 ====
+
+  ;URL : http://www.w3.org/blog/CSS/2008/04/04/resolutions_18
+  ;Summary : Clarify that [attr~=""] matches nothing
+  ;Resolution : http://www.w3.org/blog/CSS/2008/04/04/resolutions_18
+  ;Status : =Bert= Edit.
