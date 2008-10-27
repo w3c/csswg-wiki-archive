@@ -1,4 +1,4 @@
-====== CSS Test: Margin Box Inheritance ======
+====== CSS Test: Margin Box Inheritance - Specific Properties Only ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page_properties/page-properties-011-b.xht
