@@ -1,4 +1,4 @@
-====== CSS Test: page-break-before :auto ======
+====== CSS Test: page-break-before initial value ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page-break-before-007-a.xht
