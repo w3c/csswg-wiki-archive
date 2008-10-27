@@ -1,4 +1,4 @@
-====== CSS Test: breaks inside elements: orphans ======
+====== CSS Test: breaks inside elements: orphans - block-level only ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/breaks_inside_elements/orphans-002.xht
