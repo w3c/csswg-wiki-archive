@@ -1,4 +1,4 @@
-====== CSS Test: widows property syntax ======
+====== CSS Test: widows property syntax - integer ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/breaks_inside_elements/widows-000-a.xht
