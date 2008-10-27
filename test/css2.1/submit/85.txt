@@ -1,4 +1,4 @@
-====== CSS Test: breaks inside elements: widows ======
+====== CSS Test: breaks inside elements: widows - inheritance ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/breaks_inside_elements/widows-003.xht
