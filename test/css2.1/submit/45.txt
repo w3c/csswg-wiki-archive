@@ -1,4 +1,4 @@
-====== CSS Test: Page Size - Handling Page Size ======
+====== CSS Test: Page Size - Handling Page Size - 4x6 ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page-size-008-c.xht
