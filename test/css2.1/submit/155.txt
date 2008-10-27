@@ -1,4 +1,4 @@
-====== CSS Test: orphans property syntax ======
+====== CSS Test: orphans property syntax - invalid negative ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/breaks_inside_elements/orphans-000-c.xht
