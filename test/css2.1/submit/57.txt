@@ -1,4 +1,4 @@
-====== CSS Test: page properties: border properties ======
+====== CSS Test: page properties: page borders (bottom) ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page_properties/page-properties-013-b.xht
