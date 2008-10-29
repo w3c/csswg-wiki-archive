@@ -735,3 +735,10 @@ to the sentence
   ;Summary : Clarify that [attr~=""] matches nothing
   ;Resolution : http://www.w3.org/blog/CSS/2008/04/04/resolutions_18
   ;Status : =Bert= Edit.
+
+==== Issue 82 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0197.html
+  ;Summary : Case of 'u' in UNICODE-RANGE token
+  ;Resolution : Assumed editorial.
+  ;Status : =Bert= Edit.
