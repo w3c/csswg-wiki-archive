@@ -27,3 +27,8 @@ See also [[http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0025
   - Contributor fixes tests
   - Contributor resubmits tests
   - Contributor receives acknowledgement that tests have been accepted and checked in
+
+===== Workflow for Dedicated Reviewer =====
+
+  - Reviewer ..
+  - Reviewer ..
