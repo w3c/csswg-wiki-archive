@@ -3,7 +3,7 @@
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/at-page-rule-002-h.xht
 authors         : Tom Clancy
-status_tag      : Submitted
+status_tag      : NeedsWork
 group_tags      : Rev0100
 # Do not edit below this line
 ----
