@@ -12,6 +12,7 @@ Each test submitted into this system has a status. Possible status tags are:
 
   ; Submitted : The test case has been submitted for review
   ; OutOfScope : The test case is testing something that is out-of-scope for this module and is therefore rejected for inclusion.
+  ; SpecIssue : The test case is testing behavior which is ambiguous or not-yet-resolved in the spec, so acceptance is pending resolution of a spec issue.
   ; Duplicate : The test case is a duplicate of an existing test case in the test suite and is therefore rejected for inclusion
   ; NeedsWork : The test case needs further work before it is ready for inclusion, and should be resubmitted once the requested improvements have been made. (The reviewer setting this status must explain what problems the testcase has.)
   ; Resubmitted : The test case has been resubmitted for review after previous review comments have been addressed.
