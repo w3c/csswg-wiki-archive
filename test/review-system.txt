@@ -36,7 +36,7 @@ See also [[http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0025
   - Reviewer looks for duplicate tests in the set of 'Approved', 'Accepted', and checked-in tests; if found, reject the lesser-quality test as 'Duplicate', or suggest merging the two tests.
   - Reviewer checks that the test assertion (whether explicit or implied) is justified by the specification.
       * If the assertion regards functionality specified outside the css module indicated by the 'help' metadata links, reject as 'OutOfScope'. 
-      * If it addresses an ambiguity or open issue within the spec, set status to 'SpecIssue' and ensure that issue has been posted to www-style@w3.org or public-css-testsuite@w3.org.
+      * If it addresses an ambiguity or open issue within the spec, set status to 'SpecIssue' and ensure that issue has been posted to www-style@w3.org or public-css-testsuite@w3.org and is being tracked appropriately.
   - Reviewer checks the test for correctness.  (See the [[/test/css2.1/review-checklist]] for details.)  If no problems are found, set the status to 'Accepted'.
   - Otherwise, Reviewer enters comments explaining what changes need to be made and sets the status to 'NeedsWork'. (If the Reviewer has the Author's permission to make changes directly, the Reviewer may also change the test as necessary.  In this case, the status is set to 'Resubmitted' and someone else, possibly the Author, must review.) 
 
