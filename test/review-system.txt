@@ -33,7 +33,7 @@ See also [[http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0025
 ===== Workflow for Reviewer =====
 
   - If the Reviewer has 'Owner' or 'Peer' status (see [[/test/css2.1/review]]), the Reviewer searches the submittal data base for tests in the 'Accepted' state; if not, or if no 'Accepted' tests were found, Reviewer searches the submittal data base for tests in the 'Resubmitted' or 'Submitted' state and selects a test to review.  (He or she cannot review his or her own tests.) 
-  - Reviewer looks for duplicate tests in the set of 'Approved', 'Accepted', and checked-in tests; if found, reject one of the tests as 'Duplicate', or merge the two.
+  - Reviewer looks for duplicate tests in the set of 'Approved', 'Accepted', and checked-in tests; if found, reject one of the tests as 'Duplicate', or suggest merging the two.
   - Reviewer checks that the test assertion (whether explicit or implied) is justified by the specification.
       * If the assertion regards functionality specified outside the css module indicated by the 'help' metadata links, reject as 'OutOfScope'. 
       * If it addresses an ambiguity or open issue within the spec, set status to 'SpecIssue' and ensure that issue has been posted to www-style@w3.org or public-css-testsuite@w3.org.
