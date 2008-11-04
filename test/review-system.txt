@@ -18,6 +18,8 @@ See also [[http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0025
 
 ===== Workflow for Test Author =====
 
+  - Author identifies an assertion to test
+  - Author designs and creates tests and, when possible, checks that the test behaves as expected in at least one implementation.
   - Author submits tests
   - Author gets back automated report of what's wrong
   - Author fixes tests to match format
@@ -30,5 +32,8 @@ See also [[http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0025
 
 ===== Workflow for Reviewer =====
 
-  - Reviewer ..
-  - Reviewer ..
+  - If the Reviewer has 'Owner' or 'Peer' status (see [[/test/css2.1/review]]), the Reviewer searches the submittal data base for tests in the 'Accepted' state; if not, or if no 'Accepted' tests were found, Reviewer searches the submittal data base for tests in the 'Resubmitted' or 'Submitted' state and selects a test to review.  (He or she cannot review his or her own tests.) 
+  - Reviewer looks for duplicate tests in the set of 'Approved', 'Accepted', and checked-in tests; if found, reject test as 'Duplicate'.  [Go to 4.]
+  - Reviewer checks the test for correctness.  (See the [[/test/css2.1/review-checklist]] for details.)  Set the status, as defined on the [[/test/css2.1/submit]] page, appropriately.
+  - Reviewer enters comments explaining what changes need to be made. (Alternatively, if the Reviewer has the Author's permission to make changes directly, the Reviewer may change the test as necessary.  In this case, the status is set to 'Resubmitted'.) 
+  - If the test is now in the 'Approved' state, the Reviewer checks it in to the W3C CSS Test database, renaming the file as appropriate, and sets the status to 'CheckedIn'.
