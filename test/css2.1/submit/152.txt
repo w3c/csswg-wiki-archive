@@ -3,7 +3,7 @@
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/image-fit-007.xht
 authors         : Tom Clancy
-status_tag      : Submitted
+status_tag      : NeedsWork
 group_tags      : Rev2900
 # Do not edit below this line
 ----
