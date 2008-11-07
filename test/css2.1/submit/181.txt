@@ -1,4 +1,4 @@
-====== CSS Test: @page border property points ======
+====== CSS Test: @page borders shorthand using exs ======
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/at-page-rule-002-q.xht
