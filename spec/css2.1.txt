@@ -758,3 +758,10 @@ to the sentence
   ;Resolution : Proposal accepted.
   ;Extended Proposal : http://lists.w3.org/Archives/Public/www-style/2008Nov/0082.html
   ;Status : =WG= Discuss.
+
+==== Issue 85 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Nov/0039.html http://lists.w3.org/Archives/Public/www-style/2008Nov/0078.html
+  ;Summary : Spec conflict wrt handling of backslash followed by newline in ident
+  ;Proposal : Remove \r\n\f from escape token
+  ;Status : =WG= Discuss.
