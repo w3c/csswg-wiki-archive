@@ -131,6 +131,8 @@ A major design principle is to integrate with Subversion so that changes in SVN 
 
 === interface to rename/move test files ===
 
+  * Should allow substring matching to rename/move multiple files
+
 ==== URL Scheme ====
 
   * review/test/id
