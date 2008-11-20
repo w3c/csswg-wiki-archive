@@ -9,7 +9,7 @@ The Ahem font is available in several formats for different systems. If we are m
   - Download the [[http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF|TrueType version of Ahem]].
   - Open the folder where you downloaded the font file.
        * **For Windows XP/Server 2003:**
-            - Open the Fonts folder from the Control Panel, or from the Run dialog type ''%windir%/fonts'' and press Enter.
+            - Open the Fonts folder from the Control Panel.
             - Drag-and-drop the downloaded file to the fonts folder.
        * **For Windows Vista/Server 2008**
             - Right-click the downloaded font file and select "Install".
