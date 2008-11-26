@@ -765,3 +765,12 @@ to the sentence
   ;Summary : Spec conflict wrt handling of backslash followed by newline in ident
   ;Proposal : Remove \r\n\f from escape token
   ;Status : =WG= Discuss.
+
+==== Issue 86 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Nov/0298.html
+  ;Summary : Position of list-item marker in presence of floats, text-align
+  ;Proposal : Add "The position of the list-item marker in the presence of floats is undefined in CSS2.1." Ask web-designers about text-align.
+  ;Status : =WG= Discuss.
+
+
