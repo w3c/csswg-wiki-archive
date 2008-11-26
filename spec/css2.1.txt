@@ -783,4 +783,5 @@ to the sentence
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Nov/0483
   ;Summary : Is anonymous outer table box a block-formatting context?
+  ;Proposal : Anonymous outer table box behaves as a block formatting context except that the top margin of a top caption / bottom margin of a bottom caption collapses with the top / bottom table margin.
   ;Status : =WG= Discuss.
