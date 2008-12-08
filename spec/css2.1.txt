@@ -798,3 +798,10 @@ to the sentence
   ;Summary : Update vendor prefix table
   ;Resolution : Assumed editorial.
   ;Status : =Bert= Edit or not.
+
+==== Issue 91 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0070.html
+  ;Summary : Spec unclear about whether line break opportunities found before or after white space collapsing
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Dec/0075.html
+  ;Status : =WG= Discuss.
