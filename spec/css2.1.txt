@@ -811,8 +811,7 @@ to the sentence
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0008.html
   ;Summary : Use more precise wording to describe widows and orphans.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Dec/0008.html
-  ;Resolution : Assumed editorial.
-  ;Status : =Bert= Edit.
+  ;Status : =WG= Discuss.
 
 ==== Issue 93 ====
 
