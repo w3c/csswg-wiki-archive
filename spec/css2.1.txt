@@ -805,3 +805,11 @@ to the sentence
   ;Summary : Spec unclear about whether line break opportunities found before or after white space collapsing
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Dec/0075.html
   ;Status : =WG= Discuss.
+
+==== Issue 92 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0008.html
+  ;Summary : Use more precise wording to describe widows and orphans.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Dec/0008.html
+  ;Resolution : Assumed editorial.
+  ;Status : =Bert= Edit.
