@@ -237,7 +237,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Testcase : http://fantasai.inkedblade.net/style/tests/ad-hoc/syntax/matching-brackets-000.xht
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008May/0252.html
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
+  ;Status : =Bert= Edit. =WG= Discuss http://lists.w3.org/Archives/Public/www-style/2008Nov/0509.html
 
 
 ==== Issue 25 ====
