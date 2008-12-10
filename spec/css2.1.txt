@@ -720,6 +720,7 @@ to the sentence
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0112.html
   ;Summary : margin-collapsing with min-height
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Nov/0297.html
   ;Status : =WG= Discuss.
 
 ==== Issue 80 ====
