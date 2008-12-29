@@ -825,3 +825,11 @@ to the sentence
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Dec/0007.html
   ;Resolution : Assumed editorial.
   ;Status : =Bert= Edit.
+
+==== Issue 94 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0156.html
+  ;Summary : 'none' creates ambiguity parsing 'list-style' shorthand
+  ;Proposal : ambiguity parsing 'list-style'
+  ;Status : =WG= Discuss.
+
