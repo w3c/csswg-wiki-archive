@@ -3,7 +3,7 @@
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/breaks_inside_elements/orphans-000-a.xht
 authors         : Tom Clancy
-status_tag      : Submitted
+status_tag      : NeedsWork
 group_tags      : Rev2340,PageBreaks,BreakInside,Orphans
 # Do not edit below this line
 ----
