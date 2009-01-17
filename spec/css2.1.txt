@@ -831,7 +831,7 @@ to the sentence
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0156.html
   ;Summary : 'none' creates ambiguity parsing 'list-style' shorthand
-  ;Proposal : ambiguity parsing 'list-style'
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Jan/0255.html
   ;Status : =WG= Discuss.
 
 ==== Issue 95 ====
