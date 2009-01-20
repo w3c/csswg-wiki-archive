@@ -78,7 +78,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Test Results : http://lists.w3.org/Archives/Public/www-style/2008Mar/0029.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0024.html
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
+  ;Status : =Bert= Edit Changes section.
 
 ==== Issue 9 ====
 
