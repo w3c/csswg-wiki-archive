@@ -858,3 +858,10 @@ to the sentence
   ;Resolution : Assumed editorial.
   ;Status : =Bert= Edit.
 
+==== Issue 98 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jan/0195.html
+  ;Summary : Allow preserving top margin after a forced page break
+  ;Resolution : Proposal accepted.
+  ;Status : =Bert= Edit.
+
