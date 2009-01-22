@@ -307,8 +307,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Are @import rules ignored or honored after invalid but recognized @rules?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0079.html
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
-
+  ;Status : Closed.
 
 
 
