@@ -137,7 +137,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
    * the element has no bottom padding or border.
 
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 15 ====
 
