@@ -415,7 +415,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Apr/0197.html
   ;Summary : Remove or edit containing block notes for top/left/bottom/right props.
   ;Resolution : Assumed editorial.
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 44 ====
 
