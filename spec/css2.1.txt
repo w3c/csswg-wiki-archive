@@ -528,8 +528,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Spec contradictory on whether markers inside principal box or not
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jul/0451.html
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
-
+  ;Status : Closed.
 
 ==== Issue 59 ====
 
