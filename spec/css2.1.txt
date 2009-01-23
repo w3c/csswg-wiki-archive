@@ -547,7 +547,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Testcases : http://lists.w3.org/Archives/Public/www-style/2008Oct/0263.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Oct/0238.html and http://lists.w3.org/Archives/Public/www-style/2008Oct/0240.html
   ;Resolution : (1) in section 9.5, change "float's parent's stacking context" to "float's parent stacking context" and (2) in section 9.9.1, add "non-positioned" to items 3, 4, and 5 in the 7-point list
-  ;Status : =Bert= Edit. =WG= Discuss testcases.
+  ;Status : =WG= Discuss testcases.
 
 ==== Issue 61 ====
 
