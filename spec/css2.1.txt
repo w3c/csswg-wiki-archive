@@ -561,7 +561,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Grammar for @media versus general block parsing
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Aug/0168.html
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
+  ;Status : =Bert= Edit Changes section.
 
 ==== Issue 63 ====
 
