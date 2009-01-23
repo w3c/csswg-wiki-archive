@@ -569,7 +569,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Processing Model should be informative
   ;Proposal : Make Section 2.3 (but not its subsections) informative, remove last three sentences about scope.
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 64 ====
 
