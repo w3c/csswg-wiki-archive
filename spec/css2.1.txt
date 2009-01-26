@@ -679,7 +679,7 @@ to the sentence
   ;Summary : Clarify rules wrt content outside the page box
   ;Proposal : When formatting content in the page model, some content may end up outside the *current* page box. For example, an element whose 'white-space' property has the value 'pre' may generate a box that is wider than the page box. *As another example,* when boxes are positioned absolutely *or relatively*, they may end up in "inconvenient" locations. For example, images may be placed on the edge of the page box or 100,000 meters below the page box.
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 77 ====
 
