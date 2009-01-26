@@ -695,7 +695,7 @@ to the sentence
   ;Summary : :before / :after description implies that :before:first-line is valid
   ;Proposal : Replace "combined with" with "applied to an element having content generated using" and "including the inserted text" with "including the generated content".
   ;Resolution : Assumed editorial.
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 79 ====
 
