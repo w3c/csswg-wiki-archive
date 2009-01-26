@@ -718,7 +718,7 @@ to the sentence
   ;URL : http://www.w3.org/blog/CSS/2008/04/04/resolutions_18
   ;Summary : Clarify that [attr~=""] matches nothing
   ;Resolution : http://www.w3.org/blog/CSS/2008/04/04/resolutions_18
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 82 ====
 
