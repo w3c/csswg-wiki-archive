@@ -784,7 +784,7 @@ to the sentence
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0055.html
   ;Summary : Update vendor prefix table
   ;Resolution : Assumed editorial.
-  ;Status : =Bert= Edit or not.
+  ;Status : Closed.
 
 ==== Issue 91 ====
 
