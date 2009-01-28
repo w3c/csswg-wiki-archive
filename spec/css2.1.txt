@@ -853,5 +853,12 @@ to the sentence
   ;URL : http://www.w3.org/mid/495A4E7E.10305@gmail.com
   ;Summary : Appendix G says: 'The two occurrences of "\377"...' but there is only one.
   ;Proposal : Change this sentence and the next to singular.
-  ;Resolution : Asumed editorial
+  ;Resolution : Assumed editorial
   ;Status : =Bert= Edit.
+
+==== Issue 100 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jan/0448.html
+  ;Summary : Background propagation rules imply only ''background-image'' and ''background-color'' are propagated.
+  ;Proposal : Use wording from http://dev.w3.org/csswg/css3-background/#special-backgrounds
+  ;Status : =WG= Discuss.
