@@ -739,9 +739,9 @@ to the sentence
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Oct/0294.html http://lists.w3.org/Archives/Public/www-international/2008OctDec/0002.html http://lists.w3.org/Archives/Public/www-international/2008OctDec/0007.html
   ;Summary : Should white-space apply to IDEOGRAPHIC SPACE
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Oct/0356.html
-  ;Resolution : Proposal accepted.
   ;Extended Proposal : http://lists.w3.org/Archives/Public/www-style/2008Nov/0082.html
-  ;Status : =WG= Discuss.
+  ;Resolution : Proposals accepted.
+  ;Status : Closed.
 
 ==== Issue 85 ====
 
