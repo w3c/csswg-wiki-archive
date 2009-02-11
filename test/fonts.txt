@@ -17,4 +17,7 @@ The Ahem font is available in several formats for different systems. If we are m
 
 ==== Installing Ahem on Mac OS X ====
 
-//Someone fill this in please? :)//
+  - Download the [[http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF|TrueType version of Ahem]].
+  - Right-click the font and select "Install"
+  - Alternatively, drag and drop in either ''/Library/Fonts'' (available for all users on the machine) or ''~/Library/Fonts'' (available to current user only)
+
