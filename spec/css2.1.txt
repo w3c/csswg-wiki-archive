@@ -497,7 +497,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Specify left/right as being position for ltr/rtl list markers
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jun/0349.html
   ;Resolved : Accept proposal with s/elements/list items/
-  ;Status : =Bert= Edit Changes section.
+  ;Status : Closed.
 
 ==== Issue 55 ====
 
