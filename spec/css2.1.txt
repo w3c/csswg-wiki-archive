@@ -606,8 +606,7 @@ to the sentence
     with a backslash to remove its special meaning.
 .
   ;Resolution : Accepted proposal to update prose to match tokenization.
-  ;Status : =Bert= Edit.
-
+  ;Status : Closed.
 
 ==== Issue 67 ====
 
