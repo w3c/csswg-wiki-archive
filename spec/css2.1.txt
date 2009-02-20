@@ -725,7 +725,7 @@ to the sentence
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0197.html
   ;Summary : Case of 'u' in UNICODE-RANGE token
   ;Resolution : Assumed editorial.
-  ;Status : =Bert= Edit Errata.
+  ;Status : Closed.
 
 ==== Issue 83 ====
 
