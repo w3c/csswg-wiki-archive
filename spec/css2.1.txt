@@ -439,8 +439,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Clarify how media queries qualify style rules
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jun/0106.html
   ;Resolution : Proposal accepted proposal plus adding "The import only takes effect if the target medium matches the media list." to last paragraph in 6.3
-  ;Status : =Bert= Edit CHanges section.
-
+  ;Status : Closed.
 
 ==== Issue 47 ====
 
