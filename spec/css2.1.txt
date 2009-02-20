@@ -482,7 +482,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0195.html
   ;Summary : Should page-break-* apply to <BR> ?
   ;Resolution : page-break-* applies to block-level elements and MAY apply to "other elements"
-  ;Status : =Bert= Edit for page-break-inside, update Changes section.
+  ;Status : Closed.
 
 ==== Issue 53 ====
 
