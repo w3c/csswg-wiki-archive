@@ -462,7 +462,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Clarify computed value of font-weight wrt bolder/lighter
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Aug/0167.html with s/will more/will be more/
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit Fonts chapter.
+  ;Status : =Bert= Mark up note as a note.
 
 ==== Issue 50 ====
 
