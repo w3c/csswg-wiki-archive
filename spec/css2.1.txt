@@ -399,7 +399,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Pixel values should be normatively related to device pixels
   ;Proposal : Add "It is recommended that the pixel unit refer to the whole number of device pixels that best approximates the reference pixel." to px definition
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit Changes section.
+  ;Status : Closed.
 
 ==== Issue 42 ====
 
