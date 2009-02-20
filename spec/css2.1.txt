@@ -584,7 +584,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 > The size or contents of the marker box may affect the height of the principal block box and/or the height of its first line box, and in some cases may cause the creation of a new line box.
 > Note: This interaction may be more precisely defined in a future level of CSS. 
 
-  ;Status : =Bert= Edit Changes section.
+  ;Status : Closed.
 
 
 ==== Issue 65 ====
