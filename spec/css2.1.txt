@@ -873,9 +873,9 @@ to the sentence
 ==== Issue 102 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Feb/0126.html
-  ;Summary : Parsing of @import after unknown rules
+  ;Summary : Parsing of @import after garbage
   ;Proposal : Only ignore @import if it follows a {non-@}-rule or a known @-rule that it is not allowed to follow.
-  ;Status : =WG= Discuss.
+  ;Status : =WG= Discuss. See also Issue 106.
 
 ==== Issue 103 ====
 
