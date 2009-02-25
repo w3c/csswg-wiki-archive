@@ -2,39 +2,16 @@
 
 Proposed topics for topics for the March 2009 CSS Working Group Face-to-Face meeting in Tokyo.
 
-* css3-page:
+  * css3-page:
+      * [[http://lists.w3.org/Archives/Public/www-style/2009Jan/0339.html|issue about selectors]]
+      * issue about margin collapsing and page breaks: [[http://lists.w3.org/Archives/Public/www-style/2009Jan/0285.html|1]][[http://lists.w3.org/Archives/Public/www-style/2009Jan/0286.html|2]][[http://lists.w3.org/Archives/Public/www-style/2009Feb/0562.html|3]][[http://lists.w3.org/Archives/Public/www-style/2009Jan/0341.html|4]] Also, people may want to think about more use cases
 
- * issue about selectors:
+  *css3-multicol
+     * do we need column-break properties?
+     * is it ready for last call? 
 
-       http://lists.w3.org/Archives/Public/www-style/2009Jan/0339.html
-
- * issue about margin collapsing and page breaks:
-
-       http://lists.w3.org/Archives/Public/www-style/2009Jan/0285.html
-       http://lists.w3.org/Archives/Public/www-style/2009Jan/0286.html
-       http://lists.w3.org/Archives/Public/www-style/2009Feb/0562.html
-       http://lists.w3.org/Archives/Public/www-style/2009Jan/0341.html
-
-     people may want to think about more use cases
-
-*css3-multicol
-
-  * column-break should be discussed properties on a white-board, though
-  * is it ready for last call? 
-
-* css3-values
-
-  * the interface with css3-syntax may need some tuning:
-
-      http://lists.w3.org/Archives/Public/www-style/2009Feb/0059.html
-
-* css3-gcpm -- there are two implementations of a significant subset of the functionality, and howcome suggests making a new draft based on:
-
-      http://dev.w3.org/csswg/css3-gcpm/
-
-   sans sections: 8, 9, 17, 20-25
-
-   this avoids the difficult "how-to-move-elements" issue, the
-   experimentional "paged-presentations-for-all" and the more advanced
-   layout and semi-transformation stuff.
+  * css3-values
+     * [[http://lists.w3.org/Archives/Public/www-style/2009Feb/0059.html|the interface with css3-syntax may need some tuning]]
+      
+  * css3-gcpm -- there are two implementations of a significant subset of the functionality, and howcome suggests making a new draft based on [[http://dev.w3.org/csswg/css3-gcpm/|the current editors's draft]], but without sections: 8, 9, 17, 20-25. This avoids the difficult "how-to-move-elements" issue, the experimentional "paged-presentations-for-all" and the more advanced layout and semi-transformation stuff.
 
