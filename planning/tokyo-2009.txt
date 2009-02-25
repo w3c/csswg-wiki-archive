@@ -2,13 +2,13 @@
 
 Proposed topics for topics for the March 2009 CSS Working Group Face-to-Face meeting in Tokyo.
 
- - css3-page:
+* css3-page:
 
-     issue about selectors:
+ * issue about selectors:
 
        http://lists.w3.org/Archives/Public/www-style/2009Jan/0339.html
 
-     issue about margin collapsing and page breaks:
+ * issue about margin collapsing and page breaks:
 
        http://lists.w3.org/Archives/Public/www-style/2009Jan/0285.html
        http://lists.w3.org/Archives/Public/www-style/2009Jan/0286.html
@@ -17,15 +17,18 @@ Proposed topics for topics for the March 2009 CSS Working Group Face-to-Face mee
 
      people may want to think about more use cases
 
- - css3-multicol -- is it ready for last call? we should discuss column-break 
-   properties on a white-board, though
+*css3-multicol
 
- - css3-values -- the interface with css3-syntax may need some tuning:
+  * column-break should be discussed properties on a white-board, though
+  * is it ready for last call? 
+
+* css3-values
+
+  * the interface with css3-syntax may need some tuning:
 
       http://lists.w3.org/Archives/Public/www-style/2009Feb/0059.html
 
- - css3-gcpm -- there are two implementations of a significant subset
-   of the functionality, and howcome suggests making a new draft based on 
+* css3-gcpm -- there are two implementations of a significant subset of the functionality, and howcome suggests making a new draft based on:
 
       http://dev.w3.org/csswg/css3-gcpm/
 
