@@ -15,3 +15,4 @@ Proposed topics for topics for the March 2009 CSS Working Group Face-to-Face mee
       
   * css3-gcpm -- there are two implementations of a significant subset of the functionality, and howcome suggests making a new draft based on [[http://dev.w3.org/csswg/css3-gcpm/|the current editors's draft]], but without sections: 8, 9, 17, 20-25. This avoids the difficult "how-to-move-elements" issue, the experimentional "paged-presentations-for-all" and the more advanced layout and semi-transformation stuff.
 
+  * inherit and initial values: where to put them in specs?
