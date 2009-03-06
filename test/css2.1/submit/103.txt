@@ -1,7 +1,7 @@
 ====== CSS Test: Image Fit - Height and width are independent when image-fit is 'fill' ======
 
 ---- dataentry ----
-testcase_url    : http://www.revenutiontesting.com/w3c/image-fit-006.xht
+testcase_url    : http://test.csswg.org/submitted/css3-page/image-fit-006.xht
 authors         : Tom Clancy
 status_tag      : Accepted
 group_tags      : Rev2880
