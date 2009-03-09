@@ -3,7 +3,7 @@
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page-break-inside-002.xht
 authors         : Tom Clancy
-status_tag      : Accepted
+status_tag      : NeedsWork
 group_tags      : Rev2220
 # Do not edit below this line
 ----
