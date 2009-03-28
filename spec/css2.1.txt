@@ -927,3 +927,8 @@ to the sentence
   ;Summary : anonymous table objects and white space
   ;Status : Open
 
+
+==== Issue 111 ====
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0070.html
+  ;Summary : synchronize font-weight: bolder/lighter changes with any accepted for css3-fonts
+  ;Status : Open
