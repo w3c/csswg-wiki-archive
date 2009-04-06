@@ -10,3 +10,4 @@ Some ideas for features for a future Paged Media Level 4 spec:
   * ability to repeat table captions, change text slightly (add '(cont.)', etc)
   * ability to [[http://lists.w3.org/Archives/Public/www-style/2008Nov/0280.html|wrap rows]]
   * ability to apply widows/orphans pagination controls to table rows in a table (vs lines in a paragraph)
+  * add percentage to page-break-before(after) as conditional page break.  (See http://lists.w3.org/Archives/Public/www-style/2009Apr/0039.html)
