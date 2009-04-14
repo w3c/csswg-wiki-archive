@@ -46,7 +46,6 @@ The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-200
   ;Resolution : Accepted to use ''S+''.
   ;Status : Closed.
 
-
 ==== Issue 6 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Aug/0174.html
@@ -67,9 +66,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : No change.
   ;Status : Closed.
 
-
-
-
 ==== Issue 8 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Aug/0034.html http://lists.w3.org/Archives/Public/www-style/2008Apr/0246.html
@@ -87,10 +83,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Assumed editorial.
   ;Status : Closed.
 
-
-
-
-
 ==== Issue 10 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0069.html
@@ -107,7 +99,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Assumed editorial.
   ;Status : Closed.
 
-
 ==== Issue 12 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Sep/0101.html
@@ -116,14 +107,12 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Proposal accepted.
   ;Status : Closed.
 
-
 ==== Issue 13 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jul/0124.html
   ;Summary : "tag selector" should be "type selector"
   ;Resolution : Assumed editorial.
   ;Status : Closed.
-
 
 ==== Issue 14 ====
 
@@ -173,13 +162,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Assumed editorial.
   ;Status : Closed.
 
-
-
-
-
-
-
-
 ==== Issue 19 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Nov/0169.html
@@ -188,10 +170,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2007Nov/0219.html http://lists.w3.org/Archives/Public/www-style/2007Nov/0221.html
   ;Resolution : [[http://www.w3.org/blog/CSS/2007/12/12/case_sensitivity|Proposal accepted.]]
   ;Status : Closed.
-
-
-
-
 
 ==== Issue 20 ====
 
@@ -207,11 +185,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0139.html
   ;Summary : Index format inaccessible
   ;Resolution : Assumed editorial.
-  ;Status : =Bert= Edit.
-
-
-
-
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 22 ====
 
@@ -220,7 +194,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0037.html
   ;Resolution : Proposal accepted.
   ;Status : Closed.
-
 
 ==== Issue 23 ====
 
@@ -237,7 +210,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008May/0252.html
   ;Proposal 2 : http://lists.w3.org/Archives/Public/www-style/2008Dec/0091.html
   ;Resolution : Duplicate malformed declarations rule for malformed statements (statements rule to come after declarations rule in the spec).
-  ;Status : =Bert= Edit.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 25 ====
 
@@ -255,12 +228,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal :Proposal in http://lists.w3.org/Archives/Public/www-style/2007Dec/0252.html and http://lists.w3.org/Archives/Public/www-style/2007Dec/0253.html but needs resolution on open question in the latter proposal; see http://lists.w3.org/Archives/Public/www-style/2008Jan/0004.html
   ;Status : Open. See proposal notes for needed work.
 
-
-
-
-
-
-
 ==== Issue 27 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0188.html
@@ -271,7 +238,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Spec Firefox 3's behavior for above testcase. Proposal above accepted with two changes: add "the" between "with" and "scrollbars" and change "excluded from" to "taken out of"
   ;Status : Closed.
 
-
 ==== Issue 28 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0208.html
@@ -279,7 +245,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : Add "(but not a combination)" after "without commas" in <shape> definition.
   ;Resolution : Proposal accepted.
   ;Status : Closed.
-
 
 ==== Issue 29 ====
 
@@ -289,16 +254,12 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Assumed editorial.
   ;Status : Closed.
 
-
 ==== Issue 30 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0525.html
   ;Summary : Hebrew list-style-type used in example, though not defined in 2.1
   ;Resolution : Assumed editorial.
   ;Status : Closed.
-
-
-
 
 ==== Issue 31 ====
 
@@ -307,8 +268,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0079.html
   ;Resolution : Proposal accepted.
   ;Status : Closed.
-
-
 
 ==== Issue 32 ====
 
@@ -326,8 +285,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Proposal accepted.
   ;Status : Closed.
 
-
-
 ==== Issue 34 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0576.html
@@ -335,8 +292,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0040.html
   ; Resolution : Proposal accepted.
   ;Status : Closed.
-
-
 
 ==== Issue 35 ====
 
@@ -355,17 +310,13 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Proposal accepted.
   ;Status : Closed.
 
-
-
-
 ==== Issue 37 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Mar/0038.html
   ;Summary : ":before, :after { white-space: pre-line; }" should be either made normative or dropped
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0070.html as modified by http://lists.w3.org/Archives/Public/www-style/2008Mar/0074.html
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit Changes section.
-
+  ;Status : Closed.
 
 ==== Issue 38 ====
 
@@ -389,7 +340,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Missing "tr{vertical-align:inherit}" in Appendix D
   ;Proposal : Add tr {vertical-align:inherit} to Appendix D
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit Changes section.
+  ;Status : Closed.
 
 
 ==== Issue 41 ====
@@ -461,7 +412,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Clarify computed value of font-weight wrt bolder/lighter
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Aug/0167.html with s/will more/will be more/
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Mark up note as a note.
+  ;Status : Closed.
 
 ==== Issue 50 ====
 
@@ -547,7 +498,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Testcases : http://lists.w3.org/Archives/Public/www-style/2008Oct/0263.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Oct/0238.html and http://lists.w3.org/Archives/Public/www-style/2008Oct/0240.html
   ;Resolution 1 : (1) in section 9.5, change "float's parent's stacking context" to "float's parent stacking context" and (2) in section 9.9.1, add "non-positioned" to items 3, 4, and 5 in the 7-point list
-  ;Status : Edits above closed. =WG= Discuss additional testcases.
+  ;Status : Open. Edits above closed. =WG= Discuss additional testcases.
 
 ==== Issue 61 ====
 
@@ -576,15 +527,8 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Mar/0192.html
   ;Summary : Marker box may affect height of principal block box.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jul/0453.html
-  ;Resolution : Add to definition for ''outside''
-
-
-
-> The size or contents of the marker box may affect the height of the principal block box and/or the height of its first line box, and in some cases may cause the creation of a new line box.
-> Note: This interaction may be more precisely defined in a future level of CSS. 
-
+  ;Resolution : Add to definition for ''outside'' "The size or contents of the marker box may affect the height of the principal block box and/or the height of its first line box, and in some cases may cause the creation of a new line box. Note: This interaction may be more precisely defined in a future level of CSS."
   ;Status : Closed.
-
 
 ==== Issue 65 ====
 
@@ -598,12 +542,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0473.html
   ;Summary : Prose and token definition disagree on whether escapes may occur in comments
-  ;Proposal : In 4.1.3 prepend
-    Except within CSS comments
-to the sentence
-    Any character (except a hexadecimal digit) can be escaped
-    with a backslash to remove its special meaning.
-.
+  ;Proposal : In 4.1.3 prepend "Except within CSS comments" to the sentence "Any character (except a hexadecimal digit) can be escaped with a backslash to remove its special meaning."
   ;Resolution : Accepted proposal to update prose to match tokenization.
   ;Status : Closed.
 
@@ -619,7 +558,8 @@ to the sentence
   ;Summary : Case-sensitivity of '':lang()'' and ''[xml|lang|=]''
   ;Testcase : http://lists.w3.org/Archives/Public/www-archive/2008Jul/att-0026/xmllang.xhtml
   ;Proposal : Copy wording from http://dev.w3.org/csswg/selectors3/#lang-pseudo
-  ;Status : =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 69 ====
 
@@ -640,21 +580,21 @@ to the sentence
   ;URL : 
   ;Summary : @rules in unexpected contexts should parse as @rules.
   ;Resolution :  @rules inside declaration blocks are ignored if between declarations (i.e. at the beginning of a declaration before the property), invalid if within declarations.
-  ;Status : =Bert= Draft proposed text.
+  ;Status : Open. =Bert= Draft proposed text.
 
 ==== Issue 72 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html
   ;Summary : extra columns in fixed tables are rendered
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html plus say that column and table widths are undefined when extra cells are present in fixed layout
-  ;Status : =Saloni= Create updated proposal.
+  ;Status : Open. =Saloni= Create updated proposal.
 
 ==== Issue 73 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0216.html
   ;Summary : URL grammar and comments
   ;Proposal : No change. Comments are not allowed inside url(). Add a note to clarify.
-  ;Status : =Saloni= Report whether MSFT agrees. =Peter= draft note.
+  ;Status : Open. =Saloni= Report whether MSFT agrees. =Peter= draft note.
 
 
 ==== Issue 74 ====
@@ -670,7 +610,7 @@ to the sentence
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html
   ;Summary : Browsers don't drop extra columns in fixed table layout
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html and say that width of cells and columns and table are undefined when there are extra cells
-  ;Status : =Saloni= Propose exact text.
+  ;Status : Open. =Saloni= Propose exact text.
 
 ==== Issue 76 ====
 
@@ -746,15 +686,15 @@ to the sentence
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Nov/0039.html http://lists.w3.org/Archives/Public/www-style/2008Nov/0078.html
   ;Summary : Spec conflict wrt handling of backslash followed by newline in ident
-  ;Proposal : Remove \r\n\f from escape token
-  ;Status : =WG= Discuss.
+  ;Proposal : Remove \r\n\f from escape token. Change "except a hexadecimal digit" to "except a hexadecimal digit or a newline (\n, \r, or \f)".
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 86 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Nov/0298.html
   ;Summary : Position of list-item marker in presence of floats, text-align
   ;Proposal : Add "The position of the list-item marker in the presence of floats is undefined in CSS2.1." Ask web-designers about text-align.
-  ;Status : =dbaron= Investigate.
+  ;Status : Open. =dbaron= Investigate.
 
 ==== Issue 87 ====
 
@@ -770,13 +710,13 @@ to the sentence
   ;Summary : Is anonymous outer table box a block-formatting context?
   ;Proposal : Anonymous outer table box behaves as a block formatting context except that the top margin of a top caption / bottom margin of a bottom caption collapses with the top / bottom table margin. Proposed text in http://lists.w3.org/Archives/Public/www-style/2008Nov/0520.html
   ;Resolution : Option 1 accepted (telcon 2008-12-10)
-  ;Status : =Alex= provide new illustration.
+  ;Status : Open. =Alex= provide new illustration. =Bert= Update illustration.
 
 ==== Issue 89 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0297.html
   ;Summary : Page breaks should be allowed between last line box and content edge.
-  ;Status : Needs proposed text.
+  ;Status : Open. Needs proposed text.
 
 ==== Issue 90 ====
 
@@ -814,7 +754,8 @@ to the sentence
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0156.html
   ;Summary : 'none' creates ambiguity parsing 'list-style' shorthand
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Jan/0255.html
-  ;Status : =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 95 ====
 
@@ -824,14 +765,13 @@ to the sentence
   ;Resolution : Proposal accepted.
   ;Status : =Bert= Remove completely?
 
-
 ==== Issue 96 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Oct/0260.html
   ;Summary : Rule D mentions all ancestors but forgets the element itself
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Oct/0260.html
   ;Resolution : Assumed obvious.
-  ;Status : =Bert= Remove extra 's' in chapter edit.
+  ;Status : Closed.
 
 ==== Issue 97 ====
 
@@ -861,26 +801,28 @@ to the sentence
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jan/0448.html
   ;Summary : Background propagation rules imply only ''background-image'' and ''background-color'' are propagated.
   ;Proposal : Use wording from http://dev.w3.org/csswg/css3-background/#special-backgrounds
-  ;Status : =WG= Discuss.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 101 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jan/0445.html
   ;Summary : Float rules when interacting with floats outside containing block
-  ;Status : =dbaron= Write more testcases and come up with a proposal.
+  ;Status : Open. =dbaron= Write more testcases and come up with a proposal.
 
 ==== Issue 102 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Feb/0126.html
   ;Summary : Parsing of @import after garbage
   ;Proposal : Only ignore @import if it follows a {non-@}-rule or a known @-rule that it is not allowed to follow.
-  ;Status : =WG= Discuss. See also Issue 106.
+  ;Resolution : Replace "valid statement" with "non-ignored statement" in section 4.1.5
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 103 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jan/0494.html
   ;Summary : Fix error in calculation of auto values for 'left' and 'right'
-  ;Status : =WG= Discuss.
+  ;Resolution : Fix error, exact edits to be decided by Bert Bos.
+  ;Status : =Bert= Edit as appropriate.
 
 ==== Issue 104 ====
 
@@ -894,7 +836,8 @@ to the sentence
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jan/0234.html
   ;Summary : widows and orphans should specify that zero and negative values are not allowed.
-  ;Status : =WG= Discuss.
+  ;Resolution : widows and orphans can only accept integers >= 1
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 106 ====
 
@@ -927,7 +870,6 @@ to the sentence
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0077.html
   ;Summary : anonymous table objects and white space
   ;Status : Open
-
 
 ==== Issue 111 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0070.html
