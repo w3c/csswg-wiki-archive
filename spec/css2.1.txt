@@ -831,7 +831,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Various CSS2.1 Grammar Issues
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Feb/0619.html
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 105 ====
 
@@ -880,7 +880,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 ==== Issue 112 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Apr/0099.html (contains proposal)
   ;Summary : clarify which element's text-align property applies to cells
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 
 ==== Issue 113 ====
