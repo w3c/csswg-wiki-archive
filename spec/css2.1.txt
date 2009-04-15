@@ -210,7 +210,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008May/0252.html
   ;Proposal 2 : http://lists.w3.org/Archives/Public/www-style/2008Dec/0091.html
   ;Resolution : Duplicate malformed declarations rule for malformed statements (statements rule to come after declarations rule in the spec).
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 25 ====
 
@@ -686,8 +686,8 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Nov/0039.html http://lists.w3.org/Archives/Public/www-style/2008Nov/0078.html
   ;Summary : Spec conflict wrt handling of backslash followed by newline in ident
-  ;Proposal : Remove \r\n\f from escape token. Change "except a hexadecimal digit" to "except a hexadecimal digit or a newline (\n, \r, or \f)".
-  ;Status : Open. =Bert= Edit.
+  ;Proposal : Change "except a hexadecimal digit" to "except a hexadecimal digit or a newline (\n, \r, or \f)".
+  ;Status : Open. =Bert= Fix all your typos. :( s/or a/, a/; s/of/or/; s/formfeed/form feed/
 
 ==== Issue 86 ====
 
@@ -710,7 +710,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Is anonymous outer table box a block-formatting context?
   ;Proposal : Anonymous outer table box behaves as a block formatting context except that the top margin of a top caption / bottom margin of a bottom caption collapses with the top / bottom table margin. Proposed text in http://lists.w3.org/Archives/Public/www-style/2008Nov/0520.html
   ;Resolution : Option 1 accepted (telcon 2008-12-10)
-  ;Status : Open. =Alex= provide new illustration. =Bert= Update illustration.
+  ;Status : closed.
 
 ==== Issue 89 ====
 
@@ -755,7 +755,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : 'none' creates ambiguity parsing 'list-style' shorthand
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Jan/0255.html
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Open. =Bert= Put example and normative prose consecutively, like the proposal says.
 
 ==== Issue 95 ====
 
@@ -763,7 +763,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Sections 13.2.1.1 and 13.2.1.2 describe an impossible (in 2.1) case
   ;Proposal : Remove sections 13.2.1.1 and 13.2.1.2
   ;Resolution : Proposal accepted.
-  ;Status : =Bert= Remove completely?
+  ;Status : Closed.
 
 ==== Issue 96 ====
 
@@ -857,7 +857,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : counter-increment: none not defined
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Mar/0194.html
   ;Resolution : Option 1 accepted.
-  ;Status : =Bert= Edit, and post edits to www-style for review.
+  ;Status : =Bert= Edit so that use of 'none' as a counter name is invalid (not just nonconforming), and post edits to www-style for review.
 
 ==== Issue 109 ====
 
