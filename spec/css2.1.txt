@@ -822,7 +822,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jan/0494.html
   ;Summary : Fix error in calculation of auto values for 'left' and 'right'
   ;Resolution : Fix error, exact edits to be decided by Bert Bos.
-  ;Status : =Bert= Edit as appropriate.
+  ;Status : Closed.
 
 ==== Issue 104 ====
 
