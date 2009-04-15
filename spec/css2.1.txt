@@ -801,7 +801,8 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jan/0448.html
   ;Summary : Background propagation rules imply only ''background-image'' and ''background-color'' are propagated.
   ;Proposal : Use wording from http://dev.w3.org/csswg/css3-background/#special-backgrounds
-  ;Status : Open. =Bert= Edit.
+  ;Proposal : s/those/the background properties/
+  ;Status : Closed.
 
 ==== Issue 101 ====
 
