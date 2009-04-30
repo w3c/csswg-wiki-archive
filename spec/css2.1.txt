@@ -143,10 +143,10 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
 
 ==== Issue 116 ====
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issues 1, 2, 3)
-  ;Summary : Editorial issues for chapter 9
-  ;Resolution : Issues 1 and 2 assumed editorial. Issue 3 rejected.
-  ;Status : =Bert= Edit 1 and 2.
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issues 1, 2, 6)
+  ;Summary : Editorial issues for chapter 9 and 10
+  ;Resolution : Issues 1, 2, and 6 assumed editorial.
+  ;Status : =Bert= Edit 1, 2, and 6.
 
 ==== Issue 117 ====
 
