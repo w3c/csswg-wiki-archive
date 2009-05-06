@@ -43,7 +43,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0264.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0118.html
   ;Summary : percentage table row heights should be undefined, not auto
-  ;Status : Open. Needs proposed text.
+  ;Status : Open. Needs proposed text. =sylvain= Propose text.
 
 ==== Issue 69 ====
 
