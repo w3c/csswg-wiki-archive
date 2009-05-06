@@ -159,6 +159,27 @@ Duplicate of Issue 73
   ;Summary : Inline layout inappropriately defines line-height in terms of glyphs
   ;Status : Open. Needs proposal.
 
+==== Issue 119 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issue 8)
+  ;Summary : Reference to undefined term "block's baseline"
+  ;Proposal : Remove "block's"
+  ;Status : Open. =WG= Discuss or propose something better.
+
+==== Issue 120 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issue 8)
+  ;Summary : Spec talks about blocks but leaves out table-caption etc.
+  ;Proposal : Define table-caption etc. to format their contents exactly like blocks, and remove all explicit lists (and just talk about blocks) elsewhere so we don't keep getting out-of-sync.
+  ;Status : Open. =WG= Discuss.
+
+==== Issue 121 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issue 9)
+  ;Summary : Rewrite paragraph about lines being exactly 'line-height' to be accurate and precise
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit and send to www-style for review.
+
 ===== Old Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]] and have also been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|19 July 2007 CSS2.1 errata list]].
