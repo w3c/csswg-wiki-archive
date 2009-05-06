@@ -89,7 +89,7 @@ Duplicate of Issue 73
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0297.html
   ;Summary : Page breaks should be allowed between last line box and content edge.
-  ;Status : Open. Needs proposed text.
+  ;Status : Open. Needs proposed text. =fantasai= Propose text.
 
 ==== Issue 101 ====
 
