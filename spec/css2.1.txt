@@ -71,7 +71,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0216.html
   ;Summary : URL grammar and comments
   ;Proposal : No change. Comments are not allowed inside url(). Add a note to clarify.
-  ;Status : Open. =Saloni= Report whether MSFT agrees. =Peter= draft note.
+  ;Status : Open. =Peter= draft note. =Bert= Edit.
 
 ==== Issue 75 ====
 
