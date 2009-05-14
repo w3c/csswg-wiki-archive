@@ -185,6 +185,22 @@ Duplicate of Issue 73
   ;Summary : spec should not define "sans-serif" to mean something different from what it means to font designers
   ;Status : Open.  Proposal needed?
 
+==== Issue 123 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0030.html
+  ;Summary : Don't ignore end of block when parsing @rule.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0054.html
+  ;Resolution : Bert's first proposal accepted with comma before second "or".
+  ;Status : Open. =Bert= Edit.
+
+==== Issue 124 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0030.html
+  ;Summary : Grammar errors
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0054.html
+  ;Resolution : Defer to Bert
+  ;Status : Open. =Bert= Edit.
+
 ===== Old Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]] and have also been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|19 July 2007 CSS2.1 errata list]].
