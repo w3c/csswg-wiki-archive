@@ -7,3 +7,4 @@ Proposed topics for topics for the June 2009 CSS Working Group Face-to-Face meet
   * Reflecting font features into CSS
   * Test Suites [ please add detail ]
   * outstanding CSS3 Paged Media issues
+  * additional test suite format: reftest (dbaron)
