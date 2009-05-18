@@ -119,7 +119,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0070.html
   ;Summary : synchronize font-weight: bolder/lighter changes with any accepted for css3-fonts
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0145.html
-  ;Status : Open. =jdaggett= Propose text.
+  ;Status : Open. =WG= Discuss
 
 ==== Issue 113 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0047.html http://lists.w3.org/Archives/Public/www-style/2009Mar/0066.html
