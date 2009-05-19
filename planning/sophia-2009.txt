@@ -9,3 +9,4 @@ Proposed topics for topics for the June 2009 CSS Working Group Face-to-Face meet
   * outstanding CSS3 Paged Media issues
   * additional test suite format: reftest (dbaron)
   * css3-flexbox publication status (dbaron)
+  * text-overflow
