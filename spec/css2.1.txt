@@ -90,7 +90,8 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0297.html
   ;Summary : Page breaks should be allowed between last line box and content edge.
   ;Proposal : Copy text from http://dev.w3.org/csswg/css3-page/#allowed-pg-brk
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 101 ====
 
