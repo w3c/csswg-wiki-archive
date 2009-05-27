@@ -3,7 +3,7 @@
 Proposed topics for topics for the June 2009 CSS Working Group Face-to-Face meeting in Sophia-Antipolis (France).
 
   * Multi-Column Last Call Comments
-  * GCPM [ please add detail ]
+  * GCPM: a new draft will be presented
   * Reflecting font features into CSS
   * Test Suites [ please add detail ]
   * outstanding CSS3 Paged Media issues
