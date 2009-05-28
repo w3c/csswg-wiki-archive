@@ -11,3 +11,4 @@ Proposed topics for topics for the June 2009 CSS Working Group Face-to-Face meet
   * css3-flexbox publication status (dbaron)
   * text-overflow
   * Anonymous table box construction (and whitespace)
+  * outstanding CSS3 Backgrounds and Borders issues
