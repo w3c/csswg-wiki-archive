@@ -6,6 +6,8 @@
 
 The following are known problems in the [[http://www.w3.org/TR/2002/WD-css3-lists-20021107|7 November 2002 CSS Lists Level 3 Working Draft]].
 
+This list does **NOT** include the results of a list archive search, which needs to be done.
+
 ==== Issue 1 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jul/0175.html
