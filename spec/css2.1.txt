@@ -206,7 +206,7 @@ Duplicate of Issue 73
 
 ==== Issue 125 ====
   ;Summary : descendants misspelled as descendents in definition of 'hidden' for 'visibility' (section 11.2)
-  ;Status: Editorial. =Bert= Edit.
+  ;Status : Editorial. =Bert= Edit.
 
 ===== Old Issues =====
 
