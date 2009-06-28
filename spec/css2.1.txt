@@ -215,7 +215,13 @@ Duplicate of Issue 73
   ;Summary : spec needs a spell check
   ;URL : http://lists.w3.org/Archives/Public/www-archive/2009Jun/0054.html http://lists.w3.org/Archives/Public/www-archive/2009Jun/0053.html
   ;Resolution : Assumed editorial.
-  ;Status : Open.
+  ;Status : Open. =Bert= Edit.
+
+==== Issue 127 ====
+  ;Summary : table caption figure caption needs updating
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0173.html
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit.
 
 ===== Old Issues =====
 
