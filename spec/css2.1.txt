@@ -233,6 +233,30 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0164.html
   ;Status : Open. =WG= Discuss.
 
+==== Issue 130 ====
+  ;Summary : Undefined keywords mentioned in font-family
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0141.html
+  ;Status : Open. Needs proposal.
+
+==== Issue 131 ====
+  ;Summary : Add subject to mailto: url for www-style
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0137.html
+  ;Proposal : Change to mailto:www-style@w3.org?subject=%5bCSS21%5d%20%E2%80%A6summary%20of%20comment%E2%80%A6
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit.
+
+==== Issue 132 ====
+  ;Summary : Fix typos in font names
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0136.html
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit.
+
+==== Issue 133 ====
+  ;Summary : Ambiguity for row-group-heights
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0120.html
+  ;Proposal : Add row groups to exceptions for 'height's Applies-To
+  ;Status : Open. =WG= Discuss.
+
 ===== Old Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]] and have also been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|19 July 2007 CSS2.1 errata list]].
