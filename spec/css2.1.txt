@@ -1036,3 +1036,9 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Apr/0099.html (contains proposal)
   ;Summary : clarify which element's text-align property applies to cells
   ;Status : Closed.
+
+==== Issue 113 ===
+  ;URL : 
+  ;Summary : Add -tc- vendor prefix (for TallComponents) to 4.1.2.2?
+  ;Proposal : Accept.
+  ;Status : Open
