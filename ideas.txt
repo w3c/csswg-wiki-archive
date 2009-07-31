@@ -41,3 +41,4 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
   * [[ideas:content-functions|Content Data Functions]]
   * [[ideas:content-formatting|Content Formatting]]
   * [[ideas:collapsing|Collapsing]]
+  * [[ideas:pointer-events|Hit Testing Control (pointer-events property)
