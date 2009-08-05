@@ -238,7 +238,8 @@ Duplicate of Issue 73
 ==== Issue 130 ====
   ;Summary : Undefined keywords mentioned in font-family
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0141.html
-  ;Status : Open. Needs proposal.
+  ;Proposal : Remove 'initial' and 'default' from example list, remove 'e.g.' to make it normative, and add a sentence that says "'initial' and 'default' are reserved as keywords for future use and must be quoted when used as font names."
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 131 ====
   ;Summary : Add subject to mailto: url for www-style
