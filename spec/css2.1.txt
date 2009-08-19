@@ -221,7 +221,7 @@ Duplicate of Issue 73
 ==== Issue 128 ====
   ;Summary : display: run-in needs clarification
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jul/0025.html
-  ;Status : Open. =WG= Discuss.
+  ;Status : Open. =Bert= Propose exact text and send to www-style.
 
 ==== Issue 129 ====
   ;Summary : Reduce backup in tokenizer
