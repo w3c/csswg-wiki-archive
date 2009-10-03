@@ -127,4 +127,5 @@ http://lists.w3.org/Archives/Public/www-style/2006May/0120.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0356.html
   ;Summary : 'background-size' needs a better name
   ;Proposal : 'background-fit'
-  ;Status : Needs resolution.
+  ;Resolution : No change.
+  ;Status : Closed.
