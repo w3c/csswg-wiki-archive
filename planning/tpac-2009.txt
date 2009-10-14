@@ -4,3 +4,4 @@ Fill in proposed agenda topics below:
 
 
   * possibility of text-overflow overhaul
+  * how to write a profile/snapshot. E.g., how to update what <color> means in css3-multicol after css3-color becomes REC. (see 14 Oct telcon)
