@@ -5,3 +5,4 @@ Fill in proposed agenda topics below:
 
   * possibility of text-overflow overhaul
   * modularization and how to write a profile/snapshot. E.g., how to update what <color> means in css3-multicol after css3-color becomes REC. (See 14 Oct telcon.) Or can modules never be published out of order?
+  * fitting text size ot a given space. Is this part of 'text-align-last' or separate? Who can edit the Text module if we want to include this feature? (Oct 14 telcon)
