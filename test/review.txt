@@ -1,6 +1,6 @@
 ====== Reviewing Tests ======
 
-Additions and changes to the CSS2.1 Test Suite must be reviewed before they can be checked in. Anyone with the ability to read and understand the [[http://www.w3.org/TR/CSS21/|spec]] and a thorough understanding of the [[http://www.w3.org/Style/CSS/Test/guidelines.html|test suite guidelines]] can review additions and changes to the tests in the CSS2.1 Test Suite. However a reviewer cannot review his/her own tests and changes.
+Additions and changes to the CSS2.1 Test Suite must be reviewed before they can be checked into the ''approved/'' directory. Anyone with the ability to read and understand the [[http://www.w3.org/TR/CSS21/|spec]] and a thorough understanding of the [[http://www.w3.org/Style/CSS/Test/guidelines.html|test suite guidelines]] can review additions and changes to the tests in the CSS2.1 Test Suite. However a reviewer cannot review his/her own tests and changes.
 
 Tests pending review are linked from the [[test:css2.1:pending|pending review]] page.
 
