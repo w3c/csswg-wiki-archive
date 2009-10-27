@@ -8,3 +8,5 @@ Fill in proposed agenda topics below:
   * fitting text size so that text fills a given width. Is this part of 'text-align-last' or separate? Who can edit the Text module if we want to include this feature? (Oct 14 telcon)
   * consistency between layout modules (Table, Template, Grid, Flexbox).  It would be great to unify the ideas present in these, or at least define some primitives they can share.
   * **Invite SVG to discussion:** [[http://dev.w3.org/csswg/css3-grid/overview.html|css3-grid,]] [[http://dev.w3.org/csswg/css3-flexbox/|css3-flexbox,]] and [[http://www.w3.org/Style/Group/css3-src/css3-layout/Overview.html|css3-layout]] (needs of GUIs? needs of typography? merge into one module?)
+  * Review Selectors implementation reports - Move directly to PR?
+  * Targeting filters
