@@ -14,3 +14,4 @@ Fill in proposed agenda topics below:
   * **Invite SVG to discussion:** [[http://dev.w3.org/csswg/css3-grid/overview.html|css3-grid,]] [[http://dev.w3.org/csswg/css3-flexbox/|css3-flexbox,]] and [[http://www.w3.org/Style/Group/css3-src/css3-layout/Overview.html|css3-layout]] (needs of GUIs? needs of typography? merge into one module?)
   * Review Selectors implementation reports - Move directly to PR?
   * Targeting filters
+  * run-in definitions, see [[http://lists.w3.org/Archives/Public/www-style/2009Sep/0126.html|the five issues]]
