@@ -18,3 +18,5 @@ Fill in proposed agenda topics below:
   * 2010 F2F dates
   * Drop shadow proposal
   * Discuss font feature support
+  * css3-2d-transforms issues
+  * css3-transitions issues
