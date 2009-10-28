@@ -267,7 +267,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0172.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Jul/0039.html
   ;Resolution : Assumed editorial.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 136 ===
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jul/0059.html
