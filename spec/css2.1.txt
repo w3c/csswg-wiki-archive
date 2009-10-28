@@ -254,7 +254,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0120.html
   ;Proposal : Say that row-group heights are undefined
   ;Resolution: Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 134 ====
   ;Summary : percentage values of relative offsets
