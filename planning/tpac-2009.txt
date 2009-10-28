@@ -17,3 +17,4 @@ Fill in proposed agenda topics below:
   * run-in definitions, see [[http://lists.w3.org/Archives/Public/www-style/2009Sep/0126.html|the five issues]]
   * 2010 F2F dates
   * Drop shadow proposal
+  * Discuss font feature support
