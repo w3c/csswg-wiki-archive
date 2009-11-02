@@ -49,6 +49,6 @@ Fill in proposed agenda topics below:
   * advance [[http://dev.w3.org/csswg/css3-multicol/|multicol spec]] to CR. [[http://dev.w3.org/csswg/css3-multicol/last-call.html|Last call comments]] have been collected and responded to.
 
 
-=== Informal gathering of present and past CSS WG Members ===
+===== Informal gathering of present and past CSS WG Members =====
 
   * Lobby of Hotel Mariott Santa Clara (2700 Mission College Boulevard Santa Clara, CA 95054) at 7pm. Warning, the CSS WG does not pay for you.
