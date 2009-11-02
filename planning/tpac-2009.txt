@@ -21,3 +21,4 @@ Fill in proposed agenda topics below:
   * css3-2d-transforms issues
   * css3-transitions issues
   * collect last-call comments on [[http://www.w3.org/TR/2009/WD-mathml-for-css-20091006/|MathML-for-CSS.]] Probably needs only 10 minutes: explain the draft (Bert) and collect comments, of which there are probably none.
+  * advnace [[http://dev.w3.org/csswg/css3-multicol/|multicol spec]] to CR. [[http://dev.w3.org/csswg/css3-multicol/last-call.html|Last call comments]] have been collected and responded to.
