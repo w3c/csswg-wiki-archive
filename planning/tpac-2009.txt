@@ -1,8 +1,33 @@
 ====== TPAC 2009 ======
 
-Informal gathering of present and past CSS WG Members
+===== Proposed Agenda =====
 
-  * Lobby of Hotel Mariott Santa Clara (2700 Mission College Boulevard Santa Clara, CA 95054) at 7pm. Warning, the CSS WG does not pay for you.
+==== Monday AM ====
+
+  * collect last-call comments on MathML-for-CSS
+  * transitions/transforms/animations
+  * modularization and how to write a profile/snapshot
+
+==== Monday PM ====
+
+  * font features (2pm)
+  * grid/flex/layout (invite SVG)
+  * run-ins
+
+==== Tuesday AM ====
+
+  * selectors and DOM
+  * text-overflow
+  * fitting text-size of that text fills a given width
+
+==== Tuesday PM ====
+
+  * Test Suites
+  * filters
+  * drop shadow
+  * 2010 FTF dates
+
+===== Proposed Topics =====
 
 Fill in proposed agenda topics below:
 
@@ -21,4 +46,9 @@ Fill in proposed agenda topics below:
   * css3-2d-transforms issues
   * css3-transitions issues
   * collect last-call comments on [[http://www.w3.org/TR/2009/WD-mathml-for-css-20091006/|MathML-for-CSS.]] Probably needs only 10 minutes: explain the draft (Bert) and collect comments, of which there are probably none.
-  * advnace [[http://dev.w3.org/csswg/css3-multicol/|multicol spec]] to CR. [[http://dev.w3.org/csswg/css3-multicol/last-call.html|Last call comments]] have been collected and responded to.
+  * advance [[http://dev.w3.org/csswg/css3-multicol/|multicol spec]] to CR. [[http://dev.w3.org/csswg/css3-multicol/last-call.html|Last call comments]] have been collected and responded to.
+
+
+=== Informal gathering of present and past CSS WG Members ===
+
+  * Lobby of Hotel Mariott Santa Clara (2700 Mission College Boulevard Santa Clara, CA 95054) at 7pm. Warning, the CSS WG does not pay for you.
