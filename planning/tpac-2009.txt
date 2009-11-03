@@ -19,6 +19,8 @@
 
   * run-ins
   * selectors and DOM
+  * Color and gamma correction
+  * Gradients and image sprites
 
 ==== Tuesday PM ====
 
