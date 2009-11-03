@@ -7,18 +7,18 @@
   * collect last-call comments on MathML-for-CSS
   * transitions/transforms/animations
   * modularization and how to write a profile/snapshot
+  * text-overflow
 
 ==== Monday PM ====
 
   * font features (2pm)
   * grid/flex/layout (invite SVG)
-  * run-ins
+  * fitting text-size of that text fills a given width
 
 ==== Tuesday AM ====
 
+  * run-ins
   * selectors and DOM
-  * text-overflow
-  * fitting text-size of that text fills a given width
 
 ==== Tuesday PM ====
 
