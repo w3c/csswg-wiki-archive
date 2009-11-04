@@ -73,7 +73,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : Gamma correction section is out of date
   ; Raised by : Chris Murphy
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0185.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0229.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0459.html
-  ; Resolution : 
+  ; Resolution : remove section (resolved, 2009-11-03 F2F meeting)
   ; Status : 
 
 ==== Issue 9 ====
