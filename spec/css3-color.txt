@@ -177,3 +177,31 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : note pointing to appearance property should link to it
   ; Raised by : Steve Zilles
   ; URL : minutes of CSS meeting, 2008-10-20, morning session: http://lists.w3.org/Archives/Public/www-style/2008Nov/0023.html
+
+==== Issue 22 ====
+
+  ; Summary : don't deprecate system colors
+  ; Raised by : Krzysztof Maczyński
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0097.html http://lists.w3.org/Archives/Public/www-style/2009Mar/0106.html
+
+==== Issue 23 ====
+
+  ; Summary : Accept angle units and allow omission of % units in hsl()
+  ; Raised by : Ludger Buenger
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2009Jul/0154.html http://lists.w3.org/Archives/Public/www-style/2009Jul/0155.html http://lists.w3.org/Archives/Public/www-style/2009Jul/0156.html
+  ; Proposed resolution : no change
+
+==== Issue 24 ====
+  ; Summary : Mac OS X changing gamma, recommendations obsolete
+  ; Raised by : Chris Murphy
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2009Jul/0171.html http://lists.w3.org/Archives/Public/www-style/2009Oct/0189.html http://lists.w3.org/Archives/Public/www-style/2009Oct/0190.html http://lists.w3.org/Archives/Public/www-style/2009Oct/0191.html http://lists.w3.org/Archives/Public/www-style/2009Oct/0215.html
+
+==== Issue 25 ====
+  ; Summary : case of currentColor is odd
+  ; Raised by : David Perrell
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2009Aug/0313.html http://lists.w3.org/Archives/Public/www-style/2009Aug/0314.html http://lists.w3.org/Archives/Public/www-style/2009Aug/0341.html http://lists.w3.org/Archives/Public/www-style/2009Aug/0342.html http://lists.w3.org/Archives/Public/www-style/2009Aug/0355.html http://lists.w3.org/Archives/Public/www-style/2009Aug/0384.html
+
+==== Issue 26 ====
+  ; Summary : add mechanism for migrating to being conformant to the part of the spec that says CSS colors are in sRGB
+  ; Raised by : David Baron, Beth Dakin
+  ; URL : minutes of F2F meeting, 2009-11-03 (have resolution
