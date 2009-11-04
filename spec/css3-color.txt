@@ -55,7 +55,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 
   ; Summary : opacity should only apply to in-flow children, and shouldn't create a stacking context
   ; Raised by : Andrew Fedoniuk
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0139.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0142.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0145.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0166.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0167.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0168.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0170.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0173.html 
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0139.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0142.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0145.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0166.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0167.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0168.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0170.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0173.html http://lists.w3.org/Archives/Public/www-style/2009Feb/0244.html http://lists.w3.org/Archives/Public/www-style/2009Feb/0245.html
   ; Note : same as [[http://lists.w3.org/Archives/Public/www-archive/2008Jun/att-0045/disposition-2.html#issue-20|issue 20 on previous issues list]]
   ; Proposed Resolution : no change
   ; Status : 
