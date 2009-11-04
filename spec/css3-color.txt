@@ -152,7 +152,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 
   ; Summary : definition of interoperable should be changed
   ; Raised by : Tony Graham
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0004.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0006.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0173.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0004.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0006.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0169.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0173.html
   ; Resolution : 
   ; Status : 
 
