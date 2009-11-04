@@ -176,4 +176,4 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 
   ; Summary : note pointing to appearance property should link to it
   ; Raised by : Steve Zilles
-  ; URL : minutes of CSS meeting, 2008-10-20, morning session
+  ; URL : minutes of CSS meeting, 2008-10-20, morning session: http://lists.w3.org/Archives/Public/www-style/2008Nov/0023.html
