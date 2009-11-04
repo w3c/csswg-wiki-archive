@@ -1,0 +1,179 @@
+====== css3-color issues list ======
+
+The [[http://www.w3.org/TR/css3-color/|css3-color specification]] defines color values and color-related properties.
+
+===== Current Issues =====
+
+The following are known problems in the [[http://www.w3.org/TR/2008/WD-css3-color-20080721|21 July 2008 css3-color Last Call Working Draft]].
+
+See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://dev.w3.org/CSS/css3-color-test-suite/src/|development]] versions of the test suite for the "Tests" references.
+
+==== Issue 1 ====
+
+  ; Summary : css3-color should have a useful index or it should be removed
+  ; Raised by : David Baron
+  ; URL : N/A
+  ; Resolution : 
+  ; Status : editorial
+
+==== Issue 2 ====
+
+  ; Summary : restructure TOC
+  ; Raised by : Christolph Päper
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Mar/0405.html http://lists.w3.org/Archives/Public/www-style/2008Mar/0443.html http://lists.w3.org/Archives/Public/www-style/2008May/0182.html http://lists.w3.org/Archives/Public/www-style/2008Aug/0013.html http://lists.w3.org/Archives/Public/www-style/2008Aug/0019.html
+  ; Reporter's response to resolution : http://lists.w3.org/Archives/Public/www-style/2008Oct/0229.html
+  ; Further discussion : http://lists.w3.org/Archives/Public/www-style/2008Oct/0230.html
+  ; Proposed Resolution 1 : no change, to preserve section number stability
+  ; Proposed Resolution 2 : similar to what is proposed, but moving the gamma correction section (probably modified, per later issue) into the beginning of Color Units, and perhaps putting the units before the values
+  ; Status : resolved to make no change, http://lists.w3.org/Archives/Public/www-style/2008Sep/0169.html
+
+==== Issue 3 ====
+
+  ; Summary : rename sections giving color keywords
+  ; Raised by : various
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008May/0146.html
+  ; Proposed Resolution : Probably rename, given the confusion this has caused
+  ; Status : 
+
+==== Issue 4 ====
+
+  ; Summary : report of browser bugs from test suite
+  ; Raised by : Paul Tykodi
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0023.html http://lists.w3.org/Archives/Public/www-style/2008Jun/0029.html
+  ; Proposed Resolution : not a spec issue
+  ; Status : not a spec issue
+
+==== Issue 5 ====
+
+  ; Summary : still confused about interaction of opacity and rgba()
+  ; Raised by : Matt Bonner
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0024.html
+  ; Resolution : 
+  ; Status : 
+
+==== Issue 6 ====
+
+  ; Summary : opacity should only apply to in-flow children, and shouldn't create a stacking context
+  ; Raised by : Andrew Fedoniuk
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0139.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0142.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0145.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0166.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0167.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0168.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0170.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0173.html 
+  ; Note : same as [[http://lists.w3.org/Archives/Public/www-archive/2008Jun/att-0045/disposition-2.html#issue-20|issue 20 on previous issues list]]
+  ; Proposed Resolution : no change
+  ; Status : 
+
+==== Issue 7 ====
+
+  ; Summary : ICC features shouldn't be removed
+  ; Raised by : Chris Murphy
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0184.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0189.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0191.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0205.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0208.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0225.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0230.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0241.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0258.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0259.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0278.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0281.html http://lists.w3.org/Archives/Public/www-style/2008Aug/0072.html http://lists.w3.org/Archives/Public/www-style/2008Aug/0269.html http://lists.w3.org/Archives/Public/www-style/2008Aug/0270.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0147.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0148.html
+  ; Proposed Resolution : no change
+  ; Status : 
+
+==== Issue 8 ====
+
+  ; Summary : Gamma correction section is out of date
+  ; Raised by : Chris Murphy
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0185.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0229.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0459.html
+  ; Resolution : 
+  ; Status : 
+
+==== Issue 9 ====
+
+  ; Summary : opacity relative to multiple ancestors
+  ; Raised by : Marshal Horn
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0409.html
+  ; Proposed Resolution : reject all new features (and not sure what this one means, either)
+  ; Status : 
+
+==== Issue 10 ====
+
+  ; Summary : presentation of HTML4 keywords and SVG keywords is inconsistent
+  ; Raised by : David Perrell
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0457.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0462.html
+  ; Proposed Resolution : change HTML4 table to look like SVG Table
+  ; Status : 
+
+==== Issue 11 ====
+
+  ; Summary : include HSL values in color tables
+  ; Raised by : David Perrell
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0457.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0462.html
+  ; Proposed Resolution : no change, since they wouldn't be exact matches due to rounding issues, and then there would be ambiguity
+  ; Status : 
+
+==== Issue 12 ====
+
+  ; Summary : does HSL get mapped to the sRGB color space
+  ; Raised by : David Perrell
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0458.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0461.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0463.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0468.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0472.html
+  ; Proposed Resolution 1 : no change (question already answered in spec)
+  ; Proposed Resolution 2 : add a statement with "must" in it to state the equivalence as a conformance requirement
+  ; Status : 
+
+==== Issue 13 ====
+
+  ; Summary : remove paragraph about clipping values outside gamut
+  ; Raised by : Chris Murphy
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0459.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0460.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0464.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0465.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0466.html
+  ; Resolution : 
+  ; Status : 
+
+==== Issue 14 ====
+
+  ; Summary : unnecessary tautology
+  ; Raised by : Dave Singer
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0467.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0469.html
+  ; Resolution : 
+  ; Status : 
+
+==== Issue 15 ====
+
+  ; Summary : Is HSL full range or video range?
+  ; Raised by : Dave Singer
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0467.html
+  ; Resolution : 
+  ; Status : 
+
+==== Issue 16 ====
+
+  ; Summary : currentColor should not be treated as color:inherit at parse time (and color:inherit should have a space in it)
+  ; Raised by : Krzysztof Maczyński
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0539.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0540.html
+  ; Note : same as [[http://lists.w3.org/Archives/Public/www-archive/2008Jun/att-0045/disposition-2.html#issue-17|issue 17 on previous issues list]], due to insufficient editing the previous time around
+  ; Proposed Resolution : do the additional edits to match the previous resolution
+  ; Status : 
+
+==== Issue 17 ====
+
+  ; Summary : long list of editorial comments from XSL FO SG (excluding comment on status section, which is the next issue)
+  ; Raised by : Tony Graham
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0004.html
+  ; Resolution : 
+  ; Status : 
+
+==== Issue 18 ====
+
+  ; Summary : definition of interoperable should be changed
+  ; Raised by : Tony Graham
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0004.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0006.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0169.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0173.html
+  ; Resolution : 
+  ; Status : 
+
+==== Issue 19 ====
+
+  ; Summary : statement about advantages of HSL to RGB should not pretend to be exhaustive
+  ; Raised by : Dave Singer
+  ; URL : private email to dbaron, 2008-07-28
+  ; Proposed Resolution : editorial, edit to add "Some" before "advantages".
+  ; Status : spec edited
+
+==== Issue 20 ====
+
+  ; Summary : need to define deprecated in a way that still requires UAs to support them (and thus need conformance requirements!)
+  ; Raised by : Rich Schwerdtfeger
+  ; URL : minutes of CSS meeting, 2008-10-20, morning session: http://lists.w3.org/Archives/Public/www-style/2008Nov/0023.html
+
+==== Issue 21 ====
+
+  ; Summary : note pointing to appearance property should link to it
+  ; Raised by : Steve Zilles
+  ; URL : minutes of CSS meeting, 2008-10-20, morning session: http://lists.w3.org/Archives/Public/www-style/2008Nov/0023.html
