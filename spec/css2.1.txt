@@ -321,6 +321,12 @@ Duplicate of Issue 73
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Nov/0047.html
   ;Status : Open. Needs audit and proposal for all instances.
 
+==== Issue 144 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0200.html
+  ;Summary : text-decoration and visibility
+  ;Status : Open. Needs summary and proposal.
+
 ===== Old Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]] and have also been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|19 July 2007 CSS2.1 errata list]].
