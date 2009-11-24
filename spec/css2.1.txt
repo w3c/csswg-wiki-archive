@@ -331,7 +331,7 @@ Duplicate of Issue 73
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0300.html
   ;Summary : wrt BIDI forced line breaks should act like LS not CR/LF
-  ;Status : Open. Needs summary and proposal.
+  ;Status : Open. Needs summary and analysis.
 
 ===== Old Issues =====
 
