@@ -2,7 +2,7 @@
 
 In 2007, Dominique Hazael-Massieux created a CGI-based harness for the Mobile Web Initiative's test suites. One of the very neat things about the MWI test harness is that it associates the results with a user agent string. This means there's no need for users to log in or to select their UA. They just load a test and click Pass/Fail/Can't Tell.
 
-Appropriately generalized, an easy-to-use harness for reporting tests like this would be useful across all of W3C's Interaction Domain working groups. It has the potential to make the process of creating implementation reports much, much easier, and it would allow more involvement from the community outside W3C.
+An easy-to-use harness for reporting tests like this would be useful across all of W3C's Interaction Domain working groups. It has the potential to make the process of creating implementation reports much, much easier, and it would allow more involvement from the community outside W3C.
 
 The CSS Working Group planned to extend this harness and use it for the CSS conformance tests and implementation reports. HP took Dominique's source code, created a more flexible back-end and implementing some of the [[http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0027.html|improvements]] we felt were needed. Dominique posted the results of HP's work on the W3C site, along with a working prototype. But HP then disengaged from the project after a company reorganization.
 
