@@ -4,7 +4,16 @@ Our conformance test suites: how to run them, known bugs, and how to contribute.
 
 Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite mailing list]]. The [[test:irc|#css-test channel]] on irc.w3.org:6665 is also available for discussion.
 
-===== Test Suite Infrastructure =====
+===== Contributing =====
+
+  * [[test:fonts|Installing Fonts for CSS Testing]] (required for running CSS tests)
+
+  * [[http://fantasai.inkedblade.net/style/tests/about/css21ts/|Overview Slideshow]]
+  * [[test:css2.1:contribute|How to Contribute]]
+  * [[test:css2.1:format|Format Template and Guidelines]]
+  * [[test:css2.1:review|Review Process]]
+
+===== Infrastructure =====
 
   * [[http://dev.w3.org/|W3C CVS server]] and [[test:cvs|Quick-start Guide for Commandline CVS]]
   * [[http://test.csswg.org/|CSSWG Test Suite Subversion server]] and [[http://svn.collab.net/repos/svn/trunk/doc/user/cvs-crossover-guide.html|SVN Guide for Commandline CVS Users]]
@@ -12,15 +21,8 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
   * [[test:review-system|Submission and Review Tracking System Planning]]
   * [[test:css2.1:harness|Test Suite Build System Documentation]]
 
-===== Test Suite Documentation =====
+===== Test Suite Pages =====
 
   * [[http://www.w3.org/Style/CSS/Test/|Official W3C CSS Test Suites]]
-  * [[test:fonts|Installing Fonts for CSS Testing]]
-  * [[test:css2.1:review|CSS2.1 Test Suite Review Process]]
-  * [[test:css2.1:format|Test Suite Template and Format Guidelines]]
-
-===== Test Suite Wiki Pages =====
-
-  * [[test:CSS2.1|CSS2.1 Conformance Test Suite]]
-  * [[test:selectors|Selectors Level 3 Conformance Test Suite]]
-  * [[test:paged-media|Paged Media Level 3 Conformance Test Suite]]
+  * [[test:CSS2.1|CSS2.1 Conformance Test Suite Wiki]]
+  * [[test:paged-media|Paged Media Level 3 Conformance Test Suite Wiki]]
