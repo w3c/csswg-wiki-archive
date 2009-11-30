@@ -33,7 +33,7 @@ Please make sure submissions follow the [[http://www.w3.org/Style/CSS/Test/guide
 To contribute a fix to an existing test, send an email to [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite@w3.org]] with both
 
   * an explanation of the problem or a reference to a previous message explaining the problem
-  * the precise changes necessary to fix the problem (preferably as a diff either against the [[http://test.csswg.org/|SVN]] source copy or against the XHTML1.1 version)
+  * the precise changes necessary to fix the problem (preferably as a diff either against the [[http://test.csswg.org/|SVN source copy]] or against the XHTML1.1 version)
 
 Fixes to existing tests are also subject to the [[test:css2.1:review|review process]].
 
