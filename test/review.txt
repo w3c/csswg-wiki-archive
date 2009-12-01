@@ -67,7 +67,7 @@ There are three basic qualifications you must satisfy to become a Peer:
   * You must demonstrate that you are trustworthy.
 
 The first two qualifications can be met by submitting good-quality tests for the test suite
-and intelligently critiquing existing tests.
+and intelligently critiquing others' tests.
 
 The third qualification is met by someone vouching for you. This could be a
 test suite Owner or Peer, or it could be someone else trusted by an Owner.
