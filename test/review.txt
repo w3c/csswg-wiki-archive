@@ -81,5 +81,5 @@ experience that the voucher would entrust him or her with a similar level of
 write privileges in their own project.
 
 If the Owner is satisfied that a candidate would make a suitable Peer, s/he will
-then request write access to dev.w3.org for the candidate and add him or her to
+then request write access to any relevant systems for the candidate and add him or her to
 the Peers list.
