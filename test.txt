@@ -14,7 +14,7 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
 
 ===== Infrastructure =====
 
-  * [[http://test.csswg.org/|CSSWG Test Suite Subversion server]] and [[http://svn.collab.net/repos/svn/trunk/doc/user/cvs-crossover-guide.html|SVN Guide for Commandline CVS Users]]
+  * [[http://test.csswg.org/|CSSWG Test Suite Subversion server]]
   * [[test:css2.1:harness|Build System Documentation]]
   * [[test:harness|Browseable Test Harness]]
   * [[test:review-system|Submission and Review Tracker Planning]]
