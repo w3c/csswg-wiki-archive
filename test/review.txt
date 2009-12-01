@@ -1,8 +1,8 @@
 ====== Reviewing Tests ======
 
-In order to encourage a higher level of quality in the CSS test suites, tests that have been individually reviewed for correctness and usability are assigned an Approved status and placed in the top-level ''approved/'' directory.  
+In order to encourage a higher level of quality in the CSS test suites, tests that have been individually reviewed for correctness and usability are assigned an Approved status and placed in the top-level ''approved/'' directory. Additions and changes to the Approved section of the test suite must be reviewed before they can be checked in.
 
-Additions and changes to the Approved section of the test suite must be reviewed before they can be checked in. Anyone with the ability to read and understand the [[http://www.w3.org/Style/CSS/Specs/|spec]] and a thorough understanding of the [[http://www.w3.org/Style/CSS/Test/guidelines.html|test suite guidelines]] can review additions and changes to the Approved collection. However a reviewer cannot review his/her own tests and changes.
+Anyone with the ability to read and understand the [[http://www.w3.org/Style/CSS/Specs/|spec]] and a thorough understanding of the [[http://www.w3.org/Style/CSS/Test/guidelines.html|test suite guidelines]] can review additions and changes to the Approved collection. However a reviewer cannot review his/her own tests and changes.
 
 Tests pending approval are linked from the [[test:css2.1:pending|pending review]] page.
 
