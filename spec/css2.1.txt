@@ -341,6 +341,12 @@ Duplicate of Issue 73
   ;Summary : marker boxes should not be optional
   ;Status : Open. =WG= Discuss.
 
+==== Issue 147 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0324.html
+  ;Summary : scaling of width of replaced elements ambiguous
+  ;Status : Open. Needs proposal.
+
 ===== Old Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]] and have also been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|19 July 2007 CSS2.1 errata list]].
