@@ -13,8 +13,8 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : css3-color should have a useful index or it should be removed
   ; Raised by : David Baron
   ; URL : N/A
-  ; Resolution : 
-  ; Status : editorial
+  ; Proposed Resolution : improve index
+  ; Status : editorial, spec edited to improve index
 
 ==== Issue 2 ====
 
@@ -48,7 +48,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : still confused about interaction of opacity and rgba()
   ; Raised by : Matt Bonner
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0024.html
-  ; Resolution : 
+  ; Proposed Resolution : ?
   ; Status : 
 
 ==== Issue 6 ====
@@ -74,7 +74,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Raised by : Chris Murphy
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0185.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0229.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0459.html
   ; Resolution : remove section (resolved, 2009-11-03 F2F meeting)
-  ; Status : 
+  ; Status : spec edited
 
 ==== Issue 9 ====
 
@@ -90,7 +90,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Raised by : David Perrell
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0457.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0462.html
   ; Proposed Resolution : change HTML4 table to look like SVG Table
-  ; Status : 
+  ; Status : spec edited
 
 ==== Issue 11 ====
 
@@ -114,7 +114,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : remove paragraph about clipping values outside gamut
   ; Raised by : Chris Murphy
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0459.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0460.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0464.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0465.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0466.html
-  ; Resolution : 
+  ; Proposed Resolution : ?
   ; Status : 
 
 ==== Issue 14 ====
@@ -122,7 +122,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : unnecessary tautology
   ; Raised by : Dave Singer
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0467.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0469.html
-  ; Resolution : 
+  ; Proposed Resolution : ?
   ; Status : 
 
 ==== Issue 15 ====
@@ -130,7 +130,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : Is HSL full range or video range?
   ; Raised by : Dave Singer
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0467.html
-  ; Resolution : 
+  ; Proposed Resolution : no change
   ; Status : 
 
 ==== Issue 16 ====
@@ -140,14 +140,14 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0539.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0540.html
   ; Note : same as [[http://lists.w3.org/Archives/Public/www-archive/2008Jun/att-0045/disposition-2.html#issue-17|issue 17 on previous issues list]], due to insufficient editing the previous time around
   ; Proposed Resolution : do the additional edits to match the previous resolution
-  ; Status : 
+  ; Status : spec edited
 
 ==== Issue 17 ====
 
   ; Summary : long list of editorial comments from XSL FO SG (excluding comment on status section, which is the next issue)
   ; Raised by : Tony Graham
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0004.html
-  ; Resolution : 
+  ; Proposed Resolution : ?
   ; Status : 
 
 ==== Issue 18 ====
@@ -155,7 +155,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : definition of interoperable should be changed
   ; Raised by : Tony Graham
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0004.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0006.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0169.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0173.html
-  ; Resolution : 
+  ; Proposed Resolution : ?
   ; Status : 
 
 ==== Issue 19 ====
@@ -171,18 +171,23 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : need to define deprecated in a way that still requires UAs to support them (and thus need conformance requirements!)
   ; Raised by : Rich Schwerdtfeger
   ; URL : minutes of CSS meeting, 2008-10-20, morning session: http://lists.w3.org/Archives/Public/www-style/2008Nov/0023.html
+  ; Proposed resolution : ?
+  ; Status : 
 
 ==== Issue 21 ====
 
   ; Summary : note pointing to appearance property should link to it
   ; Raised by : Steve Zilles
   ; URL : minutes of CSS meeting, 2008-10-20, morning session: http://lists.w3.org/Archives/Public/www-style/2008Nov/0023.html
+  ; Proposed Resolution : do so
+  ; Status : spec edited
 
 ==== Issue 22 ====
 
   ; Summary : don't deprecate system colors
   ; Raised by : Krzysztof Maczyński
   ; URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0097.html http://lists.w3.org/Archives/Public/www-style/2009Mar/0106.html
+  ; Proposed Resolution : no change
 
 ==== Issue 23 ====
 
@@ -195,11 +200,14 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : Mac OS X changing gamma, recommendations obsolete
   ; Raised by : Chris Murphy
   ; URL : http://lists.w3.org/Archives/Public/www-style/2009Jul/0171.html http://lists.w3.org/Archives/Public/www-style/2009Oct/0189.html http://lists.w3.org/Archives/Public/www-style/2009Oct/0190.html http://lists.w3.org/Archives/Public/www-style/2009Oct/0191.html http://lists.w3.org/Archives/Public/www-style/2009Oct/0215.html
+  ; Resolution : section already removed to resolve issue 8
+  ; Status : spec edited
 
 ==== Issue 25 ====
   ; Summary : case of currentColor is odd
   ; Raised by : David Perrell
   ; URL : http://lists.w3.org/Archives/Public/www-style/2009Aug/0313.html http://lists.w3.org/Archives/Public/www-style/2009Aug/0314.html http://lists.w3.org/Archives/Public/www-style/2009Aug/0341.html http://lists.w3.org/Archives/Public/www-style/2009Aug/0342.html http://lists.w3.org/Archives/Public/www-style/2009Aug/0355.html http://lists.w3.org/Archives/Public/www-style/2009Aug/0384.html
+  ; Proposed Resolution : no change
 
 ==== Issue 26 ====
   ; Summary : add mechanism for migrating to being conformant to the part of the spec that says CSS colors are in sRGB
