@@ -87,6 +87,15 @@ Duplicate of Issue 73
   ;Proposal : Add "The position of the list-item marker in the presence of floats is undefined in CSS2.1." Ask web-designers about text-align.
   ;Status : Open. =dbaron= Investigate.
 
+==== Issue 84 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Oct/0294.html http://lists.w3.org/Archives/Public/www-international/2008OctDec/0002.html http://lists.w3.org/Archives/Public/www-international/2008OctDec/0007.html
+  ;Summary : Should white-space apply to IDEOGRAPHIC SPACE
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Oct/0356.html
+  ;Extended Proposal : http://lists.w3.org/Archives/Public/www-style/2008Nov/0082.html
+  ;Resolution : Proposals accepted.
+  ;Status : =Bert= Edit.
+
 ==== Issue 89 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0297.html
