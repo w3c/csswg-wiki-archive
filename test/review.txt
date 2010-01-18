@@ -59,6 +59,7 @@ An Approver is someone who has demonstrated a very strong understanding of the C
 Currently the following people are Approvers:
 
   * Arron Eicholz (Microsoft)
+  * Gérard Talbot
 
 ===== Becoming a Peer =====
 
