@@ -7,4 +7,4 @@ These were not found based on an exhaustive search.
 ==== Issue 1 ====
   ; Summary : unclear whether transitions use the transition properties before-change or after-change
   ; Raised by : Tab Atkins
-  ; Proposal: http://lists.w3.org/Archives/Public/www-style/2010Jan/0591.html
+  ; Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jan/0591.html
