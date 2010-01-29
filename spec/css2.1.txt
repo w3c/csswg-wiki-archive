@@ -29,7 +29,16 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0227.html
   ;Summary : Interaction of pre* and justification poorly defined.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jul/0532.html
-  ;Status : Open. Needs testcase. =arronei= Make testcase.
+  ;Test cases :
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-001.xht
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-002.xht
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-003.xht
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-004.xht
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-005.xht
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-006.xht
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-007.xht
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-008.xht
+  ;Status : WG to discuss
 
 ==== Issue 60 ====
 
