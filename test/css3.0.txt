@@ -7,62 +7,79 @@ This is the main development page for the CSS3 Test Suite.
 
 Do not use [[http://www.w3.org/TR/]], because they are not the most recent.
 
-====== w3c Standards and drafts ======
+Editor's Draft directory: [[http://dev.w3.org/csswg/]]
 
-===== Candidate recommendations =====
+The Unit Test plans will be based off of the Editor's draft unless specifically stated otherwise.
 
-^ Module      ^ Spec Status       ^ Spec Date          ^ Test Plan Status ^ Test Plan Date
-| Selectors API Level 1    | 2009-12-22     | Row 1 Col 3        |
-| CSS Multi Column Layout    | 2009-12-17     | Row 1 Col 3        |
-| A mathML for CSS profile    | 2009-12-15     | Row 1 Col 3        |
-| Media Queries    | 2009-09-15     | Row 1 Col 3        |
-| CSS Mobile Profile 2.0    | 2008-12-10     | Row 1 Col 3        |
-| CSS Marquee Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS Namespaces Module    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 Basic User Interface Module    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 Ruby Module    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS TV Profile 1.0    | Row 1 Col 2     | Row 1 Col 3        |
+====== CSS Styling Attributes Level 1 ======
 
-===== Last call drafts =====
+^       ^   
+| Short Name | css-style-attr              
+|  |  |
+| Document Name | [[http://dev.w3.org/csswg/css-style-attr/]]  |
+| Editor's Draft | W3C Working Draft 21 January 2010 |
+| Status | Candidate Recommendation |
+|  |  |
+| Document Name | [[http://www.w3.org/TR/css-style-attr/]] |
+| Working Draft | W3C Working Draft 21 January 2010 |
+| Status | Last Call |
+|  | |
+| Unit Test Document | [[css-style-attr-unit-test-plan]] |
+| Test Files | [[css-style-attr-unit-test-files]] |
 
-^ Module      ^ Spec Status       ^ Spec Date          ^ Test Plan Status ^ Test Plan Date
-| CSS Styling Attributes Level 1    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS Backgrounds and Borders Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| Selectors Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS Color Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS Print Profile    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 Module: Paged Media    | Row 1 Col 2     | Row 1 Col 3        |
+====== css3-2d-transforms ======
 
-===== Other working drafts =====
+====== css3-3d-transforms ======
 
-^ Module      ^ Spec Status       ^ Spec Date          ^ Test Plan Status ^ Test Plan Date
-| Selectors API Level 2    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS 2D Transforms Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS Transitions Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| CSSOM View Module    | Row 1 Col 2     | Row 1 Col 3        |
-| Flexible Box Layout Module    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS Image Values Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS Fonts Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS Template Layout Module    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS 3D Transforms Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS Animations Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| Behavioral Extensions to CSS    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS Grid Positioning Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS basic box model    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 module: Generated Content for Paged Media    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS Text Level 3    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 Values and Units    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 module: Cascading and inheritance    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 Speech Module    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 Hyperlink Presentation Module    | Row 1 Col 2     | Row 1 Col 3        |
-| The CSS 'Reader' Media Type    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 module: Presentation Levels    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 module: Syntax    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 Generated and Replaced Content Module    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 module: Border    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 module: Lists    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 module: line    | Row 1 Col 2     | Row 1 Col 3        |
-| CSS3 introduction    | Row 1 Col 2     | Row 1 Col 3        |
+====== 	css3-animations ======
+
+====== css3-background ======
+
+====== 	css3-cascade ======
+
+====== 	css3-color ======
+
+====== css3-content ======
+
+====== 	css3-flexbox ======
+
+====== css3-fonts ======
+
+====== css3-gcpm ======
+
+====== css3-grid ======
+
+====== 	css3-images ======
+
+====== 	css3-linebox ======
+
+====== css3-lists ======
+
+====== css3-mediaqueries ======
+
+====== 	css3-multicol ======
+
+====== 	css3-namespace ======
+
+====== 	css3-page ======
+
+====== css3-syntax ======
+
+====== 	css3-tables-algorithms ======
+
+====== css3-text-layout ======
+
+====== css3-text ======
+
+====== 	css3-transitions ======
+
+====== css3-values ======
+
+====== cssom-view ======
+
+====== 	cssom ======
+
+====== 	selectors3 ======
 
 ====== Key ======
 
