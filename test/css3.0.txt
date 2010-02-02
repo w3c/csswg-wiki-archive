@@ -13,7 +13,7 @@ The Unit Test plans will be based off of the Editor's draft unless specifically 
 
 ====== CSS Styling Attributes Level 1 ======
 
-^       ^   
+^       ^    ^
 | Short Name | css-style-attr  |            
 |  |  |
 | Document Name | [[http://dev.w3.org/csswg/css-style-attr/]]  |
