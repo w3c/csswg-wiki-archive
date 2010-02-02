@@ -1,0 +1,58 @@
+This is the main development page for the CSS3 Test Suite.
+
+== w3c Standards and drafts ==
+
+=== Candidate recommendations ===
+
+^ Module      ^ Heading 2       ^ Heading 3          ^
+| Selectors API Level 1    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Multi Column Layout    | Row 1 Col 2     | Row 1 Col 3        |
+| A mathML for CSS profile    | Row 1 Col 2     | Row 1 Col 3        |
+| Media Queries    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Mobile Profile 2.0    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Marquee Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Namespaces Module    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS3 Basic User Interface Module    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS3 Ruby Module    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS TV Profile 1.0    | Row 1 Col 2     | Row 1 Col 3        |
+
+=== Last call drafts ===
+
+^ Module      ^ Heading 2       ^ Heading 3          ^
+| CSS Styling Attributes Level 1    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Backgrounds and Borders Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
+| Selectors Level 3    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Color Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Print Profile    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS3 Module: Paged Media    | Row 1 Col 2     | Row 1 Col 3        |
+
+=== Other working drafts ===
+
+^ Module      ^ Heading 2       ^ Heading 3          ^
+| Selectors API Level 2    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS 2D Transforms Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Transitions Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
+| CSSOM View Module    | Row 1 Col 2     | Row 1 Col 3        |
+| Flexible Box Layout Module    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Image Values Module Level 3    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Multi Column Layout    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Multi Column Layout    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Multi Column Layout    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Multi Column Layout    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Multi Column Layout    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Multi Column Layout    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Multi Column Layout    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Multi Column Layout    | Row 1 Col 2     | Row 1 Col 3        |
+| CSS Multi Column Layout    | Row 1 Col 2     | Row 1 Col 3        |
+
+
+== Key ==
+
+* In development - document or files are in development
+* Alpha - document or files are in alpha release
+* Beta - document or files are in alpha release
+* RC1 - Release candidate 1
+* RC2 - Release candidate 2
+* Final - Final release
+
+If changes are done to the specification, a Test document and group of test files can go from higher than Alpha back to "In development".
