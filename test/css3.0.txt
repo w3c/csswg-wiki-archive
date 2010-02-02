@@ -1,6 +1,12 @@
 
 This is the main development page for the CSS3 Test Suite.
 
+====== Resources ======
+
+[[http://www.w3.org/Style/CSS/current-work]]
+
+Do not use [[http://www.w3.org/TR/]], because they are not the most recent.
+
 ====== w3c Standards and drafts ======
 
 ===== Candidate recommendations =====
