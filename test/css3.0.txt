@@ -43,18 +43,18 @@ The Unit Test plans will be based off of the Editor's draft unless specifically 
 | Unit Test Document | [[css3-2d-transforms-unit-test-plan]]  |
 | Test Files         | [[css3-2d-transforms-unit-test-files]]  |
 
-====== css3-3d-transforms ======
+====== CSS 3D Transforms Module Level 3 ======
 
 ^                    ^      ^
-| Short Name         | XXX  |            
+| Short Name         | css3-3d-transforms  |            
 |                    |      |
 | Document Name      | [[http://dev.w3.org/csswg/css3-3d-transforms/]]  |
-| Editor's Draft     | XXX  |
-| Status             | XXX  |
+| Editor's Draft     | Editor's Draft 31 October 2009  |
+| Status             | Working Draft  |
 |                    |      |
 | Document Name      | [[http://www.w3.org/TR/css3-3d-transforms/]]  |
-| Working Draft      | XXX  |
-| Status             | XXX  |
+| Working Draft      | W3C Working Draft 20 March 2009  |
+| Status             | Working Draft  |
 |                    |      |
 | Unit Test Document | [[css3-3d-transforms-unit-test-plan]]  |
 | Test Files         | [[css3-3d-transforms-unit-test-files]]  |
