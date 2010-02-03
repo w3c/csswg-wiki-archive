@@ -14,18 +14,18 @@ The Unit Test plans will be based off of the Editor's draft unless specifically 
 ====== CSS Styling Attributes Level 1 ======
 
 ^       ^    ^
-| Short Name | css-style-attr  |            
+| Short Name | css-style-attr|            
 |  |  |
-| Document Name | [[http://dev.w3.org/csswg/css-style-attr/ ]]  |
-| Editor's Draft | W3C Working Draft 21 January 2010  |
-| Status | Candidate Recommendation  |
+| Document Name | [[http://dev.w3.org/csswg/css-style-attr/]]|
+| Editor's Draft | W3C Working Draft 21 January 2010|
+| Status | Candidate Recommendation|
 |  |  |
-| Document Name | [[http://www.w3.org/TR/css-style-attr/ ]]  |
-| Working Draft | W3C Working Draft 21 January 2010  |
-| Status | Last Call  |
+| Document Name | [[http://www.w3.org/TR/css-style-attr/ ]]|
+| Working Draft | W3C Working Draft 21 January 2010|
+| Status | Last Call|
 |  | |
-| Unit Test Document | [[css-style-attr-unit-test-plan]]  |
-| Test Files | [[css-style-attr-unit-test-files]]  |
+| Unit Test Document | [[css-style-attr-unit-test-plan]]|
+| Test Files | [[css-style-attr-unit-test-files]]|
 
 ====== CSS 2D Transforms Module Level 3 ======
 
