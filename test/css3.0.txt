@@ -16,11 +16,11 @@ The Unit Test plans will be based off of the Editor's draft unless specifically 
 ^       ^    ^
 | Short Name | css-style-attr  |            
 |  |  |
-| Document Name | [[http://dev.w3.org/csswg/css-style-attr/]]  |
+| Document Name | [[http://dev.w3.org/csswg/css-style-attr/ ]]  |
 | Editor's Draft | W3C Working Draft 21 January 2010 |
 | Status | Candidate Recommendation |
 |  |  |
-| Document Name | [[http://www.w3.org/TR/css-style-attr/]] |
+| Document Name | [[http://www.w3.org/TR/css-style-attr/ ]] |
 | Working Draft | W3C Working Draft 21 January 2010 |
 | Status | Last Call |
 |  | |
