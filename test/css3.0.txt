@@ -62,20 +62,20 @@ The Unit Test plans will be based off of the Editor's draft unless specifically 
 ====== 	CSS Animations Module Level 3 ======
 
 ^                    ^      ^
-| Short Name         | css3-animations                               |            
+| Short Name | css3-animations |            
 |                    |                                               |
 | Document Name      | [[http://dev.w3.org/csswg/css3-animations/]]  |
 | Editor's Draft     | Editor's Draft 14 April 2009                  |
 | Status             | Working Draft                                 |
-|                    |                                               |
+| | |
 | Document Name      | [[http://www.w3.org/TR/css3-animations/]]     |
 | Working Draft      | W3C Working Draft 20 March 2009               |
 | Status             | Working Draft                                 |
-|                    |                                               |
+| | |
 | Document name      | [[css3-animations-unit-test-plan]]            |
 | Editor's Draft     | Editor's Draft TBD                            |
 | status             | In development                                |
-|                    |                                               |
+| | |
 | Test Files         | [[css3-animations-unit-test-files]]           |
 | Test Files         | Editor's Draft TBD                            |
 | Test Files         | In development                                |
