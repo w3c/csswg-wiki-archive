@@ -1,0 +1,73 @@
+====== Reftests ======
+
+A //reftest// is a test that compares the visual output of one file (the testcase) with the output of another file (the reference). Unlike the standard self-describing tests, reftests can be scripted to run and report results automatically.
+
+A test can be both a self-describing test and a reftest at the same time. 
+
+===== Components of a Reftest =====
+
+A reftest has three parts:
+
+  ; test : The test file. This must follow the [[test:css2.1:format|CSS test format guidelines]].
+  ; reference file : This is a different, usually simpler, file that results in the same rendering as the test.
+  ; reftest comparison : A line in a reftest "manifest" file that says which two files are to be compared.
+
+==== The Reftest Test ====
+
+The test file uses the technology to be tested. This file must follow the [[test:css2.1:format|CSS test format guidelines]].
+
+In addition to matching a reftest reference, the test may also function as an self-describing test. This is preferred (except when it makes the test significantly harder to understand): having the description lets the tester check that the test and the reference are not //both// being rendered incorrectly and triggering a false pass, and designing it for an obvious fail makes it easier to find what went wrong when the reftest does fail.
+
+Reftest tests that are also self-describing tests should be placed in the main test directory. Reftest tests that do not also function as self-describing tests should be placed in the ''reftest'' subfolder of that directory.
+
+==== The Reftest Reference ====
+
+The reference file uses a different method to produce the same rendering as the test file. Multiple tests can (and often do) share the same reference file. 
+
+References should be named after the earliest test that uses them in the ''test-topic'' series they belong to, and have ''-ref'' appended before the file extension. They should be placed in the ''reftest'' subfolder of the main test directory.
+
+<note example>
+For example, if two self-describing tests ''list-style-type-003.xht'' and ''list-style-type-004.xht'' share the same reference, that reference should be named ''reftest/list-style-type-003-ref.xht''.
+</note>
+
+=== Simplified Reference Format ===
+
+Like the format for the test file, the reftest reference format is also XHTML in UTF-8 with bitmap images in PNG format. Unlike the format for the test file, there is no metadata except for the [[test:css2.1:format#credits|author credits]].
+
+<code html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>CSS Reftest Reference</title>
+  <link rel="author" title="NAME_OF_AUTHOR" href="mailto:EMAIL OR http://CONTACT_PAGE"/>
+  <style type="text/css"><![CDATA[
+   CSS FOR REFERENCE
+  ]]></style>
+ </head>
+ <body>
+  CONTENT OF REFERENCE
+ </body>
+</html>
+</code>
+
+=== Common References ===
+
+There are several common references, such as those used for parsing and selectors tests. Their names begin with ''ref-'' so they can be easily found in the ''reftest'' directory. Email public-css-testsuite@w3.org if you would like to add to the common references collection.
+
+==== The Reftest Manifest ====
+
+The reftest manifest is a plain text file that lists test-reference pairs for comparison. Each line starts with ''=='' to indicate equality. (Mozilla has a more sophisticated manifest format: we are not using its advanced features here at W3C.) This is followed by a space, the relative path to the test file, another space, and the relative path to the reference.
+
+White space followed by ''#'' indicates the start of a comment that runs until the end of the line. A line starting with ''#'' is also a comment.
+
+The reftest manifest should be named ''reftest.list'' and placed in the ''reftest'' subfolder of the main test directory.
+
+<note example>
+Here is an example of a reftest manifest.
+
+<code>
+# reftest.list snippet
+== ../test-topic-000.xht test-topic-000-ref.xht
+== ../test-topic-001.xht test-topic-001-ref.xht
+== ../test-topic-002.xht test-topic-000-ref.xht # note same reference as test 000
+</code>
