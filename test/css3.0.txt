@@ -147,18 +147,18 @@ The Unit Test plans will be based off of the Editor's draft unless specifically 
 ====== 	css3-flexbox ======
 
 ^                    ^      ^
-| Short Name         | XXX  |            
+| Short Name         | XXX |            
 |                    |      |
-| Document Name      | [[http://dev.w3.org/csswg/css3-flexbox/]]  |
-| Editor's Draft     | XXX  |
-| Status             | XXX  |
+| Document Name      | [[http://dev.w3.org/csswg/css3-flexbox/]] |
+| Editor's Draft     | XXX |
+| Status             | XXX |
 |                    |      |
-| Document Name      | [[http://www.w3.org/TR/css3-flexbox/]]  |
-| Working Draft      | XXX  |
-| Status             | XXX  |
+| Document Name      | [[http://www.w3.org/TR/css3-flexbox/]] |
+| Working Draft      | XXX |
+| Status             | XXX |
 |                    |      |
-| Unit Test Document | [[css3-flexbox-unit-test-plan]]  |
-| Test Files         | [[css3-flexbox-unit-test-files]]  |
+| Unit Test Document | [[css3-flexbox-unit-test-plan]] |
+| Test Files         | [[css3-flexbox-unit-test-files]] |
 
 ====== css3-fonts ======
 
