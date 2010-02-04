@@ -373,6 +373,12 @@ Duplicate of Issue 73
   ;Summary : Add 'unicode-bidi: embed' to all block-level elements in the sample HTML4 style sheet
   ;Status : Open. =WG= Discuss.
 
+==== Issue 149 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Jan/0058.html
+  ;Summary : pt:px ratios other than based on 96dpi breaks web
+  ;Status : Open. =WG= Discuss.
+
 
 ===== Old Issues =====
 
