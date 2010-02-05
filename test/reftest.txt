@@ -1,6 +1,6 @@
 ====== Reftests ======
 
-A //reftest// is a test that compares the visual output of one file (the testcase) with the output of another file (the reference). Unlike the standard self-describing tests, reftests can be scripted to run and report results automatically.
+A //reftest// is a test that compares the visual output of one file (the testcase) with the output of another file (the reference). Unlike the standard [[test:selftest|self-describing tests]], reftests can be scripted to run and report results automatically.
 
 A test can be both a self-describing test and a reftest at the same time. 
 
