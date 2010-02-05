@@ -11,8 +11,8 @@ The following are some examples of self-describing tests, using common technique
     * [[http://www.w3.org/Style/CSS/Test/CSS2.1/20100127/html4/border-conflict-w-079.htm|No Red 2]]
     * [[http://www.w3.org/Style/CSS/Test/CSS2.1/20100127/html4/margin-collapse-clear-007.htm|Described Alignment]]
     * [[http://www.w3.org/Style/CSS/Test/CSS2.1/20100127/html4/table-anonymous-objects-021.htm|Overlapping]]
-    * [[http://www.w3.org/Style/CSS/Test/CSS2.1/20100127/html4/border-style-inset-001.htm|Generic Description 1]]
-    * [[http://www.w3.org/Style/CSS/Test/CSS2.1/20100127/html4/text-decoration-001.htm|Generic Description 2]]
+    * [[http://www.w3.org/Style/CSS/Test/CSS2.1/20100127/html4/border-style-inset-001.htm|Imprecise Description 1]]
+    * [[http://www.w3.org/Style/CSS/Test/CSS2.1/20100127/html4/text-decoration-001.htm|Imprecise Description 2]]
 </note>
 
 Self-describing tests have some advantages:
