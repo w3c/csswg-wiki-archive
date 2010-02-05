@@ -9,6 +9,7 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
   * [[test:fonts|Installing Fonts for CSS Testing]] (required for running CSS tests)
   * [[test:css2.1:contribute|How to Contribute]]
   * [[test:css2.1:format|Format Template and Guidelines]]
+  * [[test:reftest|Writing Reftests]]
   * [[test:css2.1:review|Review Process]]
   * [[http://fantasai.inkedblade.net/style/tests/about/css21ts/|Slideshow Overview]]
 
