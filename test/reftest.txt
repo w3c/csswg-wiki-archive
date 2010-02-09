@@ -8,7 +8,7 @@ A test can be both a self-describing test and a reftest at the same time.
 
 A reftest has three parts:
 
-  ; test : The test file. This must follow the [[test:css2.1:format|CSS test format guidelines]].
+  ; test file: The test file. This must follow the [[test:css2.1:format|CSS test format guidelines]].
   ; reference file : This is a different, usually simpler, file that results in the same rendering as the test.
   ; reftest comparison : A line in a reftest "manifest" file that says which two files are to be compared.
 
