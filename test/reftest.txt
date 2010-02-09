@@ -6,7 +6,7 @@ A test can be both a self-describing test and a reftest at the same time.
 
 
 <note example>
-Here is an example of a reftest that is also a self-describing test: [[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/rotate-90deg-001.xhtml|test]] [[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/reftest/rotate-90deg-001-ref.xhtml|reference]]
+Here is an example of a reftest that is also a self-describing test: **[[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/rotate-90deg-001.xhtml|TEST]] & [[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/reftest/rotate-90deg-001-ref.xhtml|REF]]**
 </note>
 
 ===== Components of a Reftest =====
