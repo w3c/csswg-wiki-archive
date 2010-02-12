@@ -8,7 +8,10 @@ The CSS2.1 build scripts have a lot of problems. They kinda need a rehaul. This 
 
   * filter HTMLonly and XMLonly tests during test generation
   * handle .htaccess merging
-  * 
+  * don't munge SGML comments or whitespace
+  * preserve DOCTYPEs across conversion
+  * handle structured directories
+  * Figure out how to build a cross 2.1 / 3 test suite that doesn't require hosting multiple copies on w3.org or has some other way of letting us identify common test results in the results system?	
 
 ==== Tooling Issues ====
 
@@ -26,3 +29,5 @@ Minor improvements that don't affect architecture.
 
   * generate HTML comments corresponding to requirements
   * have build scripts add title to rel=“help” links
+  * add UTF-8 charset metatags to HTML files
+  * build zip file
