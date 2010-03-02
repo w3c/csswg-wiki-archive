@@ -4,10 +4,11 @@ Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cup
 
   * joint w/ SVG - image-fit and image-position issues
   * ruby module - HTML5 ruby, errors in CR (see Richard's edits), [[http://www.w3.org/TR/2009/NOTE-jlreq-20090604/#en-subheading2_3|Japanese Layout Note on ruby,]] liaison with XSL (XSL2), next publication
-  * The I18N WG's new bidi enhancements document? (mostly focused on on HTML, but need a counterpart in CSS as well.)
+  * The I18N WG's new bidi enhancements document? [[http://www.w3.org/International/wiki/BidiProposal]] (mostly focused on on HTML, but need a counterpart in CSS as well.)
   * [[http://www.w3.org/TR/2010/WD-css-style-attr-20100121/|css-style-attr]] last call ended. Need to check comments, write DoC and publish CR.
   * [[http://www.w3.org/TR/2009/CR-css3-mediaqueries-20090915/|css3-mediaqueries]] CR period ended last Oct. Do we have a test suite? Can we go to Rec?
   * [[http://www.w3.org/TR/2008/CR-css3-namespace-20080523/|css3-namespaces]] is still CR but seems to be implemented. Publish a Rec?
   * [[http://www.w3.org/TR/2006/WD-css3-page-20061010|css3-page]] was last call until Nov 2006. Has already been CR. If everything is implemented, we can go directly to Rec.
   * [[http://www.w3.org/TR/2009/CR-css3-background-20091217|css3-background]] in CR until June, but has no test suite yet. Can we write one? Maybe during the ftf?
   * Applying transitions to properties like visibility [[http://lists.w3.org/Archives/Public/www-style/2009Nov/0328.html]]
+  * Animation timing function property [[http://lists.w3.org/Archives/Public/www-style/2010Feb/0212.html]]
