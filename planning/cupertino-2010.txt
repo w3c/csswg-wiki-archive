@@ -16,3 +16,4 @@ Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cup
   * TPAC 2010: preferred days, joint meetings, overlap... see [[http://www.w3.org/mid/201003051530.30984.bert@w3.org|e-mail]] and [[http://www.w3.org/2002/09/wbs/34786/TPAC2010/|online survey]]
   * Vendor prefixes
   * [[http://lists.w3.org/Archives/Public/www-style/2009Nov/0286.html|percentage height calculations]]
+  * discussion of font feature support in [[http://dev.w3.org/csswg/css3-fonts/|css3-fonts]]
