@@ -388,6 +388,11 @@ Duplicate of Issue 73
   ;Resolution : Assumed editorial.
   ;Status : Open. =Bert= Edit.
 
+==== Issue 151 ====
+
+  ;URL : http://www.w3.org/2010/03/11-fx-irc#T20-47-31
+  ;Summary : Make non-presentational hints section workable for SVG
+  ;Status : Open. =fantasai= Write rewording proposal.
 
 ===== Old Issues =====
 
