@@ -19,3 +19,4 @@ Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cup
   * discussion of font feature support in [[http://dev.w3.org/csswg/css3-fonts/|css3-fonts]]
   * working out steps needed to progress on css3-transitions
   * animation of gradients (css3-transitions)
+  * finalize dates for August meeting (currently listed as "(tentative)")
