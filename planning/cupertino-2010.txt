@@ -17,3 +17,5 @@ Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cup
   * Vendor prefixes
   * [[http://lists.w3.org/Archives/Public/www-style/2009Nov/0286.html|percentage height calculations]]
   * discussion of font feature support in [[http://dev.w3.org/csswg/css3-fonts/|css3-fonts]]
+  * working out steps needed to progress on css3-transitions
+  * animation of gradients (css3-transitions)
