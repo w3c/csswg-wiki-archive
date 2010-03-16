@@ -20,3 +20,4 @@ Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cup
   * working out steps needed to progress on css3-transitions
   * animation of gradients (css3-transitions)
   * finalize dates for August meeting (currently listed as "(tentative)")
+  * css3-color (and 'color-correction')
