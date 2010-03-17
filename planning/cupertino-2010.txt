@@ -21,3 +21,5 @@ Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cup
   * animation of gradients (css3-transitions)
   * finalize dates for August meeting (currently listed as "(tentative)")
   * css3-color (and 'color-correction')
+  * background shorthand syntax (to slash or not to slash)
+  * box-shadow
