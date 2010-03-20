@@ -22,4 +22,5 @@ Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cup
   * finalize dates for August meeting (currently listed as "(tentative)")
   * css3-color (and 'color-correction')
   * background shorthand syntax (to slash or not to slash)
-  * box-shadow
+  * [[http://lists.w3.org/Archives/Member/w3c-css-wg/2010JanMar/0107.html|box-shadow]]
+  * transitions vs. animations: can we find a common model/syntax?
