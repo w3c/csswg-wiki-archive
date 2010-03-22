@@ -24,3 +24,4 @@ Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cup
   * background shorthand syntax (to slash or not to slash)
   * [[http://lists.w3.org/Archives/Member/w3c-css-wg/2010JanMar/0107.html|box-shadow]]
   * transitions vs. animations: can we find a common model/syntax?
+  * The CSS 2.1 test suite is a strain on the servers. Is there a way to avoid creating a new file if it is the same as an existing file?
