@@ -44,7 +44,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Z-index and stacking behavior prose needs revision (See also Issue 60a)
   ;Testcases : http://lists.w3.org/Archives/Public/www-style/2008Oct/0263.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Oct/0238.html and http://lists.w3.org/Archives/Public/www-style/2008Oct/0240.html
-  ;Status : Open. =sylvain= Investigate.
+  ;Status : Open. =sylvain= Propose spec changes.
 
 ==== Issue 61 ====
 
