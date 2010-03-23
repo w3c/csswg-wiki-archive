@@ -2,6 +2,7 @@
 
 Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cupertino, California (USA).
 
+  * CSS2.1 Issues
   * joint w/ SVG - image-fit and image-position issues
   * ruby module - HTML5 ruby, errors in CR (see Richard's edits), [[http://www.w3.org/TR/2009/NOTE-jlreq-20090604/#en-subheading2_3|Japanese Layout Note on ruby,]] liaison with XSL (XSL2), next publication
   * The I18N WG's new bidi enhancements document? [[http://www.w3.org/International/wiki/BidiProposal]] (mostly focused on on HTML, but need a counterpart in CSS as well.)
