@@ -32,14 +32,14 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Interaction of pre* and justification poorly defined.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jul/0532.html
   ;Test cases :
-  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-001.xht
-  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-002.xht
-  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-003.xht
-  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-004.xht
-  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-005.xht
-  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-006.xht
-  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-007.xht
-  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-008.xht
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-001.xht - IE8: Pass, FF3.6: Pass, O10.5: Pass, S4: Pass, C4: Pass
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-002.xht - IE: Pass, FF: Fail, O: Fail, S: Fail, C: Fail
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-003.xht - IE: Pass, FF: Pass, O: Pass, S: Pass, C: Pass
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-004.xht - IE: Pass, FF: Pass, O: Pass, S: Pass, C: Pass
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-005.xht - IE: Pass, FF: Pass, O: Pass, S: Pass, C: Pass
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-006.xht - IE: Pass, FF: Pass, O: Pass, S: Pass, C: Pass
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-007.xht - IE: Pass, FF: Pass, O: Pass, S: Pass, C: Pass
+  * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-008.xht - IE: Pass, FF: Pass, O: Fail, S: Pass, C: Pass
   ;Status : Open =WG= Discuss
 
 ==== Issue 60 ====
