@@ -58,7 +58,8 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Aug/0126.html
   ;Summary : fixed background images not defined for paged media
-  ;Status : Open. Needs testcase. =arronei=
+  ;Proposal : Add "In paged media where there is no viewport, a ‘fixed’ background is fixed with respect to the page box." (Copied from css3-background)
+  ;Status : Open. =WG= Discuss.
 
 ==== Issue 71 ====
 
