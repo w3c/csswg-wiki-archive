@@ -15,7 +15,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0167.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0575.html
   ;Summary : Define what effect } has in style attribute syntax.
   ;Resolution : A mismatched close brace in a style attribute is treated as an invalid token. It does not terminate the style attribute's style data.
-  ;Status : Open. Needs proposal or spec.
+  ;Status : Closed. See CSS Styling attributes spec
 
 ==== Issue 26 ====
 
