@@ -151,8 +151,8 @@ Duplicate of Issue 73
 ==== Issue 114 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Apr/0325.html
   ;Summary : font-family syntax ambiguous
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Apr/0351.html
-  ;Status : Open. [[http://lists.w3.org/Archives/Public/www-style/2009Apr/0362.html|Needs testcases]]. =arronei= Make testcases.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Apr/0351.html http://lists.w3.org/Archives/Public/www-style/2010Mar/0369.html
+  ;Status : Open. =WG= Discuss. [[http://lists.w3.org/Archives/Public/www-style/2009Apr/0362.html|Needs testcases]]. =arronei= Make testcases.
 
 ==== Issue 115 ====
 
