@@ -28,3 +28,5 @@ Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cup
   * The CSS 2.1 test suite is a strain on the servers. Is there a way to avoid creating a new file if it is the same as an existing file?
   * Define better commitments for reviewing test cases to help approval of all test cases.
   * font-size-adjust: auto [[http://lists.w3.org/Archives/Public/www-style/2010Mar/0206.html]]
+  * CSSOM: impact on other CSS specifications
+  * CSSOM: CSS value API
