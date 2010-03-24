@@ -30,4 +30,4 @@ Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cup
   * font-size-adjust: auto [[http://lists.w3.org/Archives/Public/www-style/2010Mar/0206.html]]
   * CSSOM: impact on other CSS specifications
   * CSSOM: CSS value API
-  * percentage height calculations [[http://lists.w3.org/Archives/Public/www-style/2009Nov/0286.html]]
+ 
