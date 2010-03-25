@@ -299,8 +299,8 @@ Duplicate of Issue 73
 
 ==== Issue 137 ===
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Sep/0247.html
-  ;Summary : Do anonymous blocks become the containing block for floats?
-  ;Proposal : Anonymous blocks are never the containing block for anything but inlines.
+  ;Summary : Do anonymous blocks become the containing block for floats or inline-blocks?
+  ;Proposal : Anonymous blocks are never the containing block for anything but line boxes?
   ;Status : =WG= Discuss.
 
 ==== Issue 138 ===
