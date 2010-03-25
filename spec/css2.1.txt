@@ -341,7 +341,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0022.html
   ;Summary : unclear whether default attributes can be matched
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Nov/0047.html
-  ;Status : Open. Needs audit and proposal for all instances.
+  ;Status : Open. =WG= Discuss.
 
 ==== Issue 144 ====
 
