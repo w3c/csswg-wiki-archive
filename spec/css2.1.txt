@@ -94,7 +94,8 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Nov/0298.html
   ;Summary : Position of list-item marker in presence of floats, text-align
   ;Proposal : Add "The position of the list-item marker in the presence of floats is undefined in CSS2.1." Ask web-designers about text-align.
-  ;Status : Open. =dbaron= Investigate.
+  ; Proposal 2: dbaron had an action in this list to "investigate", and in response wrote: http://lists.w3.org/Archives/Public/www-style/2010Mar/0419.html
+  ;Status : Open. =WG= Discuss.
 
 ==== Issue 84 ====
 
