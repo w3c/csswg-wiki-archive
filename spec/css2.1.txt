@@ -24,7 +24,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Testcase : http://dbaron.org/css/test/2007/height-of-cell-box
   ;Testcase : http://www.brunildo.org/test/td_height1.html
   ;Proposal : Proposal in http://lists.w3.org/Archives/Public/www-style/2007Dec/0252.html and http://lists.w3.org/Archives/Public/www-style/2007Dec/0253.html but needs resolution on open question in the latter proposal; see http://lists.w3.org/Archives/Public/www-style/2008Jan/0004.html and http://lists.w3.org/Archives/Public/www-style/2010Mar/0418.html
-  ;Status : Open. See proposal notes for needed work. =WG= Discuss remaining issue
+  ;Status : Open. See proposal notes for needed work. =WG= Discuss remaining issue (dbaron can explain, preferably with whiteboard)
 
 ==== Issue 53 ====
 
