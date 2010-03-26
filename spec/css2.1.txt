@@ -467,6 +467,13 @@ Duplicate of Issue 73
   ;Summary : The side of a list bullet should depend on the directionality of its parent, not the list-item itself.
   ;Status : Open. =WG= Discuss.
 
+==== Issue 162 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0080.html
+  ;Demo : http://dump.testsuite.org/2010/width-computed-value.htm
+  ;Summary : computed value definition for 'height' and 'width' is wrong
+  ;Proposal : remove "; 'auto' if the property does not apply"
+  ;Status : Open. =WG= Discuss.
 
 ===== Old Issues =====
 
