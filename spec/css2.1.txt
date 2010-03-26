@@ -1235,10 +1235,3 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolved : Add && to list of value syntax operators, with an example
   ;Status : Open. =Bert= Edit.
 
-==== Issue 114 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0080.html
-  ;Demo : http://dump.testsuite.org/2010/width-computed-value.htm
-  ;Summary : computed value definition for 'height' and 'width' is wrong
-  ;Proposal : remove "; 'auto' if the property does not apply"
-  ;Status : Open.
