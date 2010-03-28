@@ -31,3 +31,4 @@ Proposed topics for the March 2010 CSS Working Group Face-to-Face meeting in Cup
   * CSSOM: impact on other CSS specifications
   * CSSOM: CSS value API
   * CSS3 Fonts Issues - JDaggett calling in - tentatively Monday after lunch
+  * CSS3 [[http://dev.w3.org/csswg/css3-gcpm/|GCPM]] - discuss env() function, inline footnotes - publish WD? 
