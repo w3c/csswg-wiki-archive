@@ -482,6 +482,13 @@ Duplicate of Issue 73
   ;Proposal : remove "; 'auto' if the property does not apply"
   ;Status : Open. =WG= Discuss.
 
+==== Issue 164 ====	 
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0486.html	 
+  ;Summary : An example is invalid HTML4.	 
+  ;Proposal : Editorial. Change the DOCTYPE to "-//W3C//DTD HTML 4.01 Transitional//EN"	 
+  ;Status : Open. =WG= Discuss.
+
 
 ===== Old Issues =====
 
