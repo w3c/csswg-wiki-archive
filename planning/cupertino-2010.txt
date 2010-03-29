@@ -39,6 +39,7 @@ Tues PM
 Weds AM
   * CSSOM: impact on other CSS specifications
   * CSSOM: CSS value API
+  * CSS3 color issues
 
 Weds PM
   * [[http://lists.w3.org/Archives/Public/www-style/2009Nov/0286.html|percentage height calculations]]
