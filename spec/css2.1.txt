@@ -481,6 +481,7 @@ Duplicate of Issue 73
   ;Proposal : Editorial. Change the DOCTYPE to "-//W3C//DTD HTML 4.01 Transitional//EN"
   ;Status : Open. =WG= Discuss.
 
+
 ==== Issue 163 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0080.html
