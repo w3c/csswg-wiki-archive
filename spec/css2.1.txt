@@ -155,6 +155,12 @@ Duplicate of Issue 73
   ;Summary : font-family syntax ambiguous
   ;Proposal 1 : http://lists.w3.org/Archives/Public/www-style/2010Mar/0369.html
   ;Proposal 2 : http://lists.w3.org/Archives/Public/www-style/2010Mar/0395.html
+  ;Testcases : http://test.csswg.org/svn/contributors/microsoft/submitted/Chapter_15/font-family-invalid-characters-001.xht
+               http://test.csswg.org/svn/contributors/microsoft/submitted/Chapter_15/font-family-invalid-characters-002.xht
+               http://test.csswg.org/svn/contributors/microsoft/submitted/Chapter_15/font-family-invalid-characters-003.xht
+               http://test.csswg.org/svn/contributors/microsoft/submitted/Chapter_15/font-family-invalid-characters-004.xht
+               http://test.csswg.org/svn/contributors/microsoft/submitted/Chapter_15/font-family-invalid-characters-005.xht
+               http://test.csswg.org/svn/contributors/microsoft/submitted/Chapter_15/font-family-invalid-characters-006.xht
   ;Status : Open. =WG= Discuss. [[http://lists.w3.org/Archives/Public/www-style/2009Apr/0362.html|Needs testcases]]. =arronei= Make testcases.
 
 ==== Issue 115 ====
