@@ -31,10 +31,10 @@ Tues AM
 
 Tues PM
   * CSS3 Fonts Issues - JDaggett calling in - tentatively Monday after lunch
-  * discussion of font feature support in [[http://dev.w3.org/csswg/css3-fonts/|css3-fonts]]
+    * discussion of font feature support in [[http://dev.w3.org/csswg/css3-fonts/|css3-fonts]]
+    * font-size-adjust: auto [[http://lists.w3.org/Archives/Public/www-style/2010Mar/0206.html]]
   * ruby module - HTML5 ruby, errors in CR (see Richard's edits), [[http://www.w3.org/TR/2009/NOTE-jlreq-20090604/#en-subheading2_3|Japanese Layout Note on ruby,]] liaison with XSL (XSL2), next publication
   * The I18N WG's new bidi enhancements document? [[http://www.w3.org/International/wiki/BidiProposal]] (mostly focused on on HTML, but need a counterpart in CSS as well.)
-  * font-size-adjust: auto [[http://lists.w3.org/Archives/Public/www-style/2010Mar/0206.html]]
 
 Weds AM
   * CSSOM: impact on other CSS specifications
