@@ -420,6 +420,7 @@ Duplicate of Issue 73
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Jan/0058.html
   ;Summary : pt:px ratios other than based on 96dpi breaks web
+  ;Proposal : Fix 96px per inch. Whether inches fixed to reality or pixels fixed to screen res / viewing distance / something else may vary by UA. (Print would match real inches, screens tend to align with viewing distance and/or screen res.)
   ;Status : Open. =WG= Discuss.
 
 ==== Issue 150 ====
