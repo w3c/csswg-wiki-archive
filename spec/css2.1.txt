@@ -500,7 +500,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Feb/0308.html
   ;Summary : Sentence about clipping descendants is confusing, remove or clarify?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Mar/0001.html + Replace sentence with "Note that absolutely positioned descendant elements are not always clipped by the overflow property on their ancestors." ?
-  ;Status : Open. =WG= Discuss.
+  ;Status : Open. =Tab= Write new proposal.
 
 ==== Issue 162 ====
 
