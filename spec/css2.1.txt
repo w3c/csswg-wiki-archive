@@ -519,10 +519,10 @@ Duplicate of Issue 73
 ==== Issue 164 ====	 
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0486.html	 
-  ;Summary : An example is invalid HTML4.	 
-  ;Proposal : Editorial. Change the DOCTYPE to transitional. 
-  ;Status : Open. =WG= Discuss.
-
+  ;Summary : An example is invalid HTML4.
+  ;Resolution : Assumed editorial. 
+  ;See also : http://lists.w3.org/Archives/Public/www-style/2010Mar/0511.html
+  ;Status : Open. =Bert= Edit.
 
 ===== Old Issues =====
 
