@@ -22,12 +22,12 @@ Mon PM
   * CSS3 [[http://dev.w3.org/csswg/css3-gcpm/|GCPM]] - discuss env() function, inline footnotes - publish WD? 
 
 Tues AM
-  * joint w/ SVG - image-fit and image-position issues
   * Applying transitions to non-animatable properties (other than visibility) [[http://lists.w3.org/Archives/Public/www-style/2009Nov/0328.html]]
   * Discrete/step timing function property [[http://lists.w3.org/Archives/Public/www-style/2010Feb/0212.html]]
-  * animation of gradients (css3-transitions)
   * working out steps needed to progress on css3-transitions
   * transitions vs. animations: can we find a common model/syntax?
+  * animation of gradients (css3-transitions)
+  * joint w/ SVG - image-fit and image-position issues
 
 Tues PM
   * CSS3 Fonts Issues - JDaggett calling in - tentatively Monday after lunch
