@@ -1,0 +1,6 @@
+====== CSSOM Constants ======
+
+This page lists all standardized CSSOM constants in CSS to avoid the creation of conflicting specs. Vendor-specific features and experimental implementations must use numbers greater than 1000: the 0-1000 range is reserved by the CSS Working Group.
+
+| 0 | SOMETHING |
+| 1 | SOMETHINGELSE |
