@@ -528,6 +528,12 @@ Duplicate of Issue 73
   ;See also : http://lists.w3.org/Archives/Public/www-style/2010Mar/0511.html
   ;Status : Open. =Bert= Edit.
 
+==== Issue 165 ====	 
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0539.html
+  ;Summary : Determine whether overflowing floats are sensitive to bidi
+  ;Status : Open. =arronei= Make testcases.
+
 ===== Old Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]] and have also been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|19 July 2007 CSS2.1 errata list]].
