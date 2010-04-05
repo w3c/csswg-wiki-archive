@@ -530,7 +530,7 @@ Duplicate of Issue 73
 
 ==== Issue 165 ====	 
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0539.html
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0539.html http://lists.w3.org/Archives/Public/www-style/2010Mar/0544.html
   ;Summary : Determine whether overflowing floats are sensitive to bidi
   ;Status : Open. =arronei= Make testcases.
 
