@@ -130,7 +130,7 @@ Duplicate of Issue 73
 
 ==== Issue 109 ====
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0060.html http://lists.w3.org/Archives/Public/www-style/2010Mar/0489.html
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0060.html http://lists.w3.org/Archives/Public/www-style/2010Mar/0551.html
   ;Summary : anonymous table objects and table rows
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Mar/0551.html
   ;Status : Open. =WG= Discuss.
