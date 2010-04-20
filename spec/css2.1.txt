@@ -78,14 +78,14 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html plus say that column and table widths are undefined when extra cells are present in fixed layout
   ;Resolved : Proposal accepted.
   ;Status : Closed.
-
 ==== Issue 73 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0216.html
   ;Summary : URL grammar and comments
   ;Proposal : No change. Comments are not allowed inside url(). Add a note to clarify.
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Peter= draft note. =Bert= Edit.
+  ;Proposed Note : In Section 4.3.4 add the following paragraph (best place is probably after "Depending on the type of URI...": "Since URIs may contain characters that would otherwise be used as delimiters in CSS, the entire URI value must be treated as a single unit by the tokenizer and normal tokenization behavior does not apply within a URI value. Therefore comments are not allowed within a URI value."
+  ;Status : =Bert= Edit.
 
 ==== Issue 75 ====
 
@@ -1306,4 +1306,3 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : copy text from http://dev.w3.org/csswg/css3-background/
   ;Resolved : Add && to list of value syntax operators, with an example
   ;Status : Open. =Bert= Edit.
-
