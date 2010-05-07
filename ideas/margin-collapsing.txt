@@ -1,0 +1,8 @@
+====== Margin Collapse Controls ======
+
+  margin-top-collapse: auto | nocollapse | collapse | discard;
+  margin-break: auto | keep | discard;
+
+margin-*-collapse is the standard "I want to control whether margins collapse" rule that people request all the time.  The "discard" value helps with the use-case where the first block in a table-cell throws away its top margin.
+
+margin-break is for when elements break across something (page, column, flexbox-line) and you want to keep or discard the relevant margins.
