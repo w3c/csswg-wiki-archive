@@ -22,13 +22,6 @@ This list only includes ideas that have been vetted and approved by the CSS Work
 
 
 
-
-
-
-
-
-
-
 ===== Ideas and Issues =====
 
 This list includes ideas that are somewhere on the CSS Working Group's radar, but that haven't been formally discussed or accepted. These pages are publicly editable. Please include real-world use cases and links to prior discussion (e.g. on blogs or [[http://lists.w3.org/Archives/Public/www-style|www-style]]).
@@ -43,3 +36,4 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
   * [[ideas:collapsing|Collapsing]]
   * [[ideas:pointer-events|Hit Testing Control (pointer-events property)]]
   * [[ideas:appendix-j|Examples of Good Border Corner Joins]]
+  * [[ideas:feature-testing|Relatively safe feature testing]]
