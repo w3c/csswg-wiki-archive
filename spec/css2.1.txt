@@ -458,7 +458,7 @@ Duplicate of Issue 73
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0079.html
   ;Summary : Add diagrams and examples for line-height and vertical-align terms
-  ;Status : Open. Needs proposed figures.
+  ;Status : Open. =arronei= to create proposed figures.
 
 ==== Issue 155 ====
 
