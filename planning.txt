@@ -9,3 +9,4 @@ This is the CSS Working Group's planning space. So far it includes
   * [[planning:sophia-2009]]
   * [[planning:tpac-2009]]
   * [[planning:cupertino-2010]]
+  * [[planning:oslo-2010]]
