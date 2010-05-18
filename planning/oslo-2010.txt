@@ -1,0 +1,6 @@
+====== Oslo F2F August 2010 ======
+
+Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norway.
+
+  * Review Vendor Prefix policy - what happens when CR reverts to WD, etc?
+  * Define ::selection 
