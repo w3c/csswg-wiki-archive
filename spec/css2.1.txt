@@ -215,33 +215,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Resolution : dbaron's proposal accepted
   ;Status : Open. =Bert= Edit
 
-==== Issue 123 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0030.html
-  ;Summary : Don't ignore end of block when parsing @rule.
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0054.html
-  ;Resolution : Bert's first proposal accepted with comma before second "or".
-  ;Status : Closed.
-
-==== Issue 124 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0030.html
-  ;Summary : Grammar errors
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0054.html
-  ;Resolution : Defer to Bert
-  ;Status : Closed.
-
-==== Issue 125 ====
-  ;Summary : descendants misspelled as descendents in definition of 'hidden' for 'visibility' (section 11.2)
-  ;Resolution : Assumed editorial.
-  ;Status : Closed. (Subsumed by issue 126?)
-
-==== Issue 126 ====
-  ;Summary : spec needs a spell check
-  ;URL : http://lists.w3.org/Archives/Public/www-archive/2009Jun/0054.html http://lists.w3.org/Archives/Public/www-archive/2009Jun/0053.html
-  ;Resolution : Assumed editorial.
-  ;Status : Closed.
-
 ==== Issue 127 ====
   ;Summary : table caption figure caption needs updating
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0173.html
@@ -261,12 +234,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Resolution : Proposal accepted.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Aug/0104.html
   ;Status : Open. =WG= Discuss.
-
-==== Issue 130 ====
-  ;Summary : Undefined keywords mentioned in font-family
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0141.html
-  ;Proposal : Remove 'initial' and 'default' from example list, remove 'e.g.' to make it normative, and add a sentence that says "'initial' and 'default' are reserved as keywords for future use and must be quoted when used as font names."
-  ;Status : Closed.
 
 ==== Issue 131 ====
   ;Summary : Add subject to mailto: url for www-style
@@ -334,14 +301,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Nov/0047.html
   ;Resolution : Proposal accepted.
   ;Status : Open. =Bert= Edit.
-
-==== Issue 144 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0200.html
-  ;Summary : text-decoration and visibility
-  ;Resolved : Irrelevant -- issue is about Quirks mode, spec is already clear.
-  ;Status : Invalid.
-
 
 ==== Issue 145 ====
 
@@ -460,13 +419,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Mar/0001.html + Replace sentence with "Note that absolutely positioned descendant elements are not always clipped by the overflow property on their ancestors." ?
   ;Resolution : Accepted change http://lists.w3.org/Archives/Public/www-style/2010Apr/0389.html
   ;Status : Open. =Bert= Edit.
-
-==== Issue 162 ====
-
-  ;URL : http://www.w3.org/TR/2010/WD-html-bidi-20100304/#lists
-  ;Summary : The side of a list bullet should depend on the directionality of its parent, not the list-item itself.
-  ;Resolved : No change to CSS2.1. Will accept a note showing alternate way to achieve this effect. Possibly address in CSS3.
-  ;Status : Closed.
 
 ==== Issue 163 ====
 
@@ -1327,6 +1279,38 @@ Duplicate of Issue 73
   ;Resolution : Issues 1, 2, and 6 assumed editorial.
   ;Status : Closed.
 
+==== Issue 123 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0030.html
+  ;Summary : Don't ignore end of block when parsing @rule.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0054.html
+  ;Resolution : Bert's first proposal accepted with comma before second "or".
+  ;Status : Closed.
+
+==== Issue 124 ====
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0030.html
+  ;Summary : Grammar errors
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0054.html
+  ;Resolution : Defer to Bert
+  ;Status : Closed.
+
+==== Issue 125 ====
+  ;Summary : descendants misspelled as descendents in definition of 'hidden' for 'visibility' (section 11.2)
+  ;Resolution : Assumed editorial.
+  ;Status : Closed. (Subsumed by issue 126?)
+
+==== Issue 126 ====
+  ;Summary : spec needs a spell check
+  ;URL : http://lists.w3.org/Archives/Public/www-archive/2009Jun/0054.html http://lists.w3.org/Archives/Public/www-archive/2009Jun/0053.html
+  ;Resolution : Assumed editorial.
+  ;Status : Closed.
+
+==== Issue 130 ====
+  ;Summary : Undefined keywords mentioned in font-family
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0141.html
+  ;Proposal : Remove 'initial' and 'default' from example list, remove 'e.g.' to make it normative, and add a sentence that says "'initial' and 'default' are reserved as keywords for future use and must be quoted when used as font names."
+  ;Status : Closed.
+
 ==== Issue 132 ====
   ;Summary : Fix typos in font names
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0136.html
@@ -1345,4 +1329,18 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0172.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Jul/0039.html
   ;Resolution : Assumed editorial.
+  ;Status : Closed.
+
+==== Issue 144 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0200.html
+  ;Summary : text-decoration and visibility
+  ;Resolved : Irrelevant -- issue is about Quirks mode, spec is already clear.
+  ;Status : Invalid.
+
+==== Issue 162 ====
+
+  ;URL : http://www.w3.org/TR/2010/WD-html-bidi-20100304/#lists
+  ;Summary : The side of a list bullet should depend on the directionality of its parent, not the list-item itself.
+  ;Resolved : No change to CSS2.1. Will accept a note showing alternate way to achieve this effect. Possibly address in CSS3.
   ;Status : Closed.
