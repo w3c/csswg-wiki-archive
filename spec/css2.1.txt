@@ -560,10 +560,9 @@ Duplicate of Issue 73
 
 ==== Issue 168 ====
 
-  ;URL : ?
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Feb/0455.html
   ;Summary : Specify case of Armenian numbering
-  ;Proposal : Copy resolution from http://lists.w3.org/Archives/Public/www-style/2009Feb/0455.html into CSS2.1
-  ;Status : Open. =WG= Discuss.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 169 ====
 
