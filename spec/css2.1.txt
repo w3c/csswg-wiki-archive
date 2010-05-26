@@ -250,9 +250,11 @@ Duplicate of Issue 73
   ;Status : Open. =Bert= Edit and send to www-style for review.
 
 ==== Issue 122 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0080.html http://lists.w3.org/Archives/Public/www-style/2009May/0081.html http://lists.w3.org/Archives/Public/www-style/2009May/0082.html
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0080.html http://lists.w3.org/Archives/Public/www-style/2009May/0082.html
   ;Summary : spec should not define "sans-serif" to mean something different from what it means to font designers
-  ;Status : Open.  Proposal needed?
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0081.html
+  ;Resolution : dbaron's proposal accepted
+  ;Status : Open. =Bert= Edit
 
 ==== Issue 123 ====
 
