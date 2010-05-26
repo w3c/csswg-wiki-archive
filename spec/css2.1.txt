@@ -409,7 +409,8 @@ Duplicate of Issue 73
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Dec/0052.html
   ;Summary : marker boxes should not be optional
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 147 ====
 
