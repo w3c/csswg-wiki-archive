@@ -526,7 +526,7 @@ Duplicate of Issue 73
   ;URL : http://www.w3.org/TR/2010/WD-html-bidi-20100304/#lists
   ;Summary : The side of a list bullet should depend on the directionality of its parent, not the list-item itself.
   ;Resolved : No change to CSS2.1. Will accept a note showing alternate way to achieve this effect. Possibly address in CSS3.
-  ;Status : Closed. =fantasai= Respond to i18n WG
+  ;Status : Closed.
 
 ==== Issue 163 ====
 
