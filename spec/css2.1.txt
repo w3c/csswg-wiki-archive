@@ -385,7 +385,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Sep/0126.html #4
   ;Summary : clarify terms like "ancestor box", whether referring to formatting structure or document tree. Spec contains only 3 instances of ancestor box. They are all in section 10.1.
   ;Resolution : Agreed this is ambiguous
-  ;Status : Open. Needs proposal for all instances.
+  ;Status : Open. =Bert= Propose text.
 
 ==== Issue 143 ====
 
