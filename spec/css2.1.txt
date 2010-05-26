@@ -363,7 +363,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Oct/0206.html
   ;Summary : The url token allows a backslash both as the first character in an {escape} and on its own. It should never be on its own.
   ;Proposal : Change to ''([!#$%&*-\[\]-~]|{nonascii}|{escape})*'' (see the e-mail)
-  ;Status : =WG= Discuss.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 140 ====
 
