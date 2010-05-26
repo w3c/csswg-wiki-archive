@@ -420,8 +420,8 @@ Duplicate of Issue 73
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0324.html
   ;Summary : scalig of width of replaced elements ambiguous
-  ;Resolved : No change, because not all replaced elements are images that should be scaled. Some are svg, java applets, iframes, etc.
-  ;Status : Closed.
+  ;Resolved : Remove sentence pointed out in http://lists.w3.org/Archives/Public/www-style/2009Dec/0322.html
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 148 ====
 
