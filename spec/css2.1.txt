@@ -185,7 +185,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issue 7)
   ;Summary : Inline layout inappropriately defines line-height in terms of glyphs
-  ;Status : Open. ==Bert== Write proposal.
+  ;Status : Open. =Bert= Write proposal.
 
 ==== Issue 119 ====
 
