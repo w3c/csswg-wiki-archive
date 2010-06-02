@@ -18,7 +18,8 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Testcase : http://www.brunildo.org/test/td_height1.html
   ;Proposal : Proposal in http://lists.w3.org/Archives/Public/www-style/2007Dec/0252.html and http://lists.w3.org/Archives/Public/www-style/2007Dec/0253.html but needs resolution on open question in the latter proposal; see http://lists.w3.org/Archives/Public/www-style/2008Jan/0004.html and http://lists.w3.org/Archives/Public/www-style/2010Mar/0418.html
   ;Resolution : ''height'' on table cell should be a minimum height for the row, not a minimum height for an anonymous box wrapped around the cell's contents
-  ;Status : Open. =dbaron= Write proposed wording
+  ;Proposed wording : http://lists.w3.org/Archives/Public/www-style/2010Jun/0048.html
+  ;Status : Open. =WG= review proposed wording
 
 ==== Issue 53 ====
 
