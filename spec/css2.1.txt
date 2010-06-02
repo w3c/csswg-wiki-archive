@@ -56,6 +56,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Jun/0116.html
   ;Resolution : proposal accepted
   ;Status : Closed.
+
 ==== Issue 69 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Aug/0126.html
