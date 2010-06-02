@@ -243,7 +243,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issue 8)
   ;Summary : Spec talks about blocks but leaves out table-caption etc.
   ;Proposal : Define table-caption etc. to format their contents exactly like blocks, and remove all explicit lists (and just talk about blocks) elsewhere so we don't keep getting out-of-sync.
-  ;Status : Open. =Bert= Make proposal.
+  ;Status : Open. =fantasai= Make proposal.
 
 ==== Issue 121 ====
 
