@@ -10,13 +10,6 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
 
 TODO: Audit issues list and make sure each issue has tests in the test suite. Then institute policy that issues cannot be marked as closed until there is a test checked in for that issue.
 
-==== Issue 25 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0167.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0575.html
-  ;Summary : Define what effect } has in style attribute syntax.
-  ;Resolution : A mismatched close brace in a style attribute is treated as an invalid token. It does not terminate the style attribute's style data.
-  ;Status : Closed. See CSS Styling attributes spec
-
 ==== Issue 26 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0252.html
@@ -51,14 +44,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Resolution : Exact text deferred to Sylvain, Bert to check that it is only editorial changes.
   ;Status : Open. =Sylvain= Create final proposal for Bert to edit.
 
-==== Issue 61 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0264.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0118.html
-  ;Summary : percentage table row heights should be undefined, not auto
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Jun/0116.html
-  ;Resolution : proposal accepted
-  ;Status : Closed.
-
 ==== Issue 69 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Aug/0126.html
@@ -76,14 +61,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Apr/0447.html changes a, b (optional), c (optional), and d.
   ;Status : Open. =Bert= Draft proposed text.
 
-==== Issue 72 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html
-  ;Summary : extra columns in fixed tables are rendered
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html plus say that column and table widths are undefined when extra cells are present in fixed layout
-  ;Resolved : Proposal accepted.
-  ;Status : Closed.
-
 ==== Issue 73 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0216.html
@@ -92,10 +69,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Resolution : Proposal accepted.
   ;Proposed Note : In Section 4.3.4 add the following paragraph (best place is probably after "Depending on the type of URI...": "Since URIs may contain characters that would otherwise be used as delimiters in CSS, the entire URI value must be treated as a single unit by the tokenizer and normal tokenization behavior does not apply within a URI value. Therefore comments are not allowed within a URI value."
   ;Status : =Bert= Edit.
-
-==== Issue 75 ====
-
-Duplicate of Issue 73
 
 ==== Issue 86 ====
 
@@ -113,14 +86,6 @@ Duplicate of Issue 73
   ;Extended Proposal : http://lists.w3.org/Archives/Public/www-style/2008Nov/0082.html
   ;Resolution : Proposals accepted.
   ;Status : =Bert= Edit.
-
-==== Issue 89 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0297.html
-  ;Summary : Page breaks should be allowed between last line box and content edge.
-  ;Proposal : Copy text from http://dev.w3.org/csswg/css3-page/#allowed-pg-brk
-  ;Resolution : Proposal accepted.
-  ;Status : Closed.
 
 ==== Issue 101 ====
 
@@ -163,7 +128,7 @@ Duplicate of Issue 73
   ;Summary : font-family syntax ambiguous
   ;Proposal 1 : http://lists.w3.org/Archives/Public/www-style/2010Mar/0369.html
   ;Proposal 2 : http://lists.w3.org/Archives/Public/www-style/2010Mar/0395.html
-  ;Testcases : * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_15/font-family-invalid-characters-001.xht
+  ;Test cases : * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_15/font-family-invalid-characters-001.xht
                * IE8: Fails: # + /
                * FF3.6: Pass
                * O10.51: Fails: @ # * /
@@ -211,13 +176,6 @@ Duplicate of Issue 73
   ;Resolution : Proposal accepted.
   ;Status : Open. =Bert= Edit.
 
-==== Issue 116 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issues 1, 2, 6)
-  ;Summary : Editorial issues for chapter 9 and 10
-  ;Resolution : Issues 1, 2, and 6 assumed editorial.
-  ;Status : Closed.
-
 ==== Issue 117 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issues 4 and 10)
@@ -259,33 +217,6 @@ Duplicate of Issue 73
   ;Resolution : dbaron's proposal accepted
   ;Status : Open. =Bert= Edit
 
-==== Issue 123 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0030.html
-  ;Summary : Don't ignore end of block when parsing @rule.
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0054.html
-  ;Resolution : Bert's first proposal accepted with comma before second "or".
-  ;Status : Closed.
-
-==== Issue 124 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0030.html
-  ;Summary : Grammar errors
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0054.html
-  ;Resolution : Defer to Bert
-  ;Status : Closed.
-
-==== Issue 125 ====
-  ;Summary : descendants misspelled as descendents in definition of 'hidden' for 'visibility' (section 11.2)
-  ;Resolution : Assumed editorial.
-  ;Status : Closed. (Subsumed by issue 126?)
-
-==== Issue 126 ====
-  ;Summary : spec needs a spell check
-  ;URL : http://lists.w3.org/Archives/Public/www-archive/2009Jun/0054.html http://lists.w3.org/Archives/Public/www-archive/2009Jun/0053.html
-  ;Resolution : Assumed editorial.
-  ;Status : Closed.
-
 ==== Issue 127 ====
   ;Summary : table caption figure caption needs updating
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0173.html
@@ -307,12 +238,6 @@ Duplicate of Issue 73
   ;Resolution : Change grammar to avoid backup.
   ;Status : Open. =Bert= Write proposal.
 
-==== Issue 130 ====
-  ;Summary : Undefined keywords mentioned in font-family
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0141.html
-  ;Proposal : Remove 'initial' and 'default' from example list, remove 'e.g.' to make it normative, and add a sentence that says "'initial' and 'default' are reserved as keywords for future use and must be quoted when used as font names."
-  ;Status : Closed.
-
 ==== Issue 131 ====
   ;Summary : Add subject to mailto: url for www-style
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0137.html
@@ -320,31 +245,11 @@ Duplicate of Issue 73
   ;Resolution : Assumed editorial.
   ;Status : Open. =Bert= Edit.
 
-==== Issue 132 ====
-  ;Summary : Fix typos in font names
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0136.html
-  ;Resolution : Assumed editorial.
-  ;Status : Closed.
-
-==== Issue 133 ====
-  ;Summary : Ambiguity for row-group-heights
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0120.html
-  ;Proposal : Say that row-group heights are undefined
-  ;Resolution : Proposal accepted.
-  ;Status : Closed.
-
 ==== Issue 134 ====
   ;Summary : percentage values of relative offsets
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0056.html
   ;Test case : http://test.csswg.org/source/contributors/microsoft/incoming/top-with-negative-top-001.htm
   ;Status : Open. =WG= Discuss
-
-==== Issue 135 ====
-  ;Summary : percentage values of relative offsets
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0172.html
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Jul/0039.html
-  ;Resolution : Assumed editorial.
-  ;Status : Closed.
 
 ==== Issue 136 ===
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jul/0059.html
@@ -400,14 +305,6 @@ Duplicate of Issue 73
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Nov/0047.html
   ;Resolution : Proposal accepted.
   ;Status : Open. =Bert= Edit.
-
-==== Issue 144 ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0200.html
-  ;Summary : text-decoration and visibility
-  ;Resolved : Irrelevant -- issue is about Quirks mode, spec is already clear.
-  ;Status : Invalid.
-
 
 ==== Issue 145 ====
 
@@ -527,13 +424,6 @@ Duplicate of Issue 73
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Mar/0001.html + Replace sentence with "Note that absolutely positioned descendant elements are not always clipped by the overflow property on their ancestors." ?
   ;Resolution : Accepted change http://lists.w3.org/Archives/Public/www-style/2010Apr/0389.html
   ;Status : Open. =Bert= Edit.
-
-==== Issue 162 ====
-
-  ;URL : http://www.w3.org/TR/2010/WD-html-bidi-20100304/#lists
-  ;Summary : The side of a list bullet should depend on the directionality of its parent, not the list-item itself.
-  ;Resolved : No change to CSS2.1. Will accept a note showing alternate way to achieve this effect. Possibly address in CSS3.
-  ;Status : Closed.
 
 ==== Issue 163 ====
 
@@ -805,6 +695,13 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Duplicate malformed declarations rule for malformed statements (statements rule to come after declarations rule in the spec).
   ;Status : Closed.
 
+==== Issue 25 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0167.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0575.html
+  ;Summary : Define what effect } has in style attribute syntax.
+  ;Resolution : A mismatched close brace in a style attribute is treated as an invalid token. It does not terminate the style attribute's style data.
+  ;Status : Closed. See CSS Styling attributes spec
+
 ==== Issue 27 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0188.html
@@ -1066,6 +963,14 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution 1 : (1) in section 9.5, change "float's parent's stacking context" to "float's parent stacking context" and (2) in section 9.9.1, add "non-positioned" to items 3, 4, and 5 in the 7-point list
   ;Status : Closed.
 
+==== Issue 61 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0264.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0118.html
+  ;Summary : percentage table row heights should be undefined, not auto
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Jun/0116.html
+  ;Resolution : proposal accepted
+  ;Status : Closed.
+
 ==== Issue 62 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0245.html
@@ -1129,6 +1034,14 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolution : Proposal accepted.
   ;Status : Closed.
 
+==== Issue 72 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html
+  ;Summary : extra columns in fixed tables are rendered
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Sep/0152.html plus say that column and table widths are undefined when extra cells are present in fixed layout
+  ;Resolved : Proposal accepted.
+  ;Status : Closed.
+
 ==== Issue 74 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0228.html
@@ -1136,6 +1049,10 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Sep/0228.html
   ;Resolution : Proposal accepted, plus add "Avoid breaking inside a replaced element."
   ;Status : Closed.
+
+==== Issue 75 ====
+
+Duplicate of Issue 73
 
 ==== Issue 76 ====
 
@@ -1198,8 +1115,6 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Resolved : No change.
   ;Status : Closed.
 
-
-
 ==== Issue 85 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Nov/0039.html http://lists.w3.org/Archives/Public/www-style/2008Nov/0078.html
@@ -1221,6 +1136,14 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Summary : Is anonymous outer table box a block-formatting context?
   ;Proposal : Anonymous outer table box behaves as a block formatting context except that the top margin of a top caption / bottom margin of a bottom caption collapses with the top / bottom table margin. Proposed text in http://lists.w3.org/Archives/Public/www-style/2008Nov/0520.html
   ;Resolution : Option 1 accepted (telcon 2008-12-10)
+  ;Status : Closed.
+
+==== Issue 89 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jan/0297.html
+  ;Summary : Page breaks should be allowed between last line box and content edge.
+  ;Proposal : Copy text from http://dev.w3.org/csswg/css3-page/#allowed-pg-brk
+  ;Resolution : Proposal accepted.
   ;Status : Closed.
 
 ==== Issue 90 ====
@@ -1365,3 +1288,77 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : copy text from http://dev.w3.org/csswg/css3-background/
   ;Resolved : Add && to list of value syntax operators, with an example
   ;Status : Open. =Bert= Edit.
+
+==== Issue 116 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issues 1, 2, 6)
+  ;Summary : Editorial issues for chapter 9 and 10
+  ;Resolution : Issues 1, 2, and 6 assumed editorial.
+  ;Status : Closed.
+
+==== Issue 123 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0030.html
+  ;Summary : Don't ignore end of block when parsing @rule.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0054.html
+  ;Resolution : Bert's first proposal accepted with comma before second "or".
+  ;Status : Closed.
+
+==== Issue 124 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0030.html
+  ;Summary : Grammar errors
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0054.html
+  ;Resolution : Defer to Bert
+  ;Status : Closed.
+
+==== Issue 125 ====
+  ;Summary : descendants misspelled as descendents in definition of 'hidden' for 'visibility' (section 11.2)
+  ;Resolution : Assumed editorial.
+  ;Status : Closed. (Subsumed by issue 126?)
+
+==== Issue 126 ====
+  ;Summary : spec needs a spell check
+  ;URL : http://lists.w3.org/Archives/Public/www-archive/2009Jun/0054.html http://lists.w3.org/Archives/Public/www-archive/2009Jun/0053.html
+  ;Resolution : Assumed editorial.
+  ;Status : Closed.
+
+==== Issue 130 ====
+  ;Summary : Undefined keywords mentioned in font-family
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0141.html
+  ;Proposal : Remove 'initial' and 'default' from example list, remove 'e.g.' to make it normative, and add a sentence that says "'initial' and 'default' are reserved as keywords for future use and must be quoted when used as font names."
+  ;Status : Closed.
+
+==== Issue 132 ====
+  ;Summary : Fix typos in font names
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0136.html
+  ;Resolution : Assumed editorial.
+  ;Status : Closed.
+
+==== Issue 133 ====
+  ;Summary : Ambiguity for row-group-heights
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0120.html
+  ;Proposal : Say that row-group heights are undefined
+  ;Resolution : Proposal accepted.
+  ;Status : Closed.
+
+==== Issue 135 ====
+  ;Summary : percentage values of relative offsets
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009May/0172.html
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Jul/0039.html
+  ;Resolution : Assumed editorial.
+  ;Status : Closed.
+
+==== Issue 144 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0200.html
+  ;Summary : text-decoration and visibility
+  ;Resolved : Irrelevant -- issue is about Quirks mode, spec is already clear.
+  ;Status : Invalid.
+
+==== Issue 162 ====
+
+  ;URL : http://www.w3.org/TR/2010/WD-html-bidi-20100304/#lists
+  ;Summary : The side of a list bullet should depend on the directionality of its parent, not the list-item itself.
+  ;Resolved : No change to CSS2.1. Will accept a note showing alternate way to achieve this effect. Possibly address in CSS3.
+  ;Status : Closed.
