@@ -462,7 +462,7 @@ Duplicate of Issue 73
 
   ;URL : http://www.w3.org/2010/03/11-fx-irc#T20-47-31
   ;Summary : Make non-presentational hints section workable for SVG
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0487.html
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0487.html [note: 6.4.4 example would also need an update]
   ;Status : Open. =WG= Discuss.
 
 ==== Issue 152 ====
