@@ -419,7 +419,8 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0300.html
   ;Summary : wrt BIDI forced line breaks should act like LS not CR/LF
   ;Resolution : No change. Forced breaks are paragraph separators. Need clarification to text that LS's bidi behavior is not overridden.
-  ;Status : Open. =fantasai= Propose text.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0459.html
+  ;Status : Open. =WG= Discuss.
 
 ==== Issue 146 ====
 
