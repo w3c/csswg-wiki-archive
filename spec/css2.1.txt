@@ -475,9 +475,10 @@ Duplicate of Issue 73
 ==== Issue 153 ====
 
   ;URL : http://lists.w3.org/Archives/Public/public-css-testsuite/2010Jan/0030.html
+  ;Summary : Clarify which box of a replaced element is vertical-aligned
   ;Testcase : http://www.w3.org/Style/CSS/Test/CSS2.1/20100127/html4/c44-ln-box-002.htm
   ;Testcase : data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0D%0A%3Cp%20style%3D%22border%3A%201px%20solid%20gray%3B%22%3E%3Cspan%20style%3D%22background%3A%20silver%3B%22%3E__Xx-%20%3Cimg%20src%3D%22http%3A%2F%2Ftest.csswg.org%2Fsource%2Fapproved%2Fsupport%2Fsquare-purple.png%22%20style%3D%22vertical-align%3A%20middle%3B%20margin-top%3A%20100px%3B%20border%3A%20solid%2010px%20aqua%3B%20border-bottom-width%3A%2040px%3B%22%3E%20-xX___
-  ;Summary : Clarify whether replaced elements are vertical-aligned
+  ;Proposal : "In the following definitions, for replaced, inline-block, and inline-table elements, the box used for alignment is the margin box. For inline non-replaced elements, the box used for alignment is undefined."
   ;Status : Open. =fantasai= Propose text
 
 ==== Issue 154 ====
