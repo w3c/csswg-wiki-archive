@@ -482,6 +482,7 @@ Duplicate of Issue 73
   ;Testcase : http://test.csswg.org/source/contributors/csswg-issues/submitted/vertical-align-boxes-001.xht
   ;Testcase : data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0D%0A%3Cp%20style%3D%22border%3A%201px%20solid%20gray%3B%22%3E%3Cspan%20style%3D%22background%3A%20silver%3B%22%3E__Xx-%20%3Cimg%20src%3D%22http%3A%2F%2Ftest.csswg.org%2Fsource%2Fapproved%2Fsupport%2Fsquare-purple.png%22%20style%3D%22vertical-align%3A%20middle%3B%20margin-top%3A%20100px%3B%20border%3A%20solid%2010px%20aqua%3B%20border-bottom-width%3A%2040px%3B%22%3E%20-xX___
   ;Proposal : "In the following definitions, for replaced, inline-block, and inline-table elements, the box used for alignment is the margin box. For inline non-replaced elements, the box used for alignment is undefined."
+  ;Second proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0570.html
   ;Status : Open. =WG= Discuss.
 
 ==== Issue 154 ====
