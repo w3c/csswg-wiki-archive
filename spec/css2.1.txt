@@ -536,9 +536,9 @@ Duplicate of Issue 73
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Feb/0637.html
   ;Summary : Specify whether first page is :left or :right?
-  ;Resolution : Add "For example," example copied from css3-page (b/c email is backwards)
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0493.html
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 161 ====
 
