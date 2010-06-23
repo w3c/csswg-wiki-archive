@@ -39,7 +39,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-002.xht - IE: Pass, FF: Fail, O: Fail, S: Fail, C: Fail
   * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-003.xht - IE: Pass, FF: Pass, O: Pass, S: Pass, C: Pass
   * http://test.csswg.org/source/contributors/microsoft/submitted/Chapter_16/text-align-white-space-004.xht - IE: Pass, FF: Pass, O: Pass, S: Pass, C: Pass
-  ;Status : Open. =WG= Discuss.
+  ;Status : Open. =Daniel= Figure out whether we should allow pre-wrap text to justify. =fantasai= Write alternative wording.
 
 ==== Issue 60 ====
 
