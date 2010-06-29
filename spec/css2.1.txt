@@ -454,7 +454,8 @@ Duplicate of Issue 73
   ;Summary : pt:px ratios other than based on 96dpi breaks web
   ;Proposal : Fix 96px per inch. Whether inches fixed to reality or pixels fixed to screen res / viewing distance / something else may vary by UA. (Print would match real inches, screens tend to align with viewing distance and/or screen res.)
   ;Proposed text : http://fantasai.inkedblade.net/style/specs/css2.1/px-unit
-  ;Resolution : Proposal accepted.
+  ;Proposed text : http://fantasai.inkedblade.net/style/specs/css2.1/pt-unit
+  ;Resolution : px-unit proposal accepted.
   ;Status : Open. =Bert= Edit.
 
 ==== Issue 150 ====
