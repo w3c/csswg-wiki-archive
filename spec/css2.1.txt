@@ -359,7 +359,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jul/0059.html
   ;Summary : Add -tc- vendor prefix (for TallComponents) to 4.1.2.2?
   ;Resolution : Assumed editorial.
-  ;Status : =Bert= Decide and edit.
+  ;Status : Closed.
 
 ==== Issue 137 ===
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Sep/0247.html
