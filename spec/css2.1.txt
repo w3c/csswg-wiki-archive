@@ -586,9 +586,10 @@ Duplicate of Issue 73
 
 ==== Issue 166 ====	 
 
-  ;URL : [minutes F2F wed]
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Apr/0274.html
   ;Summary : Clarify different uses of term "value" as "property value" or "component value"
-  ;Status : Open. =fantasai= Make diff.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0225.html
+  ;Status : Open. =WG= Discuss.
 
 ==== Issue 167 ====
 
