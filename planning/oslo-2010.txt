@@ -4,3 +4,4 @@ Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norwa
 
   * Review Vendor Prefix policy - what happens when CR reverts to WD, etc?
   * Define ::selection 
+  * CSS3 Text Layout - discuss vertical text support, physical vs. logical properties, impact on HTML, other CSS3 modules 
