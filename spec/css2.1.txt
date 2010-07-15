@@ -644,7 +644,8 @@ Duplicate of Issue 73
   ;Summary : prose and grammar disagree about identifiers starting with --
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jun/0619.html
   ;Testcase : http://dbaron.org/css/test/2010/css21-issue-174
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 175 ====
   ;Summary : Clarify that case-insensitive means ASCII case-insensitive per 4.1.3
