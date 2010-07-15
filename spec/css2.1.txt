@@ -645,6 +645,12 @@ Duplicate of Issue 73
   ;Testcase : http://dbaron.org/css/test/2010/css21-issue-174
   ;Status : Open. =WG= Discuss.
 
+==== Issue 175 ====
+  ;Summary : Clarify that case-insensitive means ASCII case-insensitive per 4.1.3
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0283.html
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit.
+
 ===== 19 July 2007 CR Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]] and have also been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|19 July 2007 CSS2.1 errata list]].
