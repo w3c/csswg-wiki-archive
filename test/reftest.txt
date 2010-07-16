@@ -27,10 +27,10 @@ In addition to matching a reftest reference, the test may also function as an se
 
 The reference file uses a different method to produce the same rendering as the test file. Multiple tests can (and often do) share the same reference file. 
 
-References should be named after the earliest test that uses them in the ''test-topic'' series they belong to, and have ''-ref'' appended before the file extension. They should be placed in the ''reftest'' subfolder of the main test directory.
+References should be named after the earliest test that uses them in the ''test-topic'' series they belong to, and have ''-ref'' appended before the file extension. Depending on the test suite, they may be placed in the ''reftest'' subfolder of the main test directory or directly in the main test directory.
 
 <note example>
-For example, if two self-describing tests ''list-style-type-003.xht'' and ''list-style-type-004.xht'' share the same reference, that reference should be named ''reftest/list-style-type-003-ref.xht''.
+For example, if two self-describing tests ''list-style-type-003.xht'' and ''list-style-type-004.xht'' share the same reference, that reference could be named ''reftest/list-style-type-003-ref.xht''.
 </note>
 
 === Simplified Reference Format ===
