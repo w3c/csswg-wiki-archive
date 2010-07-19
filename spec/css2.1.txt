@@ -234,11 +234,13 @@ Duplicate of Issue 73
   ;Resolution : State that behavior described in 4a is undefined. For 4b and 4c, drop item 4 from list and add parenthetical to item 3 saying that the strut is taken into consideration. Accept 10a. For 10b, add a note saying that baseline info is found in the font and this may be further explained in CSS3.
   ;Status : Open. =Bert= Edit.
 
+
 ==== Issue 118 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issue 7)
   ;Summary : Inline layout inappropriately defines line-height in terms of glyphs
-  ;Status : Open. =Bert= Write proposal.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0073.html
+  ;Status : Open.
 
 ==== Issue 119 ====
 
