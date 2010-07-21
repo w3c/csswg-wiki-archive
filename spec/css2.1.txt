@@ -149,6 +149,7 @@ Duplicate of Issue 73
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010May/0071.html
   ;Resolution : Proposal accepted.
   ;Status : Open. =Bert= Edit.
+
 ==== Issue 110 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0489.html
