@@ -11,6 +11,7 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
   * [[test:css2.1:format|Format Template and Guidelines]]
   * [[test:reftest|Writing Reftests]]
   * [[test:css2.1:review|Review Process]]
+  * [[test:oversight|Test Suite Oversight and Governance]]
   * [[http://fantasai.inkedblade.net/style/tests/about/css21ts/|Slideshow Overview]]
 
 ===== Infrastructure =====
