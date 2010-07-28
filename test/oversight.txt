@@ -1,6 +1,6 @@
 ====== Test Suite Oversight ======
 
-The W3C CSS Testing project is governed on a module ownership model. Each test suite has an Owner, and potentially some Peers, who are responsible for maintaining the integrity of the test suite. Currently all test suites follow the CSS2.1 [[test:css2.1:review|CSS2.1 review process]].
+The W3C CSS Testing project is governed on a module ownership model. Each test suite has an Owner, and potentially some Peers, who are responsible for maintaining the integrity of the test suite. Currently all test suites follow the CSS2.1 [[test:css2.1:review|CSS2.1 review process]]; however the Selectors and Media Queries test suites use a different test format.
 
 ===== Owners and Peers =====
 
