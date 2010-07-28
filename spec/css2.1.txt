@@ -603,6 +603,7 @@ Duplicate of Issue 73
   ;Summary : Backslash escapes poorly defined
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Feb/0221.html
   ;Response to proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0658.html
+  ;New Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0289.html
   ;Status : Open. =WG= Discuss.
 
 ==== Issue 168 ====
