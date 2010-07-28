@@ -12,8 +12,8 @@ Tests pending approval are linked from the [[test:css2.1:pending|pending review]
   - If the test does not pass review, the reviewer must tell the submitter what is wrong with the test and what steps should be taken to correct any problems.  Typically the submitter is responsible for fixing the tests, but the reviewer may make the changes directly and then explain to the submitter what they were (possibly by pointing to the change log) and why they were necessary. If these were not metadata-only changes and they are sufficient for the reviewer to consider the test acceptable, then the reviewer should [[test:css2.1:format#reviewer|add himself as reviewer-author]], and the submitter (or, in the case of abandoned tests, another reviewer) needs to review and accept these changes.
        * New tests and changes that have been declined by one reviewer cannot be accepted by someone else until the problems are corrected or have been demonstrated to be invalid. In case of a conflict, an Owner or Peer's opinion carries more weight. In all cases the CSS Working Group has final say in whether a test is valid, and may be consulted if deemed necessary.
   - Once test/changes pass review, the reviewer must [[test:css2.1:format#reviewer|note their acceptance in the test]]. The test is now "Accepted". At this point an Owner or Peer needs to approve the test.
-  - The Owner or Peer can either approve the reviewer's judgement if the reviewer is known to be competent in this area, or review the test himself. Once the Owner or Peer is satisfied the test is "Approved". (If the initial reviewer was an Owner or Peer then this step is automatic).
-  - New tests and changes that have been accepted and approved can be moved to the ''approved'' directory by anyone with write access, and that person is not required to perform any further review. The checkin comment should indicate the approver by either "r=approver" if the approver performed a review or "rs=approver" if the approver rubber-stamped the previous reviewer's judgement.
+  - The [[test:oversight|Owner or Peer]] can either approve the reviewer's judgement if the reviewer is known to be competent in this area, or review the test himself. Once the Owner or Peer is satisfied the test is "Approved". (If the initial reviewer was an Owner or Peer then this step is automatic).
+  - New tests and changes that have been accepted and approved can be moved to the ''approved'' directory by anyone with write access, and that person is not required to perform any further review. The checkin comment should indicate the approver by either "r=approver" if the approver performed a review or "r=reviewer rs=approver" if the approver rubber-stamped the previous reviewer's judgement.
 
 The review process looks like this:
 
@@ -36,53 +36,3 @@ When reviewing a test, you're responsible for making sure the test matches the [
   * That the spec backs up the expected behavior in the test. (I've run into a number of tests that make assumptions I could've sworn were in the spec, but aren't there when I go and check. Since this often means the spec forgot to handle something, you should send a message to [[http://lists.w3.org/Archives/Public/www-style/|www-style]] about it.)
 
 A [[test:css2.1:review-checklist|more detailed review checklist]] is available.
-
-===== Owners and Peers =====
-
-The test suite Owner is the person most responsible for the test suite. Previously
-that was Ian Hickson (Hixie); currently that is Elika J. Etemad (fantasai). A Peer
-is someone the test suite Owner considers equally capable of evaluating changes to
-the test suite and responsible enough to have write access to the test suite. A
-review from a Peer carries equal weight to a review from an Owner.
-
-Currently the following people are Owners or Peers:
-
-  * Elika J. Etemad //aka// fantasai
-  * L. David Baron
-  * Ian Hickson //aka// Hixie
-  * Anne van Kesteren
-
-==== Approvers ====
-
-An Approver is someone who has demonstrated a very strong understanding of the CSS specs and test methodology and an active commitment to working on the test suite but who hasn't quite racked up enough experience points to become a full test suite Peer. An Approver has write access to the repository and can approve tests but may only review his own company's tests under the Owner's oversight.
-
-Currently the following people are Approvers:
-
-  * Arron Eicholz (Microsoft)
-  * Gérard Talbot
-
-===== Becoming a Peer =====
-
-There are three basic qualifications you must satisfy to become a Peer:
-
-  * You must demonstrate the ability to read and interpret the spec correctly.
-  * You must demonstrate a thorough understanding of the test suite guidelines.
-  * You must demonstrate that you are trustworthy.
-
-The first two qualifications can be met by submitting good-quality tests for the test suite
-and intelligently critiquing others' tests.
-
-The third qualification is met by someone vouching for you. This could be a
-test suite Owner or Peer, or it could be someone else trusted by an Owner.
-For example, since fantasai trusts active members of the CSS Working Group,
-an employee of Microsoft can ask his CSS Working Group representative to vouch.
-As another example, since fantasai trusts Mozilla module owners
-and peers, a contributor to that project could ask one of them to vouch.
-By vouching, a voucher is putting his or her reputation on the line, and is
-confirming that the candidate has established enough credibility in the voucher's
-experience that the voucher would entrust him or her with a similar level of
-write privileges in their own project.
-
-If the Owner is satisfied that a candidate would make a suitable Peer, s/he will
-then request write access to any relevant systems for the candidate and add him or her to
-the Peers list.
