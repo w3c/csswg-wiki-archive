@@ -156,7 +156,8 @@ Duplicate of Issue 73
   ;Summary : anonymous table objects and abspos
   ;Proposal A (abspos ignored) : http://lists.w3.org/Archives/Public/www-style/2010Jul/0372.html
   ;Proposal B (abspos placeholders) : http://lists.w3.org/Archives/Public/www-style/2010Jul/0404.html
-  ;Status : Open. =WG= Discuss proposal
+  ;Resolution : Proposal B accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 111 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0070.html
