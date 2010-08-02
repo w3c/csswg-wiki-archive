@@ -696,9 +696,9 @@ Duplicate of Issue 73
 
 ==== Issue 181 ====
 
-  ;Summary : confusion over content height and line-height wrt inline elements
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0535.html
-  ;Status : Open. Needs complete proposal.
+  ;Summary : use of 'height' in 10.8 causes confusion over content height and line-height wrt inline elements
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0010.html
+  ;Status : Open. Needs complete proposal. Post-LC OK.
 
 ===== 19 July 2007 CR Issues =====
 
