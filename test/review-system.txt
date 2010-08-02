@@ -110,6 +110,8 @@ A major design principle is to integrate with Subversion so that changes in SVN 
 
 ==== UI Pages ====
 
+Eira's mockups: http://epistel.no/test/css-review/
+
 === full report for one test ===
 
   * meta data presented at top
