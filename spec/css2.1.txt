@@ -702,6 +702,27 @@ Duplicate of Issue 73
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0010.html
   ;Status : Open. Needs complete proposal. Post-LC OK.
 
+==== Issue 182 ====
+
+  ;Summary : Term "row group" not defined.
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0515.html
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit.
+
+==== Issue 183 ====
+
+  ;Summary : Error handling of malformed media types underdefined.
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0025.html
+  ;Status : Open. Needs proposal.
+
+==== Issue 184 ====
+
+  ;Summary : Unclear that pseudo-elements are considered a subclass of elements.
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0438.html
+  ;Proposal : Add "Pseudo-elements behave just like real elements in CSS except as described below." or somesuch to 5.12
+  ;Status : Open. =WG= Discuss.
+  
+
 ===== 19 July 2007 CR Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]] and have also been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|19 July 2007 CSS2.1 errata list]].
