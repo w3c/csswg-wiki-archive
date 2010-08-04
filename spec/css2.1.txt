@@ -720,7 +720,7 @@ Duplicate of Issue 73
 
   ;Summary : Unclear that pseudo-elements are considered a subclass of elements.
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0438.html
-  ;Proposal : Add "Pseudo-elements behave just like real elements in CSS with the exceptions described below and elsewhere (section 12.1)." or somesuch to 5.12
+  ;Proposal : Add "Pseudo-elements behave just like real elements in CSS with the exceptions described below and _elsewhere_<link to section 12.1>." to 5.12
   ;Resolution : Proposal accepted.
   ;Status : Open. =Bert= Edit.
 
