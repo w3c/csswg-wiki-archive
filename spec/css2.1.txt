@@ -734,6 +734,13 @@ Duplicate of Issue 73
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0501.html
   ;Status : Open. =WG= Discuss.
 
+==== Issue 187 ====
+
+  ;Summary : List-item marker box editorial glitches
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0058.html
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit.
+
 
 ===== 19 July 2007 CR Issues =====
 
