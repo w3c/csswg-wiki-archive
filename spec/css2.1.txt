@@ -607,10 +607,11 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0150.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0210.html
   ;Summary : Backslash escapes poorly defined
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Feb/0221.html
-  ;Response to proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0658.html
-  ;New Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0289.html
-  ;Status : Open. =WG= Discuss.
+  ;Old proposal : http://lists.w3.org/Archives/Public/www-style/2010Feb/0221.html
+  ;Response to old proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0658.html
+  ;New Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0289.html + http://lists.w3.org/Archives/Public/www-style/2010Aug/0052.html
+  ;Resolution : New proposal accepted with Bert's changes.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 168 ====
 
