@@ -17,3 +17,4 @@ Ideas to consider
   * [[http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2008-October/016544.html|dynamic values selector]] and/or a pseudo-class for placeholder text
   * [[http://lists.w3.org/Archives/Public/www-style/2008Nov/0466.html|::window pseudo-element]]
   * [[http://lists.w3.org/Archives/Public/www-style/2010Jan/0308.html|limited descendant combinator]] [[http://www.onderhond.com/blog/work/missing-css-combinator|more info]]
+  * Better definition of :first-letter http://lists.w3.org/Archives/Public/www-style/2010Aug/0063.html + note in Selectors L3
