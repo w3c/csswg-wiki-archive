@@ -804,6 +804,12 @@ Duplicate of Issue 73
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0246.html
   ;Status : Open. =fantasai= Write proposal.
 
+==== Issue 195 ====
+
+  ;Summary : Clarify that splitting an inline box with a block always creates both halves
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2009Feb/0638.html
+  ;Status : Open. Needs proposal.
+
 ===== 19 July 2007 CR Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]] and have also been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|19 July 2007 CSS2.1 errata list]].
