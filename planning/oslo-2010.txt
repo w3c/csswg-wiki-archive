@@ -12,6 +12,8 @@ Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norwa
   * box-shadow blur definition
   * <meta name=viewport> - add something equivalent to CSS and define the then <meta> equivalent as deprecated?
   * Discuss Media Queries Test Suite. http://lists.w3.org/Archives/Public/www-style/2010Jul/0448.html 
+  * Hit testing
+  
 
 ====== Notes ======
 
