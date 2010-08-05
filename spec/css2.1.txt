@@ -55,6 +55,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
 ==== Issue 60 ====
 
   ;URL : http://dev.moonhenge.net/css21/spec/z-index/
+  ;See also : http://lists.w3.org/Archives/Public/www-style/2006Oct/0017.html
   ;Summary : Z-index and stacking behavior prose needs revision (See also Issue 60a)
   ;Testcases : http://lists.w3.org/Archives/Public/www-style/2008Oct/0263.html
   ;Proposal input : http://lists.w3.org/Archives/Public/www-style/2008Oct/0238.html and http://lists.w3.org/Archives/Public/www-style/2008Oct/0240.html
