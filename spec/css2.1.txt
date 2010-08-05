@@ -765,10 +765,17 @@ Duplicate of Issue 73
 
 ==== Issue 190 ====
 
-  ;Summary : 'auto' values inside rect() should compute to 'auto', not to computed length; and s/computed/used/ in the 2nd <shape> paragraph
+  ;Summary : 'auto' values in rect() tied to computed instead of used values
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Mar/0053.html
+  ;Proposal : (in email) 'auto' values inside rect() should compute to 'auto', not to computed length; and s/computed/used/ in the 2nd <shape> paragraph
   ;Status : Open. =WG= Discuss.
 
+==== Issue 191 ====
+
+  ;Summary : define stacking level of marker box
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2009Dec/0093.html
+  ;Proposal : Make marker's stacking level immediately below that of direct child text
+  ;Status : Open. =WG= Discuss.
 
 ===== 19 July 2007 CR Issues =====
 
