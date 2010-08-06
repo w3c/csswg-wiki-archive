@@ -682,9 +682,10 @@ Duplicate of Issue 73
 ==== Issue 177 ====
   ;Summary : Random editorial issues
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0384.html
-  ;Resolution : Assumed editorial.
+  ;Resolution : Assumed editorial. (Note that the last change to 16.6.1 is already [[#issue-169|issue 169.]]
   ;Status : Open. =Bert= Edit.
   
+
 ==== Issue 178 ====
   ;Summary : 8.3.1 margin-collapsing rules don't match reality
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0525.html
