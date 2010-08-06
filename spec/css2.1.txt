@@ -695,7 +695,7 @@ Duplicate of Issue 73
 
   ;Summary : Example in anonymous block boxes section is wrong
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0005.html
-  ;Resolution : Assumed editorial.
+  ;Resolution : Assumed editorial. (Already fixed by [[#issue-164|issue 164.]])
   ;Status : Open. =Bert= Edit.
 
 ==== Issue 180 ====
