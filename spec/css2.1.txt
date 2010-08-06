@@ -835,6 +835,12 @@ Duplicate of Issue 73
   ;Proposal : Say that for all layout purposes, the run-in is considered a direct child of the block to which it belongs.
   ;Status : Open. =WG= Discuss.
 
+==== Issue 199 ====
+
+  ;Summary : Define when line boxes are present
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010May/0698.html
+  ;Status : Open. =WG= Discuss.
+
 ===== 19 July 2007 CR Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]] and have also been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|19 July 2007 CSS2.1 errata list]].
