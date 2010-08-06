@@ -4,6 +4,8 @@ The [[http://www.w3.org/TR/CSS21/|CSS2.1 specification]] is a revision of of [[h
 
 There is an [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|errata document]] for CSS2.1.
 
+Last updated 2010-08-05 -- fantasai
+
 ===== Current Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]]. Once resolved, any resulting changes or corrections will be added to the [[http://www.w3.org/Style/css2-updates/CR-CSS2-20090423-errata.html|errata list]].
