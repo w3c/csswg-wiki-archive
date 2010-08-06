@@ -745,12 +745,13 @@ Duplicate of Issue 73
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0501.html
   ;Status : Open. =WG= Discuss.
 
-==== Issue 187 ====
+==== Issue 200 ====
 
   ;Summary : List-item marker box editorial glitches
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0058.html
-  ;Resolution : Assumed editorial.
+  ;Resolution : Assumed editorial. (Note that the first part changes two words in the proposed text for [[#issue-120|issue 120.]]
   ;Status : Open. =Bert= Edit.
+
 
 ==== Issue 187 ====
 
