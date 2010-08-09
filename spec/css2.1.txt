@@ -53,6 +53,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Should text-decoration propagate through internal table elements?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jul/0450.html
   ;Status : Open. Needs better proposal.
+  ;Testcase : http://test.csswg.org/suites/css2.1/20100727/html4/text-decoration-propagation-006.htm [need one for display: table]
 
 ==== Issue 60 ====
 
