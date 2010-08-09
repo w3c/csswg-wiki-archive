@@ -480,6 +480,7 @@ Duplicate of Issue 73
   ;Proposed text : http://fantasai.inkedblade.net/style/specs/css2.1/pt-unit
   ;Resolution : px-unit proposal accepted.
   ;Status : Open. =Bert= Edit.
+  ;Testcase : Delete c61-phys-len-000.xht ; 96dpi assumption is made in many testcases doesn't need its own at this point.
 
 ==== Issue 150 ====
 
