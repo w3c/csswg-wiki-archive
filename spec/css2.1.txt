@@ -1429,6 +1429,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : http://www.w3.org/Style/css2-updates/issues-4-20061106.html#issue-31
   ;Resolution : Accepted proposed text for body magic from issues-4
   ;Status : Closed.
+  ;Testcases : http://test.csswg.org/suites/css2.1/20100727/xhtml1/background-root-00?.xht
 
 ==== Issue 81 ====
 
