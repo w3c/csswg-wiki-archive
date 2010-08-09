@@ -367,7 +367,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0056.html
   ;Test case : http://test.csswg.org/source/contributors/microsoft/incoming/top-with-negative-top-001.xht
   ;Resolved : No change to spec. Testcase needs update to require exact centering.
-  ;Status : Closed.
+  ;Status : Closed. =arronei= Update testcase.
 
 ==== Issue 135 ====
   ;Summary : percentage values of relative offsets
