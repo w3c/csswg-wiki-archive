@@ -432,6 +432,7 @@ Duplicate of Issue 73
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Nov/0047.html
   ;Resolution : Proposal accepted.
   ;Status : Open. =Bert= Edit.
+  ;Testcases : http://www.w3.org/Style/CSS/Test/CSS2.1/20100316/html4/default-attribute-selector-00[1-8].htm
 
 ==== Issue 144 ====
 
