@@ -884,6 +884,7 @@ The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-200
   ;Summary : @charset rule prose in 4.4 requires double-quoted string (immediately followed by semicolon), but grammar allows double- or single-quoted string. Grammar is noted to be more lax than prose, so this may be ok.
   ;Resolution : No change.
   ;Status : Closed.
+  ;Testcase : at-charset-quotes-001.xht
 
 ==== Issue 5 ====
 
