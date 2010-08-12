@@ -16,6 +16,8 @@ Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norwa
   * GCPM -- ready for CR? -- should hyphenation properties go elsewhere? http://www.w3.org/TR/css3-gcpm/#hyphenation (1 hour)
   * Publishing css-style-attr as CR
   * box-shadow issues
+  * the CSS Viewport proposal http://people.opera.com/rune/TR/ED-css-viewport-20100806/
+ 
 
 ====== Notes ======
 
