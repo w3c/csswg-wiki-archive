@@ -395,7 +395,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Sep/0295.html
   ;Summary : Does relatively positioning a float's parent also offset the float?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0329.html
-  ;Resolution : Proposal accepted.
+  ;Resolution : Proposal accepted with s/block/inline/ at the very end.
   ;Status : Open. =Bert= Edit.
 
 ==== Issue 139 ====
