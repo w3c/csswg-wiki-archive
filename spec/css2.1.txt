@@ -897,6 +897,7 @@ The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-200
   ;Summary : Descendant combinator should be represented as ''S+'' in grammar instead of ''S''. (This correction matches grammar in [[http://www.w3.org/TR/css3-selectors/#grammar|(CSS3) Selectors]].)
   ;Resolution : Accepted to use ''S+''.
   ;Status : Closed.
+  ;Testcases : descendant-selector-011
 
 ==== Issue 6 ====
 
