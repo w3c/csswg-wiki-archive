@@ -882,6 +882,7 @@ The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-200
   ;Summary : ''@{C}{H}{A}{R}{S}{E}{T}'' in grammar (G.2) should be reverted to ''%%"@charset "%%''
   ;Resolution : Make change.
   ;Status : Closed.
+  ;Testcases : at-charset-054 through at-charset-059
 
 ==== Issue 4 ====
 
