@@ -1132,6 +1132,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Mar/0040.html
   ; Resolution : Proposal accepted.
   ;Status : Closed.
+  ;Testcase : absolute-replaced-height-035
 
 ==== Issue 35 ====
 
