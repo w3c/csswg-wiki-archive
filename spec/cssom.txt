@@ -1,0 +1,6 @@
+Transition scenarios the CSSOM has to cope with somehow:
+
+ * Property changes into a longhand property. E.g. some css3 text stuff..? Sometimes this only partially happens. E.g. with 'overflow' the situation is weird iirc.
+ * Property value changes into a comma-separated list. E.g. background-image: <uri> becomes background-image: <uri> [, <uri>]*.
+ * Property value changes into accepting multiple component values. E.g. the 'cursor' property now takes <x> and <y> in addition to <uri>. 'overflow' now takes two values rather than one.
+ * Property component value changes. E.g. <uri> becomes <image>.
