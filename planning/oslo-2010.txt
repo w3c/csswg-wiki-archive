@@ -10,15 +10,13 @@ Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norwa
   * Charter update (1 hour)
   * CSS 2.1 Issues and Status (1 day)
   * box-shadow blur definition
-  * <meta name=viewport> - add something equivalent to CSS and define the then <meta> equivalent as deprecated?
+  * CSS Viewport (incl. <meta name=viewport>) - http://people.opera.com/rune/TR/ED-css-viewport-20100806/
   * Discuss Media Queries Test Suite. http://lists.w3.org/Archives/Public/www-style/2010Jul/0448.html 
   * [[ideas:pointer-events|Hit testing]]
   * GCPM -- ready for CR? -- should hyphenation properties go elsewhere? http://www.w3.org/TR/css3-gcpm/#hyphenation (1 hour)
   * Publishing css-style-attr as CR
   * box-shadow issues
-  * the CSS Viewport proposal http://people.opera.com/rune/TR/ED-css-viewport-20100806/
- 
 
 ====== Notes ======
 
-  * Anne will not be there on Monday. (Only post-5PM most likely.)
+  * Anne will not be there on Monday. (Only post-5PM most likely.) Wonder if CSS 2.1 issues can be done on Monday?
