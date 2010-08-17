@@ -1,3 +1,4 @@
+
 ====== Oslo F2F August 2010 ======
 
 Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norway.
@@ -16,6 +17,7 @@ Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norwa
   * GCPM -- ready for CR? -- should hyphenation properties go elsewhere? http://www.w3.org/TR/css3-gcpm/#hyphenation (1 hour)
   * Publishing css-style-attr as CR
   * box-shadow issues
+  * Template Layout
 
 ====== Notes ======
 
