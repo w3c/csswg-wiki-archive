@@ -51,6 +51,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
 ==== Issue 56 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Apr/0460.html
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Aug/0155.html
   ;Summary : Should text-decoration propagate through internal table elements?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Jul/0450.html
   ;Status : Open. Needs better proposal.
