@@ -18,6 +18,7 @@ Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norwa
   * Publishing css-style-attr as CR
   * box-shadow issues
   * Template Layout
+  * CSS3 Multicol layout: should column rules be clipped? Should 'none', 'hidden', 'inset' and 'outset' be removed from list of column rule styles? How many implementations do we have?
 
 ====== Notes ======
 
