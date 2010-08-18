@@ -597,8 +597,8 @@ Duplicate of Issue 73
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0015.html
   ;Summary : Clarify definition of adjoining margins
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0503.html
-  ;Status : Open. =WG= Discuss.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0342.html
+  ;Status : Open. =WG= Review, then discuss.
 
 ==== Issue 160 ====
 
