@@ -415,7 +415,8 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Sep/0247.html
   ;Summary : Do anonymous blocks become the containing block for floats or inline-blocks?
   ;Proposal : Percentage calculations ignore anonymous blocks. http://lists.w3.org/Archives/Public/www-style/2010Jul/0226.html
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
   ;Testcase : anonymous-boxes-001
 
 ==== Issue 138 ===
