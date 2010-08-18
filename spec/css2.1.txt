@@ -821,8 +821,9 @@ Duplicate of Issue 73
 
   ;Summary : bidi behavior of inline-blocks and inline-tables
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0391.html
-  ;Status : Open. =WG= Discuss.
-  
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =fantasai= write exact wording and give testcases pass/fail conditions
+
 ==== Issue 188 ====
 
   ;Summary : Example refers to clipping by "containing block"; should be "padding box of <div>" or similar
