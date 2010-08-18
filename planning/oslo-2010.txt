@@ -3,11 +3,12 @@
 
 Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norway.
 
-  * Review Vendor Prefix policy - what happens when CR reverts to WD, etc?
+  * Review Vendor Prefix policy - what happens when CR reverts to WD. Vendors' submission responsbilities when a vendor-specific feature is very widely used.
   * Define ::selection 
   * CSS3 Text Layout - discuss vertical text support, physical vs. logical properties, impact on HTML, other CSS3 modules (2 hours) http://nadita.com/murakami/epub-css/
   * Font feature support in CSS3 Fonts (2 hours)
   * CSS 2.1 Test Suite - current status, remaining issues (1 hour)
+  * CSS 2.1 LC-to-REC schedule/planning
   * Charter update (1 hour)
   * CSS 2.1 Issues and Status (1 day)
   * box-shadow blur definition
