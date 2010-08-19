@@ -20,6 +20,7 @@ Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norwa
   * box-shadow issues
   * Template Layout
   * CSS3 Multicol layout: should column rules be clipped? Should 'none', 'hidden', 'inset' and 'outset' be removed from list of column rule styles? How many implementations do we have?
+  * Wed 3PM: coffee break and 1-hour panel on CSS3 
 
 ====== Notes ======
 
