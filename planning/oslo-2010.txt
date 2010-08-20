@@ -14,7 +14,7 @@ Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norwa
   * box-shadow blur definition
   * CSS Viewport (incl. <meta name=viewport>) - http://people.opera.com/rune/TR/ED-css-viewport-20100806/
   * Discuss Media Queries Test Suite. http://lists.w3.org/Archives/Public/www-style/2010Jul/0448.html 
-  * [[ideas:pointer-events|Hit testing]]
+  * [[ideas:pointer-events|Hit testing]] http://lists.w3.org/Archives/Public/www-style/2010Aug/0407.html
   * GCPM -- ready for CR? -- should hyphenation properties go elsewhere? http://www.w3.org/TR/css3-gcpm/#hyphenation (1 hour)
   * Publishing css-style-attr as CR
   * box-shadow issues
