@@ -230,3 +230,9 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Raised by : David Baron
   ; Proposed Resolution : change to 'color keyword'
   ; Status : editorial, spec edited
+  
+==== Issue 30 ====
+  ; Summary : sRGB reference needs to be updated, check other references too
+  ; Raised by : Chris Lilley
+  ; Proposed Resolution : update them
+  ; Status : 
