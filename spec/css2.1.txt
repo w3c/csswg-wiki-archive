@@ -886,7 +886,8 @@ Duplicate of Issue 73
 
   ;Summary : Clarify that splitting an inline box with a block always creates both halves
   ;URI : http://lists.w3.org/Archives/Public/www-style/2009Feb/0638.html
-  ;Status : Open. Needs proposal.
+  ;Resolution : 
+  ;Status : Open. =fantasai= Propose text and testcases.
 
 ==== Issue 196 ====
 
