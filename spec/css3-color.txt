@@ -131,7 +131,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Raised by : Dave Singer
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0467.html
   ; Proposed Resolution : no change
-  ; Status : 
+  ; Status : no change
 
 ==== Issue 16 ====
 
