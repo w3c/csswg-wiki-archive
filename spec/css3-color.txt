@@ -98,7 +98,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Raised by : David Perrell
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0457.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0462.html
   ; Proposed Resolution : no change, since they wouldn't be exact matches due to rounding issues, and then there would be ambiguity
-  ; Status : 
+  ; Status : no change
 
 ==== Issue 12 ====
 
