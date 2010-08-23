@@ -217,6 +217,8 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 ==== Issue 27 ====
   ; Summary : should depend on CSS 2.1 instead of css3-syntax and css3-values
   ; Raised by : David Baron
+  ; Proposed Resolution: normative reference to CSS 2.1, informative to css3-syntax and css3-values
+  ; Status: spec edited
 
 ==== Issue 28 ====
   ; Summary : computed value of system colors should be a color, not the keyword itself
