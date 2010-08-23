@@ -82,7 +82,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Raised by : Marshal Horn
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0409.html
   ; Proposed Resolution : reject all new features (and not sure what this one means, either)
-  ; Status : 
+  ; Status : no change
 
 ==== Issue 10 ====
 
