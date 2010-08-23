@@ -857,7 +857,7 @@ Duplicate of Issue 73
   ;Summary : define stacking level of marker box
   ;URI : http://lists.w3.org/Archives/Public/www-style/2009Dec/0093.html
   ;Proposal : Make marker's stacking level immediately below that of direct child text
-  ;Status : Open. =WG= Discuss.
+  ;Status : Open. =fantasai= Propose note text. =Bert= Edit. 
 
 ==== Issue 192 ====
 
