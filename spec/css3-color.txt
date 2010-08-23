@@ -114,8 +114,8 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : remove paragraph about clipping values outside gamut
   ; Raised by : Chris Murphy
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0459.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0460.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0464.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0465.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0466.html
-  ; Proposed Resolution : ?
-  ; Status : 
+  ; Proposed Resolution : gamut clipping clarified to be to device gamut
+  ; Status : spec edited
 
 ==== Issue 14 ====
 
