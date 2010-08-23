@@ -901,7 +901,7 @@ Duplicate of Issue 73
 ==== Issue 197 ====
 
   ;Summary : Clarify application of 'clear' to run-ins.
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Feb/0156.html
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jan/0404.html
   ;Status : Open. Needs proposed text.
 
 ==== Issue 198 ====
