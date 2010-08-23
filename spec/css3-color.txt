@@ -228,3 +228,5 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 ==== Issue 29 ====
   ; Summary : "predefined" doesn't make sense in context (used twice)
   ; Raised by : David Baron
+  ; Proposed Resolution: change to 'color keyword'
+  ; Status : editorial, spec edited
