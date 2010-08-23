@@ -757,7 +757,7 @@ Duplicate of Issue 73
   ;Summary : 8.3.1 margin-collapsing rules don't match reality
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0525.html
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0528.html
-  ;Status : Open. =WG= Discuss.
+  ;Status : Closed. INVALID
 
 ==== Issue 179 ====
 
