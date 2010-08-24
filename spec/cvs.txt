@@ -61,7 +61,8 @@ followed immediately by a prompt.
 Here is another reference for setting up CVS to use SSH (though in practice I haven't found that I need it, and the instructions there seem cryptic too) https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Setting_up_CVS_to_use_SSH
 
 
-===== How To Do Secure Checkouts That Allow You To Check In =====
+===== Step 2 - How To Do Secure Checkouts  =====
+How to do secure checkouts that all you to check in.
 
   * go http://dev.w3.org/cvsweb/
   * copy the line that starts with:
@@ -181,7 +182,7 @@ CONGRATULATIONS!
 You now have a checkout of the ''csswg'' CVS repository.
  
 
-==== Aside: Enabling BBEdit CVS Support ====
+==== Aside - Enabling BBEdit CVS Support ====
 
 If you use the BBEdit text editor:
 
@@ -196,10 +197,10 @@ If you're running BBEdit 7.1.x you'll see a new "yellow diamond merge" menu icon
 
 Feel free to add more specific info about other versions of BBEdit.
 
-==== Aside: Other Editor CVS Support ====
+==== Aside - Other Editor CVS Support ====
 Other windowing/GUI text editors may have their own ways of enabling CVS support.  Feel free to add documentation for those here in their own sections, named similarly to the previous section on ''Enabling BBEdit CVS Support''.
 
-===== Creating A New Directory =====
+===== Step 3 - Creating A New Directory =====
 
 Say you're working on a new spec, CSS3 Foo and want to create the respective directory, "css3-foo", here's how you do it.
 
@@ -285,7 +286,7 @@ CONGRATULATIONS!
 
 You've checked in your first new directory and file.
 
-==== Aside: What is this odd vim editor ====
+==== Aside - What is this odd vim editor ====
 
 IF you forget to type -m and a commit message in the cvs command line, e.g. type something like:
 
@@ -342,6 +343,34 @@ In order to void vim popping up like that in the future, be sure to to always ex
 <code bash>
 cvs commit -m "YOUR COMMIT MESSAGE HERE" css3-foo
 </code>
+
+
+==== Aside - Check In A New File From BBEdit ====
+How to check in a new file from BBEdit.
+
+Open the new file e.g. <code>Overview.html</code> in BBEdit
+
+Choose "Add" from the (mergeicon) menu item.
+
+Choose "Commit File..." from the (mergeicon) menu item.
+
+You will be presented with a "Commit File" modal dialog.
+
+Enter your checkin comments for the file and click (OK).
+
+===== Aside - Check In Multiple New Files From BBEdit ====
+How to check in multiple files from BBEdit.
+
+IF all the new files are in the same folder (or descendants of that folder)
+
+THEN open a file that folder
+
+and choose "Commit Parent Folder..." from the (mergeicon) menu
+
+You will be presented with a "Commit Message" modal dialog.
+
+Enter your checkin comments for all the files you have changed in that folder or its descendants and click OK.
+
 
 ====== See Also ======
   * [[test/cvs|Guide to CVS]] - some good command overviews, except IGNORE the bits about "$CVSROOT" and "Logging in".
