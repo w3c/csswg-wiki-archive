@@ -23,9 +23,10 @@ That's why this document is here.
 
 ===== Make Sure You Have =====
 Before you get started with the setup steps, you need:
- * inputs:
-  * your W3C username - you need this for communicating with the W3C's CVS server
-  * your public key - you need to setup SSH keys for yourself (citation to another document forthcoming).
+
+  * inputs:
+    * your W3C username - you need this for communicating with the W3C's CVS server
+    * your public key - you need to setup SSH keys for yourself (citation to another document forthcoming).
 
 
 ===== Step 0 - Install CVS =====
@@ -61,6 +62,142 @@ followed immediately by a prompt.
 Here is another reference for setting up CVS to use SSH (though in practice I haven't found that I need it, and the instructions there seem cryptic too) https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Setting_up_CVS_to_use_SSH
 
 
+===== How To Do Secure Checkouts That Allow You To Check In =====
+
+  * go http://dev.w3.org/cvsweb/
+  * copy the line that starts with:
+    * ''CVSROOT=:pserver:anonymous@dev.w3.org:/sources/public''
+    * copy the part after "CVSROOT="
+  * change ''pserver'' to ''ext''
+  * change ''anonymous'' to your W3C username
+
+You should have something like:
+
+'':ext:Tantekelik@dev.w3.org:/sources/public''
+
+But with YOUR username instead of "Tantekelik" (used only as a placeholder in these examples)
+
+Note that your W3C username is CASE-SENSITIVE, be sure to enter it precisely.
+
+  * prefix it with "cvs -d" like this:
+    * ''cvs -d :ext:Tantekelik@dev.w3.org:/sources/public''
+  * put "co csswg" at the end like this:
+    * ''cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co csswg''
+  * now use "cd" in your terminal/shell window/application to navigate to the directory where you want to create a new "csswg" directory.
+  * execute this command in your shell (it will create a new directory called csswg)
+    * ''cvs -d :ext:tantekelik@dev.w3.org:/sources/public co csswg''
+
+You might see a message like:
+
+''The authenticity of host 'dev.w3.org (128.30.52.19)' can't be established.''
+
+''RSA key fingerprint is fb:30:ab:09:1c:b3:1a:74:93:67:57:fd:69:16:0b:97.''
+
+
+That's the right one. If you get a different fingerprint back you're being hacked.
+
+Then when asked:
+
+''Are you sure you want to continue connecting (yes/no)?''
+
+Answer:
+
+''yes''
+
+Then you'll likely get a warning like:
+
+''Warning: Permanently added 'dev.w3.org,128.30.52.19' (RSA) to the list of known hosts.''
 
 
 
+IF you get an error message like
+
+''Permission denied (publickey).''
+
+FIRST check to make sure you typed in your username *case-sensitively* including proper capitals if any.
+
+THEN if it still doesn't work, something is wrong with your public key setup. Email Bert Bos and ask him for help making sure your public key is setup correctly with W3C.
+
+
+On Mac OS X (10.6) Terminal, you should get an alert dialog box that says:
+
+
+''Enter your password for the SSH key "id_dsa".''
+
+''Password: ________''
+
+''(OK)''
+
+
+Enter your SSH pass phrase that you used when you created the key and click OK.
+
+On some other random, you'll be prompted in some other way for pass phrase for your SSH key. Feel free to edit this and add OS-specific experiences/screenshots.
+
+
+You may get a message like:
+
+''Identity added: /Users/USERNAME/.ssh/id_dsa (/Users/t/.ssh/id_dsa)''
+
+where USERNAME is your login alias for your client box.
+
+
+IF you get an error message like:
+
+''Connection closed by 128.30.52.19''
+
+''cvs [checkout aborted]: end of file from server (consult above messages if any)''
+
+THEN it could be a number of things. E.g.
+
+  * you might have taken too long to enter your pass phrase in the previous step
+    * try the previous step again, and promptly enter your pass phrase
+
+
+You SHOULD see a message like:
+
+''cvs.bin checkout: Updating csswg''
+
+and then a bunch of messages like:
+
+''U csswg/.htaccess''
+
+''U csswg/default.css''
+
+''U csswg/logo-ED.png''
+
+''cvs.bin checkout: Updating csswg/css-style-attr''
+
+''U csswg/css-style-attr/Overview.html''
+
+''U csswg/css-style-attr/Overview.src.html''
+
+''U csswg/css-style-attr/issues-lc-2009.txt''
+
+
+...
+
+etc.
+
+
+CONGRATULATIONS!  
+
+You now have a checkout of the ''csswg'' CVS repository.
+ 
+
+==== Aside: Enabling BBEdit CVS Support ====
+
+If you use the BBEdit text editor:
+
+  * Go to the ''BBEdit'' menu
+  * Choose ''Preferences...''
+  * Click on ''Tools'' in the left column list of preference panes
+  * Check ''|x| CVS Integration''
+  * Click the ''(Save)'' button and close the ''BBEdit Preferences'' window.
+  * Quit BBEdit and relaunch.
+
+If you're running BBEdit 7.1.x you'll see a new "yellow diamond merge" menu icon between the ''#!'' and the script icon menu for performing operations on files that are part of a CVS checkout.
+
+Feel free to add more specific info about other versions of BBEdit.
+
+==== Aside: Other Editor CVS Support ====
+Other windowing/GUI text editors may have their own ways of enabling CVS support.  Feel free to add documentation for those here in their own sections, named similarly to the previous section on ''Enabling BBEdit CVS Support''.
