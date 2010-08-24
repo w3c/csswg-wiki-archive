@@ -1,0 +1,66 @@
+====== W3C CVS For Dummies ======
+
+2010-234 Tantek Çelik - originally drafted (with incremental updates since)
+
+===== Introduction =====
+Setting up CVS and specifically, W3C's setup for CVS is quite challenging, obtuse, and painful.
+
+Having failed to do this by myself, I took reasonably thorough notes while @fantasai and @davidbaron helped walk me through this setup, including trouble-shooting several problems I encountered along the way.
+
+It is my hope that documenting the steps I had to take will help others get setup with CVS and editing W3C specs much more quickly and efficiently, and perhaps, in the long run, the process for editing W3C specifications can be made more efficient.
+
+Tantek Çelik, 2010-236
+
+===== Public Web Access to W3C CVS =====
+If all you want to do is browse through W3C's CVS repository on the web, you can start here:
+
+http://dev.w3.org/cvsweb/
+
+However, if you want to actually *check out* W3C's CVS repository (with the intent to make changes), the instructions/info on that page is a bit too cryptic for most folks.
+
+That's why this document is here.
+
+
+===== Make Sure You Have =====
+Before you get started with the setup steps, you need:
+ * inputs:
+  * your W3C username - you need this for communicating with the W3C's CVS server
+  * your public key - you need to setup SSH keys for yourself (citation to another document forthcoming).
+
+
+===== Step 0 - Install CVS =====
+You need to first install CVS on your system.
+
+If you have a Mac - install XCode.  As long as you're using a fairly new OS X version (e.g. 10.6 Snow Leopard) and XCode, that should do it.
+
+For other platforms ... tips forthcoming.
+
+
+===== Step 1 - Setup CVS_RSH =====
+
+W3C requires you to use SSH to connect to their CVS server.
+
+What does this mean? It means W3C only allows secure access to the CVS server - and thus you must setup SSH on your machine to act as the conduit for CVS.
+
+The short version, type this into a terminal window (e.g. in the Terminal application on MacOSX)
+
+''export CVS_RSH=ssh''
+
+You'll want to setup that up to happen automatically for you, and there are some instructions later for doing so.
+
+Now test that you did the right thing by typing in:
+
+''echo $CVS_RSH''
+
+You should see a message like:
+
+''ssh''
+
+followed immediately by a prompt.
+
+Here is another reference for setting up CVS to use SSH (though in practice I haven't found that I need it, and the instructions there seem cryptic too) https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Setting_up_CVS_to_use_SSH
+
+
+
+
+
