@@ -285,5 +285,63 @@ CONGRATULATIONS!
 
 You've checked in your first new directory and file.
 
+==== Aside: What is this odd vim editor ====
+
+IF you forget to type -m and a commit message in the cvs command line, e.g. type something like:
+
+<code bash>cvs commit -m css3-foo</code>
+
+THEN
+
+You might quickly see a message like:
+
+<code bash>
+cvs commit: Examining css3-foo
+</code>
+
+And then be teleported into a terminal based text editor.
+
+In MacOS X 10.6 Terminal, the title of the terminal window will change to indicate the name of the text editor (e.g. vim is indicated by something like 
+
+Terminal — vim — 80x24
+
+Regardless of which editor, you'll see lines at the top starting with:
+<code bash>
+CVS: ----------------------------------------------------------------------
+CVS: Enter Log.  Lines beginning with `CVS:' are removed automatically
+</code>
+
+IF you're using VIM
+
+type 'i' to go into INSERT mode (you should see a bold -- INSERT -- at the bottom of the terminal screen)
+
+Type in a commit message for the new directory and file and press return.
+
+then press the 'esc' (escape) key
+
+and type the letters ':' 'w' 'q' (without the quotes or spaces) 
+
+and press the enter/return key.
+
+You should see a messages like
+
+<code bash>
+RCS file: /sources/public/csswg/css3-foo/Overview.src.html,v
+done
+Checking in css3-foo/Overview.src.html;
+/sources/public/csswg/css3-foo/Overview.src.html,v  <--  Overview.src.html
+initial revision: 1.1
+done
+cvs-debian-1.12.13 checkout: Updating csswg/css3-foo
+</code>
+
+Your code has been checked in with the comments you wrote in the vim edited file.
+
+In order to void vim popping up like that in the future, be sure to to always explicitly specify a commit message with -m like
+
+<code bash>
+cvs commit -m "YOUR COMMIT MESSAGE HERE" css3-foo
+</code>
+
 ====== See Also ======
   * [[test/cvs|Guide to CVS]] - some good command overviews, except IGNORE the bits about "$CVSROOT" and "Logging in".
