@@ -31,7 +31,10 @@ Before you get started with the setup steps, you need:
 ===== Step 0 - Install CVS =====
 You need to first install CVS on your system.
 
-If you have a Mac - install XCode.  As long as you're using a fairly new OS X version (e.g. 10.6 Snow Leopard) and XCode, that should do it.
+If you have a Mac:
+  * install XCode.  It helps if you're using a fairly new OS X version (e.g. 10.6 Snow Leopard) and XCode.
+  * install MacPorts (citation/download link needed)
+  * ''sudo port install cvs''
 
 For other platforms ... tips forthcoming.
 
@@ -208,9 +211,13 @@ Create the new folder for "css3-foo" in your filesystem.
 
 E.g. on a Mac, go to the "csswg" folder in the Finder, and choose "New Folder" (cmd-shift-N) and rename the folder to "css3-foo" (without the quotes).
 
-Or <code bash>cd</code> to that directory and do a <code bash>mkdir css3-foo</code> command in your terminal/shell.
+Or ''cd'' to that directory and do a 
 
-Then you need to do an explicit <code bash>cvs add</code> on the directory, e.g.
+<code bash>mkdir css3-foo</code> 
+
+command in your terminal/shell.
+
+Then you need to do an explicit ''cvs add'' on the directory, e.g.
 
 <code bash>cvs add css3-foo</code>
 
@@ -235,9 +242,9 @@ Now cd into that directory
 
 CVS needs at least one file in a new directory for that new directory to be propagated to the server.
 
-Create your new HTML pre-processor source file and name it something like: <code bash>Overview.src.html</code>
+Create your new HTML pre-processor source file and name it something like: ''Overview.src.html''
 
-and save it in the aforementioned <code bash>css3-foo</code> directory.
+and save it in the aforementioned ''css3-foo'' directory.
 
 To commit this file and thus create the new directory, you have to do a cvs add, e.g. from the shell.
 
@@ -348,7 +355,7 @@ cvs commit -m "YOUR COMMIT MESSAGE HERE" css3-foo
 ==== Aside - Check In A New File From BBEdit ====
 How to check in a new file from BBEdit.
 
-Open the new file e.g. <code>Overview.html</code> in BBEdit
+Open the new file e.g. ''Overview.html'' in BBEdit
 
 Choose "Add" from the (mergeicon) menu item.
 
@@ -358,7 +365,7 @@ You will be presented with a "Commit File" modal dialog.
 
 Enter your checkin comments for the file and click (OK).
 
-===== Aside - Check In Multiple New Files From BBEdit ====
+==== Aside - Check In Multiple New Files From BBEdit ====
 How to check in multiple files from BBEdit.
 
 IF all the new files are in the same folder (or descendants of that folder)
@@ -371,6 +378,56 @@ You will be presented with a "Commit Message" modal dialog.
 
 Enter your checkin comments for all the files you have changed in that folder or its descendants and click OK.
 
+===== Step 4 - How To Edit An Editors Draft =====
+
+Open the ''Overview.src.html'' file in the directory of the spec you want to edit.  
+
+Make sure you edit the ''*.src.html'' version, NOT the ''*.html'' version.
+
+Look for the W3C style sheet &ltlink&gt; tag - it will look something like this:
+
+<code html>
+<link rel="stylesheet" type="text/css"  
+      href="http://www.w3.org/StyleSheets/TR/W3C-CR">
+</code>
+
+It may end in "W3C-WD" or "W3C-PR" or something else.  Make sure it is the EDITOR's stylesheet by using this &lt;link&gt; element:
+
+<code html>
+<link rel="stylesheet" type="text/css"  
+      href="http://www.w3.org/StyleSheets/TR/W3C-ED">
+</code>
+
+You'll probably need to make other edits. You should check a good editor's draft as an example, e.g. CSS3 Color is pretty good.
+
+One thing to make sure is that the "Previous version:" at the top of the document links to the absolute latest official /TR/ version of the document.
+
+
+===== Step 5 - Post Process CSS Src =====
+
+Go to:
+
+http://www.w3.org/Style/Group/css3-src/bin/postprocess-file
+
+Click (Choose File) and select the ''Overview.src.html'' file on your local machine that you want to post-process (you should do this when you're ready to check it in).
+
+Choose (*) Generated HTML - radio button
+
+Click the (Submit) button
+
+View source on the resulting web page
+
+Choose the "Save as..." menu item from the "File" menu, name the file ''Overview.html'' (without the quotes), and save it right next your ''Overview.src.html'' - you'll likely be replacing an older version, that's ok, go ahead and confirm.
+
+Now when you check in your ''Overview.src.html'' file be sure to also check in ''Overview.html'' to keep them sync.
+
+You can also just check-in from their parent folder by cding in a terminal window to their directory and then:
+
+<code bash>
+cvs -m "COMMIT MESSAGE HERE" commit
+</code>
+
+where you replace ''COMMIT MESSAGE HERE'' with a message that applies to all the files you're checking in.
 
 ====== See Also ======
   * [[test/cvs|Guide to CVS]] - some good command overviews, except IGNORE the bits about "$CVSROOT" and "Logging in".
