@@ -85,7 +85,7 @@ Note that your W3C username is CASE-SENSITIVE, be sure to enter it precisely.
   * now use "cd" in your terminal/shell window/application to navigate to the directory where you want to create a new "csswg" directory.
   * execute this command in your shell (it will create a new directory called csswg)
 
-<code bash>cvs -d :ext:tantekelik@dev.w3.org:/sources/public co csswg</code>
+<code bash>cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co csswg</code>
 
 You might see a message like:
 
@@ -199,6 +199,91 @@ Feel free to add more specific info about other versions of BBEdit.
 ==== Aside: Other Editor CVS Support ====
 Other windowing/GUI text editors may have their own ways of enabling CVS support.  Feel free to add documentation for those here in their own sections, named similarly to the previous section on ''Enabling BBEdit CVS Support''.
 
+===== Creating A New Directory =====
+
+Say you're working on a new spec, CSS3 Foo and want to create the respective directory, "css3-foo", here's how you do it.
+
+Create the new folder for "css3-foo" in your filesystem.
+
+E.g. on a Mac, go to the "csswg" folder in the Finder, and choose "New Folder" (cmd-shift-N) and rename the folder to "css3-foo" (without the quotes).
+
+Or <code bash>cd</code> to that directory and do a <code bash>mkdir css3-foo</code> command in your terminal/shell.
+
+Then you need to do an explicit <code bash>cvs add</code> on the directory, e.g.
+
+<code bash>cvs add css3-foo</code>
+
+You should get a message back like:
+
+<code bash>
+Directory /sources/public/csswg/css3-foo added to the repository
+</code>
+
+If you get a message like:
+
+<code bash>
+cvs-debian-1.12.13 checkout: cannot find module `csswg/css3-foo - New directory
+' - ignored
+</code>
+
+Ignore it.
+
+Now cd into that directory
+
+<code bash>cd css3-foo</code>
+
+CVS needs at least one file in a new directory for that new directory to be propagated to the server.
+
+Create your new HTML pre-processor source file and name it something like: <code bash>Overview.src.html</code>
+
+and save it in the aforementioned <code bash>css3-foo</code> directory.
+
+To commit this file and thus create the new directory, you have to do a cvs add, e.g. from the shell.
+
+<code bash>
+cvs add Overview.src.html
+</code>
+
+You should see messages like:
+
+<code bash>
+cvs.bin add: scheduling file `Overview.src.html' for addition
+cvs.bin add: use 'cvs.bin commit' to add this file permanently
+</code>
+
+Now you have to do a cvs commit of the file and the directory, which means first going to (cding up to) its parent.
+
+<code bash>
+cd ..
+</code>
+
+Do a cvs commit with the name of the directory explicitly (doing so is safer, because otherwise you'll checkin anything you've changed at that directory or inside an descendant folder/directory), with a proper commit message.
+
+copy the following line:
+
+<code bash>
+cvs commit -m "YOUR COMMIT MESSAGE HERE" css3-foo
+</code>
+
+and replace <code bash>YOUR COMMIT MESSAGE HERE</code> with something more meaningful, like:
+<code bash>creating css3-foo for the CSS3 Foo module spec</code>
+
+Now you should see a set of messages like:
+
+<code bash>
+cvs commit: Examining css3-foo
+RCS file: /sources/public/csswg/css3-foo/Overview.src.html,v
+done
+Checking in css3-foo/Overview.src.html;
+/sources/public/csswg/css3-foo/Overview.src.html,v  <--  Overview.src.html
+initial revision: 1.1
+done
+cvs-debian-1.12.13 checkout: Updating csswg/css3-foo
+</code>
+
+CONGRATULATIONS!
+
+You've checked in your first new directory and file.
 
 ====== See Also ======
   * [[test/cvs|Guide to CVS]] - some good command overviews, except IGNORE the bits about "$CVSROOT" and "Logging in".
