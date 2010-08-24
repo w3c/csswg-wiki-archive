@@ -429,6 +429,142 @@ cvs -m "COMMIT MESSAGE HERE" commit
 
 where you replace ''COMMIT MESSAGE HERE'' with a message that applies to all the files you're checking in.
 
+
+
+===== Check Your CVS Setup =====
+"cd" to a directory that you have a checkout and try a
+
+<code bash>
+cvs version
+</code>
+
+IF you get an error message like:
+
+<code bash>
+Client: Concurrent Versions System (CVS) 1.11.18 (client/server)
+ lionel-hutz.w3.org: Operation timed out
+Server: cvs [version aborted]: end of file from server (consult above messages if any)
+</code>
+
+THEN something is wrong with your CVS setup probably.
+
+TRY:
+
+<code bash>
+echo $CVS_RSH
+</code>
+
+IF it shows just a blank line then you need to set it:
+
+<code bash>
+export CVS_RSH=ssh
+</code>
+
+try again.
+
+<code bash>
+cvs version
+</code>
+
+
+
+==== Authenticity Of Host Cant Be Established ====
+(On MacOSX 10.4 at least)
+
+IF you see a message like:
+
+<code bash>
+The authenticity of host 'dev.w3.org (128.30.52.19)' can't be established.
+RSA key fingerprint is fb:30:ab:09:1c:b3:1a:74:93:67:57:fd:69:16:0b:97.
+Are you sure you want to continue connecting (yes/no)?
+</code>
+
+Verify that the fingerprint is correct and then type in
+
+<code bash>
+yes
+</code>
+
+and press return.
+
+you may see a message like:
+
+<code bash>
+Warning: Permanently added 'dev.w3.org' (RSA) to the list of known hosts.
+</code>
+
+You may be asked:
+<code bash>
+Enter passphrase for key '/Volumes/identity/osxusers/tantek/.ssh/id_dsa': 
+</code>
+
+Enter your pass phrase for your key.
+
+
+IF you keep getting asked that for every CVS command you run, 
+
+THEN try
+
+<code bash>
+ssh-add ~/.ssh/id_dsa
+</code>
+
+you might get an error like:
+
+<code bash>
+Could not open a connection to your authentication agent.
+</code>
+
+TRY
+
+<code bash>
+ssh-agent -s
+</code>
+
+Now you might see something like:
+
+<code bash>
+SSH_AUTH_SOCK=/tmp/ssh-VWXYZVWXYZ/agent.555; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=333; export SSH_AGENT_PID;
+echo Agent pid 333;
+</code>
+
+(numbers and ssh-*** string obscured with fakes for the sake of documentation).
+
+Now try
+
+<code bash>
+eval `ssh-agent -s`
+ssh-add ~/.ssh/id_dsa
+</code>
+
+and you might see a message like
+
+<code bash>
+Enter passphrase for /Volumes/identity/osxusers/tantek/.ssh/id_dsa:
+</code>
+
+Enter your pass phrase for your key.
+
+Then you might see a message like this (at least on Mac OS X)
+
+<code bash>
+Identity added: /Users/USERNAME/.ssh/id_dsa (/Users/USERNAME/.ssh/id_dsa)
+</code>
+where USERNAME is your username alias on the system.
+
+
+Now try:
+<code bash>
+cvs version
+</code>
+
+And you should get messages like:
+<code bash>
+Client: Concurrent Versions System (CVS) 1.11.18 (client/server)
+Server: Concurrent Versions System (CVS) 1.11.22 (client/server)
+</code>
+
 ====== See Also ======
   * [[test/cvs|Guide to CVS]] - some good command overviews, except IGNORE the bits about "$CVSROOT" and "Logging in".
   * [[http://annevankesteren.nl/2010/08/w3c-cvs|Anne van Kesteren: Setting up CVS for W3C]]
