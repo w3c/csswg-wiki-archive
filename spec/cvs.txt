@@ -44,17 +44,17 @@ What does this mean? It means W3C only allows secure access to the CVS server - 
 
 The short version, type this into a terminal window (e.g. in the Terminal application on MacOSX)
 
-''export CVS_RSH=ssh''
+<code bash>export CVS_RSH=ssh</code>
 
 You'll want to setup that up to happen automatically for you, and there are some instructions later for doing so.
 
 Now test that you did the right thing by typing in:
 
-''echo $CVS_RSH''
+<code bash>echo $CVS_RSH</code>
 
 You should see a message like:
 
-''ssh''
+<code>ssh</code>
 
 followed immediately by a prompt.
 
@@ -84,34 +84,35 @@ Note that your W3C username is CASE-SENSITIVE, be sure to enter it precisely.
     * ''cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co csswg''
   * now use "cd" in your terminal/shell window/application to navigate to the directory where you want to create a new "csswg" directory.
   * execute this command in your shell (it will create a new directory called csswg)
-    * ''cvs -d :ext:tantekelik@dev.w3.org:/sources/public co csswg''
+
+<code bash>cvs -d :ext:tantekelik@dev.w3.org:/sources/public co csswg</code>
 
 You might see a message like:
 
-''The authenticity of host 'dev.w3.org (128.30.52.19)' can't be established.''
-
-''RSA key fingerprint is fb:30:ab:09:1c:b3:1a:74:93:67:57:fd:69:16:0b:97.''
-
+<code>
+The authenticity of host 'dev.w3.org (128.30.52.19)' can't be established.
+RSA key fingerprint is fb:30:ab:09:1c:b3:1a:74:93:67:57:fd:69:16:0b:97.
+</code>
 
 That's the right one. If you get a different fingerprint back you're being hacked.
 
 Then when asked:
 
-''Are you sure you want to continue connecting (yes/no)?''
+<code>Are you sure you want to continue connecting (yes/no)?</code>
 
 Answer:
 
-''yes''
+<code bash>yes</code>
 
 Then you'll likely get a warning like:
 
-''Warning: Permanently added 'dev.w3.org,128.30.52.19' (RSA) to the list of known hosts.''
+<code>Warning: Permanently added 'dev.w3.org,128.30.52.19' (RSA) to the list of known hosts.</code>
 
 
 
 IF you get an error message like
 
-''Permission denied (publickey).''
+<code>Permission denied (publickey).</code>
 
 FIRST check to make sure you typed in your username *case-sensitively* including proper capitals if any.
 
@@ -120,31 +121,34 @@ THEN if it still doesn't work, something is wrong with your public key setup. Em
 
 On Mac OS X (10.6) Terminal, you should get an alert dialog box that says:
 
-
-''Enter your password for the SSH key "id_dsa".''
-
-''Password: ________''
-
-''(OK)''
-
+<html><pre>
++-----------------------------------------------+
+| Enter your password for the SSH key "id_dsa". |
+|                                               |
+|  Password: ________________________________   |
+|                                               |
+|                            (Cancel)  ((OK))   |
++-----------------------------------------------+
+</pre></html>
 
 Enter your SSH pass phrase that you used when you created the key and click OK.
 
-On some other random, you'll be prompted in some other way for pass phrase for your SSH key. Feel free to edit this and add OS-specific experiences/screenshots.
+On other OS's (or terminal/shell applications), you'll be prompted in some other way for pass phrase for your SSH key. Feel free to edit this and add OS-specific experiences/screenshots.
 
 
 You may get a message like:
 
-''Identity added: /Users/USERNAME/.ssh/id_dsa (/Users/t/.ssh/id_dsa)''
+<code>Identity added: /Users/USERNAME/.ssh/id_dsa (/Users/USERNAME/.ssh/id_dsa)</code>
 
 where USERNAME is your login alias for your client box.
 
 
 IF you get an error message like:
 
-''Connection closed by 128.30.52.19''
-
-''cvs [checkout aborted]: end of file from server (consult above messages if any)''
+<code>
+Connection closed by 128.30.52.19
+cvs [checkout aborted]: end of file from server (consult above messages if any)
+</code>
 
 THEN it could be a number of things. E.g.
 
@@ -154,25 +158,19 @@ THEN it could be a number of things. E.g.
 
 You SHOULD see a message like:
 
-''cvs.bin checkout: Updating csswg''
+<code>cvs.bin checkout: Updating csswg</code>
 
 and then a bunch of messages like:
 
-''U csswg/.htaccess''
-
-''U csswg/default.css''
-
-''U csswg/logo-ED.png''
-
-''cvs.bin checkout: Updating csswg/css-style-attr''
-
-''U csswg/css-style-attr/Overview.html''
-
-''U csswg/css-style-attr/Overview.src.html''
-
-''U csswg/css-style-attr/issues-lc-2009.txt''
-
-
+<code>
+U csswg/.htaccess
+U csswg/default.css
+U csswg/logo-ED.png
+cvs.bin checkout: Updating csswg/css-style-attr
+U csswg/css-style-attr/Overview.html
+U csswg/css-style-attr/Overview.src.html
+U csswg/css-style-attr/issues-lc-2009.txt
+</code>
 ...
 
 etc.
