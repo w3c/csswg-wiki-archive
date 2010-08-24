@@ -23,10 +23,9 @@ That's why this document is here.
 
 ===== Make Sure You Have =====
 Before you get started with the setup steps, you need:
-
-  * inputs:
-    * your W3C username - you need this for communicating with the W3C's CVS server
-    * your public key - you need to setup SSH keys for yourself (citation to another document forthcoming).
+  - your W3C username - you need this for communicating with the W3C's CVS server
+  - your public key - you need to setup SSH keys for yourself.
+    * this might be helpful: [[https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Generating_an_SSH_key|Mozilla Developer Network: Generating an SSH key]]
 
 
 ===== Step 0 - Install CVS =====
