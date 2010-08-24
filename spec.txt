@@ -35,4 +35,4 @@ CSSWG members' comments on related specs not published by our group.
 
 ====== Specification Editing ======
 To edit W3C CSS Working Group specifications, you'll have to first get setup with W3C's CVS setup which means you should read:
-  * [[spec:cvs|W3C CVS for Dummies]]
+  * [[spec:cvs|W3C CVS For Dummies]]
