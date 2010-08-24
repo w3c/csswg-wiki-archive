@@ -431,3 +431,4 @@ where you replace ''COMMIT MESSAGE HERE'' with a message that applies to all the
 
 ====== See Also ======
   * [[test/cvs|Guide to CVS]] - some good command overviews, except IGNORE the bits about "$CVSROOT" and "Logging in".
+  * [[http://annevankesteren.nl/2010/08/w3c-cvs|Anne van Kesteren: Setting up CVS for W3C]]
