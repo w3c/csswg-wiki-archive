@@ -452,7 +452,7 @@ If you see a line starting with a "M", like:
 
 <code bash>
 M css3-color/Overview.src.html
-<code>
+</code>
 
 That means that you have a locally modified version of that file and should verify your changes and check it in.
 
