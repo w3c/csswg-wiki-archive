@@ -61,7 +61,8 @@ You should see a message like:
 
 followed immediately by a prompt.
 
-Here is another reference for setting up CVS to use SSH (though in practice I haven't found that I need it, and the instructions there seem cryptic too) https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Setting_up_CVS_to_use_SSH
+Here is another reference for setting up CVS to use SSH (though in practice I haven't found that I need it, and the instructions there seem cryptic too) 
+  * https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Setting_up_CVS_to_use_SSH
 
 
 ===== Step 2 - How To Do Secure Checkouts  =====
