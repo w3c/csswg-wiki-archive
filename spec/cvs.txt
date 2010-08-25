@@ -297,7 +297,7 @@ You've checked in your first new directory and file.
 
 IF you forget to type -m and a commit message in the cvs command line, e.g. type something like:
 
-<code bash>cvs commit -m css3-foo</code>
+<code bash>cvs commit css3-foo</code>
 
 THEN
 
@@ -311,7 +311,7 @@ And then be teleported into a terminal based text editor.
 
 In MacOS X 10.6 Terminal, the title of the terminal window will change to indicate the name of the text editor (e.g. vim is indicated by something like 
 
-Terminal — vim — 80x24
+''Terminal — vim — 80x24''
 
 Regardless of which editor, you'll see lines at the top starting with:
 <code bash>
@@ -319,7 +319,7 @@ CVS: ----------------------------------------------------------------------
 CVS: Enter Log.  Lines beginning with `CVS:' are removed automatically
 </code>
 
-IF you're using VIM
+IF you're using VIM:
 
 type 'i' to go into INSERT mode (you should see a bold -- INSERT -- at the bottom of the terminal screen)
 
@@ -331,7 +331,7 @@ and type the letters ':' 'w' 'q' (without the quotes or spaces)
 
 and press the enter/return key.
 
-You should see a messages like
+You should see a messages like:
 
 <code bash>
 RCS file: /sources/public/csswg/css3-foo/Overview.src.html,v
@@ -402,8 +402,77 @@ You'll probably need to make other edits. You should check a good editor's draft
 
 One thing to make sure is that the "Previous version:" at the top of the document links to the absolute latest official /TR/ version of the document.
 
+===== Step 5 - Update Your CVS Checkout =====
 
-===== Step 5 - Post Process CSS Src =====
+Both before you start editing a document, and when you're ready to check in a document, you should update your local CVS checkout.
+
+''cd'' to your CVS checkout, e.g. if your check out is in your home directory:
+
+<code bash>
+cd ~/csswg
+cvs up
+</code>
+
+IF it seems to stall and not do anything, or eventually gives an error message like:
+
+<code bash>
+lionel-hutz.w3.org: Connection refused
+cvs [update aborted]: end of file from server (consult above messages if any)
+</code>
+
+THEN check to see if your ''CVS_RSH'' is defined by trying:
+
+<code bash>
+echo $CVS_RSH
+</code>
+
+IF you get nothing but a blank line then first do:
+
+<code bash>
+export CVS_RSH=ssh
+</code>
+
+THEN retry the cvs up line:
+
+<code bash>
+cvs up
+</code>
+
+You should see messages like:
+
+<code bash>
+cvs.bin update: Updating .
+cvs.bin update: Updating css-style-attr
+</code>
+...
+etc.
+
+If you see a line starting with a "M", like:
+
+<code bash>
+M css3-color/Overview.src.html
+<code>
+
+That means that you have a locally modified version of that file and should verify your changes and check it in.
+
+If you see a line starting with a "P", like:
+
+<code bash>
+P css3-background/Overview.src.html
+</code>
+
+That means that that file was updated with a "P"artial download (CVS was able to be more efficient by only downloading diff).
+
+If you see a line starting with a "U", like:
+
+<code bash>
+U css3-transitions/step.png
+</code>
+
+That means that that file was "U"pdated with a full download.
+
+
+===== Step 6 - Post Process CSS Src =====
 
 Go to:
 
@@ -430,8 +499,7 @@ cvs -m "COMMIT MESSAGE HERE" commit
 where you replace ''COMMIT MESSAGE HERE'' with a message that applies to all the files you're checking in.
 
 
-
-===== Check Your CVS Setup =====
+===== Verify Your CVS Setup =====
 "cd" to a directory that you have a checkout and try a
 
 <code bash>
@@ -460,7 +528,7 @@ IF it shows just a blank line then you need to set it:
 export CVS_RSH=ssh
 </code>
 
-try again.
+try again:
 
 <code bash>
 cvs version
@@ -529,16 +597,16 @@ SSH_AGENT_PID=333; export SSH_AGENT_PID;
 echo Agent pid 333;
 </code>
 
-(numbers and ssh-*** string obscured with fakes for the sake of documentation).
+(numbers and ssh-VWXYZVWXYZ string obscured with fakes for the sake of documentation).
 
-Now try
+Now try:
 
 <code bash>
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_dsa
 </code>
 
-and you might see a message like
+and you might see a message like:
 
 <code bash>
 Enter passphrase for /Volumes/identity/osxusers/tantek/.ssh/id_dsa:
@@ -546,13 +614,12 @@ Enter passphrase for /Volumes/identity/osxusers/tantek/.ssh/id_dsa:
 
 Enter your pass phrase for your key.
 
-Then you might see a message like this (at least on Mac OS X)
+Then you might see a message like this: (at least on Mac OS X)
 
 <code bash>
 Identity added: /Users/USERNAME/.ssh/id_dsa (/Users/USERNAME/.ssh/id_dsa)
 </code>
 where USERNAME is your username alias on the system.
-
 
 Now try:
 <code bash>
@@ -564,6 +631,27 @@ And you should get messages like:
 Client: Concurrent Versions System (CVS) 1.11.18 (client/server)
 Server: Concurrent Versions System (CVS) 1.11.22 (client/server)
 </code>
+
+==== Aside - Mac OSX UI To Set Environment Variables ====
+
+On Mac OS X 10.5 and later, download and double-click install the "Environment Variable Preference Pane 1.3" from
+http://www.apple.com/downloads/macosx/system_disk_utilities/environmentvariablepreferencepane.html
+
+Choose "System Preferences..." from the Apple menu.
+
+Choose the "Environment Variables" preference pane.
+
+Click the "+" to add a new entry.
+
+double-click the new "key" entry in the list and change it to ''CVS_RSH''.
+
+double-click the new "value" entry in the list and change it to ''ssh''.
+
+Quit System Preferences.
+
+Logout of your machine and log back in.
+
+From now on, the ''CVS_RSH'' environment variable is automatically set for all applications whenever you log into your account on your machine. This means it will work both with terminal/shell applications, and nice text editors that have integrated CVS support for example.
 
 ====== See Also ======
   * [[test/cvs|Guide to CVS]] - some good command overviews, except IGNORE the bits about "$CVSROOT" and "Logging in".
