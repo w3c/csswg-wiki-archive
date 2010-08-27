@@ -394,9 +394,9 @@ Duplicate of Issue 73
 ==== Issue 134 ====
   ;Summary : percentage values of relative offsets
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0056.html
-  ;Test case : http://test.csswg.org/source/contributors/microsoft/incoming/top-with-negative-top-001.xht
+  ;Test case : http://test.csswg.org/suites/css2.1/20100815/html4/position-relative-nested-001.htm
   ;Resolved : No change to spec. Testcase needs update to require exact centering.
-  ;Status : Closed. =arronei= Update testcase.
+  ;Status : Closed.
 
 ==== Issue 135 ====
   ;Summary : percentage values of relative offsets
