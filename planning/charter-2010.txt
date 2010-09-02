@@ -96,7 +96,6 @@ PLEASE UPDATE YOUR MODULE STATUS
   ; Test Suite : The test suite is a medium-size project. It is expected to contain on the order of 1000 tests. HP has dedicated resources to developing this test suite.
   ; Blocked by : CSS 2.1. As the 2.1 dependency precludes completion any time soon, the module has added additional features and returned to WD. Those features are marked at risk. The module is making steady progress.
   ; Rationale : This module is key to improving printing of the web.
-
 ==== CSS Snapshot 2007 ====
 
   ; Latest Working Draft : http://www.w3.org/TR/css-beijing/
@@ -107,6 +106,7 @@ PLEASE UPDATE YOUR MODULE STATUS
   ; Test Suite : None needed.
   ; Blocked by : Selectors Level 3 moving to either CR or PR.
   ; Rationale : This publication puts the various stable CSS3 modules in context and explains how they fit together.
+  
 ==== CSS Variables ====
 
   ; Latest Working Draft : http://disruptive-innovations.com/zoo/cssvariables/
