@@ -216,8 +216,6 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : Various independent tests have been developed, but no test suite has yet been assembled. 
   ; Blocked by : This WD is being developed and is not blocked. It would be helpful to have more implementations of the features described. 
   ; Rationale : This specification describes various functionality which is commonly used in paper-based publishing. Along with two other CSS3 modules – multi-column layout and paged media – this module offers advanced functionality for presenting structured documents on paged media.
-
-
 ==== CSS Grid Positioning ====
 
   ; Latest Working Draft : http://www.w3.org/TR/css3-grid/
@@ -228,10 +226,11 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : No test created yet. 1000-1500 cases probably needed. Large
   ; Blocked by : SaloniR will begin work on refining this spec later this year.
   ; Rationale : It enables grid based layout, a common technique for publications, on the web.
+  
 ==== CSS Lists Level 3 ====
 
   ; Latest Working Draft : http://www.w3.org/TR/2002/WD-css3-lists-20021107/
-  ; Advocate : Arron Eicholz, Tab Atkins
+  ; Advocate : Arron Eicholz, Tab Atkins (editor)
   ; Description : Describes the position and content of list markers, including the shape of bullets and the numbering schemes (digital, roman, alphabet-based, etc.)
   ; Status : Needs some refining and especially reviews from experts in various typographic traditions
   ; Implementations : None for any of the level 3 features
