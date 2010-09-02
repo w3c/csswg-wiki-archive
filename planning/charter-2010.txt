@@ -200,6 +200,7 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : Tests for CSS3-specific features has not been started. It should be a medium-size effort: around 1000 tests.
   ; Blocked by : N/A
   ; Rationale : Font properties are some of the most commonly used CSS properties.  Downloadable fonts would vastly improve typographic capabilities on the web.
+
 ==== CSS Generated and Replaced Content Level 3 ====
 
   ; Latest Working Draft : http://www.w3.org/TR/2003/WD-css3-content-20030514/
