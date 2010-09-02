@@ -175,11 +175,10 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : N/A
   ; Blocked by : N/A
   ; Rationale : The CSS WG decided in March 2008 to merge the Extended Box module back into the Basic Box module, except for the marquee properties, which became a new Marquee Module on their own.
-
 ==== CSS Flexible Box ====
 
   ; Latest Working Draft : N/A
-  ; Advocate : David Baron, Tab Atkins, Alex Mogilevsky
+  ; Advocate : David Baron, Tab Atkins (editor), Alex Mogilevsky
   ; Description : Define CSS display types and properties for flexible boxes.
   ; Status : Draft is available, but needs to be rewritten to accommodate latest relatively significant changes.
   ; Implementations : It is implemented (with vendor prefixes) in Gecko and WebKit, but it is not known how interoperable the implementations are.
