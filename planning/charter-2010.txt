@@ -40,6 +40,18 @@ PLEASE UPDATE YOUR MODULE STATUS
   ; Test Suite : The test suite is in the Beta phase: it is complete and will be published as a Release Candidate together with the upcoming LC.
   ; Blocked by : Nothing.
   ; Rationale : This module standardizes the SVG/X11 color keywords, adds hsl notation for easier color description, and adds opacity, which is a commonly-desired graphical effect in the design community.
+  
+==== CSS Image Values ====
+
+  ; Latest Working Draft : http://dev.w3.org/csswg/css3-images
+  ; Advocate : Tab Atkins (editor), Elika Etemad (editor)
+  ; Description : Defines the <image> type in more detail, and defines several additional types of generated images.
+  ; Status : Working Draft.
+  ; Implementations : Usage of url() is interoperably implemented across all browsers.  Most other features have experimental implementations.
+  ; Test Suite : Some features can inherit tests from CSS2.1's suite.  Most other features have no tests yet.
+  ; Blocked by : test suite
+  ; Rationale : Authors have asked for several types of simple browser-generated images in CSS, to reduce authoring time, network requests, and bandwidth usage for simple commonly-used images such as gradients.
+
 
 ==== CSS Mobile Profile 2.0 ====
 
