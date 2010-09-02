@@ -164,7 +164,6 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : Needs existing tests for width, height, margins, float and overflow from level 2 (over 1000), plus the same number again for vertical boxes, plus a few for mixed boxes.
   ; Blocked by : Few people comment, because understanding the text is difficult, so is implementing
   ; Rationale : Defines the size and stacking order of boxes (width, height, margins, floats) for vertical text, and is thus required for Text Layout.
-
 ==== CSS Extended Box Model Level 3 ====
 
   ; Latest Working Draft : none
@@ -175,6 +174,7 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : N/A
   ; Blocked by : N/A
   ; Rationale : The CSS WG decided in March 2008 to merge the Extended Box module back into the Basic Box module, except for the marquee properties, which became a new Marquee Module on their own.
+  
 ==== CSS Flexible Box ====
 
   ; Latest Working Draft : N/A
