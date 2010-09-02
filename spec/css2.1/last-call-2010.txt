@@ -6,7 +6,7 @@ Last Call Working Draft published in September 2010.
 ==== Issue 203 ====
 
   ;Summary : Clause about phantom line boxes should say "forced line break" instead of "line feed"
-  ;URI : 
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Sep/0074.html
   ;Status : Open. =WG= Discuss.
 
 ==== Issue 204 ====
