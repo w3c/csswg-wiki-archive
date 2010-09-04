@@ -21,3 +21,9 @@ Last Call Working Draft published in September 2010.
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0597.html
   ;Resolution : Assumed either no change or editorial.
   ;Status : Open. =Bert= Respond as appropriate.
+
+==== Issue 207 ====
+
+  ;Summary : Clearance is discontinuous
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0569.html
+  ;Status : Open. =WG= Discuss.
