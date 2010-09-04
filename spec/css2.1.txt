@@ -296,7 +296,8 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issue 9)
   ;Summary : Rewrite paragraph about lines being exactly 'line-height' to be accurate and precise
   ;Resolution : Assumed editorial.
-  ;Status : Open. =Bert= Edit and send to www-style for review.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2005Oct/0173.html
+  ;Status : Open. =Bert= Replaced "block-level box" with "block container" to be consistent with issue 120.
   ;Testcases : n/a (editorial)
 
 ==== Issue 122 ====
