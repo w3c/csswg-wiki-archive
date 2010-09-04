@@ -3,6 +3,8 @@
 This list tracks the issues that were raised against the CSS2.1 spec's
 Last Call Working Draft published in September 2010.
 
+Last updated 3 September 2010
+
 ==== Issue 204 ====
 
   ;Summary : Link 8.3.1 to clause about phantom line boxes
@@ -27,3 +29,23 @@ Last Call Working Draft published in September 2010.
   ;Summary : Clearance is discontinuous
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0569.html
   ;Status : Open. =WG= Discuss.
+
+==== Issue 208 ====
+
+  ;Summary : Horizontal scrollbars confuse width/height/etc calculations
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0544.html
+  ;Status : Open. =WG= Discuss.
+
+==== Issue 209 ====
+
+  ;Summary : Does the root element establish a new block formatting context?
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0539.html
+  ;Proposal : The root element participates in a block formatting context established by the initial containing block.
+  ;Status : Open. =WG= Discuss.
+
+==== Issue 210 ====
+
+  ;Summary : 4.1.9 implies comments are not allowed at start or end of style sheet
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0510.html
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit.
