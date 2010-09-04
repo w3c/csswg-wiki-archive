@@ -604,7 +604,7 @@ Duplicate of Issue 73
 
 ==== Issue 159 ====
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0015.html
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0015.html http://lists.w3.org/Archives/Public/www-style/2010Aug/0183.html
   ;Summary : Clarify definition of adjoining margins
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0391.html
   ;Status : Open. =WG= Review, then discuss.
