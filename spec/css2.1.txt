@@ -802,6 +802,7 @@ Duplicate of Issue 73
 
   ;Summary : Error handling of malformed media types underdefined.
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0025.html
+  ;Resolution : Change "@media and @import rules with unknown media types are treated as if the unknown media types are not present." to "@media and @import rules with unknown media types (that are nonetheless valid identifiers) are treated as if the unknown media types are not present. If an @media rule contains a malformed media type (not an identifier) then the statement is invalid." and add "Note: Media Queries supercedes this error handling."
   ;Status : Open. =Bert= Edit.
 
 ==== Issue 184 ====
