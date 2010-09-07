@@ -797,12 +797,11 @@ Duplicate of Issue 73
   ;Resolution : Assumed editorial.
   ;Status : Open. =Bert= Edit.
   ;Testcases : n/a (editorial)
-
 ==== Issue 183 ====
 
   ;Summary : Error handling of malformed media types underdefined.
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0025.html
-  ;Status : Open. Needs proposal.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 184 ====
 
