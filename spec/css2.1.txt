@@ -297,7 +297,7 @@ Duplicate of Issue 73
   ;Summary : Rewrite paragraph about lines being exactly 'line-height' to be accurate and precise
   ;Resolution : Assumed editorial.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2005Oct/0173.html
-  ;Status : Open. =Bert= Replaced "block-level box" with "block container" to be consistent with issue 120.
+  ;Status : Open. =Bert= Replaced "block-level box" with "block container" to be consistent with issue 120 and clarify that "Generally" assumes only one font.
   ;Testcases : n/a (editorial)
 
 ==== Issue 122 ====
