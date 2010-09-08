@@ -610,7 +610,7 @@ Duplicate of Issue 73
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0015.html http://lists.w3.org/Archives/Public/www-style/2010Aug/0183.html
   ;Summary : Clarify definition of adjoining margins
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0391.html
-  ;Status : Open. =WG= Review, then discuss.
+  ;Status : Open. =fantasai= Update proposal to weird max-height requirement.
 
 ==== Issue 160 ====
 
