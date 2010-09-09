@@ -288,6 +288,8 @@ Comments from Bert Bos "I think any form of macros or additional scopes and indi
   ; Test Suite : None. Probably 300-500 cases needed. Medium
   ; Blocked by : N/a
   ; Rationale : This is important for East Asian text.
+
+
 ==== CSS Tables Level 3 ====
 
   ; Latest Working Draft : http://dev.w3.org/csswg/css3-tables-algorithms/Overview.src.htm
