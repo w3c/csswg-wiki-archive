@@ -61,7 +61,8 @@ You should see a message like:
 
 followed immediately by a prompt.
 
-Here is another reference for setting up CVS to use SSH (though in practice I haven't found that I need it, and the instructions there seem cryptic too) https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Setting_up_CVS_to_use_SSH
+Here is another reference for setting up CVS to use SSH (though in practice I haven't found that I need it, and the instructions there seem cryptic too) 
+  * https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Setting_up_CVS_to_use_SSH
 
 
 ===== Step 2 - How To Do Secure Checkouts  =====
@@ -327,11 +328,11 @@ Type in a commit message for the new directory and file and press return.
 
 then press the 'esc' (escape) key
 
-and type the letters ':' 'w' 'q' (without the quotes or spaces) 
+and type the keys ':' 'w' 'q' (one at a time, without the quotes or spaces) 
 
 and press the enter/return key.
 
-You should see a messages like:
+You should see messages like:
 
 <code bash>
 RCS file: /sources/public/csswg/css3-foo/Overview.src.html,v
@@ -345,7 +346,7 @@ cvs-debian-1.12.13 checkout: Updating csswg/css3-foo
 
 Your code has been checked in with the comments you wrote in the vim edited file.
 
-In order to void vim popping up like that in the future, be sure to to always explicitly specify a commit message with -m like
+In order to avoid vim popping up like that in the future, be sure to to always explicitly specify a commit message with -m like
 
 <code bash>
 cvs commit -m "YOUR COMMIT MESSAGE HERE" css3-foo
@@ -384,14 +385,14 @@ Open the ''Overview.src.html'' file in the directory of the spec you want to edi
 
 Make sure you edit the ''*.src.html'' version, NOT the ''*.html'' version.
 
-Look for the W3C style sheet &ltlink&gt; tag - it will look something like this:
+Look for the W3C style sheet <link> tag - it will look something like this:
 
 <code html>
 <link rel="stylesheet" type="text/css"  
       href="http://www.w3.org/StyleSheets/TR/W3C-CR">
 </code>
 
-It may end in "W3C-WD" or "W3C-PR" or something else.  Make sure it is the EDITOR's stylesheet by using this &lt;link&gt; element:
+It may end in "W3C-WD" or "W3C-PR" or something else.  Make sure it is the EDITOR's stylesheet by using this <link> element:
 
 <code html>
 <link rel="stylesheet" type="text/css"  
@@ -451,7 +452,7 @@ If you see a line starting with a "M", like:
 
 <code bash>
 M css3-color/Overview.src.html
-<code>
+</code>
 
 That means that you have a locally modified version of that file and should verify your changes and check it in.
 
@@ -484,9 +485,7 @@ Choose (*) Generated HTML - radio button
 
 Click the (Submit) button
 
-View source on the resulting web page
-
-Choose the "Save as..." menu item from the "File" menu, name the file ''Overview.html'' (without the quotes), and save it right next your ''Overview.src.html'' - you'll likely be replacing an older version, that's ok, go ahead and confirm.
+Save the page (e.g. in Firefox, choose the "Save Page as..." menu item from the "File" menu), name the file ''Overview.html'' (without the quotes), and save it right next your ''Overview.src.html'' - you'll likely be replacing an older version, that's ok, go ahead and confirm (command-R in the replace dialog).
 
 Now when you check in your ''Overview.src.html'' file be sure to also check in ''Overview.html'' to keep them sync.
 
@@ -537,9 +536,7 @@ cvs version
 
 
 ==== Authenticity Of Host Cant Be Established ====
-(On MacOSX 10.4 at least)
-
-IF you see a message like:
+IF you see a message like (On MacOSX 10.4 at least) :
 
 <code bash>
 The authenticity of host 'dev.w3.org (128.30.52.19)' can't be established.
@@ -563,8 +560,10 @@ Warning: Permanently added 'dev.w3.org' (RSA) to the list of known hosts.
 
 You may be asked:
 <code bash>
-Enter passphrase for key '/Volumes/identity/osxusers/tantek/.ssh/id_dsa': 
+Enter passphrase for key '/Users/USERNAME/.ssh/id_dsa': 
 </code>
+
+where USERNAME is your username alias on your local system.
 
 Enter your pass phrase for your key.
 
@@ -609,8 +608,9 @@ ssh-add ~/.ssh/id_dsa
 and you might see a message like:
 
 <code bash>
-Enter passphrase for /Volumes/identity/osxusers/tantek/.ssh/id_dsa:
+Enter passphrase for /Users/USERNAME/.ssh/id_dsa:
 </code>
+where USERNAME is your username alias on the system.
 
 Enter your pass phrase for your key.
 
@@ -619,7 +619,6 @@ Then you might see a message like this: (at least on Mac OS X)
 <code bash>
 Identity added: /Users/USERNAME/.ssh/id_dsa (/Users/USERNAME/.ssh/id_dsa)
 </code>
-where USERNAME is your username alias on the system.
 
 Now try:
 <code bash>
@@ -634,8 +633,8 @@ Server: Concurrent Versions System (CVS) 1.11.22 (client/server)
 
 ==== Aside - Mac OSX UI To Set Environment Variables ====
 
-On Mac OS X 10.5 and later, download and double-click install the "Environment Variable Preference Pane 1.3" from
-http://www.apple.com/downloads/macosx/system_disk_utilities/environmentvariablepreferencepane.html
+On Mac OS X 10.5 and later, download and double-click install the "Environment Variable Preference Pane 1.3" from:
+  * http://www.apple.com/downloads/macosx/system_disk_utilities/environmentvariablepreferencepane.html
 
 Choose "System Preferences..." from the Apple menu.
 
