@@ -485,7 +485,7 @@ Choose (*) Generated HTML - radio button
 
 Click the (Submit) button
 
-Save the page (e.g. in Firefox, choose the "Save Page as..." menu item from the "File" menu), name the file ''Overview.html'' (without the quotes), and save it right next your ''Overview.src.html'' - you'll likely be replacing an older version, that's ok, go ahead and confirm (command-R in the replace dialog).
+Save the page (e.g. in Firefox, choose the "Save Page as..." menu item from the "File" menu, be sure to choose "Web page, HTML only" from the "Save as" popup), name the file ''Overview.html'' (without the quotes), and save it right next your ''Overview.src.html'' - you'll likely be replacing an older version, that's ok, go ahead and confirm (command-R in the replace dialog).
 
 Now when you check in your ''Overview.src.html'' file be sure to also check in ''Overview.html'' to keep them sync.
 
