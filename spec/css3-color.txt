@@ -122,8 +122,8 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Summary : unnecessary tautology
   ; Raised by : Dave Singer
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0467.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0469.html
-  ; Proposed Resolution : ?
-  ; Status : 
+  ; Proposed Resolution : edit section 3 accordingly to remove redundant or tautological text
+  ; Status : spec edited - no more section 3.1.1
 
 ==== Issue 15 ====
 
