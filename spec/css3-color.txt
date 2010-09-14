@@ -188,7 +188,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Raised by : Krzysztof Maczyński
   ; URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0097.html http://lists.w3.org/Archives/Public/www-style/2009Mar/0106.html
   ; Proposed Resolution : editorial feedback accepted. request to not deprecate rejected.
-  ; Status: spec edited to re-use some of the "If you want to emulate " wording suggested in http://lists.w3.org/Archives/Public/www-style/2009Mar/0106.html
+  ; Status : spec edited to re-use some of the "If you want to emulate " wording suggested in http://lists.w3.org/Archives/Public/www-style/2009Mar/0106.html
 
 ==== Issue 23 ====
 
