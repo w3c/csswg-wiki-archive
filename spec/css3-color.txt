@@ -153,7 +153,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 ==== Issue 18 ====
 
   ; Summary : definition of interoperable should be changed
-  ; Raised by : Tony Graham
+  ; Raised by : marbux (in response to Tony Graham)
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0004.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0006.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0169.html http://lists.w3.org/Archives/Public/www-style/2008Sep/0173.html
   ; Proposed Resolution : no change. ignore legal trolls, or rather, escalate them to W3C legal (which Daniel has done per http://lists.w3.org/Archives/Public/www-style/2008Sep/0173.html) and let them sort it out. in the mean while, proceed with business as usual.
   ; Status : no change.
