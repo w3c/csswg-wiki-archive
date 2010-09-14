@@ -238,5 +238,13 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 ==== Issue 30 ====
   ; Summary : sRGB reference needs to be updated, check other references too
   ; Raised by : Chris Lilley
-  ; Proposed Resolution : update them
-  ; Status : 
+  ; Proposed Resolution : update them. Note: When I (Tantek) last asked Chris Lilley about what should we update the [SRGB] reference to, he said we should use the same reference as the latest SVG.
+
+From http://www.w3.org/TR/SVG/refs.html :
+
+IEC 61966-2-1: 1999: Multimedia systems and equipment — Colour measurement and management — Part 2-1: Colour management — Default RGB colour space — sRGB, International Electrotechnical Commission, 1999. ISBN 2-8318-4989-6 as ammended by Amendment A1:2003.
+Available at http://webstore.iec.ch/webstore/webstore.nsf/artnum/025408 and at http://www.colour.org/tc8-05/Docs/colorspace/61966-2-1.pdf . 
+
+Where the first part of the text up to and including "sRGB," (without the comma) links to: http://www.colour.org/tc8-05/Docs/colorspace/61966-2-1.pdf
+
+  ; Status : awaiting Bert to update the shared bibliography for the CSS specs accordingly.
