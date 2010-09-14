@@ -213,7 +213,9 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 ==== Issue 26 ====
   ; Summary : add mechanism for migrating to being conformant to the part of the spec that says CSS colors are in sRGB
   ; Raised by : David Baron, Beth Dakin
-  ; URL : minutes of F2F meeting, 2009-11-03 (have resolution)
+  ; URL : [[http://www.w3.org/2009/11/03-CSS-minutes.html#item03|minutes of F2F meeting, 2009-11-03]] (have resolution)
+  ; Resolution : updated: do this in CSS4-color instead: "RESOLUTION: re-add a 'color-correction' property with the two values 'default' and 'srgb'", "'default': what UA would do if the property weren't specified at all. That can change over time. (E.g., at the moment we (Safari/Webkit) don't do color managament at all. But we may do so in the future.)", "'srgb': All colors are presumed to be defined in the sRGB color space unless a more precise embedded profile is specified within content data. For images that do have a profile built into their data, that profile is used. For images that do not have a profile, the sRGB profile is used so that the colors in these images can be kept "in synch" with the colors specified in CSS and HTML."
+  ; Status : no edit in CSS3-color.
 
 ==== Issue 27 ====
   ; Summary : should depend on CSS 2.1 instead of css3-syntax and css3-values
