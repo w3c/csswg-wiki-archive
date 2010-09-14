@@ -33,7 +33,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Raised by : various
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008May/0146.html
   ; Proposed Resolution : Probably rename, given the confusion this has caused
-  ; Status : 
+  ; Status : draft sections renamed per above URL to "Basic color keywords" and "Extended color keywords"
 
 ==== Issue 4 ====
 
