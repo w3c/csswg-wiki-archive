@@ -955,7 +955,8 @@ Duplicate of Issue 73
   ;Summary : Hypothetical border calculation should match actual border calculation
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0261.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0460.html
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Continued... ====
 
