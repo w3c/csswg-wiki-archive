@@ -731,7 +731,8 @@ Duplicate of Issue 73
 
   ;Summary : handling of carriage returns underdefined
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010May/0158.html
-  ;Status : Open. =fantasai= Figure out what hsivonen needs and clarify intention of current text. =WG= Decide which characters map to "line break character" in the algorithm.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Sep/0440.html
+  ;Status : Open. =WG= Review.
 
 ==== Issue 174 ====
   ;Summary : prose and grammar disagree about identifiers starting with --
