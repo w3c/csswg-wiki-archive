@@ -479,7 +479,7 @@ Duplicate of Issue 73
   ;Summary : text-decoration and visibility
   ;Testcases : http://test.csswg.org/suites/css2.1/20100727/html4/chapter-16.html#s16.3.1 text-decoration-visibility-*
   ;Resolved : Leave undefined for CSS2.1. (Add note to clarify, TBD in CSS3.)
-  ;Status : Open. =Bert= Edit. =fantasai= Remove tests from CSS2.1 build.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 145 ====
 
