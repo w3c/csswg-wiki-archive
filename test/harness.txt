@@ -12,6 +12,7 @@ The source code, bug database, and prototype URL are all listed below. If you ar
 
 ===== Harness Resources =====
 
+  * **[[http://test.csswg.org/harness/|Current Harness for CSS2.1]]**
   * [[http://www.w3.org/2007/03/mth/harness|MWI's harness]]
   * [[http://dev.w3.org/cvsweb/2007/mobile-test-harness/|MWI's harness source code]]
   * [[http://www.w3.org/2008/07/test-harness-css/|New harness prototype]]
