@@ -917,9 +917,11 @@ Duplicate of Issue 73
 
   ;Summary : Clarify application of 'clear' to run-ins.
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jan/0404.html
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Sep/0191.html
-  ;Testcase : 
-  ;Status : Open. =arronei= Post test results. =fantasai= Write proposal.
+  ;Proposed Wording : http://lists.w3.org/Archives/Public/www-style/2010Sep/0682.html
+  ;Proposal A: Clear on run-in and its containing block combine.
+  ;Proposal B: Clear does not apply to inline run-ins.
+  ;Proposal C: Clear does not apply to elements with display: run-in. (safest)
+  ;Status : Open. =arronei= Post test results.
 
 ==== Issue 198 ====
 
