@@ -728,7 +728,7 @@ etc.
 
 This might take some time to check out all of WWW/Style/Group, so just let it run for a while.
 
-The total checkout size might be in the range of: ...... or a bit more (depending on how much has been added since these instructions were updated).
+The total checkout size might be in the range of about 220MB or a bit more (depending on how much has been added since these instructions were updated).
 
 If it seems to get "stuck", i.e. you've left it running for a while, and it's stopped on a status line like:
 
@@ -767,13 +767,43 @@ cvs.bin update: Updating 2004
 
 etc. Just give a little while to finish with something like:
 
-... (I'm still waiting - will update once my checkout has finished :) ...
+<code>cvs.bin update: Updating pjirc/img
+cvs.bin update: Updating pjirc/snd
+cvs.bin update: Updating test-suite
+</code>
 
 CONGRATULATIONS!
 
 You now have a checkout of the W3C Member-Only ''WWW/Style/Group'' CVS repository.
 
-Creating new directories, getting updates, and checking in works exactly the same as for the public repository.  All the repository-specific information is contained in the folders of your checkout, so CVS doesn't have to be told which server to get updates from etc.
+If you're in the CSS Working group, you probably also want to check out the ''WWW/Style/CSS'' CVS repository. Do a quick:
+
+<code bash>pwd</code>
+
+if the path returned ends with "/WWW/Style/Group" then cd back out of it:
+
+<code bash>cd ../../..</code>
+
+and then issue a new check out command like before but with the ''WWW/Style/CSS'':
+
+<code bash>cvs -d Tantekelik@cvs.w3.org:/w3ccvs co WWW/Style/CSS</code>
+
+again with your username instead of "Tantekelik".
+
+You should see messages like:
+
+<code>cvs.bin checkout: Updating WWW/Style/CSS
+U WWW/Style/CSS/.Disclosures.var
+U WWW/Style/CSS/.Overview.var
+U WWW/Style/CSS/.htaccess
+</code>
+...
+etc.
+
+In fact, if all you wanted was stuff inside ''WWW/Style/CSS'', then you can simply check that out instead of checking out ''WWW/Style/Group''.  As of this writing the ''WWW/Style/CSS'' checkout will take about .... (still checking out) MB.
+
+
+Creating new directories, getting updates, and checking in works exactly the same on ''cvs.w3.org'' as for the public repository.  All the repository-specific information is contained in the folders of your checkout, so CVS doesn't have to be told which server to get updates from etc.
 
 ====== See Also ======
   * [[test/cvs|Guide to CVS]] - some good command overviews, except IGNORE the bits about "$CVSROOT" and "Logging in".
