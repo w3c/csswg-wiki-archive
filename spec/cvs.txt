@@ -806,5 +806,6 @@ In fact, if all you wanted was stuff inside ''WWW/Style/CSS'', then you can simp
 Creating new directories, getting updates, and checking in works exactly the same on ''cvs.w3.org'' as for the public repository.  All the repository-specific information is contained in the folders of your checkout, so CVS doesn't have to be told which server to get updates from etc.
 
 ====== See Also ======
+  * [[http://www.w3.org/Project/CVSdoc/|Use of CVS in W3C]]
   * [[test/cvs|Guide to CVS]] - some good command overviews, except IGNORE the bits about "$CVSROOT" and "Logging in".
   * [[http://annevankesteren.nl/2010/08/w3c-cvs|Anne van Kesteren: Setting up CVS for W3C]]
