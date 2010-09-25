@@ -184,7 +184,15 @@ etc.
 CONGRATULATIONS!  
 
 You now have a checkout of the ''csswg'' CVS repository.
- 
+
+
+If you want to check out the HTML Working Group's (HTMLWG) ''html5'' repository instead, you can use a check out command with ''html5'' as the project rather than ''csswg''.
+
+First make sure that your Terminal application/window is in the directory where you want to create the "html5" check out, and then execute a command like:
+
+<code bash>cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co html5</code>
+
+and again, with YOUR username instead of "Tantekelik".
 
 ==== Aside - Enabling BBEdit CVS Support ====
 
