@@ -1,5 +1,12 @@
 ====== TPAC 2010 ======
 
+===== Proposed Topics =====
+
+Proposed agenda topics:
+
+  * CSS3 Fonts - font feature support
+  * CSS3 Writing Modes - logical directional model
+
 ===== Proposed Agenda =====
 
 ==== Monday AM ====
@@ -17,9 +24,3 @@
 ==== Tuesday PM ====
 
   * ???
-
-===== Proposed Topics =====
-
-Proposed agenda topics:
-
-  * CSS3 Fonts - font feature support
