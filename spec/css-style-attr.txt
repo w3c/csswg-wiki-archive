@@ -6,10 +6,10 @@ See the [http://dev.w3.org/csswg/css-style-attr/|latest editors draft of CSS Sty
 ===== Tasks to CR =====
 The CSS Style Attributes spec is on its way to CR. The following tasks must be completed before it can advance:
 
-* [http://lists.w3.org/Archives/Member/w3c-css-wg/2010JulSep/0185.html|2010-256 waiting for Bert to schedule telcon] with W3C director to take [http://dev.w3.org/csswg/css-style-attr/|CSS Style Attributes] to CR (Bert)
-* waiting for telcon with W3C director, which will set publication date (time)
-* edit draft accordingly, update CR exit date to 3 months after publication date (Tantek)
-* wait for publication date (time)
+  * [http://lists.w3.org/Archives/Member/w3c-css-wg/2010JulSep/0185.html|2010-256 waiting for Bert to schedule telcon] with W3C director to take [http://dev.w3.org/csswg/css-style-attr/|CSS Style Attributes] to CR (Bert)
+  * waiting for telcon with W3C director, which will set publication date (time)
+  * edit draft accordingly, update CR exit date to 3 months after publication date (Tantek)
+  * wait for publication date (time)
 
 ===== Post CR tasks =====
-* email Hixie to update reference to CSS Style Attributes draft in [http://www.whatwg.org/specs/web-apps/current-work/multipage/references.html#references|HTML5 References] (Tantek)
+  * email Hixie to update reference to CSS Style Attributes draft in [http://www.whatwg.org/specs/web-apps/current-work/multipage/references.html#references|HTML5 References] (Tantek)
