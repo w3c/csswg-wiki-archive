@@ -1,6 +1,29 @@
-====== css3-color issues list ======
+====== css3-color ======
 
 The [[http://www.w3.org/TR/css3-color/|css3-color specification]] defines color values and color-related properties.
+
+===== Tasks to PR =====
+The CSS3 Color Module is on its way to PR. The following tasks must be completed before it can advance:
+
+  * Update sRGB reference in Bibliography. See Issue 30 resolution.
+    * Bert Bos
+  * Post Disposition of comments.
+    * perhaps at: http://dev.w3.org/csswg/css3-color/issues-lc-2008.html
+    * Chris Lilley
+  * Obtain publication date for PR
+    * Bert Bos
+  * PR review form for AC representatives of W3C member organizations
+    * perhaps at http://www.w3.org/2002/09/wbs/33280/css3-color-PR/
+    * note PR Review Deadline for filling out that form
+    * Bert Bos
+  * Update PR Editor's draft with:
+    * link to actual disposition of comments (from above)
+    * link to actual PR review form (from above)
+    * actual PR Review Dealine - replace PR-REVIEW-DEADLINE-DD-MONTH-YYYY
+    * Tantek Çelik
+  * ????
+  * CSS3 Color PR is published!
+
 
 ===== Current Issues =====
 
