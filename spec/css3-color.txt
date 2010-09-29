@@ -173,8 +173,8 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 
   ; Summary : long list of editorial comments from XSL FO SG (excluding comment on status section, which is the next issue)
   ; Raised by : Tony Graham
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0004.html
-  ; Proposed Resolution : ?
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Sep/0004.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0848.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0849.html
+  ; Proposed Resolution : editorial, mostly accepted
   ; Status : most issues edited.  computed value of system colors split out into issue 28, since I think it's wrong.  Case consistency of hex not addressed (not worth it).  "something similar" comment not addressed (not worth it).  Disagree about "lookup table" issue for 4.2.4.  Disagree about system colors section nesting issue (don't want to change section numbers).
 
 ==== Issue 18 ====
