@@ -17,13 +17,15 @@ The CSS3 Color Module is on its way to PR. The following tasks must be completed
   * PR review form for AC representatives of W3C member organizations
     * perhaps at http://www.w3.org/2002/09/wbs/33280/css3-color-PR/
     * note PR Review Deadline for filling out that form
-  * Chris Lilley
+    * Chris Lilley
   * Update PR Editor's draft with:
     * link to actual disposition of comments (from above)
     * link to actual PR review form (from above)
     * actual PR Review Dealine - replace PR-REVIEW-DEADLINE-DD-MONTH-YYYY
     * Tantek Çelik
   * arrange publication with webmaster
+  * check against pubrules
+    * Chris Lilley
   * CSS3 Color PR is published!
 
 
