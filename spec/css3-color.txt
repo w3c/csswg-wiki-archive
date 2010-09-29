@@ -279,5 +279,6 @@ Where the first part of the text up to and including "sRGB," (without the comma)
 ==== Issue 31 ====
   ; Summary : add CIE color specification to CSS3 color
   ; Raised by : Alexis Shaw
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0313.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0330.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0341.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0341.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0462.html (then drifted off topic) http://lists.w3.org/Archives/Public/www-style/2010Sep/0853.html
   ; Proposed Resolution : no change for CSS3, consider for later specification
   ; Status : no change
