@@ -49,7 +49,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
   ; Raised by : Christolph Päper
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Mar/0405.html http://lists.w3.org/Archives/Public/www-style/2008Mar/0443.html http://lists.w3.org/Archives/Public/www-style/2008May/0182.html http://lists.w3.org/Archives/Public/www-style/2008Aug/0013.html http://lists.w3.org/Archives/Public/www-style/2008Aug/0019.html
   ; Reporter's response to resolution : http://lists.w3.org/Archives/Public/www-style/2008Oct/0229.html
-  ; Further discussion : http://lists.w3.org/Archives/Public/www-style/2008Oct/0230.html
+  ; Further discussion : http://lists.w3.org/Archives/Public/www-style/2008Oct/0230.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0841.html
   ; Proposed Resolution 1 : no change, to preserve section number stability
   ; Proposed Resolution 2 : similar to what is proposed, but moving the gamma correction section (probably modified, per later issue) into the beginning of Color Units, and perhaps putting the units before the values
   ; Status : resolved to make no change, http://lists.w3.org/Archives/Public/www-style/2008Sep/0169.html
