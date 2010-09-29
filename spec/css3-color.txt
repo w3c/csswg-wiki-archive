@@ -156,7 +156,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 
   ; Summary : Is HSL full range or video range?
   ; Raised by : Dave Singer
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0467.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0845.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0844.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0850.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Jul/0467.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0842.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0845.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0844.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0850.html
   ; Proposed Resolution : no change
   ; Status : no change
 
