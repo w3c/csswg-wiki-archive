@@ -10,9 +10,9 @@ Put the test in the most severe group (earliest below) that applies.
 
 ==== Tests that are Wrong or have Parse Errors ====
 
-==== Tests that have HTML Validation errors ====
-
 ==== Tests that need Usability improvements ====
+
+==== Tests that have HTML Validation errors ====
 
 ==== Tests that need Metadata improvements ====
 
