@@ -5,7 +5,7 @@ This page records known problems in the [[test:css2.1|CSS 2.1 Conformance Test S
 To record a bug, post to public-css-testsuite@w3.org explaining the problem. Then link to it from this wiki using the test name as the link text. Like this:
 
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html|t1202-counter-09-b]]
-  * 
+
 Put the test in the most severe group (earliest below) that applies.
 
 ==== Tests that are Wrong or have Parse Errors ====
