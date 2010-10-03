@@ -12,6 +12,7 @@ Put the test in the most severe group (earliest below) that applies.
 ==== Tests that need Usability improvements ====
 
 Ugly, not self-documenting:
+
  background-alpha-001
  background-alpha-002
  background-alpha-003
@@ -19,9 +20,11 @@ Ugly, not self-documenting:
  background-alpha-005
 
 Should state that red is failure:
+
  active-selector-002
 
 Confusing/hard to judge:
+
  background-attachment-004
  background-position-201
  background-root-018
