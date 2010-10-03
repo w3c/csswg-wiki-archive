@@ -9,7 +9,97 @@ To record a bug, post to public-css-testsuite@w3.org explaining the problem. The
 Put the test in the most severe group (earliest below) that applies.
 ==== Missing or Extra Tests ====
 
-html4/absolute-replaced-width-007.htm is missing (the xhtml1 version is there).
+Only in html4/                Only in xhtml1/
+----------------------------------------------------------
+                            absolute-replaced-height-006
+                            absolute-replaced-height-013
+                            absolute-replaced-height-020
+                            absolute-replaced-height-027
+                            absolute-replaced-height-034
+                            absolute-replaced-width-002
+                            absolute-replaced-width-003
+                            absolute-replaced-width-004
+                            absolute-replaced-width-007
+                            absolute-replaced-width-009
+                            absolute-replaced-width-010
+                            absolute-replaced-width-011
+                            absolute-replaced-width-014
+                            absolute-replaced-width-016
+                            absolute-replaced-width-017
+                            absolute-replaced-width-018
+                            absolute-replaced-width-021
+                            absolute-replaced-width-023
+                            absolute-replaced-width-024
+                            absolute-replaced-width-025
+                            absolute-replaced-width-028
+                            absolute-replaced-width-030
+                            absolute-replaced-width-031
+                            absolute-replaced-width-032
+                            absolute-replaced-width-035
+                            absolute-replaced-width-037
+                            absolute-replaced-width-038
+                            absolute-replaced-width-039
+                            absolute-replaced-width-042
+                            absolute-replaced-width-049
+                            absolute-replaced-width-051
+                            absolute-replaced-width-052
+                            absolute-replaced-width-053
+                            absolute-replaced-width-056
+                            absolute-replaced-width-063
+                            absolute-replaced-width-065
+                            absolute-replaced-width-066
+                            absolute-replaced-width-067
+                            absolute-replaced-width-070
+                            absolute-replaced-width-077
+at-charset-013
+attribute-value-selector-005
+attribute-value-selector-007
+                            attribute-value-selector-008
+                            attribute-value-selector-009
+attribute-value-selector-010
+background-body-001
+background-body-002
+background-body-003
+background-html-body-001
+basic-html-table-001
+                            block-replaced-height-006
+                            block-replaced-width-002
+                            block-replaced-width-003
+                            block-replaced-width-004
+                            block-replaced-width-007
+case-sensitive-006
+                            case-sensitive-007
+content-066
+content-081
+content-090
+content-091
+content-149
+content-153
+content-attr-case-001
+                            content-attr-case-002
+                            float-replaced-height-006
+                            float-replaced-width-007
+                            float-replaced-width-008
+                            float-replaced-width-009
+                            float-replaced-width-012
+html-case-sensitivity-001
+                            inline-block-replaced-height-006
+                            inline-block-replaced-width-002
+                            inline-block-replaced-width-003
+                            inline-block-replaced-width-004
+                            inline-replaced-height-006
+                            inline-replaced-width-002
+                            inline-replaced-width-003
+                            inline-replaced-width-004
+                            inline-replaced-width-007
+lang-pseudoclass-001
+                            lang-pseudoclass-002
+margin-collapse-021
+overflow-html-body-001
+table-intro-example-001
+table-intro-example-002
+table-intro-example-003
+table-intro-example-004
 
 ==== Tests that are Wrong or have Parse Errors ====
 
