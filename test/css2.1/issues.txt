@@ -50,8 +50,13 @@ Need pixel reference lines:
 Should be ref tests:
   c5526c-display-000
 ==== Tests that have HTML Validation errors ====
-
 ==== Tests that need Metadata improvements ====
+
+Tests possibly missing http flag:
+  character-encoding-026
+  character-encoding-027
+  character-encoding-028
+  lang-selector-005
 
 ==== General Issues ====
 http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html
