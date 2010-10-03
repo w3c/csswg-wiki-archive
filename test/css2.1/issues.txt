@@ -7,8 +7,9 @@ To record a bug, post to public-css-testsuite@w3.org explaining the problem. The
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html|t1202-counter-09-b]]
 
 Put the test in the most severe group (earliest below) that applies.
-
 ==== Missing or Extra Tests ====
+
+html4/absolute-replaced-width-007.htm is missing (the xhtml1 version is there).
 
 ==== Tests that are Wrong or have Parse Errors ====
 
