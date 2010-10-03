@@ -36,6 +36,8 @@ Confusing/hard to judge:
   inline-block-003: behavior on window resize needs to be clarified:
   floats-126 et al: ditto
   inlines-004-inlines-006: unclear what "aligned" means. Say "on a grid"?
+  margin-collapse-160: should say that the first page is blank and 3 pages are expected (if, indeed, that is the intent).
+  text-transform-bicameral-009, text-transform-bicameral-010: should attempt to pick a font that has the glyphs
 
 Need pixel reference lines:
   c527-font-001
@@ -49,6 +51,10 @@ Need pixel reference lines:
 
 Should be ref tests:
   c5526c-display-000
+  
+Unfinished:
+  page-break-margins-000: test contains "[[UNFINISHED]]"
+
 ==== Tests that have HTML Validation errors ====
 ==== Tests that need Metadata improvements ====
 
