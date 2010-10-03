@@ -49,13 +49,7 @@ Need pixel reference lines:
 
 Should be ref tests:
   c5526c-display-000
-
 ==== Tests that have HTML Validation errors ====
-
-Tests possibly missing http flag:
-  character-encoding-026
-  character-encoding-027
-  character-encoding-028
 
 ==== Tests that need Metadata improvements ====
 
