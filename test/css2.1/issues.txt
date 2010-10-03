@@ -13,7 +13,6 @@ Refer to nonexistent fonts:
   font-weight-bolder-001
   font-weight-lighter-001
   font-weight-normal-001
-
 ==== Tests that need Usability improvements ====
 
 Ugly, not self-documenting:
@@ -34,6 +33,9 @@ Confusing/hard to judge:
   border-001: solid or hollow box?
   c525-font-wt-000: does not state whether "This sentence should be very light" should be visibly lighter than normal
   fixed-table-layout-006: "all the blue lines" is confusing. They are all shades of blue.
+  inline-block-003: behavior on window resize needs to be clarified:
+  floats-126 et al: ditto
+  inlines-004-inlines-006: unclear what "aligned" means. Say "on a grid"?
 
 Need pixel reference lines:
   c527-font-001
