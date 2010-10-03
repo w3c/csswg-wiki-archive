@@ -25,6 +25,22 @@ Confusing/hard to judge:
   background-attachment-004
   background-position-201
   background-root-018
+  bidi-override-003: should state whether a bullet should be visible
+  border-001: solid or hollow box?
+  c525-font-wt-000: Does not state whether "This sentence should be very light" should be visibly lighter than normal.
+  
+Need pixel reference lines:
+  c527-font-001
+  c527-font-002
+  c527-font-004
+  c527-font-005
+  c527-font-007
+  c527-font-008
+  c527-font-009
+  c527-font-10
+
+Should be ref tests:
+  c5526c-display-000
 
 ==== Tests that have HTML Validation errors ====
 
