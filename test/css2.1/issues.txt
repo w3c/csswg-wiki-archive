@@ -87,6 +87,7 @@ Ugly, not self-documenting:
 
 === RC2 testcases with too technical pass conditions ===
   - [[http://test.csswg.org/suites/css2.1/20101001/html4/inline-table-width-001a.htm|inline-table-width-001a]] My neighbour would ask "What's 10em and how wide is it exactly?"
+  - [[http://test.csswg.org/suites/css2.1/20100917/html4/clipping-002.htm|clipping-002]] My neighbour would ask "What's a 100x100 square?"
   - [[http://test.csswg.org/suites/css2.1/20100917/html4/clipping-007.htm|clipping-007]] My neighbour would ask "What's a 100x100 square?"
   - [[http://test.csswg.org/suites/css2.1/20100917/html4/clipping-012.htm|clipping-012]] My neighbour would ask "What's a 100x100, clip and descendants?" The testcase has **validation markup errors** too.
 
