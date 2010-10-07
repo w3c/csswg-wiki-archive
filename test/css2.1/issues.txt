@@ -157,6 +157,15 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20101001/html4/position-relative-nested-001.htm
 |position-relative-nested-001]] I explained why the assert text is wrong in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html]]
 
+=== More incorrect asserts ===
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-003]]  
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-004]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-005]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-006]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-007]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-008]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-009]]
+
 === Tests possibly missing http flag ===
 
   character-encoding-026
