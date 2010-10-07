@@ -253,6 +253,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 ==== Issue 28 ====
   ; Summary : computed value of system colors should be a color, not the keyword itself
   ; Raised by : David Baron
+  ; URLs : http://lists.w3.org/Archives/Public/www-style/2010Oct/0053.html
   ; Proposed Resolution : just remove the note saying otherwise
   ; Status : spec edited.
 
