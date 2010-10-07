@@ -70,6 +70,10 @@ E.g.:
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|table-visual-layout-024]]
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|c414-flt-ln-002]] (also too complicated)
 
+=== 1 RC2 testcase with incorrect expected result ===
+
+  -[[http://test.csswg.org/suites/css2.1/20101001/html4/abspos-023.htm|abspos-023]] Reasons: Chrome 6 and Konqueror 4.5.1 render the red square and that's not a proof of testcase failure. More reading on this: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Aug/0017.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Aug/0017.html]]
+
 ==== Tests that need Usability improvements ====
 
 Ugly, not self-documenting:
