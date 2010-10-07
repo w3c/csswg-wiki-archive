@@ -299,7 +299,7 @@ Where the first part of the text up to and including "sRGB," (without the comma)
   ; Status : 
   
 
-  ==== Issue 33 ====
+==== Issue 33 ====
 
   ; Summary : light goldenrod yellow
   ; Raised by : Christoph Päper
@@ -308,6 +308,7 @@ Where the first part of the text up to and including "sRGB," (without the comma)
   ; Proposed Resolution : 
   ; Status : 
   
+
   ==== Issue 34 ====
 
   ; Summary : transparent
