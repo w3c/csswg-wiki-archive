@@ -289,7 +289,7 @@ Where the first part of the text up to and including "sRGB," (without the comma)
   ; Status : no change
   
 
-  ==== Issue 32 ====
+==== Issue 32 ====
 
   ; Summary : HSL Tables
   ; Raised by : Christoph Päper
@@ -298,6 +298,7 @@ Where the first part of the text up to and including "sRGB," (without the comma)
   ; Proposed Resolution : 
   ; Status : 
   
+
   ==== Issue 33 ====
 
   ; Summary : light goldenrod yellow
