@@ -152,10 +152,12 @@ Ugly, not self-documenting:
 
 ==== Tests that need Metadata improvements ====
 
-=== 1 RC2 testcase with wrong, incorrect meta assert text ===
+=== 3 RC2 testcases with wrong, incorrect meta assert text ===
 
   - [[http://test.csswg.org/suites/css2.1/20101001/html4/position-relative-nested-001.htm
-|position-relative-nested-001]] I explained why the assert text is wrong in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html]]
+|position-relative-nested-001]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html]]
+  - [[http://test.csswg.org/suites/css2.1/20101001/html4/absolute-non-replaced-width-010.htm|absolute-non-replaced-width-010]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]]
+  - [[http://test.csswg.org/suites/css2.1/20101001/html4/absolute-non-replaced-width-013.htm|absolute-non-replaced-width-013]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]]
 
 === More incorrect asserts ===
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-003]]  
@@ -165,6 +167,7 @@ Ugly, not self-documenting:
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-007]]
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-008]]
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-009]]
+
 
 === Tests possibly missing http flag ===
 
