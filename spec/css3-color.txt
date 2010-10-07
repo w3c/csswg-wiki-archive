@@ -304,3 +304,12 @@ Where the first part of the text up to and including "sRGB," (without the comma)
   ; Reporter's response to resolution : 
   ; Proposed Resolution : 
   ; Status : 
+  
+  ==== Issue 34 ====
+
+  ; Summary : transparent
+  ; Raised by : Christoph Päper
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0312.html
+  ; Reporter's response to resolution : 
+  ; Proposed Resolution : 
+  ; Status : 
