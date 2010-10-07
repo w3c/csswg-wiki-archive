@@ -309,7 +309,7 @@ Where the first part of the text up to and including "sRGB," (without the comma)
   ; Status : 
   
 
-  ==== Issue 34 ====
+==== Issue 34 ====
 
   ; Summary : transparent
   ; Raised by : Christoph Päper
