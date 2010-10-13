@@ -6,10 +6,10 @@ The [[http://www.w3.org/TR/css3-color/|css3-color specification]] defines color 
 The CSS3 Color Module is on its way to PR. The following tasks must be completed before it can advance:
 
   * Update sRGB reference in Bibliography. See Issue 30 resolution.
-    * Chris Lilley
+    * Chris Lilley (done)
   * Post Disposition of comments (done, at: http://dev.w3.org/csswg/css3-color/issues-lc-2008.html )
     * Chris Lilley
-  * Get responses back from commentors
+  * Get responses back from commentors (done)
   * Schedule directors call
     * Chris Lilley
   * Obtain publication date for PR
