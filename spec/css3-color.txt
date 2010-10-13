@@ -279,7 +279,7 @@ Available at http://webstore.iec.ch/webstore/webstore.nsf/artnum/025408 and at h
 
 Where the first part of the text up to and including "sRGB," (without the comma) links to: http://www.colour.org/tc8-05/Docs/colorspace/61966-2-1.pdf
 
-  ; Status : awaiting Bert to update the shared bibliography for the CSS specs accordingly.
+  ; Status : updated the shared bibliography for the CSS specs accordingly.
   
 
 ==== Issue 31 ====
