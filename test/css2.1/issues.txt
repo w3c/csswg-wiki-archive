@@ -25,7 +25,7 @@ What's wrong in those 2 absolute-non-replaced-width-00* testcases above has been
 
   * [[http://test.csswg.org/suites/css2.1/20101001/html4/right-offset-002.htm|right-offset-002]] I explained in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0072.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0072.html]] why such testcase does not test what it was aiming at testing and what is wrong with such testcase.
 
-=== 19 RC2 testcases with insufficient space to display a bullet list-marker or involving display: list-item ===
+=== 21 RC2 testcases with insufficient space to display a bullet list-marker or involving display: list-item ===
 
 I propose to add a 'margin-left: 2em;'  and then to update the expected result accordingly to mention that a bullet list-marker should be rendered on the left of the black square.
 
@@ -35,7 +35,7 @@ E.g.:
   {
   display: list-item;
   height: 1in;
-  **margin-left: 2em;**
+  ** margin-left: 2em; **
   width: 1in;
   }
   </style>
@@ -60,6 +60,14 @@ E.g.:
   - [[http://test.csswg.org/suites/css2.1/20101001/html4/border-spacing-applies-to-003.htm|border-spacing-applies-to-003]]
   - [[http://test.csswg.org/suites/css2.1/20101001/html4/border-collapse-applies-to-003.htm|border-collapse-applies-to-003]]
   - [[http://test.csswg.org/suites/css2.1/20101001/html4/outline-applies-to-010.htm|outline-applies-to-010]]  The testcase makes no mention of a bullet list-marker
+  - [[http://test.csswg.org/suites/css2.1/20101001/html4/bidi-override-003.htm|bidi-override-003]]  The testcase makes no mention of a bullet list-marker; the testcase should state that a bullet list-marker should be visible
+  - [[http://test.csswg.org/suites/css2.1/20101001/html4/bidi-override-004.htm|bidi-override-004]]  Sufficient available margin space on the right edge should be provided for the bullet list-marker to avoid having unneedlessly to scroll horizontally. See [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0093.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0093.html]] . I recommend 
+''.override {
+      direction: rtl;
+      ** margin-right: 2em; **
+      unicode-bidi: bidi-override;
+      }
+''
 
 === Tests relying on non-normative behavior ===
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|separated-borders-model-007]]
