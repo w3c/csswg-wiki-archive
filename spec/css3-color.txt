@@ -322,7 +322,7 @@ Where the first part of the text up to and including "sRGB," (without the comma)
 
   ; Summary : CIE colorimetry
   ; Raised by : Etan Wexler
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0355.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0472.html
-  ; Reporter's response to resolution : 
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0355.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0472.html http://lists.w3.org/Archives/Public/www-style/2010Oct/0071.html
+  ; Reporter's response to resolution : http://lists.w3.org/Archives/Public/www-style/2010Oct/0116.html
   ; Proposed Resolution : edit references following guidance from Alan Robertson, Chair, CIE TC 1-57
   ; Status : bibliographic references updated
