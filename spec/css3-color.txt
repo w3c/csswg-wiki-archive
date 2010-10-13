@@ -305,8 +305,8 @@ Where the first part of the text up to and including "sRGB," (without the comma)
   ; Raised by : Christoph Päper
   ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0312.html
   ; Reporter's response to resolution : 
-  ; Proposed Resolution : 
-  ; Status : 
+  ; Proposed Resolution : spec is correct, no change
+  ; Status : no change
   
 
 ==== Issue 34 ====
