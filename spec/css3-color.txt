@@ -314,10 +314,11 @@ Where the first part of the text up to and including "sRGB," (without the comma)
   ; Summary : transparent
   ; Raised by : Christoph Päper
   ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0312.html
-  ; Reporter's response to resolution : 
-  ; Proposed Resolution : 
-  ; Status : 
+  ; Reporter's response to resolution : http://lists.w3.org/Archives/Public/www-style/2010Oct/0077.html
+  ; Proposed Resolution : no change in CSS3 Color
+  ; Status : no change
   
+
 ==== Issue 35 ====
 
   ; Summary : CIE colorimetry
