@@ -156,7 +156,7 @@ Duplicate of Issue 73
   ;Summary : Float rules when interacting with floats outside containing block
   ;Test case : http://test.csswg.org/source/contributors/microsoft/incoming/float-overflow-001.htm
   ;Status : Open =WG= discuss and verify test case
-  ;Proposal: http://lists.w3.org/Archives/Public/www-style/2010Oct/0428.html
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Oct/0428.html
  
 
 ==== Issue 107 ====
