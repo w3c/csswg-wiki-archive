@@ -5,7 +5,7 @@
 Proposed agenda topics:
 
   * CSS3 Fonts - font feature support
-  * CSS3 Writing Modes - logical directional model
+  * CSS3 Writing Modes - logical directional model, writing-mode property, FPWD
 
 ===== Proposed Agenda =====
 
