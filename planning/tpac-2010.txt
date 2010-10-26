@@ -9,6 +9,12 @@ Proposed agenda topics:
   * CSS3 Fonts - font feature support
   * CSS3 Writing Modes - logical directional model, writing-mode property, FPWD
   * CSS3 Speech
+  * Layout topics, grid, etc (from MSFT)
+  * CSS3 Values
+  * CSS2.1 Test suite after REC
+  * Slow font downloading issue
+  * Multicol and scrolling
+  * Flexbox (from Tab)
 
 ===== Proposed Agenda =====
 
