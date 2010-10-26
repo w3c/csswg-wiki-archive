@@ -587,7 +587,7 @@ Duplicate of Issue 73
   ;Summary : Make font weight mapping rules normative
   ;Notes : See also issue 111
   :Resolution : use "Once the font family's weights are mapped onto the CSS scale, missing weights are selected as follows:" as the introductory sentence, then add bulleted list from http://lists.w3.org/Archives/Public/www-style/2010Mar/0538.html since CSS2.1's wording misses a few cases.
-  ;Status : Open. =Bert= Edit. =jdaggett= find or write testcases
+  ;Status : Closed. =jdaggett= find or write testcases
 
 ==== Issue 157 ====
 
