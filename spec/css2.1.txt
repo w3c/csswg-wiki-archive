@@ -449,6 +449,7 @@ Duplicate of Issue 73
   ;Resolution : Accept in principle to change the grammar for 140 and note that we won't use the additional capabilities (exact  wording tbd).
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0435.html
   ;Status : Open. =Bert= Edit.
+
 ==== Issue 141 ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Oct/0294.html
