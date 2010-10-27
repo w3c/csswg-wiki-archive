@@ -73,7 +73,6 @@ Ugly, not self-documenting:
   background-attachment-004
   background-position-201
   background-root-018
-  bidi-override-003: should state whether a bullet should be visible
   border-001: solid or hollow box?
   c525-font-wt-000: does not state whether "This sentence should be very light" should be visibly lighter than normal
   fixed-table-layout-006: "all the blue lines" is confusing. They are all shades of blue.
