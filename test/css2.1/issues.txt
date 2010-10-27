@@ -226,6 +226,11 @@ Those testcases also miss
 === 1 RC2 testcase missing the HTMLonly flag === 
   - [[http://test.csswg.org/suites/css2.1/20101001/html4/content-072.htm|content-072]]  ... otherwise, defer should be defer="defer" in that testcase
 
+=== 2 RC2 testcases with some coding issues === 
+
+  - [[http://test.csswg.org/suites/css2.1/20101001/html4/abspos-paged-001.htm|abspos-paged-001]] missing ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]] 
+  - [[http://test.csswg.org/suites/css2.1/20101001/html4/abspos-paged-002.htm|abspos-paged-002]] missing ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]] 
+
 ==== General Issues ====
 http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html
 
