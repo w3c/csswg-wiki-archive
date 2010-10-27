@@ -127,21 +127,21 @@ Ugly, not self-documenting:
 
 ==== Tests that have HTML Validation errors ====
 
-=== 3 RC2 testcases that have  HTML Validation errors ===
+=== 3 RC3 testcases that have  HTML Validation errors ===
 
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/first-letter-punct-before-015.htm|first-letter-punct-before-015]] 82 validation markup errors
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/first-letter-punct-before-019.htm|first-letter-punct-before-019]] 43 validation markup errors
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/first-letter-punct-before-035.htm|first-letter-punct-before-035]] 167 validation markup errors
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/first-letter-punct-before-015.htm|first-letter-punct-before-015]] 82 validation markup errors
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/first-letter-punct-before-019.htm|first-letter-punct-before-019]] 43 validation markup errors
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/first-letter-punct-before-035.htm|first-letter-punct-before-035]] 167 validation markup errors
 
 
 ==== Tests that need Metadata improvements ====
 
-=== 3 RC2 testcases with wrong, incorrect meta assert text ===
+=== 3 RC3 testcases with wrong, incorrect meta assert text ===
 
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/position-relative-nested-001.htm
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/position-relative-nested-001.htm
 |position-relative-nested-001]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/absolute-non-replaced-width-010.htm|absolute-non-replaced-width-010]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/absolute-non-replaced-width-013.htm|absolute-non-replaced-width-013]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-010.htm|absolute-non-replaced-width-010]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-013.htm|absolute-non-replaced-width-013]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]]
 
 === More incorrect asserts ===
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-003]]  
@@ -161,35 +161,32 @@ Ugly, not self-documenting:
   lang-selector-005
 
 
-=== 9 RC2 testcases missing the ahem flag ===
+=== 9 RC3 testcases missing the ahem flag ===
 
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/units-001.htm|units-001]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/units-002.htm|units-002]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/units-003.htm|units-003]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/units-004.htm|units-004]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/units-006.htm|units-006]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/units-008.htm|units-008]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/units-009.htm|units-009]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/floats-006.htm|floats-006]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/floats-009.htm|floats-009]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/units-001.htm|units-001]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/units-002.htm|units-002]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/units-003.htm|units-003]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/units-004.htm|units-004]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/units-006.htm|units-006]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/units-008.htm|units-008]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/units-009.htm|units-009]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-006.htm|floats-006]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-009.htm|floats-009]]
 
-=== 4 RC2 testcases missing the dom flag ===
+=== 4 RC3 testcases missing the dom flag ===
 
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/text-transform-bicameral-006.htm|text-transform-bicameral-006]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/text-transform-bicameral-007.htm|text-transform-bicameral-007]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/text-transform-bicameral-008.htm|text-transform-bicameral-008]]
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/text-transform-bicameral-009.htm|text-transform-bicameral-009]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-006.htm|text-transform-bicameral-006]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-007.htm|text-transform-bicameral-007]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-008.htm|text-transform-bicameral-008]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-009.htm|text-transform-bicameral-009]]
 
 Those testcases also miss
 ''<meta http-equiv="Content-Script-Type" content="text/javascript">''
 
-=== 1 RC2 testcase missing the HTMLonly flag === 
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/content-072.htm|content-072]]  ... otherwise, defer should be defer="defer" in that testcase
+=== 2 RC3 testcases with some coding issues === 
 
-=== 2 RC2 testcases with some coding issues === 
-
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/abspos-paged-001.htm|abspos-paged-001]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]] 
-  - [[http://test.csswg.org/suites/css2.1/20101001/html4/abspos-paged-002.htm|abspos-paged-002]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]] 
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-paged-001.htm|abspos-paged-001]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]] 
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-paged-002.htm|abspos-paged-002]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]] 
 
 ==== General Issues ====
 http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html
