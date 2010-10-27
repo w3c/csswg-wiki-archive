@@ -555,6 +555,7 @@ Duplicate of Issue 73
   ;Resolution : Update prose to not require quoting of commas in URL tokens
   ;Status : Open. =Bert= Edit.
   ;Testcases : uri-014
+
 ==== Issue 153 ====
 
   ;URL : http://lists.w3.org/Archives/Public/public-css-testsuite/2010Jan/0030.html
