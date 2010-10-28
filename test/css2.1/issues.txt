@@ -14,16 +14,12 @@ Refer to nonexistent fonts:
   font-weight-lighter-001
   font-weight-normal-001
 
-=== 4 Incorrect RC3 testcases ===
-
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-008.htm|absolute-non-replaced-width-008]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-009.htm|absolute-non-replaced-width-009]]
-  
-What's wrong in those 2 absolute-non-replaced-width-00* testcases above has been explained in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0183.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0183.html]]
-
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/display-applies-to-002.htm|display-applies-to-002]] I explained in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0161.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0161.html]] and in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html]] what needs to be corrected. I have proposed [[http://www.gtalbot.org/BrowserBugsSection/css21testsuite/display-applies-to-002.htm|http://www.gtalbot.org/BrowserBugsSection/css21testsuite/display-applies-to-002.htm]] as a replacement.
-
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/right-offset-002.htm|right-offset-002]] I explained in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0072.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0072.html]] why such testcase does not test what it was aiming at testing and what is wrong with such testcase.
+=== 5 Incorrect RC3 testcases ===
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-008.htm|absolute-non-replaced-width-008]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-009.htm|absolute-non-replaced-width-009]] What's wrong in those 2 absolute-non-replaced-width-00* testcases above has been explained in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0183.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0183.html]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/display-applies-to-002.htm|display-applies-to-002]] I explained in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0161.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0161.html]] and in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html]] what needs to be corrected. I have proposed [[http://www.gtalbot.org/BrowserBugsSection/css21testsuite/display-applies-to-002.htm|http://www.gtalbot.org/BrowserBugsSection/css21testsuite/display-applies-to-002.htm]] as a replacement.
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/right-offset-002.htm|right-offset-002]] I explained in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0072.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0072.html]] why such testcase does not test what it was aiming at testing and what is wrong with such testcase.
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/background-position-202.htm|background-position-202]] Comma is not a valid separator for background-position values in CSS 2.1. More info in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0366.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0366.html]]
 
 === 2 RC3 testcases with insufficient space to display a bullet list-marker or involving display: list-item ===
 
