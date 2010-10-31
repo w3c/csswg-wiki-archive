@@ -17,6 +17,8 @@ Proposed agenda topics:
   * EPUB liaison (it appears the chair of the epub3 working group, Markus Gylling, will be able to attend our meeting)
   * CSS3 2D Transforms - 4 implementations, talk about LC
   * CSS WG Charter
+  * CSS3 Multicol: implementation update; spanning element behavior
+  * CSS3 GCPM: hyphenate-last-line-avoid; @page :nth() 
 
 ===== Proposed Agenda =====
 
