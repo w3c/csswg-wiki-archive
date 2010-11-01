@@ -16,6 +16,8 @@ Proposed agenda topics:
   * EPUB liaison (it appears the chair of the epub3 working group, Markus Gylling, will be able to attend our meeting)
   * CSS3 Speech
   * CSS2.1 Test suite after REC
+  * BIDI
+  * Accessibility
 
 ==== Monday PM ====
 
