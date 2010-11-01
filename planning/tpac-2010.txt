@@ -5,18 +5,10 @@
 
 Proposed agenda topics:
 
-  * CSS3 Fonts - font feature support
-  * CSS3 Writing Modes - logical directional model, writing-mode property, FPWD
   * CSS3 Speech
-  * Layout topics, grid, etc (from MSFT, prefer AM for US call in)  http://lists.w3.org/Archives/Public/www-style/2010Oct/0787.html
   * CSS3 Values
-  * CSS2.1 Test suite after REC
-  * Slow font downloading issue
-  * Multicol and scrolling
-  * Flexbox (from Tab)
-  * EPUB liaison (it appears the chair of the epub3 working group, Markus Gylling, will be able to attend our meeting)
-  * CSS3 2D Transforms - 4 implementations, talk about LC
   * CSS WG Charter
+  * Multicol and scrolling
   * CSS3 Multicol: implementation update; spanning element behavior
   * CSS3 GCPM: hyphenate-last-line-avoid; @page :nth() 
 
@@ -24,20 +16,23 @@ Proposed agenda topics:
 
 ==== Monday AM ====
 
-  * ???
+  * CSS3 2D Transforms - 4 implementations, talk about LC
+  * EPUB liaison (it appears the chair of the epub3 working group, Markus Gylling, will be able to attend our meeting)
+  * CSS2.1 Test suite after REC
 
 ==== Monday PM ====
 
-  * ???
+  * Flexbox (from Tab)
 
 ==== Tuesday AM ====
 
-  * ???
+  * Layout topics, grid, etc (from MSFT, prefer AM for US call in)  http://lists.w3.org/Archives/Public/www-style/2010Oct/0787.html
 
 ==== Tuesday PM ====
 
-  * ???
+  * CSS3 Fonts - font feature support
+  * CSS3 Writing Modes - logical directional model, writing-mode property, FPWD
+  * Slow font downloading issue
 
 ===== Notes =====
 
-Anne needs to attend WebApps all of Tuesday (editor / Chair duties) and would therefore prefer Writing Modes on Monday.
