@@ -1,11 +1,6 @@
 ====== TPAC 2010 ======
 
 1-2 November 2010 in Lyon, France
-===== Proposed Topics =====
-
-Proposed agenda topics:
-
-  * CSS3 Values
 
 ===== Proposed Agenda =====
 
@@ -19,10 +14,10 @@ Proposed agenda topics:
 
 ==== Monday PM ====
 
-  * Accessibility
   * CSS3 Multicol: implementation update; spanning element behavior
   * Multicol and scrolling
   * CSS3 GCPM: hyphenate-last-line-avoid; @page :nth() 
+  * Accessibility
   * Flexbox (from Tab)
 
 ==== Tuesday AM ====
@@ -35,6 +30,7 @@ Proposed agenda topics:
 
   * CSS3 Fonts - font feature support
   * Slow font downloading issue
+  * CSS3 Values
 
 ===== Notes =====
 
