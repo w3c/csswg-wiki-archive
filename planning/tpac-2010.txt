@@ -18,7 +18,6 @@
   * Multicol and scrolling
   * Flexbox (from Tab)
   * CSS3 GCPM: hyphenate-last-line-avoid; @page :nth() 
-  * Accessibility
 
 ==== Tuesday AM ====
 
@@ -31,6 +30,7 @@
   * CSS3 Fonts - font feature support
   * Slow font downloading issue
   * CSS3 Values
+  * Accessibility
 
 ===== Notes =====
 
