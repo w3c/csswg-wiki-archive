@@ -181,12 +181,13 @@ Ugly, not self-documenting:
 Those testcases also miss
 ''<meta http-equiv="Content-Script-Type" content="text/javascript">''
 
-=== 4 RC3 testcases missing the invalid flag ===
+=== 5 RC3 testcases missing the invalid flag ===
 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/background-image-005.htm|background-image-005]] because background-image should take only 1 value: [[http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Ftest.csswg.org%2Fsuites%2Fcss2.1%2F20101027%2Fhtml4%2Fbackground-image-005.htm&profile=css21&usermedium=all&warning=1&lang=en | Value Error : background-image Too many values or values are not recognized : url(support/1x1-red.png) repeat url(support/1x1-red.png) repeat]]
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/border-width-009.htm|border-width-009]] a negative border-width will trigger a parsing error; the CSS validator will also report such error.
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/border-width-010.htm|border-width-010]] a negative border-width will trigger a parsing error; the CSS validator will also report such error.
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/padding-009.htm|padding-009]] a negative padding-width will trigger a parsing error; the CSS validator will also report such error.
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/padding-009.htm|padding-009]] a negative padding will trigger a parsing error; the CSS validator will also report such error.
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/c5506-padn-t-000.htm|c5506-padn-t-000]] a negative padding-top (-20px) will trigger a parsing error; the CSS validator will also report such error.
 
 === 2 RC3 testcases with some coding issues === 
 
