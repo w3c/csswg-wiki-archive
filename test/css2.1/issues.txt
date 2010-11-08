@@ -201,11 +201,31 @@ Those testcases also miss
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/c5506-padn-t-000.htm|c5506-padn-t-000]] a negative padding-top (-20px) will trigger a parsing error; the CSS validator will also report such error.
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/background-position-203.htm|background-position-203]] .case.t1 to .case.t20 involve error parsing handling; the CSS validator will also report such errors.
 
-
 === 2 RC3 testcases with some coding issues === 
 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-paged-001.htm|abspos-paged-001]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]] 
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-paged-002.htm|abspos-paged-002]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]] 
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-paged-002.htm|abspos-paged-002]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]]
+
+== 16 RC3 testcases using, relying on CSS3 grammar or CSS3 properties ==
+
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-display-types-001.htm|before-after-display-types-001]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-dynamic-attr-001.htm|before-after-dynamic-attr-001]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-dynamic-restyle-001.htm|before-after-dynamic-restyle-001]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-floated-001.htm
+|before-after-floated-001]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-images-001.htm|before-after-images-001]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-positioned-001.htm|before-after-positioned-001]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-parts-001.htm|before-after-table-parts-001]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-whitespace-001.htm|before-after-table-whitespace-001]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-010.htm|block-in-inline-insert-010]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-012.htm|block-in-inline-insert-012]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-013.htm|block-in-inline-insert-013]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-014.htm|block-in-inline-insert-014]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-015.htm|block-in-inline-insert-015]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-016a.htm|block-in-inline-insert-016a]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-016b.htm|block-in-inline-insert-016b]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/z-index-020.htm|z-index-020]] relies on CSS3 outline-offset (line 46), CSS3 color names magenta (line 50) and pink (line 41)
+
 
 ==== General Issues ====
 http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html
