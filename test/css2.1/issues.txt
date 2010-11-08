@@ -226,6 +226,8 @@ Those testcases also miss
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-016b.htm|block-in-inline-insert-016b]] uses double-colon grammar
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/z-index-020.htm|z-index-020]] relies on CSS3 outline-offset (line 46), CSS3 color names magenta (line 50) and pink (line 41)
 
+== 1 RC3 testcase with wrong meta flag ==
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-floats-003.htm|first-line-floats-003]] should **not** have the dom flag
 
 ==== General Issues ====
 http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html
