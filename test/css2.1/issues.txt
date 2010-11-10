@@ -48,7 +48,7 @@ Refer to nonexistent fonts:
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|first-letter-punctuation-358]]
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|line-height-111]]
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|content-160]]
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|border-conflict-style-074]]
+  * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|border-conflict-style-074]]</del> - fixed for RC4
 
 === 1 RC3 testcase with incorrect expected result ===
 
