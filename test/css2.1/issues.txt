@@ -70,9 +70,9 @@ Ugly, not self-documenting:
   background-attachment-004
   background-position-201
   background-root-018
-  border-001: solid or hollow box?
+  <del>border-001: solid or hollow box?</del> - Fixed for RC4
   c525-font-wt-000: does not state whether "This sentence should be very light" should be visibly lighter than normal
-  fixed-table-layout-006: "all the blue lines" is confusing. They are all shades of blue.
+<del>  fixed-table-layout-006: "all the blue lines" is confusing. They are all shades of blue.</del> - fixed for RC4
   inline-block-003: behavior on window resize needs to be clarified:
   floats-126 et al: ditto
   inlines-004-inlines-006: unclear what "aligned" means. Say "on a grid"?
@@ -92,12 +92,12 @@ Ugly, not self-documenting:
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|quotes-035]] 
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|quotes-036]] 
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|c44-ln-box-003]]
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|min-height-080]] 
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|max-height-080]]
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|background-130]]
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|table-visual-layout-025]]
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|outline-003]]
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|empty-cells-applies-to-001]]
+<del>  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|min-height-080]]</del> - fixed for RC4
+<del>  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|max-height-080]]</del> - fixed for RC4
+<del>  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|background-130]]</del> - fixed for RC4
+<del>  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|table-visual-layout-025]]</del> - fixed/removed for RC4
+<del>  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|outline-003]]</del> - fixed for RC4
+<del>  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|empty-cells-applies-to-001]]</del> - fixed for RC4
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|table-background-edge-and-border-model-002]]
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|separated-border-model-005]]
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|text-align-applies-to-001]]
