@@ -149,17 +149,17 @@ Ugly, not self-documenting:
 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/position-relative-nested-001.htm
 |position-relative-nested-001]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-010.htm|absolute-non-replaced-width-010]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-013.htm|absolute-non-replaced-width-013]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-010.htm|absolute-non-replaced-width-010]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]] - fixed for RC4
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-013.htm|absolute-non-replaced-width-013]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]] - fixed for RC4
 
 === More incorrect asserts ===
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-003]]  
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-004]]
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-005]]
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-006]]
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-007]]
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-008]]
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-009]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-003]] - fixed for RC4
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-004]] - fixed for RC4
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-005]] - fixed for RC4
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-006]] - fixed for RC4
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-007]] - fixed for RC4
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-008]] - fixed for RC4
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-009]] - fixed for RC4
 
 
 === Tests possibly missing http flag ===
@@ -167,7 +167,7 @@ Ugly, not self-documenting:
   character-encoding-026
   character-encoding-027
   character-encoding-028
-  lang-selector-005
+  lang-selector-005 - fixed for RC4
 
 
 === 9 RC3 testcases missing the ahem flag ===
@@ -179,8 +179,8 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/units-006.htm|units-006]]
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/units-008.htm|units-008]]
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/units-009.htm|units-009]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-006.htm|floats-006]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-009.htm|floats-009]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-006.htm|floats-006]] - fixed for RC4
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-009.htm|floats-009]] - fixed for RC4
 
 === 4 RC3 testcases missing the dom flag ===
 
