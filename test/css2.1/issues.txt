@@ -236,7 +236,7 @@ Those testcases also miss
 
 == 2 RC3 testcase with wrong meta flag ==
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-floats-003.htm|first-line-floats-003]] should **not** have the dom flag
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/table-height-algorithm-032.htm|table-height-algorithm-032]] ''<meta name="flags" content="internal">'' "internal" is not a valid flag.
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/table-height-algorithm-032.htm|table-height-algorithm-032]] ''<meta name="flags" content="internal">'' "internal" is not a valid flag.</del> - Fixed for RC4
 
 
 ==== General Issues ====
