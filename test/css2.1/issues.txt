@@ -137,10 +137,10 @@ Ugly, not self-documenting:
   
 === 4 RC3 testcases creating unneedlessly and unexpectedly an horizontal scrollbar ===
 
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/left-067.htm|left-067]] 
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/left-079.htm|left-079]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/left-091.htm|left-091]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/left-092.htm|left-092]]
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/left-067.htm|left-067]]</del> - Fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/left-079.htm|left-079]]</del> - Fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/left-091.htm|left-091]]</del> - Fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/left-092.htm|left-092]]</del> - Fixed for RC4
 
 ==== Tests that have HTML Validation errors ====
 
