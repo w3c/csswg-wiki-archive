@@ -233,6 +233,14 @@ Those testcases also miss
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-016a.htm|block-in-inline-insert-016a]] uses double-colon grammar
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-016b.htm|block-in-inline-insert-016b]] uses double-colon grammar
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/z-index-020.htm|z-index-020]] relies on CSS3 outline-offset (line 46), CSS3 color names magenta (line 50) and pink (line 41)
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/page-break-after-010.htm|page-break-after-010]] relies on CSS3 at-keywords for paged media
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/page-break-before-003.htm|page-break-before-003]] relies on CSS3 at-keywords for paged media
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/page-break-before-005.htm|page-break-before-005]] relies on CSS3 at-keywords for paged media
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/allowed-page-breaks-001c.htm|allowed-page-breaks-001c]] relies on CSS3 at-keywords for paged media
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/allowed-page-breaks-003.htm|allowed-page-breaks-003]] relies on CSS3 at-keywords for paged media
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/allowed-page-breaks-004.htm|allowed-page-breaks-004]] relies on CSS3 at-keywords for paged media
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-wrap-bfc-006b.htm|floats-wrap-bfc-006b]] relies on CSS2 caption-side: left
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-wrap-bfc-006c.htm|floats-wrap-bfc-006c]] relies on CSS2 caption-side: right
 
 == 2 RC3 testcase with wrong meta flag ==
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-floats-003.htm|first-line-floats-003]] should **not** have the dom flag
