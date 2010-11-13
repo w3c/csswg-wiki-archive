@@ -22,7 +22,7 @@ Refer to nonexistent fonts:
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/background-position-202.htm|background-position-202]] Comma is not a valid separator for background-position values in CSS 2.1. More info in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0366.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0366.html]]
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/active-selector-002.htm|active-selector-002]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0102.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0102.html]]
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/blocks-017.htm
-|blocks-017]] has an inaccurate wrapping div height. More explanations and details: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0048.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0048.html]]
+|blocks-017]] has an inaccurate wrapping div height. More explanations and details: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0048.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0048.html]] The **agreed solution** as mentioned in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0055.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0055.html]] is "to drop, **to remove the borders around the 4 black stripes** in order to simplify the testcase and make it more trustworthy"
 
 === 2 RC3 testcases with insufficient space to display a bullet list-marker or involving display: list-item ===
 
@@ -214,7 +214,7 @@ Those testcases also miss
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-paged-001.htm|abspos-paged-001]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]] 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-paged-002.htm|abspos-paged-002]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]]
 
-== 16 RC3 testcases using, relying on CSS3 grammar or CSS3 properties ==
+== 24 RC3 testcases using, relying on CSS3 grammar or CSS3 properties ==
 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-display-types-001.htm|before-after-display-types-001]] uses double-colon grammar
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-dynamic-attr-001.htm|before-after-dynamic-attr-001]] uses double-colon grammar
