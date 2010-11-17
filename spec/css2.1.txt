@@ -970,12 +970,19 @@ Duplicate of Issue 73
   ;Status : Closed.
 
 
-==== Unnumbered Issue ====
+==== Issue A ====
 
   ;Summary : inline tables accidentally left out of applies-to list for 'overflow'
   ;URI : http://www.w3.org/mid/20101016195038.GA17927@pickering.dbaron.org
   ;Resolution : Add inline-table.
   ;Status : Open. =Bert= Edit.
+
+==== Issue B ====
+
+  ;Summary : Percentage intrinsic widths untestable
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Nov/0077.html
+  ;Status : Open. =WG= Discuss.
+
 
 ==== Continued... ====
 
