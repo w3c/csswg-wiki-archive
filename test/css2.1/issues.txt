@@ -243,8 +243,7 @@ Those testcases also miss
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-display-types-001.htm|before-after-display-types-001]] uses double-colon grammar
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-dynamic-attr-001.htm|before-after-dynamic-attr-001]] uses double-colon grammar
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-dynamic-restyle-001.htm|before-after-dynamic-restyle-001]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-floated-001.htm
-|before-after-floated-001]] uses double-colon grammar
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-floated-001.htm|before-after-floated-001]] uses double-colon grammar
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-images-001.htm|before-after-images-001]] uses double-colon grammar
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-positioned-001.htm|before-after-positioned-001]] uses double-colon grammar
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-parts-001.htm|before-after-table-parts-001]] uses double-colon grammar
@@ -270,6 +269,8 @@ Those testcases also miss
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-floats-003.htm|first-line-floats-003]] should **not** have the dom flag
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/table-height-algorithm-032.htm|table-height-algorithm-032]] ''<meta name="flags" content="internal">'' "internal" is not a valid flag.</del> - Fixed for RC4
 
+== 1 RC3 test with missing title ==
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/page-selectors-001.htm|page-selectors-001]]
 
 ==== General Issues ====
 http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html
