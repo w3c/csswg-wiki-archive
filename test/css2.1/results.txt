@@ -10,7 +10,7 @@ This page is to track analysis of those results.
 
 //User Agents://
   * //Internet Explorer 9 Platform Preview 7//
-  * //Firefox 3.6.12//
+  * //Firefox 3.6.12, Firefox4//
   * //Opera 10.63//
   * //Safari 5.0.2//
   * //Chrome 7.0.517.44//
