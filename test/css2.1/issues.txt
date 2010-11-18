@@ -61,6 +61,18 @@ Refer to nonexistent fonts:
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-004.htm|overflow-004]]
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-005.htm|overflow-005]] ; More info: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0272.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0272.html]]
 
+
+=== 3 RC3 testcases relying on styling of replaced content (alt attribute text) ===
+
+''How a replaced element's content is rendered is not defined by this
+specification. Rendered content may also be alternate text for an
+element (e.g., the value of the XHTML "alt" attribute)'' coming from[[http://www.w3.org/TR/CSS21/conform.html#defs|CSS2.1 section 3.1]]
+
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-alt-001.htm|bidi-alt-001]] Reasons: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0049.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0049.html]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/inlines-009.htm|inlines-009]] Reasons: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0052.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0052.html]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/inlines-010.htm|inlines-010]] Reasons: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0052.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0052.html]]
+
+
 ==== Tests that need Usability improvements ====
 
 Ugly, not self-documenting:
