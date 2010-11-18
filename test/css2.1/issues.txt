@@ -70,7 +70,8 @@ Refer to nonexistent fonts:
 
 ''How a replaced element's content is rendered is not defined by this
 specification. Rendered content may also be alternate text for an
-element (e.g., the value of the XHTML "alt" attribute)'' 
+element (e.g., the value of the XHTML "alt" attribute)''
+ 
 quote coming from [[http://www.w3.org/TR/CSS21/conform.html#defs|CSS2.1 section 3.1]]
 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-alt-001.htm|bidi-alt-001]] Reasons: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0049.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0049.html]]
