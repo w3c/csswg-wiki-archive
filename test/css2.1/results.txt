@@ -64,7 +64,6 @@ This page is to track analysis of those results.
 
 **Richard Ishida**
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-004.htm|text-transform-bicameral-004]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-008.htm|text-transform-bicameral-008]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-021.htm|text-transform-bicameral-021]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-022.htm|text-transform-bicameral-022]]
 
