@@ -230,10 +230,10 @@ Ugly, not self-documenting:
 
 === 4 RC3 testcases missing the dom flag ===
 
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-006.htm|text-transform-bicameral-006]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-007.htm|text-transform-bicameral-007]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-008.htm|text-transform-bicameral-008]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-009.htm|text-transform-bicameral-009]]
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-006.htm|text-transform-bicameral-006]] - scripting not required
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-007.htm|text-transform-bicameral-007]] - scripting not required
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-008.htm|text-transform-bicameral-008]] - scripting not required
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-009.htm|text-transform-bicameral-009]]</del> - scripting not required
 
 Those testcases also miss
 ''<meta http-equiv="Content-Script-Type" content="text/javascript">''
