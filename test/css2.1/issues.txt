@@ -210,10 +210,10 @@ Ugly, not self-documenting:
 
 === Tests possibly missing http flag ===
 
-  character-encoding-026
-  character-encoding-027
-  character-encoding-028
-  <del>lang-selector-005</del> - fixed for RC4
+  - <del>character-encoding-026</del> - fixed for RC4
+  - <del>character-encoding-027</del> - fixed for RC4
+  - <del>character-encoding-028</del> - fixed for RC4
+  - <del>lang-selector-005</del> - fixed for RC4
 
 
 === 9 RC3 testcases missing the ahem flag ===
