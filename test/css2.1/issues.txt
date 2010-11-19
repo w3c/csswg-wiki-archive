@@ -254,21 +254,21 @@ Those testcases also miss
 
 == 24 RC3 testcases using, relying on CSS3 grammar or CSS3 properties ==
 
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-display-types-001.htm|before-after-display-types-001]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-dynamic-attr-001.htm|before-after-dynamic-attr-001]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-dynamic-restyle-001.htm|before-after-dynamic-restyle-001]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-floated-001.htm|before-after-floated-001]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-images-001.htm|before-after-images-001]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-positioned-001.htm|before-after-positioned-001]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-parts-001.htm|before-after-table-parts-001]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-whitespace-001.htm|before-after-table-whitespace-001]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-010.htm|block-in-inline-insert-010]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-012.htm|block-in-inline-insert-012]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-013.htm|block-in-inline-insert-013]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-014.htm|block-in-inline-insert-014]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-015.htm|block-in-inline-insert-015]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-016a.htm|block-in-inline-insert-016a]] uses double-colon grammar
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-016b.htm|block-in-inline-insert-016b]] uses double-colon grammar
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-display-types-001.htm|before-after-display-types-001]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-dynamic-attr-001.htm|before-after-dynamic-attr-001]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-dynamic-restyle-001.htm|before-after-dynamic-restyle-001]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-floated-001.htm|before-after-floated-001]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-images-001.htm|before-after-images-001]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-positioned-001.htm|before-after-positioned-001]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-parts-001.htm|before-after-table-parts-001]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-whitespace-001.htm|before-after-table-whitespace-001]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-010.htm|block-in-inline-insert-010]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-012.htm|block-in-inline-insert-012]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-013.htm|block-in-inline-insert-013]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-014.htm|block-in-inline-insert-014]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-015.htm|block-in-inline-insert-015]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-016a.htm|block-in-inline-insert-016a]] uses double-colon grammar</del> - fixed for RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/block-in-inline-insert-016b.htm|block-in-inline-insert-016b]] uses double-colon grammar</del> - fixed for RC4
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/z-index-020.htm|z-index-020]] relies on CSS3 outline-offset (line 46), CSS3 color names magenta (line 50) and pink (line 41)
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/page-break-after-010.htm|page-break-after-010]] relies on CSS3 at-keywords for paged media
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/page-break-before-003.htm|page-break-before-003]] relies on CSS3 at-keywords for paged media
