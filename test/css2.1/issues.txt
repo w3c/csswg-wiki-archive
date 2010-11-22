@@ -43,6 +43,7 @@ Refer to nonexistent fonts:
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0074.html|table-height-algorithm-027]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0075.html|content-158]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0075.html|content-159]]</del> - fixed for RC4
+  * Various [min-|max-|]height-applies-to- tests [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0060.html|listed here]]
 
 === Miscellaneous incorrect tests ===
 
