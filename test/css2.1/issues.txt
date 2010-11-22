@@ -44,6 +44,11 @@ Refer to nonexistent fonts:
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0075.html|content-158]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0075.html|content-159]]</del> - fixed for RC4
   * Various [min-|max-|]height-applies-to- tests [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0060.html|listed here]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0371.html|column-visibility-003]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0382.html|content-counter-010]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0382.html|content-counters-010]]
+  * Multiple [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0040.html|counter-increment-* and counter-reset-*]] tests
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Jan/0017.html|font-weight-003]] 
 
 === Miscellaneous incorrect tests ===
 
@@ -55,7 +60,11 @@ Refer to nonexistent fonts:
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|line-height-111]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|content-160]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|border-conflict-style-074]]</del> - fixed for RC4
-
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0139.html|c5504-mrgn-l-002]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0141.html|c566-list-stl-000]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct//0263.html|font-family-rule-002]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0265.html|font-matching-rule-010]]
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0265.html|font-matching-rule-013]]
 
 === 3 RC3 testcases with incorrect pass condition / dependence on font metrics ===
 
