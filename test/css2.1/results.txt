@@ -26,7 +26,7 @@ This page is to track analysis of those results.
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/background-intrinsic-008.htm|background-intrinsic-008]] - [[http://test.csswg.org/source/contributors/fantasai/submitted/css2.1/backgrounds/background-intrinsic-008.htm|corrected version]] (Fx4b8 passes corrected version, though haven't tried IE9/Saf5/Konq; only applicable to UAs supporting SVG background images)
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-breaking-002.htm|bidi-breaking-002]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0118.html | tests 3 and 4 invalid]] (does that help?)
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-page-selectors-003.htm|first-page-selectors-003]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0121.html|invalid?]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/word-spacing-characters-001.htm|word-spacing-characters-001]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0237.html|invalid]] - Fx4b6 passes the [[http://test.csswg.org/source/contributors/fantasai/submitted/css2.1/word-spacing-characters-001.xht|revised version]]
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/word-spacing-characters-001.htm|word-spacing-characters-001]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0237.html|invalid]]
 
 **Hewlett-Packard Company**
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/allowed-page-breaks-001a.htm|allowed-page-breaks-001a]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0242.html|invalid]]
