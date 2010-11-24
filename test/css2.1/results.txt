@@ -15,7 +15,6 @@ This page is to track analysis of those results.
   * //Safari 5.0.2//
   * //Chrome 7.0.517.44//
   * //Konqueror 4.4.0//
-
 ===== Tests with Zero Passes =====
 
 **Elika J. Etemad**
@@ -49,7 +48,7 @@ This page is to track analysis of those results.
   * <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-replaced-width-018.htm|absolute-replaced-width-018]]</del> - Determined invalid, removed for RC4
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/margin-collapse-clear-005.htm|margin-collapse-clear-005]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/margin-collapse-clear-011.htm|margin-collapse-clear-011]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-applies-to-010.htm|overflow-applies-to-010]]
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-applies-to-010.htm|overflow-applies-to-010]] - Put a note in CSS 2.1 as undefined and remove test
 
 **Mozilla Corporation**
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-non-replaced-width-margin-000.htm|abspos-non-replaced-width-margin-000]] - I need to double-check this one -dbaron.
