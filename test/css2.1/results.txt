@@ -71,39 +71,39 @@ This page is to track analysis of those results.
 
 **Elika J. Etemad**
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-page-selectors-004.htm|first-page-selectors-004]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/replaced-intrinsic-005.htm|replaced-intrinsic-005]]
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/replaced-intrinsic-005.htm|replaced-intrinsic-005]] - Firefox 4.0b6 passes
 
 **Hewlett-Packard Company**
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/orphans-004a.htm|orphans-004a]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/widows-004b.htm|widows-004b]]
 
 **Ian Hickson**
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-pseudo-013.htm|first-line-pseudo-013]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-pseudo-016.htm|first-line-pseudo-016]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/quotes-035.htm|quotes-035]]
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-pseudo-013.htm|first-line-pseudo-013]] - Firefox (Windows/Mac) passes (?)
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-pseudo-016.htm|first-line-pseudo-016]] - Firefox (Windows/Mac) passes (?)
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/quotes-035.htm|quotes-035]] - Firefox 4.0b6 passes
 
 **James Hopkins**
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/list-style-position-011.htm|list-style-position-011]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/list-style-position-012.htm|list-style-position-012]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/list-style-position-014.htm|list-style-position-014]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/list-style-position-017.htm|list-style-position-017]]
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/list-style-position-011.htm|list-style-position-011]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/list-style-position-012.htm|list-style-position-012]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/list-style-position-014.htm|list-style-position-014]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/list-style-position-017.htm|list-style-position-017]] - Firefox 4.0b6 passes
 
 **Microsoft**
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/content-computed-value-001.htm|content-computed-value-001]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/font-family-rule-011.htm|font-family-rule-011]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/white-space-control-characters-001.htm|white-space-control-characters-001]]
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/white-space-control-characters-001.htm|white-space-control-characters-001]] - Firefox 4.0b6 passes
 
 **Mozilla Corporation**
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-parts-001.htm|before-after-table-parts-001]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-whitespace-001.htm|before-after-table-whitespace-001]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/dynamic-top-change-002.htm|dynamic-top-change-002]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/dynamic-top-change-003.htm|dynamic-top-change-003]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/dynamic-top-change-005.htm|dynamic-top-change-005]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-letter-punct-before-008.htm|first-letter-punct-before-008]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-floats-002.htm|first-line-floats-002]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-inherit-002.htm|first-line-inherit-002]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-inherit-003.htm|first-line-inherit-003]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-wrap-bfc-006.htm|floats-wrap-bfc-006]]
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-parts-001.htm|before-after-table-parts-001]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-whitespace-001.htm|before-after-table-whitespace-001]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/dynamic-top-change-002.htm|dynamic-top-change-002]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/dynamic-top-change-003.htm|dynamic-top-change-003]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/dynamic-top-change-005.htm|dynamic-top-change-005]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-letter-punct-before-008.htm|first-letter-punct-before-008]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-floats-002.htm|first-line-floats-002]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-inherit-002.htm|first-line-inherit-002]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-inherit-003.htm|first-line-inherit-003]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-wrap-bfc-006.htm|floats-wrap-bfc-006]] - Firefox 4.0b6 passes
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-wrap-top-below-bfc-001r.htm|floats-wrap-top-below-bfc-001r]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-wrap-top-below-bfc-002l.htm|floats-wrap-top-below-bfc-002l]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/floats-wrap-top-below-bfc-003l.htm|floats-wrap-top-below-bfc-003l]]
@@ -116,10 +116,10 @@ This page is to track analysis of those results.
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/run-in-contains-table-row-group-001.htm|run-in-contains-table-row-group-001]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/run-in-fixedpos-between-002.htm|run-in-fixedpos-between-002]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/run-in-float-between-002.htm|run-in-float-between-002]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/table-anonymous-objects-187.htm|table-anonymous-objects-187]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/table-anonymous-objects-188.htm|table-anonymous-objects-188]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/table-backgrounds-bs-row-001.htm|table-backgrounds-bs-row-001]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/table-backgrounds-bs-rowgroup-001.htm|table-backgrounds-bs-rowgroup-001]]
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/table-anonymous-objects-187.htm|table-anonymous-objects-187]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/table-anonymous-objects-188.htm|table-anonymous-objects-188]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/table-backgrounds-bs-row-001.htm|table-backgrounds-bs-row-001]] - Firefox 4.0b6 passes
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/table-backgrounds-bs-rowgroup-001.htm|table-backgrounds-bs-rowgroup-001]] - Firefox 4.0b6 passes
 
 **Opera Software ASA**
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-alt-001.htm|bidi-alt-001]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0050.html|invalid]]
