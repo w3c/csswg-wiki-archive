@@ -38,7 +38,7 @@ This page is to track analysis of those results.
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/page-props-103.htm|page-props-103]]
 
 **Ian Hickson**
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-004.htm|bidi-004]]
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-004.htm|bidi-004]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0110.html|invalid]] (but the fix might not be enough to get us more passes)
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/quotes-036.htm|quotes-036]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0219.html|invalid]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/table-caption-003.htm|table-caption-003]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/z-index-abspos-009.htm|z-index-abspos-009]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0238.html|invalid]]
