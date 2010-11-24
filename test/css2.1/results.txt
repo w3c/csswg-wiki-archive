@@ -63,7 +63,7 @@ This page is to track analysis of those results.
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/run-in-contains-table-caption-001.htm|run-in-contains-table-caption-001]]
 
 **Richard Ishida**
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-004.htm|text-transform-bicameral-004]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0270.html|invalid]] (how could anyone pass? -dbaron)
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-004.htm|text-transform-bicameral-004]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0270.html|invalid]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-021.htm|text-transform-bicameral-021]] - Chromium on Linux passes -dbaron.
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/text-transform-bicameral-022.htm|text-transform-bicameral-022]] - Chromium on Linux passes -dbaron.
 
