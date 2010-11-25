@@ -277,7 +277,7 @@ Those testcases also miss
 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-paged-001.htm|abspos-paged-001]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]] 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-paged-002.htm|abspos-paged-002]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/inlines-003.htm|inlines-003]] inlines-003 has no pass criteria. The link "the X grid" is broken. [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0130.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0130.html]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/inlines-003.htm|inlines-003]] has no pass criteria. The link "the X grid" is broken. [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0130.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0130.html]]
 
 
 == 24 RC3 testcases using, relying on CSS3 grammar or CSS3 properties ==
