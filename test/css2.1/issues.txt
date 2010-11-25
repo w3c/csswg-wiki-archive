@@ -273,10 +273,12 @@ Those testcases also miss
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/c5506-padn-t-000.htm|c5506-padn-t-000]] a negative padding-top (-20px) will trigger a parsing error; the CSS validator will also report such error.</del> - fixed for RC4
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/background-position-203.htm|background-position-203]] .case.t1 to .case.t20 involve error parsing handling; the CSS validator will also report such errors.</del> - fixed for RC4
 
-=== 2 RC3 testcases with some coding issues === 
+=== 3 RC3 testcases with some coding issues === 
 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-paged-001.htm|abspos-paged-001]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]] 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-paged-002.htm|abspos-paged-002]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/inlines-003.htm|inlines-003]] inlines-003 has no pass criteria. The link "the X grid" is broken. [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0130.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0130.html]]
+
 
 == 24 RC3 testcases using, relying on CSS3 grammar or CSS3 properties ==
 
