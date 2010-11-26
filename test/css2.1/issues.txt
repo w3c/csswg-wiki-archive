@@ -142,7 +142,7 @@ Ugly, not self-documenting:
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0060.html|list-style-position-017]]
   * 26 [[http://test.csswg.org/suites/css2.1/20101027/html4/at-charset-001.htm|at-charset-*]] testcases. There are 2 (non-distinctive, non-identifiable) "Filler text" while the pass condition refer to "Filler text" in the singular form. This issue affects the first 26 testcases in the range at-charset-001 to at-charset-030. This issue was reported in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0193.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0193.html]] and in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0122.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0122.html]]. [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0139.html|Proposed adjustments for first 26 at-charset-* testcases]]
 
-=== 13 RC3 testcases with too technical pass conditions ===
+=== 15 RC3 testcases with too technical pass conditions ===
 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/inline-table-width-001a.htm|inline-table-width-001a]] My neighbour would ask "What's 10em and how wide is it exactly?"
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/clipping-002.htm|clipping-002]] My neighbour would ask "What's a 100x100 square?"
@@ -157,8 +157,8 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/background-alpha-001.htm|background-alpha-001]] My neighbour would ask "What's a 'multi-bit alpha channel'?" Pass conditions are not so clear and text is too technical.
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/background-alpha-002.htm|background-alpha-002]] My neighbour would ask "What's a 'multi-bit alpha channel'?" Pass conditions are not so clear and text is too technical.
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/background-alpha-003.htm|background-alpha-003]] My neighbour would ask "What's a square div? How tall/big is/should be the 'size of two tiles'?" Pass conditions are not clear or easy for normal people and text is too technical.
-
-
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/cursor-applies-to-005.htm|cursor-applies-to-005]] My neighbour would ask "What's a default cursor? How does it look like?" I propose to add to the expected results: "The default cursor often looks like an arrow."
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/cursor-applies-to-006.htm|cursor-applies-to-006]] My neighbour would ask "What's a default cursor? How does it look like?" I propose to add to the expected results: "The default cursor often looks like an arrow."
 
 
 === 10 RC3 Font related testcases which need pixel reference lines or need to be reworked or redesigned ===
