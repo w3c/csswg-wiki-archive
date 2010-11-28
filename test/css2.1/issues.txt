@@ -43,7 +43,7 @@ Refer to nonexistent fonts:
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0074.html|table-height-algorithm-027]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0075.html|content-158]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0075.html|content-159]]</del> - fixed for RC4
-  * Various [min-|max-|]height-applies-to- tests [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0060.html|listed here]]
+  * Various [min-|max-|]height-applies-to- tests **[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0060.html|listed here]]** : height, max-height, min-height supposed to be undefined for table row groups; max-height and min-height should not apply to table-row elements and table-cell elements
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0371.html|column-visibility-003]]
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0382.html|content-counter-010]]
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0382.html|content-counters-010]]
