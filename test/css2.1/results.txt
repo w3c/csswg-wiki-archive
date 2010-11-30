@@ -69,7 +69,6 @@ This page is to track analysis of those results.
 ===== Tests with Only One Pass =====
 
 **Elika J. Etemad**
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-page-selectors-004.htm|first-page-selectors-004]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/replaced-intrinsic-005.htm|replaced-intrinsic-005]] - Firefox 4.0b6 passes
 
 **Hewlett-Packard Company**
