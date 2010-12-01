@@ -97,7 +97,6 @@ This page is to track analysis of those results.
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/dynamic-top-change-002.htm|dynamic-top-change-002]] - Firefox 4.0b6, Chrome 7.0.517.44 and Konqueror 4.5.3 pass
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/dynamic-top-change-003.htm|dynamic-top-change-003]] - Firefox 4.0b6, Chrome 7.0.517.44 and Konqueror 4.5.3 pass
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/dynamic-top-change-005.htm|dynamic-top-change-005]] - Firefox 4.0b6 passes
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-letter-punct-before-008.htm|first-letter-punct-before-008]] - Firefox 4.0b6 passes
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-floats-002.htm|first-line-floats-002]] - Firefox 4.0b6 passes
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-inherit-002.htm|first-line-inherit-002]] - Firefox 4.0b6 and Konqueror 4.5.3 pass
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-inherit-003.htm|first-line-inherit-003]] - Firefox 4.0b6 and Konqueror 4.5.3 pass
