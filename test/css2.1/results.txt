@@ -89,7 +89,7 @@ This page is to track analysis of those results.
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/list-style-position-017.htm|list-style-position-017]] - Firefox 4.0b6 passes
 
 **Microsoft**
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/content-computed-value-001.htm|content-computed-value-001]]
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/content-computed-value-001.htm|content-computed-value-001]] - not valid if css3-content is supported
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/font-family-rule-011.htm|font-family-rule-011]]
 
 **Mozilla Corporation**
