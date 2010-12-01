@@ -90,7 +90,6 @@ This page is to track analysis of those results.
 **Microsoft**
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/content-computed-value-001.htm|content-computed-value-001]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/font-family-rule-011.htm|font-family-rule-011]]
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/white-space-control-characters-001.htm|white-space-control-characters-001]] - Firefox 4.0b6 passes
 
 **Mozilla Corporation**
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/before-after-table-parts-001.htm|before-after-table-parts-001]] - Firefox 4.0b6 passes
