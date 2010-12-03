@@ -33,7 +33,7 @@ This page is to track analysis of those results.
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/allowed-page-breaks-001a.htm|allowed-page-breaks-001a]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0242.html|invalid]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/allowed-page-breaks-002.htm|allowed-page-breaks-002]] 
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/page-box-000.htm|page-box-000]] - not normative, flagged "should" (passes in Opera print preview)
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/page-breaks-101.htm|page-breaks-101]] 
+  * [[http://test.csswg.org/suites/css2.1/20101027/html4/page-breaks-101.htm|page-breaks-101]] - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0066.html|invalid?]]
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/page-props-102.htm|page-props-102]] 
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/page-props-103.htm|page-props-103]] 
 
