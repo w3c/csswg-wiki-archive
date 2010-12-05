@@ -167,7 +167,7 @@ Ugly, not self-documenting:
 
 === 10 RC3 Font related testcases which need pixel reference lines or need to be reworked or redesigned ===
 
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/c527-font-000.htm|c527-font-000]] : "There should be a small gap between each line." **Reason**: how small is a small gap? How can a normal tester (your mother, your bus driver, your neighbour) realistically establish that this gap here is small while that gap over there is not small? How exactly can this test fail?
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/c527-font-000.htm|c527-font-000]] : "There should be a small gap between each line." **Reason**: how small is "a small gap"? How can a normal tester (your mother, your bus driver, your neighbour) realistically establish that this gap here is small while that gap over there is not small? How exactly can this test fail?
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/c527-font-002.htm|c527-font-002]] : "9px gap between lines" **Reason**: how can a normal tester (your mother, your bus driver, your neighbour) realistically establish that this gap here is 9px while that gap over there is not 9px? The testcase does not provide a ruler, some kind of green overlapping red mechanism, etc. Where is the start line and the end line?
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/c527-font-003.htm|c527-font-003]] : "small and cursive, with double line spacing" **Reason**: it is not clear how such test can be evaluated as pass or fail, even by a machine.
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/c527-font-004.htm|c527-font-004]]
