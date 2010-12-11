@@ -74,7 +74,7 @@ Refer to nonexistent fonts:
 
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-003.htm|overflow-003]]</del> - fixed in RC4
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-004.htm|overflow-004]]</del> - fixed in RC4
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-005.htm|overflow-005]] ; More info: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0272.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0272.html]]- fixed in RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-005.htm|overflow-005]] ; More info: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0272.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0272.html]]</del> - fixed in RC4
 
 
 === 1 RC3 testcase relying on styling of replaced content (alt attribute text) ===
