@@ -27,14 +27,14 @@ Refer to nonexistent fonts:
 
 === 2 RC3 testcases with insufficient space to display a bullet list-marker or involving display: list-item ===
 
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-override-003.htm|bidi-override-003]]  The testcase makes no mention of a bullet list-marker; the testcase should state that a bullet list-marker should be visible
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-override-004.htm|bidi-override-004]]  Sufficient available margin space on the right edge should be provided for the bullet list-marker to avoid having unneedlessly to scroll horizontally. See [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0093.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0093.html]] . I recommend 
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-override-003.htm|bidi-override-003]]  The testcase makes no mention of a bullet list-marker; the testcase should state that a bullet list-marker should be visible</del> - fixed in RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-override-004.htm|bidi-override-004]]  Sufficient available margin space on the right edge should be provided for the bullet list-marker to avoid having unneedlessly to scroll horizontally. See [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0093.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0093.html]] .</del> I recommend 
 ''.override {
       direction: rtl;
       ** margin-right: 2em; **
       unicode-bidi: bidi-override;
       }
-''
+'' - fixed in RC4
 
 === Tests relying on non-normative behavior ===
 
@@ -49,13 +49,13 @@ Refer to nonexistent fonts:
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0382.html|content-counters-010]]
   * Multiple [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0040.html|counter-increment-* and counter-reset-*]] tests
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Jan/0017.html|font-weight-003]] 
-  * [[http://test.csswg.org/suites/css2.1/20101027/html4/table-height-algorithm-005.htm|table-height-algorithm-005]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0367.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0367.html]] The same conclusion may also apply to [[http://test.csswg.org/suites/css2.1/20101027/html4/table-height-algorithm-006.htm|table-height-algorithm-006]]
+  * <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/table-height-algorithm-005.htm|table-height-algorithm-005]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0367.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0367.html]] The same conclusion may also apply to [[http://test.csswg.org/suites/css2.1/20101027/html4/table-height-algorithm-006.htm|table-height-algorithm-006]]</del> - removed in RC4
 
 
 === Miscellaneous incorrect tests ===
 
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|table-visual-layout-024]]</del> - fixed/removed for RC4
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|c414-flt-ln-002]] (also too complicated)
+  * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|c414-flt-ln-002]] (also too complicated)</del> - fixed in RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|first-letter-punctuation-011]]</del> - fixed/removed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|first-letter-punctuation-261]]</del> - fixed/removed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|first-letter-punctuation-358]]</del> - fixed/removed for RC4
@@ -72,9 +72,9 @@ Refer to nonexistent fonts:
 
 === 3 RC3 testcases with incorrect pass condition / dependence on font metrics ===
 
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-003.htm|overflow-003]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-004.htm|overflow-004]]
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-005.htm|overflow-005]] ; More info: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0272.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0272.html]]
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-003.htm|overflow-003]]</del> - fixed in RC4
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-004.htm|overflow-004]]</del> - fixed in RC4
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/overflow-005.htm|overflow-005]] ; More info: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0272.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0272.html]]- fixed in RC4
 
 
 === 1 RC3 testcase relying on styling of replaced content (alt attribute text) ===
@@ -85,11 +85,11 @@ element (e.g., the value of the XHTML "alt" attribute)''
  
 quote coming from [[http://www.w3.org/TR/CSS21/conform.html#defs|CSS2.1 section 3.1]]
 
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-alt-001.htm|bidi-alt-001]] Reasons: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0049.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0049.html]]
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/bidi-alt-001.htm|bidi-alt-001]] Reasons: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0049.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0049.html]]</del> - fixed in RC4
 
 === 4 RC3 testcases not actually testing what they are supposed to test or that are too easy to pass ===
 
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/containing-block-017.htm|containing-block-017]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0087.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0087.html]]
+  - [[http://test.csswg.org/suites/css2.1/20101027/html4/containing-block-017.htm|containing-block-017]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Novhttp://wiki.csswg.org/lib/images/wrap.gif/0087.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0087.html]]
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/containing-block-003.htm|containing-block-003]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0087.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0087.html]]
   - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0310.html|html-precedence-003]]
   - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0309.html|border-conflict-*]] (use red/green in addition to style/width)
