@@ -92,31 +92,20 @@ Ugly, not self-documenting:
   margin-collapse-160: should say that the first page is blank and 3 pages are expected (if, indeed, that is the intent).
   text-transform-bicameral-009, text-transform-bicameral-010: should attempt to pick a font that has the glyphs
 
-  * <del>border-001: solid or hollow box?</del> - Fixed for RC4
   * <del>fixed-table-layout-006: "all the blue lines" is confusing. They are all shades of blue.</del> - fixed for RC4
-  * <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-003.htm|abspos-003]] Top of viewport and bottom of viewport must mean precisely and consistently the same from 1 testcase to another. Is yellow top-border-box touching top of viewport? Is blue bottom-border-box touching bottom of viewport? Consistency of vocabulary matters here. More info: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0113.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0113.html]]</del> - Fixed in RC4
-  * <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-004.htm|abspos-004]] Top of viewport and bottom of viewport must mean precisely and consistently the same from 1 testcase to another. Is yellow top-border-box touching top of viewport? Is blue bottom-border-box touching bottom of viewport? Consistency of vocabulary matters here. More info: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0113.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0113.html]]</del> - Fixed in RC4
-  * <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-overflow-010.htm|abspos-overflow-010]] This **text** should be green, not this //line// should be green</del> — fixed for RC4
-  * <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-overflow-011.htm|abspos-overflow-011]] This **text** should be green, not this //line// should be green</del> — fixed for RC4
-  * <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/abspos-overflow-012.htm|abspos-overflow-012]] This **text** should be green, not this //line// should be green ; [Many tests use the terms "text" and "line" interchangeably. In other, "text" specifically refers to the text foreground (e.g. "this test should be green"), and "line" to the background ("this line should be green"). There should be consistency here.] coming from [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0185.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0185.html]]</del> — fixed for RC4
   * [[http://test.csswg.org/suites/css2.1/20101027/html4/c533-bgimage-000.htm|c533-bgimage-000]] and [[http://test.csswg.org/suites/css2.1/20101027/html4/c533-bgimage-001.htm|c533-bgimage-001]] have the same pass condition but with clearly conflicting rendering. A normal person, after checking both testcases, would **not** know what "This line should be green." means exactly or refers to exactly.
-  * <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/background-table-001.htm|background-table-001]] This **text** should have a **green background**, not This //line// should be green.</del> — fixed for RC4
-  * <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/background-table-002.htm|background-table-002]] This **text** should have a **green background**, not This //line// should be green.</del> — fixed for RC4
-  * <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/background-table-003.htm|background-table-003]] This **text** should have a **green background**, not This //line// should be green.</del> — fixed for RC4
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|quotes-035]] 
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|quotes-036]] 
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|c44-ln-box-003]]
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|min-height-080]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|max-height-080]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|background-130]]</del> - fixed for RC4
-  * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|table-visual-layout-025]]</del> - fixed/removed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|outline-003]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|empty-cells-applies-to-001]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|table-background-edge-and-border-model-002]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|separated-border-model-005]]</del> - Fixed/removed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|text-align-applies-to-001]]</del> - fixed for RC4
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0060.html|list-style-position-017]]
-  * <del>26 [[http://test.csswg.org/suites/css2.1/20101027/html4/at-charset-001.htm|at-charset-*]] testcases. There are 2 (non-distinctive, non-identifiable) "Filler text" while the pass condition refer to "Filler text" in the singular form. This issue affects the first 26 testcases in the range at-charset-001 to at-charset-030. This issue was reported in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0193.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0193.html]] and in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0122.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0122.html]]. **[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0139.html|Proposed adjustments for first 26 at-charset-* testcases]]** </del> - Fixed in RC4
 
 === 18 RC3 testcases with too technical pass conditions ===
 
