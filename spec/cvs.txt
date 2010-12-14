@@ -301,7 +301,6 @@ cvs-debian-1.12.13 checkout: Updating csswg/css3-foo
 CONGRATULATIONS!
 
 You've checked in your first new directory and file.
-
 ==== Aside - What is this odd vim editor ====
 
 IF you forget to type -m and a commit message in the cvs command line, e.g. type something like:
@@ -359,6 +358,8 @@ In order to avoid vim popping up like that in the future, be sure to to always e
 <code bash>
 cvs commit -m "YOUR COMMIT MESSAGE HERE" css3-foo
 </code>
+
+(If you //do// want to use an editor, just not vim, see the -e option in the CVS manual for various ways to do that.)
 
 
 ==== Aside - Check In A New File From BBEdit ====
