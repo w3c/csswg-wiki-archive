@@ -296,7 +296,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Add diagrams and examples for line-height and vertical-align terms
   ;Images : http://test.csswg.org/source/contributors/microsoft/incoming/half-leading.png
   : http://test.csswg.org/source/contributors/microsoft/incoming/emboxes.png
-  ;Status : Open. =WG= discuss.
+  ;Status : Closed (images not necessary with new text)
 
 ==== Issue 155 ====
 
