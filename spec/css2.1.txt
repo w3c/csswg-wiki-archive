@@ -1017,6 +1017,13 @@ The issues list continues as the [[spec:css2.1:last-call-2010|Last Call Issues L
 
 The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20090908/|08 September 2009 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20101207/|07 December 2010 CSS2.1 Candidate Recommendation]].
 
+==== Issue 25 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0167.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0575.html
+  ;Summary : Define what effect } has in style attribute syntax.
+  ;Resolution : A mismatched close brace in a style attribute is treated as an invalid token. It does not terminate the style attribute's style data.
+  ;Status : Closed. See CSS Styling attributes spec
+  ;Testcases : http://test.csswg.org/source/contributors/fantasai/submitted/css-style-attr/
 
 ===== 19 July 2007 CR Issues =====
 
