@@ -47,6 +47,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Bert's review : http://lists.w3.org/Archives/Public/www-style/2010Jul/0056.html
   ;Status : Open. =Bert= [[http://lists.w3.org/Archives/Member/w3c-css-wg/2010JulSep/0168.html|Discuss with Sylvain and edit.]] =Sylvain= Review and comment on edits.
   ;Testcases : n/a (editorial)
+
 ==== Issue 69 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Aug/0126.html
   ;Summary : fixed background images not defined for paged media
@@ -54,6 +55,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Resolution : Proposal accepted.
   ;Status : Edited, needs review
   ;Testcases : background-attachment-010
+
 
 ==== Issue 86 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Nov/0298.html
