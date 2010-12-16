@@ -56,13 +56,12 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Status : Edited, needs review
   ;Testcases : background-attachment-010
 
-
 ==== Issue 86 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Nov/0298.html
   ;Summary : Position of list-item marker in presence of floats, text-align
   ;Proposal : Add "The position of the list-item marker adjacent to floats is undefined in CSS2.1."
   ;Resolution : Proposal accepted.
-  ;Status : Edited, needs review [[http://lists.w3.org/Archives/Member/w3c-css-wg/2010JulSep/0026.html|Edit.]]
+  ;Status : Edited, needs review
   ;Testcases : n/a (undefined)
 
 
