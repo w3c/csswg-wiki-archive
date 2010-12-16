@@ -1,3 +1,4 @@
+
 ====== CSS2.1 ======
 
 The [[http://www.w3.org/TR/CSS21/|CSS2.1 specification]] is a revision of of [[http://www.w3.org/TR/REC-CSS2/|CSS2]] that corrects many errors and omissions in the CSS2 Recommendation. It has also dropped unimplemented features and introduced a handful of minor new ones.
@@ -45,7 +46,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Resolution : Exact text deferred to Sylvain, Bert to check that it is only editorial changes.
   ;Final Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0496.html http://lists.w3.org/Archives/Public/www-style/2010Jun/0515.html
   ;Bert's review : http://lists.w3.org/Archives/Public/www-style/2010Jul/0056.html
-  ;Status : Open. =Bert= [[http://lists.w3.org/Archives/Member/w3c-css-wg/2010JulSep/0168.html|Discuss with Sylvain and edit.]] =Sylvain= Review and comment on edits.
+  ;Status : Edited, needs review
   ;Testcases : n/a (editorial)
 
 ==== Issue 69 ====
@@ -70,7 +71,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : anonymous table objects and table rows (and white space)
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010May/0071.html
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review
 
 ==== Issue 110 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0489.html
@@ -78,7 +79,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Proposal A (abspos ignored) : http://lists.w3.org/Archives/Public/www-style/2010Jul/0372.html
   ;Proposal B (abspos placeholders) : http://lists.w3.org/Archives/Public/www-style/2010Jul/0404.html
   ;Resolution : Proposal B accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review
   ;Testcases : table-anonymous-objects-*
 
 ==== Issue 111 ====
@@ -88,14 +89,14 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Proposal 1 : http://lists.w3.org/Archives/Public/www-style/2009May/0145.html
   ;Proposal 2 : http://lists.w3.org/Archives/Public/www-style/2010Mar/0349.html
   ;Resolution : Proposal 1 accepted.
-  ;Status : Open. =Bert= [[http://lists.w3.org/Archives/Member/w3c-css-wg/2010JulSep/0168.html|Edit.]] =jdaggett= update testcases
+  ;Status : Edited, needs review. =jdaggett= update testcases
 
 ==== Issue 118 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issue 7)
   ;Summary : Inline layout inappropriately defines line-height in terms of glyphs
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0073.html
   ;Resolution : Bert's proposal accepted with Steve's suggestions
-  ;Status : Open. =Bert= Incorporate [[http://lists.w3.org/Archives/Public/www-style/2010Aug/0051.html|szilles' comments]] into proposal (see [[http://lists.w3.org/Archives/Public/www-style/2010Aug/0395.html|result]]) and edit.
+  ;Status : Edited, needs review
 
 ==== Issue 120 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issue 8)
@@ -103,7 +104,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Proposal : Define table-caption etc. to format their contents exactly like blocks, and remove all explicit lists (and just talk about blocks) elsewhere so we don't keep getting out-of-sync. http://lists.w3.org/Archives/Public/www-style/2010Aug/0399.html
   ;Resolution : Proposal accepted.
   ;Follow-up 1 : There is probably an [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0044.html|error]] in the replacement text for bullet 2 in 10.2. Note that this replacement text anyway needs to change again, because of [[#issue-142|issue 142.]]
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 121 ====
@@ -111,7 +112,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Rewrite paragraph about lines being exactly 'line-height' to be accurate and precise
   ;Resolution : Assumed editorial.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2005Oct/0173.html
-  ;Status : Open. =Bert= Replaced "block-level box" with "block container" to be consistent with issue 120 and clarify that "Generally" assumes only one font.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 122 ====
@@ -119,14 +120,14 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : spec should not define "sans-serif" to mean something different from what it means to font designers
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009May/0081.html
   ;Resolution : dbaron's proposal accepted
-  ;Status : Open. =Bert= Edit
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 128 ====
   ;Summary : display: run-in needs clarification
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jul/0025.html
   ;Resolution : http://lists.w3.org/Archives/Public/www-style/2009Nov/0249.html
-  ;Status : Open. =Bert= [[http://lists.w3.org/Archives/Member/w3c-css-wg/2010JulSep/0168.html|Edit.]]
+  ;Status : Edited, needs review.
 
 ==== Issue 129 ====
   ;Summary : Reduce backup in tokenizer
@@ -137,15 +138,15 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Resolution : Change grammar to avoid backup.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0368.html
   ;Testcase : http://lists.w3.org/Archives/Public/www-style/2010Aug/0417.html
-  ;Resolution : Bert's proposal accepted.
-  ;Status : Open. =Bert= Edit, but also deal with http://lists.w3.org/Archives/Public/www-style/2010Aug/0577.html
+  ;Resolution : Bert's proposal accepted. (and look at http://lists.w3.org/Archives/Public/www-style/2010Aug/0577.html)
+  ;Status : Edited, needs review.
 
 ==== Issue 137 ===
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Sep/0247.html
   ;Summary : Do anonymous blocks become the containing block for floats or inline-blocks?
   ;Proposal : Percentage calculations ignore anonymous blocks. http://lists.w3.org/Archives/Public/www-style/2010Jul/0226.html
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcase : anonymous-boxes-001
 
 ==== Issue 138 ===
@@ -154,21 +155,21 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Does relatively positioning a float's parent also offset the float?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0329.html
   ;Resolution : Proposal accepted with s/block/inline/ at the very end.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : block-in-inline-relpos-001 and block-in-inline-relpos-002
 
 ==== Issue 139 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Oct/0206.html
   ;Summary : The url token allows a backslash both as the first character in an {escape} and on its own. It should never be on its own.
   ;Proposal : Change to ''([!#$%&*-\[\]-~]|{nonascii}|{escape})*'' (see the e-mail)
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
 
 ==== Issue 140 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Oct/0262.html
   ;Summary : Error in core grammar wrt garbage input inside brackets
   ;Resolution : Accept in principle to change the grammar for 140 and note that we won't use the additional capabilities (exact  wording tbd).
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0435.html
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
 
 ==== Issue 142 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Sep/0126.html #4
@@ -184,7 +185,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : unclear whether default attributes can be matched
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Nov/0047.html
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : default-attribute-selector-001 through default-attribute-selector-008
 
 ==== Issue 144 ====
@@ -192,7 +193,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : text-decoration and visibility
   ;Testcases : http://test.csswg.org/suites/css2.1/20100727/html4/chapter-16.html#s16.3.1 text-decoration-visibility-*
   ;Resolved : Leave undefined for CSS2.1. (Add note to clarify, TBD in CSS3.)
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
 
 ==== Issue 145 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0300.html
@@ -200,28 +201,28 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Resolution : No change. Forced breaks are paragraph separators. Need clarification to text that LS's bidi behavior is not overridden.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0459.html
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : bidi-breaking-001 and bidi-breaking-002
 
 ==== Issue 146 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Dec/0052.html
   ;Summary : marker boxes should not be optional
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 147 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0324.html
   ;Summary : scaling of width of replaced elements ambiguous
   ;Resolved : Remove sentence pointed out in http://lists.w3.org/Archives/Public/www-style/2009Dec/0322.html
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 148 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Jan/0432.html
   ;Summary : Add 'unicode-bidi: embed' to all block-level elements in the sample HTML4 style sheet
   ;Resolved : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (informative)
 
 ==== Issue 149 ====
@@ -231,14 +232,14 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Proposed text : http://fantasai.inkedblade.net/style/specs/css2.1/px-unit
   ;Proposed text : http://fantasai.inkedblade.net/style/specs/css2.1/pt-unit
   ;Resolution : px-unit proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcase : Delete c61-phys-len-000.xht ; 96dpi assumption is made in many testcases doesn't need its own at this point.
 
 ==== Issue 150 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0041.html
   ;Summary : Change "Every CSS2.1 property" to "Every CSS property" in 4.1.8
   ;Resolution : Assumed editorial.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 151 ====
@@ -246,14 +247,14 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Make non-presentational hints section workable for SVG
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0487.html [note: 6.4.4 example would also need an update]
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 152 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0175.html
   ;Summary : Don't require quoting of commas in URL tokens
   ;Resolution : Update prose to not require quoting of commas in URL tokens
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : uri-014
 
 ==== Issue 153 ====
@@ -265,14 +266,14 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Second proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0570.html
   ;Resolution : Second proposal accepted.
   ;Follow-up 1 : The term "the box whose height is 'line-height'" isn't actually defined anywhere and indeed can't be. (The intended boxes are typically of that height, but it depends on whether they contain glyphs in fallback fonts.) We need to define the box we need somewhere, or characterize it better. See [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0045.html|thread.]]
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : vertical-align-boxes-001
 
 ==== Issue 155 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0285.html
   ;Summary : Encoding errors in bibliography
   ;Resolution : Assumed editorial.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 159 ====
@@ -286,7 +287,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Specify whether first page is :left or :right?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0493.html
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : first-page-selectors-001 through first-page-selectors-004
 
 ==== Issue 161 ====
@@ -294,7 +295,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Sentence about clipping descendants is confusing, remove or clarify?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2009Mar/0001.html + Replace sentence with "Note that absolutely positioned descendant elements are not always clipped by the overflow property on their ancestors." ?
   ;Resolution : Accepted change http://lists.w3.org/Archives/Public/www-style/2010Apr/0389.html
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 167 ====
@@ -305,19 +306,19 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Response to old proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0658.html
   ;New Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0289.html + http://lists.w3.org/Archives/Public/www-style/2010Aug/0052.html
   ;Resolution : New proposal accepted with Bert's changes.
-  ;Status : Open. =Bert= [[http://lists.w3.org/Archives/Member/w3c-css-wg/2010JulSep/0168.html|Edit.]]
+  ;Status : Edited, needs review.
 
 ==== Issue 168 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Feb/0455.html
   ;Summary : Specify case of Armenian numbering
-  ;Status : Open. =Bert= [[http://lists.w3.org/Archives/Member/w3c-css-wg/2010JulSep/0168.html|Edit.]]
+  ;Status : Edited, needs review.
   ;Testcases : list-style-type-armenian-001 and list-style-type-armenian-002
 
 ==== Issue 170 ====
   ;Summary : min-height / max-height on table rows and cells poorly defined
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jun/0049.html http://lists.w3.org/Archives/Public/www-style/2010Jun/0443.html
   ;Resolution : Make min-height / max-height on table rows, cells, and rowgroups undefined.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (undefined)
   
 
@@ -325,7 +326,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : box ancestry of list-style-position: inside marker undefined
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jun/0494.html
   ;Notes : See CSS3 Lists
-  ;Status : Open. =Bert= [[http://lists.w3.org/Archives/Member/w3c-css-wg/2010JulSep/0168.html|Edit.]]
+  ;Status : Edited, needs review.
   ;Testcases : list-style-position-inside-002
 
 ==== Issue 172 ====
@@ -333,7 +334,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jun/0404.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Sep/0186.html
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit. =fantasai= Write testcase.
+  ;Status : Edited, needs review. =fantasai= Write testcase.
   ;Testcase : http://www.gtalbot.org/BrowserBugsSection/css21testsuite/horizontal-layout-table-vs-caption-boxes-1.html
 
 ==== Issue 173 ====
@@ -341,20 +342,20 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010May/0158.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Sep/0440.html
   ;Resolution : Proposal accepted with Option B.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
 
 ==== Issue 175 ====
   ;Summary : Clarify that case-insensitive means ASCII case-insensitive per 4.1.3
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0283.html
   ;Resolution : Assumed editorial.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : case-sensitive-001 through case-sensitive-004
 
 ==== Issue 179 ====
   ;Summary : Example in anonymous block boxes section is wrong
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0005.html
   ;Resolution : Assumed editorial. (Already fixed by [[#issue-164|issue 164.]])
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 180 ====
@@ -362,7 +363,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0000.html http://lists.w3.org/Archives/Public/www-style/2010Aug/0002.html 
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0016.html + http://lists.w3.org/Archives/Public/www-style/2010Aug/0017.html + fix section title somehow
   ;Resolution : Assumed editorial.
-  ;Status : Open. =Bert= [[http://lists.w3.org/Archives/Member/w3c-css-wg/2010JulSep/0168.html|Edit.]]
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 181 ====
@@ -374,42 +375,42 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Term "row group" not defined.
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0515.html
   ;Resolution : Assumed editorial.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
   
 ==== Issue 183 ====
   ;Summary : Error handling of malformed media types underdefined.
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0025.html
   ;Resolution : Change "@media and @import rules with unknown media types are treated as if the unknown media types are not present." to "@media and @import rules with unknown media types (that are nonetheless valid identifiers) are treated as if the unknown media types are not present. If an @media rule contains a malformed media type (not an identifier) then the statement is invalid." and add "Note: Media Queries supercedes this error handling."
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
 
 ==== Issue 185 ====
   ;Summary : Browsers don't shorten line boxes for zero-height floats.
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0527.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0178.html
   ;Resolution : Proposal accepted with modifications as written in the [[http://lists.w3.org/Archives/Public/www-style/2010Aug/0185.html|minutes]]
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : float-006
 
 ==== Issue 186 ====
   ;Summary : Make Appendix G grammar non-normative, or at least inferior to Chapter 4 core grammar
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0501.html
   ;Resolution : Accepted to make Appendix G informative.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
 
 ==== Issue 187 ====
   ;Summary : bidi behavior of inline-blocks and inline-tables
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0391.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Sep/0188.html
   ;Resolution : Accepted.
-  ;Status : Open. =Bert= Edit. =fantasai= give testcases pass/fail conditions
+  ;Status : Edited, needs review. =fantasai= give testcases pass/fail conditions
 
 ==== Issue 190 ====
   ;Summary : 'auto' values in rect() tied to computed instead of used values
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Mar/0053.html http://lists.w3.org/Archives/Public/www-style/2010Mar/0053.html
   ;Proposal : (in email) 'auto' values inside rect() should compute to 'auto', not to computed length; and s/computed/used/ in the 2nd <shape> paragraph
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : clip-inherit-001
 
 ==== Issue 191 ====
@@ -417,7 +418,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;URI : http://lists.w3.org/Archives/Public/www-style/2009Dec/0093.html
   ;Resolution : Make undefined; proposal accepted.
   :Proposal : Append to "CSS 2.1 does not specify the precise location of the marker box" "or its position in the painting order".
-  ;Status : Open. =Bert= Edit. 
+  ;Status : Edited, needs review. 
 
 ==== Issue 192 ====
   ;Summary : Clarifications to float's effect on its shortened line
@@ -436,7 +437,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0246.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0207.html
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : text-indent-014
 
 ==== Issue 195 ====
@@ -444,7 +445,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;URI : http://lists.w3.org/Archives/Public/www-style/2009Feb/0638.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0462.html
   ;Resolution : Proposal accepted with "even if either side is empty" appended.
-  ;Status : Open. =Bert= Edit. =fantasai= testcases
+  ;Status : Edited, needs review. =fantasai= testcases
 
 ==== Issue 196 ====
   ;Summary : Grammar and prose disagree on whether identifiers can include NBSP
@@ -452,7 +453,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Notes : Opera, and Konqueror allow nbsp in identifiers; Firefox does not
   ;Testcase : data:text/xml;base64,PGh0bWwgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiPg0KPGhlYWQ%2BDQo8c3R5bGU%2BDQogICYjeDcwOyB7IGNvbG9yOiBncmVlbjsgfQ0KICAudGVzdCB7IGNvbG9yOiByZWQ7IH0NCiAgLnRlc3QmI3hBMDtzZW50ZW5jZSB7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyB9DQo8L3N0eWxlPg0KPC9oZWFkPg0KPGJvZHk%2BDQo8cCBjbGFzcz0idGVzdCYjeEEwO3NlbnRlbmNlIj5UaGlzIHNlbnRlbmNlIG11c3QgYmUgZ3JlZW4uIElzIGl0IHVuZGVybGluZWQ%2FPC9wPg0KPC9ib2R5Pg0KPC9odG1sPg%3D%3D
   ;Resolution : Identifiers can contain nbsp. Update spec to include nbsp and exclude control characters adjacent to it.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
 
 ==== Issue 197 ====
   ;Summary : Clarify application of 'clear' to run-ins.
@@ -479,13 +480,13 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Table model editorial
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0401.html
   ;Resolution : Proposal accepted with term "table wrapper box" for the outer table box.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
 
 ==== Issue A ====
   ;Summary : inline tables accidentally left out of applies-to list for 'overflow'
   ;URI : http://www.w3.org/mid/20101016195038.GA17927@pickering.dbaron.org
   ;Resolution : Add inline-table.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
 
 ==== Issue B ====
   ;Summary : Percentage intrinsic widths untestable
@@ -1115,7 +1116,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0139.html
   ;Summary : Index format inaccessible
   ;Resolution : Assumed editorial.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
 ==== Issue 22 ====
