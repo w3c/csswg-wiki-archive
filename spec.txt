@@ -8,6 +8,7 @@ This section documents problems found in the CSS specs and working drafts. Probl
 
   * [[spec:css3-background|CSS Backgrounds and Borders Module Level 3]]
   * [[spec:css3-ui|CSS Basic User Interface Module Level 3]]
+  * [[spec:css3-box|CSS Box Module Level 3]]
   * [[spec:css3-color|CSS Color Module Level 3]]
   * [[spec:css3-flexbox|CSS Flexbox Module]]
   * [[spec:css3-lists|CSS Lists Module Level 3]]
