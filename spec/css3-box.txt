@@ -6,6 +6,8 @@ The goals of the CSS3 Box spec are to rewrite the CSS2.1 box model such that it 
   * more precise (defines vague or missing concepts from CSS2.1, defines undefined concepts from CSS2.1)
   * generalized to handle vertical text (See CSS Writing Modes module)
 
+This page is to track specifically the remaining work on the CSS Box module. Please post issues to [[http://lists.w3.org/Archives/Public/www-style/|www-style]] first for discussion, then add a summary and a link to the discussion on this page.
+
 ====== General Problems to Solve ======
 
 This section is for describing general problems that the CSS Box module must solve, e.g. concepts that need defining or refining, or spec areas that should be rewritten to improve clarity.
