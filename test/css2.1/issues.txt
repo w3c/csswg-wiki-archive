@@ -78,8 +78,7 @@ Ugly, not self-documenting:
   background-alpha-004
   background-alpha-005
 
-==== Should state that red is failure ====
-  active-selector-002
+
 
 ==== Confusing/hard to judge ====
   background-attachment-004
