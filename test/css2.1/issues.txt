@@ -66,7 +66,7 @@ quote coming from [[http://www.w3.org/TR/CSS21/conform.html#defs|CSS2.1 section 
 
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/containing-block-017.htm|containing-block-017]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Novhttp://wiki.csswg.org/lib/images/wrap.gif/0087.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0087.html]]</del> - Fixed for RC5
   - <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0310.html|html-precedence-003]]</del> - Fixed for RC5
-  - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0309.html|border-conflict-*]] (use red/green in addition to style/width)
+  - <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0309.html|border-conflict-*]] (use red/green in addition to style/width)</del> - Fixed for RC5
 
 
 ===== Tests that need Usability improvements =====
