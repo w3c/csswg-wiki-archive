@@ -1,0 +1,29 @@
+====== Margin-collapse issue ======
+
+===== Test cases =====
+
+  * [[http://test.csswg.org/suites/css2.1/20101210/html4/margin-collapse-164.htm|margin-collapse-164]]
+  * [[http://test.csswg.org/suites/css2.1/20101210/html4/margin-collapse-clear-005.htm|margin-collapse-clear-005]]
+  * [[http://test.csswg.org/suites/css2.1/20101210/html4/margin-collapse-clear-011.htm|margin-collapse-clear-011]]
+
+All user agents tested on Windows 7 currently fail these tests:
+  * IE 7, 8, 9
+  * Firefox 3.6.13, 4b8
+  * Opera 11
+  * Safari 5.0.3
+  * Chrome 8.0.552.224
+
+==== Relevant links ====
+
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0191.html]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0819.html]]
+
+----
+==== Discussion ====
+
+All test cases fail in exactly the same way in all user agents tested.
+
+All implementations tested match the current Dec. 7 2010 spec text.
+
+Correcting implementations to match the test case will alter the Acid2 test.
+
