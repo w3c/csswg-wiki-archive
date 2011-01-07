@@ -10,12 +10,12 @@ This page tracks tests that have failures blocking CR exit.
   * abspos-replaced-width-margin-000
   * <del>active-selector-002</del> - test updated for RC5
   * <del>allowed-page-breaks-001a</del> - test updated for RC5
-  * allowed-page-breaks-002
+  * <del>allowed-page-breaks-002</del> - test updated for RC5
   * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-004]]
   * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-005]]
   * [[test:css2.1:blocking:bidi-004|bidi-004]]
-  * first-page-selectors-003
-  * first-page-selectors-004
+  * [[test:css2.1:blocking:first-page-selectors|first-page-selectors-003]]
+  * [[test:css2.1:blocking:first-page-selectors|first-page-selectors-004]]
   * floats-wrap-top-below-bfc-001l
   * floats-wrap-top-below-bfc-001r
   * floats-wrap-top-below-bfc-002l
