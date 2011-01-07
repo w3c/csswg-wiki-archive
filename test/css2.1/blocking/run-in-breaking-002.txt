@@ -1,0 +1,13 @@
+====== Background-intrinsic issue ======
+
+==== Test cases ====
+
+  * [[http://test.csswg.org/suites/css2.1/latest/html4/run-in-breaking-002|run-in-breaking-002]] - bzbarsky
+
+==== Relevant links ====
+
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0053.html]]
+
+==== Discussion ====
+
+Opera and Konqueror construct the correct box tree, but paint the borders incorrectly. In both cases the border rendering is obviously wrong.
