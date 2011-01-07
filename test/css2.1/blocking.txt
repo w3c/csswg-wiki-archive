@@ -36,7 +36,7 @@ This page tracks tests that have failures blocking CR exit.
   * page-container-009
   * page-props-103
   * page-selectors-002
-  * [[test:css2.1:blocking:replaced-intrinsic|replaced-intrinsic-ratio-001]]
+  * replaced-intrinsic-ratio-001 - passes in Opera and Firefox??
   * run-in-breaking-002
   * run-in-contains-table-caption-001
   * widows-004b
