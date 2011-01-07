@@ -2,9 +2,9 @@
 
 ==== Test cases ====
 
-  * [[http://test.csswg.org/suites/css2.1/20101210/html4/margin-collapse-164.htm|margin-collapse-164]] - Ian Hickson
-  * [[http://test.csswg.org/suites/css2.1/20101210/html4/margin-collapse-clear-005.htm|margin-collapse-clear-005]] - Microsoft
-  * [[http://test.csswg.org/suites/css2.1/20101210/html4/margin-collapse-clear-011.htm|margin-collapse-clear-011]] -  Microsoft
+  * [[http://test.csswg.org/suites/css2.1/latest/html4/margin-collapse-164.htm|margin-collapse-164]] - Ian Hickson
+  * [[http://test.csswg.org/suites/css2.1/latest/html4/margin-collapse-clear-005.htm|margin-collapse-clear-005]] - Microsoft
+  * [[http://test.csswg.org/suites/css2.1/latest/html4/margin-collapse-clear-011.htm|margin-collapse-clear-011]] -  Microsoft
 
 All user agents tested on Windows 7 currently fail these tests:
   * IE 7, 8, 9
