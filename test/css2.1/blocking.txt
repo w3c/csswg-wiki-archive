@@ -41,4 +41,4 @@ This page tracks tests that have failures blocking CR exit.
   * run-in-contains-table-caption-001
   * widows-004b
   * [[test:css2.1:blocking:word-spacing|word-spacing-characters-001]]
-  * z-index-abspos-009
+  * [[test:css2.1:blocking:z-index-abspos-009|z-index-abspos-009]]
