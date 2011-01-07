@@ -1,0 +1,14 @@
+====== Margin-collapse issue ======
+
+==== Test cases ====
+
+  * [[http://test.csswg.org/suites/css2.1/latest/html4/z-index-abspos-009.htm|z-index-abspos-009]] - Ian Hickson
+  * [[http://test.csswg.org/suites/css2.1/20101001/html4/z-index-abspos-009.htm|old version]] - Ian Hickson
+
+==== Relevant links ====
+
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0238.html]]
+
+==== Discussion ====
+
+Test was updated in response to dbaron's report against RC2.
