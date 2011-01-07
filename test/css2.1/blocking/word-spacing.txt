@@ -1,0 +1,18 @@
+====== Background-intrinsic issue ======
+
+==== Test cases ====
+
+  * [[http://test.csswg.org/suites/css2.1/latest/html4/word-spacing-characters-001.htm|word-spacing-characters-001]] - fantasai
+
+Passes in:
+  * Firefox 3.6 on Linux
+
+Fails in:
+  * Konqueror 4.5.1
+  * Opera 11 on Linux
+
+==== Relevant links ====
+
+==== Discussion ====
+
+Failures seem to be caused by UA bugs.
