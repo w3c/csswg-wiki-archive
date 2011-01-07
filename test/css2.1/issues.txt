@@ -148,6 +148,7 @@ Ugly, not self-documenting:
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/first-line-001.htm|first-line-001]] 2 validation markup errors. Just wrapping the text in a <p> should be ok.</del> - Fixed for RC5
   - [[http://test.csswg.org/suites/css2.1/20101210/html4/before-after-dynamic-attr-001.htm|before-after-dynamic-attr-001]] The html element can not have a class: class="reftest-wait"; body element can not be empty.
   - [[http://test.csswg.org/suites/css2.1/20101210/html4/before-after-dynamic-restyle-001.htm|before-after-dynamic-restyle-001]] The html element can not have a class: class="reftest-wait"; body element can not be empty.
+  - [[http://test.csswg.org/suites/css2.1/20101210/html4/block-in-inline-insert-013.htm|block-in-inline-insert-013]]
 
 
 
