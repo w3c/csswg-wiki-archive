@@ -154,20 +154,13 @@ Ugly, not self-documenting:
 
 ===== Tests that need Metadata improvements =====
 
-==== 13 RC3 testcases with wrong, incorrect meta assert text ====
+==== 6 RC3 testcases with wrong, incorrect meta assert text ====
 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/position-relative-nested-001.htm
 |position-relative-nested-001]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html]]
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-010.htm|absolute-non-replaced-width-010]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]]</del> - fixed for RC4
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-width-013.htm|absolute-non-replaced-width-013]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0057.html]]</del> - fixed for RC4
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/top-offset-002.htm|top-offset-002]] Reasons and proposed correction: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0065.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0065.html]]</del> - fixed for RC4
-  - <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-003]]</del> - fixed for RC4
-  - <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-004]]</del> - fixed for RC4
-  - <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-005]]</del> - fixed for RC4
-  - <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-006]]</del> - fixed for RC4
-  - <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-007]]</del> - fixed for RC4
-  - <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-008]]</del> - fixed for RC4
-  - <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0055.html|absolute-non-replaced-width-009]]</del> - fixed for RC4
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-height-003.htm|absolute-non-replaced-height-003]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0115.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0115.html]]</del> - Fixed for RC5
   - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/absolute-non-replaced-max-height-003.htm|absolute-non-replaced-max-height-003]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0115.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0115.html]]</del> - Fixed for RC5
 
