@@ -16,7 +16,7 @@ Refer to nonexistent fonts:
 
 ==== 1 Incorrect RC4 testcase ====
 
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/active-selector-002.htm|active-selector-002]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0149.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0149.html]]
+  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/active-selector-002.htm|active-selector-002]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0149.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0149.html]]</del> - fixed for RC5
 
 ==== Tests relying on non-normative behavior ====
 
