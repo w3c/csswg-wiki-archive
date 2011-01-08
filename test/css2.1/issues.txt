@@ -242,4 +242,3 @@ So, **a missing image icon is an acceptable, reasonable indication that the reso
 ===== General Issues =====
   * http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html
   * Some tests are assuming the system has access to glyphs for non-Latin fonts. If this isn't the case, the test could pass without actually testing anything.
-  * testinfo.data doesn't cope properly with multiple references nor with negative references.
