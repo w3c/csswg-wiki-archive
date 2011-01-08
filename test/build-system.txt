@@ -1,6 +1,5 @@
 ====== Build System Planning ======
 
-The CSS2.1 build scripts have a lot of problems. They kinda need a rehaul. This page is for planning the rehaul. We start by cataloging the problems...
 
 ===== Build Script Problems and Missing Features =====
 
