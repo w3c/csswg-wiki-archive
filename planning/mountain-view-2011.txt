@@ -2,7 +2,8 @@
 
 Topics for the March 2011 CSS Working Group Face-to-Face meeting in Mountain View, California.
 
-  * ...
+  * EPUB requirements
+  * CSS3 Writing Modes review
 
 ====== Notes ======
 
