@@ -17,3 +17,5 @@ Requires support for SVG backgrounds. Runs but fails in:
 Test fails because implementations don't resize the image before applying background-position.
 
 [Simon] I've looked into fixing this in WebKit <https://bugs.webkit.org/show_bug.cgi?id=47156>; it's do-able but not trivial.
+
+[dbaron] Also see [[https://bugzilla.mozilla.org/show_bug.cgi?id=597778|Gecko bug]].  I think we're not following one of the rules in the spec (see comment 8 in the bug).
