@@ -86,7 +86,7 @@ For latest edits/resolutions, see the editors draft:
   ; Status : proposed
 
 
-=== Issue 11 ===
+==== Issue 11 ====
   ; Summary : multiple issues from Kevin Ar18 2010-11-17
   ; Raised by : Kevin Ar18
   ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0257.html
@@ -94,7 +94,7 @@ For latest edits/resolutions, see the editors draft:
   ; Status : collected.
   
 
-=== Issue 12 ===
+==== Issue 12 ====
   ; Summary: what are effects of 'pointer-events' with regards to keyboard navigation?
   ; Raised by : Doug Schepers
   ; URL : http://lists.w3.org/Archives/Public/public-fx/2010OctDec/0106.html
@@ -103,7 +103,7 @@ For latest edits/resolutions, see the editors draft:
 focusable, as well).
   ; Status: collected.
   
-=== Issue 13 ===
+==== Issue 13 ====
   ; Summary: should CSS3 UI (or some future version) incorporate a 'focusable' property (like in SVG)
   ; Raised by : Tantek Çelik
   ; URL : http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr
