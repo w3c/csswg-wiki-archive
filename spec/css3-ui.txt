@@ -14,24 +14,23 @@ For latest edits/resolutions, see the editors draft:
   ; Raised by : Tantek Çelik
   ; URL : eventually http://www.w3.org/Style/CSS/Test/#css3-ui
   ; Proposed Resolution : create at least one test case per feature, update "Current Issues" section above to add the text "<nowiki>See the [[http://www.w3.org/Style/CSS/Test/#css3-ui|released]] and [[http://dev.w3.org/CSS/css3-ui-test-suite/src/|development]] versions of the test suite for the "Tests" references.</nowiki>"
-  ; Status : editorial, pending
+  ; Status : accepted and noted in editor's draft. pending contributions to test suite.
 
 
 ==== Issue 2 ====
-
   ; Summary : Change name/title of spec to be consistent with other CSS3 modules
   ; Raised by : Tantek Çelik
   ; URL : n/a
   ; Proposed Resolution : Change name/title of CSS3-ui from "CSS3 Basic User Interface Module" to "CSS Basic User Interface Module Level 3"
-  ; Status : editorial, pending
+  ; Status : resolved in editor's draft. pending publication of public draft.
 
 ==== Issue 3 ====
-
   ; Summary : ::value needs to specify which properties are allowed on that pseudo-element
   ; Raised by : Tab Atkins
   ; URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0158.html
+  ; URL : http://www.w3.org/TR/css3-selectors/#first-line
   ; Proposed Resolution : specify the same properties (by listing them explicitly) that apply to ::first-line as applying to ::value: 'font-*', 'color', 'background-*', ‘word-spacing’, ‘letter-spacing’, ‘text-decoration’, ‘vertical-align’, ‘text-transform’, ‘line-height’. 
-  ; Status : proposed 
+  ; Status : resolved in editor's draft. pending publication of public draft. 
 
 ==== Issue 4 ====
   ; Summary : computed value of 'pointer-events' vs initial value vs SVG vs CSS3-UI conflict. A quick test shows that IE9 and Opera return 'visiblePainted', while webkit and firefox return 'auto'.
@@ -101,7 +100,7 @@ For latest edits/resolutions, see the editors draft:
   ; URL : http://dev.w3.org/csswg/css3-ui/#pointer-events
   ; Proposed resolution : informative note in the definition of the 'pointer-events' property would help steer authors to think about how they are using this (such as a suggestion that if pointer-events are turned off, authors should also consider making the element not 
 focusable, as well).
-  ; Status: collected.
+  ; Status: resolved, informative note added to editor's draft. awaiting public draft.
   
 ==== Issue 13 ====
   ; Summary: should CSS3 UI (or some future version) incorporate a 'focusable' property (like in SVG)
