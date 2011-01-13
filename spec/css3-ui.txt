@@ -94,7 +94,7 @@ For latest edits/resolutions, see the editors draft:
   
 
 ==== Issue 12 ====
-  ; Summary: what are effects of 'pointer-events' with regards to keyboard navigation?
+  ; Summary : what are effects of 'pointer-events' with regards to keyboard navigation?
   ; Raised by : Doug Schepers
   ; URL : http://lists.w3.org/Archives/Public/public-fx/2010OctDec/0106.html
   ; URL : http://dev.w3.org/csswg/css3-ui/#pointer-events
@@ -103,12 +103,40 @@ focusable, as well).
   ; Status : resolved, informative note added to editor's draft. awaiting public draft.
   
 ==== Issue 13 ====
-  ; Summary: should CSS3 UI (or some future version) incorporate a 'focusable' property (like in SVG)
+  ; Summary : should CSS3 UI (or some future version) incorporate a 'focusable' property (like in SVG)
   ; Raised by : Tantek Çelik
   ; URL : http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr
   ; Proposed resolution : postpone til CSS4-UI.
   ; Status : collected.
 
+==== Issue 14 ====
+  ; Summary : example for 'appearance' values 'pop-up-menu' and 'radio-group' and 'list-menu' should use same content to illustrate different visualizations for same semantics.
+  ; Raised by : Charles Belov
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html
+  ; Proposed resolution : rewrite example accordingly.
+
+==== Issue 15 ====
+  ; Summary : add second 'list-menu' example that shows multiselect behavior and use same content as 'checkbox-group'
+  ; Raised by : Charles Belov
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html
+  ; Proposed resolution : write new example accordingly.
+
+==== Issue 16 ====
+  ; Summary : What happens if a semantic single-select element is styled as appearance 'checkbox-group'?
+  ; Raised by : Charles Belov
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html
+  ; Proposed resolution : add note discouraging authors from doing this.
+
+==== Issue 17 ====
+  ; Summary : What happens if a semantic multi-select element is styled as appearance 'radio-group' or 'pop-up-menu'?
+  ; Raised by : Charles Belov
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html
+  ; Proposed resolution : add note discouraging authors from doing this.
+  
 ...
 
 ==== Issue n ====
