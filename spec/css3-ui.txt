@@ -13,7 +13,9 @@ For latest edits/resolutions, see the editors draft:
   ; Summary : css3-ui should have a test suite
   ; Raised by : Tantek Çelik
   ; URL : eventually http://www.w3.org/Style/CSS/Test/#css3-ui
-  ; Proposed Resolution : create at least one test case per feature, update "Current Issues" section above to add the text "<nowiki>See the [[http://www.w3.org/Style/CSS/Test/#css3-ui|released]] and [[http://dev.w3.org/CSS/css3-ui-test-suite/src/|development]] versions of the test suite for the "Tests" references.</nowiki>"
+  ; Proposed Resolution : create at least one test case per feature, update "Current Issues" section above to add the text <code>See the [[http://www.w3.org/Style/CSS/Test/#css3-ui|released]] and 
+  [[http://dev.w3.org/CSS/css3-ui-test-suite/src/|development]] versions 
+  of the test suite for the "Tests" references.</code>
   ; Status : accepted and noted in editor's draft. pending contributions to test suite.
 
 
