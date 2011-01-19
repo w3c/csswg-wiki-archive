@@ -1,8 +1,8 @@
-====== Cocktails - How To Garnish A Cocktail ======
+====== CSS Working Group 2008 Charter Table of Specifications ======
 
-For you to have a flavored **[[http://www.mymixeddrinks.com|cocktails]]** you have to put something on it just like for example a garnish. Many cocktails are incomplete without a garnish, and a drink may only become specific, famous **cocktail** after it has been properly garnished.There are many kinds in garnishing a cocktail which can be place on a glass, floated on the drink, or merely placed in the drink, A certain artistry is involved in their preparation and placement. Most of the garnishes can be maybe bu using a knife. A larger knife will be needed for the larger fruits in preparing a garnishes.
+This page documents the items the CSSWG intends to work on. The first set of items are deliverables for the 2008 to 2010 charter period and are expected to proceed to Recommendation status. The remaining items are considered in scope and may be worked on as time and resources allow. These items will not advance through the Recommendation track unless the charter is amended to include them as a deliverable.
 
-The **[[http://www.mymixeddrinks.com|cocktails]]** recipe will usually call for a certain garnished, but this is not always the case. First thing you have to do is to decide what kinds of garnishes your going to use for your **cocktail**. Then prepared a rim of the empty glass, to coat the rim of the empty glass, first spread or mound the garnish ingredient on a small plate or tray, then briefly rub around the rim of the glass with something such as lemon. You have to prepare also the standard or simple garnishes of your **cocktail**. Prepare more elaborate or exotic garnishes then garnish the prepared cocktail.
+Each module advocate is responsible for keeping the information on this page current. Instructions on how to maintain this page can be found [[planning/charter-2008-how-to|here]].
 
 ===== Deliverables =====
 
