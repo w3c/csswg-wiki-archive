@@ -10,7 +10,7 @@ This page tracks tests that have failures blocking CR exit.
   * [[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-001b]] - Passed by Trident (Arron, John)
   * [[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-001c]] - No Passes (Arron, John)
   * [[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-002]] - No Passes (Arron, John)
-  * [[test:css2.1:blocking:at-rule-013|at-rule-013]] - Passed by Trident (Tantek)
+  * [[test:css2.1:blocking:at-rule-013|at-rule-013]] - Keep. Passed by Trident, Expecting implementation from Gecko (FF 4.1) -Tantek
   * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-004]] - No Passes (expecting impls from WebKit and Gecko)
   * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-005]] - No Passes (expecting impls from WebKit and Gecko)
   * before-after-table-parts-001 - Passed by Gecko
@@ -21,7 +21,7 @@ This page tracks tests that have failures blocking CR exit.
   * first-page-selectors-002 - Passed by WebKit
   * floats-wrap-top-below-bfc-001l - Passed by WebToPDF (David)
   * floats-wrap-top-below-bfc-001r - Passed by WebToPDF (David)
-  * font-family-rule-011 - Passed by Trident
+  * font-family-rule-011 - Passed by Trident (Arron)
   * forced-page-breaks-000 - Passed by Prince
   * [[test:css2.1:blocking:margin-collapse|margin-collapse-clear-005]] - Passed by WebToPDF (Aaron, David)
   * [[test:css2.1:blocking:margin-collapse|margin-collapse-clear-011]] - Passed by WebToPDF (Aaron, David)
