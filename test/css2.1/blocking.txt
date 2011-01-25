@@ -6,39 +6,39 @@ See notes on [[http://wiki.csswg.org/test/css2.1/results|previous list]].
 
 This page tracks tests that have failures blocking CR exit.
 
-  * allowed-page-breaks-001a - Passed by Trident
-  * allowed-page-breaks-001b - Passed by Trident
-  * allowed-page-breaks-001c - No Passes
-  * allowed-page-breaks-002 - No Passes
+  * allowed-page-breaks-001a - Passed by Trident (Arron, John)
+  * allowed-page-breaks-001b - Passed by Trident (Arron, John)
+  * allowed-page-breaks-001c - No Passes (Arron, John)
+  * allowed-page-breaks-002 - No Passes (Arron, John)
   * at-rule-013 - Passed by Trident
-  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-004]] - No Passes
-  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-005]] - No Passes
+  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-004]] - No Passes (Simon, David, Tab)
+  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-005]] - No Passes (Simon, David, Tab)
   * before-after-table-parts-001 - Passed by Gecko
-  * [[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes
+  * [[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes (Arron, David, fantasai)
   * containing-block-032 - Passed by Trident
   * first-line-pseudo-016 - Passed by Gecko
   * first-line-selector-015 - Passed by Trident
   * first-page-selectors-002 - Passed by WebKit
-  * floats-wrap-top-below-bfc-001l - Passed by WebToPDF
-  * floats-wrap-top-below-bfc-001r - Passed by WebToPDF
+  * floats-wrap-top-below-bfc-001l - Passed by WebToPDF (David)
+  * floats-wrap-top-below-bfc-001r - Passed by WebToPDF (David)
   * font-family-rule-011 - Passed by Trident
   * forced-page-breaks-000 - Passed by Prince
-  * [[test:css2.1:blocking:margin-collapse|margin-collapse-clear-005]] - Passed by WebToPDF
-  * [[test:css2.1:blocking:margin-collapse|margin-collapse-clear-011]] - Passed by WebToPDF
-  * orphans-004b - Passed by Gecko
-  * page-break-after-009 - No Passes
-  * page-break-before-009 - No Passes
-  * page-break-before-010 - No Passes
+  * [[test:css2.1:blocking:margin-collapse|margin-collapse-clear-005]] - Passed by WebToPDF (Aaron, David)
+  * [[test:css2.1:blocking:margin-collapse|margin-collapse-clear-011]] - Passed by WebToPDF (Aaron, David)
+  * orphans-004b - Passed by Gecko (fantasai)
+  * page-break-after-009 - No Passes (Arron, John)
+  * page-break-before-009 - No Passes (Arron, John)
+  * page-break-before-010 - No Passes (Arron, John)
   * page-container-009 - Passed by Prince
   * page-props-103 - Passed by Prince
-  * quotes-035 - Passed by Gecko
-  * replaced-intrinsic-ratio-001 - No Passes
-  * run-in-abspos-between-002 - Passed by Trident
-  * [[test:css2.1:blocking:run-in-breaking-002|run-in-breaking-002]] - No Passes
-  * run-in-contains-inline-003 - Passed by Trident
-  * run-in-contains-table-caption-001 - No Passes
-  * run-in-contains-table-cell-001 - Passed by Trident
-  * run-in-contains-table-row-001 - Passed by Trident
-  * run-in-contains-table-row-group-001 - Passed by Trident
+  * quotes-035 - Passed by Gecko  (David)
+  * replaced-intrinsic-ratio-001 - No Passes (David, Simon)
+  * run-in-abspos-between-002 - Passed by Trident (Arron)
+  * [[test:css2.1:blocking:run-in-breaking-002|run-in-breaking-002]] - No Passes  (Arron)
+  * run-in-contains-inline-003 - Passed by Trident (Arron)
+  * run-in-contains-table-caption-001 - No Passes (Arron)
+  * run-in-contains-table-cell-001 - Passed by Trident (Arron)
+  * run-in-contains-table-row-001 - Passed by Trident (Arron)
+  * run-in-contains-table-row-group-001 - Passed by Trident (Arron)
   * uri-016 - Passed by Trident
   * widows-004b - Passed by Trident
