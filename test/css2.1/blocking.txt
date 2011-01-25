@@ -15,9 +15,9 @@ This page tracks tests that have failures blocking CR exit.
   * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-005]] - No Passes (Simon, David, Tab)
   * before-after-table-parts-001 - Passed by Gecko
   * [[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes (Arron, David, fantasai)
-  * containing-block-032 - Passed by Trident
-  * first-line-pseudo-016 - Passed by Gecko
-  * first-line-selector-015 - Passed by Trident
+  * containing-block-032 - Passed by Trident (David)
+  * first-line-pseudo-016 - Passed by Gecko (David)
+  * first-line-selector-015 - Passed by Trident (David)
   * first-page-selectors-002 - Passed by WebKit
   * floats-wrap-top-below-bfc-001l - Passed by WebToPDF (David)
   * floats-wrap-top-below-bfc-001r - Passed by WebToPDF (David)
