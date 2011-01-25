@@ -27,9 +27,9 @@ This page tracks tests that have failures blocking CR exit.
   * <del>[[test:css2.1:blocking:margin-collapse|margin-collapse-clear-011]] - Passed by WebToPDF (Aaron, David)</del> - We have two passes
   * orphans-004a (Arron, John)
   * <del>orphans-004b - Passed by Gecko (fantasai)</del> - We have two passes.
-  * [[test:css2.1:blocking:page-break|page-break-after-009]] - No Passes (Arron, John)
-  * [[test:css2.1:blocking:page-break|page-break-before-009]] - No Passes (Arron, John)
-  * [[test:css2.1:blocking:page-break|page-break-before-010]] - No Passes (Arron, John)
+  * <del>[[test:css2.1:blocking:page-break|page-break-after-009]] - No Passes (Arron, John)</del> - Elika to edit to two 50% divs
+  * <del>[[test:css2.1:blocking:page-break|page-break-before-009]] - No Passes (Arron, John)</del> - Elika to edit to two 50% divs
+  * <del>[[test:css2.1:blocking:page-break|page-break-before-010]] - No Passes (Arron, John)</del> - Elika to edit to two 50% divs
   * <del>page-container-009</del> - Passed by Prince, IE9, and Firefox
   * <del>page-props-103</del> - Passed by Prince and IE9
   * quotes-035 - Passed by Gecko  (David)
