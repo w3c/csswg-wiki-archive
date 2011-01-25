@@ -41,5 +41,5 @@ This page tracks tests that have failures blocking CR exit.
   * <del>[[test:css2.1:blocking:run-in|run-in-contains-table-cell-001]] - Passed by Trident (Arron)</del> - Push it to CSS3 Box Module
   * <del>[[test:css2.1:blocking:run-in|run-in-contains-table-row-001]] - Passed by Trident (Arron)</del> - Push it to CSS3 Box Module
   * <del>[[test:css2.1:blocking:run-in|run-in-contains-table-row-group-001]] - Passed by Trident (Arron)</del> - Push it to CSS3 Box Module
-  * [[test:css2.1:blocking:uri-016|uri-016]] - Keep. Passed by Trident, Expecting implementation from Gecko ("eventually") -Tantek
+  * <del>[[test:css2.1:blocking:uri-016|uri-016]]</del> - Keep. Passed by Trident, Expecting implementation from Gecko ("eventually") -Tantek
   * <del>widows-004b</del> - Passed by Trident and Opera
