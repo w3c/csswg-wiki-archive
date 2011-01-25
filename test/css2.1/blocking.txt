@@ -40,5 +40,5 @@ This page tracks tests that have failures blocking CR exit.
   * [[test:css2.1:blocking:run-in|run-in-contains-table-cell-001]] - Passed by Trident (Arron)
   * [[test:css2.1:blocking:run-in|run-in-contains-table-row-001]] - Passed by Trident (Arron)
   * [[test:css2.1:blocking:run-in|run-in-contains-table-row-group-001]] - Passed by Trident (Arron)
-  * uri-016 - Passed by Trident
+  * [[test:css2.1:blocking:uri-016|uri-016]] - Passed by Trident (Tantek)
   * widows-004b - Passed by Trident
