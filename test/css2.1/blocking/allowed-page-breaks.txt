@@ -2,9 +2,14 @@ Run-in issue
 
 **Test cases** 
 
-http://test.csswg.org/suites/css2.1/20110111/html4/run-in-breaking-002.htm http://test.csswg.org/suites/css2.1/20110111/html4/run-in-contains-inline-003.htm http://test.csswg.org/suites/css2.1/20110111/html4/run-in-abspos-between-002.htm http://test.csswg.org/suites/css2.1/20110111/html4/run-in-contains-table-caption-001.htm http://test.csswg.org/suites/css2.1/20110111/html4/run-in-contains-table-cell-001.htm http://test.csswg.org/suites/css2.1/20110111/html4/run-in-contains-table-row-001.htm http://test.csswg.org/suites/css2.1/20110111/html4/run-in-contains-table-row-group-001.htm
+http://test.csswg.org/suites/css2.1/20110111/html4/allowed-page-breaks-001a.htm
+http://test.csswg.org/suites/css2.1/20110111/html4/allowed-page-breaks-001b.htm
+http://test.csswg.org/suites/css2.1/20110111/html4/allowed-page-breaks-001c.htm
+http://test.csswg.org/suites/css2.1/20110111/html4/allowed-page-breaks-002.htm
  
 **Discussion** 
 
-Recommend that we mark this part of the spec undefined. Only trident passes and no other vendor plans to implement in the short term.
+Recommend 001a be broken into two tests and remove the containing <div> tags from pages 15 and 18.
+001b and 001c should be "MAY" tests
+002 should have the test changed so that the font is 20px
  
