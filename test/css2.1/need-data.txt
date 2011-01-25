@@ -6,21 +6,21 @@ See notes on [[http://wiki.csswg.org/test/css2.1/results|previous list]].
 
 This page tracks tests that do not have sufficient data to exit CR, these tests are likely blocking CR exit.
 
-  * absolute-replaced-height-006 - Passed by Gecko
-  * absolute-replaced-height-013 - Passed by Gecko
-  * absolute-replaced-height-020 - Passed by Gecko
-  * absolute-replaced-height-027 - Passed by Gecko
-  * absolute-replaced-height-034 - Passed by Gecko
+  * <del>absolute-replaced-height-006</del> - Passed by Gecko, IE9, Opera 11
+  * <del>absolute-replaced-height-013</del> - Passed by Gecko, IE9, Opera 11
+  * <del>absolute-replaced-height-020</del> - Passed by Gecko, IE9, Opera 11
+  * <del>absolute-replaced-height-027</del> - Passed by Gecko, IE9, Opera 11
+  * <del>absolute-replaced-height-034</del> - Passed by Gecko, IE9, Opera 11
   * <del>bidi-breaking-002</del> - original test Passed by WebKit; split into bidi-breaking-002 with multiple passes and bidi-breaking-003 that is a "may" test (not passed by Chromium for dbaron, though!)
-  * block-replaced-height-006 - Passed by Gecko
+  * <del>block-replaced-height-006</del> - Passed by Gecko, IE9
   * containing-block-017 - Passed by WebKit
   * containing-block-018 - Passed by WebKit
   * content-computed-value-001 - Passed by Trident
   * cursor-024 - Passed by Gecko
   * dynamic-top-change-005 - Passed by Gecko
-  * float-replaced-height-006 - Passed by Gecko
-  * inline-block-replaced-height-006 - Passed by Gecko
-  * inline-replaced-height-006 - Passed by Gecko
+  * <del>float-replaced-height-006</del> - Passed by Gecko, IE9, Opera 11
+  * <del>inline-block-replaced-height-006</del> - Passed by Gecko, IE9, Opera 11
+  * <del>inline-replaced-height-006</del> - Passed by Gecko, IE9, Opera 11
   * margin-collapse-164 - Passed by WebToPDF
   * run-in-fixedpos-between-002 - Passed by Trident
   * run-in-float-between-002 - Passed by Trident
