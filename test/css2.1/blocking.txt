@@ -11,8 +11,8 @@ This page tracks tests that have failures blocking CR exit.
   * allowed-page-breaks-001c - No Passes (Arron, John)
   * allowed-page-breaks-002 - No Passes (Arron, John)
   * at-rule-013 - Passed by Trident (Tantek)
-  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-004]] - No Passes (Simon, David, Tab)
-  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-005]] - No Passes (Simon, David, Tab)
+  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-004]] - No Passes (expecting impls from WebKit and Gecko)
+  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-005]] - No Passes (expecting impls from WebKit and Gecko)
   * before-after-table-parts-001 - Passed by Gecko
   * [[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes (Arron, David, fantasai)
   * containing-block-032 - Passed by Trident (David)
