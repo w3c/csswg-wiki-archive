@@ -22,7 +22,7 @@ This page tracks tests that have failures blocking CR exit.
   * floats-wrap-top-below-bfc-001l - Passed by WebToPDF (David)
   * floats-wrap-top-below-bfc-001r - Passed by WebToPDF (David)
   * [[font-family-rule-011]] - Passed by Trident (Arron)
-  * forced-page-breaks-000 - Passed by Prince
+  * <del>forced-page-breaks-000</del> - Passed by Prince. This is a CSS3 property
   * [[test:css2.1:blocking:margin-collapse|margin-collapse-clear-005]] - Passed by WebToPDF (Aaron, David)
   * [[test:css2.1:blocking:margin-collapse|margin-collapse-clear-011]] - Passed by WebToPDF (Aaron, David)
   * orphans-004b - Passed by Gecko (fantasai)
