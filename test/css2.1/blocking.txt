@@ -32,7 +32,7 @@ This page tracks tests that have failures blocking CR exit.
   * <del>[[test:css2.1:blocking:page-break|page-break-before-010]] - No Passes (Arron, John)</del> - Elika to edit to two 50% divs
   * <del>page-container-009</del> - Passed by Prince, IE9, and Firefox
   * <del>page-props-103</del> - Passed by Prince and IE9
-  * quotes-035 - Passed by Gecko  (David)
+  * quotes-035 - Passed by Gecko  (David) - Opera has two small bugs to implement this
   * [[test:css2.1:blocking:replaced-intrinsic-ratio-001|replaced-intrinsic-ratio-001]] - No Passes (expecting impl. from Gecko)
   * [[test:css2.1:blocking:run-in|run-in-abspos-between-002]] - Passed by Trident (Arron)
   * [[test:css2.1:blocking:run-in-breaking-002|run-in-breaking-002]] - No Passes  (Arron)
