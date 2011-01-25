@@ -11,10 +11,10 @@ This page tracks tests that have failures blocking CR exit.
   * [[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-001c]] - No Passes (Arron, John)
   * [[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-002]] - No Passes (Arron, John)
   * [[test:css2.1:blocking:at-rule-013|at-rule-013]] - Keep. Passed by Trident, Expecting implementation from Gecko (patch available, ETA FF 4.1) -Tantek
-  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-004]] - No Passes (expecting impls from WebKit and Gecko)
-  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-005]] - No Passes (expecting impls from WebKit and Gecko)
-  * before-after-table-parts-001 - Passed by Gecko [[https://bugs.webkit.org/show_bug.cgi?id=53114|Webkit bug]]
-  * [[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes (Arron, David, fantasai)
+  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-004]] - No Passes (expecting impls from WebKit - soon and Gecko soon after FF4)
+  * [[test:css2.1:blocking:background-intrinsic|background-intrinsic-005]] - No Passes (expecting impls from WebKit - soon and Gecko soon after FF4)
+  * before-after-table-parts-001 - Passed by Gecko [[https://bugs.webkit.org/show_bug.cgi?id=53114|Webkit bug]] At risk.
+  * [[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes (Arron, David, fantasai). Leave undefined for 2.1; needs text.
   * containing-block-032 - Passed by Trident (David) [[https://bugs.webkit.org/show_bug.cgi?id=53106|Webkit bug]] [[https://bugzilla.mozilla.org/show_bug.cgi?id=489100|Gecko bug]]
   * first-line-pseudo-016 - Passed by Gecko (David)
   * first-line-selector-015 - Passed by Trident (David)
