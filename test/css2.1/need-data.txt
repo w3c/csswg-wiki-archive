@@ -11,7 +11,7 @@ This page tracks tests that do not have sufficient data to exit CR, these tests 
   * absolute-replaced-height-020 - Passed by Gecko
   * absolute-replaced-height-027 - Passed by Gecko
   * absolute-replaced-height-034 - Passed by Gecko
-  * bidi-breaking-002 - Passed by WebKit
+  * <del>bidi-breaking-002</del> - original test Passed by WebKit; split into bidi-breaking-002 with multiple passes and bidi-breaking-003 that is a "may" test (not passed by Chromium for dbaron, though!)
   * block-replaced-height-006 - Passed by Gecko
   * containing-block-017 - Passed by WebKit
   * containing-block-018 - Passed by WebKit
