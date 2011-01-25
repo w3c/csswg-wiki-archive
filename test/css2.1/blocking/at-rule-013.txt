@@ -12,7 +12,7 @@ Runs but fails in:
   * WebKit ...
 
 ==== Relevant links ====
-  * ...
+  * CSS 2.1 editor's draft reference: http://www.w3.org/Style/css2-updates/css2/syndata.html#parsing-errors
 
 ==== Discussion ====
 
