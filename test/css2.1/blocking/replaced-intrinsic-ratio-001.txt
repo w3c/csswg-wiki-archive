@@ -1,2 +1,5 @@
-replaced-intrinsic-ratio-001
+====== replaced-intrinsic-ratio-001 ======
 
+==== Test cases ====
+
+  * [[http://test.csswg.org/suites/css2.1/latest/html4/replaced-intrinsic-ratio-001.htm|replaced-intrinsic-ratio-001]] 
