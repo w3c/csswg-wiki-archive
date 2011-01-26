@@ -17,7 +17,7 @@ This page tracks tests that do not have sufficient data to exit CR, these tests 
   * <del>containing-block-018</del> - Passed by WebKit, IE9 - Arron to clarify pass condition text
   * content-computed-value-001 - Passed by Trident; probably easy to fix in Gecko; test should probably be redesigned anyway and isn't testing what was intended (fantasai will rewrite)
   * cursor-024 - Passed by Gecko; should probably change the test to a MAY
-  * dynamic-top-change-005 - Passed by Gecko
+  * dynamic-top-change-005 - Passed by Gecko; IE9 and WebKit have dynamic change bug (fixed by forced relayout); WebKit and Opera have bug with rel-pos inline as containing block (fixed if block)
   * <del>float-replaced-height-006</del> - Passed by Gecko, IE9, Opera 11
   * <del>inline-block-replaced-height-006</del> - Passed by Gecko, IE9, Opera 11
   * <del>inline-replaced-height-006</del> - Passed by Gecko, IE9, Opera 11
