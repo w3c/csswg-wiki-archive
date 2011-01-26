@@ -25,7 +25,7 @@ This page tracks tests that have failures blocking CR exit.
   * <del>forced-page-breaks-000</del> - Passed by Prince. This is a CSS3 property.
   * <del>[[test:css2.1:blocking:margin-collapse|margin-collapse-clear-005]] - Passed by WebToPDF (Aaron, David)</del> - We have two passes
   * <del>[[test:css2.1:blocking:margin-collapse|margin-collapse-clear-011]] - Passed by WebToPDF (Aaron, David)</del> - We have two passes
-  * <del>orphans-004a</del> - Prince passes, everyone else fails.
+  * <del>orphans-004a</del> - Prince passes, everyone else fails. If we removed orphans:0; IE9 would start to pass.
   * <del>orphans-004b - Passed by Gecko (fantasai)</del> - We have two passes.
   * <del>[[test:css2.1:blocking:page-break|page-break-after-009]] - No Passes (Arron, John)</del> - Elika to edit to two 50% divs
   * <del>[[test:css2.1:blocking:page-break|page-break-before-009]] - No Passes (Arron, John)</del> - Elika to edit to two 50% divs
