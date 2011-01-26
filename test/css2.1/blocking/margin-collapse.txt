@@ -31,7 +31,7 @@ The following implementations that currently fail have patches to pass:
 
 ==== Discussion ====
 
-All test cases fail in exactly the same way in all failing agents tested, and match the current Dec. 7 2010 spec text. However this text, which was introduced by edits in 2007, does not represent the intended behavior of those edits, which was to make the above tests pass.
+All test cases fail in exactly the same way in all failing agents tested, and match the current Dec. 7 2010 spec text. However this text, which was introduced by edits in 2007, does not represent the intended behavior of those edits, which was to make the above tests pass (and have clearance not eat the margin).
 
 Correcting implementations to match the test case will alter the Acid2 test.
 
