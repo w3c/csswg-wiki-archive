@@ -46,7 +46,7 @@ This page tracks tests that have been reported as invalid.
   * <del>page-grammar-001</del> - Let's fix the assertion text a bit to make them less confusing.
   * <del>page-grammar-002</del> - Let's fix the assertion text a bit to make them less confusing. Title is incorrect (testing both before and after). Elika to do.
   * <del>rtl-linebreak</del> - should add a negative reference without a border (because the invalidity is that the reference doesn't detect the WebKit failure) - dbaron to do
-  * <del>text-decoration-087</del> - test needs to be corrected and reworded to clarify the test (needs to change because inline should NOT be underlined). Webkit and FF need to fix their implementations. Opera has an additional bug they will need to address as well. 
+  * <del>text-decoration-087</del> - test needs to be corrected and split into 2 as well as reworded to clarify the test (needs to change because inline should NOT be underlined). Webkit and FF need to fix their implementations. Opera has an additional bug they will need to address as well. 
   * <del>z-index-020</del> - outlines can validly be drawn on 2 (maybe 3?) different layers, and this test requires them to be drawn onto one particular layer
 
 
