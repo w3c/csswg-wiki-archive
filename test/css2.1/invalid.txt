@@ -38,10 +38,10 @@ This page tracks tests that have been reported as invalid.
   * <del>padding-top-050</del> - Arron has a fix for the test.
   * <del>padding-top-051</del> - Arron has a fix for the test.
   * <del>page-break-after-010</del> - Elika to re-write
-  * page-break-before-003
-  * page-break-before-005
-  * page-break-before-020
-  * page-breaks-101
+  * <del>page-break-before-003</del> - CSS3 semantics, but do not impact the test result. OK to leave.
+  * <del>page-break-before-005</del> - CSS3 semantics, but do not impact the test result. OK to leave.
+  * <del>page-break-before-020</del> - Test is OK.
+  * <del>page-breaks-101</del> - Doesn't look like the text SHOULD go to the 2nd page. Elika should fix.
   * page-container-004
   * page-grammar-001
   * page-grammar-002
