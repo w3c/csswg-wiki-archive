@@ -10,7 +10,7 @@ This page tracks tests that have been reported as invalid.
   * <del>bidi-007</del> - make spec undefined.
   * <del>bidi-008</del> - make spec undefined.
   * <del>bidi-010</del> - make spec undefined.
-  * block-in-inline-relpos-002 - waiting for proposal from dbaron
+  * <del>block-in-inline-relpos-002</del> - waiting for proposal from dbaron
   * <del>border-bottom-width-036 - rounding issues: http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0123.html</del> 
   *<del> border-bottom-width-047 - " "</del> - Arron has a fix for the test.
   * <del>border-left-width-036</del> - Arron has a fix for the test.
