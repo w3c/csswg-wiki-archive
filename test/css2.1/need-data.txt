@@ -24,4 +24,4 @@ This page tracks tests that do not have sufficient data to exit CR, these tests 
   * [[test:css2.1:blocking:margin-collapse|margin-collapse-164]] - Passed by WebToPDF; this is the same issue as margin-collapse-clear-005 and margin-collapse-clear-011, Gecko patch is available ([[https://bugzilla.mozilla.org/show_bug.cgi?id=376365|bug]]) but we need to discuss whether the tests are really correct (and if we fix these tests we break Acid2)
   * <del>run-in-fixedpos-between-002</del> - Passed by Trident. Run-ins are proposed to be moved to CSS3
   * <del>run-in-float-between-002</del> - Passed by Trident. Run-ins are proposed to be moved to CSS3
-  * table-anonymous-objects-188 - Passed by Gecko; Opera has white-space bug; WebKit has table object generation bug
+  * table-anonymous-objects-188 - Passed by Gecko; Opera has white-space bug; [[https://bugs.webkit.org/show_bug.cgi?id=53144|Webkit bug]] [[https://bugs.webkit.org/show_bug.cgi?id=53147|Another Webkit bug]]
