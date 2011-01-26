@@ -41,7 +41,7 @@ This page tracks tests that have been reported as invalid.
   * <del>page-break-before-003</del> - CSS3 semantics, but do not impact the test result. OK to leave.
   * <del>page-break-before-005</del> - CSS3 semantics, but do not impact the test result. OK to leave.
   * <del>page-break-before-020</del> - Test is OK.
-  * <del>page-breaks-101</del> - Doesn't look like the text SHOULD go to the 2nd page. Elika should fix.
+  * <del>page-breaks-101</del> - assert needs to be updated by Elika.
   * page-container-004
   * page-grammar-001
   * page-grammar-002
