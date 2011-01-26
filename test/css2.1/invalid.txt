@@ -4,6 +4,7 @@ The CSS2.1 Test Suite results are tracked by the submission of formal implementa
 
 This page tracks tests that have been reported as invalid.
 
+  * background-bg-pos-205
   * bidi-005 - email thread: http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0097.html
   * bidi-006 - " "
   * bidi-007 - " "
@@ -18,7 +19,12 @@ This page tracks tests that have been reported as invalid.
   * <del>border-right-width-047</del> - Arron has a fix for the test.
   * <del>border-top-width-036</del> - Arron has a fix for the test.
   * <del>border-top-width-047</del> - Arron has a fix for the test.
+  * <del>floats-wrap-bfc-006b</del> - Move test to CSS3
+  * <del>floats-wrap-bfc-006c</del> - move test to CSS3
   * <del>font-family-rule-002 - email thread: http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0263.html</del> - updated for RC5
+  * forced-page-breaks-000
+  * forced-page-breaks-001
+  * list-style-position-004
   * <del>padding-bottom-047</del> - seems similar to border-* cases? (http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0123.html)
   * <del>padding-bottom-050</del> - Arron has a fix for the test.
   * <del>padding-bottom-051</del> - Arron has a fix for the test.
@@ -34,21 +40,15 @@ This page tracks tests that have been reported as invalid.
   * page-break-after-010
   * page-break-before-003
   * page-break-before-005
-  * rtl-linebreak - should add a negative reference without a border (because the invalidity is that the reference doesn't detect the WebKit failure) - dbaron to do
-  * z-index-020 - outlines can validly be drawn on 2 (maybe 3?) different layers, and this test requires them to be drawn onto one particular layer
-  * background-bg-pos-205
-  * <del>floats-wrap-bfc-006b</del> - Move test to CSS3
-  * <del>floats-wrap-bfc-006c</del> - move test to CSS3
-  * forced-page-breaks-000
-  * forced-page-breaks-001
-  * list-style-position-004
-  * page-break-after-010
-  * page-break-before-003
-  * page-break-before-005
   * page-break-before-020
   * page-breaks-101
   * page-container-004
   * page-grammar-001
   * page-grammar-002
+  * rtl-linebreak - should add a negative reference without a border (because the invalidity is that the reference doesn't detect the WebKit failure) - dbaron to do
   * text-decoration-087
+  * z-index-020 - outlines can validly be drawn on 2 (maybe 3?) different layers, and this test requires them to be drawn onto one particular layer
+
+
+
 
