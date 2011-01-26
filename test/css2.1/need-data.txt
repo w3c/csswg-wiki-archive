@@ -16,7 +16,7 @@ This page tracks tests that do not have sufficient data to exit CR, these tests 
   * <del>containing-block-017</del> - Passed by WebKit, IE9
   * <del>containing-block-018</del> - Passed by WebKit, IE9
   * content-computed-value-001 - Passed by Trident
-  * cursor-024 - Passed by Gecko
+  * cursor-024 - Passed by Gecko; should probably change the test to a MAY
   * dynamic-top-change-005 - Passed by Gecko
   * <del>float-replaced-height-006</del> - Passed by Gecko, IE9, Opera 11
   * <del>inline-block-replaced-height-006</del> - Passed by Gecko, IE9, Opera 11
