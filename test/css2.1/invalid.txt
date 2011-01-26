@@ -4,7 +4,7 @@ The CSS2.1 Test Suite results are tracked by the submission of formal implementa
 
 This page tracks tests that have been reported as invalid.
 
-  * background-bg-pos-205
+  * <del>background-bg-pos-205</del> - It's up to the UA whether to scroll the <p /> tag at the bottom. change the test to p{ margin:2em;margin-top:0; }.
   * bidi-005 - email thread: http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0097.html
   * bidi-006 - " "
   * bidi-007 - " "
