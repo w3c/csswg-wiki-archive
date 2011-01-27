@@ -6,34 +6,60 @@ See notes on [[http://wiki.csswg.org/test/css2.1/results|previous list]].
 
 This page tracks tests that have failures blocking CR exit.
 
-  * <del>[[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-001a]] - Passed by Trident (Arron, John)</del> - Fantasai to break into two tests
-  * <del>[[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-001b]] - Passed by Trident (Arron, John)</del> - Changed to MAY
-  * <del>[[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-001c]] - No Passes (Arron, John)</del> - Changed to MAY
-  * <del>[[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-002]] - No Passes (Arron, John)</del> - Opera and Trident pass newly edited file
-  * <del>[[test:css2.1:blocking:at-rule-013|at-rule-013]]</del> - Keep. Passed by Trident, Expecting implementation from Gecko (patch available, ETA FF 4.1) -Tantek
-  * <del>[[test:css2.1:blocking:background-intrinsic|background-intrinsic-004]]</del> - No Passes (expecting impls from WebKit - soon and Gecko soon after FF4)
-  * <del>[[test:css2.1:blocking:background-intrinsic|background-intrinsic-005]]</del> - No Passes (expecting impls from WebKit - soon and Gecko soon after FF4)
-  * <del>before-after-table-parts-001</del> - Passed by Gecko and IE9 [[https://bugs.webkit.org/show_bug.cgi?id=53114|Webkit bug]] At risk
-  * <del>[[test:css2.1:blocking:bidi-004|bidi-004]]</del> - No Passes (Arron, David, fantasai). Leave undefined for 2.1; needs text.
+===== Tests Currently Blocking =====
+
+==== Tests Expecting Implementation Updates ====
+
+  * <del>[[test:css2.1:blocking:at-rule-013|at-rule-013]]</del> - Passed by Trident. Expecting implementation from Gecko (patch available, ETA FF 4.1) -Tantek
+  * <del>[[test:css2.1:blocking:background-intrinsic|background-intrinsic-004]]</del> - No Passes. Expecting impls from WebKit - soon and Gecko soon after FF4.
+  * <del>[[test:css2.1:blocking:background-intrinsic|background-intrinsic-005]]</del> - No Passes. Expecting impls from WebKit - soon and Gecko soon after FF4.
+  * quotes-035 - Passed by Gecko  (David) - Opera has two small bugs to implement this
+  * [[test:css2.1:blocking:replaced-intrinsic-ratio-001|replaced-intrinsic-ratio-001]] - No Passes (expecting impl. from Gecko); Opera can fix as well. [[https://bugs.webkit.org/show_bug.cgi?id=53099|Webkit bug]]
+  * <del>[[test:css2.1:blocking:uri-016|uri-016]]</del> - Keep. Passed by Trident, Expecting implementation from Gecko ("eventually") -Tantek
+
+==== Tests Expecting Fixes ====
+
+  * [[test:css2.1:blocking:page-break|page-break-after-009]] - No Passes (Arron, John) - Elika to edit to two 50% divs
+  * [[test:css2.1:blocking:page-break|page-break-before-009]] - No Passes (Arron, John) - Elika to edit to two 50% divs
+  * [[test:css2.1:blocking:page-break|page-break-before-010]] - No Passes (Arron, John) - Elika to edit to two 50% divs
+
+==== Tests Expecting Spec Changes ====
+
   * <del>containing-block-032 - Passed by Trident (IE7 only, not IE9) (David) [[https://bugs.webkit.org/show_bug.cgi?id=53106|Webkit bug]] [[https://bugzilla.mozilla.org/show_bug.cgi?id=489100|Gecko bug]];</del> we should try to make this undefined since it seems we're unlikely to get a fix in the near future. Fantasai to propose text.
+  * [[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes. Leave undefined for 2.1; needs text, test breakup.
   * <del>first-line-pseudo-016 - Passed by Gecko (David)</del> - Changed to MAY; Remove valign from the list
+
+==== Tests Needing Breakup or Implementation ====
+
+  * [[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-001a]] - Passed by Prince. Fantasai to break into two tests
+  * forced-page-breaks-000 - Passed by Prince. Need second pass.
+  * orphans-004a - Prince passes, everyone else fails. If we removed orphans:0; IE9 would start to pass.
+
+===== Tests No Longer Blocking =====
+
+Listed awaiting next snapshot and official reports.
+
+==== Implementations Found ====
+
+  * <del>before-after-table-parts-001</del> - Passed by Gecko and IE9 [[https://bugs.webkit.org/show_bug.cgi?id=53114|Webkit bug]] At risk
   * <del>first-line-selector-015 - Passed by Trident (David)</del> - We have two passes
   * <del>first-page-selectors-002 - Passed by WebKit</del> - We have two passes
   * <del>floats-wrap-top-below-bfc-001l - Passed by WebToPDF (David)</del> - We have two passes
   * <del>floats-wrap-top-below-bfc-001r - Passed by WebToPDF (David)</del> - We have two passes
   * <del>[[font-family-rule-011]] - Passed by Trident (Arron)</del> - We have two passes
-  * <del>forced-page-breaks-000</del> - Passed by Prince. This is a CSS3 property.
   * <del>[[test:css2.1:blocking:margin-collapse|margin-collapse-clear-005]] - Passed by WebToPDF (Aaron, David)</del> - We have two passes
   * <del>[[test:css2.1:blocking:margin-collapse|margin-collapse-clear-011]] - Passed by WebToPDF (Aaron, David)</del> - We have two passes
-  * <del>orphans-004a</del> - Prince passes, everyone else fails. If we removed orphans:0; IE9 would start to pass.
-  * <del>orphans-004b - Passed by Gecko (fantasai)</del> - We have two passes.
-  * <del>[[test:css2.1:blocking:page-break|page-break-after-009]] - No Passes (Arron, John)</del> - Elika to edit to two 50% divs
-  * <del>[[test:css2.1:blocking:page-break|page-break-before-009]] - No Passes (Arron, John)</del> - Elika to edit to two 50% divs
-  * <del>[[test:css2.1:blocking:page-break|page-break-before-010]] - No Passes (Arron, John)</del> - Elika to edit to two 50% divs
   * <del>page-container-009</del> - Passed by Prince, IE9, and Firefox
   * <del>page-props-103</del> - Passed by Prince and IE9
-  * <del>quotes-035</del> - Passed by Gecko  (David) - Opera has two small bugs to implement this
-  * <del>[[test:css2.1:blocking:replaced-intrinsic-ratio-001|replaced-intrinsic-ratio-001]] - No Passes</del> (expecting impl. from Gecko); Opera can fix as well. [[https://bugs.webkit.org/show_bug.cgi?id=53099|Webkit bug]]
+
+==== Invalid Tests Fixed ====
+
+  * <del>[[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-001b]]</del> - Passed by Trident. Changed to MAY
+  * <del>[[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-001c]]</del> - No passes. Changed to MAY
+  * <del>[[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-002]]</del> - Opera and Trident pass newly edited file
+
+==== Run-in Tests ====
+
   * <del>[[test:css2.1:blocking:run-in|run-in-abspos-between-002]] - Passed by Trident (Arron)</del> - Push it to CSS3 Box Module
   * <del>[[test:css2.1:blocking:run-in-breaking-002|run-in-breaking-002]] - No Passes  (Arron)</del> - Push it to CSS3 Box Module
   * <del>[[test:css2.1:blocking:run-in|run-in-contains-inline-003]] - Passed by Trident (Arron)</del> - Push it to CSS3 Box Module
@@ -41,5 +67,3 @@ This page tracks tests that have failures blocking CR exit.
   * <del>[[test:css2.1:blocking:run-in|run-in-contains-table-cell-001]] - Passed by Trident (Arron)</del> - Push it to CSS3 Box Module
   * <del>[[test:css2.1:blocking:run-in|run-in-contains-table-row-001]] - Passed by Trident (Arron)</del> - Push it to CSS3 Box Module
   * <del>[[test:css2.1:blocking:run-in|run-in-contains-table-row-group-001]] - Passed by Trident (Arron)</del> - Push it to CSS3 Box Module
-  * <del>[[test:css2.1:blocking:uri-016|uri-016]]</del> - Keep. Passed by Trident, Expecting implementation from Gecko ("eventually") -Tantek
-  * <del>widows-004b</del> - Passed by Trident and Opera
