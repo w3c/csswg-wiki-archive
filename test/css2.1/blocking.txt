@@ -19,9 +19,9 @@ This page tracks tests that have failures blocking CR exit.
 
 ==== Tests Expecting Fixes ====
 
-  * [[test:css2.1:blocking:page-break|page-break-after-009]] - No Passes (Arron, John) - Elika to edit to two 50% divs
-  * [[test:css2.1:blocking:page-break|page-break-before-009]] - No Passes (Arron, John) - Elika to edit to two 50% divs
-  * [[test:css2.1:blocking:page-break|page-break-before-010]] - No Passes (Arron, John) - Elika to edit to two 50% divs
+  * <del>[[test:css2.1:blocking:page-break|page-break-after-009]]</del> - Test updated. Passes in Opera, need data for IE9.
+  * <del>[[test:css2.1:blocking:page-break|page-break-before-009]]</del> - Test updated. Passes in Opera, need data for IE9.
+  * <del>[[test:css2.1:blocking:page-break|page-break-before-010]]</del> - Test updated. Passes in Opera, need data for IE9.
 
 ==== Tests Expecting Spec Changes ====
 
