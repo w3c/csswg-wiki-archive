@@ -5,7 +5,7 @@ The [[http://www.w3.org/TR/CSS21/|CSS2.1 specification]] is a revision of of [[h
 
 There is an [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|errata document]] for CSS2.1.
 
-Last updated 2010-12-15 -- arronei
+Last updated 2010-08-05 – fantasai
 
 ===== Current Issues =====
 
