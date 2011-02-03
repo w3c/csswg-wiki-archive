@@ -2,32 +2,7 @@
 
 The CSS2.1 Test Suite results are tracked by the submission of formal implementation reports and from the data in the test suite harness. [add links]
 
-This page tracks tests that have been reported as invalid. These tests have all been fixed, and need verification.
-
-  * <del>background-bg-pos-205</del> - It's up to the UA whether to scroll the <p /> tag at the bottom. change the test to p{ margin:2em;margin-top:0; }.
-  * <del>bidi-005</del> - email thread: http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0097.html
-  * <del>bidi-006</del> - split
-  * <del>bidi-007</del> - split
-  * <del>bidi-008</del> - split
-  * <del>bidi-010</del> - split
-  * <del>block-in-inline-relpos-002</del> - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0100.html|proposal from dbaron]], [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Feb/0009.html|test fixed]]
-  * <del>floats-wrap-bfc-006b</del> - Move test to CSS3
-  * <del>floats-wrap-bfc-006c</del> - move test to CSS3
-  * <del>font-family-rule-002 - email thread: http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0263.html</del> - updated for RC5
-  * <del>forced-page-breaks-000</del> - CSS3 semantics, but do not impact the test result. OK to leave.
-  * <del>forced-page-breaks-001</del> - CSS3 semantics, but do not impact the test result. OK to leave.
-  * <del>list-style-position-004</del> - Corrected the pass condition and the flag to say MAY
-  * <del>page-break-after-010</del> - CSS3 semantics, but do not impact the test result. OK to leave.
-  * <del>page-break-before-003</del> - CSS3 semantics, but do not impact the test result. OK to leave.
-  * <del>page-break-before-005</del> - CSS3 semantics, but do not impact the test result. OK to leave.
-  * <del>page-break-before-020</del> - Test is OK
-  * <del>page-breaks-101</del> - Assert updated. OK.
-  * <del>page-container-004</del> - Test already changed to may. OK.
-  * <del>page-grammar-001</del> - Updated to be less confusing.
-  * <del>page-grammar-002</del> - Updated to be less confusing.
-  * <del>rtl-linebreak</del> - add a negative reference without a border (because the invalidity is that the reference doesn't detect the WebKit failure) - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0101.html|done by dbaron]]
-  * <del>text-decoration-087</del> - Test corrected and split into 087 and 089. Webkit and FF need to fix their implementations. Opera has an additional bug they will need to address as well. 
-  * <del>z-index-020</del> - outlines can validly be drawn on 2 (maybe 3?) different layers, and this test requires them to be drawn onto one particular layer. Updated.
+This page tracks tests that have been reported as invalid. The tests have all been fixed, and need verification.
 
 ==== Updated but need review ====
 Once the cases are reviewed please remove the cases from the list below
@@ -48,7 +23,33 @@ Once the cases are reviewed please remove the cases from the list below
   * padding-top-036
   * padding-top-047
 
+These tests were split into ###a and ###b variants (see http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0097.html):
+  * bidi-005
+  * bidi-006
+  * bidi-007
+  * bidi-008
+  * bidi-009
+  * bidi-010
+
+This test was a) corrected and b) split. Webkit and FF need to fix their implementations. Opera has an additional bug they will need to address as well.
+  * text-decoration-087 - Test corrected and split into 087 and 089. 
+
+These tests received various fixes:
+  * background-bg-pos-205 - It's up to the UA whether to scroll the <p /> tag at the bottom. change the test to p{ margin:2em;margin-top:0; }.
+  * block-in-inline-relpos-002 - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0100.html|proposal from dbaron]], [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Feb/0009.html|test fixed]]
+  * font-family-rule-002 - email thread: http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0263.html</del> - updated for RC5
+  * page-grammar-001 - Updated to be less confusing.
+  * page-grammar-002 - Updated to be less confusing.
+  * rtl-linebreak - add a negative reference without a border (because the invalidity is that the reference doesn't detect the WebKit failure) - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0101.html|done by dbaron]]
+  * z-index-020 - outlines can validly be drawn on 2 (maybe 3?) different layers, and this test requires them to be drawn onto one particular layer. Updated.
+
+==== Deferred to CSS3 ====
+
+  * floats-wrap-bfc-006b - Move test to CSS3
+  * floats-wrap-bfc-006c - move test to CSS3
+
 ==== No edits necessary ====
+
 I did not update these cases because there are no pixel rounding issues in the cases. 25.4mm is equal to 96px.
   * padding-bottom-050
   * padding-bottom-051
@@ -60,3 +61,16 @@ I did not update these cases because there are no pixel rounding issues in the c
   * padding-top-051
 
 
+These tests had no change or just metadata updates:
+  * forced-page-breaks-000 - CSS3 semantics, but do not impact the test result. OK to leave.
+  * forced-page-breaks-001 - CSS3 semantics, but do not impact the test result. OK to leave.
+  * page-break-after-010 - CSS3 semantics, but do not impact the test result. OK to leave.
+  * page-break-before-003 - CSS3 semantics, but do not impact the test result. OK to leave.
+  * page-break-before-005 - CSS3 semantics, but do not impact the test result. OK to leave.
+  * page-break-before-020 - Test is OK
+
+These tests received metadata updates, but no substantive changes:
+
+  * list-style-position-004 - Flagged as MAY.
+  * page-breaks-101 - Assert updated. OK.
+  * page-container-004 - Flagged as may. OK.
