@@ -211,7 +211,7 @@ Ugly, not self-documenting:
 
 
 ==== 1 RC3 test with missing title ====
-  - [[http://test.csswg.org/suites/css2.1/20101027/html4/page-selectors-001.htm|page-selectors-001]]
+  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/page-selectors-001.htm|page-selectors-001]]</del> - Fixed for RC6
 
 ==== 2 RC4 testcases which could render a missing image icon as acceptable handling of url(missing-image.png) ====
 
