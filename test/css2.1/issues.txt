@@ -183,8 +183,8 @@ Ugly, not self-documenting:
 
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/background-root-014.htm|background-root-014]] since resizing the viewport is part of the test pass/fail condition</del> - Fixed for RC6
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/background-root-017.htm|background-root-017]] since resizing the viewport is part of the test pass/fail condition</del> - Fixed for RC6
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/floats-108.htm|floats-108]] since resizing the viewport is part of the test pass/fail condition
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/floats-109.htm|floats-109]] since resizing the viewport is part of the test pass/fail condition
+  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/floats-108.htm|floats-108]] since resizing the viewport is part of the test pass/fail condition</del> - Fixed for RC6
+  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/floats-109.htm|floats-109]] since resizing the viewport is part of the test pass/fail condition</del> - Fixed for RC6
 
 ==== 1 RC4 testcase missing the dom flag ====
   - [[http://test.csswg.org/suites/css2.1/20101210/html4/letter-spacing-102.htm|letter-spacing-102]]
