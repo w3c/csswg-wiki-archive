@@ -197,15 +197,15 @@ Ugly, not self-documenting:
 
 ==== 9 RC4 testcases using, relying on CSS3 grammar or CSS3 properties ====
 
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/z-index-020.htm|z-index-020]] relies on CSS3 outline-offset (line 46), CSS3 color names magenta (line 50) and pink (line 41), also assumes a specific stacking context for outline that can actually occur in 3 different places
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/page-break-after-010.htm|page-break-after-010]] relies on CSS3 at-keywords for paged media
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/page-break-before-003.htm|page-break-before-003]] relies on CSS3 at-keywords for paged media
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/page-break-before-005.htm|page-break-before-005]] relies on CSS3 at-keywords for paged media
+  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/z-index-020.htm|z-index-020]] relies on CSS3 outline-offset (line 46), CSS3 color names magenta (line 50) and pink (line 41), also assumes a specific stacking context for outline that can actually occur in 3 different places</del> - Fixed for RC6
+  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/page-break-after-010.htm|page-break-after-010]] relies on CSS3 at-keywords for paged media</del> - CSS3 bits not part of tests, so ok
+  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/page-break-before-003.htm|page-break-before-003]] relies on CSS3 at-keywords for paged media</del> - CSS3 bits not part of tests, so ok
+  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/page-break-before-005.htm|page-break-before-005]] relies on CSS3 at-keywords for paged media</del> - CSS3 bits not part of tests, so ok
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/allowed-page-breaks-001c.htm|allowed-page-breaks-001c]] relies on CSS3 at-keywords for paged media</del> - fixed for RC5
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/allowed-page-breaks-003.htm|allowed-page-breaks-003]] relies on CSS3 at-keywords for paged media</del> - fixed for RC5
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/allowed-page-breaks-004.htm|allowed-page-breaks-004]] relies on CSS3 at-keywords for paged media</del> - fixed for RC5
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/floats-wrap-bfc-006b.htm|floats-wrap-bfc-006b]] relies on CSS2 caption-side: left
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/floats-wrap-bfc-006c.htm|floats-wrap-bfc-006c]] relies on CSS2 caption-side: right
+  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/floats-wrap-bfc-006b.htm|floats-wrap-bfc-006b]] relies on CSS2 caption-side: left</del> - moved to CSS3
+  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/floats-wrap-bfc-006c.htm|floats-wrap-bfc-006c]] relies on CSS2 caption-side: right</del> - moved to CSS3
 
 ==== 0 RC4 testcase with wrong meta flag ====
 
