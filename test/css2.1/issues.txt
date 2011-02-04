@@ -177,7 +177,7 @@ Ugly, not self-documenting:
 ==== 2 RC4 testcases missing the invalid flag ====
 
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/border-spacing-012.htm|border-spacing-012]] "Lengths [of border-spacing] may not be negative." coming from [[http://www.w3.org/TR/CSS21/tables.html#separated-borders|17.6.1 border-spacing]] Although no CSS validation error is reported, I think this should be parsed as a validation error; therefore invalid flag should be added.</del> - Fixed in RC5
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/c526-font-sz-003.htm|c526-font-sz-003]] font-size: -0.5in; will be parsed and reported as an illegal value.
+  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/c526-font-sz-003.htm|c526-font-sz-003]] font-size: -0.5in; will be parsed and reported as an illegal value.</del> - Fixed for RC6
 
 ==== 4 RC4 testcases missing the interact flag ====
 
