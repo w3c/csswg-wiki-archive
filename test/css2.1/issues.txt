@@ -92,8 +92,8 @@ Ugly, not self-documenting:
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|separated-border-model-005]]</del> - Fixed/removed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|text-align-applies-to-001]]</del> - fixed for RC4
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0060.html|list-style-position-017]]
-  * [[http://test.csswg.org/suites/css2.1/20101210/html4/floats-108.htm|[RC4] floats-108]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0029.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0029.html]]
-  * [[http://test.csswg.org/suites/css2.1/20101210/html4/floats-109.htm|[RC4] floats-109]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0029.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0029.html]]
+  * <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/floats-108.htm|[RC4] floats-108]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0029.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0029.html]]</del> - Fixed for RC6
+  * <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/floats-109.htm|[RC4] floats-109]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0029.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0029.html]]</del> - Fixed for RC6
 
 
 ==== 15 RC3 testcases with too technical pass conditions ====
