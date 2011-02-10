@@ -42,7 +42,8 @@ Last mailing list sweep 2010-08-05 – fantasai
   ;Proposal A: Clear on run-in and its containing block combine.
   ;Proposal B: Clear does not apply to inline run-ins.
   ;Proposal C: Clear does not apply to elements with display: run-in. (safest)
-  ;Status : Open. =arronei= Post test results.
+  ;Resolution : Move run-in to CSS3 Box.
+  ;Status : Closed.
 
 ==== Issue 198 ====
   ;Summary : Clarify interaction of run-ins and "elements earlier in the source document".
