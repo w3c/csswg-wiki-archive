@@ -76,11 +76,7 @@ Last mailing list sweep 2010-08-05 – fantasai
   ;Resolution : Make 'clip' not respond to 'direction' in the spec.
   ;Status : Open. =Bert= Edit.
 
-==== Issue E ====
-  ;Summary : Run-ins should not run in across text 
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Oct/0141.html
-  ;Resolution : 
-  ;Status : Open. =WG= Discuss.
+
 
 ===== 8 September 2009 CR Issues =====
 
