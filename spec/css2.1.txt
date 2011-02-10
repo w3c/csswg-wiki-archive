@@ -3,15 +3,86 @@
 
 The [[http://www.w3.org/TR/CSS21/|CSS2.1 specification]] is a revision of of [[http://www.w3.org/TR/REC-CSS2/|CSS2]] that corrects many errors and omissions in the CSS2 Recommendation. It has also dropped unimplemented features and introduced a handful of minor new ones.
 
-There is an [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|errata document]] for CSS2.1.
+TODO: Audit issues list and make sure each issue has tests in the test suite. Then institute policy that issues cannot be marked as closed until there is a test checked in for that issue.
 
-Last updated 2010-08-05 – fantasai
+Last mailing list sweep 2010-08-05 – fantasai
 
 ===== Current Issues =====
 
-The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]]. Once resolved, any resulting changes or corrections will be added to the [[http://www.w3.org/Style/css2-updates/CR-CSS2-20090423-errata.html|errata list]].
+==== Issue 142 ====
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Sep/0126.html #4
+  ;Summary : clarify terms like "ancestor box", whether referring to formatting structure or document tree. Spec contains only 3 instances of ancestor box. They are all in section 10.1.
+  ;Resolution : Agreed this is ambiguous.
+  ;Proposal : [[http://lists.w3.org/Archives/Public/www-style/2010Aug/0436.html|first version,]] [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0042.html|second version, with support for run-in]]
+  ;Follow-up 1 : There is probably an [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0044.html|error]] in the resolution of [[#issue-120|issue 120]]. If so, the proposal needs changing.
+  ;Follow-up 2 : [[http://lists.w3.org/Archives/Public/www-style/2010Aug/0443.html|Boris Zbarsky asks]] that the containing block of an element inside a table, in the absence of a table element, be created from the height of the row and the width of the column, even if one or both of those are implied rather than actual elements. If we accept that change, the proposal needs changing.
+  ;Status : Open. =Bert= Update proposal to correctly handle http://lists.w3.org/Archives/Public/www-style/2010Aug/0443.html (follow-up 2).
+  
+==== Issue 159 ====
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0015.html http://lists.w3.org/Archives/Public/www-style/2010Aug/0183.html
+  ;Summary : Clarify definition of adjoining margins
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Sep/0684.html
+  ;Status : Open. =Bert= Edit per http://lists.w3.org/Archives/Public/www-style/2010Oct/0842.html.
 
-TODO: Audit issues list and make sure each issue has tests in the test suite. Then institute policy that issues cannot be marked as closed until there is a test checked in for that issue.
+==== Issue 181 ====
+  ;Summary : use of 'height' in 10.8 causes confusion over content height and line-height wrt inline elements
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0010.html
+  ;Status : Open. =Bert= Edit as appropriate; possibly make testcase to example; post diff to www-style for review.
+  
+==== Issue 192 ====
+  ;Summary : Clarifications to float's effect on its shortened line
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2009Oct/0027.html
+  ;Resolution : Accept change for first issue; accept s/further content/content after the float/ and s/it/that content/ for the second issue; third issue is invalid.
+  ;Status : Open. =Tab= Summarize http://lists.w3.org/Archives/Public/www-style/2010Sep/0053.html
+
+==== Issue 197 ====
+  ;Summary : Clarify application of 'clear' to run-ins.
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jan/0404.html
+  ;Proposed Wording : http://lists.w3.org/Archives/Public/www-style/2010Sep/0682.html
+  ;Proposal A: Clear on run-in and its containing block combine.
+  ;Proposal B: Clear does not apply to inline run-ins.
+  ;Proposal C: Clear does not apply to elements with display: run-in. (safest)
+  ;Status : Open. =arronei= Post test results.
+
+==== Issue 198 ====
+  ;Summary : Clarify interaction of run-ins and "elements earlier in the source document".
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jan/0376.html
+  ;Proposal : Say that for all layout purposes, the run-in is considered a direct child of the block to which it belongs.
+  ;Status : Open. =Steve= Write updated proposal based on http://lists.w3.org/Archives/Public/www-style/2010Aug/0448.html
+
+==== Issue 199 ====
+  ;Summary : Define when line boxes are present
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010May/0698.html
+  ;Status : Open. =Tab= Email bz and dbaron for review.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Oct/0707.html
+
+==== Issue B ====
+  ;Summary : Percentage intrinsic widths untestable
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Nov/0077.html
+  ;Resolution : Remove all mention of percentage intrinsic widths from CSS2.1
+  ;Status : Open. =Bert= Edit.
+
+==== Issue C ====
+  ;Summary : Clarify that Line Separator LS and other (non-collapsed) forced-break Unicode chars break the line
+  ;URI : http://krijnhoetmer.nl/irc-logs/css/20101111
+  ;Resolution : Make line breaking behavior of forced-break Unicode chars undefined in CSS2.1 so that CSS3 can define it.
+  ;Status : Open. =fantasai= Propose text.
+
+==== Issue D ====
+  ;Summary : Clip does not respond to 'direction' in most implementations
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Nov/0174.html
+  ;Resolution : Make 'clip' not respond to 'direction' in the spec.
+  ;Status : Open. =Bert= Edit.
+
+==== Issue E ====
+  ;Summary : Run-ins should not run in across text 
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Oct/0141.html
+  ;Resolution : 
+  ;Status : Open. =WG= Discuss.
+
+===== 8 September 2010 CR Issues =====
+
+The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|8 September 2010 CSS2.1 Candidate Recommendation]]. Any resulting changes or corrections have been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS2-20090908-errata.html|errata list]] and incorporated into the [[7 December 2010 Last Call Working Draft|http://www.w3.org/TR/2010/WD-CSS2-20101207/]].
 
 ==== Issue 53 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0227.html
@@ -33,7 +104,7 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Summary : Should text-decoration propagate through internal table elements?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0334.html
   ;Resolution : Proposal accepted.
-  ;Status : Edited, need review
+  ;Status : Closed.
   ;Testcases : text-decoration-propagation-006 [could also use one for display: table]
 
 ==== Issue 60 ====
@@ -171,15 +242,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0435.html
   ;Status : Edited, needs review.
 
-==== Issue 142 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Sep/0126.html #4
-  ;Summary : clarify terms like "ancestor box", whether referring to formatting structure or document tree. Spec contains only 3 instances of ancestor box. They are all in section 10.1.
-  ;Resolution : Agreed this is ambiguous.
-  ;Proposal : [[http://lists.w3.org/Archives/Public/www-style/2010Aug/0436.html|first version,]] [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0042.html|second version, with support for run-in]]
-  ;Follow-up 1 : There is probably an [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0044.html|error]] in the resolution of [[#issue-120|issue 120]]. If so, the proposal needs changing.
-  ;Follow-up 2 : [[http://lists.w3.org/Archives/Public/www-style/2010Aug/0443.html|Boris Zbarsky asks]] that the containing block of an element inside a table, in the absence of a table element, be created from the height of the row and the width of the column, even if one or both of those are implied rather than actual elements. If we accept that change, the proposal needs changing.
-  ;Status : Open. =Bert= Update proposal to correctly handle http://lists.w3.org/Archives/Public/www-style/2010Aug/0443.html (follow-up 2).
-
 ==== Issue 143 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0022.html
   ;Summary : unclear whether default attributes can be matched
@@ -276,12 +338,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
-==== Issue 159 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0015.html http://lists.w3.org/Archives/Public/www-style/2010Aug/0183.html
-  ;Summary : Clarify definition of adjoining margins
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Sep/0684.html
-  ;Status : Open. =Bert= Edit per http://lists.w3.org/Archives/Public/www-style/2010Oct/0842.html.
-
 ==== Issue 160 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Feb/0637.html
   ;Summary : Specify whether first page is :left or :right?
@@ -366,11 +422,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Status : Edited, needs review.
   ;Testcases : n/a (editorial)
 
-==== Issue 181 ====
-  ;Summary : use of 'height' in 10.8 causes confusion over content height and line-height wrt inline elements
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0010.html
-  ;Status : Open. =Bert= Edit as appropriate; possibly make testcase to example; post diff to www-style for review.
-
 ==== Issue 182 ====
   ;Summary : Term "row group" not defined.
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0515.html
@@ -420,12 +471,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   :Proposal : Append to "CSS 2.1 does not specify the precise location of the marker box" "or its position in the painting order".
   ;Status : Edited, needs review. 
 
-==== Issue 192 ====
-  ;Summary : Clarifications to float's effect on its shortened line
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2009Oct/0027.html
-  ;Resolution : Accept change for first issue; accept s/further content/content after the float/ and s/it/that content/ for the second issue; third issue is invalid.
-  ;Status : Open. =Tab= Summarize http://lists.w3.org/Archives/Public/www-style/2010Sep/0053.html
-
 ==== Issue 193 ====
   ;Summary : Add note to 6.2 clarifying that inheritance operates on the element tree and does not get intercepted by anonymous boxes.
   ;URI : None
@@ -455,26 +500,6 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Resolution : Identifiers can contain nbsp. Update spec to include nbsp and exclude control characters adjacent to it.
   ;Status : Edited, needs review.
 
-==== Issue 197 ====
-  ;Summary : Clarify application of 'clear' to run-ins.
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jan/0404.html
-  ;Proposed Wording : http://lists.w3.org/Archives/Public/www-style/2010Sep/0682.html
-  ;Proposal A: Clear on run-in and its containing block combine.
-  ;Proposal B: Clear does not apply to inline run-ins.
-  ;Proposal C: Clear does not apply to elements with display: run-in. (safest)
-  ;Status : Open. =arronei= Post test results.
-
-==== Issue 198 ====
-  ;Summary : Clarify interaction of run-ins and "elements earlier in the source document".
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jan/0376.html
-  ;Proposal : Say that for all layout purposes, the run-in is considered a direct child of the block to which it belongs.
-  ;Status : Open. =Steve= Write updated proposal based on http://lists.w3.org/Archives/Public/www-style/2010Aug/0448.html
-
-==== Issue 199 ====
-  ;Summary : Define when line boxes are present
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010May/0698.html
-  ;Status : Open. =Tab= Email bz and dbaron for review.
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Oct/0707.html
 
 ==== Issue 201 ====
   ;Summary : Table model editorial
@@ -488,41 +513,15 @@ TODO: Audit issues list and make sure each issue has tests in the test suite. Th
   ;Resolution : Add inline-table.
   ;Status : Edited, needs review.
 
-==== Issue B ====
-  ;Summary : Percentage intrinsic widths untestable
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Nov/0077.html
-  ;Resolution : Remove all mention of percentage intrinsic widths from CSS2.1
-  ;Status : Open. =Bert= Edit.
+===== 8 September 2009 CR Issues =====
 
-==== Issue C ====
-  ;Summary : Clarify that Line Separator LS and other (non-collapsed) forced-break Unicode chars break the line
-  ;URI : http://krijnhoetmer.nl/irc-logs/css/20101111
-  ;Resolution : Make line breaking behavior of forced-break Unicode chars undefined in CSS2.1 so that CSS3 can define it.
-  ;Status : Open. =fantasai= Propose text.
+The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-20090908/|8 September 2010 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2010/WD-CSS2-20101207/|7 December 2010 LCWD]].
 
-==== Issue D ====
-  ;Summary : Clip does not respond to 'direction' in most implementations
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Nov/0174.html
-  ;Resolution : Make 'clip' not respond to 'direction' in the spec.
-  ;Status : Open. =Bert= Edit.
+**These issues are intermixed in the April 2009 section. :(**
 
-==== Issue E ====
-  ;Summary : Run-ins should not run in across text 
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Oct/0141.html
-  ;Resolution : 
-  ;Status : Open. =WG= Discuss.
+===== 23 April 2009 CR Issues =====
 
-==== Other Issues ====
-
-http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0013.html
-
-==== Continued... ====
-
-The issues list continues as the [[spec:css2.1:last-call-2010|Last Call Issues List 2010]]
-
-===== 08 September 2009 CR Issues =====
-
-The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20090908/|08 September 2009 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20101207/|07 December 2010 CSS2.1 Candidate Recommendation]].
+The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|23 April 2009 CSS2.1 Candidate Recommendation]]. The resulting changes and corrections have been incorporated into the [[http://www.w3.org/TR/2009/CR-CSS2-20090908/|8 September 2010 CSS2.1 Candidate Recommendation]].
 
 ==== Issue 25 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2007Dec/0167.html http://lists.w3.org/Archives/Public/www-style/2008Jul/0575.html
