@@ -172,7 +172,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Proposal : Define table-caption etc. to format their contents exactly like blocks, and remove all explicit lists (and just talk about blocks) elsewhere so we don't keep getting out-of-sync. http://lists.w3.org/Archives/Public/www-style/2010Aug/0399.html
   ;Resolution : Proposal accepted.
   ;Follow-up 1 : There is probably an [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0044.html|error]] in the replacement text for bullet 2 in 10.2. Note that this replacement text anyway needs to change again, because of [[#issue-142|issue 142.]]
-  ;Status : Edited, needs review.
+  ;Status : =Bert= Fix [[http://lists.w3.org/Archives/Member/w3c-css-wg/2011JanMar/0145.html|missed edits]]
   ;Testcases : n/a (editorial)
 
 ==== Issue 121 ====
