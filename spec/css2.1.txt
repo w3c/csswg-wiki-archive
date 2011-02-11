@@ -223,7 +223,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Summary : Does relatively positioning a float's parent also offset the float?
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0329.html
   ;Resolution : Proposal accepted with s/block/inline/ at the very end.
-  ;Status : Edited, needs review.
+  ;Status : Closed.
   ;Testcases : block-in-inline-relpos-001 and block-in-inline-relpos-002
 
 ==== Issue 139 ====
