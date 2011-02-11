@@ -281,7 +281,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Jan/0432.html
   ;Summary : Add 'unicode-bidi: embed' to all block-level elements in the sample HTML4 style sheet
   ;Resolved : Proposal accepted.
-  ;Status : Edited, needs review.
+  ;Status : Closed.
   ;Testcases : n/a (informative)
 
 ==== Issue 149 ====
