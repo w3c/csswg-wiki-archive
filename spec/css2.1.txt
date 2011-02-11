@@ -298,7 +298,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0041.html
   ;Summary : Change "Every CSS2.1 property" to "Every CSS property" in 4.1.8
   ;Resolution : Assumed editorial.
-  ;Status : Edited, needs review.
+  ;Status : Closed.
   ;Testcases : n/a (editorial)
 
 ==== Issue 151 ====
