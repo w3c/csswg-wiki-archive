@@ -115,7 +115,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Resolution : Exact text deferred to Sylvain, Bert to check that it is only editorial changes.
   ;Final Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0496.html http://lists.w3.org/Archives/Public/www-style/2010Jun/0515.html
   ;Bert's review : http://lists.w3.org/Archives/Public/www-style/2010Jul/0056.html
-  ;Status : Edited, needs review
+  ;Status : Open. =Sylvain= Review http://lists.w3.org/Archives/Public/www-style/2011Feb/0329.html
   ;Testcases : n/a (editorial)
 
 ==== Issue 69 ====
