@@ -214,7 +214,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Summary : Do anonymous blocks become the containing block for floats or inline-blocks?
   ;Proposal : Percentage calculations ignore anonymous blocks. http://lists.w3.org/Archives/Public/www-style/2010Jul/0226.html
   ;Resolution : Proposal accepted.
-  ;Status : Edited, needs review.
+  ;Status : Closed.
   ;Testcase : anonymous-boxes-001
 
 ==== Issue 138 ===
