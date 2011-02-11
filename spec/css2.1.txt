@@ -230,7 +230,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Oct/0206.html
   ;Summary : The url token allows a backslash both as the first character in an {escape} and on its own. It should never be on its own.
   ;Proposal : Change to ''([!#$%&*-\[\]-~]|{nonascii}|{escape})*'' (see the e-mail)
-  ;Status : Edited, needs review.
+  ;Status : Closed.
 
 ==== Issue 140 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Oct/0262.html
