@@ -147,7 +147,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Proposal A (abspos ignored) : http://lists.w3.org/Archives/Public/www-style/2010Jul/0372.html
   ;Proposal B (abspos placeholders) : http://lists.w3.org/Archives/Public/www-style/2010Jul/0404.html
   ;Resolution : Proposal B accepted.
-  ;Status : Edited, needs review
+  ;Status : Closed.
   ;Testcases : table-anonymous-objects-*
 
 ==== Issue 111 ====
