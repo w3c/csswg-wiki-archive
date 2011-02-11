@@ -260,7 +260,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Resolution : No change. Forced breaks are paragraph separators. Need clarification to text that LS's bidi behavior is not overridden.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0459.html
   ;Resolution : Proposal accepted.
-  ;Status : Edited, needs review.
+  ;Status : Closed.
   ;Testcases : bidi-breaking-001 and bidi-breaking-002
 
 ==== Issue 146 ====
