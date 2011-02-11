@@ -157,7 +157,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Proposal 1 : http://lists.w3.org/Archives/Public/www-style/2009May/0145.html
   ;Proposal 2 : http://lists.w3.org/Archives/Public/www-style/2010Mar/0349.html
   ;Resolution : Proposal 1 accepted.
-  ;Status : Edited, needs review. =jdaggett= update testcases
+  ;Status : Closed. =jdaggett= update testcases
 
 ==== Issue 118 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html (Issue 7)
