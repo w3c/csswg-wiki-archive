@@ -195,7 +195,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Summary : display: run-in needs clarification
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jul/0025.html
   ;Resolution : http://lists.w3.org/Archives/Public/www-style/2009Nov/0249.html
-  ;Status : Edited, needs review.
+  ;Status : Closed.
 
 ==== Issue 129 ====
   ;Summary : Reduce backup in tokenizer
