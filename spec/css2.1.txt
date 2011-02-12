@@ -138,19 +138,19 @@ Last mailing list sweep 2010-08-05 – fantasai
   ; URI : first-line-pseudo-016
   ;Status : Open. =WG= Discuss.
 
-==== Issue B ====
+==== Issue 218 ====
   ;Summary : Percentage intrinsic widths untestable
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Nov/0077.html
   ;Resolution : Remove all mention of percentage intrinsic widths from CSS2.1
   ;Status : Open. =Bert= Edit.
 
-==== Issue C ====
+==== Issue 219 ====
   ;Summary : Clarify that Line Separator LS and other (non-collapsed) forced-break Unicode chars break the line
   ;URI : http://krijnhoetmer.nl/irc-logs/css/20101111
   ;Resolution : Make line breaking behavior of forced-break Unicode chars undefined in CSS2.1 so that CSS3 can define it.
   ;Status : Open. =fantasai= Propose text.
 
-==== Issue D ====
+==== Issue 220 ====
   ;Summary : Clip does not respond to 'direction' in most implementations
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Nov/0174.html
   ;Resolution : Make 'clip' not respond to 'direction' in the spec.
