@@ -137,7 +137,8 @@ Last mailing list sweep 2010-08-05 – fantasai
 
   ; Summary : Drop vertical-align from list of properties supported on ::first-line
   ; URI : first-line-pseudo-016
-  ;Status : Open. =WG= Discuss.
+  ; Resolution : Drop.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 218 ====
   ;Summary : Percentage intrinsic widths untestable
