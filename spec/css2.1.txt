@@ -419,7 +419,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jun/0285.html
   ;Summary : Encoding errors in bibliography
   ;Resolution : Assumed editorial.
-  ;Status : Edited, needs review.
+  ;Status : Closed.
   ;Testcases : n/a (editorial)
 
 ==== Issue 160 ====
