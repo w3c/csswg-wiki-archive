@@ -157,6 +157,11 @@ Last mailing list sweep 2010-08-05 – fantasai
   ;Status : Open. =Bert= Edit.
 
 
+==== Issue 221 ====
+  ;Summary : Remove gamma-correction section
+  ;URI : 
+  ;Resolution : Remove gamma-correction section
+  ;Status : Open. =Bert= Edit.
 
 ===== 8 September 2009 CR Issues =====
 
