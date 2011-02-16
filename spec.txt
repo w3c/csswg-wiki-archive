@@ -1,35 +1,44 @@
 ====== Specification Issues and Planning ======
-
 This section documents problems found in the CSS specs and working drafts. Problems documented here will be addressed by the editors, possibly after discussion in a CSS Working Group meeting, and will result in changes, corrections, clarifications, or no change.
 
-  * [[spec:css2.1|CSS Level 2 Revision 1]]
-
+===== cross-group specs =====
   * [[spec:css-style-attr|CSS Style Attributes]]
 
-  * [[spec:css3-background|CSS Backgrounds and Borders Module Level 3]]
-  * [[spec:css3-ui|CSS Basic User Interface Module Level 3]]
-  * [[spec:css3-box|CSS Box Module Level 3]]
+===== Level 2 =====
+  * [[spec:css2.1|CSS Level 2 Revision 1]]
+
+===== Level 3 =====
+==== PR ====
+Awaiting 2.1 to go PR (so these can go REC)
+  * [[spec:css3-selectors|Selectors Level 3]] (might need minor revision per :active vs "activate" discussion)
   * [[spec:css3-color|CSS Color Module Level 3]]
+==== CR ====
+Awaiting implementations, test suites, or actively being revised per implementation experience.
+  * [[spec:css-ruby|CSS3 Ruby Module]]
+  * [[spec:css3-ui|CSS Basic User Interface Module Level 3]] (another LCWD expected)
+  * [[http://dev.w3.org/csswg/css3-namespace/issues-2|CSS Namespaces]]
+  * [[spec:css-multicol|CSS Multi-Column Layout Module Level 3]]
+  * [[spec:mediaqueries|Media Queries Level 3]]
+  * [[spec:css3-background|CSS Backgrounds and Borders Module Level 3]]
+==== WD ====
+These are being actively developed.
   * [[spec:css3-flexbox|CSS Flexbox Module]]
   * [[spec:css3-lists|CSS Lists Module Level 3]]
-  * [[spec:css-multicol|CSS Multi-Column Layout Module Level 3]]
-  * [[http://dev.w3.org/csswg/css3-namespace/issues-2|CSS Namespaces]]
-  * [[spec:css-ruby|CSS Ruby Module]]
   * [[spec:css3-text|CSS Text Module Level 3]]
   * [[spec:css3-text-layout|CSS Text Layout Module Level 3]]
+==== old ====
+These specs need active editors/owners.
+  * [[spec:css3-box|CSS Box Module Level 3]]
   * [[spec:css3-values|CSS Values and Units Module Level 3]]
-  * [[spec:css3-selectors|Selectors Level 3]]
-  * [[spec:mediaqueries|Media Queries Level 3]]
-
-====== Specification Outlining ======
-
-This section outlines possibilities for future specs.
-
-  * [[spec:css4-page|CSS Paged Media Level 4]]
-  * [[spec:selectors4|Selectors Level 4]]
   * [[spec:css3-overflow|CSS Overflow Level 3]]
   * [[spec:css3-content|CSS Generated Content Level 3]]
   * [[spec:box-orphans|Box-model-related features with no home]]
+
+===== Level 4 =====
+This section outlines possibilities for future specs.
+  * [[spec:css4-ui|CSS User Interface Module Level 4]] (collecting features and ideas)
+  * [[spec:css4-page|CSS Paged Media Level 4]]
+  * [[spec:selectors4|Selectors Level 4]]
 
 ====== Specification Reviews ======
 
