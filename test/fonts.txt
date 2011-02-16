@@ -21,3 +21,7 @@ The Ahem font is available in several formats for different systems. If we are m
   - Right-click the font and select "Install"
   - Alternatively, drag and drop in either ''/Library/Fonts'' (available for all users on the machine) or ''~/Library/Fonts'' (available to current user only)
 
+
+==== Additional Fonts ====
+
+Some tests require additional "CSSTest" fonts. You can download a [[http://www.w3.org/Style/CSS/Test/Fonts/css-testsuite-fonts-v1.zip|zip file]] of those and the Ahem font.
