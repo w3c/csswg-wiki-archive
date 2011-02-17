@@ -9,16 +9,20 @@ CSS4-UI is for new features above and beyond CSS3-UI.
 In somewhat order of priority:
 
 ===== extensions to css3-ui features =====
+
+==== implementation extensions ====
 Implementations may have found it useful to extend existing CSS3-UI features, but perhaps they are only experimental extensions or single implementations.
 
 As these are most likely to be practical and minimal (and supported by a second implementation), these are the first features we'll consider.
 
   * ...
 
-Second, users, authors may have found that they wanted a CSS3-UI feature to work a certain way beyond the spec, and these real world needs are a second consideration.
+==== real world author extension needs ====
+Second, users and authors may have found that they wanted a CSS3-UI feature to work a certain way in their sites, and these real world needs are a second consideration.
 
   * ...
 
+==== theoretical extension requests ====
 Third, there are hypothetical requests for extensions to CSS3-UI features. As these are not real world proven (only theoretical) demands, they are purely tertiary. We may consider them optimistically and include them in working drafts to solicit feedback and additional interest.
 
   * ...
@@ -28,10 +32,27 @@ Brand new features fo CSS4-UI. We'll follow the same prioritization as above.
 
   * ...
 
-===== dropped css3-ui features =====
-Features that were dropped from CSS3-UI (e.g. the 2004 CR) are eligible to be considered for CSS4-UI, but they will need a strong justification as having been ignored by implementations for 6+ years means there was likely something wrong with them and they need major revising.
+===== dropped css3 features =====
+Features that were dropped from CSS3-UI (e.g. the 2004 CR) are eligible to be considered for CSS4-UI, but they will need a strong justification as having been ignored by implementations for 6+ years means there was likely something wrong with them and they need major revising. In addition, features dropped from other CSS3 specs or trimmed when bringing over to CSS3-UI are also considered here.
 
-  * ...
+==== text-overflow string ====
+text-overflow: <string>. consider incorporating dropped <string> value. 
+
+Originally text-overflow: <string> was [[http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis|defined in CSS3 Text CR 2003-05-14]] - but no one implemented it. Thus any request for including this MUST include some justification as to why/how implementations would consider it differently than they did (and reject) for CSS3 Text CR 2003.
+
+Possible spec markup:
+
+<code>
+<td>clip | ellipsis | 
+   <a class="noxref" href="http://www.w3.org/TR/CSS21/syndata.html#value-def-string">
+     <span class="value-inst-string">&lt;string&gt;</span></a>
+</td>
+...
+      <dt><dfn title="text-overflow:&lt;string&gt;">
+           <var>&lt;string&gt;</var></dfn></dt>
+        <dd>Render the given string to represent clipped text.</dd>
+</code>
+
 
 ====== css4-ui issues list ======
 
