@@ -71,8 +71,9 @@ text-overflow: second <string> as an overflow visual hint after the element box.
 
 Originally text-overflow: second <string> was [[http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis|defined in CSS3 Text CR 2003-05-14]] - but no one implemented it. Thus any request for including this MUST include some justification as to why/how implementations would consider it differently than they did (and reject) for CSS3 Text CR 2003.
 
-Theoretical use-cases:
-  * ???
+Use-cases:
+  * what iTunes App Store does for its app descriptions (more details needed).
+  * ...
 
 ====== css4-ui issues list ======
 
