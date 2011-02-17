@@ -553,7 +553,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;URI : http://lists.w3.org/Archives/Public/www-style/2009Dec/0093.html
   ;Resolution : Make undefined; proposal accepted.
   :Proposal : Append to "CSS 2.1 does not specify the precise location of the marker box" "or its position in the painting order".
-  ;Status : Edited, needs review. 
+  ;Status : Closed.
 
 ==== Issue 193 ====
   ;Summary : Add note to 6.2 clarifying that inheritance operates on the element tree and does not get intercepted by anonymous boxes.
