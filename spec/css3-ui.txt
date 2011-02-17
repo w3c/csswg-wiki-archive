@@ -1,3 +1,14 @@
+====== css3-ui faq ======
+
+===== text-overflow for non-latin scripts =====
+Q: Many non latin scripts use something else than 3 dots for the same effect as an ellipsis. How does this work?
+
+A: The current editor's draft allows implementations to use something other than 3 dots:
+
+"Implementations may substitute a more language/script-appropriate ellipsis character."
+
+from http://dev.w3.org/csswg/css3-ui/#text-overflow
+
 ====== css3-ui issues list ======
 
 The [[http://www.w3.org/TR/css3-ui/|CSS Basic User Interface Module Level 3]] (CSS3-UI, latest public TR version) defines user interface related selectors, properties and values.
