@@ -594,7 +594,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Summary : inline tables accidentally left out of applies-to list for 'overflow'
   ;URI : http://www.w3.org/mid/20101016195038.GA17927@pickering.dbaron.org
   ;Resolution : Add inline-table.
-  ;Status : Edited, needs review.
+  ;Status : Closed.
 
 ===== 8 September 2009 CR Issues =====
 
