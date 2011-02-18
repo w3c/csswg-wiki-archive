@@ -26,7 +26,7 @@ This page tracks tests that have failures blocking CR exit.
 ==== Tests Expecting Spec Changes ====
 
   * <del>containing-block-032 - Passed by Trident (IE7 only, not IE9) (David) [[https://bugs.webkit.org/show_bug.cgi?id=53106|Webkit bug]] [[https://bugzilla.mozilla.org/show_bug.cgi?id=489100|Gecko bug]];</del> we should try to make this undefined since it seems we're unlikely to get a fix in the near future. Fantasai to propose text.
-  * [[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes. Leave undefined for 2.1; needs text, test breakup.
+  * <del>[[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes. Leave undefined for 2.1. Split test into 'may' and 004a subset.</del> STILL NEED PASSES ON bidi-004a
   * <del>first-line-pseudo-016 - Passed by Gecko (David)</del> - Changed to MAY; Remove valign from the list
 
 ==== Tests Needing Breakup or Implementation ====
