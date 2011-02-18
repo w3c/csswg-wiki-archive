@@ -26,14 +26,14 @@ This page tracks tests that have failures blocking CR exit.
 ==== Tests Expecting Spec Changes ====
 
   * <del>containing-block-032 - Passed by Trident (IE7 only, not IE9) (David) [[https://bugs.webkit.org/show_bug.cgi?id=53106|Webkit bug]] [[https://bugzilla.mozilla.org/show_bug.cgi?id=489100|Gecko bug]];</del> we should try to make this undefined since it seems we're unlikely to get a fix in the near future. Fantasai to propose text.
-  * <del>[[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes. Leave undefined for 2.1. Split test into 'may' and 004a subset.</del> STILL NEED PASSES ON bidi-004a
+  * <del>[[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes. Leave undefined for 2.1. Split test into 'may' and 004a subset.</del>
   * <del>first-line-pseudo-016 - Passed by Gecko (David)</del> - Changed to MAY; Remove valign from the list
 
 ==== Tests Needing Breakup or Implementation ====
 
-  * [[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-001a]] - Passed by Prince. Fantasai to break into two tests
   * forced-page-breaks-000 - Passed by Prince. Need second pass.
   * orphans-004a - Prince passes, everyone else fails. If we removed orphans:0; IE9 would start to pass.
+  * bidi-004a - Split off from bidi-004. Needs passes. (FF4? IE9? Opera and Webkit fail.)
 
 ===== Tests No Longer Blocking =====
 
@@ -41,6 +41,7 @@ Listed awaiting next snapshot and official reports.
 
 ==== Implementations Found ====
 
+  * <del>[[test:css2.1:blocking:allowed-page-breaks|allowed-page-breaks-001a]]</del> - Passed by Prince and WebToPDF pre-release.
   * <del>before-after-table-parts-001</del> - Passed by Gecko and IE9 [[https://bugs.webkit.org/show_bug.cgi?id=53114|Webkit bug]] At risk
   * <del>first-line-selector-015 - Passed by Trident (David)</del> - We have two passes
   * <del>first-page-selectors-002 - Passed by WebKit</del> - We have two passes
