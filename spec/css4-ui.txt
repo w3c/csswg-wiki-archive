@@ -18,6 +18,7 @@ As these are most likely to be practical and minimal (and supported by a second 
   * cursor: grab - supported by Mozilla as -moz-grab
   * cursor: grabbing - supported by Mozilla as -moz-grabbing
     * both per https://developer.mozilla.org/en/CSS/cursor#Mozilla_extensions
+    * consider more from: http://www.gtalbot.org/DHTMLSection/Cursors.html#Proprietary
 
 ==== real world author extension needs ====
 Second, users and authors may have found that they wanted a CSS3-UI feature to work a certain way in their sites, and these real world needs are a second consideration.
