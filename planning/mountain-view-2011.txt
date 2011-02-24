@@ -2,6 +2,8 @@
 
 Topics for the March 2011 CSS Working Group Face-to-Face meeting in Mountain View, California.
 
+  * CSS 2.1 Remaining Issues
+  * CSS 2.1 Remaining Blocked Tests
   * EPUB requirements
   * CSS3 Text
   * CSS3 Writing Modes review
@@ -9,6 +11,7 @@ Topics for the March 2011 CSS Working Group Face-to-Face meeting in Mountain Vie
   * [css3-fonts] WOFF and same origin restriction
   * [css3-fonts] revisions to the font matching algorithm
   * Charter extension (current charter expires 3/31)
+  * Adobe's CSS Regions Proposal (tues)
 
 ====== Notes ======
 
