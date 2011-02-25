@@ -1,6 +1,6 @@
 ====== Mountain View F2F March 2011 ======
 
-Topics for the [http://www.w3.org/Style/Group/2011/MountainView March 2011 CSS Working Group Face-to-Face] meeting in Mountain View, California.
+Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS Working Group Face-to-Face]] meeting in Mountain View, California.
 
   * CSS 2.1 Remaining Issues
   * CSS 2.1 Remaining Blocked Tests
