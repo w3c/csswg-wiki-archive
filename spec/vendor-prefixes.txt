@@ -65,6 +65,8 @@ Opera has recently implemented (in Opera 11.10) vendor-specific versions as well
 
 The definition and function of this feature feel fairly stable, very unlikely to functionally change between the editor's draft and the next CR of CSS3-UI.
 
+It is desirable to consider allowing unprefixed implementations before people come to rely upon the vendor-prefixed version of the feature.
+
 Thus we should consider allowing implementations to implement unprefixed versions of 'zoom-in' and 'zoom-out'.
 
 If so, this is an interesting test case for iterating/changing the abovementioned guidance.
