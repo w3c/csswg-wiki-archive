@@ -1,8 +1,8 @@
 ====== CSS Vendor Prefixes ======
 
-In CSS we use vendor prefixes for:
-  * [[http://www.w3.org/TR/CSS21/syndata.html#vendor-keywords|vendor specific extensions (per CSS 2.1)]]
-  * [[http://www.w3.org/TR/css-2010/#experimental|experimental implementations (per CSS Snapshot 2010)]] of properties, values, @-rules from Working Drafts
+In CSS we use vendor prefixes for properties, values, @-rules that are:
+  * [[http://www.w3.org/TR/CSS21/syndata.html#vendor-keywords|vendor specific extensions (per CSS 2.1)]], or
+  * [[http://www.w3.org/TR/css-2010/#experimental|experimental implementations (per CSS Snapshot 2010)]] (e.g. in Working Drafts)
 
 This is a collection of the latest thoughts towards policy/guidance for when to use vendor prefixes in an implementation and when it is safe/right/required to drop vendor prefixes from implementations.
 
@@ -14,11 +14,13 @@ Simple straw proposal guidance. Terms per RFC2119 etc.
 ==== Working Draft features ====
 If you are implementing a property/value/@-rule feature which is only defined in a Working Draft (WD, including Last Call LCWD), your implementation:
   * SHOULD ([[http://www.w3.org/TR/css-2010/#experimental|per CSS-snapshot-2010]]) use a vendor-specific prefix for the implementation of the feature
+    * suggest this be changed to a MUST. - Tantek
   * MUST NOT support an unprefixed version of the feature
 
 ==== Candidate Recommendation features ====
 If you are implementing a property/value/@-rule feature which is defined in a Candidate Recommendation or later (CR, PR, REC), your implementation:
   * SHOULD ([[http://www.w3.org/TR/css-2010/#experimental|per CSS-snapshot-2010]]) support an unprefixed version of the feature
+    * suggest this be changed to a MUST. - Tantek
   * MUST NOT use a vendor-specific prefix for the implementation of the feature
 
 ==== Transitions ====
