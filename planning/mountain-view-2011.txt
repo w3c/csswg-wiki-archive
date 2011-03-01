@@ -12,10 +12,10 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * [css3-fonts] revisions to the font matching algorithm
   * Charter extension (current charter expires 3/31)
   * Adobe's CSS Regions Proposal (tues)
-  * CSS3 Line Grid
+  * CSS3 Line Grid (if time allows)
   * CSS3 Grid Alignment (tues.)
   * MSFT also requests Flexbox and Multicolumn items - if any - to be scheduled Tue.
-  * 
+  * [[tokyo-workshop-2011|Tokyo forum or workshop topics and dates]]
 
 ====== Notes ======
 
