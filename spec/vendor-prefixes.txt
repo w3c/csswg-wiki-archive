@@ -53,5 +53,24 @@ In theory, no, any features implemented from a WD should have a vendor-specific 
 In practice however, LCWD2s are typically far more stable and correct than their preceding CRs (e.g. CSS 2.1, Selectors, CSS3 Color), thus it stands to reason that if it was ok to implement new features as unprefixed in that CR, then it should be *more* ok in a LCWD2.
 
 
+===== specific cases =====
 
+==== cursor zoom-in zoom-out ====
 
+The CSS3-UI editor's draft defines two new (since the previous CSS3-UI CR) cursor values, zoom-in and zoom-out.
+
+Mozilla has supported these two values, *with* a vendor-specific prefix, for a number of years.
+
+Opera has recently implemented (in Opera 11.10) vendor-specific versions as well.
+
+The definition and function of this feature feel fairly stable, very unlikely to functionally change between the editor's draft and the next CR of CSS3-UI.
+
+Thus we should consider allowing implementations to implement unprefixed versions of 'zoom-in' and 'zoom-out'.
+
+If so, this is an interesting test case for iterating/changing the abovementioned guidance.
+
+What is the higher level condition here that merits considering allowing implementations to ship an unprefixed version of a feature?
+
+Perhaps some combination of:
+  * implementation experience *with* a vendor-prefixed version of the feature, combined with
+  * expected/anticipated feature stability (on a case-by-case basis - up to the usual consensus consideration of the working group).
