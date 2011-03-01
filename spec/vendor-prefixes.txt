@@ -1,0 +1,57 @@
+====== CSS Vendor Prefixes ======
+
+In CSS we use vendor prefixes for:
+  * [[http://www.w3.org/TR/CSS21/syndata.html#vendor-keywords|vendor specific extensions, per CSS 2.1]]
+  * implementations of properties, values, @-rules from Working Drafts
+
+This is a collection of the latest thoughts towards policy/guidance for when to use vendor prefixes in an implementation and when it is safe/right/required to drop vendor prefixes from implementations.
+
+There has been much discussion of vendor prefixes in both www-style and CSS working group face-to-face meetings, but nothing conclusive has been written up. Please feel free to research those www-style archives and CSS WG minutes (telcon, f2f) and add (with citation!) any conclusions here.
+
+===== simple guidance =====
+Simple straw proposal guidance. Terms per RFC2119 etc.
+
+==== Working Draft features ====
+If you are implementing a property/value/@-rule feature which is only defined in a Working Draft (WD, including Last Call LCWD), your implementation:
+  * MUST use a vendor-specific prefix for the implementation of the feature
+  * MUST NOT support an unprefixed version of the feature
+
+==== Candidate Recommendation features ====
+If you are implementing a property/value/@-rule feature which is defined in a Candidate Recommendation or later (CR, PR, REC), your implementation:
+  * MUST support an unprefixed version of the feature
+  * MUST NOT use a vendor-specific prefix for the implementation of the feature
+
+==== Transitions ====
+If you implemented a property/value/@-rule feature with a vendor-specific prefix when it was only defined in a Working Draft, and the WD transitions to Candidate Recommendation, then your implementation:
+  * SHOULD support an un-prefixed version of the feature (this will help exit CR)
+  * SHOULD consider dropping the vendor-specific prefixed version of the feature.
+
+===== open questions =====
+==== when to implement un-prefixed features ====
+When is the best time to implement the un-prefixed version of a feature?
+
+Ideally, when the feature is known to be 100% stable in a CR or better (that nearly never happens in practice).
+
+In practice, when a spec reaches CR.  
+
+However, there have been some specs in the past that reached their first CR "prematurely" for which it would have been bad had implementations implemented unprefixed features (e.g. CSS3 Text).
+
+There are also cases where a spec oscillates between CR and LCWD (e.g. CSS 2.1, CSS3 Color, Selectors, CSS3 UI), so it's not clear when during those oscillations it was "ideal" to implement unprefixed features.
+
+==== when to drop vendor-prefixed features ====
+When is the best time to drop support for the vendor-prefixed version of a feature?
+
+Ideally, when you implement the un-prefixed version.
+
+In practice, some implementations have found it necessary/useful to maintain both vendor-prefixed and unprefixed versions of a feature for some amount of time.  Different vendors appear to have different policies on this (specific examples/documentation/reasoning would be appreciated).
+
+==== it it ok to implement unprefixed features in a LCWD2 ====
+Is it ok to implement unprefixed features in a second LCWD (LCWD2), i.e. when a CR is taken back to Last Call for non-trivial changes?
+
+In theory, no, any features implemented from a WD should have a vendor-specific prefix.
+
+In practice however, LCWD2s are typically far more stable and correct than their preceding CRs (e.g. CSS 2.1, Selectors, CSS3 Color), thus it stands to reason that if it was ok to implement new features as unprefixed in that CR, then it should be *more* ok in a LCWD2.
+
+
+
+
