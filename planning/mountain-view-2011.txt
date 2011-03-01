@@ -16,7 +16,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * CSS3 Grid Alignment (tues.)
   * MSFT also requests Flexbox and Multicolumn items - if any - to be scheduled Tue.
   * [[tokyo-workshop-2011|Tokyo forum or workshop topics and dates]]
-  * [[css3-multicol]] 
+  * [css3-multicol]
  
 
 ====== Notes ======
