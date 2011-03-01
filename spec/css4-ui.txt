@@ -15,9 +15,10 @@ Implementations may have found it useful to extend existing CSS3-UI features, bu
 
 As these are most likely to be practical and minimal (and supported by a second implementation), these are the first features we'll consider.
 
-  * cursor: grab - supported by Mozilla as -moz-grab
-  * cursor: grabbing - supported by Mozilla as -moz-grabbing
-    * both per https://developer.mozilla.org/en/CSS/cursor#Mozilla_extensions
+  * new 'cursor' values:
+    * 'grab' - supported by Mozilla as [[https://developer.mozilla.org/en/CSS/-moz-grab|-moz-grab]]
+    * 'grabbing' - supported by Mozilla as [[https://developer.mozilla.org/En/CSS/-moz-grabbing|-moz-grabbing]]
+    * see [[https://developer.mozilla.org/en/CSS/cursor#Mozilla_extensions|CSS cursor Mozilla extensions]] for more
     * consider more from: http://www.gtalbot.org/DHTMLSection/Cursors.html#Proprietary
 
 ==== real world author extension needs ====
