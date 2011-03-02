@@ -8,6 +8,11 @@ This page tracks tests that have failures blocking CR exit.
 
 ===== Tests Currently Blocking =====
 
+  * bidi-breaking-002
+  * block-in-inline-relpos-002
+  * content-computed-value-001
+  * dynamic-top-change-005
+
 ==== Tests Expecting Implementation Updates ====
 
   * <del>[[test:css2.1:blocking:at-rule-013|at-rule-013]]</del> - Passed by Trident. Expecting implementation from Gecko (patch available, ETA FF 4.1) -Tantek
@@ -25,8 +30,6 @@ This page tracks tests that have failures blocking CR exit.
 
 ==== Tests Needing Breakup or Implementation ====
 
-  * forced-page-breaks-000 - Passed by Prince. Need second pass.
-  * orphans-004a - Prince passes, everyone else fails. If we removed orphans:0; IE9 would start to pass.
   * bidi-004a - Split off from bidi-004. Needs passes. (FF4? IE9? Opera and Webkit fail.)
 
 ===== Tests No Longer Blocking =====
@@ -39,11 +42,13 @@ Listed awaiting next snapshot and official reports.
   * <del>before-after-table-parts-001</del> - Passed by Gecko and IE9 [[https://bugs.webkit.org/show_bug.cgi?id=53114|Webkit bug]] At risk
   * <del>first-line-selector-015 - Passed by Trident (David)</del> - We have two passes
   * <del>first-page-selectors-002 - Passed by WebKit</del> - We have two passes
+  * <del>forced-page-breaks-000</del> - Passed by Antenna House, Prince and WebToPDF
   * <del>floats-wrap-top-below-bfc-001l - Passed by WebToPDF (David)</del> - We have two passes
   * <del>floats-wrap-top-below-bfc-001r - Passed by WebToPDF (David)</del> - We have two passes
   * <del>[[font-family-rule-011]] - Passed by Trident (Arron)</del> - We have two passes
   * <del>[[test:css2.1:blocking:margin-collapse|margin-collapse-clear-005]] - Passed by WebToPDF (Aaron, David)</del> - We have two passes
   * <del>[[test:css2.1:blocking:margin-collapse|margin-collapse-clear-011]] - Passed by WebToPDF (Aaron, David)</del> - We have two passes
+  * <del>orphans-004a</del> - Passed by Prince and WebToPDF
   * <del>[[test:css2.1:blocking:page-break|page-break-after-009]]</del> - Passed by Antenna House, Opera, and WebToPDF
   * <del>[[test:css2.1:blocking:page-break|page-break-before-009]]</del> - Passed by Antenna House, Opera, and WebToPDF
   * <del>[[test:css2.1:blocking:page-break|page-break-before-010]]</del> - Passed by Gecko, Opera, IE, and WebToPDF
