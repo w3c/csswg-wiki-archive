@@ -29,7 +29,7 @@ If you implemented a property/value/@-rule feature with a vendor-specific prefix
   * SHOULD consider dropping the vendor-specific prefixed version of the feature.
 
 ===== open questions =====
-==== when to implement un-prefixed features ====
+==== When to implement un-prefixed features ====
 When is the best time to implement the un-prefixed version of a feature?
 
 Ideally, when the feature is known to be 100% stable in a CR or better (that nearly never happens in practice).
@@ -39,6 +39,7 @@ In practice, when a spec reaches CR.
 However, there have been some specs in the past that reached their first CR "prematurely" for which it would have been bad had implementations implemented unprefixed features (e.g. CSS3 Text).
 
 There are also cases where a spec oscillates between CR and LCWD (e.g. CSS 2.1, CSS3 Color, Selectors, CSS3 UI), so it's not clear when during those oscillations it was "ideal" to implement unprefixed features.
+
 ==== When to drop vendor-prefixed features ====
 When is the best time to drop support for the vendor-prefixed version of a feature?
 
