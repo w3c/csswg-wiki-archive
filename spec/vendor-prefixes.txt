@@ -45,8 +45,7 @@ When is the best time to drop support for the vendor-prefixed version of a featu
 Ideally, when you implement the un-prefixed version.
 
 In practice, some implementations have found it necessary/useful to maintain both vendor-prefixed and unprefixed versions of a feature for some amount of time. Different vendors appear to have different policies on this. For example, WebKit has unmodifiable content which uses prefixed properties in the field, such as iTunes Extras, so is unable to deprecate those properties. (Other examples/documentation/reasoning would be appreciated).
-
-==== it it ok to implement unprefixed features in a LCWD2 ====
+==== Is it ok to implement unprefixed features in a LCWD2 ====
 Is it ok to implement unprefixed features in a second LCWD (LCWD2), i.e. when a CR is taken back to Last Call for non-trivial changes?
 
 In theory, no, any features implemented from a WD should have a vendor-specific prefix.
