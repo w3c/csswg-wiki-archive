@@ -39,13 +39,12 @@ In practice, when a spec reaches CR.
 However, there have been some specs in the past that reached their first CR "prematurely" for which it would have been bad had implementations implemented unprefixed features (e.g. CSS3 Text).
 
 There are also cases where a spec oscillates between CR and LCWD (e.g. CSS 2.1, CSS3 Color, Selectors, CSS3 UI), so it's not clear when during those oscillations it was "ideal" to implement unprefixed features.
-
 ==== when to drop vendor-prefixed features ====
 When is the best time to drop support for the vendor-prefixed version of a feature?
 
 Ideally, when you implement the un-prefixed version.
 
-In practice, some implementations have found it necessary/useful to maintain both vendor-prefixed and unprefixed versions of a feature for some amount of time.  Different vendors appear to have different policies on this (specific examples/documentation/reasoning would be appreciated).
+In practice, some implementations have found it necessary/useful to maintain both vendor-prefixed and unprefixed versions of a feature for some amount of time. Different vendors appear to have different policies on this. For example, WebKit has unmodifiable content in the field, such as iTunes Extras which uses prefixed properties, so is unable to deprecate those properties. (Other examples/documentation/reasoning would be appreciated).
 
 ==== it it ok to implement unprefixed features in a LCWD2 ====
 Is it ok to implement unprefixed features in a second LCWD (LCWD2), i.e. when a CR is taken back to Last Call for non-trivial changes?
