@@ -8,10 +8,10 @@ This page tracks tests that have failures blocking CR exit.
 
 ===== Tests Currently Blocking =====
 
-  * bidi-breaking-002
-  * block-in-inline-relpos-002
-  * content-computed-value-001
-  * dynamic-top-change-005
+  * bidi-breaking-002 - Test was split into bidi-breaking-002 and bidi-breaking-003, still fails. Passed by WebKit.
+  * block-in-inline-relpos-002 - Test was invalid, fixed, now fails. Passed by Gecko.
+  * content-computed-value-001 - Waiting for rewrite from Fantasai
+  * dynamic-top-change-005 - Accepted failure, functionality covered by sub tests
 
 ==== Tests Expecting Implementation Updates ====
 
@@ -24,7 +24,7 @@ This page tracks tests that have failures blocking CR exit.
 
 ==== Tests Expecting Spec Changes ====
 
-  * <del>containing-block-032 - Passed by Trident (IE7 only, not IE9) (David) [[https://bugs.webkit.org/show_bug.cgi?id=53106|Webkit bug]] [[https://bugzilla.mozilla.org/show_bug.cgi?id=489100|Gecko bug]];</del> we should try to make this undefined since it seems we're unlikely to get a fix in the near future. Fantasai to propose text.
+  * containing-block-032 - Passed by Trident (IE7 only, not IE9) (David) [[https://bugs.webkit.org/show_bug.cgi?id=53106|Webkit bug]] [[https://bugzilla.mozilla.org/show_bug.cgi?id=489100|Gecko bug]]; - we should try to make this undefined since it seems we're unlikely to get a fix in the near future. Fantasai to propose text.
   * <del>[[test:css2.1:blocking:bidi-004|bidi-004]] - No Passes. Leave undefined for 2.1. Split test into 'may' and 004a subset.</del>
   * <del>first-line-pseudo-016 - Passed by Gecko (David)</del> - Changed to MAY; Remove valign from the list
 
