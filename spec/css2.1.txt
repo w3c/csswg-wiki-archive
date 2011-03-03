@@ -95,6 +95,7 @@ Last mailing list sweep 2010-08-05 – fantasai
 
   ;Summary : Clearance is discontinuous
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0569.html
+  ;Related msgs : http://lists.w3.org/Archives/Public/www-style/2010Aug/0261.html http://lists.w3.org/Archives/Public/www-style/2010Aug/0262.html
   ;Status : Open. =WG= Discuss.
 
 ==== Issue 208 ====
