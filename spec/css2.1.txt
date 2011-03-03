@@ -52,9 +52,9 @@ Last mailing list sweep 2010-08-05 – fantasai
   ;Summary : Clarify application of 'clear' to run-ins.
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jan/0404.html
   ;Proposed Wording : http://lists.w3.org/Archives/Public/www-style/2010Sep/0682.html
-  ;Proposal A: Clear on run-in and its containing block combine.
-  ;Proposal B: Clear does not apply to inline run-ins.
-  ;Proposal C: Clear does not apply to elements with display: run-in. (safest)
+  ;Proposal A : Clear on run-in and its containing block combine.
+  ;Proposal B : Clear does not apply to inline run-ins.
+  ;Proposal C : Clear does not apply to elements with display: run-in. (safest)
   ;Resolution : Move run-in to CSS3 Box.
   ;Status : Closed.
 
