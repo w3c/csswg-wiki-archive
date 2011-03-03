@@ -46,6 +46,7 @@ Last mailing list sweep 2010-08-31 – fantasai
   ;URI : http://lists.w3.org/Archives/Public/www-style/2009Oct/0027.html
   ;Resolution : Accept change for first issue; accept s/further content/content after the float/ and s/it/that content/ for the second issue; third issue is invalid.
   ;Followup : http://lists.w3.org/Archives/Public/www-style/2010Sep/0053.html http://lists.w3.org/Archives/Public/www-style/2010Dec/0312.html #FL1
+  ;Additional followup: Third issue is not invalid: http://lists.w3.org/Archives/Public/www-style/2011Mar/0059.html
   ;Status : Open. =Bert= Review and comment? =WG= Discuss.
 
 ==== Issue 197 ====
