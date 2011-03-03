@@ -5,7 +5,7 @@ The [[http://www.w3.org/TR/CSS21/|CSS2.1 specification]] is a revision of of [[h
 
 TODO: Audit issues list and make sure each issue has tests in the test suite. Then institute policy that issues cannot be marked as closed until there is a test checked in for that issue.
 
-Last mailing list sweep 2010-08-05 – fantasai
+Last mailing list sweep 2010-08-31 – fantasai
 
 ===== Current Issues =====
 
