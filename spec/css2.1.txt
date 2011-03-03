@@ -106,7 +106,7 @@ Last mailing list sweep 2010-08-05 – fantasai
 ==== Issue 209 ====
 
   ;Summary : Does the root element establish a new block formatting context?
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0539.html
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0107.html http://lists.w3.org/Archives/Public/www-style/2010Aug/0539.html
   ;Proposal : The root element participates in a block formatting context established by the initial containing block.
   ;Status : Open. =errata= Deferred to Errata
 
