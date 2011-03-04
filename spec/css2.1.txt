@@ -123,9 +123,10 @@ Last mailing list sweep 2010-08-31 – fantasai
 ==== Issue 211 ====
 
   ;Summary : Transitivity error in margin collapsing
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Sep/0439.html
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Sep/0439.html http://lists.w3.org/Archives/Public/www-style/2010Sep/0451.html
   ;Status : Open. =WG= Discuss.
   
+
 ==== Issue 212 ====
 
   ;Summary : Clarify that table wrapper boxes are containing blocks, even though table boxes are not in 9.2.1
