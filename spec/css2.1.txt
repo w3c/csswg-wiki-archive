@@ -285,6 +285,20 @@ Misfiled. See Issue 192.
   ;Proposal B : display: table blocks text-decoration propagation
   ;Status : Open. =WG= Discuss.
 
+==== Issue 237 ====
+  ;Summary : Border conflict resolution unclear due to equivalence wording of outset/inset and groove/ridge
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Oct/0560.html
+  ;Proposal : s/same as/drawn the same as/
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit as appropriate.
+
+==== Issue 238 ====
+  ;Summary : Clarify interpretation of system font keywords
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Oct/0622.html
+  ;Proposal : Add a note or example?
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit as appropriate.
+
 ===== 8 September 2009 CR Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|8 September 2009 CSS2.1 Candidate Recommendation]]. Any resulting changes or corrections have been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS2-20090908-errata.html|errata list]] and incorporated into the [[7 December 2010 Last Call Working Draft|http://www.w3.org/TR/2010/WD-CSS2-20101207/]].
