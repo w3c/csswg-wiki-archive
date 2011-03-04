@@ -4,9 +4,9 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
 
   * CSS 2.1 Remaining Issues (Monday morning)
   * CSS 2.1 Remaining Blocked Tests (Monday morning)
-  * EPUB requirements
-  * CSS3 Text
-  * CSS3 Writing Modes review
+  * EPUB requirements (chairs should restrict to 1/2 hr max - Wed?)
+  * CSS3 Text (2 hours - Wed?)
+  * CSS3 Writing Modes review (0min, unless jdaggett or others have issues -- fantasai)
   * [css3-fonts] font-specific feature definition
   * [css3-fonts] WOFF and same origin restriction
   * [css3-fonts] revisions to the font matching algorithm
@@ -18,6 +18,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * [[tokyo-workshop-2011|Tokyo forum or workshop topics and dates]] - Tues afternoon or Weds
   * [css3-multicol] tues 20 minutes should be sufficient to resolve pseudo-algorithm and test suite startup
  
+  * CSS3 Module Template http://dev.w3.org/csswg/css-module/
 
 ====== Notes ======
 
