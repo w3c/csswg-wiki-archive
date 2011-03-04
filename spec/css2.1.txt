@@ -236,6 +236,12 @@ Misfiled. See Issue 192.
   ;Proposal : Add a note saying it's undefined and point to CSS3 Lists
   ;Status : Open. =WG= Discuss.
 
+==== Issue 231 ====
+  ;Summary : Make list-item-ness of root list-item optional
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0205.html
+  ;Testcases : http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20html%3E%0A%3Cstyle%3Ehtml%20{%20display%3A%20list-item%3B%20margin%3A%205em%3B%20}%3C%2Fstyle%3E
+  ;Status : Open. =WG= Discuss.
+
 ===== 8 September 2009 CR Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|8 September 2009 CSS2.1 Candidate Recommendation]]. Any resulting changes or corrections have been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS2-20090908-errata.html|errata list]] and incorporated into the [[7 December 2010 Last Call Working Draft|http://www.w3.org/TR/2010/WD-CSS2-20101207/]].
