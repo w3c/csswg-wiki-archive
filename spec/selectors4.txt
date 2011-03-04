@@ -19,3 +19,4 @@ Ideas to consider
   * [[http://lists.w3.org/Archives/Public/www-style/2010Jan/0308.html|limited descendant combinator]] [[http://www.onderhond.com/blog/work/missing-css-combinator|more info]]
   * Better definition of :first-letter http://lists.w3.org/Archives/Public/www-style/2010Aug/0063.html + note in Selectors L3
   * [[http://lists.w3.org/Archives/Public/www-style/2009Mar/0146.html|:nth-match(<selector>, <an+b>)]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0339.html|only-child-parent]] Most use cases for the parent selector care only about the only child. This doesn't have the same perf implications as a general parent selector.
