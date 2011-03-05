@@ -16,12 +16,28 @@ If you are implementing a property/value/@-rule feature which is only defined in
   * SHOULD ([[http://www.w3.org/TR/css-2010/#experimental|per CSS-snapshot-2010]]) use a vendor-specific prefix for the implementation of the feature
     * suggest this be changed to a MUST. - Tantek
   * MUST NOT support an unprefixed version of the feature
+  * MUST NOT support a prefix specific to a third party for the feature
+  * MAY use a prefix specific to the W3C for the feature, //if// the CSS WG ever introduces one
+    * quite disputed, ''-draft-'', ''-wd-'', ''-w3c-'', ''-css-'' and ''-csswg-'' would be possible prefixes – Crissov
 
 ==== Candidate Recommendation features ====
 If you are implementing a property/value/@-rule feature which is defined in a Candidate Recommendation or later (CR, PR, REC), your implementation:
   * SHOULD ([[http://www.w3.org/TR/css-2010/#experimental|per CSS-snapshot-2010]]) support an unprefixed version of the feature
     * suggest this be changed to a MUST. - Tantek
-  * MUST NOT use a vendor-specific prefix for the implementation of the feature
+  * MUST NOT use any vendor-specific prefix for the implementation of the feature
+
+==== Third-party features ====
+If you are implementing a property/value/@-rule feature which is defined in a mature non-W3C specification, your implementation:
+  * SHOULD use a prefix specific to the issuing body for the implementation of the feature
+  * MAY use a vendor-specific prefix for the implementation of the feature
+  * MUST NOT support an unprefixed version of the feature
+For non-mature specifications adopt the convention for WDs.
+
+==== Internal features ====
+If you are implementing a property/value/@-rule feature which is intended for internal use only, your implementation:
+  * MUST use a vendor-specific prefix for the implementation of the feature
+  * MUST NOT support an unprefixed version of the feature
+You should, however, consider proposing the feature to the CSS WG and then, if it is accepted, follow the convention for WDs.
 
 ==== Transitions ====
 If you implemented a property/value/@-rule feature with a vendor-specific prefix when it was only defined in a Working Draft, and the WD transitions to Candidate Recommendation, then your implementation:
@@ -30,50 +46,50 @@ If you implemented a property/value/@-rule feature with a vendor-specific prefix
 
 ===== open questions =====
 ==== When to implement un-prefixed features ====
-When is the best time to implement the un-prefixed version of a feature?
+When is the best time to implement the unprefixed version of a feature?
 
 Ideally, when the feature is known to be 100% stable in a CR or better (that nearly never happens in practice).
 
 In practice, when a spec reaches CR.  
 
-However, there have been some specs in the past that reached their first CR "prematurely" for which it would have been bad had implementations implemented unprefixed features (e.g. CSS3 Text).
+However, there have been some specs in the past that reached their first CR “prematurely” for which it would have been bad had implementations implemented unprefixed features (e.g. CSS3 Text).
 
-There are also cases where a spec oscillates between CR and LCWD (e.g. CSS 2.1, CSS3 Color, Selectors, CSS3 UI), so it's not clear when during those oscillations it was "ideal" to implement unprefixed features.
+There are also cases where a spec oscillates between CR and LCWD (e.g. CSS 2.1, CSS3 Color, Selectors, CSS3 UI), so it’s not clear when during those oscillations it was “ideal” to implement unprefixed features.
 
 ==== When to drop vendor-prefixed features ====
 When is the best time to drop support for the vendor-prefixed version of a feature?
 
-Ideally, when you implement the un-prefixed version.
+Ideally, when you implement the unprefixed version.
 
 In practice, some implementations have found it necessary/useful to maintain both vendor-prefixed and unprefixed versions of a feature for some amount of time. Different vendors appear to have different policies on this. For example, WebKit has unmodifiable content which uses prefixed properties in the field, such as iTunes Extras, so is unable to deprecate those properties. (Other examples/documentation/reasoning would be appreciated).
-==== Is it ok to implement unprefixed features in a post-CR LCWD ====
-Is it ok to implement unprefixed features in a post-CR LCWD, i.e. when a CR is taken back to Last Call for non-trivial changes?
+
+==== Is it okay to implement unprefixed features in a post-CR LCWD ====
+Is it okay to implement unprefixed features when a CR is taken back to Last Call for non-trivial changes?
 
 In theory, no, any features implemented from a WD should have a vendor-specific prefix.
 
-In practice however, LCWD2s are typically far more stable and correct than their preceding CRs (e.g. CSS 2.1, Selectors, CSS3 Color), thus it stands to reason that if it was ok to implement new features as unprefixed in that CR, then it should be *more* ok in a LCWD2.
-
+In practice however, LCWD2s are typically far more stable and correct than their preceding CRs (e.g. CSS 2.1, Selectors, CSS3 Color), thus it stands to reason that if it was ok to implement new features as unprefixed in that CR, then it should be **more** ok in a LCWD2.
 
 ===== specific cases =====
 
 ==== cursor zoom-in zoom-out ====
 
-The CSS3-UI editor's draft defines two new (since the previous CSS3-UI CR) cursor values, zoom-in and zoom-out.
+The CSS3-UI editor’s draft defines two new (since the previous CSS3-UI CR) cursor values, ''zoom-in'' and ''zoom-out''.
 
-Mozilla has supported these two values, *with* a vendor-specific prefix, for a number of years.
+Mozilla has supported these two values, **with** a vendor-specific prefix, for a number of years.
 
 Opera has recently implemented (in Opera 11.10) vendor-specific versions as well.
 
-The definition and function of this feature feel fairly stable, very unlikely to functionally change between the editor's draft and the next CR of CSS3-UI.
+The definition and function of this feature feel fairly stable, very unlikely to functionally change between the editor’s draft and the next CR of CSS3-UI.
 
 It is desirable to consider allowing unprefixed implementations before people come to rely upon the vendor-prefixed version of the feature.
 
-Thus we should consider allowing implementations to implement unprefixed versions of 'zoom-in' and 'zoom-out'.
+Thus we should consider allowing implementations to implement unprefixed versions of ''zoom-in'' and ''zoom-out''.
 
 If so, this is an interesting test case for iterating/changing the abovementioned guidance.
 
 What is the higher level condition here that merits considering allowing implementations to ship an unprefixed version of a feature?
 
 Perhaps some combination of:
-  * implementation experience *with* a vendor-prefixed version of the feature, combined with
-  * expected/anticipated feature stability (on a case-by-case basis - up to the usual consensus consideration of the working group).
+  * implementation experience **with** a vendor-prefixed version of the feature, combined with
+  * expected/anticipated feature stability (on a case-by-case basis – up to the usual consensus consideration of the working group).
