@@ -8,6 +8,7 @@ Ideas to consider
     * to select cells in a column: ''%%col.foo // td%%''
     * to select labels applying to an input control: ''%%input // label%%''
     * to select map elements associated with an image: ''%%img // map%%''
+    * to select arbitrary associated elements: ''%%x[href#] // y[id#]%%''
   * pseudo-attribute selectors, e.g. to select cells that are in the second column of a table: ''[#column=2]''
   * numeric attribute selectors, e.g. ''%%[height>2]%%'', ''%%[count<=5]%%'', ''%%[balance<0]%%'', ''%%[#row>1]%%''
   * [[http://lists.w3.org/Archives/Public/www-style/2008Mar/0193.html|:rtl and :ltr pseudo-classes]] (based on source ''dir'' attributes) (or maybe :dir(rtl|ltr)?)
