@@ -1,9 +1,47 @@
-====== Tokyo Workshop 2011 ======
+====== Tokyo Workshop or Forum 2011 ======
+===== Goal =====
+The goal of this forum is providing an opportunity to CSS community people and let them directly talk with the CSS WG participants so that both the group participants and community people can have better mutual understanding and greater interest in each other's work.
+Also we would like to see what kind of organization and/or mechanism would be suitable for improving the existing CSS specifications for Asian layout.
 
 ===== Scope / Audience =====
+==== Expected Participants ====
+  - CSS-WG participants
+  - Stakeholders from related industries, e.g.:
+  * Publishing or printing companies that own or seek solution for Asian text layout
+  * Software vendors or open source projects that offer Asian text layout capability, e.g., Web browser vendors
+  * Contents authors of Web pages and electronic books
+
+Stakeholders from Asian countries who work for actual products are expected to participate in the forum.
 
 ===== Topics =====
+Possible agenda topics include, but are not limited to the following:
+  - Spec review of CSS3 specifications which is related to Asian layout capability, e.g., Writing Modes and Text
+  - Presentations by Asin layout implementers and device vendors
+  - Presentations by contents authors, e.g., Web pages, publishing, printing, digital signage
+  - Panel discussions by all the key stakeholders
+
+Note: The requirements and opinions of the CSS WG should be considered.
 
 ===== Dates =====
+Note: Right before or right after the CSS WG F2F meeting in Japan on June 1-3 is 
+the candidate so far.
 
-Dates of F2F are June 1-3. Dates of workshop TBD.
+===== Language =====
+TBD
+
+Note : The forum will be mainly conducted in Japanese but the organizer is considering to provide simultaneous translation service at least for English.
+
+===== Organizing committee =====
+The forum will be organized by the following two groups:
+  * ”Text Layout for the Next Generation Web Browser Working Group” under the ICT Global Standardization Forum, supported by Ministry of Internal Affairs and Communications, Japan
+  * ”W3C/Keio”, Japan
+
+===== Organizing Committee Members =====
+  * Jun Murai, Chair (Keio University, Japan)
+  * Jay Kishigami, Secretary General (NTT Cyber Solutions Labs)
+  * Koji Ishii, Technical Leader (CSS-WG Editor)
+  * Masao Isshiki, W3C/Keio site manager (W3C)
+  * Kazuyuki Ashimura, Web&TV and MMI Activity Lead; Voice Team Contact (W3C)
+
+
+
