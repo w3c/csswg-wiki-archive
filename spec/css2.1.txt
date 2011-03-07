@@ -261,7 +261,8 @@ Misfiled. See Issue 192.
 ==== Issue 233 ====
   ;Summary : text-indent percentages behavior very odd for table cells and floats
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0431.html
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : No change.
+  ;Status : Closed.
 
 ==== Issue 234 ====
   ;Summary : Margin-collapsing and min-height inconsistent implementations.
