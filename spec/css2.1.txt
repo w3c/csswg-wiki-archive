@@ -104,9 +104,13 @@ Last mailing list sweep 2010-11-30 – fantasai
 ==== Issue 207 ====
 
   ;Summary : Clearance is discontinuous
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0569.html
+  ;URI (set 1) : http://lists.w3.org/Archives/Public/www-style/2010Aug/0569.html
   ;Related msgs : http://lists.w3.org/Archives/Public/www-style/2010Aug/0261.html http://lists.w3.org/Archives/Public/www-style/2010Aug/0262.html
-  ;Status : Open. =WG= Discuss.
+  ;Resolution: Merge with margin-collapse-clear issue, see
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Dec/0474.html
+  ;Testcases : margin-collapse-clear-005/011 and others
+  ;Resolution : Have CSS2.1 allow two possible margin collapsing behaviors in the margin-collapse-clear case: the hypothetical position before clearance is applied may be calculated either with respect to the parent block, or with respect to the containing block formatting context. (The preferred behavior is the latter, since it doesn't mysteriously eat margins and make clear to make things move up. But we need to evaluate web compat since Acid2 and therefore all browsers do the former.)
+  ;Status : Open. =Bert or fantasai or arronei= Propose text.
 
 ==== Issue 208 ====
 
