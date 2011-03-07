@@ -2,8 +2,20 @@
 
 Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS Working Group Face-to-Face]] meeting in Mountain View, California.
 
+===== Monday =====
   * CSS 2.1 Remaining Issues (Monday morning)
   * CSS 2.1 Remaining Blocked Tests (Monday morning)
+
+===== Tuesday =====
+  * Adobe's CSS Regions Proposal (tues)
+  * CSS3 Line Grid (if time allows)
+  * CSS3 Grid Alignment (tues.)
+  * MSFT also requests Flexbox and Multicolumn items - if any - to be scheduled Tue.
+
+===== Wednesday =====
+
+===== TBD =====
+
   * EPUB requirements (chairs should restrict to 1/2 hr or 1hr - Wed?)
   * CSS3 Text (2 hours - Wed?)
   * CSS3 Writing Modes review (0min, unless jdaggett or others have issues -- fantasai)
@@ -11,10 +23,6 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * [css3-fonts] WOFF and same origin restriction
   * [css3-fonts] revisions to the font matching algorithm
   * Charter extension (current charter expires 3/31)
-  * Adobe's CSS Regions Proposal (tues)
-  * CSS3 Line Grid (if time allows)
-  * CSS3 Grid Alignment (tues.)
-  * MSFT also requests Flexbox and Multicolumn items - if any - to be scheduled Tue.
   * [[tokyo-workshop-2011|Tokyo forum or workshop topics and dates]] - Tues afternoon or Weds
   * [css3-multicol] tues 20 minutes should be sufficient to resolve pseudo-algorithm and test suite startup
  
