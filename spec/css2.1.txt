@@ -321,10 +321,9 @@ Misfiled. See Issue 192.
 
 ==== Issue 242 ====
   ;Summary : Exact behavior of inline split around block not defined.
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0047.html
-  ;Proposal : Replace "are broken around the block-level box, dividing the inline box into two pieces (even if either side is empty)" with "are broken around the block-level box (and any consecutive block-level siblings), splitting the inline box into two boxes, one
-each side of the block-level box" or somesuch that also addresses any white space interaction. Also address z-index issues.
-  ;Status : Open. =WG= Discuss.
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0047.html (z-index issues folded into issue 244)
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Mar/0159.html (starting point; white space interaction could maybe be handled by phantom line boxes clause)
+  ;Status : Open. =dbaron= Propose text.
 
 ==== Issue 243 ====
   ;Summary : Tables confused about which box is principal box
