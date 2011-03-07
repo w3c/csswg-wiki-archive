@@ -248,7 +248,8 @@ Misfiled. See Issue 192.
   ;Summary : Make list-item-ness of root list-item optional
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0205.html
   ;Testcases : http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20html%3E%0A%3Cstyle%3Ehtml%20{%20display%3A%20list-item%3B%20margin%3A%205em%3B%20}%3C%2Fstyle%3E
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : Make undefined whether root is list-item (with marker) or reverts to block.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 232 ====
   ;Summary : Define "in-flow"
