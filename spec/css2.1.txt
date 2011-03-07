@@ -364,7 +364,8 @@ Misfiled. See Issue 192.
 ==== Issue 247 ====
   ;Summary : Containing block of abspos inside block-in-inline split unclear & inconsistent
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0444.html
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : Make undefined via issue 215
+  ;Status : Open. =dbaron= Verify after Bert edits 215.
 
 ==== Issue 248 ====
   ;Summary : Clarification for Floats with height: 0;
