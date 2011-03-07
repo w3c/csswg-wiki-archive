@@ -255,8 +255,8 @@ Misfiled. See Issue 192.
   ;Summary : Define "in-flow"
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0310.html
   ;See also : http://lists.w3.org/Archives/Public/www-style/2010Oct/0407.html
-  ;Resolution : Assumed editorial.
-  ;Status : Open. =Bert= Edit.
+  ;Resolution : Make in-flow mean not out-of-flow, check that spec remains correct.
+  ;Status : Open. =Bert= Edit and review for correctness.
 
 ==== Issue 233 ====
   ;Summary : text-indent percentages behavior very odd for table cells and floats
