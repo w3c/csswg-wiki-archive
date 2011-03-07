@@ -303,7 +303,8 @@ Misfiled. See Issue 192.
 ==== Issue 239 ====
   ;Summary : Propagate 'direction' from BODY to ICB
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Oct/0750.html
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : No change. 'direction' doesn't propagate.
+  ;Status : Closed.
 
 ==== Issue 240 ====
   ;Summary : Behavior of min/max width on table elements.
