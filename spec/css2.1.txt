@@ -406,6 +406,17 @@ Misfiled. See Issue 192.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0071.html
   ;Status : Open. =WG= Discuss.
 
+==== Issue 255 ====
+  ;Summary : Clarifications to HTML-related definitions
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0072.html issue 1
+  ;Proposal : Include future versions of HTML in HTML UA definition (or remove definition, if possible).
+  ;Status : Open. =WG= Discuss.
+
+==== Issue 256 ====
+  ;Summary : Clarify form controls and frames
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0072.html issue 2
+  ;Status : Open. =WG= Discuss.
+
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0312.html
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0419.html
 
