@@ -452,6 +452,19 @@ Misfiled. See Issue 192.
   ;Resolution : Assumed editorial.
   ;Status : Open. =Bert= Edit.
 
+==== Issue 263 ====
+  ;Summary : Editorial simplification to 9.4.1 BFC root definition
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0077.html
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit. Proposed change looks totally ok.
+
+==== Issue 264 ====
+  ;Summary : Clarify that float shortening note is wrt margin box
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0078.html
+  ;Proposal : s/height/outer height/g;
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit.
+
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0312.html
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0419.html
 
