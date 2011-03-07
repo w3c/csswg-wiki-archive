@@ -460,10 +460,22 @@ Misfiled. See Issue 192.
 
 ==== Issue 264 ====
   ;Summary : Clarify that float shortening note is wrt margin box
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0078.html
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0078.html issue 1
   ;Proposal : s/height/outer height/g;
   ;Resolution : Assumed editorial.
   ;Status : Open. =Bert= Edit.
+
+==== Issue 265 ====
+  ;Summary : Clarify which table box is affected by float overlap restriction
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0078.html issue 2
+  ;Proposal : No change. Table wrapper box is a BFC, so sentence is maybe a little redundant but clear.
+  ;Status : Open. =WG= Discuss.
+
+==== Issue 266 ====
+  ;Summary : Issue 120 follow-up
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0079.html
+  ;Proposal : Accept proposals 1 & 2 with "block container element" instead of "block container"; unsure about 3; accept 4; accept 5 with s/which/that/; accept 7
+TBC...
 
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0312.html
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0419.html
