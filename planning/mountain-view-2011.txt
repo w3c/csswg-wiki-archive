@@ -3,7 +3,7 @@
 Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS Working Group Face-to-Face]] meeting in Mountain View, California.
 
 ===== Monday =====
-  * CSS 2.1 Remaining Issues (Monday morning)
+  * CSS 2.1 [[http://wiki.csswg.org/spec/css2.1|Remaining Issues]] (Monday morning)
   * CSS 2.1 Remaining Blocked Tests (Monday morning)
 
 ===== Tuesday =====
