@@ -382,6 +382,21 @@ Misfiled. See Issue 192.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Dec/0211.html
   ;Status : Open. =WG= Discuss.
 
+==== Issue 251 ====
+  ;Summary : Add longest-match tokenization example
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0064.html
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit.
+
+==== Issue 252 ====
+  ;Summary : Error-parsing rules confusion
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0068.html
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Jan/0092.html
+  ;Proposal : No change. Improve explanations in CSS3.
+  ;Status : Open. =WG= Discuss.
+
+
+
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0312.html
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0419.html
 
