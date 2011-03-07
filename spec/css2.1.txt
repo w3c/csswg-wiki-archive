@@ -340,7 +340,7 @@ Misfiled. See Issue 192.
 
 ==== Issue 243 ====
   ;Summary : Tables confused about which box is principal box
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0084.html
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0084.html + http://lists.w3.org/Archives/Public/www-style/2011Jan/0073.html issue 4
   ;Status : Open. =fantasai= Propose text.
 
 ==== Issue 244 ====
