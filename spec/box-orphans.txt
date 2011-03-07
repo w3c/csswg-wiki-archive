@@ -3,3 +3,4 @@
   * margin-collapse control (auto, discard-at-breaks, never-collapse, discard)
   * vertical alignment (vertical-align applied to all blocks, but called something else; values auto | top | middle | bottom, where only auto doesn't create a BFC, find minutes)
   * min-content, max-content, fit-content, shrinkwrap-content? http://lists.w3.org/Archives/Public/www-style/2009Sep/0149.html
+  * min-height: contains-floats to get rid of clearfix hacks
