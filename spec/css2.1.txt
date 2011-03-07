@@ -144,6 +144,7 @@ Last mailing list sweep 2010-10-31 – fantasai
 ==== Issue 213 ====
 
   ;Summary : clarify that forced page breaks on the root element change whether :first is :left or :right
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0421.html
   ;Resolution : Make it undefined in CSS2.1 whether forced break before first page creates a :first page or a blank page.
   ;Status : Open. =Bert= Edit.
 
