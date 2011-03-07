@@ -25,7 +25,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * Charter extension (current charter expires 3/31)
   * [[tokyo-workshop-2011|Tokyo forum or workshop topics and dates]] - Tues afternoon or Weds
   * [css3-multicol] tues 20 minutes should be sufficient to resolve pseudo-algorithm and test suite startup
- 
+
   * CSS3 Module Template http://dev.w3.org/csswg/css-module/
 
 ====== Notes ======
