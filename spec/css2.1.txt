@@ -401,6 +401,10 @@ Misfiled. See Issue 192.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0091.html
   ;Status : Open. =WG= Discuss.
 
+==== Issue 254 ====
+  ;Summary : Clarify "next block" when parsing invalid at-keywords
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0071.html
+  ;Status : Open. =WG= Discuss.
 
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0312.html
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0419.html
