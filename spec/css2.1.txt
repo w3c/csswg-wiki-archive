@@ -335,6 +335,10 @@ Misfiled. See Issue 192.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0069.html + http://lists.w3.org/Archives/Public/www-style/2010Nov/0047.html
   ;Status : Open. =WG= Discuss.
 
+==== Issue 245 ====
+  ;Summary : Clarifications to z-index chapter
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0083.html
+  ;Status : Open. =WG= Discuss.
 
 ===== 8 September 2009 CR Issues =====
 
