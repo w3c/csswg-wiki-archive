@@ -310,7 +310,8 @@ Misfiled. See Issue 192.
   ;Summary : Behavior of min/max width on table elements.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Oct/0817.html
   ;Proposal : Make undefined
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : Proposal accepted
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 241 ====
   ;Summary : position: static doesn't prevent computation of top/left/bottom/right
