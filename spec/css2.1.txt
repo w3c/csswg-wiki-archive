@@ -475,8 +475,16 @@ Misfiled. See Issue 192.
 ==== Issue 266 ====
   ;Summary : Issue 120 follow-up
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0079.html
-  ;Proposal : Accept proposals 1 & 2 with "block container element" instead of "block container"; unsure about 3; accept 4; accept 5 with s/which/that/; accept 7
-TBC...
+  ;Proposal :
+
+  * Accept proposals 1 & 2 with "block container element" instead of "block container"
+  * unsure about 3
+  * accept 4
+  * accept 5 with s/which/that/
+  * accept 7 (but beware second set of edits applies to second quoted sentence, not first)
+
+  ;Resolution : Assumed editorial.
+  ;Status : Open. =Bert= Edit.
 
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0312.html
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0419.html
