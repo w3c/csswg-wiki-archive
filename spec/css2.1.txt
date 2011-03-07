@@ -213,10 +213,9 @@ Misfiled. See Issue 192.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Aug/0108.html
   ;Proposal:
           If it has children, the height is the distance from the top of the parent box to one of the following:
-            * the bottom border edge of the bottommost line box.
-            * the bottommost block box's bottom
-                * margin edge, when it does not collapse with its parent
-                * border edge, when it does collapse with its parent
+            * the bottom border edge of the bottommost line box, when the box establishes a inline formatting context
+            * bottommost edge of the bottom most collapsed margin edge, when it does not collapse with the parent
+            * bottommost child box's bottom border edge, when it's bottom margin does collapse with the parent
 
   ;Status : Open. Needs proposal. =Arron= Write proposal.
 
