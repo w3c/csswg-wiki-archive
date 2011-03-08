@@ -10,6 +10,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * CSS3 Grid Alignment -- Phil Cupp, Microsoft
  
 **Afternoon**
+  * Request for resolution to move Grid Spec from Editor Draft to Working draft
   * CSS3 Line Grid (if time allows)
   * Flexbox and Multicolumn
   * [[tokyo-workshop-2011|Tokyo forum or workshop topics and dates]]
