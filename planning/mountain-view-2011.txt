@@ -11,8 +11,8 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
  
 **Afternoon**
   * **1:10pm** Request for resolution to move Grid Spec from Editor Draft to Working draft
-  * **1:15pm** Flexbox and Multicolumn -- Tab
-  * [css3-multicol] Resolve pseudo-algorithm and test suite startup (20min)
+  * **1:15pm-2:00pm** Flexbox  -- Tab
+  * **2:00pm-** [css3-multicol] Resolve pseudo-algorithm and test suite startup (20min) - Håkon
   * [[tokyo-workshop-2011|Tokyo forum or workshop topics and dates]]
   * CSS3 Line Grid (if time allows)
 
