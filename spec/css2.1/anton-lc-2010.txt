@@ -342,25 +342,27 @@ Typographical issue has already been addressed; the non-positioned floats issue 
   10.6.1 and 10.6.3 also apply to anonymous boxes.
   
   Status: unfiled
-  
-  
+
+I'm going to chalk this up to the element-box mess. No change for CSS2.1.
+
   DET2) http://lists.w3.org/Archives/Public/www-style/2010Aug/0108.html 
   (Issue 4)
   
   Editorial issue in 10.6.3 concerning margin collapsing.
   
   Status: unfiled
-  
-  
+
+Filed as 225
+
   DET3) http://lists.w3.org/Archives/Public/www-style/2010Aug/0001.html
   
   Editorial issue: titles in 10.3 and 10.6: inline block "in normal flow".
   
   Status: rejected, but Boris Zbarsky disputes that: 
   http://lists.w3.org/Archives/Public/www-style/2010Aug/0009.html
-  
-  
-  
+
+Extra redundancy. Not a problem. No change.
+
   Inline formatting model
   ===================================================================
   ***
@@ -382,12 +384,13 @@ Typographical issue has already been addressed; the non-positioned floats issue 
      | inline box, [...]
   
   Status: proposal given, but unfiled.
-  
-  
+
+Element-box issue. Not really subject to misinterpretation, so no change.
+
   IF2) http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html 
   (Issue 3b)
         http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
-  
+
   10.6.1 (Inline, non-replaced elements) says (just as for Issue 3a):
      # The vertical padding, border and margin [..] start at [..] the
      # 'line-height'.
@@ -395,8 +398,9 @@ Typographical issue has already been addressed; the non-positioned floats issue 
   physical entity; nothing can "start" there.
   
   Status: rejected, but I dispute that. Unfiled.
-  
-  
+
+Replace 'line-height' with 'height of the inline box' (to tie into 10.8.1).
+
   IF3) http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html 
   (Issues 10b)
         http://lists.w3.org/Archives/Public/www-style/2009Sep/0025.html 
@@ -437,8 +441,9 @@ Typographical issue has already been addressed; the non-positioned floats issue 
   
   (*) In fact, I'd argue that Issue 10b is resolved through the power of
   suggestion, if the hyperlink is added!
-  
-  
+
+Add baselines to the list of characteristics of an empty inline box in errata.
+
   IF4) http://lists.w3.org/Archives/Public/www-style/2009Sep/0025.html 
   (Issue 10e)
   
@@ -489,16 +494,18 @@ Typographical issue has already been addressed; the non-positioned floats issue 
      #     Align the baseline of the box with the baseline of the parent
      #     box. If the box does not have a baseline, align the bottom
      #     margin edge with the parent's baseline.
-  
-  
+
+I think these are great changes and we should take them in errata. No change for now. Ambiguous cases already addressed in css3-writing-modes.
+
   IF5) http://lists.w3.org/Archives/Public/www-style/2009Aug/0358.html 
   (Issue 12)
   
   There may be a vertical gap between line boxes in the presence of floats
   
   Status: unfiled
-  
-  
+
+Bert said there actually isn't, so he should maybe reply and explain?
+
   IF6) http://lists.w3.org/Archives/Public/www-style/2010Jul/0535.html 
   (Issues 13-revisited and 14)
         http://lists.w3.org/Archives/Public/www-style/2010Aug/0010.html
