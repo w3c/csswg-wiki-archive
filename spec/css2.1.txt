@@ -558,7 +558,7 @@ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Aug/0358.html
   ;Status : Bert to write email to explain
 
-==== Issues 276 ====
+==== Issue 276 ====
   ;Summary : :first-line, :first-letter under defined
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0097.html
   ;Proposal : drop :first-line, :first-letter and move and better define in CSS Selectors
