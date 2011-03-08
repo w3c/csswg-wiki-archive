@@ -2,19 +2,19 @@
 
 Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS Working Group Face-to-Face]] meeting in Mountain View, California.
 ===== Monday =====
-  * CSS 2.1 [[http://wiki.csswg.org/spec/css2.1|Remaining Issues]] (9:15am-5:30pm)
-  * CSS 2.1 Remaining Blocked Tests (5:30pm-6pm)
+  * **9:15am-5:30pm** CSS 2.1 [[http://wiki.csswg.org/spec/css2.1|Remaining Issues]]
+  * **5:30pm-6pm** CSS 2.1 Remaining Blocked Tests
 ===== Tuesday =====
 **Morning**
-  * Adobe's CSS Regions Proposal -- Arno Gourdol, Adobe
-  * CSS3 Grid Alignment -- Phil Cupp, Microsoft
+  * **9:15am-10:30am** Adobe's CSS Regions Proposal -- Arno Gourdol, Adobe
+  * **10:30am-noon** CSS3 Grid Alignment -- Phil Cupp, Microsoft
  
 **Afternoon**
-  * Request for resolution to move Grid Spec from Editor Draft to Working draft
-  * CSS3 Line Grid (if time allows)
-  * Flexbox and Multicolumn
+  * **1:10pm** Request for resolution to move Grid Spec from Editor Draft to Working draft
+  * **1:15pm** Flexbox and Multicolumn -- Tab
   * [[tokyo-workshop-2011|Tokyo forum or workshop topics and dates]]
   * [css3-multicol] Resolve pseudo-algorithm and test suite startup (20min)
+  * CSS3 Line Grid (if time allows)
 
 ===== Wednesday =====
   * CSS3 Module Template http://dev.w3.org/csswg/css-module/
