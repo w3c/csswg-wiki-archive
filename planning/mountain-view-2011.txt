@@ -4,15 +4,14 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
 ===== Monday =====
   * CSS 2.1 [[http://wiki.csswg.org/spec/css2.1|Remaining Issues]] (9:15am-5:30pm)
   * CSS 2.1 Remaining Blocked Tests (5:30pm-6pm)
-
 ===== Tuesday =====
 **Morning**
   * Adobe's CSS Regions Proposal -- Arno Gourdol, Adobe
   * CSS3 Grid Alignment -- Phil Cupp, Microsoft
-  * CSS3 Line Grid (if time allows)
-  * Flexbox and Multicolumn
  
 **Afternoon**
+  * CSS3 Line Grid (if time allows)
+  * Flexbox and Multicolumn
   * [[tokyo-workshop-2011|Tokyo forum or workshop topics and dates]]
   * [css3-multicol] Resolve pseudo-algorithm and test suite startup (20min)
 
