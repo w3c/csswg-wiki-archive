@@ -36,6 +36,13 @@ Last mailing list sweep 2010-12-31 – fantasai
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Sep/0684.html
   ;Status : Open. =Bert= Edit per http://lists.w3.org/Archives/Public/www-style/2010Oct/0842.html.
 
+==== Issue 179 ====
+  ;Summary : Example in anonymous block boxes section is wrong
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0005.html
+  ;Resolution : Assumed editorial. (Partially, but not completely, fixed by [[#issue-164|issue 164.]])
+  ;Status : Open. =Bert= Replace "The resulting boxes would be an anonymous block box around the P" with "The resulting boxes would be a block box representing the P"
+  ;Testcases : n/a (editorial)
+
 ==== Issue 181 ====
   ;Summary : use of 'height' in 10.8 causes confusion over content height and line-height wrt inline elements
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0010.html
@@ -841,13 +848,6 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Resolution : Assumed editorial.
   ;Status : Closed.
   ;Testcases : case-sensitive-001 through case-sensitive-004
-
-==== Issue 179 ====
-  ;Summary : Example in anonymous block boxes section is wrong
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0005.html
-  ;Resolution : Assumed editorial. (Partially, but not completely, fixed by [[#issue-164|issue 164.]])
-  ;Status : Open. =Bert= Replace "The resulting boxes would be an anonymous block box around the P" with "The resulting boxes would be a block box representing the P"
-  ;Testcases : n/a (editorial)
 
 ==== Issue 180 ====
   ;Summary : Clarify application of 10.6.7
