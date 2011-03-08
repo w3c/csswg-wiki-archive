@@ -267,7 +267,7 @@ Not a feature of the spec exactly, but certainly a logical consequence of the mo
   
   Status: unfiled
 
-
+It's not incorrect, it's just imprecise. Given that it's an introductory paragraph giving an overview of what the spec is trying to accomplish in this section, this doesn't seem to be a problem. The precise definitions are given below.
 
   CL2) http://lists.w3.org/Archives/Public/www-style/2010Sep/0665.html 
   (first half)
@@ -280,14 +280,16 @@ Not a feature of the spec exactly, but certainly a logical consequence of the mo
   top border edge position after assuming clear:none
   
   Status: unfiled.  (I am disputing the resolution of Issue 203)
-  
-  
+
+Issue 203. No further change.
+
   CL3) http://lists.w3.org/Archives/Public/www-style/2010Jul/0023.html
   
   s/Clearance inhibits margin collapsing/Clearance inhibits certain 
   margin-collapsing behaviour/
-  
-  
+
+Clearance does inhibit collapsing between the two margins it separates. No change.
+
   CL4) http://lists.w3.org/Archives/Public/www-style/2010Aug/0477.html 
   (last part)
   
@@ -297,8 +299,9 @@ Not a feature of the spec exactly, but certainly a logical consequence of the mo
   under different (temporary) conditions
   
   Status: unfiled
-  
-  
+
+No.
+
   CL5) http://lists.w3.org/Archives/Public/www-style/2010Aug/0526.html 
   (second half)
         http://lists.w3.org/Archives/Public/www-style/2010Sep/0665.html 
@@ -308,16 +311,15 @@ Not a feature of the spec exactly, but certainly a logical consequence of the mo
   certain cases involving self-collapsing clearing elements
   
   Status: unfiled
-  
-  
+
+Summary of WG's intention is very clear and accurate. The issue described involves the clearance of self-collapsing elements. But we have interop on the clearance of self-collapsing elements, so this is not something we can change now.
+
   CL6) http://lists.w3.org/Archives/Public/www-style/2010Aug/0569.html 
   (second half)
   
   Clearance is underspecified
-  
-  Status: unfiled
-  
-  
+
+(Last sentence in email above.) No change for CSS2.1. Deferred to CSS3 Box.
   
   Stacking contexts
   ===================================================================
@@ -328,9 +330,9 @@ Not a feature of the spec exactly, but certainly a logical consequence of the mo
   floats") still remain after the bulk of my proposals were adopted.
   
   Status: unfiled.  (See Issue 60)
-  
-  
-  
+
+Typographical issue has already been addressed; the non-positioned floats issue is already on Bert's todo list.
+
   Chapter 10 widths/heights
   ===================================================================
   
