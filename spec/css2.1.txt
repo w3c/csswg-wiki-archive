@@ -511,7 +511,7 @@ Misfiled. See Issue 192.
 ==== Issue 270 ====
   ;Summary : Make text-decoration propagation more clearly recursive.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0085.html issue 3
-  ;Status : Open. =fantasai= Propose text.
+  ;Status : Open. =fantasai= Fix in CSS3 Text.
 
 ==== Issue 271 ====
   ;Summary : Make list-item's additional boxes clause example rather than exhaustive.
