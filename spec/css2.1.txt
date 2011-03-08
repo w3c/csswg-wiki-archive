@@ -464,7 +464,7 @@ Misfiled. See Issue 192.
   ;Summary : Clarify that float shortening note is wrt margin box
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0078.html issue 1
   ;Proposal : s/height/outer height/g;
-  ;Resolution : Assumed editorial.
+  ;Resolution : Proposal (in wiki) accepted.
   ;Status : Open. =Bert= Edit.
 
 ==== Issue 265 ====
