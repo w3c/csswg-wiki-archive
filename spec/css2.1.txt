@@ -845,8 +845,8 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
 ==== Issue 179 ====
   ;Summary : Example in anonymous block boxes section is wrong
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0005.html
-  ;Resolution : Assumed editorial. (Already fixed by [[#issue-164|issue 164.]])
-  ;Status : Closed.
+  ;Resolution : Assumed editorial. (Partially, but not completely, fixed by [[#issue-164|issue 164.]])
+  ;Status : Open. =Bert= Replace "The resulting boxes would be an anonymous block box around the P" with "The resulting boxes would be a block box representing the P"
   ;Testcases : n/a (editorial)
 
 ==== Issue 180 ====
