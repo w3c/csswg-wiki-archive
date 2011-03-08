@@ -444,7 +444,8 @@ Misfiled. See Issue 192.
 ==== Issue 261 ====
   ;Summary : Clarify "other attributes" in specificity calculations
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0075.html issue 3
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : No change. Nobody's ever been confused on this point, clarification exists in Selectors L3.
+  ;Status : Closed.
 
 ==== Issue 262 ====
   ;Summary : Editorial issues in Ch 8
