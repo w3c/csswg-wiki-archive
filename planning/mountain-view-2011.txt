@@ -14,6 +14,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * [css3-multicol] tues 20 minutes should be sufficient to resolve pseudo-algorithm and test suite startup (afternoon)
 
 ===== Wednesday =====
+  * CSS3 Module Template http://dev.w3.org/csswg/css-module/
 
 ===== TBD =====
 
@@ -25,7 +26,6 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * [css3-fonts] revisions to the font matching algorithm
   * Charter extension (current charter expires 3/31)
 
-  * CSS3 Module Template http://dev.w3.org/csswg/css-module/
 
 ====== Notes ======
 
