@@ -15,9 +15,6 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
 
 ===== Wednesday =====
   * CSS3 Module Template http://dev.w3.org/csswg/css-module/
-
-===== TBD =====
-
   * EPUB requirements (chairs should restrict to 1/2 hr or 1hr - Wed?)
   * CSS3 Text (2 hours - Wed?)
   * CSS3 Writing Modes review (0min, unless jdaggett or others have issues -- fantasai)
