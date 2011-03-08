@@ -471,7 +471,8 @@ Misfiled. See Issue 192.
   ;Summary : Clarify which table box is affected by float overlap restriction
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0078.html issue 2
   ;Proposal : No change. Table wrapper box is a BFC, so sentence is maybe a little redundant but clear.
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : No change.
+  ;Status : Closed.
 
 ==== Issue 266 ====
   ;Summary : Issue 120 follow-up
