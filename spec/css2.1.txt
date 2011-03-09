@@ -409,7 +409,7 @@ If the element has children, its height is the distance from its top content edg
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0068.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Jan/0092.html
   ;Proposal : No change. Improve explanations in CSS3.
-  ;Status : Open. =WG= Discuss.
+  ;Status : Closed
 
 ==== Issue 253 ====
   ;Summary : Clarify end-of-line as end-of-line character (vs. end-of-file)
