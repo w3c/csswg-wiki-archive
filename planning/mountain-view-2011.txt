@@ -18,9 +18,9 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * **4:!5pm-6:15pm** CSS2.1 Issues
 
 ===== Wednesday =====
-  * [css3-fonts] font-specific feature definition
+  * **9:00am-11:00am** [css3-fonts] font-specific feature definition
+  * **11:15am-** [css3-fonts] revisions to the font matching algorithm
   * [css3-fonts] WOFF and same origin restriction
-  * [css3-fonts] revisions to the font matching algorithm
   * Charter extension (current charter expires 3/31) (right after lunch)
   * 2.1 last issues
   * CSS3 Text (2 hours)
