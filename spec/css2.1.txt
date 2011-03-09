@@ -323,8 +323,8 @@ If the element has children, its height is the distance from its top content edg
   ;Summary : Clarify interpretation of system font keywords
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Oct/0622.html
   ;Proposal : Add a note or example?
-  ;Resolution : Assumed editorial.
-  ;Status : Open. =Bert= Edit as appropriate.
+  ;Resolution : Deferred to CSS3 fonts
+  ;Status : Closed. Refiled against css3-fonts.
 
 ==== Issue 239 ====
   ;Summary : Propagate 'direction' from BODY to ICB
