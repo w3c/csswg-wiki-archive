@@ -232,6 +232,8 @@ I don't understand this issue. Isn't the available space negative (i.e. not enou
 
 In what way to shortened line boxes not behave the same as normal line boxes? (If they are not different, then the edit is not necessary.)
 
+Filed as 279
+
   FL5) http://lists.w3.org/Archives/Public/www-style/2010Sep/0131.html 
   (Issue 1)
         http://lists.w3.org/Archives/Public/www-style/2010Sep/0148.html 
@@ -245,6 +247,8 @@ In what way to shortened line boxes not behave the same as normal line boxes? (I
 
 This is an error in the spec. http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20html%3E%0A%3Cdiv%20style%3D%22border%3A%20solid%20magenta%22%3E%0A%20%20%3Cdiv%20style%3D%27float%3A%20left%3B%20border%3A%20solid%20green%3B%20%27%3EA%3C%2Fdiv%3E%20aaaa%0A%3C%2Fdiv%3E%0A%3Cdiv%20style%3D%22border%3A%20solid%20blue%3B%20margin%3A%20-2em%22%3E%0A%20%20%3Civ%20style%3D%22float%3A%20left%3B%20border%3A%20solid%20yellow%3B%20%22%3EB%3C%2Fdiv%3E%20bbbbbbb%0A%3C%2Fdiv%3E
 
+Filed as Issue 274
+
   FL6) http://lists.w3.org/Archives/Public/www-style/2010Sep/0131.html 
   (Issue 2)
         http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html 
@@ -254,7 +258,7 @@ This is an error in the spec. http://software.hixie.ch/utilities/js/live-dom-vie
   
   Status: unfiled
 
-Not a feature of the spec exactly, but certainly a logical consequence of the model. Not a problem. (If Bert and dbaron agree this is a problem, then it's not a problem.)
+Not a feature of the spec exactly, but certainly a logical consequence of the model. Not a problem. (If Bert and dbaron agree this is a problem, then it's not a problem.)  Filed as Issue 280
 
   Clearance
   ===================================================================
@@ -504,7 +508,7 @@ I think these are great changes and we should take them in errata. No change for
   
   Status: unfiled
 
-Bert said there actually isn't, so he should maybe reply and explain?
+Bert said there actually isn't, so he should maybe reply and explain? Filed as issue 275
 
   IF6) http://lists.w3.org/Archives/Public/www-style/2010Jul/0535.html 
   (Issues 13-revisited and 14)
