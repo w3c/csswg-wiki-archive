@@ -349,8 +349,9 @@ If the element has children, its height is the distance from its top content edg
 ==== Issue 242 ====
   ;Summary : Exact behavior of inline split around block not defined.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0047.html (z-index issues folded into issue 244)
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Mar/0179.html
-  ;Status : Open. =WG= Discuss.
+  ;Proposal : "are broken around the block-level box (and any block-level siblings that are consecutive or separated only by collapsible whitespace and/or out-of-flow elements), splitting the inline box into two boxes (even if either side is empty), one on each side of the block-level box."
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 243 ====
   ;Summary : Tables confused about which box is principal box
