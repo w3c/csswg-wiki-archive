@@ -468,7 +468,7 @@ If the element has children, its height is the distance from its top content edg
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0076.html
   ;Proposal : Accept issue 1 proposed text, fix problem in issue 2 somehow, don't understand why 3 is an issue so no change
   ;Resolution : Assumed editorial.
-  ;Status : Closed no change
+  ;Status : Open. =errata= Deferred to Errata
 
 ==== Issue 263 ====
   ;Summary : Editorial simplification to 9.4.1 BFC root definition
