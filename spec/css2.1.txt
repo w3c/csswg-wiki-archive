@@ -564,7 +564,9 @@ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
 ==== Issue 275 ====
   ;Summary : vertical gap possible between line boxes in presence of floats
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Aug/0358.html
-  ;Status : Bert to write email to explain
+  ;Proposal : Add "(except as specified elsewhere)" to statement about stacking.
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 276 ====
   ;Summary : :first-line, :first-letter under defined
