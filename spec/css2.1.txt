@@ -549,7 +549,7 @@ http://lists.w3.org/Archives/Public/www-style/2010Dec/0419.html
 ==== Issue 273 ====
   ;Summary : Wording incorrect for RTL text next to floats
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Oct/0058.html
-  ;Status : =WG= Discuss
+  ;Status : Open. =errata= Deferred to Errata
 
 ==== Issue 274 ====
   ;Summary : No shortening of line boxes next to later floats
