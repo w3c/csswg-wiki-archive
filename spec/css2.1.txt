@@ -39,8 +39,10 @@ Last mailing list sweep 2011-01-07 – arronei
 ==== Issue 179 ====
   ;Summary : Example in anonymous block boxes section is wrong
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0005.html
-  ;Resolution : Assumed editorial. (Partially, but not completely, fixed by [[#issue-164|issue 164.]])
-  ;Status : Open. =Bert= Replace "The resulting boxes would be an anonymous block box around the P" with "The resulting boxes would be a block box representing the P"
+  ;Note : Partially, but not completely, fixed by [[#issue-164|issue 164.]]
+  ;Proposal : Replace "The resulting boxes would be an anonymous block box around the P" with "The resulting boxes would be a block box representing the P"
+  ;Resolution : Proposal accepted
+  ;Status : Open. =Bert= Edit.
   ;Testcases : n/a (editorial)
 
 ==== Issue 181 ====
