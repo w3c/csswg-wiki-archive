@@ -23,11 +23,10 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * **12:10pm-12:20pm** [css3-fonts] WOFF and same origin restriction - jdaggett
   * **1:00pm-2:00pm** Q&A with Mozilla
   * **2:00pm-3:00pm** 2.1 last issues - assign responses, discuss next steps
-  * Charter extension (current charter expires 3/31) (right after lunch)
-  * CSS3 Text (2 hours)
+  * **3:00pm-3:10pm** Charter extension (current charter expires 3/31) (right after lunch)
+  * **3:10-** CSS3 Text (2 hours)
   * CSS3 Module Template http://dev.w3.org/csswg/css-module/
   * EPUB requirements (chairs should restrict to 1/2 hr or 1hr)
-  * CSS3 Writing Modes review (0min, unless jdaggett or others have issues -- fantasai)
 
 
 ====== Notes ======
