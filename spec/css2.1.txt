@@ -397,7 +397,7 @@ If the element has children, its height is the distance from its top content edg
   ;Summary : @page grammar missing
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Dec/0211.html
   ;Proposal : Accepted
-  ;Status : Open. =Bert= edit.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 251 ====
   ;Summary : Add longest-match tokenization example
