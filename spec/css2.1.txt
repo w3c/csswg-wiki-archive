@@ -355,7 +355,8 @@ If the element has children, its height is the distance from its top content edg
 ==== Issue 243 ====
   ;Summary : Tables confused about which box is principal box
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0084.html + http://lists.w3.org/Archives/Public/www-style/2011Jan/0073.html issue 4
-  ;Status : Open. =fantasai= Propose text.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Mar/0180.html
+  ;Status : Open. =WG= Discuss.
 
 ==== Issue 244 ====
   ;Summary : Rendering tree vs. element tree in z-order algo
