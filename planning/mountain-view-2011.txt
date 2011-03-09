@@ -14,7 +14,8 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * **1:15pm-2:00pm** Flexbox  -- Tab
   * **2:00pm-2:45pm** [css3-multicol] Resolve pseudo-algorithm and test suite startup (20min) - Håkon
   * **3:00pm-3:40pm** [[tokyo-workshop-2011|Tokyo forum or workshop topics and dates]] - Jay
-  * **3:40pm-** CSS3 Line Grid (if time allows)
+  * **3:40pm-4:00pm** CSS3 Line Grid (if time allows)
+  * **4:!5pm-6:15pm** CSS2.1 Issues
 
 ===== Wednesday =====
   * CSS3 Module Template http://dev.w3.org/csswg/css-module/
