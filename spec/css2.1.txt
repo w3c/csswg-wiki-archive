@@ -438,7 +438,7 @@ If the element has children, its height is the distance from its top content edg
   ;Summary : Don't say that boxes have properties
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0073.html issues 1-3
   ;Proposal : No change. (issue 4 folded into issue 243)
-  ;Status : Open. =WG= Discuss.
+  ;Status : Closed
 
 ==== Issue 258 ====
   ;Summary : Bad wording in url() comment notes
