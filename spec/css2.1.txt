@@ -579,8 +579,10 @@ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
   ;Summary : usage of "rule" incorrect in many cases
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0101.html
   ;Proposal : Do a sweep of all usages of "rule" and determine if it should be "declaration"
-  ; Status : =WG= Discuss
+  ;Resolution : Defer to errata (but do make this change).
+  ; Status : Open. Needs diff.
   
+
 ==== Issues 278 ====
   ;Summary : floats and margin box
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jan/0352.html
