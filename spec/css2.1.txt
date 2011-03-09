@@ -571,8 +571,9 @@ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
 ==== Issue 276 ====
   ;Summary : :first-line, :first-letter under defined
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0097.html
-  ;Proposal : drop :first-line, :first-letter and move and better define in CSS Selectors
-  ;Status : =WG= Discuss
+  ;Proposal : Note that the exact behavior :first-letter and :first-line is not defined, and may be defined in a future version.
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 277 ====
   ;Summary : usage of "rule" incorrect in many cases
