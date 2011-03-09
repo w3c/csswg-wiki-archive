@@ -614,8 +614,9 @@ physical entity; nothing can "start" there.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html 
 (Issue 3b)
 http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
-  ;Proposal : Replace 'line-height' with 'height of the inline box' (to tie into 10.8.1). 
-  ;Status : =WG= Discuss
+  ;Proposal : Replace "not the 'line-height" with "and has nothing to do with the 'line-height'"
+  ;Resolution : Proposal accepted
+  ;Status : Open. =Bert= Edit.
 
 ===== 8 September 2009 CR Issues =====
 
