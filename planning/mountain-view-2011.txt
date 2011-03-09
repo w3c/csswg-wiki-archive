@@ -18,14 +18,15 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * **4:!5pm-6:15pm** CSS2.1 Issues
 
 ===== Wednesday =====
-  * CSS3 Module Template http://dev.w3.org/csswg/css-module/
-  * EPUB requirements (chairs should restrict to 1/2 hr or 1hr)
-  * CSS3 Text (2 hours)
-  * CSS3 Writing Modes review (0min, unless jdaggett or others have issues -- fantasai)
   * [css3-fonts] font-specific feature definition
   * [css3-fonts] WOFF and same origin restriction
   * [css3-fonts] revisions to the font matching algorithm
-  * Charter extension (current charter expires 3/31)
+  * Charter extension (current charter expires 3/31) (right after lunch)
+  * 2.1 last issues
+  * CSS3 Text (2 hours)
+  * CSS3 Module Template http://dev.w3.org/csswg/css-module/
+  * EPUB requirements (chairs should restrict to 1/2 hr or 1hr)
+  * CSS3 Writing Modes review (0min, unless jdaggett or others have issues -- fantasai)
 
 
 ====== Notes ======
