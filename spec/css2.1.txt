@@ -582,7 +582,7 @@ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0101.html
   ;Proposal : Do a sweep of all usages of "rule" and determine if it should be "declaration"
   ;Resolution : Defer to errata (but do make this change).
-  ; Status : Open. Needs diff.
+  ; Status : Open. =errata= Deferred to Errata
   
 
 ==== Issues 278 ====
