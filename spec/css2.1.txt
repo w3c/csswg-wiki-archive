@@ -577,6 +577,11 @@ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
   ;Proposal : Could specify by changing “must not overlap any floats” to “must not overlap the margin box of any floats” in http://www.w3.org/TR/CSS21/visuren.html#bfc-next-to-float
   ;Status : =WG= Discuss
 
+==== Issue 279 ====
+  ;Summary : ambiguities concerning how to flow line boxes "next to" floats
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0366.html
+  ;Status : =WG= Discuss
+
 ===== 8 September 2009 CR Issues =====
 
 The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-20090423/|8 September 2009 CSS2.1 Candidate Recommendation]]. Any resulting changes or corrections have been added to the [[http://www.w3.org/Style/css2-updates/CR-CSS2-20090908-errata.html|errata list]] and incorporated into the [[7 December 2010 Last Call Working Draft|http://www.w3.org/TR/2010/WD-CSS2-20101207/]].
