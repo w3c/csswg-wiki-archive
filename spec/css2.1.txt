@@ -586,7 +586,8 @@ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Jan/0352.html
  http://lists.w3.org/Archives/Public/www-style/2009Mar/0279.html
   ;Proposal : Could specify by changing “must not overlap any floats” to “must not overlap the margin box of any floats” in http://www.w3.org/TR/CSS21/visuren.html#bfc-next-to-float
-  ;Status : =WG= Discuss
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 279 ====
   ;Summary : new wording about "next to" floats
