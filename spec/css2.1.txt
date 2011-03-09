@@ -232,8 +232,8 @@ If the element has children, its height is the distance from its top content edg
   * the bottom border edge of the last line box, when the box establishes a inline formatting context
   * the bottom edge of the bottom collapsed margin of its last child, when the child's bottom margin does not collapse with the element's bottom margin
   * the bottom border edge of its last child, when the child's bottom margin does collapse with the element's bottom margin
-
-  ;Status : Open. =WG= Discuss
+  ;Resolved : WG doesn't see the problem, so no change.
+  ;Status : Closed.
 
 ==== Issue 226 ====
   ;Summary : White space processing clarifications
