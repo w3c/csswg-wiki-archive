@@ -294,7 +294,7 @@ If the element has children, its height is the distance from its top content edg
   ;Summary : Margin-collapsing and min-height inconsistent implementations.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0649.html
   ;Testcase : http://css-class.com/test/css/box/margins/collapsing-with-min-height.htm
-  ;Status : Open. =WG= Discuss.
+  ;Status : Open. =dbaron= to reply in email
 
 ==== Issue 235 ====
   ;Summary : Clarify that list of 'direction' property effects is not exhaustive.
