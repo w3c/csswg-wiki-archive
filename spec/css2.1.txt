@@ -612,7 +612,7 @@ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
   ;Resolution : Proposal accepted.
   ;Status : Open. =Bert= Edit.
 
-==== Issues 281 ====
+==== Issue 281 ====
   ;Summary : 'line-height' is a property (and its values are 'quantities') not a 
 physical entity; nothing can "start" there.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html 
