@@ -221,8 +221,9 @@ Misfiled. See Issue 192.
 ==== Issue 224 ====
   ;Summary : List style intrinsic sizing rules inconsistent with other image uses
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Feb/0364.html
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Mar/0158.html
-  ;Status : Open. =errata= Deferred to Errata
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Feb/0679.html
+  ;Resolution : Tab's proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 225 ====
   ;Summary : Auto height calculation rules confused about margin collapsing
