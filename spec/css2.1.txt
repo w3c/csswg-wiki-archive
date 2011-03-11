@@ -27,7 +27,7 @@ Last mailing list sweep 2011-01-07 – arronei
   ;Second proposal : http://lists.w3.org/Archives/Public/www-style/2010Jun/0570.html
   ;Resolution : Second proposal accepted.
   ;Follow-up 1 : The term "the box whose height is 'line-height'" isn't actually defined anywhere and indeed can't be. (The intended boxes are typically of that height, but it depends on whether they contain glyphs in fallback fonts.) We need to define the box we need somewhere, or characterize it better. See [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0045.html|thread.]]
-  ;Status : =Bert= Edit. (Claimed to be edited, but I cannot find the proposed text.) See also sylvain's comment in the March f2f minutes
+  ;Status : =Bert= Edit. See also sylvain's comment in the March f2f minutes
   ;Testcases : vertical-align-boxes-001
 
 ==== Issue 159 ====
