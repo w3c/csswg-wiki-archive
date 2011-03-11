@@ -48,8 +48,9 @@ Last mailing list sweep 2011-01-07 – arronei
 ==== Issue 181 ====
   ;Summary : use of 'height' in 10.8 causes confusion over content height and line-height wrt inline elements
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0010.html
-  ;Status : Open. =Bert= Edit as appropriate; possibly make testcase to example; post diff to www-style for review.
+  ;Status : Open. =fantasai= cross-check
   
+
 ==== Issue 192 ====
   ;Summary : Clarifications to float's effect on its shortened line
   ;URI : http://lists.w3.org/Archives/Public/www-style/2009Oct/0027.html
