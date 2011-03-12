@@ -80,8 +80,9 @@ Last mailing list sweep 2011-01-07 – arronei
 ==== Issue 199 ====
   ;Summary : Define when line boxes are present
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010May/0698.html
-  ;Status : Open. =Tab= Email bz and dbaron for review.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Oct/0707.html
+  ;Resolution : Accept Tab's proposal with "auto" replaced by "static"
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 203 ====
   ;Summary : Hypothetical border calculation should match actual border calculation
