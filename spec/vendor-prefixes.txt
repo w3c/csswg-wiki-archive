@@ -38,11 +38,11 @@ If you are implementing a property/value/@-rule feature which is intended for in
   * MUST use a vendor-specific prefix for the implementation of the feature
   * MUST NOT support an unprefixed version of the feature
 You should, however, consider proposing the feature to the CSS WG and then, if it is accepted, follow the convention for WDs.
-
 ==== Transitions ====
 If you implemented a property/value/@-rule feature with a vendor-specific prefix when it was only defined in a Working Draft, and the WD transitions to Candidate Recommendation, then your implementation:
   * SHOULD support an un-prefixed version of the feature (this will help exit CR)
   * SHOULD consider dropping the vendor-specific prefixed version of the feature.
+    * [[http://www.alistapart.com/articles/prefix-or-posthack/|Eric Meyer’s article on the topic at A List Apart]] raised a [[http://lists.w3.org/Archives/Public/www-style/2010Jul/0048.html|discussion at www-style]] in 2010
 
 ===== open questions =====
 ==== When to implement un-prefixed features ====
