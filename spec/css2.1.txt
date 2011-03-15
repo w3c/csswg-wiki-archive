@@ -640,7 +640,9 @@ http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
 ==== Issue 284 ====
   ;Summary : CSS2.1 exit criteria differ from CSS3
   ;Resolution : Update CSS 2.1 exit criteria to the current (CSS3 standard) exit criteria, minus the 30-day implementation requirement.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Duplicate of [[#issue-272|issue 272.]]
+
+
 
 
 ===== 8 September 2009 CR Issues =====
