@@ -17,10 +17,11 @@ Ideas to consider
   * ''%%::quote-start%%'' and ''%%::quote-end%%'', to match characters with the Quotation_Mark property that are direct children of the element and that are  immediately inside the start and end (respectively) of the element, ignoring White_Space characters. (This would help a lot with ''<q>'' in HTML5.)
   * [[http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2008-October/016544.html|dynamic values selector]] and/or a pseudo-class for placeholder text
   * [[http://lists.w3.org/Archives/Public/www-style/2008Nov/0466.html|::window pseudo-element]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2010Jan/0308.html|limited descendant combinator]] [[http://www.onderhond.com/blog/work/missing-css-combinator|more info]]
-  * Better definition of :first-letter http://lists.w3.org/Archives/Public/www-style/2010Aug/0063.html + note in Selectors L3
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Jan/0308.html|limited descendant combinator]] ([[http://www.onderhond.com/blog/work/missing-css-combinator|more info]])
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Aug/0063.html|Better definition of ''::first-letter'']], see also note in Selectors L3
+  * ''::first-words(n)'', ''::first-lines(n)'', ''::nth-line(an+b)'', ''::last-line'' etc.
   * [[http://lists.w3.org/Archives/Public/www-style/2009Mar/0146.html|:nth-match(<selector>, <an+b>)]]
   * [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0339.html|only-child-parent]] Most use cases for the parent selector care only about the only child. This doesn't have the same perf implications as a general parent selector.
   * [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0039.html|semantic pseudo-class selectors]] e.g. for headings akin to '':link'' etc.
   * Clarify that first formatted line is not triggered when preceded by a block http://wiki.csswg.org/spec/css2.1#issue-268
-  * [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0849.html|UA hint pseudo-element selectors]] ::typo, ::match etc.
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0849.html|UA hint pseudo-element selectors]] ''::typo'', ''::match'' etc.
