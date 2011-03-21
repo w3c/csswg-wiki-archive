@@ -6,8 +6,8 @@ See the [[http://dev.w3.org/csswg/css-style-attr/|latest editors draft of CSS St
 The CSS Style Attributes spec is a CR!
 
 ===== Tasks =====
-  * email Hixie to update reference to CSS Style Attributes draft in [[http://www.whatwg.org/specs/web-apps/current-work/multipage/references.html#references|HTML5 References]] (Tantek)
+  * update reference to CSS Style Attributes draft in [[http://www.whatwg.org/specs/web-apps/current-work/multipage/references.html#references|HTML5 References]] (Hixie, email sent by Tantek 2011-080)
 
 ===== Tasks to PR =====
-* test cases/suite - gather, create, publish
-* implementation reports
+  * test cases/suite - gather, create, publish
+  * implementation reports
