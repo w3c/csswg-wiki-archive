@@ -188,7 +188,7 @@ Last mailing list sweep 2011-01-07 – arronei
   ; Summary : Drop vertical-align from list of properties supported on ::first-line
   ; URI : first-line-pseudo-016
   ; Resolution : Drop.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 218 ====
   ;Summary : Percentage intrinsic widths untestable
