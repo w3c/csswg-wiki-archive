@@ -634,7 +634,7 @@ http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
 ==== Issue 282 ====
   ;Summary : No passes for background-intrinsic-004 and background-intrinsic-005
   ;Resolution : The background position of background images with an intrinsic ratio and no intrinsic size is undefined in CSS2.1, see CSS3 Backgrounds and Borders.
-  ;Status : Open. =Bert= Undo edit that makes the size undefined (only the position is undefined).
+  ;Status : Closed.
 
 ==== Issue 283 ====
   ;Summary : No passes for replaced-intrinsic-ratio-001
