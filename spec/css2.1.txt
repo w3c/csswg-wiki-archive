@@ -579,7 +579,7 @@ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Aug/0358.html
   ;Proposal : Add "(except as specified elsewhere)" to statement about stacking.
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 276 ====
   ;Summary : :first-line, :first-letter under defined
