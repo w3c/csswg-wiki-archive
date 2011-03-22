@@ -289,7 +289,7 @@ If the element has children, its height is the distance from its top content edg
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0310.html
   ;See also : http://lists.w3.org/Archives/Public/www-style/2010Oct/0407.html
   ;Resolution : Make in-flow mean not out-of-flow, check that spec remains correct.
-  ;Status : Open. =Bert= Edit and review for correctness.
+  ;Status : Closed.
 
 ==== Issue 233 ====
   ;Summary : text-indent percentages behavior very odd for table cells and floats
