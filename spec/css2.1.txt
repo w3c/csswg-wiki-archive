@@ -648,6 +648,8 @@ http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Dec/0474.html
   ;Testcases : margin-collapse-clear-005/011 and others
   ;Resolution : Have CSS2.1 allow two possible margin collapsing behaviors in the margin-collapse-clear case: the hypothetical position before clearance is applied may be calculated either with respect to the parent block, or with respect to the containing block formatting context. (The preferred behavior is the latter, since it doesn't mysteriously eat margins and make clear to make things move up. But we need to evaluate web compat since Acid2 and therefore all browsers do the former.)
+  ;Objection : http://lists.w3.org/Archives/Public/www-style/2011Mar/0470.html
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Mar/0511.html
   ;Status : Open. =fantasai= cross-check with 203
 
 ===== 8 September 2009 CR Issues =====
