@@ -273,7 +273,7 @@ If the element has children, its height is the distance from its top content edg
   ;Testcases : http://bowman.infotech.monash.edu.au/~pmoulder/html-tests/list-item-numbering/
   ;Proposal : Add a note saying it's undefined and point to CSS3 Lists
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 231 ====
   ;Summary : Make list-item-ness of root list-item optional
