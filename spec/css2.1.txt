@@ -35,7 +35,8 @@ Last mailing list sweep 2011-01-07 – arronei
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0015.html http://lists.w3.org/Archives/Public/www-style/2010Aug/0183.html
   ;Summary : Clarify definition of adjoining margins
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Sep/0684.html
-  ;Status : Open. =Bert= Edit per http://lists.w3.org/Archives/Public/www-style/2010Oct/0842.html.
+  ;Resolution : Proposal accepted with tweaks noted in minutes: http://lists.w3.org/Archives/Public/www-style/2010Oct/0842.html.
+  ;Status : Closed.
 
 ==== Issue 179 ====
   ;Summary : Example in anonymous block boxes section is wrong
