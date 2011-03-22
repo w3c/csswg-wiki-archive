@@ -228,7 +228,7 @@ Misfiled. See Issue 192.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Feb/0364.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Feb/0679.html
   ;Resolution : Tab's proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 225 ====
   ;Summary : Auto height calculation rules confused about margin collapsing
