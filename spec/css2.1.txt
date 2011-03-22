@@ -437,7 +437,7 @@ If the element has children, its height is the distance from its top content edg
   ;Summary : Clarifications to HTML-related definitions
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0072.html issue 1
   ;Proposal : Include future versions of HTML in HTML UA definition (or remove definition, if possible).
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 256 ====
   ;Summary : Clarify form controls and frames
