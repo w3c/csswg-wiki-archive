@@ -100,7 +100,7 @@ Last mailing list sweep 2011-01-07 – arronei
   ;Summary : Link 8.3.1 to clause about phantom line boxes
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Sep/0061.html 20d
   ;Resolution : Assumed editorial.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 205 ====
 
