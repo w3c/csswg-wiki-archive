@@ -206,8 +206,7 @@ Last mailing list sweep 2011-01-07 – arronei
   ;Summary : Clip does not respond to 'direction' in most implementations
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Nov/0174.html
   ;Resolution : Make 'clip' not respond to 'direction' in the spec.
-  ;Status : Open. =Bert= Edit.
-
+  ;Status : Closed.
 
 ==== Issue 221 ====
   ;Summary : Remove gamma-correction section
