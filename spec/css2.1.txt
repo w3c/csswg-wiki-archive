@@ -91,7 +91,8 @@ Last mailing list sweep 2011-01-07 – arronei
   ;Resolution : Proposal accepted.
   ;Objection : http://lists.w3.org/Archives/Public/www-style/2010Sep/0665.html
   ;Resolution : Have CSS2.1 allow two possible margin collapsing behaviors in the margin-collapse-clear case: the hypothetical position before clearance is applied may be calculated either with respect to the parent block, or with respect to the containing block formatting context. (The preferred behavior is the latter, since it doesn't mysteriously eat margins and make clear to make things move up. But we need to evaluate web compat since Acid2 and therefore all browsers do the former.)
-  ;Status : Closed, test cases updated
+  ;Objection : http://lists.w3.org/Archives/Public/www-style/2011Mar/0426.html
+  ;Status : Open. =WG= Discuss.
 
 ==== Issue 204 ====
 
