@@ -609,7 +609,7 @@ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0130.html
   ;Proposal : Add "as necessary" to sentence about shortening line boxes.
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 280 ====
   ;Summary : left float can be to the right of a right float
