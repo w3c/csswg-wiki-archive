@@ -639,7 +639,7 @@ http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
 ==== Issue 283 ====
   ;Summary : No passes for replaced-intrinsic-ratio-001
   ;Resolution : Undefine sizing of replaced elements with intrinsic ratio but no size.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Open. =Bert= Re-edit.
 
 ==== Issue 284 ====
   ;Summary : CSS2.1 exit criteria differ from CSS3
