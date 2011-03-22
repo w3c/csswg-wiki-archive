@@ -626,7 +626,7 @@ physical entity; nothing can "start" there.
 http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
   ;Proposal : Replace "not the 'line-height" with "and has nothing to do with the 'line-height'"
   ;Resolution : Proposal accepted
-  ;Status : Open. =Bert= Edit.
+  ;Status : Closed.
 
 ==== Issue 282 ====
   ;Summary : No passes for background-intrinsic-004 and background-intrinsic-005
