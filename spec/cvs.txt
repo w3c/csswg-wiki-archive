@@ -1,6 +1,6 @@
 ====== W3C CVS For Dummies ======
 
-2010-234 Tantek Çelik - originally drafted (with incremental updates since)
+2010-234 Tantek Çelik - originally drafted (with incremental updates since, e.g. 2011-081)
 
 ===== Introduction =====
 Setting up CVS and specifically, W3C's setup for CVS is quite challenging, obtuse, and painful.
@@ -9,7 +9,7 @@ Having failed to do this by myself, I took reasonably thorough notes while @fant
 
 It is my hope that documenting the steps I had to take will help others get setup with CVS and editing W3C specs much more quickly and efficiently, and perhaps, in the long run, the process for editing W3C specifications can be made more efficient.
 
-Tantek Çelik, 2010-236 (updated 2011-081)
+Tantek Çelik, 2010-236
 
 ===== Public Web Access to W3C CVS =====
 If all you want to do is browse through W3C's CVS repository on the web, you can start here:
