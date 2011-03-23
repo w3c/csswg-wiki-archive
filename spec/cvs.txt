@@ -33,7 +33,7 @@ You need to first install CVS on your system.
 
 If you have a Mac:
   * install XCode.  It helps if you're using a fairly new OS X version (e.g. 10.6 Snow Leopard) and XCode.
-  * install MacPorts (citation/download link needed)
+  * [[http://distfiles.macports.org/MacPorts/MacPorts-1.9.2-10.6-SnowLeopard.dmg|install MacPorts (OSX 10.6)]] (see [[http://www.macports.org/install.php|Installing MacPorts]] for other installs)
   * ''sudo port install cvs''
 
 For other platforms ... tips forthcoming.
