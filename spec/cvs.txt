@@ -9,7 +9,7 @@ Having failed to do this by myself, I took reasonably thorough notes while @fant
 
 It is my hope that documenting the steps I had to take will help others get setup with CVS and editing W3C specs much more quickly and efficiently, and perhaps, in the long run, the process for editing W3C specifications can be made more efficient.
 
-Tantek Çelik, 2010-236
+Tantek Çelik, 2010-236 (updated 2011-081)
 
 ===== Public Web Access to W3C CVS =====
 If all you want to do is browse through W3C's CVS repository on the web, you can start here:
@@ -34,7 +34,34 @@ You need to first install CVS on your system.
 If you have a Mac:
   * install XCode.  It helps if you're using a fairly new OS X version (e.g. 10.6 Snow Leopard) and XCode.
   * [[http://distfiles.macports.org/MacPorts/MacPorts-1.9.2-10.6-SnowLeopard.dmg|install MacPorts (OSX 10.6)]] (see [[http://www.macports.org/install.php|Installing MacPorts]] for other installs)
-  * ''sudo port install cvs''
+  * Install CVS by entering this command into a Terminal window:
+
+<code bash>sudo port install cvs</code>
+
+If you get an error message like:
+
+<code>sudo: port: command not found</code>
+
+Then open a *new* Terminal window and try the command again:
+
+<code bash>sudo port install cvs</code>
+
+You should then see a bunch of messages like:
+
+<code>
+--->  Fetching cvs
+--->  Attempting to fetch cvs-1.11.23.tar.bz2 from http://distfiles.macports.org/cvs
+--->  Verifying checksum(s) for cvs
+--->  Extracting cvs
+--->  Configuring cvs
+--->  Building cvs
+--->  Staging cvs into destroot
+--->  Installing cvs @1.11.23_0
+--->  Activating cvs @1.11.23_0
+--->  Cleaning cvs
+</code>
+
+Congratulations, you've installed the command-line cvs tool on your Mac.
 
 For other platforms ... tips forthcoming.
 
