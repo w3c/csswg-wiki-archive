@@ -33,7 +33,6 @@ Put the test in the most severe group (earliest below) that applies.
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|content-160]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|border-conflict-style-074]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0139.html|c5504-mrgn-l-002]]</del> - fixed for RC5
-  * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0141.html|c566-list-stl-000]]</del> - removed for RC5
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0119.html|background-intrinsic-004]]</del> - Fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0120.html|background-intrinsic-005]]</del> - Fixed for RC4
 
