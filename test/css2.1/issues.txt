@@ -137,6 +137,8 @@ Ugly, not self-documenting:
 
 ==== 2 RC6 testcases that have CSS Validation errors ====
 
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/z-index-020.htm|[RC6] z-index-020]] ; [[http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Ftest.csswg.org%2Fsuites%2Fcss2.1%2F20110323%2Fhtml4%2Fz-index-020.htm&profile=css21&usermedium=all&warning=2&lang=en|CSS Validation report]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-systemfont-rule-003.htm|[RC6] font-systemfont-rule-003]] ; [[http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Ftest.csswg.org%2Fsuites%2Fcss2.1%2F20110323%2Fhtml4%2Ffont-systemfont-rule-003.htm&profile=css21&usermedium=all&warning=2&lang=en|CSS Validation report]] : font shorthand requires font-size and font-family. [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Mar/0038.html|More info]]
 
 ===== Tests that need Metadata improvements =====
 
