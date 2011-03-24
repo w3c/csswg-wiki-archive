@@ -145,7 +145,7 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20101210/html4/position-relative-nested-001.htm
 |position-relative-nested-001]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html]]
 
-==== 0 testcase possibly missing http flag ====
+==== 0 RC6 testcase possibly missing http flag ====
 
 
 
