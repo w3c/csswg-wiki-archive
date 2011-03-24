@@ -45,6 +45,9 @@ Put the test in the most severe group (earliest below) that applies.
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/containing-block-017.htm|containing-block-017]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0063.html]] What do do? title and text assert should be adjusted to pinpoint section 10.1, bullet 4, sub-bullet 1 and not sub-bullet 2 (since ancestor is an inline box, not a block).
 
+==== 7 invalid RC6 testcases because they rely on rounding issues ====
+
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c43-center-000.htm|[RC6] c43-center-000]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Feb/0037.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Feb/0037.html]]
 
 
 ===== Tests that need Usability improvements =====
