@@ -10,7 +10,10 @@ Put the test in the most severe group (earliest below) that applies.
 ===== Tests that are Wrong or have Parse Errors =====
 
 
-==== 0 Incorrect RC6 testcases ====
+==== 2 Incorrect RC6 testcases ====
+
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-family-rule-002.htm|[RC6] font-family-rule-002]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Feb/0116.html]] It is *not* ok to have one letter "X"; there should be 2 small filled black squares vertically lined up. line-height should be specified in the testcase, preferably set to a value of 1.25 in the testcase.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-family-rule-003.htm|[RC6] font-family-rule-003]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Feb/0117.html]] ''font-family: Ahem!;'' is not a valid declaration. Therefore, an "X" must be rendered; an "X" being rendered is not optional or a 'may'. Pass conditions should be updated accordingly.
 
 
 ==== Tests relying on non-normative behavior ====
@@ -160,10 +163,10 @@ Ugly, not self-documenting:
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/blocks-020.htm|blocks-020]]</del> - Fixed for RC5
 
 
-==== 2 RC4 testcases missing the invalid flag ====
+==== 2 RC6 testcases missing the invalid flag ====
 
-  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/border-spacing-012.htm|border-spacing-012]] "Lengths [of border-spacing] may not be negative." coming from [[http://www.w3.org/TR/CSS21/tables.html#separated-borders|17.6.1 border-spacing]] Although no CSS validation error is reported, I think this should be parsed as a validation error; therefore invalid flag should be added.</del> - Fixed in RC5
-  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/c526-font-sz-003.htm|c526-font-sz-003]] font-size: -0.5in; will be parsed and reported as an illegal value.</del> - Fixed for RC6
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c526-font-sz-003.htm|[RC6] c526-font-sz-003]] font-size: -0.5in; will be parsed and reported as an illegal value.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-size-rule-001.htm|[RC6] font-size-rule-001]]
 
 ==== 4 RC4 testcases missing the interact flag ====
 
