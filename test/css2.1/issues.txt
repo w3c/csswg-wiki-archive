@@ -61,7 +61,6 @@ Ugly, not self-documenting:
 ==== Confusing/hard to judge ====
 
   * background-attachment-004 (also has external references to image files)
-  * <del>background-position-201</del> - Fixed for RC4
   * <del>background-root-018</del> - Fixed for RC4
   * <del>c525-font-wt-000: does not state whether "This sentence should be very light" should be visibly lighter than normal</del> - Fixed for RC4
   * <del>inline-block-003: behavior on window resize needs to be clarified:</del> - Fixed for RC4
