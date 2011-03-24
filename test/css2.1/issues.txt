@@ -10,10 +10,8 @@ Put the test in the most severe group (earliest below) that applies.
 ===== Tests that are Wrong or have Parse Errors =====
 
 
-==== 2 Incorrect RC4 testcases ====
+==== 0 Incorrect RC6 testcases ====
 
-  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/active-selector-002.htm|active-selector-002]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0149.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0149.html]]</del> - fixed for RC5
-  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/font-family-rule-017.htm|font-family-rule-017]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0125.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0125.html]] There are several other testcases with font naming issues too: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0265.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0265.html]]</del> - Fixed for RC5
 
 ==== Tests relying on non-normative behavior ====
 
