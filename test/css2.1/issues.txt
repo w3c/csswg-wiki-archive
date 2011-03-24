@@ -37,7 +37,7 @@ Put the test in the most severe group (earliest below) that applies.
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0265.html|font-matching-rule-013]]</del> - fixed for RC5
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0119.html|background-intrinsic-004]]</del> - Fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0120.html|background-intrinsic-005]]</del> - Fixed for RC4
-  * <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/letter-spacing-102.htm|letter-spacing-102]]</del> - Fixed for RC6
+
 
 ==== 0 RC4 testcase with incorrect pass condition / dependence on font metrics ====
 
