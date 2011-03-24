@@ -85,15 +85,10 @@ Ugly, not self-documenting:
 
 
 
-==== 15 RC3 testcases with too technical pass conditions ====
+==== 7 RC3 testcases with too technical pass conditions ====
 
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/inline-table-width-001a.htm|inline-table-width-001a]] My neighbour would ask "What's 10em and how wide is it exactly?"
-  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/clipping-002.htm|clipping-002]] My neighbour would ask "What's a 100x100 square?".</del> - Fixed for RC6
-  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/clipping-006.htm|clipping-006]] Much too technical: "make sure overflow is done using a containing block model, and that a fixed positioned element inside another fixed positioned element is not considered overflow." Simple replacement would be: "Test passes if there is a green square and no red.".</del> - Fixed for RC6
-  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/clipping-007.htm|clipping-007]] My neighbour would ask "What's a 100x100 square?".</del> - Fixed for RC6
-  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/clipping-012.htm|clipping-012]] My neighbour would ask "What's a 100x100, clip and descendants?" The testcase has **validation markup errors** too.</del> - Fixed for RC6
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/table-percent-width-001.htm|table-percent-width-001]] My neighbour would ask "What's a 100px by 100px green square?"
-  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/blocks-011.htm|blocks-011]]</del> - Fixed in RC4 , <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/blocks-012.htm|blocks-012]] , [[http://test.csswg.org/suites/css2.1/20101027/html4/blocks-014.htm|blocks-014]] , [[http://test.csswg.org/suites/css2.1/20101027/html4/blocks-015.htm|blocks-015]] - Fixed for RC6. My neighbour would ask "What's a DIV?"</del>
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/background-alpha-001.htm|background-alpha-001]] My neighbour would ask "What's a 'multi-bit alpha channel'?" Pass conditions are not so clear and text is too technical.
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/background-alpha-002.htm|background-alpha-002]] My neighbour would ask "What's a 'multi-bit alpha channel'?" Pass conditions are not so clear and text is too technical.
   - [[http://test.csswg.org/suites/css2.1/20101027/html4/background-alpha-003.htm|background-alpha-003]] My neighbour would ask "What's a square div? How tall/big is/should be the 'size of two tiles'?" Pass conditions are not clear or easy for normal people and text is too technical.
