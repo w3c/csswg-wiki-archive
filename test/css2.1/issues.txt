@@ -39,7 +39,7 @@ Put the test in the most severe group (earliest below) that applies.
 
 ==== 0 RC4 testcase with incorrect pass condition / dependence on font metrics ====
 
-==== 0 RC4 testcase styling the alt attribute text ====
+
 
 ==== 1 RC6 testcase not actually testing what they are supposed to test or that are too easy to pass ====
 
