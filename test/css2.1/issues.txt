@@ -113,7 +113,7 @@ Ugly, not self-documenting:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/vertical-align-121.htm|[RC6] vertical-align-121]] Removing ''<p class="ahemprereq">'' whole paragraph is likely going to remove the unneeded and unexpected horizontal scrollbar at the same time.
 
-==== 0 RC4 testcase without pass conditions ====
+==== 0 RC6 testcase without pass conditions ====
 
 
 ==== 0 RC4 testcase that rely on unnecessary assumptions ====
