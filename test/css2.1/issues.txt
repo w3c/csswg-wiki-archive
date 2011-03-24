@@ -16,7 +16,6 @@ Put the test in the most severe group (earliest below) that applies.
 ==== Tests relying on non-normative behavior ====
 
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|font-matching-rule-008]]</del> - fixed for RC4
-  * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0074.html|table-height-algorithm-027]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0075.html|content-158]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0075.html|content-159]]</del> - fixed for RC4
   * <del>Various [min-|max-|]height-applies-to- tests **[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0060.html|listed here]]** : height, max-height, min-height supposed to be undefined for table row groups; max-height and min-height should not apply to table-row elements and table-cell elements</del> - Some fixed in RC4 remaining fixes in RC5
