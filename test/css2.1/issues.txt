@@ -61,10 +61,7 @@ Ugly, not self-documenting:
 ==== Confusing/hard to judge ====
 
   * background-attachment-004 (also has external references to image files)
-  * <del>background-root-018</del> - Fixed for RC4
   * <del>c525-font-wt-000: does not state whether "This sentence should be very light" should be visibly lighter than normal</del> - Fixed for RC4
-  * <del>inline-block-003: behavior on window resize needs to be clarified:</del> - Fixed for RC4
-  * <del>floats-126 et al: ditto</del> - Fixed for RC6
   * <del>inlines-004-inlines-006: unclear what "aligned" means.</del> Fixed for RC4
   * <del>margin-collapse-160: should say that the first page is blank and 3 pages are expected (if, indeed, that is the intent).</del> - Fixed for RC4
   * <del>text-transform-bicameral-009, text-transform-bicameral-010: should attempt to pick a font that has the glyphs</del> - Uses the browser's default, which should be falling back to whatever it can find.
