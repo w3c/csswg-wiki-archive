@@ -25,6 +25,7 @@ Put the test in the most severe group (earliest below) that applies.
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0382.html|content-counter-010]]</del> - Fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0382.html|content-counters-010]]</del> - Fixed for RC4
   * <del>Multiple [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0040.html|counter-increment-* and counter-reset-*]] tests</del> - Fixed for RC5
+  * [[http://test.csswg.org/suites/css2.1/20110323/html4/font-005.htm|[RC6] font-005]] , [[http://test.csswg.org/suites/css2.1/20110323/html4/font-019.htm|[RC6] font-019]] and [[http://test.csswg.org/suites/css2.1/20110323/html4/font-021.htm|[RC6] font-021]]: all 3 testcases assume that synthetic small-caps "x" must be taller/larger than normal lowercase "x" when the spec makes no statement of this sort. Also, using x/X is not best; better is e/E because glyphs have different shapes. **[[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Mar/0039.html|More info]]**
 
 ==== Miscellaneous incorrect tests ====
 
