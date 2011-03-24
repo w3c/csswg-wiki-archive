@@ -196,7 +196,7 @@ Ugly, not self-documenting:
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/floats-wrap-bfc-006b.htm|floats-wrap-bfc-006b]] relies on CSS2 caption-side: left</del> - moved to CSS3
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/floats-wrap-bfc-006c.htm|floats-wrap-bfc-006c]] relies on CSS2 caption-side: right</del> - moved to CSS3
 
-==== 0 RC4 testcase with wrong meta flag ====
+==== 0 RC6 testcase with wrong meta flag ====
 
 
 ==== 0 RC6 test with missing title ====
