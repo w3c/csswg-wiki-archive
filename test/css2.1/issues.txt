@@ -168,12 +168,9 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c526-font-sz-003.htm|[RC6] c526-font-sz-003]] font-size: -0.5in; will be parsed and reported as an illegal value.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-size-rule-001.htm|[RC6] font-size-rule-001]]
 
-==== 4 RC4 testcases missing the interact flag ====
+==== 1 RC6 testcase missing the interact flag ====
 
-  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/background-root-014.htm|background-root-014]] since resizing the viewport is part of the test pass/fail condition</del> - Fixed for RC6
-  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/background-root-017.htm|background-root-017]] since resizing the viewport is part of the test pass/fail condition</del> - Fixed for RC6
-  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/floats-108.htm|floats-108]] since resizing the viewport is part of the test pass/fail condition</del> - Fixed for RC6
-  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/floats-109.htm|floats-109]] since resizing the viewport is part of the test pass/fail condition</del> - Fixed for RC6
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-110.htm|[RC6] floats-110]] since resizing the viewport is part of the test pass/fail condition
 
 ==== 0 RC6 testcase missing the dom flag ====
 
