@@ -124,7 +124,7 @@ Ugly, not self-documenting:
 
 ==== 0 RC4 testcase that rely on unnecessary assumptions ====
 
-===== Tests that have HTML Validation errors =====
+===== Tests that have HTML or CSS Validation errors =====
 
 ==== 6 RC4 testcases that have HTML Validation errors ====
 
