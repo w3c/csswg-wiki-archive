@@ -43,9 +43,9 @@ Put the test in the most severe group (earliest below) that applies.
 
 ==== 0 RC4 testcase styling the alt attribute text ====
 
-==== 3 RC3 testcases not actually testing what they are supposed to test or that are too easy to pass ====
+==== 1 RC6 testcase not actually testing what they are supposed to test or that are too easy to pass ====
 
-  - <del>[[http://test.csswg.org/suites/css2.1/20101027/html4/containing-block-017.htm|containing-block-017]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Novhttp://wiki.csswg.org/lib/images/wrap.gif/0087.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0087.html]]</del> - Fixed for RC5
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/containing-block-017.htm|containing-block-017]] Reasons why: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0063.html]] What do do? title and text assert should be adjusted to pinpoint section 10.1, bullet 4, sub-bullet 1 and not sub-bullet 2 (since ancestor is an inline box, not a block).
 
 
 
