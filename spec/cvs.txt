@@ -27,6 +27,7 @@ Before you get started with the setup steps, you need:
   - your public key - you need to setup SSH keys for yourself.
     * this might be helpful: [[https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Generating_an_SSH_key|Mozilla Developer Network: Generating an SSH key]]
 
+Send your public key file (id_dsa.pub) to Bert Bos. Until your public key file has been setup on the CVS server you will not be able to connect successfully using ssh.
 
 ===== Step 0 - Install CVS =====
 You need to first install CVS on your system.
