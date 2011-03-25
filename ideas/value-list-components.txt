@@ -4,3 +4,8 @@ Several properties, such as 'transform', 'background-*', and '*-shadow', take co
 
 See thread at http://lists.w3.org/Archives/Public/www-style/2011Mar/0573.html
 
+It is also desirable to be able to decompose complex functions like ''linear-gradient()''. Such functions are also lists (tagged n-tuples to be precise). One of practical tasks sounds like "transition of 4th color stop from color 'red' to 'yellow'".
+In general the 'transition' shall accept only atomic values to avoid any ambiguity. E.g. it is not clear what exactly transition from ''linear-gradient(left,red,blue)'' to ''linear-gradient(top,red,yellow,blue)'' means.
+
+
+
