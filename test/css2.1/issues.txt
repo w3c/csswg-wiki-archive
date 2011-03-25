@@ -175,14 +175,11 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20101210/html4/abspos-paged-002.htm|abspos-paged-002]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]]
 
 
-==== 6 RC4 testcases using, relying on CSS3 grammar or CSS3 properties ====
+==== 3 RC4 testcases using, relying on CSS3 grammar or CSS3 properties ====
 
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/page-break-after-010.htm|page-break-after-010]] relies on CSS3 at-keywords for paged media</del> - CSS3 bits not part of tests, so ok
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/page-break-before-003.htm|page-break-before-003]] relies on CSS3 at-keywords for paged media</del> - CSS3 bits not part of tests, so ok
   - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/page-break-before-005.htm|page-break-before-005]] relies on CSS3 at-keywords for paged media</del> - CSS3 bits not part of tests, so ok
-  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/allowed-page-breaks-001c.htm|allowed-page-breaks-001c]] relies on CSS3 at-keywords for paged media</del> - fixed for RC5
-  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/allowed-page-breaks-003.htm|allowed-page-breaks-003]] relies on CSS3 at-keywords for paged media</del> - fixed for RC5
-  - <del>[[http://test.csswg.org/suites/css2.1/20101210/html4/allowed-page-breaks-004.htm|allowed-page-breaks-004]] relies on CSS3 at-keywords for paged media</del> - fixed for RC5
 
 ==== 0 RC6 testcase with wrong meta flag ====
 
