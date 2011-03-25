@@ -186,7 +186,7 @@ Last mailing list sweep 2011-01-07 – arronei
   ; Summary : Make it undefined what containing block is formed by a relpos inline that splits across multiple lines
   ; URI : containing-block-032
   ; Resolution : Make undefined.
-  ;Status : Edited. =Fantasai= Review the edit.
+  ;Status : Closed.
 
 ==== Issue 216 ====
 
