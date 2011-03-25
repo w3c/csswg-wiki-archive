@@ -199,7 +199,7 @@ Last mailing list sweep 2011-01-07 – arronei
   ;Summary : Percentage intrinsic widths untestable
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Nov/0077.html
   ;Resolution : Remove all mention of percentage intrinsic widths from CSS2.1
-  ;Status : Open. =fantasai= cross-check
+  ;Status : Closed.
 
 ==== Issue 219 ====
   ;Summary : Clarify that Line Separator LS and other (non-collapsed) forced-break Unicode chars break the line
