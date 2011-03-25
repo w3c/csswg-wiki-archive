@@ -622,7 +622,7 @@ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
 (second third)
   ;Proposal : Change "to the right of it" to "next to it"
   ;Resolution : Proposal accepted.
-  ;Status : Edited. =Fantasai= Review the edit.
+  ;Status : Closed.
 
 ==== Issue 281 ====
   ;Summary : 'line-height' is a property (and its values are 'quantities') not a 
