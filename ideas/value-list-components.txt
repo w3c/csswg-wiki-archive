@@ -1,0 +1,6 @@
+====== Improving usability of ordered component value lists ======
+
+Several properties, such as 'transform', 'background-*', and '*-shadow', take complex ordered lists of values. Tweaking one component of such a value (e.g. changing color or rotation on :hover) requires rewriting the whole thing.
+
+See thread at http://lists.w3.org/Archives/Public/www-style/2011Mar/0573.html
+
