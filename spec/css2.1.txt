@@ -207,7 +207,7 @@ Last mailing list sweep 2011-01-07 – arronei
   ;Resolution : Make line breaking behavior of forced-break Unicode chars undefined in CSS2.1 so that CSS3 can define it.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Feb/0669.html
   ;Resolution : Proposal accepted.
-  ;Status : Edited. =Fantasai= Review the edit.
+  ;Status : Closed.
 
 ==== Issue 220 ====
   ;Summary : Clip does not respond to 'direction' in most implementations
