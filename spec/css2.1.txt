@@ -653,6 +653,7 @@ http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
   ;Resolution : Update CSS 2.1 exit criteria to the current (CSS3 standard) exit criteria, minus the 30-day implementation requirement.
   ;Status : Duplicate of [[#issue-272|issue 272.]]
 
+
 ==== Issue 285 ====
 
   ;Summary : Clearance moving things up (revisited)
@@ -663,7 +664,7 @@ http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Mar/0511.html
   ;Verified : http://lists.w3.org/Archives/Public/www-style/2011Mar/0513.html
   ;Proposed Text : http://lists.w3.org/Archives/Public/www-style/2011Mar/0531.html
-  ;Status : Edited. =Bert= Missing edit #1.
+  ;Status : Edited. =Fantasai= Review that previously missing edit #1 is now correct.
 
 ==== Issue 286 ====
 
