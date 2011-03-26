@@ -1068,13 +1068,14 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Resolution : Proposal accepted with "even if either side is empty" appended.
   ;Status : Closed. =fantasai= testcases
 
+
 ==== Issue 196 ====
   ;Summary : Grammar and prose disagree on whether identifiers can include NBSP
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Feb/0156.html
   ;Notes : Opera, and Konqueror allow nbsp in identifiers; Firefox does not
   ;Testcase : data:text/xml;base64,PGh0bWwgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiPg0KPGhlYWQ%2BDQo8c3R5bGU%2BDQogICYjeDcwOyB7IGNvbG9yOiBncmVlbjsgfQ0KICAudGVzdCB7IGNvbG9yOiByZWQ7IH0NCiAgLnRlc3QmI3hBMDtzZW50ZW5jZSB7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyB9DQo8L3N0eWxlPg0KPC9oZWFkPg0KPGJvZHk%2BDQo8cCBjbGFzcz0idGVzdCYjeEEwO3NlbnRlbmNlIj5UaGlzIHNlbnRlbmNlIG11c3QgYmUgZ3JlZW4uIElzIGl0IHVuZGVybGluZWQ%2FPC9wPg0KPC9ib2R5Pg0KPC9odG1sPg%3D%3D
   ;Resolution : Identifiers can contain nbsp. Update spec to include nbsp and exclude control characters adjacent to it.
-  ;Status : =Bert= Fix nonascii token in Appendix G grammar to match core grammar.
+  ;Status : Edited (latest fix is nonascii token in Appendix G grammar to match core grammar). =Fantasai= Review the edit. 
 
 ==== Issue 201 ====
   ;Summary : Table model editorial
