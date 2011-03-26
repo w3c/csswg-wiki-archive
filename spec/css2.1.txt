@@ -348,7 +348,7 @@ If the element has children, its height is the distance from its top content edg
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Oct/0817.html
   ;Proposal : Make undefined
   ;Resolution : Proposal accepted to make effect of min/max-width/height undefined on table elements to which they apply.
-  ;Status : Edited. =Fantasai= Review the edit.
+  ;Status : Closed.
 
 ==== Issue 241 ====
   ;Summary : position: static doesn't prevent computation of top/left/bottom/right
