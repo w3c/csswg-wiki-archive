@@ -639,11 +639,14 @@ http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
   ;Resolution : The background position of background images with an intrinsic ratio and no intrinsic size is undefined in CSS2.1, see CSS3 Backgrounds and Borders.
   ;Status : Closed.
 
+
 ==== Issue 283 ====
   ;Summary : No passes for replaced-intrinsic-ratio-001
   ;Resolution : Undefine sizing of replaced elements with intrinsic ratio but no size.
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Mar/0519.html
-  ;Status : Edited. =Bert= Missing edits to 10.6.2
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Mar/0623.html
+  ;Status : Edited. =Bert= Missing edits to 10.6.2 (if first proposal is preferred)
+
 
 ==== Issue 284 ====
   ;Summary : CSS2.1 exit criteria differ from CSS3
