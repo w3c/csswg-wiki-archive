@@ -176,10 +176,11 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-family-rule-003.htm|[RC6] font-family-rule-003]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-family-rule-007.htm|[RC6] font-family-rule-007]]
 
-==== 2 RC6 testcases missing the interact flag ====
+==== 3 RC6 testcases missing the interact flag ====
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-110.htm|[RC6] floats-110]] since resizing the viewport is part of the test pass/fail condition
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5504-mrgn-l-002.htm|[RC6] c5504-mrgn-l-002]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/background-bg-pos-205.htm|[RC6] background-bg-pos-205]]
 
 ==== 0 RC6 testcase missing the dom flag ====
 
