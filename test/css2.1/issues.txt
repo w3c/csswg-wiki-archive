@@ -160,6 +160,10 @@ Ugly, not self-documenting:
 ==== 0 RC6 testcase possibly missing http flag ====
 
 
+==== 1 RC6 testcase missing the paged flag ====
+
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/page-break-inside-006.htm|[RC6] page-break-inside-006]]
+
 
 ==== 1 RC6 testcase missing the ahem flag ====
 
