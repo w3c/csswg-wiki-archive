@@ -542,7 +542,7 @@ If the element has children, its height is the distance from its top content edg
   ;Summary : Make text-decoration propagation more clearly recursive.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0085.html issue 3
   ;Resolution : No change for CSS 2.1, Fix in CSS3 Text.
-  ;Status : Open. =fantasai= Fix in CSS3 Text.
+  ;Status : Fixed in CSS3 Text.
 
 ==== Issue 271 ====
   ;Summary : Make list-item's additional boxes clause example rather than exhaustive.
