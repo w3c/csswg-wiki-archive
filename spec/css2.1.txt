@@ -53,7 +53,7 @@ Last mailing list sweep 2011-01-07 – arronei
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Aug/0010.html
   ;Followup : conflict noted in http://lists.w3.org/Archives/Public/www-style/2011Mar/0139.html (e.g. say "based on line-height"?)
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Mar/0587.html
-  ;Status : Edited. =Fantasai= Review the edit.
+  ;Status : Closed.
 
 ==== Issue 192 ====
   ;Summary : Clarifications to float's effect on its shortened line
