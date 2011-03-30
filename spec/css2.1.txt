@@ -664,7 +664,7 @@ http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Mar/0511.html
   ;Verified : http://lists.w3.org/Archives/Public/www-style/2011Mar/0513.html
   ;Proposed Text : http://lists.w3.org/Archives/Public/www-style/2011Mar/0531.html
-  ;Status : Edited. =Fantasai= Review that previously missing edit #1 is now correct.
+  ;Status : Closed.
 
 ==== Issue 286 ====
 
