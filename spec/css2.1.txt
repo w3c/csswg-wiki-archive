@@ -803,7 +803,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Aug/0368.html
   ;Testcase : http://lists.w3.org/Archives/Public/www-style/2010Aug/0417.html
   ;Resolution : Bert's proposal accepted. (and look at http://lists.w3.org/Archives/Public/www-style/2010Aug/0577.html)
-  ;Status : Edited. (Last edit was for an [[http://lists.w3.org/Archives/Member/w3c-css-wg/2011JanMar/0401.html|inconsistency]].) =Fantasai= Review the edit. 
+  ;Status : Closed. =arronei= or =fantasai= Ensure testcase for u\rl(...) being invalid exists.
 
 ==== Issue 137 ===
   ;URL : http://lists.w3.org/Archives/Public/www-style/2009Sep/0247.html
