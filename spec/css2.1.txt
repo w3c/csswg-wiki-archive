@@ -44,7 +44,7 @@ Last mailing list sweep 2011-01-07 – arronei
   ;Note : Partially, but not completely, fixed by [[#issue-164|issue 164.]]
   ;Proposal : Replace "The resulting boxes would be an anonymous block box around the P" with "The resulting boxes would be a block box representing the P"
   ;Resolution : Proposal accepted
-  ;Objection : This is incorrect, see http://lists.w3.org/Archives/Public/www-style/2011Mar/0310.html http://lists.w3.org/Archives/Public/www-style/2011Mar/0402.html
+  ;Objection : This is incorrect, see http://lists.w3.org/Archives/Public/www-style/2011Mar/0310.html
   ;Status : Closed.
   ;Testcases : n/a (editorial)
 
