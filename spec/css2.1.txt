@@ -65,7 +65,7 @@ Last mailing list sweep 2011-01-07 – arronei
   ;Objection : http://lists.w3.org/Archives/Public/www-style/2011Mar/0402.html
   ;Resolution : from 2011-03-29 telcon: "If a shortened line box is too small to contain any content <del>after the float</del>, then <del>that content</del> <ins>the line box</ins> is shifted downward <ins>(and its width recomputed)</ins>
 until either <del>it</del> <ins>some content</ins> fits or there are no more floats present. Any content in the current line before a floated box is reflowed in the <del>first available</del> <ins>same</ins> line on the other side of the float."
-  ;Status : Edited. =Fantasai= Review the edit.
+  ;Status : Closed.
 
 ==== Issue 197 ====
   ;Summary : Clarify application of 'clear' to run-ins.
