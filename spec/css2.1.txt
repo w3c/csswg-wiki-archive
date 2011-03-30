@@ -62,6 +62,7 @@ Last mailing list sweep 2011-01-07 – arronei
   ;Followup : http://lists.w3.org/Archives/Public/www-style/2010Sep/0053.html http://lists.w3.org/Archives/Public/www-style/2010Dec/0312.html #FL1
   ;Additional followup : Third issue is not invalid: http://lists.w3.org/Archives/Public/www-style/2011Mar/0059.html
   ;Response : dbaron's note explaining interaction of rules 6 and 8 - http://lists.w3.org/Archives/Public/www-style/2011Mar/0358.html
+  ;Objection : http://lists.w3.org/Archives/Public/www-style/2011Mar/0402.html
   ;Status : Open. =WG= Discuss.
 
 ==== Issue 197 ====
