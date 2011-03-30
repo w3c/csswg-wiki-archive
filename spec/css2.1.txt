@@ -104,7 +104,7 @@ until either <del>it</del> <ins>some content</ins> fits or there are no more flo
   ;Objection : http://lists.w3.org/Archives/Public/www-style/2011Mar/0426.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Mar/0567.html
   ;Resolution : Proposal accepted.
-  ;Status : Open. =Bert= Edit.
+  ;Status : Edited. =Fantasai= Review the edit.
 
 ==== Issue 204 ====
 
