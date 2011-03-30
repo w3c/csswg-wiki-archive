@@ -101,7 +101,8 @@ Last mailing list sweep 2011-01-07 – arronei
   ;Resolution : Resolve via Issue 285.
   ;Objection : http://lists.w3.org/Archives/Public/www-style/2011Mar/0426.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Mar/0567.html
-  ;Status : Open. =WG= Discuss.
+  ;Resolution : Proposal accepted.
+  ;Status : Open. =Bert= Edit.
 
 ==== Issue 204 ====
 
