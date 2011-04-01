@@ -170,7 +170,7 @@ Ugly, not self-documenting:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/vertical-align-121.htm|[RC6] vertical-align-121]] The ''<p class="ahemprereq">'' should also be removed.
 
-==== 6 RC6 testcases missing the invalid flag ====
+==== 7 RC6 testcases missing the invalid flag ====
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c526-font-sz-003.htm|[RC6] c526-font-sz-003]] font-size: -0.5in; will be parsed and reported as an illegal value.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-size-rule-001.htm|[RC6] font-size-rule-001]]
@@ -178,6 +178,7 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-family-rule-007.htm|[RC6] font-family-rule-007]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/ident-020.htm|[RC6] ident-020]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/import-000.htm|[RC6] import-000]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/import-001.htm|[RC6] import-001]]
 
 ==== 3 RC6 testcases missing the interact flag ====
 
