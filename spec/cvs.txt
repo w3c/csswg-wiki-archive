@@ -77,8 +77,6 @@ The short version, type this into a terminal window (e.g. in the Terminal applic
 
 <code bash>export CVS_RSH=ssh</code>
 
-You'll want to setup that up to happen automatically for you, and there are some instructions later for doing so.
-
 Now test that you did the right thing by typing in:
 
 <code bash>echo $CVS_RSH</code>
@@ -89,9 +87,14 @@ You should see a message like:
 
 followed immediately by a prompt.
 
+You'll want to setup that up to happen automatically for you by adding the above export command to your .bash_profile, here is a command to do so for you (which automatically creates a .bash_profile for you if you don't have one already, otherwise appends the command to the end).
+
+<code bash>echo "export CVS_RSH=ssh" | cat >> .bash_profile</code>
+
+You'll need to close your Terminal window and open a new one for it to take effect.
+
 Here is another reference for setting up CVS to use SSH (though in practice I haven't found that I need it, and the instructions there seem cryptic too) 
   * https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Setting_up_CVS_to_use_SSH
-
 
 ===== Step 2 - How To Do Secure Checkouts  =====
 How to do secure checkouts that all you to check in.
