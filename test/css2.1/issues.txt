@@ -162,7 +162,7 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/inline-formatting-context-016.htm|[RC6] inline-formatting-context-016]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Apr/0004.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Apr/0004.html]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/inline-formatting-context-020.htm|[RC6] inline-formatting-context-020]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Apr/0005.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Apr/0005.html]]
   - [[http://test.csswg.org/suites/css2.1/20101210/html4/position-relative-nested-001.htm
-|position-relative-nested-001]] Reasons why given in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html]]
+|position-relative-nested-001]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0020.html]]
 
 
 
