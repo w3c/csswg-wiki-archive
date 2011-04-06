@@ -667,7 +667,8 @@ http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
 
   ;Summary : CSS should not redefine standard units
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Dec/0204.html
-  ;Status : =WG= Discuss.
+  ;Resolution : No change. [[http://lists.w3.org/Archives/Public/www-style/2010Dec/0206.html|dsinger's answer]] is authoritative.
+  ;Status : Open. =glazou= Send email.
 
 ==== Issue 287 ====
 
