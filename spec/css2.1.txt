@@ -672,10 +672,24 @@ http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
 
 ==== Issue 286 ====
 
-  ;Summary : Clearance example confusing and self-contradictory
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Mar/0569.html
-  ;Resolution : Assumed editorial.
+  ;Summary : CSS should not redefine standard units
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Dec/0204.html
+  ;Status : =WG= Discuss.
+
+==== Issue 287 ====
+
+  ;Summary : Multiple clearance is underspecified
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Aug/0569.html
+  ;Resolution : Deferred to errata or future version
+  ;Status : =errata=
+
+==== Issue 288 ====
+
+  ;Summary : Clarify flowing line boxes next to floats
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0366.html
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Mar/0346.html (end)
   ;Status : Not changed. =errata=
+
 
 ===== 8 September 2009 CR Issues =====
 
