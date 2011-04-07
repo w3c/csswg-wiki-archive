@@ -240,8 +240,7 @@ Misfiled. See Issue 192.
 ==== Issue 225 ====
   ;Summary : Auto height calculation rules confused about margin collapsing
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Aug/0108.html
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Apr/0132.html
-  ;Resolved : Proposal accepted with "If the element has children" removed.
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Apr/0160.html
   ;Status : Open. =Bert= Edit. =Anton= Review.
 
 ==== Issue 226 ====
