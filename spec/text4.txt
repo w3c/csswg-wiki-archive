@@ -1,0 +1,6 @@
+====== Text Level 4 ======
+
+Ideas to consider for future CSS Text specs
+
+  * Roman hanging punctuation
+  * Glyph scaling min/max/desired (for improving justification)
