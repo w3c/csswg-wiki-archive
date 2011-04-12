@@ -134,6 +134,8 @@ Ugly, not self-documenting:
 
 ==== 0 RC6 testcase without pass conditions ====
 
+==== 8 RC6 testcases with some linkage/link issue ====
+  - The following testcases: [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-101.htm|[RC6] margin-collapse-101]] , [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-107.htm|[RC6] margin-collapse-107]] , [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-108.htm|[RC6] margin-collapse-108]] , [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-109.htm|[RC6] margin-collapse-109]] , [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-110.htm|[RC6] margin-collapse-110]] , [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-111.htm|[RC6] margin-collapse-111]] , [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-112.htm|[RC6] margin-collapse-112]] , [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-113.htm|[RC6] margin-collapse-113]] , etc.. all have a sentence pointing to **testcase [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-106.htm|[RC6] margin-collapse-106]]** but the link is broken.
 
 ==== 0 RC6 testcase that rely on unnecessary assumptions ====
 
