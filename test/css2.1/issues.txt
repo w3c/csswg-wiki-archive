@@ -179,12 +179,13 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/page-break-inside-006.htm|[RC6] page-break-inside-006]]
 
 
-==== 4 RC6 testcases missing the ahem flag ====
+==== 5 RC6 testcases missing the ahem flag ====
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/vertical-align-121.htm|[RC6] vertical-align-121]] The ''<p class="ahemprereq">'' should also be removed.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/line-breaking-bidi-001.htm|[RC6] line-breaking-bidi-001]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/line-breaking-bidi-002.htm|[RC6] line-breaking-bidi-002]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/line-breaking-bidi-003.htm|[RC6] line-breaking-bidi-003]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-130.htm|[RC6] margin-collapse-130]]
 
 ==== 7 RC6 testcases missing the invalid flag ====
 
