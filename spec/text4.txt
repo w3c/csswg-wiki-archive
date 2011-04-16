@@ -19,5 +19,5 @@ Ideas to consider for future CSS Text specs
 
   - The relationshipo of expansion opportunities defined here and other properties is an issue
   - JIS/JLREQ/InDesign style (trim and specify how much to add), or specify how much to add/remove?
-  - Can 'none' have optional min/max/alternate/priority?
+  - Can 'none' have optional min/max/alternate/priority? Does it allow expansion?
   - How to handle proportional punctuation is still an issue
