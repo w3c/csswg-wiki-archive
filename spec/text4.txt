@@ -6,6 +6,7 @@ Ideas to consider for future CSS Text specs
 
   * Roman hanging punctuation
   * Glyph scaling min/max/desired (for improving justification)
+  * Baseline Grid (define a grid for a block, and let line boxes either fall off the grid or snap to the next grid line) 
 
 ===== text-spacing =====
 
