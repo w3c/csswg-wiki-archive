@@ -1,6 +1,23 @@
 ====== Text Level 4 ======
 
+===== Ideas =====
+
 Ideas to consider for future CSS Text specs
 
   * Roman hanging punctuation
   * Glyph scaling min/max/desired (for improving justification)
+
+===== text-spacing =====
+
+  [ class-before class-after [ none | default [ [ [ min max ] | '/' alternate ] priority? ]? ] ]+
+
+  @text-spacing-rule name {
+    line-head opening 0%;
+    closing line-end 50%/0%;
+    ideograph alphabet 25% 12.5% 50% 2;
+  }
+
+  - The relationshipo of expansion opportunities defined here and other properties is an issue
+  - JIS/JLREQ/InDesign style (trim and specify how much to add), or specify how much to add/remove?
+  - Can 'none' have optional min/max/alternate/priority?
+  - How to handle proportional punctuation is still an issue
