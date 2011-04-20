@@ -25,3 +25,4 @@ Ideas to consider
   * [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0039.html|semantic pseudo-class selectors]] e.g. for headings akin to '':link'' etc.
   * Clarify that first formatted line is not triggered when preceded by a block http://wiki.csswg.org/spec/css2.1#issue-268
   * [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0849.html|UA hint pseudo-element selectors]] ''::typo'', ''::match'' etc.
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0603.html|empty input selector]]
