@@ -18,7 +18,7 @@ Ideas to consider for future CSS Text specs
     ideograph alphabet 25% 12.5% 50% 2;
   }
 
-  - The relationshipo of expansion opportunities defined here and other properties is an issue
+  - The relationshipo of expansion opportunities defined here and other properties (text-justify, word-spacing, letter-spacing) is an issue
   - JIS/JLREQ/InDesign style (trim and specify how much to add), or specify how much to add/remove?
     - Results vary if punctuation are proportional
     - Results vary for "]<big>[]</big>["
