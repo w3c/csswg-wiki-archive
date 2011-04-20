@@ -20,6 +20,8 @@ Ideas to consider for future CSS Text specs
 
   - The relationshipo of expansion opportunities defined here and other properties is an issue
   - JIS/JLREQ/InDesign style (trim and specify how much to add), or specify how much to add/remove?
+    - Results vary if punctuation are proportional
+    - Results vary for "]<big>[]</big>["
   - Can 'none' have optional min/max/alternate/priority? Does it allow expansion?
   - How to handle proportional punctuation is still an issue
   - '/' syntax is used only for closing+line-end, where CSS3 Text defines by the "if it fits" clause
