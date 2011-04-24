@@ -15,7 +15,7 @@ This list does **NOT** include the results of a list archive search, which needs
   ;Status : Open
 
 ==== Issue 2 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Feb/0252.html
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2009Feb/0252.html http://stackoverflow.com/questions/5767644/can-i-disable-the-in-an-ol
   ;Summary : CJK list numbering is wrong
   ;Status : Open
 
