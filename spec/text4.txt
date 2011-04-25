@@ -16,6 +16,8 @@ Ideas to consider for future CSS Text specs
   * www-style: [[http://lists.w3.org/Archives/Public/www-style/2011Feb/0468.html|Vertical rhythm and images]]
     * [[http://stackoverflow.com/questions/4986944]]
     * [[http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/]]
+  * Implementations
+    * [[http://msdn.microsoft.com/en-us/library/ms533951(v=VS.85).aspx|-ms-layout-grid]]
 
 ===== text-spacing =====
 
