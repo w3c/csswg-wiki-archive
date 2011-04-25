@@ -3,12 +3,24 @@
 This is the CSS Working Group's planning space.
 
 ===== Charter =====
-
   * [[planning:charter-2008]]
+
+==== Charter 2011 ====
+2011 proposed charter through 2013-05-13: http://www.w3.org/2010/09/CSSWG/charter.html
+
+Suggested updates:
+  * CSS3 Paged Media should be listed as in-scope -- fantasai 2011-04-19
+  * CSS Grid Layout should be added as medium priority -- fantasai 2011-04-19
+  * CSSOM should be low priority -- fantasai 2011-04-19
+  * JLREQ should be under Maintenance -- fantasai 2011-04-19
+  * CSS3 Speech is Medium Priority (has an editor, being worked on, likely to move to Last Call within the year.) -- fantasai 2011-04-19
+  * CSS4-UI should be included as medium priority with myself as advocate/editor -- Tantek 2011-04-21
+    * based on items cut from CSS3-UI + https://wiki.mozilla.org/Tantek-Mozilla-projects#CSS4_UI
+  * CSS3 Fullscren should be included as medium priority with myself as advocate/editor -- Tantek 2011-04-21
+    * based on https://wiki.mozilla.org/Gecko:FullScreenAPI
 
 ===== Upcoming Meetings =====
 
-  * [[planning:mountain-view-2011]]
   * [[planning:japan-2011]] ([[planning:japan-2011-venues|venues]])
   * [[planning:tokyo-workshop-2011]]
 
@@ -22,4 +34,5 @@ This is the CSS Working Group's planning space.
   * [[planning:cupertino-2010]]
   * [[planning:oslo-2010]]
   * [[planning:tpac-2010]]
+  * [[planning:mountain-view-2011]]
  
