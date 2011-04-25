@@ -5,8 +5,17 @@
 Ideas to consider for future CSS Text specs
 
   * Roman hanging punctuation
+    * www-style: [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0276.html]]
+    * [[http://help.adobe.com/en_US/Illustrator/14.0/WS714a382cdf7d304e7e07d0100196cbc5f-63a5a.html|Adobe Illustrator CS4 Hanging Punctuation]]
   * Glyph scaling min/max/desired (for improving justification)
+
+===== line-grid =====
+
   * Baseline Grid (define a grid for a block, and let line boxes either fall off the grid or snap to the next grid line) 
+  * The original idea available in [[http://www.w3.org/TR/2001/WD-css3-text-20010517/#document-grid|CSS3 Module Text WD 20010517]]
+  * www-style: [[http://lists.w3.org/Archives/Public/www-style/2011Feb/0468.html|Vertical rhythm and images]]
+    * [[http://stackoverflow.com/questions/4986944]]
+    * [[http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/]]
 
 ===== text-spacing =====
 
