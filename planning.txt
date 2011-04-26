@@ -20,8 +20,9 @@ Suggested updates:
     * based on items cut from CSS3-UI + https://wiki.mozilla.org/Tantek-Mozilla-projects#CSS4_UI
   * CSS3 Fullscren should be included as medium priority with myself as advocate/editor -- Tantek 2011-04-21
     * based on https://wiki.mozilla.org/Gecko:FullScreenAPI
-  * CSS Regions should be added http://dev.w3.org/csswg/css3-regions/Overview.src.html -- Vincent Hardy 2011-04-25
-    * Who is the advocate for this? -- Tantek 2011-04-25
+  * CSS Regions should be added as ??? priority -- Vincent Hardy 2011-04-25
+    * based on http://dev.w3.org/csswg/css3-regions/Overview.src.html
+    * advocate/editor: Vincent Hardy, Adobe
 
 ===== Upcoming Meetings =====
 
