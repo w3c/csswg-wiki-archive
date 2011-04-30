@@ -1,0 +1,29 @@
+====== Telecon Agenda ======
+
+The CSS Working Group holds weekly teleconferences on Wednesdays at 9am Pacific time.
+
+===== Topics Proposed for Next Call =====
+
+  ;Namespaces
+  :  response from i18n re normalization?
+  ;Charter
+  :  Status/review/approval?
+  ;CSS Snapshots
+  :  publish? Review prefix policy
+  ;[[http://lists.w3.org/Archives/Public/www-style/2011Apr/0316.html|Intrinsic Widths of Multicol Elements]]
+  :  More concrete auto-sizing algorithm is needed for css3-writing-modes
+  ;CSS3 Speech
+  :  Drop phonemes? 
+  ;[[http://lists.w3.org/Archives/Member/w3c-css-wg/2011AprJun/0245.html|New Width Values]] min-content, max-content, etc.
+  : Should we just [[http://dbaron.org/log/20080613-firefox3-css#new-width-values|add these keywords]] to css3-writing-modes so they can be used?
+  ;Spec Annotation System
+  :  ?
+
+===== Backlog =====
+
+  * [[http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E539856928411F2BCDF@TK5EX14MBXC213.redmond.corp.microsoft.com|Multiline better represented in priorities?]]
+  * [[http://www.w3.org/mid/20110413185936.GA17262@pickering.dbaron.org|Feature queries]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0162.html|XBL Shadow Elements]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0163.html|List Style for Disclosure]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0240.html|Styling the HTML5 Input Placeholder]]
+  * CSSOM: http://lists.w3.org/Archives/Public/www-style/2011Apr/0317.html + http://lists.w3.org/Archives/Public/www-style/2011Apr/0308.html
