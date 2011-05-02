@@ -87,7 +87,7 @@ You should see a message like:
 
 followed immediately by a prompt.
 
-You'll want to setup that up to happen automatically for you by adding the above export command to your .bash_profile, here is a command to do so for you (which automatically creates a .bash_profile for you if you don't have one already, otherwise appends the command to the end).
+You'll want to set that up to happen automatically for you by adding the above export command to your .bash_profile, here is a command to do so for you (which automatically creates a .bash_profile for you if you don't have one already, otherwise appends the command to the end).
 
 <code bash>echo "export CVS_RSH=ssh" | cat >> .bash_profile</code>
 
@@ -97,7 +97,7 @@ Here is another reference for setting up CVS to use SSH (though in practice I ha
   * https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Setting_up_CVS_to_use_SSH
 
 ===== Step 2 - How To Do Secure Checkouts  =====
-How to do secure checkouts that all you to check in.
+How to do secure checkouts that allow you to check in.
 
   * go http://dev.w3.org/cvsweb/
   * copy the line that starts with:
