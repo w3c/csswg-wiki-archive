@@ -2,7 +2,11 @@
 
 This page will eventually document the CSSWG's spec markup and serve as a manual. Currently it is serving as a scratchspace.
 
+The style sheet that implements most of our special markup has a [[http://dev.w3.org/csswg/default.css|master]] on dev.w3.org.
+
+<note>
 Note that the CSSWG also uses a post-processor that generates section numbers, cross-references, indices, etc. Such macros are not documented here, but may be documented in a [[spec:macros|separate document]].
+</note>
 
 ===== Stage 1: Margins, Spacing, and Lists ======
 
