@@ -28,6 +28,11 @@ The CSSWG co-chairs will select from this list and other sources to create the a
   :  publish WD?
   ;CSS Logo
   :  Daniel Weck has a [[http://daniel.weck.free.fr/CSS-Logo/|proposal]]
+  ;Tokyo FTF
+  :  call for agenda items
+  ;Limiting CJK longhand styles to 10k
+  : [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0764.html|Tab's message]]
+  
 
 
 ===== Backlog =====
