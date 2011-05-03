@@ -1,0 +1,33 @@
+====== CSSWG Spec Markup ======
+
+This page will eventually document the CSSWG's spec markup and serve as a manual. Currently it is serving as a scratchspace.
+
+Note that the CSSWG also uses a post-processor that generates section numbers, cross-references, indices, etc. Such macros are not documented here, but may be documented in a [[spec:macros|separate document]].
+
+===== Stage 1: Margins, Spacing, and Lists ======
+
+The CSS specs use lists in a variety of ways:
+
+  * as logically belonging to a paragraph (sometimes as a continuation of the last sentence in the previous paragraph, which may or may not continue in the next paragraph). ([[http://dev.w3.org/csswg/css3-text/#character-alignment|example]])
+  * as a paragraph-level structure ([[http://www.w3.org/TR/css3-background/#the-box-shadow|example]]). This is the most common.
+  * as a higher-level structure that contains paragraphs. ([[http://www.w3.org/TR/css3-background/#border-image-process|example]], [[http://dev.w3.org/csswg/css3-text/#line-break|example]])
+
+Definition lists in particular have several uses
+
+  * They are used to define CSS values. ([[http://www.w3.org/TR/css3-background/#the-background-repeat|example]])
+  * They are used for defining other terms, e.g. in a glossary. ([[http://www.w3.org/TR/2011/WD-css3-writing-modes-20110428/#appendix-b-intrinsic-sizing|example]], [[http://dev.w3.org/csswg/css3-writing-modes/#intro-text-layout|example]])
+  * They may be used in some other random applications for which the structure is appropriate (FIXME need to track down examples).
+
+Paragraph, heading, and list margins and spacing should be designed in a way that appropriately handles these structures.
+
+===== Stage 2: Inline Styling =====
+
+FIXME
+
+===== Stage 3: Tables =====
+
+FIXME
+
+===== Stage 4: Notes, Issues, Examples, and other Boxen =====
+
+FIXME
