@@ -26,6 +26,8 @@ The CSSWG co-chairs will select from this list and other sources to create the a
   :  publish WD?
   ;CSS3 Lists
   :  publish WD?
+  ;CSS Logo
+  :  Daniel Weck has a [[http://daniel.weck.free.fr/CSS-Logo/|proposal]]
 
 
 ===== Backlog =====
