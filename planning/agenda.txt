@@ -4,6 +4,8 @@ The CSS Working Group holds weekly teleconferences on Wednesdays at 9am Pacific 
 
 ===== Topics Proposed for Next Call =====
 
+In no particular order:
+
   ;Namespaces
   :  response from i18n re normalization?
   ;Charter
@@ -20,6 +22,12 @@ The CSS Working Group holds weekly teleconferences on Wednesdays at 9am Pacific 
   :  More concrete auto-sizing algorithm is needed for css3-writing-modes
   ;Spec Annotation System
   :  ?
+  ;CSS3 Images
+  :  publish WD?
+  ;CSS3 Lists
+  :  publish WD?
+
+(The CSSWG co-chairs will select from this list and other sources to create the actual agenda.)
 
 ===== Backlog =====
 
