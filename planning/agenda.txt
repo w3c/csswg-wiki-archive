@@ -4,7 +4,7 @@ The CSS Working Group holds weekly teleconferences on Wednesdays at 9am Pacific 
 
 ===== Topics Proposed for Next Call =====
 
-In no particular order:
+The CSSWG co-chairs will select from this list and other sources to create the actual agenda. In no particular order:
 
   ;Namespaces
   :  response from i18n re normalization?
@@ -27,7 +27,6 @@ In no particular order:
   ;CSS3 Lists
   :  publish WD?
 
-(The CSSWG co-chairs will select from this list and other sources to create the actual agenda.)
 
 ===== Backlog =====
 
