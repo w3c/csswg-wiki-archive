@@ -10,8 +10,6 @@ The CSSWG co-chairs will select from this list and other sources to create the a
   :  response from i18n re normalization?
   ;Charter
   :  Status/review/approval?
-  ;CSS Snapshots
-  :  publish? Review prefix policy
   ;CSS3 Speech
   :  Drop phonemes? 
   ;CSSWG Website
@@ -32,8 +30,8 @@ The CSSWG co-chairs will select from this list and other sources to create the a
   :  call for agenda items
   ;Limiting CJK longhand styles to 10k
   : [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0764.html|Tab's message]]
-  
-
+  ;CSS3 Text
+  : [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0745.html|Review of Issues Part I]]
 
 ===== Backlog =====
 
