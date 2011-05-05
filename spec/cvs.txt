@@ -233,9 +233,15 @@ If you use the BBEdit text editor:
   * Choose ''Preferences...''
   * Click on ''Source Control'' in the left column list of preference panes
   * Click the ''(Add CVS...)'' button in the right column
+  * Type "csswg" (without the quotes) into the ''Name:'' field.
   * Check ''|x| Use SSH''
-  * Click the little folder icon and choose the "csswg" folder that you created with your checkout.
-  * ... more to come as I figure it out ...
+  * Click the little folder icon on the right and choose the "csswg" folder that you created with your checkout.
+  * Click the ''(Save)'' button.
+
+You'll see a new ''CVS'' menu between the ''#!'' and the script icon menu for performing operations on files that are part of a CVS checkout.
+
+Repeat these steps for any other CVS repositories you checkout, substituting their name/folder for "csswg" in the instructions (e.g. "htmlwg").
+
 
 === BBEdit 7.x ===
   * Go to the ''BBEdit'' menu
