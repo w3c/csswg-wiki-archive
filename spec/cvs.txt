@@ -413,9 +413,9 @@ How to check in a new file from BBEdit.
 
 Open the new file e.g. ''Overview.html'' in BBEdit
 
-Choose "Add" from the (mergeicon) menu item.
+Choose "Add" from the ''CVS'' (or mergeicon) menu.
 
-Choose "Commit File..." from the (mergeicon) menu item.
+Choose "Commit File..." from the ''CVS'' (or mergeicon) menu.
 
 You will be presented with a "Commit File" modal dialog.
 
@@ -428,7 +428,7 @@ IF all the new files are in the same folder (or descendants of that folder)
 
 THEN open a file that folder
 
-and choose "Commit Parent Folder..." from the (mergeicon) menu
+and choose "Commit Parent Folder..." from the ''CVS'' (mergeicon) menu.
 
 You will be presented with a "Commit Message" modal dialog.
 
