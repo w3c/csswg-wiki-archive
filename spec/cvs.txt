@@ -87,7 +87,14 @@ You should see a message like:
 
 followed immediately by a prompt.
 
-You'll want to set that up to happen automatically for you by adding the above export command to your .bash_profile, here is a command to do so for you (which automatically creates a .bash_profile for you if you don't have one already, otherwise appends the command to the end).
+You'll want to set that up to happen automatically for you.
+
+The general solution is to add the above export command to your .bash_profile.
+
+Alternatively on some systems you can set the preference via a system preferences:
+  * [[cvs#aside-mac-osx-ui-to-set-environment-variables|Aside - Mac OSX UI To Set Environment Variables]]
+
+Here is a command to add the above export command to your .bash_profile for you (which automatically creates a .bash_profile for you if you don't have one already, otherwise appends the command to the end).
 
 <code bash>echo "export CVS_RSH=ssh" | cat >> .bash_profile</code>
 
