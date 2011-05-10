@@ -1,6 +1,10 @@
 ====== Japan F2F June 2011 ======
 
-Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS Working Group Face-to-Face]] meeting in Japan.
+Topics for the [[http://dl.dropbox.com/u/471647/Kyoto.htm|June 2011 CSS Working Group Face-to-Face]] meeting in Japan.
 
-  * Add items here...
+  * CSS Regions and CSS Exclusions
+    * region styling
+    * breaking properties
+    * exclusion model
+    * moving from Editor Draft to Working Draft.
   * 
