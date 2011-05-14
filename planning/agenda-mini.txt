@@ -1,0 +1,16 @@
+====== US/JA Mini-Telecon Agenda ======
+
+* Weekly teleconferences focused on East Asian topics
+* Tuesday at 5pm Pacific time
+
+===== CSS Text Level 3 =====
+
+- [[http://dev.w3.org/csswg/css3-text/#text-emphasis-skip|text-emphasis-skip]]
+- [[http://dev.w3.org/csswg/css3-text/#text-spacing-prop|text-spacing]] for proportional puncutation glyphs
+   
+
+===== CSS Writing Modes Level 3 =====
+
+===== Backlog =====
+
+Topics that have been proposed for discussion but are currently on the back-burner.
