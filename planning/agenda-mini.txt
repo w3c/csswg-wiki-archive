@@ -5,6 +5,8 @@
 
 ===== General/Misc =====
 
+  - [[http://lists.w3.org/Archives/Public/www-style/2011May/0014.html|Referring to Unicode]]
+
 ===== CSS Text Level 3 =====
 
   - [[http://dev.w3.org/csswg/css3-text/#text-emphasis-skip|text-emphasis-skip]]
