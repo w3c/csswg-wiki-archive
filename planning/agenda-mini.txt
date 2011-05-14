@@ -1,15 +1,22 @@
 ====== US/JA Mini-Telecon Agenda ======
 
-* Weekly teleconferences focused on East Asian topics
-* Tuesday at 5pm Pacific time
+  * Weekly teleconferences focused on East Asian topics
+  * Tuesday at 5pm Pacific time
+
+===== General/Misc =====
 
 ===== CSS Text Level 3 =====
 
-- [[http://dev.w3.org/csswg/css3-text/#text-emphasis-skip|text-emphasis-skip]]
-- [[http://dev.w3.org/csswg/css3-text/#text-spacing-prop|text-spacing]] for proportional puncutation glyphs
+  - [[http://dev.w3.org/csswg/css3-text/#text-emphasis-skip|text-emphasis-skip]]
+  - [[http://dev.w3.org/csswg/css3-text/#text-spacing-prop|text-spacing]] for proportional puncutation glyphs
+  - [[http://dev.w3.org/csswg/css3-text/#text-spacing-prop|Current text-spacing]] and [[http://wiki.csswg.org/spec/text4#text-spacing|the future text-spacing brainstorming]] and line breaking?
    
 
 ===== CSS Writing Modes Level 3 =====
+
+  - Defining the handling of EAW Ambiguous (A) symbols and punctuation in 'vertical-right' [[http://dev.w3.org/csswg/css3-writing-modes/#text-orientation|text-orientation]]
+  - Tightening up definitions of auto-sizing for multi-column elements in [[http://dev.w3.org/csswg/css3-writing-modes/#orthogonal-flows|orthogonal flows]] (particularly interactions with table layout).
+  - [[http://dev.w3.org/csswg/css3-writing-modes/#logical-direction-layout|Flow-relative mappings]]
 
 ===== Backlog =====
 
