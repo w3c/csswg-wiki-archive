@@ -69,6 +69,10 @@ Ugly, not self-documenting:
   background-alpha-004
   background-alpha-005
 
+[[http://test.csswg.org/suites/css2.1/20110323/html4/content-158.htm|[RC6] content-158]] **What to do?** The font size for the character display should be at least 4 times (400%) bigger; then a padding of 1em should be added to make things easier.
+
+[[http://test.csswg.org/suites/css2.1/20110323/html4/content-159.htm|[RC6] content-159]] **What to do?** The font size for the character display should be at least 4 times (400%) bigger; then a padding of 1em should be added to make things easier.
+
 ==== Confusing/hard to judge ====
 
   * background-attachment-004 (also has external references to image files)
