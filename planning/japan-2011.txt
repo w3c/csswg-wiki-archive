@@ -9,6 +9,9 @@ Topics for the [[http://dl.dropbox.com/u/471647/Kyoto.htm|June 2011 CSS Working 
     * moving from Editor Draft to Working Draft.
   * From Tokyo/Kyoto Japan forum (5/30, 6/1)
   * [[http://dev.w3.org/csswg/css-line-grid/|Line Grid proposal]]
+  * CSS3 Writing Modes (all open issues)
+  * CSS3 Text (all open issues)
+  * Selectors 4 (roughly, what do we want to include/exclude?)
 
 ==== Participants ====
 
