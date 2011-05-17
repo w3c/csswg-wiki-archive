@@ -9,3 +9,14 @@ Topics for the [[http://dl.dropbox.com/u/471647/Kyoto.htm|June 2011 CSS Working 
     * moving from Editor Draft to Working Draft.
   * From Tokyo/Kyoto Japan forum (5/30, 6/1)
   * [[http://dev.w3.org/csswg/css-line-grid/|Line Grid proposal]]
+
+==== Participants ====
+
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^
+| Tab Atkins | Google | ?? | ?? | ?? | ?? |
+| David Baron | Mozilla | 29 May 15:15 | 5 June 17:10 | Aranvert Hotel Kyoto | UA 885 / UA 886 |
+| Elika Etemad | Invited Expert | ?? | ?? | ?? | ?? |
+| Masayuki Ihara | NTT | ?? | ?? | ?? | ?? |
+| Vincent Hardy | Adobe | ?? | ?? | ?? | ?? |
+| Peter Linss | HP | 26 May 15:15 | 7 June 17:10 | Rihga Royal Hotel Kyoto | UA 885 / UA 886 |
+| Edward O'Connor | Apple | ?? | ?? | ?? | ?? |
