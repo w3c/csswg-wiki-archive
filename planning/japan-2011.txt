@@ -12,7 +12,6 @@ Topics for the [[http://dl.dropbox.com/u/471647/Kyoto.htm|June 2011 CSS Working 
   * CSS3 Writing Modes (all open issues)
   * CSS3 Text (all open issues)
   * Selectors 4 (roughly, what do we want to include/exclude?)
-
 ==== Participants ====
 
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^
@@ -20,6 +19,6 @@ Topics for the [[http://dl.dropbox.com/u/471647/Kyoto.htm|June 2011 CSS Working 
 | David Baron | Mozilla | 29 May 15:15 | 5 June 17:10 | Aranvert Hotel Kyoto | UA 885 / UA 886 |
 | Elika Etemad | Invited Expert | ?? | ?? | ?? | ?? |
 | Masayuki Ihara | NTT | ?? | ?? | ?? | ?? |
-| Vincent Hardy | Adobe | ?? | ?? | ?? | ?? |
+| Vincent Hardy | Adobe | 30 May 15:15pm | 5 June 17:10 | Kyoto Tokyu Hotel | UA 885 / UA 886 |
 | Peter Linss | HP | 26 May 15:15 | 7 June 17:10 | Rihga Royal Hotel Kyoto | UA 885 / UA 886 |
 | Edward O'Connor | Apple | 29 May 15:15 | 5 June 17:10 | Hotel Granvia Kyoto | UA 885 / UA 886 |
