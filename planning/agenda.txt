@@ -20,6 +20,8 @@ The CSSWG co-chairs will select from this list and other sources to create the a
   :  call for agenda items
   ;CSS3 Text
   : [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0745.html|Review of Issues Part I]]
+  ;CSSWG Blog
+  :  What will it take to switch to WordPress?
 
 ===== Backlog =====
 
