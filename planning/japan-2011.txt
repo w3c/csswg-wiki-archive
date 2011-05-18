@@ -17,8 +17,12 @@ Topics for the [[http://dl.dropbox.com/u/471647/Kyoto.htm|June 2011 CSS Working 
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^
 | Tab Atkins | Google | ?? | ?? | ?? | ?? |
 | David Baron | Mozilla | 29 May 15:15 | 5 June 17:10 | Aranvert Hotel Kyoto | UA 885 / UA 886 |
+| Bert Bos | W3C | ?? | ?? | ?? | ?? |
 | Elika Etemad | Invited Expert | ?? | ?? | ?? | ?? |
 | Masayuki Ihara | NTT | ?? | ?? | ?? | ?? |
+| Koji Ishii | Invited Expert | ?? | ?? | ?? | ?? |
 | Vincent Hardy | Adobe | 30 May 15:15pm | 5 June 17:10 | Kyoto Tokyu Hotel | UA 885 / UA 886 |
 | Peter Linss | HP | 26 May 15:15 | 7 June 17:10 | Rihga Royal Hotel Kyoto | UA 885 / UA 886 |
+| Alex Mogilevsky | Microsoft | ?? | ?? | ?? | ?? |
+| Shinyu Murakami | Antenna House | ?? | ?? | ?? | ?? |
 | Edward O'Connor | Apple | 29 May 15:15 | 5 June 17:10 | Hotel Granvia Kyoto | UA 885 / UA 886 |
