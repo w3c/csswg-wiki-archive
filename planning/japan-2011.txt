@@ -12,6 +12,8 @@ Topics for the [[http://dl.dropbox.com/u/471647/Kyoto.htm|June 2011 CSS Working 
   * CSS3 Writing Modes (all open issues)
   * CSS3 Text (all open issues)
   * Selectors 4 (roughly, what do we want to include/exclude?)
+  * Multicol Test Suite
+
 ==== Participants ====
 
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^
