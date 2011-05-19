@@ -1,6 +1,6 @@
 ====== Testing ======
 
-Our conformance test suites: how to run them, known bugs, and how to contribute. The tests are maintained in the our [[http://test.csswg.org/|test.csswg.org]] [[http://mercurial.selenic.com//|Mercurial]] repository.
+Our conformance test suites: how to run them, known bugs, and how to contribute. The tests are maintained in our [[http://test.csswg.org/|test.csswg.org]] [[http://mercurial.selenic.com//|Mercurial]] repository at [[http://hg.csswg.org/test]].
 
 Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite mailing list]]. The [[test:irc|#css-test channel]] on irc.w3.org:6665 is also available for discussion.
 
