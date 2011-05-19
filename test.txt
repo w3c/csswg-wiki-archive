@@ -17,7 +17,7 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
 
 ===== Infrastructure =====
 
-  * [[http://test.csswg.org/|CSSWG Test Suite Subversion server]]
+  * [[http://hg.csswg.org/|CSSWG Test Suite Mercurial server]]
   * [[test:css2.1:harness|Build System Documentation]]
   * [[test:harness|Browseable Test Harness]]
   * [[test:review-system|Submission and Review Tracker Planning]]
