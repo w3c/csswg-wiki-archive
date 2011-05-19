@@ -7,7 +7,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
     * breaking properties
     * exclusion model
     * moving from Editor Draft to Working Draft.
-  * From Tokyo/Kyoto Japan forum (5/30, 6/1)
+  * From Tokyo/[[http://www.w3.org/Style/Japan-2011/Kyoto.htm|Kyoto Japan forum]] (5/30, 6/1)
   * [[http://dev.w3.org/csswg/css-line-grid/|Line Grid proposal]]
   * CSS3 Writing Modes (all open issues)
   * CSS3 Text (all open issues)
@@ -20,7 +20,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
 | Tab Atkins | Google | ?? | ?? | ?? | ?? |
 | David Baron | Mozilla | 29 May 15:15 | 5 June 17:10 | Aranvert Hotel Kyoto | UA 885 / UA 886 |
 | Bert Bos | W3C | ?? | ?? | ?? | ?? |
-| Elika Etemad | Invited Expert | ?? | ?? | ?? | ?? |
+| Elika Etemad | Invited Expert | 31 May 19:30 | train TBD | Heianbo / APA Eki-Horikawadori | ?? |
 | Masayuki Ihara | NTT | ?? | ?? | ?? | ?? |
 | Koji Ishii | Invited Expert | ?? | ?? | ?? | ?? |
 | Vincent Hardy | Adobe | 30 May 15:15pm | 5 June 17:10 | Kyoto Tokyu Hotel | UA 885 / UA 886 |
