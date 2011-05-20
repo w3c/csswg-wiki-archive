@@ -1,13 +1,14 @@
 ====== Telecon Agenda ======
 
 The CSS Working Group holds weekly teleconferences on Wednesdays at 9am Pacific time.
-
 ===== Topics Proposed for Next Call =====
 
 The CSSWG co-chairs will select from this list and other sources to create the actual agenda. In no particular order:
 
   ;CSS Regions / CSS Exclusions
   :  Publish WD?
+  ;CSS Exclusions and CSS3 Floats merging
+  : editorship and module naming?
   ;Namespaces
   :  response from i18n re normalization?
   ;Charter
