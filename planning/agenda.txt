@@ -5,24 +5,39 @@ The CSS Working Group holds weekly teleconferences on Wednesdays at 9am Pacific 
 
 The CSSWG co-chairs will select from this list and other sources to create the actual agenda. In no particular order:
 
-  ;CSS Regions / CSS Exclusions
-  :  Publish WD?
+=== Administrative ===
+
   ;CSS Exclusions and CSS3 Floats merging
   : editorship and module naming?
-  ;Namespaces
-  :  response from i18n re normalization?
-  ;Charter
-  :  Status/review/approval?
-  ;CSSWG Website
-  :  Status?
-  ;[[http://lists.w3.org/Archives/Public/www-style/2011Apr/0316.html|Intrinsic Widths of Multicol Elements]]
-  :  More concrete auto-sizing algorithm is needed for css3-writing-modes
-  ;Kyoto FTF
-  :  call for agenda items
-  ;CSS3 Text
-  : [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0745.html|Review of Issues Part I]]
   ;CSSWG Blog
   :  What will it take to switch to WordPress?
+  ;Kyoto FTF
+  :  call for agenda items
+
+=== Follow-ups ===
+
+  ;Charter
+  :  Status/review/approval?
+  ;Namespaces
+  :  response from i18n re normalization?
+  ;CSSWG Website
+  :  Status?
+
+=== Publication / Review Requests ===
+
+  ;CSS3 Writing Modes
+  :  [[http://lists.w3.org/Archives/Public/www-style/2011May/0533.html|Publish LCWD?]]
+  ;CSS Regions
+  :  Publish WD?
+  ;CSS Exclusions
+  :  Publish WD?
+
+=== Technical ===
+
+  ;CSS3 Text
+  : [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0745.html|Review of Issues Part I]]
+  ;[[http://lists.w3.org/Archives/Public/www-style/2011Apr/0316.html|Intrinsic Widths of Multicol Elements]]
+  :  More concrete auto-sizing algorithm is needed for css3-writing-modes
 
 ===== Backlog =====
 
