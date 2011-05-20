@@ -37,7 +37,7 @@ The CSSWG co-chairs will select from this list and other sources to create the a
   ;CSS3 Text
   : [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0745.html|Review of Issues Part I]]
   ;[[http://lists.w3.org/Archives/Public/www-style/2011Apr/0316.html|Intrinsic Widths of Multicol Elements]]
-  :  More concrete auto-sizing algorithm is needed for css3-writing-modes
+  :  More concrete auto-sizing algorithm
 
 ===== Backlog =====
 
