@@ -1,4 +1,7 @@
 ====== Tokyo Workshop or Forum 2011 ======
+
+  * See [[http://www.w3.org/Style/Japan-2011/]] for more up-to-date information.
+
 ===== Goal =====
 The goal of this forum is providing an opportunity to CSS community people and let them directly talk with the CSS WG participants so that both the group participants and community people can have better mutual understanding and greater interest in each other's work.
 Also we would like to see what kind of organization and/or mechanism would be suitable for improving the existing CSS specifications for Asian layout.
