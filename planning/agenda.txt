@@ -31,6 +31,8 @@ The CSSWG co-chairs will select from this list and other sources to create the a
   :  Publish WD?
   ;CSS Exclusions
   :  Publish WD?
+  ;CSS3 Images
+  :  Publish WD? (Request pending since 5 May telecon.)
 
 === Technical ===
 
