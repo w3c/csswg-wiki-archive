@@ -34,6 +34,8 @@ The CSSWG co-chairs will select from this list and other sources to create the a
 
 === Technical ===
 
+  ;Gradient Angles
+  : [[http://lists.w3.org/Archives/Public/www-style/2011May/0403.html|Tab's message]] [[http://www.css3.info/angles-in-gradients/|Responses on CSS3.info]]
   ;CSS3 Text
   : [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0745.html|Review of Issues Part I]]
   ;[[http://lists.w3.org/Archives/Public/www-style/2011Apr/0316.html|Intrinsic Widths of Multicol Elements]]
