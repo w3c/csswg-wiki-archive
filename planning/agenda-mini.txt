@@ -16,7 +16,8 @@
 
 ===== CSS Writing Modes Level 3 =====
 
-  - Defining the handling of EAW Ambiguous (A) symbols and punctuation in 'vertical-right' [[http://dev.w3.org/csswg/css3-writing-modes/#text-orientation|text-orientation]]
+  - [[http://dev.w3.org/csswg/css3-writing-modes/#vertical-typesetting|Vertical typesetting]]
+    - [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0498.html|Eric's e-mail to www-style 1]] and [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0538.html|2]]
   - Tightening up definitions of auto-sizing for multi-column elements in [[http://dev.w3.org/csswg/css3-writing-modes/#orthogonal-flows|orthogonal flows]] (particularly interactions with table layout).
   - [[http://dev.w3.org/csswg/css3-writing-modes/#logical-direction-layout|Flow-relative mappings]]
 
