@@ -14,7 +14,6 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
   * Selectors 4 (roughly, what do we want to include/exclude?)
   * Multicol Test Suite
   * text-overflow (<string>, 2 values)
-
 ==== Participants ====
 
   * Please [[http://www.w3.org/2002/09/wbs/32061/css-ftf-2011-06/|register]] if you haven't done yet.
@@ -22,7 +21,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^
 | Tab Atkins | Google | ?? | ?? | ?? | ?? |
 | David Baron | Mozilla | 29 May 15:15 | 5 June 17:10 | Aranvert Hotel Kyoto | UA 885 / UA 886 |
-| Bert Bos | W3C | ?? | ?? | ?? | ?? |
+| Bert Bos | W3C | 31 May 08:00 | 5 Jun 09:50 | ?? | LH 740 / LH 741 |
 | Elika Etemad | Invited Expert | 31 May 19:30 | train TBD | Heianbo / APA Eki-Horikawadori | ?? |
 | Masayuki Ihara | NTT | ?? | ?? | ?? | ?? |
 | Koji Ishii | Invited Expert | ?? | ?? | ?? | ?? |
