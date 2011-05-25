@@ -15,6 +15,8 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
   * Multicol Test Suite
   * text-overflow (<string>, 2 values)
   * CSS3 Fonts (same origin restriction and WOFF, superscript/subscript)
+  * Gradient angles
+
 ==== Participants ====
 
   * Please [[http://www.w3.org/2002/09/wbs/32061/css-ftf-2011-06/|register]] if you haven't done yet.
@@ -25,6 +27,8 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
 | Bert Bos | W3C | 31 May 08:00 | 5 Jun 09:50 | Kyoto Tokyu Hotel | LH 740 / LH 741 |
 | John Daggett | Mozilla | 31 May 18:00 | 4 June 19:00 | Kazariya | train |
 | Elika Etemad | Invited Expert | 31 May 19:30 | train TBD | Heianbo / APA Eki-Horikawadori | ?? |
+| Sylvain Galineau | Microsoft | 31 May 16:00 | 5 June 17:35 | Hotel Granvia Kyoto | DL 183 / DL 182 |
+| Arno Gourdol | Adobe | ?? | ?? | ?? | ?? |
 | Masayuki Ihara | NTT | ?? | ?? | ?? | ?? |
 | Koji Ishii | Invited Expert | 31 May | 5 June | APA Horikawadori | train |
 | John Jansen | Microsoft | ?? | ?? | ?? | ?? |
@@ -33,4 +37,4 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
 | Alex Mogilevsky | Microsoft | 30 May 16:00 | 5 June 17:35 | Hotel Granvia Kyoto | DL 183 / DL 182 |
 | Shinyu Murakami | Antenna House | ?? | ?? | ?? | ?? |
 | Edward O'Connor | Apple | 29 May 15:15 | 5 June 17:10 | Hotel Granvia Kyoto | UA 885 / UA 886 |
-| Sylvain Galineau | Microsoft | 31 May 16:00 | 5 June 17:35 | Hotel Granvia Kyoto | DL 183 / DL 182 |
+| Kazutaka Yamamoto | NTT | ?? | ?? | ?? | ?? |
