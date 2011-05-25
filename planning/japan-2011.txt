@@ -16,6 +16,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
   * text-overflow (<string>, 2 values)
   * CSS3 Fonts (same origin restriction and WOFF, superscript/subscript)
   * Gradient angles
+  * Variables, Mixins, etc.
 
 ==== Participants ====
 
