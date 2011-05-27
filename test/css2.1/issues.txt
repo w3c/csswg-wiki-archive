@@ -206,7 +206,7 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-137.htm|[RC6] margin-collapse-137]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-138.htm|[RC6] margin-collapse-138]]
 
-==== 16 RC6 testcases missing the invalid flag ====
+==== 31 RC6 testcases missing the invalid flag ====
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c526-font-sz-003.htm|[RC6] c526-font-sz-003]] font-size: -0.5in; will be parsed and reported as an illegal value.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-size-rule-001.htm|[RC6] font-size-rule-001]]
