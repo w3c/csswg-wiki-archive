@@ -5,9 +5,11 @@ This section documents problems found in the CSS specs and working drafts. Probl
 Awaiting 2.1 to go PR (so these can go REC)
   * [[spec:css3-selectors|Selectors Level 3]]
   * [[spec:css3-color|CSS Color Module Level 3]]
+PR as of 2011-04-12 (so not sure why the two above didn't automatically go to REC)
+  * [[spec:css2.1|CSS Level 2 Revision 1]]
+
 ===== CR =====
 Awaiting implementations, test suites, or actively being revised per implementation experience.
-  * [[spec:css2.1|CSS Level 2 Revision 1]]
   * [[spec:css3-ui|CSS Basic User Interface Module Level 3]] (another LCWD expected)
   * [[http://dev.w3.org/csswg/css3-namespace/issues-2|CSS Namespaces]]
   * [[spec:css-multicol|CSS Multi-Column Layout Module Level 3]]
@@ -42,7 +44,6 @@ These specs are old / out of date and need active editors/owners to bring them u
   * [[spec:css3-content|CSS Generated Content Level 3]]
 
 ====== Specification Reviews ======
-
 CSSWG members' comments on related specs not published by our group.
 
   * [[spec:reviews:svgtiny1.2|SVG Tiny 1.2]]
