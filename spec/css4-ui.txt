@@ -48,6 +48,7 @@ Theoretical use-cases:
   * multilingual
   * author might wish to use "(...)" for instance in citations
   * vertical ellipsis in maths
+  * a line that has nothing but images on it. Having two markers also motivates having a &lt;string&gt; value to be able to specify different symbols on each side.
 
 Possible spec markup:
 
