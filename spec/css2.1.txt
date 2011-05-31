@@ -981,10 +981,10 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jun/0404.html
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Sep/0186.html
   ;Resolution : Proposal accepted.
-  ;Status : Closed. =fantasai= Write testcase.
+  ;Status : Closed. =fantasai= Testcase has been created and submitted.
   ;Testcases
+  * Width of anonymous table box versus caption box in the automatic table layout: anonymous-table-box-width-001 : http://test.csswg.org/suites/css2.1/nightly-unstable/html4/anonymous-table-box-width-001.htm
   * http://www.gtalbot.org/BrowserBugsSection/css21testsuite/horizontal-layout-table-vs-caption-boxes-1.html
-  * Width of anonymous table box versus caption box in the automatic table layout: anonymous-table-box-width-001 : http://www.gtalbot.org/BrowserBugsSection/css21testsuite/anonymous-table-box-width-001.html
 
 
 ==== Issue 173 ====
