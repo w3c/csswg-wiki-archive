@@ -46,6 +46,7 @@ Put the test in the most severe group (earliest below) that applies.
   * [[http://test.csswg.org/suites/css2.1/20110323/html4/font-005.htm|[RC6] font-005]] , [[http://test.csswg.org/suites/css2.1/20110323/html4/font-019.htm|[RC6] font-019]] and [[http://test.csswg.org/suites/css2.1/20110323/html4/font-021.htm|[RC6] font-021]]: all 3 testcases assume that synthetic small-caps "x" must be taller/larger than normal lowercase "x" when the spec makes no statement of this sort. Also, using x/X is not best; better is e/E because glyphs have different shapes. **[[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Mar/0039.html|More info]]**
   * [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c21-pseud-link-002.htm|[nightly-unstable] c21-pseud-link-002]] The tested link has ''<a href="c21-pseud-link-002.xht">''
   * [[http://test.csswg.org/suites/css2.1/20110323/html4/outline-width-061.htm|[RC6] outline-width-061]] The title says "outline the box with a **5in** solid outline" but a **2in** solid outline is tested.
+  * [[http://test.csswg.org/suites/css2.1/20110323/html4/outline-width-062.htm|[RC6] outline-width-062]] The title says "outline the box with a **5in** solid outline" but a **2in** solid outline is tested.
 
 ==== Miscellaneous incorrect tests ====
 
