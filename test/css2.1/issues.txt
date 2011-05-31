@@ -57,7 +57,9 @@ Put the test in the most severe group (earliest below) that applies.
   * [[http://test.csswg.org/suites/css2.1/20110323/html4/c5524-height-002.htm|[RC6] c5524-height-002]] 1- Why the linked 'min-width' and 'max-width'? 2- class="one" is not defined anywhere
   * [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/blocks-027.htm|[nightly-unstable] blocks-027]] The testcase 1- relies on CSS3 box-sizing 2- uses vendor prefix -moz 3- code could be more compact
   * [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/blocks-028.htm|[nightly-unstable] blocks-028]] The testcase 1- relies on CSS3 box-sizing 2- uses vendor prefix -moz 3- code could be more compact
-
+  * [[http://test.csswg.org/suites/css2.1/20110323/html4/outline-width-061.htm|[RC6] outline-width-061]] The title says "outline the box with a **5in** solid outline" but a **2in** solid outline is tested.
+  * [[http://test.csswg.org/suites/css2.1/20110323/html4/outline-width-062.htm|[RC6] outline-width-062]] The title says "outline the box with a **5in** solid outline" but a **2in** solid outline is tested.
+  * [[http://test.csswg.org/suites/css2.1/20110323/html4/outline-width-083.htm|[RC6] outline-width-083]] The title says "outline the box with a **5ex** solid outline" but a **5px** solid outline is tested.
 
 ==== 0 RC4 testcase with incorrect pass condition / dependence on font metrics ====
 
