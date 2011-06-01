@@ -8,6 +8,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
     * exclusion model
     * moving from Editor Draft to Working Draft.
   * From Tokyo/[[http://www.w3.org/Style/Japan-2011/Kyoto.htm|Kyoto Japan forum]] (5/30, 6/1)
+    * Send WG comment to Unicode about need for unifying variant glyphs across IVS collections?
   * [[http://dev.w3.org/csswg/css-line-grid/|Line Grid proposal]]
   * CSS3 Writing Modes (all open issues)
   * CSS3 Text (all open issues)
