@@ -62,9 +62,10 @@ Real-world use-cases:
   * none.
 
 Theoretical use-cases:
-  * multilingual
-  * author might wish to use "(...)" for instance in citations
-  * vertical ellipsis in maths
+  * text-overflow:"" can be used to clip inline content on whole characters (grapheme clusters) / atomic elements rather than clipping them at a pixel boundary. (is there any evidence of designers wanting such an effect?)
+  * multilingual (need specific examples here. which languages and which characters?)
+  * author might wish to use "(...)" for instance in citations (need a reference to this style of ellipsing in citations)
+  * vertical ellipsis in maths (need a reference to this style of ellipsing in math)
   * a line that has nothing but images on it. Having two markers also motivates having a <string> value to be able to specify different symbols on each side.
 
 Possible spec markup:
