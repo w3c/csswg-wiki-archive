@@ -10,14 +10,8 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
 ==== Thurs PM ====
 
   * [[http://dev.w3.org/csswg/css-line-grid/|Line Grid proposal]] (cont'd)
-  * Unifying variant glyphs across IVS collections
   * CSS3 Writing Modes (all open issues)
-  * CSS3 Text (all open issues)
-  * CSS Regions and CSS Exclusions
-    * region styling
-    * breaking properties
-    * exclusion model
-    * moving from Editor Draft to Working Draft.
+  * Unifying variant glyphs across IVS collections
 
 ==== Fri AM ====
 
@@ -25,10 +19,16 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
   * Selectors 4 (roughly, what do we want to include/exclude?)
   * Nesting/Hierarchy (nesting selectors)
   * Gradient angles
+  * CSS3 Text (all open issues)
 
 ==== Fri PM ====
 
   * [[http://www.w3.org/2010/09/CSSWG/charter.html|Draft charter:]] some details
+  * CSS Regions and CSS Exclusions
+    * region styling
+    * breaking properties
+    * exclusion model
+    * moving from Editor Draft to Working Draft.
   * [[http://dev.w3.org/csswg/css-device-adapt|CSS Device Adaptation]]
   * Variables and Mixins
 
