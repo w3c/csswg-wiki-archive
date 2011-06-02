@@ -6,10 +6,11 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
 
   * From Tokyo/[[http://www.w3.org/Style/Japan-2011/Kyoto.htm|Kyoto Japan forum]] (5/30, 6/1)
   * [[http://dev.w3.org/csswg/css-line-grid/|Line Grid proposal]]
-  * Unifying variant glyphs across IVS collections
 
 ==== Thurs PM ====
 
+  * [[http://dev.w3.org/csswg/css-line-grid/|Line Grid proposal]] (cont'd)
+  * Unifying variant glyphs across IVS collections
   * CSS3 Writing Modes (all open issues)
   * CSS3 Text (all open issues)
   * CSS Regions and CSS Exclusions
