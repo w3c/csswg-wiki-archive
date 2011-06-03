@@ -14,9 +14,9 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
 
 ==== Fri AM ====
 
+  * Transitions/Animations 4 (directions for future)
   * Unifying variant glyphs across IVS collections
   * CSS3 Text (all open issues)
-  * Transitions/Animations 4 (directions for future)
   * Selectors 4 (roughly, what do we want to include/exclude?)
   * Nesting/Hierarchy (nesting selectors)
   * Gradient angles
@@ -44,7 +44,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
   * text-overflow (<string>, 2 values)
 
 
-==== Participants ====
+====== Participants ======
 
   * Please [[http://www.w3.org/2002/09/wbs/32061/css-ftf-2011-06/|register]] if you haven't done yet.
 
