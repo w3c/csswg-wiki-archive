@@ -20,6 +20,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
 
 ==== Fri PM ====
 
+  * CSS3 Text (all open issues, cont'd)
   * [[http://www.w3.org/2010/09/CSSWG/charter.html|Draft charter:]] some details
   * CSS Regions and CSS Exclusions
     * region styling
