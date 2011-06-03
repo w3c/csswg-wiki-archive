@@ -27,21 +27,21 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
     * breaking properties
     * exclusion model
     * moving from Editor Draft to Working Draft.
-  * Selectors 4 (roughly, what do we want to include/exclude?)
-  * Nesting/Hierarchy (nesting selectors)
-  * Gradient angles
-  * [[http://dev.w3.org/csswg/css-device-adapt|CSS Device Adaptation]]
-  * Variables and Mixins
 
 ==== Sat AM ====
 
   * Flexbox status update
-  * CSS3 Fonts (same origin restriction and WOFF, superscript/subscript)
-  * @supports
-  * Dropping prefixes
+  * [[http://dev.w3.org/csswg/css-device-adapt|CSS Device Adaptation]]
+  * Selectors 4 (roughly, what do we want to include/exclude?)
+  * Nesting/Hierarchy (nesting selectors)
+  * Gradient angles
+  * Variables and Mixins
 
 ==== Sat PM ====
 
+  * CSS3 Fonts (same origin restriction and WOFF, superscript/subscript)
+  * @supports
+  * Dropping prefixes
   * Multicol Test Suite
   * text-overflow (<string>, 2 values)
 
