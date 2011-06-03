@@ -17,9 +17,6 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
   * Transitions/Animations 4 (directions for future)
   * Unifying variant glyphs across IVS collections
   * CSS3 Text (all open issues)
-  * Selectors 4 (roughly, what do we want to include/exclude?)
-  * Nesting/Hierarchy (nesting selectors)
-  * Gradient angles
 
 ==== Fri PM ====
 
@@ -29,6 +26,9 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
     * breaking properties
     * exclusion model
     * moving from Editor Draft to Working Draft.
+  * Selectors 4 (roughly, what do we want to include/exclude?)
+  * Nesting/Hierarchy (nesting selectors)
+  * Gradient angles
   * [[http://dev.w3.org/csswg/css-device-adapt|CSS Device Adaptation]]
   * Variables and Mixins
 
