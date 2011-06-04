@@ -38,14 +38,16 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
 
   * F2F Scheduling
   * [[http://dev.w3.org/csswg/css-device-adapt|CSS Device Adaptation]]
-  * Selectors 4 (roughly, what do we want to include/exclude?)
-  * Nesting/Hierarchy (nesting selectors)
-  * Gradient angles
   * Variables and Mixins
   * @supports
+  * Nesting/Hierarchy (nesting selectors)
+  * Selectors 4 (roughly, what do we want to include/exclude?)
   * Dropping prefixes
-  * Multicol Test Suite
   * text-overflow (<string>, 2 values)
+  * CSS Regions integration with other modules
+
+  * Gradient angles
+  * Multicol Test Suite
 
 
 ====== Participants ======
