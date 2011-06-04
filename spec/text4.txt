@@ -9,6 +9,7 @@ Ideas to consider for future CSS Text specs
     * [[http://help.adobe.com/en_US/Illustrator/14.0/WS714a382cdf7d304e7e07d0100196cbc5f-63a5a.html|Adobe Illustrator CS4 Hanging Punctuation]]
   * Glyph scaling min/max/desired (for improving justification)
   * text-emphasis-skip
+  * [[http://lists.w3.org/Archives/Public/www-style/2011May/0721.html|text-wrap:balance]] or something similar
 
 ===== line-grid =====
 
