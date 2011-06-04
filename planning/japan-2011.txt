@@ -33,15 +33,15 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
   * CSS3 Fonts (same origin restriction and WOFF, superscript/subscript)
   * Flexbox status update
   * CSS Regions (cont'd)
+
+==== Sat PM ====
+
+  * F2F Scheduling
   * [[http://dev.w3.org/csswg/css-device-adapt|CSS Device Adaptation]]
   * Selectors 4 (roughly, what do we want to include/exclude?)
   * Nesting/Hierarchy (nesting selectors)
   * Gradient angles
   * Variables and Mixins
-
-==== Sat PM ====
-
-  * F2F Scheduling
   * @supports
   * Dropping prefixes
   * Multicol Test Suite
