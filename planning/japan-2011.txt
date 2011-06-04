@@ -30,6 +30,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
 
 ==== Sat AM ====
 
+  * CSS3 Fonts (same origin restriction and WOFF, superscript/subscript)
   * Flexbox status update
   * [[http://dev.w3.org/csswg/css-device-adapt|CSS Device Adaptation]]
   * Selectors 4 (roughly, what do we want to include/exclude?)
@@ -39,7 +40,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS 
 
 ==== Sat PM ====
 
-  * CSS3 Fonts (same origin restriction and WOFF, superscript/subscript)
+  * F2F Scheduling
   * @supports
   * Dropping prefixes
   * Multicol Test Suite
