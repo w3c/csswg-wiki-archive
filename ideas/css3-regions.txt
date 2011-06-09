@@ -1,0 +1,13 @@
+===== CSS Regions Page =====
+
+This page is used to track:
+  - new issues that are not yet flagged in the specification
+  - resolutions about issues that were in the specification
+
+This page started from the initial [[http://www.w3.org/TR/2011/WD-css3-regions-20110609/|CSS Regions working draft]].
+
+===== New issues =====
+
+===== Resolved issues =====
+
+
