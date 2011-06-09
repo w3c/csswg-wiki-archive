@@ -1,0 +1,7 @@
+===== CSS3 Floats =====
+
+This page contains the issues that are not yet listed in the spec. and the resolutions for issues that were in the spec. but got resolved.
+
+===== Issues =====
+
+===== Resolutions =====
