@@ -4,7 +4,7 @@ This page contains the issues that are not yet listed in the spec. and the resol
 
 ===== Issues =====
 ===== Resolutions =====
-[[http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html| Kyoto F2F June 2011, Thursday]]
+[[http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html| Kyoto F2F June 2011, Friday]]
 
 Make css3-floats module to bring together proposals for floats and exclusions
                
