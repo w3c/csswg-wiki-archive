@@ -5,9 +5,17 @@ This page is used to track:
   - resolutions about issues that were in the specification
 
 This page started from the initial [[http://www.w3.org/TR/2011/WD-css3-regions-20110609/|CSS Regions working draft]].
+===== Resolutions =====
+
+[[http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html|Kyoto F2F June 2011, Saturday]]
+
+ * Unordered List Item RESOLVED: Switch content-order to take <integer>
+ * Discussed syntax for pushing to/pulling from named flows.
+ * Briefly discussed integration of regions with multicol and grid layout
+
+===== To Do ====
 
 ===== New issues =====
 
+
 ===== Resolved issues =====
-
-
