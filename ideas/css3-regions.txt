@@ -13,6 +13,27 @@ This page started from the initial [[http://www.w3.org/TR/2011/WD-css3-regions-2
   * Discussed syntax for pushing to/pulling from named flows.
   * Briefly discussed integration of regions with multicol and grid layout
 
+[[http://lists.w3.org/Archives/Public/www-style/2011Jun/0336.html|Kyoto F2F June 2011, Saturday, Vincent's notes]]
+
+  * use flow-into and flow-from properties and explain the interaction with
+the css3 contents module definition of the content property. The flow-into
+and flow-from properties should be <string>
+  * content selection should not be mentioned in the spec.
+  * confirmed that the event propagation model should not be modified.
+  * make the section on DOM events model informative.
+  * CSS OM View:
+    * confirmed the current proposal (NamedFlow + Element interface extension)
+    * agreed to add event on changes to regionOverflow and flowRanges
+
+===== Action Items ====
+
+[[http://lists.w3.org/Archives/Public/www-style/2011Jun/0336.html|Kyoto F2F June 2011, Saturday, Vincent's notes]]
+  * Regions spec. editors to specify a model for breaking flow content
+across areas that accounts for regions, columns and pages. Build on paged
+media and propose behavior for nested flows breaks.
+
+====== Done ======
+
 ===== To Do ====
 
 ===== New issues =====
