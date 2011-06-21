@@ -10,7 +10,7 @@ Put the test in the most severe group (earliest below) that applies.
 ===== Tests that are Wrong or have Parse Errors =====
 
 
-==== 23 Incorrect RC6 testcases ====
+==== 25 Incorrect RC6 testcases ====
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-family-rule-002.htm|[RC6] font-family-rule-002]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Feb/0116.html]] It is **not** ok to have one letter "X"; there should be 2 small filled black squares vertically lined up. line-height should be specified in the testcase, preferably set to a value of 1.25 in the testcase.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-family-rule-003.htm|[RC6] font-family-rule-003]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Feb/0117.html]] ''font-family: Ahem!;'' is **not** a valid declaration: **[[http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Ftest.csswg.org%2Fsuites%2Fcss2.1%2F20110323%2Fhtml4%2Ffont-family-rule-003.htm&profile=css21&usermedium=all&warning=2&vextwarning=&lang=en|CSS validation report]]**. Therefore, an "X" must be rendered; an "X" being rendered is not optional or a 'may'. Pass conditions should be updated accordingly. Additionally, the testcase misses the invalid flag.
@@ -35,6 +35,9 @@ Put the test in the most severe group (earliest below) that applies.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/min-width-applies-to-007.htm|[RC6] min-width-applies-to-007]] **Reasons why**: [[http://www.w3.org/TR/CSS21/visudet.html#min-max-widths|"In CSS 2.1, the effect of 'min-width' and 'max-width' on tables, inline tables, table cells, table columns, and column groups is undefined."]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/min-width-applies-to-013.htm|[RC6] min-width-applies-to-013]] **Reasons why**: [[http://www.w3.org/TR/CSS21/visudet.html#min-max-widths|"In CSS 2.1, the effect of 'min-width' and 'max-width' on tables, inline tables, table cells, table columns, and column groups is undefined."]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/min-width-applies-to-014.htm|[RC6] min-width-applies-to-014]] **Reasons why**: [[http://www.w3.org/TR/CSS21/visudet.html#min-max-widths|"In CSS 2.1, the effect of 'min-width' and 'max-width' on tables, inline tables, table cells, table columns, and column groups is undefined."]]
+  -  [[http://test.csswg.org/suites/css2.1/20110323/html4/table-footer-group-003.htm|[RC6] table-footer-group-003]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jun/0006.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jun/0006.html]]
+  -  [[http://test.csswg.org/suites/css2.1/20110323/html4/table-header-group-003.htm|[RC6] table-header-group-003]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jun/0006.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jun/0006.html]]
+
 
 ==== Tests relying on non-normative behavior ====
 
