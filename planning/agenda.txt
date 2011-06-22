@@ -13,14 +13,10 @@ The CSSWG co-chairs will select from this list and other sources to create the a
 === Follow-ups ===
 
   ;Charter
-  :  Status/review/approval?
-  ;Namespaces
-  :  response from i18n re normalization?
+  :  FX TF Joint Deliverables?
 
 === Publication / Review Requests ===
 
-  ;DOM3 Events LC#2 (to be discussed conf call 22-jun)
-  : [[http://www.w3.org/mid/4DDD32FA.3020704@disruptive-innovations.com|fwd message from chairs@w3;org]] 
   ;CSS Regions
   :  Publish WD? (waiting for Adobe's mail saying edits are done)
   ;CSS Exclusions
@@ -30,12 +26,8 @@ The CSSWG co-chairs will select from this list and other sources to create the a
 
 === Technical ===
 
-  ;Gradient Angles
-  : [[http://lists.w3.org/Archives/Public/www-style/2011May/0403.html|Tab's www-style]] | [[http://www.css3.info/angles-in-gradients/|Responses on CSS3.info]]
   ;CSS3 Text
   : [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0745.html|Review of Issues Part I]]
-  ;[[http://lists.w3.org/Archives/Public/www-style/2011Apr/0316.html|Intrinsic Widths of Multicol Elements]]
-  :  More concrete auto-sizing algorithm
 
 ===== Backlog =====
 
