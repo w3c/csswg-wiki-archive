@@ -1,5 +1,7 @@
 ====== Paged Media Level 4 ======
 
+//Consider separating page model (headers/footers) and pagination/fragmentation rools. Possibly [[CSS Pagination]] or [[CSS Fragmentation]]. CSSWG has discussed options and appears to prefer a separate pagination spec, to avoid having CSS3 specs (e.g. Regions) depend on a CSS4 spec. Also, a spearate pagination spec can have its own progress on standards track, and it doesn't have to depend on CSS3 Paged Media.//
+
 Some ideas for features for a future Paged Media Level 4 spec:
 
   * 'allow' value for page-break properties (preferred vs acceptable breaks)
@@ -13,3 +15,6 @@ Some ideas for features for a future Paged Media Level 4 spec:
   * add percentage to page-break-before(after) as conditional page break.  (See http://lists.w3.org/Archives/Public/www-style/2009Apr/0039.html)
   * :front and :back page selectors (like :left and :right, but determined by writing order)
   * @margin-box selector to set values common to all margin boxes
+  * pagination creates multiple boxes per element - that has to be accounted for in spec definitions and in DOM (http://lists.w3.org/Archives/Public/www-style/2011Jun/0039.html)
+  * containing block definition in pagination, in particular when broken across pages of different size (http://lists.w3.org/Archives/Public/www-style/2011Jun/0039.html)
+
