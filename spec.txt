@@ -16,6 +16,7 @@ Awaiting implementations, test suites, or actively being revised per implementat
   * [[spec:mediaqueries|Media Queries Level 3]]
   * [[spec:css-style-attr|CSS Style Attributes]]
   * [[spec:css3-background|CSS Backgrounds and Borders Module Level 3]]
+  * [[spec:css3-regions|CSS Regions Module]]
 
 ===== WD =====
 These are being actively developed. Sometimes used to be CRs that need major revision.
