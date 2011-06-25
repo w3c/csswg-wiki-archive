@@ -69,12 +69,11 @@ Put the test in the most severe group (earliest below) that applies.
 
 
 
-==== 3 RC6 testcases not actually testing what they are supposed to test or that are too easy to pass ====
+==== 93 RC6 testcases not actually testing what they are supposed to test or that are too easy to pass ====
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/containing-block-017.htm|containing-block-017]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0063.html]] What do do? title and text assert should be adjusted to pinpoint section 10.1, bullet 4, sub-bullet 1 and not sub-bullet 2 (since ancestor is an inline box, not a block).
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-systemfont-rule-003.htm|[RC6] font-systemfont-rule-003]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Mar/0038.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Mar/0038.html]]
   -  [[http://test.csswg.org/suites/css2.1/20110323/html4/font-systemfont-rule-004.htm|[RC6] font-systemfont-rule-004]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Mar/0032.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Mar/0032.html]]
-  -  [[http://test.csswg.org/suites/css2.1/20110323/html4/max-height-080.htm|[RC6] max-height-080]] the testcase, as coded and as built, can not fail. height and max-height even have the same value.
   -  [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jun/0007.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jun/0007.html]]: **over 60 [max|min]-[height|width] testcases can not fail**.
   -  [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jun/0007.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jun/0007.html]]: about 30 testcases have an **one-single-pixel-between-pass-and-fail-condition** which is not suitable for a test suite and human testers.
 
