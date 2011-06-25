@@ -264,6 +264,34 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/min-width-056.htm|[RC6] min-width-056]] 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/min-width-067.htm|[RC6] min-width-067]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/min-width-078.htm|[RC6] min-width-078]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-bottom-001.htm|[RC6] padding-bottom-001]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-bottom-045.htm|[RC6] padding-bottom-045]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-bottom-056.htm|[RC6] padding-bottom-056]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-bottom-089.htm|[RC6] padding-bottom-089]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-left-001.htm|[RC6] padding-left-001]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-left-012.htm|[RC6] padding-left-012]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-left-023.htm|[RC6] padding-left-023]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-left-034.htm|[RC6] padding-left-034]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-left-045.htm|[RC6] padding-left-045]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-left-056.htm|[RC6] padding-left-056]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-left-089.htm|[RC6] padding-left-089]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-right-001.htm|[RC6] padding-right-001]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-right-012.htm|[RC6] padding-right-012]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-right-023.htm|[RC6] padding-right-023]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-right-034.htm|[RC6] padding-right-034]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-right-045.htm|[RC6] padding-right-045]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-right-056.htm|[RC6] padding-right-056]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-right-089.htm|[RC6] padding-right-089]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-top-001.htm|[RC6] padding-top-001]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-top-012.htm|[RC6] padding-top-012]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-top-023.htm|[RC6] padding-top-023]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-top-034.htm|[RC6] padding-top-034]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-top-045.htm|[RC6] padding-top-045]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-top-056.htm|[RC6] padding-top-056]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-top-089.htm|[RC6] padding-top-089]]
+
+
+
 
 ==== 3 RC6 testcases missing the interact flag ====
 
