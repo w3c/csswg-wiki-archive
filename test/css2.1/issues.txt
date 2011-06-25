@@ -223,7 +223,7 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-137.htm|[RC6] margin-collapse-137]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-138.htm|[RC6] margin-collapse-138]]
 
-==== 64 RC6 testcases missing the invalid flag ====
+==== 65 RC6 testcases missing the invalid flag ====
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c526-font-sz-003.htm|[RC6] c526-font-sz-003]] font-size: -0.5in; will be parsed and reported as an illegal value.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-size-rule-001.htm|[RC6] font-size-rule-001]]
@@ -264,6 +264,7 @@ Ugly, not self-documenting:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/min-width-056.htm|[RC6] min-width-056]] 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/min-width-067.htm|[RC6] min-width-067]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/min-width-078.htm|[RC6] min-width-078]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/outline-style-hidden-001.htm|[RC6] outline-style-hidden-001]] since **[[http://www.w3.org/TR/CSS21/ui.html#dynamic-outlines|"'hidden' is not a legal outline style"]]**
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-bottom-001.htm|[RC6] padding-bottom-001]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-bottom-045.htm|[RC6] padding-bottom-045]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-bottom-056.htm|[RC6] padding-bottom-056]]
