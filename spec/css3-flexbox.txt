@@ -3,11 +3,12 @@
 ===== Issues =====
 
 ==== Issue 1 ====
-Multiline flexbox is missing from current draft
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/thread.html#msg37
+  ;Summary : Multiline flexbox is missing from current draft
+  ;Proposal : TBD
+  ;Status : Open
+  
 
-See discusion thread [http://lists.w3.org/Archives/Public/www-style/2011Jun/thread.html#msg37]
-
-Proposal: TBD
 ===== Basic Usecases =====
 
 
