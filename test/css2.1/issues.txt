@@ -160,9 +160,10 @@ Ugly, not self-documenting:
 ==== Should be ref tests ====
   c5526c-display-000
 
-==== 1 RC6 testcase creating unneedlessly and unexpectedly an horizontal scrollbar ====
+==== 2 RC6 testcases creating unneedlessly and unexpectedly an horizontal scrollbar ====
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/vertical-align-121.htm|[RC6] vertical-align-121]] Removing ''<p class="ahemprereq">'' whole paragraph is likely going to remove the unneeded and unexpected horizontal scrollbar at the same time.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/white-space-collapsing-001.htm|[RC6] white-space-collapsing-001]] Removing ''<div class="prereq">'' whole paragraph is likely going to remove the unneeded and unexpected horizontal scrollbar at the same time.
 
 ==== 0 RC6 testcase without pass conditions ====
 
