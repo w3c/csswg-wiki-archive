@@ -13,10 +13,11 @@ This page started from the initial [[http://www.w3.org/TR/2011/WD-css3-regions-2
   * Discussed syntax for pushing to/pulling from named flows.
   * Briefly discussed integration of regions with multicol and grid layout
 
-[[http://lists.w3.org/Archives/Public/www-style/2011Jun/0336.html|Kyoto F2F June 2011, Saturday, Vincent's notes]]
+[[http://lists.w3.org/Archives/Public/www-style/2011Jun/0336.html|Kyoto F2F June 2011, Saturday, Vincent's notes]], [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0413.html|WG Conference Call, [CSSWG] Minutes and Resolutions 2011-06-15]]
 
-  * use flow-into and flow-from properties and explain the interaction with the css3 contents module definition of the content property. The flow-into and flow-from properties should be <string>
-  * content selection should not be mentioned in the spec.
+  * use ident for flow names in CSS Regions
+  * Disagreement on whether CSS Regions should use the 'content' property or have separate 'flow-from' property that overloads 'content: normal'.
+  * content selection should not be mentioned in the spec. It is a UI issue.
   * confirmed that the event propagation model should not be modified.
   * make the section on DOM events model informative.
   * CSS OM View:
