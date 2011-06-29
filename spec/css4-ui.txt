@@ -54,6 +54,9 @@ Theoretical use-cases:
   * vertical ellipsis in maths (need a reference to this style of ellipsing in math)
   * a line that has nothing but images on it. Having two markers also motivates having a <string> value to be able to specify different symbols on each side.
 
+CSSWG resolution:
+  http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html
+
 Possible spec markup:
 
 <code>
@@ -64,7 +67,7 @@ Possible spec markup:
 ...
       <dt><dfn title="text-overflow:&lt;string&gt;">
            <var>&lt;string&gt;</var></dfn></dt>
-        <dd>Render the given string to represent clipped text.</dd>
+        <dd>Render the given string to represent clipped text. The string is treated as an independent paragraph for bidi purposes.</dd>
 </code>
 
 ==== text-overflow string plus ====
