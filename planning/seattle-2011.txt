@@ -2,6 +2,13 @@
 
 Topics for the [[http://www.w3.org/Style/Group/2011/Seattle.htm|July 2011 CSS Working Group Face-to-Face]] meeting in Seattle, WA.
 
+Dates: ???-???
+
+Venue: ???-???
+
+Host dinner: ???
+
+
 ==== Proposed Agenda Topics ====
 
   * ???
@@ -12,3 +19,4 @@ Topics for the [[http://www.w3.org/Style/Group/2011/Seattle.htm|July 2011 CSS Wo
 
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^
 | Peter Linss | HP | ??? | ??? | ??? | ??? |
+| Tantek Çelik | self | ??? | ??? | ??? | ??? |
