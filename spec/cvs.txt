@@ -489,7 +489,14 @@ THEN check to see if your ''CVS_RSH'' is defined by trying:
 echo $CVS_RSH
 </code>
 
-IF you get nothing but a blank line then first do:
+IF you get nothing but a blank line or get an error message like:
+
+<code bash>
+cvs [update aborted]: cannot exec value: No such file or directory
+cvs [update aborted]: end of file from server (consult above messages if any)
+</code>
+
+then do this (you likely need to setup your CVS_RSH system variable as documented in [[cvs#step-1-setup-cvs_rsh|Step 1 setup cvs_rsh]]) :
 
 <code bash>
 export CVS_RSH=ssh
