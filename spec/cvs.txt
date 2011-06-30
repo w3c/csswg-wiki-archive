@@ -496,7 +496,7 @@ THEN check to see if your ''CVS_RSH'' is defined by trying:
 echo $CVS_RSH
 </code>
 
-IF you get nothing but a blank line or something other than "ssh",
+IF you get nothing but a blank line or something other than "ssh", 
 THEN do this (you likely need to setup your CVS_RSH system variable as documented in [[cvs#step-1-setup-cvs_rsh|Step 1 setup cvs_rsh]]) :
 
 <code bash>
