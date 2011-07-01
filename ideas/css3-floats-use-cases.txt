@@ -12,7 +12,7 @@ This page contains use cases for exclusions and comparative examples of markup u
 
 One exclusion over two columns of content.
 
-!exclusions_simple.jpg!
+{{:ideas:css3-floats-use-cases:exclusions_simple.jpg?200|}}
 
 ==== CSS Exclusions ====
 <code html>
