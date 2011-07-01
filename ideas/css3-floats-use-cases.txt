@@ -1087,8 +1087,7 @@ Question: How does padding work? There is no explicit padding method specified. 
 ===== UC 8: background image and container shape =====
 Custom-shaped container with a background image / background color.
 
-!exclusions_background.jpg!
-
+{{:ideas:css3-floats-use-cases:exclusions_background.jpg?200|}}
 
 
 
