@@ -293,7 +293,7 @@ Limitation: cannot add "exclusion" on a custom-shaped element. See details in th
 ===== UC 3: repeating shapes =====
 Repeating exclusion shape on x, y or both axes.
 
-!exclusions_repeating.jpg!
+{{:ideas:css3-floats-use-cases:exclusions_repeating.jpg?200|}}
 
 
 
