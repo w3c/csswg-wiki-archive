@@ -53,3 +53,75 @@ One exclusion over two columns of content.
 </body>
 </html>
 </code>
+
+===== CSS3 Floats =====
+
+
+<code html>
+<html>
+<head>
+	<style type="text/css"> 
+	
+	#article{
+		column-count: 2;
+		column-gap: 1em;
+	}
+	
+	/* with SVG shape */
+	#shape{
+		float:positioned;
+		position:absolute;
+		top:50%;
+		left:50%;
+		flow-wrap: wrap;    
+		wrap-type: around; 
+		wrap-shape: poly(x1,y1 ... xn,yn);    
+	} 
+	
+	/* with image */
+	 #shape{
+		float:positioned;
+		position:absolute;
+		top:50%;
+		left:50%; 
+		flow-wrap: wrap;    
+		wrap-type: around; 
+		wrap-image: url(mycircle.png);
+		wrap-image-threshold: 100%; 
+	}
+	
+	</style>
+</head>
+<body>
+	<div id="shape"></div>
+	<div id="article">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+	</div>
+</body>
+</html>   
+</code>
+
+==== Daniel Glazman's proposal ====
+<code html>
+<html>
+<head>
+	<style type="text/css"> 
+	
+	#article{
+		column-count: 2;
+		column-gap: 1em;
+		region-restriction: outside; /* how do I have inside and outside wrapping? */
+		region-image: url(mycircle.png); /* how do I adjust the alpha threshold? */
+
+		region-position: 50% 50%;  
+	} 
+	
+	</style>
+</head>
+<body>
+	<div id="article">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+	</div>
+</body>
+</html>
+</code> 
