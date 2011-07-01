@@ -1226,8 +1226,8 @@ Custom-shaped container with a background image / background color.
 === Limitations overview ===
   * An element can't determine a live exclusion for another. Shapes are defined on both elements and have to be kept in sync by some scripting method.
   * An element can't have a shape and part of it excluded because there's only one "region-restriction" property  per element. 
-  * The following example cannot be achieved with two independent images*
-!exclusions_glazman-limitation-1.jpg!
+  * The following example cannot be achieved with two independent images
+{{:ideas:css3-floats-use-cases:exclusions_glazman-limitation-1.jpg?200|}}
   * Shapes are currently defined only by static images. Support for SVG-defined shapes (like Exclusions & CSS3Floats) would enable scripted manipulation of shapes.
   * Cannot have transforms on only the exclusion image (rotation, scale)
    ** transforms need to happen on the entire container, thus affecting the contents, as well
