@@ -296,11 +296,9 @@ Ugly, not self-documenting:
 
 
 
-==== 3 RC6 testcases missing the interact flag ====
+==== 1 RC6 testcase missing the interact flag ====
 
   - [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-110.htm|[RC6] floats-110]] since resizing the viewport is part of the test pass/fail condition
-  - [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/c5504-mrgn-l-002.htm|[RC6] c5504-mrgn-l-002]]
-  - [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/background-bg-pos-205.htm|[RC6] background-bg-pos-205]]
 
 ==== 0 RC6 testcase missing the dom flag ====
 
