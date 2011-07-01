@@ -601,7 +601,7 @@ This gets more complex on adaptive layouts.
 Reuse an exclusion shape on different elements
 
 !exclusions_reusable.jpg!
-
+{{:ideas:css3-floats-use-cases:exclusions_reusable.jpg?200|}}
 
 
 
