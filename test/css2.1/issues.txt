@@ -129,16 +129,16 @@ Ugly, not self-documenting:
 
 ==== 10 RC6 testcases with too technical pass conditions ====
 
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/inline-table-width-001a.htm|[RC6] inline-table-width-001a]] My neighbour would ask "What's 10em and how wide is it exactly?"
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/table-percent-width-001.htm|[RC6] table-percent-width-001]] My neighbour would ask "What's a 100px by 100px green square?"
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/background-alpha-001.htm|[RC6] background-alpha-001]] My neighbour would ask "What's a 'multi-bit alpha channel'?" Pass conditions are not so clear and text is too technical.
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/background-alpha-002.htm|[RC6] background-alpha-002]] My neighbour would ask "What's a 'multi-bit alpha channel'?" Pass conditions are not so clear and text is too technical.
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/background-alpha-003.htm|[RC6] background-alpha-003]] My neighbour would ask "What's a square div? How tall/big is/should be the 'size of two tiles'?" Pass conditions are not clear or easy for normal people and text is too technical.
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/cursor-applies-to-005.htm|[RC6] cursor-applies-to-005]] My neighbour would ask "What's a default cursor? How does it look like?" I propose to add to the expected results: "The default cursor often looks like an arrow."
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/cursor-applies-to-006.htm|[RC6] cursor-applies-to-006]] My neighbour would ask "What's a default cursor? How does it look like?" I propose to add to the expected results: "The default cursor often looks like an arrow."
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/first-line-pseudo-011.htm|[RC6] first-line-pseudo-011]] The pass conditions text should be only: "The next three boxes should look identical." The sentence "(If the second and third look different, then margin collapsing through empty elements is broken. Go to these tests for more details.)" should be removed.
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/inline-replaced-width-014.htm|[RC6] inline-replaced-width-014]] The pass conditions text should be only: "There should be 2 identical filled green rectangles and **no red**."
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/inline-replaced-width-015.htm|[RC6] inline-replaced-width-015]] The pass conditions text should be only: "There should be 2 identical filled bright green rectangles and **no red**."
+  - [Moz] [[http://test.csswg.org/suites/css2.1/20110323/html4/inline-table-width-001a.htm|[RC6] inline-table-width-001a]] My neighbour would ask "What's 10em and how wide is it exactly?"
+  - [Moz] [[http://test.csswg.org/suites/css2.1/20110323/html4/table-percent-width-001.htm|[RC6] table-percent-width-001]] My neighbour would ask "What's a 100px by 100px green square?"
+  - [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/background-alpha-001.htm|[RC6] background-alpha-001]] My neighbour would ask "What's a 'multi-bit alpha channel'?" Pass conditions are not so clear and text is too technical.
+  - [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/background-alpha-002.htm|[RC6] background-alpha-002]] My neighbour would ask "What's a 'multi-bit alpha channel'?" Pass conditions are not so clear and text is too technical.
+  - [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/background-alpha-003.htm|[RC6] background-alpha-003]] My neighbour would ask "What's a square div? How tall/big is/should be the 'size of two tiles'?" Pass conditions are not clear or easy for normal people and text is too technical.
+  - [MSFT] [[http://test.csswg.org/suites/css2.1/20110323/html4/cursor-applies-to-005.htm|[RC6] cursor-applies-to-005]] My neighbour would ask "What's a default cursor? How does it look like?" I propose to add to the expected results: "The default cursor often looks like an arrow."
+  - [MSFT] [[http://test.csswg.org/suites/css2.1/20110323/html4/cursor-applies-to-006.htm|[RC6] cursor-applies-to-006]] My neighbour would ask "What's a default cursor? How does it look like?" I propose to add to the expected results: "The default cursor often looks like an arrow."
+  - [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/first-line-pseudo-011.htm|[RC6] first-line-pseudo-011]] The pass conditions text should be only: "The next three boxes should look identical." The sentence "(If the second and third look different, then margin collapsing through empty elements is broken. Go to these tests for more details.)" should be removed.
+  - [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/inline-replaced-width-014.htm|[RC6] inline-replaced-width-014]] The pass conditions text should be only: "There should be 2 identical filled green rectangles and **no red**."
+  - [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/inline-replaced-width-015.htm|[RC6] inline-replaced-width-015]] The pass conditions text should be only: "There should be 2 identical filled bright green rectangles and **no red**."
 
 
 ==== 10 RC3 Font related testcases which need pixel reference lines or need to be reworked or redesigned ====
