@@ -1035,9 +1035,9 @@ Custom-shaped container with margin for outer content and padding for inner cont
 
 
 ==== Daniel Glazman's proposal ====
-(-) Limitation: region-image only affects the container, no effect on the bottom element. The "margin" is faked with another image. 
-(?) How does padding work?
-There is no explicit padding method specified. Is the standard "padding" method overloaded?  
+Limitation: region-image only affects the container, no effect on the bottom element. The "margin" is faked with another image. 
+
+Question: How does padding work? There is no explicit padding method specified. Is the standard "padding" method overloaded?  
 <code html>
 <html>
 <head>
