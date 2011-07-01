@@ -597,7 +597,6 @@ This gets more complex on adaptive layouts.
 ===== UC 5: reusable exclusion =====
 Reuse an exclusion shape on different elements
 
-!exclusions_reusable.jpg!
 {{:ideas:css3-floats-use-cases:exclusions_reusable.jpg?200|}}
 
 
@@ -789,7 +788,6 @@ good reusability of the region-image without additional placeholder markup
 ===== UC 6: shape transforms =====
 Apply transformations (scale, skew, rotate) to an exclusion shape.
 
-!exclusions_transforms.jpg!
 {{:ideas:css3-floats-use-cases:exclusions_transforms.jpg?200|}}
 
 
