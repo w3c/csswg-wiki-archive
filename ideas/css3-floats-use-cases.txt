@@ -235,8 +235,8 @@ Multiple overlapping exclusions that affect each other and the content around th
 
 ==== Daniel Glazman's proposal ====
 
-(-) Limitation: cannot add "exclusion" on a custom-shaped element.
-[Details on region-restriction|https://zerowing.corp.adobe.com/display/webkit/CSS+Exclusions+Use+Cases#CSSExclusionsUseCases-regionrestriction]
+Limitation: cannot add "exclusion" on a custom-shaped element. See details in the issues section.
+
 <code html>
 <html>
 <head>
