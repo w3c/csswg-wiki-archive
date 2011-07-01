@@ -177,13 +177,13 @@ Ugly, not self-documenting:
 
 ==== 7 testcases that have HTML Validation errors ====
 
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/before-after-dynamic-attr-001.htm|before-after-dynamic-attr-001]] The html element can not have a class: class="reftest-wait"; body element can not be empty.
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/before-after-dynamic-restyle-001.htm|before-after-dynamic-restyle-001]] The html element can not have a class: class="reftest-wait"; body element can not be empty.
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/block-in-inline-insert-010.htm|block-in-inline-insert-010]]
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/block-in-inline-insert-013.htm|block-in-inline-insert-013]]
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/before-after-table-parts-001.htm|before-after-table-parts-001]] It has CSS validation issues too; explanations: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0011.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0011.html]]
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/fonts-009.htm|[RC6] fonts-009]]
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/inlines-014.htm|[RC6] inlines-014]] line8: <met> should be <meta>
+  - [Moz] [[http://test.csswg.org/suites/css2.1/20101210/html4/before-after-dynamic-attr-001.htm|before-after-dynamic-attr-001]] The html element can not have a class: class="reftest-wait"; body element can not be empty.
+  - [Moz] [[http://test.csswg.org/suites/css2.1/20101210/html4/before-after-dynamic-restyle-001.htm|before-after-dynamic-restyle-001]] The html element can not have a class: class="reftest-wait"; body element can not be empty.
+  - [Moz] [[http://test.csswg.org/suites/css2.1/20101210/html4/block-in-inline-insert-010.htm|block-in-inline-insert-010]]
+  - [Moz] [[http://test.csswg.org/suites/css2.1/20101210/html4/block-in-inline-insert-013.htm|block-in-inline-insert-013]]
+  - [Moz] [[http://test.csswg.org/suites/css2.1/20101210/html4/before-after-table-parts-001.htm|before-after-table-parts-001]] It has CSS validation issues too; explanations: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0011.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0011.html]]
+  - [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/fonts-009.htm|[RC6] fonts-009]]
+  - [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/inlines-014.htm|[RC6] inlines-014]] line8: <met> should be <meta>
 
 ==== 6 RC6 testcases that have CSS Validation errors ====
 
