@@ -409,7 +409,7 @@ Repeating exclusion shape on x, y or both axes.
 ===== UC 4: disjoint shapes ======
 Multiple disjoint shapes that compose an exclusion
 
-!exclusions_disjoint_shapes.jpg!
+{{:ideas:css3-floats-use-cases:exclusions_disjoint_shapes.jpg?200|}}
 
 ==== Resources: ====
 
