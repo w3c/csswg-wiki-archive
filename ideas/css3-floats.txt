@@ -1,6 +1,8 @@
 ===== CSS3 Floats =====
 
-This page contains the issues that are not yet listed in the spec. and the resolutions for issues that were in the spec. but got resolved.
+This page contains the issues that are not yet listed in the specification and the resolutions for issues that were in the spec. but got resolved.
+
+There is a companion [[ideas:css3-floats-use-cases|use cases]] page.
 
 ===== Issues =====
 ===== Resolutions =====
