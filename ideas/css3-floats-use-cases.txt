@@ -1,0 +1,57 @@
+{nocamel}
+===== About =====
+
+This page contains use cases for exclusions and comparative examples of markup using the CSS Exclusions proposal, CSS3 Floats and Daniel Glazman's proposal.
+The InDesign sources for the use cases are found on Perforce, at //depot/users/WebKit/rcaliman/use_cases/
+
+==== Proposals ====
+
+  * CSS Exclusions: [http://dev.w3.org/csswg/css3-exclusions/]
+  * CSS3 Floats: [http://www.interoperabilitybridges.com/css3-floats/]
+  * Daniel Glazman: [https://zerowing.corp.adobe.com/display/webkit/Daniel+Glazman%27s+Proposal]
+
+===== UC 1: simple exclusion =====
+
+One exclusion over two columns of content.
+
+!exclusions_simple.jpg!
+
+==== CSS Exclusions ====
+<code html>
+<html>
+<head>
+	<style type="text/css"> 
+	
+	#article{
+		column-count: 2;
+		column-gap: 1em;
+	}
+	
+	/* with SVG shape */
+	#shape{
+		position:absolute;
+		top:50%;
+		left:50%;
+		wrap-shape-mode: around;
+		wrap-shape: poly(x1,y1 ... xn,yn);    
+	} 
+	
+	/* with image */
+	 #shape{
+		position:absolute;
+		top:50%;
+		left:50%; 
+		wrap-shape-image: url(mycircle.png);
+		wrap-shape-image-threshold: 100%;
+	}
+	
+	</style>
+</head>
+<body>
+	<div id="shape"></div>
+	<div id="article">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+	</div>
+</body>
+</html>
+</code>
