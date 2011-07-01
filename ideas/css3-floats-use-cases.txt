@@ -54,7 +54,7 @@ One exclusion over two columns of content.
 </html>
 </code>
 
-===== CSS3 Floats =====
+==== CSS3 Floats ====
 
 
 <code html>
