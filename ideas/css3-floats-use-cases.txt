@@ -793,7 +793,7 @@ good reusability of the region-image without additional placeholder markup
 Apply transformations (scale, skew, rotate) to an exclusion shape.
 
 !exclusions_transforms.jpg!
-
+{{:ideas:css3-floats-use-cases:exclusions_transforms.jpg?200|}}
 
 
 
