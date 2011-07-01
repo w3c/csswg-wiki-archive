@@ -954,8 +954,7 @@ Limitation:
 ===== UC 7: padding and margin on custom shape =====
 Custom-shaped container with margin for outer content and padding for inner content
 
-!exclusions_padding_margin.jpg!
-
+{{:ideas:css3-floats-use-cases:exclusions_padding_margin.jpg?200|}}
 
 
 
