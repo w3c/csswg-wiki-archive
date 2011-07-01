@@ -945,13 +945,9 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 
 
 ==== Daniel Glazman's proposal ====
-(-) Limitation:
-* Rotation: can't do programatic transforms on region-image. Need a separate image.
-* Scale/size: region-size excluded from Daniel's proposal "since it could lead to extremely expensive and deep recursion"
-<code html>
-
-</code>  
-
+Limitation:
+  * Rotation: can't do programatic transforms on region-image. Need a separate image.
+  * Scale/size: region-size excluded from Daniel's proposal "since it could lead to extremely expensive and deep recursion"
 
 
 
