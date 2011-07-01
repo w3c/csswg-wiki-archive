@@ -1,4 +1,5 @@
-{nocamel}
+===== Introduction =====
+
 This page contains use cases for exclusions and comparative examples of markup using the CSS Exclusions proposal, CSS3 Floats and Daniel Glazman's proposal.
 
 ==== Proposals ====
