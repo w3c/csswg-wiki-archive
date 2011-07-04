@@ -12,7 +12,7 @@ This page contains use cases for exclusions and comparative examples of markup u
 
 One exclusion over two columns of content.
 
-{{:ideas:css3-floats-use-cases:exclusions_simple.jpg?200|}}
+{{:ideas:css3-floats-use-cases:exclusions_simple.jpg?500|}}
 
 ==== CSS Exclusions ====
 <code html>
@@ -130,7 +130,7 @@ One exclusion over two columns of content.
 ===== UC 2: overlapping exclusions =====
 Multiple overlapping exclusions that affect each other and the content around them.
 
-{{:ideas:css3-floats-use-cases:exclusions_overlapping.jpg?200|}}
+{{:ideas:css3-floats-use-cases:exclusions_overlapping.jpg?500|}}
 
 ==== CSS Exclusions ====
 <code html>
@@ -293,7 +293,7 @@ Limitation: cannot add "exclusion" on a custom-shaped element. See details in th
 ===== UC 3: repeating shapes =====
 Repeating exclusion shape on x, y or both axes.
 
-{{:ideas:css3-floats-use-cases:exclusions_repeating.jpg?200|}}
+{{:ideas:css3-floats-use-cases:exclusions_repeating.jpg?500|}}
 
 
 
@@ -409,12 +409,13 @@ Repeating exclusion shape on x, y or both axes.
 ===== UC 4: disjoint shapes ======
 Multiple disjoint shapes that compose an exclusion
 
-{{:ideas:css3-floats-use-cases:exclusions_disjoint_shapes.jpg?200|}}
+{{:ideas:css3-floats-use-cases:exclusions_disjoint_shapes.jpg?500|}}
 
 ==== Resources: ====
 
 Image to determine the disjoint shapes by alpha channel transparency.
-{{:ideas:css3-floats-use-cases:exclusions_disjoint_shapes_mask.png?200|}}
+
+{{:ideas:css3-floats-use-cases:exclusions_disjoint_shapes_mask.png?300|}}
 
 ==== CSS Exclusions ====
 
@@ -597,7 +598,7 @@ This gets more complex on adaptive layouts.
 ===== UC 5: reusable exclusion =====
 Reuse an exclusion shape on different elements
 
-{{:ideas:css3-floats-use-cases:exclusions_reusable.jpg?200|}}
+{{:ideas:css3-floats-use-cases:exclusions_reusable.jpg?500|}}
 
 
 
@@ -788,7 +789,7 @@ good reusability of the region-image without additional placeholder markup
 ===== UC 6: shape transforms =====
 Apply transformations (scale, skew, rotate) to an exclusion shape.
 
-{{:ideas:css3-floats-use-cases:exclusions_transforms.jpg?200|}}
+{{:ideas:css3-floats-use-cases:exclusions_transforms.jpg?500|}}
 
 
 
@@ -949,7 +950,7 @@ Limitation:
 ===== UC 7: padding and margin on custom shape =====
 Custom-shaped container with margin for outer content and padding for inner content
 
-{{:ideas:css3-floats-use-cases:exclusions_padding_margin.jpg?200|}}
+{{:ideas:css3-floats-use-cases:exclusions_padding_margin.jpg?500|}}
 
 
 
@@ -1082,7 +1083,7 @@ Question: How does padding work? There is no explicit padding method specified. 
 ===== UC 8: background image and container shape =====
 Custom-shaped container with a background image / background color.
 
-{{:ideas:css3-floats-use-cases:exclusions_background.jpg?200|}}
+{{:ideas:css3-floats-use-cases:exclusions_background.jpg?500|}}
 
 
 
@@ -1222,7 +1223,7 @@ Custom-shaped container with a background image / background color.
   * An element can't determine a live exclusion for another. Shapes are defined on both elements and have to be kept in sync by some scripting method.
   * An element can't have a shape and part of it excluded because there's only one "region-restriction" property  per element. 
   * The following example cannot be achieved with two independent images
-{{:ideas:css3-floats-use-cases:exclusions_glazman-limitation-1.jpg?200|}}
+{{:ideas:css3-floats-use-cases:exclusions_glazman-limitation-1.jpg?340|}}
   * Shapes are currently defined only by static images. Support for SVG-defined shapes (like Exclusions & CSS3Floats) would enable scripted manipulation of shapes.
   * Cannot have transforms on only the exclusion image (rotation, scale)
    ** transforms need to happen on the entire container, thus affecting the contents, as well
