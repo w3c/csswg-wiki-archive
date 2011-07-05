@@ -65,6 +65,7 @@ One exclusion over two columns of content.
 	#article{
 		column-count: 2;
 		column-gap: 1em;
+		flow-wrap: wrap;
 	}
 	
 	/* with SVG shape */
@@ -73,7 +74,6 @@ One exclusion over two columns of content.
 		position:absolute;
 		top:50%;
 		left:50%;
-		flow-wrap: wrap;    
 		wrap-type: around; 
 		wrap-shape: poly(x1,y1 ... xn,yn);    
 	} 
@@ -190,6 +190,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 	#article{
 		column-count: 2;
 		column-gap: 1em;
+		flow-wrap: wrap;
 	}
 	
 	/* with SVG shape */
@@ -200,8 +201,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 		left:60%;   
 		color:red;
 		       
-		z-index:2;
-		flow-wrap: wrap;    
+		z-index:2;    
 		wrap-type: around; 
 		wrap-shape: poly(x1,y1 ... xn,yn);    
 	}
@@ -214,7 +214,6 @@ Multiple overlapping exclusions that affect each other and the content around th
 		color:blue;    
 		
 		z-index:1;
-		flow-wrap: wrap;    
 		wrap-type: around; 
 		wrap-shape: rect(x, y, 200px 200px);
 	} 
@@ -344,6 +343,7 @@ Repeating exclusion shape on x, y or both axes.
 	#article{
 		column-count: 2;
 		column-gap: 1em;
+		flow-wrap: wrap;
 	}
 	
 	#shape{ 
@@ -353,7 +353,6 @@ Repeating exclusion shape on x, y or both axes.
 		width:20px;
 		left:0; 
 		
-		flow-wrap: wrap;    
 		wrap-type: right;  
 		wrap-shape: url("triangle_90deg.png"); 
 		wrap-image-position: top left;
@@ -486,6 +485,7 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 		width:100%;
 		column-count: 2;
 		column-gap: 1em;
+		flow-wrap: wrap;
 	}  
 	
 	#disjoint-article{
@@ -495,8 +495,7 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 		height:380px; /* disjoint-shapes-mask.png height*/
 		color:red;
 		bottom:0;
-		 
-		flow-wrap: wrap;    
+		     
 		wrap-type: around;  
 		wrap-image: url("disjoint-shapes-mask.png"); 
 		wrap-image-position: bottom left;
@@ -680,13 +679,15 @@ Reuse an exclusion shape on different elements
 	 
 	#article1{ 
 		position:relative;
+		flow-wrap: wrap;
 	}
 	
 	#article2{ 
 		position:relative;
 		column-count: 2;
 		column-gap: 1em;
-		color:red; 
+		color:red;
+		flow-wrap: wrap; 
 	}
 	
 	/* with SVG Shape */
@@ -694,7 +695,6 @@ Reuse an exclusion shape on different elements
 		float:positioned;
 		position:absolute;
 		
-		flow-wrap: wrap;
 		wrap-type: around;
 		wrap-shape: polygon(x1,y1 ... xn,yn); 
 	}
@@ -707,7 +707,6 @@ Reuse an exclusion shape on different elements
 		float:positioned;
 		position:absolute;
 		
-		flow-wrap: wrap;
 		wrap-type: around;
 		wrap-image: url("triangle.png");
 		wrap-image-position: top left;
@@ -875,13 +874,15 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 	 
 	#article1{ 
 		position:relative;
+		flow-wrap: wrap;
 	}
 	
 	#article2{ 
 		position:relative;
 		column-count: 2;
 		column-gap: 1em;
-		color:red; 
+		color:red;
+		flow-wrap: wrap; 
 	}
 	
 	/* with SVG Shape */
@@ -889,7 +890,6 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 		float:positioned;
 		position:absolute;
 		
-		flow-wrap: wrap;
 		wrap-type: around;
 		wrap-shape: polygon(x1,y1 ... xn,yn); 
 	}
@@ -902,7 +902,6 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 		float:positioned;
 		position:absolute;
 		
-		flow-wrap: wrap;
 		wrap-type: around;
 		wrap-image: url("triangle.png");
 		wrap-image-position: top left;
@@ -1000,6 +999,7 @@ Custom-shaped container with margin for outer content and padding for inner cont
 	#article{
 		column-count: 2;
 		column-gap: 1em;
+		flow-wrap: wrap;
 	}
 	
 	/* with SVG shape */
@@ -1010,7 +1010,6 @@ Custom-shaped container with margin for outer content and padding for inner cont
 		left:50%;   
 		color:blue;
 		       
-		flow-wrap: wrap;    
 		wrap-type: around; 
 		wrap-shape: poly(x1,y1 ... xn,yn);
 		wrap-margin: 15px;    
@@ -1100,7 +1099,7 @@ Custom-shaped container with a background image / background color.
 		 
 		background-image: url(airplane.png); 
 		background-position: center center; 
-	    mask-box-image: url(circle.png) 100 stretch;
+	        mask-box-image: url(circle.png) 100 stretch;
 		color:blue;
 	}
 	
@@ -1112,7 +1111,7 @@ Custom-shaped container with a background image / background color.
 		 
 		background-image: url(airplane.png); 
 		background-position: center center; 
-	    mask-box-image: url(circle.png) 100 stretch;
+	        mask-box-image: url(circle.png) 100 stretch;
 		color:blue;
 	}
 	
