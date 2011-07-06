@@ -183,6 +183,7 @@ until either <del>it</del> <ins>some content</ins> fits or there are no more flo
   ;Resolution : Proposal accepted.
   ;Status : Closed.
 
+
 ==== Issue 215 ====
 
   ; Summary : Make it undefined what containing block is formed by a relpos inline that splits across multiple lines
