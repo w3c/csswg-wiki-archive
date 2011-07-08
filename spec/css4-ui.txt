@@ -34,8 +34,9 @@ Third, there are hypothetical requests for extensions to CSS3-UI features. As th
 ===== new css4-ui features =====
 Brand new features fo CSS4-UI. We'll follow the same prioritization as above.
 ==== focusable property ====
-  ; Consider incorporating a 'focusable' property (like in SVG)
-  ; URL : http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr
+Consider incorporating a 'focusable' property (like in SVG)
+
+http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr
 
 ===== dropped css3 features =====
 Features that were dropped from CSS3-UI (e.g. the 2004 CR) are eligible to be considered for CSS4-UI, but they will need a strong justification as having been ignored by implementations for 6+ years means there was likely something wrong with them and they need major revising. In addition, features dropped from other CSS3 specs or trimmed when bringing over to CSS3-UI are also considered here.
