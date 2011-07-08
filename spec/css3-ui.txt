@@ -111,7 +111,7 @@ For latest edits/resolutions, see the editors draft:
   ; Raised by : Kevin Ar18
   ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0257.html
   ; Proposed Resolution : itemize and split into multiple sub-issues here. some may be merely details on Issue 5.
-  ; Status : collected.
+  ; Status : **Open.** Collected.
   
 
 ==== Issue 12 ====
