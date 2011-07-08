@@ -195,7 +195,6 @@ focusable, as well).
   ; Raised by : CSS WG
   ; URL : http://dev.w3.org/csswg/css3-ui/#text-overflow0
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html
-  ; URL : http://wiki.csswg.org/spec/css4-ui#text-overflow-string
   ; Proposed Resolution : Update text-overflow definition to include <string> value and {1,2} values option as described below.
   ; Status : Resolved. Editor's draft edited accordingly. Awaiting public draft.
 
