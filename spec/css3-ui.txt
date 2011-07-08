@@ -184,7 +184,7 @@ focusable, as well).
   ; URL : http://dev.w3.org/csswg/css3-ui/#text-overflow0
   ; URL : http://dl.dropbox.com/u/105727/web/text-wrap-ellipsis.html 
   ; Proposed Resolution : No one has implemented text-overflow for anything other than inline progress. Therefore we should explicitly clarify this deatil. Insert "in its inline progression direction and " into "when text overflows its block container element that has ‘overflow’ other than ‘visible’" just after "element". 
-  ; Status : Resolved. Need to edit editor's draft accordingly.
+  ; Status : Resolved. Editor's draft edited accordingly. Awaiting public draft.
 
 ==== Issue 21 ====
   ; Summary : text-overflow definition must include <string> value and 2 values option, but with both explicitly at-risk.
