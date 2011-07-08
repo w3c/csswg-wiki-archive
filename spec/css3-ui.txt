@@ -157,6 +157,7 @@ focusable, as well).
   ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html
   ; Proposed resolution : add note discouraging authors from doing this.
+  ; Status : **OPEN.** Collected.
 
 ==== Issue 18 ====
   ; Summary : How does text-overflow:ellipsis work with overflow-style: marquee-line? 
