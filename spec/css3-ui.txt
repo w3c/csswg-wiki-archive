@@ -128,7 +128,7 @@ focusable, as well).
   ; Raised by : Tantek Çelik
   ; URL : http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr
   ; Proposed resolution : postpone til CSS4-UI.
-  ; Status : collected.
+  ; Status : Resolved. Added to http://wiki.csswg.org/spec/css4-ui#focusable-property
 
 ==== Issue 14 ====
   ; Summary : example for 'appearance' values 'pop-up-menu' and 'radio-group' and 'list-menu' should use same content to illustrate different visualizations for same semantics.
