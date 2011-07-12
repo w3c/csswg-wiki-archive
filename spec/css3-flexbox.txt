@@ -16,18 +16,21 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
 ===== Working Draft property mapping =====
 This module had major changes between 2009 spec and current state. The following table shows mapping from old to new syntax.
 
-^     2009 draft   ^^   Current draft  ^^ Equivalence ^ Mapping ^ Notes ^
+^     2009 draft   ^^   Current draft  ^^ Equivalence ^ Mapping(*) ^ Notes ^
 ^ Property ^ Values ^ Property ^ Values ^ ::: ^ ::: ^ ::: ^
-| display | box \\ inline-box | display | flexbox \\ inline-flexbox | Exact | | 
-| box-align | start \\ end \\ center \\ baseline \\ stretch | flex-align | auto \\ baseline | Close | | |
-| box-direction | normal \\ reverse | flex-direction | lr \\ rl \\ tb \\ bt \\ inline \\ inline-reverse \\ block \\ block-reverse | Close | | |
+| display | box \\ inline-box | display | flexbox \\ inline-flexbox | Exact | display:box -> display:flexbox \\ display:inline-box -> display:inline-flexbox | 
+| box-align | start \\ end \\ center \\ baseline \\ stretch | flex-align | auto \\ baseline | Close | //Horizontal:// \\ box-align:start -> margin-bottom:auto \\ box-align:end -> margin-top:auto \\ box-align:center -> margin:auto 0 \\ box-align:baseline -> flex-align:baseline \\ box-align:stretch -> margin:0; height:auto \\ \\ //Vertical: same with left/right margins// | |
+| box-direction | normal \\ reverse | flex-direction | lr \\ rl \\ tb \\ bt \\ inline \\ inline-reverse \\ block \\ block-reverse | Close | (horizontal, normal) -> lr (<nowiki>**</nowiki>) \\ (horizontal, reverse) -> rl (<nowiki>**</nowiki>) \\ (vertical, normal) -> tb (<nowiki>**</nowiki>) \\ (vertical, reverse) -> bt (<nowiki>**</nowiki>) \\ (inline-axis, normal) -> inline \\ (inline-axis, reverse) -> inline-reverse \\ (block-axis, normal) -> block \\ (block-axis, reverse) -> block-reverse  | |
 | box-orient | horizontal \\ vertical \\ inline-axis \\ block-axis \\ inherit | ::: | ::: | ::: | ::: | ::: |
-| box-flex | <number> | width \\ height \\ margin \\ padding | flex() function \\ 'fr' unuit  | Extended | | |
+| box-flex | <number> | width \\ height \\ margin \\ padding | flex() function \\ 'fr' unit  | Extended | //TODO// | |
 | box-flex-group | <integer> | //deprecated// | | N/A	 | | never implemented, agreed to be expensive and unnecessary |
 | box-lines | single \\ multiple | //missing// | | None | | http://lists.w3.org/Archives/Public/www-style/2010May/thread.html#msg172 |
-| box-ordinal-group | <integer> | flex-order | <integer> | Exact | | |	
-| box-pack | start \\ end \\ center \\ justify | flex-pack | start \\ end \\ center \\ justify | Exact	| | |
+| box-ordinal-group | <integer> | flex-order | <integer> | Exact | //TODO// | |	
+| box-pack | start \\ end \\ center \\ justify | flex-pack | start \\ end \\ center \\ justify | Exact	| //TODO// | |
 
+//(*) Mapping shown for horizontal LTR flow. //
+
+//(<nowiki>**</nowiki>) "box-direction:normal|reverse" picks up direction from writing mode, along given axis. There is no explicit LTR or RTL in 2009 draft. 3/2011 draft offers combinations that are either all physical (lr) or all logical (inline-reverse), so exact mapping is not possible //
 ===== Issues =====
 
 ==== Issue 1 ====
