@@ -14,6 +14,8 @@ Host dinner: ???
   * CSSOM
   * CSS3 Text
   * first two face-to-face meetings of 2012
+  * CSS Regions issues [[spec:css3-regions|]]
+  * CSS Floats / CSS Exclusions issues [[ideas:css3-floats|]]
 
 
 ===== Participants =====
