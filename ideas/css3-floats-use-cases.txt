@@ -8,6 +8,32 @@ This page contains use cases for exclusions and comparative examples of markup u
   * CSS3 Floats: [http://www.interoperabilitybridges.com/css3-floats/]
   * Daniel Glazman: [http://lists.w3.org/Archives/Public/www-style/2011Jun/0457.html]
 
+==== Each Model in 3 Questions ====
+
+This section describes each of the proposed model according to the following questions:
+
+  * How do you define an exclusion shape?
+  * What is the container model?
+  * What is affected by an exclusion?
+
+=== CSS Exclusion Proposal in 3 Questions ===
+
+== How do you define an exclusion shape? ==
+
+Done by the wrap-shape-mode property. By default, the wrap/exclusion shape is the element's box. A different shape can be defined by the wrap-shape mode property. The same shape applies to both the inside content and the outside content.
+
+== What is the container model? ==
+
+There are two sides to this: the wrap-shape for the internal content and the exclusion shape for other content.
+
+For internal content, the closest wrap-shape, defined on an ancestor, defines what shape the content wraps into (note that this works in conjunction with exclusions as well).
+
+For external content, the wrap-shape-order property controls which elements are affected by exclusions, orthogonal to the container relations. See next question.
+
+== What is affected by an exclusion? ==
+
+The wrap-shape-order property controls which elements are affected by an exclusion: Exclusions will only affect block elements with equal or smaller ‘wrap-shape-order’ value in the same wrapping context. A wrapping context is created by an element which sets its wrap-shape-order to a value other than auto (and that is not an exclusion).
+
 ===== UC 1: simple exclusion =====
 
 One exclusion over two columns of content.
