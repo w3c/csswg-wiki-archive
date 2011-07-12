@@ -22,8 +22,11 @@ This module had major changes between 2009 spec and current state. The following
 | box-align | start \\ end \\ center \\ baseline \\ stretch | flex-align | auto \\ baseline | Close | | |
 | box-direction | normal \\ reverse | flex-direction | lr \\ rl \\ tb \\ bt \\ inline \\ inline-reverse \\ block \\ block-reverse | Close | | |
 | box-orient | horizontal \\ vertical \\ inline-axis \\ block-axis \\ inherit | ::: | ::: | ::: | ::: | ::: |
-
-// to be continued //
+| box-flex | <number> | width \\ height \\ margin \\ padding | flex() function \\ 'fr' unuit  | Extended | | |
+| box-flex-group | <integer> | //deprecated// | | N/A	 | | never implemented, agreed to be expensive and unnecessary |
+| box-lines | single \\ multiple | //missing// | | None | | http://lists.w3.org/Archives/Public/www-style/2010May/thread.html#msg172 |
+| box-ordinal-group | <integer> | flex-order | <integer> | Exact | | |	
+| box-pack | start \\ end \\ center \\ justify | flex-pack | start \\ end \\ center \\ justify | Exact	| | |
 
 ===== Issues =====
 
