@@ -20,6 +20,10 @@ This module had major changes between 2009 spec and current state. The following
 ^ Property ^ Values ^ Property ^ Values ^ ::: ^ ::: ^ ::: ^
 | display | box \\ inline-box | display | flexbox \\ inline-flexbox | Exact | | 
 | box-align | start \\ end \\ center \\ baseline \\ stretch | flex-align | auto \\ baseline | Close | | |
+| box-direction | normal \\ reverse | flex-direction | lr \\ rl \\ tb \\ bt \\ inline \\ inline-reverse \\ block \\ block-reverse | Close | | |
+| box-orient | horizontal \\ vertical \\ inline-axis \\ block-axis \\ inherit | ::: | ::: | ::: | ::: | ::: |
+
+// to be continued //
 
 ===== Issues =====
 
