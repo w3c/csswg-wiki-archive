@@ -36,6 +36,34 @@ The wrap-shape-order property controls which elements are affected by an exclusi
 
 There are dependency issues, as illustrated in example IX of the draft.
 
+=== CSS Exclusion Proposal in 3 Questions ===
+
+== How do you define an exclusion shape? ==
+
+The wrap-type property, if not none, defines how content that is affected by exclusions (i.e., content with property flow-wrap set to wrap) wraps about the exclusion. By default, the wrap/exclusion shape is the element's box. A different shape can be defined by the wrap-shape mode property. The same shape applies to both the inside content and the outside content.
+
+== What is the container model? ==
+
+Same as the default CSS model. 
+
+== What is affected by an exclusion? ==
+
+Exclusions defined in a container affect the content of that container.
+
+=== Daniel's Proposal in 3 Questions ===
+
+== How do you define an exclusion shape? ==
+
+With the region shorthand or the region-image, region-size and other region-* properties, which parallel the background-* properties. Content can be laid out inside or outside the region defined by the region-* properties.
+
+== What is the container model? ==
+
+Regular CSS containment.
+
+== What is affected by an exclusion? ==
+
+The content in an element is affected by the stacking of the region-image and the region-restriction properties defined on itself and its ancestors.
+
 ===== UC 1: simple exclusion =====
 
 One exclusion over two columns of content.
