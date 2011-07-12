@@ -34,6 +34,8 @@ For external content, the wrap-shape-order property controls which elements are 
 
 The wrap-shape-order property controls which elements are affected by an exclusion: Exclusions will only affect block elements with equal or smaller ‘wrap-shape-order’ value in the same wrapping context. A wrapping context is created by an element which sets its wrap-shape-order to a value other than auto (and that is not an exclusion).
 
+There are dependency issues, as illustrated in example IX of the draft.
+
 ===== UC 1: simple exclusion =====
 
 One exclusion over two columns of content.
