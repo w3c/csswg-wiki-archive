@@ -16,7 +16,10 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
 ===== Working Draft property mapping =====
 This module had major changes between 2009 spec and current state. The following table shows mapping from old to new syntax.
 
-// TODO //
+^     2009 draft   ^^   Current draft  ^^ Equivalence ^ Mapping ^ Notes ^
+^ Property ^ Values ^ Property ^ Values ^ ::: ^ ::: ^ ::: ^
+| display | box \\ inline-box | display | flexbox \\ inline-flexbox | Exact | | 
+| box-align | start \\ end \\ center \\ baseline \\ stretch | flex-align | auto \\ baseline | Close | | |
 
 ===== Issues =====
 
