@@ -16,6 +16,7 @@ Host dinner: ???
   * first two face-to-face meetings of 2012
   * CSS Regions issues [[spec:css3-regions|]]
   * CSS Floats / CSS Exclusions issues [[ideas:css3-floats|]]
+  * Flexbox
 
 
 ===== Participants =====
