@@ -21,6 +21,7 @@ Host dinner: ???
   * Grids
   * Gradients
   * HTML5 last call comments (deadline 3 Aug - I won't be there myself, Bert)
+  * How we should spec serialization
 
 
 ===== Participants =====
