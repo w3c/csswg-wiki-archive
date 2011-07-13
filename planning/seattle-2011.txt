@@ -29,7 +29,7 @@ Host dinner: ???
 
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^
 | Tantek Çelik | self | 2011-07-23 19:30 SEA | train to Portland for OSCON | ??? | arriving: VA 746 |
-| Elika Etemad | self | ??? | ??? | ??? | ??? |
+| Elika Etemad | self | 2011-07-23 12:04 SEA | 2011-07-31 10:00 SEA | ??? | AK 303 / AK 2637 |
 | Molly Holzschlag | self | ??? | ??? | ??? | ??? |
 | Peter Linss | HP | 2011-07-23 16:32 | 2011-07-27 11:40 | Courtyard Seattle Downtown | AA 6847 / AA 6978 |
 | Anne van Kesteren | Opera | 2011-07-23 18:53 | 2011-07-29 15:00 | ??? | KL 4746 |
