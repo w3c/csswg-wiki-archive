@@ -46,5 +46,5 @@ This page started from the initial [[http://www.w3.org/TR/2011/WD-css3-regions-2
 
 ==== Intrinsic size of regions ====
 
-See [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0629.html]|mailing list]
+See [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0629.html|mailing list]
 
