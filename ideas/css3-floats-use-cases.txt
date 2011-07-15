@@ -392,8 +392,7 @@ Repeating exclusion shape on x, y or both axes.
 	#article{
 		column-count: 2;
 		column-gap: 1em;
-		flow-wrap: wrap;
-	}
+		}
 	
 	#shape{ 
 		float:positioned;
