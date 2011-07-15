@@ -533,8 +533,7 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 		width:100%;
 		column-count: 2;
 		column-gap: 1em;
-		flow-wrap: wrap;
-	}  
+		}  
 	
 	#disjoint-article{
 		float:positioned;
@@ -544,7 +543,6 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 		color:red;
 		bottom:0;
 		     
-		wrap-type: around;  
 		wrap-image: url("disjoint-shapes-mask.png"); 
 		wrap-image-position: bottom left;
 		wrap-image-threshold: 100%;
