@@ -745,7 +745,7 @@ Reuse an exclusion shape on different elements
 		float:positioned;
 		position:absolute;
 		
-		wrap-shape: polygon(x1,y1 ... xn,yn); 
+		wrap-shape: poly(x1,y1 ... xn,yn); 
 	}
 	
 	/* with image */
