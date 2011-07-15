@@ -1275,6 +1275,7 @@ One exclusion along a text.
 
 ==== CSS3 Floats ====
 
+<code html>
 <style>
 	#article{
 		flow-wrap: wrap; 
@@ -1300,6 +1301,7 @@ One exclusion along a text.
      <p><span id="dropMany">Many</span> instances ...</p>
      <p>The text ....</p>
 </div> 
+</code>
 ==== Daniel Glazman's Proposal ====
 
 <code html>
