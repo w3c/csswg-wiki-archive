@@ -1316,22 +1316,16 @@ One exclusion along a text.
 
 <code html>
 <style>
-	#article-content{
-        flow: "body";
-		font-family: "Georgia", serif;
-	}
-
-	.region-content{
-		content: from(body); 
+	#dropMore{
 		region-restriction: outside; 
 		region-image: url(shape-for-many.png);  
 		region-position: left top;
-	}
+	}  
 </style>
 <div id="article-content">
-     <p>Many instances ...</p>
+     <p><span id="dropMore">Many</span> instances ...</p>
      <p>The text ....</p>
-</div> 
+</div>  
 </code>
 ===== Issues =====
 
