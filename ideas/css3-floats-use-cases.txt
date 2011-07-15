@@ -1314,6 +1314,25 @@ One exclusion along a text.
 
 ==== Daniel Glazman's Proposal ====
 
+<code html>
+<style>
+	#article-content{
+        flow: "body";
+		font-family: "Georgia", serif;
+	}
+
+	.region-content{
+		content: from(body); 
+		region-restriction: outside; 
+		region-image: url(shape-for-many.png);  
+		region-position: left top;
+	}
+</style>
+<div id="article-content">
+     <p>Many instances ...</p>
+     <p>The text ....</p>
+</div> 
+</code>
 ===== Issues =====
 
 ==== CSS Exclusions ====
