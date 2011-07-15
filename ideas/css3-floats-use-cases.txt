@@ -97,7 +97,8 @@ One exclusion over two columns of content.
 	 #shape{
 		position:absolute;
 		top:50%;
-		left:50%; 
+		left:50%;
+		wrap-shape-mode: around; 
 		wrap-shape-image: url(mycircle.png);
 		wrap-shape-image-threshold: 100%;
 	}
