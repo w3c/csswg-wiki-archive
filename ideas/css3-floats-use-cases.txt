@@ -1267,10 +1267,6 @@ One exclusion along a text.
 
 <code html>
 <style>
-	#article{
-		position:relative;   
-	}
-
 	/* with SVG shape */
 	#dropMany{ 
 		float:positioned;
