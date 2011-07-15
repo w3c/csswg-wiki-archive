@@ -1258,21 +1258,18 @@ One exclusion along a text.
 <code html>
 <style>
 	#article{
-		flow-wrap: wrap; 
 		position:relative;   
 	}
 
 	/* with SVG shape */
 	#dropMany{ 
 		float:positioned;
-		wrap-type: around; 
 		wrap-shape: poly(0px,0px 280px,0px 220px,125px 0px,125px);
 	}  
 	
 	/* with image */
 	 #dropMany{   
 		float:positioned;
-		wrap-type: around; 
 		wrap-image: url(shape-for-many.png);
 		wrap-image-threshold: 100%; 
 	}
