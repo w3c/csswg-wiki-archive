@@ -1181,8 +1181,7 @@ Custom-shaped container with a background image / background color.
 		 
 		background-image: url(airplane.png); 
 		background-position: center center; 
-	    	mask-box-image: url(circle.png) 100 stretch;
-		color:blue;
+	    	color:blue;
 	}
 	
 	/* with image */ 
@@ -1192,8 +1191,7 @@ Custom-shaped container with a background image / background color.
 		 
 		background-image: url(airplane.png); 
 		background-position: center center; 
-	    	mask-box-image: url(circle.png) 100 stretch;
-		color:blue;
+	    	color:blue;
 	}
 	
 	</style>
