@@ -1177,7 +1177,6 @@ Custom-shaped container with a background image / background color.
 	
 	/* with SVG shape */ 
 	#article{
-		wrap-type: none;    
 		wrap-shape: polygon(x1,y1 ...xn,yn);
 		 
 		background-image: url(airplane.png); 
@@ -1188,7 +1187,6 @@ Custom-shaped container with a background image / background color.
 	
 	/* with image */ 
 	#article{
-		wrap-type: none;    
 		wrap-image: url(circle.png);
 		wrap-image-threshold: 100%;
 		 
