@@ -1310,6 +1310,10 @@ One exclusion along a text.
 <div id="region1" class="region-content"></div>
 </code>
 
+==== CSS Exclusions ====
+
+==== Daniel Glazman's Proposal ====
+
 ===== Issues =====
 
 ==== CSS Exclusions ====
