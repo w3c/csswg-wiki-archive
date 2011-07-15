@@ -1262,52 +1262,17 @@ One exclusion along a text.
 ==== CSS Exclusions ====
 <code html>
 <style>
-	#dropCap{
+	#dropMany{
 		wrap-shape: polygon(0px,0px 280px,0px 220px,125px 0px,125px);
 		wrap-shape-mode: around;
 		wrap-shape-order: 1;
-		position: absolute;
-		top:30px;
-		left:25px;
-		width: 300px;
-		height:140px;
-		content: from(body-drop);
-	}		
-		
-	#region1{
-		width:50%;
-		height:400px;
-		margin-top:50px;
-	}
-	
-	#dropMany{
-	        flow: body-drop;
-		font-family: "Georgia", serif;
 		font-size: 95px;
-		line-height: 140px;
-		margin-top:0;
-	}
-
-	#article-content{
-                flow: "body";
-		wrap-shape-mode: content;
-		font-family: "Georgia", serif;
-		text-align: justify;
-		margin-top:0;
-	}
-
-
-	.region-content{
-		content: from(body);
 	}
 </style>
-<div id="article-content">
+<div>
      <p><span id="dropMany">Many</span> instances ...</p>
      <p>The text ....</p>
-</div>
-
-<div id="dropCap"></div>
-<div id="region1" class="region-content"></div>
+</div>     
 </code>
 
 ==== CSS Exclusions ====
