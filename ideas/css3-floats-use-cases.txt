@@ -40,7 +40,10 @@ There are dependency issues, as illustrated in example IX of the draft.
 
 == How do you define an exclusion shape? ==
 
-The wrap-type property, if not none, defines how content that is affected by exclusions (i.e., content with property flow-wrap set to wrap) wraps about the exclusion. By default, the wrap/exclusion shape is the element's box. A different shape can be defined by the wrap-shape mode property. The same shape applies to both the inside content and the outside content.
+Done by setting float:positioned property.
+
+To set a shape different than the default (the border box of the element) the wrap-shape property is used. 
+Note that if an element is not float:positioned and has wrap-shape value other than 'auto' the inner inline content of the element will still wrap into that shape.
 
 == What is the container model? ==
 
