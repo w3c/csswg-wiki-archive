@@ -1257,7 +1257,7 @@ Custom-shaped container with a background image / background color.
 One exclusion along a text.
 
 
-{{:ideas:css3-floats-use-cases:exclusions_dropcap.png?500|}}
+{{:ideas:css3-floats-use-cases:exclusions-dropcap.png?500|}}
 
 
 ===== Issues =====
