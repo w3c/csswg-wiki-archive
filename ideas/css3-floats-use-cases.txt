@@ -1265,8 +1265,6 @@ One exclusion along a text.
 	#dropMany{
 		wrap-shape: polygon(0px,0px 280px,0px 220px,125px 0px,125px);
 		wrap-shape-mode: around;
-		wrap-shape-order: 1;
-		font-size: 95px;
 	}
 </style>
 <div>
