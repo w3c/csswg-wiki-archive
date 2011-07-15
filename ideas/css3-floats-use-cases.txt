@@ -1244,7 +1244,7 @@ One exclusion along a text.
 ==== CSS Exclusions ====
 <code html>
 <style>
-	/* with SVG */
+	/* with SVG shape */
 	 #dropMany{
 		wrap-shape: polygon(0px,0px 280px,0px 220px,125px 0px,125px);
 		wrap-shape-mode: around;
