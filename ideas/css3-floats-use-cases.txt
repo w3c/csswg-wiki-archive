@@ -1252,8 +1252,12 @@ Custom-shaped container with a background image / background color.
 </html>
 </code>  
 
+===== UC 9: Drop Cap =====
 
-   
+One exclusion along a text.
+
+{{:ideas:css3-floats-use-cases:exclusions_dropcap.jpg?500|}}
+
 
 ===== Issues =====
 
