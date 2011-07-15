@@ -916,15 +916,13 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 	 
 	#article1{ 
 		position:relative;
-		flow-wrap: wrap;
 	}
 	
 	#article2{ 
 		position:relative;
 		column-count: 2;
 		column-gap: 1em;
-		color:red;
-		flow-wrap: wrap; 
+		color:red; 
 	}
 	
 	/* with SVG Shape */
@@ -932,7 +930,6 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 		float:positioned;
 		position:absolute;
 		
-		wrap-type: around;
 		wrap-shape: polygon(x1,y1 ... xn,yn); 
 	}
 	
@@ -944,7 +941,6 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 		float:positioned;
 		position:absolute;
 		
-		wrap-type: around;
 		wrap-image: url("triangle.png");
 		wrap-image-position: top left;
 		wrap-image-threshold: 100%;
