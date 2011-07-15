@@ -258,6 +258,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 		       
 		z-index:2;    
 		wrap-shape: poly(x1,y1 ... xn,yn);    
+		wrap-margin:10px;
 	}
 	
 	#shape2{
@@ -268,7 +269,8 @@ Multiple overlapping exclusions that affect each other and the content around th
 		color:blue;    
 		
 		z-index:1;
-		wrap-shape: rect(x, y, 200px 200px);
+		wrap-shape: rect(x, y, 200px 200px);    
+		wrap-margin:10px;
 	} 
 	
 	</style>
