@@ -936,7 +936,7 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 		float:positioned;
 		position:absolute;
 		
-		wrap-shape: polygon(x1,y1 ... xn,yn); 
+		wrap-shape: poly(x1,y1 ... xn,yn); 
 	}
 	
 	/* with image */
