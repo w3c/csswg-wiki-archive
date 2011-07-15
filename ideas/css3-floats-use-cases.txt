@@ -725,23 +725,20 @@ Reuse an exclusion shape on different elements
 	 
 	#article1{ 
 		position:relative;
-		flow-wrap: wrap;
-	}
+		}
 	
 	#article2{ 
 		position:relative;
 		column-count: 2;
 		column-gap: 1em;
 		color:red;
-		flow-wrap: wrap; 
-	}
+		}
 	
 	/* with SVG Shape */
 	.exclusion{
 		float:positioned;
 		position:absolute;
 		
-		wrap-type: around;
 		wrap-shape: polygon(x1,y1 ... xn,yn); 
 	}
 	
@@ -753,7 +750,6 @@ Reuse an exclusion shape on different elements
 		float:positioned;
 		position:absolute;
 		
-		wrap-type: around;
 		wrap-image: url("triangle.png");
 		wrap-image-position: top left;
 		wrap-image-threshold: 100%;
