@@ -1037,8 +1037,7 @@ Custom-shaped container with margin for outer content and padding for inner cont
 	#article{
 		column-count: 2;
 		column-gap: 1em;
-		flow-wrap: wrap;
-	}
+		}
 	
 	/* with SVG shape */
 	#shape{
@@ -1048,7 +1047,6 @@ Custom-shaped container with margin for outer content and padding for inner cont
 		left:50%;   
 		color:blue;
 		       
-		wrap-type: around; 
 		wrap-shape: poly(x1,y1 ... xn,yn);
 		wrap-margin: 15px;    
 		wrap-padding: 5px;    
