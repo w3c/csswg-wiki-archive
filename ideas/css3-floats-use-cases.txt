@@ -242,7 +242,6 @@ Multiple overlapping exclusions that affect each other and the content around th
 	#article{
 		column-count: 2;
 		column-gap: 1em;
-		flow-wrap: wrap;
 	}
 	
 	/* with SVG shape */
@@ -254,7 +253,6 @@ Multiple overlapping exclusions that affect each other and the content around th
 		color:red;
 		       
 		z-index:2;    
-		wrap-type: around; 
 		wrap-shape: poly(x1,y1 ... xn,yn);    
 	}
 	
@@ -266,7 +264,6 @@ Multiple overlapping exclusions that affect each other and the content around th
 		color:blue;    
 		
 		z-index:1;
-		wrap-type: around; 
 		wrap-shape: rect(x, y, 200px 200px);
 	} 
 	
