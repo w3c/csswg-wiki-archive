@@ -121,7 +121,6 @@ One exclusion over two columns of content.
 	#article{
 		column-count: 2;
 		column-gap: 1em;
-		flow-wrap: wrap;
 	}
 	
 	/* with SVG shape */
@@ -130,7 +129,6 @@ One exclusion over two columns of content.
 		position:absolute;
 		top:50%;
 		left:50%;
-		wrap-type: around; 
 		wrap-shape: poly(x1,y1 ... xn,yn);    
 	} 
 	
@@ -140,8 +138,6 @@ One exclusion over two columns of content.
 		position:absolute;
 		top:50%;
 		left:50%; 
-		flow-wrap: wrap;    
-		wrap-type: around; 
 		wrap-image: url(mycircle.png);
 		wrap-image-threshold: 100%; 
 	}
