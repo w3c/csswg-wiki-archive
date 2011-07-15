@@ -1177,7 +1177,7 @@ Custom-shaped container with a background image / background color.
 	
 	/* with SVG shape */ 
 	#article{
-		wrap-shape: polygon(x1,y1 ...xn,yn);
+		wrap-shape: poly(x1,y1 ...xn,yn);
 		 
 		background-image: url(airplane.png); 
 		background-position: center center; 
