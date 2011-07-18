@@ -21,6 +21,19 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/thread.html#msg37
   ;Summary : Multiline flexbox is missing from current draft
   
+2009 spec had a multiline option [[http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/#multiple]] which is not supported by current draft.
+
+  ;Proposal : 
+<code>
+  flex-lines: single | multiple
+</code>
+  ;Status: Open
+  
+==== Issue 2 ====
+  ;URL : //todo//
+  ;Summary : flex-direction property doesn't extend to more values needed for multiline flexbox
+
+  
 Multiline flexbox needs at least 4 bits to choose from directional options (can be more to tie to writing mode, but not less):
   - horizontal or vertical primary direction
   - horizontal or vertical transverse direction
@@ -38,13 +51,6 @@ Some options for adding mutiline are listed here: [[http://lists.w3.org/Archives
   flex-direction: [ forward | backward ] || reverse-stack
 </code>
 (this doesn't inlclude "line-progression")
-  ;Status: Open
-  
-==== Issue 2 ====
-  ;URL : //todo//
-  ;Summary : flex-direction property doesn't extend to more values needed for multiline flexbox
-
-See Issue 1. Resolutoin of Issue 1 depends on making it possible to specify more directoins.
 
   ;Status : Open
 
