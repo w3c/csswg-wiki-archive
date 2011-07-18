@@ -157,9 +157,29 @@ not leave a placeholder, but only use the hypothetical block and hypothetical li
 
 ==== Issue 11 ====
 
-  ;URL : //todo//
-  ;Summary : 
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0284.html
+  ;Summary : need exact definition for how anonymous flex items are created from inline content
+
+Given the following markup:
+
+  <div display:flexbox>
+    <span>
+      foo
+      <div>bar</div>
+      baz
+    </span>
+  </div>
+
+...do you get 1 or 3 flexbox items?  Whether you're operating on the box-tree or the element-tree changes the answer.  In the element-tree, the algorithm sees a single inline child, and creates a single anonymous wrapper block.  In the box-tree, the algorithm sees an anonymous block box, the <div>'s block box, then another anonymous block box, for a total of three items.
+
+You can detect the difference again with flex-pack:justify.
+
+Note that all browsers agree that table-fixup either operates on the element-tree (after pseudo-element creation) or on the box-tree before block-in-inline fixup (I can't figure out how to distinguish the two). Flexbox should be consistent.
+
   ;Proposal : 
+
+anonymous flexbox items are created in element tree. A sequence of plain text and inline elements produces one anonymous flexbox item, regardless of what is contained within inline elements (including any anonymous blocks). 
+
   ;Status : Open
 
 <html><!--
