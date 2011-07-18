@@ -51,11 +51,9 @@ Some options for adding mutiline are listed here: [[http://lists.w3.org/Archives
 
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0134.html -- best proposal so far (from Fantasai)
 
-   flex-orientation: rows | columns | horizontal | vertical
-
-   flex-wrap: no-wrap | wrap | balance*
-
-   flex-direction: [ forward | backward ] || reverse-stack
+  flex-orientation: rows | columns | horizontal | vertical
+  flex-wrap: no-wrap | wrap | balance*
+  flex-direction: [ forward | backward ] || reverse-stack
 
 (this doesn't inlclude "line-progression")
 
