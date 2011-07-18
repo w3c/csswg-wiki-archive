@@ -41,4 +41,44 @@ Some options for adding mutiline are listed here: [[http://lists.w3.org/Archives
 
   ;Status : Open
   
+==== Issue 2 ====
+  ;URL : //todo//
+  ;Summary : flex-direction property doesn't extend to more values needed for multiline flexbox
 
+See Issue 1. Resolutoin of Issue 1 depends on making it possible to specify more directoins.
+
+  ;Status : Open
+
+==== Issue 3 ====
+  ;URL : //todo//
+  ;Summary : flexbox has two ways to align in transverse directions
+  
+2009 spec had box-align propery with values similar to vertical-align in table cells (start/end/center/stretch/baseline). Current spec adds alignment via auto margins and padding, however 'flex-align' property remains, just for baseline alignment. Having two ways to align, both incomplete, is inconsistent and confusing. 
+
+It may be OK, if margin-based alignment is more powerful, having two ways to align may be justified. At this point however, margin-based alignment (using "margin:auto") doesn't provide any new ways of alignment that were not possible with flex-slign property. 
+
+Historically, it was proposed that margins can have flex values, which 
+
+Alignment via margins doesn't really add new ways of alignment that were not possible before the change
+
+
+  ;Status : Open
+
+==== Issue 4 ====
+  ;URL : //todo//
+  ;Summary : 
+  
+
+  ;Status : Open
+==== Issue 5 ====
+  ;URL : //todo//
+  ;Summary : 
+  
+
+  ;Status : Open
+==== Issue 6 ====
+  ;URL : //todo//
+  ;Summary : 
+  
+
+  ;Status : Open
