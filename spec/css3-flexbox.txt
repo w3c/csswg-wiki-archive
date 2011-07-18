@@ -65,17 +65,20 @@ Alignment via margins doesn't really add new ways of alignment that were not pos
   ;Status : Open
 
 ==== Issue 4 ====
-  ;URL : //todo//
-  ;Summary : 
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0271.html
+  ;Summary : consider 'true-center' as an align option for flexbox
   
+'true-center' has been proposed many times and has dedicated supporeters. Now that flexbox is adding anumber of special layout rules and unique behavior, including new kinds of alignment, why not include true-center? There is no need to describe why it can be very useful.
 
   ;Status : Open
+  
 ==== Issue 5 ====
   ;URL : //todo//
   ;Summary : 
   
 
   ;Status : Open
+  
 ==== Issue 6 ====
   ;URL : //todo//
   ;Summary : 
