@@ -151,7 +151,8 @@ In other words, doing this:
   </div>
 
 ...should create a flexbox with three flexbox items - the 'foo' and 'baz' elements, and an anonymous block wrapping the placeholder for 'bar'.
-
+  ;Alternative : 
+not leave a placeholder, but only use the hypothetical block and hypothetical line to determine auto position.
   ;Status : Open
 
 ==== Issue 11 ====
