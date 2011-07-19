@@ -19,7 +19,7 @@ Registration:[[http://www.w3.org/2002/09/wbs/99999/csswg-f2f-seattle-2011-07/|su
   * Flexbox
   * Writing Modes - text orientation (afternoon, JDaggett to call in)
   * Grids
-  * Gradients
+  * Gradients - Monday/Tuesday
   * HTML5 last call comments (deadline 3 Aug - I won't be there myself, Bert)
   * How we should spec serialization
 
