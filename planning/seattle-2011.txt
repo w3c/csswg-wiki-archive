@@ -11,7 +11,7 @@ Registration:[[http://www.w3.org/2002/09/wbs/99999/csswg-f2f-seattle-2011-07/|su
 
 ===== Proposed Agenda Topics ====
 
-  * CSSOM
+  * CSSOM - Monday?
   * CSS3 Text
   * first two face-to-face meetings of 2012
   * CSS Regions issues [[spec:css3-regions|]] - Monday
