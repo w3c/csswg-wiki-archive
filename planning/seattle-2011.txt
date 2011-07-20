@@ -28,7 +28,7 @@ Registration:[[http://www.w3.org/2002/09/wbs/99999/csswg-f2f-seattle-2011-07/|su
 
 
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^
-| Tantek Çelik | self | 2011-07-23 19:30 SEA | train to Portland for OSCON | ??? | arriving: VA 746 |
+| Tantek Çelik | self | 2011-07-23 19:30 SEA | 2011-07-26 17:30 train to Portland for OSCON | Concord Condominiums, Belltown | arriving: VA 746 |
 | Elika Etemad | self | 2011-07-23 12:04 SEA | 2011-07-31 10:00 SEA | ??? | AK 303 / AK 2637 |
 | Molly Holzschlag | self | 2011-07-23 18:36 SEA | 2011-07-31 SEA | Courtyard Lake Union | arriving: UA5464 leaving: UA876|
 | Peter Linss | HP | 2011-07-23 16:32 | 2011-07-27 11:40 | Courtyard Lake Union | AA 6847 / AA 6978 |
