@@ -47,13 +47,15 @@ Registration:[[http://www.w3.org/2002/09/wbs/99999/csswg-f2f-seattle-2011-07/|su
 | Sylvain Galineau | Microsoft | n/a | n/a | Home | Morning seaplane |
 | Simon Fraser | Apple | 2011-07-25 | 2011-07-26 | B&B | Train |
 | Dean Jackson | Apple | 2011-07-25 | 2011-07-26 | Courtyard Lake Union | Somehow |
-===== Share Rides from to SEA =====
+===== Transport from to SEA =====
 
 2011-07-23:
-  * Anne (18:53), Tantek (19:30), Florian (19:59) arrive around the same time - shall we share a cab from the airport to Seattle? -t
+  * Anne (18:53), Tantek (19:30), Florian (19:59) arrive around the same time - it probably makes most sense to just go hop on the light rail to our respective hotels/destinations. -t
 
 Peter will have a rental car and is available for rides from/to the airport for those with similar flight times.
 
 Molly will have a rental car and is happy to provide transport from the airport for those with similar flight times.
 
-[[http://en.wikipedia.org/wiki/Central_Link| The Central Link Light Rail]] ([[http://www.portseattle.org/seatac/ground/publictransit.shtml|airport station map]]) is direct, frequent and close to both the suggested locations (and possibly hotels). 
+==== Central Link Light Rail ====
+  * [[http://en.wikipedia.org/wiki/Central_Link| The Central Link Light Rail]] is direct, frequent and close to both the suggested locations (and possibly hotels).
+  * See [[http://www.portseattle.org/seatac/ground/publictransit.shtml|airport station map]] for detail.
