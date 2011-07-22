@@ -9,6 +9,7 @@ Room: Puget Sound
 
 Registration:[[http://www.w3.org/2002/09/wbs/99999/csswg-f2f-seattle-2011-07/|survey]]
 
+Weather Forecast: [[http://forecast.weather.gov/MapClick.php?lat=47.627&lon=-122.341&unit=1&lg=en&FcstType=text|°C]] / [[http://forecast.weather.gov/MapClick.php?lat=47.627&lon=-122.341&unit=0&lg=en&FcstType=text|°F]]
 ===== Proposed Agenda Topics ====
 
   * CSSOM - Monday?
