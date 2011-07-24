@@ -14,7 +14,7 @@ There is a companion [[ideas:css3-floats-use-cases|use cases]] page.
 
 ==== Issue A ====
 
-The use of 'wrap' in properties such as 'wrap-type' or 'wrap-mode' may be confusing because of a different meaning for wrap in the FlexBox specification ('flex-wrap' property) see Flex Box [[spec:css3-flexbox:|issues]]
+The use of 'wrap' in properties such as 'wrap-type' or 'wrap-mode' may be confusing because of a different meaning for wrap in the FlexBox specification ('flex-wrap' property) see Flex Box [[spec:css3-flexbox:#issue-1|issues]]
 ===== Resolutions =====
 [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html| Kyoto F2F June 2011, Friday]]
 
