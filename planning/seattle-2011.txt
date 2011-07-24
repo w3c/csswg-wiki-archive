@@ -14,13 +14,13 @@ Room: Puget Sound
 
 ===== Sunday =====
 ==== Morning ====
-  * first two face-to-face meetings of 2012
   * IVS Feedback
   * Flexbox
   * HTML5 last call comments (deadline 3 Aug - I won't be there myself, Bert)
   * Selectors 4 FPWD?
 
 ==== Afternoon ====
+  * first two face-to-face meetings of 2012
   * CSS3 Text
   * How we should spec serialization
   * CSS3 Conditional Rules FPWD?
