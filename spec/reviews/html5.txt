@@ -1,0 +1,11 @@
+====== Comments on HTML5 ======
+
+This page is where the CSSWG will track our comments to the HTMLWG regarding their HTML5 specification.
+
+===== current editor draft =====
+
+  * UI selectors - need to define / verify proper split of definition of UI selectors in CSS3-UI and how elements enter those states in HTML5
+  * :ltr :rtl - how much of these should be in Selectors 4 vs HTML5?
+  * :cue :past :future - do we need a new CSS module for these?
+  * normative references to CSS editors drafts. e.g.
+    * ... to be provided
