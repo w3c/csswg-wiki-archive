@@ -9,5 +9,5 @@
 ===== Avoid =====
 Existing/expected events we should avoid:
   * MLK (17 JAN, 16 JAN - 20 JAN)
-  * Presidents day (please add date range)
+  * Presidents day (20 FEB, 20 FEB - 24 FEB)
   * 2012-03-09 ... 2012-03-18 SXSW
