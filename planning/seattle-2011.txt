@@ -10,9 +10,9 @@ Room: Puget Sound
 **Registration:** [[http://www.w3.org/2002/09/wbs/99999/csswg-f2f-seattle-2011-07/|survey]]
 
 **Weather:** [[http://forecast.weather.gov/MapClick.php?lat=47.627&lon=-122.341&unit=1&lg=en&FcstType=text|°C]] / [[http://forecast.weather.gov/MapClick.php?lat=47.627&lon=-122.341&unit=0&lg=en&FcstType=text|°F]]
-===== Agenda ====
+====== Agenda ======
 
-====== Sunday ======
+===== Sunday =====
 ==== Morning ====
   * first two face-to-face meetings of 2012
   * IVS Feedback
@@ -27,7 +27,7 @@ Room: Puget Sound
   * View Mode Media Feature, Media Queries and MQ test suite
   * Testing
 
-====== Monday ======
+===== Monday =====
 ==== Morning ====
   * CSSOM
   * CSS Regions issues [[spec:css3-regions|]]
@@ -40,11 +40,11 @@ Room: Puget Sound
   * CSS Positioning - new ED submission
 
 
-====== Tuesday ======
+===== Tuesday =====
   * CSS/SVG Joint Meeting
 
 
-===== Participants =====
+====== Participants ======
 
 
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^
