@@ -2,6 +2,7 @@
 
 ===== Proposed =====
   * 2012-01-30...2012-02-03  -- Paris, France
+    * Tantek would prefer 2012-01-29...31 (due to conflict with IxDA)
   * 2012-05-07...11 Meeting -- Bucharest, Romania
   * 2012-08-13...17 Meeting -- San Diego, USA
   * 2012-11 TPAC -- Lyon, France
@@ -9,8 +10,9 @@
 ===== Avoid =====
 Existing/expected events we should avoid:
   * 2012-01-16...20 due to 2012-01-17 MLK Holiday
+  * 2012-02-01...04 due to IxDA (in Dublin)
   * 2012-02-20...24 due to 2012-02-20 Presidents day
-  * 2012-03-09...18 due to SXSW
+  * 2012-03-09...18 due to SXSW (in Austin)
 
 ===== FYI =====
   * 2012-04-16...20: WWW2012 in Lyon
