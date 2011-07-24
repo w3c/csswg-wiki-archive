@@ -89,7 +89,7 @@ See [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0682.html|Possible O
 ==== Issue 4 : Copying Flow Content ====
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0521.html
-  ;Summary: Should we allow copying content in a flow instead of moving it in the flow?
-  ;Discussion: this brings complexity and the benefits do not seem to offset that drawback (more complex DOM access, CSS OM View and computed style issues).
-  ;Proposal: in the first version of CSS Regions, only allows moving content to a flow, not copying.
+  ;Summary : Should we allow copying content in a flow instead of moving it in the flow?
+  ;Discussion : this brings complexity and the benefits do not seem to offset that drawback (more complex DOM access, CSS OM View and computed style issues).
+  ;Proposal : in the first version of CSS Regions, only allows moving content to a flow, not copying.
   
