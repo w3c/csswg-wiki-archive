@@ -93,3 +93,9 @@ See [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0682.html|Possible O
   ;Discussion : this brings complexity and the benefits do not seem to offset that drawback (more complex DOM access, CSS OM View and computed style issues).
   ;Proposal : in the first version of CSS Regions, only allows moving content to a flow, not copying.
   
+==== Issue 5 : API to find which region displays an element in a named flow ====
+
+   ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0379.html
+   ;Summary : should we add an API to find out which region displays an element in a named flow?
+   ;Discussion : this has been proposed by Alex and seems like a nice functionality. 
+   ;Proposal : create an ACTION to have a specific API proposal.
