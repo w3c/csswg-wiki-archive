@@ -21,6 +21,7 @@
   * Clarify that first formatted line is not triggered when preceded by a block http://wiki.csswg.org/spec/css2.1#issue-268
   * [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0849.html|UA hint pseudo-element selectors]] ''::typo'', ''::match'' etc.
   * [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0603.html|empty input selector]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2007Nov/0108.html|more of the user action pseudo-classes]]
 
 ==== Ideas superseded by other features ====
   * relationship selectors, e.g.:
