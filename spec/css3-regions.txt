@@ -42,7 +42,7 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 
 ===== Issues to Resolve with the CSS WG =====
 
-==== Issue 1 ====
+==== Issue 1 : content: from-flow(<flow-name>) v.s. from-flow: <flow-name>====
   ;URL : [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0413.html|WG Conference Call, [CSSWG] Minutes and Resolutions 2011-06-15]]
   ;Summary : content: from-flow(<flow-name>) v.s. from-flow: <flow-name>
   ;Proposal : content: from-flow(<flow-name>)
