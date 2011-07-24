@@ -14,17 +14,18 @@ Room: Puget Sound
 
 ====== Sunday ======
 ====== Monday ======
-  * CSSOM - Monday?
-  * CSS Regions issues [[spec:css3-regions|]] - Monday
-  * CSS Floats / CSS Exclusions issues [[ideas:css3-floats|]] - Monday
-  * Gradients - Monday/Tuesday
+  * CSSOM
+  * CSS Regions issues [[spec:css3-regions|]]
+  * CSS Floats / CSS Exclusions issues [[ideas:css3-floats|]]
+  * Gradients (or Tuesday?)
+  * Writing Modes - text orientation (afternoon, JDaggett to call in)
+
 ====== Tuesday ======
 
 ====== TBD ======
   * CSS3 Text
   * first two face-to-face meetings of 2012
   * Flexbox
-  * Writing Modes - text orientation (afternoon, JDaggett to call in)
   * Grids
   * HTML5 last call comments (deadline 3 Aug - I won't be there myself, Bert)
   * How we should spec serialization
