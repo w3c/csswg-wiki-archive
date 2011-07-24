@@ -10,29 +10,38 @@ Room: Puget Sound
 **Registration:** [[http://www.w3.org/2002/09/wbs/99999/csswg-f2f-seattle-2011-07/|survey]]
 
 **Weather:** [[http://forecast.weather.gov/MapClick.php?lat=47.627&lon=-122.341&unit=1&lg=en&FcstType=text|°C]] / [[http://forecast.weather.gov/MapClick.php?lat=47.627&lon=-122.341&unit=0&lg=en&FcstType=text|°F]]
-===== Proposed Agenda Topics ====
+===== Agenda ====
 
 ====== Sunday ======
+==== Morning ====
+  * first two face-to-face meetings of 2012
+  * IVS Feedback
+  * Flexbox
+  * HTML5 last call comments (deadline 3 Aug - I won't be there myself, Bert)
+  * Selectors 4 FPWD?
+
+==== Afternoon ====
+  * CSS3 Text
+  * How we should spec serialization
+  * CSS3 Conditional Rules FPWD?
+  * View Mode Media Feature, Media Queries and MQ test suite
+  * Testing
+
 ====== Monday ======
+==== Morning ====
   * CSSOM
   * CSS Regions issues [[spec:css3-regions|]]
   * CSS Floats / CSS Exclusions issues [[ideas:css3-floats|]]
   * Gradients (or Tuesday?)
+
+==== Afternoon ====
   * Writing Modes - text orientation (after lunch, JDaggett to call in)
+  * Grids
+  * CSS Positioning - new ED submission
+
 
 ====== Tuesday ======
-
-====== TBD ======
-  * CSS3 Text
-  * first two face-to-face meetings of 2012
-  * Flexbox
-  * Grids
-  * HTML5 last call comments (deadline 3 Aug - I won't be there myself, Bert)
-  * How we should spec serialization
-  * Selectors 4 FPWD?
-  * CSS3 Conditional Rules FPWD?
-  * CSS Positioning - new ED submission
-  * View Mode Media Feature, Media Queries and MQ test suite
+  * CSS/SVG Joint Meeting
 
 
 ===== Participants =====
