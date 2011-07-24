@@ -56,7 +56,7 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
   
 **cons**:
            * Need to define the precedent between the content property and the flow-from property. 
-           * Concerns about the cascade implications of having from-flow: none (fantasai)
+           * Concerns about the cascade implications of having from-flow: none
 
 
 **pros**:
