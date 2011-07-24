@@ -63,6 +63,7 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
            * Separate concepts (content for content belonging to the element, flow-from for getting a segment of content from the flow)
 
 
+
    ;Recommendation: use from-flow: <flow-name>;
    
    This requires no alteration to the definition of 'content', clearly separates the concept of flow and the concept of generated content.
