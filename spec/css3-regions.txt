@@ -51,10 +51,10 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 
   ;Proposal : from-flow: <flow-name>; 
   
-         * cons:
+    * cons:
            * Need to define the precedent between the content property and the flow-from property. 
            * Concerns about the cascade implications of having flow-from: none (fantasai)
-       * pros:
+    * pros:
            * Separate concepts (content for content belonging to the element, flow-from for getting a segment of content from the flow)
 
 ==== Issue 2 ====
