@@ -69,9 +69,9 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
    This requires no alteration to the definition of 'content', clearly separates the concept of flow and the concept of generated content.
 ==== Issue 2 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/0629.html
-  ;Summary : Define intrinsic size of regions (currently zero, but there isn't a consensus that it's he best choice)
+  ;Summary : Define intrinsic size of regions (currently zero, but there isn't a consensus that it's the best choice)
 
-There are different options for behavior of regions of undefined size, with differnt pros and cons. Options include
+There are different options for behavior of regions of undefined size, with different pros and cons. Options include:
   * no intrinsic size (follow box model or normal flow; that usually has default height of zero)
   * same intrinsic size as replaced elements (300x150)
   * fall back to replaced elemetn intrinsic size (300x150) but only if left undefined by normal block box model
