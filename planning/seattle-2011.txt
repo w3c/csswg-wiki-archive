@@ -38,6 +38,7 @@ Room: Puget Sound
   * Writing Modes - text orientation (after lunch, JDaggett to call in)
   * Grids
   * CSS Positioning - new ED submission
+  * Flexbox followup
 
 
 ===== Tuesday =====
