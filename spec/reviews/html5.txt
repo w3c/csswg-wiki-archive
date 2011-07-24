@@ -11,3 +11,4 @@ This page is where the CSSWG will track our comments to the HTMLWG regarding the
   * normative references to CSS editors drafts. e.g.
     * ... to be provided
   * case-insensitive attribute value matching; http://lists.w3.org/Archives/Public/www-style/2011Jul/0415.html
+  * rendering depends on video { object-fit: contain; }
