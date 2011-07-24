@@ -12,3 +12,4 @@ This page is where the CSSWG will track our comments to the HTMLWG regarding the
     * ... to be provided
   * case-insensitive attribute value matching; http://lists.w3.org/Archives/Public/www-style/2011Jul/0415.html
   * rendering depends on video { object-fit: contain; }
+  * for defining <font> could be useful if CSS has font-size:xxx-large for a font size 50% larger than xx-large
