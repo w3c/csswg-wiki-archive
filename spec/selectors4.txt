@@ -7,7 +7,6 @@
   * ability to [[http://www.w3.org/TR/2000/WD-css3-selectors-20001005/#subject-pseudo|choose subject in the selector]] ([[http://lists.w3.org/Archives/Public/www-style/2000Oct/0182.html|alternative syntax]]) ([[http://lists.w3.org/Archives/Public/www-style/2002May/0018.html|discussion of syntaxes]]) – ''$'' marker
   * ''[[http://lists.w3.org/Archives/Public/www-style/2009Mar/0146.html|:nth-match(<selector>, <an+b>)]]''
   * ''[[http://lists.w3.org/Archives/Public/www-style/2003Apr/0146.html|:matches()]]'' pseudo-class ([[http://lists.w3.org/Archives/Public/www-style/2000Oct/0182.html|alternate]]) – '':matches()''
-  * [[http://lists.w3.org/Archives/Public/www-style/2007Nov/0108.html|more of the user action pseudo-classes]]
 ==== Ideas to consider ====
 
   * pseudo-attribute selectors, e.g. to select cells that are in the second column of a table: ''%%[#column=2]%%'' – this example done with '':nth-column(2)''
