@@ -69,6 +69,7 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
    ;Recommendation: use from-flow: <flow-name>;
    
    This requires no alteration to the definition of 'content', clearly separates the concept of flow and the concept of generated content.
+ 
 ==== Issue 2 : Auto-sizing of regions ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/0629.html
   ;Summary : Define intrinsic size of regions (currently zero, but there isn't a consensus that it's the best choice)
