@@ -100,7 +100,7 @@ See [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0682.html|Possible O
    ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0379.html
    ;Summary : should we add an API to find out which region displays an element in a named flow?
    ;Discussion : this has been proposed by Alex and seems like a nice functionality. 
-   ;Proposal : create an ACTION to have a specific API proposal.
+   ;Proposal : create an ACTION to have a specific API in the next draft.
    
 ==== Issue 6 : Compatibility with CSS Grid Layout Module Section 7.2 ====
 
