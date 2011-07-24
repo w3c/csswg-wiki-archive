@@ -89,7 +89,7 @@ Alignment via margins doesn't really add new ways of alignment that were not pos
 
 flexbox spec says nothing about what happens when flexbox intersects page bounaries. it is reasonable to expect that flexbox is used at high level of page layout (as to positiong side-by-side content columns or headers/footnotes), then it is critical that pages using flexbox layout print reasonably.  
 
-  ;Status : Open
+  ;Status : Action Alex: propose
   
 ==== Issue 6 ====
   ;URL : //todo//
