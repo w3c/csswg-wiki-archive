@@ -114,3 +114,10 @@ See [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0682.html|Possible O
     ;Summary : the current model is that any element that has a) a layout it applies to its 'content' and b) a 'content' source (either the children or a flow segment). It would be simpler to restrict this model and specify that regions are elements with 'display-inside: block' only. 
     ;Discussion : the current model allows chaining a block, a table and a flex box, for example, and that seem both complex and not most useful.
     ;Proposal : modify the region model as described in the summary. If a flow-from property is set on an element that is not 'display-inside: block', then the element is not added to the chain of regions and has no effect.
+    
+==== Issue 8 : flow or flow-into ? ====
+
+    ;URL : none
+    ;Summary : the current specification uses the 'flow' property to direct an element to a named flow. With the proposal to use 'flow-from' (see Issue 1), it would make more sense to keep the properties symmetrical. Also, the prefix (here 'flow') is usually reserved for a possible shorthand (as in 'border' and 'border-top' for example).
+    ;Proposal : rename 'flow' to 'flow-into' if the 'flow-from' proposal is adopted.
+    
