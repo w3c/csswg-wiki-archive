@@ -80,5 +80,5 @@ See [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0682.html|Possible O
 ==== Issue 3 : Regions Break ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0241.html
   ;Summary : Should we add a new type of break for content in regions or should we specify which breaks should be honored when flowing content in regions?
-  ;Discussion: see URL and response from Alex. The general idea is that it would probably be helpful to be able to define a region 'type' for content that is getting laid out and honor breaks for that container 'type'. So if a region has 'flow-container-type' set to column, then it will honor column breaks in the content it lays out.
+  ;Discussion : see URL and response from Alex. The general idea is that we should be able to define a region 'type' for content that is getting laid out and honor breaks for that container 'type'. So if a region has 'flow-container-type' set to column, then it will honor column breaks in the content it lays out.
   ;Proposal: [[http://lists.w3.org/Archives/Member/w3c-css-wg/2011JulSep/0107.html|See Alex's proposal]] 
