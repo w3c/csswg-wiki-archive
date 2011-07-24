@@ -8,9 +8,9 @@
 
 ===== Avoid =====
 Existing/expected events we should avoid:
-  * MLK (17 JAN, 16 JAN - 20 JAN)
-  * Presidents day (20 FEB, 20 FEB - 24 FEB)
-  * 2012-03-09 ... 2012-03-18 SXSW
+  * 2012-01-16...20 due to 2012-01-17 MLK Holiday
+  * 2012-02-20...24 due to 2012-02-20 Presidents day
+  * 2012-03-09...18 due to SXSW
 
 ===== FYI =====
   * 2012-04-16...20: WWW2012 in Lyon
