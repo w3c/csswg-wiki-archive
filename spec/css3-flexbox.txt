@@ -32,8 +32,11 @@ or
 <code>
   flex-lines: single | multiple
 </code>
-  ;Status: Open
-  
+  ;Status: Resolved: 
+<code>
+  flex-wrap: no-wrap | wrap
+</code>
+('balance') is not included to the spec yet. Can keep it as an issue until there is a strong need for it.
 ==== Issue 2 ====
   ;URL : //todo//
   ;Summary : flex-direction property doesn't extend to more values needed for multiline flexbox
