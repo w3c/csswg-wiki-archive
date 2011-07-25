@@ -5,7 +5,7 @@ This page contains the issues that are not yet listed in the specification and t
 ===== Action Items =====
 
 ===== Issues =====
-===== Issue 1:  =====
+==== Issue 1:  ====
 
 Changing the positioning edge. Or changing the containing block.
 
@@ -13,7 +13,7 @@ There are issues with circular references. Need a way to handle this.
 
 Original proposal: http://www.xanthir.com/blog/b48H0
 
-===== Issue 2: =====
+==== Issue 2: ====
 
 Vertical centering using position.
 
