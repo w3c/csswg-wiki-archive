@@ -32,4 +32,4 @@ Similar position solution to Fixed but relative to an element and where it is in
 
 ==== Issue 5: ====
 
-z-index needs to acocunt for CSS3-floats
+z-index needs to account for CSS3-floats
