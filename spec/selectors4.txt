@@ -11,7 +11,8 @@
 ==== Ideas to consider ====
 
   * pseudo-attribute selectors, e.g. to select cells that are in the second column of a table: ''%%[#column=2]%%'' – this example done with '':nth-column(2)''
-  * numeric attribute selectors, e.g. ''%%[height>2]%%'', ''%%[count<=5]%%'', ''%%[balance<0]%%'', ''%%[#row>1]%%''
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0817.html|numeric attribute selectors]], e.g. ''%%[height>2]%%'', ''%%[count<=5]%%'', ''%%[balance<0]%%'', ''%%[#row>1]%%''
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Jul/0415.html|case sensitivity in substring attribute selectors]]
   * ''%%::quote-start%%'' and ''%%::quote-end%%'', to match characters with the Quotation_Mark property that are direct children of the element and that are  immediately inside the start and end (respectively) of the element, ignoring White_Space characters. (This would help a lot with ''<q>'' in HTML5.)
   * ''[[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:placeholder]]'' - matches form elements displaying placeholder text. This allows web developers and theme designers to customize the appearance of placeholder text, which is a light grey color by default. This may not work well if you've changed the background color of your form fields to be a similar color, for example, so you can use this pseudo-class to change the placeholder text color.
   * ''[[http://lists.w3.org/Archives/Public/www-style/2008Nov/0466.html|::window]]'' pseudo-element
