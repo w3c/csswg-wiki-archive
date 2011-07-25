@@ -32,10 +32,10 @@ Room: Puget Sound
   * CSSOM
   * CSS Regions issues [[spec:css3-regions|]]
   * CSS Floats / CSS Exclusions issues [[ideas:css3-floats|]]
-  * Gradients (or Tuesday?)
 
 ==== Afternoon ====
   * Writing Modes - text orientation (after lunch, JDaggett to call in)
+  * Gradients (or Tuesday?)
   * Grids
   * CSS Positioning - new ED submission
   * Flexbox followup
