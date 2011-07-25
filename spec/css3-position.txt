@@ -18,3 +18,7 @@ Original proposal: http://www.xanthir.com/blog/b48H0
 Vertical centering using position.
 
 Proposal from Tantek and Ian: http://lists.w3.org/Archives/Member/w3c-css-wg/2002JulSep/0296.html 
+
+==== Issues 3: ====
+
+Need to add in logic to all the positioning logic to account for vertical layouts.
