@@ -1,3 +1,11 @@
+  * CSSOM needs to define how Link:, <?xml-stylesheet?>, <link rel=stylesheet>, and <style> interact with the fetching algorithm, the event loop, and the parsers from HTML5.
+  * <?xml-stylesheet?> could do with a rewrite for integration with CSSOM; do 'load' and 'error' events fire on it?
+  * CSSOM should have a mechanism for taking elements full-screen
+  * it has been proposed that CSSOM have a mechanism for keeping track of when expensive-to-compute areas of the document (e.g. a canvas) are actually being rendered.
+    * Add a pair of events that fire when an element is hidden and unhidden
+    * Add a pair of events that fire when an element is scrolled into and out of the view
+
+
 Transition scenarios the CSSOM has to cope with somehow:
 
   * Property changes into a longhand property. E.g. some css3 text stuff..? Sometimes this only partially happens. E.g. with 'overflow' the situation is weird iirc.
