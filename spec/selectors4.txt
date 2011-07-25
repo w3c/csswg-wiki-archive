@@ -13,8 +13,7 @@
   * pseudo-attribute selectors, e.g. to select cells that are in the second column of a table: ''%%[#column=2]%%'' – this example done with '':nth-column(2)''
   * numeric attribute selectors, e.g. ''%%[height>2]%%'', ''%%[count<=5]%%'', ''%%[balance<0]%%'', ''%%[#row>1]%%''
   * ''%%::quote-start%%'' and ''%%::quote-end%%'', to match characters with the Quotation_Mark property that are direct children of the element and that are  immediately inside the start and end (respectively) of the element, ignoring White_Space characters. (This would help a lot with ''<q>'' in HTML5.)
-  * [[http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2008-October/016544.html|dynamic values selector]] - already handled by ::value pseudo-element in CSS3-UI.
-  * [[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:placeholder]] - matches form elements displaying placeholder text. This allows web developers and theme designers to customize the appearance of placeholder text, which is a light grey color by default. This may not work well if you've changed the background color of your form fields to be a similar color, for example, so you can use this pseudo-class to change the placeholder text color.
+  * ''[[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:placeholder]]'' - matches form elements displaying placeholder text. This allows web developers and theme designers to customize the appearance of placeholder text, which is a light grey color by default. This may not work well if you've changed the background color of your form fields to be a similar color, for example, so you can use this pseudo-class to change the placeholder text color.
   * ''[[http://lists.w3.org/Archives/Public/www-style/2008Nov/0466.html|::window]]'' pseudo-element
   * [[http://lists.w3.org/Archives/Public/www-style/2010Jan/0308.html|limited descendant combinator]] ([[http://www.onderhond.com/blog/work/missing-css-combinator|more info]]) – ''foo>bar, foo>:not(bar)>bar, …'' comes hardly close
   * [[http://lists.w3.org/Archives/Public/www-style/2010Aug/0063.html|Better definition of ::first-letter]], see also note in Selectors L3
@@ -32,3 +31,4 @@
     * to select map elements associated with an image: ''%%img // map%%'' – opposite of ''input''–''label'' situation, ''img /usemap/ map''
     * to select arbitrary associated elements: ''%%x[href#] // y[id#]%%'' – always any ID in target, ''x /href/ y''
   * [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0339.html|only-child-parent]] Most use cases for the parent selector care only about the only child. This doesn't have the same perf implications as a general parent selector. – solved with '':matches()'' and ''$''
+  * [[http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2008-October/016544.html|dynamic values selector]] - already handled by ''::value'' pseudo-element in CSS3-UI.
