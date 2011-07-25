@@ -12,7 +12,39 @@ There is a companion [[ideas:css3-floats-use-cases|use cases]] page.
 
 ===== Issues =====
 
-==== Issue A ====
+===== Issue 1: Processing model =====
+ 
+Do one pass to position the exclusions. Then, do another pass with the exclusions present.
+
+===== Issue 2: Exclusion trigger (what makes an element become an exclusion?) =====
+
+Triggered with a single property that can specify that an inside or inside wrap-shape exists (or both), and how the content flows around the shape (for outside wrapping). Something like:
+
+wrap-mode: inside|[outside+[left|right|both]|[all+[left+right+both]
+ 
+===== Issue 3: Containment model =====
+ 
+Use the containing block model of CSS.
+
+===== Issue 4: Enabling or disabling exclusions =====
+
+Rename flow-wrap to something different like 'external exclusions allowed'.
+ 
+===== Issue 5: Ordering of exclusions =====
+ 
+Same as z-index. Should we have a separate property or not?
+
+Proposal: use the same z-index property because having both z-index and an additional property may create issues and create surprising results.
+ 
+===== Issue 6: Positioning of exclusions =====
+ 
+As defined in CSS2.
+ 
+===== Issue 7: Shrink wrap of container with floats having wrap-shapes (inside) =====
+ 
+The shrink wrap is done with the float's box.
+
+===== Issue 8: should we use something else than 'wrap'? =====
 
 The use of 'wrap' in properties such as 'wrap-type' or 'wrap-mode' may be confusing because of a different meaning for wrap in the FlexBox specification ('flex-wrap' property) see Flex Box [[spec:css3-flexbox:#issue-1|issues]].
 ===== Resolutions =====
