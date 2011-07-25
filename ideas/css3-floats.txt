@@ -20,8 +20,10 @@ Do one pass to position the exclusions. Then, do another pass with the exclusion
 
 Triggered with a single property that can specify that an inside or inside wrap-shape exists (or both), and how the content flows around the shape (for outside wrapping). Something like:
 
-wrap-mode: inside|[outside+[left|right|both]|[all+[left+right+both]
+wrap-mode: default|none|inside|[outside-[left|right|both]|[all-[left+right+both]
+initial: default
  
+Need to define default wrap-mode to be compatible with current float behavior. For example, a 'float: left' should have its default computed wrap-mode be 'outside-right', a 'float: right' would be 'outside-left'.
 ===== Issue 3: Containment model =====
  
 Use the containing block model of CSS.
