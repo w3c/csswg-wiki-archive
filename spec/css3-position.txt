@@ -22,3 +22,9 @@ Proposal from Tantek and Ian: http://lists.w3.org/Archives/Member/w3c-css-wg/200
 ==== Issues 3: ====
 
 Need to add in logic to all the positioning logic to account for vertical layouts.
+
+==== Issue 4: ====
+
+Similar position solution to Fixed but relative to an element and where it is in relation to the page. If the containing block scrolls the element stays fixed. If the containing block scolls off the page the element goes with the containing block.
+
+  * [[http://perldoc.perl.org/perlrun.html|position: persistent]] (scroll it)
