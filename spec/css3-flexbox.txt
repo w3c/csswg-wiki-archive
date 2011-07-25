@@ -98,6 +98,21 @@ Any missing directions are taken from the writing mode. Forwards for
 a particular dimension is matching the block or inline direction
 (whichever) is appropriate.
 
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jul/0422.html
+
+Option 7.3 (one property)
+
+    flex-flow: [ rows | columns | horizontal | vertical ] || 
+               [ normal | reverse | ltr | rtl | ttb | btt ] ||
+               [ wrap | wrap-reverse | wrap-ltr | wrap-rtl | wrap-ttb | wrap-btt ]
+
+Option 7.4
+
+    flex-flow: [ rows | columns | horizontal | vertical ] || 
+               [ normal | reverse | ltr | rtl | ttb | btt ] ||
+               [ wrap | wrap-reverse | wrap-left | wrap-right | wrap-down| wrap-up ]
+
+
   ;Status : Open
 
 ==== Issue 3 ====
