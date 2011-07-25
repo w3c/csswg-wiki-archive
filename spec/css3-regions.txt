@@ -44,6 +44,26 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 
 ===== Issues to Resolve with the CSS WG =====
 
+==== Issue 4 : Copying Flow Content ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0521.html
+  ;Summary : Should we allow copying content in a flow instead of moving it in the flow?
+  ;Discussion : this brings complexity and the benefits do not seem to offset that drawback (more complex DOM access, CSS OM View and computed style issues).
+  ;Proposal : in the first version of CSS Regions, only allows moving content to a flow, not copying.
+  
+==== Issue 5 : API to find which region displays an element in a named flow ====
+
+   ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0379.html
+   ;Summary : should we add an API to find out which region displays an element in a named flow?
+   ;Discussion : this has been proposed by Alex and seems like a nice functionality. 
+   ;Proposal : create an ACTION to have a specific API in the next draft.
+   
+==== Issue 6 : Compatibility with CSS Grid Layout Module Section 7.2 ====
+
+    ;URL : http://www.w3.org/TR/2011/WD-css3-grid-layout-20110407/#explicitly-defined-grid-cells
+    ;Summary : there should be a way to make grid cells regions. If the issue on grid cell is resolved as suggested in the section 7.2 issue, then it will be possible.
+    ;Proposal : have a RESOLUTION on section 7.2 issue that allows compatibility with CSS Regions.
+
 ==== Issue 1 : content: from-flow(<flow-name>) v.s. flow-from: <flow-name>====
   ;URL : [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0413.html|WG Conference Call, [CSSWG] Minutes and Resolutions 2011-06-15]]
   ;Summary : content: from-flow(<flow-name>) v.s. flow-from: <flow-name>
@@ -71,6 +91,13 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
    This requires no alteration to the definition of 'content', clearly separates the concept of flow and the concept of generated content.
    
  
+==== Issue 8 : flow or flow-into ? ====
+
+    ;URL : none
+    ;Summary : the current specification uses the 'flow' property to direct an element to a named flow. With the proposal to use 'flow-from' (see Issue 1), it would make more sense to keep the properties symmetrical. Also, the prefix (here 'flow') is usually reserved for a possible shorthand (as in 'border' and 'border-top' for example).
+    ;Proposal : rename 'flow' to 'flow-into' if the 'flow-from' proposal is adopted.
+    
+    
 ==== Issue 2 : Auto-sizing of regions ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/0629.html
   ;Summary : Define intrinsic size of regions (currently zero, but there isn't a consensus that it's the best choice)
@@ -81,43 +108,16 @@ See [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0682.html|Possible O
 
   ;Proposal : Option c in the above proposal.
   
-==== Issue 3 : Regions Break ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0241.html
-  ;Summary : Should we add a new type of break for content in regions or should we specify which breaks should be honored when flowing content in regions?
-  ;Discussion : see URL and response from Alex. The general idea is that we should be able to define a region 'type' for content that is getting laid out and honor breaks for that container 'type'. So if a region has 'flow-container-type' set to column, then it will honor column breaks in the content it lays out.
-  ;Proposal: [[http://lists.w3.org/Archives/Member/w3c-css-wg/2011JulSep/0107.html|See Alex's proposal]] 
-  
-  
-==== Issue 4 : Copying Flow Content ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0521.html
-  ;Summary : Should we allow copying content in a flow instead of moving it in the flow?
-  ;Discussion : this brings complexity and the benefits do not seem to offset that drawback (more complex DOM access, CSS OM View and computed style issues).
-  ;Proposal : in the first version of CSS Regions, only allows moving content to a flow, not copying.
-  
-==== Issue 5 : API to find which region displays an element in a named flow ====
-
-   ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0379.html
-   ;Summary : should we add an API to find out which region displays an element in a named flow?
-   ;Discussion : this has been proposed by Alex and seems like a nice functionality. 
-   ;Proposal : create an ACTION to have a specific API in the next draft.
-   
-==== Issue 6 : Compatibility with CSS Grid Layout Module Section 7.2 ====
-
-    ;URL : http://www.w3.org/TR/2011/WD-css3-grid-layout-20110407/#explicitly-defined-grid-cells
-    ;Summary : there should be a way to make grid cells regions. If the issue on grid cell is resolved as suggested in the section 7.2 issue, then it will be possible.
-    ;Proposal : have a RESOLUTION on section 7.2 issue that allows compatibility with CSS Regions.
-    
 ==== Issue 7 : CSS Regions Model ====
 
     ;URL: http://lists.w3.org/Archives/Public/www-style/2011Jun/0594.html
     ;Summary : the current model is that any element that has a) a layout it applies to its 'content' and b) a 'content' source (either the children or a flow segment). It would be simpler to restrict this model and specify that regions are elements with 'display-inside: block' only. 
     ;Discussion : the current model allows chaining a block, a table and a flex box, for example, and that seem both complex and not most useful.
     ;Proposal : modify the region model as described in the summary. If a flow-from property is set on an element that is not 'display-inside: block', then the element is not added to the chain of regions and has no effect. Having a 'display-inside' property would be help :-)
-    
-==== Issue 8 : flow or flow-into ? ====
 
-    ;URL : none
-    ;Summary : the current specification uses the 'flow' property to direct an element to a named flow. With the proposal to use 'flow-from' (see Issue 1), it would make more sense to keep the properties symmetrical. Also, the prefix (here 'flow') is usually reserved for a possible shorthand (as in 'border' and 'border-top' for example).
-    ;Proposal : rename 'flow' to 'flow-into' if the 'flow-from' proposal is adopted.
+==== Issue 3 : Regions Break ====
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0241.html
+  ;Summary : Should we add a new type of break for content in regions or should we specify which breaks should be honored when flowing content in regions?
+  ;Discussion : see URL and response from Alex. The general idea is that we should be able to define a region 'type' for content that is getting laid out and honor breaks for that container 'type'. So if a region has 'flow-container-type' set to column, then it will honor column breaks in the content it lays out.
+  ;Proposal: [[http://lists.w3.org/Archives/Member/w3c-css-wg/2011JulSep/0107.html|See Alex's proposal]] 
     
