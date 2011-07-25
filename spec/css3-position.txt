@@ -1,0 +1,8 @@
+===== CSS3 Positioning =====
+
+This page contains the issues that are not yet listed in the specification and the resolutions for issues that were in the spec. but got resolved.
+
+===== Action Items =====
+
+===== Issues =====
+===== Issue 1:  =====
