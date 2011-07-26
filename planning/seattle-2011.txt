@@ -43,7 +43,8 @@ Room: Puget Sound
 
 ===== Tuesday =====
   * CSS/SVG Joint Meeting
-  * CSS3-UI / CSS/SVG overlap and harmonization (e.g. 'pointer-events' - see [[http://wiki.csswg.org/spec/css3-ui#issue-4|issue 4 onward]].) - Tantek
+    * CSS3-UI / CSS/SVG overlap and harmonization (e.g. 'pointer-events' - see [[http://wiki.csswg.org/spec/css3-ui#issue-4|issue 4 onward]].) - Tantek
+    * ...
 
 ====== Participants ======
 
