@@ -13,8 +13,8 @@ The CSSWG co-chairs will select from this list and other sources to create the a
 
 === Technical ===
 
-  ;CSS3 Text
-  : [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0745.html|Review of Issues Part I]]
+  ;CSS3 Images - gradient issues
+  : [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0060.html]]
 
 ===== Backlog =====
 
