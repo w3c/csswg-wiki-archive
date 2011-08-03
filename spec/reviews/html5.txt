@@ -98,7 +98,7 @@ It's a nice feature: "seamless" transclusion is obviously more attractive than t
 
 ==== Proposed Text for the Comment ====
 
-The section on the 'seamless' attribute attempts to specify the sizing of seamless iframes, but it does so in an incomplete and somewhat incorrect manner.  For example, it is unclear 
+The section on the 'seamless' attribute attempts to specify the sizing of seamless iframes, but it does so in an incomplete and somewhat incorrect manner.
 
 This section should instead delegate to CSS, where we should define how this sort of sizing works.
 
