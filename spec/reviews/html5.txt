@@ -31,7 +31,19 @@ We've added '':past'' and '':future'' to the Selectors 4 draft for you, btw. Nex
 
 ==== Normative references to CSS editors' drafts ====
 
-...
+   fantasai: CSSWG handles editors' drafts differently from HTMLWG, ours are
+             not the official WG-endorsed copy
+   <anne> no not the CSSWG
+   <anne> some people in the CSSWG
+   <anne> and some treat them pretty much the same
+   hober: Should we maybe expedite some updates to WD?
+   plinss: Yeah. We're happy to publish updates as soon as the editor says
+           they have something to update
+   hober: I think that would be useful to communicate in the comments
+   plinss: I'll write that one up
+   plinss: Should I provide a list?
+   fantasai: could do, list them and the URLs they should be updated to
+   ACTION plinss: Write comment on referencing CSSWG editors' drafts
 
 ==== Automatic height for transcluded elements (SEAMLESS attribute) ====
 
