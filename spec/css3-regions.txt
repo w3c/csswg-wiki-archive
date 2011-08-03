@@ -41,6 +41,22 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
     * ✔ agreed to add event on changes to regionOverflow and flowRanges
 ===== Action Items =====
 
+[[http://www.w3.org/Style/CSS/Tracker/actions/350|ACTION 350]]
+  * Alex: to add an api to find out which element is in a named flow
+
+[[http://www.w3.org/Style/CSS/Tracker/actions/351|ACTION 351]]
+  * Vincent: rework the issue of resolved sizes for regions and come up with an alt solution for the group along with use cases and examples
+
+[[http://www.w3.org/Style/CSS/Tracker/actions/352|ACTION 352]]
+  * Vincent: for this version we are limiting regions to be block containers; will
+               add a note that this may be expanded in future levels
+
+[[http://www.w3.org/Style/CSS/Tracker/actions/354|ACTION 354]]
+  * Vincent: Come up with a proposal for breaks either a page-break or a general type of break or both and related use cases
+
+[[http://www.w3.org/Style/CSS/Tracker/actions/356|ACTION 356]]
+  * Vincent: Make the default value for wrap-mode be auto
+
 [[http://www.w3.org/Style/CSS/Tracker/actions/330|ACTION 330]]
   * Vincent: Regions spec. editors to specify a model for breaking flow content across areas that accounts for regions, columns and pages. Build on paged media and propose behavior for nested flows breaks. See the [[spec:css3-regions:breaks-use-cases|breaks use cases]] page.
 ✔ [[http://lists.w3.org/Archives/Public/www-style/2011Jul/0241.html|Vincent's action email]]  
