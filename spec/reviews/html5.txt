@@ -12,9 +12,22 @@ With regards to '':ltr'' and '':rtl'', these should be updated to '':dir()'' per
 
 We've added '':past'' and '':future'' to the Selectors 4 draft for you, btw. Next time please ask us if you need a selector defined. We might not get to it right away, but at least we will be aware that we need to draft a spec for it.
 
-==== ::cue and coordination ====
+==== WebVTT rendering, ::cue, and coordination ====
 
-...
+   <sylvaing> did we log daniel's comment on 10.4.2: "This section is
+              intended to be moved to its own CSS module once an
+              editor is found to run with it."
+   plinss: ::cue pseudo-element, :past/:future pseudo-classes
+   plinss: We do have the general issue of HTML going off and defining
+           pseudo-classes and pseudo-elements without talking to us about it.
+           We need a general statement that they shouldn't do that.
+   fantasai: Don't have a draft for ::cue, not intending to add it as we're
+             defining pseudo-elements in their own related modules
+   plinss: I think we can file it as a general issue that this isn't defined
+           in CSS, there's been no communication to the CSSWG about it, it
+           needs to be defined somewhere in CSS but we need to work together
+           on it at some point in the future.
+  ACTION plinss: Write up selectors coordination issue wrt ::cue et al.
 
 ==== Normative references to CSS editors' drafts ====
 
