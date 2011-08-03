@@ -6,7 +6,8 @@ This page is where the CSSWG will track our comments to the HTMLWG regarding the
 
   * UI selectors - need to define / verify proper split of definition of UI selectors in CSS3-UI and how elements enter those states in HTML5
   * :ltr :rtl - should be :dir per Selectors 4; filed http://www.w3.org/Bugs/Public/show_bug.cgi?id=13346
-  * ::cue, ::cue(selector), :past, :future - do we need a new CSS module for these? http://lists.w3.org/Archives/Public/www-style/2011Jul/0413.html
+  * ::cue, ::cue(selector)
+  * :past, :future - do we need a new CSS module for these? http://lists.w3.org/Archives/Public/www-style/2011Jul/0413.html
   * proposal DISABLED attribute on STYLE and LINK elements
   * normative references to CSS editors drafts. e.g.
     * ... to be provided
