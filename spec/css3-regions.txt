@@ -16,7 +16,7 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 [[http://krijnhoetmer.nl/irc-logs/css/20110725|Seattle F2F July 2011, Monday]]
 
   * ✔ RESOLVED: Copying Flow Content is not something we are looking at right now.
-  * RESOLVED: Change the grid to integrate with CSS regions content through regular elements
+  * ✔ RESOLVED: Change the grid to integrate with CSS regions content through regular elements
   * ✔ RESOLVED: Stick to content property and content: from-flow(<flow-name>)
   * ✔ RESOLVED: change flow to flow-smthing
   * RESOLVED: rename content: from-flow to content: flow-from
