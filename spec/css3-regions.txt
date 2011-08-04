@@ -54,9 +54,6 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 [[http://www.w3.org/Style/CSS/Tracker/actions/354|ACTION 354]]
   * Vincent: Come up with a proposal for breaks either a page-break or a general type of break or both and related use cases
 
-[[http://www.w3.org/Style/CSS/Tracker/actions/356|ACTION 356]]
-  * Vincent: Make the default value for wrap-mode be auto
-
 ✔  [[http://www.w3.org/Style/CSS/Tracker/actions/330|ACTION 330]]
   * Vincent: Regions spec. editors to specify a model for breaking flow content across areas that accounts for regions, columns and pages. Build on paged media and propose behavior for nested flows breaks. See the [[spec:css3-regions:breaks-use-cases|breaks use cases]] page.
 
