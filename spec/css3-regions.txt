@@ -20,8 +20,8 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
   * ✔ RESOLVED: Stick to content property and content: from-flow(<flow-name>)
   * ✔ RESOLVED: change flow to flow-smthing
   * ✔ RESOLVED: rename content: from-flow to content: flow-from
-  * RESOLVED: for this version [initial version of CSS Regions] we are limiting regions to be block containers
-  * RESOLVED: we need breaks that are specific to containers they are part of.
+  * ✔ RESOLVED: for this version [initial version of CSS Regions] we are limiting regions to be block containers
+  * ✔ (no changes needed) RESOLVED: we need breaks that are specific to containers they are part of.
 
 [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html|Kyoto F2F June 2011, Saturday]]
 
