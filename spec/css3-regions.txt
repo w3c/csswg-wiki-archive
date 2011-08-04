@@ -13,7 +13,7 @@ References:
 
 This section keeps track of the CSS WG resolutions regarding the CSS Regions specification. A checkmark indicates that the resolution has been integrated at least in the latest editor draft.
 
-h3. [[http://krijnhoetmer.nl/irc-logs/css/20110725|Seattle F2F July 2011, Monday]]
+==== [[http://krijnhoetmer.nl/irc-logs/css/20110725|Seattle F2F July 2011, Monday]] ====
 
   * ✔ RESOLVED: Copying Flow Content is not something we are looking at right now.
   * ✔ RESOLVED: Change the grid to integrate with CSS regions content through regular elements
@@ -23,7 +23,7 @@ h3. [[http://krijnhoetmer.nl/irc-logs/css/20110725|Seattle F2F July 2011, Monday
   * ✔ RESOLVED: for this version [initial version of CSS Regions] we are limiting regions to be block containers
   * ✔ (no changes needed) RESOLVED: we need breaks that are specific to containers they are part of.
 
-h3. [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html|Kyoto F2F June 2011, Saturday]]
+==== [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html|Kyoto F2F June 2011, Saturday]] ====
 
   * ✔ RESOLVED: Switch content-order to take <integer>
   * <html><span style="color:gray">Discussed syntax for pushing to/pulling from named flows.</span></html>
