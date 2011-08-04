@@ -42,7 +42,7 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 ===== Action Items =====
 
 [[http://www.w3.org/Style/CSS/Tracker/actions/350|ACTION 350]]
-  * Alex: to add an api to find out which element is in a named flow
+  * <html><span style="color:red;font-weight:bold;">Alex</span></html>: to add an api to find out which element is in a named flow
 
 [[http://www.w3.org/Style/CSS/Tracker/actions/351|ACTION 351]]
   * Vincent: rework the issue of resolved sizes for regions and come up with an alt solution for the group along with use cases and examples
