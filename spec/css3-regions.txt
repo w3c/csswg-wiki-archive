@@ -68,7 +68,7 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 See: [[http://lists.w3.org/Archives/Public/www-style/2011Jul/0241.html|Vincent's action email]]  
 See: [[http://lists.w3.org/Archives/Member/w3c-css-wg/2011JulSep/0107.html|Alex's proposal]]
 
-✔ <html><span style="color:#8f8;font-weight:bold;">Vincent</span></html>: document the from-flow v.s. content issue and create proposal.
+✔ <html><span style="color:#6c6;font-weight:bold;">Vincent</span></html>: document the from-flow v.s. content issue and create proposal.
 See Issue 1 below.
 
 ===== Issues to Resolve with the CSS WG =====
