@@ -58,6 +58,10 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 [[http://www.w3.org/Style/CSS/Tracker/actions/354|ACTION 354]]
   * <html><span style="color:red;font-weight:bold;">Vincent</span></html>: Come up with a proposal for breaks either a page-break or a general type of break or both and related use cases
 
+
+
+====== Completed or Duplicated Actions ======
+
 ✔  [[http://www.w3.org/Style/CSS/Tracker/actions/330|ACTION 330]]
   * <html><span style="color:gray;font-weight:bold;">Vincent (duplicate of ACTION-354)</span></html>: Regions spec. editors to specify a model for breaking flow content across areas that accounts for regions, columns and pages. Build on paged media and propose behavior for nested flows breaks. See the [[spec:css3-regions:breaks-use-cases|breaks use cases]] page.
 
@@ -66,9 +70,6 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 
   * <html><span style="color:lime;font-weight:bold;">Vincent</span></html>: document the from-flow v.s. content issue and create proposal.
 ✔ See below.
-====== Done ======
-
-===== To Do ====
 
 ===== Issues to Resolve with the CSS WG =====
 
