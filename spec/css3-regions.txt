@@ -49,7 +49,7 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
   * <html><span style="color:crimson;font-weight:bold;">Alex</span></html>: to add an api to find out which element is in a named flow
 
 [[http://www.w3.org/Style/CSS/Tracker/actions/351|ACTION 351]]
-  * <html><span style="color:crimso;font-weight:bold;">Vincent</span></html>: rework the issue of resolved sizes for regions and come up with an alt solution for the group along with use cases and examples
+  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rework the issue of resolved sizes for regions and come up with an alt solution for the group along with use cases and examples
 
 [[http://www.w3.org/Style/CSS/Tracker/actions/354|ACTION 354]]
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: Come up with a proposal for breaks either a page-break or a general type of break or both and related use cases
