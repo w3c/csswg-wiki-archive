@@ -31,6 +31,7 @@ We noted that “float” should have been better tied to “position” because
 
 
   * [[http://www.w3.org/Style/CSS/Tracker/actions/356|ACTION 356]] Vincent: Make the default value for wrap-mode be auto
+  * Vincent: Create a stub specification for CSS Floats.
   * Rossen. Write up the processing model for exclusions.
   * Editor. Note that the wrapping side (left, right, both) is always 'auto' for floats.
   * Editor. single trigger and wrap-shape propertyl. With wrap-shape: outside([shape [auto|both|left|right])|auto) inside(shape)
