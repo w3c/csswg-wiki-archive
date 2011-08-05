@@ -29,10 +29,8 @@ We noted that “float” should have been better tied to “position” because
 
 ===== Action Items =====
 
-[[http://www.w3.org/Style/CSS/Tracker/actions/356|ACTION 356]]
-  * Vincent: Make the default value for wrap-mode be auto
 
-
+  * [[http://www.w3.org/Style/CSS/Tracker/actions/356|ACTION 356]] Vincent: Make the default value for wrap-mode be auto
   * Editor. single trigger and wrap-shape propertyl. With wrap-shape: outside([shape [auto|both|left|right])|auto) inside(shape)
   * Editor. wrapping options are auto, left, right, both and none. Note that top and bottom is assumed for all values.
   * Editor. Add that we may consider having multiple shapes to define the inside and ouside shapes separately.
