@@ -148,7 +148,36 @@ Example 2:
 
 
 
+==== Reference Links ====
 
+<code html>
+<link rel="match" href="RELATIVE_PATH_TO_REFERENCE_FILE" />
+<link rel="mismatch" href="RELATIVE_PATH_TO_REFERENCE_FILE" />
+</code>
+
+The reference link elements are used in [[test/reftest|reftests]] and provide the list of reference file(s) that the test should be compared to.
+
+  * "match" references must be files that render identically to the test, but use an alternate means to do so
+  * Multiple "match" references are used when the test can match **any** of the reference files
+    * If a test requires multiple "match" references that all need to match (for example, when a reference may fail in the same way the test does), then the reference should link to the additional "match" references
+  * "mismatch" references are files that render differently than the test file, a test may have any number of "mismatch" references
+  * Reference files may be dedicated reference files, images, or other tests
+
+<note example> 
+Example 1:
+<code html>
+<link rel="match" href="green-box-ref.xht" />
+</code>
+
+Example 2:
+<code html>
+<link rel="match" href="green-box-ref.xht" />
+<link rel="match" href="blue-box-ref.xht" />
+<link rel="mismatch" href="red-box-notref.xht" />
+<link rel="mismatch" href="red-box-notref.xht" />
+</code>
+
+</note>
 
 
 
