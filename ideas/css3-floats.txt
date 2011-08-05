@@ -33,7 +33,7 @@ We noted that “float” should have been better tied to “position” because
   * Vincent: Make the default value for wrap-mode be auto
 
 
-
+  * Editor. wrapping options are auto, left, right, both and none. Note that top and bottom is assumed for all values.
   * Editor. Add that we may consider having multiple shapes to define the inside and ouside shapes separately.
   * Editor. Add that we should have a 'wrap-shape-outline' or a 'stroke' property to let the user draw the outline of a wrap-shape
   * Editor. Clarify what happens when there are separate sub-shapes in an exclusion.
