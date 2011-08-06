@@ -31,7 +31,7 @@ See the [[http://www.w3.org/Style/CSS/Test/#css3-color|released]] and [[http://d
 
 
 ==== Issue 2011-07-03-3 ====
-  ; Summary : Define container or update prose
+  ; Summary : Clarify 3.2 'treated'
   ; Raised by : Anton Prowse
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0025.html 
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0094.html
