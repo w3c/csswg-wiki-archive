@@ -2,7 +2,7 @@
   * [[http://www.w3.org/TR/css3-selectors/|Selectors 3 PR]]
   * [[http://dev.w3.org/csswg/selectors4/|Selectors 4 ED]]
 ==== Ideas considered in Editor’s Draft (ED) ====
-  * [[ideas:current-url-selector|Current URL Selector (with directory levels)]] – '':links-here()''
+  * [[ideas:current-url-selector|Current URL Selector (with directory levels)]] – '':local-link()''
   * IDREF combinators: ''[[http://lists.w3.org/Archives/Public/www-style/2000Jan/0152.html|/attr/]]'' syntax, [[http://lists.w3.org/Archives/Public/www-style/2005Oct/0173.html|'':friend(attribute, selector)'']] syntax — ''/attr/'' syntax chosen
   * [[http://lists.w3.org/Archives/Public/www-style/2008Mar/0193.html|:rtl and :ltr pseudo-classes]] (based on source ''dir'' attributes) (or maybe '':dir(rtl|ltr)''?) – '':dir()'' chosen
   * ability to [[http://www.w3.org/TR/2000/WD-css3-selectors-20001005/#subject-pseudo|choose subject in the selector]] ([[http://lists.w3.org/Archives/Public/www-style/2000Oct/0182.html|alternative syntax]]) ([[http://lists.w3.org/Archives/Public/www-style/2002May/0018.html|discussion of syntaxes]]) – ''$'' marker
