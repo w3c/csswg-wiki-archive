@@ -113,6 +113,8 @@ Option 7.4
                [ wrap | wrap-reverse | wrap-left | wrap-right | wrap-down| wrap-up ]
 
 
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jul/0487.html
+  
 Option 8:
 
 <code>
@@ -126,8 +128,9 @@ flex-flow:
     [ wrap | wrap-reverse | wrap-left | wrap-right ]?
 </code>
 
-  ;Status : Open
-
+  ;Status : Editors prefer Option 8. WG to review
+  ;Action : Alex to update the draft; review with WG. 
+  
 ==== Issue 3 ====
   ;URL : //todo//
   ;Summary : flexbox has two ways to align in transverse direction - confusing and still incomplete. Try to make it consistent with Grid and/or Table.
