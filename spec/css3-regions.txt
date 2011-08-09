@@ -73,7 +73,17 @@ See Issue 1 below.
 
 ===== New Issues =====
 
+==== Issue 9: Absolute Positioning in Regions ====
 
+  ;Summary : The current spec. says that the containing block for an absolutely positioned element in a flow is the 'current' region box. This is problematic because it means that the containing block for absolutely positioned elements can only be computed after laying out content that precedes the element in the flow.
+
+  ;Proposal : Modify the definition of containing block for positioned elements in a flow to match what CSS 3 Paged media says in section 3 (http://www.w3.org/TR/css3-page/#page-box-page-rule):
+  
+  "The edges of the page area on the first page establish the rectangle that is the initial containing block of the document."
+  
+  For CSS regions, we should have:
+  
+  "The edges of first regions in a region chain associated to a named flow establish the rectangle that is the initial containing block of the named flow."
 ===== Issues to Resolve with the CSS WG =====
 
 ==== Issue 2 : Auto-sizing of regions ====
