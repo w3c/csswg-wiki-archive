@@ -83,6 +83,13 @@ The edges of the page area on the first page establish the rectangle that is the
 For CSS regions, we should have:
   
 The edges of first regions in a region chain associated to a named flow establish the rectangle that is the initial containing block of the named flow.
+
+==== Issue 10: Should the regionLayoutUpdate event by Sync or Async? ====
+
+  ;Summary : The current spec. says that regionLayoutUpdate event is Sync (see (http://www.w3.org/TR/DOM-Level-3-Events/#sync-async). Should the event be made Async.
+  ;Discussion : In DOM Level 3 events, all events are Sync. except 'error', 'load', 'wheel' and 'scroll' which are Async. Not clear what guides making an event Sync or Async.
+  ;Proposal : None yet.
+  
 ===== Issues to Resolve with the CSS WG =====
 
 ==== Issue 2 : Auto-sizing of regions ====
