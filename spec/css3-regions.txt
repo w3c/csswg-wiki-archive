@@ -71,6 +71,9 @@ See: [[http://lists.w3.org/Archives/Member/w3c-css-wg/2011JulSep/0107.html|Alex'
 ✔ <html><span style="color:#6c6;font-weight:bold;">Vincent</span></html>: document the from-flow v.s. content issue and create proposal.
 See Issue 1 below.
 
+===== New Issues =====
+
+
 ===== Issues to Resolve with the CSS WG =====
 
 ==== Issue 2 : Auto-sizing of regions ====
