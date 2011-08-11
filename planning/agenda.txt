@@ -11,10 +11,12 @@ The CSSWG co-chairs will select from this list and other sources to create the a
 
 === Publication / Review Requests ===
 
+  ;Selectors 4 FPWD Date
+
 === Technical ===
 
-  ;CSS3 Images - gradient issues
-  : [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0060.html]]
+  ;Regions - display-inside vs content: flow-from() etc
+  : [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0266.html]]
 
 ===== Backlog =====
 
