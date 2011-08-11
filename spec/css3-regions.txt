@@ -97,6 +97,12 @@ The edges of first regions in a region chain associated to a named flow establis
   ;Discussion : Since the '::first-line' pseudo-element is layout based, it seems difficult to allow moving it to a flow and raises questions (e.g., after the first-line has been moved to the named flow, what happens to the new 'first line'? Should it also be moved to the named flow?).
   ;Proposal : Add wording in the spec. saying that the 'flow-into' property is not allowed on pseudo-elements.
   
+==== Issue 12: Should we allow multi-column elements to be regions? ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Aug/0264.html
+  ;Summary : should we allow the following: a magazine articles with regions galore on the first page, and then it switches to simple multi-column layout from page 2 and onwards
+  ;Proposal : Modify the spec. to allow multi-column as regions.
+
 ===== Issues to Resolve with the CSS WG =====
 
 ==== Issue 2 : Auto-sizing of regions ====
