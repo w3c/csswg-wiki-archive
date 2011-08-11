@@ -313,7 +313,7 @@ Option 2: Option 1 plus a new set value for 'flex-flow' -- [ align-up | align-ri
 ==== Issue 15 ====
 
   ;URL : //todo//
-  ;Summary : including margins and paddings into flex algorithm (with flex 1 for 'auto') is incomplete. Would it make sense to allow flex() function on margins and paddings?
+  ;Summary : Treatment of margins and paddings in flex algorithm (with flex 1 for 'auto') is incomplete: no flex() function, no min/max values. Would it make sense to allow flex() function on margins and paddings? How about min/max?
   ;Proposal : TBD
   ;Status : Open
 
