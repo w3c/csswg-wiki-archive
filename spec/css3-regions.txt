@@ -103,6 +103,12 @@ The edges of first regions in a region chain associated to a named flow establis
   ;Summary : should we allow the following: a magazine articles with regions galore on the first page, and then it switches to simple multi-column layout from page 2 and onwards
   ;Proposal : Modify the spec. to allow multi-column as regions.
 
+==== Issue 13: Should we rename content-order to region-order? ====
+
+  ;Summary : the current draft uses the 'content-order' property to sequence regions in a region chain. It seems that the 'region-order' property would be more appropriate.
+  ;Proposal : rename the 'content-order' property to 'region-order'
+  
+  
 ===== Issues to Resolve with the CSS WG =====
 
 ==== Issue 2 : Auto-sizing of regions ====
