@@ -320,7 +320,7 @@ Option 2: Option 1 plus a new set value for 'flex-flow' -- [ align-up | align-ri
 ==== Issue 16 ====
 
   ;URL : //todo//
-  ;Summary : need a solid use case for treating "margin:auto" as "margin:flex(0px 1 0)" in flexbox
+  ;Summary : need a solid use case for treating "margin:auto" as "margin:flex(0px 1 0)" along main axis in flexbox
   ;Proposal : TBD
   ;Status : Open
 
