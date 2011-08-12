@@ -314,6 +314,11 @@ Option 2: Option 1 plus a new set value for 'flex-flow' -- [ align-up | align-ri
 
   ;URL : //todo//
   ;Summary : Treatment of margins and paddings in flex algorithm (with flex 1 for 'auto') is incomplete: no flex() function, no min/max values. Would it make sense to allow flex() function on margins and paddings? And how about min/max?
+  
+I don't have really strong feelings about it, but it seems that flexible margins should either have full support of flexibility or not try to get a poor-man's version at all.
+
+An idea: what if 'auto' margins on main axis were used after flex sizing and before Pack? Would it make sense? Would it help any of use cases?
+
   ;Proposal : TBD
   ;Status : Open
 
