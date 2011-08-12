@@ -94,6 +94,22 @@ See Issue 1 below.
 ===== New Issues =====
 
 
+==== Issue 13: Should we rename content-order to region-order? ====
+
+  ;Summary : the current draft uses the 'content-order' property to sequence regions in a region chain. It seems that the 'region-order' property would be more appropriate.
+  ;Proposal : rename the 'content-order' property to 'region-order'
+  
+
+==== Issue 14: ::region-lines pseudo-selector ====
+
+   ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0518.html">
+   ;Description : there is concern (see link) that the ''first-line'' precedent is underspecified and that more specification is needed in addition to referencing the existing precedent.
+   ;Proposal : address this issue through testing and implementation feedback. Keep specification as is for now.
+   
+===== Issues to Resolve with the CSS WG =====
+
+
+
 ==== Issue 10: Should the regionLayoutUpdate event by Sync or Async? ====
 
   ;Summary : The current spec. says that regionLayoutUpdate event is Sync (see (http://www.w3.org/TR/DOM-Level-3-Events/#sync-async). Should the event be made Async.
@@ -112,21 +128,7 @@ See Issue 1 below.
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Aug/0264.html
   ;Summary : should we allow the following: a magazine articles with regions galore on the first page, and then it switches to simple multi-column layout from page 2 and onwards
   ;Proposal : Modify the spec. to allow multi-column as regions.
-
-==== Issue 13: Should we rename content-order to region-order? ====
-
-  ;Summary : the current draft uses the 'content-order' property to sequence regions in a region chain. It seems that the 'region-order' property would be more appropriate.
-  ;Proposal : rename the 'content-order' property to 'region-order'
   
-
-==== Issue 14: ::region-lines pseudo-selector ====
-
-   ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0518.html">
-   ;Description : there is concern (see link) that the ''first-line'' precedent is underspecified and that more specification is needed in addition to referencing the existing precedent.
-   ;Proposal : address this issue through testing and implementation feedback. Keep specification as is for now.
-   
-===== Issues to Resolve with the CSS WG =====
-
 ==== Issue 9: Absolute Positioning in Regions ====
 
   ;Summary : The current spec. says that the containing block for an absolutely positioned element in a flow is the 'current' region box. This is problematic because it means that the containing block for absolutely positioned elements can only be computed after laying out content that precedes the element in the flow.
