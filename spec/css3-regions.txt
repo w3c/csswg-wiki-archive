@@ -70,6 +70,11 @@ L-Action-10
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rework ::region-before and ::region-after. Align with text-overflow.
 
 
+L-Action-11
+  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: write up new proposal based on Rossen's 'option 1' discussion (see attached document) and raise as issue with the working group.
+
+
+
 ====== Completed or Duplicated Actions ======
 
 L-Action-6
