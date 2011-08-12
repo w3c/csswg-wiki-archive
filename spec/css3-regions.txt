@@ -63,6 +63,9 @@ L-Action-7
 
 ====== Completed or Duplicated Actions ======
 
+L-Action-6
+  * <html><span style="color:#6c6;font-weight:bold;">Rossen</span></html>: respond to Alex's email on auto sizing.
+
 L-Action-1
   * ✔  <html><span style="color:#6c6;font-weight:bold;">Vincent</span></html>: remove all issues from draft and move to wiki.
 
