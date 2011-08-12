@@ -71,7 +71,7 @@ L-Action-10
 
 
 L-Action-11
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: write up new proposal based on Rossen's 'option 1' discussion (see attached document) and raise as issue with the working group.
+  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: write up new proposal based on Rossen's 'option 1' discussion (see attached {{:auto-sizing.pdf|}} document) and raise as issue with the working group.
 
 
 
