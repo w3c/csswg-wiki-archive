@@ -561,7 +561,7 @@ Save the page (e.g. in Firefox, choose the "Save Page as..." menu item from the 
 
 ==== Using a command-line script ====
 
-If you're on a Linux-based system, or another system with curl on it, just save the following line to a file somewhere in your path:
+If you're on a system with curl on it, just save the following line to a file somewhere in your executable path:
 
 ''curl -u USERNAME:PASSWORD -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html''
 
