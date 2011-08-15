@@ -545,6 +545,8 @@ That means that that file was "U"pdated with a full download.
 
 ===== Step 6 - Post Process CSS Src =====
 
+==== Using the web form ====
+
 Go to:
 
 http://www.w3.org/Style/Group/css3-src/bin/postprocess-file
@@ -556,6 +558,18 @@ Choose (*) Generated HTML - radio button
 Click the (Submit) button
 
 Save the page (e.g. in Firefox, choose the "Save Page as..." menu item from the "File" menu, be sure to choose "Web page, HTML only" from the "Save as" popup), name the file ''Overview.html'' (without the quotes), and save it right next your ''Overview.src.html'' - you'll likely be replacing an older version, that's ok, go ahead and confirm (command-R in the replace dialog).
+
+==== Using a command-line script ====
+
+If you're on a Linux-based system, or another system with curl on it, just save the following line to a file somewhere in your path:
+
+''curl -u USERNAME:PASSWORD -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html''
+
+(Replace the USERNAME:PASSWORD with your W3C username and password, the same that you would enter when visiting the web form linked above.)
+
+Mark the file as executable, then just run it from within the folder of the spec you're working on.  It will automatically submit ''Overview.src.html'' to the post-processor and save the results to  ''Overview.html''.
+
+==== Committing ====
 
 Now when you check in your ''Overview.src.html'' file be sure to also check in ''Overview.html'' to keep them sync.
 
