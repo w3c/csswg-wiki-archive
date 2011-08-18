@@ -12,8 +12,7 @@ Whatever way is settled on, this should *NOT* take away the user's ability to st
 
 ===== 1. Do nothing =====
 
-Bert argues that this isn't an issue for CSS to worry about; it's solely a UI issue.  Browsers should do better at communicating with the user about their choices when printing, and the consequences of such.
-
+Bert argues that this isn't an issue for CSS to worry about; it's solely a UI issue.  Browsers should do better at communicating with the user about their choices when printing, and the consequences of such.  As the conclusions section at the end notes, solutions 2-6 below are too polluted to use, and solution 7 is subject to future pollution. We already have a mechanism for expressing author intent for print (media="print") so it's up to the UI to present the user a way of determining whether that stylesheet is reasonable and meets their printing needs.
 ==== Objections ====
 
 No browser has yet found a decent way of communicating this.  It's not clear that most users would care even if great effort was spent on making it easy to see the consequences.  As such, it's still valuable for the author to provide the browser with hints about what's important on a page.
