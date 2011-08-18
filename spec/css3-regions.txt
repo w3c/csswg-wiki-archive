@@ -129,8 +129,15 @@ See Issue 1 below.
    
 ==== Issue 16: Scrolling behavior for split blocks ====
 
-   ;Description : what happens to scroll overflow for blocks that are split across regions/
-   ;Proposal : none yet.
+   ;Description : what happens to scroll overflow for blocks that are split across regions.
+   ;Options : could either say that scrollable regions cannot be broken or that a scrollbar only appears on the second segment.
+   ;Proposal : scroll blocks are not splittable.
+   
+==== Issue 17: Behavior of broken floats ====
+
+   ;Description : what happens if a float is broken across regions of different width? In particular, what happens if the float fragment on a second (or third) region, is in the middle of the region (x-axis)? How does that interact with subsequent floats? How does that interact with elements and clear behavior?
+   ;Proposal : disallow breaking floats across regions. They overflow.
+   
    
 ===== Issues to Resolve with the CSS WG =====
 
