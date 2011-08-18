@@ -85,7 +85,9 @@ waste-ink: try | _avoid_
 
 ==== Objections ====
 
-(I haven't heard any; people who object to this option seem to do so because they like another option better. Please edit with objections if you have them.)
+This property may end up being polluted by authors applying it too widely, such that browsers end up ignoring it again.
+
+Several of the property names are clearly print-specific, while it would be nice to make this applicable to other devices with different display economies as well.
 
 ==== Variants ====
 
@@ -101,3 +103,8 @@ Mikko Rantalainen suggests handling this through a color-profile mechanism, alon
 ==== Objections ====
 
 This seems orthogonal to the other color-profile values.  Normally, color-profiles apply to *all* colors in the page, and dictate what to do when the device encounters a color that it can't render.  This feature instead applies to particular *uses* of color, and dictates what to do when the device encounters a color that it doesn't *want* to render.
+
+
+====== Conclusions ======
+
+Solutions 2, 3, 4, 5, and 6 seem unworkable due to pollution or other flaws.  Solution 8 seems unlikely to be the best answer to the problem.  Solution 1 seems incomplete; several people believe this is a useful semantic to express.  This leaves only some variant of solution 7.
