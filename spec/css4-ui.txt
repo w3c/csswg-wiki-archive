@@ -39,7 +39,8 @@ Consider incorporating a 'focusable' property (like in SVG)
 http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr
 
 ==== more selectors ====
-  * [[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:placeholder]]
+  * [[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:placeholder]] pseudo-class for when an input element is in the state of showing its placeholder text
+  * [[https://developer.mozilla.org/en/CSS/%3a%3a-moz-progress-bar ::progress-bar]] pseudo-element for selecting and styling the area of an HTML &lt;progress&gt; element that represents the amount of progress that has happened so far. This lets you, for example, change the color of progress bars.
   * see http://wiki.csswg.org/spec/selectors4#ideas-to-consider for more.
 
 ===== dropped css3 features =====
