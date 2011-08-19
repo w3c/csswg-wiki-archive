@@ -77,6 +77,19 @@ L-Action-11
 L-Action-12
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: add a note that the overflow property works as usual on all regions in case there is an overflow (e.g., borders and characters).
 
+L-Action-13
+  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rename content-order to region-order.
+
+L-Action-14
+  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: update the spec. to specify that regions establish a BFC.
+
+L-Action-15
+  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: add note that floats and scrolling divs are not breakable (and therefore overflow their region).
+
+
+
+
+
 
 
 
