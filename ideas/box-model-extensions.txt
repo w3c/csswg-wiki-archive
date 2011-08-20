@@ -7,10 +7,10 @@ As defined at http://www.xanthir.com/blog/b4810.
 Would grant the ability to specify an 'aspect ratio' for the a box, locking its width and height into a definite ratio.  This can currently be partially hacked by exploiting some minor details of how percentages work in padding, but having this be explicit is better and allows a more thorough treatment.
 
 ===== Size Keywords =====
-The 'auto' keyword for width and height resolve to interesting values based on context, which can't be duplicated elsewhere.  For example, tables and floats resolve 'auto' using the "shrinkwrap" algorithm, while normal blocks use a "fill" algorithm to fill their parent as much as possible.
+The ''auto'' keyword for width and height resolve to interesting values based on context, which can't be duplicated elsewhere.  For example, tables and floats resolve ''auto'' using the "shrinkwrap" algorithm, while normal blocks use a "fill" algorithm to fill their parent as much as possible.
 
 These behaviors should be explicitly named so they can be used generally:
- * 'fill': The normal width of a display:block element, where it fills its parent.
- * 'min-content': The width of a box if you take all optional linebreak opportunities.
- * 'max-content': The width of a box if you take no optional linebreak opportunities.
- * 'fit-content': min(max-content, fill)
+  * ''fill'': The normal width of a display:block element, where it fills its parent.
+  * ''min-content'': The width of a box if you take all optional linebreak opportunities.
+  * ''max-content'': The width of a box if you take no optional linebreak opportunities.
+  * ''fit-content'': ''min(max-content, fill)''
