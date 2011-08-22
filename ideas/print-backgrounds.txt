@@ -44,6 +44,7 @@ Again, this is a non-trivial change to the meaning of media queries.
 
 This signal is already hopelessly polluted.  Frameworks like HTML5Boilerplate include a print stylesheet by default.  Many template-driven sites include a print stylesheet in the template, but the authors of the page contents may not have thought about printing at all.
 
+Also, this signal is incomplete. Authors may well have designed for print and only used ''media="screen"'' to exclude certain properties from printing. This signal, however, is likely even more polluted than ''media="print"''.
 ==== 2.1., 3.1, 4.1 Honor styles when/with print color type set ====
 The approaches relying on the media type being specified explicitly could be further restricted to ''print and (color)'' and ''print and (monochrome)'' where the latter is the default.
 ----
