@@ -217,6 +217,8 @@ For CSS regions, we should have:
 The edges of first regions in a region chain associated to a named flow establish the rectangle that is the initial containing block of the named flow.
 
    ;Resolution : L-Action-16 to edit the spec.
+   
+   
 ===== Resolved Issues: Seattle F2F Meeting, July 2011 =====
 
 See: http://lists.w3.org/Archives/Public/www-style/2011Aug/0069.html
