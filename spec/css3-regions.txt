@@ -67,7 +67,7 @@ L-Action-10
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rework ::region-before and ::region-after. Align with text-overflow.
 
 L-Action-15
-  * <html><span style="color:#6c6;font-weight:bold;">Vincent</span></html>: WARNING (ISSUE STILL NOT RESOLVED). add note that floats and scrolling divs are not breakable (and therefore overflow their region).
+  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: WARNING (ISSUE STILL NOT RESOLVED). add note that floats and scrolling divs are not breakable (and therefore overflow their region).
 
 ====== Completed or Duplicated Actions ======
 
