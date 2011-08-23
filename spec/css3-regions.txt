@@ -60,34 +60,11 @@ L-Action-5
 L-Action-7
   * <html><span style="color:crimson;font-weight:bold;">Alex</span></html>: provide feedback on applicability of seamless frames in CSS regions.
 
-L-Action-8
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: make sure circular dependencies are covered in the spec. and that the behavior is consistent with an invalid flow-from reference.
-
 L-Action-9
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: insert issue markers / pointers in the spec.
 
 L-Action-10
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rework ::region-before and ::region-after. Align with text-overflow.
-
-
-L-Action-11
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: write up new proposal based on Rossen's 'option 1' discussion (see attached {{:spec:css3-regions:auto-sizing.pdf|}}) and raise as issue with the working group.
-
-
-L-Action-12
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: add a note that the overflow property works as usual on all regions in case there is an overflow (e.g., borders and characters).
-
-L-Action-13
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rename content-order to region-order.
-
-L-Action-14
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: update the spec. to specify that regions establish a BFC.
-
-L-Action-15
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: WARNING (ISSUE STILL NOT RESOLVED). add note that floats and scrolling divs are not breakable (and therefore overflow their region).
-
-L-Action-16
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: Regions initial containing block: The edges of first regions in a region chain associated to a named flow establish the rectangle that is the initial containing block of the named flow.
 
 ====== Completed or Duplicated Actions ======
 
