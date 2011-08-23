@@ -339,8 +339,18 @@ specified size, due to negative flexing. Then the <length> specified in flex() f
 a concept that did exist in CSS2.1 (other than tables, sort of).
 
 What should we do here? Treat content min width/height same as specified? With same priority? Or less priority than specified width/height?
+
+  ;Option 1 : use content min-width when sizing to content, specified min-width otherwise; min-height only if spcified
   
-  ;Proposal : ???
+  "width:flex(auto); min-width:0" -- treat as "min-width:min-content"
+  "width:flex(1000px); min-width:0" -- treat as "min-width:0"
+  "height:flex(<anything>); min-height:0" -- nothing special, min-height used only if specified
+
+  ;Option 2 : use min-width only if specified
+
+It is always possible to set "min-width:min-content". However it is not the default, and default of "min-width:0" is actually a prett bad default when shrinking needs to happen. In Tables, content min-width works as a low limit for column width, but we don't really want to fully recreate tables...
+
+  ;Proposal : //todo//      
   ;Status : Open
 
 
