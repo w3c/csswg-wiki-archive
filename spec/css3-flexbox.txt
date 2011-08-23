@@ -329,6 +329,21 @@ An idea: what if 'auto' margins on main axis were used after flex sizing and bef
   ;Status : Open
 
 
+==== Issue 17 ====
+
+  ;URL : //todo//
+  ;Summary : what is effective min width/height of a flex item with specified widht/height?
+
+Normally there min-width is irrelevant when width is specified. However flex item can be smaller than 
+specified size, due to negative flexing. Then the <length> specified in flex() function is "specified preferred width",
+a concept that did exist in CSS2.1 (other than tables, sort of).
+
+What should we do here? Treat content min width/height same as specified? With same priority? Or less priority than specified width/height?
+  
+  ;Proposal : ???
+  ;Status : Open
+
+
 <html><!--
 
 ==== Issue NEW ====
