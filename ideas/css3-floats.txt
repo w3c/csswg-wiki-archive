@@ -79,6 +79,18 @@ The shrink wrap is done with the float's box.
 ===== Issue 8: should we use something else than 'wrap'? =====
 
 The use of 'wrap' in properties such as 'wrap-type' or 'wrap-mode' may be confusing because of a different meaning for wrap in the FlexBox specification ('flex-wrap' property) see Flex Box [[spec:css3-flexbox:#issue-1|issues]].
+
+===== Issue 9: painting order and interactivity with exclusions =====
+
+   ;Description : when an element has a wrap shape (inside our outside), what happens with events that happen within the element's box but outside the outside wrap-shape?
+   ;Proposal : events are clipped to the 'outside' wrap-shape.
+   
+===== Issue 10: painting order and interactivity with exclusions =====
+
+   ;Description : should the inside wrap shape be constrained to the outside wrap shape?
+   ;Proposal : yes, the inside wrap shape should be clipped to the outside wrap shape.
+   
+   
 ===== Resolutions =====
 [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html| Kyoto F2F June 2011, Friday]]
 
