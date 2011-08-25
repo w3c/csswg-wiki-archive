@@ -66,6 +66,10 @@ L-Action-10
 L-Action-15
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: WARNING (ISSUE STILL NOT RESOLVED). add note that floats and scrolling divs are not breakable (and therefore overflow their region).
 
+L-Action-17
+
+  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: Move content to 'flow-from' and note issue about concerns about interplay with 'content'.
+
 ====== Completed or Duplicated Actions ======
 
 [[http://www.w3.org/Style/CSS/Tracker/actions/354|ACTION 354]]
