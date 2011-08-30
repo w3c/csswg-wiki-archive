@@ -20,7 +20,17 @@
     - [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0498.html|Eric's e-mail to www-style 1]] and [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0538.html|2]]
   - Tightening up definitions of auto-sizing for multi-column elements in [[http://dev.w3.org/csswg/css3-writing-modes/#orthogonal-flows|orthogonal flows]] (particularly interactions with table layout).
   - [[http://dev.w3.org/csswg/css3-writing-modes/#logical-direction-layout|Flow-relative mappings]]
-
+  - [[http://dev.w3.org/csswg/css3-writing-modes/#text-orientation|text-orientation]]
+    * [[http://dev.w3.org/csswg/css3-writing-modes/#vertical-typesetting-details|Vertical Typesetting Synthesis]]
+      * Why Pd is in a separate item from Pc/Ps/Pe/Pi/Pf?
+    * Another category needed? Either upright using vertical font settings if vertical alternate glyphs are available, otherwise sideways
+      * [[http://lists.w3.org/Archives/Public/www-archive/2011Aug/att-0017/vert.htm|U+002D in Meiryo]] is an example. We want it be sideways, but there's a alternate glyph that adjusts baseline, so UA should render it in upright, and font makes it sideways.
+      * What should be in this category? Pc, Pd, Ps, Pe, Pi, Pf,
+      * Po? No?
+      * Co should stay in the current definition
+    * Visual glyph orientation v.s. glyph orientation from UA perspective
+      * These two are different because the visual appearance of alternate glyphs can either be upright or sideways. Once UA determined to use alternate glyphs, whether its visual is upright or sideways is up to the fonts.
+      * This makes hard to distinguish between upright-right and upright. With Meiryo, "upright" value still makes U+002D sideways.
 ===== Backlog =====
 
 Topics that have been proposed for discussion but are currently on the back-burner.
