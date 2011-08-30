@@ -29,6 +29,7 @@
       * Blocks/arrows; i.e., glyphs whose center position is very important
       * Po? No?
       * Co should stay in the current definition -- Either upright using vertical font settings are available, otherwise sideways
+    * Is it wild to make Co as upright given "upright-right" is a value for primarily East Asian? Tools like FontForge are not good at creating tables like vhea/vmtx.
     * Visual glyph orientation v.s. glyph orientation from UA perspective
       * These two are different because the visual appearance of alternate glyphs can be either upright or sideways. Once UA determined to use alternate glyphs, UA should render it in upright, and whether its visual is upright or sideways is up to the fonts.
       * This makes hard to distinguish between upright-right and upright. With current definitions and with Meiryo, "upright" value still makes U+002D visually sideways. Is this acceptable behavior in level 3?
