@@ -29,7 +29,7 @@
       * Po? No?
       * Co should stay in the current definition
     * Visual glyph orientation v.s. glyph orientation from UA perspective
-      * These two are different because the visual appearance of alternate glyphs can either be upright or sideways. Once UA determined to use alternate glyphs, whether its visual is upright or sideways is up to the fonts.
+      * These two are different because the visual appearance of alternate glyphs can be either upright or sideways. Once UA determined to use alternate glyphs, UA should render it in upright, and whether its visual is upright or sideways is up to the fonts.
       * This makes hard to distinguish between upright-right and upright. With current definitions and with Meiryo, "upright" value still makes U+002D sideways. Is this acceptable behavior in level 3?
 ===== Backlog =====
 
