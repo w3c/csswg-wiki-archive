@@ -12,18 +12,14 @@ The CSSWG co-chairs will select from this list and other sources to create the a
 
 === Publication / Review Requests ===
 
-  ;Selectors 4 FPWD Date
 
 === Technical ===
 
-  ;Regions - display-inside vs content: flow-from() etc
-  : [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0266.html]]
 
 ===== Backlog =====
 
 Topics that have been proposed for discussion but are currently on the back-burner.
 
-  * Background printing
   * [[http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E539856928411F2BCDF@TK5EX14MBXC213.redmond.corp.microsoft.com|Multiline better represented in priorities?]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0162.html|XBL Shadow Elements]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0163.html|List Style for Disclosure]]
