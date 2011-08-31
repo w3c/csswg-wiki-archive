@@ -9,6 +9,11 @@ This page started from the initial [[http://www.w3.org/TR/2011/WD-css3-regions-2
 References:
   * [[http://www.w3.org/TR/2011/WD-css3-regions-20110609/|CSS Regions working draft]]
   * [[http://dev.w3.org/csswg/css3-regions/Overview.html|CSS Regions editor draft]]
+
+Code Samples
+
+{{:spec:regions-samples_webkit-nightly.zip|}}
+
 ===== Resolutions =====
 
 This section keeps track of the CSS WG resolutions regarding the CSS Regions specification. A checkmark indicates that the resolution has been integrated at least in the latest editor draft.
