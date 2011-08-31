@@ -1,0 +1,14 @@
+====== Step-by-step Publishing a CSS Spec ======
+
+  - Make a Changes section summarizing the major changes since the last publication. "Major" is relative--for a CR, it's any non-editorial change, but for an early-stage WD it would be sections that got an overhaul, major syntactic changes, or major behavioral changes, not every minor detail that got fixed.
+  - Get an official CSSWG Resolution to publish. Make any changes requested.
+  - Update the Previous Version link at the top to the latest dated URL on /TR
+  - [[http://validator.w3.org/|Validate]] both Overview.src.html and Overview.html
+  - [[http://validator.w3.org/checklink|Link-check]] your spec
+  - Send Bert a message asking him to put your spec in the publication pipeline. Include a link to the minutes with the resolution to publish. (If Bert is on vacation, ask fantasai.)
+  - Wait for the spec to be published. W3C publishes on Tuesdays and Thursdays.
+  - Post an announcement of your new spec to [[http://lists.w3.org/Archives/Public/www-style/|www-style]] and the [[http://www.w3.org/blog/CSS|CSSWG Blog]]. A good announcement includes:
+     * A link to the spec
+     * An explanation of what's new, what's cool, what's changed, maybe what to expect going forward, but most importantly what you would especially like feedback on.
+     * Instructions for sending feedback
+    The CSSWG blog is your communication channel to people who aren't technical enough or devoted enough to follow www-style. Take advantage of it.
