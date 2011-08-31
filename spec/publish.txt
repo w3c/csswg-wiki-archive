@@ -7,7 +7,7 @@
   - [[http://validator.w3.org/checklink|Link-check]] your spec
   - Send Bert a message asking him to put your spec in the publication pipeline. Include a link to the minutes with the resolution to publish. (If Bert is on vacation, ask fantasai.)
   - Wait for the spec to be published. W3C publishes on Tuesdays and Thursdays.
-  - Post an announcement of your new spec to [[http://lists.w3.org/Archives/Public/www-style/|www-style]] and the [[http://www.w3.org/blog/CSS|CSSWG Blog]]. A good announcement includes:
+  - Post an announcement of your new spec to [[http://lists.w3.org/Archives/Public/www-style/|www-style]] and the [[http://www.w3.org/blog/CSS|CSSWG Blog]] and link it from [[http://twitter.com/csswg|@csswg]]. A good announcement includes:
      * A link to the spec
      * An explanation of what's new, what's cool, what's changed, maybe what to expect going forward, but most importantly what you would especially like feedback on.
      * Instructions for sending feedback
