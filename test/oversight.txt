@@ -9,10 +9,10 @@ is someone the test suite Owner considers equally capable of evaluating changes 
 the test suite and responsible enough to have write access to the test suite. A
 review from a Peer carries equal weight to a review from an Owner.
 
-The following table shows the owners of the CSS Test Suites. Currently, all the Owners of one suite are considered Peers of the other suites.
+The following table shows the owners and peers of the CSS Test Suites. Currently, all the Owners of one suite are considered Peers of the other suites.
 
-^ Test Suite ^ Owner |
-| [[http://www.w3.org/Style/CSS/Test/CSS2.1/|CSS2.1]] | Elika J. Etemad |
+^ Test Suite ^ Owner / Peers |
+| [[http://www.w3.org/Style/CSS/Test/CSS2.1/|CSS2.1]] | Elika J. Etemad, Gérard Talbot |
 | [[http://www.w3.org/Style/CSS/Test/CSS3/Selectors/|Selectors]] | Ian Hickson |
 | [[http://www.w3.org/Style/CSS/Test/MediaQueries/|Media Queries]] | Anne van Kesteren |
 | [[http://www.w3.org/Style/CSS/Test/CSS3/Color/|CSS3 Color]] | L. David Baron |
@@ -28,7 +28,6 @@ An Approver is someone who has demonstrated a very strong understanding of the C
 Currently the following people are Approvers:
 
   * Arron Eicholz (Microsoft)
-  * Gérard Talbot
 
 ===== Becoming a Peer =====
 
