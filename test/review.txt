@@ -34,5 +34,6 @@ When reviewing a test, you're responsible for making sure the test matches the [
   * That the title is both //unique// and //descriptive// but not too wordy.
   * That the test is as cross-platform as reasonably possible, working across different devices, screen resolutions, paper sizes, etc. If there are limitations (e.g. the test will only work on 96dpi devices, or screens wider than 200 pixels) that these are documented in the instructions.
   * That the spec backs up the expected behavior in the test. (I've run into a number of tests that make assumptions I could've sworn were in the spec, but aren't there when I go and check. Since this often means the spec forgot to handle something, you should send a message to [[http://lists.w3.org/Archives/Public/www-style/|www-style]] about it.)
+  * That the test is a [[test:reftest|reftest]] (unless there's a very good reason why the test can not use a reference), preferably self-describing.
 
 A [[test:css2.1:review-checklist|more detailed review checklist]] is available.
