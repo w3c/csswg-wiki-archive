@@ -2,13 +2,12 @@
 
 The biggest issue is the default text-orientation of common symbols and punctuation, so here's a table to start figuring it all out. :)
 
-Orientation Codes:
-
-  ; U : always upright
-  ; S : always sideways
-  ; G : upright with alt glyph, else fallback to sideways
-  ; ? : unknown
-  ; [1] : Special Behavior #1 (see notes below table)
+^Orientation Code^Meaning^
+|U|always upright|
+|S|always sideways|
+|G|upright with alt glyph, else fallback to sideways|
+|?|unknown, please fill in|
+|[1]|Special Behavior #1 (see notes below table)|
 
 ===== Data Table =====
 
