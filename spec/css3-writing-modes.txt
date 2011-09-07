@@ -22,7 +22,7 @@ Name	CatCode	Char	CSSWG	Unicode	AH	InDesign	MSFT	Vrt2	Notes
 
 Currency Symbols	Sc	$£€	S	?	?	?	?	?	Except Fullwidth = Upright
 Math Symbols	Sm	+	S	?	?	?	?	?	Except Fullwidth = Upright
-Modifier Symbols	Sk	^˦῁	S	?	?	?	?	?	
+Modifier Symbols	Sk	¸˦῁	S	?	?	?	?	?	
 
 
 ==== Latin-1 ====
