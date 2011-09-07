@@ -12,6 +12,9 @@ Orientation Codes:
 
 ===== Data Table =====
 
+<note>
+If a column has different behavior for Japanese and Chinese, then write both with a slash: Ja/Zh.
+</note>
 ==== Latin-1 ====
 
 Name	Codepoint	Char	CSSWG	Unicode	AH	InDesign	MSFT	Vrt2	Notes
