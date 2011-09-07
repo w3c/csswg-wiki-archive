@@ -75,7 +75,7 @@ Here are several possible names for this property and its values:
   * ''printer-colors: __auto__ | exact''
   * ''color-adjust: __economy__ | exact''
   * ''conserve-ink: __auto__ | avoid''
-  * ''color-economy: __adjust__ | exact''
+  * ''expensive-colors: __adjust__ | exact''
 
 ==== 7.1. Honor styles on elements with a new property set appropriately for the root element ==== 
 Limit #7 to only applying to '':root''.  This avoids the main implementation cost of new properties (more storage on every element).  It also potentially makes print dialog UIs simpler to comprehend.  Luke MacPherson from Google objects that there are good use-cases for being able to state that particular elements are important, while the rest of the page can be tweaked as necessary.  (For example, printing a webpage with a budget on it, and wanting to preserve the garish red background on the total debt figure.)
