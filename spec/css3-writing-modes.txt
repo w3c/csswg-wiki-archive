@@ -1,0 +1,6 @@
+====== CSS Writing Modes Level 3 ======
+
+The biggest issue is the default text-orientation of common symbols and punctuation, so here's a table to start figuring it all out. :)
+
+Name	Codepoint	Char	CSSWG	Unicode	AH	Notes
+Middle Dot	U+00B7	⋅	*	?	?	Sideways in Japanese, Upright in Chinese
