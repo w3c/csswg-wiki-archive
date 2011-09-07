@@ -15,6 +15,7 @@ Orientation Codes:
 ==== Latin-1 ====
 
 Name	Codepoint	Char	CSSWG	Unicode	AH	Notes
+
 Exclamation Mark	U+0021	!	S	?	?	Has fullwidth variant
 Middle Dot	U+00B7	⋅	*	?	?	Sideways in Japanese, Upright in Chinese
 
