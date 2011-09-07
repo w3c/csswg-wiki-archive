@@ -20,7 +20,7 @@ If a column has different behavior for Japanese and Chinese, then write both wit
 Name	Codepoint	Char	CSSWG	Unicode	AH	InDesign	MSFT	Vrt2	Notes
 
 Exclamation Mark	U+0021	!	S	?	?	?	?	?	Has fullwidth variant
-Middle Dot	U+00B7	⋅	*	?	?	?	?	?	Sideways in Japanese, Upright in Chinese
+Middle Dot	U+00B7	⋅	[1]	?	?	?	?	?	Sideways in Japanese, Upright in Chinese
 
 
 === Notes ===
