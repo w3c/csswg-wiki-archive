@@ -27,4 +27,5 @@
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0107.html (proposal: defer to Level 4+)
   ;Status : OPEN
   ;Resolution : N/A
+  ;Remarks : voice-language solution, similar to http://dev.w3.org/csswg/css3-fonts/#font-language-override-prop, as illustrated by Fantasai: ''voice-language: auto | <language-code> | inherit; inherited: yes; computed value: as specified; with auto => The used value is taken from the language of the selected element, or some UA-chosen value if unknown. The computed value is the keyword 'auto'.''
 
