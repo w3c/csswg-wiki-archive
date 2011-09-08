@@ -5,7 +5,7 @@
   * latest editor's draft: http://dev.w3.org/csswg/css3-speech
   * issue tracker: http://www.w3.org/Style/CSS/Tracker/products/29
 
-===== Last Call Working Draft =====
+===== Last Call Working Draft, Disposition of Comments =====
 
   * publication URL: http://www.w3.org/TR/2011/WD-css3-speech-20110818
   * public announcement: http://lists.w3.org/Archives/Public/www-style/2011Aug/0550.html
