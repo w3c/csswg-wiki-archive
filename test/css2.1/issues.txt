@@ -2,11 +2,10 @@
 
 This page records known problems in the [[test:css2.1|CSS 2.1 Conformance Test Suite]]. For problems with the harness, see [[harness]].
 
-To record a bug, post to public-css-testsuite@w3.org explaining the problem. Then link to it from this wiki using the test name as the link text. Like this:
+Please do not add new issues to this page, to record a bug, use [[http://test.csswg.org/shepherd/|the Test Suite Management System]]. Search for the test case, enter your comment and set the status to "Needs Work".
 
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html|t1202-counter-09-b]]
+The issues listed on this page will be migrated to the new management system shortly.
 
-Put the test in the most severe group (earliest below) that applies.
 ===== Tests that are Wrong or have Parse Errors =====
 
 
