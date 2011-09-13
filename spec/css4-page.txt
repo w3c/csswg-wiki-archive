@@ -17,4 +17,5 @@ Some ideas for features for a future Paged Media Level 4 spec:
   * @margin-box selector to set values common to all margin boxes
   * pagination creates multiple boxes per element - that has to be accounted for in spec definitions and in DOM (http://lists.w3.org/Archives/Public/www-style/2011Jun/0039.html)
   * containing block definition in pagination, in particular when broken across pages of different size (http://lists.w3.org/Archives/Public/www-style/2011Jun/0039.html)
+  * How multi-box or multi-line floats split across a boundary, and if there are heuristics for avoiding such a split if the entire floated element could display intact in the element past the boundary.
 
