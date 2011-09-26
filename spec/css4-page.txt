@@ -19,3 +19,6 @@ Some ideas for features for a future Paged Media Level 4 spec:
   * containing block definition in pagination, in particular when broken across pages of different size (http://lists.w3.org/Archives/Public/www-style/2011Jun/0039.html)
   * How multi-box or multi-line floats split across a boundary, and if there are heuristics for avoiding such a split if the entire floated element could display intact in the element past the boundary.
 
+In http://lists.w3.org/Archives/Public/www-style/2011Sep/0301.html fantasai suggests a rule for varying-width pages where "Continuations of boxes on a previous page must start at the top of the page." This has some implications that are spelled out in the email. In the example below there are fixed-width floats both left (green) and purple (right). The page width after the break is reduced to less than the combined float width. The first option shown is to reduce the floats widths in proportion until they fit. The second option shown is if the initial width is the same as the min-content width - in this case the floats overlap. The third option shown does not follow the new "continuations" rule, and the fragments of the floats are laid out given the new page geometry.
+
+{{:spec:continuations.png?200|}}
