@@ -213,7 +213,7 @@ There are different options for behavior of regions of undefined size, with diff
 
 See [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0682.html|Possible Options]]
 
-  ;Proposal : Option c in the above proposal.
+  ;Proposal : This should be closed as it is addressed by ACTION-351
   
 
 ==== Issue 3 : Regions Break ====
