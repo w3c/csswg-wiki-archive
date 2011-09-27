@@ -66,6 +66,7 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 
 L-Action-5
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: pagination region: what happens when flowing between containers of varying width? e..g., <div style="width:auto">...</div> flowing across regions of various widths. Action: Vincent to illustrate the use case (body with text flowing through multiple pages of different width, and width=100%).
+    * This issue should be closed because of ACTION 351 where we decided that width:auto resolves to 0.
 
 L-Action-7
   * <html><span style="color:crimson;font-weight:bold;">Alex</span></html>: provide feedback on applicability of seamless frames in CSS regions.
@@ -75,9 +76,11 @@ L-Action-9
 
 L-Action-10
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rework ::region-before and ::region-after. Align with text-overflow.
+    * Proposal from David Hyatt to align with display:run-in to make :before and :after inline.
 
 L-Action-15
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: WARNING (ISSUE STILL NOT RESOLVED). add note that floats and scrolling divs are not breakable (and therefore overflow their region).
+    * There has been a discussion about this with Alan Stearns, David Hyatt, Alex and Rossen. Do we have a resolution? How does this need to show in the spec.
 
 
 ====== Completed or Duplicated Actions ======
