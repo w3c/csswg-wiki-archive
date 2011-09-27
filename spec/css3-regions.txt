@@ -60,7 +60,9 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
   * <html><span style="color:crimson;font-weight:bold;">Alex</span></html>: to add an api to find out which element is in a named flow
 
 [[http://www.w3.org/Style/CSS/Tracker/actions/351|ACTION 351]]
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rework the issue of resolved sizes for regions and come up with an alt solution for the group along with use cases and examples
+  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rework the issue of resolved sizes for regions and come up with an alt solution for the group along with use cases and examples.
+    * Added comment to original issues following discussions with Rossen and agreement to stick to width:auto meaning 0. 
+    * height:auto needs to be discussed further.
 
 L-Action-5
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: pagination region: what happens when flowing between containers of varying width? e..g., <div style="width:auto">...</div> flowing across regions of various widths. Action: Vincent to illustrate the use case (body with text flowing through multiple pages of different width, and width=100%).
