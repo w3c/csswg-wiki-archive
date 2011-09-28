@@ -74,10 +74,6 @@ L-Action-10
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rework ::region-before and ::region-after. Align with text-overflow.
     * Proposal from David Hyatt to align with display:run-in to make :before and :after inline.
 
-L-Action-15
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: WARNING (ISSUE STILL NOT RESOLVED). add note that floats and scrolling divs are not breakable (and therefore overflow their region).
-    * There has been a discussion about this with Alan Stearns, David Hyatt, Alex and Rossen. Do we have a resolution? How does this need to show in the spec.
-
 
 ====== Completed or Duplicated Actions ======
 
