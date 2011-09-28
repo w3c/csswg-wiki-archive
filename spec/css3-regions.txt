@@ -197,7 +197,7 @@ See Issue 1 below.
 
   ;Summary : The current spec. says that regionLayoutUpdate event is Sync (see (http://www.w3.org/TR/DOM-Level-3-Events/#sync-async). Should the event be made Async.
   ;Discussion : In DOM Level 3 events, all events are Sync. except 'error', 'load', 'wheel' and 'scroll' which are Async. Not clear what guides making an event Sync or Async.
-  ;Proposal : None yet.
+  ;Proposal : Async. (implemented in IE10).
   
   
 ==== Issue 11: Should not allow pseudo-elements to move to a named flow ====
