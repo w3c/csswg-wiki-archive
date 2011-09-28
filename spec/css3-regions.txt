@@ -174,12 +174,6 @@ See Issue 1 below.
    ;Proposal : close this issue and wait for a formal issue expressing specific technical problems.
  
 
-==== Issue 17: Behavior of broken floats ====
-
-   ;Description : what happens if a float is broken across regions of different width? In particular, what happens if the float fragment on a second (or third) region, is in the middle of the region (x-axis)? How does that interact with subsequent floats? How does that interact with elements and clear behavior?
-   ;Proposal : disallow breaking floats across regions. They overflow.
-   ;Resolution : L-Action-15 to edit spec. HOWEVER: There is disagreement on this discussion (Adobe implementation team feedback) because floats are split in multi-column.
- 
 
 ==== Issue 12: Should we allow multi-column elements to be regions? ====
 
