@@ -22,9 +22,9 @@ Whether an id is testable can be determined by scanning the spec and ignoring an
 
 ===== Topics to move to the pagination spec. =====
 
-* Which elements break along container (column, page, region) boundary and which do not?
+  * Which elements break along container (column, page, region) boundary and which do not?
 
-* How do breaks work together, in particular in nested scenarios? 
+  * How do breaks work together, in particular in nested scenarios? 
 ===== Resolutions =====
 
 This section keeps track of the CSS WG resolutions regarding the CSS Regions specification. A checkmark indicates that the resolution has been integrated at least in the latest editor draft.
