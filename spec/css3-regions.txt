@@ -221,6 +221,14 @@ See [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0682.html|Possible O
 
 ===== Issues Resolved by Editors =====
 
+==== Issue 11: Should not allow pseudo-elements to move to a named flow ====
+
+  ;Summary : The current spec. says that the 'flow-into' property only applies to elements but it does not explicitly rule out pseudo-elements such as '::first-line'
+  ;Discussion : Since the '::first-line' pseudo-element is layout based, it seems difficult to allow moving it to a flow and raises questions (e.g., after the first-line has been moved to the named flow, what happens to the new 'first line'? Should it also be moved to the named flow?).
+  ;Proposal : (latest editor draft as of 08/11/2011) 'flow-into' does not apply to ::first-line and ::first-character because they only support a limited number of properties. It is undefined what float-into() does for generated content such as ::marker, ::before and ::after. May change depending on implementation feedback. 09/27/2011, discussion with Rossen and Alex. Keep as-is, since, even though odd, this does not show obvious technical issue.
+  
+
+
 ==== Issue 17: Behavior of broken floats ====
 
    ;Description : what happens if a float is broken across regions of different width? In particular, what happens if the float fragment on a second (or third) region, is in the middle of the region (x-axis)? How does that interact with subsequent floats? How does that interact with elements and clear behavior?
