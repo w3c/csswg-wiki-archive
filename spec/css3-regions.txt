@@ -81,6 +81,9 @@ L-Action-15
 
 ====== Completed or Duplicated Actions ======
 
+L-Action-5
+  * <html><span style="color:#6c6;font-weight:bold;">Vincent</span></html>: pagination region: what happens when flowing between containers of varying width? e..g., <div style="width:auto">...</div> flowing across regions of various widths. Action: Vincent to illustrate the use case (body with text flowing through multiple pages of different width, and width=100%).
+    * This issue is closed because of ACTION 351 where we decided that width:auto resolves to 0.
 
 L-Action-17
 
