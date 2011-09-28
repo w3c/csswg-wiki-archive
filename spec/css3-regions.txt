@@ -79,7 +79,7 @@ L-Action-9
 
 L-Action-10
   * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rework ::region-before and ::region-after. Align with text-overflow.
-    * Proposal from David Hyatt to align with display:run-in to make :before and :after inline.
+    * Proposal from David Hyatt to align with display:run-in to make :before and :after inline. Add a note saying that run-in on :after is more complex than on before, because you need to back-track.
 
 
 ====== Completed or Duplicated Actions ======
