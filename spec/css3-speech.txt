@@ -31,6 +31,7 @@
   ;Response 2 : http://lists.w3.org/Archives/Public/www-style/2011Sep/0505.html (needs further discussion)
   ;Comment 3 : http://lists.w3.org/Archives/Public/www-style/2011Sep/0510.html
   ;Response 3 : http://lists.w3.org/Archives/Public/www-style/2011Sep/0512.html
+  ;Comment 4 : http://lists.w3.org/Archives/Public/www-style/2011Sep/0513.html
   ;Status : OPEN
   ;Resolution : N/A
   ;Remarks : voice-language solution, similar to http://dev.w3.org/csswg/css3-fonts/#font-language-override-prop, as [[http://lists.w3.org/Archives/Public/www-style/2011May/0033.html|illustrated by Fantasai]]: ''voice-language: auto | <language-code> | inherit; inherited: yes; computed value: as specified; with auto => The used value is taken from the language of the selected element, or some UA-chosen value if unknown. The computed value is the keyword 'auto'.''
