@@ -70,20 +70,8 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 [[http://www.w3.org/Style/CSS/Tracker/actions/350|ACTION 350]]
   * <html><span style="color:crimson;font-weight:bold;">Alex</span></html>: to add an api to find out which element is in a named flow
 
-[[http://www.w3.org/Style/CSS/Tracker/actions/351|ACTION 351]]
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rework the issue of resolved sizes for regions and come up with an alt solution for the group along with use cases and examples.
-    * Added comment to original issues following discussions with Rossen and agreement to stick to width:auto meaning 0. 
-    * height:auto based on the content as usual. Add a note that this is inconsistent (between width and height) and that implementation feedback will be needed to finalize the best behavior).
-
 L-Action-7
   * <html><span style="color:crimson;font-weight:bold;">Alex</span></html>: provide feedback on applicability of seamless frames in CSS regions.
-
-L-Action-9
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: insert issue markers / pointers in the spec.
-
-L-Action-10
-  * <html><span style="color:crimson;font-weight:bold;">Vincent</span></html>: rework ::region-before and ::region-after. Align with text-overflow.
-    * Proposal from David Hyatt to align with display:run-in to make :before and :after inline. Add a note saying that run-in on :after is more complex than on before, because you need to back-track.
 
 
 ====== Completed or Duplicated Actions ======
