@@ -76,6 +76,25 @@ L-Action-7
 
 ====== Completed or Duplicated Actions ======
 
+
+[[http://www.w3.org/Style/CSS/Tracker/actions/351|ACTION 351]]
+  * <html><span style="color:#6c6;font-weight:bold;">Vincent</span></html>: rework the issue of resolved sizes for regions and come up with an alt solution for the group along with use cases and examples.
+    * Added comment to original issues following discussions with Rossen and agreement to stick to width:auto meaning 0. 
+    * height:auto based on the content as usual. Add a note that this is inconsistent (between width and height) and that implementation feedback will be needed to finalize the best behavior).
+    * Done in 09/30/2011 CVS update to editor draft.
+
+
+L-Action-9
+  * <html><span style="color:#6c6;font-weight:bold;">Vincent</span></html>: insert issue markers / pointers in the spec.
+  *  Done in 09/30/2011 CVS update to editor draft.
+
+
+L-Action-10
+  * <html><span style="color:#6c6;font-weight:bold;">Vincent</span></html>: rework ::region-before and ::region-after. Align with text-overflow.
+    * Proposal from David Hyatt to align with display:run-in to make :before and :after inline. Add a note saying that run-in on :after is more complex than on before, because you need to back-track.
+    * Done in 09/30/2011 CVS update to editor draft.
+
+
 L-Action-15
   * <html><span style="color:#6c6;font-weight:bold;">Vincent</span></html>: WARNING (ISSUE STILL NOT RESOLVED). Add note that floats and scrolling divs are not breakable (and therefore overflow their region).
     * There has been a discussion about this with Alan Stearns, David Hyatt, Alex and Rossen. Do we have a resolution? How does this need to show in the spec.
