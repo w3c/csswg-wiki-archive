@@ -167,19 +167,21 @@ See Issue 1 below.
    ;URL : none
    ;Description : 
    
-   <style>
-    .article{
-        -webkit-flow:"thread";
-    }
-    .region{
-        content:-webkit-from-flow("thread");
-    }
-</style>
-<html>
-<body>
+<code>
+  <style>
+  .article{
+    -webkit-flow:"thread";
+  }
+  .region{
+    content:-webkit-from-flow("thread");
+  }
+  </style>
+  <html>
+  <body>
     <div class=region>div content</div>
-</body>
-</html>
+  </body>
+  </html>
+</code>
 
    ;Proposal : Even though there isn't anything with class=article, an empty "thread" flow is created and replaces the div content.
    
