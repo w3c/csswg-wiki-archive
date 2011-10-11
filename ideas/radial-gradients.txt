@@ -15,3 +15,8 @@ Key posts
 Key posts
 
   * http://lists.w3.org/...
+
+===== Examples Shootout =====
+
+^ Sample ^ Syntax A ^ Syntax B ^
+| [[http://example.com/|Title]] | ''radial-gradient(...)'' | ''radial-gradient(...)'' |
