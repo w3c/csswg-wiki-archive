@@ -31,9 +31,14 @@ This page is a memo page to make our discussion on [[http://www.unicode.org/repo
 
 Not comprehensive at all yet.
 
-^Code^Description^Memo^
-|U+201C-201D|Curly quotes|Should be T for East Asian text|
-|U+337B-337F|Square era names|Adobe/Apple fonts use vertically compressed glyphs, while MS/Ricoh fonts use horizontally compressed glyphs using Tate-Chu-Yoko.|
+Writing Mode categories:
+  * U - vert and upright
+  * S - sideways
+  * V - vert or sideways
+
+^Code^Description^UTR^WM^Memo^
+|U+201C-201D|Curly quotes|SB|V|Should be T for East Asian text|
+|U+337B-337F|Square era names|T|U|Adobe/Apple fonts use vertically compressed glyphs, while MS/Ricoh fonts use horizontally compressed glyphs using Tate-Chu-Yoko.|
 
 ===== The East Asian Class Property ======
 Not reviewed yet.
