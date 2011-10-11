@@ -20,7 +20,7 @@ This page is a memo page to make our discussion on [[http://www.unicode.org/repo
     * EM DASH, Arrows, etc. aligns at center baseline?
     * Most font designers I contacted believe that it's ok as long as the font is a square font, but I'm worried as it has never been tested at all.
 
-==== Yi, Mongolian, Hangul, Bopomofo, etc. ====
+==== Yi, Mongolian, Hangul, Bopomofo, Egyp ====
   * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=202|Vertical Directionality property from johnwcowan]]
   * [[http://lists.w3.org/Archives/Public/public-i18n-cjk/2011OctDec/0000.html|Hangul characters upright or sideways in vertical flow?]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0128.html|Yi and Hangul]]
