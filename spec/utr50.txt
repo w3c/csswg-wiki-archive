@@ -7,6 +7,8 @@ This page is a memo page to make our discussion on [[http://www.unicode.org/repo
   * UTR #50 only tries "some level of compatibility with existing fonts". Again, this is very different from our goals, isn't this?
   * UTR #50 defines not only glyph orientation in vertical text flow but also character spacing classes in horizontal text flow, similar to what we have in the [[http://dev.w3.org/csswg/css3-text/#text-spacing-prop|text-spacing]] property. Again, review period is too short for such a big property.
   * UTR #50's suggested grapheme clusterization is a) imprecise b) doesn't handle exceptions in [[http://www.w3.org/TR/css3-writing-modes/#character-properties|Me and Zs categories]]
+  * Should add categories for tailorable vs. not tailorable, e.g. Phags-pa and Ideographic are not tailorable to rotate.
+
 ===== The East Asian Orientation Property =====
   * What are the definitions of U, S, SB, and T? ([[http://www.unicode.org/forum/viewtopic.php?f=35&t=198|Tk is gone]])
     * Maybe most of the following issues are related with the fundamental question: "what are the goals of UTR #50". If it's for font designers to decide visual glyph orientations to put in vert table, some of these problems are gone, and CSS WG still needs to develop our own algorithm to decide orientation for UAs to render, which could be different from visual glyph orientation.
