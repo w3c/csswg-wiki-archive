@@ -116,8 +116,71 @@
 
 ==== Issue 11 ====
 
-  ;Summary : Comments from PFWG
-  ;Raised By : Janina Sajka <janina@rednote.net> 
+  ;Summary : relative 'voice-volume' values (e.g. Louder / Softer)
+  ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
+  ;Response : 
+  ;Status : OPEN
+  ;Resolution : N/A
+
+==== Issue 12 ====
+
+  ;Summary : 'voice-volume' property's 'silent' value
+  ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
+  ;Response : 
+  ;Status : OPEN
+  ;Resolution : N/A
+
+==== Issue 13 ====
+
+  ;Summary : 'speak' and 'speak-as' properties
+  ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
+  ;Response : 
+  ;Status : OPEN
+  ;Resolution : N/A
+
+==== Issue 14 ====
+
+  ;Summary : 'pause-before' and 'pause-after' properties
+  ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
+  ;Response : 
+  ;Status : OPEN
+  ;Resolution : N/A
+
+==== Issue 15 ====
+
+  ;Summary : 'cue-before' and 'cue-after' properties
+  ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
+  ;Response : 
+  ;Status : OPEN
+  ;Resolution : N/A
+
+==== Issue 16 ====
+
+  ;Summary : 'voice-family' property's 'preserve' value
+  ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
+  ;Response : 
+  ;Status : OPEN
+  ;Resolution : N/A
+
+==== Issue 17 ====
+
+  ;Summary : 'voice-duration' property's 'time' value
+  ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
+  ;Response : 
+  ;Status : OPEN
+  ;Resolution : N/A
+
+==== Issue 18 ====
+
+  ;Summary : 'voice-stress' property renaming to 'voice-emphasis'
+  ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : 
   ;Status : OPEN
