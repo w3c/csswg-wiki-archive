@@ -25,7 +25,7 @@ This page is a memo page to make our discussion on [[http://www.unicode.org/repo
   * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=202|Vertical Directionality property from johnwcowan]]
   * [[http://lists.w3.org/Archives/Public/public-i18n-cjk/2011OctDec/0000.html|Hangul characters upright or sideways in vertical flow?]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0128.html|Yi and Hangul]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0374.html|Egyp]] also [[http://www.omniglot.com/writing/egyptian_hieratic.htm|Info on Hieratic]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0374.html|Egyp]] also [[http://www.omniglot.com/writing/egyptian_hieratic.htm|Hieratic]]
 
 ==== Code Points ===
 ^Code^Memo^
