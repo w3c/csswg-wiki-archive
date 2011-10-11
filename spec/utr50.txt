@@ -10,7 +10,7 @@ This page is a memo page to make our discussion on [[http://www.unicode.org/repo
 ===== The East Asian Orientation Property =====
   * What are the definitions of U, S, SB, and T? ([[http://www.unicode.org/forum/viewtopic.php?f=35&t=198|Tk is gone]])
   * From what I understand, T allows anything; from changing glyph to changing orientations, so although "representative glyphs" are shown, their orientations are undefined in UTR #50. Some rotate, some do not, and it's up to font designer. Is this correct understanding?
-  * If UTR #50 means fonts should not change glyphs/positions for U/S/SB, there is a big compatibility and font designing problems here.
+  * If UTR #50 means fonts should not change glyphs/positions for U/S/SB, there is a compatibility and font designing problems here.
     * Some fonts use different glyphs for parenthesis/brackets in vertical  flow; e.g., U+FF62/FF63. {{ :spec:kodomonoji_20111005.png?direct&150|}}
     * Some fonts use U+301D/301F glyphs for U+201C/201D in vertical flow today.
     * Some fonts use GPOS to adjust positions of punctuation in vertical flow.
