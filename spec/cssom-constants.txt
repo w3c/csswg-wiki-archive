@@ -15,3 +15,4 @@ This page lists all standardized CSSOM constants in CSS to avoid the creation of
 | 10 | NAMESPACE_RULE | CSSOM |
 | 11 | SUPPORTS_RULE | css3-conditional |
 | 12 | DOCUMENT_RULE | css3-conditional |
+| ? | FONT_FEATURE_VALUES_RULE | css3-fonts |
