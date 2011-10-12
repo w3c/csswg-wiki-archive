@@ -29,6 +29,14 @@ This page is a memo page to make our discussion on [[http://www.unicode.org/repo
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0128.html|Yi and Hangul]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0374.html|Egyp]] also [[http://www.omniglot.com/writing/egyptian_hieratic.htm|Hieratic]] does not rotate
 
+==== Math ====
+
+  * Fonts seem inconsistent about whether fullwidth characters are upright or sideways. ASCII is sideways.
+
+Interesting scans:
+
+  * http://d.hatena.ne.jp/choiyaki/20110908/1315431640
+  * Koji's book with prime/double prime ?
 ==== Code Points ===
 
 Not comprehensive at all yet.
