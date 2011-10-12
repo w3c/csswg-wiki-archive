@@ -21,7 +21,7 @@
 **Closure states**: an issue can be closed as ''Accepted'', ''OutOfScope'', ''Invalid'', ''Rejected'', or ''Retracted''.
 
 
-<html><h3><span style="background-color:#FFA500;">ISSUE 1</span><h3></html>
+<html><h3><span style="background-color:#FFA500;">ISSUE 1</span></h3></html>
 
   ;Summary : Interaction between the 'voice-volume' and 'cue' properties.
   ;Raised By : Paul Bagshaw <paul.bagshaw@orange-ftgroup.com> (Co-author of SSML 1.1 and PLS 1.0)
