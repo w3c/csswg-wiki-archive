@@ -92,7 +92,7 @@
   ;Summary : no longdesc for the aural formatting model diagram
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0015.html
-  ;Response : 
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0412.html (agreed. we should link the diagram to the paragraph above, using aria:described-by and/or by editing the @alt attribute)
   ;Status : OPEN
   ;Resolution : N/A
 
