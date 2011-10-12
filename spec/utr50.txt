@@ -41,6 +41,10 @@ Writing Mode categories:
 ^Code^Description^UTR^WM^Memo^
 |U+201C-201D|Curly quotes|SB|V|Should be T for East Asian text|
 |U+337B-337F|Square era names|T|U|Adobe/Apple fonts use vertically compressed glyphs, while MS/Ricoh fonts use horizontally compressed glyphs using Tate-Chu-Yoko.|
+|U+2016|Double vertical line|U|?|Typically rotated in Japanese typesetting|
+|U+FF5C|Fullwidth vertical line|U|?|Typically rotated in Japanese typesetting|
+|U+FF1A|Fullwidth colon|U|V|Typically rotated in Japanese typesetting. What about Chinese?|
+|U+FF1B|Fullwidth semicolon|U|V|Not used in Japanese, typically upright with no vert altglyph. What about Chinese?|
 
 ===== The East Asian Class Property ======
 Not reviewed yet.
