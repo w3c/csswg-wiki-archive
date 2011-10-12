@@ -5,7 +5,7 @@ This page is a memo page to make our discussion on [[http://www.unicode.org/repo
   * [[http://www.unicode.org/review/pri207/|PRI #207]] review period ends on Oct 24th, 2011 --- way too short
   * Eric mentioned that [[http://www.unicode.org/forum/viewtopic.php?f=35&t=201|UTR #50 is for Japanese text and should define Hangul orientation that appears in Japanese text, rather than Hangul native orientation]]. Our goal of "upright-right" is a good vertical text flow for East Asian. Are we seeing things differently?
   * UTR #50 only tries "some level of compatibility with existing fonts". Again, this is very different from our goals, isn't this?
-  * UTR #50 defines not only glyph orientation in vertical text flow but also character spacing classes in horizontal text flow, similar to what we have in the [[http://dev.w3.org/csswg/css3-text/#text-spacing-prop|text-spacing]] property. Again, review period is too short for such a big property.
+  * UTR #50 defines not only glyph orientation in vertical text flow but also character spacing classes in horizontal text flow, similar to what we have in the [[http://dev.w3.org/csswg/css3-text/#text-spacing-prop|text-spacing]] property. Shouldn't this be a separate discussion? Review period is too short for such a big property.
   * UTR #50's suggested grapheme clusterization is a) imprecise b) doesn't handle exceptions in [[http://www.w3.org/TR/css3-writing-modes/#character-properties|Me and Zs categories]]
   * Should add categories for tailorable vs. not tailorable, e.g. Phags-pa and Ideographic are not tailorable to rotate.
   * OpenType feature for sideways vertical glyphs would be critical to allow calligraphic and condensed fonts to work with this scheme.
