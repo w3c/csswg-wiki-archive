@@ -13,6 +13,7 @@ There are issues with circular references. Need a way to handle this.
 
 Original proposal: http://www.xanthir.com/blog/b48H0
 
+Posponed discussion until TPAC
 ==== Issue 2: ====
 
 Vertical centering using position.
