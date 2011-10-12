@@ -23,13 +23,13 @@
 ==== ISSUE 1 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 1</b>: interaction between the 'voice-volume' property and the loudness of 'cue' properties</span></html>
+  ;Status : OPEN => Editor's proposal: ''Rejected'', but agreement to clarify informative statement that misleadingly compares SSML's 'audio' element with CSS-Speech audio cues
+  ;Resolution : N/A
   ;Raised By : Paul Bagshaw <paul.bagshaw@orange-ftgroup.com> (Co-author of SSML 1.1 and PLS 1.0)
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Aug/0494.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0189.html
   ;Comment 2 : http://lists.w3.org/Archives/Public/www-style/2011Sep/0503.html
   ;Response 2 : http://lists.w3.org/Archives/Public/www-style/2011Sep/0507.html
-  ;Status : OPEN (Editor's proposal: ''Rejected'', but agreement to clarify informative statement that misleadingly compares SSML's 'audio' element with CSS-Speech audio cues)
-  ;Resolution : N/A
 
 ==== Issue 2 ====
 
