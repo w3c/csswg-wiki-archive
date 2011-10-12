@@ -110,7 +110,7 @@
   ;Summary : aural/speech events/modifications cued by ARIA properties/attributes
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0017.html
-  ;Response : 
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0415.html (valid remark, but out-of-scope)
   ;Status : OPEN
   ;Resolution : N/A
 
