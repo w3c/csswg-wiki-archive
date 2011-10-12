@@ -83,7 +83,7 @@
   ;Summary : use of generic SPAN element in voice-stress example and client-side use question
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0013.html
-  ;Response : 
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0414.html (proposal to defer appendix for default user-agent speech stylesheet)
   ;Status : OPEN
   ;Resolution : N/A
 
