@@ -13,3 +13,5 @@ This page lists all standardized CSSOM constants in CSS to avoid the creation of
 | 8 | KEYFRAME_RULE | css3-animations |
 | 9 | - | likely COLOR_PROFILE, SVG/CSS4 |
 | 10 | NAMESPACE_RULE | CSSOM |
+| 11 | SUPPORTS_RULE | css3-conditional |
+| 12 | DOCUMENT_RULE | css3-conditional |
