@@ -38,7 +38,7 @@ Interesting scans:
   * http://d.hatena.ne.jp/choiyaki/20110908/1315431640
   * http://twitpic.com/2hzi0s
   * Koji's book with prime/double prime ?
-==== Code Points ===
+==== Code Points ====
 
 Not comprehensive at all yet.
 
@@ -55,6 +55,17 @@ Writing Mode categories:
 |U+FF1A|Fullwidth colon|U|V|Typically rotated in Japanese typesetting. Tends to be upright in traditional Chinese.|
 |U+FF1B|Fullwidth semicolon|U|V|Not used in Japanese, typically upright with no vert altglyph. Fonts seem inconsistent. What about Chinese?|
 |U+FF1D|Fullwidth equals sign|U|U|Typically rotated in Japanese fonts. What about Chinese?|
+
+==== Tailoring ====
+
+CSS would need to define some tailorings, should the Unicode spec include them too? E.g.
+
+  * upright-cyrillic
+  * upright-greek
+  * upright-latin
+  * sideways-symbols
+  * upright-math
+  * sideways-unified-punctuation-type-stuff
 
 ===== The East Asian Class Property ======
 Not reviewed yet.
