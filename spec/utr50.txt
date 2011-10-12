@@ -32,12 +32,14 @@ This page is a memo page to make our discussion on [[http://www.unicode.org/repo
 ==== Math ====
 
   * Fonts seem inconsistent about whether fullwidth characters are upright or sideways. ASCII is sideways.
+  * Some of them are unified; U+00B1 PLUS-MINUS SIGN, U+00D7 MULTIPLICATION SIGN, U+00F7 DIVISION SIGN, many Sm in U+22xx etc. have full-width glyphs in Japanese fonts and are traditionally upright. Not very comprehensive nor has logical distinction just like other EAW=A though.
+  * Maybe we could assume MathML are sideways while symbols in text are upright?
 
 Interesting scans:
 
   * http://d.hatena.ne.jp/choiyaki/20110908/1315431640
   * http://twitpic.com/2hzi0s
-  * Koji's book with prime/double prime ?
+  * Koji's book with prime/double prime ?{{:spec:vert_math.png?linkonly|}}
 ==== Code Points ====
 
 Not comprehensive at all yet.
