@@ -192,11 +192,13 @@
 ==== Issue 18 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 18</b>: 'voice-stress' property renaming to 'voice-emphasis'</span></html>
-  ;Status : OPEN
-  ;Resolution : N/A
+  ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>]</span></html>
+  ;Resolution : PENDING WORKING GROUP APPROVAL
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
-  ;Response : 
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0506.html
+
+
 
 ==== Issue 19 ====
 
