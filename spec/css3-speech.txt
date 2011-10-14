@@ -212,7 +212,7 @@
 
 ==== Issue 20 ====
 
-  ;Summary : <html><span style="background-color:#E0FFFF; padding:0.5em;"><b>ISSUE 20</b>: Not dropping the "at-risk" voice-balance property</span></html>
+  ;Summary : <html><span style="background-color:#E0FFFF; padding:0.5em;"><b>ISSUE 20</b>: Not dropping the "at-risk" 'voice-balance' property</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Invalid</code>]</span></html>
   ;Resolution : N/A
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> and James Craig <jcraig@apple.com>
