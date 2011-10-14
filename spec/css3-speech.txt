@@ -199,7 +199,7 @@
 
 ==== Issue 19 ====
 
-  ;Summary : <html><span style="background-color:#E0FFFF;"><b>ISSUE 19</b>: Remarks and questions (request for clarifications), not actual issues.</span></html>
+  ;Summary : <html><span style="background-color:#E0FFFF; padding:0.5em;"><b>ISSUE 19</b>: Remarks and questions (request for clarifications), not actual issues.</span></html>
   ;Status : **CLOSED** (''Invalid'')
   ;Resolution : N/A
   ;Raised By : Robert Brown <Robert.Brown@microsoft.com> (involved with, but not representing the HTML Speech Working Group)
