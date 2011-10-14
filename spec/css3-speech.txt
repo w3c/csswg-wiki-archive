@@ -190,12 +190,12 @@
 
 ==== Issue 18 ====
 
-  ;Summary : 'voice-stress' property renaming to 'voice-emphasis'
+  ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 18</b>: 'voice-stress' property renaming to 'voice-emphasis'</span></html>
+  ;Status : OPEN
+  ;Resolution : N/A
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : 
-  ;Status : OPEN
-  ;Resolution : N/A
 
 ==== Issue 19 ====
 
