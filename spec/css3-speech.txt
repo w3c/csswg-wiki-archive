@@ -182,12 +182,12 @@
 
 ==== Issue 17 ====
 
-  ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 17</b>: 'voice-duration' property's 'time' value</span></html>
-  ;Status : OPEN
-  ;Resolution : N/A
+  ;Summary : <html><span style="background-color:#E0FFFF;padding:0.5em;"><b>ISSUE 17</b>: 'voice-duration' property's 'time' value</span></html>
+  ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Invalid</code>]</span></html>
+  ;Resolution : PENDING WORKING GROUP APPROVAL
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
-  ;Response : 
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0509.html
 
 ==== Issue 18 ====
 
