@@ -172,12 +172,12 @@
 
 ==== Issue 16 ====
 
-  ;Summary : 'voice-family' property's 'preserve' value
+  ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 16</b>: 'voice-family' property's 'preserve' value</span></html>
+  ;Status : OPEN
+  ;Resolution : N/A
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : 
-  ;Status : OPEN
-  ;Resolution : N/A
 
 ==== Issue 17 ====
 
