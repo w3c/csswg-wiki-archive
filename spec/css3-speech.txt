@@ -181,12 +181,12 @@
 
 ==== Issue 17 ====
 
-  ;Summary : 'voice-duration' property's 'time' value
+  ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 17</b>: 'voice-duration' property's 'time' value</span></html>
+  ;Status : OPEN
+  ;Resolution : N/A
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : 
-  ;Status : OPEN
-  ;Resolution : N/A
 
 ==== Issue 18 ====
 
