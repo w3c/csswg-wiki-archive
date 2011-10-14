@@ -56,8 +56,8 @@
 ==== Issue 3 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 3</b>: Renaming the 'voice-volume' property to 'volume-voice'</span></html>
-  ;Status : OPEN
-  ;Resolution : N/A
+  ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>OPEN</b> [<code>...</code>]</span></html>
+  ;Resolution : Editor's proposal => ''Rejected''
   ;Raised By : Christoph Päper <christoph.paeper@crissov.de>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Aug/0552.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0109.html (proposal: reject renaming)
