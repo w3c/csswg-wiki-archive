@@ -97,7 +97,7 @@
 
   ;Summary : <html><span style="background-color:#E0FFFF; padding:0.5em;"><b>ISSUE 5</b>: 'voice-rate' percentages</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Invalid</code>]</span></html>
-  ;Resolution : N/A
+  ;Resolution : PENDING WORKING GROUP APPROVAL
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0011.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0411.html (prose is already correct. However, there is a mistake/typo in the example: "multiplied by 1.2" is not "one and a half times the speaking rate". <html><span style="background-color:#90EE90;">This needs to be fixed.</span></html>)
