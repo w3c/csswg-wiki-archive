@@ -264,6 +264,11 @@
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0518.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0521.html
 
+
+----
+
+
+
 ==== Issue 18 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 18</b>: 'voice-stress' property renaming to 'voice-emphasis'</span></html>
