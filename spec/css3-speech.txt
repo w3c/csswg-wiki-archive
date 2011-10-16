@@ -129,6 +129,10 @@
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0414.html (proposal to defer appendix for default user-agent speech stylesheet)
   ;Remark : http://lists.w3.org/Archives/Public/www-style/2011Oct/0422.html (HTML5 markup pretty stable)
 
+
+----
+
+
 ==== Issue 8 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 8</b>: no longdesc for the aural formatting model diagram</span></html>
