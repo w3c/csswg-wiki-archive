@@ -102,6 +102,10 @@
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0011.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0411.html (suggested changes are rejected, but "multiplied by 1.2" example must be fixed)
 
+
+----
+
+
 ==== Issue 6 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 6</b>: 'play-during' or equivalent property</span></html>
