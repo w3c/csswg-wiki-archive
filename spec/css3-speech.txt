@@ -62,6 +62,10 @@
   ;Comment 7 : http://lists.w3.org/Archives/Public/www-style/2011Oct/0511.html (''Verified'')
   ;Remarks : voice-language solution, similar to http://dev.w3.org/csswg/css3-fonts/#font-language-override-prop, as [[http://lists.w3.org/Archives/Public/www-style/2011May/0033.html|illustrated by Fantasai]]: ''voice-language: auto | <language-code> | inherit; inherited: yes; computed value: as specified; with auto => The used value is taken from the language of the selected element, or some UA-chosen value if unknown. The computed value is the keyword 'auto'.''
 
+
+----
+
+
 ==== Issue 3 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 3</b>: Renaming the 'voice-volume' property to 'volume-voice'</span></html>
