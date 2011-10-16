@@ -20,6 +20,7 @@
 | <html><span style="background-color:#E0FFFF;">ISSUE X</span></html> | Out-of-Scope or Invalid [not Verified] |
 | <html><span style="background-color:#FF0000;">ISSUE X</span></html> | Formal Objection                       |
   
+.
 
 ----
 
