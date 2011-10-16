@@ -63,6 +63,7 @@
   ;Raised By : Christoph Päper <christoph.paeper@crissov.de>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Aug/0552.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0109.html (proposal: reject renaming)
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0525.html
 
 ==== Issue 4 ====
 
