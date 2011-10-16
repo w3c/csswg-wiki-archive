@@ -21,6 +21,8 @@
 | <html><span style="background-color:#FF0000;">ISSUE X</span></html> | Formal Objection                       |
   
 
+----
+
 ==== ISSUE 1 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 1</b>: interaction between the 'voice-volume' property and the loudness of 'cue' properties</span></html>
