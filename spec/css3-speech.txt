@@ -137,7 +137,7 @@
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 8</b>: no longdesc for the aural formatting model diagram</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Accepted</code>]</span></html>
-  ;Resolution : N/A
+  ;Resolution : PENDING WORKING GROUP APPROVAL
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0015.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0412.html (agreed. we should link the diagram to the paragraph above, using aria:described-by and/or by editing the @alt attribute)
