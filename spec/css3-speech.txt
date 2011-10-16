@@ -142,6 +142,10 @@
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0015.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0412.html (agreed. we should link the diagram to the paragraph above, using aria:described-by and/or by editing the @alt attribute)
 
+
+----
+
+
 ==== Issue 9 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 9</b>: Appendix B — Index: why such cryptic hyperlink text?</span></html>
