@@ -32,6 +32,8 @@
   ;Comment 2 : http://lists.w3.org/Archives/Public/www-style/2011Sep/0503.html
   ;Response 2 : http://lists.w3.org/Archives/Public/www-style/2011Sep/0507.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0526.html
+
+
 ==== Issue 2 ====
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 2</b>: 'languages' attribute needed for voice selection with the 'voice-family' property</span></html>
