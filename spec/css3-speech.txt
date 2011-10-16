@@ -122,8 +122,8 @@
 ==== Issue 7 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 7</b>: use of generic SPAN element in voice-stress example and client-side use question</span></html>
-  ;Status : OPEN
-  ;Resolution : N/A
+  ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>]</span></html>
+  ;Resolution : PENDING WORKING GROUP APPROVAL
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0013.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0414.html (proposal to defer appendix for default user-agent speech stylesheet)
