@@ -77,9 +77,11 @@ CSS would need to define some tailorings, should the Unicode spec include them t
   * upright-cyrillic
   * upright-greek
   * upright-latin
+  * upright-letterlike
   * sideways-symbols
   * upright-math
-  * sideways-unified-punctuation-type-stuff
+  * upright-numeric
+  * sideways-unified-punctuation-type-stuff?
 
 ===== The East Asian Class Property ======
 Not reviewed yet.
