@@ -42,7 +42,7 @@ Interesting scans:
 
   * Although Han characters within math are sometimes sideways: http://d.hatena.ne.jp/choiyaki/20110908/1315431640 that may be a limitation of the math typesetter: http://fantasai.inkedblade.net/style/scans/ChinatownSFPL013.png http://fantasai.inkedblade.net/style/scans/ChinatownSFPL015.png
   * "y" in math are sideways, while "y" in text are upright: http://twitpic.com/2hzi0s
-  * Equals sign is sideways, even when math is set upright: http://fantasai.inkedblade.net/style/scans/ChinatownSFPL023.png file:///mnt/shared/Fantasai/site/style/scans/ChinatownSFPL027.png
+  * Equals sign is sideways, even when math is set upright: http://fantasai.inkedblade.net/style/scans/ChinatownSFPL023.png http://fantasai.inkedblade.net/style/scans/ChinatownSFPL027.png
   * Koji's book with prime/double prime ?{{:spec:vert_math.png?linkonly|}}
 ==== Code Points ====
 
