@@ -19,8 +19,9 @@ This page is a memo page to make our discussion on [[http://www.unicode.org/repo
     * Some fonts use U+301D/301F glyphs for U+201C/201D in vertical flow.
     * Some fonts use GPOS to adjust positions of punctuation in vertical flow.
     * For brush-stroke fonts, start and end edges of strokes (起筆/収筆 in Japanese) vary by flow direction for several glyphs, just like it does for U+30FC, because the direction brush moves is different; e.g., {{:spec:suzuedo.png?linkonly|}}
-  * U does not work with proportional or non-square fonts. If a font is condensed (tall) in horizontal flow, it needs to be condensed (wide) in vertical flow; e.g., [[http://www.axisfont.com/|AXIS fonts]]
-  * S/SB does not work with slanted fonts; e.g., {{:spec:susha.png?linkonly|}}
+  * Issues with non-square fonts:
+    * U does not work with proportional or non-square fonts. If a font is condensed (tall) in horizontal flow, it needs to be condensed (wide) in vertical flow; e.g., [[http://www.axisfont.com/|AXIS fonts]]
+    * S/SB does not work with slanted fonts; e.g., {{:spec:susha.png?linkonly|}}
   * Does the baseline alignment work good by just rotation?
     * EM DASH, Arrows, etc. aligns at center baseline?
     * Most font designers I contacted believe that it's ok as long as the font is a square font, but I'm worried as it has never been tested at all.
