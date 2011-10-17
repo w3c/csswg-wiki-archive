@@ -168,7 +168,7 @@ Because of the following reasons:
   * arrows, which function as relations in math, would also be typeset sideways by default (see above)
   * ASCII math symbols are expected to typeset sideways
   * mathematical formulae are usually typeset sideways even in vertical text
-  * the most commonly-used symbols that are intermixed with prose (× and +) are symmetric wrt rotation, and the equals sign (=) seems to be typeset sideways even when everything else is upright [[http://fantasai.inkedblade.net/style/scans/ChinatownSFPL028.png|example]]
+  * the most commonly-used symbols that are intermixed with prose (× and +) are symmetric wrt rotation, and the equals sign (''='') seems to be typeset sideways even when everything else is upright ([[http://fantasai.inkedblade.net/style/scans/ChinatownSFPL028.png|example]])
 we suggest math symbols should be typeset sideways by default.
 
 When intermixed in prose, variable names are often typeset upright, and in such styles math symbols might also be typeset upright. However in these situations some tailoring is necessary for the variable names whatever the mathematical default, so using this style to determine the default rules in plaintext does not make sense.
