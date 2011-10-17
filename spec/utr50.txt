@@ -55,7 +55,7 @@ Writing Mode categories:
 |U+2018-2019|LEFT/RIGHT SINGLE QUOTATION MARK|T|UF|Some people says T, while some says SB. Some says these should be consistent with U+201C/201D.|
 |U+201C-201D|Curly quotes|SB|V|Some people says T, while some says SB. Some fonts substitutes to 301D/301F glyphs in vert, so probably T is better.|
 |U+201E-201F|DOUBLE LOW/HIGH-REVERSED--9 QUOTATION MARK|SB|UF|Some people says T, while some says SB. Some says these should be consistent with U+201C/201D.|
-|U+301D/301F|REVERSED/Low DOUBLE PRIME QUOTATION MARK|T|V|These are glyphs only for vertical. T is probably good.|
+|U+301D/301F|REVERSED/Low DOUBLE PRIME QUOTATION MARK|T|V|These are double-quotes for vertical flow in Japanese. Some fonts use these glyphs as vert for U+2018/2019. Some fonts (Meiryo) uses DOUBLE PRIME glyphs for U+2018/2019 even in horizontal flow. These can also be used in math as double-dashes? T is probably good.|
 |U+301E|DOUBLE PRIME QUOTATION MARK|T|V|These are glyphs only for vertical. T is probably good.|
 |U+3033-3035|VERTICAL KANA REPEAT MARK|U|U|These are glyphs only for vertical. T is probably good.|
 |U+303B|VERTICAL IDEOGRAPHIC ITERATION MARK|U|U|These are glyphs only for vertical. T is probably good.|
