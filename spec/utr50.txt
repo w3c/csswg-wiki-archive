@@ -98,7 +98,7 @@ We believe the deadline for comment is too short for such a complex spec. In par
 
 ==== Scope ====
 
-UTR #50 scopes itself to Japanese layout. However, CSS needs to address all vertical writing systems (i.e. systems in which entire books are written in vertical text, not just used as a graphical effect). If the scope is not broadened to include other writing systems, we cannot use UTR#50.
+UTR #50 scopes itself to Japanese layout. However, CSS needs to address all vertical writing systems (i.e. systems in which entire books are written in vertical text, not just used as a graphical effect). If the scope is not broadened to include other writing systems, we cannot rely on UTR#50.
 
 ==== OpenType Features ====
 
