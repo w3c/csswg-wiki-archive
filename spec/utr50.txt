@@ -15,7 +15,7 @@ This page is a memo page to make our discussion on [[http://www.unicode.org/repo
     * Maybe most of the following issues are related with the fundamental question: "what are the goals of UTR #50". If it's for font designers to decide visual glyph orientations to put in vert table, some of these problems are gone, and CSS WG still needs to develop our own algorithm to decide orientation for UAs to render, which could be different from visual glyph orientation.
   * From what I understand, T allows anything; from changing glyph to changing orientations, so although "representative glyphs" are shown, their orientations are undefined in UTR #50. Some rotate, some do not, and it's up to font designer. Is this correct understanding?
   * If UTR #50 means fonts should not change glyphs/positions for U/S/SB, there are compatibility and font designing problems here.
-    * Some fonts use different glyphs for parenthesis/brackets in vertical  flow; e.g., U+FF62/FF63. {{ :spec:kodomonoji_20111005-en.png?direct&150|}}
+    * Some fonts use different glyphs for parenthesis/brackets in vertical  flow; e.g., U+FF62/FF63. {{ :spec:kodomonoji_20111005-en.png?linkonly|}}
     * Some fonts use U+301D/301F glyphs for U+201C/201D in vertical flow.
     * Some fonts use GPOS to adjust positions of punctuation in vertical flow.
     * For brush-stroke fonts, start and end edges of strokes (起筆/収筆 in Japanese) vary by flow direction for several glyphs, just like it does for U+30FC, because the direction brush moves is different.
