@@ -71,9 +71,11 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
   * <html><span style="color:crimson;font-weight:bold;">Alex</span></html>: to add an api to find out which element is in a named flow
 
 L-Action-7
-  * <html><span style="color:crimson;font-weight:bold;">Alex</span></html>: provide feedback on applicability of seamless frames in CSS regions.
+  * <html><span style="color:crimson;font-weight:bold;">Alex</span></html>: provide feedback on applicability of seamless frames in CSS regions. 
 
+**Feedback:** Seamless iframes don't automatically provide the desired behavior. Seamless iframe is actually transparent for styling, it is intended to be equivalent to literally inserting the content into the master document, while what we want for indirect flow is the flow looking and behaving as if it was the document being shown in paged media – styled exactly as author intended for the content, with no interaction with styling of the template.
 
+(as noted in http://lists.w3.org/Archives/Public/www-style/2011Sep/0098.html)
 ====== Completed or Duplicated Actions ======
 
 
