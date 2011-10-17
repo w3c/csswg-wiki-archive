@@ -65,8 +65,8 @@ Writing Mode categories:
 |U+337B-337F|Square era names|T|U|Adobe/Apple fonts use vertically compressed glyphs, while MS/Ricoh fonts use horizontally compressed glyphs using Tate-Chu-Yoko. JLTF says both should be allowed.|
 |U+FF0C|FULLWIDTH COMMA|U|U|Should be T, to make consistent with U+FF0C.|
 |U+FF0E|FULLWIDTH FULL STOP|U|U|Should be T, to make consistent with U+3002.|
-|U+FF1A|Fullwidth colon|U|V|Typically rotated in Japanese typesetting. Tends to be upright in traditional Chinese.|
-|U+FF1B|Fullwidth semicolon|U|V|Not used in Japanese, typically upright with no vert altglyph. Fonts seem inconsistent. What about Chinese?|
+|U+FF1A|Fullwidth colon|U|V|Typically rotated in Japanese typesetting. Traditional Chinese typesets upright. Should be T.|
+|U+FF1B|Fullwidth semicolon|U|V|Not used in Japanese, typically upright with no vert altglyph. Fonts seem inconsistent. Traditional Chinese typesets upright. Should be T.|
 |U+FF1D|Fullwidth equals sign|U|U|Typically rotated in Japanese fonts. What about Chinese?|
 |U+FF5C|Fullwidth vertical line|U|U|Typically rotated in Japanese typesetting|
 
