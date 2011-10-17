@@ -38,8 +38,8 @@ This page is a memo page to make our discussion on [[http://www.unicode.org/repo
 
 Interesting scans:
 
-  * http://d.hatena.ne.jp/choiyaki/20110908/1315431640
-  * http://twitpic.com/2hzi0s
+  * Even Han characters within math are sideways: http://d.hatena.ne.jp/choiyaki/20110908/1315431640
+  * "y" in math are sideways, while "y" in text are upright: http://twitpic.com/2hzi0s
   * Koji's book with prime/double prime ?{{:spec:vert_math.png?linkonly|}}
 ==== Code Points ====
 
