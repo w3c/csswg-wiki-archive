@@ -1,0 +1,83 @@
+====== UTR #50 Review Memo ======
+This page is a memo page to make our discussion on [[http://www.unicode.org/reports/tr50/|UTR #50]] smooth.
+
+===== General =====
+  * [[http://www.unicode.org/review/pri207/|PRI #207]] review period ends on Oct 24th, 2011 --- way too short
+  * Eric mentioned that [[http://www.unicode.org/forum/viewtopic.php?f=35&t=201|UTR #50 is for Japanese text and should define Hangul orientation that appears in Japanese text, rather than Hangul native orientation]]. Our goal of "upright-right" is a good vertical text flow for East Asian. Are we seeing things differently?
+  * UTR #50 only tries "some level of compatibility with existing fonts". Again, this is very different from our goals, isn't this?
+  * UTR #50 defines not only glyph orientation in vertical text flow but also character spacing classes in horizontal text flow, similar to what we have in the [[http://dev.w3.org/csswg/css3-text/#text-spacing-prop|text-spacing]] property. Shouldn't this be a separate discussion? Review period is too short for such a big property.
+  * UTR #50's suggested grapheme clusterization is a) imprecise b) doesn't handle exceptions in [[http://www.w3.org/TR/css3-writing-modes/#character-properties|Me and Zs categories]]
+  * Should add categories for tailorable vs. not tailorable, e.g. Phags-pa and Ideographic are not tailorable to rotate.
+  * OpenType feature for sideways vertical glyphs would be critical to allow calligraphic and condensed fonts to work with this scheme.
+===== The East Asian Orientation Property =====
+  * What are the definitions of U, S, SB, and T? ([[http://www.unicode.org/forum/viewtopic.php?f=35&t=198|Tk is gone]])
+    * Which one allows font designers to put alternate glyphs; i.e., UA applies vert feature?
+    * Maybe most of the following issues are related with the fundamental question: "what are the goals of UTR #50". If it's for font designers to decide visual glyph orientations to put in vert table, some of these problems are gone, and CSS WG still needs to develop our own algorithm to decide orientation for UAs to render, which could be different from visual glyph orientation.
+  * From what I understand, T allows anything; from changing glyph to changing orientations, so although "representative glyphs" are shown, their orientations are undefined in UTR #50. Some rotate, some do not, and it's up to font designer. Is this correct understanding?
+  * If UTR #50 means fonts should not change glyphs/positions for U/S/SB, there are compatibility and font designing problems here.
+    * Some fonts use different glyphs for parenthesis/brackets in vertical  flow; e.g., U+FF62/FF63. {{ :spec:kodomonoji_20111005-en.png?linkonly|}}
+    * Some fonts use U+301D/301F glyphs for U+201C/201D in vertical flow.
+    * Some fonts use GPOS to adjust positions of punctuation in vertical flow.
+    * For brush-stroke fonts, start and end edges of strokes (起筆/収筆 in Japanese) vary by flow direction for several glyphs, just like it does for U+30FC, because the direction brush moves is different.
+  * U does not work with proportional or non-square fonts. If a font is condensed (tall) in horizontal flow, it needs to be condensed (wide) in vertical flow; e.g., [[http://www.axisfont.com/|AXIS fonts]]
+  * Does the baseline alignment work good by just rotation?
+    * EM DASH, Arrows, etc. aligns at center baseline?
+    * Most font designers I contacted believe that it's ok as long as the font is a square font, but I'm worried as it has never been tested at all.
+
+==== Yi, Mongolian, Hangul, Bopomofo, Egyp ====
+  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=202|Vertical Directionality property from johnwcowan]]
+  * [[http://lists.w3.org/Archives/Public/public-i18n-cjk/2011OctDec/0000.html|Hangul characters upright or sideways in vertical flow?]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0128.html|Yi and Hangul]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0374.html|Egyp]] also [[http://www.omniglot.com/writing/egyptian_hieratic.htm|Hieratic]] does not rotate
+
+==== Math ====
+
+  * Fonts seem inconsistent about whether fullwidth characters are upright or sideways. ASCII is sideways.
+  * Some of them are unified; U+00B1 PLUS-MINUS SIGN, U+00D7 MULTIPLICATION SIGN, U+00F7 DIVISION SIGN, many Sm in U+22xx etc. have full-width glyphs in Japanese fonts and are traditionally upright. Not very comprehensive nor has logical distinction just like other EAW=A though.
+  * Maybe we could assume MathML are sideways while symbols in text are upright?
+
+Interesting scans:
+
+  * Even Han characters within math are sideways: http://d.hatena.ne.jp/choiyaki/20110908/1315431640
+  * "y" in math are sideways, while "y" in text are upright: http://twitpic.com/2hzi0s
+  * Koji's book with prime/double prime ?{{:spec:vert_math.png?linkonly|}}
+==== Code Points ====
+
+Not comprehensive at all yet.
+
+Writing Mode categories:
+  * U - vert and upright
+  * S - sideways
+  * V - vert or sideways
+
+^Code^Description^UTR^WM^Memo^
+|U+2016|Double vertical line|U|V|Typically rotated in Japanese typesetting|
+|U+2018-2019|LEFT/RIGHT SINGLE QUOTATION MARK|T|UF|Some people says T, while some says SB. Some says these should be consistent with U+201C/201D.|
+|U+201C-201D|Curly quotes|SB|V|Some people says T, while some says SB. Some fonts substitutes to 301D/301F glyphs in vert, so probably T is better.|
+|U+201E-201F|DOUBLE LOW/HIGH-REVERSED--9 QUOTATION MARK|SB|UF|Some people says T, while some says SB. Some says these should be consistent with U+201C/201D.|
+|U+301D/301F|REVERSED/Low DOUBLE PRIME QUOTATION MARK|T|V|These are glyphs only for vertical. T is probably good.|
+|U+301E|DOUBLE PRIME QUOTATION MARK|T|V|These are glyphs only for vertical. T is probably good.|
+|U+3033-3035|VERTICAL KANA REPEAT MARK|U|U|These are glyphs only for vertical. T is probably good.|
+|U+303B|VERTICAL IDEOGRAPHIC ITERATION MARK|U|U|These are glyphs only for vertical. T is probably good.|
+|U+3303, 3305, 3306, etc.|SQUARE of 3 chars|T|U|When one char in a line, it can be either align center or left (top) and that should be up to font designers. Showing representative glyphs can be misleading.|
+|U+337B-337F|Square era names|T|U|Adobe/Apple fonts use vertically compressed glyphs, while MS/Ricoh fonts use horizontally compressed glyphs using Tate-Chu-Yoko. JLTF says both should be allowed.|
+|U+FF0C|FULLWIDTH COMMA|U|U|Should be T, to make consistent with U+FF0C.|
+|U+FF0E|FULLWIDTH FULL STOP|U|U|Should be T, to make consistent with U+3002.|
+|U+FF1A|Fullwidth colon|U|V|Typically rotated in Japanese typesetting. Tends to be upright in traditional Chinese.|
+|U+FF1B|Fullwidth semicolon|U|V|Not used in Japanese, typically upright with no vert altglyph. Fonts seem inconsistent. What about Chinese?|
+|U+FF1D|Fullwidth equals sign|U|U|Typically rotated in Japanese fonts. What about Chinese?|
+|U+FF5C|Fullwidth vertical line|U|U|Typically rotated in Japanese typesetting|
+
+==== Tailoring ====
+
+CSS would need to define some tailorings, should the Unicode spec include them too? E.g.
+
+  * upright-cyrillic
+  * upright-greek
+  * upright-latin
+  * sideways-symbols
+  * upright-math
+  * sideways-unified-punctuation-type-stuff
+
+===== The East Asian Class Property ======
+Not reviewed yet.
