@@ -85,3 +85,91 @@ CSS would need to define some tailorings, should the Unicode spec include them t
 
 ===== The East Asian Class Property ======
 Not reviewed yet.
+
+
+===== Comments to Unicode =====
+
+From the CSS3 Writing Modes editors.
+
+=== Deadlines ===
+
+We believe the deadline for comment is too short for such a complex spec. In particular, the new classes will take time to review codepoint-by-codepoint. We hope therefore that Unicode plans to update the spec through multiple review cycles until it stabilizes before publishing UTR50 as a completed spec.
+
+=== Scope ===
+
+UTR #50 scopes itself to Japanese layout. However, CSS needs to address all vertical writing systems (i.e. systems in which entire books are written in vertical text, not just used as a graphical effect). If the scope is not broadened to include other writing systems, we cannot use UTR#50.
+
+=== OpenType Features ===
+
+Eric Muller expects ''vert'' to apply only to ''T'' (and maybe ''SB'') category glyphs. However, this is incompatible with many fonts and cannot be implemented by a system that expects to correctly handle legacy content (i.e. any content authored with currently-existing fonts).
+
+We would need to apply ''vert'' to the ''U'' category as well in order to handle:
+  * proportional and non-square (compressed) fonts, e.g. [[http://www.axisfont.com/|AXIS fonts]]
+
+We would need to apply ''vert'' to the ''SB'' category to handle
+  * Glyph differences between vertical and horizontal writing in calligraphic / handwriting fonts, e.g. [[spec:kodomonoji_20111005-en.png]] [[suzuedo.png]]
+
+A new font feature would be needed to apply to the ''S'' category to handle
+  * various subtle alignment issues for punctuation
+  * slanted fonts, e.g [[spec:susha.png]]
+
+=== Tailoring ===
+
+UTR #50 makes no mention of tailoring the orientations. We think the orientation classes should be tailorable.
+
+So that we don't have to manage codepoint-by-codepoint character classes, we'd like UTR#50 to include classes that are commonly tailored / not tailored, that we can reference. Some suggestions:
+
+  * class for characters that are pretty much never tailored, i.e. vertical-native scripts such as Han, Hangul, Phags-Pa etc.
+  * class for characters that belong to Western writing systems (typically set sideways) but are often set upright as symbols, i.e. Latin, Greek, and Cyrillic
+  * brackets, which are pretty much never tailored
+  * maybe others?
+
+=== Grapheme Clusters ===
+
+UTR #50 does not provide any rules or pointers to rules about grapheme clusterization. We suggest referencing UAX29 and giving examples of where the boundaries there might adjusted (e.g. in Indian scripts).
+
+The properties of a grapheme cluster should be defined. We suggest that the properties come from the first base character, except in the following cases:
+
+  * Grapheme clusters formed with a combining mark of class Me should be treated as So in the Common script.
+  * Grapheme clusters formed with a base of Zs should belong to category Sk and take their EAW from the space.
+
+See also http://www.w3.org/TR/css3-writing-modes/#character-properties
+
+=== Miscategorized Scripts ===
+
+The following scripts should be upright:
+
+  * Hangul
+  * All variants of Egyptian
+
+Yi needs more investigation from someone who knows the language. Old books tend to be vertical, and seem to be a rotation from the Unicode code charts. However I've seen vertical captions in horizontally-set books printed upright.
+
+=== Halfwidth Forms ===
+
+I was informed that halfwidth forms are strongly discouraged in vertical text, and typically set sideways. [?]
+
+=== Arrows and Box-Drawing ===
+
+Arrows and box-drawing characters should be set sideways by default, as unlike other symbols, they are usually typeset in spatial relation to other content rather than as a standalone graphic. (The same logic applies to the [[http://www.unicode.org/forum/viewtopic.php?f=35&t=206&sid=c7aee9b970811d5a1f4819bf10e2de6e|bracket pieces]].)
+
+Box drawing characters are any characters in the U+2500--U+259F range.
+
+Arrows are ''So'' characters in the U+2190--U+21FF, U+261A--U+261F, U+2794--U+27BE, U+2B00--U+2B11, and U+2B45--U+2B46 ranges; and ''Sm'' characters in the U+27F0--297F and U+2B30--U+2B4C ranges.
+
+Placing arrows into the ''S'' category instead of ''U'' also relieves concerns about inconsistent arrow orientations due to ''vert'' interpretation.
+
+=== Math ===
+
+Because of the following reasons:
+  * digits are typeset sideways by default
+  * commonly used variable names (Latin, Greek) are typeset sideways by default
+  * superscripts and subscripts are typeset sideways by default
+  * arrows, which function as relations in math, would also be typeset sideways by default (see above)
+  * ASCII math symbols are expected to typeset sideways
+  * mathematical formulae are usually typeset sideways even in vertical text
+  * the most commonly-used symbols that are intermixed with prose (× and +) are symmetric wrt rotation, and the equals sign (=) seems to be typeset sideways in any case
+we suggest math symbols should be typeset sideways by default.
+
+When intermixed in prose, variable names are often typeset upright, and in such styles math symbols might also be typeset upright. However in these situations some tailoring is necessary for the variable names whatever the mathematical default, so using this style to determine the default rules in plaintext does not make sense.
+
+The default orientation of fullwidth math symbols is less clear; perhaps they should be U/T (for equals).
