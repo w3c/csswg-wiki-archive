@@ -162,6 +162,7 @@ Arrows are ''So'' characters in the U+2190--U+21FF, U+261A--U+261F, U+2794--U+27
 Placing arrows into the ''S'' category instead of ''U'' also relieves concerns about inconsistent arrow orientations due to ''vert'' interpretation.
 
 kojiishi: shouldn't these be SB rather than S? I think SB is not only for legacy but also to "give glyph design flexibility to font designers". They may or may not use, but I would like to give them the max flexibility as long as layout is not be troubled.
+fantasai: no, they should be ''S''. ''SB'' is only for backwards compat for characters that are commonly treated as upright with ''vert''. Since arrows are inconsistent, they should not be treated that way. If font designers need flexibility, that should come from a new OpenType feature for sideways vertical settings.
 ==== Math ====
 
 Because of the following reasons:
