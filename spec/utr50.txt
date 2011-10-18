@@ -106,6 +106,7 @@ To force consistency in orientation, UTR#50 expects ''vert'' to apply only to ''
 
 We would need to apply ''vert'' to the ''U'' category as well in order to handle:
   * proportional and non-square (compressed) fonts, e.g. [[http://www.axisfont.com/|AXIS fonts]]
+  * cursive fonts
 
 We would need to apply ''vert'' to the ''SB'' category to handle
   * Glyph differences between vertical and horizontal writing in calligraphic / handwriting fonts, e.g. {{kodomonoji_20111005-en.png?linkonly|}} {{suzuedo.png?linkonly|}}
