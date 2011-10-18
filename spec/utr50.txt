@@ -117,13 +117,13 @@ A new font feature would be needed to apply to the ''S'' category to handle
 
 ==== Tailoring ====
 
-UTR #50 makes no mention of tailoring the orientations. We think the orientation classes should be tailorable.
+UTR #50 makes no mention of tailoring the orientations. We think the orientation classes should be tailorable; probably Unicode agrees, but this should be more clearly explained.
 
-So that we don't have to manage codepoint-by-codepoint character classes, we'd like UTR#50 to include classes that are commonly tailored / not tailored, that we can reference. Some suggestions:
+So that we don't have to manage codepoint-by-codepoint character classes, we'd eventually like UTR#50 to include classes that are commonly tailored / not tailored, that we can reference. Some examples:
 
   * class for characters that are pretty much never tailored, i.e. vertical-native scripts such as Han, Hangul, Phags-Pa etc.
   * class for characters that belong to Western writing systems (typically set sideways) but are often set upright as symbols, i.e. Latin, Greek, and Cyrillic
-  * brackets, which are pretty much never tailored
+  * brackets, which are pretty much never tailored to upright
   * maybe others?
 
 ==== Grapheme Clusters ====
