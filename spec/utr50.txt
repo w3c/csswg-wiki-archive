@@ -121,7 +121,7 @@ UTR #50 makes no mention of tailoring the orientations. We think the orientation
 
 So that we don't have to manage codepoint-by-codepoint character classes, we'd eventually like UTR#50 to include classes that are commonly tailored / not tailored, that we can reference. Some examples:
 
-  * class for characters that are pretty much never tailored, i.e. vertical-native scripts such as Han, Hangul, Phags-Pa etc.
+  * class for characters that are generally not tailored, i.e. vertical-native scripts such as Han, Hangul, Phags-Pa etc.
   * class for characters that belong to Western writing systems (typically set sideways) but are often set upright as symbols, i.e. Latin, Greek, and Cyrillic
   * brackets, which are pretty much never tailored to upright
   * maybe others?
