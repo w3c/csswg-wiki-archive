@@ -125,7 +125,7 @@ So that we don't have to manage codepoint-by-codepoint character classes, we'd e
   * class for characters that belong to Western writing systems (typically set sideways) but are often set upright as symbols, i.e. Latin, Greek, and Cyrillic
   * brackets, which are pretty much never tailored to upright
   * maybe others?
-    * copyright/registered were mentioned as an issue in UTR#50 {{:spec:copyright_vert.jpg?linkonly|}} {{:spec:copyright_horz.png?linkonly|}}
+    * ''So'' --- registered were mentioned as an issue in UTR#50, and here are samples of copyright symbol {{:spec:copyright_vert.jpg?linkonly|}} {{:spec:copyright_horz.png?linkonly|}}
 
 ==== Grapheme Clusters ====
 
