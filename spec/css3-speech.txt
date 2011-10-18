@@ -324,7 +324,10 @@ Note that this topic is tracked on the public CSS emailing list (feel free to co
   ;FormsPlayer (now "ubiquity-xforms", included in "backplanebx") : for Internet Explorer, provides prosody control via CSS properties (voice, volume, rate, pitch). See http://www.google.com/codesearch?q=speak+package:http://ubiquity-xforms-cpp\.googlecode\.com and http://code.google.com/p/backplanebx/source/browse/XFormsProcessor/content/XFormsProcessor/chrome/
   ;Mozilla : property parsing, see: https://bugzilla.mozilla.org/show_bug.cgi?id=525444 and https://bugzilla.mozilla.org/show_bug.cgi?id=47159
   ;Internet Explorer 9 : "does not support any of the CSS3 speech properties": http://msdn.microsoft.com/en-us/library/cc351024(v=vs.85).aspx#speech
-  ;Chrome TTS engine extension, ChromeVox, SSML support (not CSS) : see http://code.google.com/chrome/extensions/ttsEngine.html and http://code.google.com/chrome/extensions/tts.html and https://chrome.google.com/webstore/detail/kgejglhpjiefppelpmljglcjbhoiplfn and http://googlecode.blogspot.com/2011/10/new-text-to-speech-api-for-chrome.html and 
+
+NOTE: Chrome TTS engine extension, ChromeVox, SSML support (not CSS) : see http://code.google.com/chrome/extensions/ttsEngine.html and http://code.google.com/chrome/extensions/tts.html and https://chrome.google.com/webstore/detail/kgejglhpjiefppelpmljglcjbhoiplfn and http://googlecode.blogspot.com/2011/10/new-text-to-speech-api-for-chrome.html
+  
+  
 ==== Test Suite ====
 
 Related public email discussion:
