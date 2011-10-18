@@ -143,7 +143,7 @@ The following scripts should be upright:
   * Hangul
   * All variants of Egyptian
 
-Yi needs more investigation from someone who knows the language. Old books tend to be vertical, and seem to be a rotation from the Unicode code charts. However I've seen vertical captions in horizontally-set books printed upright.
+Yi needs more investigation from someone who knows the language. Older books are written vertically, and seem to be a rotation from the Unicode code charts. However I've seen vertical captions in horizontally-set books printed upright.
 
 ==== Halfwidth Forms ====
 
