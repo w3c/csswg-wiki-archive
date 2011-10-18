@@ -8,12 +8,19 @@ Agenda and Logistics for November 2011 CSS Working Group Face-to-Face meeting (S
 Please add your agenda topic suggestions here for prioritization and sorting.
 
   * Gradients (1 hour)
+    * Pending issues e.g radial Gradient syntax
+    * Publish LC
   * CSS OM Constants [[http://wiki.csswg.org/spec/cssom-constants]] (30 minutes)
   * CSS Exclusions & Shapes [[http://dev.w3.org/csswg/css3-exclusions/]]
   * CSS Positioned Layout [[http://dev.w3.org/csswg/css3-positioning/]]
   * Test suite issues (CSS 2.1)
   * CSS3 Values and Units [[http://www.w3.org/Style/CSS/Tracker/products/8|issues]] / LC
   * CSS3 Images &#8212; any other issues remaining; move to LC
+  * CSS3 Animations
+    * display:none and animations/transitions
+    * Next publication
+  * CSS Flexbox: pending issues, update WD
+  * Media Queries: test suite
 
 ===== Attendee Contact Information =====
 
