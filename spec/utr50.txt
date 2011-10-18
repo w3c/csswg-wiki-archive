@@ -56,7 +56,7 @@ Writing Mode categories:
 ^Code^Description^UTR^WM^Memo^
 |U+2016|Double vertical line|U|V|Typically rotated in Japanese typesetting|
 |U+2018-2019|LEFT/RIGHT SINGLE QUOTATION MARK|T|UF|Some people says T, while some says SB. Some says these should be consistent with U+201C/201D.|
-|U+201C-201D|Curly quotes|SB|V|Some people says T, while some says SB. Some fonts substitutes to 301D/301F glyphs in vert, so probably T is better.|
+|U+201C-201D|Curly quotes|SB|V|JLREQ defines "use double curly quotes in horizontal and double prime in vertical. Some people think these are SB because these code points are for horizontal only, and it's author's responsibility to replace them to U+301D/301F in vertical flow. Some says T, so that replacement can happen automatically when user switched text flow. Since it's split, probably T is better.|
 |U+201E-201F|DOUBLE LOW/HIGH-REVERSED--9 QUOTATION MARK|SB|UF|Some people says T, while some says SB. Some says these should be consistent with U+201C/201D.|
 |U+301D/301F|REVERSED/Low DOUBLE PRIME QUOTATION MARK|T|V|These are double-quotes for vertical flow in Japanese. Some fonts use these glyphs as vert for U+2018/2019. Some fonts (Meiryo) uses DOUBLE PRIME glyphs for U+2018/2019 even in horizontal flow. These can also be used in math as double-dashes? T is probably good.|
 |U+301E|DOUBLE PRIME QUOTATION MARK|T|V|These are glyphs only for vertical. T is probably good.|
