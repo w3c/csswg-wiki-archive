@@ -167,6 +167,11 @@ See Issue 1 below.
 
 ===== New Issues =====
    
+==== Issue 22: content v.s. flow-from precedence ====
+   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Oct/0568.html
+   ;Description: see email thread.
+   ;Proposal : reverse text and say that content takes precedence over flow-from.
+   
 ==== Issue 21: When does a flow get created? ====
 
    ;URL : none
