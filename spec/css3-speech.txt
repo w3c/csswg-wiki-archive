@@ -349,4 +349,9 @@ Related public email discussion:
   * Original request: http://lists.w3.org/Archives/Public/www-style/2011Oct/0013.html
   * Group to involve: [public-html-comments@w3.org], [www-style@w3.org], others?
 
+==== CSS speech authoring guidelines, good practices ====
+
+  * Request for special ARIA handling: http://lists.w3.org/Archives/Public/www-style/2011Oct/0017.html
+  * Other related requests (limits on volume, rate, pause/rest durations, etc.): http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
+  * Group to involve: [wai-liaison@w3.org], [w3c-wai-pf@w3.org], [www-style@w3.org], others?
 
