@@ -71,7 +71,7 @@ Writing Mode categories:
 |U+FF1D|Fullwidth equals sign|U|U|Typically rotated in Japanese fonts. What about Chinese?|
 |U+FF5C|Fullwidth vertical line|U|U|Typically rotated in Japanese typesetting|
 
-=== Letterlike Symbols ===
+==== Letterlike Symbols ====
   * EAW=JKST means the code point existed in legacy encoding of Japan/Korean/Simplified Chinese/Traditional Chinese. One could argue that EAC is legacy, but even today's Input Methods emit them, so EAW=A can indicate that the code are likely to be used even today.
 
 ^Code^Name^Cat^EAC^EAO^WM^EAW^Comments^
