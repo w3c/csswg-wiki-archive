@@ -72,17 +72,19 @@ Writing Mode categories:
 |U+FF5C|Fullwidth vertical line|U|U|Typically rotated in Japanese typesetting|
 
 === Letterlike Symbols ===
+  * EAW=JKST means the code point existed in legacy encoding of Japan/Korean/Simplified Chinese/Traditional Chinese. One could argue that EAC is legacy, but even today's Input Methods emit them, so EAW=A can indicate that the code are likely to be used even today.
+
 ^Code^Name^Cat^EAC^EAO^WM^EAW^Comments^
 |2100|ACCOUNT OF|So|19.3|U|S|N|
 |2101|ADDRESSED TO THE SUBJECT|So|19.3|U|S|N|
 |2102|DOUBLE-STRUCK CAPITAL C|Lu|19.3|U|S|N|
-|2103|DEGREE CELSIUS|So|13|U|S|A (JKST)|
+|2103|DEGREE CELSIUS|So|13|U|S|JKST|Googling "air temperature" (気温) hits several usage of this code point; e.g., {{http://www.data.kishou.go.jp/climate/cpdinfo/temp/an_jpn.html|1}}, {{http://www.weather-service.co.jp/weather/amedas/tmp/index.html|2}}, {{http://www.cokbee.com/weather/500temp.htm|3}}. They appear after ASCII/full-width digits because (I guess) they assume web is horizontal, but I expect it be formatted as full-width or Han digits if vertical. Type "do" in MS-IME and you get this.|
 |2104|CENTRE LINE SYMBOL|So|19.3|U|S|N|
-|2105|CARE OF|So|19.3|U|S|A (ST)|
+|2105|CARE OF|So|19.3|U|S|ST|
 |2106|CADA UNA|So|19.3|U|S|N|
 |2107|EULER CONSTANT|Lu|19.3|U|S|N|
 |2108|SCRUPLE|So|19.3|U|S|N|
-|2109|DEGREE FAHRENHEIT|So|13|U|S|A (KST)|
+|2109|DEGREE FAHRENHEIT|So|13|U|S|KST|
 |210A|SCRIPT SMALL G|Ll|19.3|U|S|N|
 |210B|SCRIPT CAPITAL H|Lu|19.3|U|S|N|
 |210C|BLACK-LETTER CAPITAL H|Lu|19.3|U|S|N|
@@ -92,10 +94,10 @@ Writing Mode categories:
 |2110|SCRIPT CAPITAL I|Lu|19.3|U|S|N|
 |2111|BLACK-LETTER CAPITAL I|Lu|19.3|U|S|N|
 |2112|SCRIPT CAPITAL L|Lu|19.3|U|S|N|
-|2113|SCRIPT SMALL L|Ll|13|U|S|A (K)|
+|2113|SCRIPT SMALL L|Ll|13|U|S|K|
 |2114|L B BAR SYMBOL|So|19.3|U|S|N|
 |2115|DOUBLE-STRUCK CAPITAL N|Lu|19.3|U|S|N|
-|2116|NUMERO SIGN|So|12|U|S|A (JKS)|
+|2116|NUMERO SIGN|So|12|U|S|JKS|Upright makes sense to me and I remember I saw some instances, but can't find right now. I'll look for further. Type "bangou" in MS-IME and you get this.|
 |2117|SOUND RECORDING COPYRIGHT|So|19.3|U|S|N|
 |2118|SCRIPT CAPITAL P|Sm|19.3|U|S|N|
 |2119|DOUBLE-STRUCK CAPITAL P|Lu|19.3|U|S|N|
@@ -106,17 +108,17 @@ Writing Mode categories:
 |211E|PRESCRIPTION TAKE|So|19.3|U|S|N|
 |211F|RESPONSE|So|19.3|U|S|N|
 |2120|SERVICE MARK|So|19.3|U|S|N|
-|2121|TELEPHONE SIGN|So|19.3|U|S|A (JKS)|
-|2122|TRADE MARK SIGN|So|19.3|U|S|A (K)|
+|2121|TELEPHONE SIGN|So|19.3|U|S|JKS|I thought I can find examples in vertical-flow-name cards, but could not find the use of this code. I'm pretty sure if I send this code as text to printing company, they'll set upright though. I'll look for further. Type "denwa" in MS-IME and you get this.|
+|2122|TRADE MARK SIGN|So|19.3|U|S|K|
 |2123|VERSICLE|So|19.3|U|S|N|
 |2124|DOUBLE-STRUCK CAPITAL Z|Lu|19.3|U|S|N|
 |2125|OUNCE SIGN|So|19.3|U|S|N|
-|2126|OHM SIGN|Lu|19.3|U|S|A (K)|
+|2126|OHM SIGN|Lu|19.3|U|S|K|
 |2127|INVERTED OHM SIGN|So|19.3|U|S|N|
 |2128|BLACK-LETTER CAPITAL Z|Lu|19.3|U|S|N|
 |2129|TURNED GREEK SMALL LETTER IOTA|So|19.3|U|S|N|
 |212A|KELVIN SIGN|Lu|19.3|U|S|N|
-|212B|ANGSTROM SIGN|Lu|19.3|U|S|A (JK)|
+|212B|ANGSTROM SIGN|Lu|19.3|U|S|JK|Type "ongusutoro-mu" in MS-IME and you get this. Interestingly, there're questions on the web asking "how to type half-width angstrom." Answers are "apply English font" or "type using English keyboard." The code point is the same, but Japanese fonts tend to have full-width glyph here, while roman fonts have proportional, so that's what they mean "half-width".|
 |212C|SCRIPT CAPITAL B|Lu|19.3|U|S|N|
 |212D|BLACK-LETTER CAPITAL C|Lu|19.3|U|S|N|
 |212E|ESTIMATED SYMBOL|So|19.3|U|S|N|
