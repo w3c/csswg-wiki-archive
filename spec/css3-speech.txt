@@ -334,3 +334,19 @@ Related public email discussion:
 
   * http://lists.w3.org/Archives/Public/www-style/2011Jun/0789.html
   * http://lists.w3.org/Archives/Public/www-style/2011Jun/0791.html
+
+
+===== Cross-cutting concerns, collaboration opportunities =====
+
+==== Unified / centralized sound mixer ====
+
+  * Complete, original message on [public-audio@w3.org]: http://lists.w3.org/Archives/Public/public-audio/2011OctDec/0039.html
+  * Forwarded message (and response) on [www-style@w3.org] and [public-xg-htmlspeech@w3.org]: http://lists.w3.org/Archives/Public/www-style/2011Oct/0575.html
+  * Potential additional group contacts? [public-html-comments@w3.org], [www-tag@w3.org], others?
+
+==== HTML5 default user-agent CSS speech stylesheet ====
+
+  * Original request: http://lists.w3.org/Archives/Public/www-style/2011Oct/0013.html
+  * Group to involve: [public-html-comments@w3.org], [www-style@w3.org], others?
+
+
