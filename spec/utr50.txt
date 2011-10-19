@@ -164,6 +164,14 @@ Placing arrows into the ''S'' category instead of ''U'' also relieves concerns a
 kojiishi: shouldn't these be SB rather than S? I think SB is not only for legacy but also to "give glyph design flexibility to font designers". They may or may not use, but I would like to give them the max flexibility as long as layout is not be troubled.
 
 fantasai: no, they should be ''S''. ''SB'' is only for backwards compat for characters that are commonly treated as upright with ''vert''. Since arrows are inconsistent, they should not be treated that way. If font designers need flexibility, that should come from a new OpenType feature for sideways vertical settings. Note the same problem applies to emdash. The inconsistencies here mean we cannot rely on ''vert'', we must force them sideways and create a new font feature to give glyph flexibility.
+
+==== Superscripts, Subscripts, Bracket Pieces ====
+
+We concur with the comments that suggest changing superscripts, subscripts, and bracket pieces to ''S'' by default.
+
+  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=204|superscripts and subscripts ]]
+  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=206|bracket pieces]]
+
 ==== Math ====
 
 Because of the following reasons:
