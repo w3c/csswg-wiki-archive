@@ -118,7 +118,7 @@ Writing Mode categories:
 |2128|BLACK-LETTER CAPITAL Z|Lu|19.3|U|S|N|
 |2129|TURNED GREEK SMALL LETTER IOTA|So|19.3|U|S|N|
 |212A|KELVIN SIGN|Lu|19.3|U|S|N|
-|212B|ANGSTROM SIGN|Lu|19.3|U|S|JK|Type "ongusutoro-mu" (angstrom) in MS-IME and you get this. Interestingly, there're questions on the web asking "how to type half-width angstrom." Answers are "apply English font" or "type using English keyboard." The code point is the same, but Japanese fonts tend to have full-width glyph here, while roman fonts have proportional, so that's what they mean "half-width".|
+|212B|ANGSTROM SIGN|Lu|19.3|U|S|JK|Type "ongusutoro-mu" (angstrom) in MS-IME and you get this; e.g., {{http://www.geocities.co.jp/HeartLand-Hanamizuki/9941/tips/tips03.html|1}}, {{http://oshiete.filesend.to/qa4705244.html|2}}. Interestingly, there're questions on the web asking "how to type half-width angstrom." Answers are "apply English font" or "type using English keyboard." The code point is the same, but Japanese fonts tend to have full-width glyph here, while roman fonts have proportional, so that's what they mean by "half-width". I couldn't find "how to type full-width angstrom" question; no idea because it's not used, or because it's too easy to figure out (use Input Method), but my guess is this is less commonly used unit symbol and therefore far less important to set upright than other symbols such as U+2103, U+2116, or U+2121.|
 |212C|SCRIPT CAPITAL B|Lu|19.3|U|S|N|
 |212D|BLACK-LETTER CAPITAL C|Lu|19.3|U|S|N|
 |212E|ESTIMATED SYMBOL|So|19.3|U|S|N|
