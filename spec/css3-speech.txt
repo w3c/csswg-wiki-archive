@@ -346,9 +346,9 @@ Related public email discussion:
 
 ==== Unified / centralized sound mixer ====
 
-  * Complete, original message on [public-audio@w3.org]: http://lists.w3.org/Archives/Public/public-audio/2011OctDec/0039.html
-  * Forwarded message (and response) on [www-style@w3.org] and [public-xg-htmlspeech@w3.org]: http://lists.w3.org/Archives/Public/www-style/2011Oct/0575.html
-  * Potential additional group contacts? [public-html-comments@w3.org], [www-tag@w3.org], others?
+  * Complete, original message on [public-audio@w3.org] (Audio Working Group): http://lists.w3.org/Archives/Public/public-audio/2011OctDec/0039.html
+  * Forwarded message (and response) on [www-style@w3.org] (CSS) and [public-xg-htmlspeech@w3.org] (HTML Speech): http://lists.w3.org/Archives/Public/www-style/2011Oct/0575.html
+  * Potential additional group contacts? [public-html-comments@w3.org] (HTML5), others?
 
 ==== HTML5 default user-agent CSS speech stylesheet ====
 
