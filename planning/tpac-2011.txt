@@ -2,10 +2,12 @@
 
 Agenda and Logistics for November 2011 CSS Working Group Face-to-Face meeting (Sunday October 30 - Tuesday November 1, 2011) at TPAC. Note: This should be a technical meeting, and focus should be on topics that benefit from us all being in the same room.
 
-**Sunday meeting** will be held at Adobe Systems Headquarters, 345 Park Ave, San Jose, CA 95113. From 9am to 5pm/6pm. Breakfast and lunch catered. Many thanks to Adobe for hosting on that day.
-
-  * How do we get in?
-  * Is there parking available?
+**Sunday meeting** 
+  * **Where?** Adobe Systems Headquarters, 345 Park Ave, San Jose, CA 95113. 
+  * **When?** 9am to 5pm/6pm. Breakfast and lunch catered. Many thanks to Adobe for hosting on that day.
+  * **Is there parking available?** Yes, parking is available at 345 Park Ave (West Tower). If asked, mention that you are a member of the W3C.
+  * **How do we get in?** We will be in the "_Park_" conference room. This conference room is right outside the East Tower Lobby. You can access it directly from 321 Park Avenue. Getting access does not require signing in or signing any legal agreement (NDA, etc...)
+  * **What if I get lost?** Give Arno a call at +1.415.350.3946.
 
 ===== Agenda Brainstorming =====
 
@@ -47,6 +49,7 @@ Please add your arrival and departure dates, hotel name and mobile phone info (f
 | Daniel Glazman (chair)| 28 Oct – 3 Nov | Avatar | +33 6 0791 0256 |
 | John Daggett | 29 Oct – 4 Nov | Avatar | - |
 | Vincent Hardy| 28 Oct – 3 Nov | Home | +1 415 290 85 17 |
+| Arno Gourdol | 28 Oct – 3 Nov | Home | +1 415 350 3946 |
 | Name | Dates | Hotel | Contact |
 
 
