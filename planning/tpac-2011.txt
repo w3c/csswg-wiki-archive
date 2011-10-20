@@ -16,7 +16,12 @@ Please add your agenda topic suggestions here for prioritization and sorting.
   * Gradients (1 hour)
     * Pending issues e.g radial Gradient syntax
     * Publish LC
-  * CSS OM Constants [[http://wiki.csswg.org/spec/cssom-constants]] (30 minutes)
+  * CSS OM 
+    * DOM interfaces for new @-rules
+      * Minimal requirements
+      * How fine-grained does the interface need to be?
+    * Constants for @-rules [[http://wiki.csswg.org/spec/cssom-constants]]
+    * Define event for font loads?
   * CSS Exclusions & Shapes [[http://dev.w3.org/csswg/css3-exclusions/]]
   * CSS Positioned Layout [[http://dev.w3.org/csswg/css3-positioning/]]
   * Test suite issues (CSS 2.1)
