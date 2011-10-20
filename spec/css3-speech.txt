@@ -153,7 +153,7 @@
 
 ==== Issue 9 ====
 
-  ;Summary : <html><span style="background-color:#FFA500; padding:0.5em;"><b>ISSUE 9</b>: Appendix B — Index: why such cryptic hyperlink text?</span></html>
+  ;Summary : <html><span style="background-color:#90EE90; padding:0.5em;"><b>ISSUE 9</b>: Appendix B — Index: why such cryptic hyperlink text?</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Accepted</code>]</span></html>
   ;Resolution : Working Group consensus: fix the automatically-generated index, which will improve all the CSS specifications. (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
