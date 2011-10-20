@@ -353,7 +353,7 @@ Related public email discussion:
 ==== HTML5 default user-agent CSS speech stylesheet ====
 
   * Original request: http://lists.w3.org/Archives/Public/www-style/2011Oct/0013.html
-  * Group to involve: [public-html-comments@w3.org], [www-style@w3.org], others?
+  * Group to involve: [public-html-comments@w3.org] (HTML5), [www-style@w3.org] (CSS), [w3c-html-cg@w3.org] (Hypertext Coordination Group), others?
 
 ==== CSS speech authoring guidelines, good practices ====
 
