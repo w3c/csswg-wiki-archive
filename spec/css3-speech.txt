@@ -198,11 +198,12 @@
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 12</b>: 'voice-volume' property's 'silent' value</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>]</span></html>
-  ;Resolution : Working Group consensus: reject the removal of the 'silent' value (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : Working Group consensus: keep the 'silent' value as-is (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0529.html
-  ;Response : xxx (notification of Working Group consensus / resolution)
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0614.html (notification of Working Group consensus / resolution)
+
 
 ----
 
