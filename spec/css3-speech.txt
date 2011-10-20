@@ -225,15 +225,15 @@
 ==== Issue 14 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 14</b>: 'pause-before' and 'pause-after' properties</span></html>
-  ;Status : OPEN
-  ;Resolution : Editor's proposal: reject suggestion to restrict time ranges, refer to Media Queries for specific speech contexts (new Media Types / Features).
+  ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>]</span></html>
+  ;Resolution : Working Group consensus: not to add restrictions on time values (good authoring practices are out-of-scope). Media Queries, Media Types / Features are out-of-scope too. (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0537.html
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0616.html (notification of Working Group consensus / resolution)
 
 
 ----
-
 
 ==== Issue 15 ====
 
