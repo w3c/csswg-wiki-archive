@@ -26,6 +26,9 @@ Please add your agenda topic suggestions here for prioritization and sorting.
   * CSS Flexbox: pending issues, update WD
   * Media Queries: test suite
   * CSS regions: remaining [[http://wiki.csswg.org/spec/css3-regions#issues-to-resolve-with-the-css-wg|issues]]
+  * CSS3 Fonts
+  * CSS3 Writing Modes
+    * **Brief** discussion of ongoing work on [[http://www.unicode.org/reports/tr50/tr50-1.html|UTR #50]] and how if affects text-orientation
 
 ===== Attendee Contact Information =====
 
