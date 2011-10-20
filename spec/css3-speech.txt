@@ -183,11 +183,12 @@
 ==== Issue 11 ====
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 11</b>: relative 'voice-volume' values (e.g. Louder / Softer)</span></html>
-  ;Status : OPEN
-  ;Resolution : Editor's proposal: reject new keywords (2 other topics are #1 invalid, and #2 already-addressed issue)
+  ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>]</span></html>
+  ;Resolution : Working Group consensus: reject "louder" and "softer" keywords, but agree to improve informative prose (examples) for decibel offsets (as well as for 'voice-rate' percentages) (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0528.html
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0613.html (notification of Working Group consensus / resolution)
 
 
 ----
