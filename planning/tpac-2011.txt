@@ -21,6 +21,7 @@ Please add your agenda topic suggestions here for prioritization and sorting.
     * Next publication
   * CSS Flexbox: pending issues, update WD
   * Media Queries: test suite
+  * CSS regions: remaining [[http://wiki.csswg.org/spec/css3-regions#issues-to-resolve-with-the-css-wg|issues]]
 
 ===== Attendee Contact Information =====
 
