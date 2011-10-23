@@ -38,6 +38,8 @@ Please add your agenda topic suggestions here for prioritization and sorting.
   * CSS3 Writing Modes
     * **Brief** discussion of ongoing work on [[http://www.unicode.org/reports/tr50/tr50-1.html|UTR #50]] and how if affects text-orientation
 
+WebApps and WebAppsSec have a session Monday 11-12am on CORS etc; affects CSS3 Fonts.
+
 ===== Attendee Contact Information =====
 
 Please add your arrival and departure dates, hotel name and mobile phone info (for those comfortable in doing so).
