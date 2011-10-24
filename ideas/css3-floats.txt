@@ -30,6 +30,7 @@ We noted that “float” should have been better tied to “position” because
 ===== Action Items =====
 
 
+  * Vincent: add 'inherit' to all property values.
   * [[http://www.w3.org/Style/CSS/Tracker/actions/356|ACTION 356]] Vincent: Make the default value for wrap-mode be auto
   * Vincent: Create a stub specification for CSS Floats.
   * Rossen. Write up the processing model for exclusions.
