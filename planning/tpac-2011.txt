@@ -48,27 +48,30 @@ Declarative 3D Community Group meeting Tuesday 9am-1pm [Simon, Ted?]
 Please add your arrival and departure dates, hotel name and mobile phone info (for those comfortable in doing so).
 
 ^ Name     ^ Dates       ^ Hotel         ^ Contact # ^
+| Rossen Atanassov | 29 Oct – 4 Nov | Marriott| +1 425 301 3017 |
+| L. David Baron | - | at home | see [[https://www.w3.org/2000/09/dbwg/details?group=32061|member-only data]] |
+| Kimberly Blessing | 30 Oct – 4 Nov | Marriott | @obiwankimberly |
+| Bert Bos | 29 Oct - 5 Nov | Marriott | see [[https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0087.html|e-mail]] |
+| Tantek Çelik | 2011-303...308 | ... | [[http://twitter.com/t|@t]], [[aim:goim?screenname=tantekc|aim:tantekc]] |
+| John Daggett | 29 Oct – 4 Nov | Avatar | - |
+| Arron Eicholz | 29 Oct – 3 Nov | Marriott | - | 
 | Elika J. Etemad | 29 Oct – 4 Nov | Avatar | I'm not posting my cell phone publicly, sorry. |
+| Simon Fraser | 31 Oct - 3 Nov | local | - |
+| Sylvain Galineau | 29 Oct – 4 Nov | Avatar | +1 603 957 1211 |
+| Daniel Glazman (chair)| 28 Oct – 3 Nov | Avatar | +33 6 0791 0256 |
+| Arno Gourdol | 28 Oct – 3 Nov | Home | +1 415 350 3946 |
+| Vincent Hardy| 28 Oct – 3 Nov | Home | +1 415 290 85 17 |
 | Molly E. Holzschlag | 28 Oct – 5 Nov | Marriott | +1 520 250 8022 |
+| Koji Ishii | 29 Oct - 5 Nov | Avatar | see [[https://www.w3.org/2000/09/dbwg/details?group=32061|member-only data]] |
+| Håkon Wium Lie | 30 Oct - 2 Nov |  | +47 90192217 |
+| Chris Lilley | 25 Oct - 5 Nov |Avatar then Marriott| @svgeesus |
 | Peter Linss | 27 Oct – 5 Nov | Marriott | - |
+| Edward O'Connor | - | at home | see [[https://www.w3.org/2000/09/dbwg/details?group=32061|member-only data]] |
 | Florian Rivoal | 29 Oct – 3 Nov | Avatar | - |
 | Alan Stearns | 27 Oct – 3 Nov | Avatar | +1 206 550 4299 |
-| L. David Baron | - | at home | see [[https://www.w3.org/2000/09/dbwg/details?group=32061|member-only data]] |
-| Sylvain Galineau | 29 Oct – 4 Nov | Avatar | +1 603 957 1211 |
-| Kimberly Blessing | 30 Oct – 4 Nov | Marriott | @obiwankimberly |
-| Arron Eicholz | 29 Oct – 3 Nov | Marriott | - | 
-| Daniel Glazman (chair)| 28 Oct – 3 Nov | Avatar | +33 6 0791 0256 |
-| John Daggett | 29 Oct – 4 Nov | Avatar | - |
-| Vincent Hardy| 28 Oct – 3 Nov | Home | +1 415 290 85 17 |
-| Arno Gourdol | 28 Oct – 3 Nov | Home | +1 415 350 3946 |
-| Rossen Atanassov | 29 Oct – 4 Nov | Marriott| +1 425 301 3017 |
-| Chris Lilley | 25 Oct - 5 Nov |Avatar then Marriott| @svgeesus |
-| Bert Bos | 29 Oct - 5 Nov | Marriott | see [[https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0087.html|e-mail]] |
-| Håkon Wium Lie | 30 Oct - 2 Nov |  | +47 90192217 |
-| Koji Ishii | 29 Oct - 5 Nov | Avatar | see [[https://www.w3.org/2000/09/dbwg/details?group=32061|member-only data]] |
-| Edward O'Connor | - | at home | see [[https://www.w3.org/2000/09/dbwg/details?group=32061|member-only data]] |
-| Simon Fraser | 31 Oct - 3 Nov | local | - |
 | Name | Dates | Hotel | Contact |
+
+(Editorial/admin note: any way to add class names to an HTML table like the above to say each TR and TD (by column position) ?)
 
 
 ===== Hotels and Transportation =====
