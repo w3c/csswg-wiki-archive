@@ -27,7 +27,7 @@ Please add your agenda topic suggestions here for prioritization and sorting.
   * CSS Positioned Layout [[http://dev.w3.org/csswg/css3-positioning/]]
   * Test suite issues (CSS 2.1)
   * CSS3 Values and Units [[http://www.w3.org/Style/CSS/Tracker/products/8|issues]] / LC
-  * CSS3 Images &#8212; any other issues remaining; move to LC
+  * CSS3 Images any other issues remaining; move to LC
   * CSS3 Animations
     * display:none and animations/transitions
     * Next publication
