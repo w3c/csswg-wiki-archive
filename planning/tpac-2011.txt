@@ -42,6 +42,7 @@ Please add your agenda topic suggestions here for prioritization and sorting.
 
 Joint meeting with WebApps and WebAppsSec [[http://www.w3.org/2008/webapps/wiki/TPAC2011|Monday 11-12am on CORS and From-Origin]]. Affects CSS3 Fonts and other API's relying on cross-origin embedding.
 
+Declarative 3D Community Group meeting Tuesday 9am-1pm [Simon, Ted?]
 ===== Attendee Contact Information =====
 
 Please add your arrival and departure dates, hotel name and mobile phone info (for those comfortable in doing so).
