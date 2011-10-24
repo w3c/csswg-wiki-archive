@@ -37,6 +37,7 @@ Please add your agenda topic suggestions here for prioritization and sorting.
   * CSS3 Fonts
   * CSS3 Writing Modes
     * **Brief** discussion of ongoing work on [[http://www.unicode.org/reports/tr50/tr50-1.html|UTR #50]] and how if affects text-orientation
+  * [[https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0085.html|Invitation from 3D Community Group]]
 
 Joint meeting with WebApps and WebAppsSec [[http://www.w3.org/2008/webapps/wiki/TPAC2011|Monday 11-12am on CORS and From-Origin]]. Affects CSS3 Fonts and other API's relying on cross-origin embedding.
 
@@ -60,6 +61,7 @@ Please add your arrival and departure dates, hotel name and mobile phone info (f
 | Arno Gourdol | 28 Oct – 3 Nov | Home | +1 415 350 3946 |
 | Rossen Atanassov | 29 Oct – 4 Nov | Marriott| +1 425 301 3017 |
 | Chris Lilley | 25 Oct - 5 Nov |Avatar then Marriott| @svgeesus |
+| Bert Bos | 29 Oct - 5 Nov | Marriott | see [[https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0087.html|e-mail]] |
 | Name | Dates | Hotel | Contact |
 
 
