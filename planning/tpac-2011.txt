@@ -71,6 +71,7 @@ Please add your arrival and departure dates, hotel name and mobile phone info (f
 | Florian Rivoal | 29 Oct – 3 Nov | Avatar | - |
 | Alan Stearns | 27 Oct – 3 Nov | Avatar | +1 206 550 4299 |
 | Steve Zilles | 28 Oct - 3 Nov | Home | - |
+| Alex Mogilevsky| 30 Oct – 3 Nov | Mariott | see [[https://www.w3.org/2000/09/dbwg/details?group=32061|member-only data]] |
 | Name | Dates | Hotel | Contact |
 
 (Editorial/admin note: any way to add class names to an HTML table like the above to say each TR and TD (by column position) ?)
