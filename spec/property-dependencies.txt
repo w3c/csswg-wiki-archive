@@ -12,4 +12,4 @@ This page lists the ways in which the computed value of one property depends on 
 | 'none' and 'hidden' | border-*-width | border-*-style |
 | 'none' and 'hidden' | outline-width | outline-style |
 | absolute/fixed position makes float:none | float | position |
-| float/position make things block-like | display | position, float |
+| float/position/root make things block-like | display | position, float |
