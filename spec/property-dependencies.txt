@@ -8,3 +8,6 @@ This page lists the ways in which the computed value of one property depends on 
 | currentColor | every property taking color units (...) | color |
 | % units | vertical-align | line-height |
 | logical box properties | ??? | direction |
+| 'none' and 'hidden' | border-*-width | border-*-style |
+| absolute/fixed position makes float:none | float | position |
+| float/position make things block-like | display | position, float |
