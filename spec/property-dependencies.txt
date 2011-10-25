@@ -3,9 +3,9 @@
 This page lists the ways in which the computed value of one property depends on the computed value of another.  This is important to track so that we can avoid creating circular dependencies.
 
 ^ Reason ^ Dependent property ^ Property depended upon ^
-| em units | every property taking length units (...) | font-size |
-| ex units, ch units | every property taking length units (...) | font-size, font-family, font-size-adjust, font-stretch, font-style, font-variant, font-weight |
-| currentColor | every property taking color units (...) | color |
+| em units | every property taking length values (...) | font-size |
+| ex units, ch units | every property taking length values (...) | font-size, font-family, font-size-adjust, font-stretch, font-style, font-variant, font-weight |
+| currentColor | every property taking color values (...) | color |
 | % units | vertical-align | line-height |
 | % units | line-height | font-size |
 | logical box properties | ??? | direction |
