@@ -59,3 +59,4 @@ CSSWG members' comments on related specs not published by our group.
 
 ====== Coordination between specifications ======
   * [[spec:cssom-constants|CSSOM Constants]]
+  * [[spec:property-dependencies|Property dependencies]] in computed values
