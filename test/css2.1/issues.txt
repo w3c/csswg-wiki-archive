@@ -360,8 +360,7 @@ treatment of broken images in 'content'." coming from [[http://lists.w3.org/Arch
   - widows-00*
   - Also any "paged" test cases
 
-==== REC test case with incorrect references ====
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/z-index-020.htm|z-index-020]]
+
 ===== General Issues =====
   * http://lists.w3.org/Archives/Public/public-css-testsuite/2007Jul/0011.html
   * Some tests are assuming the system has access to glyphs for non-Latin fonts. If this isn't the case, the test could pass without actually testing anything.
