@@ -56,3 +56,6 @@ CSSWG members' comments on related specs not published by our group.
   * [[spec:cvs|W3C CVS For Dummies]] --- using dev.w3.org to edit editor's drafts
   * [[spec:publish|Step-by-step Publishing a Spec]] --- getting your spec on www.w3.org
   * [[http://dev.w3.org/csswg/css-module/Overview.src.html|CSS Module Template]] --- for starting new specs (and formatting old ones)
+
+====== Coordination between specifications ======
+  * [[spec:cssom-constants|CSSOM Constants]]
