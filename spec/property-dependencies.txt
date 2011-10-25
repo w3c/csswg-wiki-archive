@@ -9,6 +9,7 @@ This page lists the ways in which the computed value of one property depends on 
 | % units (CSS21) | vertical-align | line-height |
 | % units (CSS21) | line-height | font-size |
 | logical box properties (css3-writing-modes) | ??? | direction |
+| text-align: match-parent (css3-text) | text-align | direction |
 | 'none' and 'hidden' (CSS21) | border-*-width | border-*-style |
 | 'none' and 'hidden' (CSS21) | outline-width | outline-style |
 | 'none' and 'hidden' (css3-columns) | column-rule-width | column-rule-style |
