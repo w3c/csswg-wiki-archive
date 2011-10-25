@@ -37,6 +37,7 @@ Please add your agenda topic suggestions here for prioritization and sorting.
   * CSS3 Fonts
   * CSS3 Writing Modes
     * **Brief** discussion of ongoing work on [[http://www.unicode.org/reports/tr50/tr50-1.html|UTR #50]] and how if affects text-orientation
+    * Proposed time: Sunday afternoon so that Ken Lunde and Taro Yamamoto from Adobe can attend
   * [[https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0085.html|Invitation from 3D Community Group]]
   * CSS GCPM: in particular 'overflow: paged', 'float: top/bottom/corner/next-page', and 'column-span: integer'
 
