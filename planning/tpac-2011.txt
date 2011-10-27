@@ -47,7 +47,13 @@ Please add your agenda topic suggestions here for prioritization and sorting.
   * CSS GCPM: I'd like to publish updated WD. 
   * CSS multicol: We should settle margin collapsing issue for spanners, and define more exact behavior for break-* properties
 
+Text Orientation and Unicode issues on Sunday afternoon with invitees from Adobe.
+
 Joint meeting with WebApps and WebAppsSec [[http://www.w3.org/2008/webapps/wiki/TPAC2011|Monday 11-12am on CORS and From-Origin]]. Affects CSS3 Fonts and other API's relying on cross-origin embedding.
+
+Joint meeting with PF WG on Tuesday 3:30pm-5pm regarding a11y and CSS layout.
+
+Joint meeting with FXTF on Thursday at 9am (in SVG WG meeting room).
 
 Declarative 3D Community Group meeting Tuesday 9am-1pm [Simon, Ted?]
 ===== Attendee Contact Information =====
