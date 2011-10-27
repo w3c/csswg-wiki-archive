@@ -33,4 +33,5 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
   * [[ideas:margin-collapsing|Margin Collapse Controls]]
   * [[ideas:box-model-extensions|Box Model Extensions]]
   * [[ideas:css3-floats|CSS Floats]]
+  * [[ideas:css3-exclusions|CSS Exclusions and Shapes]]
   * [[ideas:print-backgrounds|Printing Backgrounds]]
