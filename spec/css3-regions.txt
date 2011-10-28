@@ -167,8 +167,29 @@ See: [[http://lists.w3.org/Archives/Member/w3c-css-wg/2011JulSep/0107.html|Alex'
 ✔ <html><span style="color:#6c6;font-weight:bold;">Vincent</span></html>: document the from-flow v.s. content issue and create proposal.
 See Issue 1 below.
 
-===== New Issues =====
+===== Open Issues =====
    
+
+==== Issue 12: Should we allow multi-column elements to be regions? ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Aug/0264.html
+  ;Summary : should we allow the following: a magazine articles with regions galore on the first page, and then it switches to simple multi-column layout from page 2 and onwards
+  ;Proposal : May be an interesting feature, but should move to next revision of CSS regions for simplicity.
+     
+
+==== Issue 10: Should the regionLayoutUpdate event by Sync or Async? ====
+
+  ;Summary : The current spec. says that regionLayoutUpdate event is Sync (see (http://www.w3.org/TR/DOM-Level-3-Events/#sync-async). Should the event be made Async.
+  ;Discussion : In DOM Level 3 events, all events are Sync. except 'error', 'load', 'wheel' and 'scroll' which are Async. Not clear what guides making an event Sync or Async.
+  ;Proposal : Async. (implemented in IE10).
+  
+
+==== Issue 18: Interplay of flow-from and content ====
+
+   ;URL : http://krijnhoetmer.nl/irc-logs/css/20110824
+   ;Description : During the 08/24/2011, the working group resolved to use the 'flow-from' property instead of the content property to make an element a region. Fantasai expressed reserves and Steve Zilles suggested to add an issue.
+   ;Proposal : close this issue and wait for a formal issue expressing specific technical problems.
+
 ==== Issue 23: should regions be non-breakable ====
    ;URL : http://lists.w3.org/Archives/Public/www-style/2011Oct/0625.html
    ;Description: see email thread.
@@ -238,45 +259,22 @@ Note that with this approach, it is not possible to concatenate content from mul
   **con* content is provided/defined by stylesheet, which seems wrong. 
 
    ;Proposal : TBD 
-
-==== Issue 18: Interplay of flow-from and content ====
-
-   ;URL : http://krijnhoetmer.nl/irc-logs/css/20110824
-   ;Description : During the 08/24/2011, the working group resolved to use the 'flow-from' property instead of the content property to make an element a region. Fantasai expressed reserves and Steve Zilles suggested to add an issue.
-   ;Proposal : close this issue and wait for a formal issue expressing specific technical problems.
  
-
-
-
-  
-  
-===== Issues to Resolve with the CSS WG =====
-
-==== Issue 12: Should we allow multi-column elements to be regions? ====
-
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Aug/0264.html
-  ;Summary : should we allow the following: a magazine articles with regions galore on the first page, and then it switches to simple multi-column layout from page 2 and onwards
-  ;Proposal : May be an interesting feature, but should move to next revision of CSS regions for simplicity.
-  
-==== Issue 14: ::region-lines pseudo-selector ====
-
-   ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0518.html">
-   ;Description : there is concern (see link) that the ''first-line'' precedent is underspecified and that more specification is needed in addition to referencing the existing precedent.
-   ;Proposal : modify region styling to only have @region rules and limit the number of properties that can be part of the @ rule. For example, disallow width/height, display, float, position and properties that change the nature of the element.
-   
-
-==== Issue 10: Should the regionLayoutUpdate event by Sync or Async? ====
-
-  ;Summary : The current spec. says that regionLayoutUpdate event is Sync (see (http://www.w3.org/TR/DOM-Level-3-Events/#sync-async). Should the event be made Async.
-  ;Discussion : In DOM Level 3 events, all events are Sync. except 'error', 'load', 'wheel' and 'scroll' which are Async. Not clear what guides making an event Sync or Async.
-  ;Proposal : Async. (implemented in IE10).
-  
   
 
   
 
 
 ===== Issues Resolved by Editors =====
+
+==== Issue 14: ::region-lines pseudo-selector ====
+
+   REPLACED BY ISSUE 20. THERE IS NO MORE ::region-lines IN THE CURRENT EDITOR DRAFT.
+   
+   ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0518.html">
+   ;Description : there is concern (see link) that the ''first-line'' precedent is underspecified and that more specification is needed in addition to referencing the existing precedent.
+   ;Proposal : modify region styling to only have @region rules and limit the number of properties that can be part of the @ rule. For example, disallow width/height, display, float, position and properties that change the nature of the element.
+  
 
 ==== Issue 2 : Auto-sizing of regions ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/0629.html
