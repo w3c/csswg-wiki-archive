@@ -79,7 +79,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 		z-index: 1; /* avoid being affected by #square */
 		wrap-flow: both; 
 		wrap-margin: 10px;
-		wrap-shape: circle(50%, 50%, 30%);    
+		shape-outside: circle(50%, 50%, 30%);    
 	}
 	
 	/* will be affected by #circle because the z-index is 0 by default */   
@@ -90,7 +90,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 		color:blue;    
 		
 		wrap-flow: both;  
-		wrap-shape: rect(10%, 50%, 200px 200px);
+		shape-outside: rect(10%, 50%, 200px 200px);
 	} 
 	
 	</style>
