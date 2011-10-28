@@ -421,28 +421,14 @@ Custom-shaped container with a background image / background color.
 <code html>
 <html>
 <head>
+        <circle id="circle" cx="50%" cy="50%" width="50%" height="50%" />
 	<style type="text/css"> 
 	
 	/* with SVG shape */ 
 	#article{
-		shape-inside: polygon(x1,y1 ...xn,yn); 
+		shape-inside: url(#circle); 
 		wrap-padding: 10px;
-		 
 		background-image: url(airplane.png); 
-		background-position: center center; 
-	    mask-box-image: url(circle.png) 100 stretch;
-		color:blue;
-	}
-	
-	/* with image */ 
-	#article{
-		shape-image: url(circle.png);
-		shape-image-threshold: 100%; 
-		wrap-padding: 10px;
-		 
-		background-image: url(airplane.png); 
-		background-position: center center; 
-	    mask-box-image: url(circle.png) 100 stretch;
 		color:blue;
 	}
 	
