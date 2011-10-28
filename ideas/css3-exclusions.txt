@@ -6,6 +6,7 @@ This page is used to track:
 
 This page started from the initial [[http://dev.w3.org/csswg/css3-exclusions//|CSS Exclusions and Shapes editor draft]].
 
+[[ideas:css3-exclusions-use-cases|CSS Exclusions and Shapes Use Cases]]
 
 ===== Spec and Test Metadata =====
 
