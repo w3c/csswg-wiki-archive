@@ -31,9 +31,9 @@ None yet.
 ===== New Issues =====
    
 ==== Issue XY: title ====
-   ;URL : http://www.foo.com/bar.html
-   ;Description: blah, blah.
-   ;Proposal : proposal here.
+   ;URL : none
+   ;Description: no support for repeating exclusion shapes or images
+   ;Proposal : none yet.
    
 
 
