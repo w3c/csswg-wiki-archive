@@ -1,5 +1,7 @@
 ===== Introduction =====
 
+THIS PAGE IS DEPRECATED AND REPLACED BY: [ http://wiki.csswg.org/ideas/css3-exclusions-use-cases ]
+
 This page contains use cases for exclusions and comparative examples of markup using the CSS Exclusions and Shapes proposal, CSS3 Floats and Daniel Glazman's proposal.
 
 ==== Proposals ====
@@ -16,7 +18,7 @@ This section describes each of the proposed model according to the following que
   * What is the container model?
   * What is affected by an exclusion?
 
-=== CSS Exclusion Proposal in 3 Questions ===
+=== CSS Exclusions and Shapes Proposal in 3 Questions ===
 
 == How do you define an exclusion shape? ==
 
