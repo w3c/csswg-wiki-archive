@@ -30,7 +30,7 @@ None yet.
 
 ===== New Issues =====
    
-==== Issue XY: title ====
+==== Issue 01: Missing support for repeating exclusion shapes or images? ====
    ;URL : none
    ;Description: no support for repeating exclusion shapes or images
    ;Proposal : none yet.
