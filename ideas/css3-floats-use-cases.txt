@@ -1,10 +1,10 @@
 ===== Introduction =====
 
-This page contains use cases for exclusions and comparative examples of markup using the CSS Exclusions proposal, CSS3 Floats and Daniel Glazman's proposal.
+This page contains use cases for exclusions and comparative examples of markup using the CSS Exclusions and Shapes proposal, CSS3 Floats and Daniel Glazman's proposal.
 
 ==== Proposals ====
 
-  * CSS Exclusions: [ http://dev.w3.org/csswg/css3-exclusions/ ]
+  * CSS Exclusions and Shapes: [ http://dev.w3.org/csswg/css3-exclusions/ ]
   * CSS3 Floats: [ http://www.interoperabilitybridges.com/css3-floats/ ]
   * Daniel Glazman: [ http://lists.w3.org/Archives/Public/www-style/2011Jun/0457.html ]
 
@@ -20,21 +20,24 @@ This section describes each of the proposed model according to the following que
 
 == How do you define an exclusion shape? ==
 
-Done by the wrap-shape-mode property. By default, the wrap/exclusion shape is the element's box. A different shape can be defined by the wrap-shape mode property. The same shape applies to both the inside content and the outside content.
+Done by the wrap-flow property. By default, the wrap/exclusion shape is the element's box. A different shape can be defined by the shape-outside mode property. The same shape applies to both the inside content and the outside content.
 
 == What is the container model? ==
 
-There are two sides to this: the wrap-shape for the internal content and the exclusion shape for other content.
+There are two sides to this: the shape-inside for the internal content and the exclusion shape defined shape-outside for the content outside the exclusion element. By default the shape-inside property is the same as shape-outside.
 
-For internal content, the closest wrap-shape, defined on an ancestor, defines what shape the content wraps into (note that this works in conjunction with exclusions as well).
+For internal content, the closest shape-inside, defined on an ancestor, defines what shape the content wraps into (note that this works in conjunction with exclusions as well).
 
-For external content, the wrap-shape-order property controls which elements are affected by exclusions, orthogonal to the container relations. See next question.
+For external content, the z-index property controls the order of exclusions applied to elements. Elements can also be protected from exclusions overlapping them.  See next question.
 
 == What is affected by an exclusion? ==
 
-The wrap-shape-order property controls which elements are affected by an exclusion: Exclusions will only affect block elements with equal or smaller ‘wrap-shape-order’ value in the same wrapping context. A wrapping context is created by an element which sets its wrap-shape-order to a value other than auto (and that is not an exclusion).
+Exclusions are applied in reverse to the document order in which they are defined.  
+The last exclusion appears on top of all other exclusions.
+ 
+For elements with a position value other than static, the z-index property can alter the order of applying the exclusions. The exclusion element with the highest z-index value will apply on top of other elements with lower z-index values, regardless of their document order.  
 
-There are dependency issues, as illustrated in example IX of the draft.
+The wrapping contex of sibling elements of an exclusion element will be affected by the exclusion. To protect the wrapping context of an element the 'wrap-through' property needs to be set to none on the element to be protected. 
 
 === CSS3 Floats Proposal in 3 Questions ===
 
@@ -73,7 +76,7 @@ One exclusion over two columns of content.
 
 {{:ideas:css3-floats-use-cases:exclusions_simple.jpg?500|}}
 
-==== CSS Exclusions ====
+==== CSS Exclusions and Shapes ====
 <code html>
 <html>
 <head>
@@ -86,21 +89,21 @@ One exclusion over two columns of content.
 	
 	/* with SVG shape */
 	#shape{
-		position:absolute;
-		top:50%;
-		left:50%;
-		wrap-shape-mode: around;
-		wrap-shape: poly(x1,y1 ... xn,yn);    
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		wrap-flow: both;
+		shape-outside: circle(50%, 50%, 30%);    
 	} 
 	
 	/* with image */
 	 #shape{
-		position:absolute;
-		top:50%;
-		left:50%;
-		wrap-shape-mode: around; 
-		wrap-shape-image: url(mycircle.png);
-		wrap-shape-image-threshold: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		wrap-flow: both; 
+		shape-outside: url(mycircle.png);
+		shape-image-threshold: 100%;
 	}
 	
 	</style>
@@ -133,7 +136,7 @@ One exclusion over two columns of content.
 		position:absolute;
 		top:50%;
 		left:50%;
-		wrap-shape: poly(x1,y1 ... xn,yn);    
+		wrap-shape: polygon(x1,y1 ... xn,yn);    
 	} 
 	
 	/* with image */
@@ -188,7 +191,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 
 {{:ideas:css3-floats-use-cases:exclusions_overlapping.jpg?500|}}
 
-==== CSS Exclusions ====
+==== CSS Exclusions and Shapes ====
 <code html>
 <html>
 <head>
@@ -199,28 +202,27 @@ Multiple overlapping exclusions that affect each other and the content around th
 		column-gap: 1em;
 	}
 	
-	#shape1{
-		position:absolute;
-		top:20%;
-		left:60%;   
-		color:red;
+	#circle{
+		position: absolute;
+		top: 20%;
+		left: 60%;   
+		color: red;
 		
-		wrap-shape-order: 2; /* avoid being affected by #shape2 */
-		wrap-shape-mode: around; 
-		wrap-shape-margin:10px;
-		wrap-shape: poly(x1,y1 ... xn,yn);    
+		z-index: 1; /* avoid being affected by #square */
+		wrap-flow: both; 
+		wrap-margin: 10px;
+		wrap-shape: circle(50%, 50%, 30%);    
 	}
 	
-	#shape2{
+	/* will be affected by #circle because the z-index is 0 by default */   
+	#square{
 		position:absolute;
 		bottom:20%;
 		left:30%;
 		color:blue;    
 		
-		wrap-shape-order: 1; /* will be affected by #shape1 */
-		wrap-shape-mode: around;  
-		wrap-shape-margin:10px;
-		wrap-shape: rect(x, y, 200px 200px);
+		wrap-flow: both;  
+		wrap-shape: rect(10%, 50%, 200px 200px);
 	} 
 	
 	</style>
@@ -234,8 +236,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 </body>
 </html> 
 </code>
-
-
+        
 
 ==== CSS3 Floats ====
 <code html>
@@ -250,27 +251,27 @@ Multiple overlapping exclusions that affect each other and the content around th
 	
 	/* with SVG shape */
 	#shape1{
-		float:positioned;
-		position:absolute;
-		top:20%;
-		left:60%;   
-		color:red;
+		float: positioned;
+		position: absolute;
+		top: 20%;
+		left: 60%;   
+		color: red;
 		       
-		z-index:2;    
-		wrap-shape: poly(x1,y1 ... xn,yn);    
-		wrap-margin:10px;
+		z-index: 2;    
+		wrap-shape: polygon(x1,y1 ... xn,yn);    
+		wrap-margin: 10px;
 	}
 	
 	#shape2{
-		float:positioned;
-		position:absolute;
-		bottom:20%;
-		left:30%;
-		color:blue;    
+		float: positioned;
+		position: absolute;
+		bottom: 20%;
+		left: 30%;
+		color: blue;    
 		
-		z-index:1;
-		wrap-shape: rect(x, y, 200px 200px);    
-		wrap-margin:10px;
+		z-index: 1;
+		wrap-shape: rectangle(x, y, 200px 200px);    
+		wrap-margin: 10px;
 	} 
 	
 	</style>
@@ -352,7 +353,9 @@ Repeating exclusion shape on x, y or both axes.
 
 
 
-==== CSS Exclusions ====
+==== CSS Exclusions and Shapes ====   
+<html><span style="color:red">No support for repeating exclusion shapes. Solution:TBD</span></html>
+
 <code html>
 <html>
 <head>
@@ -368,12 +371,6 @@ Repeating exclusion shape on x, y or both axes.
 		height:100%;
 		width:20px;
 		left:0;
-		   
-		wrap-shape-mode: right;
-		wrap-shape: url("triangle_90deg.png"); 
-		wrap-shape-image-position: top left;
-		wrap-shape-image-repeat: repeat-y;
-		wrap-image-image-threshold: 100%; 
 	}                         
 	
 	</style>
@@ -469,7 +466,7 @@ Image to determine the disjoint shapes by alpha channel transparency.
 
 {{:ideas:css3-floats-use-cases:exclusions_disjoint_shapes_mask.png?300|}}
 
-==== CSS Exclusions ====
+==== CSS Exclusions and Shapes ====
 
 Multiple solutions possible with single image, multiple positioned images or SVG shapes.
 <code html>
@@ -485,30 +482,32 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 	
 	/* with SVG paths */
 	#disjoint-article{
-		position:absolute;
-		width:100%;
-		height:380px; /* disjoint-shapes-mask.png height*/
-		color:red;
-		bottom:0;
+		position: absolute;
+		width: 100%;
+		height: 380px;
+		color: red;
+		bottom: 0;
        
-		wrap-shape-mode: around;  
+		wrap-flow: both;
+		wrap-padding: 10px;  
 		/* circle and triangle SVG shapes */
-		wrap-shape: circle(cx,cy,r), path(Mx1,y1 Cx2,y2 ... Z);  
+		shape-outside: circle(cx,cy,r), polygon(x1, y1, x2, y2, x3, y3);
+
+		/* the shape-inside propery for content inherits from shape-outside so we can ignore declaring it */
 	}
 	  
 	
 	/* with image */
 	#disjoint-article{
-		position:absolute;
-		width:100%;
-		height:380px; /* disjoint-shapes-mask.png height*/
-		color:red;
-		bottom:0;
+		position: absolute;
+		width: 100%;
+		height: 380px; /* disjoint-shapes-mask.png height*/
+		color: red;
+		bottom: 0;
 		 
-		wrap-shape-mode: around;  
-		wrap-shape-image: url("disjoint-shapes-mask.png"); 
-		wrap-shape-image-position: bottom left;
-		wrap-shape-image-threshold: 100%;
+		wrap-flow: both;  
+		shape-image: url("disjoint-shapes-mask.png"); 
+		shape-image-threshold: 100%;
 	}
 	
 	</style>
@@ -652,7 +651,7 @@ Reuse an exclusion shape on different elements
 
 
 
-==== CSS Exclusions ====
+==== CSS Exclusions and Shapes ====
 * low reusability: requires duplication of markup
 <code html>
 <html>
@@ -660,46 +659,45 @@ Reuse an exclusion shape on different elements
 	<style type="text/css">
 	 
 	#article1{ 
-		position:relative;
+		position: relative;
 	}
 	
 	#article2{ 
 		position:relative;
 		column-count: 2;
 		column-gap: 1em;
-		color:red; 
+		color: red; 
 	}
 	
 	/* with SVG Shape */
 	.exclusion{
-		position:absolute;
+		position: absolute;
 		
-		wrap-shape-mode: around;
-		wrap-shape: polygon(x1,y1 ... xn,yn); 
+		wrap-flow: both;
+		shape-outside: polygon(x1, y1 ... xn, yn); 
 	}
 	
 	/* with image */
 	.exclusion{
-		width:100px;  /* width of triangle.png */
-		height:200px; /* height of triangle.png */
+		width: 100px;  /* width of triangle.png */
+		height: 200px; /* height of triangle.png */
 		
-		position:absolute;
+		position: absolute;
 		
-		wrap-shape-mode: around;  
-		wrap-shape-image: url("triangle.png");
-		wrap-shape-image-position: top left;
-		wrap-shape-image-threshold: 100%;
+		wrap-flow: both;  
+		shape-image: url("triangle.png");
+		shape-image-threshold: 100%;
 	}
 	 
 	 
 	#article1 .exclusion{
-		top:50%;
-		left:30%
+		top: 50%;
+		left: 30%
 	}
 	
 	#article2 .exclusion{
-		top:50%;
-		left:70%
+		top: 50%;
+		left: 70%
 	} 
 	
 	</style>
@@ -839,7 +837,7 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 
 
 
-==== CSS Exclusions ====
+==== CSS Exclusions and Shapes ====
 (!) Content inside the shape will have transformations applied, as well
 
 <code html>
@@ -848,22 +846,22 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 	<style type="text/css">
 	 
 	#article1{ 
-		position:relative;
+		position: relative;
 	}
 	
 	#article2{ 
-		position:relative;
+		position: relative;
 		column-count: 2;
 		column-gap: 1em;
-		color:red; 
+		color: red; 
 	}
 	
 	/* with SVG Shape */
 	.exclusion{
-		position:absolute;
+		position: absolute;
 		
-		wrap-shape-mode: around;
-		wrap-shape: polygon(x1,y1 ... xn,yn); 
+		wrap-flow: both;
+		shape-outside: polygon(x1, y1 ... xn, yn); 
 	}
 	
 	/* with image */
@@ -873,21 +871,21 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 		
 		position:absolute;
 		
-		wrap-shape-mode: around;  
-		wrap-shape-image: url("triangle.png");
-		wrap-shape-image-position: top left;
-		wrap-shape-image-threshold: 100%;
+		wrap-flow: both;  
+		shape-image: url("triangle.png");
+		shape-image-threshold: 100%;
 	}
 	 
 	 
 	#article1 .exclusion{
-		top:50%;
-		left:30%
+		top: 50%;
+		left: 30%
 	}
 	
 	#article2 .exclusion{
-		top:50%;
-		left:70%; 
+		top: 50%;
+		left: 70%; 
+		
 		/* increase scale, then flip on x-axis */  
 	   	transform: scale(1.5) scale(1, -1);
 	} 
@@ -996,7 +994,7 @@ Custom-shaped container with margin for outer content and padding for inner cont
 
 
 
-==== CSS Exclusions ====
+==== CSS Exclusions and Shapes ====
 <code html>
 <html>
 <head>
@@ -1009,15 +1007,15 @@ Custom-shaped container with margin for outer content and padding for inner cont
 	
 	/* with SVG shape */
 	#shape{
-		position:absolute;
-		top:50%;
-		left:50%;   
-		color:blue;
+		position: absolute;
+		top: 50%;
+		left: 50%;   
+		color: blue;
 		       
-		wrap-shape-mode: around;    
-		wrap-shape: poly(x1,y1 ... xn,yn);
-		wrap-shape-margin: 15px;    
-		wrap-shape-padding: 5px;    
+		wrap-flow: both;    
+		shape-outside: polygon(x1, y1, ... xn, yn);
+		wrap-margin: 15px;    
+		wrap-padding: 5px;    
 	}
 	
 	</style>
@@ -1127,7 +1125,7 @@ Custom-shaped container with a background image / background color.
 
 
 
-==== CSS Exclusions ====
+==== CSS Exclusions and Shapes ====
 <code html>
 <html>
 <head>
@@ -1135,24 +1133,24 @@ Custom-shaped container with a background image / background color.
 	
 	/* with SVG shape */ 
 	#article{
-		wrap-shape-mode: content;    
-		wrap-shape: polygon(x1,y1 ...xn,yn);
+		shape-inside: polygon(x1,y1 ...xn,yn); 
+		wrap-padding: 10px;
 		 
 		background-image: url(airplane.png); 
 		background-position: center center; 
-	        mask-box-image: url(circle.png) 100 stretch;
+	    mask-box-image: url(circle.png) 100 stretch;
 		color:blue;
 	}
 	
 	/* with image */ 
 	#article{
-		wrap-shape-mode: content;    
-		wrap-shape-image: url(circle.png);
-		wrap-shape-image-threshold: 100%;
+		shape-image: url(circle.png);
+		shape-image-threshold: 100%; 
+		wrap-padding: 10px;
 		 
 		background-image: url(airplane.png); 
 		background-position: center center; 
-	        mask-box-image: url(circle.png) 100 stretch;
+	    mask-box-image: url(circle.png) 100 stretch;
 		color:blue;
 	}
 	
@@ -1240,20 +1238,20 @@ One exclusion along a text.
 
 {{:ideas:css3-floats-use-cases:exclusions-dropcap.png?500|}}
 
-==== CSS Exclusions ====
+==== CSS Exclusions and Shapes ====
 <code html>
 <style>
 	/* with SVG shape */
-	 #dropMany{
-		wrap-shape: polygon(0px,0px 280px,0px 220px,125px 0px,125px);
-		wrap-shape-mode: around;
+	 #dropMany{      
+	    wrap-flow: right;
+		shape-outside: polygon(0px,0px 280px,0px 220px,125px 0px,125px);
 	}  
 	
 	/* with image */
 	 #dropMany{   
-		wrap-shape-mode: around;
-		wrap-image: url(shape-for-many.png);
-		wrap-image-threshold: 100%; 
+		wrap-flow: right;
+		shape-image: url(shape-for-many.png);
+		shape-image-threshold: 100%; 
 	}
 </style>
 <div>
@@ -1295,13 +1293,13 @@ One exclusion along a text.
 </code>
 ===== Issues =====
 
-==== CSS Exclusions ====
+==== CSS Exclusions and Shapes ====
 
-=== Limitations overview: ===
-  * Probable dependencies on child layout to determine parent's layout and exclusion goes against classic CSS thinking / implementation.
+=== Limitations overview: === 
+  * [regression] no support for repeating exclusion shapes or images
+  * (?) [TBD: is this still applicable?] Probable dependencies on child layout to determine parent's layout and exclusion goes against classic CSS thinking / implementation.
     * Possible circular dependencies
   * reusability of shapes requires duplication of HTML markup
-  * -no support for repeating shapes- repeating shapes can be achieved only with "wrap-shape-image" and "wrap-shape-image-repeat"
 
 ==== CSS3 Floats ====
 
