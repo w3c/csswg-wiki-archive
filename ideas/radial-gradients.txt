@@ -76,11 +76,7 @@ The 'circle' keyword sets the intrinsic ratio of the image to 1:1.
 ===== Examples Shootout =====
 
 ^ Sample ^ Syntax A ^ Syntax B ^
-| [[http://www.bradclicks.com/cssplay/radial-equivelance.html/|Similar Math for Both]] | ''radial-gradient(
-  black 70.7%, red 70%, 
-  red 100%
-)'' | ''
-radial-gradient(
-  black 100%, red 100%, 
-  red 141%
-)'' |
+| [[http://www.bradclicks.com/cssplay/radial-equivelance.html/|Similar Math for Both]] | ''radial-gradient(black 70.7%, red 70.7%, red)'' | ''radial-gradient(black 100%, red 100%, red 141%)'' |
+| [[http://www.bradclicks.com/cssplay/radial-gradient/OrangeCircle.png|Color stops based on image dimensions, with full coverage]] | ''radial-gradient(red, black 35.35% /* 50% of 70.7% (math still required somewhere) */, orange 35.35%, orange 70.7%, black 70.7%, red)'' (or duplicate Syntax B, and add 'contain') | ''radial-gradient(red, black 50%, orange 50%, orange 100%, black 100%, red 142%)'' |
+| [[http://www.bradclicks.com/cssplay/radial-equivelance.html/|Corner-anchored circle background]] | ''radial-gradient(black 70.7%, red 70.7%, red)'' | ''radial-gradient(black 100%, red 100%, red 141%)'' |
+
