@@ -34,7 +34,9 @@
 === Syntax B ===
 <code>
   <radial-gradient> = radial-gradient(
-  	[ [ from <side-or-corner-or-center> ] ,]? [circle,]? <color-stop>[, <color-stop>]+
+  	[ from <side-or-corner-or-center> ,]? 
+        [circle,]? 
+        <color-stop>[, <color-stop>]+
   )
   
   <side-or-corner-or-center> = [[left | right] || [top | bottom]] | center
