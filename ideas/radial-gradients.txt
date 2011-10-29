@@ -17,8 +17,8 @@ Key posts
   * [[http://lists.w3.org/Archives/Public/www-style/2011Sep/0019.html|Detailed reasoning for wanting simplified syntax]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0419.html|'circle' that covers (reply to dbaron's point)]] 
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0334.html|Update of proposal to include edge/corner-centering]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0361.html|cover/contain syntax: it still requires multiplication factors]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0470.html|we can still use radial gradients in list-style-image, but we shouldn't use that edge case as an excuse for complicating the syntax]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0361.html|'cover'/'contain' syntax: it still requires multiplication factors]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0470.html|We can still use radial gradients in list-style-image, but we shouldn't use that edge case as an excuse for complicating the syntax]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0341.html|Simplicity is a virtue for CSS]]
 
 ===== Examples Shootout =====
