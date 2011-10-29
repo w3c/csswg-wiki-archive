@@ -36,7 +36,8 @@
   * Conversely, if you specify a  <bg-position> and an explicit size, the size overrides the effect of positioning on gradient length. 
   * When 'circle' is used, percentage stops refer to the shortest dimension when 'contain'  or 'closest-*' is used, and to the longest dimension when 'cover' or 'farthest-*' is used.
   * 'closest-side' does not equal "shortest dimension" when there is a <bg-position> other than '50% 50%', because the closer you get to one side, the smaller the gradient line gets. 
-  * Every single argument of the function affects the gradient length, so just knowing the image dimensions and the color-stop percentage does not easily reveal the color-stop distance.   
+  * Every single argument of the function affects the gradient length, so just knowing the image dimensions and the color-stop percentage does not easily reveal the color-stop distance. 
+  * When using radial-gradient inside a background shorthand, words like 'cover' and 'contain' serve to confuse, as they have different effects based on being either inside the parentheses of the image, or outside the parentheses as the 'background-size' component.  
 
 
 === Syntax B ===
