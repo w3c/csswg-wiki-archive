@@ -28,11 +28,25 @@
   * Conversely, if you specify a  <bg-position> and an explicit size, the size overrides the effect of positioning on gradient length. 
   * When 'circle' is used, percentage stops refer to the shortest dimension when 'contain'  or 'closest-*' is used, and to the longest dimension when 'cover' or 'farthest-*' is used.
   * 'closest-side' does not equal "shortest dimension" when there is a <bg-position> other than '50% 50%', because the closer you get to one side, the smaller the gradient line gets. 
+  * Every single argument of the function affects the gradient length, so just knowing the image dimensions and the color-stop percentage does not easily reveal the color-stop distance.
 
 
 === Syntax B ===
+<code>
+  <radial-gradient> = radial-gradient(
+  	[ [ from <side-or-corner-or-center> ] ,]? [circle,]? <color-stop>[, <color-stop>]+
+  )
+  
+  <side-or-corner-or-center> = [[left | right] || [top | bottom]] | center
+</code>
 
-  radial-gradient(...)
+If <side-or-corner-or-center> is omitted, or if it is 'center', then the gradient goes starts with the 0% color-stop in the center of the image, and the 100% color-stop aligned to the four edges. Otherwise, the gradient center is aligned with the indicated side(s), with 0% in the corner (if two sides are indicated) or in the middle of a side (if only one side is indicated) and extends out with 100% color-stop aligned to the other three sides.
+
+If '%%[[center],]? circle%%', then the gradient's 100% color stop aligns with the two closest edges (which will be either the horizontal edges or the vertical edges). If '%%[[left | right] || [top | bottom]], center%%', then the gradient's 100% color stop aligns with the two closest edges other than those listed by the author in the color-gradient function.
+
+The 'circle' keyword sets the intrinsic ratio of the image to 1:1.
+
+
 
 == Key posts: ==
 
@@ -47,6 +61,7 @@
 == Things an author has to learn with this syntax, not in linear-gradient: ==
   * Two gradient lines (horizontal and vertical radii) instead of one (unless using 'circle' keyword). No getting around this in either syntax.
   * Percentages are relative to both dimensions, fixed distances measured against horizontal only. This is in the more complex syntax too. 
+  * <side-or-corner-or-center> and 'center' both have an effect on the gradient line length, but it is a very simple calculation.
 
 
 
