@@ -68,7 +68,7 @@ If '%%[[center],]? circle%%', then the gradient's 100% color stop aligns with th
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0306.html|Recreating Brian's 'Spotlight' example, using simplified radial-gradient syntax and actual background properties]] (instead of using background-like syntax inside radial-gradient)
 
 
-== Other Key Points: ==
+== Key Points: ==
 
   * We usually do not add features without strong use cases, especially if it adds complexity to the syntax.
   * CSS distinguishes itself from SVG by being simpler and easier to learn, even though SCG offers more expressive power. That is a large reason why many more authors are able to pick up and learn CSS, most of whom may never learn any SVG. If we want to have vast expressive power at the cost of complexity and ease of learning, we already have that in SVG; we do not need to blur the lines between when CSS is needed and when SVG is needed. CSS for common needs fulfilled by a simple syntax, SVG for more complex and uncommon needs.
