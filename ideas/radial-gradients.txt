@@ -9,7 +9,7 @@
   * http://lists.w3.org/...
 
 
-== Things an author has to learn with this syntax, different from linear-gradient: ==
+== Things an author has to learn with this syntax, not in linear-gradient: ==
 
   * Differences with similar-looking background syntax:
     * radial-gradient uses a comma instead of a slash to disambiguate between position and size,
@@ -44,7 +44,7 @@
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0341.html|Simplicity is a virtue for CSS]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0306.html|Recreating Brian's 'Spotlight' example, using simplified radial-gradient syntax and actual background properties]] (instead of using background-like syntax inside radial-gradient)
 
-== Things an author has to learn with this syntax, different from linear-gradient: ==
+== Things an author has to learn with this syntax, not in linear-gradient: ==
   * Two gradient lines (horizontal and vertical radii) instead of one (unless using 'circle' keyword). No getting around this in either syntax.
   * Percentages are relative to both dimensions, fixed distances measured against horizontal only. This is in the more complex syntax too. 
 
