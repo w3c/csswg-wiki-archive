@@ -4,15 +4,37 @@
 
   radial-gradient(...)
 
-Key posts
+== Key posts: ==
 
   * http://lists.w3.org/...
+
+
+== Things an author has to learn with this syntax, different from linear-gradient: ==
+
+  * Differences with similar-looking background syntax:
+    * radial-gradient uses a comma instead of a slash to disambiguate between position and size,
+    * the size values are for a quarter of the image size, not the whole image size,
+    * the explicit size doesn't give the image implicit dimensions,
+    * the positioning lengths and keywords apply to the center of the gradient, instead of to the top left (and percentage offsets are even more different), 
+    * the positioning values move the whole gradient and then clip it to the image dimensions. 
+
+  * Two gradient lines (horizontal and vertical radii) instead of one (unless using 'circle' keyword). No getting around this in either syntax.
+  * Percentages are relative to both dimensions, fixed distances measured against horizontal only. This is in simplified syntax too. 
+    * Even though the spec says "The gradient-ray is anchored at the center of the gradient and extends toward the right", fixed distance color stops can just as easily be measured from center to left, since all the gradients are symetrical.
+  * If you want to use an explicit size, you must include the <bg-position> part too (so that the comma will disambiguate).
+  * 'closest-corner' and 'farthest-corner' are the same if there is no <bg-position> .
+  * moving the center via <bg-position> does not move it relative to the whole ellipse, it moves the entire ellipse. This means the gradient gets bigger if you have 'cover' or 'farthest-*', and smaller if you have 'contain' or 'closest-*'.
+  * If you specify a  <bg-position> and a <size> keyword, the positioning happens first. This means that the positioning affects the gradient length, then the sizing keyword changes it to something else. If these were done is the opposite order, then only the <size> would affect the gradient length (but it would be harder to get the image filled in useful and common ways). 
+  * Conversely, if you specify a  <bg-position> and an explicit size, the size overrides the effect of positioning on gradient length. 
+  * When 'circle' is used, percentage stops refer to the shortest dimension when 'contain'  or 'closest-*' is used, and to the longest dimension when 'cover' or 'farthest-*' is used.
+  * 'closest-side' does not equal "shortest dimension" when there is a <bg-position> other than '50% 50%', because the closer you get to one side, the smaller the gradient line gets. 
+
 
 === Syntax B ===
 
   radial-gradient(...)
 
-Key posts
+== Key posts: ==
 
   * [[http://lists.w3.org/Archives/Public/www-style/2011Sep/0019.html|Detailed reasoning for wanting simplified syntax]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0419.html|'circle' that covers (reply to dbaron's point)]] 
@@ -21,6 +43,12 @@ Key posts
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0470.html|We can still use radial gradients in list-style-image, but we shouldn't use that edge case as an excuse for complicating the syntax]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0341.html|Simplicity is a virtue for CSS]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0306.html|Recreating Brian's 'Spotlight' example, using simplified radial-gradient syntax and actual background properties]] (instead of using background-like syntax inside radial-gradient)
+
+== Things an author has to learn with this syntax, different from linear-gradient: ==
+  * Two gradient lines (horizontal and vertical radii) instead of one (unless using 'circle' keyword). No getting around this in either syntax.
+  * Percentages are relative to both dimensions, fixed distances measured against horizontal only. This is in simplified syntax too. 
+
+
 
 ===== Examples Shootout =====
 
