@@ -70,7 +70,7 @@ If '%%[[center],]? circle%%', then the gradient's 100% color stop aligns with th
 == Things an author has to learn with this syntax, not in linear-gradient: ==
   * Two gradient lines (horizontal and vertical radii) instead of one (unless using 'circle' keyword). No getting around this in either syntax.
   * Percentages are relative to both dimensions, fixed distances measured against horizontal only. This is in the more complex syntax too. 
-  * <side-or-corner-or-center> and 'center' both have an effect on the gradient line length, but it is a very simple calculation (the centered gradients have half the gradient line length of the others; 'center' means you use the smaller dimension only).  
+  * <side-or-corner-or-center> and 'center' both have an effect on the gradient line length, but it is a very simple calculation (the centered gradients have half the gradient line length of the others; 'center' means you use the smaller dimension of either horizontal or vertical only).  
 
 
 
