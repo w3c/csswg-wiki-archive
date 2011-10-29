@@ -201,28 +201,7 @@ See Issue 1 below.
    ;Description: see email thread.
    ;Proposal : reverse text and say that content takes precedence over flow-from.
    
-==== Issue 21: When does a flow get created? ====
 
-   ;URL : none
-   ;Description : 
-   
-<code>
-  <style>
-  .article{
-    flow-into: thread;
-  }
-  .region{
-    flow-from: thread;
-  }
-  </style>
-  <html>
-  <body>
-    <div class=region>div content</div>
-  </body>
-  </html>
-</code>
-
-   ;Proposal : Even though there isn't anything with class=article, an empty "thread" flow is created and replaces the div content.
    
 ==== Issue 20: List of region style properties ====
 
