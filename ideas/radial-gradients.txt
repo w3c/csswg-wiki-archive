@@ -96,18 +96,34 @@ If '%%[[center],]? circle%%', then the gradient's 100% color stop aligns with th
 | [[http://www.bradclicks.com/cssplay/radial-equivelance.html|Similar Math for Both]] | ''radial-gradient(black 70.7%, red 70.7%, red)'' | ''radial-gradient(black 100%, red 100%, red 141%)'' |
 | [[http://www.bradclicks.com/cssplay/radial-gradient/OrangeCircle.png|Color stops based on image dimensions, with full coverage]] | ''radial-gradient(red, black 35.35% /* 50% of 70.7% (math still required somewhere) */, orange 35.35%, orange 70.7%, black 70.7%, red)'' (or duplicate Syntax B, and add 'contain') | ''radial-gradient(red, black 50%, orange 50%, orange 100%, black 100%, red 142%)'' |
 | [[http://www.bradclicks.com/cssplay/impossible-radial-gradient.png|Quarter circle that goes full width]] | ? | ''radial-gradient(from top left, circle, yellow, red 100%, black 100%)'' |
-|<code> background: 
-  radial-gradient(60% 43%, closest-side circle, #b03 26%, rgba(187,0,51,0) 27%),
-  radial-gradient(40% 43%, closest-side circle, #b03 26%, rgba(187,0,51,0) 27%),
-  radial-gradient(40% 22%, closest-side circle, #d35 45%, rgba(221,51,85,0) 46%),
-  radial-gradient(60% 22%, closest-side circle, #d35 45%, rgba(221,51,85,0) 46%),
-  radial-gradient(50% 35%, closest-side circle, #d35 30%, rgba(221,51,85,0) 31%) #b03;
+| Hearts Grid |<code> background: 
+  radial-gradient(60% 43%, 
+                  closest-side circle, 
+                  #b03 26%, rgba(187,0,51,0) 27%),
+  radial-gradient(40% 43%,  
+                  closest-side circle, 
+                  #b03 26%, rgba(187,0,51,0) 27%),
+  radial-gradient(40% 22%,  
+                  closest-side circle, 
+                  #d35 45%, rgba(221,51,85,0) 46%),
+  radial-gradient(60% 22%,  
+                  closest-side circle, 
+                  #d35 45%, rgba(221,51,85,0) 46%),
+  radial-gradient(50% 35%,  
+                  closest-side circle, 
+                  #d35 30%, rgba(221,51,85,0) 31%) 
+                  #b03;
 background-size:100px 100px;</code> | <code>background:
   radial-gradient(#b03 24%, transparent 20%), 
   radial-gradient(#b03 24%, transparent 20%),
   radial-gradient(#d35 24%, transparent 20%),
   radial-gradient(#d35 24%, transparent 20%),
-  radial-gradient(#d35 24%, transparent 20%) #b03;
+  radial-gradient(#d35 24%, transparent 20%) 
+  #b03;
 background-size:100px 100px;
-background-position: 60px 43px, 40px 43px, 40px 22px, 60px 22px, 50px 35px;
+background-position: 60px 43px, 
+                     40px 43px, 
+                     40px 22px, 
+                     60px 22px, 
+                     50px 35px;
 </code> |
