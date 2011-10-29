@@ -67,6 +67,22 @@ If '%%[[center],]? circle%%', then the gradient's 100% color stop aligns with th
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0341.html|Simplicity is a virtue for CSS]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0306.html|Recreating Brian's 'Spotlight' example, using simplified radial-gradient syntax and actual background properties]] (instead of using background-like syntax inside radial-gradient)
 
+
+== Other Key Points: ==
+
+  * We usually do not add features without strong use cases, especially if it adds complexity to the syntax.
+  * CSS distinguishes itself from SVG by being simpler and easier to learn, even though SCG offers more expressive power. That is a large reason why many more authors are able to pick up and learn CSS, most of whom may never learn any SVG. If we want to have vast expressive power at the cost of complexity and ease of learning, we already have that in SVG; we do not need to blur the lines between when CSS is needed and when SVG is needed. CSS for common needs fulfilled by a simple syntax, SVG for more complex and uncommon needs.
+  * Radial gradients are a minor need compared to linear gradients; non-centered and/or clipped and/or explicitly-sized radial gradients are a minor subset of radial gradients; radial gradients in non-background images are an even more minor need, and needs for non-centered and/or clipped and/or explicitly-sized radial gradients within list-style-image or border-image are practically non-existant. Plus, authors are already using background properties instead of list-style-image, in order to have more control over position of the image. list-style-image's lack of precision control is its own problem, not the problem of radial-gradient.
+  * Most of the extra power of Syntax A is simply not needed, as there are existing ways to move, size, and clip images. This is especially true for the most common case of background-image gradients, but is also true if we want to use radial gradients as 'content' values, or (I think) as part of SVG filters.
+  * The need to draw little pictures to use as background patterns or as images for bullet points is already well served by SVG.
+  * With linear-gradient, we simplified the syntax a lot, and this had a great effect, as linear-gradient is easy to learn and use. The hardest part of using linear-gradient is when you want to provide a fallback using the much more complex -webkit-gradient. 
+  * With linear-gradient, we acknowledged that:
+    *  gradients are generally fuzzy-edged things that do not need to precision-align with other elements, 
+    * that color-stops (including those that are > 100%) were perfectly adequate for setting where gradients began and ended, 
+    * that other properties (especially background properties) help to position and size the gradient in ways that it does not therefore need to do internally, and 
+    * that always going edge to edge (or corner to corner) was a good simplification that improved the readability and understandability of the code. 
+    * Syntax B brings these same principles to 'radial-gradient': it says that all radial gradients can go from center-to-edge, edge-to-edge, or corner to corner, and that color-stops (including those that are > 100%) are perfectly adequate for setting where gradients began and ended.
+
 == Things an author has to learn with this syntax, not in linear-gradient: ==
   * Two gradient lines (horizontal and vertical radii) instead of one (unless using 'circle' keyword). No getting around this in either syntax.
   * Percentages are relative to both dimensions, fixed distances measured against horizontal only. This is in the more complex syntax too. 
