@@ -52,7 +52,7 @@ If <side-or-corner-or-center> is omitted, or if it is 'center', then the gradien
 
 If '%%[[center],]? circle%%', then the gradient's 100% color stop aligns with the two closest edges (which will be either the horizontal edges or the vertical edges). If '%%[[left | right] || [top | bottom]], center%%', then the gradient's 100% color stop aligns with the two closest edges other than those listed by the author in the color-gradient function.
 
-The 'circle' keyword sets the intrinsic ratio of the image to 1:1.
+<del>The 'circle' keyword sets the intrinsic ratio of the image to 1:1.</del> Actually I think I don't need this part.
 
 
 
