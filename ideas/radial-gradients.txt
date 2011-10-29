@@ -20,6 +20,7 @@ Key posts
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0361.html|'cover'/'contain' syntax: it still requires multiplication factors]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0470.html|We can still use radial gradients in list-style-image, but we shouldn't use that edge case as an excuse for complicating the syntax]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0341.html|Simplicity is a virtue for CSS]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0306.html|Recreating Brian's 'Spotlight' example, using simplified radial-gradient syntax and actual background properties]] (instead of using background-like syntax inside radial-gradient)
 
 ===== Examples Shootout =====
 
