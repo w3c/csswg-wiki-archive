@@ -1,9 +1,17 @@
 ====== Radial Gradient Wars ======
 
 === Syntax A ===
-
-  radial-gradient(...)
-
+<code>
+  <radial-gradient> = radial-gradient(
+	[<position>,]? 
+	[[
+		[<shape> || <size>]
+		|
+		[<length> | <percentage>]{2}
+	],]? 
+	<color-stop>[, <color-stop>]+
+  )
+</code>
 == Key posts: ==
 
   * http://lists.w3.org/...
@@ -28,7 +36,7 @@
   * Conversely, if you specify a  <bg-position> and an explicit size, the size overrides the effect of positioning on gradient length. 
   * When 'circle' is used, percentage stops refer to the shortest dimension when 'contain'  or 'closest-*' is used, and to the longest dimension when 'cover' or 'farthest-*' is used.
   * 'closest-side' does not equal "shortest dimension" when there is a <bg-position> other than '50% 50%', because the closer you get to one side, the smaller the gradient line gets. 
-  * Every single argument of the function affects the gradient length, so just knowing the image dimensions and the color-stop percentage does not easily reveal the color-stop distance.
+  * Every single argument of the function affects the gradient length, so just knowing the image dimensions and the color-stop percentage does not easily reveal the color-stop distance.   
 
 
 === Syntax B ===
@@ -61,7 +69,7 @@ The 'circle' keyword sets the intrinsic ratio of the image to 1:1.
 == Things an author has to learn with this syntax, not in linear-gradient: ==
   * Two gradient lines (horizontal and vertical radii) instead of one (unless using 'circle' keyword). No getting around this in either syntax.
   * Percentages are relative to both dimensions, fixed distances measured against horizontal only. This is in the more complex syntax too. 
-  * <side-or-corner-or-center> and 'center' both have an effect on the gradient line length, but it is a very simple calculation.
+  * <side-or-corner-or-center> and 'center' both have an effect on the gradient line length, but it is a very simple calculation.  
 
 
 
