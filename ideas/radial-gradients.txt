@@ -16,6 +16,11 @@
 
   * http://lists.w3.org/...
 
+== Key Points ==
+
+  * This syntax follows similar conventions to the background properties, allowing powerful effects that would be difficult or unintuitive to create using the actual background-positioning properties.
+  * This syntax has three parts that effect or are affected by the the size of the gradient-line: positioning the center of the gradient, the implicit sizing keywords, and percentage locations for the color-stops.  Using any one or two of these is easy to understand and allows for useful, responsive effects; using all three together is confusing and difficult to understand, but there is no reason to ever do so, as it doesn't grant you any additional power over using just two of them.
+
 
 == Things an author has to learn with this syntax, not in linear-gradient: ==
 
