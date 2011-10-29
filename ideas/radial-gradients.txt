@@ -53,4 +53,11 @@
 ===== Examples Shootout =====
 
 ^ Sample ^ Syntax A ^ Syntax B ^
-| [[http://example.com/|Title]] | ''radial-gradient(...)'' | ''radial-gradient(...)'' |
+| [[http://www.bradclicks.com/cssplay/radial-equivelance.html/|Similar Math for both]] | ''radial-gradient(
+  black 70.64%, red 70%, 
+  red 100%
+)'' | ''
+radial-gradient(
+  black 100%, red 100%, 
+  red 142%
+)'' |
