@@ -16,6 +16,7 @@ Key posts
 
   * [[http://lists.w3.org/Archives/Public/www-style/2011Sep/0019.html|Detailed reasoning for wanting simplified syntax]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0419.html|'circle' that covers (reply to dbaron's point)]] 
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0334.html|Update of proposal to include edge/corner-centering]]
 
 ===== Examples Shootout =====
 
