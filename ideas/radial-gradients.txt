@@ -20,9 +20,8 @@
 == Things an author has to learn with this syntax, not in linear-gradient: ==
 
   * Differences with similar-looking background syntax:
-    * radial-gradient uses a comma instead of a slash to disambiguate between position and size
-    * if you specify an explicit size, you must specify a position as well to disambiguate
-    * the positioning argument positions the center of the gradient, not the top left
+    * radial-gradient uses a comma instead of a slash to disambiguate between position and size, thus if you specify an explicit size, you must specify a position as well to disambiguate
+    * the positioning argument positions the center of the gradient, not the top left (on the other hand, both lengths and percentages work the same way in gradients, but different ways in bg-position)
   * Two gradient lines (horizontal and vertical radii) instead of one (unless using 'circle' keyword). No getting around this in either syntax.
   * The 'cover' and 'contain' keywords have a similar, but not identical, meaning to the same keywords used in background-size.  Within a gradient they respond to the position of the gradient's center; in background-size, they don't care about the position of the image, only its size relative to the positioning area.
 
