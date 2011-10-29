@@ -271,7 +271,7 @@ Note that with this approach, it is not possible to concatenate content from mul
    
 ==== Issue 14: ::region-lines pseudo-selector ====
 
-   REPLACED BY ISSUE 20. THERE IS NO MORE ::region-lines IN THE CURRENT EDITOR DRAFT.
+REPLACED BY ISSUE 20. THERE IS NO MORE ::region-lines IN THE CURRENT EDITOR DRAFT.
    
    ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0518.html">
    ;Description : there is concern (see link) that the ''first-line'' precedent is underspecified and that more specification is needed in addition to referencing the existing precedent.
