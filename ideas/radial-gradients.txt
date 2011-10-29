@@ -110,3 +110,11 @@ background-position: 60px 43px,
                      60px 22px, 
                      50px 35px;
 </code> |
+| [[http://lists.w3.org/Archives/Public/www-style/2011Oct/att-0306/GradientOffCenterBK.htm|Spotlight effect]] | <code>background-image: 
+  radial-gradient(<set by script to the mouse position>, 
+                  circle, 
+                  transparent 100px, rgba(0,0,0,.5) 100px, black 200px)</code> | <code>background-image: 
+  radial-gradient(circle, 
+                  transparent 100px, rgba(0,0,0,.5) 100px, black 200px);
+background-size: 200% 200%;
+background-position: <set by script to the inverse of the mouse position>;</code> |
