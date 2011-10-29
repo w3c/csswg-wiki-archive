@@ -46,7 +46,7 @@
 
 == Things an author has to learn with this syntax, different from linear-gradient: ==
   * Two gradient lines (horizontal and vertical radii) instead of one (unless using 'circle' keyword). No getting around this in either syntax.
-  * Percentages are relative to both dimensions, fixed distances measured against horizontal only. This is in more complex syntax too. 
+  * Percentages are relative to both dimensions, fixed distances measured against horizontal only. This is in the more complex syntax too. 
 
 
 
