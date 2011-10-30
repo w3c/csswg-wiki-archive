@@ -1,0 +1,14 @@
+====== Computed Values Patterns ======
+
+This page lists a number of design patterns that have been identified for computed values.
+
+If you're a spec editor, you should check the "computed value:" definition of the properties in your spec with this document.
+
+  - shorthand properties do not have computed values. For them, simply specify: 
+    * Computed value: see individual properties
+  - url() resolvability cannot affect the computed value, since the concept of computed value shouldn't require accessing the network.
+  - which format a url() resource is (e.g. whether the browser supports it) also cannot affect the computed value
+  - URIs in computed values are absolute. E.g. 
+    * Computed value: as specified, except with any relative URLs converted to absolute
+  - properties that just accept keyword or IDREF values, should just specify: 
+    * Computed value: as specified
