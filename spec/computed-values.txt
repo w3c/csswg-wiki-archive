@@ -12,3 +12,5 @@ If you're a spec editor, you should check the "computed value:" definition of th
     * Computed value: as specified, except with any relative URLs converted to absolute
   - properties that just accept keyword or IDREF values, should just specify: 
     * Computed value: as specified
+  - computed values should never depend on layout
+  - (disputed) computed values should never depend on containing block hierarchy
