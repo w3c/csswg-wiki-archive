@@ -83,8 +83,25 @@ If '%%[[center],]? circle%%', then the gradient's 100% color stop aligns with th
   * Percentages are relative to both dimensions, fixed distances measured against horizontal only. This is in the more complex syntax too. 
   * <side-or-corner-or-center> and 'center' both have an effect on the gradient line length, but it is a very simple calculation (the centered gradients have half the gradient line length of the others; 'center' means you use the smaller dimension of either horizontal or vertical only).  
 
+== Things an author has to learn with syntax A, not in linear-gradient: ==
 
-
+  * Differences with similar-looking background syntax:
+    * radial-gradient uses a comma instead of a slash to disambiguate between position and size,
+    * the size values are for a quarter of the image size, not the whole image size,
+    * the explicit size doesn't give the image implicit dimensions,
+    * the positioning lengths and keywords apply to the center of the gradient, instead of to the top left (and percentage offsets are even more different),
+    * the positioning values move the whole gradient and then clip it to the image dimensions.
+  * Two gradient lines (horizontal and vertical radii) instead of one (unless using 'circle' keyword). No getting around this in either syntax.
+  * Percentages are relative to both dimensions, fixed distances measured against horizontal only. This is in simplified syntax too.
+    * Even though the spec says “The gradient-ray is anchored at the center of the gradient and extends toward the right”, fixed distance color stops can just as easily be measured from center to left, since all the gradients are symetrical.
+  * If you want to use an explicit size, you must include the <bg-position> part too (so that the comma will disambiguate).
+'closest-corner' and 'farthest-corner' are the same if there is no <bg-position> .
+moving the center via <bg-position> does not move it relative to the whole ellipse, it moves the entire ellipse. This means the gradient gets bigger if you have 'cover' or 'farthest-*', and smaller if you have 'contain' or 'closest-*'.
+  * If you specify a <bg-position> and a <size> keyword, the positioning happens first. This means that the positioning affects the gradient length, then the sizing keyword changes it to something else. If these were done is the opposite order, then only the <size> would affect the gradient length (but it would be harder to get the image filled in useful and common ways).
+  * Conversely, if you specify a <bg-position> and an explicit size, the size overrides the effect of positioning on gradient length.
+  * When 'circle' is used, percentage stops refer to the shortest dimension when 'contain' or 'closest-*' is used, and to the longest dimension when 'cover' or 'farthest-*' is used.
+  * 'closest-side' does not equal “shortest dimension” when there is a <bg-position> other than '50% 50%', because the closer you get to one side, the smaller the gradient line gets.
+  * Every single argument of the function affects the gradient length, so just knowing the image dimensions and the color-stop percentage does not easily reveal the color-stop distance.
 ===== Examples Shootout =====
 
 ^ Sample ^ Syntax A ^ Syntax B ^
