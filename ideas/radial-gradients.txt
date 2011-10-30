@@ -106,7 +106,7 @@ moving the center via <bg-position> does not move it relative to the whole ellip
 ^ Sample ^ Syntax A ^ Syntax B ^
 | [[http://www.bradclicks.com/cssplay/radial-equivelance.html|Similar Math for Both]] | ''radial-gradient(contain, black 100%, red 100%)'' | ''radial-gradient(black 100%, red 100%)'' |
 | [[http://www.bradclicks.com/cssplay/radial-gradient/OrangeCircle.png|Color stops based on image dimensions, with full coverage]] | ''radial-gradient(contain, red, black 50%, orange 50%, orange 100%, black 100%, red 142%)'' | ''radial-gradient(red, black 50%, orange 50%, orange 100%, black 100%, red 142%)'' |
-| [[http://www.bradclicks.com/cssplay/impossible-radial-gradient.png|Quarter circle that goes full width]] | ''radial-gradient(top left, circle contain, yellow, red 100%, black 100%)'' | ''radial-gradient(from top left, circle, yellow, red 100%, black 100%)'' |
+| [[http://www.bradclicks.com/cssplay/impossible-radial-gradient.png|Quarter circle that goes full width]] | Can't be done unless width is known.  You can only make circles that size to the farthest side, whether it's horizontal or vertical. | ''radial-gradient(from top left, circle, yellow, red 100%, black 100%)'' |
 | Hearts Grid |<code> background: 
   radial-gradient(60% 43%, 25px 25px, #b03 99%, transparent),
   radial-gradient(40% 43%, 25px 25px, #b03 99%, transparent),
