@@ -91,7 +91,6 @@ Declarative 3D Community Group meeting Tuesday 9am-1pm [Simon, Ted?]
 === Tuesday ===
 
   * AC session for AC-Reps
-  * Joint meeting FXTF in SVG WG room, 9am-1pm
   * CSS OM in CSS WG room, 9am, 1h
   * Joint meeting IDPF/EPUB in CSS WG room, 10:00, 1h
   * //break// in CSS WG room, 0h15
@@ -99,6 +98,9 @@ Declarative 3D Community Group meeting Tuesday 9am-1pm [Simon, Ted?]
   * CSS3 Images, 2pm, 1h
   * Joint meeting PF WG in CSS WG room, 3:30pm, 1h30
 
+=== Thursday ===
+
+  * Joint meeting FXTF in SVG WG room, 9am-1pm
 ===== Attendee Contact Information =====
 
 Please add your arrival and departure dates, hotel name and mobile phone info (for those comfortable in doing so).
