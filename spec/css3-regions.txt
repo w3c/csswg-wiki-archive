@@ -237,7 +237,16 @@ Note that with this approach, it is not possible to concatenate content from mul
   **con* different OM for programmatic flow source control.  
   **con* content is provided/defined by stylesheet, which seems wrong. 
 
-   ;Proposal : TBD 
+   ;Option 4 : use a <link> element to create a flow from separate URL
+   
+Markup TBD
+
+
+   ;Proposal : Alex's option #1
+   
+It is the smallest change and it achieves the goals of content separation; security issues appear to be understoood and require little new work to load/manage the separate content.
+
+However using a separate, new mechanism for content indirection (e.g. a link) may be cleaner
  
   
 
