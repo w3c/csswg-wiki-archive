@@ -80,14 +80,13 @@ Declarative 3D Community Group meeting Tuesday 9am-1pm [Simon, Ted?]
   * CSS3 Values & Units (1h)
   * CSS3 Positioned Layout Module (0h45)
   * //break// (0h15)
-  * Joint meeting with WebApps/WebAppsSec on CORS and From-Origin (1h)
-  * //lunch// (1h)
-  * CSS Media Queries Test Suite (0h30)
-  * CSS Flexbox (1h15)
   * CSS3 Animations (1h)
+  * Joint meeting with WebApps/WebAppsSec on CORS and From-Origin (1h)
+  * CSS Media Queries Test Suite (0h30)
+  * //lunch// (1h)
+  * CSS Flexbox (1h15)
   * //break// (0h15)
   * CSS Multicol (2h)
-  * Web Font joint meeting (1h)
 
   * HCG meetup for WG chairs, Staff Contact, ... 6pm, hotel's bar
 
@@ -103,7 +102,8 @@ Declarative 3D Community Group meeting Tuesday 9am-1pm [Simon, Ted?]
 
 === Thursday ===
 
-  * Joint meeting FXTF in SVG WG room, 9am-1pm
+  * Joint meeting FXTF in SVG WG room, 9am-6pm
+
 ===== Attendee Contact Information =====
 
 Please add your arrival and departure dates, hotel name and mobile phone info (for those comfortable in doing so).
