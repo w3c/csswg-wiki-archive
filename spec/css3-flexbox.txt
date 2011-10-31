@@ -155,7 +155,7 @@ Alignment via margins doesn't really add new ways of alignment that were not pos
   
 'true-center' has been proposed many times and has dedicated supporters. Now that flexbox is adding a number of special layout rules and unique behavior, including new kinds of alignment, why not include true-center? There is no need to describe why it can be very useful.
 
-  ;Status : waiting for use cases
+  ;Status : Resolved: not in flexbox spec. consider for css3 box model
   
 ==== Issue 5 ====
   ;URL : //todo//
