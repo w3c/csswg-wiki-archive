@@ -146,7 +146,7 @@ Alignment via margins doesn't really add new ways of alignment that were not pos
 
 
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0159.html
-  ;Status : Open
+  ;Status : Resolved to converge both flexbox and grid cell alignment to 2009 spec -- auto margins work, if no auto margins before/after/stretch have effect
 
 ==== Issue 4 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0271.html
