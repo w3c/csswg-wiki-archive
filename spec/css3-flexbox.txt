@@ -290,7 +290,9 @@ Current spec says: "If flex() function has a single value and it is a <length>, 
 Omitted values should devault to initial values, and initial value for flex is zero. That and other rules for flex() should change to use initial values as defaults
 
   ;Proposal : Always use initial values as defaults in flex()
-  ;Status : Open
+  ;Status : Resolved
+
+Default values in flex() functhin will be different from initial. It is more useful to have default flex of 1 than 0, and using flex() function makes it clear that flexibility is desired unless specified otherwise.
 
 ==== Issue 14 ====
 
