@@ -210,9 +210,7 @@ Similarly, there should be a way to control how lines are distributed if there i
   flex-line-progression: normal | reverse
   flex-line-pack: before | after | middle | distribute
 
-  ;Status : Resolved
-
-in ED: http://dev.w3.org/csswg/css3-flexbox/#flex-line-pack0
+  ;Status : Resolved 'flex-line-pack' http://dev.w3.org/csswg/css3-flexbox/#flex-line-pack0
 
 ==== Issue 10 ====
 
