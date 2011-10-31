@@ -128,8 +128,9 @@ flex-flow:
     [ wrap | wrap-reverse | wrap-left | wrap-right ]?
 </code>
 
-  ;Status : Editors prefer Option 8. WG to review
-  ;Action : Alex to update the draft; review with WG. 
+  ;Status : Resolved
+  
+see spec
   
 ==== Issue 3 ====
   ;URL : //todo//
