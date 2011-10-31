@@ -329,9 +329,8 @@ as proposed
 
   ;URL : //todo//
   ;Summary : need a solid use case for treating "margin:auto" as "margin:flex(0px 1 0)" along main axis in flexbox
-  ;Proposal : TBD
-  ;Status : Open
-
+  ;Proposal : Remove flexible margins.
+  ;Status : Resolved
 
 ==== Issue 17 ====
 
