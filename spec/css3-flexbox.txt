@@ -1,0 +1,368 @@
+====== CSS Flexible Box Layout ======
+
+===== Specification =====
+Latest Working Draft: [[http://www.w3.org/TR/css3-flexbox/]]
+
+Latest Editor Draft: [[http://dev.w3.org/csswg/css3-flexbox/]]
+
+July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/]]
+
+===== Use Cases =====
+**[[spec:css3-flexbox:Use Cases]]**
+
+===== Implementation Report =====
+//TODO: list browser versions and draft versions for partial or complete implementations//
+
+===== Old/New Syntax Property Mapping =====
+[[Flexbox 2009-2011 spec property mapping]]
+===== Issues =====
+
+==== Issue 1 ====
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/thread.html#msg37
+  ;Summary : Multiline flexbox is missing from current draft
+  
+2009 spec had a multiline option [[http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/#multiple]] which is not supported by current draft.
+
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0303.html
+
+<code>
+  flex-wrap: no-wrap | wrap | balance
+</code>
+or
+<code>
+  flex-lines: single | multiple
+</code>
+  ;Status: Resolved: 
+
+<code>
+  flex-wrap: no-wrap | wrap
+</code>
+('balance') is not included into the spec yet. Can keep it as an issue until there is a strong need for it.
+
+  ;Action : Alex: propose text for adding spec section on multiline.
+
+==== Issue 2 ====
+  ;URL : //todo//
+  ;Summary : flex-direction property doesn't extend to more values needed for multiline flexbox
+
+  
+Multiline flexbox needs at least 4 bits to choose from directional options (can be more to tie to writing mode, but not less):
+  - horizontal or vertical primary direction
+  - horizontal or vertical transverse direction
+  - single line or multiple lines
+  - horizontal or vertical line progression
+
+Current draft combines orientation and direction in one property [[http://dev.w3.org/csswg/css3-flexbox/#flex-direction0]], it works well for common cases but does not easily extent to multiline situation.
+
+  ;Proposal : Some options for adding multiline are listed here: [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0116.html]] - options 1 to 6
+
+
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0134.html -- best proposal so far (from Fantasai)
+
+
+<code>
+Option 7:
+  flex-orientation: rows | columns | horizontal | vertical
+  flex-wrap: no-wrap | wrap | balance*
+  flex-direction: [ forward | backward ] || reverse-stack
+</code>
+(this doesn't include "line-progression")
+
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jul/0406.html 
+
+<code>
+Option 7 take II:
+
+    flex-wrap: no-wrap | wrap | balance
+    flex-flow: [ rows | columns | horizontal | vertical ] || [ reverse-line || reverse-wrap ]
+               |
+               [ ltr | rtl | auto ] || [ ttb | btt | auto ]
+
+Examples:             
+               
+    flex-flow: rows;                     /* forwards inline row (default) */
+    flex-flow: horizontal;               /* forwards horizontal row */
+    flex-flow: reverse-line;             /* backwards inline row */
+    flex-flow: reverse-wrap;             /* reverse-stacking forwards inline rows */
+    flex-flow: reverse-line vertical;    /* backwards vertical column */
+    flex-flow: reverse-line columns;     /* backwards block-oriented column */
+
+    flex-flow: ltr;                      /* horizontal ltr row, auto stacking */
+    flex-flow: ltr auto;                 /* same thing */
+    flex-flow: ttb;                      /* vertical ttb column, auto stacking */
+    flex-flow: ltr ttb;                  /* horizontal ltr row, ttb stacking */
+    flex-flow: auto ttb;                 /* horizontal auto row, ttb stacking */
+
+</code>
+Any missing directions are taken from the writing mode. Forwards for
+a particular dimension is matching the block or inline direction
+(whichever) is appropriate.
+
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jul/0422.html
+
+Option 7.3 (one property)
+
+    flex-flow: [ rows | columns | horizontal | vertical ] || 
+               [ normal | reverse | ltr | rtl | ttb | btt ] ||
+               [ wrap | wrap-reverse | wrap-ltr | wrap-rtl | wrap-ttb | wrap-btt ]
+
+Option 7.4
+
+    flex-flow: [ rows | columns | horizontal | vertical ] || 
+               [ normal | reverse | ltr | rtl | ttb | btt ] ||
+               [ wrap | wrap-reverse | wrap-left | wrap-right | wrap-down| wrap-up ]
+
+
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jul/0487.html
+  
+Option 8:
+
+<code>
+flex-flow: 
+    [ row | row-reverse | column | column-reverse ] || [ wrap | wrap-reverse ] |
+
+    [ horizontal | horizontal-reverse | horizontal-ltr| horizontal-rtl ] && 
+    [ wrap| wrap-reverse | wrap-down| wrap-up ]? |
+
+    [ vertical| vertical-reverse| vertical-ttb| vertical-btt ] && 
+    [ wrap | wrap-reverse | wrap-left | wrap-right ]?
+</code>
+
+  ;Status : Editors prefer Option 8. WG to review
+  ;Action : Alex to update the draft; review with WG. 
+  
+==== Issue 3 ====
+  ;URL : //todo//
+  ;Summary : flexbox has two ways to align in transverse direction - confusing and still incomplete. Try to make it consistent with Grid and/or Table.
+  
+2009 spec had box-align property with values similar to vertical-align in table cells (start/end/center/stretch/baseline). Current spec adds alignment via auto margins and padding, however 'flex-align' property remains, just for baseline alignment. Having two ways to align, both incomplete, is inconsistent and confusing. 
+
+It may be OK, if margin-based alignment is more powerful, having two ways to align may be justified. At this point however, margin-based alignment (using "margin:auto") doesn't provide any new ways of alignment that were not possible with flex-align property. 
+
+Historically, it was proposed that margins can have flex values, which 
+
+Alignment via margins doesn't really add new ways of alignment that were not possible before the change
+
+
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0159.html
+  ;Status : Open
+
+==== Issue 4 ====
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0271.html
+  ;Summary : consider 'true-center' as an align option for flexbox
+  
+'true-center' has been proposed many times and has dedicated supporters. Now that flexbox is adding a number of special layout rules and unique behavior, including new kinds of alignment, why not include true-center? There is no need to describe why it can be very useful.
+
+  ;Status : waiting for use cases
+  
+==== Issue 5 ====
+  ;URL : //todo//
+  ;Summary : page breaking behavior needs to be defined for flexbox
+
+flexbox spec says nothing about what happens when flexbox intersects page boundaries. it is reasonable to expect that flexbox is used at high level of page layout (as to positioning side-by-side content columns or headers/footnotes), then it is critical that pages using flexbox layout print reasonably.  
+
+  ;Status : Action Alex: propose
+  
+==== Issue 6 ====
+  ;URL : //todo//
+  ;Summary : 'inline-' display values work around limitations of 'display' property semantics. Separate properties for element placement and element content layout are long overdue.
+  
+From flexbox spec draft: 
+
+ISSUE: The proliferation of "inline-*" display values is untenable and restrictive. Table cells should be able to use the flexbox layout mode for their contents, for example, rather than being forced to use block layout. It's expected that this will be fixed by splitting the ‘display’ property into sub-properties controlling how the element formats its contents (‘display-inside’) and how it reacts to its surroundings (‘display-outside’). Once that occurs, this section will instead describe a single new ‘display-inside’ value that triggers flexbox layout.
+
+  ;Status : Open
+  ;Tentative resolution : this  is a change for CSS3-BOX; need proposal, pending use cases
+  ;Action : Tab: ACTION-342: define use cases that require 'display-inline'
+
+==== Issue 7 ====
+  ;URL : //todo//
+  ;Summary : Is 'float' property on flex items ignored or honored and wrapped into anonymous block?
+
+Floats are also out-of-flow, but children of flexboxes can't float. Issue:(ISSUE: Should this restriction exist, or should I just wrap floats in the anonymous boxes like other inlines?) 
+
+  ;Status : Resolved: 'float' is ignored on flexbox items. ED updated.
+
+==== Issue 8 ====
+  ;URL : http://dev.w3.org/csswg/css3-flexbox/#flex-order0
+  ;Summary : would 'flex-order' be more intuitive if named 'flex-index'?
+
+'flex-index' would be more consistent with 'z-index'
+
+  ;Proposal : keep 'flex-order'.
+   
+Flexbox literally reorders its children for all purposes, naming is appropriate
+http://lists.w3.org/Archives/Public/www-style/2011Aug/0217.html
+
+  ;Status : Open
+
+==== Issue 9 ====
+  ;URL : //todo//
+  ;Summary : multiline flexbox needs properties to control line stacking direction and line pack
+
+This applies to both 2009 and current specs: it is not defined in which direction lines are to be added.
+
+It is reasonable to expect that default line progression matches current writing mode, but it should also allow explicit control.
+
+Similarly, there should be a way to control how lines are distributed if there is more available space than needed, similarly to 'flex-pack'.
+
+  ;Proposal : 
+  flex-line-progression: normal | reverse
+  flex-line-pack: before | after | middle | distribute
+
+  ;Status : Closed
+
+in spec: http://dev.w3.org/csswg/css3-flexbox/#flex-line-pack0
+
+==== Issue 10 ====
+
+  ;URL : http://dev.w3.org/csswg/css3-flexbox/#display-flexbox
+  ;Summary : "flex item" definition needs precise rules on handling absolute-positioned children
+  ;Proposal : 
+
+<html><ins style="background:yellow">abspos elements leave behind a placeholder, which is then treated like a 0x0 inline element.</ins></html>
+
+This is important for display types that wrap inappropriately-displayed items, like display:table or display:flexbox.
+
+In other words, doing this:
+
+  <div display:flexbox>
+    <div>foo</div>
+    <div position:absolute>bar</div>
+    <div>baz</div>
+  </div>
+
+...should create a flexbox with three flexbox items - the 'foo' and 'baz' elements, and an anonymous block wrapping the placeholder for 'bar'.
+  ;Alternative : 
+not leave a placeholder, but only use the hypothetical block and hypothetical line to determine auto position.
+
+  ;Proposal 2 : ignore position:absolute on flexbox children
+
+  ;Status : consider proposal 2; action on Tab to get use cases for supporting absolute positioning.
+
+==== Issue 11 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0284.html
+  ;Summary : need exact definition for how anonymous flex items are created from inline content
+
+Given the following markup:
+
+  <div display:flexbox>
+    <span>
+      foo
+      <div>bar</div>
+      baz
+    </span>
+  </div>
+
+...do you get 1 or 3 flexbox items?  Whether you're operating on the box-tree or the element-tree changes the answer.  In the element-tree, the algorithm sees a single inline child, and creates a single anonymous wrapper block.  In the box-tree, the algorithm sees an anonymous block box, the <div>'s block box, then another anonymous block box, for a total of three items.
+
+You can detect the difference again with flex-pack:justify.
+
+Note that all browsers agree that table-fixup either operates on the element-tree (after pseudo-element creation) or on the box-tree before block-in-inline fixup (I can't figure out how to distinguish the two). Flexbox should be consistent.
+
+  ;Proposal : 
+
+anonymous flexbox items are created in element tree. A sequence of plain text and inline elements produces one anonymous flexbox item, regardless of what is contained within inline elements (including any anonymous blocks). 
+
+  ;Status : Resolved: one item, blocks nested into inline elements don't break anonymous flexbox items.
+  
+**ED updated**
+==== Issue 12 ====
+
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0430.html
+  ;Summary : consider 'stack' as flexbox direction
+  ;Proposal : 
+<code>
+  flex-flow: stack;
+</code>
+Children replaced one on top another. Intrinsic dimensions of
+flex-flow: stack; container are equal to tallest/widest child dimensions.
+
+  ;Status : Open
+
+==== Issue 13 ====
+
+  ;URL : http://dev.w3.org/csswg/css3-flexbox/#flex-function
+  ;Summary : default values in flex() function should be the initial values
+  
+Current spec says: "If flex() function has a single value and it is a <length>, a <percentage>, or a valid keyword for 'width' or 'height', the preferred size is set to that value, **the positive flexibility is set to 1**, and the negative flexibility is set to ''0''."
+
+Omitted values should devault to initial values, and initial value for flex is zero. That and other rules for flex() should change to use initial values as defaults
+
+  ;Proposal : Always use initial values as defaults in flex()
+  ;Status : Open
+
+==== Issue 14 ====
+
+  ;URL : //todo//
+  ;Summary : what is the meaning of 'before' and 'after' in 'flex-align'
+
+2009 spec reversed alignment direction for reverse flexbox. that doesn't make sense.
+
+wrap direction of multiline flexbox can be used as a clue for alignment direction, but there is no way to specify alignment direction without specifying wrap.
+
+Option 1: 
+  * Multi-line flexbox: alignment direction is the wrap direction (e.g. with 'wrap-up', 'before' is down and 'after' is up
+  * Single-line flexbox: alignmend direction is the direction of block flow in writing mode of the flexbox (e.g. in 'lr-tb', 'before' is up and 'after' is down
+
+Option 2: Option 1 plus a new set value for 'flex-flow' -- [ align-up | align-right | align-left | align-down | align-before | align-after ]
+
+  ;Proposal : alignment direction is wrap direction in multi-line flexbox and block flow direction in single-line flexbox (option 1)
+  ;Status : Open
+
+==== Issue 15 ====
+
+  ;URL : //todo//
+  ;Summary : Treatment of margins and paddings in flex algorithm (with flex 1 for 'auto') is incomplete: no flex() function, no min/max values. Would it make sense to allow flex() function on margins and paddings? And how about min/max?
+  
+I don't have really strong feelings about it, but it seems that flexible margins should either have full support of flexibility or not try to get a poor-man's version at all.
+
+An idea: what if 'auto' margins on main axis were used after flex sizing and before Pack? Would it make sense? Would it help any of use cases?
+
+  ;Proposal : TBD
+  ;Status : Open
+
+==== Issue 16 ====
+
+  ;URL : //todo//
+  ;Summary : need a solid use case for treating "margin:auto" as "margin:flex(0px 1 0)" along main axis in flexbox
+  ;Proposal : TBD
+  ;Status : Open
+
+
+==== Issue 17 ====
+
+  ;URL : //todo//
+  ;Summary : what is effective min width/height of a flex item with specified widht/height?
+
+Normally there min-width is irrelevant when width is specified. However flex item can be smaller than 
+specified size, due to negative flexing. Then the <length> specified in flex() function is "specified preferred width",
+a concept that did exist in CSS2.1 (other than tables, sort of).
+
+What should we do here? Treat content min width/height same as specified? With same priority? Or less priority than specified width/height?
+
+  ;Option 1 : use content min-width when sizing to content, specified min-width otherwise; min-height only if spcified
+  
+  "width:flex(auto); min-width:0" -- treat as "min-width:min-content"
+  "width:flex(1000px); min-width:0" -- treat as "min-width:0"
+  "height:flex(<anything>); min-height:0" -- nothing special, min-height used only if specified
+
+  ;Option 2 : use min-width only if specified
+
+It is always possible to set "min-width:min-content". However it is not the default, and default of "min-width:0" is actually a prett bad default when shrinking needs to happen. In Tables, content min-width works as a low limit for column width, but we don't really want to fully recreate tables...
+
+  ;Proposal : //todo//      
+  ;Status : Open
+
+
+<html><!--
+
+==== Issue NEW ====
+
+  ;URL : //todo//
+  ;Summary : 
+  ;Proposal : 
+  ;Status : Open
+
+--></html>
