@@ -275,7 +275,7 @@ anonymous flexbox items are created in element tree. A sequence of plain text an
 </code>
 Children replaced one on top another. Intrinsic dimensions of
 flex-flow: stack; container are equal to tallest/widest child dimensions.
-  ;Status : Open
+  ;Status : Resolved: not appropriate for flexbox, due to alignment only applicable to one direction at a time. Grid layout behaves as stack when items don't specify rows/columns.
 
 ==== Issue 13 ====
 
