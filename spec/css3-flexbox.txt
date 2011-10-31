@@ -324,6 +324,7 @@ An idea: what if 'auto' margins on main axis were used after flex sizing and bef
   ;Proposal : Apply to 'width' and 'height' only
   ;Status : Resolved
 
+as proposed
 ==== Issue 16 ====
 
   ;URL : //todo//
