@@ -316,15 +316,14 @@ I don't have really strong feelings about it, but it seems that flexible margins
 An idea: what if 'auto' margins on main axis were used after flex sizing and before Pack? Would it make sense? Would it help any of use cases?
 
   ;Proposal : Apply to 'width' and 'height' only
-  ;Status : Resolved
+  ;Status : Resolved: as proposed
 
-as proposed
 ==== Issue 16 ====
 
   ;URL : //todo//
   ;Summary : need a solid use case for treating "margin:auto" as "margin:flex(0px 1 0)" along main axis in flexbox
   ;Proposal : Remove flexible margins.
-  ;Status : Resolved
+  ;Status : Resolved: as proposed
 
 ==== Issue 17 ====
 
