@@ -278,7 +278,6 @@ anonymous flexbox items are created in element tree. A sequence of plain text an
 </code>
 Children replaced one on top another. Intrinsic dimensions of
 flex-flow: stack; container are equal to tallest/widest child dimensions.
-
   ;Status : Open
 
 ==== Issue 13 ====
