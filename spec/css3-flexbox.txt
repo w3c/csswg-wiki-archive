@@ -234,7 +234,7 @@ In other words, doing this:
   ;Alternative : 
 not leave a placeholder, but only use the hypothetical block and hypothetical line to determine auto position.
   ;Proposal 2 : ignore position:absolute on flexbox children
-  ;Status : Open. consider proposal 2; 
+  ;Status : Open. consider proposal 2; Alex is Ok with allowing empty anonymous item.
   ;Action : Tab to get use cases for supporting absolute positioning.
 
 ==== Issue 11 ====
