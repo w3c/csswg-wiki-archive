@@ -302,9 +302,7 @@ wrap direction of multiline flexbox can be used as a clue for alignment directio
   ;Option 1: 
   * Multi-line flexbox: alignment direction is the wrap direction (e.g. with 'wrap-up', 'before' is down and 'after' is up
   * Single-line flexbox: alignmend direction is the direction of block flow in writing mode of the flexbox (e.g. in 'lr-tb', 'before' is up and 'after' is down
-
-Option 2: Option 1 plus a new set value for 'flex-flow' -- [ align-up | align-right | align-left | align-down | align-before | align-after ]
-
+  ;Option 2 : Option 1 plus a new set value for 'flex-flow' -- [ align-up | align-right | align-left | align-down | align-before | align-after ]
   ;Proposal : alignment direction is wrap direction in multi-line flexbox and block flow direction in single-line flexbox (option 1)
   ;Status : Open
 
