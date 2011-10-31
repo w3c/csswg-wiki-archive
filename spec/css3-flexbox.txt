@@ -173,9 +173,7 @@ From flexbox spec draft:
 
 ISSUE: The proliferation of "inline-*" display values is untenable and restrictive. Table cells should be able to use the flexbox layout mode for their contents, for example, rather than being forced to use block layout. It's expected that this will be fixed by splitting the ‘display’ property into sub-properties controlling how the element formats its contents (‘display-inside’) and how it reacts to its surroundings (‘display-outside’). Once that occurs, this section will instead describe a single new ‘display-inside’ value that triggers flexbox layout.
 
-  ;Status : Open
-  ;Tentative resolution : this  is a change for CSS3-BOX; need proposal, pending use cases
-  ;Action : Tab: ACTION-342: define use cases that require 'display-inline'
+  ;Status : Resolved : this  is a change for CSS3-BOX; need proposal, Tab: ACTION-342: define use cases that require 'display-inline'
 
 ==== Issue 7 ====
   ;URL : //todo//
