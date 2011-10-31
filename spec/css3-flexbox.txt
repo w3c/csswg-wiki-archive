@@ -212,7 +212,7 @@ Similarly, there should be a way to control how lines are distributed if there i
 
   ;Status : Closed
 
-in spec: http://dev.w3.org/csswg/css3-flexbox/#flex-line-pack0
+in ED: http://dev.w3.org/csswg/css3-flexbox/#flex-line-pack0
 
 ==== Issue 10 ====
 
