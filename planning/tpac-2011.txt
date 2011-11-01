@@ -97,7 +97,11 @@ Declarative 3D Community Group meeting Tuesday 9am-1pm [Simon, Ted?]
   * Joint meeting IDPF/EPUB in CSS WG room, 10:00, 1h
   * //break// in CSS WG room, 0h15
   * Test Suite (2.1) issues in CSS WG room, 11:15, 1h
+  * Backgrounds and Borders
+  * //lunch// (1h)
   * CSS3 Images, 2pm, 1h
+  * Variables
+  * //break// in CSS WG room, 0h15
   * Joint meeting PF WG in CSS WG room, 3:30pm, 1h30
 
 === Thursday ===
