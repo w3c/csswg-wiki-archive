@@ -1,0 +1,15 @@
+===== CSS3 Grid Layout =====
+
+This page contains the issues that are not yet listed in the specification and the resolutions for issues that were in the spec. but got resolved.
+
+===== spec pointers =====
+
+Link to current Working Draft:[[http://www.w3.org/TR/css3-grid-layout/]]  
+
+Link to current Editor's draft: [[http://dev.w3.org/csswg/css3-grid-align/]]
+
+
+===== Action Items =====
+
+===== Issues =====
+==== Issue 1:  ====
