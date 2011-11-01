@@ -98,10 +98,10 @@ Declarative 3D Community Group meeting Tuesday 9am-1pm [Simon, Ted?]
   * //break// in CSS WG room, 0h15
   * Test Suite (2.1) issues in CSS WG room, 11:15, 1h
   * Backgrounds and Borders
+  * CSS3 Text - Text Transform
   * //lunch// (1h)
   * CSS3 Images, 2pm, 1h
   * Variables
-  * CSS3 Text - Text Transform
   * Status of specs and how to move forward
   * //break// in CSS WG room, 0h15
   * Joint meeting PF WG in CSS WG room, 3:30pm, 1h30
