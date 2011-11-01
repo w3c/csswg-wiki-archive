@@ -72,7 +72,8 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 
 [[http://www.w3.org/Style/CSS/Tracker/actions/350|ACTION 350]]
   * <html><span style="color:#6c6;font-weight:bold;">Alex</span></html>: to add an api to find out which element is in a named flow
-**Proposed API:** http://lists.w3.org/Archives/Public/www-style/2011Oct/0532.html
+
+Done: http://lists.w3.org/Archives/Public/www-style/2011Oct/0532.html
 
 
 L-Action-7
