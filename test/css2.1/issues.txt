@@ -60,7 +60,6 @@ The issues listed on this page will be migrated to the new management system sho
 ==== Miscellaneous incorrect tests ====
 
   * [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-ln-000.htm|[RC6] c414-flt-ln-000]] , [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-ln-001.htm|[RC6] c414-flt-ln-001]] and [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-ln-003.htm|[RC6] c414-flt-ln-003]] should have their borders removed. **Reason why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0020.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0020.html]]
-  * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0079.html|content-160]]</del> - fixed for RC4.
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0119.html|background-intrinsic-004]]</del> - Fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Nov/0120.html|background-intrinsic-005]]</del> - Fixed for RC4
   * [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/c71-fwd-parsing-004.htm|[RC6] c71-fwd-parsing-004]] "This line should be bright green" when it is its background color
