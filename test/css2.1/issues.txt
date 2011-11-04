@@ -308,10 +308,7 @@ Ugly, not self-documenting:
 ==== 0 RC6 testcase missing the dom flag ====
 
 
-==== 2 RC4 testcases with some coding issues ====
-
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/abspos-paged-001.htm|abspos-paged-001]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]]
-  - [[http://test.csswg.org/suites/css2.1/20101210/html4/abspos-paged-002.htm|abspos-paged-002]] style block should explicitly declare ''media="print"'' [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0063.html|More info]]
+==== 0 RC6 testcase with some coding issues ====
 
 
 ==== 3 RC4 testcases using, relying on CSS3 grammar or CSS3 properties ====
