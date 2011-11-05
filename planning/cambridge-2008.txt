@@ -1,4 +1,10 @@
 ====== Cambridge F2F August 2008 ======
+  * August 20-22, 2008
+  * Cambridge, UK
+  * Organizer: Alex Mogilevsky, Microsoft
+  * Minutes: [[http://www.w3.org/2008/08/20-css-irc.html|Wednesday]], [[http://www.w3.org/2008/08/21-css-irc.html|Thursday]], [[http://www.w3.org/2008/08/22-css-irc.html|Friday]]
+
+===== Proposed topics =====
 
 Proposed topics for topics for the August 2008 CSS Working Group Face-to-Face meeting in Cambridge. This should be a technical meeting, and focus should be on topics that benefit from us all being in the same room. Add any proposed topics below: we will filter and sort later.
 
