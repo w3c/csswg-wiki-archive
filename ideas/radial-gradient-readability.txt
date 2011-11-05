@@ -1,3 +1,4 @@
+===== Radial Gradient Readability =====j
 We've agreed that radial gradients should have a literate syntax.  Linear gradients already kinda have one, in a simple way, and hopefully radials should end up thematically consistent.
 
 Agreement so far:
