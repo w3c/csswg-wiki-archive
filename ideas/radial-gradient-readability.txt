@@ -13,3 +13,7 @@ Proposals for shape-center are to use ''at'', ''from'', or ''position''.  We wan
   * ''at'' seems somewhat clearer than ''from'' and less prone to being confused with the focus.  However, some feel that it doesn't read as well.
   * ''position'' is pretty clear, but it breaks the readability.  We'd basically just be naming parameters.
   * something else?
+
+Elika/Tab Consensus Proposal:
+  * for CSS3: ''radial-gradient(<shape> to <size> at <position>, <colors>)''
+  * for CSS4: ''radial-gradient(<shape> to <size> at <position> [from <position> | from-offset <length>{1,2}], <colors>)''
