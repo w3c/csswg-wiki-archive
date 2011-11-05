@@ -1,5 +1,12 @@
 ====== Tokyo F2F March 2009 ======
 
+  * March 4-6, 2009
+  * Tokyo, Japan
+  * Organizer: John Daggett, Mozilla
+  * Minutes: [[http://lists.w3.org/Archives/Public/www-style/2009Mar/0063.html|Wed 4 am]], [[http://lists.w3.org/Archives/Public/www-style/2009Mar/0064.html|JLTF Joint Mtg]], [[http://lists.w3.org/Archives/Public/www-style/2009Mar/0065.html|Thu 5 am]], [[http://lists.w3.org/Archives/Public/www-style/2009Mar/0066.html|Thu 5 pm]], [[http://lists.w3.org/Archives/Public/www-style/2009Mar/0070.html|Fri 6 am]], [[http://lists.w3.org/Archives/Public/www-style/2009Mar/0067.html|Fri 6 pm]]
+
+===== Proposed topics =====
+
 Proposed topics for topics for the March 2009 CSS Working Group Face-to-Face meeting in Tokyo.
 
   * css3-page:
