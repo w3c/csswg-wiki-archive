@@ -1,5 +1,12 @@
 ====== Mandelieu F2F October 2008 ======
 
+  * October 19-21, 2008 (part of [[https://www.w3.org/2008/10/TPAC/|TPAC 2008]], October 20-24)
+  * Mandelieu, France
+  * Organizer: Bert Bos, W3C
+  * Minutes (IRC): [[http://www.w3.org/2008/10/19-css-irc.html|Sunday]], [[http://www.w3.org/2008/10/20-css-irc.html|Monday]], [[http://www.w3.org/2008/10/19-css-irc.html|Tuesday]]
+
+===== Proposed topics =====
+
 Proposed topics for topics for the October 2008 CSS Working Group Face-to-Face meeting in Mandelieu. 
 
   * Named pages and inheritance of 'page'
