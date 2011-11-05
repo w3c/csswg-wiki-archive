@@ -14,6 +14,10 @@ Proposals for shape-center are to use ''at'', ''from'', or ''position''.  We wan
   * ''position'' is pretty clear, but it breaks the readability.  We'd basically just be naming parameters.
   * something else?
 
-Elika/Tab Consensus Proposal:
+==== Elika/Tab Consensus Proposal ====
   * for CSS3: ''radial-gradient(<shape> to <size> at <position>, <colors>)''
   * for CSS4: ''radial-gradient(<shape> to <size> at <position> [from <position> | from-offset <length>{1,2}], <colors>)''
+
+Because the default size is ''cover'', this means:
+  * ''radial-gradient(from 25% 25%, <colors>)'' makes the 0% color at 25% 25%, and the 100% color is at a box-centered box-covering ellipse.
+  * ''radial-gradient(at 25% 25%, <colors>)'' makes the 0% color at 25% 25%, and the 100% color at a 25% 25%-centered box-covering ellipse.
