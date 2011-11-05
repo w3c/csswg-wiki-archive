@@ -1,16 +1,15 @@
 We've agreed that radial gradients should have a literate syntax.  Linear gradients already kinda have one, in a simple way, and hopefully radials should end up thematically consistent.
 
 Agreement so far:
-
- * ''radial-gradient(<shape> to <size> [other stuff], <color-stop>#)'' where shape is ''circle | ellipse'', and size is the existing closest/furthest keywords or explicit size.
- * any part of the first argument is optional
- * shape comes first, other options can come in any order, colors are last
+  * ''radial-gradient(<shape> to <size> [other stuff], <color-stop>#)'' where shape is ''circle | ellipse'', and size is the existing closest/furthest keywords or explicit size.
+  * any part of the first argument is optional
+  * shape comes first, other options can come in any order, colors are last
 
 The only thing left to decide is what keyword to use for the positioning argument.  This has to be decided in the context of the planned level 4 extension to allow setting the focus (the point where the 0% color emerges from) separately from the center of the gradient shape.  It seems we have rough agreement on using ''focus'' and ''offset'' or ''focus-offset'' for box-relative and shape-center-relative focus positioning, respectively.
 
 Proposals for shape-center are to use ''at'', ''from'', or ''position''.  We want to ensure that it's clear that the keyword specifies the shape-center, not the focus.
 
- * ''from'' has a nice symmetry with ''to''.  As well, if we extend linear-gradient in the future to allow a starting point, we'll almost certainly use ''from''.  However, it's also easy to think of it as specifying where the color starts (that is, the focus position), so the ambiguity makes it somewhat less good.
- * ''at'' seems somewhat clearer than ''from'' and less prone to being confused with the focus.  However, some feel that it doesn't read as well.
- * ''position'' is pretty clear, but it breaks the readability.  We'd basically just be naming parameters.
- * something else?
+  * ''from'' has a nice symmetry with ''to''.  As well, if we extend linear-gradient in the future to allow a starting point, we'll almost certainly use ''from''.  However, it's also easy to think of it as specifying where the color starts (that is, the focus position), so the ambiguity makes it somewhat less good.
+  * ''at'' seems somewhat clearer than ''from'' and less prone to being confused with the focus.  However, some feel that it doesn't read as well.
+  * ''position'' is pretty clear, but it breaks the readability.  We'd basically just be naming parameters.
+  * something else?
