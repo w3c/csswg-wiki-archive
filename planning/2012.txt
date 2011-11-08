@@ -11,10 +11,11 @@
 
 ===== Avoid =====
 Existing/expected events we should avoid:
-  * 2012-01-16...20 due to 2012-01-17 MLK Holiday.
-  * 2012-02-01...04 due to IxDA in Dublin. The 1st is workshops so maybe that is ok to overlap.
-  * 2012-02-20...24 due to 2012-02-20 Presidents day.
-  * 2012-03-09...18 due to SXSW in Austin.
+  * 2012-01-16...20 per MLK Holiday 2012-01-17
+  * 2012-02-01...04 IxDA in Dublin. The 1st is workshops so maybe that is ok to overlap.
+  * 2012-02-04...05 [[http://fosdem.org/2012/|FOSDEM in Brussels]]. 
+  * 2012-02-20...24 per Presidents Day holiday 2012-02-20
+  * 2012-03-09...18 SXSW in Austin.
 
 ===== FYI =====
   * 2012-04-16...20: WWW2012 in Lyon
