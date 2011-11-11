@@ -5,7 +5,7 @@ Issues are tracked in the CSS Working Group as follows:
   * Editor's drafts have a link in their header to where issues are tracked for the draft (e.g. see "Issues List:" in header of [[http://dev.w3.org/csswg/css3-ui/|CSS3-UI editor's draft]]).
     * If all issues are tracked in the draft itself, this points to the editor's draft
   * Each CSS spec tracks issue in one of the four following ways per the preference of the spec's editor:
-    - [[:spec|Wiki]]
+    - [[:spec|Wiki]] -- fantasai notes from experience that if you track all issues in one page, it will eventually get [[:spec:css2.1|unweildy]], so consider a method for breaking them up into sub-pages
     - [[http://w3.org/Style/CSS/Tracker/|Tracker]]
     - [[http://www.w3.org/Bugs/Public/|Bugzilla]]
     - Inline in the spec itself
