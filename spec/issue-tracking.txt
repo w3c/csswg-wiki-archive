@@ -1,15 +1,15 @@
 ====== Issue Tracking ======
+
 Issues are tracked in the CSS Working Group as follows:
 
   * Editor's drafts have a link in their header to where issues are tracked for the draft (e.g. see "Issues List:" in header of [[http://dev.w3.org/csswg/css3-ui/|CSS3-UI editor's draft]]).
-    * If all issues are tracked in the draft itself, this may just be a note saying as such.
+    * If all issues are tracked in the draft itself, this points to the editor's draft
   * Each CSS spec tracks issue in one of the four following ways per the preference of the spec's editor:
-    - This wiki, e.g. see the individual spec pages linked from the [[../spec|specs]] page.
-    - The W3C Issue Tracker
-    - Bugzilla
+    - [[spec|Wiki]]
+    - [[http://w3.org/Style/CSS/Tracker/|Tracker]]
+    - [[http://www.w3.org/Bugs/Public/|Bugzilla]]
     - Inline in the spec itself
 
 If you're editing a spec, please use one of the four mechanisms above.
 
 If you have a better mechanism you'd like to use, please first propose it to the working group.
-
