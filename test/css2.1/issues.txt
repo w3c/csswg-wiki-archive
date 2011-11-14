@@ -71,8 +71,6 @@ The issues listed on this page will be migrated to the new management system sho
   * [MSFT] [[http://test.csswg.org/suites/css2.1/20110323/html4/outline-width-062.htm|[RC6] outline-width-062]] The title says "outline the box with a **5in** solid outline" but a **2in** solid outline is tested. More info: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011May/0048.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011May/0048.html]]
   * [MSFT] [[http://test.csswg.org/suites/css2.1/20110323/html4/outline-width-083.htm|[RC6] outline-width-083]] The title says "outline the box with a **5ex** solid outline" but a **5px** solid outline is tested. More info: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011May/0048.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011May/0048.html]]
   * [MSFT] [[http://test.csswg.org/suites/css2.1/20110323/html4/overflow-ancestors-001.htm|[RC6] overflow-ancestors-001]] The meta assert says "Overflow clipping does not affect elements which are ancestors to the element being clipped." but that is not what the test is testing. **Proposed correction**: "Overflow clipping does not affect elements which are **descendants of** the element being clipped." More info: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011May/0049.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011May/0049.html]]
-  * [MSFT] [[http://test.csswg.org/suites/css2.1/20110323/html4/inline-formatting-context-009.htm|[RC6] inline-formatting-context-009]] **Proposed correction**: Test passes if the orange box has a blue box **on its left and right sides**.
-
 ==== 0 RC4 testcase with incorrect pass condition / dependence on font metrics ====
 
 
