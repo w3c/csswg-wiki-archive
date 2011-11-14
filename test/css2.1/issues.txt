@@ -113,7 +113,6 @@ Ugly, not self-documenting:
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|c44-ln-box-003]]</del> - Fixed for RC4
   * [MSFT] [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|[RC6] background-130]] - still not fixed in RC6: "on top of" should be replaced with "above"; "stripe" seems preferable to "short box"
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|outline-003]]</del> - fixed for RC4
-  * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|empty-cells-applies-to-001]]</del> - fixed for RC4
   * <del>[[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Sep/0020.html|text-align-applies-to-001]]</del> - fixed for RC4
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0060.html|list-style-position-017]]
   * [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-110.htm|[RC6] floats-110]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0029.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0029.html]]
