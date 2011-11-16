@@ -39,6 +39,7 @@ This section outlines active possibilities for future specs or notes
   * [[spec:css3-overflow|CSS Overflow Level 3]]
   * [[spec:box-orphans|Box-model-related features with no home]]
   * [[spec:css3-position|CSS Positioning]]
+  * [[spec:a11yqueries|Accessibility Queries]]
 
 ===== out of date =====
 These specs are old / out of date and need active editors/owners to bring them up to date.
