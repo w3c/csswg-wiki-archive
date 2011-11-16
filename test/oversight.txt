@@ -20,6 +20,7 @@ The following table shows the owners and peers of the CSS Test Suites. Currently
 | CSS3 Multi-column Layout | Håkon Wium Lie |
 | [[http://www.w3.org/Style/CSS/Test/CSS3/Namespace/|CSS Namespaces]] | Anne van Kesteren |
 | [[http://www.w3.org/Style/CSS/Test/CSS3/Page/|CSS3 Paged Media]] | Elika J. Etemad |
+| CSS Transforms | Ted |
 
 The overall Owner for the W3C CSS Testing efforts is Elika J. Etemad (fantasai). Finally, the CSS Working Group has the highest authority over the project and may be consulted where deemed necessary.
 
