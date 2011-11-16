@@ -15,7 +15,9 @@ The following table shows the owners and peers of the CSS Test Suites. Currently
 | [[http://www.w3.org/Style/CSS/Test/CSS2.1/|CSS2.1]] | Elika J. Etemad, Gérard Talbot |
 | [[http://www.w3.org/Style/CSS/Test/CSS3/Selectors/|Selectors]] | Ian Hickson |
 | [[http://www.w3.org/Style/CSS/Test/MediaQueries/|Media Queries]] | Anne van Kesteren |
+| [[CSS3 Backgrounds and Borders]] | John Jansen |
 | [[http://www.w3.org/Style/CSS/Test/CSS3/Color/|CSS3 Color]] | L. David Baron |
+| [[CSS3 Multi-column Layout]] | Håkon Wium Lie |
 | [[http://www.w3.org/Style/CSS/Test/CSS3/Namespace/|CSS Namespaces]] | Anne van Kesteren |
 | [[http://www.w3.org/Style/CSS/Test/CSS3/Page/|CSS3 Paged Media]] | Elika J. Etemad |
 
