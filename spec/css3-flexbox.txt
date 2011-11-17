@@ -348,7 +348,7 @@ It is always possible to set "min-width:min-content". However it is not the defa
   ;Option 3 : min-width/min-height is consulted after flex distribution. if any item is smaller than min, it gets its min size and no flexibilithy, then flex distribution is restarted
   ;Proposal : Option 3; use of min-width vs min-content to be clarified
   ;Status : Resolved (TPAC2011): minimum width is just min-width: min-content is not an implied minimum  http://krijnhoetmer.nl/irc-logs/css/20111031#l-1591 . (that means min-content is never taken into account in flex calculations, unless used explicitly, e.g. as "min-width:min-content")
-
+  ;TODO : update spec
 
 <html><!--
 
