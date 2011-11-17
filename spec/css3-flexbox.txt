@@ -347,7 +347,7 @@ What should we do here? Treat content min width/height same as specified? With s
 It is always possible to set "min-width:min-content". However it is not the default, and default of "min-width:0" is actually a pretty bad default when shrinking needs to happen. In Tables, content min-width works as a low limit for column width, but we don't really want to fully recreate tables...
   ;Option 3 : min-width/min-height is consulted after flex distribution. if any item is smaller than min, it gets its min size and no flexibilithy, then flex distribution is restarted
   ;Proposal : Option 3; use of min-width vs min-content to be clarified
-  ;Status : Open
+  ;Status : Resolved (TPAC2011): minimum width is just min-width: min-content is not an implied minimum  http://krijnhoetmer.nl/irc-logs/css/20111031#l-1591 . (that means min-content is never taken into account in flex calculations, unless used explicitly, e.g. as "min-width:min-content")
 
 
 <html><!--
