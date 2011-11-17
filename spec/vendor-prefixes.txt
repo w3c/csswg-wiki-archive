@@ -18,7 +18,7 @@ If you are implementing a property/value/@-rule feature which is only defined in
   * MUST NOT support an unprefixed version of the feature
   * MUST NOT support a prefix specific to a third party for the feature
   * MAY use a prefix specific to the W3C for the feature, //if// the CSS WG ever introduces one
-    * quite disputed, ''-draft-'', ''-wd-'', ''-w3c-'', ''-css-'' and ''-csswg-'' would be possible prefixes – Crissov
+    * quite disputed, ''-draft-'', ''-wd-'', ''-w3c-'', ''-css-'' and ''-csswg-'' would be possible prefixes and they could be versioned – Crissov
     * ''epub-'' should be mentioned here - Simon F.
 
 ==== Candidate Recommendation features ====
