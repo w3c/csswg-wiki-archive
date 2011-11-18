@@ -77,6 +77,7 @@ The issues listed on this page will be migrated to the new management system sho
   * [MSFT] [[http://test.csswg.org/suites/css2.1/20110323/html4/block-formatting-contexts-012.htm|[RC6] block-formatting-contexts-012]]
   * [Hixie] [[http://test.csswg.org/suites/css2.1/20110323/html4/columns-001.htm|[RC6] columns-001]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Nov/0026.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Nov/0026.html]]
   * [MSFT] [[http://test.csswg.org/suites/css2.1/20110323/html4/table-visual-layout-002.htm|[RC6] table-visual-layout-002]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jul/0000.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jul/0000.html]]
+  * [MSFT] [[http://test.csswg.org/suites/css2.1/20110323/html4/table-anonymous-block-011.htm|[RC6] table-anonymous-block-011]] **Reasons why**: [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Nov/0029.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2011Nov/0029.html]]
 ==== 0 RC4 testcase with incorrect pass condition / dependence on font metrics ====
 
 
