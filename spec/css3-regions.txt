@@ -14,6 +14,10 @@ Code Samples
 
 {{:spec:regions-samples_webkit-nightly.zip|}}
 
+Use cases
+
+[[spec:css3-regions:regions-use-cases|CSS Regions and Exclusions Use Cases]]
+
 ===== Spec and Test Metadata =====
 
 Each of the Regions tests will have metadata that points back one or more ids used in the Regions spec. These ids may be heading or dfn elements, or they may be ids added at the paragraph or sentence level to indicate a specific conformance requirement that must be tested. We should be able to scan the spec for ids (ignoring non-testable ids) and find at least one test for every testable id in the spec.
