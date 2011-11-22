@@ -359,6 +359,18 @@ The edges of first regions in a region chain associated to a named flow establis
    ;Resolution : L-Action-16 to edit the spec.
    
    
+===== Resolved Issues: San Jose / Santa Clara Meeting, October 2011 =====
+
+See: http://krijnhoetmer.nl/irc-logs/css/20111030
+
+
+==== Issue 18: Interplay of flow-from and content ====
+
+   ;URL : http://krijnhoetmer.nl/irc-logs/css/20110824
+   ;Description : During the 08/24/2011, the working group resolved to use the 'flow-from' property instead of the content property to make an element a region. Fantasai expressed reserves and Steve Zilles suggested to add an issue.
+   ;Proposal : close this issue and wait for a formal issue expressing specific technical problems.
+   ;Resolution : close issue 18, reopen if needed later.
+
 ===== Resolved Issues: Seattle F2F Meeting, July 2011 =====
 
 See: http://lists.w3.org/Archives/Public/www-style/2011Aug/0069.html
