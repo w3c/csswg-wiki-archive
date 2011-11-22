@@ -4,3 +4,29 @@ This page captures use cases for CSS Regions (and exclusions).
 
 ==== Flowing content between arbitrary areas ====
 
+The following image illustrates flowing the same content across regions of different widths. As the content is resized, so are the various regions and the content simply flows between the different regions.
+
+{{:spec:css3-regions:simple_single_thread.png?200|}}
+
+==== Flowing content into arbitrary areas ====
+
+The following image illustrates flowing content into an arbitrarily shaped area (e.g., a heart).
+
+{{:spec:css3-regions:simple_shape.png?200|}}
+
+==== Flowing content *around* arbitrary areas ====
+
+The following image illustrates the need to be able to flow content around an arbitrarily shaped area.
+
+{{:spec:css3-regions:simple_exclusion.png?200|}}
+
+==== Controlling the interplay between overlapping shapes ====
+
+As the following image shows, it is important to be able to control the interaction between various 'exclusion' areas, whether or not these have a specified shapes (they do in the example, were text flows into circular shapes).
+
+{{:spec:css3-regions:simple_shape-order.png?200|}}
+
+=== Concrete Use Cases ===
+
+==== Fancy illustration layout ====
+
