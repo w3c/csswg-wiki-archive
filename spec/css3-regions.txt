@@ -188,10 +188,7 @@ See Issue 1 below.
    ;Proposal : Alex proposes to make regions non breakable. Vincent does not have a strong opinion on this.
    
 
-==== Issue 22: content v.s. flow-from precedence ====
-   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Oct/0568.html
-   ;Description: see email thread.
-   ;Proposal : reverse text and say that content takes precedence over flow-from.
+
    
 
    
