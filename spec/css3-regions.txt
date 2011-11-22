@@ -341,6 +341,48 @@ See: http://krijnhoetmer.nl/irc-logs/css/20111030
    ;Proposal : reverse text and say that content takes precedence over flow-from.
    ;Resolution : If 'content' computes to 'normal', then the element takes the flow.
      
+     
+     
+==== Issue 19: Special behavior of iframe flow ====
+
+   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Sep/0072.html
+   ;Description : iframe has special behavioer when used as a flow source (http://dev.w3.org/csswg/css3-regions/#the-flow-into-property) -- it puts its content into the flow, rather than itself. The model would be cleaner if the behavior was triggered by a property, not element tag.
+   ;Option 1 : two ‘flow-into’ properties:
+<code> 
+  <iframe style="flow-into:flow1"> --  add iframe to flow as a replaced element
+  <iframe style="flow-content-into:flow1"> --  add content of the iframe to flow
+</code>
+   ;Option 2 : a separate property to specify what to add to flow, with the same effect:
+<code> 
+  <iframe style="flow-into:flow1; flow-source-type:element"> --  add iframe to flow as a replaced element
+  <iframe style="flow-into:flow1; flow-source-type:content"> --  add content of the iframe to flow
+</code>
+   ;Option 3 : use a rule
+  @flow flow1 "story1.html";
+  @flow flow2 url("story1.html");
+Note that with this approach, it is not possible to concatenate content from multiple urls in one flow (which may be a good thing, concatenation is not an expected use pattern for flow indirection feature.
+
+  **pro* no special case for iframe
+
+  **con* different OM for programmatic flow source control.  
+  **con* content is provided/defined by stylesheet, which seems wrong. 
+
+   ;Option 4 : use a <link> element to create a flow from separate URL
+   
+Markup TBD
+
+
+   ;Proposal : Alex's option #1
+   
+It is the smallest change and it achieves the goals of content separation; security issues appear to be understoood and require little new work to load/manage the separate content.
+
+However using a separate, new mechanism for content indirection (e.g. a link) may be cleaner
+ 
+  
+   ;Resolution : ACTION-376 - Remove text about special iframe behavior and alex to write proposal about the behavior of iframe [on Alex Mogilevsky - due 2011-11-06]
+   
+
+     
 ===== Resolved Issues: Seattle F2F Meeting, July 2011 =====
 
 See: http://lists.w3.org/Archives/Public/www-style/2011Aug/0069.html
