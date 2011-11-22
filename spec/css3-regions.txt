@@ -185,11 +185,6 @@ See Issue 1 below.
   ;Proposal : Async. (implemented in IE10).
   
 
-==== Issue 18: Interplay of flow-from and content ====
-
-   ;URL : http://krijnhoetmer.nl/irc-logs/css/20110824
-   ;Description : During the 08/24/2011, the working group resolved to use the 'flow-from' property instead of the content property to make an element a region. Fantasai expressed reserves and Steve Zilles suggested to add an issue.
-   ;Proposal : close this issue and wait for a formal issue expressing specific technical problems.
 
 ==== Issue 23: should regions be non-breakable ====
    ;URL : http://lists.w3.org/Archives/Public/www-style/2011Oct/0625.html
