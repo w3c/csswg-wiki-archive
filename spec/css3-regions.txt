@@ -367,6 +367,13 @@ See: http://krijnhoetmer.nl/irc-logs/css/20111030
    ;Proposal : close this issue and wait for a formal issue expressing specific technical problems.
    ;Resolution : close issue 18, reopen if needed later.
 
+
+==== Issue 10: Should the regionLayoutUpdate event by Sync or Async? ====
+
+  ;Summary : The current spec. says that regionLayoutUpdate event is Sync (see (http://www.w3.org/TR/DOM-Level-3-Events/#sync-async). Should the event be made Async.
+  ;Discussion : In DOM Level 3 events, all events are Sync. except 'error', 'load', 'wheel' and 'scroll' which are Async. Not clear what guides making an event Sync or Async.
+  ;Proposal : Async. (implemented in IE10).
+  ;Resolution : Async.
 ===== Resolved Issues: Seattle F2F Meeting, July 2011 =====
 
 See: http://lists.w3.org/Archives/Public/www-style/2011Aug/0069.html
