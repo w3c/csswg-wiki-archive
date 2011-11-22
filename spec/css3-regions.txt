@@ -371,6 +371,13 @@ See: http://krijnhoetmer.nl/irc-logs/css/20111030
   ;Discussion : In DOM Level 3 events, all events are Sync. except 'error', 'load', 'wheel' and 'scroll' which are Async. Not clear what guides making an event Sync or Async.
   ;Proposal : Async. (implemented in IE10).
   ;Resolution : Async.
+  
+==== Issue 22: content v.s. flow-from precedence ====
+   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Oct/0568.html
+   ;Description: see email thread.
+   ;Proposal : reverse text and say that content takes precedence over flow-from.
+   ;Resolution : If 'content' computes to 'normal', then the element takes the flow.
+     
 ===== Resolved Issues: Seattle F2F Meeting, July 2011 =====
 
 See: http://lists.w3.org/Archives/Public/www-style/2011Aug/0069.html
