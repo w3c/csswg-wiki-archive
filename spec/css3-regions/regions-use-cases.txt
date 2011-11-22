@@ -6,39 +6,39 @@ This page captures use cases for CSS Regions (and exclusions).
 
 The following image illustrates flowing the same content across regions of different widths. As the content is resized, so are the various regions and the content simply flows between the different regions.
 
-{{:spec:css3-regions:simple_single_thread.png?200|}}
+{{:spec:css3-regions:simple_single_thread.png?600|}}
 
 ==== Flowing content into arbitrary areas ====
 
 The following image illustrates flowing content into an arbitrarily shaped area (e.g., a heart).
 
-{{:spec:css3-regions:simple_shape.png?200|}}
+{{:spec:css3-regions:simple_shape.png?600|}}
 
 ==== Flowing content *around* arbitrary areas ====
 
 The following image illustrates the need to be able to flow content around an arbitrarily shaped area.
 
-{{:spec:css3-regions:simple_exclusion.png?200|}}
+{{:spec:css3-regions:simple_exclusion.png?600|}}
 
 ==== Controlling the interplay between overlapping shapes ====
 
 As the following image shows, it is important to be able to control the interaction between various 'exclusion' areas, whether or not these have a specified shapes (they do in the example, were text flows into circular shapes).
 
-{{:spec:css3-regions:simple_shape-order.png?200|}}
+{{:spec:css3-regions:simple_shape-order.png?600|}}
 
 === Concrete Use Cases ===
 
 ==== Fancy illustration layout ====
 
-{{:spec:css3-regions:advanced_piechart.jpg?200|}}
+{{:spec:css3-regions:advanced_piechart.jpg?600|}}
 
 ==== Dropcap exclusion ====
 
-{{:spec:css3-regions:simple_dropcap-1.png?200|}}
+{{:spec:css3-regions:simple_dropcap-1.png?600|}}
 
 ==== Magazine layouts ====
 
-{{:spec:css3-regions:advanced_panorama.jpg?200|}}
-{{:spec:css3-regions:advanced_multi-column-article.jpg?200|}}
-{{:spec:css3-regions:simple_multiple_threads.png?200|}}
-{{:spec:css3-regions:region-break_headings.jpg?200|}}
+{{:spec:css3-regions:advanced_panorama.jpg?600|}}
+{{:spec:css3-regions:advanced_multi-column-article.jpg?600|}}
+{{:spec:css3-regions:simple_multiple_threads.png?600|}}
+{{:spec:css3-regions:region-break_headings.jpg?600|}}
