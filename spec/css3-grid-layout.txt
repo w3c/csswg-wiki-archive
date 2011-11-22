@@ -12,4 +12,19 @@ Link to current Editor's draft: [[http://dev.w3.org/csswg/css3-grid-align/]]
 ===== Action Items =====
 
 ===== Issues =====
-==== Issue 1:  ====
+==== Issue 1:  ===
+Grid-layer vs. z-index property for Grid
+
+Grid-layer is currently used to control the stacking of grid items in a grid element; one example of this would be using Grid to build a range control where the "thumb" of the control is displayed on top of the underlying track. However, grid-layer is in many ways similar to the existing z-index property. Is a separate property needed, or can z-index replace the grid-layer property?
+
+==== Issue 2:  ===
+Updating the fractional algorithm to deal with shrink-to-fit grid elements
+
+The current spec does not define how fractionally-sized grid items are sized when the grid element is shrink-to-fit. This needs to be defined in the spec.
+
+One use case that should be considered is where fractionally-sized-tracks intersect with spanning elements, as in the image below.
+
+{{:spec:span_and_fraction_track_size.png?200|}}
+
+
+
