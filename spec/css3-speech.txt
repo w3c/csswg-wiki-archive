@@ -222,7 +222,8 @@
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0527.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0615.html (notification of Working Group consensus / resolution)
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0782.html (James Craig <jcraig@apple.com> will file an issue for iOS5 to support the split 'speak' properties)
-
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Nov/0291.html (commenter's agreement)
+  
 
 ----
 
