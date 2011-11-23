@@ -260,7 +260,7 @@
 
 ==== Issue 16 ====
 
-  ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 16</b>: 'voice-family' property's 'preserve' value</span></html>
+  ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 16</b>: 'voice-family' property's 'preserve' value</span></html>
   ;Status : PENDING WORKING GROUP APPROVAL
   ;Resolution : Editor's proposal: reject dropping of 'preserve' value.
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
