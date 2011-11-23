@@ -28,7 +28,7 @@
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 1</b>: interaction between the 'voice-volume' property and the loudness of 'cue' properties</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>OPEN</b> [<code>...</code>]</span></html>
-  ;Resolution : Editor's proposal => ''Rejected'', but <html><span style="background-color:#90EE90;">agreement to clarify informative statement</span></html> that misleadingly compares SSML's 'audio' element with CSS-Speech audio cues
+  ;Resolution : __Editor's proposal__ => ''Rejected'', but <html><span style="background-color:#90EE90;">agreement to clarify informative statement</span></html> that misleadingly compares SSML's 'audio' element with CSS-Speech audio cues
   ;Raised By : Paul Bagshaw <paul.bagshaw@orange-ftgroup.com> (Co-author of SSML 1.1 and PLS 1.0)
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Aug/0494.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0189.html
@@ -44,7 +44,7 @@
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 2</b>: 'languages' attribute needed for voice selection with the 'voice-family' property</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>] (deferred)</span></html>
-  ;Resolution : Working Group consensus: defer to later revision due to technical considerations in Level 3 (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0482.html or http://logs.csswg.org/irc.w3.org/css/?date=2011-10-12 )
+  ;Resolution : __Working Group consensus__: defer to later revision due to technical considerations in Level 3 (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0482.html or http://logs.csswg.org/irc.w3.org/css/?date=2011-10-12 )
   ;Raised By : Paul Bagshaw <paul.bagshaw@orange-ftgroup.com> (Co-author of SSML 1.1 and PLS 1.0)
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Aug/0495.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0107.html
@@ -71,7 +71,7 @@
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 3</b>: Renaming the 'voice-volume' property to 'volume-voice'</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>]</span></html>
-  ;Resolution : Working Group consensus: do not rename property, to preserve consistency (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : __Working Group consensus__: do not rename property, to preserve consistency (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Christoph Päper <christoph.paeper@crissov.de>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Aug/0552.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0109.html (proposal: reject renaming)
@@ -87,7 +87,7 @@
 
   ;Summary : <html><span style="background-color:#E0FFFF; padding:0.5em;"><b>ISSUE 4</b>: Not dropping the "at-risk" voice-* properties</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Invalid</code>]</span></html>
-  ;Resolution : Working Group consensus: "at-risk" is just an indication of risk, not the intent to drop the feature (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : __Working Group consensus__: "at-risk" is just an indication of risk, not the intent to drop the feature (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0010.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0019.html
@@ -100,7 +100,7 @@
 
   ;Summary : <html><span style="background-color:#FFA500; padding:0.5em;"><b>ISSUE 5</b>: 'voice-rate' percentages</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Accepted</code>]</span></html>
-  ;Resolution : Working Group consensus: make a minor editorial improvement using the terms "slower" and "faster" to clarify the use of percentages, and to fix the typo "multiplied by 1.2" versus "one and a half times the speaking rate". (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : __Working Group consensus__: make a minor editorial improvement using the terms "slower" and "faster" to clarify the use of percentages, and to fix the typo "multiplied by 1.2" versus "one and a half times the speaking rate". (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0011.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0411.html
@@ -115,7 +115,7 @@
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 6</b>: 'play-during' or equivalent property</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>] (deferred)</span></html>
-  ;Resolution : Working Group consensus: reject 'play-during' feature request, possibly deferred to next major revision (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : __Working Group consensus__: reject 'play-during' feature request, possibly deferred to next major revision (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0012.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0423.html (agree with design decision to exclude 'play-during', reject need to re-introduce it)
@@ -129,7 +129,7 @@
 
   ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 7</b>: use of generic SPAN element in voice-stress example and client-side use question</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Accepted</code>]</span></html>
-  ;Resolution : Working Group consensus: make a minor editorial improvement so that the example uses 'em' instead of 'span'. However, the HTML default user-agent stylesheet remains out-of-scope (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : __Working Group consensus__: make a minor editorial improvement so that the example uses 'em' instead of 'span'. However, the HTML default user-agent stylesheet remains out-of-scope (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0013.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0414.html
@@ -144,7 +144,7 @@
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 8</b>: no longdesc for the aural formatting model diagram</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Accepted</code>]</span></html>
-  ;Resolution : Working Group consensus: make minor editorial edit to link the diagram to the paragraph above it, using aria:described-by and/or by editing the @alt attribute.
+  ;Resolution : __Working Group consensus__: make minor editorial edit to link the diagram to the paragraph above it, using aria:described-by and/or by editing the @alt attribute.
  (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0015.html
@@ -158,7 +158,7 @@
 
   ;Summary : <html><span style="background-color:#90EE90; padding:0.5em;"><b>ISSUE 9</b>: Appendix B — Index: why such cryptic hyperlink text?</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Accepted</code>]</span></html>
-  ;Resolution : Working Group consensus: fix the automatically-generated index, which will improve all the CSS specifications. (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : __Working Group consensus__: fix the automatically-generated index, which will improve all the CSS specifications. (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0016.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0407.html
@@ -173,7 +173,7 @@
 
   ;Summary : <html><span style="background-color:#E0FFFF; padding:0.5em;"><b>ISSUE 10</b>: aural/speech events/modifications cued by ARIA properties/attributes</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>OutOfScope</code>]</span></html>
-  ;Resolution : Working Group consensus: out-of-scope (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : __Working Group consensus__: out-of-scope (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0017.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0415.html (valid remark, but out-of-scope)
@@ -187,7 +187,7 @@
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 11</b>: relative 'voice-volume' values (e.g. Louder / Softer)</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>]</span></html>
-  ;Resolution : Working Group consensus: reject "louder" and "softer" keywords, but agree to improve informative prose (examples) for decibel offsets (as well as for 'voice-rate' percentages) (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : __Working Group consensus__: reject "louder" and "softer" keywords, but agree to improve informative prose (examples) for decibel offsets (as well as for 'voice-rate' percentages) (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0528.html
@@ -203,7 +203,7 @@
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 12</b>: 'voice-volume' property's 'silent' value</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>]</span></html>
-  ;Resolution : Working Group consensus: keep the 'silent' value as-is (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : __Working Group consensus__: keep the 'silent' value as-is (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0529.html
@@ -219,7 +219,7 @@
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 13</b>: 'speak' and 'speak-as' properties</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>]</span></html>
-  ;Resolution : Working Group consensus: keep the two 'speak' properties separated (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : __Working Group consensus__: keep the two 'speak' properties separated (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0527.html
@@ -235,7 +235,7 @@
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 14</b>: 'pause-before' and 'pause-after' properties</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>]</span></html>
-  ;Resolution : Working Group consensus: not to add restrictions on time values (good authoring practices are out-of-scope). Media Queries, Media Types / Features are out-of-scope too. (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
+  ;Resolution : __Working Group consensus__: not to add restrictions on time values (good authoring practices are out-of-scope). Media Queries, Media Types / Features are out-of-scope too. (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0537.html
@@ -248,8 +248,8 @@
 ==== Issue 15 ====
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 15</b>: 'cue-before' and 'cue-after' properties (named sound icons, such as "warning", "error", etc.)</span></html>
-  ;Status : PENDING WORKING GROUP APPROVAL
-  ;Resolution : Editor's proposal: defer to a future revision / version of the speech module.
+  ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>] (deferred)</span></html>
+  ;Resolution : __Working Group consensus__: new feature to consider for future level/revision. (See http://logs.csswg.org/irc.w3.org/css/?date=2011-11-23 )
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> 
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0368.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0535.html
