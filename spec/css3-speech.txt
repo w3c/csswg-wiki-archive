@@ -150,6 +150,7 @@
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0015.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0412.html
+  ;REMARK : commenter is not available to confirm, but the WG resolution is aligned with the commenter's position, so the issue can safely be marked ''Verified''.
 
 
 ----
