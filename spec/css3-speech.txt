@@ -332,7 +332,7 @@
   ;Raised By : PF-WG, Janina Sajka <janina@rednote.net> and James Craig <jcraig@apple.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0446.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0504.html
-  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Nov/0291.html (commenter's agreement, applies to 'voice-duration'property as well)
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Nov/0291.html (commenter's agreement, similar to 'voice-duration'property)
 
 ===== Testing, Reference Implementations =====
 
