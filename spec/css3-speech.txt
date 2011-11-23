@@ -316,7 +316,7 @@
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0527.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0538.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0505.html
-  ;Comment : Robert's email is missing from the archive! (system error? [ message archived in another list or period ]) http://www.w3.org/mid/113BCF28740AF44989BE7D3F84AE18DD1B2D28B9@TK5EX14MBXC112.redmond.corp.microsoft.com Robert said: "I suppose that's fine. I'm having a hard time seeing any commonality between this effort and the HTML Speech XG effort. Maybe there just isn't any scenario overlap?"
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Nov/0559.html (commenter's agreement => ''Verified'')
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Nov/0084.html (side note about relationship with HTML Speech XG)
 
 
