@@ -98,7 +98,7 @@
 
 ==== Issue 5 ====
 
-  ;Summary : <html><span style="background-color:#FFA500; padding:0.5em;"><b>ISSUE 5</b>: 'voice-rate' percentages</span></html>
+  ;Summary : <html><span style="background-color:#90EE90; padding:0.5em;"><b>ISSUE 5</b>: 'voice-rate' percentages</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Accepted</code>]</span></html>
   ;Resolution : __Working Group consensus__: make a minor editorial improvement using the terms "slower" and "faster" to clarify the use of percentages, and to fix the typo "multiplied by 1.2" versus "one and a half times the speaking rate". (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
@@ -106,6 +106,7 @@
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0411.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0608.html (notification of Working Group consensus / resolution)
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0617.html (proposed prose update)
+  ;REMARK : commenter is not available to confirm, but the WG resolution is aligned with the commenter's position, so the issue can safely be marked ''Verified''.
 
 
 ----
