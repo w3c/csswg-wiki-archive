@@ -34,7 +34,8 @@
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0189.html
   ;Comment 2 : http://lists.w3.org/Archives/Public/www-style/2011Sep/0503.html
   ;Response 2 : http://lists.w3.org/Archives/Public/www-style/2011Sep/0507.html
-  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0526.html
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0526.html (heads-up #1)
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Nov/0554.html (heads-up #2)
 
 
 ----
