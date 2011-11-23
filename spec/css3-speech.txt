@@ -68,7 +68,7 @@
 
 ==== Issue 3 ====
 
-  ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 3</b>: Renaming the 'voice-volume' property to 'volume-voice'</span></html>
+  ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 3</b>: Renaming the 'voice-volume' property to 'volume-voice'</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>]</span></html>
   ;Resolution : Working Group consensus: do not rename property, to preserve consistency (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Christoph Päper <christoph.paeper@crissov.de>
@@ -76,6 +76,7 @@
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0109.html (proposal: reject renaming)
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0525.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0606.html (notification of Working Group consensus / resolution)
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Nov/0499.html (commenter's agreement)
 
 
 ----
