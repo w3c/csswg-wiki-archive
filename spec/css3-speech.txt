@@ -180,6 +180,7 @@
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0017.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0415.html (valid remark, but out-of-scope)
+  ;REMARK : commenter is not available to confirm, but the WG resolution is not conflictual with regards to the commenter's position, so the issue can safely be marked ''Verified''.
 
 
 ----
