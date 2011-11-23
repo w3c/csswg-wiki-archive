@@ -113,13 +113,14 @@
 
 ==== Issue 6 ====
 
-  ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 6</b>: 'play-during' or equivalent property</span></html>
+  ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 6</b>: 'play-during' or equivalent property</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Rejected</code>] (deferred)</span></html>
   ;Resolution : __Working Group consensus__: reject 'play-during' feature request, possibly deferred to next major revision (See http://lists.w3.org/Archives/Public/www-style/2011Oct/0607.html or http://log.csswg.org/irc.w3.org/css/?date=2011-10-19 )
   ;Raised By : Gregory Rosmaita <gregory.rosmaita@gmail.com>
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0012.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0423.html (agree with design decision to exclude 'play-during', reject need to re-introduce it)
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0609.html (notification of Working Group consensus / resolution)
+  ;REMARK : commenter is not available to confirm, but the WG resolution is aligned with a well-established design decision since the very early days (pre-2004 Working Draft) of the CSS Speech Module Level 3, so we think that the issue can be confidently marked ''Verified''.
 
 
 ----
