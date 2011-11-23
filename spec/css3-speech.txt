@@ -192,7 +192,7 @@
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0528.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0613.html (notification of Working Group consensus / resolution)
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Oct/0783.html (James Craig <jcraig@apple.com> is okay with current specification regarding user-configurable values for volume keywords)
-  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Nov/0291.html (commenter's agreement)
+  ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Nov/0291.html (commenter's agreement ⇒ ''Verified'')
 
 
 ----
