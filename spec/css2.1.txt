@@ -265,6 +265,7 @@ Misfiled. See Issue 192.
 
 ==== Issue 229 ====
   ;Summary : Floats effect on lines above placeholder
+  ;Testcase : [[http://www.gtalbot.org/BrowserBugsSection/css21testsuite/testcase-for-issue-229.html|2 basic testcases for issue 229]]
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0149.html http://lists.w3.org/Archives/Public/www-style/2010Oct/0245.html
   ;Proposal : Add, "If, within the BFC, there is an in-flow negative vertical margin such that the floats position is above the position it would be at were all such negative margins set to zero, the position of the float is undefined."
   ;Resolution : Proposal accepted
