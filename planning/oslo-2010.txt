@@ -1,6 +1,13 @@
 
 ====== Oslo F2F August 2010 ======
 
+  * Oslo, Norway
+  * 2010 August 23-25
+  * Organizer: Opera (Håkon Wium Lie)
+  * Minutes: [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0001.html|Monday]], [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0002.html|Tuesday]], [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0003.html|Wednesday]]
+
+===== Proposed topics =====
+
 Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norway.
 
   * Review Vendor Prefix policy - what happens when CR reverts to WD. Vendors' submission responsbilities when a vendor-specific feature is very widely used.
