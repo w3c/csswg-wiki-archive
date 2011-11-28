@@ -1,7 +1,7 @@
 === Spec Styling Effort ===
 
 
-==== Requirements ====
+==== Requirements & Feedback ====
 
 ===== Richard Ishida on content width ===== 
 
@@ -25,6 +25,18 @@ them for i18n issues. It already takes up a lot of paper, and if this
 fixed column width is forced on me for printing, I will probably use up
 twice as much.
 
+====== Karl Dubost ======
+
+* No style toogle in the upper right (Opera 11.60)
+  Oooops strike that, the contrast was so low, I had not seen it ;)
+* Adjustable line width for very small screen would be nice (Mediaqueries maybe)
+* "i like 100% width… then i resize my browser width to a decent size for me" (colleague comment)
+* Property table hard to read at the bottom. Need better style. The values seem to be floating.
+* Guidelines for schematic graphs would be a nice touch to add, so there is consistency between specs
+* Use of same color for links and code is a bit confusing.
+* I would add more space in between paragraphs but that might be me only :)
+  difficult to breathe.
+  
 ==== Daniel Glazman on body width ====
 
 In the body of Vincent's spec, I suppose one given element, let's say
