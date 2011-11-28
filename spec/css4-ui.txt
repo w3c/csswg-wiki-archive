@@ -45,6 +45,7 @@ http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr
     * :valid-drop-zone - a drop zone that accepts the type of data being dragged
     * :invalid-drop-zone - a drop zone that doesn't accept the type of data being dragged
   * see http://wiki.csswg.org/spec/selectors4#ideas-to-consider for more.
+  * ::backdrop-of(selector) - a pseudo-element that matches the backdrop of a fullscreened element, a modal dialog, or other platform features with similar needs. 
 
 ===== dropped css3 features =====
 Features that were dropped from CSS3-UI (e.g. the 2004 CR) are eligible to be considered for CSS4-UI, but they will need a strong justification as having been ignored by implementations for 6+ years means there was likely something wrong with them and they need major revising. In addition, features dropped from other CSS3 specs or trimmed when bringing over to CSS3-UI are also considered here.
