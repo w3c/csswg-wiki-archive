@@ -9,10 +9,10 @@
 ===== Proposed topics =====
 
 Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS Working Group Face-to-Face]] meeting in Mountain View, California.
-===== Monday =====
+==== Monday ====
   * **9:15am-5:30pm** CSS 2.1 [[http://wiki.csswg.org/spec/css2.1|Remaining Issues]]
   * **5:30pm-6pm** CSS 2.1 Remaining Blocked Tests
-===== Tuesday =====
+==== Tuesday ====
 **Morning**
   * **9:15am-10:30am** Adobe's CSS Regions Proposal -- Arno Gourdol, Adobe
   * **10:30am-noon** CSS3 Grid Alignment -- Phil Cupp, Microsoft
@@ -25,7 +25,7 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * **3:40pm-4:00pm** CSS3 Line Grid (if time allows)
   * **4:!5pm-6:15pm** CSS2.1 Issues
 
-===== Wednesday =====
+==== Wednesday ====
   * **9:00am-11:00am** [css3-fonts] font-specific feature definition - jdaggett
   * **11:15am-12:10pm** [css3-fonts] revisions to the font matching algorithm - jdaggett
   * **12:10pm-12:20pm** [css3-fonts] WOFF and same origin restriction - jdaggett
@@ -37,6 +37,6 @@ Topics for the [[http://www.w3.org/Style/Group/2011/MountainView|March 2011 CSS 
   * EPUB requirements (chairs should restrict to 1/2 hr or 1hr)
 
 
-====== Notes ======
+===== Notes =====
 
   * ...
