@@ -3,8 +3,7 @@
 Topics for the [[http://www.w3.org/Style/Group/2011/Seattle.html|July 2011 CSS Working Group Face-to-Face]] meeting in Seattle, WA.
 
   * **When:** Sunday 24 – Tuesday 26 (adjacent to [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2011|SVG meeting]] with joint meeting on Tusday July 26)
-  * **Where:** [[http://www.marriott.com/hotels/travel/seacd-courtyard-seattle-downtown-lake-union/|South Lake Union Mariott Courtyard]]
-Room: Puget Sound
+  * **Where:** [[http://www.marriott.com/hotels/travel/seacd-courtyard-seattle-downtown-lake-union/|South Lake Union Mariott Courtyard]], Room: Puget Sound
   * **Registration:** [[http://www.w3.org/2002/09/wbs/99999/csswg-f2f-seattle-2011-07/|survey]]
   * **Weather:** [[http://forecast.weather.gov/MapClick.php?lat=47.627&lon=-122.341&unit=1&lg=en&FcstType=text|°C]] / [[http://forecast.weather.gov/MapClick.php?lat=47.627&lon=-122.341&unit=0&lg=en&FcstType=text|°F]]
   * **Minutes:** [[http://lists.w3.org/Archives/Public/www-style/2011Jul/0536.html|Sunday am]], [[http://lists.w3.org/Archives/Public/www-style/2011Jul/0538.html|Sunday pm]], [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0069.html|Monday am and early pm (with all Monday IRC)]], [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0072.html|rest of Monday pm]], [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0176.html|Tuesday (joint with SVG)]]
