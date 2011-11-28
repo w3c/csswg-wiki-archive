@@ -1,0 +1,49 @@
+=== Spec Styling Effort ===
+
+
+==== Requirements ====
+
+===== Richard Ishida on content width ===== 
+
+Please don't force me to work with a fixed width of text -
+please make it a % of the window width so that I can widen by stretching the window if I want.
+
+Although I do normally like a narrowish column for on-screen reading,
+there are circumstances where I want to see more content at a time, and
+I'd like to be able to do that by controlling, myself, how much of the
+content i see.  Stretching the window allows me to do that.
+
+The same goes for situations where I may want to compare multiple
+windows on a screen - the fixed width of this column loses information
+on the right side if I make my window too narrow.
+
+====== Richard Ishida on Print ======
+
+In addition, please provide an option to print specs without such narrow
+columns. This is to save on paper. I often print out specs to review
+them for i18n issues. It already takes up a lot of paper, and if this
+fixed column width is forced on me for printing, I will probably use up
+twice as much.
+
+==== Daniel Glazman on body width ====
+
+In the body of Vincent's spec, I suppose one given element, let's say
+#main, has a fixed size through a width or max-width property. Something
+like
+
+   #main {
+     max-width: 50em;
+  }
+
+Just tweak that to
+
+   #main:target {
+     max-width: 50em;
+   }
+
+and your document can have two different renderings for the regular URL
+without fragment id and the one with #main fragment id.
+
+   index.html      will be viweport-wide
+   index.html#main will be 50em-wide
+   
