@@ -3,6 +3,54 @@
 
 ==== Requirements & Feedback ====
 
+===== Martin Duerst =====
+
+1) As many others have said, don't force me to read with a fixed width.
+There are definitely legibility issues with too wide (or too small, for
+that matter) columns, but they depend on many different variables (e.g.
+reading habits, familiarity with the matter, complexity of the text,
+whether the language or script is 'native' or not,...). And they may be
+overridden by other issues (side-by-side comparisons, efficient use of
+paper (or screen real-estate; not everybody has big screens). For print,
+a single decision has to be made. There is NO need for such a decision
+for the Web, so please don't force it on us.
+[Side comment: I'm involved in a large updating project for the Web site
+of my university. I tried hard to get them to do a 'fluid' design that
+would work well on a large variety of devices. Unfortunately, it was a
+lost cause; run-of-the-mill Web 'professionals' still think in paper
+despite more than 20 years of the Web. Please let at least W3C provide
+some good examples, rather than stay stuck in the paper age.]
+
+2) It seems nobody noticed, but please use the full brightness gammut of
+the display device. I don't understand why displaying body text in dark
+gray (#2f2f2f) would make the text any more readable, in particular when
+there is lots of ambient light. To me the whole thing looks like the ink
+was running out. Headings,... are even lighter (#4f4f4f).
+
+3) That then would allow to make the examples a bit darker, too. It's
+good to use a somewhat lighter tone for the examples, that automatically
+enforces the message that they are not normative parts of the spec, but
+as they are currently, I get tired reading them.
+
+4) The bold font in the examples is way too bold in Safari. For whatever
+reason, it looks much less bold (and better) in all four other browsers
+I checked.
+
+5) The light blue color for the links is too light (see above) and
+therefore not very readable, too eye-catching to detract from reading
+the text, and too 'cute' for a spec. Most of these points also apply in
+the other cases where light blue is used.
+
+6) Good typography is a lot about messaging. The new style, to me at
+least, seems to aim for a message of high quality, but is too much
+slanted towards high quality poetry and not enough towards high quality
+engineering. I wonder to what extent messages such as "this is about
+precision" or "I'm the spec, you aren't going to mess with me" were part
+of the (maybe implicit) design brief for the redesign? With the current
+design, it may be easier to catch the eye of a Web designer, but do we
+think that this design is appropriate for specs e.g. about Web Services?
+
+
 ===== Robin Berjon =====
 
   * I won't repeat what others have already said, except to say that I agree on wider layout and better contrast.
