@@ -3,6 +3,16 @@
 
 ==== Requirements & Feedback ====
 
+===== John Dagget on contrast ===== 
+
+http://dvcs.w3.org/hg/FXTF/raw-file/tip/custom/index.html
+
+The light blue color used for links is in my opinion too low a contrast
+against the white page background, and some people (myself included)
+will find the links hard to read.  You may want to look at the WAI
+authoring accessibility guidelines for recommendations on colors and
+contrasts.
+
 ===== Richard Ishida on content width ===== 
 
 Please don't force me to work with a fixed width of text -
