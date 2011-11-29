@@ -20,7 +20,7 @@ Agenda and Logistics for November 2011 CSS Working Group Face-to-Face meeting (S
   * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0713.html|2011-10-30 Sunday Morning: Issue  Tracking, Regions]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0714.html|2011-10-30 Sunday Afternoon  I: UTR50, radial-gradient(), Exclusions and Shapes]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0715.html|2011-10-30 Sunday Afternoon  II: Style Attr, Selectors 4, Paginated Layout on Screen]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0709.html|2011-10-31 Monday Morning: Values&amp;Units,  Positioning, Animations]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0709.html|2011-10-31 Monday Morning: Values&Units,  Positioning, Animations]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0711.html|2011-10-31 Monday Afternoon:  @font-face, Flexbox, Multicol, GCPM]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0710.html|2011-11-01 Tuesday Morning I:  CSSOM, IDPF]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0717.html|2011-11-01 Tuesday Morning II:  Testing, CSS2.1, CSS3 Borders]]
