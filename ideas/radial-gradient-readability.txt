@@ -8,7 +8,7 @@ We've agreed that radial gradients should have a literate syntax.  Linear gradie
 
 Here ''<extent>'' is either a ''farthest/closest-side/corner'' keyword or an explicit ''<length>{1,2}''. Everything is optional.
 
-Quick Example: ''radial-gradient(5em circle at bottom right, white, black)''
+Quick Example: ''radial-gradient(5em circle at 10% 15%, white, black)''
 
 Because the default size is ''cover'', this means:
   * ''radial-gradient(from 25% 25%, <colors>)'' makes the 0% color at 25% 25%, and the 100% color is at a box-centered box-covering ellipse.
