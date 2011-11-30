@@ -1,31 +1,18 @@
 ===== Radial Gradient Readability =====
 We've agreed that radial gradients should have a literate syntax.  Linear gradients already kinda have one, in a simple way, and hopefully radials should end up thematically consistent.
 
-Agreement so far:
-  * ''radial-gradient(<shape> to <size> [other stuff], <color-stop>#)'' where shape is ''circle | ellipse'', and size is the existing closest/furthest keywords or explicit size.
-  * any part of the first argument is optional
-  * shape comes first, other options can come in any order, colors are last
+==== Current Proposal ====
 
-The only thing left to decide is what keyword to use for the positioning argument.  This has to be decided in the context of the planned level 4 extension to allow setting the focus (the point where the 0% color emerges from) separately from the center of the gradient shape.  It seems we have rough agreement on using ''focus'' and ''offset'' or ''focus-offset'' for box-relative and shape-center-relative focus positioning, respectively.
+  * for CSS3: ''radial-gradient(<shape> to <extent> at <position>, <colors>)''
+  * for CSS4: ''radial-gradient(<shape> to <extent> at <position> [from <position> | from-offset <length>{1,2}], <colors>)''
 
-Proposals for shape-center are to use ''at'', ''from'', or ''position''.  We want to ensure that it's clear that the keyword specifies the shape-center, not the focus.
-
-  * ''from'' has a nice symmetry with ''to''.  As well, if we extend linear-gradient in the future to allow a starting point, we'll almost certainly use ''from''.  However, it's also easy to think of it as specifying where the color starts (that is, the focus position), so the ambiguity makes it somewhat less good.
-  * ''at'' seems somewhat clearer than ''from'' and less prone to being confused with the focus.  However, some feel that it doesn't read as well.
-  * ''position'' is pretty clear, but it breaks the readability.  We'd basically just be naming parameters.
-  * something else?
-
-==== Elika/Tab Consensus Proposal ====
-  * for CSS3: ''radial-gradient(<shape> to <size> at <position>, <colors>)''
-  * for CSS4: ''radial-gradient(<shape> to <size> at <position> [from <position> | from-offset <length>{1,2}], <colors>)''
+Where <extent> is either a ''farthest/closest-side/corner'' keyword or an explicit ''<length>{1,2}''. Arguments after <shape> can be reordered; everything is optional.
 
 Because the default size is ''cover'', this means:
   * ''radial-gradient(from 25% 25%, <colors>)'' makes the 0% color at 25% 25%, and the 100% color is at a box-centered box-covering ellipse.
   * ''radial-gradient(at 25% 25%, <colors>)'' makes the 0% color at 25% 25%, and the 100% color at a 25% 25%-centered box-covering ellipse.
 
 <html><a href="data:text/html;charset=utf-8,<!DOCTYPE%20html>%0A<div><%2Fdiv>%0A<div>%0A<style>%0Adiv%20%7B%20%0Awidth%3A%20200px%3B%0Aheight%3A%20200px%3B%0Aborder%3A%20thin%20solid%3B%0Afloat%3A%20left%3B%0Amargin%3A%2010px%3B%0A%7D%0Adiv%3Afirst-child%20%7B%20%0Abackground%3A%20-webkit-gradient(radial%2C%2025%25%2025%25%2C%200%2C%2050%25%2050%25%2C%20150%2C%20from(white)%2C%20to(black))%3B%0A%7D%0Adiv%3Anth-child(2)%20%7B%0Abackground%3A%20-webkit-gradient(radial%2C%2025%25%2025%25%2C%200%2C%2025%25%2025%25%2C%20225%2C%20from(white)%2C%20to(black))%3B%0A%7D">Examples</a></html> (view in webkit)
-
-=== More Examples ===
 
 <html>
 <table rules="groups" class="data" cellpadding="5">
@@ -102,6 +89,85 @@ Because the default size is ''cover'', this means:
 <tbody>
 <tr>
 <td><code>radial-gradient(25% 2em, 15px 30%, white, black)</code></td>
+<td rowspan="2"><img src="http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial6.png"/>
+</td>
+<td><code>radial-gradient(ellipse to 15px 30% at 25% 2em, white, black)</code></td>
+
+</tr>
+</tbody>
+</table>
+</html>
+
+==== Alternate Proposal ====
+
+Feedback on CSS3.info indicates that people find "to <length>" awkward and would prefer a closer association of the length and the shape keyword. Since technically only one of <size> or <position> needs a keyword (for unambiguous parsing), fixed sizes could be combined with the shape keyword. This does mean that size must come before position (although either could be omitted).
+
+  radial-gradient([ <shape> || [ <size> | to <extent> ] ] at <position>, <colors)
+
+Comparison:
+
+<html>
+<table rules="groups" class="data" cellpadding="5">
+<caption>Examples</caption>
+<thead>
+<tr>
+<th>Alternate Proposal
+</th>
+<th>Preview</th>
+
+<th><a href="http://dev.w3.org/cvsweb/~checkout~/csswg/css3-images/Overview.html?rev=1.200;content-type=text%2Fhtml">Current ED</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>radial-gradient(white, black)</code></td>
+<td rowspan="2"><img src="http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial1.png"/>
+</td>
+<td><code>radial-gradient(white, black)</code></td>
+</tr>
+<tr>
+<td><code>radial-gradient(ellipse to farthest-corner at center, white, black)</code></td>
+<td><code>radial-gradient(ellipse to farthest-corner at center, white, black)</code></td>
+
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td><code>radial-gradient(at top left, white, black)</code></td>
+<td rowspan="2"><img src="http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial2.png"/>
+</td>
+<td><code>radial-gradient(at top left, white, black)</code></td>
+</tr>
+<tr>
+<td><code>radial-gradient(ellipse to farthest-corner at top left, white, black)</code></td>
+<td><code>radial-gradient(ellipse at top left to farthest-corner, white, black)</code></td>
+</tr>
+
+</tbody>
+<tbody>
+<tr>
+<td><code>radial-gradient(5em circle, white, black)</code></td>
+<td rowspan="2"><img src="http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial4.png"/>
+</td>
+<td><code>radial-gradient(to 5em, white, black)</code></td>
+</tr>
+<tr>
+<td><code>radial-gradient(5em circle at center white, black)</code></td>
+<td><code>radial-gradient(circle to 5em at center, white, black)</code></td>
+</tr>
+</tbody>
+<tbody>
+
+<tr>
+<td><code>radial-gradient(circle to closest-side at 75% 75%, white, black)</code></td>
+<td rowspan="2"><img src="http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial5.png"/>
+</td>
+<td><code>radial-gradient(circle at 75% 75% to closest-side, white, black)</code></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td><code>radial-gradient(15px 30% ellipse at 25% 2em, white, black)</code></td>
 <td rowspan="2"><img src="http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial6.png"/>
 </td>
 <td><code>radial-gradient(ellipse to 15px 30% at 25% 2em, white, black)</code></td>
