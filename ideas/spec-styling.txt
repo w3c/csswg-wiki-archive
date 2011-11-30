@@ -76,7 +76,7 @@ think that this design is appropriate for specs e.g. about Web Services?
 
   * It would be good to test the style for <dfn> in text body and not just in property definition tables. A lot of specs also have specific styles for links to definitions.
 
-  * A lot of specs now use highlighting, links, etc. for WebIDL snippets. That would be good to have some agreement on as well. Yes, I know that it's a lot of style :)
+  * A lot of specs now use highlighting, links, etc. for WebIDL snippets. That would be good to have some agreement on as well. Yes, I know that it's a lot of style :) This is just an example, and it does not necessarily carry consensus, but for IDL segments themselves you can look at any API spec that uses ReSpec (which is a large number of them). An example is http://www.w3.org/TR/contacts-api/. It does not necessarily exercise all the styles — I could probably construct a document that does.
 
 ===== Dave Raggett on contrast ===== 
 
