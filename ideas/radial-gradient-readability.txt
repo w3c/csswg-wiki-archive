@@ -34,7 +34,7 @@ Because the default size is ''cover'', this means:
 <td><code>radial-gradient(white, black)</code></td>
 </tr>
 <tr>
-<td><code>radial-gradient(farthest-corner ellipse, center, white, black)</code></td>
+<td><code>radial-gradient(center, farthest-corner ellipse, white, black)</code></td>
 <td><code>radial-gradient(ellipse to farthest-corner at center, white, black)</code></td>
 
 </tr>
