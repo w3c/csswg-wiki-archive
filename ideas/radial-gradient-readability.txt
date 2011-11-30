@@ -100,7 +100,7 @@ Because the default size is ''cover'', this means:
 
 ==== Alternate Proposal ====
 
-Feedback on CSS3.info indicates that people find "to <length>" awkward. Since technically only one of <size> or <position> needs a keyword (for unambiguous parsing), fixed sizes could be combined with the shape keyword. This does mean that size must come before position (although either could be omitted).
+Feedback on CSS3.info indicates that people find "to <length>" awkward. Since technically only one of <size> or <position> needs a keyword (for unambiguous parsing), fixed sizes could be combined with the shape keyword. This does mean that size must come before position (although either could be omitted), which is the opposite of what some designers think is intuitive.
 
 The alternate syntax would be ''radial-gradient([ <shape> || [ <size> | to <extent> ] ] at <position>, <colors>)''
 
