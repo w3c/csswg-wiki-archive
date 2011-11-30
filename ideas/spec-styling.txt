@@ -8,7 +8,7 @@
 Speaking of all the contrast issues, can we please ensure that the new style meets WCAG 2.0 AA? I haven't yet done an analysis, but this should be a requirement.
 
 
-===== Martin Durst =====
+===== Martin J. Dürst =====
 
 1) As many others have said, don't force me to read with a fixed width.
 There are definitely legibility issues with too wide (or too small, for
