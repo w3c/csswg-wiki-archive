@@ -100,9 +100,10 @@ Because the default size is ''cover'', this means:
 
 ==== Alternate Proposal ====
 
-Feedback on CSS3.info indicates that people find "to <length>" awkward. Since technically only one of <size> or <position> needs a keyword (for unambiguous parsing), fixed sizes could be combined with the shape keyword. This does mean that size must come before position (although either could be omitted), which is the opposite of what some designers think is intuitive.
+Feedback on CSS3.info indicates that people find "to <length>" awkward. Since technically only one of <size> or <position> needs a keyword (for unambiguous parsing), fixed sizes could be combined with the shape keyword. This does mean that size must come before position (although either could be omitted).
 
-The alternate syntax would be ''radial-gradient([ <shape> || [ <size> | to <extent> ] ] at <position>, <colors>)''
+The alternate syntax would be ''radial-gradient([ <extent> || <shape> ] at <position>, <colors>)''.
+For example, ''radial-gradient(5em circle at 25% 50px, white, black)''
 
 Comparison:
 
@@ -126,7 +127,7 @@ Comparison:
 <td><code>radial-gradient(white, black)</code></td>
 </tr>
 <tr>
-<td><code>radial-gradient(ellipse to farthest-corner at center, white, black)</code></td>
+<td><code>radial-gradient(ellipse farthest-corner at center, white, black)</code></td>
 <td><code>radial-gradient(ellipse to farthest-corner at center, white, black)</code></td>
 
 </tr>
@@ -139,7 +140,7 @@ Comparison:
 <td><code>radial-gradient(at top left, white, black)</code></td>
 </tr>
 <tr>
-<td><code>radial-gradient(ellipse to farthest-corner at top left, white, black)</code></td>
+<td><code>radial-gradient(farthest-corner ellipse at top left, white, black)</code></td>
 <td><code>radial-gradient(ellipse at top left to farthest-corner, white, black)</code></td>
 </tr>
 
@@ -159,7 +160,7 @@ Comparison:
 <tbody>
 
 <tr>
-<td><code>radial-gradient(circle to closest-side at 75% 75%, white, black)</code></td>
+<td><code>radial-gradient(closest-side circle at 75% 75%, white, black)</code></td>
 <td rowspan="2"><img src="http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial5.png"/>
 </td>
 <td><code>radial-gradient(circle at 75% 75% to closest-side, white, black)</code></td>
