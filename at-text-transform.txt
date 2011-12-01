@@ -142,7 +142,7 @@ Modern readers are often unfamiliar with this letter form, and for readability r
 
 Here are some more example of how the generic mechanism may be used
 
-==== Commic book vikings ====
+==== Comic book vikings ====
 In the "Asterix and the Great Crossing" comic book, the Viking characters are supposed to speak a foreign language unintelligible to the main characters, but still understandable to the readers. This is represented by writing down their speach normally, except that some letters are replaced by similarly looking letters found in scandinavian languages.
 
 This effect could be obtained by the following transform:
