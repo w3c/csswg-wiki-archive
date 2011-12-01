@@ -40,7 +40,7 @@ default: N/A
 </code>
 
 This descriptor creates a 1 to 1 mapping from the characters in the first string to the characters in the second string.
-<note warning>ISSUE: how should we define character here? Legacy or extended grapheme cluster?</note>)
+<note warning>ISSUE: how should we define character here? Legacy or extended grapheme cluster?</note>
 
 Both strings should be of equal length. If they are not, the longer on is truncated to the same length as the shorter one.
 <note warning>ISSUE: define length properly in terms of grapheme clusters</note>
