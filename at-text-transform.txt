@@ -90,7 +90,7 @@ This descriptor makes it possible to refer to existing text tranforms, either pr
 
 
 <note warning>ISSUE: Should we combine the 3 descriptors into one, with the following syntax?
- [<string> [, <string>]? to <string> [, <string>]?] | <identifier> </note>
+<code> [<string> [, <string>]? to <string> [, <string>]?] | <text-transform></code> </note>
 
 
 
@@ -126,3 +126,16 @@ This letter being rather new, authors are bound to disagree whether it is a prop
 }
 </code>
 
+===== Miscellaneous =====
+
+Here are some more example of how the generic mechanism may be used
+
+==== Commic book vikings ====
+In the "Asterix and the Great Crossing" comic book the Viking characters are supposed to speak a foreign language unintelligible to the main characters, but still understandable to the readers. This is represented by writing down their speach normally, except that some letters are replaced by similarly looking letters found in scandinavian languages.
+
+This effect could be obtained by the following transform:
+
+@text-transform fake-norse
+{
+    convert: "aoAO" to "åøÅØ";
+}
