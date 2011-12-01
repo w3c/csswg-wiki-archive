@@ -45,14 +45,6 @@ This descriptor creates a 1 to 1 mapping from the characters in the first string
 Both strings should be of equal length. If they are not, the longer on is truncated to the same length as the shorter one.
 <note warning>ISSUE: define length properly in terms of grapheme clusters</note>
 
-Example:
-<code>
-@text-transform fake-norwegian
-{
-    convert: "aoAO" to "åøÅØ";
-}
-</code>
-
 ===== The convert-range descriptor =====
 
 <code>
