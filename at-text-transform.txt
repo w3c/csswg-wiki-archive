@@ -104,17 +104,23 @@ In Japanese, small kanas appearing within ruby are sometimes replaced by the equ
 }
 </code>
 
-==== German uppercase ====
+==== German ß ====
 
 As discussed [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0193.html|in this thread]], ß (aka &szlig; or U+00DF) is traditionally considered a lower case letter without an uppercase equivalent. text-transform:uppercase leaves it unchanged. Unicode has introduced ẞ (U+1E9E), an uppercase version of it since 5.1, but without making it a target of toupper().
 
-This letter being rather new, authors are bound to disagree whether it is a proper uppercase variant of U+00DF, or not. Those who think it is not may use text-transform:uppercase; Those who think it is could use the following.
+This letter being rather new, authors are bound to disagree whether it is a proper uppercase variant of U+00DF, or not. Those who think it is not may use text-transform:uppercase; and text-transform:lowercase Those who think it is could use the following.
 
 <code>
 @text-transform german-uppercase
 {
     convert-predefined: uppercase;
     convert: "ß" to "ẞ";
+}
+
+@text-transform german-uppercase
+{
+    convert-predefined: lowercase;
+    convert: "ẞ" to "ß";
 }
 </code>
 
