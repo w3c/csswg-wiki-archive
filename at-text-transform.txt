@@ -64,7 +64,7 @@ The numerical code point value of the character in the first (resp. third) strin
 
 Example:
 <code>
-@text-transform latin-only-upercase
+@text-transform latin-only-uppercase
 {
     convert-range: "a","z" to "A","Z";
 }
