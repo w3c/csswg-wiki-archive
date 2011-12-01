@@ -126,16 +126,38 @@ This letter being rather new, authors are bound to disagree whether it is a prop
 }
 </code>
 
+===== Cross-language use cases =====
+
+The following cases are examples of cases useful in several languages, but rare enough that they are better addressed by authors when needed than by the CSS WG.
+
+==== Long s ====
+
+http://en.wikipedia.org/wiki/Long_s
+http://www.fileformat.info/info/unicode/char/17f/index.htm
+
+In old (18th century and earlier) European texts, the letter s, when at the middle or begining of the word, was written ſ (U+017F). S occuring at the end of a word would be written as the modern s is.
+
+Modern readers are often unfamiliar with this letter form, and for readability reasons, one may want to convert from one to the other. The follow transform would accomplish this.
+
+<code>
+@text-transform modernize-s
+{
+    convert: "ſ" to "s";
+}
+</code>
+
 ===== Miscellaneous =====
 
 Here are some more example of how the generic mechanism may be used
 
 ==== Commic book vikings ====
-In the "Asterix and the Great Crossing" comic book the Viking characters are supposed to speak a foreign language unintelligible to the main characters, but still understandable to the readers. This is represented by writing down their speach normally, except that some letters are replaced by similarly looking letters found in scandinavian languages.
+In the "Asterix and the Great Crossing" comic book, the Viking characters are supposed to speak a foreign language unintelligible to the main characters, but still understandable to the readers. This is represented by writing down their speach normally, except that some letters are replaced by similarly looking letters found in scandinavian languages.
 
 This effect could be obtained by the following transform:
 
+<code>
 @text-transform fake-norse
 {
     convert: "aoAO" to "åøÅØ";
 }
+</code>
