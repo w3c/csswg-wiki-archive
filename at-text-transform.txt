@@ -117,12 +117,38 @@ This letter being rather new, authors are bound to disagree whether it is a prop
     convert: "ß" to "ẞ";
 }
 
-@text-transform german-uppercase
+@text-transform german-lowercase
 {
     convert-predefined: lowercase;
     convert: "ẞ" to "ß";
 }
 </code>
+
+==== Turkish i/ı ====
+
+http://en.wikipedia.org/wiki/Dotted_and_dotless_I
+
+In Turkish and a few related languages, dotted and dotless i are distinct letters, both in upper land lower case.
+
+The uppercasing and lowercasing algorithm defined for the text-transform property only preserve this when the content language of the element is known.
+
+Someone, for example in a user style sheet, may want to apply an uppercase or lowercase transform to a document where language is insufficiently marked up, but known to the author of the style sheet to be Turkish. In this case, the generic uppercase and lowercase transforms would fail, but the following would work. 
+
+
+<code>
+@text-transform turkic-uppercase
+{
+    convert: "i" to "İ";
+    convert-predefined: uppercase;
+}
+
+@text-transform turkic-lowercase
+{
+    convert: "I" to "ı";
+    convert-predefined: lowercase;
+}
+</code>
+
 
 ===== Cross-language use cases =====
 
