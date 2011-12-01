@@ -84,6 +84,15 @@ This descriptor makes it possible to refer to existing text tranforms, either pr
 <note warning>ISSUE: Should we combine the 3 descriptors into one, with the following syntax?
 <code> [<string> [, <string>]? to <string> [, <string>]?] | <text-transform></code> </note>
 
+<note warning>ISSUE: do we also need one more desciptor along these lines:
+<code>Name: applies-to
+Value: all | initial
+Default: all
+</code>
+It would let people define customized versions of text-transform:capitalize;
+</note>
+
+
 
 
 ====== Use cases ======
