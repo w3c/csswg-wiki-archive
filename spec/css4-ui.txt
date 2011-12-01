@@ -38,6 +38,12 @@ Consider incorporating a 'focusable' property (like in SVG)
 
 http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr
 
+Alternate syntax suggestion (because boolean properties are the devil):
+
+<code>
+nav-focus: _normal_ | ignore | focus
+</code>
+
 ==== more selectors ====
   * [[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:placeholder]] pseudo-class for when an input element is in the state of showing its placeholder text
   * [[https://developer.mozilla.org/en/CSS/%3a%3a-moz-progress-bar|::progress-bar]] pseudo-element for selecting and styling the area of an HTML progress element that represents the amount of progress that has happened so far. This lets you, for example, change the color of progress bars.
