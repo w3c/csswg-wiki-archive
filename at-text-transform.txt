@@ -1,0 +1,128 @@
+This is an early draft for a possible generic mechanism to allow authors to define custom text-transforms.
+
+====== Defining Custom Text Transforms: the @text-transform rule======
+
+The general form of an @text-transform at-rule is:
+
+<code>
+@text-transform <transform-name>
+{ [ descriptor: value; ]+ }
+</code>
+
+The descriptors express the conversion from certain characters to other characters, using different mechanism to specify the the source and target characters. If several descriptors are used, the transform described is the result of successively applying them all, in the order they appear in the @text-transform.
+
+<note warning>ISSUE: should "@text-transform foo {...}" be used as "text-transform: custom(foo);" or as "text-transform: foo;"? I would rather do the same as counter-styles in lists, but let's discuss.</note>
+
+Example:
+
+The following two transforms are identical.
+
+<code>
+@text-tranform abcdef1
+{
+    convert: "abc" to "def";
+}
+
+@text-tranform abcdef2
+{
+    convert: "a" to "d";
+    convert: "b" to "e";
+    convert: "c" to "f";
+}
+</code>
+
+===== The convert descriptor =====
+
+<code>
+Name: convert
+Value: <string> to <string>
+default: N/A
+</code>
+
+This descriptor creates a 1 to 1 mapping from the characters in the first string to the characters in the second string.
+<note warning>ISSUE: how should we define character here? Legacy or extended grapheme cluster?</note>)
+
+Both strings should be of equal length. If they are not, the longer on is truncated to the same length as the shorter one.
+<note warning>ISSUE: define length properly in terms of grapheme clusters</note>
+
+Example:
+<code>
+@text-transform fake-norwegian
+{
+    convert: "aoAO" to "åøÅØ";
+}
+</code>
+
+===== The convert-range descriptor =====
+
+<code>
+Name: convert-range
+Value: <string>,<string> to <string>,<string>
+default: N/A
+</code>
+
+It would sometimes be tedious to use the convert descriptor when the list of characters is long, but this can be simplified using convert-range when the characters' unicode code points for a continuous sequence.
+
+Each pair of strings define an range of unicode characters, inclusive of the ones listed. All 4 strings must contain a single Unicode character.
+
+<note>NOTE: Here, grapheme clusters don't make sense</note>
+
+The numerical code point value of the character in the first (resp. third) string must be less than the one in the second (resp. fourth) string. If it is not, the descriptor must be ignored. Both ranges should be of equal length. If they are not, the longer on is truncated to the same length as the shorter one. The ranges may overlap.
+
+
+Example:
+<code>
+@text-transform latin-only-upercase
+{
+    convert-range: "a","z" to "A","Z";
+}
+</code>
+
+===== The convert-predefined descriptor =====
+
+<code>
+Name: convert-predefined
+Value: <text-transform>
+default: N/A
+</code>
+
+This descriptor makes it possible to refer to existing text tranforms, either predefined by CSS or defined by the author. While an @text-transform using only this descriptor is not very useful, combining it with other descriptors allows authors to extend or define variants of existing transforms. convert-predefined cannot refer to the text-transform whose definition it is part of.
+
+
+<note warning>ISSUE: Should we combine the 3 descriptors into one, with the following syntax?
+ [<string> [, <string>]? to <string> [, <string>]?] | <identifier> </note>
+
+
+
+====== Use cases ======
+
+===== Single Languages use cases =====
+
+The following use cases only apply to a single language. Defining all the possibly useful text-transforms for all languages would go beyond the capacity and expertise of the CSS WG. Having the generic mechanism allows authors to solve their specific problem.
+
+==== Full-size kana ====
+In Japanese, small kanas appearing within ruby are sometimes replaced by the equivalent full-size kana. The following transform defines this conversion
+
+<code>
+@text-transform full-size-kana
+{
+    convert: "ぁぃぅぇぉゕゖっゃゅょゎ" to "あいうえおかけつやゆよわ"; 
+    convert: "ァィゥェォヵㇰヶㇱㇲッㇳㇴㇵㇶㇷㇸㇹㇺャュョㇻㇼㇽㇾㇿヮ" to "アイウエオカクケシスツトヌハヒフヘホヤユヨラリルレロワ";
+    convert: "ｧｨｩｪｫｬｭｮ" to "ｱｲｳｴｵﾂﾔﾕﾖ";
+}
+</code>
+
+==== German uppercase ====
+
+As discussed [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0193.html|in this thread]], ß (aka &szlig; or U+00DF) is traditionally considered a lower case letter without an uppercase equivalent. text-transform:uppercase leaves it unchanged. Unicode has introduced ẞ (U+1E9E), an uppercase version of it since 5.1, but without making it a target of toupper().
+
+This letter being rather new, authors are bound to disagree whether it is a proper uppercase variant of U+00DF, or not. Those who think it is not may use text-transform:uppercase; Those who think it is could use the following.
+
+<code>
+@text-transform german-uppercase
+{
+    convert-predefined: uppercase;
+    convert: "ß" to "ẞ";
+}
+</code>
+
