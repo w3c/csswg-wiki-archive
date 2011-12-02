@@ -165,16 +165,18 @@ http://en.wikipedia.org/wiki/Georgian_alphabet
 
 The Georgian language has used three different unicameral alphabets through history: Asomtavruli, Nuskhuri, and Mkhedruli. Recently, some authors have been using Asomtavruli letters in an otherwise Mkhedruli text, in a way that resembles a bicameral alphabet. One may assume that they would find the following transform useful.
 
+<code>
 @text-transform Mkhedruli-to-Asomtavruli
 {
     convert: "ა","ჵ" to "Ⴀ","Ⴥ";
 }
-
+</code>
+<code>
 @text-transform Asomtavruli-to-Mkhedruli
 {
     convert: "Ⴀ","Ⴥ" to "ა","ჵ";
 }
-
+</code>
 
 ===== Cross-language use cases =====
 
