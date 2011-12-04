@@ -26,9 +26,9 @@
 
 ==== ISSUE 1 ====
 
-  ;Summary : <html><span style="background-color:#FFA500;padding:0.5em;"><b>ISSUE 1</b>: interaction between the 'voice-volume' property and the loudness of 'cue' properties</span></html>
-  ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>OPEN</b> [<code>...</code>]</span></html>
-  ;Resolution : __Editor's proposal__ => ''Rejected'', but <html><span style="background-color:#90EE90;">agreement to clarify informative statement</span></html> that misleadingly compares SSML's 'audio' element with CSS-Speech audio cues
+  ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 1</b>: interaction between the 'voice-volume' property and the loudness of 'cue' properties</span></html>
+  ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Accepted</code>]</span></html>
+  ;Resolution : __Working Group consensus__ (PENDING CONFIRMATION AT NEXT CONCALL): clarify informative statement that misleadingly associates SSML features with CSS-Speech. correct editorial glitch which results in a whole paragraph being normative rather than informative. improve (shorten) the said informative paragraph (as per the email proposal)
   ;Raised By : Paul Bagshaw <paul.bagshaw@orange-ftgroup.com> (Co-author of SSML 1.1 and PLS 1.0)
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Aug/0494.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0189.html
@@ -37,6 +37,7 @@
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Oct/0526.html (heads-up #1)
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Nov/0554.html (heads-up #2)
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Nov/0805.html (heads-up #3 with summarised proposal)
+  ;Response : http://lists.w3.org/Archives/Public/www-style/2011Dec/0081.html (commenter's agreement ⇒ Verified)
 
 
 ----
