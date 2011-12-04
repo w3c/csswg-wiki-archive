@@ -202,6 +202,30 @@ Modern readers are often unfamiliar with this letter form, and for readability r
 
 Here are some more example of how the generic mechanism may be used
 
+==== Transliteration ====
+
+Most writing systems of the world have at least one common transliteration scheme into the roman script.
+
+<code>
+@text-transform romanization 
+{/* ISO 9 (Cyrillic) */
+    convert: "А	а Ӑ ӑ Ӓ ӓ Ә ә Б б В в Г г Ґ ґ Ҕ ҕ Ғ ғ Д д Ђ ђ Ѓ ѓ Е е Ё	ё Ӗ ӗ Є є Ҽ ҽ Ҿ ҿ
+              Ж ж Ӂ ӂ Ӝ ӝ Җ җ З з Ӟ ӟ Ѕ ѕ Ӡ ӡ И и Ӥ ӥ І і Ї ї Й й Ј ј К к Қ қ Ҟ ҟ Л л Љ љ
+              М м Н н Њ њ Ҥ ҥ Ң ң О о Ӧ ӧ Ө ө П п Ҧ ҧ Р р С с Ҫ ҫ Т т Ҭ ҭ Ћ ћ Ќ ќ
+              У у У́ у́ Ў ў Ӱ ӱ Ӳ ӳ Ү ү Ф ф Х х Ҳ ҳ Һ һ Ц ц Ҵ ҵ Ч ч Ӵ ӵ Ҷ ҷ Џ џ Ш ш Щ щ
+              Ъ	ъ ’ Ы ы Ӹ ӹ Ь ь Э э Ю ю Я я Ѣ ѣ Ѫ ѫ Ѳ ѳ Ѵ ѵ Ҩ ҩ"
+         to  "A a Ă ă Ä ä A̋ a̋ B b V v G g G̀ g̀ Ğ ğ Ġ ġ D d Đ đ Ǵ ǵ E e Ë ë Ĕ ĕ Ê ê C̆ c̆ Ç̆ ç̆
+              Ž ž Z̆ z̆ Z̄ z̄ Ž̦ ž̧ Z z Z̈ z̈ Ẑ ẑ Ź ź I i Î î Ì ì Ï ï J j J̌ ǰ K k Ķ ķ K̄ k̄ L l L̂ l̂
+              M m N n N̂ n̂ Ṅ ṅ Ṇ ṇ O o Ö ö Ô ô P p Ṕ ṕ R r S s Ç ç T t Ţ ţ Ć ć Ḱ ḱ
+              U u Ú ú Ŭ ŭ Ü ü Ű ű Ù ù F f H h Ḩ ḩ Ḥ ḥ C c C̄ c̄ Č č C̈ c̈ Ç ç D̂ d̂ Š š Ŝ ŝ
+              ʺ ʺ ‵ Y y Ÿ ÿ ʹ ʹ È è Û û Â â Ě ě Ǎ ǎ F̀ f̀ Ỳ ỳ Ò ò";
+ /* ISO 843 (Greek) */
+    convert: "Α α Ά ά Β β Γ γ Δ δ Ε ε Έ έ Ζ ζ Η η Ή ή Θ  θ  Ι ι Ί ί Ϊ ϊ ΐ Κ κ Λ λ Μ μ
+              Ν ν Ξ ξ Ο ο Ό ό Π π Ρ ρ Σ σ ς Τ τ Υ υ Ύ ύ Ϋ ϋ Φ φ Χ  χ  Ψ  ψ  Ω ω Ώ ώ"
+         to  "A a Á á V v G g D d E e É é Z z Ī ī Ī́ ī́ Th th I i Í í Ï ï ḯ K k L l M m
+              N n X x O o Ó ó P p R r S s s T t Y y Ý ý Ÿ ÿ F f Ch ch Ps ps Ō ō Ṓ ṓ";
+}
+</code>
 ==== Comic book vikings ====
 In the "Asterix and the Great Crossing" comic book, the Viking characters are supposed to speak a foreign language unintelligible to the main characters, but still understandable to the readers. This is represented by writing down their speech normally, except that some letters are replaced by similarly looking letters found in Scandinavian languages.
 
