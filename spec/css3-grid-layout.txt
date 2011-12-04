@@ -25,6 +25,16 @@ Z-index should be used to replace the grid-layer property. Specifically, in case
 
 Note also that this change has been [[http://lists.w3.org/Archives/Public/www-style/2011May/0344.html|previously discussed]] on the www-styling mailing list.
 
+==== Issue 2:  ====
+Fractional-track sizing algorithm update
+
+== Summary: ==
+
+The grid-sizing algorithm introduced in the previous [[http://dev.w3.org/csswg/css3-grid-align|Editor's Draft]] did not define the expected behavior for sizing a fractionally-sized track (e.g. 1fr, 2fr,...) when a Grid Element was shrink-to-fit. This should be addressed so that future implementations of Grid Layout behave predictably across platforms.
+
+== Proposal: ==
+
+We propose to modify the existing grid sizing algorithm as follows: if the Grid Element is shrink-to-fit, then the algorithm follows its current path. However, if the Grid Element is not shrink-to-fit, then we set the size of a fractional track (i.e. determine the size of a '1fr' track) by making sure that 1) the proportions of all fractional tracks are preserved (e.g. a '1fr' track is half the size of a '2fr' track) and 2) fractional tracks are large enough contain all Grid Items that span them. The specific algorithm updates can be found in step 6 of the updated Editor's Draft.
  
 
 
