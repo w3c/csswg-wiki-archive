@@ -15,11 +15,11 @@ Link to current Editor's draft: [[http://dev.w3.org/csswg/css3-grid-align/]]
 ==== Issue 1:  ====
 Grid-layer vs. z-index property for Grid
 
-= Summary: =
+== Summary: ==
 
 Grid-layer is currently used to control the stacking of grid items in a grid element; one example of this would be using Grid to build a range control where the "thumb" of the control is displayed on top of the underlying track. However, grid-layer is in many ways similar to the existing z-index property. Is a separate property needed, or can z-index replace the grid-layer property?
 
-= Proposal: =
+== Proposal: ==
 
 Z-index should be used to replace the grid-layer property. Specifically, in cases where Grid Items overlap, z-index provides control over the drawing order of Grid Items. Both Grid elements and Grid Items generate a stacking context as described for floats (step 5, section 14) in the [[http://www.w3.org/TR/2007/WD-css3-box-20070809/#stacking|CSS3 Box Model]]. Note that this would imply that z-index applies to statically positioned Grid Items. 
 
