@@ -17,13 +17,20 @@ Grid-layer vs. z-index property for Grid
 
 == Summary: ==
 
-Grid-layer is currently used to control the stacking of grid items in a grid element; one example of this would be using Grid to build a range control where the "thumb" of the control is displayed on top of the underlying track. However, grid-layer is in many ways similar to the existing z-index property. Is a separate property needed, or can z-index replace the grid-layer property?
+Grid-layer is currently used to control the stacking of grid items in a grid element; one example of this that is mentioned in the current Editor's Draft would be using Grid to build a range control where the "thumb" of the control is displayed on top of the underlying track. However, grid-layer is in many ways similar to the existing z-index property. Is a separate property needed, or can z-index replace the grid-layer property?
+
+We have three primary goals w/r/t stacking Grid Items:
+
+  - Grid Items draw atomically.  Like positioned elements, Grid has among its primary scenarios the ability to overlap and layer its items (see section 2.4 Grid Layering of Elements).  To avoid a counter-intuitive interleaving of backgrounds, floats, and inline content, Grid Items should form a new stacking context.
+  - Grid Items are in front of the Grid Element, even when the Grid Item is given a negative z-index.  Imagine an author using a tool, right-clicking an item and choosing "send to back" from a context menu.  The tool should set a negative z-index on the Grid Item and not have the Grid Item disappear behind the background of the Grid Element.  Also, if a nested Grid is given a positive z-index, it should not cover its Grid Items.  Therefore we need the Grid Element to serve as a stacking context for its Grid Items.
+  - We want to avoid impacting any positioning scenarios.  It would be unexpected if the author inadvertently changed the containing block or the stacking context for a positioned descendant just by inserting a Grid layout in its ancestry. 
+
 
 == Proposal: ==
 
-Z-index should be used to replace the grid-layer property. Specifically, in cases where Grid Items overlap, z-index provides control over the drawing order of Grid Items. Both Grid elements and Grid Items generate a stacking context as described for floats (step 5, section 14) in the [[http://www.w3.org/TR/2007/WD-css3-box-20070809/#stacking|CSS3 Box Model]]. Note that this would imply that z-index applies to statically positioned Grid Items. 
+Z-index should be used to replace the grid-layer property (i.e. z-index applies to statically-positioned Grid Items.) Specifically, in cases where Grid Items overlap, z-index provides control over the drawing order of Grid Items. Both Grid elements and Grid Items generate a stacking context as described for floats (step 5, section 14) in the [[http://www.w3.org/TR/2007/WD-css3-box-20070809/#stacking|CSS3 Box Model]].
 
-Note also that this change has been [[http://lists.w3.org/Archives/Public/www-style/2011May/0344.html|previously discussed]] on the www-styling mailing list.
+Note also that using z-index in place of grid-layer has been [[http://lists.w3.org/Archives/Public/www-style/2011May/0344.html|previously discussed]] on the www-styling mailing list.
 
 ==== Issue 2:  ====
 Fractional-track sizing algorithm update
@@ -34,7 +41,7 @@ The grid-sizing algorithm introduced in the previous [[http://dev.w3.org/csswg/c
 
 == Proposal: ==
 
-We propose to modify the existing grid sizing algorithm as follows: if the Grid Element is shrink-to-fit, then the algorithm follows its current path. However, if the Grid Element is not shrink-to-fit, then we set the size of a fractional track (i.e. determine the size of a '1fr' track) by making sure that 1) the proportions of all fractional tracks are preserved (e.g. a '1fr' track is half the size of a '2fr' track) and 2) fractional tracks are large enough contain all Grid Items that span them. The specific algorithm updates can be found in step 6 of the updated Editor's Draft.
+We propose to modify the existing grid sizing algorithm as follows: if the Grid Element is shrink-to-fit, then we set the size of a fractional track (i.e. determine the size of a '1fr' track) by making sure that 1) the proportions of all fractional tracks are preserved (e.g. a '1fr' track is half the size of a '2fr' track) and 2) fractional tracks are large enough contain all Grid Items that span them. If the Grid Element is not shrink-to-fit, then the algorithm follows its current path. The specific algorithm updates can be found in step 6 of the updated Editor's Draft.
  
 
 
