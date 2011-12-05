@@ -244,7 +244,7 @@ In Internet, hacker and gamer culture a phenomenon is quite common, where charac
 <code>
 @text-transform leet-speak
 {
-    convert: "A B C D E F  G H I J K  L M N O P Q R S T U V  W X Y Z"
-         to  "4 8 © ) 3 Ph 6 h 1 ! |{ £ M N 0 ¶ 9 ® 5 7 U \/ W * ¥ 2";
+    convert: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+         to  "48©)3F6H1!K£MN0¶9®57UVW*¥2";
 }
 </code>
