@@ -239,7 +239,7 @@ This effect could be obtained by the following transform:
 </code>
 
 ==== Leet speak ====
-In Internet, hacker and gamer culture a phenomenon is quite common, where characters are replaced by other characters or character sequences which have a somewhat similar glyphic appearance. Although no single consensual convention exists and sometimes mappings are neither injective nor surjective, one could simulate this playful style with a transform like the following:
+In Internet, hacker and gamer culture, a phenomenon is quite common, where characters are replaced by other characters or character sequences which have a somewhat similar glyphic appearance. Although no single consensual convention exists and sometimes mappings are neither injective nor surjective, one could simulate this playful style with a transform like the following:
 
 <code>
 @text-transform leet-speak
