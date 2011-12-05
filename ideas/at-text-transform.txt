@@ -9,9 +9,11 @@ The general form of an @text-transform at-rule is:
 { [ descriptor: value; ]+ }
 </code>
 
-The descriptors express the conversion from certain characters to other characters, using different mechanism to specify the the source and target characters. If several descriptors are used, the transform described is the result of successively applying them all, in the order they appear in the @text-transform.
+<transform-name> may be any valid identifier other than non, inherit and initial.
 
-<note warning>ISSUE: should "@text-transform foo {...}" be used as "text-transform: custom(foo);" or as "text-transform: foo;"? I would rather do the same as counter-styles in lists, but let's discuss.</note>
+A text transform create using this at-rule may be used simply by using <transform-name> as the value of the text-transform property. If <transform-name> conflicts with a existing CSS keyword, the conflict is resolved in favor of the name introduced using @text-transform.
+
+The descriptors express the conversion from certain characters to other characters, using different mechanism to specify the the source and target characters. If several descriptors are used, the transform described is the result of successively applying them all, in the order they appear in the @text-transform.
 
 Example:
 
@@ -239,7 +241,7 @@ This effect could be obtained by the following transform:
 </code>
 
 ==== Leet speak ====
-In Internet, hacker and gamer culture a phenomenon is quite common, where characters are replaced by other characters or character sequences which have a somewhat similar glyphic appearance. Although no single consensual convention exists and sometimes mappings are neither injective nor surjective, one could simulate this playful style with a transform like the following:
+In Internet, hacker and gamer culture, a phenomenon is quite common, where characters are replaced by other characters or character sequences which have a somewhat similar glyphic appearance. Although no single consensual convention exists and sometimes mappings are neither injective nor surjective, one could simulate this playful style with a transform like the following:
 
 <code>
 @text-transform leet-speak
