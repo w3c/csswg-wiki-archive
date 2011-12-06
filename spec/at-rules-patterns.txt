@@ -1,0 +1,32 @@
+====== At-Rules Patterns ======
+
+This page lists a number of design patterns that have been identified for at-rules.
+
+At-rules can generally be grouped into four categories: 
+
+ 1. processing instructions (like @import or @charset)
+ 2. rules that change the context of rules inside them (like @media or @region)
+ 3. rules that apply properties to things in the document other than elements (like @page or @viewport)
+ 4. rules that define values which are too complex to define inline (like @font-face or @keyframes)
+
+===== Spec Text =====
+
+TODO
+
+===== CSSOM =====
+
+All new at-rules need to add a few things to the CSSOM: a new constant (coordinated at the [[CSSOM Constants]] page) and a new interface that inherits from CSSRule.
+
+For category 1 rules, the interface should have attributes exposing all of the information they contain, like [[http://dev.w3.org/csswg/cssom/#css-import-rule|the @import rule]].
+
+For category 2 rules, the interface should expose a ''cssRules'' or ''childRules'' (which?) attribute containing the child rules, and attributes for any other information they contain, like the selector in an @region.  
+
+For category 3 and 4 rules, the interface should expose a ''style'' attribute containing all the descriptors, and attributes for any other information they contain, like the name of a @counter-style.
+
+There is no need to define the ''cssText'', ''parentRule'', or ''parentStylesheet'' for your interface; these are defined by CSSRule.
+
+If you don't understand how to write WebIDL for the interfaces, just ask.
+
+===== Grammar =====
+
+TODO
