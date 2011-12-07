@@ -13,7 +13,7 @@ At-rules can generally be grouped into four categories:
 
 Category 1 and 2 rules merely need a description of their syntax and meaning.
 
-Category 3 and 4 rules contain **descriptors**, which are identical to properties but have definitions local to the specific at-rule.  Every descriptor needs a definition (use a ''<table class='descdef'>'') similar to a property.  Descriptors aren't properties; they don't generally take the global values that properties do, and don't usually have a concept of "inheritance".  Descriptors also generally have the same behavior as properties in other aspects: multiple occurrences of the same descriptor are ignored except for the last, unknown descriptors are dropped without invaliding the entire rule, etc.
+Category 3 and 4 rules contain **descriptors**, which are identical to properties but have definitions local to the specific at-rule.  Every descriptor needs a definition (use a ''<table class='descdef'>'') similar to a property.  Descriptors aren't properties; they don't generally take the global values that properties do, and don't usually have a concept of "inheritance".  Descriptors also generally have the same behavior as properties in other aspects: multiple occurrences of the same descriptor are ignored except for the last, unknown descriptors are dropped without invaliding the entire rule, etc.  ((I think most of this paragraph is not true for category (3); see, for example, the way the editor's draft of css3-page applies large swaths of properties to @page rules.  It would take a bit of time to sort through exactly which bits are true, though. --LDB))
 
 ==== Cascading ====
 
