@@ -41,6 +41,7 @@ This section outlines active possibilities for future specs or notes
   * [[spec:css3-position|CSS Positioning]]
   * [[spec:mediaqueries4|Media Queries Level 4]]
   * [[spec:css3-cascade|CSS Cascading and Inheritance Level 3]]
+  * [[spec:css3-exclusions|CSS Exclusions Module]]
 ===== out of date =====
 These specs are old / out of date and need active editors/owners to bring them up to date.
   * [[spec:css3-box|CSS Box Module Level 3]]
