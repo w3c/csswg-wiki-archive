@@ -65,11 +65,11 @@ Effect on replaced elements is undefined, but at least should reset any non-defa
 
 This should work without any new features:
 
-<div style="flow-into:template">
+  <div style="flow-into:template">
      <div style="flow-from:header; region-type:frame;"></div>
      <div style="flow-from:page; region-type:page;"></div>
      <div style="flow-from:footer; region-type:frame;"></div>
-</div>
+  </div>
 
 Since regions and flow content are in the same document, nested flows must work (but for iframe-based flow it would not work without allowing flows to be shared across documents).
 
