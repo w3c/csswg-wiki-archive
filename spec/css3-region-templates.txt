@@ -46,9 +46,8 @@ it will not get an extra div in the heading.
 This can solve other issues of regions adding hierarchy that gets in the way:
 
 
-*         Combine multiple <OL> elements in a flow and merge numbering
-
-*         Remove semantic grouping elements which don't have rendering (and allow content to be laid out by parent layout, e.g. grid)
+  * Combine multiple <OL> elements in a flow and merge numbering
+  * Remove semantic grouping elements which don't have rendering (and allow content to be laid out by parent layout, e.g. grid)
 
 Note that "display:content" can have effect when applied to any element (not necessarily related with flows and regions) -- it has the same effect as if the element would be replaced in the DOM tree with its content.
 
