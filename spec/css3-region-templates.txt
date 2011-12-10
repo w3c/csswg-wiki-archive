@@ -12,20 +12,19 @@
 
 Peter's template design [1] relies on region functionality where a region consumes exactly one element from flow. This is close to what would have happen if there was a forced break after each element, but region auto sizing doesn't work that way now.
 
-I think this calls for a special kind of region, and it will work better than manipulating with forced breaks.
+This calls for a special kind of region, and it will work better than manipulating with forced breaks.
 
 How about this:
 
-     region-type: page | column | box | slot | frame | auto
-     (initial: auto)
+**region-type**: page | column | box | slot | frame | auto (initial: auto)
 
 Region types have this meaning:
-                page - paginate the flow ("region-overflow:break"); "break-*:page" treats region as a page
-                column - same as page, but "break-*:column" moves to next region and content can be balanced (TBD how to tell which columns are on same page)
-                box - consuming one element at a time from the flow. No pagination, layout works as if the element from flow was the only child of the region
-                slot - same as 'box' but the element from flow replaces the region. Useful for incompatible containers (e.g. region is <p> and element is <div>). TBD how region and content properties are merged.
-                frame - consume all of the flow content, layout as if it was actual content
-                auto - page (if content doesn't fit) or frame (if it does) - as defined currently for "region-overflow:auto"
+  * **page** - paginate the flow ("region-overflow:break"); "break-*:page" treats region as a page
+  * **column** - same as page, but "break-*:column" moves to next region and content can be balanced (TBD how to tell which columns are on same page)
+  * **box** - consuming one element at a time from the flow. No pagination, layout works as if the element from flow was the only child of the region
+  * **slot** - same as 'box' but the element from flow replaces the region. Useful for incompatible containers (e.g. region is <p> and element is <div>). TBD how region and content properties are merged.
+  * **frame** - consume all of the flow content, layout as if it was actual content
+  * **auto** - page (if content doesn't fit) or frame (if it does) - as defined currently for "region-overflow:auto"
 
 This would replace 'region-overflow' property.
 
