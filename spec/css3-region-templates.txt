@@ -30,7 +30,7 @@ Region types have this meaning:
 This would replace 'region-overflow' property.
 
 
-==== 1.1. 'flow-into': element vs. content ====
+=== 1.1. 'flow-into': element vs. content ===
 
 The issue of nested containers in regions ("region-type:box" vs. "region-type:slot") can also be addressed by named flow source element sending its content to the flow, e.g. like this:
 
@@ -159,6 +159,6 @@ Could be like this:
 Built-in page view ("overflow:paged") could be defined as a set of paged generated from default empty template, binding to default flow (there is no such thing as "default flow" currently but it would make sense for such purpose).
 
 
-==== References: ====
+====== References: =====
   * http://epub-revision.googlecode.com/svn/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml -- templates proposal from IDPF/Adobe
   * http://lists.w3.org/Archives/Public/www-style/2011Nov/0123.html -- post-tpac-11 "thoughts on page templates" from Alex
