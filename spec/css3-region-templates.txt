@@ -80,7 +80,7 @@ Note: this style of headers/footers require that "region-type:frame" can render 
 
 There may be many ways to generate pages from templates, but the outcome is reasonable to expect to be something like this:
 
-<div id="page-view">
+  <div id="page-view">
      <!-- custom UI for page fiew -->
      <div id="page-container">
            <!-- generated pages, may or may not be in DOM -->
@@ -89,7 +89,7 @@ There may be many ways to generate pages from templates, but the outcome is reas
            ...
            <div id="pageN"></div>
      </div>
-</div>
+  </div>
 
 
 === 4.1. GC option - pages as generated content ===
