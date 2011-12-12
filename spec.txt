@@ -43,6 +43,8 @@ This section outlines active possibilities for future specs or notes
   * [[spec:mediaqueries4|Media Queries Level 4]]
   * [[spec:css3-cascade|CSS Cascading and Inheritance Level 3]]
   * [[spec:css3-exclusions|CSS Exclusions Module]]
+  * [[http://www.w3.org/Style/CSS/Tracker/products/33|CSS4 Values and Units]]
+
 ===== out of date =====
 These specs are old / out of date and need active editors/owners to bring them up to date.
   * [[spec:css3-box|CSS Box Module Level 3]]
@@ -53,7 +55,7 @@ These specs are old / out of date and need active editors/owners to bring them u
   * [[spec:css3-syntax|CSS Syntax Module Level 3]]
   * [[spec:css3-tables-algorithms|CSS Table Layout Algorithm Module Level 3]]
   * [[spec:css3-line-grid|CSS Line Grid Module Level 1]]
-  * [[http://www.w3.org/Style/CSS/Tracker/products/33|CSS4 Values and Units]]
+
 ====== Specification Reviews ======
 CSSWG members' comments on related specs not published by our group.
 
