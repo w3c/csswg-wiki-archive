@@ -134,6 +134,66 @@ As the following image shows, it is important to be able to control the interact
 
 {{:spec:css3-regions:simple_shape-order.png?600|}}
 
+<code html>
+<html>
+<head>
+    <style type="text/css">
+
+    /* extract the content of #source into a named flow - 'article' */
+    #source{
+        flow-into: article;
+    }                             
+
+    /* render the content from the 'article' named flow into .region */
+    .region{
+        flow-from: article; 
+    }
+
+    #circle_1, #circle_2, #circle_3{
+        position: absolute;
+        width: 40%;
+        height: 40%; 
+        
+        /* notation from CSS Exclusions and Shapes Module */
+        shape-inside: circle(50%, 50%, 30%);   
+    } 
+
+    #circle_2{
+        /* act as exclusion for the text flow from surrounding regions */
+        wrap-flow: both;
+        
+        /* circular exclusion shape on affected elements */
+        shape-outside: circle(50%, 50%, 30%);
+        
+        /* avoid being affected by other regions with lower z-index */
+        z-index: 1;   
+    }
+
+    /* region-styling to change the color of paragraph text that flows into #circle_2 */
+    @region #circle_2 {
+        p {
+            color: red;
+        }
+    }
+
+    </style>
+</head>
+<body>    
+
+    <div id="source">
+        <p>
+         The text in this element will wrap ...
+        </p>       
+    </div>  
+
+    <div id="circle_1" class="region"></div>
+    <div id="circle_2" class="region"></div> 
+    <div id="circle_3" class="region"></div> 
+    
+</body> 
+</html> 
+</code>
+
 === Concrete Use Cases ===
 
 ==== Fancy illustration layout ====
