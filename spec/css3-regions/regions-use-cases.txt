@@ -62,6 +62,73 @@ The following image illustrates flowing the same content across regions of diffe
 
 {{:spec:css3-regions:exclusions_pullquote.jpg?600|}}
 
+Sample with CSS Regions and Exclusions
+<code html>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style type="text/css"> 
+        
+        /* extract the content of #source into a named flow - 'article' */
+        #source{
+            flow-into: article;
+        }                             
+         
+        /* render the content from the 'article' named flow into .region */
+        .region{
+            flow-from: article; 
+        }
+        
+        #region_1, #region_2{    
+            float:left; 
+            width:45%; 
+            height:100%;
+        }   
+        
+        #region_2{
+            margin-left: 10%;
+        }
+        
+        blockquote{          
+            position:absolute;
+            
+            height:200px;   
+            width:50%;
+            
+            left: 25%;
+            top: 35%;   
+            
+            /* exclude surrounding content */
+            wrap-flow: both; 
+            
+            /* prevent the content from touching the edges of the box */
+            wrap-padding: 20px;
+        
+            color: lightblue;
+            font-size: 2em;
+        }     
+        
+    </style>
+</head>
+<body>
+
+    <div id="source">
+        <p>
+            Lorem ipsum dolor sit amet ...
+        </p>       
+    </div>  
+    
+    <div id="region_1" class="region"></div>
+    <div id="region_2" class="region"></div>
+    
+    <blockquote>
+        Lorem ipsum dolor ...
+    </blockquote>
+
+</body>
+</html>
+</code>
+
 ==== Flowing content into arbitrary areas ====
 
 The following image illustrates flowing content into an arbitrarily shaped area (e.g., a heart).
