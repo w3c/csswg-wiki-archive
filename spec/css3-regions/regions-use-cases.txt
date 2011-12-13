@@ -250,6 +250,8 @@ The following image illustrates the need to be able to flow content around an ar
 
 {{:spec:css3-regions:simple_exclusion.png?600|}}
 
+Code sample similar to [[ideas:css3-exclusions-use-cases#uc-1simple-exclusion|Simple Exclusion]]
+
 ==== Controlling the interplay between overlapping shapes ====
 
 As the following image shows, it is important to be able to control the interaction between various 'exclusion' areas, whether or not these have a specified shapes (they do in the example, were text flows into circular shapes).
