@@ -8,6 +8,56 @@ The following image illustrates flowing the same content across regions of diffe
 
 {{:spec:css3-regions:simple_single_thread.png?600|}}
 
+<code html>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style type="text/css"> 
+        
+        /* extract the content of #source into a named flow - 'article' */
+        #source{
+            flow-into: article;
+        }                             
+         
+        /* render the content from the 'article' named flow into .region */
+        .region{
+            flow-from: article; 
+        }
+        
+        #region_1, #region_2, #region_3{    
+            float:left;   
+            background:lightblue;
+        }   
+        
+        #region_1, #region_3{
+            width:20%;
+            height:600px;
+        }     
+        
+        #region_2{
+            width:50%; 
+            height:200px;
+            margin:0 5%;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id="source">
+        <p>
+            Lorem ipsum dolor sit amet ...
+        </p>       
+    </div>  
+    
+    <div id="region_1" class="region"></div>
+    <div id="region_2" class="region"></div>
+    <div id="region_3" class="region"></div>
+
+</body>
+</html>
+</code>
+
 ==== Flowing content into arbitrary areas ====
 
 The following image illustrates flowing content into an arbitrarily shaped area (e.g., a heart).
