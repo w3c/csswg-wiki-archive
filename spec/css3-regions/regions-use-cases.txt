@@ -63,6 +63,7 @@ The following image illustrates flowing the same content across regions of diffe
 {{:spec:css3-regions:exclusions_pullquote.jpg?600|}}
 
 Sample with CSS Regions and Exclusions
+
 <code html>
 <!DOCTYPE HTML>
 <html>
@@ -121,6 +122,56 @@ Sample with CSS Regions and Exclusions
     <div id="region_1" class="region"></div>
     <div id="region_2" class="region"></div>
     
+    <blockquote>
+        Lorem ipsum dolor ...
+    </blockquote>
+
+</body>
+</html>
+</code>
+
+Sample with columns and CSS Exclusions
+
+<code html>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style type="text/css"> 
+        
+        #source{
+            columns: 2;
+            height: 100%;
+        }                             
+         
+        blockquote{          
+            position:absolute;
+            
+            height:200px;   
+            width:50%;
+            
+            left: 25%;
+            top: 35%;   
+            
+            /* exclude surrounding content */
+            wrap-flow: both; 
+            
+            /* prevent the content from touching the edges of the box */
+            wrap-padding: 20px;
+        
+            color: lightblue;
+            font-size: 2em;
+        }     
+        
+    </style>
+</head>
+<body>
+
+    <div id="source">
+        <p>
+            Lorem ipsum dolor sit amet ...
+        </p>       
+    </div>  
+        
     <blockquote>
         Lorem ipsum dolor ...
     </blockquote>
