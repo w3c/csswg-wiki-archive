@@ -56,6 +56,19 @@ nav-focus: _normal_ | ignore | focus
 ===== dropped css3 features =====
 Features that were dropped from CSS3-UI (e.g. the 2004 CR) are eligible to be considered for CSS4-UI, but they will need a strong justification as having been ignored by implementations for 6+ years means there was likely something wrong with them and they need major revising. In addition, features dropped from other CSS3 specs or trimmed when bringing over to CSS3-UI are also considered here.
 
+==== appearance property ====
+The appearance property was in the 2004 CSS3-UI CR but never implemented as designed. It likely needs a coplete rethink and redesign, perhaps even a reframing/reexploration of the problms it was designed to solve.
+
+In practice, "appearance:none" is occasionally required in some UAs (like Gecko, WebKit) to turn off the native rendering of some controls and allow full CSS styling.
+
+Some form of "appearance:none" may be worth exploring as a CSS4-UI feature.
+
+At the time of the introduction and development of the 'appearance' property, it appeared that the limited set of specific UI elements in HTML were not going to be extended, and thus we tried going so (in a limited capacity) with CSS.
+
+Since new input elements etc. have been added to HTML5, and there is clearly opportunity to add more as deemed practically necessary, it makes more sense now to pursue new specific UI elements in HTML5 first, and then design any new related CSS features subsequently.
+
+I've archived the 2004 System Appearance feature spec source on the W3C wiki (it seems to support better escaping of embedded markup).
+  * http://www.w3.org/wiki/User:Tantekelik/CR-css3-ui-20040511-appearance
 
 ==== text-overflow string plus ====
 The string value for text-overflow should have the same syntax as the content rule.
@@ -79,6 +92,9 @@ Real world use-cases:
 
 ==== text-overflow start end values ====
 Originally text-overflow permitted an optional second value [[http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis|defined in CSS3 Text CR 2003-05-14]] "	<ellipsis>{1,2} "
+
+Status:
+  * in CSS3-UI editor's draft "at risk"
 
 Real-world use-cases:
   * none.
