@@ -43,13 +43,13 @@ Room: TBD
 People interested:
 
 ^Name^In^Out^Sponsored?^
-|Anton|Sun 2/5|Thu 2/9|**N**|
-|dbaron|FOSDEM?|Sun 2/12 (or hotel earlier)|Y|
+|Anton|Sun Feb 5|Thu Feb 9|**N**|
+|dbaron|FOSDEM?|Sun Feb 12 (or hotel earlier)|Y|
 |fantasai|any|any|Y|
 |Florian?|FOSDEM?|?|Y|
 |Koji|?|?|**?**|
-|Tab|?|?|Y|
-|Tantek|Sat 1/28|Wed 2/8|Y|
+|Tab|Sat Feb 4|Thu Feb 9|Y|
+|Tantek|Sat Jan 28|Wed Feb 8|Y|
 
 Proposed: In appreciation for their self-volunteered time and travel expenses, let's exclude unsponsored Invited Experts from the cost split.
 
