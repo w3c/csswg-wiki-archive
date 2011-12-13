@@ -58,6 +58,10 @@ The following image illustrates flowing the same content across regions of diffe
 </html>
 </code>
 
+==== Flowing content between areas and overlapping pull quote exclusion ====
+
+{{:spec:css3-regions:exclusions_pullquote.jpg?600|}}
+
 ==== Flowing content into arbitrary areas ====
 
 The following image illustrates flowing content into an arbitrarily shaped area (e.g., a heart).
