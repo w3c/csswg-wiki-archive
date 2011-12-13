@@ -56,8 +56,8 @@ nav-focus: _normal_ | ignore | focus
 ===== dropped css3 features =====
 Features that were dropped from CSS3-UI (e.g. the 2004 CR) are eligible to be considered for CSS4-UI, but they will need a strong justification as having been ignored by implementations for 6+ years means there was likely something wrong with them and they need major revising. In addition, features dropped from other CSS3 specs or trimmed when bringing over to CSS3-UI are also considered here.
 
-==== appearance property ====
-The appearance property was in the 2004 CSS3-UI CR but never implemented as designed. It likely needs a coplete rethink and redesign, perhaps even a reframing/reexploration of the problms it was designed to solve.
+==== appearance ====
+The System Appearance feature, including the appearance property, was in the 2004 CSS3-UI CR but never implemented as designed. It likely needs a complete rethink and redesign, perhaps even a reframing/reexploration of the problems it was designed to solve.
 
 In practice, "appearance:none" is occasionally required in some UAs (like Gecko, WebKit) to turn off the native rendering of some controls and allow full CSS styling.
 
