@@ -68,8 +68,66 @@ The following image illustrates flowing content into an arbitrarily shaped area 
 
 The following image illustrates the need to be able to flow content around an arbitrarily shaped area.
 
+
 {{:spec:css3-regions:simple_exclusion.png?600|}}
 
+<code html>
+<html>
+<head>
+    <style type="text/css">
+
+    /* extract the content of #source into a named flow - 'article' */
+    #source{
+        flow-into: article;
+    }                             
+
+    /* render the content from the 'article' named flow into .region */
+    .region{
+        flow-from: article; 
+    }
+
+    #circle, #heart{
+        position: absolute;
+        width: 40%;
+        height: 40%;
+    } 
+
+    #circle{
+        /* notation from CSS Exclusions and Shapes Module */
+        shape-inside: circle(50%, 50%, 30%); 
+
+        left: 0;
+    }
+
+    #heart{
+        shape-inside: polygon(x1, y1, x2, y2, x3, y3, ... xn, yn);
+
+        right: 0;    
+    }  
+
+    /* region-styling to change the color of paragraph text that flows into #heart */
+    @region #heart {
+        p {
+            color: red;
+        }
+    }
+
+    </style>
+</head>
+<body>    
+
+    <div id="source">
+        <p>
+         Lorem ipsum dolor sit amet ...
+        </p>       
+    </div>  
+
+    <div id="circle" class="region"></div>
+    <div id="heart" class="region"></div> 
+    
+</body> 
+</html> 
+</code>
 ==== Controlling the interplay between overlapping shapes ====
 
 As the following image shows, it is important to be able to control the interaction between various 'exclusion' areas, whether or not these have a specified shapes (they do in the example, were text flows into circular shapes).
