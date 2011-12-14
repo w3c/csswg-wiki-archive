@@ -192,14 +192,7 @@ See Issue 1 below.
    
 ==== Issue 20: List of region style properties ====
 
-   ;URL : none
-   ;Description : implementation experience has shown that it was more practical to have a style rule for region styling and limit the number of properties that could be styled. There are questions about the precise list of properties that should be supported.
-   ;Proposal : in addition to the properties supported by ::first-line, we should support the various border properties and allow the width, padding, margin and border properties. The rationale for allowing width, margin, border and padding properties is that we already have to support variable width containers and, therefore, will have to support varying width content (e.g., a block with 'width: 50%' or 'width: 40em' that spans multiple regions of different widths).
-   
-   
- 
-
-
+   ;URL : https://www.w3.org/Bugs/Public/show_bug.cgi?id=15190
 
 
 
