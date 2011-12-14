@@ -57,7 +57,7 @@ nav-focus: _normal_ | ignore | focus
 Moved from CSS3-UI editor's draft because it was the top source of issues for the 2nd CSS3-UI LCWD, and because it requires documenting previously undocumented web platform hit-testing model.
 
 Incorporate spec text from:
-* [[http://www.w3.org/wiki/User:Tantekelik/pointer-events|pointer-events spec text]]
+  * [[http://www.w3.org/wiki/User:Tantekelik/pointer-events|pointer-events spec text]]
 
 ===== dropped css3 features =====
 Features that were dropped from CSS3-UI (e.g. the 2004 CR) are eligible to be considered for CSS4-UI, but they will need a strong justification as having been ignored by implementations for 6+ years means there was likely something wrong with them and they need major revising. In addition, features dropped from other CSS3 specs or trimmed when bringing over to CSS3-UI are also considered here.
