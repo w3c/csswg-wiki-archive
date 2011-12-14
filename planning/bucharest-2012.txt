@@ -20,19 +20,6 @@
 
 **Weather:** [[http://www.weather.com/weather/extended/ROXX0003?par=yahoo&site=www.yahoo.com&promo=extendedforecast&cm_ven=Yahoo&cm_cat=www.yahoo.com&cm_pla=forecastpage&cm_ite=CityPage|Bucharest weather]]
 
-===== Agenda =====
-
-====== Wednesday May 9th ======
-
-  * Morning: FX task force meeting with the SVG Working Group
-
-=== Proposed Topics ===
-
-  * Add topics here
-
-===== Participants =====
-^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
-| Vincent Hardy | Adobe | ?? | ?? | ??? | ??? |  |
 
 ===== Lodging =====
 
@@ -75,3 +62,18 @@ Off Piata Romana, Bucharest, Romania
 ===== Transport to/from Airport =====
 
   * TBD
+
+===== Participants =====
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Vincent Hardy | Adobe | ?? | ?? | ??? | ??? |  |
+
+
+===== Agenda =====
+
+====== Wednesday May 9th ======
+
+  * Morning: FX task force meeting with the SVG Working Group
+
+=== Proposed Topics ===
+
+  * Add topics here
