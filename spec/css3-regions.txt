@@ -183,9 +183,7 @@ See Issue 1 below.
 
 
 ==== Issue 23: should regions be non-breakable ====
-   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Oct/0625.html
-   ;Description: see email thread.
-   ;Proposal : Alex proposes to make regions non breakable. Vincent does not have a strong opinion on this.
+   ;URL : https://www.w3.org/Bugs/Public/show_bug.cgi?id=15189
    
 
 
