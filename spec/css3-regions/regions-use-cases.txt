@@ -186,6 +186,8 @@ Sample with columns and CSS Exclusions
 
 {{:spec:css3-regions:regions_rotated_columns.jpg?600|}}
 
+See Stagger and Waggere at http://24ways.org/2009/type-inspired-interfaces
+
 <code html>
 <!DOCTYPE HTML>
 <html>
