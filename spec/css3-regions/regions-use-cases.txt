@@ -60,6 +60,10 @@ The following image illustrates flowing the same content across regions of diffe
 </html>
 </code>
 
+==== Flowing content between areas of a non-grid layout ====
+
+{{:spec:css3-regions:regions_non-grid.jpg?600|}}
+
 ==== Flowing content between areas and overlapping pull quote exclusion ====
 
 Use case from Korean News Paper layout: http://lists.w3.org/Archives/Public/www-archive/2011Oct/att-0033/KoreanNewspapers-exclusionAreas.pdf.
