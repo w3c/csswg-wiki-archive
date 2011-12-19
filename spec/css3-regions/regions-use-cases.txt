@@ -64,6 +64,64 @@ The following image illustrates flowing the same content across regions of diffe
 
 {{:spec:css3-regions:regions_non-grid.jpg?600|}}
 
+<code html>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style type="text/css"> 
+        
+        /* extract the content of #source into a named flow - 'article' */
+        #source{
+            flow-into: article;
+        }                             
+         
+        /* render the content from the 'article' named flow into .region */
+        .region{
+            flow-from: article; 
+        }
+        
+        #region_1, #region_2, #region_3{    
+            position:absolute;
+        }   
+        
+        #region_1{
+            width:22%;
+            height:100px; 
+            top:0;
+            left:0;
+        }     
+        
+        #region_2{ 
+            width:15%; 
+            height:250px;
+            bottom:0;
+            left: 5%;
+        }            
+        
+        #region3{
+            width: 70%;
+            height:  100%;
+            top:0;
+            right:0;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id="source">
+        <p>
+            Lorem ipsum dolor sit amet ...
+        </p>       
+    </div>  
+    
+    <div id="region_1" class="region"></div>
+    <div id="region_2" class="region"></div>
+    <div id="region_3" class="region"></div>
+
+</body>
+</html>
+</code>
 ==== Flowing content between areas and overlapping pull quote exclusion ====
 
 Use case from Korean News Paper layout: http://lists.w3.org/Archives/Public/www-archive/2011Oct/att-0033/KoreanNewspapers-exclusionAreas.pdf.
