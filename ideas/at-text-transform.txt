@@ -39,7 +39,7 @@ A <range> may also be defined as a string made of a single unicode character, fo
 
 If defined by an <enumeration>, it is composed of each character in the string, where characters are understood to be extended grapheme clusters. The same grapheme cluster may not appear twice in the <char-list> defining the source of the mapping, otherwise the whole descriptor is invalid.
 
-<note warning>ISSUE 1: The items in an enumeration may instead be space separated. This allows specifying items made of more than 1 characters. Also, although it means we don't have to deal with the question of legacy vs extended grapheme clusters to make the list of items, the question remains open on the document side.</note>
+<note warning>ISSUE 1: The items in an enumeration may instead be space separated. This allows specifying items made of more than 1 characters. Also, although it means we don't have to deal with the question of legacy vs extended grapheme clusters to make the list of items, the question remains open on the document side. Maybe space separated could be opt-in, turned on by a value of the character-type descriptor.</note>
 
 In addition to [[http://www.w3.org/TR/css3-values/#strings|the usual CSS rules of character escaping]], hyphen (U+002D) need to be escaped to appear in a string in a conversion. 
 
