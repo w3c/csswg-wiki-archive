@@ -84,7 +84,9 @@ text-tranforms operate on a 1 character basis. This descriptor allows to chose b
 
   * extended: characters are extended grapheme clusters, as defined in [[http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries|UAX29]]
   * legacy: characters are legacy grapheme clusters, as defined in [[http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries|UAX29]]
-  * single: characters are single unicode character code points.
+  * single: characters are single unicode character code points. This allows to transform base characters that are part of a grapheme cluster, or combining diacritics without affecting the rest of the cluster.
+
+<note warning>ISSUE 5: what happens when either extended or legacy is specified, but the enumeration contains invalid clusters? Skip the invalid character, make the conversion invalid, or make the whole descriptor invalid?</note>
 
 This definition affects character processing in two different contexts:
 
@@ -94,7 +96,7 @@ This definition affects character processing in two different contexts:
 The <character-type> descriptor only affects the parts of a text-transform that are defined using a <conversion>. The transformation descriptor may also refer to existing text-transforms, but these are applied using their original text-transforms have a different character-type they apply at the intersection of the
 two scopes.
 
-<note warning>ISSUE 5: define what happens when a text-transform refers via its transformation descriptor to another text-transform which has a different character-type. My guess: the original character-type applies to processing the enumerations, while the character-type in the including text-transform applies to the text that will be transformed. Or maybe this means this descriptor should be split in two.</note>
+<note warning>ISSUE 6: define what happens when a text-transform refers via its transformation descriptor to another text-transform which has a different character-type. My guess: the original character-type applies to processing the enumerations, while the character-type in the including text-transform applies to the text that will be transformed. Or maybe this means this descriptor should be split in two.</note>
 
 
 ===== The scope descriptor =====
