@@ -9,92 +9,127 @@ The general form of an @text-transform at-rule is:
 { [ descriptor: value; ]+ }
 </code>
 
-<transform-name> may be any valid identifier other than non, inherit and initial.
+<transform-name> may be any valid identifier other than inherit and initial.
 
-A text transform create using this at-rule may be used simply by using <transform-name> as the value of the text-transform property. If <transform-name> conflicts with a existing CSS keyword, the conflict is resolved in favor of the name introduced using @text-transform.
+A text transform created using this at-rule may be used simply by using <transform-name> as the value of the text-transform property. If <transform-name> conflicts with a existing CSS keyword, the conflict is resolved in favor of the name introduced using @text-transform.
 
-The descriptors express the conversion from certain characters to other characters, using different mechanism to specify the the source and target characters. If several descriptors are used, the transform described is the result of successively applying them all, in the order they appear in the @text-transform.
+===== The transformation descriptor =====
 
-Example:
+<code>
+Name: transformation
+Value: <conversion>#
+default: N/A
+
+<conversion> = [<char-list> to <char-list>] | <'text-transform'>
+<char-list> = <enumeration> | <range>
+<range> = <urange> | <string>
+<enumeration> = <string>
+</code>
+
+
+This descriptor defines which character will be replaced by which, by listing a series of conversions, to be applied in the same order as they appear in the descriptor.
+
+Conversions may refer to existing text transforms, either predefined by CSS or defined by the author. While an transformation using only a single such conversion is not very useful, combining it with other conversions allows authors to extend or define variants of existing transforms. Referring to the text-transform currently being define is not allowed, and makes the whole descriptor invalid.
+
+Conversions may also define new mapping from one <char-list> to another.
+
+When defined using a <urange> ((http://dev.w3.org/csswg/css3-fonts/#descdef-unicode-range)) , the <char-list> is composed of each individual Unicode character code point designated by the <urange>.
+
+A <range> may also be defined as a string made of a single unicode character, followed by a hyphen (U+002D) followed by another signle unicode character. The semantics are identical to the <urange> U+XXXXXX-YYYYYY where XXXXXX is the code point of the first character and YYYYYY the code point of the second character.
+
+If defined by an <enumeration>, it is composed of each character in the string, where characters are understood to be extended grapheme clusters. The same grapheme cluster may not appear twice in the <char-list> defining the source of the mapping, otherwise the whole descriptor is invalid.
+
+<note warning>ISSUE 1: The items in an enumeration may instead be space separated. This allows specifying items made of more than 1 characters. Also, although it means we don't have to deal with the question of legacy vs extended grapheme clusters to make the list of items, the question remains open on the document side.</note>
+
+In addition to [[http://www.w3.org/TR/css3-values/#strings|the usual CSS rules of character escaping]], hyphen (U+002D) need to be escaped to appear in a string in a conversion. 
+
+In a <conversion>, If the source <char-list> is longer than the target <char-list>, then the last item of the target list is used for all remaining items in the source list.
+
+<note warning>ISSUE 2: Should we allow spaces and other collapsible characters in the target? Since text-transform is applied after white space collapsing, what are the implications of generating runs of collapsible white space that won't be collapsed?</note>
+
+<note warning>ISSUE 3: Should we allow an empty <char-list> as the target? It has been suggested that this be used to delete text.</note>
+
+<note warning>ISSUE 4: It has been suggested that it should be possible to write text-transforms that behave differently on different languages.</note>
+
+
+Examples:
+
+<code>
+@text-transform latin-only-uppercase { transformation: "a-z" to "A-Z"; }
+</code>
+
 
 The following two transforms are identical.
 
 <code>
-@text-tranform abcdef1
-{
-    convert: "abc" to "def";
-}
+@text-tranform abcdef1 { transformation: "abc" to "def"; }
 
 @text-tranform abcdef2
 {
-    convert: "a" to "d";
-    convert: "b" to "e";
-    convert: "c" to "f";
+    transformation: "a" to "d",
+                    "b" to "e",
+                    "c" to "f";
 }
 </code>
 
-===== The convert descriptor =====
 
-<code>
-Name: convert
-Value: <string> to <string>
-default: N/A
+===== The character-type descriptor =====
+
+<code>Name: character-type
+Value: extended | legacy | single
+Default: extended
 </code>
 
-This descriptor creates a 1 to 1 mapping from the characters in the first string to the characters in the second string.
-<note warning>ISSUE: how should we define character here? Legacy or extended grapheme cluster?</note>
+text-tranforms operate on a 1 character basis. This descriptor allows to chose between different definitions for character.
 
-Both strings should be of equal length. If they are not, the longer on is truncated to the same length as the shorter one.
-<note warning>ISSUE: define length properly in terms of grapheme clusters</note>
+  * extended: characters are extended grapheme clusters, as defined in [[http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries|UAX29]]
+  * legacy: characters are legacy grapheme clusters, as defined in [[http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries|UAX29]]
+  * single: characters are single unicode character code points.
 
-===== The convert-range descriptor =====
+This definition affects character processing in two different contexts:
 
-<code>
-Name: convert-range
-Value: <string>,<string> to <string>,<string>
-default: N/A
-</code>
+  * strings used as an <enumeration> in the transformation descriptor
+  * the text to which the text-transform will be applied.
 
-It would sometimes be tedious to use the convert descriptor when the list of characters is long, but this can be simplified using convert-range when the characters' unicode code points for a continuous sequence.
+The <character-type> descriptor only affects the parts of a text-transform that are defined using a <conversion>. The transformation descriptor may also refer to existing text-transforms, but these are applied using their original text-transforms have a different character-type they apply at the intersection of the
+two scopes.
 
-Each pair of strings define an range of unicode characters, inclusive of the ones listed. All 4 strings must contain a single Unicode character.
-
-<note>NOTE: Here, grapheme clusters don't make sense</note>
-
-The numerical code point value of the character in the first (resp. third) string must be less than the one in the second (resp. fourth) string. If it is not, the descriptor must be ignored. Both ranges should be of equal length. If they are not, the longer on is truncated to the same length as the shorter one. The ranges may overlap.
+<note warning>ISSUE 5: define what happens when a text-transform refers via its transformation descriptor to another text-transform which has a different character-type. My guess: the original character-type applies to processing the enumerations, while the character-type in the including text-transform applies to the text that will be transformed. Or maybe this means this descriptor should be split in two.</note>
 
 
-Example:
-<code>
-@text-transform latin-only-uppercase
-{
-    convert-range: "a","z" to "A","Z";
-}
-</code>
-
-===== The convert-predefined descriptor =====
-
-<code>
-Name: convert-predefined
-Value: <text-transform>
-default: N/A
-</code>
-
-This descriptor makes it possible to refer to existing text tranforms, either predefined by CSS or defined by the author. While an @text-transform using only this descriptor is not very useful, combining it with other descriptors allows authors to extend or define variants of existing transforms. convert-predefined cannot refer to the text-transform whose definition it is part of.
-
-
-<note warning>ISSUE: Should we combine the 3 descriptors into one, with the following syntax?
-<code> [<string> [, <string>]? to <string> [, <string>]?] | <text-transform></code> </note>
-
-<note warning>ISSUE: do we also need one more desciptor along these lines:
+===== The scope descriptor =====
 <code>Name: scope
 Value: all | [initial || medial || final]
 Default: all
 </code>
-It would let people define customized versions of text-transform:capitalize;
-</note>
+
+This descriptor makes it possible to restrict which characters in the source text are affected by the transform.
+
+  * 'all' lets the transform apply to any character
+  * 'initial' lets the transform apply at the beginning of a word
+  * 'final' lets the transform apply at the end of a word
+  * 'medial' lets the transform apply to characters within a word other than at the beginning and the end.
+
+<note warning>ISSUE 5: More fancy values could be added here in the future to support things like title case, or to match only the base character, or only the diacritics.</note>
 
 
+The definition of "word" is UA-dependent; [[http://www.unicode.org/reports/tr29/tr29-17.html|UAX29]] is suggested (but not required) for determining such word boundaries.
+
+The transformation descriptor may be used to refer to existing text-transforms in the definition of a new one. If the text-transforms
+referred to have a different scope than the scope specified in the text-transform that refers to them, they apply at the intersection of the
+two scopes.
+
+Example:
+
+<code>
+@text-transform latin-only-uppercase { transformation: "a-z" to "A-Z"; }
+
+@text-transform latin-only-capitalize
+{
+    transformation: latin-only-uppercase;
+    scope: initial;
+}
+</code>
 
 
 ====== Use cases ======
@@ -109,9 +144,9 @@ In Japanese, small kanas appearing within ruby are sometimes replaced by the equ
 <code>
 @text-transform full-size-kana
 {
-    convert: "ぁぃぅぇぉゕゖっゃゅょゎ" to "あいうえおかけつやゆよわ"; 
-    convert: "ァィゥェォヵㇰヶㇱㇲッㇳㇴㇵㇶㇷㇸㇹㇺャュョㇻㇼㇽㇾㇿヮ" to "アイウエオカクケシスツトヌハヒフヘホヤユヨラリルレロワ";
-    convert: "ｧｨｩｪｫｬｭｮ" to "ｱｲｳｴｵﾂﾔﾕﾖ";
+    transformation: "ぁぃぅぇぉゕゖっゃゅょゎ" to "あいうえおかけつやゆよわ",
+                    "ァィゥェォヵㇰヶㇱㇲッㇳㇴㇵㇶㇷㇸㇹㇺャュョㇻㇼㇽㇾㇿヮ" to "アイウエオカクケシスツトヌハヒフヘホヤユヨラリルレロワ",
+                    "ｧｨｩｪｫｬｭｮ" to "ｱｲｳｴｵﾂﾔﾕﾖ";
 }
 </code>
 
@@ -124,14 +159,12 @@ This letter being rather new, authors are bound to disagree whether it is a prop
 <code>
 @text-transform german-uppercase
 {
-    convert-predefined: uppercase;
-    convert: "ß" to "ẞ";
+    transformation: uppercase, "ß" to "ẞ";
 }
 
 @text-transform german-lowercase
 {
-    convert-predefined: lowercase;
-    convert: "ẞ" to "ß";
+    transformation: lowercase, "ẞ" to "ß";
 }
 </code>
 
@@ -149,14 +182,12 @@ Someone, for example in a user style sheet, may want to apply an uppercase or lo
 <code>
 @text-transform turkic-uppercase
 {
-    convert: "i" to "İ";
-    convert-predefined: uppercase;
+    transformation: "i" to "İ", uppercase;
 }
 
 @text-transform turkic-lowercase
 {
-    convert: "I" to "ı";
-    convert-predefined: lowercase;
+    transformation: "I" to "ı", lowercase;
 }
 </code>
 
@@ -170,13 +201,13 @@ The Georgian language has used three different unicameral alphabets through hist
 <code>
 @text-transform Mkhedruli-to-Asomtavruli
 {
-    convert: "ა","ჵ" to "Ⴀ","Ⴥ";
+    transformation: "ა-ჵ" to "Ⴀ-Ⴥ";
 }
 </code>
 <code>
 @text-transform Asomtavruli-to-Mkhedruli
 {
-    convert: "Ⴀ","Ⴥ" to "ა","ჵ";
+    transformation: "Ⴀ-Ⴥ" to "ა-ჵ";
 }
 </code>
 
@@ -196,7 +227,17 @@ Modern readers are often unfamiliar with this letter form, and for readability r
 <code>
 @text-transform modernize-s
 {
-    convert: "ſ" to "s";
+    transformation: "ſ" to "s";
+}
+</code>
+
+This does the opposite transform:
+
+<code>
+@text-transform long-s
+{
+    transformation: "s" to "ſ" ;
+    scope: initial medial;
 }
 </code>
 
@@ -211,21 +252,21 @@ Most writing systems of the world have at least one common transliteration schem
 <code>
 @text-transform romanization 
 {/* ISO 9 (Cyrillic) */
-    convert: "А	а Ӑ ӑ Ӓ ӓ Ә ә Б б В в Г г Ґ ґ Ҕ ҕ Ғ ғ Д д Ђ ђ Ѓ ѓ Е е Ё	ё Ӗ ӗ Є є Ҽ ҽ Ҿ ҿ
-              Ж ж Ӂ ӂ Ӝ ӝ Җ җ З з Ӟ ӟ Ѕ ѕ Ӡ ӡ И и Ӥ ӥ І і Ї ї Й й Ј ј К к Қ қ Ҟ ҟ Л л Љ љ
-              М м Н н Њ њ Ҥ ҥ Ң ң О о Ӧ ӧ Ө ө П п Ҧ ҧ Р р С с Ҫ ҫ Т т Ҭ ҭ Ћ ћ Ќ ќ
-              У у У́ у́ Ў ў Ӱ ӱ Ӳ ӳ Ү ү Ф ф Х х Ҳ ҳ Һ һ Ц ц Ҵ ҵ Ч ч Ӵ ӵ Ҷ ҷ Џ џ Ш ш Щ щ
-              Ъ	ъ ’ Ы ы Ӹ ӹ Ь ь Э э Ю ю Я я Ѣ ѣ Ѫ ѫ Ѳ ѳ Ѵ ѵ Ҩ ҩ"
-         to  "A a Ă ă Ä ä A̋ a̋ B b V v G g G̀ g̀ Ğ ğ Ġ ġ D d Đ đ Ǵ ǵ E e Ë ë Ĕ ĕ Ê ê C̆ c̆ Ç̆ ç̆
-              Ž ž Z̆ z̆ Z̄ z̄ Ž̦ ž̧ Z z Z̈ z̈ Ẑ ẑ Ź ź I i Î î Ì ì Ï ï J j J̌ ǰ K k Ķ ķ K̄ k̄ L l L̂ l̂
-              M m N n N̂ n̂ Ṅ ṅ Ṇ ṇ O o Ö ö Ô ô P p Ṕ ṕ R r S s Ç ç T t Ţ ţ Ć ć Ḱ ḱ
-              U u Ú ú Ŭ ŭ Ü ü Ű ű Ù ù F f H h Ḩ ḩ Ḥ ḥ C c C̄ c̄ Č č C̈ c̈ Ç ç D̂ d̂ Š š Ŝ ŝ
-              ʺ ʺ ‵ Y y Ÿ ÿ ʹ ʹ È è Û û Â â Ě ě Ǎ ǎ F̀ f̀ Ỳ ỳ Ò ò";
+    transformation: "А	а Ӑ ӑ Ӓ ӓ Ә ә Б б В в Г г Ґ ґ Ҕ ҕ Ғ ғ Д д Ђ ђ Ѓ ѓ Е е Ё	ё Ӗ ӗ Є є Ҽ ҽ Ҿ ҿ
+                     Ж ж Ӂ ӂ Ӝ ӝ Җ җ З з Ӟ ӟ Ѕ ѕ Ӡ ӡ И и Ӥ ӥ І і Ї ї Й й Ј ј К к Қ қ Ҟ ҟ Л л Љ љ
+                     М м Н н Њ њ Ҥ ҥ Ң ң О о Ӧ ӧ Ө ө П п Ҧ ҧ Р р С с Ҫ ҫ Т т Ҭ ҭ Ћ ћ Ќ ќ
+                     У у У́ у́ Ў ў Ӱ ӱ Ӳ ӳ Ү ү Ф ф Х х Ҳ ҳ Һ һ Ц ц Ҵ ҵ Ч ч Ӵ ӵ Ҷ ҷ Џ џ Ш ш Щ щ
+                     Ъ ъ ’ Ы ы Ӹ ӹ Ь ь Э э Ю ю Я я Ѣ ѣ Ѫ ѫ Ѳ ѳ Ѵ ѵ Ҩ ҩ"
+                to  "A a Ă ă Ä ä A̋ a̋ B b V v G g G̀ g̀ Ğ ğ Ġ ġ D d Đ đ Ǵ ǵ E e Ë ë Ĕ ĕ Ê ê C̆ c̆ Ç̆ ç̆
+                     Ž ž Z̆ z̆ Z̄ z̄ Ž̦ ž̧ Z z Z̈ z̈ Ẑ ẑ Ź ź I i Î î Ì ì Ï ï J j J̌ ǰ K k Ķ ķ K̄ k̄ L l L̂ l̂
+                     M m N n N̂ n̂ Ṅ ṅ Ṇ ṇ O o Ö ö Ô ô P p Ṕ ṕ R r S s Ç ç T t Ţ ţ Ć ć Ḱ ḱ
+                     U u Ú ú Ŭ ŭ Ü ü Ű ű Ù ù F f H h Ḩ ḩ Ḥ ḥ C c C̄ c̄ Č č C̈ c̈ Ç ç D̂ d̂ Š š Ŝ ŝ
+                     ʺ ʺ ‵ Y y Ÿ ÿ ʹ ʹ È è Û û Â â Ě ě Ǎ ǎ F̀ f̀ Ỳ ỳ Ò ò";
  /* ISO 843 (Greek) */
-    convert: "Α α Ά ά Β β Γ γ Δ δ Ε ε Έ έ Ζ ζ Η η Ή ή Θ  θ  Ι ι Ί ί Ϊ ϊ ΐ Κ κ Λ λ Μ μ
-              Ν ν Ξ ξ Ο ο Ό ό Π π Ρ ρ Σ σ ς Τ τ Υ υ Ύ ύ Ϋ ϋ Φ φ Χ  χ  Ψ  ψ  Ω ω Ώ ώ"
-         to  "A a Á á V v G g D d E e É é Z z Ī ī Ī́ ī́ Th th I i Í í Ï ï ḯ K k L l M m
-              N n X x O o Ó ó P p R r S s s T t Y y Ý ý Ÿ ÿ F f Ch ch Ps ps Ō ō Ṓ ṓ";
+    transformation: "Α α Ά ά Β β Γ γ Δ δ Ε ε Έ έ Ζ ζ Η η Ή ή Θ  θ  Ι ι Ί ί Ϊ ϊ ΐ Κ κ Λ λ Μ μ
+                     Ν ν Ξ ξ Ο ο Ό ό Π π Ρ ρ Σ σ ς Τ τ Υ υ Ύ ύ Ϋ ϋ Φ φ Χ  χ  Ψ  ψ  Ω ω Ώ ώ"
+                to  "A a Á á V v G g D d E e É é Z z Ī ī Ī́ ī́ Th th I i Í í Ï ï ḯ K k L l M m
+                     N n X x O o Ó ó P p R r S s s T t Y y Ý ý Ÿ ÿ F f Ch ch Ps ps Ō ō Ṓ ṓ";
 }
 </code>
 ==== Comic book vikings ====
@@ -236,7 +277,7 @@ This effect could be obtained by the following transform:
 <code>
 @text-transform fake-norse
 {
-    convert: "aoAO" to "åøÅØ";
+    transformation: "aoAO" to "åøÅØ";
 }
 </code>
 
@@ -246,7 +287,7 @@ In Internet, hacker and gamer culture, a phenomenon is quite common, where chara
 <code>
 @text-transform leet-speak
 {
-    convert: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-         to  "48©)3F6H1!K£MN0¶9®57UVW*¥2";
+    transformation: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                to  "48©)3F6H1!K£MN0¶9®57UVW*¥2";
 }
 </code>
