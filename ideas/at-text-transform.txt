@@ -263,9 +263,9 @@ Most writing systems of the world have at least one common transliteration schem
                      Ž ž Z̆ z̆ Z̄ z̄ Ž̦ ž̧ Z z Z̈ z̈ Ẑ ẑ Ź ź I i Î î Ì ì Ï ï J j J̌ ǰ K k Ķ ķ K̄ k̄ L l L̂ l̂
                      M m N n N̂ n̂ Ṅ ṅ Ṇ ṇ O o Ö ö Ô ô P p Ṕ ṕ R r S s Ç ç T t Ţ ţ Ć ć Ḱ ḱ
                      U u Ú ú Ŭ ŭ Ü ü Ű ű Ù ù F f H h Ḩ ḩ Ḥ ḥ C c C̄ c̄ Č č C̈ c̈ Ç ç D̂ d̂ Š š Ŝ ŝ
-                     ʺ ʺ ‵ Y y Ÿ ÿ ʹ ʹ È è Û û Â â Ě ě Ǎ ǎ F̀ f̀ Ỳ ỳ Ò ò";
+                     ʺ ʺ ‵ Y y Ÿ ÿ ʹ ʹ È è Û û Â â Ě ě Ǎ ǎ F̀ f̀ Ỳ ỳ Ò ò",
  /* ISO 843 (Greek) */
-    transformation: "Α α Ά ά Β β Γ γ Δ δ Ε ε Έ έ Ζ ζ Η η Ή ή Θ  θ  Ι ι Ί ί Ϊ ϊ ΐ Κ κ Λ λ Μ μ
+                    "Α α Ά ά Β β Γ γ Δ δ Ε ε Έ έ Ζ ζ Η η Ή ή Θ  θ  Ι ι Ί ί Ϊ ϊ ΐ Κ κ Λ λ Μ μ
                      Ν ν Ξ ξ Ο ο Ό ό Π π Ρ ρ Σ σ ς Τ τ Υ υ Ύ ύ Ϋ ϋ Φ φ Χ  χ  Ψ  ψ  Ω ω Ώ ώ"
                 to  "A a Á á V v G g D d E e É é Z z Ī ī Ī́ ī́ Th th I i Í í Ï ï ḯ K k L l M m
                      N n X x O o Ó ó P p R r S s s T t Y y Ý ý Ÿ ÿ F f Ch ch Ps ps Ō ō Ṓ ṓ";
