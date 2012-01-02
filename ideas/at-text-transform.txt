@@ -47,7 +47,7 @@ In a <conversion>, If the source <char-list> is longer than the target <char-lis
 
 <note warning>ISSUE 2: Should we allow spaces and other collapsible characters in the target? Since text-transform is applied after white space collapsing, what are the implications of generating runs of collapsible white space that won't be collapsed?</note>
 
-<note warning>ISSUE 3: Should we allow an empty <char-list> as the target? It has been suggested that this be used to delete text.</note>
+<note warning>ISSUE 3: Should we allow an empty <char-list> as the target? It has been suggested that this be used to delete text. I am not sure I like the idea that text-transform could be able to make some non-empty element empty.</note>
 
 <note warning>ISSUE 4: It has been suggested that it should be possible to write text-transforms that behave differently on different languages. This can probably be achieved </note>
 
