@@ -49,7 +49,7 @@ In a <conversion>, If the source <char-list> is longer than the target <char-lis
 
 <note warning>ISSUE 3: Should we allow an empty <char-list> as the target? It has been suggested that this be used to delete text.</note>
 
-<note warning>ISSUE 4: It has been suggested that it should be possible to write text-transforms that behave differently on different languages.</note>
+<note warning>ISSUE 4: It has been suggested that it should be possible to write text-transforms that behave differently on different languages. This can probably be achieved </note>
 
 
 Examples:
