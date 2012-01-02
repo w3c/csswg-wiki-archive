@@ -49,7 +49,8 @@ In a <conversion>, If the source <char-list> is longer than the target <char-lis
 
 <note warning>ISSUE 3: Should we allow an empty <char-list> as the target? It has been suggested that this be used to delete text. I am not sure I like the idea that text-transform could be able to make some non-empty element empty.</note>
 
-<note warning>ISSUE 4: It has been suggested that it should be possible to write text-transforms that behave differently on different languages. This can probably be achieved </note>
+<note warning>ISSUE 4: It has been suggested that it should be possible to write text-transforms that behave differently on different languages. This can probably be achieved by adding some optional part at the beginning of each <conversion>, although I am not sure what
+the syntax should be.</note>
 
 
 Examples:
