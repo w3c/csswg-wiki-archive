@@ -112,7 +112,7 @@ This descriptor makes it possible to restrict which characters in the source tex
   * 'final' lets the transform apply at the end of a word
   * 'medial' lets the transform apply to characters within a word other than at the beginning and the end.
 
-<note warning>ISSUE 6: More fancy values could be added here in the future to support things like title case, or to match only the base character, or only the diacritics.</note>
+<note warning>ISSUE 7: More fancy values could be added here in the future to support things like title case, or to match only the base character, or only the diacritics.</note>
 
 
 The definition of "word" is UA-dependent; [[http://www.unicode.org/reports/tr29/tr29-17.html|UAX29]] is suggested (but not required) for determining such word boundaries.
