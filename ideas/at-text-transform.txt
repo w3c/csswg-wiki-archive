@@ -4,7 +4,7 @@ This is an early draft for a possible generic mechanism to allow authors to defi
 
 The general form of an @text-transform at-rule is:
 
-<code>
+<code css>
 @text-transform <transform-name>
 { [ descriptor: value; ]+ }
 </code>
@@ -15,7 +15,7 @@ A text transform created using this at-rule may be used simply by using <transfo
 
 ===== The transformation descriptor =====
 
-<code>
+<code bnf>
 Name: transformation
 Value: <conversion>#
 default: N/A
@@ -25,7 +25,6 @@ default: N/A
 <range> = <urange> | <string>
 <enumeration> = <string>
 </code>
-
 
 This descriptor defines which character will be replaced by which, by listing a series of conversions, to be applied in the same order as they appear in the descriptor.
 
@@ -52,19 +51,22 @@ In a <conversion>, If the source <char-list> is longer than the target <char-lis
 <note warning>ISSUE 4: It has been suggested that it should be possible to write text-transforms that behave differently on different languages. This can probably be achieved by adding some optional part at the beginning of each <conversion>, although I am not sure what
 the syntax should be.</note>
 
-
 Examples:
 
-<code>
-@text-transform latin-only-uppercase { transformation: "a-z" to "A-Z"; }
+<code css>
+@text-transform latin-only-uppercase 
+{
+    transformation: "a-z" to "A-Z";
+}
 </code>
-
 
 The following two transforms are identical.
 
-<code>
-@text-tranform abcdef1 { transformation: "abc" to "def"; }
-
+<code css>
+@text-tranform abcdef1 
+{
+    transformation: "abc" to "def";
+}
 @text-tranform abcdef2
 {
     transformation: "a" to "d",
@@ -76,7 +78,7 @@ The following two transforms are identical.
 
 ===== The character-type descriptor =====
 
-<code>Name: character-type
+<code bnf>Name: character-type
 Value: extended | legacy | single
 Default: extended
 </code>
@@ -98,7 +100,7 @@ This definition affects character processing in two different contexts:
 
 
 ===== The scope descriptor =====
-<code>Name: scope
+<code bnf>Name: scope
 Value: all | [initial || medial || final]
 Default: all
 </code>
@@ -112,7 +114,6 @@ This descriptor makes it possible to restrict which characters in the source tex
 
 <note warning>ISSUE 7: More fancy values could be added here in the future to support things like title case, or to match only the base character, or only the diacritics.</note>
 
-
 The definition of "word" is UA-dependent; [[http://www.unicode.org/reports/tr29/tr29-17.html|UAX29]] is suggested (but not required) for determining such word boundaries.
 
 The transformation descriptor may be used to refer to existing text-transforms in the definition of a new one. If the text-transforms
@@ -121,9 +122,11 @@ two scopes.
 
 Example:
 
-<code>
-@text-transform latin-only-uppercase { transformation: "a-z" to "A-Z"; }
-
+<code css>
+@text-transform latin-only-uppercase
+{
+    transformation: "a-z" to "A-Z";
+}
 @text-transform latin-only-capitalize
 {
     transformation: latin-only-uppercase;
@@ -141,7 +144,7 @@ The following use cases only apply to a single language. Defining all the possib
 ==== Full-size kana ====
 In Japanese, small kanas appearing within ruby are sometimes replaced by the equivalent full-size kana. The following transform defines this conversion
 
-<code>
+<code css>
 @text-transform full-size-kana
 {
     transformation: "ぁぃぅぇぉゕゖっゃゅょゎ" to "あいうえおかけつやゆよわ",
@@ -189,8 +192,7 @@ The uppercasing and lowercasing algorithm defined for the text-transform propert
 
 Someone, for example in a user style sheet, may want to apply an uppercase or lowercase transform to a document where language is insufficiently marked up, but known to the author of the style sheet to be Turkish. In this case, the generic uppercase and lowercase transforms would fail, but the following would work. 
 
-
-<code>
+<code css>
 @text-transform turkic-uppercase
 {
     transformation: "i" to "İ", uppercase;
@@ -209,13 +211,12 @@ http://en.wikipedia.org/wiki/Georgian_alphabet
 
 The Georgian language has used three different unicameral alphabets through history: Asomtavruli, Nuskhuri, and Mkhedruli. Recently, some authors have been using Asomtavruli letters in an otherwise Mkhedruli text, in a way that resembles a bicameral alphabet. One may assume that they would find the following transform useful.
 
-<code>
+<code css>
 @text-transform Mkhedruli-to-Asomtavruli
 {
     transformation: "ა-ჵ" to "Ⴀ-Ⴥ";
 }
-</code>
-<code>
+
 @text-transform Asomtavruli-to-Mkhedruli
 {
     transformation: "Ⴀ-Ⴥ" to "ა-ჵ";
@@ -235,7 +236,7 @@ In old (18th century and earlier) European texts, the letter s, when at the midd
 
 Modern readers are often unfamiliar with this letter form, and for readability reasons, one may want to convert from one to the other. The follow transform would accomplish this.
 
-<code>
+<code css>
 @text-transform modernize-s
 {
     transformation: "ſ" to "s";
@@ -244,7 +245,7 @@ Modern readers are often unfamiliar with this letter form, and for readability r
 
 This does the opposite transform:
 
-<code>
+<code css>
 @text-transform long-s
 {
     transformation: "s" to "ſ" ;
@@ -260,7 +261,7 @@ Here are some more example of how the generic mechanism may be used
 
 Most writing systems of the world have at least one common transliteration scheme into the roman script.
 
-<code>
+<code css romanization.css>
 @text-transform romanization 
 {/* ISO 9 (Cyrillic) */
     transformation: "А	а Ӑ ӑ Ӓ ӓ Ә ә Б б В в Г г Ґ ґ Ҕ ҕ Ғ ғ Д д Ђ ђ Ѓ ѓ Е е Ё	ё Ӗ ӗ Є є Ҽ ҽ Ҿ ҿ
@@ -280,12 +281,14 @@ Most writing systems of the world have at least one common transliteration schem
                      N n X x O o Ó ó P p R r S s s T t Y y Ý ý Ÿ ÿ F f Ch ch Ps ps Ō ō Ṓ ṓ";
 }
 </code>
+<note>The Greek example above only works if ISSUE 2 is resolved, because Theta, Chi and Psi are transliterated into digraphs that don’t have a single code point in Unicode.</note>
+
 ==== Comic book vikings ====
 In the "Asterix and the Great Crossing" comic book, the Viking characters are supposed to speak a foreign language unintelligible to the main characters, but still understandable to the readers. This is represented by writing down their speech normally, except that some letters are replaced by similarly looking letters found in Scandinavian languages.
 
 This effect could be obtained by the following transform:
 
-<code>
+<code css>
 @text-transform fake-norse
 {
     transformation: "aoAO" to "åøÅØ";
@@ -295,7 +298,7 @@ This effect could be obtained by the following transform:
 ==== Leet speak ====
 In Internet, hacker and gamer culture, a phenomenon is quite common, where characters are replaced by other characters or character sequences which have a somewhat similar glyphic appearance. Although no single consensual convention exists and sometimes mappings are neither injective nor surjective, one could simulate this playful style with a transform like the following:
 
-<code>
+<code css>
 @text-transform leet-speak
 {
     transformation: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
