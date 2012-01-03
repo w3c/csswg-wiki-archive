@@ -156,7 +156,7 @@ As discussed [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0193.html|i
 
 This letter being rather new, authors are bound to disagree whether it is a proper uppercase variant of U+00DF, or not. Those who think it is not may use text-transform:uppercase; and text-transform:lowercase Those who think it is could use the following.
 
-<code>
+<code css>
 @text-transform german-uppercase
 {
     transformation: uppercase, U+00DF to U+1E9E;
@@ -167,6 +167,17 @@ This letter being rather new, authors are bound to disagree whether it is a prop
     transformation: lowercase, U+1E9E to U+00DF;
 }
 </code>
+<note warning>
+ISSUE 8: It has been suggested that overloading existing values with a language descriptor or selector would be better: <code css>@text-transform uppercase
+{
+    transformation: U+00DF to U+1E9E;
+    language: de;
+}
+</code><code css>@text-transform uppercase:lang(de)
+{
+    transformation: U+00DF to U+1E9E;
+}</code>
+</note>
 
 ==== Turkish i/ı ====
 
