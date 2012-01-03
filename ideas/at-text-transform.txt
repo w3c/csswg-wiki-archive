@@ -281,7 +281,7 @@ Most writing systems of the world have at least one common transliteration schem
                      N n X x O o Ó ó P p R r S s s T t Y y Ý ý Ÿ ÿ F f Ch ch Ps ps Ō ō Ṓ ṓ";
 }
 </code>
-<note>The Greek example above only works if ISSUE 2 is resolved, because Theta, Chi and Psi are transliterated into digraphs that don’t have a single code point in Unicode.</note>
+<note>The Greek example above only works if ISSUE 1 is resolved, because Theta, Chi and Psi are transliterated into digraphs that don’t have a single code point in Unicode.</note>
 
 ==== Comic book vikings ====
 In the "Asterix and the Great Crossing" comic book, the Viking characters are supposed to speak a foreign language unintelligible to the main characters, but still understandable to the readers. This is represented by writing down their speech normally, except that some letters are replaced by similarly looking letters found in Scandinavian languages.
