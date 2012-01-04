@@ -9,7 +9,7 @@ The general form of an @text-transform at-rule is:
 { [ descriptor: value; ]+ }
 </code>
 
-<transform-name> may be any valid identifier other than inherit and initial.
+<transform-name> may be any valid identifier other than none, inherit and initial.
 
 A text transform created using this at-rule may be used simply by using <transform-name> as the value of the text-transform property. If <transform-name> conflicts with a existing CSS keyword, the conflict is resolved in favor of the name introduced using @text-transform.
 
@@ -171,7 +171,7 @@ This letter being rather new, authors are bound to disagree whether it is a prop
 }
 </code>
 <note warning>
-ISSUE 8: It has been suggested that overloading existing values with a language descriptor or selector would be better: <code css>@text-transform uppercase
+ISSUE 4: It has been suggested that overloading existing values with a language descriptor or selector would be better: <code css>@text-transform uppercase
 {
     transformation: U+00DF to U+1E9E;
     language: de;
@@ -281,7 +281,7 @@ Most writing systems of the world have at least one common transliteration schem
                      N n X x O o Ó ó P p R r S s s T t Y y Ý ý Ÿ ÿ F f Ch ch Ps ps Ō ō Ṓ ṓ";
 }
 </code>
-<note>The Greek example above only works if ISSUE 2 is resolved, because Theta, Chi and Psi are transliterated into digraphs that don’t have a single code point in Unicode.</note>
+<note>The Greek example above only works if ISSUE 1 is resolved, because Theta, Chi and Psi are transliterated into digraphs that don’t have a single code point in Unicode.</note>
 
 ==== Comic book vikings ====
 In the "Asterix and the Great Crossing" comic book, the Viking characters are supposed to speak a foreign language unintelligible to the main characters, but still understandable to the readers. This is represented by writing down their speech normally, except that some letters are replaced by similarly looking letters found in Scandinavian languages.
@@ -301,7 +301,6 @@ In Internet, hacker and gamer culture, a phenomenon is quite common, where chara
 <code css>
 @text-transform leet-speak
 {
-    transformation: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                to  "48©)3F6H1!K£MN0¶9®57UVW*¥2";
+    transformation: "A-Z" to "48©)3F6H1!K£MN0¶9®57UVW*¥2";
 }
 </code>
