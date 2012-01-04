@@ -1,0 +1,43 @@
+====== Hamburg F2F May 2012 ======
+
+**When:** Wednesday 9 May – Friday 11 Feburary
+
+**Where:** [[http://maps.google.com/maps?q=Adobe%20Systems%20Engineering%20GmbH%0D%0AGroße%20Elbstraße%2027%0D%0A22767%20Hamburg%20%28Altona%2DAltstadt%29%20%0D%0A|google map]] [[http://www.adobe.com/aboutadobe/careeropp/locations.html#Anchor-Hamburg-45656|Adobe Bucharest Office Description]]
+
+<file>
+ Adobe Systems Engineering GmbH 
+ Große Elbstraße 27 
+ 22767 Hamburg (Altona-Altstadt) 
+ Germany
+</file>
+
+**Room**: TBD
+
+**Registration:** TBD 
+
+**Weather:** [[http://weather.yahoo.com/romania/bucuresti/bucharest-868274/|Bucharest weather]]
+
+
+===== Lodging =====
+
+  * TBD
+
+===== Transport to/from Airport =====
+
+  * TBD
+
+===== Participants =====
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Vincent Hardy | Adobe | May 3rd| May 12th| ?? | ?? |  |
+| Apple Person 1 | Apple | ?? | ?? | ?? | ?? | |
+| John Daggett | Mozilla | ?? | ?? | ?? | ?? | |
+| Luke Macpherson | Google | ?? | ?? | ?? | ?? | |
+===== Agenda =====
+
+====== Wednesday May 9th ======
+
+  * Morning: FX task force meeting with the SVG Working Group
+
+=== Proposed Topics ===
+
+  * Add topics here
