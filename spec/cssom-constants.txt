@@ -23,3 +23,8 @@ This page lists all standardized CSSOM constants in CSS to avoid the creation of
 ====== CSSOM Vendor Constants ======
 
 Vendors can list their proprietary constants below to avoid cross-vendor overlap.
+
+===== Opera =====
+
+Opera uses numbers in the 0x09E8A001 - 0x09E8AFFF range.
+|0x09E8A001| NAVIGATION_RULE | for @navigation, proposed in css3-gcpm |
