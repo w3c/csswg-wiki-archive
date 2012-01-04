@@ -10,6 +10,7 @@ Ideas to consider for future CSS Text specs
   * Glyph scaling min/max/desired (for improving justification)
   * text-emphasis-skip
   * [[http://lists.w3.org/Archives/Public/www-style/2011May/0721.html|text-wrap:balance]] or something similar
+  * Leading model control (placing leading above or below content area)
 
 ===== line-grid =====
 
