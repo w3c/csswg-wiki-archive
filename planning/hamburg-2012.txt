@@ -2,7 +2,7 @@
 
 **When:** Wednesday 9 May – Friday 11 Feburary
 
-**Where:** [[http://maps.google.com/maps?q=Adobe%20Systems%20Engineering%20GmbH%0D%0AGroße%20Elbstraße%2027%0D%0A22767%20Hamburg%20%28Altona%2DAltstadt%29%20%0D%0A|google map]] [[http://www.adobe.com/aboutadobe/careeropp/locations.html#Anchor-Hamburg-45656|Adobe Bucharest Office Description]]
+**Where:** [[http://maps.google.com/maps?q=Adobe%20Systems%20Engineering%20GmbH%0D%0AGroße%20Elbstraße%2027%0D%0A22767%20Hamburg%20%28Altona%2DAltstadt%29%20%0D%0A|google map]] [[http://www.adobe.com/aboutadobe/careeropp/locations.html#Anchor-Hamburg-45656|Adobe Hamburg Office Description]]
 
 <file>
  Adobe Systems Engineering GmbH 
@@ -15,7 +15,7 @@
 
 **Registration:** TBD 
 
-**Weather:** [[http://weather.yahoo.com/romania/bucuresti/bucharest-868274/|Bucharest weather]]
+**Weather:** [[http://weather.yahoo.com/germany/hamburg/hamburg-656958/|Hamburg weather]]
 
 
 ===== Lodging =====
@@ -31,9 +31,12 @@
 | Vincent Hardy | Adobe | May 3rd| May 12th| ?? | ?? |  |
 | Apple Person 1 | Apple | ?? | ?? | ?? | ?? | |
 | John Daggett | Mozilla | ?? | ?? | ?? | ?? | |
+| Peter Linss | HP | ?? | ?? | ?? | ?? | |
 | Luke Macpherson | Google | ?? | ?? | ?? | ?? | |
+
 ===== Agenda =====
 
+  * TBD
 ====== Wednesday May 9th ======
 
   * Morning: FX task force meeting with the SVG Working Group
