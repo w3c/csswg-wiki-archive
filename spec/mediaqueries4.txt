@@ -10,3 +10,5 @@ In short: we need a standard version of what IE is shipping as described here:
 http://msdn.microsoft.com/en-us/library/windows/apps/hh465764%28v=vs.85%29.aspx
 
 
+==== scriptable ====
+http://www.nczonline.net/blog/2012/01/04/proposal-scripting-detection-using-css-media-queries/
