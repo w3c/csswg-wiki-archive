@@ -15,7 +15,7 @@ Room: TBD
 === Proposed Topics ===
 
   * Selectors 4
-  * ?
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0001.html|Media Queries REC]]
 
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
