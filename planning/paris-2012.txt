@@ -21,7 +21,7 @@ Room: TBD
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Tab Atkins | Google | Sometime Feb 4 | 2012-02-09 12:40 CDG | apt share | ??? |  |
 | Tantek Çelik | Mozilla Foundation | 2012-01-28 13:55 CDG | 2012-02-08 12:25 CDG | apt share | arriving: BA0308, departing: BA0309 |  |
-| fantasai | Mozilla Foundation | ??? |??? | apt share |
+| fantasai | Mozilla Foundation | Sat/Sun via OSL | temporarily local | apt share |
 | Molly Holzschlag | Invited Expert | ??? | ??? | ??? pref: apt share | ??? | Hope to be present, but other factors postponing decision for now |
 | Chris Lilley | W3C | probably TGV | ??? | ??? | ??? |  |
 | Peter Linss | HP | ??? | ??? | ??? | ??? |  |
