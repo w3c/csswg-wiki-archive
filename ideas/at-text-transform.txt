@@ -171,7 +171,7 @@ This letter being rather new, authors are bound to disagree whether it is a prop
 }
 </code>
 <note warning>
-ISSUE 4: It has been suggested that overloading existing values with a language descriptor or selector would be better: <code css>@text-transform uppercase
+ISSUE 8: It has been suggested that overloading existing values with a language descriptor or selector would be better: <code css>@text-transform uppercase
 {
     transformation: U+00DF to U+1E9E;
     language: de;
