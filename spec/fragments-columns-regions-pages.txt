@@ -8,9 +8,7 @@ Implementations of regions, columns and paginations will vary but in most genera
 
 <div class="figure" style="border:thin solid silver; width:35em; margin:auto; padding:1em;">
     <div class="legend" style="font-style:italic">Content</div>
-    <div class="" style="background:silver">
-    	... Lorem ipsum dolor sit amet, consectetur ...
-    </div>
+    <div class="" style="background:silver"> . . . Lorem ipsum dolor sit amet, consectetur . . . </div>
 
     <div style="margin:1em"></div>
     
@@ -37,7 +35,8 @@ Implementations of regions, columns and paginations will vary but in most genera
 </html>
 
 
-===== TODO =====
+=====
+ TODO =====
 
 ===== Fragmentation and generating containers =====
 
