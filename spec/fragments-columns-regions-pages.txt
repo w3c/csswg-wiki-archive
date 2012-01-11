@@ -98,7 +98,7 @@ This doesn't yet show what layout engine do, it just shows some possible situati
 
 ===== Fragmentation and generating containers =====
 
-When layout engine does its work, it outputs pieces of content that are laid out to fit into given containers. Let's call them "fragments":
+When layout engine actually does its work, it outputs pieces of content that are laid out to fit into given containers. Let's call them "fragments":
 
 <html>
 <div class="figure" style="border:thin solid silver; width:35em; margin:auto; padding:1em;">
