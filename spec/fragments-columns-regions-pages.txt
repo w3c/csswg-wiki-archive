@@ -94,9 +94,6 @@ That's what all layout engines do, the most common cases being
 
 This doesn't yet show what layout engine do, it just shows some possible situations. It could be noted that if containers exist before layout engine has done any work, we must be assuming that containers are exernal to layout engine. That is not necessarily so, we are just trying to keep these general illustrations simple.
 
-===== TODO =====
-x
-1xx
 
 ===== TODO =====
 
