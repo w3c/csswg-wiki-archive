@@ -1,6 +1,8 @@
 ====== CSS Region Templates ======
 //This is a collection of ideas spawned from discussions at TPAC2011. Not very organized yet. This may evolve into zero or more new spec modules. May overlap with existing modules too.//
 
+//Related: [Fragmentation and Generating Regions]//
+
 ===== Goals =====
   * Define a declarative way to generate regions or pages based on (a) amount of content in paged presentation and (b) some description of page design
   * Make it easy to produce a simple paginated view without script
