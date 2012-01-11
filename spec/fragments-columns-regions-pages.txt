@@ -4,6 +4,38 @@
 ===== Layout Engine with Fragmentation =====
 Implementations of regions, columns and paginations will vary but in most general situation it is reasonable to assume that there is a layout engine that takes formatted content in DOM as input and fills one or more container with that content:
 
+<html>
+
+<div class="figure" style="border:thin solid silver; width:35em; margin:auto; padding:1em;">
+    <div class="legend" style="font-style:italic">Content</div>
+    <div class="" style="background:silver">
+    	... Lorem ipsum dolor sit amet, consectetur ...
+    </div>
+
+    <div style="margin:1em"></div>
+    
+    <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+        Layout engine
+    </div>
+
+    <div style="margin:0.5em"></div>
+    	
+    <div class="legend" style="font-style:italic">Containers</div>
+    <div style="text-align:center">
+        <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+        </div>
+        <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+        </div>
+        <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+        </div>
+        <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+        </div>
+        <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+        </div>
+    </div>
+</div>
+</html>
+
 
 ===== TODO =====
 
