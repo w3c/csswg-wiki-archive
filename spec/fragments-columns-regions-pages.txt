@@ -98,8 +98,9 @@ That's what all layout engines do, the most common cases being
 
 (a sequence of containers, usually all of the same size)
 
-===== Fragmentatio
-===== Fragmentation and generating containers =====
+==== x ====
+===== Fragmentati
+on and generating containers =====
 
 When layout engine does its work, it outputs pieces of content that are laid out to fit into given containers. Let's call them "fragments":
 
