@@ -1,0 +1,54 @@
+====== Additional Pseudo-Elements ======
+
+
+The ::outside pseudo-element was cut from css3-content and has not been tracked since. Other pseudo-elements concepts like wrapping a range of elements have been discussed from time to time. Additional pseudo-elements with more control over where they are positioned in the tree could help reduce markup clutter where elements are added to HTML for the sole purpose of CSS styling. Here is a list of possible pseudo-element additions that could be made in a future spec:
+
+=== 1. Simple wrapping of a single element ===
+
+::outside was meant to create a pseudo element containing a single element
+
+  <!-- pseudo-element -->
+  <div>markup content</div>
+  <!--end -->
+
+=== 2. Complex wrapping of an element range ===
+
+A wrapper that contains a range of elements specified by indices
+
+  <!-- pseudo-element containing the next three elements -->
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  <!--end -->
+  <div>4</div>
+
+=== 3. Complex wrapping of selector range ===
+
+A wrapper that contains a range of elements specified by selectors. In this case the declared range is from every <dt> element until the next <dt>
+
+  <dl>
+    <!-- pseudo-element -->
+      <dt> Last modified time </dt>
+      <dd> 2004-12-23T23:33Z </dd>
+    <!-- end -->
+    <!-- pseudo-element -->
+      <dt> Recommended update interval </dt>
+      <dd> 60s </dd>
+    <!-- end -->
+    <!-- pseudo-element -->
+      <dt> Authors </dt>
+    <!-- end -->
+    <!-- pseudo-element -->
+      <dt> Editors </dt>
+      <dd> Robert Rothman </dd>
+      <dd> Daniel Jackson </dd>
+    <!-- end -->
+  </dl>
+
+=== 4. Sibling pseudo-elements ===
+
+A pseudo-element as a previous or next sibling to an element. In the case below you should be able to place this pseudo element as following <h1> or previous to <p>
+
+  <h1>heading</h1>
+  <!-- pseudo-element -->
+  <p>paragraph</p>
