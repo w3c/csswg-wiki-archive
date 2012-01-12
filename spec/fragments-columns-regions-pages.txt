@@ -96,7 +96,7 @@ This doesn't yet show what layout engine do, it just shows some possible situati
 
 
 
-===== Fragmentation and generating containers =====
+===== Fragmentation =====
 
 When layout engine actually does its work, it outputs pieces of content that are laid out to fit into given containers. Let's call them "fragments":
 
