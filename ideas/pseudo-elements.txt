@@ -29,7 +29,7 @@ A wrapper that contains a range of elements specified by indices. This could be 
 
 === 3. Complex wrapping of selector range ===
 
-A wrapper that contains a range of elements specified by selectors. In this case the declared range is from every <dt> element until the next <dt>
+A wrapper that contains a range of elements specified by selectors. In this case the declared range is from every <dt> element until the next <dt> following a <dd>
 
   <dl>
     <!-- pseudo-element -->
@@ -39,9 +39,6 @@ A wrapper that contains a range of elements specified by selectors. In this case
     <!-- pseudo-element -->
       <dt> Recommended update interval </dt>
       <dd> 60s </dd>
-    <!-- end -->
-    <!-- pseudo-element -->
-      <dt> Authors </dt>
     <!-- end -->
     <!-- pseudo-element -->
       <dt> Editors </dt>
