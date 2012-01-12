@@ -148,7 +148,7 @@ When layout engine actually does its work, it outputs pieces of content that are
         </div>
         <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
         </div>
-        <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em; margin-bottom:1.5em; visibility:hidden;">
+        <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em; margin-bottom:1.5em; ">
         </div>
     </div>
 </div>
