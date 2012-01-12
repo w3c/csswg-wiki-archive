@@ -288,8 +288,8 @@ Some existing or anticipated ways to provide containers for fragmentation are
     * Scripted (available now)
     * Generated (discussed)
 
-
-^ Container type ^ how created ^ dynamic ? ^ details ^	 
-| Columns - CSS3 | "columns:N"\\ multicol properties | //partially// | new columns are added in overfrlow | 
-| Columns - new | ? | dynamic | new columns are added as needed | control size & position sith column selectors:\\ article::column(2) {...} | 
+Let's compare the different kinds of fragmenting containers, specifically looking at who is in control and how they are manated dynamically:
+^ Container type ^ how created ^ dynamic ? ^ details ^
+| Columns - CSS3 | "columns:N"\\ multicol properties | partially | new columns are added in overfrlow |
+| Columns - new | ? | dynamic |  control size & position sith column selectors:\\ article::column(2) {...} | 
  
