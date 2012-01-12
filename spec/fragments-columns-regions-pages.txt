@@ -345,3 +345,11 @@ UI is provided by UA, it may be jestures on touch device, or page navigation con
 
 
 ==== page templates ====
+
+**Goal:** automatically generate complex pages based on content and encoded design intent
+
+**Proposals:**
+  * Need a proposal. 
+  * [[http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml | IDPF Page Templates Proposal]] has a range of ideas, to converge with what is developing in recent discussions.
+  
+**Issues:** 
