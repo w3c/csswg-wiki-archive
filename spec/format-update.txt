@@ -17,7 +17,7 @@ This page is here to track all the changes and meta-information we've resolved t
 
 ^ Spec ^ Title ^ Issues ^ List ^ Draft ^ Interactions ^ Values ^ Animatable ^ Order ^ Conventions ^ Conformance ^
 |[[http://dev.w3.org/csswg/css3-background/|css3-background]] | Y | N | N | N | N | N | N | N | Y | Y |
-|[[http://dev.w3.org/csswg/css3-multicol/|css3-multicol]] | Y | N | N | N | N | N | N | N | N | Y |
+|[[http://dev.w3.org/csswg/css3-multicol/|css3-multicol]] | Y | N | N | N | N | N | N | N | 1/2 | Y |
 |[[http://dev.w3.org/csswg/css3-speech/|css3-speech]] | Y | N | N | N | Y | N | N/A | N | Y | Y |
 |[[http://dev.w3.org/csswg/css3-2d-transforms/|css3-2d-transforms]] | Y | N | N | N | N | N | N | N | N | N |
 |[[http://dev.w3.org/csswg/css3-transitions/|css3-transitions]] | Y | N | N | N | N | N | N | N | N | N |
