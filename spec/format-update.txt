@@ -1,6 +1,6 @@
 ====== Meta-Update Status ======
 
-This page is here to track all the changes and meta-information we've resolved to include in our specs, and which weren't part of the original CSS3 templates. Next time you update your spec, check that it has all these pieces!
+This page is here to track all the changes and meta-information we've decided to add to our specs, and which weren't part of the original CSS3 templates. Next time you update your spec, check that it has all these pieces!
 
   * Title as "CSS Foo Module [Level N]" 
   * Includes link to issues list in header (see [[http://dev.w3.org/csswg/css-module/|template]])
