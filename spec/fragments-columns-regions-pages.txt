@@ -277,14 +277,16 @@ Considering that a target container for fragmentation is a rectangle or shape wi
 Some existing or anticipated ways to provide containers for fragmentation are
 
   * Columns
-    * As defined in css3-multicol
-    * With column selectors
+    * As defined in css3-multicol (available now)
+    * With column selectors (proposed)
   * Pages
-    * In printing or print preview
-    * In paginated view (overflow:paged)
+    * In printing or print preview (available now)
+    * In automatic paginated view (proposed)
+    * In custom paginated view (available now)
   * Regions
-    * Static
-    * Scripted
-    * Generated
+    * Static (available now)
+    * Scripted (available now)
+    * Generated (discussed)
+
 
   
