@@ -326,7 +326,6 @@ UI is provided by UA, it may be jestures on touch device, or page navigation con
 **Goal:** multicolumn flow in a single defined container or in paged view
 
 **Proposal:** 
-
  * The existing css3-multicol module.
  * Extensions for adding control to individulal columns
 
