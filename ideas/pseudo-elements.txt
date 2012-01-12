@@ -8,7 +8,7 @@ The ::outside pseudo-element was cut from css3-content and has not been tracked 
 ::outside was meant to create a pseudo element containing a single element
 
   <!-- pseudo-element -->
-  <div>markup content</div>
+    <div>markup content</div>
   <!--end -->
 
 === 2. Complex wrapping of an element range ===
