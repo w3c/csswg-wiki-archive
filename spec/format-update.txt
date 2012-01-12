@@ -13,7 +13,11 @@ This page is here to track all the changes and meta-information we've decided to
   * Includes [[http://dev.w3.org/csswg/css-module/#conventions|Document Conventions]] section
   * Includes an appropriate Conformance section
 
-===== Table of Specs ======
+===== Additional Conventions =====
+There are additional editorial conventions that the CSSWG has adopted over time that you may need to apply to older drafts.
+  * Remove explicit text "This is a normative section" (all sections are normative by default, only need to be explicit about non-normative sections).
+
+===== Table of Specs =====
 
 ^ Spec ^ Title ^ Issues ^ List ^ Draft ^ Interactions ^ Value Link ^ Animatable ^ Order ^ Conventions ^ Conformance ^
 |[[http://dev.w3.org/csswg/css3-background/|css3-background]] | Y | N | N | N | N | N | N | N | Y | Y |
