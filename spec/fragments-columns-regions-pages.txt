@@ -332,5 +332,16 @@ UI is provided by UA, it may be jestures on touch device, or page navigation con
 **Issues:** 
   * As-is, multicol layout requires a higher-level pagination control.
 
-==== scripted pages ====
+==== scripted pages and paged view ====
+
+**Goal:** enable broad range of page design and UI, including the most complicated cases seen in print magazines and experimental UI.
+
+**Proposals:**
+  * css3-regions module
+  * Page view, UI, page generation is done in script  
+
+**Issues:** 
+  * No declarative way to generated additional regions or pages is yet defined
+
+
 ==== page templates ====
