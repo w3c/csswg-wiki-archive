@@ -272,8 +272,19 @@ Which gets us to the questions of "where do the containers come from?" and "how 
 
 ===== Container sources =====
 
+Considering that a target container for fragmentation is a rectangle or shape with size and possibly position, there are many ways to create and manage theem. 
+
 Some existing or anticipated ways to provide containers for fragmentation are
 
-* Columns
-* Pages
-* Regions
+  * Columns
+    * As defined in css3-multicol
+    * With column selectors
+  * Pages
+    * In printing or print preview
+    * In paginated view (overflow:paged)
+  * Regions
+    * Static
+    * Scripted
+    * Generated
+
+  
