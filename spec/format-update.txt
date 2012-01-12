@@ -13,6 +13,8 @@ This page is here to track all the changes and meta-information we've resolved t
   * Includes [[http://dev.w3.org/csswg/css-module/#conventions|Document Conventions]] section
   * Includes an appropriate Conformance section
 
+===== Table of Specs ======
+
 ^ Spec ^ Title ^ Issues ^ List ^ Draft ^ Interactions ^ Values ^ Animatable ^ Order ^ Conventions ^ Conformance ^
 |[[http://dev.w3.org/csswg/css3-background/|css3-background]] | Y | N | N | N | N | N | N | N | Y | Y |
 |[[http://dev.w3.org/csswg/css3-multicol/|css3-multicol]] | Y | N | N | N | N | N | N | N | N | Y |
