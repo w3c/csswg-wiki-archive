@@ -7,7 +7,7 @@ Here is a list of possible pseudo-element additions that could be made in a futu
 
 === 1. Simple wrapping of a single element ===
 
-::outside was meant to create a pseudo element containing a single element
+In CSS3 Content, ''::outside'' was meant to create a pseudo element containing a single element
 
   <!-- pseudo-element -->
     <div>markup content</div>
@@ -15,7 +15,7 @@ Here is a list of possible pseudo-element additions that could be made in a futu
 
 === 2. Complex wrapping of an element range ===
 
-A wrapper that contains a range of elements specified by indices. This could be specified as a child interval on a parent, or directly from an element with a number of siblings to contain.
+A wrapper that contains a range of elements specified by indices. This could be specified as a child interval on a parent (example: ''#parent::wrap(2,5)''), or directly from an element with a number of siblings to contain (example: ''#parent > :nth-child(2)::wrap(3)'').
 
   <div id=parent>
     <div>1</div>
@@ -26,10 +26,12 @@ A wrapper that contains a range of elements specified by indices. This could be 
     <!--end -->
     <div>5</div>
   </div>
+  
+If the second idea (starting from the first element to be wrapped, and specifying how many elements to include in the wrapping) is adopted, it could be used to solve #1 as well, by allowing an appropriate default value to wrap only the single element.  That is, something like ''div::wrap'' could be equivalent to ''div::wrap(1)'', which wraps only the single ''div''.
 
 === 3. Complex wrapping of selector range ===
 
-A wrapper that contains a range of elements specified by selectors. In this case the declared range is from every <dt> element until the next <dt> following a <dd>
+A wrapper that contains a range of elements specified by selectors. In this case the declared range is from every <dt> element until the next <dt> following a <dd> (example: ''dl::wrap(:matches(:first-child, dt), dd+dt)'')
 
   <dl>
     <!-- pseudo-element -->
@@ -49,7 +51,7 @@ A wrapper that contains a range of elements specified by selectors. In this case
 
 === 4. Sibling pseudo-elements ===
 
-A pseudo-element as a previous or next sibling to an element. In the case below you should be able to place this pseudo-element as following <h1> or previous to <p>
+A pseudo-element as a previous or next sibling to an element. In the case below you should be able to place this pseudo-element as following <h1> or previous to <p> (example: ''h1::next'')
 
   <h1>heading</h1>
   <!-- pseudo-element -->
@@ -57,7 +59,7 @@ A pseudo-element as a previous or next sibling to an element. In the case below 
   
 === 5. Proliferation ===
 
-Mechanisms for adding more than one pseudo-element in some or all of the existing pseudo-element schemes
+Mechanisms for adding more than one pseudo-element in some or all of the existing pseudo-element schemes.  CSS3 Content previously had the ability to specify multiples of a pseudo by specifying an index, like ''::before[2]''.
 
   <div>
     <!-- ::before pseudo-element 1 -->
@@ -79,7 +81,7 @@ Mechanisms for adding more than one pseudo-element in some or all of the existin
   
 === 6. Complex wrapping of ranges of similar elements ===
 
-A wrapper that contains contiguous elements that share a selectable characteristic. In this case, instead of making three simple wrappers around each instance of class bar, it would group the first two bar elements together in one wrapper.
+A wrapper that contains contiguous elements that share a selectable characteristic. In this case, instead of making three simple wrappers around each instance of class bar, it would group the first two bar elements together in one wrapper (example: ''::wrap(div.bar)'')
 
   <div class=foo></div>
   <!-- pseudo-element that wraps class bar -->
@@ -91,3 +93,4 @@ A wrapper that contains contiguous elements that share a selectable characterist
     <div class=bar></div>
   <!-- end -->
       
+This could potentially also be addressed with #3, via something like ''::wrap(div.bar, :not(div.bar))''.
