@@ -292,8 +292,11 @@ Some existing or anticipated ways to provide containers for fragmentation are
 Let's compare the different kinds of fragmenting containers, specifically looking at who is in control and how they are manated dynamically:
 ^ Container type ^ how created ^ dynamic ? ^ details ^
 | **Columns - CSS3** | "columns:N"\\ multicol properties | partially | new columns are added in overfrlow |
-| **Columns - new** | automatic | dynamic |  control size & position sith column selectors:\\ article::column(2) {...} | 
+| **Columns - new** | automatic | dynamic | control size & position sith column selectors:\\ article::column(2) {...} | 
 | **Pages - print** | printing app or layout engine in print mode; hardcoded | dynamic | follows paged media spec; no reading UI defined beyond print preview |
 | **Pages - auto paged view** | "overflow:paged" | dynamic | by default all "pages" are same size; can be customized with page selectors (like columns); default UI |
 | **Pages - regions+script** | from script  | script | all custom, no declarative page generation, no default UI, all in script |
 | **Pages - page templates** | automatic | dynamic | a set of templates and template selection rules; multiple flows can be supported; no default UI; can be combined with any other generated containers |
+| **Regions - static** | "flow-from:<flowname>" | static | current specs don't define declarative ways to generate regions |
+| **Regions - scripted** | regionOverflow, regionLayoutUpdate | script | regions spec adds minimal API for layout results and timing |
+
