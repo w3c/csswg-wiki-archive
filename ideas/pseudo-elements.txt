@@ -47,8 +47,30 @@ A wrapper that contains a range of elements specified by selectors. In this case
 
 === 4. Sibling pseudo-elements ===
 
-A pseudo-element as a previous or next sibling to an element. In the case below you should be able to place this pseudo element as following <h1> or previous to <p>
+A pseudo-element as a previous or next sibling to an element. In the case below you should be able to place this pseudo-element as following <h1> or previous to <p>
 
   <h1>heading</h1>
   <!-- pseudo-element -->
   <p>paragraph</p>
+  
+=== 5. Proliferation ===
+
+Mechanisms for adding more than one pseudo-element in some or all of the existing pseudo-element schemes
+
+  <div>
+    <!-- ::before pseudo-element 1 -->
+    <!-- ::before pseudo-element 2 -->
+    markup content
+  </div>
+  
+  <!-- nesting ::outside pseudo-element -->
+    <!-- nesting ::outside pseudo-element -->
+      <div>markup content</div>
+    <!-- end -->
+  <!-- end -->
+  
+  <h1>heading</h1>
+  <!-- multiple sibling pseudo-elements -->
+  <!-- multiple sibling pseudo-elements -->
+  <!-- multiple sibling pseudo-elements -->
+  <p>paragraph</p>  
