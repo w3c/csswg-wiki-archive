@@ -27,3 +27,4 @@ There are additional editorial conventions that the CSSWG has adopted over time 
 |[[http://dev.w3.org/csswg/css3-transitions/|css3-transitions]] | Y | N | N | N | N | N | N | N | N | N |
 |[[http://dev.w3.org/csswg/css3-transitions/|css3-transitions]] | Y | Y | N | Y | old | N | N | N | Y | Y |
 |[[http://dev.w3.org/csswg/css3-ui/|css3-ui]] | Y | Y | Y | Y | N | Y | N | N | N | Y |
+|[[http://dev.w3.org/csswg/css3-flexbox/|css3-flexbox]] | Y | 1/2 | Y | Y | Y | Y | N | N | Y | Y |
