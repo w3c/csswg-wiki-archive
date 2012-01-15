@@ -5,9 +5,14 @@ The [[http://www.w3.org/TR/CSS21/|CSS2.1 specification]] is a revision of of [[h
 
 TODO: Audit issues list and make sure each issue has tests in the test suite. Then institute policy that issues cannot be marked as closed until there is a test checked in for that issue.
 
-Last mailing list sweep 2011-01-07 – arronei
+CSS 2.1 bugs/issues are no longer tracked on this wiki page.  New issues on CSS 2.1 should go in Bugzilla ([[http://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&product=CSS&component=Issues+with+the+CSS+level+2+revision+1+specification&resolution=---|existing open bugs]], [[http://www.w3.org/Bugs/Public/enter_bug.cgi?assigned_to=bert%40w3.org&blocked=&bug_file_loc=http%3A%2F%2F&bug_severity=normal&bug_status=NEW&comment=&component=Issues%20with%20the%20CSS%20level%202%20revision%201%20specification&contenttypeentry=&contenttypemethod=autodetect&contenttypeselection=text%2Fplain&data=&dependson=&description=&form_name=enter_bug&keywords=&maketemplate=Remember%20values%20as%20bookmarkable%20template&op_sys=All&priority=P2&product=CSS&qa_contact=&rep_platform=All&short_desc=&target_milestone=---&version=unspecified|file new bug]]).  From there, they find their way to [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html | errata document]].  (The [[http://www.w3.org/Style/CSS/Tracker/products/1 | Tracker]] is used for administration of the errata list, but is not the preferred place for raising errata issues.)
 
-New issues on CSS 2.1 should go in Bugzilla ([[http://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&product=CSS&component=Issues+with+the+CSS+level+2+revision+1+specification&resolution=---|existing open bugs]], [[http://www.w3.org/Bugs/Public/enter_bug.cgi?assigned_to=bert%40w3.org&blocked=&bug_file_loc=http%3A%2F%2F&bug_severity=normal&bug_status=NEW&comment=&component=Issues%20with%20the%20CSS%20level%202%20revision%201%20specification&contenttypeentry=&contenttypemethod=autodetect&contenttypeselection=text%2Fplain&data=&dependson=&description=&form_name=enter_bug&keywords=&maketemplate=Remember%20values%20as%20bookmarkable%20template&op_sys=All&priority=P2&product=CSS&qa_contact=&rep_platform=All&short_desc=&target_milestone=---&version=unspecified|file new bug]]).  The issues below need to be moved to Bugzilla.
+Mailing list sweeps:
+  * Up to 2011-01-07 – fantasai, arronei
+  * From 2011-05-01 to 2012-01-15 (and ongoing) - antonp
+
+TODO: file various tables issues encountered in the period Nov 2011 onwards, once deciphered (antonp); perform mailing list sweep for Jan to April 2011; perform sweep for 2010 specifically looking for items marked for consideration in errata; comprehensively review this wiki page to ensure that errata items are captured and moved to Bugzilla.
+
 ===== Current Issues =====
 
 ==== Issue 142 ====
