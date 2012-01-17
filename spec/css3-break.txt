@@ -1,0 +1,9 @@
+===== CSS Fragmentation Page =====
+
+This page is used to track:
+  - new issues that are not yet flagged in the specification
+  - resolutions about issues that were in the specification
+
+This page started from the initial [[http://dev.w3.org/csswg/css3-break//|CSS Fragmentation editor draft]].
+
+[[ideas:css3-break-use-cases|CSS Fragmentation Use Cases]]
