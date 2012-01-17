@@ -14,3 +14,10 @@ Each of the CSS Fragmentation tests will have metadata that points back one or m
 
 Whether an id is testable can be determined by scanning the spec and ignoring any id in elements with these class attributes: example, note, toc, no-toc or informative. The "informative" class attribute is new, and can be added around non-normative sections of the spec, or any id that's found not to correspond to a conformance requirement.
 
+===== Resolutions =====
+
+Not yet.
+
+===== Action Items =====
+
+Action items and issues for CSS3 Fragmentation are maintained on Bugzilla
