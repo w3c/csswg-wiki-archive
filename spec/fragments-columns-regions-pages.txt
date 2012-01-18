@@ -338,6 +338,33 @@ Presents content of a separate document in paged view. Can be used to build a pa
 
 **Goal:** Add custom controls to paged view.
 
+Ideally, UA should provide well designed, usable and accessible controls for pagination. There will inevitably be situations however that require custom UI, for style or to provide unique functions. It could look like this:
+
+<html>
+<div style="display:inline-block">
+<div style="height:2em; background:black; padding:0.5em 1em; font-family:sans-serif; font-weight:bold; text-align:center;">
+  <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">print</div>
+  <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">share</div>
+  &nbsp;&nbsp;
+  <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&lt;</div>
+  <div style="display:inline-block; border:1px solid white; background:white; padding:0.25em; font-weight:normal">page #</div>
+  <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&gt;</div>
+  &nbsp;&nbsp;
+  <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">zoom</div>
+  <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">bookmark</div>
+  &nbsp;&nbsp;
+  <div style="display:inline-block; border:1px solid white; background:white; padding:0.25em 5em 0.25em 0.25em ; font-weight:normal">&nbsp;</div>
+  <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">search</div>
+</div>
+
+<div style="background:gray; padding:1em; text-align:center;">
+    <div style="display:inline-block;background:white;border:1px solid black; width:7em; padding:1em; text-align:justify">
+      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+    </div>
+</div>
+
+</div>
+</html>
 
 **Proposal:**
 
