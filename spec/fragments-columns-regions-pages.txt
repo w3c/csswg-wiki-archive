@@ -304,9 +304,7 @@ Let's compare the different kinds of fragmenting containers, specifically lookin
 
 
 ===== Use Cases =====
-//**Work in progress**//
-
-This section will describe use cases involving paged view and fragmentation. 
+<html><div style="background:yellow;font-weight:bold"><i>Work in progress</i></div></html>
 
 ==== "overflow:paged" -- simple paged view====
 
