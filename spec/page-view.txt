@@ -1,7 +1,7 @@
 ====== Page View ======
 "Page view" or "paged view" as a term relates broadly to the kind of presentation where content is laid out in discreet pages and shown to user one page at a time (or several pages at a time). 
 
-Wide variety of paged view situations require same or similar support from core layout engine -- primarily the ability to flow content into multiple containers, thus producing multiple boxes with fragments of content. Solutions differ in how the fragmentation functionality is invoked.
+Wide variety of paged view situations require same or similar support from core layout engine -- primarily the ability to flow content into multiple containers, thus producing multiple boxes with fragments of content (see "[[Fragments, Columns, Regions, Pages]]"). Solutions differ in how the fragmentation functionality is invoked.
 
 The problems to be solved in implementing paged views revolve around encoding the design intent and UI behavior, both requiring novel approaches: design intent often derives from experience in print media, which must become adaptive to target multiple devices and resolutions; UI of navigating pages on screen also doesn’t have established tradition, although many implementations use similar concepts.
 
