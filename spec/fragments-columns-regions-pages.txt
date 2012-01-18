@@ -308,14 +308,15 @@ Let's compare the different kinds of fragmenting containers, specifically lookin
 
 This section will describe use cases involving paged view and fragmentation. 
 
-==== overflow:paged ====
+==== built-in paginated view====
 
 **Goal:** easly declarative way to create paged view, good behavior with default settings and default UI.
 
 **Proposal:**
+  * New value for 'overflow property: **"overflow:paged"**
 
-  oveflow:paged
- 
+Example:
+  div.book { oveflow:paged }
 Element with "overflow:paged" shows one page of content at a time. 
 
 All pages are of the same size - the size of content area of the element.
@@ -324,8 +325,7 @@ UI is provided by UA, it may be jestures on touch device, or page navigation con
 
 **Issues:** 
   * Dealing variable-sized pages is not yet defined and may be limited
-  * More complex UI (e.g. facing pages) and/or UI customization is to be defined
-
+  * Page presentation options (e.g. facing pages or variable page size) will need more properties or DOM control
 
 ==== columns ====
 
