@@ -385,6 +385,7 @@ Ideally, UA should provide well designed, usable and accessible controls for pag
 Custom controls will activate custom script, which in some cases will need to access pagination results or show a particular page.
 
 Implementation of custom page UI needs some or all of the following:
+  * Disable or extend the default pagination UI
   * Know number of pages
   * Know if everything fits (in automatic page layout, there will be alwayse enough pages generated, but there may be unprocessed content due to timing or additional constraints)
   * Show a particular page
@@ -397,7 +398,7 @@ Implementation of custom page UI needs some or all of the following:
 
 **Proposal:**
 
-Paged layout need to be exposed in OM, similar to how scrolling is exposed via 
+Paged layout need to be exposed in OM, similar to how scrolling is exposed via scrollTop/scrollHeight
 
 **Example:**
 
