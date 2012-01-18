@@ -359,3 +359,10 @@ UI is provided by UA, it may be jestures on touch device, or page navigation con
   * [[http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml | IDPF Page Templates Proposal]] has a range of ideas, to converge with what is developing in recent discussions.
   
 **Issues:** 
+
+==== Column breaks and page breaks ====
+
+**Goal:** provide a way to control layout in columns and pages, when columns, pages or both are parts of a template-based paged view
+
+**Issues:** 
+
