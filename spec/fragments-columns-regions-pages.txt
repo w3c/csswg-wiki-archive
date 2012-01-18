@@ -119,7 +119,7 @@ When layout engine actually does its work, it outputs pieces of content that are
     <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
     </div>
     
-    <div class="legend" style="font-style:italic">Fragments</div>
+    <div class="legend" style="font-style:italic">Fragment boxes</div>
     <div style="text-align:center">
         <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
         Lorem
@@ -148,7 +148,7 @@ When layout engine actually does its work, it outputs pieces of content that are
         </div>
         <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
         </div>
-        <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em; margin-bottom:1.5em; ">
+        <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em; ">
         </div>
     </div>
 </div>
@@ -176,7 +176,7 @@ Note that as layout engine fills containers with content, there may be content t
     <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
     </div>
     
-    <div class="legend" style="font-style:italic">Fragments</div>
+    <div class="legend" style="font-style:italic">Fragment boxes</div>
     <div style="text-align:center">
         <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
         Lorem
@@ -232,7 +232,7 @@ Note that as layout engine fills containers with content, there may be content t
     <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
     </div>
     
-    <div class="legend" style="font-style:italic">Fragments</div>
+    <div class="legend" style="font-style:italic">Fragment boxes</div>
     <div style="text-align:center">
         <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
         Lorem
