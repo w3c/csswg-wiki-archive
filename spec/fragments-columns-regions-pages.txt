@@ -316,7 +316,7 @@ This section will describe use cases involving paged view and fragmentation.
   * New value for 'overflow property: **"overflow:paged"**
 
 **Example:**
-  div.book { oveflow:paged }
+  div.book { overflow:paged }
 Element with "overflow:paged" shows one page of content at a time. 
 
 All pages are of the same size - the size of content area of the element.
@@ -324,17 +324,26 @@ All pages are of the same size - the size of content area of the element.
 UI is provided by UA, it may be jestures on touch device, or page navigation controls (perhaps similar to controls on <video> element)
 
 **Example:**
-  body { oveflow:paged }
+  html { width:100%; height:100%; overflow:paged }
 This should put the whole document in paged view. If UA is also in full screen mode, this works particularly well on tablet devices as full-screen reading mode
 
 **Example:**
-  iframe.magazine { oveflow:paged }
+  iframe.magazine { overflow:paged }
 Presents content of a separate document in paged view. Can be used to build a page viewer with custom UI.
 
 **Issues:** 
   * Dealing variable-sized pages is not yet defined and may be limited
   * Page presentation options (e.g. facing pages or variable page size) will need more properties or DOM control
   * No way (yet) to customize pages (page numbers, headers, footers)
+
+==== paged view with custom controls ====
+
+**Goal:** Add custom controls to paged view.
+
+
+**Proposal:**
+
+**Example:**
 
 ==== columns ====
 
