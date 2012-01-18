@@ -355,7 +355,7 @@ Presents content of a separate document in paged view. Can be used to build a pa
   * Add a way to customize pages (page numbers, headers, footers)?
   * Dealing variable-sized pages is not yet defined and may be limited in this simple case
 
-==== paged view with custom controls ====
+==== "overflow:paged" with custom controls ====
 
 **Goal:** Add custom controls to paged view.
 
