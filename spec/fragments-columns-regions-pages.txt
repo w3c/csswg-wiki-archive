@@ -363,10 +363,14 @@ Ideally, UA should provide well designed, usable and accessible controls for pag
     </div>
 </div>
 
+Custom controls will activate custom script, which in some cases will need to access pagination results or show a particular page
+
 </div>
 </html>
 
 **Proposal:**
+
+Paged layout need to be exposed in OM, similar to how scrolling is exposed via 
 
 **Example:**
 
