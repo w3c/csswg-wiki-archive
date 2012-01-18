@@ -334,6 +334,7 @@ Presents content of a separate document in paged view. Can be used to build a pa
 **Issues:** 
   * Dealing variable-sized pages is not yet defined and may be limited
   * Page presentation options (e.g. facing pages or variable page size) will need more properties or DOM control
+  * No way (yet) to customize pages (page numbers, headers, footers)
 
 ==== columns ====
 
