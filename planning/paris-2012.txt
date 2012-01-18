@@ -15,7 +15,11 @@ Room: TBD
 === Proposed Topics ===
 
   * Selectors 4
+  * CSS3 Text - collect/resolve remaining issues?
+  * Line Grid FPWD?
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0001.html|Media Queries REC]]
+  * CSS3 Backgrounds and Borders republish CR
+  * CSS3 Values and Units LCWD?
 
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
