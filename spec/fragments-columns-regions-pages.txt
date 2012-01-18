@@ -306,7 +306,7 @@ Let's compare the different kinds of fragmenting containers, specifically lookin
 ===== Use Cases =====
 <html><div style="background:yellow;font-weight:bold"><i>Work in progress</i></div></html>
 
-==== "overflow:paged" -- simple paged view====
+==== paged view for window or element ====
 
 **Goal:** easly declarative way to create paged view, good behavior with default settings and default UI.
 
