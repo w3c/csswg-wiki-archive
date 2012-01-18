@@ -303,8 +303,10 @@ Let's compare the different kinds of fragmenting containers, specifically lookin
 | **Regions - scripted** | regionOverflow, regionLayoutUpdate | script | regions spec adds minimal API for layout results and timing |
 
 
-===== Examples =====
+===== Use Cases =====
 //**Work in progress**//
+
+This section will describe use cases involving paged view and fragmentation. 
 
 ==== overflow:paged ====
 
