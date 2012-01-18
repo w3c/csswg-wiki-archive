@@ -308,7 +308,7 @@ Let's compare the different kinds of fragmenting containers, specifically lookin
 
 This section will describe use cases involving paged view and fragmentation. 
 
-==== built-in paginated view====
+==== "overflow:paged" -- simple paged view====
 
 **Goal:** easly declarative way to create paged view, good behavior with default settings and default UI.
 
