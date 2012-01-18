@@ -306,7 +306,3 @@ Let's compare the different kinds of fragmenting containers, specifically lookin
 
 
 
-===== Issues =====
-Some issues not addressed in use cases:
-  * Paged view doesn't automatically mean "paged media" (which is commonly used as "for printing" and can't be repurposed). Should there be a way to declare that a paginating viewer (e.g. iframe) needs to render the same visuals as what would be printed?
-  * Media queries for paged view/columns/regions?
