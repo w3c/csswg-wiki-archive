@@ -310,6 +310,19 @@ Let's compare the different kinds of fragmenting containers, specifically lookin
 
 **Goal:** easly declarative way to create paged view, good behavior with default settings and default UI.
 
+<html>
+<div style="display:inline-block; width:9em;">
+
+<div style="background:gray; --padding:1em; text-align:justify; vertical-align:middle;">
+  <div style="background:white;border:1px solid black; --width:7em; padding:1em; text-align:justify">
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+  </div>
+  <div style="display:inline-block; color:lightgray; font-size:1.2em;">&lt;--</div>
+  <div style="display:inline-block; color:lightgray; font-size:1.2em;">--&gt;</div>xxx
+</div>
+</div>
+</html>
+
 **Proposal:**
   * New value for 'overflow property: **"overflow:paged"**
 
