@@ -98,7 +98,9 @@ This doesn't yet show what layout engine do, it just shows some possible situati
 
 ===== Fragmentation =====
 
-When layout engine actually does its work, it outputs pieces of content that are laid out to fit into given containers. Let's call them "fragments":
+When layout engine actually does its work, it outputs pieces of content that are laid out to fit into given containers. For the purposes of describing the layout process, let's call filling multiple containers with content "fragmentation". Then the containers can be called "space fragments" and visual representation of portions of content will be "fragment boxes". 
+
+//Note: This is not an attempt to introduce formal definitions or terminology for fragmentation (fragmentation will have a dedicated module -- see [Paged Media Level 4]). The purpose of this summary is to visualize possible relationships between content, conainers and layout results, which, hopefully, will be useful for evaluation of proposed solution in this space. Feel free to correct any trems or concepts if they look inconsistent with formal definitions elsewhere//
 
 <html>
 <div class="figure" style="border:thin solid silver; width:35em; margin:auto; padding:1em;">
