@@ -1,5 +1,7 @@
 ====== Fragments, Columns, Regions, Pages ======
-//Notes and examples in support of discussion on Regions//
+//Background/overview Notes and examples in support of discussion on Regions and paged view//
+
+See [[Page View]] for use cases and proposals
 
 ===== Layout Engine with Fragmentation Support =====
 Implementations of regions, columns and paginations will vary but in most general situation it is reasonable to assume that there is a layout engine that takes formatted content in DOM as input and fills one or more container with that content:
