@@ -1,0 +1,19 @@
+This page lists media features being considered for the next level of CSS media queries (level 4).
+
+
+====== script ======
+<note>See [[http://www.w3.org/mid/4F0FE53B.30203@inkedblade.net|here]] for the resolution in which the CSS WG approved of drafting this feature.</note>
+
+<code>Value: <integer>
+Applies to: all media types
+Accepts min/max prefixes: no
+</code>
+
+The 'script' media feature is used to query whether ECMAscript is supported on the current document. If the user agent supports ECMAscript, and that support is active for the current document the value must be 1. Otherwise, the value must be 0.
+
+Some user agents have the ability to turn off ECMAscript support on a per script basis or per domain basis, allowing some, but not all, scripts to run in a particular document. The 'script' media feature does not allow fine grained detection of which script is allowed to run. In this scenario, the value of the 'script' media feature should be 1 if scripts originating on the same domain as the document are allowed to run, and 0 otherwise.
+
+<note>A future level of CSS may extend this media feature to allow fine-grained detection of which script is allowed to run.</note>
+
+Only 0 and 1 are valid values. (This includes -0.) Thus everything else creates a malformed media query.
+
