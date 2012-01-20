@@ -61,7 +61,7 @@ And of course this is a way to solve the problem of <iframe> special behavior:
 
 Effect on replaced elements is undefined, but at least should reset any non-default properties.
 
-
+**Issue:** It may not be a good idea to reuse 'display' property, as it will create same kind of issues as 'display:none' -- it overrides the display type that would be used if 'flow-into' property was removed. A special property would be safer, maybe **'flow-content-into'** or **flow-content-type:node|content**
 ==== 3. Template from named flow ====
 
 This should work without any new features:
