@@ -186,6 +186,7 @@ The user reads the magazine in a reader application, with same options for page 
 
 Online magazine must work on devices on different sizes, resolution and orientation. Just as any other adaptive content using media queries, same magazine will look very different on different devices.
 
+Same content may end up on different pages, order of content may change, and content may change too (different images may be used in different orientation, some images may be dropped, some text may be replaced with links).
 
 <html><div style="clear:both"></div></html>
 
