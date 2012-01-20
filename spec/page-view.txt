@@ -231,6 +231,7 @@ posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet c
   </div>
 </div>
 </html>
+
 **Proposals:**
   * css3-regions module
   * Page view, UI, page generation is done in script  
@@ -239,7 +240,8 @@ posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet c
   * No declarative way to generated additional regions or pages is yet defined
 
 
-===== Adaptive magazine pages with templates =====
+===== Adapt
+ive magazine pages with templates =====
 
 **Goal:** automatically generate complex pages based on content, encoded design intent and media properties
 
