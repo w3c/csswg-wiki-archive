@@ -200,6 +200,48 @@ Same content may end up on different pages, order of content may change, and con
 
 **Goal:** provide a way to control layout in columns and pages, when columns, pages or both are parts of a template-based paged view
 
+<HTML>
+  <div id="page1" class="pageFrame" style="float:left; background:white; border:2px solid blue; margin:1em; width:18em; height:22em;">
+    <div class="pageContent" style="margin:2em; width:13em; height:18em; position:relative; text-align:left; xoutline:1px solid lime">
+      <div class="titleImg" style="background:salmon; width:8.3em; height:50%; float:right;"></div>
+      <div class="mainStory">
+        <div style="float:left; width:4em; height:18em; overflow:hidden; margin-right:0.5em;outline:2px solid green;">
+          <div style="color:red; font-weight:bold">One</div>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. 
+          Fusce posuere, magna 
+        </div> 
+        <div style="float:left; width:4em; height:8.5em; overflow:hidden; margin:0.5em 0.5em 0;outline:2px solid green;">
+pulvinar ultricies, purus lectus malesuada libero, sit amet 
+        </div> 
+        <div style="float:left; width:4em; height:8.5em; overflow:hidden; margin:0.5em -1em 0 0.5em;outline:2px solid green;">
+        </div> 
+      </div>
+    </div>
+  </div>
+  
+    <div id="page1" class="pageFrame" style="float:left; background:white; border:2px solid blue; margin:1em; width:18em; height:22em;">
+    <div class="pageContent" style="margin:2em; width:13em; height:18em; position:relative; text-align:left; xoutline:1px solid lime">
+      <div class="mainStory">
+        <div style="float:left; width:4em; height:10em; overflow:hidden; margin-right:0.5em;outline:2px solid green;">
+          <div style="color:red; font-weight:bold">Two</div>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+        </div> 
+        <div style="float:left; width:4em; height:10em; overflow:hidden; margin:4em 0.5em 0;outline:2px solid green;">
+Maecenas porttitor congue massa. 
+          Fusce posuere, magna sed 
+        </div> 
+        <div style="float:left; width:4em; height:10em; overflow:hidden; margin:8em -1em 0 0.5em;outline:2px solid green;">
+          pulvinar ultricies, purus lectus malesuada libero, sit amet 
+          commodo 
+          </div> 
+      </div>
+    </div>
+  </div>
+
+<div style="clear:both"></div>
+
+</HTML>
+
 **Issues:** 
 
 ====== Issues ======
