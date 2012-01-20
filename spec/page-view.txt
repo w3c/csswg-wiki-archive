@@ -109,8 +109,23 @@ To achieve that, pages and paged viewer need exposure in styles and OM
 **Ideas**
 //There are no formal proposals on OM for overflow:paged at this time.//
 
-New property **pager-style:auto|noui** -- enable or disable default UI
-  .pager { overflow:paged; pager-style:noui }
+**Control default UI with 'overflow' property**
+  * overflow-style:<existing values>|paged-x|paged-y|paged-x-controls|paged-y-controls
+
+Example:
+<code>
+  .pager { overflow:paged-x; }
+  <div class="pageview">
+    <div class="toolbar">
+      <button onclick="PrevPage()">previous</button>
+      <button onclick="NextPage()">next</button>
+      ...
+    </div>
+    <div class="pages">
+      <iframe class="pager" src="content.html"></iframe>
+    </div>
+  </div>
+</code>
 
 **Element.pageCount** -- get number of pages
 This should wait synchronously for pagination to be completed, if needed, following the patter of 'offsetHeight' etc. (which always return correct value, forcing synchronous layout)
@@ -119,7 +134,7 @@ This should wait synchronously for pagination to be completed, if needed, follow
 
 //**Events?** -- should there be an event for layout change? maybe not, unlike regions: all content is inside the viewer element, content change events may be enough//
 
-//**TODO -- work in progress here**//
+//**UNDER CONSTRUCTION**//
 
 **Example**
 
