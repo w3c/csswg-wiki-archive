@@ -166,9 +166,9 @@ posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet c
   * No declarative way to generated additional regions or pages is yet defined
 
 
-===== page templates =====
+===== Adaptive magazine pages with templates =====
 
-**Goal:** automatically generate complex pages based on content and encoded design intent
+**Goal:** automatically generate complex pages based on content, encoded design intent and media properties
 
 **Proposals:**
   * Need a proposal. 
