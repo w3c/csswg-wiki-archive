@@ -162,6 +162,8 @@ A manually designed magazine article could look like this:
 
 {{:spec:magazine1.png}}
 
+Each individual page can have unique design and can include content from multiple sources: multiple text streams (main story, side bar, pull quotes) and images (some included in text, some placed directly as related visuals or advertisements).
+
 **Proposals:**
   * css3-regions module
   * Page view, UI, page generation is done in script  
