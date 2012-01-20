@@ -111,7 +111,7 @@ Paged layout need to be exposed in OM, similar to how scrolling is exposed via s
 
 **Example:**
 
-===== paged view with custom pages =====
+===== Page view with custom pages =====
 
 **Goal:** Apply content formatting to specific pages and position pages on screen
 
