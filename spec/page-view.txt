@@ -196,9 +196,13 @@ Same content may end up on different pages, order of content may change, and con
   
 **Issues:** 
 
-===== Column breaks and page breaks =====
+===== Column breaks and page breaks in regions =====
 
 **Goal:** provide a way to control layout in columns and pages, when columns, pages or both are parts of a template-based paged view
+
+In magazine layout, what user percieves as "columns" can have irregular shape and position (and may be regions rather than boxes of multicol layout) and be placed to "pages" in a custom way.
+
+Content flown throuh such "colums" needs to be able to use column breaks and page breaks, for example to make sure that a new chapter starts at a new page:
 
 <HTML>
   <div id="page1" class="pageFrame" style="float:left; background:white; border:2px solid blue; margin:1em; width:18em; height:22em;">
@@ -241,6 +245,8 @@ Maecenas porttitor congue massa.
 <div style="clear:both"></div>
 
 </HTML>
+
+
 
 **Issues:** 
 
