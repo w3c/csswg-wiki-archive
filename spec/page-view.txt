@@ -106,10 +106,17 @@ Implementation of custom page UI needs some or all of the following:
 
 To achieve that, pages and paged viewer need exposure in styles and OM
 
-**Proposals:**
+**Options**
+//There are no formal proposals on OM for overflow:paged at this time. Some options (not all mutually exclusive) are...//
+
+**Option 1:** page selectors
+
+  #paged { width:6.5in; height:9in; overflow:paged; }
+  #paged * { border: 1px solid black; }
+  #paged::nth-child(even) { position:relative; left:<page-width> } /**
 
 
-**Example:**
+**Example**
 
 ===== Page view with custom pages =====
 
