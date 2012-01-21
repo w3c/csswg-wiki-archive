@@ -12,7 +12,7 @@ References:
 
 Code Samples
 
-{{:spec:regions-samples_webkit-nightly.zip|}}
+{{:spec:regions-nightly-samples.zip|}}
 
 Use cases
 
