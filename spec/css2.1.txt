@@ -2198,16 +2198,18 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 
 ==== Issue 92 ====
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0008.html
+  ;U
+RL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0008.html
   ;Summary : Use more precise wording to describe widows and orphans.
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Dec/0008.html
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Dec/0008.html (first item)
   ;Resolution : Proposal accepted.
   ;Status : Closed.
   ;Testcases : n/a (editorial)
 
 ==== Issue 93 ====
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0007.html
+  ;
+URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0007.html
   ;Summary : Initial containing block definition poorly worded and confusing
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2008Dec/0007.html
   ;Resolution : Assumed editorial.
