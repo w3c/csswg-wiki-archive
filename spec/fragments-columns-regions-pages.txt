@@ -281,17 +281,17 @@ Considering that a target container for fragmentation is a rectangle or shape wi
 Some existing or anticipated ways to provide containers for fragmentation are
 
   * Columns
-    * As defined in css3-multicol (available now: http://www.w3.org/TR/css3-multicol/)
-    * With column selectors (proposed: http://dev.w3.org/csswg/css3-gcpm/#regions)
+    * As defined in css3-multicol ([[http://www.w3.org/TR/css3-multicol/|CR]])
+    * With column selectors ([[http://dev.w3.org/csswg/css3-gcpm/#regions|ED]])
   * Pages
-    * Printing or print preview (available now: built-in in browsers)
-    * Automatic page view (proposed: http://dev.w3.org/csswg/css3-gcpm/#paged-presentations)
-    * Regions+script page view (available now: http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions)
-    * Page templates (proposed: http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml)
+    * Printing or print preview (built-in in browsers)
+    * Automatic page view ([[http://dev.w3.org/csswg/css3-gcpm/#paged-presentations|ED]])
+    * Regions+script page view ([[http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions|ED]], [[http://www.w3.org/TR/css3-regions/#cssom_view_and_css_regions|WD]])
+    * Page templates ([[http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml|EPub proposal]])
   * Regions
-    * Static (available now: http://dev.w3.org/csswg/css3-regions/)
-    * Scripted (available now: http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions)
-    * Generated (discussed)
+    * Static ([[http://dev.w3.org/csswg/css3-regions/|ED]], [[http://www.w3.org/TR/css3-regions/|WD]])
+    * Scripted ([[http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions|ED]], [[http://www.w3.org/TR/css3-regions/#cssom_view_and_css_regions|WD]])
+    * Generated (discussion: ?)
 
 Let's compare the different kinds of fragmenting containers, specifically looking at who is in control and how they are manated dynamically:
 ^ Container type ^ how created ^ dynamic ? ^ details ^
