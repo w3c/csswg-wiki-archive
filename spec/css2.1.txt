@@ -1951,7 +1951,7 @@ http://lists.w3.org/Archives/Member/w3c-css-wg/2007OctDec/0127.html
 
   ;URL : http://lists.w3.org/Archives/Public/www-style/2008Jun/0297.html
   ;Summary : Core grammar for @rules conflicts with CSS3 features
-  ;Status : See Issue 61.
+  ;Status : See Issue 62.
   ;Testcases : at-rules-013 and at-page-001 and declarations-009
 
 ==== Issue 52 ====
