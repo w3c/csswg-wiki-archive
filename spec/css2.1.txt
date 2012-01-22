@@ -910,7 +910,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Testcase : Delete c61-phys-len-000.xht ; 96dpi assumption is made in many testcases doesn't need its own at this point.
 
 ==== Issue 150 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0041.html
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0041.html (Issue 6)
   ;Summary : Change "Every CSS2.1 property" to "Every CSS property" in 4.1.8
   ;Resolution : Assumed editorial.
   ;Status : Closed.
