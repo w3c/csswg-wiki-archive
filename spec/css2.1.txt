@@ -1426,15 +1426,15 @@ Duplicate of Issue 73
   ;Status : Closed.
   ;Testcases : width-inherit-001 and height-inherit-001
 
-==== Issue 164 ====	 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0486.html	 
+==== Issue 164 ====
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0486.html
   ;Summary : An example is invalid HTML4.
-  ;Resolution : Assumed editorial. 
+  ;Resolution : Assumed editorial.
   ;See also : http://lists.w3.org/Archives/Public/www-style/2010Mar/0511.html
   ;Status : Closed.
   ;Testcases : n/a (editorial)
 
-==== Issue 165 ====	 
+==== Issue 165 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Mar/0539.html http://lists.w3.org/Archives/Public/www-style/2010Mar/0544.html
   ;Summary : Determine whether overflowing floats are sensitive to bidi
   ;Testcase : http://www.hixie.ch/tests/adhoc/css/box/float/047-demo.html
@@ -1442,7 +1442,7 @@ Duplicate of Issue 73
   ;Status : Closed.
   ;Testcases : floats-147
 
-==== Issue 166 ====	 
+==== Issue 166 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Apr/0274.html
   ;Summary : Clarify different uses of term "value" as "property value" or "component value"
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jul/0225.html
