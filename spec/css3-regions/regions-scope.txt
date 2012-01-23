@@ -2,7 +2,7 @@
 
 ===== Markup Clutter =====
 
-The issue of using region divs in HTML markup has been around since the initial presentation to the CSS WG ([[http://lists.w3.org/Archives/Public/www-style/2011Mar/0189.html|early feedback]]). Everyone seems to agree that there should be additional mechanisms to create stylable boxes in the render tree from CSS itself. Regions is not the only specification that could benefit from this addition to CSS.
+The issue of using region divs in HTML markup has been around since the initial presentation to the CSS WG ([[http://lists.w3.org/Archives/Public/www-style/2011Mar/0189.html|early feedback]]). Everyone seems to agree that there should be additional mechanisms to create stylable boxes in the render tree from CSS itself ([[http://wiki.csswg.org/ideas/pseudo-elements|pseudo-elements]]). Regions is not the only specification that could benefit from this addition to CSS.
 
 The question is whether Regions can progress before settling on a new box or slot generation mechanism. 
 
