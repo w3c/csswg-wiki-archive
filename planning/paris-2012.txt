@@ -26,7 +26,8 @@ Room: TBD
   * CSS Flexbox: open issues and feedback, LC?
   * CSS Fragmentation: FPWD?
   * CSS3 Text - text-shadow - support for spread radius? (Supported in IE10)
-  * 
+  * Functional syntax, to comma or not to comma?
+
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Daniel Glazman | Disruptive Innovations | (host) | (host) | home | N/A |
