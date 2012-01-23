@@ -1,0 +1,11 @@
+====== Specifying Percentages that Play Nicely with calc() ======
+
+The ''calc()'' function accepts any unit-ed value (a ''DIMENSION'' token), and also <percentage>s.  Percentages are converted into an appropriate dimension based on the context in which ''calc()'' is used, and then combined with the other values to eventually produce a single value in an appropriate unit.
+
+This works great when percentages and dimensions work the same way for a property - that is, when you can do a naive substitution of a percentage for an equivalent dimension and get the same result - but it's easy to accidentally break this property, which causes problems for ''calc()''.
+
+In particular, ''background-position'' does not have this property - if the background area is a 200px square, using ''background-position: 75%;'' and ''background-position: 150px'' give substantially different results.  As such, ''calc()'' needs to carve out an explicit exception for ''background-position'' if it wants to work in the intuitive way.
+
+Do not follow the example set by ''background-position''.  Instead, ensure that percentages and dimensions have the same behavior, start from the same point, etc.
+
+A working example of a property that was badly-behaved and was then fixed is ''word-spacing''.  Originally, ''word-spacing'' was defined so that lengths were added to the default word-spacing, while percentages were relative to the default word-spacing.  So, if the default word-spacing was 10px, ''word-spacing: 50%'' and ''word-spacing: 5px'' did very different things - the first bunched words together, the second spread them apart.  The spec was changed to make both of them add to the default word-spacing.  Now, both of the above examples spread words apart the same amount, which is friendly with ''calc()''.
