@@ -293,12 +293,23 @@ Selection algorithm also have no restrictions. Selection of specific template ca
 Which is enough for generating pages this way
 
 ===IDPF page templates proposal===
-  * [[http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml | IDPF Page Templates Proposal]] has a range of ideas
-
-//TODO:examples//
-  
-**Issues:** 
-
+[[http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml | IDPF Page Templates Proposal]] adds 
+  * declarative syntax for specifying page templates (called "page masters")
+<code>
+@page-master
+{
+    <propname>: <propvalue>;
+    ...
+    @region <name> {
+    {
+        <propname>: <propvalue>;
+        ...
+    }
+}
+</code>
+  * specific set of rules and page-specific properties for page master selection, such as
+    * 'min-page-width' and 'min-page-height' properites -- for template selectoin based on page dimensions
+    * 'flow-priority', 'region-placement', 'required-regions', 'conflicting-regions' and other properties - for page master selection and tuning
 ===== Column breaks and page breaks in regions =====
 
 **Goal:** provide a way to control layout in columns and pages, when columns, pages or both are parts of a template-based paged view
