@@ -224,25 +224,27 @@ Each individual page can have unique design and can include content from multipl
 
 **TODO:** Add an example of template with columns, floating image, pullquote
 
-====Proposals====
+ ====Proposals====
 ===[css3-regions] with script===
 
 The design of the viewer with custom controls is same as in previous examples. Difference is at the lowest level, where navigation to each page has to be implemented by managing a collectoin of elements, pseudo-elements or any other visual capable to represent an individual page. At this time pages as elements is the only available option.
 
 Individual custom page may look like this. It may be read from a separate HTML source, built from script or generated in some other way (see the next section "Adaptive magazine with page templates")
 
-For example, the first page of this sample article has the following design decisions encoded in some way:
-•	The page is built on  a 5-column grid
-•	Main image is 66% width of the page and whatever height is derived from its aspect ratio. It is place at far top right of the [age
-•	Secondary image takes the rest of the page width, preserves its aspect ratio and placed at bottom left of the page
-•	Title may overlap with the main image
-•	Main story text wraps around everything else
+F or example, the first page of this sample article has the following design decisions encoded in some way:
+ * The page is built on  a 5-column grid
+  * Main image is 66% width of the page and whatever height is derived from its aspect ratio. It is place at  top
+right of the page
+  * Secondary image takes the rest of the page width, preserves its aspect ratio and placed at bottom left of the page
+  * Title may overlap with the main image
+  * Main story text wraps around everything else
 
 
   TODO Page view, UI, page generation is done in script  
 
 ====Ideas====
-//**If** it is possible to achieve same results with further extensions of 'overflow:paged', ideas should go here//
+//**If** it is 
+possible to achieve same results with further extensions of 'overflow:paged', ideas should go here//
 
 **Issues:** 
   * No declarative way to generated additional regions or pages is yet defined
