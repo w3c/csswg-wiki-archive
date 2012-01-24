@@ -196,7 +196,7 @@ posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet c
 
 **Page View DOM**
 
-// No formal proposals for page view DOM at this time //
+//There are no formal proposals on OM for overflow:paged at this time. Note that API is similar to what regions expose for same purposes//
 
 In addition to API for page display, DOM for custom paged view needs writable access to page size and position
   * int PagedView.**pageWidth**(pageNumber)
