@@ -210,9 +210,9 @@ Content properties can be set by detecting range(s) of content on page, then tra
   TODO
 ===== Magazine viewer =====
 
-**Goal:** enable complex page design, with multiple content flows and graphics
+**Goal:** enable complex page design with multiple content flows and graphics, approaching or exceeding capabilities of print design
 
-A magazine article could look like this. 
+A magazine article (pretty simple one) could look like this. 
 
 {{:spec:magazine1.png}}
 
