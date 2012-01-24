@@ -50,15 +50,6 @@ This should put the whole document in paged view. If UA is also in full screen m
   iframe.magazine { overflow:paged }
 Presents content of a separate document in paged view. Can be used to build a page viewer with custom UI.
 
-**Issues:** 
-  * May need additional layout options or constraints
-    * Page size
-    * Min/max number of pages (maybe)
-  * Possible page presentation options
-    * Facing pages?
-    * Direction of flipping pages?
-  * Add a way to customize pages (page numbers, headers, footers)?
-  * Dealing variable-sized pages is not yet defined and may be limited in this simple case
 
 ===== Page view with custom controls =====
 
