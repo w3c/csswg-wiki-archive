@@ -106,10 +106,9 @@ Implementation of custom page UI needs some or all of the following:
 
 To achieve that, pages and paged viewer need exposure in styles and OM
 
-**Ideas**
-//There are no formal proposals on OM for overflow:paged at this time.//
+====Proposals====
 
-**Control default UI with 'overflow' property**
+**Control default UI with 'overflow' property** (([[http://dev.w3.org/csswg/css3-gcpm/#paged-presentations|GCPM - ED]]))
   * overflow-style:<existing values>|paged-x|paged-y|paged-x-controls|paged-y-controls
 
 Example:
@@ -126,6 +125,9 @@ Example:
     </div>
   </div>
 </code>
+
+**Ideas**
+//There are no formal proposals on OM for overflow:paged at this time.//
 
 **Element.pageCount** -- get number of pages
 This should wait synchronously for pagination to be completed, if needed, following the patter of 'offsetHeight' etc. (which always return correct value, forcing synchronous layout)
