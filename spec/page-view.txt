@@ -230,7 +230,7 @@ Each individual page can have unique design and can include content from multipl
   TODO Page view, UI, page generation is done in script  
 
 ====Ideas====
-//If it is possible to achieve same results with further extensions of 'overflow:paged', ideas should go here//
+//**If** it is possible to achieve same results with further extensions of 'overflow:paged', ideas should go here//
 
 **Issues:** 
   * No declarative way to generated additional regions or pages is yet defined
