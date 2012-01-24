@@ -127,19 +127,27 @@ Example:
 </code>
 
 ====Ideas====
-===Page View DOM===
-//There are no formal proposals on OM for overflow:paged at this time.//
+===Paged View DOM===
+//There are no formal proposals on OM for overflow:paged at this time.
 
 To support custom pagination UI, overlfow:paged needs to expose equivalent of offsetTop/offsetLeft/offsetHeight/offsetWidth/srollTop/scrollHeight (which are used for cusotm control of scrollable elements).
 
-If this approach is taken, the API will have to include the following members, or equivalent:
+If this approach is taken, the API will have to include the following members, or equivalent://
 
 **interface PagedView** -- implemented on HTMLElement (and maybe on HTMLDocument). Alternatively all members are exposed directly on element (that would match scope of scroll API)
 
-**Element.pageCount** -- get number of pages
-This should wait synchronously for pagination to be completed, if needed, following the patter of 'offsetHeight' etc. (which always return correct value, forcing synchronous layout)
+**PagedView Element.pagedView** -- paged view of element's content. NULL if not applicable
 
-**Element.showPage(pageNumber)**
+**int PagedView.pageCount** -- get number of pages
+This should wait synchronously for content pagination to be completed, if needed, following the patter of 'offsetHeight' etc. (which always return correct value, forcing synchronous layout)
+
+**void PagedView.showPage(pageNumber)**
+
+**int[] PagedView.getPagesFromContentNode(Node contentNode)** -- get page numbers for pages that show any portion of given node
+
+**Rect[] PagedView.rectsOnPage(pageNumber, Node contentnode)** -- get bounding rects of content rendering on specific page
+
+**Range[] PagedView.getContentRangesOnPage(pageNumber)** -- range(s) of content that falls on that page
 
 //**Events?** -- should there be an event for layout change? maybe not, unlike regions: all content is inside the viewer element, content change events may be enough//
 
