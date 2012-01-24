@@ -199,10 +199,12 @@ posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet c
 // No formal proposals for page view DOM at this time //
 
 In addition to API for page display, DOM for custom paged view needs writable access to page size and position
- * **int PagedView.pageWidth(pageNumber)**
- * **int PagedView.pageHeight(pageNumber)**
- * **void PagedView.setPageWidth(pageNumber)**
- * **void PagedView.setPageHeight(pageNumber)**
+  * int PagedView.**pageWidth**(pageNumber)
+  * int PagedView.**pageHeight**(pageNumber)
+  * void PagedView.**setPageWidth**(pageNumber)
+  * void PagedView.**setPageHeight**(pageNumber)
+
+Content properties can be set by detecting range(s) of content on page, then traversing content and applying properties. Of course care has to be taken as it can't be assumed that modified content will still fit the same page.
 
 ===== Magazine viewer =====
 
