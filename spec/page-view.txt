@@ -240,7 +240,7 @@ Individual custom page may look like this. It may be read from a separate HTML s
   * No declarative way to generated additional regions or pages is yet defined
 
 
-===== Adaptive magazine pages with templates =====
+===== Adaptive magazine with page templates =====
 
 **Goal:** automatically generate complex pages based on content, encoded design intent and media properties
 
