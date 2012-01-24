@@ -126,8 +126,11 @@ Example:
   </div>
 </code>
 
-**Ideas**
+====Ideas====
+===Page View DOM===
 //There are no formal proposals on OM for overflow:paged at this time.//
+
+To support custom pagination UI, overlfow:paged needs to expose equivalent of offsetTop/offsetLeft/offsetHeight/offsetWidth/srollTop/scrollHeight (which are used for cusotm control of scrollable elements)
 
 **Element.pageCount** -- get number of pages
 This should wait synchronously for pagination to be completed, if needed, following the patter of 'offsetHeight' etc. (which always return correct value, forcing synchronous layout)
