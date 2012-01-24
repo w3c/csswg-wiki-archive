@@ -265,11 +265,7 @@ The design can be implemented like this:
 </div>
 </code>
 ====Ideas====
-//**If** it is 
-possible to achieve same results with further extensions of 'overflow:paged', ideas should go here//
-
-**Issues:** 
-  * No declarative way to generated additional regions or pages is yet defined
+//Is it possible to achieve same results with further extensions of 'overflow:paged' and using pseudo-elements?//
 
 
 ===== Adaptive magazine with page templates =====
