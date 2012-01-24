@@ -144,7 +144,7 @@ This should wait synchronously for content pagination to be completed, if needed
   * **Range[] PagedView.getContentRangesOnPage(pageNumber)** -- range(s) of content that falls on that page
   * **Node elementFromPoint(pageNumber, x, y)** -- element under the point, in coordinates of the page
 
-//**Events?** -- should there be an event for layout change? maybe not, unlike regions: all content is inside the viewer element, content change events may be enough//
+//**Events?** -- should there be an event for layout change? maybe not, unlike regions: all content is inside the viewer element, content change events should be enough//
 
 **Example**
   TODO: example of script with page view API
