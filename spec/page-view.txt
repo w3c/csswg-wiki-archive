@@ -216,16 +216,15 @@ A magazine article (pretty simple one) could look like this.
 
 {{:spec:magazine1.png}}
 
+The user reads the magazine in a reader application, {{ :spec:magazine2.png}} with same options for page navigation control as in previous examples of page view. 
+
 Each individual page can have unique design and can include content from multiple sources: multiple text streams (main story, side bar, pull quotes) and images (some included in text, some placed directly as related visuals or advertisements).
 
 //Note that at this point we don't make assumptions on how exactly each "page" is constructed. It may be automatically generated with some adaptive mechanism or it may be manually put together by a design team with print design experience. That distinction will be important for next use case, here we are looking at ways to represent the layout//
 
-The user reads the magazine in a reader application, with same options for page navigation control as in previous examples of page view.
-
-{{:spec:magazine2.png}}
-
 **TODO:** Add an example of template with columns, floating image, pullquote
 
+<html><div style="clear:both"></div></html>
 ====Proposals====
 ===[css3-regions] with script===
   TODO Page view, UI, page generation is done in script  
