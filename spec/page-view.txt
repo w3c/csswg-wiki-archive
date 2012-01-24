@@ -196,6 +196,10 @@ posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet c
 
 **Page View DOM**
 
+// No formal proposals for page view DOM at this time //
+
+In addition to API for page display, DOM for paged view needs writable access to page size and position
+
 ===== Magazine viewer =====
 
 **Goal:** enable complex page design, with multiple content flows and graphics
