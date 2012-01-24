@@ -227,6 +227,11 @@ Each individual page can have unique design and can include content from multipl
 <html><div style="clear:both"></div></html>
 ====Proposals====
 ===[css3-regions] with script===
+
+The design of the viewer with custom controls is same as in previous examples. Difference is at the lowest level, where navigation to each page has to be implemented by managing a collectoin of elements, pseudo-elements or any other visual capable to represent an individual page. At this time pages as elements is the only available option.
+
+Individual custom page may look like this. It may be read from a separate HTML source, built from script or generated in any other way
+
   TODO Page view, UI, page generation is done in script  
 
 ====Ideas====
