@@ -103,6 +103,7 @@ To achieve that, pages and paged viewer need exposure in styles and OM
   * **overflow-style**:<existing values>|paged-x|paged-y|paged-x-controls|paged-y-controls
 
 **Example**
+
 "paged-x" layout adds overflow pages along X axis. Custom page UI needs to scroll to the appropriate position to show each page
 <code>
   .pager { overflow:hidden; }
