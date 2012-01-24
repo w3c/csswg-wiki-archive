@@ -239,22 +239,24 @@ right of the page
   * Title may overlap with the main image
   * Main story text wraps around everything else
 
-That design can be represented with the following element structure for the page:
+The design can be implemented like this:
 
 <code>
 <style>
   .page { display:grid; grid-columns:(1fr)[5]; grid-rows:(auto)[2] 1fr; }
   .figures { grid-column-span:5; display:flexbox; flex-flow:reverse; z-index:1; }
-  .title { grid-row:1; flow-from:title; z-index:2;}
-  .subtitle { grid-row:2; flow-from:subtitle; z-index:2; }
-  .sidebar { grid-row:5; grid-column: flow-from:sidebar; width:8em; z-index:2; }
+  .figures > * { wrap-flow:both; }
+  .title { grid-row:1; flow-from:title; z-index:2; wrap-through:none;}
+  .subtitle { grid-row:2; flow-from:subtitle; z-index:2; wrap-through:none;}
+  .sidebar { grid-row:3; grid-column:5; grid-row-align:end; grid-column-align:end; z-index:2; 
+             flow-from:sidebar; width:8em; wrap-flow:both;}
   .story { grid-row: grid-column-span:4; flow-from:story; z-index:0; }
 </style>
 
 <div style="page">
   <div class="figures">
     <img src="imgMain.jpg" style="width:66%;"></div>
-    <img src="img1.jpg" style="min-width:200px;"></div>
+    <img src="img1.jpg" style="min-width:200px; grid-row-align:end;"></div>
   </div>
   <div class="title"></div>
   <div class="subtitle"></div>
