@@ -235,13 +235,32 @@ F or example, the first page of this sample article has the following design dec
  * The page is built on  a 5-column grid
   * Main image is 66% width of the page and whatever height is derived from its aspect ratio. It is place at  top
 right of the page
-  * Secondary image takes the rest of the page width, preserves its aspect ratio and placed at bottom left of the page
+  * Secondary image takes the rest of the page width, it preserves its aspect ratio and placed at bottom left of the page
   * Title may overlap with the main image
   * Main story text wraps around everything else
 
 
-  TODO Page view, UI, page generation is done in script  
+<code>
+<style>
+  .page { display:grid; grid-columns:(1fr)[5]; grid-rows:(auto)[2] 1fr; }
+  .figures { grid-column-span:5; display:flexbox; flex-flow:reverse; z-index:1; }
+  .title { grid-row:1; flow-from:title; z-index:2;}
+  .subtitle { grid-row:2; flow-from:subtitle; z-index:2; }
+  .sidebar { grid-row:5; grid-column: flow-from:sidebar; width:8em; z-index:2; }
+  .story { grid-row: grid-column-span:4; flow-from:story; z-index:0; }
+</style>
 
+<div style="page">
+  <div class="figures">
+    <img src="imgMain.jpg" style="width:66%;"></div>
+    <img src="img1.jpg" style="min-width:200px;"></div>
+  </div>
+  <div class="title"></div>
+  <div class="subtitle"></div>
+  <div class="sidebar"></div>  
+  <div class="story"></div>
+</div>
+</code>
 ====Ideas====
 //**If** it is 
 possible to achieve same results with further extensions of 'overflow:paged', ideas should go here//
