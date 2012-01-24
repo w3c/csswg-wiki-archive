@@ -1,6 +1,6 @@
 ====== CSS3-Regions Scope ======
 
-===== Markup Clutter =====
+===== Generating Regions =====
 
 The issue of using region divs in HTML markup has been around since the initial presentation to the CSS WG ([[http://lists.w3.org/Archives/Public/www-style/2011Mar/0189.html|early feedback]]). Everyone seems to agree that there should be additional mechanisms to create stylable boxes in the render tree from CSS itself ([[http://wiki.csswg.org/ideas/pseudo-elements|pseudo-elements]]). Regions is not the only specification that could benefit from this addition to CSS.
 
@@ -8,7 +8,7 @@ The question is whether Regions can progress before settling on a new box or slo
 
 As it is, Regions can be used effectively with JavaScript. Perhaps the regions spec should use JavaScript instead of HTML markup to provide better examples of use?
 
-=== Decision on Markup Clutter ===
+=== Decision on Generating Regions ===
 
   - Is a new box-generation mechanism required for css3-regions to progress?
     - If yes, does it belong
