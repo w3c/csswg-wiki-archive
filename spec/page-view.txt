@@ -239,6 +239,7 @@ right of the page
   * Title may overlap with the main image
   * Main story text wraps around everything else
 
+That design can be represented with the following element structure for the page:
 
 <code>
 <style>
