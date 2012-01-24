@@ -99,24 +99,33 @@ To achieve that, pages and paged viewer need exposure in styles and OM
 
 ====Proposals====
 
-**Control default UI with 'overflow' property** (([[http://dev.w3.org/csswg/css3-gcpm/#paged-presentations|GCPM - ED]]))
-  * overflow-style:<existing values>|paged-x|paged-y|paged-x-controls|paged-y-controls
+===Control default UI with 'overflow' property (([[http://dev.w3.org/csswg/css3-gcpm/#paged-presentations|GCPM - ED]]))===
+  * **overflow-style**:<existing values>|paged-x|paged-y|paged-x-controls|paged-y-controls
 
-Example:
+**Example**
+"paged-x" layout adds overflow pages along X axis. Custom page UI needs to scroll to the appropriate position to show each page
 <code>
-  .pager { overflow:paged-x; }
+  .pager { overflow:hidden; }
+  .pages { overflow:paged-x; }
   <div class="pageview">
     <div class="toolbar">
-      <button onclick="PrevPage()">previous</button>
-      <button onclick="NextPage()">next</button>
+      <button onclick="prevPage()">previous</button>
+      <button onclick="nextPage()">next</button>
       ...
     </div>
-    <div class="pages">
-      <iframe class="pager" src="content.html"></iframe>
+    <div class="pager">
+      <iframe class="pages" src="content.html"></iframe>
     </div>
   </div>
+  <script>
+    function nextPage() {
+      var nextPageX = pager.scrollLeft + pager.offsetWidth;
+      if (nextPageX < pager.scrollWidth) {
+        pager.scrollLeft = nextPageX;
+      }
+    }
+  </script>
 </code>
-
 ====Ideas====
 ===Paged View DOM===
 //There are no formal proposals on OM for overflow:paged at this time. Note that API is similar to what regions expose for same purposes//
