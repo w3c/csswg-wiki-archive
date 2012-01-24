@@ -130,7 +130,11 @@ Example:
 ===Page View DOM===
 //There are no formal proposals on OM for overflow:paged at this time.//
 
-To support custom pagination UI, overlfow:paged needs to expose equivalent of offsetTop/offsetLeft/offsetHeight/offsetWidth/srollTop/scrollHeight (which are used for cusotm control of scrollable elements)
+To support custom pagination UI, overlfow:paged needs to expose equivalent of offsetTop/offsetLeft/offsetHeight/offsetWidth/srollTop/scrollHeight (which are used for cusotm control of scrollable elements).
+
+If this approach is taken, the API will have to include the following members, or equivalent:
+
+**interface PagedView** -- implemented on HTMLElement (and maybe on HTMLDocument). Alternatively all members are exposed directly on element (that would match scope of scroll API)
 
 **Element.pageCount** -- get number of pages
 This should wait synchronously for pagination to be completed, if needed, following the patter of 'offsetHeight' etc. (which always return correct value, forcing synchronous layout)
