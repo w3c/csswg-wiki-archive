@@ -224,6 +224,8 @@ The user reads the magazine in a reader application, with same options for page 
 
 {{:spec:magazine2.png}}
 
+**TODO:** Add an example of template with columns, floating image, pullquote
+
 **Proposals:**
   * css3-regions module
   * Page view, UI, page generation is done in script  
