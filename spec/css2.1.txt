@@ -11,7 +11,7 @@ Mailing list sweeps:
   * Up to 2011-01-07 – fantasai, arronei
   * From 2011-05-01 to 2012-01-15 (and ongoing) - antonp
 
-TODO: perform mailing list sweep for Jan to April 2011; perform sweep for 2010 specifically looking for items marked for consideration in errata; comprehensively review this wiki page to ensure that errata items are captured and moved to Bugzilla; file a couple of tables issues encountered in the period Nov 2011 onwards, once deciphered (antonp); 
+TODO: perform mailing list sweep for Jan to April 2011; perform sweep for 2010 specifically looking for items marked for consideration in errata; comprehensively review this wiki page to ensure that errata items are captured and moved to Bugzilla (antonp).
 
 ===== Current Issues =====
 
@@ -247,7 +247,7 @@ Misfiled. See Issue 192.
 ==== Issue 225 ====
   ;Summary : Auto height calculation rules confused about margin collapsing
   ;URL : http://lists.w3.org/Archives/Public/www-style/2010Aug/0108.html
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Apr/0160.html
+  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Apr/0160.html (first part)
   ;Status : Open. =Bert= Edit. =Anton= Review.
 
 ==== Issue 226 ====
@@ -910,7 +910,7 @@ The following are known problems in the [[http://www.w3.org/TR/2009/CR-CSS2-2009
   ;Testcase : Delete c61-phys-len-000.xht ; 96dpi assumption is made in many testcases doesn't need its own at this point.
 
 ==== Issue 150 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0041.html
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2010Feb/0041.html (Issue 6)
   ;Summary : Change "Every CSS2.1 property" to "Every CSS property" in 4.1.8
   ;Resolution : Assumed editorial.
   ;Status : Closed.
@@ -1487,7 +1487,7 @@ Duplicate of Issue 73
 
 ==== Issue 184 ====
   ;Summary : Unclear that pseudo-elements are considered a subclass of elements.
-  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0438.html
+  ;URI : http://lists.w3.org/Archives/Public/www-style/2010Jul/0438.html (Issue 1)
   ;Proposal : Add "Pseudo-elements behave just like real elements in CSS with the exceptions described below and _elsewhere_<link to section 12.1>." to 5.12
   ;Resolution : Proposal accepted.
   ;Status : Closed.
