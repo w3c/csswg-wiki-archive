@@ -244,8 +244,6 @@ Same content may end up on different pages, order of content may change, and con
 
 <html><div style="clear:both"></div></html>
 
-**TODO:** Add an example of template with columns, floating image, pullquote
-
 **Proposals:**
   * Need a proposal. 
   * [[http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml | IDPF Page Templates Proposal]] has a range of ideas, to converge with what is developing in recent discussions.
