@@ -128,7 +128,7 @@ Example:
 
 ====Ideas====
 ===Paged View DOM===
-//There are no formal proposals on OM for overflow:paged at this time.//
+//There are no formal proposals on OM for overflow:paged at this time. Note that API is similar to what regions expose for same purposes//
 
 To support custom pagination UI, overlfow:paged needs to expose equivalent of offsetTop/offsetLeft/offsetHeight/offsetWidth/srollTop/scrollHeight (which are used for cusotm control of scrollable elements).
 
