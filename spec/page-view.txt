@@ -129,26 +129,22 @@ To achieve that, pages and paged viewer need exposure in styles and OM
 </code>
 ====Ideas====
 ===Paged View DOM===
-//There are no formal proposals on OM for overflow:paged at this time. Note that API is similar to what regions expose for same purposes//
+//There are no formal proposals on DOM for overflow:paged at this time. If it is added, it should be similar what regions expose for same purposes//
 
-To support custom pagination UI, overlfow:paged needs to expose equivalent of offsetTop/offsetLeft/offsetHeight/offsetWidth/srollTop/scrollHeight (which are used for cusotm control of scrollable elements).
+//The API should include the following members, or equivalent://
 
-//The API will have to include the following members, or equivalent://
-
-  * **interface PagedView** -- implemented on HTMLElement (and maybe on HTMLDocument). Alternatively all members are exposed directly on element (that would match scope of scroll API)
-  * **PagedView Element.pagedView** -- paged view of element's content. NULL if not applicable
-  * **int PagedView.pageCount** -- get number of pages
+  * interface **PagedView** -- implemented on HTMLElement (and maybe on HTMLDocument). Alternatively all members are exposed directly on element (that would match scope of scroll API)
+  * PagedView Element.**pagedView** -- paged view of element's content. NULL if not applicable
+  * int PagedView.**pageCount** -- get number of pages
 This should wait synchronously for content pagination to be completed, if needed, following the patter of 'offsetHeight' etc. (which always return correct value, forcing synchronous layout)
-  * **void PagedView.showPage(pageNumber)**
-  * **int[] PagedView.getPagesFromContentNode(Node contentNode)** -- get page numbers for pages that show any portion of given node
-  * **Rect[] PagedView.rectsOnPage(pageNumber, Node contentnode)** -- get bounding rects of content rendering on specific page
-  * **Range[] PagedView.getContentRangesOnPage(pageNumber)** -- range(s) of content that falls on that page
-  * **Node elementFromPoint(pageNumber, x, y)** -- element under the point, in coordinates of the page
+  * void PagedView.**showPage**(pageNumber)
+  * int[] PagedView.**getPagesFromContentNode**(Node contentNode) -- get page numbers for pages that show any portion of given node
+  * Rect[] PagedView.**rectsOnPage**(pageNumber, Node contentnode) -- get bounding rects of content rendering on specific page
+  * Range[] PagedView.**getContentRangesOnPage**(pageNumber) -- range(s) of content that falls on that page
+  * Node **elementFromPoint**(pageNumber, x, y) -- element under the point, in coordinates of the page
 
-//**Events?** -- should there be an event for layout change? maybe not, unlike regions: all content is inside the viewer element, content change events should be enough//
+//**Events** -- does it needan event for layout change? Probably not: unlike regions, all content is inside the viewer element, content change events should be enough//
 
-**Example**
-  TODO: example of script with page view API
 ===== Page view with custom pages =====
 
 **Goal:** Apply content formatting to specific pages and position pages on screen
