@@ -226,9 +226,12 @@ The user reads the magazine in a reader application, with same options for page 
 
 **TODO:** Add an example of template with columns, floating image, pullquote
 
-**Proposals:**
-  * css3-regions module
-  * Page view, UI, page generation is done in script  
+====Proposals====
+===[css3-regions]===
+  TODO Page view, UI, page generation is done in script  
+
+====Ideas====
+//If it is possible to achieve same results with further extensions of 'overflow:paged', ideas should go here//
 
 **Issues:** 
   * No declarative way to generated additional regions or pages is yet defined
