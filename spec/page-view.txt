@@ -186,16 +186,15 @@ posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet c
   * left page has green text, right page has blue text
   * even and odd pages are positioned differently to create a two-page view
 
-**Option 1:** page selectors
+====Ideas====
+**Page selectors**
 
   #paged { width:6.5in; height:9in; overflow:paged; }
   #paged * { border: 1px solid black; }
   #paged::nth-child(even) { position:relative; left:<page-width> } /**
 
 
-**Option 2:** page OM
-
-//**TODO -- work in progress here**//
+**Page View DOM**
 
 ===== Magazine viewer =====
 
