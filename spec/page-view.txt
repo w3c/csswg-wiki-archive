@@ -206,6 +206,8 @@ In addition to API for page display, DOM for custom paged view needs writable ac
 
 Content properties can be set by detecting range(s) of content on page, then traversing content and applying properties. Of course care has to be taken as it can't be assumed that modified content will still fit the same page.
 
+**Example:**
+  TODO
 ===== Magazine viewer =====
 
 **Goal:** enable complex page design, with multiple content flows and graphics
