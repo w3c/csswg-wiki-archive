@@ -152,9 +152,8 @@ Alignment via margins doesn't really add new ways of alignment that were not pos
 
   ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0159.html
   ;Status : Resolved at Seattle F2F to converge both flexbox and grid cell alignment to 2009 spec -- auto margins work, if no auto margins before/after/stretch have effect
-
-//**Unresolved:** editors are no longer in consensus on margin:auto; issue needs a new discussion and resolution// http://lists.w3.org/Archives/Public/www-style/2011Dec/thread.html#msg97
   ;Action : include text in flex-align definition that explains that auto margins are handled before 'flex-align' value is considered. Details can be in layout algorithm or elaborate description as in 2009 spec (http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/#alignment)
+**Action completed**
 
 ==== Issue 4 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0271.html
