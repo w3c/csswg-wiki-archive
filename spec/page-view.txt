@@ -282,7 +282,7 @@ Same content may end up on different pages, order of content may change, and con
 
 ====Proposals====
 ===[css3-regions] with script===
-Programmatic solution has complete freedom in representation of page templates -- it can generate templates from scratch or load from any format - HTML, XML, JSCON etc.
+Programmatic solution has complete freedom in representation of page templates -- it can generate templates from scratch or load from any format - HTML, XML, JSON etc.
 
 Selection algorithm also have no restrictions. Selection of specific template can be based on resolution, availability of specific content.
 
