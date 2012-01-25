@@ -17,6 +17,12 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
 [[Flexbox 2009-2011 spec property mapping]]
 ===== Actions =====
 ===== Open Issues =====
+==== Issue 18 ====
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Dec/thread.html#msg97
+  ;Summary : combination of margins and item-level flex-align is redundant and is not supporting common case where all items have same alignment.
+  
+  ;Proposal : two properties 'flex-align' and 'flex-item-align'
+Behavior of auto margins in cross direction is TBD. Options are (1) auto margions are set to zero or (2) auto margins behave as horizontal margins in normal flow (align or center)
 ===== Resolved Issues =====
 
 ==== Issue 1 ====
