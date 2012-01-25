@@ -225,7 +225,7 @@ Floats are also out-of-flow, but children of flexboxes can't float. Issue:(ISSUE
 Flexbox literally reorders its children for all purposes, naming is appropriate
 http://lists.w3.org/Archives/Public/www-style/2011Aug/0217.html
 
-  ;Status : Open
+  ;Status : Resolved
 
 ==== Issue 9 ====
   ;URL : //todo//
