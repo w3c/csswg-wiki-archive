@@ -367,7 +367,13 @@ If "page" is an element or pseudo-element generated from template and rendered i
 **Proposal:**
 //TODO. Named breaks have been discussed, add a specific proposal here//
 
+===== Printing generated pages =====
+In many of the page view situation, it is reasonable to expect that user would wish to print the content that is already preseneted in paged manner. They may prefer to either print the exact pages that they see on screen, or re-generate adaptive content for print. Either way, they will be printing content of page view, which may not be the root element of HTML document.
+
+Selection of paged content for printing may have to be implemented directly in UA. 
+
+Running script before print (to generate a new set of pages for print media) -- may need an event on HTMLDocument (and not sure it is a good idea).
+
 ====== Issues ======
-Further issues (not addressed in use cases):
   * Paged view doesn't automatically mean "paged media" (which is commonly used as "for printing" and can't be repurposed). Should there be a way to declare that a paginating viewer (e.g. iframe) needs to render the same visuals as what would be printed?
   * Media queries for paged view/columns/regions?
