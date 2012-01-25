@@ -17,7 +17,7 @@ The css3-regions spec currently does not do enough to address the problem of hav
 
 Overflow can be addressed effectively with JavaScript. The spec intentionally provides enough OM for a script to detect overflow and either resize regions or create sets of regions from a page template.
 
-Several solutions or improvements have been suggested to allow a region chain to fit flow content without resorting to scripting or the region-overflow property. 
+Several solutions or improvements have been suggested to allow a region chain to fit flow content without resorting to scripting or overflow. 
 
 A. Supporting height:auto on regions. Designs with no other region-generating mechanism can end with an height:auto region and be assured that all of the content will display. (This has been investigated before and issues with circular height calculations have been raised - [[http://www.w3.org/Style/CSS/Tracker/actions/351|Action-351]])
 
