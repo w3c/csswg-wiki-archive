@@ -15,7 +15,7 @@ The question is whether Regions can progress before settling on a new box or slo
 
 The css3-regions spec currently does not do enough to address the problem of having more content than will fit in a region chain. While the last region in a chain can display overflow, that is not sufficient. What needs to be added to the regions spec to deal with this issue?
 
-As above, overflow can be addressed effectively with JavaScript. The spec intentionally provides enough OM for a script to detect overflow and either resize regions or create sets of regions from a page template.
+Overflow can be addressed effectively with JavaScript. The spec intentionally provides enough OM for a script to detect overflow and either resize regions or create sets of regions from a page template.
 
 Several solutions or improvements have been suggested to allow a region chain to fit flow content without resorting to scripting or the region-overflow property. 
 
