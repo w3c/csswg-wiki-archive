@@ -46,6 +46,7 @@ Behavior of auto margins in cross direction is TBD. Options are (1) auto margion
 or
   flex: [ <pos-flex> <neg-flex>? ]? || <preferred-size>?
 <preferred-size> can be defined to have default of 0 and 'auto' value can mean "use value of width or height property"  
+
 ===== Resolved Issues =====
 
 ==== Issue 1 ====
