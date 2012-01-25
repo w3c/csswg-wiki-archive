@@ -365,8 +365,7 @@ If "page" is an element or pseudo-element generated from template and rendered i
 //Note that this may or may not be an issue, depending on how pages are built.//
 
 **Proposal:**
-
-**Issues:** 
+//TODO. Named breaks have been discussed, add a specific proposal here//
 
 ====== Issues ======
 Further issues (not addressed in use cases):
