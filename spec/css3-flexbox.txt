@@ -15,7 +15,9 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
 
 ===== Old/New Syntax Property Mapping =====
 [[Flexbox 2009-2011 spec property mapping]]
-===== Issues =====
+===== Actions =====
+===== Open Issues =====
+===== Resolved Issues =====
 
 ==== Issue 1 ====
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/thread.html#msg37
