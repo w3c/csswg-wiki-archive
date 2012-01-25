@@ -39,8 +39,6 @@ or
 </code>
 ('balance') is not included into the spec yet. Can keep it as an issue until there is a strong need for it.
 
-  ;Action : Alex: propose text for adding spec section on multiline.
-
 ==== Issue 2 ====
   ;URL : //todo//
   ;Summary : flex-direction property doesn't extend to more values needed for multiline flexbox
