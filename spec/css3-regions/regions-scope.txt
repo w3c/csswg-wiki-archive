@@ -4,20 +4,13 @@
 
 The issue of using region divs in HTML markup has been around since the initial presentation to the CSS WG ([[http://lists.w3.org/Archives/Public/www-style/2011Mar/0189.html|early feedback]]). Everyone seems to agree that there should be additional mechanisms to create stylable boxes in the render tree from CSS itself ([[http://wiki.csswg.org/ideas/pseudo-elements|pseudo-elements]]). Regions is not the only specification that could benefit from this addition to CSS.
 
-The question is whether Regions can progress before settling on a new box or slot generation mechanism. 
-
-As it is, Regions can be used effectively with JavaScript. Perhaps the regions spec should use JavaScript instead of HTML markup to provide better examples of use?
+The question is whether Regions can progress before settling on a new box or slot generation mechanism.
 
 === Decision on Generating Regions ===
 
-  - Is a new box-generation mechanism required for css3-regions to progress?
-    - If yes, does it belong
-      - in css3-regions, or 
-      - a separate specification that css3-regions must reference?
-    - If no, how should css3-regions examples create regions?
-      - Keep the current div-based examples
-      - Change examples to use JavaScript
-
+  - Is a new box-generation mechanism required for css3-regions to progress? If so, does it belong
+    - in css3-regions, or 
+    - a separate specification that css3-regions must reference?
 ===== Overset Text =====
 
 The css3-regions spec currently does not do enough to address the problem of having more content than will fit in a region chain. While the last region in a chain can display overflow, that is not sufficient. What needs to be added to the regions spec to deal with this issue?
