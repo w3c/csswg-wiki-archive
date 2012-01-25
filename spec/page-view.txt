@@ -223,9 +223,8 @@ Each individual page can have unique design and can include content from multipl
 
 //Note that at this point we don't make assumptions on how exactly each "page" is constructed. It may be automatically generated with some adaptive mechanism or it may be manually put together by a design team with print design experience. That distinction will be important for next use case, here we are looking at ways to represent the layout//
 
-**TODO:** Add an example of template with columns, floating image, pullquote
 
- ====Proposals====
+====Proposals====
 ===[css3-regions] with script===
 
 The design of the viewer with custom controls is same as in previous examples. Difference is at the lowest level, where navigation to each page has to be implemented by managing a collectoin of elements, pseudo-elements or any other visual capable to represent an individual page. At this time pages as elements is the only available option.
