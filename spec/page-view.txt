@@ -140,7 +140,7 @@ This should wait synchronously for content pagination to be completed, if needed
   * Node **elementFromPoint**(pageNumber, x, y) -- element under the point, in coordinates of the page
   * event **onpagechange** -- fired when current page changes
   
-===== Page view with custom pages =====
+===== Paged view with custom pages =====
 
 **Goal:** Apply content formatting to specific pages and position pages on screen
 
