@@ -104,10 +104,9 @@ To achieve that, pages and paged viewer need exposure in styles and OM
 
 **Example**
 
-"paged-x" layout adds overflow pages along X axis. Custom page UI needs to scroll to the appropriate position to show each page
+"paged-x" layout adds overflow pages along X axis. Custom page UI controls which page is displayed in pagination control
 <code>
-  .pager { overflow:hidden; }
-  .pages { overflow:paged-x; }
+  .pager { overflow:paged-x; }
   <div class="pageview">
     <div class="toolbar">
       <button onclick="prevPage()">previous</button>
@@ -120,9 +119,8 @@ To achieve that, pages and paged viewer need exposure in styles and OM
   </div>
   <script>
     function nextPage() {
-      var nextPageX = pager.scrollLeft + pager.offsetWidth;
-      if (nextPageX < pager.scrollWidth) {
-        pager.scrollLeft = nextPageX;
+      if (pager.currentPage < pager.pageCount) {
+        pager.currentPage++;
       }
     }
   </script>
