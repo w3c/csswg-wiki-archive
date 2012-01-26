@@ -51,7 +51,7 @@ This should put the whole document in paged view. If UA is also in full screen m
 Presents content of a separate document in paged view. Can be used to build a page viewer with custom UI.
 
 
-===== Page view with custom controls =====
+===== Paged view with custom controls =====
 
 **Goal:** Add custom controls to paged view.
 
