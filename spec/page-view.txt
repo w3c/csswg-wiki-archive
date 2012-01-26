@@ -40,7 +40,7 @@ Element with "overflow:paged" shows one page of content at a time.
 
 All pages are of the same size - the size of content area of the element.
 
-UI is provided by UA, it may be jestures on touch device, or page navigation controls (perhaps similar to controls on <video> element)
+UI is provided by UA, it may be gestures on touch device, or page navigation controls (perhaps similar to controls on <video> element)
 
 **Example:**
   html { width:100%; height:100%; overflow:paged }
