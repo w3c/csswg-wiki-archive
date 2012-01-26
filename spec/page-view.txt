@@ -81,13 +81,13 @@ Ideally, UA should provide well designed, usable and accessible controls for pag
 </div>
 </html>
 
-Custom controls will activate custom script, which in some cases will need to access pagination results or modify the view.
+Custom controls will activate a custom script, which in some cases will need to access pagination results or modify the view.
 
 Implementation of custom page UI needs some or all of the following:
   * Modify or replace the default pagination UI
   * Know number of pages
   * Show a particular page
-  * Know if everything fits (in automatic page layout, there will be alwayse enough pages generated, but there may be unprocessed content due to timing or additional constraints)
+  * Know if everything fits (in automatic page layout, there will be always enough pages generated, but there may be unprocessed content due to timing or additional constraints)
   * Determine what content is in a given page (a potentially disjoint range of content)
   * Determine on what page or pages a given range of content is
   * Determine if content of interest didn't fit on any page
