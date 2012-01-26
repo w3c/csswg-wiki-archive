@@ -127,9 +127,7 @@ To achieve that, pages and paged viewer need exposure in styles and OM
 </code>
 ====Ideas====
 ===Paged View DOM===
-//There are no formal proposals on DOM for overflow:paged at this time. If it is added, it should be similar what regions expose for same purposes//
-
-//The API should include the following members, or equivalent://
+//Some API as in [[http://dev.opera.com/articles/view/opera-reader-a-new-way-to-read-the-web/|Opera Reader]], other added as it seems needed for completness. Please correct if there are newer proposals//
 
   * interface **PagedView** -- implemented on HTMLElement (and maybe on HTMLDocument). Alternatively all members are exposed directly on element (that would match scope of scroll API)
   * PagedView Element.**pagedView** -- paged view of element's content. NULL if not applicable
@@ -140,9 +138,8 @@ This should wait synchronously for content pagination to be completed, if needed
   * Rect[] PagedView.**rectsOnPage**(pageNumber, Node contentnode) -- get bounding rects of content rendering on specific page
   * Range[] PagedView.**getContentRangesOnPage**(pageNumber) -- range(s) of content that falls on that page
   * Node **elementFromPoint**(pageNumber, x, y) -- element under the point, in coordinates of the page
-
-//**Events** -- does it needan event for layout change? Probably not: unlike regions, all content is inside the viewer element, content change events should be enough//
-
+  * event **onpagechange** -- fired when current page changes
+  
 ===== Page view with custom pages =====
 
 **Goal:** Apply content formatting to specific pages and position pages on screen
