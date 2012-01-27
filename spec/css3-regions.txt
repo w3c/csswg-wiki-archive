@@ -76,7 +76,7 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 [[http://www.w3.org/Style/CSS/Tracker/actions/376|ACTION 376]]
   * <html><span style="color:#6c6;font-weight:bold;">Alex</span></html>: need new proposal about the behavior of iframe or a different way to create named flow from url
 
-====== Completed or Duplicated Actions ======
+===== Completed or Duplicated Actions =====
 
 
 [[http://www.w3.org/Style/CSS/Tracker/actions/350|ACTION 350]]
