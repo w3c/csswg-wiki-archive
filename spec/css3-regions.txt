@@ -200,7 +200,36 @@ See Issue 1 below.
    ;URL : https://www.w3.org/Bugs/Public/show_bug.cgi?id=15190
 
 
+==== Issue 24: List of region style properties ====
 
+   ;URL : http://www.w3.org/Style/CSS/Tracker/actions/376
+   ;Description : It should be possible to create a named flow directly from content of a separate document. Previously it was defined that <iframe style="flow-into:flowname"> its content into the flow, rather than itself. That special case was deemed inappropriate and removed from the spec with action (Alex) to propose a different syntax.
+   ;Option 1 : two ‘flow-into’ properties:
+<code> 
+  <iframe style="flow-into:flow1"> --  add iframe to flow as a replaced element
+  <iframe style="flow-content-into:flow1"> --  add content of the iframe to flow
+</code>
+   ;Option 2 : a separate property to specify what to add to flow, with the same effect:
+<code> 
+  <iframe style="flow-into:flow1; flow-source-type:element"> --  add iframe to flow as a replaced element
+  <iframe style="flow-into:flow1; flow-source-type:content"> --  add content of the iframe to flow
+</code>
+   ;Option 3 : use a rule
+  @flow flow1 "story1.html";
+  @flow flow2 url("story1.html");
+Note that with this approach, it is not possible to concatenate content from multiple urls in one flow (which may be a good thing, concatenation is not an expected use pattern for flow indirection feature.
+
+ISSUE: what will OM for programmatic flow source control look like?
+   ;Option 4 : <link> element   
+  <link rel="namedflow" type="text/html-sandboxed" title="flow1" href="article1.html" />
+
+The effect of loading the document via link and then sending content into a named flow should be identical to loading in an iframe and sending iframe content into a named flow with name specified in 'title', including all security restrictions and sandboxing (if "type=text/html-sandboxed").
+
+Concatenating multiple external documents in one named flow is difficult or impossible, so external flow should allow only one document per named flow. If multiple flow links have same title, the first one should be used.
+
+ISSUE: requires a change in HTML5
+   ;Proposal : //TODO//
+   ;Status : Open     
 ===== Issues Resolved by Editors =====
 
 ==== Issue 21: When does a flow get created? ====
