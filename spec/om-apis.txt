@@ -1,6 +1,6 @@
 ===== Use Strings, not Numeric Constants =====
 
-When an API needs to take or return an enumerated value, many older APIs follow the C convention and use numeric constants, stored on some interface object.  Modern API practice is instead to use strings directly.
+When an API needs to take or return an enumerated value, many older APIs follow the C convention and use numeric constants, stored on some interface object.  Modern API practice is instead to use strings directly.  See, for example, the ''responseType'' property used in XHR.
 
 An anti-example can be found in CSSTransformValue, which returns a list of transforms that expose an ''operationType'' property.  This is currently specified to contain an integer, with the intent that authors testing the value will use the constants like ''CSSTransformValue.CSS_TRANSLATE3D''.
 
