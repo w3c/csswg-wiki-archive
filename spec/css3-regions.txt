@@ -209,6 +209,8 @@ See Issue 1 below.
   <iframe style="flow-into:flow1"> --  add iframe to flow as a replaced element
   <iframe style="flow-content-into:flow1"> --  add content of the iframe to flow
 </code>
+
+ISSUE: that would apply to all elements, sometimes useful, but potentially with more special cases to deal with.
    ;Option 2 : a separate property to specify what to add to flow, with the same effect:
 <code> 
   <iframe style="flow-into:flow1; flow-source-type:element"> --  add iframe to flow as a replaced element
