@@ -73,6 +73,8 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
     * ✔ agreed to add event on changes to regionOverflow and flowRanges
 ===== Action Items =====
 
+[[http://www.w3.org/Style/CSS/Tracker/actions/376|ACTION 376]]
+  * <html><span style="color:#6c6;font-weight:bold;">Alex</span></html>: need new proposal about the behavior of iframe or a different way to create named flow from url
 
 ====== Completed or Duplicated Actions ======
 
