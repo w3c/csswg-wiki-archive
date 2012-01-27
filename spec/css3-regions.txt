@@ -382,7 +382,6 @@ Markup TBD
 It is the smallest change and it achieves the goals of content separation; security issues appear to be understoood and require little new work to load/manage the separate content.
 
 However using a separate, new mechanism for content indirection (e.g. a link) may be cleaner
-  
    ;Resolution : ACTION-376 - Remove text about special iframe behavior and alex to write proposal about the behavior of iframe [on Alex Mogilevsky - due 2011-11-06]
    
 
