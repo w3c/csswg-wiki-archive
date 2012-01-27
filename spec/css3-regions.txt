@@ -200,7 +200,7 @@ See Issue 1 below.
    ;URL : https://www.w3.org/Bugs/Public/show_bug.cgi?id=15190
 
 
-==== Issue 24: List of region style properties ====
+==== Issue 24: Creating a named flow from external resource ====
 
    ;URL : http://www.w3.org/Style/CSS/Tracker/actions/376
    ;Description : It should be possible to create a named flow directly from content of a separate document. Previously it was defined that <iframe style="flow-into:flowname"> its content into the flow, rather than itself. That special case was deemed inappropriate and removed from the spec with action (Alex) to propose a different syntax.
