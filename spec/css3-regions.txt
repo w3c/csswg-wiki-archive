@@ -225,10 +225,7 @@ ISSUE: what will OM for programmatic flow source control look like?
 
 This would almost work, but the definition of seamless iframe includes being transparent for DOM and styles, which is not what is expected from external flow.
 
-It may be possible to add another attribute to HTML5 iframe for style boundaries.
-
-Also, seamless iframe status is uncertain.
-
+It will work *if* HTML5 iframe adds an option to isolate its DOM (a new attribute - 'noseamlessdom' or 'isolated')
    ;Option 5 : <link> element   
 <code>
   <link rel="namedflow" type="text/html-sandboxed" title="flow1" href="article1.html" />
