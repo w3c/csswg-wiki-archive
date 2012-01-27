@@ -21,7 +21,10 @@ Room: TBD
   * CSS3 Backgrounds and Borders republish CR
   * CSS3 Values and Units LCWD?
   * CSS Image Values: LC status. CR?
-  * CSS Regions: resolve feedback on scope and other issues
+  * CSS Regions: 
+    * short proposal on representing issues and binding to Bugzilla
+    * review [[https://www.w3.org/Bugs/Public/buglist.cgi?product=CSS&component=CSS%20Regions&resolution=---|pending issues]]
+    * resolve feedback on scope
   * CSS Exclusion: spec scope, shape extraction model, shape syntax...
   * CSS Flexbox: open issues and feedback, LC?
   * CSS Fragmentation: FPWD?
