@@ -221,8 +221,9 @@ Note that with this approach, it is not possible to concatenate content from mul
 
 ISSUE: what will OM for programmatic flow source control look like?
    ;Option 4 : <link> element   
+<code>
   <link rel="namedflow" type="text/html-sandboxed" title="flow1" href="article1.html" />
-
+</code>
 The effect of loading the document via link and then sending content into a named flow should be identical to loading in an iframe and sending iframe content into a named flow with name specified in 'title', including all security restrictions and sandboxing (if "type=text/html-sandboxed").
 
 Concatenating multiple external documents in one named flow is difficult or impossible, so external flow should allow only one document per named flow. If multiple flow links have same title, the first one should be used.
@@ -230,6 +231,7 @@ Concatenating multiple external documents in one named flow is difficult or impo
 ISSUE: requires a change in HTML5
    ;Proposal : //TODO//
    ;Status : Open     
+   
 ===== Issues Resolved by Editors =====
 
 ==== Issue 21: When does a flow get created? ====
