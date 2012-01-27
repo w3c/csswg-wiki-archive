@@ -7,7 +7,7 @@ An anti-example can be found in CSSTransformValue, which returns a list of trans
 There are multiple problems with this:
   - it is much longer to type than a string like "translate3d"
   - the name of the constant is different than the name of the function it corresponds to, while a string can be the same.
-  - simply printing or storing the value reveals an opaque integer, which can't be translated back into a transform type without testing against every constant
+  - simply printing or storing the value reveals an opaque integer like ''13'', which can't be translated back into a transform type without testing against every constant
   - long experience shows that, given the choice of using a named constant or an integer, authors will end up using the integer form instead, often due to cargo-cult "speed improvements"
 
 Instead of code like:
