@@ -355,3 +355,9 @@ Code sample similar to [[ideas:css3-exclusions-use-cases#uc-2overlapping-exclusi
 {{:spec:css3-regions:simple_dropcap-1.png?600|}}
 
 Code sample similar to [[ideas:css3-exclusions-use-cases#uc-1simple-exclusion|Simple Exclusion]]
+
+==== Multi-lingual in parallel columns ====
+
+Pages showing multicolumn layout with two flows, one French and the other English text.
+
+See this real-life example of an airline magazine with english/french side by side. 
