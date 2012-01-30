@@ -237,6 +237,11 @@ The effect of loading the document via link and then sending content into a name
 Concatenating multiple external documents in one named flow is difficult or impossible, so external flow should allow only one document per named flow. If multiple flow links have same title, the first one should be used.
 
 ISSUE: requires a change in HTML5
+   ;Option 6 : 'content' property
+CSS3 generated content already has a way to include a file:
+  #source1 { content:url(article1.html); flow-into:flow1; }
+There is no requirement that HTML is supported as supported format in generated content (and there is no perecent either), but syntax would allow it.
+Of course this is equivalent to iether iframe or seamless iframe (depends on how it is defined), but options to control the behavior of included content are entirely in scope of CSS
    ;Proposal : //TODO//
    ;Status : Open     
    
