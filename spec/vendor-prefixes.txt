@@ -8,38 +8,61 @@ This is a collection of the latest thoughts towards policy/guidance for when to 
 
 There has been much discussion of vendor prefixes in both www-style and CSS working group face-to-face meetings, but nothing conclusive has been written up. Please feel free to research those www-style archives and CSS WG minutes (telcon, f2f) and add (with citation!) any conclusions here.
 
-===== simple guidance =====
+===== Simple guidance =====
 Simple straw proposal guidance. Terms per RFC2119 etc.
 
+In what follows the term “feature” refers to any of //property, value, at-rule, descriptor// and //unit//.
+
 ==== Working Draft features ====
-If you are implementing a property/value/@-rule feature which is only defined in a Working Draft (WD, including Last Call LCWD), your implementation:
+If you are implementing a feature which is only defined in a Working Draft (WD, including Last Call LCWD and Editor’s Draft ED), your implementation:
   * SHOULD ([[http://www.w3.org/TR/css-2010/#experimental|per CSS-snapshot-2010]]) use a vendor-specific prefix for the implementation of the feature
     * suggest this be changed to a MUST. - Tantek
   * MUST NOT support an unprefixed version of the feature
   * MUST NOT support a prefix specific to a third party for the feature
-  * MAY use a prefix specific to the W3C for the feature, //if// the CSS WG ever introduces one
-    * quite disputed, ''-draft-'', ''-wd-'', ''-w3c-'', ''-css-'' and ''-csswg-'' would be possible prefixes and they could be versioned – Crissov
-    * ''epub-'' should be mentioned here - Simon F.
+  * MAY use a prefix specific to the CSS WG for the feature, //if// one is ever introduced, e.g. ''-css-'' or ''-csswg-''
+    * disputed
+  * MAY use a prefix specific to the W3C for the feature, //if// one is ever introduced, e.g. ''-w3-'' or ''-w3c-''
+    * disputed
+  * MAY use a generic draft prefix, //if// one is ever introduced, e.g. ''-draft-'', ''-wd-'', ''-lc-'' or ''-ed-''
+    * disputed, could be versioned
 
 ==== Candidate Recommendation features ====
-If you are implementing a property/value/@-rule feature which is defined in a Candidate Recommendation or later (CR, PR, REC), your implementation:
+If you are implementing a feature which is defined in a Candidate Recommendation or later (CR, PR, REC), your implementation:
   * SHOULD ([[http://www.w3.org/TR/css-2010/#experimental|per CSS-snapshot-2010]]) support an unprefixed version of the feature
     * suggest this be changed to a MUST. - Tantek
   * MUST NOT use any vendor-specific prefix for the implementation of the feature
+  * SHOULD NOT retain older, incompatible implementations with vendor-specific prefix
+    * disputed, see also Transitions section
+
+==== W3C, but non-CSS features ====
+If you are implementing a feature which is defined in a mature W3C specification (CR, PR, REC), but not in CSS, your implementation:
+  * MAY use a vendor-specific prefix for the implementation of the feature
+    * disputed
+  * MAY use a prefix specific to the issuing WG or to the specification, e.g. ''-svg-''
+    * disputed
+  * MAY use a prefix specific to the W3C for the feature, //if// one is ever introduced, e.g. ''-w3-'' or ''-w3c-''
+    * disputed, also see WD section
+  * SHOULD NOT support an unprefixed version of the feature
+For non-mature specifications (ED, WD) adopt the convention for WDs.
+
 ==== Third-party features ====
-If you are implementing a property/value/@-rule feature which is defined in a mature non-W3C specification, your implementation:
+If you are implementing a feature which is defined in a mature non-W3C specification, but not in CSS, your implementation:
   * SHOULD use a prefix specific to the issuing body for the implementation of the feature, e.g. ''-epub-'' or ''-wap-''
+    * Third parties SHOULD define a prefix applicable for features in their specifications.
   * MAY use a vendor-specific prefix for the implementation of the feature
   * MUST NOT support an unprefixed version of the feature
 For non-mature specifications adopt the convention for WDs.
 
 ==== Internal features ====
-If you are implementing a property/value/@-rule feature which is intended for internal use only, your implementation:
+If you are implementing a feature which is intended for internal use only, your implementation:
   * MUST use a vendor-specific prefix for the implementation of the feature
+  * SHOULD limit the feature to local resources and then MAY make global support opt-in for users
+  * SHOULD NOT support a feature named the same (ignoring prefixes) as a feature in any W3C draft in a different sense
   * MUST NOT support an unprefixed version of the feature
 You should, however, consider proposing the feature to the CSS WG and then, if it is accepted, follow the convention for WDs.
+
 ==== Transitions ====
-If you implemented a property/value/@-rule feature with a vendor-specific prefix when it was only defined in a Working Draft, and the WD transitions to Candidate Recommendation, then your implementation:
+If you implemented a feature with a vendor-specific prefix when it was only defined in a Working Draft, and the WD transitions to Candidate Recommendation, then your implementation:
   * SHOULD support an un-prefixed version of the feature (this will help exit CR)
   * SHOULD consider dropping the vendor-specific prefixed version of the feature.
     * [[http://www.alistapart.com/articles/prefix-or-posthack/|Eric Meyer’s article on the topic at A List Apart]] raised a [[http://lists.w3.org/Archives/Public/www-style/2010Jul/0048.html|discussion at www-style]] in 2010
