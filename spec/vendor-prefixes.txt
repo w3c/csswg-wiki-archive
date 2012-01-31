@@ -36,15 +36,15 @@ If you are implementing a feature which is defined in a Candidate Recommendation
 
 ==== W3C, but non-CSS features ====
 If you are implementing a feature which is defined in a mature W3C specification (CR, PR, REC), but not in CSS, your implementation:
-  * MAY use a vendor-specific prefix for the implementation of the feature
-    * disputed
+  * SHOULD support an unprefixed version of the feature
+  * SHOULD NOT use a vendor-specific prefix for the implementation of the feature
+    * could be ‘must not’
   * MAY use a prefix specific to the issuing WG or to the specification, e.g. ''-svg-''
-    * disputed
-  * MAY use a prefix specific to the W3C for the feature, //if// one is ever introduced, e.g. ''-w3-'' or ''-w3c-''
-    * disputed, also see WD section
-  * SHOULD NOT support an unprefixed version of the feature
-    * disputed, existing implementations differ 
+    * disputed, may be useful in conflict situations
 For non-mature specifications (ED, WD) adopt the convention for WDs.
+
+W3C WGs try hard not to introduce incompatible features, but this is not guaranteed in all cases. The CSS version must take precedence in ambiguous cases.
+<note>These recommendations are under discussion as of 2012-02-01.</note>
 
 ==== Third-party features ====
 If you are implementing a feature which is defined in a mature non-W3C specification, but not in CSS, your implementation:
