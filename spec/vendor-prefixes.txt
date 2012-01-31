@@ -43,6 +43,7 @@ If you are implementing a feature which is defined in a mature W3C specification
   * MAY use a prefix specific to the W3C for the feature, //if// one is ever introduced, e.g. ''-w3-'' or ''-w3c-''
     * disputed, also see WD section
   * SHOULD NOT support an unprefixed version of the feature
+    * disputed, existing implementations differ 
 For non-mature specifications (ED, WD) adopt the convention for WDs.
 
 ==== Third-party features ====
