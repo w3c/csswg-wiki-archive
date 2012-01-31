@@ -31,6 +31,7 @@ Room: TBD
   * CSS3 Text - text-shadow - support for spread radius? (Supported in IE10)
   * Functional syntax, to comma or not to comma?
   * Decoration break behavior with Bi-di
+  * Animations/Transitions
 
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
