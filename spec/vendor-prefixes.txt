@@ -20,7 +20,7 @@ If you are implementing a feature which is only defined in a Working Draft (WD, 
   * MUST NOT support an unprefixed version of the feature
   * MUST NOT support a prefix specific to a third party for the feature
   * MAY use a prefix specific to the CSS WG for the feature, //if// one is ever introduced, e.g. ''-css-'' or ''-csswg-''
-    * disputed
+    * disputed, could include level, e.g. ''-css4-''
   * MAY use a prefix specific to the W3C for the feature, //if// one is ever introduced, e.g. ''-w3-'' or ''-w3c-''
     * disputed
   * MAY use a generic draft prefix, //if// one is ever introduced, e.g. ''-draft-'', ''-wd-'', ''-lc-'' or ''-ed-''
