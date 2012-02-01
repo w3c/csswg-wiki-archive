@@ -46,7 +46,7 @@ This section outlines active possibilities for future specs or notes
   * [[http://www.w3.org/Style/CSS/Tracker/products/33|CSS4 Values and Units]]
   * [[spec:css3-break|CSS Fragmentation Module Level 3]]
   * Pages related to content fragmentation, regions, exclusions, paged views etc:
-     * [[page-view|paged view]]
+     * [[spec:page-view|paged view]]
      * [[spec:page-specs|page specs]]
      * [[spec:css3-regions|regions]]
      * [[spec:css3-exclusions|exclusions]]
