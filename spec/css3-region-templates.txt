@@ -74,7 +74,7 @@ Since regions and flow content are in the same document, nested flows must work 
 
 Note: this style of headers/footers require that "region-type:frame" can render multiple copies of the flow.
 
-
+<note warning>Add a complete example, showing how named-flow template would work</note>
 ==== 4. Page view with generated pages ====
 
 There may be many ways to generate pages from templates, but the outcome is reasonable to expect to be something like this:
