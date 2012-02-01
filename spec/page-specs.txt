@@ -7,7 +7,7 @@ Note: some of the specs in this list may merge or split, in most cases it is not
 
 Note: ## marks items that are not existing specs, properties or terms,  these are something that I think should be considered
 
-====Paged View====
+=====Paged View=====
 Specific ways to create and manipulate paged presentations
   * [##] CSS Paged View: “overflow:paged” and OM for pages
     * Defines paged presentation for element content
