@@ -90,6 +90,7 @@ There may be many ways to generate pages from templates, but the outcome is reas
      </div>
   </div>
 
+//**this example is probably misplaced, it doesn't help define a page**//
 
 === 4.1. GC option - pages as generated content ===
 
