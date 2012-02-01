@@ -32,6 +32,8 @@ Room: TBD
   * Functional syntax, to comma or not to comma?
   * Decoration break behavior with Bi-di
   * Animations/Transitions
+  * CSS3 Writing Modes - update on text-orientation
+  * [[http://dev.w3.org/html5/spec/the-style-element.html#attr-style-scoped|HTML5 Scoped Stylesheets]] - need for formal group comment? potential [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15821|problems]]?
 
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
