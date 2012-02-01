@@ -1,4 +1,6 @@
 ====== Paged View ======
+//See also [[Fragments, Columns, Regions, Pages]], [[spec:css3-region-templates|CSS Region Templates]]//
+
 "Paged view" or "page view" as a term relates broadly to the kind of presentation where content is laid out in discrete pages and shown to user one page at a time (or several pages at a time). 
 
 A wide variety of paged view situations require the same or similar support from the core layout engine -- primarily the ability to flow content into multiple containers, thus producing multiple boxes with fragments of content (see "[[Fragments, Columns, Regions, Pages]]"). Solutions differ in how the fragmentation functionality is invoked.
