@@ -22,7 +22,6 @@ Specific ways to create and manipulate paged presentations
 =====Fragmentation enablers=====
 Use of these modules puts content in fragmented environment, but providing a complete paged view is out of scope of the modules. Can be considered building blocks for paged view.
   * [css3-multicol] CSS Muti-column Layout
-    * The most
   * [css3-regions] CSS Regions
 =====Fragmented flow =====
 Modules defining flow of single-source content through a sequence of finite spaces
