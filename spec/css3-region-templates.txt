@@ -46,7 +46,6 @@ it will not get an extra div in the heading.
 
 This can solve other issues of regions adding hierarchy that gets in the way:
 
-
   * Combine multiple <OL> elements in a flow and merge numbering
   * Remove semantic grouping elements which don't have rendering (and allow content to be laid out by parent layout, e.g. grid)
 
@@ -58,10 +57,9 @@ And of course this is a way to solve the problem of <iframe> special behavior:
      <iframe style="flow-into:article; display:content"> -- iframe content is named flow
      <iframe style="display:content"> -- similar to "seamless" iframe, but not transparent for dom and styles.
 
+Effect on replaced elements is undefined, but at least should reset any non-default properties (e.g. <img style="border:medium solid red; display:content"> would probably display the image but no border).
 
-Effect on replaced elements is undefined, but at least should reset any non-default properties.
-
-**Issue:** It may not be a good idea to reuse 'display' property, as it will create same kind of issues as 'display:none' -- it overrides the display type that would be used if 'flow-into' property was removed. A special property would be safer, maybe **'flow-content-into'** or **flow-content-type:node|content**
+<note warning>Issue: It may not be a good idea to reuse 'display' property, as it will create same kind of issues as 'display:none' -- it overrides the display type that would be used if 'flow-into' property was removed. A special property would be safer, maybe **'flow-content-into'** or **flow-content-type:node|content**</note>
 ==== 3. Template from named flow ====
 
 This should work without any new features:
