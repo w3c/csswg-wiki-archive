@@ -20,11 +20,11 @@ Specific ways to create and manipulate paged presentations
     * Page View in UA (may not need a separate spec but should have a definition and requirements)
 
 =====Fragmentation enablers=====
-Modules enabling fragmentation of content (in page view or not)
+Use of these modules puts content in fragmented environment, but providing a complete paged view is out of scope of the modules. Can be considered building blocks for paged view.
   * [css3-multicol] CSS Muti-column Layout
-    * 
+    * The most
   * [css3-regions] CSS Regions
-Fragmented flow 
+=====Fragmented flow =====
 Modules defining flow of single-source content through a sequence of finite spaces
   * [css3-page] CSS2.1 paged media
     * General pagination behavior
