@@ -15,7 +15,7 @@ Specific ways to create and manipulate paged presentations
     * “overflow:paged” can apply to non-flow controls (multiline flexbox, table)
   * [##] Page Templates
     * Depending on approach, may or may not be in scope of CSS
-    * Some ideas in [[CSS Region Templates]]
+    * Some ideas in [[spec:css3-region-templates|CSS Region Templates]]
   * Non-CSS
     * Page View in UA (may not need a separate spec but should have a definition and requirements)
 
