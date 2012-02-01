@@ -1,4 +1,4 @@
-======Overview of spec for paged view and paged layout======
+======Specs for paged view and paged layout======
 //See also: [[page-view|Paged View]]//
 
 List of specifications that need to progress or be created to cover the range of known page view and page layout
