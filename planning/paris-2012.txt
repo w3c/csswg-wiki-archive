@@ -36,6 +36,7 @@ Room: TBD
   * CSS3 Writing Modes - update on text-orientation
   * [[http://dev.w3.org/html5/spec/the-style-element.html#attr-style-scoped|HTML5 Scoped Stylesheets]] - need for formal group comment? potential [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15821|problems]]?
   * Request to publish CSS 2D Transform and CSS 3D Transform with note pointing to the merged CSS Transform spec. which is in progress.
+  * Hamburg F2F: Hotel booking.
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Daniel Glazman | Disruptive Innovations | (host) | (host) | home | N/A |
