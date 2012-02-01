@@ -19,7 +19,7 @@ Specific ways to create and manipulate paged presentations
   * Non-CSS
     * Page View in UA (may not need a separate spec but should have a definition and requirements)
 
-====Fragmentation enablers====
+=====Fragmentation enablers=====
 Modules enabling fragmentation of content (in page view or not)
   * [css3-multicol] CSS Muti-column Layout
     * 
