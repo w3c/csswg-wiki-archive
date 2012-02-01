@@ -15,6 +15,7 @@ Room: TBD
 === Proposed Topics ===
 
   * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0007.html|Splitting www-style]]
+  * Too many specs with "grid" in the name
   * Selectors 4
   * CSS3 Text - collect/resolve remaining issues?
   * Line Grid FPWD?
