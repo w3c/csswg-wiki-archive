@@ -44,14 +44,14 @@ Modules defining flow of single-source content through a sequence of finite spac
     * Define a way to position floats on page grid
   * [css-line-grid] CSS Line Grid
     * Important for visual alignment of text across columns and regions
-Related 
+=====Related =====
   * [css3-exclusions] CSS Exclusions and Shapes
     * Required for CSS3 Floats
   * [css-variables] CSS Variables
     * Useful for page values (TOC, cross-references, counters, footnotes) 
   * “page marker” for custom region-based pages
     * discussed with various names ('region-type', 'break-type', 'page-view-role'... with values "page|column|none" and possibly custom names)
-o	May belong to [css3-break]
+    * May belong to [css3-break]
 
 Most CSS modules are relevant too (counters, media queries, fonts, etc.), only few are mentioned here that are new or have new behavior in page view.
 
