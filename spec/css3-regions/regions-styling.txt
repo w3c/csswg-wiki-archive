@@ -30,3 +30,29 @@ If we follow that model, the used style for the content falling into a particula
 <code>
 window.getComputedStyle(elem, '::in-region(regionA)');
 </code>
+
+===== Open questions =====
+
+  * Can we chain pseudo-elements? For example, can we do the following:
+
+<code>
+window.getComputedStyle(elem, "::before::in-region(regionA)");
+</code>
+
+==== Flowed content boxes and DOM access ====
+
+The DOM specification provides a [[http://www.w3.org/TR/cssom-view/#the-getclientrects-and-getboundingclientrect-methods|way]] 
+to compute the bounding client rectangle for an element (<code>getBoundingClientRect()</code>) and its generated 
+boxes (<code>getClientRects</code>). The current definition seems appropriate for CSS regions and the multiple boxes generated
+for an element flowing through multiple regions. The <code>getClientRects</code> method would return the list of boxes for the 
+element found in the different regions. The <code>getBoundingClientRect</code> would work as specified.
+
+The <code>offsetWidth/offsetHeight/offsetTop/offsetLeft</code> attributes would work as specified, using the first box, i.e., the
+first part of the element flowing in a region. The usefulness of that is limited, but it is the same situation as for elements
+flowing in a multi-column.
+
+The <code>clientTop/clientLeft/clientWidth/clientHeight</code> attributes are relative to the padding edge of the element. For
+an element fragmented accross region, the padding edge would be made of the outermost edges, for all the element's fragment boxes. 
+However, this does not seem to be the way implementations work for multi-column content, where the WebKit and Opera browsers 
+report the edges of the element as if it was laid out in a single column (i.e., as if it appended all the fragments in the 
+box direction), Firefox reports the edges of the first fragment's box.
