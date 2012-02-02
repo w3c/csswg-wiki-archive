@@ -31,7 +31,7 @@ If we follow that model, the used style for the content falling into a particula
 window.getComputedStyle(elem, '::in-region(regionA)');
 </code>
 
-===== Open questions =====
+=== Open questions ===
 
   * Can we chain pseudo-elements? For example, can we do the following:
 
