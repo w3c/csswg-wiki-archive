@@ -1,0 +1,32 @@
+==== Region Styling ====
+
+With regions, element (or pseudo-element) boxes are often broken into multiple pieces that are laid out in different regions. 
+For example, it is possible to move an element and its generated box with width:100% to a flow and 
+layout the flow between two regions, one of width 500px and one of width 200px. In that situation,
+the specified width for the element is 100% and its used value for the portion laid out in the first 
+region is 500px and 200px for the second region.
+
+So there is a notion of per-fragment used style.
+
+In addition, regions have a notion of style that applies only to the fragments of an element that
+falls into a particular region. A way to think about this is to consider that the selectors in the 
+@region style rules apply to the pseudo-elements representing the fragment of the element that falls in
+a particular region.
+
+For example:
+
+<code>
+@region regionA {
+    h2 {
+        color: red;
+    }
+}
+</code>
+
+can be interpreted as specifying an additional property for the <code>h2::in-region(regionA)</code> pseudo-element.
+
+If we follow that model, the used style for the content falling into a particular region could be retrieved as:
+
+<code>
+window.getComputedStyle(elem, '::in-region(regionA)');
+</code>
