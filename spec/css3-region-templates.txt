@@ -96,12 +96,6 @@ There may be many ways to generate pages from templates, but the outcome is reas
 
 There could be a construct like this:
 
-     Div#page-container { content:pages }
-
-where content of the pages doesn't need to be specified, templates are picked based on flows globally available in the DOM and pages are generated until the process runs out of content or runs out of templates.
-
-Or it could be something more specific
-
      Div#page-container { content:pages(first-template-flow-name) }
 
 or even something more advanced, perhaps matching actual flows with flow placeholders in templates.
