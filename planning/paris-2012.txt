@@ -27,6 +27,7 @@ Room: TBD
     * short proposal on representing issues and binding to Bugzilla
     * review [[https://www.w3.org/Bugs/Public/buglist.cgi?product=CSS&component=CSS%20Regions&resolution=---|pending issues]]
     * resolve feedback on scope
+    * demos (authoring and uses)
   * CSS Exclusion: spec scope, shape extraction model, shape syntax...
   * CSS Flexbox: open issues and feedback, LC?
   * CSS Fragmentation: FPWD?
