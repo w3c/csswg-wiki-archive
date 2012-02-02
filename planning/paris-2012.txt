@@ -44,7 +44,7 @@ Room: TBD
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Daniel Glazman | Disruptive Innovations | (host) | (host) | home | N/A |
-| Glenn Adams | Cox | TBD | TBD | | |  |
+| Glenn Adams | Cox | TBD | TBD | | | irc or telcon only due to other pre-scheduled commitments |
 | Tab Atkins | Google | Sometime Feb 4 | 2012-02-09 12:40 CDG | Apt-Share-1 | ??? |  |
 | Tantek Çelik | Mozilla Foundation | 2012-028(1/28) 13:55 CDG | 2012-039(2/8) 12:25 CDG | 028-035:Montmartre, 035-039:Apt-Share-1 | arriving:BA0308, departing:BA0309 |  |
 | fantasai | Mozilla Foundation | Sat/Sun via OSL | temporarily local | Apt-Share-1 |
