@@ -1,6 +1,6 @@
 ====== Additional Pseudo-Elements ======
 
-The ::outside pseudo-element was cut from css3-content and has not been tracked since. Other pseudo-elements concepts like wrapping a range of elements have been discussed from time to time. Additional pseudo-elements with more control over where they are positioned in the tree could help reduce markup clutter where elements are added to HTML for the sole purpose of CSS styling ([[http://lists.w3.org/Archives/Public/www-style/2011Dec/0463.html|Markup Clutter thread]]) ([[http://lists.w3.org/Archives/Public/www-style/2010Jul/0160.html|Thread discussing wrapping multiple elements]]).
+The ::outside pseudo-element was cut from css3-content and has not been tracked since. Other pseudo-elements concepts like wrapping a range of elements have been discussed from time to time. Additional pseudo-elements with more control over where they are positioned in the tree could help reduce markup clutter where elements are added to HTML for the sole purpose of CSS styling ([[http://lists.w3.org/Archives/Public/www-style/2011Dec/0463.html|Markup Clutter thread]]) ([[http://lists.w3.org/Archives/Public/www-style/2010Jul/0160.html|Thread discussing wrapping multiple elements]]). See also: [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0193.html|cross-post from whatwg about anonymous grouping]].
 
 Here is a list of possible pseudo-element additions that could be made in a future spec.
 
