@@ -117,3 +117,27 @@ What is the higher level condition here that merits considering allowing impleme
 Perhaps some combination of:
   * implementation experience **with** a vendor-prefixed version of the feature, combined with
   * expected/anticipated feature stability (on a case-by-case basis – up to the usual consensus consideration of the working group).
+
+===== Known prefixes =====
+This is a [[http://www.w3.org/TR/CSS2/syndata.html|list of known prefixes]] from vendors and third parties. Implementers MUST only used them if licensed by a condition above. 
+
+The prefixes are shown with leading and trailing hyphen, although in some cases the initial one is left out.
+
+-ah-	Antenna House
+-apple-	Webkit
+-atsc-	Advanced Television Standards Committee
+-epub-	ePUB (Electronic Publication format)
+-hp-	Hewlett Packard
+-ibooks-	Apple iBooks
+-khtml-	KDE Konqueror
+-ms-	Microsoft Internet Explorer
+-mso-	Microsoft Office
+-moz-	Mozilla (Gecko)
+-o-	Opera
+-prince-	Yes Logic Prince
+-rim-	Research In Motion
+-ro-	Real Objects
+-tc-	Tall Components
+-wap-	The WAP Forum
+-webkit-	Apple Safari, Google Chrome etc. (WebKit)
+-xv-	Opera (CSS Speech module)
