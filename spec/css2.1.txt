@@ -438,7 +438,7 @@ Misfiled. See Issue 192.
 ==== Issue 254 ====
   ;Summary : Clarify "next block" when parsing invalid at-keywords
   ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0071.html
-  ;Status : Open. =errata= Deferred to Errata
+  ;Status : Open. =errata= Deferred to Errata.  (This issue should be closed as invalid since it was withdrawn by the OP: http://lists.w3.org/Archives/Public/www-style/2011Apr/0086.html .)
 
 ==== Issue 255 ====
   ;Summary : Clarifications to HTML-related definitions
