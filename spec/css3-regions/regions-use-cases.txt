@@ -211,6 +211,7 @@ With CSS Regions I can filter the content and surface it. Possible use cases: "b
 </ul>
 </code>
 
+Idea from [[https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html#shadow-dom-example|Shadow DOM Example]]
 ==== Flowing content into arbitrary areas ====
 
 The following image illustrates flowing content into an arbitrarily shaped area (e.g., a heart).
