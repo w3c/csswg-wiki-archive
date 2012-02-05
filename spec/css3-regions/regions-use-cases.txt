@@ -42,7 +42,7 @@ The following image illustrates flowing the same content across regions of diffe
 
 ==== Flowing content between areas of a non-grid layout ====
 
-{{:spec:css3-regions:regions_non-grid.jpg?600|}}
+{{:spec:css3-regions:regions_non-grid-layout.jpg?600|}}
 
 <code css>
 /* extract the content of #source into a named flow - 'article' */
@@ -68,12 +68,12 @@ The following image illustrates flowing the same content across regions of diffe
   width:   15%; 
   height: 250px;
   bottom:   0;
-  left:     5%;
+  left:     30%;
 }            
 #region3 {
-  width:   70%;
-  height: 100%;
-  top:      0;
+  width:    200px;
+  height:   320px;
+  top:      40px;
   right:    0;
 }
 </code>
