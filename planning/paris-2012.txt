@@ -19,7 +19,7 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * Status of "[[spec:hg|W3C mercurial For Dummies]]" documentation that's comparable to [[spec:cvs|W3C CVS For Dummies]]
   * Why and how to implement other vendor-prefixed properties
   * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0007.html|Splitting www-style]]
-  * Discuss overlap between grid positioning, grid layout, template layout.
+  * Discuss overlap between grid layout and template layout.
   * Selectors 4
   * CSS3 Text - collect/resolve remaining issues?
   * Line Grid FPWD?
