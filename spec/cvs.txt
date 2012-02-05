@@ -47,6 +47,8 @@ Then open a *new* Terminal window and try the command again:
 
 <code bash>sudo port install cvs</code>
 
+You will be asked for your "Password:" - enter it.
+
 You should then see a bunch of messages like:
 
 <code>
