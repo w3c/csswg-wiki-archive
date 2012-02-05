@@ -235,7 +235,7 @@ With CSS Regions I can filter the content and surface it. Possible use cases: "b
     flow-from: breaking-news;
     
     /* allow scrolling when content overflows the region */
-    region-overflow: break;
+    region-overflow: auto;
     overflow: auto;
 }    
 </code>
