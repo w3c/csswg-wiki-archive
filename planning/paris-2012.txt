@@ -7,9 +7,10 @@ Topics for the February 2012 CSS Working Group Face-to-Face meeting in Paris, Fr
 **Where:** [[http://maps.google.com/maps?q=23+avenue+d%27Italie,+paris&ie=UTF8&sll=46.75984,1.738281&sspn=8.943171,23.269043&vpsrc=0&hnear=23+Avenue+d%27Italie,+75013+Paris,+%C3%8Ele-de-France&t=m&z=16|23 avenue d'Italie]], paris
 Room: TBD
 
-**Registration:** TBD - http://www.w3.org/2002/09/wbs/99999/csswg-f2f-paris-2012-01/ |survey
+**Registration:** TBD (none? this link is broken: http://www.w3.org/2002/09/wbs/99999/csswg-f2f-paris-2012-01/ )
 
-**Weather:** TBD
+**Weather:** very cold, below freezing. likely dry, but rain and snow are possible. icy roads, sidewalks. be careful when walking.
+
 ===== Agenda =====
 
 === Proposed Topics ===
@@ -124,6 +125,11 @@ People interested:
 Proposed: In appreciation for their self-volunteered time and travel expenses, let's exclude unsponsored Invited Experts from the cost split.
 
 Note: FOSDEM is Sat-Sun Feb 4-5, so people attending FOSDEM would probably be taking the train from Brussels to Paris late on Sunday February 5.
+
 ===== Transport to/from CDG =====
 
   * Take the blue RER B from CDG to Denfert Rochereau and transfer to the light green Metro #6 (direction Nation) to Place d'Italie
+
+==== CDG Transport Warnings ====
+  * RER Train unreliability. On 2012-01-28 afternoon all train service was shut down out of CDG due to a fire somewhere along the line. If this happens when you're at CDG you may need to go to Terminal 3 and get on a shuttle bus to a train station *after* the fire/obstruction/problems, OR you can maybe take a bus directly to your destination in Paris. Ask for details at the information booth.
+  * CDG Airtrain unreliability. On 2012-01-28 the airtrain that goes between CDG terminals was *not* stopping at Terminal 3 due to construction/maintenance/other reasons. You may need to walk from your arriving terminal (e.g. Terminal 2) to Terminal 3, or you may be able to take the CDG airtrain to one of the parking stops near Terminal 3, and then walk from there. It may be cold, wet, icy, rainy, snowy, so be prepared to potentially walk a distance with all your luggage to Terminal 3.
