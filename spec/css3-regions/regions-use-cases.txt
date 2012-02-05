@@ -179,11 +179,13 @@ With CSS Regions I can filter the content and surface it. Possible use cases: "b
 
 {{:spec:css3-regions:screeny-shot-feb-5-2012-8.14.34-pm.png?600|}}
 
+
+**Example with extra container**
 <code css>
 /* extract the breaking news into a separate named flow - 'breaking-news' */
 .breaking{
     background: yellow;
-    -webkit-flow-into: breaking-news;
+    flow-into: breaking-news;
 } 
 
 .stories, 
@@ -194,13 +196,51 @@ With CSS Regions I can filter the content and surface it. Possible use cases: "b
 
 /* show only breaking news */
 .breaking-news{ 
-    -webkit-flow-from: breaking-news;
+    flow-from: breaking-news;
 }   
 
 </code>
 <code html>
 <h2>Surfacing breaking news</h2>
 <ul class="breaking-news"></ul>
+
+<ul class="stories">
+    <li><a href="//example.com/story/1">A story</a></li>
+    <li><a href="//example.com/story/2">Another story</a></li>
+    <li class="breaking"><a href="//example.com/story/3">Something notable</a></li>
+    <li><a href="//example.com/story/4">Slow news day</a></li>
+    <li class="breaking"><a href="//example.com/story/5">Critical story</a></li>
+</ul>
+</code>
+
+
+
+
+**Example with pseudo-element overload**
+<code css>
+/* extract the breaking news into a separate named flow - 'breaking-news' */
+.breaking{
+    background: yellow;
+    flow-into: breaking-news;
+} 
+
+.stories, 
+.stories::before{
+    width:20ex;
+    height:5ex;
+}                     
+
+/* show the breaking news before the other news */
+.stories::before{  
+    flow-from: breaking-news;
+    
+    /* allow scrolling when content overflows the region */
+    region-overflow: break;
+    overflow: auto;
+}    
+</code>
+<code html>
+<h2>Surfacing breaking news</h2>
 
 <ul class="stories">
     <li><a href="//example.com/story/1">A story</a></li>
