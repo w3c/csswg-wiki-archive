@@ -47,6 +47,8 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * Schedule for Snapshot 2012: end or start of the year? (10 minutes)
   * CSS3 Regions: Plan A, B, or C?
   * CSS3 GCPM
+  * CSS4 Media Queries
+  * @text-transform
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Daniel Glazman | Disruptive Innovations | (host) | (host) | home | N/A |
