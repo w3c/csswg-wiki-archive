@@ -6,6 +6,7 @@
     - Ordering should be flexible as much as possible/prudent
   - Backwards compat should be preserved unless there's a very good reason otherwise
 
+http://lists.w3.org/Archives/Public/www-style/2012Jan/0933.html
 
 ===== Rounding Functions =====
   ; Before 
