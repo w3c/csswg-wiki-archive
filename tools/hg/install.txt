@@ -151,7 +151,7 @@ If you access the web through a proxy, you'll also need to set that up now. [[ht
 
 ===== Using Mercurial to edit a W3C spec =====
 
-Mercurial is a distributed version control system. (See [[test:mercurial| Mercurial Quick Guide]] for more information.)
+Mercurial is a distributed version control system. (See [[tools:hg| Mercurial Quick Guide]] for more information.)
 
 TO DO: explain atomic commits (and how you should use them)
 
