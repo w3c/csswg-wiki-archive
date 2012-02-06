@@ -49,7 +49,7 @@ If you get an error alert like:
 | Xcode is not installed, or was installed with UNIX |
 | Development (10.5+) or Command Line Support        |
 | (10.4) deselected.                                 |
-|                                (Not Now) ((Close)) |
+|                                          ((Close)) |
 +----------------------------------------------------+
 </pre></html>
 
