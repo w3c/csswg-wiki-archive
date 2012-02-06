@@ -748,7 +748,7 @@ Server: Concurrent Versions System (CVS) 1.11.22 (client/server)
 ==== Aside - Mac OSX UI To Set Environment Variables ====
 
 On Mac OS X 10.5 and later, download and double-click install the "Environment Variable Preference Pane 1.3" from:
-  * http://www.apple.com/downloads/macosx/system_disk_utilities/environmentvariablepreferencepane.html
+  * http://www.epikentros.net/Main/Mac_Software_files/EnvironEditor-1.3.dmg ([[http://www.epikentros.net/Main/Mac_Software.html|about EnvironVars.prefPane]])
 
 Choose "System Preferences..." from the Apple menu.
 
