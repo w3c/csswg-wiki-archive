@@ -23,7 +23,7 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
 
 == Monday PM ==
   * Discussion of prefixed properties and the CSS OM
-
+  * Functional syntax, to comma or not to comma?
 
 === Tuesday ===
 
