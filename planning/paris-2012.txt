@@ -22,6 +22,7 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * Why and how to implement other vendor-prefixed properties
 
 == Monday PM ==
+  * Discussion of prefixed properties and the CSS OM
 
 
 === Tuesday ===
