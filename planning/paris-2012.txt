@@ -72,6 +72,7 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * CSS3 Regions: Plan A, B, or C?
   * CSS3 GCPM
   * CSS4 Media Queries
+  * length units in matrix() and matrix3d() transform functions
 
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
