@@ -48,7 +48,6 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * CSS3 Text - collect/resolve remaining issues?
   * Line Grid FPWD?
   * CSS3 Backgrounds and Borders republish CR
-  * CSS3 Values and Units LCWD?
   * CSS Image Values: LC status. CR?
   * CSS Flexbox: open issues and feedback, LC?
   * CSS Fragmentation: FPWD?
