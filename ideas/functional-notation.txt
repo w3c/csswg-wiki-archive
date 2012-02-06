@@ -1,11 +1,12 @@
 ====== General Principles ======
-  - Lowest operator is comma
-  - Lists of parallel items are comma-separated
   - Functions group/namespace a set of CSS-like values, and so should abide by general CSS value syntax principles
-    - Optionality is handled per #3, as far as possible
+    - Optionality is handled as for CSS values, as far as possible
     - Ordering should be flexible as much as possible/prudent
+  - Lists of parallel items are comma-separated
+  - Lowest operator is comma
   - Backwards compat should be preserved unless there's a very good reason otherwise
 
+More explanation:
 
   - Functional notation is a way of wrapping a subset of a property's value for labeling or grouping purposes.  As such, it should generally follow the same design principles that property values do.   As much as possible/prudent of the value should be optional and re-orderable, as long as it doesn't affect parsing (by producing ambiguity, or introducing look-ahead).
   - The comma should be used as a separator between parallel values (similar to background-*) or fallback values (similar to font-family).
@@ -42,7 +43,7 @@ http://lists.w3.org/Archives/Public/www-style/2012Jan/0933.html
   ; After
   : ''translate(<x> <y>)''
   ; Rationale
-  : The comma isn't needed for grouping or disambiguation. Other places in CSS that accept an x and y length space-separate, like 'border-spacing' and 'background-position'.  (Principle 2)
+  : The comma isn't needed for grouping or disambiguation. Other places in CSS that accept an x and y length space-separate, like 'border-spacing' and 'background-position'.
   ; Extra Note
   : The same applies to ''scale()''.
 
@@ -53,7 +54,7 @@ http://lists.w3.org/Archives/Public/www-style/2012Jan/0933.html
   ; After
   : ''steps(<number> && [start | end]?)''
   ; Rationale
-  : The comma isn't needed for grouping or disambiguation.  The ordering constraint can also be relaxed without ambiguity. (Principles 2 and 3.1)
+  : The comma isn't needed for grouping or disambiguation.  The ordering constraint can also be relaxed without ambiguity.
   
 ---
 
@@ -104,7 +105,7 @@ No change to Color as part of this effort.  (We believe that percentages should 
   ; After
   : ''polygon([<fill-rule>,]? <length>{2}# )''
   ; Rationale
-  : Same as ''cubic-bezier()'', but moreso - a list of points should be indicated with different separators between the components and the points, or else a long list becomes //unreadable// without writing conventions or manual counting.  ''<fill-rule>'' doesn't need a comma for disambuation, but we left it in due to Principle 1 and to match the gradient functions.
+  : Same as ''cubic-bezier()'', but moreso - a list of points should be indicated with different separators between the components and the points, or else a long list becomes //unreadable// without writing conventions or manual counting.  ''<fill-rule>'' doesn't need a comma for disambuation, but we left it in due to Principle 3 and to match the gradient functions.
 
 
 ===== Fonts ===== 
