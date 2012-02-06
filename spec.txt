@@ -1,0 +1,89 @@
+====== Specification Issues and Planning ======
+This section documents problems found in the CSS specs and working drafts. Problems documented here will be addressed by the editors, possibly after discussion in a CSS Working Group meeting, and will result in changes, corrections, clarifications, or no change.
+
+===== REC or PR =====
+RECOMMENDATIONS!
+  * [[spec:css2.1|CSS Level 2 Revision 1]]
+  * [[spec:css3-color|CSS Color Module Level 3]]
+  * [[http://www.w3.org/TR/css3-namespace/|CSS Namespaces Module]]
+  * [[spec:css3-selectors|Selectors Level 3]]
+PR
+===== CR =====
+Awaiting implementations, test suites, or actively being revised per implementation experience.
+  * [[spec:css3-ui|CSS Basic User Interface Module Level 3]] (another LCWD expected)
+  * [[spec:css-multicol|CSS Multi-Column Layout Module Level 3]]
+  * [[spec:mediaqueries|Media Queries Level 3]]
+  * [[spec:css-style-attr|CSS Style Attributes]]
+  * [[spec:css3-background|CSS Backgrounds and Borders Module Level 3]]
+
+===== WD =====
+These are being actively developed. Sometimes used to be CRs that need major revision.
+  * [[spec:cssom|CSSOM - CSS Object Module]]
+  * [[spec:css3-flexbox|CSS Flexbox Module]]
+  * [[spec:css3-images|CSS Images Level 3]]
+  * [[spec:css3-lists|CSS Lists Module Level 3]]
+  * [[spec:css3-regions|CSS Regions Module]]
+  * [[spec:css-ruby|CSS3 Ruby Module]] (out of date CR, back to WD for major revisions)
+  * [[spec:css3-text|CSS Text Module Level 3]]
+  * [[spec:css3-values|CSS Values and Units Module Level 3]]
+  * [[spec:css3-writing-modes|CSS Writing Modes Level 3]]
+  * [[spec:css3-speech|CSS Speech Module Level 3]]
+  * [[spec:css3-grid-layout|CSS Grid Layout]]
+  * [[spec:css3-exclusions|CSS Exclusions Module]]
+===== brainstorming =====
+This section outlines active possibilities for future specs or notes
+  * [[spec:vendor-prefixes|CSS vendor prefixes]] (collecting thoughts about policy/guidance on usage, dropping etc.)
+  * [[spec:css4-ui|CSS User Interface Module Level 4]] (collecting features and ideas)
+  * [[spec:css4-page|CSS Paged Media Level 4]] (or CSS Pagination, or CSS Fragmentation)
+  * [[spec:page-view|Paged View]] (use cases for paged view and page layout)
+  * [[spec:text4|Text Level 4]] (why isn't this "css4-text"?)
+  * [[spec:selectors4|Selectors Level 4]]
+  * [[spec:css3-overflow|CSS Overflow Level 3]]
+  * [[spec:box-orphans|Box-model-related features with no home]]
+  * [[spec:css3-position|CSS Positioning]]
+  * [[spec:mediaqueries4|Media Queries Level 4]]
+  * [[spec:css3-cascade|CSS Cascading and Inheritance Level 3]]
+  * [[http://www.w3.org/Style/CSS/Tracker/products/33|CSS4 Values and Units]]
+  * [[spec:css3-break|CSS Fragmentation Module Level 3]]
+  * Pages related to content fragmentation, regions, exclusions, paged views etc:
+     * [[spec:page-view|paged view]]
+     * [[spec:page-specs|page specs]]
+     * [[spec:css3-regions|regions]]
+     * [[spec:css3-exclusions|exclusions]]
+     * [[spec:css3-region-templates|region templates]]
+     * [[spec:fragments-columns-regions-pages|fragments columns regions pages]]
+
+===== out of date =====
+These specs are old / out of date and need active editors/owners to bring them up to date.
+  * [[spec:css3-box|CSS Box Module Level 3]]
+  * [[spec:css3-content|CSS Generated Content Module Level 3]]
+  * [[spec:css3-grid|CSS Grid Positioning Module Level 3]]
+  * [[spec:css3-preslev|CSS Presentation Levels Module Level 1]]
+  * [[spec:css3-ruby|CSS Ruby Layout Module Level 1]]
+  * [[spec:css3-syntax|CSS Syntax Module Level 3]]
+  * [[spec:css3-tables-algorithms|CSS Table Layout Algorithm Module Level 3]]
+  * [[spec:css3-line-grid|CSS Line Grid Module Level 1]]
+
+====== Specification Reviews ======
+CSSWG members' comments on related specs not published by our group.
+
+  * [[spec:reviews:svgtiny1.2|SVG Tiny 1.2]]
+  * [[spec:reviews:html5|HTML5]]
+====== Specification Editing ======
+
+  * [[spec:cvs|W3C CVS For Dummies]] --- using dev.w3.org to edit editor's drafts
+  * [[tools:hg:install|W3C Mercurial For Dummies]] --- using dev.w3.org to edit editor's drafts
+  * [[spec:publish|Step-by-step Publishing a Spec]] --- getting your spec on www.w3.org
+  * [[spec:issue-tracking|Tracking Issues]] --- raising your newborn draft into a grown-up spec
+  * [[http://dev.w3.org/csswg/css-module/Overview.src.html|CSS Module Template]] --- for starting new specs (and formatting old ones)
+  * [[spec:format-update]] --- for updating existing specs to our latest "specs should include"
+====== Coordination between specifications ======
+  * [[spec:cssom-constants|CSSOM Constants]]
+  * [[spec:computed-values|Patterns for writing "Computed Value" lines]]
+  * [[spec:at-rules-patterns|Patterns for writing at-rules]]
+  * [[spec:property-dependencies|Property dependencies]] in computed values
+  * [[spec:calc-and-percentages|Specifying Percentages in the Age of Calc()]]
+  * [[spec:om-apis|Patterns for writing CSSOM APIs]]
+====== Coordination between standards groups ======
+===== IDPF EPUB =====
+See: http://code.google.com/p/epub-revision/wiki/AdvancedAdaptiveLayoutCharter
