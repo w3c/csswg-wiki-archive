@@ -27,6 +27,29 @@ Then you haven't successfully installed MacPorts. See above instructions to:
   * download the MacPorts installer
   * open it (e.g. if you're on OS X 10.7 Lion, open the file "MacPorts-2.0.3.pkg" inside the volume "MacPorts-2.0.3")
   * click all the obvious default install buttons, enter your password if requested and wait for the install to finish (should take less than a minute).
+
+The MacPorts installer will run a program to determine if it can be installed.
+
+If you get an error alert like:
+
+<html><pre>
++----------------------------------------------------+
+| MacPorts-2.0.3 can't be installed on this          |
+| computer.                                          |
+|                                                    |
+| Xcode is not installed, or was installed with UNIX |
+| Development (10.5+) or Command Line Support        |
+| (10.4) deselected.                                 |
+|                                (Not Now) ((Close)) |
++----------------------------------------------------+
+</pre></html>
+
+Then go back and make sure you've installed XCode.
+If you have installed XCode, make sure you've updated it to the latest version.
+You may need to check the [[http://itunes.apple.com/us/app/xcode/id448457090|XCode page in the Apple Mac App store]] - if you see a button to "Update" or "Upgrade", click it.
+
+Now retry installing MacPorts again.
+
   * open a *new* Terminal window. You can also quit/reopen your Terminal application.
 
 Now you should be ready to install Mercurial:
