@@ -41,7 +41,6 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
 
 ===== Proposed Topics =====
 
-  * Why and how to implement other vendor-prefixed properties
   * Discuss overlap between grid layout and template layout.
   * Selectors 4
   * CSS3 Text - collect/resolve remaining issues?
