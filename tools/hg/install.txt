@@ -13,6 +13,10 @@
 
 You need to first install Mercurial on your system.
 
+A simple Mercurial installer is available on [[http://mercurial.selenic.com/|the Mercurial web site]]. Download and open this file, once unzipped you'll find a folder with a Mercurial .mpkg file, double click this file and follow the instructions to install.
+
+Developers may find it preferable to use MacPorts to install Mercurial. While more complicated for a simple install, having MacPorts makes it easier to install additional packages that you may find useful, such as Mercurial's [[http://mercurial.selenic.com/wiki/KeyringExtension|Keyring Extension]] for simple password management or other developer tools for working with the test suites, etc. If you choose to go this route, do not install from the installer above and follow the instructions below instead, otherwise skip to "Configuring Mercurial for use with W3C specs".
+
   * install XCode. It helps if you're using a fairly new OS X version (e.g. 10.6 Snow Leopard or 10.7 Lion) and XCode. XCode is available in the App Store. 
   * install MacPorts [[https://distfiles.macports.org/MacPorts/MacPorts-2.0.3-10.6-SnowLeopard.dmg|(OSX 10.6)]] [[https://distfiles.macports.org/MacPorts/MacPorts-2.0.3-10.7-Lion.dmg|(OSX 10.7)]] (see [[http://www.macports.org/install.php|Installing MacPorts]] for other installs). You do not need to install X11. If you already have MacPorts installed, be sure to update it by entering this command into a Terminal window:
 <code bash>sudo port selfupdate</code>
