@@ -47,19 +47,20 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * Selectors 4
   * CSS3 Text - collect/resolve remaining issues?
   * Line Grid FPWD?
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0001.html|Media Queries REC]]
   * CSS3 Backgrounds and Borders republish CR
   * CSS3 Values and Units LCWD?
   * CSS Image Values: LC status. CR?
+  * CSS Flexbox: open issues and feedback, LC?
+  * CSS Fragmentation: FPWD?
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0001.html|Media Queries REC]]
   * CSS Regions: 
     * short proposal on representing issues and binding to Bugzilla
     * review [[https://www.w3.org/Bugs/Public/buglist.cgi?product=CSS&component=CSS%20Regions&resolution=---|pending issues]]
     * resolve feedback on scope
     * demos (authoring and uses)
   * CSS Exclusion: spec scope, shape extraction model, shape syntax...
-  * CSS Flexbox: open issues and feedback, LC?
-  * CSS Fragmentation: FPWD?
   * CSS3 Text - text-shadow - support for spread radius? (Supported in IE10)
+  * @text-transform
   * Functional syntax, to comma or not to comma?
   * Decoration break behavior with Bi-di
   * Animations/Transitions
@@ -72,7 +73,7 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * CSS3 Regions: Plan A, B, or C?
   * CSS3 GCPM
   * CSS4 Media Queries
-  * @text-transform
+
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Daniel Glazman | Disruptive Innovations | (host) | (host) | home | N/A |
