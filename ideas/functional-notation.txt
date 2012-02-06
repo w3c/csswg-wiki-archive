@@ -6,6 +6,14 @@
     - Ordering should be flexible as much as possible/prudent
   - Backwards compat should be preserved unless there's a very good reason otherwise
 
+
+  - Functional notation is a way of wrapping a subset of a property's value for labeling or grouping purposes.  As such, it should generally follow the same design principles that property values do.   As much as possible/prudent of the value should be optional and re-orderable, as long as it doesn't affect parsing (by producing ambiguity, or introducing look-ahead).
+  - The comma should be used as a separator between parallel values (similar to background-*) or fallback values (similar to font-family).
+  - Otherwise, values should be space-separated, as normal for property values.  In general, the comma is the lowest-precedence operator in the grammar for a property.
+  - When a function is overtly math-y, it may make sense to use commas to separate arguments, even if there's no other good reason to use a comma, just because it matches standard usage so well.  (We're not quite certain of this - we might want to drop it.)
+  - In rare cases, keywords may be used to prefix sets of values to allow unambiguous parsing.  This should be avoided when possible; often, fixing a particular order for the values or making some of the values required can remove ambiguity.  Only when it's very valuable for the values to be optional or reorderable should this be considered.
+
+
 http://lists.w3.org/Archives/Public/www-style/2012Jan/0933.html
 
 ===== Rounding Functions =====
