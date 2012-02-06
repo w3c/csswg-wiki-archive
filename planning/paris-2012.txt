@@ -25,6 +25,7 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * Discussion of prefixed properties and the CSS OM
   * Functional syntax, to comma or not to comma?
   * CSS3 Values and Units LCWD?
+  * CSS Regions: feedback on region scope
 
 === Tuesday ===
 
