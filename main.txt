@@ -9,3 +9,11 @@ The CSS Working Group welcomes your feedback on our work! Public discussion of o
 The working group uses the [[planning|planning]] page to coordinate topics for our face-to-face meetings.
 
 See [[http://wiki.csswg.org/?do=recent|recent changes]] for currently active topics.
+
+===== Sections =====
+
+  * [[spec]] - Wiki pages for tracking spec-related thoughts
+  * [[ideas]] - Ideas not yet in a spec
+  * [[test]] - Testing CSS
+  * [[tools]] - About our tools
+  * [[wiki]] - Meta information about the wiki
