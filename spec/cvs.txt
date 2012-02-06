@@ -33,8 +33,8 @@ Send your public key file (id_dsa.pub) to Bert Bos. Until your public key file h
 You need to first install CVS on your system.
 
 If you have a Mac:
-  * [[https://developer.apple.com/xcode/|install XCode]].  It helps if you're using a fairly new OS X version (e.g. 10.6 Snow Leopard) and XCode.
-    * Note: as of OSX 10.7 Lion, you will likely need to get [[http://itunes.apple.com/us/app/xcode/id448457090|XCode from the Apple Mac App store]].
+  * [[https://developer.apple.com/xcode/|install Xcode]].  It helps if you're using a fairly new OS X version (e.g. 10.6 Snow Leopard) and Xcode.
+    * Note: as of OSX 10.7 Lion, you will likely need to get [[http://itunes.apple.com/us/app/xcode/id448457090|Xcode from the Apple Mac App store]].
   * install MacPorts [[http://distfiles.macports.org/MacPorts/MacPorts-1.9.2-10.6-SnowLeopard.dmg|(OSX 10.6)]]| [[https://distfiles.macports.org/MacPorts/MacPorts-2.0.3-10.7-Lion.dmg|(OSX 10.7)]]. See [[http://www.macports.org/install.php|Installing MacPorts]] for other installs.
 
 The MacPorts installer will run a program to determine if it can be installed.
@@ -53,9 +53,13 @@ If you get an error alert like:
 +----------------------------------------------------+
 </pre></html>
 
-Then go back and make sure you've installed XCode.
-If you have installed XCode, make sure you've updated it to the latest version.
-You may need to check the [[http://itunes.apple.com/us/app/xcode/id448457090|XCode page in the Apple Mac App store]] - if you see a button to "Update" or "Upgrade", click it.
+Then go back and make sure you've installed Xcode - you should have a "Developer" folder on your internal drive.
+
+If you don't have a "Developer" folder on your internal drive, you probably haven't successfully installed Xcode.
+  * Look in your "Applications" folder for an application called "Install Xcode" and open it. You will likely be asked for your Mac admin password, enter it and click ok / install etc. and wait for the Xcode Installer to finish. You may need to close your "iTunes" application if it is open (or else the install may stall with an alert dialog ask you to please quit it before continuing). You should now have a "Developer" folder on your internal drive.
+
+If you have installed Xcode, make sure you've updated it to the latest version.
+You may need to check the [[http://itunes.apple.com/us/app/xcode/id448457090|Xcode page in the Apple Mac App store]] - if you see a button to "Update" or "Upgrade", click it.
 
 Now retry installing MacPorts again.
 
