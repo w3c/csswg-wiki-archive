@@ -30,52 +30,52 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * CSS Regions: feedback on region scope
 
 === Tuesday ===
- * CSS Regions: 
+
+== Tuesday AM ==
+  * CSS Regions: 
     * short proposal on representing issues and binding to Bugzilla
     * review [[https://www.w3.org/Bugs/Public/buglist.cgi?product=CSS&component=CSS%20Regions&resolution=---|pending issues]]
     * resolve feedback on scope
     * demos (authoring and uses)
- * Nesting Style Rules
-
-== Tuesday AM ==
-
+  * Nesting Style Rules
+  * Status of Fullscreen (5 minutes)
 
 == Tuesday PM ==
+  * Schedule for Snapshot 2012: end or start of the year? (10 minutes)
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0001.html|Media Queries REC]]
+  * CSS3 Backgrounds and Borders republish CR
+  * CSS Image Values: LC status. CR?
+  * CSS Flexbox: open issues and feedback, LC?
+  * CSS Fragmentation: FPWD?
+  * length units in matrix() and matrix3d() transform functions
+  * Request to publish CSS 2D Transform and CSS 3D Transform with note pointing to the merged CSS Transform spec. which is in progress.
+
+  * CSS 2.1 Errata Issues
+  * [[http://dev.w3.org/html5/spec/the-style-element.html#attr-style-scoped|HTML5 Scoped Stylesheets]] - need for formal group comment? potential [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15821|problems]]?
+  * CSS3 Text - collect/resolve remaining issues?
+  * CSS3 Text - text-shadow - support for spread radius? (Supported in IE10)
 
 
 === Wednesday ===
 
 == Wednesday AM ==
-
+  * Animations/Transitions
+  * Selectors 4
+  * CSS Exclusion: spec scope, shape extraction model, shape syntax...
+  * Line Grid FPWD? Line Module
 
 == Wednesday PM ==
+  * CSS3 Writing Modes - update on text-orientation
+  * Module priority re -webkit- prefix list
 
 
 ===== Proposed Topics =====
 
   * Discuss overlap between grid layout and template layout.
-  * Selectors 4
-  * CSS3 Text - collect/resolve remaining issues?
-  * Line Grid FPWD?
-  * CSS3 Backgrounds and Borders republish CR
-  * CSS Image Values: LC status. CR?
-  * CSS Flexbox: open issues and feedback, LC?
-  * CSS Fragmentation: FPWD?
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0001.html|Media Queries REC]]
-  * CSS Exclusion: spec scope, shape extraction model, shape syntax...
-  * CSS3 Text - text-shadow - support for spread radius? (Supported in IE10)
   * @text-transform
-  * Decoration break behavior with Bi-di
-  * Animations/Transitions
-  * CSS3 Writing Modes - update on text-orientation
-  * [[http://dev.w3.org/html5/spec/the-style-element.html#attr-style-scoped|HTML5 Scoped Stylesheets]] - need for formal group comment? potential [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15821|problems]]?
-  * Request to publish CSS 2D Transform and CSS 3D Transform with note pointing to the merged CSS Transform spec. which is in progress.
-  * Status of Fullscreen (5 minutes)
-  * Schedule for Snapshot 2012: end or start of the year? (10 minutes)
   * CSS3 Regions: Plan A, B, or C?
   * CSS3 GCPM
   * CSS4 Media Queries
-  * length units in matrix() and matrix3d() transform functions
 
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
