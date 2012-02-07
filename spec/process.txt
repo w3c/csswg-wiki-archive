@@ -13,6 +13,7 @@ Drafts should:
   * be published early and often (helps show interest/activity)
   * transparently note objections/issues
   * advance semi-automatically based on implementations and tests
+  * drop/postpone features lacking implementation(s)
 
 ==== process for advancement ====
 Here are proposed improvements to accelerate the advancement of specs. These improvements can be adopted by the group as a whole, but they're also designed for individual editors to follow as a way to more rapidly advance their drafts.
