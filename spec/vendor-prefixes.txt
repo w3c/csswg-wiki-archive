@@ -57,10 +57,12 @@ For non-mature specifications adopt the convention for WDs.
 ==== Internal features ====
 If you are implementing a feature which is intended for internal use only, your implementation:
   * MUST use a vendor-specific prefix for the implementation of the feature
+    * You SHOULD document the feature publicly.
   * SHOULD limit the feature to local resources and then MAY make global support opt-in for users
+    * You MUST document the feature publicly, if your implementation supports it for non-local resources.
   * SHOULD NOT support a feature named the same (ignoring prefixes) as a feature in any W3C draft in a different sense
   * MUST NOT support an unprefixed version of the feature
-You should, however, consider proposing the feature to the CSS WG and then, if it is accepted, follow the convention for WDs.
+You SHOULD, however, consider proposing the feature to the CSS WG and then, if it is accepted, follow the convention for WDs.
 
 ==== Transitions ====
 If you implemented a feature with a vendor-specific prefix when it was only defined in a Working Draft, and the WD transitions to Candidate Recommendation, then your implementation:
@@ -119,7 +121,7 @@ Perhaps some combination of:
   * expected/anticipated feature stability (on a case-by-case basis – up to the usual consensus consideration of the working group).
 
 ===== Known prefixes =====
-This is a [[http://www.w3.org/TR/CSS2/syndata.html|list of known prefixes]] from vendors and third parties. Implementers MUST only used them if licensed by a condition above. 
+This is a [[http://www.w3.org/TR/CSS2/syndata.html|list of known prefixes]] from vendors and third parties. Implementers MUST NOT use them unless licensed by a condition above. 
 
 The prefixes are shown with leading and trailing hyphen, although in some cases the initial one is left out.
 
