@@ -1,0 +1,10 @@
+====== Spec Advancement Process ======
+By default the CSSWG follows the W3C Process: http://www.w3.org/Consortium/Process/
+
+Here are some thoughts on improvements.
+
+===== test driven spec advancement =====
+One of the most common criticisms of the CSSWG is that specs/features take too long. In particular many features have been implemented with vendor prefixes, inconveniencing authors and implementers alike  for *years* and resulting in a need to maintain support for prefixed properties.
+
+... writing in progress ...
+
