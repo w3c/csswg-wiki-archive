@@ -4,7 +4,7 @@ By default the CSSWG follows the W3C Process: http://www.w3.org/Consortium/Proce
 Here are some thoughts on improvements.
 
 ===== test and implementation driven accelerated spec advancement =====
-One of the most common criticisms of the CSSWG is that specs/features take too long. In particular many features have been implemented with vendor prefixes, inconveniencing authors and implementers alike  for *years* and resulting in a need to maintain support for prefixed properties.
+One of the most common criticisms of the CSSWG is that specs/features take too long. In particular many features have been implemented with vendor prefixes, inconveniencing authors and implementers alike  for *years* and resulting in a need to maintain support for prefixed properties ([[https://wiki.mozilla.org/Platform/Layout/CSS_Compatibility#CSS_vendor-prefix_compatibility|or worse]]).
 
 This proposal provides improvements that encourage rapid draft advancement based on implementations and tests. - Tantek 2012-038
 
