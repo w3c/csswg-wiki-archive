@@ -16,7 +16,7 @@ Drafts should:
 
 ==== process for advancement ====
 Here are proposed improvements to accelerate the advancement of specs. These improvements can be adopted by the group as a whole, but they're also designed for individual editors to follow as a way to more rapidly advance their drafts.
-  * *->ED. Any member of the CSSWG may check-in an editor's draft to present ideas/content for consideration. Contents of the draft must be within the WG charter. Any objections raised by CSSWG members must be noted in the ED.
+  * ✍->ED. Any member of the CSSWG may check-in an editor's draft to present ideas/content for consideration. Contents of the draft must be within the WG charter. Any objections raised by CSSWG members must be noted in the ED.
   * ED->WD. When any feature is implemented (as shown by publicly posted test case document), a public working draft is published.
   * WD->LC. When any feature is interoperably implemented by more than one implementation, the WD is automatically published as a LC with a 6 week review period. Any unimplemented feature is marked *at-risk*.
     * This assessment is made at the CSSWG telcon.
