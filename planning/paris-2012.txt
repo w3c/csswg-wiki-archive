@@ -61,6 +61,16 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
 === Wednesday ===
 
 == Wednesday AM ==
+  * CSS 2.1 Errata Issues (cont'd)
+  * Media Queries Editorial Issue (Florian)
+  * CSS Flexbox: open issues and feedback, LC?
+  * CSS Fragmentation: FPWD?
+  * length units in matrix() and matrix3d() transform functions
+  * Request to publish CSS 2D Transform and CSS 3D Transform with note pointing to the merged CSS Transform spec. which is in progress.
+  * [[http://dev.w3.org/html5/spec/the-style-element.html#attr-style-scoped|HTML5 Scoped Stylesheets]] - need for formal group comment? potential [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15821|problems]]?
+  * CSS3 Text - collect/resolve remaining issues?
+  * CSS3 Text - text-shadow - support for spread radius? (Supported in IE10)
+
   * Animations/Transitions
   * Selectors 4
   * CSS Exclusion: spec scope, shape extraction model, shape syntax...
