@@ -16,15 +16,15 @@ Drafts should:
 
 ==== process for advancement ====
 Here are proposed improvements to accelerate the advancement of specs. These improvements can be adopted by the group as a whole, but they're also designed for individual editors to follow as a way to more rapidly advance their drafts.
-  * ✍->ED. Any member of the CSSWG may check-in an editor's draft to present ideas/content for consideration. Contents of the draft must be within the WG charter. Any objections raised by CSSWG members must be noted in the ED.
-  * ED->WD. When any feature is implemented (as shown by publicly posted test case document), a public working draft is published.
-  * WD->LC. When any feature is interoperably implemented by more than one implementation, the WD is automatically published as a LC with a 6 week review period. Any unimplemented feature is marked *at-risk*.
+  * **✍->ED.** Any member of the CSSWG may check-in an editor's draft to present ideas/content for consideration. Contents of the draft must be within the WG charter. Any objections raised by CSSWG members must be noted in the ED.
+  * **ED->WD.** When any feature is implemented (as shown by publicly posted test case document), a public working draft is published.
+  * **WD->LC.** When any feature is interoperably implemented by more than one implementation, the WD is automatically published as a LC with a 6 week review period. Any unimplemented feature is marked *at-risk*.
     * This assessment is made at the CSSWG telcon.
     * Since the CSSWG telcon is on Wednesday and the draft publication occurs the next Tuesday, if anyone posts a public test case document that disproves the interoperability before that Monday, the LC publication is halted.
     * When anyone posts public test case document(s) that disproves interoperability of all previously shown interoperable features, the LC review period clock is stopped.
       * When implementations are updated to once again demonstrate interoperability of at least one feature, the 6 week LC review period is restarted as of that date.
-    * LC updates may be published per editor discretion, e.g. when more features are implemented and thus fewer are marked *at-risk*. This restarts the 6 week LC review period.
-  * LC->CR. At the end of the LC review period, the LC is automatically published as a CR with a 6 month implementation period. Any unimplemented features are dropped and postponed to the next version. Any features with only one implementation, or not interoperably implemented are marked *at-risk*.
-    * CR updates may be published per editor discretion, e.g. when more features are interoperably implemented. The 6 month implementation period is *not* restarted.
-  * CR->PR. At the end of the CR implementation period, the CR is automatically published as a PR. Any features that are not interoperably implemented are dropped and postponed to the next version.
-  * PR->REC. Follow standard W3C process. Suggestions welcome.
+    * **LC->LC** updates may be published per editor discretion, e.g. when more features are implemented and thus fewer are marked *at-risk*. This restarts a new 6 week LC review period.
+  * **LC->CR.** At the end of the LC review period, the LC is automatically published as a CR with a 6 month implementation period. Any unimplemented features are dropped and postponed to the next version. Any features with only one implementation, or not interoperably implemented are marked *at-risk*.
+    * **CR->CR** updates may be published per editor discretion, e.g. when more features are interoperably implemented and thus fewer are marked *at-risk*. The 6 month implementation period is *not* restarted.
+  * **CR->PR.** At the end of the CR implementation period, the CR is automatically published as a PR. Any features that are not interoperably implemented are dropped and postponed to the next version.
+  * **PR->REC.** Follow standard W3C process. Suggestions welcome.
