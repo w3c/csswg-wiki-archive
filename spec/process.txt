@@ -27,4 +27,4 @@ Here are proposed improvements to accelerate the advancement of specs:
   * LC->CR. At the end of the LC review period, the LC is automatically published as a CR with a 6 month implementation period. Any unimplemented features are dropped and postponed to the next version. Any features with only one implementation, or not interoperably implemented are marked *at-risk*.
     * CR updates may be published per editor discretion, e.g. when more features are interoperably implemented. The 6 month implementation period is *not* restarted.
   * CR->PR. At the end of the CR implementation period, the CR is automatically published as a PR. Any features that are not interoperably implemented are dropped and postponed to the next version.
-  * PR->REC. Follow standard W3C political process. Suggestions welcome.
+  * PR->REC. Follow standard W3C process. Suggestions welcome.
