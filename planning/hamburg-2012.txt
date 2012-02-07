@@ -82,6 +82,7 @@ Daily ticket (starting at 9 o’clock): 5.60Euros
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Glenn Adams | Cox | ?? | ?? | ?? | ?? | |
+| David Baron | Mozilla | May 5, 7:30am | May 12, 11:20am | ?? | CO74, LH3274 | |
 | Apple Person 1 | Apple | ?? | ?? | ?? | ?? | |
 | John Daggett | Mozilla | ?? | ?? | ?? | ?? | |
 | Vincent Hardy | Adobe | May 3rd| May 12th| ?? | ?? |  |
