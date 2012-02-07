@@ -56,11 +56,6 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * CSS Flexbox: open issues and feedback, LC?
   * CSS Fragmentation: FPWD?
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0001.html|Media Queries REC]]
-  * CSS Regions: 
-    * short proposal on representing issues and binding to Bugzilla
-    * review [[https://www.w3.org/Bugs/Public/buglist.cgi?product=CSS&component=CSS%20Regions&resolution=---|pending issues]]
-    * resolve feedback on scope
-    * demos (authoring and uses)
   * CSS Exclusion: spec scope, shape extraction model, shape syntax...
   * CSS3 Text - text-shadow - support for spread radius? (Supported in IE10)
   * @text-transform
