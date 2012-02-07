@@ -6,5 +6,23 @@ Here are some thoughts on improvements.
 ===== test driven spec advancement =====
 One of the most common criticisms of the CSSWG is that specs/features take too long. In particular many features have been implemented with vendor prefixes, inconveniencing authors and implementers alike  for *years* and resulting in a need to maintain support for prefixed properties.
 
+This proposal provides improvements that encourage the advancement of drafts based on implementation and usage interest. - Tantek 2012-038
+
+==== principles ====
+
+Drafts should:
+  * be published early and often (helps show interest/activity)
+  * transparently note objections/issues
+  * advance semi-automatically based on implementations and tests
+
+==== process for advancement ====
+
+  * *->ED. Any member of the CSSWG may check-in an editor's draft to present ideas/content for consideration. Any objections raised by CSSWG members must be noted in the ED.
+  * ED->WD. When any feature is implemented (as shown by publicly posted test case document), a public working draft is published.
+  * WD->LC. When any feature is interoperably implemented by more than one implementation, the WD is automatically published as a LC with a 6 week review period. Any unimplemented feature is marked *at-risk*.
+  * LC->CR. At the end of the LC review period, the LC is automatically published as a CR with a 6 month implementation period. Any unimplemented features are dropped and postponed to the next version. Any features with only one implementation, or not interoperably implemented are marked *at-risk*.
+  * CR->PR. At the end of the CR implementation period, the CR is automatically published as a PR. Any features that are not interoperably implemented are dropped and postponed to the next version.
+  * PR->REC. Follow standard W3C political process. Suggestions welcome.
+
 ... writing in progress ...
 
