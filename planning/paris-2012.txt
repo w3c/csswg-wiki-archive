@@ -35,6 +35,7 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
     * review [[https://www.w3.org/Bugs/Public/buglist.cgi?product=CSS&component=CSS%20Regions&resolution=---|pending issues]]
     * resolve feedback on scope
     * demos (authoring and uses)
+ * Nesting Style Rules
 
 == Tuesday AM ==
 
