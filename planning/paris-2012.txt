@@ -39,10 +39,11 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
     * demos (authoring and uses)
   * Nesting Style Rules
   * Status of Fullscreen (5 minutes)
-
-== Tuesday PM ==
   * Schedule for Snapshot 2012: end or start of the year? (10 minutes)
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0001.html|Media Queries REC]]
+
+== Tuesday PM ==
+  * Module priority re -webkit- prefix list
   * CSS3 Backgrounds and Borders republish CR
   * CSS Image Values: LC status. CR?
   * CSS Flexbox: open issues and feedback, LC?
@@ -66,7 +67,6 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
 
 == Wednesday PM ==
   * CSS3 Writing Modes - update on text-orientation
-  * Module priority re -webkit- prefix list
 
 
 ===== Proposed Topics =====
