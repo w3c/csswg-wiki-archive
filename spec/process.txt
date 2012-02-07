@@ -6,7 +6,7 @@ Here are some thoughts on improvements.
 ===== test driven spec advancement =====
 One of the most common criticisms of the CSSWG is that specs/features take too long. In particular many features have been implemented with vendor prefixes, inconveniencing authors and implementers alike  for *years* and resulting in a need to maintain support for prefixed properties.
 
-This proposal provides improvements that encourage the advancement of drafts based on implementation and usage interest. - Tantek 2012-038
+This proposal provides improvements that encourage draft advancement based on implementations and tests. - Tantek 2012-038
 
 ==== principles ====
 Drafts should:
