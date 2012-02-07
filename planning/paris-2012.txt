@@ -48,6 +48,7 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * CSS Image Values: LC status. CR?
   * CSS 2.1 Errata Issues
   * Agile spec development process
+  * Media Queries Editorial Issue (Florian)
   * CSS Flexbox: open issues and feedback, LC?
   * CSS Fragmentation: FPWD?
   * length units in matrix() and matrix3d() transform functions
