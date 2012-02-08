@@ -58,8 +58,11 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * CSS 2.1 Errata Issues (cont'd)
   * Media Queries Editorial Issue (Florian)
   * CSS Exclusion: spec scope, shape extraction model, shape syntax...
-  * Line Grid FPWD? Line Module
+
+== Wednesday PM ==
   * CSS Flexbox: open issues and feedback, LC?
+  * Line Grid FPWD? Line Module
+  * CSS3 Writing Modes - update on text-orientation
   * CSS Fragmentation: FPWD?
   * length units in matrix() and matrix3d() transform functions
   * Request to publish CSS 2D Transform and CSS 3D Transform with note pointing to the merged CSS Transform spec. which is in progress.
@@ -70,8 +73,6 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * Animations/Transitions
   * Selectors 4
 
-== Wednesday PM ==
-  * CSS3 Writing Modes - update on text-orientation
 
 
 ===== Proposed Topics =====
