@@ -125,7 +125,7 @@ Some markup that looks logical and used to work will now not work without extra 
 Personally, I think the way example 2 currently works is much more confusing than the way example 3 would work under this proposal.  It makes sense that if you move things behind the plane of the screen, they're obscured by any content.  It doesn't make sense that if you rotate one way and then the opposite way, they don't cancel.
 
 ===== Drawback 3: scaleZ(0) results in singular matrices =====
-Singular matrices make mapping points through transformed elements impossible.
+Singular matrices make mapping points through transformed elements impossible, since mapping a point into the coordinate system of an element requires projecting the point through the inverse of the matrix. Singular matrices cannot be inverted.
 
 ===== Drawback 4: preserve-3d is more resource-intensive =====
 Apparently at least in WebKit, transform-style: preserve-3d invokes a display mode that uses more resources, so it can't be made the default without additional optimization.  I'm not an implementer, so I can't comment on this.  However, in general, I think it's a bad idea to require extra markup by authors to work around lack of optimization in browsers, because the extra markup will have to be required forever and the optimization problem will go away with time.
