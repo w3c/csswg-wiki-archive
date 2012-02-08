@@ -53,8 +53,12 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
 === Wednesday ===
 
 == Wednesday AM ==
+  * Discussion about unprefixing transforms, transitions and animations
+  * Extend Images last call
   * CSS 2.1 Errata Issues (cont'd)
   * Media Queries Editorial Issue (Florian)
+  * CSS Exclusion: spec scope, shape extraction model, shape syntax...
+  * Line Grid FPWD? Line Module
   * CSS Flexbox: open issues and feedback, LC?
   * CSS Fragmentation: FPWD?
   * length units in matrix() and matrix3d() transform functions
@@ -65,8 +69,6 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
 
   * Animations/Transitions
   * Selectors 4
-  * CSS Exclusion: spec scope, shape extraction model, shape syntax...
-  * Line Grid FPWD? Line Module
 
 == Wednesday PM ==
   * CSS3 Writing Modes - update on text-orientation
