@@ -1,0 +1,32 @@
+====== CSS WG Frequently Asked Questions ======
+
+===== www-style =====
+The www-style mailing list is the primary forum for discussing the development of CSS, here are some guidelines and answers to frequently asked questions.
+
+==== start subjects with bracketed topics/specs ====
+When writing an email to www-style, please start the subject with the particular, topic, specification, property in brackets, e.g.
+  * [CSS3-UI][text-overflow] what happens to overflow when you scroll
+  * [CSS4] what's planned for CSS4?
+
+
+==== change the subject when a starting discussion ====
+A lot of emails get posted to www-style (such as minutes) which can spark new / specific discussions.
+
+When replying any such email and following-up on a specific aspect or subject, please start a *new* subject with the particular topic in brackets.
+
+E.g. bad:
+  * RE: [CSSWG] Minutes and Resolutions Paris F2F Monday Morning 2012-02-06: Administrivia, Vendor Prefixes, Property/Value Alias OM
+    * when the actual message is just about prefixes or prefixed values etc.
+
+good:
+  * prefixed values(RE: [CSSWG] Minutes and Resolutions Paris F2F Monday Morning 2012-02-06: Administrivia, Vendor Prefixes, Property/Value Alias OM)
+
+better:
+  * prefixed values (was RE: [CSSWG] Minutes and Resolutions Paris F2F Monday Morning 2012-02-06: Administrivia, Vendor Prefixes, Property/Value Alias OM)
+
+best:
+  * [vendor-prefixes] prefixed values (was RE: [CSSWG] Minutes and Resolutions Paris F2F Monday Morning 2012-02-06: Administrivia, Vendor Prefixes, Property/Value Alias OM)
+
+==== ... ====
+
+This CSS WG FAQ is a stub.
