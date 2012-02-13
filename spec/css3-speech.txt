@@ -28,7 +28,7 @@
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 1</b>: interaction between the 'voice-volume' property and the loudness of 'cue' properties</span></html>
   ;Status : <html><span style="background-color:#EEEEEE; padding:0.5em;"><b>CLOSED</b> [<code>Accepted</code>]</span></html>
-  ;Resolution : __Working Group consensus__ (PENDING CONFIRMATION AT NEXT CONCALL): clarify multiple informative statements that misleadingly firmly associate SSML features with CSS-Speech properties + correct editorial glitch which results in a whole paragraph being normative rather than informative + improve (shorten) the said informative paragraph (as per the email proposal)
+  ;Resolution : __Working Group consensus__: clarify multiple informative statements that misleadingly firmly associate SSML features with CSS-Speech properties + correct editorial glitch which results in a whole paragraph being normative rather than informative + improve (shorten) the said informative paragraph (as per the email proposal). (See http://lists.w3.org/Archives/Public/www-style/2011Nov/0719.html or http://logs.csswg.org/irc.w3.org/css/?date=2011-11-23 )
   ;Raised By : Paul Bagshaw <paul.bagshaw@orange-ftgroup.com> (Co-author of SSML 1.1 and PLS 1.0)
   ;Comment : http://lists.w3.org/Archives/Public/www-style/2011Aug/0494.html
   ;Response : http://lists.w3.org/Archives/Public/www-style/2011Sep/0189.html
@@ -41,7 +41,6 @@
 
 
 ----
-
 ==== Issue 2 ====
 
   ;Summary : <html><span style="background-color:#90EE90;padding:0.5em;"><b>ISSUE 2</b>: 'languages' attribute needed for voice selection with the 'voice-family' property</span></html>
