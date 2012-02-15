@@ -2,20 +2,7 @@
 
 The [[http://www.w3.org/TR/css3-animations/|CSS Animations Module Level 3]] (CSS3-Animations, latest public TR version) defines visual animations using CSS.
 
-===== Current Issues =====
-
 For latest edits/resolutions, see the editors draft:
   * http://dev.w3.org/csswg/css3-animations/
 
-==== Issue 1 ====
-...
-
-
-...
-
-==== Issue n ====
-  ; Summary : 
-  ; Raised by : (person name)
-  ; URL : 
-  ; Proposed Resolution : 
-  ; Status : 
+To raise an issue with the Animations spec, please open a bug [[https://www.w3.org/Bugs/Public/buglist.cgi?product=CSS&component=Animations&resolution=---|in Bugzilla]].
