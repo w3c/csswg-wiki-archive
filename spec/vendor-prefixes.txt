@@ -141,4 +141,5 @@ The prefixes are shown with leading and trailing hyphen, although in some cases 
 -tc-	Tall Components
 -wap-	The WAP Forum
 -webkit-	Apple Safari, Google Chrome etc. (WebKit)
+-weasy-	WeasyPrint
 -xv-	Opera (CSS Speech module)
