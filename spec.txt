@@ -18,6 +18,9 @@ Awaiting implementations, test suites, or actively being revised per implementat
 
 ===== WD =====
 These are being actively developed. Sometimes used to be CRs that need major revision.
+  * [[spec:css3-transforms|CSS Transforms Level 3]]
+  * [[spec:css3-transitions|CSS Transitions Level 3]]
+  * [[spec:css3-animations|CSS Animations Level 3]]
   * [[spec:cssom|CSSOM - CSS Object Module]]
   * [[spec:css3-flexbox|CSS Flexbox Module]]
   * [[spec:css3-images|CSS Images Level 3]]
@@ -30,7 +33,6 @@ These are being actively developed. Sometimes used to be CRs that need major rev
   * [[spec:css3-speech|CSS Speech Module Level 3]]
   * [[spec:css3-grid-layout|CSS Grid Layout]]
   * [[spec:css3-exclusions|CSS Exclusions Module]]
-  * [[spec:css-transforms|CSS 2D and 3D Transforms]]
 ===== brainstorming =====
 This section outlines active possibilities for future specs or notes
   * [[spec:vendor-prefixes|CSS vendor prefixes]] (collecting thoughts about policy/guidance on usage, dropping etc.)
