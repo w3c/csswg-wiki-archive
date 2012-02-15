@@ -1,0 +1,21 @@
+====== css3-transforms issues list ======
+
+The [[http://www.w3.org/TR/css3-transforms/|CSS Transforms Module Level 3]] (CSS3-Transforms, latest public TR version) defines visual transforms using CSS.
+
+===== Current Issues =====
+
+For latest edits/resolutions, see the editors draft:
+  * http://dev.w3.org/csswg/css3-transforms/
+
+==== Issue 1 ====
+...
+
+
+...
+
+==== Issue n ====
+  ; Summary : 
+  ; Raised by : (person name)
+  ; URL : 
+  ; Proposed Resolution : 
+  ; Status : 
