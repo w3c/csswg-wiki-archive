@@ -1,4 +1,4 @@
-====== css3-animations issues list ======
+====== CSS3 Animations ======
 
 The [[http://www.w3.org/TR/css3-animations/|CSS Animations Module Level 3]] (CSS3-Animations, latest public TR version) defines visual animations using CSS.
 
