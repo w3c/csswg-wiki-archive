@@ -1,6 +1,10 @@
-====== css3-transitions issues list =======
+====== css3-transitions issues list ======
+
+The [[http://www.w3.org/TR/css3-transitions/|CSS Transitions Module Level 3]] (CSS3-Transitions, latest public TR version) defines visual transitions using CSS.
 
 ===== Current Issues =====
+For latest edits/resolutions, see the editors draft:
+  * http://dev.w3.org/csswg/css3-transitions/
 
 These were not found based on an exhaustive search.
 
@@ -8,3 +12,14 @@ These were not found based on an exhaustive search.
   ; Summary : unclear whether transitions use the transition properties before-change or after-change
   ; Raised by : Tab Atkins
   ; Proposal : http://lists.w3.org/Archives/Public/www-style/2010Jan/0591.html plus http://lists.w3.org/Archives/Public/www-style/2010Jan/0593.html
+  
+  
+
+...
+
+==== Issue n ====
+  ; Summary : 
+  ; Raised by : (person name)
+  ; URL : 
+  ; Proposed Resolution : 
+  ; Status : 
