@@ -2,19 +2,24 @@
 This section documents problems found in the CSS specs and working drafts. Problems documented here will be addressed by the editors, possibly after discussion in a CSS Working Group meeting, and will result in changes, corrections, clarifications, or no change.
 
 ===== REC or PR =====
-RECOMMENDATIONS!
+RECOMMENDATIONS:
   * [[spec:css2.1|CSS Level 2 Revision 1]]
   * [[spec:css3-color|CSS Color Module Level 3]]
   * [[http://www.w3.org/TR/css3-namespace/|CSS Namespaces Module]]
   * [[spec:css3-selectors|Selectors Level 3]]
-PR
-===== CR =====
+PR:
+  * ...
+===== CR or LC =====
 Awaiting implementations, test suites, or actively being revised per implementation experience.
-  * [[spec:css3-ui|CSS Basic User Interface Module Level 3]] (another LCWD expected)
+CR:
   * [[spec:css-multicol|CSS Multi-Column Layout Module Level 3]]
   * [[spec:mediaqueries|Media Queries Level 3]]
   * [[spec:css-style-attr|CSS Style Attributes]]
+CRLC: (was in CR but sent back to LC per W3C process quirks)
   * [[spec:css3-background|CSS Backgrounds and Borders Module Level 3]]
+  * [[spec:css3-ui|CSS Basic User Interface Module Level 3]]
+LC:
+  * ...
 
 ===== WD =====
 These are being actively developed. Sometimes used to be CRs that need major revision.
