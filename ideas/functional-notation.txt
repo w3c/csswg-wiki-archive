@@ -1,4 +1,6 @@
-====== General Principles ======
+====== Functional Notation Systematization ======
+
+===== General Principles =====
   - Functions group/namespace a set of CSS-like values, and so should abide by general CSS value syntax principles
     - Optionality is handled as for CSS values, as far as possible
     - Ordering should be flexible as much as possible/prudent
