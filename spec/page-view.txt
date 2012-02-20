@@ -403,6 +403,16 @@ If "page" is an element or pseudo-element generated from template and rendered i
 **Proposal:**
 //TODO. Named breaks have been discussed, add a specific proposal here//
 
+===[css3-page]===
+[css3-page] already has this feature, we just need to make sure that it applies to 'overflow:paged'. For example:
+
+<code>
+article h1 { page-break-before: always; page: chapter-start-page; }
+</code>
+
+The above code starts a new page whenever there is an H1, and then uses the @page named "chapter-start-page" as its template.
+
+Even without considering regions and @slot, the "chapter-start-page" could have a different font-size, color, number of columns, column-rules, page area, etc., while the other declarations for H1 could make it like a header, with its own background, height, :after and/or :before pseudo-elements, etc., to help give the page a unique design. With @slot, it could also have other css-3 regions flows in it, and additional content elements.
 ===== Printing generated pages =====
 In many of the page view situation, it is reasonable to expect that user would wish to print the content that is already preseneted in paged manner. They may prefer to either print the exact pages that they see on screen, or re-generate adaptive content for print. Either way, they will be printing content of page view, which may not be the root element of HTML document.
 
