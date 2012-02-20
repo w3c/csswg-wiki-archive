@@ -33,7 +33,7 @@ The uses cases, analysis and proposals found here probably don’t correspond to
 </div>
 </html>
 
-**Proposal:**
+====Proposal:====
   * New value for 'overflow property: **"overflow:paged"**
 
 **Example:**
@@ -52,7 +52,14 @@ This should put the whole document in paged view. If UA is also in full screen m
   iframe.magazine { overflow:paged }
 Presents content of a separate document in paged view. Can be used to build a page viewer with custom UI.
 
+===In addition (Add-On to Proposal):===
+  * **@page** applies to "overflow:paged"
 
+Any item with 'overflow:paged' is treated by @page and related as though it was paged media. Everything in [[http://dev.w3.org/csswg/css3-page/|CSS Paged Media Module Level 3]] applies to it. Thus, you can use @page pseudo-classes, margin boxes with generated content (headers, footers, page numbers via page-based counters, etc.), page breaking rules, named pages, etc. 
+
+If you want a different presentation on-screen than in print, you simply embed the @page rules inside @media rules. 
+
+If the 'size' property creates a page that is larger than the paged element, then traditional scrolling mechanisms can be used to reveal the extra content of that page. Otherwise, 'size' with absolute dimensions can give intrinsic width, height, and aspect ratio to the paged element.
 ===== Paged view with custom controls =====
 
 **Goal:** Add custom controls to paged view.
