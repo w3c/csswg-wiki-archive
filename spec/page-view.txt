@@ -52,7 +52,7 @@ This should put the whole document in paged view. If UA is also in full screen m
   iframe.magazine { overflow:paged }
 Presents content of a separate document in paged view. Can be used to build a page viewer with custom UI.
 
-===In addition (Add-On to Proposal):===
+===In addition... (Add-On to Proposal):===
   * **@page** applies to "overflow:paged"
 
 Any item with 'overflow:paged' is treated by @page and related as though it was paged media. Everything in [[http://dev.w3.org/csswg/css3-page/|CSS Paged Media Module Level 3]] applies to it. Thus, you can use @page pseudo-classes, margin boxes with generated content (headers, footers, page numbers via page-based counters, etc.), page breaking rules, named pages, etc. 
