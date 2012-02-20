@@ -277,6 +277,27 @@ The design can be implemented like this:
   <div class="story"></div>
 </div>
 </code>
+
+===[css3-regions] with [css3-page]===
+[css3-page] already has the concept of different pages having boxes of variable content and style depending on their order, and on certain elements triggering different @page layouts: margin boxes. Margin boxes are created by margin at-rules inside the page context. Margin boxes can accept a subset of CSS properties, just as Regions do. So, in the same way that margin boxes are declared using @margin inside different named or pseudo-classed @page rules, other boxes //within// the "page area" would be created using @slot inside different named or pseudo-classed @page rules. Each @slot could have a 'flow-from' property or 'content' property to give it contents. 'flow-from' makes the @slot into a region. When it there is more content that will fit, it flows to the next region that can contain it, even if that region is on another page. If a page break or 'page' property in another element results in another @page being used that does not contain a region for this flow, then the flow is deferred to a subsequent page that does accept this flow.
+
+<code>
+
+HTML, body { height:100%; margin:0; }
+body { overflow: paged; }
+@page {
+    @slot(0) { flow-from: article-flow; ... }
+    @slot(1) { flow-from: sidebar-flow; ... }
+}
+@page chapter-start-page {
+    @slot(0) { flow-from: article-flow;  ... }
+    @slot(Logo) { content:url(logo.png); position:absolute; top:0; right:0; .. }
+}
+
+article { flow-into: article-flow;  }
+aside { flow-into: sidebar-flow; }
+article h1 { page-break-before: always; page: chapter-start-page; }
+</code>
 ====Ideas====
 //Is it possible to achieve same results with further extensions of 'overflow:paged' and using pseudo-elements?//
 
