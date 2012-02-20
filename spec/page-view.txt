@@ -325,6 +325,9 @@ Selection algorithm also have no restrictions. Selection of specific template ca
   * event **regionLayoutUpdate** to inform about dynamic content change
 Which is enough for generating pages this way
 
+===[css3-regions] with [css3-page]===
+See previous section about combining css3-page @page with regions and a new @slot feature. Then imagine different variations of that sample code embedded in different media queries. @page provides named @page rules that act as templates, and media queries would let you use different @page rules and templates for varying orientations and screen sizes.
+
 ===IDPF page templates proposal===
 [[http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml | IDPF Page Templates Proposal]] adds 
   * declarative syntax for specifying page templates (called "page masters")
