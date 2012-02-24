@@ -146,23 +146,24 @@ The prefixes are shown with leading and trailing hyphen, although in some cases 
 -weasy-	Weasy Print
 -xv-	Opera (CSS Speech module)
 
-===== Known prefixes =====
-The following prefixes are reserved for semantics to be defined by the CSS WG. This may or may not happen. They must not be used with different meaning. 
+===== Reserved prefixes =====
+The following prefixes are reserved for semantics to be defined by the CSS WG. This 
+may or may not happen. They must not be used with different meaning. 
 All combinations of any of the following prefixed followed by any combination of digits 0–9, the hyphen character ‘-’ and the letter ‘x’ is also reserved, e.g. ''-css3-'', ''-svg-2-'', ''-wd-2012-'' and ''-draftX-''.
 
 === W3C bodies and specifications ===
 -w3-	W3C – World Wide Web Consortium
--w3c-	ditto
+-w3c-	:::
 -css-	CSS – Cascading Stylesheets
 -csswg-	CSS Working Group
--wg-	ditto
+-wg-	:::
 -svg-	SVG – Scalable Vector Graphics
 -svgwg-	SVG Working Group
 -xsl-	XSL – Extensible Stylesheet Language (Family)
 -xslfo-	XSL Formatting Objects
--fo-	ditto
+-fo-	:::
 -xppl-	XPPL – XML Print and Page Layout Working Group
--xml-	ditto
+-xml-	:::
 
 === Generic statuses ===
 -alpha-	“alpha”
@@ -170,24 +171,27 @@ All combinations of any of the following prefixed followed by any combination of
 -expires-	“expires”, “expiration date”
 -exp-	“experimental” or “expires”
 -x-	“experimental”
+-test-	“test”, “in testing”
+
 -draft-	“draft”
 -pd-	“proposed draft”, “proposal”, “public draft”, “private draft”
--ed-	“Editor’s Draft”
--wd-	“Working Draft”
--lc-	“Last Call Working Draft”
--lcwd-	ditto
--cr-	“Candidate Recommendation”
--pr-	“Proposed Recommendation”
--rec-	“Recommendation”
--tr-	ditto
+-ed-	Editor’s Draft
+-wd-	Working Draft
+-lc-	Last Call Working Draft
+-lcwd-	:::
+-cr-	Candidate Recommendation
+-pr-	Proposed Recommendation
+-rec-	Recommendation
+-tr-	:::
 
 === For use in examples or discussion ===
 -vendor-	Example vendor prefix
--vnd-	Example vendor prefix
+-vnd-	:::
 -ua-	Example user agent prefix
--browser-	Example user agent prefix
+-browser-	:::
 -org-	Example third party prefix
 -spec-	Example third party specification prefix
--xmp-	Example prefix
--pre-	Example prefix
--prefix-	Example prefix
+-example-	Example prefix
+-xmp-	:::
+-pre-	:::
+-prefix-	:::
