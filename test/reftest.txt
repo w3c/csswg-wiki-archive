@@ -13,13 +13,13 @@ Here is an example of a reftest that is also a self-describing test: **[[http://
 
 A reftest has three parts:
 
-  ; test file : The test file. This must follow the [[test:css2.1:format|CSS test format guidelines]].
+  ; test file : The test file. This must follow the [[format|CSS test format guidelines]].
   ; reference file : This is a different, usually simpler, file that results in the same rendering as the test. The reference file must not use the same features that are being tested. Sometimes more than one reference file is required.
   ; reftest comparison : A reference link or a line in a reftest "manifest" file that says which files are to be compared.
 
 ==== The Reftest Test ====
 
-The test file uses the technology to be tested. This file must follow the [[test:css2.1:format|CSS test format guidelines]].
+The test file uses the technology to be tested. This file must follow the [[format|CSS test format guidelines]].
 
 In addition to matching a reftest reference, the test may also function as an self-describing test. This is preferred because having the description lets the tester check that the test and the reference are not //both// being rendered incorrectly and triggering a false pass, and because designing it for an obvious fail makes it easier to find what went wrong when the reftest does fail.
 
@@ -39,7 +39,7 @@ For example, if two self-describing tests ''list-style-type-003.xht'' and ''list
 
 === Simplified Reference Format ===
 
-Like the format for the test file, the reftest reference format is also XHTML in UTF-8 with bitmap images in PNG format. Unlike the format for the test file, there is no metadata except for the [[test:css2.1:format#credits|author credits]] and optional [[test:css2.1:format#reference-links|reference links]].
+Like the format for the test file, the reftest reference format is also XHTML in UTF-8 with bitmap images in PNG format. Unlike the format for the test file, there is no metadata except for the [[format#credits|author credits]] and optional [[format#reference-links|reference links]].
 
 <code html>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -65,7 +65,7 @@ There are several common references, such as those used for parsing and selector
 
 === Reference Links ===
 
-In order to designate which files are to be compared to the test file, and the nature of the comparison, the test file must have one or more links to the reference files as described in the [[test:css2.1:format#reference-links|test format]]. If multiple reference files must be matched, each reference file should, in turn, link to the next reference.
+In order to designate which files are to be compared to the test file, and the nature of the comparison, the test file must have one or more links to the reference files as described in the [[format#reference-links|test format]]. If multiple reference files must be matched, each reference file should, in turn, link to the next reference.
 
 === The Reftest Manifest ===
 
