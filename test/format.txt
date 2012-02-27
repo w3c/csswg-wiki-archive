@@ -1,6 +1,6 @@
 ====== Test Format ======
 
-This page describes the test format. The requirements are explained below; to make things easier we've also provided a template that you can copy.
+This page describes the standard test format for CSSWG [[test:selftest|self-describing tests]] and [[test:reftest|reftests]]. The requirements are explained below; to make things easier we've also provided a template that you can copy.
 
 The recommended structure for CSS tests is a [[selftest|self-describing]] [[reftest|reftest]]. If it's possible for a test to be a [[reftest|reftest]], it must be a reftest. (We prefer reftests to also be self-describing or otherwise easy for humans to interpret, but this is not a requirement.)
 
@@ -8,7 +8,7 @@ Additional guidelines on designing the content of the test can be found in the [
 
 ===== Template for New Tests =====
 
-The submission format for CSS2.1 tests is XHTML in UTF-8. Images must be in PNG format. A set of scripts will generate the various formats from this source version. Tests must be //valid// XHTML, so please [[http://validator.w3.org/|validate your tests]] before submission.
+The submission format for CSSWG tests is XHTML in UTF-8. Images must be in PNG format. A set of scripts will generate the various formats from this source version. Tests must be //valid// XHTML, so please [[http://validator.w3.org/|validate your tests]] before submission.
 
 A template for new tests follows. Copy and paste the code below into a new file or save {{test:css2.1:test-topic-000.xht|this template file}} and replace the capitalized parts as described below.
 
