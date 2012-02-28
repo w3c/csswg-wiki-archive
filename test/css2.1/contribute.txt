@@ -41,7 +41,6 @@ Fixes to existing tests are also subject to the [[test:css2.1:review|review proc
 
 ===== Other Ways to Contribute =====
 
-  * You can subscribe to the [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite mailing list]] and [[test:css2.1:review|review]] test submissions as they come in.
+  * You can review test submissions in [[http://test.csswg.org/shepherd/|Shepherd]] as they come in.
   * You can help fix test submissions in response to review comments.
-  * You can go through the issues marked as fixed in the [[test:css2.1:issues|Known Problems list]], verify that they are indeed fixed in the [[http://test.csswg.org/suites/css2.1/latest/|latest version]], and remove them from the known bugs list.
-
+  * You can convert self-describing tests into [[test:reftest|reftests]].
