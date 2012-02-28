@@ -1,5 +1,9 @@
 ====== Fonts for CSS Testing ======
 
+If you don't have the CSS testing fonts installed, many tests will appear to fail! Install the [[http://www.w3.org/Style/CSS/Test/Fonts/|CSS Testing Fonts]] if you want accurate test results.
+
+===== The Ahem Font =====
+
 Many of the tests in the CSS Test Suite rely on the [[http://dev.w3.org/CSS/fonts/ahem/|Ahem font]]. Ahem's glyphs are all rectangles, which makes it easy to test the inline box model. More details are available in the [[http://dev.w3.org/CSS/fonts/ahem/README|Ahem README file]].
 
 The Ahem font is available in several formats for different systems. If we are missing yours, and you can create one, we would welcome your contribution. Send us a message on the [[http://lists.w3.org/Archives/Public/public-css-testsuite|public-css-testsuite mailing list]].
@@ -22,6 +26,6 @@ The Ahem font is available in several formats for different systems. If we are m
   - Alternatively, drag and drop in either ''/Library/Fonts'' (available for all users on the machine) or ''~/Library/Fonts'' (available to current user only)
 
 
-==== Additional Fonts ====
+===== Additional Fonts =====
 
-Some tests require additional "CSSTest" fonts. You can download a [[http://www.w3.org/Style/CSS/Test/Fonts/css-testsuite-fonts-v1.zip|zip file]] of those and the Ahem font.
+Some tests require [[http://www.w3.org/Style/CSS/Test/Fonts/|additional fonts]]. A zipfile of all CSS testing fonts is available.
