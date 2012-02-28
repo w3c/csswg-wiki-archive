@@ -5,11 +5,14 @@ A //reftest// is a test that compares the visual output of one file (the testcas
 A test can be both a [[test:selftest|self-describing tests]] and a reftest at the same time. This is preferable, since it allows for both machine comparison and manual verification--particularly useful if the test and the reference both render incorrectly in the same way!
 
 <note example>
+
 Here is an example of a reftest that is also a self-describing test:
+
   ; [[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/rotate-90deg-001.xht|TEST]]
   : The test file uses a fuchsia top border and an orange background to create a two-color square block that is then rotated 90deg using the ''transform'' property.
   ; [[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/reftest/rotate-90deg-001-ref.xht|REF]]
   : The reference file achieves the intended rendering by using a fuchsia left border and an orange background and no ''transform''.
+
 </note>
 
 In some cases, a test cannot be a reftest. For example, there is no way to create a reference for underlining, since the position and thickness of the underline depends on the UA, the font, and/or the platform. In such cases, a [[test:selftest|self-describing test]] must be used. However, once it's established that underlining an inline element works, it's possible to construct a reftest for the correct //propagation// of underlines from blocks to their descendant text, e.g. by constructing a reference that applies underlining to a ''<span>'' wrapped around the underlined text.
