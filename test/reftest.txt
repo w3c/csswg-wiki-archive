@@ -71,7 +71,7 @@ There are several common references, such as those used for parsing and selector
 
 ==== The Reftest Comparison Links ====
 
-In order to designate which files are to be compared to the test file, and the nature of the comparison, the test file must have one or more links to the reference files as described in the [[format#reference-links|test format]].
+In order to designate which files are to be compared to the test file, and the nature of the comparison, the test file must have one or more links to the reference files [[format#reference-links|as described in the test format]].
 
   * If multiple reference files must be matched, each reference file should, in turn, link to the next reference.
   * If multiple renderings are conforming, each possible rendering should have its own reference file linked from the test file.
