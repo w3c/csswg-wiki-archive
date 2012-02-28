@@ -2,12 +2,13 @@
 
 A //reftest// is a test that compares the visual output of one file (the testcase) with the output of one or more other files (the references). Unlike the standard [[test:selftest|self-describing tests]], reftests can be scripted to run and report results automatically.
 
-A test can be both a self-describing test and a reftest at the same time. 
-
+A test can be both a [[test:selftest|self-describing tests]] and a reftest at the same time. This is preferable, since it allows for both machine comparison and manual verification--particularly useful if the test and the reference both render incorrectly in the same way!
 
 <note example>
 Here is an example of a reftest that is also a self-describing test: **[[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/rotate-90deg-001.xht|TEST]] & [[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/reftest/rotate-90deg-001-ref.xht|REF]]**
 </note>
+
+In some cases, a test cannot be a reftest. For example, there is no way to create a reference for underlining, since the position and thickness of the underline depends on the UA, the font, and/or the platform. In such cases, a [[test:selftest|self-describing test]] must be used. However, once it's established that underlining an inline element works, it's possible to construct a reftest for the correct //propagation// of underlines from blocks to their descendant text, e.g. by constructing a reference that applies underlining to a ''<span>'' wrapped around the underlined text.
 
 ===== Components of a Reftest =====
 
@@ -15,7 +16,7 @@ A reftest has three parts:
 
   ; test file : The test file. This must follow the [[format|CSS test format guidelines]].
   ; reference file : This is a different, usually simpler, file that results in the same rendering as the test. The reference file must not use the same features that are being tested. Sometimes more than one reference file is required.
-  ; reftest comparison : A reference link or a line in a reftest "manifest" file that says which files are to be compared.
+  ; reftest comparison : A reference link or a line in a reftest "manifest" file that says which files are to be compared and whether they are to render identically or differently.
 
 ==== The Reftest Test ====
 
@@ -67,13 +68,15 @@ There are several common references, such as those used for parsing and selector
 
 In order to designate which files are to be compared to the test file, and the nature of the comparison, the test file must have one or more links to the reference files as described in the [[format#reference-links|test format]]. If multiple reference files must be matched, each reference file should, in turn, link to the next reference.
 
-=== The Reftest Manifest ===
+===== The Reftest Manifest =====
 
-The use of reftest manifest files in the test source is deprecated in favor of reference links. The test build process produces reftest manifests as needed for input into testing tools.
+Note: The use of reftest manifest files in the test source is deprecated in favor of reference links.
 
-The reftest manifest is a plain text file that lists test-reference pairs for comparison. Each line starts with ''=='' to indicate equality or ''!='' to indicate inequality. (Mozilla has a more sophisticated manifest format: we are not using its advanced features here at W3C.) This is followed by a space, the relative path to the test file, another space, and the relative path to the reference.
+The reftest manifest is a plain text file that lists test-reference pairs for comparison. The test build process produces reftest manifests as needed for input into testing tools.
 
-If a test has multiple ''=='' references then any of the references may match the test. If a test has multiple ''!='' references, then none of those references may match the test. The reference file may also have entries in the manifest, in this case, the renderings of the references must match each other as well in order to consider the test as passed.
+Each line starts with ''=='' to indicate equality or ''!='' to indicate inequality. This is followed by a space, the relative path to the test file, another space, and the relative path to the reference.
+
+If a test has multiple ''=='' references then at least one of those references must match the test. If a test has multiple ''!='' references, then none of those references may match the test. The reference file may also have entries in the manifest: in this case, the renderings of the references must match each other as well in order to consider the test as passed.
 
 White space followed by ''#'' indicates the start of a comment that runs until the end of the line. A line starting with ''#'' is also a comment.
 
@@ -89,3 +92,18 @@ Here is an example of a reftest manifest.
 == ../test-topic-002.xht test-topic-000-ref.xht # note same reference as test 000
 </code>
 </note>
+
+[[http://mxr.mozilla.org/mozilla-central/source/layout/tools/reftest/README.txt|Mozilla's manifest format]], which is more-or-less a superset of the W3C format, allows annotations such as whether the test is expected to pass or fail. These can be useful when setting up automated regression testing.
+
+===== Converting to Reftest =====
+
+Most of the CSS2.1 tests are self-describing tests that //could// be reftests, but are not. (They were written before the reftest format was adopted.) They are slowly being converted into reftests, and your help in this effort is welcome. Some guidelines are offered below:
+
+  * If the test uses Ahem, make sure its font size is a multiple of 5px, otherwise it may render inconsistently (due to rounding errors introduced by certain platforms' font APIs).
+  * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
+  * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
+
+==== Unreftestable ====
+
+The following is a list of CSS2.1 tests that appear to be unreftestable:
+
