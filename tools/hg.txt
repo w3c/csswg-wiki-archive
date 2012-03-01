@@ -37,12 +37,15 @@ In your favorite plain text editor, create a file named ".hgrc" in your home dir
   [defaults]
   commit = -v
 
+  [extensions]
+  rebase = 
+  
   [auth]
   # CSSWG Test Repository
   csswg.prefix = https://hg.csswg.org/
   csswg.username = your_csswg.org_username
   csswg.password = your_csswg.org_password #optional
-
+  
   # CSSWG Spec Repository
   w3c.prefix = https://dvcs.w3.org/hg/
   w3c.username = your_w3.org_username
