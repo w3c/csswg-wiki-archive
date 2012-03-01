@@ -76,9 +76,9 @@ Note: By default, the directory name will match the one on the server. If you wa
 
 Once this command is complete, you now have your very own copy of the repository. You can begin making changes at will.
 
-==== Working With Mercurial ====
+===== Working With Mercurial =====
 
-=== Resyncing Your Repository: hg pull ===
+==== Resyncing Your Repository: hg pull ====
 
 You can resync your copy of the repository with the central copy by pulling:
 
@@ -88,7 +88,7 @@ FIXME Explain how to identify and deal with conflicts.
 
 If you have committed changes that you haven't yet pushed to the server, you may need to merge. See below.
 
-=== Listing Changed Files ===
+==== Listing Changed Files ====
 
 While you are working, you can see an overview of your changes by entering:
   hg status   # all files in the repository
@@ -96,7 +96,7 @@ While you are working, you can see an overview of your changes by entering:
 
 This command will give a list of files that differ from the current state of your repository. Modified files will have an "M" listed before their name, new files will have a "?", missing files will have a "!".
 
-=== Diffs and Patches ===
+==== Diffs and Patches ====
 
 You can also see the actual changes you've made by asking for a diff:
   hg diff   # all files in the repository
@@ -105,9 +105,9 @@ You can also see the actual changes you've made by asking for a diff:
 You can create a patch file by redirecting to a file: Append '' > filename.patch'' to the diff command, e.g.
   hg diff > filename.patch
 
-==== Managing Files ====
+===== Managing Files =====
 
-=== Adding new files: hg add ===
+==== Adding new files: hg add ====
 
 If you create a new file or directory, you'll need to tell Mercurial to start tracking it. You do this by the following:
   hg add filename
@@ -116,14 +116,14 @@ Adding a directory recursively adds all of its contents.
 
 Once you add a file it'll show up in the status listing with an "A". Note that newly added files aren't actually in the repository until you commit them. If you omit the filename, all unknown files and directories in the current directory are added.
 
-=== Removing files ===
+==== Removing files: hg remove ====
 
 To remove a file from the repository type:
   hg remove filename
   
 Once a file is removed, it'll show up in the status listing with a "R". The file is removed from your working directory immediately, but it isn't removed from the repository until your next commit.
 
-=== Reverting changes ===
+==== Reverting changes: hg revert ====
 
 If you decide you don't want to keep changes you made to a file, or removed a file by mistake, you can restore to the last committed version by typing:
   hg revert filename
@@ -152,7 +152,7 @@ If you received an error message about "heads", you likely forgot to pull, updat
 
 If you have a long commit message, you can leave out the ''-m "Commit message"'' part: Mercurial will fire up the editor you mentioned in your config file so you can comfortably edit your commit message.
 
-===== Merging =====
+==== Merging ====
 
 When you pull, if you have committed changes to your repository, and others have pushed changes to the central repository, Mercurial automatically creates a branch to track the different lines of work. You'll know this happened if you see a message like:
   added 2 changesets with 1 changes to 1 files (+1 heads)
@@ -171,7 +171,7 @@ You can also [[http://mercurial.selenic.com/wiki/MergeProgram|select a merge pro
 
 Once the merge is complete (and you've resolved any conflicts), you'll need to commit it.
 
-===== Advanced: Offline Commits =====
+==== Advanced: Offline Commits ====
 
 Mercurial allows you to commit changes to your local copy of the repository, allowing you to save your work in stages (and assign separate commit messages to each stage) without communicating with the central server. This is why ''hg commit'' and ''hg push'' are separate commands. Note that if you do this, you'll need to get comfortable with ''hg merge'' and/or ''hg rebase''.
 
