@@ -36,7 +36,7 @@ In your favorite plain text editor, create a file named ".hgrc" in your home dir
   
   [defaults]
   commit = -v
-
+  
   [extensions]
   rebase = 
   
