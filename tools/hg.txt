@@ -20,9 +20,9 @@ The remainder of this guide will focus on the command-line Mercurial client "hg"
 
 ==== Setting up Mercurial Preferences ====
 
-You can store basic settings for Mercurial in your config file. [[http://www.selenic.com/mercurial/hgrc.5.html|Detailed instructions for the config file]] are available, but for now, this guide will focus only on setting up the basics.
+Note: [[http://www.selenic.com/mercurial/hgrc.5.html|Detailed instructions for the config file]] are available, but for now, this guide will focus only on setting up the basics.
 
-In your favorite plain text editor, create a file named ".hgrc" in your home directory and enter the following:
+Create a file in your home directory called ".hgrc", or "%USERPROFILE%\mercurial.ini" on Windows.  Give it the following contents, but with your name, email, username, password, and editor replaced appropriately:
 
   [ui]
   username = Your Full Name <your@email.address.example>
