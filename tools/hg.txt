@@ -99,7 +99,13 @@ While you are working, you can see an overview of your changes by entering:
   hg status   # all files in the repository
   hg status . # only files in this directory
 
-This command will give a list of files that differ from the current state of your repository. Modified files will have an "M" listed before their name, new files will have a "?", missing files will have a "!".
+This command will give a list of files that differ from the current state of your repository, marking each with a status code before it's name:
+
+|M|Modified file|
+|?|File not tracked by Mercurial|
+|!|Missing file|
+|A|Added file|
+|R|Removed file|
 
 ==== Diffs and Patches ====
 
