@@ -189,10 +189,7 @@ When you pull, if you have committed changes to your repository (but haven't pus
 What this means is that you have to merge the two lines of work before you can push back to the central repository. To merge, simply type:
   hg merge
 
-In most cases Mercurial will be able to handle the merge completely by itself. If both you and others have changed the same area in the same files, there may be a conflict, which you will need to resolve manually. Type
-  hg diff
-
-to see what's changed and fix it.
+In most cases Mercurial will be able to handle the merge completely by itself. If both you and others have changed the same area in the same files, there may be a conflict, which you will need to resolve manually. Type ''hg diff'' to see what's changed and fix it.
 
 <note>
 You can also [[http://mercurial.selenic.com/wiki/MergeProgram|select a merge program]] in place of "internal:merge" in your ''.hgrc''. The merge program will help you resolve conflicts between your work and others' after pulling from the central repository. (With "internal:merge", Mercurial will leave conflict markers in your source similar to Subversion or other systems.)
