@@ -135,6 +135,8 @@ If you decide you don't want to keep changes you made to a file, or removed a fi
 
 ===== Submitting Changes =====
 
+==== Commit and Push ====
+
 Note: Before you submit your changes, it's a good idea to review them by getting a diff.
 
 When you're sure you want to push to the server, **first make sure you pull again**, then commit and push your changes. Like this:
@@ -143,12 +145,12 @@ When you're sure you want to push to the server, **first make sure you pull agai
   hg commit -m "Commit message explaining your changes"
   hg push
 
-If there's a conflict after you pull, make sure you fix it before you continue with the merge!
+If there's a **conflict** after you pull, make sure you fix it before you continue with the merge!
 
 <note important>
 By default, //all// modified, added or removed files will be committed into your repository, not just those in the current directory.
 
-You can commit individual files by specifying their names at the end of the ''hg commit'' command. You can use ''.'' to commit all changes in the current directory, e.g.
+You can commit individual files by specifying their names at the end of the ''hg commit'' command. Use ''.'' to commit all changes in the current directory, e.g.
   hg commit -m "Fix all typos in this directory" .
 </note>
 
