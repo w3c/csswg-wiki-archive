@@ -79,6 +79,17 @@ The first step is to clone the central repository to your own machine.
 
 Note: By default, the directory name will match the one on the server. If you want to use a different name, enter it at the end of the command.
 
+You should see output like this:
+  destination directory: test
+  requesting all changes
+  adding changesets
+  adding manifests
+  adding file changes
+  added 78 changesets with 799 changes to 642 files
+  updating to branch default
+  137 files updated, 0 files merged, 0 files removed, 0 files unresolved
+This has now created a directory called ''test'' containing all of the test repository contents.
+
 Once this command is complete, you now have your very own copy of the repository. You can begin making changes at will.
 
 ===== Working With Mercurial =====
