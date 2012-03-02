@@ -103,7 +103,7 @@ This command will give a list of files that differ from the current state of you
 
 |M|Modified file|
 |?|File not tracked by Mercurial|
-|!|Missing file|
+|!|Missing file (deleted, but not removed)|
 |A|Added file|
 |R|Removed file|
 
