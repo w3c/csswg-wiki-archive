@@ -140,7 +140,6 @@ Note: Before you submit your changes, it's a good idea to review them by getting
 When you're sure you want to push to the server, **first make sure you pull again**, then commit and push your changes. Like this:
 
   hg pull -u
-  hg merge
   hg commit -m "Commit message explaining your changes"
   hg push
 
