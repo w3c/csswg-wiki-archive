@@ -210,9 +210,9 @@ If you are used to using Subversion or CVS, the following commands are roughly e
 
   cvs update  == svn update  ==  hg pull --u
   cvs commit  == svn commit  ==  hg commit ; hg push
-     ???      == svn status  ==  hg status
+  cvs stat    == svn status  ==  hg status
   cvs diff -u == svn diff    ==  hg diff
-  cvs add     == svn remove  ==  hg add
+  cvs add     == svn add     ==  hg add
   cvs remove  == svn remove  ==  hg remove
   
 Of course, there's a lot more to Mercurial, but that's beyond the scope of this document.
