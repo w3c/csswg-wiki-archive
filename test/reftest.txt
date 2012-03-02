@@ -140,7 +140,7 @@ The following is a list of 19 CSS2.1 tests that appear to be unreftestable:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-101.htm
 |[RC6] floats-101]] **Reasons why**: I do not remember right now.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-143.htm
-|[RC6] floats-143]] **Reasons why**: When using the same sans-serif font, different browsers will use a different offsetWidth for PA and for SS. For example, when using "DejaVu Sans" font, Chrome 17 will use 48px for "PA" and then 46px for "SS" while Opera 11.61 will use 45px for both "PA" and "SS". Used width of text nodes is impredictable.
+|[RC6] floats-143]] **Reasons why**: When using the same sans-serif font, different browsers will use a different offsetWidth for the text node "PA" and for the text node "SS". For example, when using "DejaVu Sans" font, Chrome 17.0.963.56 will use 48px for "PA" and then 46px for "SS" while Firefox 10.0.2 and Opera 11.61 will use 45px for both "PA" and "SS". Used width of text nodes is impredictable.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-146.htm
 |[RC6] floats-146]] **Reasons why**: 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-151.htm
