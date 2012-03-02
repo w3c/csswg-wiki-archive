@@ -110,6 +110,11 @@ You can also see the actual changes you've made by asking for a diff:
 You can create a patch file by redirecting to a file: Append '' > filename.patch'' to the diff command, e.g.
   hg diff > filename.patch
 
+==== Reverting changes: hg revert ====
+
+If you decide you don't want to keep changes you made to a file, or removed a file by mistake, you can restore to the last committed version by typing:
+  hg revert filename
+
 ===== Managing Files =====
 
 ==== Adding new files: hg add ====
@@ -128,10 +133,19 @@ To remove a file from the repository type:
   
 Once a file is removed, it'll show up in the status listing with a "R". The file is removed from your working directory immediately, but it isn't removed from the repository until your next commit.
 
-==== Reverting changes: hg revert ====
+==== Renaming and Moving Files: hg move ====
 
-If you decide you don't want to keep changes you made to a file, or removed a file by mistake, you can restore to the last committed version by typing:
-  hg revert filename
+To move or rename a file or directory:
+  hg move old_location new_location
+
+This will preserve history.
+
+==== Copies and Forks: hg copy =====
+
+To copy a file or directory:
+  hg copy original copied
+
+This will preserve history in both copies, effectively forking the file.
 
 ===== Submitting Changes =====
 
