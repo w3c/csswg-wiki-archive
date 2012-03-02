@@ -172,7 +172,7 @@ Use ''.'' to commit only changes in the current directory, e.g.
 
 At this point your changes will be available on the server to other users.
 
-If you received an error message about "heads", someone else pushed just after you pulled and before you pushed. The error message describes re-trying the push with the "-f" option to force it working. DON'T DO THIS. Doing this would create a branch in the central repository. Pull, merge, commit, then try the push again. See the section below about merging.
+If you received an error message about "heads", it means someone else pushed just after you pulled and before you pushed. The error message describes re-trying the push with the "-f" option to force it working. DON'T DO THIS. Doing this would create a branch in the central repository. Pull, merge, commit, then try the push again. See the section below about merging.
 
 ==== Merging ====
 
