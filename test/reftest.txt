@@ -116,40 +116,40 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
 
 The following is a list of 19 CSS2.1 tests that appear to be unreftestable:
 
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c414-flt-000.htm
-|[nightly-unstable] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done.
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5523-width-000.htm|[nightly-unstable] c5523-width-000]] **Reasons why**: the baseline line in a line box when/where there is a taller inline box than the set line height is not predictable. "The inline-level boxes are aligned vertically according to their 'vertical-align' property. (...) If such boxes are tall enough, there are multiple solutions and **CSS 2.1 does not define the position of the line box's baseline**" [[http://www.w3.org/TR/CSS21/visudet.html#line-height|CSS 2.1, section 10.8, Line height calculations]]
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c565-list-pos-001.htm
-|[nightly-unstable] c565-list-pos-001]] **Reasons why**: list marker position
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
+|[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5523-width-000.htm|[RC6] c5523-width-000]] **Reasons why**: the baseline line in a line box when/where there is a taller inline box than the set line height is not predictable. "The inline-level boxes are aligned vertically according to their 'vertical-align' property. (...) If such boxes are tall enough, there are multiple solutions and **CSS 2.1 does not define the position of the line box's baseline**" [[http://www.w3.org/TR/CSS21/visudet.html#line-height|CSS 2.1, section 10.8, Line height calculations]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c565-list-pos-001.htm
+|[RC6] c565-list-pos-001]] **Reasons why**: list marker position
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5524-height-000.htm
-|[nightly-unstable] c5524-height-000]] **Reasons why**: the baseline line in a line box when/where there is a taller inline box than the set line height is not predictable. "The inline-level boxes are aligned vertically according to their 'vertical-align' property. (...) If such boxes are tall enough, there are multiple solutions and **CSS 2.1 does not define the position of the line box's baseline**" [[http://www.w3.org/TR/CSS21/visudet.html#line-height|CSS 2.1, section 10.8, Line height calculations]]
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c566-list-stl-001.htm
-|[nightly-unstable] c566-list-stl-001]] **Reasons why**: list image position.
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c564-list-img-000.htm
-|[nightly-unstable] c564-list-img-000]] **Reasons why**: list image position.
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c563-list-type-001.htm
-|[nightly-unstable] c563-list-type-001]] **Reasons why**: list image position.
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/inline-formatting-context-023.htm
-|[nightly-unstable] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5510-padn-000.htm
-|[nightly-unstable] c5510-padn-000]] **Reasons why**:  [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0010.html|Fractional pixel issues in c5510-padn-000]]
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/margin-collapse-164.htm
-|[nightly-unstable] margin-collapse-164]] **Reasons why**: As of today, March 1st 2012, it is still not established officially if the test is valid or invalid, correct or incorrect.
+|[RC6] c5524-height-000]] **Reasons why**: the baseline line in a line box when/where there is a taller inline box than the set line height is not predictable. "The inline-level boxes are aligned vertically according to their 'vertical-align' property. (...) If such boxes are tall enough, there are multiple solutions and **CSS 2.1 does not define the position of the line box's baseline**" [[http://www.w3.org/TR/CSS21/visudet.html#line-height|CSS 2.1, section 10.8, Line height calculations]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c566-list-stl-001.htm
+|[RC6] c566-list-stl-001]] **Reasons why**: list image position.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c564-list-img-000.htm
+|[RC6] c564-list-img-000]] **Reasons why**: list image position.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c563-list-type-001.htm
+|[RC6] c563-list-type-001]] **Reasons why**: list image position.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/inline-formatting-context-023.htm
+|[RC6] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5510-padn-000.htm
+|[RC6] c5510-padn-000]] **Reasons why**:  [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0010.html|Fractional pixel issues in c5510-padn-000]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-164.htm
+|[RC6] margin-collapse-164]] **Reasons why**: As of today, March 1st 2012, it is still not established officially if the test is valid or invalid, correct or incorrect.
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/line-height-125.htm
 |[nightly-unstable] line-height-125]] **Reasons why**: the offsetHeight of FAIL varies from one browser to another and when using a different font. When using the same font type ("Liberation Serif"), the offsetHeight of FAIL is 57px in Chrome 17 and 56px in Firefox 10.0.2 and Opera 11.61. With other font types, there is and should be still a 1px difference.
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/floats-101.htm
-|[nightly-unstable] floats-101]] **Reasons why**: I do not remember right now.
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/floats-143.htm
-|[nightly-unstable] floats-143]] **Reasons why**: I do not remember right now.
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/floats-146.htm
-|[nightly-unstable] floats-146]] **Reasons why**: 
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/floats-151.htm
-|[nightly-unstable] floats-151]] **Reasons why**: the offsetWidth of the div varies from one browser to another.
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5525-fltwrap-000.htm
-|[nightly-unstable] c5525-fltwrap-000]] **Reasons why**: Precise positioning of floats can be tough to figure out and may vary from one browser to another. Under such difficulty, there may be a real browser bug affecting one or 2 browsers. Creating a reftest is tricky because you want to avoid triggering an hidden or known browser bug when creating the reftest.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-101.htm
+|[RC6] floats-101]] **Reasons why**: I do not remember right now.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-143.htm
+|[RC6] floats-143]] **Reasons why**: I do not remember right now.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-146.htm
+|[RC6] floats-146]] **Reasons why**: 
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-151.htm
+|[RC6] floats-151]] **Reasons why**: the offsetWidth of the div varies from one browser to another.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5525-fltwrap-000.htm
+|[RC6] c5525-fltwrap-000]] **Reasons why**: Precise positioning of floats can be tough to figure out and may vary from one browser to another. Under such difficulty, there may be a real browser bug affecting one or 2 browsers. Creating a reftest is tricky because you want to avoid triggering an hidden or known browser bug when creating the reftest.
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-weight-016.htm
 |[nightly-unstable] font-weight-016]] **Reasons why**: it's probably impossible to create a reftest for this as it is impossible to know in advance how font-weight characters will affect width. It varies from one browser to another.
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-size-118.htm
 |[nightly-unstable] font-size-118]] **Reasons why**: 'font-size: smaller' is impossible to convert to an absolute value: I explained all this in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Feb/0011.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2012Feb/0011.html]]
-  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/line-height-applies-to-010.htm
-|[nightly-unstable] line-height-applies-to-010]] **Reasons why**: 
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/line-height-applies-to-010.htm
+|[RC6] line-height-applies-to-010]] **Reasons why**: 
