@@ -67,12 +67,12 @@ If you access the web through a proxy, you'll also need to set that up now. [[ht
 
 At some point you'll be dealing with resolving merge conflicts. The above setup will leave merge markers in your files similar to CVS or Subversion. You may find it easier to install and configure an [[http://mercurial.selenic.com/wiki/MergeProgram|interactive merge program]].
 
-==== Initial clone of the repository ====
+==== Initial Clone Of The Central Repository ====
 
 The first step is to clone the central repository to your own machine.
 
 ** CSSWG Test Repository **
-  hg clone https://hg.csswg.org/test
+  hg clone https://hg.csswg.org/test/
 
 ** CSSWG Spec Repository **
   hg clone https://dvcs.w3.org/hg/csswg/
@@ -80,9 +80,10 @@ The first step is to clone the central repository to your own machine.
 ** FXTF Spec Repository **
   hg clone https://dvcs.w3.org/hg/FXTF/
 
-Note: By default, the directory name will match the one on the server. If you want to use a different name, enter it at the end of the command.
+Once this command is complete, you now have a working directory that also contains your very own local repository (in a hidden directory named ".hg"). Your local repository is, at this point, an identical clone of the central repository. You can begin making changes in your working directory at will. In general, do not modify the ".hg" directory directly.
 
-Once this command is complete, you now have your very own copy of the repository. You can begin making changes at will.
+Note: By default, the working directory name will match the name of the central repository on the server (the last path component of the URL). If you want to use a different name for your working directory, enter it at the end of the clone command, e.g.:
+  hg clone https://dvcs.w3.org/hg/csswg/ specs
 
 ===== Working With Mercurial =====
 
