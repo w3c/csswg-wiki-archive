@@ -149,7 +149,9 @@ You can create a patch file by redirecting to a file: Append '' > filename.patch
 If you decide you don't want to keep changes you made to a file, or removed a file by mistake, you can restore to the last committed version by typing:
   hg revert filename
 
-=== Adding new files: hg add ===
+=== Managing Files ===
+
+== Adding new files: hg add ==
 
 If you create a new file or directory, you'll need to tell Mercurial to start tracking it. You do this by the following:
   hg add filename
@@ -158,7 +160,7 @@ Adding a directory recursively adds all of its contents.
 
 Once you add a file it'll show up in the status listing with an "A". Note that newly added files aren't actually in the repository until you commit them. If you omit the filename, all unknown files and directories in the current directory are added.
 
-=== Removing files: hg remove ===
+== Removing files: hg remove ==
 
 To remove a file from the repository type:
   hg remove filename
@@ -168,7 +170,7 @@ Once a file is removed, it'll show up in the status listing with a "R". The file
 This command can be abbreviated:
   hg rm filename
 
-=== Renaming and Moving Files: hg move ===
+== Renaming and Moving Files: hg move ==
 
 To move or rename a file or directory:
   hg move old_location new_location
@@ -180,7 +182,7 @@ This command can be abbreviated:
 and is equivalent to:
   hg rename old_name new_name
 
-=== Copies and Forks: hg copy ===
+== Copies and Forks: hg copy ==
 
 To copy a file or directory:
   hg copy original copied
@@ -190,11 +192,11 @@ This will preserve history in both copies, effectively forking the file.
 This command can be abbreviated:
   hg cp original copied
 
-=== Committing Changes: hg commit ===
+=== Saving Your Work: hg commit ===
 
 Note: Before you commit your changes, it's a good idea to review the changes with 'hg status', making sure new files have been 'hg add'ed, deleted files have been 'hg remove'd, and double check a 'hg diff' of your edits. It is also good practice to commit your work often and in small increments, grouping only related changes together. Since a commit only records your work into your local repository and does not share your work with others, you do not need to wait until you are "done" before committing changes.
 
-To commit your work, enter:
+To save your work, enter:
   hg commit -m "Commit message explaining your changes"
 
 If you have a long commit message, you can leave out the ''-m "Commit message"'' part and Mercurial will fire up the editor you specified in your config file. Please make sure your commit message is a reasonable summary of your changes, it need not be an essay, but should describe the gist of your changes to a casual observer. Breaking your work into multiple, smaller commits can also help keep the commit messages clear and relevant.
@@ -211,27 +213,7 @@ Use ''.'' to commit only changes in the current directory, e.g.
 
 ==== Working With the Central Repository ====
 
-At some point, you will want to share your work by sending your changesets (the result of commits) to the central repository, and see other people's work by merging their changes with your local repository. When synchronizing work between repositories, each changeset is shared as an atomic unit. Before you can send any of your changesets to the central repository, you must first merge any other changesets that may have been sent to the central repository with your local repository. 
-
-=== Checking For Changes In Your Local Repository: hg outgoing ===
-
-You can list the set of changesets that you have made, which have not been sent to the central repository, by the following:
-  hg outgoing
-
-If you have made changes, you'll see a list of all of your changesets that have not been sent to the central repository. This operation does not result in any changes to either the central repository or your local repository.
-
-This command can be abbreviated:
-  hg out
-
-=== Checking For Other People's Changes In The Central Repository: hg incoming ===
-
-You can list the set of changesets that other people have made to the central repository, which you do not already have locally, by the following:
-  hg incoming
-
-If there were changes made to the central repository, you'll see a list of those changesets. This operation does not result in any changes to either the central repository or your local repository.
-
-This command can be abbreviated:
-  hg in
+At some point, you will want to share your work by sending your changesets (the result of an "hg commit") to the central repository, and see other people's work by merging their changes with your local repository. When synchronizing work between repositories, each changeset is shared as an atomic unit. Before you can send any of your changesets to the central repository, you must first merge any other changesets that may have been sent to the central repository with your local repository. 
 
 === Getting Other Changesets From The Central Repository: hg pull ===
 
@@ -307,6 +289,30 @@ If you see a message similar to: "abort: push creates new remote head", then you
 
 At this point your changes will be available in the central repository and visible to other users.
 
+=== Comparing Your Local Repository To The Central Repository (Optional) ===
+
+You may find it useful to compare the state of your local repository to the central repository from time to time. This can help you understand if you're in a situation where you'll need to merge your work before sharing it.
+
+== Checking For Changes In Your Local Repository: hg outgoing ==
+
+You can list the set of changesets that you have made, which have not been sent to the central repository, by the following:
+  hg outgoing
+
+If you have made changes, you'll see a list of all of your changesets that have not been sent to the central repository. This operation does not result in any changes to either the central repository or your local repository.
+
+This command can be abbreviated:
+  hg out
+
+== Checking For Other People's Changes In The Central Repository: hg incoming ==
+
+You can list the set of changesets that other people have made to the central repository, which you do not already have locally, by the following:
+  hg incoming
+
+If there were changes made to the central repository, you'll see a list of those changesets. This operation does not result in any changes to either the central repository or your local repository.
+
+This command can be abbreviated:
+  hg in
+
 ==== Advanced Topics ====
 
 === Rebasing Changesets: hg rebase ===
@@ -319,7 +325,7 @@ What this means is that you tell Mercurial to recompute your changes so that the
 You can alternatively rebase your changes after a pull, but before a merge, with the command:
   hg rebase
 
-If there are conflicts, you can abort the rebase operation (then proceeding to merge as described above) with:
+If there are conflicts, you can abort the rebase operation and then merge your work instead, as described above, with:
   hg rebase --abort
 
 Resolving rebase conflicts is beyond the scope of this document. Rebasing is not currently considered mandatory for our repositories, but it is good form.
