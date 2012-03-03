@@ -163,10 +163,10 @@ Once you add a file it'll show up in the status listing with an "A". Note that n
 
 == Removing Files: hg remove ==
 
-To remove a file from the repository type:
+To remove a file or directory from the repository type:
   hg remove filename
   
-Once a file is removed, it'll show up in the status listing with a "R". The file is removed from your working directory immediately, but it isn't removed from the repository until your next commit.
+Once a file is removed, it'll show up in the status listing with a "R". The file is removed from your working directory immediately, but it isn't removed from the repository until your next commit. If you remove all the files in a directory, the directory will be automatically removed as well. Removing a directory recursively removes all of its contents.
 
 This command can be abbreviated:
   hg rm filename
