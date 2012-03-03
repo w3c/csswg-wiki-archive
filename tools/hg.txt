@@ -80,7 +80,7 @@ The first step is to clone the central repository to your own machine.
 ** FXTF Spec Repository **
   hg clone https://dvcs.w3.org/hg/FXTF/
 
-Once this command is complete, you now have a working directory that also contains your very own local repository (in a hidden directory named ".hg"). Your local repository is, at this point, an identical clone of the central repository. You can begin making changes in your working directory at will. In general, do not modify the contents ".hg" directory directly.
+Once this command is complete, you now have a working directory that also contains your very own local repository (in a hidden directory named ".hg"). Your local repository is, at this point, an identical clone of the central repository. You can begin making changes in your working directory at will. In general, do not modify the contents of the ".hg" directory directly.
 
 Note: By default, the working directory name will match the name of the central repository on the server (the last path component of the URL). If you want to use a different name for your working directory, enter it at the end of the clone command, e.g.:
   hg clone https://dvcs.w3.org/hg/csswg/ specs
