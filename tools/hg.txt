@@ -312,6 +312,8 @@ You can list the set of changesets that other people have made to the central re
 
 If there were changes made to the central repository, you'll see a list of those changesets. This operation does not result in any changes to either the central repository or your local repository.
 
+TIP: If the "hg incoming" command didn't list any incoming changesets, you can skip the "hg pull", "hg update", and "hg merge" steps and proceed directly to "hg push".
+
 This command can be abbreviated:
   hg in
 
