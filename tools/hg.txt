@@ -1,10 +1,10 @@
-====== Quick Guide to Using Mercurial ======
+====== Quick Guide To Using Mercurial ======
 
 The CSS Working Group has adopted Mercurial as the repository technology for storing our test suites and editor's drafts of specifications. Mercurial is a modern, distributed version control system. This guide is intended to serve as a quick start for those setting up access to the repository for the first time, not to serve as an in-depth tutorial. It is expected that the reader have some familiarity with centrally managed version control systems like CVS or Subversion.
 
 This guide will focus on the command-line Mercurial client ''hg'', but there are GUI-based Mercurial clients available for many platforms.  While users of a GUI client obviously won't be using the command line, the same basic operations apply.
 
-===== What is a "distributed" version control system? =====
+===== What Is A "Distributed" Version Control System? =====
 
 A standard version control system has a single central repository, usually hosted on a server. Users "checkout" files from the central server, make changes, and "commit" them back to the server. Users keep a working copy of the files on their own system, but all the revision history lives in the central repository.
 
@@ -18,7 +18,7 @@ You need to first [[tools:hg:install|install Mercurial on your system]], if you 
 
 You can see if you already have Mercurial installed by opening up a command shell and typing "hg %%--%%version".
 
-==== Setting up Mercurial Preferences ====
+==== Setting Up Mercurial Preferences ====
 
 Note: [[http://www.selenic.com/mercurial/hgrc.5.html|Detailed instructions for the config file]] are available, but for now, this guide will focus only on setting up the basics.
 
@@ -80,7 +80,7 @@ The first step is to clone the central repository to your own machine.
 ** FXTF Spec Repository **
   hg clone https://dvcs.w3.org/hg/FXTF/
 
-Once this command is complete, you now have a working directory that also contains your very own local repository (in a hidden directory named ".hg"). Your local repository is, at this point, an identical clone of the central repository. You can begin making changes in your working directory at will. In general, do not modify the ".hg" directory directly.
+Once this command is complete, you now have a working directory that also contains your very own local repository (in a hidden directory named ".hg"). Your local repository is, at this point, an identical clone of the central repository. You can begin making changes in your working directory at will. In general, do not modify the contents of the ".hg" directory directly.
 
 Note: By default, the working directory name will match the name of the central repository on the server (the last path component of the URL). If you want to use a different name for your working directory, enter it at the end of the clone command, e.g.:
   hg clone https://dvcs.w3.org/hg/csswg/ specs
@@ -136,7 +136,7 @@ This command will give a list of files in your working directory that differ fro
 This command can be abbreviated:
   hg stat
 
-=== Diffs and Patches: hg diff ===
+=== Diffs And Patches: hg diff ===
 
 You can also see the actual changes you've made by asking for a diff:
   hg diff   # all files in the repository
@@ -145,23 +145,23 @@ You can also see the actual changes you've made by asking for a diff:
 You can create a patch file by redirecting to a file: Append '' > filename.patch'' to the diff command, e.g.
   hg diff > filename.patch
 
-=== Reverting changes: hg revert ===
+=== Reverting Changes: hg revert ===
 
 If you decide you don't want to keep changes you made to a file, or removed a file by mistake, you can restore that file to the last committed version by typing:
   hg revert filename
 
 === Managing Files ===
 
-== Adding new files: hg add ==
+== Adding New Files: hg add ==
 
 If you create a new file or directory, you'll need to tell Mercurial to start tracking it. You do this by the following:
   hg add filename
 
-Adding a directory recursively adds all of its contents.
+Adding a directory recursively adds all of its contents. Note that Mercurial will ignore empty directories.
 
 Once you add a file it'll show up in the status listing with an "A". Note that newly added files aren't actually in the repository until you commit them. If you omit the filename, all unknown files and directories in the current directory are added.
 
-== Removing files: hg remove ==
+== Removing Files: hg remove ==
 
 To remove a file from the repository type:
   hg remove filename
@@ -171,7 +171,7 @@ Once a file is removed, it'll show up in the status listing with a "R". The file
 This command can be abbreviated:
   hg rm filename
 
-== Renaming and Moving Files: hg move ==
+== Renaming And Moving Files: hg move ==
 
 To move or rename a file or directory:
   hg move old_location new_location
@@ -183,7 +183,7 @@ This command can be abbreviated:
 and is equivalent to:
   hg rename old_name new_name
 
-== Copies and Forks: hg copy ==
+== Copies And Forks: hg copy ==
 
 To copy a file or directory:
   hg copy original copied
@@ -212,7 +212,7 @@ Use ''.'' to commit only changes in the current directory, e.g.
 </note>
 
 
-==== Working With the Central Repository ====
+==== Working With The Central Repository ====
 
 At some point, you will want to share your work by sending your changesets (the result of an "hg commit") to the central repository, and to see other people's work by merging their changes with your local repository. When synchronizing work between repositories, each changeset is shared as an atomic unit. Before you can send any of your changesets to the central repository, you must first merge any other changesets that may have been sent to the central repository with your local repository. 
 
@@ -356,7 +356,7 @@ If you are used to using Subversion or CVS, the following commands are roughly e
   
 Of course, there's a lot more to Mercurial, but that's beyond the scope of this document.
 
-===== Wait, I had work that I didn't commit in the old CVS/Subversion repository =====
+===== Wait, I Had Work That I Didn't Commit In The Old CVS/Subversion Repository =====
 
 We recently moved to Mercurial. If you had been working on a checkout from the old CVS or Subversion repository and hadn't committed your changes before the move, the best way forward is to clone a new Mercurial repository in a different directory, then copy your added or changed files from your old working directory into your new Mercurial working directory, then commit and push from there.
 
@@ -367,7 +367,7 @@ There are many more in-depth guides to Mercurial available on the web, here are 
   * [[http://hgbook.red-bean.com/|Mercurial: The Definitive Guide]]
   * [[http://mercurial.selenic.com/|Mercurial Project Home Page]]
 
-===== Still need help? =====
+===== Still Need Help? =====
 
 If you're stuck, you can [[mailto:peter.linss@hp.com|email Peter]] for help with the repository.
 
