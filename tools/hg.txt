@@ -157,7 +157,7 @@ If you decide you don't want to keep changes you made to a file, or removed a fi
 If you create a new file or directory, you'll need to tell Mercurial to start tracking it. You do this by the following:
   hg add filename
 
-Adding a directory recursively adds all of its contents.
+Adding a directory recursively adds all of its contents. Note that Mercurial will ignore empty directories.
 
 Once you add a file it'll show up in the status listing with an "A". Note that newly added files aren't actually in the repository until you commit them. If you omit the filename, all unknown files and directories in the current directory are added.
 
