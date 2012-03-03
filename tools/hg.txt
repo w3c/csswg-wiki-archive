@@ -285,17 +285,13 @@ At this point your changes will be available in the central repository and visib
 
 In general, working with Mercurial is actually very similar to working with CVS or Subversion. The overall operations when dealing with merging and conflicts are conceptually the same, only with Mercurial the operations are broken out into discrete steps that can be done independently instead of all at once during updates. You can keep your overall workflow as similar as possible to CVS or Subversion by working in small increments and synchronizing with the central repository frequently. The more frequently you synchronize, the less likely you are to encounter merge issues.
 
-In a nutshell, your workflow should be:
+In a nutshell, your workflow will be:
   hg pull -u
   <make edits>
   hg commit -m "commit message describing your work"
   hg push
 
-If other's have pushed changesets between your pull and push, your workflow will be:
-  hg pull -u
-  <make edits>
-  hg commit -m "commit message describing your work"
-  hg push  # resulting in an error
+If the "hg push" resulted in a error, then others have pushed changesets between your pull and push, continue with:
   hg pull  # to get the more recent changesets
   hg merge  # merging the more recent changesets with your work
   hg commit -m "merge"  # capturing the merge
