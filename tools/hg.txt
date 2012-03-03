@@ -273,13 +273,13 @@ You can now edit the files with conflicts in your favorite editor. Search for th
   >>>>>>> other
   ...
 
-Remove everything between (and including) the "%%<<<<<<<%%" and the "%%>>>>>>>%%" lines, replacing with the appropriate contents. Once complete, tell Mercurial the file has conflict has been resolved with:
+Remove everything between (and including) the "%%<<<<<<<%%" and the "%%>>>>>>>%%" lines, replacing with the appropriate contents. Once complete, tell Mercurial that the conflicts have been resolved with:
   hg resolve --mark filename
 
 Alternatively, you can discard your local edits with the command:
   hg update -C filename
 
-Once all conflicts have been resolved, commit those changes to your local repository:
+Repeat as needed for any additional files that had conflicts. Once all conflicts have been resolved, commit those changes to your local repository:
   hg commit -m "merge"
 
 === Sending Your Changesets To The Central Repository: hg push ===
