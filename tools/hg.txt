@@ -90,9 +90,9 @@ The fundamental difference between working with a distributed version control sy
 
 Once you have a clone of the central repository on your machine, you are free to edit the files with your favorite tools. Mercurial will automatically detect changes made to any files within the repository. Note however, that when moving, renaming, copying, or deleting files, these operations need to be done via Mercurial rather than your standard operating system operations. This enables Mercurial to track those changes in addition to edits within the files.
 
-==== Quick Start ====
-
 In general, working with Mercurial is actually very similar to working with CVS or Subversion. The overall operations when dealing with merging and conflicts are conceptually the same, only with Mercurial the operations are broken out into discrete steps that can be done independently instead of all at once during updates. You can keep your overall workflow as similar as possible to CVS or Subversion by working in small increments and synchronizing with the central repository frequently. The more frequently you synchronize, the less likely you are to encounter merge issues.
+
+==== Quick Start ====
 
 In a nutshell, your workflow will be:
   * Synchronize my local repository and its working directory with the central repository
