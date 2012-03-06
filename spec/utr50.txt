@@ -1,6 +1,8 @@
 ====== UTR #50 Review Memo ======
 This page is a memo page to make our discussion on [[http://www.unicode.org/reports/tr50/|UTR #50]] smooth.
 
+See also [[spec:utr50:codepoints|notes per codepoint]].
+
 ===== General =====
   * [[http://www.unicode.org/review/pri207/|PRI #207]] review period ends on Oct 24th, 2011 --- way too short
   * Eric mentioned that [[http://www.unicode.org/forum/viewtopic.php?f=35&t=201|UTR #50 is for Japanese text and should define Hangul orientation that appears in Japanese text, rather than Hangul native orientation]]. Our goal of "upright-right" is a good vertical text flow for East Asian. Are we seeing things differently?
