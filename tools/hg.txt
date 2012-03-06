@@ -67,6 +67,13 @@ If you access the web through a proxy, you'll also need to set that up now. [[ht
 
 At some point you'll be dealing with resolving merge conflicts. The above setup will leave merge markers in your files similar to CVS or Subversion. You may find it easier to install and configure an [[http://mercurial.selenic.com/wiki/MergeProgram|interactive merge program]].
 
+Depending on your OS and Mercurial root certificate configuration you may get a warning message about the host certificate when communicating with the central repository. If that happens, you can remove those warnings by adding the following to your configuration file:
+  [hostfingerprints]
+  dvcs.w3.org = 2f:93:11:aa:2c:8a:a6:57:50:0b:7d:52:7f:c2:d3:c6:b1:e6:6d:b3 # expires 03-may-2012
+  hg.csswg.org = 99:f1:9e:09:b7:52:39:30:62:6a:77:ef:18:df:19:cd:20:b6:11:42 # expires 16-may-2012
+  
+Note that these fingerprints will only be valid until the certificates expire in May 2012. You will need to update the fingerprints when new certificates are issued.
+ 
 ==== Initial Clone Of The Central Repository ====
 
 The first step is to clone the central repository to your own machine.
