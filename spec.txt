@@ -78,8 +78,8 @@ CSSWG members' comments on related specs not published by our group.
   * [[spec:reviews:svgtiny1.2|SVG Tiny 1.2]]
   * [[spec:reviews:html5|HTML5]]
 ====== Specification Editing ======
-  * [[spec:cvs|W3C CVS For Dummies]] --- using dev.w3.org to edit editor's drafts
-  * [[tools:hg:install|W3C Mercurial For Dummies]] --- using dev.w3.org to edit editor's drafts
+
+  * [[tools:hg|W3C Mercurial For Dummies]] --- using dev.w3.org to edit editor's drafts
   * [[http://dev.w3.org/csswg/css-module/Overview.src.html|CSS Module Template]] --- for starting new specs (and formatting old ones)
   * [[spec:format-update]] --- for updating existing specs to our latest "specs should include"
 ====== Specification Advancement ======
