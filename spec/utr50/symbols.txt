@@ -66,123 +66,122 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 
 ==== Symbol, Currency (Sk) ====
 
-
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/005E/index.htm|U+005E]]|CIRCUMFLEX ACCENT|''&#x005E;''|U|
-|[[http://www.fileformat.info/info/unicode/char/0060/index.htm|U+0060]]|GRAVE ACCENT|''&#x0060;''|U|
-|[[http://www.fileformat.info/info/unicode/char/00A8/index.htm|U+00A8]]|DIAERESIS|''&#x00A8;''|U|
-|[[http://www.fileformat.info/info/unicode/char/00AF/index.htm|U+00AF]]|MACRON|''&#x00AF;''|U|
-|[[http://www.fileformat.info/info/unicode/char/00B4/index.htm|U+00B4]]|ACUTE ACCENT|''&#x00B4;''|U|
-|[[http://www.fileformat.info/info/unicode/char/00B8/index.htm|U+00B8]]|CEDILLA|''&#x00B8;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02C2/index.htm|U+02C2]]|MODIFIER LETTER LEFT ARROWHEAD|''&#x02C2;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02C3/index.htm|U+02C3]]|MODIFIER LETTER RIGHT ARROWHEAD|''&#x02C3;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02C4/index.htm|U+02C4]]|MODIFIER LETTER UP ARROWHEAD|''&#x02C4;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02C5/index.htm|U+02C5]]|MODIFIER LETTER DOWN ARROWHEAD|''&#x02C5;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02D2/index.htm|U+02D2]]|MODIFIER LETTER CENTRED RIGHT HALF RING|''&#x02D2;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02D3/index.htm|U+02D3]]|MODIFIER LETTER CENTRED LEFT HALF RING|''&#x02D3;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02D4/index.htm|U+02D4]]|MODIFIER LETTER UP TACK|''&#x02D4;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02D5/index.htm|U+02D5]]|MODIFIER LETTER DOWN TACK|''&#x02D5;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02D6/index.htm|U+02D6]]|MODIFIER LETTER PLUS SIGN|''&#x02D6;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02D7/index.htm|U+02D7]]|MODIFIER LETTER MINUS SIGN|''&#x02D7;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02D8/index.htm|U+02D8]]|BREVE|''&#x02D8;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02D9/index.htm|U+02D9]]|DOT ABOVE|''&#x02D9;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02DA/index.htm|U+02DA]]|RING ABOVE|''&#x02DA;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02DB/index.htm|U+02DB]]|OGONEK|''&#x02DB;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02DC/index.htm|U+02DC]]|SMALL TILDE|''&#x02DC;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02DD/index.htm|U+02DD]]|DOUBLE ACUTE ACCENT|''&#x02DD;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02DE/index.htm|U+02DE]]|MODIFIER LETTER RHOTIC HOOK|''&#x02DE;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02DF/index.htm|U+02DF]]|MODIFIER LETTER CROSS ACCENT|''&#x02DF;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02E5/index.htm|U+02E5]]|MODIFIER LETTER EXTRA-HIGH TONE BAR|''&#x02E5;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02E6/index.htm|U+02E6]]|MODIFIER LETTER HIGH TONE BAR|''&#x02E6;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02E7/index.htm|U+02E7]]|MODIFIER LETTER MID TONE BAR|''&#x02E7;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02E8/index.htm|U+02E8]]|MODIFIER LETTER LOW TONE BAR|''&#x02E8;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02E9/index.htm|U+02E9]]|MODIFIER LETTER EXTRA-LOW TONE BAR|''&#x02E9;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02EA/index.htm|U+02EA]]|MODIFIER LETTER YIN DEPARTING TONE MARK|''&#x02EA;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02EB/index.htm|U+02EB]]|MODIFIER LETTER YANG DEPARTING TONE MARK|''&#x02EB;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02ED/index.htm|U+02ED]]|MODIFIER LETTER UNASPIRATED|''&#x02ED;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02EF/index.htm|U+02EF]]|MODIFIER LETTER LOW DOWN ARROWHEAD|''&#x02EF;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02F0/index.htm|U+02F0]]|MODIFIER LETTER LOW UP ARROWHEAD|''&#x02F0;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02F1/index.htm|U+02F1]]|MODIFIER LETTER LOW LEFT ARROWHEAD|''&#x02F1;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02F2/index.htm|U+02F2]]|MODIFIER LETTER LOW RIGHT ARROWHEAD|''&#x02F2;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02F3/index.htm|U+02F3]]|MODIFIER LETTER LOW RING|''&#x02F3;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02F4/index.htm|U+02F4]]|MODIFIER LETTER MIDDLE GRAVE ACCENT|''&#x02F4;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02F5/index.htm|U+02F5]]|MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT|''&#x02F5;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02F6/index.htm|U+02F6]]|MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT|''&#x02F6;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02F7/index.htm|U+02F7]]|MODIFIER LETTER LOW TILDE|''&#x02F7;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02F8/index.htm|U+02F8]]|MODIFIER LETTER RAISED COLON|''&#x02F8;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02F9/index.htm|U+02F9]]|MODIFIER LETTER BEGIN HIGH TONE|''&#x02F9;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02FA/index.htm|U+02FA]]|MODIFIER LETTER END HIGH TONE|''&#x02FA;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02FB/index.htm|U+02FB]]|MODIFIER LETTER BEGIN LOW TONE|''&#x02FB;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02FC/index.htm|U+02FC]]|MODIFIER LETTER END LOW TONE|''&#x02FC;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02FD/index.htm|U+02FD]]|MODIFIER LETTER SHELF|''&#x02FD;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02FE/index.htm|U+02FE]]|MODIFIER LETTER OPEN SHELF|''&#x02FE;''|U|
-|[[http://www.fileformat.info/info/unicode/char/02FF/index.htm|U+02FF]]|MODIFIER LETTER LOW LEFT ARROW|''&#x02FF;''|U|
-|[[http://www.fileformat.info/info/unicode/char/0375/index.htm|U+0375]]|GREEK LOWER NUMERAL SIGN|''&#x0375;''|U|
-|[[http://www.fileformat.info/info/unicode/char/0384/index.htm|U+0384]]|GREEK TONOS|''&#x0384;''|U|
-|[[http://www.fileformat.info/info/unicode/char/0385/index.htm|U+0385]]|GREEK DIALYTIKA TONOS|''&#x0385;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FBD/index.htm|U+1FBD]]|GREEK KORONIS|''&#x1FBD;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FBF/index.htm|U+1FBF]]|GREEK PSILI|''&#x1FBF;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FC0/index.htm|U+1FC0]]|GREEK PERISPOMENI|''&#x1FC0;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FC1/index.htm|U+1FC1]]|GREEK DIALYTIKA AND PERISPOMENI|''&#x1FC1;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FCD/index.htm|U+1FCD]]|GREEK PSILI AND VARIA|''&#x1FCD;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FCE/index.htm|U+1FCE]]|GREEK PSILI AND OXIA|''&#x1FCE;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FCF/index.htm|U+1FCF]]|GREEK PSILI AND PERISPOMENI|''&#x1FCF;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FDD/index.htm|U+1FDD]]|GREEK DASIA AND VARIA|''&#x1FDD;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FDE/index.htm|U+1FDE]]|GREEK DASIA AND OXIA|''&#x1FDE;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FDF/index.htm|U+1FDF]]|GREEK DASIA AND PERISPOMENI|''&#x1FDF;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FED/index.htm|U+1FED]]|GREEK DIALYTIKA AND VARIA|''&#x1FED;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FEE/index.htm|U+1FEE]]|GREEK DIALYTIKA AND OXIA|''&#x1FEE;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FEF/index.htm|U+1FEF]]|GREEK VARIA|''&#x1FEF;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FFD/index.htm|U+1FFD]]|GREEK OXIA|''&#x1FFD;''|U|
-|[[http://www.fileformat.info/info/unicode/char/1FFE/index.htm|U+1FFE]]|GREEK DASIA|''&#x1FFE;''|U|
-|[[http://www.fileformat.info/info/unicode/char/309B/index.htm|U+309B]]|KATAKANA-HIRAGANA VOICED SOUND MARK|''&#x309B;''|U|
-|[[http://www.fileformat.info/info/unicode/char/309C/index.htm|U+309C]]|KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK|''&#x309C;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A700/index.htm|U+A700]]|MODIFIER LETTER CHINESE TONE YIN PING|''&#xA700;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A701/index.htm|U+A701]]|MODIFIER LETTER CHINESE TONE YANG PING|''&#xA701;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A702/index.htm|U+A702]]|MODIFIER LETTER CHINESE TONE YIN SHANG|''&#xA702;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A703/index.htm|U+A703]]|MODIFIER LETTER CHINESE TONE YANG SHANG|''&#xA703;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A704/index.htm|U+A704]]|MODIFIER LETTER CHINESE TONE YIN QU|''&#xA704;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A705/index.htm|U+A705]]|MODIFIER LETTER CHINESE TONE YANG QU|''&#xA705;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A706/index.htm|U+A706]]|MODIFIER LETTER CHINESE TONE YIN RU|''&#xA706;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A707/index.htm|U+A707]]|MODIFIER LETTER CHINESE TONE YANG RU|''&#xA707;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A708/index.htm|U+A708]]|MODIFIER LETTER EXTRA-HIGH DOTTED TONE BAR|''&#xA708;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A709/index.htm|U+A709]]|MODIFIER LETTER HIGH DOTTED TONE BAR|''&#xA709;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A70A/index.htm|U+A70A]]|MODIFIER LETTER MID DOTTED TONE BAR|''&#xA70A;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A70B/index.htm|U+A70B]]|MODIFIER LETTER LOW DOTTED TONE BAR|''&#xA70B;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A70C/index.htm|U+A70C]]|MODIFIER LETTER EXTRA-LOW DOTTED TONE BAR|''&#xA70C;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A70D/index.htm|U+A70D]]|MODIFIER LETTER EXTRA-HIGH DOTTED LEFT-STEM TONE BAR|''&#xA70D;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A70E/index.htm|U+A70E]]|MODIFIER LETTER HIGH DOTTED LEFT-STEM TONE BAR|''&#xA70E;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A70F/index.htm|U+A70F]]|MODIFIER LETTER MID DOTTED LEFT-STEM TONE BAR|''&#xA70F;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A710/index.htm|U+A710]]|MODIFIER LETTER LOW DOTTED LEFT-STEM TONE BAR|''&#xA710;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A711/index.htm|U+A711]]|MODIFIER LETTER EXTRA-LOW DOTTED LEFT-STEM TONE BAR|''&#xA711;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A712/index.htm|U+A712]]|MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR|''&#xA712;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A713/index.htm|U+A713]]|MODIFIER LETTER HIGH LEFT-STEM TONE BAR|''&#xA713;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A714/index.htm|U+A714]]|MODIFIER LETTER MID LEFT-STEM TONE BAR|''&#xA714;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A715/index.htm|U+A715]]|MODIFIER LETTER LOW LEFT-STEM TONE BAR|''&#xA715;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A716/index.htm|U+A716]]|MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR|''&#xA716;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A720/index.htm|U+A720]]|MODIFIER LETTER STRESS AND HIGH TONE|''&#xA720;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A721/index.htm|U+A721]]|MODIFIER LETTER STRESS AND LOW TONE|''&#xA721;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A789/index.htm|U+A789]]|MODIFIER LETTER COLON|''&#xA789;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A78A/index.htm|U+A78A]]|MODIFIER LETTER SHORT EQUALS SIGN|''&#xA78A;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB2/index.htm|U+FBB2]]|ARABIC SYMBOL DOT ABOVE|''&#xFBB2;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB3/index.htm|U+FBB3]]|ARABIC SYMBOL DOT BELOW|''&#xFBB3;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB4/index.htm|U+FBB4]]|ARABIC SYMBOL TWO DOTS ABOVE|''&#xFBB4;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB5/index.htm|U+FBB5]]|ARABIC SYMBOL TWO DOTS BELOW|''&#xFBB5;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB6/index.htm|U+FBB6]]|ARABIC SYMBOL THREE DOTS ABOVE|''&#xFBB6;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB7/index.htm|U+FBB7]]|ARABIC SYMBOL THREE DOTS BELOW|''&#xFBB7;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB8/index.htm|U+FBB8]]|ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS ABOVE|''&#xFBB8;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB9/index.htm|U+FBB9]]|ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS BELOW|''&#xFBB9;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBA/index.htm|U+FBBA]]|ARABIC SYMBOL FOUR DOTS ABOVE|''&#xFBBA;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBB/index.htm|U+FBBB]]|ARABIC SYMBOL FOUR DOTS BELOW|''&#xFBBB;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBC/index.htm|U+FBBC]]|ARABIC SYMBOL DOUBLE VERTICAL BAR BELOW|''&#xFBBC;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBD/index.htm|U+FBBD]]|ARABIC SYMBOL TWO DOTS VERTICALLY ABOVE|''&#xFBBD;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBE/index.htm|U+FBBE]]|ARABIC SYMBOL TWO DOTS VERTICALLY BELOW|''&#xFBBE;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBF/index.htm|U+FBBF]]|ARABIC SYMBOL RING|''&#xFBBF;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBC0/index.htm|U+FBC0]]|ARABIC SYMBOL SMALL TAH ABOVE|''&#xFBC0;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBC1/index.htm|U+FBC1]]|ARABIC SYMBOL SMALL TAH BELOW|''&#xFBC1;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FF3E/index.htm|U+FF3E]]|FULLWIDTH CIRCUMFLEX ACCENT|''&#xFF3E;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FF40/index.htm|U+FF40]]|FULLWIDTH GRAVE ACCENT|''&#xFF40;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FFE3/index.htm|U+FFE3]]|FULLWIDTH MACRON|''&#xFFE3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/005E/index.htm|U+005E]]|CIRCUMFLEX ACCENT|''^''|U|
+|[[http://www.fileformat.info/info/unicode/char/0060/index.htm|U+0060]]|GRAVE ACCENT|''`''|U|
+|[[http://www.fileformat.info/info/unicode/char/00A8/index.htm|U+00A8]]|DIAERESIS|''¨''|U|
+|[[http://www.fileformat.info/info/unicode/char/00AF/index.htm|U+00AF]]|MACRON|''¯''|U|
+|[[http://www.fileformat.info/info/unicode/char/00B4/index.htm|U+00B4]]|ACUTE ACCENT|''´''|U|
+|[[http://www.fileformat.info/info/unicode/char/00B8/index.htm|U+00B8]]|CEDILLA|''¸''|U|
+|[[http://www.fileformat.info/info/unicode/char/02C2/index.htm|U+02C2]]|MODIFIER LETTER LEFT ARROWHEAD|''˂''|U|
+|[[http://www.fileformat.info/info/unicode/char/02C3/index.htm|U+02C3]]|MODIFIER LETTER RIGHT ARROWHEAD|''˃''|U|
+|[[http://www.fileformat.info/info/unicode/char/02C4/index.htm|U+02C4]]|MODIFIER LETTER UP ARROWHEAD|''˄''|U|
+|[[http://www.fileformat.info/info/unicode/char/02C5/index.htm|U+02C5]]|MODIFIER LETTER DOWN ARROWHEAD|''˅''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D2/index.htm|U+02D2]]|MODIFIER LETTER CENTRED RIGHT HALF RING|''˒''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D3/index.htm|U+02D3]]|MODIFIER LETTER CENTRED LEFT HALF RING|''˓''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D4/index.htm|U+02D4]]|MODIFIER LETTER UP TACK|''˔''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D5/index.htm|U+02D5]]|MODIFIER LETTER DOWN TACK|''˕''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D6/index.htm|U+02D6]]|MODIFIER LETTER PLUS SIGN|''˖''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D7/index.htm|U+02D7]]|MODIFIER LETTER MINUS SIGN|''˗''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D8/index.htm|U+02D8]]|BREVE|''˘''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D9/index.htm|U+02D9]]|DOT ABOVE|''˙''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DA/index.htm|U+02DA]]|RING ABOVE|''˚''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DB/index.htm|U+02DB]]|OGONEK|''˛''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DC/index.htm|U+02DC]]|SMALL TILDE|''˜''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DD/index.htm|U+02DD]]|DOUBLE ACUTE ACCENT|''˝''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DE/index.htm|U+02DE]]|MODIFIER LETTER RHOTIC HOOK|''˞''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DF/index.htm|U+02DF]]|MODIFIER LETTER CROSS ACCENT|''˟''|U|
+|[[http://www.fileformat.info/info/unicode/char/02E5/index.htm|U+02E5]]|MODIFIER LETTER EXTRA-HIGH TONE BAR|''˥''|U|
+|[[http://www.fileformat.info/info/unicode/char/02E6/index.htm|U+02E6]]|MODIFIER LETTER HIGH TONE BAR|''˦''|U|
+|[[http://www.fileformat.info/info/unicode/char/02E7/index.htm|U+02E7]]|MODIFIER LETTER MID TONE BAR|''˧''|U|
+|[[http://www.fileformat.info/info/unicode/char/02E8/index.htm|U+02E8]]|MODIFIER LETTER LOW TONE BAR|''˨''|U|
+|[[http://www.fileformat.info/info/unicode/char/02E9/index.htm|U+02E9]]|MODIFIER LETTER EXTRA-LOW TONE BAR|''˩''|U|
+|[[http://www.fileformat.info/info/unicode/char/02EA/index.htm|U+02EA]]|MODIFIER LETTER YIN DEPARTING TONE MARK|''˪''|U|
+|[[http://www.fileformat.info/info/unicode/char/02EB/index.htm|U+02EB]]|MODIFIER LETTER YANG DEPARTING TONE MARK|''˫''|U|
+|[[http://www.fileformat.info/info/unicode/char/02ED/index.htm|U+02ED]]|MODIFIER LETTER UNASPIRATED|''˭''|U|
+|[[http://www.fileformat.info/info/unicode/char/02EF/index.htm|U+02EF]]|MODIFIER LETTER LOW DOWN ARROWHEAD|''˯''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F0/index.htm|U+02F0]]|MODIFIER LETTER LOW UP ARROWHEAD|''˰''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F1/index.htm|U+02F1]]|MODIFIER LETTER LOW LEFT ARROWHEAD|''˱''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F2/index.htm|U+02F2]]|MODIFIER LETTER LOW RIGHT ARROWHEAD|''˲''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F3/index.htm|U+02F3]]|MODIFIER LETTER LOW RING|''˳''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F4/index.htm|U+02F4]]|MODIFIER LETTER MIDDLE GRAVE ACCENT|''˴''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F5/index.htm|U+02F5]]|MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT|''˵''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F6/index.htm|U+02F6]]|MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT|''˶''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F7/index.htm|U+02F7]]|MODIFIER LETTER LOW TILDE|''˷''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F8/index.htm|U+02F8]]|MODIFIER LETTER RAISED COLON|''˸''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F9/index.htm|U+02F9]]|MODIFIER LETTER BEGIN HIGH TONE|''˹''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FA/index.htm|U+02FA]]|MODIFIER LETTER END HIGH TONE|''˺''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FB/index.htm|U+02FB]]|MODIFIER LETTER BEGIN LOW TONE|''˻''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FC/index.htm|U+02FC]]|MODIFIER LETTER END LOW TONE|''˼''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FD/index.htm|U+02FD]]|MODIFIER LETTER SHELF|''˽''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FE/index.htm|U+02FE]]|MODIFIER LETTER OPEN SHELF|''˾''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FF/index.htm|U+02FF]]|MODIFIER LETTER LOW LEFT ARROW|''˿''|U|
+|[[http://www.fileformat.info/info/unicode/char/0375/index.htm|U+0375]]|GREEK LOWER NUMERAL SIGN|''͵''|U|
+|[[http://www.fileformat.info/info/unicode/char/0384/index.htm|U+0384]]|GREEK TONOS|''΄''|U|
+|[[http://www.fileformat.info/info/unicode/char/0385/index.htm|U+0385]]|GREEK DIALYTIKA TONOS|''΅''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FBD/index.htm|U+1FBD]]|GREEK KORONIS|''᾽''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FBF/index.htm|U+1FBF]]|GREEK PSILI|''᾿''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FC0/index.htm|U+1FC0]]|GREEK PERISPOMENI|''῀''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FC1/index.htm|U+1FC1]]|GREEK DIALYTIKA AND PERISPOMENI|''῁''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FCD/index.htm|U+1FCD]]|GREEK PSILI AND VARIA|''῍''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FCE/index.htm|U+1FCE]]|GREEK PSILI AND OXIA|''῎''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FCF/index.htm|U+1FCF]]|GREEK PSILI AND PERISPOMENI|''῏''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FDD/index.htm|U+1FDD]]|GREEK DASIA AND VARIA|''῝''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FDE/index.htm|U+1FDE]]|GREEK DASIA AND OXIA|''῞''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FDF/index.htm|U+1FDF]]|GREEK DASIA AND PERISPOMENI|''῟''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FED/index.htm|U+1FED]]|GREEK DIALYTIKA AND VARIA|''῭''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FEE/index.htm|U+1FEE]]|GREEK DIALYTIKA AND OXIA|''΅''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FEF/index.htm|U+1FEF]]|GREEK VARIA|''`''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FFD/index.htm|U+1FFD]]|GREEK OXIA|''´''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FFE/index.htm|U+1FFE]]|GREEK DASIA|''῾''|U|
+|[[http://www.fileformat.info/info/unicode/char/309B/index.htm|U+309B]]|KATAKANA-HIRAGANA VOICED SOUND MARK|''゛''|U|
+|[[http://www.fileformat.info/info/unicode/char/309C/index.htm|U+309C]]|KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK|''゜''|U|
+|[[http://www.fileformat.info/info/unicode/char/A700/index.htm|U+A700]]|MODIFIER LETTER CHINESE TONE YIN PING|''꜀''|U|
+|[[http://www.fileformat.info/info/unicode/char/A701/index.htm|U+A701]]|MODIFIER LETTER CHINESE TONE YANG PING|''꜁''|U|
+|[[http://www.fileformat.info/info/unicode/char/A702/index.htm|U+A702]]|MODIFIER LETTER CHINESE TONE YIN SHANG|''꜂''|U|
+|[[http://www.fileformat.info/info/unicode/char/A703/index.htm|U+A703]]|MODIFIER LETTER CHINESE TONE YANG SHANG|''꜃''|U|
+|[[http://www.fileformat.info/info/unicode/char/A704/index.htm|U+A704]]|MODIFIER LETTER CHINESE TONE YIN QU|''꜄''|U|
+|[[http://www.fileformat.info/info/unicode/char/A705/index.htm|U+A705]]|MODIFIER LETTER CHINESE TONE YANG QU|''꜅''|U|
+|[[http://www.fileformat.info/info/unicode/char/A706/index.htm|U+A706]]|MODIFIER LETTER CHINESE TONE YIN RU|''꜆''|U|
+|[[http://www.fileformat.info/info/unicode/char/A707/index.htm|U+A707]]|MODIFIER LETTER CHINESE TONE YANG RU|''꜇''|U|
+|[[http://www.fileformat.info/info/unicode/char/A708/index.htm|U+A708]]|MODIFIER LETTER EXTRA-HIGH DOTTED TONE BAR|''꜈''|U|
+|[[http://www.fileformat.info/info/unicode/char/A709/index.htm|U+A709]]|MODIFIER LETTER HIGH DOTTED TONE BAR|''꜉''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70A/index.htm|U+A70A]]|MODIFIER LETTER MID DOTTED TONE BAR|''꜊''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70B/index.htm|U+A70B]]|MODIFIER LETTER LOW DOTTED TONE BAR|''꜋''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70C/index.htm|U+A70C]]|MODIFIER LETTER EXTRA-LOW DOTTED TONE BAR|''꜌''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70D/index.htm|U+A70D]]|MODIFIER LETTER EXTRA-HIGH DOTTED LEFT-STEM TONE BAR|''꜍''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70E/index.htm|U+A70E]]|MODIFIER LETTER HIGH DOTTED LEFT-STEM TONE BAR|''꜎''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70F/index.htm|U+A70F]]|MODIFIER LETTER MID DOTTED LEFT-STEM TONE BAR|''꜏''|U|
+|[[http://www.fileformat.info/info/unicode/char/A710/index.htm|U+A710]]|MODIFIER LETTER LOW DOTTED LEFT-STEM TONE BAR|''꜐''|U|
+|[[http://www.fileformat.info/info/unicode/char/A711/index.htm|U+A711]]|MODIFIER LETTER EXTRA-LOW DOTTED LEFT-STEM TONE BAR|''꜑''|U|
+|[[http://www.fileformat.info/info/unicode/char/A712/index.htm|U+A712]]|MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR|''꜒''|U|
+|[[http://www.fileformat.info/info/unicode/char/A713/index.htm|U+A713]]|MODIFIER LETTER HIGH LEFT-STEM TONE BAR|''꜓''|U|
+|[[http://www.fileformat.info/info/unicode/char/A714/index.htm|U+A714]]|MODIFIER LETTER MID LEFT-STEM TONE BAR|''꜔''|U|
+|[[http://www.fileformat.info/info/unicode/char/A715/index.htm|U+A715]]|MODIFIER LETTER LOW LEFT-STEM TONE BAR|''꜕''|U|
+|[[http://www.fileformat.info/info/unicode/char/A716/index.htm|U+A716]]|MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR|''꜖''|U|
+|[[http://www.fileformat.info/info/unicode/char/A720/index.htm|U+A720]]|MODIFIER LETTER STRESS AND HIGH TONE|''꜠''|U|
+|[[http://www.fileformat.info/info/unicode/char/A721/index.htm|U+A721]]|MODIFIER LETTER STRESS AND LOW TONE|''꜡''|U|
+|[[http://www.fileformat.info/info/unicode/char/A789/index.htm|U+A789]]|MODIFIER LETTER COLON|''꞉''|U|
+|[[http://www.fileformat.info/info/unicode/char/A78A/index.htm|U+A78A]]|MODIFIER LETTER SHORT EQUALS SIGN|''꞊''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB2/index.htm|U+FBB2]]|ARABIC SYMBOL DOT ABOVE|''﮲''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB3/index.htm|U+FBB3]]|ARABIC SYMBOL DOT BELOW|''﮳''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB4/index.htm|U+FBB4]]|ARABIC SYMBOL TWO DOTS ABOVE|''﮴''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB5/index.htm|U+FBB5]]|ARABIC SYMBOL TWO DOTS BELOW|''﮵''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB6/index.htm|U+FBB6]]|ARABIC SYMBOL THREE DOTS ABOVE|''﮶''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB7/index.htm|U+FBB7]]|ARABIC SYMBOL THREE DOTS BELOW|''﮷''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB8/index.htm|U+FBB8]]|ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS ABOVE|''﮸''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB9/index.htm|U+FBB9]]|ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS BELOW|''﮹''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBA/index.htm|U+FBBA]]|ARABIC SYMBOL FOUR DOTS ABOVE|''﮺''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBB/index.htm|U+FBBB]]|ARABIC SYMBOL FOUR DOTS BELOW|''﮻''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBC/index.htm|U+FBBC]]|ARABIC SYMBOL DOUBLE VERTICAL BAR BELOW|''﮼''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBD/index.htm|U+FBBD]]|ARABIC SYMBOL TWO DOTS VERTICALLY ABOVE|''﮽''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBE/index.htm|U+FBBE]]|ARABIC SYMBOL TWO DOTS VERTICALLY BELOW|''﮾''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBF/index.htm|U+FBBF]]|ARABIC SYMBOL RING|''﮿''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBC0/index.htm|U+FBC0]]|ARABIC SYMBOL SMALL TAH ABOVE|''﯀''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBC1/index.htm|U+FBC1]]|ARABIC SYMBOL SMALL TAH BELOW|''﯁''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF3E/index.htm|U+FF3E]]|FULLWIDTH CIRCUMFLEX ACCENT|''＾''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF40/index.htm|U+FF40]]|FULLWIDTH GRAVE ACCENT|''｀''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE3/index.htm|U+FFE3]]|FULLWIDTH MACRON|''￣''|U|
 
 ==== Symbol, Currency (Sk) ====
 
