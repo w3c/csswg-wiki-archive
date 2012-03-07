@@ -21,7 +21,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/00A4/index.htm|U+00A4]]|CURRENCY SIGN|''¤''|U|
 |[[http://www.fileformat.info/info/unicode/char/00A5/index.htm|U+00A5]]|YEN SIGN|''¥''|U|
 |[[http://www.fileformat.info/info/unicode/char/058F/index.htm|U+058F]]|ARMENIAN DRAM SIGN|''֏''|U|
-|[[http://www.fileformat.info/info/unicode/char/060B/index.htm|U+060B]]|AFGHANI SIGN|''؋''|U|
+|[[http://www.fileformat.info/info/unicode/char/060B/index.htm|U+060B]]|AFGHANI SIGN|''؋''|U|:?: Arabic|
 |[[http://www.fileformat.info/info/unicode/char/09F2/index.htm|U+09F2]]|BENGALI RUPEE MARK|''৲''|U|
 |[[http://www.fileformat.info/info/unicode/char/09F3/index.htm|U+09F3]]|BENGALI RUPEE SIGN|''৳''|U|
 |[[http://www.fileformat.info/info/unicode/char/09FB/index.htm|U+09FB]]|BENGALI GANDA MARK|''৻''|U|
@@ -56,7 +56,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/20B8/index.htm|U+20B8]]|TENGE SIGN|''₸''|U|
 |[[http://www.fileformat.info/info/unicode/char/20B9/index.htm|U+20B9]]|INDIAN RUPEE SIGN|''₹''|U|
 |[[http://www.fileformat.info/info/unicode/char/A838/index.htm|U+A838]]|NORTH INDIC RUPEE MARK|''꠸''|U|
-|[[http://www.fileformat.info/info/unicode/char/FDFC/index.htm|U+FDFC]]|RIAL SIGN|''﷼''|U|
+|[[http://www.fileformat.info/info/unicode/char/FDFC/index.htm|U+FDFC]]|RIAL SIGN|''﷼''|U|:?: Arabic|
 |[[http://www.fileformat.info/info/unicode/char/FE69/index.htm|U+FE69]]|SMALL DOLLAR SIGN|''﹩''|U|
 |[[http://www.fileformat.info/info/unicode/char/FF04/index.htm|U+FF04]]|FULLWIDTH DOLLAR SIGN|''＄''|U|
 |[[http://www.fileformat.info/info/unicode/char/FFE0/index.htm|U+FFE0]]|FULLWIDTH CENT SIGN|''￠''|U|
@@ -64,7 +64,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/FFE5/index.htm|U+FFE5]]|FULLWIDTH YEN SIGN|''￥''|U|
 |[[http://www.fileformat.info/info/unicode/char/FFE6/index.htm|U+FFE6]]|FULLWIDTH WON SIGN|''￦''|U|
 
-==== Symbol, Currency (Sk) ====
+===== Symbol, Currency (Sk) =====
 
 ^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/005E/index.htm|U+005E]]|CIRCUMFLEX ACCENT|''^''|U|
@@ -163,26 +163,25 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/A721/index.htm|U+A721]]|MODIFIER LETTER STRESS AND LOW TONE|''꜡''|U|
 |[[http://www.fileformat.info/info/unicode/char/A789/index.htm|U+A789]]|MODIFIER LETTER COLON|''꞉''|U|
 |[[http://www.fileformat.info/info/unicode/char/A78A/index.htm|U+A78A]]|MODIFIER LETTER SHORT EQUALS SIGN|''꞊''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB2/index.htm|U+FBB2]]|ARABIC SYMBOL DOT ABOVE|''﮲''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB3/index.htm|U+FBB3]]|ARABIC SYMBOL DOT BELOW|''﮳''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB4/index.htm|U+FBB4]]|ARABIC SYMBOL TWO DOTS ABOVE|''﮴''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB5/index.htm|U+FBB5]]|ARABIC SYMBOL TWO DOTS BELOW|''﮵''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB6/index.htm|U+FBB6]]|ARABIC SYMBOL THREE DOTS ABOVE|''﮶''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB7/index.htm|U+FBB7]]|ARABIC SYMBOL THREE DOTS BELOW|''﮷''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB8/index.htm|U+FBB8]]|ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS ABOVE|''﮸''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBB9/index.htm|U+FBB9]]|ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS BELOW|''﮹''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBA/index.htm|U+FBBA]]|ARABIC SYMBOL FOUR DOTS ABOVE|''﮺''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBB/index.htm|U+FBBB]]|ARABIC SYMBOL FOUR DOTS BELOW|''﮻''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBC/index.htm|U+FBBC]]|ARABIC SYMBOL DOUBLE VERTICAL BAR BELOW|''﮼''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBD/index.htm|U+FBBD]]|ARABIC SYMBOL TWO DOTS VERTICALLY ABOVE|''﮽''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBE/index.htm|U+FBBE]]|ARABIC SYMBOL TWO DOTS VERTICALLY BELOW|''﮾''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBBF/index.htm|U+FBBF]]|ARABIC SYMBOL RING|''﮿''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBC0/index.htm|U+FBC0]]|ARABIC SYMBOL SMALL TAH ABOVE|''﯀''|U|
-|[[http://www.fileformat.info/info/unicode/char/FBC1/index.htm|U+FBC1]]|ARABIC SYMBOL SMALL TAH BELOW|''﯁''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB2/index.htm|U+FBB2]]|ARABIC SYMBOL DOT ABOVE|''﮲''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBB3/index.htm|U+FBB3]]|ARABIC SYMBOL DOT BELOW|''﮳''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBB4/index.htm|U+FBB4]]|ARABIC SYMBOL TWO DOTS ABOVE|''﮴''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBB5/index.htm|U+FBB5]]|ARABIC SYMBOL TWO DOTS BELOW|''﮵''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBB6/index.htm|U+FBB6]]|ARABIC SYMBOL THREE DOTS ABOVE|''﮶''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBB7/index.htm|U+FBB7]]|ARABIC SYMBOL THREE DOTS BELOW|''﮷''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBB8/index.htm|U+FBB8]]|ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS ABOVE|''﮸''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBB9/index.htm|U+FBB9]]|ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS BELOW|''﮹''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBBA/index.htm|U+FBBA]]|ARABIC SYMBOL FOUR DOTS ABOVE|''﮺''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBBB/index.htm|U+FBBB]]|ARABIC SYMBOL FOUR DOTS BELOW|''﮻''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBBC/index.htm|U+FBBC]]|ARABIC SYMBOL DOUBLE VERTICAL BAR BELOW|''﮼''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBBD/index.htm|U+FBBD]]|ARABIC SYMBOL TWO DOTS VERTICALLY ABOVE|''﮽''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBBE/index.htm|U+FBBE]]|ARABIC SYMBOL TWO DOTS VERTICALLY BELOW|''﮾''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBBF/index.htm|U+FBBF]]|ARABIC SYMBOL RING|''﮿''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBC0/index.htm|U+FBC0]]|ARABIC SYMBOL SMALL TAH ABOVE|''﯀''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/FBC1/index.htm|U+FBC1]]|ARABIC SYMBOL SMALL TAH BELOW|''﯁''|U|:?: Arabic|
 |[[http://www.fileformat.info/info/unicode/char/FF3E/index.htm|U+FF3E]]|FULLWIDTH CIRCUMFLEX ACCENT|''＾''|U|
 |[[http://www.fileformat.info/info/unicode/char/FF40/index.htm|U+FF40]]|FULLWIDTH GRAVE ACCENT|''｀''|U|
 |[[http://www.fileformat.info/info/unicode/char/FFE3/index.htm|U+FFE3]]|FULLWIDTH MACRON|''￣''|U|
-
 ===== Symbol, Math(Sm) =====
 
 ==== Basic Latin ====
