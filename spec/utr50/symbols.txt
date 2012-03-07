@@ -64,7 +64,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/FFE5/index.htm|U+FFE5]]|FULLWIDTH YEN SIGN|''￥''|U|
 |[[http://www.fileformat.info/info/unicode/char/FFE6/index.htm|U+FFE6]]|FULLWIDTH WON SIGN|''￦''|U|
 
-===== Symbol, Currency (Sk) =====
+===== Symbol, Modifier (Sk) =====
 
 ^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/005E/index.htm|U+005E]]|CIRCUMFLEX ACCENT|''^''|U|
