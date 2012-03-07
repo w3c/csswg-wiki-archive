@@ -182,7 +182,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/FF3E/index.htm|U+FF3E]]|FULLWIDTH CIRCUMFLEX ACCENT|''＾''|U|
 |[[http://www.fileformat.info/info/unicode/char/FF40/index.htm|U+FF40]]|FULLWIDTH GRAVE ACCENT|''｀''|U|
 |[[http://www.fileformat.info/info/unicode/char/FFE3/index.htm|U+FFE3]]|FULLWIDTH MACRON|''￣''|U|
-===== Symbol, Math(Sm) =====
+===== Symbol, Math (Sm) =====
 
 ==== Basic Latin ====
 
@@ -210,9 +210,9 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 ==== Arabic ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/0606/index.htm|U+0606]]|ARABIC-INDIC CUBE ROOT|''؆''|U|
-|[[http://www.fileformat.info/info/unicode/char/0607/index.htm|U+0607]]|ARABIC-INDIC FOURTH ROOT|''؇''|U|
-|[[http://www.fileformat.info/info/unicode/char/0608/index.htm|U+0608]]|ARABIC RAY|''؈''|U|
+|[[http://www.fileformat.info/info/unicode/char/0606/index.htm|U+0606]]|ARABIC-INDIC CUBE ROOT|''؆''|U|:?: Arabic
+|[[http://www.fileformat.info/info/unicode/char/0607/index.htm|U+0607]]|ARABIC-INDIC FOURTH ROOT|''؇''|U|:?: Arabic
+|[[http://www.fileformat.info/info/unicode/char/0608/index.htm|U+0608]]|ARABIC RAY|''؈''|U|:?: Arabic
 
 ==== General Punctuation ====
 
@@ -1183,7 +1183,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 ==== Alphabetic Presentation Forms ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/FB29/index.htm|U+FB29]]|HEBREW LETTER ALTERNATIVE PLUS SIGN|''﬩''|U|
+|[[http://www.fileformat.info/info/unicode/char/FB29/index.htm|U+FB29]]|HEBREW LETTER ALTERNATIVE PLUS SIGN|''﬩''|U|:?: Hebrew|
 
 ==== Small Form Variants ====
 
@@ -1201,7 +1201,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/FF1D/index.htm|U+FF1D]]|FULLWIDTH EQUALS SIGN|''＝''|U|
 |[[http://www.fileformat.info/info/unicode/char/FF1E/index.htm|U+FF1E]]|FULLWIDTH GREATER-THAN SIGN|''＞''|U|
 |[[http://www.fileformat.info/info/unicode/char/FF5C/index.htm|U+FF5C]]|FULLWIDTH VERTICAL LINE|''｜''|U|
-|[[http://www.fileformat.info/info/unicode/char/FF5E/index.htm|U+FF5E]]|FULLWIDTH TILDE|''～''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF5E/index.htm|U+FF5E]]|FULLWIDTH TILDE|''～''|T<sub>R</sub>|See [[punctuation#punctuation-dash-pd|Punctuation, Dash (Pd)]]|
 |[[http://www.fileformat.info/info/unicode/char/FFE2/index.htm|U+FFE2]]|FULLWIDTH NOT SIGN|''￢''|U|
 |[[http://www.fileformat.info/info/unicode/char/FFE9/index.htm|U+FFE9]]|HALFWIDTH LEFTWARDS ARROW|''￩''|U|
 |[[http://www.fileformat.info/info/unicode/char/FFEA/index.htm|U+FFEA]]|HALFWIDTH UPWARDS ARROW|''￪''|U|
@@ -1225,7 +1225,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 ==== Arabic Mathematical Alphabetic Symbols ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/1EEF0/index.htm|U+1EEF0]]|ARABIC MATHEMATICAL OPERATOR MEEM WITH HAH WITH TATWEEL|''𞻰''|U|
-|[[http://www.fileformat.info/info/unicode/char/1EEF1/index.htm|U+1EEF1]]|ARABIC MATHEMATICAL OPERATOR HAH WITH DAL|''𞻱''|U|
+|[[http://www.fileformat.info/info/unicode/char/1EEF0/index.htm|U+1EEF0]]|ARABIC MATHEMATICAL OPERATOR MEEM WITH HAH WITH TATWEEL|''𞻰''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/1EEF1/index.htm|U+1EEF1]]|ARABIC MATHEMATICAL OPERATOR HAH WITH DAL|''𞻱''|U|:?: Arabic|
 
-==== Symbol, Other (So) ====
+===== Symbol, Other (So) =====
