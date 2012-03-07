@@ -53,6 +53,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/fe31/index.htm|U+FE31]]|PRESENTATION FORM FOR VERTICAL EM DASH|︱|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe32/index.htm|U+FE32]]|PRESENTATION FORM FOR VERTICAL EN DASH|︲|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe58/index.htm|U+FE58]]|SMALL EM DASH|﹘|R|Dashes are sideways|
+|[[http://www.fileformat.info/info/unicode/char/ff5e/index.htm|U+FE5E]]|FULLWIDTH TILDE|～|T<sub>R</sub>|:!: Dashes are sideways, and this is treated as WAVE DASH U+301C even though it's a Math Symbol (Sm)|
 |[[http://www.fileformat.info/info/unicode/char/fe63/index.htm|U+FE63]]|SMALL HYPHEN-MINUS|﹣|U|Hyphens are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff0d/index.htm|U+FF0D]]|FULLWIDTH HYPHEN-MINUS|－|U|Hyphens are upright|
 
