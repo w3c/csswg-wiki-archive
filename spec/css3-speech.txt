@@ -378,9 +378,9 @@ Note that this topic is tracked on the public CSS emailing list (feel free to co
 
   ;Google Chrome (WebKit) : "TTS engine" extension, ChromeVox, SSML support, see http://code.google.com/chrome/extensions/ttsEngine.html and http://code.google.com/chrome/extensions/tts.html and https://chrome.google.com/webstore/detail/kgejglhpjiefppelpmljglcjbhoiplfn and http://googlecode.blogspot.com/2011/10/new-text-to-speech-api-for-chrome.html and http://lists.w3.org/Archives/Public/public-xg-htmlspeech/2011Nov/0022.html . Also see IDPF's Readium extension (open-source EPUB reader), at http://readium.org/
   ; WebKit core : support for the Javascript TTS API, see http://speech-javascript-api-spec.googlecode.com/git/speechapi.html and this code changeset: http://trac.webkit.org/changeset/109667
-  ;Mozilla Firefox (Gecko) : native TTS API? See https://bugzilla.mozilla.org/show_bug.cgi?id=687879
+  ;Mozilla Firefox (Gecko) : native TTS API? See https://bugzilla.mozilla.org/show_bug.cgi?id=687879 and https://bugzilla.mozilla.org/show_bug.cgi?id=525444
 
-  
+ 
 ==== Test Suite ====
 
 Related public email discussion:
