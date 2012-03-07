@@ -1,0 +1,36 @@
+====== Letters and Numbers Orientation By Codepoint ======
+
+This page is intended to help analyze troublesome characters like punctuation and symbols. It is not comprehensive at all yet.
+
+Category Codes:
+
+^Code^Meaning^
+^U|Upright; translates between horizontal and vertical|
+^R|Sideways; rotates between horizontal and vertical|
+^T<sub>U</sub>|Typeset upright with alternate glyph. Best fallback is just upright.|
+^T<sub>R</sub>|Typeset upright with alternate glyph. Best fallback is just sideways.|
+
+Two modes are presented: Stacking (''text-orientation: upright'') and Default (TBD).
+
+===== Letters (L*), Modifier Letters (Sk), and Script-Specific Numbers (N*) =====
+
+Letters and script-specific (non-Common) numbers are classified by using their script property (including [[http://www.unicode.org/Public/UNIDATA/ScriptExtensions.txt|Script Extensions property]]).
+
+^Code^Name^Stack^Default^Memo^
+|Bopo|Bopomofo|U|U| |
+|Egyp|Egyptian Hieroglyphs|U|U| |
+|Hira|Hiragana|U|U| |
+|Kana|Katakana|U|U|Unclear whether halfwidth katakana should be upright or sideways; voice marks are broken if set upright.|
+|Hani|Han|U|U| |
+|Hang|Hangul|U|U| |
+|Merc|Meroitic Cursive|U|U| |
+|Mero|Meroitic Hieroglyphs|U|U| |
+|Mong|Mongolian|R|R| |
+|Ogam|Ogham|R|R| |
+|Orkh|Old Turkic|R|R| |
+|Phag|Phags Pa|R|R| |
+|Yiii|Yi|:?:|:?:|Old documents show Yi rotated sideways (as vertical script), but one example of modern Yi (typeset horizontally) uses upright-stacked captions|
+|Arab|Arabic|:?:|R|Still debating how to handle cursive RTL in stacked mode|
+|Mand|Mandaic|:?:|R|Still debating how to handle cursive RTL in stacked mode|
+|Syrc|Syriac|:?:|R|Still debating how to handle cursive RTL in stacked mode|
+|--|All others|U|R|
