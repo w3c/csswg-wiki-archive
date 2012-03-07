@@ -12,7 +12,7 @@ Category Codes:
 
 Two modes are presented: Stacking (''text-orientation: upright'') and Default (TBD).
 
-==== Symbol, Currency (Sc) ====
+===== Symbol, Currency (Sc) =====
 
 ^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/0024/index.htm|U+0024]]|DOLLAR SIGN|''$''|U|
