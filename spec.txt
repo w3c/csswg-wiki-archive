@@ -84,7 +84,7 @@ CSSWG members' comments on related specs not published by our group.
   * [[http://dev.w3.org/csswg/css-module/Overview.src.html|CSS Module Template]] --- for starting new specs (and formatting old ones)
   * [[spec:format-update]] --- for updating existing specs to our latest "specs should include"
   * [[spec:publish|Step-by-step Publishing a Spec]] --- getting your spec on www.w3.org
-  * [[spec:issue-tracking|Tracking Issues]] --- raising your newborn draft into a grown-up spec
+  * [[spec:issue-tracking]] --- raising your newborn draft into a grown-up spec
   * [[spec:process|Process suggestions for advancing a spec]] --- guidelines for when to advance your spec to the next stage
 
 ====== Coordination between specifications ======
