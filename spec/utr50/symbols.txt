@@ -15,54 +15,54 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 ==== Symbol, Currency (Sc) ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/0024/index.htm|U+0024]]|DOLLAR SIGN|''&#x0024;''|U|
-|[[http://www.fileformat.info/info/unicode/char/00A2/index.htm|U+00A2]]|CENT SIGN|''&#x00A2;''|U|
-|[[http://www.fileformat.info/info/unicode/char/00A3/index.htm|U+00A3]]|POUND SIGN|''&#x00A3;''|U|
-|[[http://www.fileformat.info/info/unicode/char/00A4/index.htm|U+00A4]]|CURRENCY SIGN|''&#x00A4;''|U|
-|[[http://www.fileformat.info/info/unicode/char/00A5/index.htm|U+00A5]]|YEN SIGN|''&#x00A5;''|U|
-|[[http://www.fileformat.info/info/unicode/char/058F/index.htm|U+058F]]|ARMENIAN DRAM SIGN|''&#x058F;''|U|
-|[[http://www.fileformat.info/info/unicode/char/060B/index.htm|U+060B]]|AFGHANI SIGN|''&#x060B;''|U|
-|[[http://www.fileformat.info/info/unicode/char/09F2/index.htm|U+09F2]]|BENGALI RUPEE MARK|''&#x09F2;''|U|
-|[[http://www.fileformat.info/info/unicode/char/09F3/index.htm|U+09F3]]|BENGALI RUPEE SIGN|''&#x09F3;''|U|
-|[[http://www.fileformat.info/info/unicode/char/09FB/index.htm|U+09FB]]|BENGALI GANDA MARK|''&#x09FB;''|U|
-|[[http://www.fileformat.info/info/unicode/char/0AF1/index.htm|U+0AF1]]|GUJARATI RUPEE SIGN|''&#x0AF1;''|U|
-|[[http://www.fileformat.info/info/unicode/char/0BF9/index.htm|U+0BF9]]|TAMIL RUPEE SIGN|''&#x0BF9;''|U|
-|[[http://www.fileformat.info/info/unicode/char/0E3F/index.htm|U+0E3F]]|THAI CURRENCY SYMBOL BAHT|''&#x0E3F;''|U|
-|[[http://www.fileformat.info/info/unicode/char/17DB/index.htm|U+17DB]]|KHMER CURRENCY SYMBOL RIEL|''&#x17DB;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20A0/index.htm|U+20A0]]|EURO-CURRENCY SIGN|''&#x20A0;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20A1/index.htm|U+20A1]]|COLON SIGN|''&#x20A1;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20A2/index.htm|U+20A2]]|CRUZEIRO SIGN|''&#x20A2;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20A3/index.htm|U+20A3]]|FRENCH FRANC SIGN|''&#x20A3;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20A4/index.htm|U+20A4]]|LIRA SIGN|''&#x20A4;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20A5/index.htm|U+20A5]]|MILL SIGN|''&#x20A5;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20A6/index.htm|U+20A6]]|NAIRA SIGN|''&#x20A6;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20A7/index.htm|U+20A7]]|PESETA SIGN|''&#x20A7;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20A8/index.htm|U+20A8]]|RUPEE SIGN|''&#x20A8;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20A9/index.htm|U+20A9]]|WON SIGN|''&#x20A9;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20AA/index.htm|U+20AA]]|NEW SHEQEL SIGN|''&#x20AA;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20AB/index.htm|U+20AB]]|DONG SIGN|''&#x20AB;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20AC/index.htm|U+20AC]]|EURO SIGN|''&#x20AC;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20AD/index.htm|U+20AD]]|KIP SIGN|''&#x20AD;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20AE/index.htm|U+20AE]]|TUGRIK SIGN|''&#x20AE;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20AF/index.htm|U+20AF]]|DRACHMA SIGN|''&#x20AF;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20B0/index.htm|U+20B0]]|GERMAN PENNY SIGN|''&#x20B0;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20B1/index.htm|U+20B1]]|PESO SIGN|''&#x20B1;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20B2/index.htm|U+20B2]]|GUARANI SIGN|''&#x20B2;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20B3/index.htm|U+20B3]]|AUSTRAL SIGN|''&#x20B3;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20B4/index.htm|U+20B4]]|HRYVNIA SIGN|''&#x20B4;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20B5/index.htm|U+20B5]]|CEDI SIGN|''&#x20B5;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20B6/index.htm|U+20B6]]|LIVRE TOURNOIS SIGN|''&#x20B6;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20B7/index.htm|U+20B7]]|SPESMILO SIGN|''&#x20B7;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20B8/index.htm|U+20B8]]|TENGE SIGN|''&#x20B8;''|U|
-|[[http://www.fileformat.info/info/unicode/char/20B9/index.htm|U+20B9]]|INDIAN RUPEE SIGN|''&#x20B9;''|U|
-|[[http://www.fileformat.info/info/unicode/char/A838/index.htm|U+A838]]|NORTH INDIC RUPEE MARK|''&#xA838;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FDFC/index.htm|U+FDFC]]|RIAL SIGN|''&#xFDFC;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FE69/index.htm|U+FE69]]|SMALL DOLLAR SIGN|''&#xFE69;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FF04/index.htm|U+FF04]]|FULLWIDTH DOLLAR SIGN|''&#xFF04;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FFE0/index.htm|U+FFE0]]|FULLWIDTH CENT SIGN|''&#xFFE0;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FFE1/index.htm|U+FFE1]]|FULLWIDTH POUND SIGN|''&#xFFE1;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FFE5/index.htm|U+FFE5]]|FULLWIDTH YEN SIGN|''&#xFFE5;''|U|
-|[[http://www.fileformat.info/info/unicode/char/FFE6/index.htm|U+FFE6]]|FULLWIDTH WON SIGN|''&#xFFE6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/0024/index.htm|U+0024]]|DOLLAR SIGN|''$''|U|
+|[[http://www.fileformat.info/info/unicode/char/00A2/index.htm|U+00A2]]|CENT SIGN|''¢''|U|
+|[[http://www.fileformat.info/info/unicode/char/00A3/index.htm|U+00A3]]|POUND SIGN|''£''|U|
+|[[http://www.fileformat.info/info/unicode/char/00A4/index.htm|U+00A4]]|CURRENCY SIGN|''¤''|U|
+|[[http://www.fileformat.info/info/unicode/char/00A5/index.htm|U+00A5]]|YEN SIGN|''¥''|U|
+|[[http://www.fileformat.info/info/unicode/char/058F/index.htm|U+058F]]|ARMENIAN DRAM SIGN|''֏''|U|
+|[[http://www.fileformat.info/info/unicode/char/060B/index.htm|U+060B]]|AFGHANI SIGN|''؋''|U|
+|[[http://www.fileformat.info/info/unicode/char/09F2/index.htm|U+09F2]]|BENGALI RUPEE MARK|''৲''|U|
+|[[http://www.fileformat.info/info/unicode/char/09F3/index.htm|U+09F3]]|BENGALI RUPEE SIGN|''৳''|U|
+|[[http://www.fileformat.info/info/unicode/char/09FB/index.htm|U+09FB]]|BENGALI GANDA MARK|''৻''|U|
+|[[http://www.fileformat.info/info/unicode/char/0AF1/index.htm|U+0AF1]]|GUJARATI RUPEE SIGN|''૱''|U|
+|[[http://www.fileformat.info/info/unicode/char/0BF9/index.htm|U+0BF9]]|TAMIL RUPEE SIGN|''௹''|U|
+|[[http://www.fileformat.info/info/unicode/char/0E3F/index.htm|U+0E3F]]|THAI CURRENCY SYMBOL BAHT|''฿''|U|
+|[[http://www.fileformat.info/info/unicode/char/17DB/index.htm|U+17DB]]|KHMER CURRENCY SYMBOL RIEL|''៛''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A0/index.htm|U+20A0]]|EURO-CURRENCY SIGN|''₠''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A1/index.htm|U+20A1]]|COLON SIGN|''₡''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A2/index.htm|U+20A2]]|CRUZEIRO SIGN|''₢''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A3/index.htm|U+20A3]]|FRENCH FRANC SIGN|''₣''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A4/index.htm|U+20A4]]|LIRA SIGN|''₤''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A5/index.htm|U+20A5]]|MILL SIGN|''₥''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A6/index.htm|U+20A6]]|NAIRA SIGN|''₦''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A7/index.htm|U+20A7]]|PESETA SIGN|''₧''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A8/index.htm|U+20A8]]|RUPEE SIGN|''₨''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A9/index.htm|U+20A9]]|WON SIGN|''₩''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AA/index.htm|U+20AA]]|NEW SHEQEL SIGN|''₪''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AB/index.htm|U+20AB]]|DONG SIGN|''₫''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AC/index.htm|U+20AC]]|EURO SIGN|''€''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AD/index.htm|U+20AD]]|KIP SIGN|''₭''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AE/index.htm|U+20AE]]|TUGRIK SIGN|''₮''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AF/index.htm|U+20AF]]|DRACHMA SIGN|''₯''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B0/index.htm|U+20B0]]|GERMAN PENNY SIGN|''₰''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B1/index.htm|U+20B1]]|PESO SIGN|''₱''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B2/index.htm|U+20B2]]|GUARANI SIGN|''₲''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B3/index.htm|U+20B3]]|AUSTRAL SIGN|''₳''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B4/index.htm|U+20B4]]|HRYVNIA SIGN|''₴''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B5/index.htm|U+20B5]]|CEDI SIGN|''₵''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B6/index.htm|U+20B6]]|LIVRE TOURNOIS SIGN|''₶''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B7/index.htm|U+20B7]]|SPESMILO SIGN|''₷''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B8/index.htm|U+20B8]]|TENGE SIGN|''₸''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B9/index.htm|U+20B9]]|INDIAN RUPEE SIGN|''₹''|U|
+|[[http://www.fileformat.info/info/unicode/char/A838/index.htm|U+A838]]|NORTH INDIC RUPEE MARK|''꠸''|U|
+|[[http://www.fileformat.info/info/unicode/char/FDFC/index.htm|U+FDFC]]|RIAL SIGN|''﷼''|U|
+|[[http://www.fileformat.info/info/unicode/char/FE69/index.htm|U+FE69]]|SMALL DOLLAR SIGN|''﹩''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF04/index.htm|U+FF04]]|FULLWIDTH DOLLAR SIGN|''＄''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE0/index.htm|U+FFE0]]|FULLWIDTH CENT SIGN|''￠''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE1/index.htm|U+FFE1]]|FULLWIDTH POUND SIGN|''￡''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE5/index.htm|U+FFE5]]|FULLWIDTH YEN SIGN|''￥''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE6/index.htm|U+FFE6]]|FULLWIDTH WON SIGN|''￦''|U|
 
 ==== Symbol, Currency (Sk) ====
 
