@@ -185,6 +185,8 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 
 ==== Symbol, Math(Sm) ====
 
+=== Basic Latin ===
+
 ^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/002B/index.htm|U+002B]]|PLUS SIGN|''+''|U|
 |[[http://www.fileformat.info/info/unicode/char/003C/index.htm|U+003C]]|LESS-THAN SIGN|''<''|U|
@@ -192,22 +194,46 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/003E/index.htm|U+003E]]|GREATER-THAN SIGN|''>''|U|
 |[[http://www.fileformat.info/info/unicode/char/007C/index.htm|U+007C]]|VERTICAL LINE|''|''|U|
 |[[http://www.fileformat.info/info/unicode/char/007E/index.htm|U+007E]]|TILDE|''~''|U|
+
+=== Latin-1 Supplement ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/00AC/index.htm|U+00AC]]|NOT SIGN|''¬''|U|
 |[[http://www.fileformat.info/info/unicode/char/00B1/index.htm|U+00B1]]|PLUS-MINUS SIGN|''±''|U|
 |[[http://www.fileformat.info/info/unicode/char/00D7/index.htm|U+00D7]]|MULTIPLICATION SIGN|''×''|U|
 |[[http://www.fileformat.info/info/unicode/char/00F7/index.htm|U+00F7]]|DIVISION SIGN|''÷''|U|
+
+=== Greek and Coptic ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/03F6/index.htm|U+03F6]]|GREEK REVERSED LUNATE EPSILON SYMBOL|''϶''|U|
+
+=== Arabic ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/0606/index.htm|U+0606]]|ARABIC-INDIC CUBE ROOT|''؆''|U|
 |[[http://www.fileformat.info/info/unicode/char/0607/index.htm|U+0607]]|ARABIC-INDIC FOURTH ROOT|''؇''|U|
 |[[http://www.fileformat.info/info/unicode/char/0608/index.htm|U+0608]]|ARABIC RAY|''؈''|U|
+
+=== General Punctuation ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/2044/index.htm|U+2044]]|FRACTION SLASH|''⁄''|U|
 |[[http://www.fileformat.info/info/unicode/char/2052/index.htm|U+2052]]|COMMERCIAL MINUS SIGN|''⁒''|U|
+
+=== Superscripts and Subscripts ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/207A/index.htm|U+207A]]|SUPERSCRIPT PLUS SIGN|''⁺''|U|
 |[[http://www.fileformat.info/info/unicode/char/207B/index.htm|U+207B]]|SUPERSCRIPT MINUS|''⁻''|U|
 |[[http://www.fileformat.info/info/unicode/char/207C/index.htm|U+207C]]|SUPERSCRIPT EQUALS SIGN|''⁼''|U|
 |[[http://www.fileformat.info/info/unicode/char/208A/index.htm|U+208A]]|SUBSCRIPT PLUS SIGN|''₊''|U|
 |[[http://www.fileformat.info/info/unicode/char/208B/index.htm|U+208B]]|SUBSCRIPT MINUS|''₋''|U|
 |[[http://www.fileformat.info/info/unicode/char/208C/index.htm|U+208C]]|SUBSCRIPT EQUALS SIGN|''₌''|U|
+
+=== Letterlike Symbols ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/2118/index.htm|U+2118]]|SCRIPT CAPITAL P|''℘''|U|
 |[[http://www.fileformat.info/info/unicode/char/2140/index.htm|U+2140]]|DOUBLE-STRUCK N-ARY SUMMATION|''⅀''|U|
 |[[http://www.fileformat.info/info/unicode/char/2141/index.htm|U+2141]]|TURNED SANS-SERIF CAPITAL G|''⅁''|U|
@@ -215,6 +241,10 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/2143/index.htm|U+2143]]|REVERSED SANS-SERIF CAPITAL L|''⅃''|U|
 |[[http://www.fileformat.info/info/unicode/char/2144/index.htm|U+2144]]|TURNED SANS-SERIF CAPITAL Y|''⅄''|U|
 |[[http://www.fileformat.info/info/unicode/char/214B/index.htm|U+214B]]|TURNED AMPERSAND|''⅋''|U|
+
+=== Arrows ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/2190/index.htm|U+2190]]|LEFTWARDS ARROW|''←''|U|
 |[[http://www.fileformat.info/info/unicode/char/2191/index.htm|U+2191]]|UPWARDS ARROW|''↑''|U|
 |[[http://www.fileformat.info/info/unicode/char/2192/index.htm|U+2192]]|RIGHTWARDS ARROW|''→''|U|
@@ -242,6 +272,10 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/21FD/index.htm|U+21FD]]|LEFTWARDS OPEN-HEADED ARROW|''⇽''|U|
 |[[http://www.fileformat.info/info/unicode/char/21FE/index.htm|U+21FE]]|RIGHTWARDS OPEN-HEADED ARROW|''⇾''|U|
 |[[http://www.fileformat.info/info/unicode/char/21FF/index.htm|U+21FF]]|LEFT RIGHT OPEN-HEADED ARROW|''⇿''|U|
+
+=== Mathematical Operators ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/2200/index.htm|U+2200]]|FOR ALL|''∀''|U|
 |[[http://www.fileformat.info/info/unicode/char/2201/index.htm|U+2201]]|COMPLEMENT|''∁''|U|
 |[[http://www.fileformat.info/info/unicode/char/2202/index.htm|U+2202]]|PARTIAL DIFFERENTIAL|''∂''|U|
@@ -498,6 +532,10 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/22FD/index.htm|U+22FD]]|CONTAINS WITH OVERBAR|''⋽''|U|
 |[[http://www.fileformat.info/info/unicode/char/22FE/index.htm|U+22FE]]|SMALL CONTAINS WITH OVERBAR|''⋾''|U|
 |[[http://www.fileformat.info/info/unicode/char/22FF/index.htm|U+22FF]]|Z NOTATION BAG MEMBERSHIP|''⋿''|U|
+
+=== Miscellaneous Technical ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/2308/index.htm|U+2308]]|LEFT CEILING|''⌈''|U|
 |[[http://www.fileformat.info/info/unicode/char/2309/index.htm|U+2309]]|RIGHT CEILING|''⌉''|U|
 |[[http://www.fileformat.info/info/unicode/char/230A/index.htm|U+230A]]|LEFT FLOOR|''⌊''|U|
@@ -536,6 +574,10 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/23DF/index.htm|U+23DF]]|BOTTOM CURLY BRACKET|''⏟''|U|
 |[[http://www.fileformat.info/info/unicode/char/23E0/index.htm|U+23E0]]|TOP TORTOISE SHELL BRACKET|''⏠''|U|
 |[[http://www.fileformat.info/info/unicode/char/23E1/index.htm|U+23E1]]|BOTTOM TORTOISE SHELL BRACKET|''⏡''|U|
+
+=== Geometric Shapes ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/25B7/index.htm|U+25B7]]|WHITE RIGHT-POINTING TRIANGLE|''▷''|U|
 |[[http://www.fileformat.info/info/unicode/char/25C1/index.htm|U+25C1]]|WHITE LEFT-POINTING TRIANGLE|''◁''|U|
 |[[http://www.fileformat.info/info/unicode/char/25F8/index.htm|U+25F8]]|UPPER LEFT TRIANGLE|''◸''|U|
@@ -546,7 +588,15 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/25FD/index.htm|U+25FD]]|WHITE MEDIUM SMALL SQUARE|''◽''|U|
 |[[http://www.fileformat.info/info/unicode/char/25FE/index.htm|U+25FE]]|BLACK MEDIUM SMALL SQUARE|''◾''|U|
 |[[http://www.fileformat.info/info/unicode/char/25FF/index.htm|U+25FF]]|LOWER RIGHT TRIANGLE|''◿''|U|
+
+=== Miscellaneous Symbols ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/266F/index.htm|U+266F]]|MUSIC SHARP SIGN|''♯''|U|
+
+=== Miscellaneous Mathematical Symbols-A ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/27C0/index.htm|U+27C0]]|THREE DIMENSIONAL ANGLE|''⟀''|U|
 |[[http://www.fileformat.info/info/unicode/char/27C1/index.htm|U+27C1]]|WHITE TRIANGLE CONTAINING SMALL WHITE TRIANGLE|''⟁''|U|
 |[[http://www.fileformat.info/info/unicode/char/27C2/index.htm|U+27C2]]|PERPENDICULAR|''⟂''|U|
@@ -583,6 +633,10 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/27E3/index.htm|U+27E3]]|WHITE CONCAVE-SIDED DIAMOND WITH RIGHTWARDS TICK|''⟣''|U|
 |[[http://www.fileformat.info/info/unicode/char/27E4/index.htm|U+27E4]]|WHITE SQUARE WITH LEFTWARDS TICK|''⟤''|U|
 |[[http://www.fileformat.info/info/unicode/char/27E5/index.htm|U+27E5]]|WHITE SQUARE WITH RIGHTWARDS TICK|''⟥''|U|
+
+=== Supplemental Arrows-A ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/27F0/index.htm|U+27F0]]|UPWARDS QUADRUPLE ARROW|''⟰''|U|
 |[[http://www.fileformat.info/info/unicode/char/27F1/index.htm|U+27F1]]|DOWNWARDS QUADRUPLE ARROW|''⟱''|U|
 |[[http://www.fileformat.info/info/unicode/char/27F2/index.htm|U+27F2]]|ANTICLOCKWISE GAPPED CIRCLE ARROW|''⟲''|U|
@@ -599,6 +653,10 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/27FD/index.htm|U+27FD]]|LONG LEFTWARDS DOUBLE ARROW FROM BAR|''⟽''|U|
 |[[http://www.fileformat.info/info/unicode/char/27FE/index.htm|U+27FE]]|LONG RIGHTWARDS DOUBLE ARROW FROM BAR|''⟾''|U|
 |[[http://www.fileformat.info/info/unicode/char/27FF/index.htm|U+27FF]]|LONG RIGHTWARDS SQUIGGLE ARROW|''⟿''|U|
+
+=== Supplemental Arrows-B ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/2900/index.htm|U+2900]]|RIGHTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE|''⤀''|U|
 |[[http://www.fileformat.info/info/unicode/char/2901/index.htm|U+2901]]|RIGHTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE|''⤁''|U|
 |[[http://www.fileformat.info/info/unicode/char/2902/index.htm|U+2902]]|LEFTWARDS DOUBLE ARROW WITH VERTICAL STROKE|''⤂''|U|
@@ -727,6 +785,10 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/297D/index.htm|U+297D]]|RIGHT FISH TAIL|''⥽''|U|
 |[[http://www.fileformat.info/info/unicode/char/297E/index.htm|U+297E]]|UP FISH TAIL|''⥾''|U|
 |[[http://www.fileformat.info/info/unicode/char/297F/index.htm|U+297F]]|DOWN FISH TAIL|''⥿''|U|
+
+=== Miscellaneous Mathematical Symbols-B ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/2980/index.htm|U+2980]]|TRIPLE VERTICAL BAR DELIMITER|''⦀''|U|
 |[[http://www.fileformat.info/info/unicode/char/2981/index.htm|U+2981]]|Z NOTATION SPOT|''⦁''|U|
 |[[http://www.fileformat.info/info/unicode/char/2982/index.htm|U+2982]]|Z NOTATION TYPE COLON|''⦂''|U|
@@ -827,6 +889,10 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/29FB/index.htm|U+29FB]]|TRIPLE PLUS|''⧻''|U|
 |[[http://www.fileformat.info/info/unicode/char/29FE/index.htm|U+29FE]]|TINY|''⧾''|U|
 |[[http://www.fileformat.info/info/unicode/char/29FF/index.htm|U+29FF]]|MINY|''⧿''|U|
+
+=== Supplemental Mathematical Operators ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/2A00/index.htm|U+2A00]]|N-ARY CIRCLED DOT OPERATOR|''⨀''|U|
 |[[http://www.fileformat.info/info/unicode/char/2A01/index.htm|U+2A01]]|N-ARY CIRCLED PLUS OPERATOR|''⨁''|U|
 |[[http://www.fileformat.info/info/unicode/char/2A02/index.htm|U+2A02]]|N-ARY CIRCLED TIMES OPERATOR|''⨂''|U|
@@ -1083,6 +1149,10 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/2AFD/index.htm|U+2AFD]]|DOUBLE SOLIDUS OPERATOR|''⫽''|U|
 |[[http://www.fileformat.info/info/unicode/char/2AFE/index.htm|U+2AFE]]|WHITE VERTICAL BAR|''⫾''|U|
 |[[http://www.fileformat.info/info/unicode/char/2AFF/index.htm|U+2AFF]]|N-ARY WHITE VERTICAL BAR|''⫿''|U|
+
+=== Miscellaneous Symbols and Arrows ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/2B30/index.htm|U+2B30]]|LEFT ARROW WITH SMALL CIRCLE|''⬰''|U|
 |[[http://www.fileformat.info/info/unicode/char/2B31/index.htm|U+2B31]]|THREE LEFTWARDS ARROWS|''⬱''|U|
 |[[http://www.fileformat.info/info/unicode/char/2B32/index.htm|U+2B32]]|LEFT ARROW WITH CIRCLED PLUS|''⬲''|U|
@@ -1110,11 +1180,23 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/2B4A/index.htm|U+2B4A]]|LEFTWARDS ARROW ABOVE ALMOST EQUAL TO|''⭊''|U|
 |[[http://www.fileformat.info/info/unicode/char/2B4B/index.htm|U+2B4B]]|LEFTWARDS ARROW ABOVE REVERSE TILDE OPERATOR|''⭋''|U|
 |[[http://www.fileformat.info/info/unicode/char/2B4C/index.htm|U+2B4C]]|RIGHTWARDS ARROW ABOVE REVERSE TILDE OPERATOR|''⭌''|U|
+
+=== Alphabetic Presentation Forms ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/FB29/index.htm|U+FB29]]|HEBREW LETTER ALTERNATIVE PLUS SIGN|''﬩''|U|
+
+=== Small Form Variants ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/FE62/index.htm|U+FE62]]|SMALL PLUS SIGN|''﹢''|U|
 |[[http://www.fileformat.info/info/unicode/char/FE64/index.htm|U+FE64]]|SMALL LESS-THAN SIGN|''﹤''|U|
 |[[http://www.fileformat.info/info/unicode/char/FE65/index.htm|U+FE65]]|SMALL GREATER-THAN SIGN|''﹥''|U|
 |[[http://www.fileformat.info/info/unicode/char/FE66/index.htm|U+FE66]]|SMALL EQUALS SIGN|''﹦''|U|
+
+=== Halfwidth and Fullwidth Forms ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/FF0B/index.htm|U+FF0B]]|FULLWIDTH PLUS SIGN|''＋''|U|
 |[[http://www.fileformat.info/info/unicode/char/FF1C/index.htm|U+FF1C]]|FULLWIDTH LESS-THAN SIGN|''＜''|U|
 |[[http://www.fileformat.info/info/unicode/char/FF1D/index.htm|U+FF1D]]|FULLWIDTH EQUALS SIGN|''＝''|U|
@@ -1126,6 +1208,10 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/FFEA/index.htm|U+FFEA]]|HALFWIDTH UPWARDS ARROW|''￪''|U|
 |[[http://www.fileformat.info/info/unicode/char/FFEB/index.htm|U+FFEB]]|HALFWIDTH RIGHTWARDS ARROW|''￫''|U|
 |[[http://www.fileformat.info/info/unicode/char/FFEC/index.htm|U+FFEC]]|HALFWIDTH DOWNWARDS ARROW|''￬''|U|
+
+=== Mathematical Alphanumeric Symbols ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/1D6C1/index.htm|U+1D6C1]]|MATHEMATICAL BOLD NABLA|''𝛁''|U|
 |[[http://www.fileformat.info/info/unicode/char/1D6DB/index.htm|U+1D6DB]]|MATHEMATICAL BOLD PARTIAL DIFFERENTIAL|''𝛛''|U|
 |[[http://www.fileformat.info/info/unicode/char/1D6FB/index.htm|U+1D6FB]]|MATHEMATICAL ITALIC NABLA|''𝛻''|U|
@@ -1136,6 +1222,10 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/1D789/index.htm|U+1D789]]|MATHEMATICAL SANS-SERIF BOLD PARTIAL DIFFERENTIAL|''𝞉''|U|
 |[[http://www.fileformat.info/info/unicode/char/1D7A9/index.htm|U+1D7A9]]|MATHEMATICAL SANS-SERIF BOLD ITALIC NABLA|''𝞩''|U|
 |[[http://www.fileformat.info/info/unicode/char/1D7C3/index.htm|U+1D7C3]]|MATHEMATICAL SANS-SERIF BOLD ITALIC PARTIAL DIFFERENTIAL|''𝟃''|U|
+
+=== Arabic Mathematical Alphabetic Symbols ===
+
+^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/1EEF0/index.htm|U+1EEF0]]|ARABIC MATHEMATICAL OPERATOR MEEM WITH HAH WITH TATWEEL|''𞻰''|U|
 |[[http://www.fileformat.info/info/unicode/char/1EEF1/index.htm|U+1EEF1]]|ARABIC MATHEMATICAL OPERATOR HAH WITH DAL|''𞻱''|U|
 
