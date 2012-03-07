@@ -12,6 +12,8 @@ Category Codes:
 
 Two modes are presented: Stacking (''text-orientation: upright'') and Default (TBD).
 
+FIXME Default orientation is not covered yet; focusing on stacked mode first because it's simpler.
+
 
 ===== Connecting Punctuation =====
 
