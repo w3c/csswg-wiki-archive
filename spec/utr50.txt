@@ -1,7 +1,11 @@
 ====== UTR #50 Review Memo ======
 This page is a memo page to make our discussion on [[http://www.unicode.org/reports/tr50/|UTR #50]] smooth.
 
-See also [[spec:utr50:punctuation|notes per codepoint]].
+See also notes per codepoint:
+
+  * [[spec:utr50:letters]]
+  * [[spec:utr50:punctuation]]
+  * [[spec:utr50:symbols]]
 
 ===== General =====
   * [[http://www.unicode.org/review/pri207/|PRI #207]] review period ends on Oct 24th, 2011 --- way too short
