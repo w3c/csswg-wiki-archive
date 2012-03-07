@@ -1,4 +1,4 @@
-====== Orientation By Codepoint ======
+====== Punctuation Orientation By Codepoint ======
 
 This page is intended to help analyze troublesome characters like punctuation and symbols. It is not comprehensive at all yet.
 
