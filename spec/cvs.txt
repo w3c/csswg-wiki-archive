@@ -1,5 +1,10 @@
 ====== W3C CVS For Dummies ======
 
+<note important>
+The CSSWG has shifted to [[tools:hg|Mercurial]] for specs.
+This page is being kept here in case it is useful for other projects.
+</note>
+
 2010-234 Tantek Çelik - originally drafted (with incremental updates since, e.g. 2011-081)
 
 ===== Introduction =====
