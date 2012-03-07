@@ -210,9 +210,9 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 ==== Arabic ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/0606/index.htm|U+0606]]|ARABIC-INDIC CUBE ROOT|''؆''|U|:?: Arabic
-|[[http://www.fileformat.info/info/unicode/char/0607/index.htm|U+0607]]|ARABIC-INDIC FOURTH ROOT|''؇''|U|:?: Arabic
-|[[http://www.fileformat.info/info/unicode/char/0608/index.htm|U+0608]]|ARABIC RAY|''؈''|U|:?: Arabic
+|[[http://www.fileformat.info/info/unicode/char/0606/index.htm|U+0606]]|ARABIC-INDIC CUBE ROOT|''؆''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/0607/index.htm|U+0607]]|ARABIC-INDIC FOURTH ROOT|''؇''|U|:?: Arabic|
+|[[http://www.fileformat.info/info/unicode/char/0608/index.htm|U+0608]]|ARABIC RAY|''؈''|U|:?: Arabic|
 
 ==== General Punctuation ====
 
