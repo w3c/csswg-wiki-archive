@@ -11,3 +11,1134 @@ Category Codes:
 ^T<sub>R</sub>|Typeset upright with alternate glyph. Best fallback is just sideways.|
 
 Two modes are presented: Stacking (''text-orientation: upright'') and Default (TBD).
+
+==== Symbol, Currency (Sc) ====
+
+^Code^Description^Char^Stack^Memo^
+|[[http://www.fileformat.info/info/unicode/char/0024/index.htm|U+0024]]|DOLLAR SIGN|''&#x0024;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00A2/index.htm|U+00A2]]|CENT SIGN|''&#x00A2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00A3/index.htm|U+00A3]]|POUND SIGN|''&#x00A3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00A4/index.htm|U+00A4]]|CURRENCY SIGN|''&#x00A4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00A5/index.htm|U+00A5]]|YEN SIGN|''&#x00A5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/058F/index.htm|U+058F]]|ARMENIAN DRAM SIGN|''&#x058F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/060B/index.htm|U+060B]]|AFGHANI SIGN|''&#x060B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/09F2/index.htm|U+09F2]]|BENGALI RUPEE MARK|''&#x09F2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/09F3/index.htm|U+09F3]]|BENGALI RUPEE SIGN|''&#x09F3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/09FB/index.htm|U+09FB]]|BENGALI GANDA MARK|''&#x09FB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/0AF1/index.htm|U+0AF1]]|GUJARATI RUPEE SIGN|''&#x0AF1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/0BF9/index.htm|U+0BF9]]|TAMIL RUPEE SIGN|''&#x0BF9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/0E3F/index.htm|U+0E3F]]|THAI CURRENCY SYMBOL BAHT|''&#x0E3F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/17DB/index.htm|U+17DB]]|KHMER CURRENCY SYMBOL RIEL|''&#x17DB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A0/index.htm|U+20A0]]|EURO-CURRENCY SIGN|''&#x20A0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A1/index.htm|U+20A1]]|COLON SIGN|''&#x20A1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A2/index.htm|U+20A2]]|CRUZEIRO SIGN|''&#x20A2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A3/index.htm|U+20A3]]|FRENCH FRANC SIGN|''&#x20A3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A4/index.htm|U+20A4]]|LIRA SIGN|''&#x20A4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A5/index.htm|U+20A5]]|MILL SIGN|''&#x20A5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A6/index.htm|U+20A6]]|NAIRA SIGN|''&#x20A6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A7/index.htm|U+20A7]]|PESETA SIGN|''&#x20A7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A8/index.htm|U+20A8]]|RUPEE SIGN|''&#x20A8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20A9/index.htm|U+20A9]]|WON SIGN|''&#x20A9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AA/index.htm|U+20AA]]|NEW SHEQEL SIGN|''&#x20AA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AB/index.htm|U+20AB]]|DONG SIGN|''&#x20AB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AC/index.htm|U+20AC]]|EURO SIGN|''&#x20AC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AD/index.htm|U+20AD]]|KIP SIGN|''&#x20AD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AE/index.htm|U+20AE]]|TUGRIK SIGN|''&#x20AE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20AF/index.htm|U+20AF]]|DRACHMA SIGN|''&#x20AF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B0/index.htm|U+20B0]]|GERMAN PENNY SIGN|''&#x20B0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B1/index.htm|U+20B1]]|PESO SIGN|''&#x20B1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B2/index.htm|U+20B2]]|GUARANI SIGN|''&#x20B2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B3/index.htm|U+20B3]]|AUSTRAL SIGN|''&#x20B3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B4/index.htm|U+20B4]]|HRYVNIA SIGN|''&#x20B4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B5/index.htm|U+20B5]]|CEDI SIGN|''&#x20B5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B6/index.htm|U+20B6]]|LIVRE TOURNOIS SIGN|''&#x20B6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B7/index.htm|U+20B7]]|SPESMILO SIGN|''&#x20B7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B8/index.htm|U+20B8]]|TENGE SIGN|''&#x20B8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/20B9/index.htm|U+20B9]]|INDIAN RUPEE SIGN|''&#x20B9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A838/index.htm|U+A838]]|NORTH INDIC RUPEE MARK|''&#xA838;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FDFC/index.htm|U+FDFC]]|RIAL SIGN|''&#xFDFC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FE69/index.htm|U+FE69]]|SMALL DOLLAR SIGN|''&#xFE69;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF04/index.htm|U+FF04]]|FULLWIDTH DOLLAR SIGN|''&#xFF04;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE0/index.htm|U+FFE0]]|FULLWIDTH CENT SIGN|''&#xFFE0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE1/index.htm|U+FFE1]]|FULLWIDTH POUND SIGN|''&#xFFE1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE5/index.htm|U+FFE5]]|FULLWIDTH YEN SIGN|''&#xFFE5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE6/index.htm|U+FFE6]]|FULLWIDTH WON SIGN|''&#xFFE6;''|U|
+
+==== Symbol, Currency (Sk) ====
+
+
+^Code^Description^Char^Stack^Memo^
+|[[http://www.fileformat.info/info/unicode/char/005E/index.htm|U+005E]]|CIRCUMFLEX ACCENT|''&#x005E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/0060/index.htm|U+0060]]|GRAVE ACCENT|''&#x0060;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00A8/index.htm|U+00A8]]|DIAERESIS|''&#x00A8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00AF/index.htm|U+00AF]]|MACRON|''&#x00AF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00B4/index.htm|U+00B4]]|ACUTE ACCENT|''&#x00B4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00B8/index.htm|U+00B8]]|CEDILLA|''&#x00B8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02C2/index.htm|U+02C2]]|MODIFIER LETTER LEFT ARROWHEAD|''&#x02C2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02C3/index.htm|U+02C3]]|MODIFIER LETTER RIGHT ARROWHEAD|''&#x02C3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02C4/index.htm|U+02C4]]|MODIFIER LETTER UP ARROWHEAD|''&#x02C4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02C5/index.htm|U+02C5]]|MODIFIER LETTER DOWN ARROWHEAD|''&#x02C5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D2/index.htm|U+02D2]]|MODIFIER LETTER CENTRED RIGHT HALF RING|''&#x02D2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D3/index.htm|U+02D3]]|MODIFIER LETTER CENTRED LEFT HALF RING|''&#x02D3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D4/index.htm|U+02D4]]|MODIFIER LETTER UP TACK|''&#x02D4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D5/index.htm|U+02D5]]|MODIFIER LETTER DOWN TACK|''&#x02D5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D6/index.htm|U+02D6]]|MODIFIER LETTER PLUS SIGN|''&#x02D6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D7/index.htm|U+02D7]]|MODIFIER LETTER MINUS SIGN|''&#x02D7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D8/index.htm|U+02D8]]|BREVE|''&#x02D8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02D9/index.htm|U+02D9]]|DOT ABOVE|''&#x02D9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DA/index.htm|U+02DA]]|RING ABOVE|''&#x02DA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DB/index.htm|U+02DB]]|OGONEK|''&#x02DB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DC/index.htm|U+02DC]]|SMALL TILDE|''&#x02DC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DD/index.htm|U+02DD]]|DOUBLE ACUTE ACCENT|''&#x02DD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DE/index.htm|U+02DE]]|MODIFIER LETTER RHOTIC HOOK|''&#x02DE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02DF/index.htm|U+02DF]]|MODIFIER LETTER CROSS ACCENT|''&#x02DF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02E5/index.htm|U+02E5]]|MODIFIER LETTER EXTRA-HIGH TONE BAR|''&#x02E5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02E6/index.htm|U+02E6]]|MODIFIER LETTER HIGH TONE BAR|''&#x02E6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02E7/index.htm|U+02E7]]|MODIFIER LETTER MID TONE BAR|''&#x02E7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02E8/index.htm|U+02E8]]|MODIFIER LETTER LOW TONE BAR|''&#x02E8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02E9/index.htm|U+02E9]]|MODIFIER LETTER EXTRA-LOW TONE BAR|''&#x02E9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02EA/index.htm|U+02EA]]|MODIFIER LETTER YIN DEPARTING TONE MARK|''&#x02EA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02EB/index.htm|U+02EB]]|MODIFIER LETTER YANG DEPARTING TONE MARK|''&#x02EB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02ED/index.htm|U+02ED]]|MODIFIER LETTER UNASPIRATED|''&#x02ED;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02EF/index.htm|U+02EF]]|MODIFIER LETTER LOW DOWN ARROWHEAD|''&#x02EF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F0/index.htm|U+02F0]]|MODIFIER LETTER LOW UP ARROWHEAD|''&#x02F0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F1/index.htm|U+02F1]]|MODIFIER LETTER LOW LEFT ARROWHEAD|''&#x02F1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F2/index.htm|U+02F2]]|MODIFIER LETTER LOW RIGHT ARROWHEAD|''&#x02F2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F3/index.htm|U+02F3]]|MODIFIER LETTER LOW RING|''&#x02F3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F4/index.htm|U+02F4]]|MODIFIER LETTER MIDDLE GRAVE ACCENT|''&#x02F4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F5/index.htm|U+02F5]]|MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT|''&#x02F5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F6/index.htm|U+02F6]]|MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT|''&#x02F6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F7/index.htm|U+02F7]]|MODIFIER LETTER LOW TILDE|''&#x02F7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F8/index.htm|U+02F8]]|MODIFIER LETTER RAISED COLON|''&#x02F8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02F9/index.htm|U+02F9]]|MODIFIER LETTER BEGIN HIGH TONE|''&#x02F9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FA/index.htm|U+02FA]]|MODIFIER LETTER END HIGH TONE|''&#x02FA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FB/index.htm|U+02FB]]|MODIFIER LETTER BEGIN LOW TONE|''&#x02FB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FC/index.htm|U+02FC]]|MODIFIER LETTER END LOW TONE|''&#x02FC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FD/index.htm|U+02FD]]|MODIFIER LETTER SHELF|''&#x02FD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FE/index.htm|U+02FE]]|MODIFIER LETTER OPEN SHELF|''&#x02FE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/02FF/index.htm|U+02FF]]|MODIFIER LETTER LOW LEFT ARROW|''&#x02FF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/0375/index.htm|U+0375]]|GREEK LOWER NUMERAL SIGN|''&#x0375;''|U|
+|[[http://www.fileformat.info/info/unicode/char/0384/index.htm|U+0384]]|GREEK TONOS|''&#x0384;''|U|
+|[[http://www.fileformat.info/info/unicode/char/0385/index.htm|U+0385]]|GREEK DIALYTIKA TONOS|''&#x0385;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FBD/index.htm|U+1FBD]]|GREEK KORONIS|''&#x1FBD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FBF/index.htm|U+1FBF]]|GREEK PSILI|''&#x1FBF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FC0/index.htm|U+1FC0]]|GREEK PERISPOMENI|''&#x1FC0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FC1/index.htm|U+1FC1]]|GREEK DIALYTIKA AND PERISPOMENI|''&#x1FC1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FCD/index.htm|U+1FCD]]|GREEK PSILI AND VARIA|''&#x1FCD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FCE/index.htm|U+1FCE]]|GREEK PSILI AND OXIA|''&#x1FCE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FCF/index.htm|U+1FCF]]|GREEK PSILI AND PERISPOMENI|''&#x1FCF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FDD/index.htm|U+1FDD]]|GREEK DASIA AND VARIA|''&#x1FDD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FDE/index.htm|U+1FDE]]|GREEK DASIA AND OXIA|''&#x1FDE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FDF/index.htm|U+1FDF]]|GREEK DASIA AND PERISPOMENI|''&#x1FDF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FED/index.htm|U+1FED]]|GREEK DIALYTIKA AND VARIA|''&#x1FED;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FEE/index.htm|U+1FEE]]|GREEK DIALYTIKA AND OXIA|''&#x1FEE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FEF/index.htm|U+1FEF]]|GREEK VARIA|''&#x1FEF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FFD/index.htm|U+1FFD]]|GREEK OXIA|''&#x1FFD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1FFE/index.htm|U+1FFE]]|GREEK DASIA|''&#x1FFE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/309B/index.htm|U+309B]]|KATAKANA-HIRAGANA VOICED SOUND MARK|''&#x309B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/309C/index.htm|U+309C]]|KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK|''&#x309C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A700/index.htm|U+A700]]|MODIFIER LETTER CHINESE TONE YIN PING|''&#xA700;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A701/index.htm|U+A701]]|MODIFIER LETTER CHINESE TONE YANG PING|''&#xA701;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A702/index.htm|U+A702]]|MODIFIER LETTER CHINESE TONE YIN SHANG|''&#xA702;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A703/index.htm|U+A703]]|MODIFIER LETTER CHINESE TONE YANG SHANG|''&#xA703;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A704/index.htm|U+A704]]|MODIFIER LETTER CHINESE TONE YIN QU|''&#xA704;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A705/index.htm|U+A705]]|MODIFIER LETTER CHINESE TONE YANG QU|''&#xA705;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A706/index.htm|U+A706]]|MODIFIER LETTER CHINESE TONE YIN RU|''&#xA706;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A707/index.htm|U+A707]]|MODIFIER LETTER CHINESE TONE YANG RU|''&#xA707;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A708/index.htm|U+A708]]|MODIFIER LETTER EXTRA-HIGH DOTTED TONE BAR|''&#xA708;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A709/index.htm|U+A709]]|MODIFIER LETTER HIGH DOTTED TONE BAR|''&#xA709;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70A/index.htm|U+A70A]]|MODIFIER LETTER MID DOTTED TONE BAR|''&#xA70A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70B/index.htm|U+A70B]]|MODIFIER LETTER LOW DOTTED TONE BAR|''&#xA70B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70C/index.htm|U+A70C]]|MODIFIER LETTER EXTRA-LOW DOTTED TONE BAR|''&#xA70C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70D/index.htm|U+A70D]]|MODIFIER LETTER EXTRA-HIGH DOTTED LEFT-STEM TONE BAR|''&#xA70D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70E/index.htm|U+A70E]]|MODIFIER LETTER HIGH DOTTED LEFT-STEM TONE BAR|''&#xA70E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A70F/index.htm|U+A70F]]|MODIFIER LETTER MID DOTTED LEFT-STEM TONE BAR|''&#xA70F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A710/index.htm|U+A710]]|MODIFIER LETTER LOW DOTTED LEFT-STEM TONE BAR|''&#xA710;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A711/index.htm|U+A711]]|MODIFIER LETTER EXTRA-LOW DOTTED LEFT-STEM TONE BAR|''&#xA711;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A712/index.htm|U+A712]]|MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR|''&#xA712;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A713/index.htm|U+A713]]|MODIFIER LETTER HIGH LEFT-STEM TONE BAR|''&#xA713;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A714/index.htm|U+A714]]|MODIFIER LETTER MID LEFT-STEM TONE BAR|''&#xA714;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A715/index.htm|U+A715]]|MODIFIER LETTER LOW LEFT-STEM TONE BAR|''&#xA715;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A716/index.htm|U+A716]]|MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR|''&#xA716;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A720/index.htm|U+A720]]|MODIFIER LETTER STRESS AND HIGH TONE|''&#xA720;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A721/index.htm|U+A721]]|MODIFIER LETTER STRESS AND LOW TONE|''&#xA721;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A789/index.htm|U+A789]]|MODIFIER LETTER COLON|''&#xA789;''|U|
+|[[http://www.fileformat.info/info/unicode/char/A78A/index.htm|U+A78A]]|MODIFIER LETTER SHORT EQUALS SIGN|''&#xA78A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB2/index.htm|U+FBB2]]|ARABIC SYMBOL DOT ABOVE|''&#xFBB2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB3/index.htm|U+FBB3]]|ARABIC SYMBOL DOT BELOW|''&#xFBB3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB4/index.htm|U+FBB4]]|ARABIC SYMBOL TWO DOTS ABOVE|''&#xFBB4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB5/index.htm|U+FBB5]]|ARABIC SYMBOL TWO DOTS BELOW|''&#xFBB5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB6/index.htm|U+FBB6]]|ARABIC SYMBOL THREE DOTS ABOVE|''&#xFBB6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB7/index.htm|U+FBB7]]|ARABIC SYMBOL THREE DOTS BELOW|''&#xFBB7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB8/index.htm|U+FBB8]]|ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS ABOVE|''&#xFBB8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBB9/index.htm|U+FBB9]]|ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS BELOW|''&#xFBB9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBA/index.htm|U+FBBA]]|ARABIC SYMBOL FOUR DOTS ABOVE|''&#xFBBA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBB/index.htm|U+FBBB]]|ARABIC SYMBOL FOUR DOTS BELOW|''&#xFBBB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBC/index.htm|U+FBBC]]|ARABIC SYMBOL DOUBLE VERTICAL BAR BELOW|''&#xFBBC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBD/index.htm|U+FBBD]]|ARABIC SYMBOL TWO DOTS VERTICALLY ABOVE|''&#xFBBD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBE/index.htm|U+FBBE]]|ARABIC SYMBOL TWO DOTS VERTICALLY BELOW|''&#xFBBE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBBF/index.htm|U+FBBF]]|ARABIC SYMBOL RING|''&#xFBBF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBC0/index.htm|U+FBC0]]|ARABIC SYMBOL SMALL TAH ABOVE|''&#xFBC0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FBC1/index.htm|U+FBC1]]|ARABIC SYMBOL SMALL TAH BELOW|''&#xFBC1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF3E/index.htm|U+FF3E]]|FULLWIDTH CIRCUMFLEX ACCENT|''&#xFF3E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF40/index.htm|U+FF40]]|FULLWIDTH GRAVE ACCENT|''&#xFF40;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE3/index.htm|U+FFE3]]|FULLWIDTH MACRON|''&#xFFE3;''|U|
+
+==== Symbol, Currency (Sk) ====
+
+
+^Code^Description^Char^Stack^Memo^
+|[[http://www.fileformat.info/info/unicode/char/002B/index.htm|U+002B]]|PLUS SIGN|''&#x002B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/003C/index.htm|U+003C]]|LESS-THAN SIGN|''&#x003C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/003D/index.htm|U+003D]]|EQUALS SIGN|''&#x003D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/003E/index.htm|U+003E]]|GREATER-THAN SIGN|''&#x003E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/007C/index.htm|U+007C]]|VERTICAL LINE|''&#x007C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/007E/index.htm|U+007E]]|TILDE|''&#x007E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00AC/index.htm|U+00AC]]|NOT SIGN|''&#x00AC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00B1/index.htm|U+00B1]]|PLUS-MINUS SIGN|''&#x00B1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00D7/index.htm|U+00D7]]|MULTIPLICATION SIGN|''&#x00D7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/00F7/index.htm|U+00F7]]|DIVISION SIGN|''&#x00F7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/03F6/index.htm|U+03F6]]|GREEK REVERSED LUNATE EPSILON SYMBOL|''&#x03F6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/0606/index.htm|U+0606]]|ARABIC-INDIC CUBE ROOT|''&#x0606;''|U|
+|[[http://www.fileformat.info/info/unicode/char/0607/index.htm|U+0607]]|ARABIC-INDIC FOURTH ROOT|''&#x0607;''|U|
+|[[http://www.fileformat.info/info/unicode/char/0608/index.htm|U+0608]]|ARABIC RAY|''&#x0608;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2044/index.htm|U+2044]]|FRACTION SLASH|''&#x2044;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2052/index.htm|U+2052]]|COMMERCIAL MINUS SIGN|''&#x2052;''|U|
+|[[http://www.fileformat.info/info/unicode/char/207A/index.htm|U+207A]]|SUPERSCRIPT PLUS SIGN|''&#x207A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/207B/index.htm|U+207B]]|SUPERSCRIPT MINUS|''&#x207B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/207C/index.htm|U+207C]]|SUPERSCRIPT EQUALS SIGN|''&#x207C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/208A/index.htm|U+208A]]|SUBSCRIPT PLUS SIGN|''&#x208A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/208B/index.htm|U+208B]]|SUBSCRIPT MINUS|''&#x208B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/208C/index.htm|U+208C]]|SUBSCRIPT EQUALS SIGN|''&#x208C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2118/index.htm|U+2118]]|SCRIPT CAPITAL P|''&#x2118;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2140/index.htm|U+2140]]|DOUBLE-STRUCK N-ARY SUMMATION|''&#x2140;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2141/index.htm|U+2141]]|TURNED SANS-SERIF CAPITAL G|''&#x2141;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2142/index.htm|U+2142]]|TURNED SANS-SERIF CAPITAL L|''&#x2142;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2143/index.htm|U+2143]]|REVERSED SANS-SERIF CAPITAL L|''&#x2143;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2144/index.htm|U+2144]]|TURNED SANS-SERIF CAPITAL Y|''&#x2144;''|U|
+|[[http://www.fileformat.info/info/unicode/char/214B/index.htm|U+214B]]|TURNED AMPERSAND|''&#x214B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2190/index.htm|U+2190]]|LEFTWARDS ARROW|''&#x2190;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2191/index.htm|U+2191]]|UPWARDS ARROW|''&#x2191;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2192/index.htm|U+2192]]|RIGHTWARDS ARROW|''&#x2192;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2193/index.htm|U+2193]]|DOWNWARDS ARROW|''&#x2193;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2194/index.htm|U+2194]]|LEFT RIGHT ARROW|''&#x2194;''|U|
+|[[http://www.fileformat.info/info/unicode/char/219A/index.htm|U+219A]]|LEFTWARDS ARROW WITH STROKE|''&#x219A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/219B/index.htm|U+219B]]|RIGHTWARDS ARROW WITH STROKE|''&#x219B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21A0/index.htm|U+21A0]]|RIGHTWARDS TWO HEADED ARROW|''&#x21A0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21A3/index.htm|U+21A3]]|RIGHTWARDS ARROW WITH TAIL|''&#x21A3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21A6/index.htm|U+21A6]]|RIGHTWARDS ARROW FROM BAR|''&#x21A6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21AE/index.htm|U+21AE]]|LEFT RIGHT ARROW WITH STROKE|''&#x21AE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21CE/index.htm|U+21CE]]|LEFT RIGHT DOUBLE ARROW WITH STROKE|''&#x21CE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21CF/index.htm|U+21CF]]|RIGHTWARDS DOUBLE ARROW WITH STROKE|''&#x21CF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21D2/index.htm|U+21D2]]|RIGHTWARDS DOUBLE ARROW|''&#x21D2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21D4/index.htm|U+21D4]]|LEFT RIGHT DOUBLE ARROW|''&#x21D4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21F4/index.htm|U+21F4]]|RIGHT ARROW WITH SMALL CIRCLE|''&#x21F4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21F5/index.htm|U+21F5]]|DOWNWARDS ARROW LEFTWARDS OF UPWARDS ARROW|''&#x21F5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21F6/index.htm|U+21F6]]|THREE RIGHTWARDS ARROWS|''&#x21F6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21F7/index.htm|U+21F7]]|LEFTWARDS ARROW WITH VERTICAL STROKE|''&#x21F7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21F8/index.htm|U+21F8]]|RIGHTWARDS ARROW WITH VERTICAL STROKE|''&#x21F8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21F9/index.htm|U+21F9]]|LEFT RIGHT ARROW WITH VERTICAL STROKE|''&#x21F9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21FA/index.htm|U+21FA]]|LEFTWARDS ARROW WITH DOUBLE VERTICAL STROKE|''&#x21FA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21FB/index.htm|U+21FB]]|RIGHTWARDS ARROW WITH DOUBLE VERTICAL STROKE|''&#x21FB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21FC/index.htm|U+21FC]]|LEFT RIGHT ARROW WITH DOUBLE VERTICAL STROKE|''&#x21FC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21FD/index.htm|U+21FD]]|LEFTWARDS OPEN-HEADED ARROW|''&#x21FD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21FE/index.htm|U+21FE]]|RIGHTWARDS OPEN-HEADED ARROW|''&#x21FE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/21FF/index.htm|U+21FF]]|LEFT RIGHT OPEN-HEADED ARROW|''&#x21FF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2200/index.htm|U+2200]]|FOR ALL|''&#x2200;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2201/index.htm|U+2201]]|COMPLEMENT|''&#x2201;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2202/index.htm|U+2202]]|PARTIAL DIFFERENTIAL|''&#x2202;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2203/index.htm|U+2203]]|THERE EXISTS|''&#x2203;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2204/index.htm|U+2204]]|THERE DOES NOT EXIST|''&#x2204;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2205/index.htm|U+2205]]|EMPTY SET|''&#x2205;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2206/index.htm|U+2206]]|INCREMENT|''&#x2206;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2207/index.htm|U+2207]]|NABLA|''&#x2207;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2208/index.htm|U+2208]]|ELEMENT OF|''&#x2208;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2209/index.htm|U+2209]]|NOT AN ELEMENT OF|''&#x2209;''|U|
+|[[http://www.fileformat.info/info/unicode/char/220A/index.htm|U+220A]]|SMALL ELEMENT OF|''&#x220A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/220B/index.htm|U+220B]]|CONTAINS AS MEMBER|''&#x220B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/220C/index.htm|U+220C]]|DOES NOT CONTAIN AS MEMBER|''&#x220C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/220D/index.htm|U+220D]]|SMALL CONTAINS AS MEMBER|''&#x220D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/220E/index.htm|U+220E]]|END OF PROOF|''&#x220E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/220F/index.htm|U+220F]]|N-ARY PRODUCT|''&#x220F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2210/index.htm|U+2210]]|N-ARY COPRODUCT|''&#x2210;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2211/index.htm|U+2211]]|N-ARY SUMMATION|''&#x2211;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2212/index.htm|U+2212]]|MINUS SIGN|''&#x2212;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2213/index.htm|U+2213]]|MINUS-OR-PLUS SIGN|''&#x2213;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2214/index.htm|U+2214]]|DOT PLUS|''&#x2214;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2215/index.htm|U+2215]]|DIVISION SLASH|''&#x2215;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2216/index.htm|U+2216]]|SET MINUS|''&#x2216;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2217/index.htm|U+2217]]|ASTERISK OPERATOR|''&#x2217;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2218/index.htm|U+2218]]|RING OPERATOR|''&#x2218;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2219/index.htm|U+2219]]|BULLET OPERATOR|''&#x2219;''|U|
+|[[http://www.fileformat.info/info/unicode/char/221A/index.htm|U+221A]]|SQUARE ROOT|''&#x221A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/221B/index.htm|U+221B]]|CUBE ROOT|''&#x221B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/221C/index.htm|U+221C]]|FOURTH ROOT|''&#x221C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/221D/index.htm|U+221D]]|PROPORTIONAL TO|''&#x221D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/221E/index.htm|U+221E]]|INFINITY|''&#x221E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/221F/index.htm|U+221F]]|RIGHT ANGLE|''&#x221F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2220/index.htm|U+2220]]|ANGLE|''&#x2220;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2221/index.htm|U+2221]]|MEASURED ANGLE|''&#x2221;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2222/index.htm|U+2222]]|SPHERICAL ANGLE|''&#x2222;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2223/index.htm|U+2223]]|DIVIDES|''&#x2223;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2224/index.htm|U+2224]]|DOES NOT DIVIDE|''&#x2224;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2225/index.htm|U+2225]]|PARALLEL TO|''&#x2225;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2226/index.htm|U+2226]]|NOT PARALLEL TO|''&#x2226;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2227/index.htm|U+2227]]|LOGICAL AND|''&#x2227;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2228/index.htm|U+2228]]|LOGICAL OR|''&#x2228;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2229/index.htm|U+2229]]|INTERSECTION|''&#x2229;''|U|
+|[[http://www.fileformat.info/info/unicode/char/222A/index.htm|U+222A]]|UNION|''&#x222A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/222B/index.htm|U+222B]]|INTEGRAL|''&#x222B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/222C/index.htm|U+222C]]|DOUBLE INTEGRAL|''&#x222C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/222D/index.htm|U+222D]]|TRIPLE INTEGRAL|''&#x222D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/222E/index.htm|U+222E]]|CONTOUR INTEGRAL|''&#x222E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/222F/index.htm|U+222F]]|SURFACE INTEGRAL|''&#x222F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2230/index.htm|U+2230]]|VOLUME INTEGRAL|''&#x2230;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2231/index.htm|U+2231]]|CLOCKWISE INTEGRAL|''&#x2231;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2232/index.htm|U+2232]]|CLOCKWISE CONTOUR INTEGRAL|''&#x2232;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2233/index.htm|U+2233]]|ANTICLOCKWISE CONTOUR INTEGRAL|''&#x2233;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2234/index.htm|U+2234]]|THEREFORE|''&#x2234;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2235/index.htm|U+2235]]|BECAUSE|''&#x2235;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2236/index.htm|U+2236]]|RATIO|''&#x2236;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2237/index.htm|U+2237]]|PROPORTION|''&#x2237;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2238/index.htm|U+2238]]|DOT MINUS|''&#x2238;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2239/index.htm|U+2239]]|EXCESS|''&#x2239;''|U|
+|[[http://www.fileformat.info/info/unicode/char/223A/index.htm|U+223A]]|GEOMETRIC PROPORTION|''&#x223A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/223B/index.htm|U+223B]]|HOMOTHETIC|''&#x223B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/223C/index.htm|U+223C]]|TILDE OPERATOR|''&#x223C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/223D/index.htm|U+223D]]|REVERSED TILDE|''&#x223D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/223E/index.htm|U+223E]]|INVERTED LAZY S|''&#x223E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/223F/index.htm|U+223F]]|SINE WAVE|''&#x223F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2240/index.htm|U+2240]]|WREATH PRODUCT|''&#x2240;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2241/index.htm|U+2241]]|NOT TILDE|''&#x2241;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2242/index.htm|U+2242]]|MINUS TILDE|''&#x2242;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2243/index.htm|U+2243]]|ASYMPTOTICALLY EQUAL TO|''&#x2243;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2244/index.htm|U+2244]]|NOT ASYMPTOTICALLY EQUAL TO|''&#x2244;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2245/index.htm|U+2245]]|APPROXIMATELY EQUAL TO|''&#x2245;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2246/index.htm|U+2246]]|APPROXIMATELY BUT NOT ACTUALLY EQUAL TO|''&#x2246;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2247/index.htm|U+2247]]|NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO|''&#x2247;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2248/index.htm|U+2248]]|ALMOST EQUAL TO|''&#x2248;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2249/index.htm|U+2249]]|NOT ALMOST EQUAL TO|''&#x2249;''|U|
+|[[http://www.fileformat.info/info/unicode/char/224A/index.htm|U+224A]]|ALMOST EQUAL OR EQUAL TO|''&#x224A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/224B/index.htm|U+224B]]|TRIPLE TILDE|''&#x224B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/224C/index.htm|U+224C]]|ALL EQUAL TO|''&#x224C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/224D/index.htm|U+224D]]|EQUIVALENT TO|''&#x224D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/224E/index.htm|U+224E]]|GEOMETRICALLY EQUIVALENT TO|''&#x224E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/224F/index.htm|U+224F]]|DIFFERENCE BETWEEN|''&#x224F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2250/index.htm|U+2250]]|APPROACHES THE LIMIT|''&#x2250;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2251/index.htm|U+2251]]|GEOMETRICALLY EQUAL TO|''&#x2251;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2252/index.htm|U+2252]]|APPROXIMATELY EQUAL TO OR THE IMAGE OF|''&#x2252;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2253/index.htm|U+2253]]|IMAGE OF OR APPROXIMATELY EQUAL TO|''&#x2253;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2254/index.htm|U+2254]]|COLON EQUALS|''&#x2254;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2255/index.htm|U+2255]]|EQUALS COLON|''&#x2255;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2256/index.htm|U+2256]]|RING IN EQUAL TO|''&#x2256;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2257/index.htm|U+2257]]|RING EQUAL TO|''&#x2257;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2258/index.htm|U+2258]]|CORRESPONDS TO|''&#x2258;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2259/index.htm|U+2259]]|ESTIMATES|''&#x2259;''|U|
+|[[http://www.fileformat.info/info/unicode/char/225A/index.htm|U+225A]]|EQUIANGULAR TO|''&#x225A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/225B/index.htm|U+225B]]|STAR EQUALS|''&#x225B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/225C/index.htm|U+225C]]|DELTA EQUAL TO|''&#x225C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/225D/index.htm|U+225D]]|EQUAL TO BY DEFINITION|''&#x225D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/225E/index.htm|U+225E]]|MEASURED BY|''&#x225E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/225F/index.htm|U+225F]]|QUESTIONED EQUAL TO|''&#x225F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2260/index.htm|U+2260]]|NOT EQUAL TO|''&#x2260;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2261/index.htm|U+2261]]|IDENTICAL TO|''&#x2261;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2262/index.htm|U+2262]]|NOT IDENTICAL TO|''&#x2262;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2263/index.htm|U+2263]]|STRICTLY EQUIVALENT TO|''&#x2263;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2264/index.htm|U+2264]]|LESS-THAN OR EQUAL TO|''&#x2264;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2265/index.htm|U+2265]]|GREATER-THAN OR EQUAL TO|''&#x2265;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2266/index.htm|U+2266]]|LESS-THAN OVER EQUAL TO|''&#x2266;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2267/index.htm|U+2267]]|GREATER-THAN OVER EQUAL TO|''&#x2267;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2268/index.htm|U+2268]]|LESS-THAN BUT NOT EQUAL TO|''&#x2268;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2269/index.htm|U+2269]]|GREATER-THAN BUT NOT EQUAL TO|''&#x2269;''|U|
+|[[http://www.fileformat.info/info/unicode/char/226A/index.htm|U+226A]]|MUCH LESS-THAN|''&#x226A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/226B/index.htm|U+226B]]|MUCH GREATER-THAN|''&#x226B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/226C/index.htm|U+226C]]|BETWEEN|''&#x226C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/226D/index.htm|U+226D]]|NOT EQUIVALENT TO|''&#x226D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/226E/index.htm|U+226E]]|NOT LESS-THAN|''&#x226E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/226F/index.htm|U+226F]]|NOT GREATER-THAN|''&#x226F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2270/index.htm|U+2270]]|NEITHER LESS-THAN NOR EQUAL TO|''&#x2270;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2271/index.htm|U+2271]]|NEITHER GREATER-THAN NOR EQUAL TO|''&#x2271;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2272/index.htm|U+2272]]|LESS-THAN OR EQUIVALENT TO|''&#x2272;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2273/index.htm|U+2273]]|GREATER-THAN OR EQUIVALENT TO|''&#x2273;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2274/index.htm|U+2274]]|NEITHER LESS-THAN NOR EQUIVALENT TO|''&#x2274;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2275/index.htm|U+2275]]|NEITHER GREATER-THAN NOR EQUIVALENT TO|''&#x2275;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2276/index.htm|U+2276]]|LESS-THAN OR GREATER-THAN|''&#x2276;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2277/index.htm|U+2277]]|GREATER-THAN OR LESS-THAN|''&#x2277;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2278/index.htm|U+2278]]|NEITHER LESS-THAN NOR GREATER-THAN|''&#x2278;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2279/index.htm|U+2279]]|NEITHER GREATER-THAN NOR LESS-THAN|''&#x2279;''|U|
+|[[http://www.fileformat.info/info/unicode/char/227A/index.htm|U+227A]]|PRECEDES|''&#x227A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/227B/index.htm|U+227B]]|SUCCEEDS|''&#x227B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/227C/index.htm|U+227C]]|PRECEDES OR EQUAL TO|''&#x227C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/227D/index.htm|U+227D]]|SUCCEEDS OR EQUAL TO|''&#x227D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/227E/index.htm|U+227E]]|PRECEDES OR EQUIVALENT TO|''&#x227E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/227F/index.htm|U+227F]]|SUCCEEDS OR EQUIVALENT TO|''&#x227F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2280/index.htm|U+2280]]|DOES NOT PRECEDE|''&#x2280;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2281/index.htm|U+2281]]|DOES NOT SUCCEED|''&#x2281;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2282/index.htm|U+2282]]|SUBSET OF|''&#x2282;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2283/index.htm|U+2283]]|SUPERSET OF|''&#x2283;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2284/index.htm|U+2284]]|NOT A SUBSET OF|''&#x2284;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2285/index.htm|U+2285]]|NOT A SUPERSET OF|''&#x2285;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2286/index.htm|U+2286]]|SUBSET OF OR EQUAL TO|''&#x2286;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2287/index.htm|U+2287]]|SUPERSET OF OR EQUAL TO|''&#x2287;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2288/index.htm|U+2288]]|NEITHER A SUBSET OF NOR EQUAL TO|''&#x2288;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2289/index.htm|U+2289]]|NEITHER A SUPERSET OF NOR EQUAL TO|''&#x2289;''|U|
+|[[http://www.fileformat.info/info/unicode/char/228A/index.htm|U+228A]]|SUBSET OF WITH NOT EQUAL TO|''&#x228A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/228B/index.htm|U+228B]]|SUPERSET OF WITH NOT EQUAL TO|''&#x228B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/228C/index.htm|U+228C]]|MULTISET|''&#x228C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/228D/index.htm|U+228D]]|MULTISET MULTIPLICATION|''&#x228D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/228E/index.htm|U+228E]]|MULTISET UNION|''&#x228E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/228F/index.htm|U+228F]]|SQUARE IMAGE OF|''&#x228F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2290/index.htm|U+2290]]|SQUARE ORIGINAL OF|''&#x2290;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2291/index.htm|U+2291]]|SQUARE IMAGE OF OR EQUAL TO|''&#x2291;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2292/index.htm|U+2292]]|SQUARE ORIGINAL OF OR EQUAL TO|''&#x2292;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2293/index.htm|U+2293]]|SQUARE CAP|''&#x2293;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2294/index.htm|U+2294]]|SQUARE CUP|''&#x2294;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2295/index.htm|U+2295]]|CIRCLED PLUS|''&#x2295;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2296/index.htm|U+2296]]|CIRCLED MINUS|''&#x2296;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2297/index.htm|U+2297]]|CIRCLED TIMES|''&#x2297;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2298/index.htm|U+2298]]|CIRCLED DIVISION SLASH|''&#x2298;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2299/index.htm|U+2299]]|CIRCLED DOT OPERATOR|''&#x2299;''|U|
+|[[http://www.fileformat.info/info/unicode/char/229A/index.htm|U+229A]]|CIRCLED RING OPERATOR|''&#x229A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/229B/index.htm|U+229B]]|CIRCLED ASTERISK OPERATOR|''&#x229B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/229C/index.htm|U+229C]]|CIRCLED EQUALS|''&#x229C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/229D/index.htm|U+229D]]|CIRCLED DASH|''&#x229D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/229E/index.htm|U+229E]]|SQUARED PLUS|''&#x229E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/229F/index.htm|U+229F]]|SQUARED MINUS|''&#x229F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22A0/index.htm|U+22A0]]|SQUARED TIMES|''&#x22A0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22A1/index.htm|U+22A1]]|SQUARED DOT OPERATOR|''&#x22A1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22A2/index.htm|U+22A2]]|RIGHT TACK|''&#x22A2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22A3/index.htm|U+22A3]]|LEFT TACK|''&#x22A3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22A4/index.htm|U+22A4]]|DOWN TACK|''&#x22A4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22A5/index.htm|U+22A5]]|UP TACK|''&#x22A5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22A6/index.htm|U+22A6]]|ASSERTION|''&#x22A6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22A7/index.htm|U+22A7]]|MODELS|''&#x22A7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22A8/index.htm|U+22A8]]|TRUE|''&#x22A8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22A9/index.htm|U+22A9]]|FORCES|''&#x22A9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22AA/index.htm|U+22AA]]|TRIPLE VERTICAL BAR RIGHT TURNSTILE|''&#x22AA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22AB/index.htm|U+22AB]]|DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE|''&#x22AB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22AC/index.htm|U+22AC]]|DOES NOT PROVE|''&#x22AC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22AD/index.htm|U+22AD]]|NOT TRUE|''&#x22AD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22AE/index.htm|U+22AE]]|DOES NOT FORCE|''&#x22AE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22AF/index.htm|U+22AF]]|NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE|''&#x22AF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22B0/index.htm|U+22B0]]|PRECEDES UNDER RELATION|''&#x22B0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22B1/index.htm|U+22B1]]|SUCCEEDS UNDER RELATION|''&#x22B1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22B2/index.htm|U+22B2]]|NORMAL SUBGROUP OF|''&#x22B2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22B3/index.htm|U+22B3]]|CONTAINS AS NORMAL SUBGROUP|''&#x22B3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22B4/index.htm|U+22B4]]|NORMAL SUBGROUP OF OR EQUAL TO|''&#x22B4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22B5/index.htm|U+22B5]]|CONTAINS AS NORMAL SUBGROUP OR EQUAL TO|''&#x22B5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22B6/index.htm|U+22B6]]|ORIGINAL OF|''&#x22B6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22B7/index.htm|U+22B7]]|IMAGE OF|''&#x22B7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22B8/index.htm|U+22B8]]|MULTIMAP|''&#x22B8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22B9/index.htm|U+22B9]]|HERMITIAN CONJUGATE MATRIX|''&#x22B9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22BA/index.htm|U+22BA]]|INTERCALATE|''&#x22BA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22BB/index.htm|U+22BB]]|XOR|''&#x22BB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22BC/index.htm|U+22BC]]|NAND|''&#x22BC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22BD/index.htm|U+22BD]]|NOR|''&#x22BD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22BE/index.htm|U+22BE]]|RIGHT ANGLE WITH ARC|''&#x22BE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22BF/index.htm|U+22BF]]|RIGHT TRIANGLE|''&#x22BF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22C0/index.htm|U+22C0]]|N-ARY LOGICAL AND|''&#x22C0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22C1/index.htm|U+22C1]]|N-ARY LOGICAL OR|''&#x22C1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22C2/index.htm|U+22C2]]|N-ARY INTERSECTION|''&#x22C2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22C3/index.htm|U+22C3]]|N-ARY UNION|''&#x22C3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22C4/index.htm|U+22C4]]|DIAMOND OPERATOR|''&#x22C4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22C5/index.htm|U+22C5]]|DOT OPERATOR|''&#x22C5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22C6/index.htm|U+22C6]]|STAR OPERATOR|''&#x22C6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22C7/index.htm|U+22C7]]|DIVISION TIMES|''&#x22C7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22C8/index.htm|U+22C8]]|BOWTIE|''&#x22C8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22C9/index.htm|U+22C9]]|LEFT NORMAL FACTOR SEMIDIRECT PRODUCT|''&#x22C9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22CA/index.htm|U+22CA]]|RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT|''&#x22CA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22CB/index.htm|U+22CB]]|LEFT SEMIDIRECT PRODUCT|''&#x22CB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22CC/index.htm|U+22CC]]|RIGHT SEMIDIRECT PRODUCT|''&#x22CC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22CD/index.htm|U+22CD]]|REVERSED TILDE EQUALS|''&#x22CD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22CE/index.htm|U+22CE]]|CURLY LOGICAL OR|''&#x22CE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22CF/index.htm|U+22CF]]|CURLY LOGICAL AND|''&#x22CF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22D0/index.htm|U+22D0]]|DOUBLE SUBSET|''&#x22D0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22D1/index.htm|U+22D1]]|DOUBLE SUPERSET|''&#x22D1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22D2/index.htm|U+22D2]]|DOUBLE INTERSECTION|''&#x22D2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22D3/index.htm|U+22D3]]|DOUBLE UNION|''&#x22D3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22D4/index.htm|U+22D4]]|PITCHFORK|''&#x22D4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22D5/index.htm|U+22D5]]|EQUAL AND PARALLEL TO|''&#x22D5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22D6/index.htm|U+22D6]]|LESS-THAN WITH DOT|''&#x22D6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22D7/index.htm|U+22D7]]|GREATER-THAN WITH DOT|''&#x22D7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22D8/index.htm|U+22D8]]|VERY MUCH LESS-THAN|''&#x22D8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22D9/index.htm|U+22D9]]|VERY MUCH GREATER-THAN|''&#x22D9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22DA/index.htm|U+22DA]]|LESS-THAN EQUAL TO OR GREATER-THAN|''&#x22DA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22DB/index.htm|U+22DB]]|GREATER-THAN EQUAL TO OR LESS-THAN|''&#x22DB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22DC/index.htm|U+22DC]]|EQUAL TO OR LESS-THAN|''&#x22DC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22DD/index.htm|U+22DD]]|EQUAL TO OR GREATER-THAN|''&#x22DD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22DE/index.htm|U+22DE]]|EQUAL TO OR PRECEDES|''&#x22DE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22DF/index.htm|U+22DF]]|EQUAL TO OR SUCCEEDS|''&#x22DF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22E0/index.htm|U+22E0]]|DOES NOT PRECEDE OR EQUAL|''&#x22E0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22E1/index.htm|U+22E1]]|DOES NOT SUCCEED OR EQUAL|''&#x22E1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22E2/index.htm|U+22E2]]|NOT SQUARE IMAGE OF OR EQUAL TO|''&#x22E2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22E3/index.htm|U+22E3]]|NOT SQUARE ORIGINAL OF OR EQUAL TO|''&#x22E3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22E4/index.htm|U+22E4]]|SQUARE IMAGE OF OR NOT EQUAL TO|''&#x22E4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22E5/index.htm|U+22E5]]|SQUARE ORIGINAL OF OR NOT EQUAL TO|''&#x22E5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22E6/index.htm|U+22E6]]|LESS-THAN BUT NOT EQUIVALENT TO|''&#x22E6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22E7/index.htm|U+22E7]]|GREATER-THAN BUT NOT EQUIVALENT TO|''&#x22E7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22E8/index.htm|U+22E8]]|PRECEDES BUT NOT EQUIVALENT TO|''&#x22E8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22E9/index.htm|U+22E9]]|SUCCEEDS BUT NOT EQUIVALENT TO|''&#x22E9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22EA/index.htm|U+22EA]]|NOT NORMAL SUBGROUP OF|''&#x22EA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22EB/index.htm|U+22EB]]|DOES NOT CONTAIN AS NORMAL SUBGROUP|''&#x22EB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22EC/index.htm|U+22EC]]|NOT NORMAL SUBGROUP OF OR EQUAL TO|''&#x22EC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22ED/index.htm|U+22ED]]|DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL|''&#x22ED;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22EE/index.htm|U+22EE]]|VERTICAL ELLIPSIS|''&#x22EE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22EF/index.htm|U+22EF]]|MIDLINE HORIZONTAL ELLIPSIS|''&#x22EF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22F0/index.htm|U+22F0]]|UP RIGHT DIAGONAL ELLIPSIS|''&#x22F0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22F1/index.htm|U+22F1]]|DOWN RIGHT DIAGONAL ELLIPSIS|''&#x22F1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22F2/index.htm|U+22F2]]|ELEMENT OF WITH LONG HORIZONTAL STROKE|''&#x22F2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22F3/index.htm|U+22F3]]|ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE|''&#x22F3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22F4/index.htm|U+22F4]]|SMALL ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE|''&#x22F4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22F5/index.htm|U+22F5]]|ELEMENT OF WITH DOT ABOVE|''&#x22F5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22F6/index.htm|U+22F6]]|ELEMENT OF WITH OVERBAR|''&#x22F6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22F7/index.htm|U+22F7]]|SMALL ELEMENT OF WITH OVERBAR|''&#x22F7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22F8/index.htm|U+22F8]]|ELEMENT OF WITH UNDERBAR|''&#x22F8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22F9/index.htm|U+22F9]]|ELEMENT OF WITH TWO HORIZONTAL STROKES|''&#x22F9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22FA/index.htm|U+22FA]]|CONTAINS WITH LONG HORIZONTAL STROKE|''&#x22FA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22FB/index.htm|U+22FB]]|CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE|''&#x22FB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22FC/index.htm|U+22FC]]|SMALL CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE|''&#x22FC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22FD/index.htm|U+22FD]]|CONTAINS WITH OVERBAR|''&#x22FD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22FE/index.htm|U+22FE]]|SMALL CONTAINS WITH OVERBAR|''&#x22FE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/22FF/index.htm|U+22FF]]|Z NOTATION BAG MEMBERSHIP|''&#x22FF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2308/index.htm|U+2308]]|LEFT CEILING|''&#x2308;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2309/index.htm|U+2309]]|RIGHT CEILING|''&#x2309;''|U|
+|[[http://www.fileformat.info/info/unicode/char/230A/index.htm|U+230A]]|LEFT FLOOR|''&#x230A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/230B/index.htm|U+230B]]|RIGHT FLOOR|''&#x230B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2320/index.htm|U+2320]]|TOP HALF INTEGRAL|''&#x2320;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2321/index.htm|U+2321]]|BOTTOM HALF INTEGRAL|''&#x2321;''|U|
+|[[http://www.fileformat.info/info/unicode/char/237C/index.htm|U+237C]]|RIGHT ANGLE WITH DOWNWARDS ZIGZAG ARROW|''&#x237C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/239B/index.htm|U+239B]]|LEFT PARENTHESIS UPPER HOOK|''&#x239B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/239C/index.htm|U+239C]]|LEFT PARENTHESIS EXTENSION|''&#x239C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/239D/index.htm|U+239D]]|LEFT PARENTHESIS LOWER HOOK|''&#x239D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/239E/index.htm|U+239E]]|RIGHT PARENTHESIS UPPER HOOK|''&#x239E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/239F/index.htm|U+239F]]|RIGHT PARENTHESIS EXTENSION|''&#x239F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23A0/index.htm|U+23A0]]|RIGHT PARENTHESIS LOWER HOOK|''&#x23A0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23A1/index.htm|U+23A1]]|LEFT SQUARE BRACKET UPPER CORNER|''&#x23A1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23A2/index.htm|U+23A2]]|LEFT SQUARE BRACKET EXTENSION|''&#x23A2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23A3/index.htm|U+23A3]]|LEFT SQUARE BRACKET LOWER CORNER|''&#x23A3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23A4/index.htm|U+23A4]]|RIGHT SQUARE BRACKET UPPER CORNER|''&#x23A4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23A5/index.htm|U+23A5]]|RIGHT SQUARE BRACKET EXTENSION|''&#x23A5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23A6/index.htm|U+23A6]]|RIGHT SQUARE BRACKET LOWER CORNER|''&#x23A6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23A7/index.htm|U+23A7]]|LEFT CURLY BRACKET UPPER HOOK|''&#x23A7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23A8/index.htm|U+23A8]]|LEFT CURLY BRACKET MIDDLE PIECE|''&#x23A8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23A9/index.htm|U+23A9]]|LEFT CURLY BRACKET LOWER HOOK|''&#x23A9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23AA/index.htm|U+23AA]]|CURLY BRACKET EXTENSION|''&#x23AA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23AB/index.htm|U+23AB]]|RIGHT CURLY BRACKET UPPER HOOK|''&#x23AB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23AC/index.htm|U+23AC]]|RIGHT CURLY BRACKET MIDDLE PIECE|''&#x23AC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23AD/index.htm|U+23AD]]|RIGHT CURLY BRACKET LOWER HOOK|''&#x23AD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23AE/index.htm|U+23AE]]|INTEGRAL EXTENSION|''&#x23AE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23AF/index.htm|U+23AF]]|HORIZONTAL LINE EXTENSION|''&#x23AF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23B0/index.htm|U+23B0]]|UPPER LEFT OR LOWER RIGHT CURLY BRACKET SECTION|''&#x23B0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23B1/index.htm|U+23B1]]|UPPER RIGHT OR LOWER LEFT CURLY BRACKET SECTION|''&#x23B1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23B2/index.htm|U+23B2]]|SUMMATION TOP|''&#x23B2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23B3/index.htm|U+23B3]]|SUMMATION BOTTOM|''&#x23B3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23DC/index.htm|U+23DC]]|TOP PARENTHESIS|''&#x23DC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23DD/index.htm|U+23DD]]|BOTTOM PARENTHESIS|''&#x23DD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23DE/index.htm|U+23DE]]|TOP CURLY BRACKET|''&#x23DE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23DF/index.htm|U+23DF]]|BOTTOM CURLY BRACKET|''&#x23DF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23E0/index.htm|U+23E0]]|TOP TORTOISE SHELL BRACKET|''&#x23E0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/23E1/index.htm|U+23E1]]|BOTTOM TORTOISE SHELL BRACKET|''&#x23E1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/25B7/index.htm|U+25B7]]|WHITE RIGHT-POINTING TRIANGLE|''&#x25B7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/25C1/index.htm|U+25C1]]|WHITE LEFT-POINTING TRIANGLE|''&#x25C1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/25F8/index.htm|U+25F8]]|UPPER LEFT TRIANGLE|''&#x25F8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/25F9/index.htm|U+25F9]]|UPPER RIGHT TRIANGLE|''&#x25F9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/25FA/index.htm|U+25FA]]|LOWER LEFT TRIANGLE|''&#x25FA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/25FB/index.htm|U+25FB]]|WHITE MEDIUM SQUARE|''&#x25FB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/25FC/index.htm|U+25FC]]|BLACK MEDIUM SQUARE|''&#x25FC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/25FD/index.htm|U+25FD]]|WHITE MEDIUM SMALL SQUARE|''&#x25FD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/25FE/index.htm|U+25FE]]|BLACK MEDIUM SMALL SQUARE|''&#x25FE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/25FF/index.htm|U+25FF]]|LOWER RIGHT TRIANGLE|''&#x25FF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/266F/index.htm|U+266F]]|MUSIC SHARP SIGN|''&#x266F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27C0/index.htm|U+27C0]]|THREE DIMENSIONAL ANGLE|''&#x27C0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27C1/index.htm|U+27C1]]|WHITE TRIANGLE CONTAINING SMALL WHITE TRIANGLE|''&#x27C1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27C2/index.htm|U+27C2]]|PERPENDICULAR|''&#x27C2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27C3/index.htm|U+27C3]]|OPEN SUBSET|''&#x27C3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27C4/index.htm|U+27C4]]|OPEN SUPERSET|''&#x27C4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27C7/index.htm|U+27C7]]|OR WITH DOT INSIDE|''&#x27C7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27C8/index.htm|U+27C8]]|REVERSE SOLIDUS PRECEDING SUBSET|''&#x27C8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27C9/index.htm|U+27C9]]|SUPERSET PRECEDING SOLIDUS|''&#x27C9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27CA/index.htm|U+27CA]]|VERTICAL BAR WITH HORIZONTAL STROKE|''&#x27CA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27CB/index.htm|U+27CB]]|MATHEMATICAL RISING DIAGONAL|''&#x27CB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27CC/index.htm|U+27CC]]|LONG DIVISION|''&#x27CC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27CD/index.htm|U+27CD]]|MATHEMATICAL FALLING DIAGONAL|''&#x27CD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27CE/index.htm|U+27CE]]|SQUARED LOGICAL AND|''&#x27CE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27CF/index.htm|U+27CF]]|SQUARED LOGICAL OR|''&#x27CF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27D0/index.htm|U+27D0]]|WHITE DIAMOND WITH CENTRED DOT|''&#x27D0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27D1/index.htm|U+27D1]]|AND WITH DOT|''&#x27D1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27D2/index.htm|U+27D2]]|ELEMENT OF OPENING UPWARDS|''&#x27D2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27D3/index.htm|U+27D3]]|LOWER RIGHT CORNER WITH DOT|''&#x27D3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27D4/index.htm|U+27D4]]|UPPER LEFT CORNER WITH DOT|''&#x27D4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27D5/index.htm|U+27D5]]|LEFT OUTER JOIN|''&#x27D5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27D6/index.htm|U+27D6]]|RIGHT OUTER JOIN|''&#x27D6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27D7/index.htm|U+27D7]]|FULL OUTER JOIN|''&#x27D7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27D8/index.htm|U+27D8]]|LARGE UP TACK|''&#x27D8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27D9/index.htm|U+27D9]]|LARGE DOWN TACK|''&#x27D9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27DA/index.htm|U+27DA]]|LEFT AND RIGHT DOUBLE TURNSTILE|''&#x27DA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27DB/index.htm|U+27DB]]|LEFT AND RIGHT TACK|''&#x27DB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27DC/index.htm|U+27DC]]|LEFT MULTIMAP|''&#x27DC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27DD/index.htm|U+27DD]]|LONG RIGHT TACK|''&#x27DD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27DE/index.htm|U+27DE]]|LONG LEFT TACK|''&#x27DE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27DF/index.htm|U+27DF]]|UP TACK WITH CIRCLE ABOVE|''&#x27DF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27E0/index.htm|U+27E0]]|LOZENGE DIVIDED BY HORIZONTAL RULE|''&#x27E0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27E1/index.htm|U+27E1]]|WHITE CONCAVE-SIDED DIAMOND|''&#x27E1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27E2/index.htm|U+27E2]]|WHITE CONCAVE-SIDED DIAMOND WITH LEFTWARDS TICK|''&#x27E2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27E3/index.htm|U+27E3]]|WHITE CONCAVE-SIDED DIAMOND WITH RIGHTWARDS TICK|''&#x27E3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27E4/index.htm|U+27E4]]|WHITE SQUARE WITH LEFTWARDS TICK|''&#x27E4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27E5/index.htm|U+27E5]]|WHITE SQUARE WITH RIGHTWARDS TICK|''&#x27E5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27F0/index.htm|U+27F0]]|UPWARDS QUADRUPLE ARROW|''&#x27F0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27F1/index.htm|U+27F1]]|DOWNWARDS QUADRUPLE ARROW|''&#x27F1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27F2/index.htm|U+27F2]]|ANTICLOCKWISE GAPPED CIRCLE ARROW|''&#x27F2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27F3/index.htm|U+27F3]]|CLOCKWISE GAPPED CIRCLE ARROW|''&#x27F3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27F4/index.htm|U+27F4]]|RIGHT ARROW WITH CIRCLED PLUS|''&#x27F4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27F5/index.htm|U+27F5]]|LONG LEFTWARDS ARROW|''&#x27F5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27F6/index.htm|U+27F6]]|LONG RIGHTWARDS ARROW|''&#x27F6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27F7/index.htm|U+27F7]]|LONG LEFT RIGHT ARROW|''&#x27F7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27F8/index.htm|U+27F8]]|LONG LEFTWARDS DOUBLE ARROW|''&#x27F8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27F9/index.htm|U+27F9]]|LONG RIGHTWARDS DOUBLE ARROW|''&#x27F9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27FA/index.htm|U+27FA]]|LONG LEFT RIGHT DOUBLE ARROW|''&#x27FA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27FB/index.htm|U+27FB]]|LONG LEFTWARDS ARROW FROM BAR|''&#x27FB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27FC/index.htm|U+27FC]]|LONG RIGHTWARDS ARROW FROM BAR|''&#x27FC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27FD/index.htm|U+27FD]]|LONG LEFTWARDS DOUBLE ARROW FROM BAR|''&#x27FD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27FE/index.htm|U+27FE]]|LONG RIGHTWARDS DOUBLE ARROW FROM BAR|''&#x27FE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/27FF/index.htm|U+27FF]]|LONG RIGHTWARDS SQUIGGLE ARROW|''&#x27FF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2900/index.htm|U+2900]]|RIGHTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE|''&#x2900;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2901/index.htm|U+2901]]|RIGHTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE|''&#x2901;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2902/index.htm|U+2902]]|LEFTWARDS DOUBLE ARROW WITH VERTICAL STROKE|''&#x2902;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2903/index.htm|U+2903]]|RIGHTWARDS DOUBLE ARROW WITH VERTICAL STROKE|''&#x2903;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2904/index.htm|U+2904]]|LEFT RIGHT DOUBLE ARROW WITH VERTICAL STROKE|''&#x2904;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2905/index.htm|U+2905]]|RIGHTWARDS TWO-HEADED ARROW FROM BAR|''&#x2905;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2906/index.htm|U+2906]]|LEFTWARDS DOUBLE ARROW FROM BAR|''&#x2906;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2907/index.htm|U+2907]]|RIGHTWARDS DOUBLE ARROW FROM BAR|''&#x2907;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2908/index.htm|U+2908]]|DOWNWARDS ARROW WITH HORIZONTAL STROKE|''&#x2908;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2909/index.htm|U+2909]]|UPWARDS ARROW WITH HORIZONTAL STROKE|''&#x2909;''|U|
+|[[http://www.fileformat.info/info/unicode/char/290A/index.htm|U+290A]]|UPWARDS TRIPLE ARROW|''&#x290A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/290B/index.htm|U+290B]]|DOWNWARDS TRIPLE ARROW|''&#x290B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/290C/index.htm|U+290C]]|LEFTWARDS DOUBLE DASH ARROW|''&#x290C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/290D/index.htm|U+290D]]|RIGHTWARDS DOUBLE DASH ARROW|''&#x290D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/290E/index.htm|U+290E]]|LEFTWARDS TRIPLE DASH ARROW|''&#x290E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/290F/index.htm|U+290F]]|RIGHTWARDS TRIPLE DASH ARROW|''&#x290F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2910/index.htm|U+2910]]|RIGHTWARDS TWO-HEADED TRIPLE DASH ARROW|''&#x2910;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2911/index.htm|U+2911]]|RIGHTWARDS ARROW WITH DOTTED STEM|''&#x2911;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2912/index.htm|U+2912]]|UPWARDS ARROW TO BAR|''&#x2912;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2913/index.htm|U+2913]]|DOWNWARDS ARROW TO BAR|''&#x2913;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2914/index.htm|U+2914]]|RIGHTWARDS ARROW WITH TAIL WITH VERTICAL STROKE|''&#x2914;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2915/index.htm|U+2915]]|RIGHTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE|''&#x2915;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2916/index.htm|U+2916]]|RIGHTWARDS TWO-HEADED ARROW WITH TAIL|''&#x2916;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2917/index.htm|U+2917]]|RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE|''&#x2917;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2918/index.htm|U+2918]]|RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE|''&#x2918;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2919/index.htm|U+2919]]|LEFTWARDS ARROW-TAIL|''&#x2919;''|U|
+|[[http://www.fileformat.info/info/unicode/char/291A/index.htm|U+291A]]|RIGHTWARDS ARROW-TAIL|''&#x291A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/291B/index.htm|U+291B]]|LEFTWARDS DOUBLE ARROW-TAIL|''&#x291B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/291C/index.htm|U+291C]]|RIGHTWARDS DOUBLE ARROW-TAIL|''&#x291C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/291D/index.htm|U+291D]]|LEFTWARDS ARROW TO BLACK DIAMOND|''&#x291D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/291E/index.htm|U+291E]]|RIGHTWARDS ARROW TO BLACK DIAMOND|''&#x291E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/291F/index.htm|U+291F]]|LEFTWARDS ARROW FROM BAR TO BLACK DIAMOND|''&#x291F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2920/index.htm|U+2920]]|RIGHTWARDS ARROW FROM BAR TO BLACK DIAMOND|''&#x2920;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2921/index.htm|U+2921]]|NORTH WEST AND SOUTH EAST ARROW|''&#x2921;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2922/index.htm|U+2922]]|NORTH EAST AND SOUTH WEST ARROW|''&#x2922;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2923/index.htm|U+2923]]|NORTH WEST ARROW WITH HOOK|''&#x2923;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2924/index.htm|U+2924]]|NORTH EAST ARROW WITH HOOK|''&#x2924;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2925/index.htm|U+2925]]|SOUTH EAST ARROW WITH HOOK|''&#x2925;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2926/index.htm|U+2926]]|SOUTH WEST ARROW WITH HOOK|''&#x2926;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2927/index.htm|U+2927]]|NORTH WEST ARROW AND NORTH EAST ARROW|''&#x2927;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2928/index.htm|U+2928]]|NORTH EAST ARROW AND SOUTH EAST ARROW|''&#x2928;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2929/index.htm|U+2929]]|SOUTH EAST ARROW AND SOUTH WEST ARROW|''&#x2929;''|U|
+|[[http://www.fileformat.info/info/unicode/char/292A/index.htm|U+292A]]|SOUTH WEST ARROW AND NORTH WEST ARROW|''&#x292A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/292B/index.htm|U+292B]]|RISING DIAGONAL CROSSING FALLING DIAGONAL|''&#x292B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/292C/index.htm|U+292C]]|FALLING DIAGONAL CROSSING RISING DIAGONAL|''&#x292C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/292D/index.htm|U+292D]]|SOUTH EAST ARROW CROSSING NORTH EAST ARROW|''&#x292D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/292E/index.htm|U+292E]]|NORTH EAST ARROW CROSSING SOUTH EAST ARROW|''&#x292E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/292F/index.htm|U+292F]]|FALLING DIAGONAL CROSSING NORTH EAST ARROW|''&#x292F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2930/index.htm|U+2930]]|RISING DIAGONAL CROSSING SOUTH EAST ARROW|''&#x2930;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2931/index.htm|U+2931]]|NORTH EAST ARROW CROSSING NORTH WEST ARROW|''&#x2931;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2932/index.htm|U+2932]]|NORTH WEST ARROW CROSSING NORTH EAST ARROW|''&#x2932;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2933/index.htm|U+2933]]|WAVE ARROW POINTING DIRECTLY RIGHT|''&#x2933;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2934/index.htm|U+2934]]|ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS|''&#x2934;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2935/index.htm|U+2935]]|ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS|''&#x2935;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2936/index.htm|U+2936]]|ARROW POINTING DOWNWARDS THEN CURVING LEFTWARDS|''&#x2936;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2937/index.htm|U+2937]]|ARROW POINTING DOWNWARDS THEN CURVING RIGHTWARDS|''&#x2937;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2938/index.htm|U+2938]]|RIGHT-SIDE ARC CLOCKWISE ARROW|''&#x2938;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2939/index.htm|U+2939]]|LEFT-SIDE ARC ANTICLOCKWISE ARROW|''&#x2939;''|U|
+|[[http://www.fileformat.info/info/unicode/char/293A/index.htm|U+293A]]|TOP ARC ANTICLOCKWISE ARROW|''&#x293A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/293B/index.htm|U+293B]]|BOTTOM ARC ANTICLOCKWISE ARROW|''&#x293B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/293C/index.htm|U+293C]]|TOP ARC CLOCKWISE ARROW WITH MINUS|''&#x293C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/293D/index.htm|U+293D]]|TOP ARC ANTICLOCKWISE ARROW WITH PLUS|''&#x293D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/293E/index.htm|U+293E]]|LOWER RIGHT SEMICIRCULAR CLOCKWISE ARROW|''&#x293E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/293F/index.htm|U+293F]]|LOWER LEFT SEMICIRCULAR ANTICLOCKWISE ARROW|''&#x293F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2940/index.htm|U+2940]]|ANTICLOCKWISE CLOSED CIRCLE ARROW|''&#x2940;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2941/index.htm|U+2941]]|CLOCKWISE CLOSED CIRCLE ARROW|''&#x2941;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2942/index.htm|U+2942]]|RIGHTWARDS ARROW ABOVE SHORT LEFTWARDS ARROW|''&#x2942;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2943/index.htm|U+2943]]|LEFTWARDS ARROW ABOVE SHORT RIGHTWARDS ARROW|''&#x2943;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2944/index.htm|U+2944]]|SHORT RIGHTWARDS ARROW ABOVE LEFTWARDS ARROW|''&#x2944;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2945/index.htm|U+2945]]|RIGHTWARDS ARROW WITH PLUS BELOW|''&#x2945;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2946/index.htm|U+2946]]|LEFTWARDS ARROW WITH PLUS BELOW|''&#x2946;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2947/index.htm|U+2947]]|RIGHTWARDS ARROW THROUGH X|''&#x2947;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2948/index.htm|U+2948]]|LEFT RIGHT ARROW THROUGH SMALL CIRCLE|''&#x2948;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2949/index.htm|U+2949]]|UPWARDS TWO-HEADED ARROW FROM SMALL CIRCLE|''&#x2949;''|U|
+|[[http://www.fileformat.info/info/unicode/char/294A/index.htm|U+294A]]|LEFT BARB UP RIGHT BARB DOWN HARPOON|''&#x294A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/294B/index.htm|U+294B]]|LEFT BARB DOWN RIGHT BARB UP HARPOON|''&#x294B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/294C/index.htm|U+294C]]|UP BARB RIGHT DOWN BARB LEFT HARPOON|''&#x294C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/294D/index.htm|U+294D]]|UP BARB LEFT DOWN BARB RIGHT HARPOON|''&#x294D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/294E/index.htm|U+294E]]|LEFT BARB UP RIGHT BARB UP HARPOON|''&#x294E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/294F/index.htm|U+294F]]|UP BARB RIGHT DOWN BARB RIGHT HARPOON|''&#x294F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2950/index.htm|U+2950]]|LEFT BARB DOWN RIGHT BARB DOWN HARPOON|''&#x2950;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2951/index.htm|U+2951]]|UP BARB LEFT DOWN BARB LEFT HARPOON|''&#x2951;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2952/index.htm|U+2952]]|LEFTWARDS HARPOON WITH BARB UP TO BAR|''&#x2952;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2953/index.htm|U+2953]]|RIGHTWARDS HARPOON WITH BARB UP TO BAR|''&#x2953;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2954/index.htm|U+2954]]|UPWARDS HARPOON WITH BARB RIGHT TO BAR|''&#x2954;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2955/index.htm|U+2955]]|DOWNWARDS HARPOON WITH BARB RIGHT TO BAR|''&#x2955;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2956/index.htm|U+2956]]|LEFTWARDS HARPOON WITH BARB DOWN TO BAR|''&#x2956;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2957/index.htm|U+2957]]|RIGHTWARDS HARPOON WITH BARB DOWN TO BAR|''&#x2957;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2958/index.htm|U+2958]]|UPWARDS HARPOON WITH BARB LEFT TO BAR|''&#x2958;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2959/index.htm|U+2959]]|DOWNWARDS HARPOON WITH BARB LEFT TO BAR|''&#x2959;''|U|
+|[[http://www.fileformat.info/info/unicode/char/295A/index.htm|U+295A]]|LEFTWARDS HARPOON WITH BARB UP FROM BAR|''&#x295A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/295B/index.htm|U+295B]]|RIGHTWARDS HARPOON WITH BARB UP FROM BAR|''&#x295B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/295C/index.htm|U+295C]]|UPWARDS HARPOON WITH BARB RIGHT FROM BAR|''&#x295C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/295D/index.htm|U+295D]]|DOWNWARDS HARPOON WITH BARB RIGHT FROM BAR|''&#x295D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/295E/index.htm|U+295E]]|LEFTWARDS HARPOON WITH BARB DOWN FROM BAR|''&#x295E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/295F/index.htm|U+295F]]|RIGHTWARDS HARPOON WITH BARB DOWN FROM BAR|''&#x295F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2960/index.htm|U+2960]]|UPWARDS HARPOON WITH BARB LEFT FROM BAR|''&#x2960;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2961/index.htm|U+2961]]|DOWNWARDS HARPOON WITH BARB LEFT FROM BAR|''&#x2961;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2962/index.htm|U+2962]]|LEFTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB DOWN|''&#x2962;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2963/index.htm|U+2963]]|UPWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT|''&#x2963;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2964/index.htm|U+2964]]|RIGHTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB DOWN|''&#x2964;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2965/index.htm|U+2965]]|DOWNWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT|''&#x2965;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2966/index.htm|U+2966]]|LEFTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB UP|''&#x2966;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2967/index.htm|U+2967]]|LEFTWARDS HARPOON WITH BARB DOWN ABOVE RIGHTWARDS HARPOON WITH BARB DOWN|''&#x2967;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2968/index.htm|U+2968]]|RIGHTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB UP|''&#x2968;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2969/index.htm|U+2969]]|RIGHTWARDS HARPOON WITH BARB DOWN ABOVE LEFTWARDS HARPOON WITH BARB DOWN|''&#x2969;''|U|
+|[[http://www.fileformat.info/info/unicode/char/296A/index.htm|U+296A]]|LEFTWARDS HARPOON WITH BARB UP ABOVE LONG DASH|''&#x296A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/296B/index.htm|U+296B]]|LEFTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH|''&#x296B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/296C/index.htm|U+296C]]|RIGHTWARDS HARPOON WITH BARB UP ABOVE LONG DASH|''&#x296C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/296D/index.htm|U+296D]]|RIGHTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH|''&#x296D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/296E/index.htm|U+296E]]|UPWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT|''&#x296E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/296F/index.htm|U+296F]]|DOWNWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT|''&#x296F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2970/index.htm|U+2970]]|RIGHT DOUBLE ARROW WITH ROUNDED HEAD|''&#x2970;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2971/index.htm|U+2971]]|EQUALS SIGN ABOVE RIGHTWARDS ARROW|''&#x2971;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2972/index.htm|U+2972]]|TILDE OPERATOR ABOVE RIGHTWARDS ARROW|''&#x2972;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2973/index.htm|U+2973]]|LEFTWARDS ARROW ABOVE TILDE OPERATOR|''&#x2973;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2974/index.htm|U+2974]]|RIGHTWARDS ARROW ABOVE TILDE OPERATOR|''&#x2974;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2975/index.htm|U+2975]]|RIGHTWARDS ARROW ABOVE ALMOST EQUAL TO|''&#x2975;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2976/index.htm|U+2976]]|LESS-THAN ABOVE LEFTWARDS ARROW|''&#x2976;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2977/index.htm|U+2977]]|LEFTWARDS ARROW THROUGH LESS-THAN|''&#x2977;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2978/index.htm|U+2978]]|GREATER-THAN ABOVE RIGHTWARDS ARROW|''&#x2978;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2979/index.htm|U+2979]]|SUBSET ABOVE RIGHTWARDS ARROW|''&#x2979;''|U|
+|[[http://www.fileformat.info/info/unicode/char/297A/index.htm|U+297A]]|LEFTWARDS ARROW THROUGH SUBSET|''&#x297A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/297B/index.htm|U+297B]]|SUPERSET ABOVE LEFTWARDS ARROW|''&#x297B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/297C/index.htm|U+297C]]|LEFT FISH TAIL|''&#x297C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/297D/index.htm|U+297D]]|RIGHT FISH TAIL|''&#x297D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/297E/index.htm|U+297E]]|UP FISH TAIL|''&#x297E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/297F/index.htm|U+297F]]|DOWN FISH TAIL|''&#x297F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2980/index.htm|U+2980]]|TRIPLE VERTICAL BAR DELIMITER|''&#x2980;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2981/index.htm|U+2981]]|Z NOTATION SPOT|''&#x2981;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2982/index.htm|U+2982]]|Z NOTATION TYPE COLON|''&#x2982;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2999/index.htm|U+2999]]|DOTTED FENCE|''&#x2999;''|U|
+|[[http://www.fileformat.info/info/unicode/char/299A/index.htm|U+299A]]|VERTICAL ZIGZAG LINE|''&#x299A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/299B/index.htm|U+299B]]|MEASURED ANGLE OPENING LEFT|''&#x299B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/299C/index.htm|U+299C]]|RIGHT ANGLE VARIANT WITH SQUARE|''&#x299C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/299D/index.htm|U+299D]]|MEASURED RIGHT ANGLE WITH DOT|''&#x299D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/299E/index.htm|U+299E]]|ANGLE WITH S INSIDE|''&#x299E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/299F/index.htm|U+299F]]|ACUTE ANGLE|''&#x299F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29A0/index.htm|U+29A0]]|SPHERICAL ANGLE OPENING LEFT|''&#x29A0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29A1/index.htm|U+29A1]]|SPHERICAL ANGLE OPENING UP|''&#x29A1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29A2/index.htm|U+29A2]]|TURNED ANGLE|''&#x29A2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29A3/index.htm|U+29A3]]|REVERSED ANGLE|''&#x29A3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29A4/index.htm|U+29A4]]|ANGLE WITH UNDERBAR|''&#x29A4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29A5/index.htm|U+29A5]]|REVERSED ANGLE WITH UNDERBAR|''&#x29A5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29A6/index.htm|U+29A6]]|OBLIQUE ANGLE OPENING UP|''&#x29A6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29A7/index.htm|U+29A7]]|OBLIQUE ANGLE OPENING DOWN|''&#x29A7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29A8/index.htm|U+29A8]]|MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING UP AND RIGHT|''&#x29A8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29A9/index.htm|U+29A9]]|MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING UP AND LEFT|''&#x29A9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29AA/index.htm|U+29AA]]|MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING DOWN AND RIGHT|''&#x29AA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29AB/index.htm|U+29AB]]|MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING DOWN AND LEFT|''&#x29AB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29AC/index.htm|U+29AC]]|MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING RIGHT AND UP|''&#x29AC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29AD/index.htm|U+29AD]]|MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING LEFT AND UP|''&#x29AD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29AE/index.htm|U+29AE]]|MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING RIGHT AND DOWN|''&#x29AE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29AF/index.htm|U+29AF]]|MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING LEFT AND DOWN|''&#x29AF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29B0/index.htm|U+29B0]]|REVERSED EMPTY SET|''&#x29B0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29B1/index.htm|U+29B1]]|EMPTY SET WITH OVERBAR|''&#x29B1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29B2/index.htm|U+29B2]]|EMPTY SET WITH SMALL CIRCLE ABOVE|''&#x29B2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29B3/index.htm|U+29B3]]|EMPTY SET WITH RIGHT ARROW ABOVE|''&#x29B3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29B4/index.htm|U+29B4]]|EMPTY SET WITH LEFT ARROW ABOVE|''&#x29B4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29B5/index.htm|U+29B5]]|CIRCLE WITH HORIZONTAL BAR|''&#x29B5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29B6/index.htm|U+29B6]]|CIRCLED VERTICAL BAR|''&#x29B6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29B7/index.htm|U+29B7]]|CIRCLED PARALLEL|''&#x29B7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29B8/index.htm|U+29B8]]|CIRCLED REVERSE SOLIDUS|''&#x29B8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29B9/index.htm|U+29B9]]|CIRCLED PERPENDICULAR|''&#x29B9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29BA/index.htm|U+29BA]]|CIRCLE DIVIDED BY HORIZONTAL BAR AND TOP HALF DIVIDED BY VERTICAL BAR|''&#x29BA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29BB/index.htm|U+29BB]]|CIRCLE WITH SUPERIMPOSED X|''&#x29BB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29BC/index.htm|U+29BC]]|CIRCLED ANTICLOCKWISE-ROTATED DIVISION SIGN|''&#x29BC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29BD/index.htm|U+29BD]]|UP ARROW THROUGH CIRCLE|''&#x29BD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29BE/index.htm|U+29BE]]|CIRCLED WHITE BULLET|''&#x29BE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29BF/index.htm|U+29BF]]|CIRCLED BULLET|''&#x29BF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29C0/index.htm|U+29C0]]|CIRCLED LESS-THAN|''&#x29C0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29C1/index.htm|U+29C1]]|CIRCLED GREATER-THAN|''&#x29C1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29C2/index.htm|U+29C2]]|CIRCLE WITH SMALL CIRCLE TO THE RIGHT|''&#x29C2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29C3/index.htm|U+29C3]]|CIRCLE WITH TWO HORIZONTAL STROKES TO THE RIGHT|''&#x29C3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29C4/index.htm|U+29C4]]|SQUARED RISING DIAGONAL SLASH|''&#x29C4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29C5/index.htm|U+29C5]]|SQUARED FALLING DIAGONAL SLASH|''&#x29C5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29C6/index.htm|U+29C6]]|SQUARED ASTERISK|''&#x29C6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29C7/index.htm|U+29C7]]|SQUARED SMALL CIRCLE|''&#x29C7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29C8/index.htm|U+29C8]]|SQUARED SQUARE|''&#x29C8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29C9/index.htm|U+29C9]]|TWO JOINED SQUARES|''&#x29C9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29CA/index.htm|U+29CA]]|TRIANGLE WITH DOT ABOVE|''&#x29CA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29CB/index.htm|U+29CB]]|TRIANGLE WITH UNDERBAR|''&#x29CB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29CC/index.htm|U+29CC]]|S IN TRIANGLE|''&#x29CC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29CD/index.htm|U+29CD]]|TRIANGLE WITH SERIFS AT BOTTOM|''&#x29CD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29CE/index.htm|U+29CE]]|RIGHT TRIANGLE ABOVE LEFT TRIANGLE|''&#x29CE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29CF/index.htm|U+29CF]]|LEFT TRIANGLE BESIDE VERTICAL BAR|''&#x29CF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29D0/index.htm|U+29D0]]|VERTICAL BAR BESIDE RIGHT TRIANGLE|''&#x29D0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29D1/index.htm|U+29D1]]|BOWTIE WITH LEFT HALF BLACK|''&#x29D1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29D2/index.htm|U+29D2]]|BOWTIE WITH RIGHT HALF BLACK|''&#x29D2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29D3/index.htm|U+29D3]]|BLACK BOWTIE|''&#x29D3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29D4/index.htm|U+29D4]]|TIMES WITH LEFT HALF BLACK|''&#x29D4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29D5/index.htm|U+29D5]]|TIMES WITH RIGHT HALF BLACK|''&#x29D5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29D6/index.htm|U+29D6]]|WHITE HOURGLASS|''&#x29D6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29D7/index.htm|U+29D7]]|BLACK HOURGLASS|''&#x29D7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29DC/index.htm|U+29DC]]|INCOMPLETE INFINITY|''&#x29DC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29DD/index.htm|U+29DD]]|TIE OVER INFINITY|''&#x29DD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29DE/index.htm|U+29DE]]|INFINITY NEGATED WITH VERTICAL BAR|''&#x29DE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29DF/index.htm|U+29DF]]|DOUBLE-ENDED MULTIMAP|''&#x29DF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29E0/index.htm|U+29E0]]|SQUARE WITH CONTOURED OUTLINE|''&#x29E0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29E1/index.htm|U+29E1]]|INCREASES AS|''&#x29E1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29E2/index.htm|U+29E2]]|SHUFFLE PRODUCT|''&#x29E2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29E3/index.htm|U+29E3]]|EQUALS SIGN AND SLANTED PARALLEL|''&#x29E3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29E4/index.htm|U+29E4]]|EQUALS SIGN AND SLANTED PARALLEL WITH TILDE ABOVE|''&#x29E4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29E5/index.htm|U+29E5]]|IDENTICAL TO AND SLANTED PARALLEL|''&#x29E5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29E6/index.htm|U+29E6]]|GLEICH STARK|''&#x29E6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29E7/index.htm|U+29E7]]|THERMODYNAMIC|''&#x29E7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29E8/index.htm|U+29E8]]|DOWN-POINTING TRIANGLE WITH LEFT HALF BLACK|''&#x29E8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29E9/index.htm|U+29E9]]|DOWN-POINTING TRIANGLE WITH RIGHT HALF BLACK|''&#x29E9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29EA/index.htm|U+29EA]]|BLACK DIAMOND WITH DOWN ARROW|''&#x29EA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29EB/index.htm|U+29EB]]|BLACK LOZENGE|''&#x29EB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29EC/index.htm|U+29EC]]|WHITE CIRCLE WITH DOWN ARROW|''&#x29EC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29ED/index.htm|U+29ED]]|BLACK CIRCLE WITH DOWN ARROW|''&#x29ED;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29EE/index.htm|U+29EE]]|ERROR-BARRED WHITE SQUARE|''&#x29EE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29EF/index.htm|U+29EF]]|ERROR-BARRED BLACK SQUARE|''&#x29EF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29F0/index.htm|U+29F0]]|ERROR-BARRED WHITE DIAMOND|''&#x29F0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29F1/index.htm|U+29F1]]|ERROR-BARRED BLACK DIAMOND|''&#x29F1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29F2/index.htm|U+29F2]]|ERROR-BARRED WHITE CIRCLE|''&#x29F2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29F3/index.htm|U+29F3]]|ERROR-BARRED BLACK CIRCLE|''&#x29F3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29F4/index.htm|U+29F4]]|RULE-DELAYED|''&#x29F4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29F5/index.htm|U+29F5]]|REVERSE SOLIDUS OPERATOR|''&#x29F5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29F6/index.htm|U+29F6]]|SOLIDUS WITH OVERBAR|''&#x29F6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29F7/index.htm|U+29F7]]|REVERSE SOLIDUS WITH HORIZONTAL STROKE|''&#x29F7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29F8/index.htm|U+29F8]]|BIG SOLIDUS|''&#x29F8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29F9/index.htm|U+29F9]]|BIG REVERSE SOLIDUS|''&#x29F9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29FA/index.htm|U+29FA]]|DOUBLE PLUS|''&#x29FA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29FB/index.htm|U+29FB]]|TRIPLE PLUS|''&#x29FB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29FE/index.htm|U+29FE]]|TINY|''&#x29FE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/29FF/index.htm|U+29FF]]|MINY|''&#x29FF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A00/index.htm|U+2A00]]|N-ARY CIRCLED DOT OPERATOR|''&#x2A00;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A01/index.htm|U+2A01]]|N-ARY CIRCLED PLUS OPERATOR|''&#x2A01;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A02/index.htm|U+2A02]]|N-ARY CIRCLED TIMES OPERATOR|''&#x2A02;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A03/index.htm|U+2A03]]|N-ARY UNION OPERATOR WITH DOT|''&#x2A03;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A04/index.htm|U+2A04]]|N-ARY UNION OPERATOR WITH PLUS|''&#x2A04;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A05/index.htm|U+2A05]]|N-ARY SQUARE INTERSECTION OPERATOR|''&#x2A05;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A06/index.htm|U+2A06]]|N-ARY SQUARE UNION OPERATOR|''&#x2A06;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A07/index.htm|U+2A07]]|TWO LOGICAL AND OPERATOR|''&#x2A07;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A08/index.htm|U+2A08]]|TWO LOGICAL OR OPERATOR|''&#x2A08;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A09/index.htm|U+2A09]]|N-ARY TIMES OPERATOR|''&#x2A09;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A0A/index.htm|U+2A0A]]|MODULO TWO SUM|''&#x2A0A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A0B/index.htm|U+2A0B]]|SUMMATION WITH INTEGRAL|''&#x2A0B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A0C/index.htm|U+2A0C]]|QUADRUPLE INTEGRAL OPERATOR|''&#x2A0C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A0D/index.htm|U+2A0D]]|FINITE PART INTEGRAL|''&#x2A0D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A0E/index.htm|U+2A0E]]|INTEGRAL WITH DOUBLE STROKE|''&#x2A0E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A0F/index.htm|U+2A0F]]|INTEGRAL AVERAGE WITH SLASH|''&#x2A0F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A10/index.htm|U+2A10]]|CIRCULATION FUNCTION|''&#x2A10;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A11/index.htm|U+2A11]]|ANTICLOCKWISE INTEGRATION|''&#x2A11;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A12/index.htm|U+2A12]]|LINE INTEGRATION WITH RECTANGULAR PATH AROUND POLE|''&#x2A12;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A13/index.htm|U+2A13]]|LINE INTEGRATION WITH SEMICIRCULAR PATH AROUND POLE|''&#x2A13;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A14/index.htm|U+2A14]]|LINE INTEGRATION NOT INCLUDING THE POLE|''&#x2A14;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A15/index.htm|U+2A15]]|INTEGRAL AROUND A POINT OPERATOR|''&#x2A15;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A16/index.htm|U+2A16]]|QUATERNION INTEGRAL OPERATOR|''&#x2A16;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A17/index.htm|U+2A17]]|INTEGRAL WITH LEFTWARDS ARROW WITH HOOK|''&#x2A17;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A18/index.htm|U+2A18]]|INTEGRAL WITH TIMES SIGN|''&#x2A18;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A19/index.htm|U+2A19]]|INTEGRAL WITH INTERSECTION|''&#x2A19;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A1A/index.htm|U+2A1A]]|INTEGRAL WITH UNION|''&#x2A1A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A1B/index.htm|U+2A1B]]|INTEGRAL WITH OVERBAR|''&#x2A1B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A1C/index.htm|U+2A1C]]|INTEGRAL WITH UNDERBAR|''&#x2A1C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A1D/index.htm|U+2A1D]]|JOIN|''&#x2A1D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A1E/index.htm|U+2A1E]]|LARGE LEFT TRIANGLE OPERATOR|''&#x2A1E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A1F/index.htm|U+2A1F]]|Z NOTATION SCHEMA COMPOSITION|''&#x2A1F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A20/index.htm|U+2A20]]|Z NOTATION SCHEMA PIPING|''&#x2A20;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A21/index.htm|U+2A21]]|Z NOTATION SCHEMA PROJECTION|''&#x2A21;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A22/index.htm|U+2A22]]|PLUS SIGN WITH SMALL CIRCLE ABOVE|''&#x2A22;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A23/index.htm|U+2A23]]|PLUS SIGN WITH CIRCUMFLEX ACCENT ABOVE|''&#x2A23;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A24/index.htm|U+2A24]]|PLUS SIGN WITH TILDE ABOVE|''&#x2A24;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A25/index.htm|U+2A25]]|PLUS SIGN WITH DOT BELOW|''&#x2A25;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A26/index.htm|U+2A26]]|PLUS SIGN WITH TILDE BELOW|''&#x2A26;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A27/index.htm|U+2A27]]|PLUS SIGN WITH SUBSCRIPT TWO|''&#x2A27;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A28/index.htm|U+2A28]]|PLUS SIGN WITH BLACK TRIANGLE|''&#x2A28;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A29/index.htm|U+2A29]]|MINUS SIGN WITH COMMA ABOVE|''&#x2A29;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A2A/index.htm|U+2A2A]]|MINUS SIGN WITH DOT BELOW|''&#x2A2A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A2B/index.htm|U+2A2B]]|MINUS SIGN WITH FALLING DOTS|''&#x2A2B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A2C/index.htm|U+2A2C]]|MINUS SIGN WITH RISING DOTS|''&#x2A2C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A2D/index.htm|U+2A2D]]|PLUS SIGN IN LEFT HALF CIRCLE|''&#x2A2D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A2E/index.htm|U+2A2E]]|PLUS SIGN IN RIGHT HALF CIRCLE|''&#x2A2E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A2F/index.htm|U+2A2F]]|VECTOR OR CROSS PRODUCT|''&#x2A2F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A30/index.htm|U+2A30]]|MULTIPLICATION SIGN WITH DOT ABOVE|''&#x2A30;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A31/index.htm|U+2A31]]|MULTIPLICATION SIGN WITH UNDERBAR|''&#x2A31;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A32/index.htm|U+2A32]]|SEMIDIRECT PRODUCT WITH BOTTOM CLOSED|''&#x2A32;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A33/index.htm|U+2A33]]|SMASH PRODUCT|''&#x2A33;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A34/index.htm|U+2A34]]|MULTIPLICATION SIGN IN LEFT HALF CIRCLE|''&#x2A34;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A35/index.htm|U+2A35]]|MULTIPLICATION SIGN IN RIGHT HALF CIRCLE|''&#x2A35;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A36/index.htm|U+2A36]]|CIRCLED MULTIPLICATION SIGN WITH CIRCUMFLEX ACCENT|''&#x2A36;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A37/index.htm|U+2A37]]|MULTIPLICATION SIGN IN DOUBLE CIRCLE|''&#x2A37;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A38/index.htm|U+2A38]]|CIRCLED DIVISION SIGN|''&#x2A38;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A39/index.htm|U+2A39]]|PLUS SIGN IN TRIANGLE|''&#x2A39;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A3A/index.htm|U+2A3A]]|MINUS SIGN IN TRIANGLE|''&#x2A3A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A3B/index.htm|U+2A3B]]|MULTIPLICATION SIGN IN TRIANGLE|''&#x2A3B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A3C/index.htm|U+2A3C]]|INTERIOR PRODUCT|''&#x2A3C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A3D/index.htm|U+2A3D]]|RIGHTHAND INTERIOR PRODUCT|''&#x2A3D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A3E/index.htm|U+2A3E]]|Z NOTATION RELATIONAL COMPOSITION|''&#x2A3E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A3F/index.htm|U+2A3F]]|AMALGAMATION OR COPRODUCT|''&#x2A3F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A40/index.htm|U+2A40]]|INTERSECTION WITH DOT|''&#x2A40;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A41/index.htm|U+2A41]]|UNION WITH MINUS SIGN|''&#x2A41;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A42/index.htm|U+2A42]]|UNION WITH OVERBAR|''&#x2A42;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A43/index.htm|U+2A43]]|INTERSECTION WITH OVERBAR|''&#x2A43;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A44/index.htm|U+2A44]]|INTERSECTION WITH LOGICAL AND|''&#x2A44;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A45/index.htm|U+2A45]]|UNION WITH LOGICAL OR|''&#x2A45;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A46/index.htm|U+2A46]]|UNION ABOVE INTERSECTION|''&#x2A46;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A47/index.htm|U+2A47]]|INTERSECTION ABOVE UNION|''&#x2A47;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A48/index.htm|U+2A48]]|UNION ABOVE BAR ABOVE INTERSECTION|''&#x2A48;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A49/index.htm|U+2A49]]|INTERSECTION ABOVE BAR ABOVE UNION|''&#x2A49;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A4A/index.htm|U+2A4A]]|UNION BESIDE AND JOINED WITH UNION|''&#x2A4A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A4B/index.htm|U+2A4B]]|INTERSECTION BESIDE AND JOINED WITH INTERSECTION|''&#x2A4B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A4C/index.htm|U+2A4C]]|CLOSED UNION WITH SERIFS|''&#x2A4C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A4D/index.htm|U+2A4D]]|CLOSED INTERSECTION WITH SERIFS|''&#x2A4D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A4E/index.htm|U+2A4E]]|DOUBLE SQUARE INTERSECTION|''&#x2A4E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A4F/index.htm|U+2A4F]]|DOUBLE SQUARE UNION|''&#x2A4F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A50/index.htm|U+2A50]]|CLOSED UNION WITH SERIFS AND SMASH PRODUCT|''&#x2A50;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A51/index.htm|U+2A51]]|LOGICAL AND WITH DOT ABOVE|''&#x2A51;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A52/index.htm|U+2A52]]|LOGICAL OR WITH DOT ABOVE|''&#x2A52;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A53/index.htm|U+2A53]]|DOUBLE LOGICAL AND|''&#x2A53;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A54/index.htm|U+2A54]]|DOUBLE LOGICAL OR|''&#x2A54;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A55/index.htm|U+2A55]]|TWO INTERSECTING LOGICAL AND|''&#x2A55;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A56/index.htm|U+2A56]]|TWO INTERSECTING LOGICAL OR|''&#x2A56;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A57/index.htm|U+2A57]]|SLOPING LARGE OR|''&#x2A57;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A58/index.htm|U+2A58]]|SLOPING LARGE AND|''&#x2A58;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A59/index.htm|U+2A59]]|LOGICAL OR OVERLAPPING LOGICAL AND|''&#x2A59;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A5A/index.htm|U+2A5A]]|LOGICAL AND WITH MIDDLE STEM|''&#x2A5A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A5B/index.htm|U+2A5B]]|LOGICAL OR WITH MIDDLE STEM|''&#x2A5B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A5C/index.htm|U+2A5C]]|LOGICAL AND WITH HORIZONTAL DASH|''&#x2A5C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A5D/index.htm|U+2A5D]]|LOGICAL OR WITH HORIZONTAL DASH|''&#x2A5D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A5E/index.htm|U+2A5E]]|LOGICAL AND WITH DOUBLE OVERBAR|''&#x2A5E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A5F/index.htm|U+2A5F]]|LOGICAL AND WITH UNDERBAR|''&#x2A5F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A60/index.htm|U+2A60]]|LOGICAL AND WITH DOUBLE UNDERBAR|''&#x2A60;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A61/index.htm|U+2A61]]|SMALL VEE WITH UNDERBAR|''&#x2A61;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A62/index.htm|U+2A62]]|LOGICAL OR WITH DOUBLE OVERBAR|''&#x2A62;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A63/index.htm|U+2A63]]|LOGICAL OR WITH DOUBLE UNDERBAR|''&#x2A63;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A64/index.htm|U+2A64]]|Z NOTATION DOMAIN ANTIRESTRICTION|''&#x2A64;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A65/index.htm|U+2A65]]|Z NOTATION RANGE ANTIRESTRICTION|''&#x2A65;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A66/index.htm|U+2A66]]|EQUALS SIGN WITH DOT BELOW|''&#x2A66;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A67/index.htm|U+2A67]]|IDENTICAL WITH DOT ABOVE|''&#x2A67;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A68/index.htm|U+2A68]]|TRIPLE HORIZONTAL BAR WITH DOUBLE VERTICAL STROKE|''&#x2A68;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A69/index.htm|U+2A69]]|TRIPLE HORIZONTAL BAR WITH TRIPLE VERTICAL STROKE|''&#x2A69;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A6A/index.htm|U+2A6A]]|TILDE OPERATOR WITH DOT ABOVE|''&#x2A6A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A6B/index.htm|U+2A6B]]|TILDE OPERATOR WITH RISING DOTS|''&#x2A6B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A6C/index.htm|U+2A6C]]|SIMILAR MINUS SIMILAR|''&#x2A6C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A6D/index.htm|U+2A6D]]|CONGRUENT WITH DOT ABOVE|''&#x2A6D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A6E/index.htm|U+2A6E]]|EQUALS WITH ASTERISK|''&#x2A6E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A6F/index.htm|U+2A6F]]|ALMOST EQUAL TO WITH CIRCUMFLEX ACCENT|''&#x2A6F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A70/index.htm|U+2A70]]|APPROXIMATELY EQUAL OR EQUAL TO|''&#x2A70;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A71/index.htm|U+2A71]]|EQUALS SIGN ABOVE PLUS SIGN|''&#x2A71;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A72/index.htm|U+2A72]]|PLUS SIGN ABOVE EQUALS SIGN|''&#x2A72;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A73/index.htm|U+2A73]]|EQUALS SIGN ABOVE TILDE OPERATOR|''&#x2A73;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A74/index.htm|U+2A74]]|DOUBLE COLON EQUAL|''&#x2A74;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A75/index.htm|U+2A75]]|TWO CONSECUTIVE EQUALS SIGNS|''&#x2A75;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A76/index.htm|U+2A76]]|THREE CONSECUTIVE EQUALS SIGNS|''&#x2A76;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A77/index.htm|U+2A77]]|EQUALS SIGN WITH TWO DOTS ABOVE AND TWO DOTS BELOW|''&#x2A77;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A78/index.htm|U+2A78]]|EQUIVALENT WITH FOUR DOTS ABOVE|''&#x2A78;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A79/index.htm|U+2A79]]|LESS-THAN WITH CIRCLE INSIDE|''&#x2A79;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A7A/index.htm|U+2A7A]]|GREATER-THAN WITH CIRCLE INSIDE|''&#x2A7A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A7B/index.htm|U+2A7B]]|LESS-THAN WITH QUESTION MARK ABOVE|''&#x2A7B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A7C/index.htm|U+2A7C]]|GREATER-THAN WITH QUESTION MARK ABOVE|''&#x2A7C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A7D/index.htm|U+2A7D]]|LESS-THAN OR SLANTED EQUAL TO|''&#x2A7D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A7E/index.htm|U+2A7E]]|GREATER-THAN OR SLANTED EQUAL TO|''&#x2A7E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A7F/index.htm|U+2A7F]]|LESS-THAN OR SLANTED EQUAL TO WITH DOT INSIDE|''&#x2A7F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A80/index.htm|U+2A80]]|GREATER-THAN OR SLANTED EQUAL TO WITH DOT INSIDE|''&#x2A80;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A81/index.htm|U+2A81]]|LESS-THAN OR SLANTED EQUAL TO WITH DOT ABOVE|''&#x2A81;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A82/index.htm|U+2A82]]|GREATER-THAN OR SLANTED EQUAL TO WITH DOT ABOVE|''&#x2A82;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A83/index.htm|U+2A83]]|LESS-THAN OR SLANTED EQUAL TO WITH DOT ABOVE RIGHT|''&#x2A83;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A84/index.htm|U+2A84]]|GREATER-THAN OR SLANTED EQUAL TO WITH DOT ABOVE LEFT|''&#x2A84;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A85/index.htm|U+2A85]]|LESS-THAN OR APPROXIMATE|''&#x2A85;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A86/index.htm|U+2A86]]|GREATER-THAN OR APPROXIMATE|''&#x2A86;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A87/index.htm|U+2A87]]|LESS-THAN AND SINGLE-LINE NOT EQUAL TO|''&#x2A87;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A88/index.htm|U+2A88]]|GREATER-THAN AND SINGLE-LINE NOT EQUAL TO|''&#x2A88;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A89/index.htm|U+2A89]]|LESS-THAN AND NOT APPROXIMATE|''&#x2A89;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A8A/index.htm|U+2A8A]]|GREATER-THAN AND NOT APPROXIMATE|''&#x2A8A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A8B/index.htm|U+2A8B]]|LESS-THAN ABOVE DOUBLE-LINE EQUAL ABOVE GREATER-THAN|''&#x2A8B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A8C/index.htm|U+2A8C]]|GREATER-THAN ABOVE DOUBLE-LINE EQUAL ABOVE LESS-THAN|''&#x2A8C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A8D/index.htm|U+2A8D]]|LESS-THAN ABOVE SIMILAR OR EQUAL|''&#x2A8D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A8E/index.htm|U+2A8E]]|GREATER-THAN ABOVE SIMILAR OR EQUAL|''&#x2A8E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A8F/index.htm|U+2A8F]]|LESS-THAN ABOVE SIMILAR ABOVE GREATER-THAN|''&#x2A8F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A90/index.htm|U+2A90]]|GREATER-THAN ABOVE SIMILAR ABOVE LESS-THAN|''&#x2A90;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A91/index.htm|U+2A91]]|LESS-THAN ABOVE GREATER-THAN ABOVE DOUBLE-LINE EQUAL|''&#x2A91;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A92/index.htm|U+2A92]]|GREATER-THAN ABOVE LESS-THAN ABOVE DOUBLE-LINE EQUAL|''&#x2A92;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A93/index.htm|U+2A93]]|LESS-THAN ABOVE SLANTED EQUAL ABOVE GREATER-THAN ABOVE SLANTED EQUAL|''&#x2A93;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A94/index.htm|U+2A94]]|GREATER-THAN ABOVE SLANTED EQUAL ABOVE LESS-THAN ABOVE SLANTED EQUAL|''&#x2A94;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A95/index.htm|U+2A95]]|SLANTED EQUAL TO OR LESS-THAN|''&#x2A95;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A96/index.htm|U+2A96]]|SLANTED EQUAL TO OR GREATER-THAN|''&#x2A96;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A97/index.htm|U+2A97]]|SLANTED EQUAL TO OR LESS-THAN WITH DOT INSIDE|''&#x2A97;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A98/index.htm|U+2A98]]|SLANTED EQUAL TO OR GREATER-THAN WITH DOT INSIDE|''&#x2A98;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A99/index.htm|U+2A99]]|DOUBLE-LINE EQUAL TO OR LESS-THAN|''&#x2A99;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A9A/index.htm|U+2A9A]]|DOUBLE-LINE EQUAL TO OR GREATER-THAN|''&#x2A9A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A9B/index.htm|U+2A9B]]|DOUBLE-LINE SLANTED EQUAL TO OR LESS-THAN|''&#x2A9B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A9C/index.htm|U+2A9C]]|DOUBLE-LINE SLANTED EQUAL TO OR GREATER-THAN|''&#x2A9C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A9D/index.htm|U+2A9D]]|SIMILAR OR LESS-THAN|''&#x2A9D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A9E/index.htm|U+2A9E]]|SIMILAR OR GREATER-THAN|''&#x2A9E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2A9F/index.htm|U+2A9F]]|SIMILAR ABOVE LESS-THAN ABOVE EQUALS SIGN|''&#x2A9F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AA0/index.htm|U+2AA0]]|SIMILAR ABOVE GREATER-THAN ABOVE EQUALS SIGN|''&#x2AA0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AA1/index.htm|U+2AA1]]|DOUBLE NESTED LESS-THAN|''&#x2AA1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AA2/index.htm|U+2AA2]]|DOUBLE NESTED GREATER-THAN|''&#x2AA2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AA3/index.htm|U+2AA3]]|DOUBLE NESTED LESS-THAN WITH UNDERBAR|''&#x2AA3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AA4/index.htm|U+2AA4]]|GREATER-THAN OVERLAPPING LESS-THAN|''&#x2AA4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AA5/index.htm|U+2AA5]]|GREATER-THAN BESIDE LESS-THAN|''&#x2AA5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AA6/index.htm|U+2AA6]]|LESS-THAN CLOSED BY CURVE|''&#x2AA6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AA7/index.htm|U+2AA7]]|GREATER-THAN CLOSED BY CURVE|''&#x2AA7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AA8/index.htm|U+2AA8]]|LESS-THAN CLOSED BY CURVE ABOVE SLANTED EQUAL|''&#x2AA8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AA9/index.htm|U+2AA9]]|GREATER-THAN CLOSED BY CURVE ABOVE SLANTED EQUAL|''&#x2AA9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AAA/index.htm|U+2AAA]]|SMALLER THAN|''&#x2AAA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AAB/index.htm|U+2AAB]]|LARGER THAN|''&#x2AAB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AAC/index.htm|U+2AAC]]|SMALLER THAN OR EQUAL TO|''&#x2AAC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AAD/index.htm|U+2AAD]]|LARGER THAN OR EQUAL TO|''&#x2AAD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AAE/index.htm|U+2AAE]]|EQUALS SIGN WITH BUMPY ABOVE|''&#x2AAE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AAF/index.htm|U+2AAF]]|PRECEDES ABOVE SINGLE-LINE EQUALS SIGN|''&#x2AAF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AB0/index.htm|U+2AB0]]|SUCCEEDS ABOVE SINGLE-LINE EQUALS SIGN|''&#x2AB0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AB1/index.htm|U+2AB1]]|PRECEDES ABOVE SINGLE-LINE NOT EQUAL TO|''&#x2AB1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AB2/index.htm|U+2AB2]]|SUCCEEDS ABOVE SINGLE-LINE NOT EQUAL TO|''&#x2AB2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AB3/index.htm|U+2AB3]]|PRECEDES ABOVE EQUALS SIGN|''&#x2AB3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AB4/index.htm|U+2AB4]]|SUCCEEDS ABOVE EQUALS SIGN|''&#x2AB4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AB5/index.htm|U+2AB5]]|PRECEDES ABOVE NOT EQUAL TO|''&#x2AB5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AB6/index.htm|U+2AB6]]|SUCCEEDS ABOVE NOT EQUAL TO|''&#x2AB6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AB7/index.htm|U+2AB7]]|PRECEDES ABOVE ALMOST EQUAL TO|''&#x2AB7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AB8/index.htm|U+2AB8]]|SUCCEEDS ABOVE ALMOST EQUAL TO|''&#x2AB8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AB9/index.htm|U+2AB9]]|PRECEDES ABOVE NOT ALMOST EQUAL TO|''&#x2AB9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ABA/index.htm|U+2ABA]]|SUCCEEDS ABOVE NOT ALMOST EQUAL TO|''&#x2ABA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ABB/index.htm|U+2ABB]]|DOUBLE PRECEDES|''&#x2ABB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ABC/index.htm|U+2ABC]]|DOUBLE SUCCEEDS|''&#x2ABC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ABD/index.htm|U+2ABD]]|SUBSET WITH DOT|''&#x2ABD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ABE/index.htm|U+2ABE]]|SUPERSET WITH DOT|''&#x2ABE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ABF/index.htm|U+2ABF]]|SUBSET WITH PLUS SIGN BELOW|''&#x2ABF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AC0/index.htm|U+2AC0]]|SUPERSET WITH PLUS SIGN BELOW|''&#x2AC0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AC1/index.htm|U+2AC1]]|SUBSET WITH MULTIPLICATION SIGN BELOW|''&#x2AC1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AC2/index.htm|U+2AC2]]|SUPERSET WITH MULTIPLICATION SIGN BELOW|''&#x2AC2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AC3/index.htm|U+2AC3]]|SUBSET OF OR EQUAL TO WITH DOT ABOVE|''&#x2AC3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AC4/index.htm|U+2AC4]]|SUPERSET OF OR EQUAL TO WITH DOT ABOVE|''&#x2AC4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AC5/index.htm|U+2AC5]]|SUBSET OF ABOVE EQUALS SIGN|''&#x2AC5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AC6/index.htm|U+2AC6]]|SUPERSET OF ABOVE EQUALS SIGN|''&#x2AC6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AC7/index.htm|U+2AC7]]|SUBSET OF ABOVE TILDE OPERATOR|''&#x2AC7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AC8/index.htm|U+2AC8]]|SUPERSET OF ABOVE TILDE OPERATOR|''&#x2AC8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AC9/index.htm|U+2AC9]]|SUBSET OF ABOVE ALMOST EQUAL TO|''&#x2AC9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ACA/index.htm|U+2ACA]]|SUPERSET OF ABOVE ALMOST EQUAL TO|''&#x2ACA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ACB/index.htm|U+2ACB]]|SUBSET OF ABOVE NOT EQUAL TO|''&#x2ACB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ACC/index.htm|U+2ACC]]|SUPERSET OF ABOVE NOT EQUAL TO|''&#x2ACC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ACD/index.htm|U+2ACD]]|SQUARE LEFT OPEN BOX OPERATOR|''&#x2ACD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ACE/index.htm|U+2ACE]]|SQUARE RIGHT OPEN BOX OPERATOR|''&#x2ACE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ACF/index.htm|U+2ACF]]|CLOSED SUBSET|''&#x2ACF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AD0/index.htm|U+2AD0]]|CLOSED SUPERSET|''&#x2AD0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AD1/index.htm|U+2AD1]]|CLOSED SUBSET OR EQUAL TO|''&#x2AD1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AD2/index.htm|U+2AD2]]|CLOSED SUPERSET OR EQUAL TO|''&#x2AD2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AD3/index.htm|U+2AD3]]|SUBSET ABOVE SUPERSET|''&#x2AD3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AD4/index.htm|U+2AD4]]|SUPERSET ABOVE SUBSET|''&#x2AD4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AD5/index.htm|U+2AD5]]|SUBSET ABOVE SUBSET|''&#x2AD5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AD6/index.htm|U+2AD6]]|SUPERSET ABOVE SUPERSET|''&#x2AD6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AD7/index.htm|U+2AD7]]|SUPERSET BESIDE SUBSET|''&#x2AD7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AD8/index.htm|U+2AD8]]|SUPERSET BESIDE AND JOINED BY DASH WITH SUBSET|''&#x2AD8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AD9/index.htm|U+2AD9]]|ELEMENT OF OPENING DOWNWARDS|''&#x2AD9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ADA/index.htm|U+2ADA]]|PITCHFORK WITH TEE TOP|''&#x2ADA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ADB/index.htm|U+2ADB]]|TRANSVERSAL INTERSECTION|''&#x2ADB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ADC/index.htm|U+2ADC]]|FORKING|''&#x2ADC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ADD/index.htm|U+2ADD]]|NONFORKING|''&#x2ADD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ADE/index.htm|U+2ADE]]|SHORT LEFT TACK|''&#x2ADE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2ADF/index.htm|U+2ADF]]|SHORT DOWN TACK|''&#x2ADF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AE0/index.htm|U+2AE0]]|SHORT UP TACK|''&#x2AE0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AE1/index.htm|U+2AE1]]|PERPENDICULAR WITH S|''&#x2AE1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AE2/index.htm|U+2AE2]]|VERTICAL BAR TRIPLE RIGHT TURNSTILE|''&#x2AE2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AE3/index.htm|U+2AE3]]|DOUBLE VERTICAL BAR LEFT TURNSTILE|''&#x2AE3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AE4/index.htm|U+2AE4]]|VERTICAL BAR DOUBLE LEFT TURNSTILE|''&#x2AE4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AE5/index.htm|U+2AE5]]|DOUBLE VERTICAL BAR DOUBLE LEFT TURNSTILE|''&#x2AE5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AE6/index.htm|U+2AE6]]|LONG DASH FROM LEFT MEMBER OF DOUBLE VERTICAL|''&#x2AE6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AE7/index.htm|U+2AE7]]|SHORT DOWN TACK WITH OVERBAR|''&#x2AE7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AE8/index.htm|U+2AE8]]|SHORT UP TACK WITH UNDERBAR|''&#x2AE8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AE9/index.htm|U+2AE9]]|SHORT UP TACK ABOVE SHORT DOWN TACK|''&#x2AE9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AEA/index.htm|U+2AEA]]|DOUBLE DOWN TACK|''&#x2AEA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AEB/index.htm|U+2AEB]]|DOUBLE UP TACK|''&#x2AEB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AEC/index.htm|U+2AEC]]|DOUBLE STROKE NOT SIGN|''&#x2AEC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AED/index.htm|U+2AED]]|REVERSED DOUBLE STROKE NOT SIGN|''&#x2AED;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AEE/index.htm|U+2AEE]]|DOES NOT DIVIDE WITH REVERSED NEGATION SLASH|''&#x2AEE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AEF/index.htm|U+2AEF]]|VERTICAL LINE WITH CIRCLE ABOVE|''&#x2AEF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AF0/index.htm|U+2AF0]]|VERTICAL LINE WITH CIRCLE BELOW|''&#x2AF0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AF1/index.htm|U+2AF1]]|DOWN TACK WITH CIRCLE BELOW|''&#x2AF1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AF2/index.htm|U+2AF2]]|PARALLEL WITH HORIZONTAL STROKE|''&#x2AF2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AF3/index.htm|U+2AF3]]|PARALLEL WITH TILDE OPERATOR|''&#x2AF3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AF4/index.htm|U+2AF4]]|TRIPLE VERTICAL BAR BINARY RELATION|''&#x2AF4;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AF5/index.htm|U+2AF5]]|TRIPLE VERTICAL BAR WITH HORIZONTAL STROKE|''&#x2AF5;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AF6/index.htm|U+2AF6]]|TRIPLE COLON OPERATOR|''&#x2AF6;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AF7/index.htm|U+2AF7]]|TRIPLE NESTED LESS-THAN|''&#x2AF7;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AF8/index.htm|U+2AF8]]|TRIPLE NESTED GREATER-THAN|''&#x2AF8;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AF9/index.htm|U+2AF9]]|DOUBLE-LINE SLANTED LESS-THAN OR EQUAL TO|''&#x2AF9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AFA/index.htm|U+2AFA]]|DOUBLE-LINE SLANTED GREATER-THAN OR EQUAL TO|''&#x2AFA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AFB/index.htm|U+2AFB]]|TRIPLE SOLIDUS BINARY RELATION|''&#x2AFB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AFC/index.htm|U+2AFC]]|LARGE TRIPLE VERTICAL BAR OPERATOR|''&#x2AFC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AFD/index.htm|U+2AFD]]|DOUBLE SOLIDUS OPERATOR|''&#x2AFD;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AFE/index.htm|U+2AFE]]|WHITE VERTICAL BAR|''&#x2AFE;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2AFF/index.htm|U+2AFF]]|N-ARY WHITE VERTICAL BAR|''&#x2AFF;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B30/index.htm|U+2B30]]|LEFT ARROW WITH SMALL CIRCLE|''&#x2B30;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B31/index.htm|U+2B31]]|THREE LEFTWARDS ARROWS|''&#x2B31;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B32/index.htm|U+2B32]]|LEFT ARROW WITH CIRCLED PLUS|''&#x2B32;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B33/index.htm|U+2B33]]|LONG LEFTWARDS SQUIGGLE ARROW|''&#x2B33;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B34/index.htm|U+2B34]]|LEFTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE|''&#x2B34;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B35/index.htm|U+2B35]]|LEFTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE|''&#x2B35;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B36/index.htm|U+2B36]]|LEFTWARDS TWO-HEADED ARROW FROM BAR|''&#x2B36;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B37/index.htm|U+2B37]]|LEFTWARDS TWO-HEADED TRIPLE DASH ARROW|''&#x2B37;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B38/index.htm|U+2B38]]|LEFTWARDS ARROW WITH DOTTED STEM|''&#x2B38;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B39/index.htm|U+2B39]]|LEFTWARDS ARROW WITH TAIL WITH VERTICAL STROKE|''&#x2B39;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B3A/index.htm|U+2B3A]]|LEFTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE|''&#x2B3A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B3B/index.htm|U+2B3B]]|LEFTWARDS TWO-HEADED ARROW WITH TAIL|''&#x2B3B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B3C/index.htm|U+2B3C]]|LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE|''&#x2B3C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B3D/index.htm|U+2B3D]]|LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE|''&#x2B3D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B3E/index.htm|U+2B3E]]|LEFTWARDS ARROW THROUGH X|''&#x2B3E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B3F/index.htm|U+2B3F]]|WAVE ARROW POINTING DIRECTLY LEFT|''&#x2B3F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B40/index.htm|U+2B40]]|EQUALS SIGN ABOVE LEFTWARDS ARROW|''&#x2B40;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B41/index.htm|U+2B41]]|REVERSE TILDE OPERATOR ABOVE LEFTWARDS ARROW|''&#x2B41;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B42/index.htm|U+2B42]]|LEFTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO|''&#x2B42;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B43/index.htm|U+2B43]]|RIGHTWARDS ARROW THROUGH GREATER-THAN|''&#x2B43;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B44/index.htm|U+2B44]]|RIGHTWARDS ARROW THROUGH SUPERSET|''&#x2B44;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B47/index.htm|U+2B47]]|REVERSE TILDE OPERATOR ABOVE RIGHTWARDS ARROW|''&#x2B47;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B48/index.htm|U+2B48]]|RIGHTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO|''&#x2B48;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B49/index.htm|U+2B49]]|TILDE OPERATOR ABOVE LEFTWARDS ARROW|''&#x2B49;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B4A/index.htm|U+2B4A]]|LEFTWARDS ARROW ABOVE ALMOST EQUAL TO|''&#x2B4A;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B4B/index.htm|U+2B4B]]|LEFTWARDS ARROW ABOVE REVERSE TILDE OPERATOR|''&#x2B4B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/2B4C/index.htm|U+2B4C]]|RIGHTWARDS ARROW ABOVE REVERSE TILDE OPERATOR|''&#x2B4C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FB29/index.htm|U+FB29]]|HEBREW LETTER ALTERNATIVE PLUS SIGN|''&#xFB29;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FE62/index.htm|U+FE62]]|SMALL PLUS SIGN|''&#xFE62;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FE64/index.htm|U+FE64]]|SMALL LESS-THAN SIGN|''&#xFE64;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FE65/index.htm|U+FE65]]|SMALL GREATER-THAN SIGN|''&#xFE65;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FE66/index.htm|U+FE66]]|SMALL EQUALS SIGN|''&#xFE66;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF0B/index.htm|U+FF0B]]|FULLWIDTH PLUS SIGN|''&#xFF0B;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF1C/index.htm|U+FF1C]]|FULLWIDTH LESS-THAN SIGN|''&#xFF1C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF1D/index.htm|U+FF1D]]|FULLWIDTH EQUALS SIGN|''&#xFF1D;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF1E/index.htm|U+FF1E]]|FULLWIDTH GREATER-THAN SIGN|''&#xFF1E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF5C/index.htm|U+FF5C]]|FULLWIDTH VERTICAL LINE|''&#xFF5C;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FF5E/index.htm|U+FF5E]]|FULLWIDTH TILDE|''&#xFF5E;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE2/index.htm|U+FFE2]]|FULLWIDTH NOT SIGN|''&#xFFE2;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE9/index.htm|U+FFE9]]|HALFWIDTH LEFTWARDS ARROW|''&#xFFE9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFEA/index.htm|U+FFEA]]|HALFWIDTH UPWARDS ARROW|''&#xFFEA;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFEB/index.htm|U+FFEB]]|HALFWIDTH RIGHTWARDS ARROW|''&#xFFEB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFEC/index.htm|U+FFEC]]|HALFWIDTH DOWNWARDS ARROW|''&#xFFEC;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1D6C1/index.htm|U+1D6C1]]|MATHEMATICAL BOLD NABLA|''&#x1D6C1;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1D6DB/index.htm|U+1D6DB]]|MATHEMATICAL BOLD PARTIAL DIFFERENTIAL|''&#x1D6DB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1D6FB/index.htm|U+1D6FB]]|MATHEMATICAL ITALIC NABLA|''&#x1D6FB;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1D715/index.htm|U+1D715]]|MATHEMATICAL ITALIC PARTIAL DIFFERENTIAL|''&#x1D715;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1D735/index.htm|U+1D735]]|MATHEMATICAL BOLD ITALIC NABLA|''&#x1D735;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1D74F/index.htm|U+1D74F]]|MATHEMATICAL BOLD ITALIC PARTIAL DIFFERENTIAL|''&#x1D74F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1D76F/index.htm|U+1D76F]]|MATHEMATICAL SANS-SERIF BOLD NABLA|''&#x1D76F;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1D789/index.htm|U+1D789]]|MATHEMATICAL SANS-SERIF BOLD PARTIAL DIFFERENTIAL|''&#x1D789;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1D7A9/index.htm|U+1D7A9]]|MATHEMATICAL SANS-SERIF BOLD ITALIC NABLA|''&#x1D7A9;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1D7C3/index.htm|U+1D7C3]]|MATHEMATICAL SANS-SERIF BOLD ITALIC PARTIAL DIFFERENTIAL|''&#x1D7C3;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1EEF0/index.htm|U+1EEF0]]|ARABIC MATHEMATICAL OPERATOR MEEM WITH HAH WITH TATWEEL|''&#x1EEF0;''|U|
+|[[http://www.fileformat.info/info/unicode/char/1EEF1/index.htm|U+1EEF1]]|ARABIC MATHEMATICAL OPERATOR HAH WITH DAL|''&#x1EEF1;''|U|
+
+==== Symbol, Other (So) ====
