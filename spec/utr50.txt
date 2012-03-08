@@ -7,6 +7,14 @@ See also notes per codepoint:
   * [[spec:utr50:punctuation]]
   * [[spec:utr50:symbols]]
 
+Codes used for analysis by codepoint:
+
+^Code^UTR50^MSFT^Meaning^
+^U|U|S|Upright; translates between horizontal and vertical|
+^R|S|R|Sideways; rotates between horizontal and vertical|
+^T<sub>U</sub>|T|ST|Typeset upright with alternate glyph. Best fallback is just upright.|
+^T<sub>R</sub>|SB|RT|Typeset upright with alternate glyph. Best fallback is just sideways.|
+
 ===== General =====
   * [[http://www.unicode.org/review/pri207/|PRI #207]] review period ends on Oct 24th, 2011 --- way too short
   * Eric mentioned that [[http://www.unicode.org/forum/viewtopic.php?f=35&t=201|UTR #50 is for Japanese text and should define Hangul orientation that appears in Japanese text, rather than Hangul native orientation]]. Our goal of "upright-right" is a good vertical text flow for East Asian. Are we seeing things differently?
