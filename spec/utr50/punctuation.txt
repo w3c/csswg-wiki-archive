@@ -249,6 +249,8 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 
 We propose to make all spaces upright in ''upright/stacked'' mode.
 
+:?: UTR#50 has spaces sideways.
+
 ^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/0020/index.htm|U+0020]]|SPACE|'' ''|U|
 |[[http://www.fileformat.info/info/unicode/char/00a0/index.htm|U+00A0]]|NO-BREAK SPACE|'' ''|U|
