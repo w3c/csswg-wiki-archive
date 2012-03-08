@@ -428,7 +428,7 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/ff3c/index.htm|U+FF3C]]|FULLWIDTH REVERSE SOLIDUS|＼|U|Fullwidth variants are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff61/index.htm|U+FF61]]|HALFWIDTH IDEOGRAPHIC FULL STOP|｡|T<sub>U</sub>|Halfwidth needs transform to be half-width|
 |[[http://www.fileformat.info/info/unicode/char/ff64/index.htm|U+FF64]]|HALFWIDTH IDEOGRAPHIC COMMA|､|T<sub>U</sub>|Halfwidth needs transform to be half-width|
-|[[http://www.fileformat.info/info/unicode/char/ff65/index.htm|U+FF65]]|HALFWIDTH KATAKANA MIDDLE DOT|･|T<sub>U</sub>|Halfwidth needs transform to be half-width|
+|[[http://www.fileformat.info/info/unicode/char/ff65/index.htm|U+FF65]]|HALFWIDTH KATAKANA MIDDLE DOT|･|T|Halfwidth needs transform to be half-width|
 |[[http://www.fileformat.info/info/unicode/char/fe10/index.htm|U+FE10]]|PRESENTATION FORM FOR VERTICAL COMMA|︐|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe11/index.htm|U+FE11]]|PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC COMMA|︑|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe12/index.htm|U+FE12]]|PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC FULL STOP|︒|U|Vertical presentation forms are always upright|
