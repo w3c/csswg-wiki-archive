@@ -34,30 +34,30 @@ FIXME Default orientation is not covered yet; focusing on stacked mode first bec
 ==== Punctuation, Dash (Pd) ====
 
 ^Code^Description^Char^Char^Memo^
-|[[http://www.fileformat.info/info/unicode/char/002d/index.htm|U+002D]]|HYPHEN-MINUS|-|U|Hyphens are upright|
-|[[http://www.fileformat.info/info/unicode/char/058a/index.htm|U+058A]]|ARMENIAN HYPHEN|֊|U|Hyphens are upright|
+|[[http://www.fileformat.info/info/unicode/char/002d/index.htm|U+002D]]|HYPHEN-MINUS|-|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
+|[[http://www.fileformat.info/info/unicode/char/058a/index.htm|U+058A]]|ARMENIAN HYPHEN|֊|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/05be/index.htm|U+05BE]]|HEBREW PUNCTUATION MAQAF|־|U|:?: |
-|[[http://www.fileformat.info/info/unicode/char/1400/index.htm|U+1400]]|CANADIAN SYLLABICS HYPHEN|᐀|U|Hyphens are upright|
+|[[http://www.fileformat.info/info/unicode/char/1400/index.htm|U+1400]]|CANADIAN SYLLABICS HYPHEN|᐀|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/1806/index.htm|U+1806]]|MONGOLIAN TODO SOFT HYPHEN|᠆|R|Mongolian is always sideways|
-|[[http://www.fileformat.info/info/unicode/char/2010/index.htm|U+2010]]|HYPHEN|‐|U|Hyphens are upright|
-|[[http://www.fileformat.info/info/unicode/char/2011/index.htm|U+2011]]|NON-BREAKING HYPHEN|‑|U|Hyphens are upright|
+|[[http://www.fileformat.info/info/unicode/char/2010/index.htm|U+2010]]|HYPHEN|‐|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
+|[[http://www.fileformat.info/info/unicode/char/2011/index.htm|U+2011]]|NON-BREAKING HYPHEN|‑|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/2012/index.htm|U+2012]]|FIGURE DASH|‒|R|Dashes are sideways|
 |[[http://www.fileformat.info/info/unicode/char/2013/index.htm|U+2013]]|EN DASH|–|R|Dashes are sideways|
 |[[http://www.fileformat.info/info/unicode/char/2014/index.htm|U+2014]]|EM DASH|—|R|Dashes are sideways|
 |[[http://www.fileformat.info/info/unicode/char/2015/index.htm|U+2015]]|HORIZONTAL BAR|―|R|Dashes are sideways (EM DASH in Windows code page)|
-|[[http://www.fileformat.info/info/unicode/char/2e17/index.htm|U+2E17]]|DOUBLE OBLIQUE HYPHEN|⸗|U|Hyphens are upright|
-|[[http://www.fileformat.info/info/unicode/char/2e1a/index.htm|U+2E1A]]|HYPHEN WITH DIAERESIS|⸚|U|Hyphens are upright|
+|[[http://www.fileformat.info/info/unicode/char/2e17/index.htm|U+2E17]]|DOUBLE OBLIQUE HYPHEN|⸗|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
+|[[http://www.fileformat.info/info/unicode/char/2e1a/index.htm|U+2E1A]]|HYPHEN WITH DIAERESIS|⸚|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/2e3a/index.htm|U+2E3A]]|TWO-EM DASH|⸺|R|Dashes are sideways|
 |[[http://www.fileformat.info/info/unicode/char/2e3b/index.htm|U+2E3B]]|THREE-EM DASH|⸻|R|Dashes are sideways|
 |[[http://www.fileformat.info/info/unicode/char/301c/index.htm|U+301C]]|WAVE DASH|〜|T<sub>R</sub>|Wave dash must transform|
 |[[http://www.fileformat.info/info/unicode/char/3030/index.htm|U+3030]]|WAVY DASH|〰|T<sub>R</sub>|Wave dash must transform|
-|[[http://www.fileformat.info/info/unicode/char/30a0/index.htm|U+30A0]]|KATAKANA-HIRAGANA DOUBLE HYPHEN|゠|U|Hyphens are upright|
+|[[http://www.fileformat.info/info/unicode/char/30a0/index.htm|U+30A0]]|KATAKANA-HIRAGANA DOUBLE HYPHEN|゠|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/fe31/index.htm|U+FE31]]|PRESENTATION FORM FOR VERTICAL EM DASH|︱|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe32/index.htm|U+FE32]]|PRESENTATION FORM FOR VERTICAL EN DASH|︲|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe58/index.htm|U+FE58]]|SMALL EM DASH|﹘|R|Dashes are sideways|
 |[[http://www.fileformat.info/info/unicode/char/ff5e/index.htm|U+FE5E]]|FULLWIDTH TILDE|～|T<sub>R</sub>|:!: Dashes are sideways, and [[http://en.wikipedia.org/wiki/Tilde#Unicode_and_Shift_JIS_encoding_of_wave_dash|this is considered equivalent to WAVE DASH U+301C]] even though it's technically a Math Symbol (Sm) fullwidth variant of U+007E|
-|[[http://www.fileformat.info/info/unicode/char/fe63/index.htm|U+FE63]]|SMALL HYPHEN-MINUS|﹣|U|Hyphens are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff0d/index.htm|U+FF0D]]|FULLWIDTH HYPHEN-MINUS|－|U|Hyphens are upright|
+|[[http://www.fileformat.info/info/unicode/char/fe63/index.htm|U+FE63]]|SMALL HYPHEN-MINUS|﹣|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
+|[[http://www.fileformat.info/info/unicode/char/ff0d/index.htm|U+FF0D]]|FULLWIDTH HYPHEN-MINUS|－|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 
 ===== Enclosing Punctuation =====
 
@@ -438,8 +438,8 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 ==== Script-specific Other Punctuation (Po) ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/037e/index.htm|U+037E]]|GREEK QUESTION MARK|;|U|
-|[[http://www.fileformat.info/info/unicode/char/0387/index.htm|U+0387]]|GREEK ANO TELEIA|·|U|
+|[[http://www.fileformat.info/info/unicode/char/037e/index.htm|U+037E]]|GREEK QUESTION MARK|;|U|
+|[[http://www.fileformat.info/info/unicode/char/0387/index.htm|U+0387]]|GREEK ANO TELEIA|·|U|
 |[[http://www.fileformat.info/info/unicode/char/055a/index.htm|U+055A]]|ARMENIAN APOSTROPHE|՚|U|
 |[[http://www.fileformat.info/info/unicode/char/055b/index.htm|U+055B]]|ARMENIAN EMPHASIS MARK|՛|U|
 |[[http://www.fileformat.info/info/unicode/char/055c/index.htm|U+055C]]|ARMENIAN EXCLAMATION MARK|՜|U|
