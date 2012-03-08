@@ -38,28 +38,28 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 ^Code^Description^Char^Char^Memo^
 |[[http://www.fileformat.info/info/unicode/char/002d/index.htm|U+002D]]|HYPHEN-MINUS|-|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/058a/index.htm|U+058A]]|ARMENIAN HYPHEN|֊|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
-|[[http://www.fileformat.info/info/unicode/char/05be/index.htm|U+05BE]]|HEBREW PUNCTUATION MAQAF|־|U|:?: |
+|[[http://www.fileformat.info/info/unicode/char/05be/index.htm|U+05BE]]|HEBREW PUNCTUATION MAQAF|־|U|:?: :?: DVO=S|
 |[[http://www.fileformat.info/info/unicode/char/1400/index.htm|U+1400]]|CANADIAN SYLLABICS HYPHEN|᐀|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
-|[[http://www.fileformat.info/info/unicode/char/1806/index.htm|U+1806]]|MONGOLIAN TODO SOFT HYPHEN|᠆|R|Mongolian is always sideways|
+|[[http://www.fileformat.info/info/unicode/char/1806/index.htm|U+1806]]|MONGOLIAN TODO SOFT HYPHEN|᠆|R|Mongolian is always sideways ?:? DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/2010/index.htm|U+2010]]|HYPHEN|‐|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/2011/index.htm|U+2011]]|NON-BREAKING HYPHEN|‑|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/2012/index.htm|U+2012]]|FIGURE DASH|‒|R|Dashes are sideways|
 |[[http://www.fileformat.info/info/unicode/char/2013/index.htm|U+2013]]|EN DASH|–|R|Dashes are sideways|
 |[[http://www.fileformat.info/info/unicode/char/2014/index.htm|U+2014]]|EM DASH|—|R|Dashes are sideways|
 |[[http://www.fileformat.info/info/unicode/char/2015/index.htm|U+2015]]|HORIZONTAL BAR|―|R|Dashes are sideways (EM DASH in Windows code page)|
-|[[http://www.fileformat.info/info/unicode/char/2e17/index.htm|U+2E17]]|DOUBLE OBLIQUE HYPHEN|⸗|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
+|[[http://www.fileformat.info/info/unicode/char/2e17/index.htm|U+2E17]]|DOUBLE OBLIQUE HYPHEN|⸗|U|Hyphens are upright|
 |[[http://www.fileformat.info/info/unicode/char/2e1a/index.htm|U+2E1A]]|HYPHEN WITH DIAERESIS|⸚|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/2e3a/index.htm|U+2E3A]]|TWO-EM DASH|⸺|R|Dashes are sideways|
 |[[http://www.fileformat.info/info/unicode/char/2e3b/index.htm|U+2E3B]]|THREE-EM DASH|⸻|R|Dashes are sideways|
-|[[http://www.fileformat.info/info/unicode/char/301c/index.htm|U+301C]]|WAVE DASH|〜|T<sub>R</sub>|Wave dash must transform|
-|[[http://www.fileformat.info/info/unicode/char/3030/index.htm|U+3030]]|WAVY DASH|〰|T<sub>R</sub>|Wave dash must transform|
-|[[http://www.fileformat.info/info/unicode/char/30a0/index.htm|U+30A0]]|KATAKANA-HIRAGANA DOUBLE HYPHEN|゠|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
+|[[http://www.fileformat.info/info/unicode/char/301c/index.htm|U+301C]]|WAVE DASH|〜|T<sub>R</sub>|Wave dash must transform :?: DVO=T|
+|[[http://www.fileformat.info/info/unicode/char/3030/index.htm|U+3030]]|WAVY DASH|〰|T<sub>R</sub>|Wave dash must transform :?: DVO=T|
+|[[http://www.fileformat.info/info/unicode/char/30a0/index.htm|U+30A0]]|KATAKANA-HIRAGANA DOUBLE HYPHEN|゠|U|Hyphens are upright :?: sideways in JIS :?: DVO=S|
 |[[http://www.fileformat.info/info/unicode/char/fe31/index.htm|U+FE31]]|PRESENTATION FORM FOR VERTICAL EM DASH|︱|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe32/index.htm|U+FE32]]|PRESENTATION FORM FOR VERTICAL EN DASH|︲|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe58/index.htm|U+FE58]]|SMALL EM DASH|﹘|R|Dashes are sideways|
 |[[http://www.fileformat.info/info/unicode/char/ff5e/index.htm|U+FE5E]]|FULLWIDTH TILDE|～|T<sub>R</sub>|:!: Dashes are sideways, and [[http://en.wikipedia.org/wiki/Tilde#Unicode_and_Shift_JIS_encoding_of_wave_dash|this is considered equivalent to WAVE DASH U+301C]] even though it's technically a Math Symbol (Sm) fullwidth variant of U+007E|
-|[[http://www.fileformat.info/info/unicode/char/fe63/index.htm|U+FE63]]|SMALL HYPHEN-MINUS|﹣|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
-|[[http://www.fileformat.info/info/unicode/char/ff0d/index.htm|U+FF0D]]|FULLWIDTH HYPHEN-MINUS|－|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
+|[[http://www.fileformat.info/info/unicode/char/fe63/index.htm|U+FE63]]|SMALL HYPHEN-MINUS|﹣|U|Hyphens are upright|
+|[[http://www.fileformat.info/info/unicode/char/ff0d/index.htm|U+FF0D]]|FULLWIDTH HYPHEN-MINUS|－|U|Hyphens are upright|
 
 ===== Enclosing Punctuation =====
 
@@ -72,11 +72,11 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/0f3a/index.htm|U+0F3A]]|TIBETAN MARK GUG RTAGS GYON|''༺''|U|:?: Unsure about Tibetan, assuming upright for stacked mode|
 |[[http://www.fileformat.info/info/unicode/char/0f3c/index.htm|U+0F3C]]|TIBETAN MARK ANG KHANG GYON|''༼''|U|:?: Unsure about Tibetan, assuming upright for stacked mode|
 |[[http://www.fileformat.info/info/unicode/char/169b/index.htm|U+169B]]|OGHAM FEATHER MARK|''᚛''|R|Ogham is always sideways|
-|[[http://www.fileformat.info/info/unicode/char/201a/index.htm|U+201A]]|SINGLE LOW-9 QUOTATION MARK|''‚''|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
-|[[http://www.fileformat.info/info/unicode/char/201e/index.htm|U+201E]]|DOUBLE LOW-9 QUOTATION MARK|''„''|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
+|[[http://www.fileformat.info/info/unicode/char/201a/index.htm|U+201A]]|SINGLE LOW-9 QUOTATION MARK|''‚''|T<sub>U</sub>|Quotation marks are upright in stacked mode :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/201e/index.htm|U+201E]]|DOUBLE LOW-9 QUOTATION MARK|''„''|T<sub>U</sub>|Quotation marks are upright in stacked mode :?: DVO=S|
 |[[http://www.fileformat.info/info/unicode/char/2045/index.htm|U+2045]]|LEFT SQUARE BRACKET WITH QUILL|''⁅''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/207d/index.htm|U+207D]]|SUPERSCRIPT LEFT PARENTHESIS|''⁽''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/208d/index.htm|U+208D]]|SUBSCRIPT LEFT PARENTHESIS|''₍''|R|Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/207d/index.htm|U+207D]]|SUPERSCRIPT LEFT PARENTHESIS|''⁽''|R|Brackets are sideways to enclose their text :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/208d/index.htm|U+208D]]|SUBSCRIPT LEFT PARENTHESIS|''₍''|R|Brackets are sideways to enclose their text :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/2329/index.htm|U+2329]]|LEFT-POINTING ANGLE BRACKET|''〈''|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/2768/index.htm|U+2768]]|MEDIUM LEFT PARENTHESIS ORNAMENT|''❨''|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/276a/index.htm|U+276A]]|MEDIUM FLATTENED LEFT PARENTHESIS ORNAMENT|''❪''|R|Brackets are sideways to enclose their text|
@@ -109,17 +109,17 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/2e24/index.htm|U+2E24]]|BOTTOM LEFT HALF BRACKET|''⸤''|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/2e26/index.htm|U+2E26]]|LEFT SIDEWAYS U BRACKET|''⸦''|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/2e28/index.htm|U+2E28]]|LEFT DOUBLE PARENTHESIS|''⸨''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/3008/index.htm|U+3008]]|LEFT ANGLE BRACKET|''〈''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/300a/index.htm|U+300A]]|LEFT DOUBLE ANGLE BRACKET|''《''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/300c/index.htm|U+300C]]|LEFT CORNER BRACKET|''「''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/300e/index.htm|U+300E]]|LEFT WHITE CORNER BRACKET|''『''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/3010/index.htm|U+3010]]|LEFT BLACK LENTICULAR BRACKET|''【''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/3014/index.htm|U+3014]]|LEFT TORTOISE SHELL BRACKET|''〔''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/3016/index.htm|U+3016]]|LEFT WHITE LENTICULAR BRACKET|''〖''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/3018/index.htm|U+3018]]|LEFT WHITE TORTOISE SHELL BRACKET|''〘''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/301a/index.htm|U+301A]]|LEFT WHITE SQUARE BRACKET|''〚''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/301d/index.htm|U+301D]]|REVERSED DOUBLE PRIME QUOTATION MARK|''〝''|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
-|[[http://www.fileformat.info/info/unicode/char/fd3e/index.htm|U+FD3E]]|ORNATE LEFT PARENTHESIS|''﴾''|R|Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/3008/index.htm|U+3008]]|LEFT ANGLE BRACKET|''〈''|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/300a/index.htm|U+300A]]|LEFT DOUBLE ANGLE BRACKET|''《''|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/300c/index.htm|U+300C]]|LEFT CORNER BRACKET|''「''|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/300e/index.htm|U+300E]]|LEFT WHITE CORNER BRACKET|''『''|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/3010/index.htm|U+3010]]|LEFT BLACK LENTICULAR BRACKET|''【''|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/3014/index.htm|U+3014]]|LEFT TORTOISE SHELL BRACKET|''〔''|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/3016/index.htm|U+3016]]|LEFT WHITE LENTICULAR BRACKET|''〖''|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/3018/index.htm|U+3018]]|LEFT WHITE TORTOISE SHELL BRACKET|''〘''|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/301a/index.htm|U+301A]]|LEFT WHITE SQUARE BRACKET|''〚''|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/301d/index.htm|U+301D]]|REVERSED DOUBLE PRIME QUOTATION MARK|''〝''|T<sub>U</sub>|Quotation marks are upright in stacked mode :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/fd3e/index.htm|U+FD3E]]|ORNATE LEFT PARENTHESIS|''﴾''|R|Brackets are sideways to enclose their text :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/fe17/index.htm|U+FE17]]|PRESENTATION FORM FOR VERTICAL LEFT WHITE LENTICULAR BRACKET|''︗''|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe35/index.htm|U+FE35]]|PRESENTATION FORM FOR VERTICAL LEFT PARENTHESIS|''︵''|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe37/index.htm|U+FE37]]|PRESENTATION FORM FOR VERTICAL LEFT CURLY BRACKET|''︷''|U|Vertical presentation forms are always upright|
@@ -130,14 +130,14 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/fe41/index.htm|U+FE41]]|PRESENTATION FORM FOR VERTICAL LEFT CORNER BRACKET|''﹁''|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe43/index.htm|U+FE43]]|PRESENTATION FORM FOR VERTICAL LEFT WHITE CORNER BRACKET|''﹃''|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe47/index.htm|U+FE47]]|PRESENTATION FORM FOR VERTICAL LEFT SQUARE BRACKET|''﹇''|U|Vertical presentation forms are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe59/index.htm|U+FE59]]|SMALL LEFT PARENTHESIS|''﹙''|R|:?: Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/fe5b/index.htm|U+FE5B]]|SMALL LEFT CURLY BRACKET|''﹛''|R|:?: Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/fe5d/index.htm|U+FE5D]]|SMALL LEFT TORTOISE SHELL BRACKET|''﹝''|R|:?: Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/fe59/index.htm|U+FE59]]|SMALL LEFT PARENTHESIS|''﹙''|R|:?: Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/fe5b/index.htm|U+FE5B]]|SMALL LEFT CURLY BRACKET|''﹛''|R|:?: Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/fe5d/index.htm|U+FE5D]]|SMALL LEFT TORTOISE SHELL BRACKET|''﹝''|R|:?: Brackets are sideways to enclose their text :?: DVO=SB|
 |[[http://www.fileformat.info/info/unicode/char/ff08/index.htm|U+FF08]]|FULLWIDTH LEFT PARENTHESIS|''（''|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
 |[[http://www.fileformat.info/info/unicode/char/ff3b/index.htm|U+FF3B]]|FULLWIDTH LEFT SQUARE BRACKET|''［''|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
 |[[http://www.fileformat.info/info/unicode/char/ff5b/index.htm|U+FF5B]]|FULLWIDTH LEFT CURLY BRACKET|''｛''|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
 |[[http://www.fileformat.info/info/unicode/char/ff5f/index.htm|U+FF5F]]|FULLWIDTH LEFT WHITE PARENTHESIS|''｟''|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
-|[[http://www.fileformat.info/info/unicode/char/ff62/index.htm|U+FF62]]|HALFWIDTH LEFT CORNER BRACKET|''｢''|R|Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/ff62/index.htm|U+FF62]]|HALFWIDTH LEFT CORNER BRACKET|''｢''|R|Brackets are sideways to enclose their text :?: DVO=SB|
 ==== Punctuation, Close (Pe) ====
 
 ^Code^Description^Char^Stack^Memo^
@@ -148,8 +148,8 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/0f3d/index.htm|U+0F3D]]|TIBETAN MARK ANG KHANG GYAS|༽|U|:?: Unsure about Tibetan, assuming upright for stacked mode|
 |[[http://www.fileformat.info/info/unicode/char/169c/index.htm|U+169C]]|OGHAM REVERSED FEATHER MARK|᚜|R|Ogham is always sideways|
 |[[http://www.fileformat.info/info/unicode/char/2046/index.htm|U+2046]]|RIGHT SQUARE BRACKET WITH QUILL|⁆|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/207e/index.htm|U+207E]]|SUPERSCRIPT RIGHT PARENTHESIS|⁾|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/208e/index.htm|U+208E]]|SUBSCRIPT RIGHT PARENTHESIS|₎|R|Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/207e/index.htm|U+207E]]|SUPERSCRIPT RIGHT PARENTHESIS|⁾|R|Brackets are sideways to enclose their text :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/208e/index.htm|U+208E]]|SUBSCRIPT RIGHT PARENTHESIS|₎|R|Brackets are sideways to enclose their text :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/232a/index.htm|U+232A]]|RIGHT-POINTING ANGLE BRACKET|〉|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/2769/index.htm|U+2769]]|MEDIUM RIGHT PARENTHESIS ORNAMENT|❩|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/276b/index.htm|U+276B]]|MEDIUM FLATTENED RIGHT PARENTHESIS ORNAMENT|❫|R|Brackets are sideways to enclose their text|
@@ -182,18 +182,18 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/2e25/index.htm|U+2E25]]|BOTTOM RIGHT HALF BRACKET|⸥|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/2e27/index.htm|U+2E27]]|RIGHT SIDEWAYS U BRACKET|⸧|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/2e29/index.htm|U+2E29]]|RIGHT DOUBLE PARENTHESIS|⸩|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/3009/index.htm|U+3009]]|RIGHT ANGLE BRACKET|〉|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/300b/index.htm|U+300B]]|RIGHT DOUBLE ANGLE BRACKET|》|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/300d/index.htm|U+300D]]|RIGHT CORNER BRACKET|」|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/300f/index.htm|U+300F]]|RIGHT WHITE CORNER BRACKET|』|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/3011/index.htm|U+3011]]|RIGHT BLACK LENTICULAR BRACKET|】|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/3015/index.htm|U+3015]]|RIGHT TORTOISE SHELL BRACKET|〕|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/3017/index.htm|U+3017]]|RIGHT WHITE LENTICULAR BRACKET|〗|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/3019/index.htm|U+3019]]|RIGHT WHITE TORTOISE SHELL BRACKET|〙|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/301b/index.htm|U+301B]]|RIGHT WHITE SQUARE BRACKET|〛|R|Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/3009/index.htm|U+3009]]|RIGHT ANGLE BRACKET|〉|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/300b/index.htm|U+300B]]|RIGHT DOUBLE ANGLE BRACKET|》|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/300d/index.htm|U+300D]]|RIGHT CORNER BRACKET|」|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/300f/index.htm|U+300F]]|RIGHT WHITE CORNER BRACKET|』|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/3011/index.htm|U+3011]]|RIGHT BLACK LENTICULAR BRACKET|】|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/3015/index.htm|U+3015]]|RIGHT TORTOISE SHELL BRACKET|〕|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/3017/index.htm|U+3017]]|RIGHT WHITE LENTICULAR BRACKET|〗|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/3019/index.htm|U+3019]]|RIGHT WHITE TORTOISE SHELL BRACKET|〙|R|Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/301b/index.htm|U+301B]]|RIGHT WHITE SQUARE BRACKET|〛|R|Brackets are sideways to enclose their text :?: DVO=SB|
 |[[http://www.fileformat.info/info/unicode/char/301e/index.htm|U+301E]]|DOUBLE PRIME QUOTATION MARK|〞|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
 |[[http://www.fileformat.info/info/unicode/char/301f/index.htm|U+301F]]|LOW DOUBLE PRIME QUOTATION MARK|〟|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
-|[[http://www.fileformat.info/info/unicode/char/fd3f/index.htm|U+FD3F]]|ORNATE RIGHT PARENTHESIS|﴿|R|Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/fd3f/index.htm|U+FD3F]]|ORNATE RIGHT PARENTHESIS|﴿|R|Brackets are sideways to enclose their text :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/fe18/index.htm|U+FE18]]|PRESENTATION FORM FOR VERTICAL RIGHT WHITE LENTICULAR BRAKCET|︘|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe36/index.htm|U+FE36]]|PRESENTATION FORM FOR VERTICAL RIGHT PARENTHESIS|︶|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe38/index.htm|U+FE38]]|PRESENTATION FORM FOR VERTICAL RIGHT CURLY BRACKET|︸|U|Vertical presentation forms are always upright|
@@ -204,14 +204,15 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/fe42/index.htm|U+FE42]]|PRESENTATION FORM FOR VERTICAL RIGHT CORNER BRACKET|﹂|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe44/index.htm|U+FE44]]|PRESENTATION FORM FOR VERTICAL RIGHT WHITE CORNER BRACKET|﹄|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe48/index.htm|U+FE48]]|PRESENTATION FORM FOR VERTICAL RIGHT SQUARE BRACKET|﹈|U|Vertical presentation forms are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe5a/index.htm|U+FE5A]]|SMALL RIGHT PARENTHESIS|﹚|R|:?: Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/fe5c/index.htm|U+FE5C]]|SMALL RIGHT CURLY BRACKET|﹜|R|:?: Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/fe5e/index.htm|U+FE5E]]|SMALL RIGHT TORTOISE SHELL BRACKET|﹞|R|:?: Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/fe5a/index.htm|U+FE5A]]|SMALL RIGHT PARENTHESIS|﹚|R|:?: Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/fe5c/index.htm|U+FE5C]]|SMALL RIGHT CURLY BRACKET|﹜|R|:?: Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/fe5e/index.htm|U+FE5E]]|SMALL RIGHT TORTOISE SHELL BRACKET|﹞|R|:?: Brackets are sideways to enclose their text :?: DVO=SB|
 |[[http://www.fileformat.info/info/unicode/char/ff09/index.htm|U+FF09]]|FULLWIDTH RIGHT PARENTHESIS|）|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
 |[[http://www.fileformat.info/info/unicode/char/ff3d/index.htm|U+FF3D]]|FULLWIDTH RIGHT SQUARE BRACKET|］|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
 |[[http://www.fileformat.info/info/unicode/char/ff5d/index.htm|U+FF5D]]|FULLWIDTH RIGHT CURLY BRACKET|｝|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
 |[[http://www.fileformat.info/info/unicode/char/ff60/index.htm|U+FF60]]|FULLWIDTH RIGHT WHITE PARENTHESIS|｠|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
-|[[http://www.fileformat.info/info/unicode/char/ff63/index.htm|U+FF63]]|HALFWIDTH RIGHT CORNER BRACKET|｣|R|Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/ff63/index.htm|U+FF63]]|HALFWIDTH RIGHT CORNER BRACKET|｣|R|Brackets are sideways to enclose their text :?: DVO=SB|
+
 ==== Punctuation, Initial quote (Pi) ====
 
 
@@ -222,11 +223,11 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/201c/index.htm|U+201C]]|LEFT DOUBLE QUOTATION MARK|“|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
 |[[http://www.fileformat.info/info/unicode/char/201f/index.htm|U+201F]]|DOUBLE HIGH-REVERSED-9 QUOTATION MARK|‟|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
 |[[http://www.fileformat.info/info/unicode/char/2039/index.htm|U+2039]]|SINGLE LEFT-POINTING ANGLE QUOTATION MARK|‹|R|[[http://lists.w3.org/Archives/Public/www-archive/2012Mar/0006.html|Guillmets are sideways to enclose text]]|
-|[[http://www.fileformat.info/info/unicode/char/2e02/index.htm|U+2E02]]|LEFT SUBSTITUTION BRACKET|⸂|U?|:?: New Testament Editorial Symbols...|
-|[[http://www.fileformat.info/info/unicode/char/2e04/index.htm|U+2E04]]|LEFT DOTTED SUBSTITUTION BRACKET|⸄|U?|:?: New Testament Editorial Symbols...|
-|[[http://www.fileformat.info/info/unicode/char/2e09/index.htm|U+2E09]]|LEFT TRANSPOSITION BRACKET|⸉|U?|:?: New Testament Editorial Symbols...|
-|[[http://www.fileformat.info/info/unicode/char/2e0c/index.htm|U+2E0C]]|LEFT RAISED OMISSION BRACKET|⸌|U?|:?: New Testament Editorial Symbols...|
-|[[http://www.fileformat.info/info/unicode/char/2e1c/index.htm|U+2E1C]]|LEFT LOW PARAPHRASE BRACKET|⸜|U?|:?: N'Ko punctuation|
+|[[http://www.fileformat.info/info/unicode/char/2e02/index.htm|U+2E02]]|LEFT SUBSTITUTION BRACKET|⸂|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e04/index.htm|U+2E04]]|LEFT DOTTED SUBSTITUTION BRACKET|⸄|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e09/index.htm|U+2E09]]|LEFT TRANSPOSITION BRACKET|⸉|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e0c/index.htm|U+2E0C]]|LEFT RAISED OMISSION BRACKET|⸌|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e1c/index.htm|U+2E1C]]|LEFT LOW PARAPHRASE BRACKET|⸜|U?|:?: N'Ko punctuation :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/2e20/index.htm|U+2E20]]|LEFT VERTICAL BAR WITH QUILL|⸠|R|Brackets are sideways to enclose text|
 
 ==== Punctuation, Final quote (Pf) ====
@@ -235,12 +236,12 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/00bb/index.htm|U+00BB]]|RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK|»|R|[[http://lists.w3.org/Archives/Public/www-archive/2012Mar/0006.html|Guillmets are sideways to enclose text]]|
 |[[http://www.fileformat.info/info/unicode/char/2019/index.htm|U+2019]]|RIGHT SINGLE QUOTATION MARK|’|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
 |[[http://www.fileformat.info/info/unicode/char/201d/index.htm|U+201D]]|RIGHT DOUBLE QUOTATION MARK|”|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
-|[[http://www.fileformat.info/info/unicode/char/203a/index.htm|U+203A]]|SINGLE RIGHT-POINTING ANGLE QUOTATION MARK|›|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
-|[[http://www.fileformat.info/info/unicode/char/2e03/index.htm|U+2E03]]|RIGHT SUBSTITUTION BRACKET|⸃|U?|:?: New Testament Editorial Symbols...|
-|[[http://www.fileformat.info/info/unicode/char/2e05/index.htm|U+2E05]]|RIGHT DOTTED SUBSTITUTION BRACKET|⸅|U?|:?: New Testament Editorial Symbols...|
-|[[http://www.fileformat.info/info/unicode/char/2e0a/index.htm|U+2E0A]]|RIGHT TRANSPOSITION BRACKET|⸊|U?|:?: New Testament Editorial Symbols...|
-|[[http://www.fileformat.info/info/unicode/char/2e0d/index.htm|U+2E0D]]|RIGHT RAISED OMISSION BRACKET|⸍|U?|:?: New Testament Editorial Symbols...|
-|[[http://www.fileformat.info/info/unicode/char/2e1d/index.htm|U+2E1D]]|RIGHT LOW PARAPHRASE BRACKET|⸝|U?|:?: N'Ko punctuation|
+|[[http://www.fileformat.info/info/unicode/char/203a/index.htm|U+203A]]|SINGLE RIGHT-POINTING ANGLE QUOTATION MARK|›|R|[[http://lists.w3.org/Archives/Public/www-archive/2012Mar/0006.html|Guillmets are sideways to enclose text]]|
+|[[http://www.fileformat.info/info/unicode/char/2e03/index.htm|U+2E03]]|RIGHT SUBSTITUTION BRACKET|⸃|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e05/index.htm|U+2E05]]|RIGHT DOTTED SUBSTITUTION BRACKET|⸅|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e0a/index.htm|U+2E0A]]|RIGHT TRANSPOSITION BRACKET|⸊|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e0d/index.htm|U+2E0D]]|RIGHT RAISED OMISSION BRACKET|⸍|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e1d/index.htm|U+2E1D]]|RIGHT LOW PARAPHRASE BRACKET|⸝|U?|:?: N'Ko punctuation :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/2e21/index.htm|U+2E21]]|RIGHT VERTICAL BAR WITH QUILL|⸡|R|Brackets are sideways to enclose text|
 
 ===== Separating Punctuation =====
@@ -300,9 +301,9 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/2021/index.htm|U+2021]]|DOUBLE DAGGER|‡|U|
 |[[http://www.fileformat.info/info/unicode/char/2022/index.htm|U+2022]]|BULLET|•|U|
 |[[http://www.fileformat.info/info/unicode/char/2023/index.htm|U+2023]]|TRIANGULAR BULLET|‣|U|
-|[[http://www.fileformat.info/info/unicode/char/2024/index.htm|U+2024]]|ONE DOT LEADER|․|R|Leaders always parallel to inline direction|
-|[[http://www.fileformat.info/info/unicode/char/2025/index.htm|U+2025]]|TWO DOT LEADER|‥|R|Leaders always parallel to inline direction|
-|[[http://www.fileformat.info/info/unicode/char/2026/index.htm|U+2026]]|HORIZONTAL ELLIPSIS|…|R|Ellipsis always parallel to inline direction|
+|[[http://www.fileformat.info/info/unicode/char/2024/index.htm|U+2024]]|ONE DOT LEADER|․|R|Leaders always parallel to inline direction :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2025/index.htm|U+2025]]|TWO DOT LEADER|‥|R|Leaders always parallel to inline direction :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2026/index.htm|U+2026]]|HORIZONTAL ELLIPSIS|…|R|Ellipsis always parallel to inline direction :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/2027/index.htm|U+2027]]|HYPHENATION POINT|‧|U|
 |[[http://www.fileformat.info/info/unicode/char/2030/index.htm|U+2030]]|PER MILLE SIGN|‰|U|
 |[[http://www.fileformat.info/info/unicode/char/2031/index.htm|U+2031]]|PER TEN THOUSAND SIGN|‱|U|
@@ -385,9 +386,9 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/fe45/index.htm|U+FE45]]|SESAME DOT|﹅|U|Sesame dots are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe46/index.htm|U+FE46]]|WHITE SESAME DOT|﹆|U|Sesame dots are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe49/index.htm|U+FE49]]|DASHED OVERLINE|﹉|R|Match dashed low line :?: Double low line and low line have different orientations|
-|[[http://www.fileformat.info/info/unicode/char/fe4a/index.htm|U+FE4A]]|CENTRELINE OVERLINE|﹊|R|Match centerline low line :?: Double low line and low line have different orientations|
-|[[http://www.fileformat.info/info/unicode/char/fe4b/index.htm|U+FE4B]]|WAVY OVERLINE|﹋|R|Match wavy low line :?: Double low line and low line have different orientations|
-|[[http://www.fileformat.info/info/unicode/char/fe4c/index.htm|U+FE4C]]|DOUBLE WAVY OVERLINE|﹌|R|Match wavy low line :?: Double low line and low line have different orientations|
+|[[http://www.fileformat.info/info/unicode/char/fe4a/index.htm|U+FE4A]]|CENTRELINE OVERLINE|﹊|R|Match centerline low line :?: Double low line and low line have different orientations :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe4b/index.htm|U+FE4B]]|WAVY OVERLINE|﹋|R|Match wavy low line :?: Double low line and low line have different orientations :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe4c/index.htm|U+FE4C]]|DOUBLE WAVY OVERLINE|﹌|R|Match wavy low line :?: Double low line and low line have different orientations :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/10b3a/index.htm|U+10B3A]]|TINY TWO DOTS OVER ONE DOT PUNCTUATION|𐬺|U|
 |[[http://www.fileformat.info/info/unicode/char/10b3b/index.htm|U+10B3B]]|SMALL TWO DOTS OVER ONE DOT PUNCTUATION|𐬻|U|
 |[[http://www.fileformat.info/info/unicode/char/10b3c/index.htm|U+10B3C]]|LARGE TWO DOTS OVER ONE DOT PUNCTUATION|𐬼|U|
@@ -397,11 +398,11 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 ==== Small/Fullwidth/Halfwidth/Vertical Other Punctuation (Po) ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/fe50/index.htm|U+FE50]]|SMALL COMMA|﹐|T<sub>U</sub>|Small variants upright; comma needs shifting|
-|[[http://www.fileformat.info/info/unicode/char/fe51/index.htm|U+FE51]]|SMALL IDEOGRAPHIC COMMA|﹑|T<sub>U</sub>|Small variants upright; comma needs shifting|
-|[[http://www.fileformat.info/info/unicode/char/fe52/index.htm|U+FE52]]|SMALL FULL STOP|﹒|T<sub>U</sub>|Small variants upright; full stop needs shifting|
-|[[http://www.fileformat.info/info/unicode/char/fe54/index.htm|U+FE54]]|SMALL SEMICOLON|﹔|T<sub>U</sub>|Small semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
-|[[http://www.fileformat.info/info/unicode/char/fe55/index.htm|U+FE55]]|SMALL COLON|﹕|T<sub>U</sub>|Small colons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
+|[[http://www.fileformat.info/info/unicode/char/fe50/index.htm|U+FE50]]|SMALL COMMA|﹐|T<sub>U</sub>|Small variants upright; comma needs shifting :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe51/index.htm|U+FE51]]|SMALL IDEOGRAPHIC COMMA|﹑|T<sub>U</sub>|Small variants upright; comma needs shifting :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe52/index.htm|U+FE52]]|SMALL FULL STOP|﹒|T<sub>U</sub>|Small variants upright; full stop needs shifting :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe54/index.htm|U+FE54]]|SMALL SEMICOLON|﹔|T<sub>U</sub>|Small semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe55/index.htm|U+FE55]]|SMALL COLON|﹕|T<sub>U</sub>|Small colons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/fe56/index.htm|U+FE56]]|SMALL QUESTION MARK|﹖|U|Small variants upright|
 |[[http://www.fileformat.info/info/unicode/char/fe57/index.htm|U+FE57]]|SMALL EXCLAMATION MARK|﹗|U|Small variants upright|
 |[[http://www.fileformat.info/info/unicode/char/fe5f/index.htm|U+FE5F]]|SMALL NUMBER SIGN|﹟|U|Small variants upright|
@@ -415,19 +416,19 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/ff03/index.htm|U+FF03]]|FULLWIDTH NUMBER SIGN|＃|U|Fullwidth variants are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff05/index.htm|U+FF05]]|FULLWIDTH PERCENT SIGN|％|U|Fullwidth variants are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff06/index.htm|U+FF06]]|FULLWIDTH AMPERSAND|＆|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff07/index.htm|U+FF07]]|FULLWIDTH APOSTROPHE|＇|T<sub>U</sub>|Fullwidth variants are upright; :?: quotes need alt glyph|
+|[[http://www.fileformat.info/info/unicode/char/ff07/index.htm|U+FF07]]|FULLWIDTH APOSTROPHE|＇|T<sub>U</sub>|Fullwidth variants are upright; :?: quotes need alt glyph :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/ff0a/index.htm|U+FF0A]]|FULLWIDTH ASTERISK|＊|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff0c/index.htm|U+FF0C]]|FULLWIDTH COMMA|，|T<sub>U</sub>|Fullwidth variants are upright; comma needs shifting|
-|[[http://www.fileformat.info/info/unicode/char/ff0e/index.htm|U+FF0E]]|FULLWIDTH FULL STOP|．|T<sub>U</sub>|Fullwidth variants are upright; full stop needs shifting|
+|[[http://www.fileformat.info/info/unicode/char/ff0c/index.htm|U+FF0C]]|FULLWIDTH COMMA|，|T<sub>U</sub>|Fullwidth variants are upright; comma needs shifting :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/ff0e/index.htm|U+FF0E]]|FULLWIDTH FULL STOP|．|T<sub>U</sub>|Fullwidth variants are upright; full stop needs shifting :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/ff0f/index.htm|U+FF0F]]|FULLWIDTH SOLIDUS|／|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff1a/index.htm|U+FF1A]]|FULLWIDTH COLON|：|T<sub>U</sub>|Fullwidth colons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
-|[[http://www.fileformat.info/info/unicode/char/ff1b/index.htm|U+FF1B]]|FULLWIDTH SEMICOLON|；|T<sub>U</sub>|Fullwidth semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
+|[[http://www.fileformat.info/info/unicode/char/ff1a/index.htm|U+FF1A]]|FULLWIDTH COLON|：|T<sub>U</sub>|Fullwidth colons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/ff1b/index.htm|U+FF1B]]|FULLWIDTH SEMICOLON|；|T<sub>U</sub>|Fullwidth semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/ff1f/index.htm|U+FF1F]]|FULLWIDTH QUESTION MARK|？|U|Fullwidth variants are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff20/index.htm|U+FF20]]|FULLWIDTH COMMERCIAL AT|＠|U|Fullwidth variants are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff3c/index.htm|U+FF3C]]|FULLWIDTH REVERSE SOLIDUS|＼|U|Fullwidth variants are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff61/index.htm|U+FF61]]|HALFWIDTH IDEOGRAPHIC FULL STOP|｡|T<sub>U</sub>|Full stop needs shifting; :?: Halfwidth needs transform to be half-width|
 |[[http://www.fileformat.info/info/unicode/char/ff64/index.htm|U+FF64]]|HALFWIDTH IDEOGRAPHIC COMMA|､|T<sub>U</sub>|Comma needs shifting; :?: Halfwidth needs transform to be half-width|
-|[[http://www.fileformat.info/info/unicode/char/ff65/index.htm|U+FF65]]|HALFWIDTH KATAKANA MIDDLE DOT|･|T<sub>U</sub>|:?: Halfwidth needs transform to be half-width?|
+|[[http://www.fileformat.info/info/unicode/char/ff65/index.htm|U+FF65]]|HALFWIDTH KATAKANA MIDDLE DOT|･|T<sub>U</sub>|:?: Halfwidth needs transform to be half-width? :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/fe10/index.htm|U+FE10]]|PRESENTATION FORM FOR VERTICAL COMMA|︐|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe11/index.htm|U+FE11]]|PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC COMMA|︑|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe12/index.htm|U+FE12]]|PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC FULL STOP|︒|U|Vertical presentation forms are always upright|
@@ -498,7 +499,7 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/083c/index.htm|U+083C]]|SAMARITAN PUNCTUATION ARKAANU|࠼|U|
 |[[http://www.fileformat.info/info/unicode/char/083d/index.htm|U+083D]]|SAMARITAN PUNCTUATION SOF MASHFAAT|࠽|U|
 |[[http://www.fileformat.info/info/unicode/char/083e/index.htm|U+083E]]|SAMARITAN PUNCTUATION ANNAAU|࠾|U|
-|[[http://www.fileformat.info/info/unicode/char/085e/index.htm|U+085E]]|MANDAIC PUNCTUATION|࡞|U|:?: Mandaic|
+|[[http://www.fileformat.info/info/unicode/char/085e/index.htm|U+085E]]|MANDAIC PUNCTUATION|࡞|U|:?: Mandaic :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/0964/index.htm|U+0964]]|DEVANAGARI DANDA|।|U|
 |[[http://www.fileformat.info/info/unicode/char/0965/index.htm|U+0965]]|DEVANAGARI DOUBLE DANDA|॥|U|
 |[[http://www.fileformat.info/info/unicode/char/0970/index.htm|U+0970]]|DEVANAGARI ABBREVIATION SIGN|॰|U|
@@ -560,16 +561,16 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/17d8/index.htm|U+17D8]]|KHMER SIGN BEYYAL|៘|U|
 |[[http://www.fileformat.info/info/unicode/char/17d9/index.htm|U+17D9]]|KHMER SIGN PHNAEK MUAN|៙|U|
 |[[http://www.fileformat.info/info/unicode/char/17da/index.htm|U+17DA]]|KHMER SIGN KOOMUUT|៚|U|
-|[[http://www.fileformat.info/info/unicode/char/1800/index.htm|U+1800]]|MONGOLIAN BIRGA|᠀|R|Match Mongolian letters|
-|[[http://www.fileformat.info/info/unicode/char/1801/index.htm|U+1801]]|MONGOLIAN ELLIPSIS|᠁|R|Match Mongolian letters|
-|[[http://www.fileformat.info/info/unicode/char/1802/index.htm|U+1802]]|MONGOLIAN COMMA|᠂|R|Match Mongolian letters|
-|[[http://www.fileformat.info/info/unicode/char/1803/index.htm|U+1803]]|MONGOLIAN FULL STOP|᠃|R|Match Mongolian letters|
-|[[http://www.fileformat.info/info/unicode/char/1804/index.htm|U+1804]]|MONGOLIAN COLON|᠄|R|Match Mongolian letters|
-|[[http://www.fileformat.info/info/unicode/char/1805/index.htm|U+1805]]|MONGOLIAN FOUR DOTS|᠅|R|Match Mongolian letters|
-|[[http://www.fileformat.info/info/unicode/char/1807/index.htm|U+1807]]|MONGOLIAN SIBE SYLLABLE BOUNDARY MARKER|᠇|R|Match Mongolian letters|
-|[[http://www.fileformat.info/info/unicode/char/1808/index.htm|U+1808]]|MONGOLIAN MANCHU COMMA|᠈|R|Match Mongolian letters|
-|[[http://www.fileformat.info/info/unicode/char/1809/index.htm|U+1809]]|MONGOLIAN MANCHU FULL STOP|᠉|R|Match Mongolian letters|
-|[[http://www.fileformat.info/info/unicode/char/180a/index.htm|U+180A]]|MONGOLIAN NIRUGU|᠊|R|Match Mongolian letters|
+|[[http://www.fileformat.info/info/unicode/char/1800/index.htm|U+1800]]|MONGOLIAN BIRGA|᠀|R|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1801/index.htm|U+1801]]|MONGOLIAN ELLIPSIS|᠁|R|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1802/index.htm|U+1802]]|MONGOLIAN COMMA|᠂|R|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1803/index.htm|U+1803]]|MONGOLIAN FULL STOP|᠃|R|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1804/index.htm|U+1804]]|MONGOLIAN COLON|᠄|R|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1805/index.htm|U+1805]]|MONGOLIAN FOUR DOTS|᠅|R|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1807/index.htm|U+1807]]|MONGOLIAN SIBE SYLLABLE BOUNDARY MARKER|᠇|R|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1808/index.htm|U+1808]]|MONGOLIAN MANCHU COMMA|᠈|R|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1809/index.htm|U+1809]]|MONGOLIAN MANCHU FULL STOP|᠉|R|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/180a/index.htm|U+180A]]|MONGOLIAN NIRUGU|᠊|R|Match Mongolian letters :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/1944/index.htm|U+1944]]|LIMBU EXCLAMATION MARK|᥄|U|
 |[[http://www.fileformat.info/info/unicode/char/1945/index.htm|U+1945]]|LIMBU QUESTION MARK|᥅|U|
 |[[http://www.fileformat.info/info/unicode/char/1a1e/index.htm|U+1A1E]]|BUGINESE PALLAWA|᨞|U|
@@ -634,10 +635,10 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/a6f5/index.htm|U+A6F5]]|BAMUM COMMA|꛵|U|
 |[[http://www.fileformat.info/info/unicode/char/a6f6/index.htm|U+A6F6]]|BAMUM SEMICOLON|꛶|U|
 |[[http://www.fileformat.info/info/unicode/char/a6f7/index.htm|U+A6F7]]|BAMUM QUESTION MARK|꛷|U|
-|[[http://www.fileformat.info/info/unicode/char/a874/index.htm|U+A874]]|PHAGS-PA SINGLE HEAD MARK|꡴|R|Match Phags-pa letters|
-|[[http://www.fileformat.info/info/unicode/char/a875/index.htm|U+A875]]|PHAGS-PA DOUBLE HEAD MARK|꡵|R|Match Phags-pa letters|
-|[[http://www.fileformat.info/info/unicode/char/a876/index.htm|U+A876]]|PHAGS-PA MARK SHAD|꡶|R|Match Phags-pa letters|
-|[[http://www.fileformat.info/info/unicode/char/a877/index.htm|U+A877]]|PHAGS-PA MARK DOUBLE SHAD|꡷|R|Match Phags-pa letters|
+|[[http://www.fileformat.info/info/unicode/char/a874/index.htm|U+A874]]|PHAGS-PA SINGLE HEAD MARK|꡴|R|Match Phags-pa letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/a875/index.htm|U+A875]]|PHAGS-PA DOUBLE HEAD MARK|꡵|R|Match Phags-pa letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/a876/index.htm|U+A876]]|PHAGS-PA MARK SHAD|꡶|R|Match Phags-pa letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/a877/index.htm|U+A877]]|PHAGS-PA MARK DOUBLE SHAD|꡷|R|Match Phags-pa letters :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/a8ce/index.htm|U+A8CE]]|SAURASHTRA DANDA|꣎|U|
 |[[http://www.fileformat.info/info/unicode/char/a8cf/index.htm|U+A8CF]]|SAURASHTRA DOUBLE DANDA|꣏|U|
 |[[http://www.fileformat.info/info/unicode/char/a8f8/index.htm|U+A8F8]]|DEVANAGARI SIGN PUSHPIKA|꣸|U|
