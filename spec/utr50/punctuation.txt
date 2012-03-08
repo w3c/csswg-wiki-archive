@@ -416,10 +416,10 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/ff03/index.htm|U+FF03]]|FULLWIDTH NUMBER SIGN|＃|U|Fullwidth variants are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff05/index.htm|U+FF05]]|FULLWIDTH PERCENT SIGN|％|U|Fullwidth variants are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff06/index.htm|U+FF06]]|FULLWIDTH AMPERSAND|＆|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff07/index.htm|U+FF07]]|FULLWIDTH APOSTROPHE|＇|T<sub>U|Fullwidth variants are upright; :?: quotes need alt glyph|
+|[[http://www.fileformat.info/info/unicode/char/ff07/index.htm|U+FF07]]|FULLWIDTH APOSTROPHE|＇|T<sub>U</sub>|Fullwidth variants are upright; :?: quotes need alt glyph|
 |[[http://www.fileformat.info/info/unicode/char/ff0a/index.htm|U+FF0A]]|FULLWIDTH ASTERISK|＊|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff0c/index.htm|U+FF0C]]|FULLWIDTH COMMA|，|T<sub>U|Fullwidth variants are upright; comma needs shifting|
-|[[http://www.fileformat.info/info/unicode/char/ff0e/index.htm|U+FF0E]]|FULLWIDTH FULL STOP|．|T<sub>U|Fullwidth variants are upright; full stop needs shifting|
+|[[http://www.fileformat.info/info/unicode/char/ff0c/index.htm|U+FF0C]]|FULLWIDTH COMMA|，|T<sub>U</sub>|Fullwidth variants are upright; comma needs shifting|
+|[[http://www.fileformat.info/info/unicode/char/ff0e/index.htm|U+FF0E]]|FULLWIDTH FULL STOP|．|T<sub>U</sub>|Fullwidth variants are upright; full stop needs shifting|
 |[[http://www.fileformat.info/info/unicode/char/ff0f/index.htm|U+FF0F]]|FULLWIDTH SOLIDUS|／|U|Fullwidth variants are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff1a/index.htm|U+FF1A]]|FULLWIDTH COLON|：|T<sub>U</sub>|Fullwidth colons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
 |[[http://www.fileformat.info/info/unicode/char/ff1b/index.htm|U+FF1B]]|FULLWIDTH SEMICOLON|；|T<sub>U</sub>|Fullwidth semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
