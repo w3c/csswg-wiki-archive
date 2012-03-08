@@ -1,4 +1,4 @@
-====== Letters and Numbers Orientation By Codepoint ======
+====== Letters, Numbers, and Spaces Orientation By Codepoint ======
 
 This page is intended to help analyze Unicode wrt text orientation. It is not comprehensive at all yet.
 
@@ -34,3 +34,8 @@ Letters and script-specific (non-Common) numbers are classified by using their s
 |Mand|Mandaic|:?:|R|Still debating how to handle cursive RTL in stacked mode|
 |Syrc|Syriac|:?:|R|Still debating how to handle cursive RTL in stacked mode|
 |--|All others|U|R|
+
+===== Spaces (Z*) =====
+
+^Code^Stack^Memo^
+|*|U|:?: UTR#50 has spaces sideways|
