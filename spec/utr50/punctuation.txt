@@ -250,28 +250,25 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 
 We propose to make all spaces upright in ''upright/stacked'' mode.
 
-:?: UTR#50 has spaces sideways.
-
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/0020/index.htm|U+0020]]|SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/00a0/index.htm|U+00A0]]|NO-BREAK SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/1680/index.htm|U+1680]]|OGHAM SPACE MARK|'' ''|R|Ogham is sideways|
-|[[http://www.fileformat.info/info/unicode/char/180e/index.htm|U+180E]]|MONGOLIAN VOWEL SEPARATOR|''᠎''|R|Mongolian is sideways|
-|[[http://www.fileformat.info/info/unicode/char/2000/index.htm|U+2000]]|EN QUAD|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/2001/index.htm|U+2001]]|EM QUAD|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/2002/index.htm|U+2002]]|EN SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/2003/index.htm|U+2003]]|EM SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/2004/index.htm|U+2004]]|THREE-PER-EM SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/2005/index.htm|U+2005]]|FOUR-PER-EM SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/2006/index.htm|U+2006]]|SIX-PER-EM SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/2007/index.htm|U+2007]]|FIGURE SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/2008/index.htm|U+2008]]|PUNCTUATION SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/2009/index.htm|U+2009]]|THIN SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/200a/index.htm|U+200A]]|HAIR SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/202f/index.htm|U+202F]]|NARROW NO-BREAK SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/205f/index.htm|U+205F]]|MEDIUM MATHEMATICAL SPACE|'' ''|U|
-|[[http://www.fileformat.info/info/unicode/char/3000/index.htm|U+3000]]|IDEOGRAPHIC SPACE|''　''|U|
-
+|[[http://www.fileformat.info/info/unicode/char/0020/index.htm|U+0020]]|SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/00a0/index.htm|U+00A0]]|NO-BREAK SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/1680/index.htm|U+1680]]|OGHAM SPACE MARK|'' ''|R|Ogham is sideways :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/180e/index.htm|U+180E]]|MONGOLIAN VOWEL SEPARATOR|''᠎''|R|Mongolian is sideways :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2000/index.htm|U+2000]]|EN QUAD|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/2001/index.htm|U+2001]]|EM QUAD|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/2002/index.htm|U+2002]]|EN SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/2003/index.htm|U+2003]]|EM SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/2004/index.htm|U+2004]]|THREE-PER-EM SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/2005/index.htm|U+2005]]|FOUR-PER-EM SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/2006/index.htm|U+2006]]|SIX-PER-EM SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/2007/index.htm|U+2007]]|FIGURE SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/2008/index.htm|U+2008]]|PUNCTUATION SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/2009/index.htm|U+2009]]|THIN SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/200a/index.htm|U+200A]]|HAIR SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/202f/index.htm|U+202F]]|NARROW NO-BREAK SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/205f/index.htm|U+205F]]|MEDIUM MATHEMATICAL SPACE|'' ''|U :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/3000/index.htm|U+3000]]|IDEOGRAPHIC SPACE|''　''|U :?: DVO=S|
 ==== Common Other Punctuation (Po) ====
 
 ^Code^Description^Char^Stack^Memo^
