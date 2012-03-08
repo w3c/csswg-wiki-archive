@@ -294,7 +294,7 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/00b6/index.htm|U+00B6]]|PILCROW SIGN|¶|U|
 |[[http://www.fileformat.info/info/unicode/char/00b7/index.htm|U+00B7]]|MIDDLE DOT|·|U|
 |[[http://www.fileformat.info/info/unicode/char/00bf/index.htm|U+00BF]]|INVERTED QUESTION MARK|¿|U|
-|[[http://www.fileformat.info/info/unicode/char/2016/index.htm|U+2016]]|DOUBLE VERTICAL LINE|‖|U|
+|[[http://www.fileformat.info/info/unicode/char/2016/index.htm|U+2016]]|DOUBLE VERTICAL LINE|‖|U|Most modern fonts have rotated vert, but JIS0213 doesn't define vert glyph|
 |[[http://www.fileformat.info/info/unicode/char/2017/index.htm|U+2017]]|DOUBLE LOW LINE|‗|U|:?: Double low line and low line have different orientations|
 |[[http://www.fileformat.info/info/unicode/char/2020/index.htm|U+2020]]|DAGGER|†|U|
 |[[http://www.fileformat.info/info/unicode/char/2021/index.htm|U+2021]]|DOUBLE DAGGER|‡|U|
@@ -394,7 +394,6 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/10b3d/index.htm|U+10B3D]]|LARGE ONE DOT OVER TWO DOTS PUNCTUATION|𐬽|U|
 |[[http://www.fileformat.info/info/unicode/char/10b3e/index.htm|U+10B3E]]|LARGE TWO RINGS OVER ONE RING PUNCTUATION|𐬾|U|
 |[[http://www.fileformat.info/info/unicode/char/10b3f/index.htm|U+10B3F]]|LARGE ONE RING OVER TWO RINGS PUNCTUATION|𐬿|U|
-
 ==== Small/Fullwidth/Halfwidth/Vertical Other Punctuation (Po) ====
 
 ^Code^Description^Char^Stack^Memo^
