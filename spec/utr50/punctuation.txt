@@ -70,8 +70,8 @@ FIXME Default orientation is not covered yet; focusing on stacked mode first bec
 |[[http://www.fileformat.info/info/unicode/char/0f3a/index.htm|U+0F3A]]|TIBETAN MARK GUG RTAGS GYON|''༺''|U|:?: Unsure about Tibetan, assuming upright for stacked mode|
 |[[http://www.fileformat.info/info/unicode/char/0f3c/index.htm|U+0F3C]]|TIBETAN MARK ANG KHANG GYON|''༼''|U|:?: Unsure about Tibetan, assuming upright for stacked mode|
 |[[http://www.fileformat.info/info/unicode/char/169b/index.htm|U+169B]]|OGHAM FEATHER MARK|''᚛''|R|Ogham is always sideways|
-|[[http://www.fileformat.info/info/unicode/char/201a/index.htm|U+201A]]|SINGLE LOW-9 QUOTATION MARK|''‚''|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
-|[[http://www.fileformat.info/info/unicode/char/201e/index.htm|U+201E]]|DOUBLE LOW-9 QUOTATION MARK|''„''|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
+|[[http://www.fileformat.info/info/unicode/char/201a/index.htm|U+201A]]|SINGLE LOW-9 QUOTATION MARK|''‚''|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
+|[[http://www.fileformat.info/info/unicode/char/201e/index.htm|U+201E]]|DOUBLE LOW-9 QUOTATION MARK|''„''|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
 |[[http://www.fileformat.info/info/unicode/char/2045/index.htm|U+2045]]|LEFT SQUARE BRACKET WITH QUILL|''⁅''|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/207d/index.htm|U+207D]]|SUPERSCRIPT LEFT PARENTHESIS|''⁽''|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/208d/index.htm|U+208D]]|SUBSCRIPT LEFT PARENTHESIS|''₍''|R|Brackets are sideways to enclose their text|
@@ -116,7 +116,7 @@ FIXME Default orientation is not covered yet; focusing on stacked mode first bec
 |[[http://www.fileformat.info/info/unicode/char/3016/index.htm|U+3016]]|LEFT WHITE LENTICULAR BRACKET|''〖''|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/3018/index.htm|U+3018]]|LEFT WHITE TORTOISE SHELL BRACKET|''〘''|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/301a/index.htm|U+301A]]|LEFT WHITE SQUARE BRACKET|''〚''|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/301d/index.htm|U+301D]]|REVERSED DOUBLE PRIME QUOTATION MARK|''〝''|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
+|[[http://www.fileformat.info/info/unicode/char/301d/index.htm|U+301D]]|REVERSED DOUBLE PRIME QUOTATION MARK|''〝''|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
 |[[http://www.fileformat.info/info/unicode/char/fd3e/index.htm|U+FD3E]]|ORNATE LEFT PARENTHESIS|''﴾''|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/fe17/index.htm|U+FE17]]|PRESENTATION FORM FOR VERTICAL LEFT WHITE LENTICULAR BRACKET|''︗''|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe35/index.htm|U+FE35]]|PRESENTATION FORM FOR VERTICAL LEFT PARENTHESIS|''︵''|U|Vertical presentation forms are always upright|
@@ -189,8 +189,8 @@ FIXME Default orientation is not covered yet; focusing on stacked mode first bec
 |[[http://www.fileformat.info/info/unicode/char/3017/index.htm|U+3017]]|RIGHT WHITE LENTICULAR BRACKET|〗|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/3019/index.htm|U+3019]]|RIGHT WHITE TORTOISE SHELL BRACKET|〙|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/301b/index.htm|U+301B]]|RIGHT WHITE SQUARE BRACKET|〛|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/301e/index.htm|U+301E]]|DOUBLE PRIME QUOTATION MARK|〞|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
-|[[http://www.fileformat.info/info/unicode/char/301f/index.htm|U+301F]]|LOW DOUBLE PRIME QUOTATION MARK|〟|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
+|[[http://www.fileformat.info/info/unicode/char/301e/index.htm|U+301E]]|DOUBLE PRIME QUOTATION MARK|〞|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
+|[[http://www.fileformat.info/info/unicode/char/301f/index.htm|U+301F]]|LOW DOUBLE PRIME QUOTATION MARK|〟|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
 |[[http://www.fileformat.info/info/unicode/char/fd3f/index.htm|U+FD3F]]|ORNATE RIGHT PARENTHESIS|﴿|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/fe18/index.htm|U+FE18]]|PRESENTATION FORM FOR VERTICAL RIGHT WHITE LENTICULAR BRAKCET|︘|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe36/index.htm|U+FE36]]|PRESENTATION FORM FOR VERTICAL RIGHT PARENTHESIS|︶|U|Vertical presentation forms are always upright|
@@ -215,10 +215,10 @@ FIXME Default orientation is not covered yet; focusing on stacked mode first bec
 
 ^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/00ab/index.htm|U+00AB]]|LEFT-POINTING DOUBLE ANGLE QUOTATION MARK|«|R|[[http://lists.w3.org/Archives/Public/www-archive/2012Mar/0006.html|Guillmets are sideways to enclose text]]|
-|[[http://www.fileformat.info/info/unicode/char/2018/index.htm|U+2018]]|LEFT SINGLE QUOTATION MARK|‘|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
-|[[http://www.fileformat.info/info/unicode/char/201b/index.htm|U+201B]]|SINGLE HIGH-REVERSED-9 QUOTATION MARK|‛|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
-|[[http://www.fileformat.info/info/unicode/char/201c/index.htm|U+201C]]|LEFT DOUBLE QUOTATION MARK|“|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
-|[[http://www.fileformat.info/info/unicode/char/201f/index.htm|U+201F]]|DOUBLE HIGH-REVERSED-9 QUOTATION MARK|‟|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
+|[[http://www.fileformat.info/info/unicode/char/2018/index.htm|U+2018]]|LEFT SINGLE QUOTATION MARK|‘|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
+|[[http://www.fileformat.info/info/unicode/char/201b/index.htm|U+201B]]|SINGLE HIGH-REVERSED-9 QUOTATION MARK|‛|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
+|[[http://www.fileformat.info/info/unicode/char/201c/index.htm|U+201C]]|LEFT DOUBLE QUOTATION MARK|“|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
+|[[http://www.fileformat.info/info/unicode/char/201f/index.htm|U+201F]]|DOUBLE HIGH-REVERSED-9 QUOTATION MARK|‟|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
 |[[http://www.fileformat.info/info/unicode/char/2039/index.htm|U+2039]]|SINGLE LEFT-POINTING ANGLE QUOTATION MARK|‹|R|[[http://lists.w3.org/Archives/Public/www-archive/2012Mar/0006.html|Guillmets are sideways to enclose text]]|
 |[[http://www.fileformat.info/info/unicode/char/2e02/index.htm|U+2E02]]|LEFT SUBSTITUTION BRACKET|⸂|U?|:?: New Testament Editorial Symbols...|
 |[[http://www.fileformat.info/info/unicode/char/2e04/index.htm|U+2E04]]|LEFT DOTTED SUBSTITUTION BRACKET|⸄|U?|:?: New Testament Editorial Symbols...|
@@ -231,9 +231,9 @@ FIXME Default orientation is not covered yet; focusing on stacked mode first bec
 
 ^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/00bb/index.htm|U+00BB]]|RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK|»|R|[[http://lists.w3.org/Archives/Public/www-archive/2012Mar/0006.html|Guillmets are sideways to enclose text]]|
-|[[http://www.fileformat.info/info/unicode/char/2019/index.htm|U+2019]]|RIGHT SINGLE QUOTATION MARK|’|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
-|[[http://www.fileformat.info/info/unicode/char/201d/index.htm|U+201D]]|RIGHT DOUBLE QUOTATION MARK|”|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
-|[[http://www.fileformat.info/info/unicode/char/203a/index.htm|U+203A]]|SINGLE RIGHT-POINTING ANGLE QUOTATION MARK|›|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting|
+|[[http://www.fileformat.info/info/unicode/char/2019/index.htm|U+2019]]|RIGHT SINGLE QUOTATION MARK|’|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
+|[[http://www.fileformat.info/info/unicode/char/201d/index.htm|U+201D]]|RIGHT DOUBLE QUOTATION MARK|”|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
+|[[http://www.fileformat.info/info/unicode/char/203a/index.htm|U+203A]]|SINGLE RIGHT-POINTING ANGLE QUOTATION MARK|›|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
 |[[http://www.fileformat.info/info/unicode/char/2e03/index.htm|U+2E03]]|RIGHT SUBSTITUTION BRACKET|⸃|U?|:?: New Testament Editorial Symbols...|
 |[[http://www.fileformat.info/info/unicode/char/2e05/index.htm|U+2E05]]|RIGHT DOTTED SUBSTITUTION BRACKET|⸅|U?|:?: New Testament Editorial Symbols...|
 |[[http://www.fileformat.info/info/unicode/char/2e0a/index.htm|U+2E0A]]|RIGHT TRANSPOSITION BRACKET|⸊|U?|:?: New Testament Editorial Symbols...|
@@ -271,7 +271,7 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 
 ^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/0021/index.htm|U+0021]]|EXCLAMATION MARK|!|U|
-|[[http://www.fileformat.info/info/unicode/char/0022/index.htm|U+0022]]|QUOTATION MARK|"|U|
+|[[http://www.fileformat.info/info/unicode/char/0022/index.htm|U+0022]]|QUOTATION MARK|"|U|:?: UTR#50 DVO has quotes S|
 |[[http://www.fileformat.info/info/unicode/char/0023/index.htm|U+0023]]|NUMBER SIGN|#|U|
 |[[http://www.fileformat.info/info/unicode/char/0025/index.htm|U+0025]]|PERCENT SIGN|%|U|
 |[[http://www.fileformat.info/info/unicode/char/0026/index.htm|U+0026]]|AMPERSAND|&|U|
@@ -408,7 +408,7 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/fe6a/index.htm|U+FE6A]]|SMALL PERCENT SIGN|﹪|U|Small variants upright|
 |[[http://www.fileformat.info/info/unicode/char/fe6b/index.htm|U+FE6B]]|SMALL COMMERCIAL AT|﹫|U|Small variants upright|
 |[[http://www.fileformat.info/info/unicode/char/ff01/index.htm|U+FF01]]|FULLWIDTH EXCLAMATION MARK|！|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff02/index.htm|U+FF02]]|FULLWIDTH QUOTATION MARK|＂|T<sub>U</sub>|Fullwidth variants are upright; quotes need alt glyph|
+|[[http://www.fileformat.info/info/unicode/char/ff02/index.htm|U+FF02]]|FULLWIDTH QUOTATION MARK|＂|T<sub>U</sub>|Fullwidth variants are upright; quotes need alt glyph :?: UTR#50 DVO has U|
 |[[http://www.fileformat.info/info/unicode/char/ff03/index.htm|U+FF03]]|FULLWIDTH NUMBER SIGN|＃|U|Fullwidth variants are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff05/index.htm|U+FF05]]|FULLWIDTH PERCENT SIGN|％|U|Fullwidth variants are upright|
 |[[http://www.fileformat.info/info/unicode/char/ff06/index.htm|U+FF06]]|FULLWIDTH AMPERSAND|＆|U|Fullwidth variants are upright|
@@ -725,7 +725,7 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |U+201C-201D|Curly quotes|SB|V|JLREQ defines "use double curly quotes in horizontal and double prime in vertical". Some people think these are SB because these code points are for horizontal only, and it's author's responsibility to replace them to U+301D/301F in vertical flow. Some says T, so that replacement can happen automatically when user switched text flow just like small Kana. Since it's split, probably T is better.|
 |U+201E-201F|DOUBLE LOW/HIGH-REVERSED--9 QUOTATION MARK|SB|UF|Some people says T, while some says SB. Some says these should be consistent with U+201C/201D.|
 |U+301D/301F|REVERSED/Low DOUBLE PRIME QUOTATION MARK|T|V|These are double-quotes for vertical flow in Japanese. Some fonts use these glyphs as vert for U+2018/2019. Some fonts (Meiryo) uses DOUBLE PRIME glyphs for U+2018/2019 even in horizontal flow. These can also be used in math as double-dashes? T is probably good.|
-|U+301E|DOUBLE PRIME QUOTATION MARK|T|V|These are glyphs only for vertical. T is probably good.|
+|U+301E|DOUBLE PRIME QUOTATION MARK|T|V|These are glyphs only for vertical. T is probably good. :?: UTR#50 DVO has quotes S|
 
 ===== General Punctuation =====
 
