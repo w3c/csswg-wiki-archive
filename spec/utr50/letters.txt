@@ -35,3 +35,14 @@ Letters and script-specific (non-Common) numbers are classified by using their s
 |Syrc|Syriac|:?:|R|Still debating how to handle cursive RTL in stacked mode|
 |--|Canadian_Aboriginal|U|R|:?: UTR#50 DVO has U|
 |--|All others|U|R|
+
+  * :?: Does Mongolian need another value to indicate that "code chart shows vertical glyph and fonts have CCW-rotated glyph"?
+  * :?: [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=%5B%3AGeneral_Category%3D%2F%5EL%2F%3A%5D%26%5B%3AScript%3DCommon%3A%5D&g=|L* & Script=Common]]
+  * :?: [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=%5B%3AGeneral_Category%3D%2F%5EN%2F%3A%5D%26%5B%3AScript%3DCommon%3A%5D&g=|N* & Script=Common]]
+  * :?: Should these rules also apply to M*, in case where M* are used without base?
+
+===== Other =====
+
+  * :?: [[http://www.fileformat.info/info/unicode/category/Cf/list.htm|Other, Format (Cf)]] is U?
+  * :?: [[http://www.fileformat.info/info/unicode/category/Co/list.htm|Other, Private Use (Co)]] is U?
+  * :?: [[http://www.fileformat.info/info/unicode/category/Cs/list.htm|Other, Surrogate (Cs)]] no need to define?
