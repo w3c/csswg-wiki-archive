@@ -20,16 +20,16 @@ FIXME Default orientation is not covered yet; focusing on stacked mode first bec
 ==== Punctuation, Connector (Pc) ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/005f/index.htm|U+005F]]|LOW LINE|_|R|
+|[[http://www.fileformat.info/info/unicode/char/005f/index.htm|U+005F]]|LOW LINE|_|R|:?: Double low line and low line have different orientations|
 |[[http://www.fileformat.info/info/unicode/char/203f/index.htm|U+203F]]|UNDERTIE|‿|R|
 |[[http://www.fileformat.info/info/unicode/char/2040/index.htm|U+2040]]|CHARACTER TIE|⁀|R|
 |[[http://www.fileformat.info/info/unicode/char/2054/index.htm|U+2054]]|INVERTED UNDERTIE|⁔|R|
 |[[http://www.fileformat.info/info/unicode/char/fe33/index.htm|U+FE33]]|PRESENTATION FORM FOR VERTICAL LOW LINE|︳|U|Vertical presentation forms always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe34/index.htm|U+FE34]]|PRESENTATION FORM FOR VERTICAL WAVY LOW LINE|︴|U|Vertical presentation forms always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe4d/index.htm|U+FE4D]]|DASHED LOW LINE|﹍|R|
-|[[http://www.fileformat.info/info/unicode/char/fe4e/index.htm|U+FE4E]]|CENTRELINE LOW LINE|﹎|R|
-|[[http://www.fileformat.info/info/unicode/char/fe4f/index.htm|U+FE4F]]|WAVY LOW LINE|﹏|R|
-|[[http://www.fileformat.info/info/unicode/char/ff3f/index.htm|U+FF3F]]|FULLWIDTH LOW LINE|＿|R|
+|[[http://www.fileformat.info/info/unicode/char/fe4d/index.htm|U+FE4D]]|DASHED LOW LINE|﹍|R|:?: Double low line and low line have different orientations|
+|[[http://www.fileformat.info/info/unicode/char/fe4e/index.htm|U+FE4E]]|CENTRELINE LOW LINE|﹎|R|:?: Double low line and low line have different orientations|
+|[[http://www.fileformat.info/info/unicode/char/fe4f/index.htm|U+FE4F]]|WAVY LOW LINE|﹏|R|:?: Double low line and low line have different orientations|
+|[[http://www.fileformat.info/info/unicode/char/ff3f/index.htm|U+FF3F]]|FULLWIDTH LOW LINE|＿|R|:?: Double low line and low line have different orientations|
 
 ==== Punctuation, Dash (Pd) ====
 
@@ -291,7 +291,7 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/00b7/index.htm|U+00B7]]|MIDDLE DOT|·|U|
 |[[http://www.fileformat.info/info/unicode/char/00bf/index.htm|U+00BF]]|INVERTED QUESTION MARK|¿|U|
 |[[http://www.fileformat.info/info/unicode/char/2016/index.htm|U+2016]]|DOUBLE VERTICAL LINE|‖|U|
-|[[http://www.fileformat.info/info/unicode/char/2017/index.htm|U+2017]]|DOUBLE LOW LINE|‗|U|
+|[[http://www.fileformat.info/info/unicode/char/2017/index.htm|U+2017]]|DOUBLE LOW LINE|‗|U|:?: Double low line and low line have different orientations|
 |[[http://www.fileformat.info/info/unicode/char/2020/index.htm|U+2020]]|DAGGER|†|U|
 |[[http://www.fileformat.info/info/unicode/char/2021/index.htm|U+2021]]|DOUBLE DAGGER|‡|U|
 |[[http://www.fileformat.info/info/unicode/char/2022/index.htm|U+2022]]|BULLET|•|U|
@@ -380,10 +380,10 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/30fb/index.htm|U+30FB]]|KATAKANA MIDDLE DOT|・|U|Katakana middle dot is upright|
 |[[http://www.fileformat.info/info/unicode/char/fe45/index.htm|U+FE45]]|SESAME DOT|﹅|U|Sesame dots are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe46/index.htm|U+FE46]]|WHITE SESAME DOT|﹆|U|Sesame dots are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe49/index.htm|U+FE49]]|DASHED OVERLINE|﹉|R|Match dashed low line|
-|[[http://www.fileformat.info/info/unicode/char/fe4a/index.htm|U+FE4A]]|CENTRELINE OVERLINE|﹊|R|Match centerline low line|
-|[[http://www.fileformat.info/info/unicode/char/fe4b/index.htm|U+FE4B]]|WAVY OVERLINE|﹋|R|Match wavy low line|
-|[[http://www.fileformat.info/info/unicode/char/fe4c/index.htm|U+FE4C]]|DOUBLE WAVY OVERLINE|﹌|R|Match wavy low line|
+|[[http://www.fileformat.info/info/unicode/char/fe49/index.htm|U+FE49]]|DASHED OVERLINE|﹉|R|Match dashed low line|:?: Double low line and low line have different orientations|
+|[[http://www.fileformat.info/info/unicode/char/fe4a/index.htm|U+FE4A]]|CENTRELINE OVERLINE|﹊|R|Match centerline low line|:?: Double low line and low line have different orientations|
+|[[http://www.fileformat.info/info/unicode/char/fe4b/index.htm|U+FE4B]]|WAVY OVERLINE|﹋|R|Match wavy low line|:?: Double low line and low line have different orientations|
+|[[http://www.fileformat.info/info/unicode/char/fe4c/index.htm|U+FE4C]]|DOUBLE WAVY OVERLINE|﹌|R|Match wavy low line|:?: Double low line and low line have different orientations|
 |[[http://www.fileformat.info/info/unicode/char/10b3a/index.htm|U+10B3A]]|TINY TWO DOTS OVER ONE DOT PUNCTUATION|𐬺|U|
 |[[http://www.fileformat.info/info/unicode/char/10b3b/index.htm|U+10B3B]]|SMALL TWO DOTS OVER ONE DOT PUNCTUATION|𐬻|U|
 |[[http://www.fileformat.info/info/unicode/char/10b3c/index.htm|U+10B3C]]|LARGE TWO DOTS OVER ONE DOT PUNCTUATION|𐬼|U|
