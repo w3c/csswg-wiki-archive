@@ -12,7 +12,7 @@ The model for regions is to layout in at most two steps. Each step has two phase
 
 * Step A : Initial Layout *
 
-In all cases, regions are laid out with a first step where regions which have height:0 use an intrinsic height of 0. 
+In all cases, regions are laid out with a first step where regions which have height:auto use an intrinsic height of 0. 
 
 In Step A, if a region has an intrinsic height of 0 and had a specified height of auto, then the user agent does the following:
 
