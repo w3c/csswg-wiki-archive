@@ -77,13 +77,13 @@ Because there is a region with height:auto, a Step B is necessary.
                       - compute the intrinsic height of the region based on the fragment content
                       - freeze the intrinsic height ('Y') for region1.
      Because region2 has height:auto:
-                      - compute the fragment that fits into the region (following fragmentation rules). In this case, assuming there was a break in the flow content, we'll assume the resulting fragment is half of the first one.
+                      - compute the fragment that fits into the region (following fragmentation rules). Depending on what the fragment rules determined fit into region1 there may not content remaining in the flow.
                       - compute the intrinsic height of the region based on the fragment content
-                      - freeze the intrinsic height ('Y/2') for region2.
+                      - freeze the intrinsic height ('Z') for region2.
                       
 Because there is a region with height:auto, a Step B is necessary. 
 
-  - Step B, Phase 1: layout region1 and region2. region1 uses an intrinsic height of 'Y', region2 uses an intrinsic height of 'Y/2'. 
+  - Step B, Phase 1: layout region1 and region2. region1 uses an intrinsic height of 'Y', region2 uses an intrinsic height of 'Z'. 
   - Step B, Phase 2: layout content in region. 
          
 ===== Example C - Edge Case A (from https://www.w3.org/Style/CSS/Tracker/actions/351) =====
