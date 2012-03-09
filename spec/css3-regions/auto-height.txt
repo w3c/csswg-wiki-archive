@@ -31,6 +31,62 @@ this model and implement the layout in fewer iterations.
 
 ==== Examples =====
 
+===== Example A ======
+
+<code>
+<style>
+#article {
+    flow-into: article;
+}
+
+#regionA {
+     width: 300ex;
+     height: auto;
+     flow-from: article;
+}
+
+</style>
+
+<div id="article">…</div>
+<div id="regionA"></div>
+</code>
+
+  - Step A, Phase 1: layout regionA. regionA uses an intrinsic size of zero.
+  - Step A, Phase 2: layout content in regions. When laying out regionA, because regionB has height:auto: 
+                      - compute the fragment that fits into the region (following fragmentation rules). 
+                      - compute the intrinsic height of the region based on the fragment content
+                      - freeze the intrinsic height ('Y') for regionB.
+                      
+Because there is a region with height:auto, a Step B is necessary. 
+
+  - Step B, Phase 1: layout regionA. regionA uses an intrinsic height of 'Y'. 
+  - Step B, Phase 2: layout content in region. 
+          
+===== Example B - Edge Case B (from https://www.w3.org/Style/CSS/Tracker/actions/351) ======
+
+<code>
+   <div style="display:flexbox">
+      <div id="region1" style="flow-from:x; flex:1"></div>
+      <div id="region2" style="flow-from:x; flex:1"></div>
+   </div>
+</code>  
+
+  - Step A, Phase 1: layout region1 and region2 using an intrinsic height of 0. 
+  - Step A, Phase 2: layout content in regions. Because region1 has height:auto, 
+                      - compute the fragment that fits into the region (following fragmentation rules). 
+                      - compute the intrinsic height of the region based on the fragment content
+                      - freeze the intrinsic height ('Y') for region1.
+     Because region1 has height:auto:
+                      - compute the fragment that fits into the region (following fragmentation rules). In this case, assuming there was a break in the flow content, we'll assume the resulting fragment is half of the first one.
+                      - compute the intrinsic height of the region based on the fragment content
+                      - freeze the intrinsic height ('Y/2') for region2.
+                      
+Because there is a region with height:auto, a Step B is necessary. 
+
+  - Step B, Phase 1: layout region1 and region2. region1 uses an intrinsic height of 'Y', region2 uses an intrinsic height of 'Y/2'. 
+  - Step B, Phase 2: layout content in region. 
+         
+===== Example C - Edge Case A (from https://www.w3.org/Style/CSS/Tracker/actions/351) =====
 <code>
 <style>
     #regionA {
