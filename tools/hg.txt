@@ -314,6 +314,8 @@ You can list the set of changesets that you have made, which have not been sent 
 
 If you have made changes, you'll see a list of all of your changesets that have not been sent to the central repository. This operation does not result in any changes to either the central repository or your local repository.
 
+TIP: When preparing to get changes from the central repository, if the "hg outgoing" command didn't list any outgoing changesets, you can sync your local repository to the central repository with a simple "hg pull -u", since you have no local changesets to merge.
+ 
 This command can be abbreviated:
   hg out
 
@@ -324,7 +326,7 @@ You can list the set of changesets that other people have made to the central re
 
 If there were changes made to the central repository, you'll see a list of those changesets. This operation does not result in any changes to either the central repository or your local repository.
 
-TIP: If the "hg incoming" command didn't list any incoming changesets, you can skip the "hg pull", "hg update", and "hg merge" steps and proceed directly to "hg push".
+TIP: When preparing to send your work to the central repository, if the "hg incoming" command didn't list any incoming changesets, you can skip the "hg pull", "hg update", and "hg merge" steps and proceed directly to "hg push" since you are already in sync with the central repository.
 
 This command can be abbreviated:
   hg in
