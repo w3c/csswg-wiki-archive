@@ -1,0 +1,79 @@
+==== Introduction ====
+
+This page documents a possible processing model for enabling heigh:auto on regions. 
+This is a work in progress and meant to help discussion and drive to an agreed upon model.
+
+==== Multi-Step process model ====
+
+The model for regions is to layout in one two steps. Each step has two phases (conceptually):
+
+  * Phase 1. Region layout. In this step, regions are laid out according to the normal CSS box model. No content is flown into the regions.
+  * Phase 2. Flow layout. In this step, content is flowed into the regions laid out in Step 1.
+
+* Step A : Initial Layout *
+
+In all cases, regions are laid out with a first step where regions which have height:0 use an intrinsic height of 0. 
+
+In Step A, if a region has an intrinsic height of 0 and had a specified heigh of auto, then the user agent does the following:
+
+  - compute the fragment of the flow that would fit in the region (i.e., following the fragmentation rules defined in CSS3 Fragmentation)
+  - compute the intrinsic height of the region based on the region's width and the fragment content.
+  - freeze the computed intrinsic height for the region.
+
+At the end of Step A, if any region had height:auto, a new two phase step happens (Step B) where the region layout happens 
+and uses the intrinsic heights computed in Step A. Then, the flow layout happens with the regions as positioned and sized in 
+phase 1 of Step B.
+
+==== Optimizations ====
+
+Even though the model contains up to two steps with two phases each, implementations can typically optimize 
+this model and implement the layout in fewer iterations.
+
+==== Examples =====
+
+<code>
+<style>
+    #regionA {
+        top: 0;
+        bottom: 0;
+        width: 100px;
+        position: absolute;
+        flow-from: article;
+    }
+    
+    #regionB {
+        flow-from: article;
+        height: 0;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    #article {
+        flow-into: article;
+    }
+    
+</style>
+
+<div id="article">…</div>
+<div id="container" style="position:relative">
+    <div id="regionA"></div>
+    <div id="regionB"></div>
+</div>
+</code>
+
+  - Step A, Phase 1: layout regionA and regionB. regionB uses an intrinsic size of zero and, as a result, 
+                     regionB's top and bottom compute to 0 and has a height of zero as well.
+  - Step A, Phase 2: layout content in regions. When laying out regionB, because regionB has height:auto: 
+                      1) compute the fragment that fits into the region (following fragmentation rules). 
+                      2) compute the intrinsic height of the region based on the fragment content
+                      3) freeze the intrinsic height ('Y') for regionB.
+                      
+Because there is a region with height:auto, a Step B is necessary. 
+
+  - Step B, Phase 1: layout regionA and regionB. regionB uses an intrinsic height of 'Y'. As a result, 
+                     regionB's bottom property's used value is 'Y'.
+  - Step B, Phase 2: layout content in region. The content will fit partially in regionA (because it has a narrower width)
+                     but will not fill in regionB completely.
+                     
