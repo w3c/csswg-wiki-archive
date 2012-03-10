@@ -229,92 +229,92 @@
 
 ==== Arrows ====
 
-^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/2195/index.htm|U+2195]]|UP DOWN ARROW|''↕''|U|
-|[[http://www.fileformat.info/info/unicode/char/2196/index.htm|U+2196]]|NORTH WEST ARROW|''↖''|U|
-|[[http://www.fileformat.info/info/unicode/char/2197/index.htm|U+2197]]|NORTH EAST ARROW|''↗''|U|
-|[[http://www.fileformat.info/info/unicode/char/2198/index.htm|U+2198]]|SOUTH EAST ARROW|''↘''|U|
-|[[http://www.fileformat.info/info/unicode/char/2199/index.htm|U+2199]]|SOUTH WEST ARROW|''↙''|U|
-|[[http://www.fileformat.info/info/unicode/char/219C/index.htm|U+219C]]|LEFTWARDS WAVE ARROW|''↜''|U|
-|[[http://www.fileformat.info/info/unicode/char/219D/index.htm|U+219D]]|RIGHTWARDS WAVE ARROW|''↝''|U|
-|[[http://www.fileformat.info/info/unicode/char/219E/index.htm|U+219E]]|LEFTWARDS TWO HEADED ARROW|''↞''|U|
-|[[http://www.fileformat.info/info/unicode/char/219F/index.htm|U+219F]]|UPWARDS TWO HEADED ARROW|''↟''|U|
-|[[http://www.fileformat.info/info/unicode/char/21A1/index.htm|U+21A1]]|DOWNWARDS TWO HEADED ARROW|''↡''|U|
-|[[http://www.fileformat.info/info/unicode/char/21A2/index.htm|U+21A2]]|LEFTWARDS ARROW WITH TAIL|''↢''|U|
-|[[http://www.fileformat.info/info/unicode/char/21A4/index.htm|U+21A4]]|LEFTWARDS ARROW FROM BAR|''↤''|U|
-|[[http://www.fileformat.info/info/unicode/char/21A5/index.htm|U+21A5]]|UPWARDS ARROW FROM BAR|''↥''|U|
-|[[http://www.fileformat.info/info/unicode/char/21A7/index.htm|U+21A7]]|DOWNWARDS ARROW FROM BAR|''↧''|U|
-|[[http://www.fileformat.info/info/unicode/char/21A8/index.htm|U+21A8]]|UP DOWN ARROW WITH BASE|''↨''|U|
-|[[http://www.fileformat.info/info/unicode/char/21A9/index.htm|U+21A9]]|LEFTWARDS ARROW WITH HOOK|''↩''|U|
-|[[http://www.fileformat.info/info/unicode/char/21AA/index.htm|U+21AA]]|RIGHTWARDS ARROW WITH HOOK|''↪''|U|
-|[[http://www.fileformat.info/info/unicode/char/21AB/index.htm|U+21AB]]|LEFTWARDS ARROW WITH LOOP|''↫''|U|
-|[[http://www.fileformat.info/info/unicode/char/21AC/index.htm|U+21AC]]|RIGHTWARDS ARROW WITH LOOP|''↬''|U|
-|[[http://www.fileformat.info/info/unicode/char/21AD/index.htm|U+21AD]]|LEFT RIGHT WAVE ARROW|''↭''|U|
-|[[http://www.fileformat.info/info/unicode/char/21AF/index.htm|U+21AF]]|DOWNWARDS ZIGZAG ARROW|''↯''|U|
-|[[http://www.fileformat.info/info/unicode/char/21B0/index.htm|U+21B0]]|UPWARDS ARROW WITH TIP LEFTWARDS|''↰''|U|
-|[[http://www.fileformat.info/info/unicode/char/21B1/index.htm|U+21B1]]|UPWARDS ARROW WITH TIP RIGHTWARDS|''↱''|U|
-|[[http://www.fileformat.info/info/unicode/char/21B2/index.htm|U+21B2]]|DOWNWARDS ARROW WITH TIP LEFTWARDS|''↲''|U|
-|[[http://www.fileformat.info/info/unicode/char/21B3/index.htm|U+21B3]]|DOWNWARDS ARROW WITH TIP RIGHTWARDS|''↳''|U|
-|[[http://www.fileformat.info/info/unicode/char/21B4/index.htm|U+21B4]]|RIGHTWARDS ARROW WITH CORNER DOWNWARDS|''↴''|U|
-|[[http://www.fileformat.info/info/unicode/char/21B5/index.htm|U+21B5]]|DOWNWARDS ARROW WITH CORNER LEFTWARDS|''↵''|U|
-|[[http://www.fileformat.info/info/unicode/char/21B6/index.htm|U+21B6]]|ANTICLOCKWISE TOP SEMICIRCLE ARROW|''↶''|U|
-|[[http://www.fileformat.info/info/unicode/char/21B7/index.htm|U+21B7]]|CLOCKWISE TOP SEMICIRCLE ARROW|''↷''|U|
-|[[http://www.fileformat.info/info/unicode/char/21B8/index.htm|U+21B8]]|NORTH WEST ARROW TO LONG BAR|''↸''|U|
-|[[http://www.fileformat.info/info/unicode/char/21B9/index.htm|U+21B9]]|LEFTWARDS ARROW TO BAR OVER RIGHTWARDS ARROW TO BAR|''↹''|U|
-|[[http://www.fileformat.info/info/unicode/char/21BA/index.htm|U+21BA]]|ANTICLOCKWISE OPEN CIRCLE ARROW|''↺''|U|
-|[[http://www.fileformat.info/info/unicode/char/21BB/index.htm|U+21BB]]|CLOCKWISE OPEN CIRCLE ARROW|''↻''|U|
-|[[http://www.fileformat.info/info/unicode/char/21BC/index.htm|U+21BC]]|LEFTWARDS HARPOON WITH BARB UPWARDS|''↼''|U|
-|[[http://www.fileformat.info/info/unicode/char/21BD/index.htm|U+21BD]]|LEFTWARDS HARPOON WITH BARB DOWNWARDS|''↽''|U|
-|[[http://www.fileformat.info/info/unicode/char/21BE/index.htm|U+21BE]]|UPWARDS HARPOON WITH BARB RIGHTWARDS|''↾''|U|
-|[[http://www.fileformat.info/info/unicode/char/21BF/index.htm|U+21BF]]|UPWARDS HARPOON WITH BARB LEFTWARDS|''↿''|U|
-|[[http://www.fileformat.info/info/unicode/char/21C0/index.htm|U+21C0]]|RIGHTWARDS HARPOON WITH BARB UPWARDS|''⇀''|U|
-|[[http://www.fileformat.info/info/unicode/char/21C1/index.htm|U+21C1]]|RIGHTWARDS HARPOON WITH BARB DOWNWARDS|''⇁''|U|
-|[[http://www.fileformat.info/info/unicode/char/21C2/index.htm|U+21C2]]|DOWNWARDS HARPOON WITH BARB RIGHTWARDS|''⇂''|U|
-|[[http://www.fileformat.info/info/unicode/char/21C3/index.htm|U+21C3]]|DOWNWARDS HARPOON WITH BARB LEFTWARDS|''⇃''|U|
-|[[http://www.fileformat.info/info/unicode/char/21C4/index.htm|U+21C4]]|RIGHTWARDS ARROW OVER LEFTWARDS ARROW|''⇄''|U|
-|[[http://www.fileformat.info/info/unicode/char/21C5/index.htm|U+21C5]]|UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW|''⇅''|U|
-|[[http://www.fileformat.info/info/unicode/char/21C6/index.htm|U+21C6]]|LEFTWARDS ARROW OVER RIGHTWARDS ARROW|''⇆''|U|
-|[[http://www.fileformat.info/info/unicode/char/21C7/index.htm|U+21C7]]|LEFTWARDS PAIRED ARROWS|''⇇''|U|
-|[[http://www.fileformat.info/info/unicode/char/21C8/index.htm|U+21C8]]|UPWARDS PAIRED ARROWS|''⇈''|U|
-|[[http://www.fileformat.info/info/unicode/char/21C9/index.htm|U+21C9]]|RIGHTWARDS PAIRED ARROWS|''⇉''|U|
-|[[http://www.fileformat.info/info/unicode/char/21CA/index.htm|U+21CA]]|DOWNWARDS PAIRED ARROWS|''⇊''|U|
-|[[http://www.fileformat.info/info/unicode/char/21CB/index.htm|U+21CB]]|LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON|''⇋''|U|
-|[[http://www.fileformat.info/info/unicode/char/21CC/index.htm|U+21CC]]|RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON|''⇌''|U|
-|[[http://www.fileformat.info/info/unicode/char/21CD/index.htm|U+21CD]]|LEFTWARDS DOUBLE ARROW WITH STROKE|''⇍''|U|
-|[[http://www.fileformat.info/info/unicode/char/21D0/index.htm|U+21D0]]|LEFTWARDS DOUBLE ARROW|''⇐''|U|
-|[[http://www.fileformat.info/info/unicode/char/21D1/index.htm|U+21D1]]|UPWARDS DOUBLE ARROW|''⇑''|U|
-|[[http://www.fileformat.info/info/unicode/char/21D3/index.htm|U+21D3]]|DOWNWARDS DOUBLE ARROW|''⇓''|U|
-|[[http://www.fileformat.info/info/unicode/char/21D5/index.htm|U+21D5]]|UP DOWN DOUBLE ARROW|''⇕''|U|
-|[[http://www.fileformat.info/info/unicode/char/21D6/index.htm|U+21D6]]|NORTH WEST DOUBLE ARROW|''⇖''|U|
-|[[http://www.fileformat.info/info/unicode/char/21D7/index.htm|U+21D7]]|NORTH EAST DOUBLE ARROW|''⇗''|U|
-|[[http://www.fileformat.info/info/unicode/char/21D8/index.htm|U+21D8]]|SOUTH EAST DOUBLE ARROW|''⇘''|U|
-|[[http://www.fileformat.info/info/unicode/char/21D9/index.htm|U+21D9]]|SOUTH WEST DOUBLE ARROW|''⇙''|U|
-|[[http://www.fileformat.info/info/unicode/char/21DA/index.htm|U+21DA]]|LEFTWARDS TRIPLE ARROW|''⇚''|U|
-|[[http://www.fileformat.info/info/unicode/char/21DB/index.htm|U+21DB]]|RIGHTWARDS TRIPLE ARROW|''⇛''|U|
-|[[http://www.fileformat.info/info/unicode/char/21DC/index.htm|U+21DC]]|LEFTWARDS SQUIGGLE ARROW|''⇜''|U|
-|[[http://www.fileformat.info/info/unicode/char/21DD/index.htm|U+21DD]]|RIGHTWARDS SQUIGGLE ARROW|''⇝''|U|
-|[[http://www.fileformat.info/info/unicode/char/21DE/index.htm|U+21DE]]|UPWARDS ARROW WITH DOUBLE STROKE|''⇞''|U|
-|[[http://www.fileformat.info/info/unicode/char/21DF/index.htm|U+21DF]]|DOWNWARDS ARROW WITH DOUBLE STROKE|''⇟''|U|
-|[[http://www.fileformat.info/info/unicode/char/21E0/index.htm|U+21E0]]|LEFTWARDS DASHED ARROW|''⇠''|U|
-|[[http://www.fileformat.info/info/unicode/char/21E1/index.htm|U+21E1]]|UPWARDS DASHED ARROW|''⇡''|U|
-|[[http://www.fileformat.info/info/unicode/char/21E2/index.htm|U+21E2]]|RIGHTWARDS DASHED ARROW|''⇢''|U|
-|[[http://www.fileformat.info/info/unicode/char/21E3/index.htm|U+21E3]]|DOWNWARDS DASHED ARROW|''⇣''|U|
-|[[http://www.fileformat.info/info/unicode/char/21E4/index.htm|U+21E4]]|LEFTWARDS ARROW TO BAR|''⇤''|U|
-|[[http://www.fileformat.info/info/unicode/char/21E5/index.htm|U+21E5]]|RIGHTWARDS ARROW TO BAR|''⇥''|U|
-|[[http://www.fileformat.info/info/unicode/char/21E6/index.htm|U+21E6]]|LEFTWARDS WHITE ARROW|''⇦''|U|
-|[[http://www.fileformat.info/info/unicode/char/21E7/index.htm|U+21E7]]|UPWARDS WHITE ARROW|''⇧''|U|
-|[[http://www.fileformat.info/info/unicode/char/21E8/index.htm|U+21E8]]|RIGHTWARDS WHITE ARROW|''⇨''|U|
-|[[http://www.fileformat.info/info/unicode/char/21E9/index.htm|U+21E9]]|DOWNWARDS WHITE ARROW|''⇩''|U|
-|[[http://www.fileformat.info/info/unicode/char/21EA/index.htm|U+21EA]]|UPWARDS WHITE ARROW FROM BAR|''⇪''|U|
-|[[http://www.fileformat.info/info/unicode/char/21EB/index.htm|U+21EB]]|UPWARDS WHITE ARROW ON PEDESTAL|''⇫''|U|
-|[[http://www.fileformat.info/info/unicode/char/21EC/index.htm|U+21EC]]|UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR|''⇬''|U|
-|[[http://www.fileformat.info/info/unicode/char/21ED/index.htm|U+21ED]]|UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR|''⇭''|U|
-|[[http://www.fileformat.info/info/unicode/char/21EE/index.htm|U+21EE]]|UPWARDS WHITE DOUBLE ARROW|''⇮''|U|
-|[[http://www.fileformat.info/info/unicode/char/21EF/index.htm|U+21EF]]|UPWARDS WHITE DOUBLE ARROW ON PEDESTAL|''⇯''|U|
-|[[http://www.fileformat.info/info/unicode/char/21F0/index.htm|U+21F0]]|RIGHTWARDS WHITE ARROW FROM WALL|''⇰''|U|
-|[[http://www.fileformat.info/info/unicode/char/21F1/index.htm|U+21F1]]|NORTH WEST ARROW TO CORNER|''⇱''|U|
-|[[http://www.fileformat.info/info/unicode/char/21F2/index.htm|U+21F2]]|SOUTH EAST ARROW TO CORNER|''⇲''|U|
-|[[http://www.fileformat.info/info/unicode/char/21F3/index.htm|U+21F3]]|UP DOWN WHITE ARROW|''⇳''|U|
+^Code^Description^Char^Stack^Mixed^Memo^
+|[[http://www.fileformat.info/info/unicode/char/2195/index.htm|U+2195]]|UP DOWN ARROW|''↕''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2196/index.htm|U+2196]]|NORTH WEST ARROW|''↖''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2197/index.htm|U+2197]]|NORTH EAST ARROW|''↗''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2198/index.htm|U+2198]]|SOUTH EAST ARROW|''↘''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2199/index.htm|U+2199]]|SOUTH WEST ARROW|''↙''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/219C/index.htm|U+219C]]|LEFTWARDS WAVE ARROW|''↜''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/219D/index.htm|U+219D]]|RIGHTWARDS WAVE ARROW|''↝''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/219E/index.htm|U+219E]]|LEFTWARDS TWO HEADED ARROW|''↞''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/219F/index.htm|U+219F]]|UPWARDS TWO HEADED ARROW|''↟''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21A1/index.htm|U+21A1]]|DOWNWARDS TWO HEADED ARROW|''↡''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21A2/index.htm|U+21A2]]|LEFTWARDS ARROW WITH TAIL|''↢''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21A4/index.htm|U+21A4]]|LEFTWARDS ARROW FROM BAR|''↤''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21A5/index.htm|U+21A5]]|UPWARDS ARROW FROM BAR|''↥''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21A7/index.htm|U+21A7]]|DOWNWARDS ARROW FROM BAR|''↧''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21A8/index.htm|U+21A8]]|UP DOWN ARROW WITH BASE|''↨''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21A9/index.htm|U+21A9]]|LEFTWARDS ARROW WITH HOOK|''↩''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21AA/index.htm|U+21AA]]|RIGHTWARDS ARROW WITH HOOK|''↪''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21AB/index.htm|U+21AB]]|LEFTWARDS ARROW WITH LOOP|''↫''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21AC/index.htm|U+21AC]]|RIGHTWARDS ARROW WITH LOOP|''↬''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21AD/index.htm|U+21AD]]|LEFT RIGHT WAVE ARROW|''↭''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21AF/index.htm|U+21AF]]|DOWNWARDS ZIGZAG ARROW|''↯''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21B0/index.htm|U+21B0]]|UPWARDS ARROW WITH TIP LEFTWARDS|''↰''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21B1/index.htm|U+21B1]]|UPWARDS ARROW WITH TIP RIGHTWARDS|''↱''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21B2/index.htm|U+21B2]]|DOWNWARDS ARROW WITH TIP LEFTWARDS|''↲''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21B3/index.htm|U+21B3]]|DOWNWARDS ARROW WITH TIP RIGHTWARDS|''↳''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21B4/index.htm|U+21B4]]|RIGHTWARDS ARROW WITH CORNER DOWNWARDS|''↴''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21B5/index.htm|U+21B5]]|DOWNWARDS ARROW WITH CORNER LEFTWARDS|''↵''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21B6/index.htm|U+21B6]]|ANTICLOCKWISE TOP SEMICIRCLE ARROW|''↶''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21B7/index.htm|U+21B7]]|CLOCKWISE TOP SEMICIRCLE ARROW|''↷''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21B8/index.htm|U+21B8]]|NORTH WEST ARROW TO LONG BAR|''↸''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21B9/index.htm|U+21B9]]|LEFTWARDS ARROW TO BAR OVER RIGHTWARDS ARROW TO BAR|''↹''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21BA/index.htm|U+21BA]]|ANTICLOCKWISE OPEN CIRCLE ARROW|''↺''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21BB/index.htm|U+21BB]]|CLOCKWISE OPEN CIRCLE ARROW|''↻''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21BC/index.htm|U+21BC]]|LEFTWARDS HARPOON WITH BARB UPWARDS|''↼''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21BD/index.htm|U+21BD]]|LEFTWARDS HARPOON WITH BARB DOWNWARDS|''↽''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21BE/index.htm|U+21BE]]|UPWARDS HARPOON WITH BARB RIGHTWARDS|''↾''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21BF/index.htm|U+21BF]]|UPWARDS HARPOON WITH BARB LEFTWARDS|''↿''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21C0/index.htm|U+21C0]]|RIGHTWARDS HARPOON WITH BARB UPWARDS|''⇀''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21C1/index.htm|U+21C1]]|RIGHTWARDS HARPOON WITH BARB DOWNWARDS|''⇁''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21C2/index.htm|U+21C2]]|DOWNWARDS HARPOON WITH BARB RIGHTWARDS|''⇂''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21C3/index.htm|U+21C3]]|DOWNWARDS HARPOON WITH BARB LEFTWARDS|''⇃''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21C4/index.htm|U+21C4]]|RIGHTWARDS ARROW OVER LEFTWARDS ARROW|''⇄''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21C5/index.htm|U+21C5]]|UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW|''⇅''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21C6/index.htm|U+21C6]]|LEFTWARDS ARROW OVER RIGHTWARDS ARROW|''⇆''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21C7/index.htm|U+21C7]]|LEFTWARDS PAIRED ARROWS|''⇇''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21C8/index.htm|U+21C8]]|UPWARDS PAIRED ARROWS|''⇈''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21C9/index.htm|U+21C9]]|RIGHTWARDS PAIRED ARROWS|''⇉''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21CA/index.htm|U+21CA]]|DOWNWARDS PAIRED ARROWS|''⇊''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21CB/index.htm|U+21CB]]|LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON|''⇋''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21CC/index.htm|U+21CC]]|RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON|''⇌''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21CD/index.htm|U+21CD]]|LEFTWARDS DOUBLE ARROW WITH STROKE|''⇍''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21D0/index.htm|U+21D0]]|LEFTWARDS DOUBLE ARROW|''⇐''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21D1/index.htm|U+21D1]]|UPWARDS DOUBLE ARROW|''⇑''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21D3/index.htm|U+21D3]]|DOWNWARDS DOUBLE ARROW|''⇓''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21D5/index.htm|U+21D5]]|UP DOWN DOUBLE ARROW|''⇕''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21D6/index.htm|U+21D6]]|NORTH WEST DOUBLE ARROW|''⇖''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21D7/index.htm|U+21D7]]|NORTH EAST DOUBLE ARROW|''⇗''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21D8/index.htm|U+21D8]]|SOUTH EAST DOUBLE ARROW|''⇘''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21D9/index.htm|U+21D9]]|SOUTH WEST DOUBLE ARROW|''⇙''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21DA/index.htm|U+21DA]]|LEFTWARDS TRIPLE ARROW|''⇚''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21DB/index.htm|U+21DB]]|RIGHTWARDS TRIPLE ARROW|''⇛''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21DC/index.htm|U+21DC]]|LEFTWARDS SQUIGGLE ARROW|''⇜''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21DD/index.htm|U+21DD]]|RIGHTWARDS SQUIGGLE ARROW|''⇝''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21DE/index.htm|U+21DE]]|UPWARDS ARROW WITH DOUBLE STROKE|''⇞''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21DF/index.htm|U+21DF]]|DOWNWARDS ARROW WITH DOUBLE STROKE|''⇟''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21E0/index.htm|U+21E0]]|LEFTWARDS DASHED ARROW|''⇠''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21E1/index.htm|U+21E1]]|UPWARDS DASHED ARROW|''⇡''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21E2/index.htm|U+21E2]]|RIGHTWARDS DASHED ARROW|''⇢''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21E3/index.htm|U+21E3]]|DOWNWARDS DASHED ARROW|''⇣''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21E4/index.htm|U+21E4]]|LEFTWARDS ARROW TO BAR|''⇤''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21E5/index.htm|U+21E5]]|RIGHTWARDS ARROW TO BAR|''⇥''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21E6/index.htm|U+21E6]]|LEFTWARDS WHITE ARROW|''⇦''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21E7/index.htm|U+21E7]]|UPWARDS WHITE ARROW|''⇧''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21E8/index.htm|U+21E8]]|RIGHTWARDS WHITE ARROW|''⇨''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21E9/index.htm|U+21E9]]|DOWNWARDS WHITE ARROW|''⇩''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21EA/index.htm|U+21EA]]|UPWARDS WHITE ARROW FROM BAR|''⇪''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21EB/index.htm|U+21EB]]|UPWARDS WHITE ARROW ON PEDESTAL|''⇫''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21EC/index.htm|U+21EC]]|UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR|''⇬''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21ED/index.htm|U+21ED]]|UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR|''⇭''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21EE/index.htm|U+21EE]]|UPWARDS WHITE DOUBLE ARROW|''⇮''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21EF/index.htm|U+21EF]]|UPWARDS WHITE DOUBLE ARROW ON PEDESTAL|''⇯''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21F0/index.htm|U+21F0]]|RIGHTWARDS WHITE ARROW FROM WALL|''⇰''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21F1/index.htm|U+21F1]]|NORTH WEST ARROW TO CORNER|''⇱''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21F2/index.htm|U+21F2]]|SOUTH EAST ARROW TO CORNER|''⇲''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/21F3/index.htm|U+21F3]]|UP DOWN WHITE ARROW|''⇳''|U|R|
 
 ==== Miscellaneous Symbols ====
 
