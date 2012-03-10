@@ -40,7 +40,7 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/058a/index.htm|U+058A]]|ARMENIAN HYPHEN|֊|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/05be/index.htm|U+05BE]]|HEBREW PUNCTUATION MAQAF|־|U|:?: :?: DVO=S|
 |[[http://www.fileformat.info/info/unicode/char/1400/index.htm|U+1400]]|CANADIAN SYLLABICS HYPHEN|᐀|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
-|[[http://www.fileformat.info/info/unicode/char/1806/index.htm|U+1806]]|MONGOLIAN TODO SOFT HYPHEN|᠆|R|Mongolian is always sideways ?:? DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1806/index.htm|U+1806]]|MONGOLIAN TODO SOFT HYPHEN|᠆|V|Mongolian is always sideways ?:? DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/2010/index.htm|U+2010]]|HYPHEN|‐|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/2011/index.htm|U+2011]]|NON-BREAKING HYPHEN|‑|U|Hyphens are upright :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/2012/index.htm|U+2012]]|FIGURE DASH|‒|R|Dashes are sideways|
@@ -254,7 +254,7 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/0020/index.htm|U+0020]]|SPACE|'' ''|U :?: DVO=S|
 |[[http://www.fileformat.info/info/unicode/char/00a0/index.htm|U+00A0]]|NO-BREAK SPACE|'' ''|U :?: DVO=S|
 |[[http://www.fileformat.info/info/unicode/char/1680/index.htm|U+1680]]|OGHAM SPACE MARK|'' ''|R|Ogham is sideways :?: DVO=S|
-|[[http://www.fileformat.info/info/unicode/char/180e/index.htm|U+180E]]|MONGOLIAN VOWEL SEPARATOR|''᠎''|R|Mongolian is sideways :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/180e/index.htm|U+180E]]|MONGOLIAN VOWEL SEPARATOR|''᠎''|V|Mongolian is sideways :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/2000/index.htm|U+2000]]|EN QUAD|'' ''|U :?: DVO=S|
 |[[http://www.fileformat.info/info/unicode/char/2001/index.htm|U+2001]]|EM QUAD|'' ''|U :?: DVO=S|
 |[[http://www.fileformat.info/info/unicode/char/2002/index.htm|U+2002]]|EN SPACE|'' ''|U :?: DVO=S|
@@ -558,16 +558,16 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/17d8/index.htm|U+17D8]]|KHMER SIGN BEYYAL|៘|U|
 |[[http://www.fileformat.info/info/unicode/char/17d9/index.htm|U+17D9]]|KHMER SIGN PHNAEK MUAN|៙|U|
 |[[http://www.fileformat.info/info/unicode/char/17da/index.htm|U+17DA]]|KHMER SIGN KOOMUUT|៚|U|
-|[[http://www.fileformat.info/info/unicode/char/1800/index.htm|U+1800]]|MONGOLIAN BIRGA|᠀|R|Match Mongolian letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/1801/index.htm|U+1801]]|MONGOLIAN ELLIPSIS|᠁|R|Match Mongolian letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/1802/index.htm|U+1802]]|MONGOLIAN COMMA|᠂|R|Match Mongolian letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/1803/index.htm|U+1803]]|MONGOLIAN FULL STOP|᠃|R|Match Mongolian letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/1804/index.htm|U+1804]]|MONGOLIAN COLON|᠄|R|Match Mongolian letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/1805/index.htm|U+1805]]|MONGOLIAN FOUR DOTS|᠅|R|Match Mongolian letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/1807/index.htm|U+1807]]|MONGOLIAN SIBE SYLLABLE BOUNDARY MARKER|᠇|R|Match Mongolian letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/1808/index.htm|U+1808]]|MONGOLIAN MANCHU COMMA|᠈|R|Match Mongolian letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/1809/index.htm|U+1809]]|MONGOLIAN MANCHU FULL STOP|᠉|R|Match Mongolian letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/180a/index.htm|U+180A]]|MONGOLIAN NIRUGU|᠊|R|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1800/index.htm|U+1800]]|MONGOLIAN BIRGA|᠀|V|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1801/index.htm|U+1801]]|MONGOLIAN ELLIPSIS|᠁|V|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1802/index.htm|U+1802]]|MONGOLIAN COMMA|᠂|V|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1803/index.htm|U+1803]]|MONGOLIAN FULL STOP|᠃|V|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1804/index.htm|U+1804]]|MONGOLIAN COLON|᠄|V|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1805/index.htm|U+1805]]|MONGOLIAN FOUR DOTS|᠅|V|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1807/index.htm|U+1807]]|MONGOLIAN SIBE SYLLABLE BOUNDARY MARKER|᠇|V|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1808/index.htm|U+1808]]|MONGOLIAN MANCHU COMMA|᠈|V|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/1809/index.htm|U+1809]]|MONGOLIAN MANCHU FULL STOP|᠉|V|Match Mongolian letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/180a/index.htm|U+180A]]|MONGOLIAN NIRUGU|᠊|V|Match Mongolian letters :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/1944/index.htm|U+1944]]|LIMBU EXCLAMATION MARK|᥄|U|
 |[[http://www.fileformat.info/info/unicode/char/1945/index.htm|U+1945]]|LIMBU QUESTION MARK|᥅|U|
 |[[http://www.fileformat.info/info/unicode/char/1a1e/index.htm|U+1A1E]]|BUGINESE PALLAWA|᨞|U|
@@ -632,10 +632,10 @@ We propose to make all spaces upright in ''upright/stacked'' mode.
 |[[http://www.fileformat.info/info/unicode/char/a6f5/index.htm|U+A6F5]]|BAMUM COMMA|꛵|U|
 |[[http://www.fileformat.info/info/unicode/char/a6f6/index.htm|U+A6F6]]|BAMUM SEMICOLON|꛶|U|
 |[[http://www.fileformat.info/info/unicode/char/a6f7/index.htm|U+A6F7]]|BAMUM QUESTION MARK|꛷|U|
-|[[http://www.fileformat.info/info/unicode/char/a874/index.htm|U+A874]]|PHAGS-PA SINGLE HEAD MARK|꡴|R|Match Phags-pa letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/a875/index.htm|U+A875]]|PHAGS-PA DOUBLE HEAD MARK|꡵|R|Match Phags-pa letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/a876/index.htm|U+A876]]|PHAGS-PA MARK SHAD|꡶|R|Match Phags-pa letters :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/a877/index.htm|U+A877]]|PHAGS-PA MARK DOUBLE SHAD|꡷|R|Match Phags-pa letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/a874/index.htm|U+A874]]|PHAGS-PA SINGLE HEAD MARK|꡴|V|Match Phags-pa letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/a875/index.htm|U+A875]]|PHAGS-PA DOUBLE HEAD MARK|꡵|V|Match Phags-pa letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/a876/index.htm|U+A876]]|PHAGS-PA MARK SHAD|꡶|V|Match Phags-pa letters :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/a877/index.htm|U+A877]]|PHAGS-PA MARK DOUBLE SHAD|꡷|V|Match Phags-pa letters :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/a8ce/index.htm|U+A8CE]]|SAURASHTRA DANDA|꣎|U|
 |[[http://www.fileformat.info/info/unicode/char/a8cf/index.htm|U+A8CF]]|SAURASHTRA DOUBLE DANDA|꣏|U|
 |[[http://www.fileformat.info/info/unicode/char/a8f8/index.htm|U+A8F8]]|DEVANAGARI SIGN PUSHPIKA|꣸|U|
