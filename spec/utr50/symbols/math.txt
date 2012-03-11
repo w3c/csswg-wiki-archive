@@ -18,7 +18,7 @@ Since S* is a large set, they're split among pages:
   * Symbol, Math (Sm) in this page
   * Symbol, Other (So)
     * [[spec:utr50:so]]
-    * [[spec:utr50:so2]]
+    * [[pictographs]]
     * [[spec:utr50:so3]]
     * [[ancient]]
     * [[game]]
