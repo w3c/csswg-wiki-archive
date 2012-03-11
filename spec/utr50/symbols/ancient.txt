@@ -21,7 +21,7 @@ Since S* is a large set, they're split among pages:
     * [[spec:utr50:so2]]
     * [[spec:utr50:so3]]
     * [[spec:utr50:so4]]
-    * [[spec:utr50:so5]]
+    * [[game]]
     * [[spec:utr50:so6]]
 
 ==== Aegean Numbers ====
