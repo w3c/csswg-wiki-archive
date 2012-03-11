@@ -12,18 +12,6 @@ Category Codes:
 
 Two modes are presented: Stacking (''text-orientation: upright'') and Default (TBD).
 
-Since S* is a large set, they're split among pages:
-  * [[spec:utr50:symbols#Symbol, Currency (Sc)]]
-  * [[spec:utr50:symbols#Symbol, Modifier (Sk)]]
-  * [[math]]
-  * Symbol, Other (So)
-    * [[spec:utr50:so]]
-    * [[pictographs]]
-    * [[cjk]]
-    * [[ancient]]
-    * [[game]]
-    * [[technical]]
-
 ===== General/Latin =====
 
 ==== Letterlike Symbols ====
