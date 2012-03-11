@@ -17,7 +17,7 @@ Since S* is a large set, they're split among pages:
   * [[spec:utr50:symbols#Symbol, Modifier (Sk)]]
   * [[math]]
   * Symbol, Other (So)
-    * [[spec:utr50:so]]
+    * [[textual]]
     * [[pictographs]]
     * [[cjk]]
     * [[ancient]]
