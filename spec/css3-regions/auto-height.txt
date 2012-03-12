@@ -3,7 +3,7 @@
 This page documents a possible processing model for enabling height:auto on regions. 
 This is a work in progress and meant to help discussion and drive to an agreed upon model.
 
-==== Multi-Step process model ====
+==== Multi-Step processing model ====
 
 The model for regions is to layout in at most two steps. Each step has two phases (conceptually):
 
