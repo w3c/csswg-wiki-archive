@@ -66,7 +66,7 @@ Because there is a region with height:auto, a Step B is necessary.
 
 <code>
    <div style="display:flexbox">
-      <div id="region1" style="flow-from:x; flex:1"></div>
+      <div id="region1" style="flow-from:x; flex:2"></div>
       <div id="region2" style="flow-from:x; flex:1"></div>
    </div>
 </code>  
