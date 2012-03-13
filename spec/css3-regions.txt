@@ -16,6 +16,7 @@ Code Samples
 
   * [[spec:css3-regions:auto-height|height:auto processing model]]
   * [[spec:css3-regions:regions-styling|region styling alternate syntax]]
+  * [[spec:css3-regions:css-om|]]
 
 Use cases
 
