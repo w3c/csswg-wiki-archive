@@ -42,7 +42,7 @@ boxes (getClientRects).
 
 The current definition seems appropriate for CSS regions and the multiple boxes generated
 for an element flowing through multiple regions. The getClientRects method would return the list of boxes for the 
-element found in the different regions. The <code>getBoundingClientRect</code> would work as specified.
+element found in the different regions. The getBoundingClientRect method would work as specified.
 
 == offsetWidth/offsetHeight/offsetTop/offsetLeft ==
 
