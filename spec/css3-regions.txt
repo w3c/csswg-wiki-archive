@@ -14,6 +14,9 @@ Code Samples
 
 {{:spec:regions-nightly-samples.zip|}}
 
+[[spec:css3-regions:auto-height|height:auto processing model]]
+[[spec:css3-regions:regions-styling|region styling alternate syntax]]
+
 Use cases
 
 [[spec:css3-regions:regions-use-cases|CSS Regions and Exclusions Use Cases]]
