@@ -13,6 +13,24 @@ interface Region {
 };              
 </code>
 
+== NamedFlow interface changes ==
+
+Changes:
+  - Ordered List ItemThe getRegionsByContentNode method now returns a static array of Regions, not a live NodeList.
+  - The contentNodes attribute now returns a static list of nodes. Should this be changed to 'getContentNodes()' to make this more obvious to the user?
+  - 
+
+<code>
+interface NamedFlow {
+  readonly attribute DOMString name;
+  readonly attribute boolean overflow;
+  
+  Region[] getRegions();
+  Region[] getContentNodes();
+  Region[] getRegionsByContentNode(Node node);
+};
+</code>
+
 === Flowed content boxes and DOM access ===
 
 == getClientRects and getBoundingClientRects ==
