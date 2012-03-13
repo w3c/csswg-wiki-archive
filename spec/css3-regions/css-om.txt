@@ -26,8 +26,8 @@ interface NamedFlow {
   readonly attribute DOMString name;
   readonly attribute boolean overflow;
   
-  Region[] getRegions();
-  Region[] getContentNodes();
+  getter Region[] getRegions();
+  getter Region[] getContentNodes();
   Region[] getRegionsByContentNode(Node node);
 };
 </code>
