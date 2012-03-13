@@ -14,8 +14,8 @@ Code Samples
 
 {{:spec:regions-nightly-samples.zip|}}
 
-  * Unordered List Item[[spec:css3-regions:auto-height|height:auto processing model]]
-  * Unordered List Item[[spec:css3-regions:regions-styling|region styling alternate syntax]]
+  * [[spec:css3-regions:auto-height|height:auto processing model]]
+  * [[spec:css3-regions:regions-styling|region styling alternate syntax]]
 
 Use cases
 
