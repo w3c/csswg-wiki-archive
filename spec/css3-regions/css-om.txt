@@ -8,6 +8,10 @@ See https://www.w3.org/Bugs/Public/show_bug.cgi?id=14948
 
 See https://www.w3.org/Bugs/Public/show_bug.cgi?id=15879
 
+=== attach events to NamedFlow ===
+
+See https://www.w3.org/Bugs/Public/show_bug.cgi?id=15938
+
 === Access to flow content (suggested CSS OM Changes) ===
 
 Changes proposed here follow the [[http://lists.w3.org/Archives/Public/www-style/2012Feb/1354.html|discussion]] on the mailing list.
