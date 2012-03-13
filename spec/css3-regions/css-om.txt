@@ -16,7 +16,7 @@ See https://www.w3.org/Bugs/Public/show_bug.cgi?id=15938
 
 Changes proposed here follow the [[http://lists.w3.org/Archives/Public/www-style/2012Feb/1354.html|discussion]] on the mailing list.
 They also address the following bugs:
-  * [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=16286] NamedFlow should return a static node list]
+  *  [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=16286|Issue 16286: NamedFlow should return a static node list]]
  
 == Region interface ==
 
