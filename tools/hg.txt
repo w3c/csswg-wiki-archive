@@ -40,6 +40,7 @@ Create a file in your home directory called ".hgrc", or "%USERPROFILE%\mercurial
   [extensions]
   rebase = 
   mq = 
+  graphlog = 
   
   [auth]
   # CSSWG Test Repository
