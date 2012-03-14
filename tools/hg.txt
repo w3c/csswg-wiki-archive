@@ -79,7 +79,7 @@ Note that these fingerprints will only be valid until the certificates expire in
 
 The first step is to clone the central repository to your own machine.
 
-** CSSWG Test Repository **
+** CSSWG Test Suite Repository **
   hg clone https://hg.csswg.org/test/
 
 ** CSSWG Spec Repository **
@@ -92,6 +92,14 @@ Once this command is complete, you now have a working directory that also contai
 
 Note: By default, the working directory name will match the name of the central repository on the server (the last path component of the URL). If you want to use a different name for your working directory, enter it at the end of the clone command, e.g.:
   hg clone https://dvcs.w3.org/hg/csswg/ specs
+  
+==== Obtaining Write Access To The Repositories ====
+
+All of our repositories are readable by anyone. Permission to write (i.e. push) into the repositories is restricted to certain users.
+
+Access to the CSSWG Test Suite Repository is based on your account for this wiki. By default, all CSSWG members should have write access. Other contributors to the Test Suite Repository need to ask for access. If you do not yet have an account on this wiki, please create one now and then email [[mailto:peter.linss@hp.com|Peter]] or [[http://fantasai.inkedblade.net/contact|fantasai]] to have the proper permissions set on your wiki account.
+
+Access to the CSSWG or FXTF Spec Repositories is controlled by your W3C user account. All CSSWG members should have write access to the CSSWG Spec Repository, all CSSWG and SVGWG members should have write access to the FXTF Spec Repository. If you're not a member of the appropriate group and need write access, please email [[mailto:peter.linss@hp.com|Peter]].
 
 ===== Working With Mercurial =====
 
