@@ -29,7 +29,7 @@ can be interpreted as specifying an additional property for the:
 we are able to identify regions uniquely and uniformly (i.e., no matter whether 
 they are elements or not). Note the pseudo-element syntax uses an identifier and the @region rule uses an id selector).
 
-For the sake of the discussion, we can assume we are using the property 'region-id' to set a region identifier. For example, if 
+For the sake of the discussion, we can assume we are using the 'region-name' property to set a region identity. For example, if 
 the region was a '::before' pseudo-element:
 
 <code>
