@@ -27,6 +27,9 @@ to rename the 'regionOverflow' property to 'flowConsumed' with the following val
   * empty: the region does not consume any of the flow content, but there is more flow content left.
   * none: the region does not consume any flow content because all content has been fitted in previous regions.
 
+The 'empty' value may be superfluous since it is possible to know if a region has no content range (with the getFlowContentRanges).
+Therefore, we might just use the some/remainder/node values and allow some to cover both cases described above.
+
 === Access to flow content (suggested CSS OM Changes) ===
 
 Changes proposed here follow the [[http://lists.w3.org/Archives/Public/www-style/2012Feb/1354.html|discussion]] on the mailing list.
