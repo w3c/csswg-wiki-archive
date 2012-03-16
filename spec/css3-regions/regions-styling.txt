@@ -1,4 +1,6 @@
-==== Region Styling ====
+==== Region Styling: Proposed alternate syntax ====
+
+== Problem Description ==
 
 With regions, element (or pseudo-element) boxes are often broken into multiple pieces that are laid out in different regions. 
 For example, it is possible to move an element and its generated box with width:100% to a flow and 
@@ -25,8 +27,10 @@ For example:
 
 can be interpreted as specifying an additional property for the:
 
-<code>h2:in-region(regionA)</code> pseudo-element. This assumes that 
-we are able to identify regions uniquely and uniformly (i.e., no matter whether 
+<code>h2::in-region(regionA)</code> pseudo-element, where the '::in-region(<region-name>)' 
+pseudo-element selects the fragment of 'h2' that fits into '<region-name>'.
+
+This assumes that we are able to identify regions uniquely and uniformly (i.e., no matter whether 
 they are elements or not). Note the pseudo-element syntax uses an identifier and the @region rule uses an id selector).
 
 For the sake of the discussion, we can assume we are using the 'region-name' property to set a region identity. For example, if 
@@ -43,6 +47,21 @@ If we follow that model, the used style for the content falling into a particula
 <code>
 window.getComputedStyle(elementInFlow,'::in-region(regionA)');
 </code>
+
+The issues with the current @region rule are:
+
+  - requires additional DOM method
+  - is not consistent with ::first-line and other existing pseudo-elements which select a fragment of an element
+  - inconsistency between the CSS syntax (@region) and the getComputedStyle calls (use '::in-region' or equivalent)
+
+=== Proposal ===
+
+Modify the region styling syntax to be consistent with existing 'fragment' selectors:
+
+  - Add a 'region-name' property to assign a name to a region
+  - Introduce the '::in-region(<region-name>)' pseudo-element
+  - use the pseudo-element instead of the @region rule and use that pseudo-element to access the used style with getComputedStyle.
+
 
 === Open questions ===
 
