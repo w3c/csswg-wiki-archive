@@ -18,7 +18,7 @@ a particular region.
 For example:
 
 <code>
-@region #regionA {
+@region #myDiv {
     h2 {
         color: red;
     }
@@ -33,11 +33,10 @@ pseudo-element selects the fragment of 'h2' that fits into '<region-name>'.
 This assumes that we are able to identify regions uniquely and uniformly (i.e., no matter whether 
 they are elements or not). Note the pseudo-element syntax uses an identifier and the @region rule uses an id selector).
 
-For the sake of the discussion, we can assume we are using the 'region-name' property to set a region identity. For example, if 
-the region was a '::before' pseudo-element:
+For the sake of the discussion, we can assume we are using the 'region-name' property to set a region identity. For example:
 
 <code>
-#myElement::before {
+#myDiv {
     region-name: regionA;
 }
 </code>
@@ -45,12 +44,13 @@ the region was a '::before' pseudo-element:
 If we follow that model, the used style for the content falling into a particular region could be retrieved as:
 
 <code>
-window.getComputedStyle(elementInFlow,'::in-region(regionA)');
+var myDiv = document.getElementById('myDiv');
+window.getComputedStyle(myDiv,'::in-region(regionA)');
 </code>
 
 The issues with the current @region rule are:
 
-  - requires additional DOM method
+  - requires additional DOM interfaces to access the @rule
   - is not consistent with ::first-line and other existing pseudo-elements which select a fragment of an element
   - inconsistency between the CSS syntax (@region) and the getComputedStyle calls (use '::in-region' or equivalent)
 
@@ -64,6 +64,10 @@ Modify the region styling syntax to be consistent with existing 'fragment' selec
 
 
 <code>
+#myDiv {
+   region-name: regionA;
+}
+
 h2::in-region(regionA) {
    color: red;
 }
