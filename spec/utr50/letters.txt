@@ -39,9 +39,3 @@ Letters and script-specific (non-Common) numbers are classified by using their s
   * :?: [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=%5B%3AGeneral_Category%3D%2F%5EL%2F%3A%5D%26%5B%3AScript%3DCommon%3A%5D&g=|L* & Script=Common]]
   * :?: [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=%5B%3AGeneral_Category%3D%2F%5EN%2F%3A%5D%26%5B%3AScript%3DCommon%3A%5D&g=|N* & Script=Common]]
 
-===== Other =====
-
-^General Category^Stack^
-|[[http://www.fileformat.info/info/unicode/category/Cf/list.htm|Other, Format (Cf)]]|U :?:|
-|[[http://www.fileformat.info/info/unicode/category/Co/list.htm|Other, Private Use (Co)]]|U|
-|[[http://www.fileformat.info/info/unicode/category/Cs/list.htm|Other, Surrogate (Cs)]]|:?: no need to define?|
