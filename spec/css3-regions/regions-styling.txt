@@ -74,7 +74,38 @@ h2::in-region(regionA) {
 </code>
 
 === Open questions ===
+  * Limitation: styling pseudo elements
 
+According to the [[http://dev.w3.org/csswg/selectors3/#w3cselgrammar|Selectors Level 3]] specification: 
+   
+<file>
+... pseudo-elements are restricted to one per selector and occur only in the last simple_selector_sequence.
+</file>
+
+which prevents the combination of a '::before' pseudo-element selector with another '::in-region()' pseudo selector.
+In a situation like:
+
+<code>
+#myElement {
+    flow-into: article;
+}
+
+#myElement::before {
+    content: "The quick brown fox";
+}
+
+</code>
+
+There is no way to select the fragment of #myElement::before that falls into, say, regionA. That selector would be:
+
+<code>
+#myElement::before::in-region(regionA);
+</code>
+
+but that would require combining pseudo-elements, which is not possible currently with Selector 3.
+
+Proposal: accept the limitation of Selector 3. If that gets lifted in Selector 4, authors will get more flexibility.
+ 
   * Limitation: nested regions.
 
 Consider the following use case:
