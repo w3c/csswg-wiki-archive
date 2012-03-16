@@ -50,7 +50,7 @@ window.getComputedStyle(myDiv,'::in-region(regionA)');
 
 The issues with the current @region rule are:
 
-  - requires additional DOM interfaces to access the @rule
+  - requires [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15116|additional DOM interfaces]] DOM interfaces to access the @rule
   - is not consistent with ::first-line and other existing pseudo-elements which select a fragment of an element
   - inconsistency between the CSS syntax (@region) and the getComputedStyle calls (use '::in-region' or equivalent)
 
