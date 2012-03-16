@@ -131,3 +131,8 @@ Because there is a region with height:auto, a Step B is necessary.
   - Step B, Phase 2: layout content in region. The content will fit partially in regionA (because it has a narrower width)
                      but will not fill in regionB completely.
                      
+                     
+== Example D: Multi-column region with height:auto ==
+
+TO BE COMPLETED.
+                     
