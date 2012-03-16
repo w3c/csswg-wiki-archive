@@ -14,6 +14,9 @@ Codes used for analysis by codepoint:
 ^R|S|R|Sideways; rotates between horizontal and vertical|
 ^T<sub>U</sub>|T|ST|Typeset upright with alternate glyph. Best fallback is just upright.|
 ^T<sub>R</sub>|SB|RT|Typeset upright with alternate glyph. Best fallback is just sideways.|
+^V|?|?|Uupright wrt Unicode code charts, but translates between horizontal and vertical|
+
+Two modes are presented: Stacked (''text-orientation: upright'') and Mixed (''text-orientation: mixed'')
 
 ===== General =====
   * [[http://www.unicode.org/review/pri207/|PRI #207]] review period ends on Oct 24th, 2011 --- way too short
