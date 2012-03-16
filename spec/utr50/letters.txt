@@ -36,6 +36,13 @@ Letters and script-specific (non-Common) numbers are classified by using their s
 |--|Canadian_Aboriginal|U|R|:?: UTR#50 DVO has U|
 |--|All others|U|R|
 
-  * :?: [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=%5B%3AGeneral_Category%3D%2F%5EL%2F%3A%5D%26%5B%3AScript%3DCommon%3A%5D&g=|L* & Script=Common]]
-  * :?: [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=%5B%3AGeneral_Category%3D%2F%5EN%2F%3A%5D%26%5B%3AScript%3DCommon%3A%5D&g=|N* & Script=Common]]
+There are some exceptions:
+^Code^Description^Char^Stack^Memo^
+|[[http://www.fileformat.info/info/unicode/char/30FC/index.htm|U+30FC]]|KATAKANA-HIRAGANA PROLONGED SOUND MARK|ー|T<sub>R</sub>| |
+|[[http://www.fileformat.info/info/unicode/char/FF70/index.htm|U+FF70]]|HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK|ｰ|T<sub>R</sub>| |
+
+Some interesting cases:
+
+  * [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=%5B%3AGeneral_Category%3D%2F%5EL%2F%3A%5D%26%5B%3AScript%3DCommon%3A%5D&g=|L* & Script=Common]]
+  * [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=%5B%3AGeneral_Category%3D%2F%5EN%2F%3A%5D%26%5B%3AScript%3DCommon%3A%5D&g=|N* & Script=Common]]
 
