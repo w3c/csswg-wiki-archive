@@ -14,13 +14,14 @@ Codes used for analysis by codepoint:
 
 Two modes are presented: Stacked (''text-orientation: upright'') and Mixed (''text-orientation: mixed'')
 
-^General Category^Stack^
-|[[http://www.fileformat.info/info/unicode/category/Cf/list.htm|Other, Format (Cf)]]|U :?:|
-|[[http://www.fileformat.info/info/unicode/category/Co/list.htm|Other, Private Use (Co)]]|U|
-|[[http://www.fileformat.info/info/unicode/category/Cs/list.htm|Other, Surrogate (Cs)]]|:?: no need to define?|
-|L* and N*| See [[spec:utr50:letters]]|
-|P* and Z*| See [[spec:utr50:punctuation]]|
-|S* | See [[spec:utr50:symbols]]|
+^General Category^Stack^Mixed^Memo^
+|[[http://www.fileformat.info/info/unicode/category/Cf/list.htm|Other, Format (Cf)]]|U|R|:?:|
+|[[http://www.fileformat.info/info/unicode/category/Co/list.htm|Other, Private Use (Co)]]|U|R|:?:|
+|[[http://www.fileformat.info/info/unicode/category/Cs/list.htm|Other, Surrogate (Cs)]]|U|R|:?: no need to define?|
+|M*|Follows grapheme cluster|||
+|L* and N*| See [[spec:utr50:letters]]|||
+|P* and Z*| See [[spec:utr50:punctuation]]|||
+|S* | See [[spec:utr50:symbols]]|||
 
 ===== General =====
   * [[http://www.unicode.org/review/pri207/|PRI #207]] review period ends on Oct 24th, 2011 --- way too short
