@@ -38,7 +38,9 @@ They also address the following bugs:
   *  [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=16286|Issue 16286: NamedFlow should return a static node list]]
  
 Note that the following changes use the WebIDL [[http://www.w3.org/TR/WebIDL/#es-sequence|sequence<T>]] type which maps to 
-a native JavaScript Array instance. All methods that return a sequence<T> return a new instance on each call.
+a native JavaScript Array instance. All methods that return a sequence<T> return a new instance on each call. However,
+the most [[http://lists.w3.org/Archives/Public/public-webapps/2012JanMar/1145.html|recent discussions on public-webapps]] favors
+keeping NodeList instead of moving to a straight array. See alternate options below.
 
 == Region interface ==
 
@@ -66,6 +68,36 @@ interface NamedFlow {
   sequence<Region> getRegions();
   sequence<Node> getContentNodes();
   sequence<Region> getRegionsByContentNode(Node node);
+};
+</code>
+
+Alternate options:
+
+<code>
+[ArrayClass]
+interface RangeList {
+  getter Range? item(unsigned long index);
+  readonly attribute unsigned long length;
+};
+
+[ArrayClass]
+interface RegionList {
+  getter Region? item(unsigned long index);
+  readonly attribute unsigned long length;
+};
+
+interface Region {
+    readonly attribute DOMString flowConsumed;
+    RangeList getRegionFlowRanges();
+};      
+
+interface NamedFlow {
+  readonly attribute DOMString name;
+  readonly attribute boolean overflow;
+  
+  RegionList getRegions();
+  NodeList getContentNodes();
+  RegionList getRegionsByContentNode(Node node);
 };
 </code>
 
