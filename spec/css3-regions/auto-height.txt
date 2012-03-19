@@ -134,5 +134,43 @@ Because there is a region with height:auto, a Step B is necessary.
                      
 == Example D: Multi-column region with height:auto ==
 
-TO BE COMPLETED.
-                     
+<code>
+<style>
+#article {
+   flow-into: article;
+}
+
+#regionA, #regionB {
+   flow-from: article;
+}
+
+#regionA {
+   height: auto;
+   column-count: 2;
+}
+
+#regionB {
+   height: auto;
+   column-count: 2;
+}
+</style>
+
+<div id="article">...</div>
+<div id="regionA"></div>
+<div id="regionB"></div>
+</code>
+
+  - Step A, Phase 1: layout regionA and regionB. Both use an intrinsic height of zero.
+  - Step A, Phase 2: layout content in regions. When layout region A, because region A has height:auto:
+                        - compute the fragment that fits into the region (following fragmentation rules).
+                        - compute the intrinsic height of the region based on the fragment content
+                        - freeze the intrinsic height ('Y') for region A.
+                      layout content in regionB as well, and because region B has height:auto
+                        - compute the fragment that fits into the region,
+                        - compute the intrinsic height of the region based on the fragment content
+                        - freeze the intrinsic height ('Z') for region B.
+
+
+  - Step B, Phase 1: layout regionA and regionB using the intrinsic heights of 'Y' and 'Z' respectively.
+  - Step B, Phase 2: layout content in regionA and B.
+                      
