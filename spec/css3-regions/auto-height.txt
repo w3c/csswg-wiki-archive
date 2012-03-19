@@ -3,7 +3,7 @@
 This page documents a possible processing model for enabling height:auto on regions. 
 This is a work in progress and meant to help discussion and drive to an agreed upon model.
 
-==== Multi-Step processing model ====
+=== Multi-Step processing model ===
 
 The model for regions is to layout in at most two steps. Each step has two phases (conceptually):
 
@@ -24,14 +24,14 @@ At the end of Step A, if any region had height:auto, a new two-phase step happen
 and uses the intrinsic heights computed in Step A. Then, the flow layout happens with the regions as positioned and sized in 
 phase 1 of Step B.
 
-==== Optimizations ====
+=== Optimizations ===
 
 Even though the model contains up to two steps with two phases each, implementations can typically optimize 
 this model and implement the layout in fewer iterations.
 
-==== Examples =====
+=== Examples ====
 
-===== Example A ======
+== Example A ==
 
 <code>
 <style>
@@ -62,7 +62,7 @@ Because there is a region with height:auto, a Step B is necessary.
   - Step B, Phase 1: layout regionA. regionA uses an intrinsic height of 'Y'. 
   - Step B, Phase 2: layout content in region. 
           
-===== Example B - Edge Case B (from https://www.w3.org/Style/CSS/Tracker/actions/351) ======
+== Example B - Edge Case B (from https://www.w3.org/Style/CSS/Tracker/actions/351) ==
 
 <code>
    <div style="display:flexbox">
