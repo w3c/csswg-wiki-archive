@@ -86,7 +86,7 @@ Because there is a region with height:auto, a Step B is necessary.
   - Step B, Phase 1: layout region1 and region2. region1 uses an intrinsic height of 'Y', region2 uses an intrinsic height of 'Z'. 
   - Step B, Phase 2: layout content in region. 
          
-===== Example C - Edge Case A (from https://www.w3.org/Style/CSS/Tracker/actions/351) =====
+== Example C - Edge Case A (from https://www.w3.org/Style/CSS/Tracker/actions/351) ==
 <code>
 <style>
     #regionA {
