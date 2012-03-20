@@ -271,14 +271,14 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 
 ^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/0021/index.htm|U+0021]]|EXCLAMATION MARK|!|U|
-|[[http://www.fileformat.info/info/unicode/char/0022/index.htm|U+0022]]|QUOTATION MARK|"|U|
+|[[http://www.fileformat.info/info/unicode/char/0022/index.htm|U+0022]]|QUOTATION MARK|"|T<sub>U</sub>|Needs different position within bounding box, esp. when used as open-quote.|
 |[[http://www.fileformat.info/info/unicode/char/0023/index.htm|U+0023]]|NUMBER SIGN|#|U|
 |[[http://www.fileformat.info/info/unicode/char/0025/index.htm|U+0025]]|PERCENT SIGN|%|U|
 |[[http://www.fileformat.info/info/unicode/char/0026/index.htm|U+0026]]|AMPERSAND|&|U|
-|[[http://www.fileformat.info/info/unicode/char/0027/index.htm|U+0027]]|APOSTROPHE|'|U|
+|[[http://www.fileformat.info/info/unicode/char/0027/index.htm|U+0027]]|APOSTROPHE|'|T<sub>U</sub>|Needs different position within bounding box and/or different advance width.|
 |[[http://www.fileformat.info/info/unicode/char/002a/index.htm|U+002A]]|ASTERISK|*|U|
-|[[http://www.fileformat.info/info/unicode/char/002c/index.htm|U+002C]]|COMMA|,|U|
-|[[http://www.fileformat.info/info/unicode/char/002e/index.htm|U+002E]]|FULL STOP|.|U|
+|[[http://www.fileformat.info/info/unicode/char/002c/index.htm|U+002C]]|COMMA|,|T<sub>U</sub>|Needs different position within bounding box and/or different advance width.|
+|[[http://www.fileformat.info/info/unicode/char/002e/index.htm|U+002E]]|FULL STOP|.|T<sub>U</sub>|Needs different position within bounding box and/or different advance width.|
 |[[http://www.fileformat.info/info/unicode/char/002f/index.htm|U+002F]]|SOLIDUS|/|U|
 |[[http://www.fileformat.info/info/unicode/char/003a/index.htm|U+003A]]|COLON|:|U|
 |[[http://www.fileformat.info/info/unicode/char/003b/index.htm|U+003B]]|SEMICOLON|;|U|
@@ -327,7 +327,7 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/204f/index.htm|U+204F]]|REVERSED SEMICOLON|⁏|U|
 |[[http://www.fileformat.info/info/unicode/char/2050/index.htm|U+2050]]|CLOSE UP|⁐|U|
 |[[http://www.fileformat.info/info/unicode/char/2051/index.htm|U+2051]]|TWO ASTERISKS ALIGNED VERTICALLY|⁑|U|
-|[[http://www.fileformat.info/info/unicode/char/2053/index.htm|U+2053]]|SWUNG DASH|⁓|U|
+|[[http://www.fileformat.info/info/unicode/char/2053/index.htm|U+2053]]|SWUNG DASH|⁓|U|:?: Should this match WAVE DASH?|
 |[[http://www.fileformat.info/info/unicode/char/2055/index.htm|U+2055]]|FLOWER PUNCTUATION MARK|⁕|U|
 |[[http://www.fileformat.info/info/unicode/char/2056/index.htm|U+2056]]|THREE DOT PUNCTUATION|⁖|U|
 |[[http://www.fileformat.info/info/unicode/char/2057/index.htm|U+2057]]|QUADRUPLE PRIME|⁗|U|
