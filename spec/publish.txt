@@ -11,7 +11,7 @@
   - **Request Publication -** Send a message to Bert, CCing w3c-css-wg, asking him to put your spec in the publication pipeline. Include a link to the minutes with the resolution to publish. (If Bert is on vacation, ask fantasai or Chris.) Put ''[Publish]'' in the subject line.
     - **FPWD permission -** For FPWD, chair (Daniel or Peter) or staff contact (Bert or Chris) needs to ask a W3C domain leader to approve a the publication and the choice of URL.
   - **Wait for Publication -** Wait for the spec to be published. W3C publishes on Tuesdays and Thursdays. (Assume Bert needs 2 days notice before the publication date unless he tells you otherwise.)
-  - **Announce Your Spec -** Post an announcement of your new spec to [[http://lists.w3.org/Archives/Public/www-style/|www-style]] and the [[http://www.w3.org/blog/CSS|CSSWG Blog]] and link it from [[http://twitter.com/csswg|@csswg]]. A good announcement includes:
+  - **Announce Your Spec -** Post an announcement of your new spec to [mailto:www-style@w3.org|www-style]] and the [[https://www.w3.org/blog/CSS/wp-admin/|CSSWG Blog]] and link it from [[http://twitter.com/csswg|@csswg]]. If you need help with this, ask fantasai. A good announcement includes:
      * A link to the spec
      * An explanation of what's new, what's cool, what's changed, maybe what to expect going forward, but most importantly what you would especially like feedback on.
      * Instructions for sending feedback
