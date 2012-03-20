@@ -41,7 +41,7 @@ Note that the following changes use the WebIDL [[http://www.w3.org/TR/WebIDL/#es
 a native JavaScript Array instance. All methods that return a sequence<T> return a new instance on each call. However,
 the most [[http://lists.w3.org/Archives/Public/public-webapps/2012JanMar/1145.html|recent discussions on public-webapps]] favors
 keeping NodeList instead of moving to a straight array. So the proposal uses a static NodeList for Node instances and a sequence<T> 
-for other types of lists (see [[http://lists.w3.org/Archives/Public/public-webapps/2012JanMar/1151.html|this discussion]].
+for other types of lists (see [[http://lists.w3.org/Archives/Public/public-webapps/2012JanMar/1151.html|this discussion]]).
 
 == Region interface ==
 
