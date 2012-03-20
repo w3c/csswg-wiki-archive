@@ -1,6 +1,6 @@
 ====== Step-by-step Publishing a CSS Spec ======
 
-  - **Summarize Changes -** Make a Changes section summarizing the major changes since the last publication. ("Major" is relative---for a CR, it's any non-editorial change, but for an early-stage WD it would be sections that got an overhaul, major syntactic changes, or major behavioral changes, not every minor detail that got fixed.)
+  - **Summarize Changes -** Make a Changes section summarizing the major changes since the last publication. ("Major" is relative---for a CR, it's any non-editorial change, but for an early-stage WD it would be sections that got an overhaul, major syntactic changes, or major behavioral changes, not every minor detail that got fixed.) This will help reviewers focus their review.
   - **CSSWG Resolution -** Get an official CSSWG Resolution to publish. Make any changes requested.
     - **LCWD comment period -** For LCWD, establish with the WG a deadline (3 weeks minimum, 4 is typical) and a list of other WGs to ask for comments. Let a chair or staff contact inform those WGs, and all other WGs (via chairs@w3.org) of the upcoming last call and give them a few days to ask for a different deadline.
   - **Prepare Draft -**
