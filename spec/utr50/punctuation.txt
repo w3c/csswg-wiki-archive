@@ -271,7 +271,7 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 
 ^Code^Description^Char^Stack^Memo^
 |[[http://www.fileformat.info/info/unicode/char/0021/index.htm|U+0021]]|EXCLAMATION MARK|!|U|
-|[[http://www.fileformat.info/info/unicode/char/0022/index.htm|U+0022]]|QUOTATION MARK|"|T<sub>U</sub>|Needs different position within bounding box, esp. when used as open-quote.|
+|[[http://www.fileformat.info/info/unicode/char/0022/index.htm|U+0022]]|QUOTATION MARK|"|T<sub>U</sub>|Needs different position within bounding box, and/or different advance width (esp. when used as open-quote).|
 |[[http://www.fileformat.info/info/unicode/char/0023/index.htm|U+0023]]|NUMBER SIGN|#|U|
 |[[http://www.fileformat.info/info/unicode/char/0025/index.htm|U+0025]]|PERCENT SIGN|%|U|
 |[[http://www.fileformat.info/info/unicode/char/0026/index.htm|U+0026]]|AMPERSAND|&|U|
