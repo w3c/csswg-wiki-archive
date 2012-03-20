@@ -19,7 +19,7 @@
   * [[http://lists.w3.org/Archives/Public/www-style/2010Jan/0308.html|limited descendant combinator]] ([[http://www.onderhond.com/blog/work/missing-css-combinator|more info]]) – ''foo>bar, foo>:not(bar)>bar, …'' comes hardly close
   * [[http://lists.w3.org/Archives/Public/www-style/2010Aug/0063.html|Better definition of ::first-letter]], see also note in Selectors L3
   * ''::first-words(n)'', ''::first-lines(n)'', ''::nth-line(an+b)'', ''::last-line'' etc.
-  * [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0039.html|semantic pseudo-class selectors]] e.g. for headings akin to '':link'' etc.
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0039.html|semantic pseudo-class selectors]] e.g. for headings or "visible" elements (i.e. not <script> or <style>) akin to '':link'' etc.
   * Clarify that first formatted line is not triggered when preceded by a block http://wiki.csswg.org/spec/css2.1#issue-268
   * [[http://lists.w3.org/Archives/Public/www-style/2010Oct/0849.html|UA hint pseudo-element selectors]] ''::typo'', ''::match'' etc.
   * [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0603.html|empty input selector]]
