@@ -60,9 +60,12 @@ This would replace the supplemental Element interface:
 <code>
 interface Region {
     readonly attribute DOMString flowConsumed;
+    readonly attribute DOMString flowFrom;
     sequence<Range> getRegionFlowRanges();
 };              
 </code>
+
+This adds the 'flowFrom' attribute which is the associated NamedFlow name. 
 
 == NamedFlow interface changes ==
 
