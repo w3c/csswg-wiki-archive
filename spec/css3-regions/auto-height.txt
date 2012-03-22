@@ -1,4 +1,4 @@
-==== Regions: Processing Model for height:auto ====
+b==== Regions: Processing Model for height:auto ====
 
 This page documents a possible processing model for enabling height:auto on regions. 
 This is a work in progress and meant to help discussion and drive to an agreed upon model.
@@ -51,11 +51,11 @@ this model and implement the layout in fewer iterations.
 <div id="regionA"></div>
 </code>
 
-  - Step A, Phase 1: layout regionA. regionA uses an intrinsic size of zero.
-  - Step A, Phase 2: layout content in regions. When laying out regionA, because it has height:auto: 
-                      - compute the fragment that fits into the region (following fragmentation rules). 
+  - Step A, Phase 1: layout regionA. regionA uses an intrinsic height of zero.
+  - Step A, Phase 2: layout content in regions. When laying out regionA with height:auto: 
+                      - compute the fragment that fits into the region (following fragmentation rules) in the specified width of 300ex.
                       - compute the intrinsic height of the region based on the fragment content
-                      - freeze the intrinsic height ('Y') for regionB.
+                      - freeze the intrinsic height ('Y') for regionB. **[QUESTION: what is regionB?]**
                       
 Because there is a region with height:auto, a Step B is necessary. 
 
@@ -77,7 +77,7 @@ Because there is a region with height:auto, a Step B is necessary.
                       - compute the intrinsic height of the region based on the fragment content
                       - freeze the intrinsic height ('Y') for region1.
      Because region2 has height:auto:
-                      - compute the fragment that fits into the region (following fragmentation rules). Depending on what the fragment rules determined fit into region1 there may not be content remaining in the flow.
+                      - compute the fragment that fits into the region (following fragmentation rules). Depending on what the fragment rules determined fit into region1 there may not be content remaining in the flow. **[QUESTION: assuming no explicit breaks why would there be any content left from regions1? The intrinsic height will be simply all of the flow's content...]**
                       - compute the intrinsic height of the region based on the fragment content
                       - freeze the intrinsic height ('Z') for region2.
                       
@@ -103,6 +103,7 @@ Because there is a region with height:auto, a Step B is necessary.
         margin-left: 120px;
         top: 0;
         right: 0;
+        **[QUESTION: is this supposed to be position: absolute; ?]**
     }
     
     #article {
@@ -117,7 +118,7 @@ Because there is a region with height:auto, a Step B is necessary.
     <div id="regionB"></div>
 </div>
 </code>
-
+**[OBSERVATION: If you follow the rules of CSS 2.1 ch 10. the used size of absolutely positioned elements with height: auto; top:0px; bottom: 0px; will be the height of the containing block minus MBP, thus, this problem is practically non-existent]**
   - Step A, Phase 1: layout regionA and regionB. regionB uses an intrinsic size of zero and, as a result, regionB's top and bottom compute to 0 and has a height of zero as well.
   - Step A, Phase 2: layout content in regions. When laying out regionB, because regionB has height:auto: 
                       - compute the fragment that fits into the region (following fragmentation rules). 
@@ -164,7 +165,7 @@ Because there is a region with height:auto, a Step B is necessary.
   - Step A, Phase 2: layout content in regions. When layout region A, because region A has height:auto:
                         - compute the fragment that fits into the region (following fragmentation rules).
                         - compute the intrinsic height of the region based on the fragment content
-                        - freeze the intrinsic height ('Y') for region A.
+                        - freeze the intrinsic height ('Y') for region A. **[QUESTION: are you talking about 'used height' is all of these cases?]**
                       layout content in regionB as well, and because region B has height:auto
                         - compute the fragment that fits into the region,
                         - compute the intrinsic height of the region based on the fragment content
