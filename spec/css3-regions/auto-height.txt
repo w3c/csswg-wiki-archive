@@ -103,7 +103,7 @@ Because there is a region with height:auto, a Step B is necessary.
         margin-left: 120px;
         top: 0;
         right: 0;
-        **[QUESTION: is this supposed to be position: absolute; ?]**
+        position: absolute;
     }
     
     #article {
