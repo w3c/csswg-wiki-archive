@@ -13,8 +13,7 @@ In the following, 'intrinsic height' refers to the used height of the fragment o
 
 The model for regions is to layout in at most two steps. Each step has two phases (conceptually):
 
-  * Phase 1. Region layout. In this step, regions are laid out according to the normal CSS box model. 
-    No content is flowed into the regions.
+  * Phase 1. Region layout. In this step, regions are laid out according to the normal CSS box model. No content is flowed into the regions.
   * Phase 2. Flow layout. In this step, content is flowed into the regions laid out in Step 1.
 
 Step A : Initial Layout
