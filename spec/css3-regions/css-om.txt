@@ -39,6 +39,7 @@ Other ideas:
   * Region.flowFragment start, middle, end or none.
   * Region.fragmentStatus inprogress, complete, empty.
   * Region.flowProgress start, middle, end and empty.
+  * Region.fragmentLocation start, middle, end or none.
 
 === Access to flow content (suggested CSS OM Changes) ===
 
