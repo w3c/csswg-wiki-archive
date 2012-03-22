@@ -28,7 +28,7 @@ These are being actively developed. Sometimes used to be CRs that need major rev
   * [[spec:css3-animations|CSS Animations Level 3]]
   * [[spec:cssom|CSSOM - CSS Object Module]]
   * [[spec:css3-flexbox|CSS Flexbox Module]]
-  * [[spec:css3-images|CSS Images Level 3]]
+  * [[css3-images:lc-2012|CSS Images Level 3]]
   * [[spec:css3-lists|CSS Lists Module Level 3]]
   * [[spec:css3-regions|CSS Regions Module]]
   * [[spec:css-ruby|CSS3 Ruby Module]] (out of date CR, back to WD for major revisions)
