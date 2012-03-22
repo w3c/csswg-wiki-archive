@@ -1,28 +1,37 @@
-b==== Regions: Processing Model for height:auto ====
+==== Regions: Processing Model for height:auto ====
 
 This page documents a possible processing model for enabling height:auto on regions. 
 This is a work in progress and meant to help discussion and drive to an agreed upon model.
+
+Regions layout multiple boxes:
+  * generated content boxes (::before and ::after)
+  * RFCB: Region Flow Content Box (the box which lays out the fragment of content associated with the region's named flow).
+  
+In the following, 'intrinsic height' refers to the used height of the fragment of content inside of the RFCB.
 
 === Multi-Step processing model ===
 
 The model for regions is to layout in at most two steps. Each step has two phases (conceptually):
 
-  * Phase 1. Region layout. In this step, regions are laid out according to the normal CSS box model. No content is flowed into the regions.
+  * Phase 1. Region layout. In this step, regions are laid out according to the normal CSS box model. 
+    No content is flowed into the regions.
   * Phase 2. Flow layout. In this step, content is flowed into the regions laid out in Step 1.
 
-* Step A : Initial Layout *
+Step A : Initial Layout
 
-In all cases, regions are laid out with a first step where regions which have height:auto use an intrinsic height of 0. 
+Phase 1.
 
-In Step A, if a region has an intrinsic height of 0 and had a specified height of auto, then the user agent does the following:
+In all cases, regions are laid out with a first step where regions which have a computed value of height:auto, resolve their region's used height based on an RFCB's used height of zero (because the 'intrinsic height' cannot be computed yet). The used height resolves to zero assuming a default min-height/max-height and no generated content. The used height may resolve to something else: for example, if the min-height is 300px and there is no generated content, the used height will resolve to 300px.
 
-  - compute the fragment of the flow that would fit in the region (i.e., following the fragmentation rules defined in CSS3 Fragmentation)
-  - compute the intrinsic height of the region based on the region's width and the fragment content.
-  - freeze the computed intrinsic height for the region.
+Phase 2.
 
-At the end of Step A, if any region had height:auto, a new two-phase step happens (Step B) where the region layout happens 
-and uses the intrinsic heights computed in Step A. Then, the flow layout happens with the regions as positioned and sized in 
-phase 1 of Step B.
+In Step A, if a region has as computed height of auto, then the user agent does the following:
+
+  - compute the 'intrinsic height' of the RFCB of the region based on the region's width and the remainder of the flow taking into account fragmentation rules and the max-height of the current region.
+
+Step B : Optional Layout
+
+If the regions' used height computation depends on the RFCB's 'intrinsic height', then a new two-phase step happens (Step B) where the region layout happens and uses the 'intrinsic heights' for RFCBs computed in Step A.
 
 === Optimizations ===
 
