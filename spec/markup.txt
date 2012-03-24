@@ -42,7 +42,7 @@ CSS specs use a variety of inline markup:
 
 ===== Stage 3: Tables =====
 
-Specs use tables for data. In some cases, we have some very complex table structures, which should be styled appropriately. Writing modes and Text have some good examples: ([[http://www.w3.org/TR/css3-writing-modes/#svg-writing-mode|simple table]], [[http://www.w3.org/TR/css3-writing-modes/#logical-to-physical|super-complex table]], [[http://www.w3.org/TR/css3-text/#white-space|common-complexity table]], [[www.w3.org/TR/css3-text/#white-space|another example]])
+Specs use tables for data. In some cases, we have some very complex table structures, which should be styled appropriately. Writing modes and Text have some good examples: ([[http://www.w3.org/TR/css3-writing-modes/#svg-writing-mode|simple table]], [[http://www.w3.org/TR/css3-writing-modes/#logical-to-physical|super-complex table]], [[http://www.w3.org/TR/css3-text/#white-space|common-complexity table]], [[http://www.w3.org/TR/css3-text/#white-space|another example]])
 
 We also use tables for indices, like the [[http://www.w3.org/TR/css3-text/#appendix-h-full-property-index|full property index]] and the [[http://www.w3.org/TR/css3-selectors/#selectors|selectors overview]].
 ===== Stage 4: Notes, Issues, Examples, and other Boxen =====
