@@ -49,13 +49,15 @@ We also use tables for indices, like the [[http://www.w3.org/TR/css3-text/#appen
 
 The CSSWG uses some colored boxes to delineate special types of information.
 
-  ; examples
+  ; <div class="example">
   : Examples are non-normative and relatively self-contained. They often, but not always, illustrate a normative definition immediately before the example. They might contain only text; text and code; text and a figure; text, some code, and a figure; or several repetitions of these. They need to be clearly delineated so that readers can tell that the text is non-normative. They are also things authors like to scan for.
-  ; figures
+  ; <div class="figure">
   : Like examples, figures are also used to illustrate the normative text (and in some cases are used in informative sections like examples and notes, too!) They usually come with a caption and must have alternative text for non-sighted readers. ([[http://dev.w3.org/csswg/css3-background/#the-background-position|examples inside examples]], [[http://dev.w3.org/csswg/css3-writing-modes/|Writing Modes is full of examples]])
-  ; propdef tables
+  ; <table class="propdef">
   : Propdef tables contain the critical information for a property definition. They must be easily scannable. ([[http://w3c-test.org/csswg/css3-background/#the-background-clip|example]], [[http://w3c-test.org/csswg/css3-break/#break-properties|consecutive-boxes example]])
-  ; notes
+  ; <span class="note">, <p class="note">, <div class="note">
   : Notes are non-normative sentences (inline) or paragraphs (or multi-paragraphs) that help explain the implications of some normative text. It needs to be clear that they are not normative, but they also should not jump out of the text, as they are not something to scan for but a continuation of the normative discussion. [[http://w3c-test.org/csswg/css3-background/#the-background-clip|example]]
-  ; grammar boxes
+  ; <pre class="prod">
   : These <pre> boxes are typically normative; they unambiguously define the syntax of a feature in code. They often contain a <dfn> defining a grammar production that is reused later. ([[http://dev.w3.org/csswg/css3-images/#linear-gradients|example]], [[http://w3c-test.org/csswg/css3-background/#the-background-position|example]])
+  ; <span class="issue">, <p class="issue">, <div class="issue">
+  : Issues are notes from the editor to reviewers. They document areas that need more feedback, and explain problems that are as-yet unresolved in the specs. They are used in Working Drafts: CRs and beyond are not supposed to have issues.
