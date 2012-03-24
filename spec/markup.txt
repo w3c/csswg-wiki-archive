@@ -26,7 +26,19 @@ Paragraph, heading, and list margins and spacing should be designed in a way tha
 
 ===== Stage 2: Inline Styling =====
 
-FIXME
+CSS specs use a variety of inline markup:
+
+  ; <code class=property>
+  : for CSS property names
+  ; <code class=css>
+  : for abitrary CSS snippets and CSS values
+  ; <dfn>
+  : for the defining instance of a term, whether in a <dl> or in a paragraph. Must be easily scannable
+  ; <i>
+  : for instance-of-term; this auto-links to the defining instance, if there is one in the spec. These are used very very frequently in some cases ([[http://w3c-test.org/csswg/css3-images/#default-sizing|example]], [[http://www.w3.org/TR/css3-writing-modes/#intrinsic-sizing|example]]) so their styling should not be distracting.
+  ; <a> : for other kinds of cross-linking
+  ; <em> and <strong> : used per HTML5 (but are fairly uncommon); default styling should be fine
+  ; <var> : for variables in mathematical or syntactical formulas
 
 ===== Stage 3: Tables =====
 
