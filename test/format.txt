@@ -14,6 +14,8 @@ The following are requested of all tests submitted to the CSSWG, both for [[test
   : Unless specifically testing error-recovery features, the tests should all be valid.
   ; Cross-platform
   : Tests should be as cross-platform as reasonably possible, working across different devices, screen resolutions, paper sizes, etc. Exceptions should document their assumptions.
+  ; Red Means Failure
+  : Don't use the color red other than to indicate a failure. (Exception: testing for support of red) Since green-with-no-red is often used to indicate success, it's best to avoid green unless using the presence of red to indicate failures.
 
 ===== Acceptable Test Formats =====
 
