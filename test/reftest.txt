@@ -112,12 +112,16 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 19 unreftestable tests ====
+==== 22 unreftestable tests ====
 
-The following is a list of 19 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 22 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/float-001.htm
+|[RC6] float-001]] **Reasons why**: Text flowing around a floated box is very difficult to reftest.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/float-002.htm
+|[RC6] float-002]] **Reasons why**: Text flowing around a floated box is very difficult to reftest.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5523-width-000.htm|[RC6] c5523-width-000]] **Reasons why**: the baseline line in a line box when/where there is a taller inline box than the set line height is not predictable. "The inline-level boxes are aligned vertically according to their 'vertical-align' property. (...) If such boxes are tall enough, there are multiple solutions and **CSS 2.1 does not define the position of the line box's baseline**" [[http://www.w3.org/TR/CSS21/visudet.html#line-height|CSS 2.1, section 10.8, Line height calculations]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c565-list-pos-001.htm
 |[RC6] c565-list-pos-001]] **Reasons why**: list marker position
@@ -153,6 +157,8 @@ The following is a list of 19 CSS2.1 tests that appear to be unreftestable:
 |[RC6] line-height-applies-to-010]] **Reasons why**: 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/containing-block-009.htm
 |[RC6] containing-block-009]] **Reasons why**: some browsers have different horizontal margins for body; most browsers (IE8+, Firefox, Opera, Chrome, Safari) use margin: 8px for body element while Konqueror 4 uses margin: 10px. I do not see how to work around such difficulty when creating a reftest for this test. In order words, a) the horizontal gap between left edge of viewport and leftmost black border is 58px in IE8+, Firefox, Opera, Chrome and Safari but 60px in Konqueror 4 and b)the horizontal gap between rightmost black border and right edge of viewport is 58px in IE8+, Firefox, Opera, Chrome and Safari but 60px in Konqueror 4.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/font-size-119.htm
+|[RC6] font-size-119]] **Reasons why**: font-size keywords can not be reliably converted into font-size pixels. So, there is no way to know how tall the document box is; so presence of vertical scrollbar and its relative position are undefined
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/inline-formatting-context-023.htm
 |[RC6] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.</del> I have concluded that Opera 11.61 has a bug. So, the reftest for this test has been done.
