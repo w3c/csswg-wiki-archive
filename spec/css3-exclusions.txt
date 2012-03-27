@@ -18,8 +18,13 @@ Whether an id is testable can be determined by scanning the spec and ignoring an
 ===== Resolutions =====
 
 
-None yet.
+This section keeps track of the CSS WG resolutions regarding the CSS Regions specification. A checkmark indicates that the resolution has been integrated at least in the latest editor draft. 
 
+==== Paris F2F February 2012 ====
+
+[[http://lists.w3.org/Archives/Public/www-style/2012Feb/0325.html|Paris FTF February 2012 Tuesday]]
+
+  * ✔ Resolved: Adopt the proposed changes to Exclusions therein except for the suggestion to unify rect() and rectangle().
 ===== Action Items =====
 
 Action items and issues for CSS3 Exclusions are maintained on Bugzilla:
