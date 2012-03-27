@@ -20,26 +20,12 @@ See https://www.w3.org/Bugs/Public/show_bug.cgi?id=16383
 
 The current 'regionOverlfow' name can be confusing and misunderstood for normal CSS layout overflow
 where it actually describes how the named flow content is consumed by the region. The proposal is
-to rename the 'regionOverflow' property to 'flowConsumed' with the following values:
+to rename the 'regionOverflow' property to 'regionOverwet' with the following values:
 
-  * some: the region consumes some of the flow content, but not all. There is more content left in the named flow.
-  * remainder: the region consumes the remainder of the flow content.
-  * none: the region does not consume any flow content because all content has been fitted in previous regions.
+  * overset: the region consumes some of the flow content, but not all. There is more content left in the named flow.
+  * fit: the region consumes the remainder of the flow content.
+  * empty: the region does not consume any flow content because all content has been fitted in previous regions.
 
-Note that a region may not display any content and still report 'some' for its 'flowConsumed' value. This happens, for example,
-if the region is too small to accommodate any content. To find out if a region actually displays anything, the author can 
-use the getFlowContentRanges() method and compare the startContainer/endContainer and startOffset/endOffset values. For a region that
-does not display any content, these values should be the same (startContainer == endContainer and startOffset == endOffset).
-
-Other ideas:
-
-  * Region.regionContent with values flow, end and none.
-  * Region.contentFit fit, end and none.
-  * Region.flowPosition start, middle, end or none.
-  * Region.flowFragment start, middle, end or none.
-  * Region.fragmentStatus inprogress, complete, empty.
-  * Region.flowProgress start, middle, end and empty.
-  * Region.fragmentLocation start, middle, end or none.
 
 === Access to flow content (suggested CSS OM Changes) ===
 
