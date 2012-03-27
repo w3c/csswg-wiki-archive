@@ -4,16 +4,17 @@
 
 See https://www.w3.org/Bugs/Public/show_bug.cgi?id=14948
 
-**Implemented** in https://dvcs.w3.org/hg/csswg/rev/d4e15f801ff5
+**Integrated** in https://dvcs.w3.org/hg/csswg/rev/d4e15f801ff5
 
 === naming update on NamedFlow members ===
 
-**Implemented** in https://dvcs.w3.org/hg/csswg/rev/e182d5d3f5a6
+**Integrated** in https://dvcs.w3.org/hg/csswg/rev/e182d5d3f5a6
 
 See https://www.w3.org/Bugs/Public/show_bug.cgi?id=15879
 
 === attach events to NamedFlow ===
 
+**Integrated** in https://dvcs.w3.org/hg/csswg/rev/614c5fe1f9ad
 See https://www.w3.org/Bugs/Public/show_bug.cgi?id=15938
 
 === Disallow flow-into on pseudo-elements to preserve NamedFlow.getContentNodes() ===
