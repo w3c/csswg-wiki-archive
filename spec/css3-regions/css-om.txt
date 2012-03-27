@@ -61,11 +61,12 @@ Changes:
   - The getRegionsByContentNode method now returns a static NodeList.
   - The contentNodes attribute now returns a static list of nodes. Also moved to be a method getContent().
   - Added a getRegions method to get the current list of regions which are associated with the NamedFlow.
+  - Renamed the overflow attribute to overset to avoid confusion with the normal CSS overflow concept and for consistency with the Region interface regionOverset property
 
 <code>
 interface NamedFlow {
   readonly attribute DOMString name;
-  readonly attribute boolean overflow;
+  readonly attribute boolean overset;
   
   sequence<Region> getRegions();
   NodeList getContent(); /* static: new instance returned every time */
