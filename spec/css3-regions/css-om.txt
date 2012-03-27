@@ -101,7 +101,7 @@ box direction), Firefox reports the edges of the first fragment's box.
 
 === Document interface additions ===
 
-Implemented in: https://dvcs.w3.org/hg/csswg/rev/d4e15f801ff5
+**Implemented** in: https://dvcs.w3.org/hg/csswg/rev/d4e15f801ff5
 
 Change getNamedFlows() to namedFlows:
 
