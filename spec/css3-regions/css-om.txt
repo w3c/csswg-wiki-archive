@@ -37,7 +37,7 @@ to rename the 'regionOverflow' property to 'regionOverwet' with the following va
 
 === Access to flow content (suggested CSS OM Changes) ===
 
-**Implemented** in https://dvcs.w3.org/hg/csswg/rev/e182d5d3f5a6
+**Integrated** in https://dvcs.w3.org/hg/csswg/rev/e182d5d3f5a6
 
 Changes proposed here follow the [[http://lists.w3.org/Archives/Public/www-style/2012Feb/1354.html|discussion]] on the mailing list.
 They also address the following bugs:
@@ -110,7 +110,7 @@ box direction), Firefox reports the edges of the first fragment's box.
 
 === Document interface additions ===
 
-**Implemented** in: https://dvcs.w3.org/hg/csswg/rev/d4e15f801ff5
+**Integrated** in: https://dvcs.w3.org/hg/csswg/rev/d4e15f801ff5
 
 Change getNamedFlows() to namedFlows:
 
