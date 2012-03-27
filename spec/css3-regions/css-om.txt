@@ -19,9 +19,12 @@ See https://www.w3.org/Bugs/Public/show_bug.cgi?id=15938
 
 === Disallow flow-into on pseudo-elements to preserve NamedFlow.getContentNodes() ===
 
+**Integrated** in https://dvcs.w3.org/hg/csswg/rev/511661d8b7e4
 See https://www.w3.org/Bugs/Public/show_bug.cgi?id=16383
 
 === Rename Region.regionOverflow to Region.regionOverset ===
+
+**Integrated** in https://dvcs.w3.org/hg/csswg/rev/d4e15f801ff5
 
 The current 'regionOverlfow' name can be confusing and misunderstood for normal CSS layout overflow
 where it actually describes how the named flow content is consumed by the region. The proposal is
