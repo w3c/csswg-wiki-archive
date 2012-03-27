@@ -45,6 +45,13 @@ It was decided during this conference call (http://krijnhoetmer.nl/irc-logs/css/
 
 This section keeps track of the CSS WG resolutions regarding the CSS Regions specification. A checkmark indicates that the resolution has been integrated at least in the latest editor draft.
 
+==== Paris F2F February 2012 ====
+
+[[http://lists.w3.org/Archives/Public/www-style/2012Feb/0325.html|Paris FTF February 2012 Monday]]
+[[http://lists.w3.org/Archives/Public/www-style/2012Feb/0526.html|Paris FTF February 2012 Tuesday]]
+
+  * ✔ Resolved: Bug 15159 for adding use cases to Regions spec is closed.
+
 ==== TPAC October 2011 ====
 
 [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0713.html|TPAC October 2011, Sunday]]
