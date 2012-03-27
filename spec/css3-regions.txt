@@ -45,6 +45,14 @@ It was decided during this conference call (http://krijnhoetmer.nl/irc-logs/css/
 
 This section keeps track of the CSS WG resolutions regarding the CSS Regions specification. A checkmark indicates that the resolution has been integrated at least in the latest editor draft.
 
+==== TPAC October 2011 ====
+
+[[http://lists.w3.org/Archives/Public/www-style/2011Nov/0713.html|TPAC October 2011, Sunday]]
+
+  * ✔ Resolved: regionLayoutUpdate is an asynchronous event (Issue 10)
+  * ✔ Resolved: close open issue on whether flow-from turns an element into a region, reopen if needed later (Issue 18)
+  * ✔ Resolved: If content computes to normal, then the element takes the flow. (Issue 22)
+
 ==== Seattle F2F July 2011 ====
 
 [[http://krijnhoetmer.nl/irc-logs/css/20110725|Seattle F2F July 2011, Monday]]
