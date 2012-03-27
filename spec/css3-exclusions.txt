@@ -24,7 +24,7 @@ This section keeps track of the CSS WG resolutions regarding the CSS Regions spe
 
 [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0325.html|Paris FTF February 2012 Tuesday]]
 
-  * ✔ Resolved: Adopt the proposed changes to Exclusions therein except for the suggestion to unify rect() and rectangle().
+  * ✔ Resolved: Adopt the [[http://wiki.csswg.org/ideas/functional-notation|proposed] changes to Exclusions therein except for the suggestion to unify rect() and rectangle().
 ===== Action Items =====
 
 Action items and issues for CSS3 Exclusions are maintained on Bugzilla:
