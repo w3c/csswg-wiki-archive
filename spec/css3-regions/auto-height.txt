@@ -29,25 +29,26 @@ that illustrate how this model is used concretely.
 
 The intrinsic size of the regionA RFCB (RFCB-A) is computed as follows:
 
-  - The intrinsic width of regionA's (RFCB-A) is the 'shrink-to-fit' (or 'fit-content') width of the '#article' element. This intrinsic
-    height is not used in this case because the 'width' of the RFCB will follow the rules of the 
+<code>
+  - The width of regionA's (RFCB-A) is the width of its container (e.g., 300px), since 
+    it behaves like a non-replaced block level element for that dimension.
   - The intrinsic height of RFCB-A is resolved as follows:
-        - Phase 1: layout the document with a 'used' height of 0 for RFCB-A. Because regionA is in the normal flow.
-        - Phase 2: layout the 'article' named flow into regionA. Because regionA's height computed to 'auto', compute a new used height for 
-          RFCB-A. Assuming there is no break in the content, the used height will 
+        - Phase 1: layout the document with a 'used' height of 0 for RFCB-A. 
+        - Phase 2: layout the 'article' named flow into regionA. Because regionA's 
+          height computed to 'auto', compute a new used height for 
+          RFCB-A. Assuming there is no break in the content, the used height will be that
+          of the entire flow laid out in the RFCB-A width (because it is the first fragmented box)
+          This yields the intrinsic height (e.g., 1000px). 
 
+</code>
 
-  - Step A, Phase 1: layout regionA. regionA uses an intrinsic height of zero.
-  - Step A, Phase 2: layout content in regions. When laying out regionA with height:auto: 
-                      - compute the fragment that fits into the region (following fragmentation rules) in the specified width of 300ex.
-                      - compute the intrinsic height of the region based on the fragment content
-                      - freeze the intrinsic height ('Y') for regionB. **[QUESTION: what is regionB?]**
-                      
-Because there is a region with height:auto, a Step B is necessary. 
-
-  - Step B, Phase 1: layout regionA. regionA uses an intrinsic height of 'Y'. 
-  - Step B, Phase 2: layout content in region. 
+When layout happen, regionA will be layout where it's width is computed as that of any non-replaced 
+block level element and its intrinsic height is 1000px and used as for any height computation of replaced elements. 
+In our example, the regionA box will have used values of 300px x 1000px and will tightly fit the flow content.
           
+          
+<html><span style="color:#a00;font-weight:bold">IMPORTANT: THE FOLLOWING USE CASES NEED TO BE UPDATED</span></html>
+
 == Example B - Edge Case B (from https://www.w3.org/Style/CSS/Tracker/actions/351) ==
 
 <code>
