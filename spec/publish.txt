@@ -48,7 +48,7 @@ Replace >>marked<< items. Here's an [[http://lists.w3.org/Archives/Public/www-st
   ; Subject : [CSSWG]>>[css3-foo]<< >>CSS Foo<< Working Draft Published
   ; Body : 
 
-  
+
   The CSS WG published an updated draft of the >>CSS Foo<< module:
   
       >>http://www.w3.org/TR/2011/WD-css3-foo-20111129/<<
@@ -63,6 +63,19 @@ Replace >>marked<< items. Here's an [[http://lists.w3.org/Archives/Public/www-st
       >>[css3-foo]<<
   
   (as I did on this message).
-
+  
   For the CSS WG,
   >>your signature<<
+
+====== Template for WD Announcement to Blog ======
+
+  ; Subject : >>CSS Foo<< Draft Updated
+  ; Category : Publications
+  ; Contents :
+
+
+  The CSS Working Group has published an updated Working Draft of <a href="http://www.w3.org/TR/css3-foo">CSS Foo</a>. >>one-sentence summary of module<<
+  
+  >>What's new, what's cool, what you'd like feedback on, what to expect going forward<<
+  
+  As always, please send feedback to <a href="http://lists.w3.org/Archives/Public/www-style/">www-style</a> with the spec code (<code>>>[css3-foo]<<</code>) and your comment topic in the subject line.
