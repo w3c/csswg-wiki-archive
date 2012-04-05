@@ -112,9 +112,9 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 21 unreftestable tests ====
+==== 20 unreftestable tests ====
 
-The following is a list of 21 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 20 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
@@ -141,8 +141,6 @@ The following is a list of 21 CSS2.1 tests that appear to be unreftestable:
 |[nightly-unstable] line-height-125]] **Reasons why**: the offsetHeight of FAIL varies from one browser to another and when using a different font. When using the same font type ("Liberation Serif"), the offsetHeight of the text node "FAIL" is 57px in Chrome 17 and 56px in Firefox 10.0.2 and Opera 11.61. With other font types, there is and should be still a 1px difference.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-143.htm
 |[RC6] floats-143]] **Reasons why**: When using the same sans-serif font, different browsers will use a different offsetWidth for the text node "PA" and for the text node "SS". For example, when using "DejaVu Sans" font, Chrome 17.0.963.56 will use 48px for "PA" and then 46px for "SS" while Firefox 10.0.2 and Opera 11.61 will use 45px for both "PA" and "SS". Used width of text nodes is impredictable.
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-146.htm
-|[RC6] floats-146]] **Reasons why**: 0.2em padding and 0.2em margin create fractional pixels; left-floating box B and right-floating box C are difficult to position within a fixed width container.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-151.htm
 |[RC6] floats-151]] **Reasons why**: the offsetWidth of the div varies from one browser to another.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5525-fltwrap-000.htm
@@ -162,7 +160,10 @@ The following is a list of 21 CSS2.1 tests that appear to be unreftestable:
 |[RC6] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.</del> I have concluded that Opera 11.61 has a bug. So, the reftest for this test has been done.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/floats-101.htm
-|[RC6] floats-101]] **Reasons why**: I do not remember right now.</del> I have now been able to create a reftest. In the test, margin collapsing was not occuring while it must occur in the reftest. So, code has been adjusted to take into consideration, take into account this.
+|[RC6] floats-101]] </del> I have now been able to create a reftest. In the test, margin collapsing was not occuring while it must occur in the reftest. So, code has been adjusted to take into consideration, take into account this.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/containing-block-009.htm
-|[RC6] containing-block-009]] **Reasons why**: (...) .</del> I have now been able to create a reftest.
+|[RC6] containing-block-009]]</del> I have now been able to create a reftest.
+
+<del>[[http://test.csswg.org/suites/css2.1/20110323/html4/floats-146.htm
+|[RC6] floats-146]] **Reasons why**: 0.2em padding and 0.2em margin create fractional pixels; border-width: thin is not as reliable as border-width: 1px.</del> The test has been modified to work around those 2 issues.
