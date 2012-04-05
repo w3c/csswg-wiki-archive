@@ -112,12 +112,12 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 21 unreftestable tests ====
+==== 22 unreftestable tests ====
 
-The following is a list of 21 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 22 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
-|[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done.
+|[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/float-001.htm
 |[RC6] float-001]] **Reasons why**: Text flowing around a floated box is very difficult to reftest.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/float-002.htm
@@ -142,11 +142,11 @@ The following is a list of 21 CSS2.1 tests that appear to be unreftestable:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-143.htm
 |[RC6] floats-143]] **Reasons why**: When using the same sans-serif font, different browsers will use a different offsetWidth for the text node "PA" and for the text node "SS". For example, when using "DejaVu Sans" font, Chrome 17.0.963.56 will use 48px for "PA" and then 46px for "SS" while Firefox 10.0.2 and Opera 11.61 will use 45px for both "PA" and "SS". Used width of text nodes is impredictable.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-146.htm
-|[RC6] floats-146]] **Reasons why**: 0.2em padding and 0.2em margin create fractional pixels;  left-floating box B and right-floating box C are difficult to position within a fixed width container.
+|[RC6] floats-146]] **Reasons why**: 0.2em padding and 0.2em margin create fractional pixels; left-floating box B and right-floating box C are difficult to position within a fixed width container.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-151.htm
 |[RC6] floats-151]] **Reasons why**: the offsetWidth of the div varies from one browser to another.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5525-fltwrap-000.htm
-|[RC6] c5525-fltwrap-000]] **Reasons why**: Precise positioning of floats can be tough to figure out and may vary from one browser to another. Under such difficulty, there may be a real browser bug affecting one or 2 browsers. Creating a reftest is tricky because you want to avoid triggering an hidden or known browser bug when creating the reftest.
+|[RC6] c5525-fltwrap-000]] **Reasons why**: Precise positioning of a left-floated box and of a right-floated box inside a common container is tricky and probably impossible to do for several browsers.
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-weight-016.htm
 |[nightly-unstable] font-weight-016]] **Reasons why**: it's probably impossible to create a reftest for this as it is impossible to know in advance how font-weight characters will affect width. It varies from one browser to another.
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-size-118.htm
@@ -157,6 +157,8 @@ The following is a list of 21 CSS2.1 tests that appear to be unreftestable:
 |[RC6] containing-block-009]] **Reasons why**: some browsers have different horizontal margins for body; most browsers (IE8+, Firefox, Opera, Chrome, Safari) use margin: 8px for body element while Konqueror 4 uses margin: 10px. I do not see how to work around such difficulty when creating a reftest for this test. In order words, a) the horizontal gap between left edge of viewport and leftmost black border is 58px in IE8+, Firefox, Opera, Chrome and Safari but 60px in Konqueror 4 and b)the horizontal gap between rightmost black border and right edge of viewport is 58px in IE8+, Firefox, Opera, Chrome and Safari but 60px in Konqueror 4.
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-size-119.htm
 |[nightly-unstable] font-size-119]] **Reasons why**: font-size keywords can not be reliably converted into font-size pixels. So, there is no way to know how tall the document box is; so presence of vertical scrollbar and its relative position are undefined
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c24-first-lttr-000.htm
+|[RC6] c24-first-lttr-000]] **Reasons why**: browsers may apply different line-height value to :first-letter pseudo-element. When using DejaVu Serif font, Firefox 11.0 and Chrome 18.0.1025.142 apply line-height: 1.17 while Opera 11.62 applies line-height: 1.18.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/inline-formatting-context-023.htm
 |[RC6] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.</del> I have concluded that Opera 11.61 has a bug. So, the reftest for this test has been done.
