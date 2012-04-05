@@ -156,7 +156,7 @@ The following is a list of 21 CSS2.1 tests that appear to be unreftestable:
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-size-119.htm
 |[nightly-unstable] font-size-119]] **Reasons why**: font-size keywords can not be reliably converted into font-size pixels. So, there is no way to know how tall the document box is; so presence of vertical scrollbar and its relative position are undefined
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c24-first-lttr-000.htm
-|[RC6] c24-first-lttr-000]] **Reasons why**: browsers may apply different line-height value to :first-letter pseudo-element. When using DejaVu Serif font, Firefox 11.0 and Chrome 18.0.1025.142 apply line-height: 1.17 while Opera 11.62 applies line-height: 1.18.
+|[RC6] c24-first-lttr-000]] **Reasons why**: browsers may apply different line-height value to :first-letter pseudo-element depending on font used. When using DejaVu Serif font, Firefox 11.0 and Chrome 18.0.1025.142 apply line-height: 1.17 while Opera 11.62 applies line-height: 1.18. When using FreeSerif font, all 3 browsers use the same computed line-height value so that there is no need to specify it.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/inline-formatting-context-023.htm
 |[RC6] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.</del> I have concluded that Opera 11.61 has a bug. So, the reftest for this test has been done.
