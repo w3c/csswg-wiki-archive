@@ -112,9 +112,9 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 22 unreftestable tests ====
+==== 21 unreftestable tests ====
 
-The following is a list of 22 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 21 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
@@ -153,8 +153,6 @@ The following is a list of 22 CSS2.1 tests that appear to be unreftestable:
 |[nightly-unstable] font-size-118]] **Reasons why**: 'font-size: smaller' is impossible to convert to an absolute value: I explained all this in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Feb/0011.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2012Feb/0011.html]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/line-height-applies-to-010.htm
 |[RC6] line-height-applies-to-010]] **Reasons why**: 
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/containing-block-009.htm
-|[RC6] containing-block-009]] **Reasons why**: some browsers have different horizontal margins for body; most browsers (IE8+, Firefox, Opera, Chrome, Safari) use margin: 8px for body element while Konqueror 4 uses margin: 10px. I do not see how to work around such difficulty when creating a reftest for this test. In order words, a) the horizontal gap between left edge of viewport and leftmost black border is 58px in IE8+, Firefox, Opera, Chrome and Safari but 60px in Konqueror 4 and b)the horizontal gap between rightmost black border and right edge of viewport is 58px in IE8+, Firefox, Opera, Chrome and Safari but 60px in Konqueror 4.
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-size-119.htm
 |[nightly-unstable] font-size-119]] **Reasons why**: font-size keywords can not be reliably converted into font-size pixels. So, there is no way to know how tall the document box is; so presence of vertical scrollbar and its relative position are undefined
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c24-first-lttr-000.htm
@@ -165,3 +163,6 @@ The following is a list of 22 CSS2.1 tests that appear to be unreftestable:
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/floats-101.htm
 |[RC6] floats-101]] **Reasons why**: I do not remember right now.</del> I have now been able to create a reftest. In the test, margin collapsing was not occuring while it must occur in the reftest. So, code has been adjusted to take into consideration, take into account this.
+
+<del>[[http://test.csswg.org/suites/css2.1/20110323/html4/containing-block-009.htm
+|[RC6] containing-block-009]] **Reasons why**: (...) .</del> I have now been able to create a reftest.
