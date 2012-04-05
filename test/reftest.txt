@@ -1,0 +1,167 @@
+====== Reftests ======
+
+A //reftest// is a test that compares the visual output of one file (the testcase) with the output of one or more other files (the references). Unlike the standard [[test:selftest|self-describing tests]], reftests can be scripted to run and report results automatically.
+
+A test can be both a [[test:selftest|self-describing tests]] and a reftest at the same time. This is preferable, since it allows for both machine comparison and manual verification--particularly useful if the test and the reference both render incorrectly in the same way!
+
+<note example>
+
+Here is an example of a reftest that is also a self-describing test:
+
+  ; [[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/rotate-90deg-001.xht|TEST]]
+  : The test file uses a fuchsia top border and an orange background to create a two-color square block that is then rotated 90deg using the ''transform'' property.
+  ; [[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/reftest/rotate-90deg-001-ref.xht|REF]]
+  : The reference file achieves the intended rendering by using a fuchsia left border and an orange background and no ''transform''.
+
+</note>
+
+In some cases, a test cannot be a reftest. For example, there is no way to create a reference for underlining, since the position and thickness of the underline depends on the UA, the font, and/or the platform. In such cases, a [[test:selftest|self-describing test]] must be used. However, once it's established that underlining an inline element works, it's possible to construct a reftest for the correct //propagation// of underlines from blocks to their descendant text, e.g. by constructing a reference that applies underlining to a ''<span>'' wrapped around the underlined text.
+
+===== Components of a Reftest =====
+
+A reftest has three parts:
+
+  ; test file : The test file. This must follow the [[format|CSS test format guidelines]].
+  ; reference file : This is a different, usually simpler, file that results in the same rendering as the test. The reference file must not use the same features that are being tested. Sometimes more than one reference file is required.
+  ; reftest comparison : One or more reference links that say which files are to be compared and whether they are to render identically or differently.
+
+==== The Reftest Test File ====
+
+The test file uses the technology to be tested. This file must follow the [[format|CSS test format guidelines]].
+
+In addition to matching a reftest reference, the test may also function as an self-describing test. This is preferred because having the description lets the tester check that the test and the reference are not //both// being rendered incorrectly and triggering a false pass, and because designing it for an obvious fail makes it easier to find what went wrong when the reftest does fail.
+
+==== The Reftest Reference File ====
+
+The reference file uses a different method to produce the same rendering as the test file. Multiple tests can (and often do) share the same reference file. 
+
+References should be named after the earliest test that uses them in the ''test-topic'' series they belong to, and must have either ''-ref'' or ''-notref'' appended to the name. Variations on a reference can be denoted by appending additional suffixes after ''-ref'' or ''-notref''. Depending on the test suite, they may be placed in the ''reference'' subdirectory of the main test directory or directly in the main test directory. If they are placed in the ''reference'' subdirectory then the ''-ref'' or ''-notref'' suffix may be omitted from their filename.
+
+In some cases when creating the reference file, it is necessary to use features that, although different from the tested features, may themselves fail in such a manner as to cause the reference to render identically to a failed test. When this is the case, in order to reduce the possibility of false positive testing outcomes, multiple reference files should be used, each using a different technique to render the reference. One possibility is to create one or more references that must **not** match the test file, i.e.: a file that renders in the same manner as a failed test.
+
+In other cases, the specification under test may allow multiple possible renderings. In this situation references must be supplied for each allowed rendering.
+
+<note example>
+For example, if two self-describing tests ''list-style-type-003.xht'' and ''list-style-type-004.xht'' share the same reference, that reference could be named ''list-style-type-003-ref.xht''.
+</note>
+
+=== Simplified Reference Format ===
+
+Like the format for the test file, the reftest reference format is also XHTML in UTF-8 with bitmap images in PNG format. Unlike the format for the test file, there is no metadata except for the [[format#credits|author credits]] and optional [[format#reference-links|reference links]].
+
+<code html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>CSS Reftest Reference</title>
+  <link rel="author" title="NAME_OF_AUTHOR" href="mailto:EMAIL OR http://CONTACT_PAGE"/>
+  <style type="text/css"><![CDATA[
+   CSS FOR REFERENCE
+  ]]></style>
+ </head>
+ <body>
+  CONTENT OF REFERENCE
+ </body>
+</html>
+</code>
+
+=== Common References ===
+
+There are several common references, such as those used for parsing and selectors tests. Their names begin with ''ref-'' so they can be easily found in the ''reftest'' directory. Email public-css-testsuite@w3.org if you would like to add to the common references collection.
+
+==== The Reftest Comparison Links ====
+
+In order to designate which files are to be compared to the test file, and the nature of the comparison, the test file must have one or more links to the reference files [[format#reference-links|as described in the test format]].
+
+  * If multiple reference files must be matched, each reference file should, in turn, link to the next reference.
+  * If multiple renderings are conforming, each possible rendering should have its own reference file linked from the test file.
+  * In cases where it's likely for the test and the reference to misrender identically, the test should also have one (or more) mismatch references.
+
+===== The Reftest Manifest =====
+
+Note: The use of reftest manifest files in the test source is deprecated in favor of reference links.
+
+The reftest manifest is a plain text file that lists test-reference pairs for comparison. The test build process produces reftest manifests as needed for input into testing tools.
+
+Each line starts with ''=='' to indicate equality or ''!='' to indicate inequality. This is followed by a space, the relative path to the test file, another space, and the relative path to the reference.
+
+If a test has multiple ''=='' references then at least one of those references must match the test. If a test has multiple ''!='' references, then none of those references may match the test. The reference file may also have entries in the manifest: in this case, the renderings of the references must match each other as well in order to consider the test as passed.
+
+White space followed by ''#'' indicates the start of a comment that runs until the end of the line. A line starting with ''#'' is also a comment.
+
+The reftest manifest should be named ''reftest.list'' and placed in the ''reference'' subdirectory of the main test directory.
+
+<note example>
+Here is an example of a reftest manifest.
+
+<code>
+# reftest.list snippet
+== ../test-topic-000.xht test-topic-000-ref.xht
+== ../test-topic-001.xht test-topic-001-ref.xht
+== ../test-topic-002.xht test-topic-000-ref.xht # note same reference as test 000
+</code>
+</note>
+
+[[http://mxr.mozilla.org/mozilla-central/source/layout/tools/reftest/README.txt|Mozilla's manifest format]], which is more-or-less a superset of the W3C format, allows annotations such as whether the test is expected to pass or fail. These can be useful when setting up automated regression testing.
+
+===== Converting to Reftest =====
+
+Most of the CSS2.1 tests are self-describing tests that //could// be reftests, but are not. (They were written before the reftest format was adopted.) They are slowly being converted into reftests, and your help in this effort is welcome. Some guidelines are offered below:
+
+  * **If the test uses Ahem, make sure its font size is a multiple of 5px**, otherwise it may render inconsistently (due to rounding errors introduced by certain platforms' font APIs).
+  * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
+  * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
+
+==== 22 unreftestable tests ====
+
+The following is a list of 22 CSS2.1 tests that appear to be unreftestable:
+
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
+|[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/float-001.htm
+|[RC6] float-001]] **Reasons why**: Text flowing around a floated box is very difficult to reftest.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/float-002.htm
+|[RC6] float-002]] **Reasons why**: Text flowing around a floated box is very difficult to reftest.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5523-width-000.htm|[RC6] c5523-width-000]] **Reasons why**: the baseline line in a line box when/where there is a taller inline box than the set line height is not predictable. "The inline-level boxes are aligned vertically according to their 'vertical-align' property. (...) If such boxes are tall enough, there are multiple solutions and **CSS 2.1 does not define the position of the line box's baseline**" [[http://www.w3.org/TR/CSS21/visudet.html#line-height|CSS 2.1, section 10.8, Line height calculations]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c565-list-pos-001.htm
+|[RC6] c565-list-pos-001]] **Reasons why**: list marker position
+  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5524-height-000.htm
+|[RC6] c5524-height-000]] **Reasons why**: the baseline line in a line box when/where there is a taller inline box than the set line height is not predictable. "The inline-level boxes are aligned vertically according to their 'vertical-align' property. (...) If such boxes are tall enough, there are multiple solutions and **CSS 2.1 does not define the position of the line box's baseline**" [[http://www.w3.org/TR/CSS21/visudet.html#line-height|CSS 2.1, section 10.8, Line height calculations]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c566-list-stl-001.htm
+|[RC6] c566-list-stl-001]] **Reasons why**: list image position.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c564-list-img-000.htm
+|[RC6] c564-list-img-000]] **Reasons why**: list image position.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c563-list-type-001.htm
+|[RC6] c563-list-type-001]] **Reasons why**: list image position.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5510-padn-000.htm
+|[RC6] c5510-padn-000]] **Reasons why**:  [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0010.html|Fractional pixel issues in c5510-padn-000]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-164.htm
+|[RC6] margin-collapse-164]] **Reasons why**: As of today, March 1st 2012, it is still not established officially if the test is valid or invalid, correct or incorrect.
+  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/line-height-125.htm
+|[nightly-unstable] line-height-125]] **Reasons why**: the offsetHeight of FAIL varies from one browser to another and when using a different font. When using the same font type ("Liberation Serif"), the offsetHeight of the text node "FAIL" is 57px in Chrome 17 and 56px in Firefox 10.0.2 and Opera 11.61. With other font types, there is and should be still a 1px difference.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-143.htm
+|[RC6] floats-143]] **Reasons why**: When using the same sans-serif font, different browsers will use a different offsetWidth for the text node "PA" and for the text node "SS". For example, when using "DejaVu Sans" font, Chrome 17.0.963.56 will use 48px for "PA" and then 46px for "SS" while Firefox 10.0.2 and Opera 11.61 will use 45px for both "PA" and "SS". Used width of text nodes is impredictable.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-146.htm
+|[RC6] floats-146]] **Reasons why**: 0.2em padding and 0.2em margin create fractional pixels; left-floating box B and right-floating box C are difficult to position within a fixed width container.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-151.htm
+|[RC6] floats-151]] **Reasons why**: the offsetWidth of the div varies from one browser to another.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5525-fltwrap-000.htm
+|[RC6] c5525-fltwrap-000]] **Reasons why**: Precise positioning of a left-floated box and of a right-floated box inside a common container is tricky and probably impossible to do for several browsers.
+  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-weight-016.htm
+|[nightly-unstable] font-weight-016]] **Reasons why**: it's probably impossible to create a reftest for this as it is impossible to know in advance how font-weight characters will affect width. It varies from one browser to another.
+  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-size-118.htm
+|[nightly-unstable] font-size-118]] **Reasons why**: 'font-size: smaller' is impossible to convert to an absolute value: I explained all this in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Feb/0011.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2012Feb/0011.html]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/line-height-applies-to-010.htm
+|[RC6] line-height-applies-to-010]] **Reasons why**: 
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/containing-block-009.htm
+|[RC6] containing-block-009]] **Reasons why**: some browsers have different horizontal margins for body; most browsers (IE8+, Firefox, Opera, Chrome, Safari) use margin: 8px for body element while Konqueror 4 uses margin: 10px. I do not see how to work around such difficulty when creating a reftest for this test. In order words, a) the horizontal gap between left edge of viewport and leftmost black border is 58px in IE8+, Firefox, Opera, Chrome and Safari but 60px in Konqueror 4 and b)the horizontal gap between rightmost black border and right edge of viewport is 58px in IE8+, Firefox, Opera, Chrome and Safari but 60px in Konqueror 4.
+  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-size-119.htm
+|[nightly-unstable] font-size-119]] **Reasons why**: font-size keywords can not be reliably converted into font-size pixels. So, there is no way to know how tall the document box is; so presence of vertical scrollbar and its relative position are undefined
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c24-first-lttr-000.htm
+|[RC6] c24-first-lttr-000]] **Reasons why**: browsers may apply different line-height value to :first-letter pseudo-element. When using DejaVu Serif font, Firefox 11.0 and Chrome 18.0.1025.142 apply line-height: 1.17 while Opera 11.62 applies line-height: 1.18.
+
+<del>[[http://test.csswg.org/suites/css2.1/20110323/html4/inline-formatting-context-023.htm
+|[RC6] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.</del> I have concluded that Opera 11.61 has a bug. So, the reftest for this test has been done.
+
+<del>[[http://test.csswg.org/suites/css2.1/20110323/html4/floats-101.htm
+|[RC6] floats-101]] **Reasons why**: I do not remember right now.</del> I have now been able to create a reftest. In the test, margin collapsing was not occuring while it must occur in the reftest. So, code has been adjusted to take into consideration, take into account this.
