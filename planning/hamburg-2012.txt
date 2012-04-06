@@ -142,7 +142,7 @@ it is about 10 minutes longer to run but it is the same line ( S-Bahn No.1 Direc
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Glenn Adams | Cox | May 8 | May 12 | East | UA1687/908, UA59/1002 | |
 | David Baron | Mozilla | May 5, 7:30am | May 12, 11:20am | Hotel am Holstenwall Novum Hamburg Mitte | CO74, LH3274 | |
-| Rik Cabanier | Adobe | May 5, 11:45am | May 12 8:45am | | KLM 1779 / KLM 1778
+| Rik Cabanier | Adobe | May 5, 11:45am | May 12, 8:45am | | KLM 1779 / KLM 1778 | |
 | Edward O'Connor | Apple | May 6 | May 14 | 25Hours Hotel HafenCity | UA0954 UA9238 / UA9045 UA0901 | |
 | John Daggett | Mozilla | May 7 | May 11 | [[http://gasthafen.de/home.php|AirBnB apartment in Ottensen]] | JL407/JL408 | |
 | Vincent Hardy | Adobe | May 3rd| May 12th| East | ?? |  |
