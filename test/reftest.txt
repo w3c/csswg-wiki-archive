@@ -150,7 +150,7 @@ The following is a list of 21 CSS2.1 tests that appear to be unreftestable:
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-size-118.htm
 |[nightly-unstable] font-size-118]] **Reasons why**: 'font-size: smaller' is impossible to convert to an absolute value: I explained all this in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Feb/0011.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2012Feb/0011.html]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/line-height-applies-to-010.htm
-|[RC6] line-height-applies-to-010]] **Reasons why**: 
+|[RC6] line-height-applies-to-010]] **Reasons why**: list marker position
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-size-119.htm
 |[nightly-unstable] font-size-119]] **Reasons why**: font-size keywords can not be reliably converted into font-size pixels. So, there is no way to know how tall the document box is; so presence of vertical scrollbar and its relative position are undefined
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c24-first-lttr-000.htm
