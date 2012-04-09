@@ -144,19 +144,19 @@ The following is a list of 21 CSS2.1 tests that appear to be unreftestable:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-151.htm
 |[RC6] floats-151]] **Reasons why**: the offsetWidth of the div varies from one browser to another.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5525-fltwrap-000.htm
-|[RC6] c5525-fltwrap-000]] **Reasons why**: Precise positioning of a left-floated box and of a right-floated box inside a common container is tricky and probably impossible to do for several browsers.
+|[RC6] c5525-fltwrap-000]] **Reasons why**: Main number 1 reason is that content of central column should flow around left column and then below left column when it is past the bottom of left column. This is impossible to simulate with a table or with DHTML layers. Secondary reasons: 1- fractional pixels may be rendered differently with properties using different elements (positioned DHTML layers, floated blocks, table cells) 2- the 8px margin bottom of body element is difficult to simulate when using positioned DHTML layers.
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-weight-016.htm
 |[nightly-unstable] font-weight-016]] **Reasons why**: it's probably impossible to create a reftest for this as it is impossible to know in advance how font-weight characters will affect width. It varies from one browser to another.
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-size-118.htm
 |[nightly-unstable] font-size-118]] **Reasons why**: 'font-size: smaller' is impossible to convert to an absolute value: I explained all this in [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Feb/0011.html|http://lists.w3.org/Archives/Public/public-css-testsuite/2012Feb/0011.html]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/line-height-applies-to-010.htm
-|[RC6] line-height-applies-to-010]] **Reasons why**: 
+|[RC6] line-height-applies-to-010]] **Reasons why**: list marker position
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-size-119.htm
 |[nightly-unstable] font-size-119]] **Reasons why**: font-size keywords can not be reliably converted into font-size pixels. So, there is no way to know how tall the document box is; so presence of vertical scrollbar and its relative position are undefined
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c24-first-lttr-000.htm
 |[RC6] c24-first-lttr-000]] **Reasons why**: browsers may apply different line-height value to :first-letter pseudo-element depending on font used. When using DejaVu Serif font, Firefox 11.0 and Chrome 18.0.1025.142 apply line-height: 1.17 while Opera 11.62 applies line-height: 1.18. When using FreeSerif font, all 3 browsers use the same computed line-height value so that there is no need to specify it.
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/inherit-004.htm
-|[nightly-unstable] inherit-004]] **Reasons why**: "Empty inline elements generate empty inline boxes, but these boxes still have margins, padding, borders and a line height, and thus influence these calculations just like elements with content." coming from [[http://www.w3.org/TR/CSS21/visudet.html#line-height|section 10.8]]. So, a bolder inline can influence height of parent line box.
+|[nightly-unstable] inherit-004]] **Reasons why**: "Empty inline elements generate empty inline boxes, but these boxes still have margins, padding, borders and a line height, and thus influence these calculations just like elements with content." coming from [[http://www.w3.org/TR/CSS21/visudet.html#line-height|section 10.8]]. So, a inline box with 'font-weight: bold' can influence height of line box.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/inline-formatting-context-023.htm
 |[RC6] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.</del> I have concluded that Opera 11.61 has a bug. So, the reftest for this test has been done.
