@@ -25,7 +25,7 @@ Images must be in PNG format.
 
 A set of scripts will generate the various formats (XHTML, HTML, XHTML for Printers) from this source version.
 
-Tests must be //valid// XHTML, so please [[http://validator.w3.org/|validate your tests]] before submission.
+Tests must be //valid// XHTML, so please [[http://validator.w3.org/|validate your tests]] before submission.  For tests that use the HTML style header, the validator may report errors on the flags and assert metadata.  These specific errors can be ignored - this is a known issue and work is in progress to correct the problem.
 
 ===== Template for New Tests =====
 
