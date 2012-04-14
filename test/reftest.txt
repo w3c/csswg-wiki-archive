@@ -160,7 +160,7 @@ The following is a list of 20 CSS2.1 tests that appear to be unreftestable:
 |[RC6] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.</del> I have concluded that Opera 11.61 has a bug. I have now been able to create a reftest for such test.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/floats-101.htm
-|[RC6] floats-101]] </del> I have now been able to create a reftest. In the test, margin collapsing was not occuring while it must occur in the reftest. So, code has been adjusted to take into consideration, take into account this.
+|[RC6] floats-101]] </del> I have now been able to create a reftest for such test. In the test, margin collapsing was not occuring while it must occur in the reftest. So, code has been adjusted to take into consideration, take into account this.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/containing-block-009.htm
 |[RC6] containing-block-009]]</del> I have now been able to create a reftest for such test.
