@@ -112,9 +112,9 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 20 unreftestable tests ====
+==== 19 unreftestable tests ====
 
-The following is a list of 20 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 19 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
@@ -137,10 +137,8 @@ The following is a list of 20 CSS2.1 tests that appear to be unreftestable:
 |[RC6] c5510-padn-000]] **Reasons why**:  [[http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0010.html|Fractional pixel issues in c5510-padn-000]]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-collapse-164.htm
 |[RC6] margin-collapse-164]] **Reasons why**: As of today, March 1st 2012, it is still not established officially if the test is valid or invalid, correct or incorrect.
-  - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-143.htm
-|[RC6] floats-143]] **Reasons why**: When using the same sans-serif font, different browsers will use a different offsetWidth for the text node "PA" and for the text node "SS". For example, when using "DejaVu Sans" font, Chrome 17.0.963.56 will use 48px for "PA" and then 46px for "SS" while Firefox 10.0.2 and Opera 11.61 will use 45px for both "PA" and "SS". Used width of text nodes is impredictable.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-151.htm
-|[RC6] floats-151]] **Reasons why**: the test itself is difficult to understand. The negative margin-left (-10em) is not applied actually anymore than the width of the PASS text node.
+|[RC6] floats-151]] **Reasons why**: the test itself is difficult to understand. The negative margin-left (-10em) is not applied actually anymore (any wider) than the width of the PASS text node. It is possible to do a reftest but maybe not one that will be accurate and precise in all browsers.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5525-fltwrap-000.htm
 |[RC6] c5525-fltwrap-000]] **Reasons why**: Main number 1 reason is that content of central column should flow around left column and then below left column when it is past the bottom of left column. This is impossible to simulate with a table or with DHTML layers. Secondary reasons: 1- fractional pixels may be rendered differently with properties using different elements (positioned DHTML layers, floated blocks, table cells) 2- the 8px margin bottom of body element is difficult to simulate when using positioned DHTML layers. [[http://www.gtalbot.org/BrowserBugsSection/css21testsuite/reftests/c5525-fltwrap-000-is-unreftestable.html | Links, screenshot and tentatives-reftests of c5525-fltwrap-000]]
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-weight-016.htm
@@ -170,3 +168,6 @@ The following is a list of 20 CSS2.1 tests that appear to be unreftestable:
 
 <del>[[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/line-height-125.htm
 |[nightly-unstable] line-height-125]] **Reasons why**: the offsetHeight of FAIL varies from one browser to another and when using a different font. When using the same font type ("Liberation Serif"), the offsetHeight of the text node "FAIL" is 57px in Chrome 17 and 56px in Firefox 10.0.2 and Opera 11.61. With other font types, there is and should be still a 1px difference.</del> I have now been able to create a reftest for such test.
+
+<del>[[http://test.csswg.org/suites/css2.1/20110323/html4/floats-143.htm
+|[RC6] floats-143]] **Reasons why**: When using the same sans-serif font, different browsers will use a different offsetWidth for the text node "PA" and for the text node "SS". For example, when using "DejaVu Sans" font, Chrome 17.0.963.56 will use 48px for "PA" and then 46px for "SS" while Firefox 10.0.2 and Opera 11.61 will use 45px for both "PA" and "SS". Used width of text nodes is impredictable.</del> I have now been able to create a reftest for such test. Albeit it must be said that when using a font like FreeSans, Firefox 11.0 will not match perfectly the reftest; it will be off by 1px.
