@@ -140,7 +140,7 @@ The following is a list of 20 CSS2.1 tests that appear to be unreftestable:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-143.htm
 |[RC6] floats-143]] **Reasons why**: When using the same sans-serif font, different browsers will use a different offsetWidth for the text node "PA" and for the text node "SS". For example, when using "DejaVu Sans" font, Chrome 17.0.963.56 will use 48px for "PA" and then 46px for "SS" while Firefox 10.0.2 and Opera 11.61 will use 45px for both "PA" and "SS". Used width of text nodes is impredictable.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-151.htm
-|[RC6] floats-151]] **Reasons why**: the offsetWidth of the div varies from one browser to another.
+|[RC6] floats-151]] **Reasons why**: the test itself is difficult to understand. The negative margin-left (-10em) is not applied actually anymore than the width of the PASS text node.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5525-fltwrap-000.htm
 |[RC6] c5525-fltwrap-000]] **Reasons why**: Main number 1 reason is that content of central column should flow around left column and then below left column when it is past the bottom of left column. This is impossible to simulate with a table or with DHTML layers. Secondary reasons: 1- fractional pixels may be rendered differently with properties using different elements (positioned DHTML layers, floated blocks, table cells) 2- the 8px margin bottom of body element is difficult to simulate when using positioned DHTML layers. [[http://www.gtalbot.org/BrowserBugsSection/css21testsuite/reftests/c5525-fltwrap-000-is-unreftestable.html | Links, screenshot and tentatives-reftests of c5525-fltwrap-000]]
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/font-weight-016.htm
@@ -160,7 +160,7 @@ The following is a list of 20 CSS2.1 tests that appear to be unreftestable:
 |[RC6] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.</del> I have concluded that Opera 11.61 has a bug. I have now been able to create a reftest for such test.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/floats-101.htm
-|[RC6] floats-101]] </del> I have now been able to create a reftest. In the test, margin collapsing was not occuring while it must occur in the reftest. So, code has been adjusted to take into consideration, take into account this.
+|[RC6] floats-101]] </del> I have now been able to create a reftest for such test. In the test, margin collapsing was not occuring while it must occur in the reftest. So, code has been adjusted to take into consideration, take into account this.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/containing-block-009.htm
 |[RC6] containing-block-009]]</del> I have now been able to create a reftest for such test.
