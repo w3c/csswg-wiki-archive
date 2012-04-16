@@ -273,6 +273,14 @@ The assertion should //not// be:
 
 The test assertion is **optional**. It helps the reviewer understand the goal of the test so that he or she can make sure it is being tested correctly. Also, in case a problem is found with the test later, the testing method (e.g. using 'color' to determine pass/fail) can be changed (e.g. to using 'background-color') while preserving the intent of the test (e.g. testing support for ID selectors).
 
+<note>
+Examples of good test assertions:
+  * "A background image with no intrinsic size covers the entire padding box."
+  * "Word-spacing affects each space (U+0020) and non-breaking space (U+00A0)."
+  * "If 'top' and 'bottom' are specified on an absolutely-positioned replaced element, then any remaining space is split amongst the 'auto' vertical margins."
+  * "text-indent affects only the first line of a block container if that line is also the first formatted line of an element
+</note>
+
 ==== Style Element (embedded styles) ====
 
 <code html>
