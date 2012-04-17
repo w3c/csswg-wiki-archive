@@ -183,5 +183,5 @@ it is about 10 minutes longer to run but it is the same line ( S-Bahn No.1 Direc
   * Device adaptation
   * Prefixes
   * Media Queries level 4
-  * Offer to host F2F meeting in September around the graphical web conference (Andreas Neuman)
+  * Offer to host F2F meeting in September around the graphical web conference (Andreas Neumann, http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Hamburg_2012/agenda_proposals)
   * Add topics here
