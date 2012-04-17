@@ -333,8 +333,10 @@ Most writing systems of the world have at least one common transliteration schem
 
 <code css romanization.css>
 @text-transform romanization 
-{/* ISO 9 (Cyrillic) */
-    transformation: "А	а Ӑ ӑ Ӓ ӓ Ә ә Б б В в Г г Ґ ґ Ҕ ҕ Ғ ғ Д д Ђ ђ Ѓ ѓ Е е Ё	ё Ӗ ӗ Є є Ҽ ҽ Ҿ ҿ
+{
+    character-type: spaced
+ /* ISO 9 (Cyrillic) */
+    transformation: "А а Ӑ ӑ Ӓ ӓ Ә ә Б б В в Г г Ґ ґ Ҕ ҕ Ғ ғ Д д Ђ ђ Ѓ ѓ Е е Ё	ё Ӗ ӗ Є є Ҽ ҽ Ҿ ҿ
                      Ж ж Ӂ ӂ Ӝ ӝ Җ җ З з Ӟ ӟ Ѕ ѕ Ӡ ӡ И и Ӥ ӥ І і Ї ї Й й Ј ј К к Қ қ Ҟ ҟ Л л Љ љ
                      М м Н н Њ њ Ҥ ҥ Ң ң О о Ӧ ӧ Ө ө П п Ҧ ҧ Р р С с Ҫ ҫ Т т Ҭ ҭ Ћ ћ Ќ ќ
                      У у У́ у́ Ў ў Ӱ ӱ Ӳ ӳ Ү ү Ф ф Х х Ҳ ҳ Һ һ Ц ц Ҵ ҵ Ч ч Ӵ ӵ Ҷ ҷ Џ џ Ш ш Щ щ
@@ -351,7 +353,6 @@ Most writing systems of the world have at least one common transliteration schem
                      N n X x O o Ó ó P p R r S s s T t Y y Ý ý Ÿ ÿ F f Ch ch Ps ps Ō ō Ṓ ṓ";
 }
 </code>
-<note>The Greek example above only works if ISSUE 1 is resolved, because Theta, Chi and Psi are transliterated into digraphs that don’t have a single code point in Unicode.</note>
 
 ==== Comic book vikings ====
 In the "Asterix and the Great Crossing" comic book, the Viking characters are supposed to speak a foreign language unintelligible to the main characters, but still understandable to the readers. This is represented by writing down their speech normally, except that some letters are replaced by similarly looking letters found in Scandinavian languages.
