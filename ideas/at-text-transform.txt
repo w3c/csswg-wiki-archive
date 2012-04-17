@@ -13,6 +13,9 @@ The general form of an @text-transform at-rule is:
 
 A text transform created using this at-rule may be used simply by using <transform-name> as the value of the text-transform property. If <transform-name> conflicts with a existing CSS keyword, the conflict is resolved in favor of the name introduced using @text-transform.
 
+
+Each @text-transform rule specifies a value for every text-transform descriptor, either implicitly or explicitly. Those not given explicit value in the rule take the initial value listed with each descriptor in this specification. These descriptors apply solely within the context of the @text-transform rule in which they are defined, and do not apply to document language elements. There is no notion of which elements the descriptors apply to or whether the values are inherited by child elements. When a given descriptor occurs multiple times in a given @text-transform rule, only the last specified value is used; all prior values for that descriptor must be ignored.
+
 ===== The transformation descriptor =====
 
 <code bnf>
