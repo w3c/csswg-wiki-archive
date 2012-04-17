@@ -334,7 +334,7 @@ Most writing systems of the world have at least one common transliteration schem
 <code css romanization.css>
 @text-transform romanization 
 {
-    character-type: spaced
+    character-type: spaced;
  /* ISO 9 (Cyrillic) */
     transformation: "А а Ӑ ӑ Ӓ ӓ Ә ә Б б В в Г г Ґ ґ Ҕ ҕ Ғ ғ Д д Ђ ђ Ѓ ѓ Е е Ё	ё Ӗ ӗ Є є Ҽ ҽ Ҿ ҿ
                      Ж ж Ӂ ӂ Ӝ ӝ Җ җ З з Ӟ ӟ Ѕ ѕ Ӡ ӡ И и Ӥ ӥ І і Ї ї Й й Ј ј К к Қ қ Ҟ ҟ Л л Љ љ
