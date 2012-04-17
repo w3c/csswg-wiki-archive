@@ -125,7 +125,7 @@ Define the processing model on the text for the 'spaced' value, to decide what h
 
 <code>@text-transform foo {
   character-type: spaced;
-  conversion: "aa ca a" to "a c ca";
+  conversion: "aa ca a" to "c a ca";
 }</code>
 </note>
 
