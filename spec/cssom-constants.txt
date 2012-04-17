@@ -20,6 +20,13 @@ This page lists all standardized CSSOM constants in CSS to avoid the creation of
 | 15 | VIEWPORT_RULE | css-device-adapt |
 
 
+====== CSSOM experimental Constants ======
+
+Constants for proposals that have yet to be accepted by the working group are listed below.
+
+|1000| TEXT_TRANSFORM_RULE | proposed for css3-text|
+
+
 ====== CSSOM Vendor Constants ======
 
 Vendors can list their proprietary constants below to avoid cross-vendor overlap.
