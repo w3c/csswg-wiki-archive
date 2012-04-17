@@ -21,32 +21,6 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
   ;Action 2 : add a note on min-width/min-height behavior in the speck (see Issue 17)
   
 ===== Open Issues =====
-==== Issue 18 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Dec/thread.html#msg97
-  ;Summary : combination of margins and item-level flex-align is redundant and is not supporting common case where all items have same alignment.
-  ;Proposal : two properties 'flex-align' and 'flex-item-align'
-Behavior of auto margins in cross direction is TBD. Options are (1) auto margions are set to zero or (2) auto margins behave as horizontal margins in normal flow (align or center)
-
-==== Issue 19 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Nov/0729.html
-  ;Summary : flex() has issues that 'flex' property wouldn't have
-  * flex() applies to 'width' and 'height' properties always, regardless of whether the element is a flexbox item.
-  * because of being applied to broadly used properties, flex() has to have meaning when applied to non-flex-item. It can then be invalid or have a special meaning, neither seem ideal:
-    * if flex() is invalid when not in flexbox, 
-"width:100px; width:flex(1 100px)" means "width:auto" 
-(because the last value wins in cascading, then gets ignored)
-    * if flex() applies to anything as preferred size, 
-"width:flex(1)" means "width:0"
-  * in DOM, specified style has to show as flex(...); any script that read selement.style.width will be broken or will have to parse flex()
-  * having to specify flex separately for width and height forces unnecessary duplication. E.g. if a flexbox is sometimes horizontal and sometimes vertical but flexibility is same, stylesheet may have something like "width:flex(1 auto); height:flex(1 auto)", which will work but is confusing.
-  * combining width/height and flexibility in one property makes it impossible to change them independently
-  * it is unclear if animations and transitions will work flex()
-
-  ;Proposal : separate 'flex' property
-  flex: <pos-flex> <neg-flex>?
-or
-  flex: [ <pos-flex> <neg-flex>? ]? || <preferred-size>?
-<preferred-size> can be defined to have default of 0 and 'auto' value can mean "use value of width or height property"  
 
 ===== Resolved Issues =====
 
@@ -382,6 +356,33 @@ It is always possible to set "min-width:min-content". However it is not the defa
   ;Option 3 : min-width/min-height is consulted after flex distribution. if any item is smaller than min, it gets its min size and no flexibilithy, then flex distribution is restarted
   ;Proposal : Option 3; use of min-width vs min-content to be clarified
   ;Status : Resolved (TPAC2011): minimum width is just min-width: min-content is not an implied minimum  http://krijnhoetmer.nl/irc-logs/css/20111031#l-1591 . (that means min-content is never taken into account in flex calculations, unless used explicitly, e.g. as "min-width:min-content")
+  
+
+==== Issue 18 ====
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Dec/thread.html#msg97
+  ;Summary : combination of margins and item-level flex-align is redundant and is not supporting common case where all items have same alignment.
+  ;Proposal : two properties 'flex-align' and 'flex-item-align'
+Behavior of auto margins in cross direction is TBD. Options are (1) auto margions are set to zero or (2) auto margins behave as horizontal margins in normal flow (align or center)
+  ;Status : Resolved, accepted proposal
+
+==== Issue 19 ====
+  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Nov/0729.html
+  ;Summary : flex() has issues that 'flex' property wouldn't have
+  * flex() applies to 'width' and 'height' properties always, regardless of whether the element is a flexbox item.
+  * because of being applied to broadly used properties, flex() has to have meaning when applied to non-flex-item. It can then be invalid or have a special meaning, neither seem ideal:
+    * if flex() is invalid when not in flexbox, "width:100px; width:flex(1 100px)" means "width:auto" (because the last value wins in cascading, then gets ignored)
+    * if flex() applies to anything as preferred size, "width:flex(1)" means "width:0"
+  * in DOM, specified style has to show as flex(...); any script that read selement.style.width will be broken or will have to parse flex()
+  * having to specify flex separately for width and height forces unnecessary duplication. E.g. if a flexbox is sometimes horizontal and sometimes vertical but flexibility is same, stylesheet may have something like "width:flex(1 auto); height:flex(1 auto)", which will work but is confusing.
+  * combining width/height and flexibility in one property makes it impossible to change them independently
+  * it is unclear if animations and transitions will work flex()
+
+  ;Proposal : separate 'flex' property
+  flex: <pos-flex> <neg-flex>?
+or
+  flex: [ <pos-flex> <neg-flex>? ]? || <preferred-size>?
+<preferred-size> can be defined to have default of 0 and 'auto' value can mean "use value of width or height property"  
+  ;Status : Resolved, accepted proposal.
 
 <html><!--
 
