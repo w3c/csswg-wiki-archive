@@ -41,17 +41,15 @@ A <range> may also be defined as a string made of a single unicode character, fo
 
 If defined by an <enumeration>, it is composed of each character in the string, where what a character is depends on the character-type descriptor. The same character may not appear twice in the <char-list> defining the source of the mapping, otherwise the whole descriptor is invalid.
 
-<note warning>ISSUE 1: The items in an enumeration may instead be space separated. This allows specifying items made of more than 1 characters. Also, although it means we don't have to deal with the question of legacy vs extended grapheme clusters to make the list of items, the question remains open on the document side. Maybe space separated could be opt-in, turned on by a value of the character-type descriptor.</note>
-
 In addition to [[http://www.w3.org/TR/css3-values/#strings|the usual CSS rules of character escaping]], hyphen (U+002D) need to be escaped to appear in a string in a conversion. 
 
 In a <conversion>, If the source <char-list> is longer than the target <char-list>, then the last item of the target list is used for all remaining items in the source list.
 
-<note warning>ISSUE 2: Should we allow spaces and other collapsible characters in the target? Since text-transform is applied after white space collapsing, what are the implications of generating runs of collapsible white space that won't be collapsed?</note>
+<note warning>ISSUE 1: Should we allow spaces and other collapsible characters in the target? Since text-transform is applied after white space collapsing, what are the implications of generating runs of collapsible white space that won't be collapsed? It has been proposed that we should allow them, and trigger a second white space collapsing if they are actually used.</note>
 
-<note warning>ISSUE 3: Should we allow an empty <char-list> as the target? It has been suggested that this be used to delete text. I am not sure I like the idea that text-transform could be able to make some non-empty element empty.</note>
+<note warning>ISSUE 2: Should we allow an empty <char-list> as the target? It has been suggested that this be used to delete text. I am not sure I like the idea that text-transform could be able to make some non-empty element empty.</note>
 
-<note warning>ISSUE 4: It has been suggested that it should be possible to write text-transforms that behave differently on different languages. This can probably be achieved by adding some optional part at the beginning of each <conversion>, although I am not sure what
+<note warning>ISSUE 3: It has been suggested that it should be possible to write text-transforms that behave differently on different languages. This can probably be achieved by adding some optional part at the beginning of each <conversion>, although I am not sure what
 the syntax should be.</note>
 
 Examples:
