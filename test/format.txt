@@ -165,10 +165,10 @@ This test was written by Bert Bos, then reviewed by Boris Zbarsky, who made some
 <link rel="help" href="RELEVANT_SPEC_SECTION" />
 </code>
 
-The specification link elements provide a way to align test with information in the CSS 2.1 specification.
+The specification link elements provide a way to align the test with information in the specification being tested.
 
-  * Links should link to relevant sections within the CSS 2.1 Specification
-  * Use the anchors from the CSS 2.1 Specification [[http://www.w3.org/TR/CSS21/#toc|Table of Contents]]
+  * Links should link to relevant sections within the specification
+  * Use the anchors from the specification's Table of Contents
   * A test can have multiple specification links
     * Always list the primary section that is being tested as the first item in the list of specification links
     * Order the list from the most used/specific to least used/specific
