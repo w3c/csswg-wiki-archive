@@ -21,7 +21,7 @@ The following are requested of all tests submitted to the CSSWG, both for [[test
 
 The preferred submission format for CSSWG tests is either XHTML or HTML5, in UTF-8. Note that when using any characters beyond the ASCII set, in any encoding, the character encoding must be specified properly per the specification of the source format. HTML < 5 is also acceptable, but it will be processed by an HTML5 compatible parser. Note that in general, the test source will be parsed and re-serialized, even in its source format.
 
-Images must be in PNG format.
+Images must be in either PNG or SVG format. Do not use JPEG, because sharp edges can't be exactly represented in that format.
 
 A set of scripts will generate the various formats (XHTML, HTML, XHTML for Printers) from this source version.
 
