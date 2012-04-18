@@ -19,14 +19,15 @@ The following are requested of all tests submitted to the CSSWG, both for [[test
 
 ===== Acceptable Test Formats =====
 
-The preferred submission format for CSSWG tests is either XHTML or HTML5, in UTF-8. Note that when using any characters beyond the ASCII set, in any encoding, the character encoding must be specified properly per the specification of the source format. HTML < 5 is also acceptable, but it will be processed by an HTML5 compatible parser. Note that in general, the test source will be parsed and re-serialized, even in its source format.
+The preferred submission format for CSSWG tests is either XHTML or HTML5, in UTF-8. HTML < 5 is also acceptable, but it will be processed by an HTML5 compatible parser. Note that in general, the test source will be parsed and re-serialized, even in its source format.
 
-Images must be in either PNG or SVG format. Do not use JPEG, because sharp edges can't be exactly represented in that format.
+Images must be in either PNG or SVG format. (PNG is preferred where raster images can be used.)
 
 A set of scripts will generate the various formats (XHTML, HTML, XHTML for Printers) from this source version.
 
 Tests must be //valid//, so please [[http://validator.w3.org/|validate your tests]] before submission.  For tests that use the HTML style header, the validator may report errors on the flags and assert metadata.  These specific errors can be ignored - this is a known issue and work is in progress to correct the problem.
 
+When using any characters beyond the ASCII set, in any encoding, the character encoding must be specified properly per the specification of the source format.
 ===== Template for New Tests =====
 
 A template for new tests follows. Copy and paste the code below into a new file or save {{test:css2.1:test-topic-000.xht|this template file}} and replace the capitalized parts as described below.
