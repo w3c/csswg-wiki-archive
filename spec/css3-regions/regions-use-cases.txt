@@ -253,6 +253,38 @@ With CSS Regions I can filter the content and surface it. Possible use cases: "b
 
 Idea from [[https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html#shadow-dom-example|Shadow DOM Example]]
 
+==== Converting hard breaks to named flows ====
+
+Some pages (see [[http://ilovetypography.com/2012/04/06/type-camp-india/|Type Camp India]]) break up a single article into segments in order to create the layout they want. Instead of using these hard breaks, the content could go into a named flow and the sections could be turned into regions. The regions can then be sized and arranged according to the layout desired and the content flowed smoothly between them.
+
+If you have markup like this:
+
+<code html>
+<div class="segment"><p>Some segment of the content...</p></div>
+<img/>
+<div class="segment"><p>...next segment of the content...</p></div>
+<img/>
+<div class="segment"><p>...next segment of the content...</p></div>
+...
+</code>
+
+You can take the contents of each segment and place them into a named flow:
+
+<code css>
+.segment > * {
+  flow-into: combined-segments;
+}
+</code>
+
+Then create a region chain out of the segments, usually giving them a height to take up in the layout:
+
+<code css>
+.segment {
+  flow-from: combined-segments;
+  height: 50vh;
+}
+</code>
+
 ==== Capturing region overflow content ====
 
 {{:spec:css3-regions:regions_region-overflow.jpg?600|}}
