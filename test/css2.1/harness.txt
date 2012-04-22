@@ -5,7 +5,7 @@ The CSS2.1 Test Suite's final format is generated from the XHTML 1.1 source file
 ===== Build Requirements =====
 
   * Python 2.6 or 2.7 (2.6 preferred for OS X 10.6, 2.7 preferred for OS X 10.7) (note ucs4 support is required, on OSX, use 'port install python26 +ucs4' or 'port install python27 +ucs4' to install)
-  * The [[http://tt2.org/python/|Template-Python module]]
+  * The [[http://tt2.org/python/|Template-Python module]] (Note that the SVN command on that page is incorrect; it should be ''svn co svn:/''''/svn.tt2.org/tt/Template-Python/trunk Template-Python'')
   * The [[http://codespeak.net/lxml/installation.html|lxml Python module]]
   * A [[http://test.csswg.org/source/tools/w3ctestlib/html5lib.patch|patched]] copy of the Python [[http://code.google.com/p/html5lib/|html5lib]] module
   * Perl 5
