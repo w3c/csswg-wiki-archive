@@ -45,7 +45,7 @@ See [[http://lists.w3.org/Archives/Public/www-style/2012Apr/0531.html|Tab's summ
 
 ^Summary^ Combinatorial validity checks when attr() used as component value with fallback of a different type.|
 ^DoC|http://dev.w3.org/csswg/css3-values/issues-lc-2012#issue-21|
-^Note|Restricted attr() so that declared type and fallback type must match when it's used as a component value.|
+^Note|Restricted attr() so that declared type and fallback type must match when it's used as a component value. See [[http://dev.w3.org/csswg/css3-values/#attr-notation|edits]] ("The attr() expression is only valid if") |
 ^Action|WG needs to approve this, or decide on something else|
 
 ==== Numeric Limits Revisited ====
