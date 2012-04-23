@@ -155,7 +155,7 @@ The following is a list of 19 CSS2.1 tests that appear to be unreftestable:
 |[nightly-unstable] inherit-004]] **Reasons why**: "Empty inline elements generate empty inline boxes, but these boxes still have margins, padding, borders and a line height, and thus influence these calculations just like elements with content." coming from [[http://www.w3.org/TR/CSS21/visudet.html#line-height|section 10.8]]. So, a inline box with 'font-weight: bold' can influence height of line box.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
-|[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty.
+|[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty. I have now been able to create a reftest for such test.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/inline-formatting-context-023.htm
 |[RC6] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.</del> I have concluded that Opera 11.61 has a bug. I have now been able to create a reftest for such test.
