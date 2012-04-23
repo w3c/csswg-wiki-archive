@@ -43,10 +43,10 @@ See [[http://lists.w3.org/Archives/Public/www-style/2012Apr/0531.html|Tab's summ
 
 ==== attr() ====
 
-^Summary^ Restrict attr() so that declared type and fallback's type match when it's used as a component.|
+^Summary^ Combinatorial validity checks when attr() used as component value with fallback of a different type.|
 ^DoC|http://dev.w3.org/csswg/css3-values/issues-lc-2012#issue-21|
-^Note|See ?? for explanation|
-^Action|WG needs to decide whether to spec this, and if so, what it is.|
+^Note|Restricted attr() so that declared type and fallback type must match when it's used as a component value.|
+^Action|WG needs to approve this, or decide on something else|
 
 ==== Numeric Limits Revisited ====
 
