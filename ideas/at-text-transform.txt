@@ -45,7 +45,7 @@ In addition to [[http://www.w3.org/TR/css3-values/#strings|the usual CSS rules o
 
 In a <conversion>, If the source <char-list> is longer than the target <char-list>, then the last item of the target list is used for all remaining items in the source list.
 
-<note warning>ISSUE 1: Should we allow spaces and other collapsible characters in the target? Since text-transform is applied after white space collapsing, what are the implications of generating runs of collapsible white space that won't be collapsed? It has been proposed that we should allow them, and trigger a second white space collapsing if they are actually used.</note>
+<note warning>ISSUE 1: Should we allow spaces and other collapsible characters in the target? Since text-transform is applied after white space collapsing, what are the implications of generating runs of collapsible white space that won't be collapsed? It has been proposed that we should allow them, and trigger a second white space collapsing if they are actually used. If we do want to allow them we should consider how that interacts with the proposed 'spaced' value of the character-type descriptor, and whether escaping is needed.</note>
 
 <note warning>ISSUE 2: Should we allow an empty <char-list> as the target? It has been suggested that this be used to delete text. I am not sure I like the idea that text-transform could be able to make some non-empty element empty.</note>
 
