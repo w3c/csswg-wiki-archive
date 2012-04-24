@@ -25,7 +25,7 @@ This page lists all standardized CSSOM constants in CSS to avoid the creation of
 Constants for proposals that have yet to be accepted by the working group are listed below.
 
 |1000| TEXT_TRANSFORM_RULE | proposed for css3-text|
-|1001| REGION_STYLE_RULE | proposed for css3-regions|
+
 
 ====== CSSOM Vendor Constants ======
 
