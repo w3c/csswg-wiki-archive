@@ -84,6 +84,10 @@ Value: extended | legacy | single | spaced
 Default: extended
 </code>
 
+<note warning>
+ISSUE 4: extended is proposed as the default, but is this the right choice? Maybe single would be more suitable
+</note>
+
 This definition affects what is meant by character processing in two different contexts:
 
   * strings used as an <enumeration> in the transformation descriptor
@@ -120,7 +124,7 @@ On the other hand, the following text transform would transform that same sequen
 </code>
 </note>
 
-<note warning> ISSUE 4:
+<note warning> ISSUE 5:
 Define the processing model on the text for the 'spaced' value, to decide what happens to a piece of text like "aaaaa" when a transform like the following is applied to it:
 
 <code>@text-transform foo {
@@ -130,10 +134,10 @@ Define the processing model on the text for the 'spaced' value, to decide what h
 </note>
 
 
-<note warning>ISSUE 5: what happens when either extended or legacy is specified, but the enumeration contains invalid clusters? Skip the invalid character, make the conversion invalid, or make the whole descriptor invalid?</note>
+<note warning>ISSUE 6: what happens when either extended or legacy is specified, but the enumeration contains invalid clusters? Skip the invalid character, make the conversion invalid, or make the whole descriptor invalid?</note>
 
 
-<note warning>ISSUE 6: define what happens when a text-transform refers via its transformation descriptor to another text-transform which has a different character-type. My guess: the original character-type applies to processing the enumerations, while the character-type in the including text-transform applies to the text that will be transformed. Or maybe this means this descriptor should be split in two.</note>
+<note warning>ISSUE 7: define what happens when a text-transform refers via its transformation descriptor to another text-transform which has a different character-type. My guess: the original character-type applies to processing the enumerations, while the character-type in the including text-transform applies to the text that will be transformed. Or maybe this means this descriptor should be split in two.</note>
 
 
 ===== The scope descriptor =====
@@ -334,7 +338,7 @@ Most writing systems of the world have at least one common transliteration schem
 <code css romanization.css>
 @text-transform romanization 
 {
-    character-type: spaced
+    character-type: spaced;
  /* ISO 9 (Cyrillic) */
     transformation: "А а Ӑ ӑ Ӓ ӓ Ә ә Б б В в Г г Ґ ґ Ҕ ҕ Ғ ғ Д д Ђ ђ Ѓ ѓ Е е Ё	ё Ӗ ӗ Є є Ҽ ҽ Ҿ ҿ
                      Ж ж Ӂ ӂ Ӝ ӝ Җ җ З з Ӟ ӟ Ѕ ѕ Ӡ ӡ И и Ӥ ӥ І і Ї ї Й й Ј ј К к Қ қ Ҟ ҟ Л л Љ љ
