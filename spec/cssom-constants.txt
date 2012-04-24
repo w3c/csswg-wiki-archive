@@ -18,6 +18,7 @@ This page lists all standardized CSSOM constants in CSS to avoid the creation of
 | 13 | DOCUMENT_RULE | css3-conditional |
 | 14 | FONT_FEATURE_VALUES_RULE | css3-fonts |
 | 15 | VIEWPORT_RULE | css-device-adapt |
+| 16 | REGION_STYLE_RULE | proposed for css3-regions|
 
 
 ====== CSSOM experimental Constants ======
