@@ -2,6 +2,64 @@
 
 **When:** Wednesday 9 May – Friday 11 May
 
+===== Agenda =====
+
+==== Proposed Topics ====
+
+  * Flexbox prepare LC: resolve all open issues (request for early in the F2F, so edits can be made and approved by the end of the week)
+  * CSS3 Text prepare LC: resolve all open issues
+  * CSS3 Values and Units CR: resolve all LC issues
+  * CSS3 Writing Modes: create a roadmap for getting to LC (what needs to be solved, what can be deferred)
+  * Grid Template level 3:
+    - Present a new syntax that merges templates and grid layout (15-20 minutes).
+    - Discuss the [[http://dev.w3.org/csswg/css3-layout/#history|design choices]] and the features: which are in, which are out, which are for level 4... (90-100 minutes).
+  * Grid Template level 4 - region-based styling, chaining regions, grid templates for paged media... (This should maybe be a subtopic of a larger topic about advanced layout, page templates, learning from XSL, needs of the publishing industry, etc., with help from Liam.)
+  * CSS Regions 
+  * CSS Exclusions Issues
+  * CSS Page Templates Proposal
+  * @text-transform and text-transform: full-size-kana
+  * Device adaptation
+  * Prefixes
+  * Media Queries level 4
+  * CSS3 Fonts
+  * Offer to host F2F meeting in September (Andreas Neumann, [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Hamburg_2012/agenda_proposals|proposal]])
+  * Advanced printing controls from XSL-FO
+
+==== Wednesday May 9th ====
+
+  * Morning: FX task force meeting with the SVG Working Group (use [[http://www.w3.org/Graphics/fx/wiki/F2F/Hamburg_2012_Agenda|FX wiki]] for agenda items)
+
+===== Participants =====
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Glenn Adams | Cox | May 8 | May 12 | East | UA1687/908, UA59/1002 | |
+| David Baron | Mozilla | May 5, 7:30am | May 12, 11:20am | Hotel am Holstenwall Novum Hamburg Mitte | CO74, LH3274 | |
+| Rik Cabanier | Adobe | May 5, 11:45am | May 12, 8:45am | | KLM 1779 / KLM 1778 | |
+| Edward O'Connor | Apple | May 6 | May 14 | 25Hours Hotel HafenCity | UA0954 UA9238 / UA9045 UA0901 | |
+| John Daggett | Mozilla | May 7 | May 11 | [[http://gasthafen.de/home.php|AirBnB apartment in Ottensen]] | JL407/JL408 | |
+| Vincent Hardy | Adobe | May 3rd| May 12th| East | ?? |  |
+| Dirk Schulze | Adobe | May 6th| May 13th| East | ?? |  |
+| Molly Holzschlag | W3C Invited Experts | Not able to attend |
+| Peter Linss | HP | May 8 | May 12 | East | UA9238 / UA75 | |
+| Luke Macpherson | Google | ?? | ?? | ?? | ?? | |
+| Liam Quin | W3C | May 8, 9:10am | May 12, 11:20am | City Hotel Monopol | LH 2704 / LH 3274 | |
+| Steve Zilles | Adobe | ??| ??| ?? | ?? |  |
+| Florian Rivoal | Opera | May 8 | May 12 | Hanse Clipper Haus | ?? | |
+| Bert Bos | W3C | May 8, 14:05 | May 12, 11:35 | Motel One Hamburg-Alster | LX1056 / SN2624 | |
+| Daniel Glazman | Disruptive Innovations | May 8, 5pm| May 12, 9:40am | Hotel Lafayette | AF2310/1411 | |
+| Alan Stearns | Adobe | May 7th | May 12th | East |  |  |
+| Sylvain Galineau | Microsoft | May 8th, 9pm | May 11th, 3pm | Radisson |  |  |
+| Tab Atkins | Google | ? | ? | Clipper Elb | ? | |
+| fantasai | Mozilla | May 6th | May 12th | Clipper Elb | | |
+| Koji Ishii | Invited Expert | ? | ? | Imperial Hamburg | | |
+| Shane Stephens | Google | May 7th | May 12th | Hafen Hamburg | ?? | |
+| Jet Villegas | Mozilla | May 6th | May 12th | ?? | ?? | |
+| Chris Lilley | W3C|  |  |  |  | remote|
+
+Regrets:
+  * Tantek Çelik
+
+===== Logistics =====
+
 **Where:** [[http://maps.google.com/maps?q=Adobe%20Systems%20Engineering%20GmbH%0D%0AGroße%20Elbstraße%2027%0D%0A22767%20Hamburg%20%28Altona%2DAltstadt%29%20%0D%0A|google map]] [[http://www.adobe.com/aboutadobe/careeropp/locations.html#Anchor-Hamburg-45656|Adobe Hamburg Office Description]]
 
 <file>
@@ -138,56 +196,3 @@ it is about 10 minutes longer to run but it is the same line ( S-Bahn No.1 Direc
   * [[http://www.hvv.de/en/tickets/day-tickets/9-o-clock-day-ticket/|Daily ticket (starting at 9 o’clock)]]: 5.60 €
   * [[http://www.hvv.de/en/tickets/day-tickets/3-day-ticket/|3-Day-Ticket]]: 16.80 €
 
-===== Participants =====
-^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
-| Glenn Adams | Cox | May 8 | May 12 | East | UA1687/908, UA59/1002 | |
-| David Baron | Mozilla | May 5, 7:30am | May 12, 11:20am | Hotel am Holstenwall Novum Hamburg Mitte | CO74, LH3274 | |
-| Rik Cabanier | Adobe | May 5, 11:45am | May 12, 8:45am | | KLM 1779 / KLM 1778 | |
-| Edward O'Connor | Apple | May 6 | May 14 | 25Hours Hotel HafenCity | UA0954 UA9238 / UA9045 UA0901 | |
-| John Daggett | Mozilla | May 7 | May 11 | [[http://gasthafen.de/home.php|AirBnB apartment in Ottensen]] | JL407/JL408 | |
-| Vincent Hardy | Adobe | May 3rd| May 12th| East | ?? |  |
-| Dirk Schulze | Adobe | May 6th| May 13th| East | ?? |  |
-| Molly Holzschlag | W3C Invited Experts | Not able to attend |
-| Peter Linss | HP | May 8 | May 12 | East | UA9238 / UA75 | |
-| Luke Macpherson | Google | ?? | ?? | ?? | ?? | |
-| Liam Quin | W3C | May 8, 9:10am | May 12, 11:20am | City Hotel Monopol | LH 2704 / LH 3274 | |
-| Steve Zilles | Adobe | ??| ??| ?? | ?? |  |
-| Florian Rivoal | Opera | May 8 | May 12 | Hanse Clipper Haus | ?? | |
-| Bert Bos | W3C | May 8, 14:05 | May 12, 11:35 | Motel One Hamburg-Alster | LX1056 / SN2624 | |
-| Daniel Glazman | Disruptive Innovations | May 8, 5pm| May 12, 9:40am | Hotel Lafayette | AF2310/1411 | |
-| Alan Stearns | Adobe | May 7th | May 12th | East |  |  |
-| Sylvain Galineau | Microsoft | May 8th, 9pm | May 11th, 3pm | Radisson |  |  |
-| Tab Atkins | Google | ? | ? | Clipper Elb | ? | |
-| fantasai | Mozilla | May 6th | May 12th | Clipper Elb | | |
-| Koji Ishii | Invited Expert | ? | ? | Imperial Hamburg | | |
-| Shane Stephens | Google | May 7th | May 12th | Hafen Hamburg | ?? | |
-| Jet Villegas | Mozilla | May 6th | May 12th | ?? | ?? | |
-| Chris Lilley | W3C|  |  |  |  | remote|
-
-Regrets:
-  * Tantek Çelik
-
-===== Agenda =====
-
-  * TBD
-====== Wednesday May 9th ======
-
-  * Morning: FX task force meeting with the SVG Working Group (use [[http://www.w3.org/Graphics/fx/wiki/F2F/Hamburg_2012_Agenda|FX wiki]] for agenda items)
-
-=== Proposed Topics ===
-
-  * Grid Template level 3:
-    - Present a new syntax that merges templates and grid layout (15-20 minutes).
-    - Discuss the [[http://dev.w3.org/csswg/css3-layout/#history|design choices]] and the features: which are in, which are out, which are for level 4... (90-100 minutes).
-  * Grid Template level 4 - region-based styling, chaining regions, grid templates for paged media... (This should maybe be a subtopic of a larger topic about advanced layout, page templates, learning from XSL, needs of the publishing industry, etc., with help from Liam.)
-  * CSS Regions 
-  * CSS Exclusions Issues
-  * CSS Page Templates Proposal
-  * @text-transform and text-transform: full-size-kana
-  * Device adaptation
-  * Prefixes
-  * Media Queries level 4
-  * CSS3 Fonts
-  * Offer to host F2F meeting in September (Andreas Neumann, [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Hamburg_2012/agenda_proposals|proposal]])
-  * Advanced printing controls from XSL-FO
-  * Add topics here
