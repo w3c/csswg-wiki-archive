@@ -18,9 +18,10 @@
   * Box generation: should we have a module to allow CSS box generation?
   * CSS Page Templates Proposal
   * CSS Regions:
-    - Issue 16858: should elements be disallowed as regions.
+    - Issue 16858: should elements be disallowed as regions
     - Issue 15832: Discussion region-overflow
-    - Issue 16636: should we re-introduce region-order? Should be possible with the region processing model.
+    - Issue 16636: should we re-introduce region-order? Should be possible with the region processing model
+    - Issue 15734: @region and specificity
   * CSS Exclusions Issues
   * @text-transform and text-transform: full-size-kana
   * Device adaptation
