@@ -16,7 +16,7 @@
     - Discuss the [[http://dev.w3.org/csswg/css3-layout/#history|design choices]] and the features: which are in, which are out, which are for level 4... (90-100 minutes).
   * Grid Template level 4 - region-based styling, chaining regions, grid templates for paged media... (This should maybe be a subtopic of a larger topic about advanced layout, page templates, learning from XSL, needs of the publishing industry, etc., with help from Liam.)
   * Box generation: should we have a module to allow CSS box generation? (15733)
-  * CSS Page Templates Proposal: [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15187|Issue 15187]] 
+  * CSS Page Templates Proposal: [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15187|Issue 15187]] and [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15186|Issue 15186]]
   * CSS Regions:
     - Issue 16858: should elements be disallowed as regions
     - Issue 15832: Discussion region-overflow
