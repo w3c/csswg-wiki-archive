@@ -17,7 +17,7 @@
   * Grid Template level 4 - region-based styling, chaining regions, grid templates for paged media... (This should maybe be a subtopic of a larger topic about advanced layout, page templates, learning from XSL, needs of the publishing industry, etc., with help from Liam.)
   * CSS Regions:
     - Issue 16858: should elements be disallowed as regions.
-
+    - Discussion region-overflow
   * CSS Exclusions Issues
   * CSS Page Templates Proposal
   * @text-transform and text-transform: full-size-kana
