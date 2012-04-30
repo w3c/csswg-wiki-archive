@@ -20,6 +20,7 @@
   * CSS Regions:
     - Issue 16858: should elements be disallowed as regions.
     - Discussion region-overflow
+    - Issue 16636: should we re-introduce region-order? Should be possible with the region processing model.
   * CSS Exclusions Issues
   * @text-transform and text-transform: full-size-kana
   * Device adaptation
