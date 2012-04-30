@@ -25,6 +25,7 @@
   * CSS3 Fonts
   * Offer to host F2F meeting in September (Andreas Neumann, [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Hamburg_2012/agenda_proposals|proposal]])
   * Advanced printing controls from XSL-FO
+  * CSS Line Layout Module
 
 ==== Wednesday May 9th ====
 
