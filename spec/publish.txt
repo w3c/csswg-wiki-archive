@@ -38,10 +38,11 @@ Replace >>marked<< items:
     >>http://lists.w3.org/...<<
   The editor's draft is here:
     >>http://dev.w3.org/...<<
-  Can you please set this up for publication? Is >>this date<< an acceptable publishing date?
+  Can you please set this up for publication? Is >>future date<< an acceptable publishing date?
   Thanks,
   >>your signature<<
 
+Where >>future date<< is a Tuesday or Thursday giving the Webmaster enough time to check and correct the draft.
 ===== Template for WD Announcement to www-style =====
 
 The www-style message is your chance to update WG and www-style members who haven't been reading all of your module's deeply involved threads as to what's happening with your module.
