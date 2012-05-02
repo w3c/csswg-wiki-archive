@@ -92,6 +92,7 @@ Replaced the >>marked<< items. Here's a standard [[http://www.w3.org/blog/CSS/20
   The CSS Working Group has published an updated Working Draft of <a href="http://www.w3.org/TR/css3-foo">CSS Foo</a>. >>one-sentence summary of module<<
   
   >>What's new, what's cool, what you'd like feedback on, what to expect going forward<<
+  Significant changes are <a href="http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes">listed in the draft</a>.
   
   As always, please send feedback to <a href="http://lists.w3.org/Archives/Public/www-style/">www-style</a> with the spec code (<code>>>[css3-foo]<<</code>) and your comment topic in the subject line.
   
