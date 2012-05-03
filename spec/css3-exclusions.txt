@@ -8,6 +8,8 @@ This page started from the initial [[http://dev.w3.org/csswg/css3-exclusions//|C
 
 [[ideas:css3-exclusions-use-cases|CSS Exclusions and Shapes Use Cases]]
 
+[[ideas:css3-exclusions-print-use-cases|CSS Exclusions and Shapes Use Cases from Print Sources]]
+
 ===== Spec and Test Metadata =====
 
 Each of the Regions tests will have metadata that points back one or more ids used in the Regions spec. These ids may be heading or dfn elements, or they may be ids added at the paragraph or sentence level to indicate a specific conformance requirement that must be tested. We should be able to scan the spec for ids (ignoring non-testable ids) and find at least one test for every testable id in the spec.
