@@ -10,12 +10,12 @@ Here there's a circle shape affecting the flow of two columns. This could be don
 
 This layout has many interesting possible expressions in CSS:
 
-- A background with a shape
-  - pulled from image data
-  - extracted from content edges
-  - defined in a path
-- A bottom-positioned float with a shape
-- One or more exclusions outside the text flow
+  - A background with a shape
+    - pulled from image data
+    - extracted from content edges
+    - defined in a path
+  - A bottom-positioned float with a shape
+  - One or more exclusions outside the text flow
 
 === Pull Quotes ===
 
