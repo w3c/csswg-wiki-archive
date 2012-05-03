@@ -20,7 +20,9 @@ Code Samples
 
 Use cases
 
-[[spec:css3-regions:regions-use-cases|CSS Regions and Exclusions Use Cases]]
+[[spec:css3-regions:regions-use-cases|CSS Regions Use Cases]]
+
+[[spec:css3-regions:regions-print-use-cases|CSS Regions Use Cases from Print Sources]]
 
 [[spec:css3-regions:regions-scope|Scope Issues]]
 
