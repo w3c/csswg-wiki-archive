@@ -21,7 +21,24 @@ This layout has many interesting possible expressions in CSS:
 
 {{ :spec:css3-floats-use-cases:centered-pull-quotes.png?nolink |}}
 
-These pull quotes are from separate flows - the top from the left-side English translation and the bottom from the right-side French translation. While there might be some combination of new float positioning properties that could achieve this effect, two absolutely positioned exclusions is likely to be the simpler design to execute.
+These pull quotes are from separate flows - the top from the left-side English translation and the bottom from the right-side French translation. While there might be some combination of new float positioning properties that could achieve this effect, two absolutely positioned exclusions is likely to be the simpler design to execute. Given an appropriate containing block for the flows, the pull-quotes as exclusions could be positioned like this:
+
+<code css>
+.top-pull {
+  position:absolute;
+  right: 45%;
+  bottom: 50%;
+  max-width:15%;
+  wrap-flow:both;
+}
+.bottom-pull {
+  position:absolute;
+  top: 50%;
+  left: 45%;
+  max-width:15%;
+  wrap-flow:both;
+}
+</code>
 
 === Background Exclusion ===
 
