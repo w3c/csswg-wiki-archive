@@ -29,3 +29,6 @@ Here are proposed improvements to accelerate the advancement of specs. These imp
     * **CR->CR** updates may be published per editor discretion, e.g. when more features are interoperably implemented, which may result in fewer being marked *at-risk*. The 6 month implementation period is *not* restarted.
   * **CR->PR.** At the end of the CR implementation period, the CR is automatically published as a PR. Any features that are not interoperably implemented are dropped and postponed to the next version.
   * **PR->REC.** Follow standard W3C process. Suggestions welcome.
+
+===== See Also =====
+* [[http://www.w3.org/wiki/Spec_Advancement|W3C Spec Advancement proposal]] - a generic form of this proposal for any W3C spec.
