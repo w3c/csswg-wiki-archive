@@ -1,16 +1,40 @@
-=== Shapes with Floats ===
+==== Use Cases from Print Layouts for Exclusions and Shapes ====
 
-{{ :spec:css3-floats-use-cases:2reg_1excl.png?nolink |}}
+=== Shapes ===
+
+{{ :spec:css3-floats-use-cases:2columns_1excl.png?nolink |}}
+
+Here there's a circle shape affecting the flow of two columns. This could be done as a float with a shape (with the addition of a float-offset property) or as an absolutely positioned exclusion.
+
+{{ :spec:css3-floats-use-cases:2reg_2excl.png?nolink |}}
+
+This layout has many interesting possible expressions in CSS:
+
+- A background with a shape
+  - pulled from image data
+  - extracted from content edges
+  - defined in a path
+- A bottom-positioned float with a shape
+- One or more exclusions outside the text flow
 
 === Pull Quotes ===
 
-{{ :spec:css3-floats-use-cases:wired-pull-quote.png?nolink |}}
+{{ :spec:css3-floats-use-cases:centered-pull-quotes.png?nolink |}}
+
+These pull quotes are from separate flows - the top from the left-side English translation and the bottom from the right-side French translation. While there might be some combination of new float positioning properties that could achieve this effect, two absolutely positioned exclusions is likely to be the simpler design to execute.
 
 === Background Exclusion ===
 
 {{ :spec:css3-floats-use-cases:pagination_08.png?nolink |}}
 
+The ribbon and star are part of the overall page design - more of a title than anything else. This could be done either as a background or an absolutely positioned exclusion.
+
 === Complex Exclusion Interacting with Multiple Flows ===
 
 {{ :spec:css3-floats-use-cases:excl_inside_and_outside.png?nolink |}}
+
+The trap in the middle uses multiple shapes to affect the wrap of text around the image and enclose the caption inside. Note that it overlaps the image to its top left and does not use a content edge shape on the bottom left.
+
 {{ :spec:css3-floats-use-cases:sciences_et_vie_excl.png?nolink |}}
+
+Here the large oval wraps the article text and the text of its top two captions, but the remaining captions are not affected by the shape.
