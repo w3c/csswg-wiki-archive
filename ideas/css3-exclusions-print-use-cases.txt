@@ -1,0 +1,16 @@
+=== Shapes with Floats ===
+
+{{ :spec:css3-floats-use-cases:2reg_1excl.png?nolink |}}
+
+=== Pull Quotes ===
+
+{{ :spec:css3-floats-use-cases:wired-pull-quote.png?nolink |}}
+
+=== Background Exclusion ===
+
+{{ :spec:css3-floats-use-cases:pagination_08.png?nolink |}}
+
+=== Complex Exclusion Interacting with Multiple Flows ===
+
+{{ :spec:css3-floats-use-cases:excl_inside_and_outside.png?nolink |}}
+{{ :spec:css3-floats-use-cases:sciences_et_vie_excl.png?nolink |}}
