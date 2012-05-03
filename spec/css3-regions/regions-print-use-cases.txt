@@ -7,7 +7,22 @@
 
 {{ :spec:css3-regions:gutter-flow.png?nolink |}}
 
+
 [[http://disruptive-innovations.com/zoo/customers/Adobe/regions.html|{{ :spec:css3-regions:2regions.png?400 |}}]]
+
+<HTML><div style="margin: auto ; width: 50%"><p>The screenshot and link above show a document made of two articles
+interleaved. The document starts with region 1 of article 1, then
+region of article 2, a page of advertisement, then region 2 of article
+1 and finally region 2 of article 2. Some of these regions are rendered
+in columns but that's only for consistency with the original document
+copied here. Controls are available in the top-left corner to increase
+or decrease the font size of the articles and the width of the content
+area.</p>
+<p>The demo works in Chrome 19 with the CSS Regions features turned on.</p>
+<p>The original paper version is <a href="http://www.cxvascular.com/sn-newspaper-pdfs?DocumentScreen=detail&cl=352&ccs=673">issue 20 of Spinal News</a>. Here is a screenshot of the original document:</p></div>
+</HTML>
+
+{{ :spec:css3-regions:spinalnews-20.png?nolink&400 |}}
 
 === Templates with multiple flows === 
 
