@@ -1,11 +1,20 @@
+==== Use Cases from Print Layouts for Regions ====
+
 === Changing gutter and column widths ===
 
 {{ :spec:css3-regions:column-widths.png?nolink |}}
+
+The layout above uses different column widths to generate visual interest. In this case, the column width differences are mirrored for the two-page spread. While on-screen paginated experiences tend to show one page at a time, this technique could be used in continuous media. If each pair of columns is shorter than the viewport height, the wider column could shift from side to side as the reader scrolls down.
+ 
 {{ :spec:css3-regions:2reg_1excl.png?nolink |}}
+
+Here the layout uses the two-page spread to hold large graphics. Consider how something like this could look on a wide screen, with the columns of text depending on the size and shape of the graphic elements. This view could be generated with two regions (the second with multicol properties set).
 
 === Interleaved flows ===
 
 {{ :spec:css3-regions:gutter-flow.png?nolink |}}
+
+Here there are two named flows, but the contents are related. The flow running through the gutter of the main article is a timeline of events the article refers to. This can be accomplished in either continuous or paged media with sets of three regions.
 
 [[http://disruptive-innovations.com/zoo/customers/Adobe/regions.html|{{ :spec:css3-regions:2regions.png?400 |}}]]
 
@@ -27,5 +36,4 @@ area.</p>
 
 === Templates with multiple flows === 
 
-{{ :spec:css3-regions:expo-nentiell-page-1.png?nolink |}}
-{{ :spec:css3-regions:expo-nentiell-page-2.png?nolink |}}
+{{:spec:css3-regions:expo-nentiell-page-1.png?nolink|}}
