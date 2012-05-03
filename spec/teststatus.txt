@@ -1,0 +1,46 @@
+====== Test status information on spec ======
+
+===== Prolog =====
+Testing is an important part of writing specifications. It helps verifying the validity of specified features. But tests can also be used as examples for developers and serve implementers as verification tool of their own implementation. Therefore tests can be seen as the second, practical part of the specification, beside the written part. For this reasons every part of a specification must be tested. In general the intention is: as much tests as possible. See [[test:|Testing]] for more details about writing tests.
+
+The preferred way to write tests for the CSS WG, SVG WG and the FX task force are the so called [[test:reftest|Writing Reftests]].
+
+===== Introduction =====
+To support developers as well as specification authors, specifications should have detailed information about the testing status on each specific feature.
+
+It helps developers to see the current status of the specification. A well tested section indicates (even if it does not guarantee) a stabilization of a specific feature. This is important for developers to know when they can start using features and when they can rely on it. Implementers, the target of specifications, have a starting point to verify the own implementation.
+
+For authors a rarely tested section indicates that there might be specification issues that are not solved yet. It can also mean that this section needs more clarification.
+
+For a better transparency these information should be prompted on the specification itself. And even better: To every assertable part of the specification. This article describes how to do that in the combination with the testing system [[http://test.csswg.org/shepherd/|Shepherd]] for tests submitted to the CSS test suite.
+
+===== Adding assertions to a specification =====
+The first step is to add assertions into a specification. At the moment this is done by adding a unique identifier to every headline on the text with the 'id' attribute. It is good practice to use the same name on the id as for the title of the section. Example:
+
+<code>
+<h2 id="transform-origin-property">
+ The 'transform-origin' Property
+</h2>
+<p>...
+</code>
+
+Ids helps [[http://test.csswg.org/shepherd/|Shepherd]] to recognize assertions in a specification and map submitted tests to this assertion.
+
+===== Write tests =====
+Obviously [[http://test.csswg.org/shepherd/|Shepherd]] needs tests for the mapping to assertions. If not done so far, it is the best time to write tests :-).
+
+===== Creating a testing harness =====
+Even if tests can be committed to the CSS test suite. It is a requirement to create a so called test harness per specification to embed information about the testing status. This test harness is a collection of all submitted tests to the CSS test suite per specification. All tests get sorted by the tested sections and subsections.
+
+This test harness must be created by e.g Peter Linss (W3C). The testing harness will be synchronized with the CSS test suite once a day. Examples for existing test harnesses can be found here: [[http://test.csswg.org/harness/]].
+
+===== Embedding testing status into the specification =====
+Once the test harness was created, the testing status information can be embedded into the specification. This is done by adding the following script to the header of the specification:
+
+<code>
+<script src='http://test.csswg.org/harness/annotate.js#<specification>' type='text/javascript' defer></script>
+</code>
+
+Note that '<specification>' must be replaced by the name of the specification in the test harness. This is e.g 'CSS3-TRANSFORMS_DEV' for CSS3 Transforms.
+
+After uploading the changes, the script should run immediately. If you don't see any testing information on the specification, that either means you used the wrong name for the specification, no tests were found, or the file name of the specification is unknown. For the last case ask Peter Linss for advice.
