@@ -37,6 +37,7 @@
   * CSS Line Layout Module
   * Exchanging reviews on tests
   * Testing hackathon in SF
+  * CSS style attribute spec to PR (5 minutes)
   * Future meetings
 ==== Wednesday May 9th ====
 
