@@ -1,6 +1,6 @@
 === Changing gutter and column widths ===
 
-{{ :spec:css3-regions:pagination_05.png?nolink |}}
+{{ :spec:css3-regions:column-widths.png?nolink |}}
 {{ :spec:css3-regions:2reg_1excl.png?nolink |}}
 
 === Interleaved flows ===
