@@ -14,6 +14,7 @@
   * CSS3 Text prepare LC: resolve or assign actions to all open issues - < 40 min, excepting any text-transform flamewars ;) suggest for Friday
   * CSS3 Values and Units CR: resolve all LC issues - 1hr?
   * CSS3 Writing Modes: create a roadmap for getting to LC (what needs to be solved, what can be deferred) - 30min max, suggest for Friday
+    * Maybe a bit more time to discuss on [[http://lists.w3.org/Archives/Public/www-style/2012Apr/0688.html|text-combine-mode]] and [[http://lists.w3.org/Archives/Public/www-style/2012May/0082.html|allowing UA dependent behavior in text-orientation]]
   * Grid Template level 3:
     - Present a new syntax that merges templates and grid layout (15-20 minutes).
     - Discuss the [[http://dev.w3.org/csswg/css3-layout/#history|design choices]] and the features: which are in, which are out, which are for level 4... (90-100 minutes).
@@ -37,7 +38,6 @@
   * Exchanging reviews on tests
   * Testing hackathon in SF
   * Future meetings
-
 ==== Wednesday May 9th ====
 
   * Morning: FX task force meeting with the SVG Working Group (use [[http://www.w3.org/Graphics/fx/wiki/F2F/Hamburg_2012_Agenda|FX wiki]] for agenda items)
