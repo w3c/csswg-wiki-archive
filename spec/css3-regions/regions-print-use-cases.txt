@@ -37,3 +37,6 @@ area.</p>
 === Templates with multiple flows === 
 
 {{:spec:css3-regions:expo-nentiell-page-1.png?nolink|}}
+{{:spec:css3-regions:expo-nentiell-page-2.png?nolink|}}
+
+This layout has two linked flows, one in German and one in English. The first page has different column settings for each flow, but the following page(s) have similar column characteristics (though twined together in an interesting way). This could be done with page templates that define one layout for the first page, then fall back to a repeating page template to contain the remainder of the articles.
