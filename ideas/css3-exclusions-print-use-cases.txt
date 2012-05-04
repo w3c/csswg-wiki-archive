@@ -33,6 +33,10 @@ This layout has many interesting possible expressions in CSS:
   - A bottom-positioned float with a shape
   - One or more exclusions outside the text flow
 
+You can see a markup example of a reconstruction of that use case [[http://disruptive-innovations.com/zoo/customers/Adobe/Veste.html|here]]. Below is a screenshot of that reconstruction in a browser:
+
+{{  http://disruptive-innovations.com/zoo/customers/Adobe/Veste.png?400  }}
+
 === Pull Quotes ===
 
 {{ :spec:css3-floats-use-cases:centered-pull-quotes.png?nolink |}}
