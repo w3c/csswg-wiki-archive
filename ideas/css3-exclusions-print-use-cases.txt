@@ -4,7 +4,21 @@
 
 {{ :spec:css3-floats-use-cases:2columns_1excl.png?nolink |}}
 
-Here there's a circle shape affecting the flow of two columns. This could be done as a float with a shape (with the addition of a float-offset property) or as an absolutely positioned exclusion. You can see a markup example of a reconstruction of that use case [[http://disruptive-innovations.com/zoo/customers/Adobe/FFMC.html|here]]. Here is a screenshot of that reconstruction in a browser:
+Here there's a circle shape affecting the flow of two columns. This could be done as a float with a shape (with the addition of a float-offset property) or as an absolutely positioned exclusion. You can see a markup example of a reconstruction of that use case [[http://disruptive-innovations.com/zoo/customers/Adobe/FFMC.html|here]]. Below is a screenshot of that reconstruction in a browser and here is the CSS code used to create the exclusion:
+
+<code css>
+#lipsum {
+  position: relative;
+}
+
+#exclusion {
+  position: absolute;
+  top: -webkit-calc(50% - 67px);
+  left: -webkit-calc(50% - 67px);
+  -webkit-wrap-flow: both;
+  -webkit-shape-outside: url(motorbike.png);
+}
+</code>
 
 {{  http://disruptive-innovations.com/zoo/customers/Adobe/FFMC2.png?400  }}
 
