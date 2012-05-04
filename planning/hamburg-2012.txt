@@ -30,6 +30,7 @@
   * @text-transform and text-transform: full-size-kana
   * Device adaptation
   * Prefixes
+    * Changing the policy? http://lists.w3.org/Archives/Public/www-style/2012May/0125.html
   * Media Queries level 4
     - Discussion ideas and direction for the next level of the spec.
   * CSS3 Fonts
