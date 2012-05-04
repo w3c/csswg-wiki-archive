@@ -41,6 +41,8 @@
   * CSS style attribute spec to PR (5 minutes)
   * Future 
   * CSS3 Fragmentation: 1 issue + republication
+  * GCPM: Page and column floats, alternative syntax
+  * Multicol test suite
 ==== Wednesday May 9th ====
 
   * Morning: FX task force meeting with the SVG Working Group (use [[http://www.w3.org/Graphics/fx/wiki/F2F/Hamburg_2012_Agenda|FX wiki]] for agenda items)
