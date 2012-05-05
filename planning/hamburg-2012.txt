@@ -9,6 +9,7 @@
   * Prioritize advancing specs with heavy -webkit- prefix adoption.
     * CSS3 Transforms: resolve issues - what's blocking LCWD?
     * CSS3 Transitions & Animations: resolve issues (at FX joint meeting) - what's blocking LCWD?
+    * FPWD CSS3 text-size-adjust
   * fantasai's [[http://fantasai.inkedblade.net/style/specs/css3-align/|Box Alignment proposal]]
   * Flexbox prepare LC: resolve all open issues (request for early in the F2F, so edits can be made and approved by the end of the week, estimate 2 hours, with maybe 1 hour follow-up later in the week)
   * CSS3 Text prepare LC: resolve or assign actions to all open issues - < 40 min, excepting any text-transform flamewars ;) suggest for Friday
