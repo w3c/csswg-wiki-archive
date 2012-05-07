@@ -1,5 +1,9 @@
 ====== Media Queries Issues ======
 
+This page is only preserved for historical interest. Current issues for Media Queries are tracked here:
+
+http://www.w3.org/Style/CSS/Tracker/products/7
+
 
 ===== Issue 1 =====
 
