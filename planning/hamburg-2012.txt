@@ -11,6 +11,7 @@
     * CSS3 Transitions & Animations: resolve issues (at FX joint meeting) - what's blocking LCWD?
     * FPWD CSS3 text-size-adjust
     * [[http://lists.w3.org/Archives/Public/www-style/2012May/0125.html|Changing the prefix policy?]]
+    * Time limit discussion to avoid ratholing?
   * fantasai's [[http://fantasai.inkedblade.net/style/specs/css3-align/|Box Alignment proposal]]
   * Flexbox prepare LC: resolve all open issues (request for early in the F2F, so edits can be made and approved by the end of the week, estimate 2 hours, with maybe 1 hour follow-up later in the week)
   * CSS3 Text:
