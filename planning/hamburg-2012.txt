@@ -15,7 +15,7 @@
   * fantasai's [[http://fantasai.inkedblade.net/style/specs/css3-align/|Box Alignment proposal]]
   * Box generation: should we have a module to allow CSS box generation? (15733)
   * CSS3 Fragmentation: 1 issue + republication
-  * Flexbox prepare LC:
+  * CSS3 Flexbox LC:
     * resolve all open issues
     * request for early in the F2F, so edits can be made and approved by the end of the week
     * estimate 2 hours, with maybe 1 hour follow-up later in the week)
@@ -29,8 +29,8 @@
     * create a roadmap for getting to LC (what needs to be solved, what can be deferred) - 30min max, suggest for Friday
     * Maybe a bit more time to discuss on [[http://lists.w3.org/Archives/Public/www-style/2012May/0082.html|allowing UA dependent behavior in text-orientation]] and on [[http://lists.w3.org/Archives/Public/www-style/2012Apr/0688.html|text-combine-mode]]
   * CSS3 Grid Template:
-    - Present a new syntax that merges templates and grid layout (15-20 minutes).
-    - Discuss the [[http://dev.w3.org/csswg/css3-layout/#history|design choices]] and the features: which are in, which are out, which are for level 4... (90-100 minutes).
+    * Present a new syntax that merges templates and grid layout (15-20 minutes).
+    * Discuss the [[http://dev.w3.org/csswg/css3-layout/#history|design choices]] and the features: which are in, which are out, which are for level 4... (90-100 minutes).
   * CSS4 Grid Template:
     * region-based styling, chaining regions, grid templates for paged media...
     * maybe be a subtopic of a larger topic about advanced layout, page templates, learning from XSL, needs of the publishing industry, etc., with help from Liam.
