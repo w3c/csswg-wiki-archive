@@ -29,7 +29,7 @@ A reftest has three parts:
 
 The test file uses the technology to be tested. This file must follow the [[format|CSS test format guidelines]].
 
-In addition to matching a reftest reference, the test may also function as an self-describing test. This is preferred because having the description lets the tester check that the test and the reference are not //both// being rendered incorrectly and triggering a false pass, and because designing it for an obvious fail makes it easier to find what went wrong when the reftest does fail.
+In addition to matching a reftest reference, the test may also function as a self-describing test. This is preferred because having the description lets the tester check that the test and the reference are not //both// being rendered incorrectly and triggering a false pass, and because designing it for an obvious fail makes it easier to find what went wrong when the reftest does fail.
 
 ==== The Reftest Reference File ====
 
