@@ -13,7 +13,12 @@
     * [[http://lists.w3.org/Archives/Public/www-style/2012May/0125.html|Changing the prefix policy?]]
     * Time limit discussion to avoid ratholing?
   * fantasai's [[http://fantasai.inkedblade.net/style/specs/css3-align/|Box Alignment proposal]]
-  * Flexbox prepare LC: resolve all open issues (request for early in the F2F, so edits can be made and approved by the end of the week, estimate 2 hours, with maybe 1 hour follow-up later in the week)
+  * Box generation: should we have a module to allow CSS box generation? (15733)
+  * CSS3 Fragmentation: 1 issue + republication
+  * Flexbox prepare LC:
+    * resolve all open issues
+    * request for early in the F2F, so edits can be made and approved by the end of the week
+    * estimate 2 hours, with maybe 1 hour follow-up later in the week)
   * CSS3 Text:
     * prepare LC: resolve or assign actions to all open issues - < 40 min, excepting any text-transform flamewars ;) suggest for Friday
     * resolve @text-transform and text-transform: full-size-kana
@@ -23,12 +28,15 @@
   * CSS3 Writing Modes:
     * create a roadmap for getting to LC (what needs to be solved, what can be deferred) - 30min max, suggest for Friday
     * Maybe a bit more time to discuss on [[http://lists.w3.org/Archives/Public/www-style/2012May/0082.html|allowing UA dependent behavior in text-orientation]] and on [[http://lists.w3.org/Archives/Public/www-style/2012Apr/0688.html|text-combine-mode]]
-  * Grid Template level 3:
+  * CSS3 Grid Template:
     - Present a new syntax that merges templates and grid layout (15-20 minutes).
     - Discuss the [[http://dev.w3.org/csswg/css3-layout/#history|design choices]] and the features: which are in, which are out, which are for level 4... (90-100 minutes).
-  * Grid Template level 4 - region-based styling, chaining regions, grid templates for paged media... (This should maybe be a subtopic of a larger topic about advanced layout, page templates, learning from XSL, needs of the publishing industry, etc., with help from Liam.)
-  * Box generation: should we have a module to allow CSS box generation? (15733)
+  * CSS4 Grid Template:
+    * region-based styling, chaining regions, grid templates for paged media...
+    * maybe be a subtopic of a larger topic about advanced layout, page templates, learning from XSL, needs of the publishing industry, etc., with help from Liam.
   * CSS Page Templates Proposal: [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15187|Issue 15187]] and [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15186|Issue 15186]]
+  * Advanced printing controls from XSL-FO
+  * GCPM: Page and column floats, alternative syntax, publish WD
   * CSS Regions:
     - Issue 16858: should elements be disallowed as regions
     - Issue 15832: Discussion region-overflow
@@ -40,18 +48,17 @@
   * CSS3 Fonts:
     * subscript/superscript fallback
     * small-caps fallback
-  * Offer to host F2F meeting in September (Andreas Neumann, [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Hamburg_2012/agenda_proposals|proposal]])
-  * Advanced printing controls from XSL-FO
   * CSS Line Layout Module
   * Testing:
     * Exchanging reviews on tests
     * Testing hackathon in SF
+    * Multicol test suite
   * CSS style attribute spec to PR (5 minutes)
   * Future meetings
+    * Offer to host F2F meeting in September (Andreas Neumann, [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Hamburg_2012/agenda_proposals|proposal]])
     * March 2013 Tokyo
-  * CSS3 Fragmentation: 1 issue + republication
-  * GCPM: Page and column floats, alternative syntax, publish WD
-  * Multicol test suite
+  
+
 ==== Wednesday May 9th ====
 
   * Morning: FX task force meeting with the SVG Working Group (use [[http://www.w3.org/Graphics/fx/wiki/F2F/Hamburg_2012_Agenda|FX wiki]] for agenda items)
