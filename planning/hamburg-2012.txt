@@ -57,6 +57,9 @@
   * Future meetings
     * Offer to host F2F meeting in September (Andreas Neumann, [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Hamburg_2012/agenda_proposals|proposal]])
     * March 2013 Tokyo
+  * Spec stylesheet
+    * Use of alternate stylesheet
+    * Changing default font 
   
 
 ==== Wednesday May 9th ====
