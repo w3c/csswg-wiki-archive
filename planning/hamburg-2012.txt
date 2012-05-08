@@ -37,8 +37,8 @@
   * Device adaptation
   * Media Queries level 4: discussion ideas and direction for the next level of the spec
   * CSS3 Fonts:
-    * Subscript/superscript fallback
-    * Small-caps fallback
+    * subscript/superscript fallback
+    * small-caps fallback
   * Offer to host F2F meeting in September (Andreas Neumann, [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Hamburg_2012/agenda_proposals|proposal]])
   * Advanced printing controls from XSL-FO
   * CSS Line Layout Module
