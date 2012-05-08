@@ -12,7 +12,9 @@
     * FPWD CSS3 text-size-adjust
   * fantasai's [[http://fantasai.inkedblade.net/style/specs/css3-align/|Box Alignment proposal]]
   * Flexbox prepare LC: resolve all open issues (request for early in the F2F, so edits can be made and approved by the end of the week, estimate 2 hours, with maybe 1 hour follow-up later in the week)
-  * CSS3 Text prepare LC: resolve or assign actions to all open issues - < 40 min, excepting any text-transform flamewars ;) suggest for Friday
+  * CSS3 Text:
+    * prepare LC: resolve or assign actions to all open issues - < 40 min, excepting any text-transform flamewars ;) suggest for Friday
+    * @text-transform and text-transform: full-size-kana
   * CSS3 Values and Units CR: resolve all LC issues - 1hr?
   * CSS3 Writing Modes: create a roadmap for getting to LC (what needs to be solved, what can be deferred) - 30min max, suggest for Friday
     * Maybe a bit more time to discuss on [[http://lists.w3.org/Archives/Public/www-style/2012May/0082.html|allowing UA dependent behavior in text-orientation]] and on [[http://lists.w3.org/Archives/Public/www-style/2012Apr/0688.html|text-combine-mode]]
@@ -28,20 +30,20 @@
     - Issue 16636: should we re-introduce region-order? Should be possible with the region processing model
     - Issue 15734: @region and specificity
   * CSS Exclusions Issues
-  * @text-transform and text-transform: full-size-kana
   * Device adaptation
   * Prefixes
     * Changing the policy? http://lists.w3.org/Archives/Public/www-style/2012May/0125.html
   * Media Queries level 4
     - Discussion ideas and direction for the next level of the spec.
-  * CSS3 Fonts
+  * CSS3 Fonts:
     * Subscript/superscript fallback
     * Small-caps fallback
   * Offer to host F2F meeting in September (Andreas Neumann, [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Hamburg_2012/agenda_proposals|proposal]])
   * Advanced printing controls from XSL-FO
   * CSS Line Layout Module
-  * Exchanging reviews on tests
-  * Testing hackathon in SF
+  * Testing:
+    * Exchanging reviews on tests
+    * Testing hackathon in SF
   * CSS style attribute spec to PR (5 minutes)
   * Future meetings
     * March 2013 Tokyo
