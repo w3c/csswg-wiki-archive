@@ -41,7 +41,8 @@
   * Exchanging reviews on tests
   * Testing hackathon in SF
   * CSS style attribute spec to PR (5 minutes)
-  * Future 
+  * Future meetings
+    * March 2013 Tokyo
   * CSS3 Fragmentation: 1 issue + republication
   * GCPM: Page and column floats, alternative syntax, publish WD
   * Multicol test suite
