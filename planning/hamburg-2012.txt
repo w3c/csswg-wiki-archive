@@ -20,7 +20,8 @@
   * CSS3 Values and Units CR: 
     * resolve all LC issues - 1hr?
     * [[http://lists.w3.org/Archives/Public/www-style/2012May/0311.html|identifier and reserved keyword issue]]
-  * CSS3 Writing Modes: create a roadmap for getting to LC (what needs to be solved, what can be deferred) - 30min max, suggest for Friday
+  * CSS3 Writing Modes:
+    * create a roadmap for getting to LC (what needs to be solved, what can be deferred) - 30min max, suggest for Friday
     * Maybe a bit more time to discuss on [[http://lists.w3.org/Archives/Public/www-style/2012May/0082.html|allowing UA dependent behavior in text-orientation]] and on [[http://lists.w3.org/Archives/Public/www-style/2012Apr/0688.html|text-combine-mode]]
   * Grid Template level 3:
     - Present a new syntax that merges templates and grid layout (15-20 minutes).
