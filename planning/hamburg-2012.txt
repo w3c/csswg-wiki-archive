@@ -47,7 +47,7 @@
   * Media Queries level 4: discussion ideas and direction for the next level of the spec
   * CSS3 Fonts:
     * [[http://lists.w3.org/Archives/Public/www-style/2012May/0369.html|subscript/superscript fallback]]
-    * small-caps fallback
+    * [[http://lists.w3.org/Archives/Public/www-style/2012May/0375.html|small-caps fallback]]
   * CSS Line Layout Module
   * Testing:
     * Exchanging reviews on tests
