@@ -47,25 +47,23 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
 
  1. Split flex as shorthand of flex-grow/flex-shrink/flex-basis
 
- 2. Making zero flexes not transitionable to other values
-
- 3. Does box-sizing affect flex-basis?
+ 2. Does box-sizing affect flex-basis?
     http://www.w3.org/mid/57440D3E-FD1B-4526-91AD-0898C6AAB3AA@philipwalton.com
 
- 4. Applicability of flex-basis: is it used or ignored for flex == 0?
+ 3. Applicability of flex-basis: is it used or ignored for flex == 0?
     Alex suggests it is ignored:
       http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E539856928412EB4BF0@TK5EX14MBXC214.redmond.corp.microsoft.com
       http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E539856928412EB55DC@TK5EX14MBXC214.redmond.corp.microsoft.com
     This would make main sizing source property different iff
     flex-grow == flex-shrink == 0.
 
- 5. Default flexibility of flex items: flexible or inflexible?
+ 4. Default flexibility of flex items: flexible or inflexible?
     http://www.w3.org/mid/4F91E0D6.7040502@inkedblade.net
     Note: This decision sets the initial values of flex-grow and flex-shrink,
           which conventionally also implies their default values in the flex
           shorthand.
 
- 6. What is the computed value of 'flex-basis' when it is 'auto'?
+ 5. What is the computed value of 'flex-basis' when it is 'auto'?
     Is it ''auto'' or is it the used flex basis?
     http://www.w3.org/mid/4FA1C498.2040101@inkedblade.net
 
