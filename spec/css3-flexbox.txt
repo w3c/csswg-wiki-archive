@@ -112,14 +112,12 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
     http://lists.w3.org/Archives/Public/www-style/2012May/0347.html
     Also: https://www.w3.org/Bugs/Public/show_bug.cgi?id=16755
 
- 4. How do auto margins affect an element's participation in baseline alignment?
-
- 5. 'distribute' behavior doesn't match use case that prompted it
+ 4. 'distribute' behavior doesn't match use case that prompted it
     http://www.w3.org/mid/BLU165-ds157576DC1F28A7EF906F2DF8BD0@phx.gbl
 
- 6. Define/resolve on alignment fallbacks for baseline, stretch, distribute, justify.
+ 5. Define/resolve on alignment fallbacks for baseline, stretch, distribute, justify.
 
- 7. True centering vs. safe centering
+ 6. True centering vs. safe centering
 
 ==== Terminology and Naming ====
 
