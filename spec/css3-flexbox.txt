@@ -115,7 +115,7 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
     http://www.w3.org/mid/87wr4tafju.fsf@aeneas.oslo.osa
 
  3. Get WG approval of 'auto' margin behavior (which is designed to match Grid atm)
-    http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E539856928412E60F9B@TK5EX14MBXC214.redmond.corp.microsoft.com
+    http://lists.w3.org/Archives/Public/www-style/2012May/0347.html
     Also: https://www.w3.org/Bugs/Public/show_bug.cgi?id=16755
 
  4. How do auto margins affect an element's participation in baseline alignment?
