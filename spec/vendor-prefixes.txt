@@ -1,12 +1,35 @@
 ====== CSS Vendor Prefixes ======
 
-In CSS we use vendor prefixes for properties, values, @-rules that are:
+In CSS we use [[http://www.w3.org/wiki/Evolution/Identifiers|vendor prefixes]] for properties, values, @-rules that are:
   * [[http://www.w3.org/TR/CSS21/syndata.html#vendor-keywords|vendor specific extensions (per CSS 2.1)]], or
   * [[http://www.w3.org/TR/css-2010/#experimental|experimental implementations (per CSS Snapshot 2010)]] (e.g. in Working Drafts)
 
 This is a collection of the latest thoughts towards policy/guidance for when to use vendor prefixes in an implementation and when it is safe/right/required to drop vendor prefixes from implementations.
 
-There has been much discussion of vendor prefixes in both www-style and CSS working group face-to-face meetings, but nothing conclusive has been written up. Please feel free to research those www-style archives and CSS WG minutes (telcon, f2f) and add (with citation!) any conclusions here.
+===== Sources =====
+There has been much discussion of vendor prefixes in both www-style and CSS working group face-to-face meetings, but nothing conclusive has been written up. 
+<note>Please feel free to research those www-style archives and CSS WG minutes (telcon, f2f) and add (with citation!) any conclusions here.</note>
+
+Past discussions (incomplete)
+  * 2012 May: 
+    * [[http://lists.w3.org/Archives/Public/www-style/2012May/0125.html|Policy change]] (after [[http://dev.opera.com/articles/view/opera-mobile-emulator-experimental-webkit-prefix-support/|Opera’s start of defection]])
+    * [[http://lists.w3.org/Archives/Public/www-style/2012Apr/0797.html|replacement by ''!tag'']]
+  * 2012 February: okay to implement competitor’s prefix?
+    * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/1169.html|common ''-css-'' prefix]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0998.html|proprietary vs. experimental implementations]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0678.html|diverge from standard process to avoid more harm]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0472.html|opt-out vs. opt-in]] after [[http://remysharp.com/2012/02/09/vendor-prefixes-about-to-go-south/|Remy Sharp]]
+    * [[https://wiki.mozilla.org/Platform/Layout/CSS_Compatibility#questions_and_methodology|Tantek Çelik]]
+    * [[http://www.glazman.org/weblog/dotclear/?post/2012/02/09/CALL-FOR-ACTION:-THE-OPEN-WEB-NEEDS-YOU-NOW|Daniel Glazman]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0463.html|unlock with @-switches]] after [[http://felipe.wordpress.com/2012/02/02/a-proposal-to-drop-browser-vendor-prefixes/|Felipe]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0313.html|F2F minutes]]
+  * 2012 January: [[http://lists.w3.org/Archives/Public/www-style/2012Jan/1316.html|prefix features from other W3C WGs?]]
+  * 2011 December: [[http://lists.w3.org/Archives/Public/www-style/2011Dec/0155.html|versioned common prefixes]]
+  * 2011 November:
+    * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0346.html|Cocascade]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0271.html|Pragmatic unprefixing]]
+    *  [[http://hsivonen.iki.fi/vendor-prefixes/|Henri Sivonen]]
+  * …
 
 ===== Simple guidance =====
 Simple straw proposal guidance. Terms per RFC2119 etc.
