@@ -87,14 +87,6 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
     Note: Could introduce an initial value of 'auto' for 'min-content' to have
           this make more sense. This would compute to '0' wherever needed for
           back-compat.
-
- 4. Interpretation of 'auto' flex basis: is it 'fit-content' or 'max-content'?
-    Alex prefers 'max-content':
-      http://www.w3.org/mid/2C86A15F63CD734EB1D846A0BA4E0FC80E799B76@CH1PRD0310MB381.namprd03.prod.outlook.com
-      https://www.w3.org/Bugs/Public/show_bug.cgi?id=16991
-
- 5. Is the main sizing of a flexbox fill-available, fit-content, or shrinkwrap?
-
 ==== Pagination ====
 
  1. Propagating break-before/after to flex line instead of allowing items to
