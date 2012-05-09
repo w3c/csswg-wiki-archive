@@ -32,10 +32,14 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
     they are defined to exist?
 
  4. Effect of 'visibility: collapse' on flex items.
-    Proposal A: Stays in box tree, but removes all impact on layout
-                except logical width of flexbox itself.
+    Proposal A: Stays in box tree, but has special layout:
+                Do layout once normally, then collapse it to a 
+                strut of its line's cross size and lay out again.
+                (This keeps the cross-size stable if the flexbox
+                is single-line or a single line of multi-line.)
     Proposal B: Stays in box tree, but removes all impact on layout,
-                period.
+                period.  (Just like display:none, but still generates
+                boxes, so animations/counters/etc are unaffected.)
     Proposal C: ?
     http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E5398569284121366F7@TK5EX14MBXC213.redmond.corp.microsoft.com
 
