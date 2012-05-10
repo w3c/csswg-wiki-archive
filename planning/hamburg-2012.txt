@@ -24,7 +24,7 @@
   * Box Alignment (30 min)
   * Box Generation (15 min)
   * Writing Modes (30 min)
-  * Values and Units (1 hr)
+  * Fonts (1 hr)
 
 ==== Friday ====
 === AM ===
@@ -38,7 +38,7 @@
   * XSL-FO (1 hr)
   * CSS3 Text LC (1 hr)
   * Line Layout (1 hr)
-  * Fonts (1 hr)
+  * Values and Units (1 hr)
 
 ==== Proposed Topics ====
 
