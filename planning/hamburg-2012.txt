@@ -4,6 +4,42 @@
 
 ===== Agenda =====
 
+==== Wednesday ====
+=== AM ===
+  * FX task force meeting with the SVG Working Group (use [[http://www.w3.org/Graphics/fx/wiki/F2F/Hamburg_2012_Agenda|FX wiki]] for agenda items)
+
+=== PM ===
+  * Transforms
+  * Transitions
+  * Animations
+
+==== Thursday ====
+=== AM ===
+  * CSS3 Flexbox
+
+=== PM ===
+  * Future Meetings (15 min)
+  * Style Attribute Spec (15 min)
+  * Testing (15 min)
+  * Box Alignment (30 min)
+  * Box Generation (15 min)
+  * Writing Modes (30 min)
+  * Values and Units (1 hr)
+
+==== Friday ====
+=== AM ===
+  * Regions (1 hr)
+  * Page Templates (30 min)
+  * Exclusions (1 hr)
+  * GCPM (30 min)
+  
+=== PM ===
+  * CSS3 Fragmentations (30 min)
+  * XSL-FO (1 hr)
+  * CSS3 Text LC (1 hr)
+  * Line Layout (1 hr)
+  * Fonts (1 hr)
+
 ==== Proposed Topics ====
 
   * Prefixes and how to prioritize specs with heavy -webkit- prefix adoption.
@@ -64,9 +100,6 @@
     * Tab started working on it again.  Briefly discuss plans and make sure no one hates it. (20 min)
   * Parsing scientific notation in CSS (1 hr) 
 
-==== Wednesday May 9th ====
-
-  * Morning: FX task force meeting with the SVG Working Group (use [[http://www.w3.org/Graphics/fx/wiki/F2F/Hamburg_2012_Agenda|FX wiki]] for agenda items)
 
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
