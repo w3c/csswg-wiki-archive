@@ -9,6 +9,39 @@ Link to current Working Draft:[[http://www.w3.org/TR/css3-grid-layout/]]
 Link to current Editor's draft: [[http://dev.w3.org/csswg/css3-grid-align/]]
 
 
+===== Issues for F2F =====
+
+=== Scoping ===
+
+  - Scoping of Grid Layout and Template Layout specs
+  - Drop named lines from this level of Grid Layout
+  - Adopting column-gap etc., adding row equivalents, to handle gutters
+
+=== Naming ===
+
+  - grid-flow: row | column | layer
+  - rename grid-rows --> grid-row-tracks, grid-columns --> grid-column-tracks
+  - auto/fit-content becomes fit-content
+  - grid positioning properties:
+
+^  //grid-area//  ^  grid-column  ^  grid-row  |
+^  grid-position  |  grid-column-position  |  grid-row-position  |
+^  grid-span  |  grid-column-span  |  grid-row-span  |
+
+=
+
+^  //C R ΔC ΔR//  ^  C ΔC  ^  R ΔR  |
+^  C R  |  C  |  R  |
+^  ΔC ΔR  |  ΔC  |  ΔR  |
+
+=== Default handling of content ===
+
+  - auto-placement is progressive pack w/ pointer @ start before corner
+  - auto-placement vs. anonymous block
+  - default value of grid-flow?
+  - using "display: grid" vs implied grid lines
+  - default track sizing is an open issue, if you have ideas let us know
+
 ===== Action Items =====
 
 ===== Issues =====
