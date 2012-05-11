@@ -30,14 +30,12 @@ You don't need to be logged in to review testcases and make recommendations in t
 field: status_tag
 min: 1
 limit: 20
-filter  : %pageid% ~ test:*
 ----
 
 ---- datacloud ----
 field: group_tags
 min: 5
 limit: 500
-filter  : %pageid% ~ test:*
 ----
 
 
