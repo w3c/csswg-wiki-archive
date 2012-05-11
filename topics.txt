@@ -1,6 +1,6 @@
 ====== Topics for Discussion ======
 
-[[topics:copyme|Template for New Topics]]
+[[topics:new-topic|Template for New Topics]]
 
 ---- datatable ----
 cols    : %pageid%, name, status_tag
