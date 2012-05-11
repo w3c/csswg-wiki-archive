@@ -15,7 +15,7 @@ Here there's a circle shape affecting the flow of two columns. This could be don
 }
 </code>
 
-<code>
+<code css>
 #lipsum {
   position: relative;
 }
