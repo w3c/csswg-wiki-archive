@@ -1,0 +1,6 @@
+====== Topics Template ======
+
+---- dataentry ----
+name        : Topic Template
+status_tag  : Invalid # New, Discussed, Resolved, Invalid
+----
