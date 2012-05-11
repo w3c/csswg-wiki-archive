@@ -43,4 +43,5 @@ limit: 500
 cols    : %pageid%, status_tag, authors, group_tags, testcase_url
 headers : Submission, Status, Authors, Groups, URL
 max     : 100
+filter  : %pageid% ~ test:*
 ----
