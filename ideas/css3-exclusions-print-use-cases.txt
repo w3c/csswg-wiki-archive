@@ -10,7 +10,6 @@ Here there's a circle shape affecting the flow of two columns. This could be don
 #exclusion {
   float: top left;
   float-offset: 50% 50%;
-  wrap-flow: both;
   shape-outside: url(motorbike.png);
 }
 </code>
