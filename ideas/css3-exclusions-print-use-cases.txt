@@ -8,8 +8,8 @@ Here there's a circle shape affecting the flow of two columns. This could be don
 
 <code css>
 #exclusion {
-  float: top left;
-  float-offset: -50% -50%;
+  float: top right;
+  float-offset: -50% 50%;
   shape-outside: url(motorbike.png);
 }
 </code>
