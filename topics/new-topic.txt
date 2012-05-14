@@ -15,9 +15,9 @@ Action        : What does the WG need to do? # Or, if Pending, pending what?
 # Action        : Give feedback!
 # Action        : Publish FPWD/WD/LC/CR/PR/REC!
 
-Issue_url     : 
-Proposal_url  : 
-Agenda_url    : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+Issue_urls    : 
+Proposal_urls : 
+Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
 ----
 
 === Background ===
@@ -28,7 +28,7 @@ Explain relevant background for issue.
 
 In one or two sentences, what's the issue we're solving?
 
-=== Proposals ===
+=== Proposal(s) ===
 
 Summarize state of proposals, give proposed wording, etc. (If there aren't any, delete section.)
 
