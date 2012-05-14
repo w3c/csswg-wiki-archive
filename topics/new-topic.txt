@@ -1,23 +1,13 @@
 ====== New Topic Template ======
 
----- dataentry ----
-Spec_tags     : css3-foo       # or none
-Owner_tags    : ircnick        # Who's driving the discussion? Comma-separated list.
-Status_tags   : New, Urgent    # [ Open | Closed | Pending ] [, Urgent]?
-
-Action        : What does the WG need to do? # Or, if Pending, pending what?
-                # Some Examples:
-# Action        : Pick A, B, or C?
-# Action        : Approve the proposal?
-# Action        : Discuss problem and provide direction?
-# Action        : Help research needed info!
-# Action        : Help write proposals!
-# Action        : Give feedback!
-# Action        : Publish FPWD/WD/LC/CR/PR/REC!
-
-Issue_url     : 
-Proposal_url  : 
-Agenda_url    : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+---- dataentry  ----
+Spec_tags    : css3-foo #or none
+Owner_tags   : ircnick #Who's driving the discussion? Comma-separated list.
+Status_tags  : Open, Urgent #[ Open | Closed | Pending ] [, Urgent]?
+Action       : What does the WG need to do? #Or, if Pending, pending what?
+Issue_url    : 
+Proposal_url : 
+Agenda_url   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
 ----
 
 === Background ===
