@@ -13,7 +13,6 @@ filter: %pageid% ~ topics:*
 
 ---- datacloud ----
 field: Status_tags
-min: 2
 filter: %pageid% ~ topics:*
 ----
 
@@ -21,6 +20,5 @@ filter: %pageid% ~ topics:*
 cols    : %title%, Spec_tags, Owner_tags, Status_tags, Action
 headers : Summary, Spec, Owner, Status, WG Action
 filter  : %pageid% ~ topics:*
-filter  : Status_tags != Resolved
-filter  : Status_tags != Discussed
+filter  : Status_tags != Closed
 ----
