@@ -1,7 +1,8 @@
 ====== Topics for Discussion ======
 
   * To add a new topic
-      - Create a new page under the /topics heading, e.g. go to http://wiki.csswg.org/topics/new-topic in your browser
+      - Create a new page under the ''/topics'' heading by appending ''/my-new-topic-page'' to this page's URL in your address bar
+      - Click Create New Page
       - Copy & paste the source from the [[http://wiki.csswg.org/topics/new-topic?do=edit|Template for New Topics]]
       - Fill it out
   * To find topics, use the tag clouds to filter and/or click table headings to sort.
