@@ -1,0 +1,70 @@
+====== Define "formatting context" and fix 'Applies to' line of 'overflow' property ======
+
+---- dataentry ----
+Spec_tags     : css21, css3-flexbox
+Owner_tags    : fantasai, antonp, TabAtkins
+Status_tags   : New
+
+Action        : Approve the proposal?
+
+Issue_urls    : https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381
+Proposal_urls : http://lists.w3.org/Archives/Public/www-style/2012May/0494.html
+Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+----
+
+=== Problem Statement ===
+
+The ''overflow'' property says it only applies to block containers, but it should also apply to tables and flex containers
+
+=== Proposal ===
+
+In 11.1.1 (Overflow), replace:
+
+   # Applies to: block containers
+
+with:
+
+   | Applies to: block containers and boxes that establish a formatting context
+
+In 9.4 (Normal flow), replace:
+
+   # Boxes in the normal flow belong to a formatting context, which may
+   # be block or inline, but not both simultaneously. Block-level boxes
+   # participate in a block formatting context. Inline-level boxes
+   # participate in an inline formatting context.
+
+with:
+
+   | Boxes in the normal flow belong to a formatting context, which in
+   | CSS21 may be block, inline or table. In future levels of CSS, other
+   | types of formatting context will be introduced. Block-level boxes
+   | participate in a block formatting context. Inline-level boxes
+   | participate in an inline formatting context. Table formatting
+   | contexts are described in the chapter on _tables_.
+
+In 17.4 (Tables in the visual formatting model), replace:
+
+   # [...] The table wrapper box establishes a block formatting context.
+   # [...]
+
+with:
+
+   | [...] The table wrapper box establishes a block formatting context,
+   | and the table box establishes a table formatting context. [...]
+
+In 17.5 (Visual layout of table contents), replace:
+
+   # Internal table elements generate rectangular boxes with content and
+   # borders. Cells have padding as well. Internal table elements do not
+   # have margins.
+
+with:
+
+   | Internal table elements generate rectangular boxes which
+   | participate in the table formatting context established by the
+   | table box. These boxes have content and borders, and cells have
+   | padding as well. Internal table elements do not have margins.
+
+=== Links to More Info ===
+
+  - http://lists.w3.org/Archives/Public/www-style/2012May/0438.html
