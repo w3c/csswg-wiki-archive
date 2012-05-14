@@ -1,4 +1,4 @@
-====== Topic Summary ======
+====== New Topic Template ======
 
 ---- dataentry ----
 Spec_tags     : css3-foo       # or none
