@@ -1,10 +1,13 @@
 ====== Topics for Discussion ======
 
-[[topics:new-topic|Template for New Topics]]
+  * To add a new topic, use the [[topics:new-topic|Template for New Topics]].
+
+==== List of Open Topics ====
 
 ---- datatable ----
-cols    : %pageid%, name, status_tag
-headers : Location, Name, Status
-max     : 100
+cols    : %title%, Spec_tags, Owner_tags, Status_tags, Action
+headers : Summary, Spec, Owner, Status, WG Action
 filter  : %pageid% ~ topics:*
+filter  : Status_tags != Resolved
+filter  : Status_tags != Discussed
 ----
