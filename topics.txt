@@ -2,7 +2,19 @@
 
   * To add a new topic, use the [[topics:new-topic|Template for New Topics]].
 
-==== List of Open Topics ====
+==== Open Topics ====
+
+---- datacloud ----
+field: Spec_tags
+min: 2
+filter: %pageid% ~ topics:*
+----
+
+---- datacloud ----
+field: Status_tags
+min: 2
+filter: %pageid% ~ topics:*
+----
 
 ---- datatable ----
 cols    : %title%, Spec_tags, Owner_tags, Status_tags, Action
