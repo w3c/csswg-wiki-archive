@@ -1,15 +1,13 @@
 ====== Define "formatting context" and fix 'Applies to' line of 'overflow' property ======
 
----- dataentry ----
+---- dataentry  ----
 Spec_tags     : css21, css3-flexbox
 Owner_tags    : fantasai, antonp, TabAtkins
-Status_tags   : New
-
+Status_tags   : Open
 Action        : Approve the proposal?
-
 Issue_urls    : https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381
 Proposal_urls : http://lists.w3.org/Archives/Public/www-style/2012May/0494.html
-Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
 ----
 
 === Problem Statement ===
