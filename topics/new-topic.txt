@@ -1,6 +1,38 @@
-====== Topics Template ======
+====== Topic Summary ======
 
 ---- dataentry ----
-name        : Topic Template
-status_tag  : Invalid # New, Discussed, Resolved, Invalid
+Spec          : css3-foo       # or none
+Driver_tags   : ircnick        # Who's driving the discussion? Comma-separated list.
+Status_tags   : New, Urgent    # [ New | Resolved | Discussed | Pending ] [, Urgent]?
+
+Action        : What does the WG need to do? # Or, if Pending, pending what?
+                # Some Examples:
+# Action        : Pick A, B, or C?
+# Action        : Approve the proposal?
+# Action        : Discuss problem and provide direction?
+# Action        : Help research needed info!
+# Action        : Help write proposals!
+# Action        : Give feedback!
+# Action        : Publish FPWD/WD/LC/CR/PR/REC!
+
+Issue_url     : 
+Proposal_url  : 
 ----
+
+=== Background ===
+
+Explain relevant background for issue.
+
+=== Problem Statement ===
+
+In one or two sentences, what's the issue we're solving?
+
+=== Proposals ===
+
+Summarize state of proposals, give proposed wording, etc. (If there aren't any, delete section.)
+
+=== Links to More Info ===
+
+  - Link A
+  - Link B
+  - Link C
