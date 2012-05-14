@@ -1,8 +1,8 @@
 ====== Topic Summary ======
 
 ---- dataentry ----
-Spec          : css3-foo       # or none
-Driver_tags   : ircnick        # Who's driving the discussion? Comma-separated list.
+Spec_tags     : css3-foo       # or none
+Owner_tags    : ircnick        # Who's driving the discussion? Comma-separated list.
 Status_tags   : New, Urgent    # [ New | Resolved | Discussed | Pending ] [, Urgent]?
 
 Action        : What does the WG need to do? # Or, if Pending, pending what?
