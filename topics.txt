@@ -1,7 +1,7 @@
 ====== Topics for Discussion ======
 
   * To add a new topic create a new page under the ''/topics'' heading and filling out the template
-      * i.e. append ''/my-new-topic-page'' to the URL of this page, navigate there, click "Create this page", edit, and save
+      * i.e. append ''/my-new-topic-page'' to the URL of this page, navigate there, click "Create this page", edit the template, and save
   * To find topics, use the tag clouds to filter and/or click table headings to sort.
 
 ==== Open Topics ====
