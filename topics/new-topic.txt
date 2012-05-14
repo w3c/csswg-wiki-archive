@@ -3,7 +3,7 @@
 ---- dataentry ----
 Spec_tags     : css3-foo       # or none
 Owner_tags    : @USER@         # Who's driving the discussion? Comma-separated list.
-Status_tags   : New, Urgent    # [ Open | Closed | Pending ] [, Urgent]?
+Status_tags   : Open, Urgent    # [ Open | Closed | Pending ] [, Urgent]?
 
 Action        : What does the WG need to do? # Or, if Pending, pending what?
                 # Some Examples:
