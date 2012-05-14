@@ -5,6 +5,7 @@
      - Click "Create this page".
      - Edit the source template and save.
   * To find topics, use the tag clouds above the table to filter and/or click table headings to sort.
+  * When you close a topic, make sure all the relevant info has been archived on www-style, Tracker, or Bugzilla.
 
 ==== Open Topics ====
 
