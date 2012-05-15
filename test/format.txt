@@ -28,6 +28,12 @@ A set of scripts will generate the various formats (XHTML, HTML, XHTML for Print
 Tests must be //valid//, so please [[http://validator.w3.org/|validate your tests]] before submission.  For tests that use the HTML style header, the validator may report errors on the flags and assert metadata.  These specific errors can be ignored - this is a known issue and work is in progress to correct the problem.
 
 When using any characters beyond the ASCII set, in any encoding, the character encoding must be specified properly per the specification of the source format.
+
+**If the test uses the Ahem font, make sure its computed font-size is a multiple of 5px**, otherwise it may render inconsistently (due to rounding errors introduced by certain platforms' font APIs). We suggest to use a minimum computed font-size of 20px.
+
+**If the test uses the Ahem font, make sure the line-height on block elements is specified**; avoid 'line-height: normal'. Also, for absolute reliability, the difference between computed line-height and computed font-size should be dividable by 2. Eg. Bad: {font-size: 25px; line-height: 50px;} Eg. Good: {font-size: 25px; line-height: 51px;}
+
+ In certainFor furthermore reliability, we suggest to use a minimum computed font size of 20px and we suggest that its computed font size to be a multiple of 10px.
 ===== Template for New Tests =====
 
 A template for new tests follows. Copy and paste the code below into a new file or save {{test:css2.1:test-topic-000.xht|this template file}} and replace the capitalized parts as described below.
