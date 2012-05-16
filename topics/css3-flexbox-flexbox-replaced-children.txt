@@ -3,7 +3,7 @@
 ---- dataentry ----
 Spec_tags     : css3-flexbox
 Owner_tags    : tabatkins
-Status_tags   : Open
+Status_tags   : Open, Urgent
 
 Action        : Approve the proposal.
 
