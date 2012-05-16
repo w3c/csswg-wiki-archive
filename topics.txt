@@ -1,4 +1,4 @@
-====== Topics for Discussion ======
+====== Topics for WG Discussion ======
 
   * To add a new topic create a new page under the ''/topics'' heading.
      - Append ''/my-new-topic'' to the URL of this page and navigate there.
