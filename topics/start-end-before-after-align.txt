@@ -1,4 +1,4 @@
-====== Title/Summary of Discussion Topic ======
+====== Alignment Values: before/after vs. start/end ======
 
 ---- dataentry  ----
 Spec_tags     : css3-flexbox, css3-align
