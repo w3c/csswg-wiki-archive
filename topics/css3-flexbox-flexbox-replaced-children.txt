@@ -1,4 +1,4 @@
-====== Title/Summary of Discussion Topic ======
+====== Make Replaced Elements Always Be Flexbox Items ======
 
 ---- dataentry ----
 Spec_tags     : css3-flexbox
