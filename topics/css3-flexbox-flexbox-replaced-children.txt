@@ -1,0 +1,24 @@
+====== Title/Summary of Discussion Topic ======
+
+---- dataentry ----
+Spec_tags     : css3-flexbox
+Owner_tags    : tabatkins
+Status_tags   : Open
+
+Action        : Approve the proposal.
+
+Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0558.html
+Proposal_urls : http://lists.w3.org/Archives/Public/www-style/2012May/0558.html
+----
+
+=== Background ===
+
+The Flexbox spec declares any child of a flexbox that is a block or inline-block (more or less - I won't get into the details) to be a flexbox item, while inline elements instead get wrapped into an anonymous item.  Unfortunately, replaced elements are display:inline, and may not even be replaced at all in some circumstances (Firefox renders <img> as a non-replaced inline when the image fails to load).  However, we'd like layout to be consistent and based only on computed-time or earlier values.
+
+=== Problem Statement ===
+
+Flexbox items (and thus layout) depends on the computed value of 'display' and whether or not an element is replaced.  The latter can change based on used-value-time information, though.  We'd like to ensure that layout is doable using only computed-value-time information.
+
+=== Proposal(s) ===
+
+Make the following elements always become flexbox items, regardless of 'display': <img>, <canvas>, <svg>, <math>, <audio>, <video>, <iframe>, <object>, <embed>, <input>, <button>, <select>, or <textarea>
