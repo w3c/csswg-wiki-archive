@@ -21,74 +21,74 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
 
 ==== Flex Box Construction ====
 
-  - Is pre whitespace ignored or preserved between elements? http://www.w3.org/mid/4F6ACDF3.1030706@mozilla.com
-  - Magic of replaced 'display: inline' elements: http://www.w3.org/mid/4FA76E7E.60604@inkedblade.net
-  - What are expected display-inside/display-outside values for flex items, and does currently-defined behavior result in a sensible model when they are defined to exist?
-  - Effect of 'visibility: collapse' on flex items. http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E5398569284121366F7@TK5EX14MBXC213.redmond.corp.microsoft.com
+  - [RESOLVED] Is pre whitespace ignored or preserved between elements? http://www.w3.org/mid/4F6ACDF3.1030706@mozilla.com
+  - [OPEN] Magic of replaced 'display: inline' elements: http://www.w3.org/mid/4FA76E7E.60604@inkedblade.net
+  - [CLOSED] What are expected display-inside/display-outside values for flex items, and does currently-defined behavior result in a sensible model when they are defined to exist?
+  - [RESOLVED] Effect of 'visibility: collapse' on flex items. http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E5398569284121366F7@TK5EX14MBXC213.redmond.corp.microsoft.com
      * Proposal A: Stays in box tree, but has special layout: Do layout once normally, then collapse it to a  strut of its line's cross size and lay out again. (This keeps the cross-size stable if the flexbox is single-line or a single line of multi-line.)
      * Proposal B: Stays in box tree, but removes all impact on layout, period.  (Just like display:none, but still generates boxes, so animations/counters/etc are unaffected.)
      * Proposal C: ?
 
 ==== Flex Property ====
 
-  - Split flex as shorthand of flex-grow/flex-shrink/flex-basis
-  - Does box-sizing affect flex-basis? http://www.w3.org/mid/57440D3E-FD1B-4526-91AD-0898C6AAB3AA@philipwalton.com
-  - Applicability of flex-basis: is it used or ignored for flex == 0?
+  - [RESOLVED] Split flex as shorthand of flex-grow/flex-shrink/flex-basis
+  - [RESOLVED] Does box-sizing affect flex-basis? http://www.w3.org/mid/57440D3E-FD1B-4526-91AD-0898C6AAB3AA@philipwalton.com
+  - [RESOLVED] Applicability of flex-basis: is it used or ignored for flex == 0?
      * Alex suggests it is ignored. This would make main sizing source property different iff flex-grow == flex-shrink == 0.
      * http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E539856928412EB4BF0@TK5EX14MBXC214.redmond.corp.microsoft.com
      * http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E539856928412EB55DC@TK5EX14MBXC214.redmond.corp.microsoft.com 
-  - Default flexibility of flex items: flexible or inflexible? http://www.w3.org/mid/4F91E0D6.7040502@inkedblade.net
+  - [RESOLVED] Default flexibility of flex items: flexible or inflexible? http://www.w3.org/mid/4F91E0D6.7040502@inkedblade.net
      * Note: This decision sets the initial values of flex-grow and flex-shrink, which conventionally also implies their default values in the flex shorthand.
-  - What is the computed value of 'flex-basis' when it is 'auto'? Is it ''auto'' or is it the used flex basis? http://www.w3.org/mid/4FA1C498.2040101@inkedblade.net
+  - [RESOLVED] What is the computed value of 'flex-basis' when it is 'auto'? Is it ''auto'' or is it the used flex basis? http://www.w3.org/mid/4FA1C498.2040101@inkedblade.net
 
 ==== Flex/Main Sizing ====
 
-  - Negative Flex: use Alex's alternate formulation
+  - [RESOLVED] Negative Flex: use Alex's alternate formulation
       * http://www.w3.org/mid/2C86A15F63CD734EB1D846A0BA4E0FC81A3EDD72@CH1PRD0310MB381.namprd03.prod.outlook.com
       * https://www.w3.org/Bugs/Public/show_bug.cgi?id=16856
-  - Turn negative flex on by default (now that negative flexing makes sense...)
+  - [RESOLVED] Turn negative flex on by default (now that negative flexing makes sense...)
       * This means that in a single-line flexbox, auto-sized flex items with long text will shrink so that they don't overflow the flexbox; instead, they become narrower and the text wraps. This seems like what we'd want.
       * Multi-line flexbox items still won't shrink unless they're wider than the flexbox.
-  - Implied min-content minimum size for flexbox items
+  - [RESOLVED] Implied min-content minimum size for flexbox items
       * Now that we have a reasonable negative flex by default, we should have a reasonable minimum main size to go with it.
       * Note: IE10 implies min-content as the minimum.
       * Note: Could introduce an initial value of 'auto' for 'min-content' to have this make more sense. This would compute to '0' wherever needed for back-compat.
 
 ==== Pagination ====
 
-  - Propagating break-before/after to flex line instead of allowing items to break lines, but only in fragmenting contexts
+  - [RESOLVED] Propagating break-before/after to flex line instead of allowing items to break lines, but only in fragmenting contexts
       * http://www.w3.org/mid/4FA150C0.7080605@inkedblade.net
   - Allowing pull-up in addition to push-down in paging.
       * http://www.w3.org/mid/4FA02EB0.7020102@inkedblade.net
-  - Make paging algorithms informative: define multi-col nature of multi-line column pagination, and otherwise merely advise to minimize distortion.
+  - [RESOLVED] Make paging algorithms informative: define multi-col nature of multi-line column pagination, and otherwise merely advise to minimize distortion.
 
 ==== Alignment and Cross-Sizing ====
 
-  - Single-line vs. multi-line differences in alignment and sizing?
+  - [RESOLVED] Single-line vs. multi-line differences in alignment and sizing?
       * http://www.w3.org/mid/4F9F6C6E.3020507@inkedblade.net
       * http://www.w3.org/mid/2C86A15F63CD734EB1D846A0BA4E0FC81A3EE2FD@CH1PRD0310MB381.namprd03.prod.outlook.com
-  - Stretch doesn't allow shrinkage, is that what's wanted?
+  - [CLOSED] Stretch doesn't allow shrinkage, is that what's wanted?
       * http://www.w3.org/mid/87wr4tafju.fsf@aeneas.oslo.osa
-  - Get WG approval of 'auto' margin behavior (which is designed to match Grid atm)
+  - [OPEN] Get WG approval of 'auto' margin behavior (which is designed to match Grid atm)
       * http://lists.w3.org/Archives/Public/www-style/2012May/0347.html
       * Also: https://www.w3.org/Bugs/Public/show_bug.cgi?id=16755
-  - 'distribute' behavior doesn't match use case that prompted it
+  - [OPEN] 'distribute' behavior doesn't match use case that prompted it
       * http://www.w3.org/mid/BLU165-ds157576DC1F28A7EF906F2DF8BD0@phx.gbl
-  - Define/resolve on alignment fallbacks for baseline, stretch, distribute, justify.
-  - True centering vs. safe centering
+  - [CLOSED?] Define/resolve on alignment fallbacks for baseline, stretch, distribute, justify.
+  - [OPEN] True centering vs. safe centering
 
 ==== Terminology and Naming ====
 
-  - Rename 'display: flexbox' to 'display: flex'
+  - [RESOLVED] Rename 'display: flexbox' to 'display: flex'
      * http://www.w3.org/mid/4F8C9537.1060009@moonhenge.net
      * https://www.w3.org/Bugs/Public/show_bug.cgi?id=16752
-  - Rename "flexbox" to "flex container" and "flexbox item" to "flex item" or "flex box" to be consistent with CSS terminology elsewhere
+  - [RESOLVED] Rename "flexbox" to "flex container" and "flexbox item" to "flex item" or "flex box" to be consistent with CSS terminology elsewhere
      * http://www.w3.org/mid/4F8322B2.40409@inkedblade.net
-  - Rename 'flex-order' to 'box-order' or 'display-order', since it doesn't affect order of flexing, but order of boxes.
+  - [OPEN] Rename 'flex-order' to 'box-order' or 'display-order', since it doesn't affect order of flexing, but order of boxes.
      * Note: this also allows re-use of the property in e.g. grid auto-placement.
      * http://www.w3.org/mid/4F3CFBA9.7020200@inkedblade.net
      * https://www.w3.org/Bugs/Public/show_bug.cgi?id=16756
-  - Resolve nowrap vs. no-wrap for both Flexbox and CSS3 Text
+  - [RESOLVED] Resolve nowrap vs. no-wrap for both Flexbox and CSS3 Text
      * http://www.w3.org/mid/4F90D9E2.8060404@inkedblade.net
 
 ==== Syntactic Alignment of Flex Item Alignment ====
@@ -98,7 +98,7 @@ These issues tie into the Box Alignment proposal. [1]
   - 'distribute' vs. 'justify': unclear which is which. Also names should not be inconsistent with text / ruby-align, at the very least.
   - Flex-flow-relative alignment: start/end/start/end vs. start/end/before/after https://www.w3.org/Bugs/Public/show_bug.cgi?id=16007
   - Alignment property names are confusing to anyone who hasn't been working on Flexbox for months.
-  - Proposal for common alignment: if we're going there, how do we integrate with Flexbox without depending on its completion?
+  - [RESOLVED] Proposal for common alignment: if we're going there, how do we integrate with Flexbox without depending on its completion?
 
 ===== Resolved Issues =====
 
