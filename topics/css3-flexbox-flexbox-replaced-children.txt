@@ -24,4 +24,4 @@ Flexbox items (and thus layout) depends on the computed value of 'display' and w
 Make the following elements always become flexbox items, regardless of 'display': <img>, <canvas>, <svg>, <math>, <audio>, <video>, <iframe>, <object>, <embed>, <input>, <button>, <select>, or <textarea>
 
 == Proposal B ==
-Introduce 'display: flex-item', which computes to 'inline' except on the child of a 'display: flex' element, and assign it to the elements listed above in ua.css.
+Introduce 'display: flex-item', which computes to 'inline' except on the child of a 'display: flex' element, and assign it to the elements listed above in ua.css. Corollary proposal: make flex items return 'flex-item' as their computed 'display'.
