@@ -68,9 +68,9 @@ You can optionally [[http://mercurial.selenic.com/wiki/MergeProgram|select an in
 :?: Depending on your OS and Mercurial root certificate configuration you may get a warning message about the host certificate when communicating with the central repository. If that happens, you can remove those warnings by adding the following to your configuration file:
   [hostfingerprints]
   dvcs.w3.org = 2f:93:11:aa:2c:8a:a6:57:50:0b:7d:52:7f:c2:d3:c6:b1:e6:6d:b3 # expires 03-may-2012
-  hg.csswg.org = 99:f1:9e:09:b7:52:39:30:62:6a:77:ef:18:df:19:cd:20:b6:11:42 # expires 16-may-2012
+  hg.csswg.org = d4:c1:da:a9:ea:bc:49:25:4b:df:af:4a:a9:b4:6f:ea:51:33:3d:b8 # expires 16-may-2013
   
-Note that these fingerprints will only be valid until the certificates expire in May 2012. You will need to update the fingerprints when new certificates are issued.
+Note that these fingerprints will only be valid until the certificates expire in May 2013. You will need to update the fingerprints when new certificates are issued.
  
 ==== Initial Clone Of The Central Repository ====
 
