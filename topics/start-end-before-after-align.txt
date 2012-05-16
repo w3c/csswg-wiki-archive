@@ -1,0 +1,35 @@
+====== Title/Summary of Discussion Topic ======
+
+---- dataentry ----
+Spec_tags     : css3-flexbox, css3-align
+Owner_tags    : fantasaiComma-separated list.
+Status_tags   : Open, Urgent
+
+Action        : Approve the proposal?
+
+Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0556.html
+Proposal_urls : 
+Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+----
+
+=== Background ===
+
+The alignment properties are divided into two dimensions, one for each flow-relative dimension. In order to have terms for all four sides of a box, the terminology used in each dimension is different: the inline dimension uses start/end, while the stacking dimension uses before/after. Right now the layout specs proposing new alignment properties use start/end keywords in both dimensions.
+
+Note: Flexbox will be the first spec to go to CR with logical keywords.
+
+=== Problem Statement ===
+
+Should alignment properties use flow-relative terms, or use start/end in both dimensions?
+
+=== Proposal(s) ===
+
+The proposal is to have the Box Alignment proposal's '-align' properties, which align in the stacking dimension, to use before/after, not start/end.
+
+This would impact Flexbox's three cross-axis alignment properties (currently named 'flex-align', 'flex-item-align', and 'flex-line-pack') and Grid Layout's one column-axis alignment property (called 'grid-row-align'). Note the properties will also be renamed when aligned to match Box Alignment.
+
+=== Links to More Info ===
+
+  - http://dev.w3.org/csswg/css3-flexbox/#flex-align
+  - http://www.w3.org/TR/css3-grid-layout/#grid-item-alignment
+  - http://dev.w3.org/csswg/css3-align/#align-outside
