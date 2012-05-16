@@ -1,12 +1,11 @@
 ====== Make Replaced Elements Always Be Flexbox Items ======
 
----- dataentry ----
+---- dataentry  ----
 Spec_tags     : css3-flexbox
 Owner_tags    : tabatkins
 Status_tags   : Open, Urgent
 Date_dt       : 2012-05-16
-Action        : Approve the proposal.
-
+Action        : Pick proposal A or B
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0558.html
 Proposal_urls : http://lists.w3.org/Archives/Public/www-style/2012May/0558.html
 ----
