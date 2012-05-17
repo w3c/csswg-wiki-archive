@@ -14,7 +14,9 @@ Proposal_urls :
 
 === Problem Statement ===
 
-Should we rename the 'flex-order' property?  Its functionality may be useful in other new layout specs, such as in Grid's auto-layout algorithm (which is basically a simple version of Flexbox), so putting it under a "flex-" prefix wouldn't be good.  As well, 'flex-order' might be a good name in the future for putting elements in "flex groups", such that one group gets first crack at the free space ahead of other (in the old flexbox spec, this was called 'box-flex-group').
+Should we rename the 'flex-order' property?  It has nothing to do with flexing, and its functionality may be useful in other new layout specs, e.g. Grid's auto-layout algorithm.
+
+As well, 'flex-order' might be a good name in the future for putting elements in "flex groups", such that one group gets first crack at the free space ahead of other (in the old flexbox spec, this was called 'box-flex-group').
 
 === Proposal(s) ===
 
