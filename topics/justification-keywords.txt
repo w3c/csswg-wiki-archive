@@ -5,7 +5,7 @@ Spec_tags     : css3-align, css3-flexbox
 Owner_tags    : fantasai
 Status_tags   : Open, Urgent
 Date_dt       : 2012-05-16
-Action        : Pick proposal A or B
+Action        : Pick proposal A, B, or C
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0554.html
 Proposal_urls : 
 Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
@@ -43,13 +43,14 @@ Flexbox currently uses ''justify'' to mean "edges flush" and ''distribute'' to m
   * It's unclear from the names which is which.
   * The ''distribute'' value of ''text-justify'' means "edges flush", which is inconsistent.
 
-We need keywords (or at least two, really, since only two are wanted) that clearly and unambiguously specify each of the behaviors.
+We need keywords that clearly and unambiguously specify each of the behaviors (or at least two, really, since only two are wanted).
 
 === Proposal(s) ===
 
   ; Proposal 0 (current spec) : ''justify'' vs. ''distribute''
   ; Proposal A : ''distribute'' vs. ''distribute-space''
   ; Proposal B : ''distribute-flush'' vs. ''distribute-space''
+  ; Proposal C : ''distribute'' vs. ''space''
 
 === Links to More Info ===
 
