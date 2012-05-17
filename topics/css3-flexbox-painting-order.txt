@@ -1,13 +1,11 @@
 ====== Painting Order of Reordered Flexbox Items ======
 
----- dataentry ----
+---- dataentry  ----
 Spec_tags     : css3-flexbox
 Owner_tags    : tabatkins
 Status_tags   : Open, Urgent
-Date_dt       : 2012-05-16
-
+Added_dt      : 2012-05-16
 Action        : Pick A or B
-
 Issue_urls    : 
 Proposal_urls : 
 ----
