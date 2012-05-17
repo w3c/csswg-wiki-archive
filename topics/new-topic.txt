@@ -4,7 +4,7 @@
 Spec_tags     : css3-foo        # or none
 Owner_tags    : @USER@          # Who's driving the discussion? Comma-separated list.
 Status_tags   : Open, Urgent    # [ Open | Closed | Pending ] [, Urgent]?
-Date_dt       : %G-%m-%d        # Date of WG discussion request
+Added_dt      : %G-%m-%d        # Date added as WG discussion request
 
 Action        : What does the WG need to do? # Or, if Pending, pending what?
                 # Some Examples:
