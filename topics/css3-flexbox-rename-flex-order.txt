@@ -1,0 +1,23 @@
+====== Rename 'flex-order' ======
+
+---- dataentry ----
+Spec_tags     : css3-flexbox
+Owner_tags    : tabatkins
+Status_tags   : Open, Urgent
+Date_dt       : 2012-05-16
+
+Action        : Pick A, B, or C?
+
+Issue_urls    : 
+Proposal_urls : 
+----
+
+=== Problem Statement ===
+
+Should we rename the 'flex-order' property?  Its functionality may be useful in other new layout specs, such as in Grid's auto-layout algorithm (which is basically a simple version of Flexbox), so putting it under a "flex-" prefix wouldn't be good.  As well, 'flex-order' might be a good name in the future for putting elements in "flex groups", such that one group gets first crack at the free space ahead of other (in the old flexbox spec, this was called 'box-flex-group').
+
+=== Proposal(s) ===
+
+A. (current spec) Name it 'flex-order'.
+B. Name it 'box-order'.
+C. Name it 'display-order'.
