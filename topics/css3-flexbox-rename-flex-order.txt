@@ -19,5 +19,7 @@ Should we rename the 'flex-order' property?  Its functionality may be useful in 
 === Proposal(s) ===
 
 A. (current spec) Name it 'flex-order'.
+
 B. Name it 'box-order'.
+
 C. Name it 'display-order'.
