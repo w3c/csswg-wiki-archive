@@ -4,7 +4,7 @@
 Spec_tags     : css3-align, css3-flexbox
 Owner_tags    : fantasai
 Status_tags   : Open, Urgent
-Date_dt       : 2012-05-16
+Added_dt      : 2012-05-16
 Action        : Pick proposal A, B, or C
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0554.html
 Proposal_urls : 
