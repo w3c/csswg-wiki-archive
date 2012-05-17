@@ -1,16 +1,14 @@
 ====== Title/Summary of Discussion Topic ======
 
----- dataentry ----
+---- dataentry  ----
 Spec_tags     : css3-align, css3-flexbox
 Owner_tags    : fantasai
 Status_tags   : Open, Urgent
-Date_dt       : 2012-05-16
-
+Added_dt      : 2012-05-16
 Action        : Choose some names.
-
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0476.html
 Proposal_urls : 
-Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
 ----
 
 === Background ===
