@@ -72,7 +72,7 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
   - [CLOSED] Get WG approval of 'auto' margin behavior (which is designed to match Grid atm)
       * http://lists.w3.org/Archives/Public/www-style/2012May/0347.html
       * Also: https://www.w3.org/Bugs/Public/show_bug.cgi?id=16755
-  - [OPEN] 'distribute' behavior doesn't match use case that prompted it
+  - [CLOSED] 'distribute' behavior doesn't match use case that prompted it
       * http://www.w3.org/mid/BLU165-ds157576DC1F28A7EF906F2DF8BD0@phx.gbl
   - [CLOSED?] Define/resolve on alignment fallbacks for baseline, stretch, distribute, justify.
   - [OPEN] True centering vs. safe centering
