@@ -4,7 +4,7 @@
 Spec_tags     : css21, css3-flexbox
 Owner_tags    : fantasai, antonp, TabAtkins
 Status_tags   : Open
-Date_dt       : 2012-05-15
+Added_dt      : 2012-05-15
 Action        : Approve the proposal?
 Issue_urls    : https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381
 Proposal_urls : http://lists.w3.org/Archives/Public/www-style/2012May/0494.html
