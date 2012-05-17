@@ -1,0 +1,62 @@
+====== Title/Summary of Discussion Topic ======
+
+---- dataentry ----
+Spec_tags     : css3-align, css3-flexbox
+Owner_tags    : fantasai
+Status_tags   : Open, Urgent
+Date_dt       : 2012-05-16
+
+Action        : Choose some names.
+
+Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0476.html
+Proposal_urls : 
+Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+----
+
+=== Background ===
+
+Fundamentally, we're breaking down the properties along two axes:
+
+   * in which dimension are things being shifted? There are two:
+       * X) inline (main)
+       * Y) stacking (cross)
+
+   * what's being aligned within what?
+       * A) element itself within its containing block
+       * B) element's contents within itself
+       * C) element's child items within their container
+
+We're going with 'justify' vs. 'align' to distinguish X vs. Y, but still need a scheme for A/B/C
+
+=== Problem Statement ===
+
+What naming scheme do we use to indicate various alignment targets?
+
+=== Proposal(s) ===
+
+See http://dev.w3.org/csswg/css3-align/#overview
+
+If we don't have a clear consensus, we can pick something now and leave it open as an LC issue for feedback.
+
+Set 1: Box/Content/Default
+
+    +--------X----------------Y------
+  A |     box-justify      box-align
+  B | content-justify  content-align
+  C | default-justify  default-align
+
+
+Set 2: Self/Content/Item
+
+    +--------X----------------Y------
+  A |    self-justify     self-align
+  B | content-justify  content-align
+  C |    item-justify     item-align
+
+
+Set 3: Outside/Inside/Items
+
+    +--------X----------------Y------
+  A | justify-outside  align-outside
+  B | justify-inside   align-inside
+  C | justify-items    align-items
