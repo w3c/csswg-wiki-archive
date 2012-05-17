@@ -47,6 +47,7 @@ We need keywords (or at least two, really, since only two are wanted) that clear
 
 === Proposal(s) ===
 
+  ; Proposal 0 : ''justify'' vs. ''distribute'' (current spec)
   ; Proposal A : ''distribute'' vs. ''distribute-space''
   ; Proposal B : ''distribute-flush'' vs. ''distribute-space''
 
