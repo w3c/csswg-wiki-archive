@@ -69,7 +69,7 @@ July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-2009072
       * http://www.w3.org/mid/2C86A15F63CD734EB1D846A0BA4E0FC81A3EE2FD@CH1PRD0310MB381.namprd03.prod.outlook.com
   - [CLOSED] Stretch doesn't allow shrinkage, is that what's wanted?
       * http://www.w3.org/mid/87wr4tafju.fsf@aeneas.oslo.osa
-  - [OPEN] Get WG approval of 'auto' margin behavior (which is designed to match Grid atm)
+  - [CLOSED] Get WG approval of 'auto' margin behavior (which is designed to match Grid atm)
       * http://lists.w3.org/Archives/Public/www-style/2012May/0347.html
       * Also: https://www.w3.org/Bugs/Public/show_bug.cgi?id=16755
   - [OPEN] 'distribute' behavior doesn't match use case that prompted it
