@@ -36,7 +36,7 @@ What naming scheme do we use to indicate various alignment targets?
 
 See http://dev.w3.org/csswg/css3-align/#overview
 
-If we don't have a clear consensus, we can pick something now and leave it open as an LC issue for feedback.
+If we don't have a clear consensus, we can pick something now and leave it open as an LC issue to give us more time.
 
 Set 1: Box/Content/Default
 
