@@ -1,4 +1,4 @@
-====== Title/Summary of Discussion Topic ======
+====== "Safe" or "True" Centering in Flexbox ======
 
 ---- dataentry ----
 Spec_tags     : css3-flexbox, css3-align
