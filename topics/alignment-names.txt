@@ -1,4 +1,4 @@
-====== Rename and Generalize the Alignment Properties ======
+====== Rename the Alignment Properties to Generic Names ======
 
 ---- dataentry  ----
 Spec_tags     : css3-align, css3-flexbox
