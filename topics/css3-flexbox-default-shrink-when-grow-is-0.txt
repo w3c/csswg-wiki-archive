@@ -1,0 +1,26 @@
+====== Default for flex-shrink when flex-grow is 0 in the shorthand ======
+
+---- dataentry ----
+Spec_tags     : css3-flexbox
+Owner_tags    : tabatkins
+Status_tags   : Open, Urgent
+Added_dt      : 2012-05-17
+
+Action        : Approve the proposal?
+
+Issue_urls    : 
+Proposal_urls : 
+----
+
+=== Background ===
+
+To address other issues, we changed the default for 'flex-shrink' from 0 to 1 during the F2F.
+
+=== Problem Statement ===
+
+The behavior of "flex: 0 <length>;" changes - it can now shrink, where before it couldn't.
+
+=== Proposal(s) ===
+
+We propose to make an omitted flex-shrink default to 0 if the flex-grow is given as 0 in the flex shorthand.
+
