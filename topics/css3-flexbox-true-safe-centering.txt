@@ -23,3 +23,5 @@ Safe centering is "safe", and common.  However, there are good use-cases for "tr
 A. (Current draft) "Safe" center by default.  Authors can opt into true centering by adding the "true" keyword alongside their alignment value.
 
 B. "True" center by default.  Authors can opt into safe centering by adding the "safe" keyword alongside their alignment value.
+
+C. Assuming the alignment property is generalized, make it default to centering being layout-mode defined.  Flexbox keeps its current behavior of "true" centering.
