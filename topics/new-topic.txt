@@ -1,8 +1,8 @@
 ====== FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion Topic ======
 
 ---- dataentry ----
-Spec_tags     : css3-foo        # or none
-Owner_tags    : @USER@          # Who's driving the discussion? Comma-separated list.
+Spec_tags     : css3-foo        # in alpha order; or "none"
+Owner_tags    : @USER@          # Who's driving the discussion?
 Status_tags   : Open, Urgent    # [ Open | Closed | Pending ] [, Urgent]?
 Added_dt      : %G-%m-%d        # Date added as WG discussion request
 
