@@ -27,4 +27,4 @@ Make the following elements always become flexbox items, regardless of 'display'
 
   - Introduce 'display: flex-item', which computes to 'inline' except on the child of a 'display: flex' element
   - Assign it to the elements listed above in ua.css.
-  - Corollary proposal: make flex items return 'flex-item' as their computed 'display'.
+  - Corollary: make flex items with 'display-inside: block' return 'flex-item' as their computed 'display'.
