@@ -42,6 +42,19 @@
   * Line Layout (1 hr)
   * Values and Units (1 hr)
 
+==== Left Overs ====
+  * Prefixes
+    * FPWD CSS3 text-size-adjust
+    * [[http://lists.w3.org/Archives/Public/www-style/2012May/0125.html|Changing the prefix policy?]]
+  * Device adaptation
+  * Media Queries level 4: discussion ideas and direction for the next level of the spec
+  * Spec stylesheet
+    * Use of alternate stylesheet
+    * Changing default font 
+  * CSS3 Syntax
+    * Tab started working on it again.  Briefly discuss plans and make sure no one hates it. (20 min)
+  * Parsing scientific notation in CSS (1 hr) 
+
 ==== Proposed Topics ====
 
   * Prefixes and how to prioritize specs with heavy -webkit- prefix adoption.
