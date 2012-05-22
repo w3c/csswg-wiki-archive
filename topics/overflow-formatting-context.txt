@@ -85,7 +85,7 @@ with:
 
 == Containing block hierarchy (optional addition to proposal) ==
 
-(This has not been discussed on the public mailing list.)
+(This has neither been reviewed nor discussed on the public mailing list.)
 
 In 10.1 (Definition of "containing block"), replace:
 
