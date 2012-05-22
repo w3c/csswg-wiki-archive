@@ -1,4 +1,4 @@
-====== FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion Topic ======
+====== Behavior of 'auto' margins on flex items ======
 
 ---- dataentry ----
 Spec_tags     : css3-flexbox
