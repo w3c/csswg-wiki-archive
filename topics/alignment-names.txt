@@ -59,6 +59,8 @@ Set 3: Outside/Inside/Items
   B | justify-inside   align-inside
   C | justify-items    align-items
 
+Added after initial discussions...
+
 Set 4: Self/Content/Items Inversion
 
     +--------X----------------Y------
@@ -175,7 +177,7 @@ Set 5: Self/Content/Items Inline/Stack
 
 [[http://lists.w3.org/Archives/Public/www-style/2012May/0835.html|fantasai]]:
 
-  I think I'm leaning towards this myself, since it seems to fit
+  I think I'm leaning towards [Set 4] myself, since it seems to fit
   reasonably well with the flexbox model:
   
   Set on flex container:
