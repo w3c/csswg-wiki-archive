@@ -29,7 +29,7 @@ A reftest has three parts:
 
 The test file uses the technology to be tested. This file must follow the [[format|CSS test format guidelines]].
 
-In addition to matching a reftest reference, the test may also function as an self-describing test. This is preferred because having the description lets the tester check that the test and the reference are not //both// being rendered incorrectly and triggering a false pass, and because designing it for an obvious fail makes it easier to find what went wrong when the reftest does fail.
+In addition to matching a reftest reference, the test may also function as a self-describing test. This is preferred because having the description lets the tester check that the test and the reference are not //both// being rendered incorrectly and triggering a false pass, and because designing it for an obvious fail makes it easier to find what went wrong when the reftest does fail.
 
 ==== The Reftest Reference File ====
 
@@ -112,9 +112,9 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 19 unreftestable tests ====
+==== 20 unreftestable tests ====
 
-The following is a list of 19 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 20 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
@@ -153,9 +153,11 @@ The following is a list of 19 CSS2.1 tests that appear to be unreftestable:
 |[RC6] c24-first-lttr-000]] **Reasons why**: browsers may apply different line-height value to :first-letter pseudo-element depending on font used. When using DejaVu Serif font, Firefox 11.0 and Chrome 18.0.1025.142 apply line-height: 1.17 while Opera 11.62 applies line-height: 1.18. When using FreeSerif font, all 3 browsers use the same computed line-height value so that there is no need to specify it.
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/inherit-004.htm
 |[nightly-unstable] inherit-004]] **Reasons why**: "Empty inline elements generate empty inline boxes, but these boxes still have margins, padding, borders and a line height, and thus influence these calculations just like elements with content." coming from [[http://www.w3.org/TR/CSS21/visudet.html#line-height|section 10.8]]. So, a inline box with 'font-weight: bold' can influence height of line box.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/border-bottom-style-003.htm
+|[nightly-unstable] border-bottom-style-003]] **Reasons why**: The following border-styles are impossible to reftest: dotted, dashed, ridge, groove, inset, outset, double. Only solid is reftestable.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
-|[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty.
+|[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty. I have now been able to create a reftest for such test.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/inline-formatting-context-023.htm
 |[RC6] inline-formatting-context-023]] **Reasons why**: 1px offset in Opera 11.61 which is unexplained as of now.</del> I have concluded that Opera 11.61 has a bug. I have now been able to create a reftest for such test.
