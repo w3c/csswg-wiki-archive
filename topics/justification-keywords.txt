@@ -3,13 +3,17 @@
 ---- dataentry  ----
 Spec_tags     : css3-align, css3-flexbox
 Owner_tags    : fantasai
-Status_tags   : Open, Urgent
+Status_tags   : Closed
 Added_dt      : 2012-05-16
 Action        : Pick proposal A, B, or C
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0554.html
 Proposal_urls : 
 Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
 ----
+
+=== RESOLVED ===
+
+The WG resolved to go with another option brought up during the call, and use 'space-between' and 'space-around' for the "Edges flush" and "Equal margins" cases, respectively.
 
 === Background ===
 
