@@ -3,19 +3,7 @@
 The CSS Working Group holds weekly teleconferences on Wednesdays at 9am Pacific time.
 ===== Topics Proposed for Next Call =====
 
-The CSSWG co-chairs will select from this list and other sources to create the actual agenda. In no particular order:
-
-=== Administrative ===
-  ; Determining testable assertions in specs
-
-=== Follow-ups ===
-
-=== Publication / Review Requests ===
-
-
-=== Technical ===
-
-
+:!: This page has been superseded by [topics].
 ===== Backlog =====
 
 Topics that have been proposed for discussion but are currently on the back-burner.
