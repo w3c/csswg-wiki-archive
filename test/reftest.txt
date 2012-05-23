@@ -112,9 +112,9 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 22 unreftestable tests ====
+==== 23 unreftestable tests ====
 
-The following is a list of 22 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 23 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
@@ -159,6 +159,8 @@ The following is a list of 22 CSS2.1 tests that appear to be unreftestable:
 |[RC6] border-bottom-width-036]] **Reasons why**: Depending on how tall 1cm is (how it is actually resolved: as 37px or 38px for border), the height of green that we may see could be 75px or it could be 76px. Eg.: Opera 11.64 displays a filled green rectangle of 76px of height while other browsers display a filled green rectangle of 75px.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/border-bottom-width-047.htm
 |[RC6] border-bottom-width-047]] **Reasons why**: Depending on how tall 1mm is (how it is actually resolved: as 3px or 4px for border), the height of green that we may see could be 7px or it could be 8px. Eg.: Opera 11.64 displays a filled green rectangle of 86px of height while other browsers display a filled green rectangle of 7px.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/border-bottom-width-014.htm
+|[RC6] border-bottom-width-014]] **Reasons why**: 1pt is 1.33333px (3pt == 4px); so, it could be possible for a browser to resolve such value as 2px (round up) or as 1px (round down); so, this situation is impossible to predict, therefore impossible to reftest.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
 |[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty. I have now been able to create a reftest for such test.
