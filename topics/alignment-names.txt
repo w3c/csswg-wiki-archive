@@ -71,9 +71,9 @@ Set 4: Self/Content/Items Inversion
 Set 5: Self/Content/Items Inline/Stack
 
     +--------X----------------Y------
-  A | inline-align-self     stack-align-self
-  B | inline-align-content  stack-align-content
-  C | inline-align-items    stack-align-items
+  A | align-self-inline     align-self-stack
+  B | align-content-inline  align-content-stack
+  C | align-items-inline    align-items-stack
 
 === Summary of Comments ===
 
@@ -186,6 +186,12 @@ Set 5: Self/Content/Items Inline/Stack
     align-items     - to set (default) cross-position of items
   Set on flex item:
     align-self      - to set individual cross-position of item
+
+[[http://lists.w3.org/Archives/Public/www-style/2012May/0843.html|Remy]]:
+
+  If you want to keep consistency with other CSS properties (border,
+  background-position, ...) the axis should be at the end of the
+  property name and there should be a shorthand to modify both axises. 
 
 === Conclusions ===
 
