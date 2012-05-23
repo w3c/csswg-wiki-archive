@@ -61,21 +61,21 @@ Set 3: Outside/Inside/Items
 
 Set 4: Self/Content/Items Inversion
 
-   +--------X----------------Y------
- A | justify-self     align-self
- B | justify-content  align-content
- C | justify-items    align-items
+    +--------X----------------Y------
+  A | justify-self     align-self
+  B | justify-content  align-content
+  C | justify-items    align-items
 
 Set 5: Self/Content/Items Inline/Stack
 
-   +--------X----------------Y------
- A | inline-align-self     stack-align-self
- B | inline-align-content  stack-align-content
- C | inline-align-items    stack-align-items
+    +--------X----------------Y------
+  A | inline-align-self     stack-align-self
+  B | inline-align-content  stack-align-content
+  C | inline-align-items    stack-align-items
 
 === Summary of Comments ===
 
-Anton:
+[[http://lists.w3.org/Archives/Public/www-style/2012May/0481.html|Anton]]:
 
   For me, Set 1 is too abstract. (Which box? Which default?)  I like
   self/content/item because I find it very self-descriptive.  I like
@@ -83,14 +83,14 @@ Anton:
   display-inside and display-outside.  I wouldn't have trouble
   remembering and applying the property names in Set 2 or Set 3.
 
-Florian:
+[[http://lists.w3.org/Archives/Public/www-style/2012May/0484.html|Florian]]:
 
   box and content make sense to me, and so do outside and inside.
   self and content are a bit cryptic to me.
   As for default vs item, no strong opinion. Neither seem very much
   clearer than the other. 
 
-Remy:
+[[http://lists.w3.org/Archives/Public/www-style/2012May/0493.html|Remy]]:
 
   outer-align; outer-justify;
   inner-align; inner-justify;
@@ -99,7 +99,7 @@ Remy:
   However, I'm not completely sold to "child-outer-align" and "child-outer-justify".
   This case is better solved with a pseudo-class. 
 
-Tab:
+[[http://lists.w3.org/Archives/Public/www-style/2012May/0495.html|Tab]]:
 
   [Set 3] is my favorite.
   
@@ -111,7 +111,7 @@ Tab:
   For two, outside/inside is very difficult to confuse, especially as we
   introduce more things using the inside/outside pair.
 
-Alan:
+[[http://lists.w3.org/Archives/Public/www-style/2012May/0515.html|Alan]]:
 
   [Set 3] is my choice as well. Grouping these related properties together
   with justify and align coming first makes the most sense to me.
@@ -122,14 +122,14 @@ Alan:
   So I think this should be the easiest set to explain to someone new to
   the concepts.
 
-dbaron:
+[[http://lists.w3.org/Archives/Public/www-style/2012May/0517.html|dbaron]]:
 
   I'm actually not so happy about the *-outside terms here.  The
   display-outside/inside distinction is about two halves of the same
   thing; here' align-outside and align-items are about the same
   behavior, on different things.
 
-Christoph:
+[[http://lists.w3.org/Archives/Public/www-style/2012May/0519.html|Christoph]]:
 
   The “Inversion” row makes some sense, because ‘justify-box’/‘align-box’
   sound like English phrases in the imperative mood, whereas ‘box-justify’/
@@ -150,7 +150,7 @@ Christoph:
   B | justify[-self]   align[-self]
   C | justify-inside   align-inside
 
-Lea:
+[[http://lists.w3.org/Archives/Public/www-style/2012May/0681.html|Lea]]:
 
   The align- and justify- prefixes are confusing to me too,
   especially the latter. However, I understand the concerns
@@ -167,17 +167,17 @@ Lea:
   by forming a convention, but it does not change the fact that
   it's incomprehensible without that convention, which needs to
   be learned.
-
+  
   However, opinions (even justified ones) are pointless when the
   problem is basically a usability issue (naming is to languages/
   APIs what UI is to applications). You need to conduct some sort
   of usability test [...]
 
-fantasai:
+[[http://lists.w3.org/Archives/Public/www-style/2012May/0835.html|fantasai]]:
 
   I think I'm leaning towards this myself, since it seems to fit
   reasonably well with the flexbox model:
-
+  
   Set on flex container:
     align-content   - to set distribution of flex lines 
     justify-content - to set distribution of items in each flex line
