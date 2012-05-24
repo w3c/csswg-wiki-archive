@@ -32,3 +32,4 @@ This would impact Flexbox's three cross-axis alignment properties (currently nam
   - http://dev.w3.org/csswg/css3-flexbox/#flex-align
   - http://www.w3.org/TR/css3-grid-layout/#grid-item-alignment
   - http://dev.w3.org/csswg/css3-align/#align-outside
+  - http://lists.w3.org/Archives/Public/www-style/2012May/0885.html
