@@ -232,17 +232,17 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 
 ==== Punctuation, Final quote (Pf) ====
 
-^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/00bb/index.htm|U+00BB]]|RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK|»|R|[[http://lists.w3.org/Archives/Public/www-archive/2012Mar/0006.html|Guillmets are sideways to enclose text]]|
-|[[http://www.fileformat.info/info/unicode/char/2019/index.htm|U+2019]]|RIGHT SINGLE QUOTATION MARK|’|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
-|[[http://www.fileformat.info/info/unicode/char/201d/index.htm|U+201D]]|RIGHT DOUBLE QUOTATION MARK|”|T<sub>U</sub>|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
-|[[http://www.fileformat.info/info/unicode/char/203a/index.htm|U+203A]]|SINGLE RIGHT-POINTING ANGLE QUOTATION MARK|›|R|[[http://lists.w3.org/Archives/Public/www-archive/2012Mar/0006.html|Guillmets are sideways to enclose text]]|
-|[[http://www.fileformat.info/info/unicode/char/2e03/index.htm|U+2E03]]|RIGHT SUBSTITUTION BRACKET|⸃|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/2e05/index.htm|U+2E05]]|RIGHT DOTTED SUBSTITUTION BRACKET|⸅|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/2e0a/index.htm|U+2E0A]]|RIGHT TRANSPOSITION BRACKET|⸊|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/2e0d/index.htm|U+2E0D]]|RIGHT RAISED OMISSION BRACKET|⸍|U?|:?: New Testament Editorial Symbols... :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/2e1d/index.htm|U+2E1D]]|RIGHT LOW PARAPHRASE BRACKET|⸝|U?|:?: N'Ko punctuation :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/2e21/index.htm|U+2E21]]|RIGHT VERTICAL BAR WITH QUILL|⸡|R|Brackets are sideways to enclose text|
+^Code^Description^Char^Stack^Mix^Memo^
+|[[http://www.fileformat.info/info/unicode/char/00bb/index.htm|U+00BB]]|RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK|»|R|R|[[http://lists.w3.org/Archives/Public/www-archive/2012Mar/0006.html|Guillmets are sideways to enclose text]]|
+|[[http://www.fileformat.info/info/unicode/char/2019/index.htm|U+2019]]|RIGHT SINGLE QUOTATION MARK|’|T<sub>U</sub>|R|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
+|[[http://www.fileformat.info/info/unicode/char/201d/index.htm|U+201D]]|RIGHT DOUBLE QUOTATION MARK|”|T<sub>U</sub>|R|Quotation marks are upright in stacked mode, but need some shifting :?: UTR#50 DVO has quotes S|
+|[[http://www.fileformat.info/info/unicode/char/203a/index.htm|U+203A]]|SINGLE RIGHT-POINTING ANGLE QUOTATION MARK|›|R|R|[[http://lists.w3.org/Archives/Public/www-archive/2012Mar/0006.html|Guillmets are sideways to enclose text]]|
+|[[http://www.fileformat.info/info/unicode/char/2e03/index.htm|U+2E03]]|RIGHT SUBSTITUTION BRACKET|⸃|U?|R|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e05/index.htm|U+2E05]]|RIGHT DOTTED SUBSTITUTION BRACKET|⸅|U?|R|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e0a/index.htm|U+2E0A]]|RIGHT TRANSPOSITION BRACKET|⸊|U?|R|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e0d/index.htm|U+2E0D]]|RIGHT RAISED OMISSION BRACKET|⸍|U?|R|:?: New Testament Editorial Symbols... :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e1d/index.htm|U+2E1D]]|RIGHT LOW PARAPHRASE BRACKET|⸝|U?|R|:?: N'Ko punctuation :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2e21/index.htm|U+2E21]]|RIGHT VERTICAL BAR WITH QUILL|⸡|R|R|Brackets are sideways to enclose text|
 
 ===== Separating Punctuation =====
 
