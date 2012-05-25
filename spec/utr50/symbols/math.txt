@@ -825,14 +825,14 @@ See also [[spec:utr50:symbols:arrows]]
 
 ==== Halfwidth and Fullwidth Forms ====
 
-^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/FF0B/index.htm|U+FF0B]]|FULLWIDTH PLUS SIGN|''＋''|U|
-|[[http://www.fileformat.info/info/unicode/char/FF1C/index.htm|U+FF1C]]|FULLWIDTH LESS-THAN SIGN|''＜''|U|
-|[[http://www.fileformat.info/info/unicode/char/FF1D/index.htm|U+FF1D]]|FULLWIDTH EQUALS SIGN|''＝''|U|
-|[[http://www.fileformat.info/info/unicode/char/FF1E/index.htm|U+FF1E]]|FULLWIDTH GREATER-THAN SIGN|''＞''|U|
-|[[http://www.fileformat.info/info/unicode/char/FF5C/index.htm|U+FF5C]]|FULLWIDTH VERTICAL LINE|''｜''|U|
-|[[http://www.fileformat.info/info/unicode/char/FF5E/index.htm|U+FF5E]]|FULLWIDTH TILDE|''～''|T<sub>R</sub>|See [[spec:utr50:punctuation#punctuation-dash-pd|Punctuation, Dash (Pd)]] :?: DVO=S|
-|[[http://www.fileformat.info/info/unicode/char/FFE2/index.htm|U+FFE2]]|FULLWIDTH NOT SIGN|''￢''|U|
+^Code^Description^Char^Stack^Mix^Memo^
+|[[http://www.fileformat.info/info/unicode/char/FF0B/index.htm|U+FF0B]]|FULLWIDTH PLUS SIGN|''＋''|U|U|
+|[[http://www.fileformat.info/info/unicode/char/FF1C/index.htm|U+FF1C]]|FULLWIDTH LESS-THAN SIGN|''＜''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/FF1D/index.htm|U+FF1D]]|FULLWIDTH EQUALS SIGN|''＝''|U|R|Relational operators are sideways in East Asian|
+|[[http://www.fileformat.info/info/unicode/char/FF1E/index.htm|U+FF1E]]|FULLWIDTH GREATER-THAN SIGN|''＞''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/FF5C/index.htm|U+FF5C]]|FULLWIDTH VERTICAL LINE|''｜''|T<sub>R</sub>|T<sub>R</sub>|
+|[[http://www.fileformat.info/info/unicode/char/FF5E/index.htm|U+FF5E]]|FULLWIDTH TILDE|''～''|T<sub>R</sub>|T<sub>R</sub>|See [[spec:utr50:punctuation#punctuation-dash-pd|Punctuation, Dash (Pd)]] :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/FFE2/index.htm|U+FFE2]]|FULLWIDTH NOT SIGN|''￢''|U|U|
 
 ==== Mathematical Alphanumeric Symbols ====
 
