@@ -378,8 +378,8 @@ See also [[spec:utr50:symbols:arrows]]
 |[[http://www.fileformat.info/info/unicode/char/23AF/index.htm|U+23AF]]|HORIZONTAL LINE EXTENSION|''⎯''|R|R|Brackets are always sideways|
 |[[http://www.fileformat.info/info/unicode/char/23B0/index.htm|U+23B0]]|UPPER LEFT OR LOWER RIGHT CURLY BRACKET SECTION|''⎰''|R|R|Brackets are always sideways|
 |[[http://www.fileformat.info/info/unicode/char/23B1/index.htm|U+23B1]]|UPPER RIGHT OR LOWER LEFT CURLY BRACKET SECTION|''⎱''|R|R|Brackets are always sideways|
-|[[http://www.fileformat.info/info/unicode/char/23B2/index.htm|U+23B2]]|SUMMATION TOP|''⎲''|R|R|Brackets are always sideways|
-|[[http://www.fileformat.info/info/unicode/char/23B3/index.htm|U+23B3]]|SUMMATION BOTTOM|''⎳''|R|R|Brackets are always sideways|
+|[[http://www.fileformat.info/info/unicode/char/23B2/index.htm|U+23B2]]|SUMMATION TOP|''⎲''|R|R|Stacked symbols are always sideways|
+|[[http://www.fileformat.info/info/unicode/char/23B3/index.htm|U+23B3]]|SUMMATION BOTTOM|''⎳''|R|R|Stacked symbols are always sideways|
 |[[http://www.fileformat.info/info/unicode/char/23DC/index.htm|U+23DC]]|TOP PARENTHESIS|''⏜''|U|
 |[[http://www.fileformat.info/info/unicode/char/23DD/index.htm|U+23DD]]|BOTTOM PARENTHESIS|''⏝''|U|
 |[[http://www.fileformat.info/info/unicode/char/23DE/index.htm|U+23DE]]|TOP CURLY BRACKET|''⏞''|U|
