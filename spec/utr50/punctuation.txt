@@ -270,7 +270,7 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 
 ==== Common Other Punctuation (Po) ====
 
-^Code^Description^Char^Stack^Memo^
+^Code^Description^Char^Stack^Mix^Memo^
 |[[http://www.fileformat.info/info/unicode/char/0021/index.htm|U+0021]]|EXCLAMATION MARK|!|U|R|
 |[[http://www.fileformat.info/info/unicode/char/0022/index.htm|U+0022]]|QUOTATION MARK|"|T<sub>U</sub>|R|Needs different position within bounding box, and/or different advance width (esp. when used as open-quote).|
 |[[http://www.fileformat.info/info/unicode/char/0023/index.htm|U+0023]]|NUMBER SIGN|#|U|R|
@@ -385,12 +385,12 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/fe4a/index.htm|U+FE4A]]|CENTRELINE OVERLINE|﹊|U|R|Match centerline low line|
 |[[http://www.fileformat.info/info/unicode/char/fe4b/index.htm|U+FE4B]]|WAVY OVERLINE|﹋|U|R|Match wavy low line|
 |[[http://www.fileformat.info/info/unicode/char/fe4c/index.htm|U+FE4C]]|DOUBLE WAVY OVERLINE|﹌|U|R|Match wavy low line|
-|[[http://www.fileformat.info/info/unicode/char/10b3a/index.htm|U+10B3A]]|TINY TWO DOTS OVER ONE DOT PUNCTUATION|𐬺|U|R|
-|[[http://www.fileformat.info/info/unicode/char/10b3b/index.htm|U+10B3B]]|SMALL TWO DOTS OVER ONE DOT PUNCTUATION|𐬻|U|R|
-|[[http://www.fileformat.info/info/unicode/char/10b3c/index.htm|U+10B3C]]|LARGE TWO DOTS OVER ONE DOT PUNCTUATION|𐬼|U|R|
-|[[http://www.fileformat.info/info/unicode/char/10b3d/index.htm|U+10B3D]]|LARGE ONE DOT OVER TWO DOTS PUNCTUATION|𐬽|U|R|
-|[[http://www.fileformat.info/info/unicode/char/10b3e/index.htm|U+10B3E]]|LARGE TWO RINGS OVER ONE RING PUNCTUATION|𐬾|U|R|
-|[[http://www.fileformat.info/info/unicode/char/10b3f/index.htm|U+10B3F]]|LARGE ONE RING OVER TWO RINGS PUNCTUATION|𐬿|U|R|
+|[[http://www.fileformat.info/info/unicode/char/10b3a/index.htm|U+10B3A]]|TINY TWO DOTS OVER ONE DOT PUNCTUATION|𐬺|U|R|Match Avestan|
+|[[http://www.fileformat.info/info/unicode/char/10b3b/index.htm|U+10B3B]]|SMALL TWO DOTS OVER ONE DOT PUNCTUATION|𐬻|U|R|Match Avestan|
+|[[http://www.fileformat.info/info/unicode/char/10b3c/index.htm|U+10B3C]]|LARGE TWO DOTS OVER ONE DOT PUNCTUATION|𐬼|U|R|Match Avestan|
+|[[http://www.fileformat.info/info/unicode/char/10b3d/index.htm|U+10B3D]]|LARGE ONE DOT OVER TWO DOTS PUNCTUATION|𐬽|U|R|Match Avestan|
+|[[http://www.fileformat.info/info/unicode/char/10b3e/index.htm|U+10B3E]]|LARGE TWO RINGS OVER ONE RING PUNCTUATION|𐬾|U|R|Match Avestan|
+|[[http://www.fileformat.info/info/unicode/char/10b3f/index.htm|U+10B3F]]|LARGE ONE RING OVER TWO RINGS PUNCTUATION|𐬿|U|R|Match Avestan|
 
 ==== Small/Fullwidth/Halfwidth/Vertical Other Punctuation (Po) ====
 
