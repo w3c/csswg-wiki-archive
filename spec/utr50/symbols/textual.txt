@@ -38,7 +38,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/2127/index.htm|U+2127]]|INVERTED OHM SIGN|''℧''|U|
 |[[http://www.fileformat.info/info/unicode/char/2129/index.htm|U+2129]]|TURNED GREEK SMALL LETTER IOTA|''℩''|U|
 |[[http://www.fileformat.info/info/unicode/char/212E/index.htm|U+212E]]|ESTIMATED SYMBOL|''℮''|U|
-|[[http://www.fileformat.info/info/unicode/char/213A/index.htm|U+213A]]|ROTATED CAPITAL Q|''℺''|U|
+|[[http://www.fileformat.info/info/unicode/char/213A/index.htm|U+213A]]|ROTATED CAPITAL Q|''℺''|U|U|[[http://blogs.msdn.com/b/michkap/archive/2005/01/10/349769.aspx|binding mark]], keep consistent with symbols U+203B, U+2720, U+2767|
 |[[http://www.fileformat.info/info/unicode/char/213B/index.htm|U+213B]]|FACSIMILE SIGN|''℻''|U|U|Symbol; sensible to be upright|
 |[[http://www.fileformat.info/info/unicode/char/214A/index.htm|U+214A]]|PROPERTY LINE|''⅊''|U|U|Architectural symbol?|
 |[[http://www.fileformat.info/info/unicode/char/214C/index.htm|U+214C]]|PER SIGN|''⅌''|U|U|:?: What is this???|
