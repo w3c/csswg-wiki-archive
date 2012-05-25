@@ -356,7 +356,7 @@ Symbols marked ":!: Relational operator" belong to the relational operator tailo
 |[[http://www.fileformat.info/info/unicode/char/230B/index.htm|U+230B]]|RIGHT FLOOR|''⌋''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/2320/index.htm|U+2320]]|TOP HALF INTEGRAL|''⌠''|R|R|Stacked symbols are always sideways|
 |[[http://www.fileformat.info/info/unicode/char/2321/index.htm|U+2321]]|BOTTOM HALF INTEGRAL|''⌡''|R|R|Stacked symbols are always sideways|
-|[[http://www.fileformat.info/info/unicode/char/237C/index.htm|U+237C]]|RIGHT ANGLE WITH DOWNWARDS ZIGZAG ARROW|''⍼''|U|
+|[[http://www.fileformat.info/info/unicode/char/237C/index.htm|U+237C]]|RIGHT ANGLE WITH DOWNWARDS ZIGZAG ARROW|''⍼''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/239B/index.htm|U+239B]]|LEFT PARENTHESIS UPPER HOOK|''⎛''|R|R|Brackets are always sideways|
 |[[http://www.fileformat.info/info/unicode/char/239C/index.htm|U+239C]]|LEFT PARENTHESIS EXTENSION|''⎜''|R|R|Brackets are always sideways|
 |[[http://www.fileformat.info/info/unicode/char/239D/index.htm|U+239D]]|LEFT PARENTHESIS LOWER HOOK|''⎝''|R|R|Brackets are always sideways|
