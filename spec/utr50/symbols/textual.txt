@@ -59,13 +59,13 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 
 ^Code^Description^Char^Stack^Mix^Memo^
 |[[http://www.fileformat.info/info/unicode/char/FFE4/index.htm|U+FFE4]]|FULLWIDTH BROKEN BAR|''￤''|U|R|
-|[[http://www.fileformat.info/info/unicode/char/FFE8/index.htm|U+FFE8]]|HALFWIDTH FORMS LIGHT VERTICAL|''￨''|U|
-|[[http://www.fileformat.info/info/unicode/char/FFED/index.htm|U+FFED]]|HALFWIDTH BLACK SQUARE|''￭''|U|
-|[[http://www.fileformat.info/info/unicode/char/FFEE/index.htm|U+FFEE]]|HALFWIDTH WHITE CIRCLE|''￮''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE8/index.htm|U+FFE8]]|HALFWIDTH FORMS LIGHT VERTICAL|''￨''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/FFED/index.htm|U+FFED]]|HALFWIDTH BLACK SQUARE|''￭''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/FFEE/index.htm|U+FFEE]]|HALFWIDTH WHITE CIRCLE|''￮''|U|R|
 
 ==== Specials ====
 
-^Code^Description^Char^Stack^Memo^
+^Code^Description^Char^Stack^Mix^Memo^
 |[[http://www.fileformat.info/info/unicode/char/FFFC/index.htm|U+FFFC]]|OBJECT REPLACEMENT CHARACTER|''￼''|U|U|Replaced elements are upright in CSS|
 |[[http://www.fileformat.info/info/unicode/char/FFFD/index.htm|U+FFFD]]|REPLACEMENT CHARACTER|''�''|U|U| |
 
