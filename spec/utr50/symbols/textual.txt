@@ -58,7 +58,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 ==== Halfwidth and Fullwidth Forms ====
 
 ^Code^Description^Char^Stack^Mix^Memo^
-|[[http://www.fileformat.info/info/unicode/char/FFE4/index.htm|U+FFE4]]|FULLWIDTH BROKEN BAR|''￤''|U|
+|[[http://www.fileformat.info/info/unicode/char/FFE4/index.htm|U+FFE4]]|FULLWIDTH BROKEN BAR|''￤''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/FFE8/index.htm|U+FFE8]]|HALFWIDTH FORMS LIGHT VERTICAL|''￨''|U|
 |[[http://www.fileformat.info/info/unicode/char/FFED/index.htm|U+FFED]]|HALFWIDTH BLACK SQUARE|''￭''|U|
 |[[http://www.fileformat.info/info/unicode/char/FFEE/index.htm|U+FFEE]]|HALFWIDTH WHITE CIRCLE|''￮''|U|
