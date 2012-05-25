@@ -48,7 +48,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 ==== Latin-1 Supplement ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/00A6/index.htm|U+00A6]]|BROKEN BAR|''¦''|U|
+|[[http://www.fileformat.info/info/unicode/char/00A6/index.htm|U+00A6]]|BROKEN BAR|''¦''|:?:|R| |
 |[[http://www.fileformat.info/info/unicode/char/00A9/index.htm|U+00A9]]|COPYRIGHT SIGN|''©''|U|U|Keep ©®℗ consistent|
 |[[http://www.fileformat.info/info/unicode/char/00AE/index.htm|U+00AE]]|REGISTERED SIGN|''®''|U|U|Keep ©®℗ consistent|
 |[[http://www.fileformat.info/info/unicode/char/00B0/index.htm|U+00B0]]|DEGREE SIGN|''°''|U|R|Degree sign alone is not used much in vertical Japanese, and this works better when labelling ASCII numbers.|
