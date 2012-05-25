@@ -35,7 +35,7 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 
 ==== Punctuation, Dash (Pd) ====
 
-^Code^Description^Char^Stack^Memo^
+^Code^Description^Char^Stack^Mix^Memo^
 |[[http://www.fileformat.info/info/unicode/char/002d/index.htm|U+002D]]|HYPHEN-MINUS|-|R|R|This character is used as hyphen, as minus, and as dash. Suggested to treating as dash / hyphen-bullet, since this seems to be more common than use as hyphen or minus. |
 |[[http://www.fileformat.info/info/unicode/char/058a/index.htm|U+058A]]|ARMENIAN HYPHEN|֊|U|R| :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/05be/index.htm|U+05BE]]|HEBREW PUNCTUATION MAQAF|־|U|R|:?: :?: DVO=S|
@@ -51,8 +51,8 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/2e1a/index.htm|U+2E1A]]|HYPHEN WITH DIAERESIS|⸚|U|R| :?: UTR#50 has hyphens sideways|
 |[[http://www.fileformat.info/info/unicode/char/2e3a/index.htm|U+2E3A]]|TWO-EM DASH|⸺|R|R|Dashes are always sideways|
 |[[http://www.fileformat.info/info/unicode/char/2e3b/index.htm|U+2E3B]]|THREE-EM DASH|⸻|R|R|Dashes are always sideways|
-|[[http://www.fileformat.info/info/unicode/char/301c/index.htm|U+301C]]|WAVE DASH|〜|T<sub>R</sub>|Wave dash must transform :?: DVO=T|
-|[[http://www.fileformat.info/info/unicode/char/3030/index.htm|U+3030]]|WAVY DASH|〰|T<sub>R</sub>|Wave dash must transform :?: DVO=T|
+|[[http://www.fileformat.info/info/unicode/char/301c/index.htm|U+301C]]|WAVE DASH|〜|T<sub>R</sub>|T<sub>R</sub>|Wave dash must transform :?: DVO=T|
+|[[http://www.fileformat.info/info/unicode/char/3030/index.htm|U+3030]]|WAVY DASH|〰|T<sub>R</sub>|T<sub>R</sub>|Wave dash must transform :?: DVO=T|
 |[[http://www.fileformat.info/info/unicode/char/30a0/index.htm|U+30A0]]|KATAKANA-HIRAGANA DOUBLE HYPHEN|゠|T<sub>R</sub>|T<sub>R</sub>| Sideways in JIS. Japanese fonts with this glyph expected to have vertical alternate. |
 |[[http://www.fileformat.info/info/unicode/char/fe31/index.htm|U+FE31]]|PRESENTATION FORM FOR VERTICAL EM DASH|︱|U|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe32/index.htm|U+FE32]]|PRESENTATION FORM FOR VERTICAL EN DASH|︲|U|U|Vertical presentation forms are always upright|
