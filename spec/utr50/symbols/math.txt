@@ -818,10 +818,10 @@ See also [[spec:utr50:symbols:arrows]]
 ==== Small Form Variants ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/FE62/index.htm|U+FE62]]|SMALL PLUS SIGN|''﹢''|U|
-|[[http://www.fileformat.info/info/unicode/char/FE64/index.htm|U+FE64]]|SMALL LESS-THAN SIGN|''﹤''|U|
-|[[http://www.fileformat.info/info/unicode/char/FE65/index.htm|U+FE65]]|SMALL GREATER-THAN SIGN|''﹥''|U|
-|[[http://www.fileformat.info/info/unicode/char/FE66/index.htm|U+FE66]]|SMALL EQUALS SIGN|''﹦''|U|
+|[[http://www.fileformat.info/info/unicode/char/FE62/index.htm|U+FE62]]|SMALL PLUS SIGN|''﹢''|U|U|
+|[[http://www.fileformat.info/info/unicode/char/FE64/index.htm|U+FE64]]|SMALL LESS-THAN SIGN|''﹤''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/FE65/index.htm|U+FE65]]|SMALL GREATER-THAN SIGN|''﹥''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/FE66/index.htm|U+FE66]]|SMALL EQUALS SIGN|''﹦''|U|R|
 
 ==== Halfwidth and Fullwidth Forms ====
 
