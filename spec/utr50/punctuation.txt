@@ -395,46 +395,46 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 ==== Small/Fullwidth/Halfwidth/Vertical Other Punctuation (Po) ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/fe50/index.htm|U+FE50]]|SMALL COMMA|﹐|T<sub>U</sub>|Small variants upright; comma needs shifting :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/fe51/index.htm|U+FE51]]|SMALL IDEOGRAPHIC COMMA|﹑|T<sub>U</sub>|Small variants upright; comma needs shifting :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/fe52/index.htm|U+FE52]]|SMALL FULL STOP|﹒|T<sub>U</sub>|Small variants upright; full stop needs shifting :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/fe54/index.htm|U+FE54]]|SMALL SEMICOLON|﹔|T<sub>U</sub>|Small semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/fe55/index.htm|U+FE55]]|SMALL COLON|﹕|T<sub>U</sub>|Small colons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/fe56/index.htm|U+FE56]]|SMALL QUESTION MARK|﹖|U|Small variants upright|
-|[[http://www.fileformat.info/info/unicode/char/fe57/index.htm|U+FE57]]|SMALL EXCLAMATION MARK|﹗|U|Small variants upright|
-|[[http://www.fileformat.info/info/unicode/char/fe5f/index.htm|U+FE5F]]|SMALL NUMBER SIGN|﹟|U|Small variants upright|
-|[[http://www.fileformat.info/info/unicode/char/fe60/index.htm|U+FE60]]|SMALL AMPERSAND|﹠|U|Small variants upright|
-|[[http://www.fileformat.info/info/unicode/char/fe61/index.htm|U+FE61]]|SMALL ASTERISK|﹡|U|Small variants upright|
-|[[http://www.fileformat.info/info/unicode/char/fe68/index.htm|U+FE68]]|SMALL REVERSE SOLIDUS|﹨|U|Small variants upright|
-|[[http://www.fileformat.info/info/unicode/char/fe6a/index.htm|U+FE6A]]|SMALL PERCENT SIGN|﹪|U|Small variants upright|
-|[[http://www.fileformat.info/info/unicode/char/fe6b/index.htm|U+FE6B]]|SMALL COMMERCIAL AT|﹫|U|Small variants upright|
-|[[http://www.fileformat.info/info/unicode/char/ff01/index.htm|U+FF01]]|FULLWIDTH EXCLAMATION MARK|！|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff02/index.htm|U+FF02]]|FULLWIDTH QUOTATION MARK|＂|T<sub>U</sub>|Fullwidth variants are upright; quotes need alt glyph :?: UTR#50 DVO has U|
-|[[http://www.fileformat.info/info/unicode/char/ff03/index.htm|U+FF03]]|FULLWIDTH NUMBER SIGN|＃|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff05/index.htm|U+FF05]]|FULLWIDTH PERCENT SIGN|％|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff06/index.htm|U+FF06]]|FULLWIDTH AMPERSAND|＆|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff07/index.htm|U+FF07]]|FULLWIDTH APOSTROPHE|＇|T<sub>U</sub>|Fullwidth variants are upright; :?: quotes need alt glyph :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/ff0a/index.htm|U+FF0A]]|FULLWIDTH ASTERISK|＊|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff0c/index.htm|U+FF0C]]|FULLWIDTH COMMA|，|T<sub>U</sub>|Fullwidth variants are upright; comma needs shifting :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/ff0e/index.htm|U+FF0E]]|FULLWIDTH FULL STOP|．|T<sub>U</sub>|Fullwidth variants are upright; full stop needs shifting :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/ff0f/index.htm|U+FF0F]]|FULLWIDTH SOLIDUS|／|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff1a/index.htm|U+FF1A]]|FULLWIDTH COLON|：|T<sub>U</sub>|Fullwidth colons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/ff1b/index.htm|U+FF1B]]|FULLWIDTH SEMICOLON|；|T<sub>U</sub>|Fullwidth semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/ff1f/index.htm|U+FF1F]]|FULLWIDTH QUESTION MARK|？|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff20/index.htm|U+FF20]]|FULLWIDTH COMMERCIAL AT|＠|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff3c/index.htm|U+FF3C]]|FULLWIDTH REVERSE SOLIDUS|＼|U|Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/ff61/index.htm|U+FF61]]|HALFWIDTH IDEOGRAPHIC FULL STOP|｡|T<sub>U</sub>|Full stop needs shifting; :?: Halfwidth needs transform to be half-width|
-|[[http://www.fileformat.info/info/unicode/char/ff64/index.htm|U+FF64]]|HALFWIDTH IDEOGRAPHIC COMMA|､|T<sub>U</sub>|Comma needs shifting; :?: Halfwidth needs transform to be half-width|
-|[[http://www.fileformat.info/info/unicode/char/ff65/index.htm|U+FF65]]|HALFWIDTH KATAKANA MIDDLE DOT|･|T<sub>U</sub>|:?: Halfwidth needs transform to be half-width? :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/fe10/index.htm|U+FE10]]|PRESENTATION FORM FOR VERTICAL COMMA|︐|U|Vertical presentation forms are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe11/index.htm|U+FE11]]|PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC COMMA|︑|U|Vertical presentation forms are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe12/index.htm|U+FE12]]|PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC FULL STOP|︒|U|Vertical presentation forms are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe13/index.htm|U+FE13]]|PRESENTATION FORM FOR VERTICAL COLON|︓|U|Vertical presentation forms are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe14/index.htm|U+FE14]]|PRESENTATION FORM FOR VERTICAL SEMICOLON|︔|U|Vertical presentation forms are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe15/index.htm|U+FE15]]|PRESENTATION FORM FOR VERTICAL EXCLAMATION MARK|︕|U|Vertical presentation forms are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe16/index.htm|U+FE16]]|PRESENTATION FORM FOR VERTICAL QUESTION MARK|︖|U|Vertical presentation forms are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe19/index.htm|U+FE19]]|PRESENTATION FORM FOR VERTICAL HORIZONTAL ELLIPSIS|︙|U|Vertical presentation forms are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe30/index.htm|U+FE30]]|PRESENTATION FORM FOR VERTICAL TWO DOT LEADER|︰|U|Vertical presentation forms are always upright|
+|[[http://www.fileformat.info/info/unicode/char/fe50/index.htm|U+FE50]]|SMALL COMMA|﹐|T<sub>U</sub>|T<sub>U</sub>|Small variants upright; comma needs shifting :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe51/index.htm|U+FE51]]|SMALL IDEOGRAPHIC COMMA|﹑|T<sub>U</sub>|T<sub>U</sub>|Small variants upright; comma needs shifting :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe52/index.htm|U+FE52]]|SMALL FULL STOP|﹒|T<sub>U</sub>|T<sub>U</sub>|Small variants upright; full stop needs shifting :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe54/index.htm|U+FE54]]|SMALL SEMICOLON|﹔|T<sub>U</sub>|T<sub>U</sub>|Small semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe55/index.htm|U+FE55]]|SMALL COLON|﹕|T<sub>U</sub>|T<sub>U</sub>|Small colons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe56/index.htm|U+FE56]]|SMALL QUESTION MARK|﹖|U|U|Small variants upright|
+|[[http://www.fileformat.info/info/unicode/char/fe57/index.htm|U+FE57]]|SMALL EXCLAMATION MARK|﹗|U|U|Small variants upright|
+|[[http://www.fileformat.info/info/unicode/char/fe5f/index.htm|U+FE5F]]|SMALL NUMBER SIGN|﹟|U|U|Small variants upright|
+|[[http://www.fileformat.info/info/unicode/char/fe60/index.htm|U+FE60]]|SMALL AMPERSAND|﹠|U|U|Small variants upright|
+|[[http://www.fileformat.info/info/unicode/char/fe61/index.htm|U+FE61]]|SMALL ASTERISK|﹡|U|U|Small variants upright|
+|[[http://www.fileformat.info/info/unicode/char/fe68/index.htm|U+FE68]]|SMALL REVERSE SOLIDUS|﹨|U|U|Small variants upright|
+|[[http://www.fileformat.info/info/unicode/char/fe6a/index.htm|U+FE6A]]|SMALL PERCENT SIGN|﹪|U|U|Small variants upright|
+|[[http://www.fileformat.info/info/unicode/char/fe6b/index.htm|U+FE6B]]|SMALL COMMERCIAL AT|﹫|U|U|Small variants upright|
+|[[http://www.fileformat.info/info/unicode/char/ff01/index.htm|U+FF01]]|FULLWIDTH EXCLAMATION MARK|！|U|U|Fullwidth variants are upright|
+|[[http://www.fileformat.info/info/unicode/char/ff02/index.htm|U+FF02]]|FULLWIDTH QUOTATION MARK|＂|T<sub>U</sub>|T<sub>U</sub>|Fullwidth variants are upright; quotes need alt glyph :?: UTR#50 DVO has U|
+|[[http://www.fileformat.info/info/unicode/char/ff03/index.htm|U+FF03]]|FULLWIDTH NUMBER SIGN|＃|U|U|Fullwidth variants are upright|
+|[[http://www.fileformat.info/info/unicode/char/ff05/index.htm|U+FF05]]|FULLWIDTH PERCENT SIGN|％|U|U|Fullwidth variants are upright|
+|[[http://www.fileformat.info/info/unicode/char/ff06/index.htm|U+FF06]]|FULLWIDTH AMPERSAND|＆|U|U|Fullwidth variants are upright|
+|[[http://www.fileformat.info/info/unicode/char/ff07/index.htm|U+FF07]]|FULLWIDTH APOSTROPHE|＇|T<sub>U</sub>|T<sub>U</sub>|Fullwidth variants are upright; :?: quotes need alt glyph :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/ff0a/index.htm|U+FF0A]]|FULLWIDTH ASTERISK|＊|U|U|Fullwidth variants are upright|
+|[[http://www.fileformat.info/info/unicode/char/ff0c/index.htm|U+FF0C]]|FULLWIDTH COMMA|，|T<sub>U</sub>|T<sub>U</sub>|Fullwidth variants are upright; comma needs shifting :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/ff0e/index.htm|U+FF0E]]|FULLWIDTH FULL STOP|．|T<sub>U</sub>|T<sub>U</sub>|Fullwidth variants are upright; full stop needs shifting :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/ff0f/index.htm|U+FF0F]]|FULLWIDTH SOLIDUS|／|U|U|Fullwidth variants are upright|
+|[[http://www.fileformat.info/info/unicode/char/ff1a/index.htm|U+FF1A]]|FULLWIDTH COLON|：|T<sub>U</sub>|T<sub>U</sub>|Fullwidth colons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/ff1b/index.htm|U+FF1B]]|FULLWIDTH SEMICOLON|；|T<sub>U</sub>|T<sub>U</sub>|Fullwidth semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style) :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/ff1f/index.htm|U+FF1F]]|FULLWIDTH QUESTION MARK|？|U|U|Fullwidth variants are upright|
+|[[http://www.fileformat.info/info/unicode/char/ff20/index.htm|U+FF20]]|FULLWIDTH COMMERCIAL AT|＠|U|U|Fullwidth variants are upright|
+|[[http://www.fileformat.info/info/unicode/char/ff3c/index.htm|U+FF3C]]|FULLWIDTH REVERSE SOLIDUS|＼|U|U|Fullwidth variants are upright|
+|[[http://www.fileformat.info/info/unicode/char/ff61/index.htm|U+FF61]]|HALFWIDTH IDEOGRAPHIC FULL STOP|｡|T<sub>U</sub>|T<sub>U</sub>|Full stop needs shifting; :?: Halfwidth needs transform to be half-width|
+|[[http://www.fileformat.info/info/unicode/char/ff64/index.htm|U+FF64]]|HALFWIDTH IDEOGRAPHIC COMMA|､|T<sub>U</sub>|T<sub>U</sub>|Comma needs shifting; :?: Halfwidth needs transform to be half-width|
+|[[http://www.fileformat.info/info/unicode/char/ff65/index.htm|U+FF65]]|HALFWIDTH KATAKANA MIDDLE DOT|･|T<sub>U</sub>|T<sub>U</sub>|:?: Halfwidth needs transform to be half-width? :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fe10/index.htm|U+FE10]]|PRESENTATION FORM FOR VERTICAL COMMA|︐|U|U|Vertical presentation forms are always upright|
+|[[http://www.fileformat.info/info/unicode/char/fe11/index.htm|U+FE11]]|PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC COMMA|︑|U|U|Vertical presentation forms are always upright|
+|[[http://www.fileformat.info/info/unicode/char/fe12/index.htm|U+FE12]]|PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC FULL STOP|︒|U|U|Vertical presentation forms are always upright|
+|[[http://www.fileformat.info/info/unicode/char/fe13/index.htm|U+FE13]]|PRESENTATION FORM FOR VERTICAL COLON|︓|U|U|Vertical presentation forms are always upright|
+|[[http://www.fileformat.info/info/unicode/char/fe14/index.htm|U+FE14]]|PRESENTATION FORM FOR VERTICAL SEMICOLON|︔|U|U|Vertical presentation forms are always upright|
+|[[http://www.fileformat.info/info/unicode/char/fe15/index.htm|U+FE15]]|PRESENTATION FORM FOR VERTICAL EXCLAMATION MARK|︕|U|U|Vertical presentation forms are always upright|
+|[[http://www.fileformat.info/info/unicode/char/fe16/index.htm|U+FE16]]|PRESENTATION FORM FOR VERTICAL QUESTION MARK|︖|U|U|Vertical presentation forms are always upright|
+|[[http://www.fileformat.info/info/unicode/char/fe19/index.htm|U+FE19]]|PRESENTATION FORM FOR VERTICAL HORIZONTAL ELLIPSIS|︙|U|U|Vertical presentation forms are always upright|
+|[[http://www.fileformat.info/info/unicode/char/fe30/index.htm|U+FE30]]|PRESENTATION FORM FOR VERTICAL TWO DOT LEADER|︰|U|U|Vertical presentation forms are always upright|
 ==== Script-specific Other Punctuation (Po) ====
 
 ^Code^Description^Char^Stack^Memo^
