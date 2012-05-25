@@ -140,7 +140,7 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/ff62/index.htm|U+FF62]]|HALFWIDTH LEFT CORNER BRACKET|''｢''|R|R|Brackets are sideways to enclose their text :?: DVO=SB|
 ==== Punctuation, Close (Pe) ====
 
-^Code^Description^Char^Stack^Memo^
+^Code^Description^Char^Stack^Mix^Memo^
 |[[http://www.fileformat.info/info/unicode/char/0029/index.htm|U+0029]]|RIGHT PARENTHESIS|)|R|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/005d/index.htm|U+005D]]|RIGHT SQUARE BRACKET|]|R|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/007d/index.htm|U+007D]]|RIGHT CURLY BRACKET|}|R|R|Brackets are sideways to enclose their text|
