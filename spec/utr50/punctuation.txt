@@ -109,16 +109,16 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/2e24/index.htm|U+2E24]]|BOTTOM LEFT HALF BRACKET|''⸤''|R|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/2e26/index.htm|U+2E26]]|LEFT SIDEWAYS U BRACKET|''⸦''|R|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/2e28/index.htm|U+2E28]]|LEFT DOUBLE PARENTHESIS|''⸨''|R|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/3008/index.htm|U+3008]]|LEFT ANGLE BRACKET|''〈''|R|R|Brackets are sideways to enclose their text :?: DVO=SB|
-|[[http://www.fileformat.info/info/unicode/char/300a/index.htm|U+300A]]|LEFT DOUBLE ANGLE BRACKET|''《''|R|R|Brackets are sideways to enclose their text :?: DVO=SB|
-|[[http://www.fileformat.info/info/unicode/char/300c/index.htm|U+300C]]|LEFT CORNER BRACKET|''「''|R|R|Brackets are sideways to enclose their text :?: DVO=SB|
-|[[http://www.fileformat.info/info/unicode/char/300e/index.htm|U+300E]]|LEFT WHITE CORNER BRACKET|''『''|R|R|Brackets are sideways to enclose their text :?: DVO=SB|
-|[[http://www.fileformat.info/info/unicode/char/3010/index.htm|U+3010]]|LEFT BLACK LENTICULAR BRACKET|''【''|R|R|Brackets are sideways to enclose their text :?: DVO=SB|
-|[[http://www.fileformat.info/info/unicode/char/3014/index.htm|U+3014]]|LEFT TORTOISE SHELL BRACKET|''〔''|R|R|Brackets are sideways to enclose their text :?: DVO=SB|
-|[[http://www.fileformat.info/info/unicode/char/3016/index.htm|U+3016]]|LEFT WHITE LENTICULAR BRACKET|''〖''|R|R|Brackets are sideways to enclose their text :?: DVO=SB|
-|[[http://www.fileformat.info/info/unicode/char/3018/index.htm|U+3018]]|LEFT WHITE TORTOISE SHELL BRACKET|''〘''|R|R|Brackets are sideways to enclose their text :?: DVO=SB|
-|[[http://www.fileformat.info/info/unicode/char/301a/index.htm|U+301A]]|LEFT WHITE SQUARE BRACKET|''〚''|R|R|Brackets are sideways to enclose their text :?: DVO=SB|
-|[[http://www.fileformat.info/info/unicode/char/301d/index.htm|U+301D]]|REVERSED DOUBLE PRIME QUOTATION MARK|''〝''|T<sub>U</sub>|Quotation marks are upright in stacked mode :?: DVO=S|
+|[[http://www.fileformat.info/info/unicode/char/3008/index.htm|U+3008]]|LEFT ANGLE BRACKET|''〈''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
+|[[http://www.fileformat.info/info/unicode/char/300a/index.htm|U+300A]]|LEFT DOUBLE ANGLE BRACKET|''《''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
+|[[http://www.fileformat.info/info/unicode/char/300c/index.htm|U+300C]]|LEFT CORNER BRACKET|''「''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
+|[[http://www.fileformat.info/info/unicode/char/300e/index.htm|U+300E]]|LEFT WHITE CORNER BRACKET|''『''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
+|[[http://www.fileformat.info/info/unicode/char/3010/index.htm|U+3010]]|LEFT BLACK LENTICULAR BRACKET|''【''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
+|[[http://www.fileformat.info/info/unicode/char/3014/index.htm|U+3014]]|LEFT TORTOISE SHELL BRACKET|''〔''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
+|[[http://www.fileformat.info/info/unicode/char/3016/index.htm|U+3016]]|LEFT WHITE LENTICULAR BRACKET|''〖''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
+|[[http://www.fileformat.info/info/unicode/char/3018/index.htm|U+3018]]|LEFT WHITE TORTOISE SHELL BRACKET|''〘''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
+|[[http://www.fileformat.info/info/unicode/char/301a/index.htm|U+301A]]|LEFT WHITE SQUARE BRACKET|''〚''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
+|[[http://www.fileformat.info/info/unicode/char/301d/index.htm|U+301D]]|REVERSED DOUBLE PRIME QUOTATION MARK|''〝''|T<sub>U</sub>|T<sub>U</sub>|Quotation marks are upright in stacked mode :?: DVO=S|
 |[[http://www.fileformat.info/info/unicode/char/fd3e/index.htm|U+FD3E]]|ORNATE LEFT PARENTHESIS|''﴾''|R|R|Brackets are sideways to enclose their text :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/fe17/index.htm|U+FE17]]|PRESENTATION FORM FOR VERTICAL LEFT WHITE LENTICULAR BRACKET|''︗''|U|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe35/index.htm|U+FE35]]|PRESENTATION FORM FOR VERTICAL LEFT PARENTHESIS|''︵''|U|U|Vertical presentation forms are always upright|
@@ -130,9 +130,9 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/fe41/index.htm|U+FE41]]|PRESENTATION FORM FOR VERTICAL LEFT CORNER BRACKET|''﹁''|U|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe43/index.htm|U+FE43]]|PRESENTATION FORM FOR VERTICAL LEFT WHITE CORNER BRACKET|''﹃''|U|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe47/index.htm|U+FE47]]|PRESENTATION FORM FOR VERTICAL LEFT SQUARE BRACKET|''﹇''|U|U|Vertical presentation forms are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe59/index.htm|U+FE59]]|SMALL LEFT PARENTHESIS|''﹙''|R|R|:?: Brackets are sideways to enclose their text :?: DVO=SB|
-|[[http://www.fileformat.info/info/unicode/char/fe5b/index.htm|U+FE5B]]|SMALL LEFT CURLY BRACKET|''﹛''|R|R|:?: Brackets are sideways to enclose their text :?: DVO=SB|
-|[[http://www.fileformat.info/info/unicode/char/fe5d/index.htm|U+FE5D]]|SMALL LEFT TORTOISE SHELL BRACKET|''﹝''|R|R|:?: Brackets are sideways to enclose their text :?: DVO=SB|
+|[[http://www.fileformat.info/info/unicode/char/fe59/index.htm|U+FE59]]|SMALL LEFT PARENTHESIS|''﹙''|R|R|:?: Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/fe5b/index.htm|U+FE5B]]|SMALL LEFT CURLY BRACKET|''﹛''|R|R|:?: Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/fe5d/index.htm|U+FE5D]]|SMALL LEFT TORTOISE SHELL BRACKET|''﹝''|R|R|:?: Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/ff08/index.htm|U+FF08]]|FULLWIDTH LEFT PARENTHESIS|''（''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
 |[[http://www.fileformat.info/info/unicode/char/ff3b/index.htm|U+FF3B]]|FULLWIDTH LEFT SQUARE BRACKET|''［''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
 |[[http://www.fileformat.info/info/unicode/char/ff5b/index.htm|U+FF5B]]|FULLWIDTH LEFT CURLY BRACKET|''｛''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
