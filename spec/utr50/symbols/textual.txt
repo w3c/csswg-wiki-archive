@@ -19,12 +19,12 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 ^Code^Description^Char^Stack^Mix^Memo^
 |[[http://www.fileformat.info/info/unicode/char/2100/index.htm|U+2100]]|ACCOUNT OF|''℀''|U|U|Same as ℅|
 |[[http://www.fileformat.info/info/unicode/char/2101/index.htm|U+2101]]|ADDRESSED TO THE SUBJECT|''℁''|U|U|Same as ℅
-|[[http://www.fileformat.info/info/unicode/char/2103/index.htm|U+2103]]|DEGREE CELSIUS|''℃''|U|U| |
+|[[http://www.fileformat.info/info/unicode/char/2103/index.htm|U+2103]]|DEGREE CELSIUS|''℃''|U|U|Combined symbol -> upright|
 |[[http://www.fileformat.info/info/unicode/char/2104/index.htm|U+2104]]|CENTRE LINE SYMBOL|''℄''|U|U|Architectural symbol?|
 |[[http://www.fileformat.info/info/unicode/char/2105/index.htm|U+2105]]|CARE OF|''℅''|U|U|East Asian wants upright, probably otherwise unimportant|
 |[[http://www.fileformat.info/info/unicode/char/2106/index.htm|U+2106]]|CADA UNA|''℆''|U|U|Same as ℅|
 |[[http://www.fileformat.info/info/unicode/char/2108/index.htm|U+2108]]|SCRUPLE|''℈''|U|
-|[[http://www.fileformat.info/info/unicode/char/2109/index.htm|U+2109]]|DEGREE FAHRENHEIT|''℉''|U|U| |
+|[[http://www.fileformat.info/info/unicode/char/2109/index.htm|U+2109]]|DEGREE FAHRENHEIT|''℉''|U|U|Combined symbol -> upright|
 |[[http://www.fileformat.info/info/unicode/char/2114/index.htm|U+2114]]|L B BAR SYMBOL|''℔''|U|
 |[[http://www.fileformat.info/info/unicode/char/2116/index.htm|U+2116]]|NUMERO SIGN|''№''|U|
 |[[http://www.fileformat.info/info/unicode/char/2117/index.htm|U+2117]]|SOUND RECORDING COPYRIGHT|''℗''|U|
