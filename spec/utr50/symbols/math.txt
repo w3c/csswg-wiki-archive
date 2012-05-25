@@ -837,16 +837,16 @@ See also [[spec:utr50:symbols:arrows]]
 ==== Mathematical Alphanumeric Symbols ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/1D6C1/index.htm|U+1D6C1]]|MATHEMATICAL BOLD NABLA|''𝛁''|U|
-|[[http://www.fileformat.info/info/unicode/char/1D6DB/index.htm|U+1D6DB]]|MATHEMATICAL BOLD PARTIAL DIFFERENTIAL|''𝛛''|U|
-|[[http://www.fileformat.info/info/unicode/char/1D6FB/index.htm|U+1D6FB]]|MATHEMATICAL ITALIC NABLA|''𝛻''|U|
-|[[http://www.fileformat.info/info/unicode/char/1D715/index.htm|U+1D715]]|MATHEMATICAL ITALIC PARTIAL DIFFERENTIAL|''𝜕''|U|
-|[[http://www.fileformat.info/info/unicode/char/1D735/index.htm|U+1D735]]|MATHEMATICAL BOLD ITALIC NABLA|''𝜵''|U|
-|[[http://www.fileformat.info/info/unicode/char/1D74F/index.htm|U+1D74F]]|MATHEMATICAL BOLD ITALIC PARTIAL DIFFERENTIAL|''𝝏''|U|
-|[[http://www.fileformat.info/info/unicode/char/1D76F/index.htm|U+1D76F]]|MATHEMATICAL SANS-SERIF BOLD NABLA|''𝝯''|U|
-|[[http://www.fileformat.info/info/unicode/char/1D789/index.htm|U+1D789]]|MATHEMATICAL SANS-SERIF BOLD PARTIAL DIFFERENTIAL|''𝞉''|U|
-|[[http://www.fileformat.info/info/unicode/char/1D7A9/index.htm|U+1D7A9]]|MATHEMATICAL SANS-SERIF BOLD ITALIC NABLA|''𝞩''|U|
-|[[http://www.fileformat.info/info/unicode/char/1D7C3/index.htm|U+1D7C3]]|MATHEMATICAL SANS-SERIF BOLD ITALIC PARTIAL DIFFERENTIAL|''𝟃''|U|
+|[[http://www.fileformat.info/info/unicode/char/1D6C1/index.htm|U+1D6C1]]|MATHEMATICAL BOLD NABLA|''𝛁''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/1D6DB/index.htm|U+1D6DB]]|MATHEMATICAL BOLD PARTIAL DIFFERENTIAL|''𝛛''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/1D6FB/index.htm|U+1D6FB]]|MATHEMATICAL ITALIC NABLA|''𝛻''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/1D715/index.htm|U+1D715]]|MATHEMATICAL ITALIC PARTIAL DIFFERENTIAL|''𝜕''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/1D735/index.htm|U+1D735]]|MATHEMATICAL BOLD ITALIC NABLA|''𝜵''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/1D74F/index.htm|U+1D74F]]|MATHEMATICAL BOLD ITALIC PARTIAL DIFFERENTIAL|''𝝏''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/1D76F/index.htm|U+1D76F]]|MATHEMATICAL SANS-SERIF BOLD NABLA|''𝝯''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/1D789/index.htm|U+1D789]]|MATHEMATICAL SANS-SERIF BOLD PARTIAL DIFFERENTIAL|''𝞉''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/1D7A9/index.htm|U+1D7A9]]|MATHEMATICAL SANS-SERIF BOLD ITALIC NABLA|''𝞩''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/1D7C3/index.htm|U+1D7C3]]|MATHEMATICAL SANS-SERIF BOLD ITALIC PARTIAL DIFFERENTIAL|''𝟃''|U|R|
 
 ==== Arabic Mathematical Alphabetic Symbols ====
 
