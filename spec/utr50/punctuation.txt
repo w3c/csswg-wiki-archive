@@ -271,126 +271,127 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 ==== Common Other Punctuation (Po) ====
 
 ^Code^Description^Char^Stack^Memo^
-|[[http://www.fileformat.info/info/unicode/char/0021/index.htm|U+0021]]|EXCLAMATION MARK|!|U|
-|[[http://www.fileformat.info/info/unicode/char/0022/index.htm|U+0022]]|QUOTATION MARK|"|T<sub>U</sub>|Needs different position within bounding box, and/or different advance width (esp. when used as open-quote).|
-|[[http://www.fileformat.info/info/unicode/char/0023/index.htm|U+0023]]|NUMBER SIGN|#|U|
-|[[http://www.fileformat.info/info/unicode/char/0025/index.htm|U+0025]]|PERCENT SIGN|%|U|
-|[[http://www.fileformat.info/info/unicode/char/0026/index.htm|U+0026]]|AMPERSAND|&|U|
-|[[http://www.fileformat.info/info/unicode/char/0027/index.htm|U+0027]]|APOSTROPHE|'|T<sub>U</sub>|Needs different position within bounding box and/or different advance width.|
-|[[http://www.fileformat.info/info/unicode/char/002a/index.htm|U+002A]]|ASTERISK|*|U|
-|[[http://www.fileformat.info/info/unicode/char/002c/index.htm|U+002C]]|COMMA|,|T<sub>U</sub>|Needs different position within bounding box and/or different advance width.|
-|[[http://www.fileformat.info/info/unicode/char/002e/index.htm|U+002E]]|FULL STOP|.|T<sub>U</sub>|Needs different position within bounding box and/or different advance width.|
-|[[http://www.fileformat.info/info/unicode/char/002f/index.htm|U+002F]]|SOLIDUS|/|U|
-|[[http://www.fileformat.info/info/unicode/char/003a/index.htm|U+003A]]|COLON|:|U|
-|[[http://www.fileformat.info/info/unicode/char/003b/index.htm|U+003B]]|SEMICOLON|;|U|
-|[[http://www.fileformat.info/info/unicode/char/003f/index.htm|U+003F]]|QUESTION MARK|?|U|
-|[[http://www.fileformat.info/info/unicode/char/0040/index.htm|U+0040]]|COMMERCIAL AT|@|U|
-|[[http://www.fileformat.info/info/unicode/char/005c/index.htm|U+005C]]|REVERSE SOLIDUS|\|U|
-|[[http://www.fileformat.info/info/unicode/char/00a1/index.htm|U+00A1]]|INVERTED EXCLAMATION MARK|¡|U|
-|[[http://www.fileformat.info/info/unicode/char/00a7/index.htm|U+00A7]]|SECTION SIGN|§|U|
-|[[http://www.fileformat.info/info/unicode/char/00b6/index.htm|U+00B6]]|PILCROW SIGN|¶|U|
-|[[http://www.fileformat.info/info/unicode/char/00b7/index.htm|U+00B7]]|MIDDLE DOT|·|U|
-|[[http://www.fileformat.info/info/unicode/char/00bf/index.htm|U+00BF]]|INVERTED QUESTION MARK|¿|U|
-|[[http://www.fileformat.info/info/unicode/char/2016/index.htm|U+2016]]|DOUBLE VERTICAL LINE|‖|U|Most modern fonts have rotated vert, but JIS0213 doesn't define vert glyph|
-|[[http://www.fileformat.info/info/unicode/char/2017/index.htm|U+2017]]|DOUBLE LOW LINE|‗|U|:?: Double low line and low line have different orientations|
-|[[http://www.fileformat.info/info/unicode/char/2020/index.htm|U+2020]]|DAGGER|†|U|
-|[[http://www.fileformat.info/info/unicode/char/2021/index.htm|U+2021]]|DOUBLE DAGGER|‡|U|
-|[[http://www.fileformat.info/info/unicode/char/2022/index.htm|U+2022]]|BULLET|•|U|
-|[[http://www.fileformat.info/info/unicode/char/2023/index.htm|U+2023]]|TRIANGULAR BULLET|‣|U|
-|[[http://www.fileformat.info/info/unicode/char/2024/index.htm|U+2024]]|ONE DOT LEADER|․|R|Leaders always parallel to inline direction :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/2025/index.htm|U+2025]]|TWO DOT LEADER|‥|R|Leaders always parallel to inline direction :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/2026/index.htm|U+2026]]|HORIZONTAL ELLIPSIS|…|R|Ellipsis always parallel to inline direction :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/2027/index.htm|U+2027]]|HYPHENATION POINT|‧|U|
-|[[http://www.fileformat.info/info/unicode/char/2030/index.htm|U+2030]]|PER MILLE SIGN|‰|U|
-|[[http://www.fileformat.info/info/unicode/char/2031/index.htm|U+2031]]|PER TEN THOUSAND SIGN|‱|U|
-|[[http://www.fileformat.info/info/unicode/char/2032/index.htm|U+2032]]|PRIME|′|U|
-|[[http://www.fileformat.info/info/unicode/char/2033/index.htm|U+2033]]|DOUBLE PRIME|″|U|
-|[[http://www.fileformat.info/info/unicode/char/2034/index.htm|U+2034]]|TRIPLE PRIME|‴|U|
-|[[http://www.fileformat.info/info/unicode/char/2035/index.htm|U+2035]]|REVERSED PRIME|‵|U|
-|[[http://www.fileformat.info/info/unicode/char/2036/index.htm|U+2036]]|REVERSED DOUBLE PRIME|‶|U|
-|[[http://www.fileformat.info/info/unicode/char/2037/index.htm|U+2037]]|REVERSED TRIPLE PRIME|‷|U|
-|[[http://www.fileformat.info/info/unicode/char/2038/index.htm|U+2038]]|CARET|‸|U|
-|[[http://www.fileformat.info/info/unicode/char/203b/index.htm|U+203B]]|REFERENCE MARK|※|U|
-|[[http://www.fileformat.info/info/unicode/char/203c/index.htm|U+203C]]|DOUBLE EXCLAMATION MARK|‼|U|
-|[[http://www.fileformat.info/info/unicode/char/203d/index.htm|U+203D]]|INTERROBANG|‽|U|
-|[[http://www.fileformat.info/info/unicode/char/203e/index.htm|U+203E]]|OVERLINE|‾|U|
-|[[http://www.fileformat.info/info/unicode/char/2041/index.htm|U+2041]]|CARET INSERTION POINT|⁁|U|
-|[[http://www.fileformat.info/info/unicode/char/2042/index.htm|U+2042]]|ASTERISM|⁂|U|
-|[[http://www.fileformat.info/info/unicode/char/2043/index.htm|U+2043]]|HYPHEN BULLET|⁃|U|
-|[[http://www.fileformat.info/info/unicode/char/2047/index.htm|U+2047]]|DOUBLE QUESTION MARK|⁇|U|
-|[[http://www.fileformat.info/info/unicode/char/2048/index.htm|U+2048]]|QUESTION EXCLAMATION MARK|⁈|U|
-|[[http://www.fileformat.info/info/unicode/char/2049/index.htm|U+2049]]|EXCLAMATION QUESTION MARK|⁉|U|
-|[[http://www.fileformat.info/info/unicode/char/204a/index.htm|U+204A]]|TIRONIAN SIGN ET|⁊|U|
-|[[http://www.fileformat.info/info/unicode/char/204b/index.htm|U+204B]]|REVERSED PILCROW SIGN|⁋|U|
-|[[http://www.fileformat.info/info/unicode/char/204c/index.htm|U+204C]]|BLACK LEFTWARDS BULLET|⁌|U|
-|[[http://www.fileformat.info/info/unicode/char/204d/index.htm|U+204D]]|BLACK RIGHTWARDS BULLET|⁍|U|
-|[[http://www.fileformat.info/info/unicode/char/204e/index.htm|U+204E]]|LOW ASTERISK|⁎|U|
-|[[http://www.fileformat.info/info/unicode/char/204f/index.htm|U+204F]]|REVERSED SEMICOLON|⁏|U|
-|[[http://www.fileformat.info/info/unicode/char/2050/index.htm|U+2050]]|CLOSE UP|⁐|U|
-|[[http://www.fileformat.info/info/unicode/char/2051/index.htm|U+2051]]|TWO ASTERISKS ALIGNED VERTICALLY|⁑|U|
-|[[http://www.fileformat.info/info/unicode/char/2053/index.htm|U+2053]]|SWUNG DASH|⁓|U|:?: Should this match WAVE DASH?|
-|[[http://www.fileformat.info/info/unicode/char/2055/index.htm|U+2055]]|FLOWER PUNCTUATION MARK|⁕|U|
-|[[http://www.fileformat.info/info/unicode/char/2056/index.htm|U+2056]]|THREE DOT PUNCTUATION|⁖|U|
-|[[http://www.fileformat.info/info/unicode/char/2057/index.htm|U+2057]]|QUADRUPLE PRIME|⁗|U|
-|[[http://www.fileformat.info/info/unicode/char/2058/index.htm|U+2058]]|FOUR DOT PUNCTUATION|⁘|U|
-|[[http://www.fileformat.info/info/unicode/char/2059/index.htm|U+2059]]|FIVE DOT PUNCTUATION|⁙|U|
-|[[http://www.fileformat.info/info/unicode/char/205a/index.htm|U+205A]]|TWO DOT PUNCTUATION|⁚|U|
-|[[http://www.fileformat.info/info/unicode/char/205b/index.htm|U+205B]]|FOUR DOT MARK|⁛|U|
-|[[http://www.fileformat.info/info/unicode/char/205c/index.htm|U+205C]]|DOTTED CROSS|⁜|U|
-|[[http://www.fileformat.info/info/unicode/char/205d/index.htm|U+205D]]|TRICOLON|⁝|U|
-|[[http://www.fileformat.info/info/unicode/char/205e/index.htm|U+205E]]|VERTICAL FOUR DOTS|⁞|U|
-|[[http://www.fileformat.info/info/unicode/char/2e00/index.htm|U+2E00]]|RIGHT ANGLE SUBSTITUTION MARKER|⸀|U|
-|[[http://www.fileformat.info/info/unicode/char/2e01/index.htm|U+2E01]]|RIGHT ANGLE DOTTED SUBSTITUTION MARKER|⸁|U|
-|[[http://www.fileformat.info/info/unicode/char/2e06/index.htm|U+2E06]]|RAISED INTERPOLATION MARKER|⸆|U|
-|[[http://www.fileformat.info/info/unicode/char/2e07/index.htm|U+2E07]]|RAISED DOTTED INTERPOLATION MARKER|⸇|U|
-|[[http://www.fileformat.info/info/unicode/char/2e08/index.htm|U+2E08]]|DOTTED TRANSPOSITION MARKER|⸈|U|
-|[[http://www.fileformat.info/info/unicode/char/2e0b/index.htm|U+2E0B]]|RAISED SQUARE|⸋|U|
-|[[http://www.fileformat.info/info/unicode/char/2e0e/index.htm|U+2E0E]]|EDITORIAL CORONIS|⸎|U|
-|[[http://www.fileformat.info/info/unicode/char/2e0f/index.htm|U+2E0F]]|PARAGRAPHOS|⸏|U|
-|[[http://www.fileformat.info/info/unicode/char/2e10/index.htm|U+2E10]]|FORKED PARAGRAPHOS|⸐|U|
-|[[http://www.fileformat.info/info/unicode/char/2e11/index.htm|U+2E11]]|REVERSED FORKED PARAGRAPHOS|⸑|U|
-|[[http://www.fileformat.info/info/unicode/char/2e12/index.htm|U+2E12]]|HYPODIASTOLE|⸒|U|
-|[[http://www.fileformat.info/info/unicode/char/2e13/index.htm|U+2E13]]|DOTTED OBELOS|⸓|U|
-|[[http://www.fileformat.info/info/unicode/char/2e14/index.htm|U+2E14]]|DOWNWARDS ANCORA|⸔|U|
-|[[http://www.fileformat.info/info/unicode/char/2e15/index.htm|U+2E15]]|UPWARDS ANCORA|⸕|U|
-|[[http://www.fileformat.info/info/unicode/char/2e16/index.htm|U+2E16]]|DOTTED RIGHT-POINTING ANGLE|⸖|U|
-|[[http://www.fileformat.info/info/unicode/char/2e18/index.htm|U+2E18]]|INVERTED INTERROBANG|⸘|U|
-|[[http://www.fileformat.info/info/unicode/char/2e19/index.htm|U+2E19]]|PALM BRANCH|⸙|U|
-|[[http://www.fileformat.info/info/unicode/char/2e1b/index.htm|U+2E1B]]|TILDE WITH RING ABOVE|⸛|U|
-|[[http://www.fileformat.info/info/unicode/char/2e1e/index.htm|U+2E1E]]|TILDE WITH DOT ABOVE|⸞|U|
-|[[http://www.fileformat.info/info/unicode/char/2e1f/index.htm|U+2E1F]]|TILDE WITH DOT BELOW|⸟|U|
-|[[http://www.fileformat.info/info/unicode/char/2e2a/index.htm|U+2E2A]]|TWO DOTS OVER ONE DOT PUNCTUATION|⸪|U|
-|[[http://www.fileformat.info/info/unicode/char/2e2b/index.htm|U+2E2B]]|ONE DOT OVER TWO DOTS PUNCTUATION|⸫|U|
-|[[http://www.fileformat.info/info/unicode/char/2e2c/index.htm|U+2E2C]]|SQUARED FOUR DOT PUNCTUATION|⸬|U|
-|[[http://www.fileformat.info/info/unicode/char/2e2d/index.htm|U+2E2D]]|FIVE DOT MARK|⸭|U|
-|[[http://www.fileformat.info/info/unicode/char/2e2e/index.htm|U+2E2E]]|REVERSED QUESTION MARK|⸮|U|
-|[[http://www.fileformat.info/info/unicode/char/2e30/index.htm|U+2E30]]|RING POINT|⸰|U|
-|[[http://www.fileformat.info/info/unicode/char/2e31/index.htm|U+2E31]]|WORD SEPARATOR MIDDLE DOT|⸱|U|
-|[[http://www.fileformat.info/info/unicode/char/2e32/index.htm|U+2E32]]|TURNED COMMA|⸲|U|
-|[[http://www.fileformat.info/info/unicode/char/2e33/index.htm|U+2E33]]|RAISED DOT|⸳|U|
-|[[http://www.fileformat.info/info/unicode/char/2e34/index.htm|U+2E34]]|RAISED COMMA|⸴|U|
-|[[http://www.fileformat.info/info/unicode/char/2e35/index.htm|U+2E35]]|TURNED SEMICOLON|⸵|U|
-|[[http://www.fileformat.info/info/unicode/char/2e36/index.htm|U+2E36]]|DAGGER WITH LEFT GUARD|⸶|U|
-|[[http://www.fileformat.info/info/unicode/char/2e37/index.htm|U+2E37]]|DAGGER WITH RIGHT GUARD|⸷|U|
-|[[http://www.fileformat.info/info/unicode/char/2e38/index.htm|U+2E38]]|TURNED DAGGER|⸸|U|
-|[[http://www.fileformat.info/info/unicode/char/2e39/index.htm|U+2E39]]|TOP HALF SECTION SIGN|⸹|U|
-|[[http://www.fileformat.info/info/unicode/char/3001/index.htm|U+3001]]|IDEOGRAPHIC COMMA|、|T<sub>U</sub>|Ideographic variants upright; comma needs shifting|
-|[[http://www.fileformat.info/info/unicode/char/3002/index.htm|U+3002]]|IDEOGRAPHIC FULL STOP|。|T<sub>U</sub>|Ideographic variants upright; full stop needs shifting|
-|[[http://www.fileformat.info/info/unicode/char/3003/index.htm|U+3003]]|DITTO MARK|〃|U|
-|[[http://www.fileformat.info/info/unicode/char/303d/index.htm|U+303D]]|PART ALTERNATION MARK|〽|U|
-|[[http://www.fileformat.info/info/unicode/char/30fb/index.htm|U+30FB]]|KATAKANA MIDDLE DOT|・|U|Katakana middle dot is upright|
-|[[http://www.fileformat.info/info/unicode/char/fe45/index.htm|U+FE45]]|SESAME DOT|﹅|U|Sesame dots are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe46/index.htm|U+FE46]]|WHITE SESAME DOT|﹆|U|Sesame dots are always upright|
-|[[http://www.fileformat.info/info/unicode/char/fe49/index.htm|U+FE49]]|DASHED OVERLINE|﹉|R|Match dashed low line :?: Double low line and low line have different orientations|
-|[[http://www.fileformat.info/info/unicode/char/fe4a/index.htm|U+FE4A]]|CENTRELINE OVERLINE|﹊|R|Match centerline low line :?: Double low line and low line have different orientations :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/fe4b/index.htm|U+FE4B]]|WAVY OVERLINE|﹋|R|Match wavy low line :?: Double low line and low line have different orientations :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/fe4c/index.htm|U+FE4C]]|DOUBLE WAVY OVERLINE|﹌|R|Match wavy low line :?: Double low line and low line have different orientations :?: DVO=U|
-|[[http://www.fileformat.info/info/unicode/char/10b3a/index.htm|U+10B3A]]|TINY TWO DOTS OVER ONE DOT PUNCTUATION|𐬺|U|
-|[[http://www.fileformat.info/info/unicode/char/10b3b/index.htm|U+10B3B]]|SMALL TWO DOTS OVER ONE DOT PUNCTUATION|𐬻|U|
-|[[http://www.fileformat.info/info/unicode/char/10b3c/index.htm|U+10B3C]]|LARGE TWO DOTS OVER ONE DOT PUNCTUATION|𐬼|U|
-|[[http://www.fileformat.info/info/unicode/char/10b3d/index.htm|U+10B3D]]|LARGE ONE DOT OVER TWO DOTS PUNCTUATION|𐬽|U|
-|[[http://www.fileformat.info/info/unicode/char/10b3e/index.htm|U+10B3E]]|LARGE TWO RINGS OVER ONE RING PUNCTUATION|𐬾|U|
-|[[http://www.fileformat.info/info/unicode/char/10b3f/index.htm|U+10B3F]]|LARGE ONE RING OVER TWO RINGS PUNCTUATION|𐬿|U|
+|[[http://www.fileformat.info/info/unicode/char/0021/index.htm|U+0021]]|EXCLAMATION MARK|!|U|R|
+|[[http://www.fileformat.info/info/unicode/char/0022/index.htm|U+0022]]|QUOTATION MARK|"|T<sub>U</sub>|R|Needs different position within bounding box, and/or different advance width (esp. when used as open-quote).|
+|[[http://www.fileformat.info/info/unicode/char/0023/index.htm|U+0023]]|NUMBER SIGN|#|U|R|
+|[[http://www.fileformat.info/info/unicode/char/0025/index.htm|U+0025]]|PERCENT SIGN|%|U|R|
+|[[http://www.fileformat.info/info/unicode/char/0026/index.htm|U+0026]]|AMPERSAND|&|U|R|
+|[[http://www.fileformat.info/info/unicode/char/0027/index.htm|U+0027]]|APOSTROPHE|'|T<sub>U</sub>|R|Needs different position within bounding box and/or different advance width.|
+|[[http://www.fileformat.info/info/unicode/char/002a/index.htm|U+002A]]|ASTERISK|*|U|R|
+|[[http://www.fileformat.info/info/unicode/char/002c/index.htm|U+002C]]|COMMA|,|T<sub>U</sub>|R|Needs different position within bounding box and/or different advance width.|
+|[[http://www.fileformat.info/info/unicode/char/002e/index.htm|U+002E]]|FULL STOP|.|T<sub>U</sub>|R|Needs different position within bounding box and/or different advance width.|
+|[[http://www.fileformat.info/info/unicode/char/002f/index.htm|U+002F]]|SOLIDUS|/|U|R|
+|[[http://www.fileformat.info/info/unicode/char/003a/index.htm|U+003A]]|COLON|:|U|R|
+|[[http://www.fileformat.info/info/unicode/char/003b/index.htm|U+003B]]|SEMICOLON|;|U|R|
+|[[http://www.fileformat.info/info/unicode/char/003f/index.htm|U+003F]]|QUESTION MARK|?|U|R|
+|[[http://www.fileformat.info/info/unicode/char/0040/index.htm|U+0040]]|COMMERCIAL AT|@|U|R|
+|[[http://www.fileformat.info/info/unicode/char/005c/index.htm|U+005C]]|REVERSE SOLIDUS|\|U|R|
+|[[http://www.fileformat.info/info/unicode/char/00a1/index.htm|U+00A1]]|INVERTED EXCLAMATION MARK|¡|U|R|
+|[[http://www.fileformat.info/info/unicode/char/00a7/index.htm|U+00A7]]|SECTION SIGN|§|U|U|:?:|
+|[[http://www.fileformat.info/info/unicode/char/00b6/index.htm|U+00B6]]|PILCROW SIGN|¶|U|U|
+|[[http://www.fileformat.info/info/unicode/char/00b7/index.htm|U+00B7]]|MIDDLE DOT|·|U|R|:?: Ambiguous. Used in Chinese. But glyph is symmetric.
+|[[http://www.fileformat.info/info/unicode/char/00bf/index.htm|U+00BF]]|INVERTED QUESTION MARK|¿|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2016/index.htm|U+2016]]|DOUBLE VERTICAL LINE|‖|T<sub>R</sub>|T<sub>R</sub>|:?: Most modern fonts have rotated vert, but JIS0213 doesn't define vert glyph|
+|[[http://www.fileformat.info/info/unicode/char/2017/index.htm|U+2017]]|DOUBLE LOW LINE|‗|U|R|Match LOW LINE?|
+|[[http://www.fileformat.info/info/unicode/char/2020/index.htm|U+2020]]|DAGGER|†|U|U|
+|[[http://www.fileformat.info/info/unicode/char/2021/index.htm|U+2021]]|DOUBLE DAGGER|‡|U|U|
+|[[http://www.fileformat.info/info/unicode/char/2022/index.htm|U+2022]]|BULLET|•|U|R|:?:|
+|[[http://www.fileformat.info/info/unicode/char/2023/index.htm|U+2023]]|TRIANGULAR BULLET|‣|U|R|:?:|
+|[[http://www.fileformat.info/info/unicode/char/2024/index.htm|U+2024]]|ONE DOT LEADER|․|R|R|Leaders always parallel to inline direction :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2025/index.htm|U+2025]]|TWO DOT LEADER|‥|R|R|Leaders always parallel to inline direction :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2026/index.htm|U+2026]]|HORIZONTAL ELLIPSIS|…|R|R|Ellipsis always parallel to inline direction :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/2027/index.htm|U+2027]]|HYPHENATION POINT|‧|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2030/index.htm|U+2030]]|PER MILLE SIGN|‰|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2031/index.htm|U+2031]]|PER TEN THOUSAND SIGN|‱|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2032/index.htm|U+2032]]|PRIME|′|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2033/index.htm|U+2033]]|DOUBLE PRIME|″|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2034/index.htm|U+2034]]|TRIPLE PRIME|‴|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2035/index.htm|U+2035]]|REVERSED PRIME|‵|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2036/index.htm|U+2036]]|REVERSED DOUBLE PRIME|‶|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2037/index.htm|U+2037]]|REVERSED TRIPLE PRIME|‷|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2038/index.htm|U+2038]]|CARET|‸|U|R|
+|[[http://www.fileformat.info/info/unicode/char/203b/index.htm|U+203B]]|REFERENCE MARK|※|U|U|
+|[[http://www.fileformat.info/info/unicode/char/203c/index.htm|U+203C]]|DOUBLE EXCLAMATION MARK|‼|U|U|
+|[[http://www.fileformat.info/info/unicode/char/203d/index.htm|U+203D]]|INTERROBANG|‽|U|R|:?:|
+|[[http://www.fileformat.info/info/unicode/char/203e/index.htm|U+203E]]|OVERLINE|‾|U|R|Match LOW LINE|
+|[[http://www.fileformat.info/info/unicode/char/2041/index.htm|U+2041]]|CARET INSERTION POINT|⁁|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2042/index.htm|U+2042]]|ASTERISM|⁂|U|U|:?: In JIS0213|
+|[[http://www.fileformat.info/info/unicode/char/2043/index.htm|U+2043]]|HYPHEN BULLET|⁃|R|R|Match hyphen|
+|[[http://www.fileformat.info/info/unicode/char/2047/index.htm|U+2047]]|DOUBLE QUESTION MARK|⁇|U|U|
+|[[http://www.fileformat.info/info/unicode/char/2048/index.htm|U+2048]]|QUESTION EXCLAMATION MARK|⁈|U|U|
+|[[http://www.fileformat.info/info/unicode/char/2049/index.htm|U+2049]]|EXCLAMATION QUESTION MARK|⁉|U|U|
+|[[http://www.fileformat.info/info/unicode/char/204a/index.htm|U+204A]]|TIRONIAN SIGN ET|⁊|U|R
+|[[http://www.fileformat.info/info/unicode/char/204b/index.htm|U+204B]]|REVERSED PILCROW SIGN|⁋|U|U|Match PILCROW|
+|[[http://www.fileformat.info/info/unicode/char/204c/index.htm|U+204C]]|BLACK LEFTWARDS BULLET|⁌|U|R|
+|[[http://www.fileformat.info/info/unicode/char/204d/index.htm|U+204D]]|BLACK RIGHTWARDS BULLET|⁍|U|R|
+|[[http://www.fileformat.info/info/unicode/char/204e/index.htm|U+204E]]|LOW ASTERISK|⁎|U|R|Match asterisk|
+|[[http://www.fileformat.info/info/unicode/char/204f/index.htm|U+204F]]|REVERSED SEMICOLON|⁏|U|R|Match semicolon|
+|[[http://www.fileformat.info/info/unicode/char/2050/index.htm|U+2050]]|CLOSE UP|⁐|R|R|Copyediting symbol|
+|[[http://www.fileformat.info/info/unicode/char/2051/index.htm|U+2051]]|TWO ASTERISKS ALIGNED VERTICALLY|⁑|U|U|:?: In JIS0213|
+|[[http://www.fileformat.info/info/unicode/char/2053/index.htm|U+2053]]|SWUNG DASH|⁓|R|R|Dashes are always sideways|
+|[[http://www.fileformat.info/info/unicode/char/2055/index.htm|U+2055]]|FLOWER PUNCTUATION MARK|⁕|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2056/index.htm|U+2056]]|THREE DOT PUNCTUATION|⁖|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2057/index.htm|U+2057]]|QUADRUPLE PRIME|⁗|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2058/index.htm|U+2058]]|FOUR DOT PUNCTUATION|⁘|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2059/index.htm|U+2059]]|FIVE DOT PUNCTUATION|⁙|U|R|
+|[[http://www.fileformat.info/info/unicode/char/205a/index.htm|U+205A]]|TWO DOT PUNCTUATION|⁚|U|R|
+|[[http://www.fileformat.info/info/unicode/char/205b/index.htm|U+205B]]|FOUR DOT MARK|⁛|U|R|
+|[[http://www.fileformat.info/info/unicode/char/205c/index.htm|U+205C]]|DOTTED CROSS|⁜|U|R|
+|[[http://www.fileformat.info/info/unicode/char/205d/index.htm|U+205D]]|TRICOLON|⁝|U|R|
+|[[http://www.fileformat.info/info/unicode/char/205e/index.htm|U+205E]]|VERTICAL FOUR DOTS|⁞|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e00/index.htm|U+2E00]]|RIGHT ANGLE SUBSTITUTION MARKER|⸀|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e01/index.htm|U+2E01]]|RIGHT ANGLE DOTTED SUBSTITUTION MARKER|⸁|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e06/index.htm|U+2E06]]|RAISED INTERPOLATION MARKER|⸆|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e07/index.htm|U+2E07]]|RAISED DOTTED INTERPOLATION MARKER|⸇|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e08/index.htm|U+2E08]]|DOTTED TRANSPOSITION MARKER|⸈|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e0b/index.htm|U+2E0B]]|RAISED SQUARE|⸋|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e0e/index.htm|U+2E0E]]|EDITORIAL CORONIS|⸎|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e0f/index.htm|U+2E0F]]|PARAGRAPHOS|⸏|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e10/index.htm|U+2E10]]|FORKED PARAGRAPHOS|⸐|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e11/index.htm|U+2E11]]|REVERSED FORKED PARAGRAPHOS|⸑|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e12/index.htm|U+2E12]]|HYPODIASTOLE|⸒|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e13/index.htm|U+2E13]]|DOTTED OBELOS|⸓|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e14/index.htm|U+2E14]]|DOWNWARDS ANCORA|⸔|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e15/index.htm|U+2E15]]|UPWARDS ANCORA|⸕|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e16/index.htm|U+2E16]]|DOTTED RIGHT-POINTING ANGLE|⸖|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e18/index.htm|U+2E18]]|INVERTED INTERROBANG|⸘|U|R|:?: Mismatch with interrobang‽|
+|[[http://www.fileformat.info/info/unicode/char/2e19/index.htm|U+2E19]]|PALM BRANCH|⸙|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e1b/index.htm|U+2E1B]]|TILDE WITH RING ABOVE|⸛|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e1e/index.htm|U+2E1E]]|TILDE WITH DOT ABOVE|⸞|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e1f/index.htm|U+2E1F]]|TILDE WITH DOT BELOW|⸟|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e2a/index.htm|U+2E2A]]|TWO DOTS OVER ONE DOT PUNCTUATION|⸪|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e2b/index.htm|U+2E2B]]|ONE DOT OVER TWO DOTS PUNCTUATION|⸫|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e2c/index.htm|U+2E2C]]|SQUARED FOUR DOT PUNCTUATION|⸬|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e2d/index.htm|U+2E2D]]|FIVE DOT MARK|⸭|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e2e/index.htm|U+2E2E]]|REVERSED QUESTION MARK|⸮|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e30/index.htm|U+2E30]]|RING POINT|⸰|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e31/index.htm|U+2E31]]|WORD SEPARATOR MIDDLE DOT|⸱|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e32/index.htm|U+2E32]]|TURNED COMMA|⸲|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e33/index.htm|U+2E33]]|RAISED DOT|⸳|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e34/index.htm|U+2E34]]|RAISED COMMA|⸴|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e35/index.htm|U+2E35]]|TURNED SEMICOLON|⸵|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2e36/index.htm|U+2E36]]|DAGGER WITH LEFT GUARD|⸶|U|U|Match DAGGER|
+|[[http://www.fileformat.info/info/unicode/char/2e37/index.htm|U+2E37]]|DAGGER WITH RIGHT GUARD|⸷|U|U|Match DAGGER|
+|[[http://www.fileformat.info/info/unicode/char/2e38/index.htm|U+2E38]]|TURNED DAGGER|⸸|U|U|Match DAGGER|
+|[[http://www.fileformat.info/info/unicode/char/2e39/index.htm|U+2E39]]|TOP HALF SECTION SIGN|⸹|U|U|Match SECTION SIGN|
+|[[http://www.fileformat.info/info/unicode/char/3001/index.htm|U+3001]]|IDEOGRAPHIC COMMA|、|T<sub>U</sub>|T<sub>U</sub>|Ideographic variants upright; comma needs shifting|
+|[[http://www.fileformat.info/info/unicode/char/3002/index.htm|U+3002]]|IDEOGRAPHIC FULL STOP|。|T<sub>U</sub>|T<sub>U</sub>|Ideographic variants upright; full stop needs shifting|
+|[[http://www.fileformat.info/info/unicode/char/3003/index.htm|U+3003]]|DITTO MARK|〃|U|U|
+|[[http://www.fileformat.info/info/unicode/char/303d/index.htm|U+303D]]|PART ALTERNATION MARK|〽|U|U|Used in Japanese verse notation|
+|[[http://www.fileformat.info/info/unicode/char/30fb/index.htm|U+30FB]]|KATAKANA MIDDLE DOT|・|U|U|Katakana middle dot is upright|
+|[[http://www.fileformat.info/info/unicode/char/fe45/index.htm|U+FE45]]|SESAME DOT|﹅|U|U|Sesame dots are always upright|
+|[[http://www.fileformat.info/info/unicode/char/fe46/index.htm|U+FE46]]|WHITE SESAME DOT|﹆|U|U|Sesame dots are always upright|
+|[[http://www.fileformat.info/info/unicode/char/fe49/index.htm|U+FE49]]|DASHED OVERLINE|﹉|U|R|Match dashed low line|
+|[[http://www.fileformat.info/info/unicode/char/fe4a/index.htm|U+FE4A]]|CENTRELINE OVERLINE|﹊|U|R|Match centerline low line|
+|[[http://www.fileformat.info/info/unicode/char/fe4b/index.htm|U+FE4B]]|WAVY OVERLINE|﹋|U|R|Match wavy low line|
+|[[http://www.fileformat.info/info/unicode/char/fe4c/index.htm|U+FE4C]]|DOUBLE WAVY OVERLINE|﹌|U|R|Match wavy low line|
+|[[http://www.fileformat.info/info/unicode/char/10b3a/index.htm|U+10B3A]]|TINY TWO DOTS OVER ONE DOT PUNCTUATION|𐬺|U|R|
+|[[http://www.fileformat.info/info/unicode/char/10b3b/index.htm|U+10B3B]]|SMALL TWO DOTS OVER ONE DOT PUNCTUATION|𐬻|U|R|
+|[[http://www.fileformat.info/info/unicode/char/10b3c/index.htm|U+10B3C]]|LARGE TWO DOTS OVER ONE DOT PUNCTUATION|𐬼|U|R|
+|[[http://www.fileformat.info/info/unicode/char/10b3d/index.htm|U+10B3D]]|LARGE ONE DOT OVER TWO DOTS PUNCTUATION|𐬽|U|R|
+|[[http://www.fileformat.info/info/unicode/char/10b3e/index.htm|U+10B3E]]|LARGE TWO RINGS OVER ONE RING PUNCTUATION|𐬾|U|R|
+|[[http://www.fileformat.info/info/unicode/char/10b3f/index.htm|U+10B3F]]|LARGE ONE RING OVER TWO RINGS PUNCTUATION|𐬿|U|R|
+
 ==== Small/Fullwidth/Halfwidth/Vertical Other Punctuation (Po) ====
 
 ^Code^Description^Char^Stack^Memo^
