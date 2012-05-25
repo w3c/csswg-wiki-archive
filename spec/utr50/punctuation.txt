@@ -119,7 +119,7 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/3018/index.htm|U+3018]]|LEFT WHITE TORTOISE SHELL BRACKET|''〘''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
 |[[http://www.fileformat.info/info/unicode/char/301a/index.htm|U+301A]]|LEFT WHITE SQUARE BRACKET|''〚''|T<sub>R</sub>|T<sub>R</sub>|Brackets are sideways to enclose their text (CJK fonts usually have vertical glyph)|
 |[[http://www.fileformat.info/info/unicode/char/301d/index.htm|U+301D]]|REVERSED DOUBLE PRIME QUOTATION MARK|''〝''|T<sub>U</sub>|T<sub>U</sub>|Quotation marks are upright in stacked mode :?: DVO=S|
-|[[http://www.fileformat.info/info/unicode/char/fd3e/index.htm|U+FD3E]]|ORNATE LEFT PARENTHESIS|''﴾''|R|R|Brackets are sideways to enclose their text :?: DVO=U|
+|[[http://www.fileformat.info/info/unicode/char/fd3e/index.htm|U+FD3E]]|ORNATE LEFT PARENTHESIS|''﴾''|R|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/fe17/index.htm|U+FE17]]|PRESENTATION FORM FOR VERTICAL LEFT WHITE LENTICULAR BRACKET|''︗''|U|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe35/index.htm|U+FE35]]|PRESENTATION FORM FOR VERTICAL LEFT PARENTHESIS|''︵''|U|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe37/index.htm|U+FE37]]|PRESENTATION FORM FOR VERTICAL LEFT CURLY BRACKET|''︷''|U|U|Vertical presentation forms are always upright|
