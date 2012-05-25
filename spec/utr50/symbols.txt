@@ -28,7 +28,7 @@ Since S* is a large set, they're split among pages:
 
 ===== Symbol, Currency (Sc) =====
 
-^Code^Description^Char^Stack^Memo^
+^Code^Description^Char^Stack^Mix^Memo^
 |[[http://www.fileformat.info/info/unicode/char/0024/index.htm|U+0024]]|DOLLAR SIGN|''$''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/00A2/index.htm|U+00A2]]|CENT SIGN|''¢''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/00A3/index.htm|U+00A3]]|POUND SIGN|''£''|U|R|
