@@ -23,9 +23,9 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/2104/index.htm|U+2104]]|CENTRE LINE SYMBOL|''℄''|U|U|Architectural symbol?|
 |[[http://www.fileformat.info/info/unicode/char/2105/index.htm|U+2105]]|CARE OF|''℅''|U|U|East Asian wants upright, probably otherwise unimportant|
 |[[http://www.fileformat.info/info/unicode/char/2106/index.htm|U+2106]]|CADA UNA|''℆''|U|U|Same as ℅|
-|[[http://www.fileformat.info/info/unicode/char/2108/index.htm|U+2108]]|SCRUPLE|''℈''|U|R|[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]]|
+|[[http://www.fileformat.info/info/unicode/char/2108/index.htm|U+2108]]|SCRUPLE|''℈''|U|R|[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]], keep consistent with digits and Ʒ|
 |[[http://www.fileformat.info/info/unicode/char/2109/index.htm|U+2109]]|DEGREE FAHRENHEIT|''℉''|U|U|Combined symbol -> upright|
-|[[http://www.fileformat.info/info/unicode/char/2114/index.htm|U+2114]]|L B BAR SYMBOL|''℔''|U|R|[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]]|
+|[[http://www.fileformat.info/info/unicode/char/2114/index.htm|U+2114]]|L B BAR SYMBOL|''℔''|U|R|[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]], keep consistent with digits and Ʒ|
 |[[http://www.fileformat.info/info/unicode/char/2116/index.htm|U+2116]]|NUMERO SIGN|''№''|U|U|East Asian wants upright, sensible elsewhere upright|
 |[[http://www.fileformat.info/info/unicode/char/2117/index.htm|U+2117]]|SOUND RECORDING COPYRIGHT|''℗''|U|
 |[[http://www.fileformat.info/info/unicode/char/211E/index.htm|U+211E]]|PRESCRIPTION TAKE|''℞''|U|
@@ -34,7 +34,7 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/2121/index.htm|U+2121]]|TELEPHONE SIGN|''℡''|U|U|East Asian wants upright, sensible elsewhere upright|
 |[[http://www.fileformat.info/info/unicode/char/2122/index.htm|U+2122]]|TRADE MARK SIGN|''™''|U|
 |[[http://www.fileformat.info/info/unicode/char/2123/index.htm|U+2123]]|VERSICLE|''℣''|U|
-|[[http://www.fileformat.info/info/unicode/char/2125/index.htm|U+2125]]|OUNCE SIGN|''℥''|U|R|[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]]|
+|[[http://www.fileformat.info/info/unicode/char/2125/index.htm|U+2125]]|OUNCE SIGN|''℥''|U|R|[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]], keep consistent with digits and Ʒ|
 |[[http://www.fileformat.info/info/unicode/char/2127/index.htm|U+2127]]|INVERTED OHM SIGN|''℧''|U|
 |[[http://www.fileformat.info/info/unicode/char/2129/index.htm|U+2129]]|TURNED GREEK SMALL LETTER IOTA|''℩''|U|
 |[[http://www.fileformat.info/info/unicode/char/212E/index.htm|U+212E]]|ESTIMATED SYMBOL|''℮''|U|
