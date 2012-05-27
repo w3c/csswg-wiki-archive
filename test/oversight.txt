@@ -22,6 +22,7 @@ The following table shows the owners and peers of the CSS Test Suites. Currently
 | [[http://www.w3.org/Style/CSS/Test/CSS3/Page/|CSS3 Paged Media]] | Elika J. Etemad |
 | CSS Transforms | Edward O'Connor |
 | CSS Animations | Øyvind Stenhaug |
+| CSSOM | Glenn Adams |
 
 The overall Owner for the W3C CSS Testing efforts is Elika J. Etemad (fantasai). Finally, the CSS Working Group has the highest authority over the project and may be consulted where deemed necessary.
 
