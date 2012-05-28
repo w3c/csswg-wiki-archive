@@ -5,7 +5,7 @@ Spec_tags     : css3-flexbox, css3-align
 Owner_tags    : fantasai
 Status_tags   : Open, Urgent
 Added_dt      : 2012-05-16
-Action        : Approve the proposal?
+Action        : Discuss and resolve.
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0556.html
 Proposal_urls : 
 Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
