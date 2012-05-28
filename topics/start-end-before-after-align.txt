@@ -1,4 +1,4 @@
-====== Alignment Keywords: start/start/end/end vs. before/start/after/end ======
+====== Alignment Keywords: start/start/end/end vs. 4-directional ======
 
 ---- dataentry  ----
 Spec_tags     : css3-flexbox, css3-align
@@ -13,7 +13,7 @@ Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. L
 
 === Background ===
 
-The alignment properties are divided into two dimensions, one for each flow-relative dimension. In order to have terms for all four sides of a box, the terminology used in each dimension is different: the inline dimension uses start/end, while the stacking dimension uses before/after. Right now the layout specs proposing new alignment properties use start/end keywords in both dimensions.
+The alignment properties are divided into two dimensions, one for each flow-relative dimension. In order to have terms for all four sides of a box, the terminology used in each dimension is different: the inline dimension uses start/end, while the stacking dimension uses before/after. (But see open issue on [[rename-before-after|renaming before/after]].) Right now the layout specs proposing new alignment properties use start/end keywords in both dimensions.
 
 Note: Flexbox will be the first spec to go to CR with logical keywords.
 
@@ -23,9 +23,7 @@ Should alignment properties use flow-relative terms, or use start/end in both di
 
 === Proposal(s) ===
 
-The proposal is to have the Box Alignment proposal's '-align' properties, which align in the stacking dimension, to use before/after, not start/end.
-
-This would impact Flexbox's three cross-axis alignment properties (currently named 'flex-align', 'flex-item-align', and 'flex-line-pack') and Grid Layout's one column-axis alignment property (called 'grid-row-align'). Note the properties will also be renamed when aligned to match Box Alignment.
+The proposal is to have the Box Alignment proposal's '-align' properties, which align in the stacking dimension, to use block-relative directions, not start/end (which are the inline-relative terms).
 
 === Links to More Info ===
 
