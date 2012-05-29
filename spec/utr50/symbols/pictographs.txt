@@ -12,18 +12,6 @@ Category Codes:
 
 Two modes are presented: Stacking (''text-orientation: upright'') and Default (TBD).
 
-Since S* is a large set, they're split among pages:
-  * [[spec:utr50:symbols#Symbol, Currency (Sc)]]
-  * [[spec:utr50:symbols#Symbol, Modifier (Sk)]]
-  * [[math]]
-  * Symbol, Other (So)
-    * [[textual]]
-    * [[spec:utr50:so2]]
-    * [[cjk]]
-    * [[ancient]]
-    * [[game]]
-    * [[technical]]
-
 ==== Miscellaneous Symbols ====
 
 ^Code^Description^Char^Stack^Memo^
@@ -387,7 +375,7 @@ Since S* is a large set, they're split among pages:
 |[[http://www.fileformat.info/info/unicode/char/2796/index.htm|U+2796]]|HEAVY MINUS SIGN|''➖''|U|
 |[[http://www.fileformat.info/info/unicode/char/2797/index.htm|U+2797]]|HEAVY DIVISION SIGN|''➗''|U|
 |[[http://www.fileformat.info/info/unicode/char/27B0/index.htm|U+27B0]]|CURLY LOOP|''➰''|U|
-
+|[[http://www.fileformat.info/info/unicode/char/27BF/index.htm|U+27BF]]|DOUBLE CURLY LOOP|''➿''|U|
 
 ==== Miscellaneous Symbols And Pictographs ====
 
