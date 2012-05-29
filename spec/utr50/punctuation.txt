@@ -301,8 +301,8 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/2025/index.htm|U+2025]]|TWO DOT LEADER|‥|R|R|Leaders always parallel to inline direction :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/2026/index.htm|U+2026]]|HORIZONTAL ELLIPSIS|…|R|R|Ellipsis always parallel to inline direction :?: DVO=U|
 |[[http://www.fileformat.info/info/unicode/char/2027/index.htm|U+2027]]|HYPHENATION POINT|‧|U|R|
-|[[http://www.fileformat.info/info/unicode/char/2030/index.htm|U+2030]]|PER MILLE SIGN|‰|U|R|
-|[[http://www.fileformat.info/info/unicode/char/2031/index.htm|U+2031]]|PER TEN THOUSAND SIGN|‱|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2030/index.htm|U+2030]]|PER MILLE SIGN|‰|U|U|Used in East Asian codepages|
+|[[http://www.fileformat.info/info/unicode/char/2031/index.htm|U+2031]]|PER TEN THOUSAND SIGN|‱|U|U|Used in East Asian codepages|
 |[[http://www.fileformat.info/info/unicode/char/2032/index.htm|U+2032]]|PRIME|′|U|R|
 |[[http://www.fileformat.info/info/unicode/char/2033/index.htm|U+2033]]|DOUBLE PRIME|″|U|R|
 |[[http://www.fileformat.info/info/unicode/char/2034/index.htm|U+2034]]|TRIPLE PRIME|‴|U|R|
