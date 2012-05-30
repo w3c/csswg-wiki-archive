@@ -180,6 +180,36 @@ Congratulations, you're now a Mercurial user.
 
 See the rest of this document if you ran into any issues, for more operations, and to have a better understanding of what's going on here.
 
+==== CSSWG and other post processing ====
+For the CSSWG and other groups, you'll likely be editing a file called:
+<code>
+ Overview.src.html
+</code>
+
+that you'll need to turn into (and update in place when it's already there)
+<code>
+ Overview.html
+</code>
+
+BEFORE committing your work.
+
+See [[spec/cvs#step-6-post-process-css-src]]
+
+For the WebApps working group (e.g. for the Fullscreen specification), you have to install more tools:
+  * [[http://wiki.whatwg.org/wiki/Anolis#Setting_up_Anolis_with_cross-specification_cross-references|Setting up Anolis with cross-specification cross-references]]
+  * install lxml and html5lib (details unknown)
+  * run make in directory of the spec, e.g.
+<code>
+ cd /mirror/hg/dvcs.w3.org/fullscreen # or wherever you have it locally
+ make
+</code>
+  * you should now have updated files - check their mod dates to be sure:
+<code>
+ Overview.html
+ TR.html
+</code>
+  * continue with <code>hg commit ...</code> etc. as documented above.
+
 ==== Table of Contents ====
 
   * [[#examining-your-changes|Examining Your Changes]]
