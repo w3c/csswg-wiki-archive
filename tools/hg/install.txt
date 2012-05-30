@@ -112,13 +112,13 @@ You may get an alert dialog that says something like:
 +-----------------------------------------------+
 </pre></html>
 
-Java is no longer distributed with OS X Lion by default, if you need to install it, it can be downloaded from [[http://support.apple.com/kb/DL1421|here]].
+Click (Not Now). 
 
-Why does mercurial depend on Java? It actually doesn't, possibly one of the packages Mercurial depends on requires Java during its installation. Once Mercurial is installed, Java can be disabled and Mercurial will still function normally. Avoid installing Java as it is the #1 source of exploits and commercially available exploit kits. See http://tantek.com/2010/300/b1/disable-java-now for details/citations. 
+Note: Mercurial DOES NOT depend on Java. No idea why MacPorts makes you jump through this hoop. Java is no longer distributed with OS X Lion by default, if you need to install it (which you shouldn't), it can be downloaded from [[http://support.apple.com/kb/DL1421|here]].
 
-Click (Not Now) and hope it works.
+Avoid installing Java as it is the #1 source of exploits and commercially available exploit kits. See http://tantek.com/2010/300/b1/disable-java-now for details/citations. 
 
-You might also get messages like this:
+After clicking (Not Now), you might also get messages like this:
 
 <code>
 To make python 2.7 the default (i.e. the version you get when you run
@@ -128,9 +128,28 @@ To make python 2.7 the default (i.e. the version you get when you run
 
 This is not necessary unless you want to use the MacPorts Python 2.7 environment when invoking Python from the command line. Mercurial will automatically use the MacPorts Python 2.7 environment regardless of which Python version is in your path.
 
-Assuming you don't need javac/Java Runtime, then just maybe:
+Note: Mercurial is a Python application. Although OS X has Python pre-instaled, MacPorts will install its own version of Python into /opt/local/bin so that it can manage dependencies between packages. This will not interfere with your normal Python installation. Currently, on OS X Mercurial will use Python version 2.7. Note that if you install any extensions to Mercurial via MacPorts, you'll need to use the py27- version of the extension.
 
-Congratulations, you've installed the command-line hg tool on your Mac. Mercurial updates frequently, you can upgrade to the latest version of Mercurial at any time by entering the following commands:
+Congratulations, you've installed the command-line hg tool on your Mac!
+
+Verify this with the command line:
+
+<code>
+hg --version
+</code>
+
+You should see something like:
+
+<code>
+Mercurial Distributed SCM (version 2.2.1)
+(see http://mercurial.selenic.com for more information)
+</code>
+
+As long as the version number you see is 2.1 or higher, you have a new enough version of Mercurial.
+
+==== Mercurial Updates ====
+
+Mercurial updates frequently, you can upgrade to the latest version of Mercurial at any time by entering the following commands:
 <code bash>sudo port selfupdate</code>
 You might be asked for your "Password:" again here to sudo. Enter it and press return.
 
@@ -152,8 +171,55 @@ Now do:
 
 <code bash>sudo port upgrade mercurial</code>
 
-If you already have the latest version of Mercurial, you should not get any messages, just another terminal prompt. If a newer version of Mercurial, or any other packages it depends on, is available, you will see installation messages similar to what you saw during the initial install. If newer packages are installed, you can remove the old ones that are no longer needed by entering:
+If you already have the latest version of Mercurial, you should not get any messages, just another terminal prompt. If a newer version of Mercurial, or any other packages it depends on, is available, you will see installation messages similar to what you saw during the initial install, but perhaps "cleaning" a previous version:
+
+<code>
+--->  Computing dependencies for mercurial
+--->  Fetching archive for mercurial
+--->  Attempting to fetch mercurial-2.2.1_0.darwin_11.x86_64.tbz2 from http://packages.macports.org/mercurial
+--->  Fetching distfiles for mercurial
+--->  Attempting to fetch mercurial-2.2.1.tar.gz from http://distfiles.macports.org/mercurial
+--->  Verifying checksum(s) for mercurial
+--->  Extracting mercurial
+--->  Applying patches to mercurial
+--->  Configuring mercurial
+--->  Building mercurial
+--->  Staging mercurial into destroot
+--->  Installing mercurial @2.2.1_0
+--->  Cleaning mercurial
+--->  Computing dependencies for mercurial
+--->  Deactivating mercurial @2.0.1_0
+--->  Cleaning mercurial
+--->  Activating mercurial @2.2.1_0
+--->  Cleaning mercurial
+--->  Updating database of binaries: 100.0%
+--->  Scanning binaries for linking errors: 100.0%
+--->  No broken files found.
+</code>
+
+If newer packages are installed, you can remove the old ones that are no longer needed by entering:
 
 <code bash>sudo port uninstall outdated</code>
 
-Note that Mercurial is a Python application. Although OS X has Python pre-instaled, MacPorts will install its own version of Python into /opt/local/bin so that it can manage dependencies between packages. This will not interfere with your normal Python installation. Currently, on OS X Mercurial will use Python version 2.7. Note that if you install any extensions to Mercurial via MacPorts, you'll need to use the py27- version of the extension.
+You might see some packages deactivated/cleaned/uninstalled like this:
+<code>
+--->  Deactivating cvs @1.11.23_0
+--->  Cleaning cvs
+--->  Uninstalling cvs @1.11.23_0
+--->  Cleaning cvs
+</code>
+
+Check the version of Mercurial you now have with the command line:
+
+<code>
+hg --version
+</code>
+
+You should see something like:
+
+<code>
+Mercurial Distributed SCM (version 2.2.1)
+(see http://mercurial.selenic.com for more information)
+</code>
+
+As long as the version number you see is 2.1 or higher, you have a new enough version of Mercurial.
