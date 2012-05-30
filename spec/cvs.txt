@@ -2,10 +2,12 @@
 
 2010-234 Tantek Çelik - originally drafted (with incremental updates since, e.g. 2011-081)
 
+<html><div style="width:50%;float:left"></html>
 <note important>
 The CSSWG has shifted to [[tools:hg|Mercurial]] for specs.
 This page is being kept here in case it is useful for other projects.
 </note>
+<html></div></html>
 
 ===== Introduction =====
 Setting up CVS and specifically, W3C's setup for CVS is quite challenging, obtuse, and painful.
