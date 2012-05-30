@@ -16,7 +16,19 @@ With a distributed version control system, every user has their own repository, 
 
 You need to first [[tools:hg:install|install Mercurial on your system]], if you haven't already. Our server is running version 2.1. Earlier versions should work, but we recommend using the latest client.
 
-You can see if you already have Mercurial installed by opening up a command shell and typing ''hg %%--%%version''.
+You can see if you already have Mercurial installed by opening up a command shell and typing:
+<code>
+hg --version
+</code>
+
+You should see something like:
+
+<code>
+Mercurial Distributed SCM (version 2.2.1)
+(see http://mercurial.selenic.com for more information)
+</code>
+
+As long as the version number you see is 2.1 or higher, you have a new enough version of Mercurial.
 
 ==== Setting Up Mercurial Preferences ====
 
@@ -73,22 +85,60 @@ You can optionally [[http://mercurial.selenic.com/wiki/MergeProgram|select an in
 Note that these fingerprints will only be valid until the certificates expire. You will need to update the fingerprints when new certificates are issued.
  
 ==== Initial Clone Of The Central Repository ====
-
 The first step is to clone the central repository to your own machine.
 
+In a shell/terminal window, set your current directory to wherever you want hg to create the folders for each repository, and then issue hg clone commands for each repository. e.g.
+
+
 ** CSSWG Test Suite Repository **
-  hg clone https://hg.csswg.org/test/
+<code>
+cd /mirror/hg/hg.csswg.org/   #just an example, pick your own local directory
+hg clone https://hg.csswg.org/test/
+</code>
+
+You should see some text like:
+
+<code>
+destination directory: test
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 3289 changesets with 85693 changes to 50963 files
+updating to branch default
+cloning subrepo tools/w3ctestlib from http://hg.csswg.org/dev/w3ctestlib
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 95 changesets with 245 changes to 31 files
+21921 files updated, 0 files merged, 0 files removed, 0 files unresolved
+</code>
+
 
 ** CSSWG Spec Repository **
-  hg clone https://dvcs.w3.org/hg/csswg/
+<code>
+cd /mirror/hg/dvcs.w3.org/   #just an example, pick your own local directory
+hg clone https://dvcs.w3.org/hg/csswg/
+</code>
 
 ** FXTF Spec Repository **
-  hg clone https://dvcs.w3.org/hg/FXTF/
+<code>
+hg clone https://dvcs.w3.org/hg/FXTF/ 
+</code>
 
+** Fullscreen Spec **
+<code>
+hg clone https://dvcs.w3.org/hg/fullscreen/
+</code>
+
+** directory naming **
 Once this command is complete, you now have a working directory that also contains your very own local repository (in a hidden directory named ''.hg''). Your local repository is, at this point, an identical clone of the central repository. You can begin making changes in your working directory at will. In general, do not modify the contents of the ''.hg'' directory directly.
 
 Note: By default, the working directory name will match the name of the central repository on the server (the last path component of the URL). If you want to use a different name for your working directory, enter it at the end of the clone command, e.g.:
-  hg clone https://dvcs.w3.org/hg/csswg/ specs
+<code>
+hg clone https://dvcs.w3.org/hg/csswg/ specs
+</code>
 
 ==== Obtaining Write Access ====
 
