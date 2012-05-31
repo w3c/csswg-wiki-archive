@@ -1,7 +1,7 @@
 ====== Rename Block-relative Logical Directions (Before/After) ======
 
 ---- dataentry  ----
-Spec_tags     : css3-foo
+Spec_tags     : ALL
 Owner_tags    : fantasai #Who's driving the discussion?
 Status_tags   : Resolved #[ Open | Closed | Pending ] [, Urgent]?
 Added_dt      : 2012-05-28 #Date added as WG discussion request
