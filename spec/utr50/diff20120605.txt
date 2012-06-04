@@ -1,6 +1,5 @@
 Differences as of 6/5/2012
 
-
 ==== Basic Latin ====
 
 ^Unicode^Code^Name^Block^Cat^MVO^MVOms^MVOcss^
@@ -990,74 +989,7 @@ Differences as of 6/5/2012
 
 ^Unicode^Code^Name^Block^Cat^MVO^MVOms^MVOcss^
 |[[http://www.fileformat.info/info/unicode/char/1D200/index.htm|U+1D200]]|𝈀|GREEK VOCAL NOTATION SYMBOL-1|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D201/index.htm|U+1D201]]|𝈁|GREEK VOCAL NOTATION SYMBOL-2|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D202/index.htm|U+1D202]]|𝈂|GREEK VOCAL NOTATION SYMBOL-3|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D203/index.htm|U+1D203]]|𝈃|GREEK VOCAL NOTATION SYMBOL-4|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D204/index.htm|U+1D204]]|𝈄|GREEK VOCAL NOTATION SYMBOL-5|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D205/index.htm|U+1D205]]|𝈅|GREEK VOCAL NOTATION SYMBOL-6|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D206/index.htm|U+1D206]]|𝈆|GREEK VOCAL NOTATION SYMBOL-7|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D207/index.htm|U+1D207]]|𝈇|GREEK VOCAL NOTATION SYMBOL-8|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D208/index.htm|U+1D208]]|𝈈|GREEK VOCAL NOTATION SYMBOL-9|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D209/index.htm|U+1D209]]|𝈉|GREEK VOCAL NOTATION SYMBOL-10|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D20A/index.htm|U+1D20A]]|𝈊|GREEK VOCAL NOTATION SYMBOL-11|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D20B/index.htm|U+1D20B]]|𝈋|GREEK VOCAL NOTATION SYMBOL-12|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D20C/index.htm|U+1D20C]]|𝈌|GREEK VOCAL NOTATION SYMBOL-13|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D20D/index.htm|U+1D20D]]|𝈍|GREEK VOCAL NOTATION SYMBOL-14|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D20E/index.htm|U+1D20E]]|𝈎|GREEK VOCAL NOTATION SYMBOL-15|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D20F/index.htm|U+1D20F]]|𝈏|GREEK VOCAL NOTATION SYMBOL-16|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D210/index.htm|U+1D210]]|𝈐|GREEK VOCAL NOTATION SYMBOL-17|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D211/index.htm|U+1D211]]|𝈑|GREEK VOCAL NOTATION SYMBOL-18|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D212/index.htm|U+1D212]]|𝈒|GREEK VOCAL NOTATION SYMBOL-19|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D213/index.htm|U+1D213]]|𝈓|GREEK VOCAL NOTATION SYMBOL-20|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D214/index.htm|U+1D214]]|𝈔|GREEK VOCAL NOTATION SYMBOL-21|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D215/index.htm|U+1D215]]|𝈕|GREEK VOCAL NOTATION SYMBOL-22|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D216/index.htm|U+1D216]]|𝈖|GREEK VOCAL NOTATION SYMBOL-23|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D217/index.htm|U+1D217]]|𝈗|GREEK VOCAL NOTATION SYMBOL-24|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D218/index.htm|U+1D218]]|𝈘|GREEK VOCAL NOTATION SYMBOL-50|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D219/index.htm|U+1D219]]|𝈙|GREEK VOCAL NOTATION SYMBOL-51|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D21A/index.htm|U+1D21A]]|𝈚|GREEK VOCAL NOTATION SYMBOL-52|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D21B/index.htm|U+1D21B]]|𝈛|GREEK VOCAL NOTATION SYMBOL-53|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D21C/index.htm|U+1D21C]]|𝈜|GREEK VOCAL NOTATION SYMBOL-54|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D21D/index.htm|U+1D21D]]|𝈝|GREEK INSTRUMENTAL NOTATION SYMBOL-1|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D21E/index.htm|U+1D21E]]|𝈞|GREEK INSTRUMENTAL NOTATION SYMBOL-2|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D21F/index.htm|U+1D21F]]|𝈟|GREEK INSTRUMENTAL NOTATION SYMBOL-4|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D220/index.htm|U+1D220]]|𝈠|GREEK INSTRUMENTAL NOTATION SYMBOL-5|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D221/index.htm|U+1D221]]|𝈡|GREEK INSTRUMENTAL NOTATION SYMBOL-7|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D222/index.htm|U+1D222]]|𝈢|GREEK INSTRUMENTAL NOTATION SYMBOL-8|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D223/index.htm|U+1D223]]|𝈣|GREEK INSTRUMENTAL NOTATION SYMBOL-11|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D224/index.htm|U+1D224]]|𝈤|GREEK INSTRUMENTAL NOTATION SYMBOL-12|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D225/index.htm|U+1D225]]|𝈥|GREEK INSTRUMENTAL NOTATION SYMBOL-13|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D226/index.htm|U+1D226]]|𝈦|GREEK INSTRUMENTAL NOTATION SYMBOL-14|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D227/index.htm|U+1D227]]|𝈧|GREEK INSTRUMENTAL NOTATION SYMBOL-17|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D228/index.htm|U+1D228]]|𝈨|GREEK INSTRUMENTAL NOTATION SYMBOL-18|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D229/index.htm|U+1D229]]|𝈩|GREEK INSTRUMENTAL NOTATION SYMBOL-19|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D22A/index.htm|U+1D22A]]|𝈪|GREEK INSTRUMENTAL NOTATION SYMBOL-23|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D22B/index.htm|U+1D22B]]|𝈫|GREEK INSTRUMENTAL NOTATION SYMBOL-24|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D22C/index.htm|U+1D22C]]|𝈬|GREEK INSTRUMENTAL NOTATION SYMBOL-25|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D22D/index.htm|U+1D22D]]|𝈭|GREEK INSTRUMENTAL NOTATION SYMBOL-26|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D22E/index.htm|U+1D22E]]|𝈮|GREEK INSTRUMENTAL NOTATION SYMBOL-27|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D22F/index.htm|U+1D22F]]|𝈯|GREEK INSTRUMENTAL NOTATION SYMBOL-29|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D230/index.htm|U+1D230]]|𝈰|GREEK INSTRUMENTAL NOTATION SYMBOL-30|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D231/index.htm|U+1D231]]|𝈱|GREEK INSTRUMENTAL NOTATION SYMBOL-32|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D232/index.htm|U+1D232]]|𝈲|GREEK INSTRUMENTAL NOTATION SYMBOL-36|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D233/index.htm|U+1D233]]|𝈳|GREEK INSTRUMENTAL NOTATION SYMBOL-37|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D234/index.htm|U+1D234]]|𝈴|GREEK INSTRUMENTAL NOTATION SYMBOL-38|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D235/index.htm|U+1D235]]|𝈵|GREEK INSTRUMENTAL NOTATION SYMBOL-39|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D236/index.htm|U+1D236]]|𝈶|GREEK INSTRUMENTAL NOTATION SYMBOL-40|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D237/index.htm|U+1D237]]|𝈷|GREEK INSTRUMENTAL NOTATION SYMBOL-42|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D238/index.htm|U+1D238]]|𝈸|GREEK INSTRUMENTAL NOTATION SYMBOL-43|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D239/index.htm|U+1D239]]|𝈹|GREEK INSTRUMENTAL NOTATION SYMBOL-45|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D23A/index.htm|U+1D23A]]|𝈺|GREEK INSTRUMENTAL NOTATION SYMBOL-47|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D23B/index.htm|U+1D23B]]|𝈻|GREEK INSTRUMENTAL NOTATION SYMBOL-48|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D23C/index.htm|U+1D23C]]|𝈼|GREEK INSTRUMENTAL NOTATION SYMBOL-49|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D23D/index.htm|U+1D23D]]|𝈽|GREEK INSTRUMENTAL NOTATION SYMBOL-50|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D23E/index.htm|U+1D23E]]|𝈾|GREEK INSTRUMENTAL NOTATION SYMBOL-51|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D23F/index.htm|U+1D23F]]|𝈿|GREEK INSTRUMENTAL NOTATION SYMBOL-52|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D240/index.htm|U+1D240]]|𝉀|GREEK INSTRUMENTAL NOTATION SYMBOL-53|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D241/index.htm|U+1D241]]|𝉁|GREEK INSTRUMENTAL NOTATION SYMBOL-54|Ancient Greek Musical Notation|So|U|R|U|
-|[[http://www.fileformat.info/info/unicode/char/1D242/index.htm|U+1D242]]|𝉂|COMBINING GREEK MUSICAL TRISEME|Ancient Greek Musical Notation|Mn|U|IR|U|
-|[[http://www.fileformat.info/info/unicode/char/1D243/index.htm|U+1D243]]|𝉃|COMBINING GREEK MUSICAL TETRASEME|Ancient Greek Musical Notation|Mn|U|IR|U|
-|[[http://www.fileformat.info/info/unicode/char/1D244/index.htm|U+1D244]]|𝉄|COMBINING GREEK MUSICAL PENTASEME|Ancient Greek Musical Notation|Mn|U|IR|U|
+|  ...  ||||||||
 |[[http://www.fileformat.info/info/unicode/char/1D245/index.htm|U+1D245]]|𝉅|GREEK MUSICAL LEIMMA|Ancient Greek Musical Notation|So|U|R|U|
 
 ==== Tags ====
