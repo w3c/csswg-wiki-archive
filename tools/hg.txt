@@ -115,6 +115,11 @@ added 95 changesets with 245 changes to 31 files
 21921 files updated, 0 files merged, 0 files removed, 0 files unresolved
 </code>
 
+** Resources directory (needed when authoring script tests using testharness) **
+<code>
+cd /     #not required, but resources directory is located at root level in repository
+hg clone https://dvcs.w3.org/hg/resources/     
+</code>
 
 ** CSSWG Spec Repository **
 <code>
