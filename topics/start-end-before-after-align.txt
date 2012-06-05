@@ -3,13 +3,21 @@
 ---- dataentry  ----
 Spec_tags     : css3-flexbox, css3-align
 Owner_tags    : fantasai
-Status_tags   : Resolved
+Status_tags   : Resolved, Closed
 Added_dt      : 2012-05-16
 Action        : Discuss and resolve.
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0556.html
 Proposal_urls : 
 Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
 ----
+
+=== RESOLVED ===
+
+Further discussion revealed that, not only does Flexbox have the problem that its justify/align-* properties aren't necessarily tied to the logical directions (which makes the start/end/before/after keywords somewhat awkward).  So, some favored the start/start/end/end solution better.  Even worse, though, the flexbox's direction can be such that the "main-start" of the flexbox (flex-direction-relative) is actually the "logical-end" side of the Flexbox, so using start/end at all can be confusing.
+
+As such, it was resolved to introduce special flex-direction-relative keywords for flexbox.  The properties in question now accept flex-start/end as keywords.
+
+The Box Alignment spec will define that flex-start/end map to start/head or end/foot on non-flexboxes, and define start/end/head/foot as properly logical.
 
 === Background ===
 
