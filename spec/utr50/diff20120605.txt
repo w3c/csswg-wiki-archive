@@ -1,4 +1,8 @@
-Differences as of 6/5/2012
+===== Differences as of 6/5/2012 =====
+
+  * MVO = UTR#50 draft #5
+  * MVOms = Proposal from MS
+  * MSOcss = Current table as we have in this wiki
 
 ==== Basic Latin ====
 
