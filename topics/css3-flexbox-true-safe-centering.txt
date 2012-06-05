@@ -1,7 +1,7 @@
 ====== "Safe" or "True" Centering in Flexbox ======
 
 ---- dataentry  ----
-Spec_tags     : css3-flexbox, css3-align
+Spec_tags     : css3-align
 Owner_tags    : tabatkins, fantasai
 Status_tags   : Open, Urgent
 Added_dt      : 2012-05-16
@@ -20,8 +20,8 @@ Safe centering is "safe", and common.  However, there are good use-cases for "tr
 
 === Proposal(s) ===
 
-A. (Current draft) "Safe" center by default.  Authors can opt into true centering by adding the "true" keyword alongside their alignment value.
+A. (Current draft) "Safe" center by default.  Authors can opt into true centering by adding the "true" keyword alongside their alignment value. (This violates the current Flexbox draft behavior.)
 
-B. "True" center by default.  Authors can opt into safe centering by adding the "safe" keyword alongside their alignment value.
+B. "True" center by default.  Authors can opt into safe centering by adding the "safe" keyword alongside their alignment value. (This doesn't match how Block layout usually works.)
 
 C. Assuming the alignment property is generalized, make it default to centering being layout-mode defined.  Flexbox keeps its current behavior of "true" centering.
