@@ -3,7 +3,7 @@
 ---- dataentry ----
 Spec_tags     : css3-flexbox
 Owner_tags    : fantasai, tabatkins
-Status_tags   : Open, Urgent    # [ Open | Closed | Pending ] [, Urgent]?
+Status_tags   : Closed
 Added_dt      : 2012-05-21        # Date added as WG discussion request
 
 Action        : Approve spec'd behavior
@@ -12,6 +12,10 @@ Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0347.html
 Proposal_urls : 
 Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
 ----
+
+=== CLOSED ===
+
+This was never actually an issue.  It was brought up due to a misunderstanding.  All the editors agree, and have agreed for some time, about the effect and handling of auto margins on flex items, and the spec has been stable on this point for some time.
 
 === Background ===
 
