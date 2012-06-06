@@ -44,7 +44,7 @@ Letters and script-specific (non-Common) numbers are classified by using their s
 There are some exceptions:
 ^Code^Description^Char^Stack^Mix^Memo^
 |[[http://www.fileformat.info/info/unicode/char/30FC/index.htm|U+30FC]]|KATAKANA-HIRAGANA PROLONGED SOUND MARK|ー|T<sub>R</sub>|T<sub>R</sub>| |
-|[[http://www.fileformat.info/info/unicode/char/FF70/index.htm|U+FF70]]|HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK|ｰ|T<sub>R</sub>|R| |
+|[[http://www.fileformat.info/info/unicode/char/FF70/index.htm|U+FF70]]|HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK|ｰ|T<sub>R</sub>|R|:?: Halfwidth? |
 
 Some interesting cases:
 
