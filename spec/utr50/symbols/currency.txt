@@ -1,5 +1,7 @@
 ===== Symbol, Currency (Sc) by Codepoint =====
 
+Symbols without fullwidth variants can be either consistent with DOLLAR SIGN or FULLWIDTH DOLLAR SIGN. UTR50 seems to prefer upright, MS puts sideways by default.
+
 ^Code^Description^Char^Stack^Mix^Memo^
 |[[http://www.fileformat.info/info/unicode/char/0024/index.htm|U+0024]]|DOLLAR SIGN|''$''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/00A2/index.htm|U+00A2]]|CENT SIGN|''¢''|U|R|
@@ -24,7 +26,7 @@
 |[[http://www.fileformat.info/info/unicode/char/20A6/index.htm|U+20A6]]|NAIRA SIGN|''₦''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/20A7/index.htm|U+20A7]]|PESETA SIGN|''₧''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/20A8/index.htm|U+20A8]]|RUPEE SIGN|''₨''|U|R|
-|[[http://www.fileformat.info/info/unicode/char/20A9/index.htm|U+20A9]]|WON SIGN|''₩''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/20A9/index.htm|U+20A9]]|WON SIGN|''₩''|U|R|Has fullwidth equivalent.|
 |[[http://www.fileformat.info/info/unicode/char/20AA/index.htm|U+20AA]]|NEW SHEQEL SIGN|''₪''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/20AB/index.htm|U+20AB]]|DONG SIGN|''₫''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/20AC/index.htm|U+20AC]]|EURO SIGN|''€''|U|R|
