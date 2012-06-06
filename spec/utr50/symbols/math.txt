@@ -406,7 +406,7 @@ Symbols marked ":!: Relational operator" belong to the relational operator tailo
 ==== Miscellaneous Symbols ====
 
 ^Code^Description^Char^Stack^Mix^Memo^
-|[[http://www.fileformat.info/info/unicode/char/266F/index.htm|U+266F]]|MUSIC SHARP SIGN|''♯''|U|U|Match U+266D FLAT SIGN and others in [[music|musical symbols]]
+|[[http://www.fileformat.info/info/unicode/char/266F/index.htm|U+266F]]|MUSIC SHARP SIGN|''♯''|U|U|Match U+266D FLAT SIGN and others in [[music|musical symbols]]|
 
 ==== Miscellaneous Mathematical Symbols-A ====
 
