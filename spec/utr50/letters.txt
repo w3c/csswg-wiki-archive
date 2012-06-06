@@ -66,7 +66,7 @@ See also [[:spec:utr50:symbols:textual|Symbols from this block]] and [[:spec:utr
 |U+2110|SCRIPT CAPITAL I|ℐ|U|R|Part of mathematical script set|
 |U+2111|BLACK-LETTER CAPITAL I|ℑ|U|R|Match other math letters|
 |U+2112|SCRIPT CAPITAL L|ℒ|U|R|Part of mathematical script set|
-|U+2113|SCRIPT SMALL L|ℓ|U|R|EA compatibility unit is upright.|
+|U+2113|SCRIPT SMALL L|ℓ|U|U|EA compatibility unit is upright. Not unified with mathematical script l.|
 |U+2115|DOUBLE-STRUCK CAPITAL N|ℕ|U|R|Part of mathematical double-struck set|
 |U+2119|DOUBLE-STRUCK CAPITAL P|ℙ|U|R|Part of mathematical double-struck set|
 |U+211A|DOUBLE-STRUCK CAPITAL Q|ℚ|U|R|Part of mathematical double-struck set|
