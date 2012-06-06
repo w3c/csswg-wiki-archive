@@ -334,7 +334,7 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/2057/index.htm|U+2057]]|QUADRUPLE PRIME|⁗|U|R|
 |[[http://www.fileformat.info/info/unicode/char/2058/index.htm|U+2058]]|FOUR DOT PUNCTUATION|⁘|U|R|
 |[[http://www.fileformat.info/info/unicode/char/2059/index.htm|U+2059]]|FIVE DOT PUNCTUATION|⁙|U|R|
-|[[http://www.fileformat.info/info/unicode/char/205a/index.htm|U+205A]]|TWO DOT PUNCTUATION|⁚|U|R|
+|[[http://www.fileformat.info/info/unicode/char/205a/index.htm|U+205A]]|TWO DOT PUNCTUATION|⁚|U|R|See [[http://en.wikipedia.org/wiki/File:AdmiraltyArchLondonCloseup.jpg|picture]]|
 |[[http://www.fileformat.info/info/unicode/char/205b/index.htm|U+205B]]|FOUR DOT MARK|⁛|U|R|
 |[[http://www.fileformat.info/info/unicode/char/205c/index.htm|U+205C]]|DOTTED CROSS|⁜|U|R|
 |[[http://www.fileformat.info/info/unicode/char/205d/index.htm|U+205D]]|TRICOLON|⁝|U|R|
