@@ -15,4 +15,5 @@
 
   * Egyptian should all be U
   * Canadian Syllabics?
+  * Low lines in Pc, as well as DOUBLE LOW LINE
   * Musical symbols Cf should be R, not U, since they're connectors
