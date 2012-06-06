@@ -63,7 +63,7 @@ Symbols marked ":!: Relational operator" belong to the relational operator tailo
 ==== General Punctuation ====
 
 ^Code^Description^Char^Stack^Mix^Memo^
-|[[http://www.fileformat.info/info/unicode/char/2044/index.htm|U+2044]]|FRACTION SLASH|''⁄''|U|U|Fractions are upright|
+|[[http://www.fileformat.info/info/unicode/char/2044/index.htm|U+2044]]|FRACTION SLASH|''⁄''|U|R|:?: Precomposed fractions are upright|
 |[[http://www.fileformat.info/info/unicode/char/2052/index.htm|U+2052]]|COMMERCIAL MINUS SIGN|''⁒''|U|R|
 
 ==== Superscripts and Subscripts ====
