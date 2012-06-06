@@ -1,9 +1,10 @@
 ====== UTR50 List of Issues ======
 
   * Quotation marks MVO
+  * Halfwidth Kana Etc. as R
   * [[http://wiki.csswg.org/spec/utr50/symbols/math#halfwidth-and-fullwidth-forms|Fullwidth math symbols]] (and small)
   * [[http://wiki.csswg.org/spec/utr50/symbols/math|Math symbols]]
-  * [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=[%3AGeneral_Category%3D%2FLo|Ll|Lu%2F%3A]%26[%3AScript%3DCommon%3A]&g=|Math letters]]
+  * [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=[%3AGeneral_Category%3D%2FLo%7CLl%7CLu%2F%3A]%26[%3AScript%3DCommon%3A]&g=|Math letters]]
   * [[http://wiki.csswg.org/spec/utr50/symbols/currency|Currency symbols]]
   * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=314|FULLWIDTH HYPHEN-MINUS]]
   * Primes should be MVO=R
