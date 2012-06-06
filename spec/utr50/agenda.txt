@@ -8,7 +8,7 @@
   * Quotation marks =>[[http://www.unicode.org/forum/viewtopic.php?f=35&t=227&start=16|Unicode Forum]]
     * SVO should be Tu
     * U+30xx -> MVO=Tu
-    * U+20xx -> MVO=R?
+    * U+20xx -> MVO=R or Tu for Japanese, Tr or T for Chinese.
   * Halfwidth Kana Etc. as R =>[[http://www.unicode.org/forum/viewtopic.php?f=35&t=321|Unicode Forum]]
   * [[http://wiki.csswg.org/spec/utr50/symbols/currency|Currency symbols]]
   * Bullets should be MVO=R U+2022/2023
