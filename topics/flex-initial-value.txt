@@ -3,7 +3,7 @@
 ---- dataentry  ----
 Spec_tags     : css3-flexbox
 Owner_tags    : fantasai #Who's driving the discussion?
-Status_tags   : Open, Urgent #[ Open | Closed | Pending ] [, Urgent]?
+Status_tags   : Closed #[ Open | Closed | Pending ] [, Urgent]?
 Added_dt      : 2012-05-30 #Date added as WG discussion request
 Action        : Discuss and resolve.
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0753.html
