@@ -112,9 +112,9 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 24 unreftestable tests ====
+==== 27 unreftestable tests ====
 
-The following is a list of 24 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 27 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
@@ -163,6 +163,12 @@ The following is a list of 24 CSS2.1 tests that appear to be unreftestable:
 |[RC6] border-bottom-width-014]] **Reasons why**: 1pt is 1.33333px (3pt == 4px); so, it could be possible for a browser to resolve such value as 2px (round up) or as 1px (round down); so, this situation is impossible to predict, therefore impossible to reftest.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/border-bottom-width-092.htm
 |[RC6] border-bottom-width-092]] **Reasons why**: border-width: thin or border-width: medium or border-width: thick is impossible to reftest. It's all up to the UA to decide on such border-width.
+  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/line-height-122.htm
+|[nightly-unstable] line-height-122]] **Reasons why**: How much descent space (below baseline) is allocated depends entirely on the font chosen, the font used. So, in this test, it is impossible to calculate and predict the vertical height of the bright green line. With Ahem font, this would be computable and predictable.
+  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/line-height-123.htm
+|[nightly-unstable] line-height-123]] **Reasons why**: How much descent space (below baseline) is allocated depends entirely on the font chosen, the font used. So, in this test, it is impossible to calculate and predict the vertical height of the bright green line. With Ahem font, this would be computable and predictable.
+  - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/line-height-124.htm
+|[nightly-unstable] line-height-124]] **Reasons why**: How much descent space (below baseline) is allocated depends entirely on the font chosen, the font used. So, in this test, it is impossible to calculate and predict the vertical height of the bright green line. With Ahem font, this would be computable and predictable.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
 |[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty. I have now been able to create a reftest for such test.
