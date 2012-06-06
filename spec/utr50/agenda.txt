@@ -11,6 +11,7 @@
   * Geometric Shapes block (mixed Sm and So) should be U
   * [[http://wiki.csswg.org/spec/utr50/diff20120605#small-form-variants|Errors in small forms variants]]
   * [[http://wiki.csswg.org/spec/utr50/diff20120605#dingbats|Errors in dingbats]]
+  * [[http://wiki.csswg.org/spec/utr50/symbols/textual?&#letterlike-symbols|Letterlike Symbols]]
 
 === Lower Priority ===
 
