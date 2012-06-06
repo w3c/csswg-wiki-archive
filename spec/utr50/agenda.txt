@@ -8,8 +8,9 @@
   * [[http://wiki.csswg.org/spec/utr50/symbols/currency|Currency symbols]]
   * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=314|FULLWIDTH HYPHEN-MINUS]]
   * Primes and bullets should be MVO=R
+  * Geometric Shapes block (mixed Sm and So) should be U
   * [[http://wiki.csswg.org/spec/utr50/diff20120605#small-form-variants|Errors in small forms variants]]
-  * Geometric Shapes block (mixed Sm and So)
+  * [[http://wiki.csswg.org/spec/utr50/diff20120605#dingbats|Errors in dingbats]]
 
 === Lower Priority ===
 
