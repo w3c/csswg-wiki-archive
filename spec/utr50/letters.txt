@@ -74,7 +74,7 @@ See also [[:spec:utr50:symbols:textual|Symbols from this block]] and [[:spec:utr
 |U+211C|BLACK-LETTER CAPITAL R|ℜ|U|R|Match other math letters|
 |U+211D|DOUBLE-STRUCK CAPITAL R|ℝ|U|R|Part of mathematical double-struck set|
 |U+2124|DOUBLE-STRUCK CAPITAL Z|ℤ|U|R|Part of mathematical double-struck set|
-|U+2126|OHM SIGN|Ω|U|R|EA compatibility unit is upright. :!: NFC-folds to omega|
+|U+2126|OHM SIGN|Ω|U|U|EA compatibility unit is upright. :!: NFC-folds to omega|
 |U+2128|BLACK-LETTER CAPITAL Z|ℨ|U|R|Match other math letters|
 |U+212A|KELVIN SIGN|K|U|U|EA compatibility unit is upright. :!: NFC-folds to K|
 |U+212B|ANGSTROM SIGN|Å|U|U|EA compatibility unit is upright. :!: NFC-folds to Aring|
