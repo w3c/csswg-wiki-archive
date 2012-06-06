@@ -2,13 +2,13 @@
 
 ==== Higher Priority =====
 
+  * [[http://wiki.csswg.org/spec/utr50/symbols/math#halfwidth-and-fullwidth-forms|Fullwidth math symbols]] (and small) =>[[http://www.unicode.org/forum/viewtopic.php?f=35&t=315|U+FF1C/FF1D/FF1E at Unicode Forum]]
+  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=314|FULLWIDTH HYPHEN-MINUS]]
+  * Geometric Shapes block (mixed Sm and So) should be U
   * Quotation marks =>[[http://www.unicode.org/forum/viewtopic.php?f=35&t=227&start=16|Unicode Forum]]
     * SVO should be Tu
     * U+30xx -> MVO=Tu
     * U+20xx -> MVO=R?
-  * [[http://wiki.csswg.org/spec/utr50/symbols/math#halfwidth-and-fullwidth-forms|Fullwidth math symbols]] (and small) =>[[http://www.unicode.org/forum/viewtopic.php?f=35&t=315|U+FF1C/FF1D/FF1E at Unicode Forum]]
-  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=314|FULLWIDTH HYPHEN-MINUS]]
-  * Geometric Shapes block (mixed Sm and So) should be U
   * Primes and bullets should be MVO=R
   * Halfwidth Kana Etc. as R
   * [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=[%3AGeneral_Category%3D%2FLo%7CLl%7CLu%2F%3A]%26[%3AScript%3DCommon%3A]&g=|Math letters]]
