@@ -22,5 +22,7 @@ The behavior of "flex: 0 <length>;" changes - it can now shrink, where before it
 
 === Proposal(s) ===
 
-We propose to make an omitted flex-shrink default to 0 if the flex-grow is given as 0 in the flex shorthand.
+  ; Proposal A : flex-shrink always gets reset to 1, even if flex-grow is 0.
+  ; Proposal B : Make an omitted flex-shrink default to 0 if the flex-grow is given as 0 in the flex shorthand.
 
+This issue ties in with the [[flex-initial-value]], whose outcome may affect what's sensible here.
