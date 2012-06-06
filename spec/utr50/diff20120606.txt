@@ -1,6 +1,10 @@
 ===== Diff as of June 6th, 2012 =====
 
-===== By Blocks
+  * MVO = UTR#50 draft #5
+  * MS = Proposal from MS
+  * CSS = Current table as we have in this wiki
+
+===== By Blocks =====
 
 ==== Basic Latin ====
 
