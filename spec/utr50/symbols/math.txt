@@ -142,8 +142,8 @@ Symbols marked ":!: Relational operator" belong to the relational operator tailo
 |[[http://www.fileformat.info/info/unicode/char/2231/index.htm|U+2231]]|CLOCKWISE INTEGRAL|''∱''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/2232/index.htm|U+2232]]|CLOCKWISE CONTOUR INTEGRAL|''∲''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/2233/index.htm|U+2233]]|ANTICLOCKWISE CONTOUR INTEGRAL|''∳''|U|R|
-|[[http://www.fileformat.info/info/unicode/char/2234/index.htm|U+2234]]|THEREFORE|''∴''|U|R|
-|[[http://www.fileformat.info/info/unicode/char/2235/index.htm|U+2235]]|BECAUSE|''∵''|U|R|
+|[[http://www.fileformat.info/info/unicode/char/2234/index.htm|U+2234]]|THEREFORE|''∴''|U|R|:?: EAW=A and oftentimes used within regular text|
+|[[http://www.fileformat.info/info/unicode/char/2235/index.htm|U+2235]]|BECAUSE|''∵''|U|R|:?: EAW=A and oftentimes used within regular text|
 |[[http://www.fileformat.info/info/unicode/char/2236/index.htm|U+2236]]|RATIO|''∶''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/2237/index.htm|U+2237]]|PROPORTION|''∷''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/2238/index.htm|U+2238]]|DOT MINUS|''∸''|U|R|
@@ -346,7 +346,6 @@ Symbols marked ":!: Relational operator" belong to the relational operator tailo
 |[[http://www.fileformat.info/info/unicode/char/22FD/index.htm|U+22FD]]|CONTAINS WITH OVERBAR|''⋽''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/22FE/index.htm|U+22FE]]|SMALL CONTAINS WITH OVERBAR|''⋾''|U|R|
 |[[http://www.fileformat.info/info/unicode/char/22FF/index.htm|U+22FF]]|Z NOTATION BAG MEMBERSHIP|''⋿''|U|R|
-
 ==== Miscellaneous Technical ====
 
 ^Code^Description^Char^Stack^Mix^Memo^
