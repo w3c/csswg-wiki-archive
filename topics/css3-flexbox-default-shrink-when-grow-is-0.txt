@@ -1,13 +1,11 @@
 ====== Default for flex-shrink when flex-grow is 0 in the shorthand ======
 
----- dataentry ----
+---- dataentry  ----
 Spec_tags     : css3-flexbox
 Owner_tags    : tabatkins
-Status_tags   : Open, Urgent
+Status_tags   : Closed
 Added_dt      : 2012-05-17
-
 Action        : Approve the proposal?
-
 Issue_urls    : 
 Proposal_urls : 
 ----
