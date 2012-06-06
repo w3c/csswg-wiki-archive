@@ -7,7 +7,7 @@
   * [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=[%3AGeneral_Category%3D%2FLo%7CLl%7CLu%2F%3A]%26[%3AScript%3DCommon%3A]&g=|Math letters]]
   * [[http://wiki.csswg.org/spec/utr50/symbols/currency|Currency symbols]]
   * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=314|FULLWIDTH HYPHEN-MINUS]]
-  * Primes should be MVO=R
+  * Primes and bullets should be MVO=R
   * [[http://wiki.csswg.org/spec/utr50/diff20120605#small-form-variants|Errors in small forms variants]]
   * Geometric Shapes block (mixed Sm and So)
 
@@ -16,4 +16,5 @@
   * [[http://wiki.csswg.org/spec/utr50/diff20120605#spacing-modifier-letters|Spacing modifier letters]], most should be U/R, since used with Latin and variations thereupon
   * Egyptian should all be U
   * Canadian Syllabics?
+  * Fraction slash -- shouldn't it be U, since fractions are all U?
   * Musical symbols Cf should be R, not U, since they're connectors
