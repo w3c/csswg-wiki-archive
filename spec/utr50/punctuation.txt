@@ -291,7 +291,7 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/00b6/index.htm|U+00B6]]|PILCROW SIGN|¶|U|U|
 |[[http://www.fileformat.info/info/unicode/char/00b7/index.htm|U+00B7]]|MIDDLE DOT|·|U|R|:?: Ambiguous. Used in Chinese. But glyph is symmetric.
 |[[http://www.fileformat.info/info/unicode/char/00bf/index.htm|U+00BF]]|INVERTED QUESTION MARK|¿|U|R|
-|[[http://www.fileformat.info/info/unicode/char/2016/index.htm|U+2016]]|DOUBLE VERTICAL LINE|‖|T<sub>R</sub>|T<sub>R</sub>|:?: Most modern fonts have rotated vert, but JIS0213 doesn't define vert glyph|
+|[[http://www.fileformat.info/info/unicode/char/2016/index.htm|U+2016]]|DOUBLE VERTICAL LINE|‖|U|U|:?: Most modern fonts have rotated vert, but JIS0213 doesn't define vert glyph|
 |[[http://www.fileformat.info/info/unicode/char/2017/index.htm|U+2017]]|DOUBLE LOW LINE|‗|U|R|Match LOW LINE?|
 |[[http://www.fileformat.info/info/unicode/char/2020/index.htm|U+2020]]|DAGGER|†|U|U|
 |[[http://www.fileformat.info/info/unicode/char/2021/index.htm|U+2021]]|DOUBLE DAGGER|‡|U|U|
