@@ -3,7 +3,7 @@
 ---- dataentry ----
 Spec_tags     : css3-flexbox
 Owner_tags    : tabatkins
-Status_tags   : Open, Urgent
+Status_tags   : Closed
 Added_dt      : 2012-05-17
 
 Action        : Approve the proposal?
@@ -11,6 +11,10 @@ Action        : Approve the proposal?
 Issue_urls    : 
 Proposal_urls : 
 ----
+
+=== CLOSED ===
+
+In the absence of consensus and the presence of some reasonably strong objections, proposal B has been reverted from the draft.  We've instead stuck with proposal A, and added additional text properly specifying the necessary details.
 
 === Background ===
 
