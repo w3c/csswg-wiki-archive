@@ -11,7 +11,8 @@
     * U+20xx -> MVO=R?
   * Halfwidth Kana Etc. as R
   * [[http://wiki.csswg.org/spec/utr50/symbols/currency|Currency symbols]]
-  * Primes and bullets should be MVO=R
+  * Bullets should be MVO=R U+2022/2023
+  * Primes should be MVO=R
   * [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=[%3AGeneral_Category%3D%2FLo%7CLl%7CLu%2F%3A]%26[%3AScript%3DCommon%3A]&g=|Math letters]]
   * [[http://wiki.csswg.org/spec/utr50/symbols/math|Math symbols]]
   * [[http://wiki.csswg.org/spec/utr50/diff20120605#small-form-variants|Errors in small forms variants]]
