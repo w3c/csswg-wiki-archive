@@ -35,9 +35,9 @@ Two modes are presented: Stacking (''text-orientation: upright'') and Default (T
 |[[http://www.fileformat.info/info/unicode/char/2122/index.htm|U+2122]]|TRADE MARK SIGN|''™''|U|U|Consistent with ®|
 |[[http://www.fileformat.info/info/unicode/char/2123/index.htm|U+2123]]|VERSICLE|''℣''|U|U|[[http://forum.makemusic.com/default.aspx?f=5&m=326894|Musical symbol]]|
 |[[http://www.fileformat.info/info/unicode/char/2125/index.htm|U+2125]]|OUNCE SIGN|''℥''|U|R|[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]], keep consistent with digits and Ʒ|
-|[[http://www.fileformat.info/info/unicode/char/2127/index.htm|U+2127]]|INVERTED OHM SIGN|''℧''|U|:?:|Used for inverse of ohm. Keep consistent with U+2126|
+|[[http://www.fileformat.info/info/unicode/char/2127/index.htm|U+2127]]|INVERTED OHM SIGN|''℧''|U|U|Used for inverse of ohm. Keep consistent with U+2126|
 |[[http://www.fileformat.info/info/unicode/char/2129/index.htm|U+2129]]|TURNED GREEK SMALL LETTER IOTA|''℩''|U|R|Logic symbol, match math.|
-|[[http://www.fileformat.info/info/unicode/char/212E/index.htm|U+212E]]|ESTIMATED SYMBOL|''℮''|U|:?:|[[http://www.evertype.com/standards/euro/estimated/|used with package labelling]]|
+|[[http://www.fileformat.info/info/unicode/char/212E/index.htm|U+212E]]|ESTIMATED SYMBOL|''℮''|U|U|[[http://www.evertype.com/standards/euro/estimated/|used with package labelling]]|
 |[[http://www.fileformat.info/info/unicode/char/213A/index.htm|U+213A]]|ROTATED CAPITAL Q|''℺''|U|U|[[http://blogs.msdn.com/b/michkap/archive/2005/01/10/349769.aspx|binding mark]], keep consistent with symbols U+203B, U+2720, U+2767|
 |[[http://www.fileformat.info/info/unicode/char/213B/index.htm|U+213B]]|FACSIMILE SIGN|''℻''|U|U|Symbol; sensible to be upright|
 |[[http://www.fileformat.info/info/unicode/char/214A/index.htm|U+214A]]|PROPERTY LINE|''⅊''|U|U|Architectural symbol?|
