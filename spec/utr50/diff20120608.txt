@@ -92,8 +92,6 @@
 |  ...  ||||||||
 |[[http://www.fileformat.info/info/unicode/char/A500/index.htm|U+A500]]|ꔀ|VAI SYLLABLE EE|Vai|R|U|R||
 |  ...  ||||||||
-|[[http://www.fileformat.info/info/unicode/char/A840/index.htm|U+A840]]|ꡀ|PHAGS-PA LETTER KA|Phags-pa|R|R|V||
-|  ...  ||||||||
 |[[http://www.fileformat.info/info/unicode/char/10000/index.htm|U+10000]]|𐀀|LINEAR B SYLLABLE B008 A|Linear B Syllabary|R|U|R||
 |  ...  ||||||||
 |[[http://www.fileformat.info/info/unicode/char/10080/index.htm|U+10080]]|𐂀|LINEAR B IDEOGRAM B100 MAN|Linear B Ideograms|R|U|R||
@@ -288,8 +286,6 @@
 |[[http://www.fileformat.info/info/unicode/char/A4FE/index.htm|U+A4FE]]|꓾|LISU PUNCTUATION COMMA|Lisu|R|U|R||
 |  ...  ||||||||
 |[[http://www.fileformat.info/info/unicode/char/A60D/index.htm|U+A60D]]|꘍|VAI COMMA|Vai|R|U|R||
-|  ...  ||||||||
-|[[http://www.fileformat.info/info/unicode/char/A874/index.htm|U+A874]]|꡴|PHAGS-PA SINGLE HEAD MARK|Phags-pa|R|R|V|Match Phags-pa letters|
 |  ...  ||||||||
 |[[http://www.fileformat.info/info/unicode/char/FE54/index.htm|U+FE54]]|﹔|SMALL SEMICOLON|Small Form Variants|U|R|Tu|Small semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
 |[[http://www.fileformat.info/info/unicode/char/FE55/index.htm|U+FE55]]|﹕|SMALL COLON|Small Form Variants|U|R|Tu|Small colons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
