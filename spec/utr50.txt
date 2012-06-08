@@ -30,7 +30,7 @@ Potential categories to support special behavior:
   * SB brackets
 
 Comparisons:
-  * [[spec:utr50:diff20120606|Differences against the current draft as of June 6, 2012]]
+  * [[spec:utr50:diff20120608|Differences against the current draft]]
 ===== General =====
   * [[http://www.unicode.org/review/pri207/|PRI #207]] review period ends on Oct 24th, 2011 --- way too short
   * Eric mentioned that [[http://www.unicode.org/forum/viewtopic.php?f=35&t=201|UTR #50 is for Japanese text and should define Hangul orientation that appears in Japanese text, rather than Hangul native orientation]]. Our goal of "upright-right" is a good vertical text flow for East Asian. Are we seeing things differently?
