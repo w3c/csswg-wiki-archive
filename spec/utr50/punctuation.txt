@@ -58,7 +58,7 @@ See [[http://www.unicode.org/mail-arch/unicode-ml/y2012-m03/0065.html|Ken Whistl
 |[[http://www.fileformat.info/info/unicode/char/fe32/index.htm|U+FE32]]|PRESENTATION FORM FOR VERTICAL EN DASH|︲|U|U|Vertical presentation forms are always upright|
 |[[http://www.fileformat.info/info/unicode/char/fe58/index.htm|U+FE58]]|SMALL EM DASH|﹘|R|R|Dashes are always sideways|
 |[[http://www.fileformat.info/info/unicode/char/ff5e/index.htm|U+FF5E]]|FULLWIDTH TILDE|～|T|T|:!: Dashes are sideways, and [[http://en.wikipedia.org/wiki/Tilde#Unicode_and_Shift_JIS_encoding_of_wave_dash|this is considered equivalent to WAVE DASH U+301C]] even though it's technically a Math Symbol (Sm) fullwidth variant of U+007E|
-|[[http://www.fileformat.info/info/unicode/char/fe63/index.htm|U+FE63]]|SMALL HYPHEN-MINUS|﹣|U|U|Match fullwidth variant|
+|[[http://www.fileformat.info/info/unicode/char/fe63/index.htm|U+FE63]]|SMALL HYPHEN-MINUS|﹣|R|R|Match fullwidth variant|
 |[[http://www.fileformat.info/info/unicode/char/ff0d/index.htm|U+FF0D]]|FULLWIDTH HYPHEN-MINUS|－|R|R|Used as dash|
 
 ===== Enclosing Punctuation =====
