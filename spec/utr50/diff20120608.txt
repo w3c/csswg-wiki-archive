@@ -933,14 +933,6 @@
 |[[http://www.fileformat.info/info/unicode/char/A837/index.htm|U+A837]]|꠷|NORTH INDIC PLACEHOLDER MARK|So|R|U|R||
 |[[http://www.fileformat.info/info/unicode/char/A839/index.htm|U+A839]]|꠹|NORTH INDIC QUANTITY MARK|So|R|U|R||
 
-==== Phags-pa ====
-
-^Unicode^Char^Name^Cat^MVO^MS^CSS^CSSnote^
-|[[http://www.fileformat.info/info/unicode/char/A840/index.htm|U+A840]]|ꡀ|PHAGS-PA LETTER KA|Lo|R|R|V||
-|  ...  ||||||||
-|[[http://www.fileformat.info/info/unicode/char/A874/index.htm|U+A874]]|꡴|PHAGS-PA SINGLE HEAD MARK|Po|R|R|V|Match Phags-pa letters|
-|  ...  ||||||||
-
 ==== High Surrogates ====
 
 ^Unicode^Char^Name^Cat^MVO^MS^CSS^CSSnote^
