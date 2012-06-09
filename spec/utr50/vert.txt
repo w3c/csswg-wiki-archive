@@ -34,110 +34,104 @@
   * [[http://en.wikipedia.org/wiki/List_of_Microsoft_Windows_fonts|Full list of Windows standard fonts is available in wikipedia]]
 ===== Filtered by where MVO=T* =====
 
-==== T ====
-
-^Unicode^Char^Name^Block^Cat^MS^CSS^vert^
-|[[http://www.fileformat.info/info/unicode/char/02018/index.htm|U+2018]]|‘|LEFT SINGLE QUOTATION MARK|General Punctuation|Pi|R|R|VVVHHH|
-|[[http://www.fileformat.info/info/unicode/char/02019/index.htm|U+2019]]|’|RIGHT SINGLE QUOTATION MARK|General Punctuation|Pf|R|R|VHVHHH|
-
 ==== Tr ====
 
 ^Unicode^Char^Name^Block^Cat^MS^CSS^vert^
-|[[http://www.fileformat.info/info/unicode/char/03008/index.htm|U+3008]]|〈|LEFT ANGLE BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03009/index.htm|U+3009]]|〉|RIGHT ANGLE BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0300A/index.htm|U+300A]]|《|LEFT DOUBLE ANGLE BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0300B/index.htm|U+300B]]|》|RIGHT DOUBLE ANGLE BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0300C/index.htm|U+300C]]|「|LEFT CORNER BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0300D/index.htm|U+300D]]|」|RIGHT CORNER BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0300E/index.htm|U+300E]]|『|LEFT WHITE CORNER BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0300F/index.htm|U+300F]]|』|RIGHT WHITE CORNER BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03010/index.htm|U+3010]]|【|LEFT BLACK LENTICULAR BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03011/index.htm|U+3011]]|】|RIGHT BLACK LENTICULAR BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03014/index.htm|U+3014]]|〔|LEFT TORTOISE SHELL BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03015/index.htm|U+3015]]|〕|RIGHT TORTOISE SHELL BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03016/index.htm|U+3016]]|〖|LEFT WHITE LENTICULAR BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVV-VV|
-|[[http://www.fileformat.info/info/unicode/char/03017/index.htm|U+3017]]|〗|RIGHT WHITE LENTICULAR BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVV-VV|
-|[[http://www.fileformat.info/info/unicode/char/03018/index.htm|U+3018]]|〘|LEFT WHITE TORTOISE SHELL BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VV-VVV|
-|[[http://www.fileformat.info/info/unicode/char/03019/index.htm|U+3019]]|〙|RIGHT WHITE TORTOISE SHELL BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VV-VVV|
-|[[http://www.fileformat.info/info/unicode/char/0301A/index.htm|U+301A]]|〚|LEFT WHITE SQUARE BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VH|
-|[[http://www.fileformat.info/info/unicode/char/0301B/index.htm|U+301B]]|〛|RIGHT WHITE SQUARE BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VH|
-|[[http://www.fileformat.info/info/unicode/char/0301C/index.htm|U+301C]]|〜|WAVE DASH|CJK Symbols and Punctuation|Pd|TR|Tr|VV-VVV|
-|[[http://www.fileformat.info/info/unicode/char/0301D/index.htm|U+301D]]|〝|REVERSED DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Ps|TR|Tu|VVHVVV|
-|[[http://www.fileformat.info/info/unicode/char/0301E/index.htm|U+301E]]|〞|DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Pe|TR|Tu|VHH|
-|[[http://www.fileformat.info/info/unicode/char/0301F/index.htm|U+301F]]|〟|LOW DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Pe|TR|Tu|VV-VVV|
-|[[http://www.fileformat.info/info/unicode/char/03030/index.htm|U+3030]]|〰|WAVY DASH|CJK Symbols and Punctuation|Pd|TR|Tr|VH-HHH|
-|[[http://www.fileformat.info/info/unicode/char/030A0/index.htm|U+30A0]]|゠|KATAKANA-HIRAGANA DOUBLE HYPHEN|Katakana|Pd|TR|Tr|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/030FC/index.htm|U+30FC]]|ー|KATAKANA-HIRAGANA PROLONGED SOUND MARK|Katakana|Lm|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FE59/index.htm|U+FE59]]|﹙|SMALL LEFT PARENTHESIS|Small Form Variants|Ps|Tr|R|--H|
-|[[http://www.fileformat.info/info/unicode/char/0FE5A/index.htm|U+FE5A]]|﹚|SMALL RIGHT PARENTHESIS|Small Form Variants|Pe|Tr|R|--H|
-|[[http://www.fileformat.info/info/unicode/char/0FE5B/index.htm|U+FE5B]]|﹛|SMALL LEFT CURLY BRACKET|Small Form Variants|Ps|Tr|R|--H|
-|[[http://www.fileformat.info/info/unicode/char/0FE5C/index.htm|U+FE5C]]|﹜|SMALL RIGHT CURLY BRACKET|Small Form Variants|Pe|Tr|R|--H|
-|[[http://www.fileformat.info/info/unicode/char/0FE5D/index.htm|U+FE5D]]|﹝|SMALL LEFT TORTOISE SHELL BRACKET|Small Form Variants|Ps|Tr|R|--H|
-|[[http://www.fileformat.info/info/unicode/char/0FE5E/index.htm|U+FE5E]]|﹞|SMALL RIGHT TORTOISE SHELL BRACKET|Small Form Variants|Pe|Tr|R|--H|
-|[[http://www.fileformat.info/info/unicode/char/0FF08/index.htm|U+FF08]]|（|FULLWIDTH LEFT PARENTHESIS|Halfwidth and Fullwidth Forms|Ps|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF09/index.htm|U+FF09]]|）|FULLWIDTH RIGHT PARENTHESIS|Halfwidth and Fullwidth Forms|Pe|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF1A/index.htm|U+FF1A]]|：|FULLWIDTH COLON|Halfwidth and Fullwidth Forms|Po|TR|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF1B/index.htm|U+FF1B]]|；|FULLWIDTH SEMICOLON|Halfwidth and Fullwidth Forms|Po|TR|Tu|HHVHHH|
-|[[http://www.fileformat.info/info/unicode/char/0FF3B/index.htm|U+FF3B]]|［|FULLWIDTH LEFT SQUARE BRACKET|Halfwidth and Fullwidth Forms|Ps|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF3D/index.htm|U+FF3D]]|］|FULLWIDTH RIGHT SQUARE BRACKET|Halfwidth and Fullwidth Forms|Pe|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF3F/index.htm|U+FF3F]]|＿|FULLWIDTH LOW LINE|Halfwidth and Fullwidth Forms|Pc|TR|R|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF5B/index.htm|U+FF5B]]|｛|FULLWIDTH LEFT CURLY BRACKET|Halfwidth and Fullwidth Forms|Ps|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF5C/index.htm|U+FF5C]]|｜|FULLWIDTH VERTICAL LINE|Halfwidth and Fullwidth Forms|Sm|TR|Tr|VVHVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF5D/index.htm|U+FF5D]]|｝|FULLWIDTH RIGHT CURLY BRACKET|Halfwidth and Fullwidth Forms|Pe|TR|Tr|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF5E/index.htm|U+FF5E]]|～|FULLWIDTH TILDE|Halfwidth and Fullwidth Forms|Sm|TR|T|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF5F/index.htm|U+FF5F]]|｟|FULLWIDTH LEFT WHITE PARENTHESIS|Halfwidth and Fullwidth Forms|Ps|TR|Tr|VV-VVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF60/index.htm|U+FF60]]|｠|FULLWIDTH RIGHT WHITE PARENTHESIS|Halfwidth and Fullwidth Forms|Pe|TR|Tr|VV-VVV|
-|[[http://www.fileformat.info/info/unicode/char/0FFE3/index.htm|U+FFE3]]|￣|FULLWIDTH MACRON|Halfwidth and Fullwidth Forms|Sk|TR|Tr|VVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03008/index.htm|U+3008]]|〈|LEFT ANGLE BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03009/index.htm|U+3009]]|〉|RIGHT ANGLE BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0300A/index.htm|U+300A]]|《|LEFT DOUBLE ANGLE BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0300B/index.htm|U+300B]]|》|RIGHT DOUBLE ANGLE BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0300C/index.htm|U+300C]]|「|LEFT CORNER BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0300D/index.htm|U+300D]]|」|RIGHT CORNER BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0300E/index.htm|U+300E]]|『|LEFT WHITE CORNER BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0300F/index.htm|U+300F]]|』|RIGHT WHITE CORNER BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03010/index.htm|U+3010]]|【|LEFT BLACK LENTICULAR BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03011/index.htm|U+3011]]|】|RIGHT BLACK LENTICULAR BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03014/index.htm|U+3014]]|〔|LEFT TORTOISE SHELL BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03015/index.htm|U+3015]]|〕|RIGHT TORTOISE SHELL BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03016/index.htm|U+3016]]|〖|LEFT WHITE LENTICULAR BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VVV-VVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03017/index.htm|U+3017]]|〗|RIGHT WHITE LENTICULAR BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VVV-VVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03018/index.htm|U+3018]]|〘|LEFT WHITE TORTOISE SHELL BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VV-VVV-VV|
+|[[http://www.fileformat.info/info/unicode/char/03019/index.htm|U+3019]]|〙|RIGHT WHITE TORTOISE SHELL BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VV-VVV-VV|
+|[[http://www.fileformat.info/info/unicode/char/0301A/index.htm|U+301A]]|〚|LEFT WHITE SQUARE BRACKET|CJK Symbols and Punctuation|Ps|TR|Tr|VH-----VV|
+|[[http://www.fileformat.info/info/unicode/char/0301B/index.htm|U+301B]]|〛|RIGHT WHITE SQUARE BRACKET|CJK Symbols and Punctuation|Pe|TR|Tr|VH-----VV|
+|[[http://www.fileformat.info/info/unicode/char/0301C/index.htm|U+301C]]|〜|WAVE DASH|CJK Symbols and Punctuation|Pd|TR|Tr|VV-VVV-VH|
+|[[http://www.fileformat.info/info/unicode/char/0301D/index.htm|U+301D]]|〝|REVERSED DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Ps|TR|Tu|VVHVVVHVH|
+|[[http://www.fileformat.info/info/unicode/char/0301E/index.htm|U+301E]]|〞|DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Pe|TR|Tu|VHH---HVH|
+|[[http://www.fileformat.info/info/unicode/char/0301F/index.htm|U+301F]]|〟|LOW DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Pe|TR|Tu|VV-VVV-HH|
+|[[http://www.fileformat.info/info/unicode/char/03030/index.htm|U+3030]]|〰|WAVY DASH|CJK Symbols and Punctuation|Pd|TR|Tr|VH-HHH-HH|
+|[[http://www.fileformat.info/info/unicode/char/030A0/index.htm|U+30A0]]|゠|KATAKANA-HIRAGANA DOUBLE HYPHEN|Katakana|Pd|TR|Tr|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/030FC/index.htm|U+30FC]]|ー|KATAKANA-HIRAGANA PROLONGED SOUND MARK|Katakana|Lm|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FE59/index.htm|U+FE59]]|﹙|SMALL LEFT PARENTHESIS|Small Form Variants|Ps|Tr|R|--H---HVH|
+|[[http://www.fileformat.info/info/unicode/char/0FE5A/index.htm|U+FE5A]]|﹚|SMALL RIGHT PARENTHESIS|Small Form Variants|Pe|Tr|R|--H---HVH|
+|[[http://www.fileformat.info/info/unicode/char/0FE5B/index.htm|U+FE5B]]|﹛|SMALL LEFT CURLY BRACKET|Small Form Variants|Ps|Tr|R|--H---HVH|
+|[[http://www.fileformat.info/info/unicode/char/0FE5C/index.htm|U+FE5C]]|﹜|SMALL RIGHT CURLY BRACKET|Small Form Variants|Pe|Tr|R|--H---HVH|
+|[[http://www.fileformat.info/info/unicode/char/0FE5D/index.htm|U+FE5D]]|﹝|SMALL LEFT TORTOISE SHELL BRACKET|Small Form Variants|Ps|Tr|R|--H---HVH|
+|[[http://www.fileformat.info/info/unicode/char/0FE5E/index.htm|U+FE5E]]|﹞|SMALL RIGHT TORTOISE SHELL BRACKET|Small Form Variants|Pe|Tr|R|--H---HVH|
+|[[http://www.fileformat.info/info/unicode/char/0FF08/index.htm|U+FF08]]|（|FULLWIDTH LEFT PARENTHESIS|Halfwidth and Fullwidth Forms|Ps|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FF09/index.htm|U+FF09]]|）|FULLWIDTH RIGHT PARENTHESIS|Halfwidth and Fullwidth Forms|Pe|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FF1A/index.htm|U+FF1A]]|：|FULLWIDTH COLON|Halfwidth and Fullwidth Forms|Po|TR|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FF1B/index.htm|U+FF1B]]|；|FULLWIDTH SEMICOLON|Halfwidth and Fullwidth Forms|Po|TR|Tu|HHVHHHVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FF3B/index.htm|U+FF3B]]|［|FULLWIDTH LEFT SQUARE BRACKET|Halfwidth and Fullwidth Forms|Ps|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FF3D/index.htm|U+FF3D]]|］|FULLWIDTH RIGHT SQUARE BRACKET|Halfwidth and Fullwidth Forms|Pe|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FF3F/index.htm|U+FF3F]]|＿|FULLWIDTH LOW LINE|Halfwidth and Fullwidth Forms|Pc|TR|R|VVVVVVVHV|
+|[[http://www.fileformat.info/info/unicode/char/0FF5B/index.htm|U+FF5B]]|｛|FULLWIDTH LEFT CURLY BRACKET|Halfwidth and Fullwidth Forms|Ps|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FF5C/index.htm|U+FF5C]]|｜|FULLWIDTH VERTICAL LINE|Halfwidth and Fullwidth Forms|Sm|TR|Tr|VVHVVVVHH|
+|[[http://www.fileformat.info/info/unicode/char/0FF5D/index.htm|U+FF5D]]|｝|FULLWIDTH RIGHT CURLY BRACKET|Halfwidth and Fullwidth Forms|Pe|TR|Tr|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FF5E/index.htm|U+FF5E]]|～|FULLWIDTH TILDE|Halfwidth and Fullwidth Forms|Sm|TR|T|VVVVVVVHV|
+|[[http://www.fileformat.info/info/unicode/char/0FF5F/index.htm|U+FF5F]]|｟|FULLWIDTH LEFT WHITE PARENTHESIS|Halfwidth and Fullwidth Forms|Ps|TR|Tr|VV-VVV-HH|
+|[[http://www.fileformat.info/info/unicode/char/0FF60/index.htm|U+FF60]]|｠|FULLWIDTH RIGHT WHITE PARENTHESIS|Halfwidth and Fullwidth Forms|Pe|TR|Tr|VV-VVV-HH|
+|[[http://www.fileformat.info/info/unicode/char/0FFE3/index.htm|U+FFE3]]|￣|FULLWIDTH MACRON|Halfwidth and Fullwidth Forms|Sk|TR|Tr|VVVVVVVHH|
 
 ==== Tu ====
 
 ^Unicode^Char^Name^Block^Cat^MS^CSS^vert^
-|[[http://www.fileformat.info/info/unicode/char/03001/index.htm|U+3001]]|、|IDEOGRAPHIC COMMA|CJK Symbols and Punctuation|Po|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03002/index.htm|U+3002]]|。|IDEOGRAPHIC FULL STOP|CJK Symbols and Punctuation|Po|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03041/index.htm|U+3041]]|ぁ|HIRAGANA LETTER SMALL A|Hiragana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03043/index.htm|U+3043]]|ぃ|HIRAGANA LETTER SMALL I|Hiragana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03045/index.htm|U+3045]]|ぅ|HIRAGANA LETTER SMALL U|Hiragana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03047/index.htm|U+3047]]|ぇ|HIRAGANA LETTER SMALL E|Hiragana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03049/index.htm|U+3049]]|ぉ|HIRAGANA LETTER SMALL O|Hiragana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03063/index.htm|U+3063]]|っ|HIRAGANA LETTER SMALL TU|Hiragana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03083/index.htm|U+3083]]|ゃ|HIRAGANA LETTER SMALL YA|Hiragana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03085/index.htm|U+3085]]|ゅ|HIRAGANA LETTER SMALL YU|Hiragana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03087/index.htm|U+3087]]|ょ|HIRAGANA LETTER SMALL YO|Hiragana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0308E/index.htm|U+308E]]|ゎ|HIRAGANA LETTER SMALL WA|Hiragana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/03095/index.htm|U+3095]]|ゕ|HIRAGANA LETTER SMALL KA|Hiragana|Lo|TU|Tu|VVHVVV|
-|[[http://www.fileformat.info/info/unicode/char/03096/index.htm|U+3096]]|ゖ|HIRAGANA LETTER SMALL KE|Hiragana|Lo|TU|Tu|VVHVVV|
-|[[http://www.fileformat.info/info/unicode/char/0309B/index.htm|U+309B]]|゛|KATAKANA-HIRAGANA VOICED SOUND MARK|Hiragana|Sk|TU|Tu|HVHVVV|
-|[[http://www.fileformat.info/info/unicode/char/0309C/index.htm|U+309C]]|゜|KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK|Hiragana|Sk|TU|Tu|HVHVVV|
-|[[http://www.fileformat.info/info/unicode/char/0309D/index.htm|U+309D]]|ゝ|HIRAGANA ITERATION MARK|Hiragana|Lm|TU|Tu|HHHHHH|
-|[[http://www.fileformat.info/info/unicode/char/0309E/index.htm|U+309E]]|ゞ|HIRAGANA VOICED ITERATION MARK|Hiragana|Lm|TU|Tu|HHHHHH|
-|[[http://www.fileformat.info/info/unicode/char/030A1/index.htm|U+30A1]]|ァ|KATAKANA LETTER SMALL A|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/030A3/index.htm|U+30A3]]|ィ|KATAKANA LETTER SMALL I|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/030A5/index.htm|U+30A5]]|ゥ|KATAKANA LETTER SMALL U|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/030A7/index.htm|U+30A7]]|ェ|KATAKANA LETTER SMALL E|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/030A9/index.htm|U+30A9]]|ォ|KATAKANA LETTER SMALL O|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/030C3/index.htm|U+30C3]]|ッ|KATAKANA LETTER SMALL TU|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/030E3/index.htm|U+30E3]]|ャ|KATAKANA LETTER SMALL YA|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/030E5/index.htm|U+30E5]]|ュ|KATAKANA LETTER SMALL YU|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/030E7/index.htm|U+30E7]]|ョ|KATAKANA LETTER SMALL YO|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/030EE/index.htm|U+30EE]]|ヮ|KATAKANA LETTER SMALL WA|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/030F5/index.htm|U+30F5]]|ヵ|KATAKANA LETTER SMALL KA|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/030F6/index.htm|U+30F6]]|ヶ|KATAKANA LETTER SMALL KE|Katakana|Lo|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/031F0/index.htm|U+31F0]]|ㇰ|KATAKANA LETTER SMALL KU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031F1/index.htm|U+31F1]]|ㇱ|KATAKANA LETTER SMALL SI|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031F2/index.htm|U+31F2]]|ㇲ|KATAKANA LETTER SMALL SU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031F3/index.htm|U+31F3]]|ㇳ|KATAKANA LETTER SMALL TO|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031F4/index.htm|U+31F4]]|ㇴ|KATAKANA LETTER SMALL NU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031F5/index.htm|U+31F5]]|ㇵ|KATAKANA LETTER SMALL HA|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031F6/index.htm|U+31F6]]|ㇶ|KATAKANA LETTER SMALL HI|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031F7/index.htm|U+31F7]]|ㇷ|KATAKANA LETTER SMALL HU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031F8/index.htm|U+31F8]]|ㇸ|KATAKANA LETTER SMALL HE|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031F9/index.htm|U+31F9]]|ㇹ|KATAKANA LETTER SMALL HO|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031FA/index.htm|U+31FA]]|ㇺ|KATAKANA LETTER SMALL MU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031FB/index.htm|U+31FB]]|ㇻ|KATAKANA LETTER SMALL RA|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031FC/index.htm|U+31FC]]|ㇼ|KATAKANA LETTER SMALL RI|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031FD/index.htm|U+31FD]]|ㇽ|KATAKANA LETTER SMALL RU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031FE/index.htm|U+31FE]]|ㇾ|KATAKANA LETTER SMALL RE|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
-|[[http://www.fileformat.info/info/unicode/char/031FF/index.htm|U+31FF]]|ㇿ|KATAKANA LETTER SMALL RO|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV|
+|[[http://www.fileformat.info/info/unicode/char/03001/index.htm|U+3001]]|、|IDEOGRAPHIC COMMA|CJK Symbols and Punctuation|Po|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03002/index.htm|U+3002]]|。|IDEOGRAPHIC FULL STOP|CJK Symbols and Punctuation|Po|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03041/index.htm|U+3041]]|ぁ|HIRAGANA LETTER SMALL A|Hiragana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03043/index.htm|U+3043]]|ぃ|HIRAGANA LETTER SMALL I|Hiragana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03045/index.htm|U+3045]]|ぅ|HIRAGANA LETTER SMALL U|Hiragana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03047/index.htm|U+3047]]|ぇ|HIRAGANA LETTER SMALL E|Hiragana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03049/index.htm|U+3049]]|ぉ|HIRAGANA LETTER SMALL O|Hiragana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03063/index.htm|U+3063]]|っ|HIRAGANA LETTER SMALL TU|Hiragana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03083/index.htm|U+3083]]|ゃ|HIRAGANA LETTER SMALL YA|Hiragana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03085/index.htm|U+3085]]|ゅ|HIRAGANA LETTER SMALL YU|Hiragana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03087/index.htm|U+3087]]|ょ|HIRAGANA LETTER SMALL YO|Hiragana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0308E/index.htm|U+308E]]|ゎ|HIRAGANA LETTER SMALL WA|Hiragana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/03095/index.htm|U+3095]]|ゕ|HIRAGANA LETTER SMALL KA|Hiragana|Lo|TU|Tu|VVHVVV-VV|
+|[[http://www.fileformat.info/info/unicode/char/03096/index.htm|U+3096]]|ゖ|HIRAGANA LETTER SMALL KE|Hiragana|Lo|TU|Tu|VVHVVV-VV|
+|[[http://www.fileformat.info/info/unicode/char/0309B/index.htm|U+309B]]|゛|KATAKANA-HIRAGANA VOICED SOUND MARK|Hiragana|Sk|TU|Tu|HVHVVVHVV|
+|[[http://www.fileformat.info/info/unicode/char/0309C/index.htm|U+309C]]|゜|KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK|Hiragana|Sk|TU|Tu|HVHVVVHVV|
+|[[http://www.fileformat.info/info/unicode/char/0309D/index.htm|U+309D]]|ゝ|HIRAGANA ITERATION MARK|Hiragana|Lm|TU|Tu|HHHHHHHVV|
+|[[http://www.fileformat.info/info/unicode/char/0309E/index.htm|U+309E]]|ゞ|HIRAGANA VOICED ITERATION MARK|Hiragana|Lm|TU|Tu|HHHHHHHVV|
+|[[http://www.fileformat.info/info/unicode/char/030A1/index.htm|U+30A1]]|ァ|KATAKANA LETTER SMALL A|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/030A3/index.htm|U+30A3]]|ィ|KATAKANA LETTER SMALL I|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/030A5/index.htm|U+30A5]]|ゥ|KATAKANA LETTER SMALL U|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/030A7/index.htm|U+30A7]]|ェ|KATAKANA LETTER SMALL E|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/030A9/index.htm|U+30A9]]|ォ|KATAKANA LETTER SMALL O|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/030C3/index.htm|U+30C3]]|ッ|KATAKANA LETTER SMALL TU|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/030E3/index.htm|U+30E3]]|ャ|KATAKANA LETTER SMALL YA|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/030E5/index.htm|U+30E5]]|ュ|KATAKANA LETTER SMALL YU|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/030E7/index.htm|U+30E7]]|ョ|KATAKANA LETTER SMALL YO|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/030EE/index.htm|U+30EE]]|ヮ|KATAKANA LETTER SMALL WA|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/030F5/index.htm|U+30F5]]|ヵ|KATAKANA LETTER SMALL KA|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/030F6/index.htm|U+30F6]]|ヶ|KATAKANA LETTER SMALL KE|Katakana|Lo|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/031F0/index.htm|U+31F0]]|ㇰ|KATAKANA LETTER SMALL KU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031F1/index.htm|U+31F1]]|ㇱ|KATAKANA LETTER SMALL SI|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031F2/index.htm|U+31F2]]|ㇲ|KATAKANA LETTER SMALL SU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031F3/index.htm|U+31F3]]|ㇳ|KATAKANA LETTER SMALL TO|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031F4/index.htm|U+31F4]]|ㇴ|KATAKANA LETTER SMALL NU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031F5/index.htm|U+31F5]]|ㇵ|KATAKANA LETTER SMALL HA|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031F6/index.htm|U+31F6]]|ㇶ|KATAKANA LETTER SMALL HI|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031F7/index.htm|U+31F7]]|ㇷ|KATAKANA LETTER SMALL HU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031F8/index.htm|U+31F8]]|ㇸ|KATAKANA LETTER SMALL HE|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031F9/index.htm|U+31F9]]|ㇹ|KATAKANA LETTER SMALL HO|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031FA/index.htm|U+31FA]]|ㇺ|KATAKANA LETTER SMALL MU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031FB/index.htm|U+31FB]]|ㇻ|KATAKANA LETTER SMALL RA|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031FC/index.htm|U+31FC]]|ㇼ|KATAKANA LETTER SMALL RI|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031FD/index.htm|U+31FD]]|ㇽ|KATAKANA LETTER SMALL RU|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031FE/index.htm|U+31FE]]|ㇾ|KATAKANA LETTER SMALL RE|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
+|[[http://www.fileformat.info/info/unicode/char/031FF/index.htm|U+31FF]]|ㇿ|KATAKANA LETTER SMALL RO|Katakana Phonetic Extensions|Lo|TU|Tu|VV--VV-VV|
 |[[http://www.fileformat.info/info/unicode/char/03300/index.htm|U+3300]]|㌀|SQUARE APAATO|CJK Compatibility|So|TU|Tu|VV-VVV|
 |[[http://www.fileformat.info/info/unicode/char/03301/index.htm|U+3301]]|㌁|SQUARE ARUHUA|CJK Compatibility|So|TU|Tu|VV-VVV|
 |[[http://www.fileformat.info/info/unicode/char/03302/index.htm|U+3302]]|㌂|SQUARE ANPEA|CJK Compatibility|So|TU|Tu|VV-VVV|
@@ -231,12 +225,12 @@
 |[[http://www.fileformat.info/info/unicode/char/0337D/index.htm|U+337D]]|㍽|SQUARE ERA NAME TAISYOU|CJK Compatibility|So|TU|Tu|HH-VVV|
 |[[http://www.fileformat.info/info/unicode/char/0337E/index.htm|U+337E]]|㍾|SQUARE ERA NAME MEIZI|CJK Compatibility|So|TU|Tu|HH-VVV|
 |[[http://www.fileformat.info/info/unicode/char/0337F/index.htm|U+337F]]|㍿|SQUARE CORPORATION|CJK Compatibility|So|TU|Tu|HV-VVV|
-|[[http://www.fileformat.info/info/unicode/char/0FE50/index.htm|U+FE50]]|﹐|SMALL COMMA|Small Form Variants|Po|Tu|Tu|--H|
-|[[http://www.fileformat.info/info/unicode/char/0FE51/index.htm|U+FE51]]|﹑|SMALL IDEOGRAPHIC COMMA|Small Form Variants|Po|Tu|Tu|--H|
-|[[http://www.fileformat.info/info/unicode/char/0FE52/index.htm|U+FE52]]|﹒|SMALL FULL STOP|Small Form Variants|Po|Tu|Tu|--H|
-|[[http://www.fileformat.info/info/unicode/char/0FF01/index.htm|U+FF01]]|！|FULLWIDTH EXCLAMATION MARK|Halfwidth and Fullwidth Forms|Po|TU|U|HHVHHH|
-|[[http://www.fileformat.info/info/unicode/char/0FF0C/index.htm|U+FF0C]]|，|FULLWIDTH COMMA|Halfwidth and Fullwidth Forms|Po|TU|Tu|VVVVVV|
-|[[http://www.fileformat.info/info/unicode/char/0FF0E/index.htm|U+FF0E]]|．|FULLWIDTH FULL STOP|Halfwidth and Fullwidth Forms|Po|TU|Tu|VVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FE50/index.htm|U+FE50]]|﹐|SMALL COMMA|Small Form Variants|Po|Tu|Tu|--H---HVH|
+|[[http://www.fileformat.info/info/unicode/char/0FE51/index.htm|U+FE51]]|﹑|SMALL IDEOGRAPHIC COMMA|Small Form Variants|Po|Tu|Tu|--H---HVH|
+|[[http://www.fileformat.info/info/unicode/char/0FE52/index.htm|U+FE52]]|﹒|SMALL FULL STOP|Small Form Variants|Po|Tu|Tu|--H---HVH|
+|[[http://www.fileformat.info/info/unicode/char/0FF01/index.htm|U+FF01]]|！|FULLWIDTH EXCLAMATION MARK|Halfwidth and Fullwidth Forms|Po|TU|U|HHVHHHVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FF0C/index.htm|U+FF0C]]|，|FULLWIDTH COMMA|Halfwidth and Fullwidth Forms|Po|TU|Tu|VVVVVVVVV|
+|[[http://www.fileformat.info/info/unicode/char/0FF0E/index.htm|U+FF0E]]|．|FULLWIDTH FULL STOP|Halfwidth and Fullwidth Forms|Po|TU|Tu|VVVVVVVVV|
 |[[http://www.fileformat.info/info/unicode/char/1F200/index.htm|U+1F200]]|🈀|SQUARE HIRAGANA HOKA|Enclosed Ideographic Supplement|So|TU|Tu||
 |[[http://www.fileformat.info/info/unicode/char/1F201/index.htm|U+1F201]]|🈁|SQUARED KATAKANA KOKO|Enclosed Ideographic Supplement|So|TU|Tu||
 
