@@ -1,11 +1,12 @@
 ===== Diff as of 2012/06/09 =====
 
-  * MVO = UTR#50 draft #5 + [[http://www.unicode.org/forum/viewtopic.php?f=35&t=305|Consolidated feedback, rev 5]]
-  * The diff no longer includes where only MS values differ, because the MS data is outdated.
-  * MS = Proposal from MS
+  * Changes since [[diff20120608|the last diff]]
+    * 02E5..02E9, 2018..201F, 2329..232A are changed by taking fixes we think are reasonably accepted by UTR in near future.
+    * The diff no longer includes where only MS values differ, because the MS data is outdated.
+    * [[vert]] is included as a reference.
+  * MVO = UTR#50 draft #5 + [[http://www.unicode.org/forum/viewtopic.php?f=35&t=305|Consolidated feedback, rev 5]] + 02E5..02E9, 2018..201F, 2329..232A
+  * MS = Proposal from MS + the same changes above
   * CSS = Current table as we have in this wiki
-  * [[diff20120608|Previous]]
-
 ===== By Categories =====
 
 ==== Cf ====
