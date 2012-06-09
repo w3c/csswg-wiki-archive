@@ -31,11 +31,11 @@
 ==== Ll ====
 
 ^Unicode^Char^Name^Block^MVO^MS^CSS^vert^CSSnote^
-|[[http://www.fileformat.info/info/unicode/char/210A/index.htm|U+210A]]|ℊ|SCRIPT SMALL G|Letterlike Symbols|U|U|R||Part of mathematical script set|
-|[[http://www.fileformat.info/info/unicode/char/210E/index.htm|U+210E]]|ℎ|PLANCK CONSTANT|Letterlike Symbols|U|U|R||Part of mathematical italic set|
-|[[http://www.fileformat.info/info/unicode/char/210F/index.htm|U+210F]]|ℏ|PLANCK CONSTANT OVER TWO PI|Letterlike Symbols|U|U|R||Match PLANCK CONSTANT|
-|[[http://www.fileformat.info/info/unicode/char/212F/index.htm|U+212F]]|ℯ|SCRIPT SMALL E|Letterlike Symbols|U|U|R||Part of mathematical script set|
-|[[http://www.fileformat.info/info/unicode/char/2134/index.htm|U+2134]]|ℴ|SCRIPT SMALL O|Letterlike Symbols|U|U|R||Part of mathematical script set|
+|[[http://www.fileformat.info/info/unicode/char/210A/index.htm|U+210A]]|ℊ|SCRIPT SMALL G|Letterlike Symbols|U|U|R|HH-HHH|Part of mathematical script set|
+|[[http://www.fileformat.info/info/unicode/char/210E/index.htm|U+210E]]|ℎ|PLANCK CONSTANT|Letterlike Symbols|U|U|R|HH|Part of mathematical italic set|
+|[[http://www.fileformat.info/info/unicode/char/210F/index.htm|U+210F]]|ℏ|PLANCK CONSTANT OVER TWO PI|Letterlike Symbols|U|U|R|HH-HHH|Match PLANCK CONSTANT|
+|[[http://www.fileformat.info/info/unicode/char/212F/index.htm|U+212F]]|ℯ|SCRIPT SMALL E|Letterlike Symbols|U|U|R|HH|Part of mathematical script set|
+|[[http://www.fileformat.info/info/unicode/char/2134/index.htm|U+2134]]|ℴ|SCRIPT SMALL O|Letterlike Symbols|U|U|R|HH|Part of mathematical script set|
 |[[http://www.fileformat.info/info/unicode/char/213C/index.htm|U+213C]]|ℼ|DOUBLE-STRUCK SMALL PI|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
 |[[http://www.fileformat.info/info/unicode/char/213D/index.htm|U+213D]]|ℽ|DOUBLE-STRUCK SMALL GAMMA|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
 |[[http://www.fileformat.info/info/unicode/char/2146/index.htm|U+2146]]|ⅆ|DOUBLE-STRUCK ITALIC SMALL D|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
@@ -52,10 +52,10 @@
 |  ...  |||||||||
 |[[http://www.fileformat.info/info/unicode/char/18B0/index.htm|U+18B0]]|ᢰ|CANADIAN SYLLABICS OY|Unified Canadian Aboriginal Syllabics Extended|U|U|R|||
 |  ...  |||||||||
-|[[http://www.fileformat.info/info/unicode/char/2135/index.htm|U+2135]]|ℵ|ALEF SYMBOL|Letterlike Symbols|U|U|R||Math symbol|
-|[[http://www.fileformat.info/info/unicode/char/2136/index.htm|U+2136]]|ℶ|BET SYMBOL|Letterlike Symbols|U|U|R||Math symbol|
-|[[http://www.fileformat.info/info/unicode/char/2137/index.htm|U+2137]]|ℷ|GIMEL SYMBOL|Letterlike Symbols|U|U|R||Math symbol|
-|[[http://www.fileformat.info/info/unicode/char/2138/index.htm|U+2138]]|ℸ|DALET SYMBOL|Letterlike Symbols|U|U|R||Math symbol|
+|[[http://www.fileformat.info/info/unicode/char/2135/index.htm|U+2135]]|ℵ|ALEF SYMBOL|Letterlike Symbols|U|U|R|HH-HHH|Math symbol|
+|[[http://www.fileformat.info/info/unicode/char/2136/index.htm|U+2136]]|ℶ|BET SYMBOL|Letterlike Symbols|U|U|R|HH|Math symbol|
+|[[http://www.fileformat.info/info/unicode/char/2137/index.htm|U+2137]]|ℷ|GIMEL SYMBOL|Letterlike Symbols|U|U|R|HH|Math symbol|
+|[[http://www.fileformat.info/info/unicode/char/2138/index.htm|U+2138]]|ℸ|DALET SYMBOL|Letterlike Symbols|U|U|R|HH|Math symbol|
 |[[http://www.fileformat.info/info/unicode/char/10980/index.htm|U+10980]]|𐦀|MEROITIC HIEROGLYPHIC LETTER A|Meroitic Hieroglyphs|R|U|U|||
 |  ...  |||||||||
 |[[http://www.fileformat.info/info/unicode/char/109A0/index.htm|U+109A0]]|𐦠|MEROITIC CURSIVE LETTER A|Meroitic Cursive|R|R|U|||
@@ -64,28 +64,28 @@
 ==== Lu ====
 
 ^Unicode^Char^Name^Block^MVO^MS^CSS^vert^CSSnote^
-|[[http://www.fileformat.info/info/unicode/char/2102/index.htm|U+2102]]|ℂ|DOUBLE-STRUCK CAPITAL C|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
-|[[http://www.fileformat.info/info/unicode/char/2107/index.htm|U+2107]]|ℇ|EULER CONSTANT|Letterlike Symbols|U|U|R||Match PLANCK CONSTANT|
-|[[http://www.fileformat.info/info/unicode/char/210B/index.htm|U+210B]]|ℋ|SCRIPT CAPITAL H|Letterlike Symbols|U|U|R||Part of mathematical script set|
-|[[http://www.fileformat.info/info/unicode/char/210C/index.htm|U+210C]]|ℌ|BLACK-LETTER CAPITAL H|Letterlike Symbols|U|U|R||Match other math letters|
-|[[http://www.fileformat.info/info/unicode/char/210D/index.htm|U+210D]]|ℍ|DOUBLE-STRUCK CAPITAL H|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
-|[[http://www.fileformat.info/info/unicode/char/2110/index.htm|U+2110]]|ℐ|SCRIPT CAPITAL I|Letterlike Symbols|U|U|R||Part of mathematical script set|
-|[[http://www.fileformat.info/info/unicode/char/2111/index.htm|U+2111]]|ℑ|BLACK-LETTER CAPITAL I|Letterlike Symbols|U|U|R||Match other math letters|
-|[[http://www.fileformat.info/info/unicode/char/2112/index.htm|U+2112]]|ℒ|SCRIPT CAPITAL L|Letterlike Symbols|U|U|R||Part of mathematical script set|
-|[[http://www.fileformat.info/info/unicode/char/2115/index.htm|U+2115]]|ℕ|DOUBLE-STRUCK CAPITAL N|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
-|[[http://www.fileformat.info/info/unicode/char/2119/index.htm|U+2119]]|ℙ|DOUBLE-STRUCK CAPITAL P|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
-|[[http://www.fileformat.info/info/unicode/char/211A/index.htm|U+211A]]|ℚ|DOUBLE-STRUCK CAPITAL Q|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
-|[[http://www.fileformat.info/info/unicode/char/211B/index.htm|U+211B]]|ℛ|SCRIPT CAPITAL R|Letterlike Symbols|U|U|R||Part of mathematical script set|
-|[[http://www.fileformat.info/info/unicode/char/211C/index.htm|U+211C]]|ℜ|BLACK-LETTER CAPITAL R|Letterlike Symbols|U|U|R||Match other math letters|
-|[[http://www.fileformat.info/info/unicode/char/211D/index.htm|U+211D]]|ℝ|DOUBLE-STRUCK CAPITAL R|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
-|[[http://www.fileformat.info/info/unicode/char/2124/index.htm|U+2124]]|ℤ|DOUBLE-STRUCK CAPITAL Z|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
-|[[http://www.fileformat.info/info/unicode/char/2128/index.htm|U+2128]]|ℨ|BLACK-LETTER CAPITAL Z|Letterlike Symbols|U|U|R||Match other math letters|
-|[[http://www.fileformat.info/info/unicode/char/212C/index.htm|U+212C]]|ℬ|SCRIPT CAPITAL B|Letterlike Symbols|U|U|R||Part of mathematical script set|
-|[[http://www.fileformat.info/info/unicode/char/212D/index.htm|U+212D]]|ℭ|BLACK-LETTER CAPITAL C|Letterlike Symbols|U|U|R||Match other math letters|
-|[[http://www.fileformat.info/info/unicode/char/2130/index.htm|U+2130]]|ℰ|SCRIPT CAPITAL E|Letterlike Symbols|U|U|R||Part of mathematical script set|
-|[[http://www.fileformat.info/info/unicode/char/2131/index.htm|U+2131]]|ℱ|SCRIPT CAPITAL F|Letterlike Symbols|U|U|R||Part of mathematical script set|
-|[[http://www.fileformat.info/info/unicode/char/2132/index.htm|U+2132]]|Ⅎ|TURNED CAPITAL F|Letterlike Symbols|U|U|R||[[http://en.wikipedia.org/wiki/Claudian_letters|Claudian]] must match Latin|
-|[[http://www.fileformat.info/info/unicode/char/2133/index.htm|U+2133]]|ℳ|SCRIPT CAPITAL M|Letterlike Symbols|U|U|R||Part of mathematical script set|
+|[[http://www.fileformat.info/info/unicode/char/2102/index.htm|U+2102]]|ℂ|DOUBLE-STRUCK CAPITAL C|Letterlike Symbols|U|U|R|HH|Part of mathematical double-struck set|
+|[[http://www.fileformat.info/info/unicode/char/2107/index.htm|U+2107]]|ℇ|EULER CONSTANT|Letterlike Symbols|U|U|R|HH|Match PLANCK CONSTANT|
+|[[http://www.fileformat.info/info/unicode/char/210B/index.htm|U+210B]]|ℋ|SCRIPT CAPITAL H|Letterlike Symbols|U|U|R|HH|Part of mathematical script set|
+|[[http://www.fileformat.info/info/unicode/char/210C/index.htm|U+210C]]|ℌ|BLACK-LETTER CAPITAL H|Letterlike Symbols|U|U|R|HH|Match other math letters|
+|[[http://www.fileformat.info/info/unicode/char/210D/index.htm|U+210D]]|ℍ|DOUBLE-STRUCK CAPITAL H|Letterlike Symbols|U|U|R|HH|Part of mathematical double-struck set|
+|[[http://www.fileformat.info/info/unicode/char/2110/index.htm|U+2110]]|ℐ|SCRIPT CAPITAL I|Letterlike Symbols|U|U|R|HH|Part of mathematical script set|
+|[[http://www.fileformat.info/info/unicode/char/2111/index.htm|U+2111]]|ℑ|BLACK-LETTER CAPITAL I|Letterlike Symbols|U|U|R|HH|Match other math letters|
+|[[http://www.fileformat.info/info/unicode/char/2112/index.htm|U+2112]]|ℒ|SCRIPT CAPITAL L|Letterlike Symbols|U|U|R|HH|Part of mathematical script set|
+|[[http://www.fileformat.info/info/unicode/char/2115/index.htm|U+2115]]|ℕ|DOUBLE-STRUCK CAPITAL N|Letterlike Symbols|U|U|R|HH|Part of mathematical double-struck set|
+|[[http://www.fileformat.info/info/unicode/char/2119/index.htm|U+2119]]|ℙ|DOUBLE-STRUCK CAPITAL P|Letterlike Symbols|U|U|R|HH|Part of mathematical double-struck set|
+|[[http://www.fileformat.info/info/unicode/char/211A/index.htm|U+211A]]|ℚ|DOUBLE-STRUCK CAPITAL Q|Letterlike Symbols|U|U|R|HH|Part of mathematical double-struck set|
+|[[http://www.fileformat.info/info/unicode/char/211B/index.htm|U+211B]]|ℛ|SCRIPT CAPITAL R|Letterlike Symbols|U|U|R|HH|Part of mathematical script set|
+|[[http://www.fileformat.info/info/unicode/char/211C/index.htm|U+211C]]|ℜ|BLACK-LETTER CAPITAL R|Letterlike Symbols|U|U|R|HH|Match other math letters|
+|[[http://www.fileformat.info/info/unicode/char/211D/index.htm|U+211D]]|ℝ|DOUBLE-STRUCK CAPITAL R|Letterlike Symbols|U|U|R|HH|Part of mathematical double-struck set|
+|[[http://www.fileformat.info/info/unicode/char/2124/index.htm|U+2124]]|ℤ|DOUBLE-STRUCK CAPITAL Z|Letterlike Symbols|U|U|R|HH|Part of mathematical double-struck set|
+|[[http://www.fileformat.info/info/unicode/char/2128/index.htm|U+2128]]|ℨ|BLACK-LETTER CAPITAL Z|Letterlike Symbols|U|U|R|HH|Match other math letters|
+|[[http://www.fileformat.info/info/unicode/char/212C/index.htm|U+212C]]|ℬ|SCRIPT CAPITAL B|Letterlike Symbols|U|U|R|HH|Part of mathematical script set|
+|[[http://www.fileformat.info/info/unicode/char/212D/index.htm|U+212D]]|ℭ|BLACK-LETTER CAPITAL C|Letterlike Symbols|U|U|R|HH|Match other math letters|
+|[[http://www.fileformat.info/info/unicode/char/2130/index.htm|U+2130]]|ℰ|SCRIPT CAPITAL E|Letterlike Symbols|U|U|R|HH|Part of mathematical script set|
+|[[http://www.fileformat.info/info/unicode/char/2131/index.htm|U+2131]]|ℱ|SCRIPT CAPITAL F|Letterlike Symbols|U|U|R|HH|Part of mathematical script set|
+|[[http://www.fileformat.info/info/unicode/char/2132/index.htm|U+2132]]|Ⅎ|TURNED CAPITAL F|Letterlike Symbols|U|U|R|HH|[[http://en.wikipedia.org/wiki/Claudian_letters|Claudian]] must match Latin|
+|[[http://www.fileformat.info/info/unicode/char/2133/index.htm|U+2133]]|ℳ|SCRIPT CAPITAL M|Letterlike Symbols|U|U|R|HH|Part of mathematical script set|
 |[[http://www.fileformat.info/info/unicode/char/213E/index.htm|U+213E]]|ℾ|DOUBLE-STRUCK CAPITAL GAMMA|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
 |[[http://www.fileformat.info/info/unicode/char/213F/index.htm|U+213F]]|ℿ|DOUBLE-STRUCK CAPITAL PI|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
 |[[http://www.fileformat.info/info/unicode/char/2145/index.htm|U+2145]]|ⅅ|DOUBLE-STRUCK ITALIC CAPITAL D|Letterlike Symbols|U|U|R||Part of mathematical double-struck set|
@@ -124,16 +124,16 @@
 ==== Pc ====
 
 ^Unicode^Char^Name^Block^MVO^MS^CSS^vert^CSSnote^
-|[[http://www.fileformat.info/info/unicode/char/FF3F/index.htm|U+FF3F]]|＿|FULLWIDTH LOW LINE|Halfwidth and Fullwidth Forms|Tr|TR|R||Match low line|
+|[[http://www.fileformat.info/info/unicode/char/FF3F/index.htm|U+FF3F]]|＿|FULLWIDTH LOW LINE|Halfwidth and Fullwidth Forms|Tr|TR|R|VVVVVV|Match low line|
 
 ==== Pe ====
 
 ^Unicode^Char^Name^Block^MVO^MS^CSS^vert^CSSnote^
-|[[http://www.fileformat.info/info/unicode/char/301E/index.htm|U+301E]]|〞|DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Tr|TR|Tu||Quotation marks are upright in stacked mode|
-|[[http://www.fileformat.info/info/unicode/char/301F/index.htm|U+301F]]|〟|LOW DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Tr|TR|Tu||Quotation marks are upright in stacked mode|
-|[[http://www.fileformat.info/info/unicode/char/FE5A/index.htm|U+FE5A]]|﹚|SMALL RIGHT PARENTHESIS|Small Form Variants|Tr|Tr|R||:?: Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/FE5C/index.htm|U+FE5C]]|﹜|SMALL RIGHT CURLY BRACKET|Small Form Variants|Tr|Tr|R||:?: Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/FE5E/index.htm|U+FE5E]]|﹞|SMALL RIGHT TORTOISE SHELL BRACKET|Small Form Variants|Tr|Tr|R||:?: Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/301E/index.htm|U+301E]]|〞|DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Tr|TR|Tu|VHH|Quotation marks are upright in stacked mode|
+|[[http://www.fileformat.info/info/unicode/char/301F/index.htm|U+301F]]|〟|LOW DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Tr|TR|Tu|VV-VVV|Quotation marks are upright in stacked mode|
+|[[http://www.fileformat.info/info/unicode/char/FE5A/index.htm|U+FE5A]]|﹚|SMALL RIGHT PARENTHESIS|Small Form Variants|Tr|Tr|R|#NAME?|:?: Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/FE5C/index.htm|U+FE5C]]|﹜|SMALL RIGHT CURLY BRACKET|Small Form Variants|Tr|Tr|R|#NAME?|:?: Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/FE5E/index.htm|U+FE5E]]|﹞|SMALL RIGHT TORTOISE SHELL BRACKET|Small Form Variants|Tr|Tr|R|#NAME?|:?: Brackets are sideways to enclose their text|
 
 ==== Po ====
 
@@ -145,34 +145,34 @@
 |[[http://www.fileformat.info/info/unicode/char/2E37/index.htm|U+2E37]]|⸷|DAGGER WITH RIGHT GUARD|Supplemental Punctuation|R|R|U||Match DAGGER|
 |[[http://www.fileformat.info/info/unicode/char/2E38/index.htm|U+2E38]]|⸸|TURNED DAGGER|Supplemental Punctuation|R|R|U||Match DAGGER|
 |[[http://www.fileformat.info/info/unicode/char/2E39/index.htm|U+2E39]]|⸹|TOP HALF SECTION SIGN|Supplemental Punctuation|R|R|U||Match SECTION SIGN|
-|[[http://www.fileformat.info/info/unicode/char/FE54/index.htm|U+FE54]]|﹔|SMALL SEMICOLON|Small Form Variants|U|R|Tu||Small semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
-|[[http://www.fileformat.info/info/unicode/char/FE55/index.htm|U+FE55]]|﹕|SMALL COLON|Small Form Variants|U|R|Tu||Small colons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
-|[[http://www.fileformat.info/info/unicode/char/FF01/index.htm|U+FF01]]|！|FULLWIDTH EXCLAMATION MARK|Halfwidth and Fullwidth Forms|Tu|TU|U||Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/FF02/index.htm|U+FF02]]|＂|FULLWIDTH QUOTATION MARK|Halfwidth and Fullwidth Forms|U|U|Tu||Fullwidth variants are upright; quotes need alt glyph|
-|[[http://www.fileformat.info/info/unicode/char/FF07/index.htm|U+FF07]]|＇|FULLWIDTH APOSTROPHE|Halfwidth and Fullwidth Forms|U|U|Tu||Fullwidth variants are upright|
-|[[http://www.fileformat.info/info/unicode/char/FF1A/index.htm|U+FF1A]]|：|FULLWIDTH COLON|Halfwidth and Fullwidth Forms|Tr|TR|Tu||Fullwidth colons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
-|[[http://www.fileformat.info/info/unicode/char/FF1B/index.htm|U+FF1B]]|；|FULLWIDTH SEMICOLON|Halfwidth and Fullwidth Forms|Tr|TR|Tu||Fullwidth semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
+|[[http://www.fileformat.info/info/unicode/char/FE54/index.htm|U+FE54]]|﹔|SMALL SEMICOLON|Small Form Variants|U|R|Tu|#NAME?|Small semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
+|[[http://www.fileformat.info/info/unicode/char/FE55/index.htm|U+FE55]]|﹕|SMALL COLON|Small Form Variants|U|R|Tu|#NAME?|Small colons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
+|[[http://www.fileformat.info/info/unicode/char/FF01/index.htm|U+FF01]]|！|FULLWIDTH EXCLAMATION MARK|Halfwidth and Fullwidth Forms|Tu|TU|U|HHVHHH|Fullwidth variants are upright|
+|[[http://www.fileformat.info/info/unicode/char/FF02/index.htm|U+FF02]]|＂|FULLWIDTH QUOTATION MARK|Halfwidth and Fullwidth Forms|U|U|Tu|HHHHHH|Fullwidth variants are upright; quotes need alt glyph|
+|[[http://www.fileformat.info/info/unicode/char/FF07/index.htm|U+FF07]]|＇|FULLWIDTH APOSTROPHE|Halfwidth and Fullwidth Forms|U|U|Tu|HHHHHH|Fullwidth variants are upright|
+|[[http://www.fileformat.info/info/unicode/char/FF1A/index.htm|U+FF1A]]|：|FULLWIDTH COLON|Halfwidth and Fullwidth Forms|Tr|TR|Tu|VVVVVV|Fullwidth colons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
+|[[http://www.fileformat.info/info/unicode/char/FF1B/index.htm|U+FF1B]]|；|FULLWIDTH SEMICOLON|Halfwidth and Fullwidth Forms|Tr|TR|Tu|HHVHHH|Fullwidth semicolons are either upright (Chinese-style) or rotated sideways (Japanese-style)|
 
 ==== Ps ====
 
 ^Unicode^Char^Name^Block^MVO^MS^CSS^vert^CSSnote^
-|[[http://www.fileformat.info/info/unicode/char/301D/index.htm|U+301D]]|〝|REVERSED DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Tr|TR|Tu||Quotation marks are upright in stacked mode|
-|[[http://www.fileformat.info/info/unicode/char/FE59/index.htm|U+FE59]]|﹙|SMALL LEFT PARENTHESIS|Small Form Variants|Tr|Tr|R||:?: Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/FE5B/index.htm|U+FE5B]]|﹛|SMALL LEFT CURLY BRACKET|Small Form Variants|Tr|Tr|R||:?: Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/FE5D/index.htm|U+FE5D]]|﹝|SMALL LEFT TORTOISE SHELL BRACKET|Small Form Variants|Tr|Tr|R||:?: Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/301D/index.htm|U+301D]]|〝|REVERSED DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Tr|TR|Tu|VVHVVV|Quotation marks are upright in stacked mode|
+|[[http://www.fileformat.info/info/unicode/char/FE59/index.htm|U+FE59]]|﹙|SMALL LEFT PARENTHESIS|Small Form Variants|Tr|Tr|R|#NAME?|:?: Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/FE5B/index.htm|U+FE5B]]|﹛|SMALL LEFT CURLY BRACKET|Small Form Variants|Tr|Tr|R|#NAME?|:?: Brackets are sideways to enclose their text|
+|[[http://www.fileformat.info/info/unicode/char/FE5D/index.htm|U+FE5D]]|﹝|SMALL LEFT TORTOISE SHELL BRACKET|Small Form Variants|Tr|Tr|R|#NAME?|:?: Brackets are sideways to enclose their text|
 
 ==== Sm ====
 
 ^Unicode^Char^Name^Block^MVO^MS^CSS^vert^CSSnote^
-|[[http://www.fileformat.info/info/unicode/char/FF5E/index.htm|U+FF5E]]|～|FULLWIDTH TILDE|Halfwidth and Fullwidth Forms|Tr|TR|T||:!: Dashes are sideways, and [[http://en.wikipedia.org/wiki/Tilde#Unicode_and_Shift_JIS_encoding_of_wave_dash|this is considered equivalent to WAVE DASH U+301C]] even though it's technically a Math Symbol (Sm) fullwidth variant of U+007E|
+|[[http://www.fileformat.info/info/unicode/char/FF5E/index.htm|U+FF5E]]|～|FULLWIDTH TILDE|Halfwidth and Fullwidth Forms|Tr|TR|T|VVVVVV|:!: Dashes are sideways, and [[http://en.wikipedia.org/wiki/Tilde#Unicode_and_Shift_JIS_encoding_of_wave_dash|this is considered equivalent to WAVE DASH U+301C]] even though it's technically a Math Symbol (Sm) fullwidth variant of U+007E|
 
 ==== So ====
 
 ^Unicode^Char^Name^Block^MVO^MS^CSS^vert^CSSnote^
-|[[http://www.fileformat.info/info/unicode/char/2108/index.htm|U+2108]]|℈|SCRUPLE|Letterlike Symbols|U|U|R||[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]], keep consistent with digits and 'LATIN CAPITAL LETTER EZH' (U+01B7)|
-|[[http://www.fileformat.info/info/unicode/char/2114/index.htm|U+2114]]|℔|L B BAR SYMBOL|Letterlike Symbols|U|U|R||[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]], keep consistent with digits and 'LATIN CAPITAL LETTER EZH' (U+01B7)|
-|[[http://www.fileformat.info/info/unicode/char/2125/index.htm|U+2125]]|℥|OUNCE SIGN|Letterlike Symbols|U|U|R||[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]], keep consistent with digits and 'LATIN CAPITAL LETTER EZH' (U+01B7)|
-|[[http://www.fileformat.info/info/unicode/char/2129/index.htm|U+2129]]|℩|TURNED GREEK SMALL LETTER IOTA|Letterlike Symbols|U|U|R||Logic symbol, match math.|
+|[[http://www.fileformat.info/info/unicode/char/2108/index.htm|U+2108]]|℈|SCRUPLE|Letterlike Symbols|U|U|R|HH|[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]], keep consistent with digits and 'LATIN CAPITAL LETTER EZH' (U+01B7)|
+|[[http://www.fileformat.info/info/unicode/char/2114/index.htm|U+2114]]|℔|L B BAR SYMBOL|Letterlike Symbols|U|U|R|HH|[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]], keep consistent with digits and 'LATIN CAPITAL LETTER EZH' (U+01B7)|
+|[[http://www.fileformat.info/info/unicode/char/2125/index.htm|U+2125]]|℥|OUNCE SIGN|Letterlike Symbols|U|U|R|HH|[[http://www.textcreationpartnership.org/docs/dox/medical.html|Apothecary measure]], keep consistent with digits and 'LATIN CAPITAL LETTER EZH' (U+01B7)|
+|[[http://www.fileformat.info/info/unicode/char/2129/index.htm|U+2129]]|℩|TURNED GREEK SMALL LETTER IOTA|Letterlike Symbols|U|U|R|HH|Logic symbol, match math.|
 |[[http://www.fileformat.info/info/unicode/char/232C/index.htm|U+232C]]|⌬|BENZENE RING|Miscellaneous Technical|R|U|U|||
 |[[http://www.fileformat.info/info/unicode/char/232D/index.htm|U+232D]]|⌭|CYLINDRICITY|Miscellaneous Technical|R|U|U|||
 |[[http://www.fileformat.info/info/unicode/char/232E/index.htm|U+232E]]|⌮|ALL AROUND-PROFILE|Miscellaneous Technical|R|U|U|||
@@ -262,7 +262,7 @@
 |[[http://www.fileformat.info/info/unicode/char/2797/index.htm|U+2797]]|➗|HEAVY DIVISION SIGN|Dingbats|R|U|U|||
 |[[http://www.fileformat.info/info/unicode/char/27B0/index.htm|U+27B0]]|➰|CURLY LOOP|Dingbats|R|U|U|||
 |[[http://www.fileformat.info/info/unicode/char/27BF/index.htm|U+27BF]]|➿|DOUBLE CURLY LOOP|Dingbats|R|U|U|||
-|[[http://www.fileformat.info/info/unicode/char/FFE4/index.htm|U+FFE4]]|￤|FULLWIDTH BROKEN BAR|Halfwidth and Fullwidth Forms|U|U|R|||
+|[[http://www.fileformat.info/info/unicode/char/FFE4/index.htm|U+FFE4]]|￤|FULLWIDTH BROKEN BAR|Halfwidth and Fullwidth Forms|U|U|R|HHHHHH||
 |[[http://www.fileformat.info/info/unicode/char/FFFC/index.htm|U+FFFC]]|￼|OBJECT REPLACEMENT CHARACTER|Specials||U|U|||
 |[[http://www.fileformat.info/info/unicode/char/101D0/index.htm|U+101D0]]|𐇐|PHAISTOS DISC SIGN PEDESTRIAN|Phaistos Disc|R|U|U|||
 |  ...  |||||||||
