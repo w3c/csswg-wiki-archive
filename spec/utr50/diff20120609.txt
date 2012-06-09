@@ -380,8 +380,6 @@
 ==== Miscellaneous Technical ====
 
 ^Unicode^Char^Name^Cat^MVO^MS^CSS^CSSnote^
-|[[http://www.fileformat.info/info/unicode/char/2329/index.htm|U+2329]]|〈|LEFT-POINTING ANGLE BRACKET|Ps|U|R|R|Brackets are sideways to enclose their text|
-|[[http://www.fileformat.info/info/unicode/char/232A/index.htm|U+232A]]|〉|RIGHT-POINTING ANGLE BRACKET|Pe|U|R|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/232C/index.htm|U+232C]]|⌬|BENZENE RING|So|R|U|U||
 |[[http://www.fileformat.info/info/unicode/char/232D/index.htm|U+232D]]|⌭|CYLINDRICITY|So|R|U|U||
 |[[http://www.fileformat.info/info/unicode/char/232E/index.htm|U+232E]]|⌮|ALL AROUND-PROFILE|So|R|U|U||
