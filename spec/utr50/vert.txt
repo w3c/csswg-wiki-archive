@@ -8,7 +8,7 @@
   * Note that "V" does not necessarily mean the glyph is rotated:
     * Some has other transforms than rotation.
     * Some has different layout within the glyph.
-    * Some has the same glyph?
+    * Some has the same glyph? U+FF01 for instance looks identical, but may have slightly different offset.
   * Fonts are:
     * MS Gothic
     * Meiryo
