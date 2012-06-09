@@ -129,7 +129,6 @@
 ==== Pe ====
 
 ^Unicode^Char^Name^Block^MVO^MS^CSS^CSSnote^
-|[[http://www.fileformat.info/info/unicode/char/232A/index.htm|U+232A]]|〉|RIGHT-POINTING ANGLE BRACKET|Miscellaneous Technical|U|R|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/301E/index.htm|U+301E]]|〞|DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Tr|TR|Tu|Quotation marks are upright in stacked mode|
 |[[http://www.fileformat.info/info/unicode/char/301F/index.htm|U+301F]]|〟|LOW DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Tr|TR|Tu|Quotation marks are upright in stacked mode|
 |[[http://www.fileformat.info/info/unicode/char/FE5A/index.htm|U+FE5A]]|﹚|SMALL RIGHT PARENTHESIS|Small Form Variants|Tr|Tr|R|:?: Brackets are sideways to enclose their text|
@@ -157,7 +156,6 @@
 ==== Ps ====
 
 ^Unicode^Char^Name^Block^MVO^MS^CSS^CSSnote^
-|[[http://www.fileformat.info/info/unicode/char/2329/index.htm|U+2329]]|〈|LEFT-POINTING ANGLE BRACKET|Miscellaneous Technical|U|R|R|Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/301D/index.htm|U+301D]]|〝|REVERSED DOUBLE PRIME QUOTATION MARK|CJK Symbols and Punctuation|Tr|TR|Tu|Quotation marks are upright in stacked mode|
 |[[http://www.fileformat.info/info/unicode/char/FE59/index.htm|U+FE59]]|﹙|SMALL LEFT PARENTHESIS|Small Form Variants|Tr|Tr|R|:?: Brackets are sideways to enclose their text|
 |[[http://www.fileformat.info/info/unicode/char/FE5B/index.htm|U+FE5B]]|﹛|SMALL LEFT CURLY BRACKET|Small Form Variants|Tr|Tr|R|:?: Brackets are sideways to enclose their text|
