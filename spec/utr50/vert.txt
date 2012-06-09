@@ -17,6 +17,8 @@
     * Morisawa Gothic MB101 Pr6 Regular
     * Morisawa Ryumin Pr6 Regular
 
+===== Filtered by where MVO=T* =====
+
 ==== T ====
 
 ^Unicode^Char^Name^Block^Cat^MS^CSS^vert^
