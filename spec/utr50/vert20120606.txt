@@ -20,7 +20,7 @@
     * MS JhengHei (Traditional Chinese)
     * SimSun (Simplified Chinese)
     * MS YaHei (Simplified Chinese)
-===== a =====
+===== Filtered by where MVO=T* =====
 
 ==== T ====
 
@@ -227,7 +227,6 @@
 |[[http://www.fileformat.info/info/unicode/char/0FF0E/index.htm|U+FF0E]]|．|FULLWIDTH FULL STOP|Halfwidth and Fullwidth Forms|Po|TU|Tu|VVVVVVHVVV|
 |[[http://www.fileformat.info/info/unicode/char/1F200/index.htm|U+1F200]]|🈀|SQUARE HIRAGANA HOKA|Enclosed Ideographic Supplement|So|TU|Tu||
 |[[http://www.fileformat.info/info/unicode/char/1F201/index.htm|U+1F201]]|🈁|SQUARED KATAKANA KOKO|Enclosed Ideographic Supplement|So|TU|Tu||
-
 ===== b =====
 
 ^Unicode^Char^Name^Block^Cat^MVO^MVOms^MVOcss^vert^
