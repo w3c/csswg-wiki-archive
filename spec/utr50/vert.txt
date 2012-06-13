@@ -1,6 +1,6 @@
 ===== vert =====
 
-  * MVO values are draft#5 + [[http://www.unicode.org/forum/viewtopic.php?f=35&t=305|Consolidated feedback, rev 5]] + CSS
+  * MVO values are "[[vert20120606|draft#5 + Consolidated feedback, rev 5]]" + discussed with fantasai
   * vert column consists of one code per font:
     * "V" means the font has both horizontal and vertical glyphs for the code point
     * "H" menas the font has a horizontal glyph only for the code point.
