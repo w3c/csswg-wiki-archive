@@ -227,7 +227,7 @@
 |[[http://www.fileformat.info/info/unicode/char/0FF0E/index.htm|U+FF0E]]|．|FULLWIDTH FULL STOP|Halfwidth and Fullwidth Forms|Po|TU|Tu|VVVVVVHVVV|
 |[[http://www.fileformat.info/info/unicode/char/1F200/index.htm|U+1F200]]|🈀|SQUARE HIRAGANA HOKA|Enclosed Ideographic Supplement|So|TU|Tu||
 |[[http://www.fileformat.info/info/unicode/char/1F201/index.htm|U+1F201]]|🈁|SQUARED KATAKANA KOKO|Enclosed Ideographic Supplement|So|TU|Tu||
-===== b =====
+===== Filtered by at least one font having V =====
 
 ^Unicode^Char^Name^Block^Cat^MVO^MVOms^MVOcss^vert^
 |[[http://www.fileformat.info/info/unicode/char/0002D/index.htm|U+002D]]|-|HYPHEN-MINUS|Basic Latin|Pd|R|R|R|HVHHHHHHHH|
