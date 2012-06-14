@@ -1,12 +1,12 @@
 ====== Test Format ======
 
-This page describes the standard test format for CSSWG [[test:selftest|self-describing tests]] and [[test:reftest|reftests]]. The requirements are explained below; to make things easier we've also provided a template that you can copy.
+This page describes the standard test format for CSSWG [[test:selftest|self-describing tests]], [[test:reftest|reftests]] and [[test:scripttest|script tests]]. The requirements are explained below; to make things easier we've also provided a template that you can copy.
 
-The recommended structure for CSS tests is a [[selftest|self-describing]] [[reftest|reftest]]. If it's possible for a test to be a [[reftest|reftest]], it must be a reftest. (We prefer reftests to also be self-describing or otherwise easy for humans to interpret, but this is not a requirement.)
+The recommended structure for CSS tests is a [[selftest|self-describing]] [[reftest|reftest]]. If it's possible for a test to be a [[reftest|reftest]], it must be a reftest. (We prefer reftests to also be self-describing or otherwise easy for humans to interpret, but this is not a requirement). [[test:scripttest|script tests]] should be used for scenarios such as testing a JS API or adding automation to a [[reftest|reftest]].
 
 ===== Design Requirements =====
 
-The following are requested of all tests submitted to the CSSWG, both for [[test:reftest|reftests]] and [[test:selftest|self-describing tests]]:
+The following are requested of all tests submitted to the CSSWG, both for [[test:reftest|reftests]], [[test:scripttest|script tests]], and [[test:selftest|self-describing tests]]:
 
   ; Short
   : Tests should be very short and certainly not require scrolling on even the most modest of screens, unless the test is specifically for scrolling or paginating behaviour. This enables them to be run more easily on various testing platforms.
