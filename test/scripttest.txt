@@ -1,0 +1,24 @@
+====== Script Tests ======
+
+A //script test// is a test that uses JavaScript to programmatically verify one or more specific functionalities.  Unlike [[test:selftest|self-describing tests]] and [[test:reftest|reftests]], script tests do not verify rendering.
+
+Script tests should be used to verify functionalities that do not require rendering, for example, a JavaScript API.  Script tests can also be used to add automation to [[test:reftest|reftests]] for clients that do not support [[test:reftest|reftests]].
+
+==== Components of a Script Test ====
+
+A script test can be written as a single file with a script block that contains the JavaScript, or the JavaScript can be contained in a separate .js file that is imported by the test file.
+
+==== Test Harness ====
+
+The test harness (written and maintained by James Graham) is a JavaScript file that facilitates writing test cases.  Specifically, test harness offers test authors:
+  * A convenient API for making common test assertions
+  * Support for testing synchronous and asynchronous DOM features in a way that promotes clear, robust, tests
+
+Script tests written for the CSSWG //should// use test harness whenever possible.
+
+
+
+
+
+
+==== Per-Test Metadata ====
