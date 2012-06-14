@@ -2,13 +2,25 @@
 
 ==== Higher Priority =====
 
-  * [[http://wiki.csswg.org/spec/utr50/symbols/math#halfwidth-and-fullwidth-forms|Fullwidth math symbols]] (and small) =>[[http://www.unicode.org/forum/viewtopic.php?f=35&t=315|U+FF1C/FF1D/FF1E at Unicode Forum]]
-  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=314|FULLWIDTH HYPHEN-MINUS]]
-  * Geometric Shapes block (mixed Sm and So) should be U =>[[http://www.unicode.org/forum/viewtopic.php?f=35&t=307&sid=8e3c580f52edf233a11648f1a62aa69e|Unicode Forum]]
   * Quotation marks =>[[http://www.unicode.org/forum/viewtopic.php?f=35&t=227&start=16|Unicode Forum]]
     * SVO should be Tu
     * U+30xx -> MVO=Tu
     * U+20xx -> MVO=R or Tu for Japanese, Tr or T for Chinese.
+  * [[http://wiki.csswg.org/spec/utr50/diff20120605#dingbats|Errors in dingbats]]
+  * [[http://wiki.csswg.org/spec/utr50/symbols/textual?&#letterlike-symbols|Letterlike Symbols]]
+
+==== Lower Priority ====
+
+  * [[http://wiki.csswg.org/spec/utr50/diff20120605#cjk-compatibility-forms|overlines and low lines]] and DOUBLE LOW LINE (SVO)
+  * Egyptian should all be U
+  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=284|Canadian Syllabics]] MVO?
+  * Musical symbols Cf should be R, not U, since they're connectors
+
+==== Resolved Issues ====
+
+  * [[http://wiki.csswg.org/spec/utr50/symbols/math#halfwidth-and-fullwidth-forms|Fullwidth math symbols]] (and small) =>[[http://www.unicode.org/forum/viewtopic.php?f=35&t=315|U+FF1C/FF1D/FF1E at Unicode Forum]]
+  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=314|FULLWIDTH HYPHEN-MINUS]]
+  * Geometric Shapes block (mixed Sm and So) should be U =>[[http://www.unicode.org/forum/viewtopic.php?f=35&t=307&sid=8e3c580f52edf233a11648f1a62aa69e|Unicode Forum]]
   * Halfwidth Kana Etc. as R =>[[http://www.unicode.org/forum/viewtopic.php?f=35&t=321|Unicode Forum]]
   * [[http://wiki.csswg.org/spec/utr50/symbols/currency|Currency symbols]]
   * Bullets should be MVO=R U+2022/2023
@@ -16,13 +28,5 @@
   * [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=[%3AGeneral_Category%3D%2FLo%7CLl%7CLu%2F%3A]%26[%3AScript%3DCommon%3A]&g=|Math letters]]
   * [[http://wiki.csswg.org/spec/utr50/symbols/math|Math symbols]]
   * [[http://wiki.csswg.org/spec/utr50/diff20120605#small-form-variants|Errors in small forms variants]]
-  * [[http://wiki.csswg.org/spec/utr50/diff20120605#dingbats|Errors in dingbats]]
-  * [[http://wiki.csswg.org/spec/utr50/symbols/textual?&#letterlike-symbols|Letterlike Symbols]]
-==== Lower Priority ====
-
-  * [[http://wiki.csswg.org/spec/utr50/diff20120605#cjk-compatibility-forms|overlines and low lines]] and DOUBLE LOW LINE
   * [[http://wiki.csswg.org/spec/utr50/diff20120605#spacing-modifier-letters|Spacing modifier letters]], most should be U/R, since used with Latin and variations thereupon
-  * Egyptian should all be U
-  * Canadian Syllabics?
   * Fraction slash -- shouldn't it be U, since fractions are all U?
-  * Musical symbols Cf should be R, not U, since they're connectors
