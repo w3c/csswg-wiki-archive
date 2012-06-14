@@ -36,3 +36,22 @@ The basic usage of the test harness ([[http://w3c-test.org/resources/testharness
 The discussion forum for the test harness is the W3C's cross-WG [[http://lists.w3.org/Archives/Public/public-test-infra/|public-test-infra]] mail list. This list is also used to report testharness.js bugs or bugs can also be directly added to the W3C's Bugzilla: [[https://www.w3.org/Bugs/Public/describecomponents.cgi?product=Testing|Product = Testing; Component = testharness.js]] (James Graham is the "default assignee").
 
 ==== Per-Test Metadata ====
+
+Additionally, test-specific metadata can be passed in the properties. These are used when the individual test has different metadata from that stored in the <head>. The recognized metadata properties are:
+
+  * help - The url for the part of the specification being tested
+  * assert - A human readable description of what the test is attempting to prove
+  * author - Name and contact information for the author of the test in the format: "Name <email_addr>" or "Name http://contact/url"
+            
+Example:
+
+<code html>
+test(function() { assert_true(true); }, 'test_name', 
+                 { help: 'http://www.w3.org/TR/spec#section', 
+                   assert: ['this tests something.', 'This also tests something else.'],
+                   author: 'John Doe <john@doe.com>' });
+</code>
+
+These values would override any metadata set in the <head> of the test and are only needed when the individual test's metadata is different from what's in the <head>.
+
+If there is only a single script test in a file, all metadata should be in the <head>.
