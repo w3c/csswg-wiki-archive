@@ -1,0 +1,40 @@
+====== css4-color features list ======
+
+The [[spec:css3-color|CSS Color Module Level 3]] (CSS3-Color) defines color related properties and values.
+
+CSS4-Color is for new features above and beyond CSS3-Color.
+
+In somewhat order of priority:
+
+===== extensions to css3-color features =====
+
+==== implementation extensions ====
+Implementations may have found it useful to extend existing CSS3-Color features, but perhaps they are only experimental extensions or single implementations.
+
+As these are most likely to be practical and minimal (and supported by a second implementation), these are the first features we'll consider.
+
+  * ...
+
+==== real world author extension needs ====
+Second, users and authors may have found that they wanted a CSS3-Color feature to work a certain way in their sites, and these real world needs are a second consideration.
+
+  * ...
+
+==== theoretical extension requests ====
+Third, there are hypothetical requests for extensions to CSS3-Color features. As these are not real world proven (only theoretical) demands, they are purely tertiary. We may consider them optimistically and include them in working drafts to solicit feedback and additional interest.
+
+  * ...
+
+===== new css4-color features =====
+Brand new features fo CSS4-Color. We'll follow the same prioritization as above.
+
+===== dropped css3 features =====
+Features that were dropped from CSS3-Color (e.g. color profiles) are eligible to be considered for CSS4-Color, but they will need a strong justification as having been insufficiently adopted by implementations for many years means there was likely something wrong with them and they need major revising. In addition, features dropped from other CSS3 specs or trimmed when bringing over to CSS3-Color are also considered here.
+
+====== css4-color issues list ======
+
+===== Current Issues =====
+There is no editor's draft of CSS4-Color yet - so there's nothing to have issues against!
+
+The editor's draft will eventually be here:
+  * http://dev.w3.org/csswg/css4-color/ (need to update for hg).
