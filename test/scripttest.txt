@@ -46,10 +46,12 @@ Additionally, test-specific metadata can be passed in the properties. These are 
 Example:
 
 <code html>
-test(function() { assert_true(true); }, 'test_name', 
-                 { help: 'http://www.w3.org/TR/spec#section', 
-                   assert: ['this tests something.', 'This also tests something else.'],
-                   author: 'John Doe <john@doe.com>' });
+test(function() { assert_true(true); },
+     'test_name', 
+     { help: 'http://www.w3.org/TR/spec#section', 
+       assert: ['This tests something.', 'This also tests something else.'],
+       author: 'John Doe <john@doe.com>' }
+);
 </code>
 
 These values would override any metadata set in the <head> of the test and are only needed when the individual test's metadata is different from what's in the <head>.
