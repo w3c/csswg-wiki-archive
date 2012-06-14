@@ -41,11 +41,12 @@ These are being actively developed. Sometimes used to be CRs that need major rev
   * [[spec:css3-exclusions|CSS Exclusions Module]]
 ===== brainstorming =====
 This section outlines active possibilities for future specs or notes
-  * [[spec:vendor-prefixes|CSS vendor prefixes]] (collecting thoughts about policy/guidance on usage, dropping etc.)
+  * [[spec:css4-color|CSS Color Level 4]] (collecting features and ideas)
   * [[spec:css4-ui|CSS User Interface Module Level 4]] (collecting features and ideas)
+  * [[spec:vendor-prefixes|CSS vendor prefixes]] (collecting thoughts about policy/guidance on usage, dropping etc.)
   * [[spec:css4-page|CSS Paged Media Level 4]] (or CSS Pagination, or CSS Fragmentation)
   * [[spec:page-view|Paged View]] (use cases for paged view and page layout)
-  * [[spec:text4|Text Level 4]] (why isn't this "css4-text"?)
+  * [[spec:text4|Text Level 4]] (why isn't this "css4-text"?) (can't we just move this to "css4-text"?)
   * [[spec:selectors4|Selectors Level 4]]
   * [[spec:css3-overflow|CSS Overflow Level 3]]
   * [[spec:box-orphans|Box-model-related features with no home]]
