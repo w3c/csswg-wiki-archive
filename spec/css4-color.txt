@@ -31,6 +31,13 @@ Brand new features fo CSS4-Color. We'll follow the same prioritization as above.
 ===== dropped css3 features =====
 Features that were dropped from CSS3-Color (e.g. color profiles) are eligible to be considered for CSS4-Color, but they will need a strong justification as having been insufficiently adopted by implementations for many years means there was likely something wrong with them and they need major revising. In addition, features dropped from other CSS3 specs or trimmed when bringing over to CSS3-Color are also considered here.
 
+==== color profile adjustment ====
+'color-profile' was dropped from CSS3 Color.
+
+  * follow-up on color management properties for css3-color that were discussed at 2009 November TPAC CSS f2f (but later punted from css3-color to a future version).
+    * check minutes from that meeting for details on conclusions of the property (name, values etc.)
+    * contact Beth regarding level of implementation interest, plan to move forward with putting the color management property into a post-css3 working draft of the Color Module
+
 ====== css4-color issues list ======
 
 ===== Current Issues =====
