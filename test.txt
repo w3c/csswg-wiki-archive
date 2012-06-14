@@ -10,11 +10,11 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
   * [[test:css2.1:contribute|How to Contribute]]
   * [[test:format|Format Template and Guidelines]]
   * [[test:reftest|Writing Reftests]]
+  * [[test:scripttest|Writing Script Tests]]
   * [[test:css2.1:review|Review Process]]
   * [[test:oversight|Test Suite Oversight and Governance]]
   * [[test:implementation-report|Implementation Report Format]]
   * [[http://fantasai.inkedblade.net/style/tests/about/css21ts/|Slideshow Overview]]
-
 ===== Infrastructure =====
 
   * [[http://hg.csswg.org/|CSSWG Test Suite Mercurial server]]
