@@ -9,6 +9,7 @@
   * [[http://wiki.csswg.org/spec/utr50/diff20120605#dingbats|Errors in dingbats]]
   * [[http://wiki.csswg.org/spec/utr50/symbols/textual?&#letterlike-symbols|Letterlike Symbols]]
   * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=330|per-mille]]
+  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=332|Tr]]
 ==== Lower Priority ====
 
   * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=332|Small forms parens]] Tr vs R
