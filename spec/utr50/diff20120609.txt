@@ -574,7 +574,7 @@
 |[[http://www.fileformat.info/info/unicode/char/0006/index.htm|U+0006]]||<control>|Basic Latin|R|R|R|U|R||nnHHHHH||
 |[[http://www.fileformat.info/info/unicode/char/0007/index.htm|U+0007]]||<control>|Basic Latin|R|R|R|U|R||nnHHHHH||
 |[[http://www.fileformat.info/info/unicode/char/0008/index.htm|U+0008]]||<control>|Basic Latin|R|R|R|U|R||nnHHHHH||
-|[[http://www.fileformat.info/info/unicode/char/0009/index.htm|U+0009]]|	|<control>|Basic Latin|R|R|R|U|R||nnHHHHH||
+|[[http://www.fileformat.info/info/unicode/char/0009/index.htm|U+0009]]||<control>|Basic Latin|R|R|R|U|R||nnHHHHH||
 |[[http://www.fileformat.info/info/unicode/char/000A/index.htm|U+000A]]|
 |<control>|Basic Latin|R|BR|R|U|BR||nnHHHHH||
 |[[http://www.fileformat.info/info/unicode/char/000B/index.htm|U+000B]]||<control>|Basic Latin|R|BR|R|U|BR||nnHHHHH||
@@ -633,7 +633,8 @@
 |[[http://www.fileformat.info/info/unicode/char/009E/index.htm|U+009E]]||<control>|Latin-1 Supplement|R|R|R|U|R||nnnnnnH||
 |[[http://www.fileformat.info/info/unicode/char/009F/index.htm|U+009F]]||<control>|Latin-1 Supplement|R|R|R|U|R||nnnnnnH||
 
-==== Cf ====
+==== 
+Cf ====
 
 ^Unicode^Char^Name^Block^MVO^MS^CSS^SVO^MS^CSS^vert^CSSnote^
 |[[http://www.fileformat.info/info/unicode/char/00AD/index.htm|U+00AD]]|­|SOFT HYPHEN|Latin-1 Supplement|R|R|R|U|R||HHnHHHHHHH||
