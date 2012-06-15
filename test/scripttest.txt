@@ -37,7 +37,7 @@ The discussion forum for the test harness is the W3C's cross-WG [[http://lists.w
 
 ==== Per-Test Metadata ====
 
-Additionally, test-specific metadata can be passed in the properties. These are used when the individual test has different metadata from that stored in the <head>. The recognized metadata properties are:
+Test-specific metadata can be passed in the properties object to the test constructor. These are used when an individual test has different metadata from that stored in the <head>. The recognized metadata properties are:
 
   * help - The url for the part of the specification being tested
   * assert - A human readable description of what the test is attempting to prove
@@ -46,12 +46,20 @@ Additionally, test-specific metadata can be passed in the properties. These are 
 Example:
 
 <code html>
-test(function() { assert_true(true); }, 'test_name', 
-                 { help: 'http://www.w3.org/TR/spec#section', 
-                   assert: ['this tests something.', 'This also tests something else.'],
-                   author: 'John Doe <john@doe.com>' });
+test(function() { assert_true(true); },
+     'test_name', 
+     { help: 'http://www.w3.org/TR/spec#section', 
+       assert: ['This tests something.', 'This also tests something else.'],
+       author: 'John Doe <john@doe.com>' }
+);
 </code>
 
 These values would override any metadata set in the <head> of the test and are only needed when the individual test's metadata is different from what's in the <head>.
 
 If there is only a single script test in a file, all metadata should be in the <head>.
+
+=== Metadata Cache  ===
+
+The default version of testharnessreport.js now contains code that reads your per-test metadata and compares it to the cached version. If the cache is not present, or is out of sync, it'll display a message to that effect and generate a link which, when clicked, will generate the appropriate source code for the cached metadata suitable for copy/paste into the test's <head>. The metadata cache need only be generated once just before submitting a test to suites that care about metadata, and regenerated only when the metadata changes.
+
+To access this functionality, launch your script test in a browser and follow the link that appears at the top of the page.
