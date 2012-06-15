@@ -20,7 +20,6 @@ Second, users and authors may have found that they wanted a CSS3-Color feature t
 
   * the opacity argument from rgba() and hsla() should accept a percentage as well, with the obvious meaning.  It's confusing to be restricted to a number in [0,1], since that's effectively a percentage, especially since rgba() allows rgb to be specified in percentages, and hsl() *requires* them for s and l.
   * The rgb components of rgb/a() should accept <number> rather than <integer>, rounding to the nearest value the impl supports.  It's pretty common to get confusing errors when working with colors in <canvas> because you forgot to round the components to the nearest integer, thus producing an invalid color.
-  * An easier way to specify grays, like a ''gray(<number> | <percentage>, <alpha>)'' function.  Grays are pretty common, but require you to either repeat yourself with rgb or hex, or use a bunch of boilerplate with hsl.
   * 4 and 8-digit hex colors, so you can specify alpha with the hex representation.  It's non-trivial to translate hexadecimal to decimal for reformatting the color as rgba().
 ==== theoretical extension requests ====
 Third, there are hypothetical requests for extensions to CSS3-Color features. As these are not real world proven (only theoretical) demands, they are purely tertiary. We may consider them optimistically and include them in working drafts to solicit feedback and additional interest.
@@ -33,7 +32,8 @@ Brand new features for CSS4-Color. We'll follow the same prioritization as above
 ==== Real World Author Extension Needs ====
 
   * Color manipulation functions, like ''lighten(<color>, <percentage>)'' (somewhat useful normally, but really useful when used with Variables).
-
+  * An easier way to specify grays, like a ''gray(<number> | <percentage>, <alpha>)'' function.  Grays are pretty common, but require you to either repeat yourself with rgb or hex, or use a bunch of boilerplate with hsl.
+ 
 ==== Theoretical Extension Requests ====
 
   * A new color definition function using a "better" colorspace, like CIELAB or something?  (HSL is a relatively trivial transformation of the RGB colorspace, and lacks several useful properties like constant perceptual lightness as you rotate the hue.)
