@@ -259,6 +259,7 @@ All flags documented elsewhere are deprecated except the following:
 |  paged  | Only valid for paged media |
 |  should  | Behavior tested is RECOMMENDED, but not REQUIRED. %%[%%[[http://www.ietf.org/rfc/rfc2119.txt|RFC2119]]] |
 |  scroll  | Only valid for continuous (scrolling) media |
+|  speach  | Device supports audio output. Text-to-speach (TTS) engine installed
 |  svg  | Requires support for vector graphics (SVG) |
 |  userstyle  | Requires a user style sheet to be set |
 |  32bit  | Assumes a 32-bit integer as the minimum (-2147483648) or maximum (2147483647) value |
