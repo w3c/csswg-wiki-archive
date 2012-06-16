@@ -31,8 +31,8 @@ When reviewing a test, you're responsible for making sure the test matches the [
 
   * That the test is testing what it thinks it's testing. (I've run across many tests that think they're testing something, but are actually testing something else.)
   * That self-describing test instructions are accurate, precise, simple, and self-explanatory. Your mother/husband/roommate/brother/bus driver should be able to say whether the test passed or failed within a few seconds, and not need to spend several minutes thinking or asking questions.
-  * That the reference for a reftest is accurate and will render identically to the test.
-  * That the reference for a reftest creates the reference rendering using a different technique that won't fail in the same way as the test.
+  * That the reference for a reftest is accurate and will render pixel-perfect identically to the test on all platforms.
+  * That the reference for a reftest uses a different technique that won't fail in the same way as the test.
   * That the title is both //unique// and //descriptive// but not too wordy.
   * That the test is as cross-platform as reasonably possible, working across different devices, screen resolutions, paper sizes, etc. If there are limitations (e.g. the test will only work on 96dpi devices, or screens wider than 200 pixels) that these are documented in the instructions.
   * That the spec backs up the expected behavior in the test. (I've run into a number of tests that make assumptions I could've sworn were in the spec, but aren't there when I go and check. Since this often means the spec forgot to handle something, you should send a message to [[http://lists.w3.org/Archives/Public/www-style/|www-style]] about it.)
