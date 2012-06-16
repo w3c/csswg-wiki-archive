@@ -9,7 +9,7 @@ CSS 2.1 bugs/issues are no longer tracked on this wiki page.  New issues on CSS 
 
 Mailing list sweeps:
   * Up to 2011-01-07 – fantasai, arronei
-  * From 2011-05-01 to 2012-03-31 (and ongoing) - antonp
+  * From 2011-05-01 to 2012-04-30 (and ongoing) - antonp
 
 TODO: perform mailing list sweep for Jan to April 2011; perform sweep for 2010 specifically looking for items marked for consideration in errata; comprehensively review this wiki page to ensure that errata items are captured and moved to Bugzilla (antonp).
 
