@@ -53,6 +53,6 @@ Determining whether the test is correct, and whether it is useful.
 
 These are optional, but make the tests easier to review.
 
-  * [ ] Declarations are listed in a consistent order throughout a test series. (Always listing properties in alphabetical order makes this easy.)
+  * [ ] Declarations are listed in a consistent order throughout a test series. (Always listing properties in alphabetical order makes this easy, but any consistent order ok.)
   * [ ] Requirement flags are in alphabetical order.
   * [ ] Sentences have correct grammar, spelling, and punctuation.
