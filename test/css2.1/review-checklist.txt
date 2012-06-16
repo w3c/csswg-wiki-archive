@@ -44,7 +44,9 @@ Determining whether the test is correct, and whether it is useful.
   * [ ] The pass condition is clear.
   * [ ] The test will not pass inadvertently..
   * [ ] The test contains no extraneous content.
-  * [ ] The test instructions are accurate, precise, simple, and self-explanatory. (Your mother/husband/roommate/brother/bus driver should be able to say whether the test passed or failed within a few seconds, and not need to spend several minutes thinking or asking questions.)
+  * [ ] That self-describing test instructions are accurate, precise, simple, and self-explanatory. Your mother/husband/roommate/brother/bus driver should be able to say whether the test passed or failed within a few seconds, and not need to spend several minutes thinking or asking questions.
+  * [ ] That the reference for a reftest is accurate and will render pixel-perfect identically to the test on all platforms.
+  * [ ] That the reference for a reftest uses a different technique that won't fail in the same way as the test.
   * [ ] The test is as cross-platform as reasonably possible, working across different devices, screen resolutions, paper sizes, etc. If there are limitations (e.g. the test will only work on 96dpi devices, or screens wider than 200 pixels), these are documented in the instructions.
   * [ ] The spec backs up the expected behavior in the test. (I've run into a number of tests that make assumptions I could've sworn were in the spec, but aren't there when I go and check. Since this often means the spec forgot to handle something, you should send a message to www-style about it.)
   * [ ] The test makes no assumptions that aren't in the [[http://www.w3.org/Style/CSS/Test/CSS2.1/current/|list of common assumptions]]
