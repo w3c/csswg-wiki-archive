@@ -77,7 +77,10 @@ If you access the web through a proxy, you'll also need to set that up now. [[ht
 
 You can optionally [[http://mercurial.selenic.com/wiki/MergeProgram|select an interactive merge program]] in place of ''internal:merge''. The merge program will help you resolve conflicts between your work and others' after pulling from the central repository. With ''internal:merge'', Mercurial simply leaves conflict markers in your source, similar to Subversion or other systems.
 
-:?: Depending on your OS and Mercurial root certificate configuration you may get a warning message about the host certificate when communicating with the central repository. If that happens, you can remove those warnings by adding the following to your configuration file:
+<note>
+** Avoiding Fingerprint Warnings (and improving security)**
+
+Depending on your OS and Mercurial root certificate configuration you may get a warning message about the host certificate when communicating with the central repository. If that happens, you can remove those warnings by adding the following to your configuration file:
   [hostfingerprints]
   dvcs.w3.org = f8:9e:e9:55:14:2d:6f:3c:d4:f0:ad:33:fc:7b:7b:26:c0:17:53:d9 
   hg.csswg.org = d4:c1:da:a9:ea:bc:49:25:4b:df:af:4a:a9:b4:6f:ea:51:33:3d:b8 
@@ -85,7 +88,7 @@ You can optionally [[http://mercurial.selenic.com/wiki/MergeProgram|select an in
 Note that these fingerprints will only be valid until the certificates expire (dvcs.w3.org expires 03-may-2014, hg.csswg.org expires expires 16-may-2013). You will need to update the fingerprints when new certificates are issued.
 
 Alternatively (and better if you're on an OS where this is easy), you can avoid ever having to add fingerprints by following [[http://mercurial.selenic.com/wiki/CACertificates#Configuration_of_HTTPS_certificate_authorities|the instructions on the Mercurial wiki]].
-
+</note>
  
 ==== Initial Clone Of The Central Repository ====
 The first step is to clone the central repository to your own machine.
