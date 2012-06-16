@@ -84,10 +84,7 @@ You can optionally [[http://mercurial.selenic.com/wiki/MergeProgram|select an in
   
 Note that these fingerprints will only be valid until the certificates expire (dvcs.w3.org expires 03-may-2014, hg.csswg.org expires expires 16-may-2013). You will need to update the fingerprints when new certificates are issued.
 
-Alternatively (and better if it's possible) if you have an OpenSSL root cert list on your system (e.g., in /etc/ssl/certs/ca-certificates.crt on an Ubuntu system), you can avoid ever having to add fingerprints by adding the following instead:
-  [web]
-  # Affects all HTTPS; see discussion on mercurial-devel, 2010-12-09.
-  cacerts = /etc/ssl/certs/ca-certificates.crt
+Alternatively (and better if you're on an OS where this is easy), you can avoid ever having to add fingerprints by following [[http://mercurial.selenic.com/wiki/CACertificates#Configuration_of_HTTPS_certificate_authorities|the instructions on the Mercurial wiki]].
 
  
 ==== Initial Clone Of The Central Repository ====
