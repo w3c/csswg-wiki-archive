@@ -4,15 +4,15 @@ In order to encourage a higher level of quality in the CSS test suites, tests th
 
 Anyone with the ability to read and understand the [[http://www.w3.org/Style/CSS/Specs/|spec]] and a thorough understanding of the [[http://www.w3.org/Style/CSS/Test/guidelines.html|test suite guidelines]] can review additions and changes to the Approved collection. However a reviewer cannot review his/her own tests and changes.
 
-Tests pending approval are linked from the [[test:css2.1:pending|pending review]] page.
+Tests pending approval are linked from the [[.:css2.1:pending|pending review]] page.
 
 ===== Process ====
 
-  - The reviewer must check each test submitted for approval for conformance to the test suite [[test:format|format]] and [[http://www.w3.org/Style/CSS/Test/guidelines.html|guidelines]] and for correctness with respect to the [[http://www.w3.org/TR/CSS21/|specification]]. For proposed changes to existing approved tests, the reviewer must check the changes for correctness.
-  - If the test does not pass review, the reviewer must tell the submitter what is wrong with the test and what steps should be taken to correct any problems.  Typically the submitter is responsible for fixing the tests, but the reviewer may make the changes directly and then explain to the submitter what they were (possibly by pointing to the change log) and why they were necessary. If these were not metadata-only changes and they are sufficient for the reviewer to consider the test acceptable, then the reviewer should [[test:format#reviewer|add himself as reviewer-author]], and the submitter (or, in the case of abandoned tests, another reviewer) needs to review and accept these changes.
+  - The reviewer must check each test submitted for approval for conformance to the test suite [[format|format]] and [[http://www.w3.org/Style/CSS/Test/guidelines.html|guidelines]] and for correctness with respect to the [[http://www.w3.org/TR/CSS21/|specification]]. For proposed changes to existing approved tests, the reviewer must check the changes for correctness.
+  - If the test does not pass review, the reviewer must tell the submitter what is wrong with the test and what steps should be taken to correct any problems.  Typically the submitter is responsible for fixing the tests, but the reviewer may make the changes directly and then explain to the submitter what they were (possibly by pointing to the change log) and why they were necessary. If these were not metadata-only changes and they are sufficient for the reviewer to consider the test acceptable, then the reviewer should [[format#reviewer|add himself as reviewer-author]], and the submitter (or, in the case of abandoned tests, another reviewer) needs to review and accept these changes.
        * New tests and changes that have been declined by one reviewer cannot be accepted by someone else until the problems are corrected or have been demonstrated to be invalid. In case of a conflict, an Owner or Peer's opinion carries more weight. In all cases the CSS Working Group has final say in whether a test is valid, and may be consulted if deemed necessary.
-  - Once test/changes pass review, the reviewer must [[test:format#reviewer|note their acceptance in the test]]. The test is now "Accepted". At this point an Owner or Peer needs to approve the test.
-  - The [[test:oversight|Owner or Peer]] can either approve the reviewer's judgement if the reviewer is known to be competent in this area, or review the test himself. Once the Owner or Peer is satisfied the test is "Approved". (If the initial reviewer was an Owner or Peer then this step is automatic).
+  - Once test/changes pass review, the reviewer must [[format#reviewer|note their acceptance in the test]]. The test is now "Accepted". At this point an Owner or Peer needs to approve the test.
+  - The [[oversight|Owner or Peer]] can either approve the reviewer's judgement if the reviewer is known to be competent in this area, or review the test himself. Once the Owner or Peer is satisfied the test is "Approved". (If the initial reviewer was an Owner or Peer then this step is automatic).
   - New tests and changes that have been accepted and approved can be moved to the ''approved'' directory by anyone with write access, and that person is not required to perform any further review. The checkin comment should indicate the approver by either "r=approver" if the approver performed a review or "r=reviewer rs=approver" if the approver rubber-stamped the previous reviewer's judgement.
 
 The review process looks like this:
@@ -21,13 +21,13 @@ The review process looks like this:
 
 Changes to the build scripts must be reviewed by a test suite Owner.
 
-To request review, submit proposed tests and changes as described in the [[test:css2.1:contribute|contribution guidelines]].
+To request review, submit proposed tests and changes as described in the [[.:css2.1:contribute|contribution guidelines]].
 
 If these requirements change, notice will be sent to public-css-testsuite of the changes.
 
 ===== Review Checklist =====
 
-When reviewing a test, you're responsible for making sure the test matches the [[test:format|test format]] and [[http://www.w3.org/Style/CSS/Test/guidelines.html|testing guidelines]]. In addition to all the format and validity requirements in those documents, make sure you also check the following:
+When reviewing a test, you're responsible for making sure the test matches the [[format|test format]] and [[http://www.w3.org/Style/CSS/Test/guidelines.html|testing guidelines]]. In addition to all the format and validity requirements in those documents, make sure you also check the following:
 
   * That the test is testing what it thinks it's testing. (I've run across many tests that think they're testing something, but are actually testing something else.)
   * That self-describing test instructions are accurate, precise, simple, and self-explanatory. Your mother/husband/roommate/brother/bus driver should be able to say whether the test passed or failed within a few seconds, and not need to spend several minutes thinking or asking questions.
@@ -36,6 +36,6 @@ When reviewing a test, you're responsible for making sure the test matches the [
   * That the title is both //unique// and //descriptive// but not too wordy.
   * That the test is as cross-platform as reasonably possible, working across different devices, screen resolutions, paper sizes, etc. If there are limitations (e.g. the test will only work on 96dpi devices, or screens wider than 200 pixels) that these are documented in the instructions.
   * That the spec backs up the expected behavior in the test. (I've run into a number of tests that make assumptions I could've sworn were in the spec, but aren't there when I go and check. Since this often means the spec forgot to handle something, you should send a message to [[http://lists.w3.org/Archives/Public/www-style/|www-style]] about it.)
-  * That the test is a [[test:reftest|reftest]] (unless there's a very good reason why the test can not use a reference), preferably self-describing.
+  * That the test is a [[reftest|reftest]] (unless there's a very good reason why the test can not use a reference), preferably self-describing.
 
-A [[test:css2.1:review-checklist|more detailed review checklist]] is available.
+A [[.:css2.1:review-checklist|more detailed review checklist]] is available.
