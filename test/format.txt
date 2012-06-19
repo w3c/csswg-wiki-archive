@@ -211,7 +211,7 @@ The reference link elements are used in [[.:css2.1:test:reftest|reftests]] and p
   * ''match'' references must be files that render identically to the test, but use an alternate means to do so
   * Multiple ''match'' references are used when the test can match **any** of the reference files
     * If a test requires multiple ''match'' references that all need to match (for example, to catch when a reference fails in the same way the test does), then chain the references together, i.e.: place reference links to the additional ''match'' references in the reference files. It is recommended that the chained reference files form a loop (e.g.: a -> b -> c -> a) so that a test linking to any reference in the chain will find all the references.
-  * ''mismatch'' references are files that render differently than the test file. A test may have any number of ''mismatch'' references.
+  * ''mismatch'' references are files that render differently than the test file. A test may have any number of ''mismatch'' references. If multiple ''mismatch'' references are specified, the test is considered to fail if it renders the same as **any** of the ''mismatch'' references. 
   * Reference files may be dedicated reference files, images, or other tests
 
 <note example> 
