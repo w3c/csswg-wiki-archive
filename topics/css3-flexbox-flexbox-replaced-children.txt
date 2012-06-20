@@ -32,11 +32,11 @@ All proposals except C ensure that flex-itemness (and thus the box tree structur
 == Proposal B ==
 
   - Introduce 'display: flex-item', which computes to 'inline' except on the child of a 'display: flex' element.
+     * Corollary: Make flex items with 'display-inside: block' return 'flex-item' as their computed 'display'.
      * Alternative: If we want the behavior of 'flex-item' outside a flex container to be something else (e.g. compute to 'block' or 'inline-block' or create an anonymous flex container parent), we could use the keyword 'inline-flex-item' instead.
   - Assign it to the elements listed above in ua.css.
-  - Make flex items with 'display-inside: block' return 'flex-item' as their computed 'display'.
 
-This is the most disruptive proposal. But it also prevents us from getting stuck on returning 'display: block' for flex items.
+This is the most disruptive proposal, spec-wise. But if it winds up introducing 'display: flex-item', it also prevents us from getting stuck on returning 'display: block' for flex items.
 
 == Proposal C ==
 
