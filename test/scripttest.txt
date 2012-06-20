@@ -34,7 +34,7 @@ The basic usage of the test harness ([[http://w3c-test.org/resources/testharness
 
 ===== Writing tests =====
 
-The full API of testharness.js is documented within the [[http://w3c-test.org/resources/testharness.js|file]]. [[http://documentup.com/paulirish/testharness.js|The API is also documented here]].
+The full API of testharness.js is documented within the [[http://w3c-test.org/resources/testharness.js|file]] itself. [[http://documentup.com/paulirish/testharness.js|The API is also documented here]].
 
 ==== Bug Reporting ====
 
