@@ -5,7 +5,7 @@ Spec_tags     : css3-flexbox
 Owner_tags    : tabatkins
 Status_tags   : Open, Urgent
 Added_dt      : 2012-05-16
-Action        : Pick proposal A or B
+Action        : Pick proposal A, B, C or D
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0558.html
 Proposal_urls : http://lists.w3.org/Archives/Public/www-style/2012May/0558.html
 ----
