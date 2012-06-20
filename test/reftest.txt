@@ -15,7 +15,7 @@ Here is an example of a reftest that is also a self-describing test:
 
 </note>
 
-In some cases, a test cannot be a reftest. For example, there is no way to create a reference for underlining, since the position and thickness of the underline depends on the UA, the font, and/or the platform. In such cases, a [[test:selftest|self-describing test]] must be used. However, once it's established that underlining an inline element works, it's possible to construct a reftest for the correct //propagation// of underlines from blocks to their descendant text, e.g. by constructing a reference that applies underlining to a ''<span>'' wrapped around the underlined text.
+In some cases, a test cannot be a reftest. For example, there is no way to create a reference for underlining, since the position and thickness of the underline depends on the UA, the font, and/or the platform. In such cases, a [[test:selftest|self-describing test]] must be used. However, once it's established that underlining an inline element works, it's possible to construct a reftest for underlining a block element, by constructing a reference using underlines on a <span> that wraps all the content inside the block.
 
 ===== Components of a Reftest =====
 
