@@ -42,7 +42,7 @@ This is the most disruptive proposal, spec-wise. But if it winds up introducing 
 
   * Replaced inlines are flex items, non-replaced inlines are not.
 
-This means whether two elements are separate flex items or merged into an anonymous flex item depends on whether resources load.
+This means whether two elements are separate flex items or merged into an anonymous flex item depends on whether resources load. Consistent with replaced-element magic elsewhere (such as applicability of 'width' and 'height'), but with a more dramatic effect.
 
 == Proposal D ==
 
