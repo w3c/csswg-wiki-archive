@@ -154,7 +154,7 @@ The following is a list of 27 CSS2.1 tests that appear to be unreftestable:
   - [[http://test.csswg.org/suites/css2.1/nightly-unstable/html4/inherit-004.htm
 |[nightly-unstable] inherit-004]] **Reasons why**: "Empty inline elements generate empty inline boxes, but these boxes still have margins, padding, borders and a line height, and thus influence these calculations just like elements with content." coming from [[http://www.w3.org/TR/CSS21/visudet.html#line-height|section 10.8]]. So, a inline box with 'font-weight: bold' can influence height of line box.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/border-bottom-style-003.htm
-|[RC6] border-bottom-style-003]] **Reasons why**: The following border-styles are impossible to reftest: dotted, dashed, ridge, groove, inset, outset, double. Only solid is reftestable.
+|[RC6] border-bottom-style-003]] **Reasons why**: The following border-styles are impossible to reftest: dotted, dashed, ridge, groove, inset, outset, double. Only solid, none, hidden (and sometimes inherit) are reftestable.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/border-bottom-width-036.htm
 |[RC6] border-bottom-width-036]] **Reasons why**: Depending on how tall 1cm is (how it is actually resolved: as 37px or 38px for border), the height of green that we may see could be 75px or it could be 76px. Eg.: Opera 11.64 displays a filled green rectangle of 76px of height while other browsers display a filled green rectangle of 75px.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/border-bottom-width-047.htm
