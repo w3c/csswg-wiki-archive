@@ -52,4 +52,4 @@ Features that were dropped from CSS3-Color (e.g. color profiles) are eligible to
 ===== Current Issues =====
 There is no editor's draft of CSS4-Color yet - so there's nothing to have issues against!
 
-The editor's draft will eventually be on dvcs.w3.org.
+The editor's draft will eventually be on dvcs.w3.org and http://dev.w3.org/csswg/css4-color .
