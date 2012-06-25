@@ -110,7 +110,7 @@ page-break-before:avoid
 This is both a benefit (more expressive) and an inconvenience: since you can express more by using a combination of **break-*** and **page-break-***, people may never fully migrate away from **page-break-***
  
  
-=== shorthand / longhand, take 2 ===
+===== shorthand / longhand, take 2 =====
  
 It may a bit suprising, but we could turn the shorthand / longhand thing on its head, and say that **page-break-*** are shorthands to **break-***. Shorthands with a single longhand are unheard of as far as I know, but it would work relatively intuitively if you don't think of it too much.
  
