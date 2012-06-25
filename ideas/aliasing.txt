@@ -52,7 +52,7 @@ If we naively alias to shorthands together, they will both set the same set of l
 
 ===== Opera's handling of break-* =====
  
-Here is what Opera currently does for **break-*** and **page-break-***. They are parsed separately, and each only accepts the values that their respective specs allow (ie, page-break-before:avoid-column is invalid). At when we determine the specified value, if there is a break-* property, we use that, otherwise if there is a **page-break-*** property we use it, otherwise we use the default value(auto).
+Here is what Opera currently does for **break-*** and **page-break-***. They are parsed separately, and each only accepts the values that their respective specs allow (ie, page-break-before:avoid-column is invalid). When we determine the specified value, if there is a break-* property, we use that, otherwise if there is a **page-break-*** property we use it, otherwise we use the default value (**auto**).
  
 This is stored in an unnamed internal thing that has the semantics of **break-***.
  
