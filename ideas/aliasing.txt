@@ -1,7 +1,5 @@
 The need for css property aliasing has kept showing up recently, but we have yet to define how it actually works. This is an attempt at listing the alternatives. 
 
-**This is a work in progress.**
-
 ====== Use cases ======
 So far, aliasing has been proposed to be used in the following situations:
 
