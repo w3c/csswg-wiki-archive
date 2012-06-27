@@ -3,7 +3,7 @@
 ---- dataentry  ----
 Spec_tags     : css3-flexbox
 Owner_tags    : tabatkins
-Status_tags   : Open, Urgent
+Status_tags   : Resolved
 Added_dt      : 2012-05-16
 Action        : Pick A or B
 Issue_urls    : 
@@ -30,6 +30,10 @@ If the <b> child overlaps the <a> child, should it paint above (that is, accordi
 A. 'flex-order' affects the painting order - items moved earlier paint underneath items moved later.
 
 B. 'flex-order' has no effect on painting order - the original source order determines whether things are painted above/below others. 
+
+=== Resolution ===
+
+Resolved on A.
 
 === Links to More Info ===
 
