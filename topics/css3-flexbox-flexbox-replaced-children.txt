@@ -3,7 +3,7 @@
 ---- dataentry  ----
 Spec_tags     : css3-flexbox
 Owner_tags    : tabatkins
-Status_tags   : Open, Urgent
+Status_tags   : Resolved
 Added_dt      : 2012-05-16
 Action        : Pick proposal A, B, C or D
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0558.html
@@ -49,3 +49,7 @@ This means whether two elements are separate flex items or merged into an anonym
   * Make all child elements of a flex container turn into flex items.
 
 This can be nonsensical for some kinds of content, e.g. a flex container filled with marked-up prose. However, this is not a use case for flexbox.
+
+=== Resolution ===
+
+Resolved on D.
