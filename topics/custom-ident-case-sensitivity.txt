@@ -1,0 +1,41 @@
+====== Case-sensitivity of Author-defined Identifiers ======
+
+---- dataentry ----
+Spec_tags     : css3-values
+Owner_tags    : fantasai
+Status_tags   : Open
+Added_dt      : 2012-06-28        # Date added as WG discussion request
+
+Action        : Discuss and resolve?
+
+Issue_urls    : http://dev.w3.org/csswg/css3-values/issues-lc-2012#issue-29
+Proposal_urls : http://lists.w3.org/Archives/Public/www-style/2012May/0499.html
+Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+----
+
+=== Background ===
+
+So, we resolved to make user-defined identifiers (like counter-names and namespace
+prefixes) case-sensitive to avoid dealing with Unicode case-folding and other
+complications.
+
+This is fine for things that are entirely user-defined, like counters and namespace
+prefixes, but Tab noticed that it presents a problem when we get to counter-styles:
+all our styles right now are predefined keywords, and are thus case-insensitive
+ASCII. When we use @counter-style to define counter styles, we will be allowing
+users to create their own counter styles. Will those be case-sensitive? What if the
+user redefines an existing counter-style?
+
+=== Problem Statement ===
+
+When UA identifiers (insensitive) and user identifiers (sensitive) co-exist, and UA identifiers are defined in terms of user-defined syntax (e.g. @counter-style), what is the case-sensitivity story?
+
+=== Proposal(s) ===
+
+Various options:
+
+  - @counter-style names are always case-insensitive
+     - via Unicode case-folding
+     -  via ASCII case-insensitivity
+  - @counter-style names are always case-sensitive; UA-defined keywords are simply defined for all case permutations. (Overriding one only overrides the permutation given.)
+  - @counter-style names are case-sensitive, except those on the UA-defined list are special and are ASCII case-insensitive.
