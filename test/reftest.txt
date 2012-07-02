@@ -112,9 +112,9 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 30 unreftestable tests ====
+==== 31 unreftestable tests ====
 
-The following is a list of 30 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 31 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
@@ -174,7 +174,9 @@ The following is a list of 30 CSS2.1 tests that appear to be unreftestable:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-wrap-000.htm
 |[RC6] c414-flt-wrap-000]] **Reasons why**: the test uses fractional values (14.98em, 0.01em) which can not be converted consistently into a reftest.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5522-brdr-002.htm
-|[RC6] c5522-brdr-002]] **Reasons why**: the topmost cell will be as wide as the 2 other cell width combined with one cell in a nested table. This is impossible to reftest; it may be possible to reftest with advanced javascript but not with ordinary means.
+|[RC6] c5522-brdr-002]] **Reasons why**: the topmost cell will be as wide as the 2 other cell width combined with one cell in a nested table. It may be possible to reftest this test... but it's not obvious.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/floats-103.htm
+|[RC6] floats-103]] **Reasons why**: It's possible to reftest this test but so far I have not been able to with a table. Maybe it would be possible with a nested table to overcome difficulties.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
 |[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty. I have now been able to create a reftest for such test.
