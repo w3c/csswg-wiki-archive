@@ -1,0 +1,29 @@
+====== Flex Item Painting Rules ======
+
+---- dataentry ----
+Spec_tags     : css3-flexbox
+Owner_tags    : fantasai          # Who's driving the discussion?
+Status_tags   : Open, Urgent
+Added_dt      : 2012-07-09        # Date added as WG discussion request
+
+Action        : Pick A or B
+
+Issue_urls    : 
+Proposal_urls : 
+Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+----
+
+=== Background ===
+
+See [[http://www.w3.org/TR/CSS21/zindex.html|CSS2.1 Appendix E]]
+
+{{:topics:appendixe.jpg?300|}}
+
+=== Problem Statement ===
+
+Do flex items form a pseudo-stacking context (stacking container)?
+
+=== Proposal(s) ===
+
+  ; Proposal A : No, they behave like blocks and table cells
+  ; Proposal B : Yes, and they're painted at the same layer as inline blocks.
