@@ -8,7 +8,7 @@ Added_dt      : 2012-07-09        # Date added as WG discussion request
 
 Action        : Pick A or B
 
-Issue_urls    : 
+Issue_urls    : http://dev.w3.org/csswg/css3-flexbox/issues-lc-2012#issue-5
 Proposal_urls : 
 Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
 ----
@@ -17,7 +17,7 @@ Agenda_urls   : # If this is part of an ordered series of related topics, e.g. L
 
 See [[http://www.w3.org/TR/CSS21/zindex.html|CSS2.1 Appendix E]]
 
-{{:topics:appendixe.jpg?300|}}
+{{:topics:appendixe.jpg|}}
 
 === Problem Statement ===
 
