@@ -17,7 +17,7 @@ Agenda_urls   : # If this is part of an ordered series of related topics, e.g. L
 
 See [[http://www.w3.org/TR/CSS21/zindex.html|CSS2.1 Appendix E]]
 
-{{:topics:appendixe.jpg|}}
+{{:topics:appendixe.jpg?480|}}
 
 === Problem Statement ===
 
