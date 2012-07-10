@@ -27,3 +27,4 @@ Do flex items form a pseudo-stacking context (stacking container)?
 
   ; Proposal A : No, they behave like blocks and table cells
   ; Proposal B : Yes, and they're painted at the same layer as inline blocks.
+  ; Other Options : Yes, and they're painted at [some other] layer.
