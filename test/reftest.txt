@@ -112,9 +112,9 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 34 unreftestable tests ====
+==== 35 unreftestable tests ====
 
-The following is a list of 34 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 35 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
@@ -183,6 +183,8 @@ The following is a list of 34 CSS2.1 tests that appear to be unreftestable:
 |[RC6] inlines-014]] **Reasons why**: It's impossible to predict the amount of descent space below the baseline for local font in use. The test requires to specify line-height affecting the cell box.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/inlines-015.htm
 |[RC6] inlines-015]] **Reasons why**: It's impossible to predict the amount of descent space below the baseline for local font in use. The test requires to specify line-height affecting the cell box.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5525-fltcont-000.htm
+|[RC6] c5525-fltcont-000]] **Reasons why**: It seems impossible to emulate or replace 'text-align: justify' by another feature. Even without/despute 'text-align: justify', the test still would seem difficult to reftest.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
 |[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty. I have now been able to create a reftest for such test.
