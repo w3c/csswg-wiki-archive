@@ -206,7 +206,7 @@ Example 2:
 <link rel="mismatch" href="RELATIVE_PATH_TO_REFERENCE_FILE" />
 </code>
 
-The reference link elements are used in [[.:css2.1:test:reftest|reftests]] and provide the list of reference file(s) that the test should be compared to.
+The reference link elements are used in [[reftest|reftests]] and provide the list of reference file(s) that the test should be compared to.
 
   * ''match'' references must be files that render identically to the test, but use an alternate means to do so
   * Multiple ''match'' references are used when the test can match **any** of the reference files
