@@ -3,7 +3,7 @@
 ---- dataentry  ----
 Spec_tags     : css3-flexbox
 Owner_tags    : tabatkins
-Status_tags   : Resolved
+Status_tags   : Closed
 Added_dt      : 2012-05-16
 Action        : Pick A or B
 Issue_urls    : 
