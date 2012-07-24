@@ -19,7 +19,7 @@ Agenda_urls   : # If this is part of an ordered series of related topics, e.g. L
   * There is a tension resulting from these two intentions, with the following options:
     * A. Prioritize the first (invisibility) over the second (static-position accuracy).
     * B. Prioritize the second (static-position accuracy) over the first (invisibility).
-    * C. Do something more complicated that tries to satisfy both.
+    * C. Do something more complicated that kindof tries to satisfy both.
 
 === Problem Statement ===
 
