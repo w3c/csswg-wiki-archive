@@ -1,4 +1,4 @@
-====== FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion Topic ======
+====== Placeholders and Static Position of Abspos Flex Items ======
 
 ---- dataentry ----
 Spec_tags     : css3-flexbox
