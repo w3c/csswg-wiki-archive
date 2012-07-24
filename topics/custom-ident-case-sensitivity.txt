@@ -1,16 +1,14 @@
 ====== Case-sensitivity of Author-defined Identifiers ======
 
----- dataentry ----
-Spec_tags     : css3-values
+---- dataentry  ----
+Spec_tags     : css4-values
 Owner_tags    : fantasai
 Status_tags   : Open
-Added_dt      : 2012-06-28        # Date added as WG discussion request
-
+Added_dt      : 2012-06-28 #Date added as WG discussion request
 Action        : Discuss and resolve?
-
-Issue_urls    : http://dev.w3.org/csswg/css3-values/issues-lc-2012#issue-29
+Issue_urls    : http://dev.w3.org/csswg/css3-values/issues-lc-2012 #issue-29
 Proposal_urls : http://lists.w3.org/Archives/Public/www-style/2012May/0499.html
-Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
 ----
 
 === Background ===
