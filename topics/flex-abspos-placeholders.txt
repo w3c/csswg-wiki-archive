@@ -42,4 +42,4 @@ Note: This does not affect absolutely-positioned children of a flex item.
   - http://lists.w3.org/Archives/Public/www-style/2012Jul/0262.html (Alex's explanation of the LC spec approach, i.e. proposal C)
   - http://lists.w3.org/Archives/Public/www-style/2012Jul/0419.html (Kenny's original summary of proposals)
   - http://lists.w3.org/Archives/Public/www-style/2012Jul/0430.html (Brad's reply)
-
+  - http://lists.w3.org/Archives/Public/www-style/2012Jul/0547.html (fantasai's summary/request for information)
