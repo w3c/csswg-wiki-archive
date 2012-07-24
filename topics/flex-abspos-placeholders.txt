@@ -23,7 +23,9 @@ Agenda_urls   : # If this is part of an ordered series of related topics, e.g. L
 
 === Problem Statement ===
 
-In the Flexbox model, should placeholders be invisible to layout, should they have their hypothetical position be perfectly accurate, or should they be invisible to layout //and// (mostly) accurate?
+How should the static position of absolutely-positioned children of a flex container be determined?
+
+Note: This does not affect absolutely-positioned children of a flex item.
 
 === Proposal(s) ===
 
