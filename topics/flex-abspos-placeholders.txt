@@ -30,6 +30,10 @@ In the Flexbox model, should placeholders be invisible to layout, should they ha
   ; Proposal A : The static position of the abspos item is the head start corner of the flex container. It has no impact on flex layout.
   ; Proposal B : The static position of the abspos item is given by a placeholder anonymous flex item, which impacts layout during justification (space-around/space-between).
   ; Proposal C : The static position of an abspos item is centered between the margin edges of the previous and next flex items in the line (using the padding edge of the flex container instead where there is no item), and has no impact on flex layout such as justification.
+  
+=== Use Cases to Consider ===
+
+????
 
 === Links to More Info ===
 
