@@ -1,16 +1,14 @@
 ====== Flex Item Painting Rules ======
 
----- dataentry ----
+---- dataentry  ----
 Spec_tags     : css3-flexbox
-Owner_tags    : fantasai          # Who's driving the discussion?
-Status_tags   : Open, Urgent
-Added_dt      : 2012-07-09        # Date added as WG discussion request
-
+Owner_tags    : fantasai #Who's driving the discussion?
+Status_tags   : Closed
+Added_dt      : 2012-07-09 #Date added as WG discussion request
 Action        : Pick A or B
-
-Issue_urls    : http://dev.w3.org/csswg/css3-flexbox/issues-lc-2012#issue-5
+Issue_urls    : http://dev.w3.org/csswg/css3-flexbox/issues-lc-2012 #issue-5
 Proposal_urls : 
-Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
 ----
 
 === Background ===
