@@ -33,6 +33,7 @@ Note: This does not affect absolutely-positioned children of a flex item.
   ; Proposal B : The static position of an abspos item is centered between the margin edges of the previous and next flex items in the line (need to define edge behavior), and has no impact on flex layout such as justification.
   ; Proposal C : The static position of the abspos item is given by a placeholder anonymous flex item, which impacts layout during justification (space-around/space-between).
   ; Proposal D : The static position of an abspos item is a placeholder anonymous flex item whose position coincides with the margin edge of the subsequent flex item (if any, else the preceding flex item, if any, else the main-start cross-start corner) and has no impact on flex layout such as justification.
+  ; Proposal E (C#?) : The static position of the abspos item is given by a placeholder anonymous flex item. The justification space between a preceding flex item and a subsequent placeholder item is suppressed.
 
 === Use Cases to Consider ===
 
