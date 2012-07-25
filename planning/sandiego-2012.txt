@@ -54,4 +54,5 @@ Regrets:
 
 === Proposed Topics ===
 
-  * Add topics here
+  * Prefixing policy
+  * css3-conditional (what to do about the missing OM section)
