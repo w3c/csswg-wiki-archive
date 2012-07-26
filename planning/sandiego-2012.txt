@@ -58,3 +58,6 @@ Regrets:
 
   * Prefixing policy
   * css3-conditional (what to do about the missing OM section)
+  * CSSOM: White-space and line breaks in serialization
+  * overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). http://lists.w3.org/Archives/Public/www-style/2012May/1197.html
+   
