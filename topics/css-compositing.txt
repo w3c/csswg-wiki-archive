@@ -1,4 +1,4 @@
-====== FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion Topic ======
+====== Publish WD of the CSS compositing and blending specification ======
 
 ---- dataentry ----
 Spec_tags     : css-compositing        # in alpha order; or "none"
@@ -20,4 +20,3 @@ The CSS blending and compositing spec was approved as a WD on 2012-07-25 by the 
 === Proposal(s) ===
 
 Please move the spec to working draft.
-
