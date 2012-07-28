@@ -29,23 +29,28 @@ A partial listing of alternate hotels in the area is [[http://goo.gl/maps/FU1t|a
   * [[http://www.sdmts.com/trolley/trolley.asp|The Trolley]] has a station near the hotel and is good for transport in the downtown area (does not go to the airport).
 
 ===== Participants =====
+Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Glenn Adams | Cox | August 12 | August 16 | Marriott | TBD | 
-| Tantek Çelik | Mozilla | – | – | – | | 
+| Tab Atkins | Google | Aug 12 | Aug 16 | Marriott | TBD | |
+| David Baron | Mozilla | Aug 12, 13:20 | Aug 15, 20:00 | Marriott | VX956 / VX969 | |
+| Tantek Çelik | Mozilla | 2012-08-12 13:20 | 2012-08-15 20:00 | Marriott | VX956 / VX969 | 
 | John Daggett | Mozilla | August 12 | August 15 | Hard Rock |  | |
-| Molly Holzschlag | W3C Invited Experts | ?? | ?? | ?? | ?? | Let's go to LegoLand! |
-| Peter Linss  | HP | local | – | – | – | |
-| Edward O'Connor | Apple | 11th | 19th | - | - | - |
-| Bert | W3C | TBD | TBD | TBD | TBD | |
-| Florian Rivoal | Opera | August 12 | August 15 |Marriot |in:AA3105 / out:BA272| |
-| Leif Arne Storset | Opera | August 12 | August 15 |Marriot |in:AA3105 / out:BA272| |
-| Alan Stearns | Adobe | Aug 12 | Aug 17 | Marriott | Alaska 472/487 | |
 | fantasai | Mozilla | Aug 12 | Aug 18 | Marriott | in:VX956 / out:2V565+2V14 | |
 | Daniel Glazman | Disruptive Innovations | Aug 12 | Aug 16 | Marriott | TBD | |
-| Tab Atkins | Google | Aug 12 | Aug 16 | Marriott | TBD | |
-| Steve Zilles | Adobe | Aug 12 | Aug 16 | Marriott | TBD | |
+| Peter Linss  | HP | local | – | – | – | |
 | Luke Macpherson | Google | Aug 13 | Aug 16 | Marriott | | Arriving monday afternoon. |
-| David Baron | Mozilla | Aug 12, 13:20 | Aug 15, 20:00 | Marriott | VX956 / VX969 | |
+| Edward O'Connor | Apple | 11th | 19th | - | - | - |
+| Florian Rivoal | Opera | August 12 | August 15 |Marriot |in:AA3105 / out:BA272| |
+| Alan Stearns | Adobe | Aug 12 | Aug 17 | Marriott | Alaska 472/487 | |
+| Leif Arne Storset | Opera | August 12 | August 15 |Marriot |in:AA3105 / out:BA272| |
+| Steve Zilles | Adobe | Aug 12 | Aug 16 | Marriott | TBD | |
+
+TBD:
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Bert Bos | W3C | TBD | TBD | TBD | TBD | |
+| Molly Holzschlag | W3C Invited Experts | ?? | ?? | ?? | ?? | Let's go to LegoLand! |
+
 
 Regrets:
   * Anton Prowse
