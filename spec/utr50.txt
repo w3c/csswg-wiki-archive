@@ -63,19 +63,6 @@ Potential categories to support special behavior:
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0128.html|Yi and Hangul]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0374.html|Egyp]] also [[http://www.omniglot.com/writing/egyptian_hieratic.htm|Hieratic]] does not rotate
 
-==== Math ====
-
-  * Fonts seem inconsistent about whether fullwidth characters are upright or sideways. ASCII is sideways.
-  * Some of them are unified; U+00B1 PLUS-MINUS SIGN, U+00D7 MULTIPLICATION SIGN, U+00F7 DIVISION SIGN, many Sm in U+22xx etc. have full-width glyphs in Japanese fonts and are traditionally upright. Not very comprehensive nor has logical distinction just like other EAW=A though.
-  * Maybe we could assume MathML are sideways while symbols in text are upright?
-
-Interesting scans:
-
-  * Although Han characters within math are sometimes sideways: http://d.hatena.ne.jp/choiyaki/20110908/1315431640 that may be a limitation of the math typesetter: http://fantasai.inkedblade.net/style/scans/ChinatownSFPL013.png http://fantasai.inkedblade.net/style/scans/ChinatownSFPL015.png
-  * "y" in math are sideways, while "y" in text are upright: http://twitpic.com/2hzi0s
-  * Equals sign is sideways, even when math is set upright: http://fantasai.inkedblade.net/style/scans/ChinatownSFPL023.png http://fantasai.inkedblade.net/style/scans/ChinatownSFPL027.png http://fantasai.inkedblade.net/style/scans/ChinatownSFPL028.png
-  * Koji's book with prime/double prime ?{{:spec:vert_math.png?linkonly|}}
-
 
 ==== Tailoring ====
 
