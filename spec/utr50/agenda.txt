@@ -16,6 +16,7 @@
   * Musical symbols Cf should be R, not U, since they're connectors
   * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=344|Musical Symbols]]
   * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=337|Old Turkic]]
+  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=295|This needs triage]]
 ==== Resolved Issues ====
   * [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=[%3AGeneral_Category%3D%2FLo%7CLl%7CLu%2F%3A]%26[%3AScript%3DCommon%3A]&g=|Math letters]] are MVO=R (sideways)
   * [[http://wiki.csswg.org/spec/utr50/symbols/math|Math symbols]] are MVO=R (sideways)
