@@ -50,13 +50,13 @@ Sorted by family name:
 
 TBD:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
-| Ryan Betts | Adobe | TBD | TBD | TBD | TBD | |
 | Bert Bos | W3C | TBD | TBD | TBD | TBD | |
 | Molly Holzschlag | W3C Invited Experts | ?? | ?? | ?? | ?? | Let's go to LegoLand! |
 
 Regrets:
   * Anton Prowse
   * Brad Kemper (I really thought I would go, but the timing turns out to be terrible for me)
+  * Ryan Betts
 ===== Agenda =====
 
   * TBD
