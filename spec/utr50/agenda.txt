@@ -24,8 +24,8 @@
 
 ^Codepoints^Stack^Mixed^Status^Issue Links^Summary^
 |U+02E5--U+02E9| |U=>R| ✔ |[[http://wiki.csswg.org/spec/utr50/diff20120605#spacing-modifier-letters|Spacing modifier letters]]|Used with Latin| 
-|U+2022--U+2023,U+2043| | :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]]|Bullets sideways|
-|U+2032--U+2037,U+2057| | :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]]|Primes sideways|
+|U+2022--U+2023,U+2043| |U=>R| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]]|Bullets sideways|
+|U+2032--U+2037,U+2057| |U=>R| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]]|Primes sideways|
 |U+2024--U+2026|U=>R|?=>R| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]]|Leaders sideways|
 |U+20A0--U+20CF| |U=R| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]] [[http://wiki.csswg.org/spec/utr50/symbols/currency|List]]|Currency sideways|
 |U+25A0--U+25FF| |R=>U| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]] [[http://www.unicode.org/forum/viewtopic.php?f=35&t=307&sid=8e3c580f52edf233a11648f1a62aa69e|Unicode Forum]]|Geometric Shapes block (So & Sm) upright|
