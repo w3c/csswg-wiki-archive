@@ -1,0 +1,71 @@
+====== San Diego F2F 2012 ======
+
+**When**: August 13-15 2012
+
+**Where**: San Diego Marriott Marquis & Marina - Torrey Pines 2 & 3
+
+**Host**: HP (Peter Linss)
+
+===== Hosted Dinner =====
+
+TBD
+
+===== Lodging =====
+
+The preferred hotel is the:\\
+[[http://www.marriott.com/hotels/travel/sandt-san-diego-marriott-marquis-and-marina/|San Diego Marriott Marquis & Marina]]\\
+333 West Harbor Drive\\
+San Diego, CA 92101\\
++1-619-234-1500\\
++1-800-228-9290\\
+
+If at all possible please book a room at this hotel, a block of rooms has been reserved at a discounted rate. A [[https://lists.w3.org/Archives/Member/w3c-css-wg/2012JulSep/0059.html|link to the registration page is available on the member-only mailing list]].
+
+A partial listing of alternate hotels in the area is [[http://goo.gl/maps/FU1t|available here]].
+
+===== Transport to/from Airport =====
+
+  * The meeting hotel is 3.3 miles south-east of the airport, best bet is a taxi, approximate fare US$15.
+  * [[http://www.sdmts.com/trolley/trolley.asp|The Trolley]] has a station near the hotel and is good for transport in the downtown area (does not go to the airport).
+
+===== Participants =====
+Sorted by family name:
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Glenn Adams | Cox | August 12 | August 16 | Marriott | TBD | 
+| Tab Atkins | Google | Aug 12 | Aug 16 | Marriott | TBD | |
+| David Baron | Mozilla | Aug 12, 13:20 | Aug 15, 20:00 | Marriott | VX956 / VX969 | |
+| Tantek Çelik | Mozilla | 2012-08-12 13:20 | 2012-08-15 20:00 | Marriott | VX956 / VX969 | 
+| John Daggett | Mozilla | August 12 | August 15 | Hard Rock |  | |
+| fantasai | Mozilla | Aug 12 | Aug 18 | Marriott | in:VX956 / out:2V565+2V14 | |
+| Daniel Glazman | Disruptive Innovations | Aug 12 | Aug 16 | Marriott | TBD | |
+| Peter Linss  | HP | local | – | – | – | |
+| Luke Macpherson | Google | Aug 13 | Aug 16 | Marriott | | Arriving monday afternoon. |
+| Edward O'Connor | Apple | 11th | 19th | - | - | - |
+| Florian Rivoal | Opera | August 12 | August 15 |Marriot |in:AA3105 / out:BA272| |
+| Alan Stearns | Adobe | Aug 12 | Aug 17 | Marriott | Alaska 472/487 | |
+| Leif Arne Storset | Opera | August 12 | August 15 |Marriot |in:AA3105 / out:BA272| |
+| Steve Zilles | Adobe | Aug 12 | Aug 16 | Marriott | TBD | |
+| Sylvain Galineau | Microsoft | Aug 12 | Aug 15 | Marriott | in:TBD / out:TBD | |
+| Koji Ishii | Rakuten | TBD | TBD | TBD | TBD | |
+
+TBD:
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Ryan Betts | Adobe | TBD | TBD | TBD | TBD | |
+| Bert Bos | W3C | TBD | TBD | TBD | TBD | |
+| Molly Holzschlag | W3C Invited Experts | ?? | ?? | ?? | ?? | Let's go to LegoLand! |
+
+Regrets:
+  * Anton Prowse
+  * Brad Kemper (I really thought I would go, but the timing turns out to be terrible for me)
+===== Agenda =====
+
+  * TBD
+
+=== Proposed Topics ===
+
+  * Prefixing policy
+  * css3-conditional (what to do about the missing OM section)
+  * CSSOM: White-space and line breaks in serialization
+  * overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). http://lists.w3.org/Archives/Public/www-style/2012May/1197.html
+  * collision: auto | collide | avoid
+   
