@@ -45,7 +45,7 @@ Breakdown of MVO feedback from [[http://blogs.adobe.com/CCJKType/files/2012/07/T
        * U+2018 ‘ LEFT SINGLE QUOTATION MARK
        * U+2019 ’ RIGHT SINGLE QUOTATION MARK
      * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=326|Letterlike Letters]] (except INFORMATION SOURCE) should be sideways
-     * Letterlike Symbols block should be sideways EXCEPT
+     * Letterlike Symbols block should be sideways **EXCEPT**
        * U+2103 ℃ DEGREE CELSIUS
        * U+2109 ℉ DEGREE FAHRENHEIT
        * U+2116 № NUMERO SIGN
