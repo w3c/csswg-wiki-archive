@@ -44,7 +44,7 @@ Potential tailoring categories:
 ===== Comparisons =====
 
   * [[spec:utr50:diff20120609|Differences against the current draft]]
-
+  * [[http://blog.antenna.co.jp/CSSPage/tr50-taro.20120712.html|Comparison of UTR50 and Yamamoto-san's proposal]]
 ===== Notes on Interaction with Font Design =====
 
   * From what I understand, T allows anything; from changing glyph to changing orientations, so although "representative glyphs" are shown, their orientations are undefined in UTR #50. Some rotate, some do not, and it's up to font designer. Is this correct understanding?
