@@ -11,7 +11,44 @@ This is a list of issues with [[http://www.unicode.org/reports/tr50/|Unicode Tec
   * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=332|Small forms parens]] Tr vs R
   * Ideographic space U+3000 SVO=MVO=>U
   * Brackets U+2329, U+232A MVO=>U
-  * Need to break down feedback from tyamamot
+  * Breakdown of MVO feedback from [[http://blogs.adobe.com/CCJKType/files/2012/07/TaroUTR50SortedList112.pdf|Yamamoto-san's proposal]]
+     * IPR symbols should be sideways:
+       * U+00A9 © COPYRIGHT SIGN
+       * U+00AE ® REGISTERED SIGN
+       * U+2117 ℗ SOUND RECORDING COPYRIGHT
+       * U+2120 ℠ SERVICE MARK
+       * U+2122 ™ TRADE MARK SIGN
+     * Footnote symbols and related should be sideways:
+       * U+00A7 § SECTION SIGN
+       * U+00B6 ¶ PILCROW SIGN
+       * U+2016 ‖ DOUBLE VERTICAL LINE
+       * U+2020 † DAGGER
+       * U+2021 ‡ DOUBLE DAGGER
+       * U+2042 ⁂ ASTERISM
+       * U+2051 ⁑ TWO ASTERISKS ALIGNED VERTICALLY
+       * Asterisk (*) is sideways, section (§) is used with numbers, and double vertical line (‖) has rotated vert glyph
+     * Curly quotes should be sideways:
+       * U+2018 ‘ LEFT SINGLE QUOTATION MARK
+       * U+2019 ’ RIGHT SINGLE QUOTATION MARK
+     * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=326|Letterlike Letters]] (except INFORMATION SOURCE) should be sideways
+     * Letterlike Symbols block should be sideways EXCEPT
+       * U+2103 ℃ DEGREE CELSIUS
+       * U+2109 ℉ DEGREE FAHRENHEIT
+       * U+2116 № NUMERO SIGN
+       * U+2121 ℡ TELEPHONE SIGN
+       * U+2139 ℹ INFORMATION SOURCE
+       * U+213A ℺ ROTATED CAPITAL Q
+       * U+213B ℻ FACSIMILE SIGN
+     * Canadian Syllabics (U+1401--U+167F,U+18B0--U+18FF) should be sideways
+     * Per mille / per ten-thousand sign should be sideways
+       * U+2030 ‰ PER MILLE
+       * U+2031 ‱ PER TEN THOUSANDS
+     * Interrobang should be sideways
+       * U+203D ‱ INTERROBANG
+     * Symbolic combining marks (U+20D0--U+20FF) should all be sideways :!:
+     * Geometric Shapes (U+25A0--U+25FF) should be sideways :!:
+     * Small forms (U+FE54--U+FE57,U+FE5F--U+FE62,U+FF68--U+FF6B) should be sideways :!:
+     * Musical symbols (U+1D000--U+1D1FF) should be sideways [[http://www.unicode.org/forum/viewtopic.php?f=35&t=344|Forum post]]
 ==== Lower Priority ====
 
   * [[http://wiki.csswg.org/spec/utr50/diff20120605#cjk-compatibility-forms|overlines and low lines]] and DOUBLE LOW LINE (SVO)
