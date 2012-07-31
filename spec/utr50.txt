@@ -1,30 +1,42 @@
 ====== UTR #50 Review Memo ======
 This page is a memo page to make our discussion on [[http://www.unicode.org/reports/tr50/|UTR #50]] smooth.
 
+===== Open Issues =====
+
+[[:spec:utr50:agenda|Tracking open issues, or resolved issues not yet published in an update]]
+
 ===== Analysis by Codepoint =====
 
-Codes used for analysis by codepoint:
+Two modes are presented: Stacked (''text-orientation: upright'') and Mixed (''text-orientation: mixed''). Codes used for analysis by codepoint:
 
-^Code^UTR50^MSFT^Meaning^
-^U|U|S|Upright; translates between horizontal and vertical|
-^R|S|R|Sideways; rotates between horizontal and vertical|
-^T<sub>U</sub>|T|ST|Typeset upright with alternate glyph. Best fallback is just upright.|
-^T<sub>R</sub>|SB|RT|Typeset upright with alternate glyph. Best fallback is just sideways.|
-^V|?|?|Upright wrt Unicode code charts, but translates between horizontal and vertical|
+^Code^Meaning^
+^U|Upright; translates between horizontal and vertical|
+^R|Sideways; rotates between horizontal and vertical|
+^T<sub>U</sub>|Typeset upright with alternate glyph. Best fallback is just upright.|
+^T<sub>R</sub>|Typeset upright with alternate glyph. Best fallback is just sideways.|
+^V|Upright wrt Unicode code charts, but translates between horizontal and vertical (VO=U/HO=L)|
 
-Two modes are presented: Stacked (''text-orientation: upright'') and Mixed (''text-orientation: mixed'')
+Codepoint classifications and notes by general category:
 
-^General Category^Stack^Mixed^Memo^
-|[[http://www.fileformat.info/info/unicode/category/Cc/list.htm|Other, Control (Cc)]]|R|R|:?: undefined in stacked mode|
-|[[http://www.fileformat.info/info/unicode/category/Cf/list.htm|Other, Format (Cf)]]|R|R|:?: undefined in stacked mode|
-|[[http://www.fileformat.info/info/unicode/category/Co/list.htm|Other, Private Use (Co)]]|U|U| Bias for East Asian use, since other usage is unknown |
-|[[http://www.fileformat.info/info/unicode/category/Cs/list.htm|Other, Surrogate (Cs)]]|R|R|:?: no need to define?|
-|M*|Follows grapheme cluster|||
-|L* and N*| See [[spec:utr50:letters]]|||
-|P* and Z*| See [[spec:utr50:punctuation]]|||
-|S* | See [[spec:utr50:symbols]]|||
+  * [[spec:utr50:letters|Letters (L*) and Numbers (N*)]]
+  * [[spec:utr50:punctuation|Punctuation (P*) and Spaces (Z*)]]
+  * [[spec:utr50:symbols|Symbol, Modifier (Sk)]]
+  * [[spec:utr50:symbols:currency|Symbol, Currency (Sc)]]
+  * [[spec:utr50:symbols:math|Symbol, Math (Sm)]]
+  * [[spec:utr50:symbols:currency|Symbol, Currency (Sc)]]
+  * Symbol, Other (So)
+    * [[spec:utr50:symbols:textual]]
+    * [[spec:utr50:symbols:pictographs]]
+    * [[spec:utr50:symbols:cjk]]
+    * [[spec:utr50:symbols:enclosed]]
+    * [[spec:utr50:symbols:ancient]]
+    * [[spec:utr50:symbols:game]]
+    * [[spec:utr50:symbols:technical]]
+    * [[spec:utr50:symbols:drawing]]
+  * [[spec:utr50:symbols:arrows]] (So and Sm)
+  * [[spec:utr50:control]]
 
-Potential categories to support special behavior:
+Potential tailoring categories:
   * [[spec:utr50:symbols:arrows|Arrows]]
   * Math relational operators (equals, greater-than, etc)
   * SB brackets
@@ -32,18 +44,9 @@ Potential categories to support special behavior:
 ===== Comparisons =====
 
   * [[spec:utr50:diff20120609|Differences against the current draft]]
-===== General =====
-  * [[http://www.unicode.org/review/pri207/|PRI #207]] review period ends on Oct 24th, 2011 --- way too short
-  * Eric mentioned that [[http://www.unicode.org/forum/viewtopic.php?f=35&t=201|UTR #50 is for Japanese text and should define Hangul orientation that appears in Japanese text, rather than Hangul native orientation]]. Our goal of "upright-right" is a good vertical text flow for East Asian. Are we seeing things differently?
-  * UTR #50 only tries "some level of compatibility with existing fonts". Again, this is very different from our goals, isn't this?
-  * UTR #50 defines not only glyph orientation in vertical text flow but also character spacing classes in horizontal text flow, similar to what we have in the [[http://dev.w3.org/csswg/css3-text/#text-spacing-prop|text-spacing]] property. Shouldn't this be a separate discussion? Review period is too short for such a big property.
-  * UTR #50's suggested grapheme clusterization is a) imprecise b) doesn't handle exceptions in [[http://www.w3.org/TR/css3-writing-modes/#character-properties|Me and Zs categories]]
-  * Should add categories for tailorable vs. not tailorable, e.g. Phags-pa and Ideographic are not tailorable to rotate.
-  * OpenType feature for sideways vertical glyphs would be critical to allow calligraphic and condensed fonts to work with this scheme.
-===== The East Asian Orientation Property =====
-  * What are the definitions of U, S, SB, and T? ([[http://www.unicode.org/forum/viewtopic.php?f=35&t=198|Tk is gone]])
-    * Which one allows font designers to put alternate glyphs; i.e., UA applies vert feature?
-    * Maybe most of the following issues are related with the fundamental question: "what are the goals of UTR #50". If it's for font designers to decide visual glyph orientations to put in vert table, some of these problems are gone, and CSS WG still needs to develop our own algorithm to decide orientation for UAs to render, which could be different from visual glyph orientation.
+
+===== Notes on Interaction with Font Design =====
+
   * From what I understand, T allows anything; from changing glyph to changing orientations, so although "representative glyphs" are shown, their orientations are undefined in UTR #50. Some rotate, some do not, and it's up to font designer. Is this correct understanding?
   * If UTR #50 means fonts should not change glyphs/positions for U/S/SB, there are compatibility and font designing problems here.
     * Some fonts use different glyphs for parenthesis/brackets in vertical  flow; e.g., U+FF62/FF63. {{ :spec:kodomonoji_20111005-en.png?linkonly|}}
@@ -57,16 +60,7 @@ Potential categories to support special behavior:
     * EM DASH, Arrows, etc. aligns at center baseline?
     * Most font designers I contacted believe that it's ok as long as the font is a square font, but I'm worried as it has never been tested at all.
 
-==== Yi, Mongolian, Hangul, Bopomofo, Egyp ====
-  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=202|Vertical Directionality property from johnwcowan]]
-  * [[http://lists.w3.org/Archives/Public/public-i18n-cjk/2011OctDec/0000.html|Hangul characters upright or sideways in vertical flow?]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0128.html|Yi and Hangul]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0374.html|Egyp]] also [[http://www.omniglot.com/writing/egyptian_hieratic.htm|Hieratic]] does not rotate
-
-
-==== Tailoring ====
-
-CSS would need to define some tailorings, should the Unicode spec include them too? E.g.
+===== Potential Tailorings =====
 
   * upright-cyrillic
   * upright-greek
@@ -77,10 +71,10 @@ CSS would need to define some tailorings, should the Unicode spec include them t
   * upright-numeric
   * sideways-unified-punctuation-type-stuff?
 
-===== The East Asian Class Property ======
-Not reviewed yet.
-
-
 ===== Historical ======
 
-[[http://lists.w3.org/Archives/Public/www-international/2011OctDec/0034.html|Comments from CSS3 Writing Modes editors to Unicode circa October 2011]]
+  * [[http://lists.w3.org/Archives/Public/www-international/2011OctDec/0034.html|Comments from CSS3 Writing Modes editors to Unicode circa October 2011]]
+  * [[http://www.unicode.org/forum/viewtopic.php?f=35&t=202|Vertical Directionality property from johnwcowan]]
+  * [[http://lists.w3.org/Archives/Public/public-i18n-cjk/2011OctDec/0000.html|Hangul characters upright or sideways in vertical flow?]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0128.html|Yi and Hangul]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Oct/0374.html|Egyp]] also [[http://www.omniglot.com/writing/egyptian_hieratic.htm|Hieratic]] does not rotate
