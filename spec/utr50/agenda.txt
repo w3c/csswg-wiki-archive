@@ -24,7 +24,8 @@ This is a list of issues with [[http://www.unicode.org/reports/tr50/|Unicode Tec
 
 ==== Tyamamot's Feedback ====
 
-  * Breakdown of MVO feedback from [[http://blogs.adobe.com/CCJKType/files/2012/07/TaroUTR50SortedList112.pdf|Yamamoto-san's proposal]]
+Breakdown of MVO feedback from [[http://blogs.adobe.com/CCJKType/files/2012/07/TaroUTR50SortedList112.pdf|Yamamoto-san's proposal]]
+
      * IPR symbols should be sideways:
        * U+00A9 © COPYRIGHT SIGN
        * U+00AE ® REGISTERED SIGN
