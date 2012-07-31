@@ -20,13 +20,15 @@
 ==== Resolved Issues ====
   * [[http://unicode.org/cldr/utility/list-unicodeset.jsp?a=[%3AGeneral_Category%3D%2FLo%7CLl%7CLu%2F%3A]%26[%3AScript%3DCommon%3A]&g=|Math letters]] are MVO=R (sideways)
   * [[http://wiki.csswg.org/spec/utr50/symbols/math|Math symbols]] are MVO=R (sideways)
-  * Fraction slash -- shouldn't it be U, since fractions are all U?
 
 ^Codepoints^Stack^Mixed^Status^Issue Links^Summary^
-|U+02E5--U+02E9| |U=>R| ✔ |[[http://wiki.csswg.org/spec/utr50/diff20120605#spacing-modifier-letters|Spacing modifier letters]]|Used with Latin| 
+|U+00B0--U+00B1,U+00D7,U+00F7| |U=>R| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]]|ASCII math sideways|
+|U+02E5--U+02E9| |U=>R| ✔ |[[http://wiki.csswg.org/spec/utr50/diff20120605#spacing-modifier-letters|Spacing modifier letters]]|Used with Latin|
+|U+2017,U+FE49--U+FE4F| |U=>R| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]]|Under/overlines sideways|
 |U+2022--U+2023,U+2043| |U=>R| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]]|Bullets sideways|
 |U+2032--U+2037,U+2057| |U=>R| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]]|Primes sideways|
 |U+2024--U+2026|U=>R|?=>R| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]]|Leaders sideways|
+|U+2044| |R=>U| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]] [[http://www.unicode.org/forum/viewtopic.php?f=35&t=288|Forum]]|Fractions upright :!: Might need revisiting|
 |U+20A0--U+20CF| |U=R| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]] [[http://wiki.csswg.org/spec/utr50/symbols/currency|List]]|Currency sideways|
 |U+25A0--U+25FF| |R=>U| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]] [[http://www.unicode.org/forum/viewtopic.php?f=35&t=307&sid=8e3c580f52edf233a11648f1a62aa69e|Unicode Forum]]|Geometric Shapes block (So & Sm) upright|
 |U+2768--U+2775| |U=>R| ✔ |[[http://wiki.csswg.org/spec/utr50/diff20120605#dingbats|Dingbats Parens]]|All Ps/Pe should be SVO=MVO=R|
@@ -37,5 +39,4 @@
 |U+FE63--U+FE66|U=>R|U=>R| :!: | [[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]] [[http://wiki.csswg.org/spec/utr50/diff20120605#small-form-variants|Small forms variants]]|Dash, relational operators sideways|
 |U+FF0D|Tr=>R|Tr=>R| :!: | [[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]] [[http://www.unicode.org/forum/viewtopic.php?f=35&t=314|Forum]]|Dashes sideways|
 |U+FF1C--U+FF1E|Tr=>R|Tr=>R| :!: | [[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]] [[http://www.unicode.org/forum/viewtopic.php?f=35&t=315|Forum]]|Math operators sideways; fonts don't support vert rotation|
-
-[[http://www.unicode.org/forum/viewtopic.php?f=35&t=321|Unicode Forum]]
+|U+FF61--U+FFDF,U+FFE8--U+FFEF| |?=>R| :!: |[[http://www.unicode.org/forum/viewtopic.php?f=35&t=324|Minutes]] [[http://www.unicode.org/forum/viewtopic.php?f=35&t=321|Forum]]| Halfwidth sideways|
