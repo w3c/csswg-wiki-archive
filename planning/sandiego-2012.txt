@@ -47,6 +47,7 @@ Sorted by family name:
 | Steve Zilles | Adobe | Aug 12 | Aug 16 | Marriott | TBD | |
 | Sylvain Galineau | Microsoft | Aug 12 | Aug 15 | Marriott | in:TBD / out:TBD | |
 | Koji Ishii | Rakuten | TBD | TBD | TBD | TBD | |
+| Rossen Atanassov | Microsoft | Aug 12 | Aug 15 | Marriott | in:TBD / out:TBD | |
 
 TBD:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
