@@ -69,4 +69,5 @@ Regrets:
   * CSSOM: White-space and line breaks in serialization
   * overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). http://lists.w3.org/Archives/Public/www-style/2012May/1197.html
   * collision: auto | collide | avoid
+  * pseudo-element extensions
    
