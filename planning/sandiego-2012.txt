@@ -70,4 +70,8 @@ Regrets:
   * overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). http://lists.w3.org/Archives/Public/www-style/2012May/1197.html
   * collision: auto | collide | avoid
   * pseudo-element extensions
-   
+  * CSS3 Text: remaining issues, preparation for LC?
+  * CSS3 Writing Modes: UTR50 and how to make progress
+  * CSS3 Fragmentation: review of edits, WD
+  * CSS3 Grid Layout
+  * Selectors 4
