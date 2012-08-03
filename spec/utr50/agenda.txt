@@ -59,9 +59,6 @@ Breakdown of MVO feedback from [[http://blogs.adobe.com/CCJKType/files/2012/07/T
        * U+2031 ‱ PER TEN THOUSANDS
      * Interrobang should be sideways
        * U+203D ⸘ INTERROBANG
-     * Symbolic combining marks (U+20D0--U+20FF) should all be sideways :!:
-     * Geometric Shapes (U+25A0--U+25FF) should be sideways :!:
-     * Small forms (U+FE54--U+FE57,U+FE5F--U+FE62,U+FF68--U+FF6B) should be sideways :!:
      * Musical symbols (U+1D000--U+1D1FF) should be sideways [[http://www.unicode.org/forum/viewtopic.php?f=35&t=344|Forum post]]
 
 :!: Conflicts with UTR50 resolutions.
