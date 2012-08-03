@@ -4,5 +4,6 @@
 
 ====== Run-in Use-cases ======
 
-  * making <dt>s inline in the following <dd> (similar to how inline list markers work)
-  * "small" (inside body content?) headings, which shouldn't carry too much visual weight to avoid distration
+  * making <dt>s inline into the following <dd>, as in dictionaries
+  * minor headings, which shouldn't carry too much visual weight to avoid distration
+  * Author credits, reporting locations, or dates on articles, which are often formatted inline in the first paragraph or last paragraph of an article
