@@ -83,3 +83,4 @@ Regrets:
   * Selectors 4
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html|Region overflow proposal]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html|Pseudo-elements proposal]]
+  * Future meetings
