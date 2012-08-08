@@ -10,6 +10,8 @@ In somewhat order of priority:
 
 ===== extensions to css3-ui features =====
 
+  See also 'nav-index' ideas in [[:ideas:nav-index]]
+
 ==== implementation extensions ====
 Implementations may have found it useful to extend existing CSS3-UI features, but perhaps they are only experimental extensions or single implementations.
 
