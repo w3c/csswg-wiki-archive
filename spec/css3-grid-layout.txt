@@ -1,6 +1,6 @@
 ===== CSS3 Grid Layout =====
 
-This page contains the issues that are not yet listed in the specification and the resolutions for issues that were in the spec. but got resolved.
+This page contains material to facilitate discussion of issues surrounding the CSS3 Grid Layout module.
 
 ===== spec pointers =====
 
@@ -8,6 +8,44 @@ Link to current Working Draft:[[http://www.w3.org/TR/css3-grid-layout/]]
 
 Link to current Editor's draft: [[http://dev.w3.org/csswg/css3-grid-align/]]
 
+===== Issues for August 8th, 2012 Telcon =====
+
+=== Alignment of Grid Items versus Flex Items versus Block-level Boxes ===
+
+Three scenarios where boxes are stretch aligned that we could make agree in their behavior (or not):
+
+  - Resolving the width and left/right margins of block-level boxes that "stretch" to touch the edges of their containing block
+  - Resolving the cross size property and cross margins of a flex item such that its margin box stretches to touch the cross edges of its line
+  - Resolving the width or height and margins of a grid item such that the box touches the edges of its grid cell (now calling this grid-area in most recent ED)
+
+In each of these cases we satisfy the equation: 
+
+margin_size1 + border_size1 + padding_size1 + box_size + padding_size2 + border_size2 + margin_size2 == space afforded to item by parent container
+
+  - If box_size is auto then first we adjust it up or down to make the equation true while respecting any min/max constraints on the applicable dimension
+  - If that isn't sufficient we do additional adjustments on margins
+      - If only one margin was auto we adjust that one to make the equation true
+      - If both of the margins were auto we take the additional space needed to make the equation true and divide it by 2 then assign it to each margin
+      - If neither margin is auto (the over-constrained case), we take the second margin (nearest the ending edge) and adjust it to make the equation true
+
+When both margins are auto though, and the box is larger than the space afforded to it by its container, a paragraph of section 9.3 for css3-box http://www.w3.org/TR/css3-box/#blockwidth says:
+
+If ‘width’ is not ‘auto’ and ‘border-left-width’ + ‘padding-left’ + ‘width’ + ‘padding-right’ + ‘border-right-width’ + scrollbar width (if any) (plus any of ‘margin-left’ or ‘margin-right’ that are not ‘auto’) is larger than the width of the containing block, then any ‘auto’ values for ‘margin-left’ or ‘margin-right’ are, for the following rules, treated as zero. We should drop this paragraph. It causes blocks that are wider than their parent not to be centered (unlike blocks that are narrower), which looks strange. 
+
+The Grid ignores the paragraph above as suggested so that two auto margins will always result in a centered item whenever width/height is not auto.  I noticed that Flexbox keeps the last sentence per its example 10 in the latest ED http://dev.w3.org/csswg/css3-flexbox/#auto-margins. 
+
+=== Valid Grid Items ===
+
+Options:
+  - Snap to definition of Flex Items i.e. every child element is a valid Grid Item and runs of loose text are surrounded in anonymous items (current ED)
+  - Make contents of a Grid Element wrapped in a default Grid Item (which is an anonymous flow) and then pull elements out of that flow and onto grid by using the grid-* properties
+  
+The first option works well with auto-positioning while the second would require the author to write a (trivial) rule to declare that all elements are in fact grid items: #grid > * { grid-area: auto; }
+The second option could be used position descendants of the grid in addition to just children, but breaks from the pattern established by flexbox and would differ from IE's current implementation.
+
+=== Shorthands ===
+
+We have four leaf level properties and five proposed shorthands.  Are we overdoing it?  See table below from Hamburg F2F.
 
 ===== Issues for Hamburg F2F =====
 
