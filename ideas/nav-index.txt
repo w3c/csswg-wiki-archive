@@ -1,6 +1,6 @@
 ====== Improving Tab Navigation ======
 
-There have been a number of concerns raised with the current 'nav-index' property. This page is to document them and the resulting discussions, with the aim of addressing these issues in CSS4 UI.
+There have been a number of concerns raised with the current 'nav-index' property. This page is to document them and the resulting discussions, with the aim of addressing these issues in a future revision of the UI module.
 
   * [[http://lists.w3.org/Archives/Public/www-style/2012Jun/0479.html|Visual vs. logical ordering switch]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0712.html|Handling HTML5's new 0 and -1 behaviors]]
