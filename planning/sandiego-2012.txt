@@ -92,3 +92,4 @@ Regrets:
   * CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.
   * CSS3 Syntax: review, FPWD
   * CSS3 Lists, CSS Counter Styles: Review, publishing. Rearrange the specs so that @counter-style moves to the Counter Style doc and goes to LC?
+  * Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
