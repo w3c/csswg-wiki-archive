@@ -87,3 +87,4 @@ Regrets:
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html|Pseudo-elements proposal]]
   * Variables
   * Future meetings
+  * CSS3 Conditional Object Model - publish WD
