@@ -2,6 +2,6 @@
 
 There have been a number of concerns raised with the current 'nav-index' property. This page is to document them and the resulting discussions, with the aim of addressing these issues in CSS4 UI.
 
-  * Visual vs. logical ordering switch
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Jun/0479.html|Visual vs. logical ordering switch]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0712.html|Handling HTML5's new 0 and -1 behaviors]]
   * Scoping tab navigation indices, so that it can be used in complex pages.
