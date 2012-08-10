@@ -1,13 +1,11 @@
 ====== Publish WD of the CSS compositing and blending specification ======
 
----- dataentry ----
-Spec_tags     : css-compositing        # in alpha order; or "none"
-Owner_tags    : cabanier          # Who's driving the discussion?
-Status_tags   : Open            # [ Open | Resolved | Closed | Pending ] [, Urgent]?
-Added_dt      : 2012-07-27        # Date added as WG discussion request
-
+---- dataentry  ----
+Spec_tags     : css-compositing #in alpha order; or "none"
+Owner_tags    : cabanier #Who's driving the discussion?
+Status_tags   : Resolved #[ Open | Resolved | Closed | Pending ] [, Urgent]?
+Added_dt      : 2012-07-27 #Date added as WG discussion request
 Action        : Publish WD of the CSS compositing and blending specification
-
 Proposal_urls : https://dvcs.w3.org/hg/FXTF/rawfile/tip/compositing/index.html
 ----
 
