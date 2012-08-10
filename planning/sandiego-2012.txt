@@ -94,3 +94,4 @@ Regrets:
   * CSS3 Lists, CSS Counter Styles: Review, publishing. Rearrange the specs so that @counter-style moves to the Counter Style doc and goes to LC?
   * Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
   * css3-animations: open issues, update WD, when could we go LC?
+  * Sticky positioning
