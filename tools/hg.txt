@@ -14,7 +14,7 @@ With a distributed version control system, every user has their own repository, 
 
 ==== Installing Mercurial ====
 
-You need to first [[tools:hg:install|install Mercurial on your system]], if you haven't already. Our server is running version 2.1. Earlier versions should work, but we recommend using the latest client.
+You need to first [[tools:hg:install|install Mercurial on your system]], if you haven't already. Our server is running version 2.3. Earlier versions should work, but we recommend using the latest client.
 
 You can see if you already have Mercurial installed by opening up a command shell and typing:
 <code>
@@ -24,7 +24,7 @@ hg --version
 You should see something like:
 
 <code>
-Mercurial Distributed SCM (version 2.2.1)
+Mercurial Distributed SCM (version 2.3)
 (see http://mercurial.selenic.com for more information)
 </code>
 
