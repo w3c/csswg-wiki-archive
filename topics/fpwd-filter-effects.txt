@@ -6,7 +6,7 @@ Owner_tags    : dschulze          # Who's driving the discussion?
 Status_tags   : Open            # [ Open | Resolved | Closed | Pending ] [, Urgent]?
 Added_dt      : 2012-08-10        # Date added as WG discussion request
 
-Action        : Resolve to publish FPWD of Filter Effects 1.0 # Or, if Pending, pending what?
+# Action        : Resolve to publish FPWD of Filter Effects 1.0 # Or, if Pending, pending what?
                 # Some Examples:
 # Action        : Pick A, B, or C?
 # Action        : Approve the proposal?
@@ -14,7 +14,7 @@ Action        : Resolve to publish FPWD of Filter Effects 1.0 # Or, if Pending, 
 # Action        : Help research needed info!
 # Action        : Help write proposals!
 # Action        : Give feedback!
-# Action        : Publish FPWD/WD/LC/CR/PR/REC!
+Action        : Publish FPWD
 
 Issue_urls    : https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html
 Proposal_urls : 
