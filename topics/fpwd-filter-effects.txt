@@ -1,0 +1,39 @@
+====== Request for FPWD of Filter Effects 1.0 ======
+
+---- dataentry ----
+Spec_tags     : filter-effects       # in alpha order; or "none"
+Owner_tags    : dschulze          # Who's driving the discussion?
+Status_tags   : Open            # [ Open | Resolved | Closed | Pending ] [, Urgent]?
+Added_dt      : 2012-08-10        # Date added as WG discussion request
+
+Action        : Resolve to publish FPWD of Filter Effects 1.0 # Or, if Pending, pending what?
+                # Some Examples:
+# Action        : Pick A, B, or C?
+# Action        : Approve the proposal?
+# Action        : Discuss problem and provide direction?
+# Action        : Help research needed info!
+# Action        : Help write proposals!
+# Action        : Give feedback!
+# Action        : Publish FPWD/WD/LC/CR/PR/REC!
+
+Issue_urls    : https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html
+Proposal_urls : 
+Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+----
+
+=== Background ===
+
+Over the last couple of months, the SVG Filter module, the CSS filter shorthands and the CSS Shader specification were merged to Filter Effects 1.0.
+The current version addresses all security concerns that were raised so far. The filter model was improved and we have a first implementation of Filter Effects with the current security model for shaders.
+
+=== Problem Statement ===
+
+The SVG WG already resolved to publish the FPWD of Filter Effects 1.0. Since it is a product of the FX TF, the CSS WG needs to approve the publication as well.
+
+=== Proposal(s) ===
+
+First publication of Filter Effects 1.0 as WD.
+
+=== Links to More Info ===
+
+  - [[https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html]]
