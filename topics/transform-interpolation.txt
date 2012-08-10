@@ -83,3 +83,7 @@ Note: For WebKit (for Safari) the HW acceleration needs premultiplied transform 
 === Links to More Info ===
 
   - http://lists.w3.org/Archives/Public/www-style/2012Jul/0460.html
+
+=== Resolution ===
+  * Unordered List Itemtransform functions should be interpolated per pair, if the number of transforms and the types match. Independent of the actual transform function. That means special cases in the spec like premultiplying transform functions if one value is perspective need to get removed.
+  * Check interpolation behavior on rotate3d on current browsers. Consider numerical interpolation of rotate3d on certain cases.
