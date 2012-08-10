@@ -1,24 +1,14 @@
 ====== Premultiply transform functions before interpolation on unequal transform function primitives ======
 
----- dataentry ----
-Spec_tags     : css3-transforms        # in alpha order; or "none"
-Owner_tags    : smfr          # Who's driving the discussion?
-Status_tags   : Open            # [ Open | Resolved | Closed | Pending ] [, Urgent]?
-Added_dt      : 2012-07-24        # Date added as WG discussion request
-
+---- dataentry  ----
+Spec_tags     : css3-transforms #in alpha order; or "none"
+Owner_tags    : krit #Who's driving the discussion?
+Status_tags   : Resolved #[ Open | Resolved | Closed | Pending ] [, Urgent]?
+Added_dt      : 2012-07-24 #Date added as WG discussion request
 Action        : Resolve if current spec behavior or the behavior suggested by Mozilla should be chosen.
-                # Some Examples:
-# Action        : Pick A, B, or C?
-# Action        : Approve the proposal?
-# Action        : Discuss problem and provide direction?
-# Action        : Help research needed info!
-# Action        : Help write proposals!
-# Action        : Give feedback!
-# Action        : Publish FPWD/WD/LC/CR/PR/REC!
-
 Issue_urls    : https://www.w3.org/Bugs/Public/show_bug.cgi?id=18366
 Proposal_urls : 
-Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
+Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
 ----
 
 === Background ===
