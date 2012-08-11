@@ -83,8 +83,8 @@ Regrets:
   * CSS3 Fragmentation: review of edits, WD
   * CSS3 Grid Layout
   * Selectors 4
-  * Request for FPWD of Filter Effects 1.0 [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html|Region overflow proposal]]
-  * Interpolation behavior on rotate3d [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html|Pseudo-elements proposal]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html|Region overflow proposal]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html|Pseudo-elements proposal]]
   * Variables
   * Future meetings
   * CSS3 Conditional Object Model - publish WD
