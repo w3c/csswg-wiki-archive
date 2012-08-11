@@ -86,7 +86,7 @@ Regrets:
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html|Region overflow proposal]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html|Pseudo-elements proposal]]
   * Variables
-  * Future meetings
+  * [[planning:2013|Future meetings]]
   * CSS3 Conditional Object Model - publish WD
   * Aliasing page-break and break
   * CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.
