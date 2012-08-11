@@ -95,5 +95,5 @@ Regrets:
   * Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
   * css3-animations: open issues, update WD, when could we go LC?
   * Sticky positioning
-  * [[http://wiki.csswg.org/topics/fpwd-filter-effects]]
-  * [[http://wiki.csswg.org/topics/interpolation-rotate3d]]
+  * [[topics:fpwd-filter-effects|]]
+  * [[topics:interpolation-rotate3d|]]
