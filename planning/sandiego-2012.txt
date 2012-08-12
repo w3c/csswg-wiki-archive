@@ -54,10 +54,6 @@ Sorted by family name:
 | Koji Ishii | Rakuten | Aug 12| Aug 16 | Marriott | DL156+DL7677/DL4807+DL283 | |
 | Rossen Atanassov | Microsoft | Aug 12 | Aug 15 | Marriott | in:TBD / out:TBD | |
 
-TBD:
-^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
-| Molly Holzschlag | W3C Invited Experts | ?? | ?? | ?? | ?? | Let's go to LegoLand! |
-
 Regrets:
   * Anton Prowse
   * Brad Kemper (I really thought I would go, but the timing turns out to be terrible for me)
@@ -67,6 +63,7 @@ Regrets:
   * Håkon
   * John Jansen (I too thought I was going to make it, but the timing is off)
   * Arron Eicholz (I unfortunately can't make it but I will be on IRC the whole time as usual)
+  * Molly Holzschlag (Would love to be there, just didn't work out this time)
 ===== Agenda =====
 
   * TBD
