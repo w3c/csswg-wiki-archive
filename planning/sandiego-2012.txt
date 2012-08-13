@@ -74,12 +74,12 @@ Regrets:
   * css3-conditional (what to do about the missing OM section)
   * CSS3 Conditional Object Model - publish WD
   * Selectors 4
-  * CSS3 Fragmentation: review of edits, WD
-  * Aliasing page-break and break
-  * CSS3 Syntax: review, FPWD
 
 == PM ==
 
+  * CSS3 Syntax: review, FPWD
+  * CSS3 Fragmentation: review of edits, WD
+  * Aliasing page-break and break
   * [[planning:2013|Future meetings]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html|Pseudo-elements proposal]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html|Region overflow proposal]]
