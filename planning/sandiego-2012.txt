@@ -73,27 +73,28 @@ Regrets:
 === Proposed Topics ===
 
   * Prefixing policy
+  * [[planning:2013|Future meetings]]
   * css3-conditional (what to do about the missing OM section)
+  * CSS3 Conditional Object Model - publish WD
   * CSSOM: White-space and line breaks in serialization
   * overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). http://lists.w3.org/Archives/Public/www-style/2012May/1197.html
-  * collision: auto | collide | avoid
-  * CSS3 Text: remaining issues, preparation for LC?
-  * CSS3 Writing Modes: UTR50 and how to make progress
-  * CSS3 Fragmentation: review of edits, WD
   * CSS3 Grid Layout
-  * Selectors 4
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html|Region overflow proposal]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html|Pseudo-elements proposal]]
-  * Variables
-  * [[planning:2013|Future meetings]]
-  * CSS3 Conditional Object Model - publish WD
-  * Aliasing page-break and break
-  * CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.
-  * CSS3 Syntax: review, FPWD
-  * CSS3 Lists, CSS Counter Styles: Review, publishing. Rearrange the specs so that @counter-style moves to the Counter Style doc and goes to LC?
   * Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
-  * css3-animations: open issues, update WD, when could we go LC?
+  * Aliasing page-break and break
+  * CSS3 Fragmentation: review of edits, WD
   * Sticky positioning
+  * collision: auto | collide | avoid
+  * CSS3 Fonts: default features, publish new WD?
+  * CSS3 Text: remaining issues, letter-spacing and justification, preparation for LC?
+  * CSS3 Writing Modes: UTR50 and how to make progress
+  * Selectors 4
+  * Variables
+  * CSS3 Syntax: review, FPWD
+  * CSS3 Lists, CSS Counter Styles: Review, publishing. Rearrange the specs so that @counter-style moves to the Counter Style doc and goes to LC or should this be a Rec track spec?
+  * CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.
+  * css3-animations: open issues, update WD, when could we go LC?
   * [[topics:fpwd-filter-effects|]]
   * [[topics:interpolation-rotate3d|]]
   * [[http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html|CSS Masking]]
