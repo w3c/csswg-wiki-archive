@@ -96,3 +96,4 @@ Regrets:
   * Sticky positioning
   * [[topics:fpwd-filter-effects|]]
   * [[topics:interpolation-rotate3d|]]
+  * [[http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html|CSS Masking]]
