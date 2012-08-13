@@ -68,9 +68,56 @@ Regrets:
   * Molly Holzschlag (Would love to be there, just didn't work out this time)
 ===== Agenda =====
 
-  * TBD
+==== Mon ====
+== AM ==
 
-=== Proposed Topics ===
+  * css3-conditional (what to do about the missing OM section)
+  * CSS3 Conditional Object Model - publish WD
+  * Selectors 4
+  * CSS3 Fragmentation: review of edits, WD
+  * Aliasing page-break and break
+  * CSS3 Syntax: review, FPWD
+
+== PM ==
+
+  * [[planning:2013|Future meetings]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html|Pseudo-elements proposal]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html|Region overflow proposal]]
+  * Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
+  * collision: auto | collide | avoid
+  * overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). http://lists.w3.org/Archives/Public/www-style/2012May/1197.html
+
+
+==== Tue ====
+== AM ==
+
+  * CSSOM: White-space and line breaks in serialization
+  * Variables
+  * CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.
+
+== PM ==
+  * CSS3 Grid Layout
+  * Prefixing policy - 1.5 hr max
+
+
+==== Wed ====
+== AM ==
+
+  * CSS3 Lists, CSS Counter Styles: Review, publishing. Rearrange the specs so that @counter-style moves to the Counter Style doc and goes to LC or should this be a Rec track spec?
+  * CSS3 Fonts: default features, publish new WD?
+  * CSS3 Text: remaining issues, letter-spacing and justification, preparation for LC?
+  * CSS3 Writing Modes: UTR50, how to avoid bikeshedding, communication with the UTC, text-orientation: upright, and how to make progress
+
+
+== PM ==
+
+  * css3-animations: open issues, update WD, when could we go LC?
+  * [[topics:fpwd-filter-effects|]]
+  * [[topics:interpolation-rotate3d|]]
+  * [[http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html|CSS Masking]]
+  * Sticky positioning
+
+===== Proposed Topics =====
 
   * Prefixing policy
   * [[planning:2013|Future meetings]]
