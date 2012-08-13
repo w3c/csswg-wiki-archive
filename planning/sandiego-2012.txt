@@ -80,12 +80,12 @@ Regrets:
   * CSS3 Syntax: review, FPWD
   * CSS3 Fragmentation: review of edits, WD
   * Aliasing page-break and break
-  * [[planning:2013|Future meetings]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html|Pseudo-elements proposal]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html|Region overflow proposal]]
   * Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
   * collision: auto | collide | avoid
   * overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). http://lists.w3.org/Archives/Public/www-style/2012May/1197.html
+  * [[planning:2013|Future meetings]]
 
 
 ==== Tue ====
