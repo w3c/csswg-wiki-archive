@@ -74,24 +74,24 @@ Regrets:
 
   * Prefixing policy
   * [[planning:2013|Future meetings]]
-  * css3-conditional (what to do about the missing OM section)
-  * CSS3 Conditional Object Model - publish WD
-  * CSSOM: White-space and line breaks in serialization
-  * overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). http://lists.w3.org/Archives/Public/www-style/2012May/1197.html
-  * CSS3 Grid Layout
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html|Region overflow proposal]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html|Pseudo-elements proposal]]
+  * overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). http://lists.w3.org/Archives/Public/www-style/2012May/1197.html
   * Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
-  * Aliasing page-break and break
+  * CSS3 Grid Layout
   * CSS3 Fragmentation: review of edits, WD
+  * Aliasing page-break and break
   * Sticky positioning
   * collision: auto | collide | avoid
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html|Pseudo-elements proposal]]
   * CSS3 Fonts: default features, publish new WD?
   * CSS3 Text: remaining issues, letter-spacing and justification, preparation for LC?
-  * CSS3 Writing Modes: UTR50 and how to make progress
+  * CSS3 Writing Modes: UTR50, how to avoid bikeshedding, communication with the UTC, text-orientation: upright, and how to make progress
   * Selectors 4
   * Variables
   * CSS3 Syntax: review, FPWD
+  * css3-conditional (what to do about the missing OM section)
+  * CSS3 Conditional Object Model - publish WD
+  * CSSOM: White-space and line breaks in serialization
   * CSS3 Lists, CSS Counter Styles: Review, publishing. Rearrange the specs so that @counter-style moves to the Counter Style doc and goes to LC or should this be a Rec track spec?
   * CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.
   * css3-animations: open issues, update WD, when could we go LC?
