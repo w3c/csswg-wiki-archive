@@ -63,6 +63,14 @@ Moved from CSS3-UI editor's draft because it was the top source of issues for th
 Incorporate spec text from:
   * [[http://www.w3.org/wiki/User:Tantekelik/pointer-events|pointer-events spec text]]
 
+Consider just specifying pointer-events:none, and reserving the other keywords as undefined in CSS (at this level of spec.
+  * input from zewt, wilto asking for pointer-events:none in particular (#whatwg 2012-227)
+
+Consider use-cases, in particular for pointer-events:none;
+  * make sure things that use CSS opacity:0 transitions aren't clickable when they're hidden. (zewt on #whatwg 2012-227)
+  * disable clicks on elements that are transitioning on/off screens (zewt on #whatwg 2012-227)
+  * prevent transparent elements that overlap clickable ones from getting in the way (zewt on #whatwg 2012-227)
+
 ===== dropped css3 features =====
 Features that were dropped from CSS3-UI (e.g. the 2004 CR) are eligible to be considered for CSS4-UI, but they will need a strong justification as having been ignored by implementations for 6+ years means there was likely something wrong with them and they need major revising. In addition, features dropped from other CSS3 specs or trimmed when bringing over to CSS3-UI are also considered here.
 
