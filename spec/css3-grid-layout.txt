@@ -141,8 +141,9 @@ Latest ED incorporates text from latest Flexbox draft. Given the code below:
 
     <head>
     <style>
+      #container{display:grid; grid-auto-flow:columns;}
       label{grid-column: 1;}
-      input{grid-column: 2; }
+      input{grid-column: 2;}
     </style>
     </head>
     <body>
