@@ -2,9 +2,9 @@
 
 This page lists all standardized CSSOM constants in CSS to avoid the creation of conflicting specs. Vendor-specific features and experimental implementations must use numbers greater than 1000: the 0-1000 range is reserved by the CSS Working Group.
 
-| 0 | - | Not assigned; was UNKNOWN_RULE in DOM-Level-2-Style |
+| 0 | - | Reserved; formerly UNKNOWN_RULE in DOM-Level-2-Style |
 | 1 | STYLE_RULE | CSSOM |
-| 2 | - | Not assigned; was CHARSET_RULE in DOM-Level-2-Style |
+| 2 | CHARSET_RULE | CSSOM |
 | 3 | IMPORT_RULE | CSSOM |
 | 4 | MEDIA_RULE | CSSOM |
 | 5 | FONT_FACE_RULE | CSSOM |
