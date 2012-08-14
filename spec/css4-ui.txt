@@ -108,6 +108,10 @@ Real world use-cases:
   * what iTunes App Store does for its app descriptions (more details needed).
   * ...
 
+This should likely be done as a new property, e.g. 'block-overflow', as described by Tab Atkins here:
+  * http://lists.w3.org/Archives/Public/www-style/2012Jul/0688.html
+
+
 ==== text-overflow start end values ====
 Originally text-overflow permitted an optional second value [[http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis|defined in CSS3 Text CR 2003-05-14]] "	<ellipsis>{1,2} "
 
