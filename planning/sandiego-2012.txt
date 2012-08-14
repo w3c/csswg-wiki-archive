@@ -112,10 +112,10 @@ Regrets:
 
 == PM ==
 
-  * css3-animations: open issues, update WD, when could we go LC?
   * [[topics:fpwd-filter-effects|]]
-  * [[topics:interpolation-rotate3d|]]
   * [[http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html|CSS Masking]]
+  * css3-animations: open issues, update WD, when could we go LC?
+  * [[topics:interpolation-rotate3d|]]
   * Sticky positioning
 
 ===== Proposed Topics =====
