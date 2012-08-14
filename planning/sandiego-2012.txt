@@ -90,10 +90,10 @@ Regrets:
 == AM ==
 
   * [[planning:2013|Future meetings]]
-  * Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
-  * collision: auto | collide | avoid
   * CSSOM: White-space and line breaks in serialization
   * Variables
+  * Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
+  * collision: auto | collide | avoid
   * CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.
 
 == PM ==
