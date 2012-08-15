@@ -111,11 +111,11 @@ Regrets:
 == PM ==
 
   * [[topics:fpwd-filter-effects|]]
+  * [[topics:interpolation-rotate3d|]]
   * [[http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html|CSS Masking]]
   * CSS3 Writing Modes: UTR50, how to avoid bikeshedding, communication with the UTC, text-orientation: upright, and how to make progress
   * CSS3 Lists, CSS Counter Styles: Review, publishing. Rearrange the specs so that @counter-style moves to the Counter Style doc and goes to LC or should this be a Rec track spec?
   * css3-animations: open issues, update WD, when could we go LC?
-  * [[topics:interpolation-rotate3d|]]
   * Sticky positioning
 
 ===== Proposed Topics =====
