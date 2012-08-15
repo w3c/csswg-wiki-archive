@@ -91,14 +91,13 @@ Regrets:
 
   * [[planning:2013|Future meetings]]
   * CSSOM: White-space and line breaks in serialization
-  * Variables
   * Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
   * collision: auto | collide | avoid
   * CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.
 
 == PM ==
   * CSS3 Grid Layout
-  * Prefixing policy - 1.5 hr max
+  * Variables
 
 
 ==== Wed ====
@@ -108,6 +107,7 @@ Regrets:
   * CSS3 Fonts: default features, publish new WD?
   * CSS3 Text: remaining issues, letter-spacing and justification, preparation for LC?
   * CSS3 Writing Modes: UTR50, how to avoid bikeshedding, communication with the UTC, text-orientation: upright, and how to make progress
+  * Prefixing policy - 1 hr max
 
 
 == PM ==
