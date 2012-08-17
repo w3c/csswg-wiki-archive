@@ -47,7 +47,7 @@ This section outlines active possibilities for future specs or notes
   * [[spec:css4-page|CSS Paged Media Level 4]] (or CSS Pagination, or CSS Fragmentation)
   * [[spec:page-view|Paged View]] (use cases for paged view and page layout)
   * [[spec:text4|Text Level 4]] (why isn't this "css4-text"?) (can't we just move this to "css4-text"?)
-  * [[spec:selectors4|Selectors Level 4]]
+  * [[spec:selectors|Selectors Level Next]]
   * [[spec:css3-overflow|CSS Overflow Level 3]]
   * [[spec:box-orphans|Box-model-related features with no home]]
   * [[spec:css3-position|CSS Positioning]]
