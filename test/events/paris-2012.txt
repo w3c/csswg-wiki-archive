@@ -16,6 +16,12 @@ Venue: TBD - under investigation
 
 ^ Testing Category      ^ Experts       ^ Technical support (first line of defense)          ^
 | Background and borders    | x     | y        |
-| DOM 4    | x ||
-| Jsom    | x     | y        |
-| Xhr | x     | y       |
+| DOM 4    | x |
+| JSOM    | x     | y        |
+| XHR | x     | y       |
+
+== Number of Attendees ==
+  * The number of attendees will depend on the number of experts available. The recommended ratio attendees/experts is 5 to 1 (10 to 1 max).
+  * If we want 100 attendees we will need 20 experts (optimal number)
+
+==== Event Preparation ====
