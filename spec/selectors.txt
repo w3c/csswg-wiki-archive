@@ -16,6 +16,7 @@
   * [[http://lists.w3.org/Archives/Public/www-style/2011Apr/0603.html|empty input selector]]
   * [[http://lists.w3.org/Archives/Public/www-style/2007Nov/0108.html|more of the user action pseudo-classes]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0129.html|More time pseudo-classes]]: '':time([ before <time> | after <time> | <time> to <time> ])''
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Nov/0030.html|:only-whitespace]]: :empty is kinda useless, since it requires you to have *nothing* between the start and end tag. This is hostile to common markup patterns which might put the end tag on a separate line.
 ==== Ideas superseded by other features ====
   * relationship selectors, e.g.:
     * to select cells in a column: ''%%col.foo // td%%''
