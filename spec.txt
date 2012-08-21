@@ -63,6 +63,7 @@ This section outlines active possibilities for future specs or notes
      * [[spec:css3-region-templates|region templates]]
      * [[spec:fragments-columns-regions-pages|fragments columns regions pages]]
    * [[http://www.w3.org/community/ppl/wiki/Western_Layout_Requirements|Western Layout Requirements]], outlining the advanced printing stuff that XSL-FO does and which we'd like to address in CSS
+   * [[spec:font-load-events|Font Load Events]]
 ===== out of date =====
 These specs are old / out of date and need active editors/owners to bring them up to date.
   * [[spec:css3-box|CSS Box Module Level 3]]
