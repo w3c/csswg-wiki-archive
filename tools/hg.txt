@@ -204,7 +204,32 @@ that you'll need to turn into (and update in place when it's already there)
 
 BEFORE committing your work.
 
-See [[spec/cvs#step-6-post-process-css-src]]
+=== Using the web form ===
+
+Go to:
+
+http://www.w3.org/Style/Group/css3-src/bin/postprocess-file
+
+Click (Choose File) and select the ''Overview.src.html'' file on your local machine that you want to post-process (you should do this when you're ready to check it in).
+
+Choose (*) Generated HTML - radio button
+
+Click the (Submit) button
+
+Save the page (e.g. in Firefox, choose the "Save Page as..." menu item from the "File" menu, be sure to choose "Web page, HTML only" from the "Save as" popup), name the file ''Overview.html'' (without the quotes), and save it right next your ''Overview.src.html'' - you'll likely be replacing an older version, that's ok, go ahead and confirm (command-R in the replace dialog).
+
+=== Using a command-line script ===
+
+If you're on a system with [[http://curl.haxx.se/|curl]] on it, just save the following line to a file somewhere in your executable path:
+
+  curl -u USERNAME:PASSWORD -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html''
+
+(Replace the USERNAME:PASSWORD with your W3C username and password, the same that you would enter when visiting the web form linked above.)
+
+Mark the file as executable, then just run it from within the folder of the spec you're working on.  It will automatically submit ''Overview.src.html'' to the post-processor and save the results to  ''Overview.html''.
+
+
+=== Other Working Groups ===
 
 For the WebApps working group (e.g. for the Fullscreen specification), you have to install more tools:
   * [[http://wiki.whatwg.org/wiki/Anolis#Setting_up_Anolis_with_cross-specification_cross-references|Setting up Anolis with cross-specification cross-references]]
