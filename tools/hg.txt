@@ -345,7 +345,7 @@ When you're sure you want to submit to the server, **pull first** to synchronize
 Always include the shortname of the spec you're committing work for, just you would when sending email.
 If you're working on a bash command line, put the following command into your ''.bash_functions'' file:
   function commit {
-    hg commit -m "["${PWD##*/}"] "${1} && hg pull --rebase && hg push
+    hg commit -m "[${PWD##*/}] ${1}" && hg pull --rebase && hg push
   }
 Now you can do a full commit with a properly formatted commit message just by running ''commit "message here"'' in the spec's folder.
 The function will take care of adding the spec's shortname for you automatically.
