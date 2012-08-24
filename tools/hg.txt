@@ -339,14 +339,23 @@ This will pull any new changesets in the central repository and merge them with 
 When you're sure you want to submit to the server, **pull first** to synchronize with the central repository (''hg pull -u''), and resolve any resulting conflicts. Then commit your changes into a local changeset (''hg commit'') and push your changeset to the central repository (''hg push''). Like this:
 
   hg pull -u
-  hg commit -m "Commit message explaining your changes"
+  hg commit -m "[css-foo] Commit message explaining your changes"
   hg push
+
+Always include the shortname of the spec you're committing work for, just you would when sending email.
+If you're working on a bash command line, put the following command into your ''.bash_functions'' file:
+  function commit {
+    hg commit -m "["${PWD##*/}"] "${1} && hg pull --rebase && hg push
+  }
+Now you can do a full commit with a properly formatted commit message just by running ''commit "message here"'' in the spec's folder.
+The function will take care of adding the spec's shortname for you automatically.
+(If you're using the regeneration script from above, feel free to put that first on the line like ''regen && ...''.)
 
 <note important>
 By default, //all// modified, added or removed files will be committed, not just those in the current directory. You can commit individual files by specifying their names at the end of the ''hg commit'' command.
 
 Use ''.'' to commit only changes in the current directory, e.g.
-  hg commit -m "Fix all typos in this directory" .
+  hg commit -m "[css-foo] Fix all typos in this directory" .
 </note>
 
 :?: If you see a message similar to: "abort: push creates new remote head", then you either forgot to pull and synchronize your local repository with the central repository, or someone else has pushed changesets since you last did. The error message describes re-trying the push with the "-f" option to force it working. **DON'T DO THIS**. Doing this would create a branch in the central repository. Pull, merge, commit, then try the push again. See the section below about merging.
@@ -417,7 +426,6 @@ Once you've merged all the conflicts, tell Mercurial to mark them resolved with:
 Now that Mercurial knows the conflicts are resolved, it will allow you to commit your changes.
 
 You can also mark conflicted files one-by-one by specifying the filename: use "''hg resolve -m filename''" to mark resolved, or "''hg resolve -u filename''" to mark unresolved.
-
 ==== Managing Files ====
 
 Mercurial can track edits to a file automatically, but if you want to add, remove, rename, move, or copy files, you'll have to us its own file management commands so that it can track those operations.
