@@ -176,8 +176,10 @@ In a nutshell, your workflow will be:
 You can do that with the following commands:
   hg pull -u
   <make edits>
-  hg commit -m "commit message describing your work"
+  hg commit -m "[css-foo] commit message describing your work"
   hg push
+  
+(Always include the shortname of the spec you're committing work for, just you would when sending email.)
 
 If the "hg push" results in a error, then others have most likely pushed changes to the central repository between your "hg pull" and "hg push". Solve that with:
   hg pull
