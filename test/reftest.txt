@@ -187,10 +187,10 @@ The following is a list of 35 CSS2.1 tests that appear to be unreftestable:
 |[RC6] c5525-fltcont-000]] **Reasons why**: It seems impossible to emulate or replace 'text-align: justify' by another feature. Even without/despute 'text-align: justify', the test still would seem difficult to reftest.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-left-applies-to-008.htm
 |[RC6] margin-left-applies-to-008]] **Reasons why**: Content area of an inline non-replaced element is based on the font type and font-size but the CSS2.1 specification does not specify how. So, the height of the 2 borders (blue and orange) is impossible to predict. Such difficulty applies as well to [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-right-applies-to-008.htm
-|[RC6] margin-right-applies-to-008]]
+|[RC6] margin-right-applies-to-008]] . With Ahem font, this would be computable and predictable.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-left-applies-to-008.htm
 |[RC6] padding-left-applies-to-008]] **Reasons why**: Content area of an inline non-replaced element is based on the font type and font-size but the CSS2.1 specification does not specify how. So, the height of the 2 borders (blue and orange) is impossible to predict. Such difficulty applies as well to [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-right-applies-to-008.htm
-|[RC6] padding-right-applies-to-008]]
+|[RC6] padding-right-applies-to-008]] . With Ahem font, this would be computable and predictable.
 
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
