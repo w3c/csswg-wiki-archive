@@ -112,7 +112,7 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 35 unreftestable tests ====
+==== 37 unreftestable tests ====
 
 The following is a list of 35 CSS2.1 tests that appear to be unreftestable:
 
@@ -185,6 +185,13 @@ The following is a list of 35 CSS2.1 tests that appear to be unreftestable:
 |[RC6] inlines-015]] **Reasons why**: It's impossible to predict the amount of descent space below the baseline for local font in use. The test requires to specify line-height affecting the cell box.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c5525-fltcont-000.htm
 |[RC6] c5525-fltcont-000]] **Reasons why**: It seems impossible to emulate or replace 'text-align: justify' by another feature. Even without/despute 'text-align: justify', the test still would seem difficult to reftest.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-left-applies-to-008.htm
+|[RC6] margin-left-applies-to-008]] **Reasons why**: Content area of an inline non-replaced element is based on the font type and font-size but the CSS2.1 specification does not specify how. So, the height of the 2 borders (blue and orange) is impossible to predict. Such difficulty applies as well to [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-right-applies-to-008.htm
+|[RC6] margin-right-applies-to-008]]
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-left-applies-to-008.htm
+|[RC6] padding-left-applies-to-008]] **Reasons why**: Content area of an inline non-replaced element is based on the font type and font-size but the CSS2.1 specification does not specify how. So, the height of the 2 borders (blue and orange) is impossible to predict. Such difficulty applies as well to [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-right-applies-to-008.htm
+|[RC6] padding-right-applies-to-008]]
+
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
 |[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty. I have now been able to create a reftest for such test.
