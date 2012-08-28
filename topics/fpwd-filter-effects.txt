@@ -3,7 +3,7 @@
 ---- dataentry ----
 Spec_tags     : filter-effects       # in alpha order; or "none"
 Owner_tags    : dschulze          # Who's driving the discussion?
-Status_tags   : Open            # [ Open | Resolved | Closed | Pending ] [, Urgent]?
+Status_tags   : Resolved            # [ Open | Resolved | Closed | Pending ] [, Urgent]?
 Added_dt      : 2012-08-10        # Date added as WG discussion request
 
 # Action        : Resolve to publish FPWD of Filter Effects 1.0 # Or, if Pending, pending what?
