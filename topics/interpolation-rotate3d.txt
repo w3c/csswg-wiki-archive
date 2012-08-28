@@ -62,3 +62,23 @@ All browsers but Chrome do matrix interpolation when rotate3d is involved. Chrom
 
 === Proposal(s) ===
 Keep current specification text: when rotate3d is involved, the rotation gets interpolated by matrix decomposing.
+
+=== Numerical interpolation of rotate3d ===
+The CSS WG asked for a proposal to interpolate rotate3d numerically.
+
+==== normalization ===
+A normalization of the rotating vectors can help to identify if two vectors point into the same direction.
+  * If the vectors describe the same axis (values for x, y, z are the same). Just the rotation (4th value) needs to be interpolated.
+  * If the vectors are different, then each value (x, y, z, rotation value) get interpolated individually. The computed value gets affected by the normalization during the time of interpolation.
+
+==== vectors that describe the same axis, but with opposite directions ====
+An open issue are vectors that describe the same axis, but point into the opposite direction. The normalization does not have an affect on the direction.
+
+Example: rotate3d(0,0,-1,0deg) -> rotate3d(0,0,1,360deg). According to the current definition of rotate3d, the direction of the vector influences the rotation direction.
+
+Should...
+  * the object be rotated by 180deg anti-clockwise for the first half of the animation and 180deg clockwise for the second part?
+  * Should opposite vectors be "commutated" first, so that they point to the right direction? What if the second value is rotate3d(0,0,1.01,360deg)?
+
+==== Current support ====
+No browser supports numerical interpolation at this time. IE 10 won't support it at all. Safari has problems implementing it because of the usage of CoreAnimation. All browsers do matrix decomposing at the moment.
