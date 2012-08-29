@@ -1,7 +1,10 @@
 ====== Test the Web Forward, Beijing 2012 ======
 
 ===== Agenda =====
-
+| 2:00 - 2:30 pm | Register/SWAG | -- |
+| 2:30 - 3:00 pm | Welcome and introduction: better tests for a better web | Arno, Ethan | 
+| 3:00 - 3:20 pm | An introduction to the CSSOM View spec | Jinjiang's backup from Maxthon |
+| 3:20 - 3:40 pm | An introduction to the CSS Backgrounds and Borders | Elika from CSS working group |
 
 
 ===== People =====
