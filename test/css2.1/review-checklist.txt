@@ -21,13 +21,12 @@ These are necessary for the test to be processed correctly by our build scripts.
 
 Getting these correct lets us automatically index and manipulate the tests.
 
-  * [ ] Title is //unique// and //descriptive// but not wordy. (It should make sense in the test suite's [[http://www.w3.org/Style/CSS/Test/CSS2.1/current/html4/by-section.htm|table of contents]].)
+  * [ ] Title is //unique// and //descriptive// but not wordy. (It should make sense in the test suite's [[http://test.csswg.org/suites/css2.1/20110323/html4/toc.html|table of contents]].)
   * [ ] Title starts with ''CSS Test: ''.
   * [ ] One or more <link> elements [[test:format#credits|credit the author(s)]].
   * [ ] One or more <link> elements [[test:format#specification-links|link to the specification]] to show what is being tested.
   * [ ] Any necessary [[test:format#requirement-flags|requirement flags]] are given.
   * [ ] The [[test:format#test-assertions|test assertion]] is a **complete**, **detailed** statement expressing **specifically** what the test is attempting to prove (and is therefore not a duplicate of any other assertion in the test suite).
-
 ===== Test Contents =====
 
   * [ ] Test instructions are in ''<p>''.
