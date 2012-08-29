@@ -39,9 +39,9 @@ The CSS WG needs to decide if we continue with the current specification.
   * select() and child are new functions/keywords requested by the SVG WG. The sense in the HTML world depends on the definition.
 
 === Resolved ===
-* Go on with ED
-* Keep 'mask-origin'
-* Drop 'mask-attachment'
-* 'mask-clip' must allow extending the region beyond border-box.
-* Keep 'clip-path'
-* Consider making 'clip' shadowing 'clip-path' (or the other way around), 'rect()' would just apply to absolute positioned elements for legacy reasons
+  * Go on with ED
+  * Keep 'mask-origin'
+  * Drop 'mask-attachment'
+  * 'mask-clip' must allow extending the region beyond border-box.
+  * Keep 'clip-path'
+  * Consider making 'clip' shadowing 'clip-path' (or the other way around), 'rect()' would just apply to absolute positioned elements for legacy reasons
