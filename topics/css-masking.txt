@@ -3,7 +3,7 @@
 ---- dataentry ----
 Spec_tags     : css-masking        # in alpha order; or "none"
 Owner_tags    : dschulze          # Who's driving the discussion?
-Status_tags   : Open            # [ Open | Resolved | Closed | Pending ] [, Urgent]?
+Status_tags   : Resolved            # [ Open | Resolved | Closed | Pending ] [, Urgent]?
 Added_dt      : 2012-08-28        # Date added as WG discussion request
 
 Action        : Resolve to continue on ED # Or, if Pending, pending what?
@@ -37,3 +37,11 @@ The CSS WG needs to decide if we continue with the current specification.
   * Are all properties needed? In question: 'mask-origin', 'mask-attachment' and 'mask-clip'.
   * Masking/Clipping on Firefox operates on 'bounding client rect', 'mask-image' on WebKit operate on 'border-box', 'content-box' and 'padding-box'. Both behaviors are reasonable.
   * select() and child are new functions/keywords requested by the SVG WG. The sense in the HTML world depends on the definition.
+
+=== Resolved ===
+* Go on with ED
+* Keep 'mask-origin'
+* Drop 'mask-attachment'
+* 'mask-clip' must allow extending the region beyond border-box.
+* Keep 'clip-path'
+* Consider making 'clip' shadowing 'clip-path' (or the other way around), 'rect()' would just apply to absolute positioned elements for legacy reasons
