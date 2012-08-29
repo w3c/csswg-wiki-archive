@@ -3,8 +3,8 @@
 ===== Agenda =====
 ^ Saturday ^ Activity ^ Speaker ^ Teaching Assistant / Interpreter / Backup ^
 | 2:00 pm - 2:30 pm | Register/SWAG | -- |
-| 2:30 pm - 3:00 pm | Welcome and introduction: better tests for a better web | Arno, Ethan | None |
-| 3:00 pm - 3:20 pm | An introduction to the CSSOM View spec | Jinjiang's backup from Maxthon | None | 
+| 2:30 pm - 3:00 pm | Welcome and introduction: better tests for a better web | Arno, Ethan | Ping Huang |
+| 3:00 pm - 3:20 pm | An introduction to the CSSOM View spec | Candidate1: JianNing Ding  from  Google China \\  Candidate2: ZhanHongTao from  Maxthon  | None | 
 | 3:20 pm - 3:40 pm | An introduction to the CSS Backgrounds and Borders spec | Elika from CSS working group | ? |
 | 3:40 pm - 4:00 pm | An introduction to the CSS Flexible Box spec | Kenny from Opera China ? | None |
 | 4:00 pm - 4:30 pm | Snacks/Drinks/Buffer time | -- |
@@ -23,7 +23,6 @@
 | 3:30 pm - 5:30 pm | Hack |
 | 5:30 pm - 6:00 pm | Demos\\ Prizes\\ Wrap up |
 | 6:00 pm | Dinner |
-
 
 
 ===== People =====
