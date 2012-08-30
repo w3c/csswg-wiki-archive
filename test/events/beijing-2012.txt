@@ -4,14 +4,14 @@
 ^ Saturday ^ Activity ^ Speaker ^ Co-Presenter \\ (Interpreter /Teaching Assistant /Backup) ^
 | 2:00 pm - 2:30 pm | Register/SWAG | -- |
 | 2:30 pm - 3:00 pm | Welcome and introduction: better tests for a better web | Arno, Ethan | Ping Huang |
-| 3:00 pm - 3:20 pm | An introduction to the CSSOM View spec | Candidate1: JianNing Ding  from  Google China \\  Candidate2: ZhanHongTao from  Maxthon  | None | 
+| 3:00 pm - 3:20 pm | An introduction to the CSSOM View spec | Candidate1: JianNing Ding  from  Google China   | Candidate2: ZhanHongTao from  Maxthon| 
 | 3:20 pm - 3:40 pm | An introduction to the CSS Backgrounds and Borders spec | Elika from CSS working group | HanRui Gao from 360 (previous from google) |
-| 3:40 pm - 4:00 pm | An introduction to the CSS Flexible Box spec | Kenny from Opera China ? | None |
+| 3:40 pm - 4:00 pm | An introduction to the CSS Flexible Box spec | Kenny from Opera China | None |
 | 4:00 pm - 4:30 pm | Snacks/Drinks/Buffer time | -- |
 | 4:30 pm - 5:00 pm | How to create W3C tests  | Jian Zhang from Adobe | Jin Lv from Adobe |
-| 5:00 pm - 5:30 pm | Testing Frameworks Deep-Dive: CSS | Elika from CSS Working Group | Elva Fu, Intel China |
+| 5:00 pm - 5:30 pm | Testing Frameworks Deep-Dive: CSS | Elika from CSS Working Group | Elva Fu from Intel China |
 | 5:30 pm - 5:50 pm | File the best bug 1 | Yunlong Zhang from Mozilla China ? |
-| 5:50 pm - 6:10 pm | File the best bug 2 | Maxthon ? Baidu ? |
+| 5:50 pm - 6:10 pm | File the best bug 2 | Maxthon ? Baidu ? Tencent |
 \\
 
 ^ Sunday ^ Activity ^
