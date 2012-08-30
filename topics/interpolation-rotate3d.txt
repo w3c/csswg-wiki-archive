@@ -3,7 +3,7 @@
 ---- dataentry ----
 Spec_tags     : css3-transforms        # in alpha order; or "none"
 Owner_tags    : dschulze          # Who's driving the discussion?
-Status_tags   : Open            # [ Open | Resolved | Closed | Pending ] [, Urgent]?
+Status_tags   : Resolved            # [ Open | Resolved | Closed | Pending ] [, Urgent]?
 Added_dt      : 2012-08-10        # Date added as WG discussion request
 
 Action        : Resolve interpolation behavior for rotate3d
@@ -82,3 +82,6 @@ Should...
 
 ==== Current support ====
 No browser supports numerical interpolation at this time. IE 10 won't support it at all. Safari has problems implementing it because of the usage of CoreAnimation. All browsers do matrix decomposing at the moment.
+
+=== Resolved ===
+Use numerical interpolation if the normalized vectors are equal. Otherwise use matrix decomposing.
