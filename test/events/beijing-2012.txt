@@ -10,7 +10,7 @@
 | 4:00 pm - 4:30 pm | Snacks/Drinks/Buffer time | -- | -- |
 | 4:30 pm - 5:00 pm | How to create W3C tests | * W3C test case structure\\ * How to create W3C JS and Ref tests | Jian Zhang from Adobe | Jin Lv from Adobe |
 | 5:00 pm - 5:30 pm | Testing Frameworks Deep-Dive: CSS | * The structure of the test case repository\\ * Check in process and how to use hg\\ * How to use online CSS Test Suite Manager | Elika from CSS Working Group | Elva Fu from Intel China |
-| 5:30 pm - 6:10 pm | File the best bug | * Bug lifecycle\\ * How to write bug description with high quality\\ * How to file bugs for different browser vendors | Yunlong Zhang from Mozilla China ?  Maxthon ? Baidu ? Tencent ? |
+| 5:30 pm - 6:10 pm | File the best bug | * Bug lifecycle\\ * How to file a bug with high quality\\ * How to file bugs for different browser vendors | Yunlong Zhang from Mozilla China ?  Maxthon ? Baidu ? Tencent ? |
 \\
 
 ^ Sunday ^ Activity ^
