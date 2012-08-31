@@ -4,12 +4,15 @@
 ^ Saturday ^ Activity ^ Content ^ Speaker ^ Co-Presenter \\ (Interpreter /Teaching Assistant /Backup) ^
 | 2:00 pm - 2:30 pm | Register/SWAG | -- | -- |
 | 2:30 pm - 3:00 pm | Welcome and introduction: better tests for a better web |  | Arno, Ethan from Adobe | Ping Huang |
-| 3:00 pm - 3:20 pm | An introduction to the CSSOM View spec | * Get an overall understanding of the web features under test\\ * How to read spec effectively |JianNing Ding  from  Google China   |ZhanHongTao from  Maxthon| 
+| 3:00 pm - 3:20 pm | An introduction to the CSSOM View spec | * Get an overall understanding of the web features under test\\ 
+* How to read spec effectively |JianNing Ding  from  Google China   |ZhanHongTao from  Maxthon| 
 | 3:20 pm - 3:40 pm | An introduction to the CSS Backgrounds and Borders spec | ditto | Elika from CSS working group | Mark Dong from Adobe China |
 | 3:40 pm - 4:00 pm | An introduction to the CSS Flexible Box spec | ditto | Kenny from Opera China | None |
 | 4:00 pm - 4:30 pm | Snacks/Drinks/Buffer time | -- | -- |
 | 4:30 pm - 5:00 pm | How to create W3C tests |  | Jian Zhang from Adobe | Jin Lv from Adobe |
-| 5:00 pm - 5:30 pm | Testing Frameworks Deep-Dive: CSS | * The structure of the test case repository\\ * Check in process and how to use hg\\ * How to use online CSS Test Suite Manager | Elika from CSS Working Group | Elva Fu from Intel China |
+| 5:00 pm - 5:30 pm | Testing Frameworks Deep-Dive: CSS | * The structure of the test case repository\\ 
+* Check in process and how to use hg\\ 
+* How to use online CSS Test Suite Manager | Elika from CSS Working Group | Elva Fu from Intel China |
 | 5:30 pm - 6:10 pm | File the best bug |  | Yunlong Zhang from Mozilla China ?  Maxthon ? Baidu ? Tencent ? |
 \\
 
