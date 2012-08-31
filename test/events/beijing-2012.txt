@@ -1,7 +1,8 @@
 ====== Test the Web Forward, Beijing 2012 ======
 
 ===== Agenda =====
-^ Saturday ^ Activity ^ Content ^ Speaker ^ Co-Speaker \\ (Interpreter /Teaching Assistant /Backup) ^
+
+^ 10/20/2012 Saturday ^ Activity ^ Content ^ Speaker ^ Co-Speaker \\ (Interpreter /Teaching Assistant /Backup) ^
 | 2:00 pm - 2:30 pm | Register/SWAG | -- | -- |
 | 2:30 pm - 3:00 pm | Welcome and introduction: better tests for a better web |  | Arno, Ethan from Adobe | Ping Huang |
 | 3:00 pm - 3:20 pm | An introduction to the CSSOM View spec | * Get an overall understanding of the web features under test\\ * How to read spec effectively |JianNing Ding  from  Google China   |ZhanHongTao from  Maxthon| 
@@ -15,7 +16,7 @@
 
 \\
 
-^ Sunday ^ Activity ^
+^ 10/21/2012 Sunday ^ Activity ^
 | 9:30 am - 10:00 am | Register/SWAG for those who missed the first day |
 | 10:00 am - 12:00 pm | Hack |
 | 12:00 pm - 1:00 pm | Lunch |
