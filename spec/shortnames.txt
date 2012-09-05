@@ -6,9 +6,9 @@ This page is to record our policy for CSS module shortnames going forward and a 
 
 Each module will have an unversioned shorname on /TR, which aliases to the latest level. This is identical to the module shortname, except without the number, e.g. ''css-transitions'' (We already have this with /TR/selectors.)
 
-Issue: Do we want to set this up on dev.w3.org as well? As alias or redirect?
+**Issue:** Do we want to set this up on dev.w3.org as well? As alias or redirect?
 
-Issue: At what point in the process does the shortname move over?
+**Issue:** At what point in the process does the shortname move over?
   * Option A = CR
   * Option B = Snapshot acceptance
   * Option C = REC
