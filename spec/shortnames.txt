@@ -8,7 +8,7 @@ Each module will have an unversioned shorname on /TR, which aliases to the lates
 
 **Issue:** Do we want to set this up on dev.w3.org as well? As alias or redirect?
 
-**Issue:** At what point in the process does the shortname move over?
+**Issue:** At what point in the process does the shortname move over to the next level?
   * Option A = CR
   * Option B = Snapshot acceptance
   * Option C = REC
