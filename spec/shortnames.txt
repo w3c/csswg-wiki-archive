@@ -1,0 +1,30 @@
+====== Shortnames ======
+
+This page is to record our policy for CSS module shortnames going forward and a plan for converting all existing shortnames to match this scheme. A shortname is used as the filename on /TR and dev.w3.org and also as the [spec-code] in www-style discussions. The existing scheme was set up in the 20th century, before the concept of independently-levelling CSS modules was created.
+
+==== Unversioned Names ====
+
+Each module will have an unversioned shorname on /TR, which aliases to the latest level. This is identical to the module shortname, except without the number, e.g. ''css-transitions'' (We already have this with /TR/selectors.)
+
+Issue: Do we want to set this up on dev.w3.org as well? As alias or redirect?
+
+Issue: At what point in the process does the shortname move over?
+  * Option A = CR
+  * Option B = Snapshot acceptance
+  * Option C = REC
+
+==== Versioned Names ====
+
+Each module will have a versioned shortname on /TR, for accessing a specific level of the module. Currently we use ''cssN-foo'', but don't do this correctly for Level 1 modules like Flexbox.
+
+== Option A ==
+
+Follow ''cssN-foo'' pattern. Fix Level 1 specs by 
+  * Republishing at ''css1-foo''
+  * Setting up a temporary redirect from ''css3-foo'' to ''css1-foo'' until the module reaches level 3.
+
+== Option B ==
+
+Follow ''css-fooN'' pattern. Fix all specs by
+  * Moving all specs to ''css-fooN''
+  * Setting up permanent redirects from ''css3-foo'' to ''css-fooN''
