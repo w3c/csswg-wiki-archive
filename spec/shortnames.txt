@@ -22,6 +22,7 @@ Each module will have a versioned shortname on /TR, for accessing a specific lev
 Follow ''cssN-foo'' pattern. Fix Level 1 specs by 
   * Republishing at ''css1-foo''
   * Setting up a temporary redirect from ''css3-foo'' to ''css1-foo'' until the module reaches level 3.
+  * Unsolicited feedback from several authors indicates that this pattern is confusing, because of the connection with general "CSS3" messaging.
 
 == Option B ==
 
