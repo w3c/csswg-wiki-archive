@@ -68,6 +68,10 @@ Create a file in your home directory called ''.hgrc'', or ''%USERPROFILE%\mercur
 **IMPORTANT**: If you will be pushing changes to the CSSWG Test Repository, and you use the Full Name <email> format for the username in the [ui] section, be sure the email address you enter is the same as that associated with your wiki account. Alternatively, replace "''Your Full Name <your@email.address.example>''" with "''your_csswg.org_username''".
 
 <note>
+TortoiseHg will create the ini file automatically on Windows, and will later import any settings manually added there to the Global Settings dialog.
+</note>
+
+<note>
 **Avoiding Password Requests**
 
 Putting your password into ''.hgrc'' will prevent the server from asking your username and password every time you push. If you don't want to store your password in the config file, you can [[http://mercurial.selenic.com/wiki/KeyringExtension|install the Keyring extension]] and omit the password line. The Keyring extension will prompt you for your password the first time it is needed and store it securely in your system keyring.
