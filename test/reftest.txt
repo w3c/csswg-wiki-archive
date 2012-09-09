@@ -194,7 +194,9 @@ The following is a list of 39 CSS2.1 tests that appear to be unreftestable:
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-applies-to-008.htm
 |[RC6] padding-applies-to-008]] **Reasons why**: Content area of an inline non-replaced element is based on the font type and font-size but the CSS2.1 specification does not specify how. So, the height of the orange borders is impossible to predict. Such difficulty applies as well to [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-applies-to-008.htm|[RC6] margin-applies-to-008]] . With Ahem font, this would be computable and predictable.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/abspos-003.htm
-|[RC6] abspos-003]] **Reasons why**: An absolute positioned element with 'bottom: 0' is not reftestable with different method to produce the same rendering as the test file.
+|[RC6] abspos-003]], [[http://test.csswg.org/suites/css2.1/20110323/html4/abspos-004.htm
+|[RC6] abspos-004]] and [[http://test.csswg.org/suites/css2.1/20110323/html4/abspos-006.htm
+|[RC6] abspos-006]]   **Reasons why**: An absolute positioned element with 'bottom: 0' is not reftestable with a different method to produce the same rendering as the test file.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
 |[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty. I have now been able to create a reftest for such test.
