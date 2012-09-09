@@ -112,9 +112,9 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 38 unreftestable tests ====
+==== 39 unreftestable tests ====
 
-The following is a list of 35 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 39 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
@@ -192,8 +192,9 @@ The following is a list of 35 CSS2.1 tests that appear to be unreftestable:
 |[RC6] padding-left-applies-to-008]] **Reasons why**: Content area of an inline non-replaced element is based on the font type and font-size but the CSS2.1 specification does not specify how. So, the height of the 2 borders (blue and orange) is impossible to predict. Such difficulty applies as well to [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-right-applies-to-008.htm
 |[RC6] padding-right-applies-to-008]] . With Ahem font, this would be computable and predictable.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/padding-applies-to-008.htm
-|[RC6] padding-applies-to-008]] **Reasons why**: Content area of an inline non-replaced element is based on the font type and font-size but the CSS2.1 specification does not specify how. So, the height of the orange borders is impossible to predict. Such difficulty applies as well to [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-applies-to-008.htm
-|[RC6] margin-applies-to-008]] . With Ahem font, this would be computable and predictable.
+|[RC6] padding-applies-to-008]] **Reasons why**: Content area of an inline non-replaced element is based on the font type and font-size but the CSS2.1 specification does not specify how. So, the height of the orange borders is impossible to predict. Such difficulty applies as well to [[http://test.csswg.org/suites/css2.1/20110323/html4/margin-applies-to-008.htm|[RC6] margin-applies-to-008]] . With Ahem font, this would be computable and predictable.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/abspos-003.htm
+|[RC6] abspos-003]] **Reasons why**: An absolute positioned element with 'bottom: 0' is not reftestable with different method to produce the same rendering as the test file.
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
 |[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty. I have now been able to create a reftest for such test.
