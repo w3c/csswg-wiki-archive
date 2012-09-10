@@ -1,6 +1,6 @@
-==== Paris 2012 ====
+Web Site: http://testthewebforward.org/paris-2012.html
 
-http://testthewebforward.org/paris-2012.html
+==== Event Definition ====
 
 == Goals ==
   * Move the web forward by improving testing and therefore its quality
@@ -11,9 +11,6 @@ http://testthewebforward.org/paris-2012.html
 == Dates ==
 Dates: Friday October 26th, Saturday October 27th
 
-== Venue ==
-Venue: TBD - under investigation
-
 == Testing Categories ==
 
 ^ Testing Category      ^ Experts       ^ Technical support (first line of defense)          ^
@@ -22,15 +19,17 @@ Venue: TBD - under investigation
 | ? | x     | y        |
 | ? | x     | y       |
 
+==== Event Preparation ====
+
+== Venue ==
+Venue: TBD - under investigation
+
+== Number of experts ==
+Rebecca???
+
 == Number of Attendees ==
   * The number of attendees will depend on the number of experts available. The recommended ratio attendees/experts is 5 to 1 (10 to 1 max).
   * If we want 100 attendees we will need 20 experts (optimal number)
-
-==== Event Preparation ====
-
-== Google groups (DL) / email ==
-Google Group: Test the Web Forward
-Google Group: Test the Web Forward - Paris
 
 == Talks/Speakers ==
 on www.testthewebforward.com
@@ -44,8 +43,15 @@ on www.testthewebforward.com
 == Internal Agenda ==
 Israel
 
-== Reaching out to the community ==
-Liz, Daniel Glazman, Christie Fidura
+== Reach out plan ==
+- in charge: Liz?
+- Announcement
+- Registration
+- List of deliverables:
+-- Badges
+-- Registration site
+-- Text for registration site
+- Contributors: W3C folks, all experts, Daniel Glazman, Christie Fidura
 
 == Documentation ==
 Sample tests - 
@@ -54,26 +60,29 @@ Guidelines
 Must install tools
 How to file a bug...
 
-== Registration ==
-Liz
-
 == Tools to make test case submission easier ==
 Rebecca
 
-== Logo ==
-Israel: Contact Christian - see if CJ is available
-
 == Video ==
 
-==== Plan to follow up with the community after event ====
+== Communication ==
+Google Group: Test the Web Forward
+Google Group: Test the Web Forward - Paris
+
+== Transaltion ==
+Decided that the event will be in English
+
+==== Follow up with the community after event ====
+- requirements?
 Israel/Liz - W3C community group
 
-==== Website ====
+==== Branding ====
+== Logo ==
+== T shirt == 
+== Stikers ==
 
-== Redesigning ==
-
-== Translation? ==
-No: event will be in English
+==== Web Site ====
+- on gitHub
 
 ==== Logistics ====
 == Stuff to send to France ==
@@ -87,7 +96,6 @@ No: event will be in English
 == Swag ==
 -T-Shirts
 -Stickers
-
 
 == Catering schedule ==
 
@@ -108,6 +116,6 @@ Dongles
 
 == Fun ==
 
-== Sign ==
+== Signs ==
 
 == Prizes?/Contest?/Raffle? ==
