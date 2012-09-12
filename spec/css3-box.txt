@@ -61,7 +61,7 @@ I don't much like the second interpretation, since it may well become possible t
 ===Relevant quotes===
 
 From CSS21:
-  * "since anonymous boxes are not part of the document tree, they are not counted when calculating the first child."
+  * "since anonymous boxes are not part of the document tree, they are not counted when calculating the first child." (:first-child pseudo-class)
   * "inheritance follows the document tree and is not intercepted by anonymous boxes"
   * "The properties of anonymous boxes are inherited from the enclosing non-anonymous box. Non-inherited properties have their initial value."
   * "Anonymous block boxes are ignored when resolving percentage values that would refer to it: the closest non-anonymous ancestor box is used instead. For example, if the child of the anonymous block box inside the DIV above needs to know the height of its containing block to resolve a percentage height, then it will use the height of the containing block formed by the DIV, not of the anonymous block box."
@@ -70,6 +70,11 @@ From CSS21:
 
 From css3-images:
   * "Objects inserted via the CSS2.1 ‘content’ property are anonymous replaced elements, and are sized the same way. [CSS21] Note that such anonymous elements have all their non-inherited properties (including ‘width’, ‘height’, etc.) set to their initial values."
+
+===Observations arising from the above===
+
+  * The inheritance mechanism works on elements, not boxes, and hence it ignores certain boxes. (Hmm, how do pseudo-elements interact with the inheritance mechanism?)  Consider a non-ignored box C that is a child of an ignored box A which itself is a child of a non-ignored box P.  Both A and C inherit inheritable properties from P.  For A, all non-inheritable properties have their initial value, whereas for C they have their specified value (which may or may not be the same as their initial value).  For C, the specified value of a property whose cascaded value is 'inherit' is P's computed value of the same property; A doesn't "intercept" this.
+  * 
 
 ====== Spec Issues ======
 
