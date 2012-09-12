@@ -41,7 +41,7 @@ What, really, is an anonymous box?  There currently seem to be two rather differ
   * a "fix-up" box, ie a box inserted into the formatting structure in order to ensure that content which participates in a given formatting context is grouped in such a way that it obeys the requirements of that formatting context
   * a box that cannot be addressed with CSS selectors
 
-I think the former is a better interpretation, since it may well become possible to address various types of box currently regarded as anonymous using pseudo-elements.
+I don't much like the second interpretation, since it may well become possible to address various types of box currently regarded as anonymous using pseudo-elements.
 
 ===Potential candidates for "anonymous" status===
 
