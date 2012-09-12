@@ -416,3 +416,12 @@ Pages showing multicolumn layout with two flows, one French and the other Englis
 See this real-life example of an airline magazine with english/french side by side. 
 
 {{:spec:css3-regions:multi-lingual.png?700|}}
+
+==== CSSOM use cases ====
+
+The spec includes more than the usual amount of CSSOM, as the basic capabilities of named flows and region chains are very well suited to being extended via script. Here are some use cases for the scripting access included in the spec.
+
+  - Modifying the region chain based on content changes or window resizing. This could involve adding or removing CSS Regions, or changing region geometry.
+  - Handing events on named flow contents - using the OM to determine the CSS Region(s) that contain the content.
+  - Layout extensions implemented via script (script-based layout constraints can adapt region chain geometry).
+  - Paginated views that use script to navigate or search (use the OM to determine the page to display).
