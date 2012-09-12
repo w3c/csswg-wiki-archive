@@ -63,6 +63,7 @@ I don't much like the second interpretation, since it may well become possible t
 From CSS21:
   * "since anonymous boxes are not part of the document tree, they are not counted when calculating the first child."
   * "inheritance follows the document tree and is not intercepted by anonymous boxes"
+  * "The properties of anonymous boxes are inherited from the enclosing non-anonymous box. Non-inherited properties have their initial value."
   * "Anonymous block boxes are ignored when resolving percentage values that would refer to it: the closest non-anonymous ancestor box is used instead. For example, if the child of the anonymous block box inside the DIV above needs to know the height of its containing block to resolve a percentage height, then it will use the height of the containing block formed by the DIV, not of the anonymous block box."
   * "The latter are called anonymous inline boxes, because they do not have an associated inline-level element"
   * "anonymous inline boxes inherit inheritable properties from their block parent box. Non-inherited properties have their initial value."
