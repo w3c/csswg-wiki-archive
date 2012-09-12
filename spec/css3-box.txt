@@ -73,8 +73,8 @@ From css3-images:
 
 ===Observations arising from the above===
 
-  * The inheritance mechanism works on elements, not boxes, and hence it ignores certain boxes. (Hmm, how do pseudo-elements interact with the inheritance mechanism?)  Consider a non-ignored box C that is a child of an ignored box A which itself is a child of a non-ignored box P.  Both A and C inherit inheritable properties from P.  For A, all non-inheritable properties have their initial value, whereas for C they have their specified value (which may or may not be the same as their initial value).  For C, the specified value of a property whose cascaded value is 'inherit' is P's computed value of the same property; A doesn't "intercept" this.
-  * 
+  * The inheritance mechanism works on document tree elements, not psuedo-elements or boxes, and hence it ignores certain boxes. Consider a non-ignored box C that is a child of an ignored box A which itself is a child of a non-ignored box P.  Both A and C inherit inheritable properties from P.  For A, all non-inheritable properties have their initial value, whereas for C they have their specified value (which may or may not be the same as their initial value).  For C, the specified value of a property whose cascaded value is 'inherit' is P's computed value of the same property; A doesn't "intercept" this.
+  * That an anonymous box can't be selected (eg by :first-child) seems to be a design pattern rather than part of the definition of anonymous box.
 
 ====== Spec Issues ======
 
