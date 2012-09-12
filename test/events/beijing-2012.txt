@@ -15,8 +15,7 @@
 |**Session II - W3C test writing and infrastructure (one hour)**|||||
 | 4:30 pm - 5:00 pm | How to create W3C tests | * W3C test case structure\\ * How to create W3C JS and Ref tests | Jian Zhang from Adobe China | None |
 | 5:00 pm - 5:30 pm | Testing Frameworks Deep-Dive: CSS | * The structure of the CSSWG test suite repository\\ * Check in process and how to use hg\\ * How to use online CSS Test Suite Manager | Elika from CSS Working Group | Elva Fu from Intel China |
-| 5:30 pm - 6:00 pm | File the best bug | * Bug lifecycle\\ * How to file a bug with high quality\\ * How to file bugs for different browser vendors | Zhang, Zhiqiang from Intel China |
-| 6:00 pm | Dinner |   |   |
+| 5:30 pm | Dinner |   |   |
 
 \\
 
@@ -26,7 +25,8 @@
 | 12:00 pm - 1:00 pm | Lunch | -- | -- | -- |
 | 1:00 pm - 3:00 pm | Hack | -- | -- | -- |
 | 3:00 pm - 3:30 pm | Snacks/Drinks | -- | -- | -- |
-| 3:30 pm - 5:30 pm | Hack | -- | -- | -- |
+| 3:30 pm - 4:00 pm | File the best bug | * Bug lifecycle\\ * How to file a bug with high quality\\ * How to file bugs for different browser vendors | Zhang, Zhiqiang from Intel China | None |
+| 4:00 pm - 5:30 pm | Hack | -- | -- | -- |
 | 5:30 pm - 6:00 pm | Demos\\ Prizes\\ Wrap up | -- | -- | -- |
 | 6:00 pm | Dinner | -- | -- | -- |
 ===== Schedule for Speaker, Co-Speaker and Test Reviewer =====
