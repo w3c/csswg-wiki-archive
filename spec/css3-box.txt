@@ -34,6 +34,41 @@ Problem: difficulty in restricting attention to only those boxes for whom the co
 Problem: difficulty in removing boxes from the set of potential containing block–establishing boxes for a given kind of box.
 
 
+=====Anonymous boxes=====
+
+What, really, is an anonymous box?  There currently seem to be two rather different interpretations:
+
+  * a "fix-up" box, ie a box inserted into the formatting structure in order to ensure that content which participates in a given formatting context is grouped in such a way that it obeys the requirements of that formatting context
+  * a box that cannot be addressed with CSS selectors
+
+I think the former is a better interpretation, since it may well become possible to address various types of box currently regarded as anonymous using pseudo-elements.
+
+====Potential candidates for "anonymous" status====
+
+  * obvious fix-up boxes:
+    * block boxes and inline boxes generated to ensure that block container boxes contain no "loose" content
+    * boxes generated to ensure a sensible table structure in a table formatting context
+    * flex-item boxes generated to group "loose" text in a flex formatting context
+    * grid-item boxes generated to group "loose" text in a grid formatting context
+  * boxes which are necessarily generated for an element (depending on its property values) irrespective of its content:
+    * marker box of a list item
+    * table wrapper box / table box of a table element
+    * column box(es) of a multicol element
+    * ruby boxes (?)
+  * other:
+    * region flow content box
+
+====Relevant quotes====
+
+From CSS21:
+  * "since anonymous boxes are not part of the document tree, they are not counted when calculating the first child."
+  * "inheritance follows the document tree and is not intercepted by anonymous boxes"
+  * "Anonymous block boxes are ignored when resolving percentage values that would refer to it: the closest non-anonymous ancestor box is used instead. For example, if the child of the anonymous block box inside the DIV above needs to know the height of its containing block to resolve a percentage height, then it will use the height of the containing block formed by the DIV, not of the anonymous block box."
+  * "The latter are called anonymous inline boxes, because they do not have an associated inline-level element"
+  * "anonymous inline boxes inherit inheritable properties from their block parent box. Non-inherited properties have their initial value."
+
+From css3-images:
+  * "Objects inserted via the CSS2.1 ‘content’ property are anonymous replaced elements, and are sized the same way. [CSS21] Note that such anonymous elements have all their non-inherited properties (including ‘width’, ‘height’, etc.) set to their initial values."
 
 ====== Spec Issues ======
 
