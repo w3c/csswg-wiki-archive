@@ -43,7 +43,7 @@ What, really, is an anonymous box?  There currently seem to be two rather differ
 
 I think the former is a better interpretation, since it may well become possible to address various types of box currently regarded as anonymous using pseudo-elements.
 
-====Potential candidates for "anonymous" status====
+===Potential candidates for "anonymous" status===
 
   * obvious fix-up boxes:
     * block boxes and inline boxes generated to ensure that block container boxes contain no "loose" content
@@ -58,7 +58,7 @@ I think the former is a better interpretation, since it may well become possible
   * other:
     * region flow content box
 
-====Relevant quotes====
+===Relevant quotes===
 
 From CSS21:
   * "since anonymous boxes are not part of the document tree, they are not counted when calculating the first child."
