@@ -12,6 +12,23 @@ This page is to track specifically the remaining work on the CSS Box module. Ple
 
 This section is for describing general problems that the CSS Box module must solve, e.g. concepts that need defining or refining, or spec areas that should be rewritten to improve clarity.
 
+=====Property transfer from elements to boxes=====
+
+CSS21 is clear that properties belong to elements, not boxes, but they cause boxes to be have in certain ways.
+
+In reality, though, everyone talks about properties on boxes, and so the css3-box spec currently says that "we refer interchangeably to “the P property of an element” and “the P property of a box” (both of which actually mean “the value of property P of…”), unless it is important to distinguish the box and the element, e.g., because the element has several boxes and they don't all have the same value for the property".  Unfortunately this doesn't really work, though, because it's necessary (or at least very desirable, editorially) to be able to be able to identify boxes by their properties, and that's not possible unless there's a clearly defined way of transferring properties from an element to its boxes in the case that an element generates multiple boxes.
+
+A better approach is to formalize the use of properties on boxes.  Current thinking:
+
+  * Every property which can be set on an element also exists for the box.  Need to exclude the 'display' property though, since it doesn't make sense to talk about a box with display:table (the wrapper box is actually a block or inline-block box, and the table box is block-level with some undefined internal display type); also, flex items are flex-level but the display value of elements which generate them is 'block', so there's no good display value to associate to the box.
+  * Just as for elements, some or all of any given property's values might have no effect on a given box.
+  * The concept of specified value doesn't make sense for boxes.  But there are computed, used and actual values just as for elements.
+  * For each inheritable property that is set on a box, the computed, used or actual value is the same as that for the element to which the box belongs.  That is, elements transfer values of their inheritable properties to the boxes which they generate.  (Unless otherwise specified?  Will there ever be a situation in which an inheritable property on an element which generates multiple boxes gets transferred unequally to those boxes?  I can't imagine one right now.)
+  * For non-inheritable properties, except when otherwise specified:
+    * for principal boxes, the same is true; property values come straight from the element
+    * for non-principal boxes, the initial value is used as the computed, used and actual value.  (This assumes that a property's initial value is always a valid used and actual value, and that it doesn't get transformed when moving from computed to used or from used to actual... which I /think/ is true but is not actually specified anywhere.)
+
+
 =====Containing blocks=====
 
 We have seen frequent cases of spec authors using incorrect terminology or awkward constructions when referring to containing blocks, due to the lack of clarity and suitable hooks in CSS21:
