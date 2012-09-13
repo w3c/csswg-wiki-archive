@@ -4,6 +4,8 @@ This page lists a number of design patterns that have been identified for comput
 
 If you're a spec editor, you should check the "computed value:" definition of the properties in your spec with this document.
 
+  - computed values should depend only on the specified or computed values of properties on the element or its parent
+  - computed values must never depend on layout
   - shorthand properties do not have computed values. For them, simply specify: 
     * Computed value: see individual properties
   - url() resolvability cannot affect the computed value, since the concept of computed value shouldn't require accessing the network.
@@ -12,5 +14,4 @@ If you're a spec editor, you should check the "computed value:" definition of th
     * Computed value: as specified, except with any relative URLs converted to absolute
   - properties that just accept keyword or IDREF values, should just specify: 
     * Computed value: as specified
-  - computed values should never depend on layout
   - (disputed) computed values should never depend on containing block hierarchy (though note that they already do in CSS21, eg 'height' for percentage values (http://lists.w3.org/Archives/Public/www-style/2011Sep/0008.html)
