@@ -4,10 +4,10 @@ This page lists a number of design patterns that have been identified for at-rul
 
 At-rules can generally be grouped into four categories: 
 
- 1. processing instructions (like @import or @charset)
- 2. rules that change the context of rules inside them (like @media or @region)
- 3. rules that apply properties to things in the document other than elements (like @page or @viewport)
- 4. rules that define values which are too complex to define inline (like @font-face or @keyframes)
+  - processing instructions (like @import or @charset)
+  - rules that change the context of rules inside them (like @media or @region)
+  - rules that apply properties to things in the document other than elements (like @page or @viewport)
+  - rules that define values which are too complex to define inline (like @font-face or @keyframes)
 
 ===== Spec Text =====
 
