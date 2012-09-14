@@ -30,6 +30,9 @@ A better approach is to formalize the use of properties on boxes.  Current think
 
 NOTE: check out css3-page where properties are assigned from page context and margin context to boxes; need to align
 
+NOTE: how does this work for box fragments?
+
+
 
 =====Containing blocks=====
 
