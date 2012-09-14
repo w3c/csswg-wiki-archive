@@ -10,11 +10,11 @@
 |**Session I - Specs under test (one hour)**|||||
 | 2:50 pm - 3:10 pm | An introduction to the CSSOM View spec | * Get an overall understanding of the web features under test\\ * How to read spec effectively\\ * How to break down a section of the spec into test assertions |JianNing Ding  from  Google China   |ZhanHongTao from  Maxthon| 
 | 3:10 pm - 3:40 pm | An introduction to the CSS Backgrounds and Borders spec | ditto | Elika from CSS working group | Mark Dong from Adobe China |
-| 3:40 pm - 4:00 pm | An introduction to the CSS Flexible Box spec | ditto | Kenny from Opera China | None |
+| 3:40 pm - 4:00 pm | An introduction to the CSS Flexible Box spec | ditto | Kenny from Opera China | Jinglong Zhang|
 | 4:00 pm - 4:20 pm | Snacks/Drinks/Buffer time | -- | -- |
 |**Session II - W3C test writing and infrastructure (one hour)**|||||
 | 4:20 pm - 4:50 pm | How to create W3C tests | * W3C test case structure\\ * How to create W3C JS and Ref tests | Jian Zhang from Adobe China | None |
-| 4:50 pm - 5:30 pm | Test infrastructure | * The structure of the CSSWG test suite repository\\ * Check in process and how to use hg\\ * How to use online CSS Test Suite Manager | Elika from CSS Working Group | Elva Fu from Intel China |
+| 4:50 pm - 5:20 pm | Test infrastructure | * The structure of the CSSWG test suite repository\\ * Check in process and how to use hg\\ * How to use online CSS Test Suite Manager | Elika from CSS Working Group | Elva Fu from Intel China |
 | 5:30 pm | Dinner |   |   |
 
 \\
