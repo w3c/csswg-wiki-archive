@@ -28,6 +28,8 @@ A better approach is to formalize the use of properties on boxes.  Current think
     * for principal boxes, the same is true; property values come straight from the element
     * for non-principal boxes, the initial value is used as the computed, used and actual value.  (This assumes that a property's initial value is always a valid used and actual value, and that it doesn't get transformed when moving from computed to used or from used to actual... which I /think/ is true but is not actually specified anywhere.)
 
+NOTE: check out css3-page where properties are assigned from page context and margin context to boxes; need to align
+
 
 =====Containing blocks=====
 
@@ -102,11 +104,9 @@ Editorially, it's be helpful to have a name for "fix-up boxes" introduced into t
 
 =====Flow roots, flows and formatting contexts=====
 
-Terminology crisis!
-
 CSS has "normal flow", "in-flow" and "out of flow", but never really explains what the/a normal flow is.
 
-===Relevant quotes===
+===Relevant quotes for flow===
 
 From CSS21:
   * "normal flow includes block formatting of block-level boxes, inline formatting of inline-level boxes"
@@ -117,7 +117,24 @@ From CSS21:
   * "User Agents must apply these properties to block-level elements in the normal flow of the root element" ('page-break-*')
 
 
+[Note: css3-page 9.4 (Allowed page breaks) says: "In the normal flow, page breaks may occur at the following places".  What does this mean?  Does this indicate that a nested flow root may be fragmented if its its in-flow content has page break opportunities as specified?  Or is it trying to say that page break opportunities only exist in the outermost flow (whatever that actually is)?]
+
 [Note: according to CSS21 9.3, the root element is out of flow.  Is this correct?  Surely it participates in the block formatting context established by the initial containing block.]
+
+===Relevant quotes for formatting contexts===
+
+From flexbox:
+  * "A flex container establishes a new flex formatting context for its contents. This is the same as establishing a block formatting context, except that flex layout is used instead of block layout: floats do not intrude into the flex container, and the flex container's margins do not collapse with the margins of its contents."
+
+From multicol:
+  * "A multi-column element establishes a new block formatting context, as per CSS 2.1 section 9.4.1.  Example: A top margin set on the first child element of a multicol element will not collapse with the margins of the multicol element."
+  * The 'all' value of 'column-span': "The element spans across all columns of the nearest multicol ancestor in the same block formatting context. [...] The element establishes a new block formatting context."
+
+From exclusions:
+  * "An exclusion element [block-level element which is not a float and generates an exclusion box (ie ‘wrap-flow’ property's computed value is not ‘auto’)] establishes a new block formatting context"
+
+From writing-modes:
+  * "If an element has a different block flow direction than its containing block [..., and] the element is a block container, then it establishes a new block formatting context."
 
 
 
