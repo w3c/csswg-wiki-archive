@@ -55,8 +55,6 @@ Problem: difficulty in inserting new rules to modify how the containing block of
 Problem: difficulty in restricting attention to only those boxes for whom the container will establish the containing block \\
 Problem: difficulty in removing boxes from the set of potential containing block–establishing boxes for a given kind of box.
 
-NOTE: from css3-regions: "The edges of the first CSS region in a region chain associated with a named flow establish the rectangle that is the containing block used for absolutely positioned elements in the named flow which do not have an ancestor with a ‘position’ of ‘absolute’, ‘relative’ or ‘fixed’ (see [CSS21]). That first CSS region rectangle is used as the containing block instead of the initial containing block. This does not affect fixed position elements in the named flow - they are still positioned relative to the viewport or page area even if they have been redirected to a named flow."
-
 
 =====Anonymous boxes=====
 
