@@ -93,9 +93,9 @@ From css3-images:
 
 ===Observations===
 
-  * The inheritance mechanism works on document tree elements, not psuedo-elements or boxes, and hence the fact that it ignores certain boxes is obvious, and doesn't even need to be stated in CSS21.  This fact is red herring when it comes to defining anonymous boxes.
-  * That an anonymous box can't be selected (eg by :first-child) seems to be a design pattern rather than part of the definition of anonymous box.
-  * Even if a box can't be selected right now, it may well become possible to select it in future using a pseudo-element.
+  * The inheritance mechanism works on document tree elements, not psuedo-elements or boxes, and hence the fact that it ignores certain boxes is obvious, and doesn't even need to be stated in CSS21.  This fact is a red herring when it comes to defining anonymous boxes.
+  * That an anonymous box can't be selected (eg by pseudo-elements) seems to be a design pattern rather than part of the definition of anonymous box...
+  * ...and even if a box can't be selected right now, it may well become possible to select it in future using a pseudo-element.
 
 ===Current thinking===
 
