@@ -112,9 +112,9 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 40 unreftestable tests ====
+==== 41 unreftestable tests ====
 
-The following is a list of 40 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 41 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
@@ -199,6 +199,10 @@ The following is a list of 40 CSS2.1 tests that appear to be unreftestable:
 |[RC6] abspos-006]]   **Reasons why**: An absolute positioned element with 'bottom: 0' is not reftestable with a different method to produce the same rendering as the test file.
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/border-bottom-width-applies-to-014.htm
 |[RC6] border-bottom-width-applies-to-014]] **Reasons why**: The bottom edge of the empty cell should be "sitting" on the baseline. Now, depending on local font used, it is not predictable what would be the vertical baseline-alignment for such local font: this can vary.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/dynamic-top-change-005.htm
+|[RC6] dynamic-top-change-005]] **Reasons why**: the duo declarations font-size: medium; line-height: 0; create a situation where the vertical position of the line box's baseline is not predictable and does vary in browsers.  "The inline-level boxes are aligned vertically according to their 'vertical-align' property. (...) If such boxes are tall enough, there are multiple solutions and **CSS 2.1 does not define the position of the line box's baseline**" [[http://www.w3.org/TR/CSS21/visudet.html#line-height|CSS 2.1, section 10.8, Line height calculations]] Such difficulty applies as well to [[http://test.csswg.org/suites/css2.1/20110323/html4/dynamic-top-change-005a.htm
+|[RC6] dynamic-top-change-005a]] and  [[http://test.csswg.org/suites/css2.1/20110323/html4/dynamic-top-change-005b.htm
+|[RC6] dynamic-top-change-005b]] .
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
 |[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty. I have now been able to create a reftest for such test.
