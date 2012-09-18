@@ -110,7 +110,7 @@ My preferred approach is currently to equate anonymous boxes with "fix-up boxes"
 
 =====Flow roots, flows and formatting contexts=====
 
-CSS has "normal flow", "in-flow" and "out of flow", but never really explains what the/a normal flow is.
+CSS has "normal flow", "in-flow" and "out of flow", but never really explains what the/a normal flow is.  It's reasonably clear about what a flow is though.
 
 ===Relevant quotes for flow===
 
@@ -151,8 +151,12 @@ From exclusions:
 From writing-modes:
   * "If an element has a different block flow direction than its containing block [..., and] the element is a block container, then it establishes a new block formatting context."
 
+From regions:
+  * "CSS Regions establish a new block formatting Context."
 
+===Current thinking===
 
+I question that a region establishes a BFC or even establishes any kind of formatting context.  If a table or flex container is fragmented across multiple regions so that one of the regions in the middle receives only a part of the table layout or the flexbox layout, can that layout really be said to be obeying the rules of some formatting context established by the region?  Indeed, if one region is set to be "display:block" and another is set to be "display:flex" and flow runs through them, what is the expected behaviour?  Is the fragmented flow rendered as flex layout inside the flex region?  Need to review the css3-break spec
 ====== Spec Issues ======
 
 This section is for listing errors in the spec and mismatches against CSS2.1.
