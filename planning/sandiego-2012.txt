@@ -19,6 +19,10 @@
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0890.html|Tuesday PM I]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0891.html|Tuesday PM II]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0894.html|Wednesday AM I]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0897.html|Wednesday AM II]] - Fonts, Text
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0898.html|Wednesday PM I]] - Filters, Transforms, Masking
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0899.html|Wednesday PM II]] - Writing Modes, Lists and Counter Styles, Case-sensitivity and Normalization
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0900.html|Wednesday PM III]] - Sticky Positioning, Animations, SciNot
   * MORE HERE (AND GIVE TITLES)
 
 Weather Forecast: [[http://forecast.weather.gov/MapClick.php?lat=32.708&lon=-117.166&unit=1|°C]] or [[http://forecast.weather.gov/MapClick.php?lat=32.708&lon=-117.166|°F]]
