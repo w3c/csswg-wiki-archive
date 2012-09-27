@@ -31,7 +31,7 @@ These are being actively developed. Sometimes used to be CRs that need major rev
   * [[spec:cssom|CSSOM - CSS Object Module]]
   * [[spec:css3-flexbox|CSS Flexbox Module]]
   * [[spec:css3-lists|CSS Lists Module Level 3]]
-  * [[spec:css3-regions|CSS Regions Module]]
+  * [[spec:css3-regions|CSS Regions Module Level 3]]
   * [[spec:css-ruby|CSS3 Ruby Module]] (out of date CR, back to WD for major revisions)
   * [[spec:css3-text|CSS Text Module Level 3]]
   * [[spec:css3-values|CSS Values and Units Module Level 3]]
