@@ -1,0 +1,1 @@
+If in future CSS Regions levels we allow CSS Regions that are not block containers, several issues arise. Questions on some of these issues are captured here: http://lists.w3.org/Archives/Public/www-style/2012Sep/0555.html
