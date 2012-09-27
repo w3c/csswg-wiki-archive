@@ -1,1 +1,3 @@
 If in future CSS Regions levels we allow CSS Regions that are not block containers, several issues arise. Questions on some of these issues are captured here: http://lists.w3.org/Archives/Public/www-style/2012Sep/0555.html
+
+A 'nobreak' value has been proposed for the region-fragment property: http://lists.w3.org/Archives/Public/www-style/2012Feb/0000.html
