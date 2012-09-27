@@ -228,11 +228,18 @@ Save the page (e.g. in Firefox, choose the "Save Page as..." menu item from the 
 
 If you're on a system with [[http://curl.haxx.se/|curl]] on it, just save the following line to a file somewhere in your executable path:
 
-  curl -u USERNAME:PASSWORD -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html''
+  curl -u USERNAME:PASSWORD -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html
 
 (Replace the USERNAME:PASSWORD with your W3C username and password, the same that you would enter when visiting the web form linked above.)
 
 Mark the file as executable, then just run it from within the folder of the spec you're working on.  It will automatically submit ''Overview.src.html'' to the post-processor and save the results to  ''Overview.html''.
+
+If you use the [[http://mercurial.selenic.com/wiki/KeyringExtension|Keyring extension for Mercurial]] you can use this script instead, to avoid storing the password in the script:
+
+  W3C_USER='your username'
+  curl -u $W3C_USER:$(python -c "import keyring;print(keyring.get_password('Mercurial', '$W3C_USER@@https://dvcs.w3.org/hg/'))") -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html
+
+(Before using this script you need to push at least once so that the password is in they keyring.)
 
 
 === Other Working Groups ===
