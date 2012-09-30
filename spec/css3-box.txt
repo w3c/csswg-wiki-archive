@@ -158,7 +158,7 @@ From regions:
 
 Formatting contexts are established by (possibly anonymous) boxes which may or may not be flow roots, whilst a flow root necessarily establishes a formatting context of some kind, depending on the box's properties.
 
-A flow root is roughly a box whose normal flow is rendered in a location that's out-of-sync with the normal flow content that surrounds its box in the box tree.  I'm not yet clear whether its even necessary to care about the concept of flow root.
+A flow root is roughly a box whose normal flow is rendered in a location that's out-of-sync with the normal flow content that surrounds the flow root's box in the box tree.  I'm not yet clear whether its even necessary to care about the concept of flow root.
 
   * Regions, floats, abspos boxes and transform boxes are flow roots.
   * Neither column boxes, page boxes nor align boxes are inherently flow roots, but they do establish new formatting contexts.
