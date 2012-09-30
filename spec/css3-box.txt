@@ -162,9 +162,12 @@ For css3-box, a flow root establishes a formatting context of some kind.
 
 Formatting contexts can also be induced anonymously: for example, a misparented table-cell induces box fixup resulting in the usual table wrapper formatting context and table formatting context.
 
-Regions are flow roots.  Column boxes are flow roots.  Page boxes are flow roots.  Currently in CSS, all these things necessarily establish //block// formatting contexts.  That might change in future.
+Regions are flow roots.  Column boxes are flow roots.  Page boxes are flow roots.  Currently in CSS, regions and page boxes  necessarily establish //block// formatting contexts, and column boxes establish column formatting contexts which are currently identical in behaviour to block formatting contexts.  All these boxes might perhaps establish other types of formatting context in future.
+
+(In future, column formatting contexts might allow the overflow of a float from a previous column to affect the block formatting of the column in which the overflow sits.  Perhaps 'clear' will react to that float overflow too.)
 
 Recall that the scope of float behaviour and clearance behaviour is restricted to the block formatting context in which the float and clearing element participates.
+
 
 ====== Spec Issues ======
 
