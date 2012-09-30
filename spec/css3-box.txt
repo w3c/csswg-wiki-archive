@@ -158,9 +158,9 @@ From regions:
 
 In CSS21, a flow root establishes a block formatting context (and everything which establishes a block formatting context is a flow root).  This implies that if its flow consists entirely of inline-level boxes, an anonymous block box is induced which establishes the inline formatting context in which the inline-level boxes participate.
 
-For css3-box, a flow root establishes a formatting context of some kind.
+For css3-box, a flow root establishes a formatting context of some kind, depending on the box's properties.  Most commonly, a flow root establishes a block formatting context.
 
-Formatting contexts can also be induced anonymously: for example, a misparented table-cell induces box fixup resulting in the usual table wrapper formatting context and table formatting context.
+Aside from being established by flow roots, formatting contexts can also be induced anonymously: for example, an inline-level child box which would otherwise be a sibling of a block-level box in a block formatting context causes an anonymous block box to be created to contain that inline-level box and establish an inline formatting context for it; and a misparented table-cell induces box fixup resulting in the usual table wrapper formatting context and table formatting context.
 
 Regions are flow roots.  Column boxes are flow roots.  Page boxes are flow roots.  Currently in CSS, regions and page boxes  necessarily establish //block// formatting contexts, and column boxes establish column formatting contexts which are currently identical in behaviour to block formatting contexts.  All these boxes might perhaps establish other types of formatting context in future.
 
