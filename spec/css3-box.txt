@@ -160,10 +160,10 @@ Formatting contexts are established by (possibly anonymous) boxes which may or m
 
 A flow root is roughly a box whose normal flow is rendered in a location that's out-of-sync with the normal flow content that surrounds the flow root's box in the box tree.  I'm not yet clear whether its even necessary to care about the concept of flow root.  The more obviously important concept is that of formatting context.
 
-  * Regions, floats, abspos boxes and transform boxes are flow roots.
+  * Regions, floats and abspos boxes are flow roots.
   * Neither column boxes, page boxes nor align boxes are inherently flow roots, but they do establish new formatting contexts.
   * (The "align box" type exists merely to artifically establish a new block formatting context.  Its name desperately needs changing.)
-  * Boxes whose used value of ‘overflow’ is not ‘visible’, table wrapper boxes, table cells, inline blocks and boxes whose directionality is orthogonal to their parent are //probably// not flow roots, but they do establish new formatting contexts.
+  * Boxes whose used value of ‘overflow’ is not ‘visible’, table wrapper boxes, table cells, inline blocks, transform boxes and boxes whose directionality is orthogonal to their parent are //probably// not flow roots, but they do establish new formatting contexts.
   * A ‘child-align’ box is neither a flow root nor inherently establishes a new formatting context.
 
 Column boxes establish column formatting contexts which are currently identical in behaviour to block formatting contexts.
