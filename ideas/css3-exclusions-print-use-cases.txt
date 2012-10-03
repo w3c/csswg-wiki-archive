@@ -4,7 +4,7 @@
 
 {{ :spec:css3-floats-use-cases:2columns_1excl.png?nolink |}}
 
-Here there's a circle shape affecting the flow of two columns. This could be done as a float with a shape (with the addition of a float-offset property) or as an absolutely positioned exclusion. You can see a markup example of a reconstruction of that use case [[http://disruptive-innovations.com/zoo/customers/Adobe/FFMC.html|here]]. Below is a screenshot of that reconstruction in a browser and the second code block is the CSS code used to create the exclusion. The first code block uses a much simpler mechanism from GCPM.
+Here there's a circle shape affecting the flow of two columns. This could be done as a float with a shape (with the addition of a float-offset property), as an absolutely positioned exclusion, or with grid positioning placing an exclusion over a multicol element or pair of regions. You can see a markup example of a reconstruction of that use case [[http://disruptive-innovations.com/zoo/customers/Adobe/FFMC.html|here]]. Below is a screenshot of that reconstruction in a browser and the second code block is the CSS code used to create the exclusion. The first code block uses a much simpler mechanism from GCPM.
 
 <code css>
 #exclusion {
