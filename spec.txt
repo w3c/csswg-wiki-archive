@@ -85,13 +85,13 @@ CSSWG members' comments on related specs not published by our group.
 ====== Specification Editing ======
 
   * [[tools:hg|W3C Mercurial For Dummies]] --- reading/writing to the spec repositories
-  * [[tools:spec-processor]] --- using spec post-processors to generate section numbers, indices, cross-links, and other mundane things
+  * [[tools:spec-processor]] --- generating ''Overview.html'' from ''Overview.src.html'' (auto-generating section numbers, indices, cross-links, and other mundane things)
   * [[http://dev.w3.org/csswg/css-module/Overview.src.html|CSS Module Template]] --- for starting new specs (and formatting old ones)
   * [[spec:format-update]] --- for updating existing specs to our latest "specs should include"
   * [[spec:publish]] --- getting your spec on www.w3.org
   * [[spec:issue-tracking]] --- raising your newborn draft into a grown-up spec
   * [[spec:process|Process suggestions for advancing a spec]] --- guidelines for when to advance your spec to the next stage
-  * [[spec:teststatus|Test status information on spec]] --- add information about testing status on the spec
+  * [[spec:teststatus|Test status information on spec]] --- adding information about testing status on the spec
 ====== Coordination between specifications ======
   * [[spec:cssom-constants|CSSOM Constants]]
   * [[spec:computed-values|Patterns for writing "Computed Value" lines]]
