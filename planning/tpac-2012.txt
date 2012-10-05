@@ -19,4 +19,4 @@ Regrets: John Daggett
 === Proposed Topics ===
 
   * css3-conditional LC/CR
-  * 
+  * case-sensitivity of user-idents (joint with i18n)
