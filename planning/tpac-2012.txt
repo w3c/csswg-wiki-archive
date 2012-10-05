@@ -1,0 +1,22 @@
+====== TPAC 2012 ======
+
+CSS will meet during [[http://www.w3.org/2012/10/TPAC/|TPAC 2012]], which runs from Monday 29 October through Friday 2 November, in Lyon, France.  The CSS working group will be meeting on **Sunday**, Monday, and Tuesday, October 28-30.
+
+**Logistics**: [[http://www.w3.org/2012/10/TPAC/|TPAC 2012]] (including registration)
+
+===== Participants =====
+Sorted by family name:
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Glenn Adams | Cox | Oct 28 | Nov 02 | Hilton (Lyon) | TGV6605/6628 | +TTWF |
+| Peter Linss | HP | Oct 27 | Nov 04 | Hilton (Lyon) | TGV6631/6616 | +TTWF |
+
+Regrets: John Daggett
+
+===== Agenda =====
+
+  * TBD
+
+=== Proposed Topics ===
+
+  * css3-conditional LC/CR
+  * 
