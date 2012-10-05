@@ -51,7 +51,7 @@ A template for new tests follows. Copy and paste the code below into a new file 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
-  <title>CSS Test: DESCRIPTION OF TEST</title>
+  <title>CSS Test: SCOPE OF TEST</title>
   <link rel="author" title="NAME_OF_AUTHOR" href="mailto:EMAIL OR http://CONTACT_PAGE"/>
   <link rel="help" href="RELEVANT_SPEC_SECTION"/>
   <meta name="flags" content="TOKENS" />
@@ -72,7 +72,7 @@ Alternatively, you can use this HTML5 template:
 <!DOCTYPE html>
 <html>
  <head>
-  <title>CSS Test: DESCRIPTION OF TEST</title>
+  <title>CSS Test: SCOPE OF TEST</title>
   <link rel="author" title="NAME_OF_AUTHOR" href="mailto:EMAIL OR http://CONTACT_PAGE">
   <link rel="help" href="RELEVANT_SPEC_SECTION">
   <meta name="flags" content="TOKENS">
@@ -99,7 +99,7 @@ Alternatively, you can use this HTML5 template:
 ==== Title element ====
 
 <code html>
-<title>CSS Test: DESCRIPTION OF TEST</title>
+<title>CSS Test: SCOPE OF TEST</title>
 </code>
 
 The title appears in the generated index, so make sure it is //concise//, //unique// and //descriptive//. The role of the title is to identify what specific detail of a feature or combination of features is being tested, so that someone looking through an index can see quickly what's tested in which file. In most cases, this description should not require more than 5 or 6 words. There is no need to provide the chapter or section in the title.
