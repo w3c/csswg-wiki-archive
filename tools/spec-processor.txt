@@ -1,4 +1,5 @@
 ==== CSSWG and other post processing ====
+
 For the CSSWG and other groups, you'll likely be editing a file called:
 <code>
  Overview.src.html
@@ -13,17 +14,11 @@ BEFORE committing your work.
 
 === Using the web form ===
 
-Go to:
-
-http://www.w3.org/Style/Group/css3-src/bin/postprocess-file
-
-Click (Choose File) and select the ''Overview.src.html'' file on your local machine that you want to post-process (you should do this when you're ready to check it in).
-
-Choose (*) Generated HTML - radio button
-
-Click the (Submit) button
-
-Save the page (e.g. in Firefox, choose the "Save Page as..." menu item from the "File" menu, be sure to choose "Web page, HTML only" from the "Save as" popup), name the file ''Overview.html'' (without the quotes), and save it right next your ''Overview.src.html'' - you'll likely be replacing an older version, that's ok, go ahead and confirm (command-R in the replace dialog).
+  - Go to: http://www.w3.org/Style/Group/css3-src/bin/postprocess-file
+  - Click (Choose File) and select the ''Overview.src.html'' file on your local machine that you want to post-process (you should do this when you're ready to check it in).
+  - Choose (*) Generated HTML - radio button
+  - Click the (Submit) button
+  - Save the page (e.g. in Firefox, choose the "Save Page as..." menu item from the "File" menu, be sure to choose "Web page, HTML only" from the "Save as" popup), name the file ''Overview.html'' (without the quotes), and save it right next your ''Overview.src.html'' - you'll likely be replacing an older version, that's ok, go ahead and confirm (command-R in the replace dialog).
 
 === Using a command-line script ===
 
