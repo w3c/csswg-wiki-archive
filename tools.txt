@@ -8,6 +8,6 @@ The CSSWG uses some tools to make our jobs easier. Here they are!
   * [[https://www.w3.org/blog/CSS/wp-admin/|WordPress]] runs our [[http://www.w3.org/blog/CSS/|official blog]]
   * [[http://www.w3.org/Style/CSS/Tracker/|Tracker]], [[https://www.w3.org/Bugs/Public/|Bugzilla]], and [[spec|this wiki]] are used to track spec issues. (Newer specs will link to their issues list in the header.)
   * [[http://test.csswg.org/shepherd/|Shepherd]] is used to track test suite bugs.
-  * The CSS [[http://dev.w3.org/csswg/css-module/Overview.src.html|module template]], [[https://www.w3.org/Style/Group/css3-src/bin/postprocess|Bert's post-processor]], and the [[http://www.w3.org/Style/Group/css3-src/biblio.ref|bibliographic data file]] are used to generate our specs.
+  * The CSS [[http://dev.w3.org/csswg/css-module/Overview.src.html|module template]], [[https://www.w3.org/Style/Group/css3-src/bin/postprocess|Bert's post-processor]], and the [[http://www.w3.org/Style/Group/css3-src/biblio.ref|bibliographic data file]] are used to generate our specs. See [[tools:spec-processor]] for tips.
   * [[http://www.w3.org/2001/12/zakim-irc-bot|Zakim]] is a conference bridge with an IRC bot that helps us manage our telecons.
   * [[irc://irc.w3.org:6665/#css|IRC]] is the real-time chat system we use for backchannel communication during meetings.
