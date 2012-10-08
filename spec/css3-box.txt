@@ -171,6 +171,8 @@ Column boxes establish column formatting contexts which are currently identical 
 
 Recall that the scope of float behaviour and clearance behaviour is restricted to the block formatting context in which the float and clearing element participates.
 
+Interesting note: no flow root can ever establish an inline formatting context, because inline formatting contexts can only exist inside of another non-inline formatting context.  This is because inline formatting contexts may contain floats, and how those floats behave depends on the outer formatting context.  If the outer formatting context is a BFC then the float floats, though it's not clear where its box belongs in the box tree.  If the outer formatting context is something else (and no examples exist of this yet in CSS) then whether and how the float floats is up to that formatting context.
+
 
 ====== Spec Issues ======
 
