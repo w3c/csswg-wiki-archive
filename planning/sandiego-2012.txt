@@ -9,21 +9,19 @@
 **Note**: Meeting starts at 9:00am, the room will be open from 8:00am with a continental breakfast served.
 
 **Minutes**:
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0749.html|Monday AM]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0770.html|Monday PM I]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0771.html|Monday PM II]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0848.html|Tuesday AM I]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0849.html|Tuesday AM II]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0852.html|Tuesday Noonish I]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0855.html|Tuesday Noonish II]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0890.html|Tuesday PM I]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0891.html|Tuesday PM II]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0894.html|Wednesday AM I]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0749.html|Monday AM]] - @supports and Selectors 4
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0770.html|Monday PM I]] - Syntax, Fragmentation
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0771.html|Monday PM II]] - Pseudo-elements and Overflow
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0848.html|Tuesday AM I]] - F2F schedule, CSSOM
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0849.html|Tuesday AM II]] - Regions, Exclusions, and Collisions
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0855.html|Tuesday Noonish]] - Images Level 4, FPWD Criteria
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0890.html|Tuesday PM I]] - Grid Layout
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0891.html|Tuesday PM II]] - CSS Variables
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0894.html|Wednesday AM I]] - Experimental Features Policy aka Prefixing
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0897.html|Wednesday AM II]] - Fonts, Text
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0898.html|Wednesday PM I]] - Filters, Transforms, Masking
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0899.html|Wednesday PM II]] - Writing Modes, Lists and Counter Styles, Case-sensitivity and Normalization
   * [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0900.html|Wednesday PM III]] - Sticky Positioning, Animations, SciNot
-  * MORE HERE (AND GIVE TITLES)
 
 Weather Forecast: [[http://forecast.weather.gov/MapClick.php?lat=32.708&lon=-117.166&unit=1|°C]] or [[http://forecast.weather.gov/MapClick.php?lat=32.708&lon=-117.166|°F]]
 
