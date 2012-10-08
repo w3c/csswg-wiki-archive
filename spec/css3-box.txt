@@ -175,6 +175,8 @@ Interesting note: no flow root can ever establish an inline formatting context, 
 
 Random note: block formatting contexts are not concerned merely with the formatting of block-level elements.  They're also concerned with the formatting of floats and of list marker boxes.  Of course, if such things are defined to be block-level then semantically there's no issue... but the description of block-level formatting needs to make reference to these things, even if it leaves the details to other specs.
 
+Random note: each formatting context needs to explain how to resolve the battle between a child's intrinsic size and extrinsic size.
+
 
 ====== Spec Issues ======
 
