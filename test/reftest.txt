@@ -112,9 +112,9 @@ Most of the CSS2.1 tests are self-describing tests that //could// be reftests, b
   * If multiple tests can share a reference, share the reference. (This allows for some optimizations in the test runs.)
   * If multiple files have almost but not quite the same rendering, and could almost but not quite render identically and thus share a reference, you may tweak the tests to render identically **provided that** this does not affect the tests' precision or correctness.
 
-==== 44 unreftestable tests ====
+==== 45 unreftestable tests ====
 
-The following is a list of 44 CSS2.1 tests that appear to be unreftestable:
+The following is a list of 45 CSS2.1 tests that appear to be unreftestable:
 
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/c414-flt-000.htm
 |[RC6] c414-flt-000]] **Reasons why**: if viewport is 640px or so, then "Blue rectangle" text should flow around and below each teal blocks. A reftest for this if/when resizing viewport - without javascript - is very hard to do, I would imagine. I do not think this can be done. Also, positioning floated-left and float-right boxes inside the same container seems impossible to do.
@@ -209,6 +209,8 @@ The following is a list of 44 CSS2.1 tests that appear to be unreftestable:
 |[RC6] position-relative-002]] **Reasons why**: I have not found a way to create a reliable and trustworthy reftest for this test... despite a lot of time spent on this. Even after setting line-height to 1.25, the offsetTop of ''<span>b</span>'' and of ''<span id="span1">a</span>'' are unexplicably 55px and 80px in Chrome 21 while it is 54px and 79px in other browsers (Firefox 15.01 and Opera 12.02) and when I think it should be 54px and 79px and not 55px and 80px. And I do not know why or if this is some kind of a bug. [Addendum: the offsetTop value of ''<span>b</span>'' varies depending on the local font in use.]
   - [[http://test.csswg.org/suites/css2.1/20110323/html4/block-formatting-contexts-013.htm
 |[RC6] block-formatting-contexts-013]] **Reasons why**: Height of horizontal scrollbar mechanism and width of vertical scrollbar mechanism is impossible to predict: these are user-settable preferences and browser default are not the same for each browser and under different operating system.
+  - [[http://test.csswg.org/suites/css2.1/20110323/html4/height-014.htm
+|[RC6] height-014]] **Reasons why**: 'height: 1pt' is impossible to convert into a reftest as 1pt can be resolved as 1px (this is what Opera 12.02, Chrome 22.0.1229.79 and Konqueror 4.9.2 do) or as 2px (this is how Firefox 15.0.1 handles 1pt).
 
 <del>[[http://test.csswg.org/suites/css2.1/20110323/html4/background-position-002.htm
 |[RC6] background-position-002]] **Reasons why**: Precise baseline-alignment positioning of ruler image is impossible to do with serif font; it varies from font to font.</del> I re-made the test to overcome such difficulty. I have now been able to create a reftest for such test.
