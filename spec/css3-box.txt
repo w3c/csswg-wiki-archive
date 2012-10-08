@@ -173,6 +173,8 @@ Recall that the scope of float behaviour and clearance behaviour is restricted t
 
 Interesting note: no flow root can ever establish an inline formatting context, because inline formatting contexts can only exist inside of another non-inline formatting context.  This is because inline formatting contexts may contain floats, and how those floats behave depends on the outer formatting context.  If the outer formatting context is a BFC then the float floats, though it's not clear where its box belongs in the box tree.  If the outer formatting context is something else (and no examples exist of this yet in CSS) then whether and how the float floats is up to that formatting context.
 
+Random note: block formatting contexts are not concerned merely with the formatting of block-level elements.  They're also concerned with the formatting of floats and of list marker boxes.  Of course, if such things are defined to be block-level then semantically there's no issue... but the description of block-level formatting needs to make reference to these things, even if it leaves the details to other specs.
+
 
 ====== Spec Issues ======
 
