@@ -9,10 +9,10 @@ Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Glenn Adams | Cox | Oct 28 | Nov 02 | Hilton (Lyon) | TGV6605/6628 | +TTWF |
 | Tantek Çelik | Mozilla | 2012-10-29 | 2012-11-02 | Hôtel de la Cité Concorde | BA362 17:35 / BA361 11:35 | |
+| Arron Eicholz | Microsoft | 28 Oct | 31 Oct | Hilton (Lyon) | AF3639 on 25 Oct, TGV6605/6620 | +TTWF |
+| John Jansen | Microsoft | 28 Oct | 31 Oct | Hôtel de la Cité Concorde | AF3639 on 25 Oct, TGV6613/6620 | +TTWF | 
 | Peter Linss | HP | Oct 27 | Nov 04 | Hilton (Lyon) | TGV6631/6616 | +TTWF |
 | Alan Stearns | Adobe | Oct 28 | Nov 04 | AirBNB apt. | TGV6631/AF 7651 | +TTWF |
-| John Jansen | Microsoft | 28 Oct | 31 Oct | Hôtel de la Cité Concorde | AF3639 on 25 Oct, TGV6613/6620 | +TTWF | 
-| Arron Eicholz | Microsoft | 28 Oct | 31 Oct | Hilton (Lyon) | AF3639 on 25 Oct, TGV6605/6620 | +TTWF |
 
 Regrets: John Daggett
 
