@@ -67,6 +67,7 @@ CSS Flexible Box
   * Tie Sun (Baidu)
   * Hanrui Gao (360)
   * Dayang Shen (Baidu)
+  * Fanzhe Wei (Taobao)
 
 CSSOM View
   * Yunlong Zhang (Mozilla China)
