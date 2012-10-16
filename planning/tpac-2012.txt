@@ -28,3 +28,4 @@ Regrets: John Daggett
 
   * css3-conditional LC/CR
   * case-sensitivity of user-idents (joint with i18n)
+  * Alternate stylesheets
