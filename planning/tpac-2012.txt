@@ -10,13 +10,15 @@ Sorted by family name:
 | Glenn Adams | Cox | Oct 28 | Nov 02 | Hilton (Lyon) | TGV6605/6628 | +TTWF |
 | Tantek Çelik | Mozilla | 2012-10-29 | 2012-11-02 | Hôtel de la Cité Concorde | BA362 17:35 / BA361 11:35 | |
 | Arron Eicholz | Microsoft | 28 Oct | 31 Oct | Hilton (Lyon) | AF3639 on 25 Oct, TGV6605/6620 | +TTWF |
+| fantasai | Mozilla | 27 Oct | 3 Nov | Cité Internationale Temporim | TGV6631/??? | +TTWF |
 | John Jansen | Microsoft | 28 Oct | 31 Oct | Hôtel de la Cité Concorde | AF3639 on 25 Oct, TGV6613/6620 | +TTWF | 
 | Peter Linss | HP | Oct 27 | Nov 04 | Hilton (Lyon) | TGV6631/6616 | +TTWF |
+| Edward O'Connor | Apple | 2012-10-27 | 2012-11-03 | Hôtel Le Roosevelt | TGV5601/5550 | +TTWF |
 | Florian Rivoal | Invited Expert | Oct 26| Oct 28 | Mercure Lyon Saxe Lafayette |TGV 6633/6674 |
 | Simon Sapin | Kozea | (Based in Lyon, not travelling) ||| TCL C26 | AC meeting on Tuesday afternoon |
 | Alan Stearns | Adobe | Oct 28 | Nov 04 | AirBNB apt. | TGV6631/AF 7651 | +TTWF |
 | Leif Storset | Opera | Oct 26 | Nov 01 | Hôtel de la Cité Concorde | LX538/533 | |
-| Edward O'Connor | Apple | 2012-10-27 | 2012-11-03 | Hôtel Le Roosevelt | TGV5601/5550 | +TTWF |
+
 
 Regrets: John Daggett
 
