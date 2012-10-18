@@ -32,3 +32,8 @@ Regrets: John Daggett
   * case-sensitivity of user-idents (joint with i18n)
   * Alternate stylesheets
   * css3-page: layout of page-margin boxes. Mail [[http://lists.w3.org/Archives/Public/www-style/2012Jul/0036.html|1]], [[http://lists.w3.org/Archives/Public/www-style/2012Jun/0184.html|2]]; [[https://github.com/SimonSapin/css/blob/master/margin-boxes-variable-dimension|proposed replacement]]
+  * before/after vs. head/foot
+  * Grid Layout and line-based addressing
+  * Writing Modes
+  * Intrinsic Sizing of Multi-column Elements
+  * CSS3 Sizing update WD?
