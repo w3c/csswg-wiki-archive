@@ -37,3 +37,4 @@ Regrets: John Daggett, Molly Holzschlag
   * Writing Modes
   * Intrinsic Sizing of Multi-column Elements
   * CSS3 Sizing update WD?
+  * css3-regions: stacking contexts, elements, box generation
