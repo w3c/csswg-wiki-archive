@@ -92,6 +92,7 @@ CSSWG members' comments on related specs not published by our group.
   * [[spec:issue-tracking]] --- raising your newborn draft into a grown-up spec
   * [[spec:process|Process suggestions for advancing a spec]] --- guidelines for when to advance your spec to the next stage
   * [[spec:teststatus|Test status information on spec]] --- adding information about testing status on the spec
+  * [[spec:levels|Specification levels]] -- which levels to publish each spec as
 ====== Coordination between specifications ======
   * [[spec:cssom-constants|CSSOM Constants]]
   * [[spec:computed-values|Patterns for writing "Computed Value" lines]]
