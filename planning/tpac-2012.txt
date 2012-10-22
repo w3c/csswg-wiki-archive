@@ -40,3 +40,6 @@ Regrets: John Daggett, Molly Holzschlag
   * CSS3 Sizing update WD?
   * css3-regions: stacking contexts, elements, box generation
   * css3-break: [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0428.html|relative positioning]], [[http://lists.w3.org/Archives/Public/www-style/2012Sep/0304.html|zero-height fragmentainers]]
+  * css3-ui: text-overflow:ellipsis
+  * css3-animations: update, issues
+  * css3-exclusions: open issues
