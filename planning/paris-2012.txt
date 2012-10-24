@@ -92,10 +92,6 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * CSS3 Regions: Plan A, B, or C?
   * CSS3 GCPM
   * CSS4 Media Queries
-
-  * CSS Masking publish FPWD? Discuss open issues (expected 30min discussion)
-    * Issue 1: add new keywords to mask-clip [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0557.html]]
-    * Issue 2: 'clip' as shorthand for 'clip-path' or deprecated but mandatory? [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0643.html]]
 ===== Participants =====
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Daniel Glazman | Disruptive Innovations | (host) | (host) | home | N/A |
