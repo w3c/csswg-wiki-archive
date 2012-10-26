@@ -59,3 +59,6 @@ Regrets: John Daggett, Molly Holzschlag
     * Math: add math boxes? or 'display: foreign'? (But in that case, how to handle baselines and line breaking?)
     * <details>: two pseudo-classes, ':normal' and ':alt'?
     * seamless: 'height: complex' (same as 'auto', but for a replaced element whose height depends on its width in more complicated ways than via an aspect ratio)?
+  * css3-box:
+    * true horizontal centering: use 'margin: fill' or a new property?
+    * vertical justification or leaders (of which vertical centering is a special case): use 'margin: fill', something with leaders(), or something else?
