@@ -10,6 +10,7 @@
   * cssom-values
   * cssom-view
   * cssom
+  * css-style-attr
 
 ====== Move to css-foo-1 (new functionality, not direct outgrowth of something in 2.1) ======
 
@@ -20,7 +21,7 @@
   * css-variables
   * css3-2d-transforms
   * css3-3d-transforms
-  * css3-align
+  * css3-align (?)
   * css3-animations
   * css3-exclusions
   * css3-flexbox
@@ -30,16 +31,17 @@
   * css3-hierarchies
   * css3-layout
   * css3-multicol
+  * css3-namespace
   * css3-page-template
   * css3-preslev
   * css3-regions
   * css3-ruby
+  * css3-speech
   * css3-transforms
   * css3-transitions
 
 ====== Move to css-foo-3 (builds on existing 2.1 stuff) ======
 
-  * css-style-attr
   * css3-background
   * css3-box
   * css3-break
@@ -52,12 +54,10 @@
   * css3-linebox
   * css3-lists
   * css3-mediaqueries
-  * css3-namespace
   * css3-overflow
   * css3-page
   * css3-positioning
   * css3-sizing
-  * css3-speech
   * css3-syntax
   * css3-tables-algorithms
   * css3-text
