@@ -62,4 +62,7 @@ Regrets: John Daggett, Molly Holzschlag
   * css3-box:
     * true horizontal centering: use 'margin: fill' or a new property?
     * vertical justification or leaders (of which vertical centering is a special case): use 'margin: fill', something with leaders(), or something else?
+  * CSS Blending and Compositing
+    * isolation group on compositing
+    * proceed with blending 
   * **Group photo!**
