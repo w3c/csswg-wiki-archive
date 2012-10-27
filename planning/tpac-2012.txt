@@ -69,4 +69,5 @@ Regrets: John Daggett, Molly Holzschlag
     * proceed with blending 
   * CSS Text Level 3 open issues
   * CSS Text Decorations Level 3 open issues
+  * CSS collision http://lists.w3.org/Archives/Public/www-archive/2012Oct/att-0120/Overview.html
   * **Group photo!**
