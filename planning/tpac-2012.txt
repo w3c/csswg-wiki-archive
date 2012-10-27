@@ -67,4 +67,6 @@ Regrets: John Daggett, Molly Holzschlag
   * CSS Blending and Compositing
     * isolation group on compositing
     * proceed with blending 
+  * CSS Text Level 3 open issues
+  * CSS Text Decorations Level 3 open issues
   * **Group photo!**
