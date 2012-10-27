@@ -45,23 +45,24 @@ When using any characters beyond the ASCII set, in any encoding, the character e
 
 ===== Template for New Tests =====
 
-A template for new tests follows. Copy and paste the code below into a new file or save {{test:css2.1:test-topic-000.xht|this template file}} and replace the capitalized parts as described below.
+A template for new tests follows. Copy and paste the code below into a new file or save {{test:css2.1:test-topic-000.xht|this template file}} and replace the bracketed parts as described below.
 
 <code html>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
-  <title>CSS Test: SCOPE OF TEST</title>
-  <link rel="author" title="NAME_OF_AUTHOR" href="mailto:EMAIL OR http://CONTACT_PAGE"/>
-  <link rel="help" href="RELEVANT_SPEC_SECTION"/>
-  <meta name="flags" content="TOKENS" />
-  <meta name="assert" content="TEST ASSERTION"/>
+  <title>CSS Test: [Title/Scope of Test]</title>
+  <link rel="author" title="[Name of Author]" href="[mailto: or http: contact address]"/>
+  <link rel="help" href="http://www.w3.org/TR/[direct link to tested spec section]"/>
+  <meta name="flags" content="[requirement flags]" />
+  <meta name="assert" content="Test checks that [explanation of what you're trying to test]."/>
   <style type="text/css"><![CDATA[
-   CSS FOR TEST
+   [CSS for test]
   ]]></style>
  </head>
  <body>
-  CONTENT OF TEST
+  <p>Test passes if [description of pass condition].</p>
+  [Content of test]
  </body>
 </html>
 </code>
@@ -72,17 +73,18 @@ Alternatively, you can use this HTML5 template:
 <!DOCTYPE html>
 <html>
  <head>
-  <title>CSS Test: SCOPE OF TEST</title>
-  <link rel="author" title="NAME_OF_AUTHOR" href="mailto:EMAIL OR http://CONTACT_PAGE">
-  <link rel="help" href="RELEVANT_SPEC_SECTION">
-  <meta name="flags" content="TOKENS">
-  <meta name="assert" content="TEST ASSERTION">
+  <title>CSS Test: [Title/Scope of Test]</title>
+  <link rel="author" title="[Name of Author]" href="[mailto: or http: contact address]">
+  <link rel="help" href="http://www.w3.org/TR/[direct link to tested section]">
+  <meta name="flags" content="[requirement flags]">
+  <meta name="assert" content="Test checks that [explanation of what you're trying to test].">
   <style>
-   CSS FOR TEST
+   [CSS for test]
   </style>
  </head>
  <body>
-  CONTENT OF TEST
+  <p>Test passes if [description of pass condition].</p>
+  [Content of test]
  </body>
 </html>
 </code>
