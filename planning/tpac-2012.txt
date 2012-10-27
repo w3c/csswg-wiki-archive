@@ -8,6 +8,7 @@ CSS will meet during [[http://www.w3.org/2012/10/TPAC/|TPAC 2012]], which runs f
 Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Glenn Adams | Cox | Oct 28 | Nov 02 | Hilton (Lyon) | TGV6605/6628 | +TTWF |
+| David Baron | Mozilla | Oct 27 | Nov 3 | Hôtel de la Cité Concorde | TGV | +TTWF |
 | Tantek Çelik | Mozilla | 2012-10-29 | 2012-11-02 | Hôtel de la Cité Concorde | BA362 17:35 / BA361 11:35 | |
 | Arron Eicholz | Microsoft | 28 Oct | 31 Oct | Hilton (Lyon) | AF3639 on 25 Oct, TGV6605/6620 | +TTWF |
 | fantasai | Mozilla | 27 Oct | 3 Nov | Cité Internationale Temporim | TGV6631/??? | +TTWF |
