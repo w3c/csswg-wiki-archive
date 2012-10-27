@@ -350,9 +350,10 @@ Although type="application/javascript" and type="application/ecmascript" are rec
 ==== ''body'' Content ====
 
 <code html>
-<body>
- CONTENT OF TEST
-</body>
+ <body>
+   <p>Test passes if [description of pass condition].</p>
+   [Content of test]
+ </body>
 </code>
 
   * When creating content use : ''<div>'', ''<span>'', ''<p>'', ''<img>''
@@ -360,7 +361,7 @@ Although type="application/javascript" and type="application/ecmascript" are rec
   * Use other elements only to test the interaction with those elements' features (or other namespaces' features)
   * Test ''table'' features with both HTML table elements and ''<div>'' + ''display: table-*''
   * Do not use the ''style'' attribute (inline styles) unless specifically testing that attribute
-  * Avoid making assumptions that are not in the [[http://www.w3.org/Style/CSS/Test/CSS2.1/current/|"most of the test suite makes the following assumptions"]] list and document any that you do.
+  * Avoid making assumptions that are not in the [[http://test.csswg.org/suites/css2.1/latest/#common|"most of the test suite makes the following assumptions"]] list and document any that you do.
   * It's helpful to people trying to understand the test if you use meaningful class and ID names and escape invisible characters like no-break-spaces.
   * Indent nicely!  There's no standard for how many tabs/spaces to use; just be consistent within a file.
   * In HTML5 tests, do not omit attribute quotation marks or closing tags, even when it's valid to do so.
