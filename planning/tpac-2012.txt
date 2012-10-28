@@ -55,6 +55,7 @@ Regrets: John Daggett, Molly Holzschlag
     * true horizontal centering: use 'margin: fill' or a new property?
     * vertical justification or leaders (of which vertical centering is a special case): use 'margin: fill', something with leaders(), or something else?
   * css3-break: [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0428.html|relative positioning]], [[http://lists.w3.org/Archives/Public/www-style/2012Sep/0304.html|zero-height fragmentainers]]
+  * Overflow regions
 
 
 ==== Monday ====
