@@ -40,6 +40,7 @@ Regrets: John Daggett, Molly Holzschlag
 
   * css3-conditional update
   * CSS3 Sizing update WD?
+    * Intrinsic Sizing of Multi-column Elements
   * CSS collision http://lists.w3.org/Archives/Public/www-archive/2012Oct/att-0120/Overview.html
   * css3-exclusions: open issues
 
@@ -85,7 +86,6 @@ Regrets: John Daggett, Molly Holzschlag
   * case-sensitivity of user-idents (joint with i18n)
   * before/after vs. head/foot
   * Grid Layout and line-based addressing
-  * Intrinsic Sizing of Multi-column Elements
   * css3-conditional LC/CR
 
 == PM ==
