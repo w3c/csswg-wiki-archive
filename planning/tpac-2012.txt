@@ -29,9 +29,76 @@ Sorted by family name:
 Regrets: John Daggett, Molly Holzschlag
 ===== Agenda =====
 
-  * TBD
+==== Sunday ====
+== AM ==
 
-=== Proposed Topics ===
+  * Style Attr
+  * Writing Modes
+  * CSS Text Level 3 open issues
+  * CSS Text Decorations Level 3 open issues
+  * CSS Prioritization
+
+  * css3-conditional update
+  * CSS3 Sizing update WD?
+  * CSS collision http://lists.w3.org/Archives/Public/www-archive/2012Oct/att-0120/Overview.html
+  * css3-exclusions: open issues
+
+== PM ==
+
+  * Line Module
+  * css3-page: layout of page-margin boxes. Mail [[http://lists.w3.org/Archives/Public/www-style/2012Jul/0036.html|1]], [[http://lists.w3.org/Archives/Public/www-style/2012Jun/0184.html|2]]; [[https://github.com/SimonSapin/css/blob/master/margin-boxes-variable-dimension|proposed replacement]]
+  * css3-page: [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0769.html|initial containing block]]
+  * css3-box:
+    * true horizontal centering: use 'margin: fill' or a new property?
+    * vertical justification or leaders (of which vertical centering is a special case): use 'margin: fill', something with leaders(), or something else?
+
+
+==== Monday ====
+== AM ==
+
+  * css3-break: [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0428.html|relative positioning]], [[http://lists.w3.org/Archives/Public/www-style/2012Sep/0304.html|zero-height fragmentainers]]
+  * css3-regions: stacking contexts, elements, [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0304.html|box generation]], [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0564.html|ICB]]
+
+  * css3-ui: text-overflow:ellipsis
+  * css3-animations: update, issues
+
+
+== PM ==
+
+  * **Group photo!**
+  * CSS Transforms
+    * interpolation of 2D matrices [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0513.html]]
+    * integration of 3D context into 2D document [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0507.html]]
+    * containing block usage in spec incorrect [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=16328]]
+    * LCWD? (depends on outcome of discussions)
+  * CSS Masking publish FPWD? Discuss open issues (expected 30min discussion)
+    * Issue 1: add new keywords to mask-clip [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0557.html]]
+    * Issue 2: 'clip' as shorthand for 'clip-path' or deprecated but mandatory? [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0643.html]]
+  * CSS Blending and Compositing
+    * isolation group on compositing
+    * proceed with blending 
+
+
+==== Tuesday ====
+== AM ==
+
+  * case-sensitivity of user-idents (joint with i18n)
+  * before/after vs. head/foot
+  * Grid Layout and line-based addressing
+  * Intrinsic Sizing of Multi-column Elements
+  * css3-conditional LC/CR
+
+== PM ==
+
+  * HTML5 challenges:
+    * SVG: 'display: svg'? 'display: foreign'? (The latter signals Namespace-dependent rendering)
+    * Math: add math boxes? or 'display: foreign'? (But in that case, how to handle baselines and line breaking?)
+    * <details>: two pseudo-classes, ':normal' and ':alt'?
+    * seamless: 'height: complex' (same as 'auto', but for a replaced element whose height depends on its width in more complicated ways than via an aspect ratio)?
+  * Alternate stylesheets
+
+
+===== Proposed Topics =====
 
   * css3-conditional LC/CR
   * case-sensitivity of user-idents (joint with i18n)
