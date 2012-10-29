@@ -69,19 +69,18 @@ Regrets: John Daggett, Molly Holzschlag
 == PM ==
 
   * **Group photo!**
-  * css3-ui: text-overflow:ellipsis
-  * css3-animations: update, issues
-  * CSS Transforms
-    * interpolation of 2D matrices [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0513.html]]
-    * integration of 3D context into 2D document [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0507.html]]
-    * containing block usage in spec incorrect [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=16328]]
-    * LCWD? (depends on outcome of discussions)
   * CSS Masking publish FPWD? Discuss open issues (expected 30min discussion)
     * Issue 1: add new keywords to mask-clip [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0557.html]]
     * Issue 2: 'clip' as shorthand for 'clip-path' or deprecated but mandatory? [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0643.html]]
   * CSS Blending and Compositing
     * isolation group on compositing
     * proceed with blending 
+  * css3-animations: update, issues
+  * CSS Transforms
+    * interpolation of 2D matrices [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0513.html]]
+    * integration of 3D context into 2D document [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0507.html]]
+    * containing block usage in spec incorrect [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=16328]]
+    * LCWD? (depends on outcome of discussions)
 
 
 ==== Tuesday ====
@@ -94,6 +93,7 @@ Regrets: John Daggett, Molly Holzschlag
 
 == PM ==
 
+  * css3-ui: text-overflow:ellipsis
   * HTML5 challenges:
     * SVG: 'display: svg'? 'display: foreign'? (The latter signals Namespace-dependent rendering)
     * Math: add math boxes? or 'display: foreign'? (But in that case, how to handle baselines and line breaking?)
