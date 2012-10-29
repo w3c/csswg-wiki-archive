@@ -63,14 +63,14 @@ Regrets: John Daggett, Molly Holzschlag
 
   * HTML5 style issues
   * css3-regions: stacking contexts, elements, [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0304.html|box generation]], [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0564.html|ICB]]
-
-  * css3-ui: text-overflow:ellipsis
-  * css3-animations: update, issues
+  * Multicol
 
 
 == PM ==
 
   * **Group photo!**
+  * css3-ui: text-overflow:ellipsis
+  * css3-animations: update, issues
   * CSS Transforms
     * interpolation of 2D matrices [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0513.html]]
     * integration of 3D context into 2D document [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0507.html]]
