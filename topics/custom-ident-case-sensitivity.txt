@@ -34,7 +34,9 @@ Various options:
 
   - @counter-style names are always case-insensitive
      - via Unicode case-folding
-     -  via ASCII case-insensitivity
+     - via ASCII case-insensitivity
+     - via Unicode lowercasing
+     - Something else?
   - @counter-style names are always case-sensitive; UA-defined keywords are simply defined for all case permutations. (Overriding one only overrides the permutation given.)
   - @counter-style names are case-sensitive, except those on the UA-defined list are special and are ASCII case-insensitive.
 
