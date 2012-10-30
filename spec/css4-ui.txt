@@ -102,7 +102,11 @@ Theoretical use-cases:
 ==== text-overflow block hint ====
 text-overflow: second <string> as an overflow visual hint after the element box. The visual hint after the element box only appears if there is content which is clipped because of the block-progression dimension of the block, not because the last line cannot fit. If the visual hint after the element box is enabled and would appear at the same location as the visual hint at the end of the element box, only the visual hint after the element box is rendered. 
 
-Originally text-overflow: second <string> was [[http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis|defined in CSS3 Text CR 2003-05-14]] for the start in addition to the end of the text being overflowed - but no one implemented it. Thus any request for including this MUST include some justification as to why/how implementations would consider it differently than they did (and reject) for CSS3 Text CR 2003.
+Originally text-overflow: second <string> was [[http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis|defined in CSS3 Text CR 2003-05-14]] for after the element box in addition to the end of the text being overflowed - but no one implemented it. Thus any request for including this MUST include some justification as to why/how implementations would consider it differently than they did (and reject) for CSS3 Text CR 2003.
+
+The current CSS3-UI text-overflow already uses two values for the start and end of the text, so another property (or another way of specifying the value) would be needed for this before/after the element box functionality.
+
+In addition
 
 Real world use-cases:
   * what iTunes App Store does for its app descriptions (more details needed).
