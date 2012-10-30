@@ -91,10 +91,10 @@ Regrets: John Daggett, Molly Holzschlag
   * before/after vs. head/foot
   * Grid Layout and line-based addressing
   * css3-conditional LC/CR
+  * css3-ui: [[http://www.w3.org/Style/CSS/Tracker/issues/279|text-overflow:ellipsis selection behavior - issue 279]] (raised in 2009-11 minutes http://lists.w3.org/Archives/Public/www-style/2009Nov/0219.html)
 
 == PM ==
 
-  * css3-ui: [[https://lists.w3.org/Archives/Member/w3c-css-wg/2012OctDec/0013.html|text-overflow:ellipsis selection behavior]]
   * HTML5 challenges:
     * SVG: 'display: svg'? 'display: foreign'? (The latter signals Namespace-dependent rendering)
     * Math: add math boxes? or 'display: foreign'? (But in that case, how to handle baselines and line breaking?)
