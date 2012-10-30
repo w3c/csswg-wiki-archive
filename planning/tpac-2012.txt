@@ -86,6 +86,7 @@ Regrets: John Daggett, Molly Holzschlag
 ==== Tuesday ====
 == AM ==
 
+  * CSS Transforms - followup
   * case-sensitivity of user-idents (joint with i18n)
   * before/after vs. head/foot
   * Grid Layout and line-based addressing
