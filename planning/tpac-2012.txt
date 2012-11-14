@@ -8,9 +8,9 @@ CSS will meet during [[http://www.w3.org/2012/10/TPAC/|TPAC 2012]], which runs f
 
   * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0253.html|Sun 2012-10-28 AM I: Style Attributes, Writing  Modes, Text, Text Decoration]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0254.html|Sun 2012-10-28 AM II: Spec Shortnames, Prioritization]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0252.html|Sun 2012-10-28 AM III: Conditional Rules, Sizing]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0249.html|Sun 2012-10-28 PM I: Collisions, Exclusions,  Line Layout]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0250.html|Sun 2012-10-28 PM II: Paged Media, Box, Fragmentation,  Overflow Regions]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0252.html|Sun 2012-10-28 AM III: Conditional Rules, Sizing]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0258.html|Mon 2012-10-29 AM I: HTMLWG/CSSWG Coordination]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0260.html|Mon 2012-10-29 AM II: Regions, Multicol]]
   * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0259.html|Mon 2012-10-29 PM I: Masking, Compositing]]
