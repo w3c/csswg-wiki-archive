@@ -4,6 +4,22 @@ CSS will meet during [[http://www.w3.org/2012/10/TPAC/|TPAC 2012]], which runs f
 
 **Logistics**: [[http://www.w3.org/2012/10/TPAC/|TPAC 2012]] (including registration)
 
+===== Minutes ====
+
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0253.html|Sun 2012-10-28 AM I: Style Attributes, Writing  Modes, Text, Text Decoration]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0254.html|Sun 2012-10-28 AM II: Spec Shortnames, Prioritization]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0249.html|Sun 2012-10-28 PM I: Collisions, Exclusions,  Line Layout]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0250.html|Sun 2012-10-28 PM II: Paged Media, Box, Fragmentation,  Overflow Regions]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0252.html|Sun 2012-10-28 AM III: Conditional Rules, Sizing]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0258.html|Mon 2012-10-29 AM I: HTMLWG/CSSWG Coordination]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0260.html|Mon 2012-10-29 AM II: Regions, Multicol]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0259.html|Mon 2012-10-29 PM I: Masking, Compositing]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0261.html|Mon 2012-10-29 PM II: Animations, Transforms]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0262.html|Tue 2012-10-30 AM I: Abstract Directions, Transforms,  Transitions]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0263.html|Tue 2012-10-30 AM II: text-overflow, case-sensitivity,  Grid Layout]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0265.html|Tue 2012-10-30 PM I: AltSS, Cascade, HTML5,  Conditional Rules]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0264.html|Tue 2012-10-30 PM II: Display Models, Animations]]
+
 ===== Participants =====
 Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
