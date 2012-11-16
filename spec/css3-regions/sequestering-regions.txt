@@ -2,7 +2,7 @@ Using HTML elements to produce the boxes for a region chain is a point of conten
 
 One way to use an external file for presentational purposes is being defined by the [[http://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html|Web Components]] effort, so it may be a useful experiment to see how we could define regions using custom elements and/or decorators from Web Components
 
-Let's take a very simple example of regions use, so that the different versions are more easily compared. This simple example just has two regions, the first being 60% if the height of the viewport. The named flow is then interrupted by an image, and resumes afterwards in a second region. You can take this basic structure and scale it up to a more complex layout such as the one found in [[http://dev.w3.org/csswg/css3-regions/#intro-example-code|Appendix A]] where the regions again flow around an image, but are positioned inside and outside a grid element.
+Let's take a very simple example of regions use, so that the different versions are more easily compared. This simple example just has two regions, the first being 60% of the height of the viewport. The named flow is then interrupted by an image, and resumes afterwards in a second region. You can take this basic structure and scale it up to a more complex layout such as the one found in [[http://dev.w3.org/csswg/css3-regions/#intro-example-code|Appendix A]] where the regions again flow around an image, but are positioned inside and outside a grid element.
 
 Here's the starting point with empty presentational elements in the content markup:
 
