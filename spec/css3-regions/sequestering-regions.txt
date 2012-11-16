@@ -1,4 +1,4 @@
-Using HTML elements to produce the boxes for a region chain is a point of contention. The point made against the current version of the spec is that markup purely for presentational purposes should be avoided when possible. At TPAC 2012, [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0260.html|Bert mentioned]] that using an external file to define the presentational boxes would be OK.
+Using HTML elements to produce the boxes for a region chain is a point of contention. The point made against the current version of the spec is that combining content and presentational code should be avoided when possible. At TPAC 2012, [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0260.html|Bert mentioned]] that using an external file to define the presentational boxes would be OK.
 
 One way to use an external file for presentational purposes is being defined by the [[http://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html|Web Components]] effort, so it may be a useful experiment to see how we could define regions using custom elements and/or decorators from Web Components
 
