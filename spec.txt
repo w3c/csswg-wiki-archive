@@ -100,6 +100,7 @@ CSSWG members' comments on related specs not published by our group.
   * [[spec:property-dependencies|Property dependencies]] in computed values
   * [[spec:calc-and-percentages|Specifying Percentages in the Age of Calc()]]
   * [[spec:om-apis|Patterns for writing CSSOM APIs]]
+  * [[spec:limited-ranges|Specifying Limited Ranges in Properties and Elsewhere]]
 ====== Coordination between standards groups ======
 ===== IDPF EPUB =====
 See: http://code.google.com/p/epub-revision/wiki/AdvancedAdaptiveLayoutCharter
