@@ -23,8 +23,8 @@ The basic usage of the test harness ([[http://w3c-test.org/resources/testharness
   * To use the harness, import both scripts into the test document per the script tag below. Note that an expectation is that all tests must be run-able in place in the W3C's test repository. As such, an absolute path to the script file must be used and the script file will be in resources directory at the root of the repository.
 
 <code html>
-<script src="/resources/testharness.js"></script>
-<script src="/resources/testharnessreport.js"></script>
+<script type="text/javascript" src="/resources/testharness.js"></script>
+<script type="text/javascript" src="/resources/testharnessreport.js"></script>
 </code>
   * Each test can have one or more asserts. Note: some prefer a test is limited to a single assert but that is not mandatory.
   * Each test is atomic in the sense that a single test has a single result (pass/fail/timeout).
