@@ -358,7 +358,7 @@ This works only if the class="segment" elements have no direct content, because 
 #slice_4 {
   position: absolute;
   /* prevent text from touching the edges of the slices */ 
-  wrap-padding: 10px;
+  shape-padding: 10px;
 } 
 #slice_1 {
   /* set the shape of the slice */
