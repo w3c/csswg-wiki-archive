@@ -13,8 +13,10 @@ Here are the current set of issues that need attention in order to fulfill the r
 
   * [[test:css2.1:incorrect|NeedsWork=Incorrect]]
   * [[test:css2.1:precision|NeedsWork=Precision]] 
-  * [[test:css2.1:incorrect-precision|NeedsWork=Precision] + [NeedsWork=Incorrect]] 
+  * [[test:css2.1:incorrect-precision|NeedsWork=Precision + NeedsWork=Incorrect]] 
   * [[test:css2.1:rejected|Rejected]] 
+
+
 
 === CSS 2.1 Test Suite v1.0 ===
 // 12/4/2012 Note:  The following information pertains to efforts prior to the 2.0 Test Suite planning and may be outdated. The current set of issues is listed above //
