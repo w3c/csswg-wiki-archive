@@ -4,6 +4,20 @@ The CSS2.1 Conformance Test Suite tests conformance to the [[http://www.w3.org/T
 
 Discussion about the CSS2.1 Test Suite takes place on the publicly-archived [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite@w3.org]] mailing list.
 
+=== CSS 2.1 Test Suite v2.0 ===
+Release Date: TBD
+
+The CSS 2.1 Conformance Test Suite should be refreshed and be re-released to address all of the changes since the last official 1.0 release.  The criteria for releasing this new suite is to correct or fix all of the tests that are producing incorrect results in any way. These tests have been reviewed, are flagged with [NeedsWork=Precision] and/or [NeedsWork=Incorrect] in Shepherd. Additionally, before releasing the suite, the tests that have been flagged as Rejected should be revisited and Retracted accordingly.
+
+Here are the current set of issues that need attention in order to fulfill the release criteria:
+
+  * [[test:css2.1:incorrect|NeedsWork=Incorrect]]
+  * [[test:css2.1:precision|NeedsWork=Precision]] 
+  * [[test:css2.1:incorrect-precision|NeedsWork=Precision] + [NeedsWork=Incorrect]] 
+  * [[test:css2.1:rejected|Rejected]] 
+
+=== CSS 2.1 Test Suite v1.0 ===
+// 12/4/2012 Note:  The following information pertains to efforts prior to the 2.0 Test Suite planning and may be outdated. The current set of issues is listed above //
   * [[test:css2.1:issues|Known Bugs]] all kinds of problems
   * [[test:css2.1:invalid|Invalid Tests]] tests that have been reported invalid
   * [[test:css2.1:blocking|Blocking Tests]] tests that block REC due to insufficient passes
