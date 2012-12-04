@@ -5,9 +5,9 @@
 |[[http://test.csswg.org/shepherd/testcase/absolute-replaced-height-021|absolute-replaced-height-021]] |  |
 |[[http://test.csswg.org/shepherd/testcase/absolute-replaced-height-028|absolute-replaced-height-028]] |  |
 |[[http://test.csswg.org/shepherd/testcase/absolute-replaced-height-035|absolute-replaced-height-035]] |  |
-|[[http://test.csswg.org/shepherd/testcase/c542-letter-sp-000/spec/CSS21/status/issue/whiteboard/Incorrect/|c547-indent-000]] | [[http://www.gtalbot.org/BrowserBugsSection/css21testsuite/c547-indent-000a.xht|http://www.gtalbot.org/BrowserBugsSection/css21testsuite/c547-indent-000a.xht]] |
-|[[http://test.csswg.org/shepherd/testcase/floats-036/spec/CSS21/status/issue/whiteboard/Precision/|floats-036]] | See comments in Shepherd |
-|[[http://test.csswg.org/shepherd/testcase/line-box-height-001/spec/CSS21/status/issue/whiteboard/Precision/|line-box-height-001]] | See comments in Shepherd |
+|[[http://test.csswg.org/shepherd/testcase/c542-letter-sp-000/|c547-indent-000]] | [[http://www.gtalbot.org/BrowserBugsSection/css21testsuite/c547-indent-000a.xht|http://www.gtalbot.org/BrowserBugsSection/css21testsuite/c547-indent-000a.xht]] |
+|[[http://test.csswg.org/shepherd/testcase/floats-036/|floats-036]] | See comments in Shepherd |
+|[[http://test.csswg.org/shepherd/testcase/line-box-height-001/|line-box-height-001]] | See comments in Shepherd |
 |[[http://test.csswg.org/shepherd/testcase/text-decoration-applies-to-005|text-decoration-applies-to-005]] |  |
 |[[http://test.csswg.org/shepherd/testcase/text-decoration-border-002|text-decoration-border-002]] | See comments in Shepherd |
 |[[http://test.csswg.org/shepherd/testcase/text-decoration-border-003|text-decoration-border-003]] | See comments in Shepherd |
