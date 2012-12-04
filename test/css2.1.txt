@@ -14,7 +14,8 @@ Here are the current set of issues that need attention in order to fulfill the r
   * [[test:css2.1:incorrect|NeedsWork=Incorrect]]
   * [[test:css2.1:precision|NeedsWork=Precision]] 
   * [[test:css2.1:incorrect-precision|NeedsWork=Precision + NeedsWork=Incorrect]] 
-  * [[test:css2.1:rejected|Rejected]] 
+  * [[test:css2.1:rejected|Rejected]]
+  * [[test:css2.1:update-guidelines|Guidelines for updating tests]]  
 
 
 
