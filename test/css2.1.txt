@@ -14,12 +14,13 @@ Here are the current set of issues that need attention in order to fulfill the r
   * [[test:css2.1:incorrect|NeedsWork=Incorrect]]
   * [[test:css2.1:precision|NeedsWork=Precision]] 
   * [[test:css2.1:incorrect-precision|NeedsWork=Precision + NeedsWork=Incorrect]] 
-  * [[test:css2.1:rejected|Rejected]] 
+  * [[test:css2.1:rejected|Rejected]]
+  * [[test:css2.1:update-guidelines|Guidelines for updating tests]]  
 
 
 
 === CSS 2.1 Test Suite v1.0 ===
-// 12/4/2012 Note:  The following information pertains to efforts prior to the 2.0 Test Suite planning and may be outdated. The current set of issues is listed above //
+// 12/4/2012 Note:  The information below pertains to efforts prior to the 2.0 Test Suite planning and may not be current. The current set of issues is listed above //
   * [[test:css2.1:issues|Known Bugs]] all kinds of problems
   * [[test:css2.1:invalid|Invalid Tests]] tests that have been reported invalid
   * [[test:css2.1:blocking|Blocking Tests]] tests that block REC due to insufficient passes
