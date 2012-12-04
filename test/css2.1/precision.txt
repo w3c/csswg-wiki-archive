@@ -1,3 +1,6 @@
 ==== NeedsWork=Precision ====
 
-(placeholder)
+The current list of CSS 2.1 tests that are flagged as NeedsWork=Incorrect can be found in Shepherd [[http://test.csswg.org/shepherd/search/testcase/spec/CSS21/status/issue/whiteboard/Precision/|here]]
+
+(placeholder for more details)
+
