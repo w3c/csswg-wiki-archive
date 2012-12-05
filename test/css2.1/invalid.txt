@@ -6,22 +6,6 @@ This page tracks tests that have been reported as invalid. The tests have all be
 
 ==== Updated but need review ====
 Once the cases are reviewed please remove the cases from the list below
-  * border-bottom-width-036 - rounding issues: http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0123.html
-  * border-bottom-width-047
-  * border-left-width-036
-  * border-left-width-047
-  * border-right-width-036
-  * border-right-width-047
-  * border-top-width-036
-  * border-top-width-047
-  * padding-bottom-047 - seems similar to border-* cases? (http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0123.html)
-  * padding-bottom-036
-  * padding-left-036
-  * padding-left-047
-  * padding-right-036
-  * padding-right-047
-  * padding-top-036
-  * padding-top-047
 
 These tests were split into ###a and ###b variants (see http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0097.html):
   * bidi-005
@@ -35,7 +19,6 @@ This test was a) corrected and b) split. Webkit and FF need to fix their impleme
   * text-decoration-087 - Test corrected and split into 087 and 089. 
 
 These tests received various fixes:
-  * background-bg-pos-205 - It's up to the UA whether to scroll the <p /> tag at the bottom. change the test to p{ margin:2em;margin-top:0; }.
   * block-in-inline-relpos-002 - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0100.html|proposal from dbaron]], [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Feb/0009.html|test fixed]]
   * font-family-rule-002 - email thread: http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0263.html</del> - updated for RC5
   * page-grammar-001 - Updated to be less confusing.
@@ -47,18 +30,6 @@ These tests received various fixes:
 
   * floats-wrap-bfc-006b - Move test to CSS3
   * floats-wrap-bfc-006c - move test to CSS3
-
-==== No edits necessary ====
-
-I did not update these cases because there are no pixel rounding issues in the cases. 25.4mm is equal to 96px.
-  * padding-bottom-050
-  * padding-bottom-051
-  * padding-left-050
-  * padding-left-051
-  * padding-right-050
-  * padding-right-051
-  * padding-top-050
-  * padding-top-051
 
 
 These tests had no change or just metadata updates:
