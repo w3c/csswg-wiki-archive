@@ -11,10 +11,10 @@ The CSS 2.1 Conformance Test Suite should be refreshed and be re-released to add
 
 Here are the current set of issues that need attention in order to fulfill the release criteria:
 
-  * [[test:css2.1:incorrect| NeedsWork=Incorrect]]  ([[http://test.csswg.org/shepherd/search/spec/CSS21/status/issue/whiteboard/Incorrect%20-%20Precision|Shepherd Query]])
-  * [[test:css2.1:precision|NeedsWork=Precision]]  ([[http://test.csswg.org/shepherd/search/spec/CSS21/status/issue/whiteboard/Precision%20-%20Incorrect|Shepherd Query]])
-  * [[test:css2.1:incorrect-precision|NeedsWork=Precision + NeedsWork=Incorrect]]  ([[http://test.csswg.org/shepherd/search/spec/CSS21/status/issue/whiteboard/Precision%20and%20Incorrect/|Shepherd Query]])
-  * [[test:css2.1:rejected|Rejected]]  ([[http://test.csswg.org/shepherd/search/spec/CSS21/status/rejected/|Shepherd Query]])
+  * [[test:css2.1:incorrect| NeedsWork=Incorrect]]  | [[http://test.csswg.org/shepherd/search/spec/CSS21/status/issue/whiteboard/Incorrect%20-%20Precision|Shepherd Query]]
+  * [[test:css2.1:precision|NeedsWork=Precision]]  | [[http://test.csswg.org/shepherd/search/spec/CSS21/status/issue/whiteboard/Precision%20-%20Incorrect|Shepherd Query]]
+  * [[test:css2.1:incorrect-precision|NeedsWork=Precision + NeedsWork=Incorrect]]  | [[http://test.csswg.org/shepherd/search/spec/CSS21/status/issue/whiteboard/Precision%20and%20Incorrect/|Shepherd Query]]
+  * [[test:css2.1:rejected|Rejected]] | [[http://test.csswg.org/shepherd/search/spec/CSS21/status/rejected/|Shepherd Query]]
   * [[test:css2.1:update-guidelines|Guidelines for updating tests]]  
 
 
