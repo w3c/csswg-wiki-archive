@@ -7,20 +7,11 @@ This page tracks tests that have been reported as invalid. The tests have all be
 ==== Updated but need review ====
 Once the cases are reviewed please remove the cases from the list below
 
-These tests were split into ###a and ###b variants (see http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0097.html):
-  * bidi-005
-  * bidi-006
-  * bidi-007
-  * bidi-008
-  * bidi-009
-  * bidi-010
-
 This test was a) corrected and b) split. Webkit and FF need to fix their implementations. Opera has an additional bug they will need to address as well.
   * text-decoration-087 - Test corrected and split into 087 and 089. 
 
 These tests received various fixes:
-  * block-in-inline-relpos-002 - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0100.html|proposal from dbaron]], [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Feb/0009.html|test fixed]]
-  * font-family-rule-002 - email thread: http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0263.html</del> - updated for RC5
+  * font-family-rule-002 - email thread: http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0263.html - updated for RC5
   * page-grammar-001 - Updated to be less confusing.
   * page-grammar-002 - Updated to be less confusing.
   * rtl-linebreak - add a negative reference without a border (because the invalidity is that the reference doesn't detect the WebKit failure) - [[http://lists.w3.org/Archives/Public/public-css-testsuite/2011Jan/0101.html|done by dbaron]]
