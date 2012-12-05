@@ -1,6 +1,5 @@
 ==== NeedsWork=Incorrect ====
-
-The current list of CSS 2.1 tests that are flagged as NeedsWork=Incorrect can be found in Shepherd [[http://test.csswg.org/shepherd/search/testcase/spec/CSS21/status/issue/whiteboard/Incorrect/|here]]
+//Note: This is a static list that will be updated periodically in the CSS2.1 Test Suite 2.0 timeframe. The most up-to-date list of CSS 2.1 tests that are flagged as NeedsWork=Incorrect can be found in Shepherd [[http://test.csswg.org/shepherd/search/spec/CSS21/status/issue/whiteboard/Incorrect%20-%20Precision/|here]]//
 
 ^ Test ^Proposed Change ^
 |[[http://test.csswg.org/shepherd/testcase/background-iframes-001/|background-iframes-001]] | See comments in Shepherd |
