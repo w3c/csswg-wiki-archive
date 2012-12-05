@@ -30,9 +30,3 @@ These tests had no change or just metadata updates:
   * page-break-before-003 - CSS3 semantics, but do not impact the test result. OK to leave.
   * page-break-before-005 - CSS3 semantics, but do not impact the test result. OK to leave.
   * page-break-before-020 - Test is OK
-
-These tests received metadata updates, but no substantive changes:
-
-  * list-style-position-004 - Flagged as MAY.
-  * page-breaks-101 - Assert updated. OK.
-  * page-container-004 - Flagged as may. OK.
