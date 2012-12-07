@@ -133,8 +133,6 @@ Hypothetical reasoning:
     * Given that the clipping is visual rather than logical, it makes sense that the two-value form should also be visual left/right rather than logical start/end. - Mats
     * Note that the previous CSS3-Text CR defined two values as: "If two <ellipsis> values area provided, they determine the overflow visual hint at the end and the overflow visual hint after the element box respectively."
 
-==== u
-==== u
 ==== user-select ====
 Last seen in the [[http://www.w3.org/TR/2000/WD-css3-userint-20000216#user-select|2000 era draft of User Interface for CSS3]], the 'user-select' property controls the selection model and granularity of an element.
 
@@ -164,7 +162,7 @@ For CSS4-UI:
   * Maximum: spec all values, including 'toggle' and 'elements' and file bugs accordingly with existing implementations to get those values implemented.
 
 ====== css4-ui issues list ======
- Current Issues =====
+===== Current Issues =====
 There is no editor's draft of CSS4-UI yet - so there's nothing to have issues against!
 
 The editor's draft will eventually be here:
