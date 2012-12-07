@@ -157,11 +157,9 @@ For CSS4-UI:
   * Possibly: minimum plus keep 'all' as specified, and get Gecko fixed to be compliant
   * Maximum: spec all values, including 'toggle' and 'elements' and file bugs accordingly with existing implementations to get those values implemented.
 
-=====
-= css4-ui issues list ======
+====== css4-ui issues list ======
 
-===== 
-Current Issues =====
+===== Current Issues =====
 There is no editor's draft of CSS4-UI yet - so there's nothing to have issues against!
 
 The editor's draft will eventually be here:
