@@ -133,11 +133,12 @@ Hypothetical reasoning:
     * Given that the clipping is visual rather than logical, it makes sense that the two-value form should also be visual left/right rather than logical start/end. - Mats
     * Note that the previous CSS3-Text CR defined two values as: "If two <ellipsis> values area provided, they determine the overflow visual hint at the end and the overflow visual hint after the element box respectively."
 
+==== u
 ==== user-select ====
 Last seen in the [[http://www.w3.org/TR/2000/WD-css3-userint-20000216#user-select|2000 era draft of User Interface for CSS3]], the 'user-select' property controls the selection model and granularity of an element.
 
 Implementation Status:
-  * some interoperability across 3 implementations (Gecko, Trident, Webkit)
+  * some interoperability across 3 implementations (Gecko as '[[https://developer.mozilla.org/en-US/docs/CSS/user-select|-moz-user-select]]', Trident, WebKit, Opera)
   * http://lists.w3.org/Archives/Public/www-style/2012Jul/0541.html
 
 Spec Status:
@@ -147,17 +148,21 @@ Last publication:
   * http://www.w3.org/TR/2000/WD-css3-userint-20000216#user-select
 
 Issues:
-  * all vs. atomic
+  * 'all' vs. 'atomic' value
     * Gecko implementation of the 'all' value does not reflect last specified definition (2000).
     * WebKit wants a 'atomic' value that acts as 'all' was specified in 2000.
     * Might be possible to get Gecko to change its 'all' behavior to as specified and avoid introducing a new 'atomic' value.
+  * 'none' vs. '-moz-none' value
+    * Gecko implementation of '-moz-none' (but not 'none') is like WebKit/IE/Opera's 'none' value.
+      * related: [[https://bugzilla.mozilla.org/show_bug.cgi?id=816298|Bugzilla 816298]]: Change "-moz-user-select:none" to behave like WebKit, IE, and Opera (and "-moz-user-select:-moz-none")
 
 For CSS4-UI:
   * Minimum: spec the interoperable values among existing implementations (excluding 'all')
   * Possibly: minimum plus keep 'all' as specified, and get Gecko fixed to be compliant
   * Maximum: spec all values, including 'toggle' and 'elements' and file bugs accordingly with existing implementations to get those values implemented.
 
-====== css4-ui issues list ======
+=====
+= css4-ui issues list ======
 
 ===== Current Issues =====
 There is no editor's draft of CSS4-UI yet - so there's nothing to have issues against!
