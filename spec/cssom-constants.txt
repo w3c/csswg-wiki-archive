@@ -13,7 +13,7 @@ This page lists all standardized CSSOM constants in CSS to avoid the creation of
 | 6 | PAGE_RULE | CSSOM |
 | 7 | KEYFRAMES_RULE | css3-animations |
 | 8 | KEYFRAME_RULE | css3-animations |
-| 9 | - | likely COLOR_PROFILE, SVG/CSS4 |
+| 9 | - | reserved; likely used for COLOR_PROFILE, SVG/CSS4 |
 | 10 | NAMESPACE_RULE | CSSOM |
 | 11 | COUNTER_STYLE_RULE | css3-lists |
 | 12 | SUPPORTS_RULE | css3-conditional |
@@ -21,15 +21,15 @@ This page lists all standardized CSSOM constants in CSS to avoid the creation of
 | 14 | FONT_FEATURE_VALUES_RULE | css3-fonts |
 | 15 | VIEWPORT_RULE | css-device-adapt |
 | 16 | REGION_STYLE_RULE | proposed for css3-regions|
-| 17 ... 999 | | reserved for future standardization |
+| 17 ... 999 | - | reserved for future standardization |
 
 
-====== CSSOM experimental Constants ======
+====== CSSOM Experimental Constants ======
 
 Constants for proposals that have yet to be accepted by the working group are listed below.
 
 |1000| TEXT_TRANSFORM_RULE | proposed for css3-text|
-
+|1001| HOST_RULE | proposed for Shadow DOM|
 
 ====== CSSOM Vendor Constants ======
 
