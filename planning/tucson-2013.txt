@@ -44,13 +44,10 @@ Sorted by family name:
 
 Regrets:
 
-Alan Stearns (conflicting company event)
-
-Florian Rivoal (Cannot take vacations away from university at these dates)
-
-Anton Prowse (Too far to travel)
-
-Leif Arne Storset (Something came up that makes the timing really unfortunate)
+  * Alan Stearns (conflicting company event)
+  * Florian Rivoal (Cannot take vacations away from university at these dates)
+  * Anton Prowse (Too far to travel)
+  * Leif Arne Storset (Something came up that makes the timing really unfortunate)
 ===== Agenda =====
 
   * TBD
