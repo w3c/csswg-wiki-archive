@@ -59,7 +59,7 @@ test(function() { assert_true(true); },
 );
 </code>
 
-These values would override any metadata set in the <head> of the test and are only needed when the individual test's metadata is different from what's in the <head>.
+Each value can be either a single string, or an array of strings if multiple values need to be specified. These values would override any metadata set in the <head> of the test and are only needed when the individual test's metadata is different from what's in the <head>.
 
 If there is only a single script test in a file, all metadata should be in the <head>.
 
