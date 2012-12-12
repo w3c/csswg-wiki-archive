@@ -55,16 +55,18 @@ test(function() { assert_true(true); },
      'test_name', 
      { help: 'http://www.w3.org/TR/spec#section', 
        assert: ['This tests something.', 'This also tests something else.'],
-       author: 'John Doe <john@doe.com>' }
+       author: ['John Doe <john@doe.com>', 'Jane Doe http://example.com/doe/jane'] }
 );
 </code>
 
 Each value can be either a single string, or an array of strings if multiple values need to be specified. These values would override any metadata set in the <head> of the test and are only needed when the individual test's metadata is different from what's in the <head>.
 
-If there is only a single script test in a file, all metadata should be in the <head>.
+If there is only a single script test in a file, all metadata should be in the <head> rather than the test constructor. 
 
 === Metadata Cache  ===
 
-The default version of testharnessreport.js now contains code that reads your per-test metadata and compares it to the cached version. If the cache is not present, or is out of sync, it'll display a message to that effect and generate a link which, when clicked, will generate the appropriate source code for the cached metadata suitable for copy/paste into the test's <head>. The metadata cache need only be generated once just before submitting a test to suites that care about metadata, and regenerated only when the metadata changes.
+The metadata cache exposes the names of the script tests and all associated per-test metadata to our testing tool suite. Using this data we can track the testing coverage of each specification as well as generate testing statistics and reports. If there are multiple script tests in a file, the metadata cache must be present, even if there is no test-specific metadata present (to list the names of each script test).
+
+The version of testharnessreport.js on http://test.csswg.org/resources now contains code that reads your per-test metadata and compares it to the cached version stored in the <head>. If the cache is not present, or is out of sync, it'll display a message to that effect and generate a link which, when clicked, will generate the appropriate source code for the cached metadata suitable for copy/paste into the test's <head>. The metadata cache need only be generated once just before submitting a test to suites that care about metadata, and regenerated only when the metadata changes.
 
 To access this functionality, launch your script test in a browser and follow the link that appears at the top of the page.
