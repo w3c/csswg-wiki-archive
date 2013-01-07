@@ -241,6 +241,22 @@ and the second value for the left edge.
 </p>
 </code>
 
+==== Issue 22 ====
+  ; Summary : How should text selection behave in the presence of a text-overflow ellipsis?
+  ; Raised by : Tantek Çelik
+  ; URL : http://www.w3.org/Style/CSS/Tracker/issues/279
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Nov/0263.html
+  ; Proposed Resolution : Selecting the ellipsis SHOULD select the ellipsed text. If all of ellipsed text is selected, UAs SHOULD show selection of ellipsis. Behavior of partially-selected elided text is up to UA. Consider adding clarifying examples in spec, adding tests.
+  ; Status : RESOLVED at 2012-10-30 TPAC CSSWG f2f meeting. Need to edit editor's draft.
+  ; Notes: In Safari, you can see that the copy-pasted text is the complete text. This is what is expected by users, and implemented by other browsers.
+
+==== Issue 23 ====
+  ; Summary : Update CSS IS AWESOME example to show non-ellipsed last line. 
+  ; Raised by : Rossen
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Nov/0263.html
+  ; Proposed Resolution : Update CSS IS AWESOME text-overflow example in the spec to not ellipse the last line, but an earlier line.
+  ; Status : RESOLVED at 2012-10-30 TPAC CSSWG f2f meeting. Need to edit editor's draft.
+
 ...
 
 ==== Issue n ====
