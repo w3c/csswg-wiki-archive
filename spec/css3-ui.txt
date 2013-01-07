@@ -257,6 +257,14 @@ and the second value for the left edge.
   ; Proposed Resolution : Update CSS IS AWESOME text-overflow example in the spec to not ellipse the last line, but an earlier line.
   ; Status : RESOLVED at 2012-10-30 TPAC CSSWG f2f meeting. Need to edit editor's draft.
 
+==== Issue 24 ====
+  ; Summary : Provide horizontal scrolling text-overflow example revealing more text that is elided 
+  ; Raised by : Tantek Çelik
+  ; URL : http://www.xanthir.com/etc/text-overflow.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0219.html
+  ; Proposed Resolution : Add horizontal scrolling text-overflow example akin to Tab's test case, note that it works in both Firefox and Opera (interop), but currently not in Webkit (Chrome, Safari). 
+  ; Status : Resolved. Need to edit editor's draft.
+
 ...
 
 ==== Issue n ====
