@@ -2,7 +2,6 @@
 //Note: This is a static list that will be updated periodically in the CSS2.1 Test Suite 2.0 timeframe. The most up-to-date list of CSS 2.1 tests that are flagged with both NeedsWork=Incorrect and NeedsWork=Precision can be found in Shepherd [[http://test.csswg.org/shepherd/search/spec/CSS21/status/issue/whiteboard/Incorrect%20and%20Precision/|here]]//
 
 ^ Test ^Proposed Change ^
-|[[http://test.csswg.org/shepherd/testcase/absolute-replaced-height-007|absolute-replaced-height-007]] | [[http://www.gtalbot.org/BrowserBugsSection/css21testsuite/absolutely-replaced-height-007-GT.xht|http://www.gtalbot.org/BrowserBugsSection/css21testsuite/absolutely-replaced-height-007-GT.xht]] |
 |[[http://test.csswg.org/shepherd/testcase/absolute-replaced-height-014|absolute-replaced-height-014]] | [[http://www.gtalbot.org/BrowserBugsSection/css21testsuite/absolute-replaced-height-014a-GT.xht|http://www.gtalbot.org/BrowserBugsSection/css21testsuite/absolute-replaced-height-014a-GT.xht]] |
 |[[http://test.csswg.org/shepherd/testcase/absolute-replaced-height-021|absolute-replaced-height-021]] |  |
 |[[http://test.csswg.org/shepherd/testcase/absolute-replaced-height-028|absolute-replaced-height-028]] |  |
