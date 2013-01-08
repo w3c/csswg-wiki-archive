@@ -94,11 +94,11 @@ Note that these fingerprints will only be valid until the certificates expire (d
 Alternatively (and better if you're on an OS where this is easy), you can avoid ever having to add fingerprints by following [[http://mercurial.selenic.com/wiki/CACertificates#Configuration_of_HTTPS_certificate_authorities|the instructions on the Mercurial wiki]].
 </note>
  
-==== Initial Clone Of The Central Repository ====
-The first step is to clone the central repository to your own machine.
+==== Initial Download Of The Central Repository ====
 
-In a shell/terminal window, set your current directory to wherever you want hg to create the folders for each repository, and then issue hg clone commands for each repository. e.g.
+The first step is to download the central repository to your own machine.
 
+In a shell/terminal window, set your current directory to wherever you want hg to create the folders for each repository, and then issue ''hg clone'' commands for each repository. e.g.
 
 ** CSSWG Test Suite Repository **
 <code>
@@ -147,7 +147,6 @@ hg clone https://dvcs.w3.org/hg/FXTF/
 hg clone https://dvcs.w3.org/hg/fullscreen/
 </code>
 
-** directory naming **
 Once this command is complete, you now have a working directory that also contains your very own local repository (in a hidden directory named ''.hg''). Your local repository is, at this point, an identical clone of the central repository. You can begin making changes in your working directory at will. In general, do not modify the contents of the ''.hg'' directory directly.
 
 Note: By default, the working directory name will match the name of the central repository on the server (the last path component of the URL). If you want to use a different name for your working directory, enter it at the end of the clone command, e.g.:
@@ -295,7 +294,7 @@ When you're sure you want to submit to the server, **pull first** to synchronize
 Always include the shortname of the spec you're committing work for, just you would when sending email.
 If you're working on a bash command line, put the following command into your ''.bash_functions'' file:
   function commit {
-    hg commit -m "[${PWD##*/}] ${1}" && hg pull --rebase && hg push
+    hg commit -m "[${PWD##*/}] ${1}" . && hg pull --rebase && hg push
   }
 Now you can do a full commit with a properly formatted commit message just by running ''commit "message here"'' in the spec's folder.
 The function will take care of adding the spec's shortname for you automatically.
