@@ -48,7 +48,7 @@ Determining whether the test is correct, and whether it is useful.
   * [ ] That the reference for a reftest uses a different technique that won't fail in the same way as the test.
   * [ ] The test is as cross-platform as reasonably possible, working across different devices, screen resolutions, paper sizes, etc. If there are limitations (e.g. the test will only work on 96dpi devices, or screens wider than 200 pixels), these are documented in the instructions.
   * [ ] The spec backs up the expected behavior in the test. (I've run into a number of tests that make assumptions I could've sworn were in the spec, but aren't there when I go and check. Since this often means the spec forgot to handle something, you should send a message to www-style about it.)
-  * [ ] The test makes no assumptions that aren't in the [[http://www.w3.org/Style/CSS/Test/CSS2.1/current/|list of common assumptions]]
+  * [ ] The test makes no assumptions that aren't in the [[http://test.csswg.org/suites/css2.1/latest/#common|list of common assumptions]]
 
 ===== Nitpicky =====
 
