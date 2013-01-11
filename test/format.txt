@@ -40,8 +40,8 @@ When using any characters beyond the ASCII set, in any encoding, the character e
 **If the test uses the Ahem font, make sure the computed line-height on block elements is specified; avoid 'line-height: normal'**. Also, for absolute reliability, the difference between computed line-height and computed font-size should be dividable by 2. 
   * Eg. Bad: {font: 1.25em Ahem;} /* computed line-height value is 'normal' */
   * Eg. Bad: {font: 20px Ahem;} /* computed line-height value is 'normal' */
-  * Eg. Bad: {font-size: 25px; line-height: 50px;}
-  * Eg. Good: {font-size: 25px; line-height: 51px;}
+  * Eg. Bad: {font-size: 25px; line-height: 50px;} /* the difference between computed line-height and computed font-size is **not** dividable by 2. */
+  * Eg. Good: {font-size: 25px; line-height: 51px;} /* the difference between computed line-height and computed font-size is dividable by 2. */
 
 ===== Template for New Tests =====
 
