@@ -1,7 +1,7 @@
 ====== communications channels ======
 ===== official =====
   * [[http://lists.w3.org/Archives/Public/www-style/|www-style]]. Public discussion of our specs happens on the archived [[http://lists.w3.org/Archives/Public/www-style/|www-style]] mailing list.
-    * see also the [[faq]].
+    * see also the [[tools:www-style]].
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]]. while discussion of our test suites happens on [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]].
   * [[http://www.w3.org/blog/CSS/|CSS WG Blog]]. Minutes and updates in blog form.
 
