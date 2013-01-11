@@ -1,32 +1,36 @@
-====== CSS WG Frequently Asked Questions ======
+====== www-style Etiquette ======
 
-===== www-style =====
-The www-style mailing list is the primary forum for discussing the development of CSS, here are some guidelines and answers to frequently asked questions.
+The [[http://lists.w3.org/Archives/Public/www-style/|www-style mailing list]] is the primary forum for discussing the development of CSS.
+
+Note: This does not mean development //with// CSS; for help with using CSS, see [[http://www.css-discuss.org/|css-discuss]] for that.
 
 ==== start subjects with bracketed topics/specs ====
-When writing an email to www-style, please start the subject with the particular, topic, specification, property in brackets, e.g.
-  * [CSS3-UI][text-overflow] what happens to overflow when you scroll
-  * [CSS4] what's planned for CSS4?
 
+When writing an email to www-style about a particular spec, please summarize the topic in the subject line and start the subject with the spec code in brackets, e.g.
+  * [css3-ui] text-overflow - what happens to overflow when you scroll
+  * [CSS21] overconstrained fixed table layouts underdefined
 
-==== change the subject when a starting discussion ====
-A lot of emails get posted to www-style (such as minutes) which can spark new / specific discussions.
+The spec codes allow editors to more reliably track and address feedback on their specs, and help direct other interested people to the thread.
 
-When replying any such email and following-up on a specific aspect or subject, please start a *new* subject with the particular topic in brackets.
+==== Interleave Replies ====
+
+Interleave or bottom-post replies, and trim quotations to quote only relevant parts. Previous discussion is always available in full in the [[http://lists.w3.org/Archives/Public/www-style/|archive]].
+
+==== Don't reply to announcements  ====
+
+Occasionally a CSSWG member will post meeting minutes, a draft publication announcement, or a meeting agenda to the list. If you want to discuss one of the topics in the message, quote the relevant part and start a new thread with a new subject line. Only reply to the announcement thread if you're offering a correction or missing background info.
+
+==== Change the subject when a starting new discussion ====
+
+A lot of emails get posted to www-style which can spark new / specific discussions in subthreads. When replying any such email and following-up on a specific aspect or subject, please start a *new* subject with the particular topic in brackets. This helps people notice the topic change.
 
 E.g. bad:
-  * RE: [CSSWG] Minutes and Resolutions Paris F2F Monday Morning 2012-02-06: Administrivia, Vendor Prefixes, Property/Value Alias OM
-    * when the actual message is just about prefixes or prefixed values etc.
-
-good:
-  * prefixed values(RE: [CSSWG] Minutes and Resolutions Paris F2F Monday Morning 2012-02-06: Administrivia, Vendor Prefixes, Property/Value Alias OM)
+  * RE: [CSSWG] Minutes Telecon 2012-02-29
+    * when the actual message is about a technical issue in the Animations spec
 
 better:
-  * prefixed values (was RE: [CSSWG] Minutes and Resolutions Paris F2F Monday Morning 2012-02-06: Administrivia, Vendor Prefixes, Property/Value Alias OM)
+  * animating vertical-align (RE: [CSSWG] Minutes Telecon 2012-02-29)
 
 best:
-  * [vendor-prefixes] prefixed values (was RE: [CSSWG] Minutes and Resolutions Paris F2F Monday Morning 2012-02-06: Administrivia, Vendor Prefixes, Property/Value Alias OM)
-
-==== ... ====
-
-This CSS WG FAQ is a stub.
+  * [css3-animations] animating vertical-align (was RE: [CSSWG] Minutes Telecon 2012-02-29)
+  * [css3-animations] animating vertical-align
