@@ -284,7 +284,7 @@ Example 1 (one token applies):
 
 Example 2 (multiple tokens apply):
 <code html>
-<meta name="flags" content="ahem scroll image" />
+<meta name="flags" content="ahem image scroll" />
 </code>
 
 Example 3 (no tokens apply):
