@@ -3,7 +3,7 @@
 The CSSWG uses some tools to make our jobs easier. Here they are!
 
   * This DokuWiki (obviously)
-  * [[http://www.w3.org/Mail/|W3C Mailing Lists]]: specifically [[http://lists.w3.org/Archives/Public/www-style/|www-style]] for our specs, [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]] for testing, and [[http://lists.w3.org/Archives/Public/public-fx/|public-fx]] for specs we co-edit with the [[http://www.w3.org/Graphics/SVG/|SVGWG]]. We also have an [[http://lists.w3.org/Archives/Member/w3c-css-wg/|internal list]] for administrivia.
+  * [[http://www.w3.org/Mail/|W3C Mailing Lists]]: specifically [[tools:www-style|www-style]] for our specs, [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]] for testing, and [[http://lists.w3.org/Archives/Public/public-fx/|public-fx]] for specs we co-edit with the [[http://www.w3.org/Graphics/SVG/|SVGWG]]. We also have an [[http://lists.w3.org/Archives/Member/w3c-css-wg/|internal list]] for administrivia.
   * [[tools:hg|Mercurial]] is the version control system we use for our [[spec|specs]] and our [[test|tests]].
   * [[https://www.w3.org/blog/CSS/wp-admin/|WordPress]] runs our [[http://www.w3.org/blog/CSS/|official blog]]
   * [[http://www.w3.org/Style/CSS/Tracker/|Tracker]], [[https://www.w3.org/Bugs/Public/|Bugzilla]], and [[spec|this wiki]] are used to track spec issues. (Newer specs will link to their issues list in the header.)
