@@ -4,7 +4,7 @@ The [[http://lists.w3.org/Archives/Public/www-style/|www-style mailing list]] is
 
 Note: This does not mean development //with// CSS; for help with using CSS, see [[http://www.css-discuss.org/|css-discuss]] for that.
 
-==== start subjects with bracketed topics/specs ====
+==== Start Subjects with Bracketed Topics/Specs ====
 
 When writing an email to www-style about a particular spec, please summarize the topic in the subject line and start the subject with the spec code in brackets, e.g.
   * [css3-ui] text-overflow - what happens to overflow when you scroll
