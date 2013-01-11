@@ -317,10 +317,10 @@ The test assertion is **optional**. It helps the reviewer understand the goal of
 
 <note>
 Examples of good test assertions:
-  * "A background image with no intrinsic size covers the entire padding box."
-  * "Word-spacing affects each space (U+0020) and non-breaking space (U+00A0)."
-  * "If 'top' and 'bottom' are specified on an absolutely-positioned replaced element, then any remaining space is split amongst the 'auto' vertical margins."
-  * "text-indent affects only the first line of a block container if that line is also the first formatted line of an element
+  * "This test checks that a background image with no intrinsic size covers the entire padding box."
+  * "This test checks that 'word-spacing' affects each space (U+0020) and non-breaking space (U+00A0)."
+  * "This test checks that if 'top' and 'bottom' offsets are specified on an absolutely-positioned replaced element, then any remaining space is split amongst the 'auto' vertical margins."
+  * "This test checks that 'text-indent' affects only the first line of a block container if that line is also the first formatted line of an element."
 </note>
 
 ==== Style Element (embedded styles) ====
