@@ -30,14 +30,14 @@ Tests must be //valid//, so please [[http://validator.w3.org/|validate your test
 When using any characters beyond the ASCII set, in any encoding, the character encoding must be specified properly per the specification of the source format.
 
 **If the test uses the Ahem font, make sure its computed font-size is a multiple of 5px**, otherwise baseline alignment may be rendered inconsistently (due to rounding errors introduced by certain platforms' font APIs). We suggest to use a minimum computed font-size of 20px.
-  * Eg. Bad: {font: 1in/1em Ahem;} 
+  * Eg. Bad: {font: 1in/1em Ahem;} /* computed font-size is 96px */
   * Eg. Bad: {font: 1in Ahem;}
   * Eg. Bad: {font: 1em/1em Ahem} /* with computed 1em font-size being 16px */
   * Eg. Bad: {font: 1em Ahem;} /* with computed 1em font-size being 16px */
   * Eg. Good: {font: 100px/1 Ahem;}
   * Eg. Good: {font: 1.25em/1 Ahem;} /* with computed 1.25em font-size being 20px */
 
-**If the test uses the Ahem font, make sure the computed line-height on block elements is specified; avoid 'line-height: normal'**. Also, for absolute reliability, the difference between computed line-height and computed font-size should be dividable by 2. 
+**If the test uses the Ahem font, make sure the line-height on block elements is specified; avoid 'line-height: normal'**. Also, for absolute reliability, the difference between computed line-height and computed font-size should be dividable by 2. 
   * Eg. Bad: {font: 1.25em Ahem;} /* computed line-height value is 'normal' */
   * Eg. Bad: {font: 20px Ahem;} /* computed line-height value is 'normal' */
   * Eg. Bad: {font-size: 25px; line-height: 50px;} /* the difference between computed line-height and computed font-size is **not** dividable by 2. */
