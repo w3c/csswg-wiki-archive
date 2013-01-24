@@ -13,6 +13,7 @@ Here are the options that we've come up with so far:
   - Add a :placeholder pseudoclass, and revive the ::value pseudo-element that once existed in CSS3 UI.  Specify that UA styles for placeholders are roughly "input:placeholder::value { opacity: .5; }".
   - Add a new 'color-opacity' or 'foreground-opacity' property, use a :placeholder pseudoclass.  Specify that UA styles for placeholders  are roughly "input:placeholder { foreground-opacity: .5; }".
   - Adopt SVG's fill/fill-opacity/stroke/stroke-opacity properties, specifying that they only apply to text, and use a :placeholder pseudoclass.  Specify that UA styles for placeholders are roughly "input:placeholder { fill-opacity: .5; }".
+  - Have both pseudo-element and pseudo-class, since there are uses for styling the input element in that state *and* styling the placeholder text. Placeholder names: :unedited and ::suggestion
 
 ===== Tab's Opinions =====
 
