@@ -29,4 +29,4 @@ So, I recommend we adopt #5.  We can look to WebKit's existing properties for gu
 
 ===== On #6 versus #3 =====
 
-Option 6 (best of both worlds, new names) is preferable to 3 in that the pseudo-class name better represents the element state, and a specific pseudo-element for the suggested text is more clear than styling a 'placeholder value' which is never properly a value of the input element.
+Option 6 (best of both worlds, new names) is preferable to 3 in that the pseudo-class name better represents the element state, and a specific pseudo-element for the suggested text is more clear than styling a 'placeholder value' which is never properly a value of the input element. Perhaps, given the 'placeholder' attribute in the HTML spec (referring to the suggested text, not the input element state) the pseudo-element should be named ::placeholder and the pseudo-class named :blank or :unedited
