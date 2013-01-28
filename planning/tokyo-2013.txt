@@ -28,3 +28,4 @@ Regrets:
 === Proposed Topics ===
 
   * Joint discussions with the SVG WG
+  * case sensitivity will not be discussed (so don't try...)
