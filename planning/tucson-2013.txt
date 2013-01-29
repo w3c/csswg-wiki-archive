@@ -1,0 +1,88 @@
+====== Tucson F2F 2013 ======
+
+**When**: February 4-6 (CONFIRMED) 2013
+
+**Where**: Tucson, Arizona USA
+
+  * Meeting location: University of Arizona Campus, room TBA
+  * Hotel: Doubletree Reid Park Tucson
+
+
+**Host**: Molly E. Holzschlag | City of Tucson | University of Arizona, SISTA http://www.sista.arizona.edu/ | Add'l Corporate/Other Sponsors TBD
+
+Weather Forecast: [[http://forecast.weather.gov/MapClick.php?lat=32.215&lon=-110.909&unit=1|°C]] or [[http://forecast.weather.gov/MapClick.php?lat=32.215&lon=-110.909|°F]]
+
+===== Lodging =====
+
+Doubletree Reid Park Tucson. Rate - 179.00 p/night. [[https://lists.w3.org/Archives/Member/w3c-css-wg/2013JanMar/0007.html|Reservation Information (member only)]]. 
+
+
+===== Transport to/from Airport =====
+
+Volunteer Van - we will have a 8-12 seat shuttle van with volunteer drivers from the community. If you would like an airport pick-up, this can be arranged. Please add pick up requests to your note section in the participation section of this document.
+
+Shuttles and Taxis - both a shared-ride shuttle and Taxis are available at the airport. With advanced notice, the Doubletree also offers pickup at no additional cost (please tip your driver, however)
+
+Be advised Tucson is very spread out and public transportation is really limited. Shared rental cars might well be in order for some.
+
+===== Transport to/from Meeting and Evening Event Locations =====
+
+Volunteer van - we will run a volunteer van each morning and evening of the event. On meeting days, please meet in the hotel lobby at 8:15 a.m.
+
+If you want to explore on your own, a rental car or taxi is best.
+
+If you are an avid cyclist, renting a bike might be a good choice. The hotel is directly across from a beautiful park, and if you don't mind biking a few miles, you can bike to and from the University. The main issue with that is while we have good bicycle lanes, you're in traffic the majority of the ride. 
+
+I'll post specific vendors for these resources as they are available.
+
+===== Participants =====
+Sorted by family name:
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Adams, Glenn | Cox | 03FEB | 07FEB | Doubletree | 
+| Atkins, Tab | Google | Sun | Wednesday | DoubleTree | ? | |
+| Baron, L. David | Mozilla | Sun 3, 19:16 | Wed 6, 19:10 | Doubletree | UA 5532 / US 2779 + US 415 | have rental car reserved |
+| Bos, Bert | W3C  | Sun 3, 21:05 | Thu 7, 12:55 | Doubletree | AA1379 / AA1546 | |
+| Çelik, Tantek | Mozilla | 2013-034 13:51 PHX | 2013-037 19:10 TUS | Doubletree | UA5588 / US2779+US415 | foodpref: pescatarian[[http://tantek.com/w/FoodPreferences|*]]  |
+| Daggett, John | Mozilla  | Sun 3 Feb | Thurs 7 Feb | Doubletwee | UA 5532/6369 | |
+| fantasai | Mozilla | ? | ? | Doubletree | ? | will take a rental car |
+| Fraser, Simon | Apple | Sun 3, 17:25 | Wed 6, 17:55 | Doubletree | SWA 539 / SWA 1337, SWA 2051 | |
+| Holzschlag, Molly | W3C Invited Experts | n/a | n/a | Doubletree | n/a | 
+| Linss, Peter | HP | 2/3 | 2/7 | Doubletree | driving | will have own car |
+| Jackson, Dean | Apple | ? | ? | ? | ? | |
+| Sapin, Simon | Kozea | Sun 3, 21:45 | Thu 7, 9:40 | Doubletree | SWA 2784, SWA 3933 | |
+| Zilles, Steve | Adobe | 2/5 | 2/7 | ? | ? | Likely to arrive morning of 2/5, fly out late 2/7; Low Carbs diet |
+| Glazman, Daniel | Disruptive Innovations | Sun 3 | Thu 7 | Doubletree | ? | spicy food forbidden |
+| Ishii, Koji | Rakuten  | 2/2 | 2/7 | Doubletree | UA5479/AA2663 | Lodge on the dessert on 2/6 |
+| Taichi, Kawabata| NTT  | 2/3 | 2/7 | DoubleTree | JL7562/AA1606 | |
+| Atanassov, Rossen | Microsoft | Sun 3 | Wed 6 | Doubletree | ? | foodpred: same as Tantek | 
+
+
+Regrets:
+
+  * Alan Stearns (conflicting company event)
+  * Florian Rivoal (Cannot take vacations away from university at these dates)
+  * Anton Prowse (Too far to travel)
+  * Leif Arne Storset (Something came up that makes the timing really unfortunate)
+  * Chris Lilley (Sorry)
+  * John Jansen
+  * Jet Villegas 
+  * Arron Eicholz (I will be on IRC)
+===== Agenda =====
+
+  * TBD
+
+=== Proposed Topics ===
+
+  * F2F schedule: decide dates for Tokyo F2F, decide date/location for summer F2F (Europe?)
+  * CSS2.1 -- status of errata, editor's draft, publication
+  * [[http://www.w3.org/mid/AFDF40EF-A5C9-45B0-8F74-082A461939FF@adobe.com|rotating fragmented blocks]]
+  * Top layer rendering http://lists.w3.org/Archives/Public/www-style/2013Jan/0223.html
+  * Techniques to allow for fast content appending http://www.w3.org/mid/DUB120-DS13F99B5BEF632CC5EC5719A5370@phx.gbl http://lists.w3.org/Archives/Public/www-style/2013Jan/0183.html
+  * css3-transitions issues
+  * css3-animations issues
+  * css3-overflow
+  * case sensitivity of user identifiers
+  * css3-fonts: font loader object, font matching details
+  * css3-text: text-justify, letter and word spacing, defining consistent behavior for line-break, word-break
+  * Placeholder styling
+  * Viewport units
