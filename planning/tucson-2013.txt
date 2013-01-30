@@ -73,7 +73,7 @@ Regrets:
 
 === Proposed Topics ===
 
-  * F2F schedule: decide dates for Tokyo F2F, decide date/location for summer F2F (Europe?)
+  * F2F schedule: decide dates for Tokyo F2F, decide date/location for summer F2F (Europe?), confirm whether meeting at TPAC in Shenzen
   * CSS2.1 -- status of errata, editor's draft, publication
   * [[http://www.w3.org/mid/AFDF40EF-A5C9-45B0-8F74-082A461939FF@adobe.com|rotating fragmented blocks]]
   * Top layer rendering http://lists.w3.org/Archives/Public/www-style/2013Jan/0223.html
