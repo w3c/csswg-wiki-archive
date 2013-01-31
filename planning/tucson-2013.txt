@@ -63,7 +63,7 @@ If you want to explore on your own, a rental car or taxi is best.
 Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Adams, Glenn | Cox | 03FEB | 07FEB | Doubletree | 
-| Atkins, Tab | Google | Sun | Wednesday | DoubleTree | ? | |
+| Atkins, Tab | Google | Sun | Wednesday morning | DoubleTree | US 2952 13:55 | |
 | Baron, L. David | Mozilla | Sun 3, 19:16 | Wed 6, 19:10 | Doubletree | UA 5532 / US 2779 + US 415 | have rental car reserved |
 | Bos, Bert | W3C  | Sun 3, 21:05 | Thu 7, 12:55 | Doubletree | AA1379 / AA1546 | Pick up from the airport would be nice |
 | Çelik, Tantek | Mozilla | 2013-034 13:51 PHX | 2013-037 19:10 TUS | Doubletree | UA5588 / US2779+US415 | foodpref: pescatarian[[http://tantek.com/w/FoodPreferences|*]]  |
