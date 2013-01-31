@@ -87,3 +87,5 @@ Regrets:
   * Placeholder styling
   * Viewport units
   * css3-flexbox issues
+  * css3-multicol: how can we speed up the REC? [Bert]
+  * css3-background: how can we speed up the REC? [Bert]
