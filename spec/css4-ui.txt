@@ -48,7 +48,7 @@ nav-focus: _normal_ | ignore | focus
 
 ==== more selectors ====
   * [[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:placeholder]] pseudo-class for when an input element is in the state of showing its placeholder text
-  * [[https://wiki.mozilla.org/CSS/:autofill|:autofill]] pseudo-class for when an input element is in the state of showing an autofilled value. Related implementer bugs:
+  * [[https://wiki.mozilla.org/CSS/:autofill|:autofill]] pseudo-class for when an input element is in the state of showing an autofilled value. Related implementer bugs (not yet implemented) :
     * [[https://bugzilla.mozilla.org/show_bug.cgi?id=740979|:-moz-autofill]]
     * [[https://bugs.webkit.org/show_bug.cgi?id=66032|:-webkit-autofill]]
   * [[https://developer.mozilla.org/en/CSS/%3a%3a-moz-progress-bar|::progress-bar]] pseudo-element for selecting and styling the area of an HTML progress element that represents the amount of progress that has happened so far. This lets you, for example, change the color of progress bars.
