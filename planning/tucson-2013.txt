@@ -104,11 +104,11 @@ Regrets:
   * css3-multicol: how can we speed up the REC? [Bert]
   * css3-background: how can we speed up the REC? [Bert]
   * Placeholder styling
-  * css3-animations issues - 4pm
 
 
 === Tue ===
 == AM ==
+  * css3-animations issues - 11am
 
 == PM ==
   * css3-fonts: font loader object, font matching details, remaining spec issues
