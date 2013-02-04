@@ -97,7 +97,7 @@ Regrets:
   * case sensitivity of user identifiers
   * css3-syntax: [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0040.html|Have some parse errors make rules invalid without error recovery]] eg. ''@media ], all {…}''
   * css3-animations issues
-  * css3-transitions issues ([[http://lists.w3.org/Archives/Public/www-style/2013Feb/0124.html|round 1 of proposals]]
+  * css3-transitions issues ([[http://lists.w3.org/Archives/Public/www-style/2013Feb/0124.html|round 1 of proposals]], [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=14621|proposal 2]])
 
 == PM ==
   * Text Decoration
