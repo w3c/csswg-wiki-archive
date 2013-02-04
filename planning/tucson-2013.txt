@@ -101,7 +101,7 @@ Regrets:
   * [[http://www.w3.org/mid/AFDF40EF-A5C9-45B0-8F74-082A461939FF@adobe.com|rotating fragmented blocks]]
   * Top layer rendering http://lists.w3.org/Archives/Public/www-style/2013Jan/0223.html
   * Techniques to allow for fast content appending http://www.w3.org/mid/DUB120-DS13F99B5BEF632CC5EC5719A5370@phx.gbl http://lists.w3.org/Archives/Public/www-style/2013Jan/0183.html
-  * css3-transitions issues
+  * css3-transitions issues ([[http://lists.w3.org/Archives/Public/www-style/2013Feb/0124.html|round 1 of proposals]]
   * css3-animations issues
   * css3-overflow
   * case sensitivity of user identifiers
