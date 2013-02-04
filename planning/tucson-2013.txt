@@ -110,7 +110,7 @@ Regrets:
   * F2F schedule: decide dates for Tokyo F2F, decide date/location for summer F2F (Europe?), confirm whether meeting at TPAC in Shenzhen
 
 == PM ==
-  * css3-fonts: font loader object, font matching details
+  * css3-fonts: font loader object, font matching details, remaining spec issues
   * css3-text: text-justify, letter and word spacing, defining consistent behavior for line-break, word-break
   * Paged Media
 
