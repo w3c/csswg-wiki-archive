@@ -104,7 +104,8 @@ Regrets:
   * css3-multicol: how can we speed up the REC? [Bert]
   * css3-background: how can we speed up the REC? [Bert]
   * Placeholder styling
-
+  * Writing Modes
+  * CSS2.1 -- status of errata, editor's draft, publication
 
 === Tue ===
 == AM ==
@@ -122,7 +123,6 @@ Regrets:
 
 === Proposed Topics ===
 
-  * CSS2.1 -- status of errata, editor's draft, publication
   * [[http://www.w3.org/mid/AFDF40EF-A5C9-45B0-8F74-082A461939FF@adobe.com|rotating fragmented blocks]]
   * Top layer rendering http://lists.w3.org/Archives/Public/www-style/2013Jan/0223.html
   * Techniques to allow for fast content appending http://www.w3.org/mid/DUB120-DS13F99B5BEF632CC5EC5719A5370@phx.gbl http://lists.w3.org/Archives/Public/www-style/2013Jan/0183.html
