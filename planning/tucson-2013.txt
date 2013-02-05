@@ -109,6 +109,7 @@ Regrets:
 
 === Tue ===
 == AM ==
+  * Paged media
   * css3-animations issues - 11am
 
 == PM ==
