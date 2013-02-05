@@ -18,6 +18,7 @@ Implementations may have found it useful to extend existing CSS3-UI features, bu
 As these are most likely to be practical and minimal (and supported by a second implementation), these are the first features we'll consider.
 
   * new 'cursor' values:
+    * 'auto-hide' - being added to WebKit as [[https://bugs.webkit.org/show_bug.cgi?id=107601|-webkit-auto-hide]]
     * 'grab' - supported by Mozilla as [[https://developer.mozilla.org/en/CSS/-moz-grab|-moz-grab]]
     * 'grabbing' - supported by Mozilla as [[https://developer.mozilla.org/En/CSS/-moz-grabbing|-moz-grabbing]]
     * see [[https://developer.mozilla.org/en/CSS/cursor#Mozilla_extensions|CSS cursor Mozilla extensions]] for more
