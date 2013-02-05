@@ -115,7 +115,6 @@ Regrets:
 == PM ==
   * css3-fonts: font loader object, font matching details, remaining spec issues
   * css3-text: text-justify, letter and word spacing, defining consistent behavior for line-break, word-break
-  * Paged Media
 
 === Wed ===
 == AM ==
