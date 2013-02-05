@@ -177,25 +177,23 @@ In a nutshell, your workflow will be:
   - Send my changes back to the central repository
 
 You can do that with the following commands:
-  hg pull -u
+  hg pull --rebase
   <make edits>
   hg commit -m "[css-foo] commit message describing your work"
   hg push
   
 (Always include the shortname of the spec you're committing work for, just you would when sending email.)
 
-If the "hg push" results in a error, then others have most likely pushed changes to the central repository between your "hg pull" and "hg push". Solve that with:
-  hg pull
-  hg merge
-  hg commit -m "merge"
-  hg push
+:!: Note that (unlike CVS or Subversion) these Mercurial commands operate on the entire repository, not just the directory you're in. You can commit only changes in your current working directory by appending ".":
 
-:!: Note that (unlike CVS or Subversion) these Mercurial commands operate on the entire repository, not just the directory you're in.
+  hg pull --rebase
+  <make edits>
+  hg commit -m "[css-foo] commit message describing your work" .
+  hg push
 
 Congratulations, you're now a Mercurial user.
 
 See the rest of this document if you ran into any issues, for more operations, and to have a better understanding of what's going on here.
-
 
 ==== Table of Contents ====
 
