@@ -117,6 +117,7 @@ Regrets:
   * css3-fonts: font loader object, font matching details, remaining spec issues
   * Counter style issues
   * Top layer rendering http://lists.w3.org/Archives/Public/www-style/2013Jan/0223.html
+  * Variables
 
 === Wed ===
 == AM ==
