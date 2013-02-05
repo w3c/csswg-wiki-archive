@@ -18,12 +18,11 @@ Implementations may have found it useful to extend existing CSS3-UI features, bu
 As these are most likely to be practical and minimal (and supported by a second implementation), these are the first features we'll consider.
 
   * new 'cursor' values:
-    * 'auto-hide' - being added to WebKit as [[https://bugs.webkit.org/show_bug.cgi?id=107601|-webkit-auto-hide]]
+    * 'auto-hide' - being added to WebKit as [[https://bugs.webkit.org/show_bug.cgi?id=107601|-webkit-auto-hide]], see [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0194.html|this www-style thread]]
     * 'grab' - supported by Mozilla as [[https://developer.mozilla.org/en/CSS/-moz-grab|-moz-grab]]
     * 'grabbing' - supported by Mozilla as [[https://developer.mozilla.org/En/CSS/-moz-grabbing|-moz-grabbing]]
     * see [[https://developer.mozilla.org/en/CSS/cursor#Mozilla_extensions|CSS cursor Mozilla extensions]] for more
     * consider more from: http://www.gtalbot.org/DHTMLSection/Cursors.html#Proprietary
-
 ==== real world author extension needs ====
 Second, users and authors may have found that they wanted a CSS3-UI feature to work a certain way in their sites, and these real world needs are a second consideration.
 
