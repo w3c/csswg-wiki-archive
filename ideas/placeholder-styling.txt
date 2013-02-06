@@ -1,5 +1,7 @@
 ====== Styling Placeholders ======
 
+[[spec/css4-ui|CSS4 UI]] is exploring new [[spec/css4-ui#more-selectors|UI related selectors]], such as a :placeholder psuedo-class (or ::placeholder pseudo-element).
+
 The overarching issue is whether to use a pseudoclass or pseudo-element.  A sub-issue here is how to style the placeholder text; different methods bias us toward resolving the main issue in different ways.
 
 If we add a pseudoclass, it represents an input element in the state of showing its placeholder.  Using a pseudoclass is generally more powerful, as it lets you style the input in useful ways, such as adding a border to all placeholder-showing inputs.
