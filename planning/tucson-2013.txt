@@ -124,14 +124,16 @@ Regrets:
   * Variables followup
   * placeholder styling followup
   * Regions Update
-  * css3-text: text-justify, letter and word spacing, defining consistent behavior for line-break, word-break
   * Multicol
-  * Sizing - min/max
 
 
 == PM ==
   * [[http://www.w3.org/mid/AFDF40EF-A5C9-45B0-8F74-082A461939FF@adobe.com|rotating fragmented blocks]]
+  * Sizing - min/max
+  * css3-text: text-justify, letter and word spacing, defining consistent behavior for line-break, word-break
   * css3-overflow
+
+=== Deferred ===
   * Techniques to allow for fast content appending http://www.w3.org/mid/DUB120-DS13F99B5BEF632CC5EC5719A5370@phx.gbl http://lists.w3.org/Archives/Public/www-style/2013Jan/0183.html
 
 
