@@ -48,6 +48,7 @@ nav-focus: _normal_ | ignore | focus
 
 ==== more selectors ====
   * [[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:placeholder]] pseudo-class for when an input element is in the state of showing its placeholder text
+    * See [[ideas/placeholder-styling|placeholder styling]] for more detailed exploration of :placeholder vs. ::placeholder (or potentially both). 
   * [[https://wiki.mozilla.org/CSS/:autofill|:autofill]] pseudo-class for when an input element is in the state of showing an autofilled value. Related implementer bugs (not yet implemented) :
     * [[https://bugzilla.mozilla.org/show_bug.cgi?id=740979|:-moz-autofill]]
     * [[https://bugs.webkit.org/show_bug.cgi?id=66032|:-webkit-autofill]]
