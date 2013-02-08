@@ -265,7 +265,15 @@ and the second value for the left edge.
   ; Proposed Resolution : Add horizontal scrolling text-overflow example akin to Tab's test case, note that it works in both Firefox and Opera (interop), but currently not in Webkit (Chrome, Safari). 
   ; Status : Resolved. Need to edit editor's draft.
 
+==== Issue 25 ====
+  ; Summary : nav-* properties are not well implemented, nor expected to be. also, they're problematic. 
+  ; Raised by : Tantek Çelik
+  ; URL : here's one: http://lists.w3.org/Archives/Public/www-style/2012Oct/thread.html#msg468
+  ; Proposed Resolution : drop all nav-* properties from CSS3-UI in next CR draft, move current text to a workspace page like I did for pointer-events: http://www.w3.org/wiki/User:Tantekelik#CSSWG 
+  ; Status : Need to edit editor's draft.
+
 ...
+
 
 ==== Issue n ====
   ; Summary : 
