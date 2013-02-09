@@ -47,11 +47,19 @@ nav-focus: _normal_ | ignore | focus
 </code>
 
 ==== more selectors ====
-  * [[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:placeholder]] pseudo-class for when an input element is in the state of showing its placeholder text
+  * ::placeholder pseudo-element for the placeholder content inside an input element with a placeholder attribute.
+    * There's an empty documentation page for [[https://developer.mozilla.org/en-US/docs/CSS/::-moz-placeholder|::-moz-placeholder]] which is implemented as of Firefox 19.
+  * :placeholder-shown pseudo-class for when an input element is in the state of showing its placeholder text
     * See [[ideas/placeholder-styling|placeholder styling]] for more detailed exploration of :placeholder vs. ::placeholder (or potentially both). 
+    * [[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:-moz-placeholder]] documentation
+    * [[https://bugzilla.mozilla.org/show_bug.cgi?id=457801|Mozilla bug 457801]]:  Implement -moz-placeholder pseudo-class - big long discussion of pseudo-class vs. pseudo-element etc.
   * [[https://wiki.mozilla.org/CSS/:autofill|:autofill]] pseudo-class for when an input element is in the state of showing an autofilled value. Related implementer bugs (not yet implemented) :
-    * [[https://bugzilla.mozilla.org/show_bug.cgi?id=740979|:-moz-autofill]]
-    * [[https://bugs.webkit.org/show_bug.cgi?id=66032|:-webkit-autofill]]
+    * [[https://bugzilla.mozilla.org/show_bug.cgi?id=740979|:-moz-autofill]] implementation bug
+    * [[https://bugs.webkit.org/show_bug.cgi?id=66032|:-webkit-autofill]] implementation bug
+  * [[https://developer.mozilla.org/en-US/docs/CSS/:-moz-broken|:broken]] for elements representing broken image links. See also Mozilla bug [[https://bugzilla.mozilla.org/show_bug.cgi?id=11011|11011]].
+  * [[https://developer.mozilla.org/en-US/docs/CSS/:-moz-user-disabled|:user-disabled]] matches elements representing images that were not loaded because images have been entirely disabled by the user's preferences
+  * [[https://developer.mozilla.org/en-US/docs/CSS/:-moz-suppressed|:suppressed]] for elements representing images that were not loaded because loading images from that site has been blocked.
+  * [[https://developer.mozilla.org/en-US/docs/CSS/:-moz-loading|:loading]] for elements none of which can be displayed because they have not started loading, such as images that haven't started to arrive yet.  Note that images that are in the process of loading are not matched by this pseudo-class.
   * [[https://developer.mozilla.org/en/CSS/%3a%3a-moz-progress-bar|::progress-bar]] pseudo-element for selecting and styling the area of an HTML progress element that represents the amount of progress that has happened so far. This lets you, for example, change the color of progress bars.
   *  :valid-drop-zone, :invalid-drop-zone - a drop-zone (as Mozilla implements [[https://developer.mozilla.org/en/CSS/:-moz-drag-over|:-moz-drag-over]]) that is valid/invalid.
     * :valid-drop-zone - a drop zone that accepts the type of data being dragged
