@@ -7,15 +7,15 @@
 **Hosts**: [[http://about.me/mollydotcom | Molly E. Holzschlag]] | [[http://cms3.tucsonaz.gov/ | City of Tucson]] | [[http://cms3.tucsonaz.gov/citymgr | Office of the City Manager]] | [[http://www.arizona.edu/ | University of Arizona]] | [[http://www.knowbility.org/ | Knowbility]]
 
 **Minutes**:
-  * [http://lists.w3.org/Archives/Public/www-style/2013Feb/0255.html|Minutes Tucson F2F 2013-02-04 Monday Morning: Case-sensitivity,  Transitions, Syntax, F2F Scheduling]
-  * [http://lists.w3.org/Archives/Public/www-style/2013Feb/0363.html|Minutes Tucson F2F 2013-02-04 Monday Afternoon I: Text Decoration, Multi-col]
-  * [http://lists.w3.org/Archives/Public/www-style/2013Feb/0381.html|Minutes Tucson F2F 2013-02-04 Monday Afternoon II: Backgrounds  and Borders, Placeholder Styling]
-  * [http://lists.w3.org/Archives/Public/www-style/2013Feb/0382.html|Minutes Tucson F2F 2013-02-04 Monday Afternoon III: Writing  Modes, CSS2.1, CSS3 Syntax]
-  * [http://lists.w3.org/Archives/Public/www-style/2013Feb/0384.html|Minutes Tucson F2F 2013-02-05 Tue AM I: Paged Media 4, Flexbox]
-  * [http://lists.w3.org/Archives/Public/www-style/2013Feb/0385.html|Minutes Tucson F2F 2013-02-05 Tue AM II: Transitions and  Animations, Tokyo F2F]
-  * [http://lists.w3.org/Archives/Public/www-style/2013Feb/0391.html|Minutes Tucson F2F 2013-02-05 Tue PM I: Fonts]
-  * [http://lists.w3.org/Archives/Public/www-style/2013Feb/0392.html|Minutes Tucson F2F 2013-02-05 Tue PM II: Counter Styles,  Top Layer Positioning, Variables]
-  * [http://lists.w3.org/Archives/Public/www-style/2013Feb/0393.html|Minutes Tucson F2F 2013-02-06 Wed AM I: Variables II, Placeholder  Styling II, Regions, Conditional Rules]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0255.html|Minutes Tucson F2F 2013-02-04 Monday Morning: Case-sensitivity,  Transitions, Syntax, F2F Scheduling]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0363.html|Minutes Tucson F2F 2013-02-04 Monday Afternoon I: Text Decoration, Multi-col]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0381.html|Minutes Tucson F2F 2013-02-04 Monday Afternoon II: Backgrounds  and Borders, Placeholder Styling]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0382.html|Minutes Tucson F2F 2013-02-04 Monday Afternoon III: Writing  Modes, CSS2.1, CSS3 Syntax]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0384.html|Minutes Tucson F2F 2013-02-05 Tue AM I: Paged Media 4, Flexbox]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0385.html|Minutes Tucson F2F 2013-02-05 Tue AM II: Transitions and  Animations, Tokyo F2F]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0391.html|Minutes Tucson F2F 2013-02-05 Tue PM I: Fonts]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0392.html|Minutes Tucson F2F 2013-02-05 Tue PM II: Counter Styles,  Top Layer Positioning, Variables]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0393.html|Minutes Tucson F2F 2013-02-06 Wed AM I: Variables II, Placeholder  Styling II, Regions, Conditional Rules]]
 
 ===== Meeting Information =====
 
