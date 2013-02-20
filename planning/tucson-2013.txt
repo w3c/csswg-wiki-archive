@@ -16,6 +16,9 @@
   * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0391.html|Minutes Tucson F2F 2013-02-05 Tue PM I: Fonts]]
   * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0392.html|Minutes Tucson F2F 2013-02-05 Tue PM II: Counter Styles,  Top Layer Positioning, Variables]]
   * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0393.html|Minutes Tucson F2F 2013-02-06 Wed AM I: Variables II, Placeholder  Styling II, Regions, Conditional Rules]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0471.html|Minutes Tucson F2F 2013-02-06 Wed AM II: multi-col shrink-to-fit]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0472.html|Minutes Tucson F2F 2013-02-06 Wed PM I: Fragmenting Transformed  Elements, Intrinsic Sizing Principles]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0474.html|Minutes Tucson F2F 2013-02-06 Wed PM II: CSS3 Text]]
 
 ===== Meeting Information =====
 
