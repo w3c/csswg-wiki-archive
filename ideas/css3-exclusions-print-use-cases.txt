@@ -83,3 +83,5 @@ The trap in the middle uses multiple shapes to affect the wrap of text around th
 {{ :spec:css3-floats-use-cases:sciences_et_vie_excl.png?nolink |}}
 
 Here the large oval wraps the article text and the text of its top two captions, but the remaining captions are not affected by the shape.
+
+More examples collected at the top of this blog post: http://galjot.si/css-exclusions
