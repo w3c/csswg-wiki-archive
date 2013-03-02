@@ -31,6 +31,7 @@ The test file uses the technology to be tested. This file must follow the [[form
 
 In addition to matching a reftest reference, the test may also function as a self-describing test. This is preferred because having the description lets the tester check that the test and the reference are not //both// being rendered incorrectly and triggering a false pass, and because designing it for an obvious fail makes it easier to find what went wrong when the reftest does fail.
 
+If the test must perform some processing before a comparison can be made to the reference, add ''class=reftest-wait'' to the root element, and remove it when the comparison can be made.
 ==== The Reftest Reference File ====
 
 The reference file uses a different method to produce the same rendering as the test file. Multiple tests can (and often do) share the same reference file. 
