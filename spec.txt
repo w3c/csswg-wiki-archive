@@ -65,6 +65,7 @@ This section outlines active possibilities for future specs or notes
    * [[http://www.w3.org/community/ppl/wiki/Western_Layout_Requirements|Western Layout Requirements]], outlining the advanced printing stuff that XSL-FO does and which we'd like to address in CSS
    * [[spec:font-load-events|Font Load Events]]
    * [[spec:css-regions-4|CSS Regions Module Level 4]]
+   * [[spec:css-flexbox-2|CSS Flexbox Level 2]]
 ===== out of date =====
 These specs are old / out of date and need active editors/owners to bring them up to date.
   * [[spec:css3-box|CSS Box Module Level 3]]
