@@ -1,0 +1,5 @@
+* Solve the "items on the last line get way too big when you're flexing" problem.  More generally, "make items have a consistent flexed size, regardless of how much extra space is on each line".  Possible solution - fill out the last line with "phantom copies" of the last item, flex with them in, then remove them.
+* Flex line balancing.
+* Tight packing - if items don't fit on one line, try to pack them again with their min-content size instead, causing line wraps inside the item before wrapping the flex line (good for toolbars).
+* Explicit spacing control - specify the size/flex of a particular packing space.
+* Equal justification space in both dimensions (see mailing list).  (Or maybe just explicit sizing of between-line spacing?)
