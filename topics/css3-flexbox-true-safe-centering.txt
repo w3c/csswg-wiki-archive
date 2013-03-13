@@ -3,7 +3,7 @@
 ---- dataentry  ----
 Spec_tags     : css3-align
 Owner_tags    : tabatkins, fantasai
-Status_tags   : Open, Urgent
+Status_tags   : Open
 Added_dt      : 2012-05-16
 Action        : Decide between safe and true centering
 Issue_urls    : 
