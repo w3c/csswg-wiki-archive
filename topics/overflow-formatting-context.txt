@@ -3,7 +3,7 @@
 ---- dataentry  ----
 Spec_tags     : css21, css3-flexbox
 Owner_tags    : fantasai, antonp, TabAtkins
-Status_tags   : Resolved to approve proposal subject to CfC on additional clarifying text.
+Status_tags   : Resolved
 Added_dt      : 2012-05-15
 Action        : React to CfC - http://lists.w3.org/Archives/Public/www-style/2012Jul/0342.html
 Issue_urls    : https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381
