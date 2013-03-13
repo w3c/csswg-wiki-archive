@@ -3,10 +3,10 @@
 ---- dataentry ----
 Spec_tags     : css3-flexbox
 Owner_tags    : fantasai, TabAtkins
-Status_tags   : Open, Urgent
+Status_tags   : Resolved
 Added_dt      : 2012-07-23
 
-Action        : Discuss and pick A, B, or C!
+Action        : 
 Issue_urls    : http://dev.w3.org/csswg/css3-flexbox/issues-lc-2012#issue-18
 Proposal_urls : http://lists.w3.org/Archives/Public/www-style/2012Jul/0419.html
 Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
@@ -47,3 +47,7 @@ Nobody's come up with a use case for using the static position of an absolutely-
   - http://lists.w3.org/Archives/Public/www-style/2012Jul/0547.html (fantasai's summary/request for information)
   - http://lists.w3.org/Archives/Public/www-style/2012Jul/0558.html (origin of proposal D)
   - http://lists.w3.org/Archives/Public/www-style/2012Jul/0589.html (proposal E)
+
+=== Resolution ===
+
+http://lists.w3.org/Archives/Public/www-style/2012Jul/0605.html
