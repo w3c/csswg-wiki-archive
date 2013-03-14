@@ -375,6 +375,8 @@ The new file name format is ''test-topic-###.ext'' where ''test-topic'' somewhat
 
 The file name is no longer restricted to 31 characters, but please try to keep them short.
 
+The file name should not use the underscore ("_") character; please use the hyphen ("-") character instead.
+
 **test-topic**\\
 A short identifier that describes the test. The ''test-topic'' should avoid
 conjunctions, articles, and prepositions. It is a file name, not an English phrase: it should be as
