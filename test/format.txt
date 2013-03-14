@@ -432,7 +432,7 @@ A number of standard images are provided in the [[http://www.w3.org/Style/CSS/Te
   * a cat
   * a 4-part picture
 
-Additional generic files can be added as necessary, and should have a descriptive file name. Test-specific files should be named after the test (or test-topic if they are shared across several tests within a series). If possible tests should not rely on transparency in images, as they are converted to JPEG (which does not support transparency) for the xhtml1print version.
+Additional generic files can be added as necessary, and should have a descriptive file name. Just like other file name, support files' file name should not use the underscore ("_") character; use the hyphen ("-") character instead. Test-specific files should be named after the test (or test-topic if they are shared across several tests within a series). If possible tests should not rely on transparency in images, as they are converted to JPEG (which does not support transparency) for the xhtml1print version.
 
 
 ===== User style sheets =====
