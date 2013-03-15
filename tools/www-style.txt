@@ -12,7 +12,7 @@ When writing an email to www-style about a particular spec, please summarize the
 
 The spec codes allow editors to more reliably track and address feedback on their specs, and help direct other interested people to the thread.
 
-===== Interleave Replies =====
+===== Interleave Replies and Trim Quoted Text =====
 
 Interleave or bottom-post replies, and trim quotations to quote only relevant parts. Previous discussion is always available in full in the [[http://lists.w3.org/Archives/Public/www-style/|archive]].
 
