@@ -1,46 +1,49 @@
 ====== The Great Renaming ======
 
-|css3-align|css-align-3|
-|css3-animations|css-animations-1|
-|css3-background|css-backgrounds-3|
-|css3-box|css-box-3|
-|css3-break|css-break-3|
-|css3-cascade|css-cascade-3|
-|css3-color|css-color-3|
-|css3-conditional|css-conditional-3|
-|css3-content|css-content-3|
-|css3-exclusions|css-exclusions-3|
-|css3-flexbox|css-flexbox-1|
-|css3-fonts|css-fonts-3|
-|css3-gcpm|css-gcpm-3|
-|css3-grid-layout|css-grid-1|
-|css3-grid|css-grid-position-3|
-|css3-hierarchies|css-hierarchies-1|
-|css3-images|css-images-3|
-|css3-layout|css-layout-1|
-|css3-linebox|css-inline-3|
-|css3-lists|css-lists-3|
-|css3-multicol|css-multicol-1|
-|css3-namespace|css-namespaces-1|
-|css3-overflow|css-overflow-3|
-|css3-page-template|css-page-template-1|
-|css3-page|css-page-3|
-|css3-positioning|css-position-3|
-|css3-preslev|css-preslev-1|
-|css3-regions|css-regions-1|
-|css3-ruby|css-ruby-1|
-|css3-sizing|css-sizing-3|
-|css3-speech|css-speech-1|
-|css3-syntax|css-syntax-3|
-|css3-text|css-text-3|
-|css3-text-decor|css-text-decor-3|
-|css3-transforms|css-transforms-1|
-|css3-transitions|css-transitions-1|
-|css3-ui|css-ui-3|
-|css3-values|css-values-3|
-|css3-writing-modes|css-writing-modes-3|
-|css4-background|css-backgrounds-4|
-|css4-images|css-images-4|
-|css4-page|css-page-4|
-|css4-pseudo|css-pseudo-4|
-|css4-text|css-text-4|
+:!: Indicates switch from L3 to L1
+
+^Old^New^Notes^
+|css3-align|css-align-3||
+|css3-animations|css-animations-1|:!:|
+|css3-background|css-backgrounds-3|added 's' to match title|
+|css3-box|css-box-3||
+|css3-break|css-break-3||
+|css3-cascade|css-cascade-3||
+|css3-color|css-color-3||
+|css3-conditional|css-conditional-3||
+|css3-content|css-content-3||
+|css3-exclusions|css-exclusions-3||
+|css3-flexbox|css-flexbox-1|:!:|
+|css3-fonts|css-fonts-3||
+|css3-gcpm|css-gcpm-3||
+|css3-grid-layout|css-grid-1|:!: Dropped -layout; plan to take over /TR/css3-grid's TR track|
+|css3-grid|css-grid-position-3|This is effectively merged into grid-layout, above|
+|css3-hierarchies|css-hierarchies-1|:!:||
+|css3-images|css-images-3||
+|css3-layout|css-layout-1|:!:|
+|css3-linebox|css-inline-3|Propose changing name from linebox to inline. Thoughts?|
+|css3-lists|css-lists-3||
+|css3-multicol|css-multicol-1|:!:|
+|css3-namespace|css-namespaces-1|:!:|
+|css3-overflow|css-overflow-3||
+|css3-page-template|css-page-template-1|:!:|
+|css3-page|css-page-3||
+|css3-positioning|css-position-3|Dropped -ing|
+|css3-preslev|css-preslev-1|:!:|
+|css3-regions|css-regions-1|:!:|
+|css3-ruby|css-ruby-1|:!:|
+|css3-sizing|css-sizing-3||
+|css3-speech|css-speech-1||
+|css3-syntax|css-syntax-3||
+|css3-text|css-text-3||
+|css3-text-decor|css-text-decor-3|(This rename was before FPWD.)|
+|css3-transforms|css-transforms-1|:!:|
+|css3-transitions|css-transitions-1|:!:|
+|css3-ui|css-ui-3||
+|css3-values|css-values-3||
+|css3-writing-modes|css-writing-modes-3||
+|css4-background|css-backgrounds-4|Added 's' to match title|
+|css4-images|css-images-4||
+|css4-page|css-page-4||
+|css4-pseudo|css-pseudo-4||
+|css4-text|css-text-4||
