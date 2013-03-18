@@ -5,7 +5,7 @@
 ^Old^New^Notes^
 |css3-align|css-align-3| |
 |css3-animations|css-animations-1|:!:|
-|css3-background|css-backgrounds-3|added 's' to match title|
+|css3-background|css-backgrounds-3|Add 's' to match title?|
 |css3-box|css-box-3| |
 |css3-break|css-break-3| |
 |css3-cascade|css-cascade-3| |
@@ -24,7 +24,7 @@
 |css3-linebox|css-inline-3|Propose changing name from linebox to inline. Thoughts?|
 |css3-lists|css-lists-3| |
 |css3-multicol|css-multicol-1|:!:|
-|css3-namespace|css-namespaces-1|:!:|
+|css3-namespace|css-namespaces-1|:!: Add 's' to match title?|
 |css3-overflow|css-overflow-3| |
 |css3-page-template|css-page-template-1|:!:|
 |css3-page|css-page-3| |
@@ -42,7 +42,7 @@
 |css3-ui|css-ui-3| |
 |css3-values|css-values-3| |
 |css3-writing-modes|css-writing-modes-3| |
-|css4-background|css-backgrounds-4|Added 's' to match title|
+|css4-background|css-backgrounds-4|Add 's' to match title?|
 |css4-images|css-images-4| |
 |css4-page|css-page-4| |
 |css4-pseudo|css-pseudo-4| | 
