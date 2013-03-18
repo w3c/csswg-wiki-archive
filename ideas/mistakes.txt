@@ -1,0 +1,16 @@
+====== List of Mistakes in the Design of CSS ======
+
+That should be corrected if anyone invents a time machine. :P
+
+  * ''white-space: nowrap'' should be ''white-space: no-wrap''
+  * ''vertical-align'' should not apply to table cells. Instead the CSS3 alignment properties should exist in Level 1.
+  * ''vertical-align: middle'' should be ''text-middle'' because it's not really in the middle.
+  * Percentage heights should be calculated against ''fill-available'' rather than being undefined in auto situations.
+  * Table layout should be sane.
+  * Box-sizing should be ''border-box'' by default.
+  * ''background-size'' with one value should duplicate its value, not default the second one to ''auto''.
+  * ''z-index'' should be called ''z-order'' and should Just Work on all elements
+  * ''word-wrap'' should have been called ''overflow-wrap'' from the beginning
+  * The top and bottom margins of a box should never have been allowed to collapse together as this is the **root of all margin-collapsing evil**.
+  * Partial collapsing of margins instead of weird rules to handle min/max-heights?
+  * Tables (and other non-blocks, e.g. flex containers) should form pseudo-stacking contexts.
