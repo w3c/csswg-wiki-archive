@@ -47,16 +47,16 @@ Where >>future date<< is a Tuesday or Thursday giving the Webmaster enough time 
 
 The www-style message is your chance to update WG and www-style members who haven't been reading all of your module's deeply involved threads as to what's happening with your module.
 
-Replace >>marked<< items. Here's an [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0790.html|example WD announcement]] and here's an [[http://lists.w3.org/Archives/Public/www-style/2013Jan/0013.html|example LCWD announcement]]:
+Replace >>marked<< items and foos. Here's an [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0790.html|example WD announcement]] and here's an [[http://lists.w3.org/Archives/Public/www-style/2013Jan/0013.html|example LCWD announcement]]:
 
   ; To : www-style@
-  ; Subject : [CSSWG]>>[css3-foo]<< Updated WD of >>CSSN Foo<<
+  ; Subject : [CSSWG][css-foo] Updated WD of CSS Foo L#
   ; Body : 
 
 
-  The CSS WG has published an updated Working Draft of the >>CSS Foo Module Level N<<:
+  The CSS WG has published an updated Working Draft of the CSS Foo Module Level #:
   
-      >>http://www.w3.org/TR/css3-foo/<<
+      http://www.w3.org/TR/css-foo-#/
   
   >>one-sentence summary of module<<
   
@@ -70,7 +70,7 @@ Replace >>marked<< items. Here's an [[http://lists.w3.org/Archives/Public/www-st
   Please send any comments to this mailing list, <www-style@w3.org>, and 
   please, prefix the subject line with
   
-      >>[css3-foo]<<
+      [css-foo]
   
   (as I did on this message).
   
