@@ -65,7 +65,7 @@ Replace >>marked<< items and foos. Here's an [[http://lists.w3.org/Archives/Publ
   
   Significant changes are listed at:
   
-    >>http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes<<    
+    >>http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes<<  **note dated URL!**
   
   Please send any comments to this mailing list, <www-style@w3.org>, and 
   please, prefix the subject line with
