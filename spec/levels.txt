@@ -20,7 +20,7 @@
 |css3-grid|css-grid-position-3|This is effectively merged into grid-layout, above|
 |css3-hierarchies|css-hierarchies-1|:!:|
 |css3-images|css-images-3| |
-|css3-layout|css-layout-1|:!:|
+|css3-layout|css-template-1|:!: Layout is too generic, switched to Template|
 |css3-linebox|css-inline-3|Propose changing name from linebox to inline. Thoughts?|
 |css3-lists|css-lists-3| |
 |css3-multicol|css-multicol-1|:!:|
