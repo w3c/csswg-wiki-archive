@@ -14,3 +14,4 @@ That should be corrected if anyone invents a time machine. :P
   * The top and bottom margins of a box should never have been allowed to collapse together as this is the **root of all margin-collapsing evil**.
   * Partial collapsing of margins instead of weird rules to handle min/max-heights?
   * Tables (and other non-blocks, e.g. flex containers) should form pseudo-stacking contexts.
+  * The ''currentcolor'' keyword should have a dash, ''current-color''.
