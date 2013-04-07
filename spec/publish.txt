@@ -47,35 +47,35 @@ Where >>future date<< is a Tuesday or Thursday giving the Webmaster enough time 
 
 The www-style message is your chance to update WG and www-style members who haven't been reading all of your module's deeply involved threads as to what's happening with your module.
 
-Replace >>marked<< items and foos. Here's an [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0790.html|example WD announcement]] and here's an [[http://lists.w3.org/Archives/Public/www-style/2013Jan/0013.html|example LCWD announcement]]:
+Replace !!!!marked!!!! items. Here's an [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0790.html|example WD announcement]] and here's an [[http://lists.w3.org/Archives/Public/www-style/2013Jan/0013.html|example LCWD announcement]]:
 
   ; To : www-style@
-  ; Subject : [CSSWG][css-foo] Updated WD of CSS Foo L#
+  ; Subject : [CSSWG][!!!!css-foo!!!!] Updated WD of !!!!CSS Foo L#!!!!
   ; Body : 
 
 
-  The CSS WG has published an updated Working Draft of the CSS Foo Module Level #:
+  The CSS WG has published an updated Working Draft of the !!!!CSS Foo Module Level #!!!!:
   
-      http://www.w3.org/TR/css-foo-#/
+      !!!!http://www.w3.org/TR/css-foo-#/!!!!
   
-  >>one-sentence summary of module<<
+  !!!!one-sentence summary of module!!!!
   
-  >>What's new, what's cool, what you'd like feedback on, and what to expect
-  going forward<<
+  !!!!What's new, what's cool, what you'd like feedback on, and what to expect
+  going forward!!!!
   
   Significant changes are listed at:
   
-    >>http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes<<  **note dated URL!**
+    !!!!http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes  **note dated URL!** !!!!
   
   Please send any comments to this mailing list, <www-style@w3.org>, and 
   please, prefix the subject line with
   
-      [css-foo]
+      [!!!!css-foo!!!!]
   
   (as I did on this message).
   
   For the CSS WG,
-  >>your signature<<
+  !!!!your signature!!!!
 
 
 ===== Template for WD Announcement to Blog =====
