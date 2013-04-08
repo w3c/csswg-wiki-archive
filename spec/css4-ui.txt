@@ -36,6 +36,34 @@ Third, there are hypothetical requests for extensions to CSS3-UI features. As th
 
 ===== new css4-ui features =====
 Brand new features fo CSS4-UI. We'll follow the same prioritization as above.
+==== caret property ====
+Consider adding a new 'caret' property.
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0772.html|Proposed by Lea Verou]]
+<code>
+Name: caret
+Value: auto | <color> | invert
+Initial: auto
+Applies to: Any element that accepts textual input
+Inherited: Yes
+Percentages: N/A
+Media: Interactive
+Computed value: The computed value for 'invert' is 'invert'. For <color> 
+values, the computed value is as defined for the [CSS3COLOR] 'color' 
+property.
+</code>
+
+UAs set the color of the caret cursor to the value of the 'caret' property.
+
+The 'invert' value is expected to perform a color inversion on the pixels on the screen under the caret cursor. UAs may ignore the 'invert' value on platforms that do not support color inversion of the pixels on the screen.
+
+Note: The caret cursor (also known as the text insertion cursor) is distinct from the pointing cursor (typically called just "cursor" in CSS and controlled with the 'cursor' property). The caret cursor is usually displayed (often rendered as a blinking line segment perpendicular to the inline-progression direction) by the user agent in active text inputs without any selected text, where user entered text will be inserted.
+
+Note: The 'caret' property could be extended to other aspects (e.g. caret width or style) and become a shorthand for a caret-color, if there is sufficient demand and use cases. Or alternately we could name it 'caret-color' to begin with.
+
+Implementer feedback:
+  * "[[http://lists.w3.org/Archives/Public/www-style/2011Nov/0775.html|would be easy in Gecko]]"
+  * ...
+
 ==== focusable property ====
 Consider incorporating a 'focusable' property (like in SVG)
 
