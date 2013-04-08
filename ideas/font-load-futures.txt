@@ -13,7 +13,7 @@
     attribute EventHandler onloadingdone;
   }
   
-  interface Font : EventTarget {
+  interface Font {
     Future ready()
     /* readonly versions of all the CSSFontFaceRule attributes, minus ones that point into the stylesheet */
   }
