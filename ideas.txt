@@ -43,6 +43,7 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
   * [[ideas:at-text-transform|@text-transform proposal]]
   * [[ideas:aliasing| proposals for property aliasing]]
   * [[ideas:placeholder styling|Fixing <input placeholder=''> styling]]
+  * [[ideas:font-load-futures|Font Loads with Futures]]
 
 ===== Miscellaneous =====
 
