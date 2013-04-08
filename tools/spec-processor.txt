@@ -24,7 +24,7 @@ BEFORE committing your work.
 
 If you're on a system with [[http://curl.haxx.se/|curl]] on it, just save the following line to a file somewhere in your executable path:
 
-  curl -u USERNAME:PASSWORD -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html
+  curl -u USERNAME:PASSWORD -F file=@Overview.src.html -F group=CSS -F output=html -F method=file https://www.w3.org/Style/Group/process.cgi -o Overview.html
 
 (Replace the USERNAME:PASSWORD with your W3C username and password, the same that you would enter when visiting the web form linked above.)
 
