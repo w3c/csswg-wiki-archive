@@ -6,6 +6,7 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
 
 ===== Contributing =====
 
+  * [[test:faq]]
   * [[test:fonts|Installing Fonts for CSS Testing]] (required for running CSS tests)
   * [[test:css2.1:contribute|How to Contribute]]
   * [[test:format|Format Template and Guidelines]]
