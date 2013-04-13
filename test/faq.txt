@@ -1,0 +1,21 @@
+====== Frequently Asked Questions ======
+
+===== Why reftest instead of testharness.js? =====
+
+While JavaScript tests can be more efficient for many things than reftests, they have two key disadvantages: they can test layout and cascading, but not rendering; and they require OM/scripting support, which not all CSS renderers have.
+
+For this reason, we recommend testharness.js for OM-related tests, but unless there's a very strong reason to use scripting for a test, layout tests should be done as reftests.
+
+===== Why metadata? =====
+
+Short answer: partly to help us evaluate coverage, and partly because, like commenting your code, it helps reviewers and maintainers understand what your code is trying to do.
+
+Long answer:
+
+  * Helps reviewer understand what you are trying to do, so they can make sure you succeed at testing what you're trying to test.
+  * Allows accurately fixing test errors, or recreating the test with alternative supporting technology without losing intended coverage.
+  * Evaluating test coverage of the spec.
+  * Reducing duplicate work.
+  * Like code commenting, helps people investigating test failures understand the test. They just happen to be machine-extractable comments in a particular format.
+
+Some test writers find that writing out the assertion helps them think about what, exactly, they're trying to test and how it relates to prose that is in the spec. (And if that prose is not there, it's time to file a spec issue. ;)
