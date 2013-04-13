@@ -71,24 +71,19 @@ Alternatively, you can use this HTML5 template:
 
 <code html>
 <!DOCTYPE html>
-<html>
- <head>
-  <title>CSS Test: [Title/Scope of Test]</title>
-  <link rel="author" title="[Name of Author]" href="[mailto: or http: contact address]">
-  <link rel="help" href="http://www.w3.org/TR/[direct link to tested section]">
-  <meta name="flags" content="[requirement flags]">
-  <meta name="assert" content="Test checks that [explanation of what you're trying to test].">
-  <style>
+<title>CSS Test: [Title/Scope of Test]</title>
+<link rel="author" title="[Name of Author]" href="[mailto: or http: contact address]">
+<link rel="help" href="http://www.w3.org/TR/[direct link to tested section]">
+<meta name="flags" content="[requirement flags]">
+<meta name="assert" content="Test checks that [explanation of what you're trying to test].">
+<style>
    [CSS for test]
-  </style>
- </head>
- <body>
+</style>
+<body>
   <p>Test passes if [description of pass condition].</p>
   [Content of test]
- </body>
-</html>
+</body>
 </code>
-
 
 ===== Template Details =====
 
