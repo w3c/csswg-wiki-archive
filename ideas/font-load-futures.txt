@@ -1,55 +1,5 @@
-====== Proposal ======
+====== Font Load Event with Futures ======
 
-  partial interface document {
-    readonly attribute FontList fonts;
-  }
-  
-  interface FontList : EventTarget {
-    /* whatever idl magic you need to make this an array-like filled with Font objects */
-    Future ready()
-    boolean checkFont(DOMString font, optional DOMString text = " ");
-    Future loadFont(DOMString font, optional DOMString text = " ");
-    attribute EventHandler onloading;
-    attribute EventHandler onloadingdone;
-  }
-  
-  interface Font {
-    Future ready()
-    /* readonly versions of all the CSSFontFaceRule attributes, minus ones that point into the stylesheet */
-  }
+This is a proposal to rework the Font Load Events spec to use Futures instead.
 
-First of all, I'm replacing document.fontLoader with document.fonts,
-an array-like of Font objects.  Each Font object is a readonly version
-of a CSSFontFaceRule object, without any links into the CSSOM.  This
-seems like a useful convenience API all by itself, but it's also
-something that can be safely exposed to Workers, as there's no
-DOM/CSSOM link to make it unsafe.  The FontList contains Font objects
-for all the @font-face rules in all the stylesheets for the document,
-in document order.
-
-The FontList.ready() function returns a Future.  This is initially
-unresolved, and resolves when the browser has loaded all stylesheets
-and has finished loading all the fonts it chooses to initially load.
-It must return the same future across multiple calls.  If, after
-resolving the future, the browser beings loading more fonts, it must
-create a new future to return from .ready(), and again resolve it when
-the browser stops loading fonts.  This addresses use-case #1,
-replacing notifyWhenFontsReady().
-
-The loadFont() function has its argument list reverted to be identical to
-checkFont, and it just returns a future which is resolved as soon as
-all the necessary requested fonts have loaded (which may be
-immediately, if all necessary fonts are already loaded).  This
-addresses use-case #2.
-
-checkFont() is unchanged.
-
-To address use-case #3, the API has two pieces.  If you care about the
-loading status of individual fonts, look for the relevant Font object
-and call its ready() function to obtain a Future which is resolved
-when the font is done loading, or cancelled when the font load has an
-error.  This replaces the loadstart/load/error events.  The
-loading/loadingDone events are unchanged - they're useful for
-providing UI indicating whether fonts are loading or not, rather than
-a one-off "tell me when fonts are ready", which is what the .ready()
-future is for.
+The proposal is now located here: http://www.xanthir.com/b4PV1
