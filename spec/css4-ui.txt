@@ -10,8 +10,6 @@ In somewhat order of priority:
 
 ===== extensions to css3-ui features =====
 
-See also 'nav-index' ideas in [[:ideas:nav-index]]
-
 ==== implementation extensions ====
 Implementations may have found it useful to extend existing CSS3-UI features, but perhaps they are only experimental extensions or single implementations.
 
@@ -148,6 +146,9 @@ Since new input elements etc. have been added to HTML5, and there is clearly opp
 
 I've archived the 2004 System Appearance feature spec source on the W3C wiki (it seems to support better escaping of embedded markup).
   * http://www.w3.org/wiki/User:Tantekelik/CR-css3-ui-20040511-appearance
+
+==== nav properties ====
+See issues [[:ideas:nav-index]]
 
 ==== text-overflow string plus ====
 The string value for text-overflow should have the same syntax as the content rule.
