@@ -8,4 +8,3 @@ There have been a number of concerns raised with the current 'nav-index' propert
 
 More issues:
   * http://lists.w3.org/Archives/Public/wai-xtech/2011Nov/0035.html
-  * https://www.w3.org/Style/CSS/Tracker/issues/324
