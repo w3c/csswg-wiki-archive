@@ -7,4 +7,5 @@ There have been a number of concerns raised with the current 'nav-index' propert
   * Scoping tab navigation indices, so that it can be used in complex pages.
 
 More issues:
+  * http://lists.w3.org/Archives/Public/wai-xtech/2011Nov/0034.html
   * http://lists.w3.org/Archives/Public/wai-xtech/2011Nov/0035.html
