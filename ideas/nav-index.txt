@@ -5,3 +5,7 @@ There have been a number of concerns raised with the current 'nav-index' propert
   * [[http://lists.w3.org/Archives/Public/www-style/2012Jun/0479.html|Visual vs. logical ordering switch]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0712.html|Handling HTML5's new 0 and -1 behaviors]]
   * Scoping tab navigation indices, so that it can be used in complex pages.
+
+More issues:
+  * http://lists.w3.org/Archives/Public/wai-xtech/2011Nov/0035.html
+  * https://www.w3.org/Style/CSS/Tracker/issues/324
