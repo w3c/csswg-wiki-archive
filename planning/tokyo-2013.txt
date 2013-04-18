@@ -20,6 +20,7 @@
 Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Daggett, John | Mozilla  | n/a | n/a | local |  | |
+| fantasai | Mozilla | 6/4 | 6/19 | Sawanoya Ryokan | UA79/UA852 | |
 | Linss, Peter | HP | tbd | tbd | | | |
 | Stearns, Alan | Adobe  | 5/30 | 6/9 | Roppongi Hills apartment |  | |
 
