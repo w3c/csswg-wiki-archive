@@ -94,7 +94,7 @@ Replaced the >>marked<< items. Here's a standard [[http://www.w3.org/blog/CSS/20
   >>What's new, what's cool, what you'd like feedback on, what to expect going forward<<
   Changes since the last Working Draft are listed in the <a href="http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes">Changes section</a>.
   
-  As always, please send feedback to the (<a href="http://lists.w3.org/Archives/Public/www-style/">archived</a>) public mailing list <a href="mailto:www-style@w3.org?Subject=%5Bcss3-foo%5D%20PUT%20SUBJECT%20HERE">www-style@w3.org</a> with the spec code (<code>>>[css3-foo]<<</code>) and your comment topic in the subject line. (Alternatively, you can email one of the editors and ask them to forward your comment.)
+  As always, please send feedback to the (<a href="http://lists.w3.org/Archives/Public/www-style/">archived</a>) public mailing list <a href="mailto:www-style@w3.org?Subject=%5Bcss3-foo%5D%20PUT%20SUBJECT%20HERE">www-style@w3.org</a> with the spec code (<code>>>&#x5b;css3-foo&#x5d;<<</code>) and your comment topic in the subject line. (Alternatively, you can email one of the editors and ask them to forward your comment.)
 
 ===== Template for Twitter Announcement ====
 
