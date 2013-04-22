@@ -17,3 +17,4 @@ That should be corrected if anyone invents a time machine. :P
   * The ''currentcolor'' keyword should have a dash, ''current-color''.
   * There should have been a predictable color naming system instead of arbitrary X11 names.
   * ''border-radius'' should have been ''border-corner''.
+  * Absolutely-positioned replaced elements should stretch when opposite offset properties (e.g. left+right) are set, instead of being start-aligned.
