@@ -9,14 +9,13 @@ The CSSWG would greatly appreciate any good suggestions / improvements on the na
   * [[http://www.w3.org/TR/selectors4/#drag-pseudos|drag-and-drop pseudo-classes]], see [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0387.html|thread]]
   * [[http://www.w3.org/TR/selectors4/#matches|:matches]], see [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0275.html|thread]]
 
-===== Writing Modes + Grid Layout =====
+===== Directional Keywords (Writing Modes + Grid Layout + Alignment + ETC) =====
 
 The four [[http://www.w3.org/TR/css3-writing-modes/#logical-directions|flow-relative directions]], start/end/before/after, are somewhat confusing right now. Proposals for better names are therefore solicited. Note they are used in [[http://www.w3.org/TR/css3-grid-layout/#line-placement|grid-item placement]].
 
 Current suggestions:
   * start/end/before/after (Option 0)
   * [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0265.html|start/end/start/end (Option 1)]]
-
 
 ===== Shadow DOM ======
 
