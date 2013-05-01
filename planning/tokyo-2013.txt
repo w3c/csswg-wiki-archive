@@ -54,3 +54,12 @@ Regrets:
 
   * Joint discussions with the SVG WG
   * case sensitivity will not be discussed (so don't try...)
+  * CSS3 Cascade, close out following things:
+    * Animations/Transitions cascading order
+    * Is 'default' keyword acceptably specified?
+    * Is scoped rules ordering acceptably specified?
+    * If all three things are done, publish LC, possibly with extended comment period
+  * Variables CR
+  * Counter Styles LC/CR?
+  * Text Decoration CR
+  * [[ideas:naming]]
