@@ -15,7 +15,7 @@ The four [[http://www.w3.org/TR/css3-writing-modes/#logical-directions|flow-rela
 
 Current suggestions:
   * start/end/before/after (Option 0)
-  * [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0265.html start/end/start/end (Option 1)]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0265.html|start/end/start/end (Option 1)]]
 
 
 ===== Shadow DOM ======
