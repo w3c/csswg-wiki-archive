@@ -13,6 +13,11 @@ The CSSWG would greatly appreciate any good suggestions / improvements on the na
 
 The four [[http://www.w3.org/TR/css3-writing-modes/#logical-directions|flow-relative directions]], start/end/before/after, are somewhat confusing right now. Proposals for better names are therefore solicited. Note they are used in [[http://www.w3.org/TR/css3-grid-layout/#line-placement|grid-item placement]].
 
+Current suggestions:
+  * start/end/before/after (Option 0)
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0265.html start/end/start/end (Option 1)]]
+
+
 ===== Shadow DOM ======
 
   * [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0035.html|The ::distributed() pseudo-element]]
