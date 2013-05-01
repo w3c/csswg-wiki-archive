@@ -21,3 +21,7 @@ Current suggestions:
 ===== Shadow DOM ======
 
   * [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0035.html|The ::distributed() pseudo-element]]
+
+===== Counter Styles ======
+
+  * [[http://lists.w3.org/Archives/Public/www-style/2013May/0023.html|width/fill descriptor]]
