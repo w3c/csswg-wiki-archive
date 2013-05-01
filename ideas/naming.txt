@@ -24,3 +24,17 @@ Current suggestions:
 ===== Counter Styles ======
 
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0023.html|width/fill descriptor]]
+
+===== Writing Modes ======
+
+  * ''text-combine-horizontal'', suggestions are: ''force-horizontal''?
+
+===== Grid Layout =====
+
+  * Moving ''grid-template'', ''grid-definition-rows'', ''grid-definition-columns'' under common prefix. Proposal
+     * ''grid-template-slots''
+     * ''grid-template-rows''
+     * ''grid-template-columns''
+     * ''grid-template'' as shorthand (using syntax from Bert's Template Layout draft)
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0266.html|Syntax of track listings (particularly with named lines)]]
+
