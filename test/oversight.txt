@@ -26,7 +26,7 @@ The following table shows the owners and peers of the CSS Test Suites. Currently
 | CSS3 Regions | Alan Stearns |
 | CSS3 Exclusions | Alan Stearns |
 
-The overall Owner for the W3C CSS Testing efforts is Elika J. Etemad (fantasai). Finally, the CSS Working Group has the highest authority over the project and may be consulted where deemed necessary.
+The overall Owner for the W3C CSS Testing efforts is Rebecca Hauck. Finally, the CSS Working Group has the highest authority over the project and may be consulted where deemed necessary.
 
 ===== Approvers =====
 
