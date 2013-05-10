@@ -58,6 +58,7 @@ Regrets:
 
 == Suggested at Higher Priority ==
 
+  * Pseudo-stacking contexts and tables, also can we [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0050.html|name the darn thing and make a diagram]]?
   * CSS3 Cascade, close out following things:
     * Animations/Transitions cascading order
     * Is 'default' keyword acceptably specified?
