@@ -1,0 +1,82 @@
+====== Tokyo F2F 2013 ======
+
+**When**: June 5-7, 2013
+
+**Where**: Tokyo, Japan
+
+  * Meeting location: [[http://www.google.com/about/company/facts/locations/|Google Japan]] office in Roppongi Hills ([[http://goo.gl/maps/pey0a|map]])
+  * Getting there: Take the [[http://www.tokyometro.jp/en/index.html|Tokyo Metro]] Hibiya line or the Toei Oedo line to Roppongi station. From the station, follow [[http://goo.gl/maps/aiAPq|the route on Google maps]] to the Google office in Mori Tower.  Or use the access information for the [[http://www.mori.art.museum/eng/info/access.html|Mori Art Museum]] which is in the same location.
+
+**Host**: Google Japan
+
+**Note**: There will be a [[http://testthewebforward.org/events/tokyo-2013.html|Test The Web Forward event]] in Tokyo Friday, June 7 (evening) and Saturday, June 8 at the same location.  The [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Tokyo_2013|SVG WG]] will be meeting Monday and Tuesday at [[http://goo.gl/maps/AgnR9|Mozilla Japan]] prior to the CSS F2F.  There will also be a workshop on [[https://www.w3.org/2013/06/ebooks/|eBooks and Internationalization]] on Tuesday at Keio University in [[http://www.keio.ac.jp/en/maps/mita.html|Mita]].  The W3C AC Committee meeting takes place the [[https://www.w3.org/Member/Eventscal.html|following week]], also at Keio in Mita.
+
+===== Lodging =====
+
+There are a number of hotels close to [[http://www.japan-guide.com/e/e3031_hills.html|Roppongi Hills]].  The [[http://www.theb-hotels.com/the-b-roppongi/en/#|B Roppongi]] is relatively new and reasonably priced. [[https://www.roomorama.com/short-term-rentals/tokyo/roppongi|Apartment rental]] is also an [[https://www.airbnb.com/s/Roppongi--Minato--Tokyo--Japan?checkin=06%2F04%2F2013&checkout=06%2F08%2F2013|option]] in the area.  For something more traditional, [[http://www.andon.co.jp/|Andon Ryokan]] looks interesting but it's farther away via the subway.  For something a tad more eccentric, try [[http://www.timeout.jp/en/tokyo/feature/6424/Love-hotel-luxury-in-Kawasaki|here]].
+===== Transport to/from Airport =====
+
+Tokyo has two airports at which international flights land.  A sprinkling of flights land at Haneda, which is located very close to the city center, but most flights land at Narita, an hour outside of Tokyo.
+
+For flights arriving at Narita, the [[http://www.jreast.co.jp/e/nex/index.html|Narita Express]] train connects to the Yamanote line, the central ring line.  Transfer at Shinagawa to the Yamanote Line, then switch to the Hibiya Line at [[http://www.jreast.co.jp/e/stations/e290.html|Ebisu]] to get to Roppongi.  For flights arriving at Haneda, take the 50-year old [[http://www.tokyo-monorail.co.jp/english/|Haneda Monorail]] line to Hammamatsu-cho and transfer to the Yamanote Line heading to Shinagawa, then switch to the Hibiya Line at Ebisu.  Since the Yamanote Line is a ring line, if you fall asleep and miss Ebisu you can continue your nap and get off the next time the train makes it way around to Ebisu.  Or you can get off in Akihabara and experience the [[http://travel.cnn.com/tokyo/drink/tokyos-best-maid-cafes-798315|interesting cultural attractions]].
+
+**Transit cards:** For getting to/from an airport and getting around town, using an IC transit card can make things really easy.  These are stored value cards sold under the name SUICA (JR) or PASMO (Tokyo Metro) and are effectively the same. One adds value to the card and the transit fare is automatically deducted when exiting any JR train, private rail, subway or bus within the Tokyo area.  When arriving at Narita, the [[http://www.jreast.co.jp/e/nex/suica_nex.html|Suica and Narita Express package]] is a good deal.
+===== Participants =====
+Sorted by family name:
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Adams, Glenn | CoxCom | June 3 | June 9 | B Roppongi | UA875/838 | TTWG  |
+| Atanassov, Rossen | Microsoft | June 2 | June 12 | TBD | TBD | |
+| Atkins, Tab | Google |  |  |  |  |  |
+| Baron, L. David | Mozilla | June 1 | June 12 |  | ANA1186/ANA8 | arriving from Taipei |
+| Bos, Bert | W3C | June 3 | June 9 | B Roppongi | | also workshop & dev meet-up |
+| Cabanier, Rik | Adobe | June 2 | June 10 | Hyatt Regency | | Observing, approved by Peter |
+| Daggett, John | Mozilla  |  |  | local |  | |
+| fantasai | Mozilla | June 4 | June 19 | [[http://www.sawanoya.com/eigo.html|Sawanoya Ryokan]] | UA79/UA852 | |
+| Glazman, Daniel | Disruptive Innovations | June 4 | June 12 | [[http://www.celestinehotel.com/en/index.html|Celestine Hotel]] | JL42/JL41 | also eBooks WS and AC meeting |
+| Hauck, Rebecca | Adobe | June 4 | June 10 | Hyatt Regency | | |
+| Ishida, Richard | W3C | | |  | | also eBooks WS |
+| Ishii, Koji | Rakuten | | | local | | |
+| Le Hegaret, Philippe | W3C | June 3 | June 12 | TBD | UA803/UA804 | also eBooks WS, TTWF, and AC meeting |
+| Linss, Peter | HP | June 2 | June 12 | b Roppongi | LH710/ UA838 | also eBooks WS, TTWF, and AC meeting |
+| Mclister, Larry | Adobe | June 4 | June 10 | Hyatt Regency | | Observing, approved by Peter and Tab |
+| Noto Garcia, Israel | Adobe | June 4 | June 10 | Hyatt Regency | | Observing, approved by Peter and Tab |
+| Sapin, Simon | Mozilla | June 1 | June 9 | Hotel Okura | JAL802/AC422 | arriving from Taipei, also TTWF |
+| Schulze, Dirk | Adobe | June 1 | June 9 | Hyatt Regency | | |
+| Stearns, Alan | Adobe  | May 30 | June 9 | Roppongi Hills apartment |  | |
+| Storset, Leif Arne | Opera | | | | | also TTWF |
+| Villegas, Jet | Mozilla  |  |  | |  | |
+
+
+Regrets:
+===== Agenda =====
+
+  * TBD
+
+=== Proposed Topics ===
+
+  * Joint discussions with the SVG WG
+
+== Suggested at Higher Priority ==
+
+  * Pseudo-stacking contexts and tables, also can we [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0050.html|name the darn thing and make a diagram]]?
+  * CSS3 Cascade, close out following things:
+    * Animations/Transitions cascading order
+    * Is 'default' keyword acceptably specified?
+    * Is scoped rules ordering acceptably specified?
+    * If all three things are done, publish LC, possibly with extended comment period
+  * [[http://dev.w3.org/csswg/css-grid/|Grid Layout (Lots of Issues, see draft)]]
+  * [[http://dev.w3.org/csswg/css-align/|Alignment]] Detailed review of spec with whiteboarding, to make sure we all understand what it's doing and like that.
+  * [[http://dev.w3.org/csswg/css-variables/|Variables CR]]
+  * [[http://dev.w3.org/csswg/css-counter-styles-3/|Counter Styles LC/CR?]]
+  * [[http://dev.w3.org/csswg/css-text-decor/|Text Decoration CR]]
+  * [[http://dev.w3.org/csswg/selectors4/|Selectors 4]] Collect any remaining issues, prepare for LC.
+    * Can some features be moved from the complete profile to the fast profile? (ie. enabled in stylesheets)
+  * [[http://dev.w3.org/csswg/css-text-3/|CSS3 Text]] Solve open issues, prep first LC?
+  * [[http://dev.w3.org/csswg/css-fonts/|CSS3 Fonts]] synthetic italics and other LC issues
+  * [[http://dev.w3.org/csswg/css-font-load-events/|Font Load Events]] use futures? FPWD?
+  * [[ideas:naming]]
+
+== Suggested as Lower Priority ==
+
+  * CSS4 Color
+  * Syntax Level 3
