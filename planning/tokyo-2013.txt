@@ -76,6 +76,7 @@ Regrets:
   * [[http://dev.w3.org/csswg/css-fonts/|CSS3 Fonts]] synthetic italics and other LC issues
   * [[http://dev.w3.org/csswg/css-font-load-events/|Font Load Events]] use futures? FPWD?
   * [[ideas:naming]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0414.html|Event handling in Regions]]
 
 == Suggested as Lower Priority ==
 
