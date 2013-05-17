@@ -1,0 +1,5 @@
+The Shapes portions of CSS Exclusions and Shapes are now their own module.
+
+Currently, level 1 of CSS Shapes only includes shape-outside on floats with values from Basic Shapes and image URLs.
+
+The intent is for the shape-inside property and defining shapes with SVG elements to be defined in a future level of CSS Shapes, as well as defining how Shapes contribute to exclusion areas in either a future level of CSS Shapes or CSS Exclusions.
