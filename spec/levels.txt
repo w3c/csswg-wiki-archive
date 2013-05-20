@@ -12,7 +12,7 @@
 |css3-color|css-color-3| |
 |css3-conditional|css-conditional-3| |
 |css3-content|css-content-3| |
-|css3-exclusions|css-exclusions-3| |
+|css3-exclusions|css-exclusions-1|:!:|
 |css3-flexbox|css-flexbox-1|:!:|
 |css3-fonts|css-fonts-3| |
 |css3-gcpm|css-gcpm-3| |
@@ -47,3 +47,5 @@
 |css4-page|css-page-4| |
 |css4-pseudo|css-pseudo-4| | 
 |css4-text|css-text-4| |
+|mediaqueries4|mediaqueries-4| |
+|selectors4|selectors-4| |
