@@ -19,7 +19,9 @@ The following are requested of all tests submitted to the CSSWG, both for [[test
 
 ===== Acceptable Test Formats =====
 
-The preferred submission format for CSSWG tests is either XHTML or HTML5, in UTF-8. HTML < 5 is also acceptable, but it will be processed by an HTML5 compatible parser. Note that in general, the test source will be parsed and re-serialized, even in its source format.
+The preferred submission format for CSSWG tests is either XHTML or HTML5, in UTF-8. HTML < 5 is also acceptable, but it will be processed by an HTML5 compatible parser. SVG is also acceptable where necessary. 
+
+Note that in general, the test source will be parsed and re-serialized, even in its source format. The re-serialization will cause minor changes to the test file, notably: attribute values will always be quoted, whitespace between attributes will be collapsed to a single space, duplicate attributes will be removed, optional closing tags will be inserted, and invalid markup will be normalized. If these changes should make the test inoperable, for example if the test is testing markup error recovery, add the flag 'asis' to prevent re-serialization. This flag will also prevent format conversions so it may be necessary to provide alternate versions of the test in other formats (XHTML, HTML, etc.)
 
 Images must be in either PNG or SVG format. (PNG is preferred where raster images can be used.)
 
@@ -256,17 +258,17 @@ All flags documented elsewhere are deprecated except the following:
 |  dom  | Requires support for JavaScript and the Document Object Model (DOM) |
 |  font  | Requires a specific font to be installed. (Details must be provided and/or the font linked to in the test description) |
 |  history  | User agent session history is required. Testing '':visited'' is a good example where this may be used. |
-|  http  | Requires HTTP headers |
 |  HTMLonly  | Test case is only valid for HTML |
+|  http  | Requires HTTP headers |
 |  image  | Requires support for bitmap graphics and the graphic to load |
 |  interact  | Requires human interaction (such as for testing scrolling behavior) |
 |  invalid  | Tests handling of invalid CSS. Note: This case contains CSS properties and syntax that may not validate. |
+|  may  | Behavior tested is //preferred// but OPTIONAL. %%[%%[[http://www.ietf.org/rfc/rfc2119.txt|RFC2119]]] (These tests must be reviewed by a test suite owner or peer.) |
 |  namespace  | Requires support for XML Namespaces |
 |  nonHTML  | Test case is only valid for formats besides HTML (e.g. XHTML or arbitrary XML) |
-|  may  | Behavior tested is //preferred// but OPTIONAL. %%[%%[[http://www.ietf.org/rfc/rfc2119.txt|RFC2119]]] (These tests must be reviewed by a test suite owner or peer.) |
 |  paged  | Only valid for paged media |
-|  should  | Behavior tested is RECOMMENDED, but not REQUIRED. %%[%%[[http://www.ietf.org/rfc/rfc2119.txt|RFC2119]]] |
 |  scroll  | Only valid for continuous (scrolling) media |
+|  should  | Behavior tested is RECOMMENDED, but not REQUIRED. %%[%%[[http://www.ietf.org/rfc/rfc2119.txt|RFC2119]]] |
 |  speech  | Device supports audio output. Text-to-speech (TTS) engine installed | 
 |  svg  | Requires support for vector graphics (SVG) |
 |  userstyle  | Requires a user style sheet to be set |
