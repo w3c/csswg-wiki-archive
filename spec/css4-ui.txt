@@ -108,6 +108,17 @@ Consider use-cases, in particular for pointer-events:none;
   * disable clicks on elements that are transitioning on/off screens (zewt on #whatwg 2012-227)
   * prevent transparent elements that overlap clickable ones from getting in the way (zewt on #whatwg 2012-227)
 
+==== text-overflow fade ====
+Instead of an ellipsis character, apply a fixed width (e.g. 2em) linear gradient mask on the right-hand-end (modulo inline-progression direction) of the text conditional on the text overflowing.
+
+Needs to work over non-solid color backgrounds.
+
+Perhaps extend 'text-overflow' to take a value:
+  * |fade <length>| or |fade(<length>)|
+
+From this email thread:
+  * https://groups.google.com/forum/?fromgroups#!topic/mozilla.dev.platform/-23mG3x2vdk
+
 ==== text-overflow middle ====
 Some mechanism to control ellipsing of text by allowing it to be ellipsed "in the middle" (somehow). See also other related text-overflow features dropped from CSS3.
 
