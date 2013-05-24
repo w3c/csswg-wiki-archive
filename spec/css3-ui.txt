@@ -272,6 +272,15 @@ and the second value for the left edge.
   ; Proposed Resolution : drop all nav-* properties from CSS3-UI in next CR draft, move current text to a workspace page like I did for pointer-events: http://www.w3.org/wiki/User:Tantekelik#CSSWG 
   ; Status : Need to edit editor's draft.
 
+==== Issue 27 ====
+  ; Summary : specify that 'cursor' propagates from the root to the viewport
+  ; Raised by : Tab Atkins
+  ; URL : http://krijnhoetmer.nl/irc-logs/whatwg/20130523#l-684
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2013May/0301.html
+  ; Proposed Resolution : Edit definition of 'cursor' to state (similar to how 'background' does in CSS3 Backgrounds) that it propagates from the root element to the viewport.
+  ; Status : Need to edit editor's draft
+
+
 ...
 
 
