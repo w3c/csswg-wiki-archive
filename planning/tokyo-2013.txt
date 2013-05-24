@@ -58,6 +58,7 @@ Regrets:
 === Proposed Topics ===
 
   * Joint discussions with the SVG WG
+      * Including re-using stroke/fill properties for CSS text rendering
 
 == Suggested at Higher Priority ==
 
