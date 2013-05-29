@@ -92,8 +92,8 @@ Regrets: Steve Zilles
   * principles for when to backport level 3 module changes (eg. Syntax) back to CSS 2.1 and css-style-attr (from May 29 telecon)
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0664.html|how do the close-constructs-at-EOF rules interact with the values of variables]] (both when the contstructs are tokens and when they're parsing matching of parentheses, brackets, or braces) (from May 29 telecon)
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0668.html|principles behind outline properties]]
+  * Syntax Level 3
 
 == Suggested as Lower Priority ==
 
   * CSS4 Color
-  * Syntax Level 3
