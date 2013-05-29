@@ -13,8 +13,12 @@ The steps for merging the pull requests back into Mercurial are as follows:
   - Create a second local clone of the test repository: <code>cd <the directory that contains 'test-master'></code><code> hg clone test-master test-github</code>
   - In the test-github repository, pull from the repository listed in the Pull Request:<code>cd test-github</code><code>hg pull git://github.com/<git_user>/csswg-test.git</code>
     * The first time you do this will take a loooong time as it exports the hg data to git format (long as in 3-4 hours, the progress extension helps you see what's going on). This is a one-time operation; subsequent pull requests happen quickly. 
-    * Push the Pull Request branch into the 'test-master' repository: <code>hg push -B <branch_name> ../test-master  (<branch_name> should be 'submissions/<git_user>')</code>
-  - Delete the bookmark created for the new branch: <code>hg bookmark -d <branch_name></code>
-  - cd back to the 'test-master' repository and check if the new branch created additional heads:<code>cd ../test-master</code><code>hg heads</code>
-  - If there's only one head, continue to step 10, otherwise, merge the branch:<code>hg merge</code><code>hg commit -m "Merging PR # xxx"</code> - or possibly rebase it  <code>hg rebase</code>
+  - (Optional) To confirm you've pulled the changes from Github, compare your two local clones. <code>hg out</code> You should see all of the commits that are in the Pull Request
+  - Merge those commits <code>hg merge</code>
+  - Commit the merge <code>hg commit -m "Merging PR #XX - https://github.com/w3c/csswg-test/pull/XX"</code>
+  - Push to the test-master local clone <code>hg push ../test-master/</code>
+  - Switch to the root directory of the test-master <code>cd ../test-master/</code>
+  - (Optional) To confirm you've pulled the changes from the second local clone, again, compare your two local clones. <code>hg out</code> Again, you should see all of the commits that are in the Pull Request
+  - Merge those commits into your test-master clone <code>hg merge</code>
+  - Commit the merge <code>hg commit -m "Merging local clones"</code>
   - Push the changes to the server: <code>hg push</code>
