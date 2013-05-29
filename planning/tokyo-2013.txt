@@ -76,7 +76,11 @@ Regrets: Steve Zilles
   * [[http://dev.w3.org/csswg/selectors4/|Selectors 4]] Collect any remaining issues, prepare for LC.
     * Can some features be moved from the complete profile to the fast profile? (ie. enabled in stylesheets)
   * [[http://dev.w3.org/csswg/css-text-3/|CSS3 Text]] Solve open issues, prep first LC?
-  * [[http://dev.w3.org/csswg/css-fonts/|CSS3 Fonts]] synthetic italics and other LC issues
+  * [[http://dev.w3.org/csswg/css-fonts/|CSS3 Fonts]] 
+    * font-style and Japanese obliquing in vertical text
+    * text-decoration and subscript/superscript glyphs
+    * OM representation of @font-feature-values rule
+    * resolve other issues before LC
   * [[http://dev.w3.org/csswg/css-font-load-events/|Font Load Events]] use futures? FPWD?
   * [[ideas:naming]]
   * [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0414.html|Event handling in Regions]]
