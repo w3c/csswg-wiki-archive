@@ -74,6 +74,8 @@ Regrets: Steve Zilles
   * [[http://dev.w3.org/csswg/css-grid/|Grid Layout (Lots of Issues, see draft)]]
   * [[http://dev.w3.org/csswg/css-align/|Alignment]] Detailed review of spec with whiteboarding, to make sure we all understand what it's doing and like that.
   * [[http://dev.w3.org/csswg/css-variables/|Variables CR]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2013May/0664.html|how do the close-constructs-at-EOF rules interact with the values of variables]] (both when the contstructs are tokens and when they're parsing matching of parentheses, brackets, or braces) (from May 29 telecon)
+    * [[http://lists.w3.org/Archives/Public/www-style/2013May/0519.html|Negative definition of the syntax of Custom Properties declarations]]
   * [[http://dev.w3.org/csswg/css-counter-styles-3/|Counter Styles LC/CR?]]
   * [[http://dev.w3.org/csswg/css-text-decor/|Text Decoration CR]]
   * [[http://dev.w3.org/csswg/selectors4/|Selectors 4]] Collect any remaining issues, prepare for LC.
@@ -93,7 +95,6 @@ Regrets: Steve Zilles
     * I [Bert] can present my slides from the workshop, which have a list of requirements for CSS
     * Discuss the workshop, because it will probably have turned up even more requirements...
   * principles for when to backport level 3 module changes (eg. Syntax) back to CSS 2.1 and css-style-attr (from May 29 telecon)
-  * [[http://lists.w3.org/Archives/Public/www-style/2013May/0664.html|how do the close-constructs-at-EOF rules interact with the values of variables]] (both when the contstructs are tokens and when they're parsing matching of parentheses, brackets, or braces) (from May 29 telecon)
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0668.html|principles behind outline properties]]
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0652.html|CSS escapes (or lack of them) in attribute values with attr(foo string) and attr(foo url).]] Should be quick.
   * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0010.html|Require whitespace around Media Queries operators]], like in @supports
