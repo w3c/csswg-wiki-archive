@@ -69,7 +69,7 @@ Regrets: Steve Zilles
 
   * Pseudo-stacking contexts and tables, also can we [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0050.html|name the darn thing and make a diagram]]?
   * CSS3 Cascade, close out following things:
-    * Animations/Transitions cascading order
+    * [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0297.html|Animations/Transitions cascading order]]
     * Is 'default' keyword acceptably specified?
     * Is scoped rules ordering acceptably specified?
     * If all three things are done, publish LC, possibly with extended comment period
