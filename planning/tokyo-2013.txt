@@ -101,7 +101,7 @@ Regrets: Steve Zilles
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0652.html|CSS escapes (or lack of them) in attribute values with attr(foo string) and attr(foo url).]] Should be quick.
   * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0010.html|Require whitespace around Media Queries operators]], like in @supports
   * Syntax Level 3
-  * Planning and resource allocation. We're almost half way through the [[http://www.w3.org/2010/09/CSSWG/charter|charter]] period. Do we need to allocate more resources to the deliverables? (3 RECs: [[http://www.w3.org/TR/css3-background|css3-background,]] [[http://www.w3.org/TR/css3-ui|css3-ui]] and [[http://www.w3.org/TR/css3-values|css3-values;]] and several test suites)
+  * Planning and resource allocation. We're 4 months from the end of the [[http://www.w3.org/2010/09/CSSWG/charter|charter]] period. Do we need to allocate more resources to the deliverables? How long an extension do we need to ask for to finish most of them? (3 RECs: [[http://www.w3.org/TR/css3-background|css3-background,]] [[http://www.w3.org/TR/css3-ui|css3-ui]] and [[http://www.w3.org/TR/css3-values|css3-values;]] and several test suites)
 
 == Suggested as Lower Priority ==
 
