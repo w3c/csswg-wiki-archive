@@ -82,18 +82,18 @@ Regrets: Steve Zilles
   * [[http://dev.w3.org/csswg/css-text-decor/|Text Decoration CR]]
   * [[http://dev.w3.org/csswg/selectors4/|Selectors 4]] Collect any remaining issues, prepare for LC.
     * Can some features be moved from the complete profile to the fast profile? (ie. enabled in stylesheets)
-  * [[http://dev.w3.org/csswg/css-text-3/|CSS3 Text]] Solve open issues, prep first LC?
-  * [[http://dev.w3.org/csswg/css-fonts/|CSS3 Fonts]] 
+  * [[http://dev.w3.org/csswg/css-text-3/|CSS3 Text]] Solve open issues, prep first LC? (Thurs PM)
+  * [[http://dev.w3.org/csswg/css-fonts/|CSS3 Fonts]] (Thurs AM)
     * font-style and Japanese obliquing in vertical text
     * text-decoration and subscript/superscript glyphs
     * OM representation of @font-feature-values rule
     * resolve other issues before LC
-  * [[http://dev.w3.org/csswg/css-font-load-events/|Font Load Events]] use futures? FPWD?
+  * [[http://dev.w3.org/csswg/css-font-load-events/|Font Load Events]] use futures? FPWD? (Thurs AM)
   * [[ideas:naming]]
   * [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0414.html|Event handling in Regions]]
   * [[http://dev.w3.org/csswg/css-shapes/|CSS3 Shapes]] Solve open issues, prep first LC?
   * [[http://dev.w3.org/csswg/css-exclusions/|CSS3 Exclusions]] Solve open issues, prep first LC?
-  * Digital Publishing:
+  * Digital Publishing: (Wed PM)
     * I [Bert] can present my slides from the workshop, which have a list of requirements for CSS
     * Discuss the workshop, because it will probably have turned up even more requirements...
   * principles for when to backport level 3 module changes (eg. Syntax) back to CSS 2.1 and css-style-attr (from May 29 telecon)
