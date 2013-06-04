@@ -102,6 +102,7 @@ Regrets: Steve Zilles
   * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0010.html|Require whitespace around Media Queries operators]], like in @supports
   * Syntax Level 3
   * [[http://dev.w3.org/csswg/css-conditional/doc-20130404-CR.html|Conditional Rules open issues]]
+  * [[http://dev.w3.org/csswg/css-transitions/#reversing|reversing interrupted transitions]]
   * Planning and resource allocation. We're 4 months from the end of the [[http://www.w3.org/2010/09/CSSWG/charter|charter]] period. Do we need to allocate more resources to the deliverables? How long an extension do we need to ask for to finish most of them? (3 RECs: [[http://www.w3.org/TR/css3-background|css3-background,]] [[http://www.w3.org/TR/css3-ui|css3-ui]] and [[http://www.w3.org/TR/css3-values|css3-values;]] and several test suites)
 
 == Suggested as Lower Priority ==
