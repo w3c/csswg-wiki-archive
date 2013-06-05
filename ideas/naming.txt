@@ -11,14 +11,13 @@ The CSSWG would greatly appreciate any good suggestions / improvements on the na
   * ::distributed() pseudo-element, see [[https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html|Shadow DOM]]
   * :blank for empty/whitespaceonly elements
 
+===== Writing Modes ======	 
+		 
+  * ''text-combine-horizontal'', suggestions are: ''force-horizontal''?
 
 ===== Shadow DOM ======
 
   * [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0035.html|The ::distributed() pseudo-element]]
-
-===== Counter Styles ======
-
-  * [[http://lists.w3.org/Archives/Public/www-style/2013May/0023.html|width/fill descriptor]]
 
 ===== Grid Layout =====
 
