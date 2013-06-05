@@ -93,6 +93,8 @@ Regrets: Steve Zilles, Lea Verou, Tantek Çelik
     * resolve other issues before LC
   * [[http://dev.w3.org/csswg/css-font-load-events/|Font Load Events]] use futures? FPWD?
   * [[http://dev.w3.org/csswg/css-text-3/|CSS3 Text]] Solve open issues, prep first LC?
+    * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0057.html|letter-spacing and text-justify: distribute]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0058.html|definition of expansion opportunity]]
   * [[http://dev.w3.org/csswg/css-transitions/#reversing|reversing interrupted transitions]]
 
 
