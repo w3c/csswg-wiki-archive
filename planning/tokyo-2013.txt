@@ -106,6 +106,7 @@ Regrets: Steve Zilles, Lea Verou
 
 
 == PM ==
+  * Planning 2014 F2F meetings
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0668.html|principles behind outline properties]]
   * [[ideas:naming]]
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0652.html|CSS escapes (or lack of them) in attribute values with attr(foo string) and attr(foo url).]] Should be quick.
