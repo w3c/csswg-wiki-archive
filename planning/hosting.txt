@@ -1,6 +1,6 @@
 To host a CSS meeting, you MUST provide:
   * A meeting room where the group can meet, without needing to sign any NDA or other agreement.
-  * Chairs for people to sit in and tables for them to put their laptops at, which SHOULD be arranged in a U shape
+  * Chairs for people to sit in and tables for them to put their laptops at, which SHOULD be arranged in a U shape, such that the participants can easily hear each other speak
   * electricity for everybody's laptops (probably assume greater than 1 device per person average)
   * network connectivity that allows at least access to Web, IRC, and email, and preferably also skype/VoIP
   * A projection screen easily visible from all the chairs, and preferably to which anyone in any of the chairs can project from their seats
