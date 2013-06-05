@@ -20,10 +20,6 @@ The CSSWG would greatly appreciate any good suggestions / improvements on the na
 
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0023.html|width/fill descriptor]]
 
-===== Writing Modes ======
-
-  * ''text-combine-horizontal'', suggestions are: ''force-horizontal''?
-
 ===== Grid Layout =====
 
   * Moving ''grid-template'', ''grid-definition-rows'', ''grid-definition-columns'' under common prefix. Proposal
