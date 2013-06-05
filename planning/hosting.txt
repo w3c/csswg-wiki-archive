@@ -7,5 +7,6 @@ To host a CSS meeting, you MUST provide:
   * network connectivity that allows at least access to Web, IRC, and email, and preferably also skype/VoIP
   * A projection screen easily visible from all the chairs, and preferably to which anyone in any of the chairs can project from their seats
   * Either a whiteboard or flipchart that people can draw on, also visible from all the seats.
+  * Telephone access, preferaby a multi-microphone conference phone
 You also SHOULD provide:
   * food and drinks for during the meeting (or have them otherwise reasonably available).  (More details here.)
