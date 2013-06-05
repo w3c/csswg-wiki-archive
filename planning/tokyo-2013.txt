@@ -70,7 +70,6 @@ Regrets: Steve Zilles, Lea Verou, Tantek Çelik
     * Is 'default' keyword acceptably specified?
     * Is scoped rules ordering acceptably specified?
     * If all three things are done, publish LC, possibly with extended comment period
-  * [[http://dev.w3.org/csswg/css-transitions/#reversing|reversing interrupted transitions]]
   * [[http://dev.w3.org/csswg/css-conditional/doc-20130404-CR.html|Conditional Rules open issues]]
   * Syntax Level 3
   * [[http://dev.w3.org/csswg/css-variables/|Variables CR]]
@@ -90,6 +89,7 @@ Regrets: Steve Zilles, Lea Verou, Tantek Çelik
   * principles for when to backport level 3 module changes (eg. Syntax) back to CSS 2.1 and css-style-attr (from May 29 telecon)
 
 == PM ==
+  * [[http://dev.w3.org/csswg/css-transitions/#reversing|reversing interrupted transitions]]
   * [[http://dev.w3.org/csswg/css-text-3/|CSS3 Text]] Solve open issues, prep first LC? (Thurs PM)
   * [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0414.html|Event handling in Regions]]
   * [[http://dev.w3.org/csswg/css-shapes/|CSS3 Shapes]] Solve open issues, prep first LC?
