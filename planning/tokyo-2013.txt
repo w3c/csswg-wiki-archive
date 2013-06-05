@@ -57,53 +57,65 @@ Sorted by family name:
 Regrets: Steve Zilles, Lea Verou
 ===== Agenda =====
 
-  * TBD
+=== Wed ===
+== AM ==
+  * Joint SVG/CSS Topics
 
-=== Proposed Topics ===
+== PM ==
 
-  * Joint discussions with the SVG WG
-      * Including re-using stroke/fill properties for CSS text rendering
-
-== Suggested at Higher Priority ==
-
-  * Pseudo-stacking contexts and tables ([[http://lists.w3.org/Archives/Public/www-style/2013Apr/thread.html#msg145|April]], [[http://lists.w3.org/Archives/Public/www-style/2013May/thread.html#msg27|May]]), also can we [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0050.html|name the darn thing and make a diagram]]?
+  * [[http://dev.w3.org/csswg/css-counter-styles-3/|Counter Styles LC/CR?]]
   * CSS3 Cascade, close out following things:
     * [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0297.html|Animations/Transitions cascading order]]
     * Is 'default' keyword acceptably specified?
     * Is scoped rules ordering acceptably specified?
     * If all three things are done, publish LC, possibly with extended comment period
-  * [[http://dev.w3.org/csswg/css-grid/|Grid Layout (Lots of Issues, see draft)]]
-  * [[http://dev.w3.org/csswg/css-align/|Alignment]] Detailed review of spec with whiteboarding, to make sure we all understand what it's doing and like that.
+  * [[http://dev.w3.org/csswg/css-transitions/#reversing|reversing interrupted transitions]]
+  * [[http://dev.w3.org/csswg/css-conditional/doc-20130404-CR.html|Conditional Rules open issues]]
+  * Syntax Level 3
   * [[http://dev.w3.org/csswg/css-variables/|Variables CR]]
     * [[http://lists.w3.org/Archives/Public/www-style/2013May/0664.html|how do the close-constructs-at-EOF rules interact with the values of variables]] (both when the contstructs are tokens and when they're parsing matching of parentheses, brackets, or braces) (from May 29 telecon)
     * [[http://lists.w3.org/Archives/Public/www-style/2013May/0519.html|Negative definition of the syntax of Custom Properties declarations]]
-  * [[http://dev.w3.org/csswg/css-counter-styles-3/|Counter Styles LC/CR?]]
-  * [[http://dev.w3.org/csswg/css-text-decor/|Text Decoration CR]]
-  * [[http://dev.w3.org/csswg/selectors4/|Selectors 4]] Collect any remaining issues, prepare for LC.
-    * Can some features be moved from the complete profile to the fast profile? (ie. enabled in stylesheets)
-  * [[http://dev.w3.org/csswg/css-text-3/|CSS3 Text]] Solve open issues, prep first LC? (Thurs PM)
+
+
+=== Thurs ===
+== AM ==
+  * Planning and resource allocation. We're 4 months from the end of the [[http://www.w3.org/2010/09/CSSWG/charter|charter]] period. Do we need to allocate more resources to the deliverables? How long an extension do we need to ask for to finish most of them? (3 RECs: [[http://www.w3.org/TR/css3-background|css3-background,]] [[http://www.w3.org/TR/css3-ui|css3-ui]] and [[http://www.w3.org/TR/css3-values|css3-values;]] and several test suites)
+  * [[http://dev.w3.org/csswg/css-font-load-events/|Font Load Events]] use futures? FPWD? (Thurs AM)
   * [[http://dev.w3.org/csswg/css-fonts/|CSS3 Fonts]] (Thurs AM)
     * font-style and Japanese obliquing in vertical text
     * text-decoration and subscript/superscript glyphs
     * OM representation of @font-feature-values rule
     * resolve other issues before LC
-  * [[http://dev.w3.org/csswg/css-font-load-events/|Font Load Events]] use futures? FPWD? (Thurs AM)
-  * [[ideas:naming]]
+  * principles for when to backport level 3 module changes (eg. Syntax) back to CSS 2.1 and css-style-attr (from May 29 telecon)
+
+== PM ==
+  * [[http://dev.w3.org/csswg/css-text-3/|CSS3 Text]] Solve open issues, prep first LC? (Thurs PM)
   * [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0414.html|Event handling in Regions]]
   * [[http://dev.w3.org/csswg/css-shapes/|CSS3 Shapes]] Solve open issues, prep first LC?
   * [[http://dev.w3.org/csswg/css-exclusions/|CSS3 Exclusions]] Solve open issues, prep first LC?
-  * Digital Publishing: (Wed PM)
-    * I [Bert] can present my slides from the workshop, which have a list of requirements for CSS
-    * Discuss the workshop, because it will probably have turned up even more requirements...
-  * principles for when to backport level 3 module changes (eg. Syntax) back to CSS 2.1 and css-style-attr (from May 29 telecon)
+
+
+=== Fri ===
+== AM ==
+  * [[http://dev.w3.org/csswg/css-grid/|Grid Layout (Lots of Issues, see draft)]]
+  * Pseudo-stacking contexts and tables ([[http://lists.w3.org/Archives/Public/www-style/2013Apr/thread.html#msg145|April]], [[http://lists.w3.org/Archives/Public/www-style/2013May/thread.html#msg27|May]]), also can we [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0050.html|name the darn thing and make a diagram]]?
+  * [[http://dev.w3.org/csswg/selectors4/|Selectors 4]] Collect any remaining issues, prepare for LC.
+    * Can some features be moved from the complete profile to the fast profile? (ie. enabled in stylesheets)
+  * [[http://dev.w3.org/csswg/css-align/|Alignment]] Detailed review of spec with whiteboarding, to make sure we all understand what it's doing and like that.
+  * [[http://dev.w3.org/csswg/css-text-decor/|Text Decoration CR]]
+
+
+== PM ==
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0668.html|principles behind outline properties]]
+  * [[ideas:naming]]
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0652.html|CSS escapes (or lack of them) in attribute values with attr(foo string) and attr(foo url).]] Should be quick.
   * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0010.html|Require whitespace around Media Queries operators]], like in @supports
-  * Syntax Level 3
-  * [[http://dev.w3.org/csswg/css-conditional/doc-20130404-CR.html|Conditional Rules open issues]]
-  * [[http://dev.w3.org/csswg/css-transitions/#reversing|reversing interrupted transitions]]
-  * Planning and resource allocation. We're 4 months from the end of the [[http://www.w3.org/2010/09/CSSWG/charter|charter]] period. Do we need to allocate more resources to the deliverables? How long an extension do we need to ask for to finish most of them? (3 RECs: [[http://www.w3.org/TR/css3-background|css3-background,]] [[http://www.w3.org/TR/css3-ui|css3-ui]] and [[http://www.w3.org/TR/css3-values|css3-values;]] and several test suites)
+
+=== Proposed Topics ===
 
 == Suggested as Lower Priority ==
 
+  * Digital Publishing: (Wed PM)
+    * I [Bert] can present my slides from the workshop, which have a list of requirements for CSS
+    * Discuss the workshop, because it will probably have turned up even more requirements...
   * CSS4 Color
