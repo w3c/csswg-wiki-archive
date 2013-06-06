@@ -91,7 +91,6 @@ Regrets: Steve Zilles, Lea Verou, Tantek Çelik
     * text-decoration and subscript/superscript glyphs
     * OM representation of @font-feature-values rule
     * resolve other issues before LC
-  * [[http://dev.w3.org/csswg/css-font-load-events/|Font Load Events]] use futures? FPWD?
   * [[http://dev.w3.org/csswg/css-text-3/|CSS3 Text]] 
     * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0057.html|letter-spacing and text-justify: distribute]]
     * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0058.html|definition of expansion opportunity]]
@@ -111,6 +110,7 @@ Regrets: Steve Zilles, Lea Verou, Tantek Çelik
     * Can some features be moved from the complete profile to the fast profile? (ie. enabled in stylesheets)
   * [[http://dev.w3.org/csswg/css-align/|Alignment]] Detailed review of spec with whiteboarding, to make sure we all understand what it's doing and like that.
   * [[http://dev.w3.org/csswg/css-text-decor/|Text Decoration CR]]
+  * [[http://dev.w3.org/csswg/css-font-load-events/|Font Load Events]] use futures? FPWD?
 
 
 == PM ==
