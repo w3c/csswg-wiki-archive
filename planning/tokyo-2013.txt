@@ -91,15 +91,16 @@ Regrets: Steve Zilles, Lea Verou, Tantek Çelik
     * text-decoration and subscript/superscript glyphs
     * OM representation of @font-feature-values rule
     * resolve other issues before LC
+  * Syntax Level 3 (cont'd)
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0414.html|Event handling in Regions]]
+  * [[http://dev.w3.org/csswg/css-shapes/|CSS3 Shapes]] Solve open issues, prep first LC?
+  * [[http://dev.w3.org/csswg/css-exclusions/|CSS3 Exclusions]] Solve open issues, prep first LC?
   * [[http://dev.w3.org/csswg/css-text-3/|CSS3 Text]] 
     * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0057.html|letter-spacing and text-justify: distribute]]
     * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0058.html|definition of expansion opportunity]]
     * solve open issues, prep first LC?
   * [[http://dev.w3.org/csswg/css-transitions/#reversing|reversing interrupted transitions]]
   * principles for when to backport level 3 module changes (eg. Syntax) back to CSS 2.1 and css-style-attr (from May 29 telecon)
-  * [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0414.html|Event handling in Regions]]
-  * [[http://dev.w3.org/csswg/css-shapes/|CSS3 Shapes]] Solve open issues, prep first LC?
-  * [[http://dev.w3.org/csswg/css-exclusions/|CSS3 Exclusions]] Solve open issues, prep first LC?
 
 
 === Fri ===
