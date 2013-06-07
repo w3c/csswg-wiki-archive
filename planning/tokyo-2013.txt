@@ -104,27 +104,27 @@ Regrets: Steve Zilles, Lea Verou, Tantek Çelik
 
 
 == PM ==
-  * Pseudo-stacking contexts and tables ([[http://lists.w3.org/Archives/Public/www-style/2013Apr/thread.html#msg145|April]], [[http://lists.w3.org/Archives/Public/www-style/2013May/thread.html#msg27|May]]), also can we [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0050.html|name the darn thing and make a diagram]]?
-  * [[http://dev.w3.org/csswg/selectors4/|Selectors 4]] Collect any remaining issues, prepare for LC.
-    * Can some features be moved from the complete profile to the fast profile? (ie. enabled in stylesheets)
-  * [[http://dev.w3.org/csswg/css-align/|Alignment]] Detailed review of spec with whiteboarding, to make sure we all understand what it's doing and like that.
-  * [[http://dev.w3.org/csswg/css-text-decor/|Text Decoration CR]]
   * [[http://dev.w3.org/csswg/css-font-load-events/|Font Load Events]] use futures? FPWD?
   * [[http://dev.w3.org/csswg/css-text-3/|CSS3 Text]] 
     * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0057.html|letter-spacing and text-justify: distribute]]
     * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0058.html|definition of expansion opportunity]]
     * solve open issues, prep first LC?
-  * [[http://dev.w3.org/csswg/css-transitions/#reversing|reversing interrupted transitions]]
+  * [[http://dev.w3.org/csswg/css-text-decor/|Text Decoration CR]]
   * principles for when to backport level 3 module changes (eg. Syntax) back to CSS 2.1 and css-style-attr (from May 29 telecon)
+  * Pseudo-stacking contexts and tables ([[http://lists.w3.org/Archives/Public/www-style/2013Apr/thread.html#msg145|April]], [[http://lists.w3.org/Archives/Public/www-style/2013May/thread.html#msg27|May]]), also can we [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0050.html|name the darn thing and make a diagram]]?
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0010.html|Require whitespace around Media Queries operators]], like in @supports
+  * [[http://lists.w3.org/Archives/Public/www-style/2013May/0652.html|CSS escapes (or lack of them) in attribute values with attr(foo string) and attr(foo url).]] Should be quick.
+  * [[http://dev.w3.org/csswg/css-align/|Alignment]] Detailed review of spec with whiteboarding, to make sure we all understand what it's doing and like that.
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0668.html|principles behind outline properties]]
   * [[ideas:naming]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2013May/0652.html|CSS escapes (or lack of them) in attribute values with attr(foo string) and attr(foo url).]] Should be quick.
-  * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0010.html|Require whitespace around Media Queries operators]], like in @supports
+  * [[http://dev.w3.org/csswg/css-transitions/#reversing|reversing interrupted transitions]]
 
 === Proposed Topics ===
 
 == Suggested as Lower Priority ==
 
+  * [[http://dev.w3.org/csswg/selectors4/|Selectors 4]] Collect any remaining issues, prepare for LC.
+    * Can some features be moved from the complete profile to the fast profile? (ie. enabled in stylesheets)
   * Digital Publishing: (Wed PM)
     * I [Bert] can present my slides from the workshop, which have a list of requirements for CSS
     * Discuss the workshop, because it will probably have turned up even more requirements...
