@@ -111,9 +111,9 @@ Regrets: Steve Zilles, Lea Verou, Tantek Çelik
   * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0010.html|Require whitespace around Media Queries operators]], like in @supports
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0652.html|CSS escapes (or lack of them) in attribute values with attr(foo string) and attr(foo url).]] Should be quick.
   * [[http://dev.w3.org/csswg/css-align/|Alignment]] Detailed review of spec with whiteboarding, to make sure we all understand what it's doing and like that.
+  * [[http://dev.w3.org/csswg/css-transitions/#reversing|reversing interrupted transitions]]
   * [[http://lists.w3.org/Archives/Public/www-style/2013May/0668.html|principles behind outline properties]]
   * [[ideas:naming]]
-  * [[http://dev.w3.org/csswg/css-transitions/#reversing|reversing interrupted transitions]]
 
 === Proposed Topics ===
 
