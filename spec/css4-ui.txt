@@ -166,7 +166,15 @@ I've archived the 2004 System Appearance feature spec source on the W3C wiki (it
   * http://www.w3.org/wiki/User:Tantekelik/CR-css3-ui-20040511-appearance
 
 ==== nav properties ====
-See issues [[:ideas:nav-index]]
+Directional navigation (nav-left, nav-right, nav-up, nav-down) dropped from CSS3-UI due to in many years of CSS3-UI being in CR, there have been:
+  * No major browser implementations
+  * No easily downloadable / testable implementations
+  * No tests written / contributed to css testing efforts
+
+nav-index:
+  * See issues [[:ideas:nav-index]]
+  * Suggested solutions to problems:
+    * http://www.w3.org/mid/D04B020C-3D38-4385-BE94-7D54841EDFB2@apple.com
 
 ==== text-overflow string plus ====
 The string value for text-overflow should have the same syntax as the content rule.
@@ -241,7 +249,8 @@ For CSS4-UI:
   * Possibly: minimum plus keep 'all' as specified, and get Gecko fixed to be compliant
   * Maximum: spec all values, including 'toggle' and 'elements' and file bugs accordingly with existing implementations to get those values implemented.
 
-====== css4-ui issues list ======
+=====
+= css4-ui issues list ======
 ===== Current Issues =====
 There is no editor's draft of CSS4-UI yet - so there's nothing to have issues against!
 
