@@ -14,3 +14,5 @@ The intent is for the shape-inside property and defining shapes with SVG element
 
   * Adding path() to Basic Shapes. A path() function could be added to the Basic Shapes section.
   * Creating a shape from rendered content https://www.w3.org/Bugs/Public/show_bug.cgi?id=16716
+  * Creating a shape using an element's border box http://lists.w3.org/Archives/Public/www-style/2013Jun/0282.html
+  * Add an 'image' keyword to shape-outside http://lists.w3.org/Archives/Public/www-style/2013Jun/0282.html
