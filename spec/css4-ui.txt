@@ -108,6 +108,10 @@ Consider use-cases, in particular for pointer-events:none;
   * disable clicks on elements that are transitioning on/off screens (zewt on #whatwg 2012-227)
   * prevent transparent elements that overlap clickable ones from getting in the way (zewt on #whatwg 2012-227)
 
+Consider adding a 'paint-order' value, as per [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0245.html|Tokyo 2013 discussion]]
+  * this would replace the normal DOM-order user-event bubbling with bubbling through the result of elementsFromPoint()
+  * could be used with positioned elements displayed outside their DOM parent
+  * could be used in fragmented content to include the fragment container
 ==== text-overflow fade ====
 Instead of an ellipsis character, apply a fixed width (e.g. 2em) linear gradient mask on the right-hand-end (modulo inline-progression direction) of the text conditional on the text overflowing.
 
