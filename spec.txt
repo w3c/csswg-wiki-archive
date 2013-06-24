@@ -67,6 +67,7 @@ This section outlines active possibilities for future specs or notes
    * [[spec:font-load-events|Font Load Events]]
    * [[spec:css-regions-4|CSS Regions Module Level 4]]
    * [[spec:css-flexbox-2|CSS Flexbox Level 2]]
+   * [[spec:css4-ui|CSS UI Level 4]]
 ===== out of date =====
 These specs are old / out of date and need active editors/owners to bring them up to date.
   * [[spec:css3-box|CSS Box Module Level 3]]
