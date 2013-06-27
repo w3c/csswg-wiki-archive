@@ -247,7 +247,7 @@ Example 2:
 <meta name="flags" content="TOKENS" />
 </code>
 
-Flags document the test’s prerequisites, for example, the Ahem font, or a paged presentation. Multiple tokens are space separated.
+Flags document the test’s prerequisites, for example, the Ahem font, or a paged presentation. Multiple tokens are space separated. Flag tokens are case sensitive.
 
 All flags documented elsewhere are deprecated except the following:
 ^ Token  ^ Description  ^
