@@ -48,7 +48,7 @@ For example, if two self-describing tests ''list-style-type-003.xht'' and ''list
 
 === Simplified Reference Format ===
 
-Like the format for the test file, the reftest reference format is also XHTML or HTML5 in UTF-8 with bitmap images in PNG format. Unlike the format for the test file, there is no metadata except for the [[format#credits|author credits]] and optional [[format#reference-links|reference links]].
+Like the format for the test file, the reftest reference format is also XHTML or HTML5 in UTF-8 with bitmap images in PNG format. Unlike the format for the test file, there is no metadata except for the [[format#credits|author credits]] and optionally [[format#reference-links|reference links]], [[format#reviewer|reviewer information]], and [[format#requirement-flags|requirement flags]]. [[format#specification-links|Specification links]] must NOT be present in reference files.
 
 <code html>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
