@@ -1,6 +1,6 @@
 ====== How to host a CSS Working Group meeting ======
 
-(See also the general [[http://www.w3.org/Guide/hosting.htm|"Hosting W3C Face to Face Meetings."]])
+(See also the general [[http://www.w3.org/Guide/hosting.htm|"Hosting W3C Face to Face Meetings."]] and [[http://w3cmemes.tumblr.com/post/52184246050/for-future-reference-wg-members-are-assumed|F2F Illustration]])
 
 To host a CSS meeting, you MUST provide:
   * A meeting room where the group can meet, without needing to sign any NDA or other agreement.
@@ -15,3 +15,4 @@ All of the above should be ready to go by 9am on each meeting day.
 
 You also SHOULD provide:
   * food and drinks for during the meeting (or have them otherwise reasonably available):  mid-morning coffee break, lunch, mid-afternoon break, and MAY also have breakfast available.  (More details here.)
+  * 
