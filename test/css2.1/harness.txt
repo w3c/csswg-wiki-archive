@@ -22,7 +22,7 @@ The CSS2.1 Test Suite's final format is generated from the XHTML 1.1 source file
 
 If you want to hack the w3ctestlib, you'll need to request write access from Peter Linss <peter.linss@hp.com>.
 
-The w3ctestlib/ folder is a subrepo. To write to it, add to tool/w3ctestlib/.hg/hgrc the following:
+The w3ctestlib/ folder is a subrepo. To write to it, add to tools/w3ctestlib/.hg/hgrc the following:
 
   [paths]
   default-push = https://hg.csswg.org/dev/w3ctestlib
