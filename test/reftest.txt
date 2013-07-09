@@ -8,9 +8,9 @@ A test can be both a [[test:selftest|self-describing tests]] and a reftest at th
 
 Here is an example of a reftest that is also a self-describing test:
 
-  ; [[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/rotate-90deg-001.xht|TEST]]
+  ; [[http://test.csswg.org/source/contributors/adobe/submitted/svg-transform/translate/svg-translate-001.html|TEST]]
   : The test file uses a fuchsia top border and an orange background to create a two-color square block that is then rotated 90deg using the ''transform'' property.
-  ; [[http://test.csswg.org/source/contributors/apple/incoming/css-2d-transforms/reftest/rotate-90deg-001-ref.xht|REF]]
+  ; [[http://test.csswg.org/source/contributors/adobe/submitted/svg-transform/translate/reference/svg-translate-ref.html|REF]]
   : The reference file achieves the intended rendering by using a fuchsia left border and an orange background and no ''transform''.
 
 </note>
