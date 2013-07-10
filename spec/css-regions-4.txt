@@ -4,6 +4,6 @@ A 'nobreak' value has been proposed for the region-fragment property: http://lis
 
 The region-order property was dropped from level 3 but could be reconsidered. There are cases (such as table layout) where the document order for the region chain is not the intended reading order. Allowing the author to specify the order of the region chain would be useful in those cases.
 
-More CSSOM could be added based on use cases identified from use of level 3. One possibility could be closing the loop of going from region to ranges and back again. We currently have a method for retrieving the ranges in a particular region, but there is not a simple way to find out what regions a particular range flows through. https://www.w3.org/Bugs/Public/show_bug.cgi?id=16382
+More CSSOM could be added based on use cases identified from use of level 3.
 
 [[spec:css3-regions#issue-24creating-a-named-flow-from-external-resource|Using flow-into with content from a separate document]]
