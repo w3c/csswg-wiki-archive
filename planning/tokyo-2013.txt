@@ -9,6 +9,23 @@
 
 **Host**: Google Japan
 
+**Minutes**:
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0677.html|(with SVG) Minutes Tokyo F2F 2013-06-05 Wed AM I: Web Animations]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0678.html|(with SVG) Minutes Tokyo F2F 2013-06-05 Wed AM II: Stroke/Fill  on Text, SVG Text Wrapping]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0679.html|(with SVG) Minutes Tokyo F2F 2013-06-05 Wed PM II: Compositing  and Blending]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0680.html|(with SVG) Minutes Tokyo F2F 2013-06-05 Wed PM II: Zoom Media  Queries, CSS XSS, Shapes Deps]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0682.html|Minutes Tokyo F2F 2013-06-05 Wed PM III: Counter Styles,  Cascade]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0683.html|Minutes F2F 2013-06-05 Wed PM IV: Syntax and Conditional  Rules, Variables]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0063.html|Minutes Tokyo F2F 2013-06-06 Thu AM I: CSSWG Priorities]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0064.html|Minutes Tokyo F2F 2013-06-06 Thu AM II/PM I: Syntax]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0065.html|Minutes Tokyo F2F 2013-06-06 PM I: Fonts Part I]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0066.html|Minutes Tokyo F2F 2013-06-06 Thu PM II: Events, Fragmentation,  Shapes]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0079.html|Minutes Tokyo F2F 2013-06-07 Fri Noonish: Grid Layout]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0080.html|Minutes Tokyo F2F 2013-06-07 Fri AM PM I: Fonts]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0081.html|Minutes Tokyo F2F 2013-06-07 Fri PM II: Backporting Changes,  Text Decoration, Table Cell Stacking Contexts]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0082.html|Minutes Tokyo F2F 2013-06-07 PM III: Reversing Transitions,  Parens and Escapes, Alignment]]
+
+
 **Note**: There will be a [[http://testthewebforward.org/events/tokyo-2013.html|Test The Web Forward event]] in Tokyo Friday, June 7 (evening) and Saturday, June 8 at the same location.  The [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Tokyo_2013|SVG WG]] will be meeting Monday and Tuesday at [[http://goo.gl/maps/AgnR9|Mozilla Japan]] prior to the CSS F2F.  There will also be a workshop on [[https://www.w3.org/2013/06/ebooks/|eBooks and Internationalization]] on Tuesday at Keio University in [[http://www.keio.ac.jp/en/maps/mita.html|Mita]].  The W3C AC Committee meeting takes place the [[https://www.w3.org/Member/Eventscal.html|following week]], also at Keio in Mita.
 
 ===== Hosted Dinner =====
