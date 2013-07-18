@@ -6,7 +6,8 @@ The steps for merging the pull requests back into Mercurial are as follows:
 
 
   - Install hg-git, see: http://hg-git.github.io/ 
-      * :!: Important: Do not install the latest version as there are known problems. Instead, install version 0.3.4, which has been tested to work with the latest version of Mercurial, like so: <code>easy_install hg-git==0.3.4</code> 
+      * :!: Important: Do not install the latest version as there are known problems. Instead, install version 0.3.4, which has been tested to work with the latest version of Mercurial. For example, if you used easy_install, do: <code>easy_install hg-git==0.3.4</code> 
+      * :!: Be sure to add the hggit entry to your .hgrc file as docuemented on http://hg-git.github.io/
   - Turn on the 'progress' extension: http://mercurial.selenic.com/wiki/ProgressExtension
   - If you don't already have one, clone the Mercurial repository: <code> hg clone https://hg.csswg.org/test test-master </code>
   - If you already have a clone, make sure it's in sync with the server: (i.e. 'hg stat' to make sure you have no outstanding changes; 'hg out' to make sure you have no unpushed changesets, push them now if you do; 'hg pull -u'; alternatively, just make a fresh clone...)
