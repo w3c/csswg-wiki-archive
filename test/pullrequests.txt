@@ -20,7 +20,16 @@ The steps for merging the pull requests back into Mercurial are as follows:
   - Commit the merge <code>hg commit -m "Merging PR #XX - https://github.com/w3c/csswg-test/pull/XX"</code>
   - Push to the test-master local clone <code>hg push ../test-master/</code>
   - Switch to the root directory of the test-master <code>cd ../test-master/</code>
-  - (Optional) To confirm you've pulled the changes from the second local clone, again, compare your two local clones. <code>hg out</code> Again, you should see all of the commits that are in the Pull Request
-  - Merge those commits into your test-master clone <code>hg merge</code>
-  - Commit the merge <code>hg commit -m "Merging local clones"</code>
+  - (Optional) To confirm you've pulled the changes from the second local clone, again, compare your two local clones. <code>hg out</code> Again, you should see all of the commits that are in the Pull Request plus the your commit from the merge in the step above.
+  - Check if the new branch created additional heads:<code>
+cd ../test-master
+hg heads
+</code>
+  - If there is more than one head, merge the branch: <code>
+hg merge
+hg commit -m "Merging PR # xxx"
+- or possibly rebase it -
+hg rebase
+</code>
+  - If there is only one head, continue to the next step
   - Push the changes to the server: <code>hg push</code>
