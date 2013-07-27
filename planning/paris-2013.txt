@@ -6,8 +6,8 @@ Location: Mozilla Paris
 
 ===== Adjacent Events =====
 before:
-  * 2013-09-06 dConstruct, Brighton, UK.
-  * 2013-09-07…08 IndieWebCampUK, Brighton, UK.
+  * 2013-09-06 [[http://2013.dconstruct.org|dConstruct]], Brighton, UK.
+  * 2013-09-07…08 [[http://indiewebcamp.com/2013/UK|IndieWebCampUK]], Brighton, UK.
 after:
-  * 2013-09-16…17 W3C Publishing Workshop, Paris, 
-  * 2013-09-17…18 W3C AB, Cambridge, MA, USA
+  * 2013-09-16…17 [[http://www.w3.org/2012/12/global-publisher/|W3C Publishing Workshop]], Paris, 
+  * 2013-09-17…18 [[https://www.w3.org/Member/Board/|W3C AB]], Cambridge, MA, USA
