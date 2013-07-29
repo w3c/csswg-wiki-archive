@@ -15,6 +15,7 @@ after:
 ===== Participants =====
 Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Atkins, Tab | Google | ? | ? | ? | ? | |
 | Baron, L. David | Mozilla | ? | ? | ? | ? |  |
 | Çelik, Tantek | Mozilla | ? | ? | ? | ? |  |
 | fantasai | Mozilla | ? | ? | ? | ? | |
