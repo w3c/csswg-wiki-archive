@@ -11,32 +11,32 @@ Discussion about the CSS2.1 Test Suite takes place on the publicly-archived [[ht
 Below are the tests that correspond to sections changed and included in the [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html| CSS 2.1 Errata]]. These test should be reviewed for impact from the changes and clarifications.
 
 == Changes ==
-^ Change ^ Section ^ Proposed By ^ Tests ^ Test Owners ^
+^ Change ^ Section ^ Proposed By ^ Existing Tests ^ Test Owners ^
 | **s.6.2.1** | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/cascade.html#value-def-inherit | 6.2.1 The 'inherit' value]] | Tab & Elika | [[http://test.csswg.org/shepherd/search/spec/css21/section/6.2.1| 23]]|bzbarsky, dbaron, fantasai, arronei, gtalbot |
 | **s.8.3.1.c** | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/box.html#collapsing-margins | 8.3.1 Collapsing margins]] | Anton | [[http://test.csswg.org/shepherd/search/spec/css21/section/8.3.1 | 122]] | fantasai, gtalbot, arronei |
-| **s.4.3.1** | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/syndata.html#numbers| 4.3.1 Integers and real numbers]]| Tab | [[http://test.csswg.org/shepherd/search/spec/css21/section/4.3.1 | 10]] | gtalbo, arronei |
+| **s.4.3.1** | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/syndata.html#numbers| 4.3.1 Integers and real numbers]]| Tab | [[http://test.csswg.org/shepherd/search/spec/css21/section/4.3.1 | 10]] | gtalbot, arronei |
 | **s.10.1a** | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#containing-block-details |10.1 “Definition of "containing block]] | Bert Bos | [[http://test.csswg.org/shepherd/search/spec/css21/section/10.1 | 58]] | fantasia, gtalbot, arronei, megra, bzbarsky |
 | **s.9.4** | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/visuren.html#normal-flow| 9.4 Normal flow]] | Anton| [[http://test.csswg.org/shepherd/search/spec/css21/section/9.4 | 77]] | fantasai, gtalbot, arronei |
 | **s.17.4a** | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/tables.html#model| 17.4 Tables in the visual formatting model]] | Anton | [[http://test.csswg.org/shepherd/search/spec/css21/section/17.4 | 47 ]] | fantasai, gtalbot, arronei |
 | **s.17.5** | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/tables.html#table-layout| 17.5 Visual layout of table contents]] | Anton | [[http://test.csswg.org/shepherd/search/spec/css21/section/17.5 | 236 ]] | fantasai, gtalbot, arronei | 
 | **s.11.1.1a, s.11.1.1b** | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/visufx.html#overflow| 11.1.1 Overflow: the 'overflow' property]]| Anton | [[http://test.csswg.org/shepherd/search/spec/css21/section/11.1.1] | 54]] | fantasai, gtalbot, arronei |
-| **s.4.1.1a, s.4.1.1b**  | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/syndata.html#tokenization| 4.1.1 Tokenization]]| |[[http://test.csswg.org/shepherd/search/spec/css21/section/4.1.1| 6]] | | 
+| **s.4.1.1a, s.4.1.1b**  | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/syndata.html#tokenization| 4.1.1 Tokenization]]| Tab |[[http://test.csswg.org/shepherd/search/spec/css21/section/4.1.1| 6]] | fantasia, arronei | 
 | **s.4.1.3d** | [[ http://www.w3.org/TR/2011/REC-CSS2-20110607/syndata.html#characters| 4.1.3 Characters and case]] | Tab | [[http://test.csswg.org/shepherd/search/spec/css21/section/4.1.3 | 48]] | fantasai, arronei |
 | **s4.4** | [[ http://www.w3.org/TR/2011/REC-CSS2-20110607/syndata.html#charset| 4.4 CSS style sheet representation]]| Henri Sivonen | [[http://test.csswg.org/shepherd/search/spec/css21/section/4.4/load/t48/#t16| 111]] | fantasai, arronei |
 | **s.G.1a** | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/grammar.html#scanner| G.2 Lexical scanner]] | Tab | [[http://test.csswg.org/shepherd/search/spec/css21/section/G.1 | 2]] | megra | 
 | **s.10.5a** | [[http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#the-height-property | 10.5 Content height: the 'height' property]] | fantasai | [[http://test.csswg.org/shepherd/search/spec/css21/section/10.5 | 100]] | fantasai, gtalbot, arronei, megra |
-| | ^Total | 894| |
+| | ^Total | **894** | |
 
 
 == Clarifications ==
-^ Clarification ^ Section ^ Proposed By ^ Tests ^ Test Owners ^
-|               |          |             |        |             |
-|               |          |             |        |             |
-|               |          |             |        |             |
-|               |          |             |        |             |
-|               |          |             |        |             |
-|               |          |             |        |             |
-|               |          ^Total        |        |             |
+^ Clarification ^ Section ^ Proposed By ^ Existing Tests ^ Test Owners ^
+| **s.6.1.1**    |[[http://www.w3.org/TR/2011/REC-CSS2-20110607/cascade.html#specified-value| 6.1.1 Specified values]]| Tab & Elika | [[http://test.csswg.org/shepherd/search/spec/css21/section/6.1.1| 4]] | gtalbot, arronei|
+| **s.10.7**     |[[http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#min-max-heights| 10.7 Minimum and maximum heights: 'min-height' and 'max-height']]| Anton | [[http://test.csswg.org/shepherd/search/spec/css21/section/10.7|187]] | gtalbot, arronei |
+| **s.8.3.1**    |[[http://www.w3.org/TR/2011/REC-CSS2-20110607/box.html#collapsing-margins| 8.3.1 Collapsing margins]]| Anton |[[http://test.csswg.org/shepherd/search/spec/css21/section/8.3.1| 122]] | fantasai, gtalbot, arronei |
+| **s.15.3a, s.15.3b** |[[http://www.w3.org/TR/2011/REC-CSS2-20110607/fonts.html#font-family-prop| 15.3 Font family: the 'font-family' property]]| Tab & Elika| [[http://test.csswg.org/shepherd/search/spec/css21/section/15.3| 92]] | fantasai, gtalbot, arronei, jdaggett, |
+| **s.9.4.2**    |[[http://www.w3.org/TR/2011/REC-CSS2-20110607/visuren.html#inline-formatting| 9.4.2 Inline formatting contexts]]| Anton |[[http://test.csswg.org/shepherd/search/spec/css21/section/9.4.2| 33]] | fantasai, gtalbot, arronei |
+| **s.G.2d**     |[[http://www.w3.org/TR/2011/REC-CSS2-20110607/grammar.html#scanner| G.2 Lexical scanner]]| Tab | [[http://test.csswg.org/shepherd/search/spec/css21/section/G.1 | 2]] | megra | 
+|                |          ^Total        | **440** |             |
 
 
 === CSS 2.1 Test Suite v2.0 ===
