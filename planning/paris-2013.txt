@@ -17,3 +17,4 @@ Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Baron, L. David | Mozilla | ? | ? | ? | ? |  |
 | Çelik, Tantek | Mozilla | ? | ? | ? | ? |  |
+| Schulze, Dirk | Adobe | ? | ? | ? | ? |  |
