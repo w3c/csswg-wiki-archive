@@ -8,8 +8,9 @@
 before:
   * 2013-09-06 [[http://2013.dconstruct.org|dConstruct]], Brighton, UK.
   * 2013-09-07…08 [[http://indiewebcamp.com/2013/UK|IndieWebCampUK]], Brighton, UK.
+  * 2013-09-10 [[http://lists.w3.org/Archives/Public/public-html/2013Jul/0055.html|Responsive Images meetup]], Paris.
 after:
-  * 2013-09-16…17 [[http://www.w3.org/2012/12/global-publisher/|W3C Publishing Workshop]], Paris, 
+  * 2013-09-16…17 [[http://www.w3.org/2012/12/global-publisher/|W3C Publishing Workshop]], Paris.
   * 2013-09-17…18 [[https://www.w3.org/Member/Board/|W3C AB]], Cambridge, MA, USA
 
 ===== Participants =====
@@ -22,6 +23,7 @@ Sorted by family name:
 | fantasai | Mozilla | ? | ? | ? | ? | |
 | Galineau, Sylvain | Adobe | 09/09/2013 | ? | ? | ? | 75% |
 | Linss, Peter | HP | ? | ? | ? | ? |  |
+| O'Connor, Edward | Apple | ? | ? | ? | ? |  |
 | Rivoal, Florian | Invited Expert | ? | ? | ? | ? | 50% |
 | Schulze, Dirk | Adobe | ? | ? | ? | ? |  |
 | Stearns, Alan | Adobe | ? | ? | ? | ? |  |
