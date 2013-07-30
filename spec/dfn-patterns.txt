@@ -113,7 +113,15 @@ For example, writing ''<dfn id=propdef-foo>foo</dfn>'' will automatically classi
 
 Finally, one may manually specify the definition type.  This is very simple - just add a ''data-dfn-type'' attribute to the definition, with its value set to one of the definition types above (the types, like "property", not the classes or prefixes like "propdef").
 
-If using [[http://wiki.csswg.org/tools|Tab's preprocessor]], this is easier - just add the definition type as a boolean attribute.  That is, instead of writing ''<dfn data-dfn-type=function>foo()</dfn>'', just write ''<dfn function>foo()</dfn>''.  The preprocessor will automatically canonicalize this into a valid ''data-dfn-type'' attribute in the output.
+If using [[http://wiki.csswg.org/tools|Tab's preprocessor]], this is easier - just add the definition type as a boolean attribute.  That is, instead of writing:
+
+''<dfn data-dfn-type=function>foo()</dfn>''
+
+just write 
+
+''<dfn function>foo()</dfn>''
+
+The preprocessor will automatically canonicalize this into a valid ''data-dfn-type'' attribute in the output.
 
 ===== Specifying What A Definition Is For =====
 
