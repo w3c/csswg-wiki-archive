@@ -10,6 +10,8 @@ All ''<dfn>'' elements have a definition type.  This can usually be inferred fro
 
 Some types of definitions are part of some higher construct.  This should be indicated with a ''data-dfn-for'' attribute on the definition or a container.
 
+"dfn" type definitions (ones that don't fit into any other category) aren't exported for cross-referencing by default.  If you intend them to be linkable by other specs, indicate it with a ''data-export'' attribute.
+
 Getting this metadata right is easy and helps with auto-crossreferencing (in Tab's preprocessor) and automatically generated documentation (in Shepherd), so please get it right.
 
 ===== <dfn> Types =====
@@ -148,3 +150,13 @@ As a shortcut, the ''data-dfn-for'' attribute may instead be placed on a contain
 rather than adding that attribute to every individual ''<dfn>'' element.
 
 If using Tab's preprocessor, you may instead use a simple ''for'' attribute on the ''<dfn>'', or a ''dfn-for'' attribute on a container.  As well, Tab's preprocessor automatically enforces the use of "for" indicators, flagging an error if they're missing.  (TODO: Rather, it will soon. Haven't coded it up quite yet.)
+
+==== Exporting Definitions ====
+
+Definitions have a concept of being "exported" from a spec, which makes them available for automatic cross-referencing.  Most types of definitions are //automatically// exported, with no additional effort from you.  The only exception is "dfn" type definitions - to make these available for cross-referencing, you must add a ''data-export'' attribute to them or an ancestor.
+
+For example, the Flexbox spec contains a definition like ''<dfn>flex item</dfn>''.  This isn't auto-detected as any of the other types, so it (correctly) gets the type "dfn".  As it stands, though, this definition can't be auto-linked from any other spec.  To make that happen, it needs to be written as ''<dfn data-export>flex item</dfn>'' (or in Tab's preprocessor, ''<dfn export>flex item</dfn>'').
+
+Conversely, if you want to *block* a particular definition from being exported (because it's only meaningful locally), add a ''data-noexport'' attribute to the definition or an ancestor.
+
+If using Tab's preprocessor, you may instead just use an ''export'' or ''noexport'' attribute.
