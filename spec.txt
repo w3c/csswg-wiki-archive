@@ -97,6 +97,7 @@ CSSWG members' comments on related specs not published by our group.
   * [[spec:teststatus|Test status information on spec]] --- adding information about testing status on the spec
   * [[spec:levels|Specification levels]] -- which levels to publish each spec as
 ====== Coordination between specifications ======
+  * [[spec:dfn-patterns|Marking up your <dfn>s for proper cross-linking]]
   * [[spec:cssom-constants|CSSOM Constants]]
   * [[spec:computed-values|Patterns for writing "Computed Value" lines]]
   * [[spec:at-rules-patterns|Patterns for writing at-rules]]
