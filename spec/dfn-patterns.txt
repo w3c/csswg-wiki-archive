@@ -4,6 +4,14 @@ Historically, CSS drafts have had very little structure in the way they mark up 
 
 This page documents the patterns and attributes that are recognized by [[http://wiki.csswg.org/tools|Shepherd, our spec parsing tool, and Tab's preprocessor]].  By using these in your own specs, you make your life and the lives of other editors easier, and contribute to better automatically-generated CSS documentation.
 
+===== Summary =====
+
+All ''<dfn>'' elements have a definition type.  This can usually be inferred from the contents or context, but might need to be explicitly specified.
+
+Some types of definitions are part of some higher construct.  This should be indicated with a ''data-dfn-for'' attribute on the definition or a container.
+
+Getting this metadata right is easy and helps with auto-crossreferencing (in Tab's preprocessor) and automatically generated documentation (in Shepherd), so please get it right.
+
 ===== <dfn> Types =====
 
 To aid with cross-linking and automatic documentation, definitions are now classified into one of several categories:
