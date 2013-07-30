@@ -151,7 +151,7 @@ rather than adding that attribute to every individual ''<dfn>'' element.
 
 If using Tab's preprocessor, you may instead use a simple ''for'' attribute on the ''<dfn>'', or a ''dfn-for'' attribute on a container.  As well, Tab's preprocessor automatically enforces the use of "for" indicators, flagging an error if they're missing.  (TODO: Rather, it will soon. Haven't coded it up quite yet.)
 
-==== Exporting Definitions ====
+===== Exporting Definitions =====
 
 Definitions have a concept of being "exported" from a spec, which makes them available for automatic cross-referencing.  Most types of definitions are //automatically// exported, with no additional effort from you.  The only exception is "dfn" type definitions - to make these available for cross-referencing, you must add a ''data-export'' attribute to them or an ancestor.
 
