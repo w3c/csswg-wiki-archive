@@ -34,3 +34,20 @@ better:
 best:
   * [css3-animations] animating vertical-align (was RE: [CSSWG] Minutes Telecon 2012-02-29)
   * [css3-animations] animating vertical-align
+
+===== Use standard text conventions for quotes, not colors or name-tags =====
+
+Some mail clients like Outlook prefer to indicate quoted text simply by coloring it (often a dark blue).  This is extremely inaccessible - it's hard to read in the best of situations, and once it hits the mail archive, the color disappears entirely and renders the email unreadable.
+
+Alternately, some people indicate quoting by simple interleaving, and tagging the passages from the quoted message with a short name tag, like:
+
+<code>
+[AB] And then I said, rectum, I hardly knew 'im!
+I don't get the joke.
+</code>
+
+This is often unclear in the best of situations, again, but as soon as someone quotes a second time, the quoting level is lost entirely, and the email becomes an unreadable mess.
+
+Prefer, instead, to quote using the standard text convention of prepending a ">" character to lines that are quoted.  This is widely recognized as quoting, preserves nesting levels, and is maintained in the mail archives.  All mail clients can be configured to use this style of quoting - just look up instructions.
+
+If you must, use a proper ''<blockquote>'' element in the markup - most email readers will convert that into textual quoting.
