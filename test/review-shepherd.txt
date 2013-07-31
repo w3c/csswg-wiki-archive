@@ -1,4 +1,8 @@
 ====== Review Process Using Shepherd ======
 
 
-Content coming soon!
+====== Reviewing Tests ======
+
+In order to encourage a higher level of quality in the CSS test suites, tests that have been individually reviewed for correctness and usability are assigned an Approved status in Shepherd. Additions and changes to the Approved tests be re-reviewed to maintain this status.
+
+Test authors and reviewers must adhere to the [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-process.md| W3C Test Review Policy]] FIXME: //change link when TRC goes live //
