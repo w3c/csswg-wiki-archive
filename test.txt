@@ -13,6 +13,7 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
   * [[test:reftest|Writing Reftests]]
   * [[test:scripttest|Writing Script Tests]]
   * [[test:review|Review Process]]
+  * [[test:review-shepherd|Review Process Using Shepherd]]
   * [[test:oversight|Test Suite Oversight and Governance]]
   * [[test:implementation-report|Implementation Report Format]]
   * [[http://fantasai.inkedblade.net/style/tests/about/css21ts/|Slideshow Overview]]
