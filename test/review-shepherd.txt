@@ -1,8 +1,42 @@
+// :!: This page is in progress. It was adapted from the [[test:review|CSS 2.1 Review Process]] and is being updated to acknowledge new infrastructure, resources, and policies. It has links to several documents on the new [[https://github.com/w3c/testtwf-website/tree/gh-pages/docs|Test Resource Center]], which is targeted to go live by mid-August 2013. The links temporarily point to the source files on Github and are labeled here with FIXME and will be updated with the TRC goes live.//
+
+--- //[[people:rhauck|Rebecca Hauck]] 2013/07/31 13:04//
+
 ====== Review Process Using Shepherd ======
 
+This page describes the test submission and review process using [[http://test.csswg.org/shepherd|Shepherd]], [[http://hg.csswg.org/test|Mercurial]], and the [[http://lists.w3.org/Archives/Public/public-css-testsuite|mailing list]]. An alternative process using Github is documented on the [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-process.md|W3C Test Resource Center]]. FIXME 
 
-====== Reviewing Tests ======
+Whether using this process or Github, test authors and reviewers must adhere to the [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-process.md| W3C Test Review Policy]]. FIXME 
 
-In order to encourage a higher level of quality in the CSS test suites, tests that have been individually reviewed for correctness and usability are assigned an Approved status in Shepherd. Additions and changes to the Approved tests be re-reviewed to maintain this status.
+==== Process for New Tests ====
+  - Pre-condition: Test authors and reviewers must be set up with Mercurial access. See the [[tools:hg|Quick Guide to Mercurial]], including the section on  [[tools:hg#obtaining-write-access|obtaining write access]].
+  - When a test author is ready for tests to be reviewed, s/he must push them to the repository in a directory named ''submitted''. The tests will then be present in Shepherd as [[http://test.csswg.org/shepherd/search/status/submitted|Submitted for Review]].
+  - The test author should then ask for a review on the <public-css-testsuite@w3.org> mailing list.
+  - When a reviewer comes forward, s/he should examine the tests for correctness with respect to the [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-format-guidelines.md|format]] FIXME and [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-style-guidelines.md|style]] FIXME guidelines. 
+  -  The reviewer should then notify the mailing list of the test review. It is not necessary to include all of the review feedback in the mail, just a link to the test suite in Shepherd.
+    - **If the test passes review:** Go to the next step. 
+    - **If a test does not pass review:**
+        - Its status should be set to [[http://test.csswg.org/shepherd/search/status/issue|Needs Work]] in Shepherd
+        - Optionally, the reviewer may use the Whiteboard field to tag the reason why the test doesn't pass review. See examples below on how to use this field.
+        - The reviewer must provide feedback to the submitter in the comment fields in Shepherd, including what is wrong with the test and what steps should be taken to correct any problems. 
+        - Alternatively, if the changes requested are minor and don't significantly alter the original design of the test (i.e., metadata only changes), the reviewer may make the changes and get approval of those changes from the submitter.
+        - The tests should then be updated to incorporate the reviewers feedback and be re-submitted Mercurial. Ideally, the original test author does this but it may done be any other qualified person. Upon re-submission, the test status in Shepherd will change to [[http://test.csswg.org/shepherd/search/status/resubmitted |Resubmitted for Review]]
+        - When the updated tests are submitted, another notification should be sent to the mailing list asking for review. 
+        - A reviewer looks at the changes and decides if they satisfy the original review feedback. Likewise, ideally this is original reviewer, but may also be any other qualified person. 
+  - Once the test/changes has pass review, the reviewer should [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-templates.md#reviewer| note their acceptance in the test]] FIXME and re-submit the files to Mercurial. The commit message should indicating the test passed review and will be attached to the test in Shepherd.  The test status in Shepherd will then change to [[ http://test.csswg.org/shepherd/search/status/accepted|Accepted]]
+  - The [[https://test.csswg.org/shepherd/administration/testsuite/search/status/approved|Owner]] FIXME: //[This link should be exposed to all roles in Shepherd. Right now, only admins can see it]// of that suite can either approve the reviewer's judgement if the reviewer is known to be competent in this area, or review the test himself. Once the Owner is satisfied the test can be set to [[http://test.csswg.org/shepherd/search/status/approved|Approved]] in Shepherd. (If the initial reviewer was an Owner then this step is automatic).
 
-Test authors and reviewers must adhere to the [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-process.md| W3C Test Review Policy]] FIXME: //change link when TRC goes live //
+==== Process for Previously Approved Tests ==== 
+
+In some cases, tests that have been approved in the past are revisited and identified to have issues. When this occurs, this is also considered a review for which the process begins at Step 5 above.
+
+
+==== Whiteboard Usage in Shepherd ====
+
+The whiteboard field in Shepherd is exposed by clicking the "more" link in the Search box at the top of the page. It is intended to be a free-form field to include any extra metadata to a test that is not already supported officially by Shepherd as a [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-templates.md#requirement-flags|flag]] FIXME or a field in Shepherd.  It is sometimes used to classify the type of issue that may cause a test to have a Needs Work status.  
+
+Currently, there are two such classifications:
+
+    * [[http://test.csswg.org/shepherd/search/spec/css21/status/issue/whiteboard/Metadata|Metadata]]: For tests requiring only a metadata change
+    * [[http://test.csswg.org/shepherd/search/spec/css21/status/issue/whiteboard/Precision|Precision]]: For tests that are correct in some cases, but aren't precise enough to be correct in all cases
+    * [[http://test.csswg.org/shepherd/search/spec/css21/status/issue/whiteboard/Incorrect|Incorrect]]: For tests that are incorrectly designed
