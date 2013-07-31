@@ -19,6 +19,7 @@ Sorted by family name:
 | Adams, Glenn | CoxCom | ? | ? | ? | ? | |
 | Atkins, Tab | Google | ? | ? | ? | ? | |
 | Baron, L. David | Mozilla | ? | ? | ? | ? |  |
+| Bos, Bert | W3C | ? | ? | ? | ? | 50% (ftf + workshop) |
 | Çelik, Tantek | Mozilla | ? | ? | ? | ? |  |
 | fantasai | Mozilla | ? | ? | ? | ? | |
 | Galineau, Sylvain | Adobe | 09/09/2013 | ? | ? | ? | 75% 
