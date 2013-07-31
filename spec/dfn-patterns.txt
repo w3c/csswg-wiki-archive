@@ -25,6 +25,7 @@ To aid with cross-linking and automatic documentation, definitions are now class
   * at-rule
   * function (like counter() or linear-gradient())
   * selector
+  * token
 
 There are additional categories for WebIDL definitions:
 
@@ -32,6 +33,7 @@ There are additional categories for WebIDL definitions:
   * method
   * attribute
   * dictionary
+  * dictmember
   * enum
   * const
 
@@ -55,6 +57,7 @@ If a definition's type isn't explicitly specified with one of the following meth
   * Is it surrounded by double single quotes in the source, like %%''foo''%%?  Then it's a **value**.
   * Does it start with an @? Then it's an **at-rule**.
   * Is it surrounded by <>? Then it's a **type**.
+  * Is it surrounded by 〈〉? Then it's a **token**.
   * Does it start with a :? Then it's a **selector**. (This is a simplistic auto-detection for pseudo-classes and pseudo-elements.)
   * Does it end with ()? Then it's a **function**.
   * Otherwise, it's a **dfn**.
@@ -73,10 +76,12 @@ If a definition's type hasn't been determined by one of the following methods, t
 |at-ruledef | at-rule|
 |funcdef | function|
 |selectordef | selector|
+|tokendef | token|
 |interfacedef | interface|
 |methoddef | method|
 |attrdef | attribute|
 |dictdef | dictionary|
+|dictmemberdef | dictmember|
 |enumdef | enum|
 |constdef | const|
 |html-elemdef | html-element|
@@ -96,10 +101,12 @@ If a definition's type isn't explicitly specified by the following method, the t
 |at-ruledef- | at-rule|
 |funcdef- | function|
 |selectordef- | selector|
+|tokendef- | token|
 |interfacedef- | interface|
 |methoddef- | method|
 |attrdef- | attribute|
 |dictdef- | dictionary|
+|dictmemberdef- | dictmember|
 |enumdef- | enum|
 |constdef- | const|
 |html-elemdef- | html-element|
