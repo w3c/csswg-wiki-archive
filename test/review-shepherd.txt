@@ -8,11 +8,15 @@ This page describes the test submission and review process using [[http://test.c
 
 Whether using this process or Github, test authors and reviewers must adhere to the [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-process.md| W3C Test Review Policy]]. FIXME 
 
+The general process looks like this:
+
+{{:test:review-flowchart-v2.png|}}
+
 ==== Process for New Tests ====
   - Pre-condition: Test authors and reviewers must be set up with Mercurial access. See the [[tools:hg|Quick Guide to Mercurial]], including the section on  [[tools:hg#obtaining-write-access|obtaining write access]].
   - When a test author is ready for tests to be reviewed, s/he must push them to the repository in a directory named ''submitted''. The tests will then be present in Shepherd as [[http://test.csswg.org/shepherd/search/status/submitted|Submitted for Review]].
   - The test author should then ask for a review on the <public-css-testsuite@w3.org> mailing list.
-  - When a reviewer comes forward, s/he should examine the tests for correctness with respect to the [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-format-guidelines.md|format]] FIXME and [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-style-guidelines.md|style]] FIXME guidelines. 
+  - When a reviewer comes forward, s/he should examine the tests for correctness with respect to the [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-format-guidelines.md|format]] FIXME and [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-style-guidelines.md|style]] FIXME guidelines. A [[https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-checklist.md|short checklist]] FIXME is available to assist the reviewer and a more detailed [[test:css2.1:review-checklist|CSS-specific checklist]] is also available.
   -  The reviewer should then notify the mailing list of the test review. It is not necessary to include all of the review feedback in the mail, just a link to the test suite in Shepherd.
     - **If the test passes review:** Go to the next step. 
     - **If a test does not pass review:**
