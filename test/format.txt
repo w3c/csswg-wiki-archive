@@ -329,7 +329,7 @@ Examples of good test assertions:
   ]]></style>
 </code>
 
-When creating styles primarily use ID or Class selectors. Inline styles should not be used unless the case is specifically testing this scenario.
+When creating styles primarily use type, ID or Class selectors. Inline styles should not be used unless the case is specifically testing this scenario. Other selector types should also be avoided unless specifically testing those scenarios.
 
 
 ==== Script type (embedded script) ====
