@@ -34,7 +34,7 @@ Sorted by family name:
 | Stearns, Alan | Adobe | 2013-09-09 | 2013-09-18 | ? | ? | | yes |
 | Stephens, Shane | Google | 08/09/2013 | 12/09/2012 | ? | ? | |
 | Storset, Leif Arne | Opera | ? | ? | ? | ? |  |
-| Verou, Lea | Invited Expert | 2013-09-09 | 2013-09-13 | ? | ? |  |
+| Verou, Lea | Invited Expert | 2013-09-09 | 2013-09-13 | ? | ? |  | yes, unless it’s on/after the 13th |
 | Villegas, Jet | Mozilla | ? | ? | ? | ? |  |
 | Zilles, Steve | Adobe| 9/10/2013 | 9/16/2013 | ? | ? |  |
 | Ishii, Koji | Rakuten | ? | ? | ? | ? |  |
