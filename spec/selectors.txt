@@ -1,3 +1,16 @@
+====== Issues for Level 4 ======
+
+  * Lift restriction preventing combinators in :any/:not in the fast profile?
+  * Anything else that should be moved from complete to fast profile?
+  * Syntax of subject indicator
+  * Comma-separated [attr] values, for easy OR matching?
+  * Numeric [attr] comparators?
+  * Name of :any-link - maybe put "link" first in the name, like :link-any?
+  * Does :local-link(n) force N path segments to match, or can a document with a shorter url still create a match?  (Example: in https://github.com/tabatkins/css-preprocessor, does :local-link(2) mean "same user and repository only", or does it allow "https://github.com/tabatkins", thus implicitly allowing "same user, but no specified repo"?)
+  * Naming the drag-and-drop pseudoclasses
+  * Just point the An+B grammar section to Syntax, now that it's accepted?
+  * dbaron is uncertain about the reference and column combinators, the :matches() syntax (naming? something else?) and the subject indicator.
+
 ====== Brainstorming for Selectors Level 5 ======
   * [[http://www.w3.org/TR/css3-selectors/|Selectors 3 PR]]
   * [[http://dev.w3.org/csswg/selectors4/|Selectors 4 ED]]
