@@ -1,0 +1,73 @@
+===== Charter 2013-2015 planning =====
+
+Editors, please, fill in for your drafts what level you think the drafts will reach within the next two years, REC, CR, WD, NOTE or RSCND (Rescinded REC), and by when.
+
+Once the WG is happy with the list, all the drafts that reach a level different from their current one will become //deliverables// in the charter and the others will be mentioned as items that are //in scope.// (Mentioning them helps to reduce possible patent problems.)
+
+Use the Notes column for notes to ourselves. They won't be in the charter.
+
+^ Document ^ 2013q4 ^ 2014q1 ^ 2014q2 ^ 2014q3 ^ 2014q4 ^ 2015q1 ^ 2015q2 ^ 2015q3 ^ Notes ^
+| [[http://www.w3.org/TR/css-2010|CSS Snapshot 2010]] |
+| [[http://www.w3.org/TR/css-beijing|CSS Snapshot 2007]] |
+| [[http://www.w3.org/TR/css3-color|CSS Color Level 3]] |
+| [[http://www.w3.org/TR/css3-namespace|CSS Namespaces]] |
+| [[http://www.w3.org/TR/selectors|Selectors Level 3]] |
+| [[http://www.w3.org/TR/CSS2/|CSS Level 2]] | REC 3e |
+| [[http://www.w3.org/TR/CSS1|CSS Level 1]] | | | | | | | | RSCND | |
+| [[http://www.w3.org/TR/css-print|CSS Print Profile]] |
+| [[http://www.w3.org/TR/css3-mediaqueries|Media Queries]] |
+| [[http://www.w3.org/TR/css-style-attr|CSS Style Attributes]] |
+| [[http://www.w3.org/TR/css3-background|CSS Backgrounds and Borders Level 3]] | | | REC |
+| [[http://www.w3.org/TR/css3-conditional|CSS Conditional Rules Level 3]] |
+| [[http://www.w3.org/TR/css3-images|CSS Image Values and Replaced Content Level 3]] |
+| [[http://www.w3.org/TR/css3-marquee|CSS Marquee]] | | | | | | | | | unchanged |
+| [[http://www.w3.org/TR/css3-multicol|CSS Multi-column Layout]] |
+| [[http://www.w3.org/TR/css3-speech|CSS Speech]] |
+| [[http://www.w3.org/TR/css3-values|CSS Values and Units Level 3]] |
+| [[http://www.w3.org/TR/css3-flexbox|CSS Flexible Box Layout]] |
+| [[http://www.w3.org/TR/css-text-decor-3/|CSS Text Decoration Module Level 3]] |
+| [[http://www.w3.org/TR/css-mobile|CSS Mobile Profile 2.0]] |
+| [[http://www.w3.org/TR/css-tv|CSS TV Profile 1.0]] |
+| [[http://www.w3.org/TR/css3-animations|CSS Animations]] |
+| [[http://www.w3.org/TR/css3-fonts|CSS Fonts Level 3]] |
+| [[http://www.w3.org/TR/css-counter-styles-3/|CSS Counter Styles Level 3]] |
+| [[http://www.w3.org/TR/css3-text|CSS Text Level 3]] |
+| [[http://www.w3.org/TR/css3-break|CSS Fragmentation Level 3]] |
+| [[http://www.w3.org/TR/css3-transforms|CSS Transforms]] |
+| [[http://www.w3.org/TR/css3-transitions|CSS Transitions]] |
+| [[http://www.w3.org/TR/css-variables|Cascading Variables]] |
+| [[http://www.w3.org/TR/css3-writing-modes|CSS Writing Modes Level 3]] |
+| [[http://www.w3.org/TR/css3-cascade|CSS Cascading and Inheritance Level 3]] |
+| [[http://www.w3.org/TR/css3-page|CSS Paged Media Level 3]] |
+| [[http://www.w3.org/TR/css3-ui|CSS Basic User Interface Level 3]] |
+| [[http://www.w3.org/TR/cssom-view|CSSOM View]] |
+| [[http://www.w3.org/TR/css3-align/|CSS Box Alignment Module Level 3]] |
+| CSS Backgrounds and Borders Level 4 | | | | | CR |
+| [[http://www.w3.org/TR/compositing/|Compositing and Blending]] |
+| [[http://www.w3.org/TR/css-device-adapt|CSS Device Adaptation]] |
+| [[http://www.w3.org/TR/css3-exclusions/|CSS Exclusions and Shapes]] |
+| [[http://www.w3.org/TR/filter-effects/|Filter Effects]] |
+| [[http://www.w3.org/TR/css3-gcpm|CSS Generated Content for Paged Media]] |
+| [[http://www.w3.org/TR/css3-grid-layout|CSS Grid Layout]] |
+| [[http://www.w3.org/TR/css3-layout|CSS (Grid) Template Layout]] | | | | | | CR |
+| [[http://www.w3.org/TR/css3-sizing/|CSS Intrinsic &amp; Extrinsic Sizing Module Level 3]] | | | |
+| CSS Line Grid | | | |
+| [[http://www.w3.org/TR/css3-lists|CSS Lists Level 3]] | | | |
+| [[http://www.w3.org/TR/css3-positioning/|CSS Positioned Layout Level 3]] | | | |
+| [[http://www.w3.org/TR/css3-preslev|CSS Presentation Levels]] | | | |
+| [[http://www.w3.org/TR/css3-regions|CSS Regions]] | | | |
+| CSS Tables Level 3 | | | | | | | | | unchanged |
+| [[http://www.w3.org/TR/selectors4|Selectors Level 4]] | | | |
+| [[http://www.w3.org/TR/cssom|CSS Object Model]] | | | |
+| [[http://www.w3.org/TR/css-masking/|CSS Masking]] | | | |
+| [[http://www.w3.org/TR/css-overflow-3/|CSS Overflow]] | | | |
+| [[http://www.w3.org/TR/css3-box|CSS Basic Box Model Level 3]] | | | | | | CR |
+| [[http://www.w3.org/TR/css3-content|CSS Generated Content Level 3]] | | | |
+| [[http://www.w3.org/TR/css3-linebox|CSS Line Layout Level 3]] | | | |
+| [[http://www.w3.org/TR/css3-ruby|CSS Ruby]] | | | |
+| [[http://www.w3.org/TR/css3-syntax|CSS Syntax Level 3]] | | | |
+| [[http://www.w3.org/TR/becss|Behavioral Extensions to CSS]] | | | |
+| [[http://www.w3.org/TR/css3-hyperlinks|CSS Hyperlink Presentation]] | | | | | | | | | unchanged |
+| [[http://www.w3.org/TR/css3-grid|CSS Grid Positioning]] | | | |
+
+If there are documents missing, please, add them. That includes documents we already decided to create, but haven't published yet.
