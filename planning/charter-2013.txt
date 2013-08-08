@@ -2,7 +2,7 @@
 
 Editors, please, fill in for your drafts what level you think the drafts will reach within the next two years, REC, CR, WD, NOTE or RSCND (Rescinded REC), and by when.
 
-Once the WG is happy with the list, all the drafts that reach a level different from their current one will become //deliverables// in the charter and the others will be mentioned as items that are //in scope.// (Mentioning them helps to reduce possible patent problems.)
+Once the WG is happy with the list, all the drafts that reach a level different from their current one will become //deliverables// in the charter and the others will be mentioned as items that are //in scope.// (Mentioning them explicitly helps to reduce possible patent problems.)
 
 Use the Notes column for notes to ourselves. They won't be in the charter.
 
@@ -45,7 +45,8 @@ Use the Notes column for notes to ourselves. They won't be in the charter.
 | CSS Backgrounds and Borders Level 4 | | | | | CR |
 | [[http://www.w3.org/TR/compositing/|Compositing and Blending]] |
 | [[http://www.w3.org/TR/css-device-adapt|CSS Device Adaptation]] |
-| [[http://www.w3.org/TR/css3-exclusions/|CSS Exclusions and Shapes]] |
+| [[http://www.w3.org/TR/css3-exclusions/|CSS Exclusions]] |
+| [[http://www.w3.org/TR/css-shapes/|CSS Shapes]] |
 | [[http://www.w3.org/TR/filter-effects/|Filter Effects]] |
 | [[http://www.w3.org/TR/css3-gcpm|CSS Generated Content for Paged Media]] |
 | [[http://www.w3.org/TR/css3-grid-layout|CSS Grid Layout]] |
