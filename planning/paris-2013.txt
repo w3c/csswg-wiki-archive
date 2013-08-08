@@ -26,7 +26,7 @@ Sorted by family name:
 | Glazman, Daniel | Disruptive Innovations | N/A | N/A | home | N/A | | yes |
 | Linss, Peter | HP | ? | ? | ? | ? |  |
 | O'Connor, Edward | Apple | ? | ? | ? | ? |  |
-| Pieters, Simon | Opera | 2013-09-09 | 2013-09-13 | Regetel Corona Opera Hotel | ? | Also going to Workshop |
+| Pieters, Simon | Opera | 2013-09-09 | 2013-09-13 | TRYP Paris Francois | ? | Also going to Workshop |
 | Quin, Liam | W3C | 2013-09-10 | 2013-09-17 | ? | ? | Also going to Workshop |
 | Rivoal, Florian | Invited Expert | ? | ? | ? | ? | 50% |
 | Sapin, Simon | Mozilla | ? | ? | ? | ? |  |
@@ -40,7 +40,6 @@ Sorted by family name:
 | Ishii, Koji | Rakuten | ? | ? | ? | ? |  |
 
 Regrets: John Daggett
-
 
 ===== Proposed Agenda Items =====
   * Discuss creation of a Fonts TF
