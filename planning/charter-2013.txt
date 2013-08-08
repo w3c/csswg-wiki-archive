@@ -38,7 +38,7 @@ Use the Notes column for notes to ourselves. They won't be in the charter.
 | [[http://www.w3.org/TR/css-variables|Cascading Variables]] |
 | [[http://www.w3.org/TR/css3-writing-modes|CSS Writing Modes Level 3]] |
 | [[http://www.w3.org/TR/css3-cascade|CSS Cascading and Inheritance Level 3]] |
-| [[http://www.w3.org/TR/css3-page|CSS Paged Media Level 3]] |
+| [[http://www.w3.org/TR/css3-page|CSS Paged Media Level 3]] | | | | | | | | | Nobody actively editing at the moment |
 | [[http://www.w3.org/TR/css3-ui|CSS Basic User Interface Level 3]] |
 | [[http://www.w3.org/TR/cssom-view|CSSOM View]] |
 | [[http://www.w3.org/TR/css3-align/|CSS Box Alignment Module Level 3]] |
