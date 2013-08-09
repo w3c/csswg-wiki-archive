@@ -45,8 +45,8 @@ Use the Notes column for notes to ourselves. They won't be in the charter.
 | CSS Backgrounds and Borders Level 4 | | | | | | | | | likely FPWD |
 | [[http://www.w3.org/TR/compositing/|Compositing and Blending]] |
 | [[http://www.w3.org/TR/css-device-adapt|CSS Device Adaptation]] |
-| [[http://www.w3.org/TR/css3-exclusions/|CSS Exclusions]] |
-| [[http://www.w3.org/TR/css-shapes/|CSS Shapes]] |
+| [[http://www.w3.org/TR/css3-exclusions/|CSS Exclusions]] | | | | | | | | | likely CR |
+| [[http://www.w3.org/TR/css-shapes/|CSS Shapes]] | | | | | | | | | expect CR |
 | [[http://www.w3.org/TR/filter-effects/|Filter Effects]] |
 | [[http://www.w3.org/TR/css3-gcpm|CSS Generated Content for Paged Media]] |
 | [[http://www.w3.org/TR/css3-grid-layout|CSS Grid Layout]] |  | | | | | | | | likely CR |
@@ -56,7 +56,7 @@ Use the Notes column for notes to ourselves. They won't be in the charter.
 | [[http://www.w3.org/TR/css3-lists|CSS Lists Level 3]] | | | | | | | | | expect some progress along WD track, CR possible |
 | [[http://www.w3.org/TR/css3-positioning/|CSS Positioned Layout Level 3]] | | | |
 | [[http://www.w3.org/TR/css3-preslev|CSS Presentation Levels]] | | | |
-| [[http://www.w3.org/TR/css3-regions|CSS Regions]] | | | |
+| [[http://www.w3.org/TR/css3-regions|CSS Regions]] | | | | | | | | | expect CR |
 | CSS Tables Level 3 | | | | | | | | | unchanged |
 | [[http://www.w3.org/TR/selectors4|Selectors Level 4]] | | | | | | | | | likely CR |
 | [[http://www.w3.org/TR/cssom|CSS Object Model]] | | | |
