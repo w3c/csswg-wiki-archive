@@ -3,10 +3,16 @@
   * Shēnzhèn (深圳), Guǎngdōng (广东), China (中国)
   * Venue: 五洲宾馆, 中国深圳市深南大道6001号
   * Venue: Shenzhen Wuzhou Guest House, No. 6001, Shennan Road, Shenzhen, China
+  * CSS Dates: Sunday-Tuesday, November 10-12, 2013 (Sunday unconfirmed; Monday-Tuesday confirmed)
+  * TPAC Dates: Monday-Friday, November 11-15, 2013
+
+===== Adjacent Events =====
+  * Saturday, November 9: [[http://testthewebforward.org/|Test The Web Forward]], Shenzhen, China
 
 ===== Participants =====
 Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Baron, L. David | Mozila | ? | ? | ? | ? | |
 | Linss, Peter | HP | ? | ? | ? | ? |  |
 | Rivoal, Florian| Invited Expert | ? | ? | ? | ? | Not confirmed yet |
 
