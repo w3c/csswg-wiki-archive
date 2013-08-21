@@ -13,7 +13,7 @@ This page lists all standardized CSSOM constants in CSS to avoid the creation of
 | 6 | PAGE_RULE | CSSOM |
 | 7 | KEYFRAMES_RULE | css3-animations |
 | 8 | KEYFRAME_RULE | css3-animations |
-| 9 | - | reserved; likely used for COLOR_PROFILE, SVG/CSS4 |
+| 9 | MARGIN_RULE | CSSOM |
 | 10 | NAMESPACE_RULE | CSSOM |
 | 11 | COUNTER_STYLE_RULE | css3-lists |
 | 12 | SUPPORTS_RULE | css3-conditional |
