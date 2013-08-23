@@ -39,10 +39,11 @@ Sorted by family name:
 | Villegas, Jet | Mozilla | ? | ? | ? | ? |  |
 | Zilles, Steve | Adobe| 9/10/2013 | 9/16/2013 | ? | ? |  |
 | Ishii, Koji | Rakuten | ? | ? | ? | ? |  |
+| Kazutaka, Yamamoto | NTT | 2013-09-10 | ? | ? | ? |  |
+| Taichi, Kawabata | NTT | 2013-09-10 | 2013-09-18 | Meridienne | JL041/JL414 |  |
 | Atanassov, Rossen | Microsoft | 2013-09-09 | 2013-09-14 | ? | ? | Going to Images/Workshop | yes |
 
 Regrets: John Daggett
-
 ===== Proposed Agenda Items =====
   * Discuss creation of a Fonts TF
   * Resolve Masking shorthand syntax
