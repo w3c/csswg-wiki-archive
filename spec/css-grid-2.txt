@@ -1,0 +1,15 @@
+We should have some way of defining "gutter" columns/rows,
+where content can never go
+(unless it's spanning across two tracks).
+Otherwise, auto-flow is completely broken when you manually add gutters,
+and it's just much less convenient to add them manually.
+
+[[http://lists.w3.org/Archives/Public/www-style/2013May/0057.html|Lea's email on the subject.]]
+See [[http://lists.w3.org/Archives/Public/www-style/2013May/0077.html|our proposal]]
+and [[http://lists.w3.org/Archives/Public/www-style/2012Mar/0611.html|Tab's email on the subject]].
+
+----
+
+We want the ability to collapse grid tracks (similar to collapsing flex items or table rows/columns), but we're not sure exactly how to do it.  One attempt:
+
+>Specifying ''visibility: collapse'' on a <a>grid item</a> causes it to become a <dfn export title="collapsed grid item|collapsed">collapsed grid item</dfn>. This has the same effect as ''visibility: hidden'', except that if all the <a>grid items</a> spanning a track are <a>collapsed</a>, the track's intrinsic size becomes zero.
