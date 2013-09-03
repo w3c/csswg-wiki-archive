@@ -55,3 +55,4 @@ Regrets: John Daggett
   * Multicol: assess test suite, resolve last remaining issues -- move to PR?
   * GCPM: publish WD
   * CSS3 Writing Modes: issues, UTR50 status, publish WD?
+  * CSS Images: Animation of generated images
