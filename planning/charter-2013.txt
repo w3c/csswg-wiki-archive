@@ -15,7 +15,8 @@ Use the Notes column for notes to ourselves. They won't be in the charter.
 | [[http://www.w3.org/TR/CSS2/|CSS Level 2]] | REC 3e |
 | [[http://www.w3.org/TR/CSS1|CSS Level 1]] | | | | | | | | RSCND | |
 | [[http://www.w3.org/TR/css-print|CSS Print Profile]] |
-| [[http://www.w3.org/TR/css3-mediaqueries|Media Queries]] |
+| [[http://www.w3.org/TR/css3-mediaqueries|Media Queries 3]] | | Rec 3.1| | | | | | |The updated Rec is for rolling in Errata|
+| [[http://www.w3.org/TR/css3-mediaqueries|Media Queries 4]] | | WD| | | | | |CR|
 | [[http://www.w3.org/TR/css-style-attr|CSS Style Attributes]] |
 | [[http://www.w3.org/TR/css3-background|CSS Backgrounds and Borders Level 3]] | | | REC |
 | [[http://www.w3.org/TR/css3-conditional|CSS Conditional Rules Level 3]] | | | | | | | | | expect REC? |
