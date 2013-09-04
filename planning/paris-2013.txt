@@ -57,3 +57,4 @@ Regrets: John Daggett
   * CSS3 Writing Modes: issues, UTR50 status, publish WD?
   * CSS Images: Animation of generated images (gradients, repeating gradients, cross-fade, filter)
   * DOMPoint, Quad, CSSMatrix common naming and scope ([[http://lists.w3.org/Archives/Public/www-style/2013Aug/0605.html|www-style]])
+  * CSSStyleDeclaration: Setting only a value or a priority [[http://lists.w3.org/Archives/Public/www-style/2013Aug/0431.html]]
