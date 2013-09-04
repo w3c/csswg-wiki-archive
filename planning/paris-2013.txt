@@ -17,7 +17,7 @@ after:
 Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^ Wine-Testing ^
 | Adams, Glenn | CoxCom | 2013-09-10 | 2013-09-14 | Hotel Aston | FI542/541 | | yes |
-| Atanassov, Rossen | Microsoft | 2013-09-09 | 2013-09-14 | ? | ? | Going to Images/Workshop | yes |
+| Atanassov, Rossen | Microsoft | 2013-09-09 | 2013-09-14 | airbnb apt | DL615 | Going to Images | yes |
 | Atkins, Tab | Google | 2013-09-10 | 2013-09-14 | ? | In=LX39/LX656 Out=LX633/LX38 | | Yes |
 | Balan, Mihai | Adobe | 2013-09-10 | 2013-09-14 | Vendome Saint Germain | AF1889 / AF1588 | | |
 | Baron, L. David | Mozilla | 2013-09-08 | 2013-09-14 | ? | Eurostar/UA991 |  |
