@@ -9,7 +9,7 @@ Use the Notes column for notes to ourselves. They won't be in the charter.
 ^ Document ^ 2013q4 ^ 2014q1 ^ 2014q2 ^ 2014q3 ^ 2014q4 ^ 2015q1 ^ 2015q2 ^ 2015q3 ^ Notes ^
 | [[http://www.w3.org/TR/css-2010|CSS Snapshot 2010]] |
 | [[http://www.w3.org/TR/css-beijing|CSS Snapshot 2007]] |
-| [[http://www.w3.org/TR/css3-color|CSS Color Level 3]] Rec, publish errata, 2nd edition if needed|
+| [[http://www.w3.org/TR/css3-color|CSS Color Level 3]]| | | | | | | | Rec, publish errata, 2nd edition if needed|
 | [[http://www.w3.org/TR/css3-namespace|CSS Namespaces]] |
 | [[http://www.w3.org/TR/selectors|Selectors Level 3]] |
 | [[http://www.w3.org/TR/CSS2/|CSS Level 2]] | REC 3e |
