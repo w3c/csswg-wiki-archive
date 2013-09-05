@@ -50,11 +50,18 @@ Sorted by family name:
 Regrets: John Daggett
 ===== Proposed Agenda Items =====
   * Discuss creation of a Fonts TF
-  * Resolve Masking shorthand syntax
   * Charter renewal
+  * Resolve Masking shorthand syntax
   * Multicol: assess test suite, resolve last remaining issues -- move to PR?
   * GCPM: publish WD
-  * CSS3 Writing Modes: issues, UTR50 status, publish WD?
-  * CSS Images: Animation of generated images (gradients, repeating gradients, cross-fade, filter)
+  * **CSS Images**: Animation of generated images (gradients, repeating gradients, cross-fade, filter)
   * DOMPoint, Quad, CSSMatrix common naming and scope ([[http://lists.w3.org/Archives/Public/www-style/2013Aug/0605.html|www-style]])
   * CSSStyleDeclaration: Setting only a value or a priority [[http://lists.w3.org/Archives/Public/www-style/2013Aug/0431.html]]
+  * **Transforms & Animations**, if edits are completed, any next steps
+  * **CSS3 Text**: text-align-last, how to resolve letter-spacing issues?
+  * **CSS3 Writing Modes**: issues, UTR50 status, publish WD?
+  * **Counter Styles**: DoC, CR?
+  * **Style Attributes**: Implementation Report? Move to PR?
+  * **Flexbox**: Remaining issues, LC
+  * **Grid Layout**: Resolve remaining recent changes, work on open issues.
+  * **CSS Ruby**: Review new draft, WD
