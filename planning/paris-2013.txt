@@ -51,7 +51,7 @@ Regrets: John Daggett
 ===== Proposed Agenda Items =====
   * Discuss creation of a Fonts TF
   * Charter renewal
-  * Resolve Masking shorthand syntax
+  * **CSS Masking**: resolve shorthand syntax
   * Multicol: assess test suite, resolve last remaining issues -- move to PR?
   * GCPM: publish WD
   * **CSS Images**: Animation of generated images (gradients, repeating gradients, cross-fade, filter)
