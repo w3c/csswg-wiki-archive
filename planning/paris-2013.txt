@@ -66,3 +66,5 @@ Regrets: John Daggett
   * **Grid Layout**: Resolve remaining recent changes, work on open issues.
   * **CSS Ruby**: Review new draft, WD
   * **Compositing & Blending**: Resolve issue 2, or why background-blend-mode is more author-friendly than creating n elements and positioning them in the background.
+  * **CSS Shapes**: New WD (last WD before LC?)
+  * Any interest in working out selection/editing based on display tree rather than DOM?
