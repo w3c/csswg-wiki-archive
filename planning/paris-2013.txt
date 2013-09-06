@@ -65,3 +65,4 @@ Regrets: John Daggett
   * **Flexbox**: Remaining issues, LC
   * **Grid Layout**: Resolve remaining recent changes, work on open issues.
   * **CSS Ruby**: Review new draft, WD
+  * **Compositing & Blending**: Resolve issue 2, or why background-blend-mode is more author-friendly than creating n elements and positioning them in the background.
