@@ -49,7 +49,6 @@ Sorted by family name:
 
 Regrets: John Daggett
 ===== Proposed Agenda Items =====
-  * Discuss creation of a Fonts TF
   * Charter renewal
   * **CSS Masking**: resolve shorthand syntax
   * Multicol: assess test suite, resolve last remaining issues -- move to PR?
