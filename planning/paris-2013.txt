@@ -47,7 +47,7 @@ Sorted by family name:
 | Villegas, Jet | Mozilla | ? | ? | ? | ? |  |
 | Zilles, Steve | Adobe| 9/10/2013 | 9/16/2013 | ? | ? |  |
 
-Regrets: John Daggett
+Regrets: John Daggett, Anton Prowse
 ===== Proposed Agenda Items =====
   * Charter renewal
   * **CSS Masking**: resolve shorthand syntax
