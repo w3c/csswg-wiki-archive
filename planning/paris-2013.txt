@@ -83,3 +83,4 @@ Regrets: John Daggett, Anton Prowse
   * **CSS Font Load Events** briefly discuss new Promises-based proposal from Tab
   * **F2F Planning** Sunday at TPAC, 2014 dates/places
   * **Spec preprocessor** Bert's scripts, Tab's thingy, status and plan
+  * sticky positioning
