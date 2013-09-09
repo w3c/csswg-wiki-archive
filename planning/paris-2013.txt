@@ -21,4 +21,63 @@ before:
   * 2013-09-07…08 [[http://indiewebcamp.com/2013/UK|IndieWebCampUK]], Brighton, UK.
   * 2013-09-10 [[http://lists.w3.org/Archives/Public/public-html/2013Jul/0055.html|Responsive Images meetup]], Paris.
 after:
-  * 2013-09-16…1
+  * 2013-09-16…17 [[http://www.w3.org/2012/12/global-publisher/|W3C Publishing Workshop]], Paris.
+  * 2013-09-17…18 [[https://www.w3.org/Member/Board/|W3C AB]], Cambridge, MA, USA
+
+===== Participants =====
+Sorted by family name:
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^ Wine-Testing ^
+| Adams, Glenn | CoxCom | 2013-09-10 | 2013-09-14 | Hotel Aston | FI542/541 | | yes |
+| Atanassov, Rossen | Microsoft | 2013-09-09 | 2013-09-14 | airbnb apt | DL615 | Going to Images | yes |
+| Atkins, Tab | Google | 2013-09-10 | 2013-09-14 | ? | In=LX39/LX656 Out=LX633/LX38 | | Yes |
+| Balan, Mihai | Adobe | 2013-09-10 | 2013-09-14 | Vendome Saint Germain | AF1889 / AF1588 | | |
+| Baron, L. David | Mozilla | 2013-09-08 | 2013-09-14 | ? | Eurostar/UA991 |  |
+| Bos, Bert | W3C | 2013-09-10 | 2013-09-18 | at a friend's | TGV | also workshop | yes |
+| Çelik, Tantek | Mozilla | 2013-09-10 | 2013-09-13 | airbnb apt | Eurostar TBD |  |  |
+| fantasai | Mozilla | 2013-09-10 11:10 | 2013-09-17 16:10 | Mozilla apt | AF83/AF80 | no |
+| Galineau, Sylvain | Adobe | 09/09/2013 | ? | ? | ? | 75% 
+| Glazman, Daniel | Disruptive Innovations | N/A | N/A | home | N/A | | yes |
+| Hilerio, Israel | Microsoft | 2013-09-09 | 2013-09-14 | ? | ? | Going to Images/Workshop |  |
+| Ishii, Koji | Rakuten | 2013-09-10 | 2013-09-14 | AF275 | AF276 | Faubourg |
+| Kazutaka, Yamamoto | NTT | 2013-09-10 | 2013-09-18  | LE MERIDIEN | LH1028／NH0206 | Also going to Workshop | yes |
+| Kilpatrick, Ian | Google | ? | ? | ? | ? | Observer | |
+| Lie, Håkon Wium | Opera | ? | ? | ? | ? | ? 
+| Lilley, Chris | W3C| 2013-09-10 | 2013-09-14 | Hôtel Vivienne  | TGV  | | yes |
+| Linss, Peter | HP | 2013-09-09 | 2013-09-18 | Pullman Paris Montparnasse | UA 987 / UA 55 | Also going to workshop |
+| O'Connor, Edward | Apple | 2013-09-08 | 2013-09-21 | Hôtel Les Jardins du Marais | UA990/UA991 | Also images/workshop |
+| Pieters, Simon | Opera | 2013-09-09 | 2013-09-13 | TRYP Paris Francois | ? | Also going to Workshop |
+| Quin, Liam | W3C | 2013-09-10 | 2013-09-17 | ? | ? | Also going to Workshop |
+| Rivoal, Florian | Invited Expert | ? | ? | ? | ? | Only attending on Friday |
+| Sapin, Simon | Mozilla | 2013-09-10 | 2013-09-14 | ? | ? |  | yes |
+| Schulze, Dirk | Adobe | ? | ? | ? | ? |  |
+| Stearns, Alan | Adobe | 2013-09-09 | 2013-09-18 | 3rd Ar. BnB | Delta 615/614 | Also going to Images/Workshop | yes |
+| Stephens, Shane | Google | 2013-09-10 | 2013-09-14 | Concorde Opera Paris Hotel | MH20 | | If I'm in town |
+| Storset, Leif Arne | Opera | 2013-09-10 | 2013-09-14 | ? | DY1496 / DY1491 | | yes  |
+| Taichi, Kawabata | NTT | 2013-09-10 | 2013-09-18 | Meridienne | JL041/JL414 | Also going to Workshop | yes |
+| Verou, Lea | Invited Expert | 2013-09-09 10:15 | 2013-09-13 | ? | LX634 | Will miss Friday | If I’m in town |
+| Villegas, Jet | Mozilla | ? | ? | ? | ? |  |
+| Zilles, Steve | Adobe| 9/10/2013 | 9/16/2013 | ? | ? |  |
+
+Regrets: John Daggett, Anton Prowse
+===== Proposed Agenda Items =====
+  * Charter renewal
+  * **CSS Masking**: resolve shorthand syntax
+  * **CSS Multi-column Layout**: assess test suite, resolve last remaining issues -- move to PR?
+  * **CSS Generated Content for Paged Media**: publish WD
+  * **CSS Images**: Animation of generated images (gradients, repeating gradients, cross-fade, filter)
+  * DOMPoint, Quad, CSSMatrix common naming and scope ([[http://lists.w3.org/Archives/Public/www-style/2013Aug/0605.html|www-style]])
+  * CSSStyleDeclaration: Setting only a value or a priority [[http://lists.w3.org/Archives/Public/www-style/2013Aug/0431.html]]
+  * **Transforms & Animations**, if edits are completed, any next steps
+  * **CSS3 Text**: text-align-last, how to resolve letter-spacing issues?
+  * **CSS3 Writing Modes**: issues, UTR50 status, publish WD?
+  * **Counter Styles**: DoC, CR?
+  * **Style Attributes**: Implementation Report? Move to PR?
+  * **Flexbox**: Remaining issues, LC
+  * **Grid Layout**: Resolve remaining recent changes, work on open issues.
+  * **CSS Ruby**: Review new draft, WD
+  * **Compositing & Blending**: Resolve issue 2, or why background-blend-mode is more author-friendly than creating n elements and positioning them in the background.
+  * **CSS Shapes**: New WD (last WD before LC?)
+  * Any interest in working out selection/editing based on display tree rather than DOM?
+  * **CSS Font Load Events** briefly discuss new Promises-based proposal from Tab
+  * **F2F Planning** Sunday at TPAC, 2014 dates/places
+  * **Spec preprocessor** Bert's scripts, Tab's thingy, status and plan
