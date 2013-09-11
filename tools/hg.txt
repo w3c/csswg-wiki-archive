@@ -14,7 +14,7 @@ With a distributed version control system, every user has their own repository, 
 
 ==== Installing Mercurial ====
 
-You need to first [[tools:hg:install|install Mercurial on your system]], if you haven't already. Our server is running version 2.3. Earlier versions should work, but we recommend using the latest client.
+You need to first [[tools:hg:install|install Mercurial on your system]], if you haven't already. Our server is running version 2.5. Earlier versions should work, but we recommend using the latest client.
 
 You can see if you already have Mercurial installed by opening up a command shell and typing:
 <code>
@@ -24,15 +24,17 @@ hg --version
 You should see something like:
 
 <code>
-Mercurial Distributed SCM (version 2.3)
+Mercurial Distributed SCM (version 2.5.1)
 (see http://mercurial.selenic.com for more information)
 </code>
 
-As long as the version number you see is 2.1 or higher, you have a new enough version of Mercurial.
+As long as the version number you see is 1.8 or higher, you have a new enough version of Mercurial.
 
 ==== Setting Up Mercurial Preferences ====
 
 Note: [[http://www.selenic.com/mercurial/hgrc.5.html|Detailed instructions for the config file]] are available, but for now, this guide will focus only on setting up the basics.
+
+N.B.: The instructions in the rest of this wiki page assume you've configured Mercurial as described here. For instance, the rest of this page assumes that you have the ''rebase'' extension enabled.
 
 Create a file in your home directory called ''.hgrc'', or ''%USERPROFILE%\mercurial.ini'' on Windows.  Give it the following contents, but with your name, email, username, password, and editor replaced appropriately:
 
