@@ -66,6 +66,57 @@ Sorted by family name:
 | Zilles, Steve | Adobe| 9/10/2013 | 9/16/2013 | ? | ? |  |
 
 Regrets: John Daggett, Anton Prowse
+
+===== Agenda =====
+
+==== Wed AM ====
+
+    Grid Layout: Resolve remaining recent changes, work on open issues.
+    Flexbox: Remaining issues, LC
+    CSS Multi-column Layout: assess test suite, resolve last remaining issues – move to PR?
+    CSS Shapes: New WD (last WD before LC?)
+
+
+==== Wed PM ====
+
+    Style Attributes: Implementation Report? Move to PR?
+    Spec preprocessor Bert's scripts, Tab's thingy, status and plan
+    CSSStyleDeclaration: Setting only a value or a priority http://lists.w3.org/Archives/Public/www-style/2013Aug/0431.html
+
+
+==== Thu AM ====
+
+    CSS Font Load Events (Wed AM) briefly discuss new Promises-based proposal from Tab
+    F2F Planning (Thurs AM) Sunday at TPAC, 2014 dates/places
+    Counter Styles: DoC, CR?
+    CSS Masking: resolve shorthand syntax
+
+
+==== Thu PM ====
+
+    CSS3 Text (Thurs, late PM) text-align-last, how to resolve letter-spacing issues?
+    CSS3 Writing Modes (Thurs, late PM) issues, UTR50 status, publish WD?
+    CSS Ruby (Thurs, late PM) Review new draft, WD
+    Compositing & Blending: Resolve issue 2, or why background-blend-mode is more author-friendly than creating n elements and positioning them in the background.
+    DOMPoint, Quad, CSSMatrix common naming and scope (www-style)
+
+
+==== Fri AM ====
+
+    CSS Generated Content for Paged Media: publish WD
+    Charter renewal
+        Milestones
+        Liaison with DPub IG (TF? joint calls? other?)
+    Any interest in working out selection/editing based on display tree rather than DOM?
+    Sticky positioning
+
+
+==== Fri PM ====
+
+    CSS Images: Animation of generated images (gradients, repeating gradients, cross-fade, filter)
+    Transforms & Animations, if edits are completed, any next steps
+
+
 ===== Proposed Agenda Items =====
   * Charter renewal
     * Milestones
