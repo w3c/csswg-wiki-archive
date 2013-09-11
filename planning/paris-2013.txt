@@ -91,6 +91,7 @@ Regrets: John Daggett, Anton Prowse
 
   * CSS Font Load Events (Wed AM) briefly discuss new Promises-based proposal from Tab
   * F2F Planning (Thurs AM) Sunday at TPAC, 2014 dates/places
+    * Joint day with SVG?
   * Counter Styles: DoC, CR?
   * CSS Masking: resolve shorthand syntax
 
