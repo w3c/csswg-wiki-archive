@@ -82,6 +82,7 @@ Regrets: John Daggett, Anton Prowse
 
   * CSS Multi-column Layout: assess test suite, resolve last remaining issues – move to PR?
   * CSS Shapes: New WD (last WD before LC?)
+  * Introduce Mihai as Regions test suite owner
 
 
 ==== Thu ====
