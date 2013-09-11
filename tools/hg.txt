@@ -34,6 +34,8 @@ As long as the version number you see is 1.8 or higher, you have a new enough ve
 
 Note: [[http://www.selenic.com/mercurial/hgrc.5.html|Detailed instructions for the config file]] are available, but for now, this guide will focus only on setting up the basics.
 
+N.B.: The instructions in the rest of this wiki page assume you've configured Mercurial as described here. For instance, the rest of this page assumes that you have the ''rebase'' extension enabled.
+
 Create a file in your home directory called ''.hgrc'', or ''%USERPROFILE%\mercurial.ini'' on Windows.  Give it the following contents, but with your name, email, username, password, and editor replaced appropriately:
 
   [ui]
