@@ -73,16 +73,15 @@ Regrets: John Daggett, Anton Prowse
 
 === AM ===
   * Grid Layout: Resolve remaining recent changes, work on open issues.
-  * Flexbox: Remaining issues, LC
-  * CSS Shapes: New WD (last WD before LC?)
+  * Style Attributes: Implementation Report? Move to PR?
+  * Spec preprocessor Bert's scripts, Tab's thingy, status and plan
+  * CSSStyleDeclaration: Setting only a value or a priority http://lists.w3.org/Archives/Public/www-style/2013Aug/0431.html
 
 
 === PM ===
 
-  * Style Attributes: Implementation Report? Move to PR?
-  * Spec preprocessor Bert's scripts, Tab's thingy, status and plan
   * CSS Multi-column Layout: assess test suite, resolve last remaining issues – move to PR?
-  * CSSStyleDeclaration: Setting only a value or a priority http://lists.w3.org/Archives/Public/www-style/2013Aug/0431.html
+  * CSS Shapes: New WD (last WD before LC?)
 
 
 ==== Thu ====
@@ -115,6 +114,7 @@ Regrets: John Daggett, Anton Prowse
     * Liaison with DPub IG (TF? joint calls? other?)
   * Any interest in working out selection/editing based on display tree rather than DOM?
   * Sticky positioning
+  * Flexbox: Remaining issues, LC
 
 
 === PM ===
