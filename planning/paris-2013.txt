@@ -77,17 +77,17 @@ Regrets: John Daggett, Anton Prowse
   * DOMPoint, Quad, CSSMatrix common naming and scope ([[http://lists.w3.org/Archives/Public/www-style/2013Aug/0605.html|www-style]])
   * CSSStyleDeclaration: Setting only a value or a priority [[http://lists.w3.org/Archives/Public/www-style/2013Aug/0431.html]]
   * **Transforms & Animations**, if edits are completed, any next steps
-  * **CSS3 Text**: text-align-last, how to resolve letter-spacing issues?
-  * **CSS3 Writing Modes**: issues, UTR50 status, publish WD?
+  * **CSS3 Text** (Thurs, late PM) text-align-last, how to resolve letter-spacing issues?
+  * **CSS3 Writing Modes** (Thurs, late PM) issues, UTR50 status, publish WD?
   * **Counter Styles**: DoC, CR?
   * **Style Attributes**: Implementation Report? Move to PR?
   * **Flexbox**: Remaining issues, LC
   * **Grid Layout**: Resolve remaining recent changes, work on open issues.
-  * **CSS Ruby**: Review new draft, WD
+  * **CSS Ruby** (Thurs, late PM) Review new draft, WD
   * **Compositing & Blending**: Resolve issue 2, or why background-blend-mode is more author-friendly than creating n elements and positioning them in the background.
   * **CSS Shapes**: New WD (last WD before LC?)
   * Any interest in working out selection/editing based on display tree rather than DOM?
-  * **CSS Font Load Events** briefly discuss new Promises-based proposal from Tab
-  * **F2F Planning** Sunday at TPAC, 2014 dates/places
+  * **CSS Font Load Events** (Wed AM) briefly discuss new Promises-based proposal from Tab
+  * **F2F Planning** (Thurs AM) Sunday at TPAC, 2014 dates/places
   * **Spec preprocessor** Bert's scripts, Tab's thingy, status and plan
   * sticky positioning
