@@ -80,6 +80,7 @@ Regrets: John Daggett, Anton Prowse
 
 === PM ===
 
+  * CSS Images: Animation of generated images (gradients, repeating gradients, cross-fade, filter)
   * CSS Multi-column Layout: assess test suite, resolve last remaining issues – move to PR?
   * CSS Shapes: New WD (last WD before LC?)
   * Introduce Mihai as Regions test suite owner
@@ -120,7 +121,6 @@ Regrets: John Daggett, Anton Prowse
 
 === PM ===
 
-  * CSS Images: Animation of generated images (gradients, repeating gradients, cross-fade, filter)
   * Transforms & Animations, if edits are completed, any next steps
 
 
