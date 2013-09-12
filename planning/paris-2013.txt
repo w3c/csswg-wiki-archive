@@ -101,7 +101,6 @@ Regrets: John Daggett, Anton Prowse
 === PM ===
 
   * CSS Generated Content for Paged Media: publish WD
-  * CSS3 Text (Thurs, late PM) text-align-last, how to resolve letter-spacing issues?
   * CSS3 Writing Modes (Thurs, late PM) issues, UTR50 status, publish WD?
   * CSS Ruby (Thurs, late PM) Review new draft, WD
   * Compositing & Blending: Resolve issue 2, or why background-blend-mode is more author-friendly than creating n elements and positioning them in the background.
@@ -114,6 +113,7 @@ Regrets: John Daggett, Anton Prowse
   * Charter renewal
     * Milestones
     * Liaison with DPub IG (TF? joint calls? other?)
+  * CSS3 Text (Thurs, late PM) text-align-last, how to resolve letter-spacing issues?
   * Any interest in working out selection/editing based on display tree rather than DOM?
   * Flexbox: Remaining issues, LC
   * Tab's color module
