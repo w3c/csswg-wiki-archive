@@ -94,6 +94,7 @@ Regrets: John Daggett, Anton Prowse
   * F2F Planning (Thurs AM) Sunday at TPAC, 2014 dates/places
     * Joint day with SVG?
   * CSS Masking: resolve shorthand syntax
+  * DOMPoint, Quad, CSSMatrix common naming and scope (www-style)
 
 
 === PM ===
@@ -102,7 +103,6 @@ Regrets: John Daggett, Anton Prowse
   * CSS3 Writing Modes (Thurs, late PM) issues, UTR50 status, publish WD?
   * CSS Ruby (Thurs, late PM) Review new draft, WD
   * Compositing & Blending: Resolve issue 2, or why background-blend-mode is more author-friendly than creating n elements and positioning them in the background.
-  * DOMPoint, Quad, CSSMatrix common naming and scope (www-style)
 
 
 ==== Fri ====
