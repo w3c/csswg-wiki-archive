@@ -116,6 +116,7 @@ Regrets: John Daggett, Anton Prowse
     * Liaison with DPub IG (TF? joint calls? other?)
   * Any interest in working out selection/editing based on display tree rather than DOM?
   * Flexbox: Remaining issues, LC
+  * Tab's color module
 
 
 === PM ===
