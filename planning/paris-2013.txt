@@ -102,7 +102,6 @@ Regrets: John Daggett, Anton Prowse
 
   * CSS Generated Content for Paged Media: publish WD
   * CSS3 Writing Modes (Thurs, late PM) issues, UTR50 status, publish WD?
-  * CSS Ruby (Thurs, late PM) Review new draft, WD
   * Compositing & Blending: Resolve issue 2, or why background-blend-mode is more author-friendly than creating n elements and positioning them in the background.
 
 
@@ -122,6 +121,7 @@ Regrets: John Daggett, Anton Prowse
 === PM ===
 
   * Counter Styles: DoC, CR?
+  * CSS Ruby (Thurs, late PM) Review new draft, WD
   * Transforms & Animations, if edits are completed, any next steps
 
 
