@@ -95,6 +95,7 @@ Regrets: John Daggett, Anton Prowse
     * Joint day with SVG?
   * CSS Masking: resolve shorthand syntax
   * DOMPoint, Quad, CSSMatrix common naming and scope (www-style)
+  * Sticky positioning
 
 
 === PM ===
@@ -114,7 +115,6 @@ Regrets: John Daggett, Anton Prowse
     * Milestones
     * Liaison with DPub IG (TF? joint calls? other?)
   * Any interest in working out selection/editing based on display tree rather than DOM?
-  * Sticky positioning
   * Flexbox: Remaining issues, LC
 
 
