@@ -115,13 +115,14 @@ Regrets: John Daggett, Anton Prowse
   * Charter renewal
     * Milestones
     * Liaison with DPub IG (TF? joint calls? other?)
-  * CSS3 Text (Thurs, late PM) text-align-last, how to resolve letter-spacing issues?
 
 
 === PM ===
 
-  * Counter Styles: DoC, CR?
+  * Charter cont'd
+  * CSS3 Text (Thurs, late PM) text-align-last, how to resolve letter-spacing issues?
   * CSS Ruby (Thurs, late PM) Review new draft, WD
+  * Counter Styles: DoC, CR?
   * Transforms & Animations, if edits are completed, any next steps
 
 
