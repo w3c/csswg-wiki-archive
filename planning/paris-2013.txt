@@ -120,8 +120,8 @@ Regrets: John Daggett, Anton Prowse
 === PM ===
 
   * Charter cont'd
-  * CSS3 Text (Thurs, late PM) text-align-last, how to resolve letter-spacing issues?
   * CSS Ruby (Thurs, late PM) Review new draft, WD
+  * CSS3 Text (Thurs, late PM) text-align-last, how to resolve letter-spacing issues?
   * Counter Styles: DoC, CR?
   * Transforms & Animations, if edits are completed, any next steps
 
