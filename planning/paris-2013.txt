@@ -109,13 +109,13 @@ Regrets: John Daggett, Anton Prowse
 
 === AM ===
 
+  * Any interest in working out selection/editing based on display tree rather than DOM?
+  * Flexbox: Remaining issues, LC
+  * Tab's color module
   * Charter renewal
     * Milestones
     * Liaison with DPub IG (TF? joint calls? other?)
   * CSS3 Text (Thurs, late PM) text-align-last, how to resolve letter-spacing issues?
-  * Any interest in working out selection/editing based on display tree rather than DOM?
-  * Flexbox: Remaining issues, LC
-  * Tab's color module
 
 
 === PM ===
