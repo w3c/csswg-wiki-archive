@@ -50,12 +50,12 @@ Use the Notes column for notes to ourselves. They won't be in the charter.
 | [[http://www.w3.org/TR/css-shapes/|CSS Shapes]] | | | | | | | | | expect CR |
 | [[http://www.w3.org/TR/filter-effects/|Filter Effects]] |
 | [[http://www.w3.org/TR/css3-gcpm|CSS Generated Content for Paged Media]] |
-| [[http://www.w3.org/TR/css3-grid-layout|CSS Grid Layout]] |  | | | | | | | | likely CR |
+| [[http://www.w3.org/TR/css3-grid-layout|CSS Grid Layout]] |  | | | | | | | | expect CR |
 | [[http://www.w3.org/TR/css3-layout|CSS (Grid) Template Layout]] | | | | | | CR |
 | [[http://www.w3.org/TR/css3-sizing/|CSS Intrinsic &amp; Extrinsic Sizing Module Level 3]] | | | |
 | CSS Line Grid | | | |
 | [[http://www.w3.org/TR/css3-lists|CSS Lists Level 3]] | | | | | | | | | expect some progress along WD track, CR possible |
-| [[http://www.w3.org/TR/css3-positioning/|CSS Positioned Layout Level 3]] | | | |
+| [[http://www.w3.org/TR/css3-positioning/|CSS Positioned Layout Level 3]] | | | | | | | | | likely CR |
 | [[http://www.w3.org/TR/css3-preslev|CSS Presentation Levels]] | | | |
 | [[http://www.w3.org/TR/css3-regions|CSS Regions]] | | | | | | | | | expect CR |
 | CSS Tables Level 3 | | | | | | | | | unchanged |
