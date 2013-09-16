@@ -18,3 +18,4 @@ That should be corrected if anyone invents a time machine. :P
   * There should have been a predictable color naming system instead of arbitrary X11 names.
   * ''border-radius'' should have been ''border-corner''.
   * Absolutely-positioned replaced elements should stretch when opposite offset properties (e.g. left+right) are set, instead of being start-aligned.
+  * The ''hyphens'' property should be called ''hyphenate''. (It's called ''hyphens'' because the XSL:FO people objected to ''hyphenate''.)
