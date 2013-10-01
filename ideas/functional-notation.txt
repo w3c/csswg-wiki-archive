@@ -72,7 +72,7 @@ http://lists.w3.org/Archives/Public/www-style/2012Jan/0933.html
 No change to Color as part of this effort.  (We believe that percentages should be usable for opacity, and angles for hue, but those will be pursued as part of Colors 4.)
 
 
-===== Exclusions ===== 
+===== Shapes ===== 
   ; Before
   : ''rectangle(<length>, <length>, <length>, <length> [, [<length>,] <length>])''
   ; After
