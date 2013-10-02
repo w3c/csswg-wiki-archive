@@ -125,7 +125,7 @@ For latest edits/resolutions, see the editors draft:
   ; URL : http://dev.w3.org/csswg/css3-ui/#pointer-events
   ; Proposed resolution : informative note in the definition of the 'pointer-events' property would help steer authors to think about how they are using this (such as a suggestion that if pointer-events are turned off, authors should also consider making the element not 
 focusable, as well).
-  ; Status : resolved, informative note added to editor's draft. awaiting public draft.
+  ; Status : Resolved, informative note added to editor's draft. awaiting public draft.
   
 ==== Issue 13 ====
   ; Summary : should CSS3 UI (or some future version) incorporate a 'focusable' property (like in SVG)
@@ -173,7 +173,7 @@ focusable, as well).
   ; URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0109.html
   ; URL : http://www.w3.org/TR/2008/CR-css3-marquee-20081205/#overflow-style
   ; Proposed Resolution : Render same as user controlled scrolling. Add mention of overflow-style to parenthetical examples listed after "When an element is scrolled".
-  ; Status : resolution going into editor's draft, awaiting public draft.
+  ; Status : Resolved. Editor's draft updated, awaiting public draft.
 
 ==== Issue 19 ====
   ; Summary : CSS3-UI should define 'overflow-x' and 'overflow-y' properties
@@ -270,11 +270,11 @@ and the second value for the left edge.
   ; Status : Resolved. Need to edit editor's draft.
 
 ==== Issue 25 ====
-  ; Summary : nav-index properties are not well implemented, nor expected to be. also, they're problematic. 
+  ; Summary : nav-index property is not well implemented, nor expected to be. also, is problematic (per similar issues on tabindex in HTML). 
   ; Raised by : Tantek Çelik
   ; URL : here's one: http://lists.w3.org/Archives/Public/www-style/2012Oct/thread.html#msg468
   ; URL : http://wiki.csswg.org/spec/css4-ui#nav-properties
-  ; Proposed Resolution : drop nav-index property from CSS3-UI in next CR draft, move current text to a workspace page like I did for pointer-events: http://www.w3.org/wiki/User:Tantekelik#CSSWG , mark directional nav-* properties at risk.
+  ; Proposed Resolution : drop nav-index property from CSS3-UI in next CR draft, move current text to a workspace page like I did for pointer-events: http://www.w3.org/wiki/User:Tantekelik#CSSWG , mark directional nav-* properties at risk (only because Presto is at risk - note two implementation anyway, including Safari for TV(?))
   ; Status : Need to edit editor's draft.
 
 ==== Issue 26 ====
@@ -284,7 +284,7 @@ and the second value for the left edge.
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013Apr/0058.html
   ; URL : https://bugzilla.mozilla.org/show_bug.cgi?id=880672
   ; Proposed Resolution : edit the spec, add the values
-  ; Status : Need to edit editor's draft
+  ; Status : Resolved. Need to edit editor's draft
 
 ==== Issue 27 ====
   ; Summary : specify that 'cursor' propagates from the root to the viewport
@@ -292,9 +292,15 @@ and the second value for the left edge.
   ; URL : http://krijnhoetmer.nl/irc-logs/whatwg/20130523#l-684
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013May/0301.html
   ; Proposed Resolution : Edit definition of 'cursor' to state (similar to how 'background' does in CSS3 Backgrounds) that it propagates from the root element to the viewport.
-  ; Status : Need to edit editor's draft
+  ; Status : Resolved. Need to edit editor's draft
 
-  
+==== Issue 28 ====
+  ; Summary : link to nav-* directional navigation tests from nav-* section, and in tests section in header
+  ; Raised by : Tantek Çelik
+  ; URL : http://test.csswg.org/source/contributors/opera/submitted/css3-ui/
+  ; Proposed Resolution : Edit spec accordingly, note that Opera/Presto desktop supports nav-* directional navigation with "shift+arrow".
+  ; Status : Resolved. Need to edit editor's draft
+
 ...
 
 
