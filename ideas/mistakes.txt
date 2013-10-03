@@ -1,4 +1,4 @@
-====== List of Mistakes in the Design of CSS ======
+====== Incomplete List of Mistakes in the Design of CSS ======
 
 That should be corrected if anyone invents a time machine. :P
 
@@ -20,3 +20,4 @@ That should be corrected if anyone invents a time machine. :P
   * Absolutely-positioned replaced elements should stretch when opposite offset properties (e.g. left+right) are set, instead of being start-aligned.
   * The ''hyphens'' property should be called ''hyphenate''. (It's called ''hyphens'' because the XSL:FO people objected to ''hyphenate''.)
   * ''flex: 0'' should have meant an infinitesimal value that still causes flexing, so there's not as strong of a discontinuous behavior shift from zero to non-zero. A "none" keyword would turn off flexing entirely.
+  * ''rgba()'' and ''hsla()'' should not exist, ''rgb()'' and ''hsl()''  should have gotten an optional fourth parameter instead (and the alpha value should have used the same format as R, G, and B or S and L).
