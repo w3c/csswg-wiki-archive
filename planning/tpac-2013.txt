@@ -14,6 +14,7 @@
 ===== Participants =====
 Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Adams, Glenn | Cox | 10 Nov | 16 Nov | 五洲宾馆 | UA869/UA862 | Tuesday Only |
 | Baron, L. David | Mozilla | ? | ? | ? | ? | |
 | Daggett, John | Mozilla | ? | ? | ? | ? | |
 | fantasai | Mozilla | 8 Nov | 15 Nov | ? | SQ1/SQ2 | |
