@@ -24,7 +24,7 @@ hg --version
 You should see something like:
 
 <code>
-Mercurial Distributed SCM (version 2.5.1)
+Mercurial Distributed SCM (version 2.7.2)
 (see http://mercurial.selenic.com for more information)
 </code>
 
