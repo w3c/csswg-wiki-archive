@@ -41,3 +41,4 @@ Sorted by family name:
     * [[http://www.w3.org/Style/2013/paged-media-tasks|List of CSS features required for paged media]] by Bert Bos
     * [[http://www.w3.org/dpub/IG/wiki/UseCase_Directory|Use cases directory]] by DPub IG (not all of them require CSS)
   * Meeting with SVG WG
+  * Box generation and elements as regions
