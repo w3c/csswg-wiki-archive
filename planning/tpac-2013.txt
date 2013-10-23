@@ -43,3 +43,4 @@ Sorted by family name:
   * Meeting with SVG WG
   * Box generation and elements as regions
   * canvas() CSS Image
+  * device-pixel-ratio
