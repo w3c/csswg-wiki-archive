@@ -37,7 +37,7 @@ Sorted by family name:
 
   * CSS Writing Modes issues: Tr fallback (with I18N folks)
   * Meeting with DigiPub IG. Some documents with discussion topics:
-    * [[https://docs.google.com/document/d/1VWrdPjW5O6UQoFXUmQacJuQ68mji2wMkm-u8PMFJZik/edit?usp=sharing|Pagination requirements]] by Dave Cramer (Hachette) for DPub IG
+    * [[http://w3c.github.io/dpub/Pagination/dpig-pagination-respec.html|Pagination requirements]] by Dave Cramer (Hachette) for DPub IG
     * [[http://www.w3.org/Style/2013/paged-media-tasks|List of CSS features required for paged media]] by Bert Bos
     * [[http://www.w3.org/dpub/IG/wiki/UseCase_Directory|Use cases directory]] by DPub IG (not all of them require CSS)
   * Meeting with SVG WG
