@@ -44,3 +44,4 @@ Sorted by family name:
   * Box generation and elements as regions
   * canvas() CSS Image
   * device-pixel-ratio
+  * Publish CSS 2.1 Revised Rec (any issues that cannot be postponed? date for PER?)
