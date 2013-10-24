@@ -42,6 +42,6 @@ Sorted by family name:
     * [[http://www.w3.org/dpub/IG/wiki/UseCase_Directory|Use cases directory]] by DPub IG (not all of them require CSS)
   * Meeting with SVG WG
   * Box generation and elements as regions
-  * canvas() CSS Image
+  * canvas() video() CSS Image
   * device-pixel-ratio
   * Publish CSS 2.1 Revised Rec (any issues that cannot be postponed? date for PER?)
