@@ -36,6 +36,7 @@ Sorted by family name:
 
   * Anton Prowse
   * Florian Rivoal
+  * Daniel Glazman
 ===== Proposed Agenda Topics =====
 
   * CSS Writing Modes issues: Tr fallback (with I18N folks)
