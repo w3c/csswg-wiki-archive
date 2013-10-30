@@ -48,3 +48,4 @@ Sorted by family name:
   * canvas() video() CSS Image
   * device-pixel-ratio
   * Publish CSS 2.1 Revised Rec (any issues that cannot be postponed? date for PER?)
+  * Basic Shape syntax
