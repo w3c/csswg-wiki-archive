@@ -51,3 +51,4 @@ Sorted by family name:
   * Publish CSS 2.1 Revised Rec (any issues that cannot be postponed? date for PER?)
   * Basic Shape syntax
   * Prefixing policy
+  * Next steps for GCPM
