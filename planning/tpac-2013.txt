@@ -16,7 +16,7 @@ Sorted by family name:
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Adams, Glenn | Cox | 10 Nov | 16 Nov | 五洲宾馆 | UA869/UA862 | Tuesday Only |
 | Atanassov, Rossen | Microsoft | ? | ? | ? | ? |  |
-| Baron, L. David | Mozilla | 五洲宾馆 | 11月8日 | 11月15日 | | |
+| Baron, L. David | Mozilla | 11月8日 | 11月15日 | 五洲宾馆 | | |
 | Bos, Bert | W3C | 8 Nov | 17 Nov | Wuzhou Guest House | LH796/LH797 | Also TTWF |
 | Cramer, Dave | Hachette | 9 Nov | 14 Nov | Pavilion Century Tower | UA895 | Overlap with DPIG |
 | fantasai | Mozilla | 8 Nov | 15 Nov | ? | SQ1/SQ2 | |
