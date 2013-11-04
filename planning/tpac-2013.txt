@@ -45,7 +45,7 @@ Sorted by family name:
 ===== Proposed Agenda Topics =====
 
   * CSS Writing Modes issues: Tr fallback (with I18N folks)
-  * Meeting with DigiPub IG. Some documents with discussion topics:
+  * [Monday after lunch] Meeting with DigiPub IG. Some documents with discussion topics:
     * [[http://w3c.github.io/dpub-pagination/index.html|Pagination requirements]] by Dave Cramer (Hachette) for DPub IG
     * [[http://www.w3.org/Style/2013/paged-media-tasks|List of CSS features required for paged media]] by Bert Bos
     * [[http://www.w3.org/dpub/IG/wiki/UseCase_Directory|Use cases directory]] by DPub IG (not all of them require CSS)
