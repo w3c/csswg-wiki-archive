@@ -61,3 +61,4 @@ Sorted by family name:
   * [[http://www.w3.org/TR/css3-text/|Text]] module [[http://www.w3.org/Search/Mail/Public/advanced_search?keywords=%5Bcss-text%5D&hdr-1-name=subject&hdr-1-query=&hdr-2-name=from&hdr-2-query=&hdr-3-name=message-id&hdr-3-query=&period_month=&period_year=2013&index-grp=Public__FULL&index-type=t&type-index=www-style&resultsperpage=100&sortby=date|comments]] (last call ends Nov 7)
   * Filter Effects and filtering different layers of an element (hopefully short)
   * outline-* properties and accessibility (effected by clipping, masking, blending, filtering, transforms?)
+  * Discuss issues on 'fill' and 'stroke' for CSS Text Decoration
