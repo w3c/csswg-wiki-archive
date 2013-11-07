@@ -63,3 +63,5 @@ Sorted by family name:
   * outline-* properties and accessibility (effected by clipping, masking, blending, filtering, transforms?) [[http://lists.w3.org/Archives/Public/www-style/2013May/0668.html|1]] [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0015.html|2]]
   * Discuss issues on 'fill' and 'stroke' for CSS Text Decoration [[http://lists.w3.org/Archives/Public/www-svg/2013Jun/0084.html|1]]
   * Discuss officially working on CSS Masking Level 2 (hopefully short)
+  * New WD Filter Effects (New security model added, lot of clean up and clarifications)
+  * New WD CSS Transforms (Added property value descriptions, clarifications, new matrix decomposing code)
