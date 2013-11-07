@@ -66,4 +66,4 @@ Sorted by family name:
   * New WD Filter Effects (New security model added, lot of clean up and clarifications)
   * New WD CSS Transforms (Added property value descriptions, clarifications, new matrix decomposing code)
   * Geometry API - discuss open issues; FPWD?
-  * Selecting attributes with Selectors
+  * Selecting attributes with Selectors (::attr(foo) or @foo)
