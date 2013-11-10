@@ -61,8 +61,8 @@ Sorted by family name:
 
   * Discuss officially working on CSS Masking Level 2 (hopefully short)
   * Filter Effects and filtering different layers of an element (hopefully short)
-  * New WD CSS Transforms (Added property value descriptions, clarifications, new matrix decomposing code)
-  * Geometry API - discuss open issues; FPWD?
+  * Prefixing policy
+  * Publish CSS 2.1 Revised Rec (any issues that cannot be postponed? date for PER?)
 
 ==== Monday ====
 
@@ -82,8 +82,6 @@ Sorted by family name:
 
   * outline-* properties and accessibility (effected by clipping, masking, blending, filtering, transforms?) [[http://lists.w3.org/Archives/Public/www-style/2013May/
 0668.html|1]] [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0015.html|2]]
-  * Prefixing policy
-  * Publish CSS 2.1 Revised Rec (any issues that cannot be postponed? date for PER?)
 
 
 ==== Tuesday ====
@@ -98,6 +96,8 @@ Sorted by family name:
 
   * Joint Meeting with SVG WG
     * New WD Filter Effects (New security model added, lot of clean up and clarifications)
+    * New WD CSS Transforms (Added property value descriptions, clarifications, new matrix decomposing code)
+    * Geometry API - discuss open issues; FPWD?
 
 
 
