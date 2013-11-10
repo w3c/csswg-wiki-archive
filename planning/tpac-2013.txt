@@ -77,7 +77,7 @@ Sorted by family name:
     * [[http://w3c.github.io/dpub-pagination/index.html|Pagination requirements]] by Dave Cramer (Hachette) for DPub IG
     * [[http://www.w3.org/Style/2013/paged-media-tasks|List of CSS features required for paged media]] by Bert Bos
     * [[http://www.w3.org/dpub/IG/wiki/UseCase_Directory|Use cases directory]] by DPub IG (not all of them require CSS)
-    * [[http://www.w3.org/TR/WD-XSLReq|list of requirements for XSL]] by Norm Walsh in 1998
+    * [[http://www.w3.org/TR/xslfo20-req/|list of requirements for XSL, Version 2 by Klass Bals]] 
 
   * outline-* properties and accessibility (effected by clipping, masking, blending, filtering, transforms?) [[http://lists.w3.org/Archives/Public/www-style/2013May/
 0668.html|1]] [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0015.html|2]]
