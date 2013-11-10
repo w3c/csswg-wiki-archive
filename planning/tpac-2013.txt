@@ -44,6 +44,62 @@ Sorted by family name:
   * Anton Prowse
   * Florian Rivoal
   * Daniel Glazman
+
+===== Agenda  =====
+
+==== Sunday ====
+
+=== AM ===
+
+  * Next steps for GCPM
+  * canvas() video() CSS Image
+  * device-pixel-ratio
+  * Basic Shape syntax
+
+=== PM ===
+
+  * Discuss officially working on CSS Masking Level 2 (hopefully short)
+  * Filter Effects and filtering different layers of an element (hopefully short)
+  * New WD Filter Effects (New security model added, lot of clean up and clarifications)
+  * New WD CSS Transforms (Added property value descriptions, clarifications, new matrix decomposing code)
+  * Geometry API - discuss open issues; FPWD?
+
+==== Monday ====
+
+=== AM ===
+
+  * Box generation and elements as regions
+  * display:none on fragment containers
+  * Selecting attributes with Selectors (::attr(foo) or @foo)
+  * IndieUI Joint Meeting (after break)
+
+=== PM ===
+  * DigiPub IG Joint Meeting 
+    * [[http://w3c.github.io/dpub-pagination/index.html|Pagination requirements]] by Dave Cramer (Hachette) for DPub IG
+    * [[http://www.w3.org/Style/2013/paged-media-tasks|List of CSS features required for paged media]] by Bert Bos
+    * [[http://www.w3.org/dpub/IG/wiki/UseCase_Directory|Use cases directory]] by DPub IG (not all of them require CSS)
+
+  * outline-* properties and accessibility (effected by clipping, masking, blending, filtering, transforms?) [[http://lists.w3.org/Archives/Public/www-style/2013May/
+0668.html|1]] [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0015.html|2]]
+  * Prefixing policy
+  * Publish CSS 2.1 Revised Rec (any issues that cannot be postponed? date for PER?)
+
+
+==== Tuesday ====
+
+=== AM ===
+
+  * Discuss issues on 'fill' and 'stroke' for CSS Text Decoration [[http://lists.w3.org/Archives/Public/www-svg/2013Jun/0084.html|1]]
+  * CSS Writing Modes issues: Tr fallback (with I18N folks)
+  * [[http://www.w3.org/TR/css3-text/|Text]] module [[http://www.w3.org/Search/Mail/Public/advanced_search?keywords=%5Bcss-text%5D&hdr-1-name=subject&hdr-1-query=&hdr-2-name=from&hdr-2-query=&hdr-3-name=message-id&hdr-3-query=&period_month=&period_year=2013&index-grp=Public__FULL&index-type=t&type-index=www-style&resultsperpage=100&sortby=date|comments]] (last call ends Nov 7)
+
+=== PM ===
+
+  * Joint Meeting with SVG WG
+
+
+
+
 ===== Proposed Agenda Topics =====
 
   * CSS Writing Modes issues: Tr fallback (with I18N folks)
