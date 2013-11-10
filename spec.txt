@@ -6,6 +6,7 @@ Looking for a [[https://www.w3.org/Bugs/Public/describecomponents.cgi?product=CS
 ===== REC or PR =====
 RECOMMENDATIONS:
   * [[spec:css2.1|CSS Level 2 Revision 1]]
+  * [[spec:css2.2|CSS level 2 Revision 2]]
   * [[spec:css3-color|CSS Color Module Level 3]]
   * [[http://www.w3.org/TR/css3-namespace/|CSS Namespaces Module]]
   * [[spec:css3-selectors|Selectors Level 3]]
