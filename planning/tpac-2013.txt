@@ -60,6 +60,7 @@ Sorted by family name:
 === PM ===
 
   * Discuss officially working on CSS Masking Level 2 (hopefully short)
+  * Filter Effects and filtering different layers of an element (hopefully short)
   * New WD CSS Transforms (Added property value descriptions, clarifications, new matrix decomposing code)
   * Geometry API - discuss open issues; FPWD?
 
@@ -96,7 +97,6 @@ Sorted by family name:
 === PM ===
 
   * Joint Meeting with SVG WG
-    * Filter Effects and filtering different layers of an element (hopefully short)
     * New WD Filter Effects (New security model added, lot of clean up and clarifications)
 
 
