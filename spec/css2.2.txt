@@ -12,7 +12,7 @@ The required metadata for the test is **[instructions forthcoming].**
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.6.2.1|'inherit' value (6.2.1)]] | | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.6.1.1|'inherit' value (6.1.1)]] | | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.8.3.1c|collapsing margins & 'min-height' (8.3.1)]] | | |
-| [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.10.7|collapseing margins & 'min-height' (10.7)]] | | |
+| [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.10.7|collapsing margins & 'min-height' (10.7)]] | | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.8.3.1d|collapsing bottom margin]] | | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.15.3a|"inherit" as font family name]] | | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.4.3.1|no space after unary minus or plus (4.3.1)]] | | |
