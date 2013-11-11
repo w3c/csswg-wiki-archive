@@ -70,6 +70,7 @@ Sorted by family name:
 
   * display:none on fragment containers
   * Selecting attributes with Selectors (::attr(foo) or @foo)
+  * Also discuss ::cue? Sylvia is next door
   * IndieUI Joint Meeting (after break)
 
 === PM ===
