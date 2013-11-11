@@ -1,6 +1,6 @@
 ==== CSS 2 Revision 2 ====
 
-The second revision of <html><cite>CSS level 2</cite></html> integrates a handful of errata since the publication of <html><cite>CSS level 1 revision 1.</cite></html>
+The second revision of <html><cite>CSS level 2</cite></html> integrates a handful of errata since the publication of <html><cite>CSS level 2 revision 1.</cite></html>
 
 === Test suite authors for errata ===
 
