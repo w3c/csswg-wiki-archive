@@ -25,7 +25,7 @@ The required metadata for the test is **[instructions forthcoming].**
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.4.1.1a|'url()' may be escaped (4.1.1)]] | Simon Sapin | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.G.2d|'url()' may be escaped (G.2)]] | | Same tests as previous errata |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.4.1.1b|Unicode control characters allowed (4.1.1)]] | Simon Sapin | |
-| [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.4.1.3d|Unicode control characters allowed (4.1.3)]] | Simon Sapin | |
+| [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.4.1.3d|Unicode control characters allowed (4.1.3)]] | | Same tests as above |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.4.4|role of BOM in UTF-x]] | | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.11.1.1b|'overflow' in tables]] | | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.15.3b|error in grammar rule]] | | No tests needed? |
