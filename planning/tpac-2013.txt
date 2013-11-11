@@ -82,7 +82,6 @@ Sorted by family name:
 
   * outline-* properties and accessibility (effected by clipping, masking, blending, filtering, transforms?) [[http://lists.w3.org/Archives/Public/www-style/2013May/
 0668.html|1]] [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0015.html|2]]
-  * Also discuss ::cue? Sylvia is next door (After afternoon break)
 
 
 ==== Tuesday ====
