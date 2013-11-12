@@ -1,3 +1,13 @@
+<html>
+<strong>
+<div style="color: red; font-size: 20px; border: 2px solid red; padding: 10px; line-height: 1.5; text-align: center;">
+This page has been deprecated and is no longer being maintained. 
+<br>For up to date information on contributing and authoring CSS Test suites, see: 
+<br><a href="http://testthewebforward.org/docs/reftests.html">http://testthewebforward.org/docs/reftests.html</a>
+</strong>
+</div>
+</html>
+
 ====== Reftests ======
 
 A //reftest// is a test that compares the visual output of one file (the testcase) with the output of one or more other files (the references). Unlike the standard [[test:selftest|self-describing tests]], reftests can be scripted to run and report results automatically.
