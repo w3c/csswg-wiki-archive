@@ -1,3 +1,13 @@
+<html>
+<strong>
+<div style="color: red; font-size: 20px; border: 2px solid red; padding: 10px; line-height: 1.5; text-align: center;">
+This page has been deprecated and is no longer being maintained. 
+<br>For information on test fonts and authoring CSS Test suites, see: 
+<br><a href="http://testthewebforward.org/docs/test-style-guidelines.html#special-fonts">http://testthewebforward.org/docs/test-style-guidelines.html#special-fonts</a>
+</strong>
+</div>
+</html>
+
 ====== Fonts for CSS Testing ======
 
 If you don't have the CSS testing fonts installed, many tests will appear to fail! Install the [[http://www.w3.org/Style/CSS/Test/Fonts/|CSS Testing Fonts]] if you want accurate test results.
