@@ -1,3 +1,14 @@
+<html>
+<strong>
+<div style="color: red; font-size: 20px; border: 2px solid red; padding: 10px; line-height: 1.5; text-align: center;">
+This page has been deprecated and is no longer being maintained. 
+<br>For the current review policy and procedure, see: 
+<br><a href="http://testthewebforward.org/docs/review-process.html">http://testthewebforward.org/docs/review-process.html</a>
+<br><a href="http://testthewebforward.org/docs/review-checklist.html">http://testthewebforward.org/docs/review-checklist.html</a>
+</strong>
+</div>
+</html>
+
 ====== Reviewing Tests ======
 
 In order to encourage a higher level of quality in the CSS test suites, tests that have been individually reviewed for correctness and usability are assigned an Approved status and placed in the top-level ''approved/'' directory. Additions and changes to the Approved section of the test suite must be reviewed before they can be checked in.
