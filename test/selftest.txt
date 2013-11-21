@@ -1,3 +1,13 @@
+<html>
+<strong>
+<div style="color: red; font-size: 20px; border: 2px solid red; padding: 10px; line-height: 1.5; text-align: center;">
+This page has been deprecated and is no longer being maintained. 
+<br>For up to date information on contributing and authoring CSS Test suites, see: 
+<br><a href="http://testthewebforward.org/docs/test-style-guidelines.html#self-describing-tests">http://testthewebforward.org/docs/test-style-guidelines.html#self-describing-tests</a>
+</strong>
+</div>
+</html>
+
 ====== Self-Describing Tests ======
 
 A self-describing test is a test page that describes what the page should look like when the test has passed. A human examining the test page can then determine from the description whether the test has passed or failed.
