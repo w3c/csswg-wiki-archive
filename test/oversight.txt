@@ -23,7 +23,9 @@ The following table shows the owners and peers of the CSS Test Suites. Currently
 | CSS Transforms | Edward O'Connor |
 | CSS Animations | Øyvind Stenhaug |
 | CSSOM | Glenn Adams |
+| Compositing & Blending | Mirela Budaes, Rik Cabanier |
 | CSS3 Regions | Mihai Balan, Alan Stearns |
+| CSS3 Shapes | Rebecca Hauck, Alan Stearns |
 | CSS3 Exclusions | Alan Stearns |
 
 The overall Owner for the W3C CSS Testing efforts is Rebecca Hauck. Finally, the CSS Working Group has the highest authority over the project and may be consulted where deemed necessary.
