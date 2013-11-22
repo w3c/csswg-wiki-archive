@@ -1,12 +1,19 @@
-====== W3C CSS Testing IRC Discussion ======
+====== Internet Relay Chat (IRC) ======
 
 IRC stands for "Internet Relay Chat". It's a chat protocol used extensively at W3C.
 
-We have weekly "Test Days" on Wednesdays when a bunch of us plan to hang out on the IRC channel to answer questions and discuss CSS testing. There's no set time, but you're more likely to run into people during West Coast daytime / Europe evenings.
+The CSSWG's channels aren't particularly busy except during meetings or events, but they're a critical part of our communication tools. You're most likely to run into people during West Coast daytime / Europe evenings.
 
 ===== Server Info =====
 
-We have a channel dedicated to CSS testing. Here's the information you'll need:
+
+The main CSSWG channel is used by the CSS Working Group members during meetings and for quick coordination during off-hours. Topic is anything we work on. (Help with using CSS is off-topic.)
+
+  ; Server : irc.w3.org
+  ; Port : 6665 (or 80 if 6665 is blocked on your end)
+  ; Channel : #css
+
+We also have a channel dedicated to CSS conformance testing. Here's the information you'll need:
 
   ; Server : irc.w3.org
   ; Port : 6665 (or 80 if 6665 is blocked on your end)
