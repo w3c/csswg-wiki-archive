@@ -274,7 +274,7 @@ and the second value for the left edge.
   ; Raised by : Tantek Çelik
   ; URL : here's one: http://lists.w3.org/Archives/Public/www-style/2012Oct/thread.html#msg468
   ; URL : http://wiki.csswg.org/spec/css4-ui#nav-properties
-  ; Proposed Resolution : drop nav-index property from CSS3-UI in next CR draft, move current text to a workspace page like I did for pointer-events: http://www.w3.org/wiki/User:Tantekelik#CSSWG , mark directional nav-* properties at risk (only because Presto is at risk - note two implementation anyway, including Safari for TV(?))
+  ; Proposed Resolution : drop nav-index property from CSS3-UI in next CR draft, move current text to a workspace page like I did for pointer-events: http://www.w3.org/wiki/User:Tantekelik#CSSWG , mark directional nav-* properties NOT at risk (note multiple implementations per http://www.w3.org/2013/11/27-css-irc )
   ; Status : Need to edit editor's draft.
 
 ==== Issue 26 ====
@@ -298,6 +298,8 @@ and the second value for the left edge.
   ; Summary : link to nav-* directional navigation tests from nav-* section, and in tests section in header
   ; Raised by : Tantek Çelik
   ; URL : http://test.csswg.org/source/contributors/opera/submitted/css3-ui/
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Nov/0271.html
+  ; URL : https://github.com/w3c/csswg-test/pull/372
   ; Proposed Resolution : Edit spec accordingly, note that Opera/Presto desktop supports nav-* directional navigation with "shift+arrow".
   ; Status : Resolved. Need to edit editor's draft
 
