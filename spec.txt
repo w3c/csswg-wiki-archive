@@ -98,6 +98,7 @@ CSSWG members' comments on related specs not published by our group.
   * [[spec:process|Process suggestions for advancing a spec]] --- guidelines for when to advance your spec to the next stage
   * [[spec:teststatus|Test status information on spec]] --- adding information about testing status on the spec
   * [[spec:levels|Specification levels]] -- which levels to publish each spec as
+  * [[spec:promises|Using Promises in Specifications]]
 ====== Coordination between specifications ======
   * [[spec:dfn-patterns|Marking up your <dfn>s for proper cross-linking]]
   * [[spec:cssom-constants|CSSOM Constants]]
