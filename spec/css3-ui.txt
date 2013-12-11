@@ -1,6 +1,7 @@
 ====== css3-ui ======
 See also:
   * http://www.w3.org/wiki/CSSWG#css3-ui
+  * http://wiki.csswg.org/spec/css4-ui (for new and postponed CSS UI features)
 
 
 FAQ:
