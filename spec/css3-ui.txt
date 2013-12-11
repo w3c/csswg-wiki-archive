@@ -320,6 +320,7 @@ and the second value for the left edge.
   ; URL : http://www.w3.org/TR/2005/WD-css3-selectors-20051215/#UIfragments (most recent spec text)
   ; URL : http://www.w3.org/TR/2004/CR-css3-ui-20040511/ (most recent CR reference)
   ; URL : http://www.w3.org/TR/2001/CR-css3-selectors-20011113/#UIfragments (most recent CR spec text)
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Dec/0240.html (email about this proposal)
   ; Proposed Resolution : 
     - Create tests to answer questions raised in http://lists.w3.org/Archives/Public/www-style/2008Oct/0268.html
     - Run tests in browsers: Chrome, Firefox (as ::-moz-selection), IE9+, Opera, Safari
