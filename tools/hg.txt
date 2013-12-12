@@ -63,7 +63,7 @@ Create a file in your home directory called ''.hgrc'', or ''%USERPROFILE%\mercur
   csswg.password = your_csswg.org_password #optional
   
   # CSSWG Spec Repository
-  w3c.prefix = https://dvcs.w3.org/hg/
+  w3c.prefix = https://dvcs.w3.org/hg/csswg/
   w3c.username = your_w3.org_username
   w3c.password = your_w3.org_password #optional
 
