@@ -105,3 +105,4 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
 
  ===== Proposed topics for the meeting =====
 * Mediaqueries 4. FPWD?
+* Elements as Regions: http://lists.w3.org/Archives/Public/www-style/2014Jan/0090.html
