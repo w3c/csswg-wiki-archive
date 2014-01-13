@@ -1,0 +1,112 @@
+====== Seattle F2F 2014 ======
+
+**Dates**: 2014 January 27-29
+Organizer: Sylvain Galineau, Adobe
+
+Note: 
+   * The SVG WG meeting will be held at the same location on the same day. January 29 (Wednesday) is currently planned to be a joint day where everyone shares the same room.
+   * Microsoft is hosting a Seattle Test the Web Forward event on Sunday, January 26. Sign up at http://ttwf-seattle.eventbrite.com if you can attend.
+
+===== Location ===== 
+[[https://www.google.com/maps/preview#!q=adobe&data=!4m15!2m14!1m13!1s0x54901506ba72d6e5%3A0xf693cdc0af40611e!3m8!1m3!1d64369!2d-122.342892!3d47.6704929!3m2!1i960!2i1150!4f13.1!4m2!3d47.648301!4d-122.347935|Adobe Seattle, 801 North 34th Street]]
+
+The main entrance is in the north-east corner of the building.
+
+Meeting room: Adobe U, first floor straight through the double doors after the reception, take a right at the end.
+
+Dial-in info:
+   * Toll-free (US/Canada):  1-855-870-5454
+   * International dial-in: +1-408-773-6768
+   * Conference code: 9939150137
+   * For a toll-free number in your country, contact [[mailto:galineau@adobe.com|Sylvain Galineau]]
+
+Weather Forecast: [[http://forecast.weather.gov/MapClick.php?lat=47.648&lon=-122.348&unit=1|°C]] or [[http://forecast.weather.gov/MapClick.php?lat=47.648&lon=-122.348|°F]]
+===== Participants =====
+(Alphabetical by full name.)
+
+^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+| Alan Stearns | Adobe | (host) | (host) | home | N/A |
+| Bert Bos | W3C | 25 Jan | 30 Jan | |  KL6033 12:05 / KL6032 13:20 | |
+| Brian Birtles | Mozilla | 29-jan | 31-jan | Courtyard Marriott | ? |
+| Cameron McCormack | Mozilla | 28-Jan | 01-Feb | Courtyard Marriott | AS223 22:58 / AS460 10:45 | Low carbohydrate options preferred (i.e. meats, cheeses, salads, most veggies good), but don't make too much special effort. |
+| Chris Lilley | W3C | 24-Jan | 01-Feb | 11th Avenue BnB | UA6249 16:14 / BA48 18:10 | arriving SFO>SEA |
+| Daniel Glazman | Samsung | 25-jan | 29-jan | Courtyard Marriott | AF3622 12:40pm / AS226 08:30pm |
+| Dave Cramer | Hachette | 24-Jan | 30-jan | Courtyard Marriott | UA408 12:06pm / UA278 11:10am |  |
+| Dirk Schulze | Adobe | 24-Jan | 31-Jan | Courtyard Marriott | No idea | arriving FRA>SEA |
+| Florian Rivoal | Invited expert | 25-Jan | 1-Feb | Courtyard Mariott | FI681 4:40PM / FI680 3:30PM | |
+| Glenn Adams | Cox | 25 Jan | 30 Jan | Courtyard Marriott | UA339 1327 / AS680 0955 |
+| Israel Hilerio | Microsoft | | | home | N/A |
+| Jacob Goldstein | Adobe | 26-Jan | 31-Jan |  |  |  |
+| Kazutaka YAMAMOTO | NTT | | | | N/A |
+| L. David Baron | Mozilla | 26 Jan | 29 Jan | Courtyard Marriott | UA1581 20:10 / UA6367 19:31 |
+| Leif Arne Storset | Opera | | | | | No onion, limit garlic and wheat. (Intolerance only, not an allergy. I.e. don't worry that I'll die if there's a mistake.) |
+| Matt Rakow | Microsoft | | | home | N/A |
+| Peter Linss | HP | 26-jan | 01-feb | Courtyard Marriott | UA6249 04:19pm / UA816 01:10pm |
+| Philippe Le Hegaret | W3C | 26-Jan | 29-Jan | Courtyard Marriott | UA1075 18:18 / UA0408 12:56 | |
+| Rik Cabanier | Adobe | (host) | (host) | home | N/A| observer |
+| Rossen Atanassov | Microsoft | | | home | N/A | pescaterian |
+| Simon Fraser | Apple | 26-Jan | 29-Jan | Courtyard Marriott | AA227 /AA226 | |
+| Simon Sapin | Mozilla | 26-jan | 30-jan | Courtyard Marriott | AA6929 2:50pm / BA48 6:10pm |
+| Sylvain Galineau | Adobe | (host) | (host) | home | N/A |
+| Tab Atkins | Google | ? | ? | Courtyard Marriott | ? |
+| Taichi KAWABATA | NTT | | | | N/A |
+| Tantek Çelik | Mozilla | 026 | 029 | Courtyard Marriott | VA748 20:05 / VA759 19:05 | Pescetarian. No goat cheese (Intolerance only, not an allergy. As Leif said.) |
+
+Regrets: 
+  * Anton Prowse
+===== Agenda =====
+
+===== Transport to/from Airport =====
+
+Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.aspx|Sea-Tac Airport]] include: 
+   * The [[http://www.soundtransit.org/Schedules/Central-Link-light-rail?tab=Map|Link Light Rail]] departs every 7.5 to 15 minutes depending on the time of day. The trip takes about 40mn end to end; the fare is $2.75 one way. This will get you to the Convention Center station, which is 3 miles south of the Adobe office.
+   * Taxi fares from the airport to downtown run around $50 + tip on average.
+   * Uber users pay $50 flat for a black car.
+
+===== Housing =====
+
+   * Nearest hotels
+      * [[http://www.marriott.com/hotels/travel/seacd-courtyard-seattle-downtown-lake-union/|Courtyard Seattle Downtown Lake Union]]
+         * Same hotel we held the 2011 meeting at. ~2 miles from Adobe office.
+         * You can book a room at the rate of $139/per day by either:
+            * [[http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Adobe%20Room%20Block%5ESEACD%60ADBADBA%60139%60USD%60false%601/25/14%602/2/14%601/3/14&app=resvlink&stop_mobi=yes|Following this URL]]  
+            * Calling (800)228-9290 or +1-(206)213-0100 and asking for a room in the **Adobe Room Block** 
+            * The room block is reserved from Saturday 1/25 until 2/2.
+            * **IMPORTANT: your reservation must be made before EOD Friday, January 3 (Pacific Time) to secure this rate**
+   * Downtown hotels
+      * [[http://www.hotelandra.com/Hotel Andra]]
+      * [[http://www.fairmont.com/seattle/|Fairmont Seattle]] 
+      * [[http://www.hotelmaxseattle.com/|Hotel Max]]
+      * [[http://www.marriott.com/hotels/travel/seawf-seattle-marriott-waterfront/|Seattle Marriott Waterfront]]
+   * Capitol Hill hotels
+      * Though farther than downtown, Cap Hill is the fun and hip area of Seattle. Very walkable and a lot of restaurants, bars etc. Highly recommended if you're going to spend a little extra time here but it will be more work to reach the meeting venue from here (while the inns below are not much farther from Adobe than the downtown waterfront, there is a lake in the way...)
+      * [[http://www.gaslight-inn.com/|Gaslight Inn]]  
+      * [[http://www.11thavenueinn.com/|11th Avenue Inn]]
+   * AirBnb
+      * Though Seattle is not as clustered with Airbnb options as other cities, it is catching up.
+      * The Fremont and Wallingford neighborhoods guarantee you walking distance to the meeting. The Eastlake neighborhood is bikable but remember: late January implies some rain.
+      * [[https://www.airbnb.com/rooms/1844791?guests=5&s=1005|A 3BR house in the same neighborhood as Adobe, ~12-15mn walk; no reviews yet but this would be my favorite to rent around here]]
+      * [[https://www.airbnb.com/rooms/1472532?guests=3&s=3155|Downtown 1 BR apartment]]  
+      * [[https://www.airbnb.com/rooms/59838?guests=2&s=a14d|Downtown 2BR close to buses]]
+      * [[http://www.vrbo.com/467811|Half of a bungalow within walking distance]]
+===== Travel to/from Adobe =====
+
+   * At 3.8 miles the waterfront Marriott is the furthest from the office. 
+   * A number of buses - 26, 28, 40 - can be taken from 3rd & Virginia downtown to Fremont. Ride time ~20-30mn depending on traffic. One-way ride fare is $2.50. 
+   * Uber/UberX, Lyft and car2go are also available in Seattle.
+   * This being Seattle, [[http://www.ibike.org/ibike/salish/bicycle-rental.htm| bike rentals]] are available.
+   * **Bus travel from Courtyard Marriott**
+      * The 40 and 62 buses travel stop within a block from our office, leaving on Westlake Ave. across from the hotel.
+      * Both buses will stop right before the Fremont bridge. 
+      * Only the 40 crosses the bridge and stops at N 34th St.
+      * If you get off before the bridge - or right after - the quickest way to Adobe is to start walking across the bridge then down the staircase to the canal bank. These staircases are located right after the blue towers on each side of the bridge. Watch for bike traffic both on the bridge and on the trail at the bottom of the stairs.
+      * Fare: $2.50 at peak time, exact change upon boarding.
+
+===== Group dinner =====
+
+* This will be held at [[http://hungerseattle.com/|hunger]] a couple of blocks from our office on the evening of Tuesday 1/28/2014.
+
+ ===== Proposed topics for the meeting =====
+  * Mediaqueries 4. FPWD?
+  * Elements as Regions: http://lists.w3.org/Archives/Public/www-style/2014Jan/0090.html
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0122.html|Issue tracking]]
