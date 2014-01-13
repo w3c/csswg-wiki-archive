@@ -26,6 +26,7 @@ Weather Forecast: [[http://forecast.weather.gov/MapClick.php?lat=47.648&lon=-122
 
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Alan Stearns | Adobe | (host) | (host) | home | N/A |
+| Bert Bos | W3C | 25 Jan | 30 Jan | |  KL6033 12:05 / KL6032 13:20 | |
 | Daniel Glazman | Samsung | 25-jan | 29-jan | Courtyard Marriott | AF3622 12:40pm / AS226 08:30pm |
 | Dave Cramer | Hachette | 24-Jan | 30-jan | Courtyard Marriott | UA408 12:06pm / UA278 11:10am |  |
 | Florian Rivoal | Invited expert | 25-Jan | 1-Feb | Courtyard Mariott | FI681 4:40PM / FI680 3:30PM | |
