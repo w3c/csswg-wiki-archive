@@ -1,5 +1,21 @@
 ====== Computed Values Patterns ======
 
+Computed Value (the concept in the propdef table) is a UA-internal
+representation of a property mainly meant for supporting animations. It’s
+necessary for animatable properties to produce interpolable computed
+values. Inferred values (such as with various <position> variants, or
+single-value border-radius-* values) will likely need to be added to the
+computed value to produce an interpolable result. Even if a property is
+not animatable, it’s probably useful to design the computed value such
+that it could support interpolation.
+
+Serialization (such as the result from getComputedStyle) is a valid CSS
+string representation that might only have a tenuous connection to the
+computed value representation. Its main characteristic is that it must
+‘round-trip’ with parsing. Inferred values can be omitted here. If a
+grammar allows ordering options, the serialized value should prefer an
+order (usually what’s presented in the grammar).
+
 This page lists a number of design patterns that have been identified for computed values.
 
 If you're a spec editor, you should check the "computed value:" definition of the properties in your spec with this document.
