@@ -33,6 +33,7 @@ Weather Forecast: [[http://forecast.weather.gov/MapClick.php?lat=47.648&lon=-122
 | Daniel Glazman | Samsung | 25-jan | 29-jan | Courtyard Marriott | AF3622 12:40pm / AS226 08:30pm |
 | Dave Cramer | Hachette | 24-Jan | 30-jan | Courtyard Marriott | UA408 12:06pm / UA278 11:10am |  |
 | Dirk Schulze | Adobe | 24-Jan | 31-Jan | Courtyard Marriott | No idea | arriving FRA>SEA |
+| fantasai | Invited expert | 26-Jan | 30-Jan | TBD | United | |
 | Florian Rivoal | Invited expert | 25-Jan | 1-Feb | Courtyard Mariott | FI681 4:40PM / FI680 3:30PM | |
 | Glenn Adams | Cox | 25 Jan | 30 Jan | Courtyard Marriott | UA339 1327 / AS680 0955 |
 | Israel Hilerio | Microsoft | | | home | N/A |
@@ -110,3 +111,4 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
   * Mediaqueries 4. FPWD?
   * Elements as Regions: http://lists.w3.org/Archives/Public/www-style/2014Jan/0090.html
   * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0122.html|Issue tracking]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Dec/0402.html|Merging Animatable and Computed Value lines]]
