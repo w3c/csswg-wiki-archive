@@ -120,3 +120,4 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
   * Update on Shadow DOM Styling spec
   * Display spec - FPWD, naming display-extras and box, use fantasai's run-in model
   * Selectors - punt anything that's not stable, ship level 4
+  * CSS3 Color and currentColor erratum
