@@ -123,3 +123,4 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
     * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0193.html|Consider :has() instead of the subject indicator]]
     * Punt anything that's not stable, ship level 4
   * CSS3 Color and currentColor erratum
+  * Variables - what's left before CR?
