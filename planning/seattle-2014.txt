@@ -119,5 +119,7 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
   * TTA - status, what's left?, get it done
   * Update on Shadow DOM Styling spec
   * Display spec - FPWD, naming display-extras and box, use fantasai's run-in model
-  * Selectors - punt anything that's not stable, ship level 4
+  * Selectors
+    * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0193.html|Consider :has() instead of the subject indicator]]
+    * Punt anything that's not stable, ship level 4
   * CSS3 Color and currentColor erratum
