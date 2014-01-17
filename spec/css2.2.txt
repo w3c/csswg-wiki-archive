@@ -33,4 +33,4 @@ The required metadata for the test is **[instructions forthcoming].**
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.10.5a|inherited percentage on 'height']] | | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.4.1.1c|UNICODE-RANGE token syntax]] | | Not observable? (Combined with @font-face error handling.) |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.9.2a|principal box]] | | Only terminology |
-| [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.4.1.1d|scientific notation]] | | |
+| [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.4.1.1d|scientific notation]] | Bert | |
