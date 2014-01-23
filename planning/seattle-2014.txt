@@ -139,4 +139,6 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
   * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0210.html|will-change spec draft]]
   * Page selectors
   * Reversed lists
+  * Animations
+    * start time of animations
   * fill/stroke with background syntax (FX day)
