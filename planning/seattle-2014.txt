@@ -144,3 +144,5 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
     * start time of animations
   * fill/stroke with background syntax (FX day)
   * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0310.html|Simplify the object size of replaced elements]]
+  * Proposal: ability to specify gradient midpoints (Rik)
+  * Baseline grid
