@@ -6,6 +6,8 @@ The second revision of <html><cite>CSS level 2</cite></html> integrates a handfu
 
 We decided at TPAC 2013 to divide the work of writing tests for the errata. Please, if you can write texts for one or more errata, put your name in the table below.
 
+Before you write tests for some erratum, check if there are already modified and new tests for it at [[test/css2.1#css-21-errata|CSS 2.1 Errata.]]
+
 The required metadata for the test is **[instructions forthcoming].**
 
 ^ Erratum ^ Test author ^ Notes ^
