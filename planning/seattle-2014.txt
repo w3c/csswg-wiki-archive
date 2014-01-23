@@ -115,6 +115,16 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
   * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0122.html|Issue tracking]]
   * [[http://lists.w3.org/Archives/Public/www-style/2013Dec/0402.html|Merging Animatable and Computed Value lines]]
   * Masking - remaining issues, LC/CR
+    * <shape-box> for clip-path ok?
+    * bounding-box/bounding-client-rect as reference box
+    * Fragmentation defined by box-decoration-break properties
+    * mask-box or 9-sliced-image function
+    * userSpaceOnUse for HTML (FX day)
+    * New boxes (possibly SVG specific) viewport, stroke-box (FX day)
+  * Fragmentation
+    * background positioning/sizing on auto height and variable with fragments
+    * fragmentation of borders with border radius going to the next fragment
+    * specify transform-origin on fragmentation (follow up previous resolution)
   * Shapes - remaining issues, LC/CR
   * Flexbox - remaining issues, LC
   * Grid - open issues, initial value of grid-auto-flow
@@ -129,3 +139,4 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
   * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0210.html|will-change spec draft]]
   * Page selectors
   * Reversed lists
+  * fill/stroke with background syntax (FX day)
