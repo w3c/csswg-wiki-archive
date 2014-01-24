@@ -147,4 +147,4 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
   * Proposal: ability to specify gradient midpoints (Rik)
   * Baseline grid
   * Syntax 3 CR
-    * Move environment encoding for @import to Cascade
+    * Move environment encoding for @import to Cascade, for <?xml-stylesheet into CSSOM
