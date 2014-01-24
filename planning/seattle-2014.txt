@@ -125,7 +125,7 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
     * userSpaceOnUse for HTML (FX day)
     * New boxes (possibly SVG specific) viewport, stroke-box (FX day)
   * Fragmentation
-    * background positioning/sizing on auto height and variable with fragments
+    * background positioning/sizing on auto height and variable width fragments
     * fragmentation of borders with border radius going to the next fragment
     * specify transform-origin on fragmentation (follow up previous resolution)
   * Shapes - remaining issues, LC/CR
@@ -149,4 +149,5 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
   * Proposal: ability to specify gradient midpoints (Rik)
   * Baseline grid
   * Syntax 3 CR
-    * Move environment encoding for @import to Cascade, for <?xml-stylesheet into CSSOM
+  * Scroll Snap Points
+  * Move environment encoding for @import to Cascade, for <?xml-stylesheet into CSSOM
