@@ -119,6 +119,7 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
     * http://lists.w3.org/Archives/Public/www-style/2013Nov/0122.html
     * http://lists.w3.org/Archives/Public/www-style/2013Nov/0125.html
     * Add Tab as an editor
+    * deprecate device-width, device-height, device-aspect-ratio?
   * Standardize "-webkit-print-color-adjust: exact;" See https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-print-color-adjust, or option 7 in http://wiki.csswg.org/ideas/print-backgrounds
   * Elements as Regions: http://lists.w3.org/Archives/Public/www-style/2014Jan/0090.html
   * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0122.html|Issue tracking]]
