@@ -145,7 +145,7 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
   * CSS3 Color and currentColor erratum
   * Variables - what's left before CR?
   * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0210.html|will-change spec draft]]
-  * Page selectors
+  * [[http://dauwhe.github.io/specs/Overview.html#page-selectors|Page selectors]]
   * Reversed lists
   * Animations
     * start time of animations
