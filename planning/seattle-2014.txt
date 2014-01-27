@@ -74,10 +74,10 @@ Regrets:
     * bounding-box/bounding-client-rect as reference box
     * Fragmentation defined by box-decoration-break properties
     * mask-box or 9-sliced-image function
-  * Flexbox - remaining issues, LC
-  * Shapes - remaining issues, LC/CR
   * Syntax 3 CR
     * http://lists.w3.org/Archives/Public/www-style/2014Jan/0537.html
+  * Flexbox - remaining issues, LC
+  * Shapes - remaining issues, LC/CR
 
 === PM ===
 
