@@ -78,7 +78,7 @@ Regrets:
     * http://lists.w3.org/Archives/Public/www-style/2014Jan/0537.html
     * Move environment encoding for @import to Cascade, for <?xml-stylesheet into CSSOM
   * Shapes - remaining issues, LC/CR
-  * Flexbox - remaining issues, LC
+  * Update on Shadow DOM Styling spec
 
 === PM ===
 
@@ -115,8 +115,7 @@ Regrets:
     * specify transform-origin on fragmentation (follow up previous resolution)
   * Display spec - FPWD, naming display-extras and box, use fantasai's run-in model
   * CSS-Ruby Ruby-merge default value be [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0415.html|auto]]?
-
-  * Update on Shadow DOM Styling spec
+  * Flexbox - remaining issues, LC
   * Elements as Regions: http://lists.w3.org/Archives/Public/www-style/2014Jan/0090.html
 
 ==== Wednesday ====
