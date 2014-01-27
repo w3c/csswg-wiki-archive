@@ -89,6 +89,7 @@ Regrets:
   * Animations
     * start time of animations
   * Backgrounds and Borders LC
+  * CSS 2.2
 
 ==== Tuesday ====
 
