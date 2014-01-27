@@ -61,7 +61,81 @@ Weather Forecast: [[http://forecast.weather.gov/MapClick.php?lat=47.648&lon=-122
 Regrets: 
   * Anton Prowse
   * Lea Verou
+
 ===== Agenda =====
+
+==== Monday ====
+
+=== AM ===
+
+  * Variables - what's left before CR?
+  * Masking - remaining issues, LC/CR
+    * <shape-box> for clip-path ok?
+    * bounding-box/bounding-client-rect as reference box
+    * Fragmentation defined by box-decoration-break properties
+    * mask-box or 9-sliced-image function
+  * Flexbox - remaining issues, LC
+  * Shapes - remaining issues, LC/CR
+  * Syntax 3 CR
+
+=== PM ===
+
+  * Move environment encoding for @import to Cascade, for <?xml-stylesheet into CSSOM
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Dec/0402.html|Merging Animatable and Computed Value lines]]
+  * Grid - open issues, initial value of grid-auto-flow
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0122.html|Issue tracking]]
+  * TTA - status, what's left?, get it done
+  * Animations
+    * start time of animations
+
+==== Tuesday ====
+
+=== AM ===
+
+  * Mediaqueries
+    * MQ4 review changes and FPWD?
+    * http://lists.w3.org/Archives/Public/www-style/2013Nov/0122.html
+    * http://lists.w3.org/Archives/Public/www-style/2013Nov/0125.html
+    * Add Tab as an editor
+    * deprecate device-width, device-height, device-aspect-ratio?
+  * Selectors
+    * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0193.html|Consider :has() instead of the subject indicator]]
+    * Punt anything that's not stable, ship level 4
+  * Baseline grid
+  * CSS3 Color and currentColor erratum
+  * Reversed lists
+  * Standardize "-webkit-print-color-adjust: exact;" See https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-print-color-adjust, or option 7 in http://wiki.csswg.org/ideas/print-backgrounds
+
+=== PM ===
+
+  * Fragmentation
+    * background positioning/sizing on auto height and variable width fragments
+    * fragmentation of borders with border radius going to the next fragment
+    * specify transform-origin on fragmentation (follow up previous resolution)
+  * Display spec - FPWD, naming display-extras and box, use fantasai's run-in model
+  * CSS-Ruby Ruby-merge default value be [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0415.html|auto]]?
+
+  * Update on Shadow DOM Styling spec
+  * Elements as Regions: http://lists.w3.org/Archives/Public/www-style/2014Jan/0090.html
+
+==== Wednesday ====
+
+=== AM ===
+
+  * [[http://dauwhe.github.io/specs/Overview.html#page-selectors|Page selectors]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0310.html|Simplify the object size of replaced elements]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0210.html|will-change spec draft]]
+  * Scroll Snap Points
+
+
+=== PM ===
+
+  * Masking - remaining issues, LC/CR
+    * userSpaceOnUse for HTML (FX day)
+    * New boxes (possibly SVG specific) viewport, stroke-box (FX day)
+  * fill/stroke with background syntax (FX day)
+  * Proposal: ability to specify gradient midpoints (Rik)
+
 
 ===== Transport to/from Airport =====
 
@@ -113,7 +187,7 @@ Traveling options to/from [[http://www.portseattle.org/sea-tac/Pages/default.asp
 
 * This will be held at [[http://hungerseattle.com/|hunger]] a couple of blocks from our office on the evening of Tuesday 1/28/2014.
 
- ===== Proposed topics for the meeting =====
+===== Proposed topics for the meeting =====
   * Mediaqueries
     * MQ4 review changes and FPWD?
     * http://lists.w3.org/Archives/Public/www-style/2013Nov/0122.html
