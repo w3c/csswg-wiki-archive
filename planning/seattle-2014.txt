@@ -77,8 +77,8 @@ Regrets:
   * Syntax 3 CR
     * http://lists.w3.org/Archives/Public/www-style/2014Jan/0537.html
     * Move environment encoding for @import to Cascade, for <?xml-stylesheet into CSSOM
-  * Flexbox - remaining issues, LC
   * Shapes - remaining issues, LC/CR
+  * Flexbox - remaining issues, LC
 
 === PM ===
 
