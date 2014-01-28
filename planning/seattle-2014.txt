@@ -109,6 +109,7 @@ Regrets:
   * CSS3 Color and currentColor erratum
   * Reversed lists
   * Transforms Issues
+  * Display spec - FPWD, naming display-extras and box, use fantasai's run-in model
 
 === PM ===
 
@@ -116,7 +117,6 @@ Regrets:
     * background positioning/sizing on auto height and variable width fragments
     * fragmentation of borders with border radius going to the next fragment
     * specify transform-origin on fragmentation (follow up previous resolution)
-  * Display spec - FPWD, naming display-extras and box, use fantasai's run-in model
   * CSS-Ruby Ruby-merge default value be [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0415.html|auto]]?
   * Flexbox - remaining issues, LC
   * Elements as Regions: http://lists.w3.org/Archives/Public/www-style/2014Jan/0090.html
