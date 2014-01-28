@@ -29,7 +29,6 @@ Weather Forecast: [[http://forecast.weather.gov/MapClick.php?lat=47.648&lon=-122
 
 ^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
 | Alan Stearns | Adobe | (host) | (host) | home | N/A |
-| Steve Zilles | Adobe | 25 Jan | 29 Jan | Marriott Courtyard | United |
 | Bert Bos | W3C | 25 Jan | 30 Jan | Hampton Inn Seattle-Downtown | KL6033 12:05 / KL6032 13:20 | |
 | Brian Birtles | Mozilla | 29-jan | 31-jan | Courtyard Marriott | ? |
 | Cameron McCormack | Mozilla | 28-Jan | 01-Feb | Courtyard Marriott | AS223 22:58 / AS460 10:45 | Low carbohydrate options preferred (i.e. meats, cheeses, salads, most veggies good), but don't make too much special effort. |
@@ -52,6 +51,7 @@ Weather Forecast: [[http://forecast.weather.gov/MapClick.php?lat=47.648&lon=-122
 | Rossen Atanassov | Microsoft | | | home | N/A | pescaterian |
 | Simon Fraser | Apple | 26-Jan | 29-Jan | Courtyard Marriott | AA227 /AA226 | |
 | Simon Sapin | Mozilla | 26-jan | 30-jan | Courtyard Marriott | AA6929 2:50pm / BA48 6:10pm |
+| Steve Zilles | Adobe | 25 Jan | 29 Jan | Marriott Courtyard | United |
 | Sylvain Galineau | Adobe | (host) | (host) | home | N/A |
 | Tab Atkins | Google | 25-Jan | 29-Jan | Courtyard Marriott | Amtrak in (~8:30pm) / Alaska 226 (8:30pm) out |
 | Taichi KAWABATA | NTT | 25-Jan | 29-Jan | Marriott Lakeside | ANA NH1078/NH1077 |
