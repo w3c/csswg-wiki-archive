@@ -125,7 +125,7 @@ Regrets:
 
 === AM ===
 
-  * [[http://dauwhe.github.io/specs/Overview.html#page-selectors|Page selectors]]
+  * [[http://dev.w3.org/csswg/css-gcpm/#page-selectors|Page selectors]]
   * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0310.html|Simplify the object size of replaced elements]]
   * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0210.html|will-change spec draft]]
   * Scroll Snap Points
