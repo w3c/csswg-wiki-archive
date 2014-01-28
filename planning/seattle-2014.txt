@@ -117,8 +117,8 @@ Regrets:
     * background positioning/sizing on auto height and variable width fragments
     * fragmentation of borders with border radius going to the next fragment
     * specify transform-origin on fragmentation (follow up previous resolution)
-  * CSS-Ruby Ruby-merge default value be [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0415.html|auto]]?
   * Flexbox - remaining issues, LC
+  * Shape serialization
   * Elements as Regions: http://lists.w3.org/Archives/Public/www-style/2014Jan/0090.html
 
 ==== Wednesday ====
