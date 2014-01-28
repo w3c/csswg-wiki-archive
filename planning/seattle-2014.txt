@@ -91,6 +91,9 @@ Regrets:
   * Backgrounds and Borders LC
   * CSS 2.2
   * Standardize "-webkit-print-color-adjust: exact;" See https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-print-color-adjust, or option 7 in http://wiki.csswg.org/ideas/print-backgrounds
+  * Selectors
+    * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0193.html|Consider :has() instead of the subject indicator]]
+    * Punt anything that's not stable, ship level 4
 
 ==== Tuesday ====
 
@@ -102,9 +105,6 @@ Regrets:
     * http://lists.w3.org/Archives/Public/www-style/2013Nov/0125.html
     * Add Tab as an editor
     * deprecate device-width, device-height, device-aspect-ratio?
-  * Selectors
-    * [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0193.html|Consider :has() instead of the subject indicator]]
-    * Punt anything that's not stable, ship level 4
   * Baseline grid
   * CSS3 Color and currentColor erratum
   * Reversed lists
