@@ -43,6 +43,7 @@ These are being actively developed. Sometimes used to be CRs that need major rev
   * [[spec:css-shapes|CSS Shapes]]
 ===== brainstorming =====
 This section outlines active possibilities for future specs or notes
+  * [[spec:css-pseudo-4|CSS Pseudo Elements Level 4]] (collecting features and ideas)
   * [[spec:css4-color|CSS Color Level 4]] (collecting features and ideas)
   * [[spec:css4-ui|CSS User Interface Module Level 4]] (collecting features and ideas)
   * [[spec:vendor-prefixes|CSS vendor prefixes]] (collecting thoughts about policy/guidance on usage, dropping etc.)
