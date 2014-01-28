@@ -1,0 +1,8 @@
+====== Bikeshed ======
+Bikeshed, a spec preprocessor
+
+Bikeshed is a pre-processor for the source documents the CSSWG produces their specs from. We write our specs in HTML, but rely on a preprocessor for a lot of niceties, like automatically generating a bibliography and table of contents, or automatically linking terms to their definitions. Specs also come with a lot of boilerplate repeated on every document, which we omit from our source document.
+
+The processor can be easily installed and run locally (requiring no network access unless you're updating), or accessed as a CGI without any installation at all: https://api.csswg.org/bikeshed/
+
+See https://github.com/tabatkins/bikeshed#bikeshed-a-spec-preprocessor for more details.
