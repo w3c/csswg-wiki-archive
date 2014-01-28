@@ -133,6 +133,7 @@ Regrets:
 
 === PM ===
 
+  * Blending/compositing, CR (FX day)
   * Masking - remaining issues, LC/CR
     * userSpaceOnUse for HTML (FX day)
     * New boxes (possibly SVG specific) viewport, stroke-box (FX day)
