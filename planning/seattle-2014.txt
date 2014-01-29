@@ -139,6 +139,7 @@ Regrets:
     * New boxes (possibly SVG specific) viewport, stroke-box (FX day)
   * fill/stroke with background syntax (FX day)
   * Proposal: ability to specify gradient midpoints (Rik)
+  * Custom media features
 
 
 ===== Transport to/from Airport =====
