@@ -9,7 +9,8 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 ===== Upcoming Meetings =====
   * [[planning:2014]]
     * [[planning:seattle-2014]] January 27-29, 2014, jointly with [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2014|SVG]]
-    * week of May 5-9 or 12-16 or 19-23 (was 12-16, but now reconsidering), 2014 Tokyo/Seoul/Taiwan?
+    * Monday-Wednesday, May 19-21, 2014, Seoul
+    *   * workshop following on morning of Thursday, May 22, 2014
     * Sept 8-10, 2014 Sophia-Antipolis (was Berlin/Zurich/London?) (dates not yet final)
     * Oct 27-31, 2014 TPAC (Santa Clara) (not yet confirmed)
   * [[planning:hosting]]
