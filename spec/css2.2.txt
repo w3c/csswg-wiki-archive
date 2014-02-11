@@ -23,6 +23,7 @@ The required metadata for the test is **[instructions forthcoming].**
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.9.4.2|definition of inline formatting context (9.4.2)]] | | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.17.4a|table formatting context (17.4)]] | | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.17.5|table formatting context (17.5)]] | | |
+| [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15460|Fixed table layout (17.5.2.1)]] | Gérard Talbot| [[http://test.csswg.org/shepherd/testcase/fixed-table-layout-003a01/spec/css21/section/17.5/author/gtalbot/status/submitted/name/fixed-table-layout-003/| 52 tests on how non-auto width cell in first row can/should determine column width in fixed table layout]]|
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.11.1.1a|'overflow' applies to formatting context]] | | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.4.1.1a|'url()' may be escaped (4.1.1)]] | Simon Sapin | |
 | [[http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html#s.G.2d|'url()' may be escaped (G.2)]] | | Same tests as previous errata |
