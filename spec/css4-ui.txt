@@ -170,11 +170,6 @@ I've archived the 2004 System Appearance feature spec source on the W3C wiki (it
   * http://www.w3.org/wiki/User:Tantekelik/CR-css3-ui-20040511-appearance
 
 ==== nav properties ====
-Directional navigation (nav-left, nav-right, nav-up, nav-down) dropped from CSS3-UI due to in many years of CSS3-UI being in CR, there have been:
-  * No major browser implementations
-  * No easily downloadable / testable implementations
-  * No tests written / contributed to css testing efforts
-
 nav-index:
   * See issues [[:ideas:nav-index]]
   * Suggested solutions to problems:
