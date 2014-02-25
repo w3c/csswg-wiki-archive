@@ -2,6 +2,8 @@
 
 There have been a number of concerns raised with the current 'nav-index' property. This page is to document them and the resulting discussions, with the aim of addressing these issues in a future revision of the UI module.
 
+===== External Issues To Be Incorporated =====
+Extract issues from these and document here as subsections explicitly:
   * [[http://lists.w3.org/Archives/Public/www-style/2012Jun/0479.html|Visual vs. logical ordering switch]]
   * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0712.html|Handling HTML5's new 0 and -1 behaviors]]
   * Scoping tab navigation indices, so that it can be used in complex pages.
@@ -9,3 +11,23 @@ There have been a number of concerns raised with the current 'nav-index' propert
 More issues:
   * http://lists.w3.org/Archives/Public/wai-xtech/2011Nov/0034.html
   * http://lists.w3.org/Archives/Public/wai-xtech/2011Nov/0035.html
+
+===== Should HTML specify something =====
+HTML has the tabindex attribute (with various levels of browser support) which should be specified there.
+
+===== HTML or CSS or both =====
+Does nav-index belong in HTML or CSS or both?
+
+Current thinking: likely both.
+
+HTML already has tabindex and thus should specify that (see previous).
+
+CSS should specify nav-index because:
+  * CSS3-UI already specifies directional nav-* properties
+  * Any style sheet that explicitly specifies the 2 dimensional directional nav-* properties will likely want to also explicitly specify sequential navigation order as well.
+  * Keeping both sequential and directional nav-* in the same style sheet will help them stay "in sync" across site changes etc.
+    * Or rather, having to do them separately in HTML vs CSS will likely cause them to get out of sync.
+
+
+
+
