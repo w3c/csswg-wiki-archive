@@ -28,6 +28,15 @@ CSS should specify nav-index because:
   * Keeping both sequential and directional nav-* in the same style sheet will help them stay "in sync" across site changes etc.
     * Or rather, having to do them separately in HTML vs CSS will likely cause them to get out of sync.
 
+===== within a dialog and browsing context =====
+We should define how to pick the next/previous element in sequential focus navigation, to make sure it's clear that it stays within a dialog and browsing context.
 
+More details and follow-up:
+  * https://www.w3.org/Bugs/Public/show_bug.cgi?id=24719
 
+===== contextual scoping =====
+Need contextual scoping for sequential focus navigation.
+
+More details and follow-up:
+  * https://www.w3.org/Bugs/Public/show_bug.cgi?id=23960
 
