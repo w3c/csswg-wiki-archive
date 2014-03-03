@@ -89,3 +89,4 @@ We will also have a Workshop/Meetup with the Korean industry on the 22nd of May,
 ^ Name ^ Can speak? ^ Proposed topic ^
 | Alan Stearns | if needed | |
 | Daniel Glazman | yes | W3C, the CSS WG and our current work |
+| Dave Cramer | if needed | print publishing with HTML and CSS|
