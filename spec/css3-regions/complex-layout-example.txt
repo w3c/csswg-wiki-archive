@@ -1,0 +1,76 @@
+This large example served as the motivational example in the introduction of the spec for a few years. It shows a complex layout using a lot of features, in some cases in a forced way just to include a feature. The example will be replaced in the spec with smaller, more focused examples.
+
+<code css>
+<style>
+  #grid {
+    width: 80vw;
+    height: 110vh;
+    grid-template: "aaa.d"
+                   "....d"
+                   "bbb.d"
+                   "....d"
+                   "ccc.d";
+    grid-template-rows: 52% 4% 20% 4% 20%;
+    grid-template-columns: 30% 5% 30% 5% 30%;
+  }
+  #region1 { grid-cell: a; }
+  #region2 { grid-cell: b; }
+  #boxA    { grid-cell: c; }
+  #region3 { grid-cell: d; }
+
+  #region4 {
+    width: 80vw;
+  }
+
+  #region2 {
+    column-count: 2;
+  }
+
+  /*
+   * Creates the named flow 
+   */
+  article {
+    flow-into: article-flow;
+  }
+
+  /*
+   * Associate it with the intended CSS Regions. 
+   * This creates a region chain for the named flow.
+   */
+  #region1, #region2, #region3, #region4 {
+    flow-from: article-flow;
+  }
+</style>
+</code>
+<code html>
+<body>
+  <!-- 
+  The following article element is the content  
+  to flow through the region chain. 
+  -->
+  <article>
+    <h1>Introduction</h1>
+    <p>This is an example ...</p>
+
+    <h2>More Details</h2>
+    <p>This illustrates ...</p>
+    <p>Then, the example ...</p>
+    <p>Finally, this ...</p>
+  </article>
+<span
+  !-- 
+  The rest of the markup defines the layout. 
+  Grid is used in this example, but any method 
+  for creating boxes could be substituted.
+  -->
+  <div id="grid">
+    <div id="region1"></div>
+    <div id="region2"></div>
+    <div id="boxA"></div>
+    <content></content>
+    <div id="region3"></div>
+  </div>
+  <div id="region4"></div>
+</body>
+
+</code>
