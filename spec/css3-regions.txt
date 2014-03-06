@@ -51,6 +51,7 @@ It was decided during this conference call (http://krijnhoetmer.nl/irc-logs/css/
 
 This page used to track resolutions and issues, but that was discontinued. The old tracking data can be found on these archive pages:
 
-[[spec:css3-regions:archived-resolutions|Resolutions]]
-[[spec:css3-regions:archived-issues|Issues]]
+[[spec:css3-regions:archived-resolutions|Archived Resolutions]]
+
+[[spec:css3-regions:archived-issues|Archived Issues]]
     
