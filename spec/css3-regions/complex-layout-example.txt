@@ -67,7 +67,7 @@ Similarly, the last region breaks out of the grid in this example merely to show
     <p>Then, the example ...</p>
     <p>Finally, this ...</p>
   </article>
-<span
+
   !-- 
   The rest of the markup defines the layout. 
   Grid is used in this example, but any method 
