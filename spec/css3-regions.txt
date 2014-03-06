@@ -1,14 +1,10 @@
 ===== CSS Regions Page =====
 
-This page is used to track:
-  - new issues that are not yet flagged in the specification
-  - resolutions about issues that were in the specification
-
 This page started from the initial [[http://www.w3.org/TR/2011/WD-css3-regions-20110609/|CSS Regions working draft]].
 
 References:
-  * [[http://www.w3.org/TR/2011/WD-css3-regions-20110609/|CSS Regions working draft]]
-  * [[http://dev.w3.org/csswg/css3-regions/Overview.html|CSS Regions editor draft]]
+  * [[http://www.w3.org/TR/css3-regions/|CSS Regions working draft]]
+  * [[http://dev.w3.org/csswg/css-regions/|CSS Regions editor draft]]
   * [[spec:css3-regions:older-changelogs|Archived Changelogs]]
 Code Samples
 
