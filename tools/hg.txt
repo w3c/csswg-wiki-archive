@@ -89,9 +89,9 @@ You can optionally [[http://mercurial.selenic.com/wiki/MergeProgram|select an in
 Depending on your OS and Mercurial root certificate configuration you may get a warning message about the host certificate when communicating with the central repository. If that happens, you can remove those warnings by adding the following to your configuration file:
   [hostfingerprints]
   dvcs.w3.org = B7:88:F5:6C:F3:82:71:AC:3F:30:F7:2F:DD:37:C3:46:2C:F7:B6:EF
-  hg.csswg.org = b8:28:ac:7c:3e:7e:d5:cc:1f:af:8a:fd:6d:9b:93:2d:9f:d7:a4:59
-  
-Note that these fingerprints will only be valid until the certificates expire (dvcs.w3.org expires 03-may-2016, hg.csswg.org expires expires 01-jul-2015). You will need to update the fingerprints when new certificates are issued.
+  hg.csswg.org = 71:06:B1:F3:E4:74:AB:53:C2:CE:8E:BF:99:7D:F8:B4:4C:22:E8:B9
+    
+Note that these fingerprints will only be valid until the certificates expire (dvcs.w3.org expires 03-may-2016, hg.csswg.org expires expires 10-apr-2016). You will need to update the fingerprints when new certificates are issued.
 
 Alternatively (and better if you're on an OS where this is easy), you can avoid ever having to add fingerprints by following [[http://mercurial.selenic.com/wiki/CACertificates#Configuration_of_HTTPS_certificate_authorities|the instructions on the Mercurial wiki]].
 </note>
