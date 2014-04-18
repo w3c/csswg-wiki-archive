@@ -2,6 +2,10 @@
 
 This page contains material to facilitate discussion of issues surrounding the CSS3 Grid Layout module.
 
+<note>
+This page is no longer used and exists only for historical reasons.
+File issues by emailing www-style.
+</note>
 ===== spec pointers =====
 
 Link to current Working Draft:[[http://www.w3.org/TR/css3-grid-layout/]]  
