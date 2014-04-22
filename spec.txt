@@ -91,8 +91,7 @@ CSSWG members' comments on related specs not published by our group.
 ====== Specification Editing ======
 
   * [[tools:hg|W3C Mercurial For Dummies]] --- reading/writing to the spec repositories
-  * [[tools:spec-processor]] --- generating ''Overview.html'' from ''Overview.src.html'' (auto-generating section numbers, indices, cross-links, and other mundane things)
-  * [[tools:bikeshed]] --- the new spec pre-processor. Web form: http://api.csswg.org/bikeshed/
+  * [[tools:bikeshed]] --- generating ''Overview.html'' from ''Overview.bs'' (auto-generating section numbers, indices, cross-links, and other mundane things).  (Or here's a guide for the [[tools:spec-processor|older processor]].)
   * [[http://dev.w3.org/csswg/css-module-bikeshed/Overview.bs|CSS Module Template]] --- for starting new specs (and formatting old ones)
   * [[spec:format-update]] --- for updating existing specs to our latest "specs should include"
   * [[spec:publish]] --- getting your spec on www.w3.org
