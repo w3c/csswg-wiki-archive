@@ -103,6 +103,7 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
    * Drop caps (in CSS Inline; revised proposal coming soon)
    * Split CSS Text 3
    * Box model / Render tree
+   * September f2f location / dates
 
 ===== May-22 Workshop =====
 
