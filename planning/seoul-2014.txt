@@ -108,7 +108,6 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
      * Review changes
      * Align with decision on custom-ident rules
    * Selectors4 to LC
-   * Drop caps (in CSS Inline; revised proposal coming soon)
    * Flexbox LC -> CR
    * Values and Units L3
        * custom-ident rules
@@ -127,9 +126,11 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
    * CSS Line Layout
        * SVG spec (a REC) defines most properties already. SVG WG would like to reference CSS Line Layout instead. Since there hasn't been progress for two years, how should SVG WG proceed?
        * Specify heuristics for fonts/font systems without enough font metric information.
+       * Initial caps
    * CSS Transforms
        * Change matrix decomposition algorithm?
    * CSS Transitions and CSS Animations status
+   * Footnotes in GCPM
 ===== May-22 Workshop =====
 
 We will also have a Workshop/Meetup with the Korean industry on the 22nd of May, morning, organized by the Korean Governmental Telecommunications Office. They're interested in discussions with the CSS WG about our future work and the future of the Web. Please add your name below if you plan to attend and/or speak:
