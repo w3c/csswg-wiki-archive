@@ -104,7 +104,10 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
    * Split CSS Text 3
    * Box model / Render tree
    * September f2f location / dates
-
+   * Geometry Interfaces
+       * Should unit-less values (like for SVG transform presentation attribute) be allowed as string input for the constructor too?
+       * FPWD
+    * CSS Line Layout: SVG spec (a REC) defines most properties already. SVG WG would like to reference CSS Line Layout instead. Since there hasn't been progress for two years, how should SVG WG proceed?
 ===== May-22 Workshop =====
 
 We will also have a Workshop/Meetup with the Korean industry on the 22nd of May, morning, organized by the Korean Governmental Telecommunications Office. They're interested in discussions with the CSS WG about our future work and the future of the Web. Please add your name below if you plan to attend and/or speak:
