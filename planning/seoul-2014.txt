@@ -100,6 +100,14 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
 
 ===== Proposed topics for the meeting =====
 
+   * Image Values 3
+     * Dropping features from image()
+     * Deprecating/dropping image-orientation
+     * 2-value image-resolution
+   * Counter Styles
+     * Review changes
+     * Align with decision on custom-ident rules
+   * Selectors4 to LC
    * Drop caps (in CSS Inline; revised proposal coming soon)
    * Flexbox LC -> CR
    * Values and Units L3
