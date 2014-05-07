@@ -106,6 +106,9 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
        * custom-ident rules
        * optional ordered combinator
        * publish update
+   * Box Alignment
+       * review next baseline-alignment section
+       * publish update
    * Split CSS Text 3
    * Box model / Render tree
    * September f2f location / dates
