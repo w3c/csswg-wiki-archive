@@ -117,7 +117,7 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
        * review next baseline-alignment section
        * publish update
    * CSS3 Text
-       * text-align shorthanding
+       * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-24|text-align shorthanding]]
        * grapheme cluster terminology
        * Defining 'text-justify: auto'
    * Split CSS Text 3
