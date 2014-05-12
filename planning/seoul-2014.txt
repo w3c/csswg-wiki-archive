@@ -136,6 +136,7 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
    * CSS Transforms
        * Change matrix decomposition algorithm?
    * CSS Transitions and CSS Animations status
+     * More discussion of T/A cascading behavior, weighing impl difficulty against user usefulness
    * Footnotes in GCPM
    * font load events to LC
    * CSS Grid to PR (last call ended, CR exit criteria met)
