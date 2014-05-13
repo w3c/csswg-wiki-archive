@@ -101,6 +101,7 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
 
 ===== Proposed topics for the meeting =====
 
+   * MediaQueryListener - decide to switch to events
    * Image Values 3
      * Dropping features from image()
      * Deprecating/dropping image-orientation
