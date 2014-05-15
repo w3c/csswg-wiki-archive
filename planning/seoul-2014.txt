@@ -122,7 +122,7 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
    * Box Alignment
        * review next baseline-alignment section
        * publish update
-   * CSS3 Text
+   * CSS3 Text //[Is it possible to phone in? If so, please, late in the afternoon. Bert]//
        * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-24|text-align shorthanding]]
        * grapheme cluster terminology
        * Defining 'text-justify: auto'
@@ -130,7 +130,7 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
        * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-72|Control characters]]
    * Split CSS Text 3
    * CSS Masking
-   * Box model / Render tree
+   * Box model / Render tree //[Interested in calling in. Bert]//
    * September f2f location / dates
    * Geometry Interfaces
        * Should unit-less values (like for SVG transform presentation attribute) be allowed as string input for the constructor too?
@@ -166,4 +166,3 @@ There will be a Test The Web Forward event in Seoul April 11 and 12. See the det
 ===== WWW 2014 =====
 
 The 2014 Web Conference will be in Seoul 7-11 Apr. See details [[http://www2014.kr/|here]].
-
