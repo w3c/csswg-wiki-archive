@@ -143,8 +143,6 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
        * SVG spec (a REC) defines most properties already. SVG WG would like to reference CSS Line Layout instead. Since there hasn't been progress for two years, how should SVG WG proceed?
        * Specify heuristics for fonts/font systems without enough font metric information.
        * Initial caps [would like to participate remotely - Liam]
-   * CSS Transforms
-       * Change matrix decomposition algorithm?
    * CSS Transitions and CSS Animations status
      * More discussion of T/A cascading behavior, weighing impl difficulty against user usefulness
    * Footnotes in GCPM [would like to attend remotely - Liam]
