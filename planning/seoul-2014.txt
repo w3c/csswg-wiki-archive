@@ -144,6 +144,11 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
 === AM ===
 
    * Footnotes in GCPM [would like to attend remotely - Liam]
+   * Test results script hosted on w3.org for /TR publications
+   * CSS Object Model
+   * CSS Scoping
+   * Selectors4 to LC
+   * CSS Flexbox to PR (last call ended, CR exit criteria met)
 
 
 === PM ===
@@ -152,10 +157,21 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
        * SVG spec (a REC) defines most properties already. SVG WG would like to reference CSS Line Layout instead. Since there hasn't been progress for two years, how should SVG WG proceed?
        * Specify heuristics for fonts/font systems without enough font metric information.
        * [[http://dauwhe.github.io/dropcaps/Overview.html|Initial caps]] [would like to participate remotely - Liam]
+   * Box Alignment
+       * review next baseline-alignment section
+       * publish update
+   * Box model / Render tree //[Interested in calling in. Bert]//
 
 ==== Wednesday ====
 
 === AM ===
+
+   * CSS Masking
+   * Geometry Interfaces
+       * Should unit-less values (like for SVG transform presentation attribute) be allowed as string input for the constructor too?
+       * FPWD
+   * '''-webkit-line-clamp'''
+     * cool ability, let's talk about how to do it right and figure out where to spec it (Line Layout?)
 
 === PM ===
 
