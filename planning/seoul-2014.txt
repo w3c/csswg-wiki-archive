@@ -164,6 +164,7 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
 
 ===== Proposed topics for the meeting =====
 
+   * CSS Scoping
    * '''-webkit-line-clamp'''
      * cool ability, let's talk about how to do it right and figure out where to spec it (Line Layout?)
    * MediaQueryListener - decide to switch to events
