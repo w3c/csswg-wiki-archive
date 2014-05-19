@@ -135,7 +135,6 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
        * [[http://lists.w3.org/Archives/Public/www-style/2014Apr/0400.html|Which applies first - pad or negative?]]
      * Align with decision on custom-ident rules
    * CSS3 for formatting books
-   * Selectors4 to LC
    * font load events to LC
    * September f2f location / dates
    * MediaQueryListener - decide to switch to events
