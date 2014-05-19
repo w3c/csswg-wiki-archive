@@ -118,11 +118,12 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
    * Calc
    * Image Values 3
      * Dropping features from image()
-     * Deprecating/dropping image-orientation
-     * [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0568.html|2-value image-resolution]]
 
 === PM ===
 
+   * Image Values 3 (cont'd)
+     * Deprecating/dropping image-orientation
+     * [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0568.html|2-value image-resolution]]
    * Values and Units L3
        * custom-ident rules
        * optional ordered combinator
