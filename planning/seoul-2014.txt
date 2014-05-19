@@ -105,6 +105,60 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
 
    * tuesday night, sponsored by ETRI. To be announced.
 
+===== Agenda =====
+
+==== Monday ====
+
+=== AM ===
+
+   * Flexbox LC -> CR
+   * CSS Transitions and CSS Animations status
+     * More discussion of T/A cascading behavior, weighing impl difficulty against user usefulness
+   * CSS Animations: OM issues. More if time permits.
+   * Calc
+   * Image Values 3
+     * Dropping features from image()
+     * Deprecating/dropping image-orientation
+     * 2-value image-resolution
+
+=== PM ===
+
+   * Values and Units L3
+       * custom-ident rules
+       * optional ordered combinator
+       * publish update
+   * Counter Styles
+     * Review changes
+     * Align with decision on custom-ident rules
+   * CSS3 Text //[Is it possible to phone in? If so, please, late in the afternoon. Bert]//
+       * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-24|text-align shorthanding]]
+       * grapheme cluster terminology
+       * Defining 'text-justify: auto' [can phone in for this? - Liam]
+       * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-70|Arabic letters connecting between elements with display: inline]]
+       * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-72|Control characters]]
+   * Split CSS Text 3
+
+==== Tuesday ====
+
+=== AM ===
+
+   * Footnotes in GCPM [would like to attend remotely - Liam]
+
+
+=== PM ===
+
+   * CSS Line Layout
+       * SVG spec (a REC) defines most properties already. SVG WG would like to reference CSS Line Layout instead. Since there hasn't been progress for two years, how should SVG WG proceed?
+       * Specify heuristics for fonts/font systems without enough font metric information.
+       * Initial caps [would like to participate remotely - Liam]
+
+==== Wednesday ====
+
+=== AM ===
+
+=== PM ===
+
+
 ===== Proposed topics for the meeting =====
 
    * '''-webkit-line-clamp'''
