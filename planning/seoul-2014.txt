@@ -135,13 +135,11 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
        * [[http://lists.w3.org/Archives/Public/www-style/2014Apr/0400.html|Which applies first - pad or negative?]]
      * Align with decision on custom-ident rules
    * CSS3 for formatting books
-   * CSS3 Text //[Is it possible to phone in? If so, please, late in the afternoon. Bert]//
-       * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-24|text-align shorthanding]]
-       * grapheme cluster terminology
-       * Defining 'text-justify: auto' [can phone in for this? - Liam]
-       * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-70|Arabic letters connecting between elements with display: inline]]
-       * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-72|Control characters]]
-   * Split CSS Text 3
+   * Selectors4 to LC
+   * font load events to LC
+   * September f2f location / dates
+   * MediaQueryListener - decide to switch to events
+
 ==== Tuesday ====
 
 === AM ===
@@ -162,6 +160,13 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
 
 === PM ===
 
+   * CSS3 Text //[Is it possible to phone in? If so, please, late in the afternoon. Bert]//
+       * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-24|text-align shorthanding]]
+       * grapheme cluster terminology
+       * Defining 'text-justify: auto' [can phone in for this? - Liam]
+       * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-70|Arabic letters connecting between elements with display: inline]]
+       * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-72|Control characters]]
+   * Split CSS Text 3
 
 ===== Proposed topics for the meeting =====
 
