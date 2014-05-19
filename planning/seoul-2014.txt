@@ -152,7 +152,7 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
    * CSS Line Layout
        * SVG spec (a REC) defines most properties already. SVG WG would like to reference CSS Line Layout instead. Since there hasn't been progress for two years, how should SVG WG proceed?
        * Specify heuristics for fonts/font systems without enough font metric information.
-       * Initial caps [would like to participate remotely - Liam]
+       * [[http://dauwhe.github.io/dropcaps/Overview.html|Initial caps]] [would like to participate remotely - Liam]
 
 ==== Wednesday ====
 
