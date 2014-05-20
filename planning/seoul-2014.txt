@@ -145,8 +145,6 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
 === AM ===
 
    * Footnotes in GCPM [would like to attend remotely - Liam]
-   * Test results script hosted on w3.org for /TR publications
-   * CSS Object Model
    * CSS Scoping
    * Selectors4 to LC
    * CSS Flexbox to PR (last call ended, CR exit criteria met)
@@ -173,6 +171,8 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
        * FPWD
    * '''-webkit-line-clamp'''
      * cool ability, let's talk about how to do it right and figure out where to spec it (Line Layout?)
+   * Test results script hosted on w3.org for /TR publications
+   * CSS Object Model
 
 === PM ===
 
