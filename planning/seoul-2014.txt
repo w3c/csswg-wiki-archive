@@ -185,10 +185,12 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
        * [[http://dev.w3.org/csswg/css-text-3/issues-lc-2013#issue-72|Control characters]]
    * Split CSS Text 3
    * web-platform-tests and csswg-test github repositories
-   * [[http://www.w3.org/2014/05/css-conditions.html|CSS conditions]]
    * Ability to annotate url() with "crossorigin", "integrity", etc for @import, background-image etc.
        * [[http://lists.w3.org/Archives/Public/public-fx/2013AprJun/thread.html#msg176 crossorigin thread]]
        * [[http://w3c.github.io/webappsec/specs/subresourceintegrity/ Integrity spec]]
+   * subgrid
+   * [[http://www.w3.org/2014/05/css-conditions.html|CSS conditions]]
+
 ===== Proposed topics for the meeting =====
 
    * CSS Scoping
