@@ -186,8 +186,8 @@ The venue is at walking distance (150 meters) from the hotel. Please see the map
    * Split CSS Text 3
    * web-platform-tests and csswg-test github repositories
    * Ability to annotate url() with "crossorigin", "integrity", etc for @import, background-image etc.
-       * [[http://lists.w3.org/Archives/Public/public-fx/2013AprJun/thread.html#msg176 crossorigin thread]]
-       * [[http://w3c.github.io/webappsec/specs/subresourceintegrity/ Integrity spec]]
+       * [[http://lists.w3.org/Archives/Public/public-fx/2013AprJun/thread.html#msg176|crossorigin thread]]
+       * [[http://w3c.github.io/webappsec/specs/subresourceintegrity/|Integrity spec]]
    * subgrid
    * [[http://www.w3.org/2014/05/css-conditions.html|CSS conditions]]
 
