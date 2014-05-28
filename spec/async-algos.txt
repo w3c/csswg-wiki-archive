@@ -37,6 +37,6 @@ If a method returns a promise, and is thus asynchronous, **never** throw an exce
 
 Be careful about making any change to the state of the document within the asynchronous portion of the algorithm.  Any observable change must define precisely when it happens, so that observable state cannot change in the middle of author JS code; that violates JS's run-to-completion semantics.  Instead, all changes must happen in a defined task or microtask.  For example, the above algorithm is erroneous; it changes the font face's '''status''' attribute, an author-observable piece of information, without clarifying precisely when it happens.
 
-If you do make any changes, {{something about queueing a task; I'll ask Anne for more detail}}.
+If you do make any changes, [something about queueing a task; I'll ask Anne for more detail].
 
 Note that fulfilling a promise is not author-observable; they can't tell whether it was fulfilled until the end of their code, when tasks and microtasks run, so it's safe.
