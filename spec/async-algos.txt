@@ -53,8 +53,9 @@ The correct way to make an observable change is in a synchronous block that is e
 >
 > 5. Once the attempt to load either completes with either success or failure, await a stable state, then synchronously execute the following steps:
 >
->   a. If the attempt to load failed, set font face's status attribute to "error", then reject font face's %%[[FontStatusPromise]]%% with a NetworkError.
->   b. Otherwise, set font face's status attribute to "loaded", then fulfill font face's %%[[FontStatusPromise]]%% with font face.
+>   5a. If the attempt to load failed, set font face's status attribute to "error", then reject font face's %%[[FontStatusPromise]]%% with a NetworkError.
+>
+>   5b. Otherwise, set font face's status attribute to "loaded", then fulfill font face's %%[[FontStatusPromise]]%% with font face.
 
 The "await a stable state" language ensures that author code has reached a point where other code can run, and that nothing else is in the queue to be run.  This ensures that, for example, the promise's callbacks will be called immediately after the status attribute is changed.
 
