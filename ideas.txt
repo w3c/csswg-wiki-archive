@@ -44,6 +44,7 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
   * [[ideas:aliasing| proposals for property aliasing]]
   * [[ideas:placeholder styling|Fixing <input placeholder=''> styling]]
   * [[ideas:font-load-futures|Font Loads with Futures]]
+  * [[ideas:color-object|Color JS Object]]
 
 ===== Miscellaneous =====
 
