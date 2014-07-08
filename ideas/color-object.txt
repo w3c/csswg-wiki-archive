@@ -1,41 +1,41 @@
-[Constructor(double r, double g, double b, optional double a=1)]
-interface RGBAColor {
-  attribute double r;
-  attribute double g;
-  attribute double b;
-  attribute double a;
-  
-  HSLAColor asHSL();
-  HexColor asHex();
-  
-  static RGBAColor fromHSLA(double h, double s, double l, optional double a=1);
-  static RGBAColor fromHex(octet r, octet g, octet b, optional octet a=255);
-  
-  stringifier DOMString (optional DOMString type="rgba");
-  static readonly attribute Map serializationTypes;
-};
+  [Constructor(double r, double g, double b, optional double a=1)]
+  interface RGBAColor {
+    attribute double r;
+    attribute double g;
+    attribute double b;
+    attribute double a;
+    
+    HSLAColor asHSL();
+    HexColor asHex();
+    
+    static RGBAColor fromHSLA(double h, double s, double l, optional double a=1);
+    static RGBAColor fromHex(octet r, octet g, octet b, optional octet a=255);
+    
+    stringifier DOMString (optional DOMString type="rgba");
+    static readonly attribute Map serializationTypes;
+  };
 
 The stringifier looks up the type in the RGBAColor.serializationTypes Map; if it finds a function, it calls that with the RGBAColor as the sole argument and returns whatever the function returns.  It's preloaded with UA-defined functions for "hex3", "hex6", "rgb", "rgba", "hsl", and "hsla". 
 
 Authors can define their own color formats by adding a fromFoo() to RGBAColor, a toFoo() to RGBAColor.prototype, and adding an appropriate serialization tag to RGBAColor.serializationTypes.
 
-dictionary HSLAColor {
-  double h;
-  double s;
-  double l;
-  double a;
-};
-
-dictionary HexColor {
-  octet r;
-  octet g;
-  octet b;
-  octet a;
-};
-
-partial interface CSS {
-	CSSColor parseColor(DOMString color, optional Element el);
-};
+  dictionary HSLAColor {
+    double h;
+    double s;
+    double l;
+    double a;
+  };
+  
+  dictionary HexColor {
+    octet r;
+    octet g;
+    octet b;
+    octet a;
+  };
+  
+  partial interface CSS {
+    CSSColor parseColor(DOMString color, optional Element el);
+  };
 
 If parseColor is called with a color that depends on the element on which it is used,
 such as ''currentcolor'' or ''inherit'',
