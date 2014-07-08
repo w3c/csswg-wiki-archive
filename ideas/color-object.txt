@@ -1,4 +1,5 @@
-  [Constructor(double r, double g, double b, optional double a=1)]
+  [Constructor(double r, double g, double b, optional double a=1),
+   Constructor(RGBAColorInit color)]
   interface RGBAColor {
     attribute double r;
     attribute double g;
@@ -6,10 +7,12 @@
     attribute double a;
     
     HSLAColor asHSL();
-    HexColor asHex();
-    
     static RGBAColor fromHSLA(double h, double s, double l, optional double a=1);
+    static RGBAColor fromHSLA(optional HSLAColorInit color);
+    
+    HexColor asHex();
     static RGBAColor fromHex(octet r, octet g, octet b, optional octet a=255);
+    static RGBAColor fromHex(optional HexColorInit color);
     
     stringifier DOMString (optional DOMString type="rgba");
     static readonly attribute Map serializationTypes;
@@ -19,18 +22,25 @@ The stringifier looks up the type in the RGBAColor.serializationTypes Map; if it
 
 Authors can define their own color formats by adding a fromFoo() to RGBAColor, a toFoo() to RGBAColor.prototype, and adding an appropriate serialization tag to RGBAColor.serializationTypes.
 
-  dictionary HSLAColor {
-    double h;
-    double s;
-    double l;
-    double a;
+  dictionary RGBAColorInit {
+    double r = 0;
+    double g = 0;
+    double b = 0;
+    double a = 1;
+  };
+
+  dictionary HSLAColorInit {
+    double h = 0;
+    double s = 1;
+    double l = .5;
+    double a = 1;
   };
   
-  dictionary HexColor {
-    octet r;
-    octet g;
-    octet b;
-    octet a;
+  dictionary HexColorInit {
+    octet r = 0;
+    octet g = 0;
+    octet b = 0;
+    octet a = 255;
   };
   
   partial interface CSS {
