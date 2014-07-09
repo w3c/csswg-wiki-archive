@@ -44,7 +44,7 @@ Authors can define their own color formats by adding a fromFoo() to RGBAColor, a
   };
   
   partial interface CSS {
-    CSSColor parseColor(DOMString color, optional Element el);
+    RGBAColor parseColor(DOMString color, optional Element el);
   };
 
 If parseColor is called with a color that depends on the element on which it is used,
