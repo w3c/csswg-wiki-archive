@@ -6,19 +6,19 @@
     attribute double b;
     attribute double a;
     
-    HSLAColor asHSL();
+    HSLAColorInit asHSL();
     static RGBAColor fromHSLA(double h, double s, double l, optional double a=1);
     static RGBAColor fromHSLA(optional HSLAColorInit color);
     
-    HexColor asHex();
+    HexColorInit asHex();
     static RGBAColor fromHex(octet r, octet g, octet b, optional octet a=255);
     static RGBAColor fromHex(optional HexColorInit color);
     
-    stringifier DOMString (optional DOMString type="rgba");
+    DOMString toString(optional DOMString type="rgba");
     static readonly attribute Map serializationTypes;
   };
 
-The stringifier looks up the type in the RGBAColor.serializationTypes Map; if it finds a function, it calls that with the RGBAColor as the sole argument and returns whatever the function returns.  It's preloaded with UA-defined functions for "hex3", "hex6", "rgb", "rgba", "hsl", and "hsla". 
+The toString() method looks up the type in the RGBAColor.serializationTypes Map; if it finds a function, it calls that with the RGBAColor as the sole argument and returns whatever the function returns.  It's preloaded with UA-defined functions for "hex3", "hex6", "rgb", "rgba", "hsl", and "hsla". 
 
 Authors can define their own color formats by adding a fromFoo() to RGBAColor, a toFoo() to RGBAColor.prototype, and adding an appropriate serialization tag to RGBAColor.serializationTypes.
 
@@ -28,7 +28,7 @@ Authors can define their own color formats by adding a fromFoo() to RGBAColor, a
     double b = 0;
     double a = 1;
   };
-
+  
   dictionary HSLAColorInit {
     double h = 0;
     double s = 1;
