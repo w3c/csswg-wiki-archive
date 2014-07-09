@@ -43,7 +43,9 @@ Taxis are expensive, typical rates are € 51–57 (from airport to Antibes or S
 
 === Train ===
 
-...
+The nearest train station is Antibes.
+
+The nearest station to the airport is Nice Saint-Augustin: about 1 km on foot from Terminal 1, or one stop with bus 23. However, it is currently not signposted at the airport at all. (The town of Nice has promised to integrate the train better in the transport around the airport, when the tram line from the airport to the center is ready, in a few years...)
 
 === Bus ===
 
@@ -53,13 +55,27 @@ Taxis are expensive, typical rates are € 51–57 (from airport to Antibes or S
 
 ...
 
-== Hotels ==
+==== INRIA Campus ====
 
-=== Sophia-Antipolis ===
+There is normally no need to have a visitor's badge if you're only visiting the meeting rooms and the restaurant. Access to all other buildings is restricted.
 
-There are some hotels at walking distance from INRIA
+There is a reception at the entrance gate, where you may want to ask for directions to the right room. However, there is no need to sign in.
 
-=== Antibes ===
+==== Hotels ====
+
+There are some hotels at walking distance from INRIA (see below). They are convenient if you come here to work. ☺ After the evening rush, the area is quiet and if you're awoken by a sound, it is probably a wild boar under your window.
+
+On the other hand, if you take a hotel in one of the surrounding towns (Antibes, Biot, Valbonne, Mougins, Cannes, etc.), you're sure to have interesting restaurants around you and, especially in Antibes, a number of bars.
+
+Nice is the big town in the area. From the center of Nice to INRIA is about 24 km.
+
+Hotels at walking distance:
+
+  * [[http://www.novotel.com/gb/hotel-0398-novotel-sophia-antipolis/index.shtml|Novotel Sophia-Antipolis]] %%****%% (0.83 km)
+  * [[http://www.hotelomega.com/en|Oméga]] %%***%% (1.24 km)
+  * [[http://www.mercure.com/gb/hotel-1122-mercure-antibes-sophia-antipolis/index.shtml|Mercure]] %%****%% (1.34 km)
+  * [[http://www.ibis.com/gb/hotel-0711-ibis-antibes-sophia-antipolis/index.shtml|Ibis]] %%***%% (1.26 km)
+
 
 === Other ===
 
@@ -71,20 +87,36 @@ There is also an Eduroam network, for those who have such an account.
 
 == Money ==
 
+France uses the Euro (abbreviation: EUR; sign: €). Here is a form for the currency converter at Oanda:
+
+<HTML>
+<form action="http://www.oanda.com/convert/classic">
+<input type=hidden name=user value=printable><input type=hidden
+name=lang value=en><input name=exch size=3 value="USD"><input
+name=value size=4 value=100>&#8594;<input name=expr size=3
+value="EUR"> <input type=submit value="convert">
+</form>
+</HTML>
+
 == Electricity ==
+
+Electricity in France is 230 V, 50 Hz. Laptops normally come with a power supply that handles everything from 110 V to 230 V. That may not be the case for other devices.
+
+Power plugs:
+[[http://electricaloutlet.org/type-c|type C ("Europlug")]] and
+[[http://electricaloutlet.org/type-e|type E (grounded)]]
 
 == Touristic tips ==
 
-== Food ==
+=== Food ====
 
-* Breakfast: We're still checking our budget...
-* Morning break outside the meeting room
-* Buffet lunch in the INRIA restaurant
-* Afternoon break outside the meeting room
-* For the moment, W3C does not plan to offer a dinner (sponsors welcome!)
+  * Morning break outside the meeting room
+  * Buffet lunch in the INRIA restaurant
+  * Afternoon break outside the meeting room
+  * For the moment, W3C does not plan to offer a dinner (sponsors welcome!)
 
-== Agenda topics ==
+==== Agenda topics ====
 
-== Agenda ==
+==== Agenda ====
 
-== Scribes ==
+=== Scribes ===
