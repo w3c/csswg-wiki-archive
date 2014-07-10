@@ -14,6 +14,9 @@
     static RGBAColor fromHex(octet r, octet g, octet b, optional octet a=255);
     static RGBAColor fromHex(optional HexColorInit color);
     
+    DOMString? asKeyword();
+    /* Add fromKeyword()? Add "keyword" serialization type? Needs rounding. */
+    
     DOMString toString(optional DOMString type="rgba");
     static readonly attribute Map serializationTypes;
   };
