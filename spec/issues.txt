@@ -85,6 +85,8 @@ To raise an issue to the WG, simply ask one of the co-chairs to add it to the ag
 Once the issue has been resolved and edited in, tell the commenter what you've decided and show off your spec text! Sometimes you'll get an A+. Other times, the commenter will follow up with concerns about your solution, the quality of your spec prose, details you've forgotten, or tangential issues they notice once their attention is back on your prose.
 
 Be sure to CC the commenter, especially if they are not active members of www-style. Hitting Reply-All usually does the trick.
+
+If you're making changes to a CR-level spec, be sure to list any substantive changes in the Changes section. This helps implementers make sure they're aligned with your spec.
 ===== 3. Save your Progress =====
 
 The W3C has an antiquated spec-publishing system that generally pisses everyone off (except, for some reason, Chaals). However it has a nice feature: Save Points.
