@@ -86,7 +86,7 @@ Once the issue has been resolved and edited in, tell the commenter what you've d
 
 Be sure to CC the commenter, especially if they are not active members of www-style. Hitting Reply-All usually does the trick.
 
-If you're making changes to a CR-level spec, be sure to list any substantive changes in the Changes section. This helps implementers make sure they're aligned with your spec.
+If you're making changes to a CR-level spec, be sure to list any substantive changes, however minor, in the Changes section. This helps implementers make sure they're aligned with your spec.
 ===== 3. Save your Progress =====
 
 The W3C has an antiquated spec-publishing system that generally pisses everyone off (except, for some reason, Chaals). However it has a nice feature: Save Points.
