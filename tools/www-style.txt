@@ -33,7 +33,6 @@ better:
   * animating vertical-align (RE: [CSSWG] Minutes Telecon 2012-02-29)
 
 best:
-  * [css3-animations] animating vertical-align (was RE: [CSSWG] Minutes Telecon 2012-02-29)
   * [css3-animations] animating vertical-align
 
 ===== Use standard text conventions for quotes, not colors or name-tags =====
