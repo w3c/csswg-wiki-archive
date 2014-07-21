@@ -99,7 +99,7 @@ As a CSSWG editor, you are expected to periodically update the "TR copy", that i
   - Announcing your publication as fait accompli.
 
 Despite its much-maligned downsides, this process has some benefits:
-  * It forces you to update the CSSWG, at a high level, on what's going on with your spec. This is good, because it pulls in the attention of some very busy experts, who can suggest design improvements, notice architectural fallacies, accommodate your changes in their own modules, and generally help us all maintain consistency across all of CSS despite its fragmentation into modules.
+  * It forces you to update the CSSWG, at a high level, on what's going on with your spec. This is good, because it pulls in the attention of some very busy experts, who can suggest design improvements, notice architectural fallacies, accommodate your changes in their own modules, and generally help us maintain consistency across all of CSS despite its fragmentation into modules.
   * It helps you to engage with people who cannot keep up with your lightning speed of progress, such as the i18nWG, the authoring community, implementors who are currently paying attention to their other projects, and members of the CSSWG who aren't following your every brilliant typo fix. Slackers.
   * It makes sure you fixed all those markup errors you accidentally introduced since the last publication. (Oops.)
   * Gives you an opportunity to distill your progress and present it (via the CSSWG Blog and other news outlets) as exciting updates for which the authoring community can provide feedback.
