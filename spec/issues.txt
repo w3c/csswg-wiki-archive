@@ -52,6 +52,7 @@ As a [[http://fantasai.inkedblade.net/weblog/2011/inside-csswg/decisions|delegat
 Resolve by yourself:
   * Editorial (non-substantive) changes.
   * Bugfixes (problems with obvious solutions).
+  * No Change resolutions in cases where the commenter is clueless or the requested change would clearly violate a WG design principle. (In such cases, there is no reason to involve the WG.)
 
 Raise to WG:
   * API/syntax changes
@@ -59,13 +60,11 @@ Raise to WG:
   * Cross-module issues (has cross-module impact, or may affect cross-module consistency)
   * Could possibly affect implementation architecture
 
-In cases where the solution isn't obvious but
+You can use your discretion as the editor to resolve the issue by mailing list discussion only in cases where the solution isn't obvious but:
   * the impact of the solution is minor and localized
   * no syntax/API is affected
   * there is consensus on the mailing list, at least among the people involved in the discussion; and nobody not involved in the discussion is likely to care
-you can use your discretion as the editor to resolve the issue by mailing list discussion only. In such cases, be sure to get a positive review of your changes from your co-editors, the commenter, and preferably also any known implementers.
-
-As the editor, you should also close issues as No Change without review in cases where the commenter is clueless or the requested change would clearly violate a WG design principle. In such cases, there is no reason to involve the WG.
+In such cases, be sure to get a positive review of your changes from your co-editors, the commenter, and preferably also any known implementers.
 
 ==== Raising Issues to the WG ====
 
