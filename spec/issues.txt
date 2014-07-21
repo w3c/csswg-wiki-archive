@@ -44,7 +44,7 @@ Part of this responsibility is the technical and editorial task of solving the i
   * [[http://fantasai.inkedblade.net/weblog/2012/css-layout-evolution/#css3-overview|CSS Layout: Principles of Design]], as presented by fantasai
   * [[http://wiki.csswg.org/spec#coordination-between-specifications|CSS Cross-module Coordination]], tips for cross-spec consistency
 
-But another part of it is also communicating the issue and its resolution to the community, including the commenter, affected implementers, and the CSSWG community.
+But another part of it is also creating a resolution that represents the common understanding (or consensus) of the CSS community, including various commenters, affected implementers, and the CSSWG. To do that you have to not only solicit and incorporate feedback, and but also communicate outwards the results.
 
 ==== Choose Your Authority ====
 
