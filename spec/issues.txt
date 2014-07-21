@@ -49,23 +49,29 @@ But another part of it is also communicating the issue and its resolution to the
 
 As a [[http://fantasai.inkedblade.net/weblog/2011/inside-csswg/decisions|delegate of the CSSWG]], you need to decide when it's appropriate to resolve an issue by yourself, and when it's appropriate to raise it to the CSSWG. Here are some guidelines:
 
-Resolve by yourself:
+== Resolve by yourself ==
+
   * Editorial (non-substantive) changes.
   * Bugfixes (problems with obvious solutions).
   * No Change resolutions in cases where the commenter is clueless or the requested change would clearly violate a WG design principle. (In such cases, there is no reason to involve the WG.)
 
-Raise to WG:
+== Raise to WG ==
+
   * API/syntax changes
   * Controversial issues
   * Cross-module issues (has cross-module impact, or may affect cross-module consistency)
-  * Could possibly affect implementation architecture
+  * Issues that could affect implementation architecture
+  * Issues that could break compatibility with CSS2.1 or existing Web content
+  * Anything you're unsure of
 
-You can use your discretion as the editor to resolve the issue by mailing list discussion only in cases where the solution isn't obvious but:
+== Resolve with your peers ==
+
+You can use your discretion as the editor to resolve by mailing list discussion cases where the solution isn't obvious or editorial but:
   * the impact of the solution is minor and localized
   * no syntax/API is affected
-  * there is consensus on the mailing list, at least among the people involved in the discussion; and nobody not involved in the discussion is likely to care
+  * there is consensus on the mailing list, at least among the people involved in the discussion; and
+  * nobody not involved in the discussion is likely to care
 In such cases, be sure to get a positive review of your changes from your co-editors, the commenter, and preferably also any known implementers.
-
 ==== Raising Issues to the WG ====
 
 Sometimes its appropriate to raise an issue to the WG discussion. You can look at the CSSWG as a bureacratic approval committee that you must appease. Or, you can look at it as a group of really smart and knowledgeable people who care about making your spec better but whose attention you need to cultivate because we're all way too overloaded to read every thread on www-style. Personally, I start with the assumption that the CSSWG’s review would be very useful on everything, but attention is a limited resource so my job is to
