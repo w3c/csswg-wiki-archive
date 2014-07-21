@@ -1,6 +1,6 @@
 ====== Best Practices for Issue Resolution ======
 
-So you're a spec editor now. Congrats! You my think you will be spending your days drafting beautifully-crafted spec text to describe the newest features you've just dreamed up, but in fact, you will //mostly // be living in a mailing list addressing all the bugs in what you (or your predecessor) have already written.
+So you're a spec editor now. Congrats! You may think you will be spending your days drafting beautifully-crafted spec text to describe the newest features you've just dreamed up, but in fact, you will //mostly // be living in a mailing list addressing all the bugs in what you (or your predecessor) have already written.
 
 Fear not! There is a (temporary) end to the issues (if you are diligent enough to hit Inbox Zero). Note: This is sometimes called Last Call. It will flood you with more issues.
 
