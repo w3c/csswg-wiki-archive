@@ -16,10 +16,11 @@ The spec codes allow editors to more reliably track and address feedback on thei
 
 Interleave or bottom-post replies, and trim quotations to quote only relevant parts. Previous discussion is always available in full in the [[http://lists.w3.org/Archives/Public/www-style/|archive]].
 
-===== Don't reply to [CSSWG] announcement threads  =====
+===== Don't reply to announcement threads  =====
 
 Occasionally a CSSWG member will post meeting minutes, a draft publication announcement, or a meeting agenda to the list. If you want to discuss one of the topics in the message, quote the relevant part and start a new thread with a new subject line. Only reply to the announcement thread if you're offering a correction or missing background info.
 
+Announcement threads should be marked with [CSSWG].
 ===== Change the subject when a starting new discussion =====
 
 A lot of emails get posted to www-style which can spark new / specific discussions in subthreads. When replying any such email and following-up on a specific aspect or subject, please start a *new* subject with the particular topic in brackets. This helps people notice the topic change.
