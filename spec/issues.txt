@@ -30,10 +30,11 @@ Currently, the only CSSWG issue-tracker that offers this feature is plaintext. S
 
 Record your favored issue-tracker’s URL into the spec's header. You can change your mind later, but in that case don't forget to update that URL.
 
-===== 2. Find your Issues =====
+===== 2. Find your Issues and Track Them =====
 
 Aside from the ones already in your tracker, there are more in the mailing list, usually tagged with your spec's shortname in brackets.
 
+Make sure you're tracking all of them. Or at least, all the open ones.
 ===== 3. Address (and communicate!) your Issues =====
 
 As the spec editor, you are charged with the responsibility of representing the CSSWG in the resolution of your issues.
