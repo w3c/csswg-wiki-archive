@@ -64,6 +64,8 @@ As a [[http://fantasai.inkedblade.net/weblog/2011/inside-csswg/decisions|delegat
   * Issues that could break compatibility with CSS2.1 or existing Web content
   * Anything you're unsure of
 
+Because the WG is a mix of experts and implementer reps, raising issues to the WG gives you access to more expertise when resolving the issue, and also communicates the resolved changes back to the implementation teams who will be impacted by them. WG meetings and agendas are also broadcasted to a wider audience, so even implementers not in the CSSWG will be more likely to follow an issue raised to the WG.
+
 == Resolve with your peers ==
 
 You can use your discretion as the editor to resolve by mailing list discussion cases where the solution isn't obvious or editorial but:
