@@ -38,9 +38,34 @@ Aside from the ones already in your tracker, there are more in the mailing list,
 
 As the spec editor, you are charged with the responsibility of representing the CSSWG in the resolution of your issues.
 
-Part of this responsibility is the technical and editorial task of solving the issue consistent with CSS’s design principles and making edits accordingly.
+Part of this responsibility is the technical and editorial task of solving the issue consistent with CSS’s design principles and making edits accordingly. Useful reading:
+  * [[http://www.w3.org/TR/CSS21/intro.html#design-principles|CSS Design Principles]], as recorded in the CSS2.1 specification.
+  * [[http://fantasai.inkedblade.net/weblog/2012/css-layout-evolution/#css3-overview|CSS Layout: Principles of Design]], as presented by fantasai
+  * [[http://wiki.csswg.org/spec#coordination-between-specifications|CSS Cross-module Coordination]], tips for cross-spec consistency
 
 But another part of it is also communicating the issue and its resolution to the community, including the commenter, affected implementers, and the CSSWG community.
+
+==== Choose Your Authority ====
+
+As a [[http://fantasai.inkedblade.net/weblog/2011/inside-csswg/decisions|delegate of the CSSWG]], you need to decide when it's appropriate to resolve an issue by yourself, and when it's appropriate to raise it to the CSSWG. Here are some guidelines:
+
+Resolve by yourself:
+  * Editorial (non-substantive) changes.
+  * Bugfixes (problems with obvious solutions).
+
+Raise to WG:
+  * API/syntax changes
+  * Controversial issues
+  * Cross-module issues (has cross-module impact, or may affect cross-module consistency)
+  * Could possibly affect implementation architecture
+
+In cases where the solution isn't obvious but
+  * the impact of the solution is minor and localized
+  * no syntax/API is affected
+  * there is consensus on the mailing list, at least among the people involved in the discussion; and nobody not involved in the discussion is likely to care
+you can use your discretion as the editor to resolve the issue by mailing list discussion only. In such cases, be sure to get a positive review of your changes from your co-editors, the commenter, and preferably also any known implementers.
+
+As the editor, you should also close issues as No Change without review in cases where the commenter is clueless or the requested change would clearly violate a WG design principle. In such cases, there is no reason to involve the WG.
 
 ==== Raising Issues to the WG ====
 
@@ -49,6 +74,11 @@ Sometimes its appropriate to raise an issue to the WG discussion. You can look a
   - Do a really good job of summarizing the issue so as many people as possible can really understand the problem and the proposed solutions (if any) and help resolve the issue better than I could by myself.
   - Communicate any major changes and additions at a high level so everyone is informed of what's going on, can adjust implementation plans as needed, allocate time for a detailed review if appropriate, coordinate their module’s design and development with mine, and give feedback on my work that incorporates experience, expertise, and implementation constraints that I'm not aware of.
 
+==== Inform the Commenter! ====
+
+Once the issue has been resolved and edited in, tell the commenter what you've decided and show off your spec text! Sometimes you'll get an A+. Other times, the commenter will follow up with concerns about your solution, the quality of your spec prose, details you've forgotten, or tangential issues they notice once their attention is back on your prose.
+
+Be sure to CC the commenter, especially if they are not active members of www-style. Hitting Reply-All usually does the trick.
 ===== 3. Save your Progress =====
 
 The W3C has an antiquated spec-publishing system that generally pisses everyone off (except, for some reason, Chaals). However it has a nice feature: Save Points.
