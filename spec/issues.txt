@@ -17,7 +17,7 @@ Your primary weapon in the issue-whacking arts is the trusty Issue Tracker. Ther
   * Your Inbox's message-tagging feature
   * Inline comments (using ''<p class="issue">'') in ths spec.
 
-Note that in the CSSWG **all issue-resolving discussion happens on the mailing list**. Which means your issue-tracker is primarily an index into www-style/public-fx, not a place to discuss the issue.
+Note that in the CSSWG **all issue-resolving discussion happens on the mailing list** (or at a telecon/F2F whose minutes are posted to the mailing list). Which means your issue-tracker is primarily an index into www-style/public-fx, not a place to discuss the issue.
 
 The primary features of an issue tracker are:
   * Ability to link into the mailing list discussion.
