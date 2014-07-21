@@ -37,7 +37,7 @@ Aside from the ones already in your tracker, there are more in the mailing list,
 Make sure you're tracking all of them. Or at least, all the open ones.
 ===== 3. Address (and communicate!) your Issues =====
 
-As the spec editor, you are charged with the responsibility of representing the CSSWG in the resolution of your issues.
+As the spec editor, you are charged with the responsibility of **representing the CSSWG** in the resolution of your issues.
 
 Part of this responsibility is the technical and editorial task of solving the issue consistent with CSS’s design principles and making edits accordingly.
   * [[http://www.w3.org/TR/CSS21/intro.html#design-principles|CSS Design Principles]], as recorded in the CSS2.1 specification.
