@@ -38,7 +38,7 @@ Aside from the ones already in your tracker, there are more in the mailing list,
 
 As the spec editor, you are charged with the responsibility of representing the CSSWG in the resolution of your issues.
 
-Part of this responsibility is the technical and editorial task of solving the issue consistent with CSS’s design principles and making edits accordingly. Useful reading:
+Part of this responsibility is the technical and editorial task of solving the issue consistent with CSS’s design principles and making edits accordingly.
   * [[http://www.w3.org/TR/CSS21/intro.html#design-principles|CSS Design Principles]], as recorded in the CSS2.1 specification.
   * [[http://fantasai.inkedblade.net/weblog/2012/css-layout-evolution/#css3-overview|CSS Layout: Principles of Design]], as presented by fantasai
   * [[http://wiki.csswg.org/spec#coordination-between-specifications|CSS Cross-module Coordination]], tips for cross-spec consistency
