@@ -105,3 +105,5 @@ Despite its much-maligned downsides, this process has some benefits:
   * It makes sure you fixed all those markup errors you accidentally introduced since the last publication. (Oops.)
   * Gives you an opportunity to distill your progress and present it (via the CSSWG Blog and other news outlets) as exciting updates for which the authoring community can provide feedback.
   * It helps with spec archaeology by providing easily-findable major revisions.
+
+Publish early, publish often.
