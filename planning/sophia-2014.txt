@@ -118,11 +118,42 @@ value="EUR"> <input type=submit value="convert">
 
 Electricity in France is 230<html>&nbsp;</html>V, 50<html>&nbsp;</html>Hz. Laptops normally come with a power supply that handles everything from 110<html>&nbsp;</html>V to 230<html>&nbsp;</html>V. That may not be the case for other devices.
 
-Power plugs:
-[[http://electricaloutlet.org/type-c|type<html>&nbsp;</html>C ("Europlug")]] and
-[[http://electricaloutlet.org/type-e|type<html>&nbsp;</html>E (grounded)]]
+Sockets: [[http://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#CEE_7.2F5_.28French.29.28Type_E.29|CEE 7/5 (a.k.a. Type E):]] {{http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/French-power-socket.jpg/220px-French-power-socket.jpg?x100}}
+
+Ungrounded plugs: [[http://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#CEE_7.2F16_.22Europlug.22_.28Type_C.29|CEE 7/16 (a.k.a. Europlug or Type C):]] {{http://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Euro-Flachstecker_2.jpg/220px-Euro-Flachstecker_2.jpg?x100}}
+
+Grounded plugs: [[http://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#CEE_7.2F7|CEE 7/7:]] {{http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/CEE_7-7.jpg/220px-CEE_7-7.jpg?x100}} or [[http://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#CEE_7.2F5_.28French.29.28Type_E.29|CEE 7/5 (a.k.a. Type E):]] {{http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Pure_french_power_plug.jpg/220px-Pure_french_power_plug.jpg?x100}} 
 
 == Touristic tips ==
+
+Antibes-Juan-les-Pins (see [[http://antibesjuanlespins.com/|tourist office]]):
+  * Picasso Museum (also work by De Staël and others)
+  * Peynet Museum (drawings; temporary exhibition about newspaper cartoons from WO I)
+  * Archeological Museum (Antibes in the Roman era)
+  * Saint Bernardin Chapel, Villa Eilenroc, School Museum, art galleries…
+  * Fort Carré (star-shaped fort at the harbor, the current shape was designed by Vauban)
+  * old town, covered market, cathedral (in fact: ex-cathedral since
+  * beach
+  * harbor
+  * Antibesland (amusement park), Marineland (dolphins, orcas, etc.), minigolf, swimming pool…
+  * parks & nature reserves: Jardin Thuret, Fort Carré, Exflora, Eilenroc, around the Cap d'Antibes…
+  * plenty of bars, restaurants and nightclubs; boutiques, a casino…
+
+Biot (see [[http://www.visit-biot.com/|tourst office]]):
+  * Fernand Leger Museum
+  * Municipal & Ceramic Museum
+  * Glass blowers
+  * Bonsai Museum
+  * Old town: narrow alleys, city gates, 15th century church…
+  * Art galleries, including inside the tourist office
+  * Parks & nature: along the Brague river, Chêvre d'Or
+  * restaurants…
+
+Valbonne (see [[http://www.tourisme-valbonne.com/en/|tourist office]]):
+  * Old town, rectangular city plan, church and remains of monastery
+  * Parks & nature: along the Brague river
+  * Art galleries, including in the chapel next to the church
+  * restaurants…
 
 ==== Food ====
 
