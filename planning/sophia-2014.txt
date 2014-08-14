@@ -189,6 +189,8 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
 
 ==== Agenda topics ====
 
+  * Display Module: removing 'display' longhands
+
 ==== Agenda ====
 
 === Scribes ===
