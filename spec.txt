@@ -82,6 +82,9 @@ These specs are old / out of date and need active editors/owners to bring them u
   * [[spec:css3-tables-algorithms|CSS Table Layout Algorithm Module Level 3]]
   * [[spec:css3-line-grid|CSS Line Grid Module Level 1]]
 
+===== dead, need to be turned into Notes =====
+These specs are dead, with no plans to revive them, but they still show up in /TR space looking like real specs. They need to be republished as gravestone Notes.
+  * [[http://www.w3.org/TR/becss/|Behavioral Extensions to CSS]]
 ====== Specification Reviews ======
 CSSWG members' comments on related specs not published by our group.
 
