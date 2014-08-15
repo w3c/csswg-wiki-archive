@@ -85,6 +85,8 @@ These specs are old / out of date and need active editors/owners to bring them u
 ===== dead, need to be turned into Notes =====
 These specs are dead, with no plans to revive them, but they still show up in /TR space looking like real specs. They need to be republished as gravestone Notes.
   * [[http://www.w3.org/TR/becss/|Behavioral Extensions to CSS]]
+  * [[http://www.w3.org/TR/css3-hyperlinks/|Hyperlinks]]
+  * [[http://www.w3.org/TR/css3-marquee/|Marquee]] (I think nobody implements it? Blink recently dropped its support.)
 ====== Specification Reviews ======
 CSSWG members' comments on related specs not published by our group.
 
