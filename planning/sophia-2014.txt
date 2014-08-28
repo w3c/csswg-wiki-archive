@@ -197,6 +197,9 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
   * Display Module: removing 'display' longhands (1hr estimate)
   * Flexbox: All the Issues, DoC review, LCWD request (half a day estimate)
   * Line Grid: publish new draft?
+  * Inline: i18n issues for initial letters; split into separate module? (30min?)
+  * GCPM 3: move footnotes to level 4 and go to LC? (30min?)
+  * GCPM 4: initial strategy, relationship to other specs (regions, page templates, EPUB PGT) (1hr)
   * All WDs that are older than 6 months:
     *  2014-02-20 // CSS Display Module Level 3 // Working Draft 
     *  2014-02-18 // CSS Regions Module Level 1 // Working Draft 
