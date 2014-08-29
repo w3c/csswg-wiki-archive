@@ -201,6 +201,7 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
   * Inline: i18n issues for initial letters; split into separate module? (30min?)
   * GCPM 3: move footnotes to level 4 and go to LC? (30min?)
   * GCPM 4: initial strategy, relationship to other specs (regions, page templates, EPUB PGT) (1hr)
+  * Paginated Views (perhaps as part of the GCPM 4 discussion)
   * All WDs that are older than 6 months:
     *  2014-02-20 // CSS Display Module Level 3 // Working Draft 
     *  2014-02-18 // CSS Regions Module Level 1 // Working Draft 
