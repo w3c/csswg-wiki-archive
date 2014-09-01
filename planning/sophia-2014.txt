@@ -236,11 +236,11 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
     *  2014-01-16 // CSS Fragmentation Module Level 3 // Working Draft 
     *  2013-12-17 // CSSOM View Module // Working Draft 
     *  2013-12-05 // CSS Object Model (CSSOM) // Working Draft 
-    *  2013-11-26 // CSS Transforms Module Level 1 // Working Draft 
-    *  2013-11-26 // Filter Effects Module Level 1 // Working Draft 
+    *  2013-11-26 // CSS Transforms Module Level 1 // Working Draft   (request for new WD, krit)
+    *  2013-11-26 // Filter Effects Module Level 1 // Working Draft   (request for new WD, krit)
     *  2013-11-19 // CSS Transitions // Working Draft 
     *  2013-10-10 // CSS Text Module Level 3 // Last Call 
-    *  2013-09-19 // DOMMatrix interface // Working Draft 
+    *  2013-09-19 // DOMMatrix interface // Working Draft    (request to publish as WG note, krit)
     *  2013-07-18 // CSS Counter Styles Level 3 // Last Call 
     *  2013-05-28 // CSS Exclusions Module Level 1 // Working Draft 
     *  2013-05-14 // CSS Box Alignment Module Level 3 // Working Draft 
@@ -263,6 +263,7 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
     *  2003-08-13 // CSS3 module: Presentation Levels // Working Draft 
     *  2003-05-14 // CSS3 Generated and Replaced Content Module // Working Draft 
     *  2002-05-15 // CSS3 module: line // Working Draft
+  * New WD for Geometry interfaces after TAG input
  
 ==== Agenda ====
 
