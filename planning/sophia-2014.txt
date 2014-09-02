@@ -265,6 +265,9 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
     *  2002-05-15 // CSS3 module: line // Working Draft
   * New WD for Geometry interfaces after TAG input (krit)
   * Stacking contexts on SVG (krit)
+  * Prioritize image(<color>) (krit)
+  * randomize() function (krit)
+  * <shape-radius> closest-side/furthest-side and calc() (krit)
  
 ==== Agenda ====
 
