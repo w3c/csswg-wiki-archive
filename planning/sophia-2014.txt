@@ -269,6 +269,9 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
   * Prioritize image(<color>) (krit)
   * randomize() function (krit)
   * <shape-radius> closest-side/furthest-side and calc() (krit)
+  * css-animations:
+    * How keyframe values are computed: http://lists.w3.org/Archives/Public/www-style/2014Aug/0115.html
+    * How dynamic changes to animation/keyframe properties is handled: https://www.w3.org/Bugs/Public/show_bug.cgi?id=14713 
  
 ==== Agenda ====
 
