@@ -8,13 +8,13 @@ The CSS2.1 Test Suite's final format is generated from the XHTML 1.1 source file
   * The [[http://tt2.org/python/|Template-Python module]]
   * The [[http://lxml.de/installation.html|lxml Python module]]
   * The [[https://github.com/html5lib/html5lib-python|html5lib Python module]] 
-  * [[http://mercurial.selenic.com/|Mercurial]] (for building as well as cloning)
+  * [[http://mercurial.selenic.com/|Mercurial]]
   * A full clone of the [[http://test.csswg.org/|test repository]]
 
 ===== Build Instructions =====
 
   * To build all tests, run the ''tools/build.py'' script from the root of your test repository checkout.
-  * To build only specific test suites, list their names ar arguments to ''tools/build.py''.
+  * To build only specific test suites, list their names as arguments to ''tools/build.py''.
   * In both cases, the built test suite will be in ''dist/''.
 
 ===== Write Access =====
