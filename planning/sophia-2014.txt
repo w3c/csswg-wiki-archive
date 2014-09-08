@@ -275,6 +275,7 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
     * How dynamic changes to animation/keyframe properties is handled: https://www.w3.org/Bugs/Public/show_bug.cgi?id=14713 
   * We didn't yet formally approve the [[http://lists.w3.org/Archives/Public/www-style/2014Jul/0312.html|errata text for the background of the canvas.]]
   * CSS Text: DoC review, justification (Koji would like to join over Skype)
+  * Presentation of Motion Path proposal (if time; no resolutions, krit)
 ==== Agenda ====
 
 Approximate daily schedule:
