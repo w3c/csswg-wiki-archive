@@ -231,6 +231,17 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
   * GCPM 3: move footnotes to level 4 and go to LC? (30min?)
   * GCPM 4: initial strategy, relationship to other specs (regions, page templates, EPUB PGT) (1hr)
   * Paginated Views (perhaps as part of the GCPM 4 discussion)
+  * New WD for Geometry interfaces after TAG input (krit)
+  * Stacking contexts on SVG (krit)
+  * Prioritize image(<color>) (krit)
+  * randomize() function (krit)
+  * <shape-radius> closest-side/furthest-side and calc() (krit)
+  * css-animations:
+    * How keyframe values are computed: http://lists.w3.org/Archives/Public/www-style/2014Aug/0115.html
+    * How dynamic changes to animation/keyframe properties is handled: https://www.w3.org/Bugs/Public/show_bug.cgi?id=14713 
+  * We didn't yet formally approve the [[http://lists.w3.org/Archives/Public/www-style/2014Jul/0312.html|errata text for the background of the canvas.]]
+  * CSS Text: DoC review, justification (Koji would like to join over Skype)
+  * Presentation of Motion Path proposal (if time; no resolutions, krit)
   * All WDs that are older than 6 months:
     *  2014-02-20 // CSS Display Module Level 3 // Working Draft 
     *  2014-02-18 // CSS Regions Module Level 1 // Working Draft 
@@ -265,17 +276,7 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
     *  2003-08-13 // CSS3 module: Presentation Levels // Working Draft 
     *  2003-05-14 // CSS3 Generated and Replaced Content Module // Working Draft 
     *  2002-05-15 // CSS3 module: line // Working Draft
-  * New WD for Geometry interfaces after TAG input (krit)
-  * Stacking contexts on SVG (krit)
-  * Prioritize image(<color>) (krit)
-  * randomize() function (krit)
-  * <shape-radius> closest-side/furthest-side and calc() (krit)
-  * css-animations:
-    * How keyframe values are computed: http://lists.w3.org/Archives/Public/www-style/2014Aug/0115.html
-    * How dynamic changes to animation/keyframe properties is handled: https://www.w3.org/Bugs/Public/show_bug.cgi?id=14713 
-  * We didn't yet formally approve the [[http://lists.w3.org/Archives/Public/www-style/2014Jul/0312.html|errata text for the background of the canvas.]]
-  * CSS Text: DoC review, justification (Koji would like to join over Skype)
-  * Presentation of Motion Path proposal (if time; no resolutions, krit)
+
 ==== Agenda ====
 
 Approximate daily schedule:
