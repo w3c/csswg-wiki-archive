@@ -302,6 +302,7 @@ Approximate daily schedule:
 
 == AM ==
 
+  * Adoption of new process
   * Flexbox: All the Issues, DoC review, LCWD request (half a day estimate)
 
 
