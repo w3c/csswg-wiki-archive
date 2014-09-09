@@ -353,6 +353,7 @@ Approximate daily schedule:
   * 2013-10-03 [[http://www.w3.org/TR/css-cascade-3/|CSS Cascading and Inheritance Level 3]]
   * 2013-10-03 [[http://www.w3.org/TR/css-fonts-3/|CSS Fonts Module Level 3]]
   * 2013-09-19 [[http://www.w3.org/TR/matrix/|DOMMatrix interface]]
+    * Publish as Note.
   * 2013-08-01 [[http://www.w3.org/TR/css-text-decor-3/|CSS Text Decoration Module Level 3]]
   * 2013-07-30 [[http://www.w3.org/TR/css3-values/|CSS Values and Units Module Level 3]]
   * 2013-05-28 [[http://www.w3.org/TR/css3-exclusions/|CSS Exclusions Module Level 1]]
