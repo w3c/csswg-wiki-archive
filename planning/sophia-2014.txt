@@ -316,6 +316,8 @@ Approximate daily schedule:
 
 == AM ==
 
+  * Motion Path followup
+  * Next f2f dates/locations
   * GCPM 3: move footnotes to level 4 and go to LC? (30min?)
   * GCPM 4: initial strategy, relationship to other specs (regions, page templates, EPUB PGT) (1hr)
   * Paginated Views (perhaps as part of the GCPM 4 discussion)
