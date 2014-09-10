@@ -337,58 +337,57 @@ Approximate daily schedule:
 
 
 === Older-than-6-months WDs ===
-
-  * 2014-04-03 [[http://www.w3.org/TR/css-line-grid-1/|CSS Line Grid Module Level 1]]
-  * 2014-04-03 [[http://www.w3.org/TR/css-scoping-1/|CSS Scoping Module Level 1]]
-  * 2014-03-25 [[http://www.w3.org/TR/css-flexbox-1/|CSS Flexible Box Layout Module Level 1]]
-  * 2014-03-20 [[http://www.w3.org/TR/css-lists-3/|CSS Lists and Counters Module Level 3]]
-  * 2014-03-20 [[http://www.w3.org/TR/css-writing-modes-3/|CSS Writing Modes Level 3]]
-  * 2014-03-20 [[http://www.w3.org/TR/css-shapes-1/|CSS Shapes Module Level 1]]
-  * 2014-02-20 [[http://www.w3.org/TR/css-syntax-3/|CSS Syntax Module Level 3]]
-  * 2014-02-20 [[http://www.w3.org/TR/compositing-1/|Compositing and Blending Level 1]]
-  * 2014-02-20 [[http://www.w3.org/TR/css-display-3/|CSS Display Module Level 3]]
-  * 2014-02-18 [[http://www.w3.org/TR/css3-regions/|CSS Regions Module Level 1]]
-  * 2014-02-04 [[http://www.w3.org/TR/css3-background/|CSS Backgrounds and Borders Module Level 3]]
-  * 2014-01-16 [[http://www.w3.org/TR/css3-break/|CSS Fragmentation Module Level 3]]
-  * 2013-12-17 [[http://www.w3.org/TR/cssom-view/|CSSOM View Module]]
-  * 2013-12-05 [[http://www.w3.org/TR/cssom/|CSS Object Model (CSSOM)]]
-  * 2013-11-26 [[http://www.w3.org/TR/css-transforms-1/|CSS Transforms Module Level 1]]
-  * 2013-11-26 [[http://www.w3.org/TR/filter-effects-1/|Filter Effects Module Level 1]]
-  * 2013-11-19 [[http://www.w3.org/TR/css3-transitions/|CSS Transitions]]
-  * 2013-10-10 [[http://www.w3.org/TR/css-text-3/|CSS Text Module Level 3]]
-  * 2013-10-03 [[http://www.w3.org/TR/css-cascade-3/|CSS Cascading and Inheritance Level 3]]
-  * 2013-10-03 [[http://www.w3.org/TR/css-fonts-3/|CSS Fonts Module Level 3]]
-  * 2013-09-19 [[http://www.w3.org/TR/matrix/|DOMMatrix interface]]
-    * Publish as Note.
-  * 2013-08-01 [[http://www.w3.org/TR/css-text-decor-3/|CSS Text Decoration Module Level 3]]
-  * 2013-07-30 [[http://www.w3.org/TR/css3-values/|CSS Values and Units Module Level 3]]
-  * 2013-05-28 [[http://www.w3.org/TR/css3-exclusions/|CSS Exclusions Module Level 1]]
-  * 2013-05-14 [[http://www.w3.org/TR/css3-align/|CSS Box Alignment Module Level 3]]
-  * 2013-05-02 [[http://www.w3.org/TR/selectors4/|Selectors Level 4]]
-  * 2013-04-18 [[http://www.w3.org/TR/css-overflow-3/|CSS Overflow Module Level 3]]
-  * 2013-04-04 [[http://www.w3.org/TR/css3-conditional/|CSS Conditional Rules Module Level 3]]
-  * 2013-03-14 [[http://www.w3.org/TR/css3-page/|CSS Paged Media Module Level 3]]
-  * 2013-02-19 [[http://www.w3.org/TR/css3-animations/|CSS Animations]]
-  * 2012-09-27 [[http://www.w3.org/TR/css3-sizing/|CSS Intrinsic &amp; Extrinsic Sizing Module Level 3]]
-  * 2012-09-11 [[http://www.w3.org/TR/css4-images/|CSS Image Values and Replaced Content Module Level 4]]
-  * 2012-07-03 [[http://www.w3.org/TR/fullscreen/|Fullscreen]]
-  * 2012-04-17 [[http://www.w3.org/TR/css3-images/|CSS Image Values and Replaced Content Module Level 3]]
-  * 2012-03-20 [[http://www.w3.org/TR/css3-speech/|CSS Speech Module]]
-  * 2012-02-07 [[http://www.w3.org/TR/css3-positioning/|CSS Positioned Layout Module Level 3]]
-  * 2012-01-17 [[http://www.w3.org/TR/css3-ui/|CSS Basic User Interface Module Level 3 (CSS3 UI)]]
-  * 2011-11-29 [[http://www.w3.org/TR/css3-layout/|CSS Template Layout Module]]
-  * 2011-09-15 [[http://www.w3.org/TR/css-device-adapt/|CSS Device Adaptation]]
-  * 2011-04-12 [[http://www.w3.org/TR/css3-multicol|CSS Multi-column Layout Module]]
-  * 2008-12-10 [[http://www.w3.org/TR/css-mobile|CSS Mobile Profile 2.0]]
-  * 2008-12-05 [[http://www.w3.org/TR/css3-marquee|CSS Marquee Module Level 3]]
-  * 2007-10-19 [[http://www.w3.org/TR/becss|Behavioral Extensions to CSS]]
-  * 2007-09-05 [[http://www.w3.org/TR/css3-grid|CSS Grid Positioning Module Level 3]]
-  * 2007-08-09 [[http://www.w3.org/TR/css3-box|CSS basic box model]]
-  * 2004-02-24 [[http://www.w3.org/TR/css3-hyperlinks|CSS3 Hyperlink Presentation Module]]
-  * 2004-02-24 [[http://www.w3.org/TR/css3-reader|The CSS 'Reader' Media Type]]
-  * 2003-08-13 [[http://www.w3.org/TR/css3-preslev|CSS3 module: Presentation Levels]]
-  * 2003-05-14 [[http://www.w3.org/TR/css-tv|CSS TV Profile 1.0]]
-  * 2003-05-14 [[http://www.w3.org/TR/css3-content|CSS3 Generated and Replaced Content Module]]
-  * 2002-05-15 [[http://www.w3.org/TR/css3-linebox|CSS3 module: line]]
+^ Last Publish ^ Spec ^ Action ^ Responsibility ^
+| 2014-04-03 | [[http://www.w3.org/TR/css-line-grid-1/|CSS Line Grid Module Level 1]]
+| 2014-04-03 | [[http://www.w3.org/TR/css-scoping-1/|CSS Scoping Module Level 1]] | Republish | |
+| 2014-03-25 | [[http://www.w3.org/TR/css-flexbox-1/|CSS Flexible Box Layout Module Level 1]]
+| 2014-03-20 | [[http://www.w3.org/TR/css-lists-3/|CSS Lists and Counters Module Level 3]]
+| 2014-03-20 | [[http://www.w3.org/TR/css-writing-modes-3/|CSS Writing Modes Level 3]]
+| 2014-03-20 | [[http://www.w3.org/TR/css-shapes-1/|CSS Shapes Module Level 1]]
+| 2014-02-20 | [[http://www.w3.org/TR/css-syntax-3/|CSS Syntax Module Level 3]]
+| 2014-02-20 | [[http://www.w3.org/TR/compositing-1/|Compositing and Blending Level 1]]
+| 2014-02-20 | [[http://www.w3.org/TR/css-display-3/|CSS Display Module Level 3]]
+| 2014-02-18 | [[http://www.w3.org/TR/css3-regions/|CSS Regions Module Level 1]]
+| 2014-02-04 | [[http://www.w3.org/TR/css3-background/|CSS Backgrounds and Borders Module Level 3]]
+| 2014-01-16 | [[http://www.w3.org/TR/css3-break/|CSS Fragmentation Module Level 3]]
+| 2013-12-17 | [[http://www.w3.org/TR/cssom-view/|CSSOM View Module]]
+| 2013-12-05 | [[http://www.w3.org/TR/cssom/|CSS Object Model (CSSOM)]]
+| 2013-11-26 | [[http://www.w3.org/TR/css-transforms-1/|CSS Transforms Module Level 1]]
+| 2013-11-26 | [[http://www.w3.org/TR/filter-effects-1/|Filter Effects Module Level 1]]
+| 2013-11-19 | [[http://www.w3.org/TR/css3-transitions/|CSS Transitions]]
+| 2013-10-10 | [[http://www.w3.org/TR/css-text-3/|CSS Text Module Level 3]]
+| 2013-10-03 | [[http://www.w3.org/TR/css-cascade-3/|CSS Cascading and Inheritance Level 3]]
+| 2013-10-03 | [[http://www.w3.org/TR/css-fonts-3/|CSS Fonts Module Level 3]] | Leave as is | |
+| 2013-09-19 | [[http://www.w3.org/TR/matrix/|DOMMatrix interface]] | Gutted Note | Bert |
+| 2013-08-01 | [[http://www.w3.org/TR/css-text-decor-3/|CSS Text Decoration Module Level 3]] | Leave as-is | |
+| 2013-07-30 | [[http://www.w3.org/TR/css3-values/|CSS Values and Units Module Level 3]] | Republish | Tab & fantasai |
+| 2013-05-28 | [[http://www.w3.org/TR/css3-exclusions/|CSS Exclusions Module Level 1]] | Leave as-is | |
+| 2013-05-14 | [[http://www.w3.org/TR/css3-align/|CSS Box Alignment Module Level 3]] | Republish | Tab & fantasai |
+| 2013-05-02 | [[http://www.w3.org/TR/selectors4/|Selectors Level 4]] | Republish | Tab & fantasai |
+| 2013-04-18 | [[http://www.w3.org/TR/css-overflow-3/|CSS Overflow Module Level 3]] | Keep as-is | |
+| 2013-04-04 | [[http://www.w3.org/TR/css3-conditional/|CSS Conditional Rules Module Level 3]] | Leave as-is | |
+| 2013-03-14 | [[http://www.w3.org/TR/css3-page/|CSS Paged Media Module Level 3]] | Add GCPM stuff; republish | Dave Cramer |
+| 2013-02-19 | [[http://www.w3.org/TR/css3-animations/|CSS Animations]] | Republish | Sylvain |
+| 2012-09-27 | [[http://www.w3.org/TR/css3-sizing/|CSS Intrinsic &amp; Extrinsic Sizing Module Level 3]] | Republish | Tab & fantasai |
+| 2012-09-11 | [[http://www.w3.org/TR/css4-images/|CSS Image Values and Replaced Content Module Level 4]] | Republish | Tab |
+| 2012-07-03 | [[http://www.w3.org/TR/fullscreen/|Fullscreen]] | Gutted Note - ask WebApps | Bert |
+| 2012-04-17 | [[http://www.w3.org/TR/css3-images/|CSS Image Values and Replaced Content Module Level 3]] | Republish | Tab |
+| 2012-03-20 | [[http://www.w3.org/TR/css3-speech/|CSS Speech Module]] | Leave as-is; CR | |
+| 2012-02-07 | [[http://www.w3.org/TR/css3-positioning/|CSS Positioned Layout Module Level 3]] | Republish | Rossen |
+| 2012-01-17 | [[http://www.w3.org/TR/css3-ui/|CSS Basic User Interface Module Level 3 (CSS3 UI)]] | Tab republishes | Tab |
+| 2011-11-29 | [[http://www.w3.org/TR/css3-layout/|CSS Template Layout Module]] | Actively-developed Note | Bert |
+| 2011-09-15 | [[http://www.w3.org/TR/css-device-adapt/|CSS Device Adaptation]] | Bug Rune | zcorpan |
+| 2011-04-12 | [[http://www.w3.org/TR/css3-multicol|CSS Multi-column Layout Module]] | Leave as-is | |
+| 2008-12-10 | [[http://www.w3.org/TR/css-mobile|CSS Mobile Profile 2.0]] | Note | Bert |
+| 2008-12-05 | [[http://www.w3.org/TR/css3-marquee|CSS Marquee Module Level 3]] | Gutted Note | Bert |
+| 2007-10-19 | [[http://www.w3.org/TR/becss|Behavioral Extensions to CSS]] | Gutted Note | Bert |
+| 2007-09-05 | [[http://www.w3.org/TR/css3-grid|CSS Grid Positioning Module Level 3]] | Fix TR listing; already replaced by Grid Layout | Bert |
+| 2007-08-09 | [[http://www.w3.org/TR/css3-box|CSS basic box model]] | Republish current WD with warning | Bert |
+| 2004-02-24 | [[http://www.w3.org/TR/css3-hyperlinks|CSS3 Hyperlink Presentation Module]] | Gutted Note | Bert |
+| 2004-02-24 | [[http://www.w3.org/TR/css3-reader|The CSS 'Reader' Media Type]] | Gutted Note | Bert |
+| 2003-08-13 | [[http://www.w3.org/TR/css3-preslev|CSS3 module: Presentation Levels]] | Gutted Note | Bert |
+| 2003-05-14 | [[http://www.w3.org/TR/css-tv|CSS TV Profile 1.0]] | Gutted Note | Bert |
+| 2003-05-14 | [[http://www.w3.org/TR/css3-content|CSS3 Generated and Replaced Content Module]] | republish with GCPM stuff | Fantasai and Tab and Dave Cramer |
+| 2002-05-15 | [[http://www.w3.org/TR/css3-linebox|CSS3 module: line]] | republishing as Inline | Dave Cramer |
  
 === Scribes ===
