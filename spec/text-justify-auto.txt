@@ -22,7 +22,7 @@ Tests: [[http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20ht
 
 ====== Future Possibilities ======
 
-^Document Type^Option 1^Option 2^Option 3^
+^Document Type^Expand CJ not K^Solid CJK^Compromise^
 |text-justify: inter-ideograph (for IE5+)|A|D|B*|
 |Chinese/Japanese (100%)|A|D|B|
 |Korean (Hangul only, 70-80%)|A|A|B|
@@ -30,6 +30,4 @@ Tests: [[http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20ht
 |Korean (Han only, 1-10%)|A|D|B|
 
   * Letters represent quality of results
-  * "- (x)" means no changes from current implementations, but evaluates to “x"
-  * for B=Blink, G=Gecko, T=Trident, W=WebKit
-  * <sup>*1</sup> Option x can make this to “A"
+  * * Adding inter-ideograph can make this A.
