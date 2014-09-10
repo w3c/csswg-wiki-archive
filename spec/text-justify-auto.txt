@@ -2,19 +2,17 @@
 
 Documents with "text-align: justify" are not interoperable today, so any specs involves some costs. We need to make a choice which costs to take and which not to.
 
+Following criteria are out of scope of this discussion:
+  * text-align is not justify. The choice does not make any differences in this case.
+  * has lang attribute. The spec says UA **may** tailor by the content language.
+  * text-jusitfy: inter-word. The spec defines behavior in this case.
+
 ====== Options ======
 
   ;Expand CJ : Expand ideograph (i.e., between ideograph and any), but not Hangul
   ;Solid CJK : Not expand ideograph nor Hangul
   ;Compromise : A compromised algorithm, spacing varies by the content of line
   ;Reintroduce inter-ideograph : Add text-justify: inter-ideograph back
-
-====== Scope ======
-
-Following criteria are out of scope of this discussion:
-  * text-align is not justify. The choice does not make any differences in this case.
-  * has lang attribute. The spec says UA **may** tailor by the content language.
-  * text-jusitfy: inter-word. The spec defines behavior in this case.
 
 ====== Current Behavior ======
 
@@ -29,5 +27,5 @@ Tests: [[http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20ht
 |Korean (Hangul+Han, 20-30%)|C|A|B|
 |Korean (Han only, 1-10%)|A|D|B|
 
-  * Letters represent quality of results
-  * * Adding inter-ideograph can make this A.
+Letters represent quality of results
+* Adding inter-ideograph can make this A.
