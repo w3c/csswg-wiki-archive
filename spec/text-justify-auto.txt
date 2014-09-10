@@ -43,13 +43,13 @@ Letters represent quality of results
 ====== Regressions ======
 ^Document Type^Engine^Expand CJ not K^Solid CJK^Compromise^
 |text-justify: inter-ideograph (for IE5+)|Bm/T/W|Same|-*|-*|
-|:::|Ba/Bw/G|+|Same|+|
+|:::|Baow/G|+|Same|+|
 |Chinese/Japanese (100%)|Bm/W|Same|-|-|
-|:::|Ba/Bw/G/T|+|Same|+|
+|:::|Baow/G/T|+|Same|+|
 |Korean (Hangul only, 70-80%)|*|Same|Same|-|
 |Korean (Hangul+Han, 20-30%)|Bm/W|Same|+|+ and -|
-|:::|Ba/Bw/G/T|-|Same|-|
+|:::|Baow/G/T|-|Same|-|
 |Korean (Han only, 1-10%)|Bm/W|Same|-|-|
-|:::|Ba/Bw/G/T|+|Same|+|
+|:::|Baow/G/T|+|Same|+|
 
   * "+" indicates better, "-" indicates worse
