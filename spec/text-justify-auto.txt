@@ -6,7 +6,7 @@ Documents with text-align: justify, without the content language nor text-justif
 
   a. Expand ideograph (i.e., between ideograph and any), but not Hangul
   b. Not expand ideograph nor Hangul
-  c. Compromised algorithm, spacing varies by the content of line
+  c. A compromised algorithm, spacing varies by the content of line
 
   x. Add text-justify: inter-ideograph back
 
