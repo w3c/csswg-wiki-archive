@@ -23,7 +23,7 @@ Tests: [[http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20ht
 ====== Future Possibilities ======
 
 ^Document Type^Expand CJ not K^Solid CJK^Compromise^
-|text-justify: inter-ideograph (for IE5+)|A|D|B*|
+|text-justify: inter-ideograph (for IE5+)|A|D*|B*|
 |Chinese/Japanese (100%)|A|D|B|
 |Korean (Hangul only, 70-80%)|A|A|B|
 |Korean (Hangul+Han, 20-30%)|C|A|B|
