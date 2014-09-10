@@ -16,7 +16,7 @@ Following criteria are out of scope of this discussion:
 
 ====== Current Behavior ======
 
-  * Test files and screenshots [[http://dev.w3.org/csswg/css-text/text-justify-tests/index.html|in the spec directory]] (or [[https://dl.dropboxusercontent.com/u/8812114/w3c/text-justify/index.html|my Dropbox]] if unstable)
+  * [[http://dev.w3.org/csswg/css-text/text-justify-tests/index.html|Test files and screenshots in the spec directory]] (or [[https://dl.dropboxusercontent.com/u/8812114/w3c/text-justify/index.html|my Dropbox]] if unstable)
 
 Table of expansions:
 
