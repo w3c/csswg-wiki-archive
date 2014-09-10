@@ -26,7 +26,7 @@ Table of expansions:
 | [[http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20html%3E%0A%3Cp%20style%3D%22width%3A%2010em%3B%20border%3A%20solid%3B%20text-align%3A%20justify%3B%20text-justify%3A%20inter-ideographic%3B%22%3E%0A%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%E7%89%B9%E5%88%A5supercalifragilisticexpialidocious%3C%2Fp%3E|untagged inter-ideographic]] ([[http://www.browserstack.com/screenshots/8d1cc9ba0566c221e88b7e5280b293eac78d1740|screenshots]]) | None | +Han +Kana -Hangul | ::: | ::: | ::: |
 
   * [[http://dev.w3.org/csswg/css-text/text-justify-tests/text-justify-compat.htm|All cases in single HTML file]] ([[http://www.browserstack.com/screenshots/9db0c605fd40164b55e6ecc51b9f6c762c2cc1cb|screenshots]])
-  * [[http://dev.w3.org/csswg/css-text/text-justify-tests/index.html|List of test files and screenshots]] (or [[https://dl.dropboxusercontent.com/u/8812114/w3c/text-justify/index.html|my Dropbox]] if unstable)
+  * [[http://dev.w3.org/csswg/css-text/text-justify-tests/index.html|List of test files and screenshots]] (or [[https://dl.dropboxusercontent.com/u/8812114/w3c/text-justify/index.html|in Dropbox]] if unstable)
 ====== Future Possibilities ======
 
 ^Document Type^Expand CJ not K^Solid CJK^Compromise^
