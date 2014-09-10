@@ -31,6 +31,7 @@ Tests: [[http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20ht
 |Korean (Han only, 1-10%)|A|D|B|
 
 Letters represent quality of results
+
 * Adding inter-ideograph can make this A.
 
 ====== Regressions ======
