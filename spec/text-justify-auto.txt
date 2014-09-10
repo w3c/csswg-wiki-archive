@@ -4,12 +4,10 @@ Documents with "text-align: justify" are not interoperable today, so any specs i
 
 ====== Options ======
 
-  a. Expand ideograph (i.e., between ideograph and any), but not Hangul
-  b. Not expand ideograph nor Hangul
-  c. A compromised algorithm, spacing varies by the content of line
-
-  x. Add text-justify: inter-ideograph back
-
+  - Expand ideograph (i.e., between ideograph and any), but not Hangul
+  - Not expand ideograph nor Hangul
+  - A compromised algorithm, spacing varies by the content of line
+  - Add text-justify: inter-ideograph back
 
 ====== Scope ======
 
