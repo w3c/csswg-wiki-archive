@@ -41,7 +41,7 @@ Letters represent quality of results
 |Chinese/Japanese (100%)|B/W|Same|-2|-1|
 |:::|G/T|+2|Same|+1|
 |Korean (Hangul only, 70-80%)|*|Same|Same|-1|
-|Korean (Hangul+Han, 20-30%)|B/W|Same|+2|+1 and -1|
+|Korean (Hangul+Han, 20-30%)|B/W|Same|+1|+1 and -1|
 |:::|G/T|-1|Same|-1|
 |Korean (Han only, 1-10%)|B/W|Same|-2|-1|
 |:::|G/T|+2|Same|+1|
