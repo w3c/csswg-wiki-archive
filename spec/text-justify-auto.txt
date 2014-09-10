@@ -32,3 +32,5 @@ Tests: [[http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20ht
 
 Letters represent quality of results
 * Adding inter-ideograph can make this A.
+
+====== Regressions ======
