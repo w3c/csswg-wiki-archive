@@ -34,3 +34,10 @@ Letters represent quality of results
 * Adding inter-ideograph can make this A.
 
 ====== Regressions ======
+^Document Type^Engine^Expand CJ not K^Solid CJK^Compromise^
+|text-justify: inter-ideograph (for IE5+)|B/T/W|Same|Worse*|Worse*|
+|:|G|Better|Same|B*|
+|Chinese/Japanese (100%)|A|D|B|
+|Korean (Hangul only, 70-80%)|A|A|B|
+|Korean (Hangul+Han, 20-30%)|C|A|B|
+|Korean (Han only, 1-10%)|A|D|B|
