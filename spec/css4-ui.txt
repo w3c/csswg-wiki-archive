@@ -202,7 +202,9 @@ Real world use-cases:
 This should likely be done as a new property, e.g. 'block-overflow', as described by Tab Atkins here:
   * http://lists.w3.org/Archives/Public/www-style/2012Jul/0688.html
 
-
+Also see:
+  * [[http://lists.w3.org/Archives/Public/www-style/2013Oct/thread.html#msg624|discussion in October 2013]]
+  * minutes of face-to-face 2014-09-10, 9:15am-9:45am (very start of day)
 ==== text-overflow start end values ====
 Originally text-overflow permitted an optional second value [[http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis|defined in CSS3 Text CR 2003-05-14]] "	<ellipsis>{1,2} "
 
