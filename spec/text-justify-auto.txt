@@ -42,14 +42,14 @@ Letters represent quality of results
 
 ====== Regressions ======
 ^Document Type^Engine^Expand CJ not K^Solid CJK^Compromise^
-|text-justify: inter-ideograph (for IE5+)|B/T/W|Same|-2*|-1*|
-|:::|G|+2|Same|+1|
-|Chinese/Japanese (100%)|B/W|Same|-2|-1|
-|:::|G/T|+2|Same|+1|
-|Korean (Hangul only, 70-80%)|*|Same|Same|-1|
-|Korean (Hangul+Han, 20-30%)|B/W|Same|+1|+1 and -1|
-|:::|G/T|-1|Same|-1|
-|Korean (Han only, 1-10%)|B/W|Same|-2|-1|
-|:::|G/T|+2|Same|+1|
+|text-justify: inter-ideograph (for IE5+)|Bm/T/W|Same|-*|-*|
+|:::|Ba/Bw/G|+|Same|+|
+|Chinese/Japanese (100%)|Bm/W|Same|-|-|
+|:::|Ba/Bw/G/T|+|Same|+|
+|Korean (Hangul only, 70-80%)|*|Same|Same|-|
+|Korean (Hangul+Han, 20-30%)|Bm/W|Same|+|+ and -|
+|:::|Ba/Bw/G/T|-|Same|-|
+|Korean (Han only, 1-10%)|Bm/W|Same|-|-|
+|:::|Ba/Bw/G/T|+|Same|+|
 
-  * "+" indicates better, "-" worse, and the number indicates the level of the change
+  * "+" indicates better, "-" indicates worse
