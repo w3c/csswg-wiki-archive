@@ -42,14 +42,27 @@ Letters represent quality of results
 
 ====== Regressions ======
 ^Document Type^Engine^Expand CJ not K^Solid CJK^Compromise^
-|text-justify: inter-ideograph (for IE5+)|Bm/T/W|Same|-*|-*|
-|:::|Bawo/G|+|Same|+|
-|Chinese/Japanese (100%)|Bm/W|Same|-|-|
-|:::|Bawo/G/T|+|Same|+|
-|Korean (Hangul only, 70-80%)|*|Same|Same|-|
-|Korean (Hangul+Han, 20-30%)|Bm/W|Same|+|+ and -|
-|:::|Bawo/G/T|-|Same|-|
-|Korean (Han only, 1-10%)|Bm/W|Same|-|-|
-|:::|Bawo/G/T|+|Same|+|
+|text-justify: inter-ideograph (for IE5+)|Webkit|o|-*|-*|
+|:::|Trident|o|-*|-*|
+|:::|Blink|o/+|-*/o|-*/+|
+|:::|Gecko|+|o|+|
+|Chinese/Japanese (100%)|Webkit|o|-|-|
+|:::|Trident|+|o|+|
+|:::|Blink|o/+|-/o|-/+|
+|:::|Gecko|+|o|+|
+|Korean (Hangul only, 70-80%)|Webkit|o|o|-|
+|:::|Trident|o|o|-|
+|:::|Blink|o|o|-|
+|:::|Gecko|o|o|-|
+|Korean (Hangul+Han, 20-30%)|Webkit|o|+|+ and -|
+|:::|Trident|-|o|-|
+|:::|Blink|o/-|+/o|+ and -/-|
+|:::|Gecko|-|o|-|
+|Korean (Han only, 1-10%)|Webkit|o|-|-|
+|:::|Trident|+|o|+|
+|:::|Blink|o/+|-/o|-/+|
+|:::|Gecko|+|o|+|
 
-  * "+" indicates better, "-" indicates worse
+  * ''+'' indicates better
+  * ''-'' indicates worse
+  * ''o'' indicates same
