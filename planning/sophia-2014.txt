@@ -302,6 +302,11 @@ Approximate daily schedule:
 
 == AM ==
 
+  * Number of lines in content editable
+  * text-overflow: ellipsis-lastline
+  * :focusWithin
+  * Sticky positioning inside overflow:scroll inner divs
+  * Revisit next f2f dates
   * Adoption of new process
   * Flexbox: All the Issues, DoC review, LCWD request (half a day estimate)
 
