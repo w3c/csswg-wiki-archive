@@ -1,6 +1,6 @@
 ====== Summary ======
 
-Documents with text-align: justify, without the content language nor text-justify set are not interoperable today, so any specs involves some costs. We need to make a choice which costs to take and which not to.
+Documents with "text-align: justify" are not interoperable today, so any specs involves some costs. We need to make a choice which costs to take and which not to.
 
 ====== Options ======
 
