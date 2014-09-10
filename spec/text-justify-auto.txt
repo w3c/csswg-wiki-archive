@@ -1,0 +1,30 @@
+====== Summary ======
+
+Documents with text-align: justify, without the content language nor text-justify set are not interoperable today, so any specs involves some costs. We need to make a choice which costs to take and which not to.
+
+====== Options ======
+
+  a. Expand ideograph (i.e., between ideograph and any), but not Hangul
+  b. Not expand ideograph nor Hangul
+  c. Compromised algorithm, spacing varies by the content of line
+
+  x. Add text-justify: inter-ideograph back
+
+====== Expects ======
+
+^Documents^a^b^c^
+|text-justify: inter-ideograph|A|D for B/W, - (D) for T/G<sup>*1</sup>|B<sup>*1</sup>|
+|CJ|A|D for B/W, - (D) for T/G|B|
+|Hangul only, 70-80% of K|- (A)|- (A)|B|
+|Hangul+Han, 20-30% of K|C|A|B|
+|Han only, 1-10% of K|A|D for B/W, - (D) for T/G|B|
+
+  * B is worse than A, C is worse and B, D is worse than C, and so forth
+  * "- (x)" means no changes from past versions, but evaluates to “x"
+  * for B=Blink, G=Gecko, T=Trident, W=WebKit
+  * <sup>*1</sup> Option x can make this to “A"
+
+Following criteria are out of scope of this discussion:
+  * text-align is not justify. The choice does not make any differences in this case.
+  * has lang attribute. The spec says UA may tailor by the content language.
+  * text-jusitfy: inter-word. The spec defines behavior in this case.
