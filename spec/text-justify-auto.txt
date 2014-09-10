@@ -13,7 +13,7 @@ Documents with text-align: justify, without the content language nor text-justif
 ====== Expects ======
 
 ^Documents^a^b^c^
-|text-justify: inter-ideograph|A|D for B/W, - (D) for T/G<sup>*1</sup>|B<sup>*1</sup>|
+|text-justify: inter-ideograph (for IE)|A|D for B/W, - (D) for T/G<sup>*1</sup>|B<sup>*1</sup>|
 |CJ|A|D for B/W, - (D) for T/G|B|
 |Hangul only, 70-80% of K|- (A)|- (A)|B|
 |Hangul+Han, 20-30% of K|C|A|B|
