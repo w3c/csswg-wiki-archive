@@ -9,7 +9,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 ===== Upcoming Meetings =====
   * [[planning:2014]]
     * 2014-09-08..10 [[planning:sophia-2014]]
-    * 2014-10-27..31 TPAC (Santa Clara)
+    * 2014-10-27..31 [[planning:tpac-2014]] (Santa Clara)
       * 2014-10-27..28 CSS WG f2f during TPAC
       * 2014-10-27 possible joint meeting with DPUB sometime during 11:00–15:00 break
       * 2014-10-30 AM joint meeting with SVG WG
