@@ -32,7 +32,7 @@ Its plastic. No, not that sort of plastic. Being able to swim and paper money ar
 
 === Electricity ===
 
-230V 10A [[http://en.wikipedia.org/wiki/AS/NZS_3112|flat, angled pins]]
+230V, 50Hz, 10A [[http://en.wikipedia.org/wiki/AS/NZS_3112|flat, angled pins]]
 
 {{http://upload.wikimedia.org/wikipedia/commons/7/7a/Australian_dual_switched_power_point.jpg}}
 
