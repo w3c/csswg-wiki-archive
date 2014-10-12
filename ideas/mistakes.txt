@@ -16,7 +16,7 @@ That should be corrected if anyone invents a time machine. :P
   * Tables (and other non-blocks, e.g. flex containers) should form pseudo-stacking contexts.
   * The ''currentcolor'' keyword should have a dash, ''current-color''.
   * There should have been a predictable color naming system instead of arbitrary X11 names.
-  * ''border-radius'' should have been ''border-corner''.
+  * ''border-radius'' should have been ''corner-radius''.
   * Absolutely-positioned replaced elements should stretch when opposite offset properties (e.g. left+right) are set, instead of being start-aligned.
   * The ''hyphens'' property should be called ''hyphenate''. (It's called ''hyphens'' because the XSL:FO people objected to ''hyphenate''.)
   * ''rgba()'' and ''hsla()'' should not exist, ''rgb()'' and ''hsl()''  should have gotten an optional fourth parameter instead (and the alpha value should have used the same format as R, G, and B or S and L).
