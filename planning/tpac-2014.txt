@@ -15,10 +15,12 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
 | Dave Cramer | 22-oct | 01-nov | Marriott | UA 12 Also Books in Browsers |
+| Arron Eicholz | 25-oct | 30-oct | Marriott | DL4740 |
+| fantasai | 24-oct | 02-nov | Mariott | United Airlines |
 | Peter Linss | 25-oct | 01-nov | Marriott | YZF-R1 |
 | Florian Rivoal | 22-oct | 30-oct | Marriott | |
 | Alan Stearns | 26-oct | 01-nov | Marriott | |
-| Arron Eicholz | 25-oct | 30-oct | Marriott | DL4740 |
+
 ==== Proposed Topics ====
 
 CSS 3.1 (TabAtkins> SimonSapin and I have a planned project to publish a "CSS 3.1" module that is just all the parts of 2.1 that haven't been obsoleted by anything else yet. We'd whittle it down until it was empty.)
