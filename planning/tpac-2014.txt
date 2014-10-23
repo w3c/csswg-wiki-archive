@@ -40,4 +40,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Sizing: [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0138.html|Indefinite percentage margins and padding]]
   * CSS Sizing: The intrinsic block-size is a lie
   * css-animations: remaining issues at https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=46032&product=CSS&query_format=advanced&resolution=---
-  * 
+  * Floating inline-blocks in a shrink-to-fit context interop issue
