@@ -51,3 +51,5 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * flexbox issues
   * Snap-points
   * Split layout/visual viewport
+  * MediaQueries
+    * continue a11y discussion from last meeting (high-contrast stuff)
