@@ -48,3 +48,5 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Grid: fragmentation, collapsing and open issues
   * CSS Fonts: [[http://lists.w3.org/Archives/Public/www-style/2013Oct/0346.html|classification of Kai as cursive]]
   * flexbox issues
+  * Snap-points
+  * Split layout/visual viewport
