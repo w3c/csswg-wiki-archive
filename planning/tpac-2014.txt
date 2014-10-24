@@ -61,6 +61,8 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * Filters
     * backdrop effects
     * more primitives?
+  * Selectors
+    * ::role() proposal
   * MediaQueries
     * continue a11y discussion from last meeting (high-contrast stuff)
     * names of the overflow-* features
