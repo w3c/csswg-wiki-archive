@@ -39,19 +39,27 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 ==== Proposed Topics ====
 
   * CSS 3.1 (TabAtkins> SimonSapin and I have a planned project to publish a "CSS 3.1" module that is just all the parts of 2.1 that haven't been obsoleted by anything else yet. We'd whittle it down until it was empty.)
-  * Scroll linked effects
+  * Scrolling things
+    * animation triggers and timebase
+    * scroll-delay
+    * beforescroll
+    * snap-points
   * Status of [[spec:css2.2|CSS 2.2 test suite]] (i.e., tests for the CSS 2.1 errata)
   * Test suites and what spec to focus on next (Hopefully a quick topic)
   * CSS Sizing: [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0138.html|Indefinite percentage margins and padding]]
   * CSS Sizing: The intrinsic block-size is a lie
-  * css-animations: remaining issues at https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=46032&product=CSS&query_format=advanced&resolution=---
+  * css-animations
+    * remaining issues at https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=46032&product=CSS&query_format=advanced&resolution=---
+    * animation-behaviour (CSS Animations Level 4)
   * Floating inline-blocks in a shrink-to-fit context interop issue
   * CSS Grid: fragmentation, collapsing and open issues
   * CSS Fonts: [[http://lists.w3.org/Archives/Public/www-style/2013Oct/0346.html|classification of Kai as cursive]]
   * flexbox issues
     * details?
-  * Snap-points
   * Split layout/visual viewport
+  * Filters
+    * backdrop effects
+    * more primitives?
   * MediaQueries
     * continue a11y discussion from last meeting (high-contrast stuff)
     * names of the overflow-* features
