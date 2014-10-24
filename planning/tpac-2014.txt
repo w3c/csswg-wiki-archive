@@ -1,0 +1,91 @@
+===== TPAC 2014 =====
+
+==== Place, Logistics, etc. ====
+
+[[http://www.w3.org/2014/11/TPAC/]]
+
+  * 2014-10-27..28 CSS WG f2f during TPAC
+  * 2014-10-30 possible joint meeting for some with DPUB either morning or break
+  * 2014-10-30 AM joint meeting with SVG WG
+
+
+==== Participants =====
+
+Please, put your name in this table if you plan to participate (alphabetical order):
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Glenn Adams | 26-oct | 01-nov | S/Y Dreamhunter | UA1670 |
+| Tab Atkins | live here | | | |
+| L. David Baron | 27-oct | 29-oct | sort of local | |
+| Bert Bos | 26-oct | 31-oct | Marriott | BA287/BA286 |
+| Dave Cramer | 22-oct | 01-nov | Marriott | UA 12 Also Books in Browsers |
+| Arron Eicholz | 25-oct | 31-oct | Marriott | DL4740 |
+| Simon Fraser | - | - | local | |
+| fantasai | 24-oct | 02-nov | Mariott | United Airlines |
+| Dael Jackson | 26-oct | 01-nov | Marriott | UA1161 |
+| Peter Linss | 25-oct | 01-nov | Marriott | YZF-R1 |
+| Michael Miller | 26-Oct | 01-Nov | Marriott | UA1750 |
+| Florian Rivoal | 22-oct | 30-oct | Marriott | |
+| Simon Sapin | 25-oct | 7-nov | Avatar Hotel | VX933 / EI146 |
+| Alan Stearns | 26-oct | 01-nov | Marriott | |
+| Adenilson Cavalcanti | - | - | local |
+| Greg Whitworth | 26-oct | 30-oct | Hyatt House Santa Clara | AK Airlines 322 |
+| Daniel Glazman | 24-oct | 31-oct | Marriott and Avatar | AF84/AF83 |
+| Rossen Atanassov | 26-oct | 31-oct | Hyatt House Santa Clara | |
+| Lea Verou | 26-oct | 30-oct | ??? (Contact me if you have spaaaaaace!) | US 1705+709, US 895+507 |
+| Matt Rakow | 26-oct | 30-oct | Avatar | |
+
+
+==== Proposed Topics ====
+
+  * CSS 3.1 (TabAtkins> SimonSapin and I have a planned project to publish a "CSS 3.1" module that is just all the parts of 2.1 that haven't been obsoleted by anything else yet. We'd whittle it down until it was empty.)
+  * Scrolling things
+    * animation triggers and timebase
+    * scroll-delay
+    * beforescroll
+    * snap-points
+  * Status of [[spec:css2.2|CSS 2.2 test suite]] (i.e., tests for the CSS 2.1 errata)
+  * Test suites and what spec to focus on next (Hopefully a quick topic)
+  * CSS Sizing: [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0138.html|Indefinite percentage margins and padding]]
+  * CSS Sizing: The intrinsic block-size is a lie
+  * css-animations
+    * remaining issues at https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=46032&product=CSS&query_format=advanced&resolution=---
+    * animation-behaviour (CSS Animations Level 4)
+  * Floating inline-blocks in a shrink-to-fit context interop issue
+  * CSS Grid: fragmentation, collapsing and open issues
+  * CSS Fonts: [[http://lists.w3.org/Archives/Public/www-style/2013Oct/0346.html|classification of Kai as cursive]]
+  * flexbox issues
+    * details?
+  * Split layout/visual viewport
+  * Filters
+    * backdrop effects
+    * more primitives?
+  * MediaQueries
+    * continue a11y discussion from last meeting (high-contrast stuff)
+    * names of the overflow-* features
+    * review of the custom MQ stuff
+    * what to call "the ICB or the page area" for the purpose of the overflow-* features
+    * scroll-position MQ (don't think we should do it, but we should discuss how to address the use-cases)
+  * CSS Transforms
+    * Issue with percentage (e.g. calc(0% + 20px) ) on transform-origin for SVG
+    * Feedback to preserve3d from UAs?
+  * Motion Path (FXTF topic)
+    * Reference boxes for motion paths
+
+==== Social ====
+
+Saturday Oct 25 Board Games with Tab:
+  * Florian
+  * maybe plinss
+
+Saturday Nov 1 Board Games with Tab:
+  * Shane
+
+Wednesday Wineries in Saratoga:
+  * Florian
+  * Shane
+  * Rossen
+  * Bogdan
+  * Keshav
+  * Greg
+  * Dael (depending on start time)
