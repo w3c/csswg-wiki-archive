@@ -8,6 +8,8 @@ What's the rendering order of transformed and untransformed elements in a 3D ren
 
 However, this will require UAs to potentially allocate twice as much texture memory for flattening element rendering (one texture for background and borders, another for content and untransformed descendants).
 
+This layering order has implications for intersection between transformed and untransformed content (Example 2). The proposed text implies intersection, but UAs currently don't do that. [Firefox and Chrome don't seem to implement interaction at all.]
+
 ==== Example 1 ====
 
 http://smfr.org/css/transforms/rendering-order.html
@@ -44,5 +46,4 @@ http://smfr.org/css/transforms/parent-intersection.html
 WebKit, Firefox, Chrome:
 
 {{http://smfr.org/css/transforms/intersection-images/current.png?nocache}}
-
 
