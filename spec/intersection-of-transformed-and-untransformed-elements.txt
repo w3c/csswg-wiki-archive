@@ -1,1 +1,31 @@
 ===== Rendering order of transformed and untransformed elements ====
+
+http://dev.w3.org/csswg/css-transforms/#3d-rendering-contexts
+
+==== Summary ====
+
+What's the rendering order of transformed and untransformed elements in a 3D rendering context? The spec currently describes a model that matches z-order rendering (transforms with negative z-offsets push you behind the content and untransformed children of the enclosing flattening element).
+
+However, this will require UAs to potentially allocate twice as much texture memory for flattening element rendering (one texture for background and borders, another for content and untransformed descendants).
+
+==== Example ====
+
+http://smfr.org/css/rendering-order.html
+
+=== Proposed rendering ===
+
+{{http://smfr.org/css/render-order-images/proposed.png}}
+
+=== Current renderings ===
+
+WebKit:
+
+{{http://smfr.org/css/render-order-images/webkit.png}}
+
+Chrome:
+
+{{http://smfr.org/css/render-order-images/chrome.png}}
+
+Firefox:
+
+{{http://smfr.org/css/render-order-images/firefox.png}}
