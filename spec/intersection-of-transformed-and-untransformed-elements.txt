@@ -1,1 +1,1 @@
-===== Intersection of transformed and untransformed elements ====
+===== Rendering order of transformed and untransformed elements ====
