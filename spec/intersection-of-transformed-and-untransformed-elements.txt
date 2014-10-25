@@ -38,3 +38,11 @@ http://smfr.org/css/transforms/parent-intersection.html
 === Proposed rendering ===
 
 {{http://smfr.org/css/transforms/intersection-images/proposed.png?nocache}}
+
+=== Current renderings ===
+
+WebKit, Firefox, Chrome:
+
+{{http://smfr.org/css/transforms/intersection-images/current.png?nocache}}
+
+
