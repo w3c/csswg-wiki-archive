@@ -20,19 +20,9 @@ http://smfr.org/css/transforms/rendering-order.html
 
 === Current renderings ===
 
-WebKit:
+WebKit/Chrome/Firefox:
 
-{{http://smfr.org/css/transforms/render-order-images/webkit.png?nocache}}
-
-Chrome:
-
-{{http://smfr.org/css/transforms/render-order-images/chrome.png?nocache}}
-
-Firefox:
-
-{{http://smfr.org/css/transforms/render-order-images/firefox.png?nocache}}
-
-
+{{http://smfr.org/css/transforms/render-order-images/webkit.png?nocache}} {{http://smfr.org/css/transforms/render-order-images/chrome.png?nocache}} {{http://smfr.org/css/transforms/render-order-images/firefox.png?nocache}}
 ==== Example 2 ====
 
 http://smfr.org/css/transforms/parent-intersection.html
