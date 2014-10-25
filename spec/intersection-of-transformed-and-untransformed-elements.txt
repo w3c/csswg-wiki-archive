@@ -8,10 +8,9 @@ What's the rendering order of transformed and untransformed elements in a 3D ren
 
 However, this will require UAs to potentially allocate twice as much texture memory for flattening element rendering (one texture for background and borders, another for content and untransformed descendants).
 
-==== Example ====
+==== Example 1 ====
 
 http://smfr.org/css/transforms/rendering-order.html
-http://smfr.org/css/transforms/parent-intersection.html
 
 === Proposed rendering ===
 
@@ -30,3 +29,12 @@ Chrome:
 Firefox:
 
 {{http://smfr.org/css/transforms/render-order-images/firefox.png?nocache}}
+
+
+==== Example 2 ====
+
+http://smfr.org/css/transforms/parent-intersection.html
+
+=== Proposed rendering ===
+
+{{http://smfr.org/css/transforms/intersection-images/proposed.png?nocache}}
