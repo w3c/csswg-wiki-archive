@@ -10,4 +10,6 @@ For unresolved issues, see Bugzilla:
 
 To raise an issue with the Transforms spec, please file it [[https://www.w3.org/Bugs/Public/buglist.cgi?product=CSS&component=Transforms&resolution=---|in Bugzilla]].
 
-=== Issues ===
+===== Issues =====
+
+* Intersection of transformed and untransformed elements
