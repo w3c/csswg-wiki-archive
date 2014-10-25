@@ -72,10 +72,10 @@ Please, put your name in this table if you plan to participate (alphabetical ord
     * scroll-position MQ (don't think we should do it, but we should discuss how to address the use-cases)
   * CSS Transforms
     * Issue with percentage (e.g. calc(0% + 20px) ) on transform-origin for SVG
-    * Feedback to preserve3d from UAs?
+    * Feedback on new spec text for 3D rendering (incl. preserve-3d)
+    * 3D rendering issues
   * Motion Path (FXTF topic)
     * Reference boxes for motion paths
-
 ==== Social ====
 
 Saturday Oct 25 Board Games with Tab:
