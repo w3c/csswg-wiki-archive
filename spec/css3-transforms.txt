@@ -12,4 +12,4 @@ To raise an issue with the Transforms spec, please file it [[https://www.w3.org/
 
 ===== Issues =====
 
-* Intersection of transformed and untransformed elements
+* [[Intersection of transformed and untransformed elements]]
