@@ -10,22 +10,23 @@ However, this will require UAs to potentially allocate twice as much texture mem
 
 ==== Example ====
 
-http://smfr.org/css/rendering-order.html
+http://smfr.org/css/transforms/rendering-order.html
+http://smfr.org/css/transforms/parent-intersection.html
 
 === Proposed rendering ===
 
-{{http://smfr.org/css/render-order-images/proposed.png?nocache}}
+{{http://smfr.org/css/transforms/render-order-images/proposed.png?nocache}}
 
 === Current renderings ===
 
 WebKit:
 
-{{http://smfr.org/css/render-order-images/webkit.png?nocache}}
+{{http://smfr.org/css/transforms/render-order-images/webkit.png?nocache}}
 
 Chrome:
 
-{{http://smfr.org/css/render-order-images/chrome.png?nocache}}
+{{http://smfr.org/css/transforms/render-order-images/chrome.png?nocache}}
 
 Firefox:
 
-{{http://smfr.org/css/render-order-images/firefox.png?nocache}}
+{{http://smfr.org/css/transforms/render-order-images/firefox.png?nocache}}
