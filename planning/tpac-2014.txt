@@ -75,6 +75,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
     * 3D rendering issues
   * Motion Path (FXTF topic)
     * Reference boxes for motion paths
+  * ::selection
 ==== Social ====
 
 Saturday Oct 25 Board Games with Tab:
