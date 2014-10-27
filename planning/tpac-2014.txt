@@ -70,6 +70,7 @@ Regrets: jdaggett
   * Filters
     * backdrop effects
     * more primitives?
+  * Compositing Blending spec to PR (possible for FX day)
   * Selectors
     * ::role() proposal
   * MediaQueries
