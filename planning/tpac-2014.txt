@@ -71,15 +71,14 @@ Regrets: jdaggett
   * CSS Sizing: The intrinsic block-size is a lie
   * Floating inline-blocks in a shrink-to-fit context interop issue
   * CSS Grid: fragmentation, collapsing and open issues
-  * flexbox issues
-    * details?
-
+  * Status of [[spec:css2.2|CSS 2.2 test suite]] (i.e., tests for the CSS 2.1 errata)
+  * Test suites and what spec to focus on next (Hopefully a quick topic)
 
 === Tues AM ===
 
   * [[http://lists.w3.org/Archives/Public/www-style/2014Sep/0135.html | animation-behaviour]] (CSS Animations Level 2)
-  * Status of [[spec:css2.2|CSS 2.2 test suite]] (i.e., tests for the CSS 2.1 errata)
-  * Test suites and what spec to focus on next (Hopefully a quick topic)
+  * flexbox issues
+    * details?
   * Discuss split layout/visual viewport and zoom types
 
 
