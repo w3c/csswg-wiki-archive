@@ -54,7 +54,11 @@ Please, put your name in this table if you plan to participate (alphabetical ord
     * animation-behaviour (CSS Animations Level 4)
   * Floating inline-blocks in a shrink-to-fit context interop issue
   * CSS Grid: fragmentation, collapsing and open issues
-  * CSS Fonts: [[http://lists.w3.org/Archives/Public/www-style/2013Oct/0346.html|classification of Kai as cursive]]
+  * CSS Fonts:
+    * [[http://lists.w3.org/Archives/Public/www-style/2013Oct/0346.html|classification of Kai as cursive]] [jdaggett: don't think this requires group discussion]
+    * unicode-range issues
+    * Google's font-rendering descriptor property
+    * creating CSS4 Fonts for new work
   * flexbox issues
     * details?
   * Split layout/visual viewport
