@@ -43,6 +43,75 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 
 Regrets: jdaggett
 
+
+==== Agenda ====
+
+=== Mon AM ===
+
+  * CSS3-UI
+    * Clean up pseudos
+    * Add Florian as editor
+    * content:icon? Apply to pseudos only? (and why is it called icon?)
+  * MediaQueries
+    * continue a11y discussion from last meeting (high-contrast stuff)
+    * names of the overflow-* features
+    * review of the custom MQ stuff
+    * what to call "the ICB or the page area" for the purpose of the overflow-* features
+    * scroll-position MQ (don't think we should do it, but we should discuss how to address the use-cases)
+  * ::selection
+
+  * css-animations
+    * remaining issues at https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=46032&product=CSS&query_format=advanced&resolution=---
+    * animation-behaviour (CSS Animations Level 4)
+
+
+=== Mon PM ===
+
+
+  * CSS Sizing: [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0138.html|Indefinite percentage margins and padding]]
+  * CSS Sizing: The intrinsic block-size is a lie
+  * Floating inline-blocks in a shrink-to-fit context interop issue
+  * CSS Grid: fragmentation, collapsing and open issues
+  * flexbox issues
+    * details?
+
+
+=== Tues AM ===
+
+  * Scrolling things
+    * animation triggers and timebase
+    * scroll-delay
+    * beforescroll
+    * snap-points
+  * Status of [[spec:css2.2|CSS 2.2 test suite]] (i.e., tests for the CSS 2.1 errata)
+  * Test suites and what spec to focus on next (Hopefully a quick topic)
+  * Split layout/visual viewport
+
+
+=== Tues PM ===
+
+  * CSS Fonts:
+    * [[http://lists.w3.org/Archives/Public/www-style/2013Oct/0346.html|classification of Kai as cursive]] [jdaggett: don't think this requires group discussion]
+    * unicode-range issues
+    * Google's font-rendering descriptor for @font-face
+    * creating CSS4 Fonts for new work
+  * Selectors
+    * ::role() proposal
+  * CSS Transforms
+    * Issue with percentage (e.g. calc(0% + 20px) ) on transform-origin for SVG
+    * Feedback on new spec text for 3D rendering (incl. preserve-3d)
+    * 3D rendering issues
+
+
+=== FxTF (Thursday PM) ===
+  * Filters
+    * backdrop effects
+    * more primitives?
+  * Compositing Blending spec to PR (possible for FX day)
+  * Motion Path (FXTF topic)
+    * Reference boxes for motion paths
+
+
 ==== Proposed Topics ====
 
   * Scrolling things
