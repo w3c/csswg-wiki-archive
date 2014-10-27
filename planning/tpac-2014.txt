@@ -43,7 +43,6 @@ Regrets: jdaggett
 
 ==== Proposed Topics ====
 
-  * CSS 3.1 (TabAtkins> SimonSapin and I have a planned project to publish a "CSS 3.1" module that is just all the parts of 2.1 that haven't been obsoleted by anything else yet. We'd whittle it down until it was empty.)
   * Scrolling things
     * animation triggers and timebase
     * scroll-delay
