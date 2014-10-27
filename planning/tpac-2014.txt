@@ -84,6 +84,10 @@ Regrets: jdaggett
   * Motion Path (FXTF topic)
     * Reference boxes for motion paths
   * ::selection
+  * CSS3-UI
+    * Clean up pseudos
+    * Add Florian as editor
+    * content:icon? Apply to pseudos only? (and why is it called icon?)
 ==== Social ====
 
 Saturday Oct 25 Board Games with Tab:
