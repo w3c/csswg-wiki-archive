@@ -52,13 +52,13 @@ Regrets: jdaggett
     * Clean up pseudos
     * Add Florian as editor
     * content:icon? Apply to pseudos only? (and why is it called icon?)
+  * ::selection
   * MediaQueries
     * continue a11y discussion from last meeting (high-contrast stuff)
     * names of the overflow-* features
     * review of the custom MQ stuff
     * what to call "the ICB or the page area" for the purpose of the overflow-* features
     * scroll-position MQ (don't think we should do it, but we should discuss how to address the use-cases)
-  * ::selection
 
   * css-animations
     * remaining issues at https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=46032&product=CSS&query_format=advanced&resolution=---
