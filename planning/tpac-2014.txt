@@ -62,7 +62,6 @@ Regrets: jdaggett
 
   * css-animations
     * remaining issues at https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=46032&product=CSS&query_format=advanced&resolution=---
-    * animation-behaviour (CSS Animations Level 4)
 
 
 === Mon PM ===
@@ -83,6 +82,7 @@ Regrets: jdaggett
     * scroll-delay
     * beforescroll
     * snap-points
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Sep/0135.html | animation-behaviour]] (CSS Animations Level 2)
   * Status of [[spec:css2.2|CSS 2.2 test suite]] (i.e., tests for the CSS 2.1 errata)
   * Test suites and what spec to focus on next (Hopefully a quick topic)
   * Split layout/visual viewport
@@ -110,7 +110,6 @@ Regrets: jdaggett
   * Compositing Blending spec to PR (possible for FX day)
   * Motion Path (FXTF topic)
     * Reference boxes for motion paths
-
 ==== Proposed Topics ====
 
   * Scrolling things
