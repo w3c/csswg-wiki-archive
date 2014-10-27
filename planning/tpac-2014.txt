@@ -77,11 +77,6 @@ Regrets: jdaggett
 
 === Tues AM ===
 
-  * Scrolling things
-    * [[http://lists.w3.org/Archives/Public/www-style/2014Sep/0135.html | animation triggers and timebase]]
-    * scroll-delay
-    * beforescroll
-    * snap-points
   * [[http://lists.w3.org/Archives/Public/www-style/2014Sep/0135.html | animation-behaviour]] (CSS Animations Level 2)
   * Status of [[spec:css2.2|CSS 2.2 test suite]] (i.e., tests for the CSS 2.1 errata)
   * Test suites and what spec to focus on next (Hopefully a quick topic)
@@ -101,7 +96,11 @@ Regrets: jdaggett
     * Issue with percentage (e.g. calc(0% + 20px) ) on transform-origin for SVG
     * Feedback on new spec text for 3D rendering (incl. preserve-3d)
     * 3D rendering issues
-
+  * Scrolling things (3pm)
+    * [[http://lists.w3.org/Archives/Public/www-style/2014Sep/0135.html | animation triggers and timebase]]
+    * scroll-delay
+    * beforescroll
+    * snap-points
 
 === FxTF (Thursday PM) ===
   * Filters
