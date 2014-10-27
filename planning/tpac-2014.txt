@@ -80,7 +80,7 @@ Regrets: jdaggett
   * [[http://lists.w3.org/Archives/Public/www-style/2014Sep/0135.html | animation-behaviour]] (CSS Animations Level 2)
   * Status of [[spec:css2.2|CSS 2.2 test suite]] (i.e., tests for the CSS 2.1 errata)
   * Test suites and what spec to focus on next (Hopefully a quick topic)
-  * Split layout/visual viewport
+  * Discuss split layout/visual viewport and zoom types
 
 
 === Tues PM ===
@@ -101,7 +101,7 @@ Regrets: jdaggett
     * [[http://lists.w3.org/Archives/Public/www-style/2014Sep/0135.html | animation triggers and timebase]]
     * scroll-delay
     * beforescroll
-    * snap-points [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0436.html|review 10/24 updates]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0480.html|additional feedback]]
+    * snap-points [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0436.html|review 10/24 updates]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0480.html|additional feedback]], FPWD?
 
 === FxTF (Thursday PM) ===
   * Filters
@@ -116,7 +116,7 @@ Regrets: jdaggett
     * animation triggers and timebase
     * scroll-delay
     * beforescroll
-    * snap-points [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0436.html|review 10/24 updates]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0480.html|additional feedback]]
+    * snap-points [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0436.html|review 10/24 updates]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0480.html|additional feedback]], FPWD?
   * Status of [[spec:css2.2|CSS 2.2 test suite]] (i.e., tests for the CSS 2.1 errata)
   * Test suites and what spec to focus on next (Hopefully a quick topic)
   * CSS Sizing: [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0138.html|Indefinite percentage margins and padding]]
@@ -133,7 +133,7 @@ Regrets: jdaggett
     * creating CSS4 Fonts for new work
   * flexbox issues
     * details?
-  * Split layout/visual viewport
+  * Discuss split layout/visual viewport and zoom types 
   * Filters
     * backdrop effects
     * more primitives?
