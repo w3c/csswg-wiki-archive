@@ -8,7 +8,8 @@
   * 2014-10-30 possible joint meeting for some with DPUB either morning or break
   * 2014-10-30 AM joint meeting with SVG WG
 
-
+  * [[http://www.openstreetmap.org/#map=19/37.39050/-121.97400|openstreetmap]]
+  * Weather: [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.39&lon=-121.97&unit=1&mp=1|°C]] / [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.39&lon=-121.97&unit=0&mp=1|°F]]
 ==== Participants =====
 
 Please, put your name in this table if you plan to participate (alphabetical order):
