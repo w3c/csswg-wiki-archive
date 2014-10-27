@@ -38,6 +38,8 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 | Lea Verou | 26-oct | 30-oct | ??? (Contact me if you have spaaaaaace!) | US 1705+709, US 895+507 |
 | Greg Whitworth | 26-oct | 30-oct | Hyatt House Santa Clara | AK Airlines 322 |
 
+Regrets: jdaggett
+
 ==== Proposed Topics ====
 
   * CSS 3.1 (TabAtkins> SimonSapin and I have a planned project to publish a "CSS 3.1" module that is just all the parts of 2.1 that haven't been obsoleted by anything else yet. We'd whittle it down until it was empty.)
