@@ -108,9 +108,14 @@ Regrets: jdaggett
   * Filters
     * backdrop effects
     * more primitives?
+    * defer auto filter region?
+    * Implementation status
   * Compositing Blending spec to PR (possible for FX day)
   * Motion Path (FXTF topic)
     * Reference boxes for motion paths
+  * Geometry interfaces
+    * inverse()
+    * CR?
 ==== Proposed Topics ====
 
   * Scrolling things
