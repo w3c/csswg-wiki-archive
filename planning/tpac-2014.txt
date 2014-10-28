@@ -80,6 +80,7 @@ Regrets: jdaggett
   * flexbox issues
     * details?
   * Discuss split layout/visual viewport and zoom types (MaRakow)
+  * CSS Fragmentation update
 
 
 === Tues PM ===
