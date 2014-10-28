@@ -16,7 +16,8 @@ http://smfr.org/css/transforms/rendering-order.html
 
 === Proposed rendering ===
 
-{{http://smfr.org/css/transforms/render-order-images/proposed.png?nocache}}
+Current / Alternate
+{{http://smfr.org/css/transforms/render-order-images/proposed.png?nocache }} {{http://smfr.org/css/transforms/render-order-images/proposed2.png?nocache }}
 
 === Current renderings ===
 
