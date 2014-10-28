@@ -84,7 +84,6 @@ Regrets: jdaggett
   * status of selectors4 (especially for :dir())
   * CSS Fragmentation update
   * CSS Transforms
-    * Issue with percentage (e.g. calc(0% + 20px) ) on transform-origin for SVG
     * Feedback on new spec text for 3D rendering (incl. preserve-3d)
     * 3D rendering issues
   * CSS Text
@@ -113,6 +112,8 @@ Regrets: jdaggett
   * Compositing Blending spec to PR (possible for FX day)
   * Motion Path (FXTF topic)
     * Reference boxes for motion paths
+  * CSS Transforms
+    * Issue with percentage (e.g. calc(0% + 20px) ) on transform-origin for SVG
   * Geometry interfaces
     * inverse()
     * CR?
