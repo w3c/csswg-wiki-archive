@@ -83,7 +83,11 @@ Regrets: jdaggett
     * ::role() proposal
   * status of selectors4 (especially for :dir())
   * CSS Fragmentation update
-
+  * CSS Transforms
+    * Issue with percentage (e.g. calc(0% + 20px) ) on transform-origin for SVG
+    * Feedback on new spec text for 3D rendering (incl. preserve-3d)
+    * 3D rendering issues
+  * CSS Text
 
 === Tues PM ===
 
@@ -93,10 +97,6 @@ Regrets: jdaggett
     * Google's font-rendering descriptor for @font-face
     * creating CSS4 Fonts for new work
   * [[http://lists.w3.org/Archives/Public/www-style/2014Sep/0135.html | animation-behaviour]] (CSS Animations Level 2)
-  * CSS Transforms
-    * Issue with percentage (e.g. calc(0% + 20px) ) on transform-origin for SVG
-    * Feedback on new spec text for 3D rendering (incl. preserve-3d)
-    * 3D rendering issues
   * Scrolling things (3pm)
     * [[http://lists.w3.org/Archives/Public/www-style/2014Sep/0135.html | animation triggers and timebase]]
     * scroll-delay
