@@ -96,6 +96,7 @@ Regrets: jdaggett
     * unicode-range issues
     * Google's font-rendering descriptor for @font-face
     * creating CSS4 Fonts for new work
+  * CSS Text part 2
   * [[http://lists.w3.org/Archives/Public/www-style/2014Sep/0135.html | animation-behaviour]] (CSS Animations Level 2)
   * Scrolling things (3pm)
     * [[http://lists.w3.org/Archives/Public/www-style/2014Sep/0135.html | animation triggers and timebase]]
