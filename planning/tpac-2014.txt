@@ -5,8 +5,9 @@
 [[http://www.w3.org/2014/11/TPAC/]]
 
   * 2014-10-27..28 CSS WG f2f during TPAC
-  * 2014-10-30 possible joint meeting for some with DPUB either morning or break
-  * 2014-10-30 AM joint meeting with SVG WG
+  * 2014-10-30 AM Joint meeting for some with DPUB 
+  * 2014-10-30 PM joint meeting with SVG WG 
+  * 2014-10-31 AM Joint meeting for some with PF
 
   * [[http://www.openstreetmap.org/#map=19/37.39050/-121.97400|openstreetmap]]
   * Weather: [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.39&lon=-121.97&unit=1&mp=1|°C]] / [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.39&lon=-121.97&unit=0&mp=1|°F]]
@@ -103,6 +104,8 @@ Regrets: jdaggett
     * beforescroll
     * snap-points [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0436.html|review 10/24 updates]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0480.html|additional feedback]], FPWD? (MaRakow)
 
+=== DigiPub (Thursday AM) ===
+
 === FxTF (Thursday PM) ===
   * Filters
     * backdrop effects
@@ -117,6 +120,9 @@ Regrets: jdaggett
   * Geometry interfaces
     * inverse()
     * CR?
+
+=== PF (Friday AM) ===
+
 ==== Proposed Topics ====
 
   * Scrolling things
