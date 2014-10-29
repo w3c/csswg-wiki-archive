@@ -104,7 +104,8 @@ Regrets: jdaggett
     * beforescroll
     * snap-points [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0436.html|review 10/24 updates]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0480.html|additional feedback]], FPWD? (MaRakow)
 
-=== DigiPub (Thursday AM) ===
+=== DigiPub (Thursday 8:30AM-11:00AM) ===
+  * Pagination, Page DOM, Page Events, Box Tree API
 
 === FxTF (Thursday PM) ===
   * Filters
