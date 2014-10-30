@@ -49,3 +49,8 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
 ===== Miscellaneous =====
 
   * [[ideas:mistakes]]
+
+====== Requirements Documents ======
+  * Requirements for Japanese Text Layout (jlreq): [[http://www.w3.org/TR/jlreq/|TR draft]]
+  * Requirements for Hangul Text Layout and Typography (klreq): [[http://www.w3.org/TR/klreq/|TR draft]], [[http://www.w3.org/International/docs/korean-layout/|editor's draft]]
+  * Requirements for Latin Text Layout and Pagination (dpub-latinreq): [[http://www.w3.org/TR/dpub-latinreq/|TR draft]], [[http://w3c.github.io/dpub-pagination/|editor's draft]]
