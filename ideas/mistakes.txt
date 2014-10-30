@@ -21,3 +21,4 @@ That should be corrected if anyone invents a time machine. :P
   * The ''hyphens'' property should be called ''hyphenate''. (It's called ''hyphens'' because the XSL:FO people objected to ''hyphenate''.)
   * ''rgba()'' and ''hsla()'' should not exist, ''rgb()'' and ''hsl()''  should have gotten an optional fourth parameter instead (and the alpha value should have used the same format as R, G, and B or S and L).
   * descendant combinator should have been ''>>'' and indirect sibling combinator should have been ''++'', so there's some logical relationships among the selectors' ascii art
+  * the ''*-blend-mode'' properties should've just been ''*-blend''
