@@ -175,6 +175,7 @@ focusable, as well).
   ; URL : http://www.w3.org/TR/2008/CR-css3-marquee-20081205/#overflow-style
   ; Proposed Resolution : Render same as user controlled scrolling. Add mention of overflow-style to parenthetical examples listed after "When an element is scrolled".
   ; Status : Resolved. Editor's draft updated, awaiting public draft.
+  ; Update: CSS Marque has been retired, as nobody implemented it and the WG does not encourage anyone to. This clarification is therefore not longer needed.
 
 ==== Issue 19 ====
   ; Summary : CSS3-UI should define 'overflow-x' and 'overflow-y' properties
