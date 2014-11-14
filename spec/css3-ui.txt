@@ -108,12 +108,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 focusable, as well).
   ; Status : Resolved, informative note added to editor's draft. awaiting public draft.
   
-==== Issue 13 ====
-  ; Summary : should CSS3 UI (or some future version) incorporate a 'focusable' property (like in SVG)
-  ; Raised by : Tantek Çelik
-  ; URL : http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr
-  ; Proposed resolution : postpone til CSS4-UI.
-  ; Status : Resolved. Added to http://wiki.csswg.org/spec/css4-ui#focusable-property
 
 ==== Issue 14 ====
   ; Summary : example for 'appearance' values 'pop-up-menu' and 'radio-group' and 'list-menu' should use same content to illustrate different visualizations for same semantics.
