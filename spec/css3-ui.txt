@@ -141,15 +141,6 @@ focusable, as well).
   ; Proposed resolution : add note discouraging authors from doing this.
   ; Status : **OPEN.** Collected.
 
-==== Issue 18 ====
-  ; Summary : How does text-overflow:ellipsis work with overflow-style: marquee-line? 
-  ; Dependency: Since CSS3 Marquee is already in CR and text-overflow is the "new" feature, it is up to text-overflow to define the interaction.
-  ; Raised by : Andrew Fedoniouk
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2008Dec/0109.html
-  ; URL : http://www.w3.org/TR/2008/CR-css3-marquee-20081205/#overflow-style
-  ; Proposed Resolution : Render same as user controlled scrolling. Add mention of overflow-style to parenthetical examples listed after "When an element is scrolled".
-  ; Status : Resolved. Editor's draft updated, awaiting public draft.
-  ; Update: CSS Marque has been retired, as nobody implemented it and the WG does not encourage anyone to. This clarification is therefore not longer needed.
 
 ==== Issue 19 ====
   ; Summary : CSS3-UI should define 'overflow-x' and 'overflow-y' properties
