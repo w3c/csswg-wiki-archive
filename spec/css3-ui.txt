@@ -35,12 +35,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Status : Resolved. LCWD has link to CSS Tests page. Update this to link to specific test suite page for CSS3-UI for the next CR. Pending contributions to test suite.
 
 
-==== Issue 2 ====
-  ; Summary : Change name/title of spec to be consistent with other CSS3 modules
-  ; Raised by : Tantek Çelik
-  ; URL : n/a
-  ; Proposed Resolution : Change name/title of CSS3-ui from "CSS3 Basic User Interface Module" to "CSS Basic User Interface Module Level 3"
-  ; Status : resolved in editor's draft. pending publication of public draft.
 
 ==== Issue 3 ====
   ; Summary : ::value needs to specify which properties are allowed on that pseudo-element
