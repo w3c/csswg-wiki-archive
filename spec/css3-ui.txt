@@ -45,15 +45,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 
 
 
-==== Issue 12 ====
-  ; Summary : what are effects of 'pointer-events' with regards to keyboard navigation?
-  ; Raised by : Doug Schepers
-  ; URL : http://lists.w3.org/Archives/Public/public-fx/2010OctDec/0106.html
-  ; URL : http://dev.w3.org/csswg/css3-ui/#pointer-events
-  ; Proposed resolution : informative note in the definition of the 'pointer-events' property would help steer authors to think about how they are using this (such as a suggestion that if pointer-events are turned off, authors should also consider making the element not 
-focusable, as well).
-  ; Status : Resolved, informative note added to editor's draft. awaiting public draft.
-  
 
 ==== Issue 14 ====
   ; Summary : example for 'appearance' values 'pop-up-menu' and 'radio-group' and 'list-menu' should use same content to illustrate different visualizations for same semantics.
