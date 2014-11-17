@@ -38,15 +38,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 
 
 
-==== Issue 5 ====
-  ; Summary : In SVG 1.1 the 'pointer-events' property only applies to 'graphics elements', but in css3-ui it applies to all elements. Why? (Details raised by Kevin Ar18: "svg tag should not trigger pointer events like the SVG spec states and as noted here: http://www.w3.org/2010/09/27-fx-minutes.html#item03 Originally, the plan was to include this explanation in an SVG spec, but it was concluded that it should be in the CSS specs instead." )
-  ; Raised by: Erik Dahlstrom, Kevin Ar18
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0268.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0304.html
-  ; URL : http://www.w3.org/2010/09/27-fx-minutes.html#item03
-  ; Proposed Resolution : 1: Add whatever default style sheet rules are necessary to implement SVG's "applies only" special cases and then 2: add a new FAQ: Any element can be given dimensions with CSS and thus can potentially receive events. In general property dependence on specific elements or classes of elements (e.g. "graphics elements") is bad design (for specification of properties). Much better to simply say "applies to all" (especially for inherited properties) and then use default style sheet rules and/or a computed abstraction like "has dimension" or "has a geometry".
-  ; Status : resolved in editor's draft, awaiting public draft. proposed - add a default style sheet rule for the 'svg' pointer-events:none for SVG spec compat, and then move the "pointer-events: visiblePainted" declaration to a new rule for 'svg>*' elements. add more rules as necessary to mimic SVG's notion of "applies to 'graphics elements'".
 
 ==== Issue 6 ====
   ; Summary : Normatively reference SVG 1.1 for 'fill' and 'stroke' property definitions.
