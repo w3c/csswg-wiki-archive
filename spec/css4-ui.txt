@@ -256,3 +256,15 @@ There is no editor's draft of CSS4-UI yet - so there's nothing to have issues ag
 
 The editor's draft will eventually be here:
   * http://dev.w3.org/csswg/css4-ui/
+
+====== Issues moved from css3-ui ======
+
+The following issues were removed form css3-ui's issue list, as they pertain to features that were removed from that document. They are collected here, as these features may be reintroduced in css4-ui, and the issues would then still be relevant.
+
+==== Issue 4 ====
+  ; Summary : computed value of 'pointer-events' vs initial value vs SVG vs CSS3-UI conflict. A quick test shows that IE9 and Opera return 'visiblePainted', while WebKit and Firefox return 'auto'.
+  ; Raised by: Erik Dahlstrom
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html
+  ; URL : https://wiki.mozilla.org/Tantek-Mozilla-projects#pointer-events
+  ; Proposed Resolution : informative UA style sheet addition to explicitly set an SVG-specific value.
+  ; Status : editors draft updated with style sheet additions, awaiting input from Jonathan Watt, implementer of pointer-events in Firefox.
