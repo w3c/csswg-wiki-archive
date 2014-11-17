@@ -257,8 +257,7 @@ There is no editor's draft of CSS4-UI yet - so there's nothing to have issues ag
 The editor's draft will eventually be here:
   * http://dev.w3.org/csswg/css4-ui/
 
-======
- Issues moved from css3-ui ======
+====== Issues moved from css3-ui ======
 
 The following issues were removed form css3-ui's issue list, as they pertain to features that were removed from that document. They are collected here, as these features may be reintroduced in css4-ui, and the issues would then still be relevant.
 
