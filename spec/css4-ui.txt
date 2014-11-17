@@ -315,3 +315,10 @@ The following issues were removed form css3-ui's issue list, as they pertain to 
   ; Proposed resolution : incorporate such details as necessary.
   ; Status : **Open.** Proposed resolution incomplete.
 
+==== Issue 11 ====
+  ; Summary : multiple issues from Kevin Ar18 2010-11-17
+  ; Raised by : Kevin Ar18
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0257.html
+  ; Proposed Resolution : itemize and split into multiple sub-issues here. some may be merely details on Issue 5.
+  ; Status : **Open.** Collected.
+  
