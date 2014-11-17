@@ -301,3 +301,10 @@ The following issues were removed form css3-ui's issue list, as they pertain to 
   ; Proposed resolution : incorporate such details as necessary, as part of the goal here is not to not normatively depend on SVG 1.1 for the property definition itself.  This is similar to how CSS3 color incorporates and defines the full set of color keywords instead of normatively depending on SVG.
   ; Status : **Open.** Proposed resolution incomplete.
   
+==== Issue 9 ====
+  ; Summary : How opacity (and other forms of alpha, e.g rgba, fill-opacity, stroke-opacity etc) affects 'pointer-events' is undefined.  
+  ; Raised by: Erik Dahlstrom
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html
+  ; Proposed resolution : incorporate such details as necessary
+  ; Status : **Open.** Proposed resolution incomplete.
+  
