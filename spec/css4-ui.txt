@@ -278,3 +278,11 @@ The following issues were removed form css3-ui's issue list, as they pertain to 
   ; URL : http://www.w3.org/2010/09/27-fx-minutes.html#item03
   ; Proposed Resolution : 1: Add whatever default style sheet rules are necessary to implement SVG's "applies only" special cases and then 2: add a new FAQ: Any element can be given dimensions with CSS and thus can potentially receive events. In general property dependence on specific elements or classes of elements (e.g. "graphics elements") is bad design (for specification of properties). Much better to simply say "applies to all" (especially for inherited properties) and then use default style sheet rules and/or a computed abstraction like "has dimension" or "has a geometry".
   ; Status : resolved in editor's draft, awaiting public draft. proposed - add a default style sheet rule for the 'svg' pointer-events:none for SVG spec compat, and then move the "pointer-events: visiblePainted" declaration to a new rule for 'svg>*' elements. add more rules as necessary to mimic SVG's notion of "applies to 'graphics elements'".
+  
+==== Issue 6 ====
+; Summary : Normatively reference SVG 1.1 for 'fill' and 'stroke' property definitions.
+; Raised by: Erik Dahlstrom
+; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html
+; Proposed Resolution : inline links to SVG 1.1 property definitions
+; Status : **Open.** Proposed resolution incomplete - awaiting URLs
+
