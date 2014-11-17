@@ -40,13 +40,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 
 
 
-==== Issue 7 ====
-  ; Summary :  The note about how 'fill' and 'stroke' don't affect the result for 'all' is missing (compare with the SVG 1.1 pointer-events definition. http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty
-  ; Raised by: Erik Dahlstrom
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html
-  ; Proposed Resolution : state how 'all' is applied in svg separately from how it's applied otherwise. The same also applies to all the other pointer-event values, where svg is mentioned in parenthesis.
-  ; Status : **Open.** Proposed resolution incomplete.
-  
+
 ==== Issue 8 ====
   ; Summary : pointer-events definition lacks many of the details from the SVG 1.1 specification http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty, e.g how 'clip-path' and 'mask' affects pointer-events, how text elements are handled etc.
   ; Raised by: Erik Dahlstrom
