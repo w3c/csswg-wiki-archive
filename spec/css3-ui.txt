@@ -44,13 +44,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 
 
 
-==== Issue 11 ====
-  ; Summary : multiple issues from Kevin Ar18 2010-11-17
-  ; Raised by : Kevin Ar18
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0257.html
-  ; Proposed Resolution : itemize and split into multiple sub-issues here. some may be merely details on Issue 5.
-  ; Status : **Open.** Collected.
-  
 
 ==== Issue 12 ====
   ; Summary : what are effects of 'pointer-events' with regards to keyboard navigation?
