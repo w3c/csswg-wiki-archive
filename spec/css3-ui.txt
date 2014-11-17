@@ -50,57 +50,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 
 
 
-==== Issue 21 ====
-  ; Summary : text-overflow definition must include <string> value and 2 values option, but with both explicitly at-risk.
-  ; Raised by : CSS WG
-  ; URL : http://dev.w3.org/csswg/css3-ui/#text-overflow0
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html
-  ; Proposed Resolution : Update text-overflow definition to include <string> value and {1,2} values option as described below.
-  ; Status : Resolved. Editor's draft edited accordingly. Awaiting public draft.
-
-=== text-overflow string ===
-text-overflow: <string>. consider incorporating dropped <string> value. 
-
-Originally text-overflow: <string> was [[http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis|defined in CSS3 Text CR 2003-05-14]] - but no one implemented it. Thus any request for including this MUST include some justification as to why/how implementations would consider it differently than they did (and reject) for CSS3 Text CR 2003.
-
-Real-world use-cases:
-  * none.
-
-Theoretical use-cases:
-  * text-overflow:"" can be used to clip inline content on whole characters (grapheme clusters) / atomic elements rather than clipping them at a pixel boundary. (is there any evidence of designers wanting such an effect?)
-  * multilingual (need specific examples here. which languages and which characters?)
-  * author might wish to use "(...)" for instance in citations (need a reference to this style of ellipsing in citations)
-  * vertical ellipsis in maths (need a reference to this style of ellipsing in math)
-  * a line that has nothing but images on it. Having two markers also motivates having a <string> value to be able to specify different symbols on each side.
-
-CSSWG resolution: http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html - in particular:
-  * syntax: "RESOLVED: Add the two-value syntax to text-overflow in css3-ui, marked at-risk"
-  * semantic: "two strings (left and right) in addition to one string (both)."
-  * unprefixed: "[FF is] implementing it unprefixed, because everyone else already has."
-
-Possible spec markup:
-
-<code>
-<td>( clip | ellipsis | 
-   <a class="noxref" href="http://www.w3.org/TR/CSS21/syndata.html#value-def-string">
-     <span class="value-inst-string">&lt;string&gt;</span></a> ){1,2}
-</td>
-...
-      <dt><dfn title="text-overflow:&lt;string&gt;">
-           <var>&lt;string&gt;</var></dfn></dt>
-        <dd>
-        Render the given string to represent clipped text. 
-        The string is treated as an independent paragraph for bidi purposes.
-        </dd>
-...
-<p>
-[At risk]. If there is one value, use it for both the left and right line edges. 
-If there are two values, use the first value for the right edge, 
-and the second value for the left edge.
-</p>
-</code>
-
-
 
 ==== Issue 24 ====
   ; Summary : Provide horizontal scrolling text-overflow example revealing more text that is elided 
