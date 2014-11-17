@@ -37,13 +37,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 
 
 
-==== Issue 4 ====
-  ; Summary : computed value of 'pointer-events' vs initial value vs SVG vs CSS3-UI conflict. A quick test shows that IE9 and Opera return 'visiblePainted', while WebKit and Firefox return 'auto'.
-  ; Raised by: Erik Dahlstrom
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html
-  ; URL : https://wiki.mozilla.org/Tantek-Mozilla-projects#pointer-events
-  ; Proposed Resolution : informative UA style sheet addition to explicitly set an SVG-specific value.
-  ; Status : editors draft updated with style sheet additions, awaiting input from Jonathan Watt, implementer of pointer-events in Firefox.
 
 ==== Issue 5 ====
   ; Summary : In SVG 1.1 the 'pointer-events' property only applies to 'graphics elements', but in css3-ui it applies to all elements. Why? (Details raised by Kevin Ar18: "svg tag should not trigger pointer events like the SVG spec states and as noted here: http://www.w3.org/2010/09/27-fx-minutes.html#item03 Originally, the plan was to include this explanation in an SVG spec, but it was concluded that it should be in the CSS specs instead." )
