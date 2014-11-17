@@ -348,3 +348,11 @@ focusable, as well).
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html
   ; Proposed resolution : write new example accordingly.
   ; Status : **OPEN.** Collected.
+
+==== Issue 16 ====
+  ; Summary : What happens if a semantic single-select element is styled as appearance 'checkbox-group'?
+  ; Raised by : Charles Belov
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html
+  ; Proposed resolution : add note discouraging authors from doing this.
+  ; Status : **OPEN.** Collected.
