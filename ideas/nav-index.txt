@@ -44,4 +44,5 @@ Need contextual scoping for sequential focus navigation.
 
 More details and follow-up:
   * https://www.w3.org/Bugs/Public/show_bug.cgi?id=23960
+  * http://lists.w3.org/Archives/Public/www-style/2011Nov/thread.html#msg441
 
