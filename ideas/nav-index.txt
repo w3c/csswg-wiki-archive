@@ -11,6 +11,7 @@ Extract issues from these and document here as subsections explicitly:
 More issues:
   * http://lists.w3.org/Archives/Public/wai-xtech/2011Nov/0034.html
   * http://lists.w3.org/Archives/Public/wai-xtech/2011Nov/0035.html
+  * http://lists.w3.org/Archives/Public/www-style/2011Nov/thread.html#msg440
 
 ===== Should HTML specify something =====
 HTML has the tabindex attribute (with various levels of browser support) which has been specified there to some extent:
