@@ -59,15 +59,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Proposed Resolution : Edit definition of 'cursor' to state (similar to how 'background' does in CSS3 Backgrounds) that it propagates from the root element to the viewport.
   ; Status : Resolved. Need to edit editor's draft
 
-==== Issue 28 ====
-  ; Summary : link to nav-* directional navigation tests from nav-* section, and in tests section in header
-  ; Raised by : Tantek Çelik
-  ; URL : http://test.csswg.org/source/contributors/opera/submitted/css3-ui/
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Nov/0271.html
-  ; URL : https://github.com/w3c/csswg-test/pull/372
-  ; Proposed Resolution : Edit spec accordingly, note in HTML (not)at-risk comments that Opera/Presto desktop supports nav-* directional navigation with "shift+arrow". No further edits needed, tests incorporated into test suite: http://test.csswg.org/suites/css-ui-3_dev/nightly-unstable/html/chapter-9.htm
-  ; Status : Resolved. Editor's draft edited. Awaiting publication.
-
 ==== Issue 29 ====
   ; Summary : nav-* directional navigation properties definition prose fixes
   ; Raised by : Simon Sapin
