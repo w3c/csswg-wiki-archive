@@ -42,16 +42,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Proposed Resolution : drop nav-index property from CSS3-UI in next CR draft, move current text to a workspace page like I did for pointer-events: http://www.w3.org/wiki/User:Tantekelik#CSSWG , mark directional nav-* properties NOT at risk (note multiple implementations per http://www.w3.org/2013/11/27-css-irc )
   ; Status : Need to edit editor's draft.
 
-==== Issue 26 ====
-  ; Summary : add 'cursor' values 'grab' and 'grabbing' per existing interop support by Gecko and -webkit- prefixed in WebKit
-  ; Raised by : Frank Yan / Tantek Çelik
-  ; URL : http://frankyan.com/labs/cursor/
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Apr/0058.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Apr/0428.html
-  ; URL : https://bugzilla.mozilla.org/show_bug.cgi?id=880672
-  ; Proposed Resolution : edit the spec, add the values, definitions, inline tests
-  ; Status : Resolved. Editor's draft updated. Awaiting public draft.
-
 ==== Issue 27 ====
   ; Summary : specify that 'cursor' propagates from the root to the viewport
   ; Raised by : Tab Atkins
