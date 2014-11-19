@@ -50,13 +50,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Proposed Resolution : Edit definition of 'cursor' to state (similar to how 'background' does in CSS3 Backgrounds) that it propagates from the root element to the viewport.
   ; Status : Resolved. Need to edit editor's draft
 
-==== Issue 29 ====
-  ; Summary : nav-* directional navigation properties definition prose fixes
-  ; Raised by : Simon Sapin
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Oct/0102.html
-  ; Proposed Resolution : Edit spec accordingly, explicitly say what happens if ID selector does not match any elements.
-  ; Status : Resolved. Editor's draft edited. Awaiting public draft.
-
 
 ==== Issue n ====
   ; Summary : 
