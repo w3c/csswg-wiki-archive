@@ -18,8 +18,6 @@ This issues page is key to the work mode of CSS3-UI. Here are next steps:
     * https://www.w3.org/wiki/CSS3-UI
   * Make spec edits for resolved issues, then move them to https://www.w3.org/wiki/CSS3-UI
   * Collect new issues from www-style emails e.g.
-    * http://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html
-      * RESOLVED: add 'caret-color' to css3-ui - mark it at risk
     * Continue until www-style "[CSS3-UI]" "[CSS-UI]" emails since last draft have been processed.
 
 ===== Current Issues =====
@@ -54,8 +52,18 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Proposed Resolution : Edit definition of 'cursor' to state (similar to how 'background' does [[http://dev.w3.org/csswg/css-backgrounds/#special-backgrounds|in CSS3 Backgrounds]]) that it propagates from the root element to the viewport. Proposed text: "Since no element corresponds to the canvas, in order to allow styling of the canvas CSS, propagates the cursor of the root element (or, in the case of HTML, the <body> element). However, if no boxes are generated for the element whose cursor would be used for the canvas (for example, if the root element has ‘display: none’), then the canvas cursor is auto."
   ; Status : Resolved. Need to edit editor's draft
 
+==== Issue 31 ====
+  ; Summary: add 'caret-color' property at risk to css3-ui
+  ; Raised by: andreyr of bloomberg
+  ; URL : Resolved http://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html
+  ; URL : Initial proposal http://lists.w3.org/Archives/Public/www-style/2011Nov/0772.html
+  ; URL : 'auto' keyword computing to currentColor http://lists.w3.org/Archives/Public/www-style/2014Aug/0236.html
+  ; URL : Gecko intent https://bugzilla.mozilla.org/show_bug.cgi?id=1063162
+  ; URL : caret-* proposals http://lists.w3.org/Archives/Public/www-style/2014Sep/0172.html
+  ; Proposed Resolution: add 'caret-color' property with values color | 'auto', where 'auto' should compute to currentColor, mark entire feature at risk. 
+  ; Status : Resolved. Need to edit editor's draft.
 
-==== Issue n ====
+==== Issue new: 32 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
   ; URL : 
