@@ -93,7 +93,7 @@ nav-focus: _normal_ | ignore | focus
     * :invalid-drop-zone - a drop zone that doesn't accept the type of data being dragged
   * see http://wiki.csswg.org/spec/selectors4#ideas-to-consider for more.
   * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0705.html|::backdrop-of(selector)]] - a pseudo-element that matches the backdrop of a fullscreened element, a modal dialog, or other platform features with similar needs. 
-
+  * ::value - postponed from CSS3-UI, however there is a [https://bugzilla.mozilla.org/show_bug.cgi?id=648643 Mozilla implementation bug 648643] for it.
 ==== pointer-events ====
 Moved from CSS3-UI editor's draft because it was the top source of issues for the 2nd CSS3-UI LCWD, and because it requires documenting previously undocumented web platform hit-testing model.
 
