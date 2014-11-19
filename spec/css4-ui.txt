@@ -74,6 +74,7 @@ nav-focus: _normal_ | ignore | focus
 </code>
 
 ==== more selectors ====
+  * ::selection - moved from CSS3-UI - more details/issues/links collected [https://www.w3.org/wiki/CSS3-UI#Issue_30 W3C wiki for now].
   * ::placeholder pseudo-element for the placeholder content inside an input element with a placeholder attribute.
     * There's an empty documentation page for [[https://developer.mozilla.org/en-US/docs/CSS/::-moz-placeholder|::-moz-placeholder]] which is implemented as of Firefox 19.
   * :placeholder-shown pseudo-class for when an input element is in the state of showing its placeholder text
