@@ -171,6 +171,9 @@ Since new input elements etc. have been added to HTML5, and there is clearly opp
 I've archived the 2004 System Appearance feature spec source on the W3C wiki (it seems to support better escaping of embedded markup).
   * http://www.w3.org/wiki/User:Tantekelik/CR-css3-ui-20040511-appearance
 
+
+Suggestion that more values than just none and auto are useful:
+http://www.w3.org/mid/5127EB91.7000002@inkedblade.net
 ==== nav properties ====
 nav-index:
   * See issues [[:ideas:nav-index]]
