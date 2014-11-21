@@ -64,18 +64,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Proposed Resolution : add 'caret-color' property with values color | 'auto', where 'auto' should compute to currentColor, mark entire feature at risk. Add 'caret' shorthand and other 'caret-*' properties to a feature proposal for CSS4-UI.
   ; Status : Resolved. Need to edit editor's draft.
 
-==== Issue 32 ====
-  ; Summary : use line box edge instead of block container edge for the purpose of determining text-overflow
-  ; Raised by : David Baron
-  ; URL : https://bugzilla.mozilla.org/show_bug.cgi?id=944200#c3
-  ; URL : proposal http://lists.w3.org/Archives/Public/www-style/2014Feb/0140.html
-  ; URL : Tab says reasonable: http://lists.w3.org/Archives/Public/www-style/2014Feb/0141.html
-  ; URL : https://bugzilla.mozilla.org/show_bug.cgi?id=944200
-  ; URL : https://bugs.webkit.org/show_bug.cgi?id=115746
-  ; Proposed Resolution : change the opening sentence of text-overflow section from "overflows its block container element" to "overflows its line box edge", and any other similar references to block container edge to line box edge.
-  ; Status : Effective consensus from Webkit (per their fix of 115746), Chrome (Tab's email), Gecko (per 944200 discussion). Editor's draft edited. Awaiting public draft.
-
-
 ==== Issue new: 33 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
@@ -102,6 +90,48 @@ Q: What should an implementation do when an atomic inline element would overlap 
 A: Remove it (the atomic inline element(s)) to make room for the ellipsis marker per the CSS3-UI spec (and Opera and IE9 appear to do this already).
 
 ====== css3-ui additional spec improvements ======
-
   * Consider adding clarifying examples in spec, adding tests. (per Issue 22)
- 
+
+====== Resolved Issues ======
+Leaving resolved subheadings here with forward links to W3C wiki to preserve external links to fragments.
+
+==== Issue 1 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_1
+==== Issue 2 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_2
+==== Issue 3 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_3
+
+==== Issue 13 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_13
+==== Issue 18 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_18
+==== Issue 19 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_19
+
+==== Issue 20 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_20
+==== Issue 21 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_21
+==== Issue 22 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_22
+==== Issue 23 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_23
+
+==== Issue 26 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_26
+==== Issue 28 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_28
+==== Issue 29 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_29
+
+==== Issue 30 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_30
+==== Issue 32 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_32
+
+
+
+
+
+
