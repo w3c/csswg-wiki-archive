@@ -13,12 +13,13 @@ See also:
   * http://www.w3.org/TR/css3-ui/ - latest public TR version
 
 ===== Work Mode =====
-This issues page is key to the work mode of CSS3-UI. Here are next steps:
+This issues page is key to the work mode of CSS3-UI. Here are next steps in rough order:
   * Move closed issues (resolved issues which have edits completed in the draft) to
     * https://www.w3.org/wiki/CSS3-UI
   * Make spec edits for resolved issues, then move them to https://www.w3.org/wiki/CSS3-UI
   * Collect new issues from www-style emails e.g.
     * Continue until www-style "[CSS3-UI]" "[CSS-UI]" emails since last draft have been processed.
+  * For Tantek: process/do all of https://wiki.mozilla.org/Tantek-Mozilla-Projects#CSS3_UI tasks (including moving them here as issues if possible)
 
 ===== Current Issues =====
 
