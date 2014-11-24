@@ -112,15 +112,15 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 
 
 
-==== Issue new: 39 ====
-  ; Summary : Various issues eith ime-mode
+==== Issue: 39 ====
+  ; Summary : Various issues with ime-mode
   ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu>
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0759.html
   ; Proposed Resolution : 
   ; Status : 
 
 
-==== Issue new: 40 ====
+==== Issue: 40 ====
   ; Summary : ime-mode is windows specific and bad design, and should not be standardized. (has replacement suggestion)
   ; Raised by : Masayuki Nakano <masayuki@d-toybox.com> and James Craig <jcraig@apple.com> 
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0959.html
@@ -136,7 +136,7 @@ preferred style appears to be to omit it in property definitions.
   ; Proposed Resolution : 
   ; Status : 
 
-==== Issue new: 42 ====
+==== Issue: 42 ====
   ; Summary : drop “inverted” from outline-color, webkit and gecko don’t do it
   ; Raised by : Tab Atkins
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0202.html
@@ -144,14 +144,14 @@ preferred style appears to be to omit it in property definitions.
   ; Status : 
 
 
-==== Issue new: 43 ====
+==== Issue: 43 ====
   ; Summary : add note or author conformance requirement to not make outlines invisible on focusable elements, for accessibility reasons
   ; Raised by : Michael Cooper <cooper@w3.org>
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/1213.html
   ; Proposed Resolution : 
   ; Status : 
 
-==== Issue new: 44 ====
+==== Issue: 44 ====
   ; Summary : use <image> instead <uri> in the cursor property, like http://www.w3.org/TR/css3-background/#value-types. Allows high res images with image-set, gradients…
   ; Raised by : Fantasai (responding to Tab Atkins) and Rick Byers
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0202.html
@@ -159,7 +159,7 @@ preferred style appears to be to omit it in property definitions.
   ; Proposed Resolution : 
   ; Status : 
 
-==== Issue new: 45 ====
+==== Issue: 45 ====
   ; Summary : include an example highlighting the <target> part of the nav-* syntax. Suggestion: nav-up: #foo "bar"
   ; Raised by : Yves Lafon
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Oct/0499.html
@@ -168,7 +168,7 @@ preferred style appears to be to omit it in property definitions.
 
 
 
-==== Issue new: 46 ====
+==== Issue: 46 ====
   ; Summary : what happens if <x> and <y> are out of bounds for the cursor property
   ; Raised by : Kang-Hao (Kenny) Lu  and Tab Atkins
   ; URL :  http://lists.w3.org/Archives/Public/www-style/2012Feb/0712.html
@@ -177,14 +177,14 @@ preferred style appears to be to omit it in property definitions.
   ; Status : 
 
 
-==== Issue new: 47 ====
+==== Issue: 47 ====
   ; Summary : The specced 'resize' proprety's behavior is *completely* different from the behavior implemented in browsers supporting the property
   ; Raised by : François Remy
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Dec/0221.html
   ; Proposed Resolution : 
   ; Status : 
 
-==== Issue new: 48 ====
+==== Issue: 48 ====
   ; Summary : description of cursor: auto insufficient and not interoperable
   ; Raised by : David Baron
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013Jan/0275.html
@@ -192,7 +192,7 @@ preferred style appears to be to omit it in property definitions.
   ; Status : 
 
 
-==== Issue new: 49 ====
+==== Issue: 49 ====
   ; Summary : there is no interop between UAs about showing tooltips of the ellipsed text
   ; Raised by : Philip Walton
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013Apr/0013.html
@@ -200,7 +200,7 @@ preferred style appears to be to omit it in property definitions.
   ; Status : 
 
 
-==== Issue new: 50 ====
+==== Issue: 50 ====
   ; Summary : add user-select back to css3-ui, it has 3 implementations
   ; Raised by : Tab Atkins
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013Apr/0537.html
@@ -208,7 +208,7 @@ preferred style appears to be to omit it in property definitions.
   ; Status : 
 
 
-==== Issue new: 51 ====
+==== Issue: 51 ====
   ; Summary : applying transforms to the outline is weird, especially in 3d
   ; Raised by : Florian Rivoal
   ; URL : http://www.w3.org/mid/op.w16fmbsgf5de51@localhost.localdomain
@@ -216,14 +216,14 @@ preferred style appears to be to omit it in property definitions.
   ; Status : 
 
 
-==== Issue new: 52 ====
+==== Issue: 52 ====
   ; Summary : behaviour of resize on pseudos buggy and ambiguously defined
   ; Raised by : Lea Verou
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Jul/0477.html
   ; Proposed Resolution : 
   ; Status : 
 
-==== Issue new: 53 ====
+==== Issue: 53 ====
   ; Summary : resize factor behaviour is weird when width / height are later dynamically modified
   ; Raised by : Lea Verou
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Jul/0517.html
