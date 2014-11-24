@@ -103,7 +103,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Status : 
 
 
-==== Issue new: 38 ====
+==== Issue: 38 ====
   ; Summary : what to do if outline-offset is negative, especially to the point that the offset is more than half the element size or similar values that make it impossible to draw?
   ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0601.html
