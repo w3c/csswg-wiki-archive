@@ -94,7 +94,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Proposed Resolution : 
   ; Status : 
 
-==== Issue new: 37 ====
+==== Issue: 37 ====
   ; Summary : spec differs from implementations regarding whether resize only applies in 1 dimension if overflow-x or -y is visible in one of the dimensions.
   ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0713.html
