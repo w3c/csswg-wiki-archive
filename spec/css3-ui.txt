@@ -202,8 +202,9 @@ preferred style appears to be to omit it in property definitions.
 
 ==== Issue: 50 ====
   ; Summary : add user-select back to css3-ui, it has 3 implementations
-  ; Raised by : Tab Atkins
+  ; Raised by : Tab Atkins and Edward O'Connor
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013Apr/0537.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Jul/0541.html
   ; Proposed Resolution : 
   ; Status : 
 
