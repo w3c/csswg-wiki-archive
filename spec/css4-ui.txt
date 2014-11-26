@@ -227,7 +227,8 @@ Hypothetical reasoning:
     * Given that the clipping is visual rather than logical, it makes sense that the two-value form should also be visual left/right rather than logical start/end. - Mats
     * Note that the previous CSS3-Text CR defined two values as: "If two <ellipsis> values area provided, they determine the overflow visual hint at the end and the overflow visual hint after the element box respectively."
 
-==== user-select ====
+==== u
+ser-select ====
 Last seen in the [[http://www.w3.org/TR/2000/WD-css3-userint-20000216#user-select|2000 era draft of User Interface for CSS3]], the 'user-select' property controls the selection model and granularity of an element.
 
 Implementation Status:
@@ -241,10 +242,11 @@ Last publication:
   * http://www.w3.org/TR/2000/WD-css3-userint-20000216#user-select
 
 Issues:
-  * 'all' vs. 'atomic' value
+  * 'all' vs. 'atomic' value (resolved)
     * Gecko implementation of the 'all' value does not reflect last specified definition (2000).
     * WebKit wants a 'atomic' value that acts as 'all' was specified in 2000.
     * Might be possible to get Gecko to change its 'all' behavior to as specified and avoid introducing a new 'atomic' value.
+    * As of FF 33, the difference in behavior (non atomic select when doing keyboard selection) appears to be gone.
   * 'none' vs. '-moz-none' value (Resolved)
     * Gecko 'none' vs '-moz-none' differences: http://blogs.telerik.com/blogs/07-05-21/-moz-user-select--moz-none.aspx
     * Gecko implementation of '-moz-none' (but not 'none') is like WebKit/IE/Opera's 'none' value.
@@ -265,7 +267,8 @@ There is no editor's draft of CSS4-UI yet - so there's nothing to have issues ag
 The editor's draft will eventually be here:
   * http://dev.w3.org/csswg/css4-ui/
 
-====== Issues moved from css3-ui ======
+=====
+= Issues moved from css3-ui ======
 
 The following issues were removed form css3-ui's issue list, as they pertain to features that were removed from that document. They are collected here, as these features may be reintroduced in css4-ui, and the issues would then still be relevant.
 
