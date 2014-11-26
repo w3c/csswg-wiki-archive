@@ -36,4 +36,4 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
 
 
   * [[test:CSS3.0|CSS3 Test Suite Pages]]
-  * [[test/css-writing-modes-3|CSS3 Testing Writing Modes Page]]
+  * [[test/css-writing-modes-3|CSS3 Testing Writing Modes Page (november 2014)]]
