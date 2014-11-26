@@ -42,7 +42,7 @@ This section is just a general introduction to writing modes.
 In CSS, the paragraph embedding level must be set (following UAX9 clause HL1) according to the direction property of the paragraph’s containing block rather than by the heuristic given in steps P2 and P3 of the Unicode algorithm. There is, however, one exception: when the computed unicode-bidi of the paragraph’s containing block is plaintext, the Unicode heuristics in P2 and P3 are used as described in [UAX9], without the HL1 override. 
 "
 
-//I have no idea what the above means or could mean in terms of testing but I think only 2 tests could be done out of such paragraph.//
+//I have no idea what the above means or could mean in terms of testing but I think only 2 tests could be done out of such paragraph. GT//
 
 ==== §2.1 Specifying Directionality: the direction property ====
 
