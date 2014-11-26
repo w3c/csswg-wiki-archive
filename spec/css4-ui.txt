@@ -227,8 +227,7 @@ Hypothetical reasoning:
     * Given that the clipping is visual rather than logical, it makes sense that the two-value form should also be visual left/right rather than logical start/end. - Mats
     * Note that the previous CSS3-Text CR defined two values as: "If two <ellipsis> values area provided, they determine the overflow visual hint at the end and the overflow visual hint after the element box respectively."
 
-==== u
-ser-select ====
+==== user-select ====
 Last seen in the [[http://www.w3.org/TR/2000/WD-css3-userint-20000216#user-select|2000 era draft of User Interface for CSS3]], the 'user-select' property controls the selection model and granularity of an element.
 
 Implementation Status:
@@ -272,7 +271,8 @@ The editor's draft will eventually be here:
 
 The following issues were removed form css3-ui's issue list, as they pertain to features that were removed from that document. They are collected here, as these features may be reintroduced in css4-ui, and the issues would then still be relevant.
 
-==== Issue 4 ====
+==== 
+Issue 4 ====
   ; Summary : computed value of 'pointer-events' vs initial value vs SVG vs CSS3-UI conflict. A quick test shows that IE9 and Opera return 'visiblePainted', while WebKit and Firefox return 'auto'.
   ; Raised by: Erik Dahlstrom
   ; URL : http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html
