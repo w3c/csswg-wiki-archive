@@ -177,11 +177,16 @@ http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc3.html
 
 Test assertion: This test checks that rows in a horizontal-tb table are ordered from top to bottom; the first row is the topmost row
 
-(Sub-test would be: Test assertion: This test checks that rows in a horizontal-tb table with direction rtl  are ordered from top to bottom; the first row is the topmost row.)
+(Sub-test would be: Test assertion: This test checks that rows in a horizontal-tb table with direction rtl are ordered from top to bottom; the first row is the topmost row.)
 
 Test assertion: This test checks that rows in a vertical-rl table are ordered from right to left; the first row is the rightmost row
 
 Test assertion: This test checks that rows in a vertical-rl table are ordered from left to right; the first row is the leftmost row
+
+For each of these tests, we need additional tests with
+  * 1 colspan=2 
+  * 1 rowspan=2
+  * 1 thead, 2 tbody and 1 tfoot
 
   d) line boxes' orientation
 
