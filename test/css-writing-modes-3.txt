@@ -153,13 +153,15 @@ http://test.csswg.org/suites/css-multicol-1_dev/nightly-unstable/html4/reference
 
   a) block progression of block-level boxes in a block formatting context
 
-Test assertion: This test checks that block-level boxes in a horizontal-tb block formating context are ordered from top to bottom
+Test assertion: This test checks that block-level boxes in a horizontal-tb block formatting context are ordered from top to bottom
 
-Test assertion: This test checks that block-level boxes in a vertical-rl block formating context are ordered from right to left
+Test assertion: This test checks that block-level boxes in a vertical-rl block formatting context are ordered from right to left
 http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc.html
 
-Test assertion: This test checks that block-level boxes in a vertical-lr block formating context are ordered from left to right
+Test assertion: This test checks that block-level boxes in a vertical-lr block formatting context are ordered from left to right
 http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc4.html
+
+Test assertion: This test checks that block-level boxes in a {right-floating box | abs. pos. box | inline-block | table-cell | table-caption | block boxes with 'overflow' other than 'visible'} with 'writing-mode' set to {'vertical-lr'|'vertical-rl'} creates a block formatting context for its block boxes.
 
   b) progression of line boxes in a block container that contains inlines
 
@@ -184,9 +186,9 @@ Test assertion: This test checks that rows in a vertical-rl table are ordered fr
 Test assertion: This test checks that rows in a vertical-rl table are ordered from left to right; the first row is the leftmost row
 
 For each of these tests, we need additional tests with
-  * 1 colspan=2 
-  * 1 rowspan=2
-  * 1 thead, 2 tbody and 1 tfoot
+  * 1 test with colspan=2 
+  * 1 test with rowspan=2
+  * 1 test with 1 thead, 2 tbody and 1 tfoot
 
   d) line boxes' orientation
 
