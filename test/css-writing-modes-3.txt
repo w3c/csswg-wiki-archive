@@ -200,7 +200,10 @@ Test assertion: This test checks that line boxes' orientation in a vertical-lr b
 "
 the writing-mode property of the HTML BODY element is not propagated to the viewport.
 "
-//How to test this? There should not be a vertical scrollbar appearing on the left-hand side if body node (with writing-mode: vertical-rl set) is wider (and overflows) than viewport?//
+//Possible (draft) tests for now: [[http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/wm-body-propagation-viewport-001.html|body and rl]] , [[http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/wm-body-propagation-viewport-004.html|body and lr]]; related CSS2.1 tests are http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5504-mrgn-l-002.htm 
+http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-012.htm
+http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-013.htm
+http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-014.htm //
 
 "
 If a box has a different block flow direction than its containing block:
