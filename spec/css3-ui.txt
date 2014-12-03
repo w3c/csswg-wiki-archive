@@ -93,7 +93,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Summary : "Content" properties for several input elements are locale specific
   ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0808.html
-  ; URL : http://www.w3.org/mid/CD2ABA5D-F1BF-47D6-B6A3-4611FFDB85B2@rivoal.net
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0444.html
   ; Proposed Resolution : 
   ; Status : Pending edit
 
