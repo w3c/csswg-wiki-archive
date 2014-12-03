@@ -156,10 +156,9 @@ preferred style appears to be to omit it in property definitions.
   ; Summary : include an example highlighting the <target> part of the nav-* syntax. Suggestion: nav-up: #foo "bar"
   ; Raised by : Yves Lafon
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Oct/0499.html
-  ; Proposed Resolution : 
-  ; Status : 
-
-
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0497.html
+  ; Proposed Resolution : add example
+  ; Status : Pending edit
 
 ==== Issue: 46 ====
   ; Summary : what happens if <x> and <y> are out of bounds for the cursor property
