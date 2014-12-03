@@ -42,9 +42,9 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; URL : https://wiki.csswg.org/ideas/nav-index
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Nov/thread.html#msg440 (continues following month)
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Nov/thread.html#msg441 (continues following month)
-  ; URL : 
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0295.html
   ; Proposed Resolution : drop nav-index property from CSS3-UI in next CR draft, move current text to a workspace page like I did for pointer-events: http://www.w3.org/wiki/User:Tantekelik#CSSWG , mark directional nav-* properties NOT at risk (note multiple implementations per http://www.w3.org/2013/11/27-css-irc )
-  ; Status : Need to edit editor's draft.
+  ; Status : Resolved, Need to edit editor's draft.
 
 ==== Issue 27 ====
   ; Summary : specify that 'cursor' propagates from the root to the viewport
