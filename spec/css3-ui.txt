@@ -190,7 +190,7 @@ preferred style appears to be to omit it in property definitions.
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013Apr/0013.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0532.html
   ; Status : Rejected
-  ; URL: http://www.w3.org/mid/2153A443-E059-47B2-BBB4-66F3C88E46AE@rivoal.net
+  ; URL: http://lists.w3.org/Archives/Public/www-style/2014Dec/0061.html
 
 
 ==== Issue: 50 ====
