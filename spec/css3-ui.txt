@@ -42,6 +42,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; URL : https://wiki.csswg.org/ideas/nav-index
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Nov/thread.html#msg440 (continues following month)
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Nov/thread.html#msg441 (continues following month)
+  ; URL : 
   ; Proposed Resolution : drop nav-index property from CSS3-UI in next CR draft, move current text to a workspace page like I did for pointer-events: http://www.w3.org/wiki/User:Tantekelik#CSSWG , mark directional nav-* properties NOT at risk (note multiple implementations per http://www.w3.org/2013/11/27-css-irc )
   ; Status : Need to edit editor's draft.
 
@@ -173,6 +174,7 @@ preferred style appears to be to omit it in property definitions.
   ; Summary : The specced 'resize' proprety's behavior is *completely* different from the behavior implemented in browsers supporting the property
   ; Raised by : François Remy
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Dec/0221.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0063.html
   ; Proposed Resolution : 
   ; Status : 
 
@@ -221,6 +223,7 @@ preferred style appears to be to omit it in property definitions.
   ; Summary : resize factor behaviour is weird when width / height are later dynamically modified
   ; Raised by : Lea Verou
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Jul/0517.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0063.html
   ; Proposed Resolution : 
   ; Status : 
 
