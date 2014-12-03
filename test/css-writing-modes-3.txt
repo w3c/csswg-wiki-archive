@@ -198,34 +198,37 @@ Test assertion: This test checks that line boxes' orientation in a vertical-rl b
 
 Test assertion: This test checks that line boxes' orientation in a vertical-lr block container box is toward the right
 
+  e) "the writing-mode property of the HTML BODY element is not propagated to the viewport."
 
-"
-the writing-mode property of the HTML BODY element is not propagated to the viewport.
-"
-//Possible (draft) tests for now: [[http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/wm-body-propagation-viewport-001.html|body and rl]] , [[http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/wm-body-propagation-viewport-004.html|body and lr]]; related CSS2.1 tests are http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5504-mrgn-l-002.htm 
+//Possible (draft) tests for now: [[http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/wm-body-propagation-viewport-001.html|body and rl]] , [[http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/wm-body-propagation-viewport-004.html|body and lr]].//
+
+//related CSS2.1 tests are http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5504-mrgn-l-002.htm 
 http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-012.htm
 http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-013.htm
 http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-014.htm 
-There is a spec issue related to this; direction set on body should propagate to viewport. If such issue is resolved as such, then this will impact writing-modes spec and will make "rl" behave the same as direction: rtl set on body and vice versa for "lr" and 'direction: ltr'.
+//
+
+//There is a spec issue related to this; direction set on body should propagate to viewport. If such issue is resolved as such, then this will impact writing-modes spec and will make "rl" behave the same as 'direction: rtl' set on body and vice versa for "lr" and 'direction: ltr'.
 http://lists.w3.org/Archives/Public/www-style/2014Dec/0003.html
 Implementors are converging interoperably toward propagating 'direction' and 'writing-mode'
 from body to viewport (or ICB); so issue 239 should be reopened and resolved accordingly
 https://wiki.csswg.org/spec/css2.1#issue-239
 //
 
-"
-If a box has a different block flow direction than its containing block:
-
+  f) "If a box has a different block flow direction than its containing block:
   If the box has a specified display of inline, its display computes to inline-block. [CSS21]
   If the box has a specified display of run-in, its display computes to block. [CSS21]
   If the box is a block container, then it establishes a new block formatting context. 
-"
+  "
 
-//3 tests can be written out of this multiplied by 3 writing-modes values; we could create javascript tests and layout tests//
+//2 tests (the run-in case is not testable for now) can be written out of this multiplied by 3 writing-modes values; we could create javascript tests as well//
 
-Testable: The content of replaced elements do not rotate due to the writing mode: images, for example, remain upright.
+  g) Testable: The content of replaced elements do not rotate due to the writing mode: 
+  images, for example, remain upright.
 
-Testable: However replaced content involving text (such as MathML content or form elements) should match the replaced element’s writing mode and line orientation if the UA supports such a vertical writing mode for the replaced content.
+  h) Testable: However replaced content involving text (such as MathML content or form elements) 
+  should match the replaced element’s writing mode and line orientation if the UA supports such a 
+  vertical writing mode for the replaced content.
 
 //2 tests can be written out of this multiplied by 3 writing-mode values//
 
