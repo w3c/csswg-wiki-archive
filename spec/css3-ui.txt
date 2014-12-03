@@ -149,8 +149,9 @@ preferred style appears to be to omit it in property definitions.
   ; Raised by : Fantasai (responding to Tab Atkins) and Rick Byers
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0202.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Jul/0140.html
-  ; Proposed Resolution : 
-  ; Status : 
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0496.html
+  ; Resolution : Keep grammar as <uri>, add normative clause stating that conformant UA may use <image> instead of <uri>
+  ; Status : Resolved, pending edit
 
 ==== Issue: 45 ====
   ; Summary : include an example highlighting the <target> part of the nav-* syntax. Suggestion: nav-up: #foo "bar"
