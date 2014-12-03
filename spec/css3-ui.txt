@@ -182,6 +182,7 @@ preferred style appears to be to omit it in property definitions.
   ; Summary : description of cursor: auto insufficient and not interoperable
   ; Raised by : David Baron
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013Jan/0275.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0531.html
   ; Proposed Resolution : 
   ; Status : 
 
