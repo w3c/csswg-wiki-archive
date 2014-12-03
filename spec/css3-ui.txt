@@ -69,8 +69,9 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Summary : In the description of the <target-name> parameter of the nav-* properties, the word string should be replaced by <string>
   ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0708.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0442.html
   ; Proposed Resolution : 
-  ; Status : 
+  ; Status : Edit pending
 
 ==== Issue: 34 ====
   ; Summary : The text-overflow property definition uses () for grouping, but we should use []
