@@ -76,8 +76,9 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Summary : The text-overflow property definition uses () for grouping, but we should use []
   ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0808.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0440.html
   ; Proposed Resolution : 
-  ; Status : 
+  ; Status : Edit pending
 
 
 ==== Issue: 35 ====
@@ -126,8 +127,9 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 preferred style appears to be to omit it in property definitions.
   ; Raised by : Tab Atkins
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0202.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0440.html
   ; Proposed Resolution : 
-  ; Status : 
+  ; Status : Edit pending
 
 ==== Issue: 42 ====
   ; Summary : drop “inverted” from outline-color, webkit and gecko don’t do it
