@@ -166,8 +166,9 @@ preferred style appears to be to omit it in property definitions.
   ; Raised by : Kang-Hao (Kenny) Lu  and Tab Atkins
   ; URL :  http://lists.w3.org/Archives/Public/www-style/2012Feb/0712.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Nov/0331.html
-  ; Proposed Resolution : 
-  ; Status : 
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0501.html
+  ; Resolution : Clamp x and y within the limits of the cursor image (each axis clamped separately)
+  ; Status : Resolved, pending edit
 
 
 ==== Issue: 47 ====
