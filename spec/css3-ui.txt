@@ -72,7 +72,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0959.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013May/0075.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0072.html
-  ; Proposed Resolution : 
+  ; Proposed Resolution : drop ime-mode
   ; Status : 
 
 
