@@ -41,7 +41,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Summary : Editorial: distinguishing public web sites from web applications is non obvious
   ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0808.html
-  ; URL : http://www.w3.org/mid/7B3120AF-2D43-4758-855D-6F9A7AA01CB6@rivoal.net
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0072.html
   ; Proposed Resolution : 
   ; Status : 
 
