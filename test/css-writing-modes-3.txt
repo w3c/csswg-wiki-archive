@@ -425,6 +425,12 @@ x test to be done.
 
 x test to be done.
 
+Testable statement: "Since auto margins are resolved consistent with the containing block’s writing mode, a box establishing an orthogonal flow can, once sized, be aligned or centered within its containing block just like other block-level boxes by using auto margins."
+
+Code:
+<div style="writing-mode: horizontal-tb; width: 600px; background: white url("grid.gif") repeat top left" id="containing-block"> <div style="writing-mode: vertical-rl; margin-right: auto; margin-left: auto; border: black solid medium; width: 194px; background-color: white;" id="CenteredWithinItsContainingBlock">Text sample</div>
+</div>
+
 === §7.3.1 Auto-sizing in Orthogonal Flows ===
 
 [[http://www.w3.org/TR/css-writing-modes-3/#orthogonal-auto|§7.3.1 Auto-sizing in Orthogonal Flows]]
