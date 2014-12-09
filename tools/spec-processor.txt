@@ -37,7 +37,7 @@ If you use the [[http://mercurial.selenic.com/wiki/KeyringExtension|Keyring exte
   W3C_USER='your username'
   curl -u $W3C_USER:$(python -c "import keyring;print(keyring.get_password('Mercurial', '$W3C_USER@@https://dvcs.w3.org/hg/'))") -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html
 
-(Before using this script you need to push at least once so that the password is in they keyring.)
+(Before using this script you need to push at least once so that the password is in the keyring.)
 
 
 === Other Working Groups ===
