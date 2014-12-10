@@ -143,7 +143,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Status : 
 
 
-==== Issue new: 62 ====
+==== Issue new: 63 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
   ; URL : 
@@ -325,6 +325,15 @@ preferred style appears to be to omit it in property definitions.
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0263.html
   ; Proposed Resolution : update reference. patch in http://lists.w3.org/Archives/Public/www-style/2014Nov/0263.html
   ; Status : pending edit
+  
+
+==== Issue 62 ====
+  ; Summary : Overview is redundant with Introduction, and introduction contains out of date sentence.
+  ; Raised by : Florian
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0434.html
+  ; Proposed Resolution : Delete overview, and first sentence of the introduction
+  ; Status : pending edit
+
 
 
 ====== FAQ ======
