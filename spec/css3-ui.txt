@@ -159,7 +159,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Status : 
 
 
-==== Issue 59 ====
+==== Issue 58 ====
   ; Summary : border box is a well defined term. Let's use it.
   ; Raised by : Fantasai
   ; URL : http://www.w3.org/mid/4BF38810.2060005@inkedblade.net
