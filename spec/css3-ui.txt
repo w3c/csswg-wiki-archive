@@ -32,10 +32,17 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0219.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0321.html
   ; Proposed Resolution : Add horizontal scrolling text-overflow example akin to Tab's test case, note that it works in both Firefox and Opera (interop), but currently not in Webkit (Chrome, Safari). 
-  ; Note : blocked by ambiguity in the spec (see last mail thread)
+  ; Note : blocked ambiguity in the spec, tracked as Issue 59
   ; Status : Resolved. Need to edit editor's draft.
 
 
+==== Issue 59 ====
+  ; Summary : Spec is ambiguous as to what happens when the start end of the line overflows with a single value used on text-overflow
+  ; Raised by : Florian Rivoal
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0321.html (see point #2)
+  ; Proposed Resolution : 
+  ; Note : blocks Issue 24
+  ; Status : 
 
 ==== Issue: 35 ====
   ; Summary : Editorial: distinguishing public web sites from web applications is non obvious
