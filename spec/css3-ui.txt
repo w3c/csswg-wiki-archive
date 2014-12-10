@@ -296,7 +296,7 @@ preferred style appears to be to omit it in property definitions.
   ; URL :  http://lists.w3.org/Archives/Public/www-style/2012Feb/0712.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Nov/0331.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0501.html
-  ; Resolution : Clamp x and y within the limits of the cursor image (each axis clamped separately)
+  ; Resolution : "If the coordinates of the hotspot, as specified either inside the image resource or by <x> and <y> values fall outside of the cursor image, they must be clamped (independently) to fit."
   ; Status : Resolved, pending edit
 
 
