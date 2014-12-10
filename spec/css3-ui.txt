@@ -128,24 +128,10 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Summary : Outline has a very loose definition, and significant interop problems. Should we tighten it up?
   ; Raised by : Florian Rivoal
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0134.html
-  ; Proposed Resolution : Leave undefined in level 3, try to converge in level 4
+  ; Proposed Resolution : Leave undefined in level 3, try to converge somewhat in level 4
   ; Status : 
 
 
-==== Issue 57 ====
-  ; Summary : the default object size for cursors is defined in CSS2.1, but not in CSS3-UI, which replaces it
-  ; Raised by : Tab Atkins
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Dec/0080.html
-  ; Proposed Resolution : Add the following sentence to CSS3-UI's cursor section, under the <uri> value explanation: "The <a>default object size</a> for cursor images is a UA-defined size that should be based on the size of a typical cursor on the UA's operating system."
-  ; Status : 
-
-
-==== Issue 58 ====
-  ; Summary : border box is a well defined term. Let's use it.
-  ; Raised by : Fantasai
-  ; URL : http://www.w3.org/mid/4BF38810.2060005@inkedblade.net
-  ; Proposed Resolution : replace "when over the element’s border, padding, and content." with "when within the element's border-box".
-  ; Status : 
 
 
 
@@ -299,12 +285,30 @@ preferred style appears to be to omit it in property definitions.
   ; Status : Resolved, pending edit
 
 
+
+
 ==== Issue 56 ====
   ; Summary : WG resolved to make outline corners rounded to match borders, but it was only lightly discussed, and not obvious how that should work
   ; Raised by : Florian Rivoal
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0145.html
   ; Proposed Resolution : Add "To the extent that the outline follows the border edge, it should follow the border-radius curve" to level 3
   ; Status : Resolved, pending edit
+
+
+==== Issue 57 ====
+  ; Summary : the default object size for cursors is defined in CSS2.1, but not in CSS3-UI, which replaces it
+  ; Raised by : Tab Atkins
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Dec/0080.html
+  ; Proposed Resolution : Add the following sentence to CSS3-UI's cursor section, under the <uri> value explanation: "The <a>default object size</a> for cursor images is a UA-defined size that should be based on the size of a typical cursor on the UA's operating system."
+  ; Status : pending edit.
+
+
+==== Issue 58 ====
+  ; Summary : border box is a well defined term. Let's use it.
+  ; Raised by : Fantasai
+  ; URL : http://www.w3.org/mid/4BF38810.2060005@inkedblade.net
+  ; Proposed Resolution : replace "when over the element’s border, padding, and content." with "when within the element's border-box".
+  ; Status : pending edit
 
 
 ==== Issue 59 ====
