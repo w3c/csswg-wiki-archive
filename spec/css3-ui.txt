@@ -25,16 +25,6 @@ This issues page is key to the work mode of CSS3-UI. Here are next steps in roug
 
 The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3-ui-20040511/|11 May 2004 CSS3-UI Candidate Recommendation]].
 
-==== Issue 24 ====
-  ; Summary : Provide horizontal scrolling text-overflow example revealing more text that is elided 
-  ; Raised by : Tantek Çelik
-  ; URL : http://www.xanthir.com/etc/text-overflow.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0219.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0321.html
-  ; Proposed Resolution : Add horizontal scrolling text-overflow example akin to Tab's test case, note that it works in both Firefox and Opera (interop), but currently not in Webkit (Chrome, Safari). 
-  ; Note : blocked ambiguity in the spec, tracked as Issue 59
-  ; Status : Resolved. Need to edit editor's draft.
-
 ==== Issue: 35 ====
   ; Summary : Editorial: distinguishing public web sites from web applications is non obvious
   ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
@@ -187,6 +177,16 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 
 ===== Issues Pending edits =====
 The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
+
+==== Issue 24 ====
+  ; Summary : Provide horizontal scrolling text-overflow example revealing more text that is elided 
+  ; Raised by : Tantek Çelik
+  ; URL : http://www.xanthir.com/etc/text-overflow.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0219.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0321.html
+  ; Proposed Resolution : Add horizontal scrolling text-overflow example akin to Tab's test case, note that it works in both Firefox and Opera (interop), but currently not in Webkit (Chrome, Safari). 
+  ; Note : blocked ambiguity in the spec, tracked as Issue 59
+  ; Status : Resolved. Need to edit editor's draft.
 
 ==== Issue 25 ====
   ; Summary : nav-index property is not well implemented, nor expected to be. also, is problematic (per similar issues on tabindex in HTML). 
