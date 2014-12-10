@@ -149,14 +149,20 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 
 
 
-==== Issue new: 60 ====
+==== Issue 60 ====
+  ; Summary : Information about when the resize factor gets reset is not sufficiently specific 
+  ; Raised by : Boris Zbarsky
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2004May/0222.html
+  ; Proposed Resolution : 
+  ; Status : 
+
+
+==== Issue new: 61 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
   ; URL : 
   ; Proposed Resolution : 
   ; Status : 
-
-
 ===== Rejected Issues =====
 
 
