@@ -35,15 +35,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Note : blocked ambiguity in the spec, tracked as Issue 59
   ; Status : Resolved. Need to edit editor's draft.
 
-
-==== Issue 59 ====
-  ; Summary : Spec is ambiguous as to what happens when the start end of the line overflows with a single value used on text-overflow
-  ; Raised by : Florian Rivoal
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0321.html (see point #2)
-  ; Proposed Resolution : 
-  ; Note : blocks Issue 24
-  ; Status : 
-
 ==== Issue: 35 ====
   ; Summary : Editorial: distinguishing public web sites from web applications is non obvious
   ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
@@ -175,7 +166,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 
 
 
-==== Issue new: 59 ====
+==== Issue new: 60 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
   ; URL : 
@@ -306,6 +297,14 @@ preferred style appears to be to omit it in property definitions.
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0501.html
   ; Resolution : Clamp x and y within the limits of the cursor image (each axis clamped separately)
   ; Status : Resolved, pending edit
+
+==== Issue 59 ====
+  ; Summary : Spec is ambiguous as to what happens when the start end of the line overflows with a single value used on text-overflow
+  ; Raised by : Florian Rivoal
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0321.html (see point #2)
+  ; Proposed Resolution : 
+  ; Note : blocks Issue 24
+  ; Status : 
 
 
 ====== FAQ ======
