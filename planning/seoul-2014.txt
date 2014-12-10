@@ -8,6 +8,25 @@ Organizer: Daniel Glazman, Samsung Research America, Open Source Group
 
 See also the Korean Meetup, TTWF and WWW 2014 events at the bottom of this page.
 
+===== Meeting Minutes =====
+**Monday, 19 May:**
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0056.html|Part I]], Flexbox
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0057.html|Part II]], Transitions and Animations, calc()
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html|Part III]], Image Values 3
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0059.html|Part IV]], Values and Units
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0060.html|Part V]], Counter Styles, CSS Formatting for Books, Font Load Events, Future F2F Meetings, CSS Syntax - Unpaired Surrogates, MQ Listener 
+**Tuesday, 20 May:**
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html|Part I]], Footnotes in GCPM, CSS Scoping
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0107.html|Part II]], Flexbox, CSSOM and CSSOM View
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0108.html|Part III]], CSS Line Layout
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0109.html|Part IV]], Box Alignment, Box Model/Render Tree, -webkit-line-clamp
+**Wednesday, 21 May:**
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0165.html|Part I]], CSS Masking, Geometry Interfaces, Test Results Script, Selectors 4
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0166.html|Part II]], text-overflow: fade, Logical Properties, background-position -x/-y 
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0167.html|Part III]], CSS3 Text
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0168.html|Part IV]], web-platform-tests and csswg-test github, annotate url() with "crossorigin" "integrty" etc. 
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0169.html|Part V]], Grid/Subgrid, position: sticky, Acknowledgements 
+
 ===== Arrival in Korea =====
 
 **IMPORTANT WARNING**: Korean immigration rules require your passport to be valid at least 6 months after return date. Entry in Korea can be refused if you're not meeting this requirement.
