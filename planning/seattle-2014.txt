@@ -8,6 +8,28 @@ Note:
    * Microsoft is hosting a Seattle Test the Web Forward event on Sunday, January 26. Sign up at http://ttwf-seattle.eventbrite.com if you can attend.
    * There's a Seattle web dev meetup on Wednesday, January 29th. Sign up at http://www.meetup.com/marquee-club/events/160982722/
 
+===== Meeting Minutes =====
+**Monday, 27 January:**
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Jan/0604.html|Part I]], Variables, Masking
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Jan/0602.html| Part II]], Syntax, Shapes, Serialization
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Jan/0603.html|Part III]], Shadow DOM
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Part IV]], Transitions and Animations
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Jan/0608.html|Part V]], Propdef Tables, Grid Layout, Issue Tracking
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Jan/0605.html|Part VI]], CSS3 Backgrounds, CSS2.2, Counter Styles, -webkit-print-color-adjust 
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html|Part VII]], Selectors, Display
+**Tuesday, 28 January:**
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Feb/0052.html|Part I]], Media Queries, Baseline Grids, currentColor
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Feb/0053.html|Part II]], Reversed Lists, Transforms, Display Module, 9-slice recap
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Feb/0054.html|Part III]], Fragmentation
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Feb/0055.html|Part IV]], Flexbox, <br>, Serialization and Shapes
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Feb/0056.html|Part V]], Regions
+**Wednesday, 29 January:**
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Part I]], Page Selectors and Groups, CSS2.1, Region Styling
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Feb/0607.html|Part II]], Scroll Snap Points
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Feb/0608.html|Part III]], will-change, Blending and Compositing
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Feb/0609.html|Part IV]], Masking, Gradients, SVG Text Fills
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Feb/0610.html|Part V]], Media Query Macros, CSSOM Value API
+  *[[http://lists.w3.org/Archives/Public/www-style/2014Feb/0611.html|Part VI]], Custom Filters, SVG Hover Effects
 ===== Location ===== 
 [[https://www.google.com/maps/preview#!q=adobe&data=!4m15!2m14!1m13!1s0x54901506ba72d6e5%3A0xf693cdc0af40611e!3m8!1m3!1d64369!2d-122.342892!3d47.6704929!3m2!1i960!2i1150!4f13.1!4m2!3d47.648301!4d-122.347935|Adobe Seattle, 801 North 34th Street]]
 
