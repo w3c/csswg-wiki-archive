@@ -1,10 +1,27 @@
-===== Sophia-Antipolis F2F September 2014 =====
+====== Sophia-Antipolis F2F September 2014 ======
 
-==== Date ====
+===== Date =====
 
 September 8–10, 2014
 
-==== Place ====
+===== Meeting Minutes =====
+**Monday, 8 September:**
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0259.html|Part I]], CSS3 Text, Display Module, Backgrounds
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html|Part II]], Line Grid, CSS UI, Geometry Working Draft, z-index and SVG, Prioritizing image(color), randomize(), Animation and calc() of Keywords
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0261.html|Part III]], Motion Path, Issues in Media Queries 4
+**Tuesday, 9 September:**
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0287.html|Part I]], Part Motion as FXTF, Future F2F Meetings
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0288.html|Part II]], GCPM3/GCPM4
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0289.html|Part III]], Initial Letters
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Part IV]], Animations
+**Wednesday, 10 September:**
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0291.html|Part I]], CSS UI, Positioning, Next F2F Dates
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0292.html|Part II]], New W3C Process
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0293.html|Part III]], Flexbox
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0294.html|Part IV]], CSS3 Text
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0295.html|Part V]], Survey of All Specs
+
+===== Place =====
 
 INRIA\\
 2004, route des Lucioles\\
@@ -20,11 +37,11 @@ BP 93\\
 06902 Sophia-Antipolis\\
 France)
 
-=== Contacts ====
+==== Contacts =====
 
 Bert Bos (see member Web site or mailing list for phone numbers)
 
-==== Participants ====
+===== Participants =====
 
 Please, put your name in this table if you plan to participate (alphabetic order):
 
@@ -64,27 +81,27 @@ Regrets:
   * Lea Verou
   * Anton Prowse
   * Adenilson Cavalcanti
-==== Travel ====
+===== Travel =====
 
-=== Airport ===
+==== Airport ====
 
 Nearest airport is [[http://en.nice.aeroport.fr/|Nice-Côte-d'Azur]] (location [[http://www.openstreetmap.org/?mlat=43.66;mlon=7.22|on OSM]])
 
-=== Taxi ===
+==== Taxi ====
 
 Taxis are expensive, typical rates are €<html>&nbsp;</html>51–57 (from airport to Antibes or Sophia Antipolis). The airport publishes this list of [[http://en.nice.aeroport.fr/Passengers/DIRECTIONS-PARKING/Getting-to-the-airport/Taxis#prix|typical prices.]]
 
 **Note: taxis don't take credit cards!**
 
-=== Train ===
+==== Train ====
 
 The nearest train station is Antibes.
 
 The nearest station to the airport is Nice Saint-Augustin: about 1 km on foot from Terminal<html>&nbsp;</html>1, or one stop with bus<html>&nbsp;</html>23. However, it is currently not signposted at the airport at all. (The town of Nice has promised to integrate the train better in the transport around the airport, when the tram line from the airport to the center is ready, in a few years…)
 
-=== Bus ===
+==== Bus ====
 
-== Airport ==
+=== Airport ===
 
 Bus<html>&nbsp;</html>230 **only on weekdays** ([[https://www.cg06.fr/documents/Import/servir-les-habitants/230.pdf|PDF schedule]]) goes from the airport to Sophia Antipolis via the motorway. It stops right in front of INRIA. (Use stop “Caquot" for hotels Ibis and Mercure; stop “Skema” for hotels Novotel and Oméga). Price: €<html>&nbsp;</html>1.50
 
@@ -92,7 +109,7 @@ Bus<html>&nbsp;</html>250 ([[https://www.cg06.fr/documents/Import/servir-les-hab
 
 Bus<html>&nbsp;</html>200 ([[https://www.cg06.fr/documents/Import/servir-les-habitants/200.pdf|PDF schedule]]), cheaper but slower, goes from the airport to Antibes (45 min) and Cannes (75 min) and everywhere in between. **It stops [[http://www.openstreetmap.org/?mlat=43.66645;mlon=7.2113|on the road in front of the airport]], not at the airport bus station**  Price: €<html>&nbsp;</html>1.50
 
-== Antibes ==
+=== Antibes ===
 
 Buses in and around Antibes are operated by [[http://www.envibus.fr/|Envibus,]] owned collectively by the various towns in its area of service. Here is a [[http://www.envibus.fr/plan/Secteur_Antibes_Vallauris_a_partir_du_04_Mai.pdf|map of the bus lines in Antibes [PDF].]] A single ticket costs €<html>&nbsp;</html>1.00. You can buy tickets from the driver or at the bus stops indicated as “gare routière” (or “GR.”).
 
@@ -113,17 +130,17 @@ A small dictionary to help read the schedules:
   * sauf = except
   * sauf jours fériés = except on official holidays
 
-=== Rental cars ===
+==== Rental cars ====
 
 [[http://en.nice.aeroport.fr/Passengers/SHOPS-SERVICES/Car-rental/Car-Rental|Rental car companies at the airport]] have desks at both terminals. The cars themselves are located in front of Terminal<html>&nbsp;</html>2.
 
-==== INRIA Campus ====
+===== INRIA Campus =====
 
 There is normally no need to have a visitor's badge if you're only visiting the meeting rooms and the restaurant. Access to all other buildings is restricted.
 
 There is a reception at the entrance gate, where you may want to ask for directions to the right room. However, there is no need to sign in.
 
-==== Hotels ====
+===== Hotels =====
 
 There are some hotels at walking distance from INRIA (see below). They are convenient if you come here to work. ☺ After the evening rush, the area is quiet and if you're awoken by a sound, it is probably a wild boar under your window.
 
@@ -139,15 +156,15 @@ Hotels at walking distance:
   * [[http://www.ibis.com/gb/hotel-0711-ibis-antibes-sophia-antipolis/index.shtml|Ibis]] %%***%% (1.26 km)
 
 
-==== Other ====
+===== Other =====
 
-== Network ==
+=== Network ===
 
 Wifi only. You will get a personal login, so make sure you register in the table above!
 
 There is also an Eduroam network, for those who have such an account.
 
-== Money ==
+=== Money ===
 
 France uses the Euro (abbreviation: EUR; sign: €). Here is a form for the currency converter at Oanda:
 
@@ -160,7 +177,7 @@ value="EUR"> <input type=submit value="convert">
 </form>
 </HTML>
 
-== Electricity ==
+=== Electricity ===
 
 Electricity in France is 230<html>&nbsp;</html>V, 50<html>&nbsp;</html>Hz. Laptops normally come with a power supply that handles everything from 110<html>&nbsp;</html>V to 230<html>&nbsp;</html>V. That may not be the case for other devices.
 
@@ -170,7 +187,7 @@ Ungrounded plugs: [[http://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#CEE_
 
 Grounded plugs: [[http://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#CEE_7.2F7|CEE 7/7:]] {{http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/CEE_7-7.jpg/220px-CEE_7-7.jpg?x100}} or [[http://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#CEE_7.2F5_.28French.29.28Type_E.29|CEE 7/5 (a.k.a. Type E):]] {{http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Pure_french_power_plug.jpg/220px-Pure_french_power_plug.jpg?x100}} 
 
-== Touristic tips ==
+=== Touristic tips ===
 
 Antibes-Juan-les-Pins (see [[http://antibesjuanlespins.com/|tourist office]]):
   * Picasso Museum (also work by De Staël and others)
@@ -215,14 +232,14 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
   * Old town
   * Art galleries
 
-==== Food ====
+===== Food =====
 
   * Morning break outside the meeting room
   * Buffet lunch in the INRIA restaurant
   * Afternoon break outside the meeting room
   * For the moment, W3C does not plan to offer a dinner (sponsors welcome!)
 
-==== Agenda topics ====
+===== Agenda topics =====
 
   * Display Module: removing 'display' longhands (1hr estimate)
   * Flexbox: All the Issues, DoC review, LCWD request (half a day estimate)
@@ -244,7 +261,7 @@ Vallauris (see [[http://www.vallauris-golfe-juan.fr/-Tourism-.html?lang=en|touri
   * Presentation of Motion Path proposal (if time; no resolutions, krit)
   * All WDs that are older than 6 months (see list below)
 
-==== Agenda ====
+===== Agenda =====
 
 Approximate daily schedule:
 ^ Time   ^ Description  ^
@@ -259,9 +276,9 @@ Approximate daily schedule:
 
 
 
-=== Mon ===
+==== Mon ====
 
-== AM ==
+=== AM ===
 
   * CSS Text: DoC review, justification (Koji would like to join over Skype)
   * Display Module: removing 'display' longhands (1hr estimate)
@@ -269,7 +286,7 @@ Approximate daily schedule:
   * Line Grid: publish new draft?
   * caret-color, ::selection, outline-radius
 
-== PM ==
+=== PM ===
 
   * New WD for Geometry interfaces after TAG input (krit)
   * Stacking contexts on SVG (krit)
@@ -279,9 +296,9 @@ Approximate daily schedule:
   * Presentation of Motion Path proposal (if time; no resolutions, krit)
   * Media Queries
 
-=== Tue ===
+==== Tue ====
 
-== AM ==
+=== AM ===
 
   * Motion Path followup
   * Next f2f dates/locations
@@ -290,7 +307,7 @@ Approximate daily schedule:
   * Paginated Views (perhaps as part of the GCPM 4 discussion)
 
 
-== PM ==
+=== PM ===
 
   * Inline: i18n issues for initial letters; split into separate module? (30min?)
   * css-animations:
@@ -298,9 +315,9 @@ Approximate daily schedule:
     * How dynamic changes to animation/keyframe properties is handled: https://www.w3.org/Bugs/Public/show_bug.cgi?id=14713 
 
 
-=== Wed ===
+==== Wed ====
 
-== AM ==
+=== AM ===
 
   * Number of lines in content editable
   * text-overflow: ellipsis-lastline
@@ -311,7 +328,7 @@ Approximate daily schedule:
   * Flexbox: All the Issues, DoC review, LCWD request (half a day estimate)
 
 
-== PM ==
+=== PM ===
 
   * CSS Text: justification
   * All WDs that are older than 6 months
@@ -319,7 +336,7 @@ Approximate daily schedule:
 
 
 
-=== Recently updated WDs ===
+==== Recently updated WDs ====
 
   * 2014-08-26 [[http://www.w3.org/TR/css-masking-1/|CSS Masking Module Level 1]]
   * 2014-08-21 [[http://www.w3.org/TR/predefined-counter-styles/|Predefined Counter Styles]]
@@ -336,7 +353,7 @@ Approximate daily schedule:
   * 2014-04-29 [[http://www.w3.org/TR/css-will-change-1/|CSS Will Change Module Level 1]]
 
 
-=== Older-than-6-months WDs ===
+==== Older-than-6-months WDs ====
 ^ Last Publish ^ Spec ^ Action ^ Responsibility ^
 | 2014-04-03 | [[http://www.w3.org/TR/css-line-grid-1/|CSS Line Grid Module Level 1]] | | |
 | 2014-04-03 | [[http://www.w3.org/TR/css-scoping-1/|CSS Scoping Module Level 1]] | Republish | |
