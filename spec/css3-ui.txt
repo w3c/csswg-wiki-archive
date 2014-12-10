@@ -306,7 +306,7 @@ preferred style appears to be to omit it in property definitions.
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0321.html (see point #2)
   ; Proposed Resolution : http://lists.w3.org/Archives/Public/www-style/2014Dec/0154.html
   ; Note : blocks Issue 24
-  ; Status : 
+  ; Status : pending edit
 
 
 ====== FAQ ======
