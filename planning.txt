@@ -66,7 +66,20 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
             *Tuesday, 12 November: [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0370.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0371.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0372.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0373.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0374.html|Part V]]
 ==== 2014 ====
 [[planning:2014]]
-  * [[planning:seattle-2014]] January 27-29, 2014, jointly with [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2014|SVG]]
-  * [[planning:seoul-2014]] May 19-21, 2014
-  * [[planning:sophia-2014]] 2014-09-08..10
-  * [[planning:tpac-2014]] October 27-31 in Santa Clara
+  * **[[planning:seattle-2014]]**, jointly with [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2014|SVG]]
+    * Minutes:
+        * Monday, 27 January: [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0604.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0602.html| Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0603.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0608.html|Part V]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0605.html|Part VI]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html|Part VII]]
+        * Tuesday, 28 January: [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0052.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0053.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0054.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0055.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0056.html|Part V]] 
+        * Wednesday, 29 January: [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0607.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0608.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0609.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0610.html|Part V]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0611.html|Part VI]]
+  * **[[planning:seoul-2014]]**
+    * Minutes:
+      * Monday, 19 May: [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0056.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0057.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0059.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0060.html|Part V]]
+      * Tuesday, 20 May: [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0107.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0108.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0109.html|Part IV]]
+      * Wednesday, 21 May: [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0165.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0166.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0167.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0168.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0169.html|Part V]]
+  * **[[planning:sophia-2014]]**
+    * Minutes:
+      * Monday, 8 September: [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0259.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0261.html|Part III]]
+      * Tuesday, 9 September: [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0287.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0288.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0289.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Part IV]]
+      * Wednesday, 10 September: [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0291.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0292.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0293.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0294.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0295.html|Part V]]
+  * **[[planning:tpac-2014]]** October 27-31 in Santa Clara
+
