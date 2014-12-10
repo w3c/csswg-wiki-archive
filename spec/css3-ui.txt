@@ -270,7 +270,7 @@ preferred style appears to be to omit it in property definitions.
   ; Raised by : Michael Cooper <cooper@w3.org>
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/1213.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0494.html
-  ; Resolution : add author conformance requirement forbidding to make outlines invisible on focused elements unless an alternative highlight mechanism is provided
+  ; Resolution : add author conformance requirement forbidding to make outlines invisible on focused elements unless an alternative highlight mechanism is provided: "As the outline on elements in the ‘:focus’ state is depended on by keyboard users for interaction with the page, authors must not make the outline invisible on such elements without making sure an alternative highlighting mechanism is provided."
   ; Status : Resolved, edit pending
 
 ==== Issue: 44 ====
