@@ -151,7 +151,15 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Status : 
 
 
-==== Issue new: 57 ====
+==== Issue 57 ====
+  ; Summary : the default object size for cursors is defined in CSS2.1, but not in CSS3-UI, which replaces it
+  ; Raised by : Tab Atkins
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Dec/0080.html
+  ; Proposed Resolution : Add the following sentence to CSS3-UI's cursor section, under the <uri> value explanation: "The <a>default object size</a> for cursor images is a UA-defined size that should be based on the size of a typical cursor on the UA's operating system."
+  ; Status : 
+
+
+==== Issue new: 58 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
   ; URL : 
