@@ -511,7 +511,7 @@ Use ''hg help'' to learn more about each command.
 
 If you are used to using Subversion or CVS, the following commands are roughly equivalent:
 
-  cvs update  == svn update  ==  hg pull --u
+  cvs update  == svn update  ==  hg pull --rebase
   cvs commit  == svn commit  ==  hg commit . ; hg push
   cvs stat    == svn status  ==  hg status .
   cvs diff -u == svn diff    ==  hg diff .
