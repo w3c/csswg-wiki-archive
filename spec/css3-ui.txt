@@ -160,7 +160,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013Apr/0013.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0532.html
   ; Status : Rejected
-  ; URL: http://lists.w3.org/Archives/Public/www-style/2014Dec/0061.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0061.html
 
 ===== Issues Pending edits =====
 The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
