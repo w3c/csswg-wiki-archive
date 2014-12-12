@@ -169,7 +169,7 @@ The following issues need an edit to be applied to the spec. Most of them have a
   ; URL : http://www.xanthir.com/etc/text-overflow.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0219.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0321.html
-  ; Proposed Resolution : Add horizontal scrolling text-overflow example akin to Tab's test case, note that it works in both Firefox and Opera (interop), but currently not in Webkit (Chrome, Safari). 
+  ; Resolution : Add horizontal scrolling text-overflow example akin to Tab's test case, note that it works in both Firefox and Opera (interop), but currently not in Webkit (Chrome, Safari). 
   ; Note : blocked ambiguity in the spec, tracked as Issue 59
   ; Status : Resolved. Need to edit editor's draft.
 
