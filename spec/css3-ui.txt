@@ -141,7 +141,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Status : 
 
 
-==== Issue new: 64 ====
+==== Issue new: 67 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
   ; URL : 
@@ -336,6 +336,32 @@ preferred style appears to be to omit it in property definitions.
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0433.html
   ; Proposed Resolution : replace “Dependencies on other modules” with “Module Interactions”. Patch attached in mail above.
   ; Status : pending edit
+  
+  
+==== Issue 64 ====
+  ; Summary : Drop the icon property and the icon value of the content property, they are not implemented.
+  ; Raised by : Florian Rivoal
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0230.html
+  ; Resolution : drop them. Patch here: http://lists.w3.org/Archives/Public/www-style/2014Dec/0198.html
+  ; Status : Resolved
+  
+==== Issue 65 ====
+  ; Summary : Drop the XForms related pseudo-elements
+  ; Raised by : Florian Rivoal
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0229.html
+  ; Resolution : drop them. Patch here (shared with issue 66): http://lists.w3.org/Archives/Public/www-style/2014Dec/0200.html
+  ; Status : Resolved
+
+==== Issue 66 ====
+  ; Summary : Drop the pseudo-classes, they have a more up to date definition in selectors 4
+  ; Raised by : Florian Rivoal
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0228.html
+  ; Resolution : drop them. Patch here (shared with issue 65): http://lists.w3.org/Archives/Public/www-style/2014Dec/0200.html
+  ; Status : Resolved
+
+
+
+
 
 ====== FAQ ======
 * Consider moving to https://www.w3.org/wiki/CSS3-UI/FAQ
