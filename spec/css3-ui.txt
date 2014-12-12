@@ -237,8 +237,7 @@ The following issues need an edit to be applied to the spec. Most of them have a
 preferred style appears to be to omit it in property definitions.
   ; Raised by : Tab Atkins
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0202.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0440.html
-  ; Proposed Resolution : 
+  ; Proposed Resolution : patch in http://lists.w3.org/Archives/Public/www-style/2014Nov/0440.html
   ; Status : Edit pending
 
 ==== Issue: 42 ====
