@@ -22,5 +22,5 @@ That should be corrected if anyone invents a time machine. :P
   * ''rgba()'' and ''hsla()'' should not exist, ''rgb()'' and ''hsl()''  should have gotten an optional fourth parameter instead (and the alpha value should have used the same format as R, G, and B or S and L).
   * descendant combinator should have been ''>>'' and indirect sibling combinator should have been ''++'', so there's some logical relationships among the selectors' ascii art
   * the ''*-blend-mode'' properties should've just been ''*-blend''
-  * The syntax of unicode ranges should have consistent with the rest of CSS, like ''urange(1, 200)'' or even ''u0001 - u00c8''.
+  * The syntax of unicode ranges should have consistent with the rest of CSS, like ''urange(1, 200)'' or even ''u0001-u00c8''.
   * ''font-family'' should have required the font name to be quoted (like all other values that come from "outside" CSS).  The rules for handling unquoted font names make parsing ''font'' stupid, as it requires a ''font-size'' value for disambiguation.
