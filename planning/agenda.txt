@@ -3,7 +3,11 @@
 The CSS Working Group holds weekly teleconferences on Wednesdays at 9am Pacific time.
 ===== Topics Proposed for Next Call =====
 
-:!: This page has been superseded by [[:topics]].
+:!: It's recommended, particularly for complex issues, to fill out a template page in [[:topics]].
+
+* [[<custom-ident>|http://www.w3.org/mid/CAAWBYDAGD7d3RvBCP+VszeM2sD8DGo3OiSPmmTh2V_2xnZFqNQ@mail.gmail.com]]
+* [[Grid Layout issues|https://etherpad.mozilla.org/tab-and-fantasai]]
+
 ===== Backlog =====
 
 Topics that have been proposed for discussion but are currently on the back-burner.
