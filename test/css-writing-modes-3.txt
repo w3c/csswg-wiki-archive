@@ -161,7 +161,7 @@ http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc.html
 Test assertion: This test checks that block-level boxes in a vertical-lr block formatting context are ordered from left to right
 http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc4.html
 
-Test assertion: This test checks that block-level boxes in a { right-floating box | abs. pos. box | inline-block | list | table-cell | table-caption | block boxes with 'overflow' other than 'visible' } with 'writing-mode' set to { 'vertical-lr' | 'vertical-rl' } creates a block formatting context for its block boxes.
+Test assertion: This test checks that block-level boxes in a { right-floating box | abs. pos. box | inline-block | list | table-cell | table-caption } with 'writing-mode' set to { 'vertical-lr' | 'vertical-rl' } creates a block formatting context for its block boxes.
 
   b) line box direction in a block container that contains inlines
 
@@ -175,7 +175,7 @@ www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc2.html
 Test assertion: This test checks that lines boxes in a vertical-lr block container that contains inlines are ordered from left to right; the first line box of such block container is the leftmost
 http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc3.html
 
-Test assertion: This test checks that lines boxes in a { 'vertical-lr' | 'vertical-rl' } block container { right-floating box | abs. pos. box | inline-block | list | table-cell | table-caption | block boxes with 'overflow' other than 'visible' } that contains inlines are ordered from { left to right | right to left }; the first line box of such block container is the { leftmost | rightmost }.
+Test assertion: This test checks that lines boxes in a { 'vertical-lr' | 'vertical-rl' } block container { right-floating box | abs. pos. box | inline-block | list | table-cell | table-caption } that contains inlines are ordered from { left to right | right to left }; the first line box of such block container is the { leftmost | rightmost }.
 
   c) progression of rows in a table
 
@@ -185,7 +185,7 @@ Test assertion: This test checks that rows in a horizontal-tb table are ordered 
 
 Test assertion: This test checks that rows in a vertical-rl table are ordered from right to left; the first row is the rightmost row
 
-Test assertion: This test checks that rows in a vertical-rl table are ordered from left to right; the first row is the leftmost row
+Test assertion: This test checks that rows in a vertical-lr table are ordered from left to right; the first row is the leftmost row
 
 For each of these tests, we need additional tests with
   * 1 test with colspan=2 
@@ -200,7 +200,7 @@ Test assertion: This test checks that line boxes' orientation in a vertical-lr b
 
   e) "the writing-mode property of the HTML BODY element is not propagated to the viewport."
 
-//Possible (draft) tests for now: [[http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/wm-body-propagation-viewport-001.html|body and rl]] , [[http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/wm-body-propagation-viewport-004.html|body and lr]].//
+//Possible (draft) tests for now: [[http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/body-propagation-viewport-001.html|body and rl]] , [[http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/body-propagation-viewport-004.html|body and lr]].//
 
 //related CSS2.1 tests are http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5504-mrgn-l-002.htm 
 http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-012.htm
@@ -217,11 +217,10 @@ https://wiki.csswg.org/spec/css2.1#issue-239
 
   f) "If a box has a different block flow direction than its containing block:
   If the box has a specified display of inline, its display computes to inline-block. [CSS21]
-  If the box has a specified display of run-in, its display computes to block. [CSS21]
   If the box is a block container, then it establishes a new block formatting context. 
   "
 
-//2 tests (the run-in case is not testable for now) can be written out of this multiplied by 3 writing-modes values; we could create javascript tests as well//
+//2 tests can be written out of this multiplied by 3 writing-modes values; we could create javascript tests as well//
 
   g) Testable: The content of replaced elements do not rotate due to the writing mode: 
   images, for example, remain upright.
