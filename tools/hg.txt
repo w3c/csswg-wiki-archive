@@ -145,15 +145,15 @@ cd /     #not required, but resources directory is located at root level in repo
 hg clone https://dvcs.w3.org/hg/resources/     
 </code>
 
-** CSSWG Spec Repository **
+** CSSWG Draft Repository **
 <code>
-cd /mirror/hg/dvcs.w3.org/   #just an example, pick your own local directory
-hg clone https://dvcs.w3.org/hg/csswg/
+cd /mirror/hg.csswg.org/   #just an example, pick your own local directory
+hg clone https://hg.csswg.org/drafts/
 </code>
 
-** FXTF Spec Repository **
+** FXTF Draft Repository **
 <code>
-hg clone https://dvcs.w3.org/hg/FXTF/ 
+hg clone https://hg.fxtf.org/drafts/ 
 </code>
 
 ** Fullscreen Spec **
@@ -165,7 +165,7 @@ Once this command is complete, you now have a working directory that also contai
 
 Note: By default, the working directory name will match the name of the central repository on the server (the last path component of the URL). If you want to use a different name for your working directory, enter it at the end of the clone command, e.g.:
 <code>
-hg clone https://dvcs.w3.org/hg/csswg/ specs
+hg clone https://hg.csswg.org/drafts/ csswg
 </code>
 
 ==== Obtaining Write Access ====
