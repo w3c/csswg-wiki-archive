@@ -39,8 +39,13 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
     * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0323.html|Thursday, 2 June]]
     * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html|Friday, 3 June]]
     * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html|Saturday, 4 June]]
-  * [[planning:seattle-2011]]
+  * **[[planning:seattle-2011]]**
+    * Sunday, 24 July: [[http://lists.w3.org/Archives/Public/www-style/2011Jul/0536.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2011Jul/0538.html|Part II]]
+    * Monday, 25 July: [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0069.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0072.html|Part II]]
+    * Tuesday, 26 July: [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0176.html|Full Minutes (joint with SVG)]]
   * [[planning:tpac-2011]]
+
+
 ==== 2012 ====
 [[planning:2012]]
   * **[[planning:paris-2012]]**
