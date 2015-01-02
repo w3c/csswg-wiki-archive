@@ -5,9 +5,9 @@
   * Organizer: Mozilla (David Baron)
 
 ===== Meeting Minutes ===== 
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0258.html|Monday, 7 March]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0272.html|Tuesday, 8 March]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0306.html|Wednesday, 9 March]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0258.html|Monday, 7 March]] - CSS2.1 Issues & Test Failures
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0272.html|Tuesday, 8 March]] - Adobe's Regions Proposal, Grid Layout Proposal, Flexbox, CSS Multicol, Testing, Tokyo Workshop, Line Grid, Compositing, CSS2.1 Issues
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0306.html|Wednesday, 9 March]] - CSS2.1, Charter
 
 
 ===== Proposed topics =====
