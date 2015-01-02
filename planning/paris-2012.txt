@@ -2,7 +2,7 @@
 
 Topics for the February 2012 CSS Working Group Face-to-Face meeting in Paris, France.
 
-**When:** Monday 6 February – Wednesday 8 Feburary
+**When:** Monday 6 February – Wednesday 8 February
 
 **Where:** [[http://maps.google.com/maps?q=23+avenue+d%27Italie,+paris&ie=UTF8&sll=46.75984,1.738281&sspn=8.943171,23.269043&vpsrc=0&hnear=23+Avenue+d%27Italie,+75013+Paris,+%C3%8Ele-de-France&t=m&z=16|23 avenue d'Italie]] 75012 Paris
 
@@ -12,17 +12,23 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
 
 **Weather:** very cold, below freezing. likely dry, but rain and snow are possible. icy roads, sidewalks. be careful when walking.
 
-**Minutes:**
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0313.html|Monday Morning: Administrivia, Vendor Prefixes, Property/Value Alias OM]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0325.html|Monday Afternoon: Functional Notation, Values and Units, Regions Scope]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0526.html|Tuesday Morning I: Regions Issues, Nested Style Rules]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0527.html|Tuesday Morning II: Fullscreen, Snapshot, Media Queries REC]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0528.html|Tuesday Afternoon I: Webkit Prefixes Cont., css3-background, css3-images]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0529.html|Tuesday Afternoon II: CSS2.1 Errata, Spec Process Proposal]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0530.html|Wednesday Morning I: Dropping Prefixes, css3-images, CSS 2.1 errata, Media Queries]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0531.html|Wednesday Morning II: Exclusions]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0549.html|Wednesday Afternoon I: Flexbox, Line Layout]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0550.html|Wednesday Afternoon II: Writing Modes & UTR50, Fragmentation, Transforms]]
+===== Meeting Minutes =====
+
+**Monday, 6 February:**
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0313.html|Monday Morning]], Administrivia, Vendor Prefixes, Property/Value Alias OM
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0325.html|Monday Afternoon]], Functional Notation, Values and Units, Regions Scope
+
+**Tuesday, 7 February**
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0526.html|Tuesday Morning I]], Regions Issues, Nested Style Rules
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0527.html|Tuesday Morning II]], Fullscreen, Snapshot, Media Queries REC
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0528.html|Tuesday Afternoon I]], Webkit Prefixes Cont., css3-background, css3-images
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0529.html|Tuesday Afternoon II]], CSS2.1 Errata, Spec Process Proposal
+
+**Wednesday, 8 February:**
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0530.html|Wednesday Morning I]], Dropping Prefixes, css3-images, CSS 2.1 errata, Media Queries
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0531.html|Wednesday Morning II]], Exclusions
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0549.html|Wednesday Afternoon I]], Flexbox, Line Layout
+  * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0550.html|Wednesday Afternoon II]], Writing Modes & UTR50, Fragmentation, Transforms
 
 ===== Agenda =====
 
