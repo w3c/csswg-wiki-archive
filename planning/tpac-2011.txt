@@ -16,16 +16,19 @@ Agenda and Logistics for November 2011 CSS Working Group Face-to-Face meeting (S
 **Calling in**
   * You can call into the WG meeting through Skype at w3c-csswg
 
-**Minutes:**
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0713.html|2011-10-30 Sunday Morning: Issue  Tracking, Regions]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0714.html|2011-10-30 Sunday Afternoon  I: UTR50, radial-gradient(), Exclusions and Shapes]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0715.html|2011-10-30 Sunday Afternoon  II: Style Attr, Selectors 4, Paginated Layout on Screen]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0709.html|2011-10-31 Monday Morning: Values&Units,  Positioning, Animations]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0711.html|2011-10-31 Monday Afternoon:  @font-face, Flexbox, Multicol, GCPM]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0710.html|2011-11-01 Tuesday Morning I:  CSSOM, IDPF]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0717.html|2011-11-01 Tuesday Morning II:  Testing, CSS2.1, CSS3 Borders]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0716.html|2011-11-01 Tuesday Noonish:  radial-gradient() and argument notation, text-transform]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0712.html|2011-11-01 Tuesday Afternoon:  Variables, Accessibility, Multicol]]
+===== Meeting Minutes =====
+**Sunday, 30 October**
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0713.html|2011-10-30 Sunday Morning]]- Issue  Tracking, Regions
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0714.html|2011-10-30 Sunday Afternoon I]]- UTR50, radial-gradient(), Exclusions and Shapes
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0715.html|2011-10-30 Sunday Afternoon II]]- Style Attr, Selectors 4, Paginated Layout on Screen
+**Monday, 31 October**
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0709.html|2011-10-31 Monday Morning]]- Values & Units,  Positioning, Animations
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0711.html|2011-10-31 Monday Afternoon]]- @font-face, Flexbox, Multicol, GCPM
+**Tuesday, 1 November**
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0710.html|2011-11-01 Tuesday Morning I]]- CSSOM, IDPF
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0717.html|2011-11-01 Tuesday Morning II]]- Testing, CSS2.1, CSS3 Borders
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0716.html|2011-11-01 Tuesday Noonish]]- radial-gradient() and argument notation, text-transform
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0712.html|2011-11-01 Tuesday Afternoon]]- Variables, Accessibility, Multicol
 
 ===== Agenda Brainstorming =====
 
