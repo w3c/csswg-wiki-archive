@@ -3,8 +3,11 @@
   * 2011 June 1
   * at [[http://www.krp.co.jp/english/|Kyoto Research Park]], Kyoto, Japan
   * Organizer: NTT/W3C
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0412.html|Minutes]]
   * See [[http://www.w3.org/Style/Japan-2011/]] for more up-to-date information.
+
+===== Meeting Minutes =====
+
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0412.html|Meeting Minutes]]
 
 ===== Goal =====
 The goal of this forum is providing an opportunity to CSS community people and let them directly talk with the CSS WG participants so that both the group participants and community people can have better mutual understanding and greater interest in each other's work.
