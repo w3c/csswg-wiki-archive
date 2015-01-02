@@ -40,10 +40,11 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
     * Monday, 6 February: [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0313.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0325.html|Part II]]
     * Tuesday, 7 February: [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0526.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0527.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0528.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0529.html|Part IV]]
     * Wednesday, 8 February: [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0530.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0531.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0549.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0550.html|Part IV]]
-  * [[planning:hamburg-2012]]
+  * **[[planning:hamburg-2012]]**
+    * Thursday, 10 May: [[http://lists.w3.org/Archives/Public/www-style/2012May/0520.html| Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0527.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0530.html|Part III]]
+    * Friday, 11 May: [[http://lists.w3.org/Archives/Public/www-style/2012May/0531.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0536.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0538.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0541.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0542.html|Part V]]
   * [[planning:sandiego-2012]]
   * [[planning:tpac-2012]]
-
 
 ==== 2013 ====
 [[planning:2013]]
