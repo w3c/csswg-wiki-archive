@@ -1,5 +1,19 @@
 ===== TPAC 2014 =====
 
+==== Meeting Minutes ====
+**Monday, 27 October:**
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Dec/0299.html|Part I]], CSS3 UI, ::selection and Pseudo-Elements issues
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html|Part II]], Animations, Media Queries
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Dec/0301.html|Part III]], Shrink-to-fit, Sizing
+  * [[http://lists.w3.org/Archives/Public/www-style/2014Dec/0302.html|Part IV]], Grid, Test Suites
+**Tuesday, 28 October**
+  * [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0004.html|Part I]], Zoom Effects, Flexbox, ::role()
+  * [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0005.html|Part II]], Selectors 4, Fragmentation, Transforms
+  * [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0006.html|Part III]], Text, Selections, Counter Styles
+  * [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0007.html|Part IV]], Fonts
+  * [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0008.html|Part V]], Animations, Scrolling Effects and Primitives
+  * [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0009.html|Part VI]], Snap Points, Text
+
 ==== Place, Logistics, etc. ====
 
 [[http://www.w3.org/2014/11/TPAC/]]
