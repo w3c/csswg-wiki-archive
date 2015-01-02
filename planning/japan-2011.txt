@@ -5,9 +5,9 @@
 
 ===== Meeting Minutes ===== 
 
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0323.html|Thursday, 2 June]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html|Friday, 3 June]]
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html|Saturday, 4 June]]
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0323.html|Thursday, 2 June]] - Kyoto Forum Issues, Line Grid, Writing Modes
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html|Friday, 3 June]] - Transitions, Ideographic Variants, Text, Charter, Floats, Regions
+  * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html|Saturday, 4 June]] - Fonts, Flexbox, Regions, Device Adaptation, Variables and Mixins, CSS3 Conditional Rules, Selectors 4, text-overflow, gradients, Module Template, Test Suite Owners, Charter, F2F Scheduling
 
 ===== Proposed topics =====
 
