@@ -47,9 +47,10 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
     * Monday, 13 August: [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0749.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0770.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0771.html|Part III]]
     * Tuesday, 14 August: [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0848.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0849.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0855.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0890.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0891.html|Part V]]
     * Wednesday, 15 August: [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0894.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0897.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0898.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0899.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0900.html|Part V]]
-  * [[planning:tpac-2012]]
-
-
+  * **[[planning:tpac-2012]]**
+    * Sunday, 28 October: [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0253.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0254.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0252.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0249.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0250.html|Part V]]
+    * Monday, 29 October: [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0258.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0260.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0259.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0261.html|Part IV]]
+    * Tuesday, 30 October: [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0262.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0263.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0265.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0264.html|Part IV]]
 
 ==== 2013 ====
 [[planning:2013]]
