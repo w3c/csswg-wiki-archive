@@ -4,7 +4,12 @@
   * 2010 August 23-25
   * Oslo, Norway
   * Organizer: Opera (Håkon Wium Lie)
-  * Minutes: [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0001.html|Monday]], [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0002.html|Tuesday]], [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0003.html|Wednesday]]
+
+===== Meeting Minutes ===== 
+
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0001.html|Monday, 23 August]]- CSS2.1 Issues and Test Suite, CSSWG Charter, Viewport Meta and CSS Syntax
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0002.html|Tuesday, 24 August]]- CSS3 Generated Content for Paged Media, Hit Testing, Styling Attributes, Media Queries, Snapshot 2010, Selector Serialization, Flexbox, Multi-Column Layout, box-shadow, Future F2F Schedule
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0003.html|Wednesday, 25 August]]- Testing and PR, Fonts, Writing Modes, #rrggbbaa, CSS3 UI and UI Selectors, i18n: list-styles and Indic layout, CSS Template Layout, Values and Units and calc()
 
 ===== Proposed topics =====
 
