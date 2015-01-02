@@ -18,7 +18,7 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
   * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0313.html|Monday Morning]], Administrivia, Vendor Prefixes, Property/Value Alias OM
   * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0325.html|Monday Afternoon]], Functional Notation, Values and Units, Regions Scope
 
-**Tuesday, 7 February**
+**Tuesday, 7 February:**
   * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0526.html|Tuesday Morning I]], Regions Issues, Nested Style Rules
   * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0527.html|Tuesday Morning II]], Fullscreen, Snapshot, Media Queries REC
   * [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0528.html|Tuesday Afternoon I]], Webkit Prefixes Cont., css3-background, css3-images
