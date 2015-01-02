@@ -3,7 +3,16 @@
   * 1-2 November 2010
   * Lyon, France
   * at [[https://www.w3.org/2010/11/TPAC/|TPAC]]
-  * Minutes: [[https://www.w3.org/mid/4CE3171B.7000602@inkedblade.net|Monday am]], [[https://www.w3.org/mid/4CE3172B.8010004@inkedblade.net|Monday pm]], [[https://www.w3.org/mid/4CE3173F.1070204@inkedblade.net|Tuesday am]], [[https://www.w3.org/mid/4CE31783.9010501@inkedblade.net|Tuesday pm]]
+
+===== Meeting Minutes ===== 
+
+**Monday, 1 November**
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Nov/0240.html|Monday am]]- 2D Transforms, EPUB Liaison, CSS2.1 Testing, Bidi Images and Lists
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Nov/0241.html|Monday pm]]- CSS Multi-Column Layout, Flexbox, GCPM
+**Tuesday, 2 November**
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Nov/0242.html|Tuesday am]]- Grids, CSS3 Writing Modes
+  * [[http://lists.w3.org/Archives/Public/www-style/2010Nov/0243.html|Tuesday pm]]- Logical Layout, Font Features, Position Layout, Inline Transforms, Haptics
+
 ===== Proposed Agenda =====
 
 ==== Monday AM ====
