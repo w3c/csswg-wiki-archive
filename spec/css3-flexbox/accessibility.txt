@@ -1,0 +1,40 @@
+This page is a research page to discuss pros and cons of UA's changing the tab order and screen reader flow (through the a11y API) to match the new visual layout when flexbox order rearranges elements on a page.
+
+**Proposal Statement:**
+
+If Flexbox is used to rearrange content, the box tree and accessibility API should be updated to also change the keyboard and screen reader flow to match the new visual layout.
+
+**Original W3C Working Draft** http://www.w3.org/TR/css-flexbox-1/#order-accessibility
+
+The order property does not affect ordering in non-visual media (such as speech). Likewise, order does not affect the default traversal order of sequential navigation modes (such as cycling through links, see e.g. nav-index [CSS3UI] or tabindex [HTML40]). Authors must use order only for visual, not logical, reordering of content; style sheets that use order to perform logical reordering are non-conforming.
+
+**Proposed Change**
+
+The order property affects ordering in non-visual media (such as speech). Likewise, order affects the default traversal order of sequential navigation modes (such as cycling through links, see e.g. nav-index [CSS3UI] or tabindex [HTML40]). Authors must use order only for visual, not logical, reordering of content; style sheets that use order to perform logical reordering are non-conforming.
+
+**Arguments Against the Proposal** 
+  - The interaction will not be consistent with content that has been similarly visually rearranged with Float and does not change the logical order
+  - Flexbox will lose the intended opportunity to rearrange the visual order without changing the logical tabbing order for keyboard users
+  - It will be difficult to implement and track the logical order change to the box tree and the accessibility tree
+  - Flexbox is strongly hierarchal thus limiting the damage that can be done
+  - Visual scanning order is not always the same as the logical order so it’s not possible to insure a common experience
+  - Devs should not be using Flexbox to fix problems with the layouts
+  - Blind users will end up with a different experience on mobile than desktop
+
+**Rebuttals to Arguments Against**
+  - Float is already recognized as a risk for keyboard users and only advised if the logical order already makes sense without any CSS http://www.w3.org/TR/2005/WD-WCAG20-CSS-TECHS-20050630/#float
+  - No evidence or example that this is a desirable outcome
+  - This is the direction CSS is moving and the risk is too great to ignore due to effort
+  - We have examples of Flexbox creating terrible, non-compliant visual layouts, especially in complex applications
+  - The conventional order of tabbing through a document is still desired rather than jumping around
+  - Devs will continue to do this regardless of best practices. It’s easy and has major performance implications
+  - Blind users want the same experience that visual users get in each context
+
+**Additional Arguments for the Proposal**
+  - Developers recognize Flexbox as a performance enhancer and are using it in lieu of javascript
+  - High Contrast mode users are at risk of jumping around a screen causing confusion as they see only a small portion of the screen
+  - Visual Keyboard users have difficulty tabbing to information that visually shows up early but is logically near the end
+  - Example: navigation list that is logically at the end but moved to the middle left using flexbox
+  - Description of location for blind users will be impossible if the location of the information does not match visually. Example: Blind user calling a help line to describe an issue in a portion of a page. Example: Blind user having a conversation with coworkers about a screen layout
+  - PF Group is already concerned with this issue http://lists.w3.org/Archives/Public/www-style/2014May/0247.html
+  - IBM has an extremely strong stance on this
