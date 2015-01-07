@@ -328,7 +328,7 @@ If you have a long commit message, you can leave out the ''-m "Commit message"''
 At this point your changes will be available on the server to other users.
 
 
-:?: If you see a message similar to: "abort: authorization failed", then ?????
+:?: If you see a message similar to: "abort: authorization failed", then email Peter. See Footer at bottom.
 
 
 === Merging Branches of Work: hg merge ===
