@@ -164,61 +164,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 ===== Issues Pending edits =====
 The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
 
-==== Issue: 45 ====
-  ; Summary : include an example highlighting the <target> part of the nav-* syntax. Suggestion: nav-up: #foo "bar"
-  ; Raised by : Yves Lafon
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Oct/0499.html
-  ; Proposed Resolution : see patch in http://lists.w3.org/Archives/Public/www-style/2014Nov/0497.html
-  ; Status : Pending edit
-
-==== Issue 56 ====
-  ; Summary : WG resolved to make outline corners rounded to match borders, but it was only lightly discussed, and not obvious how that should work
-  ; Raised by : Florian Rivoal
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0145.html
-  ; Resolution : Add "To the extent that the outline follows the border edge, it should follow the border-radius curve" to level 3
-  ; Status : Resolved, pending edit
-
-
-==== Issue 57 ====
-  ; Summary : the default object size for cursors is defined in CSS2.1, but not in CSS3-UI, which replaces it
-  ; Raised by : Tab Atkins
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2010Dec/0080.html
-  ; Proposed Resolution : Add the following sentence to CSS3-UI's cursor section, under the <uri> value explanation: "The <a>default object size</a> for cursor images is a UA-defined size that should be based on the size of a typical cursor on the UA's operating system."
-  ; Status : pending edit.
-
-
-==== Issue 58 ====
-  ; Summary : border box is a well defined term. Let's use it.
-  ; Raised by : Fantasai
-  ; URL : http://www.w3.org/mid/4BF38810.2060005@inkedblade.net
-  ; Proposed Resolution : replace "when over the element’s border, padding, and content." with "when within the element's border-box".
-  ; Status : pending edit
-
-
-==== Issue 61 ====
-  ; Summary : Cross reference should be updated to css3-background instead of css2.1
-  ; Raised by : Florian Rivoal
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0263.html
-  ; Proposed Resolution : update reference. patch in http://lists.w3.org/Archives/Public/www-style/2014Nov/0263.html
-  ; Status : pending edit
-
-
-==== Issue 63 ====
-  ; Summary : Section "Dependencies on other modules" is redundant with bibliography, but normative "Module interactions" section defining what the spec replaces is missing
-  ; Raised by : Florian
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0433.html
-  ; Proposed Resolution : replace “Dependencies on other modules” with “Module Interactions”. Patch attached in mail above.
-  ; Status : pending edit
-
-
-=== Issue 67 ===
-  ; Summary : Editorial improvement to clarify where the outline is
-  ; Raised by : Axel Dahmen
-  ; Raised on : 2014/12/8
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0104.html
-  ; Proposed resolution : Add sentence after 'The outline created with the outline properties is drawn "over" a box[...]'. For example: "Note: This specification does not define the exact position or shape of the outline, but it is typically drawn immediately outside the border box"
-  ; Status : edit pending
-  
+* ... none currently ... more soon ....
 
 
 ====== FAQ ======
@@ -304,11 +250,21 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_46
 ==== Issue 49 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_49
 
+==== Issue 56 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_56
+==== Issue 57 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_57
+==== Issue 58 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_58
 ==== Issue 59 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_59
 
+==== Issue 61 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_61
 ==== Issue 62 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_62
+==== Issue 63 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_63
 ==== Issue 64 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_64
 ==== Issue 65 ===
