@@ -524,6 +524,10 @@ Since your Mercurial clone is a full copy of the repository, you have the entire
 
 Use ''hg help'' to learn more about each command.
 
+If you need to edit history, e.g. undo/drop your latest change set, see:
+  * http://mercurial.selenic.com/wiki/EditingHistory
+In particular, ''hg strip'' is useful for dropping the most recent changeset.
+
 ===== CVS / Subversion Cheat Sheet =====
 
 If you are used to using Subversion or CVS, the following commands are roughly equivalent:
