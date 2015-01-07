@@ -171,18 +171,6 @@ The following issues need an edit to be applied to the spec. Most of them have a
   ; Proposed Resolution : see patch in http://lists.w3.org/Archives/Public/www-style/2014Nov/0497.html
   ; Status : Pending edit
 
-==== Issue: 46 ====
-  ; Summary : what happens if <x> and <y> are out of bounds for the cursor property
-  ; Raised by : Kang-Hao (Kenny) Lu  and Tab Atkins
-  ; URL :  http://lists.w3.org/Archives/Public/www-style/2012Feb/0712.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Nov/0331.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0501.html
-  ; Resolution : Clamp, independently. Proposed phrasing: "If the coordinates of the hotspot, as specified either inside the image resource or by <x> and <y> values fall outside of the cursor image, they must be clamped (independently) to fit."
-  ; Status : Resolved, pending edit
-
-
-
-
 ==== Issue 56 ====
   ; Summary : WG resolved to make outline corners rounded to match borders, but it was only lightly discussed, and not obvious how that should work
   ; Raised by : Florian Rivoal
@@ -311,6 +299,8 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_42
 See https://www.w3.org/wiki/CSS3-UI#Issue_43
 ==== Issue 44 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_44
+==== Issue 46 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_46
 ==== Issue 49 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_49
 
