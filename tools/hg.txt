@@ -327,6 +327,10 @@ If you have a long commit message, you can leave out the ''-m "Commit message"''
 
 At this point your changes will be available on the server to other users.
 
+
+:?: If you see a message similar to: "abort: authorization failed", then ?????
+
+
 === Merging Branches of Work: hg merge ===
 
 When you pull, if you have committed changes to your repository (but haven't pushed them yet), and others have pushed changes to the central repository, Mercurial automatically creates two branches to track the different lines of work. You'll know this happened if you see a message about "heads", like this:
