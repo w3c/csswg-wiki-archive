@@ -152,10 +152,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Status : 
 
   
-  
-  
-  
-  
 ==== Issue new: 69 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
@@ -167,95 +163,6 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
 
 ===== Issues Pending edits =====
 The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
-
-==== Issue 24 ====
-  ; Summary : Provide horizontal scrolling text-overflow example revealing more text that is elided 
-  ; Raised by : Tantek Çelik
-  ; URL : http://www.xanthir.com/etc/text-overflow.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2009Nov/0219.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0321.html
-  ; Resolution : Add horizontal scrolling text-overflow example akin to Tab's test case, note that it works in both Firefox and Opera (interop), but currently not in Webkit (Chrome, Safari). 
-  ; Note : blocked by ambiguity in the spec, tracked as Issue 59
-  ; Status : Resolved. Need to edit editor's draft.
-
-==== Issue 27 ====
-  ; Summary : specify that 'cursor' propagates from the root to the viewport
-  ; Raised by : Tab Atkins
-  ; URL : http://krijnhoetmer.nl/irc-logs/whatwg/20130523#l-684
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2013May/0301.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0300.html
-  ; Proposed Resolution : Edit definition of 'cursor' to state (similar to how 'background' does [[http://dev.w3.org/csswg/css-backgrounds/#special-backgrounds|in CSS3 Backgrounds]]) that it propagates from the root element to the viewport. Patch in: http://lists.w3.org/Archives/Public/www-style/2014Nov/0300.html
-  ; Status : Resolved. Need to edit editor's draft
-
-==== Issue 31 ====
-  ; Summary : add 'caret-color' property at risk to css3-ui
-  ; Raised by : Andrey Rybka (Bloomberg) <arybka@bloomberg.net>
-  ; URL : Resolved http://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html
-  ; URL : Initial proposal http://lists.w3.org/Archives/Public/www-style/2011Nov/0772.html
-  ; URL : 'auto' keyword computing to currentColor http://lists.w3.org/Archives/Public/www-style/2014Aug/0236.html
-  ; URL : Gecko intent https://bugzilla.mozilla.org/show_bug.cgi?id=1063162
-  ; URL : caret-* proposals http://lists.w3.org/Archives/Public/www-style/2014Sep/0172.html
-  ; Proposed Resolution : add 'caret-color' property with values color | 'auto', where 'auto' should compute to currentColor, mark entire feature at risk. Add 'caret' shorthand and other 'caret-*' properties to a feature proposal for CSS4-UI.
-  ; Status : Resolved. Need to edit editor's draft.
-  ; Resolved on : 2014-09-08
-
-==== Issue: 33 ====
-  ; Summary : In the description of the <target-name> parameter of the nav-* properties, the word string should be replaced by <string>
-  ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0708.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0442.html
-  ; Proposed Resolution : the word “string" should be replaced by "<string>”
-  ; Status : Edit pending
-
-==== Issue: 34 ====
-  ; Summary : The text-overflow property definition uses () for grouping, but we should use []
-  ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0808.html
-  ; Proposed Resolution : patch in http://lists.w3.org/Archives/Public/www-style/2014Nov/0440.html
-  ; Status : Edit pending
-
-
-==== Issue: 36 ====
-  ; Summary : "Content" properties for several input elements are locale specific
-  ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0808.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0444.html
-  ; Proposed Resolution : add a comment saying so in the UA stylesheet for input[type=reset] and input[type=submit]. Proposed phrasing: "UAs should specialize this for the languages they support, using the :lang() selector"
-  ; Status : Pending edit
-
-
-==== Issue: 41 ====
-  ; Summary : The 'inherit' value is globally defined for all properties, and the
-preferred style appears to be to omit it in property definitions.
-  ; Raised by : Tab Atkins
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0202.html
-  ; Proposed Resolution : patch in http://lists.w3.org/Archives/Public/www-style/2014Nov/0440.html
-  ; Status : Edit pending
-
-==== Issue: 42 ====
-  ; Summary : drop “inverted” from outline-color, webkit and gecko don’t do it
-  ; Raised by : Tab Atkins
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0202.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0493.html
-  ; Resolution : Keep outline:inverted. Support is optional. Clarify that non supporting browsers must reject the value at parsing stage. See patch here: http://lists.w3.org/Archives/Public/www-style/2014Dec/0165.html
-  ; Status : Resolved, edit pending.
-
-==== Issue: 43 ====
-  ; Summary : add note or author conformance requirement to not make outlines invisible on focusable elements, for accessibility reasons
-  ; Raised by : Michael Cooper <cooper@w3.org>
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/1213.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0494.html
-  ; Resolution : add author conformance requirement forbidding to make outlines invisible on focused elements unless an alternative highlight mechanism is provided: "As the outline on elements in the ‘:focus’ state is depended on by keyboard users for interaction with the page, authors must not make the outline invisible on such elements without making sure an alternative highlighting mechanism is provided."
-  ; Status : Resolved, edit pending
-
-==== Issue: 44 ====
-  ; Summary : use <image> instead <uri> in the cursor property, like http://www.w3.org/TR/css3-background/#value-types. Allows high res images with image-set, gradients…
-  ; Raised by : Fantasai (responding to Tab Atkins) and Rick Byers
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0202.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Jul/0140.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0496.html
-  ; Resolution : see patch in http://lists.w3.org/Archives/Public/www-style/2014Dec/0164.html
-  ; Status : Resolved, pending edit
 
 ==== Issue: 45 ====
   ; Summary : include an example highlighting the <target> part of the nav-* syntax. Suggestion: nav-up: #foo "bar"
@@ -299,14 +206,6 @@ preferred style appears to be to omit it in property definitions.
   ; Proposed Resolution : replace "when over the element’s border, padding, and content." with "when within the element's border-box".
   ; Status : pending edit
 
-
-==== Issue 59 ====
-  ; Summary : Spec is ambiguous as to what happens when the start end of the line overflows with a single value used on text-overflow
-  ; Raised by : Florian Rivoal
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0321.html (see point #2)
-  ; Proposed Resolution : resolve ambiguity to say that single value only causes ellipsis at the end line edge. patch in http://lists.w3.org/Archives/Public/www-style/2014Dec/0154.html
-  ; Note : blocks Issue 24
-  ; Status : pending edit
 
 ==== Issue 61 ====
   ; Summary : Cross reference should be updated to css3-background instead of css2.1
@@ -380,7 +279,8 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_21
 See https://www.w3.org/wiki/CSS3-UI#Issue_22
 ==== Issue 23 ====
 See https://www.w3.org/wiki/CSS3-UI#Issue_23
-
+==== Issue 24 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_24
 ==== Issue 25 ====
 See https://www.w3.org/wiki/CSS3-UI#Issue_25
 ==== Issue 26 ====
@@ -392,13 +292,30 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_29
 
 ==== Issue 30 ====
 See https://www.w3.org/wiki/CSS3-UI#Issue_30
+==== Issue 31 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_31
 ==== Issue 32 ====
 See https://www.w3.org/wiki/CSS3-UI#Issue_32
+==== Issue 33 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_33
+==== Issue 34 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_34
 ==== Issue 37 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_37
 
+==== Issue 41 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_41
+==== Issue 42 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_42
+==== Issue 43 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_43
+==== Issue 44 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_44
 ==== Issue 49 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_49
+
+==== Issue 59 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_59
 
 ==== Issue 62 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_62
