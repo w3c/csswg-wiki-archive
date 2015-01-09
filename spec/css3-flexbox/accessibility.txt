@@ -23,7 +23,7 @@ box 1, box 2, box 3
 box 1, box 2, box 3
 
 == Visual order (**changed**) ==
-box 1, box 2, box 3
+box 3, box 2, box 1
 
 == Tab and Accessibility Tree order (unchanged) ==
 box 1, box 2, box 3
