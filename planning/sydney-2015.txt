@@ -122,3 +122,4 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * upcoming meeting dates and locations
   * CSS 2.2 FPWD
   * Coordinated release of visible control characters.
+  * css-ruby: vertical aspects of ruby layout and line spacing rules (dbaron)
