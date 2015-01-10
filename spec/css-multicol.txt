@@ -14,8 +14,8 @@ The following are known problems in the [[http://www.w3.org/TR/2007/WD-css3-mult
 
 ==== Other Issues ====
 
-http://lists.w3.org/Archives/Public/www-style/2008Jun/0359.html
-http://lists.w3.org/Archives/Public/www-style/2007Dec/0045.html
-http://lists.w3.org/Archives/Public/www-style/2007Dec/0046.html
-http://lists.w3.org/Archives/Public/www-style/2007Dec/0047.html
-http://lists.w3.org/Archives/Public/www-style/2007Dec/0064.html
+  * http://lists.w3.org/Archives/Public/www-style/2008Jun/0359.html
+  * http://lists.w3.org/Archives/Public/www-style/2007Dec/0045.html
+  * http://lists.w3.org/Archives/Public/www-style/2007Dec/0046.html
+  * http://lists.w3.org/Archives/Public/www-style/2007Dec/0047.html
+  * http://lists.w3.org/Archives/Public/www-style/2007Dec/0064.html
