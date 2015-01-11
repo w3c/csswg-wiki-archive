@@ -71,7 +71,7 @@ This section outlines active possibilities for future specs or notes
    * [[spec:css-flexbox-2|CSS Flexbox Level 2]]
    * [[spec:css4-ui|CSS UI Level 4]]
    * [[spec:css-grid-2]]
-   * [[spec:css-ruby-2||CSS Ruby Level 2]]
+   * [[spec:css-ruby-2|CSS Ruby Level 2]]
 ===== out of date =====
 These specs are old / out of date and need active editors/owners to bring them up to date.
   * [[spec:css3-box|CSS Box Module Level 3]]
