@@ -125,3 +125,4 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * CSS 2.2 FPWD
   * Coordinated release of visible control characters.
   * css-ruby: vertical aspects of ruby layout and line spacing rules (dbaron)
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2015Jan/0016.html|2.1 errata and test updates to match charset changes in level 3]]
