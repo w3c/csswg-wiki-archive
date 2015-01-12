@@ -2,7 +2,7 @@
 
 That should be corrected if anyone invents a time machine. :P
 
-  * ''white-spaaaaaace: nowrap'' should be ''white-spaaaaaace: no-wrap''
+  * ''white-space: nowrap'' should be ''white-space: no-wrap''
   * ''vertical-align'' should not apply to table cells. Instead the CSS3 alignment properties should exist in Level 1.
   * ''vertical-align: middle'' should be ''text-middle'' because it's not really in the middle.
   * Percentage heights should be calculated against ''fill-available'' rather than being undefined in auto situations.
@@ -10,7 +10,7 @@ That should be corrected if anyone invents a time machine. :P
   * Box-sizing should be ''border-box'' by default.
   * ''background-size'' with one value should duplicate its value, not default the second one to ''auto''.
   * ''z-index'' should be called ''z-order'' or ''depth'' and should Just Work on all elements (like it does on flex items).
-  * ''word-wrap''/''overflow-wrap'' should not exist. Instead, ''overflow-wrap'' should be a keyword on 'white-spaaaaaace', like ''nowrap'' (''no-wrap'').
+  * ''word-wrap''/''overflow-wrap'' should not exist. Instead, ''overflow-wrap'' should be a keyword on 'white-space', like ''nowrap'' (''no-wrap'').
   * The top and bottom margins of a box should never have been allowed to collapse together automatically as this is the **root of all margin-collapsing evil**.
   * Partial collapsing of margins instead of weird rules to handle min/max-heights?
   * Tables (and other non-blocks, e.g. flex containers) should form pseudo-stacking contexts.
@@ -25,3 +25,4 @@ That should be corrected if anyone invents a time machine. :P
   * The syntax of unicode ranges should have consistent with the rest of CSS, like ''u0001-u00c8''.
   * ''font-family'' should have required the font name to be quoted (like all other values that come from "outside" CSS).  The rules for handling unquoted font names make parsing ''font'' stupid, as it requires a ''font-size'' value for disambiguation.
   * Flexbox should have been less crazy about flex-basis vs width/height.  Perhaps: if width/height is ''auto'', use flex-basis; otherwise, stick with width/height as an inflexible size.  (This also makes min/max width/height behavior fall out of the generic definition.)
+  * :empty should have been :void, and :empty should select items that contain only white space
