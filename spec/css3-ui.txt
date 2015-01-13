@@ -160,7 +160,14 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Status : 
 
 
-==== Issue new: 70 ====
+==== Issue 70 ====
+  ; Summary : CSS3-UI defines the 'default object size' for cursors, but not the 'concrete object size'
+  ; Raised by : Tab Atkins
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2015Jan/0163.html
+  ; Proposed Resolution : http://lists.w3.org/Archives/Public/www-style/2015Jan/0224.html
+  ; Status : 
+
+==== Issue new: 71 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
   ; URL : 
