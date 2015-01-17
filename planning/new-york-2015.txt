@@ -56,11 +56,13 @@ Search near 731 Lexington Ave, New York, NY
 
 http://www.thehotelnexus.com/hotels-near-building/Bloomberg%20Tower/nyc015
 
-Some decent sites to book hotels (address & dates pre-filled, sorted by distance):
+Some decent sites to book hotels (address & dates pre-filled for some which support query strings, sorted by distance):
 
-[[http://www.hotels.com/search.do?resolved-location=GEO_LOCATION%3A731%20Lexington%20Avenue,%20New%20York%2C%20NY%2010022%2C%20USA%7C40.76193618774414%7C-73.96810150146484%3AGEOCODE%3AUNKNOWN&q-destination=731%20Lexington%20Avenue,%20New%20York%2C%20NY%2010022%2C%20USA&q-localised-check-in=05%2F17%2F15&q-localised-check-out=05%2F21%2F15&q-rooms=1&q-room-0-adults=1&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK|hotels.com]]
+  * [[http://www.hotels.com/search.do?resolved-location=GEO_LOCATION%3A731%20Lexington%20Avenue,%20New%20York%2C%20NY%2010022%2C%20USA%7C40.76193618774414%7C-73.96810150146484%3AGEOCODE%3AUNKNOWN&q-destination=731%20Lexington%20Avenue,%20New%20York%2C%20NY%2010022%2C%20USA&q-localised-check-in=05%2F17%2F15&q-localised-check-out=05%2F21%2F15&q-rooms=1&q-room-0-adults=1&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK|hotels.com]]
 
+* http://www.hotwire.com
 
+* 
 
 
 Anyone organizing an airbnb?
