@@ -73,8 +73,9 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Raised by : François Remy
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Dec/0221.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0063.html
-  ; Proposed Resolution : allow behavior currently implemented by browsers and the one currently in the spec, amended to talk about a resize function instead of a resize factor
-  ; Status : Resolved, but objections have been raised (see http://lists.w3.org/Archives/Public/www-style/2014Dec/0177.html
+  ; Resolution : allow behavior currently implemented by browsers and the one currently in the spec, amended to talk about a resize function instead of a resize factor
+  ; Status : Resolved, but objections have been raised (see http://lists.w3.org/Archives/Public/www-style/2014Dec/0177.html) 
+  ; Proposed new Resolution: spec the interoperable behavior
 
 ==== Issue 48 ====
   ; Summary : description of cursor: auto insufficient and not interoperable
