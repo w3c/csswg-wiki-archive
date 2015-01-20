@@ -111,7 +111,7 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Raised by : Lea Verou
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Jul/0477.html
   ; Proposed Resolution : 
-  ; Status : 
+  ; Status : Blocked on [[#Issue 47]]
 
 ==== Issue 53 ====
   ; Summary : resize factor behaviour is weird when width / height are later dynamically modified
