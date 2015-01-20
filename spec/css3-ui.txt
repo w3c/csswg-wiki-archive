@@ -82,8 +82,8 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Raised by : David Baron
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013Jan/0275.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0531.html
-  ; Proposed Resolution : 
-  ; Status : 
+  ; Proposed Resolution : restrict the auto value to handling things that cannot be described by the UA stylesheet. Detailed proposal to be made.
+  ; Status : Pending proposal
 
 
 
