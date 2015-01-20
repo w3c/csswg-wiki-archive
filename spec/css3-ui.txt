@@ -158,8 +158,9 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; Summary : box-sizing insufficiently specified for replaced elements
   ; Raised by : Boris Zbarsky
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0232.html
-  ; Proposed Resolution : 
-  ; Status : 
+  ; Proposed Resolution : Make adjustments to http://www.w3.org/TR/CSS21/visudet.html#Computing_widths_and_margins and
+http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on mail above
+  ; Status : Pending group feedback
 
 
 ==== Issue 70 ====
