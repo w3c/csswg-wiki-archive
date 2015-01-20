@@ -2,7 +2,7 @@
 
 This page is a research page to discuss pros and cons of UA's changing the tab order and screen reader flow (through the a11y API) to match the new visual layout when flexbox order rearranges elements on a page.
 
-===== Example of How Flexbox causes problems for Tabbing and Assistive Technology (AT) =====
+===== Trivial Example of How Flexbox causes problems for Tabbing and Assistive Technology (AT) =====
 ==== 1.) Author creates nested containers (boxes) in html ====
 
 
