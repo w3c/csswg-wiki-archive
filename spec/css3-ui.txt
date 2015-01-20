@@ -168,7 +168,7 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
   ; Raised by : Tab Atkins
   ; URL : http://lists.w3.org/Archives/Public/www-style/2015Jan/0163.html
   ; Proposed Resolution : Add the following sentence: "The <a>concrete object size</a> is determined using the <a>default sizing algorithm</a>. If an operating system is <strong>incapable</strong> of rendering a cursor above a given size, cursors larger than that size must be shrunk to within the OS-supported size bounds, while maintaining the cursor image's intrinsic ratio, if any."
-  ; Status : 
+  ; Status : Pending group approval
 
 ==== Issue new: 71 ====
   ; Summary : 
