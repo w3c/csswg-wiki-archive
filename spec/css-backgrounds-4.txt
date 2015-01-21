@@ -12,3 +12,10 @@ Notes on issues that ultimately need a more formal description:
 == border-radius ==
   * Logical properties (e.g. ''border-start-end-radius'')
   * Side shorthands (e.g. ''border-top-radius'', ''border-right-radius'' etc)
+
+== corner-shape ==
+  * Custom corner shapes? How?
+  * corners shorthand for corner-shape & border-radius, to avoid clumsy fallback
+
+== border-clip ==
+  * Current syntax is confusing. Need to make a list of use cases we need to address and come up with a better syntax.
