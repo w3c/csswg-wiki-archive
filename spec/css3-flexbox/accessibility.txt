@@ -55,6 +55,8 @@ Example 1: Data coming in from the database can easily be arranged on a page wit
 Example 2: Data is rearranged on an page so that the number of messages a person has comes after his name rather than before. This is easily done by the designer.
 
 
+http://www.w3.org/TR/css3-flexbox/images/flex-order-page.svg
+
 
 ===== Solution =====
 
