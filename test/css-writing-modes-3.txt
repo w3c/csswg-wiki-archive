@@ -6,9 +6,7 @@
 
 [[http://www.w3.org/TR/css-writing-modes-3/#text-flow|§1 Introduction to Writing Modes]]
 
-[[http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1|0 test done]] 
-
-0 test to be done. 
+[[http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1|0/0 tests done.]] 
 
 This section is just a general introduction to writing modes.
 
@@ -16,19 +14,19 @@ This section is just a general introduction to writing modes.
 
 [[http://www.w3.org/TR/css-writing-modes-3/#placement|§1.1 Module Interactions]]
 
-[[http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1.1|0 test done]] 
-
-0 test to be done.
+[[http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1.1|0/0 tests done.]] 
 
 ==== §1.2 Values ====
 
 [[http://www.w3.org/TR/css-writing-modes-3/#values|§1.2 Values]]
 
-[[http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1.2|0 test done]] 
+[[http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1.2|0/0 tests done.]] 
 
-0 test to be done. Albeit...
+Albeit...
 
 **"all properties defined in this specification also accept the inherit keyword as their property value"**
+
+requires appropriate tests for each property.
 
 ===== §2 Inline Direction and Bidirectionality =====
 
@@ -36,13 +34,11 @@ This section is just a general introduction to writing modes.
 
 [[http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2|96 tests done]]
 
-2 tests to be done.
-
 "
 In CSS, the paragraph embedding level must be set (following UAX9 clause HL1) according to the direction property of the paragraph’s containing block rather than by the heuristic given in steps P2 and P3 of the Unicode algorithm. There is, however, one exception: when the computed unicode-bidi of the paragraph’s containing block is plaintext, the Unicode heuristics in P2 and P3 are used as described in [UAX9], without the HL1 override. 
 "
 
-//I have no idea what the above means or could mean in terms of testing but I think only 2 tests could be done out of such paragraph. GT//
+  * Need to import CSS2.1 tests and Mozilla tests for UAX9 compliance and evaluate coverage.
 
 ==== §2.1 Specifying Directionality: the direction property ====
 
@@ -76,14 +72,19 @@ This property specifies the inline base direction or directionality of any bidi 
 
 [[http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.2|0 test done]] 
 
-x test to be done.
+Tests to be done:
+
+  * cross-link unicode-bidi tests linked to §2
+  * 1 test: block-plaintext-004 variation with block-in-inline split paragraphs
+  * 2 tests: block-plaintext-006 variation with white-space: pre and white-space: pre-lines
 
 non-'normal' unicode-bidi values will cause inline boxes to create scope which will override the intrinsic directionality of text
 
   - a bidi parg with an unicode-bidi: normal inline box: the inline box is transparent to the unicode bidi algorithm; content is ordered as if the box’s boundaries were not there. //Weird: wasn't this already stated in 2.1? Compare: 2.1 statement: "The direction property has no effect on bidi reordering when specified on inline boxes whose unicode-bidi property’s value is normal, because the box does not open an additional level of embedding with respect to the bidirectional algorithm." 2.2 statement: "when unicode-bidi is normal) an inline box is transparent to the unicode bidi algorithm; content is ordered as if the box’s boundaries were not there."//
+     * Requires a test, e.g. with string of neutrals between two strong characters, element boundary in the middle 
   - a bidi parg with an unicode-bidi: {embed | isolate | bidi-override | isolate-override | plaintext | inherit} inline box: //6 tests to do//
   - Because the unicode-bidi property does not inherit, setting bidi-override or plaintext on a block box will not affect any descendant blocks. Therefore these values are best used on blocks and inlines that do not contain any block-level structures. 
-  
+      * This is tested above.
 Notes: 
 
 LRE (U+202A) LEFT-TO-RIGHT EMBEDDING
