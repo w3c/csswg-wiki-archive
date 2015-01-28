@@ -27,26 +27,6 @@ This issues page is key to the work mode of CSS3-UI. Here are next steps in roug
 
 The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3-ui-20040511/|11 May 2004 CSS3-UI Candidate Recommendation]].
 
-==== Issue 39 ====
-  ; Summary : Various issues with ime-mode
-  ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu>
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0759.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0072.html
-  ; Proposed Resolution : 
-  ; Status : blocked by [[#Issue 40]]
-
-
-==== Issue 40 ====
-  ; Summary : ime-mode is windows specific and bad design, and should not be standardized. (has replacement suggestion)
-  ; Raised by : Masayuki Nakano <masayuki@d-toybox.com> and James Craig <jcraig@apple.com> 
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0959.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2013May/0075.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0072.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0090.html
-  ; Florian's Proposed resolution : drop ime-mode. It is not fully interoperable, and cannot become so cross platform. 
-  ; Proposed Resolution : Document 'ime-mode' as officially obsoleted (that's a specific W3C term). Note the existence of implementations of a property with the name 'ime-mode', which may have some interop with some values on some platforms, but there are no tests to verify this, however there is documentation claiming non-interop ( https://developer.mozilla.org/en-US/docs/Web/CSS/ime-mode details of values, platforms, password field handling). Implementations MUST NOT add support for it. Implementations SHOULD drop support for it ASAP. Authors MUST NOT use it (it invalidates a style sheet). Users MAY use it only for "repair" use-cases where they have to work around bad sites and legacy implementations, e.g. with a user style sheet rule like: input[type=password] { ime-mode: auto !important; } . This specification deliberately does not attempt to document how legacy implementations work or what they support because it does not make sense to recommend any such path, nor to provide any legitimacy to those legacy implementations.
-  ; Status : Pending group decision
-
 
 ==== Issue 47 ====
   ; Summary : The specced 'resize' proprety's behavior is *completely* different from the behavior implemented in browsers supporting the property
@@ -171,6 +151,17 @@ The following issues need an edit to be applied to the spec. Most of them have a
   ; Proposed Resolution : "UAs may ignore negative values. UAs that support negative values must cause the outline to shrink into the border box. Neither the height nor the width of the shape drawn by the outline may become smaller than twice the computed value of the outline-width property, to make sure that an outline can be rendered even with large negative values. User Agents must apply this constraint independently in each dimension. If the outline is drawn as multiple disconnected shapes, this constraint applies to each shape separately. Negative values are an at risk feature." Justifications and variations in the mail linked to above, as well as tests showing existing non-interop.
   ; Status : Pending edits and group review of proposed resolution.
 
+==== Issue 40 ====
+  ; Summary : ime-mode is windows specific and bad design, and should not be standardized. (has replacement suggestion)
+  ; Raised by : Masayuki Nakano <masayuki@d-toybox.com> and James Craig <jcraig@apple.com> 
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0959.html Gecko ime-mode implementer saying should not be standardized
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2013May/0075.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0072.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0090.html
+  ; Florian's Proposed resolution : drop ime-mode. It is not fully interoperable, and cannot become so cross platform. 
+  ; Proposed Resolution : Document 'ime-mode' as officially obsoleted (that's a specific W3C term). Note the existence of implementations of a property with the name 'ime-mode', which may have some interop with some values on some platforms, but there are no tests to verify this, however there is documentation claiming non-interop ( https://developer.mozilla.org/en-US/docs/Web/CSS/ime-mode details of values, platforms, password field handling). Implementations MUST NOT add support for it. Implementations SHOULD drop support for it ASAP. Authors MUST NOT use it (it invalidates a style sheet). Users MAY use it only for "repair" use-cases where they have to work around bad sites and legacy implementations, e.g. with a user style sheet rule like: input[type=password] { ime-mode: auto !important; } . This specification deliberately does not attempt to document how legacy implementations work or what they support because it does not make sense to recommend any such path, nor to provide any legitimacy to those legacy implementations.
+  ; Status : Proposed resolution pending edits. Pending group review.
+
 ===== Issues Pending dependent edits =====
 Issues that are resolved, and require no specific edits, but are depending on edits for another issue to be completed.
 
@@ -180,7 +171,15 @@ Issues that are resolved, and require no specific edits, but are depending on ed
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0808.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0072.html
   ; Proposed Resolution : ime-mode is being tombstoned (or possibly dropped) thus text in descriptions about "web applications" will be dropped.
-  ; Status : Resolved. Dependent on edits to 40.
+  ; Status : Resolved. Dependent on edits of [[#Issue 40]].
+
+==== Issue 39 ====
+  ; Summary : Various issues with ime-mode
+  ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu>
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0759.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0072.html
+  ; Proposed Resolution : Since we're tombstoning (or dropping) ime-mode, none of these issues apply any more. No edits to make.
+  ; Status : Resolved. Dependent on edits of [[#Issue 40]].
 
 
 ====== FAQ ======
