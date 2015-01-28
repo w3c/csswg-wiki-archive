@@ -27,17 +27,6 @@ This issues page is key to the work mode of CSS3-UI. Here are next steps in roug
 
 The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3-ui-20040511/|11 May 2004 CSS3-UI Candidate Recommendation]].
 
-==== Issue 38 ====
-  ; Summary : what to do if outline-offset is negative, especially to the point that the offset is more than half the element size or similar values that make it impossible to draw?
-  ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0601.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0449.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0033.html
-  ; Proposed Resolution : "UAs may ignore negative values. UAs that support negative values must cause the outline to shrink into the border box. Neither the height nor the width of the shape drawn by the outline may become smaller than twice the computed value of the outline-width property, to make sure that an outline can be rendered even with large negative values. User Agents must apply this constraint independently in each dimension. If the outline is drawn as multiple disconnected shapes, this constraint applies to each shape separately. Negative values are an at risk feature." Justifications and variations in the mail linked to above, as well as tests showing existing non-interop.
-  ; Status : Pending edits and group review of proposed resolution.
-
-
-
 ==== Issue 39 ====
   ; Summary : Various issues with ime-mode
   ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu>
@@ -172,6 +161,15 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
 
 ===== Issues Pending edits =====
 The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
+
+==== Issue 38 ====
+  ; Summary : what to do if outline-offset is negative, especially to the point that the offset is more than half the element size or similar values that make it impossible to draw?
+  ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0601.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0449.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0033.html
+  ; Proposed Resolution : "UAs may ignore negative values. UAs that support negative values must cause the outline to shrink into the border box. Neither the height nor the width of the shape drawn by the outline may become smaller than twice the computed value of the outline-width property, to make sure that an outline can be rendered even with large negative values. User Agents must apply this constraint independently in each dimension. If the outline is drawn as multiple disconnected shapes, this constraint applies to each shape separately. Negative values are an at risk feature." Justifications and variations in the mail linked to above, as well as tests showing existing non-interop.
+  ; Status : Pending edits and group review of proposed resolution.
 
 ===== Issues Pending dependent edits =====
 Issues that are resolved, and require no specific edits, but are depending on edits for another issue to be completed.
