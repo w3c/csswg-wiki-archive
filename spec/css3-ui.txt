@@ -33,8 +33,8 @@ The following are known problems in/with the [[http://www.w3.org/TR/2004/CR-css3
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0601.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0449.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0033.html
-  ; Proposed Resolution : "Specifying a negative values is allowed, and causes the outline to shrink into the border box. However, in order to make sure that the outline is always visible even with large negative values, neither the height nor the width of the shape drawn by the outline may become smaller than twice the computed value of the outline-width property. User Agents must apply this constraint separately in each dimension. If the outline is drawn as several shapes not connected with each other, this constraint applies to each shape separately." Justifications and variations in the mail linked to above
-  ; Status : Pending group discussion on proposition
+  ; Proposed Resolution : "UAs may ignore negative values. UAs that support negative values must cause the outline to shrink into the border box. Neither the height nor the width of the shape drawn by the outline may become smaller than twice the computed value of the outline-width property, to make sure that an outline can be rendered even with large negative values. User Agents must apply this constraint independently in each dimension. If the outline is drawn as multiple disconnected shapes, this constraint applies to each shape separately. Negative values are an at risk feature." Justifications and variations in the mail linked to above, as well as tests showing existing non-interop.
+  ; Status : Pending edits and group review of proposed resolution.
 
 
 
