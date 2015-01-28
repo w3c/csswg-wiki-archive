@@ -141,4 +141,4 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
     * The myth of the hanging baseline
   * Tab order on display tree switch
   * Canceling and interrupting transitions (https://lists.w3.org/Archives/Public/www-style/2014Dec/0150.html)
-  * taking css-transitions to LCCR
+  * taking css-transitions to LCCR (dbaron)
