@@ -27,7 +27,7 @@ This issues page is key to the work mode of CSS3-UI. Here are next steps in roug
 The following are open issues in/with the [[http://www.w3.org/TR/2004/CR-css3-ui-20040511/|11 May 2004 CSS3-UI Candidate Recommendation]].
 
 ==== Issue 47 ====
-  ; Summary : The specced 'resize' proprety's behavior is *completely* different from the behavior implemented in browsers supporting the property
+  ; Summary : The specced 'resize' property's behavior is *completely* different from the behavior implemented in browsers supporting the property
   ; Raised by : François Remy
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Dec/0221.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0063.html
