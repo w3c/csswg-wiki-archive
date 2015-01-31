@@ -55,6 +55,9 @@ Create a file in your home directory called ''.hgrc'', or ''%USERPROFILE%\mercur
   rebase = 
   mq = 
   graphlog = 
+  progress =
+  bookmarks =
+  color =
   
   [auth]
   # CSSWG Test & Draft Repositories
