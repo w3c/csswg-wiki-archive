@@ -35,25 +35,13 @@ The following are open issues in/with the [[http://www.w3.org/TR/2004/CR-css3-ui
   ; Proposed new Resolution : Note outstanding objection to "resize function" wording inline in the spec, link directly to email http://lists.w3.org/Archives/Public/www-style/2014Dec/0177.html
   ; Status : Resolved and editor's draft updated noting objections have been raised (see http://lists.w3.org/Archives/Public/www-style/2014Dec/0177.html). Leave issue open pending discussion regarding the objection with the working group.
 
-==== Issue new: 71 ====
-  ; Summary : 
-  ; Raised by : Tantek Çelik
-  ; URL : 
-  ; Proposed Resolution : 
-  ; Status : 
-
-===== Rejected Issues =====
-
-===== Issues Pending edits =====
-The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
-
 ==== Issue 48 ====
   ; Summary : description of cursor: auto insufficient and not interoperable
   ; Raised by : David Baron
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013Jan/0275.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0531.html
   ; Proposed Resolution : Note this issue in spec explicitly with general plan to "restrict the auto value to handling things that cannot be described by the UA stylesheet. Detailed proposal to be made."
-  ; Status : Pending edit to capture issue. Then pending proposal.
+  ; Status : Issue noted inline in spec. Pending detailed proposal.
 
 ==== Issue 50 ====
   ; Summary : add user-select back to css3-ui, it has 3 implementations
@@ -62,7 +50,7 @@ The following issues need an edit to be applied to the spec. Most of them have a
   ; URL : http://lists.w3.org/Archives/Public/www-style/2012Jul/0541.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0536.html
   ; Proposed Resolution : Defer to level 4, there's too much interop to figure out. Edit spec status section (near at risk features) noting this as an outstanding issue - user-select is at risk of being added back.
-  ; Status : Pending edit to add issue reference in spec. Pending group approval of proposition.
+  ; Status : Issue noted inline in spec. Pending group approval of postponement proposal.
 
 ==== Issue 51 ====
   ; Summary : applying transforms to the outline is weird, especially in 3d
@@ -70,43 +58,21 @@ The following issues need an edit to be applied to the spec. Most of them have a
   ; URL : http://lists.w3.org/Archives/Public/www-style/2013Aug/0423.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0134.html
   ; Proposed Resolution : Leave undefined for level 3
-  ; Status : Edit outline section to note outstanding issue with proposal to leave undefined.
+  ; Status : Issue noted inline in spec. Pending group discussion.
 
 ==== Issue 52 ====
   ; Summary : behaviour of resize on pseudos buggy and ambiguously defined
   ; Raised by : Lea Verou
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Jul/0477.html
   ; Proposed Resolution : Document in spec inline as known issue that browsers have bugs with resize
-  ; Status : Pending spec edit.
-
-==== Issue 53 ====
-  ; Summary : resize factor behaviour is weird when width / height are later dynamically modified
-  ; Raised by : Lea Verou
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Jul/0517.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0063.html
-  ; Proposed Resolution : Add proposed text from 0063.html, "allows the user to resize the element with no other constraints than what is imposed by min-width and max-width" - note at risk since FF only, link to 0063.html email with analysis.
-  ; Status : Pending spec edit.
-
-==== Issue 54 ====
-  ; Summary : Can text-overflow ellipsis not break in the middle of a word?
-  ; Raised by : Stuart Langridge
-  ; URL : https://twitter.com/sil/status/537627213789949952
-  ; Proposed Resolution : Consider allowing implementation flexibility to ellipse at a text wrap opportunity instead of at a character boundary, and ask for further clarification (should this be automatic per implementation? or under author control). Add to spec "Implementations may ellipse at a text wrap opportunity instead of a character boundary."
-  ; Status : Pending spec edit.
+  ; Status : Issue noted inline in spec. Pending group discussion.
 
 ==== Issue 55 ====
   ; Summary : Outline has a very loose definition, and significant interop problems. Should we tighten it up?
   ; Raised by : Florian Rivoal
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0134.html
   ; Proposed Resolution : Leave undefined in level 3, try to converge somewhat in level 4
-  ; Status : Edit spec outline section noting explicit issue. Then Pending group feedback
-
-==== Issue 60 ====
-  ; Summary : Information about when the resize factor gets reset is not sufficiently specific 
-  ; Raised by : Boris Zbarsky
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2004May/0222.html
-  ; Proposed Resolution : Trivial explicit use of computed value to disambiguate.
-  ; Status : Pending spec edit.
+  ; Status : Issue noted inline in spec. Pending group discussion.
 
 ==== Issue 68 ====
   ; Summary : apply text-overflow even when overflow is visible?
@@ -114,7 +80,7 @@ The following issues need an edit to be applied to the spec. Most of them have a
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0425.html
   ; URL : http://lists.w3.org/Archives/Public/www-style/2015Jan/0048.html
   ; Proposed Resolution : Note as open issue, with possible resolutions of: Apply text-overflow regardless of overflow, or consider reverting https://www.w3.org/wiki/CSS3-UI#Issue_32
-  ; Status : Pending spec edit. Then pending feedback.
+  ; Status : Issue noted inline in spec. Pending group discussion.
 
 ==== Issue 69 ====
   ; Summary : box-sizing insufficiently specified for replaced elements
@@ -122,34 +88,28 @@ The following issues need an edit to be applied to the spec. Most of them have a
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0232.html
   ; Proposed Resolution : Note open issue inline in spec, with proposal: Make adjustments to http://www.w3.org/TR/CSS21/visudet.html#Computing_widths_and_margins and
 http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on mail above
-  ; Status : Pending spec edit. Then pending proposed text to patch CSS2.1 algorithms.
+  ; Status : Issue noted inline in spec. Pending group discussion and proposed text to patch CSS2.1 algorithms.
 
-==== Issue 70 ====
-  ; Summary : CSS3-UI defines the 'default object size' for cursors, but not the 'concrete object size'
-  ; Raised by : Tab Atkins
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2015Jan/0163.html
-  ; Proposed Resolution : Add the following sentence: "The <a>concrete object size</a> is determined using the <a>default sizing algorithm</a>. If an operating system is <strong>incapable</strong> of rendering a cursor above a given size, cursors larger than that size must be shrunk to within the OS-supported size bounds, while maintaining the cursor image's intrinsic ratio, if any."
-  ; Status : Pending spec edit.
+
+==== Issue new: 71 ====
+  ; Summary : 
+  ; Raised by : Tantek Çelik
+  ; URL : 
+  ; Proposed Resolution : 
+  ; Status : 
+
+===== Rejected Issues =====
+* None currently.
+
+===== Issues Pending edits =====
+The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
+
+* None currently.
 
 ===== Issues Pending dependent edits =====
 Issues that are resolved, and require no specific edits, but are depending on edits for another issue to be completed.
 
-==== Issue 35 ====
-  ; Summary : Editorial: distinguishing public web sites from web applications is non obvious
-  ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu> 
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0808.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0072.html
-  ; Proposed Resolution : ime-mode is being tombstoned (or possibly dropped) thus text in descriptions about "web applications" will be dropped.
-  ; Status : Resolved. Dependent on edits of [[#Issue 40]].
-
-==== Issue 39 ====
-  ; Summary : Various issues with ime-mode
-  ; Raised by : Kang-Hao (Kenny) Lu <kennyluck@csail.mit.edu>
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Feb/0759.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0072.html
-  ; Proposed Resolution : Since we're tombstoning (or dropping) ime-mode, none of these issues apply any more. No edits to make.
-  ; Status : Resolved. Dependent on edits of [[#Issue 40]].
-
+* None currently.
 
 ====== FAQ ======
 * Consider moving to https://www.w3.org/wiki/CSS3-UI/FAQ
@@ -164,7 +124,6 @@ A: The current editor's draft allows implementations to use something other than
 from http://dev.w3.org/csswg/css3-ui/#text-overflow
 
 ===== text-overflow atomic inlines that would overlap the ellipsis =====
-
 Q: What should an implementation do when an atomic inline element would overlap the ellipsis marker?
 
 A: Remove it (the atomic inline element(s)) to make room for the ellipsis marker per the CSS3-UI spec (and Opera and IE9 appear to do this already).
@@ -218,10 +177,14 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_32
 See https://www.w3.org/wiki/CSS3-UI#Issue_33
 ==== Issue 34 ====
 See https://www.w3.org/wiki/CSS3-UI#Issue_34
+==== Issue 35 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_35
 ==== Issue 37 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_37
 ==== Issue 38 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_38
+==== Issue 39 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_39
 
 ==== Issue 40 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_40
@@ -238,6 +201,10 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_46
 ==== Issue 49 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_49
 
+==== Issue 53 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_53
+==== Issue 54 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_54
 ==== Issue 56 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_56
 ==== Issue 57 ===
@@ -247,6 +214,8 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_58
 ==== Issue 59 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_59
 
+==== Issue 60 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_60
 ==== Issue 61 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_61
 ==== Issue 62 ===
@@ -260,3 +229,5 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_65
 ==== Issue 66 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_65
 
+==== Issue 70 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_70
