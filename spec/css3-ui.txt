@@ -116,7 +116,15 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
   ; Proposed Resolution : Remove "UAs may ignore negative values. UAs that support " and mentions of "at risk". To deal with the risk of non implementation of the interoperable behavior in the CR time frame, replace "Neither the height nor the width [...] may be" by "Neither the height nor the width [...] should be", or do an similar rephrasing making this behavior optional (but not negative values altogether).
   ; Status : pending edit.
 
-==== Issue new: 74 ====
+==== Issue 74 ====
+  ; Summary : The phrasing of what happens with large negative values in the outline-offset property is unclear, and makes it sound like we should keep a blank space of outline-width * 2 inside the outline at minimum.
+  ; Raised by : Fantasai
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Jan/0581.html
+  ; Proposed Resolution : Clarify that outline-width * 2 is the outside dimension of the shape
+  ; Status : Pending edit
+
+
+==== Issue new: 75 ====
   ; Summary :
   ; Raised by : Tantek Çelik
   ; URL : 
