@@ -104,7 +104,7 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
 
 ==== Issue 72 ====
   ; Summary : All browsers should be treated equally with regards to obsoleting the 'ime-mode' property, instead of saying "must not add support" for those that don't have it but "should drop support" for those that do.
-  ; Raised by : Rossen
+  ; Raised by : Rossen Atanassov
   ; URL : http://www.w3.org/mid/CADhPm3uJkugzOcz-vaKXkFMGik=R2AXwxLmXaFtUj3E_HRnsyA@mail.gmail.com
   ; Proposed Resolution : Replace "Implementations must not add support for the ime-mode property. Implementations should drop support for it as soon as possible." with "User Agents should not support the ime-mode property".
   ; Status : Pending edit
