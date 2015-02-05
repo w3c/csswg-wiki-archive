@@ -141,7 +141,7 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
 ==== Issue 76 ====
   ; Summary : the change introduced to address [[#Issue 54]] causes problems with bidi, scrolling, and is not necessarily an improvement anyway
   ; Raised by : Florian Rivoal
-  ; URL : 
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0007.html
   ; Proposed Resolution : revert the change. If not, at least clarify the bidi situation.
   ; Status : pending group discussion
 
