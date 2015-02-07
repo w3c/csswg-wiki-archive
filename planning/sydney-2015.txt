@@ -161,7 +161,7 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
     * http://www.w3.org/2014/10/29-rounddisplay-minutes.html
     * http://www.w3.org/wiki/images/8/84/141029_W3C_TPAC_Breakout_Session_Round_Display.pdf
   * CSS Text (Koji would like to call in)
-    * break opportunities around replaced elements ([[https://lists.w3.org/Archives/Public/www-style/2015Jan/0518.html|www-style]] or [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JanMar/0080.html|w3c-css-wg]])
+    * break opportunities around replaced elements ([[spec:css3-text:line-break-around-replaced-elements|summary on the wiki]])
   * CSS Writing Modes (Koji would like to call in)
     * text-orientation: sideways and sideways-left ([[spec:css3-writing-modes:sideways-left|summary on the wiki]])
     * Propagation from body (was this resolved? [[https://lists.w3.org/Archives/Public/www-style/2015Jan/0272.html|www-style thread]])
