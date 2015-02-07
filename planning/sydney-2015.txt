@@ -167,3 +167,4 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
     * Propagation from body (was this resolved? [[https://lists.w3.org/Archives/Public/www-style/2015Jan/0272.html|www-style thread]])
   * W3C new publication system Echidna (public beta Mon 8 Feb)
   * margin collapsing question (dbaron)
+  * :for() selector (Florian) : https://lists.w3.org/Archives/Public/www-style/2014Dec/0064.html
