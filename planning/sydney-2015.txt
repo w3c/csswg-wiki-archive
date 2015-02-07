@@ -163,3 +163,4 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * CSS Text break opportunities around replaced elements ([[https://lists.w3.org/Archives/Public/www-style/2015Jan/0518.html|www-style]] or [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JanMar/0080.html|w3c-css-wg]], koji can call in)
   * CSS Writing Modes sideways ([[https://lists.w3.org/Archives/Public/www-style/2015Jan/0130.html|www-style]], koji can call in)
   * W3C new publication system Echidna (public beta Mon 8 Feb)
+  * margin collapsing question (dbaron)
