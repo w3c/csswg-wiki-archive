@@ -139,7 +139,6 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
   * upcoming meeting dates and locations
   * CSS 2.2 FPWD
-  * Coordinated release of visible control characters.
   * css-sizing: interaction of floats and percentage-sized stuff and shrink-to-fit sizing; preferred width vs. max-content width
   * css-ruby: vertical aspects of ruby layout and line spacing rules (dbaron)
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2015Jan/0016.html|2.1 errata and test updates to match charset changes in level 3]] (dbaron)
@@ -170,6 +169,7 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
     * http://www.w3.org/2014/10/29-rounddisplay-minutes.html
     * http://www.w3.org/wiki/images/8/84/141029_W3C_TPAC_Breakout_Session_Round_Display.pdf
   * CSS Text (Koji would like to call in)
+    * Coordinated release of visible control characters.
     * break opportunities around replaced elements ([[spec:css3-text:line-break-around-replaced-elements|summary on the wiki]])
   * CSS Writing Modes (Koji would like to call in)
     * text-orientation: sideways and sideways-left ([[spec:css3-writing-modes:sideways-left|summary on the wiki]])
