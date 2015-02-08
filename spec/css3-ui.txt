@@ -44,15 +44,6 @@ The following are open issues in/with the [[http://www.w3.org/TR/2004/CR-css3-ui
   ; Proposed Resolution : Note this issue in spec explicitly with general plan to "restrict the auto value to handling things that cannot be described by the UA stylesheet. Detailed proposal here, with analysis at the beginning, and proposed text at the bottom of the mail: https://lists.w3.org/Archives/Public/www-style/2015Feb/0039.html
   ; Status : Issue noted inline in spec. Pending group discussion of the proposal.
 
-==== Issue 50 ====
-  ; Summary : add user-select back to css3-ui, it has 3 implementations
-  ; Raised by : Tab Atkins and Edward O'Connor
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Apr/0537.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Jul/0541.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0536.html
-  ; Proposed Resolution : Defer to level 4, there's too much interop to figure out. Edit spec status section (near at risk features) noting this as an outstanding issue - user-select is at risk of being added back.
-  ; Status : Issue noted inline in spec. Pending group approval of postponement proposal.
-
 ==== Issue 51 ====
   ; Summary : applying transforms to the outline is weird, especially in 3d.
   ; Raised by : Florian Rivoal
@@ -257,6 +248,8 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_46
 ==== Issue 49 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_49
 
+==== Issue 50 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_50
 ==== Issue 53 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_53
 ==== Issue 54 ===
