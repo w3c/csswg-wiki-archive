@@ -103,22 +103,6 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
   ; Proposed Resolution : Replace "Implementations must not add support for the ime-mode property. Implementations should drop support for it as soon as possible." with "User Agents should not support the ime-mode property".
   ; Status : Pending publication of existing editor's draft, then updated editor's draft, then another publication.
 
-==== Issue 73 ====
-  ; Summary : Support for negative outline-offset is marked as optional and at-risk. However, all browsers that support outline-offset support negative values. The only issue was the lack of interop for large negative values. The new spec prose introduced to define interoperable behavior is fine.
-  ; Raised by : Florian Rivoal
-  ; When : 2015-01-28
-  ; URL : http://www.w3.org/mid/CADhPm3uJkugzOcz-vaKXkFMGik=R2AXwxLmXaFtUj3E_HRnsyA@mail.gmail.com
-  ; Proposed Resolution : Remove "UAs may ignore negative values. UAs that support " and mentions of "at risk". To deal with the risk of non implementation of the interoperable behavior in the CR time frame, replace "Neither [...] may become" with "Both [...] must not become".
-  ; Status : Pending editor's draft edit.
-
-==== Issue 74 ====
-  ; Summary : The phrasing of what happens with large negative values in the outline-offset property is unclear, and makes it sound like we should keep a blank space of outline-width * 2 inside the outline at minimum.
-  ; Raised by : Fantasai
-  ; When : 2015-01-28
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Jan/0581.html
-  ; Proposed Resolution : Clarify that outline-width * 2 is the outside dimension of the shape, wording up to editor.
-  ; Status :  Pending editor's draft edit.
-
 ==== Issue 75 ====
   ; Summary : As we mark ime-mode as obsolete, we should point readers of the spec to the alternative ways to address the issue that ime-mode was attempting to solve.
   ; Raised by : Florian Rivoal
@@ -281,3 +265,8 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_65
 
 ==== Issue 70 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_70
+==== Issue 73 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_73
+==== Issue 74 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_74
+
