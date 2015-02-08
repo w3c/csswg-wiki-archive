@@ -178,3 +178,5 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * margin collapsing question (dbaron)
   * :for() selector (Florian) : https://lists.w3.org/Archives/Public/www-style/2014Dec/0064.html
   * Prev-sibling and parent combinators - allow :has() with some combinators in fast profile?
+  * Font Loading API (heycam)
+    * Use of tasks, open issues
