@@ -7,7 +7,6 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 [[planning:agenda|Agenda Scratchspace]]
 
 ===== Upcoming Meetings =====
-  * [[planning:2014]]
   * [[planning:2015]]
     * 2015-02-09..11 [[planning:sydney-2015]] (with SVG on Wednesday or at least Wednesday morning) (Google)
     * 2015-05-18..20 [[planning:new-york-2015]] (Bloomberg)
