@@ -135,6 +135,97 @@ Far too many tourists, especially in winter^H^H^H^H^H^Hsummer
 We have both kinds: pies and ..
 
 actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zealand%29 |pies]].
+
+==== Agenda ====
+  * upcoming meeting dates and locations
+  * CSS 2.2 FPWD
+  * Coordinated release of visible control characters.
+  * css-sizing: interaction of floats and percentage-sized stuff and shrink-to-fit sizing; preferred width vs. max-content width
+  * css-ruby: vertical aspects of ruby layout and line spacing rules (dbaron)
+  * Flex break controls
+  * W3C new publication system Echidna (public beta Mon 8 Feb)
+  * margin collapsing question (dbaron)
+
+
+=== Mon ===
+
+== AM ==
+
+  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2015Jan/0016.html|2.1 errata and test updates to match charset changes in level 3]] (dbaron)
+  * Font Loading API (heycam)
+    * Use of tasks, open issues
+  * :for() selector (Florian) : https://lists.w3.org/Archives/Public/www-style/2014Dec/0064.html
+  * Prev-sibling and parent combinators - allow :has() with some combinators in fast profile?
+  * ::marker
+
+
+  * Canceling and interrupting transitions (https://lists.w3.org/Archives/Public/www-style/2014Dec/0150.html)
+  * taking css-transitions to LCCR (dbaron)
+  * text-wrap: balance
+
+== PM ==
+
+  * CSS Text (Koji would like to call in)
+    * break opportunities around replaced elements ([[spec:css3-text:line-break-around-replaced-elements|summary on the wiki]])
+  * CSS Writing Modes (Koji would like to call in)
+    * text-orientation: sideways and sideways-left ([[spec:css3-writing-modes:sideways-left|summary on the wiki]])
+    * Propagation from body (was this resolved? [[https://lists.w3.org/Archives/Public/www-style/2015Jan/0272.html|www-style thread]])
+    * Removing the SVG 1.1 keywords
+
+  * multi-line / block ellipsis (Florian)
+    * https://lists.w3.org/Archives/Public/www-style/2015Jan/0357.html
+    * discuss the approach
+    * get feedback on the details
+
+
+=== Tue ===
+
+== AM ==
+
+  * CSS3-UI (tantek, florian)
+    * Discuss proposals for remaining issues: https://wiki.csswg.org/spec/css3-ui#current-issues
+    * Determine steps necessary to exit CR
+
+  * CSS Inline (Dave C.) 
+    * goals for rewrite of line layout
+    * CJK and Indic initial letters 
+    * The myth of the hanging baseline
+
+  * @extend
+
+
+== PM ==
+
+
+  * Update Snapshot
+  * Form control styling: http://dev.w3.org/csswg/css-forms/
+
+
+=== Wed ===
+
+== AM ==
+
+  * CSS3-UI
+    * Box Sizing
+  * Interaction between overflow, positioning and filters (https://lists.w3.org/Archives/Public/public-fx/2015JanMar/0002.html) (added by smfr, hopefully roc can talk about it)
+
+== PM ==
+
+
+=== Overflow ===
+
+  * Media Queries (florian)
+    * speech & linear-speech media features (http://lists.w3.org/Archives/Public/www-style/2014Dec/0041.html) 
+
+  * CSS extensions to support rounded display (Soonbo Han)
+    * https://www.w3.org/wiki/TPAC2014/SessionIdeas#CSS_Extensions_to_support_a_round_display
+    * http://www.w3.org/2014/10/29-rounddisplay-minutes.html
+    * http://www.w3.org/wiki/images/8/84/141029_W3C_TPAC_Breakout_Session_Round_Display.pdf
+
+  * Tab order on display tree switch
+
+
+
 ==== Proposed Agenda Topics ====
 
   * upcoming meeting dates and locations
