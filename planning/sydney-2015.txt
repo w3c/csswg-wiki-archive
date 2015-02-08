@@ -174,6 +174,7 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * CSS Writing Modes (Koji would like to call in)
     * text-orientation: sideways and sideways-left ([[spec:css3-writing-modes:sideways-left|summary on the wiki]])
     * Propagation from body (was this resolved? [[https://lists.w3.org/Archives/Public/www-style/2015Jan/0272.html|www-style thread]])
+    * Removing the SVG 1.1 keywords
   * W3C new publication system Echidna (public beta Mon 8 Feb)
   * margin collapsing question (dbaron)
   * :for() selector (Florian) : https://lists.w3.org/Archives/Public/www-style/2014Dec/0064.html
