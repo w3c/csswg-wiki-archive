@@ -138,20 +138,17 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
 ==== Agenda ====
   * upcoming meeting dates and locations
-  * CSS 2.2 FPWD
   * Coordinated release of visible control characters.
-  * css-sizing: interaction of floats and percentage-sized stuff and shrink-to-fit sizing; preferred width vs. max-content width
-  * css-ruby: vertical aspects of ruby layout and line spacing rules (dbaron)
-  * Flex break controls
   * W3C new publication system Echidna (public beta Mon 8 Feb)
-  * margin collapsing question (dbaron)
 
 
 === Mon ===
 
 == AM ==
 
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2015Jan/0016.html|2.1 errata and test updates to match charset changes in level 3]] (dbaron)
+  * 2.1 Issues
+    * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2015Jan/0016.html|2.1 errata and test updates to match charset changes in level 3]] (dbaron)
+    * margin collapsing question (dbaron)
   * Font Loading API (heycam)
     * Use of tasks, open issues
   * :for() selector (Florian) : https://lists.w3.org/Archives/Public/www-style/2014Dec/0064.html
@@ -161,7 +158,10 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
   * Canceling and interrupting transitions (https://lists.w3.org/Archives/Public/www-style/2014Dec/0150.html)
   * taking css-transitions to LCCR (dbaron)
-  * text-wrap: balance
+  * Text level 4
+    * text-wrap: balance
+    * Flex break controls
+  * css-sizing: interaction of floats and percentage-sized stuff and shrink-to-fit sizing; preferred width vs. max-content width
 
 == PM ==
 
@@ -196,9 +196,10 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
 == PM ==
 
+  * Form control styling: http://dev.w3.org/csswg/css-forms/
 
   * Update Snapshot
-  * Form control styling: http://dev.w3.org/csswg/css-forms/
+    * CSS 2.2 FPWD
 
 
 === Wed ===
@@ -223,6 +224,9 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
     * http://www.w3.org/wiki/images/8/84/141029_W3C_TPAC_Breakout_Session_Round_Display.pdf
 
   * Tab order on display tree switch
+
+  * css-ruby: vertical aspects of ruby layout and line spacing rules (dbaron)
+
 
 
 
