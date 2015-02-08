@@ -108,16 +108,16 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
   ; Raised by : Florian Rivoal
   ; When : 2015-01-28
   ; URL : http://www.w3.org/mid/CADhPm3uJkugzOcz-vaKXkFMGik=R2AXwxLmXaFtUj3E_HRnsyA@mail.gmail.com
-  ; Proposed Resolution : Remove "UAs may ignore negative values. UAs that support " and mentions of "at risk". To deal with the risk of non implementation of the interoperable behavior in the CR time frame, replace "Neither the height nor the width [...] may be" by "Neither the height nor the width [...] should be", or do an similar rephrasing making this behavior optional (but not negative values altogether).
-  ; Status : pending edit
+  ; Proposed Resolution : Remove "UAs may ignore negative values. UAs that support " and mentions of "at risk". To deal with the risk of non implementation of the interoperable behavior in the CR time frame, replace "Neither [...] may become" with "Both [...] must not become".
+  ; Status : Pending editor's draft edit.
 
 ==== Issue 74 ====
   ; Summary : The phrasing of what happens with large negative values in the outline-offset property is unclear, and makes it sound like we should keep a blank space of outline-width * 2 inside the outline at minimum.
   ; Raised by : Fantasai
   ; When : 2015-01-28
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Jan/0581.html
-  ; Proposed Resolution : Clarify that outline-width * 2 is the outside dimension of the shape
-  ; Status : Pending edit
+  ; Proposed Resolution : Clarify that outline-width * 2 is the outside dimension of the shape, wording up to editor.
+  ; Status :  Pending editor's draft edit.
 
 ==== Issue 75 ====
   ; Summary : As we mark ime-mode as obsolete, we should point readers of the spec to the alternative ways to address the issue that ime-mode was attempting to solve.
@@ -127,7 +127,7 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
   ; Proposed Resolution : Add a note to ime-mode pointing readers to relevant html attributes, and explaining that dropping ime-mode was because it was a bad solution, not because the problem isn't worth addressing. Draft phrasing: "<p>The Working Group recognizes the importance of presenting the most relevant text input UI to users depending on what type of input is expected from them. However, instead of trying to control directly the UI as ime-mode attempts to do, a better approach is to give as much context as possible to the User Agent, and let it present the best UI possible to the user out of the various possibilities available on the platform. In HTML, the following attributes are relevant: <ul><li>the lang attribute https://html.spec.whatwg.org/multipage/dom.html#the-lang-and-xml:lang-attributes <li>the type attribute of the input element https://html.spec.whatwg.org/multipage/forms.html#states-of-the-type-attribute
  <li>The inputmode attribute https://html.spec.whatwg.org/multipage/forms.html#attr-fe-inputmode
 <li>the pattern attribute of the input element https://html.spec.whatwg.org/multipage/forms.html#the-pattern-attribute"
-  ; Status : edit pending
+  ; Status : Pending publication of existing editor's draft, then updated editor's draft, then another publication.
 
 
 ==== Issue 76 ====
