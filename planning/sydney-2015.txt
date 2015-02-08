@@ -137,10 +137,6 @@ We have both kinds: pies and ..
 actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zealand%29 |pies]].
 
 ==== Agenda ====
-  * upcoming meeting dates and locations
-  * Coordinated release of visible control characters.
-  * W3C new publication system Echidna (public beta Mon 8 Feb)
-
 
 === Mon ===
 
@@ -167,6 +163,7 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
   * CSS Text (Koji would like to call in)
     * break opportunities around replaced elements ([[spec:css3-text:line-break-around-replaced-elements|summary on the wiki]])
+    * Coordinated release of visible control characters.
   * CSS Writing Modes (Koji would like to call in)
     * text-orientation: sideways and sideways-left ([[spec:css3-writing-modes:sideways-left|summary on the wiki]])
     * Propagation from body (was this resolved? [[https://lists.w3.org/Archives/Public/www-style/2015Jan/0272.html|www-style thread]])
@@ -200,7 +197,8 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
   * Update Snapshot
     * CSS 2.2 FPWD
-
+  * W3C new publication system Echidna (public beta Mon 8 Feb)
+  * upcoming meeting dates and locations
 
 === Wed ===
 
