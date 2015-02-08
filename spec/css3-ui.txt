@@ -146,7 +146,7 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
   ; Status : 
 
 ===== Rejected Issues =====
-* None currently.
+* See https://www.w3.org/wiki/CSS3-UI#Rejected_Issues
 
 ===== Issues Pending edits =====
 The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
