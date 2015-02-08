@@ -179,6 +179,11 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
 == AM ==
 
+  * CSS extensions to support rounded display (Soonbo Han)
+    * https://www.w3.org/wiki/TPAC2014/SessionIdeas#CSS_Extensions_to_support_a_round_display
+    * http://www.w3.org/2014/10/29-rounddisplay-minutes.html
+    * http://www.w3.org/wiki/images/8/84/141029_W3C_TPAC_Breakout_Session_Round_Display.pdf
+
   * CSS3-UI (tantek, florian)
     * Discuss proposals for remaining issues: https://wiki.csswg.org/spec/css3-ui#current-issues
     * Determine steps necessary to exit CR
@@ -215,11 +220,6 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
   * Media Queries (florian)
     * speech & linear-speech media features (http://lists.w3.org/Archives/Public/www-style/2014Dec/0041.html) 
-
-  * CSS extensions to support rounded display (Soonbo Han)
-    * https://www.w3.org/wiki/TPAC2014/SessionIdeas#CSS_Extensions_to_support_a_round_display
-    * http://www.w3.org/2014/10/29-rounddisplay-minutes.html
-    * http://www.w3.org/wiki/images/8/84/141029_W3C_TPAC_Breakout_Session_Round_Display.pdf
 
   * Tab order on display tree switch
 
