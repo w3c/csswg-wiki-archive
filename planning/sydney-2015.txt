@@ -155,10 +155,10 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * Text level 4
     * text-wrap: balance
     * Flex break controls
-  * css-sizing: interaction of floats and percentage-sized stuff and shrink-to-fit sizing; preferred width vs. max-content width
 
 == PM ==
 
+  * css-sizing: interaction of floats and percentage-sized stuff and shrink-to-fit sizing; preferred width vs. max-content width
   * CSS Text (Koji would like to call in)
     * break opportunities around replaced elements ([[spec:css3-text:line-break-around-replaced-elements|summary on the wiki]])
     * Coordinated release of visible control characters.
