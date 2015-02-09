@@ -106,9 +106,8 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
   ; URL : https://lists.w3.org/Archives/Public/www-style/2014Nov/0401.html (drop XForms selectors resolution)
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Jan/0046.html
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Jan/0280.html
-  ; Proposed Resolution : Drop ::value and ::choices
-  ; Proposed Resolution : Keep ::value and ::choices at-risk as currently in draft. Drop if no implementer intent shown during LCCR.
-  ; Status : Pending group discussion of proposed resolutions
+  ; Proposed Resolution : Drop ::value and ::choices due to being underspecified (e.g. which properties should/must apply), and therefore being a potential source of many new issues (feature is too immature to be included in a LCCR).
+  ; Status : Pending group discussion of proposed resolution.
 
 
 
