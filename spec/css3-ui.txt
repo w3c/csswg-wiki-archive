@@ -39,7 +39,7 @@ General steps in rough order:
   * For Tantek: process/do all of https://wiki.mozilla.org/Tantek-Mozilla-Projects#CSS3_UI tasks (including moving them here as issues if possible)
 
 ===== Current Issues =====
-The following are open issues in/with the [[http://www.w3.org/TR/2004/CR-css3-ui-20040511/|11 May 2004 CSS3-UI Candidate Recommendation]].
+The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui-20120117/|17 Jan 2012 CSS3-UI Working Draft]], and/or the latest [[http://dev.w3.org/csswg/css3-ui/|CSS3-UI Editor's Draft]].
 
 ==== Issue 47 ====
   ; Summary : The specced 'resize' property's behavior is *completely* different from the behavior implemented in browsers supporting the property
