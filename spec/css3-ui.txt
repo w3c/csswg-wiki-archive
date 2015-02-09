@@ -13,7 +13,22 @@ See also:
   * http://www.w3.org/TR/css3-ui/ - latest public TR version
 
 ===== Work Mode =====
-This issues page is key to the work mode of CSS3-UI. Here are next steps in rough order:
+This issues page is key to the work mode of CSS3-UI. 
+
+==== Steps to PR ====
+  * Publish draft resolved in 2005-01 telcon
+  * Continue editing per General Steps
+  * Resolve all issues 2014 or before and make edits
+  * Put out call for test cases - noting substantial feature stability
+  * Publish draft with all 2014 or before issues resolved
+  * Resolve/reject new 2015 issues as appropriate for an LCCR
+  * Publish LCCR
+  * Get feature coverage in test cases (or consider dropping at-risk features)
+  * Collect/process issues raised from test / implementation interactions
+  * Publish a PR with subset of features that interoperate, dropping at-risk features as necessary
+
+==== General Steps ====
+General steps in rough order:
   * Move closed issues (resolved issues which have edits completed in the draft) to
     * https://www.w3.org/wiki/CSS3-UI
   * Make spec edits for resolved issues, then move them to https://www.w3.org/wiki/CSS3-UI
