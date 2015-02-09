@@ -101,13 +101,14 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
 
 
 ==== Issue 71 ====
-  ; Summary : WG resolved to drop all pseudo elements from CSS-UI, but ::value and ::choices were retained, as they may apply to HTML in addition to XForms as they were initially specified for. However, they are not implemented anywhere, and it is not clear that they effectively solve the problem they were introduced for.
-  ; Raised by : Floria Rivoal
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2014Nov/0401.html
+  ; Summary : WG resolved to drop all XForms related pseudo elements from CSS-UI, but ::value and ::choices were retained, as they apply to HTML in addition to XForms as they were initially specified for. However, they are not implemented anywhere, and it is not clear that they effectively solve the problem they were introduced for.
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2014Nov/0401.html (drop XForms selectors resolution)
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Jan/0046.html
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Jan/0280.html
   ; Proposed Resolution : Drop ::value and ::choices
-  ; Status : Pending group discussion
+  ; Proposed Resolution : Keep ::value and ::choices at-risk as currently in draft. Drop if no implementer intent shown during LCCR.
+  ; Status : Pending group discussion of proposed resolutions
 
 
 
