@@ -200,6 +200,7 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
   * Update Snapshot
     * CSS 2.2 FPWD
+  * Obsolete http://www.w3.org/TR/css3-linebox/
   * W3C new publication system Echidna (public beta Mon 8 Feb)
   * upcoming meeting dates and locations
 
