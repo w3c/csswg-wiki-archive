@@ -240,8 +240,8 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * css-ruby: vertical aspects of ruby layout and line spacing rules (dbaron)
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2015Jan/0016.html|2.1 errata and test updates to match charset changes in level 3]] (dbaron)
   * CSS3-UI (tantek, florian)
-    * Discuss proposals for remaining issues: https://wiki.csswg.org/spec/css3-ui#current-issues
     * Determine steps necessary to exit CR
+    * Discuss proposals for remaining issues: https://wiki.csswg.org/spec/css3-ui#current-issues
   * Media Queries (florian)
     * speech & linear-speech media features (http://lists.w3.org/Archives/Public/www-style/2014Dec/0041.html) 
   * multi-line / block ellipsis (Florian)
