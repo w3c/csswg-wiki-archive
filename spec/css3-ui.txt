@@ -46,6 +46,7 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Summary : box-sizing insufficiently specified for replaced elements
   ; Raised by : Boris Zbarsky
   ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0232.html
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2011Jul/att-0232/test.html (test case from Boris, 100px intrinsic size, max-height 100, borders 40 + 40)
   ; Proposed Resolution : Note open issue inline in spec, with proposal: Make adjustments to http://www.w3.org/TR/CSS21/visudet.html#Computing_widths_and_margins and
 http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on mail above
   ; Status : Issue noted inline in spec. Pending group discussion and proposed text to patch CSS2.1 algorithms.
