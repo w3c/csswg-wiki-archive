@@ -407,7 +407,9 @@ y test to be done.
 
 [[http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.1|0 test done]] 
 
-x test to be done.
+"Layout calculation rules (such as those in [[http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#Computing_widths_and_margins|CSS2.1, Section 10.3]]) that apply to the horizontal dimension in horizontal writing modes instead apply to the vertical dimension in vertical writing modes. Likewise, layout calculation rules (such as those in [[http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#Computing_heights_and_margins|CSS2.1, Section 10.6]]) that apply to the vertical dimension in horizontal writing modes instead apply to the horizontal dimension in vertical writing modes."
+
+Many tests to be done: at least one for each sub-sections of 10.3 and of 10.6.
 
 ==== §7.2 Dimensional Mapping ====
 
