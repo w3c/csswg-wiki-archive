@@ -41,55 +41,6 @@ General steps in rough order:
 ===== Current Issues =====
 The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui-20120117/|17 Jan 2012 CSS3-UI Working Draft]], and/or the latest [[http://dev.w3.org/csswg/css3-ui/|CSS3-UI Editor's Draft]].
 
-==== Issue 47 ====
-  ; Summary : The specced 'resize' property's behavior is *completely* different from the behavior implemented in browsers supporting the property
-  ; Raised by : François Remy
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Dec/0221.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0063.html
-  ; Resolution : allow behavior currently implemented by browsers and the one currently in the spec, amended to talk about a resize function instead of a resize factor
-  ; Proposed new Resolution : Note outstanding objection to "resize function" wording inline in the spec, link directly to email http://lists.w3.org/Archives/Public/www-style/2014Dec/0177.html Proposed text to resolve in favor of the objection here: https://lists.w3.org/Archives/Public/www-style/2015Feb/0149.html
-  ; Status : Resolved and editor's draft updated noting objections have been raised (see http://lists.w3.org/Archives/Public/www-style/2014Dec/0177.html). Leave issue open pending discussion regarding the objection with the working group.
-
-==== Issue 48 ====
-  ; Summary : description of cursor: auto insufficient and not interoperable
-  ; Raised by : David Baron
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Jan/0275.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0531.html
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0039.html (start of proposal)
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0182.html (issues, and previous in this thread too)
-  ; Proposed Resolution : Note this issue in spec explicitly with general plan to "restrict the auto value to handling things that cannot be described by the UA stylesheet." Proposal here, with analysis at the beginning, and proposed text at the bottom of the mail: https://lists.w3.org/Archives/Public/www-style/2015Feb/0039.html - note agreement on general plan, problems with details, proposal to be iterated offline.
-  ; Status : Issue noted inline in spec. Proposal has issues, with editing, and auto cursor handling over scrollbars, resizers, possibly other native UI widgets from input elements etc.
-
-==== Issue 51 ====
-  ; Summary : applying transforms to the outline is weird, especially in 3d.
-  ; Raised by : Florian Rivoal
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Aug/0423.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0134.html
-  ; Proposed Resolution : Leave undefined for level 3
-  ; Status : Issue noted inline in spec. Pending group discussion. Note that this is a subcase of [[#Issue 55]]
-
-==== Issue 52 ====
-  ; Summary : behaviour of resize on pseudo-elements buggy and ambiguously defined
-  ; Raised by : Lea Verou
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Jul/0477.html
-  ; Proposed Resolution : Explicitly note 'resize' should not apply to pseudo-elements. Ok to re-open if a concrete real world use-case is presented.
-  ; Alternative resolution : If we adopt the style attribute model for the resize property, this bug solves itself thanks to http://dev.w3.org/csswg/css-pseudo/#CSSPseudoElement-interface
-  ; Status : Issue noted inline in spec as known issue that browsers have bugs with resize. Proposed resolution pending group discussion.
-
-==== Issue 55 ====
-  ; Summary : Outline has a very loose definition, and significant interop problems. Should we tighten it up?
-  ; Raised by : Florian Rivoal
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0134.html
-  ; Proposed Resolution : Leave undefined in level 3, try to converge somewhat in level 4
-  ; Status : Issue noted inline in spec. Pending group discussion.
-
-==== Issue 68 ====
-  ; Summary : apply text-overflow even when overflow is visible?
-  ; Raised by : Mats Palmgren
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0425.html
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2015Jan/0048.html
-  ; Proposed Resolution : Note as open issue, with possible resolutions of: Apply text-overflow regardless of overflow, or consider reverting https://www.w3.org/wiki/CSS3-UI#Issue_32
-  ; Status : Issue noted inline in spec. Pending group discussion.
 
 ==== Issue 69 ====
   ; Summary : box-sizing insufficiently specified for replaced elements
@@ -100,16 +51,79 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
   ; Status : Issue noted inline in spec. Pending group discussion and proposed text to patch CSS2.1 algorithms.
 
 
+==== Issue new: 77 ====
+  ; Summary :
+  ; Raised by : Tantek Çelik
+  ; URL : 
+  ; Proposed Resolution : 
+  ; Status : 
+
+===== Rejected Issues =====
+* See https://www.w3.org/wiki/CSS3-UI#Rejected_Issues
+
+==== Issue 55 ====
+  ; Summary : Outline has a very loose definition, and significant interop problems. Should we tighten it up?
+  ; Raised by : Florian Rivoal
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0134.html
+  ; Resolution : Leave as defined in level 3. (2015-02-10 f2f)
+  ; Status : No edit needed for this issue.
+
+==== Issue 68 ====
+  ; Summary : apply text-overflow even when overflow is visible?
+  ; Raised by : Mats Palmgren
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0425.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2015Jan/0048.html
+  ; Resolution : No. CSS3-UI will stick with current restriction to overflow value other than visible. Too risky to expand to overflow:visible now, for implementability, and web compat. Leave for future levels to explore. (2015-02-10 f2f)
+  ; Status : No edit needed.
+
+
+===== Issues Pending edits =====
+The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
+
+==== Issue 47 ====
+  ; Summary : The specced 'resize' property's behavior is *completely* different from the behavior implemented in browsers supporting the property
+  ; Raised by : François Remy
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Dec/0221.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0063.html
+  ; Previous Resolution : allow behavior currently implemented by browsers and the one currently in the spec, amended to talk about a resize function instead of a resize factor
+  ; Proposed new Resolution : Note outstanding objection to "resize function" wording inline in the spec, link directly to email http://lists.w3.org/Archives/Public/www-style/2014Dec/0177.html Proposed text to resolve in favor of the objection here: https://lists.w3.org/Archives/Public/www-style/2015Feb/0149.html
+  ; Resolution: Specify must behavior of style attribute and pixels, due to implementation interop. (2015-02-10 f2f)
+  ; Status : Pending editor's draft edit.
+
+==== Issue 48 ====
+  ; Summary : description of cursor: auto insufficient and not interoperable
+  ; Raised by : David Baron
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Jan/0275.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0531.html
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0039.html (start of proposal)
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0182.html (issues, and previous in this thread too)
+  ; Proposed Resolution : Note this issue in spec explicitly with general plan to "restrict the auto value to handling things that cannot be described by the UA stylesheet." Proposal here, with analysis at the beginning, and proposed text at the bottom of the mail: https://lists.w3.org/Archives/Public/www-style/2015Feb/0039.html - note agreement on general plan, problems with details, proposal to be iterated offline.
+  ; Resolution: Apply proposal from dbaron, 'auto' behaves as 'text' over text, and 'default' otherwise. Note inapplicability of cursor property over scrollbars, resizers, possibly other native UI widgets from input elements etc. (2015-02-10 f2f)
+  ; Status : Pending editor's draft edit.
+
+==== Issue 51 ====
+  ; Summary : applying transforms to the outline is weird, especially in 3d.
+  ; Raised by : Florian Rivoal
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Aug/0423.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0134.html
+  ; Resolution : Leave undefined for level 3 (2015-02-10 f2f)
+  ; Status : Pending editor's draft edit.
+
+==== Issue 52 ====
+  ; Summary : behaviour of resize on pseudo-elements buggy and ambiguously defined
+  ; Raised by : Lea Verou
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Jul/0477.html
+  ; Resolution : Explicitly note 'resize' does not apply to pseudo-elements. Note: may apply in the future if there is implementation of http://dev.w3.org/csswg/css-pseudo/#CSSPseudoElement-interface (2015-02-10 f2f)
+  ; Status : Pending editor's draft edit.
+
 ==== Issue 71 ====
   ; Summary : WG resolved to drop all XForms related pseudo elements from CSS-UI, but ::value and ::choices were retained, as they apply to HTML in addition to XForms as they were initially specified for. However, they are not implemented anywhere, and it is not clear that they effectively solve the problem they were introduced for.
   ; Raised by : Florian Rivoal
   ; URL : https://lists.w3.org/Archives/Public/www-style/2014Nov/0401.html (drop XForms selectors resolution)
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Jan/0046.html
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Jan/0280.html
-  ; Proposed Resolution : Drop ::value and ::choices due to being underspecified (e.g. which properties should/must apply), and therefore being a potential source of many new issues (feature is too immature to be included in a LCCR).
-  ; Status : Pending group discussion of proposed resolution.
-
-
+  ; Resolution : Drop ::value and ::choices due to being underspecified (e.g. which properties should/must apply), and therefore being a potential source of many new issues (feature is too immature to be included in a LCCR).
+  ; Status : Pending editor's draft edit.
 
 ==== Issue 72 ====
   ; Summary : All browsers should be treated equally with regards to obsoleting the 'ime-mode' property, instead of saying "must not add support" for those that don't have it but "should drop support" for those that do.
@@ -135,30 +149,13 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
   ; Summary : the change introduced to address [[#Issue 54]] causes problems with bidi, scrolling, and is not necessarily an improvement anyway
   ; Raised by : Florian Rivoal
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0007.html
-  ; Proposed Resolution : revert the change. If not, at least clarify the bidi situation.
-  ; Status : pending group discussion
+  ; Resolution : revert the change, invite proposals for another property/value to allow this. (2015-02-10 f2f)
+  ; Status : Pending editor's draft edit.
 
-
-
-==== Issue new: 77 ====
-  ; Summary :
-  ; Raised by : Tantek Çelik
-  ; URL : 
-  ; Proposed Resolution : 
-  ; Status : 
-
-===== Rejected Issues =====
-* See https://www.w3.org/wiki/CSS3-UI#Rejected_Issues
-
-===== Issues Pending edits =====
-The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
-
-* None currently.
 
 ===== Issues Pending dependent edits =====
 Issues that are resolved, and require no specific edits, but are depending on edits for another issue to be completed.
 
-* None currently.
 
 ====== FAQ ======
 * Consider moving to https://www.w3.org/wiki/CSS3-UI/FAQ
