@@ -193,6 +193,7 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
 == PM ==
 
+  * Page Floats
   * @extend
   * Custom ident
   * Flexbox
