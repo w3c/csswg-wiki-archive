@@ -217,6 +217,8 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 == PM ==
 
   * css-transforms: Specifying decomposition of scale (takagi)
+  * web-animations: status update, events & promises, API bikeshedding, end behavior of animations, translate/rotate/scale (bbirtles, shanestephens, tabatkins)
+  * ID-less referencing (bbirtles)
 
 === Overflow ===
 
@@ -225,9 +227,6 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * Tab order on display tree switch
   * css-ruby: vertical aspects of ruby layout and line spacing rules (dbaron)
   * css-ruby: loop between computed values of display and writing-mode (related to ruby-position) (dbaron)
-  * web-animations: status update, events & promises, API bikeshedding, end behavior of animations, translate/rotate/scale (bbirtles, shanestephens, tabatkins)
-  * ID-less referencing (bbirtles)
-
 
 
 ==== Proposed Agenda Topics ====
