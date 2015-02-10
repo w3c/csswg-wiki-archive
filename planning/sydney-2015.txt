@@ -218,7 +218,7 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * CSS Blending PR (Dirk)
   * Colored font palette control (heycam)
   * text-rendering (roc)
-  * 
+
 == PM ==
 
   * css-transforms: Specifying decomposition of scale (takagi)
