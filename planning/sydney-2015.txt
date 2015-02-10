@@ -204,6 +204,8 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * Obsolete http://www.w3.org/TR/css3-linebox/
   * W3C new publication system Echidna (public beta Mon 8 Feb)
   * upcoming meeting dates and locations
+  * css-ruby: vertical aspects of ruby layout and line spacing rules (dbaron)
+  * css-ruby: loop between computed values of display and writing-mode (related to ruby-position) (dbaron)
 
 === Wed ===
 
@@ -234,8 +236,6 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * Media Queries (florian)
     * speech & linear-speech media features (http://lists.w3.org/Archives/Public/www-style/2014Dec/0041.html) 
   * Tab order on display tree switch
-  * css-ruby: vertical aspects of ruby layout and line spacing rules (dbaron)
-  * css-ruby: loop between computed values of display and writing-mode (related to ruby-position) (dbaron)
 
 
 ==== Proposed Agenda Topics ====
