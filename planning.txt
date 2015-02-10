@@ -10,7 +10,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
   * [[planning:2015]]
     * 2015-02-09..11 [[planning:sydney-2015]] (with SVG on Wednesday or at least Wednesday morning) (Google)
     * 2015-05-18..20 [[planning:new-york-2015]] (Bloomberg)
-    * week of August 24-28, 2015, Google in Zürich (though maybe London or Paris)
+    * week of August 24-28 (provisionally 25-27), 2015, hopefully Mozilla in Paris (alternatively Google in Paris)
     * 2015-10-26..30 [[planning:tpac-2015]], Sapporo, Japan (adjacent to IETF, November 2-6)
   * [[planning:hosting]]
 
