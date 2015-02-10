@@ -191,12 +191,10 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
     * CJK and Indic initial letters 
     * The myth of the hanging baseline
 
-  * @extend
-
-  * Custom ident
-
 == PM ==
 
+  * @extend
+  * Custom ident
   * Flexbox
   * Form control styling: http://dev.w3.org/csswg/css-forms/
 
