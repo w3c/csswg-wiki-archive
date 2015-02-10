@@ -87,7 +87,7 @@ The following issues need an edit to be applied to the spec. Most of them have a
   ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0063.html
   ; Previous Resolution : allow behavior currently implemented by browsers and the one currently in the spec, amended to talk about a resize function instead of a resize factor
   ; Proposed new Resolution : Note outstanding objection to "resize function" wording inline in the spec, link directly to email http://lists.w3.org/Archives/Public/www-style/2014Dec/0177.html Proposed text to resolve in favor of the objection here: https://lists.w3.org/Archives/Public/www-style/2015Feb/0149.html
-  ; Resolution: Specify must behavior of style attribute and pixels, due to implementation interop. (2015-02-10 f2f)
+  ; Resolution : Specify must behavior of style attribute and pixels, due to implementation interop. (2015-02-10 f2f)
   ; Status : Pending editor's draft edit.
 
 ==== Issue 48 ====
