@@ -13,7 +13,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
     * 2015-08-25..27 [[planning:paris-2015]] week of August 24-28 (provisionally 25-27), 2015, hopefully Mozilla in Paris (alternatively Google in Paris)
     * 2015-10-26..30 [[planning:tpac-2015]], Sapporo, Japan (adjacent to IETF, November 2-6)
   * 2016
-    * week of 2016-02-01..05, tentatively Google Sydney
+    * week of 2016-02-01..05 [[planning:sydney-2016]] tentatively Google Sydney
   * [[planning:hosting]]
 
 ===== Past Meetings =====
