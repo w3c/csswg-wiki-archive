@@ -221,6 +221,10 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * Colored font palette control (heycam)
   * text-rendering (roc)
 
+== Lunch ==
+
+  * Gelato
+
 == PM ==
 
   * css-transforms: Specifying decomposition of scale (takagi)
