@@ -214,8 +214,6 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * CSS3-UI
     * Box Sizing
   * Interaction between overflow, positioning and filters (https://lists.w3.org/Archives/Public/public-fx/2015JanMar/0002.html) (added by smfr, hopefully roc can talk about it)
-  * Canceling and interrupting transitions (https://lists.w3.org/Archives/Public/www-style/2014Dec/0150.html)
-  * taking css-transitions to LCCR (dbaron)
   * Filter Effects LCCR (Dirk)
   * CSS Blending PR (Dirk)
   * Colored font palette control (heycam)
@@ -227,6 +225,8 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
 == PM ==
 
+  * Canceling and interrupting transitions (https://lists.w3.org/Archives/Public/www-style/2014Dec/0150.html)
+  * taking css-transitions to LCCR (dbaron)
   * css-transforms: Specifying decomposition of scale (https://www.w3.org/Graphics/SVG/WG/wiki/Proposals/Specifying_decomposition_of_scale) (takagi)
   * web-animations: status update, events & promises, API bikeshedding, end behavior of animations, translate/rotate/scale (bbirtles, shanestephens, tabatkins)
   * ID-less referencing (bbirtles)
