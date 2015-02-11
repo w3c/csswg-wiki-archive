@@ -138,6 +138,7 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
 
 ==== IRC Logs ====
 
+  * also see [[https://wiki.css-houdini.org/planning/sydney-2015#irc-logs|Houdini wiki]] for Saturday and Sunday
   * [[http://www.w3.org/2015/02/08-css-irc|Monday and Tuesday (#css)]] ([[http://www.w3.org/2015/02/08-css-irc.txt|txt]])
   * [[http://www.w3.org/2015/02/10-fx-irc|Wednesday (#fx)]] ([[http://www.w3.org/2015/02/10-fx-irc.txt|txt]])
 
