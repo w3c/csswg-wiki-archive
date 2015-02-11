@@ -233,6 +233,7 @@ actually, just [[http://en.wikipedia.org/wiki/Meat_pie_%28Australia_and_New_Zeal
   * How do we handle properties/property values that CSS has agreed to but are not yet in finalized specifications? (https://lists.w3.org/Archives/Public/www-style/2015Feb/0157.html) (Tav)
   * Text in a shape, review. (Tav)
   * Baselines (heycam)
+  * http://dev.w3.org/csswg/css-pseudo/#highlight-pseudos
 
 === Overflow ===
 
