@@ -1,0 +1,305 @@
+====== css3-ui ======
+Latest edits/resolutions, see the editors draft:
+  * http://dev.w3.org/csswg/css3-ui/
+
+Closed issues, see:
+  * https://www.w3.org/wiki/CSS3-UI
+
+Postponed issues:
+  * http://wiki.csswg.org/spec/css4-ui (for new and postponed CSS UI features)
+
+See also:
+  * http://www.w3.org/wiki/CSSWG#css3-ui
+  * http://www.w3.org/TR/css3-ui/ - latest public TR version
+
+===== Work Mode =====
+This issues page is key to the work mode of CSS3-UI. 
+
+==== Steps to PR ====
+  * Publish draft as [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0406.html|resolved in 2005-01-21 telcon]]
+  * Continue resolving/editing per General Steps
+  * Resolve all issues 2014 or before and make edits
+  * Put out call for test cases - noting substantial feature stability
+  * Publish draft with all 2014 or before issues resolved
+  * Resolve/reject new 2015 issues as appropriate for an LCCR
+  * Publish LCCR
+  * Get feature coverage in test cases (or consider dropping at-risk features)
+  * Collect/process issues raised from test / implementation interactions
+  * Publish a PR with subset of features that interoperate, dropping at-risk features as necessary
+
+==== General Steps ====
+General steps in rough order:
+  * Move closed issues (resolved issues which have edits completed in the draft) to
+    * https://www.w3.org/wiki/CSS3-UI
+  * Make spec edits for resolved issues, then move them to https://www.w3.org/wiki/CSS3-UI
+    * edit /dvcs.w3.org/csswg/css-ui/Overview.bs
+    * use https://api.csswg.org/bikeshed/ per [[https://wiki.csswg.org/tools/bikeshed#using-the-web-form|instructions]] to generate spec view HTML
+    * “Save Page as…” “Web page, HTML only” Overview.html
+
+  * For Tantek: process/do all of https://wiki.mozilla.org/Tantek-Mozilla-Projects#CSS3_UI tasks (including moving them here as issues if possible)
+
+===== Current Issues =====
+The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui-20120117/|17 Jan 2012 CSS3-UI Working Draft]], and/or the latest [[http://dev.w3.org/csswg/css3-ui/|CSS3-UI Editor's Draft]].
+
+
+==== Issue 69 ====
+  ; Summary : box-sizing insufficiently specified for replaced elements
+  ; Raised by : Boris Zbarsky
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0232.html
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2011Jul/att-0232/test.html (test case from Boris, 100px intrinsic size, max-height 100, borders 40 + 40)
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0243.html - two test pages, 3 tests each with/without box-sizing of SVG embedded images with intrinsic width and/or ratio.
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0245.html - box-sizing test with different border-width and max-height values
+  ; Proposed Resolution : Note open issue inline in spec, with proposal: Make adjustments to http://www.w3.org/TR/CSS21/visudet.html#Computing_widths_and_margins and
+http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on mail above
+  ; Status : Issue noted inline in spec. Pending group discussion and proposed text to patch CSS2.1 algorithms.
+
+
+==== Issue 77 ====
+  ; Summary : text-overflow: clip should not clip at the end of the line box
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0342.html
+  ; Proposed Resolution : replace "Clip inline content that overflows" with "Clip inline content that overflows its block container element".
+  ; Status : pending group decision
+
+==== Issue 78 ====
+  ; Summary : Clarify that the :focus pseudo class matches when the focus is move to an element using the directional navigation properties, even if that element cannot otherwise be focused.
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0344.html
+  ; Proposed Resolution : Add this to css3-ui: "If an element that is otherwise not focusable becomes focusable through the use of the directional focus navigation properties, the :focus pseudo-class matches this element when it is focused."
+  ; Status : Pending group decision
+
+
+
+==== Issue new: 79 ====
+  ; Summary :
+  ; Raised by : Tantek Çelik
+  ; URL : 
+  ; Proposed Resolution : 
+  ; Status : 
+
+===== Rejected Issues =====
+* See https://www.w3.org/wiki/CSS3-UI#Rejected_Issues
+
+==== Issue 55 ====
+  ; Summary : Outline has a very loose definition, and significant interop problems. Should we tighten it up?
+  ; Raised by : Florian Rivoal
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0134.html
+  ; Resolution : Leave as defined in level 3. (2015-02-10 f2f)
+  ; Status : No edit needed for this issue.
+
+==== Issue 68 ====
+  ; Summary : apply text-overflow even when overflow is visible?
+  ; Raised by : Mats Palmgren
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0425.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2015Jan/0048.html
+  ; Resolution : No. CSS3-UI will stick with current restriction to overflow value other than visible. Too risky to expand to overflow:visible now, for implementability, and web compat. Leave for future levels to explore. (2015-02-10 f2f)
+  ; Status : No edit needed.
+
+
+===== Issues Pending edits =====
+The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
+
+==== Issue 47 ====
+  ; Summary : The specced 'resize' property's behavior is *completely* different from the behavior implemented in browsers supporting the property
+  ; Raised by : François Remy
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2012Dec/0221.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0063.html
+  ; Previous Resolution : allow behavior currently implemented by browsers and the one currently in the spec, amended to talk about a resize function instead of a resize factor
+  ; Proposed new Resolution : Note outstanding objection to "resize function" wording inline in the spec, link directly to email http://lists.w3.org/Archives/Public/www-style/2014Dec/0177.html Proposed text to resolve in favor of the objection here: https://lists.w3.org/Archives/Public/www-style/2015Feb/0149.html
+  ; Resolution : Specify must behavior of style attribute and pixels, due to implementation interop. (2015-02-10 f2f)
+  ; Status : Pending editor's draft edit.
+
+==== Issue 48 ====
+  ; Summary : description of cursor: auto insufficient and not interoperable
+  ; Raised by : David Baron
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Jan/0275.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Nov/0531.html
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0039.html (start of proposal)
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0182.html (issues, and previous in this thread too)
+  ; Proposed Resolution : Note this issue in spec explicitly with general plan to "restrict the auto value to handling things that cannot be described by the UA stylesheet." Proposal here, with analysis at the beginning, and proposed text at the bottom of the mail: https://lists.w3.org/Archives/Public/www-style/2015Feb/0039.html - note agreement on general plan, problems with details, proposal to be iterated offline.
+  ; Resolution: Apply proposal from dbaron, 'auto' behaves as 'text' over text, and 'default' otherwise. Note inapplicability of cursor property over scrollbars, resizers, possibly other native UI widgets from input elements etc. (2015-02-10 f2f)
+  ; Status : Pending editor's draft edit.
+
+==== Issue 51 ====
+  ; Summary : applying transforms to the outline is weird, especially in 3d.
+  ; Raised by : Florian Rivoal
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2013Aug/0423.html
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Dec/0134.html
+  ; Resolution : Leave undefined for level 3 (2015-02-10 f2f)
+  ; Status : Pending editor's draft edit.
+
+==== Issue 52 ====
+  ; Summary : behaviour of resize on pseudo-elements buggy and ambiguously defined
+  ; Raised by : Lea Verou
+  ; URL : http://lists.w3.org/Archives/Public/www-style/2014Jul/0477.html
+  ; Resolution : Explicitly note 'resize' does not apply to pseudo-elements. Note: may apply in the future if there is implementation of http://dev.w3.org/csswg/css-pseudo/#CSSPseudoElement-interface (2015-02-10 f2f)
+  ; Status : Pending editor's draft edit.
+
+==== Issue 71 ====
+  ; Summary : WG resolved to drop all XForms related pseudo elements from CSS-UI, but ::value and ::choices were retained, as they apply to HTML in addition to XForms as they were initially specified for. However, they are not implemented anywhere, and it is not clear that they effectively solve the problem they were introduced for.
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2014Nov/0401.html (drop XForms selectors resolution)
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Jan/0046.html
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Jan/0280.html
+  ; Resolution : Drop ::value and ::choices due to being underspecified (e.g. which properties should/must apply), and therefore being a potential source of many new issues (feature is too immature to be included in a LCCR).
+  ; Status : Pending editor's draft edit.
+
+==== Issue 72 ====
+  ; Summary : All browsers should be treated equally with regards to obsoleting the 'ime-mode' property, instead of saying "must not add support" for those that don't have it but "should drop support" for those that do.
+  ; Raised by : David Baron (in telcon)
+  ; When : 2015-01-28
+  ; URL : http://www.w3.org/mid/CADhPm3uJkugzOcz-vaKXkFMGik=R2AXwxLmXaFtUj3E_HRnsyA@mail.gmail.com
+  ; URL : http://krijnhoetmer.nl/irc-logs/css/20150128#l-605
+  ; Proposed Resolution : Replace "Implementations must not add support for the ime-mode property. Implementations should drop support for it as soon as possible." with "User Agents should not support the ime-mode property".
+  ; Status : Pending publication of existing editor's draft, then updated editor's draft, then another publication.
+
+==== Issue 75 ====
+  ; Summary : As we mark ime-mode as obsolete, we should point readers of the spec to the alternative ways to address the issue that ime-mode was attempting to solve.
+  ; Raised by : Florian Rivoal
+  ; When : 2015-01-28
+  ; URL : http://logs.csswg.org/irc.w3.org/css/2015-01-28/#e513809
+  ; Proposed Resolution : Add a note to ime-mode pointing readers to relevant html attributes, and explaining that dropping ime-mode was because it was a bad solution, not because the problem isn't worth addressing. Draft phrasing: "<p>The Working Group recognizes the importance of presenting the most relevant text input UI to users depending on what type of input is expected from them. However, instead of trying to control directly the UI as ime-mode attempts to do, a better approach is to give as much context as possible to the User Agent, and let it present the best UI possible to the user out of the various possibilities available on the platform. In HTML, the following attributes are relevant: <ul><li>the lang attribute https://html.spec.whatwg.org/multipage/dom.html#the-lang-and-xml:lang-attributes <li>the type attribute of the input element https://html.spec.whatwg.org/multipage/forms.html#states-of-the-type-attribute
+ <li>The inputmode attribute https://html.spec.whatwg.org/multipage/forms.html#attr-fe-inputmode
+<li>the pattern attribute of the input element https://html.spec.whatwg.org/multipage/forms.html#the-pattern-attribute"
+  ; Status : Pending publication of existing editor's draft, then updated editor's draft, then another publication.
+
+
+==== Issue 76 ====
+  ; Summary : the change introduced to address [[#Issue 54]] causes problems with bidi, scrolling, and is not necessarily an improvement anyway
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0007.html
+  ; Resolution : revert the change, invite proposals for another property/value to allow this. (2015-02-10 f2f)
+  ; Status : Pending editor's draft edit.
+
+
+===== Issues Pending dependent edits =====
+Issues that are resolved, and require no specific edits, but are depending on edits for another issue to be completed.
+
+
+====== FAQ ======
+* Consider moving to https://www.w3.org/wiki/CSS3-UI/FAQ
+
+===== text-overflow for non-latin scripts =====
+Q: Many non latin scripts use something else than 3 dots for the same effect as an ellipsis. How does this work?
+
+A: The current editor's draft allows implementations to use something other than 3 dots:
+
+"Implementations may substitute a more language/script-appropriate ellipsis character."
+
+from http://dev.w3.org/csswg/css3-ui/#text-overflow
+
+===== text-overflow atomic inlines that would overlap the ellipsis =====
+Q: What should an implementation do when an atomic inline element would overlap the ellipsis marker?
+
+A: Remove it (the atomic inline element(s)) to make room for the ellipsis marker per the CSS3-UI spec (and Opera and IE9 appear to do this already).
+
+====== css3-ui additional spec improvements ======
+  * Consider adding clarifying examples in spec, adding tests. (per Issue 22)
+
+====== Resolved Issues ======
+Leaving resolved subheadings here with forward links to W3C wiki to preserve external links to fragments.
+
+==== Issue 1 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_1
+==== Issue 2 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_2
+==== Issue 3 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_3
+
+==== Issue 13 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_13
+==== Issue 18 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_18
+==== Issue 19 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_19
+
+==== Issue 20 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_20
+==== Issue 21 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_21
+==== Issue 22 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_22
+==== Issue 23 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_23
+==== Issue 24 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_24
+==== Issue 25 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_25
+==== Issue 26 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_26
+==== Issue 28 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_28
+==== Issue 29 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_29
+
+==== Issue 30 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_30
+==== Issue 31 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_31
+==== Issue 32 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_32
+==== Issue 33 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_33
+==== Issue 34 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_34
+==== Issue 35 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_35
+==== Issue 37 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_37
+==== Issue 38 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_38
+==== Issue 39 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_39
+
+==== Issue 40 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_40
+==== Issue 41 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_41
+==== Issue 42 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_42
+==== Issue 43 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_43
+==== Issue 44 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_44
+==== Issue 46 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_46
+==== Issue 49 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_49
+
+==== Issue 50 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_50
+==== Issue 53 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_53
+==== Issue 54 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_54
+==== Issue 56 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_56
+==== Issue 57 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_57
+==== Issue 58 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_58
+==== Issue 59 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_59
+
+==== Issue 60 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_60
+==== Issue 61 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_61
+==== Issue 62 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_62
+==== Issue 63 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_63
+==== Issue 64 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_64
+==== Issue 65 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_65
+==== Issue 66 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_65
+
+==== Issue 70 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_70
+==== Issue 73 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_73
+==== Issue 74 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_74
+
