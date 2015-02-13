@@ -117,7 +117,7 @@ The following issues need an edit to be applied to the spec. Most of them have a
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0039.html (start of proposal)
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0182.html (issues, and previous in this thread too)
   ; Proposed Resolution : Note this issue in spec explicitly with general plan to "restrict the auto value to handling things that cannot be described by the UA stylesheet." Proposal here, with analysis at the beginning, and proposed text at the bottom of the mail: https://lists.w3.org/Archives/Public/www-style/2015Feb/0039.html - note agreement on general plan, problems with details, proposal to be iterated offline.
-  ; Resolution: Apply proposal from dbaron, 'auto' behaves as 'text' over text, and 'default' otherwise. Note inapplicability of cursor property over scrollbars, resizers, possibly other native UI widgets from input elements etc. (2015-02-10 f2f)
+  ; Resolution : Apply proposal from dbaron, 'auto' behaves as 'text' over text, and 'default' otherwise. Note inapplicability of cursor property over scrollbars, resizers, possibly other native UI widgets from input elements etc. (2015-02-10 f2f)
   ; Status : Pending editor's draft edit.
 
 ==== Issue 51 ====
