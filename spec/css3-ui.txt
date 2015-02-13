@@ -61,7 +61,16 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
   ; Proposed Resolution : replace "Clip inline content that overflows" with "Clip inline content that overflows its block container element".
   ; Status : pending group decision
 
-==== Issue new: 78 ====
+==== Issue 78 ====
+  ; Summary : Clarify that the :focus pseudo class matches when the focus is move to an element using the directional navigation properties, even if that element cannot otherwise be focused.
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0344.html
+  ; Proposed Resolution : Add this to css3-ui: "If an element that is otherwise not focusable becomes focusable through the use of the directional focus navigation properties, the :focus pseudo-class matches this element when it is focused."
+  ; Status : Pending group decision
+
+
+
+==== Issue new: 79 ====
   ; Summary :
   ; Raised by : Tantek Çelik
   ; URL : 
