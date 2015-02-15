@@ -70,7 +70,14 @@ http://www.w3.org/TR/CSS21/visudet.html#Computing_heights_and_margins based on m
 
 
 
-==== Issue new: 79 ====
+==== Issue 79 ====
+  ; Summary : CSS3-UI "does not define" stacking behavior  of outlines, but CSS2.1 and css-position do
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0357.html
+  ; Proposed Resolution : Either link to one of these two specs, or write down the interoperable behavior.
+  ; Status : pending group decision
+
+==== Issue new: 80 ====
   ; Summary :
   ; Raised by : Tantek Çelik
   ; URL : 
