@@ -70,7 +70,7 @@ text-orientation: sideways-right;
 
   - [[http://dev.w3.org/csswg/css-writing-modes-3/#valdef-text-orientation-sideways-right|text-orientation: sideways-right]] is needed for two reasons:
     * Some letters and punctuation characters may show up in upright if they are unified with vertical scripts in Unicode. See [[http://www.unicode.org/reports/tr50/|UTR#50]] which characters show up in upright if you don't specify this property.
-    * Baseline needs to be handled differently for vertical scripts and for horizontal scripts in vertical flow, and this property [[http://dev.w3.org/csswg/css-writing-modes-3/#text-baselines|changes it to be suitable for horizontal scripts]]. Note that you may feel this property is not needed because it doesn't make any differences, but it's simply because some browsers do not follow the spec correctly yet. Your content may be broken when they fix, or when your content are displayed in conformant browsers.
+    * Baseline needs to be handled differently for vertical scripts and for horizontal scripts in vertical flow, and this property [[http://dev.w3.org/csswg/css-writing-modes-3/#text-baselines|changes it to be suitable for horizontal scripts]]. Note that you may feel this property is not needed because it doesn't make any differences, but it's simply because some browsers do not follow the spec correctly yet. Your content may be broken when they fix, or when displayed in conformant browsers.
 
 ===== Counter-clockwise =====
 
