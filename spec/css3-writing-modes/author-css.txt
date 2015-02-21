@@ -11,16 +11,16 @@ Primary use of CSS Writing Modes in these scripts are not on the web but in the 
 ===== Chinese =====
 
 <code>
--webkit-writing-mode: vertical-rl;
 writing-mode: tb-rl;
+-webkit-writing-mode: vertical-rl;
 writing-mode: vertical-rl;
 </code>
 
 ===== Japanese =====
 
 <code>
--webkit-writing-mode: vertical-rl;
 writing-mode: tb-rl;
+-webkit-writing-mode: vertical-rl;
 writing-mode: vertical-rl;
 text-underline-position: right;
 @supports not(text-underline-position: right) {
@@ -36,16 +36,16 @@ text-underline-position: right;
 ===== Korean =====
 
 <code>
--webkit-writing-mode: vertical-rl;
 writing-mode: tb-rl;
+-webkit-writing-mode: vertical-rl;
 writing-mode: vertical-rl;
 </code>
 
 ===== Mongolian =====
 
 <code>
--webkit-writing-mode: vertical-lr;
 writing-mode: tb-lr;
+-webkit-writing-mode: vertical-lr;
 writing-mode: vertical-lr;
 text-orientation: sideways-right;
 </code>
@@ -61,8 +61,8 @@ Unlike vertical scripts, it is very unlikely to layout the whole HTML file in ve
 ===== Clockwise =====
 
 <code>
--webkit-writing-mode: vertical-rl;
 writing-mode: tb-rl;
+-webkit-writing-mode: vertical-rl;
 writing-mode: vertical-rl;
 -webkit-text-orientation: sideways-right;
 text-orientation: sideways-right;
@@ -75,8 +75,8 @@ text-orientation: sideways-right;
 ===== Counter-clockwise =====
 
 <code>
--webkit-writing-mode: vertical-rl;
 writing-mode: tb-rl;
+-webkit-writing-mode: vertical-rl;
 writing-mode: vertical-rl;
 -webkit-text-orientation: sideways-right;
 text-orientation: sideways-right;
