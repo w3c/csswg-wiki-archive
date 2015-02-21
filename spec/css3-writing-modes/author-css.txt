@@ -1,6 +1,6 @@
 The [[http://dev.w3.org/csswg/css-writing-modes-3/#block-flow|writing-mode]] property makes the block flow direction to vertical. However, how other typographic properties are adjusted in vertical flow varies by scripts and cultural conventions, and they will not set automatically. This is an unofficial guide for how authors want to adjust such properties, to help authors, and for us to understand which properties are used how.
 
-Any corrections, information, opinions, questions, please let [[mailto:kojiishi@gmail.com|me]] know.
+Any corrections, additional information, opinions, questions, please let [[mailto:kojiishi@gmail.com|me]] know.
 
 ====== Vertical Scripts ======
 
@@ -75,13 +75,16 @@ text-orientation: sideways-right;
 ===== Counter-clockwise =====
 
 <code>
-writing-mode: tb-rl;
--webkit-writing-mode: vertical-rl;
-writing-mode: vertical-rl;
--webkit-text-orientation: sideways-right;
-text-orientation: sideways-right;
-transform: rotate(180deg);
+@supports (writing-mode: bt-lr) {
+  writing-mode: bt-lr;
+}
+@supports not (writing-mode: bt-lr) {
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  -webkit-text-orientation: sideways-right;
+  text-orientation: sideways-right;
+  transform: rotate(180deg);
+}
 </code>
 
   - See above for the text-orientation property.
-  - IE supports this use case with [[https://msdn.microsoft.com/en-us/library/ie/ms531187(v=vs.85).aspx|writing-mode: bt-lr]]. Haven't really tried to write @supports to use that.
