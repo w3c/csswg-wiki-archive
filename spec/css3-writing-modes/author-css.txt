@@ -8,8 +8,6 @@ CSS defines [[http://dev.w3.org/csswg/css-writing-modes-3/#script-orientations|V
 
 Primary use of CSS Writing Modes in these scripts are not on the web but in the digital books today, where a few hundreds KB or sometimes a few MB of HTML files to be layout in vertical flow.
 
-Mixed, orthogonal flows are not often used.
-
 ===== Chinese =====
 
 <code>
@@ -50,7 +48,7 @@ text-orientation: sideways-right;
 
 Horizontal Only Scripts, as defined in [[http://dev.w3.org/csswg/css-writing-modes-3/#script-orientations|Vertical Scripts]] in CSS, do use vertical flow in heading, table cells, etc. Vertical flow for such scripts usually rotate the baseline and keep decorations along with the baseline.
 
-It is very unlikely to layout the whole HTML file in vertical flow. Rather, mixed, orthogonal flows are important.
+Unlike vertical scripts, it is very unlikely to layout the whole HTML file in vertical flow.
 
 ===== Clockwise =====
 
