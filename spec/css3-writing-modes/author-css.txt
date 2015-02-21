@@ -78,7 +78,7 @@ text-orientation: sideways-right;
 @supports (writing-mode: bt-lr) {
   writing-mode: bt-lr;
 }
-@supports not (writing-mode: bt-lr) {
+@supports not(writing-mode: bt-lr) {
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   -webkit-text-orientation: sideways-right;
