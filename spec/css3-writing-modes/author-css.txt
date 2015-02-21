@@ -75,9 +75,7 @@ text-orientation: sideways-right;
 ===== Counter-clockwise =====
 
 <code>
-@supports (writing-mode: bt-lr) {
-  writing-mode: bt-lr;
-}
+writing-mode: bt-lr;
 @supports not(writing-mode: bt-lr) {
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
