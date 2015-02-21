@@ -40,7 +40,7 @@ writing-mode: vertical-lr;
 text-orientation: sideways-right;
 </code>
 
-  - Mongolian is a vertical script, but it has very similar characteristics to horizontal scripts in vertical flow, so the use of the text-orientation property is strongly recommended. See [[#horizontal-only-scripts|Horizontal Only Scripts]] below for more details of this property.
+  - Mongolian is a vertical script, but it has very similar characteristics to horizontal scripts in vertical flow, so the use of the text-orientation property is strongly recommended. See [[author-css#horizontal-only-scripts|Horizontal Only Scripts]] below for more details of this property.
 ====== Horizontal Only Scripts ======
 
 Horizontal Only Scripts, as defined in [[http://dev.w3.org/csswg/css-writing-modes-3/#script-orientations|Vertical Scripts]] in CSS, do use vertical flow in heading, table cells, etc. Vertical flow for such scripts usually rotate the baseline and keep decorations along with the baseline.
