@@ -6,7 +6,7 @@ Any corrections, additional information, opinions, questions, please let [[mailt
 
 CSS defines [[http://dev.w3.org/csswg/css-writing-modes-3/#script-orientations|Vertical Scripts]]. These scripts use vertical flow for the main body text, and have established conventions for vertical flow layout.
 
-Primary use of CSS Writing Modes in these scripts are not on the web but in the digital books today, where the whole HTML file is layout in vertical flow, and the size is larger than on the web, such as a few hundreds KB or sometimes up to a few MB.
+Primary use of CSS Writing Modes in these scripts are not on the web but in the digital books today, where the whole HTML file is layout in vertical flow, and the size is larger than on the web, such as a few hundreds KB or sometimes up to a few MB. The performance of layout is important, and adopting to cultural conventions of the the vertical flow of the script is important.
 
 ===== Chinese =====
 
