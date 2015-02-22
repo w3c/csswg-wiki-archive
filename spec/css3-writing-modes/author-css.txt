@@ -12,7 +12,6 @@ Primary use of CSS Writing Modes in these scripts are not on the web but in the 
 
 <code>
 writing-mode: tb-rl;
--webkit-writing-mode: vertical-rl;
 writing-mode: vertical-rl;
 </code>
 
@@ -20,7 +19,6 @@ writing-mode: vertical-rl;
 
 <code>
 writing-mode: tb-rl;
--webkit-writing-mode: vertical-rl;
 writing-mode: vertical-rl;
 text-underline-position: right;
 @supports not(text-underline-position: right) {
@@ -37,7 +35,6 @@ text-underline-position: right;
 
 <code>
 writing-mode: tb-rl;
--webkit-writing-mode: vertical-rl;
 writing-mode: vertical-rl;
 </code>
 
@@ -45,7 +42,6 @@ writing-mode: vertical-rl;
 
 <code>
 writing-mode: tb-lr;
--webkit-writing-mode: vertical-lr;
 writing-mode: vertical-lr;
 text-orientation: sideways-right;
 </code>
@@ -62,9 +58,7 @@ Unlike vertical scripts, it is very unlikely to layout the whole HTML file in ve
 
 <code>
 writing-mode: tb-rl;
--webkit-writing-mode: vertical-rl;
 writing-mode: vertical-rl;
--webkit-text-orientation: sideways-right;
 text-orientation: sideways-right;
 </code>
 
@@ -77,9 +71,7 @@ text-orientation: sideways-right;
 <code>
 writing-mode: bt-lr;
 @supports not(writing-mode: bt-lr) {
-  -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
-  -webkit-text-orientation: sideways-right;
   text-orientation: sideways-right;
   transform: rotate(180deg);
 }
