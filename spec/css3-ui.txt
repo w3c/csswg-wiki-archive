@@ -64,8 +64,9 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Summary : Clarify that the :focus pseudo class matches when the focus is move to an element using the directional navigation properties, even if that element cannot otherwise be focused.
   ; Raised by : Florian Rivoal
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0344.html
-  ; Proposed Resolution : Add this to css3-ui: "If an element that is otherwise not focusable becomes focusable through the use of the directional focus navigation properties, the :focus pseudo-class matches this element when it is focused."
-  ; Status : Pending group decision
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0494.html (resolved during this telcon)
+  ; Proposed Resolution : Add normative text similar to: "If an element that is otherwise not focusable becomes focusable through the use of the directional focus navigation properties, the :focus pseudo-class matches this element when it is focused." and informative text explaining other options under consideration and welcome/actively soliciting input. Second, explicitly ask HTMLWG especially accessibility folks for input.
+  ; Status : Resolved at telcon 2015-02-25.
 
 
 
