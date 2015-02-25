@@ -74,8 +74,9 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Summary : CSS3-UI "does not define" stacking behavior  of outlines, but CSS2.1 and css-position do
   ; Raised by : Florian Rivoal
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0357.html
-  ; Proposed Resolution : Either link to one of these two specs, or write down the interoperable behavior.
-  ; Status : pending group decision
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0494.html (resolved during this telcon)
+  ; Resolution : Add some normative text to make it explicit that the stacking of focus outline is left to the impl to provide better user experience per platform, and that this overrides CSS 2.1.
+  ; Status : Resolved at telcon 2015-02-25.
 
 ==== Issue new: 80 ====
   ; Summary :
