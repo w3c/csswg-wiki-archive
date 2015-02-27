@@ -60,23 +60,6 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Proposed Resolution : replace "Clip inline content that overflows" with "Clip inline content that overflows its block container element".
   ; Status : Editorial, under consideration.
 
-==== Issue 78 ====
-  ; Summary : Clarify that the :focus pseudo class matches when the focus is move to an element using the directional navigation properties, even if that element cannot otherwise be focused.
-  ; Raised by : Florian Rivoal
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0344.html
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0494.html (resolved during this telcon)
-  ; Proposed Resolution : Add normative text similar to: "If an element that is otherwise not focusable becomes focusable through the use of the directional focus navigation properties, the :focus pseudo-class matches this element when it is focused." and informative text explaining other options under consideration and welcome/actively soliciting input. Second, explicitly ask HTMLWG especially accessibility folks for input.
-  ; Status : Resolved at telcon 2015-02-25.
-
-
-
-==== Issue 79 ====
-  ; Summary : CSS3-UI "does not define" stacking behavior  of outlines, but CSS2.1 and css-position do
-  ; Raised by : Florian Rivoal
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0357.html
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0494.html (resolved during this telcon)
-  ; Resolution : Add some normative text to make it explicit that the stacking of focus outline is left to the impl to provide better user experience per platform, and that this overrides CSS 2.1.
-  ; Status : Resolved at telcon 2015-02-25.
 
 ==== Issue 80 ====
   ; Summary : "Should drop ime-mode ASAP" is too strong as long as a better alternative has not been standardised
@@ -185,6 +168,23 @@ The following issues need an edit to be applied to the spec. Most of them have a
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0007.html
   ; Resolution : revert the change, invite proposals for another property/value to allow this. (2015-02-10 f2f)
   ; Status : Pending editor's draft edit.
+
+==== Issue 78 ====
+  ; Summary : Clarify that the :focus pseudo class matches when the focus is move to an element using the directional navigation properties, even if that element cannot otherwise be focused.
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0344.html
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0494.html (resolved during this telcon)
+  ; Proposed Resolution : Add normative text similar to: "If an element that is otherwise not focusable becomes focusable through the use of the directional focus navigation properties, the :focus pseudo-class matches this element when it is focused." and informative text explaining other options under consideration and welcome/actively soliciting input. Second, explicitly ask HTMLWG especially accessibility folks for input.
+  ; Status : Resolved at telcon 2015-02-25.
+
+==== Issue 79 ====
+  ; Summary : CSS3-UI "does not define" stacking behavior  of outlines, but CSS2.1 and css-position do
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0357.html
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0494.html (resolved during this telcon)
+  ; Resolution : Add some normative text to make it explicit that the stacking of focus outline is left to the impl to provide better user experience per platform, and that this overrides CSS 2.1.
+  ; Status : Resolved at telcon 2015-02-25.
+
 
 
 ===== Issues Pending dependent edits =====
