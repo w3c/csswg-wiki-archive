@@ -78,7 +78,14 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Resolution : Add some normative text to make it explicit that the stacking of focus outline is left to the impl to provide better user experience per platform, and that this overrides CSS 2.1.
   ; Status : Resolved at telcon 2015-02-25.
 
-==== Issue new: 80 ====
+==== Issue 80 ====
+  ; Summary : "Should drop ime-mode ASAP" is too strong as long as a better alternative has not been standardised
+  ; Raised by : Masayuki Nakano
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0530.html
+  ; Proposed Resolution : change to "Implementation may keep supporting it *only* for backward compatibility until alternative feature is standardized" or "Implementation may keep supporting it *only* for backward compatibility until alternative features are sufficiently developed and supported"
+  ; Status : pending decision
+
+==== Issue new: 81 ====
   ; Summary :
   ; Raised by : Tantek Çelik
   ; URL : 
