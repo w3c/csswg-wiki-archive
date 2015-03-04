@@ -53,7 +53,15 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Status : Issue noted inline in spec. Proposal Pending group discussion.
 
 
-==== Issue new: 81 ====
+==== Issue 81 ====
+  ; Summary : A few (mostly editorial) tweaks to the definition of the resize property
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Mar/0051.html
+  ; Proposed Resolution : see mail above
+  ; Status : Pending edits
+
+
+==== Issue new: 82 ====
   ; Summary :
   ; Raised by : Tantek Çelik
   ; URL : 
