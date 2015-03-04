@@ -61,7 +61,21 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Status : Pending edits
 
 
-==== Issue new: 82 ====
+==== Issue 82 ====
+  ; Summary : Drop the note and the at-risk mention about the "block container" aspect of the clip property, since it is the historic behavior implemented by everybody
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Mar/0053.html
+  ; Proposed Resolution : Drop the note and the at-risk mention about the "block container" aspect of the clip property
+  ; Status : pending edit
+
+==== Issue 83 ====
+  ; Summary : A couple of (mostly editorial) tweaks to the definition of the resize property
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Mar/0053.html
+  ; Proposed Resolution : see mail above
+  ; Status : pending edit
+
+==== Issue new: 84 ====
   ; Summary :
   ; Raised by : Tantek Çelik
   ; URL : 
