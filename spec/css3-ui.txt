@@ -52,6 +52,18 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Proposed Resolution : https://lists.w3.org/Archives/Public/www-style/2015Feb/0445.html
   ; Status : Issue noted inline in spec. Proposal Pending group discussion.
 
+==== Issue new: 84 ====
+  ; Summary :
+  ; Raised by : Tantek Çelik
+  ; URL : 
+  ; Proposed Resolution : 
+  ; Status : 
+
+===== Rejected Issues =====
+  * See https://www.w3.org/wiki/CSS3-UI#Rejected_Issues
+
+===== Issues Pending edits =====
+The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
 
 ==== Issue 81 ====
   ; Summary : A few (mostly editorial) tweaks to the definition of the resize property
@@ -75,20 +87,6 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Proposed Resolution : see mail above
   ; Status : pending edit
 
-==== Issue new: 84 ====
-  ; Summary :
-  ; Raised by : Tantek Çelik
-  ; URL : 
-  ; Proposed Resolution : 
-  ; Status : 
-
-===== Rejected Issues =====
-  * See https://www.w3.org/wiki/CSS3-UI#Rejected_Issues
-
-===== Issues Pending edits =====
-The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
-
-  * none currently
 
 ===== Issues Pending dependent edits =====
 Issues that are resolved, and require no specific edits, but are depending on edits for another issue to be completed.
