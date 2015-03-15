@@ -76,14 +76,6 @@ The following issues need an edit to be applied to the spec. Most of them have a
 ===== Issues Pending dependent edits =====
 Issues that are resolved, and require no specific edits, but are depending on edits for another issue to be completed.
 
-==== Issue 81 ====
-  ; Summary : A few (mostly editorial) tweaks to the definition of the resize property
-  ; Raised by : Florian Rivoal
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Mar/0051.html
-  ; Proposed Resolution : Suggested changes seem overall reasonable - do edits that reflect intent of tweaks.
-  ; Additional Resolution : drop "should not apply" text, use this text similar to this instead: "As generated content pseudo elements do not have a <a>style attribute</a>, how they are affected by the 'resize' property is undefined, but UAs must not redirect the effect of the 'resize'  property onto the parent element. Note: the resize property may apply to generated content in the future if there is implementation of Interface CSSPseudoElement."
-  ; Status : Editor's draft updated. Awaiting public draft. Note: After publication, consider either drop the "should not apply" sentence, or rephrase to "does not apply" for CSS3-UI if we get interop (multiple do nothings).
-
 ====== FAQ ======
 * Consider moving to https://www.w3.org/wiki/CSS3-UI/FAQ
 
@@ -238,7 +230,8 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_77
 See https://www.w3.org/wiki/CSS3-UI#Issue_78
 ==== Issue 79 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_79
-
+==== Issue 81 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_81
 ==== Issue 82 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_82
 ==== Issue 83 ===
