@@ -60,14 +60,6 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Status : pending group discussion
 
 
-==== Issue 85 ====
-  ; Summary : Tiny leftover of nav-index removal should be erased
-  ; Raised by : Tantek Çelik
-  ; URL : http://www.w3.org/mid/D34E1BE4-AAF8-4229-B137-3D156BE9DA0C@rivoal.net
-  ; Proposed Resolution : http://www.w3.org/mid/D34E1BE4-AAF8-4229-B137-3D156BE9DA0C@rivoal.net
-  ; Status : pending edit
-
-
 ==== Issue new: 86 ====
   ; Summary :
   ; Raised by : Tantek Çelik
@@ -80,6 +72,15 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
 
 ===== Issues Pending edits =====
 The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
+
+==== Issue 85 ====
+  ; Summary : Tiny leftover of nav-index removal should be erased
+  ; Raised by : Tantek Çelik
+  ; URL : http://www.w3.org/mid/D34E1BE4-AAF8-4229-B137-3D156BE9DA0C@rivoal.net
+  ; Proposed Resolution : http://www.w3.org/mid/D34E1BE4-AAF8-4229-B137-3D156BE9DA0C@rivoal.net
+  ; Status : pending edit
+
+
 
 ===== Issues Pending dependent edits =====
 Issues that are resolved, and require no specific edits, but are depending on edits for another issue to be completed.
