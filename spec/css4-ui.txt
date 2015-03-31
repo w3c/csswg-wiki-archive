@@ -257,16 +257,14 @@ For CSS4-UI:
 
 ====== css4-ui issues list ======
 
-===== 
-Current Issues =====
+===== Current Issues =====
 
 The editor's draft is here:
   * http://dev.w3.org/csswg/css-ui-4/
 
 For now, issues are primarily tracked inline, although this wiki contains relevant information that predates the creation of the draft.
 
-=====
-= Issues moved from css3-ui ======
+====== Issues moved from css3-ui ======
 
 The following issues were removed form css3-ui's issue list, as they pertain to features that were removed from that document. They are collected here, as these features may be reintroduced in css4-ui, and the issues would then still be relevant.
 
