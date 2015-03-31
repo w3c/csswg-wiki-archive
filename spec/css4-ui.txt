@@ -235,27 +235,7 @@ Implementation Status:
   * http://lists.w3.org/Archives/Public/www-style/2012Jul/0541.html
 
 Spec Status:
-  * not in any current draft.
-
-Last publication: 
-  * http://www.w3.org/TR/2000/WD-css3-userint-20000216#user-select
-
-Issues:
-  * 'all' vs. 'atomic' value (resolved)
-    * Gecko implementation of the 'all' value does not reflect last specified definition (2000).
-    * WebKit wants a 'atomic' value that acts as 'all' was specified in 2000.
-    * Might be possible to get Gecko to change its 'all' behavior to as specified and avoid introducing a new 'atomic' value.
-    * As of FF 33, the difference in behavior (non atomic select when doing keyboard selection) appears to be gone.
-  * 'none' vs. '-moz-none' value (Resolved)
-    * Gecko 'none' vs '-moz-none' differences: http://blogs.telerik.com/blogs/07-05-21/-moz-user-select--moz-none.aspx
-    * Gecko implementation of '-moz-none' (but not 'none') is like WebKit/IE/Opera's 'none' value.
-      * related: [[https://bugzilla.mozilla.org/show_bug.cgi?id=816298|Bugzilla 816298]]: Change "-moz-user-select:none" to behave like WebKit, IE, and Opera (and "-moz-user-select:-moz-none")
-    * From Firefox 21, '-moz-none' and 'none' in Firefox do the same as 'none' in other browsers
-
-For CSS4-UI:
-  * Minimum: spec the interoperable values among existing implementations (excluding 'all')
-  * Possibly: minimum plus keep 'all' as specified, and get Gecko fixed to be compliant
-  * Maximum: spec all values, including 'toggle' and 'elements' and file bugs accordingly with existing implementations to get those values implemented.
+  * draft here: http://dev.w3.org/csswg/css-ui-4/#content-selection
 
 ====== css4-ui issues list ======
 
