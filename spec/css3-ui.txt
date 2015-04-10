@@ -60,13 +60,56 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Status : pending group discussion
 
 
-==== Issue new: 86 ====
+==== Issue 86 ====
+  ; Summary : caret-color should be inherited, and auto should compute to auto
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0197.html
+  ; Proposed Resolution : wording proposed in the mail above
+  ; Status : pending
+
+==== Issue 87 ====
+  ; Summary : define what happens if a target-name starting with an "_" is provided
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0196.html
+  ; Proposed Resolution : proposed solution (b) in mail above, or leave explicitely undefined in level 3, and do b in level 4
+  ; Status : pending
+
+==== Issue 88 ====
+  ; Summary : incorrect prose (rtl issue) in in text-overflow
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0195.html
+  ; Proposed Resolution : patch in mail above
+  ; Status : pending
+
+==== Issue 89 ====
+  ; Summary : The precise direction of resizing is *not* left to the UA
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0194.html
+  ; Proposed Resolution : clarify that the precise definition for resizing falls out of CSS layout, and that the appearance of the resizing mechanism is left to the UA (exact wording proposed in mail above)
+  ; Status : pending
+
+==== Issue 90 ====
+  ; Summary : "the cursor’s coordinate system" is insufficiently define for various <image> values
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0193.html
+  ; Proposed Resolution : put a definition for each value in css-images, and reference from css-ui. Proposed definitions in the mail above
+  ; Status : pending
+
+==== Issue 91 ====
+  ; Summary : A few minor tweaks (essentially editorial) to css-ui
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0192.html
+  ; Proposed Resolution : see mail above
+  ; Status : pending
+
+==== Issue new: 92 ====
   ; Summary :
   ; Raised by : Tantek Çelik
   ; URL : 
   ; Proposed Resolution : 
   ; Status : 
-  
+
+
 ===== Rejected Issues =====
   * See https://www.w3.org/wiki/CSS3-UI#Rejected_Issues
 
