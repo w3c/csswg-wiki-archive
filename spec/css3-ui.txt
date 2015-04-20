@@ -102,7 +102,16 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
   ; Proposed Resolution : see mail above
   ; Status : pending
 
-==== Issue new: 92 ====
+==== Issue 92 ====
+  ; Summary : In vertical text with text-orientation upright, U+2026 does not seem to be the best character for the ellipsis
+  ; Raised by : Xidorn Xuan
+  ; URL : http://www.w3.org/mid/CAMdq69_N1aGTswQM7807xoZSK4berTsqq5H-cg07AmbgBPjUFA@mail.gmail.com
+  ; Proposed Resolution : 3 alternatives: 1) Do nothing and let authors use writing-mode aware fonts. 2) Allow UAs to take writing mode into account when choosing the ellipsis character. 3) Explicitly list U+22EE or U+FE19 as the character to use for vertical text.
+  ; Status : Pending
+
+
+
+==== Issue new: 93 ====
   ; Summary :
   ; Raised by : Tantek Çelik
   ; URL : 
