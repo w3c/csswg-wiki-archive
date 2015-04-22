@@ -18,7 +18,7 @@ This issues page is key to the work mode of CSS3-UI.
 ==== Steps to PR ====
   * √ Publish draft as [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0406.html|resolved in 2005-01-21 telcon]]
   * Continue resolving/editing per General Steps
-  * Resolve all issues 2014 or before and make edits
+  * √ Resolve all issues 2014 or before and make edits
   * Put out call for test cases - noting substantial feature stability
   * Publish draft with all 2014 or before issues resolved
   * Resolve/reject new 2015 issues as appropriate for an LCCR
@@ -42,72 +42,26 @@ General steps in rough order:
 The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui-20120117/|17 Jan 2012 CSS3-UI Working Draft]], and/or the latest [[http://dev.w3.org/csswg/css3-ui/|CSS3-UI Editor's Draft]].
 
 
-==== Issue 69 ====
-  ; Summary : box-sizing insufficiently specified for replaced elements
-  ; Raised by : Boris Zbarsky
-  ; URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0232.html
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2011Jul/att-0232/test.html (test case from Boris, 100px intrinsic size, max-height 100, borders 40 + 40)
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0243.html - two test pages, 3 tests each with/without box-sizing of SVG embedded images with intrinsic width and/or ratio.
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Feb/0245.html - box-sizing test with different border-width and max-height values
-  ; Proposed Resolution : https://lists.w3.org/Archives/Public/www-style/2015Feb/0445.html
-  ; Status : Issue noted inline in spec. Proposal Pending group discussion.
-
 ==== Issue 84 ====
   ; Summary : no file format required by the spec for cursor
   ; Raised by : Florian Rivoal
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Mar/0199.html
   ; Proposed Resolution : mandate .cur and .ico, all static image formats supported by the browser including SVG in secure static mode (if SVG is supported by the browser). Add a "should" requirement for animated images formats supported by the browsers (GIF, APNG, .ani) including SVG secure animated mode.
-  ; Status : pending group discussion
-
-
-==== Issue 86 ====
-  ; Summary : caret-color should be inherited, and auto should compute to auto
-  ; Raised by : Florian Rivoal
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0197.html
-  ; Proposed Resolution : wording proposed in the mail above
-  ; Status : pending
-
-==== Issue 87 ====
-  ; Summary : define what happens if a target-name starting with an "_" is provided
-  ; Raised by : Florian Rivoal
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0196.html
-  ; Proposed Resolution : proposed solution (b) in mail above, or leave explicitely undefined in level 3, and do b in level 4
-  ; Status : pending
-
-==== Issue 88 ====
-  ; Summary : incorrect prose (rtl issue) in in text-overflow
-  ; Raised by : Florian Rivoal
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0195.html
-  ; Proposed Resolution : patch in mail above
-  ; Status : pending
-
-==== Issue 89 ====
-  ; Summary : The precise direction of resizing is *not* left to the UA
-  ; Raised by : Florian Rivoal
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0194.html
-  ; Proposed Resolution : clarify that the precise definition for resizing falls out of CSS layout, and that the appearance of the resizing mechanism is left to the UA (exact wording proposed in mail above)
-  ; Status : pending
+  ; Status : Resolved. Github patch in progress. https://github.com/w3c/csswg-drafts/pull/18
 
 ==== Issue 90 ====
   ; Summary : "the cursor’s coordinate system" is insufficiently define for various <image> values
   ; Raised by : Florian Rivoal
   ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0193.html
   ; Proposed Resolution : put a definition for each value in css-images, and reference from css-ui. Proposed definitions in the mail above
-  ; Status : pending
-
-==== Issue 91 ====
-  ; Summary : A few minor tweaks (essentially editorial) to css-ui
-  ; Raised by : Florian Rivoal
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0192.html
-  ; Proposed Resolution : see mail above
-  ; Status : pending
+  ; Status : pending discussion and editing of css-images.
 
 ==== Issue 92 ====
   ; Summary : In vertical text with text-orientation upright, U+2026 does not seem to be the best character for the ellipsis
   ; Raised by : Xidorn Xuan
   ; URL : http://www.w3.org/mid/CAMdq69_N1aGTswQM7807xoZSK4berTsqq5H-cg07AmbgBPjUFA@mail.gmail.com
-  ; Proposed Resolution : 3 alternatives: 1) Do nothing and let authors use writing-mode aware fonts. 2) Allow UAs to take writing mode into account when choosing the ellipsis character. 3) Explicitly list U+22EE or U+FE19 as the character to use for upright vertical text.
-  ; Status : Pending
+  ; Proposed Resolution : 3 alternatives: 1) Do nothing and let authors use writing-mode aware fonts. 2) Allow UAs to take writing mode into account when choosing the ellipsis character. 3) Explicitly list U+22EE or U+FE19 as the character to use for upright vertical text. Consensus appears to be ok with no change to the spec.
+  ; Status : Pending discussion.
 
 
 
@@ -270,6 +224,8 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_66
 See https://www.w3.org/wiki/CSS3-UI#Issue_67
 ==== Issue 68 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_68
+==== Issue 69 ===
+See https://www.w3.org/wiki/CSS3-UI#Issue_69
 
 ==== Issue 70 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_70
@@ -291,10 +247,22 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_77
 See https://www.w3.org/wiki/CSS3-UI#Issue_78
 ==== Issue 79 ===
 See https://www.w3.org/wiki/CSS3-UI#Issue_79
+
 ==== Issue 81 ====
 See https://www.w3.org/wiki/CSS3-UI#Issue_81
-==== Issue 82 ===
+==== Issue 82 ====
 See https://www.w3.org/wiki/CSS3-UI#Issue_82
-==== Issue 83 ===
+==== Issue 83 ====
 See https://www.w3.org/wiki/CSS3-UI#Issue_83
 
+==== Issue 86 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_86
+==== Issue 87 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_87
+==== Issue 88 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_88
+==== Issue 89 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_89
+
+==== Issue 91 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_91
