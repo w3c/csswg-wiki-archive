@@ -59,7 +59,14 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
 
 
 
-==== Issue new: 93 ====
+==== Issue 93 ====
+  ; Summary : "cursor: default" collides with the css-wide "default" value defined in css-cascade-4
+  ; Raised by : Florian Rivoal
+  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Apr/0329.html
+  ; Proposed Resolution : 3 alternatives proposed in mail above, not sure any one of them is good.
+  ; Status : pending
+
+==== Issue new: 94 ====
   ; Summary :
   ; Raised by : Tantek Çelik
   ; URL : 
