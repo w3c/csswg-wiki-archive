@@ -42,12 +42,6 @@ General steps in rough order:
 The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui-20120117/|17 Jan 2012 CSS3-UI Working Draft]], and/or the latest [[http://dev.w3.org/csswg/css3-ui/|CSS3-UI Editor's Draft]].
 
 
-==== Issue 84 ====
-  ; Summary : no file format required by the spec for cursor
-  ; Raised by : Florian Rivoal
-  ; URL : https://lists.w3.org/Archives/Public/www-style/2015Mar/0199.html
-  ; Proposed Resolution : mandate .cur and .ico, all static image formats supported by the browser including SVG in secure static mode (if SVG is supported by the browser). Add a "should" requirement for animated images formats supported by the browsers (GIF, APNG, .ani) including SVG secure animated mode.
-  ; Status : Resolved. Github patch in progress. https://github.com/w3c/csswg-drafts/pull/18
 
 ==== Issue 90 ====
   ; Summary : "the cursor’s coordinate system" is insufficiently define for various <image> values
