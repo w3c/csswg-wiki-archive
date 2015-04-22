@@ -78,21 +78,14 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
 
 ===== Issues Pending edits =====
 The following issues need an edit to be applied to the spec. Most of them have a WG resolution, and those that don't are editorial/non-controversial and don't need a resolution.
-
-==== Issue 85 ====
-  ; Summary : Tiny leftover of nav-index removal should be erased
-  ; Raised by : Tantek Çelik
-  ; URL : http://www.w3.org/mid/D34E1BE4-AAF8-4229-B137-3D156BE9DA0C@rivoal.net
-  ; Proposed Resolution : http://www.w3.org/mid/D34E1BE4-AAF8-4229-B137-3D156BE9DA0C@rivoal.net
-  ; Status : pending edit
-
-
+  * none currently
 
 ===== Issues Pending dependent edits =====
 Issues that are resolved, and require no specific edits, but are depending on edits for another issue to be completed.
+  * none currently
 
 ====== FAQ ======
-* Consider moving to https://www.w3.org/wiki/CSS3-UI/FAQ
+  * Consider moving to https://www.w3.org/wiki/CSS3-UI/FAQ
 
 ===== text-overflow for non-latin scripts =====
 Q: Many non latin scripts use something else than 3 dots for the same effect as an ellipsis. How does this work?
@@ -255,6 +248,8 @@ See https://www.w3.org/wiki/CSS3-UI#Issue_82
 ==== Issue 83 ====
 See https://www.w3.org/wiki/CSS3-UI#Issue_83
 
+==== Issue 85 ====
+See https://www.w3.org/wiki/CSS3-UI#Issue_85
 ==== Issue 86 ====
 See https://www.w3.org/wiki/CSS3-UI#Issue_86
 ==== Issue 87 ====
