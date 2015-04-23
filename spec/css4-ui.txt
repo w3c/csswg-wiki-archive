@@ -77,7 +77,7 @@ nav-focus: _normal_ | ignore | focus
     * There's an empty documentation page for [[https://developer.mozilla.org/en-US/docs/CSS/::-moz-placeholder|::-moz-placeholder]] which is implemented as of Firefox 19.
   * :placeholder-shown pseudo-class for when an input element is in the state of showing its placeholder text
     * See [[ideas/placeholder-styling|placeholder styling]] for more detailed exploration of :placeholder vs. ::placeholder (or potentially both). 
-    * [[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:-moz-placeholder]] documentation
+    * [[https://developer.mozilla.org/en/CSS/%3a-moz-placeholder|:-moz-placeholder]] documentation ([[https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder|deprecated in FF19]])
     * [[https://bugzilla.mozilla.org/show_bug.cgi?id=457801|Mozilla bug 457801]]:  Implement -moz-placeholder pseudo-class - big long discussion of pseudo-class vs. pseudo-element etc.
   * [[https://wiki.mozilla.org/CSS/:autofill|:autofill]] pseudo-class for when an input element is in the state of showing an autofilled value. Related implementer bugs (not yet implemented) :
     * [[https://bugzilla.mozilla.org/show_bug.cgi?id=740979|:-moz-autofill]] implementation bug
