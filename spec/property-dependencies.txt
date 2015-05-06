@@ -8,7 +8,7 @@ This page lists the ways in which the computed value of one property depends on 
 | currentColor (css3-color), initial value of border (CSS21) | every property taking color values (...) | color |
 | % units (CSS21) | vertical-align | line-height |
 | % units (CSS21) | line-height | font-size |
-| logical box properties (css3-writing-modes) | ??? | direction |
+| logical box properties (css3-writing-modes) | ??? | direction, writing-mode, text-orientation |
 | text-align: match-parent (css3-text) | text-align | direction |
 | 'none' and 'hidden' (CSS21) | border-*-width | border-*-style |
 | 'none' and 'hidden' (CSS21) | outline-width | outline-style |
