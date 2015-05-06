@@ -12,8 +12,10 @@ This page lists the ways in which the computed value of one property depends on 
 ===== Other Dependencies =====
 
 ^ Depended-on property ^ Dependent property ^ Reason ^
+| align-items, justify-items | align-self, justify-self | ''auto'' value |
 | border-*-style | border-*-width | 'none' and 'hidden' (CSS21) |
 | column-rule-style | column-rule-width | 'none' and 'hidden' (css3-columns) |
+| display | align-content, justify-content | ''auto'' value |
 | font-size | line-height | % units (CSS21) |
 | direction, writing-mode, text-orientation | ??? | logical box properties (css3-writing-modes) |
 | direction | text-align | text-align: match-parent (css3-text) |
@@ -21,4 +23,5 @@ This page lists the ways in which the computed value of one property depends on 
 | outline-style | outline-width | 'none' and 'hidden' (CSS21) |
 | position | float | absolute/fixed position makes float:none (CSS21) |
 | position, float | display | float/position make things block-like (CSS21) |
+| position | align-content, justify-content | ''auto'' value |
 | ??? | content | content: normal (css3-content) |
