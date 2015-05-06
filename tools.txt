@@ -4,7 +4,7 @@ The CSSWG uses some tools to make our jobs easier. Here they are!
 
   * This DokuWiki (obviously)
   * [[http://www.w3.org/Mail/|W3C Mailing Lists]]: specifically [[tools:www-style|www-style]] for our specs, [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]] for testing, and [[http://lists.w3.org/Archives/Public/public-fx/|public-fx]] for specs we co-edit with the [[http://www.w3.org/Graphics/SVG/|SVGWG]]. We also have an [[http://lists.w3.org/Archives/Member/w3c-css-wg/|internal list]] for administrivia.
-  * [[tools:git|Git/GitHub]] or [[tools:hg|Mercurial]] are both used as the version control system for our [[spec|specs]] and our [[test|tests]].
+  * [[tools:git|Git/GitHub]] or [[tools:hg|Mercurial]] can be used to access the version control system for our [[spec|specs]] and our [[test|tests]].
   * [[https://www.w3.org/blog/CSS/wp-admin/|WordPress]] runs our [[http://www.w3.org/blog/CSS/|official blog]]
   * [[https://www.w3.org/Style/CSS/Tracker/|CSS Tracker]], [[https://www.w3.org/Graphics/fx/track/|FXTF Tracker]], [[https://www.w3.org/Bugs/Public/|Bugzilla]], and [[spec|this wiki]] are used to track spec issues. (Newer specs will link to their issues list in the header.)
   * [[http://test.csswg.org/shepherd/|Shepherd]] is used to track test suite bugs.
