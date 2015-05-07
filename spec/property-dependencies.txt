@@ -16,6 +16,7 @@ This page lists the ways in which the computed value of one property depends on 
 | border-*-style | border-*-width | 'none' and 'hidden' (CSS21) |
 | column-rule-style | column-rule-width | 'none' and 'hidden' (css3-columns) |
 | display | align-content, justify-content | ''auto'' value |
+| display | box-suppress | ''display:none'' makes ''box-suppress'' compute to ''discard'' |
 | font-size | line-height | % units (CSS21) |
 | direction, writing-mode, text-orientation | ??? | logical box properties (css3-writing-modes) |
 | direction | text-align | text-align: match-parent (css3-text) |
