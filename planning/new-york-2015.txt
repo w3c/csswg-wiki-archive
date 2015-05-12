@@ -147,3 +147,6 @@ Culture
   * CSS 2.2 First Public Working Draft
   * Flexbox Order accessibility issues / scalable solutions
   * CSS content visibility to AT and testing
+  * CSS zoom property
+  * position: fragment
+  * box-percent-sizing a.k.a percent resolution for top/bottom paddings and margins
