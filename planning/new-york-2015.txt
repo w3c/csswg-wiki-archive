@@ -150,3 +150,6 @@ Culture
   * CSS zoom property
   * position: fragment
   * box-percent-sizing a.k.a percent resolution for top/bottom paddings and margins
+  * CSS-UI Level 3 (last?) review before CR (please read the draft)
+  * CSS-UI Level 4
+  * pre-wrap and white space processing http://www.w3.org/mid/D5DE724A-F45D-479A-8289-CFC3F9E3C8DB@rivoal.net
