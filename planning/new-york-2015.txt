@@ -153,3 +153,4 @@ Culture
   * CSS-UI Level 3 (last?) review before CR (please read the draft)
   * CSS-UI Level 4
   * pre-wrap and white space processing http://www.w3.org/mid/D5DE724A-F45D-479A-8289-CFC3F9E3C8DB@rivoal.net
+  * initial value of text-decoration-skip http://www.w3.org/mid/8283F7A2-0368-4889-A599-A9E7580C43F6@rivoal.net
