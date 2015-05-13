@@ -7,7 +7,7 @@
 ==== Meeting Minutes ====
 
 **Monday, 9 February:**
-  * Part I
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0185.html|Part I]] CSS 2.1 Issues, Font Loading API
   * Part II
   * Part III
   * Part IV
