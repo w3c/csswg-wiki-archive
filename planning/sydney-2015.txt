@@ -7,10 +7,24 @@
 ==== Meeting Minutes ====
 
 **Monday, 9 February:**
-  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0185.html|Part I]] CSS 2.1 Issues, Font Loading API
-  * Part II
-  * Part III
-  * Part IV
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0185.html|Part I]], CSS 2.1 Issues, Font Loading API
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0186.html|Part II]], Selectors, Text Level 4
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0187.html|Part III]], Sizing, Text
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0188.html|Part IV]], Writing Modes, Multi-line/Block Ellipsis
+
+**Tuesday, 10 February:**
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0313.html|Part I]], Rounded Displays
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0314.html|Part II]], CSS UI
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0315.html|Part III]], CSS Inline
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0316.html|Part IV]], Page Floats, @extend
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0317.html|Part V]], <custom-ident>, Flexbox, Form Control Styling, CSS Snapshot, CSS2.1, Obsoleting CSS3-Linebox
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0318.html|Part VI]], New Publication Process, Upcoming Meeting Dates and Locations, CSS Ruby
+
+**Wednesday, 11 February:**
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0369.html|Part I]], CSS3-UI box-sizing, Interaction between Overflow, Positioning and Filters 
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0370.html|Part II]], Filter Effects, CSS Blending, Colored Font Palette Control, text-rendering
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0371.html|Part III]], Transitions, CSS Transforms, Web Animations
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0372.html|Part IV]], ID-less Referencing, Referencing Properties, Text in a Shape, Flexbox, ::selection
 
 ==== Place ====
 
