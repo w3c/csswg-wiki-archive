@@ -145,14 +145,15 @@ Culture
 
 ==== Proposed Agenda Topics ====
 
-  * CSS 2.2 First Public Working Draft
-  * Flexbox Order accessibility issues / scalable solutions
-  * CSS content visibility to AT and testing
-  * CSS zoom property
-  * position: fragment
-  * box-percent-sizing a.k.a percent resolution for top/bottom paddings and margins
-  * CSS-UI Level 3 (last?) review before CR (please read the draft)
-  * CSS-UI Level 4
-  * pre-wrap and white space processing http://www.w3.org/mid/D5DE724A-F45D-479A-8289-CFC3F9E3C8DB@rivoal.net
-  * initial value of text-decoration-skip http://www.w3.org/mid/8283F7A2-0368-4889-A599-A9E7580C43F6@rivoal.net
-  * Grid abspos issues https://lists.w3.org/Archives/Public/www-style/2015May/0148.html
+  * CSS 2.2 First Public Working Draft (added by ?)
+  * Flexbox Order accessibility issues / scalable solutions (added by ?)
+  * CSS content visibility to AT and testing (added by ?)
+  * CSS zoom property (added by ?)
+  * position: fragment (added by ?)
+  * box-percent-sizing a.k.a percent resolution for top/bottom paddings and margins (added by ?)
+  * CSS-UI Level 3 (last?) review before CR (please read the draft) (added by ?)
+  * CSS-UI Level 4 (added by ?)
+  * pre-wrap and white space processing http://www.w3.org/mid/D5DE724A-F45D-479A-8289-CFC3F9E3C8DB@rivoal.net (added by ?)
+  * initial value of text-decoration-skip http://www.w3.org/mid/8283F7A2-0368-4889-A599-A9E7580C43F6@rivoal.net (added by ?)
+  * Grid abspos issues https://lists.w3.org/Archives/Public/www-style/2015May/0148.html (added by ?)
+  * Scroll snap and elements (added by smfr)
