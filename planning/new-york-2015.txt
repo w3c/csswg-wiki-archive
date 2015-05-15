@@ -159,3 +159,5 @@ Culture
   * initial value of text-decoration-skip http://www.w3.org/mid/8283F7A2-0368-4889-A599-A9E7580C43F6@rivoal.net (added by ?)
   * Grid abspos issues https://lists.w3.org/Archives/Public/www-style/2015May/0148.html (added by ?)
   * Scroll snap and elements (added by smfr)
+  * font-display-loading property (Font Loading) [Tuesday late afternoon, jdaggett/heycam dial-in]
+  * load/check methods of FontFaceSet (Font Loading) [Tuesday late afternoon, jdaggett/heycam dial-in]
