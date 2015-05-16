@@ -159,7 +159,7 @@ Culture
   * pre-wrap and white space processing http://www.w3.org/mid/D5DE724A-F45D-479A-8289-CFC3F9E3C8DB@rivoal.net (added by Florian)
   * initial value of text-decoration-skip http://www.w3.org/mid/8283F7A2-0368-4889-A599-A9E7580C43F6@rivoal.net (added by Florian) [any time after pre-wrap & white space processing]
   * Grid abspos issues https://lists.w3.org/Archives/Public/www-style/2015May/0148.html (added by ?)
-  * Scroll snap and elements (added by smfr)
+  * Scroll-snap-coordinate behaviors (added by smfr)
   * [[https://lists.w3.org/Archives/Public/www-style/2015Apr/0216.html|font-display-loading property]] (Font Loading) [Tuesday late afternoon, jdaggett/heycam dial-in]
   * [[https://lists.w3.org/Archives/Public/www-style/2015May/0002.html|load/check methods of FontFaceSet]] (Font Loading) [Tuesday late afternoon, jdaggett/heycam dial-in]
   * [[http://dev.w3.org/csswg/css-writing-modes-3/|CSS Writing Modes]] open issues (Koji would like to call in, early time appreciated)
