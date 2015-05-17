@@ -162,4 +162,4 @@ Culture
   * Scroll-snap-coordinate behaviors (added by smfr)
   * [[https://lists.w3.org/Archives/Public/www-style/2015Apr/0216.html|font-display-loading property]] (Font Loading) [Tuesday late afternoon, jdaggett/heycam dial-in]
   * [[https://lists.w3.org/Archives/Public/www-style/2015May/0002.html|load/check methods of FontFaceSet]] (Font Loading) [Tuesday late afternoon, jdaggett/heycam dial-in]
-  * [[http://dev.w3.org/csswg/css-writing-modes-3/|CSS Writing Modes]] open issues (Koji would like to call in, early time appreciated)
+  * [[http://dev.w3.org/csswg/css-writing-modes-3/#issues-index|CSS Writing Modes open issues]] (Koji would like to call in, early time appreciated)
