@@ -18,7 +18,7 @@ This page lists the ways in which the computed value of one property depends on 
 | display | align-content, justify-content | ''auto'' value |
 | display | box-suppress | ''display:none'' makes ''box-suppress'' compute to ''discard'' |
 | font-size | line-height | % units (CSS21) |
-| direction, writing-mode, text-orientation | ??? | logical box properties (css3-writing-modes) |
+| direction, writing-mode, text-orientation | ??? (some on element, some on parent) | logical box properties (css3-logical-props) |
 | direction | text-align | text-align: match-parent (css3-text) |
 | line-height | vertical-align | % units (CSS21) |
 | outline-style | outline-width | 'none' and 'hidden' (CSS21) |
@@ -26,3 +26,4 @@ This page lists the ways in which the computed value of one property depends on 
 | position, float | display | float/position make things block-like (CSS21) |
 | position | align-content, justify-content | ''auto'' value |
 | ??? | content | content: normal (css3-content) |
+| ruby-position, display | writing-mode | ruby-position: inter-character (css-ruby) |
