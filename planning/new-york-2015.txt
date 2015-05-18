@@ -157,7 +157,7 @@ Monday morning
 Monday afternoon
 
   * pre-wrap and white space processing http://www.w3.org/mid/D5DE724A-F45D-479A-8289-CFC3F9E3C8DB@rivoal.net (added by Florian)
-  * CSS 2.2 First Public Working Draft (added by ?)
+  * CSS 2.2 First Public Working Draft (added by chris)
   * CSS zoom property (added by ?)
   * Scroll-snap-coordinate behaviors (added by smfr)
 
