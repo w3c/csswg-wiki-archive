@@ -195,6 +195,7 @@ Wednesday morning
   * CSS-UI Level 3 (last?) review before CR (please read the draft) (added by Florian) [Preferably Tuesday or Wednesday]
   * CSS-UI Level 4 (added by Florian) [Preferably Tuesday or Wednesday]
   * position: fragment (added by ?)
+  * PROPOSAL: "The CSSWG produces drafts that often use new CSS features for live examples, and thus such CSS Validator errors MUST NOT block publishing of such drafts."  The hope is that by resolving on this publicly as a group, we can reduce some of the human-to-human bottleneck in getting drafts published using the current process, and provide a strong case for Echidna dropping or modifying its automatic requirement for CSS validation.
 
 Wednesday afternoon
 
