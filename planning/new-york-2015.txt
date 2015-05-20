@@ -202,6 +202,6 @@ Wednesday afternoon
   * position: fragment (added by ?)
   * CSS Flexbox Order accessibility issues / scalable solutions (added by Bo Campbell) [Preferably NOT first thing, Monday]
   * CSS content visibility to AT and testing (added by Bo Campbell)  [Preferably NOT first thing, Monday]
-  * transitions
+  * <del>transitions</del>
   * [[https://lists.w3.org/Archives/Public/www-style/2015May/0002.html|load/check methods of FontFaceSet]] (Font Loading) [Tuesday late afternoon, jdaggett/heycam dial-in]
   * Carto CSS https://github.com/mapbox/carto
