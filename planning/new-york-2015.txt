@@ -165,7 +165,7 @@ Wednesday: 5:28am and again at 6:28am
 Friday: 6:28am
   * rotating - location TBD
 
-==== Proposed Agenda Topics ====
+==== Agenda ====
 
 Monday morning
 
@@ -189,7 +189,6 @@ Tuesday afternoon
 
   * box-percent-sizing a.k.a percent resolution for top/bottom paddings and margins (added by ?)
   * [[https://lists.w3.org/Archives/Public/www-style/2015Apr/0216.html|font-display-loading property]] (Font Loading) [Tuesday late afternoon, jdaggett/heycam dial-in]
-  * [[https://lists.w3.org/Archives/Public/www-style/2015May/0002.html|load/check methods of FontFaceSet]] (Font Loading) [Tuesday late afternoon, jdaggett/heycam dial-in]
 
 Wednesday morning
 
