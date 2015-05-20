@@ -12,10 +12,13 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 ==== Participants ====
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
-| Simon Sapin | | | home | |
 | Alan Stearns | ?? | ?? | ?? | ?? |
 | L. David Baron | ?? | ?? | Apartment | ?? |
 | Shane Stephens | ?? | ?? | ?? | ?? |
+| Simon Sapin | | | home | |
+| Tab Atkins | ?? | ?? | ?? | ?? |
+
+(alphabetical by first name, plzkthx)
 ==== Proposed Agenda Topics ====
 
   *
