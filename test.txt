@@ -18,7 +18,7 @@ Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/p
   * [[http://fantasai.inkedblade.net/style/tests/about/css21ts/|Slideshow Overview]]
 ===== Infrastructure =====
 
-  * [[http://hg.csswg.org/|CSSWG Test Suite Mercurial server]]
+  * [[https://hg.csswg.org/|CSSWG Test Suite Mercurial server]]
   * [[https://github.com/w3c/csswg-test|CSSWG Test Suite Github Mirror]]
   * [[test:pullrequests|Merging Pull Requests]]
   * [[test:css2.1:harness|Build System Documentation]]
