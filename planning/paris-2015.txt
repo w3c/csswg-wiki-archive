@@ -13,6 +13,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
 | Alan Stearns | ?? | ?? | ?? | ?? |
+| Andrey Rybka | ?? | ?? | ?? | ?? |
 | Greg Whitworth | ?? | ?? | ?? | ?? |
 | Ian Kilpatrick | ?? | ?? | ?? | ?? |
 | L. David Baron | ?? | ?? | Apartment | ?? |
@@ -20,6 +21,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 | Shane Stephens | ?? | ?? | ?? | ?? |
 | Simon Sapin | | | home | |
 | Tab Atkins | ?? | ?? | ?? | ?? |
+
 
 (alphabetical by first name, plzkthx)
 ==== Proposed Agenda Topics ====
