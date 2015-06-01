@@ -57,7 +57,7 @@ There are currently no known issues with this specification.
   ; Proposed Resolution : reject, "Ellipsed" is in some dictionaries, "Ellipsized" is not
   ; Status : Pending
 
-==== Issue new: 97 ====
+==== Issue new: 96 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
   ; URL : 
