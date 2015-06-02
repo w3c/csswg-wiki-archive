@@ -64,12 +64,20 @@ There are currently no known issues with this specification.
   ; Proposed Resolution : leave as is, already clear enough
   ; Status : pending
 
-==== Issue new: 96 ====
+==== Issue 97 ====
   ; Summary : Make stronger statement regarding authors disabling the outline on :focus
   ; Raised by : timeless
   ; URL : http://www.w3.org/mid/CACsW8eEQVD9K48FMt0UR7=c7S1=3LmX=itcnfc8UNE6WPRsBGg@mail.gmail.com
   ; Proposed Resolution : Clarify why it is important, do not make threats of what third parties might do if this requirement is violated.
   ; Status : pending
+
+
+==== Issue new: 98 ====
+  ; Summary : 
+  ; Raised by : Tantek Çelik
+  ; URL : 
+  ; Proposed Resolution :
+  ; Status :
 
 
 ===== Rejected Issues =====
