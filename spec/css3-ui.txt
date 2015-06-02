@@ -72,7 +72,14 @@ There are currently no known issues with this specification.
   ; Status : pending
 
 
-==== Issue new: 98 ====
+==== Issue 98 ====
+  ; Summary : Add note saying the outline-color may be ignored if outline-style is auto
+  ; Raised by : Timeless
+  ; URL : http://www.w3.org/mid/CACsW8eEQVD9K48FMt0UR7=c7S1=3LmX=itcnfc8UNE6WPRsBGg@mail.gmail.com
+  ; Proposed Resolution : Reject, this is already stated 2 lines above.
+  ; Status : pending
+
+==== Issue new: 99 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
   ; URL : 
