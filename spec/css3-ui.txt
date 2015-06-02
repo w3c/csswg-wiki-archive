@@ -58,11 +58,11 @@ There are currently no known issues with this specification.
   ; Status : Pending
 
 ==== Issue new: 96 ====
-  ; Summary : 
-  ; Raised by : Tantek Çelik
-  ; URL : 
-  ; Proposed Resolution : 
-  ; Status :
+  ; Summary : Clarify the at-risk section
+  ; Raised by : timeless
+  ; URL : http://www.w3.org/mid/CACsW8eEQVD9K48FMt0UR7=c7S1=3LmX=itcnfc8UNE6WPRsBGg@mail.gmail.com
+  ; Proposed Resolution : leave as is, already clear enough
+  ; Status : pending
 
 
 ===== Rejected Issues =====
