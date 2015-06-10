@@ -48,7 +48,7 @@ There are currently no known issues with this specification.
   ; Summary : Clarify the at-risk section
   ; Raised by : timeless
   ; URL : http://www.w3.org/mid/CACsW8eEQVD9K48FMt0UR7=c7S1=3LmX=itcnfc8UNE6WPRsBGg@mail.gmail.com
-  ; Proposed Resolution : leave as is, already clear enough, perhaps make some editorial improvements.
+  ; Proposed Resolution : Attempt to clarify
   ; Status : 2015-06-10 WG telcon resolved up to editors.
 
 
