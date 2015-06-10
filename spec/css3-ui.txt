@@ -48,7 +48,7 @@ There are currently no known issues with this specification.
   ; Raised by : Timeless
   ; URL : http://www.w3.org/mid/CACsW8eGS3kZQ8a3jPAgrDaXW1WVmUQLo5vYzYty991JZzxMVdw@mail.gmail.com
   ; Proposed Resolution : accept proposal, since all browsers that implement resize do this.
-  ; Status : 2015-06-10 WG telcon resolved to accept. Draft edit pending.
+  ; Status : 2015-06-10 WG telcon resolved to accept. Editor Draft updated to match.
 
 ==== Issue 95 ====
   ; Summary : "Ellipsed" isn't in the dictionary, use "Ellipsized" instead
