@@ -43,12 +43,6 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
 
 There are currently no known issues with this specification.
 
-==== Issue 94 ====
-  ; Summary : The default stylesheet for HTML should have "resize: both" for <textarea>
-  ; Raised by : Timeless
-  ; URL : http://www.w3.org/mid/CACsW8eGS3kZQ8a3jPAgrDaXW1WVmUQLo5vYzYty991JZzxMVdw@mail.gmail.com
-  ; Proposed Resolution : accept proposal, since all browsers that implement resize do this.
-  ; Status : 2015-06-10 WG telcon resolved to accept. Editor Draft updated to match.
 
 ==== Issue 96 ====
   ; Summary : Clarify the at-risk section
