@@ -48,36 +48,37 @@ There are currently no known issues with this specification.
   ; Raised by : Timeless
   ; URL : http://www.w3.org/mid/CACsW8eGS3kZQ8a3jPAgrDaXW1WVmUQLo5vYzYty991JZzxMVdw@mail.gmail.com
   ; Proposed Resolution : accept proposal, since all browsers that implement resize do this.
-  ; Status : Pending
+  ; Status : 2015-06-10 WG telcon resolved to accept. Draft edit pending.
 
 ==== Issue 95 ====
   ; Summary : "Ellipsed" isn't in the dictionary, use "Ellipsized" instead
   ; Raised by : Timeless
   ; URL : http://www.w3.org/mid/CACsW8eGS3kZQ8a3jPAgrDaXW1WVmUQLo5vYzYty991JZzxMVdw@mail.gmail.com
   ; Proposed Resolution : reject, "Ellipsed" is in some dictionaries, "Ellipsized" is not
-  ; Status : Pending
+  ; Status : 2015-06-10 WG telcon resolved to reject. Such editorial wording is up to editors.
 
 ==== Issue 96 ====
   ; Summary : Clarify the at-risk section
   ; Raised by : timeless
   ; URL : http://www.w3.org/mid/CACsW8eEQVD9K48FMt0UR7=c7S1=3LmX=itcnfc8UNE6WPRsBGg@mail.gmail.com
-  ; Proposed Resolution : leave as is, already clear enough
-  ; Status : pending
+  ; Proposed Resolution : leave as is, already clear enough, perhaps make some editorial improvements.
+  ; Status : 2015-06-10 WG telcon resolved up to editors.
 
 ==== Issue 97 ====
   ; Summary : Make stronger statement regarding authors disabling the outline on :focus
   ; Raised by : timeless
   ; URL : http://www.w3.org/mid/CACsW8eEQVD9K48FMt0UR7=c7S1=3LmX=itcnfc8UNE6WPRsBGg@mail.gmail.com
   ; Proposed Resolution : Clarify why it is important, do not make threats of what third parties might do if this requirement is violated.
-  ; Status : pending
-
+  ; Status : 2015-06-10 WG telcon resolved to reject. Threat request rejected as out of scope for a W3C spec.
 
 ==== Issue 98 ====
   ; Summary : Add note saying the outline-color may be ignored if outline-style is auto
   ; Raised by : Timeless
   ; URL : http://www.w3.org/mid/CACsW8eEQVD9K48FMt0UR7=c7S1=3LmX=itcnfc8UNE6WPRsBGg@mail.gmail.com
   ; Proposed Resolution : Reject, this is already stated 2 lines above.
-  ; Status : pending
+  ; Status : Editors consensus to reject.
+
+
 
 ==== Issue new: 99 ====
   ; Summary : 
