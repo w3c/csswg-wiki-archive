@@ -53,12 +53,20 @@ There are currently no known issues with this specification.
 
 
 ==== Issue new: 99 ====
+  ; Summary : spec unclear as to what the limits of the area where the cursor should apply are when using border-radius
+  ; Raised by : Florian Rivoal
+  ; URL : http://www.w3.org/mid/020131AE-4EBD-4504-82A6-6C14C44A2DD8@rivoal.net
+  ; Proposed Resolution : clarify that the edge of the applicable area follow the border radius, to match implementations
+  ; Status : pending
+
+
+
+==== Issue new: 100 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
   ; URL : 
   ; Proposed Resolution :
   ; Status :
-
 
 ===== Rejected Issues =====
   * See https://www.w3.org/wiki/CSS3-UI#Rejected_Issues
