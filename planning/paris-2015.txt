@@ -23,6 +23,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 | L. David Baron | ?? | ?? | Apartment | ?? |
 | Matt Rakow | ?? | ?? | ??| ?? |
 | Peter Linss | ?? | ?? | ?? | ?? |
+| Rachel Andrew | ?? | ?? | ?? | [observer] |
 | Rossen Atanassov | ?? | ?? | ?? | ?? |
 | Shane Stephens | ?? | ?? | ?? | ?? |
 | Simon Sapin | | | home | |
@@ -34,4 +35,5 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 (alphabetical by first name, plzkthx)
 ==== Proposed Agenda Topics ====
 
-  *
+  * Writing Modes - DoC and re-CR
+  * Grid Layout - LC?
