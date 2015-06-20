@@ -44,15 +44,7 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
 There are currently no known issues with this specification.
 
 
-==== Issue 96 ====
-  ; Summary : Clarify the at-risk section
-  ; Raised by : timeless
-  ; URL : http://www.w3.org/mid/CACsW8eEQVD9K48FMt0UR7=c7S1=3LmX=itcnfc8UNE6WPRsBGg@mail.gmail.com
-  ; Proposed Resolution : Attempt to clarify
-  ; Status : 2015-06-10 WG telcon resolved up to editors.
-
-
-
+There are currently no know issue in the spec.
 ==== Issue new: 101 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
