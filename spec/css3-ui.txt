@@ -44,7 +44,6 @@ The following are open issues in/with the [[http://www.w3.org/TR/2012/WD-css3-ui
 There are currently no known issues with this specification.
 
 
-There are currently no know issue in the spec.
 ==== Issue new: 101 ====
   ; Summary : 
   ; Raised by : Tantek Çelik
