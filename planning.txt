@@ -6,6 +6,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 
 [[planning:agenda|Agenda Scratchspace]]
 
+[[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
   * [[planning:2015]]
     * 2015-05-18..20 [[planning:new-york-2015]] (Bloomberg)
