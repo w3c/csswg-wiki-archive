@@ -2,6 +2,9 @@
 
    * Host: Mozilla
    * Dates: Tuesday-Thursday, August 25-27, 2015
+   * Nearby events:
+   *   * [[https://lists.w3.org/Archives/Public/public-editing-tf/2015Jun/0023.html|Editing TF meeting]] (Sunday-Monday 23-24)
+   *   * [[https://wiki.css-houdini.org/planning/paris-2015|Houdini meeting]] (Friday-Saturday 28-29)
 
 
 ==== Location ====
