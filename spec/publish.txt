@@ -80,6 +80,43 @@ Replace !!!!marked!!!! items. Here's an [[http://lists.w3.org/Archives/Public/ww
   !!!!your signature!!!!
 
 
+===== Template for CR Announcement to www-style =====
+
+The www-style message is your chance to update WG and www-style members who haven't been reading all of your module's deeply involved threads as to what's happening with your module, as well as put out an explicit call for implementations.
+
+Replace !!!!marked!!!! items. Here's an [[https://lists.w3.org/Archives/Public/www-style/2015Jul/0096.html|example CR announcement]]:
+
+  ; To : www-style@
+  ; Subject : [CSSWG][!!!!css-foo!!!!] CR of !!!!CSS Foo L#!!!!
+  ; Body : 
+
+
+  The CSS WG has published a Candidate Recommendation of the !!!!CSS Foo Module Level #!!!!:
+  
+      !!!!http://www.w3.org/TR/css-foo-#/!!!!
+  
+  !!!!one-sentence summary of module!!!!
+  
+  !!!!What's new, what's cool, what you'd like feedback on, and what to expect
+  going forward!!!!
+  
+  Significant changes are listed at:
+  
+    !!!!http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes  **note dated URL!** !!!!
+  
+  Disposition of comments:
+    
+    !!!http://dev.w3.org/csswg/css-foo/issues-YYYY-YYYY.html !!!!
+
+  Please send any comments to this mailing list, <www-style@w3.org>, and 
+  please, prefix the subject line with
+  
+      [!!!!css-foo!!!!]
+  
+  (as I did on this message).
+  
+  For the CSS WG,
+  !!!!your signature!!!!
 ===== Template for WD Announcement to Blog =====
 
 The [[http://www.w3.org/blog/CSS|CSSWG blog]] is your communication channel to people who aren't technical enough or devoted enough to follow www-style. Take advantage of it, and engage your audience. **[[https://www.w3.org/blog/CSS/wp-admin/|Log in to CSSWG Blog]]**
