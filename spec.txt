@@ -43,7 +43,7 @@ These are being actively developed. Sometimes used to be CRs that need major rev
   * [[spec:css-shapes|CSS Shapes]]
 ===== brainstorming =====
 This section outlines active possibilities for future specs or notes
-  * [[spec:css-round-display]]
+  * [[spec:css-round-display|CSS Round Display]]
   * [[spec:css-backgrounds-4]]
   * [[spec:css-pseudo-4|CSS Pseudo Elements Level 4]] (collecting features and ideas)
   * [[spec:css4-color|CSS Color Level 4]] (collecting features and ideas)
