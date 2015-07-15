@@ -6,13 +6,24 @@
 
 ==== Meeting Minutes ====
 
-**Monday, 9 February:**
-  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0185.html|Part I]], CSS 2.1 Issues, Font Loading API
-  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0186.html|Part II]], Selectors, Text Level 4
-  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0187.html|Part III]], Sizing, Text
-  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0188.html|Part IV]], Writing Modes, Multi-line/Block Ellipsis
+**Monday, 18 May:**
+  * [[https://lists.w3.org/Archives/Public/www-style/2015May/0279.html|Part I]], CSS Break, Communicating the State of CSS
+  * [[https://lists.w3.org/Archives/Public/www-style/2015May/0280.html|Part II]], Grid Issues
+  * [[https://lists.w3.org/Archives/Public/www-style/2015May/0281.html|Part III]], Pre-Wrap and White Space Processing, CSS 2.2
+  * [[https://lists.w3.org/Archives/Public/www-style/2015May/0282.html|Part IV]], CSS Zoom, Scroll Snap Point Behaviors
 
+**Tuesday, 19 May:**
+  * [[https://lists.w3.org/Archives/Public/www-style/2015May/0313.html|Part I]], Writing Modes
+  * [[https://lists.w3.org/Archives/Public/www-style/2015May/0314.html|Part II]], text-decoration-skip, Box Percent Sizing
+  * [[https://lists.w3.org/Archives/Public/www-style/2015May/0315.html|Part III]], font-display-loading property
 
+**Wednesday, 20 May:**
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0241.html|Part I]], CSS UI 3, Publication of Specs that Use Their Own Properties as Examples 
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0242.html|Part II]], CSS UI 4: user-select, CSS UI 4: caret styling, Future Meetings
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0243.html|Part III]], position-fragment
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0244.html|Part IV]], Flexbox Order Accessibility
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0245.html|Part V]], Font Loading
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0246.html|Part VI]], load/check FontFaceSet, Carto CSS
 ==== Place ====
 
   * Bloomberg NYC: 731 Lexington Ave, New York, NY
