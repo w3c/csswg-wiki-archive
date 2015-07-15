@@ -2,7 +2,16 @@
 
    * Host: Bloomberg
    * Dates: Monday-Wednesday, May 18-20, 2015
-   *   * Note that the weekend after the meeting is a holiday weekend in the USA (the following Monday is Memorial Day)
+     * Note that the weekend after the meeting is a holiday weekend in the USA (the following Monday is Memorial Day)
+
+==== Meeting Minutes ====
+
+**Monday, 9 February:**
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0185.html|Part I]], CSS 2.1 Issues, Font Loading API
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0186.html|Part II]], Selectors, Text Level 4
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0187.html|Part III]], Sizing, Text
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0188.html|Part IV]], Writing Modes, Multi-line/Block Ellipsis
+
 
 ==== Place ====
 
