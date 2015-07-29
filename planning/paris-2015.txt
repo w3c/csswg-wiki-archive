@@ -50,3 +50,5 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * Grid Layout - LC?
   * User stylesheets
   * CSS IG
+  * Percentage heights in grid and flex containers
+  * Absolute positioning in grid and flex containers
