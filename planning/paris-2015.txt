@@ -24,6 +24,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 | Dave Cramer | 24 Aug | 30 Aug | ?? | UA 987 / UA 986 |
 | Dean Jackson | ?? | ?? | ?? | ?? |
 | Dirk Schulze | ?? | ?? | ?? | ?? |
+| Edward O'Connor | 22 Aug | 29 Aug | Hôtel Edouard 7 | UA0990 / UA0991, attending CSS WG but not Houdini | 
 | fantasai | 23 Aug | 28 Aug | [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0072.html|apt share]]| BA / Icelandair |
 | Florian Rivoal | 22 Aug | 30 Aug | [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0072.html|apt share]] | ?? |
 | Greg Whitworth | ?? | ?? | ?? | ?? |
@@ -37,7 +38,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 | Rachel Andrew | 24 Aug | ?? | ?? | [observer] |
 | Rossen Atanassov | ?? | ?? | ?? | ?? |
 | Shane Stephens | ?? | ?? | ?? | ?? |
-| Simon Fraser | ?? | ?? | ?? | ?? |
+| Simon Fraser | ?? | ?? | ?? | ??, attending last day of CSS WG and both Houdini days |
 | Simon Pieters | August 24 | August 30 | Vivienne | AF1263 / AF1262 (CDG) |
 | Simon Sapin | | | home | |
 | Steve Zilles | August 24 | August 31 | apartment | Thai Air 930 |
