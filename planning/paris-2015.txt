@@ -21,7 +21,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 | Brian Birtles | ?? | ?? | ?? | observer from Mozilla (and SVG WG) |
 | Cameron McCormack | ?? | ?? | ?? | observer from Mozilla (and SVG WG) |
 | Chris Lilley | 22 Aug | 30 Aug | ?? | AF6207/ AF6248  |
-| Dael Jackson | ?? | ?? | [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0072.html|apt share]] | ?? |
+| Dael Jackson | 23 Aug | 30 Aug | [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0072.html|apt share]] | AA754 / AA755 |
 | Dave Cramer | 24 Aug | 30 Aug | ?? | UA 987 / UA 986 |
 | Dean Jackson | ?? | ?? | ?? | ??, attending last day of CSS WG and both Houdini days |
 | Dirk Schulze | ?? | ?? | ?? | ?? |
