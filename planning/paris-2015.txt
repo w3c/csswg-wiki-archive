@@ -63,6 +63,7 @@ Anton Prowse
   * CSS IG
   * Percentage heights in grid and flex containers
   * Absolute positioning in grid and flex containers
+  * Make sure Mozilla is OK with keyframe interaction decision
 
 === Miscellaneous ===
 
