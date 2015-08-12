@@ -59,6 +59,7 @@ Anton Prowse
 ==== Proposed Agenda Topics ====
 
   * Writing Modes - DoC and re-CR
+  * CSS Inline - Review edits, Review vertical alignment section, republish?
   * Grid Layout - LC?
   * User stylesheets
   * CSS IG
