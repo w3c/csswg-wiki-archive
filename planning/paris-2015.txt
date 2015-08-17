@@ -71,6 +71,7 @@ Anton Prowse
   * max-content for flex items https://lists.w3.org/Archives/Public/www-style/2015Jul/0429.html
   * fill-available sizing
   * CSS Round Display - demo, issues, FPWD?
+  * will-change (on Thurs please) - smfr
 
 === Miscellaneous ===
 
