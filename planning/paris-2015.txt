@@ -1,0 +1,90 @@
+====== Paris F2F August 2015 ======
+
+   * Host: Mozilla
+   * Dates: Tuesday-Thursday, August 25-27, 2015
+   * Nearby events:
+     * [[https://lists.w3.org/Archives/Public/public-editing-tf/2015Jun/0023.html|Editing TF meeting]] (Sunday-Monday 23-24)
+     * [[https://wiki.css-houdini.org/planning/paris-2015|Houdini meeting]] (Friday-Saturday 28-29)
+
+
+==== Location ====
+
+[[https://wiki.mozilla.org/Paris|Mozilla Paris]], 16bis Boulevard Montmartre, 75009 Paris, France
+
+See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directions on finding and entering the space
+==== Participants ====
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Alan Stearns | 21 Aug | 30 Aug | Apt | ?? |
+| Andrey Rybka | ?? | ?? | ?? | ?? |
+| Bert | 24 Aug | 29 Aug | Vivienne | train (Gare de Lyon) A: 21:41 / D: 18:19 |
+| Brian Birtles | ?? | ?? | ?? | observer from Mozilla (and SVG WG) |
+| Cameron McCormack | ?? | ?? | ?? | observer from Mozilla (and SVG WG) |
+| Chris Lilley | 22 Aug | 30 Aug | Hôtel Eugène en Ville | AF6207/ AF6248  |
+| Dael Jackson | 23 Aug | 30 Aug | [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0072.html|apt share]] | AA754 / AA755 |
+| Dave Cramer | 24 Aug | 30 Aug | Hotel Peletier-Haussmann | UA 987 / UA 986 |
+| Dean Jackson | ?? | ?? | ?? | ??, attending last day of CSS WG and both Houdini days |
+| Dirk Schulze | ?? | ?? | ?? | ?? |
+| Edward O'Connor | 22 Aug | 29 Aug | Hôtel Edouard 7 | UA0990 / UA0991, attending CSS WG but not Houdini | 
+| Elliott Sprehn | ?? | ?? | ?? | ?? |
+| fantasai | 23 Aug | 28 Aug | [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0072.html|apt share]]| BA / Icelandair |
+| Florian Rivoal | 22 Aug | 30 Aug | [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0072.html|apt share]] | ?? |
+| Greg Whitworth | ?? | ?? | ?? | ?? |
+| Hiroshi Sakakibara | 23 Aug | ?? | ?? | ?? |
+| Hyojin Song | 24 Aug | 29 Aug | Hyatt Regency Paris Etoile | OZ 501 / OZ 502 |
+| Ian Kilpatrick | ?? | ?? | ?? | ?? |
+| Jihye Hong | 24 Aug | 29 Aug | Hyatt Regency Paris Etoile | OZ 501 / OZ 502 |
+| Johannes Wilm | 22 Aug | 29 Aug | [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0072.html|apt share]] | ?? |
+| L. David Baron | ?? | 30 Aug | Apartment | train / AF80 |
+| Lea Verou | 21/8 | 30/8 | Hôtel Eugène en Ville | AF1441 |
+| Liam Quin    | 25 Aug | 30 Aug | best Western Opera Roncay  | AC 880 / CDG |
+| Matt Rakow | ?? | ?? | ??| ?? |
+| Ojan Vafai | ?? | ?? | ?? | ?? |
+| Peter Linss | 23 Aug | 31 Aug | Best Western | UA 990 / UA 914 |
+| Rachel Andrew | 24 Aug | 30 Aug | Apartment | [observer] BA 314 / Train|
+| Rossen Atanassov | ?? | ?? | ?? | ?? |
+| Sam Weinig | ?? | ?? | ?? | ??, attending/observing first day |
+| Shane Stephens | ?? | ?? | ?? | ?? |
+| Simon Fraser | ?? | ?? | ?? | ??, attending last day of CSS WG and both Houdini days |
+| Simon Pieters | August 24 | August 30 | Vivienne | AF1263 / AF1262 (CDG) |
+| Simon Sapin | | | home | |
+| Steve Zilles | August 24 | August 31 | apartment | Thai Air 930 |
+| Tab Atkins | ?? | ?? | [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0072.html|apt share]] | US786 arriving CDG Aug 23 8:25, AA755 departing CDG Aug 30 13:20 |
+| Tantek Çelik |2015-08-22|2015-08-29| Apartment | UA0990 / UA0991 | 
+
+(alphabetical by first name, plzkthx)
+
+**Regrets**
+
+Anton Prowse
+==== Proposed Agenda Topics ====
+
+  * Snapshot 2015 and Prefix Policy
+  * Writing Modes - DoC and re-CR
+  * CSS Inline - Review edits, Review vertical alignment section, republish?
+  * Grid Layout - LC?
+  * User stylesheets
+  * CSS IG
+  * Percentage heights in grid and flex containers
+  * Absolute positioning in grid and flex containers
+  * Make sure Mozilla is OK with keyframe interaction decision
+  * Ruby? https://lists.w3.org/Archives/Public/www-style/2015Jul/0091.html https://lists.w3.org/Archives/Public/www-style/2015Jul/0165.html
+  * max-content for flex items https://lists.w3.org/Archives/Public/www-style/2015Jul/0429.html
+  * fill-available sizing
+  * CSS Round Display - demo, issues, FPWD?
+  * will-change (on Thurs please) - smfr
+  * CSS Page Floats (on Thursday, see https://lists.w3.org/Archives/Public/www-style/2015Jul/0410.html , https://lists.w3.org/Archives/Public/www-style/2015Aug/0167.html , https://lists.w3.org/Archives/Public/www-style/2015Jun/0334.html ): 
+    * Do we need to say more about non-overlapping than that the margin boxes of given elements are not overlapping?
+    * Do we need two dimensional page floats (up and right)?
+    * Do we need/want page floats in non-fragmenting contexts?
+    * Do we need to be able to control the placement order of page floats within a fragmentainer?
+  * CSS UI 4 feedback - tab
+  * Input Modality (http://radar.oreilly.com/2015/08/proposing-css-input-modailty.html) - tab, bkardell
+  * 
+=== Miscellaneous ===
+
+  * fantasai owes SimonSapin 120EUR
+  * plinss and fantasai should update hg.csswg.org/index.html
+==== Proposed Agenda Topics [fx] ====
+  * SVG images without intrinsic size in CSS border-image (added by dino)
+  * SVG-as-image and loading external resources (added by smfr)
