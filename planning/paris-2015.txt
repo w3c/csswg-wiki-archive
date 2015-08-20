@@ -81,7 +81,7 @@ Anton Prowse
   * Ruby? https://lists.w3.org/Archives/Public/www-style/2015Jul/0091.html https://lists.w3.org/Archives/Public/www-style/2015Jul/0165.html
   * max-content for flex items https://lists.w3.org/Archives/Public/www-style/2015Jul/0429.html
   * fill-available sizing
-  * CSS Round Display - demo, issues, FPWD?
+  * CSS Round Display - demo, issues, FPWD? (early AM Wednesday)
   * will-change (on Thurs please) - smfr
   * CSS Page Floats (on Thursday, see https://lists.w3.org/Archives/Public/www-style/2015Jul/0410.html , https://lists.w3.org/Archives/Public/www-style/2015Aug/0167.html , https://lists.w3.org/Archives/Public/www-style/2015Jun/0334.html ): 
     * Do we need to say more about non-overlapping than that the margin boxes of given elements are not overlapping?
