@@ -90,6 +90,7 @@ Anton Prowse
     * Do we need to be able to control the placement order of page floats within a fragmentainer?
   * CSS UI 4 feedback - tab
   * Input Modality (http://radar.oreilly.com/2015/08/proposing-css-input-modailty.html) - tab, bkardell
+  * snap points & oversized elements - tab
 
 === Miscellaneous ===
 
