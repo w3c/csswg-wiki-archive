@@ -103,3 +103,4 @@ Anton Prowse
   * SVG images without intrinsic size in CSS border-image (added by dino)
   * SVG-as-image and loading external resources (added by smfr)
   * Matrix Interpolation revisited (added by shans)
+  * SLERPing and 0deg angles (https://lists.w3.org/Archives/Public/public-fx/2015JulSep/0046.html) (added by shans)
