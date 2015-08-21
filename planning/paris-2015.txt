@@ -73,7 +73,7 @@ Anton Prowse
   * Writing Modes - DoC and re-CR
   * CSS Inline - Review edits, Review vertical alignment section, republish?
   * Grid Layout - LC?
-  * User stylesheets
+  * User stylesheets (chris)
   * CSS IG
   * Percentage heights in grid and flex containers
   * Absolute positioning in grid and flex containers
