@@ -89,7 +89,7 @@ Anton Prowse
     * Do we need/want page floats in non-fragmenting contexts?
     * Do we need to be able to control the placement order of page floats within a fragmentainer?
   * CSS UI 4 feedback - tab
-  * Control Characters Status Update from all UAs https://drafts.csswg.org/css-text/#white-space-processing
+  * Control Characters Status Update from all UAs https://drafts.csswg.org/css-text/#white-space-processing - greg
   * Input Modality (http://radar.oreilly.com/2015/08/proposing-css-input-modailty.html) - tab, bkardell (Thursday please)
   * snap points & oversized elements - tab
   * [[http://www.w3.org/TR/2015/WD-dpub-css-priorities-20150820/|“Priorities for CSS from the DPub IG”]] (Bert): I propose we try to say for each requirement
