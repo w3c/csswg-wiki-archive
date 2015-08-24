@@ -103,6 +103,8 @@ Anton Prowse
     - Is it in scope for CSS (and if not, where might it be solved)?
     - If in scope, what might a solution look like, roughly?
   * Japanese Industry meet-up
+  * css-text-4
+    * pre-wrap-* and longhands of white-space https://lists.w3.org/Archives/Public/www-style/2015Jun/0099.html
 
 === Miscellaneous ===
 
