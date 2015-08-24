@@ -72,8 +72,8 @@ Anton Prowse
   * Snapshot 2015 and Prefix Policy
   * Writing Modes - DoC and re-CR
   * CSS Inline - Review edits, Review vertical alignment section, republish?
-  * Grid Layout - LC?
-  * User stylesheets (chris)
+  * Grid Layout - Issues
+  * User stylesheets (Chris)
   * CSS IG
   * css cascade to informal LC?
   * css fragmentation
@@ -85,6 +85,9 @@ Anton Prowse
   * Ruby? https://lists.w3.org/Archives/Public/www-style/2015Jul/0091.html https://lists.w3.org/Archives/Public/www-style/2015Jul/0165.html
   * max-content for flex items https://lists.w3.org/Archives/Public/www-style/2015Jul/0429.html
   * fill-available sizing
+  * FlexBox
+    * remaining issues
+    * CR?
   * CSS Round Display - demo, issues, FPWD? (early AM Wednesday)
   * will-change (on Thurs please) - smfr
   * CSS Page Floats (on Thursday, see https://lists.w3.org/Archives/Public/www-style/2015Jul/0410.html , https://lists.w3.org/Archives/Public/www-style/2015Aug/0167.html , https://lists.w3.org/Archives/Public/www-style/2015Jun/0334.html ): 
@@ -94,7 +97,7 @@ Anton Prowse
     * Do we need to be able to control the placement order of page floats within a fragmentainer?
   * CSS UI
     * Feedback from Tab
-      * note about user-select:none and editting
+      * note about user-select:none and editing
       * caret-animation / caret-blink-time
       * appearance property
       * renaming user-select: text ?
