@@ -102,6 +102,7 @@ Anton Prowse
   * [[http://www.w3.org/TR/2015/WD-dpub-css-priorities-20150820/|“Priorities for CSS from the DPub IG”]] (Bert): I propose we try to say for each requirement
     - Is it in scope for CSS (and if not, where might it be solved)?
     - If in scope, what might a solution look like, roughly?
+  * Japanese Industry meet-up
 
 === Miscellaneous ===
 
