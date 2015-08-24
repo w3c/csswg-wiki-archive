@@ -69,7 +69,7 @@ http://www.ratp.fr/informer/trafic/travaux_ratp.php lists all maintenance works 
 Anton Prowse
 ==== Proposed Agenda Topics ====
 
-  * r12a would like us to <a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0120.html">switch to GitHub</a> for all spec discussions
+  * r12a would like us to [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0120.html|switch to GitHub]] for all spec discussions
   * Snapshot 2015 and Prefix Policy
   * Writing Modes - DoC and re-CR
   * CSS Inline - Review edits, Review vertical alignment section, republish?
