@@ -75,6 +75,7 @@ Anton Prowse
   * Grid Layout - LC?
   * User stylesheets (chris)
   * CSS IG
+  * css cascade to informal LC?
   * css fragmentation
     * naming issues
     * go to CR ?
