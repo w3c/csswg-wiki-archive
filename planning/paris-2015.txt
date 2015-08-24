@@ -16,8 +16,8 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 === Transport Notes ===
 
 Some notes about transport in Paris around this week.   There are some lines shut down for maintenance.  In particular, I've seen signage that:
-  * RER line A (the middle east-west RER line through the center) [[http://travaux-ete-rera.ratp.fr/fr/|is closed]] between La Defense and Auber exclusive (i.e., the western half of its run through the center of Paris) from July 25 through August 23, inclusive
-  * RER line C (the southern east-west RER line through the center) [[https://vianavigo.com/fr/actualites-trafic/detail-actualite-vianavigo-vos-transports-en-commun-en-ile-de-france-optile-ratp-sncf/article/rer-c-travaux-castor-du-15-juillet-au-22-aout-7/|is closed]] between Avenue Henri Martin/Javel and Gare d'Austerlitz (exclusive), July 15 through August 22
+  * <del>RER line A (the middle east-west RER line through the center) [[http://travaux-ete-rera.ratp.fr/fr/|is closed]] between La Defense and Auber exclusive (i.e., the western half of its run through the center of Paris) from July 25 through August 23, inclusive</del>
+  * <del>RER line C (the southern east-west RER line through the center) [[https://vianavigo.com/fr/actualites-trafic/detail-actualite-vianavigo-vos-transports-en-commun-en-ile-de-france-optile-ratp-sncf/article/rer-c-travaux-castor-du-15-juillet-au-22-aout-7/|is closed]] between Avenue Henri Martin/Javel and Gare d'Austerlitz (exclusive), July 15 through August 22</del>
   * Metro line 4 (a north-south metro line through Paris) [[http://www.ratp.fr/fr/ratp/v_133187/metro-ligne-4-interruption-partielle-de-trafic-du-27-au-30-aout-2015/|is closed]] north of Reaumur-Sebastopol (exclusive) from 27-30 August (inclusive).  This includes its stops at Gare du Nord and Gare de l'Est, although other metro lines (including the 5) will still stop there
 although I haven't found a central listing of all of the maintenance closures, although https://vianavigo.com/fr/actualites-trafic/ is close.
 
