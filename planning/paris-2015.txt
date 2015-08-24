@@ -94,6 +94,7 @@ Anton Prowse
       * caret-animation / caret-blink-time
       * appearance property
       * renaming user-select: text ?
+    * cursor behavior when elements overlap is ambiguous https://lists.w3.org/Archives/Public/www-style/2015Aug/0010.html
     * text-overflow: fade
     * FPWD for CSS-UI-4?
   * Control Characters Status Update from all UAs https://drafts.csswg.org/css-text/#white-space-processing - greg
