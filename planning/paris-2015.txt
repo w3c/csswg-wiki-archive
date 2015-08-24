@@ -75,6 +75,9 @@ Anton Prowse
   * Grid Layout - LC?
   * User stylesheets (chris)
   * CSS IG
+  * css fragmentation
+    * naming issues
+    * go to CR ?
   * Percentage heights in grid and flex containers
   * Absolute positioning in grid and flex containers
   * Make sure Mozilla is OK with keyframe interaction decision
