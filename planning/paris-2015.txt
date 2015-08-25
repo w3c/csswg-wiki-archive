@@ -121,6 +121,7 @@ Anton Prowse, John Daggett
 
   * Getting to pagination https://lists.w3.org/Archives/Public/www-style/2015Aug/0179.html (dauwhe)
   * First draft of [[https://tabatkins.github.io/specs/css-apply-rule/|@apply rule]] (simple mixins, powered by Custom Properties)
+  * Animations 2
 
 === PM ===
 
@@ -131,7 +132,6 @@ Anton Prowse, John Daggett
   * CSS Inline - Review edits, Review vertical alignment section, republish? (jdaggett dialin)
   * fill-available sizing
   * selectors
-  * Animations 2
 
 
 
