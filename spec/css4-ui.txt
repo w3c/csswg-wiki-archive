@@ -86,6 +86,7 @@ nav-focus: _normal_ | ignore | focus
   * [[https://developer.mozilla.org/en-US/docs/CSS/:-moz-user-disabled|:user-disabled]] matches elements representing images that were not loaded because images have been entirely disabled by the user's preferences
   * [[https://developer.mozilla.org/en-US/docs/CSS/:-moz-suppressed|:suppressed]] for elements representing images that were not loaded because loading images from that site has been blocked.
   * [[https://developer.mozilla.org/en-US/docs/CSS/:-moz-loading|:loading]] for elements none of which can be displayed because they have not started loading, such as images that haven't started to arrive yet.  Note that images that are in the process of loading are not matched by this pseudo-class.
+  * :playing, :paused on media elements, for styling custom media controls
   * [[https://developer.mozilla.org/en/CSS/%3a%3a-moz-progress-bar|::progress-bar]] pseudo-element for selecting and styling the area of an HTML progress element that represents the amount of progress that has happened so far. This lets you, for example, change the color of progress bars.
   *  :valid-drop-zone, :invalid-drop-zone - a drop-zone (as Mozilla implements [[https://developer.mozilla.org/en/CSS/:-moz-drag-over|:-moz-drag-over]]) that is valid/invalid.
     * :valid-drop-zone - a drop zone that accepts the type of data being dragged
