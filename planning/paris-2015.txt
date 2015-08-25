@@ -80,7 +80,6 @@ Anton Prowse, John Daggett
   * css fragmentation
     * naming issues
     * go to CR ?
-  * Make sure Mozilla is OK with keyframe interaction decision
   * Control Characters Status Update from all UAs https://drafts.csswg.org/css-text/#white-space-processing - greg
 
   * Japanese Industry meet-up
@@ -153,6 +152,7 @@ FXTF
     * Do we need/want page floats in non-fragmenting contexts?
     * Do we need to be able to control the placement order of page floats within a fragmentainer?
   * r12a would like us to [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0120.html|switch to GitHub]] for all spec discussions
+  * Make sure Mozilla is OK with keyframe interaction decision
 
 
 ==== TBD ====
