@@ -119,7 +119,6 @@ Anton Prowse, John Daggett
 
 === Miscellaneous ===
 
-  * fantasai owes SimonSapin 120EUR
   * plinss and fantasai should update hg.csswg.org/index.html
 ==== Proposed Agenda Topics [fx] ====
   * SVG images without intrinsic size in CSS border-image (added by dino)
