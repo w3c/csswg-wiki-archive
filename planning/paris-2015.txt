@@ -66,7 +66,7 @@ http://www.ratp.fr/informer/trafic/travaux_ratp.php lists all maintenance works 
 
 **Regrets**
 
-Anton Prowse
+Anton Prowse, John Daggett
 ==== Proposed Agenda Topics ====
 
   * r12a would like us to [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0120.html|switch to GitHub]] for all spec discussions
