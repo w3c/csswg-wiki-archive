@@ -124,3 +124,8 @@ Anton Prowse
   * SVG-as-image and loading external resources (added by smfr)
   * Matrix Interpolation revisited (added by shans)
   * SLERPing and 0deg angles (https://lists.w3.org/Archives/Public/public-fx/2015JulSep/0046.html) (added by shans)
+  * Zoom Features for Media Queries (FX) (added by konno)
+  * Old writing-mode values (FX) (added by heycam)
+  * Dropping text-orientation:use-glyph-orientation (FX) (added by heycam)
+  * getTransformToElement, for geometry utils level 2? (FX) (added by heycam)
+  * path d property, wrapping in a path() function? (FX) (added by krit)
