@@ -154,6 +154,7 @@ FXTF
     * Do we need to be able to control the placement order of page floats within a fragmentainer?
   * r12a would like us to [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0120.html|switch to GitHub]] for all spec discussions
   * Make sure Mozilla is OK with keyframe interaction decision
+  * Flexbox % followup
 
 
 ==== TBD ====
