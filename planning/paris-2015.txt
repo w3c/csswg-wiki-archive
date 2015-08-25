@@ -87,6 +87,8 @@ Anton Prowse, John Daggett
   * FlexBox
     * remaining issues
     * CR?
+  * Percentage heights in grid and flex containers
+  * Absolute positioning in grid and flex containers
   * max-content for flex items https://lists.w3.org/Archives/Public/www-style/2015Jul/0429.html
   * Tests invalidated by future levels
 
@@ -102,8 +104,6 @@ Anton Prowse, John Daggett
     * cursor behavior when elements overlap is ambiguous https://lists.w3.org/Archives/Public/www-style/2015Aug/0010.html
     * text-overflow: fade
     * FPWD for CSS-UI-4?
-  * Percentage heights in grid and flex containers
-  * Absolute positioning in grid and flex containers
   * css-text-4
     * pre-wrap-* and longhands of white-space https://lists.w3.org/Archives/Public/www-style/2015Jun/0099.html
 
