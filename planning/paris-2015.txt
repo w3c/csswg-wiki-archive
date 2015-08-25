@@ -106,8 +106,7 @@ Anton Prowse, John Daggett
     * FPWD for CSS-UI-4?
   * css-text-4
     * pre-wrap-* and longhands of white-space https://lists.w3.org/Archives/Public/www-style/2015Jun/0099.html
-
-
+  * User stylesheets (Chris)
   * Snapshot 2015 and Prefix Policy
 
 
@@ -159,7 +158,6 @@ FXTF
 
 ==== TBD ====
 
-  * User stylesheets (Chris)
   * CSS IG
 
 ==== Proposed Agenda Topics ====
