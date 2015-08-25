@@ -68,6 +68,98 @@ http://www.ratp.fr/informer/trafic/travaux_ratp.php lists all maintenance works 
 **Regrets**
 
 Anton Prowse, John Daggett
+
+===== Agenda =====
+
+
+==== Tuesday ====
+
+=== AM ===
+
+  * css cascade to informal LC?
+  * css fragmentation
+    * naming issues
+    * go to CR ?
+  * Make sure Mozilla is OK with keyframe interaction decision
+  * Control Characters Status Update from all UAs https://drafts.csswg.org/css-text/#white-space-processing - greg
+
+  * Japanese Industry meet-up
+
+  * FlexBox
+    * remaining issues
+    * CR?
+  * max-content for flex items https://lists.w3.org/Archives/Public/www-style/2015Jul/0429.html
+
+
+=== PM ===
+
+  * CSS UI
+    * Feedback from Tab
+      * note about user-select:none and editing
+      * caret-animation / caret-blink-time
+      * appearance property
+      * renaming user-select: text ?
+    * cursor behavior when elements overlap is ambiguous https://lists.w3.org/Archives/Public/www-style/2015Aug/0010.html
+    * text-overflow: fade
+    * FPWD for CSS-UI-4?
+  * Percentage heights in grid and flex containers
+  * Absolute positioning in grid and flex containers
+  * css-text-4
+    * pre-wrap-* and longhands of white-space https://lists.w3.org/Archives/Public/www-style/2015Jun/0099.html
+
+
+  * Snapshot 2015 and Prefix Policy
+
+
+
+==== Wednesday ====
+
+=== AM ===
+
+  * CSS Round Display - demo, issues, FPWD? (early AM Wednesday)
+  * Grid Layout - Issues
+  * snap points & oversized elements - tab
+
+  * Getting to pagination https://lists.w3.org/Archives/Public/www-style/2015Aug/0179.html (dauwhe)
+  * First draft of [[https://tabatkins.github.io/specs/css-apply-rule/|@apply rule]] (simple mixins, powered by Custom Properties)
+
+=== PM ===
+
+  * [[http://www.w3.org/TR/2015/WD-dpub-css-priorities-20150820/|“Priorities for CSS from the DPub IG”]] (Bert): I propose we try to say for each requirement (jdaggett dialin)
+    - Is it in scope for CSS (and if not, where might it be solved)?
+    - If in scope, what might a solution look like, roughly?
+  * Writing Modes - DoC and re-CR (jdaggett dialin)
+  * CSS Inline - Review edits, Review vertical alignment section, republish? (jdaggett dialin)
+  * fill-available sizing
+  * selectors
+  * Animations 2
+
+
+
+==== Thursday ====
+
+=== AM ===
+
+FXTF
+
+=== PM ===
+
+
+  * will-change (on Thurs please) - smfr
+  * Input Modality (http://radar.oreilly.com/2015/08/proposing-css-input-modailty.html) - tab, bkardell (Thursday please)
+  * CSS Page Floats (on Thursday, see https://lists.w3.org/Archives/Public/www-style/2015Jul/0410.html , https://lists.w3.org/Archives/Public/www-style/2015Aug/0167.html , https://lists.w3.org/Archives/Public/www-style/2015Jun/0334.html ): 
+    * Do we need to say more about non-overlapping than that the margin boxes of given elements are not overlapping?
+    * Do we need two dimensional page floats (up and right)?
+    * Do we need/want page floats in non-fragmenting contexts?
+    * Do we need to be able to control the placement order of page floats within a fragmentainer?
+  * r12a would like us to [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0120.html|switch to GitHub]] for all spec discussions
+
+
+==== TBD ====
+
+  * User stylesheets (Chris)
+  * CSS IG
+
 ==== Proposed Agenda Topics ====
 
   * r12a would like us to [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0120.html|switch to GitHub]] for all spec discussions
