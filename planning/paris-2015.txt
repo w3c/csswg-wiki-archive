@@ -117,10 +117,10 @@ Anton Prowse, John Daggett
 
   * CSS Round Display - demo, issues, FPWD? (early AM Wednesday)
   * Grid Layout - Issues
+  * Animations 2
   * snap points & oversized elements - tab
 
   * Getting to pagination https://lists.w3.org/Archives/Public/www-style/2015Aug/0179.html (dauwhe)
-  * Animations 2
 
 === PM ===
 
