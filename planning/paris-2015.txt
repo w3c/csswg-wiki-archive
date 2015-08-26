@@ -120,10 +120,10 @@ Anton Prowse, John Daggett
   * Animations 2
   * snap points & oversized elements - tab
 
-  * Getting to pagination https://lists.w3.org/Archives/Public/www-style/2015Aug/0179.html (dauwhe)
 
 === PM ===
 
+  * Getting to pagination https://lists.w3.org/Archives/Public/www-style/2015Aug/0179.html (dauwhe)
   * [[http://www.w3.org/TR/2015/WD-dpub-css-priorities-20150820/|“Priorities for CSS from the DPub IG”]] (Bert): I propose we try to say for each requirement (jdaggett dialin)
     - Is it in scope for CSS (and if not, where might it be solved)?
     - If in scope, what might a solution look like, roughly?
