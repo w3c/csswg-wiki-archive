@@ -127,10 +127,7 @@ Anton Prowse, John Daggett
   * [[http://www.w3.org/TR/2015/WD-dpub-css-priorities-20150820/|“Priorities for CSS from the DPub IG”]] (Bert): I propose we try to say for each requirement (jdaggett dialin)
     - Is it in scope for CSS (and if not, where might it be solved)?
     - If in scope, what might a solution look like, roughly?
-  * Writing Modes - DoC and re-CR (jdaggett dialin)
   * CSS Inline - Review edits, Review vertical alignment section, republish? (jdaggett dialin)
-  * fill-available sizing
-  * selectors
 
 === optional ===
   * "running is not just for programs" - run to the Eiffel tower and back during the 3pm break.
@@ -144,6 +141,9 @@ FXTF
 
 === PM ===
 
+  * Writing Modes - DoC and re-CR (jdaggett dialin)
+  * fill-available sizing
+  * selectors
 
   * will-change (on Thurs please) - smfr
   * Input Modality (http://radar.oreilly.com/2015/08/proposing-css-input-modailty.html) - tab, bkardell (Thursday please)
@@ -214,6 +214,7 @@ FXTF
 === Miscellaneous ===
 
   * plinss and fantasai should update hg.csswg.org/index.html
+
 ==== Proposed Agenda Topics [fx] ====
   * SVG images without intrinsic size in CSS border-image (added by dino)
   * SVG-as-image and loading external resources (added by smfr)
