@@ -27,3 +27,4 @@ That should be corrected if anyone invents a time machine. :P
   * ''font-family'' should have required the font name to be quoted (like all other values that come from "outside" CSS).  The rules for handling unquoted font names make parsing ''font'' stupid, as it requires a ''font-size'' value for disambiguation.
   * Flexbox should have been less crazy about flex-basis vs width/height.  Perhaps: if width/height is ''auto'', use flex-basis; otherwise, stick with width/height as an inflexible size.  (This also makes min/max width/height behavior fall out of the generic definition.)
   * :empty should have been :void, and :empty should select items that contain only white space
+  * The descendant combinator should have been ''>>'' instead of '' '', and the following-sibling combinator should have been ''++'' instead of ''+''.
