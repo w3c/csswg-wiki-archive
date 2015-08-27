@@ -143,7 +143,6 @@ Anton Prowse, John Daggett
 
 === PM ===
 
-  * Writing Modes - DoC and re-CR (jdaggett dialin)
   * will-change (on Thurs please) - smfr
   * Scroll snap followup
   * Input Modality (http://radar.oreilly.com/2015/08/proposing-css-input-modailty.html) - tab, bkardell (Thursday please)
@@ -151,6 +150,7 @@ Anton Prowse, John Daggett
     * Do we need two dimensional page floats (up and right)?
     * Do we need/want page floats in non-fragmenting contexts?
     * Do we need to be able to control the placement order of page floats within a fragmentainer?
+  * Writing Modes - DoC and re-CR (jdaggett dialin)
   * Make sure Mozilla is OK with keyframe interaction decision
   * Flexbox % followup
   * fill-available sizing
