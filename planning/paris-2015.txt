@@ -139,12 +139,11 @@ Anton Prowse, John Daggett
 === AM ===
 
 [[https://wiki.csswg.org/planning/paris-2015#proposed-agenda-topics-fx|FXTF]]
+  * selectors
 
 === PM ===
 
   * Writing Modes - DoC and re-CR (jdaggett dialin)
-  * selectors
-
   * will-change (on Thurs please) - smfr
   * Scroll snap followup
   * Input Modality (http://radar.oreilly.com/2015/08/proposing-css-input-modailty.html) - tab, bkardell (Thursday please)
