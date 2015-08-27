@@ -148,7 +148,6 @@ Anton Prowse, John Daggett
   * Scroll snap followup
   * Input Modality (http://radar.oreilly.com/2015/08/proposing-css-input-modailty.html) - tab, bkardell (Thursday please)
   * CSS Page Floats (on Thursday, see https://lists.w3.org/Archives/Public/www-style/2015Jul/0410.html , https://lists.w3.org/Archives/Public/www-style/2015Aug/0167.html , https://lists.w3.org/Archives/Public/www-style/2015Jun/0334.html ): 
-    * Do we need to say more about non-overlapping than that the margin boxes of given elements are not overlapping?
     * Do we need two dimensional page floats (up and right)?
     * Do we need/want page floats in non-fragmenting contexts?
     * Do we need to be able to control the placement order of page floats within a fragmentainer?
