@@ -152,6 +152,7 @@ Anton Prowse, John Daggett
     * Do we need to be able to control the placement order of page floats within a fragmentainer?
   * Writing Modes - DoC and re-CR (jdaggett dialin)
   * Make sure Mozilla is OK with keyframe interaction decision
+  * CSS Snapshot 2015
   * Flexbox % followup
   * fill-available sizing
   * r12a would like us to [[https://lists.w3.org/Archives/Member/w3c-css-wg/2015JulSep/0120.html|switch to GitHub]] for all spec discussions
