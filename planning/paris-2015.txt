@@ -130,15 +130,15 @@ Anton Prowse, John Daggett
     - If in scope, what might a solution look like, roughly?
   * CSS Inline - Review edits, Review vertical alignment section, republish? (jdaggett dialin)
 
-=== optional ===
-  * "running is not just for programs" - run to the Eiffel tower and back during the 3pm break.
+=== optional run ===
+  * "running is not just for programs" - run to the Eiffel tower and back after the meeting, before the dinner!
 
 
 ==== Thursday ====
 
 === AM ===
 
-[https://wiki.csswg.org/planning/paris-2015#proposed-agenda-topics-fx|FXTF]
+[[https://wiki.csswg.org/planning/paris-2015#proposed-agenda-topics-fx|FXTF]]
 
 === PM ===
 
