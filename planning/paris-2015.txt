@@ -140,6 +140,7 @@ Anton Prowse, John Daggett
 
 [[https://wiki.csswg.org/planning/paris-2015#proposed-agenda-topics-fx|FXTF]]
   * selectors
+    * [[https://drafts.csswg.org/selectors-4/#issues-index|selectors 4 issues]]
 
 === PM ===
 
