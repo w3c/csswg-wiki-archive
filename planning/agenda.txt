@@ -5,8 +5,8 @@ The CSS Working Group holds weekly teleconferences on Wednesdays at 9am Pacific 
 
 :!: It's recommended, particularly for complex issues, to fill out a template page in [[:topics]].
 
-  * [[http://www.w3.org/mid/CAAWBYDAGD7d3RvBCP+VszeM2sD8DGo3OiSPmmTh2V_2xnZFqNQ@mail.gmail.com|<custom-ident>]]
-  * [[https://etherpad.mozilla.org/tab-and-fantasai|Grid Layout issues]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0342.html|CSS Grid auto-fit issue]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0348.html|a11y and ordering - authoring requirements]]
 
 ===== Backlog =====
 
