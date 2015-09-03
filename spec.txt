@@ -3,29 +3,50 @@ This section documents problems found in the CSS specs and working drafts. Probl
 
 Looking for a [[https://www.w3.org/Bugs/Public/describecomponents.cgi?product=CSS|Link to Bugzilla]] or [[http://w3.org/Style/CSS/Tracker/|Tracker]]?
 
-===== REC or PR =====
-RECOMMENDATIONS:
-  * [[spec:css2.1|CSS Level 2 Revision 1]]
+====== Specification Editing ======
+
+  * [[tools:hg|W3C Mercurial For Dummies]] --- reading/writing to the spec repositories
+  * [[tools:bikeshed]] --- generating ''Overview.html'' from ''Overview.bs'' (auto-generating section numbers, indices, cross-links, and other mundane things).  (Or here's a guide for the [[tools:spec-processor|older processor]].)
+  * [[http://dev.w3.org/csswg/css-module-bikeshed/Overview.bs|CSS Module Template]] --- for starting new specs (and formatting old ones)
+  * [[spec:format-update]] --- for updating existing specs to our latest "specs should include"
+  * [[spec:publish]] --- getting your spec on www.w3.org
+  * [[spec:issue-tracking]] --- raising your newborn draft into a grown-up spec
+  * [[spec:process|Process suggestions for advancing a spec]] --- guidelines for when to advance your spec to the next stage
+  * [[spec:teststatus|Test status information on spec]] --- adding information about testing status on the spec
+  * [[spec:levels|Specification levels]] -- which levels to publish each spec as
+
+====== Coordination between specifications ======
+
+  * [[spec:dfn-patterns|Marking up your <dfn>s for proper cross-linking]]
+  * [[spec:cssom-constants|CSSOM Constants]]
+  * [[spec:computed-values|Patterns for writing "Computed Value" lines]]
+  * [[spec:at-rules-patterns|Patterns for writing at-rules]]
+  * [[spec:property-dependencies|Property dependencies]] in computed values
+  * [[spec:calc-and-percentages|Specifying Percentages in the Age of Calc()]]
+  * [[spec:om-apis|Patterns for writing CSSOM APIs]]
+  * [[spec:limited-ranges|Specifying Limited Ranges in Properties and Elsewhere]]
+  * [[spec:async-algos|Writing Asynchronous Algorithms]]
+  * [[spec:promises|Using Promises in Specifications]]
+
+====== Coordination between standards groups ======
+
+  * [[http://code.google.com/p/epub-revision/wiki/AdvancedAdaptiveLayoutCharter|EPub Stuff]]
+  * [[http://www.w3.org/community/ppl/wiki/Western_Layout_Requirements|Western Layout Requirements]], outlining the advanced printing stuff that XSL-FO does and which we'd like to address in CSS
+
+====== Scratch Space for Specs ====== 
+
+See [[http://www.w3.org/Style/CSS/current-work|Current Work Tables]] for current status. These pages are just scratch space for the editors to track ideas.
+
+  * [[spec:css2.1|CSS Level 2 Revision 1]] - Archived / Not active
   * [[spec:css2.2|CSS level 2 Revision 2]]
   * [[spec:css3-color|CSS Color Module Level 3]]
-  * [[http://www.w3.org/TR/css3-namespace/|CSS Namespaces Module]]
   * [[spec:css3-selectors|Selectors Level 3]]
-PR:
-  * ...
-===== CR or LC =====
-Awaiting implementations, test suites, or actively being revised per implementation experience.
-CR:
   * [[spec:css-multicol|CSS Multi-Column Layout Module Level 3]]
   * [[spec:mediaqueries|Media Queries Level 3]]
   * [[spec:css-style-attr|CSS Style Attributes]]
-CRLC: (was in CR but sent back to LC per W3C process quirks)
   * [[spec:css3-background|CSS Backgrounds and Borders Module Level 3]]
   * [[spec:css3-ui|CSS Basic User Interface Module Level 3]]
-LC:
   * [[spec:css3-images:lc-2012|CSS Images Level 3]]
-
-===== WD =====
-These are being actively developed. Sometimes used to be CRs that need major revision.
   * [[spec:css3-transforms|CSS Transforms Level 3]]
   * [[spec:css3-transitions|CSS Transitions Level 3]]
   * [[spec:css3-animations|CSS Animations Level 3]]
@@ -41,8 +62,6 @@ These are being actively developed. Sometimes used to be CRs that need major rev
   * [[spec:css3-grid-layout|CSS Grid Layout]]
   * [[spec:css3-exclusions|CSS Exclusions]]
   * [[spec:css-shapes|CSS Shapes]]
-===== brainstorming =====
-This section outlines active possibilities for future specs or notes
   * [[spec:css-round-display|CSS Round Display]]
   * [[spec:css-backgrounds-4]]
   * [[spec:css-pseudo-4|CSS Pseudo Elements Level 4]] (collecting features and ideas)
@@ -67,57 +86,18 @@ This section outlines active possibilities for future specs or notes
      * [[spec:css3-exclusions|exclusions]]
      * [[spec:css3-region-templates|region templates]]
      * [[spec:fragments-columns-regions-pages|fragments columns regions pages]]
-   * [[http://www.w3.org/community/ppl/wiki/Western_Layout_Requirements|Western Layout Requirements]], outlining the advanced printing stuff that XSL-FO does and which we'd like to address in CSS
    * [[spec:font-load-events|Font Load Events]]
    * [[spec:css-regions-4|CSS Regions Module Level 4]]
    * [[spec:css-flexbox-2|CSS Flexbox Level 2]]
    * [[spec:css4-ui|CSS UI Level 4]]
    * [[spec:css-grid-2]]
    * [[spec:css-ruby-2|CSS Ruby Level 2]]
-===== out of date =====
-These specs are old / out of date and need active editors/owners to bring them up to date.
-  * [[spec:css3-box|CSS Box Module Level 3]]
-  * [[spec:css3-content|CSS Generated Content Module Level 3]]
-  * [[spec:css3-grid|CSS Grid Positioning Module Level 3]]
-  * [[spec:css3-preslev|CSS Presentation Levels Module Level 1]]
-  * [[spec:css3-ruby|CSS Ruby Layout Module Level 1]]
-  * [[spec:css3-syntax|CSS Syntax Module Level 3]]
-  * [[spec:css3-tables-algorithms|CSS Table Layout Algorithm Module Level 3]]
-  * [[spec:css3-line-grid|CSS Line Grid Module Level 1]]
+   * [[spec:css3-box|CSS Box Module Level 3]]
+   * [[spec:css3-content|CSS Generated Content Module Level 3]
 
-===== dead, need to be turned into Notes =====
-These specs are dead, with no plans to revive them, but they still show up in /TR space looking like real specs. They need to be republished as gravestone Notes.
-  * [[http://www.w3.org/TR/becss/|Behavioral Extensions to CSS]]
-  * [[http://www.w3.org/TR/css3-hyperlinks/|Hyperlinks]]
-  * [[http://www.w3.org/TR/css3-marquee/|Marquee]] (I think nobody implements it? Blink recently dropped its support.)
 ====== Specification Reviews ======
-CSSWG members' comments on related specs not published by our group.
+
+Tracking CSSWG members' comments on related specs not published by our group.
 
   * [[spec:reviews:svgtiny1.2|SVG Tiny 1.2]]
   * [[spec:reviews:html5|HTML5]]
-
-====== Specification Editing ======
-
-  * [[tools:hg|W3C Mercurial For Dummies]] --- reading/writing to the spec repositories
-  * [[tools:bikeshed]] --- generating ''Overview.html'' from ''Overview.bs'' (auto-generating section numbers, indices, cross-links, and other mundane things).  (Or here's a guide for the [[tools:spec-processor|older processor]].)
-  * [[http://dev.w3.org/csswg/css-module-bikeshed/Overview.bs|CSS Module Template]] --- for starting new specs (and formatting old ones)
-  * [[spec:format-update]] --- for updating existing specs to our latest "specs should include"
-  * [[spec:publish]] --- getting your spec on www.w3.org
-  * [[spec:issue-tracking]] --- raising your newborn draft into a grown-up spec
-  * [[spec:process|Process suggestions for advancing a spec]] --- guidelines for when to advance your spec to the next stage
-  * [[spec:teststatus|Test status information on spec]] --- adding information about testing status on the spec
-  * [[spec:levels|Specification levels]] -- which levels to publish each spec as
-  * [[spec:promises|Using Promises in Specifications]]
-====== Coordination between specifications ======
-  * [[spec:dfn-patterns|Marking up your <dfn>s for proper cross-linking]]
-  * [[spec:cssom-constants|CSSOM Constants]]
-  * [[spec:computed-values|Patterns for writing "Computed Value" lines]]
-  * [[spec:at-rules-patterns|Patterns for writing at-rules]]
-  * [[spec:property-dependencies|Property dependencies]] in computed values
-  * [[spec:calc-and-percentages|Specifying Percentages in the Age of Calc()]]
-  * [[spec:om-apis|Patterns for writing CSSOM APIs]]
-  * [[spec:limited-ranges|Specifying Limited Ranges in Properties and Elsewhere]]
-  * [[spec:async-algos|Writing Asynchronous Algorithms]]
-====== Coordination between standards groups ======
-===== IDPF EPUB =====
-See: http://code.google.com/p/epub-revision/wiki/AdvancedAdaptiveLayoutCharter
