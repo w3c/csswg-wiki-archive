@@ -15,7 +15,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
 | Dave Cramer | 25 Oct | 1 Nov | Keio Plaza Hotel Sapporo | UA7987 / UA7986 |
 | fantasai    | 24 Oct | 30 Oct | [[http://bit.ly/1KQ8ePB|Dormy Inn]] | |
-
+| L. David Baron | 23 Oct | 31 Oct | ? | ANA7+2155 / CAL131 |
 ==== Proposed Topics ====
 
   * CSS Box Alignment Dramatic Reading aka Line by Line Review aka Issue Egg Hunt (may be evaded by finding sufficient Issue Eggs ahead of time, in which case we can have an issue-solving session instead)
