@@ -12,7 +12,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
     * 2015-08-25..27 [[planning:paris-2015]] (Mozilla) (followed by [[https://wiki.css-houdini.org/planning/paris-2015|Houdini meeting]] August 28-29)
     * 2015-10-26..30 [[planning:tpac-2015]], Sapporo, Japan (followed by [[http://www.ietf.org/meeting/upcoming.html|IETF 94 in Yokohama]], November 2-6)
   * 2016
-    * week of 2016-02-01..05 [[planning:sydney-2016]] tentatively Google Sydney
+    * 2016-02-01..03 [[planning:sydney-2016]] Google Sydney
     * May - unspecified
     * August - unspecified (do we need an August meeting?)
     * TPAC - Europe
