@@ -29,3 +29,4 @@ That should be corrected if anyone invents a time machine. :P
   * :empty should have been :void, and :empty should select items that contain only white space
   * The descendant combinator should have been ''>>'' instead of '' '', and the following-sibling combinator should have been ''++'' instead of ''+''.
   * ''table-layout: fixed; width: auto'' should result in a fill-available table with fixed-layout columns.
+  * 'text-orientation' should have had ''upright'' as the initial value (given the latest changes to 'writing-mode').
