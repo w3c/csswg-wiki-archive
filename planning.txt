@@ -8,7 +8,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
-  * [[planning:2015]]
+[[planning:2015]]
     * 2015-10-26..30 [[planning:tpac-2015]], Sapporo, Japan (followed by [[http://www.ietf.org/meeting/upcoming.html|IETF 94 in Yokohama]], November 2-6)
   * 2016
     * 2016-02-01..03 [[planning:sydney-2016]] Google Sydney
@@ -19,7 +19,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 
 ===== Past Meetings =====
 ==== 2015 ====
-
+  * [[planning:2015]]
     * **[[planning:sydney-2015]]** (with [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2014|SVG]] on Wednesday)
       * Minutes:
         * Monday, 9 February: [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0185.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0186.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0187.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0188.html|Part IV]]
