@@ -9,7 +9,6 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
   * [[planning:2015]]
-    * 2015-08-25..27 [[planning:paris-2015]] (Mozilla) (followed by [[https://wiki.css-houdini.org/planning/paris-2015|Houdini meeting]] August 28-29)
     * 2015-10-26..30 [[planning:tpac-2015]], Sapporo, Japan (followed by [[http://www.ietf.org/meeting/upcoming.html|IETF 94 in Yokohama]], November 2-6)
   * 2016
     * 2016-02-01..03 [[planning:sydney-2016]] Google Sydney
@@ -20,12 +19,18 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 
 ===== Past Meetings =====
 ==== 2015 ====
+
+    * **[[planning:paris-2015]]** (With [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2014|SVG]] Thursday morning)
+      * Minutes:
+          * Tuesday, 25 August: [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0037.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0038.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0040.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0041.html|Part IV]]
+          * Wednesday, 26 August: [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0093.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0094.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0095.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0095.html|Part IV]]
+          * Thursday, 27 August: [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0110.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0111.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0112.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0113.html|Part V]]
     * **[[planning:new-york-2015]]**
       * Minutes:
           * Monday, 18 May: [[https://lists.w3.org/Archives/Public/www-style/2015May/0279.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015May/0280.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015May/0281.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015May/0282.html|Part IV]]
           * Tuesday, 19 May: [[https://lists.w3.org/Archives/Public/www-style/2015May/0313.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015May/0314.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015May/0315.html|Part III]]
           * Wednesday, 20 May: [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0241.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0242.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0243.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0244.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0245.html|Part V]], [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0246.html|Part VI]]
-    * **[[planning:sydney-2015]]** (with SVG on Wednesday)
+    * **[[planning:sydney-2015]]** (with [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2014|SVG]] on Wednesday)
       * Minutes:
         * Monday, 9 February: [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0185.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0186.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0187.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0188.html|Part IV]]
         * Tuesday, 10 February: [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0313.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0314.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0315.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0316.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0317.html|Part V]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0318.html|Part VI]]
