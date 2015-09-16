@@ -7,6 +7,26 @@
      * [[https://lists.w3.org/Archives/Public/public-editing-tf/2015Jun/0023.html|Editing TF meeting]] (Sunday-Monday 23-24)
      * [[https://wiki.css-houdini.org/planning/paris-2015|Houdini meeting]] (Friday-Saturday 28-29)
 
+==== Meeting Minutes ====
+== Tuesday, 25 August ==
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0037.html|Part I]]: CSS Cascade, CSS Fragmentation, CSS Animations, CSS Text, TPAC Japanese Industry Meet-up, Number of F2F Meetings Per Year
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0038.html|Part II]]: Flexbox, Grid/Flex Percentages, Testing
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0040.html|Part III]]: CSS UI 4, CSS Text 4, User Stylesheets
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0041.html|Part IV]]: Snapshot 2015 and Prefix Policy, @apply rule
+
+== Wednesday, 26 August ==
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0093.html|Part I]]: Round Display, Grid Layout
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0094.html|Part II]]: Animations, Scroll Snapping
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0095.html|Part III]]: Defining Pagination, CSS Priorities from DigiPub
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0095.html|Part IV]]: CSS Inline
+
+== Thursday, 27 August ==
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html|Part I]]: FXTF Meeting Part 1- SVG Resources, SVG Images Without Intrinsic Size, Matrix Interpolation Revisited, SLERPing and 0deg angles
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0110.html|Part II]]: FXTF Meeting Part 2- glyph-orientation, writing-mode Values from SVG 1.1, getTransformToElement, Path Animation, Zoom Features for Media Queries
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0111.html|Part III]]: Selectors
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0112.html|Part IV]]: will-change, Scroll Snap, Input Modality
+    *[[https://lists.w3.org/Archives/Public/www-style/2015Sep/0113.html|Part V]]: Page Floats, Writing Modes, Snapshot 2015, Flexbox % Follow-Up
+
 
 ==== Location ====
 
