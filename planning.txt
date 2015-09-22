@@ -13,8 +13,8 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
   * 2016
     * 2016-02-01..03 [[planning:sydney-2016]] Google Sydney
     * May - unspecified
-    * August - unspecified (do we need an August meeting?)
-    * TPAC - Europe
+    * August - unspecified (do we need an August meeting?  probably not given TPAC is September in 2016!  do we need a December meeting?)
+    * 2016-09-19..23 TPAC - Lisbon, Portugal
   * [[planning:hosting]]
 
 ===== Past Meetings =====
