@@ -1,3 +1,5 @@
+**This was added to the Color 4 module, as the 'color-adjust' property.**
+
 ====== The Problem ======
 
 Non-white backgrounds are the same cost as white backgrounds on a computer screen, but are much more expensive when printed.  Most webpages aren't designed with printing in mind, and thus use far more non-white backgrounds than would be prudent in a printed page.  To help users, when sending a page to be printed all browsers suppress backgrounds (tweaking text colors at the same time to maintain contrast).  Some do more (IE9 suppresses box shadows as well), and there is more that can theoretically be done (for example, suppressing border-image).  Other types of devices (for example, AMOLED screens) may have their own unique economy of color, and may suppress or alter properties in a similar fashion.
