@@ -30,3 +30,4 @@ That should be corrected if anyone invents a time machine. :P
   * The descendant combinator should have been ''>>'' instead of '' '', and the following-sibling combinator should have been ''++'' instead of ''+''.
   * ''table-layout: fixed; width: auto'' should result in a fill-available table with fixed-layout columns.
   * 'text-orientation' should have had ''upright'' as the initial value (given the latest changes to 'writing-mode').
+  * The @import rule is required to (a) always hit the network unless you specify cache headers, and (b) construct fresh CSSStyleSheet objects for every import, even if they're identical. It should have had more aggressive URL-based deduping and allowed sharing of stylesheet objects.
