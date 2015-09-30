@@ -30,5 +30,5 @@ Regrets:
   * Dael Jackson
 ==== Proposed Topics ====
 
-  * Shadow DOM Styling
+  * Shadow DOM Styling - Tuesday 15:00-17:00 in WebApps room
   * CSS Box Alignment Dramatic Reading aka Line by Line Review aka Issue Egg Hunt (may be evaded by finding sufficient Issue Eggs ahead of time, in which case we can have an issue-solving session instead)
