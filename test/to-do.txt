@@ -13,3 +13,4 @@ Note that pending the first bulletpoint here, the counts of manual tests may be 
   * Conversion of CSS Shapes Module tests to reftests. (89 of 184 are manual.)
   * Conversion of CSS UI Module tests to reftests. (152 of 200 are manual.)
   * Conversion of CSS Backgrounds tests to reftests. (320 to 562 are manual.)
+  * Construction of the cookie-dispensing machine.
