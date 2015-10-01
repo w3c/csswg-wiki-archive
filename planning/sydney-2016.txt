@@ -3,3 +3,12 @@
 ==== Dates to schedule around ====
   * 2016-01-12..15 TAG Meeting in Melbourne
   * 2016-01-30..31 Houdini in (Sydney?), FOSDEM in ????
+
+==== Place, Logistics, etc. ====
+
+==== Participants =====
+
+Please, put your name in this table if you plan to participate (alphabetical order by given name):
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| L. David Baron | 29 Jan, 14:35 | 6 Feb, 14:30 | ?? | ANZ119 / UAL870 |
