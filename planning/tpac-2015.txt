@@ -1,0 +1,44 @@
+===== TPAC 2015 =====
+
+==== Place, Logistics, etc. ====
+
+  * [[http://www.w3.org/2015/11/TPAC/]]
+  * full TPAC week is 26-30 October 2015
+  * CSS WG meeting days are Mon-Tue 26-27 October
+  * Sapporo, Japan at the Sapporo Convention Center, room Room 107, first floor
+  * JP Industry Meetup is 25 October 2015, 15:00(or 16:00)-19:00, near the TPAC venue 
+
+==== Participants =====
+
+Please, put your name in this table if you plan to participate (alphabetical order by given name):
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^ Going to JP Industry Meetup ^
+| Alan Stearns | 23 Oct | 31 Oct | AirBnB | ?? | Yes |
+| Bert | 25 Oct | 30 Oct | Renaissance | LH4936 / NH988 | Will try |
+| Brian Birtles | 25 Oct | 28 Oct | Sapporo Grand Hotel | JAL501 / JAL526 | Yes |
+| Chris Lilley | ?? | ?? | ?? | ?? /?? | |
+| Dave Cramer | 25 Oct | 1 Nov | Keio Plaza Hotel Sapporo | UA7987 / UA7986 | no, sadly |
+| fantasai    | 24 Oct | 30 Oct | [[http://bit.ly/1KQ8ePB|Dormy Inn]] | 22 Oct NH4725 / 30 Oct UA2154+NH8 | yes |
+| Daniel Glazman | 24 Oct | 30 Oct | AirBnB | JL0416+JL3049 / JL0504+JL0415 | yes |
+| Florian Rivoal | ?? | ?? | ?? | ?? /?? | Yes |
+| Hiroshi Sakakibara(+2 Colleagues) | 25 Oct | ?? | ?? | ?? /?? | Yes |
+| Hyojin Song(+1 Colleague) | 25 Oct | 31 Oct | Gracery Hotel Sapporo | KE795 / KE766 | No, sorry.. |
+| L. David Baron | 23 Oct | 31 Oct | [[http://www.art-sapporo.com/english/|Art Hotels Sapporo]] | ANA7+ANA2155 / CAL131 | Yes |
+| Peter Linss | 24 Oct | 31 Oct | [[http://www.crosshotel.com/eng_sapporo/|Cross Hotel]] | GK113 / GK108 | Yes |
+| Rossen Atanassov | 24 Oct | 31 Oct | ?? | ?? / ?? | Yes |
+| Shane Stephens | 24 Oct | 31 Oct | ?? | ?? / ?? | Yes |
+| Simon Sapin | 25 Oct | 31 Oct | Mercure Hotel Sapporo | JAL507 (in CTS at 10:40am) / JAL500+JAL45 | Yes |
+| Steve Zilles | 25 Oct | 31 Oct | Mercure Hotel Sapporo | Korean Air  765 | Yes, arriving at 12:45 on 25th |
+
+Regrets:
+  * Dael Jackson
+==== Proposed Topics ====
+
+  * Logical Syntax
+    * Cascading
+    * Naming
+    * Positioning Syntax
+    * Other issues
+  * Shadow DOM Styling - Tuesday 15:00-17:00 in WebApps room
+  * CSS Box Alignment Dramatic Reading aka Line by Line Review aka Issue Egg Hunt (may be evaded by finding sufficient Issue Eggs ahead of time, in which case we can have an issue-solving session instead)
+  * CSS Fragmentation Issues https://drafts.csswg.org/css-break/issues-lc-2015#issue-24
