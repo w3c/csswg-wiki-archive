@@ -38,7 +38,7 @@ Regrets:
   * Adenilson Cavalcanti
 ==== Proposed Topics ====
 
-  * take advantage of having all editors in the same room to have clearer status for all specs: where are we, ETA for next stage, current work, etc.
+  * take advantage of having all editors in the same room to have clearer status for all specs: where are we, ETA for next stage, how long did they remain at current stage, active editor or not, current work, etc.
   * even if the above does not work, refine priorities based on spec importance and current spec status; are there abandoned or semi-abandoned specs?
   * Logical Syntax
     * Cascading
