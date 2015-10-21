@@ -50,9 +50,10 @@ Regrets:
   * Shadow DOM Styling - Tuesday 15:00-17:00 in WebApps room
   * CSS Box Alignment Dramatic Reading aka Line by Line Review aka Issue Egg Hunt (may be evaded by finding sufficient Issue Eggs ahead of time, in which case we can have an issue-solving session instead)
   * CSS Fragmentation Issues https://drafts.csswg.org/css-break/issues-lc-2015#issue-24
+  * polar issues (prefers early AM Tuesday inc. device-radius MQ)
+    * polar-distance with 2 values, polar-anchor, polar-orientation, methods to prevent overflow
   * device-radius MQ (https://lists.w3.org/Archives/Public/www-style/2015Oct/0075.html):
     * What is the % in device-radius relative to?
     * defining how inequalities work
-  * polar issues (polar-distance with 2 values, polar-anchor, polar-orientation, methods to prevent overflow)
   * the CSS OM needs major love. We can't extend the OM from multiple Level 3 and 4 specs without having a stable basis there.
   * Scroll Snap
