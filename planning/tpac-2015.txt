@@ -44,3 +44,6 @@ Regrets:
   * Shadow DOM Styling - Tuesday 15:00-17:00 in WebApps room
   * CSS Box Alignment Dramatic Reading aka Line by Line Review aka Issue Egg Hunt (may be evaded by finding sufficient Issue Eggs ahead of time, in which case we can have an issue-solving session instead)
   * CSS Fragmentation Issues https://drafts.csswg.org/css-break/issues-lc-2015#issue-24
+  * device-radius MQ:
+    * What is the % in device-radius relative to?
+    * defining how inequalities work
