@@ -11,7 +11,12 @@
   ; Map : [[http://www.infiniteloop.co.jp/map/]]
   ; How to get there : [[http://www.infiniteloop.co.jp/blog/2015/07/keiro/ | pictures with arrows on how to find the place depending on where you're arriving from, in Japanese]]
   
-  
+==== Participants ====
+
+  ; From the CSSWG : [[https://wiki.csswg.org/planning/tpac-2015#participants]]
+  ; From Japan : [[http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup#content_1_3]]
+
+
 ==== Dialing in ====
 If you need to join remotely, call into the following skype account: bps.aska 
 
