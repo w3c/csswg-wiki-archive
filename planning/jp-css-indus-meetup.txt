@@ -2,6 +2,8 @@
 
 Details in Japanese: http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup#content_1_3
 
+If you have questions, contact Hiroshi Sakakibara (skk **at** bpsinc **dot** jp)
+
 ==== Logistics ====
 
   ; When : Sunday October 25th (Sunday) 2015, from 16:00 to 19:00 JST
@@ -20,7 +22,7 @@ Details in Japanese: http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup#con
 
 ==== Agenda ====
   * Presentation (by Fantasai) about the W3C and CSSWG work
-  * Group discussion based on questions by Japanese attendees
+  * Group discussion / Q&A based on questions by Japanese attendees
     * Details to be added
 
 Moderation / translation:
