@@ -1,8 +1,21 @@
 ===== Japanese Industry Meet-up with the CSSWG =====
 
-Details in Japanese: http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup#content_1_3
+The CSS Working Group will be meeting in Sapporo, and would like to take this opportunity to meet with
+Japanese Industry.
+
+Details in Japanese: http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup
 
 If you have questions, contact Hiroshi Sakakibara (skk **at** bpsinc **dot** jp)
+
+==== Participants ====
+
+Participation is open to anyone interested, but please registed if you want to come.
+
+  ; From the CSSWG : [[https://wiki.csswg.org/planning/tpac-2015#participants]]
+  ; From Japan : [[http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup#content_1_3]]
+
+If you are not on either list (and do not have right access to either wiki), please contact Hiroshi Sakakibara (skk **at** bpsinc **dot** jp)
+
 
 ==== Logistics ====
 
@@ -14,14 +27,8 @@ If you have questions, contact Hiroshi Sakakibara (skk **at** bpsinc **dot** jp)
   ; Map : [[http://www.infiniteloop.co.jp/map/]]
   ; How to get there : [[http://www.infiniteloop.co.jp/blog/2015/07/keiro/ | pictures with arrows on how to find the place depending on where you're arriving from, in Japanese]]
   
-==== Participants ====
-
-  ; From the CSSWG : [[https://wiki.csswg.org/planning/tpac-2015#participants]]
-  ; From Japan : [[http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup#content_1_3]]
-
-
 ==== Agenda ====
-  * Presentation (by Fantasai) about the W3C and CSSWG work
+  * Presentation (by Fantasai) about how the W3C and CSSWG work
   * Group discussion / Q&A based on questions by Japanese attendees
     * Details to be added
 
