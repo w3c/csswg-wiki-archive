@@ -66,3 +66,4 @@ Regrets:
   * Scroll Snap
   * wide gamut / deep color
   * GCPM bookmarks. Can we have bookmark-level:auto work from the structure of the document?
+  * CSS-Style-Attribute: updating the REC for markup problems: http://www.w3.org/mid/737F97AF-69E2-41DD-A047-E71012B81B71@rivoal.net
