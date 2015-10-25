@@ -45,6 +45,21 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 Regrets:
   * Dael Jackson
   * Adenilson Cavalcanti
+
+==== Agenda ====
+
+Monday
+
+AM
+
+PM
+
+Tuesday
+
+AM
+
+PM
+
 ==== Proposed Topics ====
 
   * take advantage of having all editors in the same room to have clearer status for all specs: where are we, ETA for next stage, how long did they remain at current stage, active editor or not, current work, etc.
