@@ -67,6 +67,11 @@ Regrets:
 
   * wide gamut / deep color
   * Scroll Snap
+  * Logical Syntax
+    * Cascading
+    * Naming
+    * Positioning Syntax
+    * Other issues
   * May and August 2016 face-to-face meetings (or just one in June?) (TPAC is in September!)
 
 === Tuesday ===
@@ -85,15 +90,7 @@ Regrets:
   * take advantage of having all editors in the same room to have clearer status for all specs: where are we, ETA for next stage, how long did they remain at current stage, active editor or not, current work, etc.
   * even if the above does not work, refine priorities based on spec importance and current spec status; are there abandoned or semi-abandoned specs?
   * some specs in the scope of the new Web Platform Working Group will require liaison with our WG. How can do better liaising with that new WG than with the former HTML WG?
-  * Logical Syntax
-    * Cascading
-    * Naming
-    * Positioning Syntax
-    * Other issues
   * Shadow DOM Styling - Tuesday 15:00-16:00 in WebApps room
-
-
-==== Proposed Topics ====
 
 
 
