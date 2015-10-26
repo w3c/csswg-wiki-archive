@@ -60,7 +60,7 @@ Regrets:
   * inline character grid (for CJK)
   * Fonts
     * font-weight-adjust (http://www.w3.org/mid/F1E15038-FA2D-485D-B328-089293E691AC@rivoal.net)
-    * conditional styling depending on the font
+    * conditional styling depending on the font (um, what is this?!?)
 
 == PM ==
 
