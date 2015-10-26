@@ -53,17 +53,8 @@ Regrets:
 
 == AM ==
 
-  * Logical Syntax
-    * Cascading
-    * Naming
-    * Positioning Syntax
-    * Other issues
-  * CSS Box Alignment Dramatic Reading aka Line by Line Review aka Issue Egg Hunt (may be evaded by finding sufficient Issue Eggs ahead of time, in which case we can have an issue-solving session instead)
-  * CSS Fragmentation Issues https://drafts.csswg.org/css-break/issues-lc-2015#issue-24
-
   * the CSS OM needs major love. We can't extend the OM from multiple Level 3 and 4 specs without having a stable basis there.
   * Scroll Snap
-  * wide gamut / deep color
   * GCPM bookmarks. Can we have bookmark-level:auto work from the structure of the document?
   * CSS-Style-Attribute: updating the REC for markup problems: http://www.w3.org/mid/737F97AF-69E2-41DD-A047-E71012B81B71@rivoal.net
   * inline character grid (for CJK)
@@ -72,6 +63,16 @@ Regrets:
     * conditional styling depending on the font
 
 == PM ==
+
+  * Logical Syntax
+    * Cascading
+    * Naming
+    * Positioning Syntax
+    * Other issues
+  * CSS Box Alignment Dramatic Reading aka Line by Line Review aka Issue Egg Hunt (may be evaded by finding sufficient Issue Eggs ahead of time, in which case we can have an issue-solving session instead)
+  * CSS Fragmentation Issues https://drafts.csswg.org/css-break/issues-lc-2015#issue-24
+
+  * wide gamut / deep color
 
   * May and August 2016 face-to-face meetings (or just one in June?)
   * Developer Meet-up at the Sydney ftf?
