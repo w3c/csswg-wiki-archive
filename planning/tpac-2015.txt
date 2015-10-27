@@ -91,6 +91,8 @@ Regrets:
   * even if the above does not work, refine priorities based on spec importance and current spec status; are there abandoned or semi-abandoned specs?
   * some specs in the scope of the new Web Platform Working Group will require liaison with our WG. How can do better liaising with that new WG than with the former HTML WG?
   * Shadow DOM Styling - Tuesday 15:00-16:00 in WebApps room
+  * following up yesterday’s wide gamut discussion, agenda+ what should we do with https://drafts.csswg.org/css-color-correction/ 
+  * css-animations issues
 
 
 
