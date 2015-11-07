@@ -1,7 +1,7 @@
-====== CSS Vendor Prefixes ======
 <note warning>This page is preserved out of historical interest, but the guidance and rules it suggests are NOT the policy of the CSS Working Group. After much discussion (and this page is part of that discussion), the CSSWG adopted a different set of guidelines, as recorded in [[http://www.w3.org/TR/CSS/#future-proofing|section 3.2 of the CSS 2015 Snapshot]]</note>
 
 
+====== CSS Vendor Prefixes ======
 In CSS we use [[http://www.w3.org/wiki/Evolution/Identifiers|vendor prefixes]] for properties, values, @-rules that are:
   * [[http://www.w3.org/TR/CSS21/syndata.html#vendor-keywords|vendor specific extensions (per CSS 2.1)]], or
   * [[http://www.w3.org/TR/css-2010/#experimental|experimental implementations (per CSS Snapshot 2010)]] (e.g. in Working Drafts)
