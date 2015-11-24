@@ -33,3 +33,4 @@ That should be corrected if anyone invents a time machine. :P
   * 'text-orientation' should have had ''upright'' as the initial value (given the latest changes to 'writing-mode').
   * The @import rule is required to (a) always hit the network unless you specify cache headers, and (b) construct fresh CSSStyleSheet objects for every import, even if they're identical. It should have had more aggressive URL-based deduping and allowed sharing of stylesheet objects.
   * Selectors have terrible future-proofing. We should have split on top-level commas, and only ignored unknown/invalid segments, not the entire thing.
+  * '':link'' should have had the '':any-link'' semantics all along.
