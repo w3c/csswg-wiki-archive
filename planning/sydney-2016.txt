@@ -11,5 +11,6 @@
 Please, put your name in this table if you plan to participate (alphabetical order by given name):
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Bert Bos | ?? | ?? | ?? | ?? |
 | L. David Baron | 29 Jan, 14:35 | 6 Feb, 14:30 | ?? | ANZ119 / UAL870 |
 | Hiroshi Sakakibara | ?? | ?? | ?? | ?? |
