@@ -8,11 +8,11 @@ For latest edits/resolutions, see the editors draft:
 
 ====== Issues ======
 1. Animate elements with 2d rotation transform function for polar coordinates
-   - https://lists.w3.org/Archives/Public/www-style/2015Nov/0277.html
+  * https://lists.w3.org/Archives/Public/www-style/2015Nov/0277.html
 
 2. Using non-auto value for polar-distance to use polar coordinates instead of 'polar' value for position property
-   - https://lists.w3.org/Archives/Public/www-style/2015Nov/0226.html
-   - https://lists.w3.org/Archives/Public/www-style/2015Nov/0309.html
+  * https://lists.w3.org/Archives/Public/www-style/2015Nov/0226.html
+  * https://lists.w3.org/Archives/Public/www-style/2015Nov/0309.html
 
 3. device-radius media query replacement
-   - https://lists.w3.org/Archives/Public/www-style/2015Oct/0220.html
+  * https://lists.w3.org/Archives/Public/www-style/2015Oct/0220.html
