@@ -1,4 +1,4 @@
-The CSS Round Display Level 1 (latest public TR version) describes CSS extensions to support a round display.
+The [[spec:css-round-display|CSS Round Display Level 1]] (latest public TR version) describes CSS extensions to support a round display.
 
 For latest edits/resolutions, see the editors draft:
 
