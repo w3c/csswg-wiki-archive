@@ -34,3 +34,5 @@ That should be corrected if anyone invents a time machine. :P
   * The @import rule is required to (a) always hit the network unless you specify cache headers, and (b) construct fresh CSSStyleSheet objects for every import, even if they're identical. It should have had more aggressive URL-based deduping and allowed sharing of stylesheet objects.
   * Selectors have terrible future-proofing. We should have split on top-level commas, and only ignored unknown/invalid segments, not the entire thing.
   * '':link'' should have had the '':any-link'' semantics all along.
+  * The ''flex'' shorthand (and ''flex-shrink'' and ''flex-grow'' longhands) should accept ''fr'' units instead of bare numbers to represent flex fractions.
+  * The ''display'' property should be called ''display-type''.
