@@ -3,7 +3,7 @@
 ==== Adjacent meetings ====
   * 2016-01-30..31 [[https://wiki.css-houdini.org/planning/sydney-2016|Houdini Meeting]] in Sydney
   * 2016-02-03 Joint meeting between CSS and SVG in Sydney
-  * 2016-02-04..06 SVG WG Meeting in Sydney
+  * 2016-02-04..06 [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Sydney_2016|SVG WG Meeting]] in Sydney
 
 ==== Dates to schedule around ====
   * 2016-01-12..15 [[https://github.com/w3ctag/meetings/tree/gh-pages/2016/01-mel|TAG Meeting]] in Melbourne
