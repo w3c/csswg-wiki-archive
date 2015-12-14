@@ -1,8 +1,14 @@
 ===== Sydney F2F February 1-3 2016 =====
 
+==== Adjacent meetings ====
+  * 2016-01-30..31 [[https://wiki.css-houdini.org/planning/sydney-2016|Houdini Meeting]] in Sydney
+  * 2016-02-03 Joint meeting between CSS and SVG in Sydney
+  * 2016-02-04..06 SVG WG Meeting in Sydney
+
 ==== Dates to schedule around ====
-  * 2016-01-12..15 TAG Meeting in Melbourne
-  * 2016-01-30..31 Houdini in (Sydney?), FOSDEM in ????
+  * 2016-01-12..15 [[https://github.com/w3ctag/meetings/tree/gh-pages/2016/01-mel|TAG Meeting]] in Melbourne
+  * 2016-01-30..31 FOSDEM in Brussels
+  * 2016-02-01..05 [[http://linux.conf.au/|linux.conf.au, Geelong (Melbourne)]]
 
 ==== Place, Logistics, etc. ====
 
