@@ -15,7 +15,7 @@ Note! There have been changes to the module template since it was written! Check
   - **Request Publication -** Send a message (See Template Below) to Bert and webreq, CCing w3c-css-wg, asking them to put your spec in the publication pipeline. Include a link to your draft and to the minutes with the resolution to publish. (If Bert is on vacation, ask fantasai or Chris.) Put ''[Publish]'' in the subject line.
     - **For FPWD**, you also need a resolution on the shortname of the spec, and need to as the W3C domain leader (plh, in our case) to the FPWD publication and the choice of URL.
   - **Wait for Publication -** Wait for the spec to be published. W3C publishes on Tuesdays and Thursdays. (Assume Bert needs 2 days notice before the publication date unless he tells you otherwise.)
-  - **Announce Your Spec -** Post an announcement of your new spec to [[mailto:www-style@w3.org|www-style]] and the [[https://www.w3.org/blog/CSS/wp-admin/|CSSWG Blog]] (See Templates Below) and link the blog post from [[http://twitter.com/csswg|@csswg]]. If you need help with this, ask fantasai. A good announcement includes:
+  - **Announce Your Spec -** Post an announcement of your new spec to [[mailto:www-style@w3.org|www-style]] (and cross-post to [[mailto:public-review-announce@w3.org|public-review-announce]] and any other relevant mailing lists]] and the [[https://www.w3.org/blog/CSS/wp-admin/|CSSWG Blog]] (See Templates Below) and link the blog post from [[http://twitter.com/csswg|@csswg]]. If you need help with this, ask fantasai. A good announcement includes:
      * A link to the spec
      * An explanation of what's new, what's cool, what's changed, maybe what to expect going forward, but most importantly what you would especially like feedback on.
      * Instructions for sending feedback
@@ -51,7 +51,7 @@ The www-style message is your chance to update WG and www-style members who have
 
 Replace !!!!marked!!!! items. Here's an [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0790.html|example WD announcement]] and here's an [[http://lists.w3.org/Archives/Public/www-style/2013Jan/0013.html|example LCWD announcement]]:
 
-  ; To : www-style@
+  ; To : www-style@ and public-review-announce@
   ; Subject : [CSSWG][!!!!css-foo!!!!] Updated WD of !!!!CSS Foo L#!!!!
   ; Body : 
 
@@ -86,7 +86,7 @@ The www-style message is your chance to update WG and www-style members who have
 
 Replace !!!!marked!!!! items. Here's an [[https://lists.w3.org/Archives/Public/www-style/2015Jul/0096.html|example CR announcement]]:
 
-  ; To : www-style@
+  ; To : www-style@ and public-review-announce@
   ; Subject : [CSSWG][!!!!css-foo!!!!] CR of !!!!CSS Foo L#!!!!
   ; Body : 
 
