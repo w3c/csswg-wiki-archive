@@ -8,10 +8,8 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
-  * [[planning:2015]]
-    * 2015-10-26..30 [[planning:tpac-2015]], Sapporo, Japan (followed by [[http://www.ietf.org/meeting/upcoming.html|IETF 94 in Yokohama]], November 2-6)
-  * 2016
-    * 2016-02-01..03 [[planning:sydney-2016]] Google Sydney
+  * [[planning:2016]]
+    * 2016-02-01..03 [[planning:sydney-2016]] Google Sydney (with Houdini 2016-01-30..31)
     * May, tentatively 2016-05-09..11 (with possible Houdini 12-13), probably US West Coast, maybe Tokyo as backup
     * 2016-09-19..23 TPAC - Lisbon, Portugal
   * [[planning:hosting]]
@@ -34,6 +32,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
           * Tuesday, 25 August: [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0037.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0038.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0040.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0041.html|Part IV]]
           * Wednesday, 26 August: [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0093.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0094.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0095.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0095.html|Part IV]]
           * Thursday, 27 August: [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0110.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0111.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0112.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0113.html|Part V]]
+    * 2015-10-26..30 [[planning:tpac-2015]], Sapporo, Japan (followed by [[http://www.ietf.org/meeting/upcoming.html|IETF 94 in Yokohama]], November 2-6)
 
 ==== 2014 ====
 [[planning:2014]]
