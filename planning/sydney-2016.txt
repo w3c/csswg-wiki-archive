@@ -25,11 +25,12 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 | fantasai | Jan 30 | Feb 5 | ?? | AirNZ |
 | Dean Jackson | ?? | ?? | ?? | ?? |
 | Edward O'Connor | ?? | ?? | ?? | ?? |
-| L. David Baron | 29 Jan, 14:35 | 6 Feb, 14:30 | ?? | ANZ119 / UAL870 |
+| Greg Whitworth | Jan 27 | Feb 4 | ?? | ?? |
 | Hiroshi Sakakibara | ?? | ?? | ?? | ?? |
+| L. David Baron | 29 Jan, 14:35 | 6 Feb, 14:30 | ?? | ANZ119 / UAL870 |
 | Simon Fraser | ?? | ?? | ?? | ?? |
 | Simon Pieters | Jan 29 (22:30) | Feb 3 (21:45) | ?? | QF 8414 / QF 8413 |
-| Greg Whitworth | Jan 27 | Feb 4 | ?? | ?? |
+| Tantek Çelik | 2016-01-29(?) | 2016-02-04(?) | ?? | ?? |
 
 ==== Proposed topics ====
   * [[https://lists.w3.org/Archives/Public/public-fx/2015OctDec/0021.html|conflicting auto values in mask shorthand (mask-mode must not have auto)]] (dbaron) (maybe an FX topic)
