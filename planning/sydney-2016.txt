@@ -53,17 +53,18 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
 | Alan Stearns | Jan 26 | Feb 6 | ?? | ?? |
 | Bert Bos | ?? | ?? | ?? | ?? |
-| fantasai | Jan 30 | Feb 5 | ?? | AirNZ |
 | Dean Jackson | ?? | ?? | ?? | ?? |
 | Edward O'Connor | ?? | ?? | ?? | ?? |
+| fantasai | Jan 30 | Feb 5 | Airbnb | AirNZ |
+| Florian Rivoal | Jan 30? | Feb 4? | Airbnb | ?? |
 | Greg Whitworth | Jan 27 | Feb 4 | ?? | ?? |
 | Hiroshi Sakakibara | ?? | ?? | ?? | ?? |
 | Koji Ishii | ?? | 2016-02-04(?) | ?? | ?? |
-| L. David Baron | 29 Jan, 14:35 | 6 Feb, 14:30 | ?? | ANZ119 / UAL870 |
+| L. David Baron | 29 Jan, 14:35 | 6 Feb, 14:30 | Airbnb / ?? | ANZ119 / UAL870 |
 | Peter Linss | Jan 28/29 | Feb 8 | Novotel Sydney | Car / UA840 |
 | Simon Fraser | ?? | ?? | ?? | ?? |
-| Simon Pieters | Jan 29 (22:30) | Feb 3 (21:45) | ?? | QF 8414 / QF 8413 |
-| Tantek Çelik | 2016-01-29(?) | 2016-02-04(?) | ?? | ?? |
+| Simon Pieters | Jan 29 (22:30) | Feb 3 (21:45) | Airbnb | QF 8414 / QF 8413 |
+| Tantek Çelik | 2016-01-29(?) | 2016-02-04(?) | Airbnb | ?? |
 
 
 **Regrets**
