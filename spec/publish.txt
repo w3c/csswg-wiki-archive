@@ -91,7 +91,7 @@ Replace !!!!marked!!!! items. Here's an [[https://lists.w3.org/Archives/Public/w
   ; Body : 
 
 
-  The CSS WG has published a Candidate Recommendation of the !!!!CSS Foo Module Level #!!!!:
+  The CSS WG has published a Candidate Recommendation and invites implementations of the !!!!CSS Foo Module Level #!!!!:
   
       !!!!http://www.w3.org/TR/css-foo-#/!!!!
   
