@@ -1,0 +1,122 @@
+===== Sydney F2F February 1-3 2016 =====
+
+   * Host: Google
+   * Dates: Monday-Wednesday, February 01-3, 2016 (with SVG on Wednesday)
+   * Times: Doors will open from 8:30am. Meeting can run from 9:00am - 6:30pm as required.
+
+==== Adjacent meetings ====
+  * 2016-01-30..31 [[https://github.com/w3c/css-houdini-drafts/wiki/Sydney-F2F-January-2016|Houdini Meeting]] in Sydney
+  * 2016-02-03 Joint meeting between CSS and SVG in Sydney
+  * 2016-02-04..06 [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Sydney_2016|SVG WG Meeting]] in Sydney
+
+==== Dates to schedule around ====
+  * 2016-01-12..15 [[https://github.com/w3ctag/meetings/tree/gh-pages/2016/01-mel|TAG Meeting]] in Melbourne, Australia
+  * 2016-01-30..31 FOSDEM in Brussels, Belgium
+  * 2016-02-01..05 [[http://linux.conf.au/|linux.conf.au]], Geelong (near Melbourne), Australia
+
+==== Place ====
+
+Google Sydney: Level 5, 48 Pirrama Road, Pyrmont
+
+[[https://www.google.com/maps/d/edit?mid=zJ65I1F7fhHg.kXMVcT5RKNhU|This map]] might help.
+
+**Meeting Rooms**
+
+  * Main room: 
+      * Corroboree, on Level 5 (opposite reception).
+
+  * Breakout rooms: 
+      * Monday: Barangaroo, on Level 4 (all day) - 42 person room
+      * Tuesday AM: Howzat, on Level 6 (9am-1pm) - 14 person room
+      * Tuesday PM: Dreamtime, on Level 5 (1pm-5:30pm) - 18 person room
+      * Wednesday AM: Dreamtime, on Level 5 (9am-1pm) - 18 person room
+      * Wednesday PM: Redback, on Level 6 (1pm-5:30pm) - 16 person room
+
+**Instructions for arrival**:
+
+Please come directly up to level 5. A security guard will let you in and I will have a badge for you.
+
+If you arrive after 9:30am, please either:
+  * call Shane Stephens on +61 405 491 744; or
+  * log on to the free Google Guest wifi (which should be accessible from the ground floor) and ping someone on #css.
+
+**Parking**: If you think you'd like to drive to the meeting, please let Shane know and he will try and book parking for you at Google. **Parking is limited**. There are also parking stations nearby, particularly [[http://www.wilsonparking.com.au/go/wilson-car-parks/nsw/harbourside|Harbourside]].
+
+
+=== Visa Requirements ====
+A visa is required for US Citizens to enter Australia (citizens of other countries please check with the appropriate authorities), a visa may be obtained electronically from the [[http://www.eta.immi.gov.au/|Electronic Travel Authority web site]].
+
+For various other nationalities, you're supposed to get a https://www.border.gov.au/Trav/Visa-1/651-
+
+==== Participants =====
+
+Please, put your name in this table if you plan to participate (alphabetical order by given name):
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Alan Stearns | Jan 26 | Feb 6 | ?? | ?? |
+| Andrey Rybka | Jan 31 | Feb 3 | Oaks Goldsbrough Apartments | AirNZ |
+| Bert Bos | Jan 29 | Feb 4 | ?? | VA891/VA640 |
+| Dean Jackson | ?? | ?? | ?? | ?? |
+| Edward O'Connor | Jan 30 | Feb 6 | Sheraton on the Park | UA 863 / UA 870 |
+| fantasai | Jan 30 | Feb 5 | Airbnb | AirNZ |
+| Florian Rivoal | Jan 31 | Feb 4 | Airbnb | KE728+KE121 / KE122+KE721 |
+| Greg Whitworth | Jan 27 | Feb 4 | ?? | ?? |
+| Hiroshi Sakakibara | ?? | ?? | ?? | ?? |
+| Hyojin Song | Jan 30, 08:40 | Feb 4 | Airbnb | OZ601 / OZ602 |
+| Ian Kilpatrick | Jan 26 | Feb 7 | ?? | Qantas |
+| Ian Vollick | Jan 29 | Feb 2 | ?? | United |
+| Jihye Hong | Jan 30, 08:40 | Feb 4 | Airbnb | OZ601 / OZ602 |
+| Joone Hur | Jan 29 08:35 | Feb 5 14:30 | Airbnb | UA 863 / UA 870 |
+| Koji Ishii | ?? | 2016-02-04(?) | ?? | ?? |
+| L. David Baron | 29 Jan, 14:35 | 6 Feb, 14:30 | Airbnb / ?? | ANZ119 / UAL870 |
+| Peter Linss | Jan 28/29 | Feb 8 | Novotel Sydney | Car / UA840 |
+| Rossen Atanassov | Jan 29 | Feb 8 | ?? | ?? |
+| Simon Fraser | ?? | ?? | ?? | ?? |
+| Simon Pieters | Jan 29 (22:30) | Feb 3 (21:45) | Airbnb | QF 8414 / QF 8413 |
+| Steve Zilles | Jan 27 | Feb 4 | Merton Serviced Apartments | UA |
+| Tantek Çelik | 2016-01-30 08:35 | 2016-02-04 14:30 | Airbnb | UAL863 / UAL870 |
+
+
+**Regrets**
+
+  * Dave Cramer
+  * Dael Jackson
+  * Dongwoo Joshua Im
+
+//**Please note that Jan 26 is a public holiday in Australia**//
+
+
+=== Network ===
+
+The GoogleGuest network will be available throughout the building. No password is required.
+==== Travel to/from airport ====
+
+A taxi from the airport to the meeting venue will cost between $30 and $50, depending on traffic. There's generally only a short wait to get a taxi, and a fairly orderly queue. This is probably the most convenient, and also the cheapest if you share with others...
+
+If staying in Chinatown, the [[http://www.airportlink.com.au/directions/sydney-city.php|airport train line]] is reasonably convenient. A one-way ticket is $16.40. If you're staying in Pyrmont, you can still take the train, then jump on the [[http://www.sydneylightrail.transport.nsw.gov.au/|light rail]] from 'Central' to 'the Star'. You'll need to pay $4.60 (in cash) after boarding the train.
+
+Some hotels offer complimentary bus transfers to/from the airport - check with your hotel when booking.
+
+=== Money ===
+
+The [[http://en.wikipedia.org/wiki/Australian_dollar|Australian dollar (AUD)]].  See [[http://www.oanda.com/currency/table?exch=AUD&sel_list=USD_EUR_GBP_JPY_NOK_SEK_NZD_CNY_TWD_KRW&value=1&format=HTML&redirected=1|exchange rates]].
+
+You should be able to use your credit card pretty much everywhere (especially Mastercard and Visa). Diners Club cards tend to attract a fee or not be accepted. Checks are not generally accepted.
+
+=== Electricity ===
+
+230V, 50Hz, 10A [[http://en.wikipedia.org/wiki/AS/NZS_3112|flat, angled awesome pins]]
+
+{{https://upload.wikimedia.org/wikipedia/commons/7/7a/Australian_dual_switched_power_point.jpg}}
+
+Notice the small switch on the side. Unless you flip it on, don't expect the power socket to do much for you.
+
+==== Proposed topics ====
+  * [[https://lists.w3.org/Archives/Public/public-fx/2015OctDec/0021.html|conflicting auto values in mask shorthand (mask-mode must not have auto)]] (dbaron) (maybe an FX topic)
+  * Robustness of CSS on non rectangular displays https://lists.w3.org/Archives/Public/www-style/2016Jan/0050.html (florian)
+  * CSS Round Display issues and new ideas - to be updated (hyojin)
+  * white-space: pre-wrap / pre-wrap-auto http://www.w3.org/mid/56402730.50405@inkedblade.net (florian)
+  * text-wrap: balance and fragmentation http://www.w3.org/mid/36D11879-0E75-4172-BE7E-7A97C0F11F01@rivoal.net (florian)
+  * table specification (Greg)
+  * Aligning table columns on decimal point and its variations, including [[https://drafts.csswg.org/css-text-4/#character-alignment|issue 18 in css-text-4 ED]] and [[http://w3c.github.io/dpub-pagination/#tables|tables section of dpub-latinreq ED]] (Bert)
+   * A report on research into automatic layout (Bert). (Just before the ftf, I'll be in Melbourne to talk to, among others, researchers at Monash. I expect I'll come back with some interesting things to report on.) 30 mins?
