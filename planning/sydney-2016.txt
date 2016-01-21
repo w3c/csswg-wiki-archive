@@ -123,3 +123,10 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
   * table specification (Greg)
   * Aligning table columns on decimal point and its variations, including [[https://drafts.csswg.org/css-text-4/#character-alignment|issue 18 in css-text-4 ED]] and [[http://w3c.github.io/dpub-pagination/#tables|tables section of dpub-latinreq ED]] (Bert)
    * A report on research into automatic layout (Bert). (Just before the ftf, I'll be in Melbourne to talk to, among others, researchers at Monash. I expect I'll come back with some interesting things to report on.) 30 mins?
+  * CSS Web Compat challenges (tantek)
+    * E.g. 0 vs 0deg:
+      * https://bugzilla.mozilla.org/show_bug.cgi?id=1234357
+      * https://code.google.com/p/chromium/issues/detail?id=569703
+    * How do we decide to fix browsers vs fix spec? Like for this 0 vs 0deg example.
+    * How do we get browser to report when they implement *new* quirks (presumably for web compat)?
+    * How do we get member sites to stop depending on CSS vendor prefixes? (e.g. Gmail)
