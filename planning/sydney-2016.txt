@@ -130,3 +130,7 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
     * How do we decide to fix browsers vs fix spec? Like for this 0 vs 0deg example.
     * How do we get browser vendors to report when they implement *new* quirks (presumably for web compat)?
     * How do we get member sites to stop depending on CSS vendor prefixes? (e.g. Gmail)
+  * CSS Text Decorations (koji)
+    * text-underline-position [[https://readable-email.org/list/www-style/topic/css-text-decor-doesn-t-example-3-in-text-underline-position-break-current-ua-behavior|www-style thread]]
+  * CSS Writing Modes [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-01.html|test status]] and the road to PR/REC [koji]
+  * [[https://github.com/kojiishi/snap-height|Snap heights]] -- a simpler [[https://drafts.csswg.org/css-line-grid/|Line Grid]]? [koji]
