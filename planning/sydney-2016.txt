@@ -137,4 +137,5 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
   * CSS Writing Modes [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-01.html|test status]] and the road to PR/REC [koji]
   * [[https://github.com/kojiishi/snap-height|Snap heights]] -- a simpler [[https://drafts.csswg.org/css-line-grid/|Line Grid]]? [koji]
   * FXTF: fill/stroke on text in CSS
-  * Supported extended color displays: outside-sRGB colors, media queries etc. [smfr] Prefer Monday.
+  * Supported extended color displays: outside-sRGB colors, media queries etc. (smfr) Prefer Monday.
+  * Status of https://tabatkins.github.io/specs/css-font-display/ (smfr/dino/hober)
