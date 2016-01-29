@@ -129,7 +129,7 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
       * Aligning table columns on decimal point and its variations, including [[https://drafts.csswg.org/css-text-4/#character-alignment|issue 18 in css-text-4 ED]] and [[http://w3c.github.io/dpub-pagination/#tables|tables section of dpub-latinreq ED]]. Also discussed on list starting [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0233.html|here]] (Bert)
   * Tables specification (Greg)
       * table header and footer repetition: https://lists.w3.org/Archives/Public/www-style/2016Jan/0135.html (Florian)
-      * A report on research into automatic layout (Bert). (Just before the ftf, I'll be in Melbourne to talk to, among others, researchers at Monash. I expect I'll come back with some interesting things to report on.) 30 mins?
+  * A report on research into automatic layout (Bert). (Just before the ftf, I'll be in Melbourne to talk to, among others, researchers at Monash. I expect I'll come back with some interesting things to report on.) 30 mins?
   * CSS Text Decorations (koji)
     * text-underline-position [[https://readable-email.org/list/www-style/topic/css-text-decor-doesn-t-example-3-in-text-underline-position-break-current-ua-behavior|www-style thread]]
   * CSS Writing Modes
