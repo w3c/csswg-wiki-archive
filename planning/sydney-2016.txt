@@ -147,7 +147,7 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
           * https://code.google.com/p/chromium/issues/detail?id=569703
       * How do we decide to fix browsers vs fix spec? Like for this 0 vs 0deg example.
       * How do we get browser vendors to report when they implement *new* quirks (presumably for web compat)?
-      * How do we get member sites to stop depending on CSS vendor prefixes? (e.g. Gmail)
+      * How do we get member sites to stop depending on CSS vendor prefixes? (e.g. Gmail [[https://twitter.com/tabatkins/status/674620970523430914|“yelling at the internal teams”]])
   * CSS Exclusions and bidi (koji, shane)
       * Doesn't seem to be any specification prose describing the interaction.
 === FXTF ===
