@@ -153,6 +153,8 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
   * Snap-points
     * Applicability to pseudo-elements https://lists.w3.org/Archives/Public/www-style/2016Jan/0193.html (florian)
     * Snappability of unreachable elements https://lists.w3.org/Archives/Public/www-style/2016Jan/0191.html (florian)
+    * indirect scrolling https://lists.w3.org/Archives/Public/www-style/2016Jan/0296.html (florian)
+    * Is this still relevant, or do snap-points cover its use cases https://tabatkins.github.io/specs/css-sticky-scrollbars/ (florian)
 === FXTF ===
 
   * [[https://lists.w3.org/Archives/Public/public-fx/2015OctDec/0021.html|conflicting auto values in mask shorthand (mask-mode must not have auto)]] (dbaron) (maybe an FX topic)
