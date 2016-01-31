@@ -187,7 +187,16 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
 
 === Wednesday PM ===
 
-  * Overflow from above schedule
+  * Text issues (http://tavmjong.free.fr/SVG/TEXT_SYDNEY_2016/) (Tav) https://github.com/w3c/svgwg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Needs+CSS+WG%22
+    * 'dominant-baseline'
+    * Text wrapping
+
+  * Filters: (Tav)
+    * Avoiding artifacts with lighting filters.
+    * Status of Filters Level 1
+    * Filters Level 2
+
+  * Investigation about JS API for realizing Level of Details (Proposals/Investigation_of_APIs_for_Level_of_detail) (Stakagi : I will arrive at noon. ) 
 
 ==== Proposed topics ====
 
