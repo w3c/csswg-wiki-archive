@@ -120,18 +120,17 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
 
 === Monday AM ===
 
-  * A report on research into automatic layout (Bert). (Just before the ftf, I'll be in Melbourne to talk to, among others, researchers at Monash. I expect I'll come back with some interesting things to report on.) 30 mins? (Daniel to call in)
+  * A report on research into automatic layout (Bert). (Just before the ftf, I'll be in Melbourne to talk to, among others, researchers at Monash. I expect I'll come back with some interesting things to report on.) 30 mins? (Daniel and François to call in)
+  * Tables specification (Greg, François to call in)
+      * table header and footer repetition: https://lists.w3.org/Archives/Public/www-style/2016Jan/0135.html (Florian)
+      * Applying css-containment to table cells https://lists.w3.org/Archives/Public/www-style/2015Aug/0141.html (florian)
+  * CSS Text
+      * Aligning table columns on decimal point and its variations, including [[https://drafts.csswg.org/css-text-4/#character-alignment|issue 18 in css-text-4 ED]] and [[http://w3c.github.io/dpub-pagination/#tables|tables section of dpub-latinreq ED]]. Also discussed on list starting [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0233.html|here]] (Bert)(Dave C. would like to call in for this)
   * Colors
       * Supported extended color displays: outside-sRGB colors, media queries etc. (smfr) Prefer Monday.
-  * CSS Text
-      * white-space: pre-wrap / pre-wrap-auto http://www.w3.org/mid/56402730.50405@inkedblade.net (florian)
-      * text-wrap: balance and fragmentation http://www.w3.org/mid/36D11879-0E75-4172-BE7E-7A97C0F11F01@rivoal.net (florian)
-      * Aligning table columns on decimal point and its variations, including [[https://drafts.csswg.org/css-text-4/#character-alignment|issue 18 in css-text-4 ED]] and [[http://w3c.github.io/dpub-pagination/#tables|tables section of dpub-latinreq ED]]. Also discussed on list starting [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0233.html|here]] (Bert)(Dave C. would like to call in for this)
 
 === Monday PM ===
 
-  * Tables specification (Greg)
-      * table header and footer repetition: https://lists.w3.org/Archives/Public/www-style/2016Jan/0135.html (Florian)
   * CSS Text Decorations (koji)
     * text-underline-position [[https://readable-email.org/list/www-style/topic/css-text-decor-doesn-t-example-3-in-text-underline-position-break-current-ua-behavior|www-style thread]]
   * CSS Writing Modes
@@ -139,6 +138,7 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
   * Line-grid
     * [[https://github.com/kojiishi/snap-height|Snap heights]] -- a simpler [[https://drafts.csswg.org/css-line-grid/|Line Grid]]? [koji]
     * inline-grid / character-grid: The MVP for good CJK layout http://www.w3.org/mid/31B1844A-8D09-481C-8688-985AE82A6770@rivoal.net (florian)
+  * [[http://drafts.csswg.org/css-overflow-3/|CSS Overflow]] - open issues and how to fix them
 
 === Tuesday AM ===
 
@@ -166,7 +166,9 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
 
 === Tuesday PM ===
 
-  * [[http://drafts.csswg.org/css-overflow-3/|CSS Overflow]] - open issues and how to fix them
+  * CSS Text
+      * white-space: pre-wrap / pre-wrap-auto http://www.w3.org/mid/56402730.50405@inkedblade.net (florian)
+      * text-wrap: balance and fragmentation http://www.w3.org/mid/36D11879-0E75-4172-BE7E-7A97C0F11F01@rivoal.net (florian)
   * CSS Exclusions and bidi (koji, shane)
       * Doesn't seem to be any specification prose describing the interaction.
   * Snap-points
@@ -175,7 +177,6 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
     * indirect scrolling https://lists.w3.org/Archives/Public/www-style/2016Jan/0296.html (florian)
     * Is this still relevant, or do snap-points cover its use cases https://tabatkins.github.io/specs/css-sticky-scrollbars/ (florian)
   * "bookmark-level: auto" Possible? Needed? https://lists.w3.org/Archives/Public/www-style/2015Nov/0310.html (florian)
-  * Applying css-containment to table cells https://lists.w3.org/Archives/Public/www-style/2015Aug/0141.html (florian)
 
 === Wednesday AM ===
 
