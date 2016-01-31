@@ -138,7 +138,7 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
     * [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-01.html|test status]] and the road to PR/REC [koji]
   * Line-grid
     * [[https://github.com/kojiishi/snap-height|Snap heights]] -- a simpler [[https://drafts.csswg.org/css-line-grid/|Line Grid]]? [koji]
-    * inline-grid / character-grid: The MVP for good CJK layout (florian)
+    * inline-grid / character-grid: The MVP for good CJK layout http://www.w3.org/mid/31B1844A-8D09-481C-8688-985AE82A6770@rivoal.net (florian)
 
 === Tuesday AM ===
 
