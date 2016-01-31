@@ -135,6 +135,7 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
 
 === Monday PM ===
 
+  * CSS Transforms: path and obstacles to CR?
   * CSS Text Decorations (koji)
     * text-underline-position [[https://readable-email.org/list/www-style/topic/css-text-decor-doesn-t-example-3-in-text-underline-position-break-current-ua-behavior|www-style thread]]
   * CSS Writing Modes
@@ -182,7 +183,6 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
 
   * [[https://lists.w3.org/Archives/Public/public-fx/2015OctDec/0021.html|conflicting auto values in mask shorthand (mask-mode must not have auto)]] (dbaron) (maybe an FX topic)
   * [[http://drafts.csswg.org/css-text-decor-4/|Fill/Stroke on CSS Text]]
-  * CSS Transforms: path and obstacles to CR?
   * CSS Transitions and Animations: path and obstacles to CR?
 
 === Wednesday PM ===
