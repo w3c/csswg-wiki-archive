@@ -120,7 +120,7 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
 
 === Monday AM ===
 
-  * A report on research into automatic layout (Bert). (Just before the ftf, I'll be in Melbourne to talk to, among others, researchers at Monash. I expect I'll come back with some interesting things to report on.) 30 mins?
+  * A report on research into automatic layout (Bert). (Just before the ftf, I'll be in Melbourne to talk to, among others, researchers at Monash. I expect I'll come back with some interesting things to report on.) 30 mins? (Daniel to call in)
   * Colors
       * Supported extended color displays: outside-sRGB colors, media queries etc. (smfr) Prefer Monday.
   * CSS Text
@@ -154,7 +154,7 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
 
 == Track 2 ==
 
-  * CSS Web Compat challenges (tantek)
+  * CSS Web Compat challenges (tantek, Daniel to call in)
       * E.g. 0 vs 0deg:
           * https://bugzilla.mozilla.org/show_bug.cgi?id=1234357
           * https://code.google.com/p/chromium/issues/detail?id=569703
