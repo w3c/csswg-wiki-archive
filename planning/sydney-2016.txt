@@ -158,6 +158,7 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
 
 === Tuesday PM ===
 
+  * Behavior of contains:paint and overflow:clip, text-overflow and resize properties (Ojan)
   * Font OM
       * Status of https://tabatkins.github.io/specs/css-font-display/ (smfr/dino/hober)
   * CSS Text
