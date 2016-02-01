@@ -149,13 +149,14 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
       * Aligning table columns on decimal point and its variations, including [[https://drafts.csswg.org/css-text-4/#character-alignment|issue 18 in css-text-4 ED]] and [[http://w3c.github.io/dpub-pagination/#tables|tables section of dpub-latinreq ED]]. Also discussed on list starting [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0233.html|here]] (Bert)(Dave C. would like to call in for this)
   * A report on research into automatic layout (Bert). (Just before the ftf, I'll be in Melbourne to talk to, among others, researchers at Monash. I expect I'll come back with some interesting things to report on.) 30 mins? (Daniel and François to call in)
   * CSS Round Display (Brad K to call in)
-      * Polar positioning in absolute positioning https://lists.w3.org/Archives/Public/www-style/2016Jan/0134.html (jihye, brad)
       * Percentages of 'polar-distance' when origin is not the center of the containing block https://lists.w3.org/Archives/Public/www-style/2016Jan/0152.html (jihye)
+      * Polar positioning in absolute positioning https://lists.w3.org/Archives/Public/www-style/2016Jan/0134.html (jihye, brad)
       * Using polar properties as CSS 3D transforms function https://lists.w3.org/Archives/Public/www-style/2016Jan/0217.html (joone)
       * Suggest a new type of pseudo-class to support scrolling in rounded viewports https://lists.w3.org/Archives/Public/www-style/2016Jan/0255.html (jihye)
       * Change device-radius to device-corner-radius in the spec https://lists.w3.org/Archives/Public/www-style/2015Oct/0220.html (hyojin)
       * Extension of @viewport rule - two types of viewport(inner/outer of the display shape) (hyojin)
       * Robustness of CSS on non rectangular displays https://lists.w3.org/Archives/Public/www-style/2016Jan/0050.html (florian)
+      * Revise WD
 
 === Tuesday PM ===
 
