@@ -241,6 +241,10 @@ text]] (jet)
     * Is this still relevant, or do snap-points cover its use cases https://tabatkins.github.io/specs/css-sticky-scrollbars/ (florian)
   * "bookmark-level: auto" Possible? Needed? https://lists.w3.org/Archives/Public/www-style/2015Nov/0310.html (florian)
   * Applying css-containment to table cells https://lists.w3.org/Archives/Public/www-style/2015Aug/0141.html (florian)
+
+Extra topics:
+  * Several UAs behave differently (Webkit/Blink vs Gecko/AHF/Prince) for the multicol case: http://jsbin.com/wiziqikigi/edit?html,css,output (florian)
+
 === FXTF ===
 
   * [[https://lists.w3.org/Archives/Public/public-fx/2015OctDec/0021.html|conflicting auto values in mask shorthand (mask-mode must not have auto)]] (dbaron) (maybe an FX topic)
