@@ -132,10 +132,10 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
       * Applying css-containment to table cells https://lists.w3.org/Archives/Public/www-style/2015Aug/0141.html (florian)
   * Colors
       * Supported extended color displays: outside-sRGB colors, media queries etc. (smfr) Prefer Monday.
+  * CSS Transforms: path and obstacles to CR?
 
 === Monday PM ===
 
-  * CSS Transforms: path and obstacles to CR?
   * CSS Text Decorations (koji)
     * text-underline-position [[https://readable-email.org/list/www-style/topic/css-text-decor-doesn-t-example-3-in-text-underline-position-break-current-ua-behavior|www-style thread]]
   * CSS Writing Modes
