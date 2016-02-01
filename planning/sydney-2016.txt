@@ -243,7 +243,7 @@ text]] (jet)
   * Applying css-containment to table cells https://lists.w3.org/Archives/Public/www-style/2015Aug/0141.html (florian)
 
 Extra topics:
-  * Several UAs behave differently (Webkit/Blink vs Gecko/AHF/Prince) for the multicol case: http://jsbin.com/wiziqikigi/edit?html,css,output (florian)
+  * Several UAs behave differently (Webkit/Blink vs Gecko/AHF/Prince) for the multicol case: http://jsbin.com/fuloge/1/edit?html,css,output (florian)
 
 === FXTF ===
 
