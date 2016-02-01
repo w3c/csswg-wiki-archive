@@ -153,7 +153,7 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
       * Percentages of 'polar-distance' when origin is not the center of the containing block https://lists.w3.org/Archives/Public/www-style/2016Jan/0152.html (jihye)
       * Using polar properties as CSS 3D transforms function https://lists.w3.org/Archives/Public/www-style/2016Jan/0217.html (joone)
       * Suggest a new type of pseudo-class to support scrolling in rounded viewports https://lists.w3.org/Archives/Public/www-style/2016Jan/0255.html (jihye)
-      * Change device-radius to device-corner-radius in the spec (hyojin)
+      * Change device-radius to device-corner-radius in the spec https://lists.w3.org/Archives/Public/www-style/2015Oct/0220.html (hyojin)
       * Extension of @viewport rule - two types of viewport(inner/outer of the display shape) (hyojin)
       * Robustness of CSS on non rectangular displays https://lists.w3.org/Archives/Public/www-style/2016Jan/0050.html (florian)
 
