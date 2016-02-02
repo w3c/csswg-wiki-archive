@@ -1,3 +1,7 @@
 ====== Round Display Examples ======
 
 Please add examples of round displays here. Both with web content demos, and any screenshots / photographs of *any* round displays seen in the wild.
+
+  * An weather application which shows different UI depending on the shape of a display.
+  * * In a rectangular shape: http://anawhj.github.io/jRound/demo/weather/index_rect.html
+  * * In a circular shape: http://anawhj.github.io/jRound/demo/weather/index.html
