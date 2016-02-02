@@ -180,6 +180,8 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
 
 === Wednesday AM ===
 
+  * Upcoming meetings
+
 == Track 1 ==
 
   * [[http://drafts.csswg.org/css-text-decor-4/|Fill/Stroke on CSS Text]]
