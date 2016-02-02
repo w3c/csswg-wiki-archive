@@ -156,7 +156,7 @@ Notice the small switch on the side. Unless you flip it on, don't expect the pow
       * Change device-radius to device-corner-radius in the spec https://lists.w3.org/Archives/Public/www-style/2015Oct/0220.html (hyojin)
       * Extension of @viewport rule - two types of viewport(inner/outer of the display shape) (hyojin)
       * Robustness of CSS on non rectangular displays https://lists.w3.org/Archives/Public/www-style/2016Jan/0050.html (florian)
-      * Revise WD
+      * Revision of CSS Round Display WD
 
 === Tuesday PM ===
 
