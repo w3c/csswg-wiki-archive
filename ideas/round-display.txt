@@ -5,3 +5,5 @@ Please add examples of round displays here. Both with web content demos, and any
   * A weather application which shows different UIs depending on the shape of a display.
      * In a rectangular shape: http://anawhj.github.io/jRound/demo/weather/index_rect.html
      * In a circular shape: http://anawhj.github.io/jRound/demo/weather/index.html
+  * A facebook application designed for the round display
+     * http://anawhj.github.io/jRound/demo/facebook/circle.html 
