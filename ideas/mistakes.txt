@@ -37,3 +37,4 @@ That should be corrected if anyone invents a time machine. :P
   * '':link'' should have had the '':any-link'' semantics all along.
   * The ''flex'' shorthand (and ''flex-shrink'' and ''flex-grow'' longhands) should accept ''fr'' units instead of bare numbers to represent flex fractions.
   * The ''display'' property should be called ''display-type''.
+  * The ''list-style'' properties should be called ''marker-style'', and ''list-item'' renamed to ''marked-block'' or something.
