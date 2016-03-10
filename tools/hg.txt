@@ -101,12 +101,12 @@ You can optionally [[http://mercurial.selenic.com/wiki/MergeProgram|select an in
 
 Depending on your OS and Mercurial root certificate configuration you may get a warning message about the host certificate when communicating with the central repository. If that happens, you can remove those warnings by adding the following to your configuration file:
   [hostfingerprints]
-  dvcs.w3.org = 14:A5:F7:99:95:F8:41:9B:02:71:2C:4B:87:D2:E0:8B:F2:CF:4B:A3
-  hg.csswg.org = 71:06:B1:F3:E4:74:AB:53:C2:CE:8E:BF:99:7D:F8:B4:4C:22:E8:B9
-  hg.fxtf.org = B9:28:66:37:CB:36:3E:0B:A6:05:32:2F:7A:34:76:54:29:37:2A:9D
+  dvcs.w3.org = 23:87:0E:03:81:83:F1:68:9E:22:B1:94:2E:6E:4D:BD:08:9B:45:74
+  hg.csswg.org = 9D:D3:EC:29:34:8A:58:91:72:38:D5:3A:A8:04:F7:A9:6C:66:79:4C
+  hg.fxtf.org = 58:EA:6E:CA:E8:BB:0D:7F:26:DE:CB:15:69:2E:01:BA:30:92:AB:11
   hg.css-houdini.org = 20:92:CF:9D:D7:29:C6:B8:7D:58:E3:1D:A9:42:C6:9C:9F:02:87:49
 
-Note that these fingerprints will only be valid until the certificates expire (dvcs.w3.org expires 03-may-2016, hg.csswg.org expires expires 10-apr-2016). You will need to update the fingerprints when new certificates are issued.
+Note that these fingerprints will only be valid until the certificates expire (dvcs.w3.org expires 03-may-2016, hg.csswg.org expires expires 09-apr-2018). You will need to update the fingerprints when new certificates are issued.
 
 Alternatively (and better if you're on an OS where this is easy), you can avoid ever having to add fingerprints by following [[http://mercurial.selenic.com/wiki/CACertificates#Configuration_of_HTTPS_certificate_authorities|the instructions on the Mercurial wiki]].
 </note>
