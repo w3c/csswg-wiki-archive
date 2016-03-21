@@ -4,5 +4,24 @@ This is fantasai's scratch space for tracking the state of the CSS specs and wha
 
 It was last updated on 21 March 2016.
 
-; term
-: def
+  ; Scroll Snap
+  : Waiting for MaRakow to finish merging...
+  : Need to check minutes/ML for any outstanding issues
+
+  ; Flexbox
+  : Need to compile Christian's issues into a new DoC
+
+  ; Grid
+  : Need to compile DoC, changes list
+  : https://lists.w3.org/Archives/Public/www-style/2016Mar/0256.html 
+  : Need to address emeyer's issue
+  : Anything else?
+
+  ; Box Alignment
+  : Default alignment issue
+  : Finish line-by-line review
+  : New draft?
+
+  ; Values and Units
+  : Need reviews of all the calc() and serialization issues
+  
