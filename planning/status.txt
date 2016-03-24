@@ -44,6 +44,10 @@ It was last updated on 21 March 2016.
   : Need to check minutes/ML for any other outstanding issues
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0145.html|Resolved: If previously snapped, must resnap to that same snap position after content changes (if possible). If not snapped previously and now in range of a snap position, must snap. After the above resolution, there was concern about the second sentence.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0145.html|Resolved: The second sentence of the previous resolution is not precise enough]]
+  
+  ; Selectors 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2015Oct/0012.html|Resolved: Add :focus-ring to Selectors 4 or 5.]]
+  ; [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0111.html|Resolved: Keep section 3.6.3. (Pseudo-classing Pseudo-elements) overall. Add guidance to people developing new pseudo-elements on when to specify if they accept user action pseudo-classes. Remove the statement from :hover that it applies to all pseudo-elements: pseudo-elements must individually enable pseudo-classes they need.]]
 
   ; Text 3
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|Hanging punctuation causes ink overflow. [Note: This discussion has since been reopened. See this email]]
