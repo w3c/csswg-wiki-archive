@@ -28,7 +28,7 @@ It was last updated on 21 March 2016.
 
   ; Font Loading
   : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/|Resolved: font-loading control is only an @font-face descriptor, not a property.]]
-  : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/|Resolved: accept "font-display-thing-whatever-loading" property with four values to be renamed later: "block | swap | fallback | optional." i.block shows blank, swaps in fallback at 3s, swaps in real font whenever it loads. ii.	swap shows fallback, swaps in real font whenever it loads. iii.	fallback shows fallback, swaps in real font if it loads before 3s. iv.	optional shows real font if it loads from cache (very short timeout), otherwise shows fallback; optional allows UA to not continue loading the font for the next time.]]
+  : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/|Resolved: accept "font-display-thing-whatever-loading" property with four values to be renamed later:]] "block | swap | fallback | optional." i.block shows blank, swaps in fallback at 3s, swaps in real font whenever it loads. ii. swap shows fallback, swaps in real font whenever it loads. iii. fallback shows fallback, swaps in real font if it loads before 3s. iv. optional shows real font if it loads from cache (very short timeout), otherwise shows fallback; optional allows UA to not continue loading the font for the next time.
 
   ; Grid
   : Need to compile DoC, changes list
