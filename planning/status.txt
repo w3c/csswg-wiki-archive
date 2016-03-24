@@ -11,6 +11,8 @@ It was last updated on 21 March 2016.
   : Default alignment issue
   : Finish line-by-line review
   : New draft?
+  : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/|Resolved: Accept Myles’ proposal to make baseline of overflow non-visible inline blocks the higher of the actual baseline (at initial scroll position) and the margin-box bottom. Separately investigate whether to switch from margin-box bottom to padding-box bottom for sanity. (requries web-compat check)
+  : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/|ACTION: TabAtkins and fantasai to update Box Alignment spec per resolution, propose wording for CSS2.1 errata <trackbot> Created ACTION-678.]]
 
   ; Containment
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0039.html|Resolved: Accept #3 from the e-mail (Overflow is allowed visually, but it doesn’t project its “geometry” past the layout-contained ancestor, so it can’t trigger overflow past a layout-containment boundary) and say hit testing is currently undefined.]]
