@@ -43,7 +43,7 @@ It was last updated on 21 March 2016.
 
   ; Transforms
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow|Resolved: Republish Transforms]]
-  
+
   ; UI
   : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|Rossen and/or gregwhitworth will help Florian decide what that set of values should be.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|ACTION Florian determine set of -webkit-user-select values to spec <trackbot> Created ACTION-75]]
