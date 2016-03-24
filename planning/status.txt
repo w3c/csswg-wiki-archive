@@ -26,6 +26,7 @@ It was last updated on 21 March 2016.
   : Need to address emeyer's issue
   : Anything else?
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0173.html|fantasai gave a brief overview of the feedback that came from the New York grid workshop. She’ll be updating the spec and filing issues to the list.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0031.html|Resolved: Accept the new text for grid and multi-col changing the floor to a required amount. The new text is: “For the purpose of finding the number of auto-repeated tracks, the UA must floor the track size to a UA-specified value to avoid division by zero. It is suggested that this floor be ”1px” or less.”]]
 
   ; Overflow 3
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|clip-path and masking do not affect scrollable bounds]]
