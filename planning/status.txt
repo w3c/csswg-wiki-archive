@@ -24,8 +24,12 @@ It was last updated on 21 March 2016.
   : Need to check minutes/ML for any other outstanding issues
 
 
-  ; Values and Units
+  ; Values and Units 3
   : Need reviews of all the calc() and serialization issues
+
+  ; Values and Units 4
+  : Need reviews of all the calc() and serialization issues
+  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|Add ideographic advance unit to Values and Units 4, come back to WG for approval after details worked out.]]
 
   ; Writing Modes
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|ACTION fantasai: Look over Writing modes test failures]]
