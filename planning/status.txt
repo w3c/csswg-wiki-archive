@@ -54,7 +54,7 @@ It was last updated on 21 March 2016.
   ; Selectors 4
   : [[https://lists.w3.org/Archives/Public/www-style/2015Oct/0012.html|Resolved: Add :focus-ring to Selectors 4 or 5.]]
   ; [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0111.html|Resolved: Keep section 3.6.3. (Pseudo-classing Pseudo-elements) overall. Add guidance to people developing new pseudo-elements on when to specify if they accept user action pseudo-classes. Remove the statement from :hover that it applies to all pseudo-elements: pseudo-elements must individually enable pseudo-classes they need.]]
-  
+
   ; Snapshot
   : [[https://www.w3.org/blog/CSS/2015/08/12/minutes-telecon-259/|Resolved: unprefix min/max-content - gregwhitworth will work on building out a test suite for CSS Sizing]]
 
