@@ -13,6 +13,7 @@ It was last updated on 21 March 2016.
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0039.html|Resolved: Accept #3 from the e-mail (Overflow is allowed visually, but it doesn’t project its “geometry” past the layout-contained ancestor, so it can’t trigger overflow past a layout-containment boundary) and say hit testing is currently undefined.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0039.html|Resolved: Mark the undefined hit testing as an issue.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|ACTION TabAtkins ask his implementor about layout containment and overflow.]]
+  : [[https://www.w3.org/blog/CSS/2015/08/06/minutes-telecon-258/|Resolved: Clarify contain to make sure it specifies the order of operations.]]
 
   ; Colors
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|ACTION: ask ICC guys how authors can choose colors outside  sRGB. SteveZ ask authoring tool people how authors can specify  colors outside sRGB.]]  
