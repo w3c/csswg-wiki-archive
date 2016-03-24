@@ -4,10 +4,10 @@ This is fantasai's scratch space for tracking the state of the CSS specs and wha
 
 It was last updated on 21 March 2016.
 
-  ; Scroll Snap
-  : Waiting for MaRakow to finish merging...
-  : https://lists.w3.org/Archives/Public/www-style/2016Jan/0145.html
-  : Need to check minutes/ML for any other outstanding issues
+  ; Box Alignment
+  : Default alignment issue
+  : Finish line-by-line review
+  : New draft?
 
   ; Flexbox
   : Need to compile Christian's issues into a new DoC
@@ -18,11 +18,19 @@ It was last updated on 21 March 2016.
   : Need to address emeyer's issue
   : Anything else?
 
-  ; Box Alignment
-  : Default alignment issue
-  : Finish line-by-line review
-  : New draft?
+  ; Scroll Snap
+  : Waiting for MaRakow to finish merging...
+  : https://lists.w3.org/Archives/Public/www-style/2016Jan/0145.html
+  : Need to check minutes/ML for any other outstanding issues
+
 
   ; Values and Units
   : Need reviews of all the calc() and serialization issues
+
+  ; Writing Modes
+  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|ACTION fantasai: Look over Writing modes test failures]]
+  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|ACTION gregwhitworth: Look into unprefixing text-combine-upright]]
+  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|ACTION hober: Look into unprefixing writing modes features in
+         WebKit]]
+  
   
