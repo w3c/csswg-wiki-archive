@@ -34,6 +34,7 @@ It was last updated on 21 March 2016.
 
   ; Flexbox
   : Need to compile Christian's issues into a new DoC
+  : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/|ACTION: bcampbell Get examples of broken pages.]]
 
   ; Font Loading
   : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/|Resolved: font-loading control is only an @font-face descriptor, not a property.]]
@@ -72,6 +73,7 @@ It was last updated on 21 March 2016.
   ; Multicol 1
   : [[https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/|Resolved: Drop break-before and break-after from Multicol and reference fragmentation definitions and republish as CR/]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0031.html|Resolved: Accept the new text for grid and multi-col changing the floor to a required amount. The new text is: “For the purpose of finding the number of auto-repeated tracks, the UA must floor the track size to a UA-specified value to avoid division by zero. It is suggested that this floor be ”1px” or less.”]]
+  : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/|ACTION: TabAtkins talk with WebApps about a reordering API<trackbot> Created ACTION-692.]]
 
   ; Positioning
   : [[https://www.w3.org/blog/CSS/2015/07/02/minutes-telecon-252/|ACTION Rossen add position: fixed as s full stacking context to positioning <trackbot> Created ACTION-698.]]
