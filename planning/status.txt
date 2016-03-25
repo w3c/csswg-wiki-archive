@@ -27,6 +27,9 @@ It was last updated on 21 March 2016.
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0252.html|Resolved: Moving a float to the next fragmentainer does not move in-flow content that comes after the float. (However, per CSS2.1, subsequent floats do move down.)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html|Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.]]
 
+  ; CSS Conditional Rules
+  : [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html|In case of one single supports query the innermost parentheses are optional in functional notation. This resolution applies to both JS and CSS Conditional Rules.]]
+
   ; Flexbox
   : Need to compile Christian's issues into a new DoC
 
