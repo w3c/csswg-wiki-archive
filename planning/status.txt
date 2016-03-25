@@ -68,6 +68,7 @@ It was last updated on 21 March 2016.
 
   ; Media Queries
   : [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html|Resolved: Revert the Media Queries spec on the whitespace requirement.]]
+  : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|Resolved: In media queries, use boolean maybe semantics to handle unsupported syntax, i.e. false and unknown = false. (Re-evaluate if this ends up with back-compat problems.)]]
 
   ; Media Queries 3
   : [[https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/|Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)]]
