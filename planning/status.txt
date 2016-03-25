@@ -66,8 +66,10 @@ It was last updated on 21 March 2016.
   ;Masking
   :[[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|esprehn will look into the compat for clip-path]]
 
-  ; Media Queries 3
+  ; Media Queries
   : [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html|Resolved: Revert the Media Queries spec on the whitespace requirement.]]
+
+  ; Media Queries 3
   : [[https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/|Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)]]
 
   ; Media Queries 4
