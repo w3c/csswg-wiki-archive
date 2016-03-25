@@ -7,7 +7,7 @@ It was last updated on 21 March 2016.
   ; Animations
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|Resolved: No animation events when subtrees are destroyed.]]
   : [[https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-i/|Resolved: In level 1 of Animations we describe the current behavior of findRule and deleteRule]]
-  : [[https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-i/|Resolved: Make appendRule always add at the end of the keyframe no matter if the key already exists]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html|Resolved: Make appendRule always add at the end of the keyframe no matter if the key already exists]]
   : [[https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-i/|Resolved: No change for now for “Should CSSKeyframesRule inherit from CSSGroupingRule” bug (available here).]]
   : [[https://www.w3.org/blog/CSS/2014/12/18/minutes-telecon-232/|Resolved: For multiple values we expect the number and order of values to match, but whitespace will be trimmed by browser. As long as number and order is good, you’ll get the last rule that matches.]]
   : [[https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/|Resolved: Keywords are invalid @keyframes names and will throw an error when set through the OM]]
