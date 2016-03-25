@@ -82,6 +82,9 @@ It was last updated on 21 March 2016.
   ; Snapshot
   : [[https://www.w3.org/blog/CSS/2015/08/12/minutes-telecon-259/|Resolved: unprefix min/max-content - gregwhitworth will work on building out a test suite for CSS Sizing]]
 
+  ; Testing
+  : [[https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/|Resolved: Down-level tests (e.g. CSS2.1 color tests) should be updated to not fail on higher-level implementations (e.g. CSS4 color implementations), but should also leave the old pass conditions intact so that down-level clients can still pass the tests for the older featureset.]]
+
   ; Text 3
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|Hanging punctuation causes ink overflow. [Note: This discussion has since been reopened. See this email]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html|Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.]]
