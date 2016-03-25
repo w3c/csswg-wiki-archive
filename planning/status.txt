@@ -176,6 +176,9 @@ It was last updated on 21 March 2016.
   : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: Treat replaced elements as ideographic chars for line-breaking. Based on data, possible add an exception for &nbsp.]]
   : [[https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-f2f-part-iv/|Resolved: No examples of justification algorithm for text-justify: auto]]
   : [[https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-f2f-part-iv/|Resolved: Link to a wiki or NOTE collating information about language-specific justification conventions.]]
+  : [[https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/|Action fantasai and koji to make a poll on which options are most live-withable for universal justification.<trackbot> Created ACTION-637]]
+  : [[https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/|ACTION fantasai: clarify that ko-Han is different from ko-Hangul<trackbot> Created ACTION-638]]
+  : [[https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/|Action fantasai to ask i18n for help in setting up and maintaining the justification references <trackbot> Created ACTION-639]]
 
   ; Text 4
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0096.html|fantasai> ACTION TabAtkins Find unhappy dude at Google who dislikes hyphenation properties and have him send email explaining his unhappiness to www-style <trackbot> Created ACTION-715]]
