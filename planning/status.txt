@@ -14,6 +14,9 @@ It was last updated on 21 March 2016.
   : [[https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/|Resolved: findRule/deleteRule return/delete the last rule with the specified key.]]
   : [[https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/|Resolved: Animation properties don’t apply inside @keyframe rules except the animation timing function (where we have explainer text already)]]
 
+  ; Block Layout
+  : [[https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/|ACTION Bert: Republish css3-box with obnoxious note pointing to CSS2.1<trackbot> Created ACTION-644]]
+
   ; Box Alignment
   : Default alignment issue
   : Finish line-by-line review
