@@ -45,6 +45,9 @@ It was last updated on 21 March 2016.
   ; Input Modality
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0112.html|Resolved: bkardell as editor of new ED for input modality (name pending)]]
 
+  ; Line Grid
+  : [[https://lists.w3.org/Archives/Public/www-style/2015Nov/0226.html|Resolved: Line-grid will restart in the case of orthogonal flows between parent and child.]]
+
   ; Overflow 3
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|clip-path and masking do not affect scrollable bounds]]
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|Spec the current behavior for nested transforms and add a note that this could be improved]]
