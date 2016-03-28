@@ -108,6 +108,7 @@ It was last updated on 21 March 2016.
 
   ; Media Queries 4
   : [[https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/|Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)]]
+  : [[https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/|Resolved: Remove the old text that negates the entire media query if an unrecognized media value or feature appears.]]
 
   ; Media Queries 5
   : [[https://www.w3.org/blog/CSS/2015/04/23/minutes-telecon-245/|Tab and Florian to write proposal to Allow custom MQ before @import Action Florian to write a proposal for the mailing list <trackbot> Created ACTION-681.]]
@@ -210,6 +211,7 @@ It was last updated on 21 March 2016.
 
   ; Values and Units 3
   : Need reviews of all the calc() and serialization issues
+  : [[https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/|Resolved: Change the values and units to make invalid empty URL fail to resolve automatically.]]
 
   ; Values and Units 4
   : Need reviews of all the calc() and serialization issues
