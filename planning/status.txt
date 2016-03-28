@@ -14,6 +14,12 @@ It was last updated on 21 March 2016.
   : [[https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/|Resolved: findRule/deleteRule return/delete the last rule with the specified key.]]
   : [[https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/|Resolved: Animation properties don’t apply inside @keyframe rules except the animation timing function (where we have explainer text already)]]
   : [[https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/|Resolved: animation-fill-mode applies whenever it’s updated.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: Use Option G Beta.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: Animations and Transitions both really do have the behavior that non-interpolable properties switch at 50% of the timing function.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|ACTION: TabAtkins to write up proposal for www-style
+  <trackbot> Created ACTION-636]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: When animation-duration:0s, start/end events fire with 0 elapsedTime.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: Iteration events only fire for iterations that are actually run e.g. those not ‘absorbed’ by a negative delay.]]
 
   ; Block Layout
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0295.html|ACTION Bert: Republish css3-box with obnoxious note pointing to CSS2.1<trackbot> Created ACTION-644]]
@@ -32,7 +38,8 @@ It was last updated on 21 March 2016.
   : [[https://www.w3.org/blog/CSS/2015/08/06/minutes-telecon-258/|Resolved: Clarify contain to make sure it specifies the order of operations.]]
 
   ; Colors
-  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|ACTION: ask ICC guys how authors can choose colors outside  sRGB. SteveZ ask authoring tool people how authors can specify  colors outside sRGB.]]  
+  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|ACTION: ask ICC guys how authors can choose colors outside  sRGB. SteveZ ask authoring tool people how authors can specify  colors outside sRGB.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0605.html|Resolved: Add this property/functionality to Color 4 with names TBD.]]
 
   ; CSS2.1
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0252.html|Resolved: Moving a float to the next fragmentainer does not move in-flow content that comes after the float. (However, per CSS2.1, subsequent floats do move down.)]]
@@ -69,6 +76,9 @@ It was last updated on 21 March 2016.
   ; Device Adaptation
   : [[https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/|ACTION spieters Bug Rune about CSS Device Adaptation spec, what to do about it <trackbot> Created ACTION-649.]]
 
+  ; Display 3
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0055.html|Resolved: In Display Module, define br { display-box: contents; content: '\A'; white-space: pre; } to work. (This should result in change to handling of display: none, and change to HTML spec once published.)]]
+
   ; Flexbox
   : Need to compile Christian's issues into a new DoC
   : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/|ACTION: bcampbell Get examples of broken pages.]]
@@ -90,6 +100,9 @@ It was last updated on 21 March 2016.
 
   ; Images 3
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
+  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Allow nearest neighbor for image rendering in both directions but allow browsers to do prettier in the down directions.]]
+  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/Resolved: Include image rendering in Images 3.]]
+  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/Resolved: Close the issue (regarding guessing resolution from file size in Images 3) with no change because we’ll fix it later in harmony with HTML.]]
 
   ; Input Modality
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0112.html|Resolved: bkardell as editor of new ED for input modality (name pending)]]
@@ -111,10 +124,12 @@ It was last updated on 21 March 2016.
   ; Media Queries 3
   : [[https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/|Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)]]
   : [[https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/|Resolved: Allow empty string in media-query]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0052.html|Resolved: Update Media Queries 3 wording on never having to evaluate a style sheet unless specified explicitly otherwise.]]
 
   ; Media Queries 4
   : [[https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/|Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)]]
   : [[https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/|Resolved: Remove the old text that negates the entire media query if an unrecognized media value or feature appears.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0261.html|Resolved: Add color-inverted media feature with values none and inverted.]]
 
   ; Media Queries 5
   : [[https://www.w3.org/blog/CSS/2015/04/23/minutes-telecon-245/|Tab and Florian to write proposal to Allow custom MQ before @import Action Florian to write a proposal for the mailing list <trackbot> Created ACTION-681.]]
@@ -173,6 +188,10 @@ It was last updated on 21 March 2016.
   ; Snapshot
   : [[https://www.w3.org/blog/CSS/2015/08/12/minutes-telecon-259/|Resolved: unprefix min/max-content - gregwhitworth will work on building out a test suite for CSS Sizing]]
 
+  ; SVG
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html|Resolved: The root SVG element automatically creates a stacking context, as does foreignObject.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html|Resolved: SVG elements honor z-index automatically (like flex items), without requiring position.]]
+
   ; Syntax
   : [[https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/|Resolved: Unclosed URLs at the end of file should auto-close]]
 
@@ -200,6 +219,10 @@ It was last updated on 21 March 2016.
   : [[https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/|Resolved: Adopt second suggestion from Cameron (available here) about the UA style sheet plus a note saying initial transform-origin for SVG elements won’t lead to an expected result]]
   : [[https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/|<glazou> ACTION glazou: email krit about resolution item 1
   <trackbot> Created ACTION-694]]
+
+  ; Transitions
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Resolved: Remove the paint server definition from Transitions, deferring to the Images definition for transitioning values.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Resolved: Remove the gradient animation text from Transitions.]]
 
   ; UI
   : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|Rossen and/or gregwhitworth will help Florian decide what that set of values should be.]]
