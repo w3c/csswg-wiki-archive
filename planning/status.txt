@@ -20,6 +20,7 @@ It was last updated on 21 March 2016.
   <trackbot> Created ACTION-636]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: When animation-duration:0s, start/end events fire with 0 elapsedTime.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: Iteration events only fire for iterations that are actually run e.g. those not ‘absorbed’ by a negative delay.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Resolved: Remove bit about waiting for document load event before starting animations.]]
 
   ; Block Layout
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0295.html|ACTION Bert: Republish css3-box with obnoxious note pointing to CSS2.1<trackbot> Created ACTION-644]]
@@ -176,6 +177,7 @@ It was last updated on 21 March 2016.
   : [[https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/|Resolved: define a new :focus-within that matches on the same things as :focus, plus parents, including if there are Shadow DOMs]]
   : [[https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/|Resolved: both :hover and :active should propagate from the labeled control to the label, in addition to the other direction.]]
   : [[https://www.w3.org/blog/CSS/2014/11/20/minutes-telecon-228/|A tracking tool for the moved and removed pseudo-elements and pseudo-classes is available here.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html|Resolved: Complex selectors in :matches/:not to move to fast profile, assuming bz agrees.]]
 
   ; Sizing
   : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Define percentage sizing.]]
@@ -187,6 +189,9 @@ It was last updated on 21 March 2016.
 
   ; Snapshot
   : [[https://www.w3.org/blog/CSS/2015/08/12/minutes-telecon-259/|Resolved: unprefix min/max-content - gregwhitworth will work on building out a test suite for CSS Sizing]]
+
+  ; Speech
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html|abAtkins: We have time-dimensional pseudos, defined for WebVTT. TabAtkins: Anyone know if they're implemented anywhere? ACTION fantasai: make sure timeline is defined for Speech <trackbot> Created ACTION-607
 
   ; SVG
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html|Resolved: The root SVG element automatically creates a stacking context, as does foreignObject.]]
