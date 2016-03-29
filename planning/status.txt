@@ -21,6 +21,8 @@ It was last updated on 21 March 2016.
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: When animation-duration:0s, start/end events fire with 0 elapsedTime.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: Iteration events only fire for iterations that are actually run e.g. those not ‘absorbed’ by a negative delay.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Resolved: Remove bit about waiting for document load event before starting animations.]]
+  : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Use percentage values for key arguments and map from/to keywords to 0% and 100% respectively in Animations.]]
+  : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Keytext on setting invalid value should throw an error in Animations.]]
 
   ; Block Layout
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0295.html|ACTION Bert: Republish css3-box with obnoxious note pointing to CSS2.1<trackbot> Created ACTION-644]]
@@ -155,6 +157,9 @@ It was last updated on 21 March 2016.
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0031.html|Resolved: Accept the new text for grid and multi-col changing the floor to a required amount. The new text is: “For the purpose of finding the number of auto-repeated tracks, the UA must floor the track size to a UA-specified value to avoid division by zero. It is suggested that this floor be ”1px” or less.”]]
   : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/|ACTION: TabAtkins talk with WebApps about a reordering API<trackbot> Created ACTION-692.]]
 
+  ; Namespaces
+  : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.]]
+
   ; Paged Media
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: page: name is not inheritable, creates a group, but does not force page breaks between groups of the same name (for compat). First page of the group might be the last of another group. Delete the page-group property.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: Keep :nth() as the name, but extend functionality like L4 :nth-child() to solve the “first of group” problem.]]
@@ -176,6 +181,9 @@ It was last updated on 21 March 2016.
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0145.html|Resolved: If previously snapped, must resnap to that same snap position after content changes (if possible). If not snapped previously and now in range of a snap position, must snap. After the above resolution, there was concern about the second sentence.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0145.html|Resolved: The second sentence of the previous resolution is not precise enough]]
 
+  ; Selectors 3
+  : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.]]
+
   ; Selectors 4
   : [[https://lists.w3.org/Archives/Public/www-style/2015Oct/0012.html|Resolved: Add :focus-ring to Selectors 4 or 5.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0111.html|Resolved: Keep section 3.6.3. (Pseudo-classing Pseudo-elements) overall. Add guidance to people developing new pseudo-elements on when to specify if they accept user action pseudo-classes. Remove the statement from :hover that it applies to all pseudo-elements: pseudo-elements must individually enable pseudo-classes they need.]]
@@ -191,6 +199,7 @@ It was last updated on 21 March 2016.
   : [[https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/|Resolved: both :hover and :active should propagate from the labeled control to the label, in addition to the other direction.]]
   : [[https://www.w3.org/blog/CSS/2014/11/20/minutes-telecon-228/|A tracking tool for the moved and removed pseudo-elements and pseudo-classes is available here.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html|Resolved: Complex selectors in :matches/:not to move to fast profile, assuming bz agrees.]]
+  : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.]]
 
   ; Sizing
   : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Define percentage sizing.]]
