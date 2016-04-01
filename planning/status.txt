@@ -27,6 +27,7 @@ It was last updated on 21 March 2016.
   : [[https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/|Resolved: Defer a new steps() timing function to level 2.]]
   : [[https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/|Resolved: Accept the edit proposed in this e-mail.]]
   : [[https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/|Resolved: Inserting an @keyframe rule if it wasn’t there starts an animation.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2012Apr/0110.html|Note about seizures?]]
 
   ; Block Layout
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0295.html|ACTION Bert: Republish css3-box with obnoxious note pointing to CSS2.1<trackbot> Created ACTION-644]]
