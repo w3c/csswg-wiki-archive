@@ -85,8 +85,13 @@ Default: extended
 </code>
 
 <note warning>
+ISSUE : Is the distinction between extended and legacy grapheme clusters useful? Should we have a single "cluster" value instead?
+</note>
+
+<note warning>
 ISSUE 4: extended is proposed as the default, but is this the right choice? Maybe single would be more suitable
 </note>
+
 
 This definition affects what is meant by character processing in two different contexts:
 
