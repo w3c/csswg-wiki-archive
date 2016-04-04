@@ -2,7 +2,7 @@
 
 This is fantasai's scratch space for tracking the state of the CSS specs and what needs to be done for each.
 
-It was last updated on 21 March 2016.
+It was last updated on 4 April 2016.
   ; Align
   : [[https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/|Resolved: Publish a new WD of Box Alignment with a note about the default behavior when safe and unsafe is not listed explicitly.]]
 
