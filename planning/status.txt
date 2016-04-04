@@ -69,6 +69,7 @@ It was last updated on 21 March 2016.
   ; CSS Backgrounds 3
   : [[https://www.w3.org/blog/CSS/2015/01/22/minutes-telecon-235/|Resolved: Accept the proposed change for the serialization order for final-bg-color (available here)]]
   : [[https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/|Resolved: Make the image() function always respect EXIF orientation metadata in Backgrounds.]]
+  : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).]]
 
   ; CSS Conditional Rules
   : [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html|In case of one single supports query the innermost parentheses are optional in functional notation. This resolution applies to both JS and CSS Conditional Rules.]]
@@ -282,6 +283,7 @@ It was last updated on 21 March 2016.
   : [[https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/|Resolved: Adopt second suggestion from Cameron (available here) about the UA style sheet plus a note saying initial transform-origin for SVG elements won’t lead to an expected result]]
   : [[https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/|<glazou> ACTION glazou: email krit about resolution item 1
   <trackbot> Created ACTION-694]]
+  : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).]]
 
   ; Transitions
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Resolved: Remove the paint server definition from Transitions, deferring to the Images definition for transitioning values.]]
@@ -306,6 +308,7 @@ It was last updated on 21 March 2016.
   ; Values and Units 3
   : Need reviews of all the calc() and serialization issues
   : [[https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/|Resolved: Change the values and units to make invalid empty URL fail to resolve automatically.]]
+  : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).]]
 
   ; Values and Units 4
   : Need reviews of all the calc() and serialization issues
