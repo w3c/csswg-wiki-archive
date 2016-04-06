@@ -1,6 +1,6 @@
 ====== Specification Status Scratchspace ======
 
-This is fantasai's scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.**
+This is fantasai's scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
 It was last updated on 4 April 2016.
   ; Align
