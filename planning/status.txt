@@ -64,6 +64,8 @@ It was last updated on 4 April 2016.
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Accept rgba hex colors]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: No change to number of arguments to rgb/hsl]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Add color-correction property to CSS4 color draft, with issue about the problem it’s trying to solve and consideration that it might not be the right solution.]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/729|Drop color-correction property]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/728|Propose color profile feature for css]]
 
   ; CSS2.1
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0252.html|Resolved: Moving a float to the next fragmentainer does not move in-flow content that comes after the float. (However, per CSS2.1, subsequent floats do move down.)]]
@@ -89,6 +91,7 @@ It was last updated on 4 April 2016.
 
   ; CSS Forms
   : [[https://www.w3.org/blog/CSS/2016/03/18/minutes-telecon-278/|TabAtkins will write up a proposal for checkbox and radio buttons for next week detailing his thoughts while everyone else reviews the e-mails.]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/673|Make page of all form controls]]
 
   ; CSS Logical Properties
   : [[https://www.w3.org/blog/CSS/2015/02/26/minutes-telecon-237/|Resolved: Properties referencing corners drop the axis mentions and go into the block axis first, for example border-start-end-radius (in CSS Logical Properties)]]
@@ -108,9 +111,12 @@ It was last updated on 4 April 2016.
   ; Device Adaptation
   : [[https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/|ACTION spieters Bug Rune about CSS Device Adaptation spec, what to do about it <trackbot> Created ACTION-649.]]
   : [[https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/|ACTION TabAtkins: Define zooming, 2 types, for insertion into either MQ or device-adapt <trackbot> Created ACTION-572]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/739|Review changes in device-adaptation to see if we need a new wd or just a date bump]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/738|Review status of device adaptation]]
 
   ; Display 3
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0055.html|Resolved: In Display Module, define br { display-box: contents; content: '\A'; white-space: pre; } to work. (This should result in change to handling of display: none, and change to HTML spec once published.)]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/613|Clarify how omitted values are handled for display shorthand (and other shorthands he might've forgotten to handle.]]
 
   ; Exclusions
   : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: shorten minimum/maximum to min/max in exclusions values.]]
@@ -142,6 +148,8 @@ It was last updated on 4 April 2016.
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0031.html|Resolved: Accept the new text for grid and multi-col changing the floor to a required amount. The new text is: “For the purpose of finding the number of auto-repeated tracks, the UA must floor the track size to a UA-specified value to avoid division by zero. It is suggested that this floor be ”1px” or less.”]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0169.html|Resolved: Move subgrid to at risk for level 1 and add a requirement for display-box: contents to be used with grid and include examples.]]
   : [[https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/|Resolved: Accept proposal for error handling rules in grid layout.]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/575|Add example of empty named lines paren]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/574|Clarify spanning across implicit subgrid tracks]]
 
   ; Images 3
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
@@ -181,7 +189,8 @@ It was last updated on 4 April 2016.
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|Spec the current behavior for nested transforms and add a note that this could be improved]]
 
   ;Masking
-  :[[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|esprehn will look into the compat for clip-path]]
+  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|esprehn will look into the compat for clip-path]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/756|Investigate dropping mask-type property]]
 
   ; Media Queries
   : [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html|Resolved: Revert the Media Queries spec on the whitespace requirement.]]
@@ -192,6 +201,7 @@ It was last updated on 4 April 2016.
   : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: Remove the on-demand value from hover.]]
   : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: Move light-level to the next level of Media Queries.]]
   : [[https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/|Resolved: Add defining a minimum for the onload property as an issue in the Media Queries spec.]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/740|Republish mq4]]
 
   ; Media Queries 3
   : [[https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/|Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)]]
@@ -241,6 +251,10 @@ It was last updated on 4 April 2016.
 
   ; Pseudo-Elements
   : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Remove special case from ::first-letter]]
+
+  ; Round Display
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/752|Make proposal for round display media query]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/751|Add @viewport switch for opting into full round display size as viewport]]
 
   ; Ruby
   : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: writing-mode: vertical-lr on the rt based on parent’s ‘display’ & ‘ruby-position’.]]
@@ -305,6 +319,10 @@ It was last updated on 4 April 2016.
   ; Syntax
   : [[https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/|Resolved: Unclosed URLs at the end of file should auto-close]]
 
+  ; Tables
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/754|Look into allowing min-width on tables to work, and auto to work like it currently does - will require test cases for l2 of tables and possibly sizing as dbaron said it's helpful for intrinsic sizing beyond tables.]]
+
   ; Testing
   : [[https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/|Resolved: Down-level tests (e.g. CSS2.1 color tests) should be updated to not fail on higher-level implementations (e.g. CSS4 color implementations), but should also leave the old pass conditions intact so that down-level clients can still pass the tests for the older featureset.]]
 
@@ -322,6 +340,9 @@ It was last updated on 4 April 2016.
 
   ; Text 4
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0096.html|fantasai> ACTION TabAtkins Find unhappy dude at Google who dislikes hyphenation properties and have him send email explaining his unhappiness to www-style <trackbot> Created ACTION-715]]
+  
+  ; Text Decoration 4
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/755|Look into allowing min-width on tables to work, and auto to work like it currently does - will require test cases for l2 of tables and possibly sizing as dbaron said it's helpful for intrinsic sizing beyond tables.]]
 
   ; Transforms
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow|Resolved: Republish Transforms]]
@@ -331,6 +352,8 @@ It was last updated on 4 April 2016.
   : [[https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/|<glazou> ACTION glazou: email krit about resolution item 1
   <trackbot> Created ACTION-694]]
   : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/612|Send update to mailing list]]
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/611|Share transform testcases with the group.]]
 
   ; Transitions
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Resolved: Remove the paint server definition from Transitions, deferring to the Images definition for transitioning values.]]
