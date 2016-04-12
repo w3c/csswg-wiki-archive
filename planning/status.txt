@@ -126,6 +126,9 @@ It was last updated on 6 April 2016 and tracks backwards through about August 20
   : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: shorten minimum/maximum to min/max in exclusions values.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|RESOLVED: When a line is split by an exclusion, each side is its own line box for the purposes of bidi algorithm (i.e. they are effectively separated by a soft line wrap). Which line box is first depends on the block's directionality.]]
 
+  ; Filters
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Tav presented a new filter primitive he'd like added to level 2; dino agreed it was interesting and will look into adding it to the spec.]]
+
   ; Flexbox
   : Need to compile Christian's issues into a new DoC
   : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/|ACTION: bcampbell Get examples of broken pages.]]
@@ -144,6 +147,9 @@ It was last updated on 6 April 2016 and tracks backwards through about August 20
 
   ; Generated Content
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.]]
+
+  ; Geometry
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
 
   ; Grid
   : Need to compile DoC, changes list
@@ -180,6 +186,12 @@ It was last updated on 6 April 2016 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0609.html|Resolved: Change CSS Images 4’s specification of colorless color stops to use Rik’s proposal (i.e. use power curves).]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html|Action: krit to write up canvas for css4 images <trackbot> Created ACTION-588 - Write up canvas for css4 images (on Dirk Schulze - due 2013-11-17)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html|Resolved: The working group would like to see work on canvas for CSS Image.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Either AmeliaBR or Tav will create a proposal to either offer author control or spec guidance for browsers on dithering.]]
+
+  : Inline
+  ; [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Middle (half of the x height) and Alignment (synonym for text top and text bottom) baselines may be useful to add to CSS Inline.]]
+  ; [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Need to clarify that line boxes are fitted to nonrectangular shapes by requiring zero intersection.]]
+  ; [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Need to define default baseline positions for all baselines.]]
 
   ; Input Modality
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0112.html|Resolved: bkardell as editor of new ED for input modality (name pending)]]
@@ -197,6 +209,7 @@ It was last updated on 6 April 2016 and tracks backwards through about August 20
   ;Masking
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|esprehn will look into the compat for clip-path]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/756|Investigate dropping mask-type property]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|RESOLVED: Change 'auto' value of mask-mode to 'match-source'.]]
 
   ; Media Queries
   : [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html|Resolved: Revert the Media Queries spec on the whitespace requirement.]]
@@ -309,6 +322,7 @@ It was last updated on 6 April 2016 and tracks backwards through about August 20
   : [[https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-ii/|ACTION TabAtkins: spec their float layout for intrinsic sizes<trackbot> Created ACTION-659]]
   : [[https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-ii/|ACTION dbaron: spec their float layout for intrinsic sizes<trackbot> Created ACTION-660]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html|Resolved: Publish Sizing]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Need to clarify that line boxes are fitted to nonrectangular shapes by requiring zero intersection.]]
 
   ; Sizing 3
   : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|ACTION: fantasai figure out what it was wrt percentage sizing<trackbot> Created ACTION-670]]
@@ -397,6 +411,9 @@ It was last updated on 6 April 2016 and tracks backwards through about August 20
   : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: Replace region-fragment with ‘fragmentation’, written by Florian, determine where it belongs.]]
   : [[https://www.w3.org/blog/CSS/2015/02/26/minutes-telecon-237/|Resolved: Tighten the language of the directional focus property behavior and include an informative note about the behaviors we’re considering and welcome/actively solicit input.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Nov/0361.html|Resolved: Effects affect scrollbars and focus rings. We may work on controls later.]]
+
+  ; Undefined Spec
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|stakagi presented some very detailed work he had done (Available here: https://www.w3.org/Graphics/SVG/WG/wiki/Proposals/Investigation_of_APIs_for_Level_of_detail)]]
 
   ; Values and Units 3
   : Need reviews of all the calc() and serialization issues
