@@ -189,7 +189,7 @@ It was last updated on 6 April 2016 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Either AmeliaBR or Tav will create a proposal to either offer author control or spec guidance for browsers on dithering.]]
   
   : Inline
-  ; [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Middle {half of the x height} and Alignment {synonym for text top and text bottom} baselines may be useful to add to CSS Inline.]]
+  ; [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Middle (half of the x height) and Alignment (synonym for text top and text bottom) baselines may be useful to add to CSS Inline.]]
   ; [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Need to clarify that line boxes are fitted to nonrectangular shapes by requiring zero intersection.]]
   ; [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Need to define default baseline positions for all baselines.]]
 
