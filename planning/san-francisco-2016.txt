@@ -45,3 +45,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 ==== Proposed Agenda Topics ====
 
   * CSS Scroll Snap - Complete the Merge
+  * Hanging punctuation - add start and discuss character classes
