@@ -163,6 +163,7 @@ It was last updated on 6 April 2016 and tracks backwards through about August 20
   : [[https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/|Resolved: Accept proposal for error handling rules in grid layout.]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/575|Add example of empty named lines paren]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/574|Clarify spanning across implicit subgrid tracks]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0240.html|Accept issue #26 text]]
 
   ; Images 3
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
@@ -279,6 +280,7 @@ It was last updated on 6 April 2016 and tracks backwards through about August 20
   ; Round Display
   : [[https://www.w3.org/Style/CSS/Tracker/actions/752|Make proposal for round display media query]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/751|Add @viewport switch for opting into full round display size as viewport]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0240.html|Add 'viewport-fit: contain']]
 
   ; Ruby
   : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: writing-mode: vertical-lr on the rt based on parent’s ‘display’ & ‘ruby-position’.]]
