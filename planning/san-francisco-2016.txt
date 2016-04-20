@@ -51,3 +51,9 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * Hanging punctuation - add start and discuss character classes
   * New WD for CSS Generated Content?
   * Step sizing and alternatives
+  * CSS Grid - subgrid and any other remaining issues
+  * CSS Flexbox - new CR?
+  * CSS Box Alignment
+      * application of justify-content to multicol columns
+      * default overflow-alignment value
+      * legacy keyword issues?
