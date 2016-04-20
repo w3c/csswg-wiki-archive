@@ -56,4 +56,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Box Alignment
       * application of justify-content to multicol columns
       * default overflow-alignment value
-      * legacy keyword issues?
+      * anything else?
