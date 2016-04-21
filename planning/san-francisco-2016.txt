@@ -61,4 +61,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Round Display
       * Media query extension for supporting CSS Round Display
       * viewport-fit for supporting CSS Round Display
-      * New ideas ..
+      * New ideas ? : )
