@@ -63,6 +63,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
       * default overflow-alignment value
       * anything else?
   * A report on vertical-writing design award [[http://tategaki.github.io/awards/|Award Web Site]]
+  * CSS Table issues
   * CSS Round Display
       * Media query extension for supporting CSS Round Display
       * viewport-fit for supporting CSS Round Display
