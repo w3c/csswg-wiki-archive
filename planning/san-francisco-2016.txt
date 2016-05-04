@@ -54,6 +54,14 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 
 ==== Proposed Agenda Topics ====
 
+== Monday ==
+
+== Tuesday ==
+
+== Wednesday ==
+  * Color Gamut media query [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0316.html]] - smfr/Rik/ChrisL
+
+== Unassigned ==
   * CSS Scroll Snap - All remaining issues and merge differences
   * Hanging punctuation - add start and discuss character classes
   * New WD for CSS Generated Content?
@@ -72,4 +80,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
       * 'viewport-fit' and terms related to viewport
       * polar coordinates model
       * extensions to the Screen Interface for supporting the round display
-  * Color Gamut media query [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0316.html]] - smfr/Rik/ChrisL
+
