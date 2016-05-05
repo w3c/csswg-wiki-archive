@@ -71,7 +71,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 == Unassigned ==
   * CSS Scroll Snap - All remaining issues and merge differences
   * Hanging punctuation - add start and discuss character classes
-  * New WD for CSS Generated Content?
+  * New WD for CSS Generated Content, a11y issues
   * Step sizing and alternatives
   * [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0329.html|percentages against indefinite sizes]]
   * CSS Grid
@@ -93,3 +93,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Step Sizing - more feedback and FPWD?
   * CSS Counters - [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0364.html|suggested change to counter inheritance/nested scopes]]
   * CSS V&U - url(#frag) resolution when base url is changed
+  * [[http://xkcd.com/1676/|Snake justification]]
