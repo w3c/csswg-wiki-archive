@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 6 April 2016 and tracks backwards through about August 2013 or so.
+It was last updated on 4 May 2016 and tracks backwards through about August 2013 or so.
   ; Align
   : [[https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/|Resolved: Publish a new WD of Box Alignment with a note about the default behavior when safe and unsafe is not listed explicitly.]]
 
@@ -303,6 +303,8 @@ It was last updated on 6 April 2016 and tracks backwards through about August 20
   : Need to check minutes/ML for any other outstanding issues
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0145.html|Resolved: If previously snapped, must resnap to that same snap position after content changes (if possible). If not snapped previously and now in range of a snap position, must snap. After the above resolution, there was concern about the second sentence.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0145.html|Resolved: The second sentence of the previous resolution is not precise enough]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0044.html|Resolved: A div with overflow that's not visible is a 'scroll container' ]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0044.html|Resolved: B (the viewport of the scroll container) is a scrollport. C (the snapping area of the viewport of the scroll container) is a snapport. ]]
 
   ; Selectors 3
   : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.]]
@@ -426,6 +428,7 @@ It was last updated on 6 April 2016 and tracks backwards through about August 20
 
   ; Undefined Spec
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|stakagi presented some very detailed work he had done (Available here: https://www.w3.org/Graphics/SVG/WG/wiki/Proposals/Investigation_of_APIs_for_Level_of_detail)]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0044.html|Adopt the proposed convention for propdef tables for shorthands]]
 
   ; Values and Units 3
   : Need reviews of all the calc() and serialization issues
