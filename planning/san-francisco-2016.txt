@@ -80,7 +80,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Flexbox
       * new CR? (tab and fantasai)
       * running layout to compute intrinsic sizes (shrinkwrapping a multi-line column flexbox) - implementable enough, or do we need to change the spec? (tab)
-  * CSS Box Alignment
+  * CSS Box Alignment (tab and fantasai)
       * application of justify-content to multicol columns
       * default overflow-alignment value
       * anything else?
