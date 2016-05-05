@@ -78,8 +78,8 @@ Please, put your name in this table if you plan to participate (alphabetical ord
       * subgrid 
       * any other remaining issues
   * CSS Flexbox
-      * new CR?
-      * running layout to compute intrinsic sizes (shrinkwrapping a multi-line column flexbox) - implementable enough, or do we need to change the spec?
+      * new CR? (tab and fantasai)
+      * running layout to compute intrinsic sizes (shrinkwrapping a multi-line column flexbox) - implementable enough, or do we need to change the spec? (tab)
   * CSS Box Alignment
       * application of justify-content to multicol columns
       * default overflow-alignment value
@@ -91,6 +91,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
       * polar coordinates model
       * extensions to the Screen Interface for supporting the round display
   * CSS Step Sizing - more feedback and FPWD?
-  * CSS Counters - [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0364.html|suggested change to counter inheritance/nested scopes]]
-  * CSS V&U - url(#frag) resolution when base url is changed
+  * CSS Counters - [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0364.html|suggested change to counter inheritance/nested scopes]] (tab)
+  * CSS V&U - url(#frag) resolution when base url is changed (tab)
   * [[http://xkcd.com/1676/|Snake justification]]
+  * MediaQueries - remaining issues (fantasai)
