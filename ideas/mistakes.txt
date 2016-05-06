@@ -8,7 +8,6 @@ That should be corrected if anyone invents a time machine. :P
   * ''vertical-align: middle'' should be ''text-middle'' because it's not really in the middle.
   * Percentage heights should be calculated against ''fill-available'' rather than being undefined in auto situations.
   * Table layout should be sane.
-  * No naked text mixing with elements. All raw text should have an addressable, stylable element wrapping it, created by CSS if necessary.
   * Box-sizing should be ''border-box'' by default.
   * ''background-size'' with one value should duplicate its value, not default the second one to ''auto''.
   * ''background-position'' and ''border-spacing'' (all 2-axis properties) should take *vertical* first, to match with the 4-direction properties like ''margin''.
