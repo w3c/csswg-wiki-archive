@@ -73,7 +73,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * Hanging punctuation - add start and discuss character classes
   * New WD for CSS Generated Content, a11y issues
   * Step sizing and alternatives
-  * [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0329.html|percentages against indefinite sizes]]
+  * Breakout Session about [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0329.html|percentages against indefinite sizes]] (tab, fantasai, dholbert, dbaron, rossen) 
   * CSS Grid (tab and fantasai)
       * subgrid 
       * any other remaining issues
