@@ -95,3 +95,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS V&U - url(#frag) resolution when base url is changed (tab)
   * [[http://xkcd.com/1676/|Snake justification]]
   * MediaQueries - remaining issues (fantasai)
+  * CSSOM View [[https://lists.w3.org/Archives/Public/www-style/2016May/0045.html|getBoundingClientRect]] (koji)
