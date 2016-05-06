@@ -3,8 +3,6 @@
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
 It was last updated on 4 May 2016 and tracks backwards through about August 2013 or so.
-  ; Align
-  : [[https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/|Resolved: Publish a new WD of Box Alignment with a note about the default behavior when safe and unsafe is not listed explicitly.]]
 
   ; Animation Scrolling
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0357.html|Please see minutes for all of the tasks pertaining to this spec.]]
@@ -40,9 +38,9 @@ It was last updated on 4 May 2016 and tracks backwards through about August 2013
   ; Box Alignment
   : Default alignment issue
   : Finish line-by-line review
-  : New draft?
   : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/|Resolved: Accept Myles’ proposal to make baseline of overflow non-visible inline blocks the higher of the actual baseline (at initial scroll position) and the margin-box bottom. Separately investigate whether to switch from margin-box bottom to padding-box bottom for sanity. (requries web-compat check)]]
   : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/|ACTION: TabAtkins and fantasai to update Box Alignment spec per resolution, propose wording for CSS2.1 errata <trackbot> Created ACTION-678.]]
+  : [[https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/|Resolved: Publish a new WD of Box Alignment with a note about the default behavior when safe and unsafe is not listed explicitly.]]
 
   ; Compositing
   : [[https://www.w3.org/blog/CSS/2014/06/26/minutes-telecon-216/|Resolved: Solve background-blend on the root element as Rik requests.]]
@@ -133,9 +131,7 @@ It was last updated on 4 May 2016 and tracks backwards through about August 2013
   ; Flexbox
   : Need to compile Christian's issues into a new DoC
   : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/|ACTION: bcampbell Get examples of broken pages.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html|Rossen review DoC Issue #3 ACTION-765]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html|Everyone was actioned to review the entire Flexbox DoC. The items that need the most attention are issue #3 and an additional paragraph added to order accessibility to address concerns from the accessibility working group.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0351.html|Resolved: Remove order-based reordering of abspos flex children. For painting purposes they're treated as having an order of 0.]]
 
   ; Fonts 4
   : [[https://www.w3.org/blog/CSS/2014/07/03/minutes-telecon-218/|Resolved: Add min and max font-size properties. Define whether these properties affect the computed font size.]]
@@ -157,21 +153,10 @@ It was last updated on 4 May 2016 and tracks backwards through about August 2013
   ; Grid
   : Need to compile DoC, changes list
   : https://lists.w3.org/Archives/Public/www-style/2016Mar/0256.html 
-  : Need to address emeyer's issue
   : Anything else?
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0173.html|fantasai gave a brief overview of the feedback that came from the New York grid workshop. She’ll be updating the spec and filing issues to the list.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0031.html|Resolved: Accept the new text for grid and multi-col changing the floor to a required amount. The new text is: “For the purpose of finding the number of auto-repeated tracks, the UA must floor the track size to a UA-specified value to avoid division by zero. It is suggested that this floor be ”1px” or less.”]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0169.html|Resolved: Move subgrid to at risk for level 1 and add a requirement for display-box: contents to be used with grid and include examples.]]
-  : [[https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/|Resolved: Accept proposal for error handling rules in grid layout.]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/575|Add example of empty named lines paren]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/574|Clarify spanning across implicit subgrid tracks]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0240.html|Accept issue #26 text]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0351.html|Add grid-template back in.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0351.html|Accept 'grid' shorthand improvements]] [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0249.html|here]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0351.html|Resolved: Must allow fragmentation in columns if that instead of rows is the fragmentation direction.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0351.html|Resolved: Change fr to invalid as the min in minmax() and add a note we'd like to add it back at some point in the future.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0351.html|Resolved: Add <percentage> to grid-gap]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0351.html|Resolved: Mark <percentage> in grid-gap as at-risk]]
 
   ; Images 3
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
@@ -299,12 +284,6 @@ It was last updated on 4 May 2016 and tracks backwards through about August 2013
 
   ; Scroll Snap
   : Waiting for MaRakow to finish merging...
-  : https://lists.w3.org/Archives/Public/www-style/2016Jan/0145.html
-  : Need to check minutes/ML for any other outstanding issues
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0145.html|Resolved: If previously snapped, must resnap to that same snap position after content changes (if possible). If not snapped previously and now in range of a snap position, must snap. After the above resolution, there was concern about the second sentence.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0145.html|Resolved: The second sentence of the previous resolution is not precise enough]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0044.html|Resolved: A div with overflow that's not visible is a 'scroll container' ]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0044.html|Resolved: B (the viewport of the scroll container) is a scrollport. C (the snapping area of the viewport of the scroll container) is a snapport. ]]
 
   ; Selectors 3
   : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.]]
