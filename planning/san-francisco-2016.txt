@@ -67,7 +67,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 == Monday ==
 
 == Tuesday ==
-* CSS Round Display
+  * CSS Round Display
       * 'shape' media feature
       * 'viewport-fit' and terms related to viewport
       * polar coordinates model
