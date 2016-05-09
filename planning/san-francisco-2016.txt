@@ -101,3 +101,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * MediaQueries - remaining issues (fantasai)
   * CSSOM View [[https://lists.w3.org/Archives/Public/www-style/2016May/0045.html|getBoundingClientRect]] (koji)
   * CSS Page — MQs should respond to page size [[https://lists.w3.org/Archives/Public/www-style/2016May/0071.html]] (florian)
+  * CSS Containment — FPWD? (Florian)
