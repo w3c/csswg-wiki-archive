@@ -84,10 +84,10 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Flexbox
       * new CR? (tab and fantasai)
       * running layout to compute intrinsic sizes (shrinkwrapping a multi-line column flexbox) - implementable enough, or do we need to change the spec? (tab)
+  * CSS Containment — FPWD? (Florian)
   * CSS-Content (Florian)
       * https://lists.w3.org/Archives/Public/www-style/2016Feb/0074.html
       * https://lists.w3.org/Archives/Public/www-style/2012Feb/0745.html
-  * CSS Containment — FPWD? (Florian)
   * CSS Page — MQs should respond to page size [[https://lists.w3.org/Archives/Public/www-style/2016May/0071.html]] (florian)
 
 == Tuesday ==
@@ -96,11 +96,11 @@ Please, put your name in this table if you plan to participate (alphabetical ord
          * extensions to the Screen Interface for supporting the round display
       * 'viewport-fit' and terms related to viewport
       * polar coordinates model
+  * CSS Tables Status Update
   * CSS UI 4 (florian)
       * https://drafts.csswg.org/css-ui-4/#issue-2e1305f8
       * https://lists.w3.org/Archives/Public/www-style/2016Apr/0394.html / https://drafts.csswg.org/css-ui-4/#issue-5b8a5418
       * https://lists.w3.org/Archives/Public/www-style/2016Mar/0190.html
-  * CSS Tables Status Update
   * New WD for CSS Generated Content, a11y issues (dauwhe)
 
 == Wednesday ==
