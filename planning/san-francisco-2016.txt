@@ -104,3 +104,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Page — MQs should respond to page size [[https://lists.w3.org/Archives/Public/www-style/2016May/0071.html]] (florian)
   * CSS Containment — FPWD? (Florian)
   * CSS Color 4 - review color(), p3/rec2020, @profile and open issues (ChrisL)
+  * CSS Text word-break:break-all and word-break:break-spaces (florian) (Not monday)
