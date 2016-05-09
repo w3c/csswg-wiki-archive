@@ -69,9 +69,10 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 == Tuesday ==
   * CSS Round Display (jihye)
       * 'shape' media feature
+         * extensions to the Screen Interface for supporting the round display
       * 'viewport-fit' and terms related to viewport
       * polar coordinates model
-      * extensions to the Screen Interface for supporting the round display
+      
 
 == Wednesday ==
   * Color Gamut media query [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0316.html]] - smfr/Rik/ChrisL
