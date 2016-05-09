@@ -103,7 +103,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Text word-break:break-all and word-break:break-spaces (florian) (Not monday)
   * CSS Step Sizing - more feedback and FPWD?
   * Step sizing and alternatives
-  * CSSOM View [[https://lists.w3.org/Archives/Public/www-style/2016May/0045.html|getBoundingClientRect]] (koji)
+  * CSSOM View [[https://lists.w3.org/Archives/Public/www-style/2016May/0045.html|getBoundingClientRect when the first rect is empty]] (koji)
   * Hanging punctuation - add start and discuss character classes
 
 == Unassigned ==
