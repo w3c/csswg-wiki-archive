@@ -111,3 +111,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 == Unassigned ==
   * Breakout Session about [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0329.html|percentages against indefinite sizes]] (tab, fantasai, dholbert, dbaron, rossen)  
   * [[http://xkcd.com/1676/|Snake justification]]
+  * Testsuite metadata & future of Shepherd and issue tracking
