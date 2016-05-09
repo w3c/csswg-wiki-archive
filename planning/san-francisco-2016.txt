@@ -106,5 +106,6 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Color 4 - review color(), p3/rec2020, @profile and open issues (ChrisL)
   * CSS Text word-break:break-all and word-break:break-spaces (florian) (Not monday)
   * CSS UI 4 (florian)
-    * https://drafts.csswg.org/css-ui-4/#issue-2e1305f8
-    * https://lists.w3.org/Archives/Public/www-style/2016Apr/0394.html / https://drafts.csswg.org/css-ui-4/#issue-5b8a5418
+      * https://drafts.csswg.org/css-ui-4/#issue-2e1305f8
+      * https://lists.w3.org/Archives/Public/www-style/2016Apr/0394.html / https://drafts.csswg.org/css-ui-4/#issue-5b8a5418
+      * https://lists.w3.org/Archives/Public/www-style/2016Mar/0190.html
