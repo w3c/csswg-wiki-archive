@@ -68,9 +68,6 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Grid (tab and fantasai)
       * subgrid 
       * any other remaining issues
-  * CSS Flexbox
-      * new CR? (tab and fantasai)
-      * running layout to compute intrinsic sizes (shrinkwrapping a multi-line column flexbox) - implementable enough, or do we need to change the spec? (tab)
   * CSS Box Alignment (tab and fantasai)
       * application of justify-content to multicol columns
       * default overflow-alignment value
@@ -78,6 +75,9 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Counters - [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0364.html|suggested change to counter inheritance/nested scopes]] (tab)
   * CSS V&U - url(#frag) resolution when base url is changed (tab)
   * MediaQueries - remaining issues (fantasai)
+  * CSS Flexbox
+      * new CR? (tab and fantasai)
+      * running layout to compute intrinsic sizes (shrinkwrapping a multi-line column flexbox) - implementable enough, or do we need to change the spec? (tab)
 
 == Tuesday ==
   * CSS Round Display (jihye)
