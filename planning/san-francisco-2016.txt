@@ -75,6 +75,9 @@ Please, put your name in this table if you plan to participate (alphabetical ord
       * application of justify-content to multicol columns
       * default overflow-alignment value
       * anything else?
+  * CSS Counters - [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0364.html|suggested change to counter inheritance/nested scopes]] (tab)
+  * CSS V&U - url(#frag) resolution when base url is changed (tab)
+  * MediaQueries - remaining issues (fantasai)
 
 == Tuesday ==
   * CSS Round Display (jihye)
@@ -82,27 +85,6 @@ Please, put your name in this table if you plan to participate (alphabetical ord
          * extensions to the Screen Interface for supporting the round display
       * 'viewport-fit' and terms related to viewport
       * polar coordinates model
-      
-
-== Wednesday ==
-  * Color Gamut media query [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0316.html]] - smfr/Rik/ChrisL
-  * CSS Color 4 - review color(), p3/rec2020, @profile and open issues (ChrisL)
-  * A report on vertical-writing design award [[http://tategaki.github.io/awards/|Award Web Site]] (Not on Monday, please)
-  * CSS Text word-break:break-all and word-break:break-spaces (florian) (Not monday)
-
-== Unassigned ==
-  * CSS Scroll Snap - All remaining issues and merge differences (tab and fantasai)
-  * Hanging punctuation - add start and discuss character classes
-  * New WD for CSS Generated Content, a11y issues (dauwhe)
-  * Step sizing and alternatives
-  * Breakout Session about [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0329.html|percentages against indefinite sizes]] (tab, fantasai, dholbert, dbaron, rossen) 
-  
-  * CSS Step Sizing - more feedback and FPWD?
-  * CSS Counters - [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0364.html|suggested change to counter inheritance/nested scopes]] (tab)
-  * CSS V&U - url(#frag) resolution when base url is changed (tab)
-  * [[http://xkcd.com/1676/|Snake justification]]
-  * MediaQueries - remaining issues (fantasai)
-  * CSSOM View [[https://lists.w3.org/Archives/Public/www-style/2016May/0045.html|getBoundingClientRect]] (koji)
   * CSS Page — MQs should respond to page size [[https://lists.w3.org/Archives/Public/www-style/2016May/0071.html]] (florian)
   * CSS Containment — FPWD? (Florian)
   * CSS UI 4 (florian)
@@ -111,4 +93,20 @@ Please, put your name in this table if you plan to participate (alphabetical ord
       * https://lists.w3.org/Archives/Public/www-style/2016Mar/0190.html
   * CSS-Content (Florian)
       * https://lists.w3.org/Archives/Public/www-style/2016Feb/0074.html
-      * https://lists.w3.org/Archives/Public/www-style/2012Feb/0745.html
+      * https://lists.w3.org/Archives/Public/www-style/2012Feb/0745.html      
+  * New WD for CSS Generated Content, a11y issues (dauwhe)
+
+== Wednesday ==
+  * Color Gamut media query [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0316.html]] - smfr/Rik/ChrisL
+  * CSS Color 4 - review color(), p3/rec2020, @profile and open issues (ChrisL)
+  * A report on vertical-writing design award [[http://tategaki.github.io/awards/|Award Web Site]] (Not on Monday, please)
+  * CSS Text word-break:break-all and word-break:break-spaces (florian) (Not monday)
+  * CSS Step Sizing - more feedback and FPWD?
+  * Step sizing and alternatives
+  * CSSOM View [[https://lists.w3.org/Archives/Public/www-style/2016May/0045.html|getBoundingClientRect]] (koji)
+  * Hanging punctuation - add start and discuss character classes
+
+== Unassigned ==
+  * CSS Scroll Snap - All remaining issues and merge differences (tab and fantasai)
+  * Breakout Session about [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0329.html|percentages against indefinite sizes]] (tab, fantasai, dholbert, dbaron, rossen)  
+  * [[http://xkcd.com/1676/|Snake justification]]
