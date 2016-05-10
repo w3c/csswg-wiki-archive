@@ -116,6 +116,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Scroll Snap - All remaining issues and merge differences (tab, fantasai, matt - afternoon)
   * Color Gamut media query [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0316.html]] - smfr/Rik/ChrisL/dino - afternoon
   * CSS Color 4 - review color(), p3/rec2020, @profile and open issues (ChrisL) - afternoon
+  * css-logical-props css-writing-modes Margins and margin collapsing and writing modes https://lists.w3.org/Archives/Public/www-style/2016May/0098.html (zcorpan)
 
 == Unassigned ==
   * [[http://xkcd.com/1676/|Snake justification]]
