@@ -93,8 +93,10 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 == Tuesday ==
   * CSS Round Display (jihye)
       * 'shape' media feature
+         * https://lists.w3.org/Archives/Public/www-style/2016Apr/0273.html
          * extensions to the Screen Interface for supporting the round display
       * 'viewport-fit' and terms related to viewport
+         * https://drafts.csswg.org/css-round-display/#extending-viewport-rule
       * polar coordinates model
   * CSS Tables Status Update
   * CSS UI 4 (florian)
