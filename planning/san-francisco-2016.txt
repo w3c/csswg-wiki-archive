@@ -88,7 +88,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS-Content (Florian)
       * https://lists.w3.org/Archives/Public/www-style/2016Feb/0074.html
       * https://lists.w3.org/Archives/Public/www-style/2012Feb/0745.html
-  * CSS Page — MQs should respond to page size [[https://lists.w3.org/Archives/Public/www-style/2016May/0071.html]] (florian)
+  * Testsuite metadata & future of Shepherd and issue tracking
 
 == Tuesday ==
   * CSS Round Display (jihye)
@@ -103,6 +103,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
       * https://drafts.csswg.org/css-ui-4/#issue-2e1305f8
       * https://lists.w3.org/Archives/Public/www-style/2016Apr/0394.html / https://drafts.csswg.org/css-ui-4/#issue-5b8a5418
       * https://lists.w3.org/Archives/Public/www-style/2016Mar/0190.html
+  * CSS Page — MQs should respond to page size [[https://lists.w3.org/Archives/Public/www-style/2016May/0071.html]] (florian)
   * New WD for CSS Generated Content, a11y issues (dauwhe)
 
 == Wednesday ==
@@ -118,4 +119,3 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 
 == Unassigned ==
   * [[http://xkcd.com/1676/|Snake justification]]
-  * Testsuite metadata & future of Shepherd and issue tracking
