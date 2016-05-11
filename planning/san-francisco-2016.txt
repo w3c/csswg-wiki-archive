@@ -110,9 +110,8 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 == Wednesday ==
   * CSS Step Sizing - more feedback and FPWD?
   * Step sizing and alternatives
-  * Hanging punctuation - add start and discuss character classes
+  * CSSOM View [[https://lists.w3.org/Archives/Public/www-style/2016May/0045.html|getBoundingClientRect when the first rect is empty]] (koji)  * Hanging punctuation - add start and discuss character classes
   * CSS Text word-break:break-all and word-break:break-spaces (florian) (Not monday)
-  * CSSOM View [[https://lists.w3.org/Archives/Public/www-style/2016May/0045.html|getBoundingClientRect when the first rect is empty]] (koji)
   * css-logical-props css-writing-modes Margins and margin collapsing and writing modes https://lists.w3.org/Archives/Public/www-style/2016May/0098.html (zcorpan)
   * Track 1
     * CSS Scroll Snap - All remaining issues and merge differences (tab, fantasai, matt - afternoon)
