@@ -31,6 +31,8 @@ git version 2.7.1
 
 ==== Setting Up Mercurial Preferences ====
 
+<note warning>This section and the ones below have not yet been updated, and still talk about mercurial. If you update it, please move this warning down after doing so. If you were looking for instructions, come back some other time, they're not here yet.</note>
+
 Note: [[http://www.selenic.com/mercurial/hgrc.5.html|Detailed instructions for the config file]] are available, but for now, this guide will focus only on setting up the basics.
 
 N.B.: The instructions in the rest of this wiki page assume you've configured Mercurial as described here. For instance, the rest of this page assumes that you have the ''rebase'' extension enabled.
