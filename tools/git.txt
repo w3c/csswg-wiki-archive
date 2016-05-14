@@ -14,11 +14,11 @@ With a distributed version control system, every user has their own repository, 
 
 ===== Getting Started =====
 
-==== Installing Mercurial ====
+==== Installing Git ====
 
 You need to first [[tools:git:install|install git on your system]], if you haven't already. We recommend using the latest client.
 
-You can see if you already have Mercurial installed by opening up a command shell and typing:
+You can see if you already have Git installed by opening up a command shell and typing:
 <code>
 git --version
 </code>
