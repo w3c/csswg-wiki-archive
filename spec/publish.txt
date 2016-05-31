@@ -69,12 +69,11 @@ Replace !!!!marked!!!! items. Here's an [[http://lists.w3.org/Archives/Public/ww
   Significant changes are listed at:
   
     !!!!http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes  **note dated URL!** !!!!
-
+  
   Please review the draft, and send any comments to this mailing list,
   <www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
   message) or (preferably) file them in the GitHub repository at
     https://github.com/w3c/csswg-drafts/issues
-
   
   For the CSS WG,
   !!!!your signature!!!!
