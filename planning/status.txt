@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 06 June 2016 and tracks backwards through about August 2013 or so.
+It was last updated on 07 June 2016 and tracks backwards through about August 2013 or so.
 
   ; Animation Scrolling
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0357.html|Please see minutes for all of the tasks pertaining to this spec.]]
@@ -99,6 +99,7 @@ It was last updated on 06 June 2016 and tracks backwards through about August 20
   : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).]]
 
   ; CSS Conditional Rules
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html|Resolved: Add @else to the next level of conditionals pending review by dbaron.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html|In case of one single supports query the innermost parentheses are optional in functional notation. This resolution applies to both JS and CSS Conditional Rules.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html|Resolved: Revert the Media Queries spec on the whitespace requirement.]]
 
@@ -412,6 +413,7 @@ It was last updated on 06 June 2016 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Mark stroke-align at-risk and note issues.]]
 
   ; Transforms
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html|Resolved: Any value of opacity less than one forces transform styles to be flat.]]
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow|Resolved: Republish Transforms]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html|Resolved: Treat all 0deg rotate3d() as a single equivalent identity transform]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html|Resolved: Treat rotate3d() with anti-parallel axis as interpolatable]]
