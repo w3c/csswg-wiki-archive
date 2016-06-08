@@ -9,7 +9,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
   * 2016
-    * 2016-09-19..20 TPAC - Lisbon, Portugal
+    * 2016-09-19..20 [[planning:tpac-2016]] - Lisbon, Portugal
   * 2017
     * January/February, US or maybe Europe - Seattle?
     * Spring, possibly Japan
