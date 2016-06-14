@@ -7,17 +7,3 @@ For latest edits/resolutions, see the editors draft:
 
 
 ====== Issues ======
-1. Animate elements with 2d rotation transform function for polar coordinates
-    * summary: make it clear if a computed value or a specified value and make a note on the implication of that decision on animations
-    * https://lists.w3.org/Archives/Public/www-style/2015Nov/0277.html
-    * https://lists.w3.org/Archives/Public/www-style/2015Dec/0096.html
-    * https://lists.w3.org/Archives/Public/www-style/2015Dec/0104.html
-    * https://lists.w3.org/Archives/Public/www-style/2015Dec/0267.html
-
-2. Using non-auto value for polar-distance to use polar coordinates instead of 'polar' value for position property
-    * Brad Kemper suggested the idea of using polar positioning as a part of the other positioning (such as position: absolute | fixed | relative)
-      * https://lists.w3.org/Archives/Public/www-style/2015Nov/0226.html
-      * https://lists.w3.org/Archives/Public/www-style/2015Nov/0309.html
-
-3. device-radius media query replacement
-    * https://lists.w3.org/Archives/Public/www-style/2015Oct/0220.html
