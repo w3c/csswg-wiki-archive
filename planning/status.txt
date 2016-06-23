@@ -460,7 +460,7 @@ It was last updated on 22 June 2016 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0044.html|Adopt the proposed convention for propdef tables for shorthands]]
 
   ; Values and Units 3
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0118.html|Resolved: Add [[https://drafts.csswg.org/css-values-3/#compat|this section]] including using pixels as canonical length]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0118.html|Resolved: Add this section: https://drafts.csswg.org/css-values-3/#compat including using pixels as canonical length]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0118.html|Resolved: https://lists.w3.org/Archives/Public/www-style/2016Jun/0118.html]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html|Resolved: Add hidden state to hash-reference-only URLs so that they can always resolve locally in presence of pushState]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html|Resolved: Adapt the element() function so that it can be used to refer to always-local references]]
