@@ -38,3 +38,4 @@ That should be corrected if anyone invents a time machine. :P
   * The ''display'' property should be called ''display-type''.
   * The ''list-style'' properties should be called ''marker-style'', and ''list-item'' renamed to ''marked-block'' or something.
   * The 'text-overflow' property should always apply, not be dependent on ''overflow''
+  * line-height: <percentage> should compute to the equivalent line-height: <number>, so that it effectively inherits as a percentage not a length
