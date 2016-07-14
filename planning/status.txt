@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 29 June 2016 and tracks backwards through about August 2013 or so.
+It was last updated on 13 July 2016 and tracks backwards through about August 2013 or so.
 
   ; Animation Scrolling
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0357.html|Please see minutes for all of the tasks pertaining to this spec.]]
@@ -64,11 +64,15 @@ It was last updated on 29 June 2016 and tracks backwards through about August 20
   : [[https://www.w3.org/blog/CSS/2014/07/31/minutes-telecon-221/|Resolved: Accept rgb() with single values and rgba() with 2 values and keep exploring other potential values.]]
 
   ; Colors 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: All alpha for color functions can be <number> and <percentage>]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: Opacity also takes <number> or <percentage>]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: rgb() should be extended to allow an optional alpha. Likewise hsl(). Pending compat analysis by TabAtkins]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Action-782: TabAtkins figure out if there's compat risk on "rgb()should be extended to allow an optional alpha. Likewise hsl()"]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Resolved: Do black point compensation when converting from profile to another.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Resolved: If you accurately describe the output device's color profile in an @color-profile rule then a sane implementation will not alter your colors so this is sufficient as a replacement for device-cmyk in general and provides a good RGB fallback automatically.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Add ChrisL as co-editor on CSS4 color]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Pull in SVG2 color section into CSS4 color]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved:: rgb() and rgba() will accent number rather than integer]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: rgb() and rgba() will accent number rather than integer]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Allow angle in place of number for hues]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Accept percentage as alpha-value]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Accept rgba hex colors]]
@@ -165,6 +169,7 @@ It was last updated on 29 June 2016 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
 
   ; Grid
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: Accept changes proposed here: https://github.com/w3c/csswg-drafts/issues/209 to have fit-content() apply on every step of the algorithm instead of at the end.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0180.html|Resolved: Accept option C: keep the tracks in the track listing, but force them to be zero-sized and suppress any gutters between adjacent collapsed tracks.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: vertical-align: baseline means first baseline except for inline-blocks (due to CSS2.1 legacy)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Resolved: Add allowing track list in repeat() and auto-rows]]
@@ -181,8 +186,8 @@ It was last updated on 29 June 2016 and tracks backwards through about August 20
   ; Images 3
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
   : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Allow nearest neighbor for image rendering in both directions but allow browsers to do prettier in the down directions.]]
-  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/Resolved: Include image rendering in Images 3.]]
-  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/Resolved: Close the issue (regarding guessing resolution from file size in Images 3) with no change because we’ll fix it later in harmony with HTML.]]
+  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Include image rendering in Images 3.]]
+  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Close the issue (regarding guessing resolution from file size in Images 3) with no change because we’ll fix it later in harmony with HTML.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html|Resolved: Drop fallback from image except fallback to color. Later we introduce that fallback as an explicit function.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html|Resolved: Cut out everything not defined for image-orientation, remove additions, move it to an appendix, call it obsolete and make a custom CR exit criteria stating it doesn’t need to be tested to exit CR.]]
@@ -246,6 +251,7 @@ It was last updated on 29 June 2016 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0052.html|Resolved: Update Media Queries 3 wording on never having to evaluate a style sheet unless specified explicitly otherwise.]]
 
   ; Media Queries 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: Change MQ4 to p3 from dci-p3]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Rename update-frequency to update (Media Queries issue #1).]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Rename normal to fast (Media Queries issue #1).]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Move inverted colors to level 5 (Media Queries issue #8)]]
