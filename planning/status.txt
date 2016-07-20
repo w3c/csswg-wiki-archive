@@ -169,19 +169,6 @@ It was last updated on 13 July 2016 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
 
   ; Grid
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: Accept changes proposed here: https://github.com/w3c/csswg-drafts/issues/209 to have fit-content() apply on every step of the algorithm instead of at the end.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0180.html|Resolved: Accept option C: keep the tracks in the track listing, but force them to be zero-sized and suppress any gutters between adjacent collapsed tracks.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: vertical-align: baseline means first baseline except for inline-blocks (due to CSS2.1 legacy)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Resolved: Add allowing track list in repeat() and auto-rows]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Resolved: Drop named lines specified on the subgrid]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Resolved: Publish a new WD.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|RESOLVED: Keep the spec the way it is in regards to issue #3 (Abspos item placement in degenerate grids)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|RESOLVED: Keep spec as is in regards to issue #24 (Drop empty tracks at ends or also in the middle?)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|RESOLVED: subgrid proposal accepted in the at-risk section]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0231.html|RESOLVED: The grid-template and grid-gap properties have no effect on a sub-grid]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0231.html|RESOLVED: Take the clamping behavior for error cases on subgrid where items are outside the subgrid (issue 4).]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/575|Add example of empty named lines paren]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/574|Clarify spanning across implicit subgrid tracks]]
 
   ; Images 3
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
