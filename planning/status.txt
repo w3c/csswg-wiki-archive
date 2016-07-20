@@ -428,6 +428,7 @@ It was last updated on 13 July 2016 and tracks backwards through about August 20
   : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/612|Send update to mailing list]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/611|Share transform testcases with the group.]]
+  : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).]]
 
   ; Transitions
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Resolved: Remove the paint server definition from Transitions, deferring to the Images definition for transitioning values.]]
@@ -455,15 +456,9 @@ It was last updated on 13 July 2016 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0044.html|Adopt the proposed convention for propdef tables for shorthands]]
 
   ; Values and Units 3
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0118.html|Resolved: Add this section: https://drafts.csswg.org/css-values-3/#compat including using pixels as canonical length]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0118.html|Resolved: Use dppx as the unit for <resolution>]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html|Resolved: Add hidden state to hash-reference-only URLs so that they can always resolve locally in presence of pushState]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html|Resolved: Adapt the element() function so that it can be used to refer to always-local references]]
-  : Need reviews of all the calc() and serialization issues
-  : [[https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/|Resolved: Change the values and units to make invalid empty URL fail to resolve automatically.]]
-  : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).]]
 
   ; Values and Units 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html|Resolved: Adapt the element() function so that it can be used to refer to always-local references]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html|Resolved: Add vi and vb to values & units 4.]]
   : Need reviews of all the calc() and serialization issues
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|Add ideographic advance unit to Values and Units 4, come back to WG for approval after details worked out.]]
