@@ -106,8 +106,6 @@ It was last updated on 13 July 2016 and tracks backwards through about August 20
 
   ; CSS Conditional Rules
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html|Resolved: Add @else to the next level of conditionals pending review by dbaron.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html|In case of one single supports query the innermost parentheses are optional in functional notation. This resolution applies to both JS and CSS Conditional Rules.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html|Resolved: Revert the Media Queries spec on the whitespace requirement.]]
 
   ; CSS Forms
   : [[https://www.w3.org/blog/CSS/2016/03/18/minutes-telecon-278/|TabAtkins will write up a proposal for checkbox and radio buttons for next week detailing his thoughts while everyone else reviews the e-mails.]]
