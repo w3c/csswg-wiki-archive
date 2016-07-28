@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 13 July 2016 and tracks backwards through about August 2013 or so.
+It was last updated on 27 July 2016 and tracks backwards through about August 2013 or so.
 
   ; Animation Scrolling
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0357.html|Please see minutes for all of the tasks pertaining to this spec.]]
@@ -64,6 +64,10 @@ It was last updated on 13 July 2016 and tracks backwards through about August 20
   : [[https://www.w3.org/blog/CSS/2014/07/31/minutes-telecon-221/|Resolved: Accept rgb() with single values and rgba() with 2 values and keep exploring other potential values.]]
 
   ; Colors 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Accept the changes in this commit: https://github.com/w3c/csswg-drafts/commit/054f195a222718e182352a0ff1f87affaafb7114 to allow percentages as a resolved type.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Hoist opacity from table box to its wrapper box]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Use this color syntax: color( [ <colorspace>? [ <number>+ | <string> ] [ / <alpha> ]? ]# [ , <color> ]? )]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Backport slash to the short functions like: rgb( [<r>, <g>, <b>] | [ <r> <g> <b> [ / <alpha> ] )]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Resolved: Add AbobeRGB and ProPhotoRGB as predefined spaces. Allow either the table of numbers or an ICC v.4 profile with relative colorimetric intent]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Resolved: Add a single CMYK profile, with relative colorimetric intent, mainly to use as a fallback]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: All alpha for color functions can be <number> and <percentage>]]
@@ -457,9 +461,12 @@ It was last updated on 13 July 2016 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0044.html|Adopt the proposed convention for propdef tables for shorthands]]
 
   ; Values and Units 3
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Defer the calc for table layout issue to V&U 4]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Publish updated V&U 3 CR]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Resolved: Start a level 4 draft of Values & Units, move calc() serialization to it, and then publish the remainder of Values & Units 3 as CR.]]
 
   ; Values and Units 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: A calc() with only percentage or only length is required to be resolved in V&U 4]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html|Resolved: Adapt the element() function so that it can be used to refer to always-local references]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html|Resolved: Add vi and vb to values & units 4.]]
   : Need reviews of all the calc() and serialization issues
