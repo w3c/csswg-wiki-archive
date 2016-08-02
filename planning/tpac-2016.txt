@@ -33,6 +33,7 @@ Regrets: Dael Jackson
 
   * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
   * CSS Scroll Snap - Review DoC, remaining open issues, transition to CR?
+  * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
 ==== Agenda ====
 
 === Monday ===
