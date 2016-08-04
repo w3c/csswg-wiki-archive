@@ -4,6 +4,7 @@ This is scratch space for tracking the state of the CSS specs and what needs to 
 
 It was last updated on 3 August 2016 and tracks backwards through about August 2013 or so.
 
+
   ; Animation Scrolling
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0357.html|Please see minutes for all of the tasks pertaining to this spec.]]
 
@@ -482,13 +483,11 @@ It was last updated on 3 August 2016 and tracks backwards through about August 2
 
   ; Variables
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html|Action: gsnedders to check if Variables test coverage is from many browsers]]
-  
+ 
+
   ; Writing Modes
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html|Resolved: margin/border/padding logical properties use the element's own writing-mode, not their parent's writing-mode]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html|Resolved: margin/border/padding logical properties use the element's own writing-mode, not their parent's writing mode]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|ACTION fantasai: Look over Writing modes test failures]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|ACTION gregwhitworth: Look into unprefixing text-combine-upright]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|ACTION hober: Look into unprefixing writing modes features in WebKit]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Dec/0301.html|<fantasai> ACTION fantasai: Put IE's nearest-scrollable-box behavior into orthogonal flows spec<trackbot> Created ACTION-661]]
- 
-  
- 
