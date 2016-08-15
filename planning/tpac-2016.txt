@@ -40,6 +40,7 @@ Regrets: Dael Jackson
   * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
   * Scroll-linked animations
   * Table
+  * Joint meeting with digipub
   
 ==== Agenda ====
 
