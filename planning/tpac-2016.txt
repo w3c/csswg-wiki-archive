@@ -42,7 +42,7 @@ Regrets: Dael Jackson
   * Table
   * Joint meeting with digipub (Monday after lunch)
   * url() as image or SVG reference <a href="https://github.com/w3c/csswg-drafts/issues/383">Issue 383</a>
-  
+  * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
 ==== Agenda ====
 
 === Monday ===
