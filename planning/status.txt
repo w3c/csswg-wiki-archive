@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 17 August 2016 and tracks backwards through about August 2013 or so.
+It was last updated on 31 August 2016 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -127,6 +127,7 @@ It was last updated on 17 August 2016 and tracks backwards through about August 
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html|Resolved: Add a setPropertyValue and setPropertyPriority application programming interfaces.]]
 
   ; CSS OM View
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html|Resolved: Adopt the Gecko/Edge behavior and specify that .offsetParent is based on the nearest abspos containing block or table cell]]
   : [[https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/|<zcorpan> action spieters to reply to Boris' e-mail * trackbot is creating a new ACTION. <trackbot> Created ACTION-655 - Reply to boris' e-mail [on Simon Pieters - due 2014-10-08].]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0443.html|Resolved: When a range endpoint falls in the middle of a grapheme cluster, Range.getClientRects() should include the entire grapheme cluster.]]
 
@@ -156,6 +157,7 @@ It was last updated on 17 August 2016 and tracks backwards through about August 
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Tav presented a new filter primitive he'd like added to level 2; dino agreed it was interesting and will look into adding it to the spec.]]
 
   ; Flexbox
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html|Resolved: Accept option A2 (Make boxes without a natural baseline and boxes establishing an orthogonal flow synthesize a baseline. Base this synthesized baseline on some other box edge.) with the modification that we're talking about the border box.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0053.html|Resolved: Remove baseline from the block-axis as a way to align]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Resolved: Publish a new CR flexbox.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|RESOLVED: Issue 1 the text for a11y is accepted.]]
@@ -250,6 +252,7 @@ It was last updated on 17 August 2016 and tracks backwards through about August 
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0052.html|Resolved: Update Media Queries 3 wording on never having to evaluate a style sheet unless specified explicitly otherwise.]]
 
   ; Media Queries 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html|Resolved: Accept the proposal (Proposal: Make the device-width/etc MQs use the same concepts as CSSOM is using for returning device dimensions.)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: Change MQ4 to p3 from dci-p3]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Rename update-frequency to update (Media Queries issue #1).]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Rename normal to fast (Media Queries issue #1).]]
@@ -477,6 +480,7 @@ It was last updated on 17 August 2016 and tracks backwards through about August 
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Resolved: Start a level 4 draft of Values & Units, move calc() serialization to it, and then publish the remainder of Values & Units 3 as CR.]]
 
   ; Values and Units 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html|Resolved: Don't add any new syntax for [ <foo>+ ]#, just add a note explaining it.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html|Resolved: Add lh and rlh with a note on use cases it doesn't solve and a link to max-lines.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html|Resolved: Accept text as proposed for the ideographic character unit.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: A calc() with only percentage or only length is required to be resolved in V&U 4]]
