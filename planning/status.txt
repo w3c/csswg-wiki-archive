@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 31 August 2016 and tracks backwards through about August 2013 or so.
+It was last updated on 7 September 2016 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -180,6 +180,10 @@ It was last updated on 31 August 2016 and tracks backwards through about August 
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
 
   ; Grid
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0028.html|Resolved: Keep the name grid-gap (issue #19).]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0028.html|Resolved: Have percentages in grid-gap behave as percentages in tracks (issue #20).]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0028.html|Resolved: Keep auto-flow in the grid shorthand (issue #24).]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0028.html|Resolved: Have grid and flexbox keep saying that empty boxes have no baseline and they're synthesized with bottom border edge.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0053.html|Resolved: Stretch items the same way we do for non-replaced]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0053.html|Resolved: Remove baseline from the block-axis as a way to align]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html|Resolved: Take Grid to CR]]
