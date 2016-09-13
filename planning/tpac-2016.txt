@@ -53,6 +53,7 @@ Regrets: Dael Jackson
         * table-wrapper box and captions (https://github.com/w3c/csswg-drafts/issues/471)
         * track merging (https://github.com/w3c/csswg-drafts/issues/473)
         * percentage resolution (https://github.com/w3c/csswg-drafts/issues/474)
+        * border-radius in collapsed mode (https://github.com/w3c/csswg-drafts/issues/475)
   * Joint meeting with digipub (Monday after lunch)
   * Joint meeting with APA (Tuesday 9am)
   * url() as image or SVG reference <a href="https://github.com/w3c/csswg-drafts/issues/383">Issue 383</a>
