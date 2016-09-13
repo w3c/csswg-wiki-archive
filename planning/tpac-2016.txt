@@ -48,6 +48,7 @@ Regrets: Dael Jackson
   * CSS Tables Level 3
         * Fixup rewrite (https://github.com/w3c/csswg-drafts/issues/466)
         * Fixup collapsible whitespace (https://github.com/w3c/csswg-drafts/issues/467)
+        * What CSS is applicable to table-track & table-track-grouping elements (https://github.com/w3c/csswg-drafts/issues/469)
   * Joint meeting with digipub (Monday after lunch)
   * Joint meeting with APA (Tuesday 9am)
   * url() as image or SVG reference <a href="https://github.com/w3c/csswg-drafts/issues/383">Issue 383</a>
