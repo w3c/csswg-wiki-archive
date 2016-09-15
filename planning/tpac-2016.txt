@@ -46,6 +46,7 @@ Regrets: Dael Jackson
   * Baseline alignment issues (to be listed here)
   * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
   * CSS Scroll Snap - Review DoC, remaining open issues, transition to CR?
+        * [[https://github.com/w3c/csswg-drafts/issues/395|scroll-padding]] Florian
   * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
   * Scroll-linked animations (https://birtles.github.io/scroll-animations/)
   * CSS Tables Level 3
