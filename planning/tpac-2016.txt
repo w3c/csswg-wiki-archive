@@ -75,7 +75,7 @@ Regrets: Dael Jackson
   * Viewport API: https://github.com/WICG/ViewportAPI
   * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
   * CSS UI 4 / user-select
-        * [[https://github.com/w3c/csswg-drafts/issues/336|computed values vs separate properties]] (koji, Tue preferred)
+        * [[https://github.com/w3c/csswg-drafts/issues/336|computed values vs separate properties]]
         * [[https://github.com/w3c/csswg-drafts/issues/319|effect on selections when clicking in a user-select:none ]] (Florian)
   * CSS-UI-3
         * [[https://github.com/w3c/csswg-drafts/issues/441|Add `outline-offset` to `outline` shorthand?]] (Florian)
