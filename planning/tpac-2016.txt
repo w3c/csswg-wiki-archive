@@ -81,6 +81,9 @@ Regrets: Dael Jackson
   * Proposal for a new Regions specification — Jen Simmons (early in the schedule / Monday highly preferred)
   * Hanging Punctuation
   * CSS Containment [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question]] (Florian)
+  * CSS-Overflow:
+        * [[https://github.com/w3c/csswg-drafts/issues/92|stable /always-on / overlay scrollbars ]] (Florian)
+        * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
 ==== Agenda ====
 
 === Monday ===
