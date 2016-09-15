@@ -1,0 +1,96 @@
+===== TPAC 2016 =====
+
+==== Place, Logistics, etc. ====
+
+  * [[http://www.w3.org/2016/09/TPAC/]]
+  * full TPAC week is 19-23 September 2016
+  * CSS WG meeting days are Mon-Tue 19-20 September
+  * Lisbon, Portugal at the Centro de congressos de lisboa, room 5A, first floor (upper floor!)
+
+==== Participants =====
+
+Please, put your name in this table if you plan to participate (alphabetical order by given name):
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Alan Stearns | 16 Sep | 23 Sep | AirBnB | ?? |
+| Bert Bos | 14 Sep | 23 Sep | Hotel Vila Galé Ópera | TP487/TP486 |
+| Brian Birtles | 18 Sep | 21 Sep | Hotel Vila Galé Ópera | JL415+AF1124 / AF1625+JL416 |
+| Chris Lilley | 17? Sept | 24 Sept| ? | arriving from Warsaw (ATypi conf) |
+| Dave Cramer | 18 Sept | 25 Sept | Hotel Vila Gale Opera | UA 6864 / UA 65 |
+| fantasai | 17 Sept | 24 Sept | Apt | |
+| Florian Rivoal | 18 Sept | 25 Sept | Airbnb | AF0291+AF1124 / KL1692+KL0867 |
+| Francois Remy  |  ???    |  ???    | ? | ???                           |
+| Geoffrey Sneddon | 18 Sept | 24 Sept | Hotel Vila Gale Opera | BA1479+TP0359 / TP0364+BA1498 |
+| Greg Whitworth | 16 Sept | 26 Sept | ? | ? |
+| Hiroshi Sakakibara(+2 BPS crew) | 18 Sept | 22 Sept | AirBnB | TK053+TK1755 / TK1760+TK052|
+| Hyojin Song | 18 Sept | 24 Sept | Hotel Vila Gale Opera | |
+| Ian Kilpatrick | 19 Sept | 25 Sept | | |
+| Jen Simmons | 18 Sept | 22 Sept | Pestana Palace | flying in from Berlin (View Source), heading out to London (Generate) |
+| Jihye Hong | 18 Sept | 24 Sept | Hotel Vila Gale Opera | |
+| Koji Ishii | 18 Sept | 23 Sept | | |
+| Liam Quin | 17th Sept | 24th sept | Hotel Vila Galé Ópera | arr.LIS from LHR 10:45am; dep LIS 07:40am |
+| Lea Verou | 17? Sept | 24 Sept | Hotel Vila Galé Ópera | |
+| Manuel Rego Casasnovas | 18 Sept | 22 Sept | 
+| Myles C. Maxfield | 17 Sept | 25 Sept | Sofitel Lisbon |  |
+| Rick Byers | 18 Sept | 24 Sept | Hotel Vila Galé Ópera | AC? from Toronto, splitting time with PEWG meeting |
+| Rossen Atanassov | 17 Sept | 24 Sept | | |
+| Simon Sapin | 18 Sept | 25 Sept | AirBnB | |
+| Tantek Çelik | 2016-09-18 | 2016-09-23 | Hotel Vila Galé Ópera | UA58+UA8896 / MON1725 |
+
+Regrets: Dael Jackson
+
+(See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2016/registrants#CSS|TPAC registrations]] [member-only])
+
+==== Proposed Agenda ====
+
+  * Baseline alignment issues (to be listed here)
+  * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
+  * CSS Scroll Snap - Review DoC, remaining open issues, transition to CR?
+        * [[https://github.com/w3c/csswg-drafts/issues/395|scroll-padding]] (Florian)
+  * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
+  * Scroll-linked animations (https://birtles.github.io/scroll-animations/)
+  * CSS Tables Level 3
+        * Fixup rewrite (https://github.com/w3c/csswg-drafts/issues/466)
+        * Fixup collapsible whitespace (https://github.com/w3c/csswg-drafts/issues/467)
+        * What CSS is applicable to table-track & table-track-grouping elements (https://github.com/w3c/csswg-drafts/issues/469)
+        * table-wrapper box and captions (https://github.com/w3c/csswg-drafts/issues/471)
+        * track merging (https://github.com/w3c/csswg-drafts/issues/473)
+        * percentage resolution (https://github.com/w3c/csswg-drafts/issues/474)
+        * border-radius in collapsed mode (https://github.com/w3c/csswg-drafts/issues/475)
+        * height on a table-row-group (https://github.com/w3c/csswg-drafts/issues/476)
+        * min-height on a table-row (https://github.com/w3c/csswg-drafts/issues/477)
+        * table-layout:fixed width distribution (https://github.com/w3c/csswg-drafts/issues/484)
+        * visibility: collapse (https://github.com/w3c/csswg-drafts/issues/478)
+  * Joint meeting with digipub (Monday after lunch)
+  * Joint meeting with APA (Tuesday 9am)
+  * url() as image or SVG reference <a href="https://github.com/w3c/csswg-drafts/issues/383">Issue 383</a>
+  * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
+  * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
+  * Approval to implement and ship transitionstart/transitionrun/transitioncancel/animationcancel?
+  * CR plan for 2016 - which specs are 'close' to CR? what is left to get them there by December pub moratorium? (Tantek)
+  * Variation fonts in OpenType - (ChrisL, Behdad, et al.)
+  * Motion path issues
+  * Viewport API: https://github.com/WICG/ViewportAPI
+  * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
+  * CSS UI 4 / user-select
+        * [[https://github.com/w3c/csswg-drafts/issues/336|computed values vs separate properties]] (koji, Tue preferred)
+        * [[https://github.com/w3c/csswg-drafts/issues/319|effect on selections when clicking in a user-select:none ]] (Florian)
+  * CSS-UI-3
+        * [[https://github.com/w3c/csswg-drafts/issues/441|Add `outline-offset` to `outline` shorthand?]] (Florian)
+        * [[https://github.com/w3c/csswg-drafts/issues/423|Remove outline-color: invert?]] (Florian)
+  * Proposal for a new Regions specification — Jen Simmons (early in the schedule / Monday highly preferred)
+  * Hanging Punctuation
+  * CSS Containment [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question]] (Florian)
+==== Agenda ====
+
+=== Monday ===
+
+== AM ==
+
+== PM ==
+
+=== Tuesday ===
+
+== AM ==
+
+== PM ==
