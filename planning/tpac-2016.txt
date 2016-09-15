@@ -79,7 +79,7 @@ Regrets: Dael Jackson
         * [[https://github.com/w3c/csswg-drafts/issues/423|Remove outline-color: invert?]] Florian
   * Proposal for a new Regions specification — Jen Simmons (early in the schedule / Monday highly preferred)
   * Hanging Punctuation
-  * [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question in CSS contain]] Florian
+  * CSS Containment [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question]] Florian
 ==== Agenda ====
 
 === Monday ===
