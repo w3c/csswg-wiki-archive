@@ -86,6 +86,7 @@ Regrets: Dael Jackson
   * CSS-Overflow:
         * [[https://github.com/w3c/csswg-drafts/issues/92|stable /always-on / overlay scrollbars ]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
+  * Additional text-decoration styling: https://github.com/w3c/csswg-drafts/issues/459
 ==== Agenda ====
 
 === Monday ===
