@@ -88,6 +88,7 @@ Regrets: Dael Jackson
         * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
   * Additional text-decoration styling: https://github.com/w3c/csswg-drafts/issues/459
   * [[https://github.com/w3c/csswg-drafts/issues/255|margin-inside / margin-outside / float: inside / float: outside]] (Florian)
+  * HDR https://lists.w3.org/Archives/Public/www-style/2016Sep/0047.html (Mark Watson)
 ==== Agenda ====
 
 === Monday ===
