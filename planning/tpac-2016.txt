@@ -51,6 +51,7 @@ Regrets: Dael Jackson
         * [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0031.html| "the corridor"]] (Florian)
   * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
   * Scroll-linked animations (https://birtles.github.io/scroll-animations/)
+    * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 if possible (rbyers)  
   * CSS Tables Level 3
         * Fixup rewrite (https://github.com/w3c/csswg-drafts/issues/466)
         * Fixup collapsible whitespace (https://github.com/w3c/csswg-drafts/issues/467)
@@ -65,6 +66,7 @@ Regrets: Dael Jackson
         * visibility: collapse (https://github.com/w3c/csswg-drafts/issues/478)
   * url() as image or SVG reference <a href="https://github.com/w3c/csswg-drafts/issues/383">Issue 383</a>
   * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
+    * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 if possible (rbyers)  
   * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
   * Approval to implement and ship transitionstart/transitionrun/transitioncancel/animationcancel?
   * CR plan for 2016 - which specs are 'close' to CR? what is left to get them there by December pub moratorium? (Tantek)
@@ -75,6 +77,7 @@ Regrets: Dael Jackson
            * https://github.com/w3c/fxtf-drafts/issues/24
         *  Revision for Motion Path and CSS Round Display
   * Viewport API: https://github.com/WICG/ViewportAPI
+    * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 (rbyers)  
   * CSS UI 4 / user-select
         * [[https://github.com/w3c/csswg-drafts/issues/336|computed values vs separate properties]]
         * [[https://github.com/w3c/csswg-drafts/issues/319|effect on selections when clicking in a user-select:none ]] (Florian)
