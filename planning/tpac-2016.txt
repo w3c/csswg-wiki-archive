@@ -89,7 +89,7 @@ Regrets: Dael Jackson
   * Additional text-decoration styling: https://github.com/w3c/csswg-drafts/issues/459
   * [[https://github.com/w3c/csswg-drafts/issues/255|margin-inside / margin-outside / float: inside / float: outside]] (Florian)
   * HDR https://lists.w3.org/Archives/Public/www-style/2016Sep/0047.html (Mark Watson)
-  * Vertical Writing web award report (skk) 
+  * Vertical Writing web award report (skk, Tue, if possible) 
 ==== Agenda ====
 
 === Monday ===
