@@ -72,6 +72,11 @@ Regrets: Dael Jackson
   * CR plan for 2016 - which specs are 'close' to CR? what is left to get them there by December pub moratorium? (Tantek)
   * Variation fonts in OpenType - (ChrisL, Behdad, et al.)
   * Motion path issues
+        * Default value for offset-anchor (https://github.com/w3c/fxtf-drafts/issues/41)
+        * Shorthand 'offset'
+           * https://github.com/w3c/fxtf-drafts/issues/42
+           * https://github.com/w3c/fxtf-drafts/issues/24
+        *  Revision for Motion Path and CSS Round Display
   * Viewport API: https://github.com/WICG/ViewportAPI
   * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
   * CSS UI 4 / user-select
