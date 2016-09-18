@@ -63,8 +63,6 @@ Regrets: Dael Jackson
         * min-height on a table-row (https://github.com/w3c/csswg-drafts/issues/477)
         * table-layout:fixed width distribution (https://github.com/w3c/csswg-drafts/issues/484)
         * visibility: collapse (https://github.com/w3c/csswg-drafts/issues/478)
-  * Joint meeting with digipub (Monday after lunch)
-  * Joint meeting with APA (Tuesday 9am)
   * url() as image or SVG reference <a href="https://github.com/w3c/csswg-drafts/issues/383">Issue 383</a>
   * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
   * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
@@ -103,8 +101,13 @@ Regrets: Dael Jackson
 
 == PM ==
 
+  * Joint meeting with digipub (Monday 1pm)
+
+
 === Tuesday ===
 
 == AM ==
+
+  * Joint meeting with APA (Tuesday 9am)
 
 == PM ==
