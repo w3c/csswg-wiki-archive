@@ -68,7 +68,6 @@ Regrets: Dael Jackson
   * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
   * Approval to implement and ship transitionstart/transitionrun/transitioncancel/animationcancel?
   * CR plan for 2016 - which specs are 'close' to CR? what is left to get them there by December pub moratorium? (Tantek)
-  * Variation fonts in OpenType - (ChrisL, Behdad, et al.)
   * Motion path issues
         * Default value for offset-anchor (https://github.com/w3c/fxtf-drafts/issues/41)
         * Shorthand 'offset'
@@ -83,7 +82,6 @@ Regrets: Dael Jackson
   * CSS-UI-3
         * [[https://github.com/w3c/csswg-drafts/issues/441|Add `outline-offset` to `outline` shorthand?]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/423|Remove outline-color: invert?]] (Florian)
-  * Proposal for a new Regions specification — Jen Simmons (early in the schedule / Monday highly preferred)
   * Hanging Punctuation
   * CSS Containment [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question]] (Florian)
   * CSS-Overflow:
@@ -102,12 +100,13 @@ Regrets: Dael Jackson
 == PM ==
 
   * Joint meeting with digipub (Monday 1pm)
-
+  * Proposal for a new Regions specification — Jen Simmons (early in the schedule / Monday highly preferred)
 
 === Tuesday ===
 
 == AM ==
 
   * Joint meeting with APA (Tuesday 9am)
+  * Variation fonts in OpenType - (ChrisL, Behdad, et al.)
 
 == PM ==
