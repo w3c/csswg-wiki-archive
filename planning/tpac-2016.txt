@@ -44,12 +44,6 @@ Regrets: Dael Jackson
 
 ==== Proposed Agenda ====
 
-  * Motion path issues
-        * Default value for offset-anchor (https://github.com/w3c/fxtf-drafts/issues/41)
-        * Shorthand 'offset'
-           * https://github.com/w3c/fxtf-drafts/issues/42
-           * https://github.com/w3c/fxtf-drafts/issues/24
-        *  Revision for Motion Path and CSS Round Display
   * Viewport API: https://github.com/WICG/ViewportAPI
     * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 (rbyers)  
   * CSS UI 4 / user-select
@@ -112,6 +106,11 @@ Regrets: Dael Jackson
   * Joint meeting with APA (Tuesday 9am)
   * Variation fonts in OpenType - (ChrisL, Behdad, et al.)
   * Motion Path issues (jihye, Tue preferred)
+    * Default value for offset-anchor (https://github.com/w3c/fxtf-drafts/issues/41)
+    * Shorthand 'offset'
+      * https://github.com/w3c/fxtf-drafts/issues/42
+      * https://github.com/w3c/fxtf-drafts/issues/24
+    *  Revision for Motion Path and CSS Round Display
 
 == PM ==
 
