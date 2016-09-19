@@ -66,7 +66,7 @@ Regrets: Dael Jackson
 == PM ==
 
   * Joint [[https://www.w3.org/dpub/IG/wiki/Detailed_TPAC_2016_Agenda#Meeting_with_CSS_WG|meeting with digipub]] (Monday 1pm)
-  * Proposal for a new Regions specification — Jen Simmons (early in the schedule / Monday highly preferred)
+  * Proposal for a new Regions specification — Jen Simmons, https://speakerdeck.com/jensimmons/proposal-to-csswg-sept-2016
   * Hanging Punctuation
   * HDR https://lists.w3.org/Archives/Public/www-style/2016Sep/0047.html (Mark Watson)
   * Transforms L2: backport translate/rotate/scale, as they're stable but L1 still isn't?
@@ -122,7 +122,6 @@ Regrets: Dael Jackson
         * [[https://github.com/w3c/csswg-drafts/issues/441|Add `outline-offset` to `outline` shorthand?]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/423|Remove outline-color: invert?]] (Florian)
   * Additional text-decoration styling: https://github.com/w3c/csswg-drafts/issues/459
-
 
 ==== Agenda Overflow ====
 
