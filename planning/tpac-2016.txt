@@ -75,12 +75,11 @@ Regrets: Dael Jackson
         * Do "value tainting" of animation-tainted custom properties? (Rather than current "document-global name tainting")
         * How to store custom property values? Like strings (exactly preserved) or like token streams (may change from author phrasing)? "--path: m40.0,20.0" can reserialize as-is, or as "--path: m40/**/0.0,20.0".
   * Approval to implement and ship transitionstart/transitionrun/transitioncancel/animationcancel?
+  * CSS Cascade: "revert" is very expensive; Safari has busted (cheap) implementation. Can we simplify?
   * CR plan for 2016 - which specs are 'close' to CR? what is left to get them there by December pub moratorium? (Tantek)
 
 
-  * CSS Cascade: "revert" is very expensive; Safari has busted (cheap) implementation. Can we simplify?
   * [[https://github.com/w3c/csswg-drafts/issues/495|clip-path excluding fixed-position descendants]]
-  * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
   * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
         * [[https://github.com/drufball/generalized-animations|Google proposal]]
 
@@ -134,3 +133,5 @@ Regrets: Dael Jackson
   * Baseline alignment issues (to be listed here)
     * first/last syntax
   * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
+  * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
+
