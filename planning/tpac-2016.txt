@@ -43,12 +43,9 @@ Regrets: Dael Jackson
 
 ==== Proposed Agenda ====
 
-  * Baseline alignment issues (to be listed here)
-    * first/last syntax
   * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
   * url() as image or SVG reference <a href="https://github.com/w3c/csswg-drafts/issues/383">Issue 383</a>
   * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
-    * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 if possible (rbyers)  
   * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
         * [[https://github.com/drufball/generalized-animations|Google proposal]]
   * Approval to implement and ship transitionstart/transitionrun/transitioncancel/animationcancel?
@@ -70,8 +67,6 @@ Regrets: Dael Jackson
   * CSS Containment [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question]] (Florian)
   * Additional text-decoration styling: https://github.com/w3c/csswg-drafts/issues/459
   * [[https://github.com/w3c/csswg-drafts/issues/255|margin-inside / margin-outside / float: inside / float: outside]] (Florian)
-  * HDR https://lists.w3.org/Archives/Public/www-style/2016Sep/0047.html (Mark Watson)
-  * Vertical Writing web award report (skk, Tue, if possible) 
   * Transforms L2: backport translate/rotate/scale, as they're stable but L1 still isn't?
   * @apply: Thinking we should put on back burner, as variables + ::part seems like sufficient feature set for v1 of custom elements. Agree?
   * CSS Variables: 
@@ -80,7 +75,6 @@ Regrets: Dael Jackson
         * How to store custom property values? Like strings (exactly preserved) or like token streams (may change from author phrasing)? "--path: m40.0,20.0" can reserialize as-is, or as "--path: m40/**/0.0,20.0".
   * CSS Cascade: "revert" is very expensive; Safari has busted (cheap) implementation. Can we simplify?
   * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0031.html|clip-path excluding fixed-position descendants]]
-  * Scroll Anchoring - preventing the page from jiggling when things load off-screen. Chrome is experimenting; would like to discuss.
 ==== Agenda ====
 
 === Monday ===
@@ -100,6 +94,8 @@ Regrets: Dael Jackson
         * table-layout:fixed width distribution (https://github.com/w3c/csswg-drafts/issues/484)
         * visibility: collapse (https://github.com/w3c/csswg-drafts/issues/478)
   * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
+  * Baseline alignment issues (to be listed here)
+    * first/last syntax
 
 
 == PM ==
@@ -107,6 +103,7 @@ Regrets: Dael Jackson
   * Joint meeting with digipub (Monday 1pm)
   * Proposal for a new Regions specification — Jen Simmons (early in the schedule / Monday highly preferred)
   * Hanging Punctuation
+  * HDR https://lists.w3.org/Archives/Public/www-style/2016Sep/0047.html (Mark Watson)
 
 === Tuesday ===
 
@@ -125,7 +122,9 @@ Regrets: Dael Jackson
         * [[https://github.com/w3c/csswg-drafts/issues/395|scroll-padding]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/488| applicability to pseudo elements]] (Florian)
         * [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0031.html| "the corridor"]] (Florian)
+  * Scroll Anchoring - preventing the page from jiggling when things load off-screen. Chrome is experimenting; would like to discuss.
   * CSS-Overflow:
         * [[https://github.com/w3c/csswg-drafts/issues/92|stable /always-on / overlay scrollbars ]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
   * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
+  * Vertical Writing web award report (skk, Tue, if possible) 
