@@ -61,14 +61,6 @@ Regrets: Dael Jackson
         * table-layout:fixed width distribution (https://github.com/w3c/csswg-drafts/issues/484)
         * visibility: collapse (https://github.com/w3c/csswg-drafts/issues/478)
   * [[https://github.com/w3c/csswg-drafts/issues/383|url() as image or SVG reference]]
-  * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
-  * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
-        * [[https://github.com/drufball/generalized-animations|Google proposal]]
-  * Approval to implement and ship transitionstart/transitionrun/transitioncancel/animationcancel?
-  * CR plan for 2016 - which specs are 'close' to CR? what is left to get them there by December pub moratorium? (Tantek)
-  * Baseline alignment issues (to be listed here)
-    * first/last syntax
-  * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
 
 == PM ==
 
@@ -77,13 +69,17 @@ Regrets: Dael Jackson
   * Hanging Punctuation
   * HDR https://lists.w3.org/Archives/Public/www-style/2016Sep/0047.html (Mark Watson)
   * Transforms L2: backport translate/rotate/scale, as they're stable but L1 still isn't?
-  * @apply: Thinking we should put on back burner, as variables + ::part seems like sufficient feature set for v1 of custom elements. Agree?
   * CSS Variables: 
         * var() in @keyframes? Multiple engines already support.
         * Do "value tainting" of animation-tainted custom properties? (Rather than current "document-global name tainting")
         * How to store custom property values? Like strings (exactly preserved) or like token streams (may change from author phrasing)? "--path: m40.0,20.0" can reserialize as-is, or as "--path: m40/**/0.0,20.0".
   * CSS Cascade: "revert" is very expensive; Safari has busted (cheap) implementation. Can we simplify?
   * [[https://github.com/w3c/csswg-drafts/issues/495|clip-path excluding fixed-position descendants]]
+  * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
+  * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
+        * [[https://github.com/drufball/generalized-animations|Google proposal]]
+  * Approval to implement and ship transitionstart/transitionrun/transitioncancel/animationcancel?
+  * CR plan for 2016 - which specs are 'close' to CR? what is left to get them there by December pub moratorium? (Tantek)
 
 === Tuesday ===
 
@@ -132,3 +128,7 @@ Regrets: Dael Jackson
   * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
   * CSS Containment [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question]] (Florian)
   * Vertical Writing web award report (skk, Tue, if possible) 
+  * @apply: Thinking we should put on back burner, as variables + ::part seems like sufficient feature set for v1 of custom elements. Agree?
+  * Baseline alignment issues (to be listed here)
+    * first/last syntax
+  * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
