@@ -88,7 +88,7 @@ Regrets: Dael Jackson
         * Do "value tainting" of animation-tainted custom properties? (Rather than current "document-global name tainting")
         * How to store custom property values? Like strings (exactly preserved) or like token streams (may change from author phrasing)? "--path: m40.0,20.0" can reserialize as-is, or as "--path: m40/**/0.0,20.0".
   * CSS Cascade: "revert" is very expensive; Safari has busted (cheap) implementation. Can we simplify?
-  * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0031.html|clip-path excluding fixed-position descendants]]
+  * [[https://github.com/w3c/csswg-drafts/issues/495|clip-path excluding fixed-position descendants]]
 
 === Tuesday ===
 
