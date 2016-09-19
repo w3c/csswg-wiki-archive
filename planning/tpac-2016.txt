@@ -86,7 +86,7 @@ Regrets: Dael Jackson
 == AM ==
 
   * Joint meeting with APA (Tuesday 9am)
-  * Variation fonts in OpenType - (ChrisL, Behdad, et al.)
+  * Variation fonts in OpenType - (ChrisL, Behdad, et al.) (11am)
   * Motion Path issues (jihye, Tue preferred)
     * Default value for offset-anchor (https://github.com/w3c/fxtf-drafts/issues/41)
     * Shorthand 'offset'
