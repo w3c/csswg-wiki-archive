@@ -68,7 +68,7 @@ Regrets: Dael Jackson
   * Baseline alignment issues (to be listed here)
     * first/last syntax
   * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
-  * url() as image or SVG reference <a href="https://github.com/w3c/csswg-drafts/issues/383">Issue 383</a>
+  * [[https://github.com/w3c/csswg-drafts/issues/383|url() as image or SVG reference]]
   * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
   * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
         * [[https://github.com/drufball/generalized-animations|Google proposal]]
