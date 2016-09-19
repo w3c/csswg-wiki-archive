@@ -50,7 +50,7 @@ Regrets: Dael Jackson
   * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
     * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 if possible (rbyers)  
   * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
-        * [[https://docs.google.com/a/google.com/document/d/1Oe0HivFAcL0BfTxtWh7m6GkiXUq0b8orCohP6UA9vJs/edit?usp=drive_web|Google proposal]]
+        * [[https://github.com/drufball/generalized-animations|Google proposal]]
   * Approval to implement and ship transitionstart/transitionrun/transitioncancel/animationcancel?
   * CR plan for 2016 - which specs are 'close' to CR? what is left to get them there by December pub moratorium? (Tantek)
   * Motion path issues
@@ -120,7 +120,7 @@ Regrets: Dael Jackson
 
   * Scroll-linked animations (https://birtles.github.io/scroll-animations/)
     * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 if possible (rbyers)  
-  * Scroll-linked animation: [[https://docs.google.com/a/google.com/document/d/1Oe0HivFAcL0BfTxtWh7m6GkiXUq0b8orCohP6UA9vJs/edit?usp=drive_web|explainer]]
+  * Scroll-linked animation: [[https://github.com/drufball/generalized-animations|Google proposal]]
   * CSS Scroll Snap - Review DoC, remaining open issues, transition to CR?
         * [[https://github.com/w3c/csswg-drafts/issues/395|scroll-padding]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/488| applicability to pseudo elements]] (Florian)
