@@ -127,5 +127,9 @@ Regrets: Dael Jackson
   * CSS-Overflow:
         * [[https://github.com/w3c/csswg-drafts/issues/92|stable /always-on / overlay scrollbars ]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
+  * Media Feature: "increase contrast" and/or "reduce transparency" user settings
+    * https://github.com/w3c/csswg-drafts/issues/443
+  * Media Feature: "reduce motion" user setting
+    * https://github.com/w3c/csswg-drafts/issues/442
   * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
   * Vertical Writing web award report (skk, Tue, if possible) 
