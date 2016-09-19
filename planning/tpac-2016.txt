@@ -119,7 +119,7 @@ Regrets: Dael Jackson
         * [[https://github.com/w3c/csswg-drafts/issues/395|scroll-padding]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/488| applicability to pseudo elements]] (Florian)
         * [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0031.html| "the corridor"]] (Florian)
-  * Scroll Anchoring - preventing the page from jiggling when things load off-screen. Chrome is experimenting; would like to discuss.
+  * Scroll Anchoring - preventing the page from jiggling when things load off-screen. Chrome is experimenting; would like to discuss. [[https://github.com/WICG/interventions/blob/master/scroll-anchoring/explainer.md|explainer]]
   * CSS-Overflow:
         * [[https://github.com/w3c/csswg-drafts/issues/92|stable /always-on / overlay scrollbars ]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
