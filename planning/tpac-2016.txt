@@ -44,8 +44,6 @@ Regrets: Dael Jackson
 
 ==== Proposed Agenda ====
 
-  * Viewport API: https://github.com/WICG/ViewportAPI
-    * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 (rbyers)  
   * CSS UI 4 / user-select
         * [[https://github.com/w3c/csswg-drafts/issues/336|computed values vs separate properties]]
         * [[https://github.com/w3c/csswg-drafts/issues/319|effect on selections when clicking in a user-select:none ]] (Florian)
@@ -55,14 +53,6 @@ Regrets: Dael Jackson
   * CSS Containment [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question]] (Florian)
   * Additional text-decoration styling: https://github.com/w3c/csswg-drafts/issues/459
   * [[https://github.com/w3c/csswg-drafts/issues/255|margin-inside / margin-outside / float: inside / float: outside]] (Florian)
-  * Transforms L2: backport translate/rotate/scale, as they're stable but L1 still isn't?
-  * @apply: Thinking we should put on back burner, as variables + ::part seems like sufficient feature set for v1 of custom elements. Agree?
-  * CSS Variables: 
-        * var() in @keyframes? Multiple engines already support.
-        * Do "value tainting" of animation-tainted custom properties? (Rather than current "document-global name tainting")
-        * How to store custom property values? Like strings (exactly preserved) or like token streams (may change from author phrasing)? "--path: m40.0,20.0" can reserialize as-is, or as "--path: m40/**/0.0,20.0".
-  * CSS Cascade: "revert" is very expensive; Safari has busted (cheap) implementation. Can we simplify?
-  * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0031.html|clip-path excluding fixed-position descendants]]
 ==== Agenda ====
 
 === Monday ===
@@ -98,6 +88,14 @@ Regrets: Dael Jackson
   * Proposal for a new Regions specification — Jen Simmons (early in the schedule / Monday highly preferred)
   * Hanging Punctuation
   * HDR https://lists.w3.org/Archives/Public/www-style/2016Sep/0047.html (Mark Watson)
+  * Transforms L2: backport translate/rotate/scale, as they're stable but L1 still isn't?
+  * @apply: Thinking we should put on back burner, as variables + ::part seems like sufficient feature set for v1 of custom elements. Agree?
+  * CSS Variables: 
+        * var() in @keyframes? Multiple engines already support.
+        * Do "value tainting" of animation-tainted custom properties? (Rather than current "document-global name tainting")
+        * How to store custom property values? Like strings (exactly preserved) or like token streams (may change from author phrasing)? "--path: m40.0,20.0" can reserialize as-is, or as "--path: m40/**/0.0,20.0".
+  * CSS Cascade: "revert" is very expensive; Safari has busted (cheap) implementation. Can we simplify?
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0031.html|clip-path excluding fixed-position descendants]]
 
 === Tuesday ===
 
@@ -125,6 +123,7 @@ Regrets: Dael Jackson
   * CSS-Overflow:
         * [[https://github.com/w3c/csswg-drafts/issues/92|stable /always-on / overlay scrollbars ]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
+  * Viewport API: https://github.com/WICG/ViewportAPI
   * Media Feature: "increase contrast" and/or "reduce transparency" user settings
     * https://github.com/w3c/csswg-drafts/issues/443
   * Media Feature: "reduce motion" user setting
