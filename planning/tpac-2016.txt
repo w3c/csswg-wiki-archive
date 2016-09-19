@@ -69,6 +69,7 @@ Regrets: Dael Jackson
   * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
     * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 if possible (rbyers)  
   * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
+        * [[https://docs.google.com/a/google.com/document/d/1Oe0HivFAcL0BfTxtWh7m6GkiXUq0b8orCohP6UA9vJs/edit?usp=drive_web|Google proposal]]
   * Approval to implement and ship transitionstart/transitionrun/transitioncancel/animationcancel?
   * CR plan for 2016 - which specs are 'close' to CR? what is left to get them there by December pub moratorium? (Tantek)
   * Motion path issues
@@ -94,6 +95,16 @@ Regrets: Dael Jackson
   * [[https://github.com/w3c/csswg-drafts/issues/255|margin-inside / margin-outside / float: inside / float: outside]] (Florian)
   * HDR https://lists.w3.org/Archives/Public/www-style/2016Sep/0047.html (Mark Watson)
   * Vertical Writing web award report (skk, Tue, if possible) 
+  * Transforms L2: backport translate/rotate/scale, as they're stable but L1 still isn't?
+  * @apply: Thinking we should put on back burner, as variables + ::part seems like sufficient feature set for v1 of custom elements. Agree?
+  * CSS Variables: 
+        * var() in @keyframes? Multiple engines already support.
+        * Do "value tainting" of animation-tainted custom properties? (Rather than current "document-global name tainting")
+        * How to store custom property values? Like strings (exactly preserved) or like token streams (may change from author phrasing)? "--path: m40.0,20.0" can reserialize as-is, or as "--path: m40/**/0.0,20.0".
+  * Scroll-linked animation: [[https://docs.google.com/a/google.com/document/d/1Oe0HivFAcL0BfTxtWh7m6GkiXUq0b8orCohP6UA9vJs/edit?usp=drive_web|explainer]]
+  * CSS Cascade: "revert" is very expensive; Safari has busted (cheap) implementation. Can we simplify?
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0031.html|clip-path excluding fixed-position descendants]]
+  * Scroll Anchoring - preventing the page from jiggling when things load off-screen. Chrome is experimenting; would like to discuss.
 ==== Agenda ====
 
 === Monday ===
