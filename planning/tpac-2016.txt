@@ -44,6 +44,7 @@ Regrets: Dael Jackson
 
 ==== Proposed Agenda ====
 
+  * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
 
 
 ==== Agenda ====
@@ -64,7 +65,6 @@ Regrets: Dael Jackson
         * min-height on a table-row (https://github.com/w3c/csswg-drafts/issues/477)
         * table-layout:fixed width distribution (https://github.com/w3c/csswg-drafts/issues/484)
         * visibility: collapse (https://github.com/w3c/csswg-drafts/issues/478)
-  * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
   * [[https://github.com/w3c/csswg-drafts/issues/383|url() as image or SVG reference]]
   * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
   * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
