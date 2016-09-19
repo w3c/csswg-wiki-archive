@@ -42,11 +42,6 @@ Regrets: Dael Jackson
 
 (See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2016/registrants#CSS|TPAC registrations]] [member-only])
 
-==== Proposed Agenda ====
-
-  * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
-
-
 ==== Agenda ====
 
 === Monday ===
@@ -122,7 +117,6 @@ Regrets: Dael Jackson
   * Media Feature: "reduce motion" user setting
     * https://github.com/w3c/csswg-drafts/issues/442
   * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
-  * Vertical Writing web award report (skk, Tue, if possible) 
   * CSS UI 4 / user-select
         * [[https://github.com/w3c/csswg-drafts/issues/336|computed values vs separate properties]]
         * [[https://github.com/w3c/csswg-drafts/issues/319|effect on selections when clicking in a user-select:none ]] (Florian)
@@ -130,5 +124,11 @@ Regrets: Dael Jackson
   * CSS-UI-3
         * [[https://github.com/w3c/csswg-drafts/issues/441|Add `outline-offset` to `outline` shorthand?]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/423|Remove outline-color: invert?]] (Florian)
-  * CSS Containment [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question]] (Florian)
   * Additional text-decoration styling: https://github.com/w3c/csswg-drafts/issues/459
+
+
+==== Agenda Overflow ====
+
+  * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
+  * CSS Containment [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question]] (Florian)
+  * Vertical Writing web award report (skk, Tue, if possible) 
