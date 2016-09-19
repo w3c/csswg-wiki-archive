@@ -64,9 +64,6 @@ Regrets: Dael Jackson
         * min-height on a table-row (https://github.com/w3c/csswg-drafts/issues/477)
         * table-layout:fixed width distribution (https://github.com/w3c/csswg-drafts/issues/484)
         * visibility: collapse (https://github.com/w3c/csswg-drafts/issues/478)
-  * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
-  * Baseline alignment issues (to be listed here)
-    * first/last syntax
   * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
   * [[https://github.com/w3c/csswg-drafts/issues/383|url() as image or SVG reference]]
   * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
@@ -74,6 +71,9 @@ Regrets: Dael Jackson
         * [[https://github.com/drufball/generalized-animations|Google proposal]]
   * Approval to implement and ship transitionstart/transitionrun/transitioncancel/animationcancel?
   * CR plan for 2016 - which specs are 'close' to CR? what is left to get them there by December pub moratorium? (Tantek)
+  * Baseline alignment issues (to be listed here)
+    * first/last syntax
+  * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
 
 == PM ==
 
