@@ -47,18 +47,6 @@ Regrets: Dael Jackson
     * first/last syntax
   * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
   * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
-  * CSS Tables Level 3
-        * Fixup rewrite (https://github.com/w3c/csswg-drafts/issues/466)
-        * Fixup collapsible whitespace (https://github.com/w3c/csswg-drafts/issues/467)
-        * What CSS is applicable to table-track & table-track-grouping elements (https://github.com/w3c/csswg-drafts/issues/469)
-        * table-wrapper box and captions (https://github.com/w3c/csswg-drafts/issues/471)
-        * track merging (https://github.com/w3c/csswg-drafts/issues/473)
-        * percentage resolution (https://github.com/w3c/csswg-drafts/issues/474)
-        * border-radius in collapsed mode (https://github.com/w3c/csswg-drafts/issues/475)
-        * height on a table-row-group (https://github.com/w3c/csswg-drafts/issues/476)
-        * min-height on a table-row (https://github.com/w3c/csswg-drafts/issues/477)
-        * table-layout:fixed width distribution (https://github.com/w3c/csswg-drafts/issues/484)
-        * visibility: collapse (https://github.com/w3c/csswg-drafts/issues/478)
   * url() as image or SVG reference <a href="https://github.com/w3c/csswg-drafts/issues/383">Issue 383</a>
   * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
     * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 if possible (rbyers)  
@@ -82,9 +70,6 @@ Regrets: Dael Jackson
         * [[https://github.com/w3c/csswg-drafts/issues/423|Remove outline-color: invert?]] (Florian)
   * Hanging Punctuation
   * CSS Containment [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question]] (Florian)
-  * CSS-Overflow:
-        * [[https://github.com/w3c/csswg-drafts/issues/92|stable /always-on / overlay scrollbars ]] (Florian)
-        * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
   * Additional text-decoration styling: https://github.com/w3c/csswg-drafts/issues/459
   * [[https://github.com/w3c/csswg-drafts/issues/255|margin-inside / margin-outside / float: inside / float: outside]] (Florian)
   * HDR https://lists.w3.org/Archives/Public/www-style/2016Sep/0047.html (Mark Watson)
@@ -103,6 +88,20 @@ Regrets: Dael Jackson
 === Monday ===
 
 == AM ==
+
+  * CSS Tables Level 3
+        * Fixup rewrite (https://github.com/w3c/csswg-drafts/issues/466)
+        * Fixup collapsible whitespace (https://github.com/w3c/csswg-drafts/issues/467)
+        * What CSS is applicable to table-track & table-track-grouping elements (https://github.com/w3c/csswg-drafts/issues/469)
+        * table-wrapper box and captions (https://github.com/w3c/csswg-drafts/issues/471)
+        * track merging (https://github.com/w3c/csswg-drafts/issues/473)
+        * percentage resolution (https://github.com/w3c/csswg-drafts/issues/474)
+        * border-radius in collapsed mode (https://github.com/w3c/csswg-drafts/issues/475)
+        * height on a table-row-group (https://github.com/w3c/csswg-drafts/issues/476)
+        * min-height on a table-row (https://github.com/w3c/csswg-drafts/issues/477)
+        * table-layout:fixed width distribution (https://github.com/w3c/csswg-drafts/issues/484)
+        * visibility: collapse (https://github.com/w3c/csswg-drafts/issues/478)
+
 
 == PM ==
 
@@ -126,4 +125,7 @@ Regrets: Dael Jackson
         * [[https://github.com/w3c/csswg-drafts/issues/395|scroll-padding]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/488| applicability to pseudo elements]] (Florian)
         * [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0031.html| "the corridor"]] (Florian)
+  * CSS-Overflow:
+        * [[https://github.com/w3c/csswg-drafts/issues/92|stable /always-on / overlay scrollbars ]] (Florian)
+        * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
   * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
