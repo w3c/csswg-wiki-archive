@@ -117,7 +117,6 @@ Regrets: Dael Jackson
         * [[https://github.com/w3c/csswg-drafts/issues/319|effect on selections when clicking in a user-select:none ]] (Florian)
   * [[https://github.com/w3c/csswg-drafts/issues/255|margin-inside / margin-outside / float: inside / float: outside]] (Florian)
   * CSS-UI-3
-        * [[https://github.com/w3c/csswg-drafts/issues/441|Add `outline-offset` to `outline` shorthand?]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/423|Remove outline-color: invert?]] (Florian)
   * Additional text-decoration styling: https://github.com/w3c/csswg-drafts/issues/459
 ==== Agenda Overflow ====
