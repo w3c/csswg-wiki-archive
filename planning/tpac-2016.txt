@@ -83,7 +83,7 @@ Regrets: Dael Jackson
 == AM ==
 
   * Joint meeting with APA (Tuesday 9am)
-  * Variation fonts in OpenType - (ChrisL, Behdad, et al.) (11am. Webex https://mit.webex.com/mit/j.php?MTID=m0c1976483287cfcf250bf914633bfe36 code 646 163 669 pass fonts)
+  * [[https://github.com/w3c/csswg-drafts/issues/498|Variation fonts in OpenType]] - (ChrisL, Behdad, et al.) (11am. Webex https://mit.webex.com/mit/j.php?MTID=m0c1976483287cfcf250bf914633bfe36 code 646 163 669 pass fonts)
   * Motion Path issues (jihye, Tue preferred)
     * Default value for offset-anchor (https://github.com/w3c/fxtf-drafts/issues/41)
     * Shorthand 'offset'
@@ -118,7 +118,6 @@ Regrets: Dael Jackson
         * [[https://github.com/w3c/csswg-drafts/issues/441|Add `outline-offset` to `outline` shorthand?]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/423|Remove outline-color: invert?]] (Florian)
   * Additional text-decoration styling: https://github.com/w3c/csswg-drafts/issues/459
-
 ==== Agenda Overflow ====
 
   * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
