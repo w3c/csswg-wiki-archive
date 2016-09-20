@@ -85,7 +85,6 @@ Regrets: Dael Jackson
   * Joint meeting with APA (Tuesday 9am)
   * [[https://github.com/w3c/csswg-drafts/issues/498|Variation fonts in OpenType]] - (ChrisL, Behdad, et al.) (11am. Webex https://mit.webex.com/mit/j.php?MTID=m0c1976483287cfcf250bf914633bfe36 code 646 163 669 pass fonts)
   * Motion Path issues (jihye, Tue preferred)
-    * Default value for offset-anchor (https://github.com/w3c/fxtf-drafts/issues/41)
     * Shorthand 'offset'
       * https://github.com/w3c/fxtf-drafts/issues/42
       * https://github.com/w3c/fxtf-drafts/issues/24
