@@ -98,11 +98,11 @@ Regrets: Dael Jackson
   * MQ4
     * [[https://drafts.csswg.org/mediaqueries/#issue-d9e3b586|should we have an MQ for a gamut narrower than srgb]] (Florian)
     * [[https://drafts.csswg.org/mediaqueries/#issue-51d591c9|Should there be an explicit minimum threshold to meet before a UA is allowed to claim initial-only?]] (Florian)
-  * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
   * INCUBATION
   * Scroll-linked animations (https://birtles.github.io/scroll-animations/)
     * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 if possible (rbyers)  
     * [[https://github.com/drufball/generalized-animations|Google proposal]]
+  * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
   * Scroll Anchoring - preventing the page from jiggling when things load off-screen. Chrome is experimenting; would like to discuss. [[https://github.com/WICG/interventions/blob/master/scroll-anchoring/explainer.md|explainer]]
   * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
         * [[https://github.com/drufball/generalized-animations|Google proposal]]
