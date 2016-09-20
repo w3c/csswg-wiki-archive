@@ -101,9 +101,9 @@ Regrets: Dael Jackson
     * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 if possible (rbyers)  
     * [[https://github.com/drufball/generalized-animations|Google proposal]]
   * Scroll Anchoring - preventing the page from jiggling when things load off-screen. Chrome is experimenting; would like to discuss. [[https://github.com/WICG/interventions/blob/master/scroll-anchoring/explainer.md|explainer]]
-  * CSS-Overflow:
-        * [[https://github.com/w3c/csswg-drafts/issues/92|stable /always-on / overlay scrollbars ]] (Florian)
-        * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
+  * MQ4
+    * [[https://drafts.csswg.org/mediaqueries/#issue-d9e3b586|should we have an MQ for a gamut narrower than srgb]] (Florian)
+    * [[https://drafts.csswg.org/mediaqueries/#issue-51d591c9|Should there be an explicit minimum threshold to meet before a UA is allowed to claim initial-only?]] (Florian)
   * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
   * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
         * [[https://github.com/drufball/generalized-animations|Google proposal]]
@@ -121,7 +121,9 @@ Regrets: Dael Jackson
         * [[https://github.com/w3c/csswg-drafts/issues/423|Remove outline-color: invert?]] (Florian)
   * Additional text-decoration styling: https://github.com/w3c/csswg-drafts/issues/459
 ==== Agenda Overflow ====
-
+  * CSS-Overflow:
+        * [[https://github.com/w3c/csswg-drafts/issues/92|stable /always-on / overlay scrollbars ]] (Florian)
+        * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
   * CSS Pseudo Elements https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-pseudo-4
   * CSS Containment [[https://github.com/w3c/csswg-drafts/issues/396|Terminology question]] (Florian)
   * Vertical Writing web award report (skk, Tue, if possible) 
@@ -131,6 +133,3 @@ Regrets: Dael Jackson
   * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
   * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
   * [[https://github.com/w3c/csswg-drafts/issues/495|clip-path excluding fixed-position descendants]]
-  * MQ4 / CR blocking
-    * [[https://drafts.csswg.org/mediaqueries/#issue-d9e3b586|should we have an MQ for a gamut narrower than srgb]] (Florian)
-    * [[https://drafts.csswg.org/mediaqueries/#issue-51d591c9|Should there be an explicit minimum threshold to meet before a UA is allowed to claim initial-only?]] (Florian)
