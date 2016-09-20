@@ -93,23 +93,23 @@ Regrets: Dael Jackson
 
 == PM ==
 
-  * Scroll-linked animations (https://birtles.github.io/scroll-animations/)
-    * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 if possible (rbyers)  
-  * Scroll-linked animation: [[https://github.com/drufball/generalized-animations|Google proposal]]
   * CSS Scroll Snap - Review DoC, remaining open issues, transition to CR?
         * [[https://github.com/w3c/csswg-drafts/issues/395|scroll-padding]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/488| applicability to pseudo elements]] (Florian)
         * [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0031.html| "the corridor"]] (Florian)
+  * Scroll-linked animations (https://birtles.github.io/scroll-animations/)
+    * Avoid Mon 15:00-17:00 and Tues 8:30-10:30 if possible (rbyers)  
+    * [[https://github.com/drufball/generalized-animations|Google proposal]]
   * Scroll Anchoring - preventing the page from jiggling when things load off-screen. Chrome is experimenting; would like to discuss. [[https://github.com/WICG/interventions/blob/master/scroll-anchoring/explainer.md|explainer]]
   * CSS-Overflow:
         * [[https://github.com/w3c/csswg-drafts/issues/92|stable /always-on / overlay scrollbars ]] (Florian)
         * [[https://github.com/w3c/csswg-drafts/issues/419|disabling scrollbars]] (Florian)
+  * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
   * Viewport API: https://github.com/WICG/ViewportAPI
   * Media Feature: "increase contrast" and/or "reduce transparency" user settings
     * https://github.com/w3c/csswg-drafts/issues/443
   * Media Feature: "reduce motion" user setting
     * https://github.com/w3c/csswg-drafts/issues/442
-  * CSS Writing Modes Level 3 [[http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-09.html|test status]] and PR plan (koji, Tue preferred)
   * CSS UI 4 / user-select
         * [[https://github.com/w3c/csswg-drafts/issues/336|computed values vs separate properties]]
         * [[https://github.com/w3c/csswg-drafts/issues/319|effect on selections when clicking in a user-select:none ]] (Florian)
