@@ -78,11 +78,6 @@ Regrets: Dael Jackson
   * CSS Cascade: "revert" is very expensive; Safari has busted (cheap) implementation. Can we simplify?
   * CR plan for 2016 - which specs are 'close' to CR? what is left to get them there by December pub moratorium? (Tantek)
 
-
-  * [[https://github.com/w3c/csswg-drafts/issues/495|clip-path excluding fixed-position descendants]]
-  * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
-        * [[https://github.com/drufball/generalized-animations|Google proposal]]
-
 === Tuesday ===
 
 == AM ==
@@ -134,4 +129,6 @@ Regrets: Dael Jackson
     * first/last syntax
   * Hoisting things to table wrappers: https://github.com/w3c/csswg-drafts/issues/324#issuecomment-235652352
   * Some brief overview about the status of testing, and possibly trying to get WG resolutions on anything that blocks progress, but hopefully that's nothing (/gsnedders)
-
+  * [[https://github.com/w3c/csswg-drafts/issues/495|clip-path excluding fixed-position descendants]]
+  * Proposal: Create a new spec for timing functions (including frames(), spring(), multi-segment bezier?)
+        * [[https://github.com/drufball/generalized-animations|Google proposal]]
