@@ -1,0 +1,25 @@
+===== Seattle F2F Jan 11-13 2017 =====
+
+   * Host: Microsoft
+   * Address: Seattle (see location details below)
+   * Dates: Monday-Wednesday, May 09-11, 2016
+   * Times: 08:30 doors open, 09:00 meeting start, 18:00 meeting end (each day)
+   * Location: 
+
+==== Adjacent meetings ====
+  * 2017-01-11..13 [[https://github.com/w3c/css-houdini-drafts/wiki/Seattle-F2F-Jan-11-13-2017| Houdini in Seattle]]
+
+==== Group Dinner ====
+TBD
+
+==== Place ====
+  * Seattle (pending final arrangements). Back up is Redmond, WA 
+
+==== Participants ====
+
+Please, put your name in this table if you plan to participate (alphabetical order):
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Greg Whitworth | n/a | n/a | home | n/a |
+| Francois Remy | n/a | n/a | home | n/a |
+| Rossen Atanassov | n/a | n/a | home | n/a |
