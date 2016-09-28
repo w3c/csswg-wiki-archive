@@ -50,7 +50,7 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
 ===== Miscellaneous =====
 
   * [[ideas:mistakes]]
-
+  * [[ideas:dollar-variables]]
 ====== Requirements Documents ======
   * Requirements for Japanese Text Layout (jlreq): [[http://www.w3.org/TR/jlreq/|TR draft]]
   * Requirements for Hangul Text Layout and Typography (klreq): [[http://www.w3.org/TR/klreq/|TR draft]], [[http://www.w3.org/International/docs/korean-layout/|editor's draft]]
