@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 5 October 2016 and tracks backwards through about August 2013 or so.
+It was last updated on 19 October 2016 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -419,6 +419,8 @@ It was last updated on 5 October 2016 and tracks backwards through about August 
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|RESOLVED: Add word-break: break-word to spec if Edge/Firefox find it critical enough to Web compat to implement it.]]
 
   ; Text 3
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html|Resolved: White space property is applied to plain text paste output.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html|Resolved: Don't define interaction between hanging punctuation and kerning and leave it up to UA to decide how to adjust.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: Accept the proposal for issue 96 (for linebreak transformation rules ambiguous characters are narrow unless it's Chinese or Japanese or Yi in which case they are wide)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: Make tab size animatable]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: Make tab size <<number>>]]
