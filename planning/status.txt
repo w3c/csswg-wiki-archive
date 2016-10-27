@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 19 October 2016 and tracks backwards through about August 2013 or so.
+It was last updated on 26 October 2016 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -37,7 +37,11 @@ It was last updated on 19 October 2016 and tracks backwards through about August
   ; Block Layout
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0295.html|ACTION Bert: Republish css3-box with obnoxious note pointing to CSS2.1<trackbot> Created ACTION-644]]
 
+  ; Box
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: 0px width float that is next to a line box does count as shortening a line box]]
+
   ; Box Alignment
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: Change "baseline|last-baseline" to "[ first | last ]? baseline"]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0053.html|Resolved: Remove baseline from the block-axis as a way to align]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|RESOLVED: Apply justify-content to columns in multicol elements]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|RESOLVED: Make “smart safe” alignment the default for handling overflow; but put at risk with a note saying to contact CSSWG if there is a problem regarding compat.]]
@@ -236,6 +240,8 @@ It was last updated on 19 October 2016 and tracks backwards through about August
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|Spec the current behavior for nested transforms and add a note that this could be improved]]
 
   ;Masking
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: Match webkit/blink behavior for initial value of mask-repeat and mask-position]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: ChrisL, TabAtkins, and shane as editors for masking spec.]]
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|esprehn will look into the compat for clip-path]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/756|Investigate dropping mask-type property]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|RESOLVED: Change 'auto' value of mask-mode to 'match-source'.]]
@@ -419,6 +425,7 @@ It was last updated on 19 October 2016 and tracks backwards through about August
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|RESOLVED: Add word-break: break-word to spec if Edge/Firefox find it critical enough to Web compat to implement it.]]
 
   ; Text 3
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: Rich text copy/paste is undefined in text level 3.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html|Resolved: White space property is applied to plain text paste output.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html|Resolved: Don't define interaction between hanging punctuation and kerning and leave it up to UA to decide how to adjust.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: Accept the proposal for issue 96 (for linebreak transformation rules ambiguous characters are narrow unless it's Chinese or Japanese or Yi in which case they are wide)]]
