@@ -41,6 +41,7 @@ It was last updated on 26 October 2016 and tracks backwards through about August
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: 0px width float that is next to a line box does count as shortening a line box]]
 
   ; Box Alignment
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: Use place-items place-self place-content shorthands.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: Change "baseline|last-baseline" to "[ first | last ]? baseline"]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0053.html|Resolved: Remove baseline from the block-axis as a way to align]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|RESOLVED: Apply justify-content to columns in multicol elements]]
@@ -139,6 +140,8 @@ It was last updated on 26 October 2016 and tracks backwards through about August
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0231.html|RESOLVED: Publish a new WD for overflow]]
 
   ; CSS Overflow 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: Change this (overflow:hidden not scrolling) from SHOULD to MUST.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: For the quoted [Overflow spec] text we are changing SHOULD to MUST and MAY to MUST. (Text quoted here: https://github.com/w3c/csswg-drafts/issues/666)
   : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: region-break gets folded into the new property, too.]]
 
   ; Device Adaptation
@@ -425,6 +428,8 @@ It was last updated on 26 October 2016 and tracks backwards through about August
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|RESOLVED: Add word-break: break-word to spec if Edge/Firefox find it critical enough to Web compat to implement it.]]
 
   ; Text 3
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: No change on this issue (https://github.com/w3c/csswg-drafts/issues/618).
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: No change to the spec because it already requires customary line breaking rules.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: Rich text copy/paste is undefined in text level 3.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html|Resolved: White space property is applied to plain text paste output.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html|Resolved: Don't define interaction between hanging punctuation and kerning and leave it up to UA to decide how to adjust.]]
