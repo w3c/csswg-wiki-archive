@@ -7,6 +7,20 @@
   * CSS WG meeting days are Mon-Tue 19-20 September
   * Lisbon, Portugal at the Centro de congressos de lisboa, room 5A, first floor (upper floor!)
 
+==== Minutes ====
+
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0069.html|Monday Part I: CSS Tables Level 3 [css-tables]]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0070.html|Monday Part II: url() as image or SVG reference [css-values]]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0071.html|Monday Part III: Joint Meeting with DPUB [mediaqueries] [css-text] [css-page]]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0072.html|Monday Part IV: Joint Meeting with DPUB con't [css-break] [css-color]]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0073.html|Monday Part V: Transforms, Variables, Transitions/Animations, Cascade, CR Plan, January Meeting [css-transforms] [css-variables] [css-transitions] [css-animations] [css-cascade]]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0074.html|Tuesday Part I: Joint Meeting with A11y Working Group [mediaqueries] [css-grid]]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0075.html|Tuesday Part II: Variation fonts in OpenType, Motion Path [css3-fonts] [motion]]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0076.html|Tuesday Part III: CSS Scroll Snap, Media Queries, Grid [css-scroll-snap] [mediaquereis] [css-grid]]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0077.html|Tuesday Part IV: Incubation in the CSSWG]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0078.html|Tuesday Part V: Scroll Linked Animations, Writing Modes Level 3 Test Status, Scroll Anchoring, Media Feature: “reduce motion” user setting [css-writing-modes] [css-align]]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0079.html|Tuesday Part VI: Scroll Snap, Timing Functions, Viewport API, CSS UI [css-scroll-snap] [css-UI]]]
+
 ==== Participants =====
 
 Please, put your name in this table if you plan to participate (alphabetical order by given name):
