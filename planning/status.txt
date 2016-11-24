@@ -42,13 +42,7 @@ It was last updated on 16 November 2016 and tracks backwards through about Augus
 
   ; Box Alignment
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: Use place-items place-self place-content shorthands.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: Change "baseline|last-baseline" to "[ first | last ]? baseline"]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0053.html|Resolved: Remove baseline from the block-axis as a way to align]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|RESOLVED: Apply justify-content to columns in multicol elements]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|RESOLVED: Make “smart safe” alignment the default for handling overflow; but put at risk with a note saying to contact CSSWG if there is a problem regarding compat.]]
-  : Finish line-by-line review
-  : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/|Resolved: Accept Myles’ proposal to make baseline of overflow non-visible inline blocks the higher of the actual baseline (at initial scroll position) and the margin-box bottom. Separately investigate whether to switch from margin-box bottom to padding-box bottom for sanity. (requries web-compat check)]]
-  : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/|ACTION: TabAtkins and fantasai to update Box Alignment spec per resolution, propose wording for CSS2.1 errata <trackbot> Created ACTION-678.]]
+  : 
 
   ; Compositing
   : [[https://www.w3.org/blog/CSS/2014/06/26/minutes-telecon-216/|Resolved: Solve background-blend on the root element as Rik requests.]]
@@ -98,6 +92,7 @@ It was last updated on 16 November 2016 and tracks backwards through about Augus
   : : [[https://lists.w3.org/Archives/Public/www-style/2016May/0210.html|RESOLVED: Publish FPWD of css-contain-1 after edits on overflow dependency]]
 
   ; CSS2.1
+  : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/|Resolved: Accept Myles’ proposal to make baseline of overflow non-visible inline blocks the higher of the actual baseline (at initial scroll position) and the margin-box bottom. Separately investigate whether to switch from margin-box bottom to padding-box bottom for sanity. (requries web-compat check)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0252.html|Resolved: Moving a float to the next fragmentainer does not move in-flow content that comes after the float. (However, per CSS2.1, subsequent floats do move down.)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html|Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Jul/0032.html|ACTION Bert to take Rossen's text and export it to level 2 <trackbot> Created ACTION-699.]]
