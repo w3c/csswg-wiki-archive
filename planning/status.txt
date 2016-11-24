@@ -41,8 +41,8 @@ It was last updated on 16 November 2016 and tracks backwards through about Augus
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: 0px width float that is next to a line box does count as shortening a line box]]
 
   ; Box Alignment
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html|Resolved: Don’t add the slashes (to the alignment property shorthands).]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: Use place-items place-self place-content shorthands.]]
-  : 
 
   ; Compositing
   : [[https://www.w3.org/blog/CSS/2014/06/26/minutes-telecon-216/|Resolved: Solve background-blend on the root element as Rik requests.]]
@@ -231,6 +231,7 @@ It was last updated on 16 November 2016 and tracks backwards through about Augus
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|Spec the current behavior for nested transforms and add a note that this could be improved]]
 
   ;Masking
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html|Resolved:  mask-mode can be anywhere in the mask shorthand other than between position and size]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: Match webkit/blink behavior for initial value of mask-repeat and mask-position]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: ChrisL, TabAtkins, and shane as editors for masking spec.]]
   : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|esprehn will look into the compat for clip-path]]
@@ -281,6 +282,9 @@ It was last updated on 16 November 2016 and tracks backwards through about Augus
   : ACTION leaverou write outdated-spec-watermark script for w3.org to put on /TR
   : ACTION glazou Investigate which data needs to be added and how to automate current-work <trackbot> Created ACTION-685 - glazou: OK, so we will do these actions, and then go back to AC/plh and iterate
   : [[https://www.w3.org/blog/CSS/2014/12/18/minutes-telecon-232/|Action: Fantasai review "true stretch" discussion.]]
+
+  ; Motion
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html|Resolved: Rename offset-rotation to be offset-rotate]]
 
   ; Multicol 1
   : [[https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/|Resolved: Drop break-before and break-after from Multicol and reference fragmentation definitions and republish as CR/]]
