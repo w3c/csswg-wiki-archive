@@ -188,15 +188,7 @@ It was last updated on 16 November 2016 and tracks backwards through about Augus
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
 
   ; Grid
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: The normal value of align-self and justify-self preserves aspect of image but stretch causes it to stretch to fit containing block. Default value continues to be normal.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0028.html|Resolved: Keep the name grid-gap (issue #19).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0028.html|Resolved: Have percentages in grid-gap behave as percentages in tracks (issue #20).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0028.html|Resolved: Keep auto-flow in the grid shorthand (issue #24).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0028.html|Resolved: Have grid and flexbox keep saying that empty boxes have no baseline and they're synthesized with bottom border edge.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0053.html|Resolved: Stretch items the same way we do for non-replaced]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0053.html|Resolved: Remove baseline from the block-axis as a way to align]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html|Resolved: Take Grid to CR]]
-
+  : 
   ; Images 3
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
   : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Allow nearest neighbor for image rendering in both directions but allow browsers to do prettier in the down directions.]]
