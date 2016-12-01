@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 16 November 2016 and tracks backwards through about August 2013 or so.
+It was last updated on 1 December 2016 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -41,6 +41,7 @@ It was last updated on 16 November 2016 and tracks backwards through about Augus
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: 0px width float that is next to a line box does count as shortening a line box]]
 
   ; Box Alignment
+  : [[http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html|Resolved: For all layout modes when you’re figuring out static position of an abspos child treat auto margins as 0 regardless of normal positioning rules.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html|Resolved: Don’t add the slashes (to the alignment property shorthands).]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: Use place-items place-self place-content shorthands.]]
 
@@ -477,6 +478,8 @@ It was last updated on 16 November 2016 and tracks backwards through about Augus
   : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|Action: Fantasai Define prop def table (in "Snapshot").]]
 
   ; UI
+  : [[http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html|Resolved: Change the applies to line to all elements]]
+  : [[http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html|Resolved: Add an informative note as to what is a caret and what is not.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|Rossen and/or gregwhitworth will help Florian decide what that set of values should be.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|ACTION Florian determine set of -webkit-user-select values to spec <trackbot> Created ACTION-75]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|ACTION Rossen figure out what's needed for -webkit-user-select <trackbot> Created ACTION-759]]
