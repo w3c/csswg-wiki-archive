@@ -32,7 +32,7 @@ Looking for a [[https://www.w3.org/Bugs/Public/describecomponents.cgi?product=CS
 
   * [[http://code.google.com/p/epub-revision/wiki/AdvancedAdaptiveLayoutCharter|EPub Stuff]]
   * [[http://www.w3.org/community/ppl/wiki/Western_Layout_Requirements|Western Layout Requirements]], outlining the advanced printing stuff that XSL-FO does and which we'd like to address in CSS
-
+  * [[spec:incubation|Incubation considerations]]
 ====== Scratch Space for Specs ====== 
 
 See [[http://www.w3.org/Style/CSS/current-work|Current Work Tables]] for current status. These pages are just scratch space for the editors to track ideas.
