@@ -25,3 +25,4 @@ Considerations for incubation
   - Competing design shapes have been proposed
   - Expertise from outside the WG is needed
   - The people doing the work want to start in the WICG
+  - The people interested in the work are not WG paricipants
