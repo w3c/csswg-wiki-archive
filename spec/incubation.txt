@@ -6,7 +6,7 @@ We will some times take new work from WICG, some times start new work in the WIC
 
 The venue for new work should be evaluated based on open criteria. The lists below are suggestions on what those criteria could be. The items are merely meant to inform a decision on the venue, not to provide a scoring mechanism. Some of the items will be more or less important depending on the feature at hand.
 
-Considerations against incubation
+Considerations for incubation within CSSWG
 
   - The feature is an extension of an already-existing feature
   - The feature was worked on previously but postponed to simplify current work
@@ -17,7 +17,7 @@ Considerations against incubation
   - The people needed for the work are already WG participants
   - The people doing the work want to start in the CSSWG
 
-Considerations for incubation
+Considerations for incubation outside of the CSSWG
 
   - The feature was worked on previously but abandoned due to objections
   - No clear signals or mixed signals from users/authors
