@@ -49,3 +49,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * [[https://www.w3.org/blog/2016/11/efficient-representation-for-web-formats/|EXI4CSS]] - our feedback to the EXI WG
   * moving [[https://tabatkins.github.io/specs/css-font-display/|css-font-display]] into the WG (dbaron)
   * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0103.html|CSS Fetch integration]] (dbaron)
+  * [[https://github.com/w3c/csswg-drafts/issues/757|relative URL resolution in var() references]] (fremy)
