@@ -41,3 +41,4 @@ That should be corrected if anyone invents a time machine. :P
   * line-height: <percentage> should compute to the equivalent line-height: <number>, so that it effectively inherits as a percentage not a length
   * ''::placeholder'' should be ''::placeholder-text'' and '':placeholder-shown'' should be '':placeholder''
   * 'overflow: scroll' should introduce a stacking context
+  * ''size'' should have been a shorthand for ''width'' and ''height'' instead of an @page property with a different definition
