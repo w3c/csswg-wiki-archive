@@ -57,6 +57,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * Font Color Palettes (myles)
   * [[https://github.com/w3c/csswg-drafts/issues/743|initial-letter in-flow or out-of-flow (preferred)?]] (jet)
   * [[https://github.com/w3c/csswg-drafts/issues/92|reserving space for scrollbars]] (florian)
+  * [[https://github.com/w3c/csswg-drafts/issues/769|scroll-boundary-behavior]]
 
 === FXTF Topics ===
   * Geometry Interfaces (smfr)
