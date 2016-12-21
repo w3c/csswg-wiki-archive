@@ -55,7 +55,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0103.html|CSS Fetch integration]] (dbaron)
   * [[https://github.com/w3c/csswg-drafts/issues/757|relative URL resolution in var() references]] (fremy)
   * Font Color Palettes (myles)
-  * initial-letter inflow or outflow (preferred)? [[https://github.com/w3c/csswg-drafts/issues/743]] (jet)
+  * initial-letter in-flow or out-of-flow (preferred)? [[https://github.com/w3c/csswg-drafts/issues/743]] (jet)
   * [[https://github.com/w3c/csswg-drafts/issues/92|reserving space for scrollbars]] (florian)
 
 === FXTF Topics ===
