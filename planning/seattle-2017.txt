@@ -61,8 +61,8 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * [[https://github.com/w3c/csswg-drafts/issues/308|content: <image> insufficiently defined]] (dbaron)
   * [[https://github.com/w3c/csswg-drafts/issues/821|content: <url> insufficiently defined]] (dbaron)
   * Meeting scheduling
-  *   * are we using the April dates we were holding (April 19-21 in Tokyo, with Houdini on April 18)?
-  *   * [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0061.html|summer meeting]] location/dates?
+      * are we using the April dates we were holding (April 19-21 in Tokyo, with Houdini on April 18)?
+      * [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0061.html|summer meeting]] location/dates?
 
 === FXTF Topics ===
   * Geometry Interfaces (smfr)
