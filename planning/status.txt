@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 1 December 2016 and tracks backwards through about August 2013 or so.
+It was last updated on 21 December 2016 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -183,10 +183,10 @@ It was last updated on 1 December 2016 and tracks backwards through about August
 
   ; Geometry
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
-
+  
   ; Grid
   : [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html|Resolved: Accept proposal from TabAtkins and fantasai in issue 767]]
-  
+ 
   ; Images 3
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
   : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Allow nearest neighbor for image rendering in both directions but allow browsers to do prettier in the down directions.]]
