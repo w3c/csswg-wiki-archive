@@ -122,6 +122,7 @@ It was last updated on 1 December 2016 and tracks backwards through about August
   : [[https://www.w3.org/blog/CSS/2015/02/26/minutes-telecon-237/|Resolved: Properties referencing corners drop the axis mentions and go into the block axis first, for example border-start-end-radius (in CSS Logical Properties)]]
 
   ; CSS OM
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html|Resolved: Make color properties return used value as resolved value]]
   : [[https://www.w3.org/blog/CSS/2015/05/07/minutes-telecon-247/|Resolved: Accept the behavior of document.scrollingElement but add more definition.]]
   : [[https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/|Resolved: Change the behavior of setProperty() according to last week’s proposal following Rossen’s approval.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html|Resolved: setProperty‘s handling of importance logically behaves same as appending a declaration (like IE/WebKit).]]
@@ -184,7 +185,8 @@ It was last updated on 1 December 2016 and tracks backwards through about August
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
 
   ; Grid
-  : 
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html|Resolved: Accept proposal from TabAtkins and fantasai in issue 767]]
+  
   ; Images 3
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
   : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Allow nearest neighbor for image rendering in both directions but allow browsers to do prettier in the down directions.]]
@@ -451,6 +453,7 @@ It was last updated on 1 December 2016 and tracks backwards through about August
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0096.html|fantasai> ACTION TabAtkins Find unhappy dude at Google who dislikes hyphenation properties and have him send email explaining his unhappiness to www-style <trackbot> Created ACTION-715]]
 
   ; Text Decoration 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html|Resolved: Ink skipping applies to overline and underline, but not line-throughs]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Merge heycam's spec paint spec with this proposal and put into FX repository.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Add -webkit-background-clip-text to the spec stating that authors must not use it but browsers may support it. (Deprecated appendix.)]]
