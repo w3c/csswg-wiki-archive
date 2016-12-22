@@ -65,7 +65,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
       * [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0061.html|summer meeting]] location/dates?
   * [[https://github.com/w3c/csswg-drafts/issues/92|overflow: Consider reserving space for scrollbars with some property ]](added on 21 Dec Telecon)
   * [[https://github.com/w3c/csswg-drafts/issues/769|New feature - scroll-boundary-behavior (an extension of -ms-scroll-chaining)]](added on 21 Dec Telecon)
-  * either adding to specs or removing from implementations [[https://github.com/w3c/csswg-drafts/issues/116|background-repeat-x/y]] and [[https://github.com/w3c/csswg-drafts/issues/116|mask-repeat-x/y]] (dbaron)
+  * either adding to specs or removing from implementations [[https://github.com/w3c/csswg-drafts/issues/116|background-repeat-x/y]] and [[https://github.com/w3c/fxtf-drafts/issues/99|mask-repeat-x/y]] (dbaron)
 
 === FXTF Topics ===
   * Geometry Interfaces (smfr)
