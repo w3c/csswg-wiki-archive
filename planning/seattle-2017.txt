@@ -77,6 +77,9 @@ Please, put your name in this table if you plan to participate (alphabetical ord
     * [[https://github.com/w3c/csswg-drafts/issues/650|run-in vs ::first-letter]]
     * [[https://lists.w3.org/Archives/Public/www-style/2012Aug/0257.html|run-ins & interleaved abspos]]
     * Cut for [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0115.html|immediate release]]? Proposed to defer `display-or-not`, release with `run-in` at-risk.
+  * [[https://drafts.csswg.org/css-values-4/#changes|CSS Values and Units L4]]
+    * Any other units people interested in adding?
+    * Publish FPWD?
 
 === FXTF Topics ===
   * Geometry Interfaces (smfr)
