@@ -91,6 +91,8 @@ Regrets: glazou
   * [[https://drafts.csswg.org/css-values-4/#changes|CSS Values and Units L4]]
     * Any other units people interested in adding?
     * Publish FPWD?
+  * csswg-test/web-platform-tests merge
+    * Get an actual resolution to do the merge this month!
 
 === FXTF Topics ===
   * Geometry Interfaces (smfr)
