@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 21 December 2016 and tracks backwards through about August 2013 or so.
+It was last updated on 4 January 2017 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -185,6 +185,7 @@ It was last updated on 21 December 2016 and tracks backwards through about Augus
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
   
   ; Grid
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jan/0005.html|Resolved: Accept the proposal explained here: https://github.com/w3c/csswg-drafts/issues/523#issuecomment-268095890]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html|Resolved: Accept proposal from TabAtkins and fantasai in issue 767]]
  
   ; Images 3
@@ -333,6 +334,7 @@ It was last updated on 21 December 2016 and tracks backwards through about Augus
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html|Selecting an Outside Scoping Box - ACTION TabAtkins fantasai Add an example to section 2.2.2<trackbot> Created ACTION-625]]
 
   ; Scroll Snap
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jan/0005.html|Resolved: Re-publish Scroll Snap CR with these changes (https://github.com/w3c/csswg-drafts/commit/7a20d00238aac3ddbdd8d5dd7e74ff81dd29ba76)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0053.html|Resolved: Accept the changes proposed here: https://drafts.csswg.org/css-scroll-snap/diff-notes#change-resnap. Make sure that if the UA evaluates and thinks it shouldn't re-snap it's not required to do so, potentially by merging the first and last sentences in the paragraph.]]
   : Waiting for MaRakow to finish merging...
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Publish CSS Scroll Snap]]
@@ -394,6 +396,9 @@ It was last updated on 21 December 2016 and tracks backwards through about Augus
   : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: Start an ED for 2016 snapshot.]]
 
   ; Speech
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jan/0005.html|Resolved: Make the change to speak value properties (to auto|always|none) and inform the a11y TF.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jan/0005.html|Action: Bo to get more feedback on
+https://github.com/w3c/csswg-drafts/issues/511 Created ACTION-807]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html|abAtkins: We have time-dimensional pseudos, defined for WebVTT. TabAtkins: Anyone know if they're implemented anywhere? ACTION fantasai: make sure timeline is defined for Speech to use: current, etc <trackbot> Created ACTION-607
 
   ; SVG
