@@ -50,7 +50,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 
 Regrets: glazou
 ==== Topics ====
-
+  * What can we take to CR in Q1 (and 2017 in total)? (continuing from CRs in 2016 discussion from TPAC) -t
   * Sizing
     * [[https://github.com/w3c/csswg-drafts/issues/509|Intrinsic Sizes inside Percentage Containers]]
     * CSS Sizing Level 3: remaining issues + CR?
@@ -71,6 +71,7 @@ Regrets: glazou
   * Meeting scheduling
       * are we using the April dates we were holding (April 19-21 in Tokyo, with Houdini on April 18)?
       * [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0061.html|summer meeting]] location/dates?
+      * Can we attempt 1 year-ish advance meeting planning (at least country/city and week) -t
   * Scrolling
       * [[https://github.com/w3c/csswg-drafts/issues/769|scroll-boundary-behavior]]
       * [[https://github.com/w3c/csswg-drafts/issues/92|overflow: Consider reserving space for scrollbars with some property ]](added on 21 Dec Telecon)
@@ -93,6 +94,7 @@ Regrets: glazou
     * Publish FPWD?
   * csswg-test/web-platform-tests merge
     * Get an actual resolution to do the merge this month!
+  * CSS2 maintenance process (continuing from 2017-01-04 telcon discussion of proposal https://lists.w3.org/Archives/Public/www-style/2016Dec/0015.html) -t
 
 === FXTF Topics ===
   * Geometry Interfaces (smfr)
