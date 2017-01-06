@@ -62,6 +62,7 @@ Regrets: glazou
     * moving [[https://tabatkins.github.io/specs/css-font-display/|css-font-display]] into the WG (dbaron)
   * CSS Inline open issues (dauwhe)
       * [[https://github.com/w3c/csswg-drafts/issues/743|initial-letter in-flow or out-of-flow (preferred)?]] (jet)
+      * [[https://github.com/w3c/csswg-drafts/issues/719|how to make block with initial letter taller]] (dauwhe)
       * [[https://github.com/w3c/csswg-drafts/issues/688| initial-letter and float on same element ]] (dauwhe)
       * [[https://github.com/w3c/csswg-drafts/issues/360| relationship of initial-letter and float ]] (dauwhe)
       * [[https://github.com/w3c/csswg-drafts/issues/689| initial-letter line shortened when floats present ]] (dauwhe)
