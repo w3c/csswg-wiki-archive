@@ -107,6 +107,7 @@ Inline:
     * Computed and used values for <color> values: https://github.com/w3c/csswg-drafts/pull/871 (Florian)
     * Animating to/from currentColor https://github.com/w3c/csswg-drafts/issues/873 (Florian)
   * CSS-UI: https://lists.w3.org/Archives/Public/www-style/2017Jan/0019.html (Florian)
+  * Publish new Working Draft of css-tables? (fremy)
 
 === FXTF Topics ===
   * Geometry Interfaces (smfr)
