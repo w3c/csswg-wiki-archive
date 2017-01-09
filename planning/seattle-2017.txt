@@ -53,6 +53,9 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 
 Regrets: glazou
 ==== Topics ====
+From GitHub issues: https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F
+
+Inline:
   * What can we take to CR in Q1 (and 2017 in total)? (continuing from CRs in 2016 discussion from TPAC) -t
   * Sizing
     * [[https://github.com/w3c/csswg-drafts/issues/509|Intrinsic Sizes inside Percentage Containers]]
