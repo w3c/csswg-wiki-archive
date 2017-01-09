@@ -6,7 +6,7 @@
    * Dates: Wednesday–Friday, Jan 11-13 2017
    * Times: 08:30 doors open, 09:00 meeting start, 18:00 meeting end (each day)
    * Weather: [[http://forecast.weather.gov/MapClick.php?smap=1&lat=47.621&lon=-122.338&unit=1&mp=1|⁰C]], [[http://forecast.weather.gov/MapClick.php?smap=1&lat=47.621&lon=-122.338&unit=0&mp=1|⁰F]]
-   * Location: 
+   * Transit: From the airport you can take [[http://www.soundtransit.org/Schedules/Link-light-rail|Link rail]] to downtown, with Westlake being the stop closest to the venue
 
 ==== Adjacent meetings ====
   * 2017-01-10 [[https://github.com/w3c/css-houdini-drafts/wiki/Seattle-F2F-Jan-10-2017| Houdini in Seattle]]
