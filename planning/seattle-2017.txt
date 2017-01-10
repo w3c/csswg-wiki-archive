@@ -112,6 +112,7 @@ Inline:
     * FPWD?
     * Block height stepping idea.
   * CSS Writing Modes PR (koji)
+  * Line Grid: Propose a simplification to line-grid lvl 1 https://github.com/w3c/csswg-drafts/issues/880 (Florian)
 
 === FXTF Topics ===
   * Geometry Interfaces (smfr)
