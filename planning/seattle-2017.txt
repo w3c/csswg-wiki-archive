@@ -56,7 +56,6 @@ Regrets: glazou, Jihye Hong
 From GitHub issues: https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F
 
 Inline:
-  * What can we take to CR in Q1 (and 2017 in total)? (continuing from CRs in 2016 discussion from TPAC) -t
   * Sizing
     * [[https://github.com/w3c/csswg-drafts/issues/509|Intrinsic Sizes inside Percentage Containers]]
     * CSS Sizing Level 3: remaining issues + CR?
@@ -75,10 +74,6 @@ Inline:
   * CSS Generated and Replaced Content
       * [[https://github.com/w3c/csswg-drafts/issues/308|content: <image> insufficiently defined]] (dbaron)
       * [[https://github.com/w3c/csswg-drafts/issues/821|content: <url> insufficiently defined]] (dbaron)
-  * Meeting scheduling
-      * are we using the April dates we were holding (April 19-21 in Tokyo, with Houdini on April 18)?
-      * [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0061.html|summer meeting]] location/dates?
-      * Can we attempt 1 year-ish advance meeting planning (at least country/city and week) -t
   * Scrolling
       * [[https://github.com/w3c/csswg-drafts/issues/769|scroll-boundary-behavior]]
       * [[https://github.com/w3c/csswg-drafts/issues/92|overflow: Consider reserving space for scrollbars with some property ]](added on 21 Dec Telecon)
@@ -99,9 +94,16 @@ Inline:
   * [[https://drafts.csswg.org/css-values-4/#changes|CSS Values and Units L4]]
     * Any other units people interested in adding?
     * Publish FPWD?
+    * 
   * csswg-test/web-platform-tests merge
     * Get an actual resolution to do the merge this month!
   * CSS2 maintenance process (continuing from 2017-01-04 telcon discussion of proposal https://lists.w3.org/Archives/Public/www-style/2016Dec/0015.html) -t
+  * Meeting scheduling
+      * are we using the April dates we were holding (April 19-21 in Tokyo, with Houdini on April 18)?
+      * [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0061.html|summer meeting]] location/dates?
+      * Can we attempt 1 year-ish advance meeting planning (at least country/city and week) -t
+  * What can we take to CR in Q1 (and 2017 in total)? (continuing from CRs in 2016 discussion from TPAC) -t
+
   * css-color:
     * Colorspaces and blending - when we can dictate working color space, what are impl plans to actually support blending in those spaces? (tab)
     * Computed and used values for <color> values: https://github.com/w3c/csswg-drafts/pull/871 (Florian)
