@@ -139,3 +139,5 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
     * Block height stepping idea.
   * CSS Writing Modes PR (koji)
   * Line Grid: Propose a simplification to line-grid lvl 1 https://github.com/w3c/csswg-drafts/issues/880 (Florian)
+  * Logical Properties
+    * getComputedStyle and logical properties https://github.com/w3c/csswg-drafts/issues/384 (dbaron)
