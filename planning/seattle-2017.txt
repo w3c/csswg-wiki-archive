@@ -92,8 +92,6 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
       * either adding to specs or removing from implementations [[https://github.com/w3c/csswg-drafts/issues/116|background-repeat-x/y]] and [[https://github.com/w3c/fxtf-drafts/issues/99|mask-repeat-x/y]] (dbaron)
       * should we introduce a variant of ''<position>'' without 3-value syntax for ''tranform-origin'' etc.?
   * CSS Writing Modes PR (koji)
-  * csswg-test/web-platform-tests merge
-    * Get an actual resolution to do the merge this month!
   * Publish new Working Draft of css-tables? (fremy)
 
 === Thursday ===
@@ -117,6 +115,8 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
   * What can we take to CR in Q1 (and 2017 in total)? (continuing from CRs in 2016 discussion from TPAC) -t
   * [[https://www.w3.org/blog/2016/11/efficient-representation-for-web-formats/|EXI4CSS]] - our feedback to the EXI WG
   * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0103.html|CSS Fetch integration]] (dbaron)
+  * csswg-test/web-platform-tests merge
+    * Get an actual resolution to do the merge this month!
 
 === Friday ===
 
