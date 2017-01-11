@@ -82,6 +82,7 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
 == Afternoon ==
   * 10 min per breakout summary
   * css-color:
+    * What happens to rgb() etc with Working Color Spaces? a.k.a how are Working spaces working? https://github.com/w3c/csswg-drafts/issues/481
     * Colorspaces and blending - when we can dictate working color space, what are impl plans to actually support blending in those spaces? (tab)
     * Computed and used values for <color> values: https://github.com/w3c/csswg-drafts/pull/871 (Florian)
     * Interpolating between color spaces https://github.com/w3c/csswg-drafts/issues/883
