@@ -84,6 +84,7 @@ Inline:
       * should we introduce a variant of ''<position>'' without 3-value syntax for ''tranform-origin'' etc.?
   * [[https://drafts.csswg.org/css-text-decor-3/issues-cr-2013|CSS Text Decoration L3: All Open Issues]]
     * [[https://github.com/w3c/csswg-drafts/issues/843|[css-text-decor] selective toggling in the text-decoration-skip property]]
+    * [[https://github.com/w3c/csswg-drafts/issues/459|[css-text-decor] Text underlines' positions cannot be fine-tuned]] (shouldn't this be in the disposition of comments?)
   * [[https://github.com/w3c/csswg-drafts/issues/869|[css-text] Should 'hyphens: auto' work if lang="" is not declared?]]
   * CSS Display L3
     * [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0332.html|Is root out-of-flow?]]
