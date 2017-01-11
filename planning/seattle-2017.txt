@@ -61,10 +61,9 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
   * [[http://drafts.csswg.org/css-transforms-1/issues-wd-2013|Transforms Level 1: All Open Issues]]
     * [[https://github.com/w3c/csswg-drafts/issues/856|[css-transforms] Individual transform "scale" has interop issue]]
   * Geometry Interfaces (smfr)
-  * mask-repeat-x/y [[https://github.com/w3c/fxtf-drafts/issues/99]] (jet)
-  * ''<position>''
-      * either adding to specs or removing from implementations [[https://github.com/w3c/csswg-drafts/issues/116|background-repeat-x/y]] and [[https://github.com/w3c/fxtf-drafts/issues/99|mask-repeat-x/y]] (dbaron)
-      * should we introduce a variant of ''<position>'' without 3-value syntax for ''tranform-origin'' etc.?
+  * CSS Variables
+    * [[https://github.com/w3c/csswg-drafts/issues/757|relative URL resolution in var() references]] (fremy)
+    * [[https://github.com/w3c/csswg-drafts/issues/881|Whitespaces in serialization of custom property value]] (jet)
 
 == Morning Track Text ==
   * [[https://drafts.csswg.org/css-text-decor-3/issues-cr-2013|CSS Text Decoration L3: All Open Issues]]
@@ -85,6 +84,9 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
 === Friday ===
 
 === Unslotted ===
+  * ''<position>''
+      * either adding to specs or removing from implementations [[https://github.com/w3c/csswg-drafts/issues/116|background-repeat-x/y]] and [[https://github.com/w3c/fxtf-drafts/issues/99|mask-repeat-x/y]] (dbaron)
+      * should we introduce a variant of ''<position>'' without 3-value syntax for ''tranform-origin'' etc.?
   * css-color:
     * Colorspaces and blending - when we can dictate working color space, what are impl plans to actually support blending in those spaces? (tab)
     * Computed and used values for <color> values: https://github.com/w3c/csswg-drafts/pull/871 (Florian)
@@ -96,9 +98,6 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
     * [[https://github.com/w3c/csswg-drafts/issues/794|[css-sizing] Intrinsic size of replaced elements incorrect]]
   * [[https://www.w3.org/blog/2016/11/efficient-representation-for-web-formats/|EXI4CSS]] - our feedback to the EXI WG
   * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0103.html|CSS Fetch integration]] (dbaron)
-  * CSS Variables
-    * [[https://github.com/w3c/csswg-drafts/issues/757|relative URL resolution in var() references]] (fremy)
-    * [[https://github.com/w3c/csswg-drafts/issues/881|Whitespaces in serialization of custom property value]] (jet)
   * Fonts
     * Font Color Palettes (myles)
     * moving [[https://tabatkins.github.io/specs/css-font-display/|css-font-display]] into the WG (dbaron)
