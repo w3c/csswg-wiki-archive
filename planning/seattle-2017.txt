@@ -61,10 +61,9 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
   * [[http://drafts.csswg.org/css-transforms-1/issues-wd-2013|Transforms Level 1: All Open Issues]]
     * [[https://github.com/w3c/csswg-drafts/issues/856|[css-transforms] Individual transform "scale" has interop issue]]
     * [[https://docs.google.com/a/google.com/document/d/1EtJuLsDpcJPQYGG18226FrQ-0vnonY_zHCxoNb_sVdE/edit?usp=drivesdk|Making transform-style actually work]]
-  * Geometry Interfaces (smfr)
   * CSS Variables
-    * [[https://github.com/w3c/csswg-drafts/issues/757|relative URL resolution in var() references]] (fremy)
     * [[https://github.com/w3c/csswg-drafts/issues/881|Whitespaces in serialization of custom property value]] (jet)
+  * Geometry Interfaces (smfr)
 
 == Morning Track Text ==
   * [[https://drafts.csswg.org/css-text-decor-3/issues-cr-2013|CSS Text Decoration L3: All Open Issues]]
