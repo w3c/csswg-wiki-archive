@@ -66,6 +66,9 @@ Inline:
   * Fonts
     * Font Color Palettes (myles)
     * moving [[https://tabatkins.github.io/specs/css-font-display/|css-font-display]] into the WG (dbaron)
+  * Grid
+    * [[https://github.com/w3c/csswg-drafts/issues/283|Implied Minimum Size of Grid Items]]
+    * [[https://github.com/w3c/csswg-drafts/issues/509|Percentages and intrinsic size]]
   * CSS Inline open issues (dauwhe)
       * [[https://github.com/w3c/csswg-drafts/issues/743|initial-letter in-flow or out-of-flow (preferred)?]] (jet)
       * [[https://github.com/w3c/csswg-drafts/issues/719|how to make block with initial letter taller]] (dauwhe)
