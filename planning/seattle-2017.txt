@@ -80,6 +80,7 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
       * [[https://github.com/w3c/csswg-drafts/issues/689| initial-letter line shortened when floats present ]] (dauwhe)
 
 == Afternoon ==
+  * 10 min per breakout summary
   * css-color:
     * Colorspaces and blending - when we can dictate working color space, what are impl plans to actually support blending in those spaces? (tab)
     * Computed and used values for <color> values: https://github.com/w3c/csswg-drafts/pull/871 (Florian)
