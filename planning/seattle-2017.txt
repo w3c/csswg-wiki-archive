@@ -86,15 +86,15 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
     * Computed and used values for <color> values: https://github.com/w3c/csswg-drafts/pull/871 (Florian)
     * Animating to/from currentColor https://github.com/w3c/csswg-drafts/issues/873 (Florian)
     * [[https://github.com/w3c/csswg-drafts/issues/294|Specification for DCI P3]]
+  * ''<position>''
+      * either adding to specs or removing from implementations [[https://github.com/w3c/csswg-drafts/issues/116|background-repeat-x/y]] and [[https://github.com/w3c/fxtf-drafts/issues/99|mask-repeat-x/y]] (dbaron)
+      * should we introduce a variant of ''<position>'' without 3-value syntax for ''tranform-origin'' etc.?
 
 === Thursday ===
 
 === Friday ===
 
 === Unslotted ===
-  * ''<position>''
-      * either adding to specs or removing from implementations [[https://github.com/w3c/csswg-drafts/issues/116|background-repeat-x/y]] and [[https://github.com/w3c/fxtf-drafts/issues/99|mask-repeat-x/y]] (dbaron)
-      * should we introduce a variant of ''<position>'' without 3-value syntax for ''tranform-origin'' etc.?
   * Sizing
     * [[https://github.com/w3c/csswg-drafts/issues/509|Intrinsic Sizes inside Percentage Containers]]
     * CSS Sizing Level 3: remaining issues + CR?
