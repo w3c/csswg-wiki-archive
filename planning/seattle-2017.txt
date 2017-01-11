@@ -91,8 +91,32 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
   * ''<position>''
       * either adding to specs or removing from implementations [[https://github.com/w3c/csswg-drafts/issues/116|background-repeat-x/y]] and [[https://github.com/w3c/fxtf-drafts/issues/99|mask-repeat-x/y]] (dbaron)
       * should we introduce a variant of ''<position>'' without 3-value syntax for ''tranform-origin'' etc.?
+  * CSS Writing Modes PR (koji)
+  * csswg-test/web-platform-tests merge
+    * Get an actual resolution to do the merge this month!
+  * Publish new Working Draft of css-tables? (fremy)
 
 === Thursday ===
+
+== Morning Track FX ==
+  * More Transforms issues?
+
+== Morning Track Text
+  * More text decoration issues?
+  * CSS Step Sizing (koji/fantasai)
+    * FPWD?
+    * Block height stepping idea.
+  * Line Grid: Propose a simplification to line-grid lvl 1 https://github.com/w3c/csswg-drafts/issues/880 (Florian)
+
+== Afternoon ==
+  * Meeting scheduling
+      * Next F2F announcement (skk)
+      * [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0061.html|summer meeting]] location/dates?
+      * Can we attempt 1 year-ish advance meeting planning (at least country/city and week) -t
+  * CSS2 maintenance process (continuing from 2017-01-04 telcon discussion of proposal https://lists.w3.org/Archives/Public/www-style/2016Dec/0015.html) -t
+  * What can we take to CR in Q1 (and 2017 in total)? (continuing from CRs in 2016 discussion from TPAC) -t
+  * [[https://www.w3.org/blog/2016/11/efficient-representation-for-web-formats/|EXI4CSS]] - our feedback to the EXI WG
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0103.html|CSS Fetch integration]] (dbaron)
 
 === Friday ===
 
@@ -101,8 +125,6 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
     * [[https://github.com/w3c/csswg-drafts/issues/509|Intrinsic Sizes inside Percentage Containers]]
     * CSS Sizing Level 3: remaining issues + CR?
     * [[https://github.com/w3c/csswg-drafts/issues/794|[css-sizing] Intrinsic size of replaced elements incorrect]]
-  * [[https://www.w3.org/blog/2016/11/efficient-representation-for-web-formats/|EXI4CSS]] - our feedback to the EXI WG
-  * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0103.html|CSS Fetch integration]] (dbaron)
   * Fonts
     * Font Color Palettes (myles)
     * moving [[https://tabatkins.github.io/specs/css-font-display/|css-font-display]] into the WG (dbaron)
@@ -129,22 +151,6 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
   * [[https://drafts.csswg.org/css-values-4/#changes|CSS Values and Units L4]]
     * Any other units people interested in adding?
     * Publish FPWD?
-    * 
-  * csswg-test/web-platform-tests merge
-    * Get an actual resolution to do the merge this month!
-  * CSS2 maintenance process (continuing from 2017-01-04 telcon discussion of proposal https://lists.w3.org/Archives/Public/www-style/2016Dec/0015.html) -t
-  * Meeting scheduling
-      * Next F2F announcement (skk)
-      * [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0061.html|summer meeting]] location/dates?
-      * Can we attempt 1 year-ish advance meeting planning (at least country/city and week) -t
-  * What can we take to CR in Q1 (and 2017 in total)? (continuing from CRs in 2016 discussion from TPAC) -t
-
   * CSS-UI: https://lists.w3.org/Archives/Public/www-style/2017Jan/0019.html (Florian)
-  * Publish new Working Draft of css-tables? (fremy)
-  * CSS Step Sizing (koji/fantasai)
-    * FPWD?
-    * Block height stepping idea.
-  * CSS Writing Modes PR (koji)
-  * Line Grid: Propose a simplification to line-grid lvl 1 https://github.com/w3c/csswg-drafts/issues/880 (Florian)
   * Logical Properties
     * getComputedStyle and logical properties https://github.com/w3c/csswg-drafts/issues/384 (dbaron)
