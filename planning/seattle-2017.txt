@@ -96,7 +96,9 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
     * [[https://github.com/w3c/csswg-drafts/issues/794|[css-sizing] Intrinsic size of replaced elements incorrect]]
   * [[https://www.w3.org/blog/2016/11/efficient-representation-for-web-formats/|EXI4CSS]] - our feedback to the EXI WG
   * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0103.html|CSS Fetch integration]] (dbaron)
-  * [[https://github.com/w3c/csswg-drafts/issues/757|relative URL resolution in var() references]] (fremy)
+  * CSS Variables
+    * [[https://github.com/w3c/csswg-drafts/issues/757|relative URL resolution in var() references]] (fremy)
+    * [[https://github.com/w3c/csswg-drafts/issues/881|Whitespaces in serialization of custom property value]] (jet)
   * Fonts
     * Font Color Palettes (myles)
     * moving [[https://tabatkins.github.io/specs/css-font-display/|css-font-display]] into the WG (dbaron)
