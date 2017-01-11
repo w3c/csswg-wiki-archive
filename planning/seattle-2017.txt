@@ -117,6 +117,7 @@ Inline:
     * Colorspaces and blending - when we can dictate working color space, what are impl plans to actually support blending in those spaces? (tab)
     * Computed and used values for <color> values: https://github.com/w3c/csswg-drafts/pull/871 (Florian)
     * Animating to/from currentColor https://github.com/w3c/csswg-drafts/issues/873 (Florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/294|Specification for DCI P3]]
   * CSS-UI: https://lists.w3.org/Archives/Public/www-style/2017Jan/0019.html (Florian)
   * Publish new Working Draft of css-tables? (fremy)
   * CSS Step Sizing (koji/fantasai)
