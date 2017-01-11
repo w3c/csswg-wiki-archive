@@ -25,7 +25,6 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 | Andrey Rybka | 10 Jan | 13 Jan| Hyatt Place Downtown | UA 1792 / 5355 |
 | Bert Bos | 9 Jan 11:25 | 14 Jan 12:58 | Hyatt Place Seattle Downtown | DL143 / AF3653 |
 | Brad Werth | TBD | TBD | TBD | observer from Mozilla |
-| Brian Birtles | TBD | TBD | TBD | TBD |
 | Dave Cramer | 10 Jan | 15 Jan | Hyatt | UA1641 / UA419 |
 | fantasai | 7 Jan | 13 Jan | AirBnB | AS via EWR |
 | Florian Rivoal | 10 Jan | 14 Jan | Airbnb | KE728+KE019 / KE020+KE271 |
@@ -51,7 +50,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 | Tab Atkins | tbd | tbd | Airbnb | tbd |
 | Tantek Çelik | 2017-01-10 | 2017-01-14 | La Quinta Inn & Suites Seattle Downtown | UA 5727 / UA 294 |
 
-Regrets: glazou, Jihye Hong
+Regrets: glazou, Jihye Hong, Brian Birtles
 ==== Topics ====
 GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|Agenda ftf Label]] should be incorporated below
 
