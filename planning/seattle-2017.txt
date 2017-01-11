@@ -53,9 +53,43 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 
 Regrets: glazou, Jihye Hong
 ==== Topics ====
-From GitHub issues: https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F
+GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|Agenda ftf Label]] should be incorporated below
 
-Inline:
+=== Monday ===
+
+== Morning Track FX ==
+  * [[http://drafts.csswg.org/css-transforms-1/issues-wd-2013|Transforms Level 1: All Open Issues]]
+    * [[https://github.com/w3c/csswg-drafts/issues/856|[css-transforms] Individual transform "scale" has interop issue]]
+  * Geometry Interfaces (smfr)
+  * mask-repeat-x/y [[https://github.com/w3c/fxtf-drafts/issues/99]] (jet)
+  * ''<position>''
+      * either adding to specs or removing from implementations [[https://github.com/w3c/csswg-drafts/issues/116|background-repeat-x/y]] and [[https://github.com/w3c/fxtf-drafts/issues/99|mask-repeat-x/y]] (dbaron)
+      * should we introduce a variant of ''<position>'' without 3-value syntax for ''tranform-origin'' etc.?
+  * css-color:
+    * Colorspaces and blending - when we can dictate working color space, what are impl plans to actually support blending in those spaces? (tab)
+    * Computed and used values for <color> values: https://github.com/w3c/csswg-drafts/pull/871 (Florian)
+    * Animating to/from currentColor https://github.com/w3c/csswg-drafts/issues/873 (Florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/294|Specification for DCI P3]]
+
+== Morning Track Text ==
+  * [[https://drafts.csswg.org/css-text-decor-3/issues-cr-2013|CSS Text Decoration L3: All Open Issues]]
+    * Level 4?
+      * [[https://github.com/w3c/csswg-drafts/issues/843|[css-text-decor] selective toggling in the text-decoration-skip property]]
+      * [[https://github.com/w3c/csswg-drafts/issues/459|[css-text-decor] Text underlines' positions cannot be fine-tuned]]
+      * [[https://github.com/w3c/csswg-drafts/issues/239|[css-text-decor] No way to set the underline width/thickness]]
+  * [[https://github.com/w3c/csswg-drafts/issues/869|[css-text] Should 'hyphens: auto' work if lang="" is not declared?]]
+  * CSS Inline open issues (dauwhe)
+      * [[https://github.com/w3c/csswg-drafts/issues/743|initial-letter in-flow or out-of-flow (preferred)?]] (jet)
+      * [[https://github.com/w3c/csswg-drafts/issues/719|how to make block with initial letter taller]] (dauwhe)
+      * [[https://github.com/w3c/csswg-drafts/issues/688| initial-letter and float on same element ]] (dauwhe)
+      * [[https://github.com/w3c/csswg-drafts/issues/360| relationship of initial-letter and float ]] (dauwhe)
+      * [[https://github.com/w3c/csswg-drafts/issues/689| initial-letter line shortened when floats present ]] (dauwhe)
+
+=== Tuesday ===
+
+=== Wednesday ===
+
+=== Unslotted ===
   * Sizing
     * [[https://github.com/w3c/csswg-drafts/issues/509|Intrinsic Sizes inside Percentage Containers]]
     * CSS Sizing Level 3: remaining issues + CR?
@@ -69,12 +103,7 @@ Inline:
   * Grid
     * [[https://github.com/w3c/csswg-drafts/issues/283|Implied Minimum Size of Grid Items]]
     * [[https://github.com/w3c/csswg-drafts/issues/509|Percentages and intrinsic size]]
-  * CSS Inline open issues (dauwhe)
-      * [[https://github.com/w3c/csswg-drafts/issues/743|initial-letter in-flow or out-of-flow (preferred)?]] (jet)
-      * [[https://github.com/w3c/csswg-drafts/issues/719|how to make block with initial letter taller]] (dauwhe)
-      * [[https://github.com/w3c/csswg-drafts/issues/688| initial-letter and float on same element ]] (dauwhe)
-      * [[https://github.com/w3c/csswg-drafts/issues/360| relationship of initial-letter and float ]] (dauwhe)
-      * [[https://github.com/w3c/csswg-drafts/issues/689| initial-letter line shortened when floats present ]] (dauwhe)
+
   * CSS Generated and Replaced Content
       * [[https://github.com/w3c/csswg-drafts/issues/308|content: <image> insufficiently defined]] (dbaron)
       * [[https://github.com/w3c/csswg-drafts/issues/821|content: <url> insufficiently defined]] (dbaron)
@@ -82,15 +111,6 @@ Inline:
       * [[https://github.com/w3c/csswg-drafts/issues/769|scroll-boundary-behavior]]
       * [[https://github.com/w3c/csswg-drafts/issues/92|overflow: Consider reserving space for scrollbars with some property ]](added on 21 Dec Telecon)
       * [[https://github.com/w3c/csswg-drafts/issues/769|New feature - scroll-boundary-behavior (an extension of -ms-scroll-chaining)]](added on 21 Dec Telecon)
-  * ''<position>''
-      * either adding to specs or removing from implementations [[https://github.com/w3c/csswg-drafts/issues/116|background-repeat-x/y]] and [[https://github.com/w3c/fxtf-drafts/issues/99|mask-repeat-x/y]] (dbaron)
-      * should we introduce a variant of ''<position>'' without 3-value syntax for ''tranform-origin'' etc.?
-  * [[https://drafts.csswg.org/css-text-decor-3/issues-cr-2013|CSS Text Decoration L3: All Open Issues]]
-    * Level 4?
-      * [[https://github.com/w3c/csswg-drafts/issues/843|[css-text-decor] selective toggling in the text-decoration-skip property]]
-      * [[https://github.com/w3c/csswg-drafts/issues/459|[css-text-decor] Text underlines' positions cannot be fine-tuned]]
-      * [[https://github.com/w3c/csswg-drafts/issues/239|[css-text-decor] No way to set the underline width/thickness]]
-  * [[https://github.com/w3c/csswg-drafts/issues/869|[css-text] Should 'hyphens: auto' work if lang="" is not declared?]]
   * CSS Display L3
     * [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0332.html|Is root out-of-flow?]]
     * [[https://lists.w3.org/Archives/Public/www-style/2015Jul/0372.html|flow vs flow-root for table-cell/table-caption]]
@@ -112,11 +132,6 @@ Inline:
       * Can we attempt 1 year-ish advance meeting planning (at least country/city and week) -t
   * What can we take to CR in Q1 (and 2017 in total)? (continuing from CRs in 2016 discussion from TPAC) -t
 
-  * css-color:
-    * Colorspaces and blending - when we can dictate working color space, what are impl plans to actually support blending in those spaces? (tab)
-    * Computed and used values for <color> values: https://github.com/w3c/csswg-drafts/pull/871 (Florian)
-    * Animating to/from currentColor https://github.com/w3c/csswg-drafts/issues/873 (Florian)
-    * [[https://github.com/w3c/csswg-drafts/issues/294|Specification for DCI P3]]
   * CSS-UI: https://lists.w3.org/Archives/Public/www-style/2017Jan/0019.html (Florian)
   * Publish new Working Draft of css-tables? (fremy)
   * CSS Step Sizing (koji/fantasai)
@@ -124,9 +139,3 @@ Inline:
     * Block height stepping idea.
   * CSS Writing Modes PR (koji)
   * Line Grid: Propose a simplification to line-grid lvl 1 https://github.com/w3c/csswg-drafts/issues/880 (Florian)
-
-=== FXTF Topics ===
-  * Geometry Interfaces (smfr)
-  * mask-repeat-x/y [[https://github.com/w3c/fxtf-drafts/issues/99]] (jet)
-  * [[http://drafts.csswg.org/css-transforms-1/issues-wd-2013|Transforms Level 1: All Open Issues]]
-    * [[https://github.com/w3c/csswg-drafts/issues/856|[css-transforms] Individual transform "scale" has interop issue]]
