@@ -121,3 +121,4 @@ Inline:
   * Geometry Interfaces (smfr)
   * mask-repeat-x/y [[https://github.com/w3c/fxtf-drafts/issues/99]] (jet)
   * [[http://drafts.csswg.org/css-transforms-1/issues-wd-2013|Transforms Level 1: All Open Issues]]
+    * [[https://github.com/w3c/csswg-drafts/issues/856|[css-transforms] Individual transform "scale" has interop issue]]
