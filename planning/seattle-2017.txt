@@ -109,6 +109,9 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
   * Line Grid: Propose a simplification to line-grid lvl 1 https://github.com/w3c/csswg-drafts/issues/880 (Florian)
 
 == Afternoon ==
+  * Fonts
+    * Font Color Palettes (myles)
+    * moving [[https://tabatkins.github.io/specs/css-font-display/|css-font-display]] into the WG (dbaron)
   * Meeting scheduling
       * Next F2F announcement (skk)
       * [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0061.html|summer meeting]] location/dates?
@@ -132,9 +135,6 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
     * [[https://github.com/w3c/csswg-drafts/issues/509|Intrinsic Sizes inside Percentage Containers]]
     * CSS Sizing Level 3: remaining issues + CR?
     * [[https://github.com/w3c/csswg-drafts/issues/794|[css-sizing] Intrinsic size of replaced elements incorrect]]
-  * Fonts
-    * Font Color Palettes (myles)
-    * moving [[https://tabatkins.github.io/specs/css-font-display/|css-font-display]] into the WG (dbaron)
   * CSS Display L3
     * [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0332.html|Is root out-of-flow?]]
     * [[https://lists.w3.org/Archives/Public/www-style/2015Jul/0372.html|flow vs flow-root for table-cell/table-caption]]
