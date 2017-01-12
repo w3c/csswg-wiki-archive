@@ -92,10 +92,9 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
       * should we introduce a variant of ''<position>'' without 3-value syntax for ''tranform-origin'' etc.?
   * CSS Writing Modes PR (koji)
   * Publish new Working Draft of css-tables? (fremy)
-  * Sizing
-    * [[https://github.com/w3c/csswg-drafts/issues/509|Intrinsic Sizes inside Percentage Containers]]
-    * CSS Sizing Level 3: remaining issues + CR?
-    * [[https://github.com/w3c/csswg-drafts/issues/794|[css-sizing] Intrinsic size of replaced elements incorrect]]
+  * [[https://drafts.csswg.org/css-values-4/#changes|CSS Values and Units L4]]
+    * Any other units people interested in adding?
+    * Publish FPWD?
 
 === Thursday ===
 
@@ -122,22 +121,20 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
     * Get an actual resolution to do the merge this month!
 
 === Friday ===
-
-=== Unslotted ===
-  * Fonts
-    * Font Color Palettes (myles)
-    * moving [[https://tabatkins.github.io/specs/css-font-display/|css-font-display]] into the WG (dbaron)
   * Grid
     * [[https://github.com/w3c/csswg-drafts/issues/283|Implied Minimum Size of Grid Items]]
     * [[https://github.com/w3c/csswg-drafts/issues/509|Percentages and intrinsic size]]
-
-  * CSS Generated and Replaced Content
-      * [[https://github.com/w3c/csswg-drafts/issues/308|content: <image> insufficiently defined]] (dbaron)
-      * [[https://github.com/w3c/csswg-drafts/issues/821|content: <url> insufficiently defined]] (dbaron)
   * Scrolling
       * [[https://github.com/w3c/csswg-drafts/issues/769|scroll-boundary-behavior]]
       * [[https://github.com/w3c/csswg-drafts/issues/92|overflow: Consider reserving space for scrollbars with some property ]](added on 21 Dec Telecon)
       * [[https://github.com/w3c/csswg-drafts/issues/769|New feature - scroll-boundary-behavior (an extension of -ms-scroll-chaining)]](added on 21 Dec Telecon)
+  * Sizing
+    * [[https://github.com/w3c/csswg-drafts/issues/509|Intrinsic Sizes inside Percentage Containers]]
+    * CSS Sizing Level 3: remaining issues + CR?
+    * [[https://github.com/w3c/csswg-drafts/issues/794|[css-sizing] Intrinsic size of replaced elements incorrect]]
+  * Fonts
+    * Font Color Palettes (myles)
+    * moving [[https://tabatkins.github.io/specs/css-font-display/|css-font-display]] into the WG (dbaron)
   * CSS Display L3
     * [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0332.html|Is root out-of-flow?]]
     * [[https://lists.w3.org/Archives/Public/www-style/2015Jul/0372.html|flow vs flow-root for table-cell/table-caption]]
@@ -147,9 +144,11 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
     * [[https://github.com/w3c/csswg-drafts/issues/650|run-in vs ::first-letter]]
     * [[https://lists.w3.org/Archives/Public/www-style/2012Aug/0257.html|run-ins & interleaved abspos]]
     * Cut for [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0115.html|immediate release]]? Proposed to defer `display-or-not`, release with `run-in` at-risk.
-  * [[https://drafts.csswg.org/css-values-4/#changes|CSS Values and Units L4]]
-    * Any other units people interested in adding?
-    * Publish FPWD?
+  * CSS Generated and Replaced Content
+      * [[https://github.com/w3c/csswg-drafts/issues/308|content: <image> insufficiently defined]] (dbaron)
+      * [[https://github.com/w3c/csswg-drafts/issues/821|content: <url> insufficiently defined]] (dbaron)
   * CSS-UI: https://lists.w3.org/Archives/Public/www-style/2017Jan/0019.html (Florian)
   * Logical Properties
     * getComputedStyle and logical properties https://github.com/w3c/csswg-drafts/issues/384 (dbaron)
+
+=== Unslotted ===
