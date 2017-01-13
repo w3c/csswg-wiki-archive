@@ -127,7 +127,6 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
     * [[https://github.com/w3c/csswg-drafts/issues/283|Implied Minimum Size of Grid Items]]
     * [[https://github.com/w3c/csswg-drafts/issues/509|Percentages and intrinsic size]]
   * Scrolling
-      * [[https://github.com/w3c/csswg-drafts/issues/769|scroll-boundary-behavior]]
       * [[https://github.com/w3c/csswg-drafts/issues/92|overflow: Consider reserving space for scrollbars with some property ]](added on 21 Dec Telecon)
       * [[https://github.com/w3c/csswg-drafts/issues/769|New feature - scroll-boundary-behavior (an extension of -ms-scroll-chaining)]](added on 21 Dec Telecon)
   * Sizing
