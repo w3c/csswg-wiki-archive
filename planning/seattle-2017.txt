@@ -118,10 +118,9 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
       * Can we attempt 1 year-ish advance meeting planning (at least country/city and week) -t
   * CSS2 maintenance process (continuing from 2017-01-04 telcon discussion of proposal https://lists.w3.org/Archives/Public/www-style/2016Dec/0015.html) -t
   * What can we take to CR in Q1 (and 2017 in total)? (continuing from CRs in 2016 discussion from TPAC) -t
-  * [[https://www.w3.org/blog/2016/11/efficient-representation-for-web-formats/|EXI4CSS]] - our feedback to the EXI WG
-  * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0103.html|CSS Fetch integration]] (dbaron)
   * csswg-test/web-platform-tests merge
     * Get an actual resolution to do the merge this month!
+  * CSS-UI: https://lists.w3.org/Archives/Public/www-style/2017Jan/0019.html (Florian)
 
 === Friday ===
   * Grid
@@ -147,7 +146,8 @@ GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|
   * CSS Generated and Replaced Content
       * [[https://github.com/w3c/csswg-drafts/issues/308|content: <image> insufficiently defined]] (dbaron)
       * [[https://github.com/w3c/csswg-drafts/issues/821|content: <url> insufficiently defined]] (dbaron)
-  * CSS-UI: https://lists.w3.org/Archives/Public/www-style/2017Jan/0019.html (Florian)
+  * [[https://www.w3.org/blog/2016/11/efficient-representation-for-web-formats/|EXI4CSS]] - our feedback to the EXI WG
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0103.html|CSS Fetch integration]] (dbaron)
   * Logical Properties
     * getComputedStyle and logical properties https://github.com/w3c/csswg-drafts/issues/384 (dbaron)
 
