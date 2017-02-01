@@ -20,7 +20,7 @@ One option is to always take the REC back to WD, even for changes that should al
 
 Another option is to keep the changes in an ED until they're ready for CR. This fails the goal of having changes reviewed on TR. 
 
-Both of the options above also has some churn when we have some changes but not all ready to graduate to CR - we have to prepare a draft with only those changes ready for CR, move them through the process, then reintroduce the rest of the changes to a new ED/WD.
+Both of the options above also have some churn when we have some changes but not all ready to graduate to CR - we have to prepare a draft with only those changes ready for CR, move them through the process, then reintroduce the rest of the changes to a new ED/WD.
 
 ==== Proposal ====
 
