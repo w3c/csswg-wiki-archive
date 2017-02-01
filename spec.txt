@@ -14,6 +14,7 @@ Looking for a [[https://www.w3.org/Bugs/Public/describecomponents.cgi?product=CS
   * [[spec:process|Process suggestions for advancing a spec]] --- guidelines for when to advance your spec to the next stage
   * [[spec:teststatus|Test status information on spec]] --- adding information about testing status on the spec
   * [[spec:levels|Specification levels]] -- which levels to publish each spec as
+  * [[spec:REC-maintenance|Maintaining RECs]] -- proposed process for adding substantive changes to RECs
 
 ====== Coordination between specifications ======
 
