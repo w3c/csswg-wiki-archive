@@ -11,10 +11,10 @@
 ==== Minutes ====
    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0048.html|2017-01-11 Part I: FX Breakout -  Transforms, Whitespace in a custom property in a variable reference, Geometry Interfaces]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0049.html|2017-01-11 Part II: Text Breakout -  Hyphenation, Text Decoration]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0050.html|2017-01-11 Part III: Text Breakout -  Inline Layout &amp; Initial Letter]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0050.html|2017-01-11 Part III: Text Breakout -  Inline Layout & Initial Letter]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0051.html|2017-01-11 Part IV: CSS Color]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0052.html|2017-01-11 Part V: Backgrounds]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0053.html|2017-01-11 Part VI: Writings Modes, CSS  Tables, Values &amp; Units 4]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0053.html|2017-01-11 Part VI: Writings Modes, CSS  Tables, Values & Units 4]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0054.html|2017-01-12 Part I: FX Breakout -  Transforms [css-transforms]]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0055.html|2017-01-12 Part II: Text Breakout - Text  Decoration, Step-Sizing/Rhythm [css-text-decoration] [css-rhythm]]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0056.html|2017-01-12 Part III: Text Breakout - Line  Grid, Block Step Sizing [css-line-grid] [css-rhythm]]]
@@ -23,7 +23,7 @@
    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0061.html|2017-01-13 Part I: Grid [css-grid]]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0059.html|2017-01-13 Part II: Scrolling, Sizing  [css-overflow] [css-sizing]]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0062.html|2017-01-13 Part III: Fetch and CSS  Interactions, EXI for CSS, Display Module [css-inline]]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0060.html|2017-01-13 Part IV: Logical Properties,  &lt;url&gt; in content, SVG Integration, CSS 2.1, Snapshot [css-logical-props]  [css-content] [CSS21] [CSS-2017]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0060.html|2017-01-13 Part IV: Logical Properties, <url> in content, SVG Integration, CSS 2.1, Snapshot [css-logical-props]  [css-content] [CSS21] [CSS-2017]]]
 
 ==== Adjacent meetings ====
   * 2017-01-10 [[https://github.com/w3c/css-houdini-drafts/wiki/Seattle-F2F-Jan-10-2017| Houdini in Seattle]]
