@@ -183,7 +183,7 @@ It was last updated on 4 January 2017 and tracks backwards through about August 
 
   ; Geometry
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
-  
+
   ; Grid
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jan/0005.html|Resolved: Accept the proposal explained here: https://github.com/w3c/csswg-drafts/issues/523#issuecomment-268095890]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html|Resolved: Accept proposal from TabAtkins and fantasai in issue 767]]
