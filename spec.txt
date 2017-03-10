@@ -1,7 +1,7 @@
 ====== Specification Issues and Planning ======
 This section documents problems found in the CSS specs and working drafts. Problems documented here will be addressed by the editors, possibly after discussion in a CSS Working Group meeting, and will result in changes, corrections, clarifications, or no change.
 
-Looking for a [[https://www.w3.org/Bugs/Public/describecomponents.cgi?product=CSS|Link to Bugzilla]] or [[http://w3.org/Style/CSS/Tracker/|Tracker]]?
+The group uses github for issue tracking, in [[https://github.com/w3c/csswg-drafts/|csswg-drafts]], [[https://github.com/w3c/fxtf-drafts/|fxtf-drafts]], [[https://github.com/w3c/css-houdini-drafts/|css-houdini-drafts]], but some old issues are stored in [[https://www.w3.org/Bugs/Public/describecomponents.cgi?product=CSS|Bugzilla]] or [[http://w3.org/Style/CSS/Tracker/|Tracker]].
 
 ====== Specification Editing ======
 
