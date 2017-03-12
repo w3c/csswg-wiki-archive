@@ -6,6 +6,19 @@
    * Times: 08:30 doors open, 09:00 meeting start, 18:00 meeting end (each day)
    * Location: [[https://www.google.com/maps/place/Google+San+Francisco/@37.7899358,-122.3923733,17z/data=!3m2!4b1!5s0x808580700892716d:0xd104ce6ddb61b683!4m2!3m1!1s0x8085807aa599c429:0xf5a373d09072e1ac | Map]]
 
+==== Meeting Minutes ====
+  * [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|Monday, 9 May Part I: Flexbox, Box Alignment, Grid]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html|Monday, 9 May Part II: Counters, Values & Units]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016May/0210.html|Monday, 9 May Part III: Media Queries, Sizing, Flexbox, CSS Containment]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016May/0211.html|Monday, 9 May Part IV: CSS Content, Testing]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016May/0233.html|Tuesday, 10 May Part I: Scheduling, Round Display]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016May/0234.html|Tuesday, 10 May Part II: CSS tables status update, CSS 4 UI, Page Media Query, Generated Content Spec]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016May/0235.html|Tuesday, 10 May Part III: Report on vertical writing award website, Testing, Sizing]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0018.html|Wednesday, 11 May Part I: Step-Sizing, CSSOM View]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html|Wednesday, 11 May Part II: CSS Text 3 & 4, Logical properties and margins in vertical text]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Wednesday, 11 May Part III: Scroll Snapping]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Wednesday, 11 May Part IV: CSS Color, Grid, Flexbox, Inline]]
+
 ==== Adjacent meetings ====
   * 2016-05-12..13 [[https://github.com/w3c/css-houdini-drafts/wiki/San-Francisco-F2F-May-12-13-2016| Houdini in San Francisco]]
 
