@@ -34,6 +34,10 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
                 * Tuesday, 10 May: [[https://lists.w3.org/Archives/Public/www-style/2016May/0233.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016May/0234.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016May/0235.html|Part III]]
                 * Wednesday, 11 May: [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0018.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Part IV]]
     * 2016-02-01..03 [[planning:sydney-2016]] Google Sydney (with Houdini 2016-01-30..31)
+        * Minutes:
+            * Wednesday, 1 Feb: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0205.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0206.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0208.html|Part IV]]
+            * Thursday, 2 Feb: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0350.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0351.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0353.html|Part IV]]
+            * Friday, 3 Feb: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0357.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Part IV]]
 
 ==== 2015 ====
  [[planning:2015]]
