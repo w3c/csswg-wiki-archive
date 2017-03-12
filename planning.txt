@@ -25,9 +25,9 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 
 ==== 2016 ====
     * 2016-09-19..20 [[planning:tpac-2016]] - Lisbon, Portugal
-        * Minutes
-                * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0069.html|Monday Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0070.html|Monday Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0071.html|Monday Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0072.html|Monday Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0073.html|Monday Part V]]
-                * [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0074.html|Tuesday Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0075.html|Tuesday Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0076.html|Tuesday Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0077.html|Tuesday Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0078.html|Tuesday Part V]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0079.html|Tuesday Part VI]]
+        * Minutes:
+                * Monday, 19 September: [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0069.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0070.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0071.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0072.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0073.html|Part V]]
+                * Tuesday, 20 September: [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0074.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0075.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0076.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0077.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0078.html|Part V]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0079.html|Part VI]]
     * 2016-05-09..11 Google [[planning:san-francisco-2016]] (with Houdini 2016-05-12..13)
     * 2016-02-01..03 [[planning:sydney-2016]] Google Sydney (with Houdini 2016-01-30..31)
 
