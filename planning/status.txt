@@ -150,8 +150,11 @@ It was last updated on 4 January 2017 and tracks backwards through about August 
   : [[https://www.w3.org/Style/CSS/Tracker/actions/738|Review status of device adaptation]]
 
   ; Display 3
+  : Resolve handling of `<object>`
+  : Publish as CR
+
+  ; Display 4
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html|Make display into a short hand and add an issue on naming for the long hands.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0055.html|Resolved: In Display Module, define br { display-box: contents; content: '\A'; white-space: pre; } to work. (This should result in change to handling of display: none, and change to HTML spec once published.)]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/613|Clarify how omitted values are handled for display shorthand (and other shorthands he might've forgotten to handle.]]
 
   ; Exclusions
@@ -162,10 +165,7 @@ It was last updated on 4 January 2017 and tracks backwards through about August 
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Tav presented a new filter primitive he'd like added to level 2; dino agreed it was interesting and will look into adding it to the spec.]]
 
   ; Flexbox
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html|Resolved: Accept option A2 (Make boxes without a natural baseline and boxes establishing an orthogonal flow synthesize a baseline. Base this synthesized baseline on some other box edge.) with the modification that we're talking about the border box.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0053.html|Resolved: Remove baseline from the block-axis as a way to align]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Resolved: Publish a new CR flexbox.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|RESOLVED: Issue 1 the text for a11y is accepted.]]
+  : Republish CR with latest changes
 
   ; Fonts 4
   : [[https://www.w3.org/blog/CSS/2014/07/03/minutes-telecon-218/|Resolved: Add min and max font-size properties. Define whether these properties affect the computed font size.]]
@@ -185,9 +185,8 @@ It was last updated on 4 January 2017 and tracks backwards through about August 
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
 
   ; Grid
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jan/0005.html|Resolved: Accept the proposal explained here: https://github.com/w3c/csswg-drafts/issues/523#issuecomment-268095890]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html|Resolved: Accept proposal from TabAtkins and fantasai in issue 767]]
- 
+  : Finish off agenda items and republish CR with latest changes
+
   ; Images 3
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
   : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Allow nearest neighbor for image rendering in both directions but allow browsers to do prettier in the down directions.]]
