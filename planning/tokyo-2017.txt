@@ -29,26 +29,26 @@ TBD
 
 Please, put your name in this table if you plan to participate (alphabetical order):
 
-^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
-| Alan Stearns | 16 Apr | 27 Apr | AirBnB | Delta 167/166 |
-| Brian Birtles | N/A | N/A | HOME | N/A |
-| Chris Lilley | TBD | TBD | TBD | |
-| Emil A Eklund | TBD | 27 Apr | Westin Tokyo | TBD / JL 2 to SFO |
-| fantasai | 14 Apr | 22 Apr | TBD | |
-| L. David Baron | Apr 15, 20:50 | Apr 22, 17:20 | Villa Fontaine - Tamachi | ANA 854 from TSA / ANA 963 to PEK |
-| Hiroshi Sakakibara | N/A | N/A | HOME | N/A |
-| Koji Ishii | N/A | N/A | HOME | N/A |
-| Florian Rivoal | TBD | TBD | TBD | |
-| Myles C. Maxfield | TBD | TBD | TBD | |
-| Peter Linss | TBD | TBD | TBD | |
-| Rachel Andrew | 2017-04-18 | 2017-04-24 | TBD | AY0832 and JL0414 inbound, JL0421 and BA0234 out. |
-| Rick Byers | 16 Apr | 22 Apr | Westin | AA 175 / AA 8405
-| Rob Flack | 16 Apr | 22 Apr | Westin | AA 175 / AA 8405
-| Rossen Atanassov | TBD | TBD | TBD | |
-| Shane Stephens | 18 Apr | 28 Apr | Ritz Carlton | QF 25 / QF 26 |
-| Simon Sapin | TBD | TBD | TBD | |
-| Jet Villegas | TBD | TBD | TBD | |
-| Vladimir Levantovsky | 2017-04-17 | 2017-04-22 | TBD | NH880 into Haneda from Sydney, UA882 out of Narita |
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^ Dietary Restricions ^
+| Alan Stearns | 16 Apr | 27 Apr | AirBnB | Delta 167/166 | |
+| Brian Birtles | N/A | N/A | HOME | N/A | |
+| Chris Lilley | TBD | TBD | TBD | | |
+| Emil A Eklund | TBD | 27 Apr | Westin Tokyo | TBD / JL 2 to SFO | |
+| fantasai | 14 Apr | 22 Apr | TBD | | |
+| L. David Baron | Apr 15, 20:50 | Apr 22, 17:20 | Villa Fontaine - Tamachi | ANA 854 from TSA / ANA 963 to PEK | |
+| Hiroshi Sakakibara | N/A | N/A | HOME | N/A | |
+| Koji Ishii | N/A | N/A | HOME | N/A | |
+| Florian Rivoal | TBD | TBD | TBD | | |
+| Myles C. Maxfield | TBD | TBD | TBD | | |
+| Peter Linss | TBD | TBD | TBD | | |
+| Rachel Andrew | 2017-04-18 | 2017-04-24 | TBD | AY0832 and JL0414 inbound, JL0421 and BA0234 out. | |
+| Rick Byers | 16 Apr | 22 Apr | Westin | AA 175 / AA 8405 |
+| Rob Flack | 16 Apr | 22 Apr | Westin | AA 175 / AA 8405 |
+| Rossen Atanassov | TBD | TBD | TBD | | Pescatarian (vegetarian is good as well) |
+| Shane Stephens | 18 Apr | 28 Apr | Ritz Carlton | QF 25 / QF 26 | |
+| Simon Sapin | TBD | TBD | TBD | | |
+| Jet Villegas | TBD | TBD | TBD | | |
+| Vladimir Levantovsky | 2017-04-17 | 2017-04-22 | TBD | NH880 into Haneda from Sydney, UA882 out of Narita | |
 ==== Regrets ====
   * Dave Cramer
 ==== Topics ====
