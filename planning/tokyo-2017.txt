@@ -65,6 +65,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * Transforms 1 issues (breakout session)
   * Conditional Rules - resolve discrepancies with CSSOM 
   * SVG and CSS boxes and all of their relations
+  * UA-defined variables - smfr/dino
 
 === Wednesday === 
 == Morning ==
