@@ -168,6 +168,7 @@ It was last updated on 5 April 2017 and tracks backwards through about August 20
   : Republish CR with latest changes
 
   ; Fonts 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Action Myles to respond to the dwrite issue and ChrisL's asks for font edits. <trackbot> Created ACTION-838]]
   : [[https://www.w3.org/blog/CSS/2014/07/03/minutes-telecon-218/|Resolved: Add min and max font-size properties. Define whether these properties affect the computed font size.]]
 
   ; Font Loading
@@ -185,9 +186,11 @@ It was last updated on 5 April 2017 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
 
   ; Grid
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|No change on issue 1137]]
   : Finish off agenda items and republish CR with latest changes
 
   ; Images 3
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Resolved: Move everything with no impl to next level and mark everything with 1 impl as at risk.]]
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
   : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Allow nearest neighbor for image rendering in both directions but allow browsers to do prettier in the down directions.]]
   : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Include image rendering in Images 3.]]
@@ -291,6 +294,7 @@ It was last updated on 5 April 2017 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Resolved: Update motion draft on TR]]
 
   ; Multicol 1
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Have column-span elements create a bfc even if not in a multi-col container.]]
   : [[https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/|Resolved: Drop break-before and break-after from Multicol and reference fragmentation definitions and republish as CR/]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0031.html|Resolved: Accept the new text for grid and multi-col changing the floor to a required amount. The new text is: “For the purpose of finding the number of auto-repeated tracks, the UA must floor the track size to a UA-specified value to avoid division by zero. It is suggested that this floor be ”1px” or less.”]]
   : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/|ACTION: TabAtkins talk with WebApps about a reordering API<trackbot> Created ACTION-692.]]
@@ -507,6 +511,7 @@ https://github.com/w3c/csswg-drafts/issues/511 Created ACTION-807]]
 
 
   ; Values and Units 3
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Action smfr look at <position> edits <trackbot> Created ACTION-839]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html|Resolved: Accept pull request from issue 713: https://github.com/w3c/csswg-drafts/pull/713]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Defer the calc for table layout issue to V&U 4]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Publish updated V&U 3 CR]]
