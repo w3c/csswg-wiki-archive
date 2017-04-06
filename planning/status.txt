@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 4 January 2017 and tracks backwards through about August 2013 or so.
+It was last updated on 5 April 2017 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -288,6 +288,7 @@ It was last updated on 4 January 2017 and tracks backwards through about August 
 
   ; Motion
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html|Resolved: Rename offset-rotation to be offset-rotate]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Resolved: Update motion draft on TR]]
 
   ; Multicol 1
   : [[https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/|Resolved: Drop break-before and break-after from Multicol and reference fragmentation definitions and republish as CR/]]
