@@ -42,3 +42,4 @@ That should be corrected if anyone invents a time machine. :P
   * ''::placeholder'' should be ''::placeholder-text'' and '':placeholder-shown'' should be '':placeholder''
   * 'overflow: scroll' should introduce a stacking context
   * ''size'' should have been a shorthand for ''width'' and ''height'' instead of an @page property with a different definition
+  * We probably should have avoided mixing keywords (span) with idents in the [[https://github.com/w3c/csswg-drafts/issues/1137|grid properties]]
