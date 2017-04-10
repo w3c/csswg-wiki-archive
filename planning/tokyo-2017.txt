@@ -68,6 +68,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * UA-defined variables - smfr/dino
   * Box Alignment - resolve open issues, prep for CR? (approx 1hr)
   * CSS Display - finish dealing with form controls etc. and get this to CR
+  * FPWD for Fonts level 4
 
 === Wednesday === 
 == Morning ==
