@@ -26,6 +26,7 @@ That should be corrected if anyone invents a time machine. :P
   * descendant combinator should have been ''>>'' and indirect sibling combinator should have been ''++'', so there's some logical relationships among the selectors' ascii art
   * the ''*-blend-mode'' properties should've just been ''*-blend''
   * The syntax of unicode ranges should have consistent with the rest of CSS, like ''u0001-u00c8''.
+  * Unicode ranges should not have had a separate microsyntax with their own tokenization or token handling.  The tokenization hacks required either to make selectors (e.g., u+a) handle things that are unicode-range tokens, or make unicode-range handle the other huge range of tokens (numbers and dimensions with and without scientific notation, identifiers, +) are both horrible.
   * ''font-family'' should have required the font name to be quoted (like all other values that come from "outside" CSS).  The rules for handling unquoted font names make parsing ''font'' stupid, as it requires a ''font-size'' value for disambiguation.
   * Flexbox should have been less crazy about flex-basis vs width/height.  Perhaps: if width/height is ''auto'', use flex-basis; otherwise, stick with width/height as an inflexible size.  (This also makes min/max width/height behavior fall out of the generic definition.)
   * :empty should have been :void, and :empty should select items that contain only white space
@@ -43,3 +44,4 @@ That should be corrected if anyone invents a time machine. :P
   * 'overflow: scroll' should introduce a stacking context
   * ''size'' should have been a shorthand for ''width'' and ''height'' instead of an @page property with a different definition
   * We probably should have avoided mixing keywords (span) with idents in the [[https://github.com/w3c/csswg-drafts/issues/1137|grid properties]]
+  * comments shouldn't have been allowed basically everywhere in CSS (compare to HTML, which basically only allows them where content goes), because it makes them basically unrepresentable in the object model, which in turn makes building editing directly on top of the object model impossible
