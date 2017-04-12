@@ -74,6 +74,10 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * CSS Display - finish dealing with form controls etc. and get this to CR
   * FPWD for Fonts level 4
   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0028.html|[css-fonts] font-language-override property and descriptor]]
+  * Motion path issues - particularly 51, 69, 73, 78 - shans
+  * Scroll Linked Animations - could we review the current status of the spec? (shans but birtles should do the review)
+  * Focus of custom textbox-like elements - shans
+  * 
 
 === Wednesday === 
 == Morning ==
