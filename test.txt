@@ -1,8 +1,8 @@
 ====== Testing ======
 
-Our conformance test suites: how to run them, known bugs, and how to contribute. The tests are maintained in our [[http://test.csswg.org/|test.csswg.org]] [[http://mercurial.selenic.com//|Mercurial]] repository at [[http://hg.csswg.org/test]].
+Our conformance test suites: how to run them, known bugs, and how to contribute. The tests are maintained in the [[https://github.com/w3c/web-platform-tests|web-platform-tests]] [[https://git-scm.com/|Git]] repository, mostly in the ''css'' subdirectory.
 
-Test suite discussion takes place on the [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite mailing list]]. The [[tools:irc|#css-test channel]] on irc.w3.org:6665 is also available for discussion.
+Test suite and test case discussion takes place primarily in [[https://github.com/w3c/web-platform-tests/issues|GitHub issues]], with policy matters occasionally discussed on the [[http://lists.w3.org/Archives/Public/public-test-infra/|public-test-infra mailing list]]. The [[tools:irc|#testing channel]] on irc.w3.org:6665 is also available for discussion, and is recommended for anything where a quick response is desirable. The [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite mailing list]] exists for CSS-specific discussion, excluding any policy matters around the repository, primarily tooling maintained by the CSS WG (i.e., the CSS testsuites' build system and the CSS test harness).
 
 ===== Contributing =====
 
