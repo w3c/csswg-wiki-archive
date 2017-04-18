@@ -88,19 +88,29 @@ Please, put your name in this table if you plan to participate (alphabetical ord
     * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0028.html|[css-fonts] font-language-override property and descriptor]]
   * Conditional Rules - resolve discrepancies with CSSOM 
   * UA-defined variables - smfr/dino
+  * [[https://github.com/w3c/csswg-drafts/issues/1219|CanIUse panels in specs]]
 
 == Afternoon ==
   * Track 1
     * Transforms 1 issues (breakout session)
   * Track 2
-    * SVG and CSS boxes and all of their relations
-    * Box Alignment - resolve open issues, prep for CR? (approx 1hr)
-    * CSS Display - finish dealing with form controls etc. and get this to CR
+    * Rhythm issues
+      * https://github.com/w3c/csswg-drafts/issues/940
+      * https://github.com/w3c/csswg-drafts/issues/938
+    * Page floats (Florian):
+      * https://github.com/w3c/csswg-drafts/issues/1233
+      * https://github.com/w3c/csswg-drafts/issues/1234
+      * https://github.com/w3c/csswg-drafts/issues/1235
 
 === Thursday ===
 == Morning ==
   * CSS Writing Modes Level 3 [[https://drafts.csswg.org/css-writing-modes-3/implementation-report.html|implementation report]], [[https://drafts.csswg.org/css-writing-modes-3/issues-cr-2015|DoC update]], and the last open issue:
     * [[https://github.com/w3c/csswg-drafts/issues/1212|Criteria to blockify the writing mode roots]]
+  * Choose a spec to [[https://github.com/w3c/csswg-drafts/issues/1088|Define which subresources block the DOM load event]]
+  * [[https://github.com/w3c/csswg-drafts/issues/766|Last Baseline Alignment of Scrollable Boxes]]
+  * SVG and CSS boxes and all of their relations
+  * CSS Display - finish dealing with form controls etc. and get this to CR
+
 == Afternoon ==
   * JP Industry Meetup 2nd  
 
@@ -114,7 +124,5 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * Scroll Linked Animations - could we review the current status of the spec? (shans but birtles should do the review)
   * Focus of custom textbox-like elements - shans
   * [[https://github.com/w3c/csswg-drafts/issues/1217|Consider USVString instead of DOMString in CSSOM, replacing surrogates with U+FFFD]]
-  * Page floats (Florian):
-    * https://github.com/w3c/csswg-drafts/issues/1233
-    * https://github.com/w3c/csswg-drafts/issues/1234
-    * https://github.com/w3c/csswg-drafts/issues/1235
+  * Box Alignment - resolve open issues, prep for CR? (approx 1hr)
+  * [[https://github.com/w3c/csswg-drafts/issues/1172|Two different colours for a "double" style outline]]
