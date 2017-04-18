@@ -109,7 +109,6 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 == Morning ==
   * CSS Writing Modes Level 3 [[https://drafts.csswg.org/css-writing-modes-3/implementation-report.html|implementation report]], [[https://drafts.csswg.org/css-writing-modes-3/issues-cr-2015|DoC update]], and the last open issue:
     * [[https://github.com/w3c/csswg-drafts/issues/1212|Criteria to blockify the writing mode roots]]
-  * Choose a spec to [[https://github.com/w3c/csswg-drafts/issues/1088|Define which subresources block the DOM load event]]
   * [[https://github.com/w3c/csswg-drafts/issues/766|Last Baseline Alignment of Scrollable Boxes]]
   * SVG and CSS boxes and all of their relations
   * CSS Display - finish dealing with form controls etc. and get this to CR
