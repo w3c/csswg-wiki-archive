@@ -95,6 +95,16 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * [[https://github.com/w3c/csswg-drafts/issues/1219|CanIUse panels in specs]]
 
 == Afternoon ==
+  * (possible breakout for reconciling web animations and animation worklets)
+  * CSS Writing Modes Level 3 [[https://drafts.csswg.org/css-writing-modes-3/implementation-report.html|implementation report]], [[https://drafts.csswg.org/css-writing-modes-3/issues-cr-2015|DoC update]], and the last open issue:
+    * [[https://github.com/w3c/csswg-drafts/issues/1212|Criteria to blockify the writing mode roots]]
+  * [[https://github.com/w3c/csswg-drafts/issues/1167|partial implementations of space-evenly in grid but not flexbox]]
+  * Subgrid - call for a breakout session to try and define a more complete and implementable model
+  * CSS Display - finish dealing with form controls etc. and get this to CR
+
+
+=== Thursday ===
+== Morning ==
   * Track 1
     * Transforms 1 issues (breakout session)
   * Track 2
@@ -110,16 +120,6 @@ Please, put your name in this table if you plan to participate (alphabetical ord
       * https://github.com/w3c/csswg-drafts/issues/1237
     *  css-text-3
       * word-break: break-all doesn't break before sentence-ending punctuation if UAX #14 is used https://github.com/w3c/csswg-drafts/issues/1171 (Florian)
-
-
-=== Thursday ===
-== Morning ==
-  * (possible breakout for reconciling web animations and animation worklets)
-  * CSS Writing Modes Level 3 [[https://drafts.csswg.org/css-writing-modes-3/implementation-report.html|implementation report]], [[https://drafts.csswg.org/css-writing-modes-3/issues-cr-2015|DoC update]], and the last open issue:
-    * [[https://github.com/w3c/csswg-drafts/issues/1212|Criteria to blockify the writing mode roots]]
-  * [[https://github.com/w3c/csswg-drafts/issues/1167|partial implementations of space-evenly in grid but not flexbox]]
-  * Subgrid - call for a breakout session to try and define a more complete and implementable model
-  * CSS Display - finish dealing with form controls etc. and get this to CR
 
 == Afternoon ==
   * JP Industry Meetup 2nd  
