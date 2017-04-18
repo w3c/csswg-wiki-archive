@@ -77,9 +77,6 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 ==== Topics ====
 
 === Unslotted ===
-  * Proposed new spec: Repeated Headers and Footers https://specs.rivoal.net/css-repeat/ (Florian)
-  * [Selectors] propagation of the :focus pseudo https://github.com/w3c/csswg-drafts/issues/1240 (Florian)
-  * css-contain open issues: https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-contain-1  (Florian)
 
 === Wednesday === 
 == Morning ==
@@ -87,21 +84,23 @@ Please, put your name in this table if you plan to participate (alphabetical ord
     * January 22 - January 25
     * January 29 - February 1
     * February 5 - February 9
-  * Fonts 
-    * OM issues, [[https://www.w3.org/People/chris/fwf/ |tests for Fonts 3]], FPWD for Fonts 4
-    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0028.html|[css-fonts] font-language-override property and descriptor]]
   * Conditional Rules - resolve discrepancies with CSSOM 
   * UA-defined variables - smfr/dino
   * [[https://github.com/w3c/csswg-drafts/issues/1219|CanIUse panels in specs]]
+  * CSS Writing Modes Level 3 [[https://drafts.csswg.org/css-writing-modes-3/implementation-report.html|implementation report]], [[https://drafts.csswg.org/css-writing-modes-3/issues-cr-2015|DoC update]], and the last open issue:
+    * [[https://github.com/w3c/csswg-drafts/issues/1212|Criteria to blockify the writing mode roots]]
 
 == Afternoon ==
   * (possible breakout for reconciling web animations and animation worklets)
-  * CSS Writing Modes Level 3 [[https://drafts.csswg.org/css-writing-modes-3/implementation-report.html|implementation report]], [[https://drafts.csswg.org/css-writing-modes-3/issues-cr-2015|DoC update]], and the last open issue:
-    * [[https://github.com/w3c/csswg-drafts/issues/1212|Criteria to blockify the writing mode roots]]
-  * [[https://github.com/w3c/csswg-drafts/issues/1167|partial implementations of space-evenly in grid but not flexbox]]
   * Subgrid - call for a breakout session to try and define a more complete and implementable model
+  * [[https://github.com/w3c/csswg-drafts/issues/1167|partial implementations of space-evenly in grid but not flexbox]]
+  * Fonts 
+    * OM issues, [[https://www.w3.org/People/chris/fwf/ |tests for Fonts 3]], FPWD for Fonts 4
+    * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0028.html|[css-fonts] font-language-override property and descriptor]]
   * CSS Display - finish dealing with form controls etc. and get this to CR
-
+  * Proposed new spec: Repeated Headers and Footers https://specs.rivoal.net/css-repeat/ (Florian)
+  * [Selectors] propagation of the :focus pseudo https://github.com/w3c/csswg-drafts/issues/1240 (Florian)
+  * css-contain open issues: https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-contain-1  (Florian)
 
 === Thursday ===
 == Morning ==
