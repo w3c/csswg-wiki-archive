@@ -89,6 +89,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * [[https://github.com/w3c/csswg-drafts/issues/1219|CanIUse panels in specs]]
   * CSS Writing Modes Level 3 [[https://drafts.csswg.org/css-writing-modes-3/implementation-report.html|implementation report]], [[https://drafts.csswg.org/css-writing-modes-3/issues-cr-2015|DoC update]], and the last open issue:
     * [[https://github.com/w3c/csswg-drafts/issues/1212|Criteria to blockify the writing mode roots]]
+  * [[https://github.com/w3c/csswg-drafts/issues/1217|Consider USVString instead of DOMString in CSSOM, replacing surrogates with U+FFFD]]
 
 == Afternoon ==
   * (possible breakout for reconciling web animations and animation worklets)
@@ -134,6 +135,5 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 == Afternoon ==
   * Scroll Linked Animations - could we review the current status of the spec? (shans but birtles should do the review)
   * Focus of custom textbox-like elements - shans
-  * [[https://github.com/w3c/csswg-drafts/issues/1217|Consider USVString instead of DOMString in CSSOM, replacing surrogates with U+FFFD]]
   * Box Alignment - resolve open issues, prep for CR? (approx 1hr)
   * [[https://github.com/w3c/csswg-drafts/issues/1172|Two different colours for a "double" style outline]]
