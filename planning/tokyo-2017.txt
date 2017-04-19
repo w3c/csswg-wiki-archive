@@ -93,7 +93,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 
 == Afternoon ==
   * (possible breakout for reconciling web animations and animation worklets)
-  * Subgrid - call for a breakout session to try and define a more complete and implementable model
+  * Subgrid - call for a breakout session to try and define a more complete and implementable model [[https://4075834c10a34498ade2a927666cc81a.codepen.website|Some use cases and links to subgrid discussion]]
   * [[https://github.com/w3c/csswg-drafts/issues/1167|partial implementations of space-evenly in grid but not flexbox]]
   * Fonts 
     * OM issues, [[https://www.w3.org/People/chris/fwf/ |tests for Fonts 3]], FPWD for Fonts 4
