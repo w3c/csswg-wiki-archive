@@ -96,7 +96,11 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * (possible breakout for reconciling web animations and animation worklets)
   * Subgrid - call for a breakout session to try and define a more complete and implementable model [[https://4075834c10a34498ade2a927666cc81a.codepen.website|Some use cases and links to subgrid discussion]]
   * Fonts 
-    * OM issues, [[https://www.w3.org/People/chris/fwf/ |tests for Fonts 3]], min/max-font-size & computed value implications (font-relative units on self and other properties), FPWD for Fonts 4
+    * Tests for Fonts3 ([[https://www.w3.org/People/chris/fwf/ | ChrisL tests]])
+    * OM issues
+    * min/max-font-size & computed value implications (font-relative units on self and other properties)
+    * FPWD for Fonts 4
+    * Status of [[https://drafts.csswg.org/css-font-loading/|CSS Font Load Events (edited Monday!)]]
     * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0028.html|[css-fonts] font-language-override property and descriptor]]
   * [[https://github.com/w3c/csswg-drafts/issues/1167|partial implementations of space-evenly in grid but not flexbox]]
   * CSS Display - finish dealing with form controls etc. and get this to CR
