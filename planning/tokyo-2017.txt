@@ -140,6 +140,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * Go through TAG review of [[https://github.com/w3c/csswg-drafts/issues/676|Scroll anchoring opt out / exclusion API (overflow-anchor)]]
 
 == Afternoon ==
+  * Some [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-color-4 | open issues on Color Level 4]] - dino
   * Scroll Linked Animations - could we review the current status of the spec? (shans but birtles should do the review)
   * Focus of custom textbox-like elements - shans
   * [[https://github.com/w3c/csswg-drafts/issues/1172|Two different colours for a "double" style outline]]
