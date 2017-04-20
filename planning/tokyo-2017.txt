@@ -121,7 +121,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
       * https://github.com/w3c/csswg-drafts/issues/938
     * Proposed new spec: Repeated Headers and Footers https://specs.rivoal.net/css-repeat/ (Florian)
   * [[https://github.com/w3c/csswg-drafts/issues/1172|Two different colours for a "double" style outline]]
-  * 
+
 == Afternoon ==
   * JP Industry Meetup 2nd  
 
