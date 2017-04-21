@@ -134,6 +134,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 
 == Morning ==
   * Update on URL discussion (part of images)
+  * Images 3 issues - leaverou (Friday)
   * breakout remainder
     * Page floats (Florian):
       * https://github.com/w3c/csswg-drafts/issues/1236
@@ -145,14 +146,13 @@ Please, put your name in this table if you plan to participate (alphabetical ord
     * Rhythm issues
       * https://github.com/w3c/csswg-drafts/issues/940
   * Main room
-    * Images 3 issues - leaverou (Friday)
     * SVG and CSS boxes and all of their relations
-    * Motion path issues - particularly 51, 69, 73, 78 - shans
+    * Some [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-color-4 | open issues on Color Level 4]] - dino
     * Go through TAG review of [[https://github.com/w3c/csswg-drafts/issues/676|Scroll anchoring opt out / exclusion API (overflow-anchor)]]
 
 == Afternoon ==
   * Confirm 2018 f2f plan
-  * Some [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-color-4 | open issues on Color Level 4]] - dino
+  * Motion path issues - particularly 51, 69, 73, 78 - shans
   * Scroll Linked Animations - could we review the current status of the spec? (shans but birtles should do the review)
   * Focus of custom textbox-like elements - shans
   * [[https://github.com/w3c/web-platform-tests/issues/5625|Test computed styles from user agent stylesheet?]]
