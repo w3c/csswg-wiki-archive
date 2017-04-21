@@ -150,9 +150,9 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 == Afternoon ==
   * Confirm 2018 f2f plan
   * Motion path issues - particularly 51, 69, 73, 78 - shans
+  * Focus of custom textbox-like elements - shans
   * Scroll Linked Animations - could we review the current status of the spec? (shans but birtles should do the review)
   * Go through TAG review of [[https://github.com/w3c/csswg-drafts/issues/676|Scroll anchoring opt out / exclusion API (overflow-anchor)]]
   * Last css-contain issue and CR? http://www.w3.org/mid/55BA836C.6060404@mozilla.com
-  * Focus of custom textbox-like elements - shans
   * [[https://github.com/w3c/web-platform-tests/issues/5625|Test computed styles from user agent stylesheet?]]
   * line-height: normal (https://github.com/w3c/csswg-drafts/issues/1254)
