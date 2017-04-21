@@ -155,4 +155,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * Last css-contain issue and CR? http://www.w3.org/mid/55BA836C.6060404@mozilla.com
   * Focus of custom textbox-like elements - shans
   * [[https://github.com/w3c/web-platform-tests/issues/5625|Test computed styles from user agent stylesheet?]]
-  * line-height: normal
+  * line-height: normal (https://github.com/w3c/csswg-drafts/issues/1254)
