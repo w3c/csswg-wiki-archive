@@ -143,8 +143,6 @@ Please, put your name in this table if you plan to participate (alphabetical ord
       * https://github.com/w3c/csswg-drafts/issues/1234
       * https://github.com/w3c/csswg-drafts/issues/1237
       * https://github.com/w3c/csswg-drafts/issues/1239
-    * Rhythm issues
-      * https://github.com/w3c/csswg-drafts/issues/940
   * Main room
     * SVG and CSS boxes and all of their relations
     * Some [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-color-4 | open issues on Color Level 4]] - dino
@@ -157,3 +155,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * Last css-contain issue and CR? http://www.w3.org/mid/55BA836C.6060404@mozilla.com
   * Focus of custom textbox-like elements - shans
   * [[https://github.com/w3c/web-platform-tests/issues/5625|Test computed styles from user agent stylesheet?]]
+  * line-height: normal
