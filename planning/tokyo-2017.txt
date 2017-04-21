@@ -156,3 +156,4 @@ Please, put your name in this table if you plan to participate (alphabetical ord
   * Scroll Linked Animations - could we review the current status of the spec? (shans but birtles should do the review)
   * Focus of custom textbox-like elements - shans
   * [[https://github.com/w3c/web-platform-tests/issues/5625|Test computed styles from user agent stylesheet?]]
+  * Last css-contain issue and CR?
