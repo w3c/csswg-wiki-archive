@@ -135,12 +135,12 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 == Morning ==
   * breakout remainder
     * Page floats (Florian):
-      * https://github.com/w3c/csswg-drafts/issues/1239
       * https://github.com/w3c/csswg-drafts/issues/1236
       * https://github.com/w3c/csswg-drafts/issues/1235
       * https://github.com/w3c/csswg-drafts/issues/1233
       * https://github.com/w3c/csswg-drafts/issues/1234
       * https://github.com/w3c/csswg-drafts/issues/1237
+      * https://github.com/w3c/csswg-drafts/issues/1239
     * Rhythm issues
       * https://github.com/w3c/csswg-drafts/issues/940
   * Main room
