@@ -5,9 +5,7 @@ That should be corrected if anyone invents a time machine. :P
   * ''white-space: nowrap'' should be ''white-space: no-wrap''
     * and line wrapping behavior should not have been added to ''white-space''
   * ''vertical-align'' should not apply to table cells. Instead the CSS3 alignment properties should exist in Level 1.
-  * ''vertical-align: middle'' should be ''text-middle'' because it's not really in the middle.
-  * ''vertical-align: middle'' should be ''x-middle'' because such name would better describes what it does and how it works.
-  * ''text-align'' should have been ''inline-align'': [[http://dorward.me.uk/www/centre/|"Yes, it ('text-align') is badly named.'inline-align' would probably have been a better choice."]]
+  * ''vertical-align: middle'' should be ''text-middle'' or ''x-middle'' because it's not really in the middle, and such a name would better describes what it does.
   * Percentage heights should be calculated against ''fill-available'' rather than being undefined in auto situations.
   * Table layout should be sane.
   * Box-sizing should be ''border-box'' by default.
