@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 12 April 2017 and tracks backwards through about August 2013 or so.
+It was last updated on 5 May 2017 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -122,6 +122,7 @@ It was last updated on 12 April 2017 and tracks backwards through about August 2
   : [[https://www.w3.org/Style/CSS/Tracker/actions/673|Make page of all form controls]]
 
   ; CSS Logical Properties
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: FPWD of Logical Properties with a short name of css-logical]]
   : [[https://www.w3.org/blog/CSS/2015/02/26/minutes-telecon-237/|Resolved: Properties referencing corners drop the axis mentions and go into the block axis first, for example border-start-end-radius (in CSS Logical Properties)]]
 
   ; CSS OM
@@ -193,6 +194,8 @@ It was last updated on 12 April 2017 and tracks backwards through about August 2
   : Finish off agenda items and republish CR with latest changes
 
   ; Images 3
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: Move gradient midpoint to Images L3.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: Revert the edit to image-set in CSS Images.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Resolved: Move everything with no impl to next level and mark everything with 1 impl as at risk.]]
   : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
   : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Allow nearest neighbor for image rendering in both directions but allow browsers to do prettier in the down directions.]]
@@ -522,6 +525,7 @@ https://github.com/w3c/csswg-drafts/issues/511 Created ACTION-807]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Resolved: Start a level 4 draft of Values & Units, move calc() serialization to it, and then publish the remainder of Values & Units 3 as CR.]]
 
   ; Values and Units 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: Add the x unit to <resolution> type in Values & Units 4.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html|Resolved: Add proposed DOM load events to Values & Units.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html|Resolved: Only spec the unitless 0 quirk for transforms & gradients.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html|Resolved: Don't add any new syntax for [ <foo>+ ]#, just add a note explaining it.]]
