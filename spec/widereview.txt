@@ -5,9 +5,11 @@ W3C (and the CSS WG charter) requires wide review of specs, before they go to CR
 ===Internationalization review==
 This can take a long time, because I18n issues are complex and the I18n WG has a huge workload. Start wide review **at FPWD**! In general they need to have a spec on their radar **a couple of month** before requesting transition to CR.
 
-  * [[https://www.w3.org/International/reviews/projReview.html | How to engage with the i18n WG for assistance and reviews]]
+  * Self-review [[https://w3c.github.io/bp-i18n-specdev/#ghChecklist | creating a GitHub checklist in markdown]] (then paste it into an issue)
   * [[https://www.w3.org/International/review-request | How to request I18n review]]
-  * [[https://w3c.github.io/bp-i18n-specdev/#ghChecklist | creating a GitHub checklist in markdown]] (then paste it into an issue)
+  * [[https://www.w3.org/International/reviews/projReview.html | How to engage with the i18n WG for assistance and reviews]]
+
+
 
 ===Accessibility review===
 
