@@ -10,6 +10,7 @@ The group uses github for issue tracking, in [[https://github.com/w3c/csswg-draf
   * [[http://dev.w3.org/csswg/css-module-bikeshed/Overview.bs|CSS Module Template]] --- for starting new specs (and formatting old ones)
   * [[spec:format-update]] --- for updating existing specs to our latest "specs should include"
   * [[spec:publish]] --- getting your spec on www.w3.org
+  * [[spec:widereview]] --- ensuring wide review of a spec before CR
   * [[spec:issue-tracking]] --- raising your newborn draft into a grown-up spec
   * [[spec:process|Process suggestions for advancing a spec]] --- guidelines for when to advance your spec to the next stage
   * [[spec:teststatus|Test status information on spec]] --- adding information about testing status on the spec
