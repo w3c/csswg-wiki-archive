@@ -41,12 +41,7 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: 0px width float that is next to a line box does count as shortening a line box]]
 
   ; Box Alignment
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html|Resolved: Safe & unsafe keywords ordered before alignment keywords.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html|Resolved: Drop justify-content: baseline.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html|Resolved: Push fallback alignments to L4.]]
-  : [[http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html|Resolved: For all layout modes when you’re figuring out static position of an abspos child treat auto margins as 0 regardless of normal positioning rules.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html|Resolved: Don’t add the slashes (to the alignment property shorthands).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: Use place-items place-self place-content shorthands.]]
+  : Under LC Review
 
   ; Compositing
   : [[https://www.w3.org/blog/CSS/2014/06/26/minutes-telecon-216/|Resolved: Solve background-blend on the root element as Rik requests.]]
@@ -154,8 +149,7 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://www.w3.org/Style/CSS/Tracker/actions/738|Review status of device adaptation]]
 
   ; Display 3
-  : Resolve handling of `<object>`
-  : Publish as CR
+  : 
 
   ; Display 4
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html|Make display into a short hand and add an issue on naming for the long hands.]]
@@ -169,7 +163,7 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Tav presented a new filter primitive he'd like added to level 2; dino agreed it was interesting and will look into adding it to the spec.]]
 
   ; Flexbox
-  : Republish CR with latest changes
+  : Resolve issues and prep a CR with latest changes
 
   ; Fonts 4
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Action Myles to respond to the dwrite issue and ChrisL's asks for font edits. <trackbot> Created ACTION-838]]
@@ -190,8 +184,7 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
 
   ; Grid
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|No change on issue 1137]]
-  : Finish off agenda items and republish CR with latest changes
+  :
 
   ; Images 3
   : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: Move gradient midpoint to Images L3.]]
@@ -518,11 +511,7 @@ https://github.com/w3c/csswg-drafts/issues/511 Created ACTION-807]]
 
 
   ; Values and Units 3
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Action smfr look at <position> edits <trackbot> Created ACTION-839]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html|Resolved: Accept pull request from issue 713: https://github.com/w3c/csswg-drafts/pull/713]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Defer the calc for table layout issue to V&U 4]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Publish updated V&U 3 CR]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Resolved: Start a level 4 draft of Values & Units, move calc() serialization to it, and then publish the remainder of Values & Units 3 as CR.]]
+  : 
 
   ; Values and Units 4
   : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: Add the x unit to <resolution> type in Values & Units 4.]]
@@ -540,6 +529,7 @@ https://github.com/w3c/csswg-drafts/issues/511 Created ACTION-807]]
   : [[https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/|Resolved: Make the image() function always respect EXIF orientation metadata in Backgrounds.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0168.html|<trackbot> ACTION-632 on TabAtkins - Figure out if enhancing url() works]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html|Resolved: Accept TabAtkins proposal for calc() serialization and add a note that there remains a concern about editors getting access to the bare string.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Resolved: Start a level 4 draft of Values & Units, move calc() serialization to it, and then publish the remainder of Values & Units 3 as CR.]]
 
   ; Variables
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html|Action: gsnedders to check if Variables test coverage is from many browsers]]
