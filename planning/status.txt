@@ -105,9 +105,7 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.]]
 
   ; CSS Backgrounds 3
-  : [[https://www.w3.org/blog/CSS/2015/01/22/minutes-telecon-235/|Resolved: Accept the proposed change for the serialization order for final-bg-color (available here)]]
-  : [[https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/|Resolved: Make the image() function always respect EXIF orientation metadata in Backgrounds.]]
-  : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).]]
+  : Bikeshedify and publish
 
   ; CSS Conditional Rules
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html|Resolved: Add @else to the next level of conditionals pending review by dbaron.]]
@@ -117,8 +115,7 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://www.w3.org/Style/CSS/Tracker/actions/673|Make page of all form controls]]
 
   ; CSS Logical Properties
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: FPWD of Logical Properties with a short name of css-logical]]
-  : [[https://www.w3.org/blog/CSS/2015/02/26/minutes-telecon-237/|Resolved: Properties referencing corners drop the axis mentions and go into the block axis first, for example border-start-end-radius (in CSS Logical Properties)]]
+  :
 
   ; CSS OM
   : [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html|Resolved: Make color properties return used value as resolved value]]
@@ -209,6 +206,7 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html|Resolved: Cannot interpolate to/from gradients with keyword direction unless using the same keyword.]]
 
   ; Image 4
+  : [[https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/|Resolved: Make the image() function always respect EXIF orientation metadata in Backgrounds.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0609.html|Resolved: Change CSS Images 4’s specification of colorless color stops to use Rik’s proposal (i.e. use power curves).]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html|Action: krit to write up canvas for css4 images <trackbot> Created ACTION-588 - Write up canvas for css4 images (on Dirk Schulze - due 2013-11-17)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html|Resolved: The working group would like to see work on canvas for CSS Image.]]
@@ -281,12 +279,10 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
 
   ; Misc
   :[[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Action-783 TabAtkins to start collecting namespaces history and future plans on a wiki so we can show the community and allow input.]]
-  :[[https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html|Resolved: Add the labels listed [[https://github.com/sandhawke/spec-labels-min/labels?sort=name-asc|here]] to github]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html|Issues won't be closed on github until a decision is reach or the working group resolves on them.]]
   : TabAtkins brought his proposal to address the possibility of font name being duplicated inside and outside a shadow DOM. The proposal would create a mapping where the external font is translated into a guaranteed unique name when passed into the shadow DOM. dbaron raised the possibility of instead using a function that gets the name from the scope, which was a cleaner solution. TabAtkins will write-up a new proposal using functions and send it to the mailing list for review.
   : ACTION leaverou write outdated-spec-watermark script for w3.org to put on /TR
   : ACTION glazou Investigate which data needs to be added and how to automate current-work <trackbot> Created ACTION-685 - glazou: OK, so we will do these actions, and then go back to AC/plh and iterate
-  : [[https://www.w3.org/blog/CSS/2014/12/18/minutes-telecon-232/|Action: Fantasai review "true stretch" discussion.]]
 
   ; Motion
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html|Resolved: Rename offset-rotation to be offset-rotate]]
@@ -337,25 +333,7 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html|Selecting an Outside Scoping Box - ACTION TabAtkins fantasai Add an example to section 2.2.2<trackbot> Created ACTION-625]]
 
   ; Scroll Snap
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jan/0005.html|Resolved: Re-publish Scroll Snap CR with these changes (https://github.com/w3c/csswg-drafts/commit/7a20d00238aac3ddbdd8d5dd7e74ff81dd29ba76)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0053.html|Resolved: Accept the changes proposed here: https://drafts.csswg.org/css-scroll-snap/diff-notes#change-resnap. Make sure that if the UA evaluates and thinks it shouldn't re-snap it's not required to do so, potentially by merging the first and last sentences in the paragraph.]]
-  : Waiting for MaRakow to finish merging...
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Publish CSS Scroll Snap]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: No ability to specify the strictness of snapping separately per axis.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Allow the keyword to be dropped, default to proximity.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Ordering of keywords is strict in scroll-snap-type (to allow for extensions)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Values are x | y | block | inline | both | point , where point would be dropped after next publication.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Require (for now) an explicit axis and will gather more info as we can (to decide between physical and logical direction as the default).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: make snap-align behave like a subset of background position]] ([[https://lists.w3.org/Archives/Public/www-style/2016Jan/0133.html|from fantasai's proposal]]).
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Add section 6.2.2 (Snapping Boxes that Overflow the Scrollport) and add issues.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Add section 6.2.1 (Scoping Valid Snap Positions to Visible Boxes) as an open issue]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Add section 6.2.3 (Unreachable Snap Areas)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Merge section 6.3 (scroll-snap-stop) with * an issue about whether it applies to 2D * an issue to bikeshed "normal"]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Merge section 7.3 (Choosing Snap Positions) with * parenthetical of "corridor" point moved to start the paragraph * JS element-targetting scrolls added into the :target paragraph]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Add section 7.1 after removing "explicit" "inertial" and "directional" definitions, moving the first sentence and adding a more precise definition of when an active scrolling operation is done so we know when to start snapping.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Merge 7.0 (introductory text) too]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Add fantasai and TabAtkins as editors to scroll snapping]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Resolved: Shortname css-snappoints -> css-scroll-snap]]
+  :
 
   ; Selectors 3
   : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.]]
@@ -399,9 +377,6 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: Start an ED for 2016 snapshot.]]
 
   ; Speech
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jan/0005.html|Resolved: Make the change to speak value properties (to auto|always|none) and inform the a11y TF.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jan/0005.html|Action: Bo to get more feedback on
-https://github.com/w3c/csswg-drafts/issues/511 Created ACTION-807]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html|abAtkins: We have time-dimensional pseudos, defined for WebVTT. TabAtkins: Anyone know if they're implemented anywhere? ACTION fantasai: make sure timeline is defined for Speech to use: current, etc <trackbot> Created ACTION-607
 
   ; SVG
@@ -536,8 +511,6 @@ https://github.com/w3c/csswg-drafts/issues/511 Created ACTION-807]]
  
 
   ; Writing Modes
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html|Resolved: margin/border/padding logical properties use the element's own writing-mode, not their parent's writing mode]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|ACTION fantasai: Look over Writing modes test failures]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|ACTION gregwhitworth: Look into unprefixing text-combine-upright]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|ACTION hober: Look into unprefixing writing modes features in WebKit]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Dec/0301.html|<fantasai> ACTION fantasai: Put IE's nearest-scrollable-box behavior into orthogonal flows spec<trackbot> Created ACTION-661]]
