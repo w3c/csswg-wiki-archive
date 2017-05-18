@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 5 May 2017 and tracks backwards through about August 2013 or so.
+It was last updated on 17 May 2017 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -133,6 +133,7 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0231.html|RESOLVED: Publish a new WD for overflow]]
 
   ; CSS Overflow 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: FPWD of Overflow 4]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: Change this (overflow:hidden not scrolling) from SHOULD to MUST.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: For the quoted [Overflow spec] text we are changing SHOULD to MUST and MAY to MUST. (Text quoted here: https://github.com/w3c/csswg-drafts/issues/666)
   : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: region-break gets folded into the new property, too.]]
@@ -259,6 +260,10 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0052.html|Resolved: Update Media Queries 3 wording on never having to evaluate a style sheet unless specified explicitly otherwise.]]
 
   ; Media Queries 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: New WD of MQ4.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Mark the various hover and pointer things as at-risk.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Close https://github.com/w3c/csswg-drafts/issues/841 no change.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Push scripting MQ values to L5.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html|Resolved: Accept the proposal (Proposal: Make the device-width/etc MQs use the same concepts as CSSOM is using for returning device dimensions.)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: Change MQ4 to p3 from dci-p3]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Rename update-frequency to update (Media Queries issue #1).]]
@@ -333,9 +338,11 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html|Selecting an Outside Scoping Box - ACTION TabAtkins fantasai Add an example to section 2.2.2<trackbot> Created ACTION-625]]
 
   ; Scroll Snap
-  :
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Accept the spec text proposed in issue 1084]]
 
   ; Selectors 3
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Request PR on Selectors 3.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Change the title to subsequent. (In reference to better terminology for ~ sibling combinator: Issue 1382)
   : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.]]
 
   ; Selectors 4
@@ -511,6 +518,7 @@ It was last updated on 5 May 2017 and tracks backwards through about August 2013
  
 
   ; Writing Modes
+  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Request PR for Writing Modes.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|ACTION gregwhitworth: Look into unprefixing text-combine-upright]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|ACTION hober: Look into unprefixing writing modes features in WebKit]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Dec/0301.html|<fantasai> ACTION fantasai: Put IE's nearest-scrollable-box behavior into orthogonal flows spec<trackbot> Created ACTION-661]]
