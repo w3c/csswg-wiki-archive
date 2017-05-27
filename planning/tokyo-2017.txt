@@ -13,7 +13,7 @@
 
    * [[https://lists.w3.org/Archives/Public/www-style/2017May/0043.html|Wed 2017-04-19 Part I: Administrivia,  UA-defined Variables, Animation Worklets]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017May/0044.html|Wed 2017-04-19 Part II: Writing Modes PR,  USVString, Baseline Alignment [css-writing-modes-3][cssom][css-align]]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0045.html|Wed 2017-04-19 Part III: Grid Layout /  Subgrid, Fonts 3 &amp; 4 [css-grid-2][css-fonts]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0045.html|Wed 2017-04-19 Part III: Grid Layout /  Subgrid, Fonts 3 & 4 [css-grid-2][css-fonts]]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017May/0046.html|Wed 2017-04-19 Part IV: Box Alignment,  display:contents, Containment, Interpreting url()s  [css-align][css-contain][css-values][css-masking]]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017May/0047.html|Thu 2017-04-20 Part I: Repeated Headers,  Line Breaking, Line Height Calculations [css-text][css-inline][css-rhythm]]]
    * [[https://lists.w3.org/Archives/Public/www-style/2017May/0048.html|Thu 2017-04-20 Part II: Transforms  [css-transforms]]]
