@@ -9,7 +9,23 @@
    * Dates: Wednesday–Friday, Apr 19-21 2017
    * Doors will open from 8:30am. Meeting can run from 9:00am-6:00pm as required.
 
-=== How to get there / Japan Info ===
+==== Minutes ====
+
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0043.html|Wed 2017-04-19 Part I: Administrivia,  UA-defined Variables, Animation Worklets]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0044.html|Wed 2017-04-19 Part II: Writing Modes PR,  USVString, Baseline Alignment [css-writing-modes-3][cssom][css-align]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0045.html|Wed 2017-04-19 Part III: Grid Layout /  Subgrid, Fonts 3 &amp; 4 [css-grid-2][css-fonts]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0046.html|Wed 2017-04-19 Part IV: Box Alignment,  display:contents, Containment, Interpreting url()s  [css-align][css-contain][css-values][css-masking]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0047.html|Thu 2017-04-20 Part I: Repeated Headers,  Line Breaking, Line Height Calculations [css-text][css-inline][css-rhythm]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0048.html|Thu 2017-04-20 Part II: Transforms  [css-transforms]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0049.html|Thu 2017-04-20 Part III: Multi-color  Borders and Outlines [css-backgrounds-4][css-ui-4]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0050.html|Thu 2017-04-20 Part IV: Japanese Vertical  Text Design Awards & Miscellaneous Commentary [css-fonts][css-rhythm]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0051.html|Fri 2017-04-21 Part I: CSS Images L3,  Interpretation of url() [css-images][css-values]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0052.html|Fri 2017-04-21 Part II: Page Floats  Redesign [css-page-floats]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0053.html|Fri 2017-04-21 Part III: CSS-SVG Box  Correspondences, CSS Color [css-color][css-transforms]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0054.html|Fri 2017-04-21 Part IV: F2Fs, Motion Path  [css-motion]]]
+   * [[https://lists.w3.org/Archives/Public/www-style/2017May/0055.html|Fri 2017-04-21 Part V: Containment, Scroll  Anchoring, Line Height Calculations [css-inline][css-contain]]]
+
+==== How to get there / Japan Info ====
   * https://www.keio.ac.jp/en/maps/mita.html
   * Cash/Credit Card
     * Compared to Western countries, credit cards cannot be accepted in some shops/vending machines/etc. Please ensure you have some cash. Japanese Post Office has Western-Visa-compatible machines, but is only open business hours Mon-Fri. 7-11 ATMs (7 Bank) also generally support western cards. 
