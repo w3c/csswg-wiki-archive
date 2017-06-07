@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 17 May 2017 and tracks backwards through about August 2013 or so.
+It was last updated on 31 May 2017 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -91,6 +91,7 @@ It was last updated on 17 May 2017 and tracks backwards through about August 201
   : : [[https://lists.w3.org/Archives/Public/www-style/2016May/0210.html|RESOLVED: Publish FPWD of css-contain-1 after edits on overflow dependency]]
 
   ; CSS2.1
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: Add gsnedders as editor to CSS2.2]]
   : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/|Resolved: Accept Myles’ proposal to make baseline of overflow non-visible inline blocks the higher of the actual baseline (at initial scroll position) and the margin-box bottom. Separately investigate whether to switch from margin-box bottom to padding-box bottom for sanity. (requries web-compat check)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0252.html|Resolved: Moving a float to the next fragmentainer does not move in-flow content that comes after the float. (However, per CSS2.1, subsequent floats do move down.)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html|Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.]]
@@ -150,6 +151,10 @@ It was last updated on 17 May 2017 and tracks backwards through about August 201
   : 
 
   ; Display 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: Blocks are turned into inline-blocks.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: We are provisionally going with option b (inline-block-> block; inline flow-root -> flow-root).]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: Define this (Propagation of text-decoration with display:contents) as a box-tree concept.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: Let's try it out, go forward with the diff (https://github.com/w3c/csswg-drafts/issues/1118#issuecomment-301942276)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html|Make display into a short hand and add an issue on naming for the long hands.]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/613|Clarify how omitted values are handled for display shorthand (and other shorthands he might've forgotten to handle.]]
 
