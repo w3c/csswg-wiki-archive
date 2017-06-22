@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 31 May 2017 and tracks backwards through about August 2013 or so.
+It was last updated on 21 June 2017 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -299,6 +299,8 @@ It was last updated on 31 May 2017 and tracks backwards through about August 201
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Resolved: Update motion draft on TR]]
 
   ; Multicol 1
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html|Resolved: Columns do not clip by default]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html|Resolved: Columns are properties applied to block containers only.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Have column-span elements create a bfc even if not in a multi-col container.]]
   : [[https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/|Resolved: Drop break-before and break-after from Multicol and reference fragmentation definitions and republish as CR/]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0031.html|Resolved: Accept the new text for grid and multi-col changing the floor to a required amount. The new text is: “For the purpose of finding the number of auto-repeated tracks, the UA must floor the track size to a UA-specified value to avoid division by zero. It is suggested that this floor be ”1px” or less.”]]
@@ -421,6 +423,7 @@ It was last updated on 31 May 2017 and tracks backwards through about August 201
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|RESOLVED: Add word-break: break-word to spec if Edge/Firefox find it critical enough to Web compat to implement it.]]
 
   ; Text 3
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html|Resolved: line-break: break-all on its own has the effect of allowing breaks everywhere.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: No change on this issue (https://github.com/w3c/csswg-drafts/issues/618).
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: No change to the spec because it already requires customary line breaking rules.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: Rich text copy/paste is undefined in text level 3.]]
@@ -477,6 +480,7 @@ It was last updated on 31 May 2017 and tracks backwards through about August 201
   : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|Action: Fantasai Define prop def table (in "Snapshot").]]
 
   ; UI
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html|Resolved: option 1: no change and add perhaps a non-normative note explaining adding this on the root isn't a great pattern]]
   : [[http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html|Resolved: Change the applies to line to all elements]]
   : [[http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html|Resolved: Add an informative note as to what is a caret and what is not.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|Rossen and/or gregwhitworth will help Florian decide what that set of values should be.]]
