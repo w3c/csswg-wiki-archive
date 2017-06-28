@@ -12,9 +12,11 @@ Note! There have been changes to the module template since it was written! Check
     - [[http://validator.w3.org/checklink|Link-check]] your spec.
     - run a spellchecker on your spec
     - Optional: If you feel so inclined, you can use [[http://www.w3.org/2005/07/pubrules|pubrules checker]] (if it's working), review its results, and correct any errors. (Some errors are expected/harmless if you check an editor's draft, so read carefully!)  (There's a [[https://labs.w3.org/pubrules/|new pubrules checker]] in alpha status, if you feel brave and are willing to submit feedback to spec-prod@w3.org.)
-  - **Request Publication -** Send a message (See Template Below) to Bert and webreq, CCing w3c-css-wg, asking them to put your spec in the publication pipeline. Include a link to your draft and to the minutes with the resolution to publish. (If Bert is on vacation, ask fantasai or Chris.) Put ''[Publish]'' in the subject line.
-    - **For FPWD**, you also need a resolution on the shortname of the spec, and need to as the W3C domain leader (plh, in our case) to the FPWD publication and the choice of URL.
-  - **Wait for Publication -** Wait for the spec to be published. W3C publishes on Tuesdays and Thursdays. (Assume Bert needs 2 days notice before the publication date unless he tells you otherwise.)
+  - **Request Publication -**
+    - **For regular Working Drafts** on Bikeshed-formatted specs, you can use the ''bikeshed echidna'' command.
+    - Otherwise, send a message (See Template Below) to Bert, ChrisL, and webreq, CCing w3c-css-wg, asking them to put your spec in the publication pipeline. Include a link to your draft and to the minutes with the resolution to publish. Put ''[Publish]'' in the subject line.
+    - **For FPWD**, you also need a resolution on the shortname of the spec, and need the W3C domain leader (plh, in our case) to approve the FPWD publication and the choice of URL.
+  - **Wait for Publication -** Wait for the spec to be published. For Echidna-published specs, this should take a few minutes. For other specs, W3C publishes on Tuesdays and Thursdays once webreq has approved the publication.
   - **Announce Your Spec -** Post an announcement of your new spec to [[mailto:www-style@w3.org|www-style]] (and cross-post to [[mailto:public-review-announce@w3.org|public-review-announce]] and any other relevant mailing lists]] and the [[https://www.w3.org/blog/CSS/wp-admin/|CSSWG Blog]] (See Templates Below) and link the blog post from [[http://twitter.com/csswg|@csswg]]. If you need help with this, ask fantasai. A good announcement includes:
      * A link to the spec
      * An explanation of what's new, what's cool, what's changed, maybe what to expect going forward, but most importantly what you would especially like feedback on.
