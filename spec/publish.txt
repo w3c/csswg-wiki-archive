@@ -21,7 +21,7 @@ Note! There have been changes to the module template since it was written! Check
      * A link to the spec
      * An explanation of what's new, what's cool, what's changed, maybe what to expect going forward, but most importantly what you would especially like feedback on.
      * Instructions for sending feedback
-    - The CSSWG blog is your communication channel to people who aren't technical enough or devoted enough to follow www-style. Take advantage of it, and engage your audience.
+    - The CSSWG blog is your communication channel to people who aren't technical enough or devoted enough to follow www-style/GitHub. Take advantage of it, and engage your audience.
   - **Post-publication edits -** Add the new "Previous version" link to the editor's draft, and if you edited the editors draft to have Status: and Date: fields in them, restore Status to ED, remove Date, and possibly remove Deadline
 
 Note: The above combines steps specific to the CSS WG and general W3C-wide [[http://services.w3.org/xslt?xmlfile=http://www.w3.org/2005/08/01-transitions.html&xslfile=http://www.w3.org/2005/08/transitions.xsl|publication rules.]] See the latter also for steps to publishing a Note, CR, PR, etc.
