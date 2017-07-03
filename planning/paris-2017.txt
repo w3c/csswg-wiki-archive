@@ -48,3 +48,5 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 ==== Proposed Agenda Topics ====
 
   * maintenance of multicol
+  * Tables Issues - Greg/Francois
+  * Automating Test Coverage [Side discussion with Tab/Greg/Geoffrey/Anyone else??] - Greg
