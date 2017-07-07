@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 28 June 2017 and tracks backwards through about August 2013 or so.
+It was last updated on 6 July 2017 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -41,6 +41,7 @@ It was last updated on 28 June 2017 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: 0px width float that is next to a line box does count as shortening a line box]]
 
   ; Box Alignment
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: New Values boilerplate accepted]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: leave behavior as-is and not accept ‘legacy’ values for ‘place-items’]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: accept the proposal that margin and position properties will return the specified values.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: the baseline alignment in block direction of tables is not defined. Also add a note prompting implementors to bring back ideas if they have any.]]
@@ -175,6 +176,7 @@ It was last updated on 28 June 2017 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Tav presented a new filter primitive he'd like added to level 2; dino agreed it was interesting and will look into adding it to the spec.]]
 
   ; Flexbox
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: No change for issue about adding no-wrap]]
   : Resolve issues and prep a CR with latest changes
 
   ; Fonts 4
@@ -304,6 +306,7 @@ It was last updated on 28 June 2017 and tracks backwards through about August 20
   : ACTION glazou Investigate which data needs to be added and how to automate current-work <trackbot> Created ACTION-685 - glazou: OK, so we will do these actions, and then go back to AC/plh and iterate
 
   ; Motion
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: New WD of Motion Path]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html|Resolved: Rename offset-rotation to be offset-rotate]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Resolved: Update motion draft on TR]]
 
@@ -407,6 +410,7 @@ It was last updated on 28 June 2017 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html|Resolved: SVG elements honor z-index automatically (like flex items), without requiring position.]]
 
   ; Syntax
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: trim white space before / after property value in a declaration.]]
   : [[https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/|Resolved: Unclosed URLs at the end of file should auto-close]]
 
   ; Tables
@@ -421,6 +425,7 @@ It was last updated on 28 June 2017 and tracks backwards through about August 20
   : [[https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/|Resolved: Down-level tests (e.g. CSS2.1 color tests) should be updated to not fail on higher-level implementations (e.g. CSS4 color implementations), but should also leave the old pass conditions intact so that down-level clients can still pass the tests for the older featureset.]]
 
   ; Text
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: No change for issue about adding no-wrap]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html|Resolved: Allow text-justify:none to apply to inlines.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Line break opportunities should be controlled by the parent.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Jan/0006.html|Resolved: Layout methods should depend on writing system in addition to language convention.]]
