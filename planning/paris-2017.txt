@@ -53,3 +53,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * maintenance of multicol
   * Tables Issues - Greg/Francois
   * Automating Test Coverage [Side discussion with Tab/Greg/Geoffrey/Anyone else??] - Greg
+  * CSS Display Level 3
+    * Relation of ''inline foo'' and ''inline-foo'' ([[https://github.com/w3c/csswg-drafts/issues/1486|1486]] and [[https://github.com/w3c/csswg-drafts/issues/1486|1246]])
+    * Potential reworking of flow-root syntax ([[https://github.com/w3c/csswg-drafts/issues/1496]])
+    * Any other open issues blocking CR
