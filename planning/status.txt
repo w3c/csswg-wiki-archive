@@ -41,6 +41,7 @@ It was last updated on 12 July 2017 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: 0px width float that is next to a line box does count as shortening a line box]]
 
   ; Box Alignment
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Publish an updated WD of css-align]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0006.html|Resolved: Option 3 from issue (Treat items with align-self: stretch and align-content: last baseline as having an end fallback alignment instead of a start fallback alignment.)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: New Values boilerplate accepted]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: leave behavior as-is and not accept ‘legacy’ values for ‘place-items’]]
@@ -101,6 +102,7 @@ It was last updated on 12 July 2017 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: make “disc” not overridable.]]
 
   ; CSS2.1
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Make the changes listed in css2.1 and position (Issues: https://github.com/w3c/csswg-drafts/issues/1436#issuecomment-313215820 )]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: Add gsnedders as editor to CSS2.2]]
   : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/|Resolved: Accept Myles’ proposal to make baseline of overflow non-visible inline blocks the higher of the actual baseline (at initial scroll position) and the margin-box bottom. Separately investigate whether to switch from margin-box bottom to padding-box bottom for sanity. (requries web-compat check)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0252.html|Resolved: Moving a float to the next fragmentainer does not move in-flow content that comes after the float. (However, per CSS2.1, subsequent floats do move down.)]]
@@ -162,6 +164,8 @@ It was last updated on 12 July 2017 and tracks backwards through about August 20
   : 
 
   ; Display 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Drop inline-list-item]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Publish new WD of css-display]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: Blocks are turned into inline-blocks.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: We are provisionally going with option b (inline-block-> block; inline flow-root -> flow-root).]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: Define this (Propagation of text-decoration with display:contents) as a box-tree concept.]]
@@ -202,6 +206,7 @@ It was last updated on 12 July 2017 and tracks backwards through about August 20
   :
 
   ; Images 3
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Accept the change in https://github.com/w3c/csswg-drafts/issues/1578]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: Move gradient midpoint to Images L3.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: Revert the edit to image-set in CSS Images.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Resolved: Move everything with no impl to next level and mark everything with 1 impl as at risk.]]
@@ -335,6 +340,7 @@ It was last updated on 12 July 2017 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: Add :first(A) to select first page of an A group. (A:first only selects a first page of the doc that also happens to be named A).]]
 
   ; Positioned Layout
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Make the changes listed in css2.1 and position (Issues: https://github.com/w3c/csswg-drafts/issues/1436#issuecomment-313215820 )]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html|Resolved: Standardize on Edge behavior as described by dbaron in the issue (https://github.com/w3c/csswg-drafts/issues/609#issuecomment-259058527)]]
   : [[https://www.w3.org/blog/CSS/2015/07/02/minutes-telecon-252/|ACTION Rossen add position: fixed as s full stacking context to positioning <trackbot> Created ACTION-698.]]
 
@@ -358,6 +364,10 @@ It was last updated on 12 July 2017 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html|Selecting an Outside Scoping Box - ACTION TabAtkins fantasai Add an example to section 2.2.2<trackbot> Created ACTION-625]]
 
   ; Scroll Snap
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Updated CR for scroll snap]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Take home and end out of intended direction class]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Make the change to page up and down to put in intended direction and endpoint class]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Accept this edit and close issue 1552 as resolved]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Accept the spec text proposed in issue 1084]]
 
   ; Selectors 3
