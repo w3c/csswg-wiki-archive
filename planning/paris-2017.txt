@@ -50,16 +50,10 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 ==== Observers ====
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| David Grogan (Google) | 1 Aug | 4 Aug | | |
 | Fred Wang (Igalia) | 1 Aug | 1 Aug | | |
 | Sergio Villar Senin (Igalia) | 1 Aug | 1 Aug | | | 
 
-
-**Regrets**
-
-   * Chris Lilley (no travel funding)
-   * Dael Jackson
-   * Hiroshi Sakakibara (my first baby will born) 
-   * Simon Pieters
 ==== Proposed Agenda Topics ====
 
   * maintenance of multicol
