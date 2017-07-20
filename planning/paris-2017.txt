@@ -18,6 +18,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 | Benjamin De Cock | 1 Aug | 5 Aug | Millennium Opera Hotel | Thalys |
 | Bert | 31 Jul | 4 Aug | Hôtel Joséphine | Train (Gare de Lyon) |
 | Brian Birtles | 30 July | 2 Aug | Hôtel Saint-Marc | JL415/416 |
+| Daniel Glazman | N/A | N/A | home | N/A |
 | Dave Cramer| 1 Aug | 5 Aug| |  |
 | Dean Jackson| 1 Aug | 4 Aug| | Walking, Swimming, Crawling |
 | Emil A Eklund| 1 Aug | 5 Aug | W Opera | TBD |
@@ -26,6 +27,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 | Florian Rivoal| | | AirBnB | Train |
 | Francois Remy | 31 July | 4 Aug | AirBnB | DL34
 | Geoffrey Sneddon | 31 Jul | 5 Aug | Mercure Paris Opera Louvre | (Probably some Eurostar) |
+| Greg Whitworth | | | |
 | Jack Moffitt |
 | Jen Simmons | 31 July | 5 Aug | AirBnb | BA304 (from London) / BA 8003 |
 | Jet Villegas | 28 July | 5 Aug | AirBnb | TBD |
@@ -39,13 +41,18 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 | Rob Flack| 31 July | 8 Aug | Hôtel Flor Rivoli | AC880/AC881 |
 | Rossen Atanassov| 1 Aug | 5 Aug | hotel | uber |
 | Simon Sapin | | | home |
-| Till Schneidereit |
-| Greg Whitworth | | | |
 | Surma | 31 Jul | 5 Aug | Millennium Opera Hotel | BA336/BA335 |
 | Tab Atkins | | | | |
-| Daniel Glazman | N/A | N/A | home | N/A |
+| Till Schneidereit |
 
 (alphabetical by given name)
+
+==== Observers ====
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Fred Wang (Igalia) | 1 Aug | 1 Aug | | |
+| Sergio Villar Senin (Igalia) | 1 Aug | 1 Aug | | | 
+
 
 **Regrets**
 
