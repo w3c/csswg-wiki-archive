@@ -75,3 +75,4 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * Flexbox Open Issues: https://drafts.csswg.org/css-flexbox/issues-cr-20160526
   * Counter Styles Open Issues, if not already covered. https://drafts.csswg.org/css-counter-styles-3/issues-cr-20150611
   * Informal breakout on difficult sizing issues?
+  * Review of TTML: send as a group or individually? (https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html)
