@@ -84,3 +84,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * Informal breakout on difficult sizing issues?
   * Review of TTML: send as a group or individually? (https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html)
   * Media Queries 4: CR? https://drafts.csswg.org/mediaqueries-4/issues-wd-2016-01-26.html
+  * letter-spacing - koji
+    * [[https://github.com/w3c/csswg-drafts/issues/1518|End edge behavior]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1517|RTL and bidi-mixed directions]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1509|Applying after line breaking]]
