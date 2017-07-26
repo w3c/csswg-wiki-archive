@@ -1,0 +1,93 @@
+====== Paris F2F August 2017 ======
+
+   * Host: Mozilla
+   * Dinner:
+   * Dates: Wednesday-Friday, August 2-4, 2017
+     * with a [[https://github.com/w3c/css-houdini-drafts/wiki/Paris-F2F-August-1st-2017|Houdini task force meeting]] at the same location on Tuesday, August 1, 2017
+
+==== Location ====
+
+[[https://wiki.mozilla.org/Paris|Mozilla Paris]], 16bis Boulevard Montmartre, 75009 Paris, France
+
+See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directions on finding and entering the space
+
+==== Participants ====
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Alan Stearns | 28 July | 5 Aug | AirBnB | |
+| Benjamin De Cock | 2 Aug | 5 Aug | Millennium Opera Hotel | Thalys |
+| Bert | 31 Jul | 4 Aug | Hôtel Joséphine | Train (Gare de Lyon) |
+| Brian Birtles | 30 July | 2 Aug | Hôtel Saint-Marc | JL415/416 |
+| Daniel Glazman | N/A | N/A | home | N/A |
+| Dave Cramer| 1 Aug | 5 Aug| |  |
+| Dean Jackson| 1 Aug | 4 Aug| | Walking, Swimming, Crawling |
+| Emil A Eklund| 1 Aug | 5 Aug | W Opera | TBD |
+| Eric Willigers | | | | |
+| fantasai | 31 July | 6 Aug | AirBnB | |
+| Florian Rivoal| | | AirBnB | Train |
+| Francois Remy | 31 July | 4 Aug | AirBnB | DL34
+| Geoffrey Sneddon | 31 Jul | 5 Aug | Mercure Paris Opera Louvre | (Probably some Eurostar) |
+| Greg Whitworth | | | |
+| Ian Kilpatrick | Lundi | Samedi | ??? | Stallion |
+| Jack Moffitt |
+| Jen Simmons | 31 July | 5 Aug | AirBnb | BA304 (from London) / BA 8003 |
+| Jet Villegas | 28 July | 5 Aug | AirBnb | TBD |
+| Koji Ishii| 31 July | 5 Aug | TBD | TBD |
+| L. David Baron | 28 July | 5 Aug | Hôtel Acadia - Astotel  | Eurostar 9032 / UA 984 |
+| Melanie Richards | 28 July | 5 Aug | Hotel Athenee | AF3653 / AF3622 |
+| Myles C. Maxfield | | | Eiffel Tower | Submarine |
+| Naina Raisinghani | | | | |
+| Peter Linss| 31 July | 5 Aug | AirBnB | Eurostar |
+| Rachel Andrew| 30 July | 5 Aug | | BA315/BA314 |
+| Rob Flack| 31 July | 8 Aug | Hôtel Flor Rivoli | AC880/AC881 |
+| Rossen Atanassov| 1 Aug | 5 Aug | hotel | uber |
+| Simon Sapin | | | home |
+| Surma | 31 Jul | 5 Aug | Millennium Opera Hotel | BA336/BA335 |
+| Tab Atkins | | | | |
+| Tantek Çelik | 2017-08-01 | 2017-08-10 | AirBnB | UA990/UA984 |
+| Till Schneidereit |
+
+**(alphabetical by given name)**
+
+** Regrets **
+  * Chris Lilley (no travel funding)
+  * Dael Jackson
+  * Hiroshi Sakakibara (my first baby will born)
+  * Jihye Hong
+  * Simon Pieters
+
+
+==== Observers ====
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| David Grogan (Google) | 1 Aug | 4 Aug | | |
+| Fred Wang (Igalia) | 1 Aug | 1 Aug | | |
+| Sergio Villar Senin (Igalia) | 1 Aug | 1 Aug | | | 
+
+==== Proposed Agenda Topics ====
+
+  * maintenance of multicol
+  * Tables Issues - Greg/Francois
+    * [[https://github.com/w3c/csswg-drafts/issues/508#issuecomment-317529294|input{display:table-*}]]
+    * [[https://github.com/w3c/csswg-drafts/issues/607#issuecomment-317532741|td{min-width:%}]]
+    * [[https://github.com/w3c/csswg-drafts/issues/474#issuecomment-317544515|td>div{height:%}]]
+    * [[https://github.com/w3c/csswg-drafts/issues/474#issuecomment-317544515|col{visibility:collapse}]]
+    * [[https://github.com/w3c/csswg-drafts/issues/484#issuecomment-317546569|fixed-layout width distribution]]
+  * Automating Test Coverage [Side discussion with Tab/Greg/Geoffrey/Anyone else??] - Greg
+  * CSS Display Level 3
+    * Relation of ''inline foo'' and ''inline-foo'' ([[https://github.com/w3c/csswg-drafts/issues/1486|1486]] and [[https://github.com/w3c/csswg-drafts/issues/1486|1246]])
+    * Potential reworking of flow-root syntax ([[https://github.com/w3c/csswg-drafts/issues/1496]])
+    * Any other open issues blocking CR
+  * [[https://github.com/w3c/csswg-drafts/issues/1594|Additive CSS]] (On Wednesday please!) - Brian
+  * Flexbox Open Issues: https://drafts.csswg.org/css-flexbox/issues-cr-20160526
+  * Counter Styles Open Issues, if not already covered. https://drafts.csswg.org/css-counter-styles-3/issues-cr-20150611
+  * Informal breakout on difficult sizing issues?
+  * Review of TTML: send as a group or individually? (https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html)
+    * coordination with TT WG over their requirements (followup from TAG meeting last week)
+  * selectors4 publication and review of dbaron's recent edit to API hooks (need to send email!)
+  * TAG review of OpenType variable fonts https://github.com/w3ctag/design-reviews/issues/183
+  * Media Queries 4: CR? https://drafts.csswg.org/mediaqueries-4/issues-wd-2016-01-26.html
+  * letter-spacing - koji
+    * [[https://github.com/w3c/csswg-drafts/issues/1518|End edge behavior]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1517|Bidi-mixed directions]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1509|Applying after line breaking]]
