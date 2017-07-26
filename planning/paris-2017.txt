@@ -84,6 +84,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * Informal breakout on difficult sizing issues?
   * Review of TTML: send as a group or individually? (https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html)
     * coordination with TT WG over their requirements (followup from TAG meeting last week)
+    * Nigel Megitt could attend remotely on Friday
   * selectors4 publication and review of dbaron's recent edit to API hooks (need to send email!)
   * TAG review of OpenType variable fonts https://github.com/w3ctag/design-reviews/issues/183
   * Media Queries 4: CR? https://drafts.csswg.org/mediaqueries-4/issues-wd-2016-01-26.html
