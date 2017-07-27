@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 12 July 2017 and tracks backwards through about August 2013 or so.
+It was last updated on 26 July 2017 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -41,6 +41,8 @@ It was last updated on 12 July 2017 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: 0px width float that is next to a line box does count as shortening a line box]]
 
   ; Box Alignment
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0023.html|Resolved: Option #1 from the issue (https://github.com/w3c/csswg-drafts/issues/1612)]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0023.html|Resolved: Such alignments that overflow will not participate in last baseline alignment (Issue #1556)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Publish an updated WD of css-align]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0006.html|Resolved: Option 3 from issue (Treat items with align-self: stretch and align-content: last baseline as having an end fallback alignment instead of a start fallback alignment.)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: New Values boilerplate accepted]]
@@ -99,6 +101,7 @@ It was last updated on 12 July 2017 and tracks backwards through about August 20
   : [[https://lists.w3.org/Archives/Public/www-style/2016May/0210.html|RESOLVED: Publish FPWD of css-contain-1 after edits on overflow dependency]]
 
   ; Counter Styles
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0023.html|Resolved: Accept the edits proposed in Issue 1295]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: make “disc” not overridable.]]
 
   ; CSS2.1
