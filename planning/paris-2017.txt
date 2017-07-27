@@ -99,3 +99,4 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * [css-rhythm][css-line-grid] - Florian/Koji
     * Discuss implementer's opinions on font-dependent layout and vertical rhythm combination ([[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-315091165|github comment]])
     * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-314690847|Florian's further testing and investigations]]
+  * Quick intro to APL https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html (Florian)
