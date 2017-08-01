@@ -75,12 +75,19 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
     * [[https://github.com/w3c/csswg-drafts/issues/1301|Naming of frames()]]
   * Counter Styles Open Issues, if not already covered. https://drafts.csswg.org/css-counter-styles-3/issues-cr-20150611
   * Media Queries 4: CR? https://drafts.csswg.org/mediaqueries-4/issues-wd-2016-01-26.html
+  * [[https://github.com/w3c/csswg-drafts/issues/1594|Additive CSS]] (On Wednesday please!) - Brian
 
 == Afternoon ==
 
-  * [[https://github.com/w3c/csswg-drafts/issues/1594|Additive CSS]] (On Wednesday please!) - Brian
   * Flexbox Open Issues: https://drafts.csswg.org/css-flexbox/issues-cr-20160526
   * selectors4 publication and review of dbaron's recent edit to API hooks (see [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0022.html|email]])
+  *  focus-ring
+    * standardising as written https://wicg.github.io/focus-ring/spec/focusring.html 
+    * Open questions:
+        * whether to (heuristically) match on any keyboard event, or only on tab/shift-tab https://github.com/WICG/focus-ring/issues/33
+        * how to “reset” to “original” focus style
+        * whether finer-grained control should be available over when :focus-ring should match for a particular element (to allow matching the behaviour of e.g. <input>)
+  * inert (https://github.com/WICG/inert/blob/master/README.md)
 
 === Thursday === 
 == Morning ==
@@ -127,12 +134,5 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 ==== Proposed Agenda Topics ====
 
   * Informal breakout on difficult sizing issues?
-  *  focus-ring
-    * standardising as written https://wicg.github.io/focus-ring/spec/focusring.html 
-    * Open questions:
-        * whether to (heuristically) match on any keyboard event, or only on tab/shift-tab https://github.com/WICG/focus-ring/issues/33
-        * how to “reset” to “original” focus style
-        * whether finer-grained control should be available over when :focus-ring should match for a particular element (to allow matching the behaviour of e.g. <input>)
-  * inert (https://github.com/WICG/inert/blob/master/README.md)
 
 
