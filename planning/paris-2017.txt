@@ -65,6 +65,25 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 | Fred Wang (Igalia) | 1 Aug | 1 Aug | | |
 | Sergio Villar Senin (Igalia) | 1 Aug | 1 Aug | | | 
 
+==== Topics ====
+
+=== Wednesday === 
+== Morning ==
+== Afternoon ==
+
+=== Thursday === 
+== Morning ==
+== Afternoon ==
+
+=== Friday === 
+== Morning ==
+
+  * Review of TTML: send as a group or individually? (https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html)
+    * coordination with TT WG over their requirements (followup from TAG meeting last week)
+    * Nigel Megitt could attend remotely on Friday
+
+== Afternoon ==
+
 ==== Proposed Agenda Topics ====
 
   * maintenance of multicol
@@ -86,9 +105,6 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * Flexbox Open Issues: https://drafts.csswg.org/css-flexbox/issues-cr-20160526
   * Counter Styles Open Issues, if not already covered. https://drafts.csswg.org/css-counter-styles-3/issues-cr-20150611
   * Informal breakout on difficult sizing issues?
-  * Review of TTML: send as a group or individually? (https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html)
-    * coordination with TT WG over their requirements (followup from TAG meeting last week)
-    * Nigel Megitt could attend remotely on Friday
   * selectors4 publication and review of dbaron's recent edit to API hooks (see [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0022.html|email]])
   * TAG review of OpenType variable fonts https://github.com/w3ctag/design-reviews/issues/183
   * Media Queries 4: CR? https://drafts.csswg.org/mediaqueries-4/issues-wd-2016-01-26.html
