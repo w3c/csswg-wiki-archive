@@ -134,5 +134,4 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 ==== Proposed Agenda Topics ====
 
   * Informal breakout on difficult sizing issues?
-
-
+  * css-text-3: bikeshedding line-break: break-all https://github.com/w3c/csswg-drafts/issues/1561 (Florian)
