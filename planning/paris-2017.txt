@@ -136,6 +136,10 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 ==== Proposed Agenda Topics ====
 
   * Informal breakout on difficult sizing issues?
+    * [[https://github.com/w3c/csswg-drafts/issues/765|765]]
+    * [[https://github.com/w3c/csswg-drafts/issues/794|794]]
+    * [[https://github.com/w3c/csswg-drafts/issues/951|951]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1609|1609]]
   * css-text-3: finalizing "line-break: break-all" Bikesheding https://github.com/w3c/csswg-drafts/issues/1561 and merging https://github.com/w3c/csswg-drafts/pull/1438 (Florian)
   * [CSS-UI-3] (Florian)
     * Getting ready for PR
