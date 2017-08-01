@@ -74,11 +74,13 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
     * [[https://github.com/w3c/csswg-drafts/issues/1577|Rename to CSS Easing Functions]]?
     * [[https://github.com/w3c/csswg-drafts/issues/1301|Naming of frames()]]
   * Counter Styles Open Issues, if not already covered. https://drafts.csswg.org/css-counter-styles-3/issues-cr-20150611
+  * Media Queries 4: CR? https://drafts.csswg.org/mediaqueries-4/issues-wd-2016-01-26.html
 
 == Afternoon ==
 
   * [[https://github.com/w3c/csswg-drafts/issues/1594|Additive CSS]] (On Wednesday please!) - Brian
   * Flexbox Open Issues: https://drafts.csswg.org/css-flexbox/issues-cr-20160526
+  * selectors4 publication and review of dbaron's recent edit to API hooks (see [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0022.html|email]])
 
 === Thursday === 
 == Morning ==
@@ -94,37 +96,37 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 
 == Afternoon ==
 
+  * TAG review of OpenType variable fonts https://github.com/w3ctag/design-reviews/issues/183
+  * [css-fonts] CSSFontFaceRule does not seem Web compatible https://github.com/w3c/csswg-drafts/issues/825 Myles
+  * CSS Display Level 3
+    * Relation of ''inline foo'' and ''inline-foo'' ([[https://github.com/w3c/csswg-drafts/issues/1486|1486]] and [[https://github.com/w3c/csswg-drafts/issues/1486|1246]])
+    * Potential reworking of flow-root syntax ([[https://github.com/w3c/csswg-drafts/issues/1496]])
+    * Any other open issues blocking CR
+
 === Friday === 
 == Morning ==
 
   * Review of TTML: send as a group or individually? (https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html)
     * coordination with TT WG over their requirements (followup from TAG meeting last week)
     * Nigel Megitt could attend remotely on Friday
-
-== Afternoon ==
-
-==== Proposed Agenda Topics ====
-
-  * maintenance of multicol
-  * CSS Display Level 3
-    * Relation of ''inline foo'' and ''inline-foo'' ([[https://github.com/w3c/csswg-drafts/issues/1486|1486]] and [[https://github.com/w3c/csswg-drafts/issues/1486|1246]])
-    * Potential reworking of flow-root syntax ([[https://github.com/w3c/csswg-drafts/issues/1496]])
-    * Any other open issues blocking CR
-  * Informal breakout on difficult sizing issues?
-  * selectors4 publication and review of dbaron's recent edit to API hooks (see [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0022.html|email]])
-  * TAG review of OpenType variable fonts https://github.com/w3ctag/design-reviews/issues/183
-  * Media Queries 4: CR? https://drafts.csswg.org/mediaqueries-4/issues-wd-2016-01-26.html
   * [css-text-3] letter-spacing - Koji
     * [[https://github.com/w3c/csswg-drafts/issues/1518|End edge behavior]]
     * [[https://github.com/w3c/csswg-drafts/issues/1517|Bidi-mixed directions]]
     * [[https://github.com/w3c/csswg-drafts/issues/1509|Applying after line breaking]]
   * [css-text-4] [[https://github.com/w3c/csswg-drafts/issues/1668 | text-spacing fullwidth punctuation collapsing]] (Florian)
-  * [css-fonts] CSSFontFaceRule does not seem Web compatible https://github.com/w3c/csswg-drafts/issues/825 Myles
+  * Renaming the dynamic and static profiles of selectors http://www.w3.org/mid/462521501352285@web16j.yandex.ru (Florian)
+
+== Afternoon ==
+
+  * Quick intro to APL https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html (Florian)
   * [css-rhythm][css-line-grid] - Florian/Koji
     * Discuss implementer's opinions on font-dependent layout and vertical rhythm combination ([[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-315091165|github comment]])
     * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-314690847|Florian's further testing and investigations]]
-  * Quick intro to APL https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html (Florian)
-  * Renaming the dynamic and static profiles of selectors http://www.w3.org/mid/462521501352285@web16j.yandex.ru (Florian)
+  * maintenance of multicol
+
+==== Proposed Agenda Topics ====
+
+  * Informal breakout on difficult sizing issues?
   *  focus-ring
     * standardising as written https://wicg.github.io/focus-ring/spec/focusring.html 
     * Open questions:
