@@ -134,6 +134,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
     * Discuss implementer's opinions on font-dependent layout and vertical rhythm combination ([[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-315091165|github comment]])
     * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-314690847|Florian's further testing and investigations]]
   * maintenance of multicol
+    * justify-content' other than 'normal' or 'stretch' should change column count/size rules https://github.com/w3c/csswg-drafts/issues/1420
 
 ==== Proposed Agenda Topics ====
 
@@ -148,7 +149,11 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
     * Keep most cursor changes in the UA stylesheet? https://github.com/w3c/csswg-drafts/issues/1598
     * Meaning of "must not affect dispatching of pointer events" https://github.com/w3c/csswg-drafts/issues/1637
     * Note pointing to HTML's definition of cursor applying to image maps? https://github.com/w3c/csswg-drafts/issues/1618
-  * [Multicol]
-    * justify-content' other than 'normal' or 'stretch' should change column count/size rules https://github.com/w3c/csswg-drafts/issues/1420
   * [CSS-UI-4] 'auto' as the initial value for the 'appearance' property may not be web-compatible https://github.com/w3c/csswg-drafts/issues/1250
   * [selectors] propagation of the :focus pseudo https://github.com/w3c/csswg-drafts/issues/1240
+  * Align issues
+    * [[https://github.com/w3c/csswg-drafts/issues/1002|Allowing fallback alignments without breaking shorthands]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1039|Baseline self-alignment may affect the intrinsic size contribution of the alignment subject.]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1365|How items with synthesized baseline affect the size of intrinsic tracks]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1572|Baseline of a multi-col box?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/1391|[css-writing-modes] Orthogonal Flow Constraint: viewport vs scroller]]
