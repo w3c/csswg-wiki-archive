@@ -96,6 +96,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
     * [[https://github.com/w3c/csswg-drafts/issues/1518|End edge behavior]]
     * [[https://github.com/w3c/csswg-drafts/issues/1517|Bidi-mixed directions]]
     * [[https://github.com/w3c/csswg-drafts/issues/1509|Applying after line breaking]]
+  * [css-text-4] [[https://github.com/w3c/csswg-drafts/issues/1668 | text-spacing fullwidth punctuation collapsing]] (Florian)
   * [css-fonts] CSSFontFaceRule does not seem Web compatible https://github.com/w3c/csswg-drafts/issues/825 Myles
   * [css-rhythm][css-line-grid] - Florian/Koji
     * Discuss implementer's opinions on font-dependent layout and vertical rhythm combination ([[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-315091165|github comment]])
