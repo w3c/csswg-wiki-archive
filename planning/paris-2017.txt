@@ -135,3 +135,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 
   * Informal breakout on difficult sizing issues?
   * css-text-3: finalizing "line-break: break-all" Bikesheding https://github.com/w3c/csswg-drafts/issues/1561 and merging https://github.com/w3c/csswg-drafts/issues/1171 (Florian)
+  * CSS-UI (Florian)
+    * Keep most cursor changes in the UA stylesheet? https://github.com/w3c/csswg-drafts/issues/1598
+    * Meaning of "must not affect dispatching of pointer events" https://github.com/w3c/csswg-drafts/issues/1637
+    * Note pointing to HTML's definition of cursor applying to image maps? https://github.com/w3c/csswg-drafts/issues/1618
