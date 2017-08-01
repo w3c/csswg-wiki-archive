@@ -125,3 +125,12 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
     * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-314690847|Florian's further testing and investigations]]
   * Quick intro to APL https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html (Florian)
   * Renaming the dynamic and static profiles of selectors http://www.w3.org/mid/462521501352285@web16j.yandex.ru (Florian)
+  *  focus-ring
+    * standardising as written https://wicg.github.io/focus-ring/spec/focusring.html 
+    * Open questions:
+        * whether to (heuristically) match on any keyboard event, or only on tab/shift-tab https://github.com/WICG/focus-ring/issues/33
+        * how to “reset” to “original” focus style
+        * whether finer-grained control should be available over when :focus-ring should match for a particular element (to allow matching the behaviour of e.g. <input>)
+  * inert (https://github.com/WICG/inert/blob/master/README.md)
+
+
