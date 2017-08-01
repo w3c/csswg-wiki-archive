@@ -142,3 +142,4 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * [Multicol]
     * justify-content' other than 'normal' or 'stretch' should change column count/size rules https://github.com/w3c/csswg-drafts/issues/1420
   * [CSS-UI-4] 'auto' as the initial value for the 'appearance' property may not be web-compatible https://github.com/w3c/csswg-drafts/issues/1250
+  * [selectors] propagation of the :focus pseudo https://github.com/w3c/csswg-drafts/issues/1240
