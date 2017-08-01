@@ -105,6 +105,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 
   * TAG review of OpenType variable fonts https://github.com/w3ctag/design-reviews/issues/183
   * [css-fonts] CSSFontFaceRule does not seem Web compatible https://github.com/w3c/csswg-drafts/issues/825 Myles
+  * [css-fonts-4] We can't add new values to the font-synthesis property [[https://github.com/w3c/csswg-drafts/issues/1641|1641]]
   * CSS Display Level 3
     * Relation of ''inline foo'' and ''inline-foo'' ([[https://github.com/w3c/csswg-drafts/issues/1486|1486]] and [[https://github.com/w3c/csswg-drafts/issues/1486|1246]])
     * Potential reworking of flow-root syntax ([[https://github.com/w3c/csswg-drafts/issues/1496]])
@@ -116,6 +117,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * Review of TTML: send as a group or individually? (https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html)
     * coordination with TT WG over their requirements (followup from TAG meeting last week)
     * Nigel Megitt could attend remotely on Friday
+  * [css-break] Consider adding clone-most-nested [[https://github.com/w3c/csswg-drafts/issues/1633|1633]]
   * [css-text-3] letter-spacing - Koji
     * [[https://github.com/w3c/csswg-drafts/issues/1518|End edge behavior]]
     * [[https://github.com/w3c/csswg-drafts/issues/1517|Bidi-mixed directions]]
