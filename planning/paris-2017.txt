@@ -80,6 +80,16 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 
 === Thursday === 
 == Morning ==
+
+  * Tables Issues - Greg/Francois
+    * [[https://github.com/w3c/csswg-drafts/issues/508#issuecomment-317529294|input{display:table-*}]]
+    * [[https://github.com/w3c/csswg-drafts/issues/607#issuecomment-317532741|td{min-width:%}]]
+    * [[https://github.com/w3c/csswg-drafts/issues/474#issuecomment-317544515|td>div{height:%}]]
+    * [[https://github.com/w3c/csswg-drafts/issues/474#issuecomment-317544515|col{visibility:collapse}]]
+    * [[https://github.com/w3c/csswg-drafts/issues/484#issuecomment-317546569|fixed-layout width distribution]]
+  * Automating Test Coverage [Side discussion with Tab/Greg/Geoffrey/Anyone else??] - Greg
+  * Revisiting policy around requiring tests for normative changes (see [[http://www.w3.org/mid/E68C12B1-A354-44CD-8F9A-334728997955@adobe.com|email]]) - Geoffrey/Chris (who isn't here)
+
 == Afternoon ==
 
 === Friday === 
@@ -94,13 +104,6 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 ==== Proposed Agenda Topics ====
 
   * maintenance of multicol
-  * Tables Issues - Greg/Francois
-    * [[https://github.com/w3c/csswg-drafts/issues/508#issuecomment-317529294|input{display:table-*}]]
-    * [[https://github.com/w3c/csswg-drafts/issues/607#issuecomment-317532741|td{min-width:%}]]
-    * [[https://github.com/w3c/csswg-drafts/issues/474#issuecomment-317544515|td>div{height:%}]]
-    * [[https://github.com/w3c/csswg-drafts/issues/474#issuecomment-317544515|col{visibility:collapse}]]
-    * [[https://github.com/w3c/csswg-drafts/issues/484#issuecomment-317546569|fixed-layout width distribution]]
-  * Automating Test Coverage [Side discussion with Tab/Greg/Geoffrey/Anyone else??] - Greg
   * CSS Display Level 3
     * Relation of ''inline foo'' and ''inline-foo'' ([[https://github.com/w3c/csswg-drafts/issues/1486|1486]] and [[https://github.com/w3c/csswg-drafts/issues/1486|1246]])
     * Potential reworking of flow-root syntax ([[https://github.com/w3c/csswg-drafts/issues/1496]])
@@ -122,4 +125,3 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
     * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-314690847|Florian's further testing and investigations]]
   * Quick intro to APL https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html (Florian)
   * Renaming the dynamic and static profiles of selectors http://www.w3.org/mid/462521501352285@web16j.yandex.ru (Florian)
-  * Revisiting policy around requiring tests for normative changes (see [[http://www.w3.org/mid/E68C12B1-A354-44CD-8F9A-334728997955@adobe.com|email]]) - Geoffrey/Chris (who isn't here)
