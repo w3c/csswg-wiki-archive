@@ -86,13 +86,13 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 
   * Flexbox Open Issues: https://drafts.csswg.org/css-flexbox/issues-cr-20160526
   * selectors4 publication and review of dbaron's recent edit to API hooks (see [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0022.html|email]])
+  * [selectors] propagation of the :focus pseudo https://github.com/w3c/csswg-drafts/issues/1240
   *  focus-ring
     * standardising as written https://wicg.github.io/focus-ring/spec/focusring.html 
     * Open questions:
         * whether to (heuristically) match on any keyboard event, or only on tab/shift-tab https://github.com/WICG/focus-ring/issues/33
         * how to “reset” to “original” focus style
         * whether finer-grained control should be available over when :focus-ring should match for a particular element (to allow matching the behaviour of e.g. <input>)
-  * [selectors] propagation of the :focus pseudo https://github.com/w3c/csswg-drafts/issues/1240
   * inert (https://github.com/WICG/inert/blob/master/README.md)
 
 === Thursday === 
