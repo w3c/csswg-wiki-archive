@@ -168,3 +168,4 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * Informal breakout on difficult sizing issues?
     * [[https://github.com/w3c/csswg-drafts/issues/794|794]]
     * [[https://github.com/w3c/csswg-drafts/issues/1609|1609]]
+  * Which font properties should be resolved by the font shorthand? [[https://github.com/w3c/csswg-drafts/issues/1636]]
