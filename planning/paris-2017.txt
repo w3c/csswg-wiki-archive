@@ -101,11 +101,11 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 == Morning ==
 
   * Tables Issues - Greg/Francois
-    * [[https://github.com/w3c/csswg-drafts/issues/508#issuecomment-317529294|input{display:table-*}]]
-    * [[https://github.com/w3c/csswg-drafts/issues/607#issuecomment-317532741|td{min-width:%}]]
-    * [[https://github.com/w3c/csswg-drafts/issues/474#issuecomment-317544515|td>div{height:%}]]
-    * [[https://github.com/w3c/csswg-drafts/issues/478|col{visibility:collapse}]]
-    * [[https://github.com/w3c/csswg-drafts/issues/484#issuecomment-317546569|fixed-layout width distribution]]
+    * [[https://github.com/w3c/csswg-drafts/issues/508#issuecomment-317529294|input{display:table-*}]] - Greg
+    * [[https://github.com/w3c/csswg-drafts/issues/607#issuecomment-317532741|td{min-width:%}]] - Francois
+    * [[https://github.com/w3c/csswg-drafts/issues/474#issuecomment-317544515|td>div{height:%}]] - Francois
+    * [[https://github.com/w3c/csswg-drafts/issues/484#issuecomment-317546569|fixed-layout width distribution]] - Greg
+    * [[https://github.com/w3c/csswg-drafts/issues/478|col{visibility:collapse}]] - Greg    
   * Automating Test Coverage - Greg
   * Revisiting policy around requiring tests for normative changes (see [[http://www.w3.org/mid/E68C12B1-A354-44CD-8F9A-334728997955@adobe.com|email]]) - Geoffrey/Chris (who isn't here)
   * [CSS-UI-3] (Florian)
