@@ -96,6 +96,9 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
         * how to “reset” to “original” focus style
         * whether finer-grained control should be available over when :focus-ring should match for a particular element (to allow matching the behaviour of e.g. <input>)
   * inert (https://github.com/WICG/inert/blob/master/README.md)
+  * Sizing
+    * [[https://github.com/w3c/csswg-drafts/issues/765|765]]
+    * [[https://github.com/w3c/csswg-drafts/issues/951|951]]
 
 === Thursday === 
 == Morning ==
@@ -156,7 +159,5 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 ==== Proposed Agenda Topics ====
 
   * Informal breakout on difficult sizing issues?
-    * [[https://github.com/w3c/csswg-drafts/issues/765|765]]
     * [[https://github.com/w3c/csswg-drafts/issues/794|794]]
-    * [[https://github.com/w3c/csswg-drafts/issues/951|951]]
     * [[https://github.com/w3c/csswg-drafts/issues/1609|1609]]
