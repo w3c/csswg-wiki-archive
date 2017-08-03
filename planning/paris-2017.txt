@@ -151,16 +151,18 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 
 == Afternoon ==
 
+  * CSS Variables that are not changed by the user (dino)
+  * CSS Grid issues 
+  * maintenance of multicol
+    * justify-content' other than 'normal' or 'stretch' should change column count/size rules https://github.com/w3c/csswg-drafts/issues/1420
+    * Adding Rachel Andrew as an editor
   * css-text-3: finalizing "line-break: break-all" Bikesheding https://github.com/w3c/csswg-drafts/issues/1561 and merging https://github.com/w3c/csswg-drafts/pull/1438 (Florian)
   * Quick intro to APL https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html (Florian)
   * [css-rhythm][css-line-grid] - Florian/Koji
     * [[https://groups.google.com/forum/#!msg/mozilla.dev.platform/cnEN_sccXJY/1ddo5XifAwAJ|dbaron's comments on mozilla.dev.platform]]
     * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-318495149|Tab/Shane's proposal]]
     * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-314690847|Florian's further testing and investigations]]
-  * maintenance of multicol
-    * justify-content' other than 'normal' or 'stretch' should change column count/size rules https://github.com/w3c/csswg-drafts/issues/1420
-    * Adding Rachel Andrew as an editor
-  * CSS Variables that are not changed by the user (dino)
+
 ==== Proposed Agenda Topics ====
 
   * Informal breakout on difficult sizing issues?
