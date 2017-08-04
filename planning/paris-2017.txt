@@ -147,6 +147,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
     * [[https://github.com/w3c/csswg-drafts/issues/1518|End edge behavior]]
     * [[https://github.com/w3c/csswg-drafts/issues/1517|Bidi-mixed directions]]
     * [[https://github.com/w3c/csswg-drafts/issues/1509|Applying after line breaking]]
+    * finalizing "line-break: break-all" Bikesheding https://github.com/w3c/csswg-drafts/issues/1561 and merging https://github.com/w3c/csswg-drafts/pull/1438 (Florian)
   * [css-text-4] [[https://github.com/w3c/csswg-drafts/issues/1668 | text-spacing fullwidth punctuation collapsing]] (Florian)
   * [[https://github.com/w3c/csswg-drafts/issues/1391|[css-writing-modes] Orthogonal Flow Constraint: viewport vs scroller]]
 
@@ -158,7 +159,6 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * maintenance of multicol
     * justify-content' other than 'normal' or 'stretch' should change column count/size rules https://github.com/w3c/csswg-drafts/issues/1420
     * Adding Rachel Andrew as an editor
-  * css-text-3: finalizing "line-break: break-all" Bikesheding https://github.com/w3c/csswg-drafts/issues/1561 and merging https://github.com/w3c/csswg-drafts/pull/1438 (Florian)
   * Quick intro to APL https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html (Florian)
   * Inline Layout
     * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-314690847|Florian's further testing and investigations]]
