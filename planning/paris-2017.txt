@@ -153,7 +153,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
 
 == Afternoon ==
 
-  * CSS Variables that are not changed by the user (dino)
+  * [[https://github.com/w3c/csswg-drafts/issues/1693|CSS Variables that are not changed by the user]] (dino)
   * CSS Grid issues 
   * maintenance of multicol
     * justify-content' other than 'normal' or 'stretch' should change column count/size rules https://github.com/w3c/csswg-drafts/issues/1420
@@ -165,7 +165,6 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * [css-rhythm][css-line-grid] - Florian/Koji
     * [[https://groups.google.com/forum/#!msg/mozilla.dev.platform/cnEN_sccXJY/1ddo5XifAwAJ|dbaron's comments on mozilla.dev.platform]]
     * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-318495149|Tab/Shane's proposal]]
-
 ==== Proposed Agenda Topics ====
 
   * Informal breakout on difficult sizing issues?
