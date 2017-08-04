@@ -157,7 +157,6 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * [[https://github.com/w3c/csswg-drafts/issues/1693|CSS Variables that are not changed by the user]] (dino)
   * CSS Grid issues 
   * maintenance of multicol
-    * justify-content' other than 'normal' or 'stretch' should change column count/size rules https://github.com/w3c/csswg-drafts/issues/1420
     * Adding Rachel Andrew as an editor
   * Quick intro to APL https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html (Florian)
   * Inline Layout
