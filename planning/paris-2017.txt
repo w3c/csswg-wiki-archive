@@ -133,6 +133,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
     * [[https://github.com/w3c/csswg-drafts/issues/1457|Becoming a formatting context]]
     * Any other open issues blocking CR
   * [CSS-UI-4] 'auto' as the initial value for the 'appearance' property may not be web-compatible https://github.com/w3c/csswg-drafts/issues/1250
+  * Which font properties should be resolved by the font shorthand? [[https://github.com/w3c/csswg-drafts/issues/1636]]
 
 === Friday === 
 == Morning ==
@@ -169,4 +170,3 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
   * Informal breakout on difficult sizing issues?
     * [[https://github.com/w3c/csswg-drafts/issues/794|794]]
     * [[https://github.com/w3c/csswg-drafts/issues/1609|1609]]
-  * Which font properties should be resolved by the font shorthand? [[https://github.com/w3c/csswg-drafts/issues/1636]]
