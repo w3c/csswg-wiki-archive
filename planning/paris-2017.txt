@@ -148,7 +148,7 @@ See [[https://wiki.mozilla.org/Paris|Mozilla Paris wiki]] for important directio
     * [[https://github.com/w3c/csswg-drafts/issues/1517|Bidi-mixed directions]]
     * [[https://github.com/w3c/csswg-drafts/issues/1509|Applying after line breaking]]
   * [css-text-4] [[https://github.com/w3c/csswg-drafts/issues/1668 | text-spacing fullwidth punctuation collapsing]] (Florian)
-  * Renaming the dynamic and static profiles of selectors http://www.w3.org/mid/462521501352285@web16j.yandex.ru (Florian)
+  * Renaming the dynamic and static profiles of selectors https://github.com/w3c/csswg-drafts/issues/1694 (Florian)
   * [[https://github.com/w3c/csswg-drafts/issues/1391|[css-writing-modes] Orthogonal Flow Constraint: viewport vs scroller]]
 
 == Afternoon ==
