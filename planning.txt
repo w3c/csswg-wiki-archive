@@ -25,6 +25,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 ===== Past Meetings =====
 
 ==== 2017 ====
+    * 2017-08-01..04 [[planning:paris-2017]] - Paris, France (Mozilla)
     * 2017-04-19..21 [[planning:tokyo-2017]] - Tokyo, Japan
         * Minutes:
             * Wednesday, April 19 [[https://lists.w3.org/Archives/Public/www-style/2017May/0043.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0044.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0045.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0046.html|Part IV]]
