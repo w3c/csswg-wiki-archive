@@ -27,6 +27,10 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 
 ==== 2017 ====
     * 2017-04-19..21 [[planning:tokyo-2017]] - Tokyo, Japan
+        * Minutes:
+            * Wednesday, April 19 [[https://lists.w3.org/Archives/Public/www-style/2017May/0043.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0044.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0045.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0046.html|Part IV]]
+            * Thursday, April 20 [[https://lists.w3.org/Archives/Public/www-style/2017May/0047.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0048.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0049.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0050.html|Part IV]]
+            * Friday, April 21 [[https://lists.w3.org/Archives/Public/www-style/2017May/0051.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0052.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0053.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0054.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0055.html|Part V]]
     * 2017-01-11..13 [[planning:seattle-2017]] - Microsoft Seattle, WA
         * Minutes:
             * Wednesday, 11 Jan [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0048.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0049.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0050.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0051.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0052.html|Part V]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0053.html|Part VI]]
