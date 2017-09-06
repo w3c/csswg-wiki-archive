@@ -16,5 +16,8 @@ Please add 'block' to the hotel column if you would be interested in taking adva
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
 | Alan Stearns | | | | |
 | Dave Cramer | | | block | |
+| Eric Willigers | | | block | |
 | Geoffrey Sneddon | | | probably staying with family | |
+| Naina Raisinghani | | | will organize own hotel | |
+| Shane Stephens | | | block | |
 | Vladimir Levantovsky | | | block | |
