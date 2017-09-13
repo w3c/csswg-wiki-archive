@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 7 September 2017 and tracks backwards through about August 2013 or so.
+It was last updated on 13 September 2017 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -185,6 +185,8 @@ It was last updated on 7 September 2017 and tracks backwards through about Augus
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Tav presented a new filter primitive he'd like added to level 2; dino agreed it was interesting and will look into adding it to the spec.]]
 
   ; Flexbox
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html|Resolved: Publish an updated CR of Flexbox.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html|Resolved: Implementors were requested to review the tests and assertions Florian has compiled (https://github.com/w3c/csswg-drafts/issues/1796#issuecomment-328713658 )]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html|Resolved: Change the spec to treat width and height as input for the max content size.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html|Resolved: Allow percentages to resolve, re-open issue if dholbert or others want to re-discuss.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: No change for issue about adding no-wrap]]
@@ -541,6 +543,8 @@ It was last updated on 7 September 2017 and tracks backwards through about Augus
   : 
 
   ; Values and Units 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html|Resolved: Close issue #309 no change.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html|Resolved: Add a clarifying note referencing cascade and then close issue #1782.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: Add the x unit to <resolution> type in Values & Units 4.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html|Resolved: Add proposed DOM load events to Values & Units.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html|Resolved: Only spec the unitless 0 quirk for transforms & gradients.]]
