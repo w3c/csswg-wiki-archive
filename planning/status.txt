@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 13 September 2017 and tracks backwards through about August 2013 or so.
+It was last updated on 20 September 2017 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -213,7 +213,8 @@ It was last updated on 13 September 2017 and tracks backwards through about Augu
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
 
   ; Grid
-  :
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: fit-content does not grow past its argument due to alignment stretch.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: Keep fit-content behavior as-is, to not grow past max-content in presence of stretch.]]
 
   ; Images 3
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Accept the change in https://github.com/w3c/csswg-drafts/issues/1578]]
@@ -350,6 +351,7 @@ It was last updated on 13 September 2017 and tracks backwards through about Augu
   : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: Add :first(A) to select first page of an A group. (A:first only selects a first page of the doc that also happens to be named A).]]
 
   ; Positioned Layout
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: Close issue 1660 no change.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Make the changes listed in css2.1 and position (Issues: https://github.com/w3c/csswg-drafts/issues/1436#issuecomment-313215820 )]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html|Resolved: Standardize on Edge behavior as described by dbaron in the issue (https://github.com/w3c/csswg-drafts/issues/609#issuecomment-259058527)]]
   : [[https://www.w3.org/blog/CSS/2015/07/02/minutes-telecon-252/|ACTION Rossen add position: fixed as s full stacking context to positioning <trackbot> Created ACTION-698.]]
@@ -516,6 +518,7 @@ It was last updated on 13 September 2017 and tracks backwards through about Augu
   : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|Action: Fantasai Define prop def table (in "Snapshot").]]
 
   ; UI
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: SVG without intrinsic dimensions MAY be supported (not MUST), add a note (to indicate the working group's original intent to have this a MUST).]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html|Resolved: Leave spec as-is, no changes. Accept all current requirements as listed in issue (Github: https://github.com/w3c/csswg-drafts/issues/1770 )
   : [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html|Resolved: Add the proposed text from the github issue https://github.com/w3c/csswg-drafts/issues/1691 ]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html|Resolved: option 1: no change and add perhaps a non-normative note explaining adding this on the root isn't a great pattern]]
@@ -563,6 +566,10 @@ It was last updated on 13 September 2017 and tracks backwards through about Augu
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Resolved: Start a level 4 draft of Values & Units, move calc() serialization to it, and then publish the remainder of Values & Units 3 as CR.]]
 
   ; Variables
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: Rename what was 'constant' variables to 'environment' variables using env().]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: Add this as an ED of variables L2.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: Add dino as an editor of variables L2 with TabAtkins.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: The initial set is safe area top, bottom, left and right.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html|Action: gsnedders to check if Variables test coverage is from many browsers]]
  
 
