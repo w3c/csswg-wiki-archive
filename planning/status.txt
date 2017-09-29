@@ -328,18 +328,8 @@ It was last updated on 20 September 2017 and tracks backwards through about Augu
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Resolved: Update motion draft on TR]]
 
   ; Multicol 1
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html|Resolved: Columns do not clip by default]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html|Resolved: Columns are properties applied to block containers only.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Have column-span elements create a bfc even if not in a multi-col container.]]
-  : [[https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/|Resolved: Drop break-before and break-after from Multicol and reference fragmentation definitions and republish as CR/]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jan/0031.html|Resolved: Accept the new text for grid and multi-col changing the floor to a required amount. The new text is: “For the purpose of finding the number of auto-repeated tracks, the UA must floor the track size to a UA-specified value to avoid division by zero. It is suggested that this floor be ”1px” or less.”]]
   : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/|ACTION: TabAtkins talk with WebApps about a reordering API<trackbot> Created ACTION-692.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html|Resolved: Discussed layering order of column rules.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html|Resolved: Columns do not clip anything. (As if ::column just had overflow:visible by default).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html|Resolved: Remove the restriction about overflow columns only being in continuous media with the statement that column-fill has no effect on overflow columns.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html|Resolved: Have two keywords for balancing – balance and either balance-last or balance-all, depending on what implementations (including Prince and Antenna House) do by default.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html|Resolved: To balance columns, you just make the row as short as possible (honoring breaking controls, sizes, etc.), then flow normally into that height. No explicit “balancing” occurs (but it’s a common effect).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html|Resolved: Håkon to create a public, editable, full list of issues with source, response and resolution. The format is up to him.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html|ACTION rossen to add spec text to multicol specifying that text draws over column rules. <trackbot> Created ACTION-578]]
 
   ; Namespaces
