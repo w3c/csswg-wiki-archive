@@ -328,7 +328,6 @@ It was last updated on 20 September 2017 and tracks backwards through about Augu
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Resolved: Update motion draft on TR]]
 
   ; Multicol 1
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Have column-span elements create a bfc even if not in a multi-col container.]]
   : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/|ACTION: TabAtkins talk with WebApps about a reordering API<trackbot> Created ACTION-692.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html|ACTION rossen to add spec text to multicol specifying that text draws over column rules. <trackbot> Created ACTION-578]]
 
