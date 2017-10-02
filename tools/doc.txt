@@ -1,0 +1,10 @@
+====== Disposition of Comments tool ======
+
+Example of a DoC generated with the app: https://drafts.csswg.org/issues?spec=css-images&doc=cr-2012
+
+To start a new DoC, visit [[https://drafts.csswg.org/issues]]
+Insert the spec shortname and an id for the DoC (e.g. cr-2012) and press Go. This will generate the URL for your DoC and take you to it so you can start editing (of course you could also generate the URL manually).
+Press Login on the top bar to authenticate with Github. Then click Edit, and use the GUI for editing. Once you're done, click Save and it will automatically commit back to Github with the right prefix.
+The data is saved as a Yaml file, for easier manual editing if needed (e.g. if offline). You can see an example here: https://github.com/w3c/csswg-drafts/blob/master/css-images/issues-cr-2012.yaml
+
+The app itself is made with [[https://mavo.io/|Mavo]], and is therefore entirely defined via HTML and CSS, so it's very easy to change if e.g. you need an extra field or filter.
