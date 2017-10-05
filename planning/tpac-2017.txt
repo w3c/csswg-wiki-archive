@@ -34,4 +34,4 @@ Regrets:
 11am: APA/ARIA
 
 ==== Proposed Agenda ====
-
+* [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0013.html|unifying line grid / rhythm / line spacing proposals]] (dbaron)
