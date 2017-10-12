@@ -186,11 +186,6 @@ It was last updated on 20 September 2017 and tracks backwards through about Augu
 
   ; Flexbox
   : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html|Resolved: Publish an updated CR of Flexbox.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html|Resolved: Publish an updated CR of Flexbox.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html|Resolved: Change the spec to treat width and height as input for the max content size.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html|Resolved: Allow percentages to resolve, re-open issue if dholbert or others want to re-discuss.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: No change for issue about adding no-wrap]]
-  : Resolve issues and prep a CR with latest changes
 
   ; Fonts 4
   : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html|Resolved: Drop the requirement to subtract scrollbar size from vh/vw units for overflow scroll.]]
