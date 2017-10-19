@@ -8,3 +8,11 @@ Press Login on the top bar to authenticate with Github. Then click Edit, and use
 The data is saved as a Yaml file, for easier manual editing if needed (e.g. if offline). You can see an example here: https://github.com/w3c/csswg-drafts/blob/master/css-images/issues-cr-2012.yaml
 
 The app itself is made with [[https://mavo.io/|Mavo]], and is therefore entirely defined via HTML and CSS, so it's very easy to change if e.g. you need an extra field or filter.
+
+===== How to adapt the tool for a different WG =====
+
+  * Visit https://github.com/w3c/csswg-drafts/ and download issues.html and issues.css (do NOT download them from drafts.csswg.org, the server adds stuff to them).
+  * Edit issues.html and change ''w3c/csswg-drafts'' in ''mv-storage'' to your WG’s repo (e.g. ''w3c/ttml2'')
+  * Edit the title "CSS WG Disposition of Comments" to something that is relevant to your WG
+  * Upload to the root of your repo
+  * Done!
