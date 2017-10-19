@@ -1,6 +1,6 @@
 ====== Disposition of Comments tool ======
 
-Example of a DoC generated with the app: https://drafts.csswg.org/issues?spec=css-images&doc=cr-2012
+Example of a DoC generated with the app: https://drafts.csswg.org/issues?spec=css-images-3&doc=cr-2012
 
 To start a new DoC, visit [[https://drafts.csswg.org/issues]]
 Insert the spec shortname and an id for the DoC (e.g. cr-2012) and press Go. This will generate the URL for your DoC and take you to it so you can start editing (of course you could also generate the URL manually).
