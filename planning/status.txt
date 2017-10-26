@@ -2,7 +2,7 @@
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
-It was last updated on 20 September 2017 and tracks backwards through about August 2013 or so.
+It was last updated on 25 October 2017 and tracks backwards through about August 2013 or so.
 
 
   ; Animation Scrolling
@@ -188,6 +188,7 @@ It was last updated on 20 September 2017 and tracks backwards through about Augu
   : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html|Resolved: Publish an updated CR of Flexbox.]]
 
   ; Fonts 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html|Resolved: Publish a new Fonts 3 CR.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html|Resolved: Drop the requirement to subtract scrollbar size from vh/vw units for overflow scroll.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html|Resolved: Change spec text to read first available font that would match the U+0020 (space) character. (This change will be applied to both Fonts 3 and 4)]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Action Myles to respond to the dwrite issue and ChrisL's asks for font edits. <trackbot> Created ACTION-838]]
@@ -473,6 +474,7 @@ It was last updated on 20 September 2017 and tracks backwards through about Augu
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0096.html|fantasai> ACTION TabAtkins Find unhappy dude at Google who dislikes hyphenation properties and have him send email explaining his unhappiness to www-style <trackbot> Created ACTION-715]]
 
   ; Text Decoration 4
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html|Resolved: Add the statement that stroke should follow the curve of the glyph as well as adding a non-normative note that points out anything captured in the Github issue and add better pictures.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html|Resolved: Ink skipping applies to overline and underline, but not line-throughs]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Merge heycam's spec paint spec with this proposal and put into FX repository.]]
@@ -501,6 +503,9 @@ It was last updated on 20 September 2017 and tracks backwards through about Augu
   : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|Action: Fantasai Define prop def table (in "Snapshot").]]
 
   ; UI
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html|Resolved: Take CSS UI 3 to PR.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html|Resolved: Take CSS UI 4 to an updated WD.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html|Resolved: Re-point CSS UI link to CSS UI 4 spec.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: SVG without intrinsic dimensions MAY be supported (not MUST), add a note (to indicate the working group's original intent to have this a MUST).]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html|Resolved: Leave spec as-is, no changes. Accept all current requirements as listed in issue (Github: https://github.com/w3c/csswg-drafts/issues/1770 )
   : [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html|Resolved: Add the proposed text from the github issue https://github.com/w3c/csswg-drafts/issues/1691 ]]
