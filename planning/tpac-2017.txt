@@ -52,3 +52,4 @@ Regrets:
   * General animation of offset-path and d path strings (https://github.com/w3c/fxtf-drafts/issues/225)
   * Cleaning up owners files for testing (gregwhitworth)
   * [[https://github.com/w3c/csswg-drafts/issues/1898|logical/physical property cascade and the .style API]] (tabatkins)
+  * [[https://github.com/w3c/csswg-drafts/issues/1322|Non-interop on sizing images in flexbox]] (tab & fantasai & jen) 
