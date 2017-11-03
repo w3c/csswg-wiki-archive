@@ -77,7 +77,7 @@ Regrets:
     * To which box does paint containment clip? https://github.com/w3c/csswg-drafts/issues/1809
     * Clarify style containment effect 1 https://github.com/w3c/csswg-drafts/issues/1872
     * Do scoped counters create new counters https://github.com/w3c/csswg-drafts/issues/1887
-    * Becoming a formatting context vs ruby: what should that do https://github.com/w3c/csswg-drafts/issues/1457
+    * Becoming a formatting context root vs ruby: what should that do https://github.com/w3c/csswg-drafts/issues/1457
   * [css-ui-4] appearance  (Florian)
     * compatibility with existing content https://github.com/w3c/csswg-drafts/issues/1250
     * what aspect of complex controls to preserve when appearance is none https://github.com/w3c/csswg-drafts/issues/356
