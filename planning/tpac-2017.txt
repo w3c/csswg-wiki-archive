@@ -73,3 +73,4 @@ Regrets:
     * borken indices in the 2017 snapshot https://github.com/w3c/csswg-drafts/issues/1007
     * Copy document conventions (and conformance?) from 2.1 to the snapshot? https://github.com/w3c/csswg-drafts/issues/1867
   * Clarify widows and orphans https://github.com/w3c/csswg-drafts/issues/1823 (Florian)
+  * CSS Contain: To which box does paint containment clip? https://github.com/w3c/csswg-drafts/issues/1809 (Florian)
