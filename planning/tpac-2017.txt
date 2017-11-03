@@ -49,8 +49,11 @@ Regrets:
 11am: APA/ARIA
 
 ==== Proposed Agenda ====
-  * [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0013.html|unifying line grid / rhythm / line spacing proposals]] (dbaron)
-  * [[https://github.com/w3c/csswg-drafts/issues/938|Avoiding accidental double spacing]] (if remote is possible, probably after dbaron's proposal, koji)
+  * line height / line spacing related
+    * [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0013.html|unifying line grid / rhythm / line spacing proposals]] (dbaron)
+    * [[https://github.com/w3c/csswg-drafts/issues/938|Avoiding accidental double spacing]] (if remote is possible, probably after dbaron's proposal, koji)
+    * Interop on the line-height property https://github.com/w3c/csswg-drafts/issues/1796 (Florian)
+    * Interaction between line grid + size + position https://github.com/w3c/csswg-drafts/issues/1856 ( Florian)
   * intrinsic size of 'overflow: auto/scroll' and its impact on auto-sized grid/flex item ancestors
   * General animation of offset-path and d path strings (https://github.com/w3c/fxtf-drafts/issues/225)
   * Cleaning up owners files for testing (gregwhitworth)
