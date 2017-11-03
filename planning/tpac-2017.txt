@@ -74,8 +74,10 @@ Regrets:
     * Copy document conventions (and conformance?) from 2.1 to the snapshot? https://github.com/w3c/csswg-drafts/issues/1867
   * Clarify widows and orphans https://github.com/w3c/csswg-drafts/issues/1823 (Florian)
   * CSS Contain: To which box does paint containment clip? https://github.com/w3c/csswg-drafts/issues/1809 (Florian)
-  * [css-ui-4] appearance
+  * [css-ui-4] appearance  (Florian)
     * compatibility with existing content https://github.com/w3c/csswg-drafts/issues/1250
     * what aspect of complex controls to preserve when appearance is none https://github.com/w3c/csswg-drafts/issues/356
     * appearance:none and replaced elements https://github.com/w3c/csswg-drafts/issues/1018
-  * [css-ui-4] user-select on form controls https://github.com/w3c/csswg-drafts/issues/285
+  * [css-ui-4] user-select  (Florian)
+    * user-select on form controls https://github.com/w3c/csswg-drafts/issues/285
+    * user-select on generated content and list markers https://github.com/w3c/csswg-drafts/issues/284 (Florian, probably needs to get some WebPlat folks in the room)
