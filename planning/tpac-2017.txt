@@ -70,5 +70,5 @@ Regrets:
     * Making spatial navigation properties more composable https://github.com/w3c/csswg-drafts/issues/1910 (Florian)
     * Controlling sequential navigation: https://github.com/w3c/csswg-drafts/issues/1748 + https://github.com/w3c/csswg-drafts/issues/1764 (Florian)
   * Prepare snapshot 2018 (Florian)
-    * https://github.com/w3c/csswg-drafts/issues/1007
-    * https://github.com/w3c/csswg-drafts/issues/1867
+    * borken indices in the 2017 snapshot https://github.com/w3c/csswg-drafts/issues/1007
+    * Copy document conventions (and conformance?) from 2.1 to the snapshot? https://github.com/w3c/csswg-drafts/issues/1867
