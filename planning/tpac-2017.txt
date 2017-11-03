@@ -65,4 +65,7 @@ Regrets:
   * [[https://github.com/w3c/csswg-drafts/issues/374|::selection cascade]]
   * line-clamp (tab & eae?) (https://twitter.com/bfgeek/status/925486371937980416)
   * * [[https://tabatkins.github.io/specs/construct-stylesheets/|Constructable Stylesheets]] (tab & eric)
-  * [[https://github.com/lgeweb/spatial-navigation/blob/master/explainer.md|APIs for the spatial focus navigation proposal]] (jihye)
+  * Navigation related
+    * [[https://github.com/lgeweb/spatial-navigation/blob/master/explainer.md|APIs for the spatial focus navigation proposal]] (jihye)
+    * Making directional navigation composable https://github.com/w3c/csswg-drafts/issues/1910 (Florian)
+    * Controlling sequential navigation: https://github.com/w3c/csswg-drafts/issues/1748 + https://github.com/w3c/csswg-drafts/issues/1764 (Florian)
