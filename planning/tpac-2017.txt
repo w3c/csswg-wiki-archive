@@ -76,4 +76,5 @@ Regrets:
   * CSS Contain: To which box does paint containment clip? https://github.com/w3c/csswg-drafts/issues/1809 (Florian)
   * [css-ui-4] appearance
     * compatibility with existing content https://github.com/w3c/csswg-drafts/issues/1250
+    * what aspect of complex controls to preserve when appearance is none https://github.com/w3c/csswg-drafts/issues/356
     * appearance:none and replaced elements https://github.com/w3c/csswg-drafts/issues/1018
