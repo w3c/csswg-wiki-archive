@@ -96,3 +96,4 @@ Regrets:
     * How do elements between column-span and its multicol ancestor appear around the span https://github.com/w3c/csswg-drafts/issues/1072
     * Specification should define interaction between 'column-span' and 'column-fill' https://github.com/w3c/csswg-drafts/issues/1075
     * how does absolute positioning work in a containing block that was split by a column-span? https://github.com/w3c/csswg-drafts/issues/1894
+  * [[https://lists.w3.org/Archives/Member/w3c-css-wg/2017OctDec/0091.html|Move Web Animations to CSSWG]]
