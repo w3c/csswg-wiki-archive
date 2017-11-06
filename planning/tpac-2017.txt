@@ -101,3 +101,4 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * Specification should define interaction between 'column-span' and 'column-fill' https://github.com/w3c/csswg-drafts/issues/1075
     * how does absolute positioning work in a containing block that was split by a column-span? https://github.com/w3c/csswg-drafts/issues/1894
   * [[https://lists.w3.org/Archives/Member/w3c-css-wg/2017OctDec/0091.html|Move Web Animations to CSSWG]]
+  * [selectors] querySelector() with quote and/or square bracket missing on right https://github.com/w3c/csswg-drafts/issues/1933
