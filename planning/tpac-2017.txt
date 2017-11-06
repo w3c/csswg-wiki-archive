@@ -82,6 +82,11 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * Cleaning up owners files for testing (gregwhitworth)
   * WG feedback about [[https://github.com/w3c/csswg-drafts/issues/1755| testing policy]], experience so far, what is needed (zcorpan)
   * [css-values] Computed value of a negative calc unit that doesn't allow negative lengths. https://github.com/w3c/csswg-drafts/issues/434
+  * CSS Contain (Florian)
+    * To which box does paint containment clip? https://github.com/w3c/csswg-drafts/issues/1809
+    * Clarify style containment effect 1 https://github.com/w3c/csswg-drafts/issues/1872
+    * Do scoped counters create new counters https://github.com/w3c/csswg-drafts/issues/1887
+    * Becoming a formatting context root vs ruby: what should that do https://github.com/w3c/csswg-drafts/issues/1457
   * line height / line spacing related
     * [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0013.html|unifying line grid / rhythm / line spacing proposals]] (dbaron)
     * Baseline considerations for Japanese (Nat) and Math (Daniel)
@@ -129,11 +134,6 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
 
 ==== Proposed Agenda ====
 
-  * CSS Contain (Florian)
-    * To which box does paint containment clip? https://github.com/w3c/csswg-drafts/issues/1809
-    * Clarify style containment effect 1 https://github.com/w3c/csswg-drafts/issues/1872
-    * Do scoped counters create new counters https://github.com/w3c/csswg-drafts/issues/1887
-    * Becoming a formatting context root vs ruby: what should that do https://github.com/w3c/csswg-drafts/issues/1457
   * [css-ui-4] appearance  (Florian)
     * compatibility with existing content https://github.com/w3c/csswg-drafts/issues/1250
     * what aspect of complex controls to preserve when appearance is none https://github.com/w3c/csswg-drafts/issues/356
