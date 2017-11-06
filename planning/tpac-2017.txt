@@ -131,6 +131,11 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * user-select on form controls https://github.com/w3c/csswg-drafts/issues/285
     * user-select on generated content and list markers https://github.com/w3c/csswg-drafts/issues/284 (Florian, probably needs to get some WebPlat folks in the room)
   * [[https://github.com/bokand/root-scroller|Root Scroller - proposal to control what element counts as the "root" scroller for the page]] (David Bokan) - any time except this morning
+  * [filter-effects] filter
+    * filter should be defined to establish a containing block for fixed and absolutely positioned elements https://github.com/w3c/fxtf-drafts/issues/11
+  * [css-transform] 3d contexts https://github.com/w3c/csswg-drafts/issues/1944
+    * Used value of backface-visibility:hidden makes the element a pseudo stacking context (as if having position:relative) if not a stacking context already.
+    * A (pseudo) stacking context with backface-visibility:hidden determines the visibility of its background phase and normal-flow phase by computing the face-orientation of its screen matrix. Painting of the phases is skipped if it is back-facing.
 
 ==== Scribes list ====
 Tab
