@@ -58,6 +58,7 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * [sizing]
     * max-content size of percentage-sized replaced elements https://github.com/w3c/csswg-drafts/issues/1722
     * Auto-resize iframes and textarea based on content https://github.com/w3c/csswg-drafts/issues/1771
+    * intrinsic size of 'overflow: auto/scroll' and its impact on auto-sized grid/flex item ancestors https://github.com/w3c/csswg-drafts/issues/1865 (put on monday)
     * Restrict 'stretch' and 'fit-content' to width/height and max-* https://github.com/w3c/csswg-drafts/issues/1913
     * Define which replaced elements are affected by width: % rule zeroing min-content https://github.com/w3c/csswg-drafts/issues/1889
     * Move min-width and min-height partial definitions to css-sizing https://github.com/w3c/csswg-drafts/issues/1920
@@ -71,7 +72,6 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
 
 == Afternoon ==
 
-  * intrinsic size of 'overflow: auto/scroll' and its impact on auto-sized grid/flex item ancestors https://github.com/w3c/csswg-drafts/issues/1865 (put on monday)
   * line-clamp (tab & eae?) (https://twitter.com/bfgeek/status/925486371937980416) (put on monday)
   * Cleaning up owners files for testing (gregwhitworth)
   * WG feedback about [[https://github.com/w3c/csswg-drafts/issues/1755| testing policy]], experience so far, what is needed (zcorpan)
