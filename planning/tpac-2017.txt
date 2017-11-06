@@ -66,7 +66,6 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * Define which replaced elements are affected by width: % rule zeroing min-content https://github.com/w3c/csswg-drafts/issues/1889
     * Move min-width and min-height partial definitions to css-sizing https://github.com/w3c/csswg-drafts/issues/1920
   * [css-backgrounds] Background-clip and text underline https://github.com/w3c/csswg-drafts/issues/900
-  * [[https://github.com/w3c/csswg-drafts/issues/1322|Non-interop on sizing images in flexbox]] (tab & fantasai & jen) (put on monday)
   * [css-transform] 3d contexts https://github.com/w3c/csswg-drafts/issues/1944
     * Used value of backface-visibility:hidden makes the element a pseudo stacking context (as if having position:relative) if not a stacking context already.
     * A (pseudo) stacking context with backface-visibility:hidden determines the visibility of its background phase and normal-flow phase by computing the face-orientation of its screen matrix. Painting of the phases is skipped if it is back-facing.
@@ -77,6 +76,7 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
 
 == Afternoon ==
 
+  * [[https://github.com/w3c/csswg-drafts/issues/1322|Non-interop on sizing images in flexbox]] (tab & fantasai & jen) (put on monday)
   * Image decoding (async or not) [smfr]
   * line-clamp (tab & eae?) (https://twitter.com/bfgeek/status/925486371937980416) (put on monday)
   * Cleaning up owners files for testing (gregwhitworth)
