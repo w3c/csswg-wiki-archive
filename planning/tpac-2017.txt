@@ -83,6 +83,11 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
 == Morning ==
   * [css-ui-4] Scrollbar styling https://github.com/w3c/csswg-drafts/issues/107 (Florian)
     * Request: Tuesday morning, perhaps in a breakout? In particular focused on [[https://​bugzilla.mozilla.org/​show_bug.cgi?​id=77790|scrollbar colors for compat]] (Tantek)
+  * [[https://github.com/w3c/csswg-drafts/issues/1934|Interop on List-item outside marker]] (fremy)
+  * [[https://github.com/w3c/csswg-drafts/issues/1898|logical/physical property cascade and the .style API]] (tabatkins)
+  * Interaction of scroll-snap and JS scrolling APIs (tab & fantasai) ([[https://github.com/w3c/csswg-drafts/issues/1707|#1707]], [[https://github.com/w3c/csswg-drafts/issues/1708|#1708]])
+  * [[https://github.com/w3c/csswg-drafts/issues/374|::selection cascade]]
+  * [[https://tabatkins.github.io/specs/construct-stylesheets/|Constructable Stylesheets]] (tab & eric)
 
 11am: APA/ARIA
 
@@ -92,16 +97,20 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * [[https://github.com/lgeweb/spatial-navigation/blob/master/explainer.md|APIs for the spatial focus navigation proposal]] (jihye)
     * Making spatial navigation properties more composable https://github.com/w3c/csswg-drafts/issues/1910 (Florian)
     * Controlling sequential navigation: https://github.com/w3c/csswg-drafts/issues/1748 + https://github.com/w3c/csswg-drafts/issues/1764 (Florian)
+  * [css-multicol] Small legacy issues (Rachel)
+    * z-order of column-rule and column scrolling https://github.com/w3c/csswg-drafts/issues/1739
+    * Text describing column boxes as block container boxes https://github.com/w3c/csswg-drafts/issues/1738
+    * Proposal to drop example XVII https://github.com/w3c/csswg-drafts/issues/1740
+  * [css-multicol] Related issues with regard to column-span (Rachel)
+    * How do elements between column-span and its multicol ancestor appear around the span https://github.com/w3c/csswg-drafts/issues/1072
+    * Specification should define interaction between 'column-span' and 'column-fill' https://github.com/w3c/csswg-drafts/issues/1075
+    * how does absolute positioning work in a containing block that was split by a column-span? https://github.com/w3c/csswg-drafts/issues/1894
+  * [[https://lists.w3.org/Archives/Member/w3c-css-wg/2017OctDec/0091.html|Move Web Animations to CSSWG]]
 
 
 ==== Proposed Agenda ====
   * [[https://github.com/w3c/csswg-drafts/issues/938|Avoiding accidental double spacing]] (if remote is possible, probably after dbaron's proposal, koji)
 
-  * [[https://github.com/w3c/csswg-drafts/issues/1934|Interop on List-item outside marker]] (fremy)
-  * [[https://github.com/w3c/csswg-drafts/issues/1898|logical/physical property cascade and the .style API]] (tabatkins)
-  * Interaction of scroll-snap and JS scrolling APIs (tab & fantasai) ([[https://github.com/w3c/csswg-drafts/issues/1707|#1707]], [[https://github.com/w3c/csswg-drafts/issues/1708|#1708]])
-  * [[https://github.com/w3c/csswg-drafts/issues/374|::selection cascade]]
-  * [[https://tabatkins.github.io/specs/construct-stylesheets/|Constructable Stylesheets]] (tab & eric)
   * Prepare snapshot 2018 (Florian)
     * borken indices in the 2017 snapshot https://github.com/w3c/csswg-drafts/issues/1007
     * Copy document conventions (and conformance?) from 2.1 to the snapshot? https://github.com/w3c/csswg-drafts/issues/1867
@@ -118,14 +127,5 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * [css-ui-4] user-select  (Florian)
     * user-select on form controls https://github.com/w3c/csswg-drafts/issues/285
     * user-select on generated content and list markers https://github.com/w3c/csswg-drafts/issues/284 (Florian, probably needs to get some WebPlat folks in the room)
-  * [css-multicol] Small legacy issues (Rachel)
-    * z-order of column-rule and column scrolling https://github.com/w3c/csswg-drafts/issues/1739
-    * Text describing column boxes as block container boxes https://github.com/w3c/csswg-drafts/issues/1738
-    * Proposal to drop example XVII https://github.com/w3c/csswg-drafts/issues/1740
-  * [css-multicol] Related issues with regard to column-span (Rachel)
-    * How do elements between column-span and its multicol ancestor appear around the span https://github.com/w3c/csswg-drafts/issues/1072
-    * Specification should define interaction between 'column-span' and 'column-fill' https://github.com/w3c/csswg-drafts/issues/1075
-    * how does absolute positioning work in a containing block that was split by a column-span? https://github.com/w3c/csswg-drafts/issues/1894
-  * [[https://lists.w3.org/Archives/Member/w3c-css-wg/2017OctDec/0091.html|Move Web Animations to CSSWG]]
   * [css-backgrounds] Background-clip and text underline https://github.com/w3c/csswg-drafts/issues/900
   * [css-values] Computed value of a negative calc unit that doesn't allow negative lengths. https://github.com/w3c/csswg-drafts/issues/434
