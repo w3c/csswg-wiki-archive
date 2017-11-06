@@ -105,6 +105,8 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * [sizing]
     * max-content size of percentage-sized replaced elements https://github.com/w3c/csswg-drafts/issues/1722
     * Auto-resize iframes and textarea based on content https://github.com/w3c/csswg-drafts/issues/1771
+    * Restrict 'stretch' and 'fit-content' to width/height and max-* https://github.com/w3c/csswg-drafts/issues/1913
+    * Define which replaced elements are affected by width: % rule zeroing min-content https://github.com/w3c/csswg-drafts/issues/1889
   * [selectors]
     * querySelector() with quote and/or square bracket missing on right https://github.com/w3c/csswg-drafts/issues/1933
     * Functional pseudo-class like :matches() with 0 specificity https://github.com/w3c/csswg-drafts/issues/1170
