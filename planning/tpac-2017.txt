@@ -47,11 +47,27 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
 ==== Schedule ====
 
 === Monday ===
+
+== Morning ==
+
+  * [selectors]
+    * querySelector() with quote and/or square bracket missing on right https://github.com/w3c/csswg-drafts/issues/1933
+    * Functional pseudo-class like :matches() with 0 specificity https://github.com/w3c/csswg-drafts/issues/1170
+    * :target-within? https://github.com/w3c/csswg-drafts/issues/457
+  * [sizing]
+    * max-content size of percentage-sized replaced elements https://github.com/w3c/csswg-drafts/issues/1722
+    * Auto-resize iframes and textarea based on content https://github.com/w3c/csswg-drafts/issues/1771
+    * Restrict 'stretch' and 'fit-content' to width/height and max-* https://github.com/w3c/csswg-drafts/issues/1913
+    * Define which replaced elements are affected by width: % rule zeroing min-content https://github.com/w3c/csswg-drafts/issues/1889
+    * Move min-width and min-height partial definitions to css-sizing https://github.com/w3c/csswg-drafts/issues/1920
   * [[https://github.com/w3c/csswg-drafts/issues/1322|Non-interop on sizing images in flexbox]] (tab & fantasai & jen) (put on monday)
   * [grid]
     * [[https://github.com/w3c/csswg-drafts/issues/509|%s and intrinsic sizes in Grid]] (tab & fantasai) (put on monday)
     * [[https://github.com/w3c/csswg-drafts/issues/1921|[css-grid] Percentage tracks and indefinite sizes]] 
     * Basic support for "equal gutter" with justify-content on grid items https://github.com/w3c/csswg-drafts/issues/1116
+
+== Afternoon ==
+
   * intrinsic size of 'overflow: auto/scroll' and its impact on auto-sized grid/flex item ancestors https://github.com/w3c/csswg-drafts/issues/1865 (put on monday)
   * line-clamp (tab & eae?) (https://twitter.com/bfgeek/status/925486371937980416) (put on monday)
   * line height / line spacing related
@@ -62,17 +78,21 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * Cleaning up owners files for testing (gregwhitworth)
   * WG feedback about [[https://github.com/w3c/csswg-drafts/issues/1755| testing policy]], experience so far, what is needed (zcorpan)
 
-
 === Tuesday ===
 
+== Morning ==
   * [css-ui-4] Scrollbar styling https://github.com/w3c/csswg-drafts/issues/107 (Florian)
     * Request: Tuesday morning, perhaps in a breakout? In particular focused on [[https://​bugzilla.mozilla.org/​show_bug.cgi?​id=77790|scrollbar colors for compat]] (Tantek)
+
+11am: APA/ARIA
+
+== Afternoon ==
+
   * Navigation related (Tuesday please)
     * [[https://github.com/lgeweb/spatial-navigation/blob/master/explainer.md|APIs for the spatial focus navigation proposal]] (jihye)
     * Making spatial navigation properties more composable https://github.com/w3c/csswg-drafts/issues/1910 (Florian)
     * Controlling sequential navigation: https://github.com/w3c/csswg-drafts/issues/1748 + https://github.com/w3c/csswg-drafts/issues/1764 (Florian)
 
-11am: APA/ARIA
 
 ==== Proposed Agenda ====
   * [[https://github.com/w3c/csswg-drafts/issues/938|Avoiding accidental double spacing]] (if remote is possible, probably after dbaron's proposal, koji)
@@ -107,14 +127,4 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * Specification should define interaction between 'column-span' and 'column-fill' https://github.com/w3c/csswg-drafts/issues/1075
     * how does absolute positioning work in a containing block that was split by a column-span? https://github.com/w3c/csswg-drafts/issues/1894
   * [[https://lists.w3.org/Archives/Member/w3c-css-wg/2017OctDec/0091.html|Move Web Animations to CSSWG]]
-  * [sizing]
-    * max-content size of percentage-sized replaced elements https://github.com/w3c/csswg-drafts/issues/1722
-    * Auto-resize iframes and textarea based on content https://github.com/w3c/csswg-drafts/issues/1771
-    * Restrict 'stretch' and 'fit-content' to width/height and max-* https://github.com/w3c/csswg-drafts/issues/1913
-    * Define which replaced elements are affected by width: % rule zeroing min-content https://github.com/w3c/csswg-drafts/issues/1889
-    * Move min-width and min-height partial definitions to css-sizing https://github.com/w3c/csswg-drafts/issues/1920
-  * [selectors]
-    * querySelector() with quote and/or square bracket missing on right https://github.com/w3c/csswg-drafts/issues/1933
-    * Functional pseudo-class like :matches() with 0 specificity https://github.com/w3c/csswg-drafts/issues/1170
-    * :target-within? https://github.com/w3c/csswg-drafts/issues/457
   * [css-backgrounds] Background-clip and text underline https://github.com/w3c/csswg-drafts/issues/900
