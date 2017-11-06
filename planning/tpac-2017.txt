@@ -145,8 +145,11 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * Copy document conventions (and conformance?) from 2.1 to the snapshot? https://github.com/w3c/csswg-drafts/issues/1867
 
 ==== Scribes list ====
-Tab
-Greg
-Brian
-Ian
-Francois
+Monday am
+  * <del>Greg</del>
+  * <del>Brian</del>
+  * <del>Francois</del>
+Monday pm
+  * Ian
+  * Tab
+  * Emil
