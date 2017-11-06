@@ -64,7 +64,9 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * Move min-width and min-height partial definitions to css-sizing https://github.com/w3c/csswg-drafts/issues/1920
   * [css-backgrounds] Background-clip and text underline https://github.com/w3c/csswg-drafts/issues/900
   * [[https://github.com/w3c/csswg-drafts/issues/1322|Non-interop on sizing images in flexbox]] (tab & fantasai & jen) (put on monday)
-  * [css-values] Computed value of a negative calc unit that doesn't allow negative lengths. https://github.com/w3c/csswg-drafts/issues/434
+  * [css-transform] 3d contexts https://github.com/w3c/csswg-drafts/issues/1944
+    * Used value of backface-visibility:hidden makes the element a pseudo stacking context (as if having position:relative) if not a stacking context already.
+    * A (pseudo) stacking context with backface-visibility:hidden determines the visibility of its background phase and normal-flow phase by computing the face-orientation of its screen matrix. Painting of the phases is skipped if it is back-facing.
   * [grid]
     * [[https://github.com/w3c/csswg-drafts/issues/509|%s and intrinsic sizes in Grid]] (tab & fantasai) (put on monday)
     * [[https://github.com/w3c/csswg-drafts/issues/1921|[css-grid] Percentage tracks and indefinite sizes]] 
@@ -72,9 +74,11 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
 
 == Afternoon ==
 
+  * Image decoding (async or not) [smfr]
   * line-clamp (tab & eae?) (https://twitter.com/bfgeek/status/925486371937980416) (put on monday)
   * Cleaning up owners files for testing (gregwhitworth)
   * WG feedback about [[https://github.com/w3c/csswg-drafts/issues/1755| testing policy]], experience so far, what is needed (zcorpan)
+  * [css-values] Computed value of a negative calc unit that doesn't allow negative lengths. https://github.com/w3c/csswg-drafts/issues/434
   * line height / line spacing related
     * [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0013.html|unifying line grid / rhythm / line spacing proposals]] (dbaron)
     * Interop on the line-height property https://github.com/w3c/csswg-drafts/issues/1796 (Florian)
@@ -133,10 +137,6 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * [[https://github.com/bokand/root-scroller|Root Scroller - proposal to control what element counts as the "root" scroller for the page]] (David Bokan) - any time except this morning
   * [filter-effects] filter
     * filter should be defined to establish a containing block for fixed and absolutely positioned elements https://github.com/w3c/fxtf-drafts/issues/11
-  * [css-transform] 3d contexts https://github.com/w3c/csswg-drafts/issues/1944
-    * Used value of backface-visibility:hidden makes the element a pseudo stacking context (as if having position:relative) if not a stacking context already.
-    * A (pseudo) stacking context with backface-visibility:hidden determines the visibility of its background phase and normal-flow phase by computing the face-orientation of its screen matrix. Painting of the phases is skipped if it is back-facing.
-  * Image decoding (async or not) [smfr]
 
 ==== Scribes list ====
 Tab
