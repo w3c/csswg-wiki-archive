@@ -131,3 +131,10 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * user-select on form controls https://github.com/w3c/csswg-drafts/issues/285
     * user-select on generated content and list markers https://github.com/w3c/csswg-drafts/issues/284 (Florian, probably needs to get some WebPlat folks in the room)
   * [[https://github.com/bokand/root-scroller|Root Scroller - proposal to control what element counts as the "root" scroller for the page]] (David Bokan) - any time except this morning
+
+==== Scribes list ====
+Tab
+Greg
+Brian
+Ian
+Francois
