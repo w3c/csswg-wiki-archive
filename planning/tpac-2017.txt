@@ -55,9 +55,9 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * querySelector() with quote and/or square bracket missing on right https://github.com/w3c/csswg-drafts/issues/1933
     * Functional pseudo-class like :matches() with 0 specificity https://github.com/w3c/csswg-drafts/issues/1170
     * :target-within? https://github.com/w3c/csswg-drafts/issues/457
-  * line-clamp (tab & eae?) (https://twitter.com/bfgeek/status/925486371937980416) (put on monday)
-  * [css-backgrounds] Background-clip and text underline https://github.com/w3c/csswg-drafts/issues/900
+   * [css-backgrounds] Background-clip and text underline https://github.com/w3c/csswg-drafts/issues/900
   * [[https://github.com/w3c/csswg-drafts/issues/1322|Non-interop on sizing images in flexbox]] (tab & fantasai & jen) (put on monday)
+  * [css-values] Computed value of a negative calc unit that doesn't allow negative lengths. https://github.com/w3c/csswg-drafts/issues/434
   * [grid]
     * [[https://github.com/w3c/csswg-drafts/issues/509|%s and intrinsic sizes in Grid]] (tab & fantasai) (put on monday)
     * [[https://github.com/w3c/csswg-drafts/issues/1921|[css-grid] Percentage tracks and indefinite sizes]] 
@@ -72,7 +72,7 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * Restrict 'stretch' and 'fit-content' to width/height and max-* https://github.com/w3c/csswg-drafts/issues/1913
     * Define which replaced elements are affected by width: % rule zeroing min-content https://github.com/w3c/csswg-drafts/issues/1889
     * Move min-width and min-height partial definitions to css-sizing https://github.com/w3c/csswg-drafts/issues/1920
-  * [css-values] Computed value of a negative calc unit that doesn't allow negative lengths. https://github.com/w3c/csswg-drafts/issues/434
+  * line-clamp (tab & eae?) (https://twitter.com/bfgeek/status/925486371937980416) (put on monday)
   * Cleaning up owners files for testing (gregwhitworth)
   * WG feedback about [[https://github.com/w3c/csswg-drafts/issues/1755| testing policy]], experience so far, what is needed (zcorpan)
   * line height / line spacing related
