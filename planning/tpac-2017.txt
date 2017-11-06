@@ -84,9 +84,11 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * [css-values] Computed value of a negative calc unit that doesn't allow negative lengths. https://github.com/w3c/csswg-drafts/issues/434
   * line height / line spacing related
     * [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0013.html|unifying line grid / rhythm / line spacing proposals]] (dbaron)
+    * Baseline considerations for Japanese (Nat) and Math (Daniel)
     * Interop on the line-height property https://github.com/w3c/csswg-drafts/issues/1796 (Florian)
     * Interaction between line grid + size + position https://github.com/w3c/csswg-drafts/issues/1856 (Florian)
     * Clarify lh/rlh with line-height:normal (tbd after issue 1796)  https://github.com/w3c/csswg-drafts/issues/1253 Florian
+    * [[https://github.com/w3c/csswg-drafts/issues/938|Avoiding accidental double spacing]] (if remote is possible, probably after dbaron's proposal, koji)
 
 === Tuesday ===
 
@@ -120,7 +122,6 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
 
 
 ==== Proposed Agenda ====
-  * [[https://github.com/w3c/csswg-drafts/issues/938|Avoiding accidental double spacing]] (if remote is possible, probably after dbaron's proposal, koji)
 
   * Prepare snapshot 2018 (Florian)
     * borken indices in the 2017 snapshot https://github.com/w3c/csswg-drafts/issues/1007
