@@ -62,7 +62,7 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * intrinsic size of 'overflow: auto/scroll' and its impact on auto-sized grid/flex item ancestors (put on monday)
   * Cleaning up owners files for testing (gregwhitworth)
   * [[https://github.com/w3c/csswg-drafts/issues/1934|Interop on List-item outside marker]] (fremy)
-  * WG feedback about [[https://github.com/w3c/csswg-drafts/issues/1755 testing policy]], experience so far, what is needed (zcorpan)
+  * WG feedback about [[https://github.com/w3c/csswg-drafts/issues/1755| testing policy]], experience so far, what is needed (zcorpan)
   * [[https://github.com/w3c/csswg-drafts/issues/1898|logical/physical property cascade and the .style API]] (tabatkins)
   * [[https://github.com/w3c/csswg-drafts/issues/1322|Non-interop on sizing images in flexbox]] (tab & fantasai & jen) (put on monday)
   * [[https://github.com/w3c/csswg-drafts/issues/509|%s and intrinsic sizes in Grid]] (tab & fantasai) (put on monday)
