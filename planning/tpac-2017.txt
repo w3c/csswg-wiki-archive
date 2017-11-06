@@ -65,8 +65,10 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * WG feedback about [[https://github.com/w3c/csswg-drafts/issues/1755| testing policy]], experience so far, what is needed (zcorpan)
   * [[https://github.com/w3c/csswg-drafts/issues/1898|logical/physical property cascade and the .style API]] (tabatkins)
   * [[https://github.com/w3c/csswg-drafts/issues/1322|Non-interop on sizing images in flexbox]] (tab & fantasai & jen) (put on monday)
-  * [[https://github.com/w3c/csswg-drafts/issues/509|%s and intrinsic sizes in Grid]] (tab & fantasai) (put on monday)
-  * [[https://github.com/w3c/csswg-drafts/issues/1921|[css-grid] Percentage tracks and indefinite sizes]] 
+  * [grid]
+    * [[https://github.com/w3c/csswg-drafts/issues/509|%s and intrinsic sizes in Grid]] (tab & fantasai) (put on monday)
+    * [[https://github.com/w3c/csswg-drafts/issues/1921|[css-grid] Percentage tracks and indefinite sizes]] 
+    * Basic support for "equal gutter" with justify-content on grid items https://github.com/w3c/csswg-drafts/issues/1116
   * Interaction of scroll-snap and JS scrolling APIs (tab & fantasai) ([[https://github.com/w3c/csswg-drafts/issues/1707|#1707]], [[https://github.com/w3c/csswg-drafts/issues/1708|#1708]])
   * [[https://github.com/w3c/csswg-drafts/issues/374|::selection cascade]]
   * line-clamp (tab & eae?) (https://twitter.com/bfgeek/status/925486371937980416) (put on monday)
