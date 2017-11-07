@@ -112,7 +112,7 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
 
 == Afternoon ==
 
-  * [[https://​bugzilla.mozilla.org/​show_bug.cgi?id=77790|scrollbar colors for compat]] (Tantek)
+  * [[https://bugzilla.mozilla.org/show_bug.cgi?id=77790|scrollbar colors for compat]] (Tantek)
   * [selectors]
     * Functional pseudo-class like :matches() with 0 specificity https://github.com/w3c/csswg-drafts/issues/1170
     * :target-within? https://github.com/w3c/csswg-drafts/issues/457
