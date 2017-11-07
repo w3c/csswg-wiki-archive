@@ -55,10 +55,6 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
 
 == Morning ==
 
-  * [selectors]
-    * querySelector() with quote and/or square bracket missing on right https://github.com/w3c/csswg-drafts/issues/1933
-    * Functional pseudo-class like :matches() with 0 specificity https://github.com/w3c/csswg-drafts/issues/1170
-    * :target-within? https://github.com/w3c/csswg-drafts/issues/457
   * [sizing]
     * max-content size of percentage-sized replaced elements https://github.com/w3c/csswg-drafts/issues/1722
     * Auto-resize iframes and textarea based on content https://github.com/w3c/csswg-drafts/issues/1771
@@ -115,6 +111,10 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
 11:30am-1pm: 3D transforms breakout.
 
 == Afternoon ==
+
+  * [selectors]
+    * Functional pseudo-class like :matches() with 0 specificity https://github.com/w3c/csswg-drafts/issues/1170
+    * :target-within? https://github.com/w3c/csswg-drafts/issues/457
 
   * [css-multicol] Small legacy issues (Rachel)
     * z-order of column-rule and column scrolling https://github.com/w3c/csswg-drafts/issues/1739
