@@ -116,6 +116,7 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * Functional pseudo-class like :matches() with 0 specificity https://github.com/w3c/csswg-drafts/issues/1170
     * :target-within? https://github.com/w3c/csswg-drafts/issues/457
   * [css-color-4] Working colorspace options (15min, before 2pm, Chris)
+  * New author proposal for css-transforms-2 [smfr]
   * [[https://tabatkins.github.io/specs/construct-stylesheets/|Constructable Stylesheets]] (tab & eric)
   * [[https://github.com/w3c/csswg-drafts/issues/374|::selection cascade]]
   * [css-multicol] Small legacy issues (Rachel)
@@ -145,7 +146,6 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * Prepare snapshot 2018 (Florian)
     * borken indices in the 2017 snapshot https://github.com/w3c/csswg-drafts/issues/1007
     * Copy document conventions (and conformance?) from 2.1 to the snapshot? https://github.com/w3c/csswg-drafts/issues/1867
-  * New author proposal for css-transforms-2 [smfr]
 
 ==== Scribes list ====
 Monday am
