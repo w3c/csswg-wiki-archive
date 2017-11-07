@@ -98,8 +98,6 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * [[https://github.com/w3c/csswg-drafts/issues/1934|Interop on List-item outside marker]] (fremy)
   * [[https://github.com/w3c/csswg-drafts/issues/1898|logical/physical property cascade and the .style API]] (tabatkins)
   * Interaction of scroll-snap and JS scrolling APIs (tab & fantasai) ([[https://github.com/w3c/csswg-drafts/issues/1707|#1707]], [[https://github.com/w3c/csswg-drafts/issues/1708|#1708]])
-  * [[https://github.com/w3c/csswg-drafts/issues/374|::selection cascade]]
-  * [[https://tabatkins.github.io/specs/construct-stylesheets/|Constructable Stylesheets]] (tab & eric)
   * Navigation related (Tuesday please)
     * [[https://github.com/lgeweb/spatial-navigation/blob/master/explainer.md|APIs for the spatial focus navigation proposal]] (jihye)
     * Making spatial navigation properties more composable https://github.com/w3c/csswg-drafts/issues/1910 (Florian)
@@ -116,6 +114,9 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * [selectors]
     * Functional pseudo-class like :matches() with 0 specificity https://github.com/w3c/csswg-drafts/issues/1170
     * :target-within? https://github.com/w3c/csswg-drafts/issues/457
+  * [css-color-4] Working colorspace options (15min, before 2pm, Chris)
+  * [[https://tabatkins.github.io/specs/construct-stylesheets/|Constructable Stylesheets]] (tab & eric)
+  * [[https://github.com/w3c/csswg-drafts/issues/374|::selection cascade]]
   * [css-multicol] Small legacy issues (Rachel)
     * z-order of column-rule and column scrolling https://github.com/w3c/csswg-drafts/issues/1739
     * Text describing column boxes as block container boxes https://github.com/w3c/csswg-drafts/issues/1738
@@ -143,7 +144,6 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
   * Prepare snapshot 2018 (Florian)
     * borken indices in the 2017 snapshot https://github.com/w3c/csswg-drafts/issues/1007
     * Copy document conventions (and conformance?) from 2.1 to the snapshot? https://github.com/w3c/csswg-drafts/issues/1867
-  * [css-color-4] Working colorspace options (15min, before 2pm, Chris)
 
 ==== Scribes list ====
 Monday am
