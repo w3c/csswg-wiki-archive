@@ -135,6 +135,7 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
 
 ==== Proposed Agenda ====
 
+  * [css-fonts-4] Computed value for font-variation-settings https://github.com/w3c/csswg-drafts/issues/1959 (Greg)
   * [css-ui-4] appearance  (Florian)
     * compatibility with existing content https://github.com/w3c/csswg-drafts/issues/1250
     * what aspect of complex controls to preserve when appearance is none https://github.com/w3c/csswg-drafts/issues/356
