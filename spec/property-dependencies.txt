@@ -7,8 +7,9 @@ This page lists the ways in which the computed value of one property depends on 
 ^ Depended-on property ^ Dependent property ^ Reason ^
 | color | every property taking <color> | currentColor (css3-color), initial value of border (CSS21) |
 | font-size | every property taking <length> | em units (CSS21) |
-| font-size, font-family, font-size-adjust, font-stretch, font-style, font-variant, font-weight | every property taking <length> | ex units (CSS21), ch units (css3-values) |
-| text-orientation, writing-mode | every property taking <length> | ch units (css3-values) |
+| font-size, font-family, font-size-adjust, font-stretch, font-style, font-variant, font-weight | every property taking <length> | ex units (CSS21), ch units (css-values-3), ic units (css-values-4), cap units (css-values-4) |
+| line-height | every property taking <length> | lh units (css-values-4) |
+| text-orientation, writing-mode | every property taking <length> | ch units (css-values-3) |
 
 ===== Other Dependencies =====
 
