@@ -5,7 +5,10 @@
   * [[https://www.w3.org/2017/11/TPAC/]]
   * full TPAC week is 06-10 November 2017
   * CSS WG meeting days are Mon-Tue 06-07 from 9am to 6pm
+  * Houdini meeting is Thu 09 November from 09:00-12:00
+    * https://github.com/w3c/css-houdini-drafts/wiki/TPAC-F2F-November-2017
   * Burlingame, CA, USA at the Hyatt Regency SFO
+
 
 ==== Participants =====
 
@@ -132,6 +135,8 @@ See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants
     * filter should be defined to establish a containing block for fixed and absolutely positioned elements https://github.com/w3c/fxtf-drafts/issues/11
   * [[https://github.com/bokand/root-scroller|Root Scroller - proposal to control what element counts as the "root" scroller for the page]] (David Bokan) - any time except this morning
 
+=== Thursday ===
+09:00-12:00 [[https://github.com/w3c/css-houdini-drafts/wiki/TPAC-F2F-November-2017|Houdini f2f]] in Cypress C
 
 ==== Proposed Agenda ====
 
