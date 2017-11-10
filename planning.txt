@@ -8,8 +8,6 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
-  * 2017
-    * 2017-11-06..10 [[planning:tpac-2017|TPAC]], Burlingame, CA (next to SF airport)
   * 2018
     * (winter meeting cancelled)
     * 2018-04-09..12 [[planning:berlin-2018]] (to coincide with TYPO Labs April 12-14)
@@ -25,6 +23,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 ===== Past Meetings =====
 
 ==== 2017 ====
+    * 2017-11-06..10 [[planning:tpac-2017|TPAC]], Burlingame, CA (next to SF airport)
     * 2017-08-01..04 [[planning:paris-2017]] - Paris, France (Mozilla)
         * Minutes:
             * Wednesday, Aug 2 [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0034.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0035.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0036.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0037.html|Part IV]]
