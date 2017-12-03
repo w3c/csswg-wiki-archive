@@ -9,7 +9,7 @@ That should be corrected if anyone invents a time machine. :P
   * Percentage heights should be calculated against ''fill-available'' rather than being undefined in auto situations.
   * Table layout should be sane.
   * Box-sizing should be ''border-box'' by default.
-  * ''background-size'' with one value should duplicate its value, not default the second one to ''auto''.
+  * ''background-size'' with one value should duplicate its value, not default the second one to ''auto''. Ditto ''translate()''.
   * ''background-position'' and ''border-spacing'' (all 2-axis properties) should take *vertical* first, to match with the 4-direction properties like ''margin''.
   * The 4-value shorthands like ''margin'' should go counter-clockwise (so that the inline-start value is before the block-start value).
   * ''z-index'' should be called ''z-order'' or ''depth'' and should Just Work on all elements (like it does on flex items).
