@@ -133,7 +133,12 @@ Replace !!!!marked!!!! items.
   
   !!!!one-sentence summary of module!!!!
   
-  This document is intended to become a W3C Recommendation. This document will remain a Proposed Recommendation at least until 1 February 2018 in order to ensure the opportunity for wide review. The W3C Membership and other interested parties are invited to review the document and send comments. Advisory Committee Representatives should consult their WBS questionnaires.
+  This document is intended to become a W3C Recommendation. This
+  document will remain a Proposed Recommendation at least until !!!DATE!!!
+  in order to ensure the opportunity for wide review. The W3C
+  Membership and other interested parties are invited to review
+  the document and send comments. Advisory Committee Representatives
+  should consult their WBS questionnaires.
   
   Significant changes are listed at:
   
