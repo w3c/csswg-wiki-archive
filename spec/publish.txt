@@ -116,6 +116,45 @@ Replace !!!!marked!!!! items. Here's an [[https://lists.w3.org/Archives/Public/w
   
   For the CSS WG,
   !!!!your signature!!!!
+
+===== Template for PR Announcement to www-style =====
+
+The www-style message is your chance to update WG and www-style members who haven't been reading all of your module's deeply involved threads as to what's happening with your module, as well as put out an explicit call for AC Reps to vote on it.
+
+Replace !!!!marked!!!! items.
+  ; To : www-style@ and public-review-announce@
+  ; Subject : [CSSWG][!!!!css-foo!!!!] PR of !!!!CSS Foo L#!!!!
+  ; Body : 
+
+
+  The CSS WG has published a Proposed Recommendation and invites implementations of the !!!!CSS Foo Module Level #!!!!:
+  
+      !!!!http://www.w3.org/TR/css-foo-#/!!!!
+  
+  !!!!one-sentence summary of module!!!!
+  
+  This document is intended to become a W3C Recommendation. This document will remain a Proposed Recommendation at least until 1 February 2018 in order to ensure the opportunity for wide review. The W3C Membership and other interested parties are invited to review the document and send comments. Advisory Committee Representatives should consult their WBS questionnaires.
+  
+  Significant changes are listed at:
+  
+    !!!!http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes  **note dated URL!** !!!!
+  
+  Disposition of comments:
+    
+    !!!http://dev.w3.org/csswg/css-foo/issues-YYYY-YYYY.html !!!!
+    
+  Implementation Report:
+    
+    !!!http://dev.w3.org/csswg/css-foo/report.html !!!!
+    
+  
+  Please review the draft, and send any comments to this mailing list,
+  <www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
+  message) or (preferably) file them in the GitHub repository at
+    https://github.com/w3c/csswg-drafts/issues
+  
+  For the CSS WG,
+  !!!!your signature!!!!
 ===== Template for WD Announcement to Blog =====
 
 The [[http://www.w3.org/blog/CSS|CSSWG blog]] is your communication channel to people who aren't technical enough or devoted enough to follow www-style. Take advantage of it, and engage your audience. **[[https://www.w3.org/blog/CSS/wp-admin/|Log in to CSSWG Blog]]**
