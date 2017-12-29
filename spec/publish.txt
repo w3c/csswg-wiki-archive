@@ -127,7 +127,7 @@ Replace !!!!marked!!!! items.
   ; Body : 
 
 
-  The CSS WG has published a Proposed Recommendation and invites implementations of the !!!!CSS Foo Module Level #!!!!:
+  The CSS WG has published a Proposed Recommendation of the !!!!CSS Foo Module Level #!!!!:
   
       !!!!http://www.w3.org/TR/css-foo-#/!!!!
   
