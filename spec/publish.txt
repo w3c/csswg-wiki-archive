@@ -182,9 +182,7 @@ Replaced the >>marked<< items. Here's a standard [[http://www.w3.org/blog/CSS/20
 
 Replace »marked« items. **[[https://www.w3.org/blog/CSS/wp-admin/|Log in to CSSWG Blog]]**
 
-Replaced the >>marked<< items. Here's a standard [[http://www.w3.org/blog/CSS/2011/09/08/september_text_update/|example]] . Here's a [[http://www.w3.org/blog/CSS/2011/12/28/css3-images-pre-lc/|more customized example]].
-
-  ; Subject :  CSS FOOOOOOOO Draft Updated
+  ; Subject :  PR of CSS FOOOOOOOO
   ; Category : Publications
   ; Contents :
 
