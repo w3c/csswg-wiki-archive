@@ -178,6 +178,27 @@ Replaced the >>marked<< items. Here's a standard [[http://www.w3.org/blog/CSS/20
   
   Please send feedback by either <a href="https://github.com/w3c/csswg-drafts/issues">filing an issue in GitHub</a> (preferable) or sending mail to the (<a href="http://lists.w3.org/Archives/Public/www-style/">archived</a>) public mailing list <a href="mailto:www-style@w3.org?Subject=%5Bcss-FOOOOOOOO%5D%20PUT%20SUBJECT%20HERE">www-style@w3.org</a> with the spec code (<code>[css-FOOOOOOOO]</code>) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)
 
+===== Template for PR Announcement to Blog =====
+
+The [[http://www.w3.org/blog/CSS|CSSWG blog]] is your communication channel to people who aren't technical enough or devoted enough to follow www-style. Take advantage of it, and engage your audience. **[[https://www.w3.org/blog/CSS/wp-admin/|Log in to CSSWG Blog]]**
+
+Replaced the >>marked<< items. Here's a standard [[http://www.w3.org/blog/CSS/2011/09/08/september_text_update/|example]] . Here's a [[http://www.w3.org/blog/CSS/2011/12/28/css3-images-pre-lc/|more customized example]].
+
+  ; Subject :  CSS FOOOOOOOO Draft Updated
+  ; Category : Publications
+  ; Contents :
+
+
+  The CSS WG has published a Proposed Recommendation of the <a href="http://www.w3.org/TR/css-FOOOOOOOO">CSS FOOOOOOOO</a>. >>one-sentence summary of module<<
+  
+  This document is intended to become a W3C Recommendation. This document will remain a Proposed Recommendation at least until >>DATE HERE<< in order to ensure the opportunity for wide review. The W3C Membership and other interested parties are invited to review the document and send comments. Advisory Committee Representatives should consult their WBS questionnaires.
+  
+  Changes since the last Working Draft are listed in the <a href=">>http://www.w3.org/TR/2012/WD-css-FOOOOOOOO-20120501/#changes note the date URL<<">Changes section</a>.
+  
+  A <a href=">>URL to DoC<<">disposition of comments</a> and <a href=">>URL to implementation report<<">implementation report</a> are available.
+  
+  Please send feedback by either <a href="https://github.com/w3c/csswg-drafts/issues">filing an issue in GitHub</a> (preferable) or sending mail to the (<a href="http://lists.w3.org/Archives/Public/www-style/">archived</a>) public mailing list <a href="mailto:www-style@w3.org?Subject=%5Bcss-FOOOOOOOO%5D%20PUT%20SUBJECT%20HERE">www-style@w3.org</a> with the spec code (<code>[css-FOOOOOOOO]</code>) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)
+
 ===== Template for Twitter Announcement ====
 
   CSS Foo Module Updated: >>link to blog permalink<<
