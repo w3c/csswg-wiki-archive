@@ -199,7 +199,17 @@ Replace !!!marked!!! items. **[[https://www.w3.org/blog/CSS/wp-admin/|Log in to 
 
 ===== Template for Twitter Announcement ====
 
-  CSS Foo Module Updated: >>link to blog permalink<<
+Feel free to adjust the template as it seems useful.
+
+  CSS Foo L? [ updated WD | updated CR | published CR | FPWD (new) ]
+  ? brief summary of changes, if that seems manageable, to garner interest ?
+  ? link to blog post for details ?
+
+e.g.
+
+  CSS Box Alignment L3 updated WD
+  Added new/renamed row-gap/column-gap/gap for Grid and Flexbox
+  https://www.w3.org/blog/CSS/2017/12/31/spec-updates-2017/#align
 
 ===== Steps for Manual Publication =====
 
