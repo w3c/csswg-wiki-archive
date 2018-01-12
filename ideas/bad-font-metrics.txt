@@ -11,6 +11,14 @@ CSS relies on accurate font metrics to generate correct layouts. Unfortunately, 
   * cap height (''insert OpenType label here'')
   * ...
 
+===== Font-relative Units =====
+
+CSS has a variety of [[https://www.w3.org/TR/css-values/#font-relative-lengths|font-relative length units]], which authors use to lay out content on their pages. Inaccurate font metrics mean layouts using these length units don't visually line up with the shapes of the letters they're meant to reference.
+
+XXX Draw some examples of cap height and ex height stripes and things.
+
+XXX Gaiji example using ic unit to maintain sizing relative to surrounding text.
+
 ===== Superscripts and Subscripts =====
 
 ===== Initial Letters and Drop Caps =====
