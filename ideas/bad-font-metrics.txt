@@ -1,4 +1,4 @@
-====== Bad Font Metrics Are Bad ======
+====== Bad Font Metrics Are Bad: Why Good Font Metrics Matter ======
 
 CSS relies on accurate font metrics to generate correct layouts. Unfortunately, most fonts provide inaccurate font metrics. This page is a collection of where CSS uses, or would like to use, font metrics and why it sucks to have bad font metrics in your font.
 
