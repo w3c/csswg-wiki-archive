@@ -2,7 +2,7 @@
 
 CSS relies on accurate font metrics to generate correct layouts. Unfortunately, most fonts provide inaccurate font metrics. This page is a collection of where CSS uses, or would like to use, font metrics and why it sucks to have bad font metrics in your font.
 
-===== Index of Font Metrics Used by CSS =====
+==== List of Font Metrics Used by CSS ====
 
   * alphabetic baseline
   * ascent (''insert OpenType label here'')
