@@ -4,7 +4,7 @@
 
 To host a CSS meeting, you MUST provide:
   * A meeting room where the group can meet, without needing to sign any NDA or other agreement.
-  * Chairs for people to sit in and tables for them to put their laptops at (which SHOULD be arranged in a U shape) such that the participants can easily hear each other speak
+  * Chairs for people to sit in and tables for them to put their laptops at (which SHOULD be arranged in a U shape) such that the participants can easily hear each other speak. Attendance may vary, but is typically around 30 people.
   * electricity for everybody's laptops (probably assume greater than 1 device per person average)
   * network connectivity that allows at least access to Web, IRC, and email, and preferably also skype/VoIP
   * A projection screen easily visible from all the chairs, and preferably to which anyone in any of the chairs can project from their seats
@@ -12,8 +12,6 @@ To host a CSS meeting, you MUST provide:
   * Telephone access, preferably a multi-microphone conference phone, tested in advance to make sure audio works in both directions (is this a MUST or a SHOULD?)
 
 All of the above must be ready to go by 9am on each meeting day, and remain available until the of the meeting at 6pm. Being able to linger in the room after 6pm (to finish on going conversations, make dinner plans, etc) is desirable, but not required.
-
-Attendance may vary, but is typically around 30 people.
 
 You also SHOULD provide:
   * food and drinks for during the meeting (or have them otherwise reasonably available):  mid-morning coffee break, lunch, mid-afternoon break, and MAY also have breakfast available.  You should reasonably accommodate vegetarians, such as having eggs during breakfast to provide non-meat protein. Accommodating other food restrictions is desirable if possible. (More details here.)
