@@ -11,9 +11,15 @@ To host a CSS meeting, you MUST provide:
   * Either a whiteboard or flipchart that people can draw on, also visible from all the seats.
   * Telephone access, preferably a multi-microphone conference phone, tested in advance to make sure audio works in both directions (is this a MUST or a SHOULD?)
 
-All of the above should be ready to go by 9am on each meeting day.
+All of the above must be ready to go by 9am on each meeting day, and remain available until the of the meeting at 6pm. Being able to linger in the room after 6pm (to finish on going conversations, make dinner plans, etc) is desirable, but not required.
+
+Attendance may vary, but is typically around 30 people.
 
 You also SHOULD provide:
   * food and drinks for during the meeting (or have them otherwise reasonably available):  mid-morning coffee break, lunch, mid-afternoon break, and MAY also have breakfast available.  You should reasonably accommodate vegetarians, such as having eggs during breakfast to provide non-meat protein. Accommodating other food restrictions is desirable if possible. (More details here.)
   * natural light in the meeting room (which helps people who are jetlagged)
   * a meeting space that does not permit smoking indoors
+
+You MAY also:
+  * Invite everybody for dinner once during the F2F. This is often done and appreciated, but is not a requirement and members do understand that you may have budget constraints.
+  * Organize a side event to meet with local web developers. If you do so, you SHOULD inform the CSSWG members well in advance, as they may otherwise have conflicting travel plans.
