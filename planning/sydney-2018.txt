@@ -10,10 +10,11 @@
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes
 | Chris Lilley | | | |
+| Eric Willigers | | | Home |
 | Naina Raisinghani |17 Aug 2015 :P |:shrug | Home |
 | Shane Stephens | | | Home |
-| Eric Willigers | | | Home |
+| Tantek Çelik | | | |
 | Xidorn Quan | | | Home |
 ==== Regrets ====
-
-Dave Cramer
+  * Dave Cramer
+  * ...
