@@ -1,0 +1,67 @@
+====== Frequently Asked Questions ======
+
+==== Styling <sup> and <sub> using font-variant-position ====
+
+=== Question ===
+HTML currently specifies the following default styles for sup and sub:
+
+<code css>
+sub { vertical-align: sub; }
+sup { vertical-align: super; }
+sub, sup { line-height: normal; font-size: smaller; }
+</code>
+
+This works, but this is not very good typography. The following uses fonts the way they're meant to be, wouldn't it be much better?
+
+<code css>
+sub { font-variant-position: sub; }
+sup { font-variant-position: sup; }
+</code>
+
+=== Answer ===
+It is indeed better typography,
+and even if the font does not have the dedicated glyphs,
+the browser is required to synthesize them,
+so this is look encouraging.
+However, we cannot switch the default rendering to that.
+It has issues in terms of compatibility,
+and more importantly, it does not handle all cases,
+due the possibility of nested sub/sup.
+While these are not overly common it does exist,
+and this style change is would induce a rendering with an apparently different meaning.
+
+Consider the following:
+<code html>
+2<sup>2<sup>2</sup></sup> = 16
+</code>
+
+Even if the typography isn't great,
+This correctly looks like 2^2^2 = 16 with the legacy styling,
+but would look like 2^22=16 with the proposed change,
+which is wrong.
+
+There were various attempts to define font-variant-position differently to make it handle such situations,
+but they were rejected for being either too complex, not solving the problem correctly, or both.
+
+The following code comes reasonably close to giving good typography in the base case,
+and handling some cases of nesting as well,
+so web page authors may want to use it if it works for their content,
+but was not judged sufficiently robust in the general case to be accepted as a new default styling,
+in part because fonts with inaccurate metrics (which are unfortunately reasonably common) may break it,
+and in part because it does not handle images and other non textual content in the sub/superscripts.
+
+<code css>
+sub { font-variant-position: sub; }
+sup { font-variant-position: super; }
+
+:matches(sub, sup) :matches(sub, sup) {  font-size: smaller; }
+/* Not using :matches() on the parent in the following 2 rules is intentional,
+   it would shift too much. */
+sub sub { vertical-align: sub; }
+sup sup { vertical-align: super; }
+</code>
+
+== References ==
+https://github.com/w3c/csswg-drafts/issues/1888
+https://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html
+https://lists.w3.org/Archives/Public/www-style/2011Apr/0391.html
