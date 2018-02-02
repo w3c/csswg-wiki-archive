@@ -1,6 +1,6 @@
 ====== Frequently Asked Questions ======
 
-==== Styling <sup> and <sub> using font-variant-position ====
+===== Styling <sup> and <sub> using font-variant-position =====
 
 === Question ===
 HTML currently specifies the following default styles for sup and sub:
@@ -68,7 +68,8 @@ sup sup { vertical-align: super; }
   * https://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html
   * https://lists.w3.org/Archives/Public/www-style/2011Apr/0391.html
 
-==== Selectors that depend on layout ====
+===== Selectors that depend on layout =====
+
 === Question ===
   * I would like an :overflowing pseudo class to select elements which overflow
   * I would like a :stuck pseudo class to select elements with position:sticky which are currently stuck
