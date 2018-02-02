@@ -40,6 +40,8 @@ This correctly looks like 2^2^2 = 16 with the legacy styling,
 but would look like 2^22=16 with the proposed change,
 which is wrong.
 
+== More details ==
+
 There were various attempts to define font-variant-position differently to make it handle such situations,
 but they were rejected for being either too complex, not solving the problem correctly, or both.
 
@@ -65,3 +67,84 @@ sup sup { vertical-align: super; }
   * https://github.com/w3c/csswg-drafts/issues/1888
   * https://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html
   * https://lists.w3.org/Archives/Public/www-style/2011Apr/0391.html
+
+==== Selectors that depend on layout ====
+=== Question ===
+  * I would like an :overflowing pseudo class to select elements which overflow
+  * I would like a :stuck pseudo class to select elements with position:sticky which are currently stuck
+  * I would like a :on-screen pseudo class to select elements which are currently in the viewport
+
+=== Answer ===
+
+This falls into a class of problems that unlikely to be solvable in CSS:
+selectors in general, and pseudo classes in particular, cannot depend on layout,
+because otherwise they could be used to modify layout in a way that made them no longer match,
+which would modify the layout back to where it was,
+so they match again,
+and we get stuck in an infinite loop of contradictions.
+
+For a simple example:
+
+<code css>
+:stuck { position: static; }
+</code>
+
+Now what?
+
+Some of the changes web developers might want to apply with a :stuck pseudo class may be safe
+and not trigger such loops,
+but selectors are a generic mechanism,
+and would enable this kind of contradictions.
+
+So even though many of the problem people are trying to address using such pseudo classes are legitimate,
+selectors are unlikely to be the answer.
+
+== More details ==
+
+It may seem that we could simply disallow/make invalid anything that could cause an infinite loop,
+but that doesn't actually solve the problem.
+
+Say we did this, and explicitly disallowed setting position
+— as well as other properties that can change the position of the element and therefore whether it gets stuck or not, such as display, margin, float, clear, flex… —
+in a rule targeting a :stuck element.
+This is already more restrictive than many potential users of :stuck would be happy with,
+but this works for this case.  
+
+Next week, someone comes up with a similar circularity they want to allow (like [[https://tabatkins.github.io/specs/css-toggle-states/ |the Toggle States proposal]], which has properties interacting with :checked).  We disallow that circularity too.
+
+Now someone writes
+
+<code css>
+.foo { toggle-states: 2; toggle-initial: 1; } /* makes it checked */
+:checked { position: sticky; }
+:stuck { toggle-states: none; }
+</code>
+
+When it's checked, it becomes sticky. (Assume the page is scrolled such that it becomes stuck immediately.)  When it's stuck, it becomes uncheckable, which means it's no longer sticky, so it's not stuck, so it goes back to being checkable, and so it's checked, and so it's sticky, and so it's stuck, and so it's uncheckable...
+
+If you add a third selector/property pair, the number of cycles you need to manage gets even larger.
+
+The only way around this is to define that *none* of the properties that affect selectors can be used in rules using *any* of the selectors affected by properties.  That ends up with a lot of confusing action-at-a-distance: it's weird that using :checked means that you can't set position: sticky any more.
+
+Worse than being confusing, this is also breaking compatibility.
+Setting position:sticky inside of :checked used to be valid,
+but adding that other new feature means it would no longer be,
+so we cannot do that.
+In effect, if we ever add a selector that can depend on properties,
+then we can never add another selector that would depend on other properties ever.
+Which one goes first?
+
+Yet another way you could try to remediate all this
+would be to do a run-time detection
+of whether there is a loop in that particular page
+and disable all the selectors (or properties) involved in that loop.
+However, this check would have a performance impact,
+would still have the confusing and hard to debug "action at a distance" problem,
+on top of which it would require significant changes in browser architecture.
+
+Instead of doing all of this, so far we've just short-circuited the entire debate and disallowed selectors from being affected by properties.
+
+=== References ===
+  * https://github.com/w3c/csswg-drafts/issues/2011
+  * https://github.com/w3c/csswg-drafts/issues/1656
+  * https://lists.w3.org/Archives/Public/www-style/2016Jan/0255.html / https://lists.w3.org/Archives/Public/www-style/2016Jan/0282.html
