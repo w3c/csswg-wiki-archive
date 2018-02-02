@@ -28,7 +28,7 @@ It has issues in terms of compatibility,
 and more importantly, it does not handle all cases,
 due the possibility of nested sub/sup.
 While these are not overly common it does exist,
-and this style change is would induce a rendering with an apparently different meaning.
+and this style change would induce a rendering with an apparently different meaning.
 
 Consider the following:
 <code html>
