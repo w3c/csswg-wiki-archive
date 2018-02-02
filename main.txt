@@ -15,7 +15,7 @@ Due to abuse by spam bots, account registration has been disabled on this wiki. 
 See [[http://wiki.csswg.org/?do=recent|recent changes]] for currently active topics.
 
 ===== Sections =====
-
+  * [[faq]] - FAQ: why some commonly desired features keep being rejected / why some surprising things are the way they are
   * [[spec]] - Wiki pages for tracking spec-related thoughts
   * [[ideas]] - Ideas not yet in a spec
   * [[test]] - Testing CSS
