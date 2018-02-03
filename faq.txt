@@ -68,6 +68,8 @@ sup sup { vertical-align: super; }
   * https://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html
   * https://lists.w3.org/Archives/Public/www-style/2011Apr/0391.html
 
+
+
 ===== Selectors that depend on layout =====
 
 === Question ===
@@ -149,3 +151,72 @@ Instead of doing all of this, so far we've just short-circuited the entire debat
   * https://github.com/w3c/csswg-drafts/issues/2011
   * https://github.com/w3c/csswg-drafts/issues/1656
   * https://lists.w3.org/Archives/Public/www-style/2016Jan/0255.html / https://lists.w3.org/Archives/Public/www-style/2016Jan/0282.html
+
+
+
+
+===== Versioning CSS, Fixing Design Mistakes =====
+
+=== Question ===
+
+  * There are quite a few things in CSS that are [[https://wiki.csswg.org/ideas/mistakes | considered design mistakes]], and that would be done differently if they were being designed to today. Can't we just fix these?
+  * CSS is terrible; we need to change FOO, BAR and BLAH, to work differently.
+  * Can we introduce a ''@css 3;'' or ''@css 3 { }'' rule to instruct the browser to switch to a different processing model? The old one has lots of flaws.
+
+=== Answer ===
+
+CSS is a widely successful technology so it's probably not **that** bad,
+but there have certainly been a number of decisions that in hindsight were wrong.
+Unfortunately, we are mostly stuck with these.
+
+The point of a web browser is not to have a beautiful architecture,
+it is to browse the web as it exists,
+not as we would like it to be.
+Whether authors correctly used well designed features,
+correctly used poorly designed features,
+used features in creative or weird ways,
+or even accidentally depended on some bizarre behavior,
+is mostly irrelevant.
+Sites that work today need to continue to work.
+
+For all the web's quirks, the fact that new web pages can work in old browsers (with some
+graceful degradation) and old web pages work in new browsers is a huge strength
+of the web, even if it does have the downside that we have to live
+with the mistakes of the past.
+
+Occasionally, it is possible to make breaking change, when the problem it solves is major,
+and the breakage is very limited. But that's the exception, not the rule, and it is very hard to do,
+because nobody is the boss of the web and can order everyone to update. Unless everybody
+is convinced that breaking existing sites is a good idea, the change will not happen.
+
+== More details ==
+
+Occasionally, people accept that the current model cannot be changed,
+but suggest that we could introduce a different model if we told the browser about it using
+some versioning scheme, like a ''@css: 3;'' or ''@css 3 { }'' rule.
+
+Things along this line have been suggested and considered multiple times
+over the years, but ultimately rejected, as that would not work.
+
+Any page without ''@css: 3;'' will be interpreted as css21. But initially,
+so will any page that has ''@css: 3'', because browsers that don't know
+about it (currently all of them) will just drop this line, an render the page
+as usual, and so even browsers who would want to use special css3
+semantics would have to render it using css21 rules, otherwise the 
+pages would work differently in different browsers, which would be
+terrible.
+
+We could instead have ''@css3 { /*put your stylesheet with new semantics here*/ }'', as that
+would be ignored by old browsers, but even then every (new) browser
+would have to support both the old way and the new way forever, which
+is quite costly. For authors, it would be costly as well, as they would
+have to write their stylesheet twice: once using ''@css3{}'' for new browsers
+and once without it for old ones.
+
+Even though everybody recognizes that some decisions made in the past
+are not ideal and that this causes some pain,
+the pain is not nearly enough to justify making everybody do twice the work.
+
+=== References ===
+  * https://lists.w3.org/Archives/Public/www-style/2018Jan/0061.html
+  * https://lists.w3.org/Archives/Public/www-style/2018Jan/0062.html
