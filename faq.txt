@@ -63,7 +63,7 @@ sub sub { vertical-align: sub; }
 sup sup { vertical-align: super; }
 </code>
 
-== References ==
+=== References ===
   * https://github.com/w3c/csswg-drafts/issues/1888
   * https://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html
   * https://lists.w3.org/Archives/Public/www-style/2011Apr/0391.html
