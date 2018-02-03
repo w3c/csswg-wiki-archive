@@ -249,12 +249,7 @@ changing how CSS works breaks existing content,
 and that goes against everybody's interests.
 
 == more details ==
-However, this particular case it interesting.
-
-If we did this change, all previously valid pages would continue to work, so what's the problem?
-
-For new content, that behavior would be be nice,
-but for existing content it would be a huge problem.
+However, this particular case it interesting. If we did this change, all previously valid pages would continue to work, so what's the problem?
 
 It turns out that since mistyping a selector is an easy mistake to make,
 lots of people have made it.
