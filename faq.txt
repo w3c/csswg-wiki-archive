@@ -172,8 +172,8 @@ Unfortunately, we are mostly stuck with these.
 The point of a web browser is not to have a beautiful architecture,
 it is to browse the web as it exists,
 not as we would like it to be.
-Whether authors correctly used well designed features,
-correctly used poorly designed features,
+Whether authors correctly used well-designed features,
+correctly used poorly-designed features,
 used features in creative or weird ways,
 or even accidentally depended on some bizarre behavior,
 is mostly irrelevant.
