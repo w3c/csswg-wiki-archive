@@ -220,3 +220,61 @@ the pain is not nearly enough to justify making everybody do twice the work.
 === References ===
   * https://lists.w3.org/Archives/Public/www-style/2018Jan/0061.html
   * https://lists.w3.org/Archives/Public/www-style/2018Jan/0062.html
+
+===== Error Handling in Selectors, aka Breaking Pages by Making Them Work =====
+
+=== Question ===
+
+When a selector has a syntax error in it, or when it has new syntax that old browsers don't know about, the entire selector is dropped. CSS would be more robust and maintainable if the browser only dropped to the next comma.
+
+Take this code:
+
+<code css>
+#sensible .selector,
+syntax = !error,
+::new-feature {
+  background: red;
+}
+</code>
+
+Because of how selectors are parsed, this is not applied at all.
+Wouldn't it be nicer if it could apply to elements that match ''#sensible .selector'',
+also apply in up to date browsers to elements that match :new-feature,
+and just skip the syntax error?
+
+=== Answer ===
+
+Broadly speaking, this is impossible for the reasons explained in [[https://wiki.csswg.org/faq#versioning-css-fixing-design-mistakes | Versioning CSS, Fixing Design Mistakes]]:
+changing how CSS works breaks existing content,
+and that goes against everybody's interests.
+
+== more details ==
+However, this particular case it interesting.
+
+If we did this change, all previously valid pages would continue to work, so what's the problem?
+
+For new content, that behavior would be be nice,
+but for existing content it would be a huge problem.
+
+It turns out that since mistyping a selector is an easy mistake to make,
+lots of people have made it.
+Moreover, when a page doesn't quite look the way the author expected,
+a common strategy is to write more CSS rules until it does,
+rather than trying to understand why the existing rules do not create the expected result.
+
+Then, when the page looks good, the author ships it,
+including all mistaken cruft that doesn't do anything.
+This dead code might even survive later redesigns.
+
+Effectively, even though it is not intentional,
+the page, which has been fixed through other css declarations,
+now depends on this cruft not to work.
+More often than not, “randomly“ changing the background,
+the size, the borders, or the display value of some elements in the page will break it badly.
+It doesn't matter that the source of the “randomness“ is the author's previous mistakes.
+
+And so, even though most people agree that error handling at commas in selectors would be nicer,
+this is not something that can be changed.
+
+=== References ===
+ TBD
