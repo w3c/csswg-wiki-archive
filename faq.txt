@@ -232,14 +232,14 @@ Take this code:
 <code css>
 #sensible .selector,
 syntax = !error,
-::new-feature {
+:new-feature {
   background: red;
 }
 </code>
 
 Because of how selectors are parsed, this is not applied at all.
 Wouldn't it be nicer if it could apply to elements that match ''#sensible .selector'',
-also apply in up to date browsers to elements that match :new-feature,
+also apply in up to date browsers to elements that match '':new-feature'',
 and just skip the syntax error?
 
 === Answer ===
