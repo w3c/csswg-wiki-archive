@@ -262,8 +262,8 @@ including all mistaken cruft that doesn't do anything.
 This dead code might even survive later redesigns.
 
 Effectively, even though it is not intentional,
-many pages which have been fixed through additional css declarations,
-now depends on this sort of cruft not to work.
+many pages which have been fixed through additional css declarations
+now depend on this sort of cruft not to work.
 More often than not, “randomly“ changing the background,
 the size, the borders, or the display value of some elements in the page will break it badly.
 It doesn't matter that the source of the “randomness“ is the author's previous mistakes.
