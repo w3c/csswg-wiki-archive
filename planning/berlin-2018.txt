@@ -58,5 +58,4 @@ Richard Rutter
 ==== Agenda Items ====
   * meta-issue: when we don't act on some ambig we spec due to compat. latest example, having flex/grid % margins be based on oldest (block flow) model, rather than anything in the past 20 years (positioning, flex, grid).
   * ::part & ::theme
-  * Potentially focus-ring
   * ... 
