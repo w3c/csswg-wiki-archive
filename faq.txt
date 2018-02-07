@@ -136,6 +136,9 @@ so we cannot do that.
 In effect, if we ever add a selector that can depend on properties,
 then we can never add another selector that would depend on other properties ever.
 Which one goes first?
+Something that we can only do once, ever,
+and that will affect our ability to evolve CSS in the future,
+is probably a bad idea for the language.
 
 Yet another way you could try to remediate all this
 would be to do a run-time detection
@@ -172,8 +175,8 @@ Unfortunately, we are mostly stuck with these.
 The point of a web browser is not to have a beautiful architecture,
 it is to browse the web as it exists,
 not as we would like it to be.
-Whether authors correctly used well designed features,
-correctly used poorly designed features,
+Whether authors correctly used well-designed features,
+correctly used poorly-designed features,
 used features in creative or weird ways,
 or even accidentally depended on some bizarre behavior,
 is mostly irrelevant.
