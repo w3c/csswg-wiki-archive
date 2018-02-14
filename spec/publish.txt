@@ -30,13 +30,13 @@ Note: The above combines steps specific to the CSS WG and general W3C-wide [[htt
 
 Replace >>marked<< items:
 
-  ; To : bert@, chris@, webreq@
+  ; To : chris@, webreq@
   ; CC : w3c-css-wg@
   ; Subject : [Publish]>>[css3-foo]<< Publish >>CSS Foo<< Working Draft
   ; Body : 
 
 
-  Hello Bert, Chris, & Webreq
+  Hello Chris, & Webreq
   The CSS Working Group would like to publish an updated Working Draft of:
     >>CSS Foo<<.
   The resolution to publish is recorded here:
