@@ -5,6 +5,13 @@ Our conformance test suites: how to run them, known bugs, and how to contribute.
 Test suite and test case discussion takes place primarily in [[https://github.com/w3c/web-platform-tests/issues|GitHub issues]], with policy matters occasionally discussed on the [[http://lists.w3.org/Archives/Public/public-test-infra/|public-test-infra mailing list]]. The [[tools:irc|#testing channel]] on irc.w3.org:6665 is also available for discussion, and is recommended for anything where a quick response is desirable. The [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite mailing list]] exists for CSS-specific discussion, excluding any policy matters around the repository, primarily tooling maintained by the CSS WG (i.e., the CSS testsuites' build system and the CSS test harness).
 
 ===== Contributing =====
+If you want to contribute to CSS Tests:
+* General questions: Ask in #css in W3C IRC
+* Problem with a test file: File an issue in https://github.com/w3c/web-platform-tests
+* Contributing a new test file: Ask in #css in W3C IRC
+
+----
+This entire section below is double-obsolete, all the pages linked to say their own content is " This page has been deprecated and is no longer being maintained.", and then link to the apparently unmaintained (or so opaque it's hard to tell, including where to give feedback) testthewebforward.org/docs.
 
   * [[test:faq]]
   * [[test:fonts|Installing Fonts for CSS Testing]] (required for running CSS tests)
