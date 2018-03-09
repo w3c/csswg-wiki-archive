@@ -25,7 +25,7 @@
 And please add 'yes' to the TYPO Labs column if you'd be interested in attending the TYPO event.
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^ TYPO Labs ^ CSS WG dinner ^
-| Alan Stearns | 6 Apr | 15 Apr | | | Yes | |
+| Alan Stearns | 6 Apr | 15 Apr | | | Yes | Yes, omnivore |
 | Chris Lilley | | | block | | Yes | |
 | Dave Cramer | | | block | | | |
 | Dael Jackson | | | AirBnB? | | No | |
