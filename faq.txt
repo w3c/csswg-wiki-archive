@@ -150,6 +150,16 @@ on top of which it would require significant changes in browser architecture.
 
 Instead of doing all of this, so far we've just short-circuited the entire debate and disallowed selectors from being affected by properties.
 
+== Why Doesn't This Argument Apply To :hover? ==
+
+A common retort to the above is "we already have :hover, which has circularity issues, why can't we add this?".
+
+First, the fact that we've made one mistake isn't an argument for repeating the mistake. :hover *is* problematic in implementations, and we'd prefer not to add more things like it.
+
+Second, and more important, the circularity of :hover is very "wide" - when you apply :hover rules, you get all the way thru styling, then layout, then painting, and finally to hit-testing before you realize the element isn't hovered anymore and have to go re-style.  The user gets to at least see the full results of hovering before the engine has to figure things out again.  This is different from most other circular pseudo-classes, which circle around after just styling or layout, before the old results are even presented to the user.  This would effectively freeze the page, as the layout engine isn't even allowed to complete a single full run before it gets restarted.
+
+Furthermore, hit-testing is easy to for UAs to "tweak" to mostly get around the hover problems - UAs generally don't rerun hit-testing until the user moves their pointer, so as soon as they stop moving it, it settles on one rendering or the other.  Again, this isn't the case for other circular pseudo-classes.
+
 === References ===
   * https://github.com/w3c/csswg-drafts/issues/2011
   * https://github.com/w3c/csswg-drafts/issues/1656
