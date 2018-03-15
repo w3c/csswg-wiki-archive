@@ -67,3 +67,4 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * meta-issue: when we don't act on some ambig we spec due to compat. latest example, having flex/grid % margins be based on oldest (block flow) model, rather than anything in the past 20 years (positioning, flex, grid).
   * ::part & ::theme
   * [[https://drafts.csswg.org/css-text-3/issues-lc-2013|CSS3 Text]]
+  * getComputedStyle tree/document issues: [[https://github.com/w3c/csswg-drafts/issues/1548|#1548]], [[https://github.com/w3c/csswg-drafts/issues/1964|#1964]], [[https://github.com/w3c/csswg-drafts/issues/2403|#2403]] (dbaron and emilio)
