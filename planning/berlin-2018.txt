@@ -62,6 +62,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 | Emilio Cobos Álvarez | Mozilla |
 | Oriol Brufau | |
 | Richard Rutter | |
+| Jason Pamental | |
 
 ==== Agenda Items ====
   * meta-issue: when we don't act on some ambig we spec due to compat. latest example, having flex/grid % margins be based on oldest (block flow) model, rather than anything in the past 20 years (positioning, flex, grid).
