@@ -90,4 +90,5 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * CSS-Contain (Florian) (Schedule after css-display)
     * https://github.com/w3c/csswg-drafts/issues/2483
     * https://github.com/w3c/csswg-drafts/issues/2223
+    * https://github.com/w3c/csswg-drafts/issues/2349
 
