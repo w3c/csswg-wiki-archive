@@ -84,7 +84,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * Missing scroll-related anchoring terminology:
       * https://github.com/w3c/csswg-drafts/issues/2322
       * https://github.com/w3c/csswg-drafts/issues/2323
-    * missing box terminology https://github.com/w3c/csswg-drafts/issues/2324
+    * [[https://github.com/w3c/csswg-drafts/issues/2324|missing box terminology ]]
     * Interaction media feature [[https://github.com/WICG/spatial-navigation/issues/41| navigation: none | sequential | spatial ]]
     * [[https://github.com/WICG/spatial-navigation/issues/29#issuecomment-378153116|hitability testing]]
   * Remaining css-timing issue + transition spec to CR
