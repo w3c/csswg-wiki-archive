@@ -71,6 +71,8 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * Complex float shapes and bfc sizing: [[https://github.com/w3c/csswg-drafts/issues/2452|#2452]] (frremy)
   * Min-content of shrinkable flex items: [[https://github.com/w3c/csswg-drafts/issues/2353|#2353]] (frremy)
   * [[https://drafts.csswg.org/css-text-3/issues-lc-2013|CSS3 Text - All Open Issues]]
+  * CSS Text 4
+    * [[https://github.com/w3c/csswg-drafts/issues/2462|text-spacing: space-first]] (Murakami, via Florian)
   * getComputedStyle tree/document issues: [[https://github.com/w3c/csswg-drafts/issues/1548|#1548]], [[https://github.com/w3c/csswg-drafts/issues/1964|#1964]], [[https://github.com/w3c/csswg-drafts/issues/2403|#2403]] (dbaron and emilio + also frremy)
   * Grid
     * Review state of Grid Level 2, figure out next steps
