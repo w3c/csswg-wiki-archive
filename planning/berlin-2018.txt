@@ -94,4 +94,5 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * https://github.com/w3c/csswg-drafts/issues/1457#issuecomment-379156461
     * https://github.com/w3c/csswg-drafts/issues/2510
     * https://github.com/w3c/csswg-drafts/issues/2512
+    * Publish updated CR?
 
