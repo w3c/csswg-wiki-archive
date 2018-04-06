@@ -108,4 +108,4 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * https://github.com/w3c/csswg-drafts/issues/2429
     * https://github.com/w3c/csswg-drafts/issues/2421
   * CSS-UI (Florian)
-    * [[https://github.com/w3c/csswg-drafts/issues/1936|Change the pointer cursor to indicate any interactive element. Agenda+ Agenda+ F2F]] (can be done at regular teleconf if we're out of time)
+    * [[https://github.com/w3c/csswg-drafts/issues/1936|Change the pointer cursor to indicate any interactive element]] (can be done at regular teleconf if we're out of time)
