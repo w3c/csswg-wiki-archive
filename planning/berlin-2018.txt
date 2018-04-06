@@ -73,7 +73,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * [[https://drafts.csswg.org/css-text-3/issues-lc-2013|CSS3 Text - All Open Issues]]
   * CSS Text 4
     * [[https://github.com/w3c/csswg-drafts/issues/2462|text-spacing: space-first]] (Murakami, via Florian)
-  * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0006.html|Rules for Simple Placement of Ruby ]] (Florian, Kobayashi-sensei)
+  * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0006.html|Rules for Simple Placement of Ruby ]] (Kobayashi-sensei via Florian)
   * getComputedStyle tree/document issues: [[https://github.com/w3c/csswg-drafts/issues/1548|#1548]], [[https://github.com/w3c/csswg-drafts/issues/1964|#1964]], [[https://github.com/w3c/csswg-drafts/issues/2403|#2403]] (dbaron and emilio + also frremy)
   * Grid
     * Review state of Grid Level 2, figure out next steps
