@@ -95,4 +95,10 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * https://github.com/w3c/csswg-drafts/issues/2510
     * https://github.com/w3c/csswg-drafts/issues/2512
     * Publish updated CR ([[https://drafts.csswg.org/css-contain/issues-2017-cr.html|DoC]])?
-
+  * css-overflow (Florian)
+    * 
+  * max-lines / block-ellipsis / [-webkit-]?line-camp (Florian & Fantasai)
+    * https://github.com/w3c/csswg-drafts/issues/390#issuecomment-371076389
+    * https://github.com/w3c/csswg-drafts/issues/2408
+    * https://github.com/w3c/csswg-drafts/issues/2429
+    * https://github.com/w3c/csswg-drafts/issues/2421
