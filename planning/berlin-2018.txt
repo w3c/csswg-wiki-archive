@@ -119,3 +119,4 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/2388|List features cleared for shipping]]
     * Publish? [[https://github.com/w3c/csswg-drafts/labels/snapshot-2018|Remaining open issues]]
   * [[https://github.com/WICG/spatial-navigation/issues/25|Making things focusable in CSS]] (if Brad Kemper attends)
+  * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0002.html|Editorship of css-page-floats]]
