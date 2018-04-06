@@ -108,6 +108,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines]]
     * [[https://github.com/w3c/csswg-drafts/issues/2429|Which descendants are skipped in max-lines]]
     * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with descendants' max-lines]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2474|::selection style propagation]]
   * CSS-UI (Florian) (can be done at regular teleconf if we're out of time)
     * [[https://github.com/w3c/csswg-drafts/issues/1936|Change the pointer cursor to indicate any interactive element]] 
     * [[https://github.com/w3c/csswg-drafts/issues/1815|let user-select:contain prohibit selection from outside]]
