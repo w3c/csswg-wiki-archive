@@ -87,8 +87,9 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * Making things focusable in CSS https://github.com/WICG/spatial-navigation/issues/25
   * Remaining css-timing issue + transition spec to CR
   * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+author%3Apalemieux+label%3ATTML|Outstanding requests from TTML]]
-  * CSS-Contain (Florian) (Schedule after css-display)
+  * CSS-Contain (Florian) (Schedule before css-display)
     * https://github.com/w3c/csswg-drafts/issues/2483
     * https://github.com/w3c/csswg-drafts/issues/2223
     * https://github.com/w3c/csswg-drafts/issues/2349
+    * https://github.com/w3c/csswg-drafts/issues/1457
 
