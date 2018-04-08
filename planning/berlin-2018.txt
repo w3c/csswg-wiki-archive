@@ -122,5 +122,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * [[https://github.com/WICG/spatial-navigation/issues/25|Making things focusable in CSS]] (if Brad Kemper attends)
   * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0002.html|Editorship of css-page-floats]]
 
-==== Break-time fun read ====
+==== Misc, break-time chat or just fun read ====
+  * [[https://github.com/w3c/csswg-drafts/issues/2472|Is it possible to have an "Edit on GitHub" or "Propose A Change" link to specs that points to a .bs file?]]
   * Of kiloparsecs and Special Relativity https://github.com/w3c/csswg-drafts/issues/2491#issuecomment-379215215
