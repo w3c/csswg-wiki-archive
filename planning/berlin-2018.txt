@@ -66,32 +66,11 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 | Jason Pamental | |
 
 ==== Agenda Items ====
-  * meta-issue: when we don't act on some ambig we spec due to compat. latest example, having flex/grid % margins be based on oldest (block flow) model, rather than anything in the past 20 years (positioning, flex, grid).
+
+=== Cascade ===
   * ::part & ::theme
-  * Complex float shapes and bfc sizing: [[https://github.com/w3c/csswg-drafts/issues/2452|#2452]] (frremy)
-  * Min-content of shrinkable flex items: [[https://github.com/w3c/csswg-drafts/issues/2353|#2353]] (frremy)
-  * [[https://drafts.csswg.org/css-text-3/issues-lc-2013|CSS3 Text - All Open Issues]]
-  * CSS Text 4
-    * [[https://github.com/w3c/csswg-drafts/issues/2462|text-spacing: space-first]] (Murakami, via Florian)
-  * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0006.html|Rules for Simple Placement of Ruby ]] (Kobayashi-sensei via Florian)
+  * [[https://github.com/w3c/csswg-drafts/issues/2474|::selection style propagation]]
   * getComputedStyle tree/document issues: [[https://github.com/w3c/csswg-drafts/issues/1548|#1548]], [[https://github.com/w3c/csswg-drafts/issues/1964|#1964]], [[https://github.com/w3c/csswg-drafts/issues/2403|#2403]] (dbaron and emilio + also frremy)
-  * Grid
-    * Review state of Grid Level 2, figure out next steps
-    * https://github.com/w3c/csswg-drafts/issues/2356 (Florian)
-  * Alignment
-    * Closing out [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-align-3|last few open issues]] and republishing
-    * Proposing Flexbox Level 2
-  * WPT - Extra CSS testsuite requirements: [[https://github.com/w3c/web-platform-tests/issues/10053|wpt#10053]] (gsnedders, rego, florian)
-  * Spatial navigation (Jihye & Florian)
-    * Status Update on [[https://wicg.github.io/spatial-navigation/|work in WICG]] & [[https://wicg.github.io/spatial-navigation/demo/blog/|Demo]]
-    * Missing scroll-related anchoring terminology:
-      * https://github.com/w3c/csswg-drafts/issues/2322
-      * https://github.com/w3c/csswg-drafts/issues/2323
-    * [[https://github.com/w3c/csswg-drafts/issues/2324|missing box terminology ]]
-    * Interaction media feature [[https://github.com/WICG/spatial-navigation/issues/41| navigation: none | sequential | spatial ]]
-    * [[https://github.com/WICG/spatial-navigation/issues/29#issuecomment-378153116|hitability testing]]
-  * Remaining css-timing issue + transition spec to CR
-  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+author%3Apalemieux+label%3ATTML|Outstanding requests from TTML]]
   * CSS-Contain (Florian) (Schedule before css-display)
     * [[https://github.com/w3c/csswg-drafts/issues/2483|Scoping of the content property unclear]]
     * [[https://github.com/w3c/csswg-drafts/issues/2349|Clarify style containment property scoping]]
@@ -100,6 +79,18 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/2510|size containment and non atomic inlines]]
     * [[https://github.com/w3c/csswg-drafts/issues/2512|containment and internal ruby elements ]]
     * Publish updated CR ([[https://drafts.csswg.org/css-contain/issues-2017-cr.html|DoC]])?
+  * [[https://github.com/w3c/csswg-drafts/issues/2495|obscuring text for `<input type=password>` styling]]
+  * Remaining css-timing issue + transition spec to CR
+
+=== Layout ===
+  * Grid
+    * Review state of Grid Level 2, figure out next steps
+    * https://github.com/w3c/csswg-drafts/issues/2356 (Florian)
+  * Alignment
+    * Closing out [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-align-3|last few open issues]] and republishing
+    * Proposing Flexbox Level 2
+  * Complex float shapes and bfc sizing: [[https://github.com/w3c/csswg-drafts/issues/2452|#2452]] (frremy)
+  * Min-content of shrinkable flex items: [[https://github.com/w3c/csswg-drafts/issues/2353|#2353]] (frremy)
   * css-overflow
     * [[https://github.com/w3c/csswg-drafts/issues/1971#issuecomment-377078084|overflow:clip]] (Florian) (preferably before talking about max-lines & co)
     * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
@@ -109,19 +100,24 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines]]
     * [[https://github.com/w3c/csswg-drafts/issues/2429|Which descendants are skipped in max-lines]]
     * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with descendants' max-lines]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2474|::selection style propagation]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2458|definition of box-sizing in css-sizing]]
+
+=== Text ===
+  * [[https://drafts.csswg.org/css-text-3/issues-lc-2013|CSS3 Text - All Open Issues]]
+  * CSS Text 4
+    * [[https://github.com/w3c/csswg-drafts/issues/2462|text-spacing: space-first]] (Murakami, via Florian)
+  * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0006.html|Rules for Simple Placement of Ruby ]] (Kobayashi-sensei via Florian)
+
+=== Testing ===
+  * WPT - Extra CSS testsuite requirements: [[https://github.com/w3c/web-platform-tests/issues/10053|wpt#10053]] (gsnedders, rego, florian)
+
+
+=== If time permits === 
   * CSS-UI (Florian) (can be done at regular teleconf if we're out of time)
     * [[https://github.com/w3c/csswg-drafts/issues/1936|Change the pointer cursor to indicate any interactive element]] 
     * [[https://github.com/w3c/csswg-drafts/issues/1815|let user-select:contain prohibit selection from outside]]
     * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2495|obscuring text for `<input type=password>` styling]]
-  * 2018 Snapshot
-    * [[https://github.com/w3c/csswg-drafts/issues/2388|List features cleared for shipping]]
-    * Publish? [[https://github.com/w3c/csswg-drafts/labels/snapshot-2018|Remaining open issues]]
-  * [[https://github.com/WICG/spatial-navigation/issues/25|Making things focusable in CSS]] (if Brad Kemper attends)
-  * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0002.html|Editorship of css-page-floats]]
-  * [[https://github.com/w3c/csswg-drafts/issues/633|Fonts l4 super-format()]]
+
+
 ==== Misc, break-time chat or just fun read ====
   * [[https://github.com/w3c/csswg-drafts/issues/2472|Is it possible to have an "Edit on GitHub" or "Propose A Change" link to specs that points to a .bs file?]]
   * Of kiloparsecs and Special Relativity https://github.com/w3c/csswg-drafts/issues/2491#issuecomment-379215215
