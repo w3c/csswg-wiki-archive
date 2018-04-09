@@ -73,6 +73,8 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 === Cascade ===
   * ::part & ::theme
+  * [[https://github.com/w3c/csswg-drafts/issues/2158|Consider making ::slotted and :host take a single argument.]]
+  * [[https://github.com/w3c/csswg-drafts/issues/1915|Specificity of :host, ::slotted, and :host-context doesn't seem to be defined?]]
   * [[https://github.com/w3c/csswg-drafts/issues/2474|::selection style propagation]]
   * getComputedStyle tree/document issues: [[https://github.com/w3c/csswg-drafts/issues/1548|#1548]], [[https://github.com/w3c/csswg-drafts/issues/1964|#1964]], [[https://github.com/w3c/csswg-drafts/issues/2403|#2403]] (dbaron and emilio + also frremy)
   * [[https://github.com/w3c/csswg-drafts/issues/2149|getComputedStyle only supports ::before/::after ]]
