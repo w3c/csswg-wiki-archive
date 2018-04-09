@@ -154,6 +154,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/2462|text-spacing: space-first]] (Murakami, via Florian)
     * [[https://github.com/w3c/csswg-drafts/issues/1973|Allow padding to be applied at line start and end]]
     * [[https://github.com/w3c/csswg-drafts/issues/1975|Aligning an aligned block of text within its container]]
+    * [[https://github.com/w3c/csswg-drafts/issues/672#issuecomment-379723234|Allow for paragraph-level line breaking]]
   * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0006.html|Rules for Simple Placement of Ruby ]] (Kobayashi-sensei via Florian)
   * Fonts
     * [[https://github.com/w3c/csswg-drafts/issues/633|Fonts l4 super-format()]]
