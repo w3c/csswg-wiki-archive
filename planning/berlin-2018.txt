@@ -75,8 +75,8 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * Publish? [[https://github.com/w3c/csswg-drafts/labels/snapshot-2018|Remaining open issues]]
   * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0002.html|Editorship of css-page-floats]]
   * [[https://github.com/w3c/csswg-drafts/issues/2458|definition of box-sizing in css-sizing]]
-  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+author%3Apalemieux+label%3ATTML|Outstanding requests from TTML]]
   * [[https://github.com/w3c/csswg-drafts/issues/2179|Move overscroll-behavior spec from WICG to csswg-drafts]]
+  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+author%3Apalemieux+label%3ATTML|Outstanding requests from TTML]]
 
 === Testing ===
   * WPT - Extra CSS testsuite requirements: [[https://github.com/w3c/web-platform-tests/issues/10053|wpt#10053]] (gsnedders, rego, florian)
@@ -112,7 +112,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * Alignment
     * Closing out [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-align-3|last few open issues]] and republishing
   * Complex float shapes and bfc sizing: [[https://github.com/w3c/csswg-drafts/issues/2452|#2452]] (frremy)
-  * [[https://github.com/w3c/csswg-drafts/issues/1974|Allow background of an inline area to extend to before-and after-edges of the line area]]
   * css-sizing
     * [[https://github.com/w3c/csswg-drafts/issues/2384|Does indefinite min-height: N% fall back to zero or auto?]]
     * [[https://github.com/w3c/csswg-drafts/issues/2297|Indefinite percentages in calc() are underspecified]]
@@ -152,8 +151,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * [[https://drafts.csswg.org/css-text-3/issues-lc-2013|CSS3 Text - All Open Issues]]
   * CSS Text 4
     * [[https://github.com/w3c/csswg-drafts/issues/2462|text-spacing: space-first]] (Murakami, via Florian)
-    * [[https://github.com/w3c/csswg-drafts/issues/1973|Allow padding to be applied at line start and end]]
-    * [[https://github.com/w3c/csswg-drafts/issues/1975|Aligning an aligned block of text within its container]]
     * [[https://github.com/w3c/csswg-drafts/issues/672#issuecomment-379723234|Allow for paragraph-level line breaking]]
   * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0006.html|Rules for Simple Placement of Ruby ]] (Kobayashi-sensei via Florian)
   * Fonts
@@ -187,7 +184,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 == Afternoon ==
 
- * Animation breakout
+  * Animation breakout
 
 === Thursday ===
 
