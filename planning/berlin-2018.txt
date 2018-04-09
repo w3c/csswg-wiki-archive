@@ -67,17 +67,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 ==== Agenda Items ====
 
-=== Housekeeping ===
-  * 2019 f2f schedule 
-  * meta-issue: when we don't act on some ambig we spec due to compat. latest example, having flex/grid % margins be based on oldest (block flow) model, rather than anything in the past 20 years (positioning, flex, grid).
-  * 2018 Snapshot
-    * [[https://github.com/w3c/csswg-drafts/issues/2388|List features cleared for shipping]]
-    * Publish? [[https://github.com/w3c/csswg-drafts/labels/snapshot-2018|Remaining open issues]]
-  * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0002.html|Editorship of css-page-floats]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2458|definition of box-sizing in css-sizing]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2179|Move overscroll-behavior spec from WICG to csswg-drafts]]
-  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+author%3Apalemieux+label%3ATTML|Outstanding requests from TTML]]
-
 === Testing ===
   * WPT - Extra CSS testsuite requirements: [[https://github.com/w3c/web-platform-tests/issues/10053|wpt#10053]] (gsnedders, rego, florian)
   * [[https://github.com/w3c/csswg-drafts/issues/2438|CSSWG specs need usable test suite docs]]
@@ -175,6 +164,18 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 === Tuesday ===
 
 == Morning ==
+
+(Housekeeping)
+
+  * 2019 f2f schedule 
+  * meta-issue: when we don't act on some ambig we spec due to compat. latest example, having flex/grid % margins be based on oldest (block flow) model, rather than anything in the past 20 years (positioning, flex, grid).
+  * 2018 Snapshot
+    * [[https://github.com/w3c/csswg-drafts/issues/2388|List features cleared for shipping]]
+    * Publish? [[https://github.com/w3c/csswg-drafts/labels/snapshot-2018|Remaining open issues]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0002.html|Editorship of css-page-floats]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2458|definition of box-sizing in css-sizing]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2179|Move overscroll-behavior spec from WICG to csswg-drafts]]
+  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+author%3Apalemieux+label%3ATTML|Outstanding requests from TTML]]
 
 == Afternoon ==
 
