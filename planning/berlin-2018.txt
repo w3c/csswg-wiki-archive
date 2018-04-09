@@ -99,10 +99,14 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * Grid
     * Review state of Grid Level 2, figure out next steps
     * https://github.com/w3c/csswg-drafts/issues/2356 (Florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/1420|'justify-content' other than 'normal' or 'stretch' should change column count/size rules]]
   * Alignment
     * Closing out [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-align-3|last few open issues]] and republishing
     * Proposing Flexbox Level 2
   * Complex float shapes and bfc sizing: [[https://github.com/w3c/csswg-drafts/issues/2452|#2452]] (frremy)
+  * [[https://github.com/w3c/csswg-drafts/issues/2384|Does indefinite min-height: N% fall back to zero or auto?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2297|Indefinite percentages in calc() are underspecified]]
+  * [[https://github.com/w3c/csswg-drafts/issues/820|Adding a 'size' shorthand for 'width'/'height']]
   * Min-content of shrinkable flex items: [[https://github.com/w3c/csswg-drafts/issues/2353|#2353]] (frremy)
   * css-overflow
     * [[https://github.com/w3c/csswg-drafts/issues/1971#issuecomment-377078084|overflow:clip]] (Florian) (preferably before talking about max-lines & co)
@@ -112,7 +116,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * max-lines / block-ellipsis / [-webkit-]?line-camp ( Fantasai & Florian)
     * [[https://github.com/w3c/csswg-drafts/issues/390#issuecomment-371076389| Introducing max-lines / block-ellipsis / line-camp]]
     * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines]]
-    * [[https://github.com/w3c/csswg-drafts/issues/2429|Which descendants are skipped in max-lines]]
     * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with descendants' max-lines]]
   * Multicol
     * [[https://github.com/w3c/csswg-drafts/issues/1565|Add switch to avoid generating empty column boxes?]] (rachelandrew tabatkins)
@@ -136,6 +139,8 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * [[https://drafts.csswg.org/css-text-3/issues-lc-2013|CSS3 Text - All Open Issues]]
   * CSS Text 4
     * [[https://github.com/w3c/csswg-drafts/issues/2462|text-spacing: space-first]] (Murakami, via Florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/1973|Allow padding to be applied at line start and end]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1975|Aligning an aligned block of text within its container]]
   * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0006.html|Rules for Simple Placement of Ruby ]] (Kobayashi-sensei via Florian)
   * [[https://github.com/w3c/csswg-drafts/issues/633|Fonts l4 super-format()]]
   * [[https://github.com/w3c/csswg-drafts/issues/2485|font property descriptors for variable fonts]]
