@@ -86,6 +86,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * ::part & ::theme
   * [[https://github.com/w3c/csswg-drafts/issues/2474|::selection style propagation]]
   * getComputedStyle tree/document issues: [[https://github.com/w3c/csswg-drafts/issues/1548|#1548]], [[https://github.com/w3c/csswg-drafts/issues/1964|#1964]], [[https://github.com/w3c/csswg-drafts/issues/2403|#2403]] (dbaron and emilio + also frremy)
+  * [[https://github.com/w3c/csswg-drafts/issues/2149|getComputedStyle only supports ::before/::after ]]
   * CSS-Contain (Florian) (Schedule before css-display)
     * [[https://github.com/w3c/csswg-drafts/issues/2483|Scoping of the content property unclear]]
     * [[https://github.com/w3c/csswg-drafts/issues/2349|Clarify style containment property scoping]]
@@ -96,7 +97,11 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * Publish updated CR ([[https://drafts.csswg.org/css-contain/issues-2017-cr.html|DoC]])?
   * [[https://github.com/w3c/csswg-drafts/issues/2495|obscuring text for `<input type=password>` styling]]
   * Remaining [[https://github.com/w3c/csswg-drafts/issues/1680|css-timing issue]] + transition spec to CR
-  * [[https://github.com/w3c/csswg-drafts/issues/2149|getComputedStyle only supports ::before/::after ]]
+  * Display
+    * [[https://github.com/w3c/csswg-drafts/issues/1477|How does block inside inline affect the box tree, exactly?]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1793|Is ::marker created by display:list-item or does it always exist?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2501|Rename table box to table grid box]]
+
 
 === Layout ===
   * Grid
