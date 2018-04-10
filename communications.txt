@@ -8,7 +8,7 @@
 ===== informal =====
 
   * [[http://twitter.com/csswg/|csswg Twitter]].  The unofficial csswg twitter account follows current and former members of the working group, and is used by current members to post various informal public updates.
-  * irc://irc.w3.org:6665/#css - The working group uses the public #css IRC channel on the W3C IRC server for minuting much of its discussions during face to face and teleconference meetings. As of 2008-03-27, the channel is publicly logged 24/7 at [[http://logs.csswg.org/irc.w3.org/css/]].
+  * [[https://www.w3.org/Project/IRC/|W3C IRC server]], channel #css - The working group uses the public #css IRC channel on the W3C IRC server for minuting much of its discussions during face to face and teleconference meetings. As of 2008-03-27, the channel is publicly logged 24/7 at [[http://logs.csswg.org/irc.w3.org/css/]].
 
 <note>
 The IRC channel of the CSS Working Group is publicly logged in the interest of transparency into the group's working process. This channel is used for informal working communication by group members and does not represent any kind of official statement made by the CSS Working Group, any of its member organizations, or invited experts.
