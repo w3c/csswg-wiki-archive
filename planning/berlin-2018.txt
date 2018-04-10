@@ -114,9 +114,11 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * Interaction media feature [[https://github.com/WICG/spatial-navigation/issues/41| navigation: none | sequential | spatial ]]
     * [[https://github.com/WICG/spatial-navigation/issues/29#issuecomment-378153116|hitability testing]]
 
+(Layout 1)
+  * Complex float shapes and bfc sizing: [[https://github.com/w3c/csswg-drafts/issues/2452|#2452]] (frremy)
+
 == Afternoon ==
 
-(Layout 1)
   * Grid
     * Review state of Grid Level 2, figure out next steps
     * https://github.com/w3c/csswg-drafts/issues/2356 (Florian)
@@ -125,7 +127,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/1299|axis names]]
   * Alignment
     * Closing out [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-align-3|last few open issues]] and republishing
-  * Complex float shapes and bfc sizing: [[https://github.com/w3c/csswg-drafts/issues/2452|#2452]] (frremy)
   * css-sizing
     * [[https://github.com/w3c/csswg-drafts/issues/2384|Does indefinite min-height: N% fall back to zero or auto?]]
     * [[https://github.com/w3c/csswg-drafts/issues/2297|Indefinite percentages in calc() are underspecified]]
