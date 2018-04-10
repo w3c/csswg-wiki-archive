@@ -186,6 +186,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * [[https://github.com/w3c/csswg-drafts/issues/2458|definition of box-sizing in css-sizing]]
   * [[https://github.com/w3c/csswg-drafts/issues/2179|Move overscroll-behavior spec from WICG to csswg-drafts]]
   * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+author%3Apalemieux+label%3ATTML|Outstanding requests from TTML]]
+  * Writing modes update (Koji, Fantasai)
 
 == Afternoon ==
 
