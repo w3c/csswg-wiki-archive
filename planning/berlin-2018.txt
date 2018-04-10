@@ -124,7 +124,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * Min-content of shrinkable flex items: [[https://github.com/w3c/csswg-drafts/issues/2353|#2353]] (frremy)
     * [[https://github.com/w3c/csswg-drafts/issues/2442|Table flex items with main size less than preferred intrinsic width]]
     * Proposing Flexbox Level 2
-  * css-overflow
+  * css-overflow (not Thursday)
     * [[https://github.com/w3c/csswg-drafts/issues/1971#issuecomment-377078084|overflow:clip]] (Florian) (preferably before talking about max-lines & co)
     * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
     * [[https://github.com/w3c/csswg-drafts/issues/2484|Let 'overflow' accept two values]] ( Loirooriol)
@@ -132,7 +132,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 
 (Input)
-  * Spatial navigation (Jihye & Florian)
+  * Spatial navigation (Jihye & Florian, not Thursday)
     * Status Update on [[https://wicg.github.io/spatial-navigation/|work in WICG]] & [[https://wicg.github.io/spatial-navigation/demo/blog/|Demo]]
     * Missing scroll-related anchoring terminology:
       * https://github.com/w3c/csswg-drafts/issues/2322
