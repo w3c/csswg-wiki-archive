@@ -111,6 +111,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * Grid
     * Review state of Grid Level 2, figure out next steps
     * https://github.com/w3c/csswg-drafts/issues/2356 (Florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/2177|Grid track sizing items spanning a flexible track]]
     * [[https://github.com/w3c/csswg-drafts/issues/1420|'justify-content' other than 'normal' or 'stretch' should change column count/size rules]]
     * [[https://github.com/w3c/csswg-drafts/issues/1299|axis names]]
   * Alignment
