@@ -104,6 +104,16 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * [[https://github.com/w3c/csswg-drafts/issues/2179|Move overscroll-behavior spec from WICG to csswg-drafts]]
   * Writing modes update (Koji, Fantasai)
 
+(Input)
+  * Spatial navigation (Jihye & Florian, not Thursday)
+    * Status Update on [[https://wicg.github.io/spatial-navigation/|work in WICG]] & [[https://wicg.github.io/spatial-navigation/demo/blog/|Demo]]
+    * Missing scroll-related anchoring terminology:
+      * https://github.com/w3c/csswg-drafts/issues/2322
+      * https://github.com/w3c/csswg-drafts/issues/2323
+    * [[https://github.com/w3c/csswg-drafts/issues/2324|missing box terminology ]]
+    * Interaction media feature [[https://github.com/WICG/spatial-navigation/issues/41| navigation: none | sequential | spatial ]]
+    * [[https://github.com/WICG/spatial-navigation/issues/29#issuecomment-378153116|hitability testing]]
+
 == Afternoon ==
 
 (Layout 1)
@@ -131,17 +141,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
     * [[https://github.com/w3c/csswg-drafts/issues/2484|Let 'overflow' accept two values]] ( Loirooriol)
     * [[https://github.com/w3c/csswg-drafts/issues/2473|Add overscroll-behavior-[block/inline] in accordance with css-logical]]
-
-
-(Input)
-  * Spatial navigation (Jihye & Florian, not Thursday)
-    * Status Update on [[https://wicg.github.io/spatial-navigation/|work in WICG]] & [[https://wicg.github.io/spatial-navigation/demo/blog/|Demo]]
-    * Missing scroll-related anchoring terminology:
-      * https://github.com/w3c/csswg-drafts/issues/2322
-      * https://github.com/w3c/csswg-drafts/issues/2323
-    * [[https://github.com/w3c/csswg-drafts/issues/2324|missing box terminology ]]
-    * Interaction media feature [[https://github.com/WICG/spatial-navigation/issues/41| navigation: none | sequential | spatial ]]
-    * [[https://github.com/WICG/spatial-navigation/issues/29#issuecomment-378153116|hitability testing]]
 
 === Wednesday ===
 
