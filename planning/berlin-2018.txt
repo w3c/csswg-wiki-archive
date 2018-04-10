@@ -94,11 +94,11 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 (Housekeeping)
 
-  * 2019 f2f schedule 
-  * meta-issue: when we don't act on some ambig we spec due to compat. latest example, having flex/grid % margins be based on oldest (block flow) model, rather than anything in the past 20 years (positioning, flex, grid).
   * 2018 Snapshot
     * [[https://github.com/w3c/csswg-drafts/issues/2388|List features cleared for shipping]]
     * Publish? [[https://github.com/w3c/csswg-drafts/labels/snapshot-2018|Remaining open issues]]
+  * 2019 f2f schedule 
+  * meta-issue: when we don't act on some ambig we spec due to compat. latest example, having flex/grid % margins be based on oldest (block flow) model, rather than anything in the past 20 years (positioning, flex, grid).
   * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0002.html|Editorship of css-page-floats]]
   * [[https://github.com/w3c/csswg-drafts/issues/2458|definition of box-sizing in css-sizing]]
   * [[https://github.com/w3c/csswg-drafts/issues/2179|Move overscroll-behavior spec from WICG to csswg-drafts]]
