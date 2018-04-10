@@ -72,34 +72,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * WPT - Extra CSS testsuite requirements: [[https://github.com/w3c/web-platform-tests/issues/10053|wpt#10053]] (gsnedders, rego, florian)
   * [[https://github.com/w3c/csswg-drafts/issues/2438|CSSWG specs need usable test suite docs]]
 
-=== Input ===
-  * Spatial navigation (Jihye & Florian)
-    * Status Update on [[https://wicg.github.io/spatial-navigation/|work in WICG]] & [[https://wicg.github.io/spatial-navigation/demo/blog/|Demo]]
-    * Missing scroll-related anchoring terminology:
-      * https://github.com/w3c/csswg-drafts/issues/2322
-      * https://github.com/w3c/csswg-drafts/issues/2323
-    * [[https://github.com/w3c/csswg-drafts/issues/2324|missing box terminology ]]
-    * Interaction media feature [[https://github.com/WICG/spatial-navigation/issues/41| navigation: none | sequential | spatial ]]
-    * [[https://github.com/WICG/spatial-navigation/issues/29#issuecomment-378153116|hitability testing]]
-  * [[https://github.com/WICG/spatial-navigation/issues/25|Making things focusable in CSS]] (if Brad Kemper attends)
-
-=== Text and Fonts ===
-  * [[https://drafts.csswg.org/css-text-3/issues-lc-2013|CSS3 Text - All Open Issues]]
-  * CSS Text 4
-    * [[https://github.com/w3c/csswg-drafts/issues/2462|text-spacing: space-first]] (Murakami, via Florian)
-    * [[https://github.com/w3c/csswg-drafts/issues/672#issuecomment-379723234|Allow for paragraph-level line breaking]]
-  * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0006.html|Rules for Simple Placement of Ruby ]] (Kobayashi-sensei via Florian)
-  * Fonts
-    * [[https://github.com/w3c/csswg-drafts/issues/633|Fonts l4 super-format()]]
-    * [[https://github.com/w3c/csswg-drafts/issues/2485|font property descriptors for variable fonts]]
-    * [[https://github.com/w3c/csswg-drafts/issues/633|@font-family src: should accept a specifier which lists font requirements]]
-
-=== FXTF ===
-  * New WD for Filter Effects and CSS Masking
-  * [[https://github.com/w3c/fxtf-drafts/issues/264|Publish DOMMatrix as note]]
-  * [[https://github.com/w3c/fxtf-drafts/issues/177|Intrinsic/extrinsic image size for filter()]]
-  * [[https://github.com/w3c/fxtf-drafts/issues/23|Better definition of CSS filters subregion?]]
-
 === If there's time === 
   * CSS-UI (Florian) (can be done at regular teleconf if we're out of time)
     * [[https://github.com/w3c/csswg-drafts/issues/1936|Change the pointer cursor to indicate any interactive element]] 
@@ -195,10 +167,39 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 == Afternoon ==
 
+(Text and Fonts)
+  * [[https://drafts.csswg.org/css-text-3/issues-lc-2013|CSS3 Text - All Open Issues]]
+  * CSS Text 4
+    * [[https://github.com/w3c/csswg-drafts/issues/2462|text-spacing: space-first]] (Murakami, via Florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/672#issuecomment-379723234|Allow for paragraph-level line breaking]]
+  * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0006.html|Rules for Simple Placement of Ruby ]] (Kobayashi-sensei via Florian)
+  * Fonts
+    * [[https://github.com/w3c/csswg-drafts/issues/633|Fonts l4 super-format()]]
+    * [[https://github.com/w3c/csswg-drafts/issues/2485|font property descriptors for variable fonts]]
+    * [[https://github.com/w3c/csswg-drafts/issues/633|@font-family src: should accept a specifier which lists font requirements]]
+
   * Animation breakout
 
 === Thursday ===
 
 == Morning ==
+
+(Input)
+  * Spatial navigation (Jihye & Florian)
+    * Status Update on [[https://wicg.github.io/spatial-navigation/|work in WICG]] & [[https://wicg.github.io/spatial-navigation/demo/blog/|Demo]]
+    * Missing scroll-related anchoring terminology:
+      * https://github.com/w3c/csswg-drafts/issues/2322
+      * https://github.com/w3c/csswg-drafts/issues/2323
+    * [[https://github.com/w3c/csswg-drafts/issues/2324|missing box terminology ]]
+    * Interaction media feature [[https://github.com/WICG/spatial-navigation/issues/41| navigation: none | sequential | spatial ]]
+    * [[https://github.com/WICG/spatial-navigation/issues/29#issuecomment-378153116|hitability testing]]
+  * [[https://github.com/WICG/spatial-navigation/issues/25|Making things focusable in CSS]] (if Brad Kemper attends)
+
+(FXTF)
+  * New WD for Filter Effects and CSS Masking
+  * [[https://github.com/w3c/fxtf-drafts/issues/264|Publish DOMMatrix as note]]
+  * [[https://github.com/w3c/fxtf-drafts/issues/177|Intrinsic/extrinsic image size for filter()]]
+  * [[https://github.com/w3c/fxtf-drafts/issues/23|Better definition of CSS filters subregion?]]
+
 
 == Afternoon ==
