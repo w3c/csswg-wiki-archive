@@ -80,6 +80,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * Transforms (Eric) (can be done at regular teleconf if we're out of time)
     * [[https://github.com/w3c/csswg-drafts/issues/2520|2D and 3D rotation are distinct]]
   * [[https://wicg.github.io/construct-stylesheets/index.html|Constructable Stylesheets]]
+  * [[https://github.com/WICG/spatial-navigation/issues/25|Making things focusable in CSS]] (if Brad Kemper attends)
 
 ==== Misc, break-time chat or just fun read ====
   * [[https://github.com/w3c/csswg-drafts/issues/2472|Is it possible to have an "Edit on GitHub" or "Propose A Change" link to specs that points to a .bs file?]]
@@ -106,7 +107,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 == Afternoon ==
 
-(Layout)
+(Layout 1)
   * Grid
     * Review state of Grid Level 2, figure out next steps
     * https://github.com/w3c/csswg-drafts/issues/2356 (Florian)
@@ -128,16 +129,17 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
     * [[https://github.com/w3c/csswg-drafts/issues/2484|Let 'overflow' accept two values]] ( Loirooriol)
     * [[https://github.com/w3c/csswg-drafts/issues/2473|Add overscroll-behavior-[block/inline] in accordance with css-logical]]
-  * max-lines / block-ellipsis / [-webkit-]?line-camp ( Fantasai & Florian)
-    * [[https://github.com/w3c/csswg-drafts/issues/390#issuecomment-371076389| Introducing max-lines / block-ellipsis / line-camp]]
-    * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines]]
-    * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with descendants' max-lines]]
-  * Multicol
-    * [[https://github.com/w3c/csswg-drafts/issues/1565|Add switch to avoid generating empty column boxes?]] (rachelandrew tabatkins)
-    * [[https://github.com/w3c/csswg-drafts/issues/1746|References to paged media]] (rachelandrew)
-    * [[https://github.com/w3c/csswg-drafts/issues/2309|column rules should only be drawn to the height of the column contents]] (rachelandrew)
-    * [[https://github.com/w3c/csswg-drafts/issues/2448|Spanning elements late in the content, treated as column-span: none]] (rachelandrew)
-    * [[https://github.com/w3c/csswg-drafts/issues/1745|Can overflow content influence column height?]] (rachelandrew)
+
+
+(Input)
+  * Spatial navigation (Jihye & Florian)
+    * Status Update on [[https://wicg.github.io/spatial-navigation/|work in WICG]] & [[https://wicg.github.io/spatial-navigation/demo/blog/|Demo]]
+    * Missing scroll-related anchoring terminology:
+      * https://github.com/w3c/csswg-drafts/issues/2322
+      * https://github.com/w3c/csswg-drafts/issues/2323
+    * [[https://github.com/w3c/csswg-drafts/issues/2324|missing box terminology ]]
+    * Interaction media feature [[https://github.com/WICG/spatial-navigation/issues/41| navigation: none | sequential | spatial ]]
+    * [[https://github.com/WICG/spatial-navigation/issues/29#issuecomment-378153116|hitability testing]]
 
 === Wednesday ===
 
@@ -184,16 +186,17 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 == Morning ==
 
-(Input)
-  * Spatial navigation (Jihye & Florian)
-    * Status Update on [[https://wicg.github.io/spatial-navigation/|work in WICG]] & [[https://wicg.github.io/spatial-navigation/demo/blog/|Demo]]
-    * Missing scroll-related anchoring terminology:
-      * https://github.com/w3c/csswg-drafts/issues/2322
-      * https://github.com/w3c/csswg-drafts/issues/2323
-    * [[https://github.com/w3c/csswg-drafts/issues/2324|missing box terminology ]]
-    * Interaction media feature [[https://github.com/WICG/spatial-navigation/issues/41| navigation: none | sequential | spatial ]]
-    * [[https://github.com/WICG/spatial-navigation/issues/29#issuecomment-378153116|hitability testing]]
-  * [[https://github.com/WICG/spatial-navigation/issues/25|Making things focusable in CSS]] (if Brad Kemper attends)
+(Layout 2)
+  * max-lines / block-ellipsis / [-webkit-]?line-camp ( Fantasai & Florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/390#issuecomment-371076389| Introducing max-lines / block-ellipsis / line-camp]]
+    * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines]]
+    * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with descendants' max-lines]]
+  * Multicol
+    * [[https://github.com/w3c/csswg-drafts/issues/1565|Add switch to avoid generating empty column boxes?]] (rachelandrew tabatkins)
+    * [[https://github.com/w3c/csswg-drafts/issues/1746|References to paged media]] (rachelandrew)
+    * [[https://github.com/w3c/csswg-drafts/issues/2309|column rules should only be drawn to the height of the column contents]] (rachelandrew)
+    * [[https://github.com/w3c/csswg-drafts/issues/2448|Spanning elements late in the content, treated as column-span: none]] (rachelandrew)
+    * [[https://github.com/w3c/csswg-drafts/issues/1745|Can overflow content influence column height?]] (rachelandrew)
 
 (FXTF)
   * New WD for Filter Effects and CSS Masking
