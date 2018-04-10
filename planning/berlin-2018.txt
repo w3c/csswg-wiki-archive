@@ -77,7 +77,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/1936|Change the pointer cursor to indicate any interactive element]] 
     * [[https://github.com/w3c/csswg-drafts/issues/1815|let user-select:contain prohibit selection from outside]]
     * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
-  * Transforms (Eric) (can be done at regular teleconf if we're out of time)
+  * Transforms (Eric) (not Thursday, can be done at regular teleconf if we're out of time)
     * [[https://github.com/w3c/csswg-drafts/issues/2520|2D and 3D rotation are distinct]]
   * [[https://wicg.github.io/construct-stylesheets/index.html|Constructable Stylesheets]]
   * [[https://github.com/WICG/spatial-navigation/issues/25|Making things focusable in CSS]] (if Brad Kemper attends)
@@ -161,7 +161,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/2512|containment and internal ruby elements ]]
     * Publish updated CR ([[https://drafts.csswg.org/css-contain/issues-2017-cr.html|DoC]])?
   * [[https://github.com/w3c/csswg-drafts/issues/2495|obscuring text for `<input type=password>` styling]]
-  * Remaining [[https://github.com/w3c/csswg-drafts/issues/1680|css-timing issue]] + transition spec to CR
+  * Remaining [[https://github.com/w3c/csswg-drafts/issues/1680|css-timing issue]] + transition spec to CR (not Thursday)
   * Display
     * [[https://github.com/w3c/csswg-drafts/issues/1477|How does block inside inline affect the box tree, exactly?]]
     * [[https://github.com/w3c/csswg-drafts/issues/1793|Is ::marker created by display:list-item or does it always exist?]]
