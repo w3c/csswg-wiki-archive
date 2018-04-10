@@ -72,41 +72,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * WPT - Extra CSS testsuite requirements: [[https://github.com/w3c/web-platform-tests/issues/10053|wpt#10053]] (gsnedders, rego, florian)
   * [[https://github.com/w3c/csswg-drafts/issues/2438|CSSWG specs need usable test suite docs]]
 
-
-
-=== Layout ===
-  * Grid
-    * Review state of Grid Level 2, figure out next steps
-    * https://github.com/w3c/csswg-drafts/issues/2356 (Florian)
-    * [[https://github.com/w3c/csswg-drafts/issues/1420|'justify-content' other than 'normal' or 'stretch' should change column count/size rules]]
-    * [[https://github.com/w3c/csswg-drafts/issues/1299|axis names]]
-  * Alignment
-    * Closing out [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-align-3|last few open issues]] and republishing
-  * Complex float shapes and bfc sizing: [[https://github.com/w3c/csswg-drafts/issues/2452|#2452]] (frremy)
-  * css-sizing
-    * [[https://github.com/w3c/csswg-drafts/issues/2384|Does indefinite min-height: N% fall back to zero or auto?]]
-    * [[https://github.com/w3c/csswg-drafts/issues/2297|Indefinite percentages in calc() are underspecified]]
-    * [[https://github.com/w3c/csswg-drafts/issues/820|Adding a 'size' shorthand for 'width'/'height']]
-  * Flex
-    * Min-content of shrinkable flex items: [[https://github.com/w3c/csswg-drafts/issues/2353|#2353]] (frremy)
-    * [[https://github.com/w3c/csswg-drafts/issues/2442|Table flex items with main size less than preferred intrinsic width]]
-    * Proposing Flexbox Level 2
-  * css-overflow
-    * [[https://github.com/w3c/csswg-drafts/issues/1971#issuecomment-377078084|overflow:clip]] (Florian) (preferably before talking about max-lines & co)
-    * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
-    * [[https://github.com/w3c/csswg-drafts/issues/2484|Let 'overflow' accept two values]] ( Loirooriol)
-    * [[https://github.com/w3c/csswg-drafts/issues/2473|Add overscroll-behavior-[block/inline] in accordance with css-logical]]
-  * max-lines / block-ellipsis / [-webkit-]?line-camp ( Fantasai & Florian)
-    * [[https://github.com/w3c/csswg-drafts/issues/390#issuecomment-371076389| Introducing max-lines / block-ellipsis / line-camp]]
-    * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines]]
-    * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with descendants' max-lines]]
-  * Multicol
-    * [[https://github.com/w3c/csswg-drafts/issues/1565|Add switch to avoid generating empty column boxes?]] (rachelandrew tabatkins)
-    * [[https://github.com/w3c/csswg-drafts/issues/1746|References to paged media]] (rachelandrew)
-    * [[https://github.com/w3c/csswg-drafts/issues/2309|column rules should only be drawn to the height of the column contents]] (rachelandrew)
-    * [[https://github.com/w3c/csswg-drafts/issues/2448|Spanning elements late in the content, treated as column-span: none]] (rachelandrew)
-    * [[https://github.com/w3c/csswg-drafts/issues/1745|Can overflow content influence column height?]] (rachelandrew)
-
 === Input ===
   * Spatial navigation (Jihye & Florian)
     * Status Update on [[https://wicg.github.io/spatial-navigation/|work in WICG]] & [[https://wicg.github.io/spatial-navigation/demo/blog/|Demo]]
@@ -168,6 +133,39 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * Writing modes update (Koji, Fantasai)
 
 == Afternoon ==
+
+(Layout)
+  * Grid
+    * Review state of Grid Level 2, figure out next steps
+    * https://github.com/w3c/csswg-drafts/issues/2356 (Florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/1420|'justify-content' other than 'normal' or 'stretch' should change column count/size rules]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1299|axis names]]
+  * Alignment
+    * Closing out [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-align-3|last few open issues]] and republishing
+  * Complex float shapes and bfc sizing: [[https://github.com/w3c/csswg-drafts/issues/2452|#2452]] (frremy)
+  * css-sizing
+    * [[https://github.com/w3c/csswg-drafts/issues/2384|Does indefinite min-height: N% fall back to zero or auto?]]
+    * [[https://github.com/w3c/csswg-drafts/issues/2297|Indefinite percentages in calc() are underspecified]]
+    * [[https://github.com/w3c/csswg-drafts/issues/820|Adding a 'size' shorthand for 'width'/'height']]
+  * Flex
+    * Min-content of shrinkable flex items: [[https://github.com/w3c/csswg-drafts/issues/2353|#2353]] (frremy)
+    * [[https://github.com/w3c/csswg-drafts/issues/2442|Table flex items with main size less than preferred intrinsic width]]
+    * Proposing Flexbox Level 2
+  * css-overflow
+    * [[https://github.com/w3c/csswg-drafts/issues/1971#issuecomment-377078084|overflow:clip]] (Florian) (preferably before talking about max-lines & co)
+    * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
+    * [[https://github.com/w3c/csswg-drafts/issues/2484|Let 'overflow' accept two values]] ( Loirooriol)
+    * [[https://github.com/w3c/csswg-drafts/issues/2473|Add overscroll-behavior-[block/inline] in accordance with css-logical]]
+  * max-lines / block-ellipsis / [-webkit-]?line-camp ( Fantasai & Florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/390#issuecomment-371076389| Introducing max-lines / block-ellipsis / line-camp]]
+    * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines]]
+    * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with descendants' max-lines]]
+  * Multicol
+    * [[https://github.com/w3c/csswg-drafts/issues/1565|Add switch to avoid generating empty column boxes?]] (rachelandrew tabatkins)
+    * [[https://github.com/w3c/csswg-drafts/issues/1746|References to paged media]] (rachelandrew)
+    * [[https://github.com/w3c/csswg-drafts/issues/2309|column rules should only be drawn to the height of the column contents]] (rachelandrew)
+    * [[https://github.com/w3c/csswg-drafts/issues/2448|Spanning elements late in the content, treated as column-span: none]] (rachelandrew)
+    * [[https://github.com/w3c/csswg-drafts/issues/1745|Can overflow content influence column height?]] (rachelandrew)
 
 === Wednesday ===
 
