@@ -132,7 +132,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/2297|Indefinite percentages in calc() are underspecified]]
     * [[https://github.com/w3c/csswg-drafts/issues/820|Adding a 'size' shorthand for 'width'/'height']]
   * Flex
-    * Min-content of shrinkable flex items: [[https://github.com/w3c/csswg-drafts/issues/2353|#2353]] (frremy)
     * [[https://github.com/w3c/csswg-drafts/issues/2442|Table flex items with main size less than preferred intrinsic width]]
     * Proposing Flexbox Level 2
   * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+author%3Apalemieux+label%3ATTML|Outstanding requests from TTML]]
@@ -190,6 +189,8 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 == Morning ==
 
 (Layout 2)
+  * Flex
+    * Min-content of shrinkable flex items: [[https://github.com/w3c/csswg-drafts/issues/2353|#2353]] (frremy)
   * max-lines / block-ellipsis / [-webkit-]?line-camp ( Fantasai & Florian)
     * [[https://github.com/w3c/csswg-drafts/issues/390#issuecomment-371076389| Introducing max-lines / block-ellipsis / line-camp]]
     * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines]]
