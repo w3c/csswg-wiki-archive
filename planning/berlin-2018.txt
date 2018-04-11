@@ -173,12 +173,13 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/2485|font property descriptors for variable fonts]]
     * [[https://github.com/w3c/csswg-drafts/issues/2505|(distinction -- or not -- between 'oblique 0deg' and 'normal' for font-style)]]
     * [[https://github.com/w3c/csswg-drafts/issues/2295|default angle for font-style: oblique]]
+    * [[https://github.com/w3c/csswg-drafts/issues/2531|font-variant @font-face descriptor]]
   * CSS Text 4
     * [[https://github.com/w3c/csswg-drafts/issues/2462|text-spacing: space-first]] (Murakami, via Florian)
     * [[https://github.com/w3c/csswg-drafts/issues/672#issuecomment-379723234|Allow for paragraph-level line breaking]]
   * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0006.html|Rules for Simple Placement of Ruby ]] (Kobayashi-sensei via Florian)
   * [[https://github.com/w3c/csswg-drafts/issues/2376#issuecomment-380066953|Bikeshed font underline value names]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2531|font-variant @font-face descriptor]]
+
 
   * Animation breakout
 
