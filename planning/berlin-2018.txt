@@ -70,10 +70,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 ==== Agenda Items ====
 
-=== Testing ===
-  * WPT - Extra CSS testsuite requirements: [[https://github.com/w3c/web-platform-tests/issues/10053|wpt#10053]] (gsnedders, rego, florian)
-  * [[https://github.com/w3c/csswg-drafts/issues/2438|CSSWG specs need usable test suite docs]]
-
 === If there's time === 
   * CSS-UI (Florian) (can be done at regular teleconf if we're out of time)
     * [[https://github.com/w3c/csswg-drafts/issues/1936|Change the pointer cursor to indicate any interactive element]] 
@@ -164,18 +160,11 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * Publish updated CR ([[https://drafts.csswg.org/css-contain/issues-2017-cr.html|DoC]])?
   * [[https://github.com/w3c/csswg-drafts/issues/2495|obscuring text for `<input type=password>` styling]]
   * Remaining [[https://github.com/w3c/csswg-drafts/issues/1680|css-timing issue]] + transition spec to CR (not Thursday)
-  * Display
-    * [[https://github.com/w3c/csswg-drafts/issues/1477|How does block inside inline affect the box tree, exactly?]]
-    * [[https://github.com/w3c/csswg-drafts/issues/1793|Is ::marker created by display:list-item or does it always exist?]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2501|Rename table box to table grid box]]
-  * css-overflow overflow
-    * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
-  * css-scroll-snap
-    * [[https://github.com/w3c/csswg-drafts/issues/2523| Path to interop among implementations ]]
-  * css-contain again
-    * [[https://github.com/w3c/csswg-drafts/issues/2527|How do layout and size containment interact with column/page fragmentation?]]
 
 == Afternoon ==
+
+  * css-scroll-snap
+    * [[https://github.com/w3c/csswg-drafts/issues/2523| Path to interop among implementations ]]
 
 (Text and Fonts)
   * [[https://drafts.csswg.org/css-text-3/issues-lc-2013|CSS3 Text - All Open Issues]]
@@ -221,3 +210,16 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 
 == Afternoon ==
+
+  * Display
+    * [[https://github.com/w3c/csswg-drafts/issues/1477|How does block inside inline affect the box tree, exactly?]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1793|Is ::marker created by display:list-item or does it always exist?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2501|Rename table box to table grid box]]
+  * css-overflow overflow
+    * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
+  * css-contain again
+    * [[https://github.com/w3c/csswg-drafts/issues/2527|How do layout and size containment interact with column/page fragmentation?]]
+
+(Testing)
+  * WPT - Extra CSS testsuite requirements: [[https://github.com/w3c/web-platform-tests/issues/10053|wpt#10053]] (gsnedders, rego, florian)
+  * [[https://github.com/w3c/csswg-drafts/issues/2438|CSSWG specs need usable test suite docs]]
