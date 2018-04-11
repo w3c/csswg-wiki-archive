@@ -202,12 +202,14 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/1745|Can overflow content influence column height?]] (rachelandrew)
 
 (FXTF)
+  * [[https://github.com/w3c/fxtf-drafts/issues/170|CSS properties affecting the shape of a text for clip-path]]
   * New WD for Filter Effects and CSS Masking
-  * [[https://github.com/w3c/fxtf-drafts/issues/177|Intrinsic/extrinsic image size for filter()]]
-  * [[https://github.com/w3c/fxtf-drafts/issues/23|Better definition of CSS filters subregion?]]
   * Need editors
     * Compositing and Blending
     * Geometry
+  * If we get to it:
+    * [[https://github.com/w3c/fxtf-drafts/issues/177|Intrinsic/extrinsic image size for filter()]]
+    * [[https://github.com/w3c/fxtf-drafts/issues/23|Better definition of CSS filters subregion?]]
 
 
 == Afternoon ==
