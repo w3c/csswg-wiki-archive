@@ -1,21 +1,37 @@
 ====== CSSWG Tools ======
-
 The CSSWG uses some tools to make our jobs easier. Here they are!
 
+
+===== Meeting Tools =====
+Tools particularly useful during (f2f or telcon) meetings:
   * This DokuWiki (obviously)
-  * [[http://www.w3.org/Mail/|W3C Mailing Lists]]: specifically [[tools:www-style|www-style]] for our specs, [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]] for testing, and [[http://lists.w3.org/Archives/Public/public-fx/|public-fx]] for specs we co-edit with the [[http://www.w3.org/Graphics/SVG/|SVGWG]]. We also have an [[http://lists.w3.org/Archives/Member/w3c-css-wg/|internal list]] for administrivia.
-  * [[tools:git|Git/GitHub]] or [[tools:hg|Mercurial]] can be used to access the version control system for our [[spec|specs]] and our [[test|tests]].
-  * [[https://drafts.csswg.org/|Editor's Drafts]] are automatically generated and available with publishing history.
-  * [[https://www.w3.org/blog/CSS/wp-admin/|WordPress]] runs our [[http://www.w3.org/blog/CSS/|official blog]]
-  * [[https://github.com/w3c/csswg-drafts/issues|GitHub issues]] are used to track spec issues. (Older spec issues are found in the mail archives, and might be additionally tracked in [[https://www.w3.org/Style/CSS/Tracker/|CSS Tracker]], [[https://www.w3.org/Graphics/fx/track/|FXTF Tracker]], [[https://www.w3.org/Bugs/Public/|Bugzilla]], and [[spec|this wiki]].)
-  * [[http://test.csswg.org/shepherd/|Shepherd]] is used to track test suite bugs.
-  * [[http://test.csswg.org/harness/|Test Harness]] is used for running test suites and generating implementation reports.
-  * The CSS [[https://drafts.csswg.org/css-module-bikeshed/Overview.bs|module template]], [[https://github.com/tabatkins/bikeshed|the Bikeshed spec preprocessor]], and the [[https://drafts.csswg.org/biblio.ref|bibliographic data file]] are used to generate our specs. A more comprehensive set of bibliographic data can be found at [[https://www.specref.org/|SpecRef]], which is automatically loaded into Bikeshed. See [[tools:spec-processor]] for tips. (Note: Some specs still use [[https://www.w3.org/Style/Group/css3-src/bin/postprocess|Bert's post-processor]] and the older [[http://dev.w3.org/csswg/css-module/Overview.src.html|module template]].)
-  * [[http://www.w3.org/2001/12/zakim-irc-bot|Zakim]] is <del> a conference bridge with</del> an IRC bot that helps us manage our telecons.
   * [[irc://irc.w3.org:6665/#css|IRC]] is the real-time chat system we use for backchannel communication during meetings.
+  * [[http://www.w3.org/2001/12/zakim-irc-bot|Zakim]] is <del> a conference bridge with</del> an IRC bot that helps us manage our telecons.
   * [[https://log.csswg.org/irc.w3.org/css/today|IRC Logs]] are available for our IRC channels
   * [[https://cal.csswg.org/public.php/csswg/calendar.ics|iCal Feed]] contains our meeting times.
   * [[https://data.microsoftedge.com|Interop Browser Data]] Provides crawler data from Chrome/Microsoft Edge about CSS properties, values and top sites utilized
+
+  * [[https://drafts.csswg.org/|Editor's Drafts]] are automatically generated and available with publishing history.
+  * [[https://github.com/w3c/csswg-drafts/issues|GitHub issues]] are used to track spec issues. (Older spec issues are found in the mail archives, and might be additionally tracked in 
+    * [[https://www.w3.org/Style/CSS/Tracker/|CSS Tracker]], 
+    * [[https://www.w3.org/Graphics/fx/track/|FXTF Tracker]], 
+    * [[https://www.w3.org/Bugs/Public/|Bugzilla]], and 
+    * [[spec|this wiki]].)
+  * [[tools:git|Git/GitHub]] or [[tools:hg|Mercurial]] can be used to access the version control system for our [[spec|specs]] and our [[test|tests]].
+  * [[http://www.w3.org/Mail/|W3C Mailing Lists]]: specifically 
+    * [[tools:www-style|www-style]] for our specs, 
+    * [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]] for testing, and 
+    * [[http://lists.w3.org/Archives/Public/public-fx/|public-fx]] for specs we co-edit with the [[http://www.w3.org/Graphics/SVG/|SVGWG]]. 
+    * We also have an [[http://lists.w3.org/Archives/Member/w3c-css-wg/|internal list]] for administrivia.
+
+===== Editing Publishing Testing =====
+  * The CSS [[https://drafts.csswg.org/css-module-bikeshed/Overview.bs|module template]], [[https://github.com/tabatkins/bikeshed|the Bikeshed spec preprocessor]], and the [[https://drafts.csswg.org/biblio.ref|bibliographic data file]] are used to generate our specs. A more comprehensive set of bibliographic data can be found at [[https://www.specref.org/|SpecRef]], which is automatically loaded into Bikeshed. See [[tools:spec-processor]] for tips. 
+  * Note: Some specs still use 
+    * [[https://www.w3.org/Style/Group/css3-src/bin/postprocess|Bert's post-processor]] 
+    * the older [[http://dev.w3.org/csswg/css-module/Overview.src.html|module template]]
+  * [[https://www.w3.org/blog/CSS/wp-admin/|WordPress login]] for our [[http://www.w3.org/blog/CSS/|official blog]]
+  * [[http://test.csswg.org/shepherd/|Shepherd]] is used to track test suite bugs.
+  * [[http://test.csswg.org/harness/|Test Harness]] is used for running test suites and generating implementation reports.
   * [[https://wiki.csswg.org/tools/doc|Disposition of Comments tool]] Provides a GUI for easy editing and exploring DoCs.
 
 ===== Experiments =====
