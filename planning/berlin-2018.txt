@@ -138,7 +138,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
   * css-overflow (not Thursday)
     * [[https://github.com/w3c/csswg-drafts/issues/1971#issuecomment-377078084|overflow:clip]] (Florian) (preferably before talking about max-lines & co)
-    * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
     * [[https://github.com/w3c/csswg-drafts/issues/2484|Let 'overflow' accept two values]] ( Loirooriol)
     * [[https://github.com/w3c/csswg-drafts/issues/2473|Add overscroll-behavior-[block/inline] in accordance with css-logical]]
 
@@ -167,7 +166,8 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/1477|How does block inside inline affect the box tree, exactly?]]
     * [[https://github.com/w3c/csswg-drafts/issues/1793|Is ::marker created by display:list-item or does it always exist?]]
   * [[https://github.com/w3c/csswg-drafts/issues/2501|Rename table box to table grid box]]
-
+  * css-overflow overflow
+    * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
 == Afternoon ==
 
 (Text and Fonts)
