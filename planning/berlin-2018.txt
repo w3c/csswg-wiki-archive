@@ -210,9 +210,11 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 (FXTF)
   * New WD for Filter Effects and CSS Masking
-  * [[https://github.com/w3c/fxtf-drafts/issues/264|Publish DOMMatrix as note]]
   * [[https://github.com/w3c/fxtf-drafts/issues/177|Intrinsic/extrinsic image size for filter()]]
   * [[https://github.com/w3c/fxtf-drafts/issues/23|Better definition of CSS filters subregion?]]
+  * Need editors
+    * Compositing and Blending
+    * Geometry
 
 
 == Afternoon ==
