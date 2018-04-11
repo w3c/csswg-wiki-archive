@@ -211,6 +211,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
 
 == Afternoon ==
 
+  * [[https://github.com/w3c/csswg-drafts/issues/2280|Dual-axis vs. Per-axis Subgrids]]
   * Display
     * [[https://github.com/w3c/csswg-drafts/issues/1477|How does block inside inline affect the box tree, exactly?]]
     * [[https://github.com/w3c/csswg-drafts/issues/1793|Is ::marker created by display:list-item or does it always exist?]]
