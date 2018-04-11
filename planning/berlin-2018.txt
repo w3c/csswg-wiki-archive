@@ -172,6 +172,9 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
   * css-scroll-snap
     * [[https://github.com/w3c/csswg-drafts/issues/2523| Path to interop among implementations ]]
+  * css-contain again
+    * [[https://github.com/w3c/csswg-drafts/issues/2527|How do layout and size containment interact with column/page fragmentation?]]
+
 == Afternoon ==
 
 (Text and Fonts)
