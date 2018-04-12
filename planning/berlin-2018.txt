@@ -216,6 +216,7 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/1477|How does block inside inline affect the box tree, exactly?]]
     * [[https://github.com/w3c/csswg-drafts/issues/1793|Is ::marker created by display:list-item or does it always exist?]]
   * [[https://github.com/w3c/csswg-drafts/issues/2501|Rename table box to table grid box]]
+  * Text-3 issues again
   * css-overflow overflow
     * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
   * css-contain again
