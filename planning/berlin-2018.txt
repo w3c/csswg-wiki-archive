@@ -224,10 +224,10 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/129|padding-bottom in overflow content]] (Fantasai)
   * css-contain again
     * [[https://github.com/w3c/csswg-drafts/issues/2527|How do layout and size containment interact with column/page fragmentation?]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2532|Multiple border colors, revisited]]
   * Testing
     * WPT - Extra CSS testsuite requirements: [[https://github.com/w3c/web-platform-tests/issues/10053|wpt#10053]] (gsnedders, rego, florian)
     * [[https://github.com/w3c/csswg-drafts/issues/2438|CSSWG specs need usable test suite docs]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2532|Multiple border colors, revisited]]
   * CSS 2.1
     * [[https://github.com/w3c/csswg-drafts/issues/2542|Should we add scientific notation to CSS 2.1?]]
     * [[https://github.com/w3c/csswg-drafts/issues/2224|Syntax section readded despite WG resolution]]
