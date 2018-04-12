@@ -228,4 +228,5 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://gist.github.com/gsnedders/e0aab5ca6a8c06cee3bae4afcfd664ce|Proposed CSS 2.x editing & publishing workflow]]
     * [[https://github.com/w3c/csswg-drafts/issues/2542|Should we add scientific notation to CSS 2.1?]] (#2542)
     * [[https://github.com/w3c/csswg-drafts/issues/2224|Syntax section readded despite WG resolution]] (#2224)
+    * [[https://github.com/w3c/csswg-drafts/issues/2551|Anchors changed in CSS 2 in-place edit in 2016]] (#2551)
     * [[https://github.com/w3c/csswg-drafts/issues/2008|Naming of revision of CSS 2.1]] (#2008)
