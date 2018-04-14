@@ -226,7 +226,6 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
   * Testing
     * WPT - Extra CSS testsuite requirements: [[https://github.com/w3c/web-platform-tests/issues/10053|wpt#10053]] (gsnedders, rego, florian)
     * [[https://github.com/w3c/csswg-drafts/issues/2438|CSSWG specs need usable test suite docs]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2532|Multiple border colors, revisited]]
   * CSS 2.x (tantek, gsnedders, fantasai)
     * [[https://github.com/w3c/csswg-drafts/issues/2008|Naming of revision of CSS 2.1]] (#2008)
 
@@ -235,3 +234,4 @@ And please add 'yes' to the TYPO Labs column if you'd be interested in attending
     * [[https://github.com/w3c/csswg-drafts/issues/2542|Should we add scientific notation to CSS 2.1?]] (#2542)
     * [[https://github.com/w3c/csswg-drafts/issues/2551|Anchors changed in CSS 2 in-place edit in 2016]] (#2551)
     * [[https://github.com/w3c/csswg-drafts/issues/2224|Syntax section readded despite WG resolution]] (#2224)
+  * [[https://github.com/w3c/csswg-drafts/issues/2532|Multiple border colors, revisited]]
