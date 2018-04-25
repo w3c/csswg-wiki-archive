@@ -4,10 +4,11 @@
 
 Issues are tracked in the CSS Working Group by the spec editors using one of the following mechanisms (per the editors' preference):
 
+  * [[https://github.com/w3c/csswg-drafts/issues|GitHub issues]] (preferred)
   * [[:spec|Wiki]] (fantasai notes from experience that if you track all issues in one page, it will eventually get [[:spec:css2.1|unweildy]], so consider a method for using sub-pages)
-  * [[http://w3.org/Style/CSS/Tracker/|Tracker]]
-  * [[http://www.w3.org/Bugs/Public/|Bugzilla]]
-  * Inline in the spec itself
+  * [[http://w3.org/Style/CSS/Tracker/|Tracker]] (historical)
+  * [[http://www.w3.org/Bugs/Public/|Bugzilla]] (historical)
+  * Inline in the spec itself (please avoid for non-trivial issues)
 
 Each spec has a link in its header to where issues are tracked for the draft (e.g. see "Issues List:" in header of [[http://dev.w3.org/csswg/css3-ui/|CSS3-UI editor's draft]]). If all issues are tracked in the draft itself, this points to the editor's draft.
 
