@@ -45,3 +45,5 @@ Bad examples:
   * http://lists.w3.org/Archives/Public/www-style/2012Feb/0264.html
 
 In some cases, the issue is more complicated and some back and forth is required. But at some point, there should be a final response that represents the editors' (or WG's) position, requests confirmation that it's acceptable, and gives the commenter enough information to make an informed decision about whether that position is acceptable.
+
+There is a [[https://wiki.csswg.org/tools/doc|Disposition of Comments tool]] to manage and present the Disposition of Comments
