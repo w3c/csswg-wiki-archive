@@ -11,7 +11,7 @@ Note! There have been changes to the module template since it was written! Check
     - [[http://www.w3.org/2009/07/webidl-check|WebIDL check]] Overview.html
     - [[http://validator.w3.org/checklink|Link-check]] your spec.
     - run a spellchecker on your spec
-    - Optional: If you feel so inclined, you can use [[http://www.w3.org/2005/07/pubrules|pubrules checker]] (if it's working), review its results, and correct any errors. (Some errors are expected/harmless if you check an editor's draft, so read carefully!)  (There's a [[https://labs.w3.org/pubrules/|new pubrules checker]] in alpha status, if you feel brave and are willing to submit feedback to spec-prod@w3.org.)
+    - Optional: If you feel so inclined, you can use [[https://labs.w3.org/pubrules/|the new pubrules checker]] (if it's working), review its results, and correct any errors. (Some errors are expected/harmless if you check an editor's draft, so read carefully!)
   - **Request Publication -**
     - **For regular Working Drafts** on Bikeshed-formatted specs, you can use the ''bikeshed echidna'' command.
     - Otherwise, send a message (See Template Below) to Bert, ChrisL, and webreq, CCing w3c-css-wg, asking them to put your spec in the publication pipeline. Include a link to your draft and to the minutes with the resolution to publish. Put ''[Publish]'' in the subject line.
