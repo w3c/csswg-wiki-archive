@@ -7,6 +7,11 @@
    * Dates: Wednesday-Friday, August 2-4, 2017
      * with a [[https://github.com/w3c/css-houdini-drafts/wiki/Paris-F2F-August-1st-2017|Houdini task force meeting]] at the same location on Tuesday, August 1, 2017
 
+==== Meeting Minutes ====
+   * Wednesday, Aug 2 [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0034.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0035.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0036.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0037.html|Part IV]]
+   * Thursday, Aug 3 [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0031.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0040.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0041.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0042.html|Part IV]]
+   * Friday, Aug 4 [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0000.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0001.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0002.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0003.html|Part IV]]
+
 ==== Location ====
 
 [[https://wiki.mozilla.org/Paris|Mozilla Paris]], 16bis Boulevard Montmartre, 75009 Paris, France
