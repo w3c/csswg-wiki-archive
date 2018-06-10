@@ -1,6 +1,6 @@
 ====== CSS Working Group Wiki =======
 
-The CSS Working Group is the [[http://www.w3.org/|W3C]] working group chartered to develop [[http://www.w3.org/Style/CSS/|Cascading Style Sheets]] (CSS). We are responsible both for the CSS specifications and for their [[http://www.w3.org/Style/CSS/Test/|conformance test suites]]. Our [[http://www.w3.org/Style/CSS/current-work|roadmap]] is maintained on the W3C website.
+The CSS Working Group is the [[http://www.w3.org/|W3C]] working group chartered to develop [[http://www.w3.org/Style/CSS/|Cascading Style Sheets]] (CSS). We are responsible both for the CSS specifications and for their [[http://www.w3.org/Style/CSS/Test/|conformance test suites]]. Our [[http://www.w3.org/Style/CSS/current-work|roadmap]] is maintained on the W3C website. fantasai has separately documented [[http://fantasai.inkedblade.net/weblog/2011/inside-csswg/|how we work]].
 
 This wiki is to help the CSSWG record [[ideas|resolutions]] and open [[spec|issues]], to share them with public, and to encourage public involvement in the development of CSS and its [[test|test suites]]. Contributions to this wiki are governed by the same conditions as the [[http://www.w3.org/Consortium/Legal/2006/07-incoming-wiki-copyright.html|W3C Mobile Web Wiki Contribution Policy]]. Note that editing is restricted to CSS Working Group members except in the Testing section (which is open to all).
 
