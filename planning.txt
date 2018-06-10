@@ -25,6 +25,10 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 
 ==== 2018 ====
     * 2018-04-09..12 [[planning:berlin-2018]] (to coincide with TYPO Labs April 12-14)
+       * Minutes:
+          * Tuesday, April 10: [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0023.html|Part 1]], [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0024.html|Part 2]], [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0025.html|Part 3]], [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0026.html|Part 4]], [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0027.html|Part 5]], [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0028.html|Part 6]]
+          * Wednesday, April 11: [[https://lists.w3.org/Archives/Public/www-style/2018May/0030.html|Part 1]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0031.html|Part 2]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0032.html|Part 3]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0033.html|Part 4]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0034.html|Part 5]]
+          * Thursday, April 12: [[https://lists.w3.org/Archives/Public/www-style/2018May/0041.html|Part 1]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0042.html|Part 2]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0043.html|Part 3]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0044.html|Part 4]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0045.html|Part 5]]
     * (winter meeting cancelled)
 
 ==== 2017 ====
