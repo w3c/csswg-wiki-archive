@@ -1,6 +1,6 @@
 ====== Specification Issues and Planning ======
 
-The CSSWG is tasked with maintenance of the CSS specs and working drafts. Problems reported ot us will be addressed by the editors, possibly after discussion in a CSS Working Group meeting, and will result in changes, corrections, clarifications, or no change.
+The CSSWG is tasked with maintenance of the CSS specs and working drafts. Problems reported to us will be addressed by the editors, possibly after discussion in a CSS Working Group meeting, and will result in changes, corrections, clarifications, or no change.
 
 <note>
 The group uses GitHub for issue tracking, in [[https://github.com/w3c/csswg-drafts/|csswg-drafts]], [[https://github.com/w3c/fxtf-drafts/|fxtf-drafts]], [[https://github.com/w3c/css-houdini-drafts/|css-houdini-drafts]].
@@ -8,7 +8,7 @@ The group uses GitHub for issue tracking, in [[https://github.com/w3c/csswg-draf
 
 Previously, issues were reported to the [[http://lists.w3.org/Archives/Public/www-style/|www-style mailing list]], and then periodically scoured for issues by the editors. You can view old discussions there, including open issues in some of the less well-maintained specs. Also, some issues tracked in [[https://www.w3.org/Bugs/Public/describecomponents.cgi?product=CSS|Bugzilla]] or [[http://w3.org/Style/CSS/Tracker/|Tracker]] have yet to be migrated to GH.
 
-The [[planning/status|Status page]] tracks outstanding resolutions. Please clear them out when you're done dealing with the resolution.
+The [[planning/status|Status page]] tracks outstanding resolutions. Editors, please clear them out when you're done dealing with the resolution.
 
 ====== Specification Editing ======
 
