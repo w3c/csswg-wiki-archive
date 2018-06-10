@@ -1,5 +1,27 @@
 ====== Berlin F2F April 2018 ======
 
+==== Meeting Minutes =====
+   * Tuesday, April 10:
+      * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0023.html|Part 1]]: Snapshot, Scheduling, Decisions
+      * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0024.html|Part 2]]: Editorships, box-sizing, Writing Modes
+      * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0025.html|Part 3]]: Spatial Navigation, Floats
+      * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0026.html|Part 4]]: CSS Grid and Box Alignment
+      * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0027.html|Part 5]]: Sizing, Flexbox, Overflow
+      * [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0028.html|Part 6]]: TTML Requests
+   * Wednesday, April 11:
+      * [[https://lists.w3.org/Archives/Public/www-style/2018May/0030.html|Part 1]]: CSS Contain, CSS Scoping, CSS Pseudo Elements
+      * [[https://lists.w3.org/Archives/Public/www-style/2018May/0031.html|Part 2]]: CSSOM, CSS UI 4, CSS Timing
+      * [[https://lists.w3.org/Archives/Public/www-style/2018May/0032.html|Part 3]]: CSS Scroll Snap, CSS Text 3
+      * [[https://lists.w3.org/Archives/Public/www-style/2018May/0033.html|Part 4]]: Web Animations
+      * [[https://lists.w3.org/Archives/Public/www-style/2018May/0034.html|Part 5]]: Fonts, CSS Text / Text Decoration, Ruby
+   * Thursday, April 12:
+      * [[https://lists.w3.org/Archives/Public/www-style/2018May/0041.html|Part 1]]: Flexbox, line-clamp/max-lines/block-ellipsis
+      * [[https://lists.w3.org/Archives/Public/www-style/2018May/0042.html|Part 2]]: Multicol
+      * [[https://lists.w3.org/Archives/Public/www-style/2018May/0043.html|Part 3]]: FXTF spec-editing, Subgrids, Box Model
+      * [[https://lists.w3.org/Archives/Public/www-style/2018May/0044.html|Part 4]]: Table Boxes, Aliasing, Text, Overflow
+      * [[https://lists.w3.org/Archives/Public/www-style/2018May/0045.html|Part 5]]: Contain, CSS2, Testing
+
+==== General Information ====
    * Host: Monotype
    * Location: [[https://besondere-orte.com/en/locations/neue-m%C3%A4lzerei|Neue Mälzerei]], Friedenstr. 91, 10249 Berlin, Germany
    * Adjacent to [[https://www.typotalks.com/labs/|TYPO Labs 2018]], at Umweltforum nearby
