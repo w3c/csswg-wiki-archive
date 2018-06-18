@@ -37,4 +37,7 @@
   * Dael Jackson
   * gsnedders
   * Jen Simmons
+  * Greg Whitworth
   * ...
+==== Agenda ====
+* ResizeObserver (Microsoft)
