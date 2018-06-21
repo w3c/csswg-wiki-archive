@@ -41,4 +41,4 @@
   * ...
 ==== Agenda ====
   * ResizeObserver - two items (Microsoft)
-  * [[https://github.com/w3c/csswg-drafts/issues/2143#issuecomment-360586470|[selectors4] Name the “functional pseudo-class like :matches() with 0 specificity” #2143]]
+  * [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|Agenda+ F2F issues]]
