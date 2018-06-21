@@ -48,3 +48,4 @@
       * CSS Display 3
       * CSS Scroll Snap 1
   * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
+  * Transforms, Animations, Transitions - all open issues
