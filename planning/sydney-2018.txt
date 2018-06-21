@@ -46,4 +46,5 @@
       * CSS Values and Units
       * CSS Cascade 3 & 4
       * CSS Display 3
+      * CSS Scroll Snap 1
   * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
