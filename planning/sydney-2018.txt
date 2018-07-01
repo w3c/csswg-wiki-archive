@@ -1,0 +1,64 @@
+====== Sydney F2F July 2018 ======
+
+   * Host: Google
+   * Location: [[https://goo.gl/maps/qCPZZAyfY1F2|Google, Sydney (Fairfax Media building)]]
+   * Dates:
+       * Monday July 2: Houdini Meeting - https://github.com/w3c/css-houdini-drafts/wiki/Sydney-F2F-July-2018
+       * Tuesday-Thursday July 3-5: CSS WG Meeting
+
+==== Participants ====
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Alan Stearns | June 30 | July 9 | Glebe apt. |  |
+| Brian Birtles | June 30 | July 6 | TBD | JL771 / JL772 |
+| Cameron McCormack | TBD | TBD | TBD | |
+| Chris Lilley | July 1 | 5 July  | AirBnB | BA4137 / BA4136 |
+| Dean Jackson | | | Some hotel | Coming from Yass via horse |
+| Emil A Eklund | July 1 | July 13 | Sheraton on the Park | QF 12 / QF 81 |
+| Emilio Cobos Álvarez | <del>July 2</del>__July 3__, 05:30 | July 11 | Meriton Suites Campbell Street | BA987+BA15/?? |
+| Eric Willigers | | | Home |
+| fantasai | July 1 | July 9 | Meriton Suites World Tower |
+| Florian Rivoal | July 2 | July 5 | Meriton Suites World Tower |
+| Francois REMY | July 1 | July 9 | Hilton |
+| Hiroshi Sakakibara | July 2 | July 7 | Hyatt Regency Sydney |JL771 / JL772|
+| Ian Kilpatrick | | | |
+| Jihye Hong | July 2 | July 6 | Meriton Suites Kent St. |
+| Koji Ishii | July 1 | July 6 | Hyatt Regency Sydney |
+| Lea Verou | June 30 | Jul 5 | Same as ChrisL |
+| L. David Baron | Jun 30 | Jul 12 | Meriton Suites Campbell Street | UA863 / UA870 |
+| Myles C. Maxfield | | | Sydney Opera House | 🛸 |
+| Peter Linss | Jul 1 | Jul 13 | Meriton Suites World Tower | VA2 / VA790/7 |
+| Philip Walton | June 30 | Jul 12 | Hyatt Regency | UA863 / UA870 |
+| Rachel Andrew | Jul 1 | Jul 7 | Pier One Sydney Harbour | EK416 (QF8416) / EK419 (QF8419) |
+| Rossen Atanassov | July 1 | July 6 | TBD | Flying carpet |
+| Shane Stephens | | | Home |
+| Tab Atkins-Bittner | 2018-07-01 | 2018-07-06 | Meriton Suites World Tower | QF74 / QF73 |
+| Tantek Çelik | 2018-07-02 | 2018-07-06 | Meriton Suites World Tower | UA863 / UA870 |
+| Xidorn Quan | | | Home |
+==== Regrets ====
+  * Dave Cramer
+  * Dael Jackson
+  * gsnedders
+  * Jen Simmons
+  * Greg Whitworth
+  * ...
+==== Agenda ====
+  * ResizeObserver - two items (Microsoft)
+  * [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|Agenda+ F2F issues]]
+  * Publishing Stuff That's Almost Ready To Publish
+      * CSS Values and Units 3 CR / 4 FPWD
+      * CSS Cascade 3 & 4 CR
+      * CSS Display 3 CR?
+      * CSS Scroll Snap 1 CR update
+      * CSS Overflow 3 WD
+  * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
+  * Transforms, Animations, Transitions - all open issues
+  * Using Single dimensional images™️ for multiple border colors (leaverou, fantasai)
+  * color-filter (Myles/Dino/Thor)
+  * Investigate simplifying logical properties? (frremy)
+  * [[https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html|initial-letter]]
+  * Fonts Level 4 issues
+  * Media Queries (dino)
+      * prefers-high-contrast
+      * prefers-dark-interface
+  * env() values for full-screen, rounded corners, and phone notches (dino)
