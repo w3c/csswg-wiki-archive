@@ -11,6 +11,7 @@ To host a CSS meeting, you MUST provide:
   * Either a whiteboard or flipchart that people can draw on, also visible from all the seats.
   * Telephone access, preferably a multi-microphone conference phone, tested in advance to make sure audio works in both directions (is this a MUST or a SHOULD?)
   * All of the above MUST be ready to go by 9am on each meeting day, and must remain available until the of the meeting at 6pm. The room SHOULD remain available for at least 30 minutes to an hour after the end of the meeting, so that participants can linger to finish ongoing conversations, make dinner plans, etc.
+  * instructions for how to get to the meeting location
 
 You also SHOULD provide:
   * food and drinks for during the meeting (or have them otherwise reasonably available):  mid-morning coffee break, lunch, mid-afternoon break, and MAY also have breakfast available.  You should reasonably accommodate vegetarians, such as having eggs during breakfast to provide non-meat protein. Accommodating other food restrictions is desirable if possible. (More details here.)
