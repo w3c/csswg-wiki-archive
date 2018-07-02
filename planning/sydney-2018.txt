@@ -63,6 +63,7 @@
       * prefers-high-contrast
       * prefers-dark-interface
   * env() values for full-screen, rounded corners, and phone notches (dino)
+      * [[https://github.com/w3c/csswg-drafts/issues/2820|Process for adding env values]]
   * nesting: https://github.com/w3c/csswg-drafts/issues/2701
   * link to .bs source: https://github.com/w3c/csswg-drafts/issues/2472
   * Need spec for margin/padding and box-styling terminolgy: https://github.com/w3c/csswg-drafts/issues/2851
@@ -73,7 +74,6 @@
       * contain-1: 3
       * css-ui-4: 2
       * cssom-1: 2
-      * env-1: 1
       * mediaqueries-4: 2
       * mediaqueries-5: 1
       * multicol-1: 1
