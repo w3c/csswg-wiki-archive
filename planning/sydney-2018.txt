@@ -43,8 +43,6 @@
   * Greg Whitworth
   * ...
 ==== Agenda ====
-  * ResizeObserver - two items (Microsoft)
-  * Investigate simplifying logical properties? (frremy)
 
 ==== Schedule ====
 
@@ -125,6 +123,8 @@
   * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
 
 == Afternoon ==
+  * ResizeObserver - two items (Microsoft)
+  * Investigate simplifying logical properties? (frremy)
   * Multicol/Overflow
       * [[https://github.com/w3c/csswg-drafts/issues/2582|Multi-col, spanner margin collapsing, and formatting contexts]]
       * [[https://github.com/w3c/csswg-drafts/issues/2847|convert -webkit-line-clamp alias requirement into a spec issue]]
