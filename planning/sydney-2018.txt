@@ -45,24 +45,6 @@
 ==== Agenda ====
   * ResizeObserver - two items (Microsoft)
   * Investigate simplifying logical properties? (frremy)
-  * Media Queries (dino)
-      * prefers-high-contrast
-      * prefers-dark-interface
-      * [[https://github.com/w3c/csswg-drafts/issues/2370|Proposal: "prefers-reduced-data"]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2413|Port Media Groups section of CSS2.1]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2791|Is the `<mf-range>` "swapping value and name" syntax really useful?]]
-  * env() values for full-screen, rounded corners, and phone notches (dino)
-      * [[https://github.com/w3c/csswg-drafts/issues/2820|Process for adding env values]]
-  * nesting: https://github.com/w3c/csswg-drafts/issues/2701
-  * link to .bs source: https://github.com/w3c/csswg-drafts/issues/2472
-  * Need spec for margin/padding and box-styling terminolgy: https://github.com/w3c/csswg-drafts/issues/2851
-  * Variables/CSSOM/Cascade
-      * [[https://github.com/w3c/csswg-drafts/issues/2518|Does `all` reset custom properties?]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2529|getComputedStyle and shorthands]]
-      * [[https://github.com/w3c/csswg-drafts/issues/1964|What should getComputedStyle return for an element which isn't in the flat tree?]]
-  * CSS-UI-4
-      * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
-      * [[https://github.com/w3c/csswg-drafts/issues/1815|let user-select:contain prohibit selection from outside]]
 
 ==== Schedule ====
 
@@ -81,7 +63,8 @@
       * CSS Display 3 CR?
       * CSS Scroll Snap 1 CR update
       * CSS Overflow 3 WD
-  * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
+  * Need spec for margin/padding and box-styling terminolgy: https://github.com/w3c/csswg-drafts/issues/2851
+  * link to .bs source: https://github.com/w3c/csswg-drafts/issues/2472
   * 2019 meetings
   * 11am? [[https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html|initial-letter (~19 issues?)]]
 
@@ -106,8 +89,24 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2274|Inconsistent position serialization]]
       * [[https://github.com/w3c/csswg-drafts/issues/2532|Issues with listifying border-color (Using Single dimensional images™️ for multiple border colors)]]
   * color-filter (Myles/Dino/Thor)
+  * env() values for full-screen, rounded corners, and phone notches (dino)
+      * [[https://github.com/w3c/csswg-drafts/issues/2820|Process for adding env values]]
+  * nesting: https://github.com/w3c/csswg-drafts/issues/2701
 
 == Afternoon ==
+  * Media Queries (dino)
+      * prefers-high-contrast
+      * prefers-dark-interface
+      * [[https://github.com/w3c/csswg-drafts/issues/2370|Proposal: "prefers-reduced-data"]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2413|Port Media Groups section of CSS2.1]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2791|Is the `<mf-range>` "swapping value and name" syntax really useful?]]
+  * Variables/CSSOM/Cascade
+      * [[https://github.com/w3c/csswg-drafts/issues/2518|Does `all` reset custom properties?]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2529|getComputedStyle and shorthands]]
+      * [[https://github.com/w3c/csswg-drafts/issues/1964|What should getComputedStyle return for an element which isn't in the flat tree?]]
+  * CSS-UI-4
+      * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
+      * [[https://github.com/w3c/csswg-drafts/issues/1815|let user-select:contain prohibit selection from outside]]
 
 === Thursday ===
 
@@ -123,7 +122,7 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2737|`contain` may not want to be animatable.]]
   * Grid
       * [[https://github.com/w3c/csswg-drafts/issues/2592|subgrid border/padding/margin]]
-
+  * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
 
 == Afternoon ==
   * Multicol/Overflow
