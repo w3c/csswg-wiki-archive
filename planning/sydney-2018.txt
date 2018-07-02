@@ -57,6 +57,7 @@
   * Investigate simplifying logical properties? (frremy)
   * [[https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html|initial-letter]]
   * Fonts Level 4 issues
+      * https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-fonts-4
   * Media Queries (dino)
       * prefers-high-contrast
       * prefers-dark-interface
@@ -72,8 +73,6 @@
       * css-ui-4: 2
       * cssom-1: 2
       * env-1: 1
-      * fonts-4: 11
-      * fonts-4: 4
       * mediaqueries-4: 2
       * mediaqueries-5: 1
       * multicol-1: 1
