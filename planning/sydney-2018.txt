@@ -44,10 +44,10 @@
   * ...
 ==== Agenda ====
 
-* New CSS Images 3 CR (fantasai, leaverou)
-  * cross-fade() interpolation issues
-    * Reversing same images: https://​github.com/​w3c/​csswg-drafts/​issues/​2852
-    * Promoting image to cross-fade() for flattening: https://​github.com/​w3c/​csswg-drafts/​issues/​2853
+  * New CSS Images 3 CR (fantasai, leaverou)
+    * cross-fade() interpolation issues
+      - Reversing same images: https://​github.com/​w3c/​csswg-drafts/​issues/​2852
+      - Promoting image to cross-fade() for flattening: https://​github.com/​w3c/​csswg-drafts/​issues/​2853
 ==== Schedule ====
 
 === Constraints ===
