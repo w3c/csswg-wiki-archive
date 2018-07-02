@@ -71,9 +71,17 @@
   * nesting: https://github.com/w3c/csswg-drafts/issues/2701
   * link to .bs source: https://github.com/w3c/csswg-drafts/issues/2472
   * Need spec for margin/padding and box-styling terminolgy: https://github.com/w3c/csswg-drafts/issues/2851
-  * [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|Agenda+ F2F issues]]
-      * backgrounds-3: 1
-      * backgrounds-4: 2
+  * Backgrounds
+      * [[https://github.com/w3c/csswg-drafts/issues/2766|<color> in <shadow> should default to currentcolor]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2274|Inconsistent position serialization]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2532|Issues with listifying border-color]]
+  * Text
+      * [[https://github.com/w3c/csswg-drafts/issues/698|cursive shaping breaks needs better scoping]]
+      * [[https://github.com/w3c/csswg-drafts/issues/855|Question re white space processing rules for U+000D]]
+      * [[https://github.com/w3c/csswg-drafts/issues/1597|Percentage of 'text-indent' against intrinsically sized box?]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2559|line-break, word-break: language unclear, and a new testcase]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2577|'match-parent' computed value ]]
+  * [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|Agenda+ F2F issues not included above]]
       * contain-1: 3
       * css-ui-4: 2
       * cssom-1: 2
@@ -81,13 +89,16 @@
       * overflow-3: 4
       * overflow-4: 1
       * selectors-4: 1
-      * text-3: 4
-      * text-4: 1
       * text-decor-4: 1
       * values-4: 1
       * variables-1: 1
 
 ==== Schedule ====
+
+=== Constraints ===
+
+  * Dave Cramer available Tues or Thurs morning
+  * Chris Lilley out on Thursday
 
 === Tuesday ===
 
