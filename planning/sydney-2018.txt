@@ -47,8 +47,6 @@
   * Using Single dimensional images™️ for multiple border colors (leaverou, fantasai)
   * color-filter (Myles/Dino/Thor)
   * Investigate simplifying logical properties? (frremy)
-  * Fonts Level 4 issues
-      * [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-fonts-4|~16 Agenda+ F2F issues]]
   * Media Queries (dino)
       * prefers-high-contrast
       * prefers-dark-interface
@@ -111,6 +109,10 @@
   * 11am? [[https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html|initial-letter (~19 issues?)]]
 
 == Afternoon ==
+
+  * Fonts Level 4 issues
+      * [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-fonts-4|~16 Agenda+ F2F issues]]
+
 
 === Wednesday ===
 
