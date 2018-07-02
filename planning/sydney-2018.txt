@@ -44,12 +44,6 @@
   * ...
 ==== Agenda ====
   * ResizeObserver - two items (Microsoft)
-  * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
-  * Transforms, Animations, Transitions - all open issues
-      * [[https://github.com/w3c/csswg-drafts/issues/2736|Clarify properties that are not allowed in @keyframes rule]]
-      * [[https://github.com/w3c/csswg-drafts/issues/927|Smarter interpolation of truncated transform lists]]
-      * Updating editors of Web Animations
-      * More animations/transitions issues?
   * Using Single dimensional images™️ for multiple border colors (leaverou, fantasai)
   * color-filter (Myles/Dino/Thor)
   * Investigate simplifying logical properties? (frremy)
@@ -90,13 +84,6 @@
   * CSS-UI-4
       * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
       * [[https://github.com/w3c/csswg-drafts/issues/1815|let user-select:contain prohibit selection from outside]]
-  * Multicol/Overflow
-      * [[https://github.com/w3c/csswg-drafts/issues/2582|Multi-col, spanner margin collapsing, and formatting contexts]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2847|convert -webkit-line-clamp alias requirement into a spec issue]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2561|'overflow-block' and 'block-overflow' are too similar]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with hidden content?]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines?]]
-      * [[https://github.com/w3c/csswg-drafts/issues/390|Consider support for multiple-line ellipsis]]
   * Grid
       * [[https://github.com/w3c/csswg-drafts/issues/2592|subgrid border/padding/margin]]
   * Bikeshed Bonanza
@@ -119,6 +106,7 @@
       * CSS Display 3 CR?
       * CSS Scroll Snap 1 CR update
       * CSS Overflow 3 WD
+  * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
   * 11am? [[https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html|initial-letter (~19 issues?)]]
 
 == Afternoon ==
@@ -132,5 +120,17 @@
 === Thursday ===
 
 == Morning ==
+  * Transforms, Animations, Transitions - all open issues
+      * [[https://github.com/w3c/csswg-drafts/issues/2736|Clarify properties that are not allowed in @keyframes rule]]
+      * [[https://github.com/w3c/csswg-drafts/issues/927|Smarter interpolation of truncated transform lists]]
+      * Updating editors of Web Animations
+      * More animations/transitions issues?
 
 == Afternoon ==
+  * Multicol/Overflow
+      * [[https://github.com/w3c/csswg-drafts/issues/2582|Multi-col, spanner margin collapsing, and formatting contexts]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2847|convert -webkit-line-clamp alias requirement into a spec issue]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2561|'overflow-block' and 'block-overflow' are too similar]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with hidden content?]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines?]]
+      * [[https://github.com/w3c/csswg-drafts/issues/390|Consider support for multiple-line ellipsis]]
