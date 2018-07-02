@@ -107,6 +107,7 @@
       * CSS Scroll Snap 1 CR update
       * CSS Overflow 3 WD
   * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
+  * 2019 meetings
   * 11am? [[https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html|initial-letter (~19 issues?)]]
 
 == Afternoon ==
