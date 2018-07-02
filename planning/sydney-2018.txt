@@ -44,8 +44,6 @@
   * ...
 ==== Agenda ====
   * ResizeObserver - two items (Microsoft)
-  * Using Single dimensional images™️ for multiple border colors (leaverou, fantasai)
-  * color-filter (Myles/Dino/Thor)
   * Investigate simplifying logical properties? (frremy)
   * Media Queries (dino)
       * prefers-high-contrast
@@ -58,33 +56,13 @@
   * nesting: https://github.com/w3c/csswg-drafts/issues/2701
   * link to .bs source: https://github.com/w3c/csswg-drafts/issues/2472
   * Need spec for margin/padding and box-styling terminolgy: https://github.com/w3c/csswg-drafts/issues/2851
-  * Backgrounds
-      * [[https://github.com/w3c/csswg-drafts/issues/2766|<color> in <shadow> should default to currentcolor]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2274|Inconsistent position serialization]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2532|Issues with listifying border-color]]
-  * Text
-      * [[https://github.com/w3c/csswg-drafts/issues/698|cursive shaping breaks needs better scoping]]
-      * [[https://github.com/w3c/csswg-drafts/issues/855|Question re white space processing rules for U+000D]]
-      * [[https://github.com/w3c/csswg-drafts/issues/1597|Percentage of 'text-indent' against intrinsically sized box?]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2577|'match-parent' computed value ]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2818|Consider adding a third value (skip?) for text-decoration-skip-ink.]]
-  * Values
-      * [[https://github.com/w3c/csswg-drafts/issues/2798|should ic unit use 永 instead of 水?]]
   * Variables/CSSOM/Cascade
       * [[https://github.com/w3c/csswg-drafts/issues/2518|Does `all` reset custom properties?]]
       * [[https://github.com/w3c/csswg-drafts/issues/2529|getComputedStyle and shorthands]]
       * [[https://github.com/w3c/csswg-drafts/issues/1964|What should getComputedStyle return for an element which isn't in the flat tree?]]
-  * Contain
-      * [[https://github.com/w3c/csswg-drafts/issues/2840|Need clarification on layout containment & fragmentation]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2804|specified column/row sizes on grid containers should contribute to contain:size]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2737|`contain` may not want to be animatable.]]
   * CSS-UI-4
       * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
       * [[https://github.com/w3c/csswg-drafts/issues/1815|let user-select:contain prohibit selection from outside]]
-  * Grid
-      * [[https://github.com/w3c/csswg-drafts/issues/2592|subgrid border/padding/margin]]
-  * Bikeshed Bonanza
-      * [[https://github.com/w3c/csswg-drafts/issues/2143|Name the “functional pseudo-class like :matches() with 0 specificity”]]
 
 ==== Schedule ====
 
@@ -111,11 +89,23 @@
 
   * Fonts Level 4 issues
       * [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-fonts-4|~16 Agenda+ F2F issues]]
-
+  * Values
+      * [[https://github.com/w3c/csswg-drafts/issues/2798|should ic unit use 永 instead of 水?]]
+  * Text
+      * [[https://github.com/w3c/csswg-drafts/issues/698|cursive shaping breaks needs better scoping]]
+      * [[https://github.com/w3c/csswg-drafts/issues/855|Question re white space processing rules for U+000D]]
+      * [[https://github.com/w3c/csswg-drafts/issues/1597|Percentage of 'text-indent' against intrinsically sized box?]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2577|'match-parent' computed value ]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2818|Consider adding a third value (skip?) for text-decoration-skip-ink.]]
 
 === Wednesday ===
 
 == Morning ==
+  * Backgrounds
+      * [[https://github.com/w3c/csswg-drafts/issues/2766|<color> in <shadow> should default to currentcolor]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2274|Inconsistent position serialization]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2532|Issues with listifying border-color (Using Single dimensional images™️ for multiple border colors)]]
+  * color-filter (Myles/Dino/Thor)
 
 == Afternoon ==
 
@@ -127,6 +117,13 @@
       * [[https://github.com/w3c/csswg-drafts/issues/927|Smarter interpolation of truncated transform lists]]
       * Updating editors of Web Animations
       * More animations/transitions issues?
+  * Contain
+      * [[https://github.com/w3c/csswg-drafts/issues/2840|Need clarification on layout containment & fragmentation]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2804|specified column/row sizes on grid containers should contribute to contain:size]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2737|`contain` may not want to be animatable.]]
+  * Grid
+      * [[https://github.com/w3c/csswg-drafts/issues/2592|subgrid border/padding/margin]]
+
 
 == Afternoon ==
   * Multicol/Overflow
@@ -136,3 +133,5 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with hidden content?]]
       * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines?]]
       * [[https://github.com/w3c/csswg-drafts/issues/390|Consider support for multiple-line ellipsis]]
+  * Bikeshed Bonanza
+      * [[https://github.com/w3c/csswg-drafts/issues/2143|Name the “functional pseudo-class like :matches() with 0 specificity”]]
