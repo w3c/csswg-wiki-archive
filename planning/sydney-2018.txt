@@ -64,7 +64,7 @@
       * CSS Cascade 3 & 4 CR
       * CSS Display 3 CR?
       * CSS Scroll Snap 1 CR update
-      * CSS Overflow 3 WD
+      * CSS Conditional Rules 3 CR update
   * Need spec for margin/padding and box-styling terminolgy: https://github.com/w3c/csswg-drafts/issues/2851
   * link to .bs source: https://github.com/w3c/csswg-drafts/issues/2472
   * 11am? [[https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html|initial-letter (~19 issues?)]]
