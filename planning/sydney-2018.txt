@@ -112,6 +112,8 @@
   * Transforms, Animations, Transitions - all open issues
       * [[https://github.com/w3c/csswg-drafts/issues/2736|Clarify properties that are not allowed in @keyframes rule]]
       * [[https://github.com/w3c/csswg-drafts/issues/927|Smarter interpolation of truncated transform lists]]
+      * [[https://github.com/w3c/csswg-drafts/issues/913|Explicitly specify that a transform is a containing block for all descendants]]
+      * If above issues were resolved: CSS Transforms LCWD
       * Updating editors of Web Animations
       * More animations/transitions issues?
   * Contain
