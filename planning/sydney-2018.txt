@@ -44,12 +44,6 @@
   * ...
 ==== Agenda ====
   * ResizeObserver - two items (Microsoft)
-  * Publishing Stuff That's Almost Ready To Publish
-      * CSS Values and Units 3 CR / 4 FPWD
-      * CSS Cascade 3 & 4 CR
-      * CSS Display 3 CR?
-      * CSS Scroll Snap 1 CR update
-      * CSS Overflow 3 WD
   * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
   * Transforms, Animations, Transitions - all open issues
       * [[https://github.com/w3c/csswg-drafts/issues/2736|Clarify properties that are not allowed in @keyframes rule]]
@@ -103,6 +97,8 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with hidden content?]]
       * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines?]]
       * [[https://github.com/w3c/csswg-drafts/issues/390|Consider support for multiple-line ellipsis]]
+  * Grid
+      * [[https://github.com/w3c/csswg-drafts/issues/2592|subgrid border/padding/margin]]
   * Bikeshed Bonanza
       * [[https://github.com/w3c/csswg-drafts/issues/2143|Name the “functional pseudo-class like :matches() with 0 specificity”]]
 
@@ -117,6 +113,12 @@
 
 == Morning ==
 
+  * Publishing Stuff That's Almost Ready To Publish
+      * CSS Values and Units 3 CR / 4 FPWD
+      * CSS Cascade 3 & 4 CR
+      * CSS Display 3 CR?
+      * CSS Scroll Snap 1 CR update
+      * CSS Overflow 3 WD
   * 11am? [[https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html|initial-letter (~19 issues?)]]
 
 == Afternoon ==
