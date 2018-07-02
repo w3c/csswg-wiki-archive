@@ -98,13 +98,14 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2370|Proposal: "prefers-reduced-data"]]
       * [[https://github.com/w3c/csswg-drafts/issues/2413|Port Media Groups section of CSS2.1]]
       * [[https://github.com/w3c/csswg-drafts/issues/2791|Is the `<mf-range>` "swapping value and name" syntax really useful?]]
-  * Variables/CSSOM/Cascade
+  * Variables/CSSOM/Cascade/Syntax
       * [[https://github.com/w3c/csswg-drafts/issues/2518|Does `all` reset custom properties?]]
       * [[https://github.com/w3c/csswg-drafts/issues/2529|getComputedStyle and shorthands]]
       * [[https://github.com/w3c/csswg-drafts/issues/1964|What should getComputedStyle return for an element which isn't in the flat tree?]]
   * CSS-UI-4
       * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
       * [[https://github.com/w3c/csswg-drafts/issues/1815|let user-select:contain prohibit selection from outside]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2757|Consider disallowing NULL code points in stylesheets]]
 
 === Thursday ===
 
