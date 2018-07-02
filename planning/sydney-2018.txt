@@ -52,6 +52,9 @@
       * CSS Overflow 3 WD
   * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
   * Transforms, Animations, Transitions - all open issues
+      * [[https://github.com/w3c/csswg-drafts/issues/2736|Clarify properties that are not allowed in @keyframes rule]]
+      * [[https://github.com/w3c/csswg-drafts/issues/927|Smarter interpolation of truncated transform lists]]
+      * More animations/transitions issues?
   * Using Single dimensional images™️ for multiple border colors (leaverou, fantasai)
   * color-filter (Myles/Dino/Thor)
   * Investigate simplifying logical properties? (frremy)
@@ -69,7 +72,6 @@
   * link to .bs source: https://github.com/w3c/csswg-drafts/issues/2472
   * Need spec for margin/padding and box-styling terminolgy: https://github.com/w3c/csswg-drafts/issues/2851
   * [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|Agenda+ F2F issues]]
-      * animations-1: 1
       * backgrounds-3: 1
       * backgrounds-4: 2
       * contain-1: 3
@@ -82,7 +84,6 @@
       * text-3: 4
       * text-4: 1
       * text-decor-4: 1
-      * transforms-1: 1
       * values-4: 1
       * variables-1: 1
 
