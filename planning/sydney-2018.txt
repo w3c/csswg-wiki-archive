@@ -50,6 +50,7 @@
       * CSS Display 3 CR?
       * CSS Scroll Snap 1 CR update
       * CSS Overflow 3 WD
+      * CSS Fonts 3: https://github.com/w3c/csswg-drafts/issues/2795
   * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
   * Transforms, Animations, Transitions - all open issues
   * Using Single dimensional images™️ for multiple border colors (leaverou, fantasai)
@@ -57,7 +58,7 @@
   * Investigate simplifying logical properties? (frremy)
   * [[https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html|initial-letter]]
   * Fonts Level 4 issues
-      * https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-fonts-4
+      * [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-fonts-4|Agenda+ F2F issues]]
   * Media Queries (dino)
       * prefers-high-contrast
       * prefers-dark-interface
