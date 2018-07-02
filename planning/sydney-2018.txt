@@ -66,7 +66,6 @@
       * [[https://github.com/w3c/csswg-drafts/issues/698|cursive shaping breaks needs better scoping]]
       * [[https://github.com/w3c/csswg-drafts/issues/855|Question re white space processing rules for U+000D]]
       * [[https://github.com/w3c/csswg-drafts/issues/1597|Percentage of 'text-indent' against intrinsically sized box?]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2559|line-break, word-break: language unclear, and a new testcase]]
       * [[https://github.com/w3c/csswg-drafts/issues/2577|'match-parent' computed value ]]
       * [[https://github.com/w3c/csswg-drafts/issues/2818|Consider adding a third value (skip?) for text-decoration-skip-ink.]]
   * Values
