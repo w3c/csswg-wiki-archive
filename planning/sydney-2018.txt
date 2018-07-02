@@ -81,6 +81,7 @@
       * [[https://github.com/w3c/csswg-drafts/issues/1597|Percentage of 'text-indent' against intrinsically sized box?]]
       * [[https://github.com/w3c/csswg-drafts/issues/2559|line-break, word-break: language unclear, and a new testcase]]
       * [[https://github.com/w3c/csswg-drafts/issues/2577|'match-parent' computed value ]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2818|Consider adding a third value (skip?) for text-decoration-skip-ink.]]
   * Values
       * [[https://github.com/w3c/csswg-drafts/issues/2798|should ic unit use 永 instead of 水?]]
   * Variables/CSSOM/Cascade
@@ -91,13 +92,18 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2840|Need clarification on layout containment & fragmentation]]
       * [[https://github.com/w3c/csswg-drafts/issues/2804|specified column/row sizes on grid containers should contribute to contain:size]]
       * [[https://github.com/w3c/csswg-drafts/issues/2737|`contain` may not want to be animatable.]]
-  * [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|Agenda+ F2F issues not included above]]
-      * css-ui-4: 2
-      * multicol-1: 1
-      * overflow-3: 4
-      * overflow-4: 1
-      * selectors-4: 1
-      * text-decor-4: 1
+  * CSS-UI-4
+      * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
+      * [[https://github.com/w3c/csswg-drafts/issues/1815|let user-select:contain prohibit selection from outside]]
+  * Multicol/Overflow
+      * [[https://github.com/w3c/csswg-drafts/issues/2582|Multi-col, spanner margin collapsing, and formatting contexts]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2847|convert -webkit-line-clamp alias requirement into a spec issue]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2561|'overflow-block' and 'block-overflow' are too similar]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with hidden content?]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines?]]
+      * [[https://github.com/w3c/csswg-drafts/issues/390|Consider support for multiple-line ellipsis]]
+  * Bikeshed Bonanza
+      * [[https://github.com/w3c/csswg-drafts/issues/2143|Name the “functional pseudo-class like :matches() with 0 specificity”]]
 
 ==== Schedule ====
 
