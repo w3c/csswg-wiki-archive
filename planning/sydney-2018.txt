@@ -79,6 +79,7 @@
       * [[https://github.com/w3c/csswg-drafts/issues/698|cursive shaping breaks needs better scoping]]
       * [[https://github.com/w3c/csswg-drafts/issues/855|Question re white space processing rules for U+000D]]
       * [[https://github.com/w3c/csswg-drafts/issues/1597|Percentage of 'text-indent' against intrinsically sized box?]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2390| close word-break-break-word with no change]]
       * [[https://github.com/w3c/csswg-drafts/issues/2818|Consider adding a third value (skip?) for text-decoration-skip-ink.]]
 
 == Afternoon Breakout at 2pm ==
