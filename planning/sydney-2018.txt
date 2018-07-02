@@ -124,6 +124,8 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2840|Need clarification on layout containment & fragmentation]]
       * [[https://github.com/w3c/csswg-drafts/issues/2804|specified column/row sizes on grid containers should contribute to contain:size]]
       * [[https://github.com/w3c/csswg-drafts/issues/2737|`contain` may not want to be animatable.]]
+  * Display
+      * [[https://github.com/w3c/csswg-drafts/issues/2673|Blockifications should establish BFC in block containers]]
   * Grid
       * [[https://github.com/w3c/csswg-drafts/issues/2592|subgrid border/padding/margin]]
   * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
