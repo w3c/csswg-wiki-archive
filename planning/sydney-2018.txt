@@ -54,6 +54,7 @@
   * Transforms, Animations, Transitions - all open issues
       * [[https://github.com/w3c/csswg-drafts/issues/2736|Clarify properties that are not allowed in @keyframes rule]]
       * [[https://github.com/w3c/csswg-drafts/issues/927|Smarter interpolation of truncated transform lists]]
+      * Updating editors of Web Animations
       * More animations/transitions issues?
   * Using Single dimensional images™️ for multiple border colors (leaverou, fantasai)
   * color-filter (Myles/Dino/Thor)
