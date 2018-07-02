@@ -81,17 +81,23 @@
       * [[https://github.com/w3c/csswg-drafts/issues/1597|Percentage of 'text-indent' against intrinsically sized box?]]
       * [[https://github.com/w3c/csswg-drafts/issues/2559|line-break, word-break: language unclear, and a new testcase]]
       * [[https://github.com/w3c/csswg-drafts/issues/2577|'match-parent' computed value ]]
+  * Values
+      * [[https://github.com/w3c/csswg-drafts/issues/2798|should ic unit use 永 instead of 水?]]
+  * Variables/CSSOM/Cascade
+      * [[https://github.com/w3c/csswg-drafts/issues/2518|Does `all` reset custom properties?]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2529|getComputedStyle and shorthands]]
+      * [[https://github.com/w3c/csswg-drafts/issues/1964|What should getComputedStyle return for an element which isn't in the flat tree?]]
+  * Contain
+      * [[https://github.com/w3c/csswg-drafts/issues/2840|Need clarification on layout containment & fragmentation]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2804|specified column/row sizes on grid containers should contribute to contain:size]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2737|`contain` may not want to be animatable.]]
   * [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|Agenda+ F2F issues not included above]]
-      * contain-1: 3
       * css-ui-4: 2
-      * cssom-1: 2
       * multicol-1: 1
       * overflow-3: 4
       * overflow-4: 1
       * selectors-4: 1
       * text-decor-4: 1
-      * values-4: 1
-      * variables-1: 1
 
 ==== Schedule ====
 
