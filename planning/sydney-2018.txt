@@ -60,6 +60,9 @@
   * Media Queries (dino)
       * prefers-high-contrast
       * prefers-dark-interface
+      * [[https://github.com/w3c/csswg-drafts/issues/2370|Proposal: "prefers-reduced-data"]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2413|Port Media Groups section of CSS2.1]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2791|Is the `<mf-range>` "swapping value and name" syntax really useful?]]
   * env() values for full-screen, rounded corners, and phone notches (dino)
       * [[https://github.com/w3c/csswg-drafts/issues/2820|Process for adding env values]]
   * nesting: https://github.com/w3c/csswg-drafts/issues/2701
@@ -72,8 +75,6 @@
       * contain-1: 3
       * css-ui-4: 2
       * cssom-1: 2
-      * mediaqueries-4: 2
-      * mediaqueries-5: 1
       * multicol-1: 1
       * overflow-3: 4
       * overflow-4: 1
