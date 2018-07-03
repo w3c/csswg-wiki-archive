@@ -108,6 +108,7 @@
   * env() values for full-screen, rounded corners, and phone notches (dino)
       * [[https://github.com/w3c/csswg-drafts/issues/2820|Process for adding env values]]
       * [[https://github.com/w3c/csswg-drafts/issues/2868|safe-area-insets]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2871|fullscreen-insets]]
   * nesting: https://github.com/w3c/csswg-drafts/issues/2701
 
 == Afternoon ==
