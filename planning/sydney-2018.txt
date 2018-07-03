@@ -109,6 +109,7 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2820|Process for adding env values]]
       * [[https://github.com/w3c/csswg-drafts/issues/2868|safe-area-insets]]
       * [[https://github.com/w3c/csswg-drafts/issues/2871|fullscreen-insets]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2872|fullscreen-auto-hide]]
   * nesting: https://github.com/w3c/csswg-drafts/issues/2701
 
 == Afternoon ==
