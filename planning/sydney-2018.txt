@@ -121,8 +121,8 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2529|getComputedStyle and shorthands]]
       * [[https://github.com/w3c/csswg-drafts/issues/1964|What should getComputedStyle return for an element which isn't in the flat tree?]]
       * [[https://github.com/w3c/csswg-drafts/issues/2757|Consider disallowing NULL code points in stylesheets]]
-  * ResizeObserver - two items (Microsoft)
-  * Investigate simplifying logical properties? (frremy)
+  * Bikeshed Bonanza
+      * [[https://github.com/w3c/csswg-drafts/issues/2143|Name the “functional pseudo-class like :matches() with 0 specificity”]]
 
 === Thursday ===
 
@@ -139,6 +139,8 @@
   * CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
 
 == Afternoon ==
+  * ResizeObserver - two items (Microsoft)
+  * Investigate simplifying logical properties? (frremy)
   * CSS-UI-4
       * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
       * [[https://github.com/w3c/csswg-drafts/issues/1815|let user-select:contain prohibit selection from outside]]
@@ -150,5 +152,3 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines?]]
       * [[https://github.com/w3c/csswg-drafts/issues/390|Consider support for multiple-line ellipsis]]
       * Updated WD for CSS Oveflow 3
-  * Bikeshed Bonanza
-      * [[https://github.com/w3c/csswg-drafts/issues/2143|Name the “functional pseudo-class like :matches() with 0 specificity”]]
