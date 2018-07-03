@@ -107,6 +107,7 @@
     * Defer gradient interpolation to L4?
   * env() values for full-screen, rounded corners, and phone notches (dino)
       * [[https://github.com/w3c/csswg-drafts/issues/2820|Process for adding env values]]
+      * [[https://github.com/w3c/csswg-drafts/issues/2868|safe-area-insets]]
   * nesting: https://github.com/w3c/csswg-drafts/issues/2701
 
 == Afternoon ==
