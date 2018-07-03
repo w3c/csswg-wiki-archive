@@ -99,7 +99,7 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2766|<color> in <shadow> should default to currentcolor]]
       * [[https://github.com/w3c/csswg-drafts/issues/2274|Inconsistent position serialization]]
       * [[https://github.com/w3c/csswg-drafts/issues/2532|Issues with listifying border-color (Using Single dimensional images™️ for multiple border colors)]]
-  * color-filter (Myles/Dino/Thor)
+  * [[https://github.com/w3c/csswg-drafts/issues/2875|color-filter]] (Myles/Dino/Thor)
   * New CSS Images 3 CR (fantasai, leaverou)
     * cross-fade() interpolation issues
       * Reversing same images: https://​github.com/​w3c/​csswg-drafts/​issues/​2852
