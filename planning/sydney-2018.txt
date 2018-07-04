@@ -102,8 +102,8 @@
   * [[https://github.com/w3c/csswg-drafts/issues/2875|color-filter]] (Myles/Dino/Thor)
   * New CSS Images 3 CR (fantasai, leaverou)
     * cross-fade() interpolation issues
-      * [[https://github.com/w3c/csswg-drafts/issues/2852|Reversing same images]]
-      * [[https://github.com/w3c/csswg-drafts/issues/2853|Promoting image to cross-fade() for flattening]]
+    * [[https://github.com/w3c/csswg-drafts/issues/2852|Reversing same images]]
+    * [[https://github.com/w3c/csswg-drafts/issues/2853|Promoting image to cross-fade() for flattening]]
     * Defer gradient interpolation to L4?
   * env() values for full-screen, rounded corners, and phone notches (dino)
       * [[https://github.com/w3c/csswg-drafts/issues/2820|Process for adding env values]]
