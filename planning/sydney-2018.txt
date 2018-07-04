@@ -105,27 +105,28 @@
     * [[https://github.com/w3c/csswg-drafts/issues/2852|Reversing same images]]
     * [[https://github.com/w3c/csswg-drafts/issues/2853|Promoting image to cross-fade() for flattening]]
     * Defer gradient interpolation to L4?
+
+== Afternoon ==
   * env() values for full-screen, rounded corners, and phone notches (dino)
       * [[https://github.com/w3c/csswg-drafts/issues/2820|Process for adding env values]]
       * [[https://github.com/w3c/csswg-drafts/issues/2868|safe-area-insets]]
       * [[https://github.com/w3c/csswg-drafts/issues/2871|fullscreen-insets]]
       * [[https://github.com/w3c/csswg-drafts/issues/2872|fullscreen-auto-hide]]
-  * nesting: https://github.com/w3c/csswg-drafts/issues/2701
-
-== Afternoon ==
+  * Variables
+      * [[https://github.com/w3c/csswg-drafts/issues/2518|Does `all` reset custom properties?]]
   * Media Queries (dino)
       * prefers-high-contrast
       * prefers-dark-interface
       * [[https://github.com/w3c/csswg-drafts/issues/2370|Proposal: "prefers-reduced-data"]]
       * [[https://github.com/w3c/csswg-drafts/issues/2413|Port Media Groups section of CSS2.1]]
       * [[https://github.com/w3c/csswg-drafts/issues/2791|Is the `<mf-range>` "swapping value and name" syntax really useful?]]
-  * Variables/CSSOM/Cascade/Syntax
-      * [[https://github.com/w3c/csswg-drafts/issues/2518|Does `all` reset custom properties?]]
+  * Bikeshed Bonanza
+      * [[https://github.com/w3c/csswg-drafts/issues/2143|Name the “functional pseudo-class like :matches() with 0 specificity”]]
+  * CSSOM/Cascade/Syntax
       * [[https://github.com/w3c/csswg-drafts/issues/2529|getComputedStyle and shorthands]]
       * [[https://github.com/w3c/csswg-drafts/issues/1964|What should getComputedStyle return for an element which isn't in the flat tree?]]
       * [[https://github.com/w3c/csswg-drafts/issues/2757|Consider disallowing NULL code points in stylesheets]]
-  * Bikeshed Bonanza
-      * [[https://github.com/w3c/csswg-drafts/issues/2143|Name the “functional pseudo-class like :matches() with 0 specificity”]]
+  * nesting: https://github.com/w3c/csswg-drafts/issues/2701
 
 === Thursday ===
 
