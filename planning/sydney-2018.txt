@@ -157,4 +157,5 @@
       * [[https://github.com/w3c/csswg-drafts/issues/2408|Which kind of boxes accept max-lines?]]
       * [[https://github.com/w3c/csswg-drafts/issues/390|Consider support for multiple-line ellipsis]]
       * Updated WD for CSS Oveflow 3
-  * [[https://github.com/w3c/csswg-drafts/issues/2817|Define how text-decoration-skip{,-ink} interacts with text-decoration]]
+  * Text Decoration
+      * [[https://github.com/w3c/csswg-drafts/issues/2817|Define how text-decoration-skip{,-ink} interacts with text-decoration]]
