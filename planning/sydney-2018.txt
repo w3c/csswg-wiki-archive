@@ -144,7 +144,7 @@
 == Afternoon ==
   * Investigate simplifying logical properties? (frremy)
   * CSS Scrollbars
-    * [[https://github.com/w3c/csswg-drafts/issues/1958 scrollbar-width]]
+    * [[https://github.com/w3c/csswg-drafts/issues/1958|scrollbar-width]]
     * FPWD
   * CSS-UI-4
       * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
