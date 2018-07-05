@@ -146,7 +146,7 @@
   * CSS Scrollbars
     * [[https://github.com/w3c/csswg-drafts/issues/1958|scrollbar-width]]
     * FPWD
-  * Multicol/Overflow
+  * Overflow
       * [[https://github.com/w3c/csswg-drafts/issues/2847|convert -webkit-line-clamp alias requirement into a spec issue]]
       * [[https://github.com/w3c/csswg-drafts/issues/2561|'overflow-block' and 'block-overflow' are too similar]]
       * [[https://github.com/w3c/csswg-drafts/issues/2421|How does max-lines interact with hidden content?]]
