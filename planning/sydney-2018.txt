@@ -156,5 +156,5 @@
     * [[https://github.com/w3c/csswg-drafts/issues/1958|scrollbar-width]]
     * FPWD
   * CSS-UI-4
-      * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
       * [[https://github.com/w3c/csswg-drafts/issues/1815|let user-select:contain prohibit selection from outside]]
+      * [[https://github.com/w3c/csswg-drafts/issues/285|Readonly form control and user-select]]
