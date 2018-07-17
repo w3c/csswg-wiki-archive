@@ -13,9 +13,9 @@ Note! There have been changes to the module template since it was written! Check
     - run a spellchecker on your spec
     - Optional: If you feel so inclined, you can use [[https://labs.w3.org/pubrules/|the new pubrules checker]] (if it's working), review its results, and correct any errors. (Some errors are expected/harmless if you check an editor's draft, so read carefully!)
   - **Request Publication -**
-    - **For regular Working Drafts** on Bikeshed-formatted specs, you can use the ''bikeshed echidna'' command.
-    - Otherwise, send a message (See Template Below) to Bert, ChrisL, and webreq, CCing w3c-css-wg, asking them to put your spec in the publication pipeline. Include a link to your draft and to the minutes with the resolution to publish. Put ''[Publish]'' in the subject line.
+    - **For regular Working Drafts** on Bikeshed-formatted specs, you can use the ''bikeshed echidna'' command. Otherwise, send a message (See Template Below) to ChrisL and webreq, CCing w3c-css-wg, asking them to put your spec in the publication pipeline. Include a link to your draft and to the minutes with the resolution to publish. Put ''[Publish]'' in the subject line.
     - **For FPWD**, you also need a resolution on the shortname of the spec, and need the W3C domain leader (plh, in our case) to approve the FPWD publication and the choice of URL.
+    - **For CR, etc.** See [[https://www.w3.org/Guide/transitions|Spec Status Transitions Documentation]]. You may need to file an issue in the [[https://github.com/w3c/transitions|Transitions Repo]]; ask ChrisL or fantasai for guidance and complain at plh for any poor documentation.
   - **Wait for Publication -** Wait for the spec to be published. For Echidna-published specs, this should take a few minutes. For other specs, W3C publishes on Tuesdays and Thursdays once webreq has approved the publication.
   - **Announce Your Spec -** Post an announcement of your new spec to [[mailto:www-style@w3.org|www-style]] (and cross-post to [[mailto:public-review-announce@w3.org|public-review-announce]] and any other relevant mailing lists]] and the [[https://www.w3.org/blog/CSS/wp-admin/|CSSWG Blog]] (See Templates Below) and link the blog post from [[http://twitter.com/csswg|@csswg]]. If you need help with this, ask fantasai. A good announcement includes:
      * A link to the spec
