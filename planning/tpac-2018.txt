@@ -1,7 +1,7 @@
 ===== TPAC 2017 =====
 
 
-==== Place, Logistics, etc. ====
+  ==== Place, Logistics, etc. ====
 
   * [[https://www.w3.org/2018/10/TPAC/]
   * full TPAC week is 22-26 October 2018
@@ -15,11 +15,15 @@
 Please, put your name in this table if you plan to participate (alphabetical order by given name):
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
-| fantasai | 8:50am Monday 22 Oct | Friday-ish | TBD | |
+| Alan Stearns | | | | |
+| fantasai | Monday 8:50am | Friday-ish |  |  |
+| Tab Atkins | ? | ? | ? | |
 
 Regrets:
 
-See also the current [[https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants]] [member-only].
+- ...
+
+See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [member-only].
 
 ==== Proposed Agenda ====
 
