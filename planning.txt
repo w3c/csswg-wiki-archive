@@ -12,12 +12,18 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
     * 2018-07-02..05 [[planning:sydney-2018]]
     * [[https://www.w3.org/wiki/TPAC/2018|2018-10-22..26 TPAC]], Lyon, France
   * 2019
-    * ~Feb meeting in Sydney?
-    * Note: 2 evenly spaced meetings between TPAC 2018 and TPAC 2019 would mean:
-      * meeting the week of February 11, and then 
-      * meeting the week of May 27 or June 3
-    * spring meeting
-    * summer meeting in Toronto?
+    * [[https://lists.w3.org/Archives/Public/www-style/2018Jul/0018.html|minutes from July 2018 discussion of 2019 schedule]]
+    * February-ish meeting
+      * Even spacing between TPAC 2018 and TPAC 2019 suggests week of February 11
+      * no current confirmed hosting offer, but some are under investigation
+      * Chinese New Year is Tuesday February 5
+      * possible conflict with TAG meeting around the same dates
+    * May/June-ish meeting
+      * Even spacing between TPAC 2018 and TPAC 2019 suggests the week of May 27 or June 3
+      * Mozilla offered to host in Toronto (could not go *later* than week of June 3 due to Mozilla All-Hands, but could go earlier than May 27, still need to confirm room availability for final dates)
+      * Monday May 27 is a US holiday (Memorial Day)
+      * possible conflict with TAG meeting around the same dates
+      * possible conflict with conference in Amsterdam (Tab)
     * TPAC at [[https://www.w3.org/wiki/TPAC/2019|Fukuoka]] 16-20 Sept
   * [[planning:hosting]]
 
