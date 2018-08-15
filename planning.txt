@@ -15,7 +15,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
     * [[https://lists.w3.org/Archives/Public/www-style/2018Jul/0018.html|minutes from July 2018 discussion of 2019 schedule]]
     * February-ish meeting
       * Even spacing between TPAC 2018 and TPAC 2019 suggests week of February 11
-      * no current confirmed hosting offer, but some are underhttps://wiki.csswg.org/planning#upcoming-meetings investigation
+      * no current confirmed hosting offer, but some are under investigation
       * Chinese New Year is Tuesday February 5
       * possible conflict with TAG meeting around the same dates
     * May/June-ish meeting
