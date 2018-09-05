@@ -23,7 +23,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
       * Mozilla offered to host in Toronto (could not go *later* than week of June 3 due to Mozilla All-Hands, but could go earlier than May 27, still need to confirm room availability for final dates)
       * Monday May 27 is a US holiday (Memorial Day)
       * possible conflict with TAG meeting around the same dates
-      * possible conflict with conference in Amsterdam (Tab)
+      * conflict with conference in Amsterdam, June 13-14 (Tab)
       * Do we need to avoid conflict with Google I/O?  When is it?
     * TPAC at [[https://www.w3.org/wiki/TPAC/2019|Fukuoka]] 16-20 Sept
   * [[planning:hosting]]
