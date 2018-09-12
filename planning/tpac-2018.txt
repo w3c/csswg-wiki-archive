@@ -21,6 +21,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 | fantasai | Monday 8:50am | Friday-ish |  |  |
 | Rune Lillesveen | Sunday | Friday-ish |  |  |
 | Tab Atkins | ? | ? | ? | |
+| Tantek Çelik | ? | ? | ? |
 | Fuqiao Xue | Sunday | Saturday |  |  |
 | Manuel Rego | Sunday | Thursday's night |  |  |
 
@@ -35,6 +36,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * Environment Variables spec
   * Initial Letter Layout Model and other CSS Inline Layout Issues
   * Constructable Stylesheets
+  * Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?
 
 ==== Schedule ====
 
