@@ -40,8 +40,8 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * Initial Letter Layout Model and other CSS Inline Layout Issues
   * Constructable Stylesheets
   * Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?
-  * [[text-underline-offset|https://github.com/w3c/csswg-drafts/issues/3118]]
-  * [[text-spacing|https://drafts.csswg.org/css-text-4/#text-spacing-property]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3118|text-underline-offset]]
+  * [[https://drafts.csswg.org/css-text-4/#text-spacing-property|text-spacing]]
 ==== Schedule ====
 
 === Monday ===
