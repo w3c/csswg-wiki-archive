@@ -45,7 +45,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?
   * [[https://github.com/w3c/csswg-drafts/issues/3118|text-underline-offset]]
   * [[https://drafts.csswg.org/css-text-4/#text-spacing-property|text-spacing]]
-  * [[[https://github.com/w3c/csswg-drafts/issues/1744|Propose adding lang as a font-face descriptor]] ideally with I18n Core 
+  * [[https://github.com/w3c/csswg-drafts/issues/1744|Propose adding lang as a font-face descriptor]] ideally with I18n Core 
 ==== Schedule ====
 
 === Monday ===
