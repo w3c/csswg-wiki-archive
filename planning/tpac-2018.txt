@@ -41,7 +41,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 
   * Environment Variables spec
   * Initial Letter Layout Model and other CSS Inline Layout Issues
-  * Constructable Stylesheets
+  * [[https://wicg.github.io/construct-stylesheets/index.html|Constructable Stylesheets]]
   * Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?
   * [[https://github.com/w3c/csswg-drafts/issues/3118|text-underline-offset]]
   * [[https://drafts.csswg.org/css-text-4/#text-spacing-property|text-spacing]]
