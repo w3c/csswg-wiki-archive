@@ -291,7 +291,7 @@ this is not something that can be changed.
 
 === Question ===
 
-The named colors in CSS are fairly arbitrary and incomplete. Could we add a better system of named colors? Or could we add these specific named colors?
+Can we add new named colors to CSS?
 
 
 === Answer ===
