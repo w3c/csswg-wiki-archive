@@ -286,3 +286,24 @@ this is not something that can be changed.
 
 === References ===
  TBD
+
+===== Adding more named colors =====
+
+=== Question ===
+
+The named colors in CSS are fairly arbitrary and incomplete. Could we add a better system of named colors? Or could we add these specific named colors?
+
+
+=== Answer ===
+
+No.
+
+== more details ==
+
+The built-in set of named colors in CSS is weird and bad, and we keep them mainly for legacy interop reasons. There's very little utility to adding to a set of colors where you have to look up the proper spelling and remember what actual colors the names map to.
+
+Naming colors can be done in stylesheets using custom properties. It is not likely we will ever add more names to the built-in set.
+
+=== References ===
+
+https://github.com/w3c/csswg-drafts/issues/3192#issuecomment-427132614
