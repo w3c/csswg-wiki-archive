@@ -29,7 +29,7 @@ That should be corrected if anyone invents a time machine. :P
   * Unicode ranges should not have had a separate microsyntax with their own tokenization or token handling.  The tokenization hacks required either to make selectors (e.g., u+a) handle things that are unicode-range tokens, or make unicode-range handle the other huge range of tokens (numbers and dimensions with and without scientific notation, identifiers, +) are both horrible.
   * ''font-family'' should have required the font name to be quoted (like all other values that come from "outside" CSS).  The rules for handling unquoted font names make parsing ''font'' stupid, as it requires a ''font-size'' value for disambiguation.
   * Flexbox should have been less crazy about flex-basis vs width/height.  Perhaps: if width/height is ''auto'', use flex-basis; otherwise, stick with width/height as an inflexible size.  (This also makes min/max width/height behavior fall out of the generic definition.)
-  * :empty should have been :void, and :empty should select items that contain only white space
+  * <del>:empty should have been :void, and :empty should select items that contain only white space</del> FIXED in the spec, waiting for implementations to check for Web-compat...
   * ''table-layout: fixed; width: auto'' should result in a fill-available table with fixed-layout columns.
   * 'text-orientation' should have had ''upright'' as the initial value (given the latest changes to 'writing-mode').
   * The @import rule is required to (a) always hit the network unless you specify cache headers, and (b) construct fresh CSSStyleSheet objects for every import, even if they're identical. It should have had more aggressive URL-based deduping and allowed sharing of stylesheet objects.
@@ -45,3 +45,4 @@ That should be corrected if anyone invents a time machine. :P
   * ''size'' should have been a shorthand for ''width'' and ''height'' instead of an @page property with a different definition
   * We probably should have avoided mixing keywords (span) with idents in the [[https://github.com/w3c/csswg-drafts/issues/1137|grid properties]], possibly by using functional notation (like ''span(2)'').
   * comments shouldn't have been allowed basically everywhere in CSS (compare to HTML, which basically only allows them where content goes), because it makes them basically unrepresentable in the object model, which in turn makes building editing directly on top of the object model impossible
+  * The alignment properties in Flexbox should have been writing-mode relative, not flex-flow relative, and thus could have reasonably understandable names like align-inline-* and align-block-*.
