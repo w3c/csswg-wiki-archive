@@ -57,7 +57,9 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * [[https://github.com/w3c/csswg-drafts/issues/1744|Propose adding lang as a font-face descriptor]] ideally with I18n Core 
   * Should we define outline more tightly and aim for close interop, or leave it open to UI innovation? (see [[https://github.com/w3c/csswg-drafts/issues/3184|3184]] for a recent example, but also the spec is full of "may")—Florian
   * Identify new people to represent the CSSWG in the CSS a11y task force
-  * Path forward for the appearance property (https://github.com/w3c/csswg-drafts/issues/3024)—Florian
+  * CSS-UI
+    * Path forward for the appearance property (https://github.com/w3c/csswg-drafts/issues/3024)—Florian
+    * fieldset/legend (https://github.com/w3c/csswg-drafts/issues/3094)—Florian
   * Spatial Navigation—Jihye&Florian
 ==== Schedule ====
 
