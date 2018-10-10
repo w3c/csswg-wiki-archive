@@ -61,6 +61,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * CSS-UI
     * Path forward for the appearance property (https://github.com/w3c/csswg-drafts/issues/3024)—Florian
     * fieldset/legend (https://github.com/w3c/csswg-drafts/issues/3094)—Florian
+    * Dark mode and native form controls (discussion)—fremy
   * Spatial Navigation—Jihye&Florian
 ==== Schedule ====
 
