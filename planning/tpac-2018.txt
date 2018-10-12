@@ -1,0 +1,107 @@
+===== TPAC 2018 =====
+
+
+==== Place, Logistics, etc. ====
+
+  * [[https://www.w3.org/2018/10/TPAC/]]
+  * full TPAC week is 22-26 October 2018
+  * CSS WG meeting days are Mon-Tue 22-23 from 9am to 6pm
+  * Houdini meeting is Thu 25 November from 09:00-???
+  * Lyon, France at the Lyon Convention Center
+  * [[https://www.w3.org/2018/10/Meetup/|Monday night developer meetup]] (requires registration)
+
+
+==== Participants =====
+
+Please, put your name in this table if you plan to participate (alphabetical order by given name):
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Alan Stearns | | | | |
+| Chris Lilley | Sunday | Sunday | | |
+| Dave Cramer | Sunday | Friday | | |
+| Emil A Eklund | Sunday 16:45 | Saturday 06:50 | Marriott Cité Internationale | BA284+BA362 / BA365+BA285 |
+| Eric Willigers | Saturday | Sunday | Crowne Plaza Lyon |  |
+| fantasai | Monday 8:50am | Friday-ish |  |  |
+| Florian Rivoal | Sunday | Saturday-ish |  |  |
+| François REMY | Sunday | TBD |  |  |
+| Hiroshi Sakakibara | Sunday | Saturday |  |  |
+| Jen Simmons | Sunday | Thursday | Marriott |  |
+| Jihye Hong | Sunday | Thursday | ibis |  |
+| Lea Verou | Sunday | Sunday | | |
+| L. David Baron | Saturday 16:00 | Saturday 17:04 | Hôtel le Roosevelt | AF83+[[https://www.sncf.com/fr/itineraire-reservation/recherche-numero-train/details-train/5119?date=20%2F10%2F2018&codeCirculation=OCESN005119F02005&codeZoneArret=OCE87223263|TGV5119]] / [[https://www.sncf.com/fr/itineraire-reservation/recherche-numero-train/details-train/6626?codeCirculation=OCESN006626F01004&codeZoneArret=OCE87722025&date=27%2F10%2F2018|TGV6626]] |
+| Manuel Rego | Sunday | Thursday's night |  |  |
+| Myles C. Maxfield |  |  |  |  |
+| Rakina Amni |  |  |  |  |
+| Rune Lillesveen | Sunday | Friday-ish |  |  |
+| Simon Fraser | ? | ? |  |  |
+| Tab Atkins | ? | ? | ? | |
+| Tantek Çelik | Monday | Thursday | Hôtel le Roosevelt | |
+| Fuqiao Xue | Sunday | Saturday |  |  |
+
+Regrets:
+
+- ...
+
+See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [member-only].
+==== Proposed Agenda ====
+
+  * Environment Variables spec
+  * Initial Letter Layout Model and other CSS Inline Layout Issues (could this happen Monday? --dauwhe)
+  * [[https://wicg.github.io/construct-stylesheets/index.html|Constructable Stylesheets]] (Tuesday)
+    * [[https://github.com/WICG/construct-stylesheets/issues/23|Can the same constructed stylesheet be used in two different Documents?]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/15|Need to define what fetch groups various loads from the sheet go in]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/34|Can we use CSSStyleSheets from <style>/<link> in adoptedStyleSheets?]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/36|Should we use FrozenArray instead of StyleSheetList for adoptedStyleSheets]]
+    * Should this spec move from WICG to CSS WG?
+    * Blink is interested in shipping. 
+  * [[https://github.com/w3c/csswg-drafts/issues/3118|text-underline-offset]]
+  * [[https://drafts.csswg.org/css-text-4/#text-spacing-property|text-spacing]]
+  * [[https://github.com/w3c/csswg-drafts/issues/1744|Propose adding lang as a font-face descriptor]] ideally with I18n Core 
+  * Identify new people to represent the CSSWG in the CSS a11y task force
+  * Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?
+  * CSS-UI
+    * Path forward for the appearance property (https://github.com/w3c/csswg-drafts/issues/3024)—Florian
+    * fieldset/legend (https://github.com/w3c/csswg-drafts/issues/3094)—Florian
+    * Dark mode and native form controls (discussion)—fremy
+    * Should we define outline more tightly and aim for close interop, or leave it open to UI innovation? (see [[https://github.com/w3c/csswg-drafts/issues/3184|3184]] for a recent example, but also the spec is full of "may")—Florian
+
+  * Apple's color-filter proposal (status gathering)—fremy
+  * Spatial Navigation—Jihye&Florian
+==== Schedule ====
+
+=== Monday ===
+
+== Morning ==
+
+(9am schedule wrangling and introductions)
+
+10am - Break
+
+12pm - Lunch
+
+== Afternoon ==
+
+3pm - Joint meeting with the Math on Web Pages CG
+
+3:30pm - break
+
+=== Tuesday ===
+
+== Morning ==
+
+(start at 9am - the room will be occupied until then)
+
+10am - Break
+
+11am - Joint meeting with [[https://www.w3.org/International/wiki/2018TPACAgenda|i18n]]
+
+12pm - Lunch
+
+== Afternoon ==
+
+3:30pm - break
+
+=== Thursday ===
+
+Houdini
+
