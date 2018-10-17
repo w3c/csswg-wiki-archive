@@ -72,6 +72,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * Effect of filter element on root element https://github.com/w3c/fxtf-drafts/issues/282 --chrishtr
   * backdrop-filter spec issues: https://github.com/w3c/fxtf-drafts/issues/53
   * [css-fonts-4] src: local() font unique name matching ambiguous & restricts matched locale https://github.com/w3c/csswg-drafts/issues/3177
+  * [css-overscroll-behavior] Moving [[https://drafts.csswg.org/css-overscroll-behavior/|spec]] to FPWD. This was recently migrated from WICG.
 ==== Schedule ====
 
 === Monday ===
