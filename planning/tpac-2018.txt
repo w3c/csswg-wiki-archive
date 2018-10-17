@@ -67,7 +67,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
     * Should we define outline more tightly and aim for close interop, or leave it open to UI innovation? (see [[https://github.com/w3c/csswg-drafts/issues/3184|3184]] for a recent example, but also the spec is full of "may")—Florian
 
   * Apple's color-filter proposal (status gathering)—fremy
-  * Spatial Navigation—Jihye&Florian
+  * Spatial Navigation—Jihye&Florian (prefers Tuesday, not during AC meeting, definitely avoid Monday early afternoon)
   * Effect of filter element on root element https://github.com/w3c/fxtf-drafts/issues/282-chrishtr
   * backdrop-filter spec issues: https://github.com/w3c/fxtf-drafts/issues/53
   * [css-fonts-4] src: local() font unique name matching ambiguous & restricts matched locale https://github.com/w3c/csswg-drafts/issues/3177
