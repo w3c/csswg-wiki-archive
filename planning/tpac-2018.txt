@@ -49,7 +49,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 
   * Environment Variables spec --???
   * Initial Letter Layout Model and other CSS Inline Layout Issues (could this happen Monday? --dauwhe)
-  * [[https://wicg.github.io/construct-stylesheets/index.html|Constructable Stylesheets]] (Tuesday) --Tab & Rakina?
+  * [[https://wicg.github.io/construct-stylesheets/index.html|Constructable Stylesheets]] (Tuesday) - Rakina & Eric & Tab
     * [[https://github.com/WICG/construct-stylesheets/issues/23|Can the same constructed stylesheet be used in two different Documents?]]
     * [[https://github.com/WICG/construct-stylesheets/issues/15|Need to define what fetch groups various loads from the sheet go in]]
     * [[https://github.com/WICG/construct-stylesheets/issues/34|Can we use CSSStyleSheets from <style>/<link> in adoptedStyleSheets?]]
