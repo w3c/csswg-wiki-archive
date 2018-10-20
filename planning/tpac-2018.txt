@@ -84,6 +84,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
     * Intrinsic sizing of elements with continue:discard https://github.com/w3c/csswg-drafts/issues/3214
     * Define the behavior of overly long block ellipsis strings https://github.com/w3c/csswg-drafts/issues/3213
     * block-overflow, ::first-line, and ::first letter https://github.com/w3c/csswg-drafts/issues/2906
+    * Allowing (or not) alternate ellipsis behavior for block-overflow https://github.com/w3c/csswg-drafts/issues/2905
 ==== Schedule ====
 
 === Monday ===
