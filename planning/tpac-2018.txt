@@ -80,6 +80,10 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * Css-text-3:
     * Revisit text-align shorthanding text-align-last: https://github.com/w3c/csswg-draft/issues/3117
     * word-wrap/overflow-wrap: break-word should affect min-content https://github.com/w3c/csswg-drafts/issues/2682
+  * Css-overflow-3
+    * Intrinsic sizing of elements with continue:discard https://github.com/w3c/csswg-drafts/issues/3214
+    * Define the behavior of overly long block ellipsis strings https://github.com/w3c/csswg-drafts/issues/3213
+    * block-overflow, ::first-line, and ::first letter https://github.com/w3c/csswg-drafts/issues/2906
 ==== Schedule ====
 
 === Monday ===
