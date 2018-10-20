@@ -77,6 +77,9 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * [css-overscroll-behavior] Moving [[https://drafts.csswg.org/css-overscroll-behavior/|spec]] to FPWD. This was recently migrated from WICG.
   * [[https://wicg.github.io/scroll-animations/ | Scroll-linked Animations ]] - Spec is on WICG and Blink now has a partial experimental implementation (majidvp@ can demo). Gathering status and see if there is interest in moving it (or a subset) forward.
   * Accessibility API Mappings (https://w3c.github.io/html-aam/) - What it is, how it matters to CSS, when we need to ping a11y people about implications. Focus on display:contents being unexpectedly troublesome. -- Alice Boxhall
+  * Css-text-3:
+    * Revisit text-align shorthanding text-align-last: https://github.com/w3c/csswg-draft/issues/3117
+    * word-wrap/overflow-wrap: break-word should affect min-content https://github.com/w3c/csswg-drafts/issues/2682
 ==== Schedule ====
 
 === Monday ===
