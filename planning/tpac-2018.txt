@@ -60,7 +60,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
     * Blink is interested in shipping. 
   * [[https://github.com/w3c/csswg-drafts/issues/3118|text-underline-offset]]
   * Rename text-decoration-width?
-  * [[https://drafts.csswg.org/css-text-4/#text-spacing-property|text-spacing]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3229|text-spacing]]
   * [[https://github.com/w3c/csswg-drafts/issues/1744|Propose adding lang as a font-face descriptor]] ideally with I18n Core 
   * Identify new people to represent the CSSWG in the CSS a11y task force
   * Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?
