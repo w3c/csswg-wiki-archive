@@ -65,7 +65,6 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 ===== Cascade and OM =====
  
   * [CSS-cascade] import only in moment when we need it: https://github.com/w3c/csswg-drafts/issues/3050
-  * [[https://github.com/w3c/csswg-drafts/issues/1744|Propose adding lang as a font-face descriptor]] ideally with I18n Core 
   * css-fonts-4
     *  src: local() font unique name matching ambiguous & restricts matched locale https://github.com/w3c/csswg-drafts/issues/3177
     * Propose adding lang as a font-face descriptor: https://github.com/w3c/csswg-drafts/issues/1744
@@ -93,7 +92,6 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * Initial Letter Layout Model and other CSS Inline Layout Issues (could this happen Monday? --dauwhe)
     * Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand? https://github.com/w3c/csswg-drafts/issues/861
     * better name for initial-letters property: https://github.com/w3c/csswg-drafts/issues/2950
-    * vertically align to nth-child: https://github.com/w3c/csswg-drafts/issues/1339
   * Css-text-3:
     * Revisit text-align shorthanding text-align-last: https://github.com/w3c/csswg-draft/issues/3117
     * word-wrap/overflow-wrap: break-word should affect min-content https://github.com/w3c/csswg-drafts/issues/2682
@@ -118,6 +116,8 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 
 3pm - Joint meeting with the Math on Web Pages CG
 
+    * vertically align to nth-child: https://github.com/w3c/csswg-drafts/issues/1339
+
 3:30pm - break
 
 4pm - Joint meeting with [[https://github.com/web-platform-tests/wpt/wiki/TPAC-2018|WPT]]
@@ -135,6 +135,8 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * [css-shadow-parts] confirm browser support (Tuesday): https://github.com/w3c/csswg-drafts/issues/2368
 
 11am - Joint meeting with [[https://www.w3.org/International/wiki/2018TPACAgenda|i18n]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/1744|Propose adding lang as a font-face descriptor]] ideally with I18n Core 
 
 12pm - Lunch
 
