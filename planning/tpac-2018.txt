@@ -48,37 +48,13 @@ Regrets:
 - ...
 
 See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [member-only].
-==== Proposed Agenda ====
+==== Proposed Agenda by Topic Area ====
 
-  * Environment Variables spec --???
+===== Layout =====
   * Initial Letter Layout Model and other CSS Inline Layout Issues (could this happen Monday? --dauwhe)
-  * [[https://wicg.github.io/construct-stylesheets/index.html|Constructable Stylesheets]] (Tuesday) -- Rakina & Eric & Tab
-    * [[https://github.com/WICG/construct-stylesheets/issues/23|Can the same constructed stylesheet be used in two different Documents?]]
-    * [[https://github.com/WICG/construct-stylesheets/issues/15|Need to define what fetch groups various loads from the sheet go in]]
-    * [[https://github.com/WICG/construct-stylesheets/issues/34|Can we use CSSStyleSheets from <style>/<link> in adoptedStyleSheets?]]
-    * [[https://github.com/WICG/construct-stylesheets/issues/36|Should we use FrozenArray instead of StyleSheetList for adoptedStyleSheets]]
-    * Should this spec move from WICG to CSS WG?
-    * Blink is interested in shipping. 
   * [[https://github.com/w3c/csswg-drafts/issues/3118|text-underline-offset]]
   * Rename text-decoration-width?
   * [[https://github.com/w3c/csswg-drafts/issues/3229|text-spacing]]
-  * [[https://github.com/w3c/csswg-drafts/issues/1744|Propose adding lang as a font-face descriptor]] ideally with I18n Core 
-  * Identify new people to represent the CSSWG in the CSS a11y task force
-  * Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?
-  * CSS-UI
-    * Path forward for the appearance property (https://github.com/w3c/csswg-drafts/issues/3024)—Florian
-    * fieldset/legend (https://github.com/w3c/csswg-drafts/issues/3094)—Florian
-    * Dark mode and native form controls (discussion)—fremy
-    * Should we define outline more tightly and aim for close interop, or leave it open to UI innovation? (see [[https://github.com/w3c/csswg-drafts/issues/3184|3184]] for a recent example, but also the spec is full of "may")—Florian
-
-  * Apple's color-filter proposal (status gathering)—fremy
-  * Spatial Navigation—Jihye&Florian (prefers Tuesday, not during AC meeting, definitely avoid Monday early afternoon and avoid from 5pm Tuesday)
-  * Effect of filter element on root element https://github.com/w3c/fxtf-drafts/issues/282 --chrishtr
-  * backdrop-filter spec issues: https://github.com/w3c/fxtf-drafts/issues/53
-  * [css-fonts-4] src: local() font unique name matching ambiguous & restricts matched locale https://github.com/w3c/csswg-drafts/issues/3177
-  * [css-overscroll-behavior] Moving [[https://drafts.csswg.org/css-overscroll-behavior/|spec]] to FPWD. This was recently migrated from WICG.
-  * [[https://wicg.github.io/scroll-animations/ | Scroll-linked Animations ]] - Spec is on WICG and Blink now has a partial experimental implementation (majidvp@ can demo). Gathering status and see if there is interest in moving it (or a subset) forward.
-  * Accessibility API Mappings (https://w3c.github.io/html-aam/) - What it is, how it matters to CSS, when we need to ping a11y people about implications. Focus on display:contents being unexpectedly troublesome. -- Alice Boxhall
   * Css-text-3:
     * Revisit text-align shorthanding text-align-last: https://github.com/w3c/csswg-draft/issues/3117
     * word-wrap/overflow-wrap: break-word should affect min-content https://github.com/w3c/csswg-drafts/issues/2682
@@ -87,6 +63,39 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
     * Define the behavior of overly long block ellipsis strings https://github.com/w3c/csswg-drafts/issues/3213
     * block-overflow, ::first-line, and ::first letter https://github.com/w3c/csswg-drafts/issues/2906
     * Allowing (or not) alternate ellipsis behavior for block-overflow https://github.com/w3c/csswg-drafts/issues/2905
+
+===== Cascade and OM =====
+  * [[https://wicg.github.io/construct-stylesheets/index.html|Constructable Stylesheets]] (Tuesday) -- Rakina & Eric & Tab
+    * [[https://github.com/WICG/construct-stylesheets/issues/23|Can the same constructed stylesheet be used in two different Documents?]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/15|Need to define what fetch groups various loads from the sheet go in]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/34|Can we use CSSStyleSheets from <style>/<link> in adoptedStyleSheets?]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/36|Should we use FrozenArray instead of StyleSheetList for adoptedStyleSheets]]
+    * Should this spec move from WICG to CSS WG?
+    * Blink is interested in shipping. 
+  * [[https://github.com/w3c/csswg-drafts/issues/1744|Propose adding lang as a font-face descriptor]] ideally with I18n Core 
+  * [css-fonts-4] src: local() font unique name matching ambiguous & restricts matched locale https://github.com/w3c/csswg-drafts/issues/3177
+  * [[https://wicg.github.io/scroll-animations/ | Scroll-linked Animations ]] - Spec is on WICG and Blink now has a partial experimental implementation (majidvp@ can demo). Gathering status and see if there is interest in moving it (or a subset) forward.
+  * Environment Variables spec - path to fpwd?
+
+===== UI =====
+  * Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?
+  * CSS-UI
+    * Path forward for the appearance property (https://github.com/w3c/csswg-drafts/issues/3024)—Florian
+    * fieldset/legend (https://github.com/w3c/csswg-drafts/issues/3094)—Florian
+    * Dark mode and native form controls (discussion)—fremy
+    * Should we define outline more tightly and aim for close interop, or leave it open to UI innovation? (see [[https://github.com/w3c/csswg-drafts/issues/3184|3184]] for a recent example, but also the spec is full of "may")—Florian
+  * Spatial Navigation — Jihye and Florian (prefers Tuesday, not during AC meeting, definitely avoid Monday early afternoon and avoid from 5pm Tuesday)
+  * [css-overscroll-behavior] Moving [[https://drafts.csswg.org/css-overscroll-behavior/|spec]] to FPWD. This was recently migrated from WICG.
+
+
+===== Graphics =====
+  * Apple's color-filter proposal (status gathering)—fremy
+  * Effect of filter element on root element https://github.com/w3c/fxtf-drafts/issues/282 --chrishtr
+  * backdrop-filter spec issues: https://github.com/w3c/fxtf-drafts/issues/53
+
+===== Accessibility =====
+  * Identify new people to represent the CSSWG in the CSS a11y task force
+  * Accessibility API Mappings (https://w3c.github.io/html-aam/) - What it is, how it matters to CSS, when we need to ping a11y people about implications. Focus on display:contents being unexpectedly troublesome. -- Alice Boxhall
 ==== Schedule ====
 
 === Monday ===
