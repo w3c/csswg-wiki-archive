@@ -88,6 +88,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 
 10am - Break
 
+  * [css-align] gap properties for block layout: https://github.com/w3c/csswg-drafts/issues/3068
   * css-multicol 
     * What happens to the mbp of the empty fragment created by a spanner being first-child of an element: https://github.com/w3c/csswg-drafts/issues/2552
     * Margin collapsing does not make sense with column-spans: https://github.com/w3c/csswg-drafts/issues/2203
@@ -105,7 +106,6 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 == Afternoon ==
 
   * [css-flexbox] Investigate applying align-content to single-line flex containers: https://github.com/w3c/csswg-drafts/issues/3052
-  * [css-align] gap properties for block layout: https://github.com/w3c/csswg-drafts/issues/3068
 
   * Initial Letter Layout Model and other CSS Inline Layout Issues (could this happen Monday? --dauwhe)
     * Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand? https://github.com/w3c/csswg-drafts/issues/861
