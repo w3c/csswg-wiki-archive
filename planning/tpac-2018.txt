@@ -95,7 +95,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
     * Improve column-fill and make it backward-compatible: https://github.com/w3c/csswg-drafts/issues/3224
 
   * Css-text-3:
-    * Revisit text-align shorthanding text-align-last: https://github.com/w3c/csswg-draft/issues/3117
+    * Revisit text-align shorthanding text-align-last: https://github.com/w3c/csswg-drafts/issues/3117
     * word-wrap/overflow-wrap: break-word should affect min-content https://github.com/w3c/csswg-drafts/issues/2682
   * Text-4
     * Allow letter-spacing to have unitless values like line-height: https://github.com/w3c/csswg-drafts/issues/2165
@@ -150,6 +150,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 
   * Environment Variables spec - path to fpwd?
   * [css-overscroll-behavior] Moving [[https://drafts.csswg.org/css-overscroll-behavior/|spec]] to FPWD. This was recently migrated from WICG.
+  * aspect-ratio draft proposal: https://drafts.csswg.org/css-sizing-4/#ratios
   * [[https://wicg.github.io/construct-stylesheets/index.html|Constructable Stylesheets]] (Tuesday) -- Rakina & Eric & Tab
     * [[https://github.com/WICG/construct-stylesheets/issues/23|Can the same constructed stylesheet be used in two different Documents?]]
     * [[https://github.com/WICG/construct-stylesheets/issues/15|Need to define what fetch groups various loads from the sheet go in]]
