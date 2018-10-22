@@ -58,6 +58,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
     * [[https://github.com/w3c/csswg-drafts/issues/3118|text-underline-offset]]
     * Rename text-decoration-width?
     * text-underline-offset and text-underline-width has no easy way of being proportional to font size: https://github.com/w3c/csswg-drafts/issues/3121
+    * [css-text-decor-4] Rethinking text-underline-offset: https://github.com/w3c/csswg-drafts/issues/3118
 
 ===== Cascade and OM =====
  
