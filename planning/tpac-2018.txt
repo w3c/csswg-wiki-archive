@@ -63,9 +63,6 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 ===== Cascade and OM =====
  
   * [CSS-cascade] import only in moment when we need it: https://github.com/w3c/csswg-drafts/issues/3050
-  * css-fonts-4
-    *  src: local() font unique name matching ambiguous & restricts matched locale https://github.com/w3c/csswg-drafts/issues/3177
-    * Propose adding lang as a font-face descriptor: https://github.com/w3c/csswg-drafts/issues/1744
   * [css-conditional-4] selector() feature query function for selector support: https://github.com/w3c/csswg-drafts/issues/3207
   * [selectors4] Name the “functional pseudo-class like :matches() with 0 specificity”: https://github.com/w3c/csswg-drafts/issues/2143
 
@@ -135,6 +132,9 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 (start at 9am - the room will be occupied until then)
 
   * Spatial Navigation — Jihye and Florian (prefers Tuesday, not during AC meeting, definitely avoid Monday early afternoon and avoid from 5pm Tuesday)
+  * css-fonts-4
+    *  src: local() font unique name matching ambiguous & restricts matched locale https://github.com/w3c/csswg-drafts/issues/3177
+    * Propose adding lang as a font-face descriptor: https://github.com/w3c/csswg-drafts/issues/1744
 
 10am - Break
 
