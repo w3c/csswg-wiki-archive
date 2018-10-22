@@ -84,6 +84,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * css-multicol 
     * What happens to the mbp of the empty fragment created by a spanner being first-child of an element: https://github.com/w3c/csswg-drafts/issues/2552
     * Margin collapsing does not make sense with column-spans: https://github.com/w3c/csswg-drafts/issues/2203
+    * Improve column-fill and make it backward-compatible: https://github.com/w3c/csswg-drafts/issues/3224
   * [css-break-4] control space before element depending on page position: https://github.com/w3c/csswg-drafts/issues/253
 
   * Identify new people to represent the CSSWG in the CSS a11y task force
