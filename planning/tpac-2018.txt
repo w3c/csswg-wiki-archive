@@ -95,7 +95,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
     * word-wrap/overflow-wrap: break-word should affect min-content https://github.com/w3c/csswg-drafts/issues/2682
   * Text-4
     * Allow letter-spacing to have unitless values like line-height: https://github.com/w3c/csswg-drafts/issues/2165
-    * [[https://github.com/w3c/csswg-drafts/issues/3229|text-spacing]]
+    * [[https://github.com/w3c/csswg-drafts/issues/3229|[css-text-4] Text-spacing is too strict]]
 
 12pm - Lunch
 
