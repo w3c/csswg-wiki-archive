@@ -58,12 +58,6 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
     * [[https://github.com/w3c/csswg-drafts/issues/3118|text-underline-offset]]
     * Rename text-decoration-width?
     * text-underline-offset and text-underline-width has no easy way of being proportional to font size: https://github.com/w3c/csswg-drafts/issues/3121
-  * Css-overflow-3
-    * Intrinsic sizing of elements with continue:discard https://github.com/w3c/csswg-drafts/issues/3214
-    * Define the behavior of overly long block ellipsis strings https://github.com/w3c/csswg-drafts/issues/3213
-    * block-overflow, ::first-line, and ::first letter https://github.com/w3c/csswg-drafts/issues/2906
-    * Allowing (or not) alternate ellipsis behavior for block-overflow https://github.com/w3c/csswg-drafts/issues/2905
-
 
 ===== Cascade and OM =====
  
@@ -110,6 +104,12 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * Initial Letter Layout Model and other CSS Inline Layout Issues (could this happen Monday? --dauwhe)
     * Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand? https://github.com/w3c/csswg-drafts/issues/861
     * better name for initial-letters property: https://github.com/w3c/csswg-drafts/issues/2950
+
+  * Css-overflow-3
+    * Intrinsic sizing of elements with continue:discard https://github.com/w3c/csswg-drafts/issues/3214
+    * Define the behavior of overly long block ellipsis strings https://github.com/w3c/csswg-drafts/issues/3213
+    * block-overflow, ::first-line, and ::first letter https://github.com/w3c/csswg-drafts/issues/2906
+    * Allowing (or not) alternate ellipsis behavior for block-overflow https://github.com/w3c/csswg-drafts/issues/2905
 
 3pm - Joint meeting with the Math on Web Pages CG
 
