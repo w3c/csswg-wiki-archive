@@ -82,8 +82,8 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 
 10am - Break
 
-  * Identify new people to represent the CSSWG in the CSS a11y task force
   * Accessibility API Mappings (https://w3c.github.io/html-aam/) - What it is, how it matters to CSS, when we need to ping a11y people about implications. Focus on display:contents being unexpectedly troublesome. -- Alice Boxhall
+  * Identify new people to represent the CSSWG in the CSS a11y task force
 
   * css-multicol 
     * What happens to the mbp of the empty fragment created by a spanner being first-child of an element: https://github.com/w3c/csswg-drafts/issues/2552
