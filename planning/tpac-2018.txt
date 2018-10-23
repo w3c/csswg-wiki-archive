@@ -53,19 +53,6 @@ Regrets:
 See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [member-only].
 ==== Proposed Agenda ====
 
-===== Layout =====
-  * Text-decoration
-    * [[https://github.com/w3c/csswg-drafts/issues/3118|text-underline-offset]]
-    * Rename text-decoration-width?
-    * text-underline-offset and text-underline-width has no easy way of being proportional to font size: https://github.com/w3c/csswg-drafts/issues/3121
-    * [css-text-decor-4] Rethinking text-underline-offset: https://github.com/w3c/csswg-drafts/issues/3118
-
-===== Cascade and OM =====
- 
-  * [CSS-cascade] import only in moment when we need it: https://github.com/w3c/csswg-drafts/issues/3050
-  * [css-conditional-4] selector() feature query function for selector support: https://github.com/w3c/csswg-drafts/issues/3207
-  * [selectors4] Name the “functional pseudo-class like :matches() with 0 specificity”: https://github.com/w3c/csswg-drafts/issues/2143
-
 ==== Schedule ====
 
 === Monday ===
@@ -120,10 +107,8 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * [[https://wicg.github.io/scroll-animations/ | Scroll-linked Animations ]] - Spec is on WICG and Blink now has a partial experimental implementation (majidvp@ can demo). Gathering status and see if there is interest in moving it (or a subset) forward.
 
   * CSS-UI
-    * Path forward for the appearance property (https://github.com/w3c/csswg-drafts/issues/3024)—Florian
     * fieldset/legend (https://github.com/w3c/csswg-drafts/issues/3094)—Florian
     * Dark mode and native form controls (discussion)—fremy
-    * Should we define outline more tightly and aim for close interop, or leave it open to UI innovation? (see [[https://github.com/w3c/csswg-drafts/issues/3184|3184]] for a recent example, but also the spec is full of "may")—Florian
 
 === Tuesday ===
 
@@ -158,6 +143,9 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
     * [[https://github.com/WICG/construct-stylesheets/issues/36|Should we use FrozenArray instead of StyleSheetList for adoptedStyleSheets]]
     * Should this spec move from WICG to CSS WG?
     * Blink is interested in shipping.
+  * CSS-UI
+    * Path forward for the appearance property (https://github.com/w3c/csswg-drafts/issues/3024)—Florian
+    * Should we define outline more tightly and aim for close interop, or leave it open to UI innovation? (see [[https://github.com/w3c/csswg-drafts/issues/3184|3184]] for a recent example, but also the spec is full of "may")—Florian
 
 3:30pm - break
 
@@ -165,6 +153,13 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * [[https://github.com/w3c/csswg-drafts/issues/2875 | Apple's color-filter proposal]] (status gathering)—fremy
   * Effect of filter element on root element https://github.com/w3c/fxtf-drafts/issues/282 --chrishtr
   * backdrop-filter spec issues: https://github.com/w3c/fxtf-drafts/issues/53
+  * Text-decoration
+    * [[https://github.com/w3c/csswg-drafts/issues/3118|text-underline-offset]]
+    * Rename text-decoration-width?
+    * text-underline-offset and text-underline-width has no easy way of being proportional to font size: https://github.com/w3c/csswg-drafts/issues/3121
+  * [CSS-cascade] import only in moment when we need it: https://github.com/w3c/csswg-drafts/issues/3050
+  * [css-conditional-4] selector() feature query function for selector support: https://github.com/w3c/csswg-drafts/issues/3207
+  * [selectors4] Name the “functional pseudo-class like :matches() with 0 specificity”: https://github.com/w3c/csswg-drafts/issues/2143
 
 === Thursday ===
 
