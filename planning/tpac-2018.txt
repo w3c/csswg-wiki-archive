@@ -155,7 +155,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
   * backdrop-filter spec issues: https://github.com/w3c/fxtf-drafts/issues/53
   * Text-decoration
     * [[https://github.com/w3c/csswg-drafts/issues/3118|text-underline-offset]]
-    * Rename text-decoration-width?
+    * [[https://twitter.com/Litherum/status/1053686215898288129|Rename text-decoration-width?]]
   * [CSS-cascade] import only in moment when we need it: https://github.com/w3c/csswg-drafts/issues/3050
   * [css-conditional-4] selector() feature query function for selector support: https://github.com/w3c/csswg-drafts/issues/3207
   * [selectors4] Name the “functional pseudo-class like :matches() with 0 specificity”: https://github.com/w3c/csswg-drafts/issues/2143
@@ -163,4 +163,3 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 === Thursday ===
 
 Houdini
-
