@@ -150,6 +150,7 @@ See also the current https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants [
 3:30pm - break
 
   * Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?
+    * [[https://github.com/w3c/csswg-drafts/issues/3237|getComputedStyle and scrollbar-color]]
   * Effect of filter element on root element https://github.com/w3c/fxtf-drafts/issues/282 --chrishtr
   * backdrop-filter spec issues: https://github.com/w3c/fxtf-drafts/issues/53
   * Text-decoration
