@@ -19,6 +19,7 @@ This list only includes ideas that have been vetted and approved by the CSS Work
 
 This list includes ideas that are somewhere on the CSS Working Group's radar, but that haven't been formally discussed or accepted. These pages are publicly editable. Please include real-world use cases and links to prior discussion (e.g. on blogs or [[http://lists.w3.org/Archives/Public/www-style|www-style]]).
 
+  * [[ideas:principles|Principles]] Minor principles of design
   * [[ideas:naming|Open Naming Issues]] Naming is the hardest problem in CS...
   * [[ideas:bad-font-metrics|Bad Font Metrics Are Bad]]
   * [[ideas:nav-index|Improving tab navigation]]
@@ -29,7 +30,6 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
   * [[ideas:current-url-selector|Current URL Selector]]
   * [[ideas:centering|Centering Blocks]]
   * [[ideas:content-formatting|Content Formatting]]
-  * [[ideas:collapsing|Collapsing]]
   * [[ideas:pointer-events|Hit Testing Control (pointer-events property)]]
   * [[ideas:appendix-j|Examples of Good Border Corner Joins]]
   * [[ideas:feature-testing|Relatively safe feature testing]]
