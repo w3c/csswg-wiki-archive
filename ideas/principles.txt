@@ -4,7 +4,9 @@ See [[https://www.w3.org/TR/CSS2/intro.html#design-principles|CSS2 Design Princi
 
   ; Transparency Principle
   : Inserting an unstyled block in a block formatting context (as sibling, parent, child or intermediary) / unstyled inline in an inline formatting context should have no effect on styling.
-  ; Lea Verou Principle
+  ; Lea Verou Reordering Principle
   : If it can be unambiguously reordered, it should be reorderable.
   ; Pass-through Auto-sizing Principle
   : `auto` as a size generally passes down any min/max-content constraints, and passes up through it the min/max-content contribution
+  ; Roc Principle of Spec-writing
+  : If Robert O'Callahan is unhappy with your spec, you're the one who's wrong.
