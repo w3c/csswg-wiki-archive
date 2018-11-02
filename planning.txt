@@ -8,8 +8,6 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
-  * 2018
-    * 2018-10-22..26 [[planning:tpac-2018|TPAC]], Lyon, France
   * 2019
     * [[https://lists.w3.org/Archives/Public/www-style/2018Jul/0018.html|minutes from July 2018 discussion of 2019 schedule]], [[https://lists.w3.org/Archives/Public/www-style/2018Sep/0002.html|minutes from September 2018 discussion]]
     * February meeting
@@ -32,6 +30,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 ===== Past Meetings =====
 
 ==== 2018 ====
+    * 2018-10-22..26 [[planning:tpac-2018|TPAC]], Lyon, France
     * 2018-07-02..05 [[planning:sydney-2018]]
     * 2018-04-09..12 [[planning:berlin-2018]] (to coincide with TYPO Labs April 12-14)
        * Minutes:
