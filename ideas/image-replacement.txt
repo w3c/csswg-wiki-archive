@@ -79,7 +79,7 @@ h1 { font-family: Zapfino, Wingdings, Arial;
 Another example from Bert, demonstrating the advantage of separating the method of specifying a font (''font-family'') from requiring it (''require-font'' on ''content''):
 
 <code html>
-<h1>This is <span>huge!</span></h1>
+<h1>This is <span>💩!</span></h1>
 </code>
 <code css>
 h1 span { font-family: biggy }
