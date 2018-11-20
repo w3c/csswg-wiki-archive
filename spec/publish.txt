@@ -107,7 +107,7 @@ Replace !!!!marked!!!! items. Here's an [[https://lists.w3.org/Archives/Public/w
   
   Disposition of comments:
     
-    !!!http://dev.w3.org/csswg/css-foo/issues-YYYY-YYYY.html !!!!
+    !!!http://dev.w3.org/csswg/css-foo/issues-YYYY !!!!
   
   Please review the draft, and send any comments to this mailing list,
   <www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
