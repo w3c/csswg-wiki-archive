@@ -10,6 +10,7 @@
 (Alphabetic order by first name)
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Alan Stearns |  |  |  |  |
 | fantasai | local | n/a | n/a |  |
 | Florian Rivoal | Feb 22 | Feb 28 | TBD. Airbnb? |  |
 | Rossen Atanassov | Feb 25 | Feb 28 | TBD |  |
