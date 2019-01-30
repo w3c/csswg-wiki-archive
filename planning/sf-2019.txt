@@ -12,6 +12,8 @@
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
 | Alan Stearns |  |  |  |  |
 | Amelia BR | Feb 23 | Feb 28 | AirBnB w/ Florian & co | |
+| Benjamin De Cock | local | n/a | n/a |  |
+| Cameron McCormack | Feb 23 | Mar 1 | TBD | |
 | Chris Lilley |  |  |  | (assuming visa granted in time) |
 | Dave Cramer |  |  |  |  |
 | Emil A Eklund | local | n/a | n/a | Can't make Monday AM. |
@@ -29,8 +31,7 @@
 | Simon Fraser | local | n/a | n/a |  |
 | Tantek Çelik | 2019-02-25 | local | home | TBD arriving late 24th or early 25th |
 | Tess | local | n/a | n/a |  |
-| Benjamin De Cock | local | n/a | n/a |  |
-| Cameron McCormack | Feb 23 | Mar 1 | TBD | |
+
 ==== Observers ====
 
   * Christian Biesinger
