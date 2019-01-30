@@ -37,6 +37,7 @@
 
   * Christian Biesinger
   * Morten Stenshorne 
+  * Sean Voisen (Mozilla)
 ==== Regrets ====
 
   * Dael Jackson
