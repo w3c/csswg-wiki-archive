@@ -36,8 +36,11 @@
 ==== Observers ====
 
   * Christian Biesinger
+  * Chirag Desai
   * Morten Stenshorne 
   * Sean Voisen (Mozilla)
+  * Lukasz Zbylut
+
 ==== Regrets ====
 
   * Dael Jackson
