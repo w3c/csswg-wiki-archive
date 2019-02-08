@@ -61,3 +61,6 @@
 ==== Schedule ====
 
 === Constraints ===
+
+  * dholbert is missing Monday, so bias layout topics to Tues/Wed
+
