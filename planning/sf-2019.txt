@@ -69,6 +69,7 @@
   * [[https://github.com/w3c/css-houdini-drafts/issues/854|Houdini ❤️ Text]]
   * [[https://github.com/w3c/fxtf-drafts/issues/53#issuecomment-451599995|Backdrop filters]], Chris Harrelson
   * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
+  * 3-D transform interoperability (css-transforms-2) (dbaron will add issue links later), mattwoodrow would like to call in (from New Zealand, so 11am PST or later)
 ==== Schedule ====
 
 === Constraints ===
