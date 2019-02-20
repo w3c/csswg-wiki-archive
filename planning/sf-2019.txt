@@ -69,7 +69,10 @@
   * [[https://github.com/w3c/css-houdini-drafts/issues/854|Houdini ❤️ Text]]
   * [[https://github.com/w3c/fxtf-drafts/issues/53#issuecomment-451599995|Backdrop filters]], Chris Harrelson
   * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
-  * 3-D transform interoperability (css-transforms-2) (dbaron will add issue links later), mattwoodrow would like to call in (from New Zealand, so 11am PST or later)
+  * 3-D transform interoperability (css-transforms-2), dbaron/mattwoodrow, mattwoodrow would like to call in (from New Zealand, so 11am PST or later)
+      * transform-style changes: [[https://bugzilla.mozilla.org/show_bug.cgi?id=1518368#c2|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/3138#issuecomment-424064320|#3138 (comment)]], [[https://github.com/w3c/csswg-drafts/issues/1944|#1944]], [[https://github.com/w3c/csswg-drafts/issues/1950|#1950]], [[https://github.com/w3c/csswg-drafts/issues/1951|#1951]], [[https://github.com/w3c/csswg-drafts/issues/1952|#1952]]
+      * backface-visibility:hidden - [[https://bugzilla.mozilla.org/show_bug.cgi?id=1508490#c6|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/918|#918]]
+
 ==== Schedule ====
 
 === Constraints ===
