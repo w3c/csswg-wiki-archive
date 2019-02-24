@@ -76,6 +76,7 @@
   * [[https://mathml-refresh.github.io/|MathML Refresh Community Group]] (heads up about the status of MathML), rego (please avoid Wednesday's afternoon as I won't be around)
   * [[https://github.com/w3c/csswg-drafts/issues/3401 | Drop navbeforescroll]], Jihye (Tues/Wed)
   * -webkit-line-clamp compatibility issues (issue links/comments forthcoming), heycam
+  * [[https://github.com/w3c/csswg-drafts/issues/2846|Defining outline not to include descendants]], heycam
 ==== Schedule ====
 
 === Constraints ===
