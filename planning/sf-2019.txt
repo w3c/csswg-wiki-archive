@@ -64,7 +64,7 @@
   * [[https://github.com/w3c/csswg-drafts/issues/3264|Error recovery in :is() :not()]], Eric Willigers (remote)
   * [[https://github.com/w3c/csswg-drafts/issues/3299|Dark mode styling]], Rune Lillesveen (Mon/Tues)
   * High Contrast, Rossen + Melanie (Tues)
-  * ResizeObserver - possible breakout session to cover issues for ResizeObserverEntry, then cover each issue initial decision with group for potential resolution (GregW) (Mon afternoon after 3pm or Tues)
+  * ResizeObserver - possible breakout session to cover issues for ResizeObserverEntry, then cover each issue initial decision with group for potential resolution (GregW) (Mon after 10:30 [I may have a meeting I have to attend at 2PM-3PM])
     * [[https://github.com/w3c/csswg-drafts/issues/3673]] Fragmentation support
     * [[https://github.com/w3c/csswg-drafts/issues/3329#issuecomment-466737070 3329]] ResizeObserverEntry shape
     * [[https://github.com/w3c/csswg-drafts/issues/3550]] Add offset pos
