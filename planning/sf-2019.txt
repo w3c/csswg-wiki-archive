@@ -77,6 +77,34 @@
   * [[https://github.com/w3c/csswg-drafts/issues/3401 | Drop navbeforescroll]], Jihye (Tues/Wed)
   * -webkit-line-clamp compatibility issues (issue links/comments forthcoming), heycam
   * [[https://github.com/w3c/csswg-drafts/issues/2846|Defining outline not to include descendants]], heycam
+
+list of agenda+ FTF issues as of Sunday morning:
+
+  * [[https://github.com/w3c/csswg-drafts/issues/3674|[css-shadow-parts] make clear that Shadow Parts for built-in elements should not be supported without standardization]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3665|[css-grid-1] Include padding in scrollable overflow area]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3646|[css-grid] Consider setting base sizes to growth limits when sizing under max-content constraint]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3607|[css-pseudo-4] Identity of Element.pseudo() return value]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3605|[css-pseudo-4] Specify better handling of text shadows for ::selection]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3603|[css-pseudo-4] Should Element.pseudo("unknown") be an error or return null?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3554|[resize-observer] device-pixel-border-box size]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3550|[resize-observer] Add offset position to rects]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3344|[css-ui] The computed value rules of user-select is problematic.]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3329|[resize-observer] Which box information should we pass to the callback]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3326|[resize-observer] Which boxes should we be able to observe?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3280|[css-contain] contain: style does not seem useful.]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3268|[css-sizing] Rethinking how to prevent overflow in a container with an explicit aspect ratio]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3264|[selectors] Let :is() have better error-recovery behavior than normal Selectors]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3024|[css-ui] Unprefix 'appearance' and/or make the spec web-compatible]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3012|[selectors] Solve :visited once and for all]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2960|[css-pseudo-4] new generated content pseudo :between/:separator]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2846|[css-ui] consider requiring that descendants do not contribute to outline]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2390|[css-text-3] Implement or unship word-break:break-word]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2296|[css-selectors] Selectors for “text-ish” and “button-ish” inputs]]
+  * [[https://github.com/w3c/csswg-drafts/issues/1914|[css-scoping-1] Dynamic changes of state and attributes referenced by :host-context rules are pretty hard to handle efficiently.]]
+  * [[https://github.com/w3c/csswg-drafts/issues/861|[css-inline] Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/397|[css-selectors] Make <label> elements reflect CSS pseudoclasses on associated form element ]]
+  * [[https://github.com/w3c/csswg-drafts/issues/355|[css-values] Define value syntax that limits <integer>, <number>, <length>, etc. to ranges]]
 ==== Schedule ====
 
 === Constraints ===
