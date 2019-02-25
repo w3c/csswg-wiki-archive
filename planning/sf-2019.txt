@@ -68,42 +68,36 @@
   * -webkit-line-clamp compatibility issues (issue links/comments forthcoming), heycam
 
 agenda+ FTF issues:
-
-  * [[https://github.com/w3c/csswg-drafts/issues/3674|[css-shadow-parts] make clear that Shadow Parts for built-in elements should not be supported without standardization]]
   * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3280|[css-contain] contain: style does not seem useful.]]
-  * [[https://github.com/w3c/csswg-drafts/issues/1914|[css-scoping-1] Dynamic changes of state and attributes referenced by :host-context rules are pretty hard to handle efficiently.]]
-
-
 
 ==== Schedule ====
 
 === Monday morning ===
 
-=== Values ===
+== Values ==
   * Add min/max constraints to CSS values grammar ([[https://github.com/w3c/csswg-drafts/issues/355#issuecomment-458324757 | Proposal as comment on issue #355]]), Amelia BR
   * [[https://github.com/w3c/csswg-drafts/issues/355|[css-values] Define value syntax that limits <integer>, <number>, <length>, etc. to ranges]]
 
-=== Pseudos ===
+== Pseudos ==
   * [[https://github.com/w3c/csswg-drafts/issues/3607|[css-pseudo-4] Identity of Element.pseudo() return value]]
   * [[https://github.com/w3c/csswg-drafts/issues/3605|[css-pseudo-4] Specify better handling of text shadows for ::selection]]
   * [[https://github.com/w3c/csswg-drafts/issues/3603|[css-pseudo-4] Should Element.pseudo("unknown") be an error or return null?]]
   * [[https://github.com/w3c/csswg-drafts/issues/2960|[css-pseudo-4] new generated content pseudo :between/:separator]]
 
-=== Resize Observer Breakout ===
+== Resize Observer Breakout ==
     * [[https://github.com/w3c/csswg-drafts/issues/3673]] Fragmentation support
     * [[https://github.com/w3c/csswg-drafts/issues/3329#issuecomment-466737070 3329]] ResizeObserverEntry shape
     * [[https://github.com/w3c/csswg-drafts/issues/3550]] Add offset pos
 
 === Monday afternoon ===
 
-=== Graphics ===
+== Graphics ==
   * [[https://github.com/w3c/fxtf-drafts/issues/53#issuecomment-451599995|Backdrop filters]], Chris Harrelson (Mon/Tues)
   * 3-D transform interoperability (css-transforms-2), dbaron/mattwoodrow, mattwoodrow would like to call in (from New Zealand, so 11am PST or later, Mon/Tues)
       * transform-style changes: [[https://bugzilla.mozilla.org/show_bug.cgi?id=1518368#c2|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/3138#issuecomment-424064320|#3138 (comment)]], [[https://github.com/w3c/csswg-drafts/issues/1944|#1944]], [[https://github.com/w3c/csswg-drafts/issues/1950|#1950]], [[https://github.com/w3c/csswg-drafts/issues/1951|#1951]], [[https://github.com/w3c/csswg-drafts/issues/1952|#1952]]
       * backface-visibility:hidden - [[https://bugzilla.mozilla.org/show_bug.cgi?id=1508490#c6|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/918|#918]]
 
-=== Selectors ===
+== Selectors ==
   * [[https://github.com/w3c/csswg-drafts/issues/3264|Error recovery in :is() :not()]], Eric Willigers (remote)
   * [[https://github.com/w3c/csswg-drafts/issues/3012|[selectors] Solve :visited once and for all]]
   * [[https://github.com/w3c/csswg-drafts/issues/2296|[css-selectors] Selectors for “text-ish” and “button-ish” inputs]]
@@ -111,14 +105,19 @@ agenda+ FTF issues:
 
 === Tuesday morning ===
 
-=== Resize Observer ===
+== Resize Observer ==
   * Summarize breakout discussion
   * [[https://github.com/w3c/csswg-drafts/issues/3554]] Device pixel border box removal from spec (GregW or Atotic - Tues)
   * [[https://github.com/w3c/csswg-drafts/issues/3326]] Which boxes should an author be able to observe? (GregW Mon/Tues)
 
+== Shadow/Contain/Scoping ==
+  * [[https://github.com/w3c/csswg-drafts/issues/3674|[css-shadow-parts] make clear that Shadow Parts for built-in elements should not be supported without standardization]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3280|[css-contain] contain: style does not seem useful.]]
+  * [[https://github.com/w3c/csswg-drafts/issues/1914|[css-scoping-1] Dynamic changes of state and attributes referenced by :host-context rules are pretty hard to handle efficiently.]]
+
 === Tuesday afternoon ===
 
-=== UI ===
+== UI ==
   * [[https://github.com/w3c/csswg-drafts/issues/3299|Dark mode styling]], Rune Lillesveen (Mon/Tues)
   * High Contrast, Rossen + Melanie (Tues)
   * [[https://github.com/w3c/csswg-drafts/issues/3344|[css-ui] The computed value rules of user-select is problematic.]]
@@ -128,7 +127,7 @@ agenda+ FTF issues:
 
 === Wednesday morning ===
 
-=== Layout ===
+== Layout ==
   * [[https://github.com/w3c/csswg-drafts/issues/3665|[css-grid-1] Include padding in scrollable overflow area]]
   * [[https://github.com/w3c/csswg-drafts/issues/3646|[css-grid] Consider setting base sizes to growth limits when sizing under max-content constraint]]
   * [[https://github.com/w3c/csswg-drafts/issues/3268|[css-sizing] Rethinking how to prevent overflow in a container with an explicit aspect ratio]]
