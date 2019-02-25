@@ -72,7 +72,6 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
 
   * List topic here (link to issue), Your name
 
-  * [[https://mathml-refresh.github.io/|MathML Refresh Community Group]] (heads up about the status of MathML), rego (please avoid Wednesday's afternoon as I won't be around)
   *  publish updated WD of [[https://drafts.csswg.org/css-color-4/| css-color-4]]. Previous publication was FPWD in 2016. Up-to-date [[https://drafts.csswg.org/css-color-4/#changes-from-20160705| changes list]]. Issues: [[https://github.com/w3c/csswg-drafts/labels/css-color-4| 38 open]] [[https://github.com/w3c/csswg-drafts/issues?q=label%3Acss-color-4+is%3Aclosed| 52 closed]]. Europe-friendly time please, 09-12. ChrisL
 
 agenda+ FTF issues:
@@ -84,7 +83,7 @@ agenda+ FTF issues:
 
 == Values ==
   * Add min/max constraints to CSS values grammar ([[https://github.com/w3c/csswg-drafts/issues/355#issuecomment-458324757 | Proposal as comment on issue #355]]), Amelia BR
-  * [[https://github.com/w3c/csswg-drafts/issues/355|[css-values] Define value syntax that limits <integer>, <number>, <length>, etc. to ranges]]
+  * [[https://mathml-refresh.github.io/|MathML Refresh Community Group]] (heads up about the status of MathML), rego (please avoid Wednesday's afternoon as I won't be around)
 
 == Testing ==
   * http://wptest.center/ demo from Tab
