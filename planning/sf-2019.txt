@@ -72,8 +72,6 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
 
   * List topic here (link to issue), Your name
 
-  *  publish updated WD of [[https://drafts.csswg.org/css-color-4/| css-color-4]]. Previous publication was FPWD in 2016. Up-to-date [[https://drafts.csswg.org/css-color-4/#changes-from-20160705| changes list]]. Issues: [[https://github.com/w3c/csswg-drafts/labels/css-color-4| 38 open]] [[https://github.com/w3c/csswg-drafts/issues?q=label%3Acss-color-4+is%3Aclosed| 52 closed]]. Europe-friendly time please, 09-12. ChrisL
-
 agenda+ FTF issues:
   * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]] (krit: Europe friendly time please 9am-12pm)
 
@@ -87,6 +85,9 @@ agenda+ FTF issues:
 
 == Testing ==
   * http://wptest.center/ demo from Tab
+
+== Color ==
+  *  publish updated WD of [[https://drafts.csswg.org/css-color-4/| css-color-4]]. Previous publication was FPWD in 2016. Up-to-date [[https://drafts.csswg.org/css-color-4/#changes-from-20160705| changes list]]. Issues: [[https://github.com/w3c/csswg-drafts/labels/css-color-4| 38 open]] [[https://github.com/w3c/csswg-drafts/issues?q=label%3Acss-color-4+is%3Aclosed| 52 closed]]. Europe-friendly time please, 09-12. ChrisL
 
 == Graphics ==
   * [[https://github.com/w3c/fxtf-drafts/issues/53#issuecomment-451599995|Backdrop filters]], Chris Harrelson (Mon/Tues)
