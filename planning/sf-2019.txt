@@ -96,11 +96,6 @@ agenda+ FTF issues:
       * transform-style changes: [[https://bugzilla.mozilla.org/show_bug.cgi?id=1518368#c2|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/3138#issuecomment-424064320|#3138 (comment)]], [[https://github.com/w3c/csswg-drafts/issues/1944|#1944]], [[https://github.com/w3c/csswg-drafts/issues/1950|#1950]], [[https://github.com/w3c/csswg-drafts/issues/1951|#1951]], [[https://github.com/w3c/csswg-drafts/issues/1952|#1952]]
       * backface-visibility:hidden - [[https://bugzilla.mozilla.org/show_bug.cgi?id=1508490#c6|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/918|#918]]
 
-== Resize Observer Breakout ==
-    * [[https://github.com/w3c/csswg-drafts/issues/3673]] Fragmentation support
-    * [[https://github.com/w3c/csswg-drafts/issues/3329#issuecomment-466737070 3329]] ResizeObserverEntry shape
-    * [[https://github.com/w3c/csswg-drafts/issues/3550]] Add offset pos
-
 === Monday afternoon ===
 
 == Selectors ==
@@ -115,6 +110,10 @@ agenda+ FTF issues:
   * [[https://github.com/w3c/csswg-drafts/issues/3603|[css-pseudo-4] Should Element.pseudo("unknown") be an error or return null?]]
   * [[https://github.com/w3c/csswg-drafts/issues/2960|[css-pseudo-4] new generated content pseudo :between/:separator]]
 
+== Resize Observer Breakout ==
+    * [[https://github.com/w3c/csswg-drafts/issues/3673]] Fragmentation support
+    * [[https://github.com/w3c/csswg-drafts/issues/3329#issuecomment-466737070 3329]] ResizeObserverEntry shape
+    * [[https://github.com/w3c/csswg-drafts/issues/3550]] Add offset pos
 
 === Tuesday morning ===
 
