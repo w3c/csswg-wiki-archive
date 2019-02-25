@@ -61,56 +61,74 @@
 ==== Agenda ====
 
   * List topic here (link to issue), Your name
-  * [[https://github.com/w3c/csswg-drafts/issues/3264|Error recovery in :is() :not()]], Eric Willigers (remote)
+
+  * http://wptest.center/ demo from Tab
+  * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
+  * [[https://mathml-refresh.github.io/|MathML Refresh Community Group]] (heads up about the status of MathML), rego (please avoid Wednesday's afternoon as I won't be around)
+  * -webkit-line-clamp compatibility issues (issue links/comments forthcoming), heycam
+  * [[https://github.com/w3c/csswg-drafts/issues/2846|Defining outline not to include descendants]], heycam
+
+agenda+ FTF issues:
+
+  * [[https://github.com/w3c/csswg-drafts/issues/3674|[css-shadow-parts] make clear that Shadow Parts for built-in elements should not be supported without standardization]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3280|[css-contain] contain: style does not seem useful.]]
+  * [[https://github.com/w3c/csswg-drafts/issues/1914|[css-scoping-1] Dynamic changes of state and attributes referenced by :host-context rules are pretty hard to handle efficiently.]]
+
+=== Layout ===
+  * [[https://github.com/w3c/csswg-drafts/issues/3665|[css-grid-1] Include padding in scrollable overflow area]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3646|[css-grid] Consider setting base sizes to growth limits when sizing under max-content constraint]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3268|[css-sizing] Rethinking how to prevent overflow in a container with an explicit aspect ratio]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2390|[css-text-3] Implement or unship word-break:break-word]]
+  * [[https://github.com/w3c/csswg-drafts/issues/861|[css-inline] Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand?]]
+  * [[https://github.com/w3c/css-houdini-drafts/issues/854|Houdini ❤️ Text]]
+
+=== Graphics ===
+  * [[https://github.com/w3c/fxtf-drafts/issues/53#issuecomment-451599995|Backdrop filters]], Chris Harrelson (Mon/Tues)
+  * 3-D transform interoperability (css-transforms-2), dbaron/mattwoodrow, mattwoodrow would like to call in (from New Zealand, so 11am PST or later, Mon/Tues)
+      * transform-style changes: [[https://bugzilla.mozilla.org/show_bug.cgi?id=1518368#c2|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/3138#issuecomment-424064320|#3138 (comment)]], [[https://github.com/w3c/csswg-drafts/issues/1944|#1944]], [[https://github.com/w3c/csswg-drafts/issues/1950|#1950]], [[https://github.com/w3c/csswg-drafts/issues/1951|#1951]], [[https://github.com/w3c/csswg-drafts/issues/1952|#1952]]
+      * backface-visibility:hidden - [[https://bugzilla.mozilla.org/show_bug.cgi?id=1508490#c6|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/918|#918]]
+
+=== UI ===
   * [[https://github.com/w3c/csswg-drafts/issues/3299|Dark mode styling]], Rune Lillesveen (Mon/Tues)
   * High Contrast, Rossen + Melanie (Tues)
+  * [[https://github.com/w3c/csswg-drafts/issues/3344|[css-ui] The computed value rules of user-select is problematic.]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3024|[css-ui] Unprefix 'appearance' and/or make the spec web-compatible]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2846|[css-ui] consider requiring that descendants do not contribute to outline]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3401 | Drop navbeforescroll]], Jihye (Tues/Wed)
+
+=== Values ===
+  * Add min/max constraints to CSS values grammar ([[https://github.com/w3c/csswg-drafts/issues/355#issuecomment-458324757 | Proposal as comment on issue #355]]), Amelia BR
+  * [[https://github.com/w3c/csswg-drafts/issues/355|[css-values] Define value syntax that limits <integer>, <number>, <length>, etc. to ranges]]
+
+=== Resize Observer ===
   * ResizeObserver - possible breakout session to cover issues for ResizeObserverEntry, then cover each issue initial decision with group for potential resolution (GregW) (Mon after 10:30 [I may have a meeting I have to attend at 2PM-3PM])
     * [[https://github.com/w3c/csswg-drafts/issues/3673]] Fragmentation support
     * [[https://github.com/w3c/csswg-drafts/issues/3329#issuecomment-466737070 3329]] ResizeObserverEntry shape
     * [[https://github.com/w3c/csswg-drafts/issues/3550]] Add offset pos
   * ResizeObserver [[https://github.com/w3c/csswg-drafts/issues/3554]] Device pixel border box removal from spec (GregW or Atotic - Tues)
   * ResizeObserver [[https://github.com/w3c/csswg-drafts/issues/3326]] Which boxes should an author be able to observe? (GregW Mon/Tues)
-  * Add min/max constraints to CSS values grammar ([[https://github.com/w3c/csswg-drafts/issues/355#issuecomment-458324757 | Proposal as comment on issue #355]]), Amelia BR
-  * http://wptest.center/ demo from Tab
-  * [[https://github.com/w3c/css-houdini-drafts/issues/854|Houdini ❤️ Text]]
-  * [[https://github.com/w3c/fxtf-drafts/issues/53#issuecomment-451599995|Backdrop filters]], Chris Harrelson (Mon/Tues)
-  * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
-  * 3-D transform interoperability (css-transforms-2), dbaron/mattwoodrow, mattwoodrow would like to call in (from New Zealand, so 11am PST or later, Mon/Tues)
-      * transform-style changes: [[https://bugzilla.mozilla.org/show_bug.cgi?id=1518368#c2|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/3138#issuecomment-424064320|#3138 (comment)]], [[https://github.com/w3c/csswg-drafts/issues/1944|#1944]], [[https://github.com/w3c/csswg-drafts/issues/1950|#1950]], [[https://github.com/w3c/csswg-drafts/issues/1951|#1951]], [[https://github.com/w3c/csswg-drafts/issues/1952|#1952]]
-      * backface-visibility:hidden - [[https://bugzilla.mozilla.org/show_bug.cgi?id=1508490#c6|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/918|#918]]
-  * [[https://mathml-refresh.github.io/|MathML Refresh Community Group]] (heads up about the status of MathML), rego (please avoid Wednesday's afternoon as I won't be around)
-  * [[https://github.com/w3c/csswg-drafts/issues/3401 | Drop navbeforescroll]], Jihye (Tues/Wed)
-  * -webkit-line-clamp compatibility issues (issue links/comments forthcoming), heycam
-  * [[https://github.com/w3c/csswg-drafts/issues/2846|Defining outline not to include descendants]], heycam
 
-list of agenda+ FTF issues as of Sunday morning:
+=== Selectors ===
+  * [[https://github.com/w3c/csswg-drafts/issues/3264|Error recovery in :is() :not()]], Eric Willigers (remote)
+  * [[https://github.com/w3c/csswg-drafts/issues/3012|[selectors] Solve :visited once and for all]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2296|[css-selectors] Selectors for “text-ish” and “button-ish” inputs]]
+  * [[https://github.com/w3c/csswg-drafts/issues/397|[css-selectors] Make <label> elements reflect CSS pseudoclasses on associated form element ]]
 
-  * [[https://github.com/w3c/csswg-drafts/issues/3674|[css-shadow-parts] make clear that Shadow Parts for built-in elements should not be supported without standardization]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3665|[css-grid-1] Include padding in scrollable overflow area]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3646|[css-grid] Consider setting base sizes to growth limits when sizing under max-content constraint]]
+=== Pseudos ===
   * [[https://github.com/w3c/csswg-drafts/issues/3607|[css-pseudo-4] Identity of Element.pseudo() return value]]
   * [[https://github.com/w3c/csswg-drafts/issues/3605|[css-pseudo-4] Specify better handling of text shadows for ::selection]]
   * [[https://github.com/w3c/csswg-drafts/issues/3603|[css-pseudo-4] Should Element.pseudo("unknown") be an error or return null?]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3554|[resize-observer] device-pixel-border-box size]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3550|[resize-observer] Add offset position to rects]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3344|[css-ui] The computed value rules of user-select is problematic.]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3329|[resize-observer] Which box information should we pass to the callback]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3326|[resize-observer] Which boxes should we be able to observe?]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3280|[css-contain] contain: style does not seem useful.]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3268|[css-sizing] Rethinking how to prevent overflow in a container with an explicit aspect ratio]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3264|[selectors] Let :is() have better error-recovery behavior than normal Selectors]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3024|[css-ui] Unprefix 'appearance' and/or make the spec web-compatible]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3012|[selectors] Solve :visited once and for all]]
   * [[https://github.com/w3c/csswg-drafts/issues/2960|[css-pseudo-4] new generated content pseudo :between/:separator]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2846|[css-ui] consider requiring that descendants do not contribute to outline]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2390|[css-text-3] Implement or unship word-break:break-word]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2296|[css-selectors] Selectors for “text-ish” and “button-ish” inputs]]
-  * [[https://github.com/w3c/csswg-drafts/issues/1914|[css-scoping-1] Dynamic changes of state and attributes referenced by :host-context rules are pretty hard to handle efficiently.]]
-  * [[https://github.com/w3c/csswg-drafts/issues/861|[css-inline] Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand?]]
-  * [[https://github.com/w3c/csswg-drafts/issues/397|[css-selectors] Make <label> elements reflect CSS pseudoclasses on associated form element ]]
-  * [[https://github.com/w3c/csswg-drafts/issues/355|[css-values] Define value syntax that limits <integer>, <number>, <length>, etc. to ranges]]
+
 ==== Schedule ====
+
+=== Monday morning ===
+=== Monday afternoon ===
+=== Tuesday morning ===
+=== Tuesday afternoon ===
+=== Wednesday morning ===
+=== Wednesday afternoon ===
 
 === Constraints ===
 
