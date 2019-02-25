@@ -143,7 +143,8 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
   * [[https://github.com/w3c/csswg-drafts/issues/3344|[css-ui] The computed value rules of user-select is problematic.]]
   * [[https://github.com/w3c/csswg-drafts/issues/3024|[css-ui] Unprefix 'appearance' and/or make the spec web-compatible]]
   * [[https://github.com/w3c/csswg-drafts/issues/2846|Defining outline not to include descendants]], heycam
-  * [[https://github.com/w3c/csswg-drafts/issues/3401 | Drop navbeforescroll]]([[https://raw.githack.com/jihyerish/spatial-navigation/spatnav-behavior/demo/infinite-scroller/index.html |demo]]) and go for FPWD of spatial navigation, Jihye (Tue)
+  * [[https://github.com/w3c/csswg-drafts/issues/3401 | Drop navbeforescroll]]([[https://raw.githack.com/jihyerish/spatial-navigation/spatnav-behavior/demo/infinite-scroller/index.html |demo]]), Jihye (Tue)
+  * Go for FPWD of spatial navigation, Jihye (Tue)
       * spatial navigation for novice: [[https://drafts.csswg.org/css-nav-1/ | spec]], [[https://wicg.github.io/spatial-navigation/demo/ | demo]]
 
 
