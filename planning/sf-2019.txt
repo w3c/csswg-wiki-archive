@@ -141,6 +141,7 @@ agenda+ FTF issues:
   * [[https://github.com/w3c/csswg-drafts/issues/3024|[css-ui] Unprefix 'appearance' and/or make the spec web-compatible]]
   * [[https://github.com/w3c/csswg-drafts/issues/2846|Defining outline not to include descendants]], heycam
   * [[https://github.com/w3c/csswg-drafts/issues/3401 | Drop navbeforescroll]], Jihye (Tues/Wed)
+  * FPWD for spatial navigation, Jihye
 
 === Wednesday morning ===
 
