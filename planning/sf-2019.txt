@@ -74,17 +74,27 @@ agenda+ FTF issues:
   * [[https://github.com/w3c/csswg-drafts/issues/3280|[css-contain] contain: style does not seem useful.]]
   * [[https://github.com/w3c/csswg-drafts/issues/1914|[css-scoping-1] Dynamic changes of state and attributes referenced by :host-context rules are pretty hard to handle efficiently.]]
 
-=== Resize Observer ===
-  * ResizeObserver - possible breakout session to cover issues for ResizeObserverEntry, then cover each issue initial decision with group for potential resolution (GregW) (Mon after 10:30 [I may have a meeting I have to attend at 2PM-3PM])
-    * [[https://github.com/w3c/csswg-drafts/issues/3673]] Fragmentation support
-    * [[https://github.com/w3c/csswg-drafts/issues/3329#issuecomment-466737070 3329]] ResizeObserverEntry shape
-    * [[https://github.com/w3c/csswg-drafts/issues/3550]] Add offset pos
-  * ResizeObserver [[https://github.com/w3c/csswg-drafts/issues/3554]] Device pixel border box removal from spec (GregW or Atotic - Tues)
-  * ResizeObserver [[https://github.com/w3c/csswg-drafts/issues/3326]] Which boxes should an author be able to observe? (GregW Mon/Tues)
+
 
 ==== Schedule ====
 
 === Monday morning ===
+
+=== Values ===
+  * Add min/max constraints to CSS values grammar ([[https://github.com/w3c/csswg-drafts/issues/355#issuecomment-458324757 | Proposal as comment on issue #355]]), Amelia BR
+  * [[https://github.com/w3c/csswg-drafts/issues/355|[css-values] Define value syntax that limits <integer>, <number>, <length>, etc. to ranges]]
+
+=== Pseudos ===
+  * [[https://github.com/w3c/csswg-drafts/issues/3607|[css-pseudo-4] Identity of Element.pseudo() return value]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3605|[css-pseudo-4] Specify better handling of text shadows for ::selection]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3603|[css-pseudo-4] Should Element.pseudo("unknown") be an error or return null?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2960|[css-pseudo-4] new generated content pseudo :between/:separator]]
+
+=== Resize Observer Breakout ===
+    * [[https://github.com/w3c/csswg-drafts/issues/3673]] Fragmentation support
+    * [[https://github.com/w3c/csswg-drafts/issues/3329#issuecomment-466737070 3329]] ResizeObserverEntry shape
+    * [[https://github.com/w3c/csswg-drafts/issues/3550]] Add offset pos
+
 === Monday afternoon ===
 
 === Graphics ===
@@ -101,15 +111,10 @@ agenda+ FTF issues:
 
 === Tuesday morning ===
 
-=== Values ===
-  * Add min/max constraints to CSS values grammar ([[https://github.com/w3c/csswg-drafts/issues/355#issuecomment-458324757 | Proposal as comment on issue #355]]), Amelia BR
-  * [[https://github.com/w3c/csswg-drafts/issues/355|[css-values] Define value syntax that limits <integer>, <number>, <length>, etc. to ranges]]
-
-=== Pseudos ===
-  * [[https://github.com/w3c/csswg-drafts/issues/3607|[css-pseudo-4] Identity of Element.pseudo() return value]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3605|[css-pseudo-4] Specify better handling of text shadows for ::selection]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3603|[css-pseudo-4] Should Element.pseudo("unknown") be an error or return null?]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2960|[css-pseudo-4] new generated content pseudo :between/:separator]]
+=== Resize Observer ===
+  * Summarize breakout discussion
+  * [[https://github.com/w3c/csswg-drafts/issues/3554]] Device pixel border box removal from spec (GregW or Atotic - Tues)
+  * [[https://github.com/w3c/csswg-drafts/issues/3326]] Which boxes should an author be able to observe? (GregW Mon/Tues)
 
 === Tuesday afternoon ===
 
