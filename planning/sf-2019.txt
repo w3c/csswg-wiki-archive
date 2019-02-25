@@ -72,8 +72,7 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
   * -webkit-line-clamp compatibility issues (issue links/comments forthcoming), heycam
   * getting images' aspect ratio right from html attributes, fantasai
 agenda+ FTF issues:
-  * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]]
-
+  * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]] (krit: Europe friendly time please 9am-12pm)
 ==== Schedule ====
 
 === Monday morning ===
