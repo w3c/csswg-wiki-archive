@@ -72,12 +72,9 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
 
   * List topic here (link to issue), Your name
 
-  * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
   * [[https://mathml-refresh.github.io/|MathML Refresh Community Group]] (heads up about the status of MathML), rego (please avoid Wednesday's afternoon as I won't be around)
-  * [[https://github.com/w3c/csswg-drafts/issues/2847|-webkit-line-clamp compatibility issues]], heycam
-  * getting images' aspect ratio right from html attributes, fantasai
   *  publish updated WD of [[https://drafts.csswg.org/css-color-4/| css-color-4]]. Previous publication was FPWD in 2016. Up-to-date [[https://drafts.csswg.org/css-color-4/#changes-from-20160705| changes list]]. Issues: [[https://github.com/w3c/csswg-drafts/labels/css-color-4| 38 open]] [[https://github.com/w3c/csswg-drafts/issues?q=label%3Acss-color-4+is%3Aclosed| 52 closed]]. Europe-friendly time please, 09-12. ChrisL
-  * 
+
 agenda+ FTF issues:
   * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]] (krit: Europe friendly time please 9am-12pm)
 
@@ -153,6 +150,10 @@ agenda+ FTF issues:
   * [[https://github.com/w3c/css-houdini-drafts/issues/854|Houdini ❤️ Text]]
 
 === Wednesday afternoon ===
+
+  * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
+  * [[https://github.com/w3c/csswg-drafts/issues/2847|-webkit-line-clamp compatibility issues]], heycam
+  * getting images' aspect ratio right from html attributes, fantasai
 
 === Constraints ===
 
