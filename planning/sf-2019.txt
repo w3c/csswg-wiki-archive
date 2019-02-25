@@ -101,7 +101,6 @@ agenda+ FTF issues:
 
 == Selectors ==
   * [[https://github.com/w3c/csswg-drafts/issues/3264|Error recovery in :is() :not()]], Eric Willigers (remote)
-  * [[https://github.com/w3c/csswg-drafts/issues/3012|[selectors] Solve :visited once and for all]]
   * [[https://github.com/w3c/csswg-drafts/issues/2296|[css-selectors] Selectors for “text-ish” and “button-ish” inputs]]
   * [[https://github.com/w3c/csswg-drafts/issues/397|[css-selectors] Make <label> elements reflect CSS pseudoclasses on associated form element ]]
 
@@ -115,6 +114,10 @@ agenda+ FTF issues:
     * [[https://github.com/w3c/csswg-drafts/issues/3673]] Fragmentation support
     * [[https://github.com/w3c/csswg-drafts/issues/3329#issuecomment-466737070 3329]] ResizeObserverEntry shape
     * [[https://github.com/w3c/csswg-drafts/issues/3550]] Add offset pos
+
+== Selectors again ==
+
+  * [[https://github.com/w3c/csswg-drafts/issues/3012|[selectors] Solve :visited once and for all]]
 
 === Tuesday morning ===
 
