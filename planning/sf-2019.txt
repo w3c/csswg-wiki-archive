@@ -66,7 +66,7 @@
   * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
   * [[https://mathml-refresh.github.io/|MathML Refresh Community Group]] (heads up about the status of MathML), rego (please avoid Wednesday's afternoon as I won't be around)
   * -webkit-line-clamp compatibility issues (issue links/comments forthcoming), heycam
-
+  * getting images' aspect ratio right from html attributes, fantasai
 agenda+ FTF issues:
   * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]]
 
