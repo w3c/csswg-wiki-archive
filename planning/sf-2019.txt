@@ -148,6 +148,7 @@ agenda+ FTF issues:
   * [[https://github.com/w3c/csswg-drafts/issues/861|[css-inline] Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand?]]
   * [[https://github.com/w3c/css-houdini-drafts/issues/854|Houdini ❤️ Text]]
   * [[https://github.com/w3c/csswg-drafts/commit/a0c27afa0a50c462584511e617a20b687eb892af|text-wrap: multi-line]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3675|Font matching and Unicode]]
 
 === Wednesday afternoon ===
 
