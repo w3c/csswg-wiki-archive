@@ -73,7 +73,6 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
   * getting images' aspect ratio right from html attributes, fantasai
 agenda+ FTF issues:
   * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]]
-  * [[|https://github.com/w3c/csswg-drafts/issues/3401[css-nav-1] changing the spatnav scroll controls from JS to declarative]]
 
 ==== Schedule ====
 
