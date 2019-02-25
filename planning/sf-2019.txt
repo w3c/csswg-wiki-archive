@@ -72,7 +72,6 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
 
   * List topic here (link to issue), Your name
 
-  * http://wptest.center/ demo from Tab
   * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
   * [[https://mathml-refresh.github.io/|MathML Refresh Community Group]] (heads up about the status of MathML), rego (please avoid Wednesday's afternoon as I won't be around)
   * -webkit-line-clamp compatibility issues (issue links/comments forthcoming), heycam
@@ -90,11 +89,16 @@ agenda+ FTF issues:
   * Add min/max constraints to CSS values grammar ([[https://github.com/w3c/csswg-drafts/issues/355#issuecomment-458324757 | Proposal as comment on issue #355]]), Amelia BR
   * [[https://github.com/w3c/csswg-drafts/issues/355|[css-values] Define value syntax that limits <integer>, <number>, <length>, etc. to ranges]]
 
-== Pseudos ==
-  * [[https://github.com/w3c/csswg-drafts/issues/3607|[css-pseudo-4] Identity of Element.pseudo() return value]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3605|[css-pseudo-4] Specify better handling of text shadows for ::selection]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3603|[css-pseudo-4] Should Element.pseudo("unknown") be an error or return null?]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2960|[css-pseudo-4] new generated content pseudo :between/:separator]]
+== Testing ==
+  * http://wptest.center/ demo from Tab
+
+== Graphics ==
+  * [[https://github.com/w3c/fxtf-drafts/issues/53#issuecomment-451599995|Backdrop filters]], Chris Harrelson (Mon/Tues)
+
+=(at 11am)=
+  * 3-D transform interoperability (css-transforms-2), dbaron/mattwoodrow, mattwoodrow would like to call in (from New Zealand, so 11am PST or later, Mon/Tues)
+      * transform-style changes: [[https://bugzilla.mozilla.org/show_bug.cgi?id=1518368#c2|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/3138#issuecomment-424064320|#3138 (comment)]], [[https://github.com/w3c/csswg-drafts/issues/1944|#1944]], [[https://github.com/w3c/csswg-drafts/issues/1950|#1950]], [[https://github.com/w3c/csswg-drafts/issues/1951|#1951]], [[https://github.com/w3c/csswg-drafts/issues/1952|#1952]]
+      * backface-visibility:hidden - [[https://bugzilla.mozilla.org/show_bug.cgi?id=1508490#c6|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/918|#918]]
 
 == Resize Observer Breakout ==
     * [[https://github.com/w3c/csswg-drafts/issues/3673]] Fragmentation support
@@ -103,17 +107,18 @@ agenda+ FTF issues:
 
 === Monday afternoon ===
 
-== Graphics ==
-  * [[https://github.com/w3c/fxtf-drafts/issues/53#issuecomment-451599995|Backdrop filters]], Chris Harrelson (Mon/Tues)
-  * 3-D transform interoperability (css-transforms-2), dbaron/mattwoodrow, mattwoodrow would like to call in (from New Zealand, so 11am PST or later, Mon/Tues)
-      * transform-style changes: [[https://bugzilla.mozilla.org/show_bug.cgi?id=1518368#c2|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/3138#issuecomment-424064320|#3138 (comment)]], [[https://github.com/w3c/csswg-drafts/issues/1944|#1944]], [[https://github.com/w3c/csswg-drafts/issues/1950|#1950]], [[https://github.com/w3c/csswg-drafts/issues/1951|#1951]], [[https://github.com/w3c/csswg-drafts/issues/1952|#1952]]
-      * backface-visibility:hidden - [[https://bugzilla.mozilla.org/show_bug.cgi?id=1508490#c6|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/918|#918]]
-
 == Selectors ==
   * [[https://github.com/w3c/csswg-drafts/issues/3264|Error recovery in :is() :not()]], Eric Willigers (remote)
   * [[https://github.com/w3c/csswg-drafts/issues/3012|[selectors] Solve :visited once and for all]]
   * [[https://github.com/w3c/csswg-drafts/issues/2296|[css-selectors] Selectors for “text-ish” and “button-ish” inputs]]
   * [[https://github.com/w3c/csswg-drafts/issues/397|[css-selectors] Make <label> elements reflect CSS pseudoclasses on associated form element ]]
+
+== Pseudos ==
+  * [[https://github.com/w3c/csswg-drafts/issues/3607|[css-pseudo-4] Identity of Element.pseudo() return value]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3605|[css-pseudo-4] Specify better handling of text shadows for ::selection]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3603|[css-pseudo-4] Should Element.pseudo("unknown") be an error or return null?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2960|[css-pseudo-4] new generated content pseudo :between/:separator]]
+
 
 === Tuesday morning ===
 
