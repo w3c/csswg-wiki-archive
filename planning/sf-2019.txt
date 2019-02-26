@@ -112,6 +112,10 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
     * [[https://github.com/w3c/csswg-drafts/issues/3329#issuecomment-466737070 3329]] ResizeObserverEntry shape
     * [[https://github.com/w3c/csswg-drafts/issues/3550]] Add offset pos
 
+== Other ==
+
+  * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
+
 == Selectors again ==
 
   * [[https://github.com/w3c/csswg-drafts/issues/3012|[selectors] Solve :visited once and for all]]
@@ -123,6 +127,7 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
 
 == other ==
   * (if times allows:) CSS Tables spec methodology, frremy
+  * getting images' aspect ratio right from html attributes, fantasai
 
 === Tuesday morning ===
 
@@ -171,9 +176,7 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
 
 === Wednesday afternoon ===
 
-  * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
   * [[https://github.com/w3c/csswg-drafts/issues/2847|-webkit-line-clamp compatibility issues]], heycam
-  * getting images' aspect ratio right from html attributes, fantasai
 
 === Constraints ===
 
