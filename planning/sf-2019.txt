@@ -116,12 +116,18 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
 
   * [[https://github.com/w3c/csswg-drafts/issues/3012|[selectors] Solve :visited once and for all]]
 
+== Resize Observer ==
+  * Summarize breakout discussion
+
+  * [[https://github.com/w3c/csswg-drafts/issues/3326]] Which boxes should an author be able to observe? (GregW Mon/Tues)
+
+== other ==
+  * (if times allows:) CSS Tables spec methodology, frremy
+
 === Tuesday morning ===
 
 == Resize Observer ==
-  * Summarize breakout discussion
   * [[https://github.com/w3c/csswg-drafts/issues/3554]] Device pixel border box removal from spec (GregW or Atotic - Tues)
-  * [[https://github.com/w3c/csswg-drafts/issues/3326]] Which boxes should an author be able to observe? (GregW Mon/Tues)
 
 == SVG ==
   * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]] (krit: Europe friendly time please 9am-12pm)
@@ -168,7 +174,6 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
   * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
   * [[https://github.com/w3c/csswg-drafts/issues/2847|-webkit-line-clamp compatibility issues]], heycam
   * getting images' aspect ratio right from html attributes, fantasai
-  * (if times allows:) CSS Tables spec methodology, frremy
 
 === Constraints ===
 
