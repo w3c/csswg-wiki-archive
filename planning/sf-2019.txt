@@ -69,7 +69,7 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
   * Chris Lilley & Lea Verou (visa issues ☹️)
 
 ==== Agenda ====
-
+  * CSSWG GitHub Code of Conduct, Tantek (per examples of abusive comments on Scrollbars)
   * List topic here (link to issue), Your name
 
 ==== Schedule ====
