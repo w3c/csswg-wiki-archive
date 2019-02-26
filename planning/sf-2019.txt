@@ -135,7 +135,7 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
   * [[https://github.com/w3c/csswg-drafts/issues/3554]] Device pixel border box removal from spec (GregW or Atotic - Tues)
 
 == SVG ==
-  * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]] (krit: Europe friendly time please 9am-12pm)
+  * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]] (krit: Europe friendly time please 10am-12pm)
 
 == Shadow/Contain/Scoping ==
   * [[https://github.com/w3c/csswg-drafts/issues/3674|[css-shadow-parts] make clear that Shadow Parts for built-in elements should not be supported without standardization]]
