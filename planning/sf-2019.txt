@@ -142,9 +142,6 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
   * [[https://github.com/w3c/csswg-drafts/issues/3280|[css-contain] contain: style does not seem useful.]]
   * [[https://github.com/w3c/csswg-drafts/issues/1914|[css-scoping-1] Dynamic changes of state and attributes referenced by :host-context rules are pretty hard to handle efficiently.]]
 
-== Values ==
-[[https://github.com/w3c/csswg-drafts/issues/2331|[css-values] Trigonometric functions]]
-
 === Tuesday afternoon ===
 
 == UI ==
@@ -168,14 +165,19 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
   * [[https://github.com/w3c/csswg-drafts/issues/3665|[css-grid-1] Include padding in scrollable overflow area]]
   * [[https://github.com/w3c/csswg-drafts/issues/3646|[css-grid] Consider setting base sizes to growth limits when sizing under max-content constraint]]
   * [[https://github.com/w3c/csswg-drafts/issues/3268|[css-sizing] Rethinking how to prevent overflow in a container with an explicit aspect ratio]]
+
+== Values ==
+  * [[https://github.com/w3c/csswg-drafts/issues/2331|[css-values] Trigonometric functions]]
+  * [[https://github.com/w3c/csswg-drafts/issues/542|[css-values] String concatentation]]
+  * [[https://github.com/w3c/csswg-drafts/issues/541|[css-values] Add url() alias that does not accept unquoted URLs]]
+
+=== Wednesday afternoon ===
+
   * [[https://github.com/w3c/csswg-drafts/issues/2390|[css-text-3] Implement or unship word-break:break-word]]
   * [[https://github.com/w3c/csswg-drafts/issues/861|[css-inline] Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand?]]
   * [[https://github.com/w3c/css-houdini-drafts/issues/854|Houdini ❤️ Text]]
   * [[https://github.com/w3c/csswg-drafts/commit/a0c27afa0a50c462584511e617a20b687eb892af|text-wrap: multi-line]]
   * [[https://github.com/w3c/csswg-drafts/issues/3675|Font matching and Unicode]]
-
-=== Wednesday afternoon ===
-
   * [[https://github.com/w3c/csswg-drafts/issues/2847|-webkit-line-clamp compatibility issues]], heycam
   * getting images' aspect ratio right from html attributes, fantasai (further discussion)
 
