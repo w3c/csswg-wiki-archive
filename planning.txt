@@ -22,7 +22,7 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
       * Constraint: [[https://wiki.mozilla.org/All_Hands|Mozilla All Hands]] is January 27-31 in Berlin, Germany
       * possibly A Coruña, Spain (Igalia)
     * Spring: Apple (Myles) has offered to host (possibly at spaceship)
-    * Summer: Possibly Japan/Kyoto, or France if late summer
+    * Summer: Possibly Japan/Kyoto, or France if mid summer
       * Constraint: [[https://wiki.mozilla.org/All_Hands|Mozilla All Hands]] is June 15-20 in Toronto
     * TPAC in North America (likely), later in the year (likely)
   * [[planning:hosting]]
