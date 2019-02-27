@@ -21,7 +21,8 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
     * January? Since TPAC 2019 is so early
       * Constraint: [[https://wiki.mozilla.org/All_Hands|Mozilla All Hands]] is January 27-31 in Berlin, Germany
     * Spring: Apple (Myles) has offered to host (possibly at spaceship)
-    * TPAC in North America (likely)
+    * Summer: Possibly Japan/Kyoto, or France if late summer
+    * TPAC in North America (likely), later in the year (likely)
   * [[planning:hosting]]
 
 ===== Past Meetings =====
