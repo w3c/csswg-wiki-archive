@@ -185,12 +185,12 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
   * [[https://github.com/w3c/csswg-drafts/issues/861|[css-inline] Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand?]]
   * [[https://github.com/w3c/css-houdini-drafts/issues/854|Houdini ❤️ Text]]
   * [[https://github.com/w3c/csswg-drafts/commit/a0c27afa0a50c462584511e617a20b687eb892af|text-wrap: multi-line]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3675|Font matching and Unicode]]
   * [[https://github.com/w3c/csswg-drafts/issues/2847|-webkit-line-clamp compatibility issues]], heycam
-  * [[https://github.com/w3c/csswg-drafts/issues/3440| hanging preserved white space and justification]], florian
-  * [[https://github.com/w3c/csswg-drafts/issues/337|Segment Break Transformation Rules for East Asian Width property of A ]], fantasai
   * [[https://github.com/w3c/csswg-drafts/issues/1072#issuecomment-465362932|[css-multicol] How do elements between column-span and its multicol ancestor appear around the span ]], Rachel Andrew - reopened by dbaron
   * [[https://github.com/w3c/csswg-drafts/issues/3224|[css-multicol] Improve column-fill and make it backward-compatible]], Rachel Andrew - examples in the final comment
+  * [[https://github.com/w3c/csswg-drafts/issues/3675|Font matching and Unicode]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3440| hanging preserved white space and justification]], florian
+  * [[https://github.com/w3c/csswg-drafts/issues/337|Segment Break Transformation Rules for East Asian Width property of A ]], fantasai
   * [[https://github.com/w3c/csswg-drafts/issues/3685|env(doc-title)]], florian
 === Constraints ===
 
