@@ -189,6 +189,8 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
   * getting images' aspect ratio right from html attributes, fantasai (further discussion)
   * [[https://github.com/w3c/csswg-drafts/issues/3440| hanging preserved white space and justification]], florian
   * [[https://github.com/w3c/csswg-drafts/issues/337|Segment Break Transformation Rules for East Asian Width property of A ]], fantasai
+  * [[https://github.com/w3c/csswg-drafts/issues/1072#issuecomment-465362932| Multicol How do elements between column-span and its multicol ancestor appear around the span ]], Rachel Andrew - reopened by dbaron
+  * [[https://github.com/w3c/csswg-drafts/issues/3224| Improve column-fill and make it backward-compatible]], Rachel Andrew - examples in the final comment
 
 === Constraints ===
 
