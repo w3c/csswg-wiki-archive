@@ -17,6 +17,8 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
       * When: June 4-6 CSSWG and June 7 for Houdini
       * Where: Mozilla Toronto (room reserved for those dates)
     * TPAC at [[https://www.w3.org/wiki/TPAC/2019|Fukuoka]] 16-20 Sept
+  * 2020
+    * January? Since TPAC 2019 is so early
   * [[planning:hosting]]
 
 ===== Past Meetings =====
