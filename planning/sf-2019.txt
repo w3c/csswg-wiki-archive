@@ -149,7 +149,6 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
 
 == UI ==
   * High Contrast, Rossen + Melanie (Tues)
-  * [[https://github.com/w3c/csswg-drafts/issues/3299|Dark mode styling]], Rune Lillesveen (Mon/Tues)
 
 == 3D breakout 2-3pm ==
 
@@ -160,6 +159,7 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
   * [[https://github.com/w3c/csswg-drafts/issues/3401 | Drop navbeforescroll]]([[https://raw.githack.com/jihyerish/spatial-navigation/spatnav-behavior/demo/infinite-scroller/index.html |demo]]), Jihye (Tue)
   * Go for FPWD of spatial navigation, Jihye (Tue)
       * spatial navigation for novice: [[https://drafts.csswg.org/css-nav-1/ | spec]], [[https://wicg.github.io/spatial-navigation/demo/ | demo]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3299|Dark mode styling]], Rune Lillesveen (Mon/Tues)
 
 
 === Wednesday morning ===
