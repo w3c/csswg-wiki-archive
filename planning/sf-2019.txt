@@ -161,6 +161,9 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
       * spatial navigation for novice: [[https://drafts.csswg.org/css-nav-1/ | spec]], [[https://wicg.github.io/spatial-navigation/demo/ | demo]]
   * [[https://github.com/w3c/csswg-drafts/issues/3299|Dark mode styling]], Rune Lillesveen (Mon/Tues)
 
+== Sadness ==
+  * [[https://github.com/w3c/csswg-drafts/issues/2390|[css-text-3] Implement or unship word-break:break-word]]
+
 
 === Wednesday morning ===
 
@@ -178,7 +181,6 @@ Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven
 
 === Wednesday afternoon ===
 
-  * [[https://github.com/w3c/csswg-drafts/issues/2390|[css-text-3] Implement or unship word-break:break-word]]
   * [[https://github.com/w3c/csswg-drafts/issues/861|[css-inline] Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand?]]
   * [[https://github.com/w3c/css-houdini-drafts/issues/854|Houdini ❤️ Text]]
   * [[https://github.com/w3c/csswg-drafts/commit/a0c27afa0a50c462584511e617a20b687eb892af|text-wrap: multi-line]]
