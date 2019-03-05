@@ -1,5 +1,6 @@
 ====== communications channels ======
 ===== official =====
+  * [[https://github.com/w3c/csswg-drafts/issues|GitHub Repostitory]]. The source files to our [[http://drafts.csswg.org/|drafts]] and the repository of open spec issues currently lives here. (Historically, issues and technical discussion were all posted to www-style.)
   * [[http://lists.w3.org/Archives/Public/www-style/|www-style]]. Public discussion of our specs happens on the archived [[http://lists.w3.org/Archives/Public/www-style/|www-style]] mailing list.
     * see also the [[tools:www-style]].
   * [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]]. while discussion of our test suites happens on [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]].
