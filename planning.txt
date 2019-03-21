@@ -10,9 +10,6 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 ===== Upcoming Meetings =====
   * 2019
     * [[https://lists.w3.org/Archives/Public/www-style/2018Jul/0018.html|minutes from July 2018 discussion of 2019 schedule]], [[https://lists.w3.org/Archives/Public/www-style/2018Sep/0002.html|minutes from September 2018 discussion]]
-    * [[planning:sf-2019]]
-      * When: Monday-Wednesday, February 25-27, 2019
-      * Where: Google, 345 Spear Street, San Francisco, California, USA
     * [[planning:toronto-2019]]
       * When: June 4-6 CSSWG and June 7 for Houdini
       * Where: Mozilla Toronto (room reserved for those dates)
@@ -28,6 +25,9 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
   * [[planning:hosting]]
 
 ===== Past Meetings =====
+
+==== 2019 ====
+    * 2019-02-25..27 [[planning:sf-2019]], San Francisco, USA
 
 ==== 2018 ====
     * 2018-10-22..26 [[planning:tpac-2018|TPAC]], Lyon, France
