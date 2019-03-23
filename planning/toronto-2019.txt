@@ -23,13 +23,20 @@
 ==== Participants ====
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
-| L. David Baron | Sunday, June 2, 18:30 | Saturday, June 8, 12:55 | ? | UA608 / AC757 |
-| Dave Cramer | ? | ? | ? | ? |
-| Rachel Andrew | | | | |
-| Jen Simmons | | | | |
-| Florian Rivoal | June 3 | June 9 | Airbnb | DL0120+DL5462 / KL0692 |
+| Amelia Bellamy-Royds | | | AirBnB | |
 | Cameron McCormack | June 2, 22:35 | June 8, 10:00 | ? | AC120 / AC107 |
+| L. David Baron | Sunday, June 2, 18:30 | Saturday, June 8, 12:55 | ? | UA608 / AC757 |
+| Dave Cramer | ? | ? | AirBnB | ? |
 | Emilio Cobos Álvarez | | | | |
+| fantasai | Monday, June 3 | Sunday, June 9 | AirBnB | PD134 / AC824 |
+| Florian Rivoal | June 3 | June 9 | AirBnB | DL0120+DL5462 / KL0692 |
+| François Remy | June 3 | June 9 | AirBnB | |
+| Jen Simmons | | | AirBnB | |
+| Jihye | | | AirBnB |
+| Oriol Brufau | | | | |
+| Rachel Andrew | | | | |
+| Tab Atkins | | | AirBnB | |
+
 ==== Regrets ====
   * ...
 ==== Agenda ====
