@@ -24,7 +24,7 @@
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
 | Amelia Bellamy-Royds | | | AirBnB | |
-| Brian Birtles | June 3, 16:45 | June 8, 10:00 | ? | AA3586 / JL5807 |
+| Brian Birtles | June 3, 16:45 | June 8, 10:00 | Bisha Hotel | AA3586 / JL5807 |
 | Cameron McCormack | June 2, 22:35 | June 8, 10:00 | ? | AC120 / AC107 |
 | L. David Baron | Sunday, June 2, 18:30 | Saturday, June 8, 12:55 | ? | UA608 / AC757 |
 | Dave Cramer | ? | ? | AirBnB | ? |
