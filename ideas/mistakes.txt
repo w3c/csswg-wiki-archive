@@ -17,7 +17,7 @@ That should be corrected if anyone invents a time machine. :P
   * The top and bottom margins of a single box should never have been allowed to collapse together automatically as this is the **root of all margin-collapsing evil**.
   * Partial collapsing of margins instead of weird rules to handle min/max-heights?
   * Tables (like other non-blocks, e.g. flex containers) should form pseudo-stacking contexts.
-  * The ''currentcolor'' keyword should have a dash, ''current-color''.
+  * The ''currentcolor'' keyword should have a dash, ''current-color''. Likewise all other color multi-word keyword names.
   * There should have been a predictable color naming system instead of arbitrary X11 names.
   * ''border-radius'' should have been ''corner-radius''.
   * Absolutely-positioned replaced elements should stretch when opposite offset properties (e.g. left+right) are set, instead of being start-aligned.
