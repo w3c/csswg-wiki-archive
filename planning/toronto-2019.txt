@@ -22,30 +22,30 @@
 
 ==== Participants ====
 
-^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
-| Alan Stearns | ? | ? | ? | ? |
-| Amelia Bellamy-Royds | | | AirBnB | |
-| Brian Birtles | June 3, 16:45 | June 8, 10:00 | Bisha Hotel | AA3586 / JL5807 |
-| Cameron McCormack | June 2, 22:35 | June 8, 10:00 | ? | AC120 / AC107 |
-| Dave Cramer | ? | ? | AirBnB | ? |
-| Emilio Cobos Álvarez | | | | |
-| fantasai | Monday, June 3 | Sunday, June 9 | AirBnB | PD134 / AC824 |
-| Florian Rivoal | June 3 | June 9 | AirBnB | DL0120+DL5462 / KL0692 |
-| François Remy | June 3 | June 9 | AirBnB | |
-| Ian Kilpatrick | | | | |
-| Jen Simmons | June 3 | June 7 | AirBnB | [redacted] |
-| Jihye Hong | June 3 | June 8 | AirBnB |
-| L. David Baron | Sunday, June 2, 18:30 | Saturday, June 8, 12:55 | Airbnb | UA608 / AC757 |
-| Majid Valipour | June 5 | June 7 | ? | N/A |
-| Markus Stange | | | Local | |
-| Myles Maxfield | | | | |
-| Oriol Brufau | | | | |
-| Rachel Andrew | | | | |
-| Rob Flack | June 4 | June 7 | |
-| Stephen McGruer | June 5 | June 7 | |
-| Tab Atkins | | | AirBnB | |
-| Tantek Çelik | 2019-06-02 18:30 | 2019-06-07 19:21 | ? | UA608 / UA459 |
-| Theresa O'Connor | 2019-06-03 18:30 | 2019-06-08 19:21 | L’Hôtel Le Germain Toronto Mercer | UA608 / UA459 |
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^ Houdini (yes/no/only) ^
+| Alan Stearns | ? | ? | ? | ? | ? |
+| Amelia Bellamy-Royds | | | AirBnB | | ? |
+| Brian Birtles | June 3, 16:45 | June 8, 10:00 | Bisha Hotel | AA3586 / JL5807 | ? |
+| Cameron McCormack | June 2, 22:35 | June 8, 10:00 | ? | AC120 / AC107 | ? |
+| Dave Cramer | ? | ? | AirBnB | ? | ? |
+| Emilio Cobos Álvarez | | | | | ? |
+| fantasai | Monday, June 3 | Sunday, June 9 | AirBnB | PD134 / AC824 | ? |
+| Florian Rivoal | June 3 | June 9 | AirBnB | DL0120+DL5462 / KL0692 | ? |
+| François Remy | June 3 | June 9 | AirBnB | | ? |
+| Ian Kilpatrick | | | | | ? |
+| Jen Simmons | June 3 | June 7 | AirBnB | [redacted] | ? |
+| Jihye Hong | June 3 | June 8 | AirBnB | ? |
+| L. David Baron | Sunday, June 2, 18:30 | Saturday, June 8, 12:55 | Airbnb | UA608 / AC757 | yes |
+| Majid Valipour | June 5 | June 7 | ? | N/A | ? |
+| Markus Stange | | | Local | | ? |
+| Myles Maxfield | | | | | ? |
+| Oriol Brufau | | | | | ? |
+| Rachel Andrew | | | | | ? |
+| Rob Flack | June 4 | June 7 | | ? |
+| Stephen McGruer | June 5 | June 7 | | ? |
+| Tab Atkins | | | AirBnB | | ? |
+| Tantek Çelik | 2019-06-02 18:30 | 2019-06-07 19:21 | ? | UA608 / UA459 | ? |
+| Theresa O'Connor | 2019-06-03 18:30 | 2019-06-08 19:21 | L’Hôtel Le Germain Toronto Mercer | UA608 / UA459 | ? |
 ==== Regrets ====
   * ...
 ==== Agenda ====
