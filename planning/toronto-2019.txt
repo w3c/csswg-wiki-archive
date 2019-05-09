@@ -24,7 +24,7 @@
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^ Houdini (yes/no/only) ^
 | Alan Stearns | June 1 | June 8 | AirBnB | ? | yes |
-| Amelia Bellamy-Royds | | | AirBnB | | ? |
+| Amelia Bellamy-Royds | May 30 | June 11 | AirBnB | | yes |
 | Brian Birtles | June 3, 16:45 | June 8, 10:00 | Bisha Hotel | AA3586 / JL5807 | yes |
 | Cameron McCormack | June 2, 22:35 | June 8, 10:00 | ? | AC120 / AC107 | ? |
 | Dave Cramer | ? | ? | AirBnB | ? | ? |
