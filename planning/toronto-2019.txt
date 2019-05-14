@@ -58,6 +58,8 @@
   * Lea Verou
 ==== Agenda ====
 
+  * (selectors-4) additional resource state pseudo-classes for media elements - https://github.com/w3c/csswg-drafts/issues/3821
+  * (selectors-4) "effective media volume is mutable" pseudo-class for media elements - https://github.com/w3c/csswg-drafts/issues/3933
 ==== Schedule ====
 
 === Constraints ===
