@@ -46,7 +46,7 @@
 | Oriol Brufau | June 3 | | AirBnB | AC1915 | yes |
 | Rachel Andrew |June 1 | June 6 | Residence Inn Toronto Downtown | BA99/BA98 | No |
 | Rick Byers | June 6 | June 7 | ? | N/A | only |
-| Rob Flack | June 4 | June 7 | | | ? |
+| Rob Flack | June 4 | June 7 | | | yes |
 | Rossen Atanassov | June 3 | June 8 |  | | yes |
 | Stephen McGruer | June 5 | June 7 | | | yes |
 | Tab Atkins | | | AirBnB | | yes |
