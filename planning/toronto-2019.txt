@@ -79,6 +79,7 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * (css-fonts) Add new CSS properties math-script-level and math-style  https://github.com/w3c/csswg-drafts/issues/3746
   * [css-text] text-transform's design, intent and reality resolution https://github.com/w3c/csswg-drafts/issues/3775 (I think we mostly agree that there is currently no one answer to this that can apply absolutely, I'd just like to confirm that much so we can talk about 3745 without blocking?)
   * (css-text) Add new CSS text-transform values for math https://github.com/w3c/csswg-drafts/issues/3745
+  * [css-color-adjust-1][mediaqueries-5] Clearly define what 'light' and 'dark' mean - https://github.com/w3c/csswg-drafts/issues/3983
 
 ==== Schedule ====
 
