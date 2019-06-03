@@ -79,7 +79,21 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * (css-fonts) Add new CSS properties math-script-level and math-style  https://github.com/w3c/csswg-drafts/issues/3746
   * [css-text] text-transform's design, intent and reality resolution https://github.com/w3c/csswg-drafts/issues/3775 (I think we mostly agree that there is currently no one answer to this that can apply absolutely, I'd just like to confirm that much so we can talk about 3745 without blocking?)
   * (css-text) Add new CSS text-transform values for math https://github.com/w3c/csswg-drafts/issues/3745
-  * [css-color-adjust-1][mediaqueries-5] Clearly define what 'light' and 'dark' mean - https://github.com/w3c/csswg-drafts/issues/3983
+  * [css-color-adjust-1][mediaqueries-5] Clearly define what 'light' and 'dark' mean - https://github.com/w3c/csswg-drafts/issues/3983 (amelia)
+  * [css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis? - https://github.com/w3c/csswg-drafts/issues/3973 (fantasai)
+  * [css-nav-1] Predefined algorithm for spatial navigation - https://github.com/w3c/csswg-drafts/issues/3964 (jihye)
+  * [selectors-4] Password reveal pseudo-element and pseudo-class - https://github.com/w3c/csswg-drafts/issues/3934 (fantasai)
+  * [css-text] Clarify whether soft breaks exist at boundaries of an inline element with `word-break:break-all` - https://github.com/w3c/csswg-drafts/issues/3897 (florian)
+  * [css-color-adjust-1] Combine forced-color-adjust and color-adjust properties somehow? - https://github.com/w3c/csswg-drafts/issues/3880 (fantasai)
+  * [mediaqueries-5] UA guidance on light vs no-preference - https://github.com/w3c/csswg-drafts/issues/3857 (fantasai)
+  * [css-color-adjust-1] possible future <custom-ident> value 'sepia' - https://github.com/w3c/csswg-drafts/issues/3853 (rossen)
+  * [css-inline] A question for the procedure to compute the resolved value of "line-height" - https://github.com/w3c/csswg-drafts/issues/3749 (fantasai)
+  * [css-multicol] Should we refer to definition of `column-gap` in Box Alignment? - https://github.com/w3c/csswg-drafts/issues/3641 (rachel)
+  * [css-text][css-sizing] When to/not to include preserved trailing spaces - https://github.com/w3c/csswg-drafts/issues/3440 (florian)
+  * [css-display][css-ui] Should outline apply to elements with 'display: contents'? - https://github.com/w3c/csswg-drafts/issues/3323 (fantasai)
+  * [css-writing-modes] Does vertical writing mode of an HTML body element cause an orthogonal flow? - https://github.com/w3c/csswg-drafts/issues/3066 (fantasai)
+  * [mediaqueries-5] New interaction media-feature: navigation - https://github.com/w3c/csswg-drafts/pull/2494 (florian)
+  * [css-lists] counter scopes should be based on box tree, not element tree - https://github.com/w3c/csswg-drafts/issues/674 (fantasai)
 
 ==== Schedule ====
 
