@@ -25,7 +25,7 @@
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^ Houdini (yes/no/only) ^
 | Alan Stearns | June 1 | June 8 | AirBnB | ? | yes |
 | Amelia Bellamy-Royds | May 30 | June 11 | AirBnB | | yes |
-| Brian Kardell | | | | Maybe | Maybe |
+| Brian Kardell | ? | ? | ? | driving | ? |
 | Cameron McCormack | June 2, 22:35 | June 8, 10:00 | ? | AC120 / AC107 | ? |
 | Chris Lilley | Monday, June 3, 17:44 | Thursday, June 6, 17:55 | ? | PD944 / PD949 | no |
 | Dave Cramer | June 3 | June 7 | AirBnB | drive | no |
