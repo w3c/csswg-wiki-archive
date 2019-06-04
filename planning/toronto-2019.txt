@@ -76,16 +76,6 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * (css-fonts) Clarify how the computed font-size is determined for size keyword #3906 [[https://github.com/w3c/csswg-drafts/issues/3906|3906]]
   * (css-fonts) Add new CSS properties math-script-level and math-style  [[https://github.com/w3c/csswg-drafts/issues/3746|3746]]
 
-** Text **
-
-  * [css-text] text-transform's design, intent and reality resolution [[https://github.com/w3c/csswg-drafts/issues/3775|3775]] (I think we mostly agree that there is currently no one answer to this that can apply absolutely, I'd just like to confirm that much so we can talk about 3745 without blocking?)
-  * (css-text) Add new CSS text-transform values for math [[https://github.com/w3c/csswg-drafts/issues/3745|3745]]
-  * [css-text] Clarify whether soft breaks exist at boundaries of an inline element with `word-break:break-all` - [[https://github.com/w3c/csswg-drafts/issues/3897|3897]] (florian)
-  * [css-text][css-sizing] When to/not to include preserved trailing spaces - [[https://github.com/w3c/csswg-drafts/issues/3440|3440]] (florian)
-  * [css-inline] A question for the procedure to compute the resolved value of "line-height" - [[https://github.com/w3c/csswg-drafts/issues/3749|3749]] (fantasai)
-  * [[https://specs.rivoal.net/css-space-expansion/|space expansion]] (i18n/a11y) (florian)
-
-
 ** Color Adjust **
 
   * [css-color-adjust-1][mediaqueries-5] Clearly define what 'light' and 'dark' mean - [[https://github.com/w3c/csswg-drafts/issues/3983|3983]] (amelia)
@@ -130,6 +120,15 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 === Wednesday ===
 
 ** Morning **
+
+** Text **
+
+  * [css-text] text-transform's design, intent and reality resolution [[https://github.com/w3c/csswg-drafts/issues/3775|3775]] (I think we mostly agree that there is currently no one answer to this that can apply absolutely, I'd just like to confirm that much so we can talk about 3745 without blocking?)
+  * (css-text) Add new CSS text-transform values for math [[https://github.com/w3c/csswg-drafts/issues/3745|3745]]
+  * [css-text] Clarify whether soft breaks exist at boundaries of an inline element with `word-break:break-all` - [[https://github.com/w3c/csswg-drafts/issues/3897|3897]] (florian)
+  * [css-text][css-sizing] When to/not to include preserved trailing spaces - [[https://github.com/w3c/csswg-drafts/issues/3440|3440]] (florian)
+  * [css-inline] A question for the procedure to compute the resolved value of "line-height" - [[https://github.com/w3c/csswg-drafts/issues/3749|3749]] (fantasai)
+  * [[https://specs.rivoal.net/css-space-expansion/|space expansion]] (i18n/a11y) (florian)
 
 ** Afternoon **
 
