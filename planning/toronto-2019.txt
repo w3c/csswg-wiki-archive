@@ -136,8 +136,8 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 
 ** Color Modification **
 
-* Una's Proposal: https://gist.github.com/una/edcfa0d3600e0b89b2ebf266bf549721 (una)
-* Lea's Proposal: https://github.com/w3c/csswg-drafts/issues/3187 (leaverou)
+  * Una's Proposal: https://gist.github.com/una/edcfa0d3600e0b89b2ebf266bf549721 (una)
+  * Lea's Proposal: https://github.com/w3c/csswg-drafts/issues/3187 (leaverou)
 
 === Thursday ===
 
