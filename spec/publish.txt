@@ -3,8 +3,10 @@
 Note! There have been changes to the module template since it was written! Check the [[http://wiki.csswg.org/spec/format-update|meta-update list]].
 
   - **Summarize Changes -** Make a Changes section summarizing the major changes since the last publication. ("Major" is relative---for a CR, it's any non-editorial change, but for an early-stage WD it would be sections that got an overhaul, major syntactic changes, or major behavioral changes, not every minor detail that got fixed.) This will help reviewers focus their review.
+    - If there have been only [[https://www.w3.org/2019/Process-20190301/#correction-classes|editorial]] changes, make such a statement and link to a [[https://services.w3.org/htmldiff|diff]] of those changes so reviewers can verify this. E.g. ''There have been only __editorial__ changes since the __previous Working Draft__; see __diffs__.''
   - **CSSWG Resolution -** Get an official CSSWG Resolution to publish. Make any changes requested.
-    - **For LCWD**, establish with the WG a deadline (3 weeks minimum, 4 is typical) and a list of other WGs to ask for comments. Let a chair or staff contact inform those WGs, and all other WGs (via chairs@w3.org) of the upcoming last call and give them a few days to ask for a different deadline.
+    - **For WD** if there are only non-controversial [[https://www.w3.org/2019/Process-20190301/#correction-classes|editorial]] changes and/or substantive changes whose exact wording was approved by the WG, there is no requirement to get an explicit WG resolution. The decision URL is this wiki page, and you can publish using Echidna.
+    - **For LCWD** (last Working Draft before a CR transition request), establish with the WG a deadline (3 weeks minimum, 4 is typical) and a list of other WGs to ask for comments. Let a chair or staff contact inform those WGs, and all other WGs (via chairs@w3.org) of the upcoming last call and give them a few days to ask for a different deadline.
   - **Prepare Draft -**
     - Update the Previous Version link at the top to the latest dated URL on /TR (Omit or write "none" if there is none)
     - [[http://validator.w3.org/|Validate]] Overview.html
