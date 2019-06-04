@@ -98,6 +98,7 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [css-color-adjust-1][mediaqueries-5] Clearly define what 'light' and 'dark' mean - [[https://github.com/w3c/csswg-drafts/issues/3983|3983]] (amelia)
   * [css-color-adjust-1] Combine forced-color-adjust and color-adjust properties somehow? - [[https://github.com/w3c/csswg-drafts/issues/3880|3880]] (fantasai)
   * [css-color-adjust-1] possible future <custom-ident> value 'sepia' - [[https://github.com/w3c/csswg-drafts/issues/3853|3853]] (rossen)
+  * What else has Apple done for this feature that isn't currently in the spec? (Such as "auto" value?) What should be added?
 
 ** Spatial Nav **
 
