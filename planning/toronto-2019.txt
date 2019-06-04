@@ -70,13 +70,6 @@
 
 See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22
 
-** Selectors**
-
-  * (selectors-4) additional resource state pseudo-classes for media elements - [[https://github.com/w3c/csswg-drafts/issues/3821|3821]]
-  * (selectors-4) "effective media volume is mutable" pseudo-class for media elements - [[https://github.com/w3c/csswg-drafts/issues/3933|3933]]
-  * There's no issue for this, but it is a [[https://gist.github.com/bkardell/dbf5812c5a29fbb2f7ddf7575013cc14|topic about the has/withins described in this gist]] that I would like to discuss at the f2f if possible (brian)
-  * [selectors-4] Password reveal pseudo-element and pseudo-class - [[https://github.com/w3c/csswg-drafts/issues/3934|3934]] (fantasai)
-
 ** Fonts **
 
   * (css-fonts) consider not making font-min-size and font-max-size affect font-size computed value [[https://github.com/w3c/csswg-drafts/issues/3739|3739]]
