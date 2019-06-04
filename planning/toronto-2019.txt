@@ -86,7 +86,6 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 ** Spatial Nav **
 
   * [css-nav-1] Predefined algorithm for spatial navigation - [[https://github.com/w3c/csswg-drafts/issues/3964|3964]] (jihye)
-  * [mediaqueries-5] New interaction media-feature: navigation - https://github.com/w3c/csswg-drafts/pull/2494 (florian)
 
 ** Misc business **
 
