@@ -90,6 +90,8 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [css-text] Clarify whether soft breaks exist at boundaries of an inline element with `word-break:break-all` - [[https://github.com/w3c/csswg-drafts/issues/3897|3897]] (florian)
   * [css-text][css-sizing] When to/not to include preserved trailing spaces - [[https://github.com/w3c/csswg-drafts/issues/3440|3440]] (florian)
   * [css-inline] A question for the procedure to compute the resolved value of "line-height" - [[https://github.com/w3c/csswg-drafts/issues/3749|3749]] (fantasai)
+  * [[https://specs.rivoal.net/css-space-expansion/|space expansion]] (i18n/a11y) (florian)
+
 
 ** Color Adjust **
 
@@ -115,7 +117,6 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [css-writing-modes] Does vertical writing mode of an HTML body element cause an orthogonal flow? - [[https://github.com/w3c/csswg-drafts/issues/3066|3066]] (fantasai)
   * [css-lists] counter scopes should be based on box tree, not element tree - [[https://github.com/w3c/csswg-drafts/issues/674|674]](fantasai)
   * [filter-effects-2] backdrop-filter disagreement (dbaron, others)
-  * [[https://specs.rivoal.net/css-space-expansion/|space expansion]] (i18n/a11y) (florian)
 
 ==== Schedule ====
 
