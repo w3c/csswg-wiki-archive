@@ -110,6 +110,7 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * Publish Early, Publish Often - automatic approval for pushing editorial changes and WG-reviewed edits to /TR
   * (css-tables-3) Asking for republication. Only covers editorial changes made as a follow-up of questions by chromium engineers working on tables, as of May 21.
   * [css-multicol] Should we refer to definition of `column-gap` in Box Alignment? - [[https://github.com/w3c/csswg-drafts/issues/3641|3641]] (rachel)
+  * [css-multicol] column-gap <length-percentage> remove at-risk marker - [[https://github.com/w3c/csswg-drafts/issues/3988|3988]] (rachel)
   * Upcoming meeting discussion
 
   * [css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis? - [[https://github.com/w3c/csswg-drafts/issues/3973|3973]] (fantasai)
