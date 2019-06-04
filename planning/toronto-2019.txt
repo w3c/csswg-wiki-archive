@@ -138,6 +138,9 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 ** Spatial Nav **
 
   * [css-nav-1] Predefined algorithm for spatial navigation - [[https://github.com/w3c/csswg-drafts/issues/3964|3964]] (jihye)
+  * Introducing spatial navigation with "interest"
+     * docs: https://docs.google.com/document/d/1-ASYIuPpBm2cFxy_KUagakLGPc1mdF--rC9-EliqYRU
+     * https://github.com/bokand/bokand.github.io/blob/master/spatnav/spat-nav-on-the-web.md
 
 ** filter effects **
 
