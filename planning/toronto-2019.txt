@@ -104,11 +104,9 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 ** Misc **
 
   * [css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis? - [[https://github.com/w3c/csswg-drafts/issues/3973|3973]] (fantasai)
-  * [mediaqueries-5] UA guidance on light vs no-preference - [[https://github.com/w3c/csswg-drafts/issues/3857|3857]] (fantasai)
   * [css-display][css-ui] Should outline apply to elements with 'display: contents'? - [[https://github.com/w3c/csswg-drafts/issues/3323|3323]] (fantasai)
   * [css-writing-modes] Does vertical writing mode of an HTML body element cause an orthogonal flow? - [[https://github.com/w3c/csswg-drafts/issues/3066|3066]] (fantasai)
   * [css-lists] counter scopes should be based on box tree, not element tree - [[https://github.com/w3c/csswg-drafts/issues/674|674]](fantasai)
-  * [filter-effects-2] backdrop-filter disagreement (dbaron, others)
 
 === Wednesday ===
 
@@ -131,6 +129,7 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [css-color-adjust-1] Combine forced-color-adjust and color-adjust properties somehow? - [[https://github.com/w3c/csswg-drafts/issues/3880|3880]] (fantasai)
   * [css-color-adjust-1] possible future <custom-ident> value 'sepia' - [[https://github.com/w3c/csswg-drafts/issues/3853|3853]] (rossen)
   * What else has Apple done for this feature that isn't currently in the spec? (Such as "auto" value?) What should be added?
+  * [mediaqueries-5] UA guidance on light vs no-preference - [[https://github.com/w3c/csswg-drafts/issues/3857|3857]] (fantasai)
 
 === Thursday ===
 
@@ -139,6 +138,10 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 ** Spatial Nav **
 
   * [css-nav-1] Predefined algorithm for spatial navigation - [[https://github.com/w3c/csswg-drafts/issues/3964|3964]] (jihye)
+
+** filter effects **
+
+  * [filter-effects-2] backdrop-filter disagreement (dbaron, others)
 
 == Afternoon ==
 
