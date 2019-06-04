@@ -115,7 +115,7 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [css-writing-modes] Does vertical writing mode of an HTML body element cause an orthogonal flow? - [[https://github.com/w3c/csswg-drafts/issues/3066|3066]] (fantasai)
   * [css-lists] counter scopes should be based on box tree, not element tree - [[https://github.com/w3c/csswg-drafts/issues/674|674]](fantasai)
   * [filter-effects-2] backdrop-filter disagreement (dbaron, others)
-  * [[https://specs.rivoal.net/css-space-expansion/|space expansion]] (i18n/a117) (florian)
+  * [[https://specs.rivoal.net/css-space-expansion/|space expansion]] (i18n/a11y) (florian)
 
 ==== Schedule ====
 
