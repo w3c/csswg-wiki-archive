@@ -70,30 +70,15 @@
 
 See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22
 
-** Fonts **
-
-  * (css-fonts) consider not making font-min-size and font-max-size affect font-size computed value [[https://github.com/w3c/csswg-drafts/issues/3739|3739]]
-  * (css-fonts) Clarify how the computed font-size is determined for size keyword #3906 [[https://github.com/w3c/csswg-drafts/issues/3906|3906]]
-  * (css-fonts) Add new CSS properties math-script-level and math-style  [[https://github.com/w3c/csswg-drafts/issues/3746|3746]]
-
-** Color Adjust **
-
-  * [css-color-adjust-1][mediaqueries-5] Clearly define what 'light' and 'dark' mean - [[https://github.com/w3c/csswg-drafts/issues/3983|3983]] (amelia)
-  * [css-color-adjust-1] Combine forced-color-adjust and color-adjust properties somehow? - [[https://github.com/w3c/csswg-drafts/issues/3880|3880]] (fantasai)
-  * [css-color-adjust-1] possible future <custom-ident> value 'sepia' - [[https://github.com/w3c/csswg-drafts/issues/3853|3853]] (rossen)
-  * What else has Apple done for this feature that isn't currently in the spec? (Such as "auto" value?) What should be added?
-
 ** Spatial Nav **
 
   * [css-nav-1] Predefined algorithm for spatial navigation - [[https://github.com/w3c/csswg-drafts/issues/3964|3964]] (jihye)
 
-** Misc business **
+** Misc **
 
-  * Publish Early, Publish Often - automatic approval for pushing editorial changes and WG-reviewed edits to /TR
   * (css-tables-3) Asking for republication. Only covers editorial changes made as a follow-up of questions by chromium engineers working on tables, as of May 21.
   * [css-multicol] Should we refer to definition of `column-gap` in Box Alignment? - [[https://github.com/w3c/csswg-drafts/issues/3641|3641]] (rachel)
   * [css-multicol] column-gap <length-percentage> remove at-risk marker - [[https://github.com/w3c/csswg-drafts/issues/3988|3988]] (rachel)
-  * Upcoming meeting discussion
 
   * [css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis? - [[https://github.com/w3c/csswg-drafts/issues/3973|3973]] (fantasai)
   * [mediaqueries-5] UA guidance on light vs no-preference - [[https://github.com/w3c/csswg-drafts/issues/3857|3857]] (fantasai)
@@ -114,7 +99,17 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * There's no issue for this, but it is a [[https://gist.github.com/bkardell/dbf5812c5a29fbb2f7ddf7575013cc14|topic about the has/withins described in this gist]] that I would like to discuss at the f2f if possible (brian)
   * [selectors-4] Password reveal pseudo-element and pseudo-class - [[https://github.com/w3c/csswg-drafts/issues/3934|3934]] (fantasai)
 
+  * Publish Early, Publish Often - automatic approval for pushing editorial changes and WG-reviewed edits to /TR
+  * Upcoming meeting discussion
+
+
 == Afternoon ==
+
+** Fonts **
+
+  * (css-fonts) consider not making font-min-size and font-max-size affect font-size computed value [[https://github.com/w3c/csswg-drafts/issues/3739|3739]]
+  * (css-fonts) Clarify how the computed font-size is determined for size keyword #3906 [[https://github.com/w3c/csswg-drafts/issues/3906|3906]]
+  * (css-fonts) Add new CSS properties math-script-level and math-style  [[https://github.com/w3c/csswg-drafts/issues/3746|3746]]
 
 === Wednesday ===
 
@@ -130,6 +125,13 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [[https://specs.rivoal.net/css-space-expansion/|space expansion]] (i18n/a11y) (florian)
 
 == Afternoon ==
+
+** Color Adjust **
+
+  * [css-color-adjust-1][mediaqueries-5] Clearly define what 'light' and 'dark' mean - [[https://github.com/w3c/csswg-drafts/issues/3983|3983]] (amelia)
+  * [css-color-adjust-1] Combine forced-color-adjust and color-adjust properties somehow? - [[https://github.com/w3c/csswg-drafts/issues/3880|3880]] (fantasai)
+  * [css-color-adjust-1] possible future <custom-ident> value 'sepia' - [[https://github.com/w3c/csswg-drafts/issues/3853|3853]] (rossen)
+  * What else has Apple done for this feature that isn't currently in the spec? (Such as "auto" value?) What should be added?
 
 === Thursday ===
 
