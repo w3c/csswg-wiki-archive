@@ -89,7 +89,6 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 
   * Upcoming meeting discussion
 
-
 == Afternoon ==
 
   * Publish Early, Publish Often - automatic approval for pushing editorial changes and WG-reviewed edits to /TR
@@ -134,6 +133,11 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 
 == Afternoon ==
 
+** Color Modification **
+
+  * Una's Proposal: https://gist.github.com/una/edcfa0d3600e0b89b2ebf266bf549721 (una)
+  * Lea's Proposal: https://github.com/w3c/csswg-drafts/issues/3187 (leaverou)
+
 ** Color Adjust **
 
   * [css-color-adjust-1][mediaqueries-5] Clearly define what 'light' and 'dark' mean - [[https://github.com/w3c/csswg-drafts/issues/3983|3983]] (amelia)
@@ -141,11 +145,6 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [css-color-adjust-1] possible future <custom-ident> value 'sepia' - [[https://github.com/w3c/csswg-drafts/issues/3853|3853]] (rossen)
   * What else has Apple done for this feature that isn't currently in the spec? (Such as "auto" value?) What should be added?
   * [mediaqueries-5] UA guidance on light vs no-preference - [[https://github.com/w3c/csswg-drafts/issues/3857|3857]] (fantasai)
-
-** Color Modification **
-
-  * Una's Proposal: https://gist.github.com/una/edcfa0d3600e0b89b2ebf266bf549721 (una)
-  * Lea's Proposal: https://github.com/w3c/csswg-drafts/issues/3187 (leaverou)
 
 === Thursday ===
 
@@ -163,5 +162,16 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [filter-effects-2] backdrop-filter disagreement (dbaron, others)
 
 == Afternoon ==
+
+** FXTF **
+
+  * [[https://github.com/w3c/fxtf-drafts/issues/307|can SVG container elements establish containing block for absolute/fixed positioned elements?]]
+  * [[https://github.com/w3c/fxtf-drafts/issues/245|Disabling masks and clipPaths when display is none #245]]
+  * [[https://github.com/w3c/fxtf-drafts/issues/249|clarify userSpaceOnUse / objectBoundingBox applied to non-SVG elements #249]]
+
+** Misc **
+  * [[https://github.com/w3c/csswg-drafts/issues/3708|[css-fonts-5] Dynamic text size #3708]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3837|[css-animation] Motion Blur #3837]]
+  * [[https://github.com/w3c/csswg-drafts/issues/229|[css-easing-2] Complex easing/timing functions #229]]
 
 === Constraints ===
