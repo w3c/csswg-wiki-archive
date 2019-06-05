@@ -71,6 +71,7 @@
 See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22
 
 * [css-sizing-4] Does aspect-ratio work on the content box or the border box? https://github.com/w3c/csswg-drafts/issues/4007
+
 * [media-queries][css-sizing] Support <number> (and therefore calc) as a <ratio> https://github.com/w3c/csswg-drafts/issues/3757
 ==== Schedule ====
 
