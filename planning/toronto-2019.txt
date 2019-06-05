@@ -137,7 +137,7 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 
 ** Backgrounds & Borders 4 **
 
-  * corner-shape use cases (una, leaverou)
+  * corner-shape use cases [[https://github.com/w3c/csswg-drafts/issues/3457|3457]] (una, leaverou)
 
 ** Color Adjust **
 
