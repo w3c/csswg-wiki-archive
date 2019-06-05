@@ -118,6 +118,9 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [css-text][css-sizing] When to/not to include preserved trailing spaces - [[https://github.com/w3c/csswg-drafts/issues/3440|3440]] (florian)
   * [css-inline] A question for the procedure to compute the resolved value of "line-height" - [[https://github.com/w3c/csswg-drafts/issues/3749|3749]] (fantasai)
   * [[https://specs.rivoal.net/css-space-expansion/|space expansion]] (i18n/a11y) (florian)
+  * [[https://github.com/w3c/csswg-drafts/issues/3927|hyphens:auto not hyphenating Capitalized words]] (florian)
+  * [[https://github.com/w3c/csswg-drafts/issues/3566|Connected scripts behaving like cursive scripts]] (florian)
+  * [[https://github.com/w3c/csswg-drafts/issues/3481|Remove collapsible line breaks adjacent to word separators]] (florian)
 
 ** Misc **
 
