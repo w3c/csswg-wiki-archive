@@ -4,6 +4,8 @@ This is the CSS Working Group's planning space. See also [[planning:hosting]].
 
 ===== Weekly Telecons =====
 
+[[https://lists.w3.org/Archives/Member/w3c-css-wg/2017OctDec/0076.html|teleconference details and times for weekly teleconferences]]
+
 [[planning:agenda|Agenda Scratchspace]]
 
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
