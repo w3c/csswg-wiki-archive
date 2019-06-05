@@ -138,6 +138,10 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * Una's Proposal: https://gist.github.com/una/edcfa0d3600e0b89b2ebf266bf549721 (una)
   * Lea's Proposal: https://github.com/w3c/csswg-drafts/issues/3187 (leaverou)
 
+** Backgrounds & Borders 4 **
+
+  * corner-shape use cases (una, leaverou)
+
 ** Color Adjust **
 
   * [css-color-adjust-1][mediaqueries-5] Clearly define what 'light' and 'dark' mean - [[https://github.com/w3c/csswg-drafts/issues/3983|3983]] (amelia)
