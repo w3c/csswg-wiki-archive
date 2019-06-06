@@ -152,23 +152,21 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [css-sizing-4] Does aspect-ratio work on the content box or the border box? https://github.com/w3c/csswg-drafts/issues/4007
   * [[https://github.com/w3c/csswg-drafts/issues/3705|[css-grid] Automatic minimum sizes should never force grid items to become bigger than the tracks they span ]]
 
-** Spatial Nav **
-
-  * [css-nav-1] Predefined algorithm for spatial navigation - [[https://github.com/w3c/csswg-drafts/issues/3964|3964]] (jihye)
-  * Introducing spatial navigation with "interest"
-     * docs: https://docs.google.com/document/d/1-ASYIuPpBm2cFxy_KUagakLGPc1mdF--rC9-EliqYRU
-     * https://github.com/bokand/bokand.github.io/blob/master/spatnav/spat-nav-on-the-web.md
-
 ** filter effects **
 
   * [filter-effects-2] backdrop-filter disagreement (dbaron, others)
-
 
 ** Scrolling** 
   * [css-om-view] [[https://github.com/w3c/csswg-drafts/issues/4011 | Overscroll observability]]
   * [wicg:scroll-animations] [[https://github.com/WICG/scroll-animations/issues/49 | CSS Syntax design considerations and alternatives]]
   * [wicg:scroll-animations] [[https://github.com/WICG/scroll-animations/issues/48 | Mixing scroll & time-based delay & durations (scroll-triggered animations)]]
 
+** Spatial Nav **
+
+  * [css-nav-1] Predefined algorithm for spatial navigation - [[https://github.com/w3c/csswg-drafts/issues/3964|3964]] (jihye)
+  * Introducing spatial navigation with "interest"
+     * docs: https://docs.google.com/document/d/1-ASYIuPpBm2cFxy_KUagakLGPc1mdF--rC9-EliqYRU
+     * https://github.com/bokand/bokand.github.io/blob/master/spatnav/spat-nav-on-the-web.md
 
 == Afternoon ==
 
