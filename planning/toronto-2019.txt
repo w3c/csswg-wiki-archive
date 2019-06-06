@@ -156,11 +156,6 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 
   * [filter-effects-2] backdrop-filter disagreement (dbaron, others)
 
-** Scrolling** 
-  * [css-om-view] [[https://github.com/w3c/csswg-drafts/issues/4011 | Overscroll observability]]
-  * [wicg:scroll-animations] [[https://github.com/WICG/scroll-animations/issues/49 | CSS Syntax design considerations and alternatives]]
-  * [wicg:scroll-animations] [[https://github.com/WICG/scroll-animations/issues/48 | Mixing scroll & time-based delay & durations (scroll-triggered animations)]]
-
 ** Spatial Nav **
 
   * [css-nav-1] Predefined algorithm for spatial navigation - [[https://github.com/w3c/csswg-drafts/issues/3964|3964]] (jihye)
@@ -170,12 +165,9 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 
 == Afternoon ==
 
-** Misc **
+** Fonts **
+
   * [[https://github.com/w3c/csswg-drafts/issues/3708|[css-fonts-5] Dynamic text size #3708]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3837|[css-animation] Motion Blur #3837]]
-  * [[https://github.com/w3c/csswg-drafts/issues/229|[css-easing-2] Complex easing/timing functions #229]]
-  * [media-queries][css-sizing] Support <number> (and therefore calc) as a <ratio> https://github.com/w3c/csswg-drafts/issues/3757
-  * [mediaqueries][css-conditional] else https://github.com/w3c/csswg-drafts/issues/112
 
 ** FXTF **
 
@@ -183,4 +175,17 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [[https://github.com/w3c/fxtf-drafts/issues/245|Disabling masks and clipPaths when display is none #245]]
   * [[https://github.com/w3c/fxtf-drafts/issues/249|clarify userSpaceOnUse / objectBoundingBox applied to non-SVG elements #249]]
 
+** Scrolling/Animation ** 
+  * [css-om-view] [[https://github.com/w3c/csswg-drafts/issues/4011 | Overscroll observability]]
+  * [wicg:scroll-animations] [[https://github.com/WICG/scroll-animations/issues/49 | CSS Syntax design considerations and alternatives]]
+  * [wicg:scroll-animations] [[https://github.com/WICG/scroll-animations/issues/48 | Mixing scroll & time-based delay & durations (scroll-triggered animations)]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3837|[css-animation] Motion Blur #3837]]
+  * [[https://github.com/w3c/csswg-drafts/issues/229|[css-easing-2] Complex easing/timing functions #229]]
+
+** Misc **
+  * [media-queries][css-sizing] Support <number> (and therefore calc) as a <ratio> https://github.com/w3c/csswg-drafts/issues/3757
+  * [mediaqueries][css-conditional] else https://github.com/w3c/csswg-drafts/issues/112
+
 === Constraints ===
+
+Chris/Lea leaving early on Thurs
