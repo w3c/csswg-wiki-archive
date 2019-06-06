@@ -166,7 +166,7 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 ** Scrolling** 
   * [css-om-view] [[https://github.com/w3c/csswg-drafts/issues/4011 | Overscroll observability]]
   * [wicg:scroll-animations] [[https://github.com/WICG/scroll-animations/issues/49 | CSS Syntax design considerations and alternatives]]
-  * [wicg:scroll-animations] [[https://github.com/WICG/scroll-animations/issues/49 | Mixing scroll & time-based delay & durations (scroll-triggered animations)]]
+  * [wicg:scroll-animations] [[https://github.com/WICG/scroll-animations/issues/48 | Mixing scroll & time-based delay & durations (scroll-triggered animations)]]
 
 
 == Afternoon ==
