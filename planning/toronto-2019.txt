@@ -70,11 +70,7 @@
 
 See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22
 
-* [media-queries][css-sizing] Support <number> (and therefore calc) as a <ratio> https://github.com/w3c/csswg-drafts/issues/3757
 
-* [mediaqueries][css-conditional] else https://github.com/w3c/csswg-drafts/issues/112
-
-* [[https://github.com/w3c/csswg-drafts/issues/3705|[css-grid] Automatic minimum sizes should never force grid items to become bigger than the tracks they span ]]
 ==== Schedule ====
 
 === Tuesday ===
@@ -175,15 +171,18 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 
 == Afternoon ==
 
+** Misc **
+  * [[https://github.com/w3c/csswg-drafts/issues/3708|[css-fonts-5] Dynamic text size #3708]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3837|[css-animation] Motion Blur #3837]]
+  * [[https://github.com/w3c/csswg-drafts/issues/229|[css-easing-2] Complex easing/timing functions #229]]
+  * [media-queries][css-sizing] Support <number> (and therefore calc) as a <ratio> https://github.com/w3c/csswg-drafts/issues/3757
+  * [mediaqueries][css-conditional] else https://github.com/w3c/csswg-drafts/issues/112
+  * [[https://github.com/w3c/csswg-drafts/issues/3705|[css-grid] Automatic minimum sizes should never force grid items to become bigger than the tracks they span ]]
+
 ** FXTF **
 
   * [[https://github.com/w3c/fxtf-drafts/issues/307|can SVG container elements establish containing block for absolute/fixed positioned elements?]]
   * [[https://github.com/w3c/fxtf-drafts/issues/245|Disabling masks and clipPaths when display is none #245]]
   * [[https://github.com/w3c/fxtf-drafts/issues/249|clarify userSpaceOnUse / objectBoundingBox applied to non-SVG elements #249]]
-
-** Misc **
-  * [[https://github.com/w3c/csswg-drafts/issues/3708|[css-fonts-5] Dynamic text size #3708]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3837|[css-animation] Motion Blur #3837]]
-  * [[https://github.com/w3c/csswg-drafts/issues/229|[css-easing-2] Complex easing/timing functions #229]]
 
 === Constraints ===
