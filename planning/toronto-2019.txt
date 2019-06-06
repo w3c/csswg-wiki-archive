@@ -149,7 +149,8 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
 
 ** Misc **
 
-* [css-sizing-4] Does aspect-ratio work on the content box or the border box? https://github.com/w3c/csswg-drafts/issues/4007
+  * [css-sizing-4] Does aspect-ratio work on the content box or the border box? https://github.com/w3c/csswg-drafts/issues/4007
+  * [[https://github.com/w3c/csswg-drafts/issues/3705|[css-grid] Automatic minimum sizes should never force grid items to become bigger than the tracks they span ]]
 
 ** Spatial Nav **
 
@@ -177,7 +178,6 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [[https://github.com/w3c/csswg-drafts/issues/229|[css-easing-2] Complex easing/timing functions #229]]
   * [media-queries][css-sizing] Support <number> (and therefore calc) as a <ratio> https://github.com/w3c/csswg-drafts/issues/3757
   * [mediaqueries][css-conditional] else https://github.com/w3c/csswg-drafts/issues/112
-  * [[https://github.com/w3c/csswg-drafts/issues/3705|[css-grid] Automatic minimum sizes should never force grid items to become bigger than the tracks they span ]]
 
 ** FXTF **
 
