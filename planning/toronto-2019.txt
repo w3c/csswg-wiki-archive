@@ -184,10 +184,11 @@ See also https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agend
   * [mediaqueries][css-conditional] else https://github.com/w3c/csswg-drafts/issues/112
 
 ** Scrolling/Animation ** 
+  * [[https://github.com/w3c/csswg-drafts/issues/229|[css-easing-2] Complex easing/timing functions #229]]
   * [wicg:scroll-animations] [[https://github.com/WICG/scroll-animations/issues/49 | CSS Syntax design considerations and alternatives]]
   * [wicg:scroll-animations] [[https://github.com/WICG/scroll-animations/issues/48 | Mixing scroll & time-based delay & durations (scroll-triggered animations)]]
   * [[https://github.com/w3c/csswg-drafts/issues/3837|[css-animation] Motion Blur #3837]]
-  * [[https://github.com/w3c/csswg-drafts/issues/229|[css-easing-2] Complex easing/timing functions #229]]
+
 
 === Constraints ===
 
