@@ -1,4 +1,6 @@
-====== Step-by-step Publishing a CSS Spec - START HERE ======
+====== Step-by-step Publishing a CSS Spec ======
+
+<note important>START HERE</note>
 
 Note! There have been changes to the module template since it was written! Check the [[http://wiki.csswg.org/spec/format-update|meta-update list]].
 
