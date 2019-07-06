@@ -8,5 +8,9 @@ See [[https://www.w3.org/TR/CSS2/intro.html#design-principles|CSS2 Design Princi
   : If it can be unambiguously reordered, it should be reorderable.
   ; Pass-through Auto-sizing Principle
   : `auto` as a size generally passes down any min/max-content constraints, and passes up through it the min/max-content contribution
+  ; Resolved Values Round-Trip Principle
+  : If you write the result of ''getComputedStyle()'' back into the property, the resulting rendering of that element (inheritance aside) should remain stable.
+  ; DBaron's Degrees of Freedom Caveat
+  : When the platform has too many degrees of freedom in it, developers aren't able to test what they're doing well enough. [This results in buggy web pages, particularly on minority systems, and is therefore bad.]
   ; Roc Principle of Spec-writing
   : If Robert O'Callahan is unhappy with your spec, you're the one who's wrong.
