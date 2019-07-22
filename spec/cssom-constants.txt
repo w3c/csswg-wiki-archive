@@ -22,6 +22,7 @@ This page lists all standardized CSSOM constants in CSS to avoid the creation of
 | 15 | VIEWPORT_RULE | css-device-adapt |
 | 16 | REGION_STYLE_RULE | proposed for css3-regions|
 | 17 | CUSTOM_MEDIA_RULE | mediaqueries |
+| 18 | PROPERTY_RULE | css-properties-values-api |
 | ... 999 | - | reserved for future standardization |
 
 
