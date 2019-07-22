@@ -6,14 +6,16 @@
 
 ===== Goals =====
 
-  * Identify status of individual CSS Print related specs and see if and how they can be moved to REC status in order to send positive signal about maturity of technology to users.
+  * Identify status of individual CSS Print related specs and see if and how they can be moved to REC status in order to send positive signal about maturity of technology to users and publishing industry
   * Identify what is needed in order to move forward, e.g.:
     * more editorial resources
     * create tests
     * involvement from implementers
     * identify incompatibilities between implementations
+    * collect new requirements (common vendor extension, features from XSL-FO, https://www.w3.org/TR/xslfo20-req/WD-xslfo20-req.html)
     * ...
   * Recruit fresh blood to help with tasks above
+  * Briefly explain how CSS WG works and how specs are developed and implemented
 
 ===== Schedule =====
 
