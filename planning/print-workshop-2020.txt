@@ -4,6 +4,32 @@
 
 **Location:** University of Economics, Prague, Czech Republic as a part of [[http://xmlprague.cz|XML Prague conference]]
 
+===== Goals =====
+
+  * Identify status of individual CSS Print related specs and see if and how they can be moved to REC status in order to send positive signal about maturity of technology to users.
+  * Identify what is needed in order to move forward, e.g.:
+    * more editorial resources
+    * create tests
+    * involvement from implementers
+    * identify incompatibilities between implementations
+    * ...
+  * Recruit fresh blood to help with tasks above
+
+==== Schedule ====
+
+TBD
+
+==== Participants ====
+
+**From CSS WG:**
+
+**Implementers:**
+
+**Users of CSS Print:** 20-50 people expected
+
+
+
+
 
 
 
