@@ -13,10 +13,6 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
   * 2019
-    * [[https://lists.w3.org/Archives/Public/www-style/2018Jul/0018.html|minutes from July 2018 discussion of 2019 schedule]], [[https://lists.w3.org/Archives/Public/www-style/2018Sep/0002.html|minutes from September 2018 discussion]]
-    * [[planning:toronto-2019]]
-      * When: June 4-6 CSSWG and June 7 for Houdini
-      * Where: Mozilla Toronto (room reserved for those dates)
     * [[planning:tpac-2019|TPAC]] at [[https://www.w3.org/wiki/TPAC/2019|Fukuoka]] 16-20 Sept
   * 2020
     * January: [[planning:galicia-2020]]
@@ -35,6 +31,9 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ===== Past Meetings =====
 
 ==== 2019 ====
+    * [[planning:toronto-2019]]
+      * When: June 4-6 CSSWG and June 7 for Houdini
+      * Where: Mozilla Toronto (room reserved for those dates)
     * 2019-02-25..27 [[planning:sf-2019]], San Francisco, USA
 
 ==== 2018 ====
