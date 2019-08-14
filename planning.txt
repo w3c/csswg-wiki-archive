@@ -22,6 +22,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
     * Spring: Apple (Myles) has offered to host (possibly at spaceship)
       * Constraint: Easter is April 12 (Western) or April 19 (Eastern)
       * Constraint: AC Meeting May 18-19 in Seoul (likely AB meeting rest of week, maybe even TAG too)
+      * Constraint: April 13-15 is An Event Apart DC (conflict for Jen Simmons & Rachel Andrew)
     * Summer: Possibly Japan/Kyoto (but not in July or August), or France if mid summer, or New York (Google)
       * Constraint: [[https://wiki.mozilla.org/All_Hands|Mozilla All Hands]] is June 15-20 in Toronto
       * Constraint: Tokyo Olympics is July 24 - Aug 9, may affect flight and hotel costs and availability
@@ -29,7 +30,6 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
   * 2021
     *  February 15-17 in Noida, India (Adobe)
   * [[planning:hosting]]
-
 ===== Past Meetings =====
 
 ==== 2019 ====
