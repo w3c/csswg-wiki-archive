@@ -47,6 +47,8 @@ Regrets:
 
   * [[https://github.com/w3c/csswg-drafts/issues/4116|Images with layout information]]
   * [[https://github.com/w3c/csswg-drafts/issues/4044|[css-fonts] Vertical text doesn't play nicely with font-style and font-stretch]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4229][content-size property]
+  * [[https://github.com/whatwg/html/pull/4862][rendersubtree HTML attribute]]
 
 ==== Schedule ====
 
