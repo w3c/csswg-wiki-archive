@@ -76,5 +76,6 @@ Regrets:
 ===== Tuesday =====
 
 9:30am TTWG joint meeting (1hr, morning)
+  * [[https://github.com/w3c/ttwg/issues/52|Issues to discuss]]
 
 11am Accessibility joint meeting
