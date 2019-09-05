@@ -13,7 +13,7 @@
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
 | fantasai |  |  |  |  |
-| L. David Baron | Monday 21:45 | Sunday 09:15 | ? | IBE2622+VLG1290 / VLG1295+VLG1882 |
+| L. David Baron | Monday 21:45 | Sunday 09:15 | ? | [[https://flightaware.com/live/flight/IBE2622|IBE2622]]+[[https://flightaware.com/live/flight/VLG1290|VLG1290]] / [[https://flightaware.com/live/flight/VLG1295|VLG1295]]+[[https://flightaware.com/live/flight/VLG1882|VLG1882]] |
 | rego |  |  |  |  |
 | jfernandez (lajava) |  |  |  |  |
 ==== Regrets ====
