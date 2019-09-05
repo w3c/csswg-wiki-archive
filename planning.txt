@@ -28,7 +28,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
       * Evenly spacing meetings would suggest dates around the weeks of July 20-24 or July 27-31
       * Constraint: [[https://wiki.mozilla.org/All_Hands|Mozilla All Hands]] is June 15-20 in Toronto
       * Constraint: Tokyo Olympics is July 24 - Aug 9, may affect flight and hotel costs and availability
-    * TPAC in North America (likely Vancouver), tentative: **26-30 October 2020**
+    * TPAC in Vancouver, BC, Canada: **26-30 October 2020**
   * **2021**
     *  **February 15-17** in Noida, India (Adobe)
   * [[planning:hosting]]
