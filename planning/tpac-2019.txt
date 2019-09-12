@@ -74,6 +74,7 @@ Regrets:
   * [[https://github.com/w3c/csswg-drafts/issues/4036|[css-multicol] column-fill should behave more similarly in paginated and continuous contexts]]
   * [[https://github.com/w3c/csswg-drafts/issues/94]|[css-tables] Calc for table layout]]
   * [[https://github.com/w3c/csswg-drafts/issues/3554|device-pixel-border-box + ResizeObserver]]
+  * Open css-text-3 issues with i18n?
 ==== Schedule ====
 
 ===== Monday =====
