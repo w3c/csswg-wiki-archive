@@ -102,6 +102,7 @@ Regrets:
   * [[https://github.com/w3c/csswg-drafts/issues/4116|Images with layout information]]
   * [[https://github.com/whatwg/html/pull/4862|rendersubtree HTML attribute]]
   * 3D transforms (breakout?) (smfr)
+  * [[https://github.com/w3c/csswg-drafts/issues/1952 | [css-transforms-2] Should a no-op <div> flatten?]]
   * [[https://github.com/w3c/csswg-drafts/issues/4036|[css-multicol] column-fill should behave more similarly in paginated and continuous contexts]]
   * [[https://github.com/w3c/csswg-drafts/issues/94|[css-tables] Calc for table layout]]
   * [[https://github.com/w3c/csswg-drafts/issues/3554|device-pixel-border-box + ResizeObserver]]
