@@ -107,6 +107,7 @@ Regrets:
   * Speccing text-size-adjust
   * [[https://github.com/w3c/csswg-drafts/issues/4270 | path() in shapes 1 or 2?]]
   * [[https://github.com/w3c/csswg-drafts/issues/4247 | [css-scroll-anchoring-1] Can anchor node be an inline-block?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4244 | [css-lists] Should list-item counter reset rule be in a UA stylesheet?]
 
 
 
