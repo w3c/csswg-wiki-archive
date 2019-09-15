@@ -73,7 +73,7 @@ Regrets:
     * [[https://github.com/w3c/csswg-drafts/issues/4286|word-break:keep-all and overflow]] (fantasai(
     * [[https://github.com/w3c/csswg-drafts/issues/4285|Need additional value of word-break for Korean]] (Florian)
     * [[https://github.com/w3c/csswg-drafts/issues/4284|Allow breaking anywhere when dictionary is missing for SEA scripts]] (fantasai)
-    * [[https://github.com/w3c/csswg-drafts/issues/4180|https://github.com/w3c/csswg-drafts/issues/4180]] (florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/4180|How to handle leading ideographic space sequences ?]] (florian)
   * CSS-FONTS
     * [[https://github.com/w3c/csswg-drafts/issues/4044|[css-fonts] Vertical text doesn't play nicely with font-style and font-stretch]]
     * [[https://github.com/w3c/csswg-drafts/issues/2531|[css-fonts] Remove font-variant @font-face descriptor]]
