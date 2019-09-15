@@ -97,6 +97,9 @@ Regrets:
     * css-writing-modes-3 Ready for PR? [[https://drafts.csswg.org/css-writing-modes-3/implementation-report-2019-08|implementation report]] [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-writing-modes-3|open issues]] [[https://drafts.csswg.org/css-writing-modes-3/issues-cr-2019|DoC]] (Florian)
   * CSS-PSEUDO
     * [[https://github.com/w3c/csswg-drafts/issues/4307|[css-pseudo-4] Proposal: Highlight API]]
+  * SCROLL-ANCHORING
+    * [[https://github.com/w3c/csswg-drafts/issues/4239 | [css-scroll-anchoring] Should not apply anchoring adjustments from scroll event ]]     
+    * [[https://github.com/w3c/csswg-drafts/issues/4247 | [css-scroll-anchoring-1] Can anchor node be an inline-block?]]
   * [[https://github.com/w3c/csswg-drafts/issues/4116|Images with layout information]]
   * [[https://github.com/whatwg/html/pull/4862|rendersubtree HTML attribute]]
   * 3D transforms (breakout?) (smfr)
@@ -106,7 +109,6 @@ Regrets:
   * [[https://github.com/WICG/scroll-animations/issues/51 | Scroll Timeline - element-based start/end offsets]] 
   * Speccing text-size-adjust
   * [[https://github.com/w3c/csswg-drafts/issues/4270 | path() in shapes 1 or 2?]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4247 | [css-scroll-anchoring-1] Can anchor node be an inline-block?]]
   * [[https://github.com/w3c/csswg-drafts/issues/4244 | [css-lists] Should list-item counter reset rule be in a UA stylesheet?]]
 
 
