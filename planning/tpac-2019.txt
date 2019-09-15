@@ -105,7 +105,8 @@ Regrets:
   * [[https://github.com/w3c/csswg-drafts/issues/3554|device-pixel-border-box + ResizeObserver]]
   * [[https://github.com/WICG/scroll-animations/issues/51 | Scroll Timeline - element-based start/end offsets]] 
   * Speccing text-size-adjust
-  * [[https://github.com/w3c/csswg-drafts/issues/4270|path() in shapes 1 or 2?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4270 | path() in shapes 1 or 2?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4247 | [css-scroll-anchoring-1] Can anchor node be an inline-block?]]
 
 
 
