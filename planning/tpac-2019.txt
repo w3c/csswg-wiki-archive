@@ -82,6 +82,7 @@ Regrets:
       * [[https://github.com/w3c/csswg-drafts/issues/3861|Should zero width space break Arabic shaping?]]
       * [[https://github.com/w3c/csswg-drafts/issues/3481|Remove collapsible line breaks adjacent to word separators]]
       * [[https://github.com/w3c/csswg-drafts/issues/337|Segment Break Transformation Rules for East Asian Width property of A]]
+    * [[https://github.com/w3c/csswg-drafts/issues/3775|text-transform's design, intent and reality resolution]] [i18n][ally]
   * CSS-FONTS
     * [[https://github.com/w3c/csswg-drafts/issues/4044|[css-fonts] Vertical text doesn't play nicely with font-style and font-stretch]]
     * [[https://github.com/w3c/csswg-drafts/issues/2531|[css-fonts] Remove font-variant @font-face descriptor]]
