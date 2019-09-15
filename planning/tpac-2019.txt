@@ -87,11 +87,10 @@ Regrets:
     * [[https://github.com/w3c/csswg-drafts/issues/4044|[css-fonts] Vertical text doesn't play nicely with font-style and font-stretch]]
     * [[https://github.com/w3c/csswg-drafts/issues/2531|[css-fonts] Remove font-variant @font-face descriptor]]
     * [[https://github.com/w3c/csswg-drafts/issues/4055|[css-fonts] Privacy vs. performance vs. Internationalisation aspecs of local fonts]]
-    * [[https://github.com/w3c/csswg-drafts/issues/2531|Remove font-variant @font-face descriptor from Fonts 3]]
     * [[https://github.com/w3c/csswg-drafts/issues/4107|New system-ui fonts]]
 
   * CSS-CONTAIN
-    * Publish PR of [[https://drafts.csswg.org/css-contain-1/|css-conntain-1]] (see: [[https://github.com/w3c/csswg-drafts/labels/css-contain-1|no open issues]], [[https://drafts.csswg.org/css-contain/issues-2019-cr.html|DoC]], [[https://drafts.csswg.org/css-contain/implementation-report-2019-09|Implementation Report]], [[https://drafts.csswg.org/css-contain/annotated-2019-09-05.html|test coverage]]) (florian) 
+    * Publish PR of [[https://drafts.csswg.org/css-contain-1/|css-contain-1]] (see: [[https://github.com/w3c/csswg-drafts/labels/css-contain-1|no open issues]], [[https://drafts.csswg.org/css-contain/issues-2019-cr.html|DoC]], [[https://drafts.csswg.org/css-contain/implementation-report-2019-09|Implementation Report]], [[https://drafts.csswg.org/css-contain/annotated-2019-09-05.html|test coverage]]) (florian) 
     * [[https://github.com/w3c/csswg-drafts/issues/4229|content-size property]]
   * CSS-WRITING-MODES
     * css-writing-modes-3 Ready for PR? [[https://drafts.csswg.org/css-writing-modes-3/implementation-report-2019-08|implementation report]] [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-writing-modes-3|open issues]] [[https://drafts.csswg.org/css-writing-modes-3/issues-cr-2019|DoC]] (Florian)
