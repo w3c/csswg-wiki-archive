@@ -1,0 +1,105 @@
+==== TPAC 2019 ====
+
+==== Timing ====
+  * [[https://www.w3.org/2019/09/TPAC/]]
+  * TPAC is schedule for 16–20 September 2019
+  * CSSWG meeting days are Mon-Tue 16-17 September, from 9:00am to 6:00pm
+  * Houdini meeting is Fri 20 September, from 9:00am to 6:00pm
+
+==== Location and logistics ====
+A block booking has been made at the TPAC 2019 venue:
+  * [[https://www.w3.org/2019/09/TPAC/travel.html#hotel|Hilton Fukuoka Sea Hawk]] 
+Alternative hotels near Hilton Fukuoka Sea Hawk:
+  * [[https://www.w3.org/2019/09/TPAC/travel.html#momochi|Seaside Hotel Twins Momochi]]
+  * [[https://www.w3.org/2019/09/TPAC/travel.html#new-gaea|Hotel New Gaea Dome]]
+  * [[https://www.w3.org/2019/09/TPAC/travel.html#residential-suites|The Residential Suites Fukuoka]]
+Transportation from the airport is [[https://www.w3.org/2019/09/TPAC/travel.html#transportation|explained on the TPAC page]]
+==== Participants =====
+
+Please, put your name in this table if you plan to participate (alphabetical order by given name):
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^ Conflicts ^
+| Alan Stearns | 9/14 | 9/22 | AirBnB | Delta 7883 | Tuesday afternoon AC meeting |
+| Amelia BR | Thu 2019-09-12 | Sat 2019-09-21 | Hotel New Gaea Domemae (Sun-Sat) | | May be splitting time with ARIA WG Mon-Tues; CGs on Fri AM |
+| Brian Birtles | 2019-09-15 | 2019-09-19 | Another AirBnB | JL 319 / JL 304 | |
+| Cameron McCormack | Sunday | Saturday | An Airbnb | GK 513 / KA 343 |
+| Chris Lilley | 2019-09-01  | 2019-09-26 | ?? | JL 7 / JL 8 | Audio WG, Color CG |
+| Chris Harrelson | 2019-09-15 | 2019-09-18 | Hilton Fukuoka Sea Hawk | Web Components meeting on Tuesday |
+| Christian Biesinger | 2019-09-15 | 2019-09-21 | Hilton Fukuoka Sea Hawk | AC 61+OZ 136 / OC 133+AC 62 |
+| Dave Cramer | Saturday late | Friday early | Grand Hyatt Fukuoka | middle seat :( | Publishing Working Group |
+| Emil A Eklund | Sunday | Friday | Hilton Fukuoka Sea Hawk | NH 1207 / JL 328 | |
+| Emilio Cobos Álvarez | | | | |
+| fantasai | Sunday | Saturday | Hotel New Gaea Domemae | train | |
+| Florian Rivoal | Sunday | Saturday | Hotel New Gaea Domemae | train | |
+| Fuqiao Xue | Sunday | Saturday | Hilton Fukuoka Sea Hawk | CA953 / CA954 | Internationalization WG on Monday and Tuesday. Devices and Sensors WG and Chinese Web IG on Friday (conflict with Houdini). |
+| Hiroshi Sakakibara | Sunday | Friday | Hilton Fukuoka Sea Hawk | | |
+| Jihye Hong | Sunday | Friday | Hilton Fukuoka Sea Hawk | | |
+| L. David Baron | Friday 13th, 16:07 | Saturday 21st, 11:20 | [[https://www.hotespa.net/dormyinn/english/list/hakata.html|Dormy Inn Hakata Gion]] | Nozomi 27 (train) / ANA 250 + UA 876 | start of Monday morning TAG meeting; Tuesday afternoon AC meeting (15:00-18:00) |
+| Lea Verou | 2019-09-01  | 2019-09-26 | ?? | JL 7 / JL 8 | |
+| Majid Valipour | Monday| Friday|Hilton Fukuoka Sea Hawk | |
+| Markus Stange | | | | |
+| Matt Woodrow | Sunday | Saturday | Hilton Fukuoka Sea Hawk | | |
+| Myles C. Maxfield | | | | surfboard | |
+| Peter Linss | Sunday | Saturday | AirBnB | NH1208 / CA117 | TAG Mon AM|
+| Rachel Andrew | Sat 2019-09-14 | Sat 2019-09-21 | Hilton Fukuoka Sea Hawk | CX270+KA380 / KA381+CX271 | |
+| Rossen Atanassov | Sunday | Friday | Hilton Fukuoka Sea Hawk | sailboat | |
+| Rune Lillesveen | Sunday | Wednesday | Hilton Fukuoka Sea Hawk | | |
+| Sam Sneddon | Sat 2019-09-14 | Sat 2019-09-21 | Hilton Fukuoka Sea Hawk | JL44+JL327 / train | WPT (the entire time) |
+| Simon Fraser | Sunday | Friday |  |  |  |
+| Simon Pieters | Saturday | Friday |  |  | WPT |
+| Simon Sapin | Saturday | Saturday | Hilton Fukuoka Sea Hawk |  |  |
+| Stanton Marcum | Sunday | Saturday | Hilton Fukuoka Sea Hawk |  |  |
+| Tab Atkins | Saturday | Saturday | Hilton Fukuoka Sea Hawk | | |
+| Tantek Çelik | Sat 2019-09-14 | Fri 2019-09-20 | Hilton Fukuoka Sea Hawk | UA/ANA | Tue 10:30-12:30 Credible Web CG|
+| Zoe Lilley-Verou | 2019-09-01  | 2019-09-26 | ?? | JL 7 / JL 8 | observer |
+
+Observers:
+
+  * Mr. Omar Alhadad (Zain)
+  * Yi Gu
+
+
+Regrets:
+
+  * Dael Jackson
+  * Eric Willigers
+
+==== Agenda =====
+=== Agenda+TPAC ===
+
+  * [[https://github.com/w3c/csswg-drafts/issues/4116|Images with layout information]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4044|[css-fonts] Vertical text doesn't play nicely with font-style and font-stretch]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2531|[css-fonts] Remove font-variant @font-face descriptor]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4055|[css-fonts] Privacy vs. performance vs. Internationalisation aspecs of local fonts]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4229|content-size property]]
+  * [[https://github.com/whatwg/html/pull/4862|rendersubtree HTML attribute]]
+  * [css-text-4] Update on [[https://drafts.csswg.org/css-text-4/#word-boundaries|word boundaries]], previously know as space expansion and discussed in Toronto (Florian)
+  * [[https://github.com/w3c/csswg-drafts/issues/4107|New system-ui fonts]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4307|[css-pseudo-4] Proposal: Highlight API]]
+  * 3D transforms (breakout?) (smfr)
+  * [[https://github.com/w3c/csswg-drafts/issues/4036|[css-multicol] column-fill should behave more similarly in paginated and continuous contexts]]
+  * [[https://github.com/w3c/csswg-drafts/issues/94|[css-tables] Calc for table layout]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3554|device-pixel-border-box + ResizeObserver]]
+  * Open css-text-3 issues with i18n?
+  * [[https://github.com/WICG/scroll-animations/issues/51 | Scroll Timeline - element-based start/end offsets]] 
+  * Publish PR of [[https://drafts.csswg.org/css-contain-1/|css-conntain-1]] (see: [[https://github.com/w3c/csswg-drafts/labels/css-contain-1|no open issues]], [[https://drafts.csswg.org/css-contain/issues-2019-cr.html|DoC]], [[https://drafts.csswg.org/css-contain/implementation-report-2019-09|Implementation Report]], [[https://drafts.csswg.org/css-contain/annotated-2019-09-05.html|test coverage]]) (florian)
+  * Speccing text-size-adjust
+
+=== Agenda+ F2F ===
+  * [[https://github.com/w3c/csswg-drafts/issues/3440#issuecomment-530702998|[css-text][css-sizing] When to/not to include preserved trailing spaces]]
+  *[[https://github.com/w3c/csswg-drafts/issues/2531|Remove font-variant @font-face descriptor from Fonts 3]]
+
+==== Schedule ====
+
+===== Monday =====
+
+Lunch 12-1
+
+===== Tuesday =====
+
+9:30am TTWG joint meeting (1hr, morning)
+  * [[https://github.com/w3c/ttwg/issues/52|Issues to discuss]]
+
+11am Accessibility joint meeting
+
+Lunch 12-1
