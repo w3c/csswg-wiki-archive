@@ -85,10 +85,11 @@ Regrets:
     * [[https://github.com/w3c/csswg-drafts/issues/4229|content-size property]]
   * CSS-WRITING-MODES
     * css-writing-modes-3 Ready for PR? (Florian)
+  * CSS-PSEUDO
+    * [[https://github.com/w3c/csswg-drafts/issues/4307|[css-pseudo-4] Proposal: Highlight API]]
   * [[https://github.com/w3c/csswg-drafts/issues/4116|Images with layout information]]
   * [[https://github.com/whatwg/html/pull/4862|rendersubtree HTML attribute]]
   * [[https://github.com/w3c/csswg-drafts/issues/4107|New system-ui fonts]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4307|[css-pseudo-4] Proposal: Highlight API]]
   * 3D transforms (breakout?) (smfr)
   * [[https://github.com/w3c/csswg-drafts/issues/4036|[css-multicol] column-fill should behave more similarly in paginated and continuous contexts]]
   * [[https://github.com/w3c/csswg-drafts/issues/94|[css-tables] Calc for table layout]]
