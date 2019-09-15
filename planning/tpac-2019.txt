@@ -76,6 +76,7 @@ Regrets:
     * [[https://github.com/w3c/csswg-drafts/issues/4285|Need additional value of word-break for Korean]] (Florian)
     * [[https://github.com/w3c/csswg-drafts/issues/4284|Allow breaking anywhere when dictionary is missing for SEA scripts]] (fantasai)
     * [[https://github.com/w3c/csswg-drafts/issues/4180|How to handle leading ideographic space sequences ?]] (florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/4308|Define break at space to remove a space explicitly]] (fantasai)
     * [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Acss-text-3+label%3Ai18n-tracking+|Open css-text-3 issues with i18n]]
   * CSS-FONTS
     * [[https://github.com/w3c/csswg-drafts/issues/4044|[css-fonts] Vertical text doesn't play nicely with font-style and font-stretch]]
