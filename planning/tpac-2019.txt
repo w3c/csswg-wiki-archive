@@ -72,12 +72,16 @@ Regrets:
     * [[https://github.com/w3c/csswg-drafts/issues/3440#issuecomment-530702998|[css-text][css-sizing] When to/not to include preserved trailing spaces]]
     * [css-text-4] Update on [[https://drafts.csswg.org/css-text-4/#word-boundaries|word boundaries]], previously know as space expansion and discussed in Toronto (Florian)
     * [[https://github.com/w3c/csswg-drafts/issues/4297|Hanging spaces can't be scrollable overflow]] (fantasai)
-    * [[https://github.com/w3c/csswg-drafts/issues/4286|word-break:keep-all and overflow]] (fantasai(
-    * [[https://github.com/w3c/csswg-drafts/issues/4285|Need additional value of word-break for Korean]] (Florian)
-    * [[https://github.com/w3c/csswg-drafts/issues/4284|Allow breaking anywhere when dictionary is missing for SEA scripts]] (fantasai)
+    * [[https://github.com/w3c/csswg-drafts/issues/4286|word-break:keep-all and overflow]] (fantasai)
+    * [[https://github.com/w3c/csswg-drafts/issues/4285|Need additional value of word-break for Korean]] (Florian) [i18n]
+    * [[https://github.com/w3c/csswg-drafts/issues/4284|Allow breaking anywhere when dictionary is missing for SEA scripts]] (fantasai) [i18n]
     * [[https://github.com/w3c/csswg-drafts/issues/4180|How to handle leading ideographic space sequences ?]] (florian)
-    * [[https://github.com/w3c/csswg-drafts/issues/4308|Define break at space to remove a space explicitly]] (fantasai)
-    * [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Acss-text-3+label%3Ai18n-tracking+|Open css-text-3 issues with i18n]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4308|Define break at space to remove a space explicitly]] (fantasai) [i18n]
+    * [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Acss-text-3+label%3Ai18n-tracking+|Other Open css-text-3 issues with i18n]]:
+      * [[https://github.com/w3c/csswg-drafts/issues/3897|Clarify whether soft breaks exist at boundaries of an inline element with `word-break:break-all`]]
+      * [[https://github.com/w3c/csswg-drafts/issues/3861|Should zero width space break Arabic shaping?]]
+      * [[https://github.com/w3c/csswg-drafts/issues/3481|Remove collapsible line breaks adjacent to word separators]]
+      * [[https://github.com/w3c/csswg-drafts/issues/337|Segment Break Transformation Rules for East Asian Width property of A]]
   * CSS-FONTS
     * [[https://github.com/w3c/csswg-drafts/issues/4044|[css-fonts] Vertical text doesn't play nicely with font-style and font-stretch]]
     * [[https://github.com/w3c/csswg-drafts/issues/2531|[css-fonts] Remove font-variant @font-face descriptor]]
