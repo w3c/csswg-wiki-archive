@@ -66,6 +66,8 @@ Regrets:
   * Eric Willigers
 
 ==== Agenda =====
+  * SELECTORS
+    * [[https://github.com/w3c/csswg-drafts/issues/4154|canonicalization of :lang() selectors]] (to be scheduled in i18n joint session)
   * CSS-TEXT
     * [[https://github.com/w3c/csswg-drafts/issues/3440#issuecomment-530702998|[css-text][css-sizing] When to/not to include preserved trailing spaces]]
     * [css-text-4] Update on [[https://drafts.csswg.org/css-text-4/#word-boundaries|word boundaries]], previously know as space expansion and discussed in Toronto (Florian)
