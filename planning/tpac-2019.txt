@@ -64,6 +64,7 @@ Regrets:
   * Eric Willigers
 
 ==== Agenda =====
+=== Agenda+TPAC
 
   * [[https://github.com/w3c/csswg-drafts/issues/4116|Images with layout information]]
   * [[https://github.com/w3c/csswg-drafts/issues/4044|[css-fonts] Vertical text doesn't play nicely with font-style and font-stretch]]
@@ -81,6 +82,11 @@ Regrets:
   * [[https://github.com/WICG/scroll-animations/issues/51 | Scroll Timeline - element-based start/end offsets]] 
   * Publish PR of [[https://drafts.csswg.org/css-contain-1/|css-conntain-1]] (see: [[https://github.com/w3c/csswg-drafts/labels/css-contain-1|no open issues]], [[https://drafts.csswg.org/css-contain/issues-2019-cr.html|DoC]], [[https://drafts.csswg.org/css-contain/implementation-report-2019-09|Implementation Report]], [[https://drafts.csswg.org/css-contain/annotated-2019-09-05.html|test coverage]]) (florian)
   * Speccing text-size-adjust
+
+=== Agenda+ F2F ===
+  * [[https://github.com/w3c/csswg-drafts/issues/3440#issuecomment-530702998|[css-text][css-sizing] When to/not to include preserved trailing spaces]]
+  *[[https://github.com/w3c/csswg-drafts/issues/2531|Remove font-variant @font-face descriptor from Fonts 3]]
+
 ==== Schedule ====
 
 ===== Monday =====
