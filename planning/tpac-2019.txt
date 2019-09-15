@@ -66,15 +66,21 @@ Regrets:
   * Eric Willigers
 
 ==== Agenda =====
-=== Agenda+TPAC ===
-
+  * CSS-TEXT
+    * [[https://github.com/w3c/csswg-drafts/issues/3440#issuecomment-530702998|[css-text][css-sizing] When to/not to include preserved trailing spaces]]
+    * [css-text-4] Update on [[https://drafts.csswg.org/css-text-4/#word-boundaries|word boundaries]], previously know as space expansion and discussed in Toronto (Florian)
+  * CSS-FONTS
+    * [[https://github.com/w3c/csswg-drafts/issues/4044|[css-fonts] Vertical text doesn't play nicely with font-style and font-stretch]]
+    * [[https://github.com/w3c/csswg-drafts/issues/2531|[css-fonts] Remove font-variant @font-face descriptor]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4055|[css-fonts] Privacy vs. performance vs. Internationalisation aspecs of local fonts]]
+    * [[https://github.com/w3c/csswg-drafts/issues/2531|Remove font-variant @font-face descriptor from Fonts 3]]
+  * CSS-CONTAIN
+    * Publish PR of [[https://drafts.csswg.org/css-contain-1/|css-conntain-1]] (see: [[https://github.com/w3c/csswg-drafts/labels/css-contain-1|no open issues]], [[https://drafts.csswg.org/css-contain/issues-2019-cr.html|DoC]], [[https://drafts.csswg.org/css-contain/implementation-report-2019-09|Implementation Report]], [[https://drafts.csswg.org/css-contain/annotated-2019-09-05.html|test coverage]]) (florian) 
+    * [[https://github.com/w3c/csswg-drafts/issues/4229|content-size property]]
+  * CSS-WRITING-MODES
+    * css-writing-modes-3 Ready for PR? (Florian)
   * [[https://github.com/w3c/csswg-drafts/issues/4116|Images with layout information]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4044|[css-fonts] Vertical text doesn't play nicely with font-style and font-stretch]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2531|[css-fonts] Remove font-variant @font-face descriptor]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4055|[css-fonts] Privacy vs. performance vs. Internationalisation aspecs of local fonts]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4229|content-size property]]
   * [[https://github.com/whatwg/html/pull/4862|rendersubtree HTML attribute]]
-  * [css-text-4] Update on [[https://drafts.csswg.org/css-text-4/#word-boundaries|word boundaries]], previously know as space expansion and discussed in Toronto (Florian)
   * [[https://github.com/w3c/csswg-drafts/issues/4107|New system-ui fonts]]
   * [[https://github.com/w3c/csswg-drafts/issues/4307|[css-pseudo-4] Proposal: Highlight API]]
   * 3D transforms (breakout?) (smfr)
@@ -83,13 +89,9 @@ Regrets:
   * [[https://github.com/w3c/csswg-drafts/issues/3554|device-pixel-border-box + ResizeObserver]]
   * Open css-text-3 issues with i18n?
   * [[https://github.com/WICG/scroll-animations/issues/51 | Scroll Timeline - element-based start/end offsets]] 
-  * Publish PR of [[https://drafts.csswg.org/css-contain-1/|css-conntain-1]] (see: [[https://github.com/w3c/csswg-drafts/labels/css-contain-1|no open issues]], [[https://drafts.csswg.org/css-contain/issues-2019-cr.html|DoC]], [[https://drafts.csswg.org/css-contain/implementation-report-2019-09|Implementation Report]], [[https://drafts.csswg.org/css-contain/annotated-2019-09-05.html|test coverage]]) (florian)
   * Speccing text-size-adjust
-  * css-writing-modes Ready for PR? (Florian)
 
-=== Agenda+ F2F ===
-  * [[https://github.com/w3c/csswg-drafts/issues/3440#issuecomment-530702998|[css-text][css-sizing] When to/not to include preserved trailing spaces]]
-  *[[https://github.com/w3c/csswg-drafts/issues/2531|Remove font-variant @font-face descriptor from Fonts 3]]
+
 
 ==== Schedule ====
 
