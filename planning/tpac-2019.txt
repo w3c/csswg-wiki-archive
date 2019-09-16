@@ -85,7 +85,6 @@ Regrets:
       * [[https://github.com/w3c/csswg-drafts/issues/337|Segment Break Transformation Rules for East Asian Width property of A]]
     * [[https://github.com/w3c/csswg-drafts/issues/3775|text-transform's design, intent and reality resolution]] [i18n][ally]
   * [[https://github.com/w3c/csswg-drafts/issues/4116|Images with layout information]]
-  * [[https://github.com/whatwg/html/pull/4862|rendersubtree HTML attribute]]
   * 3D transforms (breakout?) (smfr)
   * [[https://github.com/w3c/csswg-drafts/issues/1952 | [css-transforms-2] Should a no-op <div> flatten?]]
   * [[https://github.com/w3c/csswg-drafts/issues/4036|[css-multicol] column-fill should behave more similarly in paginated and continuous contexts]]
@@ -104,11 +103,12 @@ Regrets:
   * CSS-CONTAIN
     * Publish PR of [[https://drafts.csswg.org/css-contain-1/|css-contain-1]] (see: [[https://github.com/w3c/csswg-drafts/labels/css-contain-1|no open issues]], [[https://drafts.csswg.org/css-contain/issues-2019-cr.html|DoC]], [[https://drafts.csswg.org/css-contain/implementation-report-2019-09|Implementation Report]], [[https://drafts.csswg.org/css-contain/annotated-2019-09-05.html|test coverage]]) (florian) 
     * [[https://github.com/w3c/csswg-drafts/issues/4229|content-size property]]
+    * [[https://github.com/whatwg/html/pull/4862|rendersubtree HTML attribute]]
+  * CSS-PSEUDO
+    * [[https://github.com/w3c/csswg-drafts/issues/4307|[css-pseudo-4] Proposal: Highlight API]]
   * SCROLL-ANCHORING
     * [[https://github.com/w3c/csswg-drafts/issues/4239 | [css-scroll-anchoring] Should not apply anchoring adjustments from scroll event ]]     
     * [[https://github.com/w3c/csswg-drafts/issues/4247 | [css-scroll-anchoring-1] Can anchor node be an inline-block?]]
-  * CSS-PSEUDO
-    * [[https://github.com/w3c/csswg-drafts/issues/4307|[css-pseudo-4] Proposal: Highlight API]]
 
 Lunch 12-1
 
