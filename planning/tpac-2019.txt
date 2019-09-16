@@ -114,9 +114,9 @@ Lunch 12-1
   * [[https://github.com/w3c/ttwg/issues/52|Issues to discuss]]
 
 11am Accessibility and Internationalization joint meeting
-  * SELECTORS
-    * [[https://github.com/w3c/csswg-drafts/issues/4154|canonicalization of :lang() selectors]] (to be scheduled in i18n joint session)
+  * [[https://github.com/w3c/csswg-drafts/issues/3870|[css-transforms-1] Add accessibility section]]
   * CSS-TEXT Joint Topics
+    * [[https://github.com/w3c/csswg-drafts/issues/3775|text-transform's design, intent and reality resolution]] [i18n][ally]
     * [css-text-4] Update on [[https://drafts.csswg.org/css-text-4/#word-boundaries|word boundaries]], previously know as space expansion and discussed in Toronto (Florian) [i18n]
     * [[https://github.com/w3c/csswg-drafts/issues/4285|Need additional value of word-break for Korean]] (Florian) [i18n]
     * [[https://github.com/w3c/csswg-drafts/issues/4284|Allow breaking anywhere when dictionary is missing for SEA scripts]] (fantasai) [i18n]
@@ -126,7 +126,8 @@ Lunch 12-1
       * [[https://github.com/w3c/csswg-drafts/issues/3861|Should zero width space break Arabic shaping?]]
       * [[https://github.com/w3c/csswg-drafts/issues/3481|Remove collapsible line breaks adjacent to word separators]]
       * [[https://github.com/w3c/csswg-drafts/issues/337|Segment Break Transformation Rules for East Asian Width property of A]]
-    * [[https://github.com/w3c/csswg-drafts/issues/3775|text-transform's design, intent and reality resolution]] [i18n][ally]
+  * SELECTORS
+    * [[https://github.com/w3c/csswg-drafts/issues/4154|canonicalization of :lang() selectors]] (to be scheduled in i18n joint session)
 
 Lunch 12-1
 
