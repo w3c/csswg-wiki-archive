@@ -70,7 +70,6 @@ Regrets:
 ==== Agenda =====
 
   * [[https://github.com/w3c/csswg-drafts/issues/94|[css-tables] Calc for table layout]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3554|device-pixel-border-box + ResizeObserver]]
 
 ==== Schedule ====
 
@@ -132,6 +131,9 @@ Lunch 12-1
 Lunch 12-1
 
 1pm i18n joint meeting
+
+  * 2pm [[https://github.com/w3c/csswg-drafts/issues/3554|device-pixel-border-box + ResizeObserver]] (jgilbert to call in)
+
   * CSS-WRITING-MODES (before AC meeting)
     * css-writing-modes-3 Ready for PR? [[https://drafts.csswg.org/css-writing-modes-3/implementation-report-2019-08|implementation report]] [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-writing-modes-3|open issues]] [[https://drafts.csswg.org/css-writing-modes-3/issues-cr-2019|DoC]] (Florian)
 
