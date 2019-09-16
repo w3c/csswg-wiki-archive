@@ -72,7 +72,6 @@ Regrets:
   * [[https://github.com/w3c/csswg-drafts/issues/94|[css-tables] Calc for table layout]]
   * [[https://github.com/w3c/csswg-drafts/issues/3554|device-pixel-border-box + ResizeObserver]]
   * Speccing text-size-adjust
-  * [[https://github.com/w3c/csswg-drafts/issues/4244 | [css-lists] Should list-item counter reset rule be in a UA stylesheet?]]
 
 
 ==== Schedule ====
@@ -101,12 +100,13 @@ Lunch 12-1
   * [[https://github.com/w3c/csswg-drafts/issues/1952 | [css-transforms-2] Should a no-op <div> flatten?]]
 
   * [[https://github.com/w3c/csswg-drafts/issues/4270 | path() in shapes 1 or 2?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4244 | [css-lists] Should list-item counter reset rule be in a UA stylesheet?]]
 
   * CSS-TEXT
-    * [[https://github.com/w3c/csswg-drafts/issues/3440#issuecomment-530702998|[css-text][css-sizing] When to/not to include preserved trailing spaces]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4297|Hanging spaces can't be scrollable overflow]] (fantasai)
     * [[https://github.com/w3c/csswg-drafts/issues/4286|word-break:keep-all and overflow]] (fantasai)
     * [[https://github.com/w3c/csswg-drafts/issues/4180|How to handle leading ideographic space sequences ?]] (florian)
+    * [[https://github.com/w3c/csswg-drafts/issues/3440#issuecomment-530702998|[css-text][css-sizing] When to/not to include preserved trailing spaces]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4297|Hanging spaces can't be scrollable overflow]] (fantasai)
 
 ===== Tuesday =====
 
