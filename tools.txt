@@ -7,6 +7,7 @@ Tools particularly useful during (f2f or telcon) meetings:
   * This DokuWiki (obviously)
   * [[irc://irc.w3.org:6665/#css|IRC]] is the real-time chat system we use for backchannel communication during meetings.
   * [[http://www.w3.org/2001/12/zakim-irc-bot|Zakim]] is <del> a conference bridge with</del> an IRC bot that helps us manage our telecons.
+  * A [[https://bocoup.com/blog/how-to-scribe-at-tpac|blog post]] on some of the conventions we use on IRC, with a scribing focus
   * [[https://log.csswg.org/irc.w3.org/css/today|IRC Logs]] are available for our IRC channels
   * [[https://cal.csswg.org/public.php/csswg/calendar.ics|iCal Feed]] contains our meeting times.
   * [[https://data.microsoftedge.com|Interop Browser Data]] Provides crawler data from Chrome/Microsoft Edge about CSS properties, values and top sites utilized
