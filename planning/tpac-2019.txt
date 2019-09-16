@@ -142,4 +142,4 @@ Lunch 12-1
     * [[https://github.com/w3c/csswg-drafts/issues/4055|[css-fonts] Privacy vs. performance vs. Internationalisation aspecs of local fonts]]
     * [[https://github.com/w3c/csswg-drafts/issues/4107|New system-ui fonts]]
     * [[https://github.com/w3c/csswg-drafts/issues/3708|Dynamic text size]]
-
+  * MathML Update (bkardell)
