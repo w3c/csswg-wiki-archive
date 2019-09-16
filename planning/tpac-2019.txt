@@ -69,8 +69,6 @@ Regrets:
 
 ==== Agenda =====
 
-  * [[https://github.com/w3c/csswg-drafts/issues/94|[css-tables] Calc for table layout]]
-
 ==== Schedule ====
 
 ===== Monday =====
@@ -103,8 +101,6 @@ Lunch 12-1
     * [[https://github.com/w3c/csswg-drafts/issues/4286|word-break:keep-all and overflow]] (fantasai)
     * [[https://github.com/w3c/csswg-drafts/issues/4180|How to handle leading ideographic space sequences ?]] (florian)
     * Speccing text-size-adjust
-    * [[https://github.com/w3c/csswg-drafts/issues/3440#issuecomment-530702998|[css-text][css-sizing] When to/not to include preserved trailing spaces]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4297|Hanging spaces can't be scrollable overflow]] (fantasai)
 
 ===== Tuesday =====
 
@@ -146,3 +142,7 @@ Lunch 12-1
     * [[https://github.com/w3c/csswg-drafts/issues/3708|Dynamic text size]]
   * MathML Update (bkardell)
   * [[https://github.com/WICG/scroll-animations/issues/51 | Scroll Timeline - element-based start/end offsets]] 
+  * CSS-TEXT
+    * [[https://github.com/w3c/csswg-drafts/issues/3440#issuecomment-530702998|[css-text][css-sizing] When to/not to include preserved trailing spaces]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4297|Hanging spaces can't be scrollable overflow]] (fantasai)
+  * [[https://github.com/w3c/csswg-drafts/issues/94|[css-tables] Calc for table layout]]
