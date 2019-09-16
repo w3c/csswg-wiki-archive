@@ -71,7 +71,6 @@ Regrets:
 
   * 3D transforms (breakout?) (smfr)
   * [[https://github.com/w3c/csswg-drafts/issues/1952 | [css-transforms-2] Should a no-op <div> flatten?]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4036|[css-multicol] column-fill should behave more similarly in paginated and continuous contexts]]
   * [[https://github.com/w3c/csswg-drafts/issues/94|[css-tables] Calc for table layout]]
   * [[https://github.com/w3c/csswg-drafts/issues/3554|device-pixel-border-box + ResizeObserver]]
   * Speccing text-size-adjust
@@ -99,6 +98,8 @@ Lunch 12-1
   * [[https://w3c.github.io/tpac-breakouts/sessions.html#jlreq | Wed breakout on JLREQ]]
 
   * [[https://github.com/w3c/csswg-drafts/issues/4116|Images with layout information]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/4036|[css-multicol] column-fill should behave more similarly in paginated and continuous contexts]]
 
   * CSS-TEXT
     * [[https://github.com/w3c/csswg-drafts/issues/3440#issuecomment-530702998|[css-text][css-sizing] When to/not to include preserved trailing spaces]]
