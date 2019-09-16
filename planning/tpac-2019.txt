@@ -91,11 +91,12 @@ Regrets:
     * [[https://github.com/whatwg/html/pull/4862|rendersubtree HTML attribute]]
   * CSS-PSEUDO
     * [[https://github.com/w3c/csswg-drafts/issues/4307|[css-pseudo-4] Proposal: Highlight API]]
+
+Lunch 12-1
+
   * SCROLL-ANCHORING
     * [[https://github.com/w3c/csswg-drafts/issues/4239 | [css-scroll-anchoring] Should not apply anchoring adjustments from scroll event ]]     
     * [[https://github.com/w3c/csswg-drafts/issues/4247 | [css-scroll-anchoring-1] Can anchor node be an inline-block?]]
-
-Lunch 12-1
 
   * [[https://w3c.github.io/tpac-breakouts/sessions.html#jlreq | Wed breakout on JLREQ]]
 
