@@ -111,6 +111,7 @@ Lunch 12-1
   * [[https://github.com/w3c/ttwg/issues/52|Issues to discuss]]
 
 11am Accessibility and Internationalization joint meeting
+  * [[https://github.com/w3c/csswg-drafts/issues/560 | [css-display] create a display property value for visually hiding an element while making it available for AT]]
   * [[https://github.com/w3c/csswg-drafts/issues/3870|[css-transforms-1] Add accessibility section]]
   * CSS-TEXT Joint Topics
     * [[https://github.com/w3c/csswg-drafts/issues/3775|text-transform's design, intent and reality resolution]] [i18n][ally]
