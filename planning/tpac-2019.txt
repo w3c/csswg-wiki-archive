@@ -115,6 +115,11 @@ Lunch 12-1
   * [[https://github.com/w3c/csswg-drafts/issues/3870|[css-transforms-1] Add accessibility section]]
   * CSS-TEXT Joint Topics
     * [[https://github.com/w3c/csswg-drafts/issues/3775|text-transform's design, intent and reality resolution]] [i18n][ally]
+
+Lunch 12-1
+
+1pm Internationalization joint meeting
+  * CSS-TEXT i18n Topics
     * [css-text-4] Update on [[https://drafts.csswg.org/css-text-4/#word-boundaries|word boundaries]], previously know as space expansion and discussed in Toronto (Florian) [i18n]
     * [[https://github.com/w3c/csswg-drafts/issues/4285|Need additional value of word-break for Korean]] (Florian) [i18n]
     * [[https://github.com/w3c/csswg-drafts/issues/4284|Allow breaking anywhere when dictionary is missing for SEA scripts]] (fantasai) [i18n]
@@ -126,10 +131,6 @@ Lunch 12-1
       * [[https://github.com/w3c/csswg-drafts/issues/337|Segment Break Transformation Rules for East Asian Width property of A]]
   * SELECTORS
     * [[https://github.com/w3c/csswg-drafts/issues/4154|canonicalization of :lang() selectors]] (to be scheduled in i18n joint session)
-
-Lunch 12-1
-
-1pm Internationalization joint meeting
 
   * 2pm [[https://github.com/w3c/csswg-drafts/issues/3554|device-pixel-border-box + ResizeObserver]] (jgilbert to call in)
 
