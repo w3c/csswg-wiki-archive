@@ -39,6 +39,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ===== Past Meetings =====
 
 ==== 2019 ====
+    * [[planning:tpac-2019|TPAC]] at [[https://www.w3.org/wiki/TPAC/2019|Fukuoka]] **16-20 September**
     * [[planning:toronto-2019]]
       * When: June 4-6 CSSWG and June 7 for Houdini
       * Where: Mozilla Toronto (room reserved for those dates)
