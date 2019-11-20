@@ -3,8 +3,15 @@
    * Host: Igalia
    * Location: [[https://goo.gl/maps/34b8ARCndsT2|Igalia, A Coruña, Galicia, Spain]]
    * Dates: Wednesday-Friday, January 22-24, 2020
-   * Times: each day will be **10:00 to 19:00** (10am to 7pm) ([[https://log.csswg.org/irc.w3.org/css/2019-09-15/#e1234653|resolution]])
-   * Group Dinner: TBD
+   * Times: Each day will be **10:00 to 19:00** (10am to 7pm) ([[https://log.csswg.org/irc.w3.org/css/2019-09-15/#e1234653|resolution]])
+   * Lunch: In the office all days 14:00-15:00
+   * Group Dinner:
+     * Date & time: 20:30 on Wednesday 22nd Janaury
+     * Location: Artabria Restaurant (Rúa Fernando Macías, 28, 15004 A Coruña)
+     * Optional guided city tour on Wednesday evening, leaving from Igalia office at 19:00 and finishing close to the restaurant for the dinner.
+   * Developers Meetup:
+     * Date & time: 19:30-21:00 on Thursday 23rd January
+     * Location: TBD
 
 ==== Travel & Accomodation ====
 
@@ -30,8 +37,9 @@
 
 ==== Agenda ====
 
-* Display Level 4: Display Noneness of Various Kinds
-* Inline 3: leading-trim etc.
+  * Display Level 4: Display Noneness of Various Kinds
+  * Inline 3: leading-trim etc.
+
 ==== Schedule ====
 
 === Constraints ===
