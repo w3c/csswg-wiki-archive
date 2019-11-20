@@ -1,4 +1,4 @@
-====== Proposed Workshop on CSS Print ======
+====== Proposed W3C Workshop on CSS Print ======
 
 **Date:** February 13th, 2020
 
@@ -25,7 +25,7 @@ TBD
 
 **From CSS WG:**
 
-**Implementers:**
+**Implementers:** Antenna House
 
 **Users of CSS Print:** 20-60 people expected
 
