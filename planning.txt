@@ -18,7 +18,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
       * no Houdini meeting
       * Constraint: [[https://wiki.mozilla.org/All_Hands|Mozilla All Hands]] is January 27-31 in Berlin, Germany
       * Where: Igalia, A Coruña, Galicia, Spain
-    * Spring: Apple (Tess) will host in Cork, Ireland
+    * Spring: Apple (Tess) will host in [[planning:cork-2020|Cork, Ireland]]
       * When: Monday-Wednesday, **April 27-April 29**
       * probably will not have a Houdini meeting
       * Constraint: Easter is April 12 (Western) or April 19 (Eastern)
