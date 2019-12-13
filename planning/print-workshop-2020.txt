@@ -29,18 +29,22 @@
 
 18:30 End of workshop
 
+===== How to participate =====
+
+Workshop is open to anyone. However as it is organized as a part of [[http://xmlprague.cz|XML Prague conference]] attendees need to [[https://www.xmlprague.cz/conference-registration/|register for XML Prague]]. For those who are not interested in other days of XML Prague there will be special pass for only 40 € for workshop day. This will include lunch and two coffee breaks.
+
+For people who are not yet familiar with using CSS for producing print output there will be tutorial from 12:00.
+
+If you are implementer or heavy user of CSS Print we would like to get your feedback about the current state of technology and related CSS specification. Please submit position paper. During workshop you will be able to present your position paper and later on discuss it. Length of individual presentation slots will be allocated once we know many position papers we have received.
+
+===== Submitting position paper =====
+
+TBD -- deadline, how to submit, ...
+
 ===== Participants =====
 
-**From CSS WG:**
+**From CSS WG:** Rachel Andrew, Jirka Kosek
 
 **Implementers:** Antenna House
 
 **Users of CSS Print:** 20-60 people expected
-
-
-
-
-
-
-
-
