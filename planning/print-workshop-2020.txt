@@ -17,9 +17,12 @@
   * Recruit fresh blood to help with tasks above
   * Briefly explain how CSS WG works and how specs are developed and implemented
 
-===== Schedule =====
+===== Preliminary schedule =====
 
-TBD
+15:00 Introducing how W3C CSS WG works (Rachel Andrew)
+15:45 Presentation of position papers
+16:30 Coffee break
+17:00 Discussion
 
 ===== Participants =====
 
