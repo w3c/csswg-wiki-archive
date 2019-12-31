@@ -473,8 +473,6 @@ It was last updated on 25 October 2017 and tracks backwards through about August
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0096.html|fantasai> ACTION TabAtkins Find unhappy dude at Google who dislikes hyphenation properties and have him send email explaining his unhappiness to www-style <trackbot> Created ACTION-715]]
 
   ; Text Decoration 4
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html|Resolved: Add the statement that stroke should follow the curve of the glyph as well as adding a non-normative note that points out anything captured in the Github issue and add better pictures.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html|Resolved: Ink skipping applies to overline and underline, but not line-throughs]]
   : [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Merge heycam's spec paint spec with this proposal and put into FX repository.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Add -webkit-background-clip-text to the spec stating that authors must not use it but browsers may support it. (Deprecated appendix.)]]
