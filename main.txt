@@ -9,7 +9,7 @@ The CSS Working Group welcomes your feedback on our work! Public discussion of o
 The working group uses the [[planning|planning]] page to coordinate topics for our face-to-face meetings.
 
 <note>
-Due to abuse by spam bots, account registration has been disabled on this wiki. Registration is available on [[https://test.csswg.org/shepherd/register/|Shepherd]] and accounts are shared with the wiki.
+Due to abuse by spam bots, account registration has been disabled on this wiki. [[https://test.csswg.org/shepherd/register/|Registration is available on Shepherd]] and accounts are shared with the wiki.
 </note>
 
 See [[http://wiki.csswg.org/?do=recent|recent changes]] for currently active topics.
