@@ -10,7 +10,7 @@
    * [[planning:logistics:galicia-2020|Participants / Registration]]
    * See also [[https://www.meetup.com/GPUL-Labs/events/267002801/|Developers Meetup]]
 
-====- Agenda =====
+===== Agenda =====
 
   * Display Level 4: Display Noneness of Various Kinds
   * Inline 3: leading-trim etc.
