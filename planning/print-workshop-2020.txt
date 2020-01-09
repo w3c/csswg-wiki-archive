@@ -39,7 +39,13 @@ If you are implementer or heavy user of CSS Print we would like to get your feed
 
 ===== Submitting position paper =====
 
-TBD -- deadline, how to submit, ...
+Please submit position papers by sending email to mailing list <public-css-print@w3.org>
+Please note that you must first subscribe to the mailing list by sending email to the following email address:
+<public-css-print-request@w3.org>
+
+Archives of the mailing list are available at https://lists.w3.org/Archives/Public/public-css-print/
+
+Deadline for sending position papers is February 3rd, 2020.
 
 ===== Participants =====
 
