@@ -17,7 +17,7 @@
   * Recruit fresh blood to help with tasks above
   * Briefly explain how CSS WG works and how specs are developed and implemented
 
-===== Preliminary schedule =====
+===== Schedule =====
 
 15:00 Introducing how W3C CSS WG works (Rachel Andrew)
 
