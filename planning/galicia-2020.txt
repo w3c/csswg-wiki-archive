@@ -13,8 +13,8 @@
 ===== Agenda =====
 
   * **Also see [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22+|csswg-drafts issues]] and [[https://github.com/w3c/fxtf-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22+|fxtf-drafts issues]].**
-  * Display Level 4: Display Noneness of Various Kinds
-  * Inline 3: leading-trim etc.
+  * Display Level 4: Display Noneness of Various Kinds **(LINK PLEASE???)**
+  * Inline 3: leading-trim etc. **(LINK PLEASE???)**
   * [[https://github.com/w3c/csswg-drafts/issues/4497|[css-fonts] limit local fonts to those selected by users in browser settings (or other browser chrome)]]
   * Align 3: All remaining issues, go to CR?
     * https://github.com/w3c/csswg-drafts/issues/4033 - side prep discussion with fremy, fantasai, florian, Tab, then WG discussion
