@@ -180,6 +180,13 @@ It was last updated on 25 October 2017 and tracks backwards through about August
   ; Exclusions
   : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: shorten minimum/maximum to min/max in exclusions values.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|RESOLVED: When a line is split by an exclusion, each side is its own line box for the purposes of bidi algorithm (i.e. they are effectively separated by a soft line wrap). Which line box is first depends on the block's directionality.]]
+  
+  ; Fill Stroke 3
+  : [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Add -webkit-background-clip-text to the spec stating that authors must not use it but browsers may support it. (Deprecated appendix.)]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Figure out dashing origin for text or make text undashable.]]
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Mark stroke-align at-risk and note issues.]]
+
 
   ; Filters
   : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Tav presented a new filter primitive he'd like added to level 2; dino agreed it was interesting and will look into adding it to the spec.]]
@@ -360,13 +367,6 @@ It was last updated on 25 October 2017 and tracks backwards through about August
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html|Resolved: Move fragment styling and @scope to a delta level 4 of scoping module]]
   : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html|Selecting an Outside Scoping Box - ACTION TabAtkins fantasai Add an example to section 2.2.2<trackbot> Created ACTION-625]]
 
-  ; Scroll Snap
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Updated CR for scroll snap]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Take home and end out of intended direction class]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Make the change to page up and down to put in intended direction and endpoint class]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Accept this edit and close issue 1552 as resolved]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Accept the spec text proposed in issue 1084]]
-
   ; Selectors 3
   : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Request PR on Selectors 3.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Change the title to subsequent. (In reference to better terminology for ~ sibling combinator: Issue 1382)
@@ -471,13 +471,6 @@ It was last updated on 25 October 2017 and tracks backwards through about August
 
   ; Text 4
   : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0096.html|fantasai> ACTION TabAtkins Find unhappy dude at Google who dislikes hyphenation properties and have him send email explaining his unhappiness to www-style <trackbot> Created ACTION-715]]
-
-  ; Text Decoration 4
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Merge heycam's spec paint spec with this proposal and put into FX repository.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Add -webkit-background-clip-text to the spec stating that authors must not use it but browsers may support it. (Deprecated appendix.)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Figure out dashing origin for text or make text undashable.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Mark stroke-align at-risk and note issues.]]
 
   ; Transforms
   : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html|Resolved: Any value of opacity less than one forces transform styles to be flat.]]
