@@ -37,10 +37,6 @@ It was last updated on 25 October 2017 and tracks backwards through about August
   ; Block Layout
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: 0px width float that is next to a line box does count as shortening a line box]]
 
-  ; Box Alignment
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: accept the proposal that margin and position properties will return the specified values.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: the baseline alignment in block direction of tables is not defined. Also add a note prompting implementors to bring back ideas if they have any.]]
-
   ; Compositing
   : [[https://www.w3.org/blog/CSS/2014/06/26/minutes-telecon-216/|Resolved: Solve background-blend on the root element as Rik requests.]]
 
