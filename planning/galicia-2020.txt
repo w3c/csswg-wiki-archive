@@ -27,7 +27,11 @@
     * [[https://github.com/w3c/csswg-drafts/issues/4329|vhc unit, or other ways to address the shortcomings of viewport units in mobile cases]] (tab, fantasai)
   * Motion
     * [[https://github.com/w3c/csswg-drafts/issues/3468|Decide on final approach for merging all uses of shapes]] (amelia, tab, krit?)
-  * [[https://github.com/WICG/construct-stylesheets/issues/|Constructable Style Sheets open issues]]
+  * Constructable Style Sheets (heycam)
+    * [[https://github.com/WICG/construct-stylesheets/issues/105|CSSStyleSheetInit dictionary may have unintended usage]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/95|Defined location/href of Constructed Stylesheets]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/93|Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/45|Instead of assignable FrozenArray, use add / remove]]
   * [[https://github.com/w3c/csswg-drafts/issues/4108|Finishing `font-display: optional`]] (tabatkins, chrishtr)
 ===== Schedule =====
 
