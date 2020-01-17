@@ -35,24 +35,11 @@ It was last updated on 25 October 2017 and tracks backwards through about August
   : [[https://lists.w3.org/Archives/Public/www-style/2012Apr/0110.html|Note about seizures?]]
 
   ; Block Layout
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0295.html|ACTION Bert: Republish css3-box with obnoxious note pointing to CSS2.1<trackbot> Created ACTION-644]]
-
-  ; Box
   : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: 0px width float that is next to a line box does count as shortening a line box]]
 
   ; Box Alignment
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html|Resolved: Publish updated WD of css-align]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0023.html|Resolved: Option #1 from the issue (https://github.com/w3c/csswg-drafts/issues/1612)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0023.html|Resolved: Such alignments that overflow will not participate in last baseline alignment (Issue #1556)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Publish an updated WD of css-align]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0006.html|Resolved: Option 3 from issue (Treat items with align-self: stretch and align-content: last baseline as having an end fallback alignment instead of a start fallback alignment.)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: New Values boilerplate accepted]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: leave behavior as-is and not accept ‘legacy’ values for ‘place-items’]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: accept the proposal that margin and position properties will return the specified values.]]
   : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: the baseline alignment in block direction of tables is not defined. Also add a note prompting implementors to bring back ideas if they have any.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: leave the ‘left’ and ‘right’ values to fallback to start.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: remove left and right from align-self and align-content in align L3.]]
-  : Under LC Review
 
   ; Compositing
   : [[https://www.w3.org/blog/CSS/2014/06/26/minutes-telecon-216/|Resolved: Solve background-blend on the root element as Rik requests.]]
