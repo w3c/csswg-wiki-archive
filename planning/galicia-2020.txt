@@ -31,20 +31,25 @@
     * [[https://github.com/WICG/construct-stylesheets/issues/95|Defined location/href of Constructed Stylesheets]]
     * [[https://github.com/WICG/construct-stylesheets/issues/93|Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?]]
     * [[https://github.com/WICG/construct-stylesheets/issues/45|Instead of assignable FrozenArray, use add / remove]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4108|Finishing `font-display: optional`]] (tabatkins, chrishtr)
   * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]
   * [[https://github.com/w3c/csswg-drafts/issues/4670|[css-env] safe-area-insets-* for embedded document by iframe]]
   * [[https://github.com/w3c/csswg-drafts/issues/4650|[css-grid-2] Masonry layout]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]
+  * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]]
   * Fonts
     * [[https://github.com/w3c/csswg-drafts/issues/4606|[css-fonts] The Cursive = Chinese Kaiti equivalent]]
     * [[https://github.com/w3c/csswg-drafts/issues/4497|[css-fonts] limit local fonts to those selected by users in browser settings]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4108|[css-fonts-4] font-display: optional without relayout]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4108|[css-fonts-4] font-display: optional without relayout]] (tabatkins, chrishtr)
     * [[https://github.com/w3c/csswg-drafts/issues/2531|Remove font-variant @font-face descriptor from Fonts 4]]
+  * Text
+    * [[https://github.com/w3c/csswg-drafts/issues/2818|[css-text-decor-4] Consider adding a third value (skip?) for text-decoration-skip-ink.]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4276|[css-text-decor] Clarifying skip-ink:auto behavior in relation to CJK text ]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4492|[css-ruby-1] ruby overhang control]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4419|[css-text] Line breaking for ambiguous characters; e.g., U+2010, U+2013]]
   * [[https://github.com/w3c/csswg-drafts/issues/4531|[css-sizing] intrinsic-size lost the thread]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4492|[css-ruby-1] ruby overhang control]]
   * [[https://github.com/w3c/csswg-drafts/issues/4470|[css-cascade] Custom cascade origins]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4419|https://github.com/w3c/csswg-drafts/issues/4419]]
+  * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518|Rhythm, line-grid and tests]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4033|[css-align-3][css-tables] vertical-align in orthogonal table cells]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4329|[css-values-4] Add vhc value]]
 ===== Schedule =====
 
 ==== Constraints ====
