@@ -72,4 +72,4 @@
 
 * Please schedule motion topics in AM (Eric will dial in)
 
-* Dialog positioning (and maybe vhc unit) at a US-friendly time for smfr
+* Dialog positioning, mouseWheel (and maybe vhc unit) at a US-friendly time for smfr
