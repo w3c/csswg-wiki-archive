@@ -20,6 +20,8 @@
   * Inline 3: leading-trim etc. **(LINK PLEASE???)**
   * V&U issues:
     * [[https://github.com/w3c/csswg-drafts/issues/2513|round()/floor()/ceil()/mod()]] (tab)
+    * [[https://github.com/w3c/csswg-drafts/issues/4673|sign()]] (tab)
+    * [[https://github.com/w3c/csswg-drafts/issues/4688|the rest of the JS math functions]] (tab)
     * [[https://github.com/w3c/csswg-drafts/issues/4551|require double precision for calculation trees]] (tab)
     * [[https://github.com/w3c/csswg-drafts/issues/4329|vhc unit, or other ways to address the shortcomings of viewport units in mobile cases]] (fantasai, jensimmons)
   * Motion
