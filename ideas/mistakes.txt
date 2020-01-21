@@ -47,3 +47,4 @@ That should be corrected if anyone invents a time machine. :P
   * comments shouldn't have been allowed basically everywhere in CSS (compare to HTML, which basically only allows them where content goes), because it makes them basically unrepresentable in the object model, which in turn makes building editing directly on top of the object model impossible
   * The alignment properties in Flexbox should have been writing-mode relative, not flex-flow relative, and thus could have reasonably understandable names like align-inline-* and align-block-*.
   * shape-outside should have had wrap- in the name somehow, as people assume the shape should also clip the content as in clip-path.
+  * It shouldn't be `!important` — that reads to engineers as "not important". We should have picked another way to write this.
