@@ -67,7 +67,7 @@
   * CSS Backgrounds Level 3
     * [[https://github.com/w3c/csswg-drafts/issues/4135|[css-backgrounds] Number of layers in getComputedStyle results]]
     * [[https://github.com/w3c/csswg-drafts/issues/2675|[css-backgrounds-3] background-size with "<length-percentage> auto" and gradient image is not interoperably implemented]]
-  * [[https://github.com/w3c/svgwg/issues/773|Support pathLength via CSS]] — request from SVG WG for CSS WG to sign off on a new geometry property (pending review of implementability, as discussed in the issue).
+  * [[https://github.com/w3c/svgwg/issues/773|Support pathLength via CSS]] — request from SVG WG for CSS WG to sign off on a new geometry property (pending review of implementability, as discussed in the issue) (tab, others?)
 ===== Schedule =====
 
 ==== Constraints ====
