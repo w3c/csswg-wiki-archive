@@ -30,7 +30,7 @@
     * [[https://github.com/WICG/construct-stylesheets/issues/95|Defined location/href of Constructed Stylesheets]]
     * [[https://github.com/WICG/construct-stylesheets/issues/93|Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?]]
     * [[https://github.com/WICG/construct-stylesheets/issues/45|Instead of assignable FrozenArray, use add / remove]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]
+  * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]]
   * [[https://github.com/w3c/csswg-drafts/issues/4670|[css-env] safe-area-insets-* for embedded document by iframe]]
   * [[https://github.com/w3c/csswg-drafts/issues/4650|[css-grid-2] Masonry layout]]
   * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]] (smfr would like to call in)
