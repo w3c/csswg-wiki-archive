@@ -101,3 +101,5 @@
 * Please schedule motion topics in AM (Eric will dial in)
 
 * Dialog positioning, mouseWheel (and maybe vhc unit) at a US-friendly time for smfr
+
+* cbiesinger has to leave a bit early on Friday, please schedule intrinsic size before that
