@@ -36,7 +36,6 @@
     * [[https://github.com/w3c/csswg-drafts/issues/4492|[css-ruby-1] ruby overhang control]]
     * [[https://github.com/w3c/csswg-drafts/issues/4419|[css-text] Line breaking for ambiguous characters; e.g., U+2010, U+2013]]
   * [[https://github.com/w3c/csswg-drafts/issues/4531|[css-sizing] intrinsic-size lost the thread]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4470|[css-cascade] Custom cascade origins]]
   * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518|Rhythm, line-grid and tests]]
   * Scroll Snap
     * [[https://github.com/w3c/csswg-drafts/issues/4651|[css-scroll-snap-1] Snapping on both axes allows re-snap after layout to choose inconsistent snap targets]]
@@ -83,6 +82,7 @@
     * [[https://github.com/WICG/construct-stylesheets/issues/95|Defined location/href of Constructed Stylesheets]]
     * [[https://github.com/WICG/construct-stylesheets/issues/93|Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?]]
     * [[https://github.com/WICG/construct-stylesheets/issues/45|Instead of assignable FrozenArray, use add / remove]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4470|[css-cascade] Custom cascade origins]]
 
 **Wednesday Afternoon**
 
