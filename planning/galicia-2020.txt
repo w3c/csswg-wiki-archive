@@ -18,17 +18,6 @@
   * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]]
   * [[https://github.com/w3c/csswg-drafts/issues/4670|[css-env] safe-area-insets-* for embedded document by iframe]]
   * [[https://github.com/w3c/csswg-drafts/issues/4650|[css-grid-2] Masonry layout]]
-  * Fonts
-    * [[https://github.com/w3c/csswg-drafts/issues/4606|[css-fonts] The Cursive = Chinese Kaiti equivalent]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4497|[css-fonts] limit local fonts to those selected by users in browser settings]] Pete Snyder may call in
-    * [[https://github.com/w3c/csswg-drafts/issues/4108|[css-fonts-4] font-display: optional without relayout]] (tabatkins, chrishtr)
-    * [[https://github.com/w3c/csswg-drafts/issues/2531|Remove font-variant @font-face descriptor from Fonts 4]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4573|Add ISO 15924 script codes to unicode-range]]
-  * Text
-    * [[https://github.com/w3c/csswg-drafts/issues/2818|[css-text-decor-4] Consider adding a third value (skip?) for text-decoration-skip-ink.]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4276|[css-text-decor] Clarifying skip-ink:auto behavior in relation to CJK text ]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4492|[css-ruby-1] ruby overhang control]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4419|[css-text] Line breaking for ambiguous characters; e.g., U+2010, U+2013]]
   * [[https://github.com/w3c/csswg-drafts/issues/4531|[css-sizing] intrinsic-size lost the thread]]
   * [[https://github.com/w3c/csswg-drafts/issues/3973|[css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis?]
   * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518|Rhythm, line-grid and tests]]
@@ -40,13 +29,7 @@
     * [[https://github.com/w3c/csswg-drafts/issues/2675|[css-backgrounds-3] background-size with "<length-percentage> auto" and gradient image is not interoperably implemented]]
     * [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Acss-backgrounds-3++-label%3A%22Needs+Edits%22+|Remaining issues: do we need to do anything with them, or close them out?]]
   * [[https://github.com/w3c/svgwg/issues/773|Support pathLength via CSS]] — request from SVG WG for CSS WG to sign off on a new geometry property (pending review of implementability, as discussed in the issue) (tab, others?)
-  * Color
-    * Serialization/OM issues
-      * [[https://github.com/w3c/csswg-drafts/issues/982|[css-color-4][cssom] Overlap between the definition of resolving color values and serializing <color> component values.]]
-      * [[https://github.com/w3c/csswg-drafts/issues/1004|[css-color][cssom] Serialization of specified <color> values]]
-      * [[https://github.com/w3c/csswg-drafts/issues/480|[css-color] Serializing color() values]]
-      * [[https://github.com/w3c/csswg-drafts/issues/1891|[css-color-4] Computed/used value of color doesn't specify how to serialize.]]
-      * [[https://github.com/w3c/csswg-drafts/issues/585|[cssom][css-color] Need clarification on serialization of `rgb` & `rgba` in light of css-color-4's syntax changes]]
+
 ===== Schedule =====
 
 **Wednesday Morning**
@@ -94,8 +77,27 @@
     * [[https://github.com/WICG/construct-stylesheets/issues/45|Instead of assignable FrozenArray, use add / remove]]
 
 **Friday Morning**
+  * Fonts
+    * [[https://github.com/w3c/csswg-drafts/issues/4606|[css-fonts] The Cursive = Chinese Kaiti equivalent]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4497|[css-fonts] limit local fonts to those selected by users in browser settings]] Pete Snyder may call in
+    * [[https://github.com/w3c/csswg-drafts/issues/4108|[css-fonts-4] font-display: optional without relayout]] (tabatkins, chrishtr)
+    * [[https://github.com/w3c/csswg-drafts/issues/2531|Remove font-variant @font-face descriptor from Fonts 4]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4573|Add ISO 15924 script codes to unicode-range]]
+  * Text
+    * [[https://github.com/w3c/csswg-drafts/issues/2818|[css-text-decor-4] Consider adding a third value (skip?) for text-decoration-skip-ink.]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4276|[css-text-decor] Clarifying skip-ink:auto behavior in relation to CJK text ]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4492|[css-ruby-1] ruby overhang control]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4419|[css-text] Line breaking for ambiguous characters; e.g., U+2010, U+2013]]
 
 **Friday Afternoon**
+
+  * Color
+    * Serialization/OM issues
+      * [[https://github.com/w3c/csswg-drafts/issues/982|[css-color-4][cssom] Overlap between the definition of resolving color values and serializing <color> component values.]]
+      * [[https://github.com/w3c/csswg-drafts/issues/1004|[css-color][cssom] Serialization of specified <color> values]]
+      * [[https://github.com/w3c/csswg-drafts/issues/480|[css-color] Serializing color() values]]
+      * [[https://github.com/w3c/csswg-drafts/issues/1891|[css-color-4] Computed/used value of color doesn't specify how to serialize.]]
+      * [[https://github.com/w3c/csswg-drafts/issues/585|[cssom][css-color] Need clarification on serialization of `rgb` & `rgba` in light of css-color-4's syntax changes]]
 
 ==== Constraints ====
 
