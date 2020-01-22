@@ -14,24 +14,12 @@
 
   * TRIAGE ALL THE SPECS - What needs publishing? What's blocked? What has outstanding edits needed? Let's get things up-to-date.
      * FPWD!!!!! resize-observer, mediaqueries-5, css-transforms-2, css-conditional-4, css-highlight-api-1, css-color-5, anything else?
-  * Finalize dates for summer meeting
   * **Also see [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22|csswg-drafts issues]] and [[https://github.com/w3c/fxtf-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22|fxtf-drafts issues]].**
   * Display Level 4: Display Noneness of Various Kinds **(LINK PLEASE???)**
   * Inline 3: leading-trim etc. **(LINK PLEASE???)**
-  * V&U issues:
-    * [[https://github.com/w3c/csswg-drafts/issues/2513|round()/floor()/ceil()/mod()]] (tab)
-    * [[https://github.com/w3c/csswg-drafts/issues/4673|sign()]] (tab)
-    * [[https://github.com/w3c/csswg-drafts/issues/4688|the rest of the JS math functions]] (tab)
-    * [[https://github.com/w3c/csswg-drafts/issues/4551|require double precision for calculation trees]] (tab)
-    * [[https://github.com/w3c/csswg-drafts/issues/4329|vhc unit, or other ways to address the shortcomings of viewport units in mobile cases]] (fantasai, jensimmons)
   * Motion
     * [[https://github.com/w3c/csswg-drafts/issues/3468|Decide on final approach for merging all uses of shapes]] (amelia, tab, krit?)
     * [[https://github.com/w3c/fxtf-drafts/issues/369|[motion-1] The definition of "containing box" for ray() function]]
-  * Constructable Style Sheets (heycam)
-    * [[https://github.com/WICG/construct-stylesheets/issues/105|CSSStyleSheetInit dictionary may have unintended usage]]
-    * [[https://github.com/WICG/construct-stylesheets/issues/95|Defined location/href of Constructed Stylesheets]]
-    * [[https://github.com/WICG/construct-stylesheets/issues/93|Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?]]
-    * [[https://github.com/WICG/construct-stylesheets/issues/45|Instead of assignable FrozenArray, use add / remove]]
   * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]]
   * [[https://github.com/w3c/csswg-drafts/issues/4670|[css-env] safe-area-insets-* for embedded document by iframe]]
   * [[https://github.com/w3c/csswg-drafts/issues/4650|[css-grid-2] Masonry layout]]
@@ -80,6 +68,27 @@
       * [[https://github.com/w3c/csswg-drafts/issues/1891|[css-color-4] Computed/used value of color doesn't specify how to serialize.]]
       * [[https://github.com/w3c/csswg-drafts/issues/585|[cssom][css-color] Need clarification on serialization of `rgb` & `rgba` in light of css-color-4's syntax changes]]
 ===== Schedule =====
+
+**Wednesday Morning**
+
+  * V&U issues:
+    * [[https://github.com/w3c/csswg-drafts/issues/2513|round()/floor()/ceil()/mod()]] (tab)
+    * [[https://github.com/w3c/csswg-drafts/issues/4673|sign()]] (tab)
+    * [[https://github.com/w3c/csswg-drafts/issues/4688|the rest of the JS math functions]] (tab)
+    * [[https://github.com/w3c/csswg-drafts/issues/4551|require double precision for calculation trees]] (tab)
+    * [[https://github.com/w3c/csswg-drafts/issues/4329|vhc unit, or other ways to address the shortcomings of viewport units in mobile cases]] (fantasai, jensimmons)
+  * Finalize dates for summer meeting
+  * Constructable Style Sheets (heycam)
+    * [[https://github.com/WICG/construct-stylesheets/issues/105|CSSStyleSheetInit dictionary may have unintended usage]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/95|Defined location/href of Constructed Stylesheets]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/93|Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/45|Instead of assignable FrozenArray, use add / remove]]
+
+**Wednesday Afternoon**
+
+**Wednesday Afternoon**
+
+**Wednesday Afternoon**
 
 ==== Constraints ====
 
