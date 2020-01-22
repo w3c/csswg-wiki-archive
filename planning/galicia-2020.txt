@@ -21,6 +21,7 @@
   * [[https://github.com/w3c/csswg-drafts/issues/4662|[css-transforms-1] 'view-box' definition doesn't make sense]]
   * [[https://github.com/w3c/csswg-drafts/issues/3153|[web-animations-1][css-ui] Animating user-interaction controls]]
   * [[https://github.com/w3c/svgwg/issues/773|Support pathLength via CSS]] — request from SVG WG for CSS WG to sign off on a new geometry property (pending review of implementability, as discussed in the issue) (tab, others?)
+  * [[https://github.com/w3c/csswg-drafts/issues/4689|[css-multicol] Defining what happens with column-fill in unconstrained containers for continuous and fragmented contexts ]]
 
 ===== Schedule =====
 
@@ -64,12 +65,12 @@
      * FPWD!!!!! resize-observer, mediaqueries-5, css-transforms-2, css-conditional-4, css-highlight-api-1, css-color-5, anything else?
   * [[https://github.com/w3c/csswg-drafts/issues/4531|[css-sizing] intrinsic-size lost the thread]]
   * [[https://github.com/w3c/csswg-drafts/issues/4650|[css-grid-2] Masonry layout]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3973|[css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis?]
+  * [[https://github.com/w3c/csswg-drafts/issues/3973|[css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis?]]
 
 **Thursday Afternoon**
   * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]] (smfr would like to call in)
-  * [[https://github.com/w3c/csswg-drafts/issues/4680|[css-om-view] How does scrolling relate to mouseWheel event propagation?]]
-  * Constructable Style Sheets (heycam)
+  * [[https://github.com/w3c/csswg-drafts/issues/4680|[css-om-view] How does scrolling relate to mouseWheel event propagation?]] (smfr would like to call in)
+  * Constructable Style Sheets (heycam) (rniwa may call in)
     * [[https://github.com/WICG/construct-stylesheets/issues/105|CSSStyleSheetInit dictionary may have unintended usage]]
     * [[https://github.com/WICG/construct-stylesheets/issues/95|Defined location/href of Constructed Stylesheets]]
     * [[https://github.com/WICG/construct-stylesheets/issues/93|Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?]]
