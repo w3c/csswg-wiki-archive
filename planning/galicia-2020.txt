@@ -17,11 +17,7 @@
   * Inline 3: leading-trim etc. **(LINK PLEASE???)**
   * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]]
   * [[https://github.com/w3c/csswg-drafts/issues/4670|[css-env] safe-area-insets-* for embedded document by iframe]]
-  * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518|Rhythm, line-grid and tests]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4662|[css-transforms-1] 'view-box' definition doesn't make sense]]
   * [[https://github.com/w3c/csswg-drafts/issues/3153|[web-animations-1][css-ui] Animating user-interaction controls]]
-  * [[https://github.com/w3c/svgwg/issues/773|Support pathLength via CSS]] — request from SVG WG for CSS WG to sign off on a new geometry property (pending review of implementability, as discussed in the issue) (tab, others?)
-  * [[https://github.com/w3c/csswg-drafts/issues/4689|[css-multicol] Defining what happens with column-fill in unconstrained containers for continuous and fragmented contexts ]]
 
 ===== Schedule =====
 
@@ -54,6 +50,11 @@
     * [[https://github.com/w3c/csswg-drafts/issues/4135|[css-backgrounds] Number of layers in getComputedStyle results]]
     * [[https://github.com/w3c/csswg-drafts/issues/2675|[css-backgrounds-3] background-size with "<length-percentage> auto" and gradient image is not interoperably implemented]]
     * [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Acss-backgrounds-3++-label%3A%22Needs+Edits%22+|Remaining issues: do we need to do anything with them, or close them out?]]
+
+  * [[https://github.com/w3c/svgwg/issues/773|Support pathLength via CSS]] — request from SVG WG for CSS WG to sign off on a new geometry property (pending review of implementability, as discussed in the issue) (tab, others?)
+  * [[https://github.com/w3c/csswg-drafts/issues/4689|[css-multicol] Defining what happens with column-fill in unconstrained containers for continuous and fragmented contexts ]]
+  * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518|Rhythm, line-grid and tests]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4662|[css-transforms-1] 'view-box' definition doesn't make sense]]
 
   * [[https://github.com/w3c/csswg-drafts/issues/4470|[css-cascade] Custom cascade origins]] (jensimmons, perhaps with Miriam Suzanne calling in)
 
