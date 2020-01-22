@@ -57,11 +57,11 @@
     * [[https://github.com/w3c/csswg-drafts/issues/4688|the rest of the JS math functions]] (tab)
     * [[https://github.com/w3c/csswg-drafts/issues/4551|require double precision for calculation trees]] (tab)
     * [[https://github.com/w3c/csswg-drafts/issues/4329|vhc unit, or other ways to address the shortcomings of viewport units in mobile cases]] (fantasai, jensimmons)
-  * Finalize dates for summer meeting
-  * [[https://github.com/w3c/csswg-drafts/issues/4470|[css-cascade] Custom cascade origins]]
 
 **Wednesday Afternoon**
 
+  * Finalize dates for summer meeting
+  * [[https://github.com/w3c/csswg-drafts/issues/4470|[css-cascade] Custom cascade origins]]
   * Align
     * [[https://github.com/w3c/csswg-drafts/issues/4033|vertical-align in orthogonal table cells]] - side prep discussion with fremy, fantasai, florian, Tab, then WG discussion
     * [[https://github.com/w3c/csswg-drafts/issues/3611|[css-align] Special case for inline-block+scroll-container elements needs to cover inline blocks that **contain** scroll containers]]
