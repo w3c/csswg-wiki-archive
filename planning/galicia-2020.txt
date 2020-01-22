@@ -53,7 +53,7 @@
     * [[https://github.com/w3c/csswg-drafts/issues/4496|[css-scroll-snap-1] Snap area trapping behavior of non scrollable elements]]
     * [[https://github.com/w3c/csswg-drafts/issues/4393|[css-scroll-anchoring] [css-scroll-snap] What's the optimal viewing rect on the root scroller?]]
     * [[https://github.com/w3c/csswg-drafts/issues/3815|[css-scroll-snap-1] Clarify which writing-mode is used for scroll-snap-align, scroll container or snap position element? ]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4470|[css-cascade] Custom cascade origins]] perhaps with Miriam calling in?
+  * [[https://github.com/w3c/csswg-drafts/issues/4470|[css-cascade] Custom cascade origins]] (jensimmons, perhaps with Miriam Suzanne calling in)
 
 **Thursday Morning**
   * Motion
