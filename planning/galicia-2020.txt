@@ -17,13 +17,9 @@
   * **Also see [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22|csswg-drafts issues]] and [[https://github.com/w3c/fxtf-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22|fxtf-drafts issues]].**
   * Display Level 4: Display Noneness of Various Kinds **(LINK PLEASE???)**
   * Inline 3: leading-trim etc. **(LINK PLEASE???)**
-  * Motion
-    * [[https://github.com/w3c/csswg-drafts/issues/3468|Decide on final approach for merging all uses of shapes]] (amelia, tab, krit?)
-    * [[https://github.com/w3c/fxtf-drafts/issues/369|[motion-1] The definition of "containing box" for ray() function]]
   * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]]
   * [[https://github.com/w3c/csswg-drafts/issues/4670|[css-env] safe-area-insets-* for embedded document by iframe]]
   * [[https://github.com/w3c/csswg-drafts/issues/4650|[css-grid-2] Masonry layout]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]] (smfr would like to call in)
   * Fonts
     * [[https://github.com/w3c/csswg-drafts/issues/4606|[css-fonts] The Cursive = Chinese Kaiti equivalent]]
     * [[https://github.com/w3c/csswg-drafts/issues/4497|[css-fonts] limit local fonts to those selected by users in browser settings]] Pete Snyder may call in
@@ -43,15 +39,7 @@
     * [[https://github.com/w3c/csswg-drafts/issues/4496|[css-scroll-snap-1] Snap area trapping behavior of non scrollable elements]]
     * [[https://github.com/w3c/csswg-drafts/issues/4393|[css-scroll-anchoring] [css-scroll-snap] What's the optimal viewing rect on the root scroller?]]
     * [[https://github.com/w3c/csswg-drafts/issues/3815|[css-scroll-snap-1] Clarify which writing-mode is used for scroll-snap-align, scroll container or snap position element? ]]
-  * Align
-    * [[https://github.com/w3c/csswg-drafts/issues/4033|vertical-align in orthogonal table cells]] - side prep discussion with fremy, fantasai, florian, Tab, then WG discussion
-    * [[https://github.com/w3c/csswg-drafts/issues/3611|[css-align] Special case for inline-block+scroll-container elements needs to cover inline blocks that **contain** scroll containers]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4525|[css-align] Does stretch work when width/height only behaves as auto?]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4659|[css-align] Center alignment can be improved]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4660|[css-align-3] Punt baseline-alignment to level 4]]
-    * All remaining issues, go to CR?
   * [[https://github.com/w3c/csswg-drafts/issues/4662|[css-transforms-1] 'view-box' definition doesn't make sense]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4680|[css-om-view] How does scrolling relate to mouseWheel event propagation?]]
   * [[https://github.com/w3c/csswg-drafts/issues/4608|[css-color-adjust] Used color-scheme should affect the root element color, not initial color ]]
   * [[https://github.com/w3c/csswg-drafts/issues/3153|[web-animations-1][css-ui] Animating user-interaction controls]]
   * CSS Backgrounds Level 3
@@ -86,11 +74,23 @@
 
 **Wednesday Afternoon**
 
+  * Align
+    * [[https://github.com/w3c/csswg-drafts/issues/4033|vertical-align in orthogonal table cells]] - side prep discussion with fremy, fantasai, florian, Tab, then WG discussion
+    * [[https://github.com/w3c/csswg-drafts/issues/3611|[css-align] Special case for inline-block+scroll-container elements needs to cover inline blocks that **contain** scroll containers]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4525|[css-align] Does stretch work when width/height only behaves as auto?]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4659|[css-align] Center alignment can be improved]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4660|[css-align-3] Punt baseline-alignment to level 4]]
+    * All remaining issues, go to CR?
+
+
 **Thursday Morning**
-  * Motion topics due to constraint
+  * Motion
+    * [[https://github.com/w3c/csswg-drafts/issues/3468|Decide on final approach for merging all uses of shapes]] (amelia, tab, krit?)
+    * [[https://github.com/w3c/fxtf-drafts/issues/369|[motion-1] The definition of "containing box" for ray() function]]
 
 **Thursday Afternoon**
-  * Dialog positioning and mouse wheel topics due to constraint
+  * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]] (smfr would like to call in)
+  * [[https://github.com/w3c/csswg-drafts/issues/4680|[css-om-view] How does scrolling relate to mouseWheel event propagation?]]
 
 **Friday Morning**
 
