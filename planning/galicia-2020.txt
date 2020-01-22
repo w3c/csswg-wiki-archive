@@ -38,10 +38,10 @@
   * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]] (smfr would like to call in)
   * Fonts
     * [[https://github.com/w3c/csswg-drafts/issues/4606|[css-fonts] The Cursive = Chinese Kaiti equivalent]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4497|[css-fonts] limit local fonts to those selected by users in browser settings]] Add ISO 15924 script codes to unicode-range]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4497|[css-fonts] limit local fonts to those selected by users in browser settings]] 
     * [[https://github.com/w3c/csswg-drafts/issues/4108|[css-fonts-4] font-display: optional without relayout]] (tabatkins, chrishtr)
     * [[https://github.com/w3c/csswg-drafts/issues/2531|Remove font-variant @font-face descriptor from Fonts 4]]
-    * [[https://github.com/w3c/csswg-drafts/issues/4573 | 
+    * [[https://github.com/w3c/csswg-drafts/issues/4573|Add ISO 15924 script codes to unicode-range]]
   * Text
     * [[https://github.com/w3c/csswg-drafts/issues/2818|[css-text-decor-4] Consider adding a third value (skip?) for text-decoration-skip-ink.]]
     * [[https://github.com/w3c/csswg-drafts/issues/4276|[css-text-decor] Clarifying skip-ink:auto behavior in relation to CJK text ]]
