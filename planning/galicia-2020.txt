@@ -89,6 +89,13 @@
     * [[https://github.com/w3c/csswg-drafts/issues/4276|[css-text-decor] Clarifying skip-ink:auto behavior in relation to CJK text ]]
     * [[https://github.com/w3c/csswg-drafts/issues/4492|[css-ruby-1] ruby overhang control]]
     * [[https://github.com/w3c/csswg-drafts/issues/4419|[css-text] Line breaking for ambiguous characters; e.g., U+2010, U+2013]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4576|[css-text] Atomic inlines being equivalent to ID for line breaking is not web-compatible]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4445|[css-text] Writing System prose is currently unimplementable on ICU]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4419| [css-text] Line breaking for ambiguous characters; e.g., U+2010, U+2013]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4405|[css-text] treat all-neutral lines same as empty ones for plaintext alignment]]
+    * [[https://github.com/w3c/csswg-drafts/issues/4297|[css-text] Hanging spaces can't be scrollable overflow]]
+    * [[https://github.com/w3c/csswg-drafts/issues/3481|[css-text] Remove collapsible line breaks adjacent to word separators]]
+    * [[https://github.com/w3c/csswg-drafts/issues/337|[css-text] https://github.com/w3c/csswg-drafts/issues/337]]
 
 **Friday Afternoon**
 
