@@ -65,11 +65,6 @@
     * [[https://github.com/w3c/csswg-drafts/issues/4551|require double precision for calculation trees]] (tab)
     * [[https://github.com/w3c/csswg-drafts/issues/4329|vhc unit, or other ways to address the shortcomings of viewport units in mobile cases]] (fantasai, jensimmons)
   * Finalize dates for summer meeting
-  * Constructable Style Sheets (heycam)
-    * [[https://github.com/WICG/construct-stylesheets/issues/105|CSSStyleSheetInit dictionary may have unintended usage]]
-    * [[https://github.com/WICG/construct-stylesheets/issues/95|Defined location/href of Constructed Stylesheets]]
-    * [[https://github.com/WICG/construct-stylesheets/issues/93|Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?]]
-    * [[https://github.com/WICG/construct-stylesheets/issues/45|Instead of assignable FrozenArray, use add / remove]]
   * [[https://github.com/w3c/csswg-drafts/issues/4470|[css-cascade] Custom cascade origins]]
 
 **Wednesday Afternoon**
@@ -91,6 +86,11 @@
 **Thursday Afternoon**
   * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]] (smfr would like to call in)
   * [[https://github.com/w3c/csswg-drafts/issues/4680|[css-om-view] How does scrolling relate to mouseWheel event propagation?]]
+  * Constructable Style Sheets (heycam)
+    * [[https://github.com/WICG/construct-stylesheets/issues/105|CSSStyleSheetInit dictionary may have unintended usage]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/95|Defined location/href of Constructed Stylesheets]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/93|Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?]]
+    * [[https://github.com/WICG/construct-stylesheets/issues/45|Instead of assignable FrozenArray, use add / remove]]
 
 **Friday Morning**
 
