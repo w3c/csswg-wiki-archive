@@ -17,12 +17,8 @@
   * Inline 3: leading-trim etc. **(LINK PLEASE???)**
   * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]]
   * [[https://github.com/w3c/csswg-drafts/issues/4670|[css-env] safe-area-insets-* for embedded document by iframe]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4650|[css-grid-2] Masonry layout]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4531|[css-sizing] intrinsic-size lost the thread]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3973|[css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis?]
   * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518|Rhythm, line-grid and tests]]
   * [[https://github.com/w3c/csswg-drafts/issues/4662|[css-transforms-1] 'view-box' definition doesn't make sense]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4608|[css-color-adjust] Used color-scheme should affect the root element color, not initial color ]]
   * [[https://github.com/w3c/csswg-drafts/issues/3153|[web-animations-1][css-ui] Animating user-interaction controls]]
   * CSS Backgrounds Level 3
     * [[https://github.com/w3c/csswg-drafts/issues/4135|[css-backgrounds] Number of layers in getComputedStyle results]]
@@ -66,6 +62,9 @@
     * [[https://github.com/w3c/fxtf-drafts/issues/369|[motion-1] The definition of "containing box" for ray() function]]
   * TRIAGE ALL THE SPECS - What needs publishing? What's blocked? What has outstanding edits needed? Let's get things up-to-date.
      * FPWD!!!!! resize-observer, mediaqueries-5, css-transforms-2, css-conditional-4, css-highlight-api-1, css-color-5, anything else?
+  * [[https://github.com/w3c/csswg-drafts/issues/4531|[css-sizing] intrinsic-size lost the thread]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4650|[css-grid-2] Masonry layout]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3973|[css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis?]
 
 **Thursday Afternoon**
   * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]] (smfr would like to call in)
@@ -98,6 +97,8 @@
       * [[https://github.com/w3c/csswg-drafts/issues/480|[css-color] Serializing color() values]]
       * [[https://github.com/w3c/csswg-drafts/issues/1891|[css-color-4] Computed/used value of color doesn't specify how to serialize.]]
       * [[https://github.com/w3c/csswg-drafts/issues/585|[cssom][css-color] Need clarification on serialization of `rgb` & `rgba` in light of css-color-4's syntax changes]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4608|[css-color-adjust] Used color-scheme should affect the root element color, not initial color ]]
+
 
 ==== Constraints ====
 
