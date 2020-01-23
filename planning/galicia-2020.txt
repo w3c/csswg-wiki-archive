@@ -59,11 +59,11 @@
     * Organizing cross-spec multicol tests
   * [[https://github.com/w3c/csswg-drafts/issues/4650|[css-grid-2] Masonry layout]]
   * [[https://github.com/w3c/csswg-drafts/issues/3973|[css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518|Rhythm, line-grid and tests]]
 
   * TRIAGE ALL THE SPECS - What needs publishing? What's blocked? What has outstanding edits needed? Let's get things up-to-date.
      * FPWD!!!!! resize-observer, mediaqueries-5, css-transforms-2, css-conditional-4, css-highlight-api-1, css-color-5, anything else?
 
-  * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518|Rhythm, line-grid and tests]]
   * [[https://github.com/w3c/csswg-drafts/issues/4662|[css-transforms-1] 'view-box' definition doesn't make sense]]
   * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]]
   * [[https://github.com/w3c/csswg-drafts/issues/4670|[css-env] safe-area-insets-* for embedded document by iframe]]
