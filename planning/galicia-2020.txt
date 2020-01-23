@@ -73,7 +73,7 @@
 **Thursday Afternoon**
   * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]] (smfr would like to call in)
   * [[https://github.com/w3c/csswg-drafts/issues/4680|[css-om-view] How does scrolling relate to mouseWheel event propagation?]] (smfr would like to call in)
-  * Constructable Style Sheets (heycam) (rniwa may call in)
+  * Constructable Style Sheets (heycam)
     * [[https://github.com/WICG/construct-stylesheets/issues/105|CSSStyleSheetInit dictionary may have unintended usage]]
     * [[https://github.com/WICG/construct-stylesheets/issues/95|Defined location/href of Constructed Stylesheets]]
     * [[https://github.com/WICG/construct-stylesheets/issues/93|Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?]]
