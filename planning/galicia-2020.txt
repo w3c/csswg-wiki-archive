@@ -15,9 +15,6 @@
   * **Also see [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22|csswg-drafts issues]] and [[https://github.com/w3c/fxtf-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22|fxtf-drafts issues]].**
   * Display Level 4: Display Noneness of Various Kinds **(LINK PLEASE???)**
   * Inline 3: leading-trim etc. **(LINK PLEASE???)**
-  * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4670|[css-env] safe-area-insets-* for embedded document by iframe]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3153|[web-animations-1][css-ui] Animating user-interaction controls]]
 
 ===== Schedule =====
 
@@ -68,6 +65,10 @@
 
   * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518|Rhythm, line-grid and tests]]
   * [[https://github.com/w3c/csswg-drafts/issues/4662|[css-transforms-1] 'view-box' definition doesn't make sense]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4670|[css-env] safe-area-insets-* for embedded document by iframe]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3153|[web-animations-1][css-ui] Animating user-interaction controls]]
+
 
 **Thursday Afternoon**
   * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]] (smfr would like to call in)
