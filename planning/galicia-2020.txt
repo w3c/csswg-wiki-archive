@@ -61,14 +61,13 @@
   * [[https://github.com/w3c/csswg-drafts/issues/3973|[css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis?]]
   * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518|Rhythm, line-grid and tests]]
 
-  * TRIAGE ALL THE SPECS - What needs publishing? What's blocked? What has outstanding edits needed? Let's get things up-to-date.
-     * FPWD!!!!! resize-observer, mediaqueries-5, css-transforms-2, css-conditional-4, css-highlight-api-1, css-color-5, anything else?
-
   * [[https://github.com/w3c/csswg-drafts/issues/4662|[css-transforms-1] 'view-box' definition doesn't make sense]]
   * [[https://github.com/w3c/csswg-drafts/issues/4674|[css-overflow-4] scrollbar-gutter is too complex]]
   * [[https://github.com/w3c/csswg-drafts/issues/4670|[css-env] safe-area-insets-* for embedded document by iframe]]
   * [[https://github.com/w3c/csswg-drafts/issues/3153|[web-animations-1][css-ui] Animating user-interaction controls]]
 
+  * TRIAGE ALL THE SPECS - What needs publishing? What's blocked? What has outstanding edits needed? Let's get things up-to-date.
+     * FPWD!!!!! resize-observer, mediaqueries-5, css-transforms-2, css-conditional-4, css-highlight-api-1, css-color-5, anything else?
 
 **Thursday Afternoon**
   * [[https://github.com/w3c/csswg-drafts/issues/4645|[dialog element] <dialog> positioning should be describable in CSS]] (smfr would like to call in)
