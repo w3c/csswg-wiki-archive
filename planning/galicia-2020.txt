@@ -56,6 +56,11 @@
   * [[https://github.com/w3c/csswg-drafts/issues/4470|[css-cascade] Custom cascade origins]] (jensimmons, perhaps with Miriam Suzanne calling in)
 
 **Thursday Morning**
+
+  * Multicol
+    * [[https://github.com/w3c/csswg-drafts/issues/4689|[css-multicol] Defining what happens with column-fill in unconstrained containers for continuous and fragmented contexts ]]
+    * Organizing cross-spec multicol tests
+
   * Motion
     * [[https://github.com/w3c/csswg-drafts/issues/3468|Decide on final approach for merging all uses of shapes]] (amelia, tab, krit?)
     * [[https://github.com/w3c/fxtf-drafts/issues/369|[motion-1] The definition of "containing box" for ray() function]]
@@ -65,9 +70,6 @@
   * [[https://github.com/w3c/csswg-drafts/issues/4650|[css-grid-2] Masonry layout]]
   * [[https://github.com/w3c/csswg-drafts/issues/3973|[css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis?]]
 
-  * Multicol
-    * [[https://github.com/w3c/csswg-drafts/issues/4689|[css-multicol] Defining what happens with column-fill in unconstrained containers for continuous and fragmented contexts ]]
-    * Organizing cross-spec multicol tests
   * [[https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518|Rhythm, line-grid and tests]]
   * [[https://github.com/w3c/csswg-drafts/issues/4662|[css-transforms-1] 'view-box' definition doesn't make sense]]
 
