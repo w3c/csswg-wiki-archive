@@ -129,6 +129,8 @@
   * [[https://github.com/w3c/csswg-drafts/issues/4608|[css-color-adjust] Used color-scheme should affect the root element color, not initial color ]]
   * something about mod() from Tab
   * 5PM [[https://github.com/w3c/csswg-drafts/issues/4531|[css-sizing] intrinsic-size lost the thread]]
+  * Fonts for afternoon callers part 2?
+    * [[https://github.com/w3c/csswg-drafts/issues/4108|[css-fonts-4] font-display: optional without relayout]] (tabatkins, chrishtr)
 
 ==== Constraints ====
 
