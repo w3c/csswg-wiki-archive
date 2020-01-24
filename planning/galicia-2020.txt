@@ -92,7 +92,6 @@
 **Friday Morning**
   * [[https://github.com/w3c/csswg-drafts/issues/4497|[css-fonts] limit local fonts to those selected by users in browser settings]] Pete Snyder may call in
   * Text part 1
-    * [[https://github.com/w3c/csswg-drafts/issues/2818|[css-text-decor-4] Consider adding a third value (skip?) for text-decoration-skip-ink.]]
     * [[https://github.com/w3c/csswg-drafts/issues/4276|[css-text-decor] Clarifying skip-ink:auto behavior in relation to CJK text ]]
     * [[https://github.com/w3c/csswg-drafts/issues/4492|[css-ruby-1] ruby overhang control]]
     * [[https://github.com/w3c/csswg-drafts/issues/4419|[css-text] Line breaking for ambiguous characters; e.g., U+2010, U+2013]]
