@@ -106,6 +106,17 @@
   * Text part 2
     * [[https://github.com/w3c/csswg-drafts/issues/4576|[css-text] Atomic inlines being equivalent to ID for line breaking is not web-compatible]]
     * [[https://github.com/w3c/csswg-drafts/issues/4445|[css-text] Writing System prose is currently unimplementable on ICU]]
+
+**Friday Afternoon**
+
+  * Color
+    * Serialization/OM issues
+      * [[https://github.com/w3c/csswg-drafts/issues/1004|[css-color][cssom] Serialization of specified <color> values]]
+      * [[https://github.com/w3c/csswg-drafts/issues/1891|[css-color-4] Computed/used value of color doesn't specify how to serialize.]]
+      * [[https://github.com/w3c/csswg-drafts/issues/585|[cssom][css-color] Need clarification on serialization of `rgb` & `rgba` in light of css-color-4's syntax changes]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4608|[css-color-adjust] Used color-scheme should affect the root element color, not initial color ]]
+  * [[https://github.com/w3c/csswg-drafts/issues/2513|idea to resolve the mod() conflict]] (tab)
+  * Text part 3
     * [[https://github.com/w3c/csswg-drafts/issues/4419| [css-text] Line breaking for ambiguous characters; e.g., U+2010, U+2013]]
     * [[https://github.com/w3c/csswg-drafts/issues/4405|[css-text] treat all-neutral lines same as empty ones for plaintext alignment]]
     * [[https://github.com/w3c/csswg-drafts/issues/4297|[css-text] Hanging spaces can't be scrollable overflow]]
@@ -119,15 +130,6 @@
           * [[https://github.com/w3c/csswg-drafts/issues/3749|resolved value of line-height - follow-up]]
           * [[https://github.com/w3c/csswg-drafts/issues/3698|initial-letter zero sink?]]
 
-**Friday Afternoon**
-
-  * Color
-    * Serialization/OM issues
-      * [[https://github.com/w3c/csswg-drafts/issues/1004|[css-color][cssom] Serialization of specified <color> values]]
-      * [[https://github.com/w3c/csswg-drafts/issues/1891|[css-color-4] Computed/used value of color doesn't specify how to serialize.]]
-      * [[https://github.com/w3c/csswg-drafts/issues/585|[cssom][css-color] Need clarification on serialization of `rgb` & `rgba` in light of css-color-4's syntax changes]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4608|[css-color-adjust] Used color-scheme should affect the root element color, not initial color ]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2513|idea to resolve the mod() conflict]] (tab)
   * 5PM [[https://github.com/w3c/csswg-drafts/issues/4531|[css-sizing] intrinsic-size lost the thread]]
   * Fonts for afternoon callers part 2?
     * [[https://github.com/w3c/csswg-drafts/issues/4108|[css-fonts-4] font-display: optional without relayout]] (tabatkins, chrishtr)
