@@ -75,6 +75,9 @@
     * [[https://github.com/WICG/construct-stylesheets/issues/93|Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?]]
     * [[https://github.com/WICG/construct-stylesheets/issues/45|Instead of assignable FrozenArray, use add / remove]]
 
+    * [[https://github.com/w3c/csswg-drafts/issues/982|[css-color-4][cssom] Overlap between the definition of resolving color values and serializing <color> component values.]]
+    * [[https://github.com/w3c/csswg-drafts/issues/480|[css-color] Serializing color() values]]
+
   * Fonts
     * [[https://github.com/w3c/csswg-drafts/issues/4606|[css-fonts] The Cursive = Chinese Kaiti equivalent]]
     * [[https://github.com/w3c/csswg-drafts/issues/4573|Add ISO 15924 script codes to unicode-range]]
@@ -120,9 +123,7 @@
 
   * Color
     * Serialization/OM issues
-      * [[https://github.com/w3c/csswg-drafts/issues/982|[css-color-4][cssom] Overlap between the definition of resolving color values and serializing <color> component values.]]
       * [[https://github.com/w3c/csswg-drafts/issues/1004|[css-color][cssom] Serialization of specified <color> values]]
-      * [[https://github.com/w3c/csswg-drafts/issues/480|[css-color] Serializing color() values]]
       * [[https://github.com/w3c/csswg-drafts/issues/1891|[css-color-4] Computed/used value of color doesn't specify how to serialize.]]
       * [[https://github.com/w3c/csswg-drafts/issues/585|[cssom][css-color] Need clarification on serialization of `rgb` & `rgba` in light of css-color-4's syntax changes]]
   * [[https://github.com/w3c/csswg-drafts/issues/4608|[css-color-adjust] Used color-scheme should affect the root element color, not initial color ]]
