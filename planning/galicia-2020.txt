@@ -126,7 +126,8 @@
       * [[https://github.com/w3c/csswg-drafts/issues/1891|[css-color-4] Computed/used value of color doesn't specify how to serialize.]]
       * [[https://github.com/w3c/csswg-drafts/issues/585|[cssom][css-color] Need clarification on serialization of `rgb` & `rgba` in light of css-color-4's syntax changes]]
   * [[https://github.com/w3c/csswg-drafts/issues/4608|[css-color-adjust] Used color-scheme should affect the root element color, not initial color ]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4531|[css-sizing] intrinsic-size lost the thread]]
+  * something about mod() from Tab
+  * 5PM [[https://github.com/w3c/csswg-drafts/issues/4531|[css-sizing] intrinsic-size lost the thread]]
 
 ==== Constraints ====
 
