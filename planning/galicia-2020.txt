@@ -24,7 +24,7 @@
           * [[https://github.com/w3c/csswg-drafts/issues/4010|leading-trim overflow: ink or scrollable?]]
           * [[https://github.com/w3c/csswg-drafts/issues/3956|leading-trim vs descendant inlines]]
           * [[https://github.com/w3c/csswg-drafts/issues/3749|resolved value of line-height - follow-up]]
-          * 
+          * [[https://github.com/w3c/csswg-drafts/issues/3698|initial-letter zero sink?]]
 ===== Schedule =====
 
 **Wednesday Morning**
