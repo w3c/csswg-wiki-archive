@@ -15,7 +15,16 @@
   * **Also see [[https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22|csswg-drafts issues]] and [[https://github.com/w3c/fxtf-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22|fxtf-drafts issues]].**
   * Display Level 4: Display Noneness of Various Kinds **(LINK PLEASE???)**
   * Inline 3: [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3Acss-inline-3+label%3A%22Agenda%2B+F2F%22|leading-trim etc.]]
-
+      * higher priority
+          * [[https://github.com/w3c/csswg-drafts/issues/3978|make text of leading-trim interoperable?]]
+          * [[https://github.com/w3c/csswg-drafts/issues/3955|apply leading-trim to inlines?]]
+          * [[https://github.com/w3c/csswg-drafts/issues/4171|initial-letter feedback from implementation]]
+      * lower priority
+          * [[https://github.com/w3c/csswg-drafts/issues/4495|vertical-align: middle in vertical text]]
+          * [[https://github.com/w3c/csswg-drafts/issues/4010|leading-trim overflow: ink or scrollable?]]
+          * [[https://github.com/w3c/csswg-drafts/issues/3956|leading-trim vs descendant inlines]]
+          * [[https://github.com/w3c/csswg-drafts/issues/3749|resolved value of line-height - follow-up]]
+          * 
 ===== Schedule =====
 
 **Wednesday Morning**
