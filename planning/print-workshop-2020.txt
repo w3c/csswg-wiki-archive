@@ -47,6 +47,18 @@ Archives of the mailing list are available at https://lists.w3.org/Archives/Publ
 
 Deadline for sending position papers is February 3rd, 2020.
 
+==== Position Papers Received ====
+
+
+  * [[https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0016.html|Dave Cramer, Hachette Livre]]
+  * [[https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0017.html|Michael Miller, AntennaHouse]]
+  * [[https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0018.html|Katharina Udemadu, Compart]]
+  * [[https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0019.html|Julie Blanc, paged.js]]
+  * [[https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0020.html|Liam Quin, Delightful Computing]]
+  * [[https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0021.html|Guillaume Ayoub, WeasyPrint]]
+
+
+
 ===== Participants =====
 
 **From CSS WG:** Rachel Andrew, Jirka Kosek, Dave Cramer
