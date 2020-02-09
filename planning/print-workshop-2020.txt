@@ -21,7 +21,14 @@
 
 15:00 Introducing how W3C CSS WG works (Rachel Andrew)
 
-15:45 Presentation of position papers
+15:30 Presentation of position papers
+
+15:30 Antenna House (Michael Miller) -- [[https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0017/Antenna_House_CSS_Position.pdf|position paper]]
+15:40 Compart (Katharina Udemadu) -- [[https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0018/Compart-CssPositionPaper.pdf|position paper]]
+15:50 Hachette (Dave Cramer) -- [[https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0016/Prague-cramer.pdf|position paper]]
+16:00 Andreas Jung
+16:10 paged.js (Julie Blanc) -- [[https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0019/position-paper-w3C-workshop.html|position paper]]
+16:20 Liam Quin -- [[https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0020/2020-02-css-workshop.pdf|position paper]]
 
 16:30 Coffee break
 
