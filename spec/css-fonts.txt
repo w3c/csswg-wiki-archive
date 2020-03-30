@@ -1,0 +1,8 @@
+====== Criteria for adding new generic font families ======
+
+//Note that this section is still under discussion, and not final.//
+
+For each new generic font family proposed, the proposed generic font family must pass a test to be considered to addition to the spec. This test is necessary, but not sufficient, for its addition.
+
+  -  There needs to be at least two distinct fonts in the world which can map to the generic font family. In this case, "distinct" requires that they are invented by different unaffiliated people or groups.
+  - Because generic font families are only relevant for installed fonts, at least two major distinct operating systems need to ship a font which would be mapped to this generic font family. Again, "distinct" probably requires that the operating systems are invented/maintained by different unaffiliated groups. These two OSes can ship the same font.
