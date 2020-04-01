@@ -17,6 +17,7 @@
 ==== Agenda ====
 
   * Snapshot 2020
+  * container queries (dbaron, probably bkardell, others)
 ==== Schedule ====
 
 === Constraints ===
