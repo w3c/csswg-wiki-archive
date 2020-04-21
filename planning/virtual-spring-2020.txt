@@ -2,20 +2,22 @@
 As the title suggests and in order to keep the world a safe place for living, this is going to be entirely virtual face-to-face meeting.
 
 ===== Schedule =====
+https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200429T14
 April 29 (a.k.a. Time Slot A)
-    3pm -  7pm Paris
-    2pm -  6pm London
+    4pm -  8pm Paris
+    3pm -  7pm London
    10am -  2pm New York
     7am - 11am San Francisco
    11pm -  3am Tokyo
-    1am -  5am Melbourne
+   12am -  4am Melbourne
 
+https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200430T20
 April 30 (a.k.a. Time Slot B)
-    8pm - 12am Paris
-    7pm - 11pm London
-    3pm -  7pm New York
-   12pm -  4pm San Francisco
-    4am -  8am Tokyo
+   10pm -  2am Paris
+    9pm -  1am London
+    4pm -  8pm New York
+    1pm -  5pm San Francisco
+    5am -  9am Tokyo
     6am - 10am Melbourne
 
 ===== Venue tech =====
