@@ -25,16 +25,18 @@ TBD
 
 ===== Participants =====
 
-| **Name** | **Affiliation** | **Time Slot A** | **Time Slot B** |
-| Rachel Andrew | Fronteers | yes | no |
-| Rossen Atanassov | Microsoft | yes | yes |
-| Tantek Çelik | Mozilla | yes | most: 0-2,3-4hrs |
-| L. David Baron | Mozilla | yes | yes |
-| fantasai | Invited Expert | yes | yes |
-| Florian | Invited Expert | yes | yes |
-| Mike Bremford | BFO | yes | yes |
-| Christian Biesinger | Google | yes | yes |
-| Oriol Brufau | Igalia | yes | yes |
+| **Name** | **Affiliation** | **Time Slot A** | **Time Slot B** | ** Topics Requested ** | 
+| Rachel Andrew | Fronteers | yes | no | |
+| Rossen Atanassov | Microsoft | yes | yes | |
+| Tantek Çelik | Mozilla | yes | most: 0-2,3-4hrs | |
+| L. David Baron | Mozilla | yes | yes | |
+| fantasai | Invited Expert | yes | yes | |
+| Florian | Invited Expert | yes | yes | |
+| Mike Bremford | BFO | yes | yes | |
+| Christian Biesinger | Google | yes | yes | |
+| Oriol Brufau | Igalia | yes | yes | |
+
+If you can't make one of the slots, note any topics you want us to bias towards the slot you can make.
 ===== Proposed Agenda =====
 
 | **Agenda Item** | **Preferred Time Slot** |
