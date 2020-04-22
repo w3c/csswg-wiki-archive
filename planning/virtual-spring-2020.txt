@@ -25,19 +25,22 @@ TBD
 
 ===== Participants =====
 
-| **Name** | **Affiliation** | **Time Slot A** | **Time Slot B** | ** Topics Requested ** | 
-| Rachel Andrew | Fronteers | yes | no | |
-| Rossen Atanassov | Microsoft | yes | yes | |
-| Tantek Çelik | Mozilla | yes | most: 0-2,3-4hrs | |
-| L. David Baron | Mozilla | yes | yes | |
-| fantasai | Invited Expert | yes | yes | |
-| Florian | Invited Expert | yes | yes | |
-| Mike Bremford | BFO | yes | yes | |
-| Christian Biesinger | Google | yes | yes | |
-| Oriol Brufau | Igalia | yes | yes | |
-| Dave Cramer | Hachette | yes | yes | |
+| **Name** | **Affiliation** | **Time Slot A** | **Time Slot B** | ** Topics Requested ** | ** 6am start?** |
+| Rachel Andrew | Fronteers | yes | no | | |
+| Rossen Atanassov | Microsoft | yes | yes | | |
+| Tantek Çelik | Mozilla | yes | most: 0-2,3-4hrs | | |
+| L. David Baron | Mozilla | yes | yes | | |
+| fantasai | Invited Expert | yes | yes | | ok |
+| Florian | Invited Expert | yes | yes | | |
+| Mike Bremford | BFO | yes | yes | | |
+| Christian Biesinger | Google | yes | yes | | |
+| Oriol Brufau | Igalia | yes | yes | | |
+| Dave Cramer | Hachette | yes | yes | | |
 
 If you can't make one of the slots, note any topics you want us to bias towards the slot you can make.
+
+Also, if you're on the West Coast, let us know if you'd be willing to dial in at 6am if it would help others join Time Slot A.
+
 ===== Proposed Agenda =====
 
 | **Agenda Item** | **Preferred Time Slot** |
