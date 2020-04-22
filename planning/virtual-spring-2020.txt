@@ -38,3 +38,15 @@ TBD
 
 TODO: Add the full list of issues on GitHub explicitly here.
   * https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3A%22Agenda%2B+F2F%22
+
+
+Suggested order for [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3Acss-ruby-1+label%3A%22Agenda%2B+F2F%22|the css-ruby issues]]:
+  * [[https://github.com/w3c/csswg-drafts/issues/4932|ruby offset]] (4932)
+  * [[https://github.com/w3c/csswg-drafts/issues/4935|content height of ruby bases and annotations]] (4935)
+  * [[https://github.com/w3c/csswg-drafts/issues/4936|content height of ruby containers]] (4936)
+  * [[https://github.com/w3c/csswg-drafts/issues/4979|line-height property on ruby]] (4979)
+  * [[https://github.com/w3c/csswg-drafts/issues/4986|line-height property on nested ruby]] (4986)
+  * [[https://github.com/w3c/csswg-drafts/issues/4974|width and height properties on ruby]] (4974)
+  * [[https://github.com/w3c/csswg-drafts/issues/4976|margin/border/padding on ruby containers]] (4976)
+  * [[https://github.com/w3c/csswg-drafts/issues/4980|Box model / layout model for nested ruby (block axis)]] (4980)
+  * [[https://github.com/w3c/csswg-drafts/issues/4958|siblings/children vs in-flow siblings/children in box fixup ]] (4958)
