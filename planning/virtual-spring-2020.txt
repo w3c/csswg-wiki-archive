@@ -39,8 +39,8 @@ TBD
 | Oriol Brufau | Igalia | yes | yes | | |
 | Dave Cramer | Hachette | yes | yes | | |
 | Dael Jackson | Invited Expert | no | mostly; hours 1.5-4 | | |
-| François REMY | Invited Expert | yes | at least first two hours | Houdini, Container queries, Ruby | ok
-| Simon Fraser | Apple | yes | yes | | unlikely
+| François REMY | Invited Expert | yes | at least first two hours | Houdini, Container queries, Ruby | ok |
+| Simon Fraser | Apple | yes | yes | | unlikely |
 
 If you can't make one of the slots, note any topics you want us to bias towards the slot you can make.
 
