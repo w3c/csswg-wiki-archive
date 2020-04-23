@@ -41,6 +41,7 @@ TBD
 | Dael Jackson | Invited Expert | no | mostly; hours 1.5-4 | | |
 | François REMY | Invited Expert | yes | at least first two hours | Houdini, Container queries, Ruby | ok |
 | Simon Fraser | Apple | yes | yes | | unlikely |
+| Alan Stearns | Adobe | yes | yes | | OK |
 
 If you can't make one of the slots, note any topics you want us to bias towards the slot you can make.
 
