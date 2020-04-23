@@ -14,7 +14,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ===== Upcoming Meetings =====
   * **2020**
     * Spring: [[planning:virtual-spring-2020|Virtual meeting]] instead of face-to-face
-      * When: Wednesday, **April 29**
+      * When: Wednesday-Thursday, **April 29-30**
       * probably will not have a Houdini meeting
       * Constraint: Easter is April 12 (Western) or April 19 (Eastern)
       * Constraint: AC Meeting May 18-19 in Seoul (likely AB meeting rest of week, maybe even TAG too)
