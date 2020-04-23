@@ -53,6 +53,7 @@ Also, if you're on the West Coast, let us know if you'd be willing to dial in at
 | **Agenda Item** | **Preferred Time Slot** |
 | Snapshot 2020 | No preference |
 | container queries (dbaron, probably bkardell, others) | A? |
+| Generic font families (+I18n) | No preference |
 
 TODO: Add the full list of issues on GitHub explicitly here.
   * https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F
