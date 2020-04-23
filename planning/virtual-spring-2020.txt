@@ -42,6 +42,7 @@ TBD
 | François REMY | Invited Expert | yes | at least first two hours | Houdini, Container queries, Ruby | ok |
 | Simon Fraser | Apple | yes | yes | | unlikely |
 | Alan Stearns | Adobe | yes | yes | | OK |
+| Chris Lilley | W3C | yes | yes | |probably |
 
 If you can't make one of the slots, note any topics you want us to bias towards the slot you can make.
 
