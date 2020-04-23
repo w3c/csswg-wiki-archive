@@ -13,12 +13,6 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
   * **2020**
-    * January: [[planning:galicia-2020]]
-      * When: **January 22-24**
-      * no Houdini meeting
-      * Constraint: [[https://wiki.mozilla.org/All_Hands|Mozilla All Hands]] is January 27-31 in Berlin, Germany
-      * Where: Igalia, A Coruña, Galicia, Spain
-    * <del>Spring: Apple (Tess) will host in [[planning:cork-2020|Cork, Ireland]]</del>
     * Spring: [[planning:virtual-spring-2020|Virtual meeting]] instead of face-to-face
       * When: Wednesday, **April 29**
       * probably will not have a Houdini meeting
@@ -42,6 +36,14 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
   * [[planning:hosting]]
 ===== Past Meetings =====
+
+==== 2020 ====
+    * January: [[planning:galicia-2020]]
+      * When: **January 22-24**
+      * no Houdini meeting
+      * Constraint: [[https://wiki.mozilla.org/All_Hands|Mozilla All Hands]] is January 27-31 in Berlin, Germany
+      * Where: Igalia, A Coruña, Galicia, Spain
+    * <del>Spring: Apple (Tess) will host in [[planning:cork-2020|Cork, Ireland]]</del>
 
 ==== 2019 ====
     * [[planning:tpac-2019|TPAC]] at [[https://www.w3.org/wiki/TPAC/2019|Fukuoka]] **16-20 September**
