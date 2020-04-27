@@ -39,6 +39,7 @@ Meet. Details on the member-only list: https://lists.w3.org/Archives/Member/w3c-
 | Miriam Suzanne | Invited Expert | yes | yes | | |
 | Christian Biesinger | Google | yes | yes | | ok |
 | Oriol Brufau | Igalia | yes | yes | | |
+| Brian Kardell | Igalia | yes | yes | Container Queries / related | |
 | Dave Cramer | Hachette | yes | yes | | |
 | Dael Jackson | Invited Expert | no | mostly; hours 1.5-4 | | |
 | François REMY | Invited Expert | yes | at least first two hours | Houdini, Container queries, Ruby | ok |
