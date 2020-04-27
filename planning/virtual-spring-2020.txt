@@ -52,7 +52,8 @@ TBD
 | Richard Ishida | W3C | yes | no | Generic font families | |
 | Fuqiao Xue | W3C | yes | probably | | ok |
 | Peter Linss | Invited Expert | yes | yes | | unlikely |
-| Nat McCully | Adobe | most | yes | | |
+| Nat McCully | Adobe | mostly | yes | | |
+| Atsushi Shimono | W3C | mostly | probably | Generic font family | |
 
 If you can't make one of the slots, note any topics you want us to bias towards the slot you can make.
 
