@@ -87,11 +87,12 @@ Also, if you're on the West Coast, let us know if you'd be willing to dial in at
 | 50 mins | Other Topics   | [[https://github.com/w3c/csswg-drafts/issues/4740|#4740]] [[https://github.com/w3c/csswg-drafts/issues/4653|#4653]] [[https://github.com/w3c/csswg-drafts/issues/4949|#4949]] [[https://github.com/w3c/csswg-drafts/issues/4968|#4968]] [[https://github.com/w3c/csswg-drafts/issues/4496|#4496]] [[https://github.com/w3c/csswg-drafts/issues/4755|#4755]] [[https://github.com/w3c/csswg-drafts/issues/1751|#1751]]  |
 
 ===== Proposed Agenda =====
-
-| **Agenda Item** | **Preferred Time Slot** |
-| Snapshot 2020 | No preference |
-| [[https://github.com/WICG/container-queries/issues/12|container queries]] (dbaron, probably bkardell, others) | A? |
-| Generic font families (+I18n) | A? |
+  * Snapshot 2020
+  * Container queries (dbaron, probably bkardell, others)
+    * [[https://github.com/WICG/container-queries/issues/12|bkardell]]
+    * [[https://github.com/dbaron/container-queries-implementability|dbaron]]
+    * [[https://github.com/WICG/container-queries/issues/12|Matthew Dean]]
+  * Generic font families (+I18n)
 
 TODO: Add the full list of issues on GitHub explicitly here.
   * https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F
