@@ -64,13 +64,13 @@ Also, if you're on the West Coast, let us know if you'd be willing to dial in at
 ===== Agenda Schedule =====
 ==== Day One, Time Slot A ====
 
-| **Duration** | **Topic**       | **Issues** |
+| **Duration** | **Topic**       | **GitHub Issues** |
 | 1 hour  | Container Queries    | |
 | 30 mins | Generic Fonts        | |
-| 30 mins | Grid and Multicolumn | GitHub #4931 #2748 #4689 |
+| 30 mins | Grid and Multicolumn | #4931 #2748 #4689 |
 | 15 mins | Break                | 8-) |
 | 45 mins | Sizing and Alignment | |
-| 1 hour  | Graphics             | GitHub #4706 #4996 #4736 |
+| 1 hour  | Graphics             | #4706 #4996 #4736 |
 
 ==== Day Two, Time Slot B ====
 
