@@ -24,6 +24,7 @@ April 30 (a.k.a. Time Slot B)
 
 Meet. Details on the member-only list: https://lists.w3.org/Archives/Member/w3c-css-wg/2020AprJun/0066.html
 
+We will use #css on IRC for all meeting coordination. People can use the chat in Meet for backchannel conversations, but please do not expect the meeting chairs or scribe to notice or follow that extra channel.
 ===== Participants =====
 
 | **Name** | **Affiliation** | **Time Slot A** | **Time Slot B** | ** Topics Requested ** | ** 6am start?** |
