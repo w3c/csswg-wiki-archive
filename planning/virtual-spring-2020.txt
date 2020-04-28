@@ -61,6 +61,26 @@ If you can't make one of the slots, note any topics you want us to bias towards 
 
 Also, if you're on the West Coast, let us know if you'd be willing to dial in at 6am if it would help others join Time Slot A.
 
+===== Agenda Schedule =====
+==== Day One, Time Slot A ====
+
+| **Duration** | **Topic**       | **Issues** |
+| 1 hour  | Container Queries    | |
+| 30 mins | Generic Fonts        | |
+| 30 mins | Grid and Multicolumn | |
+| 15 mins | Break                | 8-) |
+| 45 mins | Sizing and Alignment | |
+| 1 hour  | Graphics             | background-filter, background-opacity, dual screen |
+
+==== Day Two, Time Slot B ====
+
+| **Duration** | **Topic** | **Issues** |
+| 1 hour  | Custom Origin  | GH [css-cascade] issues |
+| 1 hour  | Ruby           | GH [css-ruby] issues |
+| 15 mins | Break          | 8-) |
+| 30 mins | Snapshot 2020  | |
+| 1h 15m  | Other Topics   | |
+
 ===== Proposed Agenda =====
 
 | **Agenda Item** | **Preferred Time Slot** |
