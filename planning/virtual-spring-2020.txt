@@ -67,20 +67,20 @@ Also, if you're on the West Coast, let us know if you'd be willing to dial in at
 | **Duration** | **Topic**       | **GitHub Issues** |
 | 1 hour  | Container Queries    | |
 | 30 mins | Generic Fonts        | [[https://github.com/w3c/csswg-drafts/issues/4605|#4605]] ([[https://github.com/w3c/csswg-drafts/issues/4796|#4796]] [[https://github.com/w3c/csswg-drafts/issues/4910|#4910]]) |
-| 30 mins | Grid and Multicolumn | #4931 #2748 #4689 |
+| 30 mins | Grid and Multicolumn | [https://github.com/w3c/csswg-drafts/issues/4931|#4931] [https://github.com/w3c/csswg-drafts/issues/2748|#2748] [https://github.com/w3c/csswg-drafts/issues/4689|#4689] |
 | 15 mins | Break                | 8-) |
-| 45 mins | Sizing and Alignment | #4951 #4415 and #4983 #4957 |
-| 1 hour  | Graphics             | #4706 #4996 #4736 |
+| 45 mins | Sizing and Alignment | [https://github.com/w3c/csswg-drafts/issues/4951|#4951] [https://github.com/w3c/csswg-drafts/issues/4415|#4415] and [https://github.com/w3c/csswg-drafts/issues/4983|#4983] [https://github.com/w3c/csswg-drafts/issues/4957|#4957] |
+| 1 hour  | Graphics             | [https://github.com/w3c/csswg-drafts/issues/4706|#4706] [https://github.com/w3c/csswg-drafts/issues/4996|#4996] [https://github.com/w3c/csswg-drafts/issues/4736|#4736] |
 
 ==== Day Two, Time Slot B ====
 
 | **Duration** | **Topic** | **GitHub Issues** |
-| 1 hour  | Custom Origin  | #5003 #4985 #4984 #4981 #4971 #4969 |
-| 1 hour  | Ruby           | #4932 #4935 #4936 #4987 #4979 #4986 #4974 #4976 #4980 #4958 #5004 |
+| 1 hour  | Custom Origin  | [https://github.com/w3c/csswg-drafts/issues/5003|#5003] [https://github.com/w3c/csswg-drafts/issues/4985|#4985] [https://github.com/w3c/csswg-drafts/issues/4984|#4984] [https://github.com/w3c/csswg-drafts/issues/4981|#4981] [https://github.com/w3c/csswg-drafts/issues/4971|#4971] [https://github.com/w3c/csswg-drafts/issues/4969|#4969] |
+| 1 hour  | Ruby           | [https://github.com/w3c/csswg-drafts/issues/4932|#4932] [https://github.com/w3c/csswg-drafts/issues/4935|#4935] [https://github.com/w3c/csswg-drafts/issues/4936|#4936] [https://github.com/w3c/csswg-drafts/issues/4987|#4987] [https://github.com/w3c/csswg-drafts/issues/4979|#4979] [https://github.com/w3c/csswg-drafts/issues/4986|#4986] [https://github.com/w3c/csswg-drafts/issues/4974|#4974] [https://github.com/w3c/csswg-drafts/issues/4976|#4976] [https://github.com/w3c/csswg-drafts/issues/4980|#4980] [https://github.com/w3c/csswg-drafts/issues/4958|#4958] [https://github.com/w3c/csswg-drafts/issues/5004|#5004] |
 | 15 mins | Break          | 8-) |
 | 30 mins | Snapshot 2020  | |
 | 30 mins | Masonry layout | Experimentation update by Mozilla |
-| 45 mins | Other Topics   | #4740 #4653 #4949 #4968 #4496 #4496  |
+| 45 mins | Other Topics   | [https://github.com/w3c/csswg-drafts/issues/4740|#4740] [https://github.com/w3c/csswg-drafts/issues/4653|#4653] [https://github.com/w3c/csswg-drafts/issues/4949|#4949] [https://github.com/w3c/csswg-drafts/issues/4968|#4968] [https://github.com/w3c/csswg-drafts/issues/4496|#4496] [https://github.com/w3c/csswg-drafts/issues/4496|#4496]  |
 
 ===== Proposed Agenda =====
 
