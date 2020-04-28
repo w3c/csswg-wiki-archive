@@ -74,9 +74,9 @@ Also, if you're on the West Coast, let us know if you'd be willing to dial in at
 
 ==== Day Two, Time Slot B ====
 
-| **Duration** | **Topic** | **Issues** |
-| 1 hour  | Custom Origin  | GitHub #5003 #4985 #4984 #4981 #4971 #4969 |
-| 1 hour  | Ruby           | GH [css-ruby] issues |
+| **Duration** | **Topic** | **GitHub Issues** |
+| 1 hour  | Custom Origin  | #5003 #4985 #4984 #4981 #4971 #4969 |
+| 1 hour  | Ruby           | [css-ruby] |
 | 15 mins | Break          | 8-) |
 | 30 mins | Snapshot 2020  | |
 | 1h 15m  | Other Topics   | |
