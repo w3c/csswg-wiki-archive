@@ -68,7 +68,7 @@ Also, if you're on the West Coast, let us know if you'd be willing to dial in at
 | **Duration** | **Topic**       | **GitHub Issues** |
 | 50 mins  | Container Queries    | |
 | 10 mins | Break                | 8-) |
-| 25 mins | Generic Fonts        | [[https://github.com/w3c/csswg-drafts/issues/4605|#4605]] ([[https://github.com/w3c/csswg-drafts/issues/4796|#4796]] [[https://github.com/w3c/csswg-drafts/issues/4910|#4910]]) |
+| 25 mins | Generic Fonts        | [[https://github.com/w3c/csswg-drafts/issues/4910|#4910]] ([[https://github.com/w3c/csswg-drafts/issues/4605|#4605]], [[https://github.com/w3c/csswg-drafts/issues/4796|#4796]]) |
 | 25 mins | Grid and Multicolumn | [[https://github.com/w3c/csswg-drafts/issues/4931|#4931]] [[https://github.com/w3c/csswg-drafts/issues/2748|#2748]] [[https://github.com/w3c/csswg-drafts/issues/4689|#4689]] |
 | 15 mins | Break                | 8-) |
 | 45 mins | Sizing and Alignment | [[https://github.com/w3c/csswg-drafts/issues/4951|#4951]] [[https://github.com/w3c/csswg-drafts/issues/4415|#4415]] and [[https://github.com/w3c/csswg-drafts/issues/4983|#4983]] [[https://github.com/w3c/csswg-drafts/issues/4957|#4957]] [[https://github.com/w3c/csswg-drafts/issues/4660|#4660]] [[https://github.com/w3c/csswg-drafts/issues/4545|#4545]] |
