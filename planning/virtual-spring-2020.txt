@@ -112,3 +112,5 @@ Suggested order for [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is
   * [[https://github.com/w3c/csswg-drafts/issues/4976|margin/border/padding on ruby containers]] (4976)
   * [[https://github.com/w3c/csswg-drafts/issues/4980|Box model / layout model for nested ruby (block axis)]] (4980)
   * [[https://github.com/w3c/csswg-drafts/issues/4958|siblings/children vs in-flow siblings/children in box fixup ]] (4958)
+
+[[https://github.com/WICG/custom-state-pseudo-class/issues/6|Renaming :state(foo) to :--foo]] - still some forward-compat questions to be answered about the DOM interface, but the overall syntax change is something our group can decide on now.
