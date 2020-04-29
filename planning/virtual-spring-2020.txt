@@ -85,7 +85,7 @@ Also, if you're on the West Coast, let us know if you'd be willing to dial in at
 | 25 mins | Snapshot 2020  | [[https://github.com/w3c/csswg-drafts/issues/4715|#4715]]|
 | 25 mins | Masonry layout | Experimentation update by Mozilla |
 | 10 mins | Break                | 8-) |
-| 50 mins | Other Topics   | [[https://github.com/w3c/csswg-drafts/issues/4740|#4740]] [[https://github.com/w3c/csswg-drafts/issues/4653|#4653]] [[https://github.com/w3c/csswg-drafts/issues/4949|#4949]] [[https://github.com/w3c/csswg-drafts/issues/4968|#4968]] [[https://github.com/w3c/csswg-drafts/issues/4496|#4496]] [[https://github.com/w3c/csswg-drafts/issues/4755|#4755]] [[https://github.com/w3c/csswg-drafts/issues/1751|#1751]]  |
+| 50 mins | Other Topics   | [[https://github.com/w3c/csswg-drafts/issues/4740|#4740]] [[https://github.com/w3c/csswg-drafts/issues/4653|#4653]] [[https://github.com/w3c/csswg-drafts/issues/4949|#4949]] [[https://github.com/w3c/csswg-drafts/issues/4968|#4968]] [[https://github.com/w3c/csswg-drafts/issues/4496|#4496]] [[https://github.com/w3c/csswg-drafts/issues/4755|#4755]] [[https://github.com/w3c/csswg-drafts/issues/1751|#1751]]  [[https://github.com/WICG/custom-state-pseudo-class/issues/6|Custom Pseudo-classes #6]]
 
 ===== Proposed Agenda =====
   * Snapshot 2020
