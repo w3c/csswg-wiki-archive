@@ -90,7 +90,7 @@ Also, if you're on the West Coast, let us know if you'd be willing to dial in at
 ===== Proposed Agenda =====
   * Snapshot 2020
   * Container queries (dbaron, probably bkardell, others)
-    * [[https://github.com/WICG/container-queries/issues/12|bkardell]]
+    * [[https://gist.github.com/bkardell/e5d702b15c7bcf2de2d60b80b916e53c|bkardell's switch()]]
     * [[https://github.com/dbaron/container-queries-implementability|dbaron]]
     * [[https://github.com/WICG/container-queries/issues/12|Matthew Dean]]
   * Generic font families (+I18n)
