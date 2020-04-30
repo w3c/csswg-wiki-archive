@@ -70,11 +70,11 @@ Also, if you're on the West Coast, let us know if you'd be willing to dial in at
 | 50 mins  | Container Queries    | |
 | 10 mins | Break                | 8-) |
 | 25 mins | Generic Fonts        | [[https://github.com/w3c/csswg-drafts/issues/4910|#4910]] ([[https://github.com/w3c/csswg-drafts/issues/4605|#4605]], [[https://github.com/w3c/csswg-drafts/issues/4796|#4796]]) |
-| 25 mins | Grid and Multicolumn | [[https://github.com/w3c/csswg-drafts/issues/4931|#4931]] [[https://github.com/w3c/csswg-drafts/issues/2748|#2748]] [[https://github.com/w3c/csswg-drafts/issues/4689|#4689]] |
+| 25 mins | Grid and Multicolumn | [[https://github.com/w3c/csswg-drafts/issues/4931|#4931]]  [[https://github.com/w3c/csswg-drafts/issues/4689|#4689]] |
 | 15 mins | Break                | 8-) |
 | 45 mins | Sizing and Alignment | [[https://github.com/w3c/csswg-drafts/issues/4951|#4951]] [[https://github.com/w3c/csswg-drafts/issues/4415|#4415]] and [[https://github.com/w3c/csswg-drafts/issues/4983|#4983]] [[https://github.com/w3c/csswg-drafts/issues/4957|#4957]] [[https://github.com/w3c/csswg-drafts/issues/4660|#4660]] [[https://github.com/w3c/csswg-drafts/issues/4545|#4545]] |
 | 10 mins | Break                | 8-) |
-| 50 mins  | Graphics (+ whatever we else have time for) | [[https://github.com/w3c/csswg-drafts/issues/4706|#4706]] [[https://github.com/w3c/csswg-drafts/issues/4996|#4996]] [[https://github.com/w3c/csswg-drafts/issues/4736|#4736]] |
+
 Logs: https://logs.csswg.org/irc.w3.org/css/2020-04-29
 ==== Day Two, Time Slot B ====
 
@@ -86,8 +86,13 @@ Logs: https://logs.csswg.org/irc.w3.org/css/2020-04-29
 | 25 mins | Snapshot 2020  | [[https://github.com/w3c/csswg-drafts/issues/4715|#4715]]|
 | 25 mins | Masonry layout | Experimentation update by Mozilla ([[https://github.com/w3c/csswg-drafts/issues/4715|#4715]], new [[https://github.com/w3c/csswg-drafts/blob/master/css-grid-2/MASONRY-EXPLAINER.md|explainer]])|
 | 10 mins | Break                | 8-) |
-| 50 mins | Other Topics   | [[https://github.com/w3c/csswg-drafts/issues/4740|#4740]] [[https://github.com/w3c/csswg-drafts/issues/4653|#4653]] [[https://github.com/w3c/csswg-drafts/issues/4949|#4949]] [[https://github.com/w3c/csswg-drafts/issues/4968|#4968]] [[https://github.com/w3c/csswg-drafts/issues/4496|#4496]] [[https://github.com/w3c/csswg-drafts/issues/4755|#4755]] [[https://github.com/w3c/csswg-drafts/issues/1751|#1751]]  [[https://github.com/WICG/custom-state-pseudo-class/issues/6|Custom Pseudo-classes #6]] |
+| 50 mins | Graphics (+ whatever we else have time for) | [[https://github.com/w3c/csswg-drafts/issues/4706|#4706]] [[https://github.com/w3c/csswg-drafts/issues/4996|#4996]] [[https://github.com/w3c/csswg-drafts/issues/4736|#4736]] |
+|  | Other Topics   | [[https://github.com/w3c/csswg-drafts/issues/2748|#2748]] [[https://github.com/w3c/csswg-drafts/issues/4740|#4740]] [[https://github.com/w3c/csswg-drafts/issues/4653|#4653]] [[https://github.com/w3c/csswg-drafts/issues/4949|#4949]] [[https://github.com/w3c/csswg-drafts/issues/4968|#4968]] [[https://github.com/w3c/csswg-drafts/issues/4496|#4496]] [[https://github.com/w3c/csswg-drafts/issues/4755|#4755]] [[https://github.com/w3c/csswg-drafts/issues/1751|#1751]]  [[https://github.com/WICG/custom-state-pseudo-class/issues/6|Custom Pseudo-classes #6]] |
+|  | Sizing and Alignment Take 2? | [[https://github.com/w3c/csswg-drafts/issues/4957|#4957]] [[https://github.com/w3c/csswg-drafts/issues/4660|#4660]] [[https://github.com/w3c/csswg-drafts/issues/4545|#4545]] |
+|  | Generic Fonts Take 2?     | ([[https://github.com/w3c/csswg-drafts/issues/4605|#4605]], [[https://github.com/w3c/csswg-drafts/issues/4796|#4796]]) |
+
 Logs: https://logs.csswg.org/irc.w3.org/css/2020-04-30
+
 ===== Proposed Agenda =====
   * Snapshot 2020
   * Container queries (dbaron, probably bkardell, others)
