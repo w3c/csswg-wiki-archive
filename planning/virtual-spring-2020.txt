@@ -83,7 +83,7 @@ Logs: https://logs.csswg.org/irc.w3.org/css/2020-04-29
 | 50 mins  | Ruby           | [[https://github.com/w3c/csswg-drafts/issues/4932|#4932]] [[https://github.com/w3c/csswg-drafts/issues/4935|#4935]] [[https://github.com/w3c/csswg-drafts/issues/4936|#4936]] [[https://github.com/w3c/csswg-drafts/issues/4987|#4987]] [[https://github.com/w3c/csswg-drafts/issues/4979|#4979]] [[https://github.com/w3c/csswg-drafts/issues/4986|#4986]] [[https://github.com/w3c/csswg-drafts/issues/4974|#4974]] [[https://github.com/w3c/csswg-drafts/issues/4976|#4976]] [[https://github.com/w3c/csswg-drafts/issues/4980|#4980]] [[https://github.com/w3c/csswg-drafts/issues/4958|#4958]] [[https://github.com/w3c/csswg-drafts/issues/5004|#5004]] |
 | 15 mins | Break          | 8-) |
 | 25 mins | Snapshot 2020  | [[https://github.com/w3c/csswg-drafts/issues/4715|#4715]]|
-| 25 mins | Masonry layout | Experimentation update by Mozilla |
+| 25 mins | Masonry layout | Experimentation update by Mozilla ([[https://github.com/w3c/csswg-drafts/issues/4715|#4715]], new [[https://github.com/w3c/csswg-drafts/blob/master/css-grid-2/MASONRY-EXPLAINER.md|explainer]])|
 | 10 mins | Break                | 8-) |
 | 50 mins | Other Topics   | [[https://github.com/w3c/csswg-drafts/issues/4740|#4740]] [[https://github.com/w3c/csswg-drafts/issues/4653|#4653]] [[https://github.com/w3c/csswg-drafts/issues/4949|#4949]] [[https://github.com/w3c/csswg-drafts/issues/4968|#4968]] [[https://github.com/w3c/csswg-drafts/issues/4496|#4496]] [[https://github.com/w3c/csswg-drafts/issues/4755|#4755]] [[https://github.com/w3c/csswg-drafts/issues/1751|#1751]]  [[https://github.com/WICG/custom-state-pseudo-class/issues/6|Custom Pseudo-classes #6]] |
 Logs: https://logs.csswg.org/irc.w3.org/css/2020-04-30
