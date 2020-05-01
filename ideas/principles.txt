@@ -1,6 +1,6 @@
 ====== Minor Principles of Design ======
 
-See [[https://www.w3.org/TR/CSS2/intro.html#design-principles|CSS2 Design Principles]], [[http://fantasai.inkedblade.net/weblog/2012/css-layout-evolution/#principles|Evolution of CSS Layout: Principles]], & [[http://fantasai.inkedblade.net/style/talks/designing-css/|Designing CSS slide deck]] for higher-level design principles.
+See [[https://www.w3.org/TR/CSS2/intro.html#design-principles|CSS2 Design Principles]], [[http://fantasai.inkedblade.net/weblog/2012/css-layout-evolution/#principles|Evolution of CSS Layout: Principles]], & [[http://fantasai.inkedblade.net/style/talks/designing-css/|Designing CSS slide deck]] & [[http://fantasai.inkedblade.net/weblog/2019/designing-css/|partial transcript]] for higher-level design principles.
 
   ; Transparency Principle
   : Inserting an unstyled block in a block formatting context (as sibling, parent, child or intermediary) / unstyled inline in an inline formatting context should have no effect on styling.
