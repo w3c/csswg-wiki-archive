@@ -112,8 +112,9 @@ Logs: https://logs.csswg.org/irc.w3.org/css/2020-04-30
 
 | **Duration** | **Topic** | **GitHub Issues** |
 | 50 mins  | Ruby Take 2  | [[https://github.com/w3c/csswg-drafts/issues/4979|#4979]]\\ [[https://github.com/w3c/csswg-drafts/issues/4986|#4986]]\\ [[https://github.com/w3c/csswg-drafts/issues/4974|#4974]]\\ [[https://github.com/w3c/csswg-drafts/issues/4976|#4976]]\\ [[https://github.com/w3c/csswg-drafts/issues/4980|#4980]]\\ [[https://github.com/w3c/csswg-drafts/issues/4958|#4958]]\\ [[https://github.com/w3c/csswg-drafts/issues/5004|#5004]]\\ |
-|  | Other Topics   | [[https://github.com/w3c/csswg-drafts/issues/2748|#2748]]\\ [[https://github.com/w3c/csswg-drafts/issues/4740|#4740]]\\ [[https://github.com/w3c/csswg-drafts/issues/4653|#4653]]\\ [[https://github.com/w3c/csswg-drafts/issues/4949|#4949]]\\ [[https://github.com/w3c/csswg-drafts/issues/4968|#4968]]\\ [[https://github.com/w3c/csswg-drafts/issues/4496|#4496]]\\ [[https://github.com/w3c/csswg-drafts/issues/4755|#4755]] |
-|  | Pseudos | [[https://github.com/WICG/custom-state-pseudo-class/issues/6|Custom Pseudo-classes #6]]\\ [[https://github.com/WICG/custom-state-pseudo-class/issues/6|Renaming :state(foo) to :--foo]]\\ [[https://github.com/w3c/csswg-drafts/issues/4579|
+|  | Other Topics   | [[https://github.com/w3c/csswg-drafts/issues/2748|#2748 Styling Gaps/Gutters]]\\ [[https://github.com/w3c/csswg-drafts/issues/4968|#4968 Allow trailing comma in gradient functions (and probably others) ]]\\ [[https://github.com/w3c/csswg-drafts/issues/4496|#4496 Snap area trapping behavior of non scrollable elements]] |
+| 25 mins | Text | [[https://github.com/w3c/csswg-drafts/issues/4949|#4949 Switch line-breaking handling of atomic inlines]]\\ [[https://github.com/w3c/csswg-drafts/issues/4755|#4755 replaced elements and atomic inlines with non default line-break]]\\ [[https://github.com/w3c/csswg-drafts/issues/4653|#4653 Variants of text-decoration-skip-spaces:end behavior, and initial value]]\\ [[https://github.com/w3c/csswg-drafts/issues/4276|#4276 Clarifying skip-ink:auto behavior in relation to CJK text]] |
+| 25 mins | Pseudos | [[https://github.com/WICG/custom-state-pseudo-class/issues/6|Custom Pseudo-classes #6]]\\ [[https://github.com/WICG/custom-state-pseudo-class/issues/6|Renaming :state(foo) to :--foo]]\\ [[https://github.com/w3c/csswg-drafts/issues/4579|
 [css-pseudo-4] ::selection vs ::inactive-selection]] |
 
 ==== Day Four, Time Slot 3B ====
@@ -121,7 +122,7 @@ Logs: https://logs.csswg.org/irc.w3.org/css/2020-04-30
 | **Duration** | **Topic** | **GitHub Issues** |
 |  | Sizing and Alignment Take 2 | [[https://github.com/w3c/csswg-drafts/issues/4957|#4957]]\\  [[https://github.com/w3c/csswg-drafts/issues/4660|#4660]]\\ [[https://github.com/w3c/csswg-drafts/issues/4545|#4545]] |
 |  | Fonts Take 2     | [[https://github.com/w3c/csswg-drafts/issues/4605|#4605]]\\ [[https://github.com/w3c/csswg-drafts/issues/4796|#4796]]\\ [[https://github.com/w3c/csswg-drafts/issues/3691|#3691]]|
-|  | Misc | [[https://github.com/w3c/csswg-drafts/issues/5009|#5009]]\\ [[https://github.com/w3c/csswg-drafts/issues/4276|#4276]]\\ [[https://github.com/w3c/csswg-drafts/issues/4934|#4934]] |
+|  | Misc | [[https://github.com/w3c/csswg-drafts/issues/5009|#5009 Express conditional values in a more terse way]]\\ [[https://github.com/w3c/csswg-drafts/issues/4934|#4934 Add contain-paint-margin CSS property]]\\ [[https://github.com/w3c/csswg-drafts/issues/4740|#4740 string-set with counter(page), when is value resolved?]]  |
 |  | Media Queries | [[https://github.com/w3c/csswg-drafts/issues/5044|#5044]]\\ [[https://github.com/w3c/csswg-drafts/issues/5043|#5043]]\\ [[https://github.com/w3c/csswg-drafts/issues/5042|#5042]]\\ [[https://github.com/w3c/csswg-drafts/issues/1751|#1751]] |
 ===== Proposed Agenda =====
   * Snapshot 2020
