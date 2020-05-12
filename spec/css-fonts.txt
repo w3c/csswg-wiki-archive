@@ -7,10 +7,9 @@ Each newly proposed //generic font family// must pass a test to be considered as
 The purpose of this test is to limit the proliferation of //generic font families//.
 
   - There need to be at least two distinct typefaces in the world which can map to the //generic font family//. In this case, "distinct" requires that they are developed by different unaffiliated people or groups.
-  - Because //generic font families// are only relevant for //pre-installed fonts//, at least two major platforms (operating systems with distinct GUIs) need to ship a font which would be mapped to this //generic font family//. Again, "distinct" requires that the platforms are maintained by different unaffiliated groups. The font shipped may be the same nevertheless.
+  - Because //generic font families// are only relevant for //pre-installed fonts//, at least two common configurations of major platforms (operating systems with distinct GUIs) need to ship a font which would be mapped to this //generic font family//. Again, "distinct" requires that the platforms are maintained by different unaffiliated groups. The font shipped may be the same nevertheless.
 
 Resources
 
   * [[https://docs.microsoft.com/en-us/typography/fonts/windows_10_font_list|Windows 10]]
   * [[https://support.apple.com/en-us/HT208968|macOS Mojave]] 
-    
