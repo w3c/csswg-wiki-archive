@@ -31,8 +31,7 @@ Discussion Resources
 
 ===== Additional Considerations =====
 
-  * Some of these goals have different use case requirements wrt fallback behavior. For example, a ''fangsong'' generic maybe need not be mapped to more than one font, since it is only really defined for CJK, but a ''sans-serif'' or ''rounded'' generic should not result in a ''serif'' 
-fallback font when characters from a different writing system are needed.
+  * Some of these goals have different use case requirements wrt fallback behavior. For example, a ''fangsong'' generic maybe need not be mapped to more than one font, since it is only really defined for CJK, but a ''sans-serif'' or ''rounded'' generic should not result in a ''serif'' fallback font when characters from a different writing system are needed.
   * Adjusting generic font mappings, e.g. to use newer fonts on a newer OS, can have Web-compat impact.
 
 ===== Use Cases =====
