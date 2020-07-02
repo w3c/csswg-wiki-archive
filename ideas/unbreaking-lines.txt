@@ -9,6 +9,8 @@ Formats that need to “unbreak” lines include:
   * HTML
   * XML/SGML
   * TeX/LaTeX
+  * https://asciidoc.org/
+  * Markdown
 
 ===== Standardization =====
 
