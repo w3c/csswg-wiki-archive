@@ -6,6 +6,6 @@ HTML and CSS rely on “unbreaking” source code lines to create paragraphs. Th
 
 Formats that need to “unbreak” lines include:
 
-* HTML
-* XML/SGML
-* TeX/LaTeX
+  * HTML
+  * XML/SGML
+  * TeX/LaTeX
