@@ -14,19 +14,14 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ===== Upcoming Meetings =====
   * **2020**
     * Spring: [[planning:virtual-spring-2020|Virtual meeting]] instead of face-to-face
-      * When: Wednesday-Thursday, **April 29-30**
+      * When (proposed): Wednesday-Thursday, **April 29-30**
       * probably will not have a Houdini meeting
       * Constraint: Easter is April 12 (Western) or April 19 (Eastern)
       * Constraint: AC Meeting May 18-19 in Seoul (likely AB meeting rest of week, maybe even TAG too)
       * Constraint: April 13-15 is An Event Apart DC, May 11-13 is AEA Seattle (conflicts for Jen Simmons & Rachel Andrew)
-    * Summer: Kitchener, ON, Canada (Google)
-      * **When**: Houdini on Monday **July 27**, CSS on Tuesday-Thursday **July 28-30.**
-      * **Where**: [[https://careers.google.com/locations/waterloo/ | Google office, Kitchener, Canada]]
+    * Summer: [[planning:virtual-summer-2020|Virtual meeting 2]] instead of face-to-face
+      * **When**: CSS Monday, Tuesday, Thursday. Houdini Friday
       * Evenly spacing meetings would suggest dates around the weeks of July 20-24 or July 27-31
-      * Constraint: [[https://wiki.mozilla.org/All_Hands|Mozilla All Hands]] is June 15-20 in Toronto
-      * Constraint: Tokyo Olympics is July 24 - Aug 9, may affect flight and hotel costs and availability
-      * Constraint: [[https://ietf.org/how/meetings/108/|IETF 108]] is  July 25-31 in Madrid, Spain
-      * Constraint: [[https://www.thesfmarathon.com/|SF Marathon 2020]] is July 26th (avoid meeting on July 27 if possible)
     * **TPAC Virtual Meeting** (was in Vancouver, BC, Canada): **26-30 October 2020**
   * **2021**
     *  **February 15-17** in Noida, India (Adobe)
