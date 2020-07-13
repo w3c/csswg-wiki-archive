@@ -14,13 +14,13 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ===== Upcoming Meetings =====
   * **2020**
     * Spring: [[planning:virtual-spring-2020|Virtual meeting]] instead of face-to-face
-      * When (proposed): Wednesday-Thursday, **April 29-30**
+      * When: Wednesday-Thursday, **April 29-30**
       * probably will not have a Houdini meeting
       * Constraint: Easter is April 12 (Western) or April 19 (Eastern)
       * Constraint: AC Meeting May 18-19 in Seoul (likely AB meeting rest of week, maybe even TAG too)
       * Constraint: April 13-15 is An Event Apart DC, May 11-13 is AEA Seattle (conflicts for Jen Simmons & Rachel Andrew)
     * Summer: [[planning:virtual-summer-2020|Virtual meeting 2]] instead of face-to-face
-      * **When**: CSS Monday, Tuesday, Thursday. Houdini Friday
+      * **When**  (proposed): CSS Monday, Tuesday, Thursday. Houdini Friday
       * Evenly spacing meetings would suggest dates around the weeks of July 20-24 or July 27-31
     * **TPAC Virtual Meeting** (was in Vancouver, BC, Canada): **26-30 October 2020**
   * **2021**
