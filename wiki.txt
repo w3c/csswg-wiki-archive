@@ -1,6 +1,6 @@
 ====== About This Wiki ======
 
-This wiki is a [[http://wiki.splitbrain.org/wiki:dokuwiki|DokuWiki]].
+This wiki is a [[https://www.dokuwiki.org/DokuWiki|DokuWiki]].
 
 <markdown>
   * [Syntax](/wiki/syntax)
