@@ -60,6 +60,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Alan Stearns | Adobe | yes | yes | yes | yes |
 | David Baron | Mozilla | probably (with decreasing probability over time);\\ Also missing roughly first half of Friday||||
 | Oriol Brufau | Igalia | yes | yes | only 2nd half | yes |
+| Brian Kardell| Igalia | yes | yes | only 2nd half | yes |
 
 If you can't make one of the days, mark any topics you want us to be present for with a milestone for a day you can attend.
 
