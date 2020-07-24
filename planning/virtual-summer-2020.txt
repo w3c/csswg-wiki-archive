@@ -62,6 +62,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Oriol Brufau | Igalia | yes | yes | only 2nd half | yes |
 | Brian Kardell| Igalia | yes | yes | only 2nd half | yes |
 | Miriam Suzanne | Invited Expert | yes | yes | maybe/part | maybe/part |
+| Alison Maher | Microsoft | yes | yes | yes | yes |
 | Cameron McCormack | Mozilla | yes | yes | no | no |
 | Daniel Holbert | Mozilla | yes | yes | no | yes |
 | Fuqiao Xue | W3C | part | part | part | part |
@@ -69,9 +70,10 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Chris Lilley | W3C |  yes | yes | yes | yes |
 | Dave Cramer | Hachette |  yes | yes | no | no |
 | Greg Whitworth | Salesforce | No | No | YES - I'm visiting family so will probably only be able to attend from 7am - 9/10ish SF time. So if we can put any form control related issues on these days ||
-| Emilio | Mozilla | 1st half? | 1st half? | yes | yes ||
+| Emilio | Mozilla | 1st half? | 1st half? | yes | yes |
 | Amelia B-R | In.Ex. | some | some | prob. not | prob. late |
 | Florian Rivoal | Invited Expert | unlikely | yes | yes | yes |
+| Rossen Atanassov | Microsoft | yes | yes | yes | yes |
 | Simon Fraser | Apple Inc | maybe | maybe | maybe | maybe |
 | Myles C. Maxfield | Apple Inc | ✅ | ✅ | ✅ | ✅ |
 | Theresa O'Connor | Apple Inc | ✅ | ✅ | second half | second half |
