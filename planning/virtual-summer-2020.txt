@@ -74,8 +74,8 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Florian Rivoal | Invited Expert | unlikely | yes | yes | yes |
 | Simon Fraser | Apple Inc | maybe | maybe | maybe | maybe |
 | Myles C. Maxfield | Apple Inc | ✅ | ✅ | ✅ | ✅ |
-| Theresa O'Connor | Apple Inc | ✅ | ✅ | ✅ | ✅ |
-| Devin Rousso | Apple Inc | ✅ | ✅ | second half | second half |
+| Theresa O'Connor | Apple Inc | ✅ | ✅ | second half | second half |
+| Devin Rousso | Apple Inc | ✅ | ✅ | ✅ | ✅ |
 | Mike Bremford | BFO | first half | yes | yes | yes |
 
 If you can't make one of the days, mark any topics you want to be present for with a milestone for a day you can attend.
