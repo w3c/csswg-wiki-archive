@@ -77,7 +77,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Theresa O'Connor | Apple Inc | ✅ | ✅ | second half | second half |
 | Devin Rousso | Apple Inc | ✅ | ✅ | ✅ | ✅ |
 | Mike Bremford | BFO | first half | yes | yes | yes |
-| Sam Sneddon | Apple Inc | 🤷🏻 (first half?) | 🤷🏻 (first half?) | 🤷🏻 | 🤷🏻 |
+| Sam Sneddon | Apple Inc | ❌ | 🤷🏻 (first half?) | 🤷🏻 | 🤷🏻 |
 
 If you can't make one of the days, mark any topics you want to be present for with a milestone for a day you can attend.
 
