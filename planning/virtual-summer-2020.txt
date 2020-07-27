@@ -100,6 +100,16 @@ If you can't make one of the days, mark any topics you want to be present for wi
   * (Grid issues for Oriol's availability)
   * (Everything else that didn't have a constraint)
 
+  * [[https://github.com/w3c/csswg-drafts/issues/4783#issuecomment-587749012|[css-grid] Intrinsic contributions for items spanning flex tracks are not web compatible]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4790#issuecomment-664068575|[css-grid] Growth limits not increased with min-content contributions of spanning items]]
+  * [[https://github.com/w3c/csswg-drafts/issues/5275|[css-overflow] Consider adding new CSS primitive for per-element panning and zooming (for web maps)]]
+  * [[https://github.com/w3c/csswg-drafts/issues/1614#issuecomment-661391733|[css-sizing] `height: stretch` should just behave as `height: auto`]]
+  * [[https://github.com/w3c/csswg-drafts/issues/5269|[css-sizing] Import aspect-ratio from child image]]
+  * [[https://github.com/w3c/csswg-drafts/issues/5165|[css-images] image-orientation:none violates same-origin policy]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4568#issuecomment-662671958|[css-pseudo] Which properties to reset in ::marker]]
+  * [[https://github.com/w3c/csswg-drafts/issues/5154|[css-pseudo-4] ::first-letter should include space separators]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4969|[css-cascade] What are the proper "levels" for managing Cascade Layers? ]]
+
 ==== Tuesday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-28+Slot+B%22|GitHub Milestone]]
   * (Inline issues for jfkthame's availability)
@@ -109,6 +119,7 @@ If you can't make one of the days, mark any topics you want to be present for wi
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-30+Slot+A%22|GitHub Milestone]]
   * (TTML issue(s) first)
   * (Open UI, any other UI)
+  * (mediaqueries)
 
 ==== Friday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-31+Slot+A%22|GitHub Milestone]]
