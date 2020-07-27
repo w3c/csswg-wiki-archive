@@ -108,6 +108,7 @@ If you can't make one of the days, mark any topics you want to be present for wi
 
 ==== Friday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-31+Slot+A%22|GitHub Milestone]]
+
 [[https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F|Houdini tagged issues]]
 
 ===== Proposed Agenda =====
