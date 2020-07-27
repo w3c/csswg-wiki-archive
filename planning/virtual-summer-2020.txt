@@ -62,7 +62,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Amelia B-R | In.Ex. | some | some | prob. not | prob. late |
 | Brian Kardell| Igalia | yes | yes | only 2nd half | yes |
 | Cameron McCormack | Mozilla | yes | yes | no | no |
-| Chris Lilley | W3C |  yes | yes | yes | yes |
+| Chris Lilley | W3C |  first half | yes | yes | yes |
 | Daniel Holbert | Mozilla | yes | yes | no | yes |
 | Dave Cramer | Hachette |  yes | yes | no | no |
 | David Baron | Mozilla | probably (with decreasing probability over time);\\ Also missing part of Tuesday and roughly first half of Friday||||
