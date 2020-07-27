@@ -113,13 +113,53 @@ If you can't make one of the days, mark any topics you want to be present for wi
 ==== Tuesday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-28+Slot+B%22|GitHub Milestone]]
   * (Inline issues for jfkthame's availability)
-  * (CSS2 on Sam's availabililty) 
+
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5329|[css-inline-3] Initial-letter alignment when 'over-sunk' ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5208|[css-inline-3] Drop 'hebrew' alignment from initial-letter-align ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5207|[css-inline-3] text-align + initial-letter ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5120|[css-inline-3] initial-letters-wrap: first, whitespace collapse needs defining]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5119|[css-inline-3] initial-letters: interaction of shape-margin and regular margin]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/4988|[css-inline-3] initial-letters changing used, not computed font-size ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/864|[css-inline] alignment of initial-letter for South Asian scripts without hanging baseline ]]
+
+
+  * [[https://github.com/w3c/csswg-drafts/issues/1518|[css-text] letter-spacing should not apply to the end edge of a line/span? ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/3731|[css-sizing] how should inline-axis intrinsic sizing work for 'fit-content' and 'fit-content()'? ]] ]
+
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5312|[css-inline-3] Define em-top and em-bottom baselines ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/860|[css-inline] naming of text-top and text-bottom baselines ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5239|[css-inline-3] Tight vs loose fit into a line box ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5237|[css-inline-3] leading-trim through to descendant line boxes ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5235|[css-inline-3] vertical-align syntax / canonical ordering ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5234|[css-inline-3] 'vertical-align: middle' on table cells ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5225|[css-inline-3] vertical-align: super and font metrics ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/4707|[css-inline] vertically align to middle of cap height ]]
+
+  * [[https://github.com/w3c/csswg-drafts/issues/1339|[css-inline] vertically align to nth-child ]]
+
 
 ==== Thursday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-30+Slot+A%22|GitHub Milestone]]
   * (TTML issue(s) first)
   * (Open UI, any other UI)
   * (mediaqueries)
+  * (CSS2 on Sam's availabililty) 
 
 ==== Friday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-31+Slot+A%22|GitHub Milestone]]
