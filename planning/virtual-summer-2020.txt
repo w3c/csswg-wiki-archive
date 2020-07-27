@@ -93,16 +93,18 @@ If you can't make one of the days, mark any topics you want to be present for wi
 ===== Agenda Schedule =====
 ==== Monday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-27+Slot+B%22|GitHub Milestone]]
-(Grid issues for Oriol's availability)
+  * (Grid issues for Oriol's availability)
+  * (Everything else that didn't have a constraint)
 
 ==== Tuesday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-28+Slot+B%22|GitHub Milestone]]
-(Inline issues for jfkthame's availability)
+  * (Inline issues for jfkthame's availability)
+  * (CSS2 on Sam's availabililty) 
 
 ==== Thursday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-30+Slot+A%22|GitHub Milestone]]
-(TTML issue(s) first)
-(Open UI)
+  * (TTML issue(s) first)
+  * (Open UI, any other UI)
 
 ==== Friday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-31+Slot+A%22|GitHub Milestone]]
