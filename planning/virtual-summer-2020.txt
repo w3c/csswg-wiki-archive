@@ -90,7 +90,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Rossen Atanassov | Microsoft | yes | yes | yes | yes |
 | Sam Sneddon | Apple Inc | ❌ | 🤷🏻 (first half?) | ✅ | 🤷🏻 |
 | Simon Fraser | Apple Inc | some | some | second half | second half |
-| Theresa O'Connor | Apple Inc | ✅ | ✅ | second half | second half |
+| Theresa O'Connor | Apple Inc | ✅ | first half | second half | second half |
 | Tab Atkins | Google | yes | yes | yes | yes |
 | Tantek Çelik | Mozilla | ✅ | last 3/4 | 🤷🏻‍♂️ | ✅ |
 
