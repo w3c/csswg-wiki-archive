@@ -113,7 +113,12 @@ If you can't make one of the days, mark any topics you want to be present for wi
 ==== Tuesday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-28+Slot+B%22|GitHub Milestone]]
 
-  * [[https://github.com/w3c/csswg-drafts/issues/3731|[css-sizing] how should inline-axis intrinsic sizing work for 'fit-content' and 'fit-content()'? ]] needs Oriol + dbaron to confirm; defer to telecon
+  * [[https://github.com/w3c/csswg-drafts/issues/3731|[css-sizing] how should inline-axis intrinsic sizing work for 'fit-content' and 'fit-content()'? ]] needs Oriol + dbaron to confirm
+
+Line Layout
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5237|[css-inline-3] leading-trim through to descendant line boxes ]] needs dauwhe + dbaron + jensimmons
+  * [[https://github.com/w3c/csswg-drafts/issues/5239|[css-inline-3] Tight vs loose fit into a line box ]] needs dauwhe + jfkthame + dbaron + Florian + Myles ...
 
 Initial Letter
 
@@ -125,12 +130,6 @@ Initial Letter
   * [[https://github.com/w3c/csswg-drafts/issues/5119|[css-inline-3] initial-letters: interaction of shape-margin and regular margin]]
   * [[https://github.com/w3c/csswg-drafts/issues/5329|[css-inline-3] Initial-letter alignment when 'over-sunk' ]]
 
-Line Layout
-
-  * [[https://github.com/w3c/csswg-drafts/issues/5237|[css-inline-3] leading-trim through to descendant line boxes ]] needs dauwhe + dbaron + jensimmons
-  * [[https://github.com/w3c/csswg-drafts/issues/5239|[css-inline-3] Tight vs loose fit into a line box ]] needs dauwhe + jfkthame + dbaron + Florian + Myles ...
-  * [[https://github.com/w3c/csswg-drafts/issues/5312|[css-inline-3] Define em-top and em-bottom baselines ]] move to a different day: needs Koji + jfkthame
-
 Vertical Alignment
 
   * [[https://github.com/w3c/csswg-drafts/issues/860|[css-inline] naming of text-top and text-bottom baselines ]]
@@ -140,9 +139,9 @@ Vertical Alignment
   * [[https://github.com/w3c/csswg-drafts/issues/5225|[css-inline-3] vertical-align: super and font metrics ]] recommend faceless2 + Myles + jfkthame
   * [[https://github.com/w3c/csswg-drafts/issues/4707|[css-inline] vertically align to middle of cap height ]]
 
-Text
+Text (last hour)
 
-  * [[https://github.com/w3c/csswg-drafts/issues/1518|[css-text] letter-spacing should not apply to the end edge of a line/span? ]] move to a different day: needs Koji
+  * [[https://github.com/w3c/csswg-drafts/issues/1518|[css-text] letter-spacing should not apply to the end edge of a line/span? ]] needs Koji and Chris Harrelson
 
 
 ==== Thursday ====
@@ -156,6 +155,8 @@ Text
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-31+Slot+A%22|GitHub Milestone]]
 
 [[https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F|Houdini tagged issues]]
+
+  *   * [[https://github.com/w3c/csswg-drafts/issues/5312|[css-inline-3] Define em-top and em-bottom baselines ]] needs Koji + jfkthame
 
 ===== Proposed Agenda =====
 
