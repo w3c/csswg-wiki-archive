@@ -86,7 +86,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Oriol Brufau | Igalia | yes | yes | only 2nd half | yes |
 | Rachel Andrew | Fronteers | ❌ | ❌ | ✅ | ✅ |
 | Rossen Atanassov | Microsoft | yes | yes | yes | yes |
-| Sam Sneddon | Apple Inc | ❌ | 🤷🏻 (first half?) | 🤷🏻 | 🤷🏻 |
+| Sam Sneddon | Apple Inc | ❌ | 🤷🏻 (first half?) | ✅ | 🤷🏻 |
 | Simon Fraser | Apple Inc | some | some | second half | second half |
 | Theresa O'Connor | Apple Inc | ✅ | ✅ | second half | second half |
 | Lea Verou | IE | yes | yes | yes | yes |
