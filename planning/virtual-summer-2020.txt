@@ -120,7 +120,7 @@ Line Layout
   * [[https://github.com/w3c/csswg-drafts/issues/5237|[css-inline-3] leading-trim through to descendant line boxes ]] needs dauwhe + dbaron + jensimmons
   * [[https://github.com/w3c/csswg-drafts/issues/5239|[css-inline-3] Tight vs loose fit into a line box ]] needs dauwhe + jfkthame + dbaron + Florian + Myles ...
 
-Initial Letter
+Initial Letter (needs faceless2 and dauwe)
 
   * [[https://github.com/w3c/csswg-drafts/issues/5120|[css-inline-3] initial-letters-wrap: first, whitespace collapse needs defining]]
   * [[https://github.com/w3c/csswg-drafts/issues/5208|[css-inline-3] Drop 'hebrew' alignment from initial-letter-align ]]
