@@ -71,6 +71,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | David Baron | Mozilla | probably (with decreasing probability over time);\\ Also missing part of Tuesday and roughly first half of Friday||||
 | Devin Rousso | Apple Inc | ✅ | ✅ | ✅ | ✅ |
 | Emilio | Mozilla | 1st half? | 1st half? | yes | yes |
+| fantasai | IE | yes | yes | yes | yes |
 | Florian Rivoal | Invited Expert | unlikely | yes | yes | yes |
 | François REMY | Invited Expert | first half | yes | yes | maybe |
 | Fuqiao Xue | W3C | part | part | part | part |
@@ -78,6 +79,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Jen Simmons | Apple Inc | yes | yes | yes | no |
 | Jonathan Kew | Mozilla | 1st half? | 1st half? | yes | yes |
 | Koji Ishii | Google | no | yes | maybe | yes |
+| Lea Verou | IE | yes | yes | yes | yes |
 | Megan Gardner | Apple Inc | maybe | ✅ | ✅ | ✅ |
 | Melanie Richards | Microsoft | No | No | Calling in for controls topics :) | No |
 | Mike Bremford | BFO | first half | yes | yes | yes |
@@ -89,9 +91,8 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Sam Sneddon | Apple Inc | ❌ | 🤷🏻 (first half?) | ✅ | 🤷🏻 |
 | Simon Fraser | Apple Inc | some | some | second half | second half |
 | Theresa O'Connor | Apple Inc | ✅ | ✅ | second half | second half |
-| Lea Verou | IE | yes | yes | yes | yes |
 | Tab Atkins | Google | yes | yes | yes | yes |
-| fantasai | IE | yes | yes | yes | yes |
+| Tantek Çelik | Mozilla | ✅ | last 3/4 | 🤷🏻‍♂️ | ✅ |
 
 If you can't make one of the days, mark any topics you want to be present for with a milestone for a day you can attend.
 
