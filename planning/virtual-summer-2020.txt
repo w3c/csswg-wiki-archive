@@ -90,6 +90,8 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Simon Fraser | Apple Inc | some | some | second half | second half |
 | Theresa O'Connor | Apple Inc | ✅ | ✅ | second half | second half |
 | Lea Verou | IE | yes | yes | yes | yes |
+| Tab Atkins | Google | yes | yes | yes | yes |
+| fantasai | IE | yes | yes | yes | yes |
 
 If you can't make one of the days, mark any topics you want to be present for with a milestone for a day you can attend.
 
