@@ -154,6 +154,31 @@ Text (last hour)
   * (mediaqueries)
   * (CSS2 on Sam's availabililty) 
 
+TTML
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5189|[css-inline] inline-sizing property name is too similar to inline-size]]
+
+UI
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5350|[META] Presentation regarding Open UI]]
+  * [[https://github.com/w3c/csswg-drafts/issues/5049#issuecomment-639161484|[css-selectors] Can you standardise a pseudo-element selector for file inputs?]]
+  * [[https://github.com/w3c/csswg-drafts/issues/5174|[css-ui] Change appearance: button to only apply to buttons]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4925|[css-ui] outline-width and "outline-style: auto"]]
+  * [[https://github.com/w3c/csswg-drafts/issues/5233|[css-pseudo-4] Add a highlight pseudo-element for find-in-page or scroll-to-text]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4784|[css-ui] Add caret-width or add spec that browser maintains caret width despite transforms]]
+
+Media Queries
+
+  * [[https://github.com/w3c/csswg-drafts/issues/2943#issuecomment-665453076|[mediaqueries-5] `prefers-contrast: high` media feature doesn't account for macOS and iOS]]
+  * [[https://github.com/w3c/csswg-drafts/issues/4833#issuecomment-663555808|[media-queries-5] should "prefers-reduced-data" be binary or not ]]
+  * [[https://github.com/w3c/csswg-drafts/issues/5224|[mediaqueries-5] prefers-contrast: infer contrast preference from forced colors]]
+  * [[https://github.com/w3c/csswg-drafts/issues/5359|[mediaqueries-5] redundant media feature]]
+  * [[https://github.com/w3c/csswg-drafts/issues/3949|[css-background-4] Switch to opt into transparent canvas for additive displays]]
+
+CSS2
+
+  * [[https://github.com/w3c/csswg-drafts/issues/5114#issuecomment-658386281|Do we remove old sections or not?]] link to [[https://github.com/w3c/csswg-drafts/pull/5298|Pull Request]]
+
 ==== Friday ====
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-31+Slot+A%22|GitHub Milestone]]
 
