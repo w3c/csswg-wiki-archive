@@ -306,4 +306,5 @@ Naming colors can be done in stylesheets using custom properties. It is not like
 
 === References ===
 
-https://github.com/w3c/csswg-drafts/issues/3192#issuecomment-427132614
+  * https://github.com/w3c/csswg-drafts/issues/3192#issuecomment-427132614
+  * https://www.youtube.com/watch?v=HmStJQzclHc
