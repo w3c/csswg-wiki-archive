@@ -13,9 +13,12 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
   * **2020**
-    * Summer: [[planning:virtual-summer-2020|Virtual meeting 2]] instead of face-to-face
-      * **When**  July 27-31: CSS Monday, Tuesday, Thursday. Houdini Friday
     * **TPAC Virtual Meeting** (was in Vancouver, BC, Canada): **26-30 October 2020**
+    * 12-16 October for joint meetings with other groups
+    * Possible dates for our own virtual meeting:
+      * 5-9 October
+      * 19-23 October
+      * Split between the two weeks above
   * **2021**
     *  **February 15-17** in Noida, India (Adobe)
       * //That February, Delhi seemed like a paradise. The plants which seemed to have died during the winter’s cold — the snapdragon, the hibiscus and the frangipani — miraculously sprang back to life and into bloom.//
@@ -26,6 +29,8 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ===== Past Meetings =====
 
 ==== 2020 ====
+    * Summer: [[planning:virtual-summer-2020|Virtual meeting 2]] instead of face-to-face
+      * **When**  July 27-31: CSS Monday, Tuesday, Thursday. Houdini Friday
     * Spring: [[planning:virtual-spring-2020|Virtual meeting]] instead of face-to-face
       * When: Wednesday-Thursday, **April 29-30** and **May 6-7**
     * January: [[planning:galicia-2020]]
