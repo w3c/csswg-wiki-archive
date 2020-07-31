@@ -188,9 +188,9 @@ CSS Houdini
 
   * [[https://github.com/w3c/css-houdini-drafts/issues/994|[css-properties-values-api] Make all the descriptors optional]]
   * [[https://github.com/w3c/css-houdini-drafts/issues/990|[css-layout-api] String based inline layout API]]
-  * [[https://github.com/w3c/css-houdini-drafts/issues/989|[css-typed-om] Color conversion and contrast ratio]] needs Chris or Lea
   * [[https://github.com/w3c/css-houdini-drafts/issues/978|Print behaviour & test requirements]]
   * [[https://github.com/w3c/css-houdini-drafts/issues/985|Ban data URL worklets]]
+  * [[https://github.com/w3c/css-houdini-drafts/issues/989|[css-typed-om] Color conversion and contrast ratio]] needs Chris or Lea
   * [[https://github.com/w3c/css-houdini-drafts/issues/997|[css-typed-om] Prevent CSS Typed OM updates via `attributeStyleMap` from updating DOM `style` attributes]]
   * [[https://github.com/w3c/css-houdini-drafts/issues/968|[css-typed-om] Should TypedOM "simplify away" a calc() wrapper around a single numeric value when reifying, like serialization does?]]
   * [[https://github.com/w3c/css-houdini-drafts/issues/948|[css-typed-om] Switch CSSUnparsedValue and CSSTransformValue to having an arrayish member?]]
