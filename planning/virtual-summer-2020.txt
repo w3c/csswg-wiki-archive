@@ -188,12 +188,12 @@ CSS Houdini
 
   *   [[https://github.com/w3c/css-houdini-drafts/issues/994|[css-properties-values-api] Make all the descriptors optional]]
   *   [[https://github.com/w3c/css-houdini-drafts/issues/990|[css-layout-api] String based inline layout API]]
-  *   [[https://github.com/w3c/css-houdini-drafts/issues/989|[css-typed-om] Color conversion and contrast ratio]]
+  *   [[https://github.com/w3c/css-houdini-drafts/issues/989|[css-typed-om] Color conversion and contrast ratio]] needs Chris or Lea
 
-Inline Layout
+Line Layout
 
-  *   [[https://github.com/w3c/csswg-drafts/issues/5329|[css-inline-3] Initial-letter alignment when 'over-sunk' ]]
   *   [[https://github.com/w3c/csswg-drafts/issues/5154|[css-pseudo-4] ::first-letter should include space separators ]]
+  *   [[https://github.com/w3c/csswg-drafts/issues/5329|[css-inline-3] Initial-letter alignment when 'over-sunk' ]]
   *   [[https://github.com/w3c/csswg-drafts/issues/5312|[css-inline-3] Define em-top and em-bottom baselines ]] needs Koji + jfkthame
 
 ===== Proposed Agenda =====
