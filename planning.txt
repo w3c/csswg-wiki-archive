@@ -15,7 +15,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
   * **2020**
     * **[[https://www.w3.org/2020/10/TPAC/|TPAC Virtual Meeting]]** (was in Vancouver, BC, Canada): **26-30 October 2020**
     * 12-16 October for [[https://www.w3.org/wiki/TPAC/2020/GroupMeetings|joint meetings with other groups]]
-    * 19 October 14:00-15:00 UTC: Media & Entertainment IG discussion on HDR/WCG images on the web 
+    * 19 October 14:00-15:00 UTC: Media & Entertainment IG discussion on HDR/WCG images on the web [[https://www.w3.org/2011/webtv/wiki/TPAC_2020_meeting#color|]]
     * 19-23 October for our own meetings [[https://www.w3.org/wiki/TPAC/2020/GroupMeetings|]]
   * **2021**
     *  **February 15-17** in Noida, India (Adobe)
