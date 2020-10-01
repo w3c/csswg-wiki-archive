@@ -1,0 +1,76 @@
+====== CSSWG 3nd Virtual F2F, at TPAC 2020 ======
+
+===== Schedule =====
+
+Links to Meet: TBD
+
+https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201019T20
+
+October 19 (20)
+
+   10pm -  1am Paris
+    9pm - 12am London
+    4pm -  7pm New York
+    1pm -  4pm San Francisco
+    5am -  8am Tokyo
+    7am - 10am Melbourne
+
+https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201020T20
+
+October 20 (21)
+
+   10pm -  1am Paris
+    9pm - 12am London
+    4pm -  7pm New York
+    1pm -  4pm San Francisco
+    5am -  8am Tokyo
+    7am - 10am Melbourne
+
+https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201022T14
+
+October 22 (23)
+
+    4pm -  7pm Paris
+    3pm -  6pm London
+   10am -  1pm New York
+    7am - 10am San Francisco
+   11pm -  2am Tokyo
+    1am -  4am Melbourne
+ 
+https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201023T14
+
+October 23 (24)
+
+    4pm -  7pm Paris
+    3pm -  6pm London
+   10am -  1pm New York
+    7am - 10am San Francisco
+   11pm -  2am Tokyo
+    1am -  4am Melbourne
+ 
+
+===== Venue tech =====
+
+Meet. Details on the member-only list: TBD
+
+We will use #css on IRC for all meeting coordination. People can use the chat in Meet for backchannel conversations, but please do not expect the meeting chairs or scribe to notice or follow that extra channel.
+
+===== Participants =====
+
+| **Name** | **Affiliation** | Monday | Tuesday | Thursday | Friday |
+| Cameron McCormack | Mozilla | yes | yes | no | no |
+
+If you can't make one of the days, mark any topics you want to be present for with a milestone for a day you can attend.
+
+
+===== Agenda Schedule =====
+
+===== Proposed Agenda =====
+
+Please mark issues with the Agenda+ FTF tag
+
+TODO: Add the full list of issues on GitHub explicitly here.
+  * https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F
+  * https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20F2F
+  * https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F
+
