@@ -68,7 +68,7 @@ If you can't make one of the days, mark any topics you want to be present for wi
 
 ===== Proposed Agenda =====
 
-Please mark issues with the Agenda+ FTF tag, and assign them to one of the TPAC-2020-* milestones if you have a preference for which day the discussion happens.
+Please mark issues with the ''Agenda+ TPAC'' tag, and assign them to one of the TPAC-2020-* milestones if you have a preference for which day the discussion happens.
 
 TODO: Add the full list of issues on GitHub explicitly here.
   * https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F
