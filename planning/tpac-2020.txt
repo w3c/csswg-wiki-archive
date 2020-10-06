@@ -62,6 +62,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Cameron McCormack | Mozilla | yes | yes | no | no |
 | Tantek Çelik | Mozilla | yes | yes | yes | yes |
 | Ting-Yu Lin | Mozilla | yes | yes | yes | yes |
+| Morgan Rae Reschenberg | Mozilla | yes | yes | yes | yes |
 
 If you can't make one of the days, mark any topics you want to be present for with a milestone for a day you can attend.
 
