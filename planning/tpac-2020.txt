@@ -60,9 +60,11 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | **Name** | **Affiliation** | Monday | Tuesday | Thursday | Friday |
 | Alan Stearns | Adobe | yes | yes | yes | yes |
 | Cameron McCormack | Mozilla | yes | yes | no | no |
+| fantasai | Invited Expert | yes | yes | yes | yes |
+| Morgan Rae Reschenberg | Mozilla | yes | yes | yes | yes |
 | Tantek Çelik | Mozilla | yes | yes | yes | yes |
 | Ting-Yu Lin | Mozilla | yes | yes | yes | yes |
-| Morgan Rae Reschenberg | Mozilla | yes | yes | yes | yes |
+
 
 If you can't make one of the days, mark any topics you want to be present for with a milestone for a day you can attend.
 
