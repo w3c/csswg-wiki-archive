@@ -1,10 +1,9 @@
 ====== Meeting Planning Pages ======
 
-This is the CSS Working Group's planning space. See also [[planning:hosting]].
+This is the CSS Working Group's planning space. A **[[https://cal.csswg.org/public.php/csswg/calendar.ics|CSSWG Meeting iCalendar Feed]]** is also available.
 
 All meetings use IRC for live minuting and as a backchannel: the #css channel on [[https://www.w3.org/Project/IRC/|the W3C IRC server]].
 
-A **[[https://cal.csswg.org/public.php/csswg/calendar.ics|CSSWG Meeting iCalendar Feed]]** is also available.
 ===== Weekly Telecons =====
 
 [[https://lists.w3.org/Archives/Member/w3c-css-wg/2017OctDec/0076.html|teleconference details and times for weekly teleconferences]]
