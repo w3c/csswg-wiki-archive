@@ -107,4 +107,5 @@ TODO: Add the full list of issues on GitHub explicitly here.
   * https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F + https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20TPAC
   * https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20F2F + https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20TPAC
   * https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F + https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20TPAC
+  * Baseline alignment for text (issue forthcoming) [myles]
 
