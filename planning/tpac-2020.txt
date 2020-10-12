@@ -13,6 +13,15 @@ Links to Meet: TBD
 
 ===== Schedule =====
 
+[https://www.timeanddate.com/worldclock/fixedtime.html?iso=202012T17|October 12 (13) 17:00 UTC - [[https://github.com/WICG/open-ui/blob/master/meetings/telecon/tpac-openui-csswg-oct-2020.md|Joint Meeting with Open UI]]
+
+    7pm - 11pm Paris
+    6pm - 10pm London
+    1pm -  5pm New York
+   10am -  3pm San Francisco
+    2am -  6am Tokyo
+    4am -  8am Melbourne
+
 [[https://www.timeanddate.com/worldclock/fixedtime.html?iso=202014T15|October 14 (15) 15:00 UTC]] - Joint Meeting with Accessibility
 
     5pm -  6pm Paris
