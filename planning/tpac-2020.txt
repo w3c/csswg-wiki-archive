@@ -97,9 +97,11 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | **Name** | **Affiliation** | Monday | Tuesday | Thursday | Friday |
 | Alan Stearns | Adobe | yes | yes | yes | yes |
 | Cameron McCormack | Mozilla | yes | yes | no | no |
+| Chris Lilley | W3C| yes | yes | yes | yes |
 | Devin Rousso | Apple | yes | yes | yes | yes |
 | fantasai | Invited Expert | yes | yes | yes | yes |
 | Jen Simmons | Apple, Inc. | yes | yes | yes | yes |
+| Lea Verou| Invited Expert | yes | yes | yes | yes |
 | Myles C. Maxfield | Apple, Inc. | yes | yes | yes | yes |
 | Morgan Rae Reschenberg | Mozilla | yes | yes | yes | yes |
 | Rachel Andrew | Fronteers | no | no | yes | yes |
