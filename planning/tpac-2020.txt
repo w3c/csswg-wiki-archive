@@ -102,6 +102,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Jen Simmons | Apple, Inc. | yes | yes | yes | yes |
 | Myles C. Maxfield | Apple, Inc. | yes | yes | yes | yes |
 | Morgan Rae Reschenberg | Mozilla | yes | yes | yes | yes |
+| Rachel Andrew | Fronteers | no | no | yes | yes |
 | Tantek Çelik | Mozilla | yes | yes | yes | yes |
 | Ting-Yu Lin | Mozilla | yes | yes | yes | yes |
 
