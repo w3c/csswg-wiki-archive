@@ -145,4 +145,4 @@ TODO: Add the full list of issues on GitHub explicitly here.
   * CSS Conditional 3 [[https://github.com/w3c/csswg-drafts/issues/5559|Are there issues with !important in @supports? (Is the grammar wrong?)]]
   * CSS Conditional 3 [[https://github.com/w3c/csswg-drafts/issues/3220|define whether/how it matters if namespace prefixes are declared]]
   * CSS Conditional 3 [[https://github.com/w3c/csswg-drafts/issues/3171|is trailing semicolon valid in @supports conditions]]
-  * Adopting [[https://hg.mozilla.org/mozilla-central/raw-file/tip/layout/docs/css-grid-3/Overview.html|Masonry proposal]] into a spec (start of Day 2, so Mats can call in)
+  * Adopting [[https://raw.githack.com/mozilla/gecko-dev/master/layout/docs/css-grid-3/Overview.html|Masonry proposal]] into a spec (start of Day 2, so Mats can call in)
