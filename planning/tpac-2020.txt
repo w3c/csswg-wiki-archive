@@ -181,6 +181,7 @@ If you can't make one of the days, mark any topics you want to be present for wi
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-23|Issues by milestone]]
 
   * [css-multicol] Containing block of column spanners [[https://github.com/w3c/csswg-drafts/issues/5612|5612]]
+  * [css-grid] Resolution of percentage row tracks and gutters with indefinite height [[https://github.com/w3c/csswg-drafts/issues/5566|5566]]
   * [css-break-3] rules for direction to use when slicing inline borders for box-decoration-break:slice are unclear [[https://github.com/w3c/csswg-drafts/issues/4989|4989]]
   * [css-break] Specify that ink overflow doesn't fragment? [[https://github.com/w3c/csswg-drafts/issues/4099|4099]]
   * [css-break-4] orphans and widows for fragmented monolithic replaced elements [[https://github.com/w3c/csswg-drafts/issues/3405|3405]]
