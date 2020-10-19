@@ -159,9 +159,37 @@ If you can't make one of the days, mark any topics you want to be present for wi
 
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-22|Issues by milestone]]
 
+  * [css-images-3] Allow impls to not respect exif data if it's after the image data [[https://github.com/w3c/csswg-drafts/issues/4929|4929]]
+  * [css-images] Integrate with SVG Integration spec [[https://github.com/w3c/csswg-drafts/issues/4640|4640]]
+  * [css2][css-images] Zero or infinite intrinsic ratio [[https://github.com/w3c/csswg-drafts/issues/4572|4572]]
+  * [css-images] Should the values of image-orientation include the <angle> variants? [[https://github.com/w3c/csswg-drafts/issues/4164|4164]]
+  * [css-text-3][css-fonts-3][css-text-decor-3] Distinguish applying to text vs applying to boxes [[https://github.com/w3c/csswg-drafts/issues/5303|5303]]
+  * [css-fonts] Reduce layout shift via @font-face descriptor(s) overriding inline spacing [[https://github.com/w3c/csswg-drafts/issues/5533|5533]]
+  * [css-lists] CSS counter scope/inheritance is incompatible with HTML ordinals [[https://github.com/w3c/csswg-drafts/issues/5477|5477]]
+  * Change three color names [[https://github.com/w3c/csswg-drafts/issues/5284|5284]]
+  * [css-color-adjust] Re-add `only` to mean "don't auto-adjust me", per WebKit's behavior [[https://github.com/w3c/csswg-drafts/issues/5089|5089]]
+  * [css-color-adjust-1] Is forced color computed or used value? [[https://github.com/w3c/csswg-drafts/issues/4915|4915]]
+  * [css-color-adjust-1] more granular overriding of forced colors mode than per-element [[https://github.com/w3c/csswg-drafts/issues/4178|4178]]
+  * [css-color][cssom] Serialization of specified <color> values [[https://github.com/w3c/csswg-drafts/issues/1004|1004]]
+  * [cssom][css-color] Need clarification on serialization of `rgb` & `rgba` in light of css-color-4's syntax changes [[https://github.com/w3c/csswg-drafts/issues/585|585]]
+  * [css-variables][css-conditional] is trailing semicolon valid in @supports conditions [[https://github.com/w3c/csswg-drafts/issues/3171|3171]]
+  * [css-conditional-3] define whether/how it matters if namespace prefixes are declared [[https://github.com/w3c/csswg-drafts/issues/3220|3220]]
+  * [css-conditional-3] Are there issues with !important in @supports? (Is the grammar wrong?) [[https://github.com/w3c/csswg-drafts/issues/5559|5559]]
+
 === Friday ===
 
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-23|Issues by milestone]]
+
+  * [css-multicol] Containing block of column spanners [[https://github.com/w3c/csswg-drafts/issues/5612|5612]]
+  * [css-break-3] rules for direction to use when slicing inline borders for box-decoration-break:slice are unclear [[https://github.com/w3c/csswg-drafts/issues/4989|4989]]
+  * [css-break] Specify that ink overflow doesn't fragment? [[https://github.com/w3c/csswg-drafts/issues/4099|4099]]
+  * [css-break-4] orphans and widows for fragmented monolithic replaced elements [[https://github.com/w3c/csswg-drafts/issues/3405|3405]]
+  * [css-break-4] Should fragmentation of block-level replaced-elements be configurable? ("object-slice") [[https://github.com/w3c/csswg-drafts/issues/3404|3404]]
+  * [css-pseudo] Problems with styling ::first-letter with punctuation [[https://github.com/w3c/csswg-drafts/issues/2040|2040]]
+  * [css-display][css-pseudo] Is ::marker created by display:list-item or does it always exist? [[https://github.com/w3c/csswg-drafts/issues/1793|1793]]
+  * [css-pseudo-4] ::selection vs ::inactive-selection [[https://github.com/w3c/csswg-drafts/issues/4579|4579]]
+  * Allow specifying the "accent color" of a form control element [[https://github.com/w3c/csswg-drafts/issues/5187|5187]]
+
 ===== Proposed Agenda =====
 
 Please mark issues with the ''Agenda+ TPAC'' or ''Agenda+ F2F'' tag, and assign them to one of the TPAC-2020-* milestones if you have a preference for which day the discussion happens.
