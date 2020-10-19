@@ -139,7 +139,21 @@ If you can't make one of the days, mark any topics you want to be present for wi
 
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-20|Issues by milestone]]
 
-  * Masonry
+  * Masonry [[https://raw.githack.com/mozilla/gecko-dev/master/layout/docs/css-grid-3/Overview.html|Draft]]
+  * [css-contain-2] Proposal: content-visibility: hidden-matchable [[https://github.com/w3c/csswg-drafts/issues/5595|5595]]
+  * [css-contain] contain:size needs to mention its effect on aspect-ratio [[https://github.com/w3c/csswg-drafts/issues/5585|5585]]
+  * [css-contain] Computed value of shortcut values [[https://github.com/w3c/csswg-drafts/issues/5511|5511]]
+  * [css-contain-2] Combination of shortcuts and values [[https://github.com/w3c/csswg-drafts/issues/5506|5506]]
+  * [css-contain] Terminology question [[https://github.com/w3c/csswg-drafts/issues/5590|5590]]
+  * [css-sizing-4] Use cases for explicit intrinsic-size [[https://github.com/w3c/csswg-drafts/issues/4585|4585]]
+  * [css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis? [[https://github.com/w3c/csswg-drafts/issues/3973|3973]]
+  * [css-sizing] cyclic percentage concept should not exist [[https://github.com/w3c/csswg-drafts/issues/3010|3010]]
+  * [css-sizing-3][css-images-3] Distinguish intrinsic size's two definitions with two terms [[https://github.com/w3c/csswg-drafts/issues/4961|4961]]
+  * [css-sizing-4][css-contain] Clarify on specifying aspect-ratio and contain:size on replaced elements [[https://github.com/w3c/csswg-drafts/issues/5550|5550]]
+  * [css-logical-1] Interaction of shorthands and logical properties [[https://github.com/w3c/csswg-drafts/issues/3030|3030]]
+  * [dialog element] <dialog> positioning should be describable in CSS [[https://github.com/w3c/csswg-drafts/issues/4645|4645]]
+  * [css-overflow] CSSOM scrollWidth/scrollHeight behaviour of "overflow: clip". [[https://github.com/w3c/csswg-drafts/issues/5572|5572]]
+  * [cssom-view] [css-overflow] Document.scrollingElement doesn't reflect viewport propagation correctly in presence of overflow: clip [[https://github.com/w3c/csswg-drafts/issues/5601|5601]]
 
 === Thursday ===
 
