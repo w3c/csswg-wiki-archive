@@ -126,6 +126,13 @@ If you can't make one of the days, mark any topics you want to be present for wi
   * [css-grid] Resolution of percentage row tracks and gutters with indefinite height [[https://github.com/w3c/csswg-drafts/issues/5566|5566]]
   * [css-2020] Clear 'aspect-ratio' for shipping [[https://github.com/w3c/csswg-drafts/issues/5598|5598]]
   * How widely should HTML's 'aspect-ratio' presentational attribute be applied? [[https://github.com/w3c/csswg-drafts/issues/5608|5608]]
+  * Revisiting standardization of the `zoom` property [[https://github.com/w3c/csswg-drafts/issues/5623|5623]]
+  * [css-logical-1] Order of inheritance vs. mapping in logical properties [[https://github.com/w3c/csswg-drafts/issues/3029|3029]]
+  * Updating the css `env()` function to enable selection by index from a list of pre-defined environment variables [[https://github.com/w3c/csswg-drafts/issues/5622|5622]]
+  * [css-values-4] Ratio of `0/0`? [[https://github.com/w3c/csswg-drafts/issues/4954|4954]]
+  * [cssom] [mediaqueries] Media query serialization doesn't work for newer spec features [[https://github.com/w3c/csswg-drafts/issues/5627|5627]]
+  * [mediaqueries-5] duplication of `forced-colors: active` and `prefers-contrast: forced` [[https://github.com/w3c/csswg-drafts/issues/5433|5433]]
+  * [mediaqueries-5] Updating the CSS media feature syntax for foldable & dual-screen devices [[https://github.com/w3c/csswg-drafts/issues/5621|5621]]
 
 
 === Tuesday ===
