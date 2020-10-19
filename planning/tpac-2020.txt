@@ -107,6 +107,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Oriol Brufau | Igalia | yes | yes | yes | yes |
 | Rachel Andrew | Fronteers | no | no | yes | yes |
 | Rossen Atanassov | Microsoft | no | yes | yes | yes |
+| Simon Fraser | Apple, Inc. | yes | yes | some | some |
 | Tantek Çelik | Mozilla | yes | yes | yes | yes |
 | Ting-Yu Lin | Mozilla | yes | yes | yes | yes |
 
