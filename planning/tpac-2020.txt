@@ -121,11 +121,18 @@ If you can't make one of the days, mark any topics you want to be present for wi
 
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-19|Issues by milestone]]
 
+  * Republishing Tasks [[https://github.com/w3c/csswg-drafts/issues/5613|5613]]
+  * [css-grid-1] Fix aspect-ratio errors in css-grid-1 [[https://github.com/w3c/csswg-drafts/issues/5615|5615]]
+  * [css-grid] Resolution of percentage row tracks and gutters with indefinite height [[https://github.com/w3c/csswg-drafts/issues/5566|5566]]
+  * [css-2020] Clear 'aspect-ratio' for shipping [[https://github.com/w3c/csswg-drafts/issues/5598|5598]]
+  * How widely should HTML's 'aspect-ratio' presentational attribute be applied? [[https://github.com/w3c/csswg-drafts/issues/5608|5608]]
+
+
 === Tuesday ===
 
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-20|Issues by milestone]]
 
- * Masonry
+  * Masonry
 
 === Thursday ===
 
