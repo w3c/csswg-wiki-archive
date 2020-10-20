@@ -110,7 +110,7 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Simon Fraser | Apple, Inc. | 2nd half | yes | some | some |
 | Tantek Çelik | Mozilla | yes | yes | yes | yes |
 | Ting-Yu Lin | Mozilla | yes | yes | yes | yes |
-| Daniel Holbert | Mozilla | no | yes | no no |
+| Daniel Holbert | Mozilla | no | yes | no | no |
 
 
 If you can't make one of the days, mark any topics you want to be present for with a milestone for a day you can attend.
