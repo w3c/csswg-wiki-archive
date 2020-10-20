@@ -140,7 +140,7 @@ If you can't make one of the days, mark any topics you want to be present for wi
 
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-20|Issues by milestone]]
 
-  * Masonry [[https://raw.githack.com/mozilla/gecko-dev/master/layout/docs/css-grid-3/Overview.html|Draft]]
+  * Masonry [[https://raw.githack.com/mozilla/gecko-dev/master/layout/docs/css-grid-3/Overview.html|Draft]] [[https://github.com/w3c/csswg-drafts/issues/4650|4650]]
   * [css-contain-2] Proposal: content-visibility: hidden-matchable [[https://github.com/w3c/csswg-drafts/issues/5595|5595]]
   * [css-contain] contain:size needs to mention its effect on aspect-ratio [[https://github.com/w3c/csswg-drafts/issues/5585|5585]]
   * [css-contain] Computed value of shortcut values [[https://github.com/w3c/csswg-drafts/issues/5511|5511]]
