@@ -152,7 +152,10 @@ If you can't make one of the days, mark any topics you want to be present for wi
   * [css-sizing-3][css-images-3] Distinguish intrinsic size's two definitions with two terms [[https://github.com/w3c/csswg-drafts/issues/4961|4961]]
   * [css-sizing-4][css-contain] Clarify on specifying aspect-ratio and contain:size on replaced elements [[https://github.com/w3c/csswg-drafts/issues/5550|5550]]
   * [css-logical-1] Interaction of shorthands and logical properties [[https://github.com/w3c/csswg-drafts/issues/3030|3030]]
-  * [dialog element] <dialog> positioning should be describable in CSS [[https://github.com/w3c/csswg-drafts/issues/4645|4645]]
+
+Didn't get to today:
+
+  * HTML wants to mint the :modal pseudoclass for modal &lt;dialog> elements [[https://github.com/w3c/csswg-drafts/issues/4645|4645]]
   * [css-overflow] CSSOM scrollWidth/scrollHeight behaviour of "overflow: clip". [[https://github.com/w3c/csswg-drafts/issues/5572|5572]]
   * [cssom-view] [css-overflow] Document.scrollingElement doesn't reflect viewport propagation correctly in presence of overflow: clip [[https://github.com/w3c/csswg-drafts/issues/5601|5601]]
 
