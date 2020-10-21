@@ -128,7 +128,6 @@ If you can't make one of the days, mark any topics you want to be present for wi
   * [css-2020] Clear 'aspect-ratio' for shipping [[https://github.com/w3c/csswg-drafts/issues/5598|5598]]
   * How widely should HTML's 'aspect-ratio' presentational attribute be applied? [[https://github.com/w3c/csswg-drafts/issues/5608|5608]]
   * Revisiting standardization of the `zoom` property [[https://github.com/w3c/csswg-drafts/issues/5623|5623]]
-  * [css-logical-1] Order of inheritance vs. mapping in logical properties [[https://github.com/w3c/csswg-drafts/issues/3029|3029]]
   * Updating the css `env()` function to enable selection by index from a list of pre-defined environment variables [[https://github.com/w3c/csswg-drafts/issues/5622|5622]]
   * [css-values-4] Ratio of `0/0`? [[https://github.com/w3c/csswg-drafts/issues/4954|4954]]
   * [cssom] [mediaqueries] Media query serialization doesn't work for newer spec features [[https://github.com/w3c/csswg-drafts/issues/5627|5627]]
@@ -155,7 +154,6 @@ If you can't make one of the days, mark any topics you want to be present for wi
 
 Didn't get to today:
 
-  * HTML wants to mint the :modal pseudoclass for modal <dialog> elements [[https://github.com/w3c/csswg-drafts/issues/4645|4645]]
   * [css-overflow] CSSOM scrollWidth/scrollHeight behaviour of "overflow: clip". [[https://github.com/w3c/csswg-drafts/issues/5572|5572]]
   * [cssom-view] [css-overflow] Document.scrollingElement doesn't reflect viewport propagation correctly in presence of overflow: clip [[https://github.com/w3c/csswg-drafts/issues/5601|5601]]
 
@@ -163,6 +161,11 @@ Didn't get to today:
 
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-22|Issues by milestone]]
 
+  * [css-variables][css-conditional] is trailing semicolon valid in @supports conditions [[https://github.com/w3c/csswg-drafts/issues/3171|3171]]
+  * [css-conditional-3] define whether/how it matters if namespace prefixes are declared [[https://github.com/w3c/csswg-drafts/issues/3220|3220]]
+  * [css-conditional-3] Are there issues with !important in @supports? (Is the grammar wrong?) [[https://github.com/w3c/csswg-drafts/issues/5559|5559]]
+  * [css-color][cssom] Serialization of specified <color> values [[https://github.com/w3c/csswg-drafts/issues/1004|1004]]
+  * [cssom][css-color] Need clarification on serialization of `rgb` & `rgba` in light of css-color-4's syntax changes [[https://github.com/w3c/csswg-drafts/issues/585|585]]
   * [css-images-3] Allow impls to not respect exif data if it's after the image data [[https://github.com/w3c/csswg-drafts/issues/4929|4929]]
   * [css-images] Integrate with SVG Integration spec [[https://github.com/w3c/csswg-drafts/issues/4640|4640]]
   * [css2][css-images] Zero or infinite intrinsic ratio [[https://github.com/w3c/csswg-drafts/issues/4572|4572]]
@@ -170,16 +173,12 @@ Didn't get to today:
   * [css-text-3][css-fonts-3][css-text-decor-3] Distinguish applying to text vs applying to boxes [[https://github.com/w3c/csswg-drafts/issues/5303|5303]]
   * [css-fonts] Reduce layout shift via @font-face descriptor(s) overriding inline spacing [[https://github.com/w3c/csswg-drafts/issues/5533|5533]]
   * [css-lists] CSS counter scope/inheritance is incompatible with HTML ordinals [[https://github.com/w3c/csswg-drafts/issues/5477|5477]]
-  * [css-color] Change three color names [[https://github.com/w3c/csswg-drafts/issues/5284|5284]]
   * [css-color] Prevent fingerprinting with deprecated system colors [[https://github.com/w3c/csswg-drafts/issues/3873|3873]]
   * [css-color-adjust] Re-add `only` to mean "don't auto-adjust me", per WebKit's behavior [[https://github.com/w3c/csswg-drafts/issues/5089|5089]]
   * [css-color-adjust-1] Is forced color computed or used value? [[https://github.com/w3c/csswg-drafts/issues/4915|4915]]
   * [css-color-adjust-1] more granular overriding of forced colors mode than per-element [[https://github.com/w3c/csswg-drafts/issues/4178|4178]]
-  * [css-color][cssom] Serialization of specified <color> values [[https://github.com/w3c/csswg-drafts/issues/1004|1004]]
-  * [cssom][css-color] Need clarification on serialization of `rgb` & `rgba` in light of css-color-4's syntax changes [[https://github.com/w3c/csswg-drafts/issues/585|585]]
-  * [css-variables][css-conditional] is trailing semicolon valid in @supports conditions [[https://github.com/w3c/csswg-drafts/issues/3171|3171]]
-  * [css-conditional-3] define whether/how it matters if namespace prefixes are declared [[https://github.com/w3c/csswg-drafts/issues/3220|3220]]
-  * [css-conditional-3] Are there issues with !important in @supports? (Is the grammar wrong?) [[https://github.com/w3c/csswg-drafts/issues/5559|5559]]
+  * [css-color] Change three color names [[https://github.com/w3c/csswg-drafts/issues/5284|5284]]
+
 
 === Friday ===
 
@@ -187,6 +186,8 @@ Didn't get to today:
 
   * [css-multicol] Containing block of column spanners [[https://github.com/w3c/csswg-drafts/issues/5612|5612]]
   * [css-grid] Resolution of percentage row tracks and gutters with indefinite height [[https://github.com/w3c/csswg-drafts/issues/5566|5566]]
+  * HTML wants to mint the :modal pseudoclass for modal <dialog> elements [[https://github.com/w3c/csswg-drafts/issues/4645|4645]]
+  * [css-logical-1] Order of inheritance vs. mapping in logical properties [[https://github.com/w3c/csswg-drafts/issues/3029|3029]]
   * [css-break-3] rules for direction to use when slicing inline borders for box-decoration-break:slice are unclear [[https://github.com/w3c/csswg-drafts/issues/4989|4989]]
   * [css-break] Specify that ink overflow doesn't fragment? [[https://github.com/w3c/csswg-drafts/issues/4099|4099]]
   * [css-break-4] orphans and widows for fragmented monolithic replaced elements [[https://github.com/w3c/csswg-drafts/issues/3405|3405]]
