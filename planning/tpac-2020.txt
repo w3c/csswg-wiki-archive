@@ -170,7 +170,7 @@ Didn't get to today:
   * [css-text-3][css-fonts-3][css-text-decor-3] Distinguish applying to text vs applying to boxes [[https://github.com/w3c/csswg-drafts/issues/5303|5303]]
   * [css-fonts] Reduce layout shift via @font-face descriptor(s) overriding inline spacing [[https://github.com/w3c/csswg-drafts/issues/5533|5533]]
   * [css-lists] CSS counter scope/inheritance is incompatible with HTML ordinals [[https://github.com/w3c/csswg-drafts/issues/5477|5477]]
-  * Change three color names [[https://github.com/w3c/csswg-drafts/issues/5284|5284]]
+  * [css-color] Change three color names [[https://github.com/w3c/csswg-drafts/issues/5284|5284]]
   * [css-color-adjust] Re-add `only` to mean "don't auto-adjust me", per WebKit's behavior [[https://github.com/w3c/csswg-drafts/issues/5089|5089]]
   * [css-color-adjust-1] Is forced color computed or used value? [[https://github.com/w3c/csswg-drafts/issues/4915|4915]]
   * [css-color-adjust-1] more granular overriding of forced colors mode than per-element [[https://github.com/w3c/csswg-drafts/issues/4178|4178]]
