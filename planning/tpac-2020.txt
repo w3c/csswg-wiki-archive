@@ -152,11 +152,6 @@ If you can't make one of the days, mark any topics you want to be present for wi
   * [css-sizing-4][css-contain] Clarify on specifying aspect-ratio and contain:size on replaced elements [[https://github.com/w3c/csswg-drafts/issues/5550|5550]]
   * [css-logical-1] Interaction of shorthands and logical properties [[https://github.com/w3c/csswg-drafts/issues/3030|3030]]
 
-Didn't get to today:
-
-  * [css-overflow] CSSOM scrollWidth/scrollHeight behaviour of "overflow: clip". [[https://github.com/w3c/csswg-drafts/issues/5572|5572]]
-  * [cssom-view] [css-overflow] Document.scrollingElement doesn't reflect viewport propagation correctly in presence of overflow: clip [[https://github.com/w3c/csswg-drafts/issues/5601|5601]]
-
 === Thursday ===
 
 [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-22|Issues by milestone]]
@@ -192,6 +187,8 @@ Didn't get to today:
   * [css-break] Specify that ink overflow doesn't fragment? [[https://github.com/w3c/csswg-drafts/issues/4099|4099]]
   * [css-break-4] orphans and widows for fragmented monolithic replaced elements [[https://github.com/w3c/csswg-drafts/issues/3405|3405]]
   * [css-break-4] Should fragmentation of block-level replaced-elements be configurable? ("object-slice") [[https://github.com/w3c/csswg-drafts/issues/3404|3404]]
+  * [css-overflow] CSSOM scrollWidth/scrollHeight behaviour of "overflow: clip". [[https://github.com/w3c/csswg-drafts/issues/5572|5572]]
+  * [cssom-view] [css-overflow] Document.scrollingElement doesn't reflect viewport propagation correctly in presence of overflow: clip [[https://github.com/w3c/csswg-drafts/issues/5601|5601]]
   * [css-pseudo] Problems with styling ::first-letter with punctuation [[https://github.com/w3c/csswg-drafts/issues/2040|2040]]
   * [css-display][css-pseudo] Is ::marker created by display:list-item or does it always exist? [[https://github.com/w3c/csswg-drafts/issues/1793|1793]]
   * [css-pseudo-4] ::selection vs ::inactive-selection [[https://github.com/w3c/csswg-drafts/issues/4579|4579]]
