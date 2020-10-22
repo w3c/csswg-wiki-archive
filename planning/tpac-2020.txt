@@ -202,7 +202,7 @@ TODO: Add the full list of issues on GitHub explicitly here.
   * https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F + https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20TPAC
   * https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20F2F + https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20TPAC
   * https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F + https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20TPAC
-  * Baseline alignment for text (issue forthcoming) [myles]
+  * [[https://github.com/w3c/csswg-drafts/issues/5647|Baseline alignment for text]] [myles]
   * CSS Conditional 3 [[https://github.com/w3c/csswg-drafts/issues/5559|Are there issues with !important in @supports? (Is the grammar wrong?)]]
   * CSS Conditional 3 [[https://github.com/w3c/csswg-drafts/issues/3220|define whether/how it matters if namespace prefixes are declared]]
   * CSS Conditional 3 [[https://github.com/w3c/csswg-drafts/issues/3171|is trailing semicolon valid in @supports conditions]]
