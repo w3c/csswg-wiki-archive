@@ -9,7 +9,7 @@ Note! There have been changes to the module template since it was written! Check
     - If there have been only [[https://www.w3.org/2019/Process-20190301/#correction-classes|editorial]] changes, make such a statement and link to a [[https://services.w3.org/htmldiff|diff]] of those changes so reviewers can verify this. E.g. ''There have been only __editorial__ changes since the __previous Working Draft__; see __diffs__.''
   - **CSSWG Resolution -** Get an official CSSWG Resolution to publish. Make any changes requested.
     - **For WD** if there are only non-controversial [[https://www.w3.org/2019/Process-20190301/#correction-classes|editorial]] changes and/or substantive changes approved by the WG, there is no requirement to get an explicit WG resolution. The decision URL is this wiki page, and you can publish using Echidna.
-    - **For LCWD** (last Working Draft before a CR transition request), establish with the WG a deadline (3 weeks minimum, 4 is typical) and a list of other WGs to ask for comments. Send a request for comments to all these groups and make sure that you [[https://www.w3.org/Guide/documentreview/|file all horizontal review requests]] if you haven't already.
+    - **For LCWD** (last Working Draft before a CR transition request), establish with the WG a deadline (3 weeks minimum, 4 is typical) and a list of other WGs to ask for comments. After publication, send a request for comments to all these groups and make sure that you [[https://www.w3.org/Guide/documentreview/|file all horizontal review requests]] if you haven't already.
   - **Prepare Draft -**
     - Update the Previous Version link at the top to the latest dated URL on /TR (Omit or write "none" if there is none)
     - [[http://validator.w3.org/|Validate]] Overview.html
