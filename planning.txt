@@ -12,8 +12,6 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
-  * **2020**
-    * **[[https://wiki.csswg.org/planning/tpac-2020|TPAC]]**
   * **2021**
 
   * Standing offers:
@@ -24,6 +22,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ===== Past Meetings =====
 
 ==== 2020 ====
+    * [[https://wiki.csswg.org/planning/tpac-2020|TPAC]]
     * Summer: [[planning:virtual-summer-2020|Virtual meeting 2]] instead of face-to-face
       * **When**  July 27-31: CSS Monday, Tuesday, Thursday. Houdini Friday
     * Spring: [[planning:virtual-spring-2020|Virtual meeting]] instead of face-to-face
