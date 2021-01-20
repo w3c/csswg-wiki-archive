@@ -12,8 +12,11 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
-  * **2021**
 
+==== 2021 ====
+
+  * Winter: [[planning:virtual-winter-2021|Virtual meeting 3]] instead of face-to-face
+    * When: **Feb 9 & 11**
   * Standing offers:
     * Florian should be able to Host in Kyoto, Japan any time other than July-August.
     * Adobe can likely host in Feb in Noida, once we get back to in-person meetings.
