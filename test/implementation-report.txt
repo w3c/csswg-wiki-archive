@@ -19,6 +19,8 @@ The three tab-separated data columns are:
 | na | The test is not applicable: the test is for a different device or media type, or the feature is not implemented |
 
   ; comment : The third column is for per-result comments to be stored in the results database. (Comments prepended with a hash mark (''#'') may be discarded.)
+  
+Only the subset of tests actually tested need be reported.
 
 ===== Header =====
 
