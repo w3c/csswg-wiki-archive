@@ -35,3 +35,5 @@ Example of a completed report header:
   # Firefox 4.0b5 Ubuntu Linux 10.10
   # Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20101206 Ubuntu/10.10 (maverick) Firefox/3.6.13
   # http://test.csswg.org/suites/css2.1/20101210/
+
+DATESTAMP might not be an actual date, for example https://test.csswg.org/suites/css-color-4_dev/nightly-unstable/html/lch-007.htm DATESTAMP=nightly-unstable
