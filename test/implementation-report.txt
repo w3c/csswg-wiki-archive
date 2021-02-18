@@ -40,4 +40,4 @@ Example of a completed report header:
 
 DATESTAMP might not be an actual date, for example https://test.csswg.org/suites/css-color-4_dev/nightly-unstable/html/lch-007.htm DATESTAMP=nightly-unstable
 
-However, the upload form does not seem to use this information - you must first use the "Change" link where it says "You are about run tests for the following user agent" to set the user agent to, for example "PrinceXML" //before// uploading the test report.
+However, the upload form does not seem to use this information for the report table headers - you must first use the "Change" link where it says "You are about run tests for the following user agent" to set the user agent to, for example "PrinceXML" //before// uploading the test report.
