@@ -330,10 +330,10 @@ The overall conclusion is that trying to present accurate real-world units is a 
 
 There's a reasonable workaround strategy, however. If you are writing a webpage that does need accurate real-world units, such as a webapp that wants to help people measure things, you need to do per-device calibration:
 
-1. Have a calibration page, where you ask the user to measure the distance between two lines that are some CSS distance apart (say, 10cm), and input the value they get.
-2. Use this to find the scaling factor necessary for that screen (CSS length divided by user-provided length), and store it locally (via localStorage, or a cookie, etc).
-3. On the pages where you need the accurate length, fetch it from local storage, and set a ''--unit-scale: 1.07;'' (subbing in the real value) property on the html element.
-4. Anywhere you use a length that needs to be accurate, instead of ''width: 5cm;'', write ''width: calc(5cm * var(--unit-scale, 1))'';.
+  - Have a calibration page, where you ask the user to measure the distance between two lines that are some CSS distance apart (say, 10cm), and input the value they get.
+  - Use this to find the scaling factor necessary for that screen (CSS length divided by user-provided length), and store it locally (via localStorage, or a cookie, etc).
+  - On the pages where you need the accurate length, fetch it from local storage, and set a ''--unit-scale: 1.07;'' (subbing in the real value) property on the html element.
+  - Anywhere you use a length that needs to be accurate, instead of ''width: 5cm;'', write ''width: calc(5cm * var(--unit-scale, 1))'';.
 
 This is a robust and minimal scheme that is guaranteed to give correct results on a given device, and "fails open" - if the user hasn't calibrated yet, or has cleared their local storage, etc, the ''var()'' will fall back to 1 and you'll just get the standard browser units.
 
