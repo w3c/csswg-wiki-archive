@@ -308,3 +308,37 @@ Naming colors can be done in stylesheets using custom properties. It is not like
 
   * https://github.com/w3c/csswg-drafts/issues/3192#issuecomment-427132614
   * https://www.youtube.com/watch?v=HmStJQzclHc
+
+
+===== Real Physical Lengths =====
+
+=== Question ===
+
+A '1in' length usually isn't actually 1 inch. Can we get physical units that are the correct size, so we can create rulers/etc on webpages that actually work?
+
+=== Answer ===
+
+Currently, no.
+
+This has been tried in the past, in several variants. Originally, all the "real world" units were meant to be accurate physical measurements.  However, in practice most people authored content for 96dpi screens (the de facto standard at the time of early CSS, at least on PCs) which gave a ratio of 1in = 96px, and when browsers changed that ratio because they were displaying on different types of screens, webpages that implicitly assumed the ratio was static had their layouts broken. This led us to fixing a precise 1in:96px ratio in the specs, and the rest of the physical units maintained their correct ratios with inches.
+
+Later, Mozilla attempted to address this again, by adding a separate "mozmm" unit that represented real physical millimeters. This ran into the second problem with real physical units - it relies on the browser accurately knowing the actual size and resolution of your display. Some devices don't give that information; others lie and give info that's only approximately correct. Some displays literally *cannot* give this sort of information, such as displaying on a projector where the scale depends on the projection distance. Authors also used mozmm for things that didn't actually want or need to be in accurate physical units, so when mozmm and mm diverged, they were sized badly.
+
+The overall conclusion is that trying to present accurate real-world units is a failure; browsers can't do it reliably, and authors often misuse them anyway, giving users a bad experience.
+
+=== Workarounds ===
+
+There's a reasonable workaround strategy, however. If you are writing a webpage that does need accurate real-world units, such as a webapp that wants to help people measure things, you need to do per-device calibration:
+
+1. Have a calibration page, where you ask the user to measure the distance between two lines that are some CSS distance apart (say, 10cm), and input the value they get.
+2. Use this to find the scaling factor necessary for that screen (CSS length divided by user-provided length), and store it locally (via localStorage, or a cookie, etc).
+3. On the pages where you need the accurate length, fetch it from local storage, and set a ''--unit-scale: 1.07;'' (subbing in the real value) property on the html element.
+4. Anywhere you use a length that needs to be accurate, instead of ''width: 5cm;'', write ''width: calc(5cm * var(--unit-scale, 1))'';.
+
+This is a robust and minimal scheme that is guaranteed to give correct results on a given device, and "fails open" - if the user hasn't calibrated yet, or has cleared their local storage, etc, the ''var()'' will fall back to 1 and you'll just get the standard browser units.
+
+(Note: a common follow-up request is to bake this unit-scale-factor into a CSS property that auto-scales all lengths for you. You don't actually want this - calibrating a ruler shouldn't rescale your UI as well.)
+
+=== References ===
+
+* https://github.com/w3c/csswg-drafts/issues/614
