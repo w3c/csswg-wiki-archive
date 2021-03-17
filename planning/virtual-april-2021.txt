@@ -24,5 +24,10 @@ https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3A%22Age
 
 === Schedule === 
 
-Tuesday: https://github.com/w3c/csswg-drafts/projects/16
-Thursday: https://github.com/w3c/csswg-drafts/projects/17
+  * Tuesday: https://github.com/w3c/csswg-drafts/projects/16
+  * Thursday: https://github.com/w3c/csswg-drafts/projects/17
+
+===== Participants =====
+
+| **Name** | **Affiliation**  | Tuesday | Thursday |
+| Alan Stearns | Adobe | yes | yes |
