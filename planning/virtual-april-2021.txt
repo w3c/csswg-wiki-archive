@@ -50,3 +50,4 @@ https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3A%22Age
 | L. David Baron | Google | yes | partial or no |
 | Adam Argyle | Google | yes | yes |
 | Christian Biesinger | Google | yes | yes |
+| Tantek Çelik | Mozilla | partial | yes |
