@@ -46,7 +46,7 @@ https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3A%22Age
 | Daniel Holbert | Mozilla | yes | yes |
 | Emilio Cobos Álvarez | Mozilla | yes | maybe |
 | Dael Jackson | Invited Expert | no | no |
-| Jonathan Kew | Mozilla | yes | maybe |
+| Jonathan Kew | Mozilla | yes | no |
 | L. David Baron | Google | yes | partial or no |
 | Adam Argyle | Google | yes | yes |
 | Christian Biesinger | Google | yes | yes |
