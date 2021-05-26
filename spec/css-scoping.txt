@@ -2,7 +2,7 @@
 
 In <https://drafts.csswg.org/css-scoping/#shadow-names> a reasonable behavior for name-defining constructs (such as @font-face or @counter-style) in shadow trees is defined. However, browsers currently have a confusing panoply of behaviors, likely mostly accidental. Here we collect the current behaviors, to help inform our adoption of the specified behavior and find whether there are any compat issues we'll have to deal with.
 
-| ^ Chrome ^ Firefox ^ Safari ^ Others?
+| ^ Firefox ^ Chrome ^ Safari ^ Others?
 ^ @font-face | Doesn't work | | |
 ^ @font-feature-values | Doesn't work | | |
 ^ @font-palette-values | Not Yet Implemented | | |
