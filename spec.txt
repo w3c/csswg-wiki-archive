@@ -106,6 +106,7 @@ See [[http://www.w3.org/Style/CSS/current-work|Current Work Tables]] for current
    * [[spec:css3-box|CSS Box Module Level 3]]
    * [[spec:css3-content|CSS Generated Content Module Level 3]]
    * [[spec:css-fonts|CSS Fonts]]
+   * [[spec:css-scoping|CSS Scoping]]
 
 
 ====== Specification Reviews ======
