@@ -7,4 +7,4 @@ In <https://drafts.csswg.org/css-scoping/#shadow-names> a reasonable behavior fo
 ^ @font-feature-values | Doesn't work | Not implemented | |
 ^ @font-palette-values | Not Yet Implemented | Not implemented | |
 ^ @counter-style | Doesn't work | | |
-^ @keyframes | Code lives in <https://searchfox.org/mozilla-central/rev/1df3b4b4d27d413675fb66f375230cb25d636450/servo/components/style/stylist.rs#1346>. We try to look animations up in the element's shadow first (this is necessary for :host { animation: .. }), then on the containing scope, if any, and otherwise on the global scope. | | |
+^ @keyframes | Code lives in <https://searchfox.org/mozilla-central/rev/1df3b4b4d27d413675fb66f375230cb25d636450/servo/components/style/stylist.rs#1346>. We try to look animations up in the element's shadow first (this is necessary for :host { animation: .. }), then on the containing scope, if any, and otherwise on the global scope. | First looks up element's shadow (for :host) and then the element's scope. Does not fall back to document. Does not work for slotted. | |
