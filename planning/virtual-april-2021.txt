@@ -8,46 +8,28 @@ https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210406T14
  
 Apr 8, 2pm PDT (morning for APAC, night for Europe)
 
-https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210408T21
+https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210729T21
  
 Each meeting will be for 3 hours with hourly breaks.
 
-(member only) Meet links: https://lists.w3.org/Archives/Member/w3c-css-wg/2021AprJun/0004.html 
+(member only) Meet links: TBD
 
 === Agenda ===
 
 I have created two new milestones for sorting issues for these meetings. Please take a look at the currently-tagged “Agenda+ F2F” issues and assign a milestone if you have a meeting time preference. New issues tagged for these meetings should select a milestone.
  
-''EUR VF2F-2021-04-06''
+''EUR VF2F-2021-07-27''
 
-''APAC VF2F-2021-04-08''
+''APAC VF2F-2021-07-29''
  
 https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3A%22Agenda%2B+F2F%22
 
 === Schedule === 
 
-  * Tuesday: https://github.com/w3c/csswg-drafts/projects/16
-  * Thursday: https://github.com/w3c/csswg-drafts/projects/17
+  * Tuesday: https://github.com/w3c/csswg-drafts/projects/19
+  * Thursday: https://github.com/w3c/csswg-drafts/projects/20
 
 ===== Participants =====
 
 | **Name** | **Affiliation**  | Tuesday | Thursday |
 | Alan Stearns | Adobe | yes | yes |
-| Chris Lilley | W3C | yes | yes |
-| fantasai | IE | yes | yes |
-| Lea Verou | Invited Expert | yes | yes |
-| Rossen Atanassov | Microsoft | yes | yes |
-| Miriam Suzanne | Invited Expert | yes | yes |
-| Brian Kardell | Igalia | yes | yes |
-| Peter Linss | IE | partial | yes |
-| Cameron McCormack | Apple | no | yes |
-| Greg Whitworth | Salesforce | partial | yes |
-| Rachel Andrew | Invited Expert | yes | no |
-| Daniel Holbert | Mozilla | yes | yes |
-| Emilio Cobos Álvarez | Mozilla | yes | maybe |
-| Dael Jackson | Invited Expert | no | no |
-| Jonathan Kew | Mozilla | yes | no |
-| L. David Baron | Google | yes | partial or no |
-| Adam Argyle | Google | yes | yes |
-| Christian Biesinger | Google | yes | yes |
-| Tantek Çelik | Mozilla | partial | yes |
