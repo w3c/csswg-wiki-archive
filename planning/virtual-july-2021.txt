@@ -40,3 +40,4 @@ https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3A%22Age
 | fantasai | Invited Expert | yes | yes |
 | Daniel Holbert | Mozilla | yes | yes |
 | Oriol Brufau | Igalia | yes | no |
+| Tab Atkins-Bittner | Google | yes | yes |
