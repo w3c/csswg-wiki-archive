@@ -33,6 +33,7 @@ https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3A%22Age
 
 | **Name** | **Affiliation**  | Tuesday | Thursday |
 | Alan Stearns | Adobe | yes | yes |
+| Rossen Atanassov | Microsoft | late | yes |
 | Miriam Suzanne | Invited Expert | yes | maybe |
 | Lea Verou | Invited Expert | yes | maybe |
 | Chris Lilley | W3C | yes | maybe |
