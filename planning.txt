@@ -1,0 +1,231 @@
+====== Meeting Planning Pages ======
+
+This is the CSS Working Group's planning space. A **[[https://cal.csswg.org/public.php/csswg/calendar.ics|CSSWG Meeting iCalendar Feed]]** is also available.
+
+All meetings use IRC for live minuting and as a backchannel: the #css channel on [[https://www.w3.org/Project/IRC/|the W3C IRC server]].
+
+===== Weekly Telecons =====
+
+[[https://lists.w3.org/Archives/Member/w3c-css-wg/2017OctDec/0076.html|teleconference details and times for weekly teleconferences]]
+
+[[planning:agenda|Agenda Scratchspace]]
+
+[[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
+===== Upcoming Meetings =====
+
+==== 2021 ====
+
+  * July: [[planning:virtual-july-2021|Virtual meeting 5]]
+    * When: **July 27 (EUR) & 29 (APAC)**
+  * October [[https://www.w3.org/wiki/TPAC/2021/GroupMeetings|TPAC joint meetings 25-29 Oct]]
+  * Standing offers:
+    * Florian should be able to Host in Kyoto, Japan any time other than July-August.
+    * Adobe can likely host in Feb in Noida, once we get back to in-person meetings.
+
+  * [[planning:hosting]]
+===== Past Meetings =====
+
+==== 2021 ====
+  * April: [[planning:virtual-april-2021|Virtual meeting 4]]
+    * When: **April 6 (EUR) & 8 (APAC)**
+  * Winter: [[planning:virtual-winter-2021|Virtual meeting 3]] instead of face-to-face
+    * When: **Feb 9 (EUR) & 11 (APAC)**
+
+==== 2020 ====
+    * [[https://wiki.csswg.org/planning/tpac-2020|TPAC]]
+    * Summer: [[planning:virtual-summer-2020|Virtual meeting 2]] instead of face-to-face
+      * **When**  July 27-31: CSS Monday, Tuesday, Thursday. Houdini Friday
+    * Spring: [[planning:virtual-spring-2020|Virtual meeting]] instead of face-to-face
+      * When: Wednesday-Thursday, **April 29-30** and **May 6-7**
+    * January: [[planning:galicia-2020]]
+      * When: **January 22-24**
+      * no Houdini meeting
+      * Constraint: [[https://wiki.mozilla.org/All_Hands|Mozilla All Hands]] is January 27-31 in Berlin, Germany
+      * Where: Igalia, A Coruña, Galicia, Spain
+    * <del>Spring: Apple (Tess) will host in [[planning:cork-2020|Cork, Ireland]]</del>
+
+==== 2019 ====
+    * [[planning:tpac-2019|TPAC]] at [[https://www.w3.org/wiki/TPAC/2019|Fukuoka]] **16-20 September**
+    * [[planning:toronto-2019]]
+      * When: June 4-6 CSSWG and June 7 for Houdini
+      * Where: Mozilla Toronto (room reserved for those dates)
+    * 2019-02-25..27 [[planning:sf-2019]], San Francisco, USA
+
+==== 2018 ====
+    * 2018-10-22..26 [[planning:tpac-2018|TPAC]], Lyon, France
+    * 2018-07-02..05 [[planning:sydney-2018]]
+    * 2018-04-09..12 [[planning:berlin-2018]] (to coincide with TYPO Labs April 12-14)
+       * Minutes:
+          * Tuesday, April 10: [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0023.html|Part 1]], [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0024.html|Part 2]], [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0025.html|Part 3]], [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0026.html|Part 4]], [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0027.html|Part 5]], [[https://lists.w3.org/Archives/Public/www-style/2018Apr/0028.html|Part 6]]
+          * Wednesday, April 11: [[https://lists.w3.org/Archives/Public/www-style/2018May/0030.html|Part 1]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0031.html|Part 2]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0032.html|Part 3]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0033.html|Part 4]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0034.html|Part 5]]
+          * Thursday, April 12: [[https://lists.w3.org/Archives/Public/www-style/2018May/0041.html|Part 1]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0042.html|Part 2]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0043.html|Part 3]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0044.html|Part 4]], [[https://lists.w3.org/Archives/Public/www-style/2018May/0045.html|Part 5]]
+    * (winter meeting cancelled)
+
+==== 2017 ====
+    * 2017-11-06..10 [[planning:tpac-2017|TPAC]], Burlingame, CA (next to SF airport)
+        * Minutes
+            * Monday, November 6: [[https://lists.w3.org/Archives/Public/www-style/2017Dec/0004.html|Part 1]], [[https://lists.w3.org/Archives/Public/www-style/2017Dec/0005.html|Part 2]], [[https://lists.w3.org/Archives/Public/www-style/2017Dec/0006.html|Part 3]], [[https://lists.w3.org/Archives/Public/www-style/2017Dec/0007.html|Part 4]]
+            *Tuesday, November 7: [[https://lists.w3.org/Archives/Public/www-style/2017Dec/0038.html|Part 1]], [[https://lists.w3.org/Archives/Public/www-style/2017Dec/0039.html|Part 2]], [[https://lists.w3.org/Archives/Public/www-style/2017Dec/0040.html|Part 3]], [[https://lists.w3.org/Archives/Public/www-style/2017Dec/0041.html|Part 4]]
+    * 2017-08-01..04 [[planning:paris-2017]] - Paris, France (Mozilla)
+        * Minutes:
+            * Wednesday, Aug 2 [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0034.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0035.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0036.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0037.html|Part IV]]
+            * Thursday, Aug 3 [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0031.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0040.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0041.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0042.html|Part IV]]
+            * Friday, Aug 4 [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0000.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0001.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0002.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0003.html|Part IV]]
+    * 2017-04-19..21 [[planning:tokyo-2017]] - Tokyo, Japan
+        * Minutes:
+            * Wednesday, April 19 [[https://lists.w3.org/Archives/Public/www-style/2017May/0043.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0044.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0045.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0046.html|Part IV]]
+            * Thursday, April 20 [[https://lists.w3.org/Archives/Public/www-style/2017May/0047.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0048.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0049.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0050.html|Part IV]]
+            * Friday, April 21 [[https://lists.w3.org/Archives/Public/www-style/2017May/0051.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0052.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0053.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0054.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2017May/0055.html|Part V]]
+    * 2017-01-11..13 [[planning:seattle-2017]] - Microsoft Seattle, WA
+        * Minutes:
+            * Wednesday, 11 Jan [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0048.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0049.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0050.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0051.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0052.html|Part V]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0053.html|Part VI]]
+            * Thursday, 12 Jan [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0054.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0055.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0056.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0057.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0058.html|Part V]]
+            * Friday, 13 Jan [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0061.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0059.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0062.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0060.html|Part IV]]
+
+
+==== 2016 ====
+    * 2016-09-19..20 [[planning:tpac-2016]] - Lisbon, Portugal
+        * Minutes:
+                * Monday, 19 September: [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0069.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0070.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0071.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0072.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0073.html|Part V]]
+                * Tuesday, 20 September: [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0074.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0075.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0076.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0077.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0078.html|Part V]], [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0079.html|Part VI]]
+    * 2016-05-09..11 Google [[planning:san-francisco-2016]] (with Houdini 2016-05-12..13)
+        * Minutes:
+                * Monday, 9 May: [[https://lists.w3.org/Archives/Public/www-style/2016May/0208.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016May/0210.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016May/0210.html|Part IV]]
+                * Tuesday, 10 May: [[https://lists.w3.org/Archives/Public/www-style/2016May/0233.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016May/0234.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016May/0235.html|Part III]]
+                * Wednesday, 11 May: [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0018.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Part IV]]
+    * 2016-02-01..03 [[planning:sydney-2016]] Google Sydney (with Houdini 2016-01-30..31)
+        * Minutes:
+            * Wednesday, 1 Feb: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0205.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0206.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0208.html|Part IV]]
+            * Thursday, 2 Feb: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0350.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0351.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0353.html|Part IV]]
+            * Friday, 3 Feb: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0357.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Part IV]]
+
+==== 2015 ====
+ [[planning:2015]]
+    * **[[planning:sydney-2015]]** (with [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2014|SVG]] on Wednesday)
+      * Minutes:
+        * Monday, 9 February: [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0185.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0186.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0187.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0188.html|Part IV]]
+        * Tuesday, 10 February: [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0313.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0314.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0315.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0316.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0317.html|Part V]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0318.html|Part VI]]
+        * Wednesday, 11 February: [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0369.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0370.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0371.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Mar/0372.html|Part IV]]
+    * **[[planning:new-york-2015]]**
+      * Minutes:
+          * Monday, 18 May: [[https://lists.w3.org/Archives/Public/www-style/2015May/0279.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015May/0280.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015May/0281.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015May/0282.html|Part IV]]
+          * Tuesday, 19 May: [[https://lists.w3.org/Archives/Public/www-style/2015May/0313.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015May/0314.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015May/0315.html|Part III]]
+          * Wednesday, 20 May: [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0241.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0242.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0243.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0244.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0245.html|Part V]], [[https://lists.w3.org/Archives/Public/www-style/2015Jun/0246.html|Part VI]]
+    * **[[planning:paris-2015]]** (with [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2014|SVG]] on Thursday morning)
+      * Minutes:
+          * Tuesday, 25 August: [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0037.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0038.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0040.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0041.html|Part IV]]
+          * Wednesday, 26 August: [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0093.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0094.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0095.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0095.html|Part IV]]
+          * Thursday, 27 August: [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html|Part I]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0110.html|Part II]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0111.html|Part III]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0112.html|Part IV]], [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0113.html|Part V]]
+    * 2015-10-26..30 [[planning:tpac-2015]], Sapporo, Japan (followed by [[http://www.ietf.org/meeting/upcoming.html|IETF 94 in Yokohama]], November 2-6)
+
+==== 2014 ====
+[[planning:2014]]
+  * **[[planning:seattle-2014]]**, jointly with [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2014|SVG]]
+    * Minutes:
+        * Monday, 27 January: [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0604.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0602.html| Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0603.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0608.html|Part V]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0605.html|Part VI]], [[http://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html|Part VII]]
+        * Tuesday, 28 January: [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0052.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0053.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0054.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0055.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0056.html|Part V]] 
+        * Wednesday, 29 January: [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0607.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0608.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0609.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0610.html|Part V]], [[http://lists.w3.org/Archives/Public/www-style/2014Feb/0611.html|Part VI]]
+  * **[[planning:seoul-2014]]**
+    * Minutes:
+      * Monday, 19 May: [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0056.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0057.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0059.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0060.html|Part V]]
+      * Tuesday, 20 May: [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0107.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0108.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0109.html|Part IV]]
+      * Wednesday, 21 May: [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0165.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0166.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0167.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0168.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Jun/0169.html|Part V]]
+  * **[[planning:sophia-2014]]**
+    * Minutes:
+      * Monday, 8 September: [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0259.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0261.html|Part III]]
+      * Tuesday, 9 September: [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0287.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0288.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0289.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Part IV]]
+      * Wednesday, 10 September: [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0291.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0292.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0293.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0294.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2014Oct/0295.html|Part V]]
+  * **[[planning:tpac-2014]]**
+    * Minutes:
+      * Monday, 27 October: [[http://lists.w3.org/Archives/Public/www-style/2014Dec/0299.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2014Dec/0301.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2014Dec/0302.html|Part IV]]
+      * Tuesday, 28 October: [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0004.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0005.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0006.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0007.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0008.html|Part V]], [[http://lists.w3.org/Archives/Public/www-style/2015Jan/0009.html|Part VI]]
+
+==== 2013 ====
+[[planning:2013]]
+  * **[[planning:tucson-2013]]**
+       * Minutes:
+           * Monday, 4 February: [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0255.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0363.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0381.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0382.html|Part IV]]
+           * Tuesday, 5 February: [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0384.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0385.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0391.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0392.html|Part IV]]
+           * Wednesday, 6 February: [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0393.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0471.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0472.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Feb/0474.html|Part IV]]
+
+  * **[[planning:tokyo-2013]]**
+       * Minutes:
+           * Wednesday, 5 June (Parts I through IV with SVG): [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0677.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0678.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0679.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0680.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0682.html|Part V]], [[http://lists.w3.org/Archives/Public/www-style/2013Jun/0683.html|Part VI]]
+           * Thursday, 6 June: [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0063.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0064.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0065.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0066.html|Part IV]]
+           * Friday, 7 June: [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0080.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0079.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0081.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Jul/0082.html|Part IV]]
+  * **[[planning:paris-2013]]**
+       * Minutes:
+           * Monday, 11 September: [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0468.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0472.html|Part V]]
+           * Tuesday, 12 September: [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0874.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0875.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0876.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0878.html|Part IV]]
+           * Wednesday, 13 September: [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0884.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Sep/0886.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Oct/0000.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2013Oct/0001.html|Part V]] 
+  * **[[planning:tpac-2013]]** (in Shenzhen, China)
+       * Minutes:
+            * Sunday, 10 November: [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0350.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0351.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0352.html|Part IV]]
+            * Monday, 11 November: [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0358.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0359.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0360.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0361.html|Part IV]]
+            *Tuesday, 12 November: [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0370.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0371.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0372.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0373.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2013Nov/0374.html|Part V]]
+
+==== 2012 ====
+[[planning:2012]]
+  * **[[planning:paris-2012]]**
+    * Monday, 6 February: [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0313.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0325.html|Part II]]
+    * Tuesday, 7 February: [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0526.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0527.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0528.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0529.html|Part IV]]
+    * Wednesday, 8 February: [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0530.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0531.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0549.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0550.html|Part IV]]
+  * **[[planning:hamburg-2012]]**
+    * Thursday, 10 May: [[http://lists.w3.org/Archives/Public/www-style/2012May/0520.html| Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0527.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0530.html|Part III]]
+    * Friday, 11 May: [[http://lists.w3.org/Archives/Public/www-style/2012May/0531.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0536.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0538.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0541.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2012May/0542.html|Part V]]
+  * **[[planning:sandiego-2012]]**
+    * Monday, 13 August: [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0749.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0770.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0771.html|Part III]]
+    * Tuesday, 14 August: [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0848.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0849.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0855.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0890.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0891.html|Part V]]
+    * Wednesday, 15 August: [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0894.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0897.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0898.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0899.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0900.html|Part V]]
+  * **[[planning:tpac-2012]]**
+    * Sunday, 28 October: [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0253.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0254.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0252.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0249.html|Part IV]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0250.html|Part V]]
+    * Monday, 29 October: [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0258.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0260.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0259.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0261.html|Part IV]]
+    * Tuesday, 30 October: [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0262.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0263.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0265.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0264.html|Part IV]]
+
+
+==== 2011 ====
+  * **[[planning:mountain-view-2011]]**
+    * [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0258.html|Monday, 7 March]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0272.html|Tuesday, 8 March]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2011Mar/0306.html|Wednesday, 9 March]] 
+  * **[[planning:tokyo-workshop-2011]]**
+    * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0412.html|Meeting Minutes]]
+  * **[[planning:japan-2011]]** ([[planning:japan-2011-venues|venues]])
+    * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0323.html|Thursday, 2 June]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html|Friday, 3 June]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html|Saturday, 4 June]]
+  * **[[planning:seattle-2011]]**
+    * Sunday, 24 July: [[http://lists.w3.org/Archives/Public/www-style/2011Jul/0536.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2011Jul/0538.html|Part II]]
+    * Monday, 25 July: [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0069.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0072.html|Part II]]
+    * Tuesday, 26 July: [[http://lists.w3.org/Archives/Public/www-style/2011Aug/0176.html|Full Minutes (joint with SVG)]]
+  * **[[planning:tpac-2011]]**
+    * Sunday, 30 October: [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0713.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0714.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0715.html|Part III]]
+    * Monday, 31 October: [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0709.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0711.html|Part II]]
+    * Tuesday, 1 November: [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0710.html|Part I]], [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0717.html|Part II]], [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0716.html|Part III]], [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0712.html|Part IV]]
+
+
+
+==== 2010 ====
+  * **[[planning:cupertino-2010]]**
+    * [[http://lists.w3.org/Archives/Public/www-style/2010Apr/0273.html|Monday, 29 March]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2010Apr/0275.html|Tuesday, 30 March]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2010Apr/0274.html|Wednesday, 31 March]]
+  * **[[planning:oslo-2010]]**
+    * [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0001.html|Monday, 23 August]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0002.html|Tuesday, 24 August]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2010Sep/0003.html|Wednesday, 25 August]]
+  * **[[planning:tpac-2010]]**
+    * [[http://lists.w3.org/Archives/Public/www-style/2010Nov/0240.html|Monday, 1 November AM]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2010Nov/0241.html|Monday, 1 November PM]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2010Nov/0242.html|Tuesday, 2 November AM]]
+    * [[http://lists.w3.org/Archives/Public/www-style/2010Nov/0243.html|Tuesday, 2 November PM]]
+
+
+==== 2009 ====
+  * [[planning:tokyo-2009]]
+  * [[planning:sophia-2009]]
+  * [[planning:tpac-2009]]
+
+==== 2008 ====
+  * [[planning:cambridge-2008]]
+  * [[planning:mandelieu-2008]]
