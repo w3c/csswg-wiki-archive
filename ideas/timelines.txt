@@ -112,7 +112,9 @@ Note: Using keyword markers (as in gradients) allows the arguments to be reorder
 
 ===== Scroll-triggered Animations =====
 
-[[https://birtles.github.io/scroll-animations-triggers/#scroll-triggered-animations-usecases|Brian Birtles proposed]] using an **animation-trigger** property to specify when to trigger the start of a time-based animation timeline. The default (current) behavior is to trigger when the element the animation property is applied, but new values would allow triggering when it is scrolled or snapped into view.
+Scroll-triggered animations are started or ended based on scroll positions, but their progress through animation is linked to time. This is distinct from scroll-linked animations, in which progress through animation is linked to the scroll position and has no relation to time.
+
+[[https://birtles.github.io/scroll-animations-triggers/#scroll-triggered-animations-usecases|Brian Birtles proposed]] using an **animation-trigger** property to specify when to trigger the start of a time-based animation timeline. The default (current) behavior is to trigger when the element the animation property is applied, but new values would allow triggering when it is scrolled or snapped into view. There might be some possibilities for simplifying it by using snap positions or view timeline start/end points as triggers.
 
 ===== Appendix: Minor Details =====
 
