@@ -20,16 +20,23 @@ Scroll-linked animations use a timeline based on scroll position, rather than on
 These are animations whose timeline goes from 0% to 100% based on the scroll position of an ancestor scroll container. Proposal is to use an inline functional notation to identify the timeline using the ''animation-timeline'' property.
 
 <code>
-animation-timeline: auto | scroll(DIRECTION SCROLLERNAME?);
+animation-timeline: auto | scroll(DIRECTION? SCROLLERNAME?);
 DIRECTION = block | inline | vertical | horizontal
 SCROLLERNAME = root | nearest | IDENT
 </code>
 
-**nearest** (the default) references the nearest ancestor scroll container; **root** references the main viewport scroller. IDENT references the ''container-name'' property: it filters the lookup to the nearest scroll container with the given ''container-name''.
+**nearest** (the default) references the nearest ancestor scroll container; **root** references the main viewport scroller. IDENT references the ''container-name'' property: it filters the lookup to the nearest scroll container with the given ''container-name''. The default direction is ''block''.
 
 (''auto'' is the initial value, and behaves as animations have always done, triggering on application of the animation and lasting for the specified duration and delay.)
 
-Alternately, some ''scroll-timeline'' properties could be used to name the timeline for a more indirect but reusable approach.
+Alternately, some ''scroll-timeline'' properties could be defined, which when used on a scroll container would allow naming its timeline for a more indirect but reusable approach.
+
+
+<code>
+scroll-timeline-name: IDENT#;
+scroll-timeline-direction: DIRECTION#;
+scroll-timeline: [DIRECTION? IDENT]#;
+</code>
 
 ==== Animations linked to view progress as timeline ====
 
