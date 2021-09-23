@@ -11,12 +11,6 @@ These are the classic form of [[https://www.w3.org/TR/css-animations-1/|CSS anim
   * **animation-timing-function** - easing function between keyframes
   * **animation-delay** - delays start of first keyframe
 
-===== Scroll-triggered Animations =====
-
-[[https://birtles.github.io/scroll-animations-triggers/#scroll-triggered-animations-usecases|Brian Birtles proposed]] using an **animation-trigger** property to specify when to trigger the start of a time-based animation timeline. The default (current) behavior is to trigger when the element the animation property is applied, but new values would allow triggering when it is scrolled or snapped into view.
-
-(Alternately, if pseudo-classes could be added that matched when bringing an element into view or snapping it, then the application of the animation property to the element in that state could be used as the trigger. But such pseudo-classes create circular logic.)
-
 ===== Scroll-linked Animations =====
 
 Scroll-linked animations use a timeline based on scroll position, rather than one based on actual time. This proposal is based off of the current [[https://drafts.csswg.org/scroll-animations-1/|Scroll-linked Animations ED]], but shifts away from the more fragile explicit calculations to implicit offsets based on element positions and local context. (The logic is similar to how our latest scroll-snap spec shifted its approach compared to the original Microsoft spec.)
@@ -115,6 +109,10 @@ For more complex interpolation curves, the STARTVALUE and ENDVALUE can be replac
 </code>
 
 Note: Using keyword markers (as in gradients) allows the arguments to be reordered, so that authors don't have to memorize positions of arguments.
+
+===== Scroll-triggered Animations =====
+
+[[https://birtles.github.io/scroll-animations-triggers/#scroll-triggered-animations-usecases|Brian Birtles proposed]] using an **animation-trigger** property to specify when to trigger the start of a time-based animation timeline. The default (current) behavior is to trigger when the element the animation property is applied, but new values would allow triggering when it is scrolled or snapped into view.
 
 ===== Appendix: Minor Details =====
 
