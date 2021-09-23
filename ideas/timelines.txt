@@ -2,7 +2,7 @@
 
 This page explores some ideas about integrating animations, interpolation, and timelines.
 
-==== Time-linked Animations ====
+===== Time-linked Animations =====
 
 These are the classic form of [[https://www.w3.org/TR/css-animations-1/|CSS animations]], linked to a time-based timeline.
 
@@ -11,31 +11,33 @@ These are the classic form of [[https://www.w3.org/TR/css-animations-1/|CSS anim
   * **animation-timing-function** - easing function between keyframes
   * **animation-delay** - delays start of first keyframe
 
-==== Scroll-triggered Animations ====
+===== Scroll-triggered Animations =====
 
 [[https://birtles.github.io/scroll-animations-triggers/#scroll-triggered-animations-usecases|Brian Birtles proposed]] using an **animation-trigger** property to specify when to trigger the start of a time-based animation timeline. The default (current) behavior is to trigger when the element the animation property is applied, but new values would allow triggering when it is scrolled or snapped into view.
 
 (Alternately, if pseudo-classes could be added that matched when bringing an element into view or snapping it, then the application of the animation property to the element in that state could be used as the trigger. But such pseudo-classes create circular logic.)
 
-==== Scroll-linked Animations ====
+===== Scroll-linked Animations =====
 
 Scroll-linked animations use a timeline based on scroll position, rather than one based on actual time. This proposal is based off of the current [[https://drafts.csswg.org/scroll-animations-1/|Scroll-linked Animations ED]], but shifts away from the more fragile explicit calculations to implicit offsets based on element positions and local context. (The logic is similar to how our latest scroll-snap spec shifted its approach compared to the original Microsoft spec.)
 
-=== Animations linked to scroll progress as timeline ===
+==== Animations linked to scroll progress as timeline ====
 
-These are animations whose timeline goes from 0% to 100% based on the scroll position of an ancestor scroll container. Proposal is to use an inline functional notation to identify the timeline using the ''animation-timeline'' property. Alternately, some ''scroll-timeline'' properties could be used to name the timeline for a more indirect but reusable approach.
+These are animations whose timeline goes from 0% to 100% based on the scroll position of an ancestor scroll container. Proposal is to use an inline functional notation to identify the timeline using the ''animation-timeline'' property.
 
 <code>
-animation-timeline: auto | scroll(DIRECTION SCROLLERNAME);
+animation-timeline: auto | scroll(DIRECTION SCROLLERNAME?);
 DIRECTION = block | inline | vertical | horizontal
 SCROLLERNAME = root | nearest | IDENT
 </code>
 
-IDENT references the ''container-name'' property: it filters the lookup to the nearest scroll container with the given ''container-name''.
+**nearest** (the default) references the nearest ancestor scroll container; **root** references the main viewport scroller. IDENT references the ''container-name'' property: it filters the lookup to the nearest scroll container with the given ''container-name''.
 
 (''auto'' is the initial value, and behaves as animations have always done, triggering on application of the animation and lasting for the specified duration and delay.)
 
-=== Animations linked to view progress as timeline ===
+Alternately, some ''scroll-timeline'' properties could be used to name the timeline for a more indirect but reusable approach.
+
+==== Animations linked to view progress as timeline ====
 
 Often animations are desired to start and end while a particular element is in view within the scroller. This timeline is essentially a snippet of the scroller's complete timeline, with 0% and 100% pinned to the moment the element comes into view and the moment it leaves view.
 
@@ -43,11 +45,11 @@ Often animations are desired to start and end while a particular element is in v
   * **''view-timeline-inset = [ auto | LENGTH-PERCENTAGE ]{1,4}''** - Specifies an inset (positive) or outset (negative) adjustment of the scrollport when considering whether the element is in view. ''auto'' indicates to use the value of ''scroll-padding''. Initial value is zero. Percentages are with reference to the scrollport.
   * **''view-timeline-fit = [ cover | contain | PERCENTAGE ]''** - Specifies whether the in-view timeline is measured from the moment any part of the box comes into view until all parts leave it (''cover''/''0%'') or whether it is measured from the moment all parts of the box come into view until any part leaves it (''contain''/''100%''). Initial value is 100% (''cover'').
 
-==== Query-linked Timelines ====
+===== Query-linked Timelines =====
 
 Query-linked interpolation uses a set of keyframes (minimally, two) to interpolate values along an easing curve based on the value of a query (such as a media query or container query). The timeline is therefore defined by the value of the query, and can be referenced by an interpolation function in individual property declarations.
 
-=== Defining the Query Timeline ===
+==== Defining the Query Timeline ====
 
 The ''@timeline'' rule defines a named timeline. It can be expanded later to define other types of timelines, but here we're defining only two types: media query timelines and container query timelines.
 
@@ -74,11 +76,11 @@ A typical example might look like:
 
 Query-linked timelines are not allowed in ''animation-timeline'' (because this would cause cascading problems, where anyone using query-based interpolation via animation properties would override all affected properties at levels of the cascade). Instead they can be referenced by an inline interpolation function.
 
-=== Value Interpolation ===
+==== Value Interpolation ====
 
 Value interpolation uses a percentage value to indicate how close or far from the start/end points to calculate the interpolated value. Interpolation is interpreted through an easing curve, and the input percentage can be selected based on the current position on a timeline such as a query timeline.
 
-== Basic Generic Value Interpolation ==
+=== Basic Generic Value Interpolation ===
 
 [See [[https://github.com/w3c/csswg-drafts/issues/581|Native interpolation function in CSS]] issue.]
 
@@ -94,7 +96,7 @@ PERCENT represents the percent of progress between STARTVALUE and ENDVALUE, and 
 
 Note: The generic ''mix()'' function needs to use semicolons instead of commas, because commas can be part of the value space of various properties. (Since one key use case for the generic interpolation function is used to represent intermediate states in the OM, it has to be able to represent the interpolation of any two values on any two properties.)
 
-== Timeline-based Value Interpolation ==
+=== Timeline-based Value Interpolation ===
 
 [See [[https://github.com/w3c/csswg-drafts/issues/6245|Interpolate values between breakpoints]] issue.]
 
@@ -113,3 +115,10 @@ For more complex interpolation curves, the STARTVALUE and ENDVALUE can be replac
 </code>
 
 Note: Using keyword markers (as in gradients) allows the arguments to be reordered, so that authors don't have to memorize positions of arguments.
+
+===== Appendix: Minor Details =====
+
+Some details we need to make sure to spec correctly:
+
+  * If the timeline has zero length. (Animations currently land on the last keyframe, so probably other timelines should follow this precedent.)
+  * If ''view-timeline-fit'' is 100% but the element is larger than the viewport. (Probably the fit should be clamped by fitting the requested percentage of the element or filling the size of the viewport, whichever is smaller.)
