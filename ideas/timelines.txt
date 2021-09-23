@@ -43,4 +43,73 @@ Often animations are desired to start and end while a particular element is in v
   * **''view-timeline-inset = [ auto | LENGTH-PERCENTAGE ]{1,4}''** - Specifies an inset (positive) or outset (negative) adjustment of the scrollport when considering whether the element is in view. ''auto'' indicates to use the value of ''scroll-padding''. Initial value is zero. Percentages are with reference to the scrollport.
   * **''view-timeline-fit = [ cover | contain | PERCENTAGE ]''** - Specifies whether the in-view timeline is measured from the moment any part of the box comes into view until all parts leave it (''cover''/''0%'') or whether it is measured from the moment all parts of the box come into view until any part leaves it (''contain''/''100%''). Initial value is 100% (''cover'').
 
-==== Query-linked Interpolation ====
+==== Query-linked Timelines ====
+
+Query-linked interpolation uses a set of keyframes (minimally, two) to interpolate values along an easing curve based on the value of a query (such as a media query or container query). The timeline is therefore defined by the value of the query, and can be referenced by an interpolation function in individual property declarations.
+
+=== Defining the Query Timeline ===
+
+The ''@timeline'' rule defines a named timeline. It can be expanded later to define other types of timelines, but here we're defining only two types: media query timelines and container query timelines.
+
+<code>
+@timeline NAME {
+  type: media | container;
+  feature: <media-feature-name> | <container-feature-name>;
+  from: <value>; /* 0% of the timeline */
+  to: <value>; /* 100% of the timeline */
+  container: <'container'>; /* only applies to container query timelines,
+                               same seeking function as container queries */
+}
+</code>
+
+A typical example might look like:
+<code>
+@timeline font-size-timeline {
+  type: media;
+  feature: width;
+  from: 20em;
+  to: 60em;
+}
+</code>
+
+Query-linked timelines are not allowed in ''animation-timeline'' (because this would cause cascading problems, where anyone using query-based interpolation via animation properties would override all affected properties at levels of the cascade). Instead they can be referenced by an inline interpolation function.
+
+=== Value Interpolation ===
+
+Value interpolation uses a percentage value to indicate how close or far from the start/end points to calculate the interpolated value. Interpolation is interpreted through an easing curve, and the input percentage can be selected based on the current position on a timeline such as a query timeline.
+
+== Basic Generic Value Interpolation ==
+
+[See [[https://github.com/w3c/csswg-drafts/issues/581|Native interpolation function in CSS]] issue.]
+
+<code>
+  mix( [ PERCENT && [ by EASING ]? ] ; STARTVALUE ; ENDVALUE)
+</code>
+
+PERCENT represents the percent of progress between STARTVALUE and ENDVALUE, and EASE is used to calculate the mix ratio represented by that amount of progress. The default easing function is linear.
+
+<code>
+  opacity: mix( 70% by ease ; 0% ; 100% )
+</code>
+
+Note: The generic ''mix()'' function needs to use semicolons instead of commas, because commas can be part of the value space of various properties. (Since one key use case for the generic interpolation function is used to represent intermediate states in the OM, it has to be able to represent the interpolation of any two values on any two properties.)
+
+== Timeline-based Value Interpolation ==
+
+[See [[https://github.com/w3c/csswg-drafts/issues/6245|Interpolate values between breakpoints]] issue.]
+
+<code>
+  mix( [ TIMELINE && [ by EASE ]? ] ; STARTVALUE ; ENDVALUE)
+</code>
+
+By naming a timeline instead of giving a percentage directly, the author can use progress along a timeline as the progress percentage. Any value valid for ''animation-timeline'' or any timeline name defined via ''@timeline'' is valid, which allows the mix() to respond to query-linked timelines and scroll-linked timelines.
+
+=== Value Interpolation with Keyframes ===
+
+For more complex interpolation curves, the STARTVALUE and ENDVALUE can be replaced by a reference to a named set of keyframes.
+
+<code>
+  mix( [ TIMELINE && [ by EASE ]? && of KEYFRAMES ] )
+</code>
+
+Note: Using keyword markers (as in gradients) allows the arguments to be reordered, so that authors don't have to memorize positions of arguments.
