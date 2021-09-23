@@ -68,7 +68,7 @@ A typical example might look like:
 }
 </code>
 
-Query-linked timelines are not allowed in ''animation-timeline'' (because this would cause cascading problems, where anyone using query-based interpolation via animation properties would override all affected properties at levels of the cascade). Instead they can be referenced by an inline interpolation function.
+Query-linked timelines are allowed by naming them in ''animation-timeline'', but it's not recommended to use this method in most cases because it would cause cascading problems---where anyone using query-based interpolation via animation properties would override all affected properties at levels of the cascade. They can instead be referenced by an interpolation function within the affected property declarations, which allows the interpolated value to cascade the same as any other declared value.
 
 ==== Value Interpolation ====
 
@@ -122,3 +122,4 @@ Some details we need to make sure to spec correctly:
 
   * If the timeline has zero length. (Animations currently land on the last keyframe, so probably other timelines should follow this precedent.)
   * If ''view-timeline-fit'' is 100% but the element is larger than the viewport. (Probably the fit should be clamped by fitting the requested percentage of the element or filling the size of the viewport, whichever is smaller.)
+  * All timelines share the same namespace.
