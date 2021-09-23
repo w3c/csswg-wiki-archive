@@ -46,6 +46,16 @@ Often animations are desired to start and end while a particular element is in v
   * **''view-timeline-inset = [ auto | LENGTH-PERCENTAGE ]{1,4}''** - Specifies an inset (positive) or outset (negative) adjustment of the scrollport when considering whether the element is in view. ''auto'' indicates to use the value of ''scroll-padding''. Initial value is zero. Percentages are with reference to the scrollport.
   * **''view-timeline-fit = [ cover | contain | PERCENTAGE ]''** - Specifies whether the in-view timeline is measured from the moment any part of the box comes into view until all parts leave it (''cover''/''0%'') or whether it is measured from the moment all parts of the box come into view until any part leaves it (''contain''/''100%''). Initial value is 100% (''cover'').
 
+==== Scope of Scroll-linked Timelines ====
+
+The scope of a scroll-linked timeline (which elements can call it by name via ''animation-timeline'') is defined as:
+* its descendants
+* its siblings (and their descendants)
+
+This basically means its scope is attached to its parent, but the parent can't use it. In case of multiple timelines with the same name being in scope, the timeline associated with its nearest ancestor wins.
+
+(It might also be useful to allow the scope to expand outside this parent, giving ancestors and far cousins access to the timeline across the document. In all cases the timeline reached via the closest ancestor should win in case of conflict. But this kind of global scoping from descendant elements might be difficult to implement.)
+
 ===== Query-linked Timelines =====
 
 Query-linked interpolation uses a set of keyframes (minimally, two) to interpolate values along an easing curve based on the value of a query (such as a media query or container query). The timeline is therefore defined by the value of the query, and can be referenced by an interpolation function in individual property declarations.
