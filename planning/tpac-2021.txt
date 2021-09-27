@@ -6,3 +6,9 @@
   * October 20 - Joint meeting with APA
   * October 27 - Joint meeting with Internationalization
   * 18-22 October is [[https://www.w3.org/2021/10/TPAC/format.html#oct18-22|breakout week]]
+
+===== Participants =====
+
+| **Name** | **Affiliation** | Monday | Tuesday | Thursday | Friday |
+| Alan Stearns | Adobe | yes | yes | yes | yes |
+| Rossen Atanassov | Microsoft | yes | yes | yes | yes |
