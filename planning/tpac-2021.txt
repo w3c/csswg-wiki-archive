@@ -1,14 +1,19 @@
 ====== CSSWG 3nd Virtual F2F, at TPAC 2021 ======
 
-
 [[https://www.w3.org/2021/10/TPAC/|TPAC Virtual Meeting]] is scheduled for **October 2021**
 
+  * September 29 - CSSWG vF2F (EUR)
+    * [[https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210929T14|7am to 10pm PDT]]
+    * Google Meet - check internal list for links
+    * [[https://github.com/w3c/csswg-drafts/projects/22|Agenda]]
   * October 20 - Joint meeting with APA
   * October 27 - Joint meeting with Internationalization
-  * 18-22 October is [[https://www.w3.org/2021/10/TPAC/format.html#oct18-22|breakout week]]
+  * October 18-22 - [[https://www.w3.org/2021/10/TPAC/format.html#oct18-22|breakout week]]
+  * November 3 - CSSWG vF2F (APAC)
 
 ===== Participants =====
 
-| **Name** | **Affiliation** | Monday | Tuesday | Thursday | Friday |
-| Alan Stearns | Adobe | yes | yes | yes | yes |
-| Rossen Atanassov | Microsoft | yes | yes | yes | yes |
+| **Name** | **Affiliation** | EUR vF2F | Joint APA | Joint i18n | APAC vF2F |
+| Alan Stearns | Adobe | yes | yes | yes | yes | yes |
+| Rossen Atanassov | Microsoft | yes | yes | yes | yes | yes |
+| fantasai | Invited Expert | yes | yes | yes | yes | yes |
