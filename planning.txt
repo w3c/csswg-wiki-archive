@@ -15,22 +15,18 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 ==== 2021 ====
 
-  * September: [[planning:virtual-september-2021|pre-TPAC meeting]]
-    * When: **September 29 (EUR)**
-    * 7am to 10pm PDT on Google Meet
-    * https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210929T14
-    * Agenda: https://github.com/w3c/csswg-drafts/projects/22
-  * October: [[https://wiki.csswg.org/planning/tpac-2021|TPAC]]
-    * When: **October 18-29**
+  * [[https://wiki.csswg.org/planning/tpac-2021|TPAC]]
+    * EUR vF2F: **September 29**
+    * Breakout Week: **October 18-29**
     * Joint APA meeting **Oct 20**
     * Joint Internationalization meeting **Oct 27**
-  * November: [[planning:virtual-november-2021|post-TPAC meeting]]
-    * When: **November 3 (APAC)**
+    * APAC vF2F: **November 3**
   * Standing offers:
     * Florian should be able to Host in Kyoto, Japan any time other than July-August.
     * Adobe can likely host in Feb in Noida, once we get back to in-person meetings.
 
   * [[planning:hosting]]
+
 ===== Past Meetings =====
 
 ==== 2021 ====
