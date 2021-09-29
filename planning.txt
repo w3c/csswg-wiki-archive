@@ -15,7 +15,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 ==== 2021 ====
 
-  * [[https://wiki.csswg.org/planning/tpac-2021|TPAC]]
+  * [[https://wiki.csswg.org/planning/tpac-2021|Virtual TPAC]]
     * EUR vF2F: **September 29**
     * Breakout Week: **October 18-29**
     * Joint APA meeting **Oct 20**
