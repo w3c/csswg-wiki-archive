@@ -1,0 +1,74 @@
+
+====== Row and Column Rule Styling ======
+
+See discussion in: https://github.com/w3c/csswg-drafts/issues/2748
+
+Existing properties:
+
+  column-rule: <color> || <line-style> || <line-width>
+    column-rule-color: <color>
+    column-rule-style: <line-style>
+    column-rule-width: <line-width>
+
+Proposed properties (plus also row- and unprefixed versions of all these):
+  column-rule-extent: span-skip | no-skip | span-break | corner-break
+  column-rule-inset: nearest | center | farthest | <length>
+  column-rule-image: <border image syntax but with only one axis>
+    rule-image-source: none | <image>
+    rule-image-slice: [ <number [0,∞]> | <percentage [0,∞]> ]{1,2}
+    rule-image-width: [ <length-percentage [0,∞]> | <number [0,∞]> | auto ]
+    rule-image-outset: [ <length [0,∞]> | <number [0,∞]> ]{1,2}
+    rule-image-repeat: [ stretch | repeat | round | space ]
+    
+=== column-rule-image ===
+
+Following the ''border-image'' model, rules can have a three-part image that is sliced and applied. See [[https://github.com/w3c/csswg-drafts/issues/5080|Issue 5080]] The image is applied per rule segment, see ''column-rule-extent''.
+
+=== column-rule-extent ===
+
+''column-rule-extent'' specifies how column rules are segmented. Each segment is drawn separately, and has its own inset and image application, if any. See [[https://github.com/w3c/csswg-drafts/issues/5080#issuecomment-636545237|Sebastian Zartner's illustrations]].
+
+  * ''no-skip'' - extends across the grid, going behind grid items
+  * ''span-skip'' - extends across the grid, not drawn behind grid items
+  * ''span-break'' - spanning items split rule into individual segments
+  * ''corner-break'' - split at every intersection
+
+Note: In Flexbox, the cross-axis rules are always segmented between flex lines.
+
+== Stacking Order of Rules ==
+
+Rules are drawn in writing-mode order from start to end. Between rows and columns, three reasonable options are:
+    * always columns first (like table backgrounds)
+    * “warp then weft” based on ''grid-auto-flow'' or ''flex-flow''
+    * add a switch for which axis paints on top
+
+Thought: Since flexbox probably wants to switch depending on which axis is main (and draw the main axis second), probably grid should do the same and respond to grid-auto-flow.
+
+Note that rules are already defined to paint over the container's backgrounds and borders, but below all its content.
+
+ISSUE: Do we want to give them a z-index of 0 so they can be underpainted using z-index: -1?
+
+=== column-rule-inset ===
+
+''column-rule-inset'' specifies how far a column rule extends into (or recedes from) an intersecting gap (or the edge of the container).
+
+  * ''nearest'' - Segment not extend into the gap. Computes to zero.
+  * ''center'' - Segment extends to the center of the gap.
+  * ''farthest'' - Segment crosses the entire gap.
+  * ''<length>'' - Segment intrudes by given length.
+
+At the edge of a container, where there is no gap, a gap is assumed to exist for the purpose of calculating the rule's length. This ensures symmetry.
+
+Note: ''center'' and ''farthest'' cannot compute to a length, because gaps can depend on layout, e.g. due to ''place-content: space-around''.
+
+Alternative syntax (positive numbers outward):
+  column-rule-outset: <length> | gap-center | gap-width
+
+==== Styling Individual Gaps ====
+
+Styling individual gaps could be done with a pseudo-element that accepts all the above properties (and no other properties). Something like this might work:
+
+  container::[column-|row-]?gap( <An+B> | <line-name> )
+
+Styling individual segments would be much more complicated, as identifying the segments in a robust manner is not straightforward.
+
