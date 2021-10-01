@@ -1,6 +1,10 @@
 ====== Current URL Selector ======
 
+<note>
+This proposal was [[https://www.w3.org/TR/2011/WD-selectors4-20110929/|adopted into Selectors Level 4 as the :local-link() selector]].
 
+It was subsequently simplified to the just a [[https://www.w3.org/TR/selectors-4/#the-local-link-pseudo|:local-link selector]].
+</note>
 ===== Need =====
 
 Current CSS standards allow for the independent styling of links based on the client history using the visited link pseudo-class. This allows designers to indicate which links the visitor has been to previously. However, visitors need to not only know where they have been, but where they are and where they are going as well. Web designers need a way to conveniently style a link based on the clients current URI in order to create more useful menus and bread-crumb trails as well as indicate whether a link is pointing out of the current site.
