@@ -11,6 +11,7 @@ specifications (yet).
 ===== Meta =====
 
   * [[ideas:principles|Principles]] Minor principles of design
+  * [[ideas:functional-notation|Functional Notation Systematization]]
   * [[ideas:naming|Open Naming Issues]] Naming is the hardest problem in CSS...
   * [[ideas:mistakes]]
   * [[ideas:dollar-variables]]
@@ -19,35 +20,19 @@ specifications (yet).
 
 This list includes ideas that are somewhere on the CSS Working Group's radar, but that haven't been formally discussed or accepted. These pages are publicly editable. Please include real-world use cases and links to prior discussion (e.g. on blogs or [[http://lists.w3.org/Archives/Public/www-style|www-style]]).
 
-  * [[ideas:bad-font-metrics|Bad Font Metrics Are Bad]]
-  * [[ideas:unbreaking-lines|Unbreaking Lines: Notes and Use Cases]]
-  * [[ideas:nav-index|Improving tab navigation]]
-  * [[ideas:value-list-components|Improving usability of ordered list property values]]
-  * [[ideas:hyphenation|Hyphenation]]
-  * [[ideas:constants|Macros/Variables/Constants]]
-  * [[ideas:japanese-layout|Japanese Layout]]
-  * [[ideas:current-url-selector|Current URL Selector]]
-  * [[ideas:centering|Centering Blocks]]
-  * [[ideas:content-formatting|Content Formatting]]
-  * [[ideas:pointer-events|Hit Testing Control (pointer-events property)]]
-  * [[ideas:appendix-j|Examples of Good Border Corner Joins]]
-  * [[ideas:feature-testing|Relatively safe feature testing]]
   * [[ideas:margin-collapsing|Margin Collapse Controls]]
-  * [[ideas:box-model-extensions|Box Model Extensions]]
-  * [[ideas:css3-floats|CSS Floats]]
-  * [[ideas:print-backgrounds|Printing Backgrounds]]
-  * [[ideas:radial-gradient-readability|Radial Gradient Readability]]
-  * [[ideas:pseudo-elements|Additional Pseudo-Elements]]
-  * [[ideas:functional-notation|Functional Notation Overhaul]]
-  * [[ideas:at-text-transform|@text-transform proposal]]
-  * [[ideas:aliasing| proposals for property aliasing]]
-  * [[ideas:placeholder styling|Fixing <input placeholder=''> styling]]
-  * [[ideas:font-load-futures|Font Loads with Futures]]
-  * [[ideas:color-object|Color JS Object]]
-  * [[ideas:round-display|Round Display Examples]]
   * [[ideas:timelines|Timelines and Interpolation]]
   * [[ideas:gutter-styling|Column and Row Gaps and Rules]]
   * [[ideas:logical-syntax|Logical (Flow-relative) Syntax]]
+  * [[ideas:pointer-events|Hit Testing Control (pointer-events property)]]
+  * [[ideas:round-display|Round Display Examples]]
+  * [[ideas:unbreaking-lines|Unbreaking Lines: Notes and Use Cases]]
+  * [[ideas:nav-index|Improving tab navigation]]
+  * [[ideas:content-formatting|Content Formatting]]
+  * [[ideas:pseudo-elements|Additional Pseudo-Elements]]
+  * [[ideas:at-text-transform|@text-transform proposal]]
+
+  * [[ideas:hyphenation|Hyphenation]]
 
 ====== Requirements Documents ======
 
@@ -58,3 +43,15 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
 ===== Archive =====
 
   * [[ideas:image-replacement|Image Replacement]]
+  * [[ideas:value-list-components|Improving usability of ordered list property values]] (filed as [[https://github.com/w3c/csswg-drafts/issues/6707|Issue 6707]]
+  * [[ideas:constants|Macros/Variables/Constants]]
+  * [[ideas:current-url-selector|Current URL Selector]]
+  * [[ideas:centering|Centering Blocks]]
+  * [[ideas:box-model-extensions|Box Model Extensions]]
+  * [[ideas:css3-floats|CSS Floats]]
+  * [[ideas:print-backgrounds|Printing Backgrounds]]
+  * [[ideas:radial-gradient-readability|Radial Gradient Readability]]
+  * [[ideas:aliasing| proposals for property aliasing]]
+  * [[ideas:placeholder styling|Fixing <input placeholder=''> styling]]
+  * [[ideas:font-load-futures|Font Loads with Futures]]
+  * [[ideas:color-object|Color JS Object]]
