@@ -2,8 +2,9 @@
 
 A common request is the ability to center blocks. CSS has some capabilities for this, however they are very limited, especially in the vertical direction.
 
-
-
+<note>
+Update: More powerful alignment capabilities have now been added to CSS in the [[https://www.w3.org/TR/css-align/|Box Alignment module]].
+</note>
 
 ===== Horizontal Centering =====
 
