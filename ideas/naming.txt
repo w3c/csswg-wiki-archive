@@ -2,29 +2,5 @@
 
 The CSSWG would greatly appreciate any good suggestions / improvements on the naming / syntax of the following features:
 
-===== Selectors =====
-
-  * [[http://www.w3.org/TR/selectors4/#the-any-link-pseudo|:any-link]]
-  * [[http://www.w3.org/TR/selectors4/#subject|subject indicator]]
   * [[http://www.w3.org/TR/selectors4/#drag-pseudos|drag-and-drop pseudo-classes]], see [[http://lists.w3.org/Archives/Public/www-style/2012Aug/0387.html|thread]]
-  * [[http://www.w3.org/TR/selectors4/#matches|:matches]], see [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0275.html|thread]]
-  * ::distributed() pseudo-element, see [[https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html|Shadow DOM]]
-  * :blank for empty/whitespaceonly elements
-
-===== Writing Modes ======
-
-  * ''text-combine-horizontal'', suggestions are: ''force-horizontal''?
-
-===== Shadow DOM ======
-
-  * [[http://lists.w3.org/Archives/Public/www-style/2013Apr/0035.html|The ::distributed() pseudo-element]]
-
-===== Grid Layout =====
-
-  * Moving ''grid-template'', ''grid-definition-rows'', ''grid-definition-columns'' under common prefix. Proposal
-     * ''grid-template-slots''
-     * ''grid-template-rows''
-     * ''grid-template-columns''
-     * ''grid-template'' as shorthand (using syntax from Bert's Template Layout draft)
-  * [[http://lists.w3.org/Archives/Public/www-style/2013Mar/0266.html|Syntax of track listings (particularly with named lines)]]
-
+  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Needs+Naming+%28Request+to+Bikeshed%29%22|List of all open naming issues in GitHub]]
