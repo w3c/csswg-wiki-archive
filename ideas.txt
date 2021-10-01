@@ -45,7 +45,7 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
 These are no longer relevant or have been superseded by actual specs/issues.
 
   * [[ideas:image-replacement|Image Replacement]]
-  * [[ideas:value-list-components|Improving usability of ordered list property values]] (filed as [[https://github.com/w3c/csswg-drafts/issues/6707|Issue 6707]]
+  * [[ideas:value-list-components|Improving usability of ordered list property values]] (filed as [[https://github.com/w3c/csswg-drafts/issues/6707|Issue 6707]])
   * [[ideas:constants|Macros/Variables/Constants]]
   * [[ideas:current-url-selector|Current URL Selector]]
   * [[ideas:centering|Centering Blocks]]
