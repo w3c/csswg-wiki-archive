@@ -13,8 +13,7 @@ specifications (yet).
 This list only includes ideas that have been vetted and approved by the CSS Working Group. They're here because we currently don't have a context (actively-edited specification) to put them in.
 
   * [[ideas:image-replacement|Image Replacement]]
-  * [[ideas:content-fallbacks|Content Fallbacks]]
-  * [[ideas:image-scaling|Image Scaling]]
+
 ===== Ideas and Issues =====
 
 This list includes ideas that are somewhere on the CSS Working Group's radar, but that haven't been formally discussed or accepted. These pages are publicly editable. Please include real-world use cases and links to prior discussion (e.g. on blogs or [[http://lists.w3.org/Archives/Public/www-style|www-style]]).
