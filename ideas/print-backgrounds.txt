@@ -1,4 +1,6 @@
-**This was added to the Color 4 module, as the 'color-adjust' property.**
+<note>
+This was added to the [[https://www.w3.org/TR/css-color-adjust-1/|CSS Color Adjust Module]], as the 'print-color-adjust' property.
+</note>
 
 ====== The Problem ======
 
