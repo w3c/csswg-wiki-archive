@@ -47,6 +47,8 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
   * [[ideas:font-load-futures|Font Loads with Futures]]
   * [[ideas:color-object|Color JS Object]]
   * [[ideas:round-display|Round Display Examples]]
+  * [[ideas:timelines|Timelines and Interpolation]]
+  * [[ideas:gutter-styling|Column and Row Gaps and Rules]]
 
 ===== Miscellaneous =====
 
