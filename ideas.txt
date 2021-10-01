@@ -8,18 +8,17 @@ specifications (yet).
 
 
 
-===== Resolutions =====
+===== Meta =====
 
-This list only includes ideas that have been vetted and approved by the CSS Working Group. They're here because we currently don't have a context (actively-edited specification) to put them in.
-
-  * [[ideas:image-replacement|Image Replacement]]
+  * [[ideas:principles|Principles]] Minor principles of design
+  * [[ideas:naming|Open Naming Issues]] Naming is the hardest problem in CSS...
+  * [[ideas:mistakes]]
+  * [[ideas:dollar-variables]]
 
 ===== Ideas and Issues =====
 
 This list includes ideas that are somewhere on the CSS Working Group's radar, but that haven't been formally discussed or accepted. These pages are publicly editable. Please include real-world use cases and links to prior discussion (e.g. on blogs or [[http://lists.w3.org/Archives/Public/www-style|www-style]]).
 
-  * [[ideas:principles|Principles]] Minor principles of design
-  * [[ideas:naming|Open Naming Issues]] Naming is the hardest problem in CSS...
   * [[ideas:bad-font-metrics|Bad Font Metrics Are Bad]]
   * [[ideas:unbreaking-lines|Unbreaking Lines: Notes and Use Cases]]
   * [[ideas:nav-index|Improving tab navigation]]
@@ -49,11 +48,13 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
   * [[ideas:timelines|Timelines and Interpolation]]
   * [[ideas:gutter-styling|Column and Row Gaps and Rules]]
   * [[ideas:logical-syntax|Logical (Flow-relative) Syntax]]
-===== Miscellaneous =====
 
-  * [[ideas:mistakes]]
-  * [[ideas:dollar-variables]]
 ====== Requirements Documents ======
+
   * Requirements for Japanese Text Layout (jlreq): [[http://www.w3.org/TR/jlreq/|TR draft]]
   * Requirements for Hangul Text Layout and Typography (klreq): [[http://www.w3.org/TR/klreq/|TR draft]], [[http://www.w3.org/International/docs/korean-layout/|editor's draft]]
   * Requirements for Latin Text Layout and Pagination (dpub-latinreq): [[http://www.w3.org/TR/dpub-latinreq/|TR draft]], [[http://w3c.github.io/dpub-pagination/|editor's draft]]
+
+===== Archive =====
+
+  * [[ideas:image-replacement|Image Replacement]]
