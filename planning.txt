@@ -15,7 +15,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 ==== 2022 ====
 
-* [[planning:nyc-2022|August 1-3, NYC]]
+ - 2022-08-01..03 [[planning:nyc-2022|NYC F2F August 2022]]
 ==== 2021 ====
 
   * [[https://wiki.csswg.org/planning/tpac-2021|Virtual TPAC]]
