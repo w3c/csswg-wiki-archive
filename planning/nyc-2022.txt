@@ -23,7 +23,7 @@ Please list your availability in NYC time (morning/afternoon/all or specific tim
 ^ Name ^ Timezone ^ EDT Availability ^ Other Notes ^
 | Lea Verou | CEDT | ??? | ??? |
 | François Remy | CEDT | Morning and afternoon | Unlikely to be available on the last day |
-
+| Daniel Holbert | PDT | Afternoon | |
 ==== Regrets ====
 
   * Let us know if you can't make it...
