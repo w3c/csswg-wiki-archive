@@ -27,18 +27,19 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ===== Past Meetings =====
 
 ==== 2021 ====
-  * July: [[planning:virtual-july-2021|Virtual meeting 5]]
-    * When: **July 27 (EUR) & 29 (APAC)**
-  * April: [[planning:virtual-april-2021|Virtual meeting 4]]
-    * When: **April 6 (EUR) & 8 (APAC)**
-  * Winter: [[planning:virtual-winter-2021|Virtual meeting 3]] instead of face-to-face
-    * When: **Feb 9 (EUR) & 11 (APAC)**
   * [[https://wiki.csswg.org/planning/tpac-2021|Virtual TPAC]]
     * EUR vF2F: **September 29**
     * Breakout Week: **October 18-29**
     * Joint APA meeting **Oct 20**
     * Joint Internationalization meeting **Oct 27**
     * APAC vF2F: **November 3**
+  * July: [[planning:virtual-july-2021|Virtual meeting 5]]
+    * When: **July 27 (EUR) & 29 (APAC)**
+  * April: [[planning:virtual-april-2021|Virtual meeting 4]]
+    * When: **April 6 (EUR) & 8 (APAC)**
+  * Winter: [[planning:virtual-winter-2021|Virtual meeting 3]] instead of face-to-face
+    * When: **Feb 9 (EUR) & 11 (APAC)**
+
 ==== 2020 ====
     * [[https://wiki.csswg.org/planning/tpac-2020|TPAC]]
     * Summer: [[planning:virtual-summer-2020|Virtual meeting 2]] instead of face-to-face
