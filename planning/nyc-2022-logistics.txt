@@ -101,6 +101,8 @@
 
 ===== Supermarket Order =====
 
+==== Generic ====
+
   * Drinks
     * Orange Juice
     * Whole Milk
@@ -110,12 +112,11 @@
     * Oat Milk
     * Le Croix
     * Italian Sodas
-  * Cheese
-    * (see above)
   * Crackers
     * Mary's Super Seed
     * Wasa Gluten Free
     * Pain des Fleurs
+    * Norwegian Flatbread Crackers
   * Fruit
     * Apples
     * Oranges
@@ -125,3 +126,8 @@
     * Carrots
     * Celery
     * Cauliflower
+
+==== Specialty ====
+
+  * Pain Quotidien gluten-free loaf
+  * Lavash from Ka
