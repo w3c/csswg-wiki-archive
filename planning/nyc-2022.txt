@@ -1,0 +1,69 @@
+====== New York City F2F August 2022 ======
+
+   * Host: Google
+   * Location: [[https://www.airbnb.com/rooms/53428467|Tribeca Loft]] | [[https://www.google.com/maps/place/40%C2%B043'30.9%22N+74%C2%B000'07.4%22W/@40.7252579,-74.0020523,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xc310166468ccfb75!8m2!3d40.7252579!4d-74.0020523|Google Maps]]
+   * 94 Thompson Street, Suite 1, New York, NY 10012
+   * Dates: Monday 1 August - Wednesday 3 August 2022
+
+===== Attendees =====
+
+==== In-Person Participants ====
+
+In order to minimize COVID exposure, we will be catering all meals on-site. Please list all dietary restrictions in sufficient detail so we can accommodate.
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Dietary Restrictions ^ Flights or Other Notes ^
+| fantasai | local | local | local |  | I'm in charge of food, so gimme all the notes and I promise you'll have nice food |
+| Tab Atkins | TBD | TBD | on-site | omnivore, prefer vegetarian | |
+| Rossen Atanassov | TBD | TBD | on-site | pescatarian | |
+| Chris Lilley | TBD | TBD | TBD | omnivore, prefer lower-carb and higher-protein | attendance very tentative but trying our best |
+| Lea Verou | TBD | TBD | TBD | omnivore, prefer lower-carb and higher-protein | attendance very tentative but trying our best |
+| Jen Simmons | local | local | local | (too long to list) | |
+| Florian | 7/31 | 8/4 | on-site | omnivore | BF720 / BF721|
+| Alan | 7/30 | 8/6 | Four Points Sheraton | omnivore |  |
+| Bramus | 7/30 | 8/5 | Hilton New York Fashion District Hotel | omnivore | UA9929 / UA9928  |
+| Miriam Suzanne | 7/31 | 8/5 | Four Points Sheraton | vegetarian |  |
+| Cassondra Roberts | 7/30 | 8/3 | Four Points Sheraton | Vegan (+ fish & honey), strong dislike of mushrooms |  |
+| Emilio | 7/30 | 8/4 | on-site | omnivore |  |
+| Una Kravets | local | local | local | | |
+| Brian Kardell | 7/30 | 8/4 | local | omnivore |  |
+==== Virtual Participants ====
+
+Please list your availability in NYC time (morning/afternoon/all or specific time ranges). See [[https://www.worldtimebuddy.com/?pl=1&lid=5128581,5391959,1850147,2988507&h=5128581&date=8/1/2022%7C3&hf=1|Time Converter]]
+
+^ Name ^ Timezone ^ EDT Availability ^ Other Notes ^
+| François Remy | CEDT | Morning and afternoon | Unlikely to be available on the last day |
+| Daniel Holbert | PDT | Afternoon | |
+| David Baron | America/New_York | about 8:45 until 17:30 | in-person unlikely but possible |
+| Oriol Brufau | CEST | Morning and afternoon | |
+| Jonathan Kew | UK/London | Morning and afternoon | Not full-time, will flex depending on agenda |
+| Rachel Andrew | UK/Bristol | Morning and early afternoon | Will likely be in and out depending on agenda |
+| Adam Argyle | PDT | Morning, afternoon, evening | |
+| Vladimir Levin | EST | All | |
+| Chris Harrelson | PDT | Can appear when necessary | |
+| Peter Linss | PDT | Afternoon | |
+| Alison Maher | PDT | Afternoon | Attendance dependent on agenda |
+==== Regrets ====
+
+^ Name ^ Excuse ^
+| Mike Bremford | On an actual holiday |
+| Cameron McCormack | |
+| Dael Jackson | Life gets in the way of typing sometimes |
+===== Pandemic Protocol =====
+
+**Remember you are responsible for keeping yourself AND OTHERS safe.**
+
+  * You must be vaccinated to the maximum eligible extent to attend.
+  * Avoid close contact with people outside your household for 3 days prior to travel.
+  * Wear an N95 mask during travel. Keep it on in the airport; have your drinks and snacks in-flight on the airplane only.
+  * Do not dine indoors after you arrive. There's plenty of outdoor seating in NYC; pick a venue whose seating is actually open to the air.
+  * Wear an N95/KN95/KF94 mask in all public indoor spaces (even though others might not).
+  * Get a PCR test before you show up on Monday. If you didn't need to get one before travel, there are plenty of booths on the sidewalks of NYC that offer <24hr turnaround, so you can get one after you arrive (which is more useful anyway).
+  * You will take a rapid test every morning. They're roughly $10 at the local pharmacies.
+  * Depending on the state of the pandemic, we might all take a PCR one of the mornings.
+  * Our meeting space has windows! We will be keeping them open for cross-ventilation. Be prepared for hot humid weather! Also be prepared for A/C because lots of buildings in NYC will be robustly cooled...
+  * Jen Simmons will dictate our masking policy. :)
+
+===== Proposed Topics =====
+
+  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22|Agenda+ F2F]]
+  * Scroll Animations
