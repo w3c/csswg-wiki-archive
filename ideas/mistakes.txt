@@ -24,28 +24,28 @@ That should be corrected if anyone invents a time machine. :P
   * Absolutely-positioned replaced elements should stretch when opposite offset properties (e.g. left+right) are set, instead of being start-aligned.
   * The ''hyphens'' property should be called ''hyphenate''. (It's called ''hyphens'' because the XSL:FO people objected to ''hyphenate''.)
   * ''rgba()'' and ''hsla()'' should not exist, ''rgb()'' and ''hsl()''  should have gotten an optional fourth parameter instead (and the alpha value should have used the same format as R, G, and B or S and L).
-  * descendant combinator should have been ''>>'' and indirect sibling combinator should have been ''++'', so there's some logical relationships among the selectors' ascii art
-  * the ''*-blend-mode'' properties should've just been ''*-blend''
+  * Descendant combinator should have been ''>>'' and indirect sibling combinator should have been ''++'', so there's some logical relationships among the selectors' ascii art
+  * The ''*-blend-mode'' properties should've just been ''*-blend''
   * The syntax of unicode ranges should have consistent with the rest of CSS, like ''u0001-u00c8''.
   * Unicode ranges should not have had a separate microsyntax with their own tokenization or token handling.  The tokenization hacks required either to make selectors (e.g., u+a) handle things that are unicode-range tokens, or make unicode-range handle the other huge range of tokens (numbers and dimensions with and without scientific notation, identifiers, +) are both horrible.
   * ''font-family'' should have required the font name to be quoted (like all other values that come from "outside" CSS).  The rules for handling unquoted font names make parsing ''font'' stupid, as it requires a ''font-size'' value for disambiguation.
-  * Flexbox should have been less crazy about flex-basis vs width/height.  Perhaps: if width/height is ''auto'', use flex-basis; otherwise, stick with width/height as an inflexible size.  (This also makes min/max width/height behavior fall out of the generic definition.)
-  * <del>:empty should have been :void, and :empty should select items that contain only white space</del> FIXED in the spec, waiting for implementations to check for Web-compat...
+  * Flexbox should have been less crazy about ''flex-basis'' vs ''width''/''height''.  Perhaps: if ''width''/''height'' is ''auto'', use ''flex-basis''; otherwise, stick with ''width''/''height'' as an inflexible size.  (This also makes min/max width/height behavior fall out of the generic definition.)
+  * <del>'':empty'' should have been '':void'', and '':empty'' should select items that contain only white space</del> FIXED in the spec, waiting for implementations to check for Web-compat...
   * ''table-layout: fixed; width: auto'' should result in a fill-available table with fixed-layout columns.
-  * 'text-orientation' should have had ''upright'' as the initial value (given the latest changes to 'writing-mode').
-  * The @import rule is required to (a) always hit the network unless you specify cache headers, and (b) construct fresh CSSStyleSheet objects for every import, even if they're identical. It should have had more aggressive URL-based deduping and allowed sharing of stylesheet objects.
+  * ''text-orientation'' should have had ''upright'' as the initial value (given the latest changes to 'writing-mode').
+  * The ''@import'' rule is required to (a) always hit the network unless you specify cache headers, and (b) construct fresh CSSStyleSheet objects for every import, even if they're identical. It should have had more aggressive URL-based deduping and allowed sharing of stylesheet objects.
   * Selectors have terrible future-proofing. We should have split on top-level commas, and only ignored unknown/invalid segments, not the entire thing.
   * '':link'' should have had the '':any-link'' semantics all along.
   * The ''flex'' shorthand (and ''flex-shrink'' and ''flex-grow'' longhands) should accept ''fr'' units instead of bare numbers to represent flex fractions.
   * The ''display'' property should be called ''display-type''.
   * The ''list-style'' properties should be called ''marker-style'', and ''list-item'' renamed to ''marked-block'' or something.
-  * The 'text-overflow' property should always apply, not be dependent on ''overflow''
-  * line-height: <percentage> should compute to the equivalent line-height: <number>, so that it effectively inherits as a percentage not a length
+  * The ''text-overflow'' property should always apply, not be dependent on ''overflow''
+  * ''line-height: <percentage>'' should compute to the equivalent ''line-height: <number>'', so that it effectively inherits as a percentage not a length
   * ''::placeholder'' should be ''::placeholder-text'' and '':placeholder-shown'' should be '':placeholder''
-  * 'overflow: scroll' should introduce a stacking context
-  * ''size'' should have been a shorthand for ''width'' and ''height'' instead of an @page property with a different definition
-  * We probably should have avoided mixing keywords (span) with idents in the [[https://github.com/w3c/csswg-drafts/issues/1137|grid properties]], possibly by using functional notation (like ''span(2)'').
-  * comments shouldn't have been allowed basically everywhere in CSS (compare to HTML, which basically only allows them where content goes), because it makes them basically unrepresentable in the object model, which in turn makes building editing directly on top of the object model impossible
-  * The alignment properties in Flexbox should have been writing-mode relative, not flex-flow relative, and thus could have reasonably understandable names like align-inline-* and align-block-*.
-  * shape-outside should have had wrap- in the name somehow, as people assume the shape should also clip the content as in clip-path.
-  * It shouldn't be `!important` — that reads to engineers as "not important". We should have picked another way to write this.
+  * ''overflow: scroll'' should introduce a stacking context
+  * ''size'' should have been a shorthand for ''width'' and ''height'' instead of an ''@page'' property with a different definition
+  * We probably should have avoided mixing keywords (''span'') with idents in the [[https://github.com/w3c/csswg-drafts/issues/1137|grid properties]], possibly by using functional notation (like ''span(2)'').
+  * Comments shouldn't have been allowed basically everywhere in CSS (compare to HTML, which basically only allows them where content goes), because it makes them basically unrepresentable in the object model, which in turn makes building editing directly on top of the object model impossible
+  * The alignment properties in Flexbox should have been writing-mode relative, not flex-flow relative, and thus could have reasonably understandable names like ''align-inline-*'' and ''align-block-*''.
+  * ''shape-outside'' should have had ''wrap-'' in the name somehow, as people assume the shape should also clip the content as in ''clip-path''.
+  * It shouldn't be ''!important'' — that reads to engineers as "not important". We should have picked another way to write this.
