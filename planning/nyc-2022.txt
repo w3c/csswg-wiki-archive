@@ -96,7 +96,7 @@ Your most convenient options include:
   * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22|Agenda+ F2F Issues]]
   * [[https://github.com/orgs/w3c/projects/10|Agenda project]]
   * Scroll Animations
-  * Indexing jargon (side discussion between Florian, Tab, fantasai, and anyone else interested)
+  * <del>Indexing jargon (side discussion between Florian, Tab, fantasai, and anyone else interested)</del>
 
 ===== Venue pictures =====
 
