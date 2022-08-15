@@ -15,7 +15,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 ==== 2022 ====
 
-  * 2022-09-12..16 [[https://www.w3.org/2022/09/TPAC/Overview.html|TPAC 2022]]
+  * 2022-09-12..16 [[planning:tpac-2022|TPAC 2022]]
   * 2022-08-01..03 [[planning:nyc-2022|NYC F2F August 2022]]
 ==== Misc ====
 
