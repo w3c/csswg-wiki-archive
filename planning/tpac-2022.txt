@@ -3,11 +3,18 @@
 [[https://www.w3.org/2022/09/TPAC/Overview.html|TPAC 2022]] is scheduled for **12-16 September 2022** in Vancouver, with options for both in-person and remote participation. 
 
   * CSSWG primary meeting time: Thursday-Friday 15-16 September
-  * joint meeting with i18n: ...
-  * joint meeting with APA: ...
+  * joint meeting with i18n: 16 Sep time TBD
+  * joint meeting with APA: 15 Sep 10:30-11:30 am
 
 ===== Participants =====
 
-| **Name** | **Affiliation** | In-Person/Remote |
-| David Baron | Google | Remote |
-| Daniel Holbert | Mozilla | Remote |
+==== In-Person ====
+
+| **Name** | **Other Info TBD** |
+| Alan Stearns | Are arrival/departure/hotel details useful? |
+
+==== Remote ====
+
+| **Name** | **Affiliation** | **Timezone** | **PDT Availability** | **Other Notes** |
+| David Baron | Google | | | |
+| Daniel Holbert | Mozilla | | | |
