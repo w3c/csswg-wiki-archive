@@ -21,3 +21,4 @@
 | **Name** | **Affiliation** | **Timezone** | **PDT Availability** | **Other Notes** |
 | David Baron | Google | | | |
 | Daniel Holbert | Mozilla | | | |
+| Bobby Jo Steffl | Thomson Reuters | CDT | | |
