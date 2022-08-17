@@ -23,7 +23,7 @@
 
 | **Name** | **Affiliation** | **Timezone** | **PDT Availability** | **Other Notes** |
 | David Baron | Google | [[https://www.openstreetmap.org/relation/6496417|America/New_York]] | 5:45-14:30 | maybe intermittently available a little later |
-| Daniel Holbert | Mozilla | | | |
+| Daniel Holbert | Mozilla | Pacific Time | 9:30am - 5pm | |
 | Bobby Jo Steffl | Thomson Reuters | CDT | | |
 | Tab Atkins-Bittner | Google | Pacific Time | 9am - 5pm | |
 | Megan Gardner | Apple | Pacific Time | 9am - 5pm | |
