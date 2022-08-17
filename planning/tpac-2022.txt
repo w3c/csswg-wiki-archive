@@ -19,6 +19,6 @@
 ==== Remote ====
 
 | **Name** | **Affiliation** | **Timezone** | **PDT Availability** | **Other Notes** |
-| David Baron | Google | | | |
+| David Baron | Google | America/New_York | 5:45-14:30 | maybe intermittently available a little later |
 | Daniel Holbert | Mozilla | | | |
 | Bobby Jo Steffl | Thomson Reuters | CDT | | |
