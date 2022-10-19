@@ -12,6 +12,8 @@ See [[https://www.w3.org/TR/CSS2/intro.html#design-principles|CSS2 Design Princi
   : If you write the result of ''getComputedStyle()'' back into the property, the resulting rendering of that element (inheritance aside) should remain stable.
   ; DBaron's Degrees of Freedom Caveat
   : When the platform has too many degrees of freedom in it, developers aren't able to test what they're doing well enough. [This results in buggy web pages, particularly on minority systems, and is therefore bad.]
+  : Jen Simmons Tooling Principle
+  ; Any feature that requires everyone to use a certain toolchain to be usable is a design failure.
   ; fantasai Principle of Proper Resilience
   : We try to make sure behavior is good by default, and resilient in weird cases. We do not choose bad behavior by default because it's the most straightforward way to be resilient.
   ; Roc Principle of Spec-writing
