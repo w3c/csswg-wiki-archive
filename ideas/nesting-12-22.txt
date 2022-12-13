@@ -1,0 +1,413 @@
+# CSS Nesting 
+
+The CSS Working Group is continuing to debate the best way to define nesting in CSS. And if you are someone who writes CSS, we’d like your help.
+
+Nesting is a super-popular feature of tools like [Sass](https://sass-lang.com/), where you can write code structured like this first example, and have it compile into the second example.
+
+```
+.class1 {
+  color: green;
+  .class2 {
+    border: 5px solid black;
+  }
+ }
+```
+
+```
+.class1 {
+  color: green;
+}
+.class1 .class2 {
+  border: 5px solid black;
+}
+```
+
+This, of course, can save web developers time otherwise spent writing the same selectors over and over. It can make code cleaner and easier to understand. In planning how CSS itself can be nested, everyone wishes we could just use the same kind of simple syntax that Sass does. However, that’s impossible, because of the way browser parsing engines work.  
+
+So a lengthy debate began about what to do instead. Earlier this summer, the CSSWG [debated between Option 1, Option 2 and Option 3](https://developer.chrome.com/blog/help-css-nesting/). Of those, Option 3 won. Since then, two more options have been proposed, Option 4 and Option 5. And so now we are debating between 3, 4 and 5. There are benefits and downsides to each option. 
+
+To help us decide, we’d like to hear from you. 
+
+Please look at these examples, and think about which syntax you prefer. Then vote for the one you like best.
+
+One thing before you start to consider options: in all of them, think of the `&` symbol as a marker that means “put the selector that’s outside of the nest here”. 
+
+This…
+
+```
+.foo {
+  & .bar {
+    color: blue;
+  }
+}
+```
+
+… becomes this…
+
+```
+.foo .bar {
+  color: blue;
+}
+```
+
+While this…
+
+```
+.foo {
+  .bar & {
+    color: blue;
+  }
+}
+```
+
+… becomes this…
+
+```
+.bar .foo {
+  color: blue;
+}
+```
+
+Got it? This actually adds functionality that is not possible with Sass. Also, in many of the following examples, the `&` is optional. Some developers will use it because it helps make their code more readable. Other developers might opt to leave it out. 
+
+Here’s the trickiest part of Option 3 (and only Option 3) — if you are using an element query, the `&` is required. If you are using any other selector, like a class or ID, you can leave the `&` out. The easiest way to remember this, might be that the selector can never begin with a letter. It must begin with a symbol. Which means these work: `.class` , `#id`, `& div`. You can see this in action below.
+
+The CSSWG is thinking about every developer every where — on big projects and small. With old code you might want to refactor, and new code written from scratch. Some teams are tiny, others are huge. Some developers write CSS from scratch. Some have no idea how to write new CSS, but they are tasked with making adjustments to existing CSS. Some want to be able to copy code from one project to another. Or easily move code in or out of a nest. 
+
+When you decide which option you believe to be the best one, think about all these different kinds of developers, projects, teams, and use cases. Which will make it easiest to copy & paste code? 
+
+
+## Comparing the Options
+
+### Example 1
+
+#### Option 3
+
+```
+.foo {
+  color: red;
+  & .bar {
+    color: blue;
+  }
+}
+```
+
+Since `.bar` is a class, the `&` is optional, and you can leave it out.
+
+```
+.foo {
+  color: red;
+  .bar {
+    color: blue;
+  }
+}
+```
+
+#### Option 4
+
+```
+.foo { 
+  color: red; }
+  { .bar {
+    color: blue;
+  }
+}
+```
+
+or maybe you’ll want to organize brackets like this:
+
+```
+.foo { 
+  color: red; 
+  } { 
+  .bar {
+    color: blue;
+  }
+}
+```
+
+#### Option 5
+
+```
+@nest .foo {
+  & { 
+    color: red; 
+  }
+  .bar { 
+    color: blue; 
+  }
+}
+```
+
+The `&` is always optional in Option 5.
+
+```
+@nest .foo { { 
+    color: red; 
+  }
+  .bar { 
+    color: blue; 
+  }
+}
+```
+
+#### Equivalent Unnested CSS 
+
+```
+.foo {
+  color: red; 
+}
+.foo .bar { 
+  color: blue; 
+}
+```
+
+
+
+### Example 2
+
+#### Option 3
+
+```
+article {
+  font-family: avenir;
+  & aside {
+    font-size: 1rem;
+  }
+}
+```
+
+Since `aside` is an element selector, the `&` is mandatory, and you must remember to include it.
+
+#### Option 4
+
+```
+article { 
+  font-family: avenir; }
+  { aside {
+    font-size: 1rem;
+  }
+}
+```
+
+or maybe you’ll want to organize brackets like this:
+
+```
+article { 
+  font-family: avenir; 
+  } { 
+  aside {
+    font-size: 1rem;
+  }
+}
+```
+
+#### Option 5
+
+```
+@nest article {
+  & { 
+    font-family: avenir; 
+  }
+  aside { 
+    font-size: 1rem; 
+  }
+}
+```
+
+The `&` is always optional in Option 5.
+
+```
+@nest article {  
+  { font-family: avenir; }
+  aside { font-size: 1rem; }
+}
+```
+
+#### Equivalent Unnested CSS 
+
+```
+article {
+  font-family: avenir; 
+}
+ article aside { 
+  font-size: 1rem; 
+}
+```
+
+
+
+## Nesting inside of Nesting
+
+#### Option 3
+
+```
+
+```
+
+#### Option 4
+
+```
+
+```
+
+#### Option 5
+
+```
+@nest .foo {
+    & { color: blue; }
+    @nest .bar {
+        & { color: red; }
+        .baz { color: green; }
+    }
+}
+```
+
+#### Equivalent Unnested CSS 
+
+```
+.foo { color: blue; }
+.foo .bar { color: red; }
+.foo .bar .baz { color: green; }
+```
+
+
+
+## Integration with layers
+
+#### Option 3
+
+```
+@layer base {
+  html {
+    block-size: 100%;
+
+    @layer base.support {
+      & body {
+        min-block-size: 100%;
+      }
+    }
+  }
+}
+```
+
+#### Option 4
+
+```
+@layer base {
+  html {
+    block-size: 100%; } {
+    
+    @layer base.support {
+      body {
+        min-block-size: 100%;
+      }
+    }
+  }
+}
+```
+
+#### Option 5
+
+```
+@layer base {
+  @nest html {
+    & { 
+      block-size: 100%;
+    }
+    @layer base.support {
+      body {
+        min-block-size: 100%;
+      }
+    }
+  }
+}
+```
+
+#### Equivalent Unnested CSS 
+
+```
+
+@layer base {
+  html {
+    block-size: 100%;
+  }
+  html @layer base.support {
+    body {
+      min-block-size: 100%;
+    }
+  }
+} 
+    
+```
+
+
+
+
+## Integration with scope
+
+#### Option 3
+
+```
+.card {
+  inline-size: 40ch;
+  aspect-ratio: 3/4;
+
+  @scope (&) to (> header > *) {
+    :scope > header {
+      border-block-end: 1px solid white;
+    }
+  }
+}
+```
+
+#### Option 4
+
+```
+.card {
+  inline-size: 40ch;
+  aspect-ratio: 3/4; } {
+
+  @scope (&) to (> header > *) {
+    :scope > header {
+      border-block-end: 1px solid white;
+    }
+  }
+}
+```
+
+#### Option 5
+
+```
+@nest .card {
+  & {
+    inline-size: 40ch;
+    aspect-ratio: 3/4;
+  }
+
+  @scope (&) to (> header > *) {
+    :scope > header {
+      border-block-end: 1px solid white;
+    }
+  }
+}
+```
+
+#### Equivalent Unnested CSS 
+
+```
+.card {
+  inline-size: 40ch;
+  aspect-ratio: 3/4;
+}
+
+@scope (.card) to (> header > *) {
+  :scope > header {
+    border-block-end: 1px solid white;
+  }
+}
+```
+
+
+
+
