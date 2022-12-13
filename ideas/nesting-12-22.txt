@@ -5,12 +5,14 @@ The CSS Working Group is continuing to debate the best way to define nesting in 
 Nesting is a super-popular feature of tools like [Sass](https://sass-lang.com/), where you can write code structured like this first example, and have it compile into the second example.
 
 ```
+
 .class1 {
   color: green;
   .class2 {
     border: 5px solid black;
   }
  }
+
 ```
 
 ```
