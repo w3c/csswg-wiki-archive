@@ -31,9 +31,8 @@ This list includes ideas that are somewhere on the CSS Working Group's radar, bu
   * [[ideas:content-formatting|Content Formatting]]
   * [[ideas:pseudo-elements|Additional Pseudo-Elements]]
   * [[ideas:at-text-transform|@text-transform proposal]]
-  * [[ideas:nesting-12-22|Nesting survey Dec 2022]]
-
   * [[ideas:hyphenation|Hyphenation]]
+  * [[ideas:nesting-12-22|Nesting survey Dec 2022]]
 
 ====== Requirements Documents ======
 
