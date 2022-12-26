@@ -1,9 +1,9 @@
-= Spec Status Scratch Space =
+====== Spec Status Scratch Space ======
 
-; CSS Display L3
-: Awaiting [CRS Resolution](https://github.com/w3c/csswg-drafts/issues/6516#issuecomment-1341575031)
-: Needs WPT
+  ; CSS Display L3
+  : Awaiting [[https://github.com/w3c/csswg-drafts/issues/6516#issuecomment-1341575031|CRS Resolution]]
+  : Needs WPT
 
-; CSS Display L4
-: Awaiting [CSSWG review](https://github.com/w3c/csswg-drafts/issues/7387#issuecomment-1364364487)
-: Awaiting edits for [animatable `display`](https://github.com/w3c/csswg-drafts/issues/6429)
+  ; CSS Display L4
+  : Awaiting [[https://github.com/w3c/csswg-drafts/issues/7387#issuecomment-1364364487|CSSWG review]]
+  : Awaiting[[https://github.com/w3c/csswg-drafts/issues/6429| edits for animatable `display`]]
