@@ -12,6 +12,9 @@
   ; CSS Images L3
   : Awaiting final audit before CRS.
 
+  ; CSS Text L3
+  : Awaiting tests and CSSWG resolution for CRS.
+
   ; CSS Values
   : Need edits for VDS functional notation integration
 
