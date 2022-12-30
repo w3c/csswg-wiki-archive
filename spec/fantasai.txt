@@ -21,3 +21,6 @@
   ; CSS Values L4
   : Need to integrate results of Viewport Investigation
   : Need to address [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22topic%3A+urls%22+label%3Acss-values-4|URL-related issues]]
+
+  ; Selectors L4
+  : Needs changes audit and republication
