@@ -12,8 +12,9 @@
   ; CSS Images L3
   : Awaiting final audit before CRS.
 
-  ; CSS Overflow l3
-  : Chrome's [replaced element overflow snarl](https://github.com/w3c/csswg-drafts/issues/7144)
+  ; CSS Overflow L4
+  : Need to fix Chrome's [[https://github.com/w3c/csswg-drafts/issues/7144|replaced element overflow snarl]]
+  : [[https://github.com/w3c/csswg-drafts/issues/8271|Level shuffling]]
 
   ; CSS Text L3
   : Awaiting CSSWG resolution for CRS.
