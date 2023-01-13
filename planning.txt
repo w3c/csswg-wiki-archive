@@ -13,9 +13,10 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
 
-==== 2022 ====
+==== 2023 ====
 
-  * 2022-09-12..16 [[planning:tpac-2022|TPAC 2022]]
+  * 2023-09-11..15 [[planning:tpac-2023|TPAC 2023]], Sevilla, Spain
+
 
 ==== Misc ====
 
@@ -29,6 +30,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 ==== 2022 ====
 
+  * 2022-09-12..16 [[planning:tpac-2022|TPAC 2022]]
   * [[planning:nyc-2022|NYC F2F August 2022]]
     * When: 2022-08-01..03
 
