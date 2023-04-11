@@ -13,7 +13,7 @@ That should be corrected if anyone invents a time machine. :P
   * ''background-size'' with one value should duplicate its value, not default the second one to ''auto''. Ditto ''translate()''.
   * ''background-position'' and ''border-spacing'' (all 2-axis properties) should take *vertical* first, to match with the 4-direction properties like ''margin''.
   * Not quite a mistake, because it was a reasonable default for the 90s, but it would be more helpful since then if `background-repeat` defaulted to `no-repeat`.
-  * The 4-value shorthands like ''margin'' should go counter-clockwise (so that the inline-start value is before the block-start value).
+  * The 4-value shorthands like ''margin'' should go counter-clockwise (so that the inline-start value is before the block-end value).
   * ''z-index'' should be called ''z-order'' or ''depth'' and should Just Work on all elements (like it does on flex items).
   * ''word-wrap''/''overflow-wrap'' should not exist. Instead, ''overflow-wrap'' should be a keyword on 'white-space', like ''nowrap'' (''no-wrap'').
   * The top and bottom margins of a single box should never have been allowed to collapse together automatically as this is the **root of all margin-collapsing evil**.
