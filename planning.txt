@@ -15,7 +15,6 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 ==== 2023 ====
 
-  * [[planning:march-2023|March VFTF]] Zoom
   * 2023-07-18..21 Summer F2F, Hybrid, hosted by Apple in Sunnyvale or Cupertino
   * 2023-09-11..15 [[planning:tpac-2023|TPAC 2023]], Sevilla, Spain
 
@@ -29,6 +28,10 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
   * [[planning:hosting]]
 
 ===== Past Meetings =====
+
+==== 2023 ====
+
+  * [[planning:march-2023|March VFTF]] Zoom
 
 ==== 2022 ====
 
