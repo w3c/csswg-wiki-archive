@@ -10,6 +10,7 @@
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Dietary Restrictions ^ Flights or Other Notes ^
 | Tess | local | local | local | | |
+| Alan | Jul 17 | Jul 21 | | | |
 
 ==== Virtual Participants ====
 
