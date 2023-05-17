@@ -11,7 +11,7 @@
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Dietary Restrictions ^ Flights or Other Notes ^
 | Tess | local | local | local | | |
 | Alan | Jul 17 | Jul 21 | | | |
-| Rachel Andrew | Jul 17 | Jul 23 | | | |
+| Rachel Andrew | Jul 17 | Jul 23 | | [[https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9|I made a list.]] | |
 | Oriol Brufau | Jul 15 | Jul 22 | | Strong dislike of cheese and shellfish | |
 | fantasai | ? | ? | ? | gluten-free appreciated | |
 ==== Virtual Participants ====
