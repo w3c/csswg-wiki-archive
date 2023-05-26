@@ -3,7 +3,10 @@
    * Host: Apple
    * Location: One Apple Park Way, Cupertino CA 95014, USA
    * Dates: Tuesday 18 July - Friday 21 July 2023
-   * Airports: SJC - San Jose Airport, SFO - San Francisco Airport, OAK - Oakland Airport; SJC is closest, but SFO is a major hub and also not far
+   * Airports:
+       * SJC - San Jose Airport (16km drive, **closest**, be careful to use correct airport code)
+       * SFO - San Francisco Airport (54km drive, **major hub**)
+       * OAK - Oakland Airport (69km drive)
    * Schedule: possibly starting at 8am to better accommodate Europe (and to avoid traffic)?
 ===== Attendees =====
 
