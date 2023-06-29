@@ -12,16 +12,27 @@
    * Schedule: possibly starting at 8am to better accommodate Europe (and to avoid traffic)?
 ===== Attendees =====
 
+==== Hosts ===
+
+Apple attendees who can help visitors with issues they may encounter during the F2F.
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Dietary Restrictions ^ Flights or Other Notes ^
+| Theresa O'Connor (hober) | local | local | local | | |
+| fantasai | early | late | AirBnB | gluten-free appreciated | |
+| Tim Nguyen (ntim) | local | local | local | | |
+| Megan Gardner | local | local | local | | |
+| Jen Simmons | tbd | tbd | tbd | too many to list | |
+| Simon Fraser | local | local | local | | |
+| Myles C. Maxfield | local | local | local | | |
+
 ==== In-Person Participants ====
 
 When in a U-shape configuration, the room has capacity for 30 people. But the maximum capacity of the room is 160, so we can probably squeeze a few more than 30 in pretty comfortably.
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Dietary Restrictions ^ Flights or Other Notes ^
-| Theresa O'Connor (hober) | local | local | local | | |
 | Alan | Jul 17 | Jul 21 | | | |
 | Rachel Andrew | Jul 17 | Jul 23 | Homewood Suites Silicon Valley| [[https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9|I made a list.]] | |
 | Oriol Brufau | Jul 15 | Jul 22 | The Cupertino Hotel | Strong dislike of cheese and shellfish | |
-| fantasai | early | late | AirBnB | gluten-free appreciated | |
 | Bramus | Jul 16 | Jul 26 | Wild Palms Hotel | None | SAS 594+935 - SAS 936+597 |
 | Miriam | Jul 17 | Jul 22 | AirBnB | vegetarian | |
 | Rossen | Jul 18 | Jul 22 | AirBnB | pescatarian | |
@@ -30,14 +41,9 @@ When in a U-shape configuration, the room has capacity for 30 people. But the ma
 | Tab Atkins-Bittner | local | local | local | | |
 | David Baron | Jul 17 | Jul 21 | Wild Palms Hotel | no red meat | [[https://flightaware.com/live/flight/UAL1742|UA 1742]] (Mon 15:25 SFO), [[https://flightaware.com/live/flight/UAL2046|UA 2046]] (Fri 21:35 SFO) |
 | Sebastian Zartner | July 17 | July 22 | AirBnB | |
-| Tim Nguyen (ntim) | local | local | local | | |
-| Megan Gardner | local | local | local | | |
-| Jen Simmons | tbd | tbd | tbd | too many to list | |
-| Simon Fraser | local | local | local | | |
 | Florian Rivoal | July 17 | July 22 | AirBnB | omnivore | KL2084+KL5192 / AF2840+AF0009|
 | Ian Kilpatrick | local | local | local | no shellfish |  |
 | Cassondra Roberts | Jul 17 | Jul 21 | Element Santa Clara | mostly vegan but flexible w/honey, fish, etc. | Delta into SJC |
-| Myles C. Maxfield | local | local | local | | |
 
 ==== Virtual Participants ====
 
