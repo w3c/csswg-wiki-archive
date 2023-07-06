@@ -9,7 +9,8 @@ Tools particularly useful during (f2f or telcon) meetings:
     * To get that account permission to edit group pages, do (TO BE WRITTEN)
   * We use [[https://www.w3.org/Project/IRC/|the W3C's IRC server]] for backchannel communication and for minuting during meetings
     * We use multiple IRC bots: [[http://www.w3.org/2001/12/zakim-irc-bot|Zakim]], [[https://www.w3.org/2002/03/RRSAgent|RRSAgent]], [[https://github.com/dbaron/wgmeeting-github-ircbot/|github-bot]]
-    * A [[https://bocoup.com/blog/how-to-scribe-at-tpac|blog post]] on some of the conventions we use on IRC, with a scribing focus
+      * [[tools:Scribing conventions]] (NEEDS MORE DETAIL)
+      * A [[https://bocoup.com/blog/how-to-scribe-at-tpac|blog post]] on some of the conventions we use on IRC, with a scribing focus
     * [[https://log.csswg.org/irc.w3.org/css/today|IRC Logs]] are available for our IRC channels
   * [[https://excalidraw.com/|Excalidraw]] and [[https://pad.w3.org/|W3C Etherpad]] in case you need a virtual whiteboard during a meeting.
   * [[https://cal.csswg.org/public.php/csswg/calendar.ics|iCal Feed]] contains our meeting times.  (Ask Peter Linss if you need permissions to edit this calendar.) 
