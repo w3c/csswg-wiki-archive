@@ -126,10 +126,10 @@ From this email thread:
 ==== text-overflow middle ====
 Some mechanism to control ellipsing of text by allowing it to be ellipsed "in the middle" (somehow). See also other related text-overflow features dropped from CSS3.
 
-See emails:
+See emails and GitHub issue:
   * http://www.w3.org/mid/CANTc86Wi3K1JHo0XJuWMVC0vCOBM+1D2+=ad=7=S0ofaD_jdAg@mail.gmail.com
   * http://www.w3.org/mid/CAERejNaV+5ZCu9b9yX7dKWPjq0rfVGH4DgxST6NZ-xVD3PD=QQ@mail.gmail.com
-
+  * https://github.com/w3c/csswg-drafts/issues/3937
 ==== touch-action ====
 The Pointer Events WD introduced a "touch-action" property.
   * http://www.w3.org/TR/2013/WD-pointerevents-20130115/#the-touch-action-css-property
