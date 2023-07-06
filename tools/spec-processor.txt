@@ -41,20 +41,3 @@ If you use the [[http://mercurial.selenic.com/wiki/KeyringExtension|Keyring exte
   curl -u $W3C_USER:$(python -c "import keyring;print(keyring.get_password('Mercurial', '$W3C_USER@@https://dvcs.w3.org/hg/'))") -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html
 
 (Before using this script you need to push at least once so that the password is in the keyring.)
-
-
-=== Other Working Groups ===
-
-For the WebApps working group (e.g. for the Fullscreen specification), you have to install more tools:
-  * [[http://wiki.whatwg.org/wiki/Anolis#Setting_up_Anolis_with_cross-specification_cross-references|Setting up Anolis with cross-specification cross-references]]
-  * install lxml and html5lib (details unknown)
-  * run make in directory of the spec, e.g.
-<code>
- cd /mirror/hg/dvcs.w3.org/fullscreen # or wherever you have it locally
- make
-</code>
-  * you should now have updated files - check their mod dates to be sure:
-<code>
- Overview.html
- TR.html
-</code>
