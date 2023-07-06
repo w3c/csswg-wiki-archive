@@ -32,9 +32,9 @@ The entire rest of this "Contributing" section below is double-obsolete, all the
   * [[http://fantasai.inkedblade.net/style/tests/about/css21ts/|Slideshow Overview]]
 ===== Infrastructure =====
 
-  * [[https://hg.csswg.org/|CSSWG Test Suite Mercurial server]]
-  * [[https://github.com/w3c/csswg-test|CSSWG Test Suite Github Mirror]]
-  * [[test:pullrequests|Merging Pull Requests]]
+  * [[https://hg.csswg.org/|CSSWG Test Suite Mercurial server]] (obsolete, now part of web platform tests)
+  * [[https://github.com/w3c/csswg-test|CSSWG Test Suite Github Mirror]] (obsolete, now part of web platform tests)
+  * [[test:pullrequests|Merging Pull Requests]] (obsolete, now part of web platform tests)
   * [[test:css2.1:harness|Build System Documentation]]
   * [[test:harness|Browseable Test Harness]]
   * [[test:review-system|Submission and Review Tracker Planning]]
