@@ -27,13 +27,17 @@ Tools particularly useful during (f2f or telcon) meetings:
     * We also have an [[http://lists.w3.org/Archives/Member/w3c-css-wg/|internal list]] for administrivia.
 
 ===== Editing Publishing Testing =====
-  * The CSS [[https://drafts.csswg.org/css-module-bikeshed/Overview.bs|module template]], [[https://github.com/tabatkins/bikeshed|the Bikeshed spec preprocessor]], and the [[https://drafts.csswg.org/biblio.ref|bibliographic data file]] are used to generate our specs. A more comprehensive set of bibliographic data can be found at [[https://www.specref.org/|SpecRef]], which is automatically loaded into Bikeshed. See [[tools:spec-processor]] for tips. 
-  * Note: Some specs still use 
+  * Specs are written in [[https://speced.github.io/bikeshed|Bikeshed]] ([[https://speced.github.io/bikeshed/#install-normal|install instructions]], or use [[https://speced.github.io/bikeshed/#remote|curl or the web form]].
+  * A fresh spec should be started from the [[https://drafts.csswg.org/css-module-bikeshed/Overview.bs|module template]].
+  * Bibliographic data is sourced from [[https://www.specref.org/|SpecRef]], which is automatically loaded into Bikeshed. See [[tools:spec-processor]] for tips. 
+  * Note: A few very old specs specs still use 
     * [[https://www.w3.org/Style/Group/css3-src/bin/postprocess|Bert's post-processor]] 
     * the older [[http://dev.w3.org/csswg/css-module/Overview.src.html|module template]]
+    * Ask Tab, fantasai, or ChrisL for help if you need to edit these.
   * [[https://www.w3.org/blog/CSS/wp-admin/|WordPress login]] for our [[http://www.w3.org/blog/CSS/|official blog]]
-  * [[http://test.csswg.org/shepherd/|Shepherd]] is used to track test suite bugs.
-  * [[http://test.csswg.org/harness/|Test Harness]] is used for running test suites and generating implementation reports.
+  * [[https://github.com/web-platform-tests/wpt#readme|Web Platform Tests]] is used to store and run test suites. 
+  * [[https://wpt.fyi/]] shows current testsuite results and links to sources.
+  * [[https://wpt.live/]] is a runner for all the WPT tests.
   * [[https://wiki.csswg.org/tools/doc|Disposition of Comments tool]] Provides a GUI for easy editing and exploring DoCs.
 
 ===== Experiments =====
