@@ -5,21 +5,19 @@ The CSSWG uses some tools to make our jobs easier. Here they are!
 ===== Meeting Tools =====
 Tools particularly useful during (f2f or telcon) meetings:
   * This DokuWiki (obviously)
-  * [[irc://irc.w3.org:6665/#css|IRC]] is the real-time chat system we use for backchannel communication during meetings.
+    * To create an account, do (TO BE WRITTEN)
+    * To get that account permission to edit group pages, do (TO BE WRITTEN)
+  * We use [[https://www.w3.org/Project/IRC/|the W3C's IRC server]] for backchannel communication and for minuting during meetings
+    * We use multiple IRC bots: [[http://www.w3.org/2001/12/zakim-irc-bot|Zakim]], [[https://www.w3.org/2002/03/RRSAgent|RRSAgent]], [[https://github.com/dbaron/wgmeeting-github-ircbot/|github-bot]]
+    * A [[https://bocoup.com/blog/how-to-scribe-at-tpac|blog post]] on some of the conventions we use on IRC, with a scribing focus
+    * [[https://log.csswg.org/irc.w3.org/css/today|IRC Logs]] are available for our IRC channels
   * [[https://excalidraw.com/|Excalidraw]] and [[https://pad.w3.org/|W3C Etherpad]] in case you need a virtual whiteboard during a meeting.
-  * [[http://www.w3.org/2001/12/zakim-irc-bot|Zakim]] is <del> a conference bridge with</del> an IRC bot that helps us manage our telecons.
-  * A [[https://bocoup.com/blog/how-to-scribe-at-tpac|blog post]] on some of the conventions we use on IRC, with a scribing focus
-  * [[https://log.csswg.org/irc.w3.org/css/today|IRC Logs]] are available for our IRC channels
-  * [[https://cal.csswg.org/public.php/csswg/calendar.ics|iCal Feed]] contains our meeting times.
+  * [[https://cal.csswg.org/public.php/csswg/calendar.ics|iCal Feed]] contains our meeting times.  (Ask Peter Linss if you need permissions to edit this calendar.) 
   * [[https://data.microsoftedge.com|Interop Browser Data]] Provides crawler data from Chrome/Microsoft Edge about CSS properties, values and top sites utilized
 
-  * [[https://drafts.csswg.org/|Editor's Drafts]] are automatically generated and available with publishing history.
-  * [[https://github.com/w3c/csswg-drafts/issues|GitHub issues]] are used to track spec issues. (Older spec issues are found in the mail archives, and might be additionally tracked in 
-    * [[https://www.w3.org/Style/CSS/Tracker/|CSS Tracker]], 
-    * [[https://www.w3.org/Graphics/fx/track/|FXTF Tracker]], 
-    * [[https://www.w3.org/Bugs/Public/|Bugzilla]], and 
-    * [[spec|this wiki]].)
-  * [[tools:git|Git/GitHub]] or [[tools:hg|Mercurial]] can be used to access the version control system for our [[spec|specs]] and our [[test|tests]].
+  * [[https://drafts.csswg.org/|CSS Editor's Drafts]], [[https://drafts.fxtf.org/|FXTF Editor's Drafts]], and [[https://drafts.css-houdini.org/|Houdini Editor's Drafts]] are automatically generated and available with publishing history.
+  * GitHub issues in [[https://github.com/w3c/csswg-drafts/issues|csswg-drafts]], [[https://github.com/w3c/fxtf-drafts/issues|fxtf-drafts]], and [[https://github.com/w3c/css-houdini-drafts/issues|css-houdini-drafts]] are used to track spec issues. (Older spec issues are found in the mail archives, and might be additionally tracked in [[https://www.w3.org/Style/CSS/Tracker/|CSS Tracker]], [[https://www.w3.org/Graphics/fx/track/|FXTF Tracker]], [[https://www.w3.org/Bugs/Public/|Bugzilla]], and [[spec|this wiki]].)
+  * [[tools:git|Git/GitHub]] or [[tools:hg|Mercurial]] can be used to access the version control system for our [[spec|specs]] and our [[test|tests]].  (Mercurial access is deprecated; the bidirectional mirroring may no longer be running.)
   * [[http://www.w3.org/Mail/|W3C Mailing Lists]]: specifically 
     * [[tools:www-style|www-style]] for our specs, 
     * [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]] for testing, and 
