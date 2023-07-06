@@ -1,0 +1,21 @@
+====== General IRC conventions ======
+  * say ''present+'' (or ''present+ ircNickHere'') at the start of the meeting to record your attendance.
+  * ''/me goes to look it up'' comments are omitted from the record. Use it when you're saying something off-topic; **don't** use it when you're saying something that should be in the minutes.
+  * ''q+'' puts you on the speaking queue. ''qq+'' puts you at the *front* of the queue. Saying ''q+ to say XXX'' will leave a reminder message of what you wanted to talk about, which'll be displayed when you're acknowledged in the queue. Saying ''q+ anythingelse'' will add someone named "anythingelse" to the queue.
+  * ''ack ircNickHere'' drops the named person from the queue, showing their reminder message if set.
+  * ''q?'' shows the current queue.
+
+
+
+====== Scribing Conventions ======
+
+  * Make sure Zakim, RRSAgent, and github-bot are all in the channel. Ping the chairs if they aren't.
+  * If your meeting will cross midnight UTC, say ''
+  * If you're scribing, use ''ScribeNick: yourircnick'' to tell the bot your messages should be read as scribing rather than comments.
+  * Write all scribing comments as ''speakersIRCnick: blah blah blah''. You should be able to rely on tab completion for names.
+  * ''github-bot, topic https://github.com/.../issues/1234'' starts a new topic, and instructs the bot to fetch the issue title and use it as the topic. When another topic starts, it will post all the minutes as a comment to that issue. ''github-bot, subtopic [url]'' similarly works if you want a thematic break in the minutes.
+    * ''Topic: Deciding on lunch'' just starts a new topic, closing the old one.
+    * ''github: https://github.com/...'' just changes the issue the current topic is associated with.
+    * ''github-bot, end topic'' just closes the current topic without opening a new one.
+  * ''s///'' Perl syntax (or ''s$$$'' if you'd rather escape dollar signs than slashes) can be used to correct lines in the minutes. By default it makes the substitution in the most recent matching line; you can apply it globally with ''s///g''.
+  * ''RESOLVED: Apply X to Y'' records a resolution for the current topic. (The all-caps is important.) These will get collected and displayed at the top of the topics by the minutes displayers.
