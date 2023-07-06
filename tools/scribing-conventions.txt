@@ -17,5 +17,5 @@
     * ''Topic: Deciding on lunch'' just starts a new topic, closing the old one.
     * ''github: https://github.com/...'' just changes the issue the current topic is associated with.
     * ''github-bot, end topic'' just closes the current topic without opening a new one.
-  * ''s///'' Perl syntax (or ''s$$$'' if you'd rather escape dollar signs than slashes) can be used to correct lines in the minutes. By default it makes the substitution in the most recent matching line; you can apply it globally with ''s///g''.
+  * ''s/foo/foo, but bar/'' Perl syntax (or ''s$$$'' if you'd rather escape dollar signs than slashes) can be used to correct lines in the minutes. By default it makes the substitution in the most recent matching line; you can apply it globally with ''s/typo'd name/correct name/g''.
   * ''RESOLVED: Apply X to Y'' records a resolution for the current topic. (The all-caps is important.) These will get collected and displayed at the top of the topics by the minutes displayers.
