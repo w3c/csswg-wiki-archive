@@ -5,8 +5,8 @@ The CSSWG uses some tools to make our jobs easier. Here they are!
 ===== Meeting Tools =====
 Tools particularly useful during (f2f or telcon) meetings:
   * This DokuWiki (obviously)
-    * To create an account, do (TO BE WRITTEN)
-    * To get that account permission to edit group pages, do (TO BE WRITTEN)
+    * To create an account, [[https://test.csswg.org/shepherd/register/|register on Shepherd]].
+    * To get that account permission to edit group pages, email plinss and/or fantasai
   * We use [[https://www.w3.org/Project/IRC/|the W3C's IRC server]] for backchannel communication and for minuting during meetings
     * We use multiple IRC bots: [[http://www.w3.org/2001/12/zakim-irc-bot|Zakim]], [[https://www.w3.org/2002/03/RRSAgent|RRSAgent]], [[https://github.com/dbaron/wgmeeting-github-ircbot/|github-bot]]
       * [[tools:Scribing conventions]] (NEEDS MORE DETAIL)
