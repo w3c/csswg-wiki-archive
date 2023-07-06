@@ -23,13 +23,15 @@ by running Bikeshed **before** committing your work.
 
 ==== Using Bikeshed Locally ====
 
-[[https://github.com/tabatkins/bikeshed/blob/master/docs/install.md|Bikeshed's install instructions]] are designed for installing on a Debian Linux system, like Ubuntu.  I know that people have installed Bikeshed on Mac systems, but they haven't recorded their steps; if you're feeling adventurous, please install it and send me the instructions!
+Bikeshed is best installed with [[https://speced.github.io/bikeshed/#install-pipx|Pipx]]; Linux distributions with <code>apt</code> can install it from there, and the Pipx install page has instructions for other OSes.
+
+After that, follow [[https://speced.github.io/bikeshed/#install-normal|the install instructions in the docs]].
 
 Once it's installed, just go to the spec's source folder and type:
 
 <code>$ bikeshed</code>
 
-Further instructions and tips can be found in the [[https://github.com/tabatkins/bikeshed/|Bikeshed README]].
+Further instructions and tips can be found in the [[https://speced.github.io/bikeshed/|Bikeshed docs]].
 
 ==== Using a Command-Line Script ====
 
