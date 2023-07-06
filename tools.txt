@@ -27,7 +27,7 @@ Tools particularly useful during (f2f or telcon) meetings:
     * We also have an [[http://lists.w3.org/Archives/Member/w3c-css-wg/|internal list]] for administrivia.
 
 ===== Editing Publishing Testing =====
-  * Specs are written in [[https://speced.github.io/bikeshed|Bikeshed]] ([[https://speced.github.io/bikeshed/#install-normal|install instructions]], or use [[https://speced.github.io/bikeshed/#remote|curl or the web form]].
+  * Specs are written in [[https://speced.github.io/bikeshed|Bikeshed]] ([[https://speced.github.io/bikeshed/#install-normal|install instructions]], or use [[https://speced.github.io/bikeshed/#remote|curl or the web form]])
   * A fresh spec should be started from the [[https://drafts.csswg.org/css-module-bikeshed/Overview.bs|module template]].
   * Bibliographic data is sourced from [[https://www.specref.org/|SpecRef]], which is automatically loaded into Bikeshed. See [[tools:spec-processor]] for tips. 
   * Note: A few very old specs specs still use 
