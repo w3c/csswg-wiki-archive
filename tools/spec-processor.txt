@@ -1,6 +1,9 @@
 ==== CSSWG and other post processing ====
 
-**NOTE**: Most CSSWG specs are now edited with [[http://wiki.csswg.org/tools/bikeshed|Bikeshed]], a more advanced preprocessor with virtually all of the features of the old preprocessor.
+**NOTE: THIS PAGE IS MOSTLY OBSOLETE.**
+Unless you're editting one of the handful of very old specs that haven't been converted to [[http://wiki.csswg.org/tools/bikeshed|Bikeshed]], you don't need any of the information on this page.
+
+-------
 
 For the CSSWG and other groups, you'll likely be editing a file called:
 <code>
