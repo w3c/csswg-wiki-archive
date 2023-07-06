@@ -29,10 +29,11 @@ Tools particularly useful during (f2f or telcon) meetings:
 ===== Editing Publishing Testing =====
   * Specs are written in [[https://speced.github.io/bikeshed|Bikeshed]] ([[https://speced.github.io/bikeshed/#install-normal|install instructions]], or use [[https://speced.github.io/bikeshed/#remote|curl or the web form]])
   * A fresh spec should be started from the [[https://drafts.csswg.org/css-module-bikeshed/Overview.bs|module template]].
-  * Bibliographic data is sourced from [[https://www.specref.org/|SpecRef]], which is automatically loaded into Bikeshed. See [[tools:spec-processor]] for tips. 
+  * Bibliographic data is sourced from [[https://www.specref.org/|SpecRef]], which is automatically loaded into Bikeshed.
   * Note: A few very old specs specs still use 
     * [[https://www.w3.org/Style/Group/css3-src/bin/postprocess|Bert's post-processor]] 
     * the older [[http://dev.w3.org/csswg/css-module/Overview.src.html|module template]]
+    * See [[tools:spec-processor]] for tips.
     * Ask Tab, fantasai, or ChrisL for help if you need to edit these.
   * [[https://www.w3.org/blog/CSS/wp-admin/|WordPress login]] for our [[http://www.w3.org/blog/CSS/|official blog]]
   * [[https://github.com/web-platform-tests/wpt#readme|Web Platform Tests]] is used to store and run test suites. 
