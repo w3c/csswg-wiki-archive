@@ -22,10 +22,9 @@ Tools particularly useful during (f2f or telcon) meetings:
     * Get yourself invited to the w3c GitHub organization, and accept the invite. You can make your membership public if you want. This (plus the account linking above) should mean you’re automatically added to https://github.com/orgs/w3c/teams/w3c-group-100-members/members . The invite should be doable by any W3C staff.  (TODO:  Is this step still needed?)
   * [[tools:git|Git/GitHub]] or [[tools:hg|Mercurial]] can be used to access the version control system for our [[spec|specs]] and our [[test|tests]].  (Mercurial access is deprecated; the bidirectional mirroring may no longer be running.)
   * [[http://www.w3.org/Mail/|W3C Mailing Lists]]: specifically 
-    * [[tools:www-style|www-style]] for our specs, 
-    * [[http://lists.w3.org/Archives/Public/public-css-testsuite/|public-css-testsuite]] for testing, and 
+    * [[tools:www-style|www-style]] for **all** CSS spec-related discussion,
     * [[http://lists.w3.org/Archives/Public/public-fx/|public-fx]] for specs we co-edit with the [[http://www.w3.org/Graphics/SVG/|SVGWG]]. 
-    * We also have an [[http://lists.w3.org/Archives/Member/w3c-css-wg/|internal list]] for administrivia.
+    * The [[http://lists.w3.org/Archives/Member/w3c-css-wg/|CSSWG private list]] for administrivia **only**, no spec discussions occur here.
 
 ===== Editing Publishing Testing =====
   * Specs are written in [[https://speced.github.io/bikeshed|Bikeshed]] ([[https://speced.github.io/bikeshed/#install-normal|install instructions]], or use [[https://speced.github.io/bikeshed/#remote|curl or the web form]])
