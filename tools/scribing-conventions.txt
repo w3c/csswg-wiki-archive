@@ -4,6 +4,7 @@
   * ''q+'' puts you on the speaking queue. ''qq+'' puts you at the *front* of the queue. Saying ''q+ to say XXX'' will leave a reminder message of what you wanted to talk about, which'll be displayed when you're acknowledged in the queue. Saying ''q+ anythingelse'' will add someone named "anythingelse" to the queue.
   * ''ack ircNickHere'' drops the named person from the queue, showing their reminder message if set.
   * ''q?'' shows the current queue.
+  * all of the ''q+'', ''q?'', and ''ack'' commands can be used with ''/me'' (for example ''/me q+'') so that they're omitted from the minutes and the logs that github-bot posts to github issues
 
 
 
