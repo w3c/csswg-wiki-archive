@@ -10,7 +10,7 @@
 
 ====== Scribing Conventions ======
 
-  * Make sure Zakim, RRSAgent, and github-bot are all in the channel. Ping the chairs if they aren't.
+  * Make sure Zakim, RRSAgent, and github-bot are all in the channel. Ping the chairs if they aren't.  Zakim and RRSAgent can be invited to the channel with the ''/invite'' command; github-bot should be in the channel automatically.
   * If your meeting will cross midnight UTC, say ''rrsagent, this meeting spans midnight''
   * If you want Zakim to stay for a long time (say, the entire day of a face-to-face), ask Zakim to remind you of something in X hours (e.g., ''Zakim, remind us in 9 hours to go home'')
   * If you're scribing, use ''ScribeNick: yourircnick'' to tell the bot your messages should be read as scribing rather than comments.
