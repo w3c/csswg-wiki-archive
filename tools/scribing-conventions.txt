@@ -12,6 +12,7 @@
 
   * Make sure Zakim, RRSAgent, and github-bot are all in the channel. Ping the chairs if they aren't.
   * If your meeting will cross midnight UTC, say ''rrsagent, this meeting spans midnight''
+  * If you want Zakim to stay for a long time (say, the entire day of a face-to-face), ask Zakim to remind you of something in X hours (e.g., ''Zakim, remind us in 9 hours to go home'')
   * If you're scribing, use ''ScribeNick: yourircnick'' to tell the bot your messages should be read as scribing rather than comments.
   * Write all scribing comments as ''speakersIRCnick: blah blah blah''. You should be able to rely on tab completion for names.
   * ''github-bot, topic https://github.com/.../issues/1234'' starts a new topic, and instructs the bot to fetch the issue title and use it as the topic. When another topic starts, it will post all the minutes as a comment to that issue. ''github-bot, subtopic [url]'' similarly works if you want a thematic break in the minutes.
