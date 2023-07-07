@@ -16,9 +16,9 @@
   * If you're scribing, use ''ScribeNick: yourircnick'' to tell the bot your messages should be read as scribing rather than comments.
     * If there's more than one scribe at the same time, you can use ''Scribe+ nickname''.  But note that this lasts for the entire meeting, whereas a later ''ScribeNick'' overrides an earlier one.
   * Write all scribing comments as ''speakersIRCnick: blah blah blah''. You should be able to rely on tab completion for names.
-  * ''github-bot, topic https://github.com/.../issues/1234'' starts a new topic, and instructs the bot to fetch the issue title and use it as the topic. When another topic starts, it will post all the minutes as a comment to that issue. ''github-bot, subtopic [url]'' similarly works if you want a thematic break in the minutes.
+  * ''github-bot, topic https://github.com/.../issues/1234'' (or, preferably, ''/me github-bot, topic https://github.com/.../issues/1234'') starts a new topic, and instructs the bot to fetch the issue title and use it as the topic. When another topic starts, it will post all the minutes as a comment to that issue. ''github-bot, subtopic [url]'' similarly works if you want a thematic break in the minutes.
     * ''Topic: Deciding on lunch'' just starts a new topic, closing the old one.
     * ''github: https://github.com/...'' just changes the issue the current topic is associated with.
-    * ''github-bot, end topic'' just closes the current topic without opening a new one.
+    * ''github-bot, end topic'' (or, preferably, ''/me github-bot, end topic'') just closes the current topic without opening a new one.
   * ''s/foo/foo, but bar/'' Perl syntax (or ''s$$$'' if you'd rather escape dollar signs than slashes) can be used to correct lines in the minutes. By default it makes the substitution in the most recent matching line; you can apply it globally with ''s/typo'd name/correct name/g''.
   * ''RESOLVED: Apply X to Y'' records a resolution for the current topic. (The all-caps is important.) These will get collected and displayed at the top of the topics by the minutes displayers.
