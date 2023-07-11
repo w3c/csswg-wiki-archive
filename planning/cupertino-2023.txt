@@ -5,11 +5,37 @@
        * Visitor entrance is at [[https://goo.gl/maps/cGQYeU23PkEGfnpn7|Tantau Reception Center]], 10503 North Tantau Avenue, Cupertino, CA 95014.  This is adjacent to the intersection of North Tantau Avenue and Pruneridge Avenue.
        * If you're driving there, the visitor parking is in an underground garage whose entrance is [[https://goo.gl/maps/371ED4eugJoaGooy5|at this point]], adjacent to the Apple Park Visitor Center, 10600 North Tantau Avenue, Cupertino, CA 95014.  This is just across North Tantau Avenue from the visitor entrance.
    * Dates: Tuesday 18 July - Friday 21 July 2023
+   * Times: 8am-4pm
+       * 7:30am - reception open for visitors, breakfast available
+       * 8am - meeting start
+       * 9:30am-10am morning break
+       * 12:00pm-1pm lunch break
+       * 2:00pm-2:30pm afternoon break
+       * 4pm - meeting end
+   * Scheduled Extras:
+       * Lightning Pitches - 1min-5min informal pitches to ask for engagement on particular issues, concerns, or feature requests that aren't ready for formal discussion
+       * Thursday evening - DIY backyard barbecue, fantasai &co hosting, details TBD, extra guests welcome, please come even if you're local...
    * Airports:
        * SJC - San Jose Airport (16km drive, **closest**, be careful to use correct airport code)
        * SFO - San Francisco Airport (54km drive, **major hub**)
        * OAK - Oakland Airport (69km drive)
-   * Schedule: possibly starting at 8am to better accommodate Europe (and to avoid traffic)?
+
+===== Agenda =====
+
+Goals:
+  * Reduce Agenda+ backlog:
+    * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22|Agenda+ F2F]]
+    * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3AAgenda%2B|Agenda+]]
+    * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+Later%22|Agenda+ Later]]
+    * [[https://github.com/w3c/css-houdini-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B%22+|Houdini Agenda+]]
+    * [[https://github.com/w3c/fxtf-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B%22+|FXTF Agenda+]]
+  * Allow time and space for fuzzier open-ended discussions and breakouts
+  * Post-pandemic repair of group communication, collaboration, and engagement
+
+Possible breakout topics:
+  * Line-breaking and related features in [[https://www.w3.org/TR/css-text-4/|CSS Text Level 4]]
+  * ??? Add Suggestions Here ???
+
 ===== Attendees =====
 
 ==== Hosts ===
