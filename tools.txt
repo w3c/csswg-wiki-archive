@@ -20,7 +20,7 @@ Tools particularly useful during (f2f or telcon) meetings:
   * GitHub issues in [[https://github.com/w3c/csswg-drafts/issues|csswg-drafts]], [[https://github.com/w3c/fxtf-drafts/issues|fxtf-drafts]], and [[https://github.com/w3c/css-houdini-drafts/issues|css-houdini-drafts]] are used to track spec issues. (Older spec issues are found in the mail archives, and might be additionally tracked in [[https://www.w3.org/Style/CSS/Tracker/|CSS Tracker]], [[https://www.w3.org/Graphics/fx/track/|FXTF Tracker]], [[https://www.w3.org/Bugs/Public/|Bugzilla]], and [[spec|this wiki]].)  To use GitHub effectively:
     * in your [[https://www.w3.org/users/myprofile|w3c account]] go to “Connected accounts”, make sure your github account is linked
     * Get yourself invited to the w3c GitHub organization, and accept the invite. You can make your membership public if you want. This (plus the account linking above) should mean you’re automatically added to https://github.com/orgs/w3c/teams/w3c-group-100-members/members . The invite should be doable by any W3C staff.  (TODO:  Is this step still needed?)
-  * Spec sources are maintained on [[tools:git|Git/GitHub]].
+  * Spec sources are maintained on [[tools:git|Git/GitHub]] and are written in [[https://speced.github.io/bikeshed/|Bikeshed]].
   * [[http://www.w3.org/Mail/|W3C Mailing Lists]]: specifically 
     * [[tools:www-style|www-style]] for **all** CSS spec-related discussion,
     * [[http://lists.w3.org/Archives/Public/public-fx/|public-fx]] for specs we co-edit with the [[http://www.w3.org/Graphics/SVG/|SVGWG]]. 
