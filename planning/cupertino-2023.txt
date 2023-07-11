@@ -30,7 +30,7 @@ Goals:
     * [[https://github.com/w3c/css-houdini-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B%22+|Houdini Agenda+]]
     * [[https://github.com/w3c/fxtf-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B%22+|FXTF Agenda+]]
   * Allow time and space for fuzzier open-ended discussions and breakouts
-  * Post-pandemic repair of group communication, collaboration, and engagement
+  * Post-pandemic repair of group communication and collaboration (particularly across company boundaries)
 
 Possible breakout topics:
   * Line-breaking and related features in [[https://www.w3.org/TR/css-text-4/|CSS Text Level 4]]
