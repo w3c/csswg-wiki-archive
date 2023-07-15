@@ -109,7 +109,8 @@ Please list your availability in California time (morning/afternoon/all or speci
 ^ Name ^ Timezone ^ PDT Availability ^ Other Notes ^
 | François Remy | CEST (PDT+9) | 08:00-16:00 | Might not be able to attend all days entirely |
 | Yehonatan Daniv | IDT (PDT+10) | 08:00-15:00 | |
-| Chris Lilley | (PDT+10) | 08:00-12:00 | unable to travel |
+| Chris Lilley | EEST (PDT+10) | 08:00-11:00 | unable to travel |
+| Lea Verou | EEST (PDT+10) | 08:00 - 11:00 | |
 | Vladimir Levin | EDT | 08:00-15:00 | |
 | Rob Flack | EDT | 08:00-15:00 | |
 | Jonathan Kew | (PDT+8) | 08:00-14:00 | Part-time, depending on schedule of agenda topics |
