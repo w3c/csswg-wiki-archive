@@ -48,6 +48,7 @@ In addition to [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aiss
   * Anchor Positioning
   * Masonry?
   * CSS Grid Layout L1 fixes (any output from Tab+Oriol+fantasai’s workday on Monday)
+  * Line-clamp
   * ??? Add topics you want to discuss / present here so the chairs can schedule them ???
 
 ==== Lightning Pitches ====
