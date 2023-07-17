@@ -64,6 +64,9 @@ In addition to [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aiss
   * Yehonatan Daniv: Expand filter capabilities, [[https://twitter.com/anatudor/status/1669878134932488194|reference tweet]]
   * Christopher Cameron: Dynamic range limit for HDR content [[https://github.com/w3c/csswg-drafts/issues/9074|issue]], [[https://github.com/ccameron-chromium/hdr-headroom-limit/blob/main/EXPLAINER.md|proposal]]
   * David Baron: focusability of `display: contents`; see [[https://github.com/mozilla/standards-positions/issues/772|mozilla/standards-positions#772]] and [[https://github.com/WebKit/standards-positions/issues/164|WebKit/standards-positions#164]]
+  * bramus: `@config`
+
+
 ===== Attendees =====
 
 ==== Hosts ===
