@@ -40,6 +40,7 @@ https://github.com/w3c/csswg-drafts/projects/38
 ==== Possible breakout topics ====
 
   * Line-breaking and related features in [[https://www.w3.org/TR/css-text-4/|CSS Text Level 4]]
+  * line-clamp, continue: discard, and friends
   * ??? Add Suggestions Here ???
 
 ==== Regular-track topics ====
