@@ -70,7 +70,7 @@ In addition to [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aiss
   * SebastianZ?: [[https://github.com/w3c/csswg-drafts/issues/8399|feature testing nesting]]
   * fantasai: CSS Grid and CSS Flexbox should not be 3-5 years out of date.
   * bramus: Animation Timelines
-  * bramus: catering for scrollbars – and overflow state query + [[https://github.com/w3c/csswg-drafts/issues/4691|issue]] + [[https://github.com/w3c/csswg-drafts/issues/6400#issuecomment-1439063168|issue]]
+  * bramus: catering for scrollbars – overflow state query + [[https://github.com/w3c/csswg-drafts/issues/4691|issue]] + [[https://github.com/w3c/csswg-drafts/issues/6400#issuecomment-1439063168|issue]]
 ===== Attendees =====
 
 ==== Hosts ===
