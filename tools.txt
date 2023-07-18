@@ -41,7 +41,3 @@ Tools particularly useful during (f2f or telcon) meetings:
   * [[https://wpt.live/]] is a runner for all the WPT tests.
   * [[https://wiki.csswg.org/tools/doc|Disposition of Comments tool]] Provides a GUI for easy editing and exploring DoCs.
 
-===== Experiments =====
-Tools setup for trying out, or otherwise playing with. Could change / break at any time.
-  * https://social.csswg.org/ - Mastodon instance
-    * See http://www.unmung.com/mastoview?url=social.csswg.org&view=local for recent public posts
