@@ -67,9 +67,8 @@ In addition to [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aiss
   * David Baron: focusability of `display: contents`; see [[https://github.com/mozilla/standards-positions/issues/772|mozilla/standards-positions#772]] and [[https://github.com/WebKit/standards-positions/issues/164|WebKit/standards-positions#164]]
   * bramus: `@config`
   * fantasai: [[https://github.com/w3c/csswg-drafts/issues/9076|counters() nonsense]]
-  * [[https://github.com/w3c/csswg-drafts/issues/8399|feature testing nesting]]
-
-
+  * SebastianZ?: [[https://github.com/w3c/csswg-drafts/issues/8399|feature testing nesting]]
+  * fantasai: CSS Grid and CSS Flexbox should not be 3-5 years out of date.
 ===== Attendees =====
 
 ==== Hosts ===
