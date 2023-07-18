@@ -153,6 +153,7 @@ Please list your availability in California time (morning/afternoon/all or speci
 | Andreu Botella | CEST | 08:00-14:00 | Preferably 8:00-12:00 |
 | Christopher Cameron | CEST | 12:00-15:00 | in and out |
 | Chris Harrelson | PDT | 8:00-16:00 | In and out |
+| Greg Whitworth | PDT | 08:00-16:00 | Tooltip & Anchor positioning |
 ==== Regrets ====
 
 ^ Name ^
