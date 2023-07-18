@@ -69,6 +69,7 @@ In addition to [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aiss
   * fantasai: [[https://github.com/w3c/csswg-drafts/issues/9076|counters() nonsense]]
   * SebastianZ?: [[https://github.com/w3c/csswg-drafts/issues/8399|feature testing nesting]]
   * fantasai: CSS Grid and CSS Flexbox should not be 3-5 years out of date.
+  * bramus: Animation Timelines
 ===== Attendees =====
 
 ==== Hosts ===
