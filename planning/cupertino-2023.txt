@@ -65,7 +65,6 @@ In addition to [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aiss
   * Yehonatan Daniv: Expand filter capabilities, [[https://twitter.com/anatudor/status/1669878134932488194|reference tweet]]
   * Christopher Cameron: Dynamic range limit for HDR content [[https://github.com/w3c/csswg-drafts/issues/9074|issue]], [[https://github.com/ccameron-chromium/hdr-headroom-limit/blob/main/EXPLAINER.md|proposal]], [[https://docs.google.com/presentation/d/1K2xbf2eaWFszl-3lhbeaRUc_GdL6Jjr5jAZBqBpv2vI/edit?usp=sharing|slides]]
   * David Baron: focusability of `display: contents`; see [[https://github.com/mozilla/standards-positions/issues/772|mozilla/standards-positions#772]] and [[https://github.com/WebKit/standards-positions/issues/164|WebKit/standards-positions#164]]
-  * bramus: `@config`
   * fantasai: [[https://github.com/w3c/csswg-drafts/issues/9076|counters() nonsense]]
   * Sebastian Zartner: [[https://github.com/w3c/csswg-drafts/issues/8399|feature testing nesting]] + [[https://github.com/w3c/csswg-drafts/issues/9082|avoid double-importing stylesheets]]
   * fantasai: CSS Grid and CSS Flexbox should not be 3-5 years out of date.
