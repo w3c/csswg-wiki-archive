@@ -60,7 +60,7 @@ In addition to [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aiss
 
 1min-5min informal pitches to ask for CSSWG’s attention / help on particular issues, concerns, or feature requests that aren't ready for formal discussion, see [[https://lists.w3.org/Archives/Member/w3c-css-wg/2023JulSep/0031.html|Lightning Pitches Description]]. Register your name and/or topics below if you want the wiki to help you remember.
 
-  * Sebastian Zartner: Advanced transforms
+  * Sebastian Zartner: [[https://github.com/SebastianZ/advanced-transforms|Advanced transforms]]
   * Yehonatan Daniv: animation-trigger, [[https://github.com/w3c/csswg-drafts/issues/8942|issue]]
   * Yehonatan Daniv: Expand filter capabilities, [[https://twitter.com/anatudor/status/1669878134932488194|reference tweet]]
   * Christopher Cameron: Dynamic range limit for HDR content [[https://github.com/w3c/csswg-drafts/issues/9074|issue]], [[https://github.com/ccameron-chromium/hdr-headroom-limit/blob/main/EXPLAINER.md|proposal]]
