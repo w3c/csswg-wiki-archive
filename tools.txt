@@ -26,7 +26,8 @@ Tools particularly useful during (f2f or telcon) meetings:
   * Spec sources are maintained on [[tools:git|Git/GitHub]] and are written in [[https://speced.github.io/bikeshed/|Bikeshed]].
   * [[http://www.w3.org/Mail/|W3C Mailing Lists]]: specifically 
     * [[tools:www-style|www-style]] used to be used for for **all** CSS spec-related discussion, now moved to GitHub issues,
-    * [[http://lists.w3.org/Archives/Public/public-fx/|public-fx]] for specs we co-edit with the [[http://www.w3.org/Graphics/SVG/|SVGWG]]. 
+    * [[https://lists.w3.org/Archives/Public/public-fx/|public-fx]] for specs we co-edit with the [[http://www.w3.org/Graphics/SVG/|SVGWG]]. 
+    * [[https://lists.w3.org/Archives/Public/public-houdini/|public-houdini]] for the Houdini Task Force spec (joint with the TAG)
     * The [[http://lists.w3.org/Archives/Member/w3c-css-wg/|CSSWG private list]] for administrivia **only**, no spec discussions occur here.
 
 ===== Editing Publishing Testing =====
