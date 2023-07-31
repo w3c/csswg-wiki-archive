@@ -13,7 +13,7 @@
 ==== Remote ====
 
 | **Name** | **Affiliation** | **Timezone** | **CEST (UTC+2) Availability** | **Other Notes** |
-| David Baron | Google | [[https://www.openstreetmap.org/relation/6496417|America/New_York]] | 14:30-23:45 | can be available for //some// of 11:30-14:30 |
+| David Baron | Google | [[https://www.openstreetmap.org/relation/6496417|America/New_York]] | 14:30-23:45 | can be available for //some// of 11:30-14:30, or potentially even earlier, given advance planning |
 | Daniel Holbert | Mozilla | PDT | TBD | |
 
 ==== Regrets ====
