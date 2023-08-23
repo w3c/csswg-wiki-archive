@@ -8,7 +8,7 @@ This page is here to track all the changes and meta-information we've decided to
   * Includes link to editor's draft in header (see [[http://dev.w3.org/csswg/css-module/|template]])
   * Includes [[http://dev.w3.org/csswg/css-module/#placement|module interactions]] and [[http://dev.w3.org/csswg/css-module/#values|values]] sections
   * Propdef tables "Values" field name links to values section
-  * Propdef tables include "Animatable" field
+  * Propdef tables include "Animation type" field (not "Animatable")
   * Propdef tables include "Canonical order" field
   * Includes [[http://dev.w3.org/csswg/css-module/#conventions|Document Conventions]] section
   * Includes an appropriate Conformance section
