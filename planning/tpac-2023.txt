@@ -4,6 +4,10 @@
 
   * CSSWG primary meeting time (see [[https://www.w3.org/2023/09/TPAC/schedule.html|overall schedule]]): Thursday-Friday, 14-15 September, 2023.  Meeting room available 9:30-18:30 CEST.
 
+====== Agenda ======
+
+  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+TPAC%22|Agenda+ TPAC]]
+  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22topic%3A+masonry%22+|Masonry Layout]]
 ===== Participants =====
 
 ==== In-Person ====
