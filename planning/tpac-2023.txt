@@ -2,8 +2,8 @@
 
 [[https://www.w3.org/2023/09/TPAC/|TPAC 2023]] is scheduled for **11-15 September 2023** in Sevilla, Spain, with options for both in-person and remote participation. 
 
-  * CSSWG primary meeting time (see [[https://www.w3.org/2023/09/TPAC/schedule.html|overall schedule]]): Thursday-Friday, 14-15 September, 2023.  Meeting room available 9:30-18:30 CEST.
-
+  * CSSWG F2F: **Thursday-Friday, 14-15 September, 2023**.  Meeting room available [[https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSSWG+F2F&iso=20230914T0930&p1=321&ah=9|9:30-18:30 CEST]]. (see [[https://www.w3.org/2023/09/TPAC/schedule.html|overall schedule]])
+  * A11y-CSSWG Joint Meeting: 17:00-18:00 CEST.
 ====== Agenda ======
 
   * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+TPAC%22|Agenda+ TPAC]]
