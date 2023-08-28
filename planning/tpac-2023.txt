@@ -5,7 +5,7 @@
   * CSSWG F2F: **Thursday-Friday, 14-15 September, 2023**.  Meeting room available [[https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSSWG+F2F&iso=20230914T0930&p1=321&ah=9|9:30-18:30 CEST]]. (see [[https://www.w3.org/2023/09/TPAC/schedule.html|overall schedule]])
   * A11y-CSSWG Joint Meeting: [[https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSSWG+F2F&iso=20230915T17&p1=321&ah=1|17:00-18:00 CEST Fri 15 Sept]].
 
-====== Agenda ======
+===== Agenda =====
 
   * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+TPAC%22|Agenda+ TPAC]]
   * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22topic%3A+masonry%22+|Masonry Layout]]
