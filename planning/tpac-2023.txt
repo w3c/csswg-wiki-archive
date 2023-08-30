@@ -31,6 +31,8 @@
 | Daniel Holbert | Mozilla | PDT | TBD | |
 | Jen Simmons | Apple | [[https://www.openstreetmap.org/relation/6496417|America/New_York]] | |  
 | Eric Meyer | Igalia | America/New_York (not linking because OSM’s boundary is //massively// wrong) | 1400–2200, could make 1100–2200 work if necessary |
+| Bramus | Google | CEST | 9-5 |
+
 
 ==== Regrets ====
 
