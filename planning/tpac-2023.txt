@@ -20,9 +20,11 @@
 
 | **Name** | **Affiliation** | **Dates** | **Accomodation** | **Other** |
 | Alan Stearns | Adobe | 2023/09/07-2023/09/19 | AirBnB | |
+| Chris Lilley | W3C| 2023/09/09-2023/09/19 | Hotel Pasarela | |
 | fantasai | Apple | 2023/09/06-2023/09/17 | Melia Sevilla | |
 | Florian Rivoal | Invited Expert | 2023/09/09–2023/09/17  | Hotel Pasarela | |
 | François Remy | Invited Expert | September 12 to September 16 | Silken Al Andalus Hotel | |
+| Lea Verou | Invited Expert| 2023/09/09-2023/09/19 | Hotel Pasarela | 
 | Myles C. Maxfield | Apple | in town all week | | |
 | Oriol Brufau | Igalia | 2023/09/10–2023/09/16  | Occidental Sevilla Viapol | |
 | Tab Atkins-Bittner | Google | 2023-09-10 to 2023-09-16 | Hotel Un Patio en Santa Cruz | |
