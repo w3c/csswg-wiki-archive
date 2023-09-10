@@ -27,6 +27,27 @@
 ===== Agenda =====
 
 https://github.com/w3c/csswg-drafts/projects/38
+==== Meeting Minutes ====
+  * Tuesday, July 18
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0011.html]]
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0012.html]]
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0013.html]]
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0014.html]]
+  * Wednesday, July 19
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0015.html]]
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0016.html]]
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0017.html]]
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0018.html]]
+  * Thursday, July 20
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0019.html]]
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0020.html]]
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0021.html]]
+  * Friday, July 21
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0022.html]]
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0023.html]]
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0024.html]]
+    * [[https://lists.w3.org/Archives/Public/www-style/2023Sep/0025.html]]
+
 ==== Goals ====
 
   * Reduce Agenda+ backlog:
