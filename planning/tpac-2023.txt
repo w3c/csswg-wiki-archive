@@ -52,6 +52,8 @@
 | Jonathan Kew | Mozilla | Europe/London | Flexible, will be guided by agenda | Font, text & i18n-related topics |
 | Rune Lillesveen | Google | CEST | 9-17 | |
 | Rob Flack | Google | EST | 1PM CEST or later | |
+| Simon Fraser | Apple | PDT | |  |
+
 ==== Regrets ====
 
 | **Name** | **Affiliation** |
