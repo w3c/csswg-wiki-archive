@@ -253,8 +253,8 @@ Everything new introduced into CSS //only// uses American English spelling. So t
 
 == more details ==
 
-While, from an author's perspective it is just another name for something, introducing aliases for feature names comes with a cost.
-They require precedence and de-duplicating rules in case both are specified in implementations. Also, every new feature would require specification work regarding the alias. And also there would need to be [[https://wpt.fyi/results/css|Web Platform Tests]] covering those variations. And all that for very little author benefit.
+While, from an author's perspective it may seem to be just another name for something, introducing aliases for feature names comes with a cost.
+For authors introducing aliases may cause some confusion and cognitive load, as they may expect a different spelling or even a completely different word. They require precedence and de-duplicating rules in case both are specified in implementations. Also, every new feature would require specification work regarding the alias. And also there would need to be [[https://wpt.fyi/results/css|Web Platform Tests]] covering those variations. And all that for very little author benefit.
 
 === References ===
 
