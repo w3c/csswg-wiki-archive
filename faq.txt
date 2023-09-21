@@ -240,6 +240,29 @@ Naming colors can be done in stylesheets using custom properties. It is not like
   * https://www.youtube.com/watch?v=HmStJQzclHc
 
 
+===== Adding British variants for names =====
+
+=== Question ===
+
+Can we add British English variants for names in CSS?
+
+=== Answer ===
+
+While there are color names using British English spelling like `grey` in addition to the American English versions, those are considered to be legacy. Actually, the [[https://wiki.csswg.org/faq#adding-more-named-colors|whole built-in set of named colors is considered to be legacy]]. See [[https://www.youtube.com/watch?v=HmStJQzclHc|Alex Sexton's talk about the history of these colors]].
+Everything new introduced into CSS //only// uses American English spelling. So there's only one variant of names for properties, keywords, functions, etc. like in other programming languages.
+
+== more details ==
+
+While, from an author's perspective it is just another name for something, introducing aliases for feature names comes with a cost.
+They require precedence and de-duplicating rules in case both are specified in implementations. Also, every new feature would require specification work regarding the alias. And also there would need to be [[https://wpt.fyi/results/css|Web Platform Tests]] covering those variations. And all that for very little author benefit.
+
+=== References ===
+
+  * https://github.com/w3c/csswg-drafts/issues/3298#issuecomment-437089314
+  * https://github.com/w3c/csswg-drafts/issues/3192#issuecomment-427132614
+  * https://www.youtube.com/watch?v=HmStJQzclHc
+
+
 ===== Real Physical Lengths =====
 
 === Question ===
