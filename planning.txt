@@ -13,10 +13,11 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 [[https://www.w3.org/2006/tools/wiki/WebExFAQ|WebEx FAQ]] and [[https://www.w3.org/2006/tools/wiki/WebExBestPractices|Best Practices]]
 ===== Upcoming Meetings =====
 
-==== 2023 ====
+==== 2024 ====
 
-  * 2023-09-11..15 [[planning:tpac-2023|TPAC 2023]], Sevilla, Spain
-
+  * 2024-02-?? (tentative) probably California, United States (Google)
+  * ?
+  * 2024-09-?? probably meeting for some days during TPAC 2024 (2024-09-23..2024-09-27), Anaheim, California, United States
 
 ==== Misc ====
 
@@ -30,6 +31,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 ==== 2023 ====
 
+  * 2023-09-11..15 [[planning:tpac-2023|TPAC 2023]], Sevilla, Spain
   * 2023-07-18..21 [[planning:cupertino-2023|Summer F2F]], Cupertino, California
   * [[planning:march-2023|March VFTF]] Zoom
 
