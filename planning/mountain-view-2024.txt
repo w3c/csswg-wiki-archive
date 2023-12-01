@@ -20,7 +20,7 @@
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Dietary Restrictions ^ Flights or Other Notes ^
 | David Baron | Sun 17:18 (SFO) | Fri 8:40 (SFO) | ? | no red meat | [[https://www.flightaware.com/live/flight/UAL1110|UA1110]] / [[https://www.flightaware.com/live/flight/UAL1954|UA1954]] |
-
+| Daniel Holbert | Local | Local | Local |  |  |
 ==== Virtual Participants ====
 
 Please list your availability in California time (morning/afternoon/all or specific time ranges). See [[https://www.worldtimebuddy.com/?pl=1&lid=5391959,2988507,293397,2158177&h=5391959&date=7/18/2023%7C3&hf=1|Time Converter]]
