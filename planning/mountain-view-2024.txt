@@ -22,6 +22,9 @@
 
 ===== Agenda =====
 
+  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22|Agenda+ F2F]]
+  * [[https://css.oddbird.net/sasslike/mixins-functions/|Mixins & Functions]]
+  * 
 ===== Attendees =====
 
 ==== Hosts ===
@@ -39,7 +42,7 @@
 | Tess | N/A | N/A | N/A | | |
 | Vladimir Levin | TBD | TBD | TBD | | |
 | Brad Kemper | Local | Local | Local |  |  |
-| Miriam Suzanne | TBD | TBD | TBD | Vegetarian |  |
+| Miriam Suzanne | Sun 5:30pm SJC | Thu 11:40am SJC | Hampton Inn & Suites Mountain View | vegetarian | WN 878 / WN 2305 |
 
 ==== Virtual Participants ====
 
