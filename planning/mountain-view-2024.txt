@@ -59,7 +59,9 @@
 Please list your availability in California time (morning/afternoon/all or specific time ranges). See [[https://www.worldtimebuddy.com/?pl=1&lid=5391959,2988507,293397,2158177&h=5391959&date=7/18/2023%7C3&hf=1|Time Converter]]
 
 ^ Name ^ Timezone ^ PDT Availability ^ Other Notes ^
+| Chris Lilley | EST | 7am-1pm | Mon-Tue only |
 | François Remy | CET | Morning+ | 
+| Lea Verou | EST | 7am-1pm |  |
 | Noam Rosenthal | GMT | Morning |
 | ChangSeok Oh | PDT | |
 | Stephen Chenney | EST | 7am-1pm |
