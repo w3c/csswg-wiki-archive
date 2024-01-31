@@ -16,9 +16,8 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ==== 2024 ====
 
   * 2024-02-12 to 2024-02-14 [[planning:mountain-view-2024|February F2F]] Mountain View, California, United States (Google)
-  * Spring meeting (Apr/May?) hosted by Apple (in Cork?)
-  * Summer meeting (late July?) hosted by Igalia
-  * 2024-09-?? probably meeting for some days during TPAC 2024 (2024-09-23..2024-09-27), Anaheim, California, United States
+  * Second week of June hosted by Igalia
+  * 2024-09-?? meeting for some days during TPAC 2024 (2024-09-23..2024-09-27), Anaheim, California, United States
 
 ==== 2025 ====
   * 2025-11-?? probably meeting for some days during TPAC 2025 (2025-11-10..2025-11-14), Kobe, Japan
