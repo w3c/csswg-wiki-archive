@@ -27,6 +27,18 @@
   * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22|Agenda+ F2F]]
   * [[https://css.oddbird.net/sasslike/mixins-functions/|Mixins & Functions]]
   * [[https://drafts.csswg.org/css-anchor-position-1/|Anchor Positioning]] (Tuesday morning)
+     * [[https://github.com/w3c/csswg-drafts/issues/9862|inset-area syntax]]
+     * [[https://github.com/w3c/csswg-drafts/issues/9196#issuecomment-1912788896|position-try proposal]]
+        * [[https://github.com/w3c/csswg-drafts/issues/9047|position-try-order - choosing the try order]]
+        * [[https://github.com/w3c/csswg-drafts/issues/8200|final try memory - default to historical position]]
+        * [[https://github.com/w3c/csswg-drafts/issues/9380|final try choices via `position-try-final`]]
+     * [[https://github.com/w3c/csswg-drafts/issues/9195#issuecomment-1934982421|acceptable try properties]]
+     * [[https://github.com/w3c/csswg-drafts/issues/9598#issuecomment-1836854109|animation via position packaging]]
+     * [[https://github.com/w3c/csswg-drafts/issues/9868|position-fallback-bounds vs position-container]]
+     * [[https://github.com/w3c/csswg-drafts/issues/7758#issuecomment-1912799837|anchorpos and clipping]]
+     * [[https://github.com/w3c/csswg-drafts/issues/9149|try option style cascade]]
+     * [[https://github.com/w3c/csswg-drafts/issues/8171|conditional styling - exploratory discussion]]
+     * [[https://github.com/w3c/csswg-drafts/issues/8895|choosing the anchor fragment]]
 ===== Attendees =====
 
 ==== In-Person Participants ====
