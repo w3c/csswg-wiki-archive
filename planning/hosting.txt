@@ -3,14 +3,13 @@
 (See also the general [[http://www.w3.org/Guide/hosting.htm|"Hosting W3C Face to Face Meetings."]] and [[http://w3cmemes.tumblr.com/post/52184246050/for-future-reference-wg-members-are-assumed|F2F Illustration]])
 
 To host a CSS meeting, you MUST provide:
-  * A meeting room where the group can meet, without needing to sign any NDA or other agreement. Meetings are typically 3 days (4 days if co-hosting a [[https://wiki.css-houdini.org/ | Houdini]] meeting), and a room is needed the entire time. It SHOULD be the same room everyday.
+  * A meeting room where the group can meet, without needing to sign any NDA or other agreement. Meetings are typically 3 days (4 days if co-hosting a [[https://wiki.css-houdini.org/ | Houdini]] meeting), and a room is needed the entire time. It SHOULD be the same room every day.
   * Chairs for people to sit in and tables for them to put their laptops at (which SHOULD be arranged in a U shape) such that the participants can easily hear each other speak. Attendance may vary, but is typically around 30 people.
   * electricity for everybody's laptops (probably assume greater than 1 device per person average)
   * network connectivity that allows at least access to Web, IRC, and email, and preferably also skype/VoIP
   * A projection screen easily visible from all the chairs, and preferably to which anyone in any of the chairs can project from their seats
   * Either a whiteboard or flipchart that people can draw on, also visible from all the seats.
-  * Telephone access, preferably a multi-microphone conference phone, tested in advance to make sure audio works in both directions (is this a MUST or a SHOULD?)
-  * All of the above MUST be ready to go by 9am on each meeting day, and must remain available until the of the meeting at 6pm.
+  * All of the above MUST be ready to go by 9am on each meeting day, and must remain available until the end of the meeting at 6pm.
   * The meeting room SHOULD be available half an hour before the meeting start so that people can arrive, and SHOULD remain available for at least 30 minutes to an hour after the likely end of the meeting, both so that the meeting can continue a few minutes longer if needed, and so that participants can linger to finish ongoing conversations, make dinner plans, etc.
   * instructions for how to get to the meeting location
 
