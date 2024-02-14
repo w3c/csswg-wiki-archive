@@ -16,7 +16,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ==== 2024 ====
 
   * 2024-02-12 to 2024-02-14 [[planning:mountain-view-2024|February F2F]] Mountain View, California, United States (Google)
-  * [[planning:galicia-2024|Second week of June hosted by Igalia]]
+  * 2024-06-11 to 2024-06-13 [[planning:galicia-2024|June F2F]] A Coruña, Galicia, Spain (Igalia)
   * 2024-09-?? meeting for some days during [[https://www.w3.org/2024/09/TPAC/|TPAC 2024]] (2024-09-23..2024-09-27), Anaheim, California, United States
 
 ==== 2025 ====
