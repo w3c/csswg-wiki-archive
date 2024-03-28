@@ -1,0 +1,63 @@
+====== A Coruña F2F June 2024 ======
+
+   * Host: Igalia
+   * Location: A Coruña, Galicia, Spain
+   * Dates: June 11-13
+   * Times: 10am-6pm
+
+Where:
+    A Coruña, Galicia, Spain
+    Igalia office
+    Rúa de José Luis Bugallal Marchesi, 22
+    https://maps.app.goo.gl/eCban5rx1iHKsZ1J8
+
+If you're in A Coruña on June 10 or 14 (the days before and after), you’re welcome to come to the Igalia office and work from there.
+
+If you're already planning to get flights and hotels, you should know that we have a discount for F2F attendees at the nearby Hotel Avenida (https://www.hotelavenida.com/en/). This is the hotel we use frequently and it is very convenient to the office. June 10 and 11 - only accommodation 52€ and with breakfast 58€. On the 12th and 13th - only accommodation 72€ and with breakfast 78€. We have requested them to hold 20-25 rooms for us and would need names if you would like us to get them held with reservations (payment due at the hotel).  Please contact us or note it in the wiki page as soon as possible if you believe that sounds good.
+
+We can also provide childcare if needed. Feel free to contact us or note that in the wiki page.
+
+Note that Igalia is also organizing the Web Engines Hackfest the week before, on June 3-5, also in A Coruña. You can find more info at https://webengineshackfest.org/. I know some of you are attending or speaking at CSS Day, which would make it harder to also attend the Web Engines Hackfest, but it would be great if you could make it.
+
+The Web Engines Hackfest website also has travel instructions to get to A Coruña, although that event takes place at a different venue.
+
+===== Agenda =====
+
+  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22|Agenda+ F2F]]
+  * Other topics?
+
+===== Attendees =====
+
+==== In-Person Participants ====
+
+(alphabetical by first name)
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Dietary Restrictions ^ Flights or Other Notes ^
+| Alan Stearns | TBD |  |  |  |  |
+| Andreu Botella | TBD | TBD | Hotel Avenida | | | 
+| Brian Kardell | TBD | TBD | Hotel Avenida | pescatarian | |
+| David Baron | Monday 11:50 (LCG) | Friday 8:35 (LCG) | [[https://www.hotelavenida.com/|Hotel Avenida]] | no red meat | [[https://www.flightaware.com/live/flight/UAL260|UA260]]+[[https://www.flightaware.com/live/flight/AEA7231|UX7231]], [[https://www.flightaware.com/live/flight/AEA7232|UX7232]]+[[https://www.flightaware.com/live/flight/UAL261|UA261]] |
+| fantasai | TBD | TBD | | gluten-free appreciated | |
+| Javier Fernandez | TBD | TBD | Local | | | 
+| Khushal Sagar | TBD | | | vegetarian | |
+| Luke Warlow | TBD | TBD | Hotel Avenida | pescatarian | | 
+| Miriam Suzanne | TBD | | Hotel Avenida | vegetarian | |
+| Noam Rosenthal | TBD  | | | | |
+| Oriol Brufau | TBD | TBD | Hotel Avenida | | |
+| Rachel Andrew | TBD  | | | | |
+| Roman Komarov | TBD | TBD | Hotel Avenida | | |
+| Tab Atkins-Bittner | TBD | | | | |
+| Yehonatan Daniv | TBD | TBD | Hotel Avenida | | |
+
+==== Virtual Participants ====
+
+Please list your availability in Spanish time (morning/afternoon/all or specific time ranges). See [[https://www.worldtimebuddy.com/?pl=1&lid=3117735,5391959,2158177,293397&h=5391959&hf=1|Time Converter]]
+
+^ Name ^ Timezone ^ CEDT Availability ^ Other Notes ^
+| Daniel Holbert | PDT | TBD |  |
+| Stephen Chenney | EDT | 12:30 - 18:00 | |
+| Bramus | CEST | Business Hours | |
+==== Regrets ====
+
+^ Name ^
+Jen Simmons — this is scheduled for the same time as Apple's biggest event of the year
