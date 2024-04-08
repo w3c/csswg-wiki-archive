@@ -1,7 +1,5 @@
 ====== Minor Principles of Design ======
 
-See [[https://www.w3.org/TR/CSS2/intro.html#design-principles|CSS2 Design Principles]], [[http://fantasai.inkedblade.net/weblog/2012/css-layout-evolution/#principles|Evolution of CSS Layout: Principles]], & [[http://fantasai.inkedblade.net/style/talks/designing-css/|Designing CSS slide deck]] & [[http://fantasai.inkedblade.net/weblog/2019/designing-css/|partial transcript]] for higher-level design principles.
-
   ; Transparency Principle
   : Inserting an unstyled block in a block formatting context (as sibling, parent, child or intermediary) / unstyled inline in an inline formatting context should have no effect on styling.
   ; Lea Verou Reordering Principle
@@ -18,3 +16,6 @@ See [[https://www.w3.org/TR/CSS2/intro.html#design-principles|CSS2 Design Princi
   : Any feature that requires everyone to use a certain toolchain to be usable is a design failure.
   ; Roc Principle of Spec-writing
   : If Robert O'Callahan is unhappy with your spec, you're the one who's wrong.
+
+<note tip>See also [[https://www.w3.org/TR/CSS2/intro.html#design-principles|CSS2 Design Principles]], [[http://fantasai.inkedblade.net/weblog/2012/css-layout-evolution/#principles|Evolution of CSS Layout: Principles]], & [[http://fantasai.inkedblade.net/style/talks/designing-css/|Designing CSS slide deck]] & [[http://fantasai.inkedblade.net/weblog/2019/designing-css/|partial transcript]] for higher-level design principles.
+</note>
