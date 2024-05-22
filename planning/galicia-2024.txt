@@ -32,6 +32,34 @@ The Web Engines Hackfest website also has travel instructions to get to A Coruñ
        * Wear a mask in all indoor public space 72 hours before Tuesday’s meeting
        * Wear a mask during your entire travel journey (onboard a flight, train or federally-regulated vessel, as well as in airports and other points of entry) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt
 
+
+Some additional information for during f2f week... 
+
+Igalia has done our best to make accommodations, here are some notes:
+
+====Meals====
+1. Breakfast at the hotel is buffet style and normally on the inside, however, the hotel has made the terrace available so it is possible to take breakfast outdoors.
+
+2. Igalia has arranged for catering in the office for coffee/snacks and lunch.  We aren't able to provide specifically outdoor accommodation for that, but attendees are welcome to take food and drinks outside or find a nearby place if they are more comfortable.
+
+3. We have arranged for a group dinner at Comarea Marina (https://www.instagram.com/comareamarinacoruna/) for Wednesday 12th at 8:30 PM.  It is outdoors.
+
+All dietary notes have been taken into consideration.
+
+====Tour and Meetup====
+
+Igalia has also arranged a city tour for anyone interested.
+
+Igalia is also working with a local users group GPUL to set up a meetup on Tuesday 11th, starting at 7 PM, for 1h30m or 2h.  It will probably be held here https://www.udc.es/en/goberno/equipo_reitoral/xerencia/servizos/control-interno/inventario-e-patrimonio/patrimonio/sala_consello_goberno/index.html
+
+Rachel has offered to give a talk for this meeting, probably at least a bit on how the CSSWG and standards work, and then we will have a panel/Q&A which Eric and/or I can moderate.  We still need some volunteers for said panel.  We can note a masking preference, but we can't really require non-wg members to mask for this event.
+
+====Tour====
+We have also arranged a guided bus tour for anyone interested, just before the group dinner.  A bus will pick up our group on Wednesday 12th at 6:30 PM near the office, guide us through interesting sites like San Pedro and Torre de Hércules, teach us some local history and finally drop us off at the group dinner location. 
+
+====Chats====
+As you might know Igalia has a podcast called Igalia chats.  We thought it might be fun to try to squeeze in some quick recorded interviews with attendees during breaks or downtime about what's happening at the f2f, or what exactly they're like/why they're valuable, etc.. There's no real specific plan here other than that we'll have a couple of microphones and a small quiet area set up, and if you're willing to participate in that, let us know.  We're also happy to share that with any other podcasters in the group as I know we have a few.
+
 ===== Agenda =====
 
   * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22|Agenda+ F2F]]
