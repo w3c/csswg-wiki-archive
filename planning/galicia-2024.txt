@@ -106,7 +106,7 @@ As you might know Igalia has a podcast called Igalia chats.  We thought it might
 Please list your availability in Spanish time (morning/afternoon/all or specific time ranges). See [[https://www.worldtimebuddy.com/?pl=1&lid=3117735,5391959,2158177,293397&h=5391959&hf=1|Time Converter]]
 
 ^ Name ^ Timezone ^ CEDT Availability ^ Other Notes ^
-| Daniel Holbert | PDT | TBD |  |
+| Daniel Holbert | PDT | Afternoon |  |
 | Stephen Chenney | EDT | 12:30 - 18:00 | |
 | Bramus | CEST | Business Hours | |
 | Emilio Cobos | CEST | Business Hours | |
