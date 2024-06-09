@@ -66,6 +66,7 @@ As you might know Igalia has a podcast called Igalia chats.  We thought it might
   * [[https://github.com/Igalia/explainers/tree/canvas-formatted-text/canvas-formatted-text|WICG Canvas Text]] proposal intro
   * Other topics?
 
+[[https://github.com/orgs/w3c/projects/88/views/1|Agenda Project]]
 ===== Attendees =====
 
 ==== In-Person Participants ====
