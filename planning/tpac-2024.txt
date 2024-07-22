@@ -27,10 +27,10 @@
 
 | **Name** | **Affiliation** | **Dates** | **Accomodation** | **Other** |
 | Alan Stearns | Adobe | | | |
-| Yehonatan Daniv | Wix | | | |
 | Emilio Cobos | Mozilla | | | |
+| fantasai | Apple | All | Venue | |
 | Noam Rosenthal | Google | All | | |
-
+| Yehonatan Daniv | Wix | | | |
 | | | | | |
 
 ==== Remote ====
