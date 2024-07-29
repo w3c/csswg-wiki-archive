@@ -1,6 +1,8 @@
 ====== Meeting Planning Pages ======
 
-This is the CSS Working Group's planning space. A **[[https://cal.csswg.org/public.php/csswg/calendar.ics|CSSWG Meeting iCalendar Feed]]** is also available.
+This is the CSS Working Group's planning space.
+
+The chairs will add most events to the W3C calendar, which should show up in **[[https://www.w3.org/users/myprofile/calendar/|your W3C calendar]]** (see export options at the bottom) if you're a member of the CSS Working Group.  An unofficial **[[https://cal.csswg.org/public.php/csswg/calendar.ics|CSSWG Meeting iCalendar Feed]]** is also available.
 
 All meetings use IRC for live minuting and as a backchannel: the #css channel on [[https://www.w3.org/Project/IRC/|the W3C IRC server]].
 
