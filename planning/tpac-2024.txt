@@ -31,15 +31,15 @@ Also see the TPAC-wide [[https://www.w3.org/wiki/MeetingTaxis|Meeting Taxis]] wi
 
 | **Name** | **Affiliation** | **Dates** | **Accomodation** | **Other** |
 | Alan Stearns | Adobe | | | |
+| Alison Maher | Microsoft | All | Sheraton Park | |
 | David Baron | Google | All | ? | arrive LAX Sun 15:18, depart LAX Fri 21:30 |
 | Emilio Cobos | Mozilla | | | |
 | Eric Meyer | Igalia | | | |
 | fantasai | Apple | All | Venue | |
 | Noam Rosenthal | Google | All | | |
 | Rachel Andrew | Google | All | | |
-| Yehonatan Daniv | Wix | All | Venue | |
 | Rob Flack | Google | All | | |
-| Alison Maher | Microsoft | All | Sheraton Park | |
+| Yehonatan Daniv | Wix | All | Venue | |
 ==== Remote ====
 
 | **Name** | **Affiliation** | **Timezone** | **PDT (UTC-7) Availability** | **Other Notes** |
