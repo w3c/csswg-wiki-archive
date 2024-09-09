@@ -8,6 +8,8 @@
   * Monday 23 Sep, 16:30 - 18:00, joint meeting with Accessible Platform Architectures WG
   * Tuesday 24 Sep, 09:30 – 12:30, Styleable form controls (CSS, WHATWG, OpenUI)
   * Tuesday 24 Sep, 16:30 - 18:00, joint meeting with Internationalization WG
+
+  * Weather Forecast: [[http://forecast.weather.gov/MapClick.php?smap=1&lat=33.801&lon=-117.918&unit=1&mp=1|⁰C]] or [[http://forecast.weather.gov/MapClick.php?smap=1&lat=33.801&lon=-117.918&unit=0&mp=1|⁰F]]
 ===== Covid Protocols =====
 
 ([[https://log.csswg.org/irc.w3.org/css/2024-07-24/#e1636894|resolved]] on July 24)
