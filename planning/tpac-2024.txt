@@ -47,6 +47,7 @@ Also see the TPAC-wide [[https://www.w3.org/wiki/MeetingTaxis|Meeting Taxis]] wi
 
 | **Name** | **Affiliation** | **Timezone** | **PDT (UTC-7) Availability** | **Other Notes** |
 | Rune Lillesveen | Google | CET | Before lunch | |
+| Daniel Holbert | Mozilla | PDT | 9am-1pm, 2:30pm-5pm | |
 
 ==== Regrets ====
 
