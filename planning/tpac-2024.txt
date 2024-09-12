@@ -34,6 +34,7 @@ Also see the TPAC-wide [[https://www.w3.org/wiki/MeetingTaxis|Meeting Taxis]] wi
 | **Name** | **Affiliation** | **Dates** | **Accomodation** | **Other** |
 | Alan Stearns | Adobe | | | |
 | Alison Maher | Microsoft | All | Sheraton Park | |
+| Andreu Botella | Igalia | All | | |
 | David Baron | Google | All | ? | arrive LAX Sun 15:18, depart LAX Fri 21:30 |
 | Emilio Cobos | Mozilla | | | |
 | Eric Meyer | Igalia | | | |
