@@ -48,6 +48,7 @@ Also see the TPAC-wide [[https://www.w3.org/wiki/MeetingTaxis|Meeting Taxis]] wi
 | Tantek Çelik | Mozilla | All | | [[https://tantek.com/|@tantek.com@tantek.com]] |
 | Tim Nguyen | Apple | All | | |
 | Yehonatan Daniv | Wix | All | Venue | |
+| Chris Harrelson | Google | All | Venue | |
 ==== Remote ====
 
 | **Name** | **Affiliation** | **Timezone** | **PDT (UTC-7) Availability** | **Other Notes** |
