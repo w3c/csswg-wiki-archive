@@ -50,6 +50,7 @@ Also see the TPAC-wide [[https://www.w3.org/wiki/MeetingTaxis|Meeting Taxis]] wi
 | Yehonatan Daniv | Wix | All | Venue | |
 | Chris Harrelson | Google | All | Venue | |
 | Vladimir Levin | Google | All | Venue | |
+| Jennifer Strickland | MITRE | All | Venue | |
 ==== Remote ====
 
 | **Name** | **Affiliation** | **Timezone** | **PDT (UTC-7) Availability** | **Other Notes** |
