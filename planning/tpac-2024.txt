@@ -55,6 +55,8 @@ Also see the TPAC-wide [[https://www.w3.org/wiki/MeetingTaxis|Meeting Taxis]] wi
 | Vladimir Levin | Google | All | Venue | |
 | Jennifer Strickland | MITRE | All | Venue | |
 | Miriam Suzanne | Invited Expert | All | Venue | |
+| Penelope McLachlan | Google | Tue - Fri | Sheraton Park | |
+
 ==== Remote ====
 
 | **Name** | **Affiliation** | **Timezone** | **PDT (UTC-7) Availability** | **Other Notes** |
