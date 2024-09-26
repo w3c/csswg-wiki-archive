@@ -2,6 +2,8 @@
 
 This page explores some ideas about integrating animations, interpolation, and timelines.
 
+<note important>These ideas have been drafted into and superseded by [[https://www.w3.org/TR/css-animations-2/|CSS Animations Level 2]], [[https://www.w3.org/TR/scroll-animations/|Scroll Animations Level 1]], and [[https://www.w3.org/TR/css-values-5/|CSS Values Level 5]]</note>
+
 ===== Time-linked Animations =====
 
 These are the classic form of [[https://www.w3.org/TR/css-animations-1/|CSS animations]], linked to a time-based timeline.
