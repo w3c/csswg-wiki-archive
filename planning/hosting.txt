@@ -9,6 +9,7 @@ To host a CSS meeting, you MUST provide:
   * network connectivity that allows at least access to Web, IRC, and email, and preferably also skype/VoIP
   * A projection screen easily visible from all the chairs, and preferably to which anyone in any of the chairs can project from their seats
   * Either a whiteboard or flipchart that people can draw on, also visible from all the seats.
+  * A setup that allows participants to participate remotely (for example, via Zoom), so that remote participants can hear those in the room, and those in the room can hear the remote participants
   * All of the above MUST be ready to go by 9am on each meeting day, and must remain available until the end of the meeting at 6pm.
   * The meeting room SHOULD be available half an hour before the meeting start so that people can arrive, and SHOULD remain available for at least 30 minutes to an hour after the likely end of the meeting, both so that the meeting can continue a few minutes longer if needed, and so that participants can linger to finish ongoing conversations, make dinner plans, etc.
   * instructions for how to get to the meeting location
