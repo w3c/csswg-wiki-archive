@@ -14,6 +14,11 @@
   : We try to make sure behavior is good by default, and resilient in weird cases. We do not choose bad behavior by default because it's the most straightforward way to be resilient.
   ; Jen Simmons Tooling Principle
   : Any feature that requires everyone to use a certain toolchain to be usable is a design failure.
+  ; Considerations for Restrict Longhand Values in a Shorthand
+  : whether the value introduces ambiguity
+  : whether the value could in the future introduce ambiguity (and therefore we need to reserve the keyword for other purposes)
+  : whether the value is readable / understandable in the shorthand
+  : the above considerations vs the baseline pattern that all longhand values should be valid in the shorthand
   ; Roc Principle of Spec-writing
   : If Robert O'Callahan is unhappy with your spec, you're the one who's wrong.
 
