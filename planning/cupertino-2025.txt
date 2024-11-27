@@ -13,3 +13,25 @@
        * SJC - San Jose Airport (16km drive, **closest**, be careful to use correct airport code)
        * SFO - San Francisco Airport (54km drive, **major hub**)
        * OAK - Oakland Airport (69km drive)
+
+
+===== Attendees =====
+
+==== In-Person Participants ====
+
+(alphabetical by first name)
+
+^ Name ^ Arrival ^ Departure ^ Hotel ^ Dietary Restrictions ^ Flights or Other Notes ^
+| . | . | . | . |  |  |
+
+==== Virtual Participants ====
+
+Please list your availability in California time (morning/afternoon/all or specific time ranges). See [[https://www.worldtimebuddy.com/?pl=1&lid=5391959,2158177,1850147,293397,2988507,2643743,5128581&h=5391959&hf=1|Time Converter]]
+
+^ Name ^ Timezone ^ PST Availability ^ Other Notes ^
+| David Baron (hopefully) | America/New_York | 8:00-14:30 |  |
+
+==== Regrets ====
+
+^ Name ^
+| . |
