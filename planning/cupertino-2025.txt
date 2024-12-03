@@ -23,6 +23,7 @@
 
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Dietary Restrictions ^ Flights or Other Notes ^
 | fantasai | ? | ? | ? | GF | host |
+| bramus | ? | ? | ? | - | - |
 
 ==== Virtual Participants ====
 
