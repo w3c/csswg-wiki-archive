@@ -22,7 +22,7 @@
 ^ Name ^ Arrival ^ Departure ^ Hotel ^ Dietary Restrictions ^ Flights or Other Notes ^
 | Alan | Jan 28 | Feb 1 | Woodcrest Hotel | none | ? |
 | Alison Maher | Jan 28 | Feb 1 | Woodcrest Hotel | none | - |
-| bramus | ? | ? | ? | - | - |
+| bramus | Jan 26 | Feb 2 | ? | - | Airplanes, yes. |
 | Daniel Holbert | N/A | N/A | N/A | none | Local; unavailable on Weds morning |
 | Emilio | ? | ? | AirBnB | none | - |
 | fantasai | ? | ? | ? | GF | host |
