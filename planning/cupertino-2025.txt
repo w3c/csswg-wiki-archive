@@ -9,6 +9,9 @@
    * Weather Forecast: [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.335&lon=-122.009&unit=1&mp=1|⁰C]] or [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.335&lon=-122.009&unit=0&mp=1|⁰F]], Current Weather Conditions: [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG&unit=1|⁰C]] or [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG|⁰F]]
    * Dates: Wednesday 29 January - Friday 31 January 2025
    * Times: 8am-4pm
+     * Morning break: ~10am
+     * Lunch break: noon
+     * Afternoon break: ~2pm
    * Airports:
        * SJC - San Jose Airport (16km drive, **closest**, be careful to use correct airport code)
        * SFO - San Francisco Airport (54km drive, **major hub**)
