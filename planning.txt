@@ -16,9 +16,9 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ===== Upcoming Meetings =====
 
 ==== 2025 ====
-  * 2025-01-29..31 [[planning:cupertino-2025|January F2F]], Cupertino, California
-  * probably April in New York City
-  * maybe July or September, probably in Europe
+
+  * probably April in New York City (Microsoft)
+  * maybe July or September, probably in Europe (Google)
   * 2025-11-?? probably meeting for some days during TPAC 2025 (2025-11-10..2025-11-14), Kobe, Japan
 
 ==== Misc ====
@@ -30,6 +30,10 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
   * [[planning:hosting]]
 
 ===== Past Meetings =====
+
+==== 2025 ====
+
+  * 2025-01-29..31 [[planning:cupertino-2025|January F2F]], Cupertino, California (Apple)
 
 ==== 2024 ====
 
