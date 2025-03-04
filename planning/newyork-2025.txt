@@ -10,10 +10,10 @@
 
    * Weather Forecast:  [[http://forecast.weather.gov/MapClick.php?smap=1&lat=40.759028&lon=-73.985046&unit=1&mp=1|⁰C]] or [[http://forecast.weather.gov/MapClick.php?smap=1&lat=40.759028&lon=-73.985046&unit=0&mp=1|⁰F]], Current Weather Conditions: [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KNYC&unit=1|⁰C]] or [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KNYC|⁰F]]
    * Dates: Tuesday April 1 - Thursday April 3 2025
-   * Times: 
-     * Morning break: ~10am
+   * Times: 9am-5pm (lobby opens at 8am, and light snacks/drinks should arrive at ~8:30am)
+     * Morning break: ~10:30am
      * Lunch break: noon
-     * Afternoon break: ~2pm
+     * Afternoon break: ~2:30pm
    * Airports:
      * LGA - LaGuardia Airport (~9.3 mile drive)
      * JFK - John F. Kennedy International Airport (~16 mile drive)
