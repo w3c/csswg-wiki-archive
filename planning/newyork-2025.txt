@@ -59,7 +59,7 @@ Please list your availability in New York time (morning/afternoon/all or specifi
 ^ Name ^ Timezone ^ EDT Availability ^ Other Notes ^
 | Bramus | CEST | AM (+ PM if need be) |  |
 | Daniel Holbert | PDT | PM |  |
-
+| Miriam Suzanne | MT | after 10am | Not available Thursday |
 ==== Regrets ====
 
 ^ Name ^
