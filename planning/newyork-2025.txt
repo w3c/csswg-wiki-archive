@@ -62,22 +62,24 @@ Agenda planning: Link to come
 
 Please list your availability in New York time (morning/afternoon/all or specific time ranges). See [[https://www.worldtimebuddy.com/?pl=1&lid=5128581,5391959,2988507,2643743,1850147,2158177,293397&h=5128581&date=4/1/2025%7C3&hf=1|Time Converter]]
 
+Alphabetize by first name.
+
 ^ Name ^ Timezone ^ EDT Availability ^ Other Notes ^
+| Andreu Botella | CEST | Prefer AM and early PM | |
 | Bramus | CEST | AM (+ PM if need be) |  |
+| Cassondra Roberts | EST | Flexible | |
 | Daniel Holbert | PDT | PM |  |
 | David Baron | [[https://www.openstreetmap.org/relation/6496417|America/New_York]] | All | possible difficulty making 9am start promptly |
-| Miriam Suzanne | MT | after 2pm Tues, anytime Wed | Not available Thurs |
-| Stephen Chenney | EDT | All | Unavailable some PM periods |
-| Noam Rosenthal | GMT | Prefer AM | Unavailable Thu PM |
-| Yehonatan Daniv | GMT+3 | AM - PM as needed | 
-| Oriol Brufau | CEST (UTC+2) | | 
-| Cassondra Roberts | EST | Flexible | |
-| Eric Meyer | US/Eastern | All | |
-| Simon Fraser | US/Pacific | Some | |
 | Emilio | CEST (UTC+2) | Flexible | (Might be able to attend in person, but not sure yet unfortunately) |
-| Andreu Botella | CEST | Prefer AM and early PM | |
-| Roman Komarov | CEST (UTC+2) | Flexible | |
+| Eric Meyer | US/Eastern | All | |
 | Ethan Jimenez | PDT | PM | |
+| Miriam Suzanne | MT | after 2pm Tues, anytime Wed | Not available Thurs |
+| Noam Rosenthal | GMT | Prefer AM | Unavailable Thu PM |
+| Oriol Brufau | CEST (UTC+2) | | 
+| Roman Komarov | CEST (UTC+2) | Flexible | |
+| Simon Fraser | US/Pacific | Some | |
+| Stephen Chenney | EDT | All | Unavailable some PM periods |
+| Yehonatan Daniv | GMT+3 | AM - PM as needed | 
 
 ==== Regrets ====
 
