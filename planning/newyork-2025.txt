@@ -65,7 +65,7 @@ Please list your availability in New York time (morning/afternoon/all or specifi
 Alphabetize by first name.
 
 ^ Name ^ Timezone ^ EDT Availability ^ Other Notes ^
-| Andreu Botella | CEST | Prefer AM and early PM. Not available on the first 3 hours of the morning on Tue and Thu. | |
+| Andreu Botella | CEST | Prefer AM and early PM. | Not available in the AM on Tue and Thu. |
 | Bramus | CEST | AM (+ PM if need be) |  |
 | Cassondra Roberts | EST | Flexible | |
 | Daniel Holbert | PDT | PM |  |
