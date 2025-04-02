@@ -80,6 +80,7 @@ Alphabetize by first name.
 | Miriam Suzanne | MT | after 2pm Tues, anytime Wed | Not available Thurs |
 | Noam Rosenthal | GMT | Prefer AM | Unavailable Thu PM |
 | Oriol Brufau | CEST (UTC+2) | All | 
+| Rob Flack | EDT | All | |
 | Roman Komarov | CEST (UTC+2) | Flexible | |
 | Simon Fraser | US/Pacific | Some | |
 | Stephen Chenney | EDT | All | Unavailable some PM periods |
