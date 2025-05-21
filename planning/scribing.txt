@@ -4,14 +4,18 @@ Minutes must be taken for every CSS Working Group call. At the beginning of each
 
 ===== How To Scribe =====
 
+[todo: general details on what to write, link to how to get on W3C IRC server]
+
 See [[tools:scribing-conventions|Scribing Conventions]]
 
 
 ===== Scribe Rota =====
 
-[todo: how the scribe rota works]
+<note>The Scribe Rota is a proposal. Please join in on the email thread if you'd like to make a suggestion.</note>
 
-The following people are signed up to the scribe rota.
+[todo: how the scribe rota works. when person on rota is talking, next person on rota becomes scribe for the scribe. how to opt out because absence or feeling tired. do we rotate through the list or choose at random?]
+
+The following people are signed up to the scribe rota. We are always looking for new scribes, so if you're willing to scribe, please add your name. If you no longer wish to do it, you can remove your name from the list at any time.
 
 (Alphabetical by IRC nickname)
 
@@ -28,7 +32,7 @@ Some people are willing to scribe but are unable to commit to being on the scrib
 
 [todo: when do we call on the ad-hoc scribes?]
 
-The following people are signed up to be ad-hoc scribes.
+The following people are signed up to be ad-hoc scribes. We are always looking for new scribes, so if you're willing to scribe, please add your name. If you no longer wish to do it, you can remove your name from the list at any time.
 
 (Alphabetical by IRC nickname)
 
