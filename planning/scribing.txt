@@ -1,0 +1,35 @@
+====== Scribing For Meetings ======
+
+Minutes must be taken for every CSS Working Group call. At the beginning of each call, the chair chooses a scribe.
+
+===== How To Scribe =====
+
+[todo]
+
+
+===== Scribe Rota =====
+
+[todo: how the scribe rota works]
+
+The following people are signed up to the scribe rota.
+
+(Alphabetical by IRC nickname)
+
+  * emilio
+  * fantasai
+  * JoshT (Josh Tumath)
+  * kbabbitt
+  * TabAtkins
+  * ydaniv
+
+==== Ad-Hoc Scribes ====
+
+Some people are willing to scribe but are unable to commit to being on the scribe rota.
+
+[todo: when do we call on the ad-hoc scribes?]
+
+The following people are signed up to be ad-hoc scribes.
+
+(Alphabetical by IRC nickname)
+
+  * insert IRC nick here
