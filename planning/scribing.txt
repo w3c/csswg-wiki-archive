@@ -57,20 +57,28 @@ For more info, see [[tools:scribing-conventions|Scribing Conventions]] and the b
 
 ===== Scribe Rota =====
 
-<note>The Scribe Rota is a proposal. Please join in on the email thread if you'd like to make a suggestion.</note>
+<note>This Scribe Rota is a proposal that we are currently trialling. If you have feedback, please reply to the email thread about it on the w3c-css-wg mailing list. See the [[https://lists.w3.org/Archives/Public/www-style/2025May/0016.html|2025-05-21 telecon minutes]] for the original discussion about it.</note>
 
-[todo: how the scribe rota works. when person on rota is talking, next person on rota becomes scribe for the scribe. how to opt out because absence or feeling tired. do we rotate through the list or choose at random?]
+The scribe rota is a list of CSSWG members who are willing to be the main scribe for calls. Each week, we rotate to the next person in the list. When the meeting agenda is sent out, it will include the next three people on the rota.
+
+<note>**Issue:** We discussed using a semi-random selection to select the next scribe. Do we want to try that instead? If so, how would we do that?</note>
+
+If someone on the scribe rota is due to scribe next but they send regrets or don't want to scribe for that meeting, they can ask to postpone their turn and swap with the next person on the rota.
+
+<note>If you do wish to postpone your turn to scribe, try to give advanced notice - if you can - by replying to the agenda email, so that we can let the next person on the rota know. However, it's OK to say at the start of the call, and we can ask an ad-hoc scribe to replace you instead.</note>
+
+If the scribe wants to speak during the meeting, they can ask if the someone else on the scribe rota or ad-hoc scribe list is able to.
 
 The following people are signed up to the scribe rota. We are always looking for new scribes, so if you're willing to scribe, please add your name. If you no longer wish to do it, you can remove your name from the list at any time.
 
 (Alphabetical by IRC nickname)
 
-  * emilio
-  * fantasai
-  * JoshT (Josh Tumath)
-  * kbabbitt
-  * TabAtkins
-  * ydaniv
+  - emilio
+  - fantasai
+  - JoshT (Josh Tumath)
+  - kbabbitt
+  - TabAtkins
+  - ydaniv
 
 ==== Ad-Hoc Scribes ====
 
