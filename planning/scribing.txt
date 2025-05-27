@@ -16,17 +16,19 @@ Before you can scribe, you need to declare it. If you are the main scribe for th
 
 If you are an additional scribe, use this command:
 
-  Scribe+ your_irc_nickname_here
+  Scribe+
 
 Once the meeting starts, each discussion needs to go in a topic. When about to discuss a topic that is //not// on GitHub, use this command. You can get the topic name from the agenda.
 
   Topic: Topic name here
 
-Most topics will relate to a GitHub issue. When we are about to discuss a GitHub issue, use this command. You can copy the issue URL from the agenda. This will also set the topic to the title of the issue.
+For topics on GitHub, you can ask github-bot to set the topic and post the minutes to the issue like this:
 
-  github-bot, take up https://github.com/w3c/csswg-drafts/issues/123456
+  github-bot, topic https://github.com/w3c/csswg-drafts/issues/123456
 
-Starting a new topic also ends the previous topic. When you end a GitHub topic, the minutes automatically get posted by the GitHub bot to a comment in the issue.
+You can end a topic by either starting a new topic, or telling github-bot to ''end topic''. This will tell github-bot to post the minutes to a comment in the issue.
+
+You can also use "Subtopic" instead of "Topic" for subtopics, to create a hierarchy when there are related topics. It otherwise has the same effect as "Topic".
 
 Once you've set the topic, people can start discussing it. To record what people are saying, use their IRC nickname like so. You don't need to write every word; just a summary of what they are saying.
 
@@ -48,9 +50,9 @@ When everyone agrees a resolution on a topic, use this command to record it. The
 
 <note tip>If the resolution sounds complicated, it's OK to ask someone else to write the resolution for you.</note>
 
-Once you finish discussing the last topic and the meeting is ending, use this command:
+Sometimes the chair forgets to call for a resolution before switching topics even though there seems to be agreement... this is a good opportunity to ask them if there is a resolution to record for the minutes. :) Sometimes they forget.
 
-  github-bot, end topic
+Don't forget to tend the last topic at the end of the meeting.
 
 For more info, see [[tools:scribing-conventions|Scribing Conventions]] and the blog post [[https://www.bocoup.com/blog/how-to-scribe-at-tpac|How to scribe at TPAC]].
 
