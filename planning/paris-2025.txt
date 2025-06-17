@@ -62,9 +62,10 @@ Please list your availability in Paris time (morning/afternoon/all or specific t
 Alphabetize by first name.
 
 ^ Name ^ Timezone ^ CEST Availability ^ Other Notes ^
-| David Baron | [[https://www.openstreetmap.org/relation/6496417|America/New_York]] | 3pm-ish until 5pm, some availability earlier too (particularly 9am-noon) | might be regrets instead |
+| ? | ? | ? | ? |
 
 ==== Regrets ====
 
 ^ Name ^
+| David Baron, Google |
 | Josh Tumath, BBC |
