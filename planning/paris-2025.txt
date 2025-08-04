@@ -77,7 +77,7 @@ Alphabetize by first name.
 ^ Name ^ Timezone ^ CEST Availability ^ Other Notes ^
 | Rune Lillesveen | CEST | All | |
 | Stephen Chenney | US-NYC | 14:00 - ... | |
-| Rachel Andrew | GMT+! | All (some conflicting PM meetings) | |
+| Rachel Andrew | GMT+1 | All (some conflicting PM meetings) | |
 
 ==== Regrets ====
 
