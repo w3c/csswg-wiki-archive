@@ -79,12 +79,14 @@ Please list your availability in Paris time (morning/afternoon/all or specific t
 Alphabetize by first name.
 
 ^ Name ^ Timezone ^ CEST Availability ^ Other Notes ^
-| Rune Lillesveen | CEST | All | |
-| Stephen Chenney | US-NYC | 14:00 - ... | |
+| Cassondra Roberts | US-EST | Flexible | |
+| Divyansh Mangal | IST | 11am-5pm | |
+| Miriam Suzanne | US-MT | 9-10 or 15-17 | |
 | Rachel Andrew | GMT+1 | All (some conflicting PM meetings) | |
 | Rob Flack | EST | 14:00 - ... | |
-| Miriam Suzanne | US-MT | 9-10 or 15-17 | |
-| Cassondra Roberts | US-EST | Flexible | |
+| Rune Lillesveen | CEST | All | |
+| Stephen Chenney | US-NYC | 14:00 - ... | |
+
 ==== Regrets ====
 
 ^ Name ^
