@@ -82,6 +82,7 @@ Alphabetize by first name.
 ^ Name ^ Timezone ^ CEST Availability ^ Other Notes ^
 | Bramus | CEST | All | |
 | Cassondra Roberts | US-EST | Flexible | |
+| Celeste Pan | US-PST | 09:00-11:00 or 15:00-17:00 | For Masonry issues |
 | Divyansh Mangal | IST | 11:00-17:00 | For Issue #12376 related to CSS units on <svg> elements |
 | Miriam Suzanne | US-MT | 9-10 or 15-17 | |
 | Rachel Andrew | GMT+1 | All (some conflicting PM meetings) | |
