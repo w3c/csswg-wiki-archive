@@ -83,7 +83,8 @@ Alphabetize by first name.
 | Bramus | CEST | All | |
 | Cassondra Roberts | US-EST | Flexible | |
 | Celeste Pan | US-PST | 09:00-11:00 or 15:00-17:00 | For Masonry issues |
-| Divyansh Mangal | IST | 11:00-17:00 | For Issue #12376 related to CSS units on <svg> elements |
+| Divyansh Mangal | IST | 11:00-17:00 | For Issue #12376 related to CSS units on <svg> elements 
+| Daniel Holbert | US-PDT | 14:00-17:00 | |
 | Miriam Suzanne | US-MT | 9-10 or 15-17 | |
 | Rachel Andrew | GMT+1 | All (some conflicting PM meetings) | |
 | Ragvesh Sharma | IST | 11:00-17:00 | For Issue #12376 related to CSS units on <svg> elements |
