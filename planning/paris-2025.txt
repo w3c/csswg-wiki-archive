@@ -35,8 +35,9 @@ Hosted Dinner:
 
 Agenda planning: 
 
-* CSSWG Explainers Workshop (20min)
-* GIF animation
+  * CSSWG Explainers Workshop (20min)
+  * GIF animation
+  * CSS Parser Extensions (20min)
 
 ===== Minutes =====
 
