@@ -81,7 +81,7 @@ Please list your availability in Paris time (morning/afternoon/all or specific t
 Alphabetize by first name.
 
 ^ Name ^ Timezone ^ CEST Availability ^ Other Notes ^
-| Bramus | CEST | All | |
+| Bramus | CEST | 09:00—16:30 | |
 | Cassondra Roberts | US-EST | Flexible | |
 | Celeste Pan | US-PST | 09:00-11:00 or 15:00-17:00 | For Masonry issues |
 | Divyansh Mangal | IST | 11:00-17:00 | For Issue #12376 related to CSS units on <svg> elements 
