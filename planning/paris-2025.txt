@@ -87,6 +87,7 @@ Alphabetize by first name.
 | Divyansh Mangal | IST | 11:00-17:00 | For Issue #12376 related to CSS units on <svg> elements |
 | Daniel Holbert | US-PDT | 15:00-17:00 (or as early as 14:00 depending on topic) | |
 | Ian Kilpatrick | US-PDT | 15:00-17:00 (or as early as 14:00 depending on topic) | |
+| Josh Tumath | GMT+1 | Tuesday morning, Wednesday afternoon | For Masonry and Gap Decorations issues |
 | Miriam Suzanne | US-MT | 9-10 or 15-17 | |
 | Rachel Andrew | GMT+1 | All (some conflicting PM meetings) | |
 | Ragvesh Sharma | IST | 11:00-17:00 | For Issue #12376 related to CSS units on <svg> elements |
