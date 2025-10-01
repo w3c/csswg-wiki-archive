@@ -77,13 +77,13 @@ If the scribe wants to speak during the meeting, they can ask if the someone els
 
 The following people are signed up to the scribe rota. We are always looking for new scribes, so if you're willing to scribe, please add your name. If you no longer wish to do it, you can remove your name from the list at any time.
 
-  - ydaniv
+
   - emilio
   - JoshT
-  - kbabbitt
   - fantasai
   - TabAtkins
-
+  - ydaniv
+  - kbabbitt
 ==== Ad-Hoc Scribes ====
 
 Some people would like to help with scribing, but are unable to commit to being on the scribe rota. Those people can sign up to be ad-hoc scribes.
