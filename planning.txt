@@ -19,10 +19,12 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 ==== 2025 ====
 
-  * 2025-08-19..21 [[planning:paris-2025|August FTF]] in Paris (Google)
   * 2025-11-?? probably meeting for some days during [[https://www.w3.org/events/tpac/2025/tpac-2025/|TPAC 2025]] (2025-11-10..2025-11-14), Kobe, Japan
 
 ==== 2026 ====
+  * January/February/March-ish SF Bay Area (Apple) (tentative)
+  * April/May/June-ish either Redmond (Microsoft) or Berlin (Mozilla) (tentative)
+  * July/August/September-ish either Redmond (Microsoft) or Berlin (Mozilla) (tentative)
   * 2026-10-?? probably meeting for some days during [[https://www.w3.org/events/tpac/2026/tpac-2026/|TPAC 2026]] (2026-10-26..2026-10-30), Dublin, Ireland
 ==== Misc ====
 
@@ -36,6 +38,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 ==== 2025 ====
 
+  * 2025-08-19..21 [[planning:paris-2025|August FTF]] in Paris (Google)
   * 2025-04-01..03 [[planning:newyork-2025|April FTF]] in New York City (Microsoft)
   * 2025-01-29..31 [[planning:cupertino-2025|January F2F]], Cupertino, California (Apple)
 
