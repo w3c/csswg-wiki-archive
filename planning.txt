@@ -19,7 +19,7 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 
 ==== 2025 ====
 
-  * 2025-11-?? probably meeting for some days during [[https://www.w3.org/events/tpac/2025/tpac-2025/|TPAC 2025]] (2025-11-10..2025-11-14), Kobe, Japan
+  * 2025-11-13..14 [[planning:tpac-2025|TPAC 2025]] (2025-11-10..2025-11-14), Kobe, Japan
 
 ==== 2026 ====
   * 2026-01-27..29 [[planning:cupertino-2026|January F2F]], Cupertino, California (Apple)
