@@ -3,7 +3,7 @@
    * Host: Apple
    * Dial-in: TBD
    * Location: 10351 Bubb Rd, Cupertino, CA
-   * Weather Forecast: [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.335&lon=-122.009&unit=1&mp=1|⁰C]] or [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.335&lon=-122.009&unit=0&mp=1|⁰F]], Current Weather Conditions: [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG&unit=1|⁰C]] or [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG|⁰F]]
+   * Weather Forecast: [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.318&lon=-122.050&unit=1&mp=1|⁰C]] or [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.318&lon=-122.050&unit=0&mp=1|⁰F]], Current Weather Conditions: [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG&unit=1|⁰C]] or [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG|⁰F]]
    * Dates: Tuesday 27 January - Thursday 29 January 2026
    * Times: ??
      * Morning break: ~10:30am
