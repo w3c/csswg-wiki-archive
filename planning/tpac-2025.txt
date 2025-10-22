@@ -29,8 +29,8 @@ TBD
 
 ==== Remote ====
 
-| **Name** | **Affiliation** | **Timezone** | **PDT (UTC-7) Availability** | **Other Notes** |
-| | | | | |
+| **Name** | **Affiliation** | **Timezone** | **JST (UTC+9) Availability** | **Other Notes** |
+| David Baron | Google | [https://www.openstreetmap.org/relation/6496417|America/New_York]] | 10:30 JST (20:30 for me) until lunch or sometime early afternoon | |
 
 ==== Regrets ====
 
