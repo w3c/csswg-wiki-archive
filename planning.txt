@@ -18,9 +18,9 @@ All meetings use IRC for live minuting and as a backchannel: the #css channel on
 ===== Upcoming Meetings =====
 
 ==== 2026 ====
-  * 2026-01-27..29 [[planning:cupertino-2026|January F2F]], Cupertino, California (Apple)
-  * April/May/June-ish either Redmond (Microsoft) or Berlin (Mozilla) (tentative)
-  * July/August/September-ish either Redmond (Microsoft) or Berlin (Mozilla) (tentative)
+  * 2026-01-27..29 [[planning:cupertino-2026|January F2F]], Cupertino, California, USA (Apple)
+  * April/May/June-ish, probably Redmond, Washington, USA (Microsoft) (tentative)
+  * July/August/September-ish probably Berlin, Germany (Mozilla) (tentative)
   * 2026-10-?? probably meeting for some days during [[https://www.w3.org/events/tpac/2026/tpac-2026/|TPAC 2026]] (2026-10-26..2026-10-30), Dublin, Ireland
 ==== Misc ====
 
