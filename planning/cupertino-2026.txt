@@ -5,9 +5,10 @@
    * Location: 10351 Bubb Rd, Cupertino, CA
    * Weather Forecast: [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.318&lon=-122.049&unit=1&mp=1|⁰C]] or [[http://forecast.weather.gov/MapClick.php?smap=1&lat=37.318&lon=-122.049&unit=0&mp=1|⁰F]], Current Weather Conditions: [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG&unit=1|⁰C]] or [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG|⁰F]]
    * Dates: Tuesday 27 January - Thursday 29 January 2026
-   * Times: ??
-     * Morning break: ~10:30am
-     * Lunch break: noon
+   * Times: 8am - 4pm
+     * Breakfast: 7:30am - 8am
+     * Morning break: ~10am
+     * Lunch break: 11:45 - 1pm
      * Afternoon break: ~2:30pm
    * Airports:
        * SJC - San Jose Airport (20km drive, **closest**, be careful to use correct airport code)
