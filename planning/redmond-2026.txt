@@ -3,7 +3,7 @@
    * Host: Microsoft
    * Dial-in: TBD
    * Location: Microsoft Building 122, 15120 NE 40th St, Redmond, WA 98052
-   * Weather Forecast: [[http://forecast.weather.gov/MapClick.php?smap=1&lat=47.6749&lon=-122.124&unit=1&mp=1|⁰C]] or [[http://forecast.weather.gov/MapClick.php?smap=1&lat=47.6749&lon=-122.124&unit=0&mp=1|⁰F]], Current Weather Conditions: [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KBFI&unit=1|⁰C]] or [[https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KBFI&unit=0|⁰F]]
+   * Weather Forecast: [[http://forecast.weather.gov/MapClick.php?smap=1&lat=47.6749&lon=-122.124&unit=1&mp=1|⁰C]] or [[http://forecast.weather.gov/MapClick.php?smap=1&lat=47.6749&lon=-122.124&unit=0&mp=1|⁰F]], [[https://viewer.synopticdata.com/map/data/now/air-temperature/WXM2697/plots/temperature|Current Weather Conditions]]
    * Dates: Tuesday 31 March - Thursday 02 April 2026
    * Times: Room available 8:00am-6:00pm, meeting 9:00am-5:00pm
      * Morning break: ~10:30am
