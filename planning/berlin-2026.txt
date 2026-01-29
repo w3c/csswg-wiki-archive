@@ -23,8 +23,6 @@
 
 ===== Agenda =====
 
-**[[https://github.com/orgs/w3c/projects/221|See Agenda Planning Project]]**
-
 Flag issues with [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Agenda%2B%20F2F%22|Agenda+ F2F]] or [[https://lists.w3.org/Archives/Member/w3c-css-wg/|email the list with requests]].
 ===== Attendees =====
 
