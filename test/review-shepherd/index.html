@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Review Process Using Shepherd - CSS Working Group Wiki (Archive)</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
+  color: #1f2328; background: #fff;
+}
+.archive-banner {
+  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
+  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
+}
+.archive-banner strong { color: #6e5600; }
+header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
+header h1 { margin: 0; font-size: 1.25em; }
+header h1 a { color: #0366d6; text-decoration: none; }
+header h1 a:hover { text-decoration: underline; }
+nav { margin-top: 0.5em; font-size: 0.9em; }
+nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
+nav a:hover { color: #0366d6; }
+h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
+h1:first-child { margin-top: 0; }
+a { color: #0366d6; }
+code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
+pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
+th { background: #f6f8fa; }
+img { max-width: 100%; }
+.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
+.breadcrumb a { color: #656d76; }
+ul, ol { padding-left: 1.5em; }
+li { margin: 0.25em 0; }
+.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
+abbr { text-decoration: underline dotted; cursor: help; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0d1117; color: #e6edf3; }
+  .archive-banner { background: #3d2e00; border-color: #6e5600; }
+  .archive-banner strong { color: #f0c000; }
+  header { border-bottom-color: #30363d; }
+  header h1 a { color: #58a6ff; }
+  nav a { color: #8b949e; }
+  nav a:hover { color: #58a6ff; }
+  h1, h2, h3, h4 { color: #e6edf3; }
+  a { color: #58a6ff; }
+  code, pre { background: #161b22; }
+  th, td { border-color: #30363d; }
+  th { background: #161b22; }
+  .breadcrumb, .breadcrumb a { color: #8b949e; }
+  .plugin_note { background: #161b22; border-color: #58a6ff; }
+}
+</style>
+</head>
+<body>
+<div class="archive-banner">
+<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
+The original wiki was hosted at wiki.csswg.org.
+</div>
+<header>
+<h1><a href="/">CSS Working Group Wiki</a></h1>
+<nav>
+<a href="/">Home</a>
+<a href="/spec/">Specs</a>
+<a href="/ideas/">Ideas</a>
+<a href="/test/">Testing</a>
+<a href="/wiki/">About</a>
+</nav>
+</header>
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/test/">test</a> / review-shepherd</div>
+<main>
+<!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><a href="#review-process-using-shepherd">Review Process Using Shepherd</a><ul class="toc">
+<li class="clear">
+<ul class="toc">
+<li class="level3"><a href="#process-for-new-tests">Process for New Tests</a></li>
+<li class="level3"><a href="#process-for-previously-approved-tests">Process for Previously Approved Tests</a></li>
+<li class="level3"><a href="#whiteboard-usage-in-shepherd">Whiteboard Usage in Shepherd</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<p>
+<em> <img src="/lib/images/smileys/exclaim.svg" class="icon smiley" alt=":!:" /> This page is in progress. It was adapted from the <a href="/test/review/" title="test:review">CSS 2.1 Review Process</a> and is being updated to acknowledge new infrastructure, resources, and policies. It has links to several documents on the new <a href="https://github.com/w3c/testtwf-website/tree/gh-pages/docs" title="https://github.com/w3c/testtwf-website/tree/gh-pages/docs" rel="noopener">Test Resource Center</a>, which is targeted to go live by mid-August 2013. The links temporarily point to the source files on Github and are labeled here with <img src="/lib/images/smileys/fixme.svg" class="icon smiley" alt="FIXME" /> and will be updated with the TRC goes live.</em>
+</p>
+
+<p>
+— <em><a href="/people/rhauck/" title="people:rhauck" rel="nofollow">Rebecca Hauck</a> 2013/07/31 13:04</em>
+</p>
+
+<h1 id="review-process-using-shepherd">Review Process Using Shepherd</h1>
+<p>
+This page describes the test submission and review process using <a href="http://test.csswg.org/shepherd" title="http://test.csswg.org/shepherd" rel="noopener">Shepherd</a>, <a href="http://hg.csswg.org/test" title="http://hg.csswg.org/test" rel="noopener">Mercurial</a>, and the <a href="http://lists.w3.org/Archives/Public/public-css-testsuite" title="http://lists.w3.org/Archives/Public/public-css-testsuite" rel="noopener">mailing list</a>. An alternative process using Github is documented on the <a href="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-process.md" title="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-process.md" rel="noopener">W3C Test Resource Center</a>. <img src="/lib/images/smileys/fixme.svg" class="icon smiley" alt="FIXME" />
+</p>
+
+<p>
+Whether using this process or Github, test authors and reviewers must adhere to the <a href="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-process.md" title="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-process.md" rel="noopener"> W3C Test Review Policy</a>. <img src="/lib/images/smileys/fixme.svg" class="icon smiley" alt="FIXME" />
+</p>
+
+<p>
+The general process looks like this:
+</p>
+
+<p>
+<a href="/_detail/test/review-flowchart-v2.png?id=test%3Areview-shepherd" class="media" title="test:review-flowchart-v2.png"><img src="/_media/test/review-flowchart-v2.png" class="media" loading="lazy" alt="" /></a>
+</p><h3 id="process-for-new-tests">Process for New Tests</h3>
+<ol>
+<li class="level1">Pre-condition: Test authors and reviewers must be set up with Mercurial access. See the <a href="/tools/hg/" title="tools:hg">Quick Guide to Mercurial</a>, including the section on  <a href="/tools/hg#obtaining-write-access" title="tools:hg">obtaining write access</a>.</li>
+<li class="level1">When a test author is ready for tests to be reviewed, s/he must push them to the repository in a directory named <code>submitted</code>. The tests will then be present in Shepherd as <a href="http://test.csswg.org/shepherd/search/status/submitted" title="http://test.csswg.org/shepherd/search/status/submitted" rel="noopener">Submitted for Review</a>.</li>
+<li class="level1">The test author should then ask for a review on the <a href="mailto:&#112;&#117;&#98;&#108;&#105;&#99;&#45;&#99;&#115;&#115;&#45;&#116;&#101;&#115;&#116;&#115;&#117;&#105;&#116;&#101;&#64;&#119;&#51;&#46;&#111;&#114;&#103;" class="mail" title="&#112;&#117;&#98;&#108;&#105;&#99;&#45;&#99;&#115;&#115;&#45;&#116;&#101;&#115;&#116;&#115;&#117;&#105;&#116;&#101;&#64;&#119;&#51;&#46;&#111;&#114;&#103;">&#112;&#117;&#98;&#108;&#105;&#99;&#45;&#99;&#115;&#115;&#45;&#116;&#101;&#115;&#116;&#115;&#117;&#105;&#116;&#101;&#64;&#119;&#51;&#46;&#111;&#114;&#103;</a> mailing list.</li>
+<li class="level1">When a reviewer comes forward, s/he should examine the tests for correctness with respect to the <a href="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-format-guidelines.md" title="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-format-guidelines.md" rel="noopener">format</a> <img src="/lib/images/smileys/fixme.svg" class="icon smiley" alt="FIXME" /> and <a href="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-style-guidelines.md" title="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-style-guidelines.md" rel="noopener">style</a> <img src="/lib/images/smileys/fixme.svg" class="icon smiley" alt="FIXME" /> guidelines. A <a href="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-checklist.md" title="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/review-checklist.md" rel="noopener">short checklist</a> <img src="/lib/images/smileys/fixme.svg" class="icon smiley" alt="FIXME" /> is available to assist the reviewer and a more detailed <a href="/test/css2.1/review-checklist" title="test:css2.1:review-checklist">CSS-specific checklist</a> is also available.</li>
+<li class="level1 node">The reviewer should then notify the mailing list of the test review. It is not necessary to include all of the review feedback in the mail, just a link to the test suite in Shepherd.<ol>
+<li class="level2"><strong>If the test passes review:</strong> Go to the next step.</li>
+<li class="level2 node"><strong>If a test does not pass review:</strong><ol>
+<li class="level4">Its status should be set to <a href="http://test.csswg.org/shepherd/search/status/issue" title="http://test.csswg.org/shepherd/search/status/issue" rel="noopener">Needs Work</a> in Shepherd</li>
+<li class="level4">Optionally, the reviewer may use the Whiteboard field to tag the reason why the test doesn&#039;t pass review. See examples below on how to use this field.</li>
+<li class="level4">The reviewer must provide feedback to the submitter in the comment fields in Shepherd, including what is wrong with the test and what steps should be taken to correct any problems.</li>
+<li class="level4">Alternatively, if the changes requested are minor and don&#039;t significantly alter the original design of the test (i.e., metadata only changes), the reviewer may make the changes and get approval of those changes from the submitter.</li>
+<li class="level4">The tests should then be updated to incorporate the reviewers feedback and be re-submitted Mercurial. Ideally, the original test author does this but it may done be any other qualified person. Upon re-submission, the test status in Shepherd will change to <a href="http://test.csswg.org/shepherd/search/status/resubmitted" title="http://test.csswg.org/shepherd/search/status/resubmitted" rel="noopener">Resubmitted for Review</a></li>
+<li class="level4">When the updated tests are submitted, another notification should be sent to the mailing list asking for review.</li>
+<li class="level4">A reviewer looks at the changes and decides if they satisfy the original review feedback. Likewise, ideally this is original reviewer, but may also be any other qualified person.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li class="level1">Once the test/changes has pass review, the reviewer should <a href="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-templates.md#reviewer" title="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-templates.md#reviewer" rel="noopener"> note their acceptance in the test</a> <img src="/lib/images/smileys/fixme.svg" class="icon smiley" alt="FIXME" /> and re-submit the files to Mercurial. The commit message should indicate the test passed review and will be attached to the test in Shepherd.  The test status in Shepherd will then change to <a href="http://test.csswg.org/shepherd/search/status/accepted" title="http://test.csswg.org/shepherd/search/status/accepted" rel="noopener">Accepted</a></li>
+<li class="level1">The <a href="https://test.csswg.org/shepherd/administration/testsuite/search/status/approved" title="https://test.csswg.org/shepherd/administration/testsuite/search/status/approved" rel="noopener">Owner</a> <img src="/lib/images/smileys/fixme.svg" class="icon smiley" alt="FIXME" />: <em>[This link should be exposed to all roles in Shepherd. Right now, only admins can see it]</em> of that suite can either approve the reviewer&#039;s judgement if the reviewer is known to be competent in this area, or review the test himself. Once the Owner is satisfied the test can be set to <a href="http://test.csswg.org/shepherd/search/status/approved" title="http://test.csswg.org/shepherd/search/status/approved" rel="noopener">Approved</a> in Shepherd. (If the initial reviewer was an Owner then this step is automatic).</li>
+</ol><h3 id="process-for-previously-approved-tests">Process for Previously Approved Tests</h3>
+<p>
+In some cases, tests that have been approved in the past are revisited and identified to have issues. When this occurs, this is also considered a review for which the process begins at Step 5 above.
+</p><h3 id="whiteboard-usage-in-shepherd">Whiteboard Usage in Shepherd</h3>
+<p>
+The whiteboard field in Shepherd is exposed by clicking the “more” link in the Search box at the top of the page. It is intended to be a free-form field to include any extra metadata to a test that is not already supported officially by Shepherd as a <a href="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-templates.md#requirement-flags" title="https://github.com/w3c/testtwf-website/blob/gh-pages/docs/test-templates.md#requirement-flags" rel="noopener">flag</a> <img src="/lib/images/smileys/fixme.svg" class="icon smiley" alt="FIXME" /> or a field in Shepherd.  It is sometimes used to classify the type of issue that may cause a test to have a Needs Work status.  
+</p>
+
+<p>
+Currently, there are two such classifications:
+</p>
+<ul>
+<li class="level1"><a href="http://test.csswg.org/shepherd/search/spec/css21/status/issue/whiteboard/Metadata" title="http://test.csswg.org/shepherd/search/spec/css21/status/issue/whiteboard/Metadata" rel="noopener">Metadata</a>: For tests requiring only a metadata change</li>
+<li class="level2"><a href="http://test.csswg.org/shepherd/search/spec/css21/status/issue/whiteboard/Precision" title="http://test.csswg.org/shepherd/search/spec/css21/status/issue/whiteboard/Precision" rel="noopener">Precision</a>: For tests that are correct in some cases, but aren&#039;t precise enough to be correct in all cases</li>
+<li class="level2"><a href="http://test.csswg.org/shepherd/search/spec/css21/status/issue/whiteboard/Incorrect" title="http://test.csswg.org/shepherd/search/spec/css21/status/issue/whiteboard/Incorrect" rel="noopener">Incorrect</a>: For tests that are incorrectly designed</li>
+</ul>
+</main>
+</body>
+</html>

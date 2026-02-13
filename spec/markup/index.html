@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSSWG Spec Markup - CSS Working Group Wiki (Archive)</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
+  color: #1f2328; background: #fff;
+}
+.archive-banner {
+  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
+  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
+}
+.archive-banner strong { color: #6e5600; }
+header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
+header h1 { margin: 0; font-size: 1.25em; }
+header h1 a { color: #0366d6; text-decoration: none; }
+header h1 a:hover { text-decoration: underline; }
+nav { margin-top: 0.5em; font-size: 0.9em; }
+nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
+nav a:hover { color: #0366d6; }
+h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
+h1:first-child { margin-top: 0; }
+a { color: #0366d6; }
+code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
+pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
+th { background: #f6f8fa; }
+img { max-width: 100%; }
+.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
+.breadcrumb a { color: #656d76; }
+ul, ol { padding-left: 1.5em; }
+li { margin: 0.25em 0; }
+.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
+abbr { text-decoration: underline dotted; cursor: help; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0d1117; color: #e6edf3; }
+  .archive-banner { background: #3d2e00; border-color: #6e5600; }
+  .archive-banner strong { color: #f0c000; }
+  header { border-bottom-color: #30363d; }
+  header h1 a { color: #58a6ff; }
+  nav a { color: #8b949e; }
+  nav a:hover { color: #58a6ff; }
+  h1, h2, h3, h4 { color: #e6edf3; }
+  a { color: #58a6ff; }
+  code, pre { background: #161b22; }
+  th, td { border-color: #30363d; }
+  th { background: #161b22; }
+  .breadcrumb, .breadcrumb a { color: #8b949e; }
+  .plugin_note { background: #161b22; border-color: #58a6ff; }
+}
+</style>
+</head>
+<body>
+<div class="archive-banner">
+<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
+The original wiki was hosted at wiki.csswg.org.
+</div>
+<header>
+<h1><a href="/">CSS Working Group Wiki</a></h1>
+<nav>
+<a href="/">Home</a>
+<a href="/spec/">Specs</a>
+<a href="/ideas/">Ideas</a>
+<a href="/test/">Testing</a>
+<a href="/wiki/">About</a>
+</nav>
+</header>
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/spec/">spec</a> / markup</div>
+<main>
+<!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><a href="#csswg-spec-markup">CSSWG Spec Markup</a><ul class="toc">
+<li class="level2"><a href="#stage-1margins-spacing-and-lists">Stage 1: Margins, Spacing, and Lists</a></li>
+<li class="level2"><a href="#stage-2inline-styling">Stage 2: Inline Styling</a></li>
+<li class="level2"><a href="#stage-3tables">Stage 3: Tables</a></li>
+<li class="level2"><a href="#stage-4notes-issues-examples-and-other-boxen">Stage 4: Notes, Issues, Examples, and other Boxen</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 id="csswg-spec-markup">CSSWG Spec Markup</h1>
+<p>
+This page will eventually document the CSSWG&#039;s <abbr title="specification">spec</abbr> markup and serve as a manual. Currently it is serving as a scratchspace.
+</p>
+
+<p>
+The style sheet that implements most of our special markup has a <a href="http://dev.w3.org/csswg/default.css" title="http://dev.w3.org/csswg/default.css" rel="noopener">master</a> on dev.w3.org.
+</p>
+<div class="plugin_note noteclassic">Note that the CSSWG also uses a post-processor that generates section numbers, cross-references, indices, etc. Such macros are not documented here, but may be documented in a <a href="/spec/macros/" title="spec:macros" rel="nofollow">separate document</a>.
+
+</div><h2 id="stage-1margins-spacing-and-lists">Stage 1: Margins, Spacing, and Lists</h2>
+<p>
+The <abbr title="Cascading Style Sheets">CSS</abbr> specs use lists in a variety of ways:
+</p>
+<ul>
+<li class="level1">as logically belonging to a paragraph (sometimes as a continuation of the last sentence in the previous paragraph, which may or may not continue in the next paragraph). (<a href="http://dev.w3.org/csswg/css3-text/#character-alignment" title="http://dev.w3.org/csswg/css3-text/#character-alignment" rel="noopener">example</a>)</li>
+<li class="level1">as a paragraph-level structure (<a href="http://www.w3.org/TR/css3-background/#the-box-shadow" title="http://www.w3.org/TR/css3-background/#the-box-shadow" rel="noopener">example</a>). This is the most common.</li>
+<li class="level1">as a higher-level structure that contains paragraphs. (<a href="http://www.w3.org/TR/css3-background/#border-image-process" title="http://www.w3.org/TR/css3-background/#border-image-process" rel="noopener">example</a>, <a href="http://dev.w3.org/csswg/css3-text/#line-break" title="http://dev.w3.org/csswg/css3-text/#line-break" rel="noopener">example</a>)</li>
+</ul>
+
+<p>
+Definition lists in particular have several uses
+</p>
+<ul>
+<li class="level1">They are used to define <abbr title="Cascading Style Sheets">CSS</abbr> values. (<a href="http://www.w3.org/TR/css3-background/#the-background-repeat" title="http://www.w3.org/TR/css3-background/#the-background-repeat" rel="noopener">example</a>) These should be marked up with &lt;dt&gt;, &lt;dfn&gt;, and &lt;code&gt;, but are often missing one or the other.</li>
+<li class="level1">They are used for defining other terms, e.g. in a glossary. (<a href="http://www.w3.org/TR/2011/WD-css3-writing-modes-20110428/#appendix-b-intrinsic-sizing" title="http://www.w3.org/TR/2011/WD-css3-writing-modes-20110428/#appendix-b-intrinsic-sizing" rel="noopener">example</a>, <a href="http://dev.w3.org/csswg/css3-writing-modes/#intro-text-layout" title="http://dev.w3.org/csswg/css3-writing-modes/#intro-text-layout" rel="noopener">example</a>) These should use &lt;dfn&gt; also.</li>
+<li class="level1">They may be used in some other random applications for which the structure is appropriate (<img src="/lib/images/smileys/fixme.svg" class="icon smiley" alt="FIXME" /> need to track down examples).</li>
+</ul>
+
+<p>
+Paragraph, heading, and list margins and spacing should be designed in a way that appropriately handles these structures.
+</p><h2 id="stage-2inline-styling">Stage 2: Inline Styling</h2>
+<p>
+<abbr title="Cascading Style Sheets">CSS</abbr> specs use a variety of inline markup:
+</p>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> &lt;code class=property&gt;</span></dt>
+<dd> for <abbr title="Cascading Style Sheets">CSS</abbr> property names</dd>
+<dt><span class="term"> &lt;code class=css&gt;</span></dt>
+<dd> for abitrary <abbr title="Cascading Style Sheets">CSS</abbr> snippets and <abbr title="Cascading Style Sheets">CSS</abbr> values</dd>
+<dt><span class="term"> &lt;dfn&gt;</span></dt>
+<dd> for the defining instance of a term, whether in a &lt;dl&gt; or in a paragraph. Must be easily scannable</dd>
+<dt><span class="term"> &lt;i&gt;</span></dt>
+<dd> for instance-of-term; this auto-links to the defining instance, if there is one in the <abbr title="specification">spec</abbr>. These are used very very frequently in some cases (<a href="http://w3c-test.org/csswg/css3-images/#default-sizing" title="http://w3c-test.org/csswg/css3-images/#default-sizing" rel="noopener">example</a>, <a href="http://www.w3.org/TR/css3-writing-modes/#intrinsic-sizing" title="http://www.w3.org/TR/css3-writing-modes/#intrinsic-sizing" rel="noopener">example</a>) so their styling should not be distracting.</dd>
+<dt><span class="term"> &lt;a&gt;</span></dt>
+<dd>for other kinds of cross-linking</dd>
+<dt><span class="term"> &lt;em&gt; and &lt;strong&gt;</span></dt>
+<dd>used per HTML5 (but are fairly uncommon); default styling should be fine</dd>
+<dt><span class="term"> &lt;var&gt;</span></dt>
+<dd>for variables in mathematical or syntactical formulas</dd>
+</dl><h2 id="stage-3tables">Stage 3: Tables</h2>
+<p>
+Specs use tables for data. In some cases, we have some very complex table structures, which should be styled appropriately. Writing modes and Text have some good examples: (<a href="http://www.w3.org/TR/css3-writing-modes/#svg-writing-mode" title="http://www.w3.org/TR/css3-writing-modes/#svg-writing-mode" rel="noopener">simple table</a>, <a href="http://www.w3.org/TR/css3-writing-modes/#logical-to-physical" title="http://www.w3.org/TR/css3-writing-modes/#logical-to-physical" rel="noopener">super-complex table</a>, <a href="http://www.w3.org/TR/css3-text/#white-space" title="http://www.w3.org/TR/css3-text/#white-space" rel="noopener">common-complexity table</a>, <a href="http://www.w3.org/TR/css3-text/#white-space" title="http://www.w3.org/TR/css3-text/#white-space" rel="noopener">another example</a>)
+</p>
+
+<p>
+We also use tables for indices, like the <a href="http://www.w3.org/TR/css3-text/#appendix-h-full-property-index" title="http://www.w3.org/TR/css3-text/#appendix-h-full-property-index" rel="noopener">full property index</a> and the <a href="http://www.w3.org/TR/css3-selectors/#selectors" title="http://www.w3.org/TR/css3-selectors/#selectors" rel="noopener">selectors overview</a>.
+</p><h2 id="stage-4notes-issues-examples-and-other-boxen">Stage 4: Notes, Issues, Examples, and other Boxen</h2>
+<p>
+The CSSWG uses some colored boxes to delineate special types of information.
+</p>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> &lt;div class=“example”&gt;</span></dt>
+<dd> Examples are non-normative and relatively self-contained. They often, but not always, illustrate a normative definition immediately before the example. They might contain only text; text and code; text and a figure; text, some code, and a figure; or several repetitions of these. They need to be clearly delineated so that readers can tell that the text is non-normative. They are also things authors like to scan for.</dd>
+<dt><span class="term"> &lt;div class=“figure”&gt;</span></dt>
+<dd> Like examples, figures are also used to illustrate the normative text (and in some cases are used in informative sections like examples and notes, too!) They usually come with a caption and must have alternative text for non-sighted readers. (<a href="http://dev.w3.org/csswg/css3-background/#the-background-position" title="http://dev.w3.org/csswg/css3-background/#the-background-position" rel="noopener">examples inside examples</a>, <a href="http://dev.w3.org/csswg/css3-writing-modes/" title="http://dev.w3.org/csswg/css3-writing-modes/" rel="noopener">Writing Modes is full of examples</a>)</dd>
+<dt><span class="term"> &lt;table class=“propdef”&gt;</span></dt>
+<dd> Propdef tables contain the critical information for a property definition. They must be easily scannable. (<a href="http://w3c-test.org/csswg/css3-background/#the-background-clip" title="http://w3c-test.org/csswg/css3-background/#the-background-clip" rel="noopener">example</a>, <a href="http://w3c-test.org/csswg/css3-break/#break-properties" title="http://w3c-test.org/csswg/css3-break/#break-properties" rel="noopener">consecutive-boxes example</a>)</dd>
+<dt><span class="term"> &lt;span class=“note”&gt;, &lt;p class=“note”&gt;, &lt;div class=“note”&gt;</span></dt>
+<dd> Notes are non-normative sentences (inline) or paragraphs (or multi-paragraphs) that help explain the implications of some normative text. It needs to be clear that they are not normative, but they also should not jump out of the text, as they are not something to scan for but a continuation of the normative discussion. <a href="http://w3c-test.org/csswg/css3-background/#the-background-clip" title="http://w3c-test.org/csswg/css3-background/#the-background-clip" rel="noopener">example</a></dd>
+<dt><span class="term"> &lt;pre class=“prod”&gt;</span></dt>
+<dd> These &lt;pre&gt; boxes are typically normative; they unambiguously define the syntax of a feature in code. They often contain a &lt;dfn&gt; defining a grammar production that is reused later. (<a href="http://dev.w3.org/csswg/css3-images/#linear-gradients" title="http://dev.w3.org/csswg/css3-images/#linear-gradients" rel="noopener">example</a>, <a href="http://w3c-test.org/csswg/css3-background/#the-background-position" title="http://w3c-test.org/csswg/css3-background/#the-background-position" rel="noopener">example</a>)</dd>
+<dt><span class="term"> &lt;span class=“issue”&gt;, &lt;p class=“issue”&gt;, &lt;div class=“issue”&gt;</span></dt>
+<dd> Issues are notes from the editor to reviewers. They document areas that need more feedback, and explain problems that are as-yet unresolved in the specs. They are used in Working Drafts: CRs and beyond are not supposed to have issues.
+</main>
+</body>
+</html>

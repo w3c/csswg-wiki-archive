@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TPAC 2017 - CSS Working Group Wiki (Archive)</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
+  color: #1f2328; background: #fff;
+}
+.archive-banner {
+  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
+  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
+}
+.archive-banner strong { color: #6e5600; }
+header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
+header h1 { margin: 0; font-size: 1.25em; }
+header h1 a { color: #0366d6; text-decoration: none; }
+header h1 a:hover { text-decoration: underline; }
+nav { margin-top: 0.5em; font-size: 0.9em; }
+nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
+nav a:hover { color: #0366d6; }
+h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
+h1:first-child { margin-top: 0; }
+a { color: #0366d6; }
+code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
+pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
+th { background: #f6f8fa; }
+img { max-width: 100%; }
+.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
+.breadcrumb a { color: #656d76; }
+ul, ol { padding-left: 1.5em; }
+li { margin: 0.25em 0; }
+.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
+abbr { text-decoration: underline dotted; cursor: help; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0d1117; color: #e6edf3; }
+  .archive-banner { background: #3d2e00; border-color: #6e5600; }
+  .archive-banner strong { color: #f0c000; }
+  header { border-bottom-color: #30363d; }
+  header h1 a { color: #58a6ff; }
+  nav a { color: #8b949e; }
+  nav a:hover { color: #58a6ff; }
+  h1, h2, h3, h4 { color: #e6edf3; }
+  a { color: #58a6ff; }
+  code, pre { background: #161b22; }
+  th, td { border-color: #30363d; }
+  th { background: #161b22; }
+  .breadcrumb, .breadcrumb a { color: #8b949e; }
+  .plugin_note { background: #161b22; border-color: #58a6ff; }
+}
+</style>
+</head>
+<body>
+<div class="archive-banner">
+<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
+The original wiki was hosted at wiki.csswg.org.
+</div>
+<header>
+<h1><a href="/">CSS Working Group Wiki</a></h1>
+<nav>
+<a href="/">Home</a>
+<a href="/spec/">Specs</a>
+<a href="/ideas/">Ideas</a>
+<a href="/test/">Testing</a>
+<a href="/wiki/">About</a>
+</nav>
+</header>
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/planning/">planning</a> / tpac-2017</div>
+<main>
+<!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level2"><a href="#tpac-2017">TPAC 2017</a><ul class="toc">
+<li class="level3"><a href="#meeting-minutes">Meeting Minutes</a></li>
+<li class="level3"><a href="#place-logistics-etc">Place, Logistics, etc.</a></li>
+<li class="level3"><a href="#participants">Participants</a></li>
+<li class="level3"><a href="#schedule">Schedule</a></li>
+<li class="level3"><a href="#proposed-agenda">Proposed Agenda</a></li>
+<li class="level3"><a href="#scribes-list">Scribes list</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h2 id="tpac-2017">TPAC 2017</h2><h3 id="meeting-minutes">Meeting Minutes</h3>
+<ul>
+<li class="level1 node">Monday, November 6<ul>
+<li class="level2"><a href="https://lists.w3.org/Archives/Public/www-style/2017Dec/0004.html" title="https://lists.w3.org/Archives/Public/www-style/2017Dec/0004.html" rel="noopener">Part 1</a>: Sizing</li>
+<li class="level2"><a href="https://lists.w3.org/Archives/Public/www-style/2017Dec/0005.html" title="https://lists.w3.org/Archives/Public/www-style/2017Dec/0005.html" rel="noopener">Part 2</a>: Backgrounds, Grid</li>
+<li class="level2"><a href="https://lists.w3.org/Archives/Public/www-style/2017Dec/0006.html" title="https://lists.w3.org/Archives/Public/www-style/2017Dec/0006.html" rel="noopener">Part 3</a>: Flexbox, Image Decoding, Line Clamping, Cleaning up OWNERS files, Feedback on testing policy</li>
+<li class="level2"><a href="https://lists.w3.org/Archives/Public/www-style/2017Dec/0007.html" title="https://lists.w3.org/Archives/Public/www-style/2017Dec/0007.html" rel="noopener">Part 4</a>: Values and Units, Contains, Line Grid, Line Heights</li>
+</ul>
+</li>
+<li class="level1 node">Tuesday, November 7<ul>
+<li class="level2"><a href="https://lists.w3.org/Archives/Public/www-style/2017Dec/0038.html" title="https://lists.w3.org/Archives/Public/www-style/2017Dec/0038.html" rel="noopener">Part 1</a>: .style append/replace, list marker layout, scroll-snap &amp; scrolling APIs</li>
+<li class="level2"><a href="https://lists.w3.org/Archives/Public/www-style/2017Dec/0039.html" title="https://lists.w3.org/Archives/Public/www-style/2017Dec/0039.html" rel="noopener">Part 2</a>: Spatial Navigation, nav-*/tabindex, a11y Joint Meeting</li>
+<li class="level2"><a href="https://lists.w3.org/Archives/Public/www-style/2017Dec/0040.html" title="https://lists.w3.org/Archives/Public/www-style/2017Dec/0040.html" rel="noopener">Part 3</a>: 3D Transforms, Scrollbars, Selectors, Color Spaces</li>
+<li class="level2"><a href="https://lists.w3.org/Archives/Public/www-style/2017Dec/0041.html" title="https://lists.w3.org/Archives/Public/www-style/2017Dec/0041.html" rel="noopener">Part 4</a>: Constructible Style Sheets, ::selection cascade, Multicol</li>
+</ul>
+</li>
+</ul><h3 id="place-logistics-etc">Place, Logistics, etc.</h3>
+<ul>
+<li class="level1"><a href="https://www.w3.org/2017/11/TPAC/" title="https://www.w3.org/2017/11/TPAC/" rel="noopener">https://www.w3.org/2017/11/TPAC/</a></li>
+<li class="level1">full TPAC week is 06-10 November 2017</li>
+<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> WG meeting days are Mon-Tue 06-07 from 9am to 6pm</li>
+<li class="level1 node">Houdini meeting is Thu 09 November from 09:00-12:00<ul>
+<li class="level2"><a href="https://github.com/w3c/css-houdini-drafts/wiki/TPAC-F2F-November-2017" title="https://github.com/w3c/css-houdini-drafts/wiki/TPAC-F2F-November-2017" rel="noopener">https://github.com/w3c/css-houdini-drafts/wiki/TPAC-F2F-November-2017</a></li>
+</ul>
+</li>
+<li class="level1">Burlingame, CA, USA at the Hyatt Regency SFO</li>
+</ul><h3 id="participants">Participants</h3>
+<p>
+Please, put your name in this table if you plan to participate (alphabetical order by given name):
+</p>
+<div class="table sectionedit5"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Name </th><th class="col1"> Arrival </th><th class="col2"> Departure </th><th class="col3"> Hotel </th><th class="col4"> Flight info and notes </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Alan Stearns </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Dave Cramer </td><td class="col1">7 Nov </td><td class="col2"> 11 Nov </td><td class="col3"> Hyatt Regency SFO </td><td class="col4"> massive conflict with PWG </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Emil A Eklund </td><td class="col1"> n/a </td><td class="col2"> n/a </td><td class="col3"> Home </td><td class="col4"> Will miss first two hours on Monday </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> Eric Willigers </td><td class="col1"> 5 Nov </td><td class="col2"> 10 Nov </td><td class="col3"> </td><td class="col4"> </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"> fantasai </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> AirBnB </td><td class="col4"> likely BART+bicycle </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0"> Florian Rivoal </td><td class="col1"> 5 Nov </td><td class="col2"> 11 Nov </td><td class="col3"> Bay Landing Hotel </td><td class="col4"> KE724+KE023 / KE026+KE723</td>
+	</tr>
+	<tr class="row7">
+		<td class="col0"> François REMY </td><td class="col1"> 5 Nov </td><td class="col2"> 11 Nov </td><td class="col3"> TPAC Hotel </td><td class="col4"> Airplane </td>
+	</tr>
+	<tr class="row8">
+		<td class="col0"> Geoffrey Sneddon </td><td class="col1"> 5 Nov </td><td class="col2"> 18 Nov </td><td class="col3"> Hyatt Regency SFO </td><td class="col4"> Monday only, conflict with WPT on Tuesday; EI3221+EI147 / BA286+BA1488 </td>
+	</tr>
+	<tr class="row9">
+		<td class="col0"> Javier Fernández </td><td class="col1"> 5 Nov </td><td class="col2"> 9 Nov </td><td class="col3"> Hyatt Regency SFO </td><td class="col4"> BA7111+BA4271+BA4369 </td>
+	</tr>
+	<tr class="row10">
+		<td class="col0"> Jen Simmons </td><td class="col1"> 29 Oct </td><td class="col2"> 10 Nov </td><td class="col3"> AirBnB </td><td class="col4"> airplane to An Event Apart San Fran, plus rental car </td>
+	</tr>
+	<tr class="row11">
+		<td class="col0"> Jihye Hong </td><td class="col1"> 5 Nov </td><td class="col2"> 10 Nov </td><td class="col3"> Holiday Inn Exp SF Airport South </td><td class="col4 leftalign">  </td>
+	</tr>
+	<tr class="row12">
+		<td class="col0"> L. David Baron </td><td class="col1"> 30 Sep </td><td class="col2"> 10 Dec </td><td class="col3"> home </td><td class="col4"> probably BART to Millbrae + walk or bus; will miss roughly 9:00-11:00 Monday (TAG), and possibly 15:00-18:00 Tuesday (AC) </td>
+	</tr>
+	<tr class="row13">
+		<td class="col0"> Melanie Richards </td><td class="col1"> 5 Nov </td><td class="col2"> 9 Nov </td><td class="col3"> Hyatt Regency SFO </td><td class="col4"> Alaska 324, 323 </td>
+	</tr>
+	<tr class="row14">
+		<td class="col0"> Naina Raisinghani </td><td class="col1"> 5 Nov </td><td class="col2"> 11 Nov </td><td class="col3"> Crowne Plaza San Francisco Airport </td><td class="col4"> </td>
+	</tr>
+	<tr class="row15">
+		<td class="col0"> Nat McCully </td><td class="col1"> 3 Nov </td><td class="col2"> 7 Nov </td><td class="col3"> AirBnB </td><td class="col4"> </td>
+	</tr>
+	<tr class="row16">
+		<td class="col0"> Peter Linss </td><td class="col1"> 5 Nov </td><td class="col2"> 11 Nov </td><td class="col3"> Hyatt Regency SFO </td><td class="col4"> YZF-R1 </td>
+	</tr>
+	<tr class="row17">
+		<td class="col0"> Rachel Andrew </td><td class="col1"> 5 Nov </td><td class="col2"> 8 Nov </td><td class="col3"> AirBNB </td><td class="col4 leftalign">  </td>
+	</tr>
+	<tr class="row18">
+		<td class="col0"> Rob Flack </td><td class="col1"> 5 Nov </td><td class="col2"> 9 Nov </td><td class="col3 leftalign"> Holiday Inn Exp SF Airport South  </td><td class="col4 leftalign">  </td>
+	</tr>
+	<tr class="row19">
+		<td class="col0"> Simon Fraser </td><td class="col1"> n/a </td><td class="col2"> n/a </td><td class="col3"> Local </td><td class="col4 leftalign">  </td>
+	</tr>
+	<tr class="row20">
+		<td class="col0"> Simon Pieters </td><td class="col1"> 5 Nov </td><td class="col2"> 8 Nov </td><td class="col3"> AirBnB </td><td class="col4"> UA 2400 / SK 936 </td>
+	</tr>
+	<tr class="row21">
+		<td class="col0"> Tab Atkins </td><td class="col1"> local </td><td class="col2"></td><td class="col3"></td><td class="col4"></td>
+	</tr>
+	<tr class="row22">
+		<td class="col0"> Tantek Çelik </td><td class="col1"> 2017-10-19 </td><td class="col2"> 2017-12-08 </td><td class="col3"> home </td><td class="col4"> ground transport </td>
+	</tr>
+	<tr class="row23">
+		<td class="col0"> Tomoya Kimura </td><td class="col1"> 5 Nov </td><td class="col2"> 12 Nov </td><td class="col3"> Bay Landing Hotel </td><td class="col4"> JL002 / JL001 </td>
+	</tr>
+	<tr class="row24">
+		<td class="col0"> Greg Whitworth </td><td class="col1"> 5 Nov </td><td class="col2"> 11 Nov </td><td class="col3"> </td><td class="col4"> </td>
+	</tr>
+	<tr class="row25">
+		<td class="col0"> Xidorn Quan </td><td class="col1"> 5 Nov </td><td class="col2"> 11 Nov </td><td class="col3"> AirBnB </td><td class="col4"> NZ 8 </td>
+	</tr>
+	<tr class="row26">
+		<td class="col0"> Lea Verou </td><td class="col1"> 5 Nov </td><td class="col2"> 13 Nov </td><td class="col3"> Hyatt, then AirBnB </td><td class="col4"> </td>
+	</tr>
+	<tr class="row27">
+		<td class="col0"> Chris Lilley </td><td class="col1"> 5 Nov </td><td class="col2"> 13 Nov </td><td class="col3"> Hyatt, then AirBnB </td><td class="col4"> </td>
+	</tr>
+	<tr class="row28">
+		<td class="col0"> Jet Villegas </td><td class="col1"> 6 Nov </td><td class="col2"> 7 Nov </td><td class="col3"> home </td><td class="col4"> </td>
+	</tr>
+	<tr class="row29">
+		<td class="col0"> Brad Kemper </td><td class="col1"> 6 Nov </td><td class="col2"> 7 Nov </td><td class="col3"> home </td><td class="col4"> Driving </td>
+	</tr>
+</table><p>
+Regrets:
+</p>
+
+<p>
+* Koji Ishii, can&#039;t make due to a conflict, but would like to call in for text topics if possible.
+</p>
+
+<p>
+* Hiroshi Sakakibara, got a severe cold..
+</p>
+
+<p>
+See also the current <a href="https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants#CSS" title="https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants#CSS" rel="noopener">TPAC registrations</a> [member-only].
+</p><h3 id="schedule">Schedule</h3><h4 id="monday">Monday</h4><h5 id="morning">Morning</h5>
+<ul>
+<li class="level1 node">[sizing]<ul>
+<li class="level2">max-content size of percentage-sized replaced elements <a href="https://github.com/w3c/csswg-drafts/issues/1722" title="https://github.com/w3c/csswg-drafts/issues/1722" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1722</a></li>
+<li class="level2">Auto-resize iframes and textarea based on content <a href="https://github.com/w3c/csswg-drafts/issues/1771" title="https://github.com/w3c/csswg-drafts/issues/1771" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1771</a></li>
+<li class="level2">intrinsic size of &#039;overflow: auto/scroll&#039; and its impact on auto-sized grid/flex item ancestors <a href="https://github.com/w3c/csswg-drafts/issues/1865" title="https://github.com/w3c/csswg-drafts/issues/1865" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1865</a> (put on monday)</li>
+<li class="level2">Restrict &#039;stretch&#039; and &#039;fit-content&#039; to width/height and max-* <a href="https://github.com/w3c/csswg-drafts/issues/1913" title="https://github.com/w3c/csswg-drafts/issues/1913" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1913</a></li>
+<li class="level2">Define which replaced elements are affected by width: % rule zeroing min-content <a href="https://github.com/w3c/csswg-drafts/issues/1889" title="https://github.com/w3c/csswg-drafts/issues/1889" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1889</a></li>
+<li class="level2">Move min-width and min-height partial definitions to css-sizing <a href="https://github.com/w3c/csswg-drafts/issues/1920" title="https://github.com/w3c/csswg-drafts/issues/1920" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1920</a></li>
+</ul>
+</li>
+<li class="level1">[css-backgrounds] Background-clip and text underline <a href="https://github.com/w3c/csswg-drafts/issues/900" title="https://github.com/w3c/csswg-drafts/issues/900" rel="noopener">https://github.com/w3c/csswg-drafts/issues/900</a></li>
+<li class="level1 node">[css-transform] 3d contexts <a href="https://github.com/w3c/csswg-drafts/issues/1944" title="https://github.com/w3c/csswg-drafts/issues/1944" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1944</a><ul>
+<li class="level2">Used value of backface-visibility:hidden makes the element a pseudo stacking context (as if having position:relative) if not a stacking context already.</li>
+<li class="level2">A (pseudo) stacking context with backface-visibility:hidden determines the visibility of its background phase and normal-flow phase by computing the face-orientation of its screen matrix. Painting of the phases is skipped if it is back-facing.</li>
+</ul>
+</li>
+<li class="level1 node">[grid]<ul>
+<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/509" title="https://github.com/w3c/csswg-drafts/issues/509" rel="noopener">%s and intrinsic sizes in Grid</a> (tab &amp; fantasai) (put on monday)</li>
+<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1921" title="https://github.com/w3c/csswg-drafts/issues/1921" rel="noopener">[css-grid] Percentage tracks and indefinite sizes</a></li>
+<li class="level2">Basic support for “equal gutter” with justify-content on grid items <a href="https://github.com/w3c/csswg-drafts/issues/1116" title="https://github.com/w3c/csswg-drafts/issues/1116" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1116</a></li>
+</ul>
+</li>
+</ul><h5 id="afternoon">Afternoon</h5>
+<ul>
+<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/1322" title="https://github.com/w3c/csswg-drafts/issues/1322" rel="noopener">Non-interop on sizing images in flexbox</a> (tab &amp; fantasai &amp; jen) (put on monday)</li>
+<li class="level1">Image decoding (async or not) [smfr]</li>
+<li class="level1">line-clamp (tab &amp; eae?) (<a href="https://twitter.com/bfgeek/status/925486371937980416" title="https://twitter.com/bfgeek/status/925486371937980416" rel="noopener">https://twitter.com/bfgeek/status/925486371937980416</a>) (put on monday)</li>
+<li class="level1">Cleaning up owners files for testing (gregwhitworth)</li>
+<li class="level1">WG feedback about <a href="https://github.com/w3c/csswg-drafts/issues/1755" title="https://github.com/w3c/csswg-drafts/issues/1755" rel="noopener"> testing policy</a>, experience so far, what is needed (zcorpan)</li>
+<li class="level1">[css-values] Computed value of a negative calc unit that doesn&#039;t allow negative lengths. <a href="https://github.com/w3c/csswg-drafts/issues/434" title="https://github.com/w3c/csswg-drafts/issues/434" rel="noopener">https://github.com/w3c/csswg-drafts/issues/434</a></li>
+<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr> Contain (Florian)<ul>
+<li class="level2">To which box does paint containment clip? <a href="https://github.com/w3c/csswg-drafts/issues/1809" title="https://github.com/w3c/csswg-drafts/issues/1809" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1809</a></li>
+<li class="level2">Clarify style containment effect 1 <a href="https://github.com/w3c/csswg-drafts/issues/1872" title="https://github.com/w3c/csswg-drafts/issues/1872" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1872</a></li>
+<li class="level2">Do scoped counters create new counters <a href="https://github.com/w3c/csswg-drafts/issues/1887" title="https://github.com/w3c/csswg-drafts/issues/1887" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1887</a></li>
+<li class="level2">Becoming a formatting context root vs ruby: what should that do <a href="https://github.com/w3c/csswg-drafts/issues/1457" title="https://github.com/w3c/csswg-drafts/issues/1457" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1457</a></li>
+</ul>
+</li>
+<li class="level1 node">line height / line spacing related<ul>
+<li class="level2"><a href="https://lists.w3.org/Archives/Public/www-style/2017Oct/0013.html" title="https://lists.w3.org/Archives/Public/www-style/2017Oct/0013.html" rel="noopener">unifying line grid / rhythm / line spacing proposals</a> (dbaron)</li>
+<li class="level2">Baseline considerations for Japanese (Nat) and Math (Daniel)</li>
+<li class="level2">Interop on the line-height property <a href="https://github.com/w3c/csswg-drafts/issues/1796" title="https://github.com/w3c/csswg-drafts/issues/1796" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1796</a> (Florian)</li>
+<li class="level2">Interaction between line grid + size + position <a href="https://github.com/w3c/csswg-drafts/issues/1856" title="https://github.com/w3c/csswg-drafts/issues/1856" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1856</a> (Florian)</li>
+<li class="level2">Clarify lh/rlh with line-height:normal (tbd after issue 1796)  <a href="https://github.com/w3c/csswg-drafts/issues/1253" title="https://github.com/w3c/csswg-drafts/issues/1253" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1253</a> Florian</li>
+<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/938" title="https://github.com/w3c/csswg-drafts/issues/938" rel="noopener">Avoiding accidental double spacing</a> (if remote is possible, probably after dbaron&#039;s proposal, koji)</li>
+</ul>
+</li>
+</ul><h4 id="tuesday">Tuesday</h4><h5 id="morning1">Morning</h5>
+<ul>
+<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/1934" title="https://github.com/w3c/csswg-drafts/issues/1934" rel="noopener">Interop on List-item outside marker</a> (fremy)</li>
+<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/1898" title="https://github.com/w3c/csswg-drafts/issues/1898" rel="noopener">logical/physical property cascade and the .style API</a> (tabatkins)</li>
+<li class="level1">Interaction of scroll-snap and JS scrolling APIs (tab &amp; fantasai) (<a href="https://github.com/w3c/csswg-drafts/issues/1707" title="https://github.com/w3c/csswg-drafts/issues/1707" rel="noopener">#1707</a>, <a href="https://github.com/w3c/csswg-drafts/issues/1708" title="https://github.com/w3c/csswg-drafts/issues/1708" rel="noopener">#1708</a>)</li>
+<li class="level1 node">Navigation related (Tuesday please)<ul>
+<li class="level2"><a href="https://github.com/lgeweb/spatial-navigation/blob/master/explainer.md" title="https://github.com/lgeweb/spatial-navigation/blob/master/explainer.md" rel="noopener">APIs for the spatial focus navigation proposal</a> (jihye)</li>
+<li class="level2">Making spatial navigation properties more composable <a href="https://github.com/w3c/csswg-drafts/issues/1910" title="https://github.com/w3c/csswg-drafts/issues/1910" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1910</a> (Florian)</li>
+<li class="level2">Turning spatial navigation on <a href="https://github.com/w3c/csswg-drafts/issues/1940" title="https://github.com/w3c/csswg-drafts/issues/1940" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1940</a> (Florian)</li>
+<li class="level2">Controlling sequential navigation: <a href="https://github.com/w3c/csswg-drafts/issues/1748" title="https://github.com/w3c/csswg-drafts/issues/1748" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1748</a> + <a href="https://github.com/w3c/csswg-drafts/issues/1764" title="https://github.com/w3c/csswg-drafts/issues/1764" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1764</a> (Florian)</li>
+</ul>
+</li>
+</ul>
+
+<p>
+11am: APA/ARIA
+</p>
+
+<p>
+11:30am-1pm: 3D transforms breakout.
+</p><h5 id="afternoon1">Afternoon</h5>
+<ul>
+<li class="level1 node"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=77790" title="https://bugzilla.mozilla.org/show_bug.cgi?id=77790" rel="noopener">scrollbar colors for compat</a> (Tantek)<ul>
+<li class="level2">draft: <a href="https://github.com/tantek/css-scrollbar-style/blob/master/Overview.bs" title="https://github.com/tantek/css-scrollbar-style/blob/master/Overview.bs" rel="noopener">https://github.com/tantek/css-scrollbar-style/blob/master/Overview.bs</a></li>
+</ul>
+</li>
+<li class="level1 node">[selectors]<ul>
+<li class="level2">Functional pseudo-class like :matches() with 0 specificity <a href="https://github.com/w3c/csswg-drafts/issues/1170" title="https://github.com/w3c/csswg-drafts/issues/1170" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1170</a></li>
+<li class="level2">:target-within? <a href="https://github.com/w3c/csswg-drafts/issues/457" title="https://github.com/w3c/csswg-drafts/issues/457" rel="noopener">https://github.com/w3c/csswg-drafts/issues/457</a></li>
+</ul>
+</li>
+<li class="level1">[css-color-4] Working colorspace options (15min, before 2pm, Chris)</li>
+<li class="level1">New author proposal for css-transforms-2 [smfr]</li>
+<li class="level1"><a href="https://tabatkins.github.io/specs/construct-stylesheets/" title="https://tabatkins.github.io/specs/construct-stylesheets/" rel="noopener">Constructable Stylesheets</a> (tab &amp; eric)</li>
+<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/374" title="https://github.com/w3c/csswg-drafts/issues/374" rel="noopener">::selection cascade</a></li>
+<li class="level1 node">[css-multicol] Small legacy issues (Rachel)<ul>
+<li class="level2">z-order of column-rule and column scrolling <a href="https://github.com/w3c/csswg-drafts/issues/1739" title="https://github.com/w3c/csswg-drafts/issues/1739" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1739</a></li>
+<li class="level2">Text describing column boxes as block container boxes <a href="https://github.com/w3c/csswg-drafts/issues/1738" title="https://github.com/w3c/csswg-drafts/issues/1738" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1738</a></li>
+<li class="level2">Proposal to drop example XVII <a href="https://github.com/w3c/csswg-drafts/issues/1740" title="https://github.com/w3c/csswg-drafts/issues/1740" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1740</a></li>
+</ul>
+</li>
+<li class="level1 node">[css-multicol] Related issues with regard to column-span (Rachel)<ul>
+<li class="level2">How do elements between column-span and its multicol ancestor appear around the span <a href="https://github.com/w3c/csswg-drafts/issues/1072" title="https://github.com/w3c/csswg-drafts/issues/1072" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1072</a></li>
+<li class="level2">Specification should define interaction between &#039;column-span&#039; and &#039;column-fill&#039; <a href="https://github.com/w3c/csswg-drafts/issues/1075" title="https://github.com/w3c/csswg-drafts/issues/1075" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1075</a></li>
+<li class="level2">how does absolute positioning work in a containing block that was split by a column-span? <a href="https://github.com/w3c/csswg-drafts/issues/1894" title="https://github.com/w3c/csswg-drafts/issues/1894" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1894</a></li>
+</ul>
+</li>
+<li class="level1"><a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2017OctDec/0091.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2017OctDec/0091.html" rel="noopener">Move Web Animations to CSSWG</a></li>
+<li class="level1 node">[filter-effects] filter<ul>
+<li class="level2">filter should be defined to establish a containing block for fixed and absolutely positioned elements <a href="https://github.com/w3c/fxtf-drafts/issues/11" title="https://github.com/w3c/fxtf-drafts/issues/11" rel="noopener">https://github.com/w3c/fxtf-drafts/issues/11</a></li>
+</ul>
+</li>
+<li class="level1"><a href="https://github.com/bokand/root-scroller" title="https://github.com/bokand/root-scroller" rel="noopener">Root Scroller - proposal to control what element counts as the &quot;root&quot; scroller for the page</a> (David Bokan) - any time except this morning</li>
+</ul><h4 id="thursday">Thursday</h4>
+<p>
+09:00-12:00 <a href="https://github.com/w3c/css-houdini-drafts/wiki/TPAC-F2F-November-2017" title="https://github.com/w3c/css-houdini-drafts/wiki/TPAC-F2F-November-2017" rel="noopener">Houdini f2f</a> in Cypress C
+</p><h3 id="proposed-agenda">Proposed Agenda</h3>
+<ul>
+<li class="level1">[css-fonts-4] Computed value for font-variation-settings <a href="https://github.com/w3c/csswg-drafts/issues/1959" title="https://github.com/w3c/csswg-drafts/issues/1959" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1959</a> (Greg)</li>
+<li class="level1 node">[css-ui-4] appearance  (Florian)<ul>
+<li class="level2">compatibility with existing content <a href="https://github.com/w3c/csswg-drafts/issues/1250" title="https://github.com/w3c/csswg-drafts/issues/1250" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1250</a></li>
+<li class="level2">what aspect of complex controls to preserve when appearance is none <a href="https://github.com/w3c/csswg-drafts/issues/356" title="https://github.com/w3c/csswg-drafts/issues/356" rel="noopener">https://github.com/w3c/csswg-drafts/issues/356</a></li>
+<li class="level2">appearance:none and replaced elements <a href="https://github.com/w3c/csswg-drafts/issues/1018" title="https://github.com/w3c/csswg-drafts/issues/1018" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1018</a></li>
+</ul>
+</li>
+<li class="level1 node">[css-ui-4] user-select  (Florian)<ul>
+<li class="level2">user-select on form controls <a href="https://github.com/w3c/csswg-drafts/issues/285" title="https://github.com/w3c/csswg-drafts/issues/285" rel="noopener">https://github.com/w3c/csswg-drafts/issues/285</a></li>
+<li class="level2">user-select on generated content and list markers <a href="https://github.com/w3c/csswg-drafts/issues/284" title="https://github.com/w3c/csswg-drafts/issues/284" rel="noopener">https://github.com/w3c/csswg-drafts/issues/284</a> (Florian, probably needs to get some WebPlat folks in the room)</li>
+</ul>
+</li>
+<li class="level1">[css-ui-4] Scrollbar styling <a href="https://github.com/w3c/csswg-drafts/issues/107" title="https://github.com/w3c/csswg-drafts/issues/107" rel="noopener">https://github.com/w3c/csswg-drafts/issues/107</a> (Florian)</li>
+<li class="level1 node">Prepare snapshot 2018 (Florian)<ul>
+<li class="level2">borken indices in the 2017 snapshot <a href="https://github.com/w3c/csswg-drafts/issues/1007" title="https://github.com/w3c/csswg-drafts/issues/1007" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1007</a></li>
+<li class="level2">Copy document conventions (and conformance?) from 2.1 to the snapshot? <a href="https://github.com/w3c/csswg-drafts/issues/1867" title="https://github.com/w3c/csswg-drafts/issues/1867" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1867</a></li>
+</ul>
+</li>
+</ul><h3 id="scribes-list">Scribes list</h3>
+<p>
+Monday am
+</p>
+<ul>
+<li class="level1"><del>Greg</del></li>
+<li class="level1"><del>Brian</del></li>
+<li class="level1"><del>Francois</del></li>
+</ul>
+
+<p>
+Monday pm
+</p>
+<ul>
+<li class="level1">Ian</li>
+<li class="level1">Tab</li>
+<li class="level1">Emil</li>
+</ul>
+
+<p>
+Tuesday am
+</p>
+<ul>
+<li class="level1">Greg</li>
+<li class="level1">Tab</li>
+</ul>
+
+<p>
+Tuesday pm
+</p>
+<ul>
+<li class="level1">Emil</li>
+<li class="level1">-your name here-</li>
+</ul>
+</main>
+</body>
+</html>

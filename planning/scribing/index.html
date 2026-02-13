@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scribing For Meetings - CSS Working Group Wiki (Archive)</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
+  color: #1f2328; background: #fff;
+}
+.archive-banner {
+  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
+  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
+}
+.archive-banner strong { color: #6e5600; }
+header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
+header h1 { margin: 0; font-size: 1.25em; }
+header h1 a { color: #0366d6; text-decoration: none; }
+header h1 a:hover { text-decoration: underline; }
+nav { margin-top: 0.5em; font-size: 0.9em; }
+nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
+nav a:hover { color: #0366d6; }
+h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
+h1:first-child { margin-top: 0; }
+a { color: #0366d6; }
+code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
+pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
+th { background: #f6f8fa; }
+img { max-width: 100%; }
+.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
+.breadcrumb a { color: #656d76; }
+ul, ol { padding-left: 1.5em; }
+li { margin: 0.25em 0; }
+.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
+abbr { text-decoration: underline dotted; cursor: help; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0d1117; color: #e6edf3; }
+  .archive-banner { background: #3d2e00; border-color: #6e5600; }
+  .archive-banner strong { color: #f0c000; }
+  header { border-bottom-color: #30363d; }
+  header h1 a { color: #58a6ff; }
+  nav a { color: #8b949e; }
+  nav a:hover { color: #58a6ff; }
+  h1, h2, h3, h4 { color: #e6edf3; }
+  a { color: #58a6ff; }
+  code, pre { background: #161b22; }
+  th, td { border-color: #30363d; }
+  th { background: #161b22; }
+  .breadcrumb, .breadcrumb a { color: #8b949e; }
+  .plugin_note { background: #161b22; border-color: #58a6ff; }
+}
+</style>
+</head>
+<body>
+<div class="archive-banner">
+<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
+The original wiki was hosted at wiki.csswg.org.
+</div>
+<header>
+<h1><a href="/">CSS Working Group Wiki</a></h1>
+<nav>
+<a href="/">Home</a>
+<a href="/spec/">Specs</a>
+<a href="/ideas/">Ideas</a>
+<a href="/test/">Testing</a>
+<a href="/wiki/">About</a>
+</nav>
+</header>
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/planning/">planning</a> / scribing</div>
+<main>
+<!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><a href="#scribing-for-meetings">Scribing For Meetings</a><ul class="toc">
+<li class="level2"><a href="#how-to-scribe-on-irc">How To Scribe On IRC</a></li>
+<li class="level2"><a href="#scribe-rota">Scribe Rota</a><ul class="toc">
+<li class="level3"><a href="#ad-hoc-scribes">Ad-Hoc Scribes</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 id="scribing-for-meetings">Scribing For Meetings</h1>
+<p>
+Minutes must be taken for every <abbr title="Cascading Style Sheets">CSS</abbr> Working Group call. At the beginning of each call, the chair chooses a scribe.
+</p><h2 id="how-to-scribe-on-irc">How To Scribe On IRC</h2>
+<div class="plugin_note notetip">See the <a href="https://www.w3.org/wiki/IRC" title="https://www.w3.org/wiki/IRC" rel="noopener">IRC page on the W3C Wiki</a> to find out how to join <abbr title="Internet Relay Chat">IRC</abbr>. The CSSWG meet in the channel <code>#css</code>.<p>
+Whether you&#039;re scribing or not, use this command first to declare you are present:
+</p>
+<pre class="code">present+</pre>
+
+<p>
+Before you can scribe, you need to declare it. If you are the main scribe for the meeting, use this command:
+</p>
+<pre class="code">ScribeNick: your_irc_nickname_here</pre>
+
+<p>
+If you are an additional scribe, use this command:
+</p>
+<pre class="code">Scribe+</pre>
+
+<p>
+Once the meeting starts, each discussion needs to go in a topic. When about to discuss a topic that is <em>not</em> on GitHub, use this command. You can get the topic name from the agenda.
+</p>
+<pre class="code">Topic: Topic name here</pre>
+
+<p>
+For topics on GitHub, you can ask github-bot to set the topic and post the minutes to the issue like this:
+</p>
+<pre class="code">github-bot, topic https://github.com/w3c/csswg-drafts/issues/123456</pre>
+
+<p>
+You can end a topic by either starting a new topic, or telling github-bot to <code>end topic</code>. This will tell github-bot to post the minutes to a comment in the issue.
+</p>
+
+<p>
+If you don&#039;t want github-bot to comment in the issue, use this command:
+</p>
+<pre class="code">github: none</pre>
+
+<p>
+You can also use “Subtopic” instead of “Topic” for subtopics, to create a hierarchy when there are related topics. It otherwise has the same effect as “Topic”.
+</p>
+
+<p>
+Once you&#039;ve set the topic, people can start discussing it. To record what people are saying, use their <abbr title="Internet Relay Chat">IRC</abbr> nickname like so. You don&#039;t need to write every word; just a summary of what they are saying.
+</p>
+<pre class="code">SomeonesName: i propose we change the initial value of box-sizing to border-box
+SomeonesName: it would make more sense than content-box
+SomeoneElse: no, that would break web compat</pre>
+
+<p>
+If it&#039;s easier for you, you can use <code>…</code> instead of repeating their <abbr title="Internet Relay Chat">IRC</abbr> nickname.
+</p>
+<pre class="code">SomeonesName: i propose we change the initial value of box-sizing to border-box
+... it would make more sense than content-box
+SomeoneElse: no, that would break web compat</pre>
+<div class="plugin_note noteimportant">It is everyone&#039;s responsibility to make sure the minutes get recorded. If you can&#039;t keep up with everyone who&#039;s talking, you should interrupt and ask people to: speak more slowly, repeat themselves or stop talking while you catch up. Don&#039;t feel embarrassed about interrupting; we expect you to do it!<p>
+When everyone agrees a resolution on a topic, use this command to record it. The chair will normally say the resolution, so they will tell you how to phrase it. Make sure you record it accurately.
+</p>
+<pre class="code">RESOLVED: The resolution here</pre>
+<div class="plugin_note notetip">If the resolution sounds complicated, it&#039;s OK to ask someone else to write the resolution for you.<p>
+Sometimes the chair forgets to call for a resolution before switching topics even though there seems to be agreement… this is a good opportunity to ask them if there is a resolution to record for the minutes. :) Sometimes they forget.
+</p>
+
+<p>
+Don&#039;t forget to tend the last topic at the end of the meeting.
+</p>
+
+<p>
+For more info, see <a href="/tools/scribing-conventions/" title="tools:scribing-conventions">Scribing Conventions</a> and the blog post <a href="https://www.bocoup.com/blog/how-to-scribe-at-tpac" title="https://www.bocoup.com/blog/how-to-scribe-at-tpac" rel="noopener">How to scribe at TPAC</a>.
+</p><h2 id="scribe-rota">Scribe Rota</h2>
+<div class="plugin_note noteclassic">This Scribe Rota is a proposal that we are currently trialling. If you have feedback, please reply to the email thread about it on the w3c-css-wg mailing list. See the <a href="https://lists.w3.org/Archives/Public/www-style/2025May/0016.html" title="https://lists.w3.org/Archives/Public/www-style/2025May/0016.html" rel="noopener">2025-05-21 telecon minutes</a> for the original discussion about it.<p>
+The scribe rota is a list of CSSWG members who are willing to be the main scribe for calls. Each week, we rotate to the next person in the list. When the meeting agenda is sent out, it will include the next three people on the rota.
+</p>
+<div class="plugin_note noteclassic"><strong>Issue:</strong> We discussed using a semi-random selection to select the next scribe. Do we want to try that instead? If so, how would we do that?<p>
+If someone on the scribe rota is due to scribe next but they send regrets or don&#039;t want to scribe for that meeting, they can ask to postpone their turn and swap with the next person on the rota.
+</p>
+<div class="plugin_note noteclassic">If you do wish to postpone your turn to scribe, try to give advanced notice - if you can - by replying to the agenda email, so that we can let the next person on the rota know. However, it&#039;s OK to say at the start of the call, and we can ask an ad-hoc scribe to replace you instead.<p>
+If the scribe wants to speak during the meeting, they can ask if the someone else on the scribe rota or ad-hoc scribe list is able to.
+</p>
+
+<p>
+The following people are signed up to the scribe rota. We are always looking for new scribes, so if you&#039;re willing to scribe, please add your name. If you no longer wish to do it, you can remove your name from the list at any time.
+</p>
+<ol>
+<li class="level1">TabAtkins</li>
+<li class="level1">ydaniv</li>
+<li class="level1">emilio</li>
+<li class="level1">fantasai</li>
+<li class="level1">JoshT</li>
+<li class="level1">kbabbitt</li>
+</ol><h3 id="ad-hoc-scribes">Ad-Hoc Scribes</h3>
+<p>
+Some people would like to help with scribing, but are unable to commit to being on the scribe rota. Those people can sign up to be ad-hoc scribes.
+</p>
+
+<p>
+Ad-hoc scribes can help to scribe when:
+</p>
+<ul>
+<li class="level1">we need someone to scribe for the main scribe when they speak</li>
+<li class="level1">the main scribe is unable to scribe, and they weren&#039;t able to tell us in advance of the meeting</li>
+<li class="level1">the main scribe can&#039;t scribe for the entire call</li>
+</ul>
+
+<p>
+The following people are signed up to be ad-hoc scribes. We are always looking for new scribes, so if you&#039;re willing to scribe, please add your name. If you no longer wish to do it, you can remove your name from the list at any time.
+</p>
+
+<p>
+(Alphabetical by <abbr title="Internet Relay Chat">IRC</abbr> nickname)
+</p>
+<ul>
+<li class="level1">bramus</li>
+</ul>
+</main>
+</body>
+</html>

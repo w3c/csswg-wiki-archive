@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>W3C Workshop on CSS Print - CSS Working Group Wiki (Archive)</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
+  color: #1f2328; background: #fff;
+}
+.archive-banner {
+  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
+  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
+}
+.archive-banner strong { color: #6e5600; }
+header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
+header h1 { margin: 0; font-size: 1.25em; }
+header h1 a { color: #0366d6; text-decoration: none; }
+header h1 a:hover { text-decoration: underline; }
+nav { margin-top: 0.5em; font-size: 0.9em; }
+nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
+nav a:hover { color: #0366d6; }
+h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
+h1:first-child { margin-top: 0; }
+a { color: #0366d6; }
+code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
+pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
+th { background: #f6f8fa; }
+img { max-width: 100%; }
+.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
+.breadcrumb a { color: #656d76; }
+ul, ol { padding-left: 1.5em; }
+li { margin: 0.25em 0; }
+.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
+abbr { text-decoration: underline dotted; cursor: help; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0d1117; color: #e6edf3; }
+  .archive-banner { background: #3d2e00; border-color: #6e5600; }
+  .archive-banner strong { color: #f0c000; }
+  header { border-bottom-color: #30363d; }
+  header h1 a { color: #58a6ff; }
+  nav a { color: #8b949e; }
+  nav a:hover { color: #58a6ff; }
+  h1, h2, h3, h4 { color: #e6edf3; }
+  a { color: #58a6ff; }
+  code, pre { background: #161b22; }
+  th, td { border-color: #30363d; }
+  th { background: #161b22; }
+  .breadcrumb, .breadcrumb a { color: #8b949e; }
+  .plugin_note { background: #161b22; border-color: #58a6ff; }
+}
+</style>
+</head>
+<body>
+<div class="archive-banner">
+<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
+The original wiki was hosted at wiki.csswg.org.
+</div>
+<header>
+<h1><a href="/">CSS Working Group Wiki</a></h1>
+<nav>
+<a href="/">Home</a>
+<a href="/spec/">Specs</a>
+<a href="/ideas/">Ideas</a>
+<a href="/test/">Testing</a>
+<a href="/wiki/">About</a>
+</nav>
+</header>
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/planning/">planning</a> / print-workshop-2020</div>
+<main>
+<!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><a href="#w3c-workshop-on-css-print">W3C Workshop on CSS Print</a><ul class="toc">
+<li class="level2"><a href="#goals">Goals</a></li>
+<li class="level2"><a href="#schedule">Schedule</a></li>
+<li class="level2"><a href="#how-to-participate">How to participate</a></li>
+<li class="level2"><a href="#submitting-position-paper">Submitting position paper</a><ul class="toc">
+<li class="level3"><a href="#position-papers-received">Position Papers Received</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#participants">Participants</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 id="w3c-workshop-on-css-print">W3C Workshop on CSS Print</h1>
+<p>
+<strong>Date:</strong> February 13th, 2020
+</p>
+
+<p>
+<strong>Location:</strong> University of Economics, Prague, Czech Republic as a part of <a href="http://xmlprague.cz" title="http://xmlprague.cz" rel="noopener">XML Prague conference</a>
+</p><h2 id="goals">Goals</h2>
+<ul>
+<li class="level1">Identify status of individual <abbr title="Cascading Style Sheets">CSS</abbr> Print related specs and see if and how they can be moved to REC status in order to send positive signal about maturity of technology to users and publishing industry</li>
+<li class="level1 node">Identify what is needed in order to move forward, e.g.:<ul>
+<li class="level2">more editorial resources</li>
+<li class="level2">create tests</li>
+<li class="level2">involvement from implementers</li>
+<li class="level2">identify incompatibilities between implementations</li>
+<li class="level2">collect new requirements (common vendor extension, features from XSL-FO, <a href="https://www.w3.org/TR/xslfo20-req/WD-xslfo20-req.html" title="https://www.w3.org/TR/xslfo20-req/WD-xslfo20-req.html" rel="noopener">https://www.w3.org/TR/xslfo20-req/WD-xslfo20-req.html</a>)</li>
+<li class="level2">…</li>
+</ul>
+</li>
+<li class="level1">Recruit fresh blood to help with tasks above</li>
+<li class="level1">Briefly explain how <abbr title="Cascading Style Sheets">CSS</abbr> WG works and how specs are developed and implemented</li>
+</ul><h2 id="schedule">Schedule</h2>
+<p>
+15:00 Introducing how <abbr title="World Wide Web Consortium">W3C</abbr> <abbr title="Cascading Style Sheets">CSS</abbr> WG works (Rachel Andrew) – <a href="https://noti.st/rachelandrew/Hy20NS/introduction-to-the-css-working-group" title="https://noti.st/rachelandrew/Hy20NS/introduction-to-the-css-working-group" rel="noopener">presentation</a>
+</p>
+
+<p>
+15:30 Presentation of position papers
+</p>
+
+<p>
+15:30 Antenna House (Michael Miller) – <a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0017/Antenna_House_CSS_Position.pdf" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0017/Antenna_House_CSS_Position.pdf" rel="noopener">position paper</a> – <a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0035/CSSWG_Antenna_House_XML_Prague_2020.pdf" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0035/CSSWG_Antenna_House_XML_Prague_2020.pdf" rel="noopener">presentation</a>
+</p>
+
+<p>
+15:40 Compart (Katharina Udemadu) – <a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0018/Compart-CssPositionPaper.pdf" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0018/Compart-CssPositionPaper.pdf" rel="noopener">position paper</a> – <a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0036/Compart-PositionPaper.pdf" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0036/Compart-PositionPaper.pdf" rel="noopener">presentation</a>
+</p>
+
+<p>
+15:50 Hachette (Dave Cramer) – <a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0016/Prague-cramer.pdf" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0016/Prague-cramer.pdf" rel="noopener">position paper</a> – <a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0032/Cramer-PrintWorkshop-XMLPrague.pdf" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0032/Cramer-PrintWorkshop-XMLPrague.pdf" rel="noopener">presentation</a>
+</p>
+
+<p>
+16:00 Andreas Jung – <a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0034/01-part" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0034/01-part" rel="noopener">presentation</a>
+</p>
+
+<p>
+16:10 paged.js (Julie Blanc) – <a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0019/position-paper-w3C-workshop.html" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0019/position-paper-w3C-workshop.html" rel="noopener">position paper</a> – <a href="http://slides.julie-blanc.fr/20200213_W3C-prague.html" title="http://slides.julie-blanc.fr/20200213_W3C-prague.html" rel="noopener">presentation</a>
+</p>
+
+<p>
+16:20 Liam Quin – <a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0020/2020-02-css-workshop.pdf" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0020/2020-02-css-workshop.pdf" rel="noopener">position paper</a> – <a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0038/02-css-workshop-prague.pdf" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0038/02-css-workshop-prague.pdf" rel="noopener">presentation</a>
+</p>
+
+<p>
+16:30 Coffee break
+</p>
+
+<p>
+17:00 Discussion
+</p>
+
+<p>
+18:30 End of workshop
+</p><h2 id="how-to-participate">How to participate</h2>
+<p>
+Workshop is open to anyone. However as it is organized as a part of <a href="http://xmlprague.cz" title="http://xmlprague.cz" rel="noopener">XML Prague conference</a> attendees need to <a href="https://www.xmlprague.cz/conference-registration/" title="https://www.xmlprague.cz/conference-registration/" rel="noopener">register for XML Prague</a>. For those who are not interested in other days of XML Prague there is special pass for only 40 € for workshop day. This will include lunch and two coffee breaks.
+</p>
+
+<p>
+There will be tutorial for people who are not yet familiar with using <abbr title="Cascading Style Sheets">CSS</abbr> for producing print output from 12:00.
+</p>
+
+<p>
+If you are implementer or heavy user of <abbr title="Cascading Style Sheets">CSS</abbr> Print we would like to get your feedback about the current state of technology and related <abbr title="Cascading Style Sheets">CSS</abbr> specifications. Please submit position paper. During workshop you will be able to present your position paper and later on discuss it. Length of individual presentation slots will be allocated once we know many position papers we have received.
+</p><h2 id="submitting-position-paper">Submitting position paper</h2>
+<p>
+Please submit position papers by sending email to mailing list <a href="mailto:&#112;&#117;&#98;&#108;&#105;&#99;&#45;&#99;&#115;&#115;&#45;&#112;&#114;&#105;&#110;&#116;&#64;&#119;&#51;&#46;&#111;&#114;&#103;" class="mail" title="&#112;&#117;&#98;&#108;&#105;&#99;&#45;&#99;&#115;&#115;&#45;&#112;&#114;&#105;&#110;&#116;&#64;&#119;&#51;&#46;&#111;&#114;&#103;">&#112;&#117;&#98;&#108;&#105;&#99;&#45;&#99;&#115;&#115;&#45;&#112;&#114;&#105;&#110;&#116;&#64;&#119;&#51;&#46;&#111;&#114;&#103;</a>
+Please note that you must first subscribe to the mailing list by sending email to the following email address:
+<a href="mailto:&#112;&#117;&#98;&#108;&#105;&#99;&#45;&#99;&#115;&#115;&#45;&#112;&#114;&#105;&#110;&#116;&#45;&#114;&#101;&#113;&#117;&#101;&#115;&#116;&#64;&#119;&#51;&#46;&#111;&#114;&#103;" class="mail" title="&#112;&#117;&#98;&#108;&#105;&#99;&#45;&#99;&#115;&#115;&#45;&#112;&#114;&#105;&#110;&#116;&#45;&#114;&#101;&#113;&#117;&#101;&#115;&#116;&#64;&#119;&#51;&#46;&#111;&#114;&#103;">&#112;&#117;&#98;&#108;&#105;&#99;&#45;&#99;&#115;&#115;&#45;&#112;&#114;&#105;&#110;&#116;&#45;&#114;&#101;&#113;&#117;&#101;&#115;&#116;&#64;&#119;&#51;&#46;&#111;&#114;&#103;</a>
+</p>
+
+<p>
+Archives of the mailing list are available at <a href="https://lists.w3.org/Archives/Public/public-css-print/" title="https://lists.w3.org/Archives/Public/public-css-print/" rel="noopener">https://lists.w3.org/Archives/Public/public-css-print/</a>
+</p>
+
+<p>
+Deadline for sending position papers is February 3rd, 2020.
+</p><h3 id="position-papers-received">Position Papers Received</h3>
+<ul>
+<li class="level1"><a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0016.html" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0016.html" rel="noopener">Dave Cramer, Hachette Livre</a></li>
+<li class="level1"><a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0017.html" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0017.html" rel="noopener">Michael Miller, AntennaHouse</a></li>
+<li class="level1"><a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0018.html" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0018.html" rel="noopener">Katharina Udemadu, Compart</a></li>
+<li class="level1"><a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0019.html" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0019.html" rel="noopener">Julie Blanc, paged.js</a></li>
+<li class="level1"><a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0020.html" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0020.html" rel="noopener">Liam Quin, Delightful Computing</a></li>
+<li class="level1"><a href="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0021.html" title="https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0021.html" rel="noopener">Guillaume Ayoub, WeasyPrint</a></li>
+</ul><h2 id="participants">Participants</h2>
+<p>
+<strong>From <abbr title="Cascading Style Sheets">CSS</abbr> WG:</strong> Rachel Andrew, Jirka Kosek, Dave Cramer
+</p>
+
+<p>
+<strong>Implementers:</strong> Antenna House
+</p>
+
+<p>
+<strong>Users of <abbr title="Cascading Style Sheets">CSS</abbr> Print:</strong> 20-60 people expected
+</p>
+</main>
+</body>
+</html>

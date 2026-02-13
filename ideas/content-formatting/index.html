@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Content Data Functions - CSS Working Group Wiki (Archive)</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
+  color: #1f2328; background: #fff;
+}
+.archive-banner {
+  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
+  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
+}
+.archive-banner strong { color: #6e5600; }
+header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
+header h1 { margin: 0; font-size: 1.25em; }
+header h1 a { color: #0366d6; text-decoration: none; }
+header h1 a:hover { text-decoration: underline; }
+nav { margin-top: 0.5em; font-size: 0.9em; }
+nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
+nav a:hover { color: #0366d6; }
+h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
+h1:first-child { margin-top: 0; }
+a { color: #0366d6; }
+code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
+pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
+th { background: #f6f8fa; }
+img { max-width: 100%; }
+.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
+.breadcrumb a { color: #656d76; }
+ul, ol { padding-left: 1.5em; }
+li { margin: 0.25em 0; }
+.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
+abbr { text-decoration: underline dotted; cursor: help; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0d1117; color: #e6edf3; }
+  .archive-banner { background: #3d2e00; border-color: #6e5600; }
+  .archive-banner strong { color: #f0c000; }
+  header { border-bottom-color: #30363d; }
+  header h1 a { color: #58a6ff; }
+  nav a { color: #8b949e; }
+  nav a:hover { color: #58a6ff; }
+  h1, h2, h3, h4 { color: #e6edf3; }
+  a { color: #58a6ff; }
+  code, pre { background: #161b22; }
+  th, td { border-color: #30363d; }
+  th { background: #161b22; }
+  .breadcrumb, .breadcrumb a { color: #8b949e; }
+  .plugin_note { background: #161b22; border-color: #58a6ff; }
+}
+</style>
+</head>
+<body>
+<div class="archive-banner">
+<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
+The original wiki was hosted at wiki.csswg.org.
+</div>
+<header>
+<h1><a href="/">CSS Working Group Wiki</a></h1>
+<nav>
+<a href="/">Home</a>
+<a href="/spec/">Specs</a>
+<a href="/ideas/">Ideas</a>
+<a href="/test/">Testing</a>
+<a href="/wiki/">About</a>
+</nav>
+</header>
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/ideas/">ideas</a> / content-formatting</div>
+<main>
+<!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><a href="#content-data-functions">Content Data Functions</a><ul class="toc">
+<li class="level2"><a href="#date">Date</a></li>
+<li class="level2"><a href="#document-url">Document URL</a></li>
+<li class="level2"><a href="#numbers">Numbers</a><ul class="toc">
+<li class="level3"><a href="#rationale">Rationale</a></li>
+<li class="level3"><a href="#new-css-rules">New CSS rules</a></li>
+<li class="level3"><a href="#example-css">Example CSS</a></li>
+<li class="level3"><a href="#parsing">Parsing</a></li>
+<li class="level3"><a href="#remarks">Remarks</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 id="content-data-functions">Content Data Functions</h1>
+<p>
+This page lists and describes data functions that are needed for use in the &#039;content&#039; property.
+</p><h2 id="date">Date</h2>
+<p>
+A function that returns the current date/time is needed for print headers.
+</p><h2 id="document-url">Document URL</h2>
+<p>
+A function that returns the document&#039;s <abbr title="Uniform Resource Locator">URL</abbr> or other identifier is also  needed for print headers.
+</p><h2 id="numbers">Numbers</h2>
+<p>
+Proposal (draft)
+</p>
+
+<p>
+Add a <abbr title="Cascading Style Sheets">CSS</abbr> module for numbers
+</p>
+
+<p>
+Use XSLT&#039;s format-number syntax as a starting ground
+</p><h3 id="rationale">Rationale</h3>
+<ul>
+<li class="level1">i18n - numbers are displayed in many different ways across the world</li>
+<li class="level1">Enhanced usability, without sacrificing accessibility or scriptability. Grouping numbers in thousands or in pairs will make the easier to read for most users. We do want to suppress line breaks, though.</li>
+<li class="level1">Enhanced accessibility, without sacrificing usability or scriptability. When numbers are grouped it will be very hard to make some heuristics for screen readers to separate instances where it is useful to insert words like “million” and “thousand” and when such words would actually be a nuisance.</li>
+</ul>
+
+<p>
+This is a question about visual presentation. As such it should be handled with <abbr title="Cascading Style Sheets">CSS</abbr>.
+No other technology can be made media-specific.
+</p>
+
+<p>
+The ability to format numbers without changing their actual value is a common practice in spreadsheet software, and should be just as easy on the web.
+</p><h4 id="example-html">Example HTML</h4>
+<pre class="code">&lt;span class=&quot;phone&quot;&gt;123467&lt;/span&gt;</pre>
+
+<p>
+Should be displayed and spoken as “12 34 56”
+</p>
+<pre class="code">&lt;td class=&quot;price&quot;&gt;987654321&lt;/td&gt;</pre>
+
+<p>
+Should be displayed as [987,654,321.00 USD] and spoken as 
+“nine hundred and eighty seven million six hundred and fifty four thousand three hundred and twenty
+one point zero zero US dollars”
+</p>
+<pre class="code">&lt;td class=&quot;sweprice&quot;&gt;987654321&lt;/td&gt;</pre>
+
+<p>
+Should be displayed as [987 654 321,00 SEK] and spoken as 
+“nine hundred and eighty seven million six hundred and fifty four thousand three hundred and twenty
+one <strong>comma</strong> zero zero Swedish crowns”
+</p>
+<pre class="code">&lt;span class=&quot;creditcard&quot;&gt;1234567890123456&lt;/span&gt;</pre>
+
+<p>
+Should be displayed as <code>1234 5678 9012 3456</code> and spoken as <code>12 34 56 78 90 12 34 56</code>
+</p><h3 id="new-css-rules">New CSS rules</h3><h4 id="decimal-format">@decimal-format</h4>
+<p>
+This rule draws its ideas from xsl:decimal-format.
+</p>
+
+<p>
+It is used to specify the same things as its XSL counterpart, e.g. grouping and decimal separators.
+</p><h4 id="number-format">number-format</h4>
+<p>
+This rule draws its ideas from xsl:number-format. It shall be used to format actual output.
+</p>
+
+<p>
+It consists of two parts for its value. A string that is identical to the second argument in XSL number format, and an
+optional reference to a decimal format, specified with an “at-rule” (see above).
+</p><h3 id="example-css">Example CSS</h3>
+<pre class="code">@decimal-format phone {
+  grouping-separator: &quot; &quot;;
+}
+@decimal-format price {
+  grouping-separator: &quot;,&quot;;
+  decimal-separator : &quot;.&quot;
+}
+@decimal-format sweprice {
+  grouping-separator: &quot; &quot;;
+  decimal-separator : &quot;,&quot;
+}
+@decimal-format creditcard {
+  grouping-separator: &quot; &quot;;
+}
+@media all {
+  td.phone {
+      number-format: &quot;## ##&quot;, &quot;phone&quot;;
+  }
+}
+@media screen {
+  td.price {
+      number-format: &quot;###,##0.00&quot;, &quot;price&quot;;
+      /* price is actually redundant as this format would be the default */
+  }
+  td.price::after {
+      content: &quot; USD&quot;;
+  }
+  td.sweprice {
+      number-format: &quot;### ##0,00&quot;, &quot;sweprice&quot;;
+  }
+  .creditcard {
+      number-format: &quot;#### ####&quot;, &quot;creditcard&quot;;
+  }
+  td.sweprice::after {
+      content: &quot; SEK&quot;;
+  }
+}
+@media speech {
+  /* 
+      Grouping both unnecessary and unwanted, words like
+     &quot;billion&quot;, &quot;million&quot; and &quot;thousand&quot; should be spelled out
+     Those words should only be spelled out by a screen reader when
+     grouping is not specified.
+  */ 
+  td.price {
+      number-format: &quot;0.00&quot;, &quot;price&quot;;
+  }
+  td.sweprice {
+      number-format: &quot;0,00&quot;, &quot;sweprice&quot;;
+  }
+  td.price::after {
+      content: &quot; US dollars&quot;;
+  }
+  td.sweprice::after {
+      content: &quot; Swedish crowns&quot;;
+  }
+  .creditcard {
+      /* Speak numbers in pairs, no nead to hear the word &quot;thousand&quot; */
+      number-format: &quot;## ## ## ##&quot;, &quot;creditcard&quot;;
+  }
+}</pre><h3 id="parsing">Parsing</h3>
+<p>
+When an UA sees that an element has a number format rule, it should try to convert that elements textcontent to a number.
+</p>
+
+<p>
+If such a conversion is not possible, the <abbr title="Cascading Style Sheets">CSS</abbr> rule should be ignored. This rules is <strong>primarily</strong> intended for table cells, short headings, simple inline elements such as span, some form elements and perhaps a new number element.
+</p><h3 id="remarks">Remarks</h3>
+<p>
+If possible, it would be convenient to add number-format to cols and colgroups!
+</p>
+
+<p>
+Additional inspiration:
+</p>
+<ul>
+<li class="level1">mso-number-format</li>
+<li class="level1">ICU</li>
+</ul>
+
+<p>
+Note to <abbr title="HyperText Markup Language">HTML</abbr> WG:
+</p>
+<ul>
+<li class="level1">Add browser parsing rules</li>
+<li class="level1">Purpose: Provide formatted <abbr title="HyperText Markup Language">HTML</abbr> ouput as a fallback to older browsers</li>
+</ul>
+<ol>
+<li class="level1">Remove all non numeric characters from the nodevalue, except the decimal separator.</li>
+<li class="level1">Add that value to a DOM-property: E.numericValue</li>
+</ol>
+
+<p>
+Example &lt;td&gt;$ 200,000&lt;/td&gt; should be interpreted as 200000 so a script
+could access the value.
+</p>
+
+<p>
+In the abscence of <abbr title="Cascading Style Sheets">CSS</abbr>-rules that DOM-property could be used by assistive
+technologies as well.
+</p>
+
+<p>
+Perhaps the value could also be set as an attribute:
+&lt;td numericValue=“43218765”&gt;43,218,765&lt;/td&gt;
+</p>
+</main>
+</body>
+</html>

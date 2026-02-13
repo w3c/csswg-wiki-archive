@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Specification Status Scratchspace - CSS Working Group Wiki (Archive)</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
+  color: #1f2328; background: #fff;
+}
+.archive-banner {
+  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
+  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
+}
+.archive-banner strong { color: #6e5600; }
+header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
+header h1 { margin: 0; font-size: 1.25em; }
+header h1 a { color: #0366d6; text-decoration: none; }
+header h1 a:hover { text-decoration: underline; }
+nav { margin-top: 0.5em; font-size: 0.9em; }
+nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
+nav a:hover { color: #0366d6; }
+h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
+h1:first-child { margin-top: 0; }
+a { color: #0366d6; }
+code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
+pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
+th { background: #f6f8fa; }
+img { max-width: 100%; }
+.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
+.breadcrumb a { color: #656d76; }
+ul, ol { padding-left: 1.5em; }
+li { margin: 0.25em 0; }
+.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
+abbr { text-decoration: underline dotted; cursor: help; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0d1117; color: #e6edf3; }
+  .archive-banner { background: #3d2e00; border-color: #6e5600; }
+  .archive-banner strong { color: #f0c000; }
+  header { border-bottom-color: #30363d; }
+  header h1 a { color: #58a6ff; }
+  nav a { color: #8b949e; }
+  nav a:hover { color: #58a6ff; }
+  h1, h2, h3, h4 { color: #e6edf3; }
+  a { color: #58a6ff; }
+  code, pre { background: #161b22; }
+  th, td { border-color: #30363d; }
+  th { background: #161b22; }
+  .breadcrumb, .breadcrumb a { color: #8b949e; }
+  .plugin_note { background: #161b22; border-color: #58a6ff; }
+}
+</style>
+</head>
+<body>
+<div class="archive-banner">
+<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
+The original wiki was hosted at wiki.csswg.org.
+</div>
+<header>
+<h1><a href="/">CSS Working Group Wiki</a></h1>
+<nav>
+<a href="/">Home</a>
+<a href="/spec/">Specs</a>
+<a href="/ideas/">Ideas</a>
+<a href="/test/">Testing</a>
+<a href="/wiki/">About</a>
+</nav>
+</header>
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/planning/">planning</a> / status</div>
+<main>
+<h1 id="specification-status-scratchspace">Specification Status Scratchspace</h1>
+<p>
+This is scratch space for tracking the state of the <abbr title="Cascading Style Sheets">CSS</abbr> specs and what needs to be done for each. <strong>It is not an exhaustive to-do list.</strong> It&#039;s mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors&#039; heads.)
+</p>
+
+<p>
+It was last updated on 25 October 2017 and tracks backwards through about August 2013 or so.
+</p>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Animation Scrolling</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0357.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0357.html" rel="noopener">Please see minutes for all of the tasks pertaining to this spec.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Animations</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html" rel="noopener">Resolved: Accept strings as animation-names</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/" title="https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/" rel="noopener">Resolved: No animation events when subtrees are destroyed.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html" title="https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html" rel="noopener">Resolved: In level 1 of Animations we describe the current behavior of findRule and deleteRule</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html" title="https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html" rel="noopener">Resolved: Make appendRule always add at the end of the keyframe no matter if the key already exists</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html" title="https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html" rel="noopener">Resolved: No change for now for “Should CSSKeyframesRule inherit from CSSGroupingRule” bug (available here).</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/12/18/minutes-telecon-232/" title="https://www.w3.org/blog/CSS/2014/12/18/minutes-telecon-232/" rel="noopener">Resolved: For multiple values we expect the number and order of values to match, but whitespace will be trimmed by browser. As long as number and order is good, you’ll get the last rule that matches.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/" title="https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/" rel="noopener">Resolved: Keywords are invalid @keyframes names and will throw an error when set through the OM</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/" title="https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/" rel="noopener">Resolved: findRule/deleteRule return/delete the last rule with the specified key.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/" title="https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/" rel="noopener">Resolved: Animation properties don’t apply inside @keyframe rules except the animation timing function (where we have explainer text already)</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/" title="https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/" rel="noopener">Resolved: animation-fill-mode applies whenever it’s updated.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html" title="https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html" rel="noopener">Resolved: Use Option G Beta.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html" title="https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html" rel="noopener">Resolved: Animations and Transitions both really do have the behavior that non-interpolable properties switch at 50% of the timing function.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html" title="https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html" rel="noopener">ACTION: TabAtkins to write up proposal for www-style
+  &lt;trackbot&gt; Created ACTION-636</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html" title="https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html" rel="noopener">Resolved: When animation-duration:0s, start/end events fire with 0 elapsedTime.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html" title="https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html" rel="noopener">Resolved: Iteration events only fire for iterations that are actually run e.g. those not ‘absorbed’ by a negative delay.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html" rel="noopener">Resolved: Remove bit about waiting for document load event before starting animations.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/" title="https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/" rel="noopener">Resolved: Use percentage values for key arguments and map from/to keywords to 0% and 100% respectively in Animations.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/" title="https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/" rel="noopener">Resolved: Keytext on setting invalid value should throw an error in Animations.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/" title="https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/" rel="noopener">Resolved: Defer new timing keywords for bounce animations to level 2.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/" title="https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/" rel="noopener">Resolved: Defer a new steps() timing function to level 2.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/" title="https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/" rel="noopener">Resolved: Accept the edit proposed in this e-mail.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/" title="https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/" rel="noopener">Resolved: Inserting an @keyframe rule if it wasn’t there starts an animation.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2012Apr/0110.html" title="https://lists.w3.org/Archives/Public/www-style/2012Apr/0110.html" rel="noopener">Note about seizures?</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Block Layout</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html" rel="noopener">Resolved: 0px width float that is next to a line box does count as shortening a line box</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Compositing</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/06/26/minutes-telecon-216/" title="https://www.w3.org/blog/CSS/2014/06/26/minutes-telecon-216/" rel="noopener">Resolved: Solve background-blend on the root element as Rik requests.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Containment</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0039.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0039.html" rel="noopener">Resolved: Accept #3 from the e-mail (Overflow is allowed visually, but it doesn’t project its “geometry” past the layout-contained ancestor, so it can’t trigger overflow past a layout-containment boundary) and say hit testing is currently undefined.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0039.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0039.html" rel="noopener">Resolved: Mark the undefined hit testing as an issue.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html" title="https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html" rel="noopener">ACTION TabAtkins ask his implementor about layout containment and overflow.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/08/06/minutes-telecon-258/" title="https://www.w3.org/blog/CSS/2015/08/06/minutes-telecon-258/" rel="noopener">Resolved: Clarify contain to make sure it specifies the order of operations.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" rel="noopener">Remove any mention of overflow:clip from the containment spec and change section 3.3 to define that clipping happens (just not by affecting value of&#039;overflow&#039;).</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Colors</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" rel="noopener">Resolved: Not breaking on nbsp; for the break-all value.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" rel="noopener">Resolved: break-all should do the same as normal for preserved spaces</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" rel="noopener">Resolved: break-spaces goes into overflow-wrap instead of word-break</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" rel="noopener">Resolved: Keep current hanging-punctuation values in Level 3.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" rel="noopener">Resolved: Add note that more non-CJK-relevant keywords will be added to Level 4</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/" title="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/" rel="noopener">ACTION: ask ICC guys how authors can choose colors outside  sRGB. SteveZ ask authoring tool people how authors can specify  colors outside sRGB.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jan/0605.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jan/0605.html" rel="noopener">Resolved: Add this property/functionality to Color 4 with names TBD.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/07/31/minutes-telecon-221/" title="https://www.w3.org/blog/CSS/2014/07/31/minutes-telecon-221/" rel="noopener">Resolved: Accept rgb() with single values and rgba() with 2 values and keep exploring other potential values.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Colors 4</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html" rel="noopener">Resolved: Accept the changes in this commit: https://github.com/w3c/csswg-drafts/commit/054f195a222718e182352a0ff1f87affaafb7114 to allow percentages as a resolved type.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html" rel="noopener">Resolved: Hoist opacity from table box to its wrapper box</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html" rel="noopener">Resolved: Use this color syntax: color( [ &lt;colorspace&gt;? [ &lt;number&gt;+ | &lt;string&gt; ] [ / &lt;alpha&gt; ]? ]# [ , &lt;color&gt; ]? )</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html" rel="noopener">Resolved: Backport slash to the short functions like: rgb( [&lt;r&gt;, &lt;g&gt;, &lt;b&gt;] | [ &lt;r&gt; &lt;g&gt; &lt;b&gt; [ / &lt;alpha&gt; ] )</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html" rel="noopener">Resolved: Add AbobeRGB and ProPhotoRGB as predefined spaces. Allow either the table of numbers or an ICC v.4 profile with relative colorimetric intent</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html" rel="noopener">Resolved: Add a single CMYK profile, with relative colorimetric intent, mainly to use as a fallback</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html" rel="noopener">Resolved: All alpha for color functions can be &lt;number&gt; and &lt;percentage&gt;</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html" rel="noopener">Resolved: Opacity also takes &lt;number&gt; or &lt;percentage&gt;</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html" rel="noopener">Resolved: rgb() should be extended to allow an optional alpha. Likewise hsl(). Pending compat analysis by TabAtkins</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html" rel="noopener">Action-782: TabAtkins figure out if there&#039;s compat risk on &quot;rgb()should be extended to allow an optional alpha. Likewise hsl()&quot;</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html" rel="noopener">Resolved: Do black point compensation when converting from profile to another.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html" rel="noopener">Resolved: If you accurately describe the output device&#039;s color profile in an @color-profile rule then a sane implementation will not alter your colors so this is sufficient as a replacement for device-cmyk in general and provides a good RGB fallback automatically.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" rel="noopener">Resolved: Add ChrisL as co-editor on CSS4 color</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" rel="noopener">Resolved: Pull in SVG2 color section into CSS4 color</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" rel="noopener">Resolved: rgb() and rgba() will accent number rather than integer</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" rel="noopener">Resolved: Allow angle in place of number for hues</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" rel="noopener">Resolved: Accept percentage as alpha-value</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" rel="noopener">Resolved: Accept rgba hex colors</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" rel="noopener">Resolved: No change to number of arguments to rgb/hsl</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html" rel="noopener">Resolved: Add color-correction property to CSS4 color draft, with issue about the problem it’s trying to solve and consideration that it might not be the right solution.</a></dd>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/729" title="https://www.w3.org/Style/CSS/Tracker/actions/729" rel="noopener">Drop color-correction property</a></dd>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/728" title="https://www.w3.org/Style/CSS/Tracker/actions/728" rel="noopener">Propose color profile feature for css</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Contain</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0210.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0210.html" rel="noopener">RESOLVED: Publish FPWD of css-contain-1 after edits on overflow dependency</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> CSS2.1</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html" rel="noopener">Resolved: Make the changes listed in css2.1 and position (Issues: https://github.com/w3c/csswg-drafts/issues/1436#issuecomment-313215820 )</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html" rel="noopener">Resolved: Add gsnedders as editor to CSS2.2</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/" title="https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/" rel="noopener">Resolved: Accept Myles’ proposal to make baseline of overflow non-visible inline blocks the higher of the actual baseline (at initial scroll position) and the margin-box bottom. Separately investigate whether to switch from margin-box bottom to padding-box bottom for sanity. (requries web-compat check)</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Sep/0252.html" title="https://lists.w3.org/Archives/Public/www-style/2015Sep/0252.html" rel="noopener">Resolved: Moving a float to the next fragmentainer does not move in-flow content that comes after the float. (However, per CSS2.1, subsequent floats do move down.)</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html" title="https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html" rel="noopener">Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Jul/0032.html" title="https://lists.w3.org/Archives/Public/www-style/2015Jul/0032.html" rel="noopener">ACTION Bert to take Rossen&#039;s text and export it to level 2 &lt;trackbot&gt; Created ACTION-699.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/05/27/minutes-new-york-f2f-ii/" title="https://www.w3.org/blog/CSS/2015/05/27/minutes-new-york-f2f-ii/" rel="noopener">Resolved: FPWD of CSS2.2.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/05/27/minutes-new-york-f2f-ii/" title="https://www.w3.org/blog/CSS/2015/05/27/minutes-new-york-f2f-ii/" rel="noopener">Resolved: Republish CSS2.1 with more angry red boxes.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" title="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" rel="noopener">Resolved: Change the 3rd bullet point of margin collapsing (CSS 2.1 section 8.3.1): Bottom margin of last inflow child and the bottom margin of parent, no longer collapse if the parent has non-zero min-height and the bottom margin of the last inflow child collapses with the top margin of the parent. Exact changes pending more testing.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" title="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" rel="noopener">Resolved: Backport @charset parsing rules from CSS3 to CSS2.1. dbaron to propose errata; zcorpan to update tests.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" title="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" rel="noopener">ACTION fantasai: propose errata for margin collapsing issue&lt;trackbot&gt; Created ACTION-666</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" title="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" rel="noopener">ACTION dbaron: propose errata for @charset in 2.1 that brings it into alignment with CSS3 Syntax&lt;trackbot&gt; Created ACTION-665</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" title="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" rel="noopener">ACTION zcorpan edit CSS 2.1 @charset tests to make them compliant with CSS3 syntax Created ACTION-667</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" title="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" rel="noopener">Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Backgrounds 3</span></dt>
+<dd> Bikeshedify and publish</dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Conditional Rules</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html" rel="noopener">Resolved: Add @else to the next level of conditionals pending review by dbaron.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Forms</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/18/minutes-telecon-278/" title="https://www.w3.org/blog/CSS/2016/03/18/minutes-telecon-278/" rel="noopener">TabAtkins will write up a proposal for checkbox and radio buttons for next week detailing his thoughts while everyone else reviews the e-mails.</a></dd>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/673" title="https://www.w3.org/Style/CSS/Tracker/actions/673" rel="noopener">Make page of all form controls</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Logical Properties</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html" rel="noopener">Resolved: adopt inset as the new positioning property name that’s used for shorthand</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html" rel="noopener">Action: fremy to create a poll to get more data on the inset name</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> OM</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html" title="https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html" rel="noopener">Resolved: Make color properties return used value as resolved value</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/05/07/minutes-telecon-247/" title="https://www.w3.org/blog/CSS/2015/05/07/minutes-telecon-247/" rel="noopener">Resolved: Accept the behavior of document.scrollingElement but add more definition.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/" title="https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/" rel="noopener">Resolved: Change the behavior of setProperty() according to last week’s proposal following Rossen’s approval.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html" rel="noopener">Resolved: setProperty‘s handling of importance logically behaves same as appending a declaration (like IE/WebKit).</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html" rel="noopener">Resolved: Add a setPropertyValue and setPropertyPriority application programming interfaces.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> OM View</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html" title="https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html" rel="noopener">Resolved: Adopt the Gecko/Edge behavior and specify that .offsetParent is based on the nearest abspos containing block or table cell</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/" title="https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/" rel="noopener">&lt;zcorpan&gt; action spieters to reply to Boris&#039; e-mail * trackbot is creating a new ACTION. &lt;trackbot&gt; Created ACTION-655 - Reply to boris&#039; e-mail [on Simon Pieters - due 2014-10-08].</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Apr/0443.html" title="https://lists.w3.org/Archives/Public/www-style/2016Apr/0443.html" rel="noopener">Resolved: When a range endpoint falls in the middle of a grapheme cluster, Range.getClientRects() should include the entire grapheme cluster.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Overflow 3</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0231.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0231.html" rel="noopener">RESOLVED: Publish a new WD for overflow</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Overflow 4</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" title="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" rel="noopener">Resolved: FPWD of Overflow 4</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html" title="https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html" rel="noopener">Resolved: Change this (overflow:hidden not scrolling) from SHOULD to MUST.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html" title="https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html" rel="noopener">Resolved: For the quoted [Overflow spec] text we are changing SHOULD to MUST and MAY to MUST. (Text quoted here: https://github.com/w3c/csswg-drafts/issues/666)
+  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: region-break gets folded into the new property, too.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Device Adaptation</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html" title="https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html" rel="noopener">Take pull request 714: https://github.com/w3c/csswg-drafts/pull/714</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html" title="https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html" rel="noopener">Resolved: Change the &lt;meta&gt; viewport text to normative and add two issues. One to test if the description matches reality. Second is while we spec with the same mechanism there may be differences as we tease out compat.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/" title="https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/" rel="noopener">ACTION spieters Bug Rune about CSS Device Adaptation spec, what to do about it &lt;trackbot&gt; Created ACTION-649.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/" title="https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/" rel="noopener">ACTION TabAtkins: Define zooming, 2 types, for insertion into either MQ or device-adapt &lt;trackbot&gt; Created ACTION-572</a></dd>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/739" title="https://www.w3.org/Style/CSS/Tracker/actions/739" rel="noopener">Review changes in device-adaptation to see if we need a new wd or just a date bump</a></dd>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/738" title="https://www.w3.org/Style/CSS/Tracker/actions/738" rel="noopener">Review status of device adaptation</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Display 3</span></dt>
+<dd> </dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Display 4</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html" rel="noopener">Resolved: Drop inline-list-item</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html" rel="noopener">Resolved: Publish new WD of css-display</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html" rel="noopener">Resolved: Blocks are turned into inline-blocks.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html" rel="noopener">Resolved: We are provisionally going with option b (inline-block-&gt; block; inline flow-root -&gt; flow-root).</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html" rel="noopener">Resolved: Define this (Propagation of text-decoration with display:contents) as a box-tree concept.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html" rel="noopener">Resolved: Let&#039;s try it out, go forward with the diff (https://github.com/w3c/csswg-drafts/issues/1118#issuecomment-301942276)</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html" title="https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html" rel="noopener">Make display into a short hand and add an issue on naming for the long hands.</a></dd>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/613" title="https://www.w3.org/Style/CSS/Tracker/actions/613" rel="noopener">Clarify how omitted values are handled for display shorthand (and other shorthands he might&#039;ve forgotten to handle.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Exclusions</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/" title="https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/" rel="noopener">Resolved: shorten minimum/maximum to min/max in exclusions values.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" rel="noopener">RESOLVED: When a line is split by an exclusion, each side is its own line box for the purposes of bidi algorithm (i.e. they are effectively separated by a soft line wrap). Which line box is first depends on the block&#039;s directionality.</a></dd>
+</dl>
+
+<p>
+  ; Fill Stroke 3
+</p>
+<pre class="code">: [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
+: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Add -webkit-background-clip-text to the spec stating that authors must not use it but browsers may support it. (Deprecated appendix.)]]
+: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Figure out dashing origin for text or make text undashable.]]
+: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Mark stroke-align at-risk and note issues.]]</pre>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Filters</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html" rel="noopener">Tav presented a new filter primitive he&#039;d like added to level 2; dino agreed it was interesting and will look into adding it to the spec.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Flexbox</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html" rel="noopener">Resolved: Publish an updated CR of Flexbox.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Fonts 4</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html" title="https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html" rel="noopener">Resolved: Publish a new Fonts 3 CR.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html" rel="noopener">Resolved: Drop the requirement to subtract scrollbar size from vh/vw units for overflow scroll.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html" rel="noopener">Resolved: Change spec text to read first available font that would match the U+0020 (space) character. (This change will be applied to both Fonts 3 and 4)</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html" title="https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html" rel="noopener">Action Myles to respond to the dwrite issue and ChrisL&#039;s asks for font edits. &lt;trackbot&gt; Created ACTION-838</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/07/03/minutes-telecon-218/" title="https://www.w3.org/blog/CSS/2014/07/03/minutes-telecon-218/" rel="noopener">Resolved: Add min and max font-size properties. Define whether these properties affect the computed font size.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Font Loading</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/" title="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/" rel="noopener">Resolved: font-loading control is only an @font-face descriptor, not a property.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/" title="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/" rel="noopener">Resolved: accept &quot;font-display-thing-whatever-loading&quot; property with four values to be renamed later:</a> “block | swap | fallback | optional.” i.block shows blank, swaps in fallback at 3s, swaps in real font whenever it loads. ii. swap shows fallback, swaps in real font whenever it loads. iii. fallback shows fallback, swaps in real font if it loads before 3s. iv. optional shows real font if it loads from cache (very short timeout), otherwise shows fallback; optional allows UA to not continue loading the font for the next time.</dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/" title="https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/" rel="noopener">Resolved: Move Font Loading Control to the Font Loading spec.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/" title="https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/" rel="noopener">Resolved: We are recommending informatively .cur support. Normatively must support PNG and SVG and saying should support animated formats too.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/" title="https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/" rel="noopener">ACTION TabAtkins to provide more info to jdaggett&lt;trackbot&gt; Created ACTION-679.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jun/0060.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jun/0060.html" rel="noopener">Prepare for CR.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Generated Content</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" title="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" rel="noopener">Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Geometry</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html" rel="noopener">zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 </a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Grid</span></dt>
+<dd> </dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Images 3</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html" rel="noopener">Resolved: Accept the change in https://github.com/w3c/csswg-drafts/issues/1578</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017May/0010.html" title="https://lists.w3.org/Archives/Public/www-style/2017May/0010.html" rel="noopener">Resolved: Move gradient midpoint to Images L3.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017May/0010.html" title="https://lists.w3.org/Archives/Public/www-style/2017May/0010.html" rel="noopener">Resolved: Revert the edit to image-set in CSS Images.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html" title="https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html" rel="noopener">Resolved: Move everything with no impl to next level and mark everything with 1 impl as at risk.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/" title="https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/" rel="noopener">fantasai to edit CSS Image and specify how to determine the coordinate system of the image&lt;trackbot&gt; Created ACTION-683.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" title="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" rel="noopener">Resolved: Allow nearest neighbor for image rendering in both directions but allow browsers to do prettier in the down directions.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" title="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" rel="noopener">Resolved: Include image rendering in Images 3.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" title="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" rel="noopener">Resolved: Close the issue (regarding guessing resolution from file size in Images 3) with no change because we’ll fix it later in harmony with HTML.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" title="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" rel="noopener">Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html" rel="noopener">Resolved: Drop fallback from image except fallback to color. Later we introduce that fallback as an explicit function.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html" rel="noopener">Resolved: Cut out everything not defined for image-orientation, remove additions, move it to an appendix, call it obsolete and make a custom CR exit criteria stating it doesn’t need to be tested to exit CR.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" title="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" rel="noopener">Resolved: Have image set in Images 3.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" title="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" rel="noopener">Resolved: Move crossfade to Images 3.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" title="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" rel="noopener">Action TabAtkins to e-mail the list about lifting restrictions on nesting image set * trackbot is creating a new ACTION. &lt;trackbot&gt; Created ACTION-652 - E-mail the list about lifting restrictions on nesting image set -on Tab Atkins Jr. - due 2014-10-01.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html" rel="noopener">Resolved: When transitioning from plain image A to foo(A), infer the foo() on the other side (using no-op arguments).</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/" title="https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/" rel="noopener">Resolved: Allow image-resolution to accept two values (for X and Y axes) for resolution, to allow explicit values to match from-image in capabilities.
+  : [[https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/|Resolved: Clarify spec that CSS units (not physical units) are used for resolutions taken from image data.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html" rel="noopener">Resolved: Mark as open issue whether interpolating complex images with the same source (e.g. foo(A) to bar(A)) uses recursive interpolation (building a stack of compatible functions, e.g.foo(bar(A))) or just uses cross-fade().</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html" rel="noopener">Resolved: Accept proposal to shift misordered gradient stop fixup rules to after missing position interpolation and transition interpolation in order to make transitions layout-independent.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html" rel="noopener">Resolved: No magic length interpolation for angle transitions in linear-gradient().</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html" rel="noopener">Resolved: Cannot interpolate to/from gradients with keyword direction unless using the same keyword.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Image 4</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/" title="https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/" rel="noopener">Resolved: Make the image() function always respect EXIF orientation metadata in Backgrounds.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Feb/0609.html" title="https://lists.w3.org/Archives/Public/www-style/2014Feb/0609.html" rel="noopener">Resolved: Change CSS Images 4’s specification of colorless color stops to use Rik’s proposal (i.e. use power curves).</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html" title="https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html" rel="noopener">Action: krit to write up canvas for css4 images &lt;trackbot&gt; Created ACTION-588 - Write up canvas for css4 images (on Dirk Schulze - due 2013-11-17)</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html" title="https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html" rel="noopener">Resolved: The working group would like to see work on canvas for CSS Image.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html" rel="noopener">Either AmeliaBR or Tav will create a proposal to either offer author control or spec guidance for browsers on dithering.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Inline</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html" rel="noopener">Publish inline</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html" rel="noopener">Middle (half of the x height) and Alignment (synonym for text top and text bottom) baselines may be useful to add to CSS Inline.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html" rel="noopener">Need to clarify that line boxes are fitted to nonrectangular shapes by requiring zero intersection.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html" rel="noopener">Need to define default baseline positions for all baselines.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Input Modality</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Sep/0112.html" title="https://lists.w3.org/Archives/Public/www-style/2015Sep/0112.html" rel="noopener">Resolved: bkardell as editor of new ED for input modality (name pending)</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Line Grid</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Nov/0226.html" title="https://lists.w3.org/Archives/Public/www-style/2015Nov/0226.html" rel="noopener">Resolved: Line-grid will restart in the case of orthogonal flows between parent and child.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Lists</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0209.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0209.html" rel="noopener">Resolved: Add new syntax (TBD) to control counter scoping and consider reversing too.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jun/0059.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jun/0059.html" rel="noopener">Resolved: We handle the list-style custom-ident in the fashion of Animation.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Overflow 3</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" rel="noopener">Resolved: We will work on a solution to accommodate issue 92 (https://github.com/w3c/csswg-drafts/issues/92)</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/" title="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/" rel="noopener">clip-path and masking do not affect scrollable bounds</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/" title="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/" rel="noopener">Spec the current behavior for nested transforms and add a note that this could be improved</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term">Masking</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html" title="https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html" rel="noopener">Resolved:  mask-mode can be anywhere in the mask shorthand other than between position and size</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html" rel="noopener">Resolved: Match webkit/blink behavior for initial value of mask-repeat and mask-position</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html" rel="noopener">Resolved: ChrisL, TabAtkins, and shane as editors for masking spec.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/" title="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/" rel="noopener">esprehn will look into the compat for clip-path</a></dd>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/756" title="https://www.w3.org/Style/CSS/Tracker/actions/756" rel="noopener">Investigate dropping mask-type property</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html" rel="noopener">RESOLVED: Change &#039;auto&#039; value of mask-mode to &#039;match-source&#039;.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Media Queries</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html" title="https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html" rel="noopener">Resolved: Revert the Media Queries spec on the whitespace requirement.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/" title="https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/" rel="noopener">Resolved: In media queries, use boolean maybe semantics to handle unsupported syntax, i.e. false and unknown = false. (Re-evaluate if this ends up with back-compat problems.)</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jun/0060.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jun/0060.html" rel="noopener">Resolved: Make MQ lists and EventTarget for the change event and alias the existing listener to addEventListener and removeEventListener</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html" title="https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html" rel="noopener">Action: hober and matt to write a proposed resolution to resolve the proposal about device resolution (using unambiguous terms) &lt;trackbot&gt; Created ACTION-589 - And matt to write a proposed resolution to resolve the proposal about device resolution (using unambiguous terms) (on Edward O&#039;Connor - due 2013-11-17)</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/" title="https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/" rel="noopener">ACTION TabAtkins: Define zooming, 2 types, for insertion into either MQ or device-adapt &lt;trackbot&gt; Created ACTION-572</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/" title="https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/" rel="noopener">Resolved: Remove the on-demand value from hover.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/" title="https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/" rel="noopener">Resolved: Move light-level to the next level of Media Queries.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/" title="https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/" rel="noopener">Resolved: Add defining a minimum for the onload property as an issue in the Media Queries spec.</a></dd>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/740" title="https://www.w3.org/Style/CSS/Tracker/actions/740" rel="noopener">Republish mq4</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html" title="https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html" rel="noopener">overflow-block and overflow-inline will be combined into overflow with properties to specify inline and block direction. fantasai will write up proposed text for the new properties.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Media Queries 3</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/" title="https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/" rel="noopener">Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/" title="https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/" rel="noopener">Resolved: Allow empty string in media-query</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Feb/0052.html" title="https://lists.w3.org/Archives/Public/www-style/2014Feb/0052.html" rel="noopener">Resolved: Update Media Queries 3 wording on never having to evaluate a style sheet unless specified explicitly otherwise.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Media Queries 4</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" title="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" rel="noopener">Resolved: New WD of MQ4.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" title="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" rel="noopener">Resolved: Mark the various hover and pointer things as at-risk.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" title="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" rel="noopener">Resolved: Close https://github.com/w3c/csswg-drafts/issues/841 no change.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" title="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" rel="noopener">Resolved: Push scripting MQ values to L5.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html" title="https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html" rel="noopener">Resolved: Accept the proposal (Proposal: Make the device-width/etc MQs use the same concepts as CSSOM is using for returning device dimensions.)</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html" rel="noopener">Resolved: Change MQ4 to p3 from dci-p3</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" rel="noopener">Resolved: Rename update-frequency to update (Media Queries issue #1).</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" rel="noopener">Resolved: Rename normal to fast (Media Queries issue #1).</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" rel="noopener">Resolved: Move inverted colors to level 5 (Media Queries issue #8)</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" rel="noopener">Resolved: Move custom MQ to level 5 (Media Queries issue #9).</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" rel="noopener">Resolved: Publish a new WD of Media Queries 4.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/" title="https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/" rel="noopener">Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/" title="https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/" rel="noopener">Resolved: Remove the old text that negates the entire media query if an unrecognized media value or feature appears.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Oct/0261.html" title="https://lists.w3.org/Archives/Public/www-style/2014Oct/0261.html" rel="noopener">Resolved: Add color-inverted media feature with values none and inverted.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html" title="https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html" rel="noopener">Resolved: Add infinite value to resolution MQ.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html" title="https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html" rel="noopener">fantasai draw up a proposal for overflow MQ ACTION-763</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html" title="https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html" rel="noopener">Florian write up a proposal for raster MQ ACTION-764</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Media Queries 5</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/04/23/minutes-telecon-245/" title="https://www.w3.org/blog/CSS/2015/04/23/minutes-telecon-245/" rel="noopener">Tab and Florian to write proposal to Allow custom MQ before @import Action Florian to write a proposal for the mailing list &lt;trackbot&gt; Created ACTION-681.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/04/23/minutes-telecon-245/" title="https://www.w3.org/blog/CSS/2015/04/23/minutes-telecon-245/" rel="noopener">Action TabAtkins to write a proposal for the mailing list.&lt;trackbot&gt; Created ACTION-682.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Misc</span></dt>
+<dd><a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html" rel="noopener">Action-783 TabAtkins to start collecting namespaces history and future plans on a wiki so we can show the community and allow input.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html" rel="noopener">Issues won&#039;t be closed on github until a decision is reach or the working group resolves on them.</a></dd>
+<dd> TabAtkins brought his proposal to address the possibility of font name being duplicated inside and outside a shadow DOM. The proposal would create a mapping where the external font is translated into a guaranteed unique name when passed into the shadow DOM. dbaron raised the possibility of instead using a function that gets the name from the scope, which was a cleaner solution. TabAtkins will write-up a new proposal using functions and send it to the mailing list for review.</dd>
+<dd> ACTION leaverou write outdated-<abbr title="specification">spec</abbr>-watermark script for w3.org to put on /TR</dd>
+<dd> ACTION glazou Investigate which data needs to be added and how to automate current-work &lt;trackbot&gt; Created ACTION-685 - glazou: OK, so we will do these actions, and then go back to AC/plh and iterate</dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Motion</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html" rel="noopener">Resolved: New WD of Motion Path</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html" title="https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html" rel="noopener">Resolved: Rename offset-rotation to be offset-rotate</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html" title="https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html" rel="noopener">Resolved: Update motion draft on TR</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Multicol 1</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/" title="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/" rel="noopener">ACTION: TabAtkins talk with WebApps about a reordering API&lt;trackbot&gt; Created ACTION-692.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html" title="https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html" rel="noopener">ACTION rossen to add spec text to multicol specifying that text draws over column rules. &lt;trackbot&gt; Created ACTION-578</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Namespaces</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/" title="https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/" rel="noopener">Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Paged Media</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" title="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" rel="noopener">Resolved: page: name is not inheritable, creates a group, but does not force page breaks between groups of the same name (for compat). First page of the group might be the last of another group. Delete the page-group property.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" title="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" rel="noopener">Resolved: Keep :nth() as the name, but extend functionality like L4 :nth-child() to solve the “first of group” problem.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" title="https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html" rel="noopener">Resolved: Add :first(A) to select first page of an A group. (A:first only selects a first page of the doc that also happens to be named A).</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Positioned Layout</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" rel="noopener">Resolved: Close issue 1660 no change.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html" rel="noopener">Resolved: Make the changes listed in css2.1 and position (Issues: https://github.com/w3c/csswg-drafts/issues/1436#issuecomment-313215820 )</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html" title="https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html" rel="noopener">Resolved: Standardize on Edge behavior as described by dbaron in the issue (https://github.com/w3c/csswg-drafts/issues/609#issuecomment-259058527)</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/07/02/minutes-telecon-252/" title="https://www.w3.org/blog/CSS/2015/07/02/minutes-telecon-252/" rel="noopener">ACTION Rossen add position: fixed as s full stacking context to positioning &lt;trackbot&gt; Created ACTION-698.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Pseudo-Elements</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html" title="https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html" rel="noopener">Remove this section (https://drafts.csswg.org/css-pseudo/#cssom) from the current level 4 draft and move the work to Houdini</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" title="https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/" rel="noopener">Resolved: Remove special case from ::first-letter</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Round Display</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" rel="noopener">Action: jihye to move offset- properties to motion-path spec</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" rel="noopener">Change the initial value of offset-rotation to 0deg.</a></dd>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/751" title="https://www.w3.org/Style/CSS/Tracker/actions/751" rel="noopener">Add @viewport switch for opting into full round display size as viewport</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Apr/0240.html" title="https://lists.w3.org/Archives/Public/www-style/2016Apr/0240.html" rel="noopener">Add &#039;viewport-fit: contain&#039;</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Ruby</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/11/17/minutes-telecon-306/" title="https://www.w3.org/blog/CSS/2016/11/17/minutes-telecon-306/" rel="noopener">Resolved: initial-letter and ruby is explicitly undefined.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/" title="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/" rel="noopener">Resolved: writing-mode: vertical-lr on the rt based on parent’s ‘display’ &amp; ‘ruby-position’.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/07/31/minutes-telecon-221/" title="https://www.w3.org/blog/CSS/2014/07/31/minutes-telecon-221/" rel="noopener">Resolved: Floats are passed up through Ruby to the containing block.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Scoping</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html" title="https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html" rel="noopener">Resolved: Allow ::before/after after ::slotted() but not opening it to general stacking of elements. </a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html" rel="noopener">Resolved: Move fragment styling and @scope to a delta level 4 of scoping module</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html" rel="noopener">Selecting an Outside Scoping Box - ACTION TabAtkins fantasai Add an example to section 2.2.2&lt;trackbot&gt; Created ACTION-625</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Selectors 3</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" title="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" rel="noopener">Resolved: Request PR on Selectors 3.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" title="https://lists.w3.org/Archives/Public/www-style/2017May/0032.html" rel="noopener">Resolved: Change the title to subsequent. (In reference to better terminology for ~ sibling combinator: Issue 1382)
+  : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Selectors 4</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Oct/0012.html" title="https://lists.w3.org/Archives/Public/www-style/2015Oct/0012.html" rel="noopener">Resolved: Add :focus-ring to Selectors 4 or 5.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Sep/0111.html" title="https://lists.w3.org/Archives/Public/www-style/2015Sep/0111.html" rel="noopener">Resolved: Keep section 3.6.3. (Pseudo-classing Pseudo-elements) overall. Add guidance to people developing new pseudo-elements on when to specify if they accept user action pseudo-classes. Remove the statement from :hover that it applies to all pseudo-elements: pseudo-elements must individually enable pseudo-classes they need.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html" title="https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html" rel="noopener">Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" title="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" rel="noopener">Florian brought back some documented need for a selector that propagates input states to the corresponding label.Resolved: Florian to work on a proposal for a selector that propagates input states to the corresponding label and/or other associated elements.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" title="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/" rel="noopener">ACTION dbaron review performance characteristics of parent and previous-sibling combinator, potentially combinable &lt;trackbot&gt; Created ACTION-668</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-iii/" title="https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-iii/" rel="noopener">Resolved: add :role() to selectors</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-iii/" title="https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-iii/" rel="noopener">Resolved: unprefix :dir and :lang</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/" title="https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/" rel="noopener">Resolved: extend :matches() to pseudo-elements</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/" title="https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/" rel="noopener">Resolved: The specificity of a :matches() inside a :not() is the specificity of the most specific</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/" title="https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/" rel="noopener">Resolved: reuse the hook from :active on :focus</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/" title="https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/" rel="noopener">Resolved: define a new :focus-within that matches on the same things as :focus, plus parents, including if there are Shadow DOMs</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/" title="https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/" rel="noopener">Resolved: both :hover and :active should propagate from the labeled control to the label, in addition to the other direction.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/11/20/minutes-telecon-228/" title="https://www.w3.org/blog/CSS/2014/11/20/minutes-telecon-228/" rel="noopener">A tracking tool for the moved and removed pseudo-elements and pseudo-classes is available here.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html" rel="noopener">Resolved: Complex selectors in :matches/:not to move to fast profile, assuming bz agrees.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/" title="https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/" rel="noopener">Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/05/08/minutes-telecon-215/" title="https://www.w3.org/blog/CSS/2014/05/08/minutes-telecon-215/" rel="noopener">Resolved: Add :modal to Selectors level 4</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2013/12/12/resolutions119/" title="https://www.w3.org/blog/CSS/2013/12/12/resolutions119/" rel="noopener">Resolved: Add :sorted pseudoclass to selectors 4.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Shapes</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/" title="https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/" rel="noopener">Resolved: Publish new version of CSS Shapes.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Sizing</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0210.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0210.html" rel="noopener">Resolved: Intrinsic sizes that don&#039;t require layout to recalculate are treated as definite.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-ii/" title="https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-ii/" rel="noopener">ACTION TabAtkins: spec their float layout for intrinsic sizes&lt;trackbot&gt; Created ACTION-659</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-ii/" title="https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-ii/" rel="noopener">ACTION dbaron: spec their float layout for intrinsic sizes&lt;trackbot&gt; Created ACTION-660</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html" rel="noopener">Need to clarify that line boxes are fitted to nonrectangular shapes by requiring zero intersection.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Sizing 3</span></dt>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/" title="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/" rel="noopener">ACTION: fantasai figure out what it was wrt percentage sizing&lt;trackbot&gt; Created ACTION-670</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Snapshot</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0180.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0180.html" rel="noopener">Resolved: Link to the compat spec in the Snapshot and specs with relevant entires and monitor for problems in the future.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/08/12/minutes-telecon-259/" title="https://www.w3.org/blog/CSS/2015/08/12/minutes-telecon-259/" rel="noopener">Resolved: unprefix min/max-content - gregwhitworth will work on building out a test suite for CSS Sizing</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/18/minutes-telecon-278/" title="https://www.w3.org/blog/CSS/2016/03/18/minutes-telecon-278/" rel="noopener">Resolved: Republish 2015 Snap Shot with Will Change added.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/" title="https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/" rel="noopener">Resolved: Add edits to 2015 snapshot and then republish.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/" title="https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/" rel="noopener">Resolved: Start an ED for 2016 snapshot.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Speech</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html" rel="noopener">abAtkins: We have time-dimensional pseudos, defined for WebVTT. TabAtkins: Anyone know if they&#039;re implemented anywhere? ACTION fantasai: make sure timeline is defined for Speech to use: current, etc &lt;trackbot&gt; Created ACTION-607
+
+  ; SVG
+  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html|Resolved: The root SVG element automatically creates a stacking context, as does foreignObject.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html" title="https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html" rel="noopener">Resolved: SVG elements honor z-index automatically (like flex items), without requiring position.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Syntax</span></dt>
+<dd> </dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Tables</span></dt>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/754" title="https://www.w3.org/Style/CSS/Tracker/actions/754" rel="noopener">Look into allowing min-width on tables to work, and auto to work like it currently does - will require test cases for l2 of tables and possibly sizing as dbaron said it&#039;s helpful for intrinsic sizing beyond tables.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Testing</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" rel="noopener">Resolved: Drop requirement for author or reviewer metadata</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" rel="noopener">Resolved: Move to primary &lt;link&gt; to spec+section being inferred from directory structure. Supplemental &lt;link&gt;s must be inline.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" rel="noopener">Resolved: spec-shortname/N-levels-of-ignored-subdirectory-names/frag-id-of-section</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" rel="noopener">Resolved: Remove any title requirement, other than having one (implied by validity of HTML requirement)</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" rel="noopener">Resolved: testharness.js tests don&#039;t need a meta assert (but reftests still do)</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/" title="https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/" rel="noopener">Resolved: Down-level tests (e.g. CSS2.1 color tests) should be updated to not fail on higher-level implementations (e.g. CSS4 color implementations), but should also leave the old pass conditions intact so that down-level clients can still pass the tests for the older featureset.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Text</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html" rel="noopener">Resolved: No change for issue about adding no-wrap</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html" title="https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html" rel="noopener">Resolved: Allow text-justify:none to apply to inlines.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html" rel="noopener">Resolved: Line break opportunities should be controlled by the parent.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Jan/0006.html" title="https://lists.w3.org/Archives/Public/www-style/2015Jan/0006.html" rel="noopener">Resolved: Layout methods should depend on writing system in addition to language convention.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0350.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0350.html" rel="noopener">RESOLVED: left-align the alignment characters.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" rel="noopener">In order to prevent overflow or wrapping of invisible white space, spaces at the end of a line must either be visually collapsed to fit within the line or must hang outside the line (as in hanging punctuation).</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" rel="noopener">RESOLVED: Add &#039;word-break: break-spaces&#039;.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" rel="noopener">RESOLVED: Drop pre-wrap-auto.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" rel="noopener">RESOLVED: text-wrap: balance evaluation works off of remaining space in the line, not average line length.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html" rel="noopener">RESOLVED: Add word-break: break-word to spec if Edge/Firefox find it critical enough to Web compat to implement it.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Text 3</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html" rel="noopener">Resolved: line-break: break-all on its own has the effect of allowing breaks everywhere.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html" title="https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html" rel="noopener">Resolved: No change on this issue (https://github.com/w3c/csswg-drafts/issues/618).
+  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: No change to the spec because it already requires customary line breaking rules.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html" rel="noopener">Resolved: Rich text copy/paste is undefined in text level 3.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html" rel="noopener">Resolved: White space property is applied to plain text paste output.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html" rel="noopener">Resolved: Don&#039;t define interaction between hanging punctuation and kerning and leave it up to UA to decide how to adjust.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" rel="noopener">Resolved: Accept the proposal for issue 96 (for linebreak transformation rules ambiguous characters are narrow unless it&#039;s Chinese or Japanese or Yi in which case they are wide)</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" rel="noopener">Resolved: Make tab size animatable</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" rel="noopener">Resolved: Make tab size &lt;&lt;number&gt;&gt;</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" rel="noopener">Resolved: Have tab-size account for letter spacing and word spacing</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" rel="noopener">Resolved: No change to the spec for issue 110</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" rel="noopener">Resolved: Capitalize only title cases lower case things, not upper case letters</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html" rel="noopener">Resolved: text-align-last: justify will compute to center for CJK</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0231.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0231.html" rel="noopener">RESOLVED: Add overflow-wrap: break-spaces to level 3</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/" title="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/" rel="noopener">Hanging punctuation causes ink overflow. [Note: This discussion has since been reopened. See this email</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html" title="https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html" rel="noopener">Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-19-ii/" title="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-19-ii/" rel="noopener">Resolved: Add leading-spaces/trailing-spaces to text-decoration-skip in L4. Change default behavior to skip leading/trailing spaces. Add UA rule that ins and del don’t skip anything. Add note from L3 to L4 indicating impending changes.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/" title="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/" rel="noopener">Resolved: Treat replaced elements as ideographic chars for line-breaking. Based on data, possible add an exception for &amp;nbsp.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-f2f-part-iv/" title="https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-f2f-part-iv/" rel="noopener">Resolved: No examples of justification algorithm for text-justify: auto</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-f2f-part-iv/" title="https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-f2f-part-iv/" rel="noopener">Resolved: Link to a wiki or NOTE collating information about language-specific justification conventions.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/" title="https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/" rel="noopener">Action fantasai and koji to make a poll on which options are most live-withable for universal justification.&lt;trackbot&gt; Created ACTION-637</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/" title="https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/" rel="noopener">ACTION fantasai: clarify that ko-Han is different from ko-Hangul&lt;trackbot&gt; Created ACTION-638</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/" title="https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/" rel="noopener">Action fantasai to ask i18n for help in setting up and maintaining the justification references &lt;trackbot&gt; Created ACTION-639</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jun/0167.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jun/0167.html" rel="noopener">Resolved: Require which lines are justified even if the justification method is not defined</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Text 4</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Sep/0096.html" title="https://lists.w3.org/Archives/Public/www-style/2015Sep/0096.html" rel="noopener">fantasai&gt; ACTION TabAtkins Find unhappy dude at Google who dislikes hyphenation properties and have him send email explaining his unhappiness to www-style &lt;trackbot&gt; Created ACTION-715</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Transforms</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html" rel="noopener">Resolved: Any value of opacity less than one forces transform styles to be flat.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow" title="https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow" rel="noopener">Resolved: Republish Transforms</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html" title="https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html" rel="noopener">Resolved: Treat all 0deg rotate3d() as a single equivalent identity transform</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html" title="https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html" rel="noopener">Resolved: Treat rotate3d() with anti-parallel axis as interpolatable</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/" title="https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/" rel="noopener">Resolved: Adopt second suggestion from Cameron (available here) about the UA style sheet plus a note saying initial transform-origin for SVG elements won’t lead to an expected result</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/" title="https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/" rel="noopener">&lt;glazou&gt; ACTION glazou: email krit about resolution item 1
+  &lt;trackbot&gt; Created ACTION-694</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2013/11/23/resolutions117/" title="https://www.w3.org/blog/CSS/2013/11/23/resolutions117/" rel="noopener">&lt;fantasai&gt; ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position &lt;trackbot&gt; Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).</a></dd>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/612" title="https://www.w3.org/Style/CSS/Tracker/actions/612" rel="noopener">Send update to mailing list</a></dd>
+<dd> <a href="https://www.w3.org/Style/CSS/Tracker/actions/611" title="https://www.w3.org/Style/CSS/Tracker/actions/611" rel="noopener">Share transform testcases with the group.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2013/11/23/resolutions117/" title="https://www.w3.org/blog/CSS/2013/11/23/resolutions117/" rel="noopener">&lt;fantasai&gt; ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position &lt;trackbot&gt; Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Transitions</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html" rel="noopener">Resolved: Remove the paint server definition from Transitions, deferring to the Images definition for transitioning values.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html" rel="noopener">Resolved: Remove the gradient animation text from Transitions.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jun/0057.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jun/0057.html" rel="noopener">Resolved: Migrate Shane’s document (http://rawgit.com/shans/98cb810920ac43876020/raw/b77db7529411066c9f3cdd36a52d0b98553525f9/Overview.html) into the dev pages and the SotD section should say that it’s intended to be incorporated into Transitions and Animations 4.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/03/27/minutes-telecon-210/" title="https://www.w3.org/blog/CSS/2014/03/27/minutes-telecon-210/" rel="noopener">Resolved: Move to matrix for the serialization of the computed value for Transitions.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2013/11/23/resolutions117/" title="https://www.w3.org/blog/CSS/2013/11/23/resolutions117/" rel="noopener">Action: Fantasai Define prop def table (in &quot;Snapshot&quot;).</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> UI</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html" title="https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html" rel="noopener">Resolved: Take CSS UI 3 to PR.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html" title="https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html" rel="noopener">Resolved: Take CSS UI 4 to an updated WD.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html" title="https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html" rel="noopener">Resolved: Re-point CSS UI link to CSS UI 4 spec.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" rel="noopener">Resolved: SVG without intrinsic dimensions MAY be supported (not MUST), add a note (to indicate the working group&#039;s original intent to have this a MUST).</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html" rel="noopener">Resolved: Leave spec as-is, no changes. Accept all current requirements as listed in issue (Github: https://github.com/w3c/csswg-drafts/issues/1770 )
+  : [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html|Resolved: Add the proposed text from the github issue https://github.com/w3c/csswg-drafts/issues/1691 </a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html" rel="noopener">Resolved: option 1: no change and add perhaps a non-normative note explaining adding this on the root isn&#039;t a great pattern</a></dd>
+<dd> <a href="http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html" title="http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html" rel="noopener">Resolved: Change the applies to line to all elements</a></dd>
+<dd> <a href="http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html" title="http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html" rel="noopener">Resolved: Add an informative note as to what is a caret and what is not.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html" title="https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html" rel="noopener">Rossen and/or gregwhitworth will help Florian decide what that set of values should be.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html" title="https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html" rel="noopener">ACTION Florian determine set of -webkit-user-select values to spec &lt;trackbot&gt; Created ACTION-75</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html" title="https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html" rel="noopener">ACTION Rossen figure out what&#039;s needed for -webkit-user-select &lt;trackbot&gt; Created ACTION-759</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Nov/0272.html" title="https://lists.w3.org/Archives/Public/www-style/2015Nov/0272.html" rel="noopener">ACTION Florian write a note on user-select for multi-range&lt;trackbot&gt; Created ACTION-745</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/11/minutes-telecon-249/" title="https://www.w3.org/blog/CSS/2015/06/11/minutes-telecon-249/" rel="noopener">Resolved: Add Florian’s proposed text to user-select: none regarding its use in template-based editing.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/11/minutes-telecon-249/" title="https://www.w3.org/blog/CSS/2015/06/11/minutes-telecon-249/" rel="noopener">Resolved: user-select must not apply to ::first-line or ::first-letter.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-i/" title="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-i/" rel="noopener">Florian to add a note to user-select:none about it&#039;s use in template-based editing &lt;trackbot&gt; Created ACTION-690.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-i/" title="https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-i/" rel="noopener">Action Florian to come up with a resolution for user-select:none being included or not when selecting across &lt;trackbot&gt; Created ACTION-691.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2015Sep/0040.html" title="https://lists.w3.org/Archives/Public/www-style/2015Sep/0040.html" rel="noopener">ACTION Florian to figure out with the editing TF if there are and what are the requirements for caret-animation&lt;trackbot&gt; Created ACTION-705.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/" title="https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/" rel="noopener">Resolved: Replace region-fragment with ‘fragmentation’, written by Florian, determine where it belongs.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2015/02/26/minutes-telecon-237/" title="https://www.w3.org/blog/CSS/2015/02/26/minutes-telecon-237/" rel="noopener">Resolved: Tighten the language of the directional focus property behavior and include an informative note about the behaviors we’re considering and welcome/actively solicit input.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2013Nov/0361.html" title="https://lists.w3.org/Archives/Public/www-style/2013Nov/0361.html" rel="noopener">Resolved: Effects affect scrollbars and focus rings. We may work on controls later.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Undefined Spec</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html" rel="noopener">stakagi presented some very detailed work he had done (Available here: https://www.w3.org/Graphics/SVG/WG/wiki/Proposals/Investigation_of_APIs_for_Level_of_detail)</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0044.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0044.html" rel="noopener">Adopt the proposed convention for propdef tables for shorthands</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Values and Units 3</span></dt>
+<dd> </dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Values and Units 4</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html" rel="noopener">Resolved: Close issue #309 no change.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html" rel="noopener">Resolved: Add a clarifying note referencing cascade and then close issue #1782.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017May/0010.html" title="https://lists.w3.org/Archives/Public/www-style/2017May/0010.html" rel="noopener">Resolved: Add the x unit to &lt;resolution&gt; type in Values &amp; Units 4.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html" title="https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html" rel="noopener">Resolved: Add proposed DOM load events to Values &amp; Units.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html" title="https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html" rel="noopener">Resolved: Only spec the unitless 0 quirk for transforms &amp; gradients.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html" title="https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html" rel="noopener">Resolved: Don&#039;t add any new syntax for [ &lt;foo&gt;+ ]#, just add a note explaining it.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html" title="https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html" rel="noopener">Resolved: Add lh and rlh with a note on use cases it doesn&#039;t solve and a link to max-lines.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html" title="https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html" rel="noopener">Resolved: Accept text as proposed for the ideographic character unit.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html" rel="noopener">Resolved: A calc() with only percentage or only length is required to be resolved in V&amp;U 4</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0209.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0209.html" rel="noopener">Resolved: Adapt the element() function so that it can be used to refer to always-local references</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html" rel="noopener">Resolved: Add vi and vb to values &amp; units 4.</a></dd>
+<dd> Need reviews of all the calc() and serialization issues</dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html" rel="noopener">Add ideographic advance unit to Values and Units 4, come back to WG for approval after details worked out.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/04/24/minutes-telecon-213/" title="https://www.w3.org/blog/CSS/2014/04/24/minutes-telecon-213/" rel="noopener">Resolved: Add calc() algebra to level 4 and keep an issue in there about +0/-0 handling.</a></dd>
+<dd> <a href="https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/" title="https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/" rel="noopener">Resolved: Make the image() function always respect EXIF orientation metadata in Backgrounds.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2014Jun/0168.html" title="https://lists.w3.org/Archives/Public/www-style/2014Jun/0168.html" rel="noopener">&lt;trackbot&gt; ACTION-632 on TabAtkins - Figure out if enhancing url() works</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html" title="https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html" rel="noopener">Resolved: Accept TabAtkins proposal for calc() serialization and add a note that there remains a concern about editors getting access to the bare string.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html" rel="noopener">Resolved: Start a level 4 draft of Values &amp; Units, move calc() serialization to it, and then publish the remainder of Values &amp; Units 3 as CR.</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Variables</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" rel="noopener">Resolved: Rename what was &#039;constant&#039; variables to &#039;environment&#039; variables using env().</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" rel="noopener">Resolved: Add this as an ED of variables L2.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" rel="noopener">Resolved: Add dino as an editor of variables L2 with TabAtkins.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html" rel="noopener">Resolved: The initial set is safe area top, bottom, left and right.</a></dd>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html" title="https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html" rel="noopener">Action: gsnedders to check if Variables test coverage is from many browsers</a></dd>
+</dl>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Writing Modes</span></dt>
+<dd> <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html" rel="noopener">ACTION hober: Look into unprefixing writing modes features in WebKit</a>
+</main>
+</body>
+</html>

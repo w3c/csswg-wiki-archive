@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>css4-ui features list - CSS Working Group Wiki (Archive)</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
+  color: #1f2328; background: #fff;
+}
+.archive-banner {
+  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
+  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
+}
+.archive-banner strong { color: #6e5600; }
+header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
+header h1 { margin: 0; font-size: 1.25em; }
+header h1 a { color: #0366d6; text-decoration: none; }
+header h1 a:hover { text-decoration: underline; }
+nav { margin-top: 0.5em; font-size: 0.9em; }
+nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
+nav a:hover { color: #0366d6; }
+h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
+h1:first-child { margin-top: 0; }
+a { color: #0366d6; }
+code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
+pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
+th { background: #f6f8fa; }
+img { max-width: 100%; }
+.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
+.breadcrumb a { color: #656d76; }
+ul, ol { padding-left: 1.5em; }
+li { margin: 0.25em 0; }
+.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
+abbr { text-decoration: underline dotted; cursor: help; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0d1117; color: #e6edf3; }
+  .archive-banner { background: #3d2e00; border-color: #6e5600; }
+  .archive-banner strong { color: #f0c000; }
+  header { border-bottom-color: #30363d; }
+  header h1 a { color: #58a6ff; }
+  nav a { color: #8b949e; }
+  nav a:hover { color: #58a6ff; }
+  h1, h2, h3, h4 { color: #e6edf3; }
+  a { color: #58a6ff; }
+  code, pre { background: #161b22; }
+  th, td { border-color: #30363d; }
+  th { background: #161b22; }
+  .breadcrumb, .breadcrumb a { color: #8b949e; }
+  .plugin_note { background: #161b22; border-color: #58a6ff; }
+}
+</style>
+</head>
+<body>
+<div class="archive-banner">
+<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
+The original wiki was hosted at wiki.csswg.org.
+</div>
+<header>
+<h1><a href="/">CSS Working Group Wiki</a></h1>
+<nav>
+<a href="/">Home</a>
+<a href="/spec/">Specs</a>
+<a href="/ideas/">Ideas</a>
+<a href="/test/">Testing</a>
+<a href="/wiki/">About</a>
+</nav>
+</header>
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/spec/">spec</a> / css4-ui</div>
+<main>
+<!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><a href="#css4-ui-features-list">css4-ui features list</a><ul class="toc">
+<li class="level2"><a href="#extensions-to-css3-ui-features">extensions to css3-ui features</a><ul class="toc">
+<li class="level3"><a href="#implementation-extensions">implementation extensions</a></li>
+<li class="level3"><a href="#real-world-author-extension-needs">real world author extension needs</a></li>
+<li class="level3"><a href="#theoretical-extension-requests">theoretical extension requests</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#new-css4-ui-features">new css4-ui features</a><ul class="toc">
+<li class="level3"><a href="#caret-property">caret property</a></li>
+<li class="level3"><a href="#focusable-property">focusable property</a></li>
+<li class="level3"><a href="#more-selectors">more selectors</a></li>
+<li class="level3"><a href="#pointer-events">pointer-events</a></li>
+<li class="level3"><a href="#text-overflow-fade">text-overflow fade</a></li>
+<li class="level3"><a href="#text-overflow-middle">text-overflow middle</a></li>
+<li class="level3"><a href="#touch-action">touch-action</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#dropped-css3-features">dropped css3 features</a><ul class="toc">
+<li class="level3"><a href="#appearance">appearance</a></li>
+<li class="level3"><a href="#nav-properties">nav properties</a></li>
+<li class="level3"><a href="#text-overflow-string-plus">text-overflow string plus</a></li>
+<li class="level3"><a href="#text-overflow-block-hint">text-overflow block hint</a></li>
+<li class="level3"><a href="#text-overflow-start-end-values">text-overflow start end values</a></li>
+<li class="level3"><a href="#user-select">user-select</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="level1"><a href="#css4-ui-issues-list">css4-ui issues list</a><ul class="toc">
+<li class="level2"><a href="#current-issues">Current Issues</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#issues-moved-from-css3-ui">Issues moved from css3-ui</a><ul class="toc">
+<li class="clear">
+<ul class="toc">
+<li class="level3"><a href="#issue-4">Issue 4</a></li>
+<li class="level3"><a href="#issue-5">Issue 5</a></li>
+<li class="level3"><a href="#issue-6">Issue 6</a></li>
+<li class="level3"><a href="#issue-7">Issue 7</a></li>
+<li class="level3"><a href="#issue-8">Issue 8</a></li>
+<li class="level3"><a href="#issue-9">Issue 9</a></li>
+<li class="level3"><a href="#issue-10">Issue 10</a></li>
+<li class="level3"><a href="#issue-11">Issue 11</a></li>
+<li class="level3"><a href="#issue-12">Issue 12</a></li>
+<li class="level3"><a href="#issue-14">Issue 14</a></li>
+<li class="level3"><a href="#issue-15">Issue 15</a></li>
+<li class="level3"><a href="#issue-16">Issue 16</a></li>
+<li class="level3"><a href="#issue-17">Issue 17</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 id="css4-ui-features-list">css4-ui features list</h1>
+<p>
+The <a href="http://dev.w3.org/csswg/css3-ui/" title="http://dev.w3.org/csswg/css3-ui/" rel="noopener">CSS Basic User Interface Module Level 3</a> (CSS3-UI, latest Editor&#039;s draft) defines user interface related selectors, properties and values.
+</p>
+
+<p>
+CSS3-UI is deliberately scoped to what&#039;s been interoperably implemented, so it&#039;s a firm stake in the ground that implementers and authors can depend on.
+</p>
+
+<p>
+CSS4-UI is for new features above and beyond CSS3-UI.
+</p>
+
+<p>
+In somewhat order of priority:
+</p><h2 id="extensions-to-css3-ui-features">extensions to css3-ui features</h2><h3 id="implementation-extensions">implementation extensions</h3>
+<p>
+Implementations may have found it useful to extend existing CSS3-UI features, but perhaps they are only experimental extensions or single implementations.
+</p>
+
+<p>
+As these are most likely to be practical and minimal (and supported by a second implementation), these are the first features we&#039;ll consider.
+</p><h4 id="new-cursor-values">new cursor values</h4>
+<ul>
+<li class="level1 node">new &#039;cursor&#039; values:<ul>
+<li class="level2">&#039;auto-hide&#039; - being added to WebKit as <a href="https://bugs.webkit.org/show_bug.cgi?id=107601" title="https://bugs.webkit.org/show_bug.cgi?id=107601" rel="noopener">-webkit-auto-hide</a>, see <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/0194.html" title="http://lists.w3.org/Archives/Public/www-style/2013Feb/0194.html" rel="noopener">this www-style thread</a></li>
+<li class="level2">see <a href="https://developer.mozilla.org/en/CSS/cursor#Mozilla_extensions" title="https://developer.mozilla.org/en/CSS/cursor#Mozilla_extensions" rel="noopener">CSS cursor Mozilla extensions</a> for more</li>
+<li class="level2">consider more from: <a href="http://www.gtalbot.org/DHTMLSection/Cursors.html#Proprietary" title="http://www.gtalbot.org/DHTMLSection/Cursors.html#Proprietary" rel="noopener">http://www.gtalbot.org/DHTMLSection/Cursors.html#Proprietary</a></li>
+</ul>
+</li>
+</ul><h3 id="real-world-author-extension-needs">real world author extension needs</h3>
+<p>
+Second, users and authors may have found that they wanted a CSS3-UI feature to work a certain way in their sites, and these real world needs are a second consideration.
+</p>
+<ul>
+<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Apr/0337.html" title="http://lists.w3.org/Archives/Public/www-style/2012Apr/0337.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2012Apr/0337.html</a></li>
+</ul><h3 id="theoretical-extension-requests">theoretical extension requests</h3>
+<p>
+Third, there are hypothetical requests for extensions to CSS3-UI features. As these are not real world proven (only theoretical) demands, they are purely tertiary. We may consider them optimistically and include them in working drafts to solicit feedback and additional interest.
+</p>
+<ul>
+<li class="level1">…</li>
+</ul><h2 id="new-css4-ui-features">new css4-ui features</h2>
+<p>
+Brand new features fo CSS4-UI. We&#039;ll follow the same prioritization as above.
+</p><h3 id="caret-property">caret property</h3>
+<p>
+Consider adding a new &#039;caret&#039; property.
+</p>
+<ul>
+<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0772.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0772.html" rel="noopener">Proposed by Lea Verou</a></li>
+</ul>
+<pre class="code">Name: caret
+Value: auto | &lt;color&gt; | invert
+Initial: auto
+Applies to: Any element that accepts textual input
+Inherited: Yes
+Percentages: N/A
+Media: Interactive
+Computed value: The computed value for &#039;invert&#039; is &#039;invert&#039;. For &lt;color&gt; 
+values, the computed value is as defined for the [CSS3COLOR] &#039;color&#039; 
+property.</pre>
+
+<p>
+UAs set the color of the caret cursor to the value of the &#039;caret&#039; property.
+</p>
+
+<p>
+The &#039;invert&#039; value is expected to perform a color inversion on the pixels on the screen under the caret cursor. UAs may ignore the &#039;invert&#039; value on platforms that do not support color inversion of the pixels on the screen.
+</p>
+
+<p>
+Note: The caret cursor (also known as the text insertion cursor) is distinct from the pointing cursor (typically called just “cursor” in <abbr title="Cascading Style Sheets">CSS</abbr> and controlled with the &#039;cursor&#039; property). The caret cursor is usually displayed (often rendered as a blinking line segment perpendicular to the inline-progression direction) by the user agent in active text inputs without any selected text, where user entered text will be inserted.
+</p>
+
+<p>
+Note: The &#039;caret&#039; property could be extended to other aspects (e.g. caret width or style) and become a shorthand for a caret-color, if there is sufficient demand and use cases. Or alternately we could name it &#039;caret-color&#039; to begin with.
+</p>
+
+<p>
+Implementer feedback:
+</p>
+<ul>
+<li class="level1">“<a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0775.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0775.html" rel="noopener">would be easy in Gecko</a>”</li>
+<li class="level1">…</li>
+</ul><h3 id="focusable-property">focusable property</h3>
+<p>
+Consider incorporating a &#039;focusable&#039; property (like in SVG)
+</p>
+
+<p>
+<a href="http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr" title="http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr" rel="noopener">http://www.w3.org/TR/SVGTiny12/interact.html#focusable-attr</a>
+</p>
+
+<p>
+Alternate syntax suggestion (because boolean properties are the devil):
+</p>
+<pre class="code">nav-focus: _normal_ | ignore | focus</pre><h3 id="more-selectors">more selectors</h3>
+<ul>
+<li class="level1">::selection - moved from CSS3-UI - more details/issues/links collected [<a href="https://www.w3.org/wiki/CSS3-UI#Issue_30" title="https://www.w3.org/wiki/CSS3-UI#Issue_30" rel="noopener">https://www.w3.org/wiki/CSS3-UI#Issue_30</a> <abbr title="World Wide Web Consortium">W3C</abbr> wiki for now].</li>
+<li class="level1 node">::placeholder pseudo-element for the placeholder content inside an input element with a placeholder attribute.<ul>
+<li class="level2">There&#039;s an empty documentation page for <a href="https://developer.mozilla.org/en-US/docs/CSS/::-moz-placeholder" title="https://developer.mozilla.org/en-US/docs/CSS/::-moz-placeholder" rel="noopener">::-moz-placeholder</a> which is implemented as of Firefox 19.</li>
+</ul>
+</li>
+<li class="level1 node">:placeholder-shown pseudo-class for when an input element is in the state of showing its placeholder text<ul>
+<li class="level2">See <a href="/ideas/placeholder-styling/" title="ideas:placeholder-styling">placeholder styling</a> for more detailed exploration of :placeholder vs. ::placeholder (or potentially both).</li>
+<li class="level2"><a href="https://developer.mozilla.org/en/CSS/%3a-moz-placeholder" title="https://developer.mozilla.org/en/CSS/%3a-moz-placeholder" rel="noopener">:-moz-placeholder</a> documentation (<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder" title="https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder" rel="noopener">deprecated in FF19</a>)</li>
+<li class="level2"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=457801" title="https://bugzilla.mozilla.org/show_bug.cgi?id=457801" rel="noopener">Mozilla bug 457801</a>:  Implement -moz-placeholder pseudo-class - big long discussion of pseudo-class vs. pseudo-element etc.</li>
+</ul>
+</li>
+<li class="level1 node"><a href="https://wiki.mozilla.org/CSS/:autofill" title="https://wiki.mozilla.org/CSS/:autofill" rel="noopener">:autofill</a> pseudo-class for when an input element is in the state of showing an autofilled value. Related implementer bugs (not yet implemented) :<ul>
+<li class="level2"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=740979" title="https://bugzilla.mozilla.org/show_bug.cgi?id=740979" rel="noopener">:-moz-autofill</a> implementation bug</li>
+<li class="level2"><a href="https://bugs.webkit.org/show_bug.cgi?id=66032" title="https://bugs.webkit.org/show_bug.cgi?id=66032" rel="noopener">:-webkit-autofill</a> implementation bug</li>
+</ul>
+</li>
+<li class="level1"><a href="https://developer.mozilla.org/en-US/docs/CSS/:-moz-broken" title="https://developer.mozilla.org/en-US/docs/CSS/:-moz-broken" rel="noopener">:broken</a> for elements representing broken image links. See also Mozilla bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=11011" title="https://bugzilla.mozilla.org/show_bug.cgi?id=11011" rel="noopener">11011</a>.</li>
+<li class="level1"><a href="https://developer.mozilla.org/en-US/docs/CSS/:-moz-user-disabled" title="https://developer.mozilla.org/en-US/docs/CSS/:-moz-user-disabled" rel="noopener">:user-disabled</a> matches elements representing images that were not loaded because images have been entirely disabled by the user&#039;s preferences</li>
+<li class="level1"><a href="https://developer.mozilla.org/en-US/docs/CSS/:-moz-suppressed" title="https://developer.mozilla.org/en-US/docs/CSS/:-moz-suppressed" rel="noopener">:suppressed</a> for elements representing images that were not loaded because loading images from that site has been blocked.</li>
+<li class="level1"><a href="https://developer.mozilla.org/en-US/docs/CSS/:-moz-loading" title="https://developer.mozilla.org/en-US/docs/CSS/:-moz-loading" rel="noopener">:loading</a> for elements none of which can be displayed because they have not started loading, such as images that haven&#039;t started to arrive yet.  Note that images that are in the process of loading are not matched by this pseudo-class.</li>
+<li class="level1"><a href="https://developer.mozilla.org/en/CSS/%3a%3a-moz-progress-bar" title="https://developer.mozilla.org/en/CSS/%3a%3a-moz-progress-bar" rel="noopener">::progress-bar</a> pseudo-element for selecting and styling the area of an <abbr title="HyperText Markup Language">HTML</abbr> progress element that represents the amount of progress that has happened so far. This lets you, for example, change the color of progress bars.</li>
+<li class="level1 node">:valid-drop-zone, :invalid-drop-zone - a drop-zone (as Mozilla implements <a href="https://developer.mozilla.org/en/CSS/:-moz-drag-over" title="https://developer.mozilla.org/en/CSS/:-moz-drag-over" rel="noopener">:-moz-drag-over</a>) that is valid/invalid.<ul>
+<li class="level2">:valid-drop-zone - a drop zone that accepts the type of data being dragged</li>
+<li class="level2">:invalid-drop-zone - a drop zone that doesn&#039;t accept the type of data being dragged</li>
+</ul>
+</li>
+<li class="level1">see <a href="http://wiki.csswg.org/spec/selectors4#ideas-to-consider" title="http://wiki.csswg.org/spec/selectors4#ideas-to-consider" rel="noopener">http://wiki.csswg.org/spec/selectors4#ideas-to-consider</a> for more.</li>
+<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0705.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0705.html" rel="noopener">::backdrop-of(selector)</a> - a pseudo-element that matches the backdrop of a fullscreened element, a modal dialog, or other platform features with similar needs.</li>
+<li class="level1">::value - postponed from CSS3-UI, however there is a [<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=648643" title="https://bugzilla.mozilla.org/show_bug.cgi?id=648643" rel="noopener">https://bugzilla.mozilla.org/show_bug.cgi?id=648643</a> Mozilla implementation bug 648643] for it.</li>
+<li class="level1">:has-focus pseudo-class - see [<a href="http://lists.w3.org/Archives/Public/www-style/2014Nov/0271.html" title="http://lists.w3.org/Archives/Public/www-style/2014Nov/0271.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2014Nov/0271.html</a> proposal] and [<a href="http://lists.w3.org/Archives/Public/www-style/2014Nov/thread.html#msg271" title="http://lists.w3.org/Archives/Public/www-style/2014Nov/thread.html#msg271" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2014Nov/thread.html#msg271</a> subsequent thread]</li>
+</ul><h3 id="pointer-events">pointer-events</h3>
+<p>
+Moved from CSS3-UI editor&#039;s draft because it was the top source of issues for the 2nd CSS3-UI LCWD, and because it requires documenting previously undocumented web platform hit-testing model.
+</p>
+
+<p>
+Incorporate <abbr title="specification">spec</abbr> text from:
+</p>
+<ul>
+<li class="level1"><a href="http://www.w3.org/wiki/User:Tantekelik/pointer-events" title="http://www.w3.org/wiki/User:Tantekelik/pointer-events" rel="noopener">pointer-events spec text</a></li>
+</ul>
+
+<p>
+Consider just specifying pointer-events:none, and reserving the other keywords as undefined in <abbr title="Cascading Style Sheets">CSS</abbr> (at this level of <abbr title="specification">spec</abbr>.
+</p>
+<ul>
+<li class="level1">input from zewt, wilto asking for pointer-events:none in particular (#whatwg 2012-227)</li>
+</ul>
+
+<p>
+Consider use-cases, in particular for pointer-events:none;
+</p>
+<ul>
+<li class="level1">make sure things that use <abbr title="Cascading Style Sheets">CSS</abbr> opacity:0 transitions aren&#039;t clickable when they&#039;re hidden. (zewt on #whatwg 2012-227)</li>
+<li class="level1">disable clicks on elements that are transitioning on/off screens (zewt on #whatwg 2012-227)</li>
+<li class="level1">prevent transparent elements that overlap clickable ones from getting in the way (zewt on #whatwg 2012-227)</li>
+</ul>
+
+<p>
+Consider adding a &#039;paint-order&#039; value, as per <a href="http://lists.w3.org/Archives/Public/www-style/2013Jun/0245.html" title="http://lists.w3.org/Archives/Public/www-style/2013Jun/0245.html" rel="noopener">Tokyo 2013 discussion</a>
+</p>
+<ul>
+<li class="level1">this would replace the normal DOM-order user-event bubbling with bubbling through the result of elementsFromPoint()</li>
+<li class="level1">could be used with positioned elements displayed outside their DOM parent</li>
+<li class="level1">could be used in fragmented content to include the fragment container</li>
+</ul><h3 id="text-overflow-fade">text-overflow fade</h3>
+<p>
+Instead of an ellipsis character, apply a fixed width (e.g. 2em) linear gradient mask on the right-hand-end (modulo inline-progression direction) of the text conditional on the text overflowing.
+</p>
+
+<p>
+Needs to work over non-solid color backgrounds.
+</p>
+
+<p>
+Perhaps extend &#039;text-overflow&#039; to take a value:
+</p>
+<ul>
+<li class="level1">|fade &lt;length&gt;| or |fade(&lt;length&gt;)|</li>
+</ul>
+
+<p>
+From this email thread:
+</p>
+<ul>
+<li class="level1"><a href="https://groups.google.com/forum/?fromgroups#!topic/mozilla.dev.platform/-23mG3x2vdk" title="https://groups.google.com/forum/?fromgroups#!topic/mozilla.dev.platform/-23mG3x2vdk" rel="noopener">https://groups.google.com/forum/?fromgroups#!topic/mozilla.dev.platform/-23mG3x2vdk</a></li>
+</ul><h3 id="text-overflow-middle">text-overflow middle</h3>
+<p>
+Some mechanism to control ellipsing of text by allowing it to be ellipsed “in the middle” (somehow). See also other related text-overflow features dropped from CSS3.
+</p>
+
+<p>
+See emails and GitHub issue:
+</p>
+<ul>
+<li class="level1"><a href="http://www.w3.org/mid/CANTc86Wi3K1JHo0XJuWMVC0vCOBM+1D2+=ad=7=S0ofaD_jdAg@mail.gmail.com" title="http://www.w3.org/mid/CANTc86Wi3K1JHo0XJuWMVC0vCOBM+1D2+=ad=7=S0ofaD_jdAg@mail.gmail.com" rel="noopener">http://www.w3.org/mid/CANTc86Wi3K1JHo0XJuWMVC0vCOBM+1D2+=ad=7=S0ofaD_jdAg@mail.gmail.com</a></li>
+<li class="level1"><a href="http://www.w3.org/mid/CAERejNaV+5ZCu9b9yX7dKWPjq0rfVGH4DgxST6NZ-xVD3PD=QQ@mail.gmail.com" title="http://www.w3.org/mid/CAERejNaV+5ZCu9b9yX7dKWPjq0rfVGH4DgxST6NZ-xVD3PD=QQ@mail.gmail.com" rel="noopener">http://www.w3.org/mid/CAERejNaV+5ZCu9b9yX7dKWPjq0rfVGH4DgxST6NZ-xVD3PD=QQ@mail.gmail.com</a></li>
+<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/3937" title="https://github.com/w3c/csswg-drafts/issues/3937" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3937</a></li>
+</ul><h3 id="touch-action">touch-action</h3>
+<p>
+The Pointer Events WD introduced a “touch-action” property.
+</p>
+<ul>
+<li class="level1"><a href="http://www.w3.org/TR/2013/WD-pointerevents-20130115/#the-touch-action-css-property" title="http://www.w3.org/TR/2013/WD-pointerevents-20130115/#the-touch-action-css-property" rel="noopener">http://www.w3.org/TR/2013/WD-pointerevents-20130115/#the-touch-action-css-property</a></li>
+</ul>
+
+<p>
+Microsoft has shipped support for “touch-action” in prefixed form in IE10:
+</p>
+<ul>
+<li class="level1"><a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh767313.aspx" title="http://msdn.microsoft.com/en-us/library/windows/apps/hh767313.aspx" rel="noopener">-ms-touch-action property (Windows)</a></li>
+</ul>
+
+<p>
+The CSSWG discussed “touch-action” in the 2013-01-16 telcon:
+</p>
+<ul>
+<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2013Jan/0220.html" title="http://lists.w3.org/Archives/Public/www-style/2013Jan/0220.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2013Jan/0220.html</a></li>
+</ul>
+
+<p>
+Issues from the telcon:
+</p>
+<ul>
+<li class="level1">The touch-action property might be overly-specific to touch interfaces</li>
+<li class="level1">Discussed whether touch-action property is necessary.</li>
+<li class="level1">Spec should show examples of how &#039;touch-action&#039; is used in an all-declarative use case. (If it is only useful when JS is invoked, maybe its behavior should likewise be handled by JS, not by introducing a declarative property that&#039;s only useful when mixed with JS.)</li>
+</ul>
+
+<p>
+There&#039;s a subsequent discussion thread on the “public-pointer-events” list about “touch-action”:
+</p>
+<ul>
+<li class="level1"><a href="http://lists.w3.org/Archives/Public/public-pointer-events/2013JanMar/thread.html#msg18" title="http://lists.w3.org/Archives/Public/public-pointer-events/2013JanMar/thread.html#msg18" rel="noopener">http://lists.w3.org/Archives/Public/public-pointer-events/2013JanMar/thread.html#msg18</a></li>
+</ul>
+
+<p>
+Issues from the mailing list discussion:
+</p>
+<ul>
+<li class="level1">…</li>
+</ul>
+
+<p>
+Once the issues from the mailing list discussions are documented, and those plus the issues raised in the telcon are resolved, we should draft a definition of “touch-action” (or equivalent functionality) in CSS4-UI.
+</p><h2 id="dropped-css3-features">dropped css3 features</h2>
+<p>
+Features that were dropped from CSS3-UI (e.g. the 2004 CR) are eligible to be considered for CSS4-UI, but they will need a strong justification as having been ignored by implementations for 6+ years means there was likely something wrong with them and they need major revising. In addition, features dropped from other CSS3 specs or trimmed when bringing over to CSS3-UI are also considered here.
+</p><h3 id="appearance">appearance</h3>
+<p>
+The System Appearance feature, including the appearance property, was in the 2004 CSS3-UI CR but never implemented as designed. It likely needs a complete rethink and redesign, perhaps even a reframing/reexploration of the problems it was designed to solve.
+</p>
+
+<p>
+In practice, “appearance:none” is occasionally required in some UAs (like Gecko, WebKit) to turn off the native rendering of some controls and allow full <abbr title="Cascading Style Sheets">CSS</abbr> styling.
+</p>
+
+<p>
+Some form of “appearance:none” may be worth exploring as a CSS4-UI feature.
+</p>
+
+<p>
+At the time of the introduction and development of the &#039;appearance&#039; property, it appeared that the limited set of specific UI elements in <abbr title="HyperText Markup Language">HTML</abbr> were not going to be extended, and thus we tried going so (in a limited capacity) with <abbr title="Cascading Style Sheets">CSS</abbr>.
+</p>
+
+<p>
+Since new input elements etc. have been added to HTML5, and there is clearly opportunity to add more as deemed practically necessary, it makes more sense now to pursue new specific UI elements in HTML5 first, and then design any new related <abbr title="Cascading Style Sheets">CSS</abbr> features subsequently.
+</p>
+
+<p>
+I&#039;ve archived the 2004 System Appearance feature <abbr title="specification">spec</abbr> source on the <abbr title="World Wide Web Consortium">W3C</abbr> wiki (it seems to support better escaping of embedded markup).
+</p>
+<ul>
+<li class="level1"><a href="http://www.w3.org/wiki/User:Tantekelik/CR-css3-ui-20040511-appearance" title="http://www.w3.org/wiki/User:Tantekelik/CR-css3-ui-20040511-appearance" rel="noopener">http://www.w3.org/wiki/User:Tantekelik/CR-css3-ui-20040511-appearance</a></li>
+</ul>
+
+<p>
+Suggestion that more values than just none and auto are useful:
+<a href="http://www.w3.org/mid/5127EB91.7000002@inkedblade.net" title="http://www.w3.org/mid/5127EB91.7000002@inkedblade.net" rel="noopener">http://www.w3.org/mid/5127EB91.7000002@inkedblade.net</a>
+</p>
+
+<p>
+This has now been drafted here: <a href="http://dev.w3.org/csswg/css-ui-4/#appearance-switching" title="http://dev.w3.org/csswg/css-ui-4/#appearance-switching" rel="noopener">http://dev.w3.org/csswg/css-ui-4/#appearance-switching</a>
+</p><h3 id="nav-properties">nav properties</h3>
+<p>
+nav-index:
+</p>
+<ul>
+<li class="level1">See issues <a href="/ideas/nav-index/" title="ideas:nav-index">Improving Tab Navigation</a></li>
+<li class="level1 node">Suggested solutions to problems:<ul>
+<li class="level2"><a href="http://www.w3.org/mid/D04B020C-3D38-4385-BE94-7D54841EDFB2@apple.com" title="http://www.w3.org/mid/D04B020C-3D38-4385-BE94-7D54841EDFB2@apple.com" rel="noopener">http://www.w3.org/mid/D04B020C-3D38-4385-BE94-7D54841EDFB2@apple.com</a></li>
+</ul>
+</li>
+</ul><h3 id="text-overflow-string-plus">text-overflow string plus</h3>
+<p>
+The string value for text-overflow should have the same syntax as the content rule.
+</p>
+
+<p>
+Real-world use-cases:
+</p>
+<ul>
+<li class="level1">none.</li>
+</ul>
+
+<p>
+Theoretical use-cases:
+</p>
+<ul>
+<li class="level1">author might want to use an image</li>
+<li class="level1">author might want to use css counters</li>
+<li class="level1">author might want to use an attribute contents for the ellipsis</li>
+</ul><h3 id="text-overflow-block-hint">text-overflow block hint</h3>
+<p>
+text-overflow: second &lt;string&gt; as an overflow visual hint after the element box. The visual hint after the element box only appears if there is content which is clipped because of the block-progression dimension of the block, not because the last line cannot fit. If the visual hint after the element box is enabled and would appear at the same location as the visual hint at the end of the element box, only the visual hint after the element box is rendered. 
+</p>
+
+<p>
+Originally text-overflow: second &lt;string&gt; was <a href="http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis" title="http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis" rel="noopener">defined in CSS3 Text CR 2003-05-14</a> for after the element box in addition to the end of the text being overflowed - but no one implemented it. Thus any request for including this MUST include some justification as to why/how implementations would consider it differently than they did (and reject) for CSS3 Text CR 2003.
+</p>
+
+<p>
+The current CSS3-UI text-overflow already uses two values for the start and end of the text, so another property (or another way of specifying the value) would be needed for this before/after the element box functionality.
+</p>
+
+<p>
+In addition
+</p>
+
+<p>
+Real world use-cases:
+</p>
+<ul>
+<li class="level1">what iTunes App Store does for its app descriptions (more details needed).</li>
+<li class="level1">…</li>
+</ul>
+
+<p>
+This should likely be done as a new property, e.g. &#039;block-overflow&#039;, as described by Tab Atkins here:
+</p>
+<ul>
+<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Jul/0688.html" title="http://lists.w3.org/Archives/Public/www-style/2012Jul/0688.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2012Jul/0688.html</a></li>
+</ul>
+
+<p>
+Also see:
+</p>
+<ul>
+<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2013Oct/thread.html#msg624" title="http://lists.w3.org/Archives/Public/www-style/2013Oct/thread.html#msg624" rel="noopener">discussion in October 2013</a></li>
+<li class="level1">minutes of face-to-face 2014-09-10, 9:15am-9:45am (very start of day)</li>
+</ul><h3 id="text-overflow-start-end-values">text-overflow start end values</h3>
+<p>
+Originally text-overflow permitted an optional second value <a href="http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis" title="http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-overflow-ellipsis" rel="noopener">defined in CSS3 Text CR 2003-05-14</a> “	&lt;ellipsis&gt;{1,2} ”
+</p>
+
+<p>
+Status:
+</p>
+<ul>
+<li class="level1">in CSS3-UI editor&#039;s draft “at risk”</li>
+</ul>
+
+<p>
+Real-world use-cases:
+</p>
+<ul>
+<li class="level1">none.</li>
+</ul>
+
+<p>
+Theoretical use-cases:
+</p>
+<ul>
+<li class="level1">none.</li>
+</ul>
+
+<p>
+Hypothetical reasoning:
+</p>
+<ul>
+<li class="level1 node">Since the <abbr title="specification">spec</abbr> calls for overflow markers on both sides, it seems reasonable to give the author control over each side separately.<ul>
+<li class="level2">Given that the clipping is visual rather than logical, it makes sense that the two-value form should also be visual left/right rather than logical start/end. - Mats</li>
+<li class="level2">Note that the previous CSS3-Text CR defined two values as: “If two &lt;ellipsis&gt; values area provided, they determine the overflow visual hint at the end and the overflow visual hint after the element box respectively.”</li>
+</ul>
+</li>
+</ul><h3 id="user-select">user-select</h3>
+<p>
+Last seen in the <a href="http://www.w3.org/TR/2000/WD-css3-userint-20000216#user-select" title="http://www.w3.org/TR/2000/WD-css3-userint-20000216#user-select" rel="noopener">2000 era draft of User Interface for CSS3</a>, the &#039;user-select&#039; property controls the selection model and granularity of an element.
+</p>
+
+<p>
+Implementation Status:
+</p>
+<ul>
+<li class="level1">some interoperability across 3 implementations (Gecko as &#039;<a href="https://developer.mozilla.org/en-US/docs/CSS/user-select" title="https://developer.mozilla.org/en-US/docs/CSS/user-select" rel="noopener">-moz-user-select</a>&#039;, Trident, WebKit, Opera)</li>
+<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Jul/0541.html" title="http://lists.w3.org/Archives/Public/www-style/2012Jul/0541.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2012Jul/0541.html</a></li>
+</ul>
+
+<p>
+Spec Status:
+</p>
+<ul>
+<li class="level1">draft here: <a href="http://dev.w3.org/csswg/css-ui-4/#content-selection" title="http://dev.w3.org/csswg/css-ui-4/#content-selection" rel="noopener">http://dev.w3.org/csswg/css-ui-4/#content-selection</a></li>
+</ul><h1 id="css4-ui-issues-list">css4-ui issues list</h1><h2 id="current-issues">Current Issues</h2>
+<p>
+The editor&#039;s draft is here:
+</p>
+<ul>
+<li class="level1"><a href="http://dev.w3.org/csswg/css-ui-4/" title="http://dev.w3.org/csswg/css-ui-4/" rel="noopener">http://dev.w3.org/csswg/css-ui-4/</a></li>
+</ul>
+
+<p>
+For now, issues are primarily tracked inline, although this wiki contains relevant information that predates the creation of the draft.
+</p><h1 id="issues-moved-from-css3-ui">Issues moved from css3-ui</h1>
+<p>
+The following issues were removed form css3-ui&#039;s issue list, as they pertain to features that were removed from that document. They are collected here, as these features may be reintroduced in css4-ui, and the issues would then still be relevant.
+</p><h3 id="issue-4">Issue 4</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>computed value of &#039;pointer-events&#039; vs initial value vs SVG vs CSS3-UI conflict. A quick test shows that IE9 and Opera return &#039;visiblePainted&#039;, while WebKit and Firefox return &#039;auto&#039;.</dd>
+<dt><span class="term"> Raised by: Erik Dahlstrom</span></dt>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" title="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html</a></dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="https://wiki.mozilla.org/Tantek-Mozilla-projects#pointer-events" title="https://wiki.mozilla.org/Tantek-Mozilla-projects#pointer-events" rel="noopener">https://wiki.mozilla.org/Tantek-Mozilla-projects#pointer-events</a></dd>
+<dt><span class="term"> Proposed Resolution</span></dt>
+<dd>informative UA style sheet addition to explicitly set an SVG-specific value.</dd>
+<dt><span class="term"> Status</span></dt>
+<dd>editors draft updated with style sheet additions, awaiting input from Jonathan Watt, implementer of pointer-events in Firefox.</dd>
+</dl><h3 id="issue-5">Issue 5</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>In SVG 1.1 the &#039;pointer-events&#039; property only applies to &#039;graphics elements&#039;, but in css3-ui it applies to all elements. Why? (Details raised by Kevin Ar18: “svg tag should not trigger pointer events like the SVG <abbr title="specification">spec</abbr> states and as noted here: <a href="http://www.w3.org/2010/09/27-fx-minutes.html#item03" title="http://www.w3.org/2010/09/27-fx-minutes.html#item03" rel="noopener">http://www.w3.org/2010/09/27-fx-minutes.html#item03</a> Originally, the plan was to include this explanation in an SVG <abbr title="specification">spec</abbr>, but it was concluded that it should be in the <abbr title="Cascading Style Sheets">CSS</abbr> specs instead.” )</dd>
+<dt><span class="term"> Raised by: Erik Dahlstrom, Kevin Ar18</span></dt>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" title="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html</a></dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Nov/0268.html" title="http://lists.w3.org/Archives/Public/www-style/2010Nov/0268.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Nov/0268.html</a></dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Nov/0304.html" title="http://lists.w3.org/Archives/Public/www-style/2010Nov/0304.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Nov/0304.html</a></dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://www.w3.org/2010/09/27-fx-minutes.html#item03" title="http://www.w3.org/2010/09/27-fx-minutes.html#item03" rel="noopener">http://www.w3.org/2010/09/27-fx-minutes.html#item03</a></dd>
+<dt><span class="term"> Proposed Resolution</span></dt>
+<dd>1: Add whatever default style sheet rules are necessary to implement SVG&#039;s “applies only” special cases and then 2: add a new <abbr title="Frequently Asked Questions">FAQ</abbr>: Any element can be given dimensions with <abbr title="Cascading Style Sheets">CSS</abbr> and thus can potentially receive events. In general property dependence on specific elements or classes of elements (e.g. “graphics elements”) is bad design (for specification of properties). Much better to simply say “applies to all” (especially for inherited properties) and then use default style sheet rules and/or a computed abstraction like “has dimension” or “has a geometry”.</dd>
+<dt><span class="term"> Status</span></dt>
+<dd>resolved in editor&#039;s draft, awaiting public draft. proposed - add a default style sheet rule for the &#039;svg&#039; pointer-events:none for SVG <abbr title="specification">spec</abbr> compat, and then move the “pointer-events: visiblePainted” declaration to a new rule for &#039;svg&gt;*&#039; elements. add more rules as necessary to mimic SVG&#039;s notion of “applies to &#039;graphics elements&#039;”.</dd>
+</dl><h3 id="issue-6">Issue 6</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>Normatively reference SVG 1.1 for &#039;fill&#039; and &#039;stroke&#039; property definitions.</dd>
+<dt><span class="term"> Raised by: Erik Dahlstrom</span></dt>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" title="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html</a></dd>
+<dt><span class="term"> Proposed Resolution</span></dt>
+<dd>inline links to SVG 1.1 property definitions</dd>
+<dt><span class="term"> Status</span></dt>
+<dd><strong>Open.</strong> Proposed resolution incomplete - awaiting URLs</dd>
+</dl><h3 id="issue-7">Issue 7</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd> The note about how &#039;fill&#039; and &#039;stroke&#039; don&#039;t affect the result for &#039;all&#039; is missing (compare with the SVG 1.1 pointer-events definition. <a href="http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty" title="http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty" rel="noopener">http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty</a></dd>
+<dt><span class="term"> Raised by: Erik Dahlstrom</span></dt>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" title="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html</a></dd>
+<dt><span class="term"> Proposed Resolution</span></dt>
+<dd>state how &#039;all&#039; is applied in svg separately from how it&#039;s applied otherwise. The same also applies to all the other pointer-event values, where svg is mentioned in parenthesis.</dd>
+<dt><span class="term"> Status</span></dt>
+<dd><strong>Open.</strong> Proposed resolution incomplete.</dd>
+</dl><h3 id="issue-8">Issue 8</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>pointer-events definition lacks many of the details from the SVG 1.1 specification <a href="http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty" title="http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty" rel="noopener">http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty</a>, e.g how &#039;clip-path&#039; and &#039;mask&#039; affects pointer-events, how text elements are handled etc.</dd>
+<dt><span class="term"> Raised by: Erik Dahlstrom</span></dt>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" title="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html</a></dd>
+<dt><span class="term"> Proposed resolution</span></dt>
+<dd>incorporate such details as necessary, as part of the goal here is not to not normatively depend on SVG 1.1 for the property definition itself.  This is similar to how CSS3 color incorporates and defines the full set of color keywords instead of normatively depending on SVG.</dd>
+<dt><span class="term"> Status</span></dt>
+<dd><strong>Open.</strong> Proposed resolution incomplete.</dd>
+</dl><h3 id="issue-9">Issue 9</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>How opacity (and other forms of alpha, e.g rgba, fill-opacity, stroke-opacity etc) affects &#039;pointer-events&#039; is undefined.  </dd>
+<dt><span class="term"> Raised by: Erik Dahlstrom</span></dt>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" title="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html</a></dd>
+<dt><span class="term"> Proposed resolution</span></dt>
+<dd>incorporate such details as necessary</dd>
+<dt><span class="term"> Status</span></dt>
+<dd><strong>Open.</strong> Proposed resolution incomplete.</dd>
+</dl><h3 id="issue-10">Issue 10</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>How &#039;clip-path&#039;, &#039;mask&#039; and &#039;filter&#039; affect &#039;pointer-events&#039; is undefined.  </dd>
+<dt><span class="term"> Raised by: Erik Dahlstrom</span></dt>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" title="http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Sep/0818.html</a></dd>
+<dt><span class="term"> Proposed resolution</span></dt>
+<dd>incorporate such details as necessary.</dd>
+<dt><span class="term"> Status</span></dt>
+<dd><strong>Open.</strong> Proposed resolution incomplete.</dd>
+</dl><h3 id="issue-11">Issue 11</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>multiple issues from Kevin Ar18 2010-11-17</dd>
+<dt><span class="term"> Raised by</span></dt>
+<dd>Kevin Ar18</dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Nov/0257.html" title="http://lists.w3.org/Archives/Public/www-style/2010Nov/0257.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Nov/0257.html</a></dd>
+<dt><span class="term"> Proposed Resolution</span></dt>
+<dd>itemize and split into multiple sub-issues here. some may be merely details on Issue 5.</dd>
+<dt><span class="term"> Status</span></dt>
+<dd><strong>Open.</strong> Collected.</dd>
+</dl><h3 id="issue-12">Issue 12</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>what are effects of &#039;pointer-events&#039; with regards to keyboard navigation?</dd>
+<dt><span class="term"> Raised by</span></dt>
+<dd>Doug Schepers</dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/public-fx/2010OctDec/0106.html" title="http://lists.w3.org/Archives/Public/public-fx/2010OctDec/0106.html" rel="noopener">http://lists.w3.org/Archives/Public/public-fx/2010OctDec/0106.html</a></dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://dev.w3.org/csswg/css3-ui/#pointer-events" title="http://dev.w3.org/csswg/css3-ui/#pointer-events" rel="noopener">http://dev.w3.org/csswg/css3-ui/#pointer-events</a></dd>
+<dt><span class="term"> Proposed resolution</span></dt>
+<dd>informative note in the definition of the &#039;pointer-events&#039; property would help steer authors to think about how they are using this (such as a suggestion that if pointer-events are turned off, authors should also consider making the element not 
+focusable, as well).</dd>
+<dt><span class="term"> Status</span></dt>
+<dd>Resolved, informative note added to editor&#039;s draft. awaiting public draft.</dd>
+</dl><h3 id="issue-14">Issue 14</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>example for &#039;appearance&#039; values &#039;pop-up-menu&#039; and &#039;radio-group&#039; and &#039;list-menu&#039; should use same content to illustrate different visualizations for same semantics.</dd>
+<dt><span class="term"> Raised by</span></dt>
+<dd>Charles Belov</dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html" title="http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html</a></dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html" title="http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html</a></dd>
+<dt><span class="term"> Proposed resolution</span></dt>
+<dd>rewrite example accordingly.</dd>
+<dt><span class="term"> Status</span></dt>
+<dd><strong>OPEN.</strong> Collected.</dd>
+</dl><h3 id="issue-15">Issue 15</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>add second &#039;list-menu&#039; example that shows multiselect behavior and use same content as &#039;checkbox-group&#039;</dd>
+<dt><span class="term"> Raised by</span></dt>
+<dd>Charles Belov</dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html" title="http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html</a></dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html" title="http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html</a></dd>
+<dt><span class="term"> Proposed resolution</span></dt>
+<dd>write new example accordingly.</dd>
+<dt><span class="term"> Status</span></dt>
+<dd><strong>OPEN.</strong> Collected.</dd>
+</dl><h3 id="issue-16">Issue 16</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>What happens if a semantic single-select element is styled as appearance &#039;checkbox-group&#039;?</dd>
+<dt><span class="term"> Raised by</span></dt>
+<dd>Charles Belov</dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html" title="http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html</a></dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html" title="http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html</a></dd>
+<dt><span class="term"> Proposed resolution</span></dt>
+<dd>add note discouraging authors from doing this.</dd>
+<dt><span class="term"> Status</span></dt>
+<dd><strong>OPEN.</strong> Collected.</dd>
+</dl><h3 id="issue-17">Issue 17</h3>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Summary</span></dt>
+<dd>What happens if a semantic multi-select element is styled as appearance &#039;radio-group&#039; or &#039;pop-up-menu&#039;?</dd>
+<dt><span class="term"> Raised by</span></dt>
+<dd>Charles Belov</dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html" title="http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Nov/0189.html</a></dd>
+<dt><span class="term"> <abbr title="Uniform Resource Locator">URL</abbr></span></dt>
+<dd><a href="http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html" title="http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2011Jan/0224.html</a></dd>
+<dt><span class="term"> Proposed resolution</span></dt>
+<dd>add note discouraging authors from doing this.</dd>
+<dt><span class="term"> Status</span></dt>
+<dd><strong>OPEN.</strong> Collected.</dd>
+</dl>
+</main>
+</body>
+</html>

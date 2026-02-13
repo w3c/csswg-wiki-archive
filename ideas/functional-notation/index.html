@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Functional Notation Systematization - CSS Working Group Wiki (Archive)</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
+  color: #1f2328; background: #fff;
+}
+.archive-banner {
+  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
+  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
+}
+.archive-banner strong { color: #6e5600; }
+header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
+header h1 { margin: 0; font-size: 1.25em; }
+header h1 a { color: #0366d6; text-decoration: none; }
+header h1 a:hover { text-decoration: underline; }
+nav { margin-top: 0.5em; font-size: 0.9em; }
+nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
+nav a:hover { color: #0366d6; }
+h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
+h1:first-child { margin-top: 0; }
+a { color: #0366d6; }
+code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
+pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
+th { background: #f6f8fa; }
+img { max-width: 100%; }
+.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
+.breadcrumb a { color: #656d76; }
+ul, ol { padding-left: 1.5em; }
+li { margin: 0.25em 0; }
+.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
+abbr { text-decoration: underline dotted; cursor: help; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0d1117; color: #e6edf3; }
+  .archive-banner { background: #3d2e00; border-color: #6e5600; }
+  .archive-banner strong { color: #f0c000; }
+  header { border-bottom-color: #30363d; }
+  header h1 a { color: #58a6ff; }
+  nav a { color: #8b949e; }
+  nav a:hover { color: #58a6ff; }
+  h1, h2, h3, h4 { color: #e6edf3; }
+  a { color: #58a6ff; }
+  code, pre { background: #161b22; }
+  th, td { border-color: #30363d; }
+  th { background: #161b22; }
+  .breadcrumb, .breadcrumb a { color: #8b949e; }
+  .plugin_note { background: #161b22; border-color: #58a6ff; }
+}
+</style>
+</head>
+<body>
+<div class="archive-banner">
+<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
+The original wiki was hosted at wiki.csswg.org.
+</div>
+<header>
+<h1><a href="/">CSS Working Group Wiki</a></h1>
+<nav>
+<a href="/">Home</a>
+<a href="/spec/">Specs</a>
+<a href="/ideas/">Ideas</a>
+<a href="/test/">Testing</a>
+<a href="/wiki/">About</a>
+</nav>
+</header>
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/ideas/">ideas</a> / functional-notation</div>
+<main>
+<!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><a href="#functional-notation-systematization">Functional Notation Systematization</a><ul class="toc">
+<li class="level2"><a href="#general-principles">General Principles</a></li>
+<li class="level2"><a href="#rounding-functions">Rounding Functions</a></li>
+<li class="level2"><a href="#transforms">Transforms</a></li>
+<li class="level2"><a href="#animations">Animations</a></li>
+<li class="level2"><a href="#color">Color</a></li>
+<li class="level2"><a href="#shapes">Shapes</a></li>
+<li class="level2"><a href="#fonts">Fonts</a></li>
+<li class="level2"><a href="#gcpm">GCPM</a></li>
+<li class="level2"><a href="#grid">Grid</a></li>
+<li class="level2"><a href="#images">Images</a></li>
+<li class="level2"><a href="#template">Template</a></li>
+<li class="level2"><a href="#lists">Lists</a></li>
+<li class="level2"><a href="#position">Position</a></li>
+<li class="level2"><a href="#values-units">Values &amp; Units</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 id="functional-notation-systematization">Functional Notation Systematization</h1><h2 id="general-principles">General Principles</h2>
+<ol>
+<li class="level1 node">Functions group/namespace a set of <abbr title="Cascading Style Sheets">CSS</abbr>-like values, and so should abide by general <abbr title="Cascading Style Sheets">CSS</abbr> value syntax principles<ol>
+<li class="level2">Optionality is handled as for <abbr title="Cascading Style Sheets">CSS</abbr> values, as far as possible</li>
+<li class="level2">Ordering should be flexible as much as possible/prudent</li>
+</ol>
+</li>
+<li class="level1">Lists of parallel items are comma-separated</li>
+<li class="level1">Lowest operator is comma</li>
+<li class="level1">Backwards compat should be preserved unless there&#039;s a very good reason otherwise</li>
+</ol>
+
+<p>
+More explanation:
+</p>
+<ol>
+<li class="level1">Functional notation is a way of wrapping a subset of a property&#039;s value for labeling or grouping purposes.  As such, it should generally follow the same design principles that property values do.   As much as possible/prudent of the value should be optional and re-orderable, as long as it doesn&#039;t affect parsing (by producing ambiguity, or introducing look-ahead).</li>
+<li class="level1">The comma should be used as a separator between parallel values (similar to background-*) or fallback values (similar to font-family).</li>
+<li class="level1">Otherwise, values should be space-separated, as normal for property values.  In general, the comma is the lowest-precedence operator in the grammar for a property.</li>
+<li class="level1">When a function is overtly math-y, it may make sense to use commas to separate arguments, even if there&#039;s no other good reason to use a comma, just because it matches standard usage so well.  (We&#039;re not quite certain of this - we might want to drop it.)</li>
+<li class="level1">In rare cases, keywords may be used to prefix sets of values to allow unambiguous parsing.  This should be avoided when possible; often, fixing a particular order for the values or making some of the values required can remove ambiguity.  Only when it&#039;s very valuable for the values to be optional or reorderable should this be considered.</li>
+</ol>
+
+<p>
+<a href="http://lists.w3.org/Archives/Public/www-style/2012Jan/0933.html" title="http://lists.w3.org/Archives/Public/www-style/2012Jan/0933.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2012Jan/0933.html</a>
+</p><h2 id="rounding-functions">Rounding Functions</h2>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Before </span></dt>
+<dd> <code>roundup(&lt;modulus&gt;)</code> (automatically applied to width/height only) also <code>rounddown()</code> and <code>round()</code></dd>
+<dt><span class="term"> After </span></dt>
+<dd> <code>roundup(&lt;css-value&gt;, &lt;modulus&gt;)</code></dd>
+<dt><span class="term"> Rationale </span></dt>
+<dd> Generalizing the round functions seems useful for calc() and other places.  The order “value then modulus” matches basically every programming language.  However, you need 1-token lookahead if you omit the comma, because the &lt;css-value&gt; could be any number of arbitrary tokens.  Also, the common representation of this in math uses commas.</dd>
+</dl><h2 id="transforms">Transforms</h2>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Before</span></dt>
+<dd> <code>matrix(&lt;number&gt;, &lt;number&gt;, &lt;number&gt;, &lt;number&gt;, &lt;number&gt;, &lt;number&gt;)</code></dd>
+<dt><span class="term"> After</span></dt>
+<dd> <code>matrix(&lt;number&gt;{2}, &lt;number&gt;{2}, &lt;number&gt;{2})</code></dd>
+<dt><span class="term"> Rationale</span></dt>
+<dd> Six comma-separated numbers make it difficult to discern the structure of the matrix: is it 1&times;6, 2&times;3, 3&times;2, or 6&times;1?  Other languages such as Matlab use different separators for numbers-in-a-row and rows-in-a-matrix (Matlab uses spaces and semicolons).  We should match.  (Our matrices are column-major, but the point stands.)</dd>
+<dt><span class="term"> Extra Note</span></dt>
+<dd> The same reasoning applies, much more strongly, to the 4&times;4 3d matrix with 16 comma-separated values.</dd>
+</dl>
+
+<p>
+—
+</p>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Before</span></dt>
+<dd> <code>translate(&lt;x&gt;, &lt;y&gt;)</code></dd>
+<dt><span class="term"> After</span></dt>
+<dd> <code>translate(&lt;x&gt; &lt;y&gt;)</code></dd>
+<dt><span class="term"> Rationale</span></dt>
+<dd> The comma isn&#039;t needed for grouping or disambiguation. Other places in <abbr title="Cascading Style Sheets">CSS</abbr> that accept an x and y length space-separate, like &#039;border-spacing&#039; and &#039;background-position&#039;.</dd>
+<dt><span class="term"> Extra Note</span></dt>
+<dd> The same applies to <code>scale()</code>.</dd>
+</dl><h2 id="animations">Animations</h2>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Before</span></dt>
+<dd> <code>steps(&lt;number&gt; [, [start | end]]? )</code></dd>
+<dt><span class="term"> After</span></dt>
+<dd> <code>steps(&lt;number&gt; &amp;&amp; [start | end]?)</code></dd>
+<dt><span class="term"> Rationale</span></dt>
+<dd> The comma isn&#039;t needed for grouping or disambiguation.  The ordering constraint can also be relaxed without ambiguity.</dd>
+</dl>
+
+<p>
+—
+</p>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Before</span></dt>
+<dd> <code>cubic-bezier(&lt;number&gt;, &lt;number&gt;, &lt;number&gt;, &lt;number&gt;)</code></dd>
+<dt><span class="term"> After</span></dt>
+<dd> <code>cubic-bezier(&lt;number&gt;{2}, &lt;number&gt;{2})</code></dd>
+<dt><span class="term"> Rationale</span></dt>
+<dd> Similar to <code>matrix()</code>, the value here is two pairs of numbers, not four numbers, and so the grouping should reflect that.  Positions are space-separated in <abbr title="Cascading Style Sheets">CSS</abbr> (though this is obviously a restricted form of “position”).</dd>
+</dl><h2 id="color">Color</h2>
+<p>
+No change to Color as part of this effort.  (We believe that percentages should be usable for opacity, and angles for hue, but those will be pursued as part of Colors 4.)
+</p><h2 id="shapes">Shapes</h2>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Before</span></dt>
+<dd> <code>rectangle(&lt;length&gt;, &lt;length&gt;, &lt;length&gt;, &lt;length&gt; [, [&lt;length&gt;,] &lt;length&gt;])</code></dd>
+<dt><span class="term"> After</span></dt>
+<dd> <code>rectangle(&lt;length&gt;{4} [&lt;&#039;border-corner-shape&#039;&gt; &lt;length&gt;{1,2}]? )</code></dd>
+<dt><span class="term"> Rationale</span></dt>
+<dd> SVG makes all commas optional.  It&#039;s most common to see viewBox specified with no commas at all.  As well, <code>rect()</code> in <abbr title="Cascading Style Sheets">CSS</abbr> already allows space separation.  The addition of border-corner-shape allows greater flexibility in the future and serves to make it clearer what the trailing 1 or 2 lengths mean.</dd>
+<dt><span class="term"> Extra Note</span></dt>
+<dd> We recommend shortening the name to <code>rect()</code>, and unifying with the &#039;clip&#039; value.</dd>
+</dl>
+
+<p>
+—
+</p>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Before</span></dt>
+<dd> <code>circle(&lt;length&gt;, &lt;length&gt;, &lt;length&gt;)</code></dd>
+<dt><span class="term"> After</span></dt>
+<dd> <code>circle(&lt;length&gt;{3})</code></dd>
+<dt><span class="term"> Rationale</span></dt>
+<dd> No need for commas for grouping or disambiguation.  Dropping commas is consistent with <code>rectangle()</code>.</dd>
+</dl>
+
+<p>
+—
+</p>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Before</span></dt>
+<dd> <code>ellipse(&lt;length&gt;, &lt;length&gt;, &lt;length&gt;, &lt;length&gt;)</code></dd>
+<dt><span class="term"> After</span></dt>
+<dd> <code>ellipse(&lt;length&gt;{4})</code></dd>
+<dt><span class="term"> Rationale</span></dt>
+<dd> Same as <code>circle()</code></dd>
+</dl>
+
+<p>
+—
+</p>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Before</span></dt>
+<dd> <code>polygon([&lt;fill-rule&gt;,]? [&lt;length&gt;, &lt;length&gt;]# )</code></dd>
+<dt><span class="term"> After</span></dt>
+<dd> <code>polygon([&lt;fill-rule&gt;,]? &lt;length&gt;{2}# )</code></dd>
+<dt><span class="term"> Rationale</span></dt>
+<dd> Same as <code>cubic-bezier()</code>, but moreso - a list of points should be indicated with different separators between the components and the points, or else a long list becomes <em>unreadable</em> without writing conventions or manual counting.  <code>&lt;fill-rule&gt;</code> doesn&#039;t need a comma for disambuation, but we left it in due to Principle 3 and to match the gradient functions.</dd>
+</dl><h2 id="fonts">Fonts</h2>
+<p>
+No change suggested to any functions in Fonts - they all accept either a single argument, or a comma-separated list of parallel items.
+</p><h2 id="gcpm">GCPM</h2>
+<p>
+We <strong>would</strong> recommend removing the commas from <code>target-text()</code>, as they&#039;re not necessary for disambiguation or grouping, but we think it is more valuable to match the syntax of <code>target-counter()</code> (which is constrained by the syntax of <code>counter()</code>) for consistency.
+</p><h2 id="grid">Grid</h2>
+<p>
+No change suggested to any functions in Grid.  We would suggest removing the comma from <code>minmax()</code>, as it&#039;s not necessary for disambiguation or grouping, but we feel this is a math-like function and, like <code>round()</code>, may be more natural to see with commas.
+</p><h2 id="images">Images</h2>
+<p>
+No change suggested to any functions in Image Values. (<code>image()</code> takes a comma-separated list of parallel arguments, <code>element()</code> takes a single argument, and the gradient functions already follow the principles above)
+</p><h2 id="template">Template</h2>
+<p>
+Same as Grid.
+</p><h2 id="lists">Lists</h2>
+<p>
+No change suggested to Lists.  We would suggest removing the commas from <code>counter()</code> and <code>counters()</code>, but back-compat dictates they stay the same unless there&#039;s a good reason to change them.  Given that, we don&#039;t feel this change is significantly helpful enough to justify itself.  (<code>symbols()</code> already follows the principles above.)
+</p><h2 id="position">Position</h2>
+<p>
+We suggest that <code>rect()</code> be defined such that space separation MUST be accepted.  We believe this matches all major UAs.  Also, maybe align with the suggestions for <code>rectangle()</code> from Exclusions.
+</p><h2 id="values-units">Values &amp; Units</h2>
+<dl class="plugin_definitionlist">
+<dt><span class="term"> Before</span></dt>
+<dd> <code>attr(&lt;name&gt;[, &lt;type&gt; [, &lt;default&gt;]?]?)</code></dd>
+<dt><span class="term"> After</span></dt>
+<dd> <code>attr(&lt;name&gt; &lt;type&gt;? [, &lt;default&gt;]?)</code></dd>
+<dt><span class="term"> Rationale</span></dt>
+<dd> The comma between the name and type was not necessary for disambiguation or grouping.  Removing it more closely represents the association between the name and the type, and lets the comma operate in its traditional role as a fallback operator (Principle 2).  Finally, it lets the author omit type but specify default, which was not possible in the old grammar due to ambiguity.
+</main>
+</body>
+</html>

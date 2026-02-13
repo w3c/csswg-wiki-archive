@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guide to CVS - CSS Working Group Wiki (Archive)</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
+  color: #1f2328; background: #fff;
+}
+.archive-banner {
+  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
+  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
+}
+.archive-banner strong { color: #6e5600; }
+header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
+header h1 { margin: 0; font-size: 1.25em; }
+header h1 a { color: #0366d6; text-decoration: none; }
+header h1 a:hover { text-decoration: underline; }
+nav { margin-top: 0.5em; font-size: 0.9em; }
+nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
+nav a:hover { color: #0366d6; }
+h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
+h1:first-child { margin-top: 0; }
+a { color: #0366d6; }
+code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
+pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
+th { background: #f6f8fa; }
+img { max-width: 100%; }
+.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
+.breadcrumb a { color: #656d76; }
+ul, ol { padding-left: 1.5em; }
+li { margin: 0.25em 0; }
+.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
+abbr { text-decoration: underline dotted; cursor: help; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0d1117; color: #e6edf3; }
+  .archive-banner { background: #3d2e00; border-color: #6e5600; }
+  .archive-banner strong { color: #f0c000; }
+  header { border-bottom-color: #30363d; }
+  header h1 a { color: #58a6ff; }
+  nav a { color: #8b949e; }
+  nav a:hover { color: #58a6ff; }
+  h1, h2, h3, h4 { color: #e6edf3; }
+  a { color: #58a6ff; }
+  code, pre { background: #161b22; }
+  th, td { border-color: #30363d; }
+  th { background: #161b22; }
+  .breadcrumb, .breadcrumb a { color: #8b949e; }
+  .plugin_note { background: #161b22; border-color: #58a6ff; }
+}
+</style>
+</head>
+<body>
+<div class="archive-banner">
+<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
+The original wiki was hosted at wiki.csswg.org.
+</div>
+<header>
+<h1><a href="/">CSS Working Group Wiki</a></h1>
+<nav>
+<a href="/">Home</a>
+<a href="/spec/">Specs</a>
+<a href="/ideas/">Ideas</a>
+<a href="/test/">Testing</a>
+<a href="/wiki/">About</a>
+</nav>
+</header>
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/test/">test</a> / cvs</div>
+<main>
+<!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><a href="#guide-to-cvs">Guide to CVS</a><ul class="toc">
+<li class="level2"><a href="#what-is-cvs">What is CVS?</a></li>
+<li class="level2"><a href="#using-command-line-cvs">Using Command-line CVS</a><ul class="toc">
+<li class="level3"><a href="#setting-cvsroot">Setting $CVSROOT</a></li>
+<li class="level3"><a href="#logging-in">Logging in</a></li>
+<li class="level3"><a href="#checking-out">Checking out</a></li>
+<li class="level3"><a href="#creating-a-patch">Creating a Patch</a></li>
+<li class="level3"><a href="#committing-changes">Committing Changes</a></li>
+<li class="level3"><a href="#adding-new-files">Adding New Files</a></li>
+<li class="level3"><a href="#removing-files">Removing Files</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 id="guide-to-cvs">Guide to CVS</h1>
+<p>
+<em>This document is licensed under the <a href="http://creativecommons.org/licenses/by-sa/2.0/" title="http://creativecommons.org/licenses/by-sa/2.0/" rel="noopener">Creative Commons Attribution Share-Alike License 2.0</a>. The <a href="http://developer.mozilla.org/tools/cvs/" title="http://developer.mozilla.org/tools/cvs/" rel="noopener">original</a> was written for <a href="http://www.mozilla.org/" title="http://www.mozilla.org/" rel="noopener">mozilla.org</a>.</em>
+</p><h2 id="what-is-cvs">What is CVS?</h2>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">&lt;p&gt;&lt;dfn&gt;CVS&lt;/dfn&gt; is the &lt;a href=&quot;http://www.nongnu.org/cvs/&quot;&gt;Concurrent
+  Versions System&lt;/a&gt;. It lets multiple people work on the same set of
+  project files at the same time without clobbering each others&#039; changes,
+  and it keeps track of who made what changes made to those files. CVS
+  works by keeping a &lt;dfn&gt;repository&lt;/dfn&gt;&amp;#8212;a master copy&amp;#8212;of
+  the project files. Each contributor &lt;dfn&gt;checks out&lt;/dfn&gt; a copy of
+  the project files, makes his/her modifications, and then &lt;dfn&gt;checks
+  in&lt;/dfn&gt; or &lt;dfn&gt;commits&lt;/dfn&gt; the changes: CVS compares the contributor&#039;s
+  version to the master copy, figures out what changed, and then changes
+  those lines in the master copy to match, ignoring any changes made by
+  other people to other parts of the file. In case of a conflict, CVS
+  aborts the check-in and reports the conflicts so that they can be
+  manually resolved before trying again.&lt;/p&gt;</pre>
+
+<p>
+&lt;/html&gt;
+</p><h2 id="using-command-line-cvs">Using Command-line CVS</h2><h3 id="setting-cvsroot">Setting $CVSROOT</h3>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">  &lt;p&gt;Before you can do anything with cvs, you first need to tell it where
+    to find the repository you&#039;re working with. There are two main ways of
+    doing this: using the &lt;code&gt;$CVSROOT&lt;/code&gt; environment variable or
+    using the &lt;code&gt;-d&lt;/code&gt; option. Setting the &lt;code&gt;$CVSROOT&lt;/code&gt;
+    environment variable is usually the most convenient because then you
+    only have to type it once; subsequent &lt;code class=&quot;command&quot;&gt;cvs&lt;/code&gt;
+    commands will all use that &lt;code&gt;$CVSROOT&lt;/code&gt; setting.&lt;/p&gt;</pre>
+<pre class="code">  &lt;div class=&quot;example&quot; title=&quot;Setting the $CVSROOT Environment Variable&quot;&gt;
+    &lt;dl&gt;
+    &lt;dt&gt;Windows/command&lt;/dt&gt;
+      &lt;dd&gt;&lt;pre&gt;&lt;kbd&gt;set CVSROOT=&lt;var&gt;cvsroot-string&lt;/var&gt;&lt;/kbd&gt;&lt;/pre&gt;&lt;/dd&gt;</pre>
+<pre class="code">    &lt;dt&gt;Unix/bash&lt;/dt&gt;
+      &lt;dd&gt;&lt;pre&gt;&lt;kbd&gt;export CVSROOT=&lt;var&gt;cvsroot-string&lt;/var&gt;&lt;/kbd&gt;&lt;/pre&gt;&lt;/dd&gt;
+    &lt;dt&gt;Unix/csh&lt;/dt&gt;
+      &lt;dd&gt;&lt;pre&gt;&lt;kbd&gt;setenv CVSROOT &lt;var&gt;cvsroot-string&lt;/var&gt;&lt;/kbd&gt;&lt;/pre&gt;&lt;/dd&gt;
+    &lt;/dl&gt;
+    &lt;p&gt;where &lt;var&gt;cvsroot-string&lt;/var&gt; is of the form
+      &lt;code&gt;:protocol:username@server:/path-to-repository&lt;/code&gt;. (&lt;strong&gt;The
+      &lt;var&gt;cvsroot-string&lt;/var&gt; for anonymous read-only access to dev.w3.org
+      is &lt;code&gt;:pserver:anonymous@dev.w3.org:/sources/public&lt;/code&gt;.&lt;/strong&gt;)&lt;/p&gt;
+  &lt;/div&gt;</pre>
+<pre class="code">  &lt;p&gt;To use &lt;code&gt;-d&lt;/code&gt; instead, add &lt;kbd&gt;-d &lt;var&gt;cvsroot-string&lt;/var&gt;&lt;/kbd&gt;
+    as the first argument after &#039;cvs&#039; in each &lt;code class=&quot;command&quot;&gt;cvs&lt;/code&gt;
+    command. For example:&lt;/p&gt;</pre>
+<pre class="code">  &lt;div class=&quot;example&quot; title=&quot;Using the -d Option to Perform a Checkout&quot;&gt;
+    &lt;pre&gt;&lt;kbd&gt;cvs -d :pserver:anonymous@dev.w3.org:/sources/public co CSS&lt;/kbd&gt;
+  &lt;/div&gt;</pre>
+
+<p>
+&lt;/html&gt;
+</p><h3 id="logging-in">Logging in</h3>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">  &lt;pre&gt;&lt;kbd&gt;cvs login&lt;/kbd&gt;&lt;/pre&gt;</pre>
+<pre class="code">  &lt;p&gt;You will be prompted for your password. (For anonymous access, the
+    password is &lt;code&gt;anonymous&lt;/code&gt;.) CVS encrypts your passwords in a
+    &lt;code class=&quot;filename&quot;&gt;.cvspass&lt;/code&gt; file in your home directory, so
+    you only need to log in once. If CVS complains about you not having
+    a home directory, it&#039;s probably because you need to set the
+    &lt;code&gt;$HOME&lt;/code&gt; environment variable to a reasonable directory
+    path.&lt;/p&gt;</pre>
+
+<p>
+&lt;/html&gt;
+</p><h3 id="checking-out">Checking out</h3>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">  &lt;p&gt;To check out files from the repository, first &lt;kbd
+    class=&quot;command&quot;&gt;cd&lt;/kbd&gt; to the directory where you want to keep the
+    files, then type&lt;/p&gt;</pre>
+<pre class="code">  &lt;pre&gt;&lt;kbd&gt;cvs -z3 co &lt;var&gt;path&lt;/var&gt;&lt;/kbd&gt;&lt;/pre&gt;</pre>
+<pre class="code">  &lt;p&gt;where &lt;var&gt;path&lt;/var&gt; is the path to the file/directory you want to
+    check out or a module name.&lt;/p&gt;</pre>
+<pre class="code">  &lt;p&gt;For example,&lt;/p&gt;</pre>
+<pre class="code">  &lt;pre&gt;&lt;kbd&gt;cvs -z3 co CSS&lt;/kbd&gt;&lt;/pre&gt;
+  &lt;pre&gt;&lt;kbd&gt;cvs -z3 co CSS/CSS2.1-test-suite/README&lt;/kbd&gt;&lt;/pre&gt;</pre>
+<pre class="code">  &lt;p&gt;The &lt;code&gt;-z3&lt;/code&gt; parameter is to cause the files (and diffs) to be
+    compressed while in transit. This is almost always the right thing to do;
+    so much so that you should probably just put &lt;code&gt;cvs -z3&lt;/code&gt;  in
+    your &lt;code class=&quot;filename&quot;&gt;$HOME/.cvsrc file&lt;/code&gt;, to make it be the
+    default on all CVS commands.&lt;/p&gt;</pre>
+<pre class="code">  &lt;p&gt;(Note that &lt;code&gt;-z9&lt;/code&gt; offers a logarithmic improvement in
+    compression at an exponential cost in CPU time. Therefore, we recommend
+    &lt;code&gt;-z3&lt;/code&gt;; that seems to be about optimal in most cases.)&lt;/p&gt;</pre>
+<pre class="code">  &lt;p&gt;If the -z3 parameter doesn&#039;t work, that means you don&#039;t have cvs and/or
+    gzip installed correctly. Your life will be much easier if you correct
+    this, rather than omitting that parameter.&lt;/p&gt;</pre>
+
+<p>
+&lt;/html&gt;
+</p><h3 id="creating-a-patch">Creating a Patch</h3>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">  &lt;p&gt;A &lt;dfn&gt;patch&lt;/dfn&gt; is a &lt;a href=&quot;http://en.wikipedia.org/wiki/Diff&quot;&gt;diff&lt;/a&gt;
+    file that lists all the changes you&#039;ve made to your project files so that
+    other people can review your changes, apply them to their own tree and test
+    them, and/or check them in for you. You will need to know the names of all
+    the files you&#039;ve changed so that you can tell cvs which files to compare.</pre>
+
+<p>
+&lt;/html&gt;
+</p><h4 id="basics">Basics</h4>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">    &lt;p&gt;To create a patch, type&lt;/p&gt;</pre>
+<pre class="code">    &lt;pre&gt;&lt;kbd&gt;cvs &lt;strong&gt;diff -pu&lt;/strong&gt; path/to/file1 path/to/file2 ... &gt; patch.out&lt;/kbd&gt;&lt;/pre&gt;</pre>
+<pre class="code">    &lt;p&gt;The last part (&lt;kbd&gt;&gt; patch.out&lt;/kbd&gt;) dumps the output of that command
+      to the file &lt;code class=&quot;filename&quot;&gt;patch.out&lt;/code&gt;. If you leave it out,
+      cvs will just print everything to the screen.</pre>
+
+<p>
+&lt;/html&gt;
+</p><h4 id="more-context">More Context</h4>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">    &lt;p&gt;Some reviewers prefer having a bit more context for each of the changes:&lt;/p&gt;</pre>
+<pre class="code">    &lt;pre&gt;&lt;kbd&gt;cvs &lt;strong&gt;diff -pu8&lt;/strong&gt; path/to/file1 path/to/file2 ... &gt; patch.out&lt;/kbd&gt;&lt;/pre&gt;</pre>
+<pre class="code">    &lt;p&gt;The &lt;code&gt;8&lt;/code&gt; after the &lt;code&gt;u&lt;/code&gt; asks for 8 lines of context
+      instead of the usual 3.&lt;/p&gt;</pre>
+
+<p>
+&lt;/html&gt;
+</p><h4 id="ignoring-whitespace">Ignoring Whitespace</h4>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">    &lt;p&gt;If you&#039;re making a lot of whitespace/indentation changes, it&#039;s often
+      helpful to review a patch with all the whitespace changes ignored so
+      you can focus on what actual content has changed.&lt;/p&gt;</pre>
+<pre class="code">    &lt;pre&gt;&lt;kbd&gt;cvs &lt;strong&gt;diff -pu8w&lt;/strong&gt; path/to/file1 path/to/file2 ... &gt; patch.out&lt;/kbd&gt;&lt;/pre&gt;</pre>
+
+<p>
+&lt;/html
+</p><h4 id="new-files">New Files</h4>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">    &lt;p&gt;If you&#039;re creating a new file, you can add that change to the diff as
+      well. First, open up the &lt;code class=&quot;filename&quot;&gt;CVS/Entries&lt;/code&gt; file that&#039;s
+      in the new file&#039;s directory. Add the following line to it:&lt;/p&gt;
+     
+    &lt;pre&gt;&lt;kbd&gt;/&lt;var&gt;filename&lt;/var&gt;/0/dummy timestamp//&lt;/kbd&gt;&lt;/pre&gt;</pre>
+<pre class="code">   
+    &lt;p&gt;Now you can include the new file in your diff by using the &lt;code&gt;-N&lt;/code&gt;
+      option:&lt;/p&gt;
+   
+    &lt;pre&gt;&lt;kbd&gt;cvs diff -pu8N path/to/file1 path/to/file2 ... &gt; patch.out&lt;/kbd&gt;&lt;/pre&gt;</pre>
+
+<p>
+&lt;/html&gt;
+</p><h3 id="committing-changes">Committing Changes</h3>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">  &lt;p&gt;&lt;strong&gt;Always run the &lt;code class=&quot;command&quot;&gt;cvs diff&lt;/code&gt; command and
+    check it&#039;s output before committing your changes to the tree.&lt;/strong&gt;
+    You will catch many mistakes before they happen this way.&lt;/p&gt;</pre>
+<pre class="code">  &lt;pre&gt;&lt;kbd&gt;cvs diff -pu &lt;var&gt;path/to/file1 path/to/file2 ...&lt;/var&gt;&lt;/kbd&gt;&lt;/pre&gt;</pre>
+<pre class="code">  &lt;p&gt;The command for committing changes (&amp;ldquo;checking in&amp;rdquo;) to the
+    repository is similar to the diff command: you list all the files that
+    have changed:&lt;/p&gt;</pre>
+<pre class="code">  &lt;pre&gt;&lt;kbd&gt;cvs commit -m &quot;&lt;var&gt;comment&lt;/var&gt;&quot; &lt;var&gt;path/to/file1 path/to/file2 ...&lt;/var&gt;&lt;/kbd&gt;&lt;/pre&gt;</pre>
+<pre class="code">  &lt;p&gt;The comment should include the reviewer (&lt;q&gt;r=&lt;var&gt;someone&lt;/var&gt;&lt;/q&gt; and the
+    patch author (&lt;q&gt;patch by &lt;var&gt;foo@example.com&lt;/var&gt;&lt;/q&gt;) if written by someone
+    besides you.&lt;/p&gt;</pre>
+
+<p>
+&lt;/html&gt;
+</p><h3 id="adding-new-files">Adding New Files</h3>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">  &lt;p&gt;To add a file to the tree, first &lt;strong&gt;&lt;code class=&quot;command&quot;&gt;cd&lt;/code&gt; to its
+    parent directory&lt;/strong&gt; then type&lt;/p&gt;</pre>
+<pre class="code">  &lt;pre&gt;&lt;kbd&gt;cvs add &lt;var&gt;filename&lt;/var&gt;&lt;/kbd&gt;&lt;/pre&gt;</pre>
+<pre class="code">  &lt;p&gt;Then &lt;a href=&quot;#commit&quot;&gt;commit&lt;/a&gt; the addition as with other changes.&lt;/p&gt;</pre>
+<pre class="code">  &lt;p&gt;If the file is binary, you must &lt;code class=&quot;command&quot;&gt;cvs add&lt;/code&gt;
+    with the &lt;code&gt;-kb&lt;/code&gt; options.&lt;/p&gt;</pre>
+<pre class="code">  &lt;pre&gt;&lt;kbd&gt;cvs add -kb &lt;var&gt;filename&lt;/var&gt;&lt;/kbd&gt;&lt;/pre&gt;</pre>
+
+<p>
+&lt;/html&gt;
+</p><h3 id="removing-files">Removing Files</h3>
+<p>
+&lt;html&gt;
+</p>
+<pre class="code">  &lt;p&gt;To remove a file from the tree, first delete your own copy, then, from
+    its parent directory, issue the command&lt;/p&gt;</pre>
+<pre class="code">  &lt;pre&gt;&lt;kbd&gt;cvs remove &lt;var&gt;filename&lt;/var&gt;&lt;/kbd&gt;&lt;/pre&gt;</pre>
+<pre class="code">  &lt;p&gt;As with adding files, you must &lt;a href=&quot;#commit&quot;&gt;commit&lt;/a&gt; this
+    change.&lt;/p&gt;</pre>
+<pre class="code">  &lt;p class=&quot;note&quot;&gt;CVS will still keep the revision history for the removed
+    file.&lt;/p&gt;</pre>
+
+<p>
+&lt;/html&gt;
+</p>
+</main>
+</body>
+</html>
