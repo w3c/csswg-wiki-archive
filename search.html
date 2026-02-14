@@ -1,0 +1,22 @@
+---
+title: Search
+layout: default
+---
+
+<h1>Search</h1>
+
+<form id="search-form" class="search-page-form" action="{{ site.baseurl }}/search/" method="get" role="search">
+  <input type="search" id="search-input" name="q" placeholder="Search the wiki…" autocomplete="off" autofocus aria-label="Search query">
+  <button type="submit" aria-label="Search">
+    <span class="search-btn-text">Search</span>
+    <svg class="search-btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true" width="20" height="20">
+      <circle cx="11" cy="11" r="8"/>
+      <path d="m21 21-4.35-4.35"/>
+    </svg>
+  </button>
+</form>
+
+<div id="search-results" aria-live="polite"></div>
+
+<script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/assets/search.js"></script>
