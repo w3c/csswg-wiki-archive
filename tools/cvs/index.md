@@ -1,1 +1,5 @@
-You're looking for: [[spec/cvs]]
+---
+title: "Untitled"
+---
+
+You're looking for: [cvs](/spec/cvs/)

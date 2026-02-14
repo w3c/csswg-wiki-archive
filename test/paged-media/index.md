@@ -1,5 +1,9 @@
-====== Paged Media Level 3 Conformance Test Suite ======
+---
+title: "Paged Media Level 3 Conformance Test Suite"
+---
 
-  * Known Bugs
-  * [[test:paged-media:assertions|Test Assertion List]]
-  * [[test:paged-media:contribute|Contribute]]
+# Paged Media Level 3 Conformance Test Suite
+
+- Known Bugs
+- [Test Assertion List](/test/paged-media/assertions/)
+- [Contribute](/test/paged-media/contribute/)

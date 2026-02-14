@@ -1,21 +1,25 @@
-====== CSS Writing Modes Level 3 ======
+---
+title: "CSS Writing Modes Level 3"
+---
+
+# CSS Writing Modes Level 3
 
 The biggest issue is the default text-orientation of common symbols and punctuation, so here's a table to start figuring it all out. :)
 
-^Orientation Code^Meaning^
-|U|always upright|
-|S|always sideways|
-|G|upright with alt glyph, else fallback to sideways|
-|?|unknown, please fill in|
-|[1]|Special Behavior #1 (see notes below table)|
+| Orientation Code | Meaning |
+| --- | --- |
+| U | always upright |
+| S | always sideways |
+| G | upright with alt glyph, else fallback to sideways |
+| ? | unknown, please fill in |
+| [1] | Special Behavior #1 (see notes below table) |
 
-===== Data Table =====
+## Data Table
 
-<note>
-If a column has different behavior for Japanese and Chinese, then write both with a slash: Ja/Zh.
-</note>
+> [!NOTE]
+> If a column has different behavior for Japanese and Chinese, then write both with a slash: Ja/Zh.
 
-==== General Categories Without Exceptions ====
+### General Categories Without Exceptions
 
 Name	CatCode	Char	CSSWG	Unicode	AH	InDesign	MSFT	Vrt2	Notes
 
@@ -23,20 +27,18 @@ Currency Symbols	Sc	$£€	S	?	?	?	?	?	Except Fullwidth = Upright
 Math Symbols	Sm	+	S	?	?	?	?	?	Except Fullwidth = Upright
 Modifier Symbols	Sk	¸˦῁	S	?	?	?	?	?	
 
-
-==== Latin-1 ====
+### Latin-1
 
 Name	Codepoint	Char	CSSWG	Unicode	AH	InDesign	MSFT	Vrt2	Notes
 
 Exclamation Mark	U+0021	!	S	?	?	?	?	?	Has fullwidth variant
 Middle Dot	U+00B7	⋅	[1]	?	?	?	?	?	Sideways in Japanese, Upright in Chinese
 
+#### Notes
 
-=== Notes ===
+[1] **U** if `lang=zh`, else **S**
 
-[1] **U** if ''lang=zh'', else **S**
-
-==== General Punctuation ====
+### General Punctuation
 
 	
 	U+2016 ( ‖ ) DOUBLE VERTICAL LINE                    U
@@ -106,18 +108,13 @@ Middle Dot	U+00B7	⋅	[1]	?	?	?	?	?	Sideways in Japanese, Upright in Chinese
 	U+2E30 ( ⸰ ) RING POINT
 	U+2E31 ( ⸱ ) WORD SEPARATOR MIDDLE DOT
 
-
-==== Arrows and Box Drawing ====
-
+### Arrows and Box Drawing
 
 U+2190–U+21FF, U+261A–U+261F, U+2B00–U+2B11, U+2B45–U+2B46, U+2794–U+27BE
 
-
 U+2500–U+257F, U+2580–U+259F
 
-
-
-==== Special numbers ====
+### Special numbers
 
 U+00B2, U+00B3, U+00B9, U+20070, U+2074–U+2079, U+2080–U+2089, U+00BC–U+00BE, U+2150–U+215F, U+2189
 
@@ -125,7 +122,6 @@ Anything else in No category?
 
 **Unicode Error*** Aegean numbers U+10107–U+10133 and North Indic fractions U+A830–U+A835 will be in ScriptExtensions.txt in Unicode 6.1, and therefore not Common, and therefore Sideways.
 
-
-==== All Other Symbols (So) ====
+### All Other Symbols (So)
 
 ...

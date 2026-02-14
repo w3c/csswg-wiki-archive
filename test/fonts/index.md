@@ -1,3 +1,7 @@
+---
+title: "Fonts for CSS Testing"
+---
+
 <html>
 <strong>
 <div style="color: red; font-size: 20px; border: 2px solid red; padding: 10px; line-height: 1.5; text-align: center;">
@@ -8,34 +12,33 @@ This page has been deprecated and is no longer being maintained.
 </div>
 </html>
 
-====== Fonts for CSS Testing ======
+# Fonts for CSS Testing
 
-If you don't have the CSS testing fonts installed, many tests will appear to fail! Install the [[http://www.w3.org/Style/CSS/Test/Fonts/|CSS Testing Fonts]] if you want accurate test results.
+If you don't have the CSS testing fonts installed, many tests will appear to fail! Install the [CSS Testing Fonts](http://www.w3.org/Style/CSS/Test/Fonts/) if you want accurate test results.
 
-===== The Ahem Font =====
+## The Ahem Font
 
-Many of the tests in the CSS Test Suite rely on the [[http://dev.w3.org/CSS/fonts/ahem/|Ahem font]]. Ahem's glyphs are all rectangles, which makes it easy to test the inline box model. More details are available in the [[http://dev.w3.org/CSS/fonts/ahem/README|Ahem README file]].
+Many of the tests in the CSS Test Suite rely on the [Ahem font](http://dev.w3.org/CSS/fonts/ahem/). Ahem's glyphs are all rectangles, which makes it easy to test the inline box model. More details are available in the [Ahem README file](http://dev.w3.org/CSS/fonts/ahem/README).
 
-The Ahem font is available in several formats for different systems. If we are missing yours, and you can create one, we would welcome your contribution. Send us a message on the [[http://lists.w3.org/Archives/Public/public-css-testsuite|public-css-testsuite mailing list]].
+The Ahem font is available in several formats for different systems. If we are missing yours, and you can create one, we would welcome your contribution. Send us a message on the [public-css-testsuite mailing list](http://lists.w3.org/Archives/Public/public-css-testsuite).
 
-==== Installing Ahem on Windows ====
+### Installing Ahem on Windows
 
-  - Download the [[http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF|TrueType version of Ahem]].
-  - Open the folder where you downloaded the font file.
-       * **For Windows XP/Server 2003:**
-            - Open the Fonts folder from the Control Panel.
-            - Drag-and-drop the downloaded file to the fonts folder.
-       * **For Windows Vista/Server 2008**
-            - Right-click the downloaded font file and select "Install".
-            - Confirm your acceptance to the User Account Control (UAC) pop-up window by selecting "continue".
+1. Download the [TrueType version of Ahem](http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF).
+1. Open the folder where you downloaded the font file.
+    - **For Windows XP/Server 2003:**
+          1. Open the Fonts folder from the Control Panel.
+          1. Drag-and-drop the downloaded file to the fonts folder.
+    - **For Windows Vista/Server 2008**
+          1. Right-click the downloaded font file and select "Install".
+          1. Confirm your acceptance to the User Account Control (UAC) pop-up window by selecting "continue".
 
-==== Installing Ahem on Mac OS X ====
+### Installing Ahem on Mac OS X
 
-  - Download the [[http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF|TrueType version of Ahem]].
-  - Right-click the font and select "Install"
-  - Alternatively, drag and drop in either ''/Library/Fonts'' (available for all users on the machine) or ''~/Library/Fonts'' (available to current user only)
+1. Download the [TrueType version of Ahem](http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF).
+1. Right-click the font and select "Install"
+1. Alternatively, drag and drop in either `/Library/Fonts` (available for all users on the machine) or `~/Library/Fonts` (available to current user only)
 
+## Additional Fonts
 
-===== Additional Fonts =====
-
-Some tests require [[http://www.w3.org/Style/CSS/Test/Fonts/|additional fonts]]. A zipfile of all CSS testing fonts is available.
+Some tests require [additional fonts](http://www.w3.org/Style/CSS/Test/Fonts/). A zipfile of all CSS testing fonts is available.

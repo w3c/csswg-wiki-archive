@@ -1,12 +1,16 @@
-==== CSS Object Model for CSS Regions ====
+---
+title: "CSS Object Model for CSS Regions"
+---
 
-=== Flowed content boxes and DOM access ===
+### CSS Object Model for CSS Regions
 
-== getClientRects and getBoundingClientRects ==
+#### Flowed content boxes and DOM access
+
+##### getClientRects and getBoundingClientRects
 
 **Integrated** https://dvcs.w3.org/hg/csswg/rev/ded78444853a
 
-The DOM specification provides a [[http://www.w3.org/TR/cssom-view/#the-getclientrects-and-getboundingclientrect-methods|way]] 
+The DOM specification provides a [way](http://www.w3.org/TR/cssom-view/#the-getclientrects-and-getboundingclientrect-methods) 
 to compute the bounding client rectangle for an element (getBoundingClientRect()) and its generated 
 boxes (getClientRects). 
 
@@ -14,7 +18,7 @@ The current definition seems appropriate for CSS regions and the multiple boxes 
 for an element flowing through multiple regions. The getClientRects method would return the list of boxes for the 
 element found in the different regions. The getBoundingClientRect method would work as specified.
 
-== offsetWidth/offsetHeight/offsetTop/offsetLeft ==
+##### offsetWidth/offsetHeight/offsetTop/offsetLeft
 
 **Integrated** https://dvcs.w3.org/hg/csswg/rev/ded78444853a
 
@@ -28,30 +32,29 @@ However, this does not seem to be the way implementations work for multi-column 
 report the edges of the element as if it was laid out in a single column (i.e., as if it appended all the fragments in the 
 box direction), Firefox reports the edges of the first fragment's box.
 
-
-=== getFlowByName when there is no flow ===
+#### getFlowByName when there is no flow
 
 See https://www.w3.org/Bugs/Public/show_bug.cgi?id=14948
 
 **Integrated** in https://dvcs.w3.org/hg/csswg/rev/d4e15f801ff5
 
-=== naming update on NamedFlow members ===
+#### naming update on NamedFlow members
 
 **Integrated** in https://dvcs.w3.org/hg/csswg/rev/e182d5d3f5a6
 
 See https://www.w3.org/Bugs/Public/show_bug.cgi?id=15879
 
-=== attach events to NamedFlow ===
+#### attach events to NamedFlow
 
 **Integrated** in https://dvcs.w3.org/hg/csswg/rev/614c5fe1f9ad
 See https://www.w3.org/Bugs/Public/show_bug.cgi?id=15938
 
-=== Disallow flow-into on pseudo-elements to preserve NamedFlow.getContentNodes() ===
+#### Disallow flow-into on pseudo-elements to preserve NamedFlow.getContentNodes()
 
 **Integrated** in https://dvcs.w3.org/hg/csswg/rev/511661d8b7e4
 See https://www.w3.org/Bugs/Public/show_bug.cgi?id=16383
 
-=== Rename Region.regionOverflow to Region.regionOverset ===
+#### Rename Region.regionOverflow to Region.regionOverset
 
 **Integrated** in https://dvcs.w3.org/hg/csswg/rev/d4e15f801ff5
 
@@ -59,48 +62,47 @@ The current 'regionOverlfow' name can be confusing and misunderstood for normal 
 where it actually describes how the named flow content is consumed by the region. The proposal is
 to rename the 'regionOverflow' property to 'regionOverwet' with the following values:
 
-  * overset: the region consumes some of the flow content, but not all. There is more content left in the named flow.
-  * fit: the region consumes the remainder of the flow content.
-  * empty: the region does not consume any flow content because all content has been fitted in previous regions.
+- overset: the region consumes some of the flow content, but not all. There is more content left in the named flow.
+- fit: the region consumes the remainder of the flow content.
+- empty: the region does not consume any flow content because all content has been fitted in previous regions.
 
-
-=== Access to flow content (suggested CSS OM Changes) ===
+#### Access to flow content (suggested CSS OM Changes)
 
 **Integrated** in https://dvcs.w3.org/hg/csswg/rev/e182d5d3f5a6
 
-Changes proposed here follow the [[http://lists.w3.org/Archives/Public/www-style/2012Feb/1354.html|discussion]] on the mailing list.
+Changes proposed here follow the [discussion](http://lists.w3.org/Archives/Public/www-style/2012Feb/1354.html) on the mailing list.
 They also address the following bugs:
-  *  [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=16286|Issue 16286: NamedFlow should return a static node list]]
+- [Issue 16286: NamedFlow should return a static node list](https://www.w3.org/Bugs/Public/show_bug.cgi?id=16286)
  
-Note that the following changes use the WebIDL [[http://www.w3.org/TR/WebIDL/#es-sequence|sequence<T>]] type which maps to 
+Note that the following changes use the WebIDL [sequence<T>](http://www.w3.org/TR/WebIDL/#es-sequence) type which maps to 
 a native JavaScript Array instance. All methods that return a sequence<T> return a new instance on each call. However,
-the most [[http://lists.w3.org/Archives/Public/public-webapps/2012JanMar/1145.html|recent discussions on public-webapps]] favors
+the most [recent discussions on public-webapps](http://lists.w3.org/Archives/Public/public-webapps/2012JanMar/1145.html) favors
 keeping NodeList instead of moving to a straight array. So the proposal uses a static NodeList for Node instances and a sequence<T> 
-for other types of lists (see [[http://lists.w3.org/Archives/Public/public-webapps/2012JanMar/1151.html|this discussion]]).
+for other types of lists (see [this discussion](http://lists.w3.org/Archives/Public/public-webapps/2012JanMar/1151.html)).
 
-== Region interface ==
+##### Region interface
 
 This would replace the supplemental Element interface:
 
-<code>
+```
 interface Region {
     readonly attribute DOMString regionOverset;
     readonly attribute DOMString flowFrom;
     sequence<Range> getRegionFlowRanges();
 };              
-</code>
+```
 
 This adds the 'flowFrom' attribute which is the associated NamedFlow name. 
 
-== NamedFlow interface changes ==
+##### NamedFlow interface changes
 
 Changes:
-  - The getRegionsByContentNode method now returns a static NodeList.
-  - The contentNodes attribute now returns a static list of nodes. Also moved to be a method getContent().
-  - Added a getRegions method to get the current list of regions which are associated with the NamedFlow.
-  - Renamed the overflow attribute to overset to avoid confusion with the normal CSS overflow concept and for consistency with the Region interface regionOverset property
+1. The getRegionsByContentNode method now returns a static NodeList.
+1. The contentNodes attribute now returns a static list of nodes. Also moved to be a method getContent().
+1. Added a getRegions method to get the current list of regions which are associated with the NamedFlow.
+1. Renamed the overflow attribute to overset to avoid confusion with the normal CSS overflow concept and for consistency with the Region interface regionOverset property
 
-<code>
+```
 interface NamedFlow {
   readonly attribute DOMString name;
   readonly attribute boolean overset;
@@ -109,21 +111,21 @@ interface NamedFlow {
   NodeList getContent(); /* static: new instance returned every time */
   sequence<Region> getRegionsByContent(Node node);
 };
-</code>
+```
 
 Issue: should we have a RegionChain abstraction that is associated 1:1 (for now) with a NamedFlow.
 
-=== Document interface additions ===
+#### Document interface additions
 
 **Integrated** in: https://dvcs.w3.org/hg/csswg/rev/d4e15f801ff5
 
 Change getNamedFlows() to namedFlows:
 
-<code>
+```
 partial interface Document {
   NamedFlow getFlowByName(DOMString name);
   readonly NamedFlowCollection namedFlows;
 };  
-</code>
+```
 
 Rationale: the list is live and the value should be an attribute, not a function.

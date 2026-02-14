@@ -1,29 +1,35 @@
-===== CSS3 Grid Layout =====
+---
+title: "CSS3 Grid Layout"
+---
+
+## CSS3 Grid Layout
 
 This page contains material to facilitate discussion of issues surrounding the CSS3 Grid Layout module.
 
-<note>
-This page is no longer used and exists only for historical reasons.
-File issues by emailing www-style.
-</note>
-===== spec pointers =====
+> [!NOTE]
+> This page is no longer used and exists only for historical reasons.
+> File issues by emailing www-style.
 
-Link to current Working Draft:[[http://www.w3.org/TR/css3-grid-layout/]]  
+## spec pointers
 
-Link to current Editor's draft: [[http://dev.w3.org/csswg/css3-grid-align/]]
+Link to current Working Draft:<http://www.w3.org/TR/css3-grid-layout/>  
 
-===== Issues for San Diego, 2012 F2F Meeting =====
+Link to current Editor's draft: <http://dev.w3.org/csswg/css3-grid-align/>
 
-=== Issues for Discussion ====
-== Removal of named lines ==
-  - Problems created through competing syntax of lines and templates
-    - Named lines must use strings to differentiate themselves from the idents of template layout.  Requiring the quotes for lines seems unnecessary except to avoid syntax collision.
-    - Named lines require 4 times the number of named things when compared to template layout, e.g. grid-area: area; vs. grid-area: "top" "right" "bottom" "left";  See example below.
-    - Named lines combined with template syntax make it hard to create an all-encompassing shorthand for the grid as the strings for lines are conflicting with the strings for template rows.
-    - Span properties allow the author to specify the size of an item independent of its position, while lines (named or otherwise) are only denoting an ending position.  The existence of both span and lines makes it confusing to authors as to which properties can be specified in short hands since the numbers used for lines versus spans are off by one.  As a result we have declared that lines can only be referenced by names when used in short hands (numbers always refer to the span length).
-    - Specifying a (span) length for an auto placed grid item can't be done using the line syntax
-    - Arguments in favor of named lines is that they allow aliasing of positions even if grid items are overlapping (templates can't do that).
-    - Proposal is to remove named lines.  In overlapping cases authors are still free to refer to position by number.
+## Issues for San Diego, 2012 F2F Meeting
+
+#### Issues for Discussion
+
+##### Removal of named lines
+
+1. Problems created through competing syntax of lines and templates
+  1. Named lines must use strings to differentiate themselves from the idents of template layout.  Requiring the quotes for lines seems unnecessary except to avoid syntax collision.
+  1. Named lines require 4 times the number of named things when compared to template layout, e.g. grid-area: area; vs. grid-area: "top" "right" "bottom" "left";  See example below.
+  1. Named lines combined with template syntax make it hard to create an all-encompassing shorthand for the grid as the strings for lines are conflicting with the strings for template rows.
+  1. Span properties allow the author to specify the size of an item independent of its position, while lines (named or otherwise) are only denoting an ending position.  The existence of both span and lines makes it confusing to authors as to which properties can be specified in short hands since the numbers used for lines versus spans are off by one.  As a result we have declared that lines can only be referenced by names when used in short hands (numbers always refer to the span length).
+  1. Specifying a (span) length for an auto placed grid item can't be done using the line syntax
+  1. Arguments in favor of named lines is that they allow aliasing of positions even if grid items are overlapping (templates can't do that).
+  1. Proposal is to remove named lines.  In overlapping cases authors are still free to refer to position by number.
 
 Example showing named areas versus named lines:
   <!-- Named areas using template property -->
@@ -76,7 +82,6 @@ Example showing named areas versus named lines:
     <div id="controls">Controls</div>
   </div>
 
-
   <!-- Same markup using named line syntax instead -->
   <style type="text/css">
     @media (orientation: portrait) {
@@ -128,8 +133,8 @@ Example showing named areas versus named lines:
     <div id="controls">Controls</div>
   </div>
 
+##### Anonymous grid items and positioning
 
-== Anonymous grid items and positioning ==
 Latest ED incorporates text from latest Flexbox draft. Given the code below:
 
     <div id=”container” style=”display: grid”>
@@ -138,10 +143,10 @@ Latest ED incorporates text from latest Flexbox draft. Given the code below:
       Text after
     </div>
 
-    - In the current draft we mimic flexbox behavior.  Here is an image where each run of loose text and the one valid grid item are all treated as separate grid items when grid-auto-flow is none: {{:spec:separateitemswithoutautoplacement.png?200|}} 
-    - Here's the behavior when grid-auto-flow is columns: {{:spec:separateitemswithautoplacement.png?200|}}
-    - Here's a proposed change in behavior where the grid element has its entire contents placed in a default anonymous grid item and then grid items are pulled out of the default grid item's flow by specifying a grid-row/column property resulting in a picture like this: {{:spec:onedefaultgriditemwithautoplacement.png?200|}}
-    - There is also proposal just like the last but allowing descendants of the grid (not just children) to become valid grid items by specifying a grid-column/row.  If we were to adopt that proposal what to do with markup that surrounds the elements which became grid items, but that we don't want to position in our grid?  Consider the markup below:
+  1. In the current draft we mimic flexbox behavior.  Here is an image where each run of loose text and the one valid grid item are all treated as separate grid items when grid-auto-flow is none: ![](../../assets/images/spec/separateitemswithoutautoplacement.png) 
+  1. Here's the behavior when grid-auto-flow is columns: ![](../../assets/images/spec/separateitemswithautoplacement.png)
+  1. Here's a proposed change in behavior where the grid element has its entire contents placed in a default anonymous grid item and then grid items are pulled out of the default grid item's flow by specifying a grid-row/column property resulting in a picture like this: ![](../../assets/images/spec/onedefaultgriditemwithautoplacement.png)
+  1. There is also proposal just like the last but allowing descendants of the grid (not just children) to become valid grid items by specifying a grid-column/row.  If we were to adopt that proposal what to do with markup that surrounds the elements which became grid items, but that we don't want to position in our grid?  Consider the markup below:
 
     <head>
     <style>
@@ -171,43 +176,45 @@ Latest ED incorporates text from latest Flexbox draft. Given the code below:
 
 Proposal is to postpone positioning of descendant grid item until level 2, when this issue can be more fully worked through.  We could instead make it our mission to make the current spec future compatible with what we anticipate level 2 to contain.
 
-== Shorthand naming ==
-  - Was: Grid-rows, Grid-columns
-  - Now: Grid-definition-rows, Grid-defintiion-columns
-  - Alternative: Grid-row-tracks, Grid-column-tracks
+##### Shorthand naming
 
-=== Other Status ===
-  - Template now takes <identifier>s
-  - Automatic placement updated
-    - Corrected issues in algorithm
-    - Adopted forward-only approach without backfilling items
-  - Added new shorthand properties
+1. Was: Grid-rows, Grid-columns
+1. Now: Grid-definition-rows, Grid-defintiion-columns
+1. Alternative: Grid-row-tracks, Grid-column-tracks
 
-=== Next Steps ===
-  - Planning to add gutters using column/row-gap
-  - Also adding support for rules centered in gutters (rules don't take up space just like multi-column)
-  - Work on remaining issues
+#### Other Status
 
+1. Template now takes <identifier>s
+1. Automatic placement updated
+  1. Corrected issues in algorithm
+  1. Adopted forward-only approach without backfilling items
+1. Added new shorthand properties
 
-===== Issues for August 8th, 2012 Telcon =====
+#### Next Steps
 
-=== Alignment of Grid Items versus Flex Items versus Block-level Boxes ===
+1. Planning to add gutters using column/row-gap
+1. Also adding support for rules centered in gutters (rules don't take up space just like multi-column)
+1. Work on remaining issues
+
+## Issues for August 8th, 2012 Telcon
+
+#### Alignment of Grid Items versus Flex Items versus Block-level Boxes
 
 Three scenarios where boxes are stretch aligned that we could make agree in their behavior (or not):
 
-  - Resolving the width and left/right margins of block-level boxes that "stretch" to touch the edges of their containing block
-  - Resolving the cross size property and cross margins of a flex item such that its margin box stretches to touch the cross edges of its line
-  - Resolving the width or height and margins of a grid item such that the box touches the edges of its grid cell (now calling this grid-area in most recent ED)
+1. Resolving the width and left/right margins of block-level boxes that "stretch" to touch the edges of their containing block
+1. Resolving the cross size property and cross margins of a flex item such that its margin box stretches to touch the cross edges of its line
+1. Resolving the width or height and margins of a grid item such that the box touches the edges of its grid cell (now calling this grid-area in most recent ED)
 
 In each of these cases we satisfy the equation: 
 
 margin_size1 + border_size1 + padding_size1 + box_size + padding_size2 + border_size2 + margin_size2 == space afforded to item by parent container
 
-  - If box_size is auto then first we adjust it up or down to make the equation true while respecting any min/max constraints on the applicable dimension
-  - If that isn't sufficient we do additional adjustments on margins
-      - If only one margin was auto we adjust that one to make the equation true
-      - If both of the margins were auto we take the additional space needed to make the equation true and divide it by 2 then assign it to each margin
-      - If neither margin is auto (the over-constrained case), we take the second margin (nearest the ending edge) and adjust it to make the equation true
+1. If box_size is auto then first we adjust it up or down to make the equation true while respecting any min/max constraints on the applicable dimension
+1. If that isn't sufficient we do additional adjustments on margins
+    1. If only one margin was auto we adjust that one to make the equation true
+    1. If both of the margins were auto we take the additional space needed to make the equation true and divide it by 2 then assign it to each margin
+    1. If neither margin is auto (the over-constrained case), we take the second margin (nearest the ending edge) and adjust it to make the equation true
 
 When both margins are auto though, and the box is larger than the space afforded to it by its container, a paragraph of section 9.3 for css3-box http://www.w3.org/TR/css3-box/#blockwidth says:
 
@@ -215,86 +222,86 @@ If ‘width’ is not ‘auto’ and ‘border-left-width’ + ‘padding-left�
 
 The Grid ignores the paragraph above as suggested so that two auto margins will always result in a centered item whenever width/height is not auto.  I noticed that Flexbox keeps the last sentence per its example 10 in the latest ED http://dev.w3.org/csswg/css3-flexbox/#auto-margins. 
 
-=== Valid Grid Items ===
+#### Valid Grid Items
 
 Options:
-  - Snap to definition of Flex Items i.e. every child element is a valid Grid Item and runs of loose text are surrounded in anonymous items (current ED)
-  - Make contents of a Grid Element wrapped in a default Grid Item (which is an anonymous flow) and then pull elements out of that flow and onto grid by using the grid-* properties
+1. Snap to definition of Flex Items i.e. every child element is a valid Grid Item and runs of loose text are surrounded in anonymous items (current ED)
+1. Make contents of a Grid Element wrapped in a default Grid Item (which is an anonymous flow) and then pull elements out of that flow and onto grid by using the grid-* properties
   
 The first option works well with auto-positioning while the second would require the author to write a (trivial) rule to declare that all elements are in fact grid items: #grid > * { grid-area: auto; }
 The second option could be used position descendants of the grid in addition to just children, but breaks from the pattern established by flexbox and would differ from IE's current implementation.
 
-=== Shorthands ===
+#### Shorthands
 
 We have four leaf level properties and five proposed shorthands.  Are we overdoing it?  See table below from Hamburg F2F.
 
-===== Issues for Hamburg F2F =====
+## Issues for Hamburg F2F
 
-=== Scoping ===
+#### Scoping
 
-  - Scoping of Grid Layout and Template Layout specs
-  - Drop named lines from this level of Grid Layout
-  - Adopting column-gap etc., adding row equivalents, to handle gutters
+1. Scoping of Grid Layout and Template Layout specs
+1. Drop named lines from this level of Grid Layout
+1. Adopting column-gap etc., adding row equivalents, to handle gutters
 
-=== Naming ===
+#### Naming
 
-  - grid-flow: row | column | layer
-  - rename grid-rows --> grid-row-tracks, grid-columns --> grid-column-tracks
-  - auto/fit-content becomes fit-content
-  - grid positioning properties:
+1. grid-flow: row | column | layer
+1. rename grid-rows --> grid-row-tracks, grid-columns --> grid-column-tracks
+1. auto/fit-content becomes fit-content
+1. grid positioning properties:
 
-^  //grid-area//  ^  grid-column  ^  grid-row  |
-^  grid-position  |  grid-column-position  |  grid-row-position  |
-^  grid-span  |  grid-column-span  |  grid-row-span  |
+| *grid-area* | grid-column | grid-row |
+| --- | --- | --- |
+| grid-position | grid-column-position | grid-row-position |
+| grid-span | grid-column-span | grid-row-span |
 
 =
 
-^  //C R ΔC ΔR//  ^  C ΔC  ^  R ΔR  |
-^  C R  |  C  |  R  |
-^  ΔC ΔR  |  ΔC  |  ΔR  |
+| *C R ΔC ΔR* | C ΔC | R ΔR |
+| --- | --- | --- |
+| C R | C | R |
+| ΔC ΔR | ΔC | ΔR |
 
-=== Default handling of content ===
+#### Default handling of content
 
-  - auto-placement is progressive pack w/ pointer @ start before corner
-  - auto-placement vs. anonymous block
-  - default value of grid-flow?
-  - using "display: grid" vs implied grid lines
-  - default track sizing is an open issue, if you have ideas let us know
+1. auto-placement is progressive pack w/ pointer @ start before corner
+1. auto-placement vs. anonymous block
+1. default value of grid-flow?
+1. using "display: grid" vs implied grid lines
+1. default track sizing is an open issue, if you have ideas let us know
 
-===== Action Items =====
+## Action Items
 
-===== Issues =====
-==== Issue 1:  ====
+## Issues
+
+### Issue 1:
+
 Grid-layer vs. z-index property for Grid
 
-== Summary: ==
+##### Summary:
 
 Grid-layer is currently used to control the stacking of grid items in a grid element; one example of this that is mentioned in the current Editor's Draft would be using Grid to build a range control where the "thumb" of the control is displayed on top of the underlying track. However, grid-layer is in many ways similar to the existing z-index property. Is a separate property needed, or can z-index replace the grid-layer property?
 
 We have three primary goals w/r/t stacking Grid Items:
 
-  - Grid Items draw atomically.  Like positioned elements, Grid has among its primary scenarios the ability to overlap and layer its items (see section 2.4 Grid Layering of Elements).  To avoid a counter-intuitive interleaving of backgrounds, floats, and inline content, Grid Items should form a new stacking context.
-  - Grid Items are in front of the Grid Element, even when the Grid Item is given a negative z-index.  Imagine an author using a tool, right-clicking an item and choosing "send to back" from a context menu.  The tool should set a negative z-index on the Grid Item and not have the Grid Item disappear behind the background of the Grid Element.  Also, if a nested Grid is given a positive z-index, it should not cover its Grid Items.  Therefore we need the Grid Element to serve as a stacking context for its Grid Items.
-  - We want to avoid impacting any positioning scenarios.  It would be unexpected if the author inadvertently changed the containing block or the stacking context for a positioned descendant just by inserting a Grid layout in its ancestry. 
+1. Grid Items draw atomically.  Like positioned elements, Grid has among its primary scenarios the ability to overlap and layer its items (see section 2.4 Grid Layering of Elements).  To avoid a counter-intuitive interleaving of backgrounds, floats, and inline content, Grid Items should form a new stacking context.
+1. Grid Items are in front of the Grid Element, even when the Grid Item is given a negative z-index.  Imagine an author using a tool, right-clicking an item and choosing "send to back" from a context menu.  The tool should set a negative z-index on the Grid Item and not have the Grid Item disappear behind the background of the Grid Element.  Also, if a nested Grid is given a positive z-index, it should not cover its Grid Items.  Therefore we need the Grid Element to serve as a stacking context for its Grid Items.
+1. We want to avoid impacting any positioning scenarios.  It would be unexpected if the author inadvertently changed the containing block or the stacking context for a positioned descendant just by inserting a Grid layout in its ancestry. 
 
+##### Proposal:
 
-== Proposal: ==
+Z-index should be used to replace the grid-layer property (i.e. z-index applies to statically-positioned Grid Items.) Specifically, in cases where Grid Items overlap, z-index provides control over the drawing order of Grid Items. Both Grid elements and Grid Items generate a stacking context as described for floats (step 5, section 14) in the [CSS3 Box Model](http://www.w3.org/TR/2007/WD-css3-box-20070809/#stacking).
 
-Z-index should be used to replace the grid-layer property (i.e. z-index applies to statically-positioned Grid Items.) Specifically, in cases where Grid Items overlap, z-index provides control over the drawing order of Grid Items. Both Grid elements and Grid Items generate a stacking context as described for floats (step 5, section 14) in the [[http://www.w3.org/TR/2007/WD-css3-box-20070809/#stacking|CSS3 Box Model]].
+Note also that using z-index in place of grid-layer has been [previously discussed](http://lists.w3.org/Archives/Public/www-style/2011May/0344.html) on the www-styling mailing list.
 
-Note also that using z-index in place of grid-layer has been [[http://lists.w3.org/Archives/Public/www-style/2011May/0344.html|previously discussed]] on the www-styling mailing list.
+### Issue 2:
 
-==== Issue 2:  ====
 Fractional-track sizing algorithm update
 
-== Summary: ==
+##### Summary:
 
-The grid-sizing algorithm introduced in the previous [[http://dev.w3.org/csswg/css3-grid-align|Editor's Draft]] did not define the expected behavior for sizing a fractionally-sized track (e.g. 1fr, 2fr,...) when a Grid Element was shrink-to-fit. This should be addressed so that future implementations of Grid Layout behave predictably across platforms.
+The grid-sizing algorithm introduced in the previous [Editor's Draft](http://dev.w3.org/csswg/css3-grid-align) did not define the expected behavior for sizing a fractionally-sized track (e.g. 1fr, 2fr,...) when a Grid Element was shrink-to-fit. This should be addressed so that future implementations of Grid Layout behave predictably across platforms.
 
-== Proposal: ==
+##### Proposal:
 
 We propose to modify the existing grid sizing algorithm as follows: if the Grid Element is shrink-to-fit, then we set the size of a fractional track (i.e. determine the size of a '1fr' track) by making sure that 1) the proportions of all fractional tracks are preserved (e.g. a '1fr' track is half the size of a '2fr' track) and 2) fractional tracks are large enough contain all Grid Items that span them. If the Grid Element is not shrink-to-fit, then the algorithm follows its current path. The specific algorithm updates can be found in step 6 of the updated Editor's Draft.
- 
-
-
-

@@ -1,19 +1,24 @@
-===== Introduction =====
+---
+title: "Introduction"
+---
+
+## Introduction
 
 This page contains use cases for exclusions and comparative examples of markup using the CSS Exclusions and Shapes proposal.
 
-==== Proposals ====
+### Proposals
 
-  * CSS Exclusions and Shapes: [ http://dev.w3.org/csswg/css3-exclusions/ ]
+- CSS Exclusions and Shapes: [ http://dev.w3.org/csswg/css3-exclusions/ ]
 
-===== UC 1: simple exclusion =====
+## UC 1: simple exclusion
 
 One exclusion over two columns of content.
 
-{{:ideas:css3-floats-use-cases:exclusions_simple.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_simple.jpg)
 
-==== CSS Exclusions and Shapes ====
-<code html>
+### CSS Exclusions and Shapes
+
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -51,16 +56,17 @@ One exclusion over two columns of content.
 	</div>
 </body>
 </html>
-</code>
+```
 
+## UC 2: overlapping exclusions
 
-===== UC 2: overlapping exclusions =====
 Multiple overlapping exclusions that affect each other and the content around them.
 
-{{:ideas:css3-floats-use-cases:exclusions_overlapping.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_overlapping.jpg)
 
-==== CSS Exclusions and Shapes ====
-<code html>
+### CSS Exclusions and Shapes
+
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -103,18 +109,20 @@ Multiple overlapping exclusions that affect each other and the content around th
 	</div>
 </body>
 </html> 
-</code>
+```
         
-===== UC 3: repeating shapes =====
+
+## UC 3: repeating shapes
+
 Repeating exclusion shape on x, y or both axes.
 
-{{:ideas:css3-floats-use-cases:exclusions_repeating.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_repeating.jpg)
 
+### CSS Exclusions and Shapes
 
-==== CSS Exclusions and Shapes ====   
 <html><span style="color:red">No support for repeating exclusion shapes. Solution:TBD</span></html>
 
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -140,22 +148,24 @@ Repeating exclusion shape on x, y or both axes.
 	</div>
 </body>
 </html>
-</code>
+```
 
-===== UC 4: disjoint shapes ======
+## UC 4: disjoint shapes
+
 Multiple disjoint shapes that compose an exclusion
 
-{{:ideas:exclusions_disjoint_shapes.jpg?500|}}
-==== Resources: ====
+![](../../assets/images/ideas/exclusions_disjoint_shapes.jpg)
+
+### Resources:
 
 Image to determine the disjoint shapes by alpha channel transparency.
 
-{{:ideas:css3-floats-use-cases:exclusions_disjoint_shapes_mask.png?300|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_disjoint_shapes_mask.png)
 
-==== CSS Exclusions and Shapes ====
+### CSS Exclusions and Shapes
 
 Multiple solutions possible with single image, multiple positioned images or SVG shapes.
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -208,20 +218,18 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 	</div>
 </body>
 </html>
-</code>
+```
 
+## UC 5: reusable exclusion
 
-
-===== UC 5: reusable exclusion =====
 Reuse an exclusion shape on different elements
 
-{{:ideas:css3-floats-use-cases:exclusions_reusable.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_reusable.jpg)
 
+### CSS Exclusions and Shapes
 
-
-==== CSS Exclusions and Shapes ====
 * low reusability: requires duplication of markup
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css">
@@ -283,22 +291,19 @@ Reuse an exclusion shape on different elements
 	</div> 
 </body>
 </html>
-</code>
+```
 
+## UC 6: shape transforms
 
-
-
-===== UC 6: shape transforms =====
 Apply transformations (scale, skew, rotate) to an exclusion shape.
 
-{{:ideas:css3-floats-use-cases:exclusions_transforms.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_transforms.jpg)
 
+### CSS Exclusions and Shapes
 
-
-==== CSS Exclusions and Shapes ====
 (!) Content inside the shape will have transformations applied, as well
 
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css">
@@ -363,18 +368,17 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 	</div> 
 </body>
 </html>
-</code>
+```
 
+## UC 7: padding and margin on custom shape
 
-===== UC 7: padding and margin on custom shape =====
 Custom-shaped container with margin for outer content and padding for inner content
 
-{{:ideas:css3-floats-use-cases:exclusions_padding_margin.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_padding_margin.jpg)
 
+### CSS Exclusions and Shapes
 
-
-==== CSS Exclusions and Shapes ====
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -406,19 +410,17 @@ Custom-shaped container with margin for outer content and padding for inner cont
 	</div>
 </body>
 </html>     
-</code>
+```
 
+## UC 8: background image and container shape
 
-
-===== UC 8: background image and container shape =====
 Custom-shaped container with a background image / background color.
 
-{{:ideas:css3-floats-use-cases:exclusions_background.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_background.jpg)
 
+### CSS Exclusions and Shapes
 
-
-==== CSS Exclusions and Shapes ====
-<code html>
+```html
 <html>
 <head>
         <circle id="myCircle" cx="50%" cy="50%" width="50%" height="50%" />
@@ -440,19 +442,17 @@ Custom-shaped container with a background image / background color.
 	</div>
 </body>
 </html>
-</code>
+```
 
-
-
-===== UC 9: Drop Cap =====
+## UC 9: Drop Cap
 
 One exclusion along a text.
 
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions-dropcap.png)
 
-{{:ideas:css3-floats-use-cases:exclusions-dropcap.png?500|}}
+### CSS Exclusions and Shapes
 
-==== CSS Exclusions and Shapes ====
-<code html>
+```html
 <style>
 	/* with SVG shape */
 	 #dropMany{      
@@ -471,4 +471,4 @@ One exclusion along a text.
      <p><span id="dropMany">Many</span> instances ...</p>
      <p>The text ....</p>
 </div>     
-</code>
+```

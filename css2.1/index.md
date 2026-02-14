@@ -1,25 +1,35 @@
-====== CSS2.1 ======
+---
+title: "CSS2.1"
+---
 
-The [[http://www.w3.org/TR/CSS21/|CSS2.1 specification]] is a revision of of [[http://www.w3.org/TR/REC-CSS2/|CSS2]] that corrects many errors and omissions in the CSS2 Recommendation. It has also dropped unimplemented features and introduced a handful of minor new ones.
+# CSS2.1
 
-===== Current Issues =====
+The [CSS2.1 specification](http://www.w3.org/TR/CSS21/) is a revision of of [CSS2](http://www.w3.org/TR/REC-CSS2/) that corrects many errors and omissions in the CSS2 Recommendation. It has also dropped unimplemented features and introduced a handful of minor new ones.
 
-The following are known problems in the [[http://www.w3.org/TR/2007/CR-CSS21-20070719/|19 July 2007 CSS2.1 Candidate Recommendation]]. Once resolved, any resulting changes or corrections will be added to the [[http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html|errata list]].
+## Current Issues
 
-=== Issue 1 ===
+The following are known problems in the [19 July 2007 CSS2.1 Candidate Recommendation](http://www.w3.org/TR/2007/CR-CSS21-20070719/). Once resolved, any resulting changes or corrections will be added to the [errata list](http://www.w3.org/Style/css2-updates/CR-CSS21-20070719-errata.html).
 
-  ;URL : http://lists.w3.org/Archives/Member/w3c-css-wg/2007AprJun/0429.html
-  ;Summary : What should 'width' on columns and column groups really mean?
-  ;Status : Needs proposal
+#### Issue 1
 
-=== Issue 2 ===
+URL : http://lists.w3.org/Archives/Member/w3c-css-wg/2007AprJun/0429.html
 
-  ;URL : http://lists.w3.org/Archives/Member/w3c-css-wg/2003JanMar/0273.html
-  ;Summary : Remove ''DELIM?'' from ''declaration'' definition in 4.1.1. (It was added there to enable vendor extensions, but that's already solved by allowing hyphens at the beginning of an identifier.)
-  ;Status : Needs resolution
+Summary : What should 'width' on columns and column groups really mean?
 
-=== Issue 3 ===
+Status : Needs proposal
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2007Jul/0097.html
-  ;Summary : ''@{C}{H}{A}{R}{S}{E}{T}'' in grammar (G.2) should be ''"@charset "''
-  ;Status : Needs resolution
+#### Issue 2
+
+URL : http://lists.w3.org/Archives/Member/w3c-css-wg/2003JanMar/0273.html
+
+Summary : Remove `DELIM?` from `declaration` definition in 4.1.1. (It was added there to enable vendor extensions, but that's already solved by allowing hyphens at the beginning of an identifier.)
+
+Status : Needs resolution
+
+#### Issue 3
+
+URL : http://lists.w3.org/Archives/Public/www-style/2007Jul/0097.html
+
+Summary : `@{C}{H}{A}{R}{S}{E}{T}` in grammar (G.2) should be `"@charset "`
+
+Status : Needs resolution

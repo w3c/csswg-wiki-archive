@@ -1,9 +1,14 @@
-====== Paged View ======
-//See also [[Fragments, Columns, Regions, Pages]], [[spec:css3-region-templates|CSS Region Templates]]//
+---
+title: "Paged View"
+---
+
+# Paged View
+
+*See also [Fragments, Columns, Regions, Pages](/Fragments, Columns, Regions, Pages/), [CSS Region Templates](/spec/css3-region-templates/)*
 
 "Paged view" or "page view" as a term relates broadly to the kind of presentation where content is laid out in discrete pages and shown to user one page at a time (or several pages at a time). 
 
-A wide variety of paged view situations require the same or similar support from the core layout engine -- primarily the ability to flow content into multiple containers, thus producing multiple boxes with fragments of content (see "[[Fragments, Columns, Regions, Pages]]"). Solutions differ in how the fragmentation functionality is invoked.
+A wide variety of paged view situations require the same or similar support from the core layout engine -- primarily the ability to flow content into multiple containers, thus producing multiple boxes with fragments of content (see "[Fragments, Columns, Regions, Pages](/Fragments, Columns, Regions, Pages/)"). Solutions differ in how the fragmentation functionality is invoked.
 
 The problems to be solved in implementing paged views revolve around encoding the design intent and UI behavior, both requiring novel approaches: design intent often derives from experience in print media, which must become adaptive to target multiple devices and resolutions. The UI of navigating pages on screen also doesn’t have an established tradition, although many implementations use similar concepts.
 
@@ -11,9 +16,9 @@ This set of use cases shows some expected uses of paged views.
 
 The uses cases, analysis and proposals found here probably don’t correspond to a single specification. The goal here is to get a holistic view of each case, which will help to compare proposals and understand the relative importance of lower level problems.
 
-====== Use Cases ======
+# Use Cases
 
-===== Page view in window or element =====
+## Page view in window or element
 
 **Goal:** easy declarative way to create paged view, good behavior with default settings and default UI.
 
@@ -33,8 +38,9 @@ The uses cases, analysis and proposals found here probably don’t correspond to
 </div>
 </html>
 
-====Proposal:====
-  * New value for 'overflow property: **"overflow:paged"**
+### Proposal:
+
+- New value for 'overflow property: **"overflow:paged"**
 
 **Example:**
   div.book { overflow:paged }
@@ -52,10 +58,11 @@ This should put the whole document in paged view. If UA is also in full screen m
   iframe.magazine { overflow:paged }
 Presents content of a separate document in paged view. Can be used to build a page viewer with custom UI.
 
-===In addition... (Add-On to Proposal):===
-  * **@page** applies to "overflow:paged"
+#### In addition... (Add-On to Proposal):
 
-Any item with 'overflow:paged' is treated by @page and related as though it was paged media. Everything in [[http://dev.w3.org/csswg/css3-page/|CSS Paged Media Module Level 3]] applies to it. Thus, you can use @page pseudo-classes, margin boxes with generated content (headers, footers, page numbers via page-based counters, etc.), page breaking rules, named pages, etc. 
+- **@page** applies to "overflow:paged"
+
+Any item with 'overflow:paged' is treated by @page and related as though it was paged media. Everything in [CSS Paged Media Module Level 3](http://dev.w3.org/csswg/css3-page/) applies to it. Thus, you can use @page pseudo-classes, margin boxes with generated content (headers, footers, page numbers via page-based counters, etc.), page breaking rules, named pages, etc. 
 
 If you want a different presentation on-screen than in print, you simply embed the @page rules inside @media rules. 
 
@@ -63,13 +70,13 @@ If the 'size' property creates a page that is larger than the paged element, the
 
 If the author wishes an element on the page to have different @page rules than the page itself, or of an ancestor with @page, then named pages can be used.
 
-
 **Example:**
   @page { ... }
   @page myInner { ... }
   html { width: 100%; height: 100%; overflow: paged }
   innerDiv { width: 50em; height: 10em; overflow: paged; page: myInner; }
-===== Paged view with custom controls =====
+
+## Paged view with custom controls
 
 **Goal:** Add custom controls to paged view.
 
@@ -102,28 +109,29 @@ Ideally, UA should provide well designed, usable and accessible controls for pag
 Custom controls will activate a custom script, which in some cases will need to access pagination results or modify the view.
 
 Implementation of custom page UI needs some or all of the following:
-  * Modify or replace the default pagination UI
-  * Know number of pages
-  * Show a particular page
-  * Know if everything fits (in automatic page layout, there will be always enough pages generated, but there may be unprocessed content due to timing or additional constraints)
-  * Determine what content is in a given page (a potentially disjoint range of content)
-  * Determine on what page or pages a given range of content is
-  * Determine if content of interest didn't fit on any page
-  * Find content that intersects with a point or shape, relative to a given page or current page
-  * Find exact coordinates and page(s) of laid out content
-  * Know when number of pages changes or layout of content on a page changes
+- Modify or replace the default pagination UI
+- Know number of pages
+- Show a particular page
+- Know if everything fits (in automatic page layout, there will be always enough pages generated, but there may be unprocessed content due to timing or additional constraints)
+- Determine what content is in a given page (a potentially disjoint range of content)
+- Determine on what page or pages a given range of content is
+- Determine if content of interest didn't fit on any page
+- Find content that intersects with a point or shape, relative to a given page or current page
+- Find exact coordinates and page(s) of laid out content
+- Know when number of pages changes or layout of content on a page changes
 
 To achieve that, pages and paged viewer need exposure in styles and OM
 
-====Proposals====
+### Proposals
 
-===Control default UI with 'overflow' property (([[http://dev.w3.org/csswg/css3-gcpm/#paged-presentations|GCPM - ED]]))===
-  * **overflow-style**:<existing values>|paged-x|paged-y|paged-x-controls|paged-y-controls
+#### Control default UI with 'overflow' property (([[http://dev.w3.org/csswg/css3-gcpm/#paged-presentations|GCPM - ED]]))
+
+- **overflow-style**:<existing values>|paged-x|paged-y|paged-x-controls|paged-y-controls
 
 **Example**
 
 "paged-x" layout adds overflow pages along X axis. Custom page UI controls which page is displayed in pagination control
-<code>
+```
   .pager { overflow:paged-x; }
   <div class="pageview">
     <div class="toolbar">
@@ -142,23 +150,27 @@ To achieve that, pages and paged viewer need exposure in styles and OM
       }
     }
   </script>
-</code>
-====Ideas====
-===Paged View DOM===
-//Some API as in [[http://dev.opera.com/articles/view/opera-reader-a-new-way-to-read-the-web/|Opera Reader]], other added as it seems needed for completness. Please correct if there are newer proposals//
+```
 
-  * interface **PagedView** -- implemented on HTMLElement (and maybe on HTMLDocument). Alternatively all members are exposed directly on element (that would match scope of scroll API)
-  * PagedView Element.**pagedView** -- paged view of element's content. NULL if not applicable
-  * int PagedView.**pageCount** -- get number of pages
+### Ideas
+
+#### Paged View DOM
+
+*Some API as in [Opera Reader](/http/*dev.opera.com/articles/view/opera-reader-a-new-way-to-read-the-web//), other added as it seems needed for completness. Please correct if there are newer proposals//
+
+- interface **PagedView** -- implemented on HTMLElement (and maybe on HTMLDocument). Alternatively all members are exposed directly on element (that would match scope of scroll API)
+- PagedView Element.**pagedView** -- paged view of element's content. NULL if not applicable
+- int PagedView.**pageCount** -- get number of pages
 This should wait synchronously for content pagination to be completed, if needed, following the patter of 'offsetHeight' etc. (which always return correct value, forcing synchronous layout)
-  * void PagedView.**showPage**(pageNumber)
-  * int[] PagedView.**getPagesFromContentNode**(Node contentNode) -- get page numbers for pages that show any portion of given node
-  * Rect[] PagedView.**rectsOnPage**(pageNumber, Node contentnode) -- get bounding rects of content rendering on specific page
-  * Range[] PagedView.**getContentRangesOnPage**(pageNumber) -- range(s) of content that falls on that page
-  * Node **elementFromPoint**(pageNumber, x, y) -- element under the point, in coordinates of the page
-  * event **onpagechange** -- fired when current page changes
+- void PagedView.**showPage**(pageNumber)
+- int[] PagedView.**getPagesFromContentNode**(Node contentNode) -- get page numbers for pages that show any portion of given node
+- Rect[] PagedView.**rectsOnPage**(pageNumber, Node contentnode) -- get bounding rects of content rendering on specific page
+- Range[] PagedView.**getContentRangesOnPage**(pageNumber) -- range(s) of content that falls on that page
+- Node **elementFromPoint**(pageNumber, x, y) -- element under the point, in coordinates of the page
+- event **onpagechange** -- fired when current page changes
   
-===== Paged view with custom pages =====
+
+## Paged view with custom pages
 
 **Goal:** Apply content formatting to specific pages and position pages on screen
 
@@ -193,68 +205,69 @@ posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet c
 </div>
 </div>
 </html>
-  * left page has green text, right page has blue text
-  * even and odd pages are positioned differently to create a two-page view
+- left page has green text, right page has blue text
+- even and odd pages are positioned differently to create a two-page view
 
-====Ideas====
+### Ideas
+
 **Page selectors**
 
   #paged { width:6.5in; height:9in; overflow:paged; }
   #paged * { border: 1px solid black; }
   #paged::nth-child(even) { position:relative; left:<page-width> } /**
 
-
 **Page View DOM**
 
-//There are no formal proposals on DOM for overflow:paged at this time. If it is added, it should be similar what regions expose for same purposes//
+*There are no formal proposals on DOM for overflow:paged at this time. If it is added, it should be similar what regions expose for same purposes*
 
 In addition to API for page display, DOM for custom paged view needs writable access to page size and position
-  * int PagedView.**pageTop**(pageNumber)
-  * int PagedView.**pageLeft**(pageNumber)
-  * int PagedView.**pageWidth**(pageNumber)
-  * int PagedView.**pageHeight**(pageNumber)
-  * void PagedView.**setPageTop**(pageNumber)
-  * void PagedView.**setPageLeft**(pageNumber)
-  * void PagedView.**setPageWidth**(pageNumber)
-  * void PagedView.**setPageHeight**(pageNumber)
+- int PagedView.**pageTop**(pageNumber)
+- int PagedView.**pageLeft**(pageNumber)
+- int PagedView.**pageWidth**(pageNumber)
+- int PagedView.**pageHeight**(pageNumber)
+- void PagedView.**setPageTop**(pageNumber)
+- void PagedView.**setPageLeft**(pageNumber)
+- void PagedView.**setPageWidth**(pageNumber)
+- void PagedView.**setPageHeight**(pageNumber)
 
 Content properties can be set by detecting range(s) of content on page, then traversing content and applying properties. Of course care has to be taken as it can't be assumed that modified content will still fit the same page.
 
 **Example:**
   TODO
-===== Magazine viewer =====
+
+## Magazine viewer
 
 **Goal:** enable complex page design with multiple content flows and graphics, approaching or exceeding capabilities of print design
 
 A magazine article (pretty simple one) could look like this. 
 
-{{:spec:magazine1.png}}
+![](../../assets/images/spec/magazine1.png)
 
-The user reads the magazine in a reader application, {{ :spec:magazine2.png}} with same options for page navigation control as in previous examples of page view. 
+The user reads the magazine in a reader application, ![](../../assets/images/spec/magazine2.png) with same options for page navigation control as in previous examples of page view. 
 
 Each individual page can have unique design and can include content from multiple sources: multiple text streams (main story, side bar, pull quotes) and images (some included in text, some placed directly as related visuals or advertisements).
 
-//Note that at this point we don't make assumptions on how exactly each "page" is constructed. It may be automatically generated with some adaptive mechanism or it may be manually put together by a design team with print design experience. That distinction will be important for next use case, here we are looking at ways to represent the layout//
+*Note that at this point we don't make assumptions on how exactly each "page" is constructed. It may be automatically generated with some adaptive mechanism or it may be manually put together by a design team with print design experience. That distinction will be important for next use case, here we are looking at ways to represent the layout*
 
+### Proposals
 
-====Proposals====
-===[css3-regions] with script===
+#### [css3-regions] with script
 
 The design of the viewer with custom controls is same as in previous examples. Difference is at the lowest level, where navigation to each page has to be implemented by managing a collectoin of elements, pseudo-elements or any other visual capable to represent an individual page. At this time pages as elements is the only available option.
 
 Individual custom page may look like this. It may be read from a separate HTML source, built from script or generated in some other way (see the next section "Adaptive magazine with page templates")
 
 The first page of this sample article has the following design decisions encoded in some way:
-  * The page is built on  a 5-column grid
-  * Main image is 66% width of the page and whatever height is derived from its aspect ratio. It is place at  top
+- The page is built on  a 5-column grid
+- Main image is 66% width of the page and whatever height is derived from its aspect ratio. It is place at  top
 right of the page
-  * Secondary image takes the rest of the page width, it preserves its aspect ratio and placed at bottom left of the page
-  * Title may overlap with the main image
-  * Main story text wraps around everything else
+- Secondary image takes the rest of the page width, it preserves its aspect ratio and placed at bottom left of the page
+- Title may overlap with the main image
+- Main story text wraps around everything else
 
 The design can be implemented like this:
 
-<code>
+```
 <style>
   .page { display:grid; grid-columns:(1fr)[5]; grid-rows:(auto)[2] 1fr; }
   .figures { grid-column-span:5; display:flexbox; flex-flow:reverse; z-index:1; }
@@ -276,12 +289,13 @@ The design can be implemented like this:
   <div class="sidebar"></div>  
   <div class="story"></div>
 </div>
-</code>
+```
 
-===[css3-regions] with [css3-page]===
-[css3-page] already has the concept of different pages having boxes of variable content and style depending on their order, and on certain elements triggering different @page layouts: margin boxes. Margin boxes are created by margin at-rules inside the page context. Margin boxes can accept a subset of CSS properties, just as Regions do. So, in the same way that margin boxes are declared using @margin inside different named or pseudo-classed @page rules, other boxes //within// the "page area" would be created using @slot inside different named or pseudo-classed @page rules. Each @slot could have a 'flow-from' property or 'content' property to give it contents. 'flow-from' makes the @slot into a region. When it there is more content that will fit, it flows to the next region that can contain it, even if that region is on another page. If a page break or 'page' property in another element results in another @page being used that does not contain a region for this flow, then the flow is deferred to a subsequent page that does accept this flow.
+#### [css3-regions] with [css3-page]
 
-<code>
+[css3-page] already has the concept of different pages having boxes of variable content and style depending on their order, and on certain elements triggering different @page layouts: margin boxes. Margin boxes are created by margin at-rules inside the page context. Margin boxes can accept a subset of CSS properties, just as Regions do. So, in the same way that margin boxes are declared using @margin inside different named or pseudo-classed @page rules, other boxes *within* the "page area" would be created using @slot inside different named or pseudo-classed @page rules. Each @slot could have a 'flow-from' property or 'content' property to give it contents. 'flow-from' makes the @slot into a region. When it there is more content that will fit, it flows to the next region that can contain it, even if that region is on another page. If a page break or 'page' property in another element results in another @page being used that does not contain a region for this flow, then the flow is deferred to a subsequent page that does accept this flow.
+
+```
 
 HTML, body { height:100%; margin:0; }
 body { overflow: paged; }
@@ -297,16 +311,17 @@ body { overflow: paged; }
 article { flow-into: article-flow;  }
 aside { flow-into: sidebar-flow; }
 article h1 { page-break-before: always; page: chapter-start-page; }
-</code>
-====Ideas====
-//Is it possible to achieve same results with further extensions of 'overflow:paged' and using pseudo-elements?//
+```
 
+### Ideas
 
-===== Adaptive magazine with page templates =====
+*Is it possible to achieve same results with further extensions of 'overflow:paged' and using pseudo-elements?*
+
+## Adaptive magazine with page templates
 
 **Goal:** automatically generate complex pages based on content, encoded design intent and media properties
 
-{{ :spec:magpageportrait.png}}{{ :spec:magpagelandscape.png}}
+![](../../assets/images/spec/magpageportrait.png)![](../../assets/images/spec/magpagelandscape.png)
 
 Online magazine must work on devices on different sizes, resolution and orientation. Just as any other adaptive content using media queries, same magazine will look very different on different devices.
 
@@ -314,24 +329,28 @@ Same content may end up on different pages, order of content may change, and con
 
 <html><div style="clear:both"></div></html>
 
-====Proposals====
-===[css3-regions] with script===
+### Proposals
+
+#### [css3-regions] with script
+
 Programmatic solution has complete freedom in representation of page templates -- it can generate templates from scratch or load from any format - HTML, XML, JSON etc.
 
 Selection algorithm also have no restrictions. Selection of specific template can be based on resolution, availability of specific content.
 
-[[http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions|Regions OM]] provides 
-  * **regionOverflow** property to detect if flow in region has more content
-  * event **regionLayoutUpdate** to inform about dynamic content change
+[Regions OM](http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions) provides 
+- **regionOverflow** property to detect if flow in region has more content
+- event **regionLayoutUpdate** to inform about dynamic content change
 Which is enough for generating pages this way
 
-===[css3-regions] with [css3-page]===
+#### [css3-regions] with [css3-page]
+
 See previous section about combining css3-page @page with regions and a new @slot feature. Then imagine different variations of that sample code embedded in different media queries. @page provides named @page rules that act as templates, and media queries would let you use different @page rules and templates for varying orientations and screen sizes.
 
-===IDPF page templates proposal===
-[[http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml | IDPF Page Templates Proposal]] adds 
-  * declarative syntax for specifying page templates (called "page masters")
-<code>
+#### IDPF page templates proposal
+
+[ IDPF Page Templates Proposal](http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml ) adds 
+- declarative syntax for specifying page templates (called "page masters")
+```
 @page-master
 {
     <propname>: <propvalue>;
@@ -342,11 +361,12 @@ See previous section about combining css3-page @page with regions and a new @slo
         ...
     }
 }
-</code>
-  * specific set of rules and page-specific properties for page master selection, such as
-    * 'min-page-width' and 'min-page-height' properites -- for template selectoin based on page dimensions
-    * 'flow-priority', 'region-placement', 'required-regions', 'conflicting-regions' and other properties - for page master selection and tuning
-===== Column breaks and page breaks in regions =====
+```
+- specific set of rules and page-specific properties for page master selection, such as
+  - 'min-page-width' and 'min-page-height' properites -- for template selectoin based on page dimensions
+  - 'flow-priority', 'region-placement', 'required-regions', 'conflicting-regions' and other properties - for page master selection and tuning
+
+## Column breaks and page breaks in regions
 
 **Goal:** provide a way to control layout in columns and pages, when columns, pages or both are parts of a template-based paged view
 
@@ -398,31 +418,37 @@ Maecenas porttitor congue massa.
 
 If "page" is an element or pseudo-element generated from template and rendered in a custom page viewer, layout engine may need additional information to know which column is first column of a page.
 
-//Note that this may or may not be an issue, depending on how pages are built.//
+*Note that this may or may not be an issue, depending on how pages are built.*
 
 **Proposal:**
-//TODO. Named breaks have been discussed, add a specific proposal here//
+*TODO. Named breaks have been discussed, add a specific proposal here*
 
-===[css3-page]===
+#### [css3-page]
+
 [css3-page] already has this feature, we just need to make sure that it applies to 'overflow:paged'. For example:
 
-<code>
+```
 article h1 { page-break-before: always; page: chapter-start-page; }
-</code>
+```
 
 The above code starts a new page whenever there is an H1, and then uses the @page named "chapter-start-page" as its template.
 
 Even without considering regions and @slot, the "chapter-start-page" could have a different font-size, color, number of columns, column-rules, page area, etc., while the other declarations for H1 could make it like a header, with its own background, height, :after and/or :before pseudo-elements, etc., to help give the page a unique design. With @slot, it could also have other css-3 regions flows in it, and additional content elements.
-===== Printing generated pages =====
+
+## Printing generated pages
+
 In many of the page view situation, it is reasonable to expect that user would wish to print the content that is already preseneted in paged manner. They may prefer to either print the exact pages that they see on screen, or re-generate adaptive content for print. Either way, they will be printing content of page view, which may not be the root element of HTML document.
 
 Selection of paged content for printing may have to be implemented directly in UA. 
 
 Running script before print (to generate a new set of pages for print media) -- may need an event on HTMLDocument (and not sure it is a good idea).
 
-===Proposal===
-  * UA should treat any object with 'overflow:paged' in a way similar to iframes: providing UI to print just that one element, but defaulting to print it along with the entire root page. If printing just the overflow:paged element, its position within its parent or ancestors is ignored, and the upper left corner of the element will go in the upper left corner of the printable area of the paper. Right-clicking on an element should also present an option to print any of the ancestors that have 'overflow:paged' on them.
-  * the '.print()' function of 'window' should be extended to also be used on any element, so that document.getElementById("myPagedView").print() would work to print that one element. Then authors can include a button to print their paged element.
-====== Issues ======
-  * Paged view doesn't automatically mean "paged media" (which is commonly used as "for printing" and can't be repurposed). Should there be a way to declare that a paginating viewer (e.g. iframe) needs to render the same visuals as what would be printed?
-  * Media queries for paged view/columns/regions?
+#### Proposal
+
+- UA should treat any object with 'overflow:paged' in a way similar to iframes: providing UI to print just that one element, but defaulting to print it along with the entire root page. If printing just the overflow:paged element, its position within its parent or ancestors is ignored, and the upper left corner of the element will go in the upper left corner of the printable area of the paper. Right-clicking on an element should also present an option to print any of the ancestors that have 'overflow:paged' on them.
+- the '.print()' function of 'window' should be extended to also be used on any element, so that document.getElementById("myPagedView").print() would work to print that one element. Then authors can include a button to print their paged element.
+
+# Issues
+
+- Paged view doesn't automatically mean "paged media" (which is commonly used as "for printing" and can't be repurposed). Should there be a way to declare that a paginating viewer (e.g. iframe) needs to render the same visuals as what would be printed?
+- Media queries for paged view/columns/regions?

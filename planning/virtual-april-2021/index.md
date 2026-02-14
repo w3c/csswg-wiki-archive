@@ -1,6 +1,10 @@
-==== Virtual Meeting 4 (April 2021) ====
+---
+title: "Virtual Meeting 4 (April 2021)"
+---
 
-=== Date/Time ===
+### Virtual Meeting 4 (April 2021)
+
+#### Date/Time
 
 Apr 6, 7am PDT (afternoon for Europe, night for APAC)
 
@@ -14,24 +18,25 @@ Each meeting will be for 3 hours with hourly breaks.
 
 (member only) Meet links: https://lists.w3.org/Archives/Member/w3c-css-wg/2021AprJun/0004.html 
 
-=== Agenda ===
+#### Agenda
 
 I have created two new milestones for sorting issues for these meetings. Please take a look at the currently-tagged “Agenda+ F2F” issues and assign a milestone if you have a meeting time preference. New issues tagged for these meetings should select a milestone.
  
-''EUR VF2F-2021-04-06''
+`EUR VF2F-2021-04-06`
 
-''APAC VF2F-2021-04-08''
+`APAC VF2F-2021-04-08`
  
 https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3A%22Agenda%2B+F2F%22
 
-=== Schedule === 
+#### Schedule
 
-  * Tuesday: https://github.com/w3c/csswg-drafts/projects/16
-  * Thursday: https://github.com/w3c/csswg-drafts/projects/17
+- Tuesday: https://github.com/w3c/csswg-drafts/projects/16
+- Thursday: https://github.com/w3c/csswg-drafts/projects/17
 
-===== Participants =====
+## Participants
 
-| **Name** | **Affiliation**  | Tuesday | Thursday |
+| **Name** | **Affiliation** | Tuesday | Thursday |
+| --- | --- | --- | --- |
 | Alan Stearns | Adobe | yes | yes |
 | Chris Lilley | W3C | yes | yes |
 | fantasai | IE | yes | yes |

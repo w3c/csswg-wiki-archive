@@ -1,4 +1,8 @@
-====== CSS Test: The 'image-fit' property applies to replaced elements only ======
+---
+title: "CSS Test: The 'image-fit' property applies to replaced elements only"
+---
+
+# CSS Test: The 'image-fit' property applies to replaced elements only
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/image-fit-002-b.xht
@@ -6,6 +10,7 @@ authors         : Tom Clancy
 status_tag      : Duplicate
 group_tags      : Rev2840,ImageFit
 # Do not edit below this line
-----
+
+---
 
 ~~DISCUSSION~~

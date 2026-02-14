@@ -1,20 +1,25 @@
-===== Radial Gradient Readability =====
+---
+title: "Radial Gradient Readability"
+---
+
+## Radial Gradient Readability
+
 We've agreed that radial gradients should have a literate syntax.  Linear gradients already kinda have one, in a simple way, and hopefully radials should end up thematically consistent.
 
-==== Latest Proposal ====
+### Latest Proposal
 
-  * for CSS3: ''radial-gradient([ <extent> || <shape> ] at <position>, <colors>)''
-  * for CSS4: ''radial-gradient([ <extent> || <shape> ] at <position> [from <position> | from-offset <length>{1,2}], <colors>)''
+- for CSS3: `radial-gradient([ <extent> || <shape> ] at <position>, <colors>)`
+- for CSS4: `radial-gradient([ <extent> || <shape> ] at <position> [from <position> | from-offset <length>{1,2}], <colors>)`
 
-Because the default size is ''cover'', this means:
-  * ''radial-gradient(from 25% 25%, <colors>)'' makes the 0% color at 25% 25%, and the 100% color is at a box-centered box-covering ellipse.
-  * ''radial-gradient(at 25% 25%, <colors>)'' makes the 0% color at 25% 25%, and the 100% color at a 25% 25%-centered box-covering ellipse.
+Because the default size is `cover`, this means:
+- `radial-gradient(from 25% 25%, <colors>)` makes the 0% color at 25% 25%, and the 100% color is at a box-centered box-covering ellipse.
+- `radial-gradient(at 25% 25%, <colors>)` makes the 0% color at 25% 25%, and the 100% color at a 25% 25%-centered box-covering ellipse.
 
 <html><a href="data:text/html;charset=utf-8,<!DOCTYPE%20html>%0A<div><%2Fdiv>%0A<div>%0A<style>%0Adiv%20%7B%20%0Awidth%3A%20200px%3B%0Aheight%3A%20200px%3B%0Aborder%3A%20thin%20solid%3B%0Afloat%3A%20left%3B%0Amargin%3A%2010px%3B%0A%7D%0Adiv%3Afirst-child%20%7B%20%0Abackground%3A%20-webkit-gradient(radial%2C%2025%25%2025%25%2C%200%2C%2050%25%2050%25%2C%20150%2C%20from(white)%2C%20to(black))%3B%0A%7D%0Adiv%3Anth-child(2)%20%7B%0Abackground%3A%20-webkit-gradient(radial%2C%2025%25%2025%25%2C%200%2C%2025%25%2025%25%2C%20225%2C%20from(white)%2C%20to(black))%3B%0A%7D">Illustration of moving geometric center vs. moving color focus</a></html> (view in webkit)
 
-The ''<extent>'' is either a ''farthest/closest-side/corner'' keyword or an explicit ''<length>{1,2}''. Example: ''radial-gradient(5em circle at 10% 15%, white, black)''
+The `<extent>` is either a `farthest/closest-side/corner` keyword or an explicit `<length>{1,2}`. Example: `radial-gradient(5em circle at 10% 15%, white, black)`
 
-Everything is optional except the colors. Examples: ''radial-gradient(5em, white, black)'', ''radial-gradient(circle, white, black)'', ''radial-gradient(at top left, white, black)'', ''radial-gradient(white, black)''.
+Everything is optional except the colors. Examples: `radial-gradient(5em, white, black)`, `radial-gradient(circle, white, black)`, `radial-gradient(at top left, white, black)`, `radial-gradient(white, black)`.
 
 <html>
 <table rules="groups" class="data" cellpadding="5">
@@ -100,11 +105,11 @@ Everything is optional except the colors. Examples: ''radial-gradient(5em, white
 </table>
 </html>
 
-==== Original Proposal ====
+### Original Proposal
 
-The original proposal was ''radial-gradient(<shape> to <extent> at <position>, <colors>)''. In this proposal all arguments after ''<shape>'' could be reordered. However, [[http://www.css3.info/radial-gradient-readability/|feedback on CSS3.info]] indicated that people find "to <length>" awkward, hence the Latest Proposal above.
+The original proposal was `radial-gradient(<shape> to <extent> at <position>, <colors>)`. In this proposal all arguments after `<shape>` could be reordered. However, [feedback on CSS3.info](http://www.css3.info/radial-gradient-readability/) indicated that people find "to <length>" awkward, hence the Latest Proposal above.
 
-For example, ''radial-gradient(5em circle at 25% 50px, white, black)''
+For example, `radial-gradient(5em circle at 25% 50px, white, black)`
 
 Comparison to other proposal:
 

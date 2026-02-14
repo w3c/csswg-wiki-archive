@@ -1,47 +1,51 @@
-====== Step-by-step Publishing a CSS Spec ======
+---
+title: "Step-by-step Publishing a CSS Spec"
+---
 
+# Step-by-step Publishing a CSS Spec
 
-  - **Summarize Changes -** Make a Changes section summarizing the major changes since the last publication. ("Major" is relative---for a CR, it's any non-editorial change, but for an early-stage WD it would be sections that got an overhaul, major syntactic changes, or major behavioral changes, not every minor detail that got fixed.) This will help reviewers focus their review.
-    * If there have been only [[https://www.w3.org/2019/Process-20190301/#correction-classes|editorial]] changes, make such a statement and, ideally, link to a [[https://services.w3.org/htmldiff|diff]] of those changes so reviewers can verify this. E.g. ''There have been only __editorial__ changes since the __previous Working Draft__; see __diffs__.''
-    * FPWD doesn't need a Changes section, since there's no previous version.
-  - **CSSWG Resolution -** Get an official CSSWG Resolution to publish. Make any changes requested.
-    * **For WD** if there are only non-controversial [[https://www.w3.org/2019/Process-20190301/#correction-classes|editorial]] changes and/or substantive changes approved by the WG, there is no requirement to get an explicit WG resolution. The decision URL is this wiki page, and you can publish using Echidna.
-    * **For LCWD** (last Working Draft before a CR transition request), establish with the WG a deadline (3 weeks minimum, 4 is typical) and a list of other WGs to ask for comments. After publication, send a request for comments to all these groups and make sure that you [[https://www.w3.org/Guide/documentreview/|file all horizontal review requests]] if you haven't already.
-  - **Prepare Draft -**
-    * Update the Previous Version link at the top to the latest dated URL on /TR (Omit or write "none" if there is none)
-    * [[http://validator.w3.org/|Validate]] Overview.html
-    * [[http://www.w3.org/2009/07/webidl-check|WebIDL check]] Overview.html
-    * [[http://validator.w3.org/checklink|Link-check]] your spec.
-    * run a spellchecker on your spec
-    * Optional: If you feel so inclined, you can use [[https://labs.w3.org/pubrules/|the new pubrules checker]] (if it's working), review its results, and correct any errors. (Some errors are expected/harmless if you check an editor's draft, so read carefully!)
-  - **Request Publication -**
-    * **For regular Working Drafts (WD) and Candidate Recommendation Drafts (CRD) ** on Bikeshed-formatted specs, you can generally **use the ''[[https://tabatkins.github.io/bikeshed/#cli-echidna|bikeshed echidna]]'' command**. (Don't forget to [[https://tabatkins.github.io/bikeshed/#metadata-status|set the status]] first.) If you need to publish manually for some reason (non-Bikeshed specs, spec shortname changes, other weirdness), see [[#steps-for-manual-publication]].
-    * **For FPWD**, you also need a resolution on the shortname of the spec, and need the W3C domain leader (plh, in our case) to approve the FPWD publication and the choice of URL before the manual publication request. Best way to do this is to [[https://github.com/w3c/transitions|file an issue in the Transitions repo]]. The Team will publish the FPWD.
-    * **For Candidate Recommendation Snapshots (CRS), PR, REC ** See [[https://www.w3.org/Guide/transitions|Spec Status Transitions Documentation]]. You will need to file an issue in the [[https://github.com/w3c/transitions|Transitions Repo]]; ask ChrisL or fantasai for guidance and complain at plh for any poor documentation. The Team will publish the spec and send out relevant announcements.
-  - **Wait for Publication -** Wait for the spec to be published. For Echidna-published specs, this should take a few minutes. For other specs, W3C publishes on Tuesdays and Thursdays once webreq has approved the publication.
-  - **Announce Your Spec -** If there were substantial changes since the previous draft, post an announcement of your new spec to [[mailto:www-style@w3.org|www-style]] (and cross-post to [[mailto:public-review-announce@w3.org|public-review-announce]] and any other relevant mailing lists) and the [[https://www.w3.org/blog/CSS/wp-admin/|CSSWG Blog]] (See Templates Below) and link the blog post from [[http://twitter.com/csswg|@csswg]]. If you need help with this, ask fantasai. A good announcement includes:
-     * A link to the spec
-     * An explanation of what's new, what's cool, what's changed, maybe what to expect going forward, but most importantly what you would especially like feedback on.
-     * Instructions for sending feedback
-    - The CSSWG blog is your communication channel to people who aren't technical enough or devoted enough to follow www-style/GitHub. Take advantage of it, and engage your audience.
-  - **Post-publication edits -** Add the new "Previous version" link to the editor's draft, and if you edited the editors draft to have Status: and Date: fields in them, restore Status to ED, remove Date, and possibly remove Deadline
+1. **Summarize Changes -** Make a Changes section summarizing the major changes since the last publication. ("Major" is relative---for a CR, it's any non-editorial change, but for an early-stage WD it would be sections that got an overhaul, major syntactic changes, or major behavioral changes, not every minor detail that got fixed.) This will help reviewers focus their review.
+  - If there have been only [editorial](https://www.w3.org/2019/Process-20190301/#correction-classes) changes, make such a statement and, ideally, link to a [diff](https://services.w3.org/htmldiff) of those changes so reviewers can verify this. E.g. `There have been only <u>editorial</u> changes since the <u>previous Working Draft</u>; see <u>diffs</u>.`
+  - FPWD doesn't need a Changes section, since there's no previous version.
+1. **CSSWG Resolution -** Get an official CSSWG Resolution to publish. Make any changes requested.
+  - **For WD** if there are only non-controversial [editorial](https://www.w3.org/2019/Process-20190301/#correction-classes) changes and/or substantive changes approved by the WG, there is no requirement to get an explicit WG resolution. The decision URL is this wiki page, and you can publish using Echidna.
+  - **For LCWD** (last Working Draft before a CR transition request), establish with the WG a deadline (3 weeks minimum, 4 is typical) and a list of other WGs to ask for comments. After publication, send a request for comments to all these groups and make sure that you [file all horizontal review requests](https://www.w3.org/Guide/documentreview/) if you haven't already.
+1. **Prepare Draft -**
+  - Update the Previous Version link at the top to the latest dated URL on /TR (Omit or write "none" if there is none)
+  - [Validate](http://validator.w3.org/) Overview.html
+  - [WebIDL check](http://www.w3.org/2009/07/webidl-check) Overview.html
+  - [Link-check](http://validator.w3.org/checklink) your spec.
+  - run a spellchecker on your spec
+  - Optional: If you feel so inclined, you can use [the new pubrules checker](https://labs.w3.org/pubrules/) (if it's working), review its results, and correct any errors. (Some errors are expected/harmless if you check an editor's draft, so read carefully!)
+1. **Request Publication -**
+  - **For regular Working Drafts (WD) and Candidate Recommendation Drafts (CRD) ** on Bikeshed-formatted specs, you can generally **use the `[bikeshed echidna](https://tabatkins.github.io/bikeshed/#cli-echidna)` command**. (Don't forget to [set the status](https://tabatkins.github.io/bikeshed/#metadata-status) first.) If you need to publish manually for some reason (non-Bikeshed specs, spec shortname changes, other weirdness), see [#steps-for-manual-publication](/#steps-for-manual-publication/).
+  - **For FPWD**, you also need a resolution on the shortname of the spec, and need the W3C domain leader (plh, in our case) to approve the FPWD publication and the choice of URL before the manual publication request. Best way to do this is to [file an issue in the Transitions repo](https://github.com/w3c/transitions). The Team will publish the FPWD.
+  - **For Candidate Recommendation Snapshots (CRS), PR, REC ** See [Spec Status Transitions Documentation](https://www.w3.org/Guide/transitions). You will need to file an issue in the [Transitions Repo](https://github.com/w3c/transitions); ask ChrisL or fantasai for guidance and complain at plh for any poor documentation. The Team will publish the spec and send out relevant announcements.
+1. **Wait for Publication -** Wait for the spec to be published. For Echidna-published specs, this should take a few minutes. For other specs, W3C publishes on Tuesdays and Thursdays once webreq has approved the publication.
+1. **Announce Your Spec -** If there were substantial changes since the previous draft, post an announcement of your new spec to [www-style](/mailto/www-style@w3.org/) (and cross-post to [public-review-announce](/mailto/public-review-announce@w3.org/) and any other relevant mailing lists) and the [CSSWG Blog](https://www.w3.org/blog/CSS/wp-admin/) (See Templates Below) and link the blog post from [@csswg](http://twitter.com/csswg). If you need help with this, ask fantasai. A good announcement includes:
+  - A link to the spec
+  - An explanation of what's new, what's cool, what's changed, maybe what to expect going forward, but most importantly what you would especially like feedback on.
+  - Instructions for sending feedback
+  1. The CSSWG blog is your communication channel to people who aren't technical enough or devoted enough to follow www-style/GitHub. Take advantage of it, and engage your audience.
+1. **Post-publication edits -** Add the new "Previous version" link to the editor's draft, and if you edited the editors draft to have Status: and Date: fields in them, restore Status to ED, remove Date, and possibly remove Deadline
 
-Note: The above combines steps specific to the CSS WG and general W3C-wide [[http://services.w3.org/xslt?xmlfile=http://www.w3.org/2005/08/01-transitions.html&xslfile=http://www.w3.org/2005/08/transitions.xsl|publication rules.]] See the latter also for steps to publishing a Note, CR, PR, etc.
+Note: The above combines steps specific to the CSS WG and general W3C-wide [publication rules.](http://services.w3.org/xslt?xmlfile=http://www.w3.org/2005/08/01-transitions.html&xslfile=http://www.w3.org/2005/08/transitions.xsl) See the latter also for steps to publishing a Note, CR, PR, etc.
 
-===== Announcement Templates =====
+## Announcement Templates
 
 Templates provided for convenience; you don't have to use them as long as you include the relevant information (see above).
 
-==== Template for WD Announcement to www-style ====
+### Template for WD Announcement to www-style
 
 The www-style message is your chance to update WG and www-style members who haven't been reading all of your module's deeply involved threads as to what's happening with your module.
 
-Replace !!!!marked!!!! items. Here's an [[http://lists.w3.org/Archives/Public/www-style/2011Nov/0790.html|example WD announcement]] and here's an [[http://lists.w3.org/Archives/Public/www-style/2013Jan/0013.html|example LCWD announcement]]:
+Replace !!!!marked!!!! items. Here's an [example WD announcement](http://lists.w3.org/Archives/Public/www-style/2011Nov/0790.html) and here's an [example LCWD announcement](http://lists.w3.org/Archives/Public/www-style/2013Jan/0013.html):
 
-  ; To : www-style@ and public-review-announce@
-  ; Subject : [CSSWG][!!!!css-foo!!!!] Updated WD of !!!!CSS Foo L#!!!!
-  ; Body : 
+To : www-style@ and public-review-announce@
 
+Subject : [CSSWG][!!!!css-foo!!!!] Updated WD of !!!!CSS Foo L#!!!!
+
+Body :
 
   The CSS WG has published an updated Working Draft of the !!!!CSS Foo Module Level #!!!!:
   
@@ -64,17 +68,17 @@ Replace !!!!marked!!!! items. Here's an [[http://lists.w3.org/Archives/Public/ww
   For the CSS WG,
   !!!!your signature!!!!
 
-
-==== Template for CR Announcement to www-style ====
+### Template for CR Announcement to www-style
 
 The www-style message is your chance to update WG and www-style members who haven't been reading all of your module's deeply involved threads as to what's happening with your module, as well as put out an explicit call for implementations.
 
-Replace !!!!marked!!!! items. Here's an [[https://lists.w3.org/Archives/Public/www-style/2015Jul/0096.html|example CR announcement]]:
+Replace !!!!marked!!!! items. Here's an [example CR announcement](https://lists.w3.org/Archives/Public/www-style/2015Jul/0096.html):
 
-  ; To : www-style@ and public-review-announce@
-  ; Subject : [CSSWG][!!!!css-foo!!!!] CR of !!!!CSS Foo L#!!!!
-  ; Body : 
+To : www-style@ and public-review-announce@
 
+Subject : [CSSWG][!!!!css-foo!!!!] CR of !!!!CSS Foo L#!!!!
+
+Body :
 
   The CSS WG has published a Candidate Recommendation and invites implementations of the !!!!CSS Foo Module Level #!!!!:
   
@@ -101,15 +105,17 @@ Replace !!!!marked!!!! items. Here's an [[https://lists.w3.org/Archives/Public/w
   For the CSS WG,
   !!!!your signature!!!!
 
-==== Template for PR Announcement to www-style ====
+### Template for PR Announcement to www-style
 
 The www-style message is your chance to update WG and www-style members who haven't been reading all of your module's deeply involved threads as to what's happening with your module, as well as put out an explicit call for AC Reps to vote on it.
 
 Replace !!!!marked!!!! items.
-  ; To : www-style@ and public-review-announce@
-  ; Subject : [CSSWG][!!!!css-foo!!!!] PR of !!!!CSS Foo L#!!!!
-  ; Body : 
 
+To : www-style@ and public-review-announce@
+
+Subject : [CSSWG][!!!!css-foo!!!!] PR of !!!!CSS Foo L#!!!!
+
+Body :
 
   The CSS WG has published a Proposed Recommendation of the !!!!CSS Foo Module Level #!!!!:
   
@@ -144,16 +150,18 @@ Replace !!!!marked!!!! items.
   
   For the CSS WG,
   !!!!your signature!!!!
-==== Template for WD Announcement to Blog ====
 
-The [[http://www.w3.org/blog/CSS|CSSWG blog]] is your communication channel to people who aren't technical enough or devoted enough to follow www-style. Take advantage of it, and engage your audience. **[[https://www.w3.org/blog/CSS/wp-admin/|Log in to CSSWG Blog]]**
+### Template for WD Announcement to Blog
 
-Replaced the >>marked<< items. Here's a standard [[http://www.w3.org/blog/CSS/2011/09/08/september_text_update/|example]] . Here's a [[http://www.w3.org/blog/CSS/2011/12/28/css3-images-pre-lc/|more customized example]].
+The [CSSWG blog](http://www.w3.org/blog/CSS) is your communication channel to people who aren't technical enough or devoted enough to follow www-style. Take advantage of it, and engage your audience. **[Log in to CSSWG Blog](https://www.w3.org/blog/CSS/wp-admin/)**
 
-  ; Subject :  CSS FOOOOOOOO Draft Updated
-  ; Category : Publications
-  ; Contents :
+Replaced the >>marked<< items. Here's a standard [example](http://www.w3.org/blog/CSS/2011/09/08/september_text_update/) . Here's a [more customized example](http://www.w3.org/blog/CSS/2011/12/28/css3-images-pre-lc/).
 
+Subject :  CSS FOOOOOOOO Draft Updated
+
+Category : Publications
+
+Contents :
 
   The CSS Working Group has published an updated Working Draft of <a href="http://www.w3.org/TR/css-FOOOOOOOO">CSS FOOOOOOOO</a>. >>one-sentence summary of module<<
   
@@ -162,14 +170,15 @@ Replaced the >>marked<< items. Here's a standard [[http://www.w3.org/blog/CSS/20
   
   Please send feedback by either <a href="https://github.com/w3c/csswg-drafts/issues">filing an issue in GitHub</a> (preferable) or sending mail to the (<a href="http://lists.w3.org/Archives/Public/www-style/">archived</a>) public mailing list <a href="mailto:www-style@w3.org?Subject=%5Bcss-FOOOOOOOO%5D%20PUT%20SUBJECT%20HERE">www-style@w3.org</a> with the spec code (<code>[css-FOOOOOOOO]</code>) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)
 
-==== Template for PR Announcement to Blog ====
+### Template for PR Announcement to Blog
 
-Replace !!!marked!!! items. **[[https://www.w3.org/blog/CSS/wp-admin/|Log in to CSSWG Blog]]**
+Replace !!!marked!!! items. **[Log in to CSSWG Blog](https://www.w3.org/blog/CSS/wp-admin/)**
 
-  ; Subject :  PR of !!!CSS FOOOOOOOO!!!
-  ; Category : Publications
-  ; Contents :
+Subject :  PR of !!!CSS FOOOOOOOO!!!
 
+Category : Publications
+
+Contents :
 
   The CSS WG has published a Proposed Recommendation of the <a href="!!!http://www.w3.org/TR/css-FOOOOOOOO!!!">!!!CSS FOOOOOOOO!!!</a>. !!!one-sentence summary of module!!!
   
@@ -181,7 +190,7 @@ Replace !!!marked!!! items. **[[https://www.w3.org/blog/CSS/wp-admin/|Log in to 
   
   Please send feedback by either <a href="https://github.com/w3c/csswg-drafts/issues">filing an issue in GitHub</a> (preferable) or sending mail to the (<a href="http://lists.w3.org/Archives/Public/www-style/">archived</a>) public mailing list <a href="mailto:www-style@w3.org?Subject=%5B!!!css-FOOOOOOOO!!!%5D%20PUT%20SUBJECT%20HERE">www-style@w3.org</a> with the spec code (<code>[!!!css-FOOOOOOOO!!!]</code>) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)
 
-==== Template for Twitter Announcement ===
+### Template for Twitter Announcement
 
 Feel free to adjust the template as it seems useful.
 
@@ -195,15 +204,17 @@ e.g.
   Added new/renamed row-gap/column-gap/gap for Grid and Flexbox
   https://www.w3.org/blog/CSS/2017/12/31/spec-updates-2017/#align
 
-===== Steps for Manual Publication =====
+## Steps for Manual Publication
 
 To request manual publication (e.g. if the shortname needs changing or there is some other glitch that can't be handled by Echidna), send a request by email to webreq and our staff contacts. Replace >>marked<< items:
 
-  ; To : chris@, xfq@, webreq@
-  ; CC : w3c-css-wg@
-  ; Subject : [Publish]>>[SHORTNAME]<< Publish >>TITLE<< >>STATUS<<
-  ; Body : 
+To : chris@, xfq@, webreq@
 
+CC : w3c-css-wg@
+
+Subject : [Publish]>>[SHORTNAME]<< Publish >>TITLE<< >>STATUS<<
+
+Body :
 
   Hello Chris, & Webreq
   The CSS Working Group would like to publish an updated Working Draft of:
@@ -218,7 +229,7 @@ To request manual publication (e.g. if the shortname needs changing or there is 
 
 Where >>future date<< is a Tuesday or Thursday giving the Webmaster enough time to check and correct the draft. Follow-up and make sure it actually gets published, then send out your announcements as usual.
 
-==== Direct Manual Publication ====
+### Direct Manual Publication
 
 If for some reason you need to publish directly with the Webmaster (e.g. staff contacts are MIA), leave out the staff contact from the publication request, and inform webreq that you will be the contact person for the publication. Then send a reply only to webreq with a zipfile of the publication. (This way we're all on the thread, but only webreq gets the attachment.)
 

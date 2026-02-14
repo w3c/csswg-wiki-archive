@@ -1,14 +1,19 @@
-====== z-index of root ======
+---
+title: "z-index of root"
+---
 
-==== Test cases ====
+# z-index of root
 
-  * [[http://test.csswg.org/suites/css2.1/latest/html4/z-index-abspos-009.htm|z-index-abspos-009]] - Ian Hickson
-  * [[http://test.csswg.org/suites/css2.1/20101001/html4/z-index-abspos-009.htm|old version]] - Ian Hickson
+### Test cases
 
-==== Relevant links ====
+- [z-index-abspos-009](http://test.csswg.org/suites/css2.1/latest/html4/z-index-abspos-009.htm) - Ian Hickson
+- [old version](http://test.csswg.org/suites/css2.1/20101001/html4/z-index-abspos-009.htm) - Ian Hickson
 
-  * [[http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0238.html]]
-==== Discussion ====
+### Relevant links
+
+- <http://lists.w3.org/Archives/Public/public-css-testsuite/2010Oct/0238.html>
+
+### Discussion
 
 Test was updated in response to dbaron's report against RC2.
 

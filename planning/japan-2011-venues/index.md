@@ -1,12 +1,17 @@
-====== Japan F2F June 2011 Venue Candidates ======
+---
+title: "Japan F2F June 2011 Venue Candidates"
+---
 
-^  ^Kyoto^^Osaka^^^
-^  ^[[http://www.krp.co.jp/english/|Kyoto Research Park]]^[[http://www.hanazono.ac.jp/|Hanazono Univ]]^[[http://www.microsoft.com/japan/mscorp/branch/kansai.mspx|MS Osaka]]^^
-^6/1 9:00-18:00|School (96)|(??)|[[http://www.mainichi.co.jp/oval/|Oval Hall]] (66)|N/A|
-^6/2~4 9:00-18:00|[[http://www.krp.co.jp/kaigi/facilities/b03.html|Round (30)]]|(??)|N/A|(??)|
-^6/6~9 9:00-18:00 (SVG WG)|U (12), fee required|(??)|N/A|(??)|
-^Internet|Wired, all ports open except telnet, can bring in wifi router|??|Wired, all ports open, can bring in wifi router|??|
-^Projector|XGA/3000lm|??|XGA/2000lm|??|
-^Whiteboard|Yes|??|Yes|??|
-^Lunch|Delivery 1,000JPY~ (reservation required for Sat), a lot of easy options around|??|Delivery 1,000JPY~|??|
-^Access|[[http://www.krp.co.jp/english/access/index.html|One stop from Kyoto st. and 5 mins on walk]]|8 mins from Kyoto st. and 8 mins on walk|3 mins on walk from Osaka st.|One stop from Osaka st.|
+# Japan F2F June 2011 Venue Candidates
+
+|  | Kyoto |  | Osaka |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+|  | [[http://www.krp.co.jp/english/ | Kyoto Research Park]] | [[http://www.hanazono.ac.jp/ | Hanazono Univ]] | [[http://www.microsoft.com/japan/mscorp/branch/kansai.mspx | MS Osaka]] |
+| 6/1 9:00-18:00 | School (96) | (??) | [[http://www.mainichi.co.jp/oval/ | Oval Hall]] (66) | N/A |  |
+| 6/2~4 9:00-18:00 | [[http://www.krp.co.jp/kaigi/facilities/b03.html | Round (30)]] | (??) | N/A | (??) |  |
+| 6/6~9 9:00-18:00 (SVG WG) | U (12), fee required | (??) | N/A | (??) |  |  |
+| Internet | Wired, all ports open except telnet, can bring in wifi router | ?? | Wired, all ports open, can bring in wifi router | ?? |  |  |
+| Projector | XGA/3000lm | ?? | XGA/2000lm | ?? |  |  |
+| Whiteboard | Yes | ?? | Yes | ?? |  |  |
+| Lunch | Delivery 1,000JPY~ (reservation required for Sat), a lot of easy options around | ?? | Delivery 1,000JPY~ | ?? |  |  |
+| Access | [[http://www.krp.co.jp/english/access/index.html | One stop from Kyoto st. and 5 mins on walk]] | 8 mins from Kyoto st. and 8 mins on walk | 3 mins on walk from Osaka st. | One stop from Osaka st. |  |

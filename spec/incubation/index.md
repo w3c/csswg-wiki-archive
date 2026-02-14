@@ -1,4 +1,8 @@
-The most recent [[https://www.w3.org/Style/2016/css-2016.html|charter]] says this about incubation and the [[https://www.w3.org/community/wicg/|Web Platform Incubator Community Group]]:
+---
+title: "Untitled"
+---
+
+The most recent [charter](https://www.w3.org/Style/2016/css-2016.html) says this about incubation and the [Web Platform Incubator Community Group](https://www.w3.org/community/wicg/):
 
 "The CSS WG may incubate speculative new work in the WICG, and may adopt promising CSS work developed in WICG, provided that RF patent commitments are in place for such work."
 
@@ -8,21 +12,21 @@ The venue for new work should be evaluated based on open criteria. The lists bel
 
 Considerations for incubation within CSSWG
 
-  - The feature is an extension of an already-existing feature
-  - The feature was worked on previously but postponed to simplify current work
-  - Clear signals from users/authors exist
-  - The feature is codifying/easing current widespread practice
-  - The feature has two or more browsers interested in starting work
-  - There is consensus on the design shape
-  - The people needed for the work are already WG participants
-  - The people doing the work want to start in the CSSWG
+1. The feature is an extension of an already-existing feature
+1. The feature was worked on previously but postponed to simplify current work
+1. Clear signals from users/authors exist
+1. The feature is codifying/easing current widespread practice
+1. The feature has two or more browsers interested in starting work
+1. There is consensus on the design shape
+1. The people needed for the work are already WG participants
+1. The people doing the work want to start in the CSSWG
 
 Considerations for incubation outside of the CSSWG
 
-  - The feature was worked on previously but abandoned due to objections
-  - No clear signals or mixed signals from users/authors
-  - The feature has zero or one browsers interested in starting work
-  - Competing design shapes have been proposed
-  - Expertise from outside the WG is needed
-  - The people doing the work want to start in the WICG
-  - The people interested in the work are not WG participants
+1. The feature was worked on previously but abandoned due to objections
+1. No clear signals or mixed signals from users/authors
+1. The feature has zero or one browsers interested in starting work
+1. Competing design shapes have been proposed
+1. Expertise from outside the WG is needed
+1. The people doing the work want to start in the WICG
+1. The people interested in the work are not WG participants

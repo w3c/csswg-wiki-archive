@@ -1,4 +1,8 @@
-====== CSS Test: @page margins on top and right using percentages ======
+---
+title: "CSS Test: @page margins on top and right using percentages"
+---
+
+# CSS Test: @page margins on top and right using percentages
 
 ---- dataentry ----
 testcase_url    : http://test.csswg.org/svn/submitted/css2.1/page/at-page-rule-002-a.xht
@@ -6,6 +10,7 @@ authors         : Tom Clancy
 status_tag      : Accepted # status_tag can be Submitted, OutOfScope, Duplicate, NeedsWork, Accepted, or CheckedIn
 group_tags      : # Can optionally add tags for grouping here
 # Do not edit below this line
-----
+
+---
 
 ~~DISCUSSION~~

@@ -1,1 +1,5 @@
-You're looking for: [[tools/hg]]
+---
+title: "Untitled"
+---
+
+You're looking for: [hg](/tools/hg/)

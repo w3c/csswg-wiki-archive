@@ -1,35 +1,39 @@
-====== Additional Pseudo-Elements ======
+---
+title: "Additional Pseudo-Elements"
+---
 
-The ::outside pseudo-element was cut from css3-content and has not been tracked since. Other pseudo-elements concepts like wrapping a range of elements have been discussed from time to time. Additional pseudo-elements with more control over where they are positioned in the tree could help reduce markup clutter where elements are added to HTML for the sole purpose of CSS styling ([[http://lists.w3.org/Archives/Public/www-style/2011Dec/0463.html|Markup Clutter thread]]) ([[http://lists.w3.org/Archives/Public/www-style/2010Jul/0160.html|Thread discussing wrapping multiple elements]]). See also: [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0193.html|cross-post from whatwg about anonymous grouping]].
+# Additional Pseudo-Elements
 
-One issue is that there is very little scripting access to pseudo-elements currently. If we end up relying on pseudo-elements for wrappers or for inserting presentational boxes there should be a way to attach event handlers to pseudo-elements: [[http://lists.w3.org/Archives/Public/www-style/2012Feb/0626.html|post with use cases for interaction in layout]]
+The ::outside pseudo-element was cut from css3-content and has not been tracked since. Other pseudo-elements concepts like wrapping a range of elements have been discussed from time to time. Additional pseudo-elements with more control over where they are positioned in the tree could help reduce markup clutter where elements are added to HTML for the sole purpose of CSS styling ([Markup Clutter thread](http://lists.w3.org/Archives/Public/www-style/2011Dec/0463.html)) ([Thread discussing wrapping multiple elements](http://lists.w3.org/Archives/Public/www-style/2010Jul/0160.html)). See also: [cross-post from whatwg about anonymous grouping](http://lists.w3.org/Archives/Public/www-style/2012Feb/0193.html).
+
+One issue is that there is very little scripting access to pseudo-elements currently. If we end up relying on pseudo-elements for wrappers or for inserting presentational boxes there should be a way to attach event handlers to pseudo-elements: [post with use cases for interaction in layout](http://lists.w3.org/Archives/Public/www-style/2012Feb/0626.html)
 
 Another issue is how to provide a way to override pseudo-element styling. If one stylesheet defines a pseudo-element wrapper with some styling, how can a second stylesheet import the first and override the wrapper's style?
 
 Here is a list of possible pseudo-element additions that could be made in a future spec.
 
-=== 1. Simple wrapping of a single element ===
+#### 1. Simple wrapping of a single element
 
-In CSS3 Content, ''::outside'' was meant to create a pseudo element containing a single element.
-<code css>
+In CSS3 Content, `::outside` was meant to create a pseudo element containing a single element.
+```css
 div::outside {border: thick solid green;}
-</code>
-<code html>
+```
+```html
 <!-- pseudo-element -->
   <div>markup content</div>
 <!--end -->
-</code>
+```
 
-=== 2. Complex wrapping of an element range ===
+#### 2. Complex wrapping of an element range
 
 A wrapper that contains a range of elements specified by indices. This could be specified as a child interval on a parent, or directly from an element with a number of siblings to contain.
-<code css>
+```css
 #parent/*>*/::wrap(2,5) {border: thick solid green;} /* child interval */
-</code>
-<code css>
+```
+```css
 #parent>:nth-child(2)::wrap(3) {border: thick solid lime;} /* sibling interval */
-</code>
-<code html>
+```
+```html
 <div id=parent>
   <div>1</div>
   <!-- pseudo-element containing the next three elements -->
@@ -39,17 +43,17 @@ A wrapper that contains a range of elements specified by indices. This could be 
   <!--end -->
   <div>5</div>
 </div>
-</code>
+```
 
-If the second idea (starting from the first element to be wrapped, and specifying how many elements to include in the wrapping) is adopted, it could be used to solve #1 as well, by allowing an appropriate default value to wrap only the single element.  That is, something like ''div::wrap'' could be equivalent to ''div::wrap(1)'', which wraps only the single ''div''.
+If the second idea (starting from the first element to be wrapped, and specifying how many elements to include in the wrapping) is adopted, it could be used to solve #1 as well, by allowing an appropriate default value to wrap only the single element.  That is, something like `div::wrap` could be equivalent to `div::wrap(1)`, which wraps only the single `div`.
 
-=== 3. Complex wrapping of selector range ===
+#### 3. Complex wrapping of selector range
 
 A wrapper that contains a range of elements specified by selectors. In this case the declared range is from every <dt> element until the next <dt> following a <dd>.
-<code css>
+```css
 dl::wrap(:matches(:first-child, dt), dd+dt) {border: thick solid green;}
-</code>
-<code html>
+```
+```html
 <dl>
   <!-- pseudo-element <di> -->
     <dt> Last modified time </dt>
@@ -65,45 +69,45 @@ dl::wrap(:matches(:first-child, dt), dd+dt) {border: thick solid green;}
     <dd> Daniel Jackson </dd>
   <!-- end </di> -->
 </dl>
-</code>
+```
 
-=== 4. Sibling pseudo-elements ===
+#### 4. Sibling pseudo-elements
 
 A pseudo-element as a previous or next sibling to an element. In the case below you should be able to place this pseudo-element as following <h1> or previous to <p>.
-<code css>
+```css
 h1::next {border: thick solid green;}
-</code>
-<code css>
+```
+```css
 p::prev {border: thick solid green;}
-</code>
-<code html>
+```
+```html
 <h1>heading</h1>
 <!-- pseudo-element -->
 <p>paragraph</p>
-</code>
+```
 
-=== 5. Proliferation ===
+#### 5. Proliferation
 
 Mechanisms for adding more than one pseudo-element in some or all of the existing pseudo-element schemes.  CSS3 Content previously had the ability to specify multiples of a pseudo by specifying an index in square brackets.
-<code css>
+```css
 div::before[1] {border: thick solid green;}
 div::before[2] {border: thick solid lime;}
-</code>
-<code html>
+```
+```html
 <div>
   <!-- ::before pseudo-element 1 -->
   <!-- ::before pseudo-element 2 -->
   markup content
 </div>
-</code>  
+```
 
-<code css>
+```css
 div::before {border: thick solid green; content="text1";}
 div::before::before {border: thick solid lime; content="text2";}
 div::after {border: thick solid green; content="text3";}
 div::after::after {border: thick solid lime; content="text4";}
-</code>
-<code html>
+```
+```html
 <div>
   <!-- ::before pseudo-element -->
     <!-- nesting ::before pseudo-element -->
@@ -119,40 +123,40 @@ div::after::after {border: thick solid lime; content="text4";}
     <!-- end -->
   <!-- end -->
 </div>
-</code>  
+```
 
-<code css>
+```css
 div::outside[1] {border: thick solid green;}
 div::outside[2] {border: thick solid lime;}
-</code>
-<code html>
+```
+```html
 <!-- nesting ::outside pseudo-element -->
   <!-- nesting ::outside pseudo-element -->
     <div>markup content</div>
   <!-- end -->
 <!-- end -->
-</code>
+```
 
-<code css>
+```css
 h1::next[1] {border: thick solid green;}
 h1::next[2] {border: thick solid lime;}
 h1::next[3] {border: thick solid olive;}
-</code>
-<code html>
+```
+```html
 <h1>heading</h1>
 <!-- multiple sibling pseudo-elements -->
 <!-- multiple sibling pseudo-elements -->
 <!-- multiple sibling pseudo-elements -->
 <p>paragraph</p>  
-</code>
+```
 
-=== 6. Complex wrapping of ranges of similar elements ===
+#### 6. Complex wrapping of ranges of similar elements
 
-A wrapper that contains contiguous elements that share a selectable characteristic. In this case, instead of making three simple wrappers around each instance of class ''bar'', it would group the first two ''bar'' elements together in one wrapper.
-<code css>
+A wrapper that contains contiguous elements that share a selectable characteristic. In this case, instead of making three simple wrappers around each instance of class `bar`, it would group the first two `bar` elements together in one wrapper.
+```css
 ::wrap(div.bar) {border: thick solid green;}
-</code>
-<code html>
+```
+```html
 <div class=foo></div>
 <!-- pseudo-element that wraps class bar -->
   <div class=bar></div>
@@ -162,9 +166,9 @@ A wrapper that contains contiguous elements that share a selectable characterist
 <!-- pseudo-element that wraps class bar -->
   <div class=bar></div>
 <!-- end -->
-</code>
+```
 
 This could potentially also be addressed with #3.
-<code css>
+```css
 ::wrap(div.bar, :not(div.bar)) {border: thick solid green;}
-</code>
+```

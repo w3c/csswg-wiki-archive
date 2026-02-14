@@ -1,162 +1,174 @@
-====== CSS Flexible Box Layout ======
+---
+title: "CSS Flexible Box Layout"
+---
 
-===== Specification =====
-Latest Working Draft: [[http://www.w3.org/TR/css3-flexbox/]]
+# CSS Flexible Box Layout
 
-Latest Editor Draft: [[http://dev.w3.org/csswg/css3-flexbox/]]
+## Specification
 
-July 23, 2009 Working Draft: [[http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/]]
+Latest Working Draft: <http://www.w3.org/TR/css3-flexbox/>
 
-===== Use Cases =====
-**[[spec:css3-flexbox:Use Cases]]**
+Latest Editor Draft: <http://dev.w3.org/csswg/css3-flexbox/>
 
-===== Accessibility Order Implications =====
-Link: [[spec:css3-flexbox:Accessibility|]]
+July 23, 2009 Working Draft: <http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/>
 
-===== Implementation Report =====
-//TODO: list browser versions and draft versions for partial or complete implementations//
+## Use Cases
 
-===== Old/New Syntax Property Mapping =====
-[[Flexbox 2009-2011 spec property mapping]]
+**[Use Cases](/spec/css3-flexbox/Use Cases/)**
 
-===== Open Issues =====
+## Accessibility Order Implications
 
+Link: [Accessibility](/spec/css3-flexbox/Accessibility/)
 
-==== Flex Box Construction ====
+## Implementation Report
 
-  - [RESOLVED] Is pre whitespace ignored or preserved between elements? http://www.w3.org/mid/4F6ACDF3.1030706@mozilla.com
-  - [OPEN] Magic of replaced 'display: inline' elements: http://www.w3.org/mid/4FA76E7E.60604@inkedblade.net
-  - [CLOSED] What are expected display-inside/display-outside values for flex items, and does currently-defined behavior result in a sensible model when they are defined to exist?
-  - [RESOLVED] Effect of 'visibility: collapse' on flex items. http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E5398569284121366F7@TK5EX14MBXC213.redmond.corp.microsoft.com
-     * Proposal A: Stays in box tree, but has special layout: Do layout once normally, then collapse it to a  strut of its line's cross size and lay out again. (This keeps the cross-size stable if the flexbox is single-line or a single line of multi-line.)
-     * Proposal B: Stays in box tree, but removes all impact on layout, period.  (Just like display:none, but still generates boxes, so animations/counters/etc are unaffected.)
-     * Proposal C: ?
+*TODO: list browser versions and draft versions for partial or complete implementations*
 
-==== Flex Property ====
+## Old/New Syntax Property Mapping
 
-  - [RESOLVED] Split flex as shorthand of flex-grow/flex-shrink/flex-basis
-  - [RESOLVED] Does box-sizing affect flex-basis? http://www.w3.org/mid/57440D3E-FD1B-4526-91AD-0898C6AAB3AA@philipwalton.com
-  - [RESOLVED] Applicability of flex-basis: is it used or ignored for flex == 0?
-     * Alex suggests it is ignored. This would make main sizing source property different iff flex-grow == flex-shrink == 0.
-     * http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E539856928412EB4BF0@TK5EX14MBXC214.redmond.corp.microsoft.com
-     * http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E539856928412EB55DC@TK5EX14MBXC214.redmond.corp.microsoft.com 
-  - [RESOLVED] Default flexibility of flex items: flexible or inflexible? http://www.w3.org/mid/4F91E0D6.7040502@inkedblade.net
-     * Note: This decision sets the initial values of flex-grow and flex-shrink, which conventionally also implies their default values in the flex shorthand.
-  - [RESOLVED] What is the computed value of 'flex-basis' when it is 'auto'? Is it ''auto'' or is it the used flex basis? http://www.w3.org/mid/4FA1C498.2040101@inkedblade.net
+[Flexbox 2009-2011 spec property mapping](/Flexbox 2009-2011 spec property mapping/)
 
-==== Flex/Main Sizing ====
+## Open Issues
 
-  - [RESOLVED] Negative Flex: use Alex's alternate formulation
-      * http://www.w3.org/mid/2C86A15F63CD734EB1D846A0BA4E0FC81A3EDD72@CH1PRD0310MB381.namprd03.prod.outlook.com
-      * https://www.w3.org/Bugs/Public/show_bug.cgi?id=16856
-  - [RESOLVED] Turn negative flex on by default (now that negative flexing makes sense...)
-      * This means that in a single-line flexbox, auto-sized flex items with long text will shrink so that they don't overflow the flexbox; instead, they become narrower and the text wraps. This seems like what we'd want.
-      * Multi-line flexbox items still won't shrink unless they're wider than the flexbox.
-  - [RESOLVED] Implied min-content minimum size for flexbox items
-      * Now that we have a reasonable negative flex by default, we should have a reasonable minimum main size to go with it.
-      * Note: IE10 implies min-content as the minimum.
-      * Note: Could introduce an initial value of 'auto' for 'min-content' to have this make more sense. This would compute to '0' wherever needed for back-compat.
+### Flex Box Construction
 
-==== Pagination ====
+1. [RESOLVED] Is pre whitespace ignored or preserved between elements? http://www.w3.org/mid/4F6ACDF3.1030706@mozilla.com
+1. [OPEN] Magic of replaced 'display: inline' elements: http://www.w3.org/mid/4FA76E7E.60604@inkedblade.net
+1. [CLOSED] What are expected display-inside/display-outside values for flex items, and does currently-defined behavior result in a sensible model when they are defined to exist?
+1. [RESOLVED] Effect of 'visibility: collapse' on flex items. http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E5398569284121366F7@TK5EX14MBXC213.redmond.corp.microsoft.com
+  - Proposal A: Stays in box tree, but has special layout: Do layout once normally, then collapse it to a  strut of its line's cross size and lay out again. (This keeps the cross-size stable if the flexbox is single-line or a single line of multi-line.)
+  - Proposal B: Stays in box tree, but removes all impact on layout, period.  (Just like display:none, but still generates boxes, so animations/counters/etc are unaffected.)
+  - Proposal C: ?
 
-  - [RESOLVED] Propagating break-before/after to flex line instead of allowing items to break lines, but only in fragmenting contexts
-      * http://www.w3.org/mid/4FA150C0.7080605@inkedblade.net
-  - Allowing pull-up in addition to push-down in paging.
-      * http://www.w3.org/mid/4FA02EB0.7020102@inkedblade.net
-  - [RESOLVED] Make paging algorithms informative: define multi-col nature of multi-line column pagination, and otherwise merely advise to minimize distortion.
+### Flex Property
 
-==== Alignment and Cross-Sizing ====
+1. [RESOLVED] Split flex as shorthand of flex-grow/flex-shrink/flex-basis
+1. [RESOLVED] Does box-sizing affect flex-basis? http://www.w3.org/mid/57440D3E-FD1B-4526-91AD-0898C6AAB3AA@philipwalton.com
+1. [RESOLVED] Applicability of flex-basis: is it used or ignored for flex == 0?
+  - Alex suggests it is ignored. This would make main sizing source property different iff flex-grow == flex-shrink == 0.
+  - http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E539856928412EB4BF0@TK5EX14MBXC214.redmond.corp.microsoft.com
+  - http://www.w3.org/mid/D51C9E849DDD0D4EA38C2E539856928412EB55DC@TK5EX14MBXC214.redmond.corp.microsoft.com 
+1. [RESOLVED] Default flexibility of flex items: flexible or inflexible? http://www.w3.org/mid/4F91E0D6.7040502@inkedblade.net
+  - Note: This decision sets the initial values of flex-grow and flex-shrink, which conventionally also implies their default values in the flex shorthand.
+1. [RESOLVED] What is the computed value of 'flex-basis' when it is 'auto'? Is it `auto` or is it the used flex basis? http://www.w3.org/mid/4FA1C498.2040101@inkedblade.net
 
-  - [RESOLVED] Single-line vs. multi-line differences in alignment and sizing?
-      * http://www.w3.org/mid/4F9F6C6E.3020507@inkedblade.net
-      * http://www.w3.org/mid/2C86A15F63CD734EB1D846A0BA4E0FC81A3EE2FD@CH1PRD0310MB381.namprd03.prod.outlook.com
-  - [CLOSED] Stretch doesn't allow shrinkage, is that what's wanted?
-      * http://www.w3.org/mid/87wr4tafju.fsf@aeneas.oslo.osa
-  - [CLOSED] Get WG approval of 'auto' margin behavior (which is designed to match Grid atm)
-      * http://lists.w3.org/Archives/Public/www-style/2012May/0347.html
-      * Also: https://www.w3.org/Bugs/Public/show_bug.cgi?id=16755
-  - [CLOSED] 'distribute' behavior doesn't match use case that prompted it
-      * http://www.w3.org/mid/BLU165-ds157576DC1F28A7EF906F2DF8BD0@phx.gbl
-  - [CLOSED?] Define/resolve on alignment fallbacks for baseline, stretch, distribute, justify.
-  - [OPEN] True centering vs. safe centering
+### Flex/Main Sizing
 
-==== Terminology and Naming ====
+1. [RESOLVED] Negative Flex: use Alex's alternate formulation
+    - http://www.w3.org/mid/2C86A15F63CD734EB1D846A0BA4E0FC81A3EDD72@CH1PRD0310MB381.namprd03.prod.outlook.com
+    - https://www.w3.org/Bugs/Public/show_bug.cgi?id=16856
+1. [RESOLVED] Turn negative flex on by default (now that negative flexing makes sense...)
+    - This means that in a single-line flexbox, auto-sized flex items with long text will shrink so that they don't overflow the flexbox; instead, they become narrower and the text wraps. This seems like what we'd want.
+    - Multi-line flexbox items still won't shrink unless they're wider than the flexbox.
+1. [RESOLVED] Implied min-content minimum size for flexbox items
+    - Now that we have a reasonable negative flex by default, we should have a reasonable minimum main size to go with it.
+    - Note: IE10 implies min-content as the minimum.
+    - Note: Could introduce an initial value of 'auto' for 'min-content' to have this make more sense. This would compute to '0' wherever needed for back-compat.
 
-  - [RESOLVED] Rename 'display: flexbox' to 'display: flex'
-     * http://www.w3.org/mid/4F8C9537.1060009@moonhenge.net
-     * https://www.w3.org/Bugs/Public/show_bug.cgi?id=16752
-  - [RESOLVED] Rename "flexbox" to "flex container" and "flexbox item" to "flex item" or "flex box" to be consistent with CSS terminology elsewhere
-     * http://www.w3.org/mid/4F8322B2.40409@inkedblade.net
-  - [OPEN] Rename 'flex-order' to 'box-order' or 'display-order', since it doesn't affect order of flexing, but order of boxes.
-     * Note: this also allows re-use of the property in e.g. grid auto-placement.
-     * http://www.w3.org/mid/4F3CFBA9.7020200@inkedblade.net
-     * https://www.w3.org/Bugs/Public/show_bug.cgi?id=16756
-  - [RESOLVED] Resolve nowrap vs. no-wrap for both Flexbox and CSS3 Text
-     * http://www.w3.org/mid/4F90D9E2.8060404@inkedblade.net
+### Pagination
 
-==== Syntactic Alignment of Flex Item Alignment ====
+1. [RESOLVED] Propagating break-before/after to flex line instead of allowing items to break lines, but only in fragmenting contexts
+    - http://www.w3.org/mid/4FA150C0.7080605@inkedblade.net
+1. Allowing pull-up in addition to push-down in paging.
+    - http://www.w3.org/mid/4FA02EB0.7020102@inkedblade.net
+1. [RESOLVED] Make paging algorithms informative: define multi-col nature of multi-line column pagination, and otherwise merely advise to minimize distortion.
+
+### Alignment and Cross-Sizing
+
+1. [RESOLVED] Single-line vs. multi-line differences in alignment and sizing?
+    - http://www.w3.org/mid/4F9F6C6E.3020507@inkedblade.net
+    - http://www.w3.org/mid/2C86A15F63CD734EB1D846A0BA4E0FC81A3EE2FD@CH1PRD0310MB381.namprd03.prod.outlook.com
+1. [CLOSED] Stretch doesn't allow shrinkage, is that what's wanted?
+    - http://www.w3.org/mid/87wr4tafju.fsf@aeneas.oslo.osa
+1. [CLOSED] Get WG approval of 'auto' margin behavior (which is designed to match Grid atm)
+    - http://lists.w3.org/Archives/Public/www-style/2012May/0347.html
+    - Also: https://www.w3.org/Bugs/Public/show_bug.cgi?id=16755
+1. [CLOSED] 'distribute' behavior doesn't match use case that prompted it
+    - http://www.w3.org/mid/BLU165-ds157576DC1F28A7EF906F2DF8BD0@phx.gbl
+1. [CLOSED?] Define/resolve on alignment fallbacks for baseline, stretch, distribute, justify.
+1. [OPEN] True centering vs. safe centering
+
+### Terminology and Naming
+
+1. [RESOLVED] Rename 'display: flexbox' to 'display: flex'
+  - http://www.w3.org/mid/4F8C9537.1060009@moonhenge.net
+  - https://www.w3.org/Bugs/Public/show_bug.cgi?id=16752
+1. [RESOLVED] Rename "flexbox" to "flex container" and "flexbox item" to "flex item" or "flex box" to be consistent with CSS terminology elsewhere
+  - http://www.w3.org/mid/4F8322B2.40409@inkedblade.net
+1. [OPEN] Rename 'flex-order' to 'box-order' or 'display-order', since it doesn't affect order of flexing, but order of boxes.
+  - Note: this also allows re-use of the property in e.g. grid auto-placement.
+  - http://www.w3.org/mid/4F3CFBA9.7020200@inkedblade.net
+  - https://www.w3.org/Bugs/Public/show_bug.cgi?id=16756
+1. [RESOLVED] Resolve nowrap vs. no-wrap for both Flexbox and CSS3 Text
+  - http://www.w3.org/mid/4F90D9E2.8060404@inkedblade.net
+
+### Syntactic Alignment of Flex Item Alignment
 
 These issues tie into the Box Alignment proposal. [1]
 
-  - 'distribute' vs. 'justify': unclear which is which. Also names should not be inconsistent with text / ruby-align, at the very least.
-  - Flex-flow-relative alignment: start/end/start/end vs. start/end/before/after https://www.w3.org/Bugs/Public/show_bug.cgi?id=16007
-  - Alignment property names are confusing to anyone who hasn't been working on Flexbox for months.
-  - [RESOLVED] Proposal for common alignment: if we're going there, how do we integrate with Flexbox without depending on its completion?
+1. 'distribute' vs. 'justify': unclear which is which. Also names should not be inconsistent with text / ruby-align, at the very least.
+1. Flex-flow-relative alignment: start/end/start/end vs. start/end/before/after https://www.w3.org/Bugs/Public/show_bug.cgi?id=16007
+1. Alignment property names are confusing to anyone who hasn't been working on Flexbox for months.
+1. [RESOLVED] Proposal for common alignment: if we're going there, how do we integrate with Flexbox without depending on its completion?
 
-===== Resolved Issues =====
+## Resolved Issues
 
-==== Issue 1 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/thread.html#msg37
-  ;Summary : Multiline flexbox is missing from current draft
+### Issue 1
+
+URL : http://lists.w3.org/Archives/Public/www-style/2011Jun/thread.html#msg37
+
+Summary : Multiline flexbox is missing from current draft
+
   
-2009 spec had a multiline option [[http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/#multiple]] which is not supported by current draft.
+2009 spec had a multiline option <http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/#multiple> which is not supported by current draft.
 
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0303.html
+Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0303.html
 
-<code>
+```
   flex-wrap: no-wrap | wrap | balance
-</code>
+```
 or
-<code>
+```
   flex-lines: single | multiple
-</code>
-  ;Status: Resolved: 
+```
 
-<code>
+Status: Resolved:
+
+```
   flex-wrap: no-wrap | wrap
-</code>
+```
 ('balance') is not included into the spec yet. Can keep it as an issue until there is a strong need for it.
 
-==== Issue 2 ====
-  ;URL : //todo//
-  ;Summary : flex-direction property doesn't extend to more values needed for multiline flexbox
+### Issue 2
+
+URL : *todo*
+
+Summary : flex-direction property doesn't extend to more values needed for multiline flexbox
 
   
 Multiline flexbox needs at least 4 bits to choose from directional options (can be more to tie to writing mode, but not less):
-  - horizontal or vertical primary direction
-  - horizontal or vertical transverse direction
-  - single line or multiple lines
-  - horizontal or vertical line progression
+1. horizontal or vertical primary direction
+1. horizontal or vertical transverse direction
+1. single line or multiple lines
+1. horizontal or vertical line progression
 
-Current draft combines orientation and direction in one property [[http://dev.w3.org/csswg/css3-flexbox/#flex-direction0]], it works well for common cases but does not easily extent to multiline situation.
+Current draft combines orientation and direction in one property <http://dev.w3.org/csswg/css3-flexbox/#flex-direction0>, it works well for common cases but does not easily extent to multiline situation.
 
-  ;Proposal : Some options for adding multiline are listed here: [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0116.html]] - options 1 to 6
+Proposal : Some options for adding multiline are listed here: <http://lists.w3.org/Archives/Public/www-style/2011Jun/0116.html> - options 1 to 6
 
+Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0134.html -- best proposal so far (from Fantasai)
 
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0134.html -- best proposal so far (from Fantasai)
-
-
-<code>
+```
 Option 7:
   flex-orientation: rows | columns | horizontal | vertical
   flex-wrap: no-wrap | wrap | balance*
   flex-direction: [ forward | backward ] || reverse-stack
-</code>
+```
 (this doesn't include "line-progression")
 
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jul/0406.html 
+Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jul/0406.html
 
-<code>
+```
 Option 7 take II:
 
     flex-wrap: no-wrap | wrap | balance
@@ -179,12 +191,12 @@ Examples:
     flex-flow: ltr ttb;                  /* horizontal ltr row, ttb stacking */
     flex-flow: auto ttb;                 /* horizontal auto row, ttb stacking */
 
-</code>
+```
 Any missing directions are taken from the writing mode. Forwards for
 a particular dimension is matching the block or inline direction
 (whichever) is appropriate.
 
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jul/0422.html
+Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jul/0422.html
 
 Option 7.3 (one property)
 
@@ -198,12 +210,12 @@ Option 7.4
                [ normal | reverse | ltr | rtl | ttb | btt ] ||
                [ wrap | wrap-reverse | wrap-left | wrap-right | wrap-down| wrap-up ]
 
+Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jul/0487.html
 
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jul/0487.html
   
 Option 8:
 
-<code>
+```
 flex-flow: 
     [ row | row-reverse | column | column-reverse ] || [ wrap | wrap-reverse ] |
 
@@ -212,15 +224,20 @@ flex-flow:
 
     [ vertical| vertical-reverse| vertical-ttb| vertical-btt ] && 
     [ wrap | wrap-reverse | wrap-left | wrap-right ]?
-</code>
+```
 
-  ;Status : Resolved
+Status : Resolved
+
   
 see spec
   
-==== Issue 3 ====
-  ;URL : //todo//
-  ;Summary : flexbox has two ways to align in transverse direction - confusing and still incomplete. Try to make it consistent with Grid and/or Table.
+
+### Issue 3
+
+URL : *todo*
+
+Summary : flexbox has two ways to align in transverse direction - confusing and still incomplete. Try to make it consistent with Grid and/or Table.
+
   
 2009 spec had box-align property with values similar to vertical-align in table cells (start/end/center/stretch/baseline). Current spec adds alignment via auto margins and padding, however 'flex-align' property remains, just for baseline alignment. Having two ways to align, both incomplete, is inconsistent and confusing. 
 
@@ -230,62 +247,83 @@ Historically, it was proposed that margins can have flex values, which
 
 Alignment via margins doesn't really add new ways of alignment that were not possible before the change
 
+Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0159.html
 
-  ;Proposal : http://lists.w3.org/Archives/Public/www-style/2011Jun/0159.html
-  ;Status : Resolved at Seattle F2F to converge both flexbox and grid cell alignment to 2009 spec -- auto margins work, if no auto margins before/after/stretch have effect
-  ;Action : include text in flex-align definition that explains that auto margins are handled before 'flex-align' value is considered. Details can be in layout algorithm or elaborate description as in 2009 spec (http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/#alignment)
+Status : Resolved at Seattle F2F to converge both flexbox and grid cell alignment to 2009 spec -- auto margins work, if no auto margins before/after/stretch have effect
+
+Action : include text in flex-align definition that explains that auto margins are handled before 'flex-align' value is considered. Details can be in layout algorithm or elaborate description as in 2009 spec (http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/#alignment)
+
 **Action completed**
 
-==== Issue 4 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0271.html
-  ;Summary : consider 'true-center' as an align option for flexbox
+### Issue 4
+
+URL : http://lists.w3.org/Archives/Public/www-style/2011May/0271.html
+
+Summary : consider 'true-center' as an align option for flexbox
+
   
 'true-center' has been proposed many times and has dedicated supporters. Now that flexbox is adding a number of special layout rules and unique behavior, including new kinds of alignment, why not include true-center? There is no need to describe why it can be very useful.
 
-  ;Status : Resolved: not in flexbox spec. consider for css3 box model
+Status : Resolved: not in flexbox spec. consider for css3 box model
+
   
-==== Issue 5 ====
-  ;URL : //todo//
-  ;Summary : page breaking behavior needs to be defined for flexbox
+
+### Issue 5
+
+URL : *todo*
+
+Summary : page breaking behavior needs to be defined for flexbox
 
 flexbox spec says nothing about what happens when flexbox intersects page boundaries. it is reasonable to expect that flexbox is used at high level of page layout (as to positioning side-by-side content columns or headers/footnotes), then it is critical that pages using flexbox layout print reasonably.  
 
-  ;Status : Action Alex: propose
+Status : Action Alex: propose
+
   
-==== Issue 6 ====
-  ;URL : //todo//
-  ;Summary : 'inline-' display values work around limitations of 'display' property semantics. Separate properties for element placement and element content layout are long overdue.
+
+### Issue 6
+
+URL : *todo*
+
+Summary : 'inline-' display values work around limitations of 'display' property semantics. Separate properties for element placement and element content layout are long overdue.
+
   
 From flexbox spec draft: 
 
 ISSUE: The proliferation of "inline-*" display values is untenable and restrictive. Table cells should be able to use the flexbox layout mode for their contents, for example, rather than being forced to use block layout. It's expected that this will be fixed by splitting the ‘display’ property into sub-properties controlling how the element formats its contents (‘display-inside’) and how it reacts to its surroundings (‘display-outside’). Once that occurs, this section will instead describe a single new ‘display-inside’ value that triggers flexbox layout.
 
-  ;Status : Resolved : this  is a change for CSS3-BOX; need proposal, Tab: ACTION-342: define use cases that require 'display-inline'
+Status : Resolved : this  is a change for CSS3-BOX; need proposal, Tab: ACTION-342: define use cases that require 'display-inline'
 
-==== Issue 7 ====
-  ;URL : //todo//
-  ;Summary : Is 'float' property on flex items ignored or honored and wrapped into anonymous block?
+### Issue 7
+
+URL : *todo*
+
+Summary : Is 'float' property on flex items ignored or honored and wrapped into anonymous block?
 
 Floats are also out-of-flow, but children of flexboxes can't float. Issue:(ISSUE: Should this restriction exist, or should I just wrap floats in the anonymous boxes like other inlines?) 
 
-  ;Status : Resolved: 'float' is ignored on flexbox items. ED updated.
+Status : Resolved: 'float' is ignored on flexbox items. ED updated.
 
-==== Issue 8 ====
-  ;URL : http://dev.w3.org/csswg/css3-flexbox/#flex-order0
-  ;Summary : would 'flex-order' be more intuitive if named 'flex-index'?
+### Issue 8
+
+URL : http://dev.w3.org/csswg/css3-flexbox/#flex-order0
+
+Summary : would 'flex-order' be more intuitive if named 'flex-index'?
 
 'flex-index' would be more consistent with 'z-index'
 
-  ;Proposal : keep 'flex-order'.
+Proposal : keep 'flex-order'.
+
    
 Flexbox literally reorders its children for all purposes, naming is appropriate
 http://lists.w3.org/Archives/Public/www-style/2011Aug/0217.html
 
-  ;Status : Resolved
+Status : Resolved
 
-==== Issue 9 ====
-  ;URL : //todo//
-  ;Summary : multiline flexbox needs properties to control line stacking direction and line pack
+### Issue 9
+
+URL : *todo*
+
+Summary : multiline flexbox needs properties to control line stacking direction and line pack
 
 This applies to both 2009 and current specs: it is not defined in which direction lines are to be added.
 
@@ -293,17 +331,20 @@ It is reasonable to expect that default line progression matches current writing
 
 Similarly, there should be a way to control how lines are distributed if there is more available space than needed, similarly to 'flex-pack'.
 
-  ;Proposal : 
+Proposal :
+
   flex-line-progression: normal | reverse
   flex-line-pack: before | after | middle | distribute
 
-  ;Status : Resolved 'flex-line-pack' http://dev.w3.org/csswg/css3-flexbox/#flex-line-pack0
+Status : Resolved 'flex-line-pack' http://dev.w3.org/csswg/css3-flexbox/#flex-line-pack0
 
-==== Issue 10 ====
+### Issue 10
 
-  ;URL : http://dev.w3.org/csswg/css3-flexbox/#display-flexbox
-  ;Summary : "flex item" definition needs precise rules on handling absolute-positioned children
-  ;Proposal : 
+URL : http://dev.w3.org/csswg/css3-flexbox/#display-flexbox
+
+Summary : "flex item" definition needs precise rules on handling absolute-positioned children
+
+Proposal :
 
 <html><ins style="background:yellow">abspos elements leave behind a placeholder, which is then treated like a 0x0 inline element.</ins></html>
 
@@ -318,17 +359,24 @@ In other words, doing this:
   </div>
 
 ...should create a flexbox with three flexbox items - the 'foo' and 'baz' elements, and an anonymous block wrapping the placeholder for 'bar'.
-  ;Alternative : 
+
+Alternative :
+
 not leave a placeholder, but only use the hypothetical block and hypothetical line to determine auto position.
-  ;Proposal 2 : ignore position:absolute on flexbox children
-  ;Status : Open. consider proposal 2; Alex is Ok with allowing empty anonymous item.
-  ;Resolved : abspos elements leave behind placeholders and all that implies
+
+Proposal 2 : ignore position:absolute on flexbox children
+
+Status : Open. consider proposal 2; Alex is Ok with allowing empty anonymous item.
+
+Resolved : abspos elements leave behind placeholders and all that implies
+
 http://lists.w3.org/Archives/Public/www-style/2011Nov/0711.html  
 
-==== Issue 11 ====
+### Issue 11
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0284.html
-  ;Summary : need exact definition for how anonymous flex items are created from inline content
+URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0284.html
+
+Summary : need exact definition for how anonymous flex items are created from inline content
 
 Given the following markup:
 
@@ -346,78 +394,99 @@ You can detect the difference again with flex-pack:justify.
 
 Note that all browsers agree that table-fixup either operates on the element-tree (after pseudo-element creation) or on the box-tree before block-in-inline fixup (I can't figure out how to distinguish the two). Flexbox should be consistent.
 
-  ;Proposal : 
+Proposal :
 
 anonymous flexbox items are created in element tree. A sequence of plain text and inline elements produces one anonymous flexbox item, regardless of what is contained within inline elements (including any anonymous blocks). 
 
-  ;Status : Resolved: one item, blocks nested into inline elements don't break anonymous flexbox items.
+Status : Resolved: one item, blocks nested into inline elements don't break anonymous flexbox items.
+
   
 **ED updated**
 
-==== Issue 12 ====
+### Issue 12
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0430.html
-  ;Summary : consider 'stack' as flexbox direction
-  ;Proposal : 
-<code>
+URL : http://lists.w3.org/Archives/Public/www-style/2011Jul/0430.html
+
+Summary : consider 'stack' as flexbox direction
+
+Proposal :
+
+```
   flex-flow: stack;
-</code>
+```
 Children replaced one on top another. Intrinsic dimensions of
 flex-flow: stack; container are equal to tallest/widest child dimensions.
-  ;Status : Resolved: not appropriate for flexbox, due to alignment only applicable to one direction at a time. Grid layout behaves as stack when items don't specify rows/columns.
 
-==== Issue 13 ====
+Status : Resolved: not appropriate for flexbox, due to alignment only applicable to one direction at a time. Grid layout behaves as stack when items don't specify rows/columns.
 
-  ;URL : http://dev.w3.org/csswg/css3-flexbox/#flex-function
-  ;Summary : default values in flex() function should be the initial values
+### Issue 13
+
+URL : http://dev.w3.org/csswg/css3-flexbox/#flex-function
+
+Summary : default values in flex() function should be the initial values
+
   
-Current spec says: "If flex() function has a single value and it is a <length>, a <percentage>, or a valid keyword for 'width' or 'height', the preferred size is set to that value, **the positive flexibility is set to 1**, and the negative flexibility is set to ''0''."
+Current spec says: "If flex() function has a single value and it is a <length>, a <percentage>, or a valid keyword for 'width' or 'height', the preferred size is set to that value, **the positive flexibility is set to 1**, and the negative flexibility is set to `0`."
 
 Omitted values should devault to initial values, and initial value for flex is zero. That and other rules for flex() should change to use initial values as defaults
 
-  ;Proposal : Always use initial values as defaults in flex()
-  ;Status : Resolved
+Proposal : Always use initial values as defaults in flex()
+
+Status : Resolved
 
 Default values in flex() function will be different from initial. It is more useful to have default flex of 1 than 0, and using flex() function makes it clear that flexibility is desired unless specified otherwise.
 
-==== Issue 14 ====
+### Issue 14
 
-  ;URL : //todo//
-  ;Summary : what is the meaning of 'before' and 'after' in 'flex-align'
+URL : *todo*
+
+Summary : what is the meaning of 'before' and 'after' in 'flex-align'
 
 2009 spec reversed alignment direction for reverse flexbox. that doesn't make sense.
 
 wrap direction of multiline flexbox can be used as a clue for alignment direction, but there is no way to specify alignment direction without specifying wrap.
-  ;Option 1: 
-  * Multi-line flexbox: alignment direction is the wrap direction (e.g. with 'wrap-up', 'before' is down and 'after' is up
-  * Single-line flexbox: alignmend direction is the direction of block flow in writing mode of the flexbox (e.g. in 'lr-tb', 'before' is up and 'after' is down
-  ;Option 2 : Option 1 plus a new set value for 'flex-flow' -- [ align-up | align-right | align-left | align-down | align-before | align-after ]
-  ;Proposal : alignment direction is wrap direction in multi-line flexbox and block flow direction in single-line flexbox (option 1)
-  ;Status : Resolved as proposed, ED updated
 
-==== Issue 15 ====
+Option 1:
 
-  ;URL : //todo//
-  ;Summary : Treatment of margins and paddings in flex algorithm (with flex 1 for 'auto') is incomplete: no flex() function, no min/max values. Would it make sense to allow flex() function on margins and paddings? And how about min/max?
+- Multi-line flexbox: alignment direction is the wrap direction (e.g. with 'wrap-up', 'before' is down and 'after' is up
+- Single-line flexbox: alignmend direction is the direction of block flow in writing mode of the flexbox (e.g. in 'lr-tb', 'before' is up and 'after' is down
+
+Option 2 : Option 1 plus a new set value for 'flex-flow' -- [ align-up | align-right | align-left | align-down | align-before | align-after ]
+
+Proposal : alignment direction is wrap direction in multi-line flexbox and block flow direction in single-line flexbox (option 1)
+
+Status : Resolved as proposed, ED updated
+
+### Issue 15
+
+URL : *todo*
+
+Summary : Treatment of margins and paddings in flex algorithm (with flex 1 for 'auto') is incomplete: no flex() function, no min/max values. Would it make sense to allow flex() function on margins and paddings? And how about min/max?
+
   
 I don't have really strong feelings about it, but it seems that flexible margins should either have full support of flexibility or not try to get a poor-man's version at all.
 
 An idea: what if 'auto' margins on main axis were used after flex sizing and before Pack? Would it make sense? Would it help any of use cases?
 
-  ;Proposal : Apply to 'width' and 'height' only
-  ;Status : Resolved: as proposed
+Proposal : Apply to 'width' and 'height' only
 
-==== Issue 16 ====
+Status : Resolved: as proposed
 
-  ;URL : //todo//
-  ;Summary : need a solid use case for treating "margin:auto" as "margin:flex(0px 1 0)" along main axis in flexbox
-  ;Proposal : Remove flexible margins.
-  ;Status : Resolved: as proposed
+### Issue 16
 
-==== Issue 17 ====
+URL : *todo*
 
-  ;URL : //todo//
-  ;Summary : what is effective min width/height of a flex item with specified widht/height?
+Summary : need a solid use case for treating "margin:auto" as "margin:flex(0px 1 0)" along main axis in flexbox
+
+Proposal : Remove flexible margins.
+
+Status : Resolved: as proposed
+
+### Issue 17
+
+URL : *todo*
+
+Summary : what is effective min width/height of a flex item with specified widht/height?
 
 Normally there min-width is irrelevant when width is specified. However flex item can be smaller than 
 specified size, due to negative flexing. Then the <length> specified in flex() function is "specified preferred width",
@@ -425,53 +494,71 @@ a concept that did exist in CSS2.1 (other than tables, sort of).
 
 What should we do here? Treat content min width/height same as specified? With same priority? Or less priority than specified width/height?
 
-  ;Option 1 : use content min-width when sizing to content, specified min-width otherwise; min-height only if spcified
+Option 1 : use content min-width when sizing to content, specified min-width otherwise; min-height only if spcified
+
   
   "width:flex(auto); min-width:0" -- treat as "min-width:min-content"
   "width:flex(1000px); min-width:0" -- treat as "min-width:0"
   "height:flex(<anything>); min-height:0" -- nothing special, min-height used only if specified
 
-  ;Option 2 : use min-width only if specified
+Option 2 : use min-width only if specified
 
 It is always possible to set "min-width:min-content". However it is not the default, and default of "min-width:0" is actually a pretty bad default when shrinking needs to happen. In Tables, content min-width works as a low limit for column width, but we don't really want to fully recreate tables...
-  ;Option 3 : min-width/min-height is consulted after flex distribution. if any item is smaller than min, it gets its min size and no flexibilithy, then flex distribution is restarted
-  ;Proposal : Option 3; use of min-width vs min-content to be clarified
-  ;Status : Resolved (TPAC2011): minimum width is just min-width: min-content is not an implied minimum  http://krijnhoetmer.nl/irc-logs/css/20111031#l-1591 . (that means min-content is never taken into account in flex calculations, unless used explicitly, e.g. as "min-width:min-content")
+
+Option 3 : min-width/min-height is consulted after flex distribution. if any item is smaller than min, it gets its min size and no flexibilithy, then flex distribution is restarted
+
+Proposal : Option 3; use of min-width vs min-content to be clarified
+
+Status : Resolved (TPAC2011): minimum width is just min-width: min-content is not an implied minimum  http://krijnhoetmer.nl/irc-logs/css/20111031#l-1591 . (that means min-content is never taken into account in flex calculations, unless used explicitly, e.g. as "min-width:min-content")
+
   
 
-==== Issue 18 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Dec/thread.html#msg97
-  ;Summary : combination of margins and item-level flex-align is redundant and is not supporting common case where all items have same alignment.
-  ;Proposal : two properties 'flex-align' and 'flex-item-align'
+### Issue 18
+
+URL : http://lists.w3.org/Archives/Public/www-style/2011Dec/thread.html#msg97
+
+Summary : combination of margins and item-level flex-align is redundant and is not supporting common case where all items have same alignment.
+
+Proposal : two properties 'flex-align' and 'flex-item-align'
+
 Behavior of auto margins in cross direction is TBD. Options are (1) auto margions are set to zero or (2) auto margins behave as horizontal margins in normal flow (align or center)
-  ;Status : Resolved, accepted proposal
 
-==== Issue 19 ====
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Nov/0729.html
-  ;Summary : flex() has issues that 'flex' property wouldn't have
-  * flex() applies to 'width' and 'height' properties always, regardless of whether the element is a flexbox item.
-  * because of being applied to broadly used properties, flex() has to have meaning when applied to non-flex-item. It can then be invalid or have a special meaning, neither seem ideal:
-    * if flex() is invalid when not in flexbox, "width:100px; width:flex(1 100px)" means "width:auto" (because the last value wins in cascading, then gets ignored)
-    * if flex() applies to anything as preferred size, "width:flex(1)" means "width:0"
-  * in DOM, specified style has to show as flex(...); any script that read selement.style.width will be broken or will have to parse flex()
-  * having to specify flex separately for width and height forces unnecessary duplication. E.g. if a flexbox is sometimes horizontal and sometimes vertical but flexibility is same, stylesheet may have something like "width:flex(1 auto); height:flex(1 auto)", which will work but is confusing.
-  * combining width/height and flexibility in one property makes it impossible to change them independently
-  * it is unclear if animations and transitions will work flex()
+Status : Resolved, accepted proposal
 
-  ;Proposal : separate 'flex' property
+### Issue 19
+
+URL : http://lists.w3.org/Archives/Public/www-style/2011Nov/0729.html
+
+Summary : flex() has issues that 'flex' property wouldn't have
+
+- flex() applies to 'width' and 'height' properties always, regardless of whether the element is a flexbox item.
+- because of being applied to broadly used properties, flex() has to have meaning when applied to non-flex-item. It can then be invalid or have a special meaning, neither seem ideal:
+  - if flex() is invalid when not in flexbox, "width:100px; width:flex(1 100px)" means "width:auto" (because the last value wins in cascading, then gets ignored)
+  - if flex() applies to anything as preferred size, "width:flex(1)" means "width:0"
+- in DOM, specified style has to show as flex(...); any script that read selement.style.width will be broken or will have to parse flex()
+- having to specify flex separately for width and height forces unnecessary duplication. E.g. if a flexbox is sometimes horizontal and sometimes vertical but flexibility is same, stylesheet may have something like "width:flex(1 auto); height:flex(1 auto)", which will work but is confusing.
+- combining width/height and flexibility in one property makes it impossible to change them independently
+- it is unclear if animations and transitions will work flex()
+
+Proposal : separate 'flex' property
+
   flex: <pos-flex> <neg-flex>?
 or
   flex: [ <pos-flex> <neg-flex>? ]? || <preferred-size>?
 <preferred-size> can be defined to have default of 0 and 'auto' value can mean "use value of width or height property"  
-  ;Status : Resolved, accepted proposal.
+
+Status : Resolved, accepted proposal.
 
 <html><!--
 
-==== Issue NEW ====
+### Issue NEW
 
-  ;URL : //todo//
-  ;Summary : 
-  ;Proposal : 
-  ;Status : Open
+URL : *todo*
+
+Summary :
+
+Proposal :
+
+Status : Open
 
 --></html>

@@ -1,3 +1,7 @@
+---
+title: "Untitled"
+---
+
 <html>
   <h3 id="changes_from_November_29_2011"><span class=secno>12.3.
    </span>Changes from <a
@@ -45,13 +49,16 @@
     list feedback</a>.
 
    <li>Clarified that the <code>NodeList</code> returned by
-    <code>getRegionsByContentNode</code> is live.
+```
+getRegionsByContentNode</code> is live.
 
    <li>Added a name property to the <a
-    href="#dom-named-flow"><code>NamedFlow</code></a> interface. Added a <a
+    href="#dom-named-flow"><code>NamedFlow
+```
     href="#dom-named-flow-collection"><code>NamedFlowCollection</code></a>
     interface and added a <code>getNamedFlows</code> method on the
-    <code>Document</code> interface, as per <a
+```
+Document</code> interface, as per <a
     href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=15828">Bug
     15828</a>.
 
@@ -76,7 +83,8 @@
     15191</a> and <a
     href="http://www.w3.org/Style/CSS/Tracker/actions/375">Action 375</a>.
 
-   <li>Renamed ‘<code class=property>regionOverflow</code>’ to ‘<a
+   <li>Renamed ‘<code class=property>regionOverflow
+```
     href="#dom-region-regionoverset"><code
     class=property>regionOverset</code></a>’ to avoid confusion between
     fitting a flow in regions and the concept of visual overflow that the

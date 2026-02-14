@@ -1,4 +1,8 @@
-====== Rename the Alignment Properties to Generic Names ======
+---
+title: "Rename the Alignment Properties to Generic Names"
+---
+
+# Rename the Alignment Properties to Generic Names
 
 ---- dataentry  ----
 Spec_tags     : css3-align, css3-flexbox
@@ -9,32 +13,33 @@ Action        : Choose some names.
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2012May/0476.html
 Proposal_urls : 
 Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
-----
 
-=== RESOLVED ===
+---
+
+#### RESOLVED
 
 The WG resolved to go with Option D based on a straw poll in a telcon: justify-self/content/items and align-self/content/items.
 
-=== Background ===
+#### Background
 
 Fundamentally, we're breaking down the properties along two axes:
 
-   * in which dimension are things being shifted? There are two:
-       * X) inline (main)
-       * Y) stacking (cross)
+- in which dimension are things being shifted? There are two:
+    - X) inline (main)
+    - Y) stacking (cross)
 
-   * what's being aligned within what?
-       * A) element itself within its containing block
-       * B) element's contents within itself
-       * C) element's child items within their container
+- what's being aligned within what?
+    - A) element itself within its containing block
+    - B) element's contents within itself
+    - C) element's child items within their container
 
 We're going with 'justify' vs. 'align' to distinguish X vs. Y, but still need a scheme for A/B/C
 
-=== Problem Statement ===
+#### Problem Statement
 
 What naming scheme do we use to indicate various alignment targets?
 
-=== Proposal(s) ===
+#### Proposal(s)
 
 See http://dev.w3.org/csswg/css3-align/#overview
 
@@ -47,14 +52,12 @@ Set 1: Box/Content/Default
   B | content-justify  content-align
   C | default-justify  default-align
 
-
 Set 2: Self/Content/Item
 
     +--------X----------------Y------
   A |    self-justify     self-align
   B | content-justify  content-align
   C |    item-justify     item-align
-
 
 Set 3: Outside/Inside/Items
 
@@ -79,9 +82,9 @@ Set 5: Self/Content/Items Inline/Stack
   B | align-content-inline  align-content-stack
   C | align-items-inline    align-items-stack
 
-=== Summary of Comments ===
+#### Summary of Comments
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/0481.html|Anton]]:
+[Anton](http://lists.w3.org/Archives/Public/www-style/2012May/0481.html):
 
   For me, Set 1 is too abstract. (Which box? Which default?)  I like
   self/content/item because I find it very self-descriptive.  I like
@@ -89,14 +92,14 @@ Set 5: Self/Content/Items Inline/Stack
   display-inside and display-outside.  I wouldn't have trouble
   remembering and applying the property names in Set 2 or Set 3.
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/0484.html|Florian]]:
+[Florian](http://lists.w3.org/Archives/Public/www-style/2012May/0484.html):
 
   box and content make sense to me, and so do outside and inside.
   self and content are a bit cryptic to me.
   As for default vs item, no strong opinion. Neither seem very much
   clearer than the other. 
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/0493.html|Remy]]:
+[Remy](http://lists.w3.org/Archives/Public/www-style/2012May/0493.html):
 
   outer-align; outer-justify;
   inner-align; inner-justify;
@@ -105,7 +108,7 @@ Set 5: Self/Content/Items Inline/Stack
   However, I'm not completely sold to "child-outer-align" and "child-outer-justify".
   This case is better solved with a pseudo-class. 
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/0495.html|Tab]]:
+[Tab](http://lists.w3.org/Archives/Public/www-style/2012May/0495.html):
 
   [Set 3] is my favorite.
   
@@ -117,7 +120,7 @@ Set 5: Self/Content/Items Inline/Stack
   For two, outside/inside is very difficult to confuse, especially as we
   introduce more things using the inside/outside pair.
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/0515.html|Alan]]:
+[Alan](http://lists.w3.org/Archives/Public/www-style/2012May/0515.html):
 
   [Set 3] is my choice as well. Grouping these related properties together
   with justify and align coming first makes the most sense to me.
@@ -128,14 +131,14 @@ Set 5: Self/Content/Items Inline/Stack
   So I think this should be the easiest set to explain to someone new to
   the concepts.
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/0517.html|dbaron]]:
+[dbaron](http://lists.w3.org/Archives/Public/www-style/2012May/0517.html):
 
   I'm actually not so happy about the *-outside terms here.  The
   display-outside/inside distinction is about two halves of the same
   thing; here' align-outside and align-items are about the same
   behavior, on different things.
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/0519.html|Christoph]]:
+[Christoph](http://lists.w3.org/Archives/Public/www-style/2012May/0519.html):
 
   The “Inversion” row makes some sense, because ‘justify-box’/‘align-box’
   sound like English phrases in the imperative mood, whereas ‘box-justify’/
@@ -156,7 +159,7 @@ Set 5: Self/Content/Items Inline/Stack
   B | justify[-self]   align[-self]
   C | justify-inside   align-inside
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/0681.html|Lea]]:
+[Lea](http://lists.w3.org/Archives/Public/www-style/2012May/0681.html):
 
   The align- and justify- prefixes are confusing to me too,
   especially the latter. However, I understand the concerns
@@ -179,7 +182,7 @@ Set 5: Self/Content/Items Inline/Stack
   APIs what UI is to applications). You need to conduct some sort
   of usability test [...]
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/0835.html|fantasai]]:
+[fantasai](http://lists.w3.org/Archives/Public/www-style/2012May/0835.html):
 
   I think I'm leaning towards [Set 4] myself, since it seems to fit
   reasonably well with the flexbox model:
@@ -191,16 +194,16 @@ Set 5: Self/Content/Items Inline/Stack
   Set on flex item:
     align-self      - to set individual cross-position of item
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/0843.html|Remy]]:
+[Remy](http://lists.w3.org/Archives/Public/www-style/2012May/0843.html):
 
   If you want to keep consistency with other CSS properties (border,
   background-position, ...) the axis should be at the end of the
   property name and there should be a shorthand to modify both axises. 
 
-=== Conclusions ===
+#### Conclusions
 
-  * People seem to be leaning towards the inverted variants.
-  * A few people like "box", but several others think it's overloaded.
-  * There seems to be general agreement that 'items' is better than 'default' (or the previous alternative, 'child').
-  * There are concerns about the 'inside'/'outside' pair being too cryptic or too confusable, and lacking parallel with 'items'.
-  * Some concern over align vs. justify being unmemorable and undescriptive.
+- People seem to be leaning towards the inverted variants.
+- A few people like "box", but several others think it's overloaded.
+- There seems to be general agreement that 'items' is better than 'default' (or the previous alternative, 'child').
+- There are concerns about the 'inside'/'outside' pair being too cryptic or too confusable, and lacking parallel with 'items'.
+- Some concern over align vs. justify being unmemorable and undescriptive.

@@ -1,45 +1,52 @@
-====== Berlin F2F August 2026 ======
+---
+title: "Berlin F2F August 2026"
+---
 
-   * Host: Mozilla
-   * Dial-in: TBD
-   * Location: Mozilla, Schlesische Strasse 27, Entrance C, 4 Floor, 10997 Berlin
-   * Weather Forecast: TBD
-   * Dates: Tuesday 4th August - Thursday 6th August 2026
-   * Times: 10am - 6pm
-     * Breakfast: TBD
-     * Morning break: TBD
-     * Lunch break: TBD
-     * Afternoon break: TBD
-     * Host dinner: TBD
-   * Airports:
-       * BER - Berlin Brandenburg Airport
+# Berlin F2F August 2026
 
-===== Covid Protocols =====
+- Host: Mozilla
+- Dial-in: TBD
+- Location: Mozilla, Schlesische Strasse 27, Entrance C, 4 Floor, 10997 Berlin
+- Weather Forecast: TBD
+- Dates: Tuesday 4th August - Thursday 6th August 2026
+- Times: 10am - 6pm
+  - Breakfast: TBD
+  - Morning break: TBD
+  - Lunch break: TBD
+  - Afternoon break: TBD
+  - Host dinner: TBD
+- Airports:
+    - BER - Berlin Brandenburg Airport
 
-  * Masks recommended, but not required, in the meeting room.
-  * COVID testing daily before meeting.
-  * Outdoor dining encouraged, weather permitting.
-  * Strong recommendation to wear a mask in airports and on airplanes (particularly during takeoff and landing) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt.
+## Covid Protocols
 
-===== Agenda =====
+- Masks recommended, but not required, in the meeting room.
+- COVID testing daily before meeting.
+- Outdoor dining encouraged, weather permitting.
+- Strong recommendation to wear a mask in airports and on airplanes (particularly during takeoff and landing) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt.
 
-Flag issues with [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Agenda%2B%20F2F%22|Agenda+ F2F]] or [[https://lists.w3.org/Archives/Member/w3c-css-wg/|email the list with requests]].
-===== Attendees =====
+## Agenda
 
-==== In-Person Participants ====
+Flag issues with [Agenda+ F2F](https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Agenda%2B%20F2F%22) or [email the list with requests](https://lists.w3.org/Archives/Member/w3c-css-wg/).
+
+## Attendees
+
+### In-Person Participants
 
 (alphabetical by first name)
 
-^ Name ^ Arrival ^ Departure ^ Hotel ^ Dietary Restrictions ^ Flights or Other Notes ^
+| Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
+| --- | --- | --- | --- | --- | --- |
 | Elika | TBD | TBD | TBD | low-gluten | TBD |
-==== Virtual Participants ====
 
-Please list your availability in Berlin time (morning/afternoon/all or specific time ranges). See [[https://www.worldtimebuddy.com/?qm=1&lid=5391959,2158177,1850147,293397,2988507,2643743,5128581&h=5391959&date=2025-1-29&sln=8-16&hf=1|Time Converter]]
+### Virtual Participants
 
-^ Name ^ Timezone ^ PST Availability ^ Other Notes ^
+Please list your availability in Berlin time (morning/afternoon/all or specific time ranges). See [Time Converter](https://www.worldtimebuddy.com/?qm=1&lid=5391959,2158177,1850147,293397,2988507,2643743,5128581&h=5391959&date=2025-1-29&sln=8-16&hf=1)
 
+| Name | Timezone | PST Availability | Other Notes |
+| --- | --- | --- | --- |
 
-==== Regrets ====
+### Regrets
 
-^ Name ^
-
+| Name |
+| --- |

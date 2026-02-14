@@ -1,4 +1,8 @@
-====== CSS Test: page properties: padding properties ======
+---
+title: "CSS Test: page properties: padding properties"
+---
+
+# CSS Test: page properties: padding properties
 
 ---- dataentry ----
 testcase_url    : http://www.revenutiontesting.com/w3c/page_properties/page-properties-015.xht
@@ -6,6 +10,7 @@ authors         : Tom Clancy
 status_tag      : Accepted
 group_tags      : Rev1030,PageProperties
 # Do not edit below this line
-----
+
+---
 
 ~~DISCUSSION~~

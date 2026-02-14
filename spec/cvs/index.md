@@ -1,15 +1,21 @@
-====== W3C CVS For Dummies ======
+---
+title: "W3C CVS For Dummies"
+---
+
+# W3C CVS For Dummies
 
 2010-234 Tantek Çelik - originally drafted (with incremental updates since, e.g. 2011-081)
 
 <html><div style="width:50%;float:left"></html>
-<note important>
-The CSSWG has shifted to [[tools:hg|Mercurial]] for specs.
-This page is being kept here in case it is useful for other projects.
-</note>
+
+> [!IMPORTANT]
+> The CSSWG has shifted to [Mercurial](/tools/hg/) for specs.
+> This page is being kept here in case it is useful for other projects.
+
 <html></div></html>
 
-===== Introduction =====
+## Introduction
+
 Setting up CVS and specifically, W3C's setup for CVS is quite challenging, obtuse, and painful.
 
 Having failed to do this by myself, I took reasonably thorough notes while @fantasai and @davidbaron helped walk me through this setup, including trouble-shooting several problems I encountered along the way.
@@ -18,7 +24,8 @@ It is my hope that documenting the steps I had to take will help others get setu
 
 Tantek Çelik, 2010-236
 
-===== Public Web Access to W3C CVS =====
+## Public Web Access to W3C CVS
+
 If all you want to do is browse through W3C's CVS repository on the web, you can start here:
 
 http://dev.w3.org/cvsweb/
@@ -27,22 +34,23 @@ However, if you want to actually *check out* W3C's CVS repository (with the inte
 
 That's why this document is here.
 
+## Make Sure You Have
 
-===== Make Sure You Have =====
 Before you get started with the setup steps, you need:
-  - your W3C username - you need this for communicating with the W3C's CVS server
-  - your public key - you need to setup SSH keys for yourself.
-    * this might be helpful: [[https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Generating_an_SSH_key|Mozilla Developer Network: Generating an SSH key]]
+1. your W3C username - you need this for communicating with the W3C's CVS server
+1. your public key - you need to setup SSH keys for yourself.
+  - this might be helpful: [Mozilla Developer Network: Generating an SSH key](https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Generating_an_SSH_key)
 
 Send your public key file (id_dsa.pub) to Bert Bos. Until your public key file has been setup on the CVS server you will not be able to connect successfully using ssh.
 
-===== Step 0 - Install CVS =====
+## Step 0 - Install CVS
+
 You need to first install CVS on your system.
 
 If you have a Mac:
-  * [[https://developer.apple.com/xcode/|install Xcode]].  It helps if you're using a fairly new OS X version (e.g. 10.6 Snow Leopard) and Xcode.
-    * Note: as of OSX 10.7 Lion, you will likely need to get [[http://itunes.apple.com/us/app/xcode/id448457090|Xcode from the Apple Mac App store]].
-  * install MacPorts [[http://distfiles.macports.org/MacPorts/MacPorts-1.9.2-10.6-SnowLeopard.dmg|(OSX 10.6)]]| [[https://distfiles.macports.org/MacPorts/MacPorts-2.0.3-10.7-Lion.dmg|(OSX 10.7)]]. See [[http://www.macports.org/install.php|Installing MacPorts]] for other installs.
+- [install Xcode](https://developer.apple.com/xcode/).  It helps if you're using a fairly new OS X version (e.g. 10.6 Snow Leopard) and Xcode.
+  - Note: as of OSX 10.7 Lion, you will likely need to get [Xcode from the Apple Mac App store](http://itunes.apple.com/us/app/xcode/id448457090).
+- install MacPorts [(OSX 10.6)](http://distfiles.macports.org/MacPorts/MacPorts-1.9.2-10.6-SnowLeopard.dmg)| [(OSX 10.7)](https://distfiles.macports.org/MacPorts/MacPorts-2.0.3-10.7-Lion.dmg). See [Installing MacPorts](http://www.macports.org/install.php) for other installs.
 
 The MacPorts installer will run a program to determine if it can be installed.
 
@@ -50,43 +58,52 @@ If you get an error alert like:
 
 <html><pre>
 +----------------------------------------------------+
-| MacPorts-2.0.3 can't be installed on this          |
-| computer.                                          |
-|                                                    |
+
+| MacPorts-2.0.3 can't be installed on this |
+| --- |
+| computer. |
+|  |
 | Xcode is not installed, or was installed with UNIX |
-| Development (10.5+) or Command Line Support        |
-| (10.4) deselected.                                 |
-|                                          ((Close)) |
+| Development (10.5+) or Command Line Support |
+| (10.4) deselected. |
+| ((Close)) |
+
 +----------------------------------------------------+
 </pre></html>
 
 Then go back and make sure you've installed Xcode - you should have a "Developer" folder on your internal drive.
 
 If you don't have a "Developer" folder on your internal drive, you probably haven't successfully installed Xcode.
-  * Look in your "Applications" folder for an application called "Install Xcode" and open it. You will likely be asked for your Mac admin password, enter it and click ok / install etc. and wait for the Xcode Installer to finish. You may need to close your "iTunes" application if it is open (or else the install may stall with an alert dialog ask you to please quit it before continuing). You should now have a "Developer" folder on your internal drive.
+- Look in your "Applications" folder for an application called "Install Xcode" and open it. You will likely be asked for your Mac admin password, enter it and click ok / install etc. and wait for the Xcode Installer to finish. You may need to close your "iTunes" application if it is open (or else the install may stall with an alert dialog ask you to please quit it before continuing). You should now have a "Developer" folder on your internal drive.
 
 If you have installed Xcode, make sure you've updated it to the latest version.
-You may need to check the [[http://itunes.apple.com/us/app/xcode/id448457090|Xcode page in the Apple Mac App store]] - if you see a button to "Update" or "Upgrade", click it.
+You may need to check the [Xcode page in the Apple Mac App store](http://itunes.apple.com/us/app/xcode/id448457090) - if you see a button to "Update" or "Upgrade", click it.
 
 Now retry installing MacPorts again.
 
-  * Install CVS by entering this command into a Terminal window:
+- Install CVS by entering this command into a Terminal window:
 
-<code bash>sudo port install cvs</code>
+```bash
+sudo port install cvs
+```
 
 If you get an error message like:
 
-<code>sudo: port: command not found</code>
+```
+sudo: port: command not found
+```
 
 Then open a *new* Terminal window and try the command again:
 
-<code bash>sudo port install cvs</code>
+```bash
+sudo port install cvs
+```
 
 You will be asked for your "Password:" - enter it.
 
 You should then see a bunch of messages like:
 
-<code>
+```
 --->  Fetching cvs
 --->  Attempting to fetch cvs-1.11.23.tar.bz2 from http://distfiles.macports.org/cvs
 --->  Verifying checksum(s) for cvs
@@ -97,14 +114,13 @@ You should then see a bunch of messages like:
 --->  Installing cvs @1.11.23_0
 --->  Activating cvs @1.11.23_0
 --->  Cleaning cvs
-</code>
+```
 
 Congratulations, you've installed the command-line cvs tool on your Mac.
 
 For other platforms ... tips forthcoming.
 
-
-===== Step 1 - Setup CVS_RSH =====
+## Step 1 - Setup CVS_RSH
 
 W3C requires you to use SSH to connect to their CVS server.
 
@@ -112,15 +128,21 @@ What does this mean? It means W3C only allows secure access to the CVS server - 
 
 The short version, type this into a terminal window (e.g. in the Terminal application on MacOSX)
 
-<code bash>export CVS_RSH=ssh</code>
+```bash
+export CVS_RSH=ssh
+```
 
 Now test that you did the right thing by typing in:
 
-<code bash>echo $CVS_RSH</code>
+```bash
+echo $CVS_RSH
+```
 
 You should see a message like:
 
-<code>ssh</code>
+```
+ssh
+```
 
 followed immediately by a prompt.
 
@@ -129,85 +151,98 @@ You'll want to set that up to happen automatically for you.
 The general solution is to add the above export command to your .bash_profile.
 
 Alternatively on some systems you can set the preference via a system preferences:
-  * [[cvs#aside-mac-osx-ui-to-set-environment-variables|Aside - Mac OSX UI To Set Environment Variables]]
+- [Aside - Mac OSX UI To Set Environment Variables](/cvs#aside-mac-osx-ui-to-set-environment-variables/)
 
 Here is a command to add the above export command to your .bash_profile for you (which automatically creates a .bash_profile for you if you don't have one already, otherwise appends the command to the end).
 
-<code bash>echo "export CVS_RSH=ssh" | cat >> .bash_profile</code>
+```bash
+echo "export CVS_RSH=ssh" | cat >> .bash_profile
+```
 
 You'll need to close your Terminal window and open a new one for it to take effect.
 
 Here is another reference for setting up CVS to use SSH (though in practice I haven't found that I need it, and the instructions there seem cryptic too) 
-  * https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Setting_up_CVS_to_use_SSH
+- https://developer.mozilla.org/en/Using_SSH_to_connect_to_CVS#Setting_up_CVS_to_use_SSH
 
-===== Step 2 - How To Do Secure Checkouts  =====
+## Step 2 - How To Do Secure Checkouts
+
 How to do secure checkouts that allow you to check in.
 
-  * go http://dev.w3.org/cvsweb/
-  * copy the line that starts with:
-    * ''CVSROOT=:pserver:anonymous@dev.w3.org:/sources/public''
-    * copy the part after "CVSROOT="
-  * change ''pserver'' to ''ext''
-  * change ''anonymous'' to your W3C username
+- go http://dev.w3.org/cvsweb/
+- copy the line that starts with:
+  - `CVSROOT=:pserver:anonymous@dev.w3.org:/sources/public`
+  - copy the part after "CVSROOT="
+- change `pserver` to `ext`
+- change `anonymous` to your W3C username
 
 You should have something like:
 
-'':ext:Tantekelik@dev.w3.org:/sources/public''
+`:ext:Tantekelik@dev.w3.org:/sources/public`
 
 But with YOUR username instead of "Tantekelik" (used only as a placeholder in these examples)
 
 Note that your W3C username is CASE-SENSITIVE, be sure to enter it precisely.
 
-  * prefix it with "cvs -d" like this:
-    * ''cvs -d :ext:Tantekelik@dev.w3.org:/sources/public''
-  * put "co csswg" at the end like this:
-    * ''cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co csswg''
-  * now use "cd" in your terminal/shell window/application to navigate to the directory where you want to create a new "csswg" directory.
-  * execute this command in your shell (it will create a new directory called csswg)
+- prefix it with "cvs -d" like this:
+  - `cvs -d :ext:Tantekelik@dev.w3.org:/sources/public`
+- put "co csswg" at the end like this:
+  - `cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co csswg`
+- now use "cd" in your terminal/shell window/application to navigate to the directory where you want to create a new "csswg" directory.
+- execute this command in your shell (it will create a new directory called csswg)
 
-<code bash>cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co csswg</code>
+```bash
+cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co csswg
+```
 
 You might see a message like:
 
-<code>
+```
 The authenticity of host 'dev.w3.org (128.30.52.19)' can't be established.
 RSA key fingerprint is fb:30:ab:09:1c:b3:1a:74:93:67:57:fd:69:16:0b:97.
-</code>
+```
 
 That's the right one. If you get a different fingerprint back you're being hacked.
 
 Then when asked:
 
-<code>Are you sure you want to continue connecting (yes/no)?</code>
+```
+Are you sure you want to continue connecting (yes/no)?
+```
 
 Answer:
 
-<code bash>yes</code>
+```bash
+yes
+```
 
 Then you'll likely get a warning like:
 
-<code>Warning: Permanently added 'dev.w3.org,128.30.52.19' (RSA) to the list of known hosts.</code>
-
-
+```
+Warning: Permanently added 'dev.w3.org,128.30.52.19' (RSA) to the list of known hosts.
+```
 
 IF you get an error message like
 
-<code>Permission denied (publickey).</code>
+```
+Permission denied (publickey).
+```
 
 FIRST check to make sure you typed in your username *case-sensitively* including proper capitals if any.
 
 THEN if it still doesn't work, something is wrong with your public key setup. Email Bert Bos and ask him for help making sure your public key is setup correctly with W3C.
 
-
 On Mac OS X (10.6) Terminal, you should get an alert dialog box that says:
 
 <html><pre>
 +-----------------------------------------------+
+
 | Enter your password for the SSH key "id_dsa". |
-|                                               |
-|  Password: ________________________________   |
-|                                               |
-|                            (Cancel)  ((OK))   |
+| --- |
+|  |
+| Password: <u>_</u><u>_</u><u>_</u><u>_</u><u>_</u><u>_</u>__ |
+|  |
+| (Cancel)  ((OK)) |
+
 +-----------------------------------------------+
 </pre></html>
 
@@ -215,34 +250,35 @@ Enter your SSH pass phrase that you used when you created the key and click OK.
 
 On other OS's (or terminal/shell applications), you'll be prompted in some other way for pass phrase for your SSH key. Feel free to edit this and add OS-specific experiences/screenshots.
 
-
 You may get a message like:
 
-<code>Identity added: /Users/USERNAME/.ssh/id_dsa (/Users/USERNAME/.ssh/id_dsa)</code>
+```
+Identity added: /Users/USERNAME/.ssh/id_dsa (/Users/USERNAME/.ssh/id_dsa)
+```
 
 where USERNAME is your login alias for your client box.
 
-
 IF you get an error message like:
 
-<code>
+```
 Connection closed by 128.30.52.19
 cvs [checkout aborted]: end of file from server (consult above messages if any)
-</code>
+```
 
 THEN it could be a number of things. E.g.
 
-  * you might have taken too long to enter your pass phrase in the previous step
-    * try the previous step again, and promptly enter your pass phrase
-
+- you might have taken too long to enter your pass phrase in the previous step
+  - try the previous step again, and promptly enter your pass phrase
 
 You SHOULD see a message like:
 
-<code>cvs.bin checkout: Updating csswg</code>
+```
+cvs.bin checkout: Updating csswg
+```
 
 and then a bunch of messages like:
 
-<code>
+```
 U csswg/.htaccess
 U csswg/default.css
 U csswg/logo-ED.png
@@ -250,59 +286,62 @@ cvs.bin checkout: Updating csswg/css-style-attr
 U csswg/css-style-attr/Overview.html
 U csswg/css-style-attr/Overview.src.html
 U csswg/css-style-attr/issues-lc-2009.txt
-</code>
+```
 ...
 
 etc.
 
-
 CONGRATULATIONS!  
 
-You now have a checkout of the ''csswg'' CVS repository.
+You now have a checkout of the `csswg` CVS repository.
 
-
-If you want to check out the HTML Working Group's (HTMLWG) ''html5'' repository instead, you can use a check out command with ''html5'' as the project rather than ''csswg''.
+If you want to check out the HTML Working Group's (HTMLWG) `html5` repository instead, you can use a check out command with `html5` as the project rather than `csswg`.
 
 First make sure that your Terminal application/window is in the directory where you want to create the "html5" check out, and then execute a command like:
 
-<code bash>cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co html5</code>
+```bash
+cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co html5
+```
 
 and again, with YOUR username instead of "Tantekelik".
 
-==== Aside - Enabling BBEdit CVS Support ====
+### Aside - Enabling BBEdit CVS Support
+
 If you use the BBEdit text editor:
 
-=== BBEdit 9.x ===
-  * Go to the ''BBEdit'' menu
-  * Choose ''Preferences...''
-  * Click on ''Source Control'' in the left column list of preference panes
-  * Click the ''(Add CVS...)'' button in the right column
-  * Type "csswg" (without the quotes) into the ''Name:'' field.
-  * Check ''|x| Use SSH''
-  * Click the little folder icon on the right and choose the "csswg" folder that you created with your checkout.
-  * Click the ''(Save)'' button.
+#### BBEdit 9.x
 
-You'll see a new ''CVS'' menu between the ''#!'' and the script icon menu for performing operations on files that are part of a CVS checkout.
+- Go to the `BBEdit` menu
+- Choose `Preferences...`
+- Click on `Source Control` in the left column list of preference panes
+- Click the `(Add CVS...)` button in the right column
+- Type "csswg" (without the quotes) into the `Name:` field.
+- Check `|x| Use SSH`
+- Click the little folder icon on the right and choose the "csswg" folder that you created with your checkout.
+- Click the `(Save)` button.
+
+You'll see a new `CVS` menu between the `#!` and the script icon menu for performing operations on files that are part of a CVS checkout.
 
 Repeat these steps for any other CVS repositories you checkout, substituting their name/folder for "csswg" in the instructions (e.g. "htmlwg").
 
+#### BBEdit 7.x
 
-=== BBEdit 7.x ===
-  * Go to the ''BBEdit'' menu
-  * Choose ''Preferences...''
-  * Click on ''Tools'' in the left column list of preference panes
-  * Check ''|x| CVS Integration''
-  * Click the ''(Save)'' button and close the ''BBEdit Preferences'' window.
-  * Quit BBEdit and relaunch.
+- Go to the `BBEdit` menu
+- Choose `Preferences...`
+- Click on `Tools` in the left column list of preference panes
+- Check `|x| CVS Integration`
+- Click the `(Save)` button and close the `BBEdit Preferences` window.
+- Quit BBEdit and relaunch.
 
-If you're running BBEdit 7.1.x you'll see a new "yellow diamond merge" menu icon between the ''#!'' and the script icon menu for performing operations on files that are part of a CVS checkout.
+If you're running BBEdit 7.1.x you'll see a new "yellow diamond merge" menu icon between the `#!` and the script icon menu for performing operations on files that are part of a CVS checkout.
 
 Feel free to add more specific info about other versions of BBEdit.
 
-==== Aside - Other Editor CVS Support ====
-Other windowing/GUI text editors may have their own ways of enabling CVS support.  Feel free to add documentation for those here in their own sections, named similarly to the previous section on ''Enabling BBEdit CVS Support''.
+### Aside - Other Editor CVS Support
 
-===== Step 3 - Creating A New Directory =====
+Other windowing/GUI text editors may have their own ways of enabling CVS support.  Feel free to add documentation for those here in their own sections, named similarly to the previous section on `Enabling BBEdit CVS Support`.
+
+## Step 3 - Creating A New Directory
 
 Say you're working on a new spec, CSS3 Foo and want to create the respective directory, "css3-foo", here's how you do it.
 
@@ -310,74 +349,82 @@ Create the new folder for "css3-foo" in your filesystem.
 
 E.g. on a Mac, go to the "csswg" folder in the Finder, and choose "New Folder" (cmd-shift-N) and rename the folder to "css3-foo" (without the quotes).
 
-Or ''cd'' to that directory and do a 
+Or `cd` to that directory and do a 
 
-<code bash>mkdir css3-foo</code> 
+```bash
+mkdir css3-foo
+```
 
 command in your terminal/shell.
 
-Then you need to do an explicit ''cvs add'' on the directory, e.g.
+Then you need to do an explicit `cvs add` on the directory, e.g.
 
-<code bash>cvs add css3-foo</code>
+```bash
+cvs add css3-foo
+```
 
 You should get a message back like:
 
-<code bash>
+```bash
 Directory /sources/public/csswg/css3-foo added to the repository
-</code>
+```
 
 If you get a message like:
 
-<code bash>
+```bash
 cvs-debian-1.12.13 checkout: cannot find module `csswg/css3-foo - New directory
 ' - ignored
-</code>
+```
 
 Ignore it.
 
 Now cd into that directory
 
-<code bash>cd css3-foo</code>
+```bash
+cd css3-foo
+```
 
 CVS needs at least one file in a new directory for that new directory to be propagated to the server.
 
-Create your new HTML pre-processor source file and name it something like: ''Overview.src.html''
+Create your new HTML pre-processor source file and name it something like: `Overview.src.html`
 
-and save it in the aforementioned ''css3-foo'' directory.
+and save it in the aforementioned `css3-foo` directory.
 
 To commit this file and thus create the new directory, you have to do a cvs add, e.g. from the shell.
 
-<code bash>
+```bash
 cvs add Overview.src.html
-</code>
+```
 
 You should see messages like:
 
-<code bash>
+```bash
 cvs.bin add: scheduling file `Overview.src.html' for addition
 cvs.bin add: use 'cvs.bin commit' to add this file permanently
-</code>
+```
 
 Now you have to do a cvs commit of the file and the directory, which means first going to (cding up to) its parent.
 
-<code bash>
+```bash
 cd ..
-</code>
+```
 
 Do a cvs commit with the name of the directory explicitly (doing so is safer, because otherwise you'll checkin anything you've changed at that directory or inside an descendant folder/directory), with a proper commit message.
 
 copy the following line:
 
-<code bash>
+```bash
 cvs commit -m "YOUR COMMIT MESSAGE HERE" css3-foo
-</code>
+```
 
 and replace <code bash>YOUR COMMIT MESSAGE HERE</code> with something more meaningful, like:
-<code bash>creating css3-foo for the CSS3 Foo module spec</code>
+```bash
+creating css3-foo for the CSS3 Foo module spec
+```
 
 Now you should see a set of messages like:
 
-<code bash>
+```bash
 cvs commit: Examining css3-foo
 RCS file: /sources/public/csswg/css3-foo/Overview.src.html,v
 done
@@ -386,36 +433,39 @@ Checking in css3-foo/Overview.src.html;
 initial revision: 1.1
 done
 cvs-debian-1.12.13 checkout: Updating csswg/css3-foo
-</code>
+```
 
 CONGRATULATIONS!
 
 You've checked in your first new directory and file.
-==== Aside - What is this odd vim editor ====
+
+### Aside - What is this odd vim editor
 
 IF you forget to type -m and a commit message in the cvs command line, e.g. type something like:
 
-<code bash>cvs commit css3-foo</code>
+```bash
+cvs commit css3-foo
+```
 
 THEN
 
 You might quickly see a message like:
 
-<code bash>
+```bash
 cvs commit: Examining css3-foo
-</code>
+```
 
 And then be teleported into a terminal based text editor.
 
 In MacOS X 10.6 Terminal, the title of the terminal window will change to indicate the name of the text editor (e.g. vim is indicated by something like 
 
-''Terminal — vim — 80x24''
+`Terminal — vim — 80x24`
 
 Regardless of which editor, you'll see lines at the top starting with:
-<code bash>
+```bash
 CVS: ----------------------------------------------------------------------
 CVS: Enter Log.  Lines beginning with `CVS:' are removed automatically
-</code>
+```
 
 IF you're using VIM:
 
@@ -431,7 +481,7 @@ and press the enter/return key.
 
 You should see messages like:
 
-<code bash>
+```bash
 RCS file: /sources/public/csswg/css3-foo/Overview.src.html,v
 done
 Checking in css3-foo/Overview.src.html;
@@ -439,323 +489,321 @@ Checking in css3-foo/Overview.src.html;
 initial revision: 1.1
 done
 cvs-debian-1.12.13 checkout: Updating csswg/css3-foo
-</code>
+```
 
 Your code has been checked in with the comments you wrote in the vim edited file.
 
 In order to avoid vim popping up like that in the future, be sure to to always explicitly specify a commit message with -m like
 
-<code bash>
+```bash
 cvs commit -m "YOUR COMMIT MESSAGE HERE" css3-foo
-</code>
+```
 
-(If you //do// want to use an editor, just not vim, see the -e option in the CVS manual for various ways to do that.)
+(If you *do* want to use an editor, just not vim, see the -e option in the CVS manual for various ways to do that.)
 
+### Aside - Check In A New File From BBEdit
 
-==== Aside - Check In A New File From BBEdit ====
 How to check in a new file from BBEdit.
 
-Open the new file e.g. ''Overview.html'' in BBEdit
+Open the new file e.g. `Overview.html` in BBEdit
 
-Choose "Add" from the ''CVS'' (or mergeicon) menu.
+Choose "Add" from the `CVS` (or mergeicon) menu.
 
-Choose "Commit File..." from the ''CVS'' (or mergeicon) menu.
+Choose "Commit File..." from the `CVS` (or mergeicon) menu.
 
 You will be presented with a "Commit File" modal dialog.
 
 Enter your checkin comments for the file and click (OK).
 
-==== Aside - Check In Multiple New Files From BBEdit ====
+### Aside - Check In Multiple New Files From BBEdit
+
 How to check in multiple files from BBEdit.
 
 IF all the new files are in the same folder (or descendants of that folder)
 
 THEN open a file that folder
 
-and choose "Commit Parent Folder..." from the ''CVS'' (mergeicon) menu.
+and choose "Commit Parent Folder..." from the `CVS` (mergeicon) menu.
 
 You will be presented with a "Commit Message" modal dialog.
 
 Enter your checkin comments for all the files you have changed in that folder or its descendants and click OK.
 
-===== Step 4 - How To Edit An Editors Draft =====
+## Step 4 - How To Edit An Editors Draft
 
-Open the ''Overview.src.html'' file in the directory of the spec you want to edit.  
+Open the `Overview.src.html` file in the directory of the spec you want to edit.  
 
-Make sure you edit the ''*.src.html'' version, NOT the ''*.html'' version.
+Make sure you edit the `*.src.html` version, NOT the `*.html` version.
 
 Look for the W3C style sheet <link> tag - it will look something like this:
 
-<code html>
+```html
 <link rel="stylesheet" type="text/css"  
       href="http://www.w3.org/StyleSheets/TR/W3C-CR">
-</code>
+```
 
 It may end in "W3C-WD" or "W3C-PR" or something else.  Make sure it is the EDITOR's stylesheet by using this <link> element:
 
-<code html>
+```html
 <link rel="stylesheet" type="text/css"  
       href="http://www.w3.org/StyleSheets/TR/W3C-ED">
-</code>
+```
 
 You'll probably need to make other edits. You should check a good editor's draft as an example, e.g. CSS3 Color is pretty good.
 
 One thing to make sure is that the "Previous version:" at the top of the document links to the absolute latest official /TR/ version of the document.
 
-===== Step 5 - Update Your CVS Checkout =====
+## Step 5 - Update Your CVS Checkout
 
 Both before you start editing a document, and when you're ready to check in a document, you should update your local CVS checkout.
 
-''cd'' to your CVS checkout, e.g. if your check out is in your home directory:
+`cd` to your CVS checkout, e.g. if your check out is in your home directory:
 
-<code bash>
+```bash
 cd ~/csswg
 cvs up -d
-</code>
+```
 
 IF it seems to stall and not do anything, or eventually gives an error message like:
 
-<code bash>
+```bash
 lionel-hutz.w3.org: Connection refused
 cvs [update aborted]: end of file from server (consult above messages if any)
-</code>
+```
 
 OR an error message like:
 
-<code bash>
+```bash
 cvs [update aborted]: cannot exec value: No such file or directory
 cvs [update aborted]: end of file from server (consult above messages if any)
-</code>
+```
 
-THEN check to see if your ''CVS_RSH'' is defined by trying:
+THEN check to see if your `CVS_RSH` is defined by trying:
 
-<code bash>
+```bash
 echo $CVS_RSH
-</code>
+```
 
 IF you get nothing but a blank line or something other than "ssh", 
-THEN do this (you likely need to setup your CVS_RSH system variable as documented in [[cvs#step-1-setup-cvs_rsh|Step 1 setup cvs_rsh]]) :
+THEN do this (you likely need to setup your CVS_RSH system variable as documented in [Step 1 setup cvs_rsh](/cvs#step-1-setup-cvs_rsh/)) :
 
-<code bash>
+```bash
 export CVS_RSH=ssh
-</code>
+```
 
 THEN retry the cvs up line:
 
-<code bash>
+```bash
 cvs up -d
-</code>
+```
 
 You should see messages like:
 
-<code bash>
+```bash
 cvs.bin update: Updating .
 cvs.bin update: Updating css-style-attr
-</code>
+```
 ...
 etc.
 
 If you see a line starting with a "M", like:
 
-<code bash>
+```bash
 M css3-color/Overview.src.html
-</code>
+```
 
 That means that you have a locally modified version of that file and should verify your changes and check it in.
 
 If you see a line starting with a "P", like:
 
-<code bash>
+```bash
 P css3-background/Overview.src.html
-</code>
+```
 
 That means that that file was updated with a "P"artial download (CVS was able to be more efficient by only downloading diff).
 
 If you see a line starting with a "U", like:
 
-<code bash>
+```bash
 U css3-transitions/step.png
-</code>
+```
 
 That means that that file was "U"pdated with a full download.
 
+## Step 6 - Post Process CSS Src
 
-===== Step 6 - Post Process CSS Src =====
-
-==== Using the web form ====
+### Using the web form
 
 Go to:
 
 http://www.w3.org/Style/Group/css3-src/bin/postprocess-file
 
-Click (Choose File) and select the ''Overview.src.html'' file on your local machine that you want to post-process (you should do this when you're ready to check it in).
+Click (Choose File) and select the `Overview.src.html` file on your local machine that you want to post-process (you should do this when you're ready to check it in).
 
 Choose (*) Generated HTML - radio button
 
 Click the (Submit) button
 
-Save the page (e.g. in Firefox, choose the "Save Page as..." menu item from the "File" menu, be sure to choose "Web page, HTML only" from the "Save as" popup), name the file ''Overview.html'' (without the quotes), and save it right next your ''Overview.src.html'' - you'll likely be replacing an older version, that's ok, go ahead and confirm (command-R in the replace dialog).
+Save the page (e.g. in Firefox, choose the "Save Page as..." menu item from the "File" menu, be sure to choose "Web page, HTML only" from the "Save as" popup), name the file `Overview.html` (without the quotes), and save it right next your `Overview.src.html` - you'll likely be replacing an older version, that's ok, go ahead and confirm (command-R in the replace dialog).
 
-==== Using a command-line script ====
+### Using a command-line script
 
-If you're on a system with [[http://curl.haxx.se/|curl]] on it, just save the following line to a file somewhere in your executable path:
+If you're on a system with [curl](http://curl.haxx.se/) on it, just save the following line to a file somewhere in your executable path:
 
   curl -u USERNAME:PASSWORD -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html''
 
 (Replace the USERNAME:PASSWORD with your W3C username and password, the same that you would enter when visiting the web form linked above.)
 
-Mark the file as executable, then just run it from within the folder of the spec you're working on.  It will automatically submit ''Overview.src.html'' to the post-processor and save the results to  ''Overview.html''.
+Mark the file as executable, then just run it from within the folder of the spec you're working on.  It will automatically submit `Overview.src.html` to the post-processor and save the results to  `Overview.html`.
 
-==== Committing ====
+### Committing
 
-Now when you check in your ''Overview.src.html'' file be sure to also check in ''Overview.html'' to keep them sync.
+Now when you check in your `Overview.src.html` file be sure to also check in `Overview.html` to keep them sync.
 
 You can also just check-in from their parent folder by cding in a terminal window to their directory and then:
 
-<code bash>
+```bash
 cvs -m "COMMIT MESSAGE HERE" commit
-</code>
+```
 
-where you replace ''COMMIT MESSAGE HERE'' with a message that applies to all the files you're checking in.
+where you replace `COMMIT MESSAGE HERE` with a message that applies to all the files you're checking in.
 
+## Verify Your CVS Setup
 
-===== Verify Your CVS Setup =====
 "cd" to a directory that you have a checkout and try a
 
-<code bash>
+```bash
 cvs version
-</code>
+```
 
 IF you get an error message like:
 
-<code bash>
+```bash
 Client: Concurrent Versions System (CVS) 1.11.18 (client/server)
  lionel-hutz.w3.org: Operation timed out
 Server: cvs [version aborted]: end of file from server (consult above messages if any)
-</code>
+```
 
 THEN something is wrong with your CVS setup probably.
 
 TRY:
 
-<code bash>
+```bash
 echo $CVS_RSH
-</code>
+```
 
 IF it shows just a blank line then you need to set it:
 
-<code bash>
+```bash
 export CVS_RSH=ssh
-</code>
+```
 
 try again:
 
-<code bash>
+```bash
 cvs version
-</code>
+```
 
+### Authenticity Of Host Cant Be Established
 
-
-==== Authenticity Of Host Cant Be Established ====
 IF you see a message like (On MacOSX 10.4 at least) :
 
-<code bash>
+```bash
 The authenticity of host 'dev.w3.org (128.30.52.19)' can't be established.
 RSA key fingerprint is fb:30:ab:09:1c:b3:1a:74:93:67:57:fd:69:16:0b:97.
 Are you sure you want to continue connecting (yes/no)?
-</code>
+```
 
 Verify that the fingerprint is correct and then type in
 
-<code bash>
+```bash
 yes
-</code>
+```
 
 and press return.
 
 you may see a message like:
 
-<code bash>
+```bash
 Warning: Permanently added 'dev.w3.org' (RSA) to the list of known hosts.
-</code>
+```
 
 You may be asked:
-<code bash>
+```bash
 Enter passphrase for key '/Users/USERNAME/.ssh/id_dsa': 
-</code>
+```
 
 where USERNAME is your username alias on your local system.
 
 Enter your pass phrase for your key.
 
-
 IF you keep getting asked that for every CVS command you run, 
 
 THEN try
 
-<code bash>
+```bash
 ssh-add ~/.ssh/id_dsa
-</code>
+```
 
 you might get an error like:
 
-<code bash>
+```bash
 Could not open a connection to your authentication agent.
-</code>
+```
 
 TRY
 
-<code bash>
+```bash
 ssh-agent -s
-</code>
+```
 
 Now you might see something like:
 
-<code bash>
+```bash
 SSH_AUTH_SOCK=/tmp/ssh-VWXYZVWXYZ/agent.555; export SSH_AUTH_SOCK;
 SSH_AGENT_PID=333; export SSH_AGENT_PID;
 echo Agent pid 333;
-</code>
+```
 
 (numbers and ssh-VWXYZVWXYZ string obscured with fakes for the sake of documentation).
 
 Now try:
 
-<code bash>
+```bash
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_dsa
-</code>
+```
 
 and you might see a message like:
 
-<code bash>
+```bash
 Enter passphrase for /Users/USERNAME/.ssh/id_dsa:
-</code>
+```
 where USERNAME is your username alias on the system.
 
 Enter your pass phrase for your key.
 
 Then you might see a message like this: (at least on Mac OS X)
 
-<code bash>
+```bash
 Identity added: /Users/USERNAME/.ssh/id_dsa (/Users/USERNAME/.ssh/id_dsa)
-</code>
+```
 
 Now try:
-<code bash>
+```bash
 cvs version
-</code>
+```
 
 And you should get messages like:
-<code bash>
+```bash
 Client: Concurrent Versions System (CVS) 1.11.18 (client/server)
 Server: Concurrent Versions System (CVS) 1.11.22 (client/server)
-</code>
+```
 
-==== Aside - Mac OSX UI To Set Environment Variables ====
+### Aside - Mac OSX UI To Set Environment Variables
 
 On Mac OS X 10.5 and later, download and double-click install the "Environment Variable Preference Pane 1.3" from:
-  * http://www.epikentros.net/Main/Mac_Software_files/EnvironEditor-1.3.dmg ([[http://www.epikentros.net/Main/Mac_Software.html|about EnvironVars.prefPane]])
+- http://www.epikentros.net/Main/Mac_Software_files/EnvironEditor-1.3.dmg ([about EnvironVars.prefPane](http://www.epikentros.net/Main/Mac_Software.html))
 
 Choose "System Preferences..." from the Apple menu.
 
@@ -763,17 +811,17 @@ Choose the "Environment Variables" preference pane.
 
 Click the "+" to add a new entry.
 
-double-click the new "key" entry in the list and change it to ''CVS_RSH''.
+double-click the new "key" entry in the list and change it to `CVS_RSH`.
 
-double-click the new "value" entry in the list and change it to ''ssh''.
+double-click the new "value" entry in the list and change it to `ssh`.
 
 Quit System Preferences.
 
 Logout of your machine and log back in.
 
-From now on, the ''CVS_RSH'' environment variable is automatically set for all applications whenever you log into your account on your machine. This means it will work both with terminal/shell applications, and nice text editors that have integrated CVS support for example.
+From now on, the `CVS_RSH` environment variable is automatically set for all applications whenever you log into your account on your machine. This means it will work both with terminal/shell applications, and nice text editors that have integrated CVS support for example.
 
-===== W3C Member-Only CVS Repository =====
+## W3C Member-Only CVS Repository
 
 If you've gotten this far, and you happen to also be a W3C Member (or a W3C Invited Expert that's been granted Member Access), you might want to also check-out and help with some W3C Member-only parts of w3.org.
 
@@ -785,7 +833,9 @@ Just as you checked out into a new directory from the public repository, you'll 
 
 In a Terminal window, be sure to cd to the directory you want to create the new checkout, then modify this command line:
 
-<code bash>cvs -d Tantekelik@cvs.w3.org:/w3ccvs co WWW</code>
+```bash
+cvs -d Tantekelik@cvs.w3.org:/w3ccvs co WWW
+```
 
 with YOUR username instead of “Tantekelik” (used only as a placeholder in these examples)
 
@@ -795,46 +845,56 @@ Now execute the command line.
 
 You might see a message like:
 
-<code>
+```
 The authenticity of host 'cvs.w3.org (128.30.52.19)' can't be established.
 RSA key fingerprint is fb:30:ab:09:1c:b3:1a:74:93:67:57:fd:69:16:0b:97.
-</code>
+```
 
 That's the right one. If you get a different fingerprint back you're being hacked.
 
 Then when asked:
 
-<code>Are you sure you want to continue connecting (yes/no)?</code>
+```
+Are you sure you want to continue connecting (yes/no)?
+```
 
 Answer:
 
-<code bash>yes</code>
+```bash
+yes
+```
 
 Then you'll likely get a warning like:
 
-<code>Warning: Permanently added 'cvs.w3.org' (RSA) to the list of known hosts.
-</code>
+```
+Warning: Permanently added 'cvs.w3.org' (RSA) to the list of known hosts.
+```
 
 IF you get messages like: 
 
-<code>cvs.bin checkout: Updating WWW
+```
+cvs.bin checkout: Updating WWW
 cvs.bin checkout: cannot open directory /w3ccvs/WWW: Permission denied
 cvs.bin checkout: skipping directory WWW
-</code>
+```
 
 Then you don't have access to the top level WWW directory.  You'll have to pick a subdirectory instead, perhaps associated with the working group you're working with, e.g. for the W3C CSS Working Group, use a command like this instead:
 
-<code bash>cvs -d Tantekelik@cvs.w3.org:/w3ccvs co WWW/Style/Group</code>
+```bash
+cvs -d Tantekelik@cvs.w3.org:/w3ccvs co WWW/Style/Group
+```
 
 again with your username instead of "Tantekelik".
 
 You SHOULD see a message like:
 
-<code>cvs.bin checkout: Updating WWW/Style/Group</code>
+```
+cvs.bin checkout: Updating WWW/Style/Group
+```
 
 and then a bunch of messages like:
 
-<code>
+```
 U WWW/Style/Group/970117-usersettings.html
 U WWW/Style/Group/CSS-X-schema.gif
 U WWW/Style/Group/CSS-X-schema.idraw
@@ -842,7 +902,7 @@ U WWW/Style/Group/CSS-X-small.gif
 U WWW/Style/Group/CSS-X.html
 U WWW/Style/Group/CSS-selectors.html
 U WWW/Style/Group/History.html
-</code>
+```
 ...
 
 etc.
@@ -853,80 +913,97 @@ The total checkout size might be in the range of about 220MB or a bit more (depe
 
 If it seems to get "stuck", i.e. you've left it running for a while, and it's stopped on a status line like:
 
-<code>cvs.bin checkout: Updating WWW/Style/Group/2002</code>
+```
+cvs.bin checkout: Updating WWW/Style/Group/2002
+```
 
 You can try ctrl-c to stop the check out - whereby it will probably give you messages like:
 
-<code>^Ccvs [checkout aborted]: received interrupt signal
+```
+^Ccvs [checkout aborted]: received interrupt signal
 cvs [checkout aborted]: received interrupt signal
-</code>
-
+```
 
 Now go the specific directory you checked out:
 
-<code bash>cd WWW/Style/Group</code>
+```bash
+cd WWW/Style/Group
+```
 
 and restart your checkout:
 
-<code bash>cvs up -d</code>
+```bash
+cvs up -d
+```
 
 If it still seems to stall in the same place, e.g. on 
 
-<code>cvs.bin checkout: Updating WWW/Style/Group/2002</code>
+```
+cvs.bin checkout: Updating WWW/Style/Group/2002
+```
 
 Just give it a bit longer - there's a 100+ MB .rm file in that directory that may just be taking a while to pull down.
 
-Eventually, you should see a bunch of ''cvs.bin updated: Updating ...'' lines like:
+Eventually, you should see a bunch of `cvs.bin updated: Updating ...` lines like:
 
-<code>cvs.bin update: Updating .
+```
+cvs.bin update: Updating .
 cvs.bin update: Updating 2003
 cvs.bin update: Updating 2003/WD-css3-content-20030514
 cvs.bin update: Updating 2003/WD-css3-template-20030514
 cvs.bin update: Updating 2004
-</code>
+```
 ...
 
 etc. Just give a little while to finish with something like:
 
-<code>cvs.bin update: Updating pjirc/img
+```
+cvs.bin update: Updating pjirc/img
 cvs.bin update: Updating pjirc/snd
 cvs.bin update: Updating test-suite
-</code>
+```
 
 CONGRATULATIONS!
 
-You now have a checkout of the W3C Member-Only ''WWW/Style/Group'' CVS repository.
+You now have a checkout of the W3C Member-Only `WWW/Style/Group` CVS repository.
 
-If you're in the CSS Working group, you probably also want to check out the ''WWW/Style/CSS'' CVS repository. Do a quick:
+If you're in the CSS Working group, you probably also want to check out the `WWW/Style/CSS` CVS repository. Do a quick:
 
-<code bash>pwd</code>
+```bash
+pwd
+```
 
 if the path returned ends with "/WWW/Style/Group" then cd back out of it:
 
-<code bash>cd ../../..</code>
+```bash
+cd ../../..
+```
 
-and then issue a new check out command like before but with the ''WWW/Style/CSS'':
+and then issue a new check out command like before but with the `WWW/Style/CSS`:
 
-<code bash>cvs -d Tantekelik@cvs.w3.org:/w3ccvs co WWW/Style/CSS</code>
+```bash
+cvs -d Tantekelik@cvs.w3.org:/w3ccvs co WWW/Style/CSS
+```
 
 again with your username instead of "Tantekelik".
 
 You should see messages like:
 
-<code>cvs.bin checkout: Updating WWW/Style/CSS
+```
+cvs.bin checkout: Updating WWW/Style/CSS
 U WWW/Style/CSS/.Disclosures.var
 U WWW/Style/CSS/.Overview.var
 U WWW/Style/CSS/.htaccess
-</code>
+```
 ...
 etc.
 
-In fact, if all you wanted was stuff inside ''WWW/Style/CSS'', then you can simply check that out instead of checking out ''WWW/Style/Group''.  As of this writing the ''WWW/Style/CSS'' checkout may take about 1.31GB (yes gigabytes, that's not a typo) for over 250,000 files.
+In fact, if all you wanted was stuff inside `WWW/Style/CSS`, then you can simply check that out instead of checking out `WWW/Style/Group`.  As of this writing the `WWW/Style/CSS` checkout may take about 1.31GB (yes gigabytes, that's not a typo) for over 250,000 files.
 
+Creating new directories, getting updates, and checking in works exactly the same on `cvs.w3.org` as for the public repository.  All the repository-specific information is contained in the folders of your checkout, so CVS doesn't have to be told which server to get updates from etc.
 
-Creating new directories, getting updates, and checking in works exactly the same on ''cvs.w3.org'' as for the public repository.  All the repository-specific information is contained in the folders of your checkout, so CVS doesn't have to be told which server to get updates from etc.
+# See Also
 
-====== See Also ======
-  * [[http://www.w3.org/Project/CVSdoc/|Use of CVS in W3C]]
-  * [[test/cvs|Guide to CVS]] - some good command overviews, except IGNORE the bits about "$CVSROOT" and "Logging in".
-  * [[http://annevankesteren.nl/2010/08/w3c-cvs|Anne van Kesteren: Setting up CVS for W3C]]
+- [Use of CVS in W3C](http://www.w3.org/Project/CVSdoc/)
+- [Guide to CVS](/test/cvs/) - some good command overviews, except IGNORE the bits about "$CVSROOT" and "Logging in".
+- [Anne van Kesteren: Setting up CVS for W3C](http://annevankesteren.nl/2010/08/w3c-cvs)

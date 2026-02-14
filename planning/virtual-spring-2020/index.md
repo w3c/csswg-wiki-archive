@@ -1,7 +1,13 @@
-====== CSSWG 1st Virtual F2F ======
+---
+title: "CSSWG 1st Virtual F2F"
+---
+
+# CSSWG 1st Virtual F2F
+
 As the title suggests and in order to keep the world a safe place for living, this is going to be entirely virtual face-to-face meeting.
 
-===== Schedule =====
+## Schedule
+
 https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200429T14
 April 29 (a.k.a. Time Slot A)
     4pm -  8pm Paris
@@ -38,116 +44,128 @@ May 7/8
    6am -  9am Tokyo
    7am - 10am Melbourne
 
-===== Venue tech =====
+## Venue tech
 
 Meet. Details on the member-only list: https://lists.w3.org/Archives/Member/w3c-css-wg/2020AprJun/0066.html
 
 We will use #css on IRC for all meeting coordination. People can use the chat in Meet for backchannel conversations, but please do not expect the meeting chairs or scribe to notice or follow that extra channel.
-===== Participants =====
+
+## Participants
 
 | **Name** | **Affiliation** | **Time Slot A** | **Time Slot B** | ** Topics Requested ** | ** 6am start?** |
-| Rachel Andrew | Fronteers | yes | no | | |
-| Rossen Atanassov | Microsoft | yes | yes | | |
-| Tantek Çelik | Mozilla | yes | most: 0-2,3-4hrs | | |
-| L. David Baron | Mozilla | yes | yes | | would attend or not depending on topic |
-| Daniel Holbert | Mozilla | yes | yes | | ok |
-| Cameron McCormack | Mozilla | no | yes | | |
-| fantasai | Invited Expert | yes | yes | | ok |
-| Florian | Invited Expert | yes | yes | | |
-| Mike Bremford | BFO | yes | yes | | |
-| Miriam Suzanne | Invited Expert | yes | yes | | |
-| Christian Biesinger | Google | yes | yes | | ok |
-| Oriol Brufau | Igalia | yes | yes | | |
-| Brian Kardell | Igalia | yes | yes | Container Queries / related | |
-| Dave Cramer | Hachette | yes | yes | | |
-| Dael Jackson | Invited Expert | no | mostly; hours 1.5-4 | | |
+| --- | --- | --- | --- | --- | --- |
+| Rachel Andrew | Fronteers | yes | no |  |  |
+| Rossen Atanassov | Microsoft | yes | yes |  |  |
+| Tantek Çelik | Mozilla | yes | most: 0-2,3-4hrs |  |  |
+| L. David Baron | Mozilla | yes | yes |  | would attend or not depending on topic |
+| Daniel Holbert | Mozilla | yes | yes |  | ok |
+| Cameron McCormack | Mozilla | no | yes |  |  |
+| fantasai | Invited Expert | yes | yes |  | ok |
+| Florian | Invited Expert | yes | yes |  |  |
+| Mike Bremford | BFO | yes | yes |  |  |
+| Miriam Suzanne | Invited Expert | yes | yes |  |  |
+| Christian Biesinger | Google | yes | yes |  | ok |
+| Oriol Brufau | Igalia | yes | yes |  |  |
+| Brian Kardell | Igalia | yes | yes | Container Queries / related |  |
+| Dave Cramer | Hachette | yes | yes |  |  |
+| Dael Jackson | Invited Expert | no | mostly; hours 1.5-4 |  |  |
 | François REMY | Invited Expert | yes | at least first two hours | Houdini, Container queries, Ruby | ok |
-| Simon Fraser | Apple | yes | yes | | unlikely |
-| Alan Stearns | Adobe | yes | yes | | OK |
-| Chris Lilley | W3C | yes | yes |Generic font families |probably |
-| Lea Verou | Invited Expert | no | yes | |N/A |
-| Jen Simmons | Mozilla | yes | yes | | |
-| Adam Argyle | Google | yes | yes | | sure |
-| Stanton Marcum | Amazon | yes | yes | | yes |
-| Addison Phillips | Amazon | yes | can attend, but prefer Time Slot A | Generic font families | |
-| Richard Ishida | W3C | yes | no | Generic font families | |
-| Fuqiao Xue | W3C | yes | probably | | ok |
-| Peter Linss | Invited Expert | yes | yes | | unlikely |
-| Nat McCully | Adobe | mostly | yes | | |
-| Atsushi Shimono | W3C | mostly | probably | Generic font family | |
-| Theresa O'Connor | Apple | the first hour | all | | |
+| Simon Fraser | Apple | yes | yes |  | unlikely |
+| Alan Stearns | Adobe | yes | yes |  | OK |
+| Chris Lilley | W3C | yes | yes | Generic font families | probably |
+| Lea Verou | Invited Expert | no | yes |  | N/A |
+| Jen Simmons | Mozilla | yes | yes |  |  |
+| Adam Argyle | Google | yes | yes |  | sure |
+| Stanton Marcum | Amazon | yes | yes |  | yes |
+| Addison Phillips | Amazon | yes | can attend, but prefer Time Slot A | Generic font families |  |
+| Richard Ishida | W3C | yes | no | Generic font families |  |
+| Fuqiao Xue | W3C | yes | probably |  | ok |
+| Peter Linss | Invited Expert | yes | yes |  | unlikely |
+| Nat McCully | Adobe | mostly | yes |  |  |
+| Atsushi Shimono | W3C | mostly | probably | Generic font family |  |
+| Theresa O'Connor | Apple | the first hour | all |  |  |
 
 If you can't make one of the slots, note any topics you want us to bias towards the slot you can make.
 
 Also, if you're on the West Coast, let us know if you'd be willing to dial in at 6am if it would help others join Time Slot A.
 
-===== Agenda Schedule =====
-==== Day One, Time Slot A ====
+## Agenda Schedule
 
-| **Duration** | **Topic**       | **GitHub Issues** |
-| 50 mins  | Container Queries    | |
-| 10 mins | Break                | 8-) |
-| 25 mins | Generic Fonts        | [[https://github.com/w3c/csswg-drafts/issues/4910|#4910]] ([[https://github.com/w3c/csswg-drafts/issues/4605|#4605]], [[https://github.com/w3c/csswg-drafts/issues/4796|#4796]]) |
-| 25 mins | Grid and Multicolumn | [[https://github.com/w3c/csswg-drafts/issues/4931|#4931]]  [[https://github.com/w3c/csswg-drafts/issues/4689|#4689]] |
-| 15 mins | Break                | 8-) |
-| 45 mins | Sizing and Alignment | [[https://github.com/w3c/csswg-drafts/issues/4951|#4951]] [[https://github.com/w3c/csswg-drafts/issues/4415|#4415]] and [[https://github.com/w3c/csswg-drafts/issues/4983|#4983]] [[https://github.com/w3c/csswg-drafts/issues/4957|#4957]] [[https://github.com/w3c/csswg-drafts/issues/4660|#4660]] [[https://github.com/w3c/csswg-drafts/issues/4545|#4545]] |
-| 10 mins | Break                | 8-) |
+### Day One, Time Slot A
+
+| **Duration** | **Topic** | **GitHub Issues** |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 50 mins | Container Queries |  |  |  |  |  |  |  |
+| 10 mins | Break | 8-) |  |  |  |  |  |  |
+| 25 mins | Generic Fonts | [[https://github.com/w3c/csswg-drafts/issues/4910 | #4910]] ([[https://github.com/w3c/csswg-drafts/issues/4605 | #4605]], [[https://github.com/w3c/csswg-drafts/issues/4796 | #4796]]) |  |  |  |
+| 25 mins | Grid and Multicolumn | [[https://github.com/w3c/csswg-drafts/issues/4931 | #4931]]  [[https://github.com/w3c/csswg-drafts/issues/4689 | #4689]] |  |  |  |  |
+| 15 mins | Break | 8-) |  |  |  |  |  |  |
+| 45 mins | Sizing and Alignment | [[https://github.com/w3c/csswg-drafts/issues/4951 | #4951]] [[https://github.com/w3c/csswg-drafts/issues/4415 | #4415]] and [[https://github.com/w3c/csswg-drafts/issues/4983 | #4983]] [[https://github.com/w3c/csswg-drafts/issues/4957 | #4957]] [[https://github.com/w3c/csswg-drafts/issues/4660 | #4660]] [[https://github.com/w3c/csswg-drafts/issues/4545 | #4545]] |
+| 10 mins | Break | 8-) |  |  |  |  |  |  |
 
 Logs: https://logs.csswg.org/irc.w3.org/css/2020-04-29
-==== Day Two, Time Slot B ====
 
-| **Duration** | **Topic** | **GitHub Issues** |
-| 50 mins  | Custom Origin  | [[https://github.com/w3c/csswg-drafts/issues/5003|#5003]] [[https://github.com/w3c/csswg-drafts/issues/4985|#4985]] [[https://github.com/w3c/csswg-drafts/issues/4984|#4984]] [[https://github.com/w3c/csswg-drafts/issues/4981|#4981]] [[https://github.com/w3c/csswg-drafts/issues/4971|#4971]] [[https://github.com/w3c/csswg-drafts/issues/4969|#4969]] |
-| 10 mins | Break                | 8-) |
-| 50 mins  | Ruby           | [[https://github.com/w3c/csswg-drafts/issues/4932|#4932]] [[https://github.com/w3c/csswg-drafts/issues/4935|#4935]] [[https://github.com/w3c/csswg-drafts/issues/4936|#4936]] [[https://github.com/w3c/csswg-drafts/issues/4987|#4987]] [[https://github.com/w3c/csswg-drafts/issues/4979|#4979]] [[https://github.com/w3c/csswg-drafts/issues/4986|#4986]] [[https://github.com/w3c/csswg-drafts/issues/4974|#4974]] [[https://github.com/w3c/csswg-drafts/issues/4976|#4976]] [[https://github.com/w3c/csswg-drafts/issues/4980|#4980]] [[https://github.com/w3c/csswg-drafts/issues/4958|#4958]] [[https://github.com/w3c/csswg-drafts/issues/5004|#5004]] |
-| 15 mins | Break          | 8-) |
-| 25 mins | Snapshot 2020  | [[https://github.com/w3c/csswg-drafts/issues/4715|#4715]]|
-| 25 mins | Masonry layout | Experimentation update by Mozilla ([[https://github.com/w3c/csswg-drafts/issues/4650|#4650]], new [[https://github.com/w3c/csswg-drafts/blob/master/css-grid-2/MASONRY-EXPLAINER.md|explainer]])|
-| 10 mins | Break                | 8-) |
-| 50 mins | Graphics (+ whatever we else have time for) | [[https://github.com/w3c/csswg-drafts/issues/4706|#4706]] [[https://github.com/w3c/csswg-drafts/issues/4996|#4996]] [[https://github.com/w3c/csswg-drafts/issues/4736|#4736]] |
+### Day Two, Time Slot B
+
+| **Duration** | **Topic** | **GitHub Issues** |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 50 mins | Custom Origin | [[https://github.com/w3c/csswg-drafts/issues/5003 | #5003]] [[https://github.com/w3c/csswg-drafts/issues/4985 | #4985]] [[https://github.com/w3c/csswg-drafts/issues/4984 | #4984]] [[https://github.com/w3c/csswg-drafts/issues/4981 | #4981]] [[https://github.com/w3c/csswg-drafts/issues/4971 | #4971]] [[https://github.com/w3c/csswg-drafts/issues/4969 | #4969]] |  |  |  |  |  |
+| 10 mins | Break | 8-) |  |  |  |  |  |  |  |  |  |  |  |
+| 50 mins | Ruby | [[https://github.com/w3c/csswg-drafts/issues/4932 | #4932]] [[https://github.com/w3c/csswg-drafts/issues/4935 | #4935]] [[https://github.com/w3c/csswg-drafts/issues/4936 | #4936]] [[https://github.com/w3c/csswg-drafts/issues/4987 | #4987]] [[https://github.com/w3c/csswg-drafts/issues/4979 | #4979]] [[https://github.com/w3c/csswg-drafts/issues/4986 | #4986]] [[https://github.com/w3c/csswg-drafts/issues/4974 | #4974]] [[https://github.com/w3c/csswg-drafts/issues/4976 | #4976]] [[https://github.com/w3c/csswg-drafts/issues/4980 | #4980]] [[https://github.com/w3c/csswg-drafts/issues/4958 | #4958]] [[https://github.com/w3c/csswg-drafts/issues/5004 | #5004]] |
+| 15 mins | Break | 8-) |  |  |  |  |  |  |  |  |  |  |  |
+| 25 mins | Snapshot 2020 | [[https://github.com/w3c/csswg-drafts/issues/4715 | #4715]] |  |  |  |  |  |  |  |  |  |  |
+| 25 mins | Masonry layout | Experimentation update by Mozilla ([[https://github.com/w3c/csswg-drafts/issues/4650 | #4650]], new [[https://github.com/w3c/csswg-drafts/blob/master/css-grid-2/MASONRY-EXPLAINER.md | explainer]]) |  |  |  |  |  |  |  |  |  |
+| 10 mins | Break | 8-) |  |  |  |  |  |  |  |  |  |  |  |
+| 50 mins | Graphics (+ whatever we else have time for) | [[https://github.com/w3c/csswg-drafts/issues/4706 | #4706]] [[https://github.com/w3c/csswg-drafts/issues/4996 | #4996]] [[https://github.com/w3c/csswg-drafts/issues/4736 | #4736]] |  |  |  |  |  |  |  |  |
 
 Logs: https://logs.csswg.org/irc.w3.org/css/2020-04-30
 
-==== Day Three, Time Slot 3A ====
+### Day Three, Time Slot 3A
 
-| **Duration** | **Topic** | **GitHub Issues** |
-| 50 mins  | Ruby Take 2  | [[https://github.com/w3c/csswg-drafts/issues/4979|#4979]]\\ [[https://github.com/w3c/csswg-drafts/issues/4986|#4986]]\\ [[https://github.com/w3c/csswg-drafts/issues/4974|#4974]]\\ [[https://github.com/w3c/csswg-drafts/issues/4976|#4976]]\\ [[https://github.com/w3c/csswg-drafts/issues/4980|#4980]]\\ [[https://github.com/w3c/csswg-drafts/issues/4958|#4958]]\\ [[https://github.com/w3c/csswg-drafts/issues/5004|#5004]]\\ |
-|  | Other Topics   | [[https://github.com/w3c/csswg-drafts/issues/2748|#2748 Styling Gaps/Gutters]]\\ [[https://github.com/w3c/csswg-drafts/issues/4496|#4496 Snap area trapping behavior of non scrollable elements]] |
-| 25 mins | Text | [[https://github.com/w3c/csswg-drafts/issues/4949|#4949 Switch line-breaking handling of atomic inlines]]\\ [[https://github.com/w3c/csswg-drafts/issues/4755|#4755 replaced elements and atomic inlines with non default line-break]]\\ [[https://github.com/w3c/csswg-drafts/issues/4653|#4653 Variants of text-decoration-skip-spaces:end behavior, and initial value]]\\ [[https://github.com/w3c/csswg-drafts/issues/4276|#4276 Clarifying skip-ink:auto behavior in relation to CJK text]] |
-| 25 mins | Pseudos | [[https://github.com/WICG/custom-state-pseudo-class/issues/6|Custom Pseudo-classes #6]]\\ [[https://github.com/WICG/custom-state-pseudo-class/issues/6|Renaming :state(foo) to :--foo]] |
+| **Duration** | **Topic** | **GitHub Issues** |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 50 mins | Ruby Take 2 | [[https://github.com/w3c/csswg-drafts/issues/4979 | #4979]]<br> [[https://github.com/w3c/csswg-drafts/issues/4986 | #4986]]<br> [[https://github.com/w3c/csswg-drafts/issues/4974 | #4974]]<br> [[https://github.com/w3c/csswg-drafts/issues/4976 | #4976]]<br> [[https://github.com/w3c/csswg-drafts/issues/4980 | #4980]]<br> [[https://github.com/w3c/csswg-drafts/issues/4958 | #4958]]<br> [[https://github.com/w3c/csswg-drafts/issues/5004 | #5004]]   |
+|  | Other Topics | [[https://github.com/w3c/csswg-drafts/issues/2748 | #2748 Styling Gaps/Gutters]]<br> [[https://github.com/w3c/csswg-drafts/issues/4496 | #4496 Snap area trapping behavior of non scrollable elements]] |  |  |  |  |  |
+| 25 mins | Text | [[https://github.com/w3c/csswg-drafts/issues/4949 | #4949 Switch line-breaking handling of atomic inlines]]<br> [[https://github.com/w3c/csswg-drafts/issues/4755 | #4755 replaced elements and atomic inlines with non default line-break]]<br> [[https://github.com/w3c/csswg-drafts/issues/4653 | #4653 Variants of text-decoration-skip-spaces:end behavior, and initial value]]<br> [[https://github.com/w3c/csswg-drafts/issues/4276 | #4276 Clarifying skip-ink:auto behavior in relation to CJK text]] |  |  |  |
+| 25 mins | Pseudos | [[https://github.com/WICG/custom-state-pseudo-class/issues/6 | Custom Pseudo-classes #6]]<br> [[https://github.com/WICG/custom-state-pseudo-class/issues/6 | Renaming :state(foo) to :--foo]] |  |  |  |  |  |
 
-==== Day Four, Time Slot 3B ====
+### Day Four, Time Slot 3B
 
-| **Duration** | **Topic** | **GitHub Issues** |
-|  | Sizing and Alignment Take 2 | [[https://github.com/w3c/csswg-drafts/issues/4957|[css-align-3] What is supposed to happen to abspos in an end-aligned scroll container? #4957]]\\  [[https://github.com/w3c/csswg-drafts/issues/4660|[css-align-3] Punt baseline-alignment to level 4 #4660]]\\ [[https://github.com/w3c/csswg-drafts/issues/4545|[css-align] Apply align-content to replaced elements #4545]] |
-|  | Fonts Take 2     | [[https://github.com/w3c/csswg-drafts/issues/4605|[css-fonts] Proposal for a new generic font family "Rounded" #4605]]\\ [[https://github.com/w3c/csswg-drafts/issues/4796|[css-fonts] Reconsider the definition of "first available font" #4796]]\\ [[https://github.com/w3c/csswg-drafts/issues/3691|[css-fonts] Suggest allowing a list of font-family values in @font-face #3691]]\\ Updated WD of css-font-loading-3 |
-|  | Misc | [[https://github.com/w3c/csswg-drafts/issues/5009|#5009 Express conditional values in a more terse way]]\\ [[https://github.com/w3c/csswg-drafts/issues/4934|#4934 Add contain-paint-margin CSS property]]\\ [[https://github.com/w3c/csswg-drafts/issues/4968|#4968 Allow trailing comma in gradient functions (and probably others) ]]\\ [[https://github.com/w3c/csswg-drafts/issues/4579|
+| **Duration** | **Topic** | **GitHub Issues** |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+|  | Sizing and Alignment Take 2 | [[https://github.com/w3c/csswg-drafts/issues/4957 | [css-align-3] What is supposed to happen to abspos in an end-aligned scroll container? #4957]]<br>  [[https://github.com/w3c/csswg-drafts/issues/4660 | [css-align-3] Punt baseline-alignment to level 4 #4660]]<br> [[https://github.com/w3c/csswg-drafts/issues/4545 | [css-align] Apply align-content to replaced elements #4545]] |
+|  | Fonts Take 2 | [[https://github.com/w3c/csswg-drafts/issues/4605 | [css-fonts] Proposal for a new generic font family "Rounded" #4605]]<br> [[https://github.com/w3c/csswg-drafts/issues/4796 | [css-fonts] Reconsider the definition of "first available font" #4796]]<br> [[https://github.com/w3c/csswg-drafts/issues/3691 | [css-fonts] Suggest allowing a list of font-family values in @font-face #3691]]<br> Updated WD of css-font-loading-3 |
+|  | Misc | [[https://github.com/w3c/csswg-drafts/issues/5009 | #5009 Express conditional values in a more terse way]]<br> [[https://github.com/w3c/csswg-drafts/issues/4934 | #4934 Add contain-paint-margin CSS property]]<br> [[https://github.com/w3c/csswg-drafts/issues/4968 | #4968 Allow trailing comma in gradient functions (and probably others) ]]<br> [[https://github.com/w3c/csswg-drafts/issues/4579 |
+
 [css-pseudo-4] ::selection vs ::inactive-selection]]  |
-|  | Media Queries | [[https://github.com/w3c/csswg-drafts/issues/5044|[mediaqueries] length units in video-* media features. #5044]]\\ [[https://github.com/w3c/csswg-drafts/issues/5043|[mediaqueries] definition of video width and height #5043]]\\ [[https://github.com/w3c/csswg-drafts/issues/5042|[mediaqueries] Which levels should the dynamic-range and video-* media features be in #5042]]\\ [[https://github.com/w3c/csswg-drafts/issues/1751|[mediaqueries-4 ] Deprecate 'speech' media type as well? #1751]] |
-===== Proposed Agenda =====
-  * Snapshot 2020
-  * Container queries (dbaron, probably bkardell, others)
-    * [[https://gist.github.com/bkardell/e5d702b15c7bcf2de2d60b80b916e53c|bkardell's switch()]]
-    * [[https://github.com/dbaron/container-queries-implementability|dbaron]]
-    * [[https://github.com/WICG/container-queries/issues/12|Matthew Dean]]
-  * Generic font families (+I18n)
+
+|  | Media Queries | [[https://github.com/w3c/csswg-drafts/issues/5044 | [mediaqueries] length units in video-* media features. #5044]]<br> [[https://github.com/w3c/csswg-drafts/issues/5043 | [mediaqueries] definition of video width and height #5043]]<br> [[https://github.com/w3c/csswg-drafts/issues/5042 | [mediaqueries] Which levels should the dynamic-range and video-* media features be in #5042]]<br> [[https://github.com/w3c/csswg-drafts/issues/1751 | [mediaqueries-4 ] Deprecate 'speech' media type as well? #1751]] |
+| --- | --- | --- | --- | --- | --- | --- |
+
+## Proposed Agenda
+
+- Snapshot 2020
+- Container queries (dbaron, probably bkardell, others)
+  - [bkardell's switch()](https://gist.github.com/bkardell/e5d702b15c7bcf2de2d60b80b916e53c)
+  - [dbaron](https://github.com/dbaron/container-queries-implementability)
+  - [Matthew Dean](https://github.com/WICG/container-queries/issues/12)
+- Generic font families (+I18n)
 
 TODO: Add the full list of issues on GitHub explicitly here.
-  * https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F
-  * https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20F2F
-  * https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F
+- https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F
+- https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20F2F
+- https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F
 
+Suggested order for [the css-ruby issues](https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3Acss-ruby-1+label%3A%22Agenda%2B+F2F%22):
+- [ruby offset](https://github.com/w3c/csswg-drafts/issues/4932) (4932)
+- [content height of ruby bases and annotations](https://github.com/w3c/csswg-drafts/issues/4935) (4935)
+- [content height of ruby containers](https://github.com/w3c/csswg-drafts/issues/4936) (4936)
+- [vertical-align on ruby bases](https://github.com/w3c/csswg-drafts/issues/4987) (4987)
+- [line-height property on ruby](https://github.com/w3c/csswg-drafts/issues/4979) (4979)
+- [line-height property on nested ruby](https://github.com/w3c/csswg-drafts/issues/4986) (4986)
+- [width and height properties on ruby](https://github.com/w3c/csswg-drafts/issues/4974) (4974)
+- [margin/border/padding on ruby containers](https://github.com/w3c/csswg-drafts/issues/4976) (4976)
+- [Box model / layout model for nested ruby (block axis)](https://github.com/w3c/csswg-drafts/issues/4980) (4980)
+- [siblings/children vs in-flow siblings/children in box fixup ](https://github.com/w3c/csswg-drafts/issues/4958) (4958)
 
-Suggested order for [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3Acss-ruby-1+label%3A%22Agenda%2B+F2F%22|the css-ruby issues]]:
-  * [[https://github.com/w3c/csswg-drafts/issues/4932|ruby offset]] (4932)
-  * [[https://github.com/w3c/csswg-drafts/issues/4935|content height of ruby bases and annotations]] (4935)
-  * [[https://github.com/w3c/csswg-drafts/issues/4936|content height of ruby containers]] (4936)
-  * [[https://github.com/w3c/csswg-drafts/issues/4987|vertical-align on ruby bases]] (4987)
-  * [[https://github.com/w3c/csswg-drafts/issues/4979|line-height property on ruby]] (4979)
-  * [[https://github.com/w3c/csswg-drafts/issues/4986|line-height property on nested ruby]] (4986)
-  * [[https://github.com/w3c/csswg-drafts/issues/4974|width and height properties on ruby]] (4974)
-  * [[https://github.com/w3c/csswg-drafts/issues/4976|margin/border/padding on ruby containers]] (4976)
-  * [[https://github.com/w3c/csswg-drafts/issues/4980|Box model / layout model for nested ruby (block axis)]] (4980)
-  * [[https://github.com/w3c/csswg-drafts/issues/4958|siblings/children vs in-flow siblings/children in box fixup ]] (4958)
-
-[[https://github.com/WICG/custom-state-pseudo-class/issues/6|Renaming :state(foo) to :--foo]] - still some forward-compat questions to be answered about the DOM interface, but the overall syntax change is something our group can decide on now.
+[Renaming :state(foo) to :--foo](https://github.com/WICG/custom-state-pseudo-class/issues/6) - still some forward-compat questions to be answered about the DOM interface, but the overall syntax change is something our group can decide on now.

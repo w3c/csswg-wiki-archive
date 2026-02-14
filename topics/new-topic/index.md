@@ -1,4 +1,8 @@
-====== FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion Topic ======
+---
+title: "FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion Topic"
+---
+
+# FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion Topic
 
 ---- dataentry ----
 Spec_tags     : css3-foo        # in alpha order; or "none"
@@ -19,22 +23,23 @@ Action        : What does the WG need to do? # Or, if Pending, pending what?
 Issue_urls    : 
 Proposal_urls : 
 Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
-----
 
-=== Background ===
+---
+
+#### Background
 
 Explain relevant background for issue.
 
-=== Problem Statement ===
+#### Problem Statement
 
 In one or two sentences, what's the issue we're solving?
 
-=== Proposal(s) ===
+#### Proposal(s)
 
 Summarize state of proposals, give proposed wording, etc. (If there aren't any, delete section.)
 
-=== Links to More Info ===
+#### Links to More Info
 
-  - Link A
-  - Link B
-  - Link C
+1. Link A
+1. Link B
+1. Link C

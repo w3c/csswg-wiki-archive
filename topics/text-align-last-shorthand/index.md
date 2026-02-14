@@ -1,4 +1,8 @@
-====== FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion Topic ======
+---
+title: "FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion Topic"
+---
+
+# FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion Topic
 
 ---- dataentry ----
 Spec_tags     : css3-text        # in alpha order; or "none"
@@ -10,10 +14,10 @@ Action        : Approve/disapprove proposal!
 Issue_urls    : http://lists.w3.org/Archives/Public/www-style/2013Jun/0263.html
 Proposal_urls : http://lists.w3.org/Archives/Public/www-style/2013Jun/0263.html
 Agenda_urls   : # If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
-----
 
-=== Background ===
+---
 
+#### Background
 
    p {
      text-align: justify;
@@ -27,14 +31,14 @@ Agenda_urls   : # If this is part of an ordered series of related topics, e.g. L
 
 Having the two properties be independent creates this cascading problem.
 
-=== Problem Statement ===
+#### Problem Statement
 
-How to link up ''text-align'' and ''text-align-last'' to solve the cascading problem?
+How to link up `text-align` and `text-align-last` to solve the cascading problem?
 
-=== Proposal(s) ===
+#### Proposal(s)
 
 Summarize state of proposals, give proposed wording, etc. (If there aren't any, delete section.)
 
-=== Links to More Info ===
+#### Links to More Info
 
-  - Usage analysis: http://lists.w3.org/Archives/Public/www-style/2013Jul/0078.html http://lists.w3.org/Archives/Public/www-style/2013Jul/0086.html
+1. Usage analysis: http://lists.w3.org/Archives/Public/www-style/2013Jul/0078.html http://lists.w3.org/Archives/Public/www-style/2013Jul/0086.html

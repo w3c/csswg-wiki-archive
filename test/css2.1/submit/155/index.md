@@ -1,4 +1,8 @@
-====== CSS Test: orphans property syntax - invalid negative ======
+---
+title: "CSS Test: orphans property syntax - invalid negative"
+---
+
+# CSS Test: orphans property syntax - invalid negative
 
 ---- dataentry ----
 testcase_url    : http://test.csswg.org/svn/submitted/css2.1/page/orphans-000-c.xht
@@ -6,6 +10,7 @@ authors         : Tom Clancy
 status_tag      : Accepted
 group_tags      : Rev2360,PageBreaks,BreakInside,Orphans
 # Do not edit below this line
-----
+
+---
 
 ~~DISCUSSION~~

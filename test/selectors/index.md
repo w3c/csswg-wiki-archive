@@ -1,3 +1,7 @@
-====== About the Selectors Test Suite ======
+---
+title: "About the Selectors Test Suite"
+---
 
-[[test:selectors:issues|Known Bugs]]
+# About the Selectors Test Suite
+
+[Known Bugs](/test/selectors/issues/)

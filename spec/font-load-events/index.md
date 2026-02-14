@@ -1,8 +1,12 @@
-====== @font-face Load Events ======
+---
+title: "@font-face Load Events"
+---
+
+# @font-face Load Events
 
 There appear to be several good use-cases for wanting to know when a particular @font-face has been loaded, such as delaying any text operations in <canvas> that want to use the font until after.  Here's a proposal for such.
 
-===== IDL =====
+## IDL
 
   [Constructor(DOMString type, optional FontFaceEventInit eventInitDict)]
   interface FontFaceEvent : Event {
@@ -29,8 +33,7 @@ There appear to be several good use-cases for wanting to know when a particular 
     DOMString featureSettings;
   }
 
-===== Attributes =====
-
+## Attributes
 
 For the attributes "family", "src", "style", "weight", "stretch", "unicodeRange", "variant", and "featureSettings", 
 if the corresponding descriptor is present in the associated @font-face rule, 
@@ -41,7 +44,7 @@ For the attribute "usedSrc", if one of the sources was successfully loaded and d
 the attribute's value is the CSS serialization of that source.
 Otherwise, the attribute's value is the value null.
 
-===== Behavior =====
+## Behavior
 
 When a @font-face rule successfully finishes loading its src and is ready to be used, 
 or has exhausted all of its sources without finding a valid font file,

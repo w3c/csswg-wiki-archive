@@ -1,9 +1,13 @@
-====== Box Model Features With No Home Specification ======
+---
+title: "Box Model Features With No Home Specification"
+---
 
-  * margin-collapse control (auto, discard-at-breaks, never-collapse, discard)
+# Box Model Features With No Home Specification
 
-====== Run-in Use-cases ======
+- margin-collapse control (auto, discard-at-breaks, never-collapse, discard)
 
-  * making <dt>s inline into the following <dd>, as in dictionaries
-  * minor headings, which shouldn't carry too much visual weight to avoid distration
-  * Author credits, reporting locations, or dates on articles, which are often formatted inline in the first paragraph or last paragraph of an article
+# Run-in Use-cases
+
+- making <dt>s inline into the following <dd>, as in dictionaries
+- minor headings, which shouldn't carry too much visual weight to avoid distration
+- Author credits, reporting locations, or dates on articles, which are often formatted inline in the first paragraph or last paragraph of an article

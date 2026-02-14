@@ -1,48 +1,57 @@
-===== Seattle F2F Jan 11-13 2017 =====
+---
+title: "Seattle F2F Jan 11-13 2017"
+---
 
-   * Host: Microsoft
-   * Location: South Lake Union Discovery Center
-   * Address: [[https://www.google.com/maps/place/South+Lake+Union+Discovery+Center/@47.6189366,-122.3410077,17z/data=!3m1!4b1!4m5!3m4!1s0x54901549dc6fcfd1:0xe262adf9ad1e02f2!8m2!3d47.618933!4d-122.338819?hl=en | 101 Westlake Avenue North, Seattle, WA 98109, US]]
-   * Dates: Wednesday–Friday, Jan 11-13 2017
-   * Times: 08:30 doors open, 09:00 meeting start, 18:00 meeting end (each day)
-   * Weather: [[http://forecast.weather.gov/MapClick.php?smap=1&lat=47.621&lon=-122.338&unit=1&mp=1|⁰C]], [[http://forecast.weather.gov/MapClick.php?smap=1&lat=47.621&lon=-122.338&unit=0&mp=1|⁰F]]
-   * Transit: From the airport you can take [[http://www.soundtransit.org/Schedules/Link-light-rail|Link rail]] to downtown, with Westlake being the stop closest to the venue
+## Seattle F2F Jan 11-13 2017
 
-==== Minutes ====
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0048.html|2017-01-11 Part I: FX Breakout -  Transforms, Whitespace in a custom property in a variable reference, Geometry Interfaces]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0049.html|2017-01-11 Part II: Text Breakout -  Hyphenation, Text Decoration]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0050.html|2017-01-11 Part III: Text Breakout -  Inline Layout & Initial Letter]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0051.html|2017-01-11 Part IV: CSS Color]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0052.html|2017-01-11 Part V: Backgrounds]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0053.html|2017-01-11 Part VI: Writings Modes, CSS  Tables, Values & Units 4]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0054.html|2017-01-12 Part I: FX Breakout -  Transforms [css-transforms]]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0055.html|2017-01-12 Part II: Text Breakout - Text  Decoration, Step-Sizing/Rhythm [css-text-decoration] [css-rhythm]]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0056.html|2017-01-12 Part III: Text Breakout - Line  Grid, Block Step Sizing [css-line-grid] [css-rhythm]]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0057.html|2017-01-12 Part IV: Font color palettes,  Font rendering controls, Font loading, Tokyo F2F [css-fonts]]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0058.html|2017-01-12 Part V: CSS2.1, What can go to  CR this quarter?, WPT, CSS UI 3 [CSS21] [CSS-UI-3]]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0061.html|2017-01-13 Part I: Grid [css-grid]]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0059.html|2017-01-13 Part II: Scrolling, Sizing  [css-overflow] [css-sizing]]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0062.html|2017-01-13 Part III: Fetch and CSS  Interactions, EXI for CSS, Display Module [css-inline]]]
-   * [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0060.html|2017-01-13 Part IV: Logical Properties, <url> in content, SVG Integration, CSS 2.1, Snapshot [css-logical-props]  [css-content] [CSS21] [CSS-2017]]]
+- Host: Microsoft
+- Location: South Lake Union Discovery Center
+- Address: [ 101 Westlake Avenue North, Seattle, WA 98109, US](https://www.google.com/maps/place/South+Lake+Union+Discovery+Center/@47.6189366,-122.3410077,17z/data=!3m1!4b1!4m5!3m4!1s0x54901549dc6fcfd1:0xe262adf9ad1e02f2!8m2!3d47.618933!4d-122.338819?hl=en )
+- Dates: Wednesday–Friday, Jan 11-13 2017
+- Times: 08:30 doors open, 09:00 meeting start, 18:00 meeting end (each day)
+- Weather: [⁰C](http://forecast.weather.gov/MapClick.php?smap=1&lat=47.621&lon=-122.338&unit=1&mp=1), [⁰F](http://forecast.weather.gov/MapClick.php?smap=1&lat=47.621&lon=-122.338&unit=0&mp=1)
+- Transit: From the airport you can take [Link rail](http://www.soundtransit.org/Schedules/Link-light-rail) to downtown, with Westlake being the stop closest to the venue
 
-==== Adjacent meetings ====
-  * 2017-01-10 [[https://github.com/w3c/css-houdini-drafts/wiki/Seattle-F2F-Jan-10-2017| Houdini in Seattle]]
+### Minutes
 
-  * 2017-01-13 6:25am [[https://www.facebook.com/NovemberProjectSeattle/| November Project Seattle]] (outdoors exercise/workout) at [[http://j.mp/SouthLakeUnion| Lake Union Park]]
+- [2017-01-11 Part I: FX Breakout -  Transforms, Whitespace in a custom property in a variable reference, Geometry Interfaces](https://lists.w3.org/Archives/Public/www-style/2017Feb/0048.html)
+- [2017-01-11 Part II: Text Breakout -  Hyphenation, Text Decoration](https://lists.w3.org/Archives/Public/www-style/2017Feb/0049.html)
+- [2017-01-11 Part III: Text Breakout -  Inline Layout & Initial Letter](https://lists.w3.org/Archives/Public/www-style/2017Feb/0050.html)
+- [2017-01-11 Part IV: CSS Color](https://lists.w3.org/Archives/Public/www-style/2017Feb/0051.html)
+- [2017-01-11 Part V: Backgrounds](https://lists.w3.org/Archives/Public/www-style/2017Feb/0052.html)
+- [2017-01-11 Part VI: Writings Modes, CSS  Tables, Values & Units 4](https://lists.w3.org/Archives/Public/www-style/2017Feb/0053.html)
+- [2017-01-12 Part I: FX Breakout -  Transforms [css-transforms](https://lists.w3.org/Archives/Public/www-style/2017Feb/0054.html)]
+- [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0055.html|2017-01-12 Part II: Text Breakout - Text  Decoration, Step-Sizing/Rhythm [css-text-decoration] [css-rhythm]]]
+- [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0056.html|2017-01-12 Part III: Text Breakout - Line  Grid, Block Step Sizing [css-line-grid] [css-rhythm]]]
+- [2017-01-12 Part IV: Font color palettes,  Font rendering controls, Font loading, Tokyo F2F [css-fonts](https://lists.w3.org/Archives/Public/www-style/2017Feb/0057.html)]
+- [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0058.html|2017-01-12 Part V: CSS2.1, What can go to  CR this quarter?, WPT, CSS UI 3 [CSS21] [CSS-UI-3]]]
+- [2017-01-13 Part I: Grid [css-grid](https://lists.w3.org/Archives/Public/www-style/2017Feb/0061.html)]
+- [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0059.html|2017-01-13 Part II: Scrolling, Sizing  [css-overflow] [css-sizing]]]
+- [2017-01-13 Part III: Fetch and CSS  Interactions, EXI for CSS, Display Module [css-inline](https://lists.w3.org/Archives/Public/www-style/2017Feb/0062.html)]
+- [[https://lists.w3.org/Archives/Public/www-style/2017Feb/0060.html|2017-01-13 Part IV: Logical Properties, <url> in content, SVG Integration, CSS 2.1, Snapshot [css-logical-props]  [css-content] [CSS21] [CSS-2017]]]
 
-==== Group Dinner ====
-Jan 12, 2017, 7:00pm at [[http://tanakasanseattle.com | Tanakasan]]
+### Adjacent meetings
 
-==== Place ====
-  * South Lake Union Discovery Center - 101 Westlake Avenue North, Seattle, WA, 98109, United States
+- 2017-01-10 [ Houdini in Seattle](https://github.com/w3c/css-houdini-drafts/wiki/Seattle-F2F-Jan-10-2017)
 
-==== Participants ====
+- 2017-01-13 6:25am [ November Project Seattle](https://www.facebook.com/NovemberProjectSeattle/) (outdoors exercise/workout) at [ Lake Union Park](http://j.mp/SouthLakeUnion)
+
+### Group Dinner
+
+Jan 12, 2017, 7:00pm at [ Tanakasan](http://tanakasanseattle.com )
+
+### Place
+
+- South Lake Union Discovery Center - 101 Westlake Avenue North, Seattle, WA, 98109, United States
+
+### Participants
 
 Please, put your name in this table if you plan to participate (alphabetical order):
 
-^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
+| Name | Arrival | Departure | Hotel | Flight info and notes |
+| --- | --- | --- | --- | --- |
 | Alan Stearns | n/a | n/a | home | n/a |
-| Andrey Rybka | 10 Jan | 13 Jan| Hyatt Place Downtown | UA 1792 / 5355 |
+| Andrey Rybka | 10 Jan | 13 Jan | Hyatt Place Downtown | UA 1792 / 5355 |
 | Bert Bos | 9 Jan 11:25 | 14 Jan 12:58 | Hyatt Place Seattle Downtown | DL143 / AF3653 |
 | Brad Werth | TBD | TBD | TBD | observer from Mozilla |
 | Dave Cramer | 10 Jan | 15 Jan | Hyatt | UA1641 / UA419 |
@@ -51,7 +60,7 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 | Francois Remy | n/a | n/a | home | n/a |
 | Geoffrey Sneddon | 7 Jan | 14 Jan | Hyatt Place Seattle Downtown | FI431+FI681 / FI680+FI430 |
 | Greg Whitworth | n/a | n/a | home | n/a |
-| Hiroshi Sakakibara| 9 Jan 10:20 | 14 Jan 12:20 | Hyatt Place Seattle Downtown | NH0178 / NH0177 |
+| Hiroshi Sakakibara | 9 Jan 10:20 | 14 Jan 12:20 | Hyatt Place Seattle Downtown | NH0178 / NH0177 |
 | Ian Kilpatrick | TBD | TBD | TBD | TBD |
 | Jack Moffitt | TBD | Jan 12 | TBD | observer from Mozilla / Servo |
 | Jen Simmons | 9 Jan | 15 Jan | TBD | Delta |
@@ -71,103 +80,112 @@ Please, put your name in this table if you plan to participate (alphabetical ord
 | Tantek Çelik | 2017-01-10 | 2017-01-14 | La Quinta Inn & Suites Seattle Downtown | UA 5727 / UA 294 |
 
 Regrets: glazou, Jihye Hong, Brian Birtles
-==== Topics ====
-GitHub issues from [[https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F|Agenda ftf Label]] should be incorporated below
 
-=== Wednesday ===
+### Topics
 
-== Morning Track FX ==
-  * [[http://drafts.csswg.org/css-transforms-1/issues-wd-2013|Transforms Level 1: All Open Issues]]
-    * [[https://github.com/w3c/csswg-drafts/issues/856|[css-transforms] Individual transform "scale" has interop issue]]
-    * [[https://docs.google.com/a/google.com/document/d/1EtJuLsDpcJPQYGG18226FrQ-0vnonY_zHCxoNb_sVdE/edit?usp=drivesdk|Making transform-style actually work]]
-  * CSS Variables
-    * [[https://github.com/w3c/csswg-drafts/issues/881|Whitespaces in serialization of custom property value]] (jet)
-  * Geometry Interfaces (smfr)
+GitHub issues from [Agenda ftf Label](https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F) should be incorporated below
 
-== Morning Track Text ==
-  * [[https://github.com/w3c/csswg-drafts/issues/869|[css-text] Should 'hyphens: auto' work if lang="" is not declared?]]
-  * [[https://drafts.csswg.org/css-text-decor-3/issues-cr-2013|CSS Text Decoration L3: All Open Issues]]
-    * Level 4?
-      * [[https://github.com/w3c/csswg-drafts/issues/843|[css-text-decor] selective toggling in the text-decoration-skip property]]
-      * [[https://github.com/w3c/csswg-drafts/issues/459|[css-text-decor] Text underlines' positions cannot be fine-tuned]]
-      * [[https://github.com/w3c/csswg-drafts/issues/239|[css-text-decor] No way to set the underline width/thickness]]
-  * CSS Inline open issues (dauwhe)
-      * [[https://github.com/w3c/csswg-drafts/issues/743|initial-letter in-flow or out-of-flow (preferred)?]] (jet)
-      * [[https://github.com/w3c/csswg-drafts/issues/719|how to make block with initial letter taller]] (dauwhe)
-      * [[https://github.com/w3c/csswg-drafts/issues/688| initial-letter and float on same element ]] (dauwhe)
-      * [[https://github.com/w3c/csswg-drafts/issues/360| relationship of initial-letter and float ]] (dauwhe)
-      * [[https://github.com/w3c/csswg-drafts/issues/689| initial-letter line shortened when floats present ]] (dauwhe)
+#### Wednesday
 
-== Afternoon ==
-  * 10 min per breakout summary
-  * css-color:
-    * What happens to rgb() etc with Working Color Spaces? a.k.a how are Working spaces working? https://github.com/w3c/csswg-drafts/issues/481
-    * Colorspaces and blending - when we can dictate working color space, what are impl plans to actually support blending in those spaces? (tab)
-    * Computed and used values for <color> values: https://github.com/w3c/csswg-drafts/pull/871 (Florian)
-    * Interpolating between color spaces https://github.com/w3c/csswg-drafts/issues/883
-    * Animating to/from currentColor https://github.com/w3c/csswg-drafts/issues/873 (Florian)
-    * [[https://github.com/w3c/csswg-drafts/issues/294|Specification for DCI P3]]
-  * ''<position>''
-      * either adding to specs or removing from implementations [[https://github.com/w3c/csswg-drafts/issues/116|background-repeat-x/y]] and [[https://github.com/w3c/fxtf-drafts/issues/99|mask-repeat-x/y]] (dbaron)
-      * should we introduce a variant of ''<position>'' without 3-value syntax for ''tranform-origin'' etc.?
-  * CSS Writing Modes PR (koji)
-  * Publish new Working Draft of css-tables? (fremy)
-  * [[https://drafts.csswg.org/css-values-4/#changes|CSS Values and Units L4]]
-    * Any other units people interested in adding?
-    * Publish FPWD?
+##### Morning Track FX
 
-=== Thursday ===
+- [Transforms Level 1: All Open Issues](http://drafts.csswg.org/css-transforms-1/issues-wd-2013)
+  - [[https://github.com/w3c/csswg-drafts/issues/856|[css-transforms] Individual transform "scale" has interop issue]]
+  - [Making transform-style actually work](https://docs.google.com/a/google.com/document/d/1EtJuLsDpcJPQYGG18226FrQ-0vnonY_zHCxoNb_sVdE/edit?usp=drivesdk)
+- CSS Variables
+  - [Whitespaces in serialization of custom property value](https://github.com/w3c/csswg-drafts/issues/881) (jet)
+- Geometry Interfaces (smfr)
 
-== Morning Track FX ==
-  * More Transforms issues?
+##### Morning Track Text
 
-== Morning Track Text ==
-  * More text decoration issues?
-  * CSS Step Sizing (koji/fantasai)
-    * FPWD?
-    * Block height stepping idea.
-  * Line Grid: Propose a simplification to line-grid lvl 1 https://github.com/w3c/csswg-drafts/issues/880 (Florian)
+- [[https://github.com/w3c/csswg-drafts/issues/869|[css-text] Should 'hyphens: auto' work if lang="" is not declared?]]
+- [CSS Text Decoration L3: All Open Issues](https://drafts.csswg.org/css-text-decor-3/issues-cr-2013)
+  - Level 4?
+    - [[https://github.com/w3c/csswg-drafts/issues/843|[css-text-decor] selective toggling in the text-decoration-skip property]]
+    - [[https://github.com/w3c/csswg-drafts/issues/459|[css-text-decor] Text underlines' positions cannot be fine-tuned]]
+    - [[https://github.com/w3c/csswg-drafts/issues/239|[css-text-decor] No way to set the underline width/thickness]]
+- CSS Inline open issues (dauwhe)
+    - [initial-letter in-flow or out-of-flow (preferred)?](https://github.com/w3c/csswg-drafts/issues/743) (jet)
+    - [how to make block with initial letter taller](https://github.com/w3c/csswg-drafts/issues/719) (dauwhe)
+    - [ initial-letter and float on same element ](https://github.com/w3c/csswg-drafts/issues/688) (dauwhe)
+    - [ relationship of initial-letter and float ](https://github.com/w3c/csswg-drafts/issues/360) (dauwhe)
+    - [ initial-letter line shortened when floats present ](https://github.com/w3c/csswg-drafts/issues/689) (dauwhe)
 
-== Afternoon ==
-  * Fonts
-    * Font Color Palettes (myles)
-    * moving [[https://tabatkins.github.io/specs/css-font-display/|css-font-display]] into the WG (dbaron)
-  * Meeting scheduling
-      * Next F2F announcement (skk)
-      * [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0061.html|summer meeting]] location/dates?
-      * Can we attempt 1 year-ish advance meeting planning (at least country/city and week) -t
-  * CSS2 maintenance process (continuing from 2017-01-04 telcon discussion of proposal https://lists.w3.org/Archives/Public/www-style/2016Dec/0015.html) -t
-  * What can we take to CR in Q1 (and 2017 in total)? (continuing from CRs in 2016 discussion from TPAC) -t
-  * csswg-test/web-platform-tests merge
-    * Get an actual resolution to do the merge this month!
-  * CSS-UI: https://lists.w3.org/Archives/Public/www-style/2017Jan/0019.html (Florian)
+##### Afternoon
 
-=== Friday ===
-  * Grid
-    * [[https://github.com/w3c/csswg-drafts/issues/283|Implied Minimum Size of Grid Items]]
-    * [[https://github.com/w3c/csswg-drafts/issues/509|Percentages and intrinsic size]]
-  * Scrolling
-      * [[https://github.com/w3c/csswg-drafts/issues/92|overflow: Consider reserving space for scrollbars with some property ]](added on 21 Dec Telecon)
-      * [[https://github.com/w3c/csswg-drafts/issues/769|New feature - scroll-boundary-behavior (an extension of -ms-scroll-chaining)]](added on 21 Dec Telecon)
-  * Sizing
-    * [[https://github.com/w3c/csswg-drafts/issues/509|Intrinsic Sizes inside Percentage Containers]]
-    * CSS Sizing Level 3: remaining issues + CR?
-    * [[https://github.com/w3c/csswg-drafts/issues/794|[css-sizing] Intrinsic size of replaced elements incorrect]]
-  * CSS Display L3
-    * [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0332.html|Is root out-of-flow?]]
-    * [[https://lists.w3.org/Archives/Public/www-style/2015Jul/0372.html|flow vs flow-root for table-cell/table-caption]]
-    * [[https://github.com/w3c/csswg-drafts/issues/540|display: contents vs replaced elements]]
-    * [[https://github.com/w3c/csswg-drafts/issues/674|display: contents vs counter scopes]]
-    * [[https://github.com/w3c/csswg-drafts/issues/610|display values for <wbr> and <br>]]
-    * [[https://github.com/w3c/csswg-drafts/issues/650|run-in vs ::first-letter]]
-    * [[https://lists.w3.org/Archives/Public/www-style/2012Aug/0257.html|run-ins & interleaved abspos]]
-    * Cut for [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0115.html|immediate release]]? Proposed to defer `display-or-not`, release with `run-in` at-risk.
-  * CSS Generated and Replaced Content
-      * [[https://github.com/w3c/csswg-drafts/issues/308|content: <image> insufficiently defined]] (dbaron)
-      * [[https://github.com/w3c/csswg-drafts/issues/821|content: <url> insufficiently defined]] (dbaron)
-  * [[https://www.w3.org/blog/2016/11/efficient-representation-for-web-formats/|EXI4CSS]] - our feedback to the EXI WG
-  * [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0103.html|CSS Fetch integration]] (dbaron)
-  * Logical Properties
-    * getComputedStyle and logical properties https://github.com/w3c/csswg-drafts/issues/384 (dbaron)
+- 10 min per breakout summary
+- css-color:
+  - What happens to rgb() etc with Working Color Spaces? a.k.a how are Working spaces working? https://github.com/w3c/csswg-drafts/issues/481
+  - Colorspaces and blending - when we can dictate working color space, what are impl plans to actually support blending in those spaces? (tab)
+  - Computed and used values for <color> values: https://github.com/w3c/csswg-drafts/pull/871 (Florian)
+  - Interpolating between color spaces https://github.com/w3c/csswg-drafts/issues/883
+  - Animating to/from currentColor https://github.com/w3c/csswg-drafts/issues/873 (Florian)
+  - [Specification for DCI P3](https://github.com/w3c/csswg-drafts/issues/294)
+- `<position>`
+    - either adding to specs or removing from implementations [background-repeat-x/y](https://github.com/w3c/csswg-drafts/issues/116) and [mask-repeat-x/y](https://github.com/w3c/fxtf-drafts/issues/99) (dbaron)
+    - should we introduce a variant of `<position>` without 3-value syntax for `tranform-origin` etc.?
+- CSS Writing Modes PR (koji)
+- Publish new Working Draft of css-tables? (fremy)
+- [CSS Values and Units L4](https://drafts.csswg.org/css-values-4/#changes)
+  - Any other units people interested in adding?
+  - Publish FPWD?
 
-=== Unslotted ===
+#### Thursday
+
+##### Morning Track FX
+
+- More Transforms issues?
+
+##### Morning Track Text
+
+- More text decoration issues?
+- CSS Step Sizing (koji/fantasai)
+  - FPWD?
+  - Block height stepping idea.
+- Line Grid: Propose a simplification to line-grid lvl 1 https://github.com/w3c/csswg-drafts/issues/880 (Florian)
+
+##### Afternoon
+
+- Fonts
+  - Font Color Palettes (myles)
+  - moving [css-font-display](https://tabatkins.github.io/specs/css-font-display/) into the WG (dbaron)
+- Meeting scheduling
+    - Next F2F announcement (skk)
+    - [summer meeting](https://lists.w3.org/Archives/Public/www-style/2016Dec/0061.html) location/dates?
+    - Can we attempt 1 year-ish advance meeting planning (at least country/city and week) -t
+- CSS2 maintenance process (continuing from 2017-01-04 telcon discussion of proposal https://lists.w3.org/Archives/Public/www-style/2016Dec/0015.html) -t
+- What can we take to CR in Q1 (and 2017 in total)? (continuing from CRs in 2016 discussion from TPAC) -t
+- csswg-test/web-platform-tests merge
+  - Get an actual resolution to do the merge this month!
+- CSS-UI: https://lists.w3.org/Archives/Public/www-style/2017Jan/0019.html (Florian)
+
+#### Friday
+
+- Grid
+  - [Implied Minimum Size of Grid Items](https://github.com/w3c/csswg-drafts/issues/283)
+  - [Percentages and intrinsic size](https://github.com/w3c/csswg-drafts/issues/509)
+- Scrolling
+    - [overflow: Consider reserving space for scrollbars with some property ](https://github.com/w3c/csswg-drafts/issues/92)(added on 21 Dec Telecon)
+    - [New feature - scroll-boundary-behavior (an extension of -ms-scroll-chaining)](https://github.com/w3c/csswg-drafts/issues/769)(added on 21 Dec Telecon)
+- Sizing
+  - [Intrinsic Sizes inside Percentage Containers](https://github.com/w3c/csswg-drafts/issues/509)
+  - CSS Sizing Level 3: remaining issues + CR?
+  - [[https://github.com/w3c/csswg-drafts/issues/794|[css-sizing] Intrinsic size of replaced elements incorrect]]
+- CSS Display L3
+  - [Is root out-of-flow?](https://lists.w3.org/Archives/Public/www-style/2015Aug/0332.html)
+  - [flow vs flow-root for table-cell/table-caption](https://lists.w3.org/Archives/Public/www-style/2015Jul/0372.html)
+  - [display: contents vs replaced elements](https://github.com/w3c/csswg-drafts/issues/540)
+  - [display: contents vs counter scopes](https://github.com/w3c/csswg-drafts/issues/674)
+  - [display values for <wbr> and <br>](https://github.com/w3c/csswg-drafts/issues/610)
+  - [run-in vs ::first-letter](https://github.com/w3c/csswg-drafts/issues/650)
+  - [run-ins & interleaved abspos](https://lists.w3.org/Archives/Public/www-style/2012Aug/0257.html)
+  - Cut for [immediate release](https://lists.w3.org/Archives/Public/www-style/2016Dec/0115.html)? Proposed to defer `display-or-not`, release with `run-in` at-risk.
+- CSS Generated and Replaced Content
+    - [content: <image> insufficiently defined](https://github.com/w3c/csswg-drafts/issues/308) (dbaron)
+    - [content: <url> insufficiently defined](https://github.com/w3c/csswg-drafts/issues/821) (dbaron)
+- [EXI4CSS](https://www.w3.org/blog/2016/11/efficient-representation-for-web-formats/) - our feedback to the EXI WG
+- [CSS Fetch integration](https://lists.w3.org/Archives/Public/www-style/2016Sep/0103.html) (dbaron)
+- Logical Properties
+  - getComputedStyle and logical properties https://github.com/w3c/csswg-drafts/issues/384 (dbaron)
+
+#### Unslotted

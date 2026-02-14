@@ -1,4 +1,8 @@
-====== Font Load Event with Futures ======
+---
+title: "Font Load Event with Futures"
+---
+
+# Font Load Event with Futures
 
 This is a proposal to rework the Font Load Events spec to use Futures instead.
 

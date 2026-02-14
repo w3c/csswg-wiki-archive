@@ -1,8 +1,12 @@
-====== Record of Known Bugs ======
+---
+title: "Record of Known Bugs"
+---
 
-This page records known problems in the [[test:selectors|Selectors Conformance Test Suite]]. For problems with the harness, see [[harness]].
+# Record of Known Bugs
 
-===== Lifecyle of a Bug =====
+This page records known problems in the [Selectors Conformance Test Suite](/test/selectors/). For problems with the harness, see [harness](/harness/).
+
+## Lifecyle of a Bug
 
 Valid status markers:
 
@@ -13,7 +17,7 @@ Valid status markers:
 <dfn>NEEDSINFO</dfn>
 : Needs more information (e.g. from the working group or someone more knowledgeable about the spec) before a fix can be designed.
 
-<dfn>FIXME</dfn>
+<dfn>🚧</dfn>
 : A fix is proposed in the Resolution section, but has not coded and/or checked in.
 
 <dfn>VERIFYME</dfn>
@@ -28,5 +32,4 @@ Valid status markers:
 
 A bug record is removed once someone else has either verified the fix, or verified that the bug is indeed invalid.
 
-===== Open Bugs =====
-
+## Open Bugs

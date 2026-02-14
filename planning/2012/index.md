@@ -1,23 +1,31 @@
-====== 2012 meeting planning ======
+---
+title: "2012 meeting planning"
+---
 
-===== Planned =====
-  * 2012-02-06...2012-02-08 M-W -- Paris, France
-    * [[planning:paris-2012]]
-    * [[planning:hamburg-2012]]
+# 2012 meeting planning
 
-===== Proposed =====
-  * 2012-05-09...2012-05-11 -- Hamburg, Romania
-    * 2012-05-09 FX meeting in the morning with SVG
-  * 2012-08-13...2012-08-15 -- San Diego, USA
-  * 2012-10-29 to 2012-11-02 TPAC -- Lyon, France
+## Planned
 
-===== Avoid =====
+- 2012-02-06...2012-02-08 M-W -- Paris, France
+  - [paris-2012](/planning/paris-2012/)
+  - [hamburg-2012](/planning/hamburg-2012/)
+
+## Proposed
+
+- 2012-05-09...2012-05-11 -- Hamburg, Romania
+  - 2012-05-09 FX meeting in the morning with SVG
+- 2012-08-13...2012-08-15 -- San Diego, USA
+- 2012-10-29 to 2012-11-02 TPAC -- Lyon, France
+
+## Avoid
+
 Existing/expected events we should avoid:
-  * 2012-01-16...20 per MLK Holiday 2012-01-17
-  * 2012-02-01...04 IxDA in Dublin. The 1st is workshops so maybe that is ok to overlap.
-  * 2012-02-04...05 [[http://fosdem.org/2012/|FOSDEM in Brussels]]. 
-  * 2012-02-20...24 per Presidents Day holiday 2012-02-20
-  * 2012-03-09...18 SXSW in Austin.
+- 2012-01-16...20 per MLK Holiday 2012-01-17
+- 2012-02-01...04 IxDA in Dublin. The 1st is workshops so maybe that is ok to overlap.
+- 2012-02-04...05 [FOSDEM in Brussels](http://fosdem.org/2012/). 
+- 2012-02-20...24 per Presidents Day holiday 2012-02-20
+- 2012-03-09...18 SXSW in Austin.
 
-===== FYI =====
-  * 2012-04-16...20: WWW2012 in Lyon
+## FYI
+
+- 2012-04-16...20: WWW2012 in Lyon

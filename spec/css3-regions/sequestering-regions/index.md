@@ -1,8 +1,12 @@
-Using HTML elements to produce the boxes for a region chain is a point of contention. The point made against the current version of the spec is that combining content and presentational code should be avoided when possible. At TPAC 2012, [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0260.html|Bert mentioned]] that using an external file to define the presentational boxes would be OK.
+---
+title: "Untitled"
+---
 
-One way to use an external file for presentational purposes is being defined by the [[http://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html|Web Components]] effort, so it may be a useful experiment to see how we could define regions using custom elements and/or decorators from Web Components
+Using HTML elements to produce the boxes for a region chain is a point of contention. The point made against the current version of the spec is that combining content and presentational code should be avoided when possible. At TPAC 2012, [Bert mentioned](http://lists.w3.org/Archives/Public/www-style/2012Nov/0260.html) that using an external file to define the presentational boxes would be OK.
 
-Let's take a very simple example of regions use, so that the different versions are more easily compared. This simple example just has two regions, the first being 60% of the height of the viewport. The named flow is then interrupted by an image, and resumes afterwards in a second region. You can take this basic structure and scale it up to a more complex layout such as the one found in [[http://dev.w3.org/csswg/css3-regions/#intro-example-code|Appendix A]] where the regions again flow around an image, but are positioned inside and outside a grid element.
+One way to use an external file for presentational purposes is being defined by the [Web Components](http://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html) effort, so it may be a useful experiment to see how we could define regions using custom elements and/or decorators from Web Components
+
+Let's take a very simple example of regions use, so that the different versions are more easily compared. This simple example just has two regions, the first being 60% of the height of the viewport. The named flow is then interrupted by an image, and resumes afterwards in a second region. You can take this basic structure and scale it up to a more complex layout such as the one found in [Appendix A](http://dev.w3.org/csswg/css3-regions/#intro-example-code) where the regions again flow around an image, but are positioned inside and outside a grid element.
 
 Here's the starting point with empty presentational elements in the content markup:
 

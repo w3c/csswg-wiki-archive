@@ -1,24 +1,30 @@
-====== Topics for WG Discussion ======
+---
+title: "Topics for WG Discussion"
+---
 
-  * To add a new topic create a new page under the ''/topics'' heading.
-     - Append ''/my-new-topic'' to the URL of this page and navigate there.
-     - Click "Create this page".
-     - Edit the source template and save.
-  * To find topics, use the tag clouds above the table to filter and/or click table headings to sort.
-  * When you close a topic, make sure all the relevant info has been archived on www-style, Tracker, or Bugzilla.
+# Topics for WG Discussion
 
-==== Open Topics ====
+- To add a new topic create a new page under the `/topics` heading.
+  1. Append `/my-new-topic` to the URL of this page and navigate there.
+  1. Click "Create this page".
+  1. Edit the source template and save.
+- To find topics, use the tag clouds above the table to filter and/or click table headings to sort.
+- When you close a topic, make sure all the relevant info has been archived on www-style, Tracker, or Bugzilla.
+
+### Open Topics
 
 ---- datacloud ----
 field: Spec_tags
 min: 2
 filter: %pageid% ~ topics:*
-----
+
+---
 
 ---- datacloud ----
 field: Status_tags
 filter: %pageid% ~ topics:*
-----
+
+---
 
 ---- datatable ----
 cols    : %title%, Spec_tags, Owner_tags, Added_dt, Status_tags, Action
@@ -27,11 +33,15 @@ filter  : %pageid% ~ topics:*
 filter  : Status_tags != Closed
 filter  : %pageid% !~ *:new-topic
 sort    : Added_dt
-----
 
-==== Status Codes ====
+---
 
-  ; Open : Ready for WG discussion
-  ; Pending : Waiting for something before ready for WG discussion
-  ; Closed : WG discussion has concluded
-  ; Urgent : Should be addressed asap
+### Status Codes
+
+Open : Ready for WG discussion
+
+Pending : Waiting for something before ready for WG discussion
+
+Closed : WG discussion has concluded
+
+Urgent : Should be addressed asap

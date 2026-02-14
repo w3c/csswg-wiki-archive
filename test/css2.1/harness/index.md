@@ -1,23 +1,27 @@
-====== Test Suite Build System ======
+---
+title: "Test Suite Build System"
+---
 
-The CSS2.1 Test Suite's final format is generated from the XHTML 1.1 source files with a set of Python scripts. These can be found in the tools/ directory of the [[http://test.csswg.org/|test suite repository]].
+# Test Suite Build System
 
-===== Build Requirements =====
+The CSS2.1 Test Suite's final format is generated from the XHTML 1.1 source files with a set of Python scripts. These can be found in the tools/ directory of the [test suite repository](http://test.csswg.org/).
 
-  * Python 2.7 (note ucs4 support is required, on OSX, use 'port install python27 +ucs4' to install with MacPorts)
-  * The [[http://tt2.org/python/|Template-Python module]]
-  * The [[http://lxml.de/installation.html|lxml Python module]]
-  * The [[https://github.com/html5lib/html5lib-python|html5lib Python module]] 
-  * [[http://mercurial.selenic.com/|Mercurial]]
-  * A full clone of the [[http://test.csswg.org/|test repository]]
+## Build Requirements
 
-===== Build Instructions =====
+- Python 2.7 (note ucs4 support is required, on OSX, use 'port install python27 +ucs4' to install with MacPorts)
+- The [Template-Python module](http://tt2.org/python/)
+- The [lxml Python module](http://lxml.de/installation.html)
+- The [html5lib Python module](https://github.com/html5lib/html5lib-python) 
+- [Mercurial](http://mercurial.selenic.com/)
+- A full clone of the [test repository](http://test.csswg.org/)
 
-  * To build all tests, run the ''tools/build.py'' script from the root of your test repository checkout.
-  * To build only specific test suites, list their names as arguments to ''tools/build.py''.
-  * In both cases, the built test suite will be in ''dist/''.
+## Build Instructions
 
-===== Write Access =====
+- To build all tests, run the `tools/build.py` script from the root of your test repository checkout.
+- To build only specific test suites, list their names as arguments to `tools/build.py`.
+- In both cases, the built test suite will be in `dist/`.
+
+## Write Access
 
 If you want to hack the w3ctestlib, you'll need to request write access from Peter Linss <peter.linss@hp.com>.
 

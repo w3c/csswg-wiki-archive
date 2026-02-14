@@ -1,71 +1,75 @@
-====== Japan F2F June 2011 ======
+---
+title: "Japan F2F June 2011"
+---
 
-  * 2011 June 2-4
-  * [[http://www.krp.co.jp/english/|Kyoto Research Park]], Kyoto, Japan
+# Japan F2F June 2011
 
-===== Meeting Minutes ===== 
+- 2011 June 2-4
+- [Kyoto Research Park](http://www.krp.co.jp/english/), Kyoto, Japan
 
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0323.html|Thursday, 2 June]] - Kyoto Forum Issues, Line Grid, Writing Modes
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html|Friday, 3 June]] - Transitions, Ideographic Variants, Text, Charter, Floats, Regions
-  * [[http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html|Saturday, 4 June]] - Fonts, Flexbox, Regions, Device Adaptation, Variables and Mixins, CSS3 Conditional Rules, Selectors 4, text-overflow, gradients, Module Template, Test Suite Owners, Charter, F2F Scheduling
+## Meeting Minutes
 
-===== Proposed topics =====
+- [Thursday, 2 June](http://lists.w3.org/Archives/Public/www-style/2011Jun/0323.html) - Kyoto Forum Issues, Line Grid, Writing Modes
+- [Friday, 3 June](http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html) - Transitions, Ideographic Variants, Text, Charter, Floats, Regions
+- [Saturday, 4 June](http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html) - Fonts, Flexbox, Regions, Device Adaptation, Variables and Mixins, CSS3 Conditional Rules, Selectors 4, text-overflow, gradients, Module Template, Test Suite Owners, Charter, F2F Scheduling
 
-Topics for the [[http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm|June 2011 CSS Working Group Face-to-Face]] meeting in Japan.
+## Proposed topics
 
-==== Thurs AM ====
+Topics for the [June 2011 CSS Working Group Face-to-Face](http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm) meeting in Japan.
 
-  * From Tokyo/[[http://www.w3.org/Style/Japan-2011/Kyoto.htm|Kyoto Japan forum]] (5/30, 6/1)
-  * [[http://dev.w3.org/csswg/css-line-grid/|Line Grid proposal]]
+### Thurs AM
 
-==== Thurs PM ====
+- From Tokyo/[Kyoto Japan forum](http://www.w3.org/Style/Japan-2011/Kyoto.htm) (5/30, 6/1)
+- [Line Grid proposal](http://dev.w3.org/csswg/css-line-grid/)
 
-  * [[http://dev.w3.org/csswg/css-line-grid/|Line Grid proposal]] (cont'd)
-  * CSS3 Writing Modes (all open issues)
+### Thurs PM
 
-==== Fri AM ====
+- [Line Grid proposal](http://dev.w3.org/csswg/css-line-grid/) (cont'd)
+- CSS3 Writing Modes (all open issues)
 
-  * Transitions/Animations 4 (directions for future)
-  * Unifying variant glyphs across IVS collections
-  * CSS3 Text (all open issues)
+### Fri AM
 
-==== Fri PM ====
+- Transitions/Animations 4 (directions for future)
+- Unifying variant glyphs across IVS collections
+- CSS3 Text (all open issues)
 
-  * CSS3 Text (all open issues, cont'd)
-  * [[http://www.w3.org/2010/09/CSSWG/charter.html|Draft charter:]] some details
-  * CSS Regions and CSS Exclusions
-    * region styling
-    * breaking properties
-    * exclusion model
-    * moving from Editor Draft to Working Draft.
+### Fri PM
 
-==== Sat AM ====
+- CSS3 Text (all open issues, cont'd)
+- [Draft charter:](http://www.w3.org/2010/09/CSSWG/charter.html) some details
+- CSS Regions and CSS Exclusions
+  - region styling
+  - breaking properties
+  - exclusion model
+  - moving from Editor Draft to Working Draft.
 
-  * CSS3 Fonts (same origin restriction and WOFF, superscript/subscript)
-  * Flexbox status update
-  * CSS Regions (cont'd)
+### Sat AM
 
-==== Sat PM ====
+- CSS3 Fonts (same origin restriction and WOFF, superscript/subscript)
+- Flexbox status update
+- CSS Regions (cont'd)
 
-  * F2F Scheduling
-  * [[http://dev.w3.org/csswg/css-device-adapt|CSS Device Adaptation]]
-  * Variables and Mixins
-  * @supports
-  * Nesting/Hierarchy (nesting selectors)
-  * Selectors 4 (roughly, what do we want to include/exclude?)
-  * Dropping prefixes
-  * text-overflow (<string>, 2 values)
-  * CSS Regions integration with other modules
+### Sat PM
 
-  * Gradient angles
-  * Multicol Test Suite
+- F2F Scheduling
+- [CSS Device Adaptation](http://dev.w3.org/csswg/css-device-adapt)
+- Variables and Mixins
+- @supports
+- Nesting/Hierarchy (nesting selectors)
+- Selectors 4 (roughly, what do we want to include/exclude?)
+- Dropping prefixes
+- text-overflow (<string>, 2 values)
+- CSS Regions integration with other modules
 
+- Gradient angles
+- Multicol Test Suite
 
-====== Participants ======
+# Participants
 
-  * Please [[http://www.w3.org/2002/09/wbs/32061/css-ftf-2011-06/|register]] if you haven't done yet.
+- Please [register](http://www.w3.org/2002/09/wbs/32061/css-ftf-2011-06/) if you haven't done yet.
 
-^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^
+| Name | Representing | Arrive | Leave | Hotel | Flight Info |
+| --- | --- | --- | --- | --- | --- |
 | Tab Atkins | Google | ?? | ?? | ?? | ?? |
 | David Baron | Mozilla | 29 May 15:15 | 5 June 17:10 | Aranvert Hotel Kyoto | UA 885 / UA 886 |
 | Bert Bos | W3C | 31 May 15:00 | 5 Jun 09:50 | Kyoto Tokyu Hotel | NH 172 / LH 741 |

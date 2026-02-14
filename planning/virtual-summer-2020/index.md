@@ -1,7 +1,12 @@
-====== CSSWG 2nd Virtual F2F ======
+---
+title: "CSSWG 2nd Virtual F2F"
+---
+
+# CSSWG 2nd Virtual F2F
+
 As the title suggests and in order to keep the world a safe place for living, this is again going to be entirely virtual face-to-face meeting.
 
-===== Schedule =====
+## Schedule
 
 Links to Meet: https://lists.w3.org/Archives/Member/w3c-css-wg/2020JulSep/0028.html
 
@@ -52,30 +57,32 @@ July 31 (Aug 1)
    12am -  4am Melbourne
  
 
-===== Venue tech =====
+## Venue tech
 
 Meet. Details on the member-only list: TBD
 
 We will use #css on IRC for all meeting coordination. People can use the chat in Meet for backchannel conversations, but please do not expect the meeting chairs or scribe to notice or follow that extra channel.
-===== Participants =====
+
+## Participants
 
 | **Name** | **Affiliation** | Monday | Tuesday | Thursday | Friday |
+| --- | --- | --- | --- | --- | --- |
 | Alan Stearns | Adobe | yes | yes | yes | yes |
 | Alison Maher | Microsoft | yes | yes | yes | yes |
 | Amelia B-R | In.Ex. | some | some | prob. not | prob. late |
-| Brian Kardell| Igalia | yes | yes | only 2nd half | yes |
+| Brian Kardell | Igalia | yes | yes | only 2nd half | yes |
 | Cameron McCormack | Mozilla | yes | yes | no | no |
-| Chris Lilley | W3C |  first half | yes | yes | yes |
+| Chris Lilley | W3C | first half | yes | yes | yes |
 | Daniel Holbert | Mozilla | yes | yes | no | yes |
 | Dave Cramer | Hachette | yes | yes | no | no |
-| David Baron | Mozilla | probably (with decreasing probability over time);\\ Also missing part of Tuesday and roughly first half of Friday|| no | no |
+| David Baron | Mozilla | probably (with decreasing probability over time);<br> Also missing part of Tuesday and roughly first half of Friday |  | no | no |
 | Devin Rousso | Apple Inc | ✅ | ✅ | ✅ | ✅ |
 | Emilio | Mozilla | 1st half? | 1st half? | yes | yes |
 | fantasai | IE | yes | yes | yes | yes |
 | Florian Rivoal | Invited Expert | unlikely | yes | yes | yes |
 | François REMY | Invited Expert | first half | yes | yes | maybe |
 | Fuqiao Xue | W3C | part | part | part | part |
-| Greg Whitworth | Salesforce | No | No | YES - I'm visiting family so will probably only be\\ able to attend from 7am - 9/10ish SF time. So if\\ we can put any form control related issues on\\ these days ||
+| Greg Whitworth | Salesforce | No | No | YES - I'm visiting family so will probably only be<br> able to attend from 7am - 9/10ish SF time. So if<br> we can put any form control related issues on<br> these days |  |
 | Jen Simmons | Apple Inc | yes | yes | yes | no |
 | Jonathan Kew | Mozilla | 1st half? | 1st half? | yes | yes |
 | Koji Ishii | Google | no | yes | maybe | yes |
@@ -89,123 +96,126 @@ We will use #css on IRC for all meeting coordination. People can use the chat in
 | Rachel Andrew | Fronteers | ❌ | ❌ | ✅ | ✅ |
 | Rossen Atanassov | Microsoft | yes | yes | yes | yes |
 | Sam Sneddon | Apple Inc | ❌ | 🤷🏻 (first half?) | ✅ | 🤷🏻 |
-| Simon Fraser | Apple Inc | some || second half ||
-| Theresa O'Connor | Apple Inc | ✅ | first half | second half ||
+| Simon Fraser | Apple Inc | some |  | second half |  |
+| Theresa O'Connor | Apple Inc | ✅ | first half | second half |  |
 | Tab Atkins | Google | yes | yes | yes | yes |
 | Tantek Çelik | Mozilla | ✅ | last 3/4 | 🤷🏻‍♂️ | ✅ |
 
 If you can't make one of the days, mark any topics you want to be present for with a milestone for a day you can attend.
 
+## Agenda Schedule
 
-===== Agenda Schedule =====
-==== Monday ====
-[[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-27+Slot+B%22|GitHub Milestone]]
-  * (Grid issues for Oriol's availability)
-  * (Everything else that didn't have a constraint)
+### Monday
 
-  * [[https://github.com/w3c/csswg-drafts/issues/4783#issuecomment-587749012|[css-grid] Intrinsic contributions for items spanning flex tracks are not web compatible]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4790#issuecomment-664068575|[css-grid] Growth limits not increased with min-content contributions of spanning items]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5275|[css-overflow] Consider adding new CSS primitive for per-element panning and zooming (for web maps)]]
-  * [[https://github.com/w3c/csswg-drafts/issues/1614#issuecomment-661391733|[css-sizing] `height: stretch` should just behave as `height: auto`]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5269|[css-sizing] Import aspect-ratio from child image]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5165|[css-images] image-orientation:none violates same-origin policy]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4568#issuecomment-662671958|[css-pseudo] Which properties to reset in ::marker]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5154|[css-pseudo-4] ::first-letter should include space separators]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4969|[css-cascade] What are the proper "levels" for managing Cascade Layers? ]]
+[GitHub Milestone](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-27+Slot+B%22)
+- (Grid issues for Oriol's availability)
+- (Everything else that didn't have a constraint)
 
-==== Tuesday ====
-[[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-28+Slot+B%22|GitHub Milestone]]
+- [[https://github.com/w3c/csswg-drafts/issues/4783#issuecomment-587749012|[css-grid] Intrinsic contributions for items spanning flex tracks are not web compatible]]
+- [[https://github.com/w3c/csswg-drafts/issues/4790#issuecomment-664068575|[css-grid] Growth limits not increased with min-content contributions of spanning items]]
+- [[https://github.com/w3c/csswg-drafts/issues/5275|[css-overflow] Consider adding new CSS primitive for per-element panning and zooming (for web maps)]]
+- [[https://github.com/w3c/csswg-drafts/issues/1614#issuecomment-661391733|[css-sizing] `height: stretch` should just behave as `height: auto`]]
+- [[https://github.com/w3c/csswg-drafts/issues/5269|[css-sizing] Import aspect-ratio from child image]]
+- [[https://github.com/w3c/csswg-drafts/issues/5165|[css-images] image-orientation:none violates same-origin policy]]
+- [[https://github.com/w3c/csswg-drafts/issues/4568#issuecomment-662671958|[css-pseudo] Which properties to reset in ::marker]]
+- [[https://github.com/w3c/csswg-drafts/issues/5154|[css-pseudo-4] ::first-letter should include space separators]]
+- [[https://github.com/w3c/csswg-drafts/issues/4969|[css-cascade] What are the proper "levels" for managing Cascade Layers? ]]
 
-  * [[https://github.com/w3c/csswg-drafts/issues/3731|[css-sizing] how should inline-axis intrinsic sizing work for 'fit-content' and 'fit-content()'? ]] needs Oriol + dbaron to confirm
+### Tuesday
+
+[GitHub Milestone](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-28+Slot+B%22)
+
+- [[https://github.com/w3c/csswg-drafts/issues/3731|[css-sizing] how should inline-axis intrinsic sizing work for 'fit-content' and 'fit-content()'? ]] needs Oriol + dbaron to confirm
 
 Line Layout
 
-  * [[https://github.com/w3c/csswg-drafts/issues/5237|[css-inline-3] leading-trim through to descendant line boxes ]] needs dauwhe + dbaron + jensimmons
-  * [[https://github.com/w3c/csswg-drafts/issues/5239|[css-inline-3] Tight vs loose fit into a line box ]] needs dauwhe + jfkthame + dbaron + Florian + Myles ...
+- [[https://github.com/w3c/csswg-drafts/issues/5237|[css-inline-3] leading-trim through to descendant line boxes ]] needs dauwhe + dbaron + jensimmons
+- [[https://github.com/w3c/csswg-drafts/issues/5239|[css-inline-3] Tight vs loose fit into a line box ]] needs dauwhe + jfkthame + dbaron + Florian + Myles ...
 
 Initial Letter (needs faceless2 and dauwhe)
 
-  * [[https://github.com/w3c/csswg-drafts/issues/5120|[css-inline-3] initial-letters-wrap: first, whitespace collapse needs defining]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5208|[css-inline-3] Drop 'hebrew' alignment from initial-letter-align ]]
-  * [[https://github.com/w3c/csswg-drafts/issues/864|[css-inline] alignment of initial-letter for South Asian scripts without hanging baseline ]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4988|[css-inline-3] initial-letters changing used, not computed font-size ]] needs dbaron + Myles + emilio + heycam?
-  * [[https://github.com/w3c/csswg-drafts/issues/5207|[css-inline-3] text-align + initial-letter ]] dbaron + faceless2
-  * [[https://github.com/w3c/csswg-drafts/issues/5119|[css-inline-3] initial-letters: interaction of shape-margin and regular margin]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5329|[css-inline-3] Initial-letter alignment when 'over-sunk' ]]
+- [[https://github.com/w3c/csswg-drafts/issues/5120|[css-inline-3] initial-letters-wrap: first, whitespace collapse needs defining]]
+- [[https://github.com/w3c/csswg-drafts/issues/5208|[css-inline-3] Drop 'hebrew' alignment from initial-letter-align ]]
+- [[https://github.com/w3c/csswg-drafts/issues/864|[css-inline] alignment of initial-letter for South Asian scripts without hanging baseline ]]
+- [[https://github.com/w3c/csswg-drafts/issues/4988|[css-inline-3] initial-letters changing used, not computed font-size ]] needs dbaron + Myles + emilio + heycam?
+- [[https://github.com/w3c/csswg-drafts/issues/5207|[css-inline-3] text-align + initial-letter ]] dbaron + faceless2
+- [[https://github.com/w3c/csswg-drafts/issues/5119|[css-inline-3] initial-letters: interaction of shape-margin and regular margin]]
+- [[https://github.com/w3c/csswg-drafts/issues/5329|[css-inline-3] Initial-letter alignment when 'over-sunk' ]]
 
 Vertical Alignment
 
-  * [[https://github.com/w3c/csswg-drafts/issues/860|[css-inline] naming of text-top and text-bottom baselines ]]
-  * [[https://github.com/w3c/csswg-drafts/issues/1339|[css-inline] vertically align to nth-child ]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5235|[css-inline-3] vertical-align syntax / canonical ordering ]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5234|[css-inline-3] 'vertical-align: middle' on table cells ]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5225|[css-inline-3] vertical-align: super and font metrics ]] recommend faceless2 + Myles + jfkthame
-  * [[https://github.com/w3c/csswg-drafts/issues/4707|[css-inline] vertically align to middle of cap height ]]
+- [[https://github.com/w3c/csswg-drafts/issues/860|[css-inline] naming of text-top and text-bottom baselines ]]
+- [[https://github.com/w3c/csswg-drafts/issues/1339|[css-inline] vertically align to nth-child ]]
+- [[https://github.com/w3c/csswg-drafts/issues/5235|[css-inline-3] vertical-align syntax / canonical ordering ]]
+- [[https://github.com/w3c/csswg-drafts/issues/5234|[css-inline-3] 'vertical-align: middle' on table cells ]]
+- [[https://github.com/w3c/csswg-drafts/issues/5225|[css-inline-3] vertical-align: super and font metrics ]] recommend faceless2 + Myles + jfkthame
+- [[https://github.com/w3c/csswg-drafts/issues/4707|[css-inline] vertically align to middle of cap height ]]
 
 Text (last hour)
 
-  * [[https://github.com/w3c/csswg-drafts/issues/1518|[css-text] letter-spacing should not apply to the end edge of a line/span? ]] needs Koji and Chris Harrelson
+- [[https://github.com/w3c/csswg-drafts/issues/1518|[css-text] letter-spacing should not apply to the end edge of a line/span? ]] needs Koji and Chris Harrelson
 
+### Thursday
 
-==== Thursday ====
-[[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-30+Slot+A%22|GitHub Milestone]]
-  * (TTML issue(s) first)
-  * (Open UI, any other UI)
-  * (mediaqueries)
-  * (CSS2 on Sam's availabililty) 
+[GitHub Milestone](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-30+Slot+A%22)
+- (TTML issue(s) first)
+- (Open UI, any other UI)
+- (mediaqueries)
+- (CSS2 on Sam's availabililty) 
 
 TTML
 
-  * [[https://github.com/w3c/csswg-drafts/issues/5189|[css-inline] inline-sizing property name is too similar to inline-size]]
+- [[https://github.com/w3c/csswg-drafts/issues/5189|[css-inline] inline-sizing property name is too similar to inline-size]]
 
 UI
 
-  * [[https://github.com/w3c/csswg-drafts/issues/5350|[META] Presentation regarding Open UI]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5049#issuecomment-639161484|[css-selectors] Can you standardise a pseudo-element selector for file inputs?]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5174|[css-ui] Change appearance: button to only apply to buttons]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4925|[css-ui] outline-width and "outline-style: auto"]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5233|[css-pseudo-4] Add a highlight pseudo-element for find-in-page or scroll-to-text]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4784|[css-ui] Add caret-width or add spec that browser maintains caret width despite transforms]]
+- [[https://github.com/w3c/csswg-drafts/issues/5350|[META] Presentation regarding Open UI]]
+- [[https://github.com/w3c/csswg-drafts/issues/5049#issuecomment-639161484|[css-selectors] Can you standardise a pseudo-element selector for file inputs?]]
+- [[https://github.com/w3c/csswg-drafts/issues/5174|[css-ui] Change appearance: button to only apply to buttons]]
+- [[https://github.com/w3c/csswg-drafts/issues/4925|[css-ui] outline-width and "outline-style: auto"]]
+- [[https://github.com/w3c/csswg-drafts/issues/5233|[css-pseudo-4] Add a highlight pseudo-element for find-in-page or scroll-to-text]]
+- [[https://github.com/w3c/csswg-drafts/issues/4784|[css-ui] Add caret-width or add spec that browser maintains caret width despite transforms]]
 
 Media Queries
 
-  * [[https://github.com/w3c/csswg-drafts/issues/2943#issuecomment-665453076|[mediaqueries-5] `prefers-contrast: high` media feature doesn't account for macOS and iOS]]
-  * [[https://github.com/w3c/csswg-drafts/issues/4833#issuecomment-663555808|[media-queries-5] should "prefers-reduced-data" be binary or not ]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5224|[mediaqueries-5] prefers-contrast: infer contrast preference from forced colors]]
-  * [[https://github.com/w3c/csswg-drafts/issues/5359|[mediaqueries-5] redundant media feature]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3949|[css-background-4] Switch to opt into transparent canvas for additive displays]]
+- [[https://github.com/w3c/csswg-drafts/issues/2943#issuecomment-665453076|[mediaqueries-5] `prefers-contrast: high` media feature doesn't account for macOS and iOS]]
+- [[https://github.com/w3c/csswg-drafts/issues/4833#issuecomment-663555808|[media-queries-5] should "prefers-reduced-data" be binary or not ]]
+- [[https://github.com/w3c/csswg-drafts/issues/5224|[mediaqueries-5] prefers-contrast: infer contrast preference from forced colors]]
+- [[https://github.com/w3c/csswg-drafts/issues/5359|[mediaqueries-5] redundant media feature]]
+- [[https://github.com/w3c/csswg-drafts/issues/3949|[css-background-4] Switch to opt into transparent canvas for additive displays]]
 
 CSS2
 
-  * [[https://github.com/w3c/csswg-drafts/issues/5114#issuecomment-658386281|Do we remove old sections or not?]] link to [[https://github.com/w3c/csswg-drafts/pull/5298|Pull Request]]
+- [Do we remove old sections or not?](https://github.com/w3c/csswg-drafts/issues/5114#issuecomment-658386281) link to [Pull Request](https://github.com/w3c/csswg-drafts/pull/5298)
 
-==== Friday ====
-[[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-31+Slot+A%22|GitHub Milestone]]
+### Friday
 
-[[https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F|Houdini tagged issues]]
+[GitHub Milestone](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3A%22Agenda%2B+F2F%22+milestone%3A%22VF2F-2020-07-31+Slot+A%22)
+
+[Houdini tagged issues](https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F)
 
 CSS Houdini
 
-  * [[https://github.com/w3c/css-houdini-drafts/issues/994|[css-properties-values-api] Make all the descriptors optional]]
-  * [[https://github.com/w3c/css-houdini-drafts/issues/990|[css-layout-api] String based inline layout API]]
-  * [[https://github.com/w3c/css-houdini-drafts/issues/978|Print behaviour & test requirements]]
-  * [[https://github.com/w3c/css-houdini-drafts/issues/985|Ban data URL worklets]]
-  * [[https://github.com/w3c/css-houdini-drafts/issues/989|[css-typed-om] Color conversion and contrast ratio]] needs Chris or Lea
-  * [[https://github.com/w3c/css-houdini-drafts/issues/997|[css-typed-om] Prevent CSS Typed OM updates via `attributeStyleMap` from updating DOM `style` attributes]]
-  * [[https://github.com/w3c/css-houdini-drafts/issues/968|[css-typed-om] Should TypedOM "simplify away" a calc() wrapper around a single numeric value when reifying, like serialization does?]]
-  * [[https://github.com/w3c/css-houdini-drafts/issues/948|[css-typed-om] Switch CSSUnparsedValue and CSSTransformValue to having an arrayish member?]]
+- [[https://github.com/w3c/css-houdini-drafts/issues/994|[css-properties-values-api] Make all the descriptors optional]]
+- [[https://github.com/w3c/css-houdini-drafts/issues/990|[css-layout-api] String based inline layout API]]
+- [Print behaviour & test requirements](https://github.com/w3c/css-houdini-drafts/issues/978)
+- [Ban data URL worklets](https://github.com/w3c/css-houdini-drafts/issues/985)
+- [[https://github.com/w3c/css-houdini-drafts/issues/989|[css-typed-om] Color conversion and contrast ratio]] needs Chris or Lea
+- [[https://github.com/w3c/css-houdini-drafts/issues/997|[css-typed-om] Prevent CSS Typed OM updates via `attributeStyleMap` from updating DOM `style` attributes]]
+- [[https://github.com/w3c/css-houdini-drafts/issues/968|[css-typed-om] Should TypedOM "simplify away" a calc() wrapper around a single numeric value when reifying, like serialization does?]]
+- [[https://github.com/w3c/css-houdini-drafts/issues/948|[css-typed-om] Switch CSSUnparsedValue and CSSTransformValue to having an arrayish member?]]
 
 Line Layout
 
-  *   [[https://github.com/w3c/csswg-drafts/issues/5154|[css-pseudo-4] ::first-letter should include space separators ]]
-  *   [[https://github.com/w3c/csswg-drafts/issues/5329|[css-inline-3] Initial-letter alignment when 'over-sunk' ]]
-  *   [[https://github.com/w3c/csswg-drafts/issues/5312|[css-inline-3] Define em-top and em-bottom baselines ]] needs Koji + jfkthame
+- [[https://github.com/w3c/csswg-drafts/issues/5154|[css-pseudo-4] ::first-letter should include space separators ]]
+- [[https://github.com/w3c/csswg-drafts/issues/5329|[css-inline-3] Initial-letter alignment when 'over-sunk' ]]
+- [[https://github.com/w3c/csswg-drafts/issues/5312|[css-inline-3] Define em-top and em-bottom baselines ]] needs Koji + jfkthame
 
-===== Proposed Agenda =====
+## Proposed Agenda
 
 Please mark issues with the Agenda+ FTF tag
 
 TODO: Add the full list of issues on GitHub explicitly here.
-  * https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F
-  * https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20F2F
-  * https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F
+- https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F
+- https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20F2F
+- https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F

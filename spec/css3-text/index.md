@@ -1,37 +1,53 @@
-====== Text Level 3 ======
+---
+title: "Text Level 3"
+---
 
-==== Issue 1 ====
+# Text Level 3
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Apr/0102.html
-  ;Summary : line-break property should include U+2015 as "inseparable characters"
-  ;Status : Open
+### Issue 1
 
-==== Issue 2 ====
+URL : http://lists.w3.org/Archives/Public/www-style/2011Apr/0102.html
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Mar/0634.html
-  ;Summary : Precedence of hanging-punctuation and line breaking is not clearly defined
-  ;Status : Open
+Summary : line-break property should include U+2015 as "inseparable characters"
 
-==== Issue 3 ====
+Status : Open
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Mar/0593.html
-  ;Summary : Allow control of text-decoration width
-  ;Status : Resolved
+### Issue 2
 
-==== Issue 4 ====
+URL : http://lists.w3.org/Archives/Public/www-style/2011Mar/0634.html
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Mar/0414.html
-  ;Summary : 'text-transform' for Accents
-  ;Status : Open
+Summary : Precedence of hanging-punctuation and line breaking is not clearly defined
 
-==== Issue 5 ====
+Status : Open
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Mar/0352.html
-  ;Summary : Proposed pruning & scoping of hyphenation properties
-  ;Status : Open
+### Issue 3
 
-==== Issue 6 ====
+URL : http://lists.w3.org/Archives/Public/www-style/2011Mar/0593.html
 
-  ;URL : http://lists.w3.org/Archives/Public/www-style/2011Feb/0796.html
-  ;Summary : Possible text-shadow enhancements
-  ;Status : Open
+Summary : Allow control of text-decoration width
+
+Status : Resolved
+
+### Issue 4
+
+URL : http://lists.w3.org/Archives/Public/www-style/2011Mar/0414.html
+
+Summary : 'text-transform' for Accents
+
+Status : Open
+
+### Issue 5
+
+URL : http://lists.w3.org/Archives/Public/www-style/2011Mar/0352.html
+
+Summary : Proposed pruning & scoping of hyphenation properties
+
+Status : Open
+
+### Issue 6
+
+URL : http://lists.w3.org/Archives/Public/www-style/2011Feb/0796.html
+
+Summary : Possible text-shadow enhancements
+
+Status : Open

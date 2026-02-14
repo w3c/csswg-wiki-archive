@@ -1,3 +1,7 @@
+---
+title: "Script Tests"
+---
+
 <html>
 <strong>
 <div style="color: red; font-size: 20px; border: 2px solid red; padding: 10px; line-height: 1.5; text-align: center;">
@@ -8,72 +12,72 @@ This page has been deprecated and is no longer being maintained.
 </div>
 </html>
 
-====== Script Tests ======
+# Script Tests
 
-A //script test// is a test that uses JavaScript to programmatically verify one or more specific functionalities.  Unlike [[test:selftest|self-describing tests]] and [[test:reftest|reftests]], script tests do not verify rendering.
+A *script test* is a test that uses JavaScript to programmatically verify one or more specific functionalities.  Unlike [self-describing tests](/test/selftest/) and [reftests](/test/reftest/), script tests do not verify rendering.
 
-Script tests should be used to verify functionalities that do not require rendering, for example, a JavaScript API.  Script tests can also be used to add automation to [[test:reftest|reftests]] for clients that do not support [[test:reftest|reftests]].
+Script tests should be used to verify functionalities that do not require rendering, for example, a JavaScript API.  Script tests can also be used to add automation to [reftests](/test/reftest/) for clients that do not support [reftests](/test/reftest/).
 
-==== Components of a Script Test ====
+### Components of a Script Test
 
 A script test can be written as a single file with a script block that contains the JavaScript, or the JavaScript can be contained in a separate .js file that is imported by the test file.
 
-===== Test Harness =====
+## Test Harness
 
 The test harness (written and maintained by James Graham) is a JavaScript file that facilitates writing test cases.  Specifically, test harness offers test authors:
-  * A convenient API for making common test assertions
-  * Support for testing synchronous and asynchronous DOM features in a way that promotes clear, robust, tests
+- A convenient API for making common test assertions
+- Support for testing synchronous and asynchronous DOM features in a way that promotes clear, robust, tests
 
-Script tests written for the CSSWG //should// use test harness whenever possible.
+Script tests written for the CSSWG *should* use test harness whenever possible.
 
-==== Basic Usage ====
+### Basic Usage
 
-The basic usage of the test harness ([[http://w3c-test.org/resources/testharness.js|testharness.js]]) is described in the beginning of the file.
+The basic usage of the test harness ([testharness.js](http://w3c-test.org/resources/testharness.js)) is described in the beginning of the file.
 
-  * To use the harness, import both scripts into the test document per the script tag below. Note that an expectation is that all tests must be run-able in place in the W3C's test repository. As such, an absolute path to the script file must be used and the script file will be in resources directory at the root of the repository.
+- To use the harness, import both scripts into the test document per the script tag below. Note that an expectation is that all tests must be run-able in place in the W3C's test repository. As such, an absolute path to the script file must be used and the script file will be in resources directory at the root of the repository.
 
-<code html>
+```html
 <script type="text/javascript" src="/resources/testharness.js"></script>
 <script type="text/javascript" src="/resources/testharnessreport.js"></script>
-</code>
-  * Each test can have one or more asserts. Note: some prefer a test is limited to a single assert but that is not mandatory.
-  * Each test is atomic in the sense that a single test has a single result (pass/fail/timeout).
-  * Within each test one may have a number of asserts.
-  * A test fails at the first failing assert, and the remainder of the test is (typically) not run.
-  * If the file containing the tests is a HTML file with an element of id "log", this will be populated with a table containing the test results after all the tests have run.
+```
+- Each test can have one or more asserts. Note: some prefer a test is limited to a single assert but that is not mandatory.
+- Each test is atomic in the sense that a single test has a single result (pass/fail/timeout).
+- Within each test one may have a number of asserts.
+- A test fails at the first failing assert, and the remainder of the test is (typically) not run.
+- If the file containing the tests is a HTML file with an element of id "log", this will be populated with a table containing the test results after all the tests have run.
 
-===== Writing tests =====
+## Writing tests
 
-The full API of testharness.js is documented within the [[http://w3c-test.org/resources/testharness.js|file]] itself. [[http://documentup.com/paulirish/testharness.js|The API is also documented here]].
+The full API of testharness.js is documented within the [file](http://w3c-test.org/resources/testharness.js) itself. [The API is also documented here](http://documentup.com/paulirish/testharness.js).
 
-==== Bug Reporting ====
+### Bug Reporting
 
-The discussion forum for the test harness is the W3C's cross-WG [[http://lists.w3.org/Archives/Public/public-test-infra/|public-test-infra]] mail list. This list is also used to report testharness.js bugs or bugs can also be directly added to the W3C's Bugzilla: [[https://www.w3.org/Bugs/Public/describecomponents.cgi?product=Testing|Product = Testing; Component = testharness.js]] (James Graham is the "default assignee").
+The discussion forum for the test harness is the W3C's cross-WG [public-test-infra](http://lists.w3.org/Archives/Public/public-test-infra/) mail list. This list is also used to report testharness.js bugs or bugs can also be directly added to the W3C's Bugzilla: [Product = Testing; Component = testharness.js](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=Testing) (James Graham is the "default assignee").
 
-==== Per-Test Metadata ====
+### Per-Test Metadata
 
 Test-specific metadata can be passed in the properties object to the test constructor. These are used when an individual test has different metadata from that stored in the <head>. The recognized metadata properties are:
 
-  * help - The url for the part of the specification being tested
-  * assert - A human readable description of what the test is attempting to prove
-  * author - Name and contact information for the author of the test in the format: "Name <email_addr>" or "Name http://contact/url"
+- help - The url for the part of the specification being tested
+- assert - A human readable description of what the test is attempting to prove
+- author - Name and contact information for the author of the test in the format: "Name <email_addr>" or "Name http://contact/url"
             
 Example:
 
-<code html>
+```html
 test(function() { assert_true(true); },
      'test_name', 
      { help: 'http://www.w3.org/TR/spec#section', 
        assert: ['This tests something.', 'This also tests something else.'],
        author: ['John Doe <john@doe.com>', 'Jane Doe http://example.com/doe/jane'] }
 );
-</code>
+```
 
 Each value can be either a single string, or an array of strings if multiple values need to be specified. These values would override any metadata set in the <head> of the test and are only needed when the individual test's metadata is different from what's in the <head>.
 
 If there is only a single script test in a file, all metadata should be in the <head> rather than the test constructor. 
 
-=== Metadata Cache  ===
+#### Metadata Cache
 
 The metadata cache exposes the names of the script tests and all associated per-test metadata to our testing tool suite. Using this data we can track the testing coverage of each specification as well as generate testing statistics and reports. If there are multiple script tests in a file, the metadata cache must be present, even if there is no test-specific metadata present (to list the names of each script test).
 

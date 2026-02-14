@@ -1,117 +1,120 @@
-====== Specification Issues and Planning ======
+---
+title: "Specification Issues and Planning"
+---
+
+# Specification Issues and Planning
 
 The CSSWG is tasked with maintenance of the CSS specs and working drafts. Problems reported to us will be addressed by the editors, possibly after discussion in a CSS Working Group meeting, and will result in changes, corrections, clarifications, or no change.
 
-<note>
-The group uses GitHub for issue tracking, in [[https://github.com/w3c/csswg-drafts/|csswg-drafts]], [[https://github.com/w3c/fxtf-drafts/|fxtf-drafts]], [[https://github.com/w3c/css-houdini-drafts/|css-houdini-drafts]].
-</note>
+> [!NOTE]
+> The group uses GitHub for issue tracking, in [csswg-drafts](https://github.com/w3c/csswg-drafts/), [fxtf-drafts](https://github.com/w3c/fxtf-drafts/), [css-houdini-drafts](https://github.com/w3c/css-houdini-drafts/).
 
-Previously, issues were reported to the [[http://lists.w3.org/Archives/Public/www-style/|www-style mailing list]], which was periodically scoured for issues. You can view old discussions there, including open issues in some of the less well-maintained specs. Also, some issues tracked in [[https://www.w3.org/Bugs/Public/describecomponents.cgi?product=CSS|Bugzilla]] or [[http://w3.org/Style/CSS/Tracker/|Tracker]] have yet to be migrated to GH.
+Previously, issues were reported to the [www-style mailing list](http://lists.w3.org/Archives/Public/www-style/), which was periodically scoured for issues. You can view old discussions there, including open issues in some of the less well-maintained specs. Also, some issues tracked in [Bugzilla](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=CSS) or [Tracker](http://w3.org/Style/CSS/Tracker/) have yet to be migrated to GH.
 
-The [[planning/status|Status page]] tracks outstanding resolutions. Editors, please clear them out when you're done dealing with the resolution.
+The [Status page](/planning/status/) tracks outstanding resolutions. Editors, please clear them out when you're done dealing with the resolution.
 
-====== Specification Editing ======
+# Specification Editing
 
-  * [[tools:hg|W3C Mercurial For Dummies]] --- reading/writing to the spec repositories
-  * [[https://w3c.github.io/workflow.html|GitHub Workflow]] for editors and other contributors
-  * [[tools:bikeshed]] --- generating ''Overview.html'' from ''Overview.bs'' (auto-generating section numbers, indices, cross-links, and other mundane things).  (Or here's a guide for the [[tools:spec-processor|older processor]].)
-  * [[http://dev.w3.org/csswg/css-module-bikeshed/Overview.bs|CSS Module Template]] --- for starting new specs (and formatting old ones)
-  * [[spec:format-update]] --- for updating existing specs to our latest "specs should include"
-  * [[spec:check]] -- checking your spec is good to go
-  * [[spec:publish]] --- getting your spec on www.w3.org
-  * [[spec:widereview]] --- ensuring wide review of a spec before CR
-  * [[spec:issue-tracking]] --- raising your newborn draft into a grown-up spec
-  * [[spec:process|Process suggestions for advancing a spec]] --- guidelines for when to advance your spec to the next stage
-  * [[spec:teststatus|Test status information on spec]] --- adding information about testing status on the spec
-  * [[spec:levels|Specification levels]] -- which levels to publish each spec as
-  * [[spec:REC-maintenance|Maintaining RECs]] -- proposed process for adding substantive changes to RECs
+- [W3C Mercurial For Dummies](/tools/hg/) --- reading/writing to the spec repositories
+- [GitHub Workflow](https://w3c.github.io/workflow.html) for editors and other contributors
+- [bikeshed](/tools/bikeshed/) --- generating `Overview.html` from `Overview.bs` (auto-generating section numbers, indices, cross-links, and other mundane things).  (Or here's a guide for the [older processor](/tools/spec-processor/).)
+- [CSS Module Template](http://dev.w3.org/csswg/css-module-bikeshed/Overview.bs) --- for starting new specs (and formatting old ones)
+- [format-update](/spec/format-update/) --- for updating existing specs to our latest "specs should include"
+- [check](/spec/check/) -- checking your spec is good to go
+- [publish](/spec/publish/) --- getting your spec on www.w3.org
+- [widereview](/spec/widereview/) --- ensuring wide review of a spec before CR
+- [issue-tracking](/spec/issue-tracking/) --- raising your newborn draft into a grown-up spec
+- [Process suggestions for advancing a spec](/spec/process/) --- guidelines for when to advance your spec to the next stage
+- [Test status information on spec](/spec/teststatus/) --- adding information about testing status on the spec
+- [Specification levels](/spec/levels/) -- which levels to publish each spec as
+- [Maintaining RECs](/spec/REC-maintenance/) -- proposed process for adding substantive changes to RECs
 
-====== Coordination between specifications ======
+# Coordination between specifications
 
-  * [[spec:dfn-patterns|Marking up your <dfn>s for proper cross-linking]]
-  * [[spec:cssom-constants|CSSOM Constants]]
-  * [[spec:computed-values|Patterns for writing "Computed Value" lines]]
-  * [[spec:at-rules-patterns|Patterns for writing at-rules]]
-  * [[spec:property-dependencies|Property dependencies]] in computed values
-  * [[spec:calc-and-percentages|Specifying Percentages in the Age of Calc()]]
-  * [[spec:om-apis|Patterns for writing CSSOM APIs]]
-  * [[spec:limited-ranges|Specifying Limited Ranges in Properties and Elsewhere]]
-  * [[spec:async-algos|Writing Asynchronous Algorithms]]
-  * [[spec:promises|Using Promises in Specifications]]
+- [Marking up your <dfn>s for proper cross-linking](/spec/dfn-patterns/)
+- [CSSOM Constants](/spec/cssom-constants/)
+- [Patterns for writing "Computed Value" lines](/spec/computed-values/)
+- [Patterns for writing at-rules](/spec/at-rules-patterns/)
+- [Property dependencies](/spec/property-dependencies/) in computed values
+- [Specifying Percentages in the Age of Calc()](/spec/calc-and-percentages/)
+- [Patterns for writing CSSOM APIs](/spec/om-apis/)
+- [Specifying Limited Ranges in Properties and Elsewhere](/spec/limited-ranges/)
+- [Writing Asynchronous Algorithms](/spec/async-algos/)
+- [Using Promises in Specifications](/spec/promises/)
 
-====== Coordination between standards groups ======
+# Coordination between standards groups
 
-  * [[http://code.google.com/p/epub-revision/wiki/AdvancedAdaptiveLayoutCharter|EPub Stuff]]
-  * [[http://www.w3.org/community/ppl/wiki/Western_Layout_Requirements|Western Layout Requirements]], outlining the advanced printing stuff that XSL-FO does and which we'd like to address in CSS
-  * [[spec:incubation|Incubation considerations]]
-====== Scratch Space for Specs ====== 
+- [EPub Stuff](http://code.google.com/p/epub-revision/wiki/AdvancedAdaptiveLayoutCharter)
+- [Western Layout Requirements](http://www.w3.org/community/ppl/wiki/Western_Layout_Requirements), outlining the advanced printing stuff that XSL-FO does and which we'd like to address in CSS
+- [Incubation considerations](/spec/incubation/)
 
-See [[http://www.w3.org/Style/CSS/current-work|Current Work Tables]] for current status. These pages are just scratch space for the editors to track ideas.
+# Scratch Space for Specs
 
-  * [[spec:css2.1|CSS Level 2 Revision 1]] - Archived / Not active
-  * [[spec:css2.2|CSS level 2 Revision 2]]
-  * [[spec:css3-color|CSS Color Module Level 3]]
-  * [[spec:css3-selectors|Selectors Level 3]]
-  * [[spec:css-multicol|CSS Multi-Column Layout Module Level 3]]
-  * [[spec:mediaqueries|Media Queries Level 3]]
-  * [[spec:css-style-attr|CSS Style Attributes]]
-  * [[spec:css3-background|CSS Backgrounds and Borders Module Level 3]]
-  * [[spec:css3-ui|CSS Basic User Interface Module Level 3]]
-  * [[spec:css3-images:lc-2012|CSS Images Level 3]]
-  * [[spec:css3-transforms|CSS Transforms Level 3]]
-  * [[spec:css3-transitions|CSS Transitions Level 3]]
-  * [[spec:css3-animations|CSS Animations Level 3]]
-  * [[spec:cssom|CSSOM - CSS Object Module]]
-  * [[spec:css3-flexbox|CSS Flexbox Module]]
-  * [[spec:css3-lists|CSS Lists Module Level 3]]
-  * [[spec:css3-regions|CSS Regions Module Level 3]]
-  * [[spec:css-ruby|CSS3 Ruby Module]] (out of date CR, back to WD for major revisions)
-  * [[spec:css3-text|CSS Text Module Level 3]]
-  * [[spec:css3-values|CSS Values and Units Module Level 3]]
-  * [[spec:css3-writing-modes|CSS Writing Modes Level 3]]
-  * [[spec:css3-speech|CSS Speech Module Level 3]]
-  * [[spec:css3-grid-layout|CSS Grid Layout]]
-  * [[spec:css3-exclusions|CSS Exclusions]]
-  * [[spec:css-shapes|CSS Shapes]]
-  * [[spec:css-round-display|CSS Round Display]]
-  * [[spec:css-backgrounds-4]]
-  * [[spec:css-pseudo-4|CSS Pseudo Elements Level 4]] (collecting features and ideas)
-  * [[spec:css4-color|CSS Color Level 4]] (collecting features and ideas)
-  * [[spec:css4-ui|CSS User Interface Module Level 4]] (collecting features and ideas)
-  * [[spec:vendor-prefixes|CSS vendor prefixes]] (collecting thoughts about policy/guidance on usage, dropping etc.)
-  * [[spec:css4-page|CSS Paged Media Level 4]] (or CSS Pagination, or CSS Fragmentation)
-  * [[spec:page-view|Paged View]] (use cases for paged view and page layout)
-  * [[spec:text4|Text Level 4]] (why isn't this "css4-text"?) (can't we just move this to "css4-text"?)
-  * [[spec:selectors|Selectors Level Next]]
-  * [[spec:css3-overflow|CSS Overflow Level 3]]
-  * [[spec:box-orphans|Box-model-related features with no home]]
-  * [[spec:css3-position|CSS Positioning]]
-  * [[spec:mediaqueries4|Media Queries Level 4]]
-  * [[spec:css3-cascade|CSS Cascading and Inheritance Level 3]]
-  * [[http://www.w3.org/Style/CSS/Tracker/products/33|CSS4 Values and Units]]
-  * [[spec:css3-break|CSS Fragmentation Module Level 3]]
-  * Pages related to content fragmentation, regions, exclusions, paged views etc:
-     * [[spec:page-view|paged view]]
-     * [[spec:page-specs|page specs]]
-     * [[spec:css3-regions|regions]]
-     * [[spec:css3-exclusions|exclusions]]
-     * [[spec:css3-region-templates|region templates]]
-     * [[spec:fragments-columns-regions-pages|fragments columns regions pages]]
-   * [[spec:font-load-events|Font Load Events]]
-   * [[spec:css-regions-4|CSS Regions Module Level 4]]
-   * [[spec:css-flexbox-2|CSS Flexbox Level 2]]
-   * [[spec:css4-ui|CSS UI Level 4]]
-   * [[spec:css-grid-2]]
-   * [[spec:css-ruby-2|CSS Ruby Level 2]]
-   * [[spec:css3-box|CSS Box Module Level 3]]
-   * [[spec:css3-content|CSS Generated Content Module Level 3]]
-   * [[spec:css-fonts|CSS Fonts]]
-   * [[spec:css-scoping|CSS Scoping]]
+See [Current Work Tables](http://www.w3.org/Style/CSS/current-work) for current status. These pages are just scratch space for the editors to track ideas.
 
+- [CSS Level 2 Revision 1](/spec/css2.1/) - Archived / Not active
+- [CSS level 2 Revision 2](/spec/css2.2/)
+- [CSS Color Module Level 3](/spec/css3-color/)
+- [Selectors Level 3](/spec/css3-selectors/)
+- [CSS Multi-Column Layout Module Level 3](/spec/css-multicol/)
+- [Media Queries Level 3](/spec/mediaqueries/)
+- [CSS Style Attributes](/spec/css-style-attr/)
+- [CSS Backgrounds and Borders Module Level 3](/spec/css3-background/)
+- [CSS Basic User Interface Module Level 3](/spec/css3-ui/)
+- [CSS Images Level 3](/spec/css3-images/lc-2012/)
+- [CSS Transforms Level 3](/spec/css3-transforms/)
+- [CSS Transitions Level 3](/spec/css3-transitions/)
+- [CSS Animations Level 3](/spec/css3-animations/)
+- [CSSOM - CSS Object Module](/spec/cssom/)
+- [CSS Flexbox Module](/spec/css3-flexbox/)
+- [CSS Lists Module Level 3](/spec/css3-lists/)
+- [CSS Regions Module Level 3](/spec/css3-regions/)
+- [CSS3 Ruby Module](/spec/css-ruby/) (out of date CR, back to WD for major revisions)
+- [CSS Text Module Level 3](/spec/css3-text/)
+- [CSS Values and Units Module Level 3](/spec/css3-values/)
+- [CSS Writing Modes Level 3](/spec/css3-writing-modes/)
+- [CSS Speech Module Level 3](/spec/css3-speech/)
+- [CSS Grid Layout](/spec/css3-grid-layout/)
+- [CSS Exclusions](/spec/css3-exclusions/)
+- [CSS Shapes](/spec/css-shapes/)
+- [CSS Round Display](/spec/css-round-display/)
+- [css-backgrounds-4](/spec/css-backgrounds-4/)
+- [CSS Pseudo Elements Level 4](/spec/css-pseudo-4/) (collecting features and ideas)
+- [CSS Color Level 4](/spec/css4-color/) (collecting features and ideas)
+- [CSS User Interface Module Level 4](/spec/css4-ui/) (collecting features and ideas)
+- [CSS vendor prefixes](/spec/vendor-prefixes/) (collecting thoughts about policy/guidance on usage, dropping etc.)
+- [CSS Paged Media Level 4](/spec/css4-page/) (or CSS Pagination, or CSS Fragmentation)
+- [Paged View](/spec/page-view/) (use cases for paged view and page layout)
+- [Text Level 4](/spec/text4/) (why isn't this "css4-text"?) (can't we just move this to "css4-text"?)
+- [Selectors Level Next](/spec/selectors/)
+- [CSS Overflow Level 3](/spec/css3-overflow/)
+- [Box-model-related features with no home](/spec/box-orphans/)
+- [CSS Positioning](/spec/css3-position/)
+- [Media Queries Level 4](/spec/mediaqueries4/)
+- [CSS Cascading and Inheritance Level 3](/spec/css3-cascade/)
+- [CSS4 Values and Units](http://www.w3.org/Style/CSS/Tracker/products/33)
+- [CSS Fragmentation Module Level 3](/spec/css3-break/)
+- Pages related to content fragmentation, regions, exclusions, paged views etc:
+  - [paged view](/spec/page-view/)
+  - [page specs](/spec/page-specs/)
+  - [regions](/spec/css3-regions/)
+  - [exclusions](/spec/css3-exclusions/)
+  - [region templates](/spec/css3-region-templates/)
+  - [fragments columns regions pages](/spec/fragments-columns-regions-pages/)
+- [Font Load Events](/spec/font-load-events/)
+- [CSS Regions Module Level 4](/spec/css-regions-4/)
+- [CSS Flexbox Level 2](/spec/css-flexbox-2/)
+- [CSS UI Level 4](/spec/css4-ui/)
+- [css-grid-2](/spec/css-grid-2/)
+- [CSS Ruby Level 2](/spec/css-ruby-2/)
+- [CSS Box Module Level 3](/spec/css3-box/)
+- [CSS Generated Content Module Level 3](/spec/css3-content/)
+- [CSS Fonts](/spec/css-fonts/)
+- [CSS Scoping](/spec/css-scoping/)
 
-====== Specification Reviews ======
+# Specification Reviews
 
 Tracking CSSWG members' comments on related specs not published by our group.
 
-  * [[spec:reviews:svgtiny1.2|SVG Tiny 1.2]]
-  * [[spec:reviews:html5|HTML5]]
+- [SVG Tiny 1.2](/spec/reviews/svgtiny1.2/)
+- [HTML5](/spec/reviews/html5/)

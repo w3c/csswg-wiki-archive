@@ -1,4 +1,8 @@
-====== Rename Block-relative Logical Directions (Before/After) ======
+---
+title: "Rename Block-relative Logical Directions (Before/After)"
+---
+
+# Rename Block-relative Logical Directions (Before/After)
 
 ---- dataentry  ----
 Spec_tags     : ALL
@@ -9,33 +13,34 @@ Action        : Discuss and approve?
 Issue_urls    : http://www.w3.org/mid/4FA0248F.7010406@inkedblade.net
 Proposal_urls : http://www.w3.org/mid/E3737B6E-B4C7-4226-A5F9-54AC1FF9B94E@crissov.de
 Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
-----
 
-=== Background ===
+---
 
-Like XSL:FO, CSS uses the terms ''start'' and ''end'' to distinguish the two logical inline-axis directions. Lacking any better proposals, we've been using XSL:FO's ''before''/''after'' to distinguish the two logical block-axis directions. People generally aren't thrilled with these terms: they are not distinct, and the two pairs are therefore confusable. But there haven't been any compelling alternatives... until now.
+#### Background
 
-=== Problem Statement ===
+Like XSL:FO, CSS uses the terms `start` and `end` to distinguish the two logical inline-axis directions. Lacking any better proposals, we've been using XSL:FO's `before`/`after` to distinguish the two logical block-axis directions. People generally aren't thrilled with these terms: they are not distinct, and the two pairs are therefore confusable. But there haven't been any compelling alternatives... until now.
 
-Rename the terms we are using for the two logical block-axis directions,, ''before''/''after'', to make them more obvious and less confusable with the inline-axis ''start''/''end''.
+#### Problem Statement
 
-=== Proposal(s) ===
+Rename the terms we are using for the two logical block-axis directions,, `before`/`after`, to make them more obvious and less confusable with the inline-axis `start`/`end`.
 
-Christoph posted [[http://lists.w3.org/Archives/Public/www-style/2012May/1046.html|several suggestions]], and the pair ''head''/''foot'' has gotten some traction.
+#### Proposal(s)
 
-=== Summary of Discussion ===
+Christoph posted [several suggestions](http://lists.w3.org/Archives/Public/www-style/2012May/1046.html), and the pair `head`/`foot` has gotten some traction.
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/1051.html|Tab Atkins]]:
+#### Summary of Discussion
+
+[Tab Atkins](http://lists.w3.org/Archives/Public/www-style/2012May/1051.html):
 
 > 'head' / 'foot' actually makes some sense to me, as it corresponds to
 > the directions of the header/footer in a document.  That's
 > writing-mode dependent, and easy to explain.  (Plus, it always makes
 > me strangely happy when keyword pairs are the same length.)
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/1055.html|Remy]]:
+[Remy](http://lists.w3.org/Archives/Public/www-style/2012May/1055.html):
 > I like head/foot, too.
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/1065.html|fantasai]]:
+[fantasai](http://lists.w3.org/Archives/Public/www-style/2012May/1065.html):
 > I like head/foot as well. Unlike before/after, it's immediately obvious
 > which directions it corresponds to, and it's not confusable with start/end.
 > And given a pile of head/foot/start/end keywords, it makes it easy to map
@@ -55,6 +60,6 @@ Christoph posted [[http://lists.w3.org/Archives/Public/www-style/2012May/1046.ht
 > 
 > [1] http://lists.w3.org/Archives/Public/www-style/2012May/0071.html
 
-=== Resolution ===
+#### Resolution
 
-[[http://lists.w3.org/Archives/Public/www-style/2012May/1149.html|Resolved on head/foot]]
+[Resolved on head/foot](http://lists.w3.org/Archives/Public/www-style/2012May/1149.html)

@@ -1,203 +1,227 @@
-====== San Francisco F2F February 2019 ======
+---
+title: "San Francisco F2F February 2019"
+---
 
-   * Host: Google
-   * Location: [[https://goo.gl/maps/yiwYTjSULbw|Google, 345 Spear Street, San Francisco, California, USA]]
-   * Dates: February 25-27, 2019. 9am-6pm each day.
+# San Francisco F2F February 2019
 
-==== Entrance Instructions ====
+- Host: Google
+- Location: [Google, 345 Spear Street, San Francisco, California, USA](https://goo.gl/maps/yiwYTjSULbw)
+- Dates: February 25-27, 2019. 9am-6pm each day.
+
+### Entrance Instructions
 
 "Main" building, the one that you walk thru with doors to either side, rather than the one at the end of the breezeway. Take the elevator to the 7th floor. (If there are only 6 floors, you're in the wrong building.) Ping me (Tab) or the IRC to be let in once you get there, if someone's not already waiting to open the door for you.
 
 The room, once you get here, is "Supergirl".
 
-==== Group Dinner ====
+### Group Dinner
 
 Wednesday evening, check the private list (or ask someone) for details on time and location.
 
-==== Note ====
+### Note
 
 Wet weather is [https://www.wunderground.com/forecast/us/ca/san-francisco?cm_ven=localwx_10day|forecast] for all three days, and transit may be affected. Be prepared.
 
-==== Participants ====
+### Participants
 
 (Alphabetic order by first name)
 
-^ Name ^ Arrival ^ Departure ^ Hotel ^ Flight info and notes ^
-| Alan Stearns |  |  |  |  |
-| Amelia BR | Feb 23 | Feb 28 | AirBnB w/ Florian & co | |
-| Benjamin De Cock | local | n/a | n/a |  |
-| Cameron McCormack | Feb 23 | Mar 1 | Hotel Abri | |
-| Chris Harrelson | local | n/a | n/a | |
-| Dave Cramer |  |  | Airbnb |  |
-| Emil A Eklund | local | n/a | n/a | Can't make Monday AM. |
-| Emilio Cobos Álvarez | ? | ? | ? | ? |
-| fantasai | local | n/a | n/a |  |
-| Florian Rivoal | Feb 22 | Feb 28 | Airbnb |  |
-| François Remy | Feb 23 | Feb 28 | Airbnb |  |
-| Fuqiao Xue | Feb 24 | Feb 28 | TBD | |
-| Greg Whitworth | Feb 24 | Feb 28 | Hotel|  |
-| Hiroshi Sakakibara | Feb 24 | Mar 1 | Airbnb |  |
-| Hyojin Song | Feb 24 | Feb 27 | TBD | OZ212/OZ211 |
-| Jen Simmons | Feb 24 | Mar 2 |  |  |
-| Jihye Hong | Feb 24 | Feb 28 | Airbnb |  |
-| Koji Ishii | Feb 24 | Feb 28 | TBD |  |
-| L. David Baron | n/a | n/a | home | [[http://www.caltrain.com/schedules/weekdaytimetable.html|Caltrain #319 or #217]] |
-| Manuel Rego | Feb 24 | Feb 27 | Airbnb |  |
-| Melanie Richards | Feb 26 | Feb 26 | N/A | AS324 / UA351 |
-| Myles C. Maxfield | I live here | I live here | My home | Pogo stick |
-| Rachel Andrew | Feb 24 | Feb 28 | Marriott Fisherman's Wharf | AA285/AA6041 |
-| Rossen Atanassov | Feb 25 | Feb 28 | TBD |  |
-| Rune Lillesveen | Feb 24 | Mar 1 | Orchard Hotel |  |
-| Simon Fraser | local | n/a | n/a |  |
-| Tab Atkins | local | | | |
-| Tantek Çelik | 2019-02-25 | local | home | UA2123 |
-| Tess | local | n/a | n/a |  |
-| Daniel Bates | local | n/a | n/a |  |
-==== Observers ====
+| Name | Arrival | Departure | Hotel | Flight info and notes |  |
+| --- | --- | --- | --- | --- | --- |
+| Alan Stearns |  |  |  |  |  |
+| Amelia BR | Feb 23 | Feb 28 | AirBnB w/ Florian & co |  |  |
+| Benjamin De Cock | local | n/a | n/a |  |  |
+| Cameron McCormack | Feb 23 | Mar 1 | Hotel Abri |  |  |
+| Chris Harrelson | local | n/a | n/a |  |  |
+| Dave Cramer |  |  | Airbnb |  |  |
+| Emil A Eklund | local | n/a | n/a | Can't make Monday AM. |  |
+| Emilio Cobos Álvarez | ? | ? | ? | ? |  |
+| fantasai | local | n/a | n/a |  |  |
+| Florian Rivoal | Feb 22 | Feb 28 | Airbnb |  |  |
+| François Remy | Feb 23 | Feb 28 | Airbnb |  |  |
+| Fuqiao Xue | Feb 24 | Feb 28 | TBD |  |  |
+| Greg Whitworth | Feb 24 | Feb 28 | Hotel |  |  |
+| Hiroshi Sakakibara | Feb 24 | Mar 1 | Airbnb |  |  |
+| Hyojin Song | Feb 24 | Feb 27 | TBD | OZ212/OZ211 |  |
+| Jen Simmons | Feb 24 | Mar 2 |  |  |  |
+| Jihye Hong | Feb 24 | Feb 28 | Airbnb |  |  |
+| Koji Ishii | Feb 24 | Feb 28 | TBD |  |  |
+| L. David Baron | n/a | n/a | home | [[http://www.caltrain.com/schedules/weekdaytimetable.html | Caltrain #319 or #217]] |
+| Manuel Rego | Feb 24 | Feb 27 | Airbnb |  |  |
+| Melanie Richards | Feb 26 | Feb 26 | N/A | AS324 / UA351 |  |
+| Myles C. Maxfield | I live here | I live here | My home | Pogo stick |  |
+| Rachel Andrew | Feb 24 | Feb 28 | Marriott Fisherman's Wharf | AA285/AA6041 |  |
+| Rossen Atanassov | Feb 25 | Feb 28 | TBD |  |  |
+| Rune Lillesveen | Feb 24 | Mar 1 | Orchard Hotel |  |  |
+| Simon Fraser | local | n/a | n/a |  |  |
+| Tab Atkins | local |  |  |  |  |
+| Tantek Çelik | 2019-02-25 | local | home | UA2123 |  |
+| Tess | local | n/a | n/a |  |  |
+| Daniel Bates | local | n/a | n/a |  |  |
 
-  * Christian Biesinger (Google)
-  * Chirag Desai
-  * Mason Freed (Google)
-  * Morten Stenshorne (Google)
-  * Sean Voisen (Mozilla)
-  * Lukasz Zbylut
-  * Daniel Holbert (Mozilla)
-  * David Grogan (Google)
+### Observers
 
-==== Regrets ====
+- Christian Biesinger (Google)
+- Chirag Desai
+- Mason Freed (Google)
+- Morten Stenshorne (Google)
+- Sean Voisen (Mozilla)
+- Lukasz Zbylut
+- Daniel Holbert (Mozilla)
+- David Grogan (Google)
 
-  * Dael Jackson
-  * Dirk Schulze
-  * Brad Kemper ☹️
-  * Chris Lilley & Lea Verou (visa issues ☹️)
+### Regrets
 
-==== Agenda ====
-  * CSSWG GitHub Code of Conduct, Tantek (per examples of abusive comments on Scrollbars)
-  * List topic here (link to issue), Your name
+- Dael Jackson
+- Dirk Schulze
+- Brad Kemper ☹️
+- Chris Lilley & Lea Verou (visa issues ☹️)
 
-==== Schedule ====
+### Agenda
 
-=== Monday morning ===
+- CSSWG GitHub Code of Conduct, Tantek (per examples of abusive comments on Scrollbars)
+- List topic here (link to issue), Your name
 
-== Values ==
-  * Add min/max constraints to CSS values grammar ([[https://github.com/w3c/csswg-drafts/issues/355#issuecomment-458324757 | Proposal as comment on issue #355]]), Amelia BR
-  * [[https://mathml-refresh.github.io/|MathML Refresh Community Group]] (heads up about the status of MathML), rego (please avoid Wednesday's afternoon as I won't be around)
+### Schedule
 
-== Testing ==
-  * http://wptest.center/ demo from Tab
+#### Monday morning
 
-== Color ==
-  *  publish updated WD of [[https://drafts.csswg.org/css-color-4/| css-color-4]]. Previous publication was FPWD in 2016. Up-to-date [[https://drafts.csswg.org/css-color-4/#changes-from-20160705| changes list]]. Issues: [[https://github.com/w3c/csswg-drafts/labels/css-color-4| 38 open]] [[https://github.com/w3c/csswg-drafts/issues?q=label%3Acss-color-4+is%3Aclosed| 52 closed]]. Europe-friendly time please, 09-12. ChrisL
+##### Values
 
-== Graphics ==
-  * [[https://github.com/w3c/fxtf-drafts/issues/53#issuecomment-451599995|Backdrop filters]], Chris Harrelson (Mon/Tues)
+- Add min/max constraints to CSS values grammar ([ Proposal as comment on issue #355](https://github.com/w3c/csswg-drafts/issues/355#issuecomment-458324757 )), Amelia BR
+- [MathML Refresh Community Group](https://mathml-refresh.github.io/) (heads up about the status of MathML), rego (please avoid Wednesday's afternoon as I won't be around)
+
+##### Testing
+
+- http://wptest.center/ demo from Tab
+
+##### Color
+
+- publish updated WD of [ css-color-4](https://drafts.csswg.org/css-color-4/). Previous publication was FPWD in 2016. Up-to-date [ changes list](https://drafts.csswg.org/css-color-4/#changes-from-20160705). Issues: [ 38 open](https://github.com/w3c/csswg-drafts/labels/css-color-4) [ 52 closed](https://github.com/w3c/csswg-drafts/issues?q=label%3Acss-color-4+is%3Aclosed). Europe-friendly time please, 09-12. ChrisL
+
+##### Graphics
+
+- [Backdrop filters](https://github.com/w3c/fxtf-drafts/issues/53#issuecomment-451599995), Chris Harrelson (Mon/Tues)
 
 =(at 11am)=
-  * 3-D transform interoperability (css-transforms-2), dbaron/mattwoodrow, mattwoodrow would like to call in (from New Zealand, so 11am PST or later, Mon/Tues)
-      * transform-style changes: [[https://bugzilla.mozilla.org/show_bug.cgi?id=1518368#c2|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/3138#issuecomment-424064320|#3138 (comment)]], [[https://github.com/w3c/csswg-drafts/issues/1944|#1944]], [[https://github.com/w3c/csswg-drafts/issues/1950|#1950]], [[https://github.com/w3c/csswg-drafts/issues/1951|#1951]], [[https://github.com/w3c/csswg-drafts/issues/1952|#1952]]
-      * backface-visibility:hidden - [[https://bugzilla.mozilla.org/show_bug.cgi?id=1508490#c6|Bugzilla summary]], [[https://github.com/w3c/csswg-drafts/issues/918|#918]]
+- 3-D transform interoperability (css-transforms-2), dbaron/mattwoodrow, mattwoodrow would like to call in (from New Zealand, so 11am PST or later, Mon/Tues)
+    - transform-style changes: [Bugzilla summary](https://bugzilla.mozilla.org/show_bug.cgi?id=1518368#c2), [#3138 (comment)](https://github.com/w3c/csswg-drafts/issues/3138#issuecomment-424064320), [#1944](https://github.com/w3c/csswg-drafts/issues/1944), [#1950](https://github.com/w3c/csswg-drafts/issues/1950), [#1951](https://github.com/w3c/csswg-drafts/issues/1951), [#1952](https://github.com/w3c/csswg-drafts/issues/1952)
+    - backface-visibility:hidden - [Bugzilla summary](https://bugzilla.mozilla.org/show_bug.cgi?id=1508490#c6), [#918](https://github.com/w3c/csswg-drafts/issues/918)
 
-=== Monday afternoon ===
+#### Monday afternoon
 
-== Selectors ==
-  * [[https://github.com/w3c/csswg-drafts/issues/3264|Error recovery in :is() :not()]], Eric Willigers (remote)
-  * [[https://github.com/w3c/csswg-drafts/issues/2296|[css-selectors] Selectors for “text-ish” and “button-ish” inputs]]
-  * [[https://github.com/w3c/csswg-drafts/issues/397|[css-selectors] Make <label> elements reflect CSS pseudoclasses on associated form element ]]
+##### Selectors
 
-== Pseudos ==
-  * [[https://github.com/w3c/csswg-drafts/issues/3607|[css-pseudo-4] Identity of Element.pseudo() return value]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3605|[css-pseudo-4] Specify better handling of text shadows for ::selection]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3603|[css-pseudo-4] Should Element.pseudo("unknown") be an error or return null?]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2960|[css-pseudo-4] new generated content pseudo :between/:separator]]
+- [Error recovery in :is() :not()](https://github.com/w3c/csswg-drafts/issues/3264), Eric Willigers (remote)
+- [[https://github.com/w3c/csswg-drafts/issues/2296|[css-selectors] Selectors for “text-ish” and “button-ish” inputs]]
+- [[https://github.com/w3c/csswg-drafts/issues/397|[css-selectors] Make <label> elements reflect CSS pseudoclasses on associated form element ]]
 
-== Resize Observer Breakout ==
-    * [[https://github.com/w3c/csswg-drafts/issues/3673]] Fragmentation support
-    * [[https://github.com/w3c/csswg-drafts/issues/3329#issuecomment-466737070 3329]] ResizeObserverEntry shape
-    * [[https://github.com/w3c/csswg-drafts/issues/3550]] Add offset pos
+##### Pseudos
 
-== Other ==
+- [[https://github.com/w3c/csswg-drafts/issues/3607|[css-pseudo-4] Identity of Element.pseudo() return value]]
+- [[https://github.com/w3c/csswg-drafts/issues/3605|[css-pseudo-4] Specify better handling of text shadows for ::selection]]
+- [[https://github.com/w3c/csswg-drafts/issues/3603|[css-pseudo-4] Should Element.pseudo("unknown") be an error or return null?]]
+- [[https://github.com/w3c/csswg-drafts/issues/2960|[css-pseudo-4] new generated content pseudo :between/:separator]]
 
-  * URL modifiers for image loading ([[https://github.com/w3c/csswg-drafts/issues/1603|crossorigin]], [[https://github.com/w3c/csswg-drafts/issues/2994| preload]], [[https://github.com/w3c/csswg-drafts/issues/2095| async]]), Amelia BR
+##### Resize Observer Breakout
 
-== Selectors again ==
+  - <https://github.com/w3c/csswg-drafts/issues/3673> Fragmentation support
+  - <https://github.com/w3c/csswg-drafts/issues/3329#issuecomment-466737070 3329> ResizeObserverEntry shape
+  - <https://github.com/w3c/csswg-drafts/issues/3550> Add offset pos
 
-  * [[https://github.com/w3c/csswg-drafts/issues/3012|[selectors] Solve :visited once and for all]]
+##### Other
 
-== Resize Observer ==
-  * Summarize breakout discussion
+- URL modifiers for image loading ([crossorigin](https://github.com/w3c/csswg-drafts/issues/1603), [ preload](https://github.com/w3c/csswg-drafts/issues/2994), [ async](https://github.com/w3c/csswg-drafts/issues/2095)), Amelia BR
 
-  * [[https://github.com/w3c/csswg-drafts/issues/3326]] Which boxes should an author be able to observe? (GregW Mon/Tues)
+##### Selectors again
 
-== other ==
-  * (if times allows:) CSS Tables spec methodology, frremy
-  * getting images' aspect ratio right from html attributes, fantasai (intro)
+- [[https://github.com/w3c/csswg-drafts/issues/3012|[selectors] Solve :visited once and for all]]
 
-=== Tuesday morning ===
+##### Resize Observer
 
-== Resize Observer ==
-  * [[https://github.com/w3c/csswg-drafts/issues/3554]] Device pixel border box removal from spec (GregW or Atotic - Tues)
+- Summarize breakout discussion
 
-== SVG ==
-  * [[https://github.com/w3c/csswg-drafts/issues/3414|CSS properties should apply to some SVG elements as well]] (krit: Europe friendly time please 10am-12pm)
+- <https://github.com/w3c/csswg-drafts/issues/3326> Which boxes should an author be able to observe? (GregW Mon/Tues)
 
-== Shadow/Contain/Scoping ==
-  * [[https://github.com/w3c/csswg-drafts/issues/3674|[css-shadow-parts] make clear that Shadow Parts for built-in elements should not be supported without standardization]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3280|[css-contain] contain: style does not seem useful.]]
-  * [[https://github.com/w3c/csswg-drafts/issues/1914|[css-scoping-1] Dynamic changes of state and attributes referenced by :host-context rules are pretty hard to handle efficiently.]]
+##### other
 
-=== Tuesday afternoon ===
+- (if times allows:) CSS Tables spec methodology, frremy
+- getting images' aspect ratio right from html attributes, fantasai (intro)
 
-== UI ==
-  * High Contrast, Rossen + Melanie (Tues)
+#### Tuesday morning
 
-== 3D breakout 2-3pm ==
+##### Resize Observer
 
-== UI continued ==
-  * [[https://github.com/w3c/csswg-drafts/issues/3344|[css-ui] The computed value rules of user-select is problematic.]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3024|[css-ui] Unprefix 'appearance' and/or make the spec web-compatible]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2846|Defining outline not to include descendants]], heycam
-  * [[https://github.com/w3c/csswg-drafts/issues/3401 | Drop navbeforescroll]]([[https://raw.githack.com/jihyerish/spatial-navigation/spatnav-behavior/demo/infinite-scroller/index.html |demo]]), Jihye (Tue)
-  * Go for FPWD of spatial navigation, Jihye (Tue)
-      * spatial navigation for novice: [[https://drafts.csswg.org/css-nav-1/ | spec]], [[https://wicg.github.io/spatial-navigation/demo/ | demo]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3299|Dark mode styling]], Rune Lillesveen (Mon/Tues)
+- <https://github.com/w3c/csswg-drafts/issues/3554> Device pixel border box removal from spec (GregW or Atotic - Tues)
 
-== Sadness ==
-  * [[https://github.com/w3c/csswg-drafts/issues/2390|[css-text-3] Implement or unship word-break:break-word]]
+##### SVG
 
+- [CSS properties should apply to some SVG elements as well](https://github.com/w3c/csswg-drafts/issues/3414) (krit: Europe friendly time please 10am-12pm)
 
-=== Wednesday morning ===
+##### Shadow/Contain/Scoping
 
-== SVG breakout 9-10am ==
+- [[https://github.com/w3c/csswg-drafts/issues/3674|[css-shadow-parts] make clear that Shadow Parts for built-in elements should not be supported without standardization]]
+- [[https://github.com/w3c/csswg-drafts/issues/3280|[css-contain] contain: style does not seem useful.]]
+- [[https://github.com/w3c/csswg-drafts/issues/1914|[css-scoping-1] Dynamic changes of state and attributes referenced by :host-context rules are pretty hard to handle efficiently.]]
 
-== Layout ==
-  * [[https://github.com/w3c/csswg-drafts/issues/3665|[css-grid-1] Include padding in scrollable overflow area]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3646|[css-grid] Consider setting base sizes to growth limits when sizing under max-content constraint]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3268|[css-sizing] Rethinking how to prevent overflow in a container with an explicit aspect ratio]]
+#### Tuesday afternoon
 
-== Values ==
-  * [[https://github.com/w3c/csswg-drafts/issues/2331|[css-values] Trigonometric functions]]
-  * [[https://github.com/w3c/csswg-drafts/issues/542|[css-values] String concatentation]]
-  * [[https://github.com/w3c/csswg-drafts/issues/541|[css-values] Add url() alias that does not accept unquoted URLs]]
+##### UI
 
-=== Wednesday afternoon ===
+- High Contrast, Rossen + Melanie (Tues)
 
-  * getting images' aspect ratio right from html attributes, fantasai (further discussion)
-  * [[https://github.com/w3c/csswg-drafts/issues/861|[css-inline] Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand?]]
-  * [[https://github.com/w3c/css-houdini-drafts/issues/854|Houdini ❤️ Text]]
-  * [[https://github.com/w3c/csswg-drafts/commit/a0c27afa0a50c462584511e617a20b687eb892af|text-wrap: multi-line]]
-  * [[https://github.com/w3c/csswg-drafts/issues/2847|-webkit-line-clamp compatibility issues]], heycam
-  * [[https://github.com/w3c/csswg-drafts/issues/1072#issuecomment-465362932|[css-multicol] How do elements between column-span and its multicol ancestor appear around the span ]], Rachel Andrew - reopened by dbaron
-  * [[https://github.com/w3c/csswg-drafts/issues/3224|[css-multicol] Improve column-fill and make it backward-compatible]], Rachel Andrew - examples in the final comment
-  * [[https://github.com/w3c/csswg-drafts/issues/3675|Font matching and Unicode]]
-  * [[https://github.com/w3c/csswg-drafts/issues/3440| hanging preserved white space and justification]], florian
-  * [[https://github.com/w3c/csswg-drafts/issues/337|Segment Break Transformation Rules for East Asian Width property of A ]], fantasai
-  * [[https://github.com/w3c/csswg-drafts/issues/3685|env(doc-title)]], florian
-=== Constraints ===
+##### 3D breakout 2-3pm
 
-  * dholbert is missing Monday, so bias layout topics to Tues/Wed
-  * High Contrast on Tues
-  * Eric is in Sydney, so schedule Error Recovery for an afternoon.
-  * rego is leaving early (after lunch) on Wednesday.
-  * smfr would prefer to avoid Wednesday
-  * GregW will be out most of Wednesday
-  * ChrisL in Europe, so prefers color, fonts, and graphics/paint issues mornings
+##### UI continued
+
+- [[https://github.com/w3c/csswg-drafts/issues/3344|[css-ui] The computed value rules of user-select is problematic.]]
+- [[https://github.com/w3c/csswg-drafts/issues/3024|[css-ui] Unprefix 'appearance' and/or make the spec web-compatible]]
+- [Defining outline not to include descendants](https://github.com/w3c/csswg-drafts/issues/2846), heycam
+- [ Drop navbeforescroll](https://github.com/w3c/csswg-drafts/issues/3401 )([demo](https://raw.githack.com/jihyerish/spatial-navigation/spatnav-behavior/demo/infinite-scroller/index.html )), Jihye (Tue)
+- Go for FPWD of spatial navigation, Jihye (Tue)
+    - spatial navigation for novice: [ spec](https://drafts.csswg.org/css-nav-1/ ), [ demo](https://wicg.github.io/spatial-navigation/demo/ )
+- [Dark mode styling](https://github.com/w3c/csswg-drafts/issues/3299), Rune Lillesveen (Mon/Tues)
+
+##### Sadness
+
+- [[https://github.com/w3c/csswg-drafts/issues/2390|[css-text-3] Implement or unship word-break:break-word]]
+
+#### Wednesday morning
+
+##### SVG breakout 9-10am
+
+##### Layout
+
+- [[https://github.com/w3c/csswg-drafts/issues/3665|[css-grid-1] Include padding in scrollable overflow area]]
+- [[https://github.com/w3c/csswg-drafts/issues/3646|[css-grid] Consider setting base sizes to growth limits when sizing under max-content constraint]]
+- [[https://github.com/w3c/csswg-drafts/issues/3268|[css-sizing] Rethinking how to prevent overflow in a container with an explicit aspect ratio]]
+
+##### Values
+
+- [[https://github.com/w3c/csswg-drafts/issues/2331|[css-values] Trigonometric functions]]
+- [[https://github.com/w3c/csswg-drafts/issues/542|[css-values] String concatentation]]
+- [[https://github.com/w3c/csswg-drafts/issues/541|[css-values] Add url() alias that does not accept unquoted URLs]]
+
+#### Wednesday afternoon
+
+- getting images' aspect ratio right from html attributes, fantasai (further discussion)
+- [[https://github.com/w3c/csswg-drafts/issues/861|[css-inline] Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand?]]
+- [Houdini ❤️ Text](https://github.com/w3c/css-houdini-drafts/issues/854)
+- [text-wrap: multi-line](https://github.com/w3c/csswg-drafts/commit/a0c27afa0a50c462584511e617a20b687eb892af)
+- [-webkit-line-clamp compatibility issues](https://github.com/w3c/csswg-drafts/issues/2847), heycam
+- [[https://github.com/w3c/csswg-drafts/issues/1072#issuecomment-465362932|[css-multicol] How do elements between column-span and its multicol ancestor appear around the span ]], Rachel Andrew - reopened by dbaron
+- [[https://github.com/w3c/csswg-drafts/issues/3224|[css-multicol] Improve column-fill and make it backward-compatible]], Rachel Andrew - examples in the final comment
+- [Font matching and Unicode](https://github.com/w3c/csswg-drafts/issues/3675)
+- [ hanging preserved white space and justification](https://github.com/w3c/csswg-drafts/issues/3440), florian
+- [Segment Break Transformation Rules for East Asian Width property of A ](https://github.com/w3c/csswg-drafts/issues/337), fantasai
+- [env(doc-title)](https://github.com/w3c/csswg-drafts/issues/3685), florian
+
+#### Constraints
+
+- dholbert is missing Monday, so bias layout topics to Tues/Wed
+- High Contrast on Tues
+- Eric is in Sydney, so schedule Error Recovery for an afternoon.
+- rego is leaving early (after lunch) on Wednesday.
+- smfr would prefer to avoid Wednesday
+- GregW will be out most of Wednesday
+- ChrisL in Europe, so prefers color, fonts, and graphics/paint issues mornings

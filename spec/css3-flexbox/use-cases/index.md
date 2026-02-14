@@ -1,16 +1,22 @@
-====== CSS Flexible Box Layout - Use Cases ======
+---
+title: "CSS Flexible Box Layout - Use Cases"
+---
+
+# CSS Flexible Box Layout - Use Cases
 
 This section is for documenting several flexbox usecases, and their solutions.
 
-==== 1. toolbar, where items (images + labels) are evenly spaced ====
+### 1. toolbar, where items (images + labels) are evenly spaced
 
 <html><table><tr><td></html>
-=== current draft ===
+
+#### current draft
 
 <html></td><td></html>
 
-=== 2009 spec ===
-//requires a spacer element//
+#### 2009 spec
+
+*requires a spacer element*
 
 <html></td></tr><tr><td></html>
 
@@ -63,8 +69,7 @@ This section is for documenting several flexbox usecases, and their solutions.
 
 <html></td></tr></table></html>
 
-==== 2. toolbar, where items are split into groups, and groups are evenly spaced ====
-
+### 2. toolbar, where items are split into groups, and groups are evenly spaced
 
 	<toolbar>
 		<toolgroup>
@@ -127,24 +132,16 @@ Or:
 	}
 	</style>
 
-
-
-==== 3. Vertical and horizontal toolbars ====
-
+### 3. Vertical and horizontal toolbars
 
 Same as before, except change 'flex-direction' appropriately, and adjust which 
 margins are flexible.
 
-
-
-==== 4. Multiline toolbar (example: tool menus in GIMP), with items in different lines aligned ====
-
+### 4. Multiline toolbar (example: tool menus in GIMP), with items in different lines aligned
 
 Explicitly not handled; will wait for some later flexgrid or improvements to table or something.
 
-
-==== 5. Horizontal navbar with all items equal width, filling the width of the page. ====
-
+### 5. Horizontal navbar with all items equal width, filling the width of the page.
 
 	<ul>
 		<li><a>Home</a></li>
@@ -161,10 +158,7 @@ Explicitly not handled; will wait for some later flexgrid or improvements to tab
 	}
 	</style>
 
-
-
-==== 6. Horizontal navbar with all items equally spaced (widths can be different) ====
-
+### 6. Horizontal navbar with all items equally spaced (widths can be different)
 
 	<ul>
 		<li><a>Home</a></li>
@@ -187,10 +181,7 @@ length other than 0.  The first argument specifies the preferred length, the sec
 specifies the growing flexibility and optionally the maximum length, the third (optional)
 argument specifies the shrinking flexibility and optionally the minimum length.
 
-
-
-==== 5b/6b. Horizontal navbar, with the active item indicated by positioning it differently (most items on bottom but active item is high, for example) ====
-
+### 5b/6b. Horizontal navbar, with the active item indicated by positioning it differently (most items on bottom but active item is high, for example)
 
 Same as above, but with:
 	<style>
@@ -202,9 +193,7 @@ Same as above, but with:
 	}
 	</style>
 
-
-==== 7. "Accordion"-style list - normally, only headers are visible.  When you expand a section, previous headers are pushed up, later headers are pushed down. ====
-
+### 7. "Accordion"-style list - normally, only headers are visible.  When you expand a section, previous headers are pushed up, later headers are pushed down.
 
 	<list>
 		<h1>foo</h1>
@@ -227,9 +216,7 @@ Same as above, but with:
 	}
 	</style>
 
-
-==== 8. Tab stack, for cardstack-style displays like many OS options screen have.  Tabs should be baseline aligned, should fill the width available.  The current active tab may be shifted to the start of the list.  Tabs may occupy multiple lines. ====
-
+### 8. Tab stack, for cardstack-style displays like many OS options screen have.  Tabs should be baseline aligned, should fill the width available.  The current active tab may be shifted to the start of the list.  Tabs may occupy multiple lines.
 
 	<tabs>
 		<tab>foo</tab>
@@ -253,10 +240,7 @@ Same as above, but with:
 
 Again, I am explicitly not addressing multiple lines right now.
 
-
-
-==== 9. The HTML <center> element (its effects are extremely useful and still unduplicable in CSS). ====
-
+### 9. The HTML <center> element (its effects are extremely useful and still unduplicable in CSS).
 
 	<center>
 		<p>foo foo foo foo</p>
@@ -275,9 +259,7 @@ Again, I am explicitly not addressing multiple lines right now.
 	}
 	</style>
 
-
-==== 10. Gmail message display, with small indicators pressed against the left/right and the message title as wide as possible in the middle. ====
-
+### 10. Gmail message display, with small indicators pressed against the left/right and the message title as wide as possible in the middle.
 
 	<message>
 		<grabber>
@@ -307,10 +289,7 @@ Again, I am explicitly not addressing multiple lines right now.
 	}
 	</style>
 
-
-
-==== 11. Chatroom input line, with a submit button on one side, and an <input> or <textarea> filling all the remaining space on the line. (In the case of a textarea, the button is usually as tall as the textarea as well.) ====
-
+### 11. Chatroom input line, with a submit button on one side, and an <input> or <textarea> filling all the remaining space on the line. (In the case of a textarea, the button is usually as tall as the textarea as well.)
 
 	<chatroom>
 		<messages>
@@ -342,10 +321,7 @@ Again, I am explicitly not addressing multiple lines right now.
 	}
 	</style>
 
-
-
-==== 12. Footer with small bits of info on the left and right, and the main info centered between them.  (For some reason this was very popular in UI mockups at my old job.) ====
-
+### 12. Footer with small bits of info on the left and right, and the main info centered between them.  (For some reason this was very popular in UI mockups at my old job.)
 
 	<footer>
 		<leftinfo>foo</leftinfo>
@@ -371,10 +347,7 @@ Again, I am explicitly not addressing multiple lines right now.
 	}
 	</style>
 
-
-
-==== 13. In an article, like a recipe blog, have sections of picture+discription where the image is on one side and the text is on the other, and the text may be shorter or longer than the picture. Text shouldn't wrap under the picture. ====
-
+### 13. In an article, like a recipe blog, have sections of picture+discription where the image is on one side and the text is on the other, and the text may be shorter or longer than the picture. Text shouldn't wrap under the picture.
 
 	<figure>
 		<figcaption>foo bar baz</figcaption>

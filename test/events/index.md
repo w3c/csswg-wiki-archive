@@ -1,12 +1,16 @@
-====== Test the Web Forward Events ======
+---
+title: "Test the Web Forward Events"
+---
 
-These are planning pages for [[http://testthewebforward.org/|Test the Web Forward]] events. If you want to plan or host one, and send a message to public-css-testsuite to call for participation!
+# Test the Web Forward Events
 
-===== Upcoming Events =====
+These are planning pages for [Test the Web Forward](http://testthewebforward.org/) events. If you want to plan or host one, and send a message to public-css-testsuite to call for participation!
 
-  * [[test:events:paris-2012]]
-  * [[test:events:beijing-2012]]
+## Upcoming Events
 
-===== Past Events =====
+- [paris-2012](/test/events/paris-2012/)
+- [beijing-2012](/test/events/beijing-2012/)
 
-  * San Francisco 2012
+## Past Events
+
+- San Francisco 2012

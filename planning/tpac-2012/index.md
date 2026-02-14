@@ -1,163 +1,171 @@
-====== TPAC 2012 ======
+---
+title: "TPAC 2012"
+---
 
-CSS will meet during [[http://www.w3.org/2012/10/TPAC/|TPAC 2012]], which runs from Monday 29 October through Friday 2 November, in Lyon, France.  The CSS working group will be meeting on **Sunday**, Monday, and Tuesday, October 28-30.
+# TPAC 2012
 
-**Logistics**: [[http://www.w3.org/2012/10/TPAC/|TPAC 2012]] (including registration)
+CSS will meet during [TPAC 2012](http://www.w3.org/2012/10/TPAC/), which runs from Monday 29 October through Friday 2 November, in Lyon, France.  The CSS working group will be meeting on **Sunday**, Monday, and Tuesday, October 28-30.
 
-===== Meeting Minutes ====
+**Logistics**: [TPAC 2012](http://www.w3.org/2012/10/TPAC/) (including registration)
+
+## Meeting Minutes
+
 **Sunday, 28 October:**
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0253.html|Sunday AM I]], Style Attributes, Writing  Modes, Text, Text Decoration
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0254.html|Sunday AM II]], Spec Shortnames, Prioritization
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0252.html|Sunday AM III]], Conditional Rules, Sizing
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0249.html|Sunday PM I]], Collisions, Exclusions,  Line Layout
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0250.html|Sunday PM II]], Paged Media, Box, Fragmentation,  Overflow Regions
+- [Sunday AM I](http://lists.w3.org/Archives/Public/www-style/2012Nov/0253.html), Style Attributes, Writing  Modes, Text, Text Decoration
+- [Sunday AM II](http://lists.w3.org/Archives/Public/www-style/2012Nov/0254.html), Spec Shortnames, Prioritization
+- [Sunday AM III](http://lists.w3.org/Archives/Public/www-style/2012Nov/0252.html), Conditional Rules, Sizing
+- [Sunday PM I](http://lists.w3.org/Archives/Public/www-style/2012Nov/0249.html), Collisions, Exclusions,  Line Layout
+- [Sunday PM II](http://lists.w3.org/Archives/Public/www-style/2012Nov/0250.html), Paged Media, Box, Fragmentation,  Overflow Regions
 **Monday, 29 October:**
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0258.html|Monday AM I]], HTMLWG/CSSWG Coordination
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0260.html|Monday AM II]], Regions, Multicol
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0259.html|Monday PM I]], Masking, Compositing
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0261.html|Monday PM II]], Animations, Transforms
+- [Monday AM I](http://lists.w3.org/Archives/Public/www-style/2012Nov/0258.html), HTMLWG/CSSWG Coordination
+- [Monday AM II](http://lists.w3.org/Archives/Public/www-style/2012Nov/0260.html), Regions, Multicol
+- [Monday PM I](http://lists.w3.org/Archives/Public/www-style/2012Nov/0259.html), Masking, Compositing
+- [Monday PM II](http://lists.w3.org/Archives/Public/www-style/2012Nov/0261.html), Animations, Transforms
 **Tuesday, 30 October:**
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0262.html|Tuesday AM I]], Abstract Directions, Transforms,  Transitions
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0263.html|Tuesday AM II]], text-overflow, case-sensitivity,  Grid Layout
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0265.html|Tuesday PM I]], AltSS, Cascade, HTML5,  Conditional Rules
-  * [[http://lists.w3.org/Archives/Public/www-style/2012Nov/0264.html|Tuesday PM II]], Display Models, Animations
+- [Tuesday AM I](http://lists.w3.org/Archives/Public/www-style/2012Nov/0262.html), Abstract Directions, Transforms,  Transitions
+- [Tuesday AM II](http://lists.w3.org/Archives/Public/www-style/2012Nov/0263.html), text-overflow, case-sensitivity,  Grid Layout
+- [Tuesday PM I](http://lists.w3.org/Archives/Public/www-style/2012Nov/0265.html), AltSS, Cascade, HTML5,  Conditional Rules
+- [Tuesday PM II](http://lists.w3.org/Archives/Public/www-style/2012Nov/0264.html), Display Models, Animations
 
-===== Participants =====
+## Participants
+
 Sorted by family name:
-^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
+
+| Name | Representing | Arrive | Leave | Hotel | Flight Info | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
 | Glenn Adams | Cox | Oct 28 | Nov 02 | Hilton (Lyon) | TGV6605/6628 | +TTWF |
 | David Baron | Mozilla | Oct 27 | Nov 3 | Hôtel de la Cité Concorde | TGV | +TTWF |
-| Tantek Çelik | Mozilla | 2012-10-29 | 2012-11-02 | Hôtel de la Cité Concorde | BA362 17:35 / BA361 11:35 | |
+| Tantek Çelik | Mozilla | 2012-10-29 | 2012-11-02 | Hôtel de la Cité Concorde | BA362 17:35 / BA361 11:35 |  |
 | Arron Eicholz | Microsoft | 28 Oct | 31 Oct | Hilton (Lyon) | AF3639 on 25 Oct, TGV6605/6620 | +TTWF |
 | fantasai | Mozilla | 27 Oct | 3 Nov | Cité Internationale Temporim | TGV6631/??? | +TTWF |
-| John Jansen | Microsoft | 28 Oct | 31 Oct | Hôtel de la Cité Concorde | AF3639 on 25 Oct, TGV6613/6620 | +TTWF | 
-| Taichi KAWABATA | NTT | 27 Oct | 3 Nov | IBIS LYON plais des congres | AF7648 | |
+| John Jansen | Microsoft | 28 Oct | 31 Oct | Hôtel de la Cité Concorde | AF3639 on 25 Oct, TGV6613/6620 | +TTWF |
+| Taichi KAWABATA | NTT | 27 Oct | 3 Nov | IBIS LYON plais des congres | AF7648 |  |
 | Peter Linss | HP | Oct 27 | Nov 04 | Hilton (Lyon) | TGV6631/6616 | +TTWF |
 | Edward O'Connor | Apple | 2012-10-27 | 2012-11-03 | Hôtel Le Roosevelt | TGV5601/5550 | +TTWF |
-| Florian Rivoal | Invited Expert | Oct 26| Oct 28 | Mercure Lyon Saxe Lafayette |TGV 6633/6674 |
-| Simon Sapin | Kozea | (Based in Lyon, not travelling) ||| TCL C26 | AC meeting on Tuesday afternoon |
+| Florian Rivoal | Invited Expert | Oct 26 | Oct 28 | Mercure Lyon Saxe Lafayette | TGV 6633/6674 |  |
+| Simon Sapin | Kozea | (Based in Lyon, not travelling) |  |  | TCL C26 | AC meeting on Tuesday afternoon |
 | Dirk Schulze | Adobe | Oct 28 | Oct 31 |  |  | +TTWF |
 | Alan Stearns | Adobe | Oct 28 | Nov 04 | AirBNB apt. | TGV6631/AF 7651 | +TTWF |
-| Leif Storset | Opera | Oct 26 | Nov 01 | Hôtel de la Cité Concorde | LX538/533 | |
-| Anton Prowse | Invited Expert | 27 Oct | 31 Oct | Cité Internationale Temporim | | |
-| Koji Ishii | Rakuten | 27 Oct | 3 Nov | Hilton | BA362/AA041 | |
-| Sylvain Galineau | Microsoft | 25 Oct | 1 Nov | Hilton (Lyon) | | +TTWF |
-| Rossen Atanassov | Microsoft | 27 Oct | 1 Nov | Hilton (Lyon) | | |
-| Lea Verou | W3C | 27 Oct | 3 Nov | La Rene Astrid | | +TTWF |
+| Leif Storset | Opera | Oct 26 | Nov 01 | Hôtel de la Cité Concorde | LX538/533 |  |
+| Anton Prowse | Invited Expert | 27 Oct | 31 Oct | Cité Internationale Temporim |  |  |
+| Koji Ishii | Rakuten | 27 Oct | 3 Nov | Hilton | BA362/AA041 |  |
+| Sylvain Galineau | Microsoft | 25 Oct | 1 Nov | Hilton (Lyon) |  | +TTWF |
+| Rossen Atanassov | Microsoft | 27 Oct | 1 Nov | Hilton (Lyon) |  |  |
+| Lea Verou | W3C | 27 Oct | 3 Nov | La Rene Astrid |  | +TTWF |
 | Jet Villegas | Mozilla | Oct 27 | Nov 1 | Hôtel de la Cité Concorde | TGV | +TTWF |
 
 Regrets: John Daggett, Molly Holzschlag
-===== Agenda =====
 
-==== Sunday ====
-== AM ==
+## Agenda
 
-  * Style Attr
-  * Writing Modes
-  * CSS Text Level 3 open issues
-  * CSS Text Decorations Level 3 open issues
-  * CSS Prioritization
+### Sunday
 
-  * css3-conditional update
-  * CSS3 Sizing update WD?
-    * Intrinsic Sizing of Multi-column Elements
-  * CSS collision http://lists.w3.org/Archives/Public/www-archive/2012Oct/att-0120/Overview.html
+##### AM
 
-== PM ==
+- Style Attr
+- Writing Modes
+- CSS Text Level 3 open issues
+- CSS Text Decorations Level 3 open issues
+- CSS Prioritization
 
-  * css3-exclusions: open issues
-  * Line Module
-  * css3-page: layout of page-margin boxes. Mail [[http://lists.w3.org/Archives/Public/www-style/2012Jul/0036.html|1]], [[http://lists.w3.org/Archives/Public/www-style/2012Jun/0184.html|2]]; [[https://github.com/SimonSapin/css/blob/master/margin-boxes-variable-dimension|proposed replacement]]
-  * css3-page: [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0769.html|initial containing block]]
-  * css3-box:
-    * true horizontal centering: use 'margin: fill' or a new property?
-    * vertical justification or leaders (of which vertical centering is a special case): use 'margin: fill', something with leaders(), or something else?
-  * css3-break: [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0428.html|relative positioning]], [[http://lists.w3.org/Archives/Public/www-style/2012Sep/0304.html|zero-height fragmentainers]]
-  * Overflow regions
+- css3-conditional update
+- CSS3 Sizing update WD?
+  - Intrinsic Sizing of Multi-column Elements
+- CSS collision http://lists.w3.org/Archives/Public/www-archive/2012Oct/att-0120/Overview.html
 
+##### PM
 
-==== Monday ====
-== AM ==
+- css3-exclusions: open issues
+- Line Module
+- css3-page: layout of page-margin boxes. Mail [1](http://lists.w3.org/Archives/Public/www-style/2012Jul/0036.html), [2](http://lists.w3.org/Archives/Public/www-style/2012Jun/0184.html); [proposed replacement](https://github.com/SimonSapin/css/blob/master/margin-boxes-variable-dimension)
+- css3-page: [initial containing block](http://lists.w3.org/Archives/Public/www-style/2012Oct/0769.html)
+- css3-box:
+  - true horizontal centering: use 'margin: fill' or a new property?
+  - vertical justification or leaders (of which vertical centering is a special case): use 'margin: fill', something with leaders(), or something else?
+- css3-break: [relative positioning](http://lists.w3.org/Archives/Public/www-style/2012Oct/0428.html), [zero-height fragmentainers](http://lists.w3.org/Archives/Public/www-style/2012Sep/0304.html)
+- Overflow regions
 
-  * HTML5 style issues
-  * css3-regions: stacking contexts, elements, [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0304.html|box generation]], [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0564.html|ICB]]
-  * Multicol
+### Monday
 
+##### AM
 
-== PM ==
+- HTML5 style issues
+- css3-regions: stacking contexts, elements, [box generation](http://lists.w3.org/Archives/Public/www-style/2012Oct/0304.html), [ICB](http://lists.w3.org/Archives/Public/www-style/2012Oct/0564.html)
+- Multicol
 
-  * **Group photo!**
-  * CSS Masking publish FPWD? Discuss open issues (expected 30min discussion)
-    * Issue 1: add new keywords to mask-clip [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0557.html]]
-    * Issue 2: 'clip' as shorthand for 'clip-path' or deprecated but mandatory? [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0643.html]]
-  * CSS Blending and Compositing
-    * isolation group on compositing
-    * proceed with blending 
-  * css3-animations: update, issues
-  * CSS Transforms
-    * interpolation of 2D matrices [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0513.html]]
-    * integration of 3D context into 2D document [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0507.html]]
-    * containing block usage in spec incorrect [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=16328]]
-    * LCWD? (depends on outcome of discussions)
+##### PM
 
+- **Group photo!**
+- CSS Masking publish FPWD? Discuss open issues (expected 30min discussion)
+  - Issue 1: add new keywords to mask-clip <http://lists.w3.org/Archives/Public/www-style/2012Oct/0557.html>
+  - Issue 2: 'clip' as shorthand for 'clip-path' or deprecated but mandatory? <http://lists.w3.org/Archives/Public/www-style/2012Oct/0643.html>
+- CSS Blending and Compositing
+  - isolation group on compositing
+  - proceed with blending 
+- css3-animations: update, issues
+- CSS Transforms
+  - interpolation of 2D matrices <http://lists.w3.org/Archives/Public/www-style/2012Oct/0513.html>
+  - integration of 3D context into 2D document <http://lists.w3.org/Archives/Public/www-style/2012Oct/0507.html>
+  - containing block usage in spec incorrect <https://www.w3.org/Bugs/Public/show_bug.cgi?id=16328>
+  - LCWD? (depends on outcome of discussions)
 
-==== Tuesday ====
-== AM ==
+### Tuesday
 
-  * CSS Transforms - followup
-  * case-sensitivity of user-idents (joint with i18n)
-  * before/after vs. head/foot
-  * Grid Layout and line-based addressing
-  * css3-conditional LC/CR
-  * css3-ui: [[http://www.w3.org/Style/CSS/Tracker/issues/279|text-overflow:ellipsis selection behavior - issue 279]] (raised in 2009-11 minutes http://lists.w3.org/Archives/Public/www-style/2009Nov/0219.html)
+##### AM
 
-== PM ==
+- CSS Transforms - followup
+- case-sensitivity of user-idents (joint with i18n)
+- before/after vs. head/foot
+- Grid Layout and line-based addressing
+- css3-conditional LC/CR
+- css3-ui: [text-overflow:ellipsis selection behavior - issue 279](http://www.w3.org/Style/CSS/Tracker/issues/279) (raised in 2009-11 minutes http://lists.w3.org/Archives/Public/www-style/2009Nov/0219.html)
 
-  * HTML5 challenges:
-    * SVG: 'display: svg'? 'display: foreign'? (The latter signals Namespace-dependent rendering)
-    * Math: add math boxes? or 'display: foreign'? (But in that case, how to handle baselines and line breaking?)
-    * <details>: two pseudo-classes, ':normal' and ':alt'?
-    * seamless: 'height: complex' (same as 'auto', but for a replaced element whose height depends on its width in more complicated ways than via an aspect ratio)?
-  * Alternate stylesheets
+##### PM
 
+- HTML5 challenges:
+  - SVG: 'display: svg'? 'display: foreign'? (The latter signals Namespace-dependent rendering)
+  - Math: add math boxes? or 'display: foreign'? (But in that case, how to handle baselines and line breaking?)
+  - <details>: two pseudo-classes, ':normal' and ':alt'?
+  - seamless: 'height: complex' (same as 'auto', but for a replaced element whose height depends on its width in more complicated ways than via an aspect ratio)?
+- Alternate stylesheets
 
-===== Proposed Topics =====
+## Proposed Topics
 
-  * css3-conditional LC/CR
-  * case-sensitivity of user-idents (joint with i18n)
-  * Alternate stylesheets
-  * css3-page: layout of page-margin boxes. Mail [[http://lists.w3.org/Archives/Public/www-style/2012Jul/0036.html|1]], [[http://lists.w3.org/Archives/Public/www-style/2012Jun/0184.html|2]]; [[https://github.com/SimonSapin/css/blob/master/margin-boxes-variable-dimension|proposed replacement]]
-  * css3-page: [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0769.html|initial containing block]]
-  * before/after vs. head/foot
-  * Grid Layout and line-based addressing
-  * Writing Modes
-  * Intrinsic Sizing of Multi-column Elements
-  * CSS3 Sizing update WD?
-  * css3-regions: stacking contexts, elements, [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0304.html|box generation]], [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0564.html|ICB]]
-  * css3-break: [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0428.html|relative positioning]], [[http://lists.w3.org/Archives/Public/www-style/2012Sep/0304.html|zero-height fragmentainers]]
-  * css3-ui: text-overflow:ellipsis
-  * css3-animations: update, issues
-  * css3-exclusions: open issues
-  * CSS Transforms
-    * interpolation of 2D matrices [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0513.html]]
-    * integration of 3D context into 2D document [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0507.html]]
-    * containing block usage in spec incorrect [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=16328]]
-    * LCWD? (depends on outcome of discussions)
-  * CSS Masking publish FPWD? Discuss open issues (expected 30min discussion)
-    * Issue 1: add new keywords to mask-clip [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0557.html]]
-    * Issue 2: 'clip' as shorthand for 'clip-path' or deprecated but mandatory? [[http://lists.w3.org/Archives/Public/www-style/2012Oct/0643.html]]
-  * HTML5 challenges:
-    * SVG: 'display: svg'? 'display: foreign'? (The latter signals Namespace-dependent rendering)
-    * Math: add math boxes? or 'display: foreign'? (But in that case, how to handle baselines and line breaking?)
-    * <details>: two pseudo-classes, ':normal' and ':alt'?
-    * seamless: 'height: complex' (same as 'auto', but for a replaced element whose height depends on its width in more complicated ways than via an aspect ratio)?
-  * css3-box:
-    * true horizontal centering: use 'margin: fill' or a new property?
-    * vertical justification or leaders (of which vertical centering is a special case): use 'margin: fill', something with leaders(), or something else?
-  * CSS Blending and Compositing
-    * isolation group on compositing
-    * proceed with blending 
-  * CSS Text Level 3 open issues
-  * CSS Text Decorations Level 3 open issues
-  * CSS collision http://lists.w3.org/Archives/Public/www-archive/2012Oct/att-0120/Overview.html
-  * **Group photo!**
+- css3-conditional LC/CR
+- case-sensitivity of user-idents (joint with i18n)
+- Alternate stylesheets
+- css3-page: layout of page-margin boxes. Mail [1](http://lists.w3.org/Archives/Public/www-style/2012Jul/0036.html), [2](http://lists.w3.org/Archives/Public/www-style/2012Jun/0184.html); [proposed replacement](https://github.com/SimonSapin/css/blob/master/margin-boxes-variable-dimension)
+- css3-page: [initial containing block](http://lists.w3.org/Archives/Public/www-style/2012Oct/0769.html)
+- before/after vs. head/foot
+- Grid Layout and line-based addressing
+- Writing Modes
+- Intrinsic Sizing of Multi-column Elements
+- CSS3 Sizing update WD?
+- css3-regions: stacking contexts, elements, [box generation](http://lists.w3.org/Archives/Public/www-style/2012Oct/0304.html), [ICB](http://lists.w3.org/Archives/Public/www-style/2012Oct/0564.html)
+- css3-break: [relative positioning](http://lists.w3.org/Archives/Public/www-style/2012Oct/0428.html), [zero-height fragmentainers](http://lists.w3.org/Archives/Public/www-style/2012Sep/0304.html)
+- css3-ui: text-overflow:ellipsis
+- css3-animations: update, issues
+- css3-exclusions: open issues
+- CSS Transforms
+  - interpolation of 2D matrices <http://lists.w3.org/Archives/Public/www-style/2012Oct/0513.html>
+  - integration of 3D context into 2D document <http://lists.w3.org/Archives/Public/www-style/2012Oct/0507.html>
+  - containing block usage in spec incorrect <https://www.w3.org/Bugs/Public/show_bug.cgi?id=16328>
+  - LCWD? (depends on outcome of discussions)
+- CSS Masking publish FPWD? Discuss open issues (expected 30min discussion)
+  - Issue 1: add new keywords to mask-clip <http://lists.w3.org/Archives/Public/www-style/2012Oct/0557.html>
+  - Issue 2: 'clip' as shorthand for 'clip-path' or deprecated but mandatory? <http://lists.w3.org/Archives/Public/www-style/2012Oct/0643.html>
+- HTML5 challenges:
+  - SVG: 'display: svg'? 'display: foreign'? (The latter signals Namespace-dependent rendering)
+  - Math: add math boxes? or 'display: foreign'? (But in that case, how to handle baselines and line breaking?)
+  - <details>: two pseudo-classes, ':normal' and ':alt'?
+  - seamless: 'height: complex' (same as 'auto', but for a replaced element whose height depends on its width in more complicated ways than via an aspect ratio)?
+- css3-box:
+  - true horizontal centering: use 'margin: fill' or a new property?
+  - vertical justification or leaders (of which vertical centering is a special case): use 'margin: fill', something with leaders(), or something else?
+- CSS Blending and Compositing
+  - isolation group on compositing
+  - proceed with blending 
+- CSS Text Level 3 open issues
+- CSS Text Decorations Level 3 open issues
+- CSS collision http://lists.w3.org/Archives/Public/www-archive/2012Oct/att-0120/Overview.html
+- **Group photo!**

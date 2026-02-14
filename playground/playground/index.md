@@ -1,17 +1,19 @@
-====== PlayGround ======
+---
+title: "PlayGround"
+---
+
+# PlayGround
 
 paragraph
 
-<note example>
-  Example
-</note>
+> [!NOTE]
+> Example
 
-  * list item
+- list item
 
-<note tip>
-  Tip
-</note>
+> [!TIP]
+> Tip
 
-  ; term : definition
+term : definition
 
 http://www.savagecreek.net/CSS/Test/CSS3/Page/new/page-img-orient-001.xht

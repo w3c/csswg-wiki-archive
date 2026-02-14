@@ -1,9 +1,15 @@
-====== Fragments, Columns, Regions, Pages ======
-//Background/overview Notes and examples in support of discussion on Regions and paged view//
+---
+title: "Fragments, Columns, Regions, Pages"
+---
 
-See [[Page View]] for use cases and proposals
+# Fragments, Columns, Regions, Pages
 
-===== Layout Engine with Fragmentation Support =====
+*Background/overview Notes and examples in support of discussion on Regions and paged view*
+
+See [Page View](/Page View/) for use cases and proposals
+
+## Layout Engine with Fragmentation Support
+
 Implementations of regions, columns and paginations will vary but in most general situation it is reasonable to assume that there is a layout engine that takes formatted content in DOM as input and fills one or more container with that content:
 
 <html>
@@ -37,7 +43,7 @@ Implementations of regions, columns and paginations will vary but in most genera
 </html>
 
 That's what all layout engines do, the most common cases being 
-  * Layout for screen
+- Layout for screen
 
 <html>
 <div class="figure" style="border:thin solid silver; width:35em; margin:auto; padding:1em; font-size:66%; -float:right; clear:right;">
@@ -61,7 +67,7 @@ That's what all layout engines do, the most common cases being
 </html>
 
 (there is only one container, usually with auto height) and 
-  * printing
+- printing
 
 <html>
 <div class="figure" style="border:thin solid silver; width:35em; margin:auto; padding:1em; font-size:66%; -float:right; clear:right;">
@@ -96,13 +102,11 @@ That's what all layout engines do, the most common cases being
 
 This doesn't yet show what layout engine do, it just shows some possible situations. It could be noted that if containers exist before layout engine has done any work, we must be assuming that containers are exernal to layout engine. That is not necessarily so, we are just trying to keep these general illustrations simple.
 
-
-
-===== Fragmentation =====
+## Fragmentation
 
 When layout engine actually does its work, it outputs pieces of content that are laid out to fit into given containers. For the purposes of describing the layout process, let's call filling multiple containers with content "fragmentation". Then the containers can be called "space fragments" and visual representation of portions of content will be "fragment boxes". 
 
-//Note: This is not an attempt to introduce formal definitions or terminology for fragmentation (fragmentation will have a [[spec:css4-page|dedicated module]]). The purpose of this summary is to visualize possible relationships between content, conainers and layout results, which, hopefully, will be useful for evaluation of proposed solution in this space. Feel free to correct any trems or concepts if they look inconsistent with formal definitions elsewhere//
+*Note: This is not an attempt to introduce formal definitions or terminology for fragmentation (fragmentation will have a [dedicated module](/spec/css4-page/)). The purpose of this summary is to visualize possible relationships between content, conainers and layout results, which, hopefully, will be useful for evaluation of proposed solution in this space. Feel free to correct any trems or concepts if they look inconsistent with formal definitions elsewhere*
 
 <html>
 <div class="figure" style="border:thin solid silver; width:35em; margin:auto; padding:1em;">
@@ -274,37 +278,38 @@ Note that as layout engine fills containers with content, there may be content t
 
 Which gets us to the questions of "where do the containers come from?" and "how to get more?"
 
-===== Containers =====
+## Containers
 
 Considering that a target container for fragmentation is a rectangle or shape with size and possibly position, there are many ways to create and manage theem. 
 
 Some existing or anticipated ways to provide containers for fragmentation are
 
-  * Columns
-    * As defined in css3-multicol ([[http://www.w3.org/TR/css3-multicol/|CR]])
-    * With column selectors ([[http://dev.w3.org/csswg/css3-gcpm/#regions|ED]])
-  * Pages
-    * Printing or print preview (built-in in browsers)
-    * Automatic page view ([[http://dev.w3.org/csswg/css3-gcpm/#paged-presentations|ED]])
-    * Regions+script page view ([[http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions|ED]], [[http://www.w3.org/TR/css3-regions/#cssom_view_and_css_regions|WD]])
-    * Page templates ([[http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml|EPub proposal]])
-  * Regions
-    * Static ([[http://dev.w3.org/csswg/css3-regions/|ED]], [[http://www.w3.org/TR/css3-regions/|WD]])
-    * Scripted ([[http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions|ED]], [[http://www.w3.org/TR/css3-regions/#cssom_view_and_css_regions|WD]])
-    * Generated (discussion: ?)
+- Columns
+  - As defined in css3-multicol ([CR](http://www.w3.org/TR/css3-multicol/))
+  - With column selectors ([ED](http://dev.w3.org/csswg/css3-gcpm/#regions))
+- Pages
+  - Printing or print preview (built-in in browsers)
+  - Automatic page view ([ED](http://dev.w3.org/csswg/css3-gcpm/#paged-presentations))
+  - Regions+script page view ([ED](http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions), [WD](http://www.w3.org/TR/css3-regions/#cssom_view_and_css_regions))
+  - Page templates ([EPub proposal](http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml))
+- Regions
+  - Static ([ED](http://dev.w3.org/csswg/css3-regions/), [WD](http://www.w3.org/TR/css3-regions/))
+  - Scripted ([ED](http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions), [WD](http://www.w3.org/TR/css3-regions/#cssom_view_and_css_regions))
+  - Generated (discussion: ?)
 
 Let's compare the different kinds of fragmenting containers, specifically looking at who is in control and how they are manated dynamically:
-^ Container type ^ how created ^ dynamic ? ^ details ^
-| **Columns - CSS3** | "columns:N"\\ multicol properties | partially | new columns are added in overfrlow |
-| **Columns - new** | automatic | dynamic | control size & position sith column selectors:\\ article::column(2) {...} | 
+
+| Container type | how created | dynamic ? | details |
+| --- | --- | --- | --- |
+| **Columns - CSS3** | "columns:N"<br> multicol properties | partially | new columns are added in overfrlow |
+| **Columns - new** | automatic | dynamic | control size & position sith column selectors:<br> article::column(2) {...} |
 | **Pages - print** | printing app or layout engine in print mode; hardcoded | dynamic | follows paged media spec; no reading UI defined beyond print preview |
 | **Pages - auto paged view** | "overflow:paged" | dynamic | by default all "pages" are same size; can be customized with page selectors (like columns); default UI |
-| **Pages - regions+script** | from script  | script | all custom, no declarative page generation, no default UI, all in script |
+| **Pages - regions+script** | from script | script | all custom, no declarative page generation, no default UI, all in script |
 | **Pages - page templates** | automatic | dynamic | a set of templates and template selection rules; multiple flows can be supported; no default UI; can be combined with any other generated containers |
 | **Regions - static** | "flow-from:<flowname>" | static | current specs don't define declarative ways to generate regions |
 | **Regions - scripted** | regionOverflow, regionLayoutUpdate | script | regions spec adds minimal API for layout results and timing |
 
-===== Using fragmentation =====
+## Using fragmentation
 
-See [[Page View]]
-
+See [Page View](/Page View/)

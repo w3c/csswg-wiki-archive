@@ -1,10 +1,14 @@
-==== Region Styling: Proposed alternate syntax ====
+---
+title: "Region Styling: Proposed alternate syntax"
+---
+
+### Region Styling: Proposed alternate syntax
 
 PAGE OBSOLETE: in light of the discussion on www-style (see http://lists.w3.org/Archives/Public/www-style/2012Mar/0490.html), there seem to be a 
 preference for sticking to the @region syntax. The getComputedStyle API can be provided differently, for example as a method on the
 Region interface (e.g., Region.getComputedStyle(elem)).
 
-== Problem Description ==
+##### Problem Description
 
 With regions, element (or pseudo-element) boxes are often broken into multiple pieces that are laid out in different regions. 
 For example, it is possible to move an element and its generated box with width:100% to a named flow and 
@@ -21,17 +25,18 @@ a particular region.
 
 For example:
 
-<code>
+```
 @region #myDiv {
     h2 {
         color: red;
     }
 }
-</code>
+```
 
 can be interpreted as specifying an additional property for the:
 
-<code>h2::in-region(regionA)</code> pseudo-element, where the '::in-region(<region-name>)' 
+```
+h2::in-region(regionA)</code> pseudo-element, where the '::in-region(<region-name>)' 
 pseudo-element selects the fragment of 'h2' that fits into '<region-name>'.
 
 This assumes that we are able to identify regions uniquely and uniformly (i.e., no matter whether 
@@ -43,31 +48,30 @@ For the sake of the discussion, let's assume we are using a 'region-name' proper
 #myDiv {
     region-name: regionA;
 }
-</code>
+```
 
 If we follow that model, the used style for the content falling into a particular region could be retrieved as:
 
-<code>
+```
 var myDiv = document.getElementById('myDiv');
 window.getComputedStyle(myDiv,'::in-region(regionA)');
-</code>
+```
 
 The issues with the current @region rule are:
 
-  - requires [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15116|additional DOM interfaces]] DOM interfaces to access the @rule
-  - is not consistent with ::first-line and other existing pseudo-elements which select a fragment of an element
-  - inconsistency between the CSS syntax (@region) and the getComputedStyle calls (use '::in-region' or equivalent)
+1. requires [additional DOM interfaces](https://www.w3.org/Bugs/Public/show_bug.cgi?id=15116) DOM interfaces to access the @rule
+1. is not consistent with ::first-line and other existing pseudo-elements which select a fragment of an element
+1. inconsistency between the CSS syntax (@region) and the getComputedStyle calls (use '::in-region' or equivalent)
 
-=== Proposal ===
+#### Proposal
 
 Modify the region styling syntax to be consistent with existing 'fragment' selectors:
 
-  - Add a 'region-name' property to assign a name to a region
-  - Introduce the '::in-region(<region-name>)' pseudo-element
-  - use the pseudo-element instead of the @region rule and use that pseudo-element to access the used style with getComputedStyle.
+1. Add a 'region-name' property to assign a name to a region
+1. Introduce the '::in-region(<region-name>)' pseudo-element
+1. use the pseudo-element instead of the @region rule and use that pseudo-element to access the used style with getComputedStyle.
 
-
-<code>
+```
 #myDiv {
    region-name: regionA;
 }
@@ -75,21 +79,22 @@ Modify the region styling syntax to be consistent with existing 'fragment' selec
 h2::in-region(regionA) {
    color: red;
 }
-</code>
+```
 
-=== Open questions ===
-  * Limitation: styling pseudo elements
+#### Open questions
 
-According to the [[http://dev.w3.org/csswg/selectors3/#w3cselgrammar|Selectors Level 3]] specification: 
+- Limitation: styling pseudo elements
+
+According to the [Selectors Level 3](http://dev.w3.org/csswg/selectors3/#w3cselgrammar) specification: 
    
-<file>
+```
 ... pseudo-elements are restricted to one per selector and occur only in the last simple_selector_sequence.
-</file>
+```
 
 which prevents the combination of a '::before' pseudo-element selector with another '::in-region()' pseudo selector.
 In a situation like:
 
-<code>
+```
 #myElement {
     flow-into: article;
 }
@@ -98,23 +103,23 @@ In a situation like:
     content: "The quick brown fox";
 }
 
-</code>
+```
 
 There is no way to select the fragment of #myElement::before that falls into, say, regionA. That selector would be:
 
-<code>
+```
 #myElement::before::in-region(regionA);
-</code>
+```
 
 but that would require combining pseudo-elements, which is not possible currently with Selector 3.
 
 Proposal: accept the limitation of Selector 3. If that gets lifted in Selector 4, authors will get more flexibility.
  
-  * Limitation: nested regions.
+- Limitation: nested regions.
 
 Consider the following use case:
 
-<code>
+```
 <div id="postit-A"></div>
 <div id="postit-B"></div>
 
@@ -131,7 +136,7 @@ Consider the following use case:
 	flow-into: block-flow;
 	flow-from: article;
 }
-</code>
+```
 
 What if we want to have special styling for a '.title' that falls into regionB if regionB is in postit-A but not in postit-B?
 

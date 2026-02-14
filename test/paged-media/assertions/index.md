@@ -1,3 +1,7 @@
+---
+title: "Page Terminology and the Page Model"
+---
+
 <markdown>
 
 <h2>CSS3 Paged Media Testable Assertions List</h2>
@@ -58,7 +62,9 @@ Tests:
 </div>
 
 <h3 class="section">
-===== Page Terminology and the Page Model =====
+
+## Page Terminology and the Page Model
+
 </h3>
 
 </li>
@@ -95,16 +101,6 @@ Tests:
 <li class="assertion">
 The top-center margin box's margin edges are defined by a variable-width box centered horizontally between the page's left and right border edges and filling the top page margin between the top-left and top-right margin boxes.
 : <blockquote><div></div></blockquote>
-
-
-
-
-
-
-
-
-
-
 
 <div class="tests">
 Tests:
@@ -229,7 +225,8 @@ Tests:
 
 <h3>
 
-===== Page types =====
+## Page types
+
 </h3>
 
 </li>
@@ -260,8 +257,8 @@ Tests:
 
 <h3>
 
+## Page size
 
-===== Page size =====
 </h3>
 
 </li>
@@ -493,7 +490,8 @@ Tests:
 
 <h3>
 
-===== Rendering page boxes that do not fit a page sheet =====
+## Rendering page boxes that do not fit a page sheet
+
 </h3>
 
 </li>
@@ -512,7 +510,8 @@ Tests:
 
 <h3>
 
-===== Positioning the page box on the sheet =====
+## Positioning the page box on the sheet
+
 </h3>
 
 </li>
@@ -525,7 +524,8 @@ Tests:
 
 <h3>
 
-===== Page Selectors and the Page Context =====
+## Page Selectors and the Page Context
+
 </h3>
 
 </li>
@@ -547,8 +547,8 @@ Tests:
 
 <h3>
 
+## Page Selector Grammar
 
-===== Page Selector Grammar =====
 </h3>
 
 </li>
@@ -570,8 +570,8 @@ Tests:
 
 <h3>
 
+## Cascading in the page context
 
-===== Cascading in the page context =====
 </h3>
 
 </li>
@@ -603,8 +603,8 @@ Tests:
 
 <h3>
 
+## Page Properties
 
-===== Page Properties =====
 </h3>
 
 </li>
@@ -805,7 +805,6 @@ The 'content' property applies to margin boxes.
 <div class="tests">
 Tests:
 
-
 </div>
 
 </li>
@@ -928,10 +927,10 @@ When a page break splits a box, the box's margins, borders, and padding have no 
 Tests:
 </div>
 
-
 <h3>
 
-===== Left, right, and first pages =====
+## Left, right, and first pages
+
 </h3>
 
 </li>
@@ -975,7 +974,8 @@ page-first-000.xht, page-first-001.xht</div>
 
 <h3>
 
-===== Margin Boxes =====
+## Margin Boxes
+
 </h3>
 
 </li>
@@ -1077,7 +1077,7 @@ If the above constraints are contradictory ("over-constrained") then the right m
 : <blockquote><div></div></blockquote>
 <h3>
 
-==== bottom row ====
+### bottom row
 
 </h3>
 </li>
@@ -1144,7 +1144,8 @@ If the above constraints are contradictory ("over-constrained") then the right m
 : <blockquote><div>The used values for bottom-left, bottom-center and bottom-right are established by the same rules.</div></blockquote>
 <h3>
 
-==== left side ====
+### left side
+
 </h3>
 </li>
 <li class="assertion">
@@ -1210,7 +1211,7 @@ If the above constraints are contradictory ("over-constrained") then the bottom 
 : <blockquote><div>The used values for left-top, left-middle and left-bottom boxes are established by the same rules, with "width" replaced by "height", "left" by "top", "right" by "bottom" and "center" by "middle".</div></blockquote>
 <h3>
 
-==== right side ====
+### right side
 
 </h3>
 </li>
@@ -1277,7 +1278,8 @@ If the above constraints are contradictory ("over-constrained") then the bottom 
 : <blockquote><div>The used values for right-top, right-middle and right-bottom boxes are established by the same rules as for left-top, left-middle and left-bottom.</div></blockquote>
 <h3>
 
-===== Margin boxes and default values =====
+## Margin boxes and default values
+
 </h3>
 </li>
 <li class="assertion">
@@ -1287,7 +1289,8 @@ XXX When 'vertical-align' is set on margin boxes, it affects the placement of co
 
 <h3>
 
-===== Populating margin boxes =====
+## Populating margin boxes
+
 </h3>
 </li>
 <li class="assertion">
@@ -1308,7 +1311,8 @@ The value of the counter at the beginning of page processing must be used by def
 
 <h3>
 
-===== Page Breaks =====
+## Page Breaks
+
 </h3>
 </li>
 <li class="assertion">
@@ -1445,7 +1449,8 @@ The 'avoid' value of the 'page-break-inside' property inhibits a page break insi
 : <blockquote><div>avoid: Avoid a page break before / after / inside the generated box.</div></blockquote>
 <h3>
 
-===== Using named pages: 'page' =====
+## Using named pages: 'page'
+
 </h3>
 </li>
 <li class="assertion">
@@ -1474,7 +1479,8 @@ If a block box with inline content has a 'page' property that is different from 
 : <blockquote><div>If a block box with inline content has a 'page' property that is different from the preceding block box with inline content, then one or two page breaks are inserted between them, and the boxes after the break are rendered on a page box of the named type.</div></blockquote>
 <h3>
 
-===== Breaks inside elements: 'orphans', 'windows' =====
+## Breaks inside elements: 'orphans', 'windows'
+
 </h3>
 </li>
 <li class="assertion">
@@ -1538,7 +1544,8 @@ The 'widows' property specifies the minimum number of line boxes of a block that
 : <blockquote><div>The 'windows' property specifies the minimum number of line boxes of a block that must be left at the top of a page.</div></blockquote>
 <h3>
 
-===== Allowed page breaks =====
+## Allowed page breaks
+
 </h3>
 </li>
 <li class="assertion">
@@ -1582,7 +1589,8 @@ If even after dropping the restrictions due to 'avoid' values on 'page-break-*' 
 
 <h3>
 
-===== Forced Page Breaks =====
+## Forced Page Breaks
+
 </h3>
 </li>
 <li class="assertion">
@@ -1601,7 +1609,8 @@ A page break MUST occur in the vertical margin between block boxes (or rows in a
 : <blockquote><div>A page break MUST also occur at (1) if the last line box above this margin and the first one below it do not have the same value for 'page'.</div></blockquote>
 <h3>
 
-===== Orienting an image on the Page: the image-orientation property =====
+## Orienting an image on the Page: the image-orientation property
+
 </h3>
 </li>
 <li class="assertion">
@@ -1674,7 +1683,8 @@ A negative value for 'image-orientation' rotates the image to the left (in a cou
 : <blockquote><div>Negative values rotate to the left or in a counter-clockwise direction.</div></blockquote>
 <h3>
 
-===== The 'image-fit' and 'image-position' Properties =====
+## The 'image-fit' and 'image-position' Properties
+
 </h3>
 </li>
 <li class="assertion">

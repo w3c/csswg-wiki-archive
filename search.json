@@ -1,0 +1,20 @@
+---
+layout: null
+---
+[
+{%- assign all_pages = site.pages | sort: "title" -%}
+{%- assign first = true -%}
+{%- for page in all_pages -%}
+{%- if page.title and page.url != "/search/" -%}
+{%- assign content = page.content | strip_html | normalize_whitespace | truncate: 5000 | jsonify -%}
+{%- assign title = page.title | jsonify -%}
+{%- unless first %},{% endunless -%}
+{%- assign first = false %}
+  {
+    "title": {{ title }},
+    "url": "{{ page.url | relative_url }}",
+    "content": {{ content }}
+  }
+{%- endif -%}
+{%- endfor -%}
+]

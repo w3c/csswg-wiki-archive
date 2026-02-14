@@ -1,30 +1,34 @@
-===== Introduction =====
+---
+title: "Introduction"
+---
+
+## Introduction
 
 THIS PAGE IS DEPRECATED AND REPLACED BY: [ http://wiki.csswg.org/ideas/css3-exclusions-use-cases ]
 
 This page contains use cases for exclusions and comparative examples of markup using the CSS Exclusions and Shapes proposal, CSS3 Floats and Daniel Glazman's proposal.
 
-==== Proposals ====
+### Proposals
 
-  * CSS Exclusions and Shapes: [ http://dev.w3.org/csswg/css3-exclusions/ ]
-  * CSS3 Floats: [ http://www.interoperabilitybridges.com/css3-floats/ ]
-  * Daniel Glazman: [ http://lists.w3.org/Archives/Public/www-style/2011Jun/0457.html ]
+- CSS Exclusions and Shapes: [ http://dev.w3.org/csswg/css3-exclusions/ ]
+- CSS3 Floats: [ http://www.interoperabilitybridges.com/css3-floats/ ]
+- Daniel Glazman: [ http://lists.w3.org/Archives/Public/www-style/2011Jun/0457.html ]
 
-==== Each Model in 3 Questions ====
+### Each Model in 3 Questions
 
 This section describes each of the proposed model according to the following questions:
 
-  * How do you define an exclusion shape?
-  * What is the container model?
-  * What is affected by an exclusion?
+- How do you define an exclusion shape?
+- What is the container model?
+- What is affected by an exclusion?
 
-=== CSS Exclusions and Shapes Proposal in 3 Questions ===
+#### CSS Exclusions and Shapes Proposal in 3 Questions
 
-== How do you define an exclusion shape? ==
+##### How do you define an exclusion shape?
 
 Done by the wrap-flow property. By default, the wrap/exclusion shape is the element's box. A different shape can be defined by the shape-outside mode property. The same shape applies to both the inside content and the outside content.
 
-== What is the container model? ==
+##### What is the container model?
 
 There are two sides to this: the shape-inside for the internal content and the exclusion shape defined shape-outside for the content outside the exclusion element. By default the shape-inside property is the same as shape-outside.
 
@@ -32,7 +36,7 @@ For internal content, the closest shape-inside, defined on an ancestor, defines 
 
 For external content, the z-index property controls the order of exclusions applied to elements. Elements can also be protected from exclusions overlapping them.  See next question.
 
-== What is affected by an exclusion? ==
+##### What is affected by an exclusion?
 
 Exclusions are applied in reverse to the document order in which they are defined.  
 The last exclusion appears on top of all other exclusions.
@@ -41,45 +45,46 @@ For elements with a position value other than static, the z-index property can a
 
 The wrapping contex of sibling elements of an exclusion element will be affected by the exclusion. To protect the wrapping context of an element the 'wrap-through' property needs to be set to none on the element to be protected. 
 
-=== CSS3 Floats Proposal in 3 Questions ===
+#### CSS3 Floats Proposal in 3 Questions
 
-== How do you define an exclusion shape? ==
+##### How do you define an exclusion shape?
 
 Done by setting float:positioned property.
 
 To set a shape different than the default (the border box of the element) the wrap-shape property is used. 
 Note that if an element is not float:positioned and has wrap-shape value other than 'auto' the inner inline content of the element will still wrap into that shape.
 
-== What is the container model? ==
+##### What is the container model?
 
 Same as the default CSS model. 
 
-== What is affected by an exclusion? ==
+##### What is affected by an exclusion?
 
 Exclusions defined in a container affect the content of that container.
 
-=== Daniel's Proposal in 3 Questions ===
+#### Daniel's Proposal in 3 Questions
 
-== How do you define an exclusion shape? ==
+##### How do you define an exclusion shape?
 
 With the region shorthand or the region-image, region-size and other region-* properties, which parallel the background-* properties. Content can be laid out inside or outside the region defined by the region-* properties.
 
-== What is the container model? ==
+##### What is the container model?
 
 Regular CSS containment.
 
-== What is affected by an exclusion? ==
+##### What is affected by an exclusion?
 
 The content in an element is affected by the stacking of the region-image and the region-restriction properties defined on itself and its ancestors.
 
-===== UC 1: simple exclusion =====
+## UC 1: simple exclusion
 
 One exclusion over two columns of content.
 
-{{:ideas:css3-floats-use-cases:exclusions_simple.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_simple.jpg)
 
-==== CSS Exclusions and Shapes ====
-<code html>
+### CSS Exclusions and Shapes
+
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -117,12 +122,11 @@ One exclusion over two columns of content.
 	</div>
 </body>
 </html>
-</code>
+```
 
-==== CSS3 Floats ====
+### CSS3 Floats
 
-
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -160,10 +164,11 @@ One exclusion over two columns of content.
 	</div>
 </body>
 </html>   
-</code>
+```
 
-==== Daniel Glazman's proposal ====
-<code html>
+### Daniel Glazman's proposal
+
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -185,16 +190,17 @@ One exclusion over two columns of content.
 	</div>
 </body>
 </html>
-</code> 
+```
 
+## UC 2: overlapping exclusions
 
-===== UC 2: overlapping exclusions =====
 Multiple overlapping exclusions that affect each other and the content around them.
 
-{{:ideas:css3-floats-use-cases:exclusions_overlapping.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_overlapping.jpg)
 
-==== CSS Exclusions and Shapes ====
-<code html>
+### CSS Exclusions and Shapes
+
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -237,11 +243,12 @@ Multiple overlapping exclusions that affect each other and the content around th
 	</div>
 </body>
 </html> 
-</code>
+```
         
 
-==== CSS3 Floats ====
-<code html>
+### CSS3 Floats
+
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -286,15 +293,13 @@ Multiple overlapping exclusions that affect each other and the content around th
 	</div>
 </body>
 </html>   
-</code>
+```
 
-
-
-==== Daniel Glazman's proposal ====
+### Daniel Glazman's proposal
 
 Limitation: cannot add "exclusion" on a custom-shaped element. See details in the issues section.
 
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -345,20 +350,19 @@ Limitation: cannot add "exclusion" on a custom-shaped element. See details in th
 	</div>
 </body>
 </html>
-</code>  
+```
 
-===== UC 3: repeating shapes =====
+## UC 3: repeating shapes
+
 Repeating exclusion shape on x, y or both axes.
 
-{{:ideas:css3-floats-use-cases:exclusions_repeating.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_repeating.jpg)
 
+### CSS Exclusions and Shapes
 
-
-
-==== CSS Exclusions and Shapes ====   
 <html><span style="color:red">No support for repeating exclusion shapes. Solution:TBD</span></html>
 
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -384,12 +388,11 @@ Repeating exclusion shape on x, y or both axes.
 	</div>
 </body>
 </html>
-</code>
+```
 
+### CSS3 Floats
 
-
-==== CSS3 Floats ====
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -422,12 +425,11 @@ Repeating exclusion shape on x, y or both axes.
 	</div>
 </body>
 </html>   
-</code>
+```
 
+### Daniel Glazman's proposal
 
-
-==== Daniel Glazman's proposal ====
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -453,25 +455,24 @@ Repeating exclusion shape on x, y or both axes.
 	</div>
 </body>
 </html>
-</code>  
+```
 
+## UC 4: disjoint shapes
 
-
-
-===== UC 4: disjoint shapes ======
 Multiple disjoint shapes that compose an exclusion
 
-{{:ideas:exclusions_disjoint_shapes.jpg?500|}}
-==== Resources: ====
+![](../../assets/images/ideas/exclusions_disjoint_shapes.jpg)
+
+### Resources:
 
 Image to determine the disjoint shapes by alpha channel transparency.
 
-{{:ideas:css3-floats-use-cases:exclusions_disjoint_shapes_mask.png?300|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_disjoint_shapes_mask.png)
 
-==== CSS Exclusions and Shapes ====
+### CSS Exclusions and Shapes
 
 Multiple solutions possible with single image, multiple positioned images or SVG shapes.
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -524,13 +525,12 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 	</div>
 </body>
 </html>
-</code>
+```
 
+### CSS3 Floats
 
-
-==== CSS3 Floats ====
 Multiple solutions possible with single image, multiple positioned images or SVG shapes.
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -566,15 +566,14 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 	</div>
 </body>
 </html>      
-</code>
+```
 
+### Daniel Glazman's proposal
 
-
-==== Daniel Glazman's proposal ====
 Multiple solutions possible with single image or multiple positioned images.
 The mask and the shape of the overlying article need to be manually aligned. 
 This gets more complex on adaptive layouts.
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -641,21 +640,18 @@ This gets more complex on adaptive layouts.
 	</div>
 </body>
 </html>
-</code>  
+```
 
+## UC 5: reusable exclusion
 
-
-
-===== UC 5: reusable exclusion =====
 Reuse an exclusion shape on different elements
 
-{{:ideas:css3-floats-use-cases:exclusions_reusable.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_reusable.jpg)
 
+### CSS Exclusions and Shapes
 
-
-==== CSS Exclusions and Shapes ====
 * low reusability: requires duplication of markup
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css">
@@ -717,13 +713,12 @@ Reuse an exclusion shape on different elements
 	</div> 
 </body>
 </html>
-</code>
+```
 
+### CSS3 Floats
 
-
-==== CSS3 Floats ====
 * low reusability: requires duplication of markup
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css">
@@ -786,13 +781,12 @@ Reuse an exclusion shape on different elements
 	</div> 
 </body>
 </html>   
-</code>
+```
 
+### Daniel Glazman's proposal
 
-
-==== Daniel Glazman's proposal ====
 good reusability of the region-image without additional placeholder markup
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -827,22 +821,19 @@ good reusability of the region-image without additional placeholder markup
 	</div> 
 </body>
 </html> 
-</code>  
+```
 
+## UC 6: shape transforms
 
-
-
-===== UC 6: shape transforms =====
 Apply transformations (scale, skew, rotate) to an exclusion shape.
 
-{{:ideas:css3-floats-use-cases:exclusions_transforms.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_transforms.jpg)
 
+### CSS Exclusions and Shapes
 
-
-==== CSS Exclusions and Shapes ====
 (!) Content inside the shape will have transformations applied, as well
 
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css">
@@ -907,14 +898,13 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 	</div> 
 </body>
 </html>
-</code>
+```
 
+### CSS3 Floats
 
-
-==== CSS3 Floats ====
 (!) Content inside the shape will have transformations applied, as well
 
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css">
@@ -978,26 +968,23 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 	</div> 
 </body>
 </html>   
-</code>
+```
 
+### Daniel Glazman's proposal
 
-
-==== Daniel Glazman's proposal ====
 Limitation:
-  * Rotation: can't do programatic transforms on region-image. Need a separate image.
-  * Scale/size: region-size excluded from Daniel's proposal "since it could lead to extremely expensive and deep recursion"
+- Rotation: can't do programatic transforms on region-image. Need a separate image.
+- Scale/size: region-size excluded from Daniel's proposal "since it could lead to extremely expensive and deep recursion"
 
+## UC 7: padding and margin on custom shape
 
-
-===== UC 7: padding and margin on custom shape =====
 Custom-shaped container with margin for outer content and padding for inner content
 
-{{:ideas:css3-floats-use-cases:exclusions_padding_margin.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_padding_margin.jpg)
 
+### CSS Exclusions and Shapes
 
-
-==== CSS Exclusions and Shapes ====
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -1029,12 +1016,11 @@ Custom-shaped container with margin for outer content and padding for inner cont
 	</div>
 </body>
 </html>     
-</code>
+```
 
+### CSS3 Floats
 
-
-==== CSS3 Floats ====
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -1066,15 +1052,14 @@ Custom-shaped container with margin for outer content and padding for inner cont
 	</div>
 </body>
 </html>   
-</code>
+```
 
+### Daniel Glazman's proposal
 
-
-==== Daniel Glazman's proposal ====
 Limitation: region-image only affects the container, no effect on the bottom element. The "margin" is faked with another image. 
 
 Question: How does padding work? There is no explicit padding method specified. Is the standard "padding" method overloaded?  
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -1115,20 +1100,19 @@ Question: How does padding work? There is no explicit padding method specified. 
 	</div>
 </body>
 </html>
-</code>  
-
+```
 
    
 
-===== UC 8: background image and container shape =====
+## UC 8: background image and container shape
+
 Custom-shaped container with a background image / background color.
 
-{{:ideas:css3-floats-use-cases:exclusions_background.jpg?500|}}
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_background.jpg)
 
+### CSS Exclusions and Shapes
 
-
-==== CSS Exclusions and Shapes ====
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -1164,12 +1148,11 @@ Custom-shaped container with a background image / background color.
 	</div>
 </body>
 </html>
-</code>
+```
 
+### CSS3 Floats
 
-
-==== CSS3 Floats ====
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -1201,12 +1184,11 @@ Custom-shaped container with a background image / background color.
 	</div>
 </body>
 </html>    
-</code>
+```
 
+### Daniel Glazman's proposal
 
-
-==== Daniel Glazman's proposal ====
-<code html>
+```html
 <html>
 <head>
 	<style type="text/css"> 
@@ -1231,17 +1213,17 @@ Custom-shaped container with a background image / background color.
 	</div>
 </body>
 </html>
-</code>  
+```
 
-===== UC 9: Drop Cap =====
+## UC 9: Drop Cap
 
 One exclusion along a text.
 
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions-dropcap.png)
 
-{{:ideas:css3-floats-use-cases:exclusions-dropcap.png?500|}}
+### CSS Exclusions and Shapes
 
-==== CSS Exclusions and Shapes ====
-<code html>
+```html
 <style>
 	/* with SVG shape */
 	 #dropMany{      
@@ -1260,11 +1242,11 @@ One exclusion along a text.
      <p><span id="dropMany">Many</span> instances ...</p>
      <p>The text ....</p>
 </div>     
-</code>
+```
 
-==== CSS3 Floats ====
+### CSS3 Floats
 
-<code html>
+```html
 <style>
 	/* with SVG shape */
 	#dropMany{ 
@@ -1277,10 +1259,11 @@ One exclusion along a text.
      <p><span id="dropMany">Many</span> instances ...</p>
      <p>The text ....</p>
 </div> 
-</code>
-==== Daniel Glazman's Proposal ====
+```
 
-<code html>
+### Daniel Glazman's Proposal
+
+```html
 <style>
 	#dropMore{
 		region-restriction: outside; 
@@ -1292,46 +1275,50 @@ One exclusion along a text.
      <p><span id="dropMore">Many</span> instances ...</p>
      <p>The text ....</p>
 </div>  
-</code>
-===== Issues =====
+```
 
-==== CSS Exclusions and Shapes ====
+## Issues
 
-=== Limitations overview: === 
-  * [regression] no support for repeating exclusion shapes or images
-  * (?) [TBD: is this still applicable?] Probable dependencies on child layout to determine parent's layout and exclusion goes against classic CSS thinking / implementation.
-    * Possible circular dependencies
-  * reusability of shapes requires duplication of HTML markup
+### CSS Exclusions and Shapes
 
-==== CSS3 Floats ====
+#### Limitations overview:
 
-  * (?) how are overlapping shapes affecting each other? 
-    * using z-index?
-  * reusability of shapes requires duplication of HTML markup
+- [regression] no support for repeating exclusion shapes or images
+- (?) [TBD: is this still applicable?] Probable dependencies on child layout to determine parent's layout and exclusion goes against classic CSS thinking / implementation.
+  - Possible circular dependencies
+- reusability of shapes requires duplication of HTML markup
 
+### CSS3 Floats
 
-==== Daniel Glazman's proposal ====
+- (?) how are overlapping shapes affecting each other? 
+  - using z-index?
+- reusability of shapes requires duplication of HTML markup
 
-=== Limitations overview ===
-  * An element can't determine a live exclusion for another. Shapes are defined on both elements and have to be kept in sync by some scripting method.
-  * An element can't have a shape and part of it excluded because there's only one "region-restriction" property  per element. 
-  * The following example cannot be achieved with two independent images
-{{:ideas:css3-floats-use-cases:exclusions_glazman-limitation-1.jpg?340|}}
-  * Shapes are currently defined only by static images. Support for SVG-defined shapes (like Exclusions & CSS3Floats) would enable scripted manipulation of shapes.
-  * Cannot have transforms on only the exclusion image (rotation, scale)
+### Daniel Glazman's proposal
+
+#### Limitations overview
+
+- An element can't determine a live exclusion for another. Shapes are defined on both elements and have to be kept in sync by some scripting method.
+- An element can't have a shape and part of it excluded because there's only one "region-restriction" property  per element. 
+- The following example cannot be achieved with two independent images
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_glazman-limitation-1.jpg)
+- Shapes are currently defined only by static images. Support for SVG-defined shapes (like Exclusions & CSS3Floats) would enable scripted manipulation of shapes.
+- Cannot have transforms on only the exclusion image (rotation, scale)
    ** transforms need to happen on the entire container, thus affecting the contents, as well
-  * (?) How do padding and margin work with region-image? How can I affect the inside of a shape?
+- (?) How do padding and margin work with region-image? How can I affect the inside of a shape?
 
-=== region-image ===
-  * (?) How do I specify the alpha channel threshold?
+#### region-image
 
-=== region-restriction ===
+- (?) How do I specify the alpha channel threshold?
+
+#### region-restriction
+
 A custom-shaped element cannot be an exclusion for another.
 No support for both inside shape and outside exclusion.
 
 Currently, I need two elements with the same image shape:
-  * one for "content shape" on the overlapping element (top element)
-  * one for "exclusion" on the affected element (bottom element). **Overlapping needs to be handled manually**, probably with absolute positioning. Difficult for adaptive layout!
+- one for "content shape" on the overlapping element (top element)
+- one for "exclusion" on the affected element (bottom element). **Overlapping needs to be handled manually**, probably with absolute positioning. Difficult for adaptive layout!
 
 <html><span style="color:red">Currently, it is impossible to have an element shaped and part of it excluded by another element!</span></html>
 I can define only one region-restriction property per element.

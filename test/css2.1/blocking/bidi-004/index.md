@@ -1,13 +1,18 @@
-====== Ian Hickson's diabolical bidi-004 ======
+---
+title: "Ian Hickson's diabolical bidi-004"
+---
 
-==== Test cases ====
+# Ian Hickson's diabolical bidi-004
 
-  * [[http://test.csswg.org/suites/css2.1/latest/html4/bidi-004.htm|bidi-004]] - Ian Hickson
+### Test cases
 
-==== Relevant links ====
+- [bidi-004](http://test.csswg.org/suites/css2.1/latest/html4/bidi-004.htm) - Ian Hickson
 
-  * http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0096.html
-==== Discussion ====
+### Relevant links
+
+- http://lists.w3.org/Archives/Public/public-css-testsuite/2010Dec/0096.html
+
+### Discussion
 
 This is a complex test involving the interaction of bidi, white space collapsing, borders, padding, and shrink-wrapping. UAs fail in various ways.
 
@@ -21,6 +26,6 @@ Bidi embedding terminated at <br> as if it was the end of a block: WebKit (https
 
 [Test result analysis needed for IE]
 
-==== Proposal ====
+### Proposal
 
 Make it undefined in CSS2.1 whether white space stripping happens before or after bidi reordering. Leave definition intact for CSS3 Text. Split test.

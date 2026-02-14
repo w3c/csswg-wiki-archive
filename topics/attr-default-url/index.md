@@ -1,4 +1,8 @@
-====== Default (fallback) URL for attr() ======
+---
+title: "Default (fallback) URL for attr()"
+---
+
+# Default (fallback) URL for attr()
 
 ---- dataentry  ----
 Spec_tags     : css3-values
@@ -9,17 +13,17 @@ Action        : Approve the proposal?
 Issue_urls    : http://dev.w3.org/csswg/css3-values/issues-lc-2012 #issue-18
 Proposal_urls : 
 Agenda_urls   :  #If this is part of an ordered series of related topics, e.g. LC issues, use this to link to the supertopic agenda
-----
 
-=== Background ===
+---
+
+#### Background
 
 attr(foo url) needs to return a value when the foo attribute does not exist. Right now that value is a UA-dependent invalid URL.
 
-=== Problem Statement ===
+#### Problem Statement
 
 What URL should be returned as the always-invalid UA-dependent URL?
 
-=== Proposal(s) ===
+#### Proposal(s)
 
-Proposed to return ''about:invalid'', which is an invalid URL.
-
+Proposed to return `about:invalid`, which is an invalid URL.

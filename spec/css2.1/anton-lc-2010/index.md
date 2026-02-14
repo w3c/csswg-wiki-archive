@@ -1,4 +1,8 @@
-====== Anton's 2010 LC Major Comments Email ======
+---
+title: "Anton's 2010 LC Major Comments Email"
+---
+
+# Anton's 2010 LC Major Comments Email
 
 http://lists.w3.org/Archives/Public/www-style/2010Dec/0312.html
 
@@ -33,8 +37,8 @@ http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20html%3E%0D%
 Wrt element vs. box, we're not tackling this issue in CSS2.1, and this part of the text is non-normative anyway. Deferred to CSS3.
 
 Wrt the linked email http://lists.w3.org/Archives/Public/www-style/2010Aug/0416.html
-  * If the top and bottom margins of an element with clearance are adjoining, they always collapse, so the change is not necessary.
-  * The second suggestion may make the text more precise, but it does not make it clearer, so no change.
+- If the top and bottom margins of an element with clearance are adjoining, they always collapse, so the change is not necessary.
+- The second suggestion may make the text more precise, but it does not make it clearer, so no change.
 
 The suggestion to add "all of its in-flow children's margins (if any) collapse." seem redundant with the existing statement that "A collapsed margin is considered adjoining to another margin if any of its component margins is adjoining to that margin."
 
@@ -383,9 +387,12 @@ Extra redundancy. Not a problem. No change.
      # box start at the top and bottom of the content area, [...]
   
   The wording is poor.  David Baron suggests:
-     | The vertical padding, border and margin of an inline, non-replaced
-     | element start at the top and bottom of the content area of the
-     | inline box, [...]
+
+| The vertical padding, border and margin of an inline, non-replaced |
+| --- |
+| element start at the top and bottom of the content area of the |
+| inline box, [...] |
+
   
   Status: proposal given, but unfiled.
 
@@ -420,10 +427,13 @@ Replace 'line-height' with 'height of the inline box' (to tie into 10.8.1).
      # influence these calculations just like elements with content.
   with:
   
-     | Empty inline elements generate empty inline boxes, but these boxes
-     | still have a line height, a baseline and typically non-zero content
-     | area height (in addition to margins, padding and borders) and thus
-     | influence these calculations just like elements with content.
+
+| Empty inline elements generate empty inline boxes, but these boxes |
+| --- |
+| still have a line height, a baseline and typically non-zero content |
+| area height (in addition to margins, padding and borders) and thus |
+| influence these calculations just like elements with content. |
+
   
   and link "a baseline and typically non-zero content area height" to the
   new sentence in the Working Draft:
@@ -481,15 +491,21 @@ Add baselines to the list of characteristics of an empty inline box in errata.
   These should be moved up to above the definition of the 'vertical-align'
   property, and they should be preceded by the following paragraph:
   
-     | The baseline of inline-level boxes which are not inline non-replaced
-     | boxes is defined to be the bottom margin edge, except in the
-     | following cases.
+
+| The baseline of inline-level boxes which are not inline non-replaced |
+| --- |
+| boxes is defined to be the bottom margin edge, except in the |
+| following cases. |
+
   
   Then, alter the second paragraph quoted above as follows:
   
-     | The baseline of an 'inline-block' with at least one in-flow line box
-     | and whose 'overflow' property has a computed value of 'visible' is
-     | the baseline of its last line box in the normal flow.
+
+| The baseline of an 'inline-block' with at least one in-flow line box |
+| --- |
+| and whose 'overflow' property has a computed value of 'visible' is |
+| the baseline of its last line box in the normal flow. |
+
   
   Finally, delete the second sentence of the definition of the 'baseline'
   value of the 'vertical-align' property:

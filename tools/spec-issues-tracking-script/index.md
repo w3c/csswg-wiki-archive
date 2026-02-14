@@ -1,4 +1,8 @@
-==== Specification issues tracking script ====
+---
+title: "Specification issues tracking script"
+---
+
+### Specification issues tracking script
 
 WORK IN PROGRESS. NOT READY FOR REVIEW.
 
@@ -7,15 +11,15 @@ Bugzilla system to track the issues in the specification.
 
 The scripts described here offer the following features:
 
-  - check that the issues text matches the one in the specification.
-  - check which issues listed in the specification are stale and should be removed.
-  - check which issues in Bugzilla are new and should be listed in the specification.
-  - provides snippets of the code to cut and paste when a new issue is added.
+1. check that the issues text matches the one in the specification.
+1. check which issues listed in the specification are stale and should be removed.
+1. check which issues in Bugzilla are new and should be listed in the specification.
+1. provides snippets of the code to cut and paste when a new issue is added.
 
-=== How to use the issues tracking script ===
+#### How to use the issues tracking script
 
 To enable the tracking script, add the following to your document: 
 
-<file>
+```
 <script>...</script>
-</file>
+```

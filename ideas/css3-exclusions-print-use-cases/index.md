@@ -1,20 +1,24 @@
-==== Use Cases from Print Layouts for Exclusions and Shapes ====
+---
+title: "Use Cases from Print Layouts for Exclusions and Shapes"
+---
 
-=== Shapes ===
+### Use Cases from Print Layouts for Exclusions and Shapes
 
-{{ :spec:css3-floats-use-cases:2columns_1excl.png?nolink |}}
+#### Shapes
 
-Here there's a circle shape affecting the flow of two columns. This could be done as a float with a shape (with the addition of a float-offset property), as an absolutely positioned exclusion, or with grid positioning placing an exclusion over a multicol element or pair of regions. You can see a markup example of a reconstruction of that use case [[http://disruptive-innovations.com/zoo/customers/Adobe/FFMC.html|here]]. Below is a screenshot of that reconstruction in a browser and the second code block is the CSS code used to create the exclusion. The first code block uses a much simpler mechanism from GCPM.
+![](../../assets/images/spec/css3-floats-use-cases/2columns_1excl.png)
 
-<code css>
+Here there's a circle shape affecting the flow of two columns. This could be done as a float with a shape (with the addition of a float-offset property), as an absolutely positioned exclusion, or with grid positioning placing an exclusion over a multicol element or pair of regions. You can see a markup example of a reconstruction of that use case [here](http://disruptive-innovations.com/zoo/customers/Adobe/FFMC.html). Below is a screenshot of that reconstruction in a browser and the second code block is the CSS code used to create the exclusion. The first code block uses a much simpler mechanism from GCPM.
+
+```css
 #exclusion {
   float: top right;
   float-offset: -50% 50%;
   shape-outside: url(motorbike.png);
 }
-</code>
+```
 
-<code css>
+```css
 #lipsum {
   position: relative;
 }
@@ -26,32 +30,32 @@ Here there's a circle shape affecting the flow of two columns. This could be don
   -webkit-wrap-flow: both;
   -webkit-shape-outside: url(motorbike.png);
 }
-</code>
+```
 
-{{  http://disruptive-innovations.com/zoo/customers/Adobe/FFMC2.png?400  }}
+![](http://disruptive-innovations.com/zoo/customers/Adobe/FFMC2.png)
 
-{{ :spec:css3-floats-use-cases:2reg_2excl.png?nolink |}}
+![](../../assets/images/spec/css3-floats-use-cases/2reg_2excl.png)
 
 This layout has many interesting possible expressions in CSS:
 
-  - A background with a shape
-    - pulled from image data
-    - extracted from content edges
-    - defined in a path
-  - A bottom-positioned float with a shape
-  - One or more exclusions outside the text flow
+1. A background with a shape
+  1. pulled from image data
+  1. extracted from content edges
+  1. defined in a path
+1. A bottom-positioned float with a shape
+1. One or more exclusions outside the text flow
 
-You can see a markup example of a reconstruction of that use case [[http://disruptive-innovations.com/zoo/customers/Adobe/Veste.html|here]]. Below is a screenshot of that reconstruction in a browser:
+You can see a markup example of a reconstruction of that use case [here](http://disruptive-innovations.com/zoo/customers/Adobe/Veste.html). Below is a screenshot of that reconstruction in a browser:
 
-{{  http://disruptive-innovations.com/zoo/customers/Adobe/Veste.png?400  }}
+![](http://disruptive-innovations.com/zoo/customers/Adobe/Veste.png)
 
-=== Pull Quotes ===
+#### Pull Quotes
 
-{{ :spec:css3-floats-use-cases:centered-pull-quotes.png?nolink |}}
+![](../../assets/images/spec/css3-floats-use-cases/centered-pull-quotes.png)
 
 These pull quotes are from separate flows - the top from the left-side English translation and the bottom from the right-side French translation. While there might be some combination of new float positioning properties that could achieve this effect, two absolutely positioned exclusions is likely to be the simpler design to execute. Given an appropriate containing block for the flows, the pull-quotes as exclusions could be positioned like this:
 
-<code css>
+```css
 .top-pull {
   position:absolute;
   right: 45%;
@@ -66,21 +70,21 @@ These pull quotes are from separate flows - the top from the left-side English t
   max-width:15%;
   wrap-flow:both;
 }
-</code>
+```
 
-=== Background Exclusion ===
+#### Background Exclusion
 
-{{ :spec:css3-floats-use-cases:pagination_08.png?nolink |}}
+![](../../assets/images/spec/css3-floats-use-cases/pagination_08.png)
 
 The ribbon and star are part of the overall page design - more of a title than anything else. This could be done either as a background or an absolutely positioned exclusion.
 
-=== Complex Exclusion Interacting with Multiple Flows ===
+#### Complex Exclusion Interacting with Multiple Flows
 
-{{ :spec:css3-floats-use-cases:excl_inside_and_outside.png?nolink |}}
+![](../../assets/images/spec/css3-floats-use-cases/excl_inside_and_outside.png)
 
 The trap in the middle uses multiple shapes to affect the wrap of text around the image and enclose the caption inside. Note that it overlaps the image to its top left and does not use a content edge shape on the bottom left.
 
-{{ :spec:css3-floats-use-cases:sciences_et_vie_excl.png?nolink |}}
+![](../../assets/images/spec/css3-floats-use-cases/sciences_et_vie_excl.png)
 
 Here the large oval wraps the article text and the text of its top two captions, but the remaining captions are not affected by the shape.
 

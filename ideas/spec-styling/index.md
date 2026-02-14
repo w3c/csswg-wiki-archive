@@ -1,18 +1,20 @@
-=== Spec Styling Effort ===
+---
+title: "Spec Styling Effort"
+---
 
+#### Spec Styling Effort
 
-==== Requirements & Feedback ====
+### Requirements & Feedback
 
-===== Christoph Päper =====
+## Christoph Päper
 
 http://lists.w3.org/Archives/Public/site-comments/2011Dec/0026.html
 
-===== Loretta Guarino Reid =====
+## Loretta Guarino Reid
 
 Speaking of all the contrast issues, can we please ensure that the new style meets WCAG 2.0 AA? I haven't yet done an analysis, but this should be a requirement.
 
-
-===== Martin J. Dürst =====
+## Martin J. Dürst
 
 1) As many others have said, don't force me to read with a fixed width.
 There are definitely legibility issues with too wide (or too small, for
@@ -59,30 +61,29 @@ of the (maybe implicit) design brief for the redesign? With the current
 design, it may be easier to catch the eye of a Web designer, but do we
 think that this design is appropriate for specs e.g. about Web Services?
 
+## Robin Berjon
 
-===== Robin Berjon =====
+- I won't repeat what others have already said, except to say that I agree on wider layout and better contrast.
 
-  * I won't repeat what others have already said, except to say that I agree on wider layout and better contrast.
+- I like the overall new ToC layout. I would recommend testing it out with at least two-three extra depth levels since those do indeed occur once in a while. I also think that sections at the end that have no number should be lettered as appendices.
 
-  * I like the overall new ToC layout. I would recommend testing it out with at least two-three extra depth levels since those do indeed occur once in a while. I also think that sections at the end that have no number should be lettered as appendices.
+- It is confusing to have the same colour for <code> and links — I actually tried to click on a code piece.
 
-  * It is confusing to have the same colour for <code> and links — I actually tried to click on a code piece.
+- Issues text should definitely not be light grey — issues are important! As they stand, I find them hard to read and I'm (relatively) young with 20/20 eyesight. It would be good to test the style with issue titles as some specs use them (e.g. "Issue 1: Light grey unicorns are hard to spot in the winter"). I like the issue floating as an aside, maybe that should be the default, with an option to expand?
 
-  * Issues text should definitely not be light grey — issues are important! As they stand, I find them hard to read and I'm (relatively) young with 20/20 eyesight. It would be good to test the style with issue titles as some specs use them (e.g. "Issue 1: Light grey unicorns are hard to spot in the winter"). I like the issue floating as an aside, maybe that should be the default, with an option to expand?
+- It would be good to try out a style similar to that of issues but for Notes. Some specs also use a related style for Best Practices.
 
-  * It would be good to try out a style similar to that of issues but for Notes. Some specs also use a related style for Best Practices.
+- I find the first code example really hard to read. I think that they should be called out more clearly with an "Example" header (not in light grey and light grey lines), followed by an optional example title. A lot of specifications nowadays also use syntax highlighting — it would certainly be useful to have a common style for those (I can provide examples).
 
-  * I find the first code example really hard to read. I think that they should be called out more clearly with an "Example" header (not in light grey and light grey lines), followed by an optional example title. A lot of specifications nowadays also use syntax highlighting — it would certainly be useful to have a common style for those (I can provide examples).
+- In the same vein, a style for figures (which may be numbered and may have a ToF as an appendix) that is somehow consistent with the style for examples probably makes sense.
 
-  * In the same vein, a style for figures (which may be numbered and may have a ToF as an appendix) that is somehow consistent with the style for examples probably makes sense.
+- I would expect a clickable link on the W3C logo at the top left.
 
-  * I would expect a clickable link on the W3C logo at the top left.
+- It would be good to test the style for <dfn> in text body and not just in property definition tables. A lot of specs also have specific styles for links to definitions.
 
-  * It would be good to test the style for <dfn> in text body and not just in property definition tables. A lot of specs also have specific styles for links to definitions.
+- A lot of specs now use highlighting, links, etc. for WebIDL snippets. That would be good to have some agreement on as well. Yes, I know that it's a lot of style :) This is just an example, and it does not necessarily carry consensus, but for IDL segments themselves you can look at any API spec that uses ReSpec (which is a large number of them). An example is http://www.w3.org/TR/contacts-api/. It does not necessarily exercise all the styles — I could probably construct a document that does.
 
-  * A lot of specs now use highlighting, links, etc. for WebIDL snippets. That would be good to have some agreement on as well. Yes, I know that it's a lot of style :) This is just an example, and it does not necessarily carry consensus, but for IDL segments themselves you can look at any API spec that uses ReSpec (which is a large number of them). An example is http://www.w3.org/TR/contacts-api/. It does not necessarily exercise all the styles — I could probably construct a document that does.
-
-===== Dave Raggett on contrast ===== 
+## Dave Raggett on contrast
 
 http://dvcs.w3.org/hg/FXTF/raw-file/tip/custom/index.html
 
@@ -92,7 +93,7 @@ will find the links hard to read.  You may want to look at the WAI
 authoring accessibility guidelines for recommendations on colors and
 contrasts.
 
-===== Richard Ishida on content width ===== 
+## Richard Ishida on content width
 
 Please don't force me to work with a fixed width of text -
 please make it a % of the window width so that I can widen by stretching the window if I want.
@@ -106,7 +107,7 @@ The same goes for situations where I may want to compare multiple
 windows on a screen - the fixed width of this column loses information
 on the right side if I make my window too narrow.
 
-====== Richard Ishida on Print ======
+# Richard Ishida on Print
 
 In addition, please provide an option to print specs without such narrow
 columns. This is to save on paper. I often print out specs to review
@@ -114,16 +115,17 @@ them for i18n issues. It already takes up a lot of paper, and if this
 fixed column width is forced on me for printing, I will probably use up
 twice as much.
 
-====== Karl Dubost ======
+# Karl Dubost
 
-  * Adjustable line width for very small screen would be nice (Mediaqueries maybe)
-  * "i like 100% width… then i resize my browser width to a decent size for me" (colleague comment)
-  * Property table hard to read at the bottom. Need better style. The values seem to be floating.
-  * Guidelines for schematic graphs would be a nice touch to add, so there is consistency between specs
-  * Use of same color for links and code is a bit confusing.
-  * I would add more space in between paragraphs but that might be me only :) difficult to breathe.
+- Adjustable line width for very small screen would be nice (Mediaqueries maybe)
+- "i like 100% width… then i resize my browser width to a decent size for me" (colleague comment)
+- Property table hard to read at the bottom. Need better style. The values seem to be floating.
+- Guidelines for schematic graphs would be a nice touch to add, so there is consistency between specs
+- Use of same color for links and code is a bit confusing.
+- I would add more space in between paragraphs but that might be me only :) difficult to breathe.
   
-==== Daniel Glazman on body width ====
+
+### Daniel Glazman on body width
 
 In the body of Vincent's spec, I suppose one given element, let's say
 #main, has a fixed size through a width or max-width property. Something
@@ -144,4 +146,3 @@ without fragment id and the one with #main fragment id.
 
    index.html      will be viweport-wide
    index.html#main will be 50em-wide
-   

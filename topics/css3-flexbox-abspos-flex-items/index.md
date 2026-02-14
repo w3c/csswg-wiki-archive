@@ -1,4 +1,8 @@
-====== Abspos Flex Children Placeholders Become Flex Items ======
+---
+title: "Abspos Flex Children Placeholders Become Flex Items"
+---
+
+# Abspos Flex Children Placeholders Become Flex Items
 
 ---- dataentry ----
 Spec_tags     : css3-flexbox
@@ -10,13 +14,14 @@ Action        : Approve the proposal?
 
 Issue_urls    : 
 Proposal_urls : 
-----
 
-=== CLOSED ===
+---
+
+#### CLOSED
 
 In the absence of consensus and the presence of some reasonably strong objections, proposal B has been reverted from the draft.  We've instead stuck with proposal A, and added additional text properly specifying the necessary details.
 
-=== Background ===
+#### Background
 
 Abspos children of a flexbox are taken out of flow, and so aren't flexbox items.  
 However, we need to define the "static position" somehow.
@@ -31,10 +36,9 @@ To fix another issue, we changed them to atomic inline elements.
 This means the placeholders now become flexbox items, rather than wrapped in an anonymous flexbox item.
 This seems like it's potentially more useful, as it means that the static position responds better to flex-align.
 
-=== Proposal(s) ===
+#### Proposal(s)
 
 A. Keep the original text, where placeholders were inline items.  
 (This requires some additional work to solve the original problem that prompted the change.)
 
 B. Keep the new text, where placeholders become flex items.
-

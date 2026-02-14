@@ -1,177 +1,194 @@
-====== Hamburg F2F May 2012 ======
+---
+title: "Hamburg F2F May 2012"
+---
 
-  * **When:** Wednesday 9 May – Friday 11 May
-  * Flipboard photos from meeting: [[http://lists.w3.org/Archives/Public/www-archive/2012May/0017.html|part1]], [[http://lists.w3.org/Archives/Public/www-archive/2012May/0018.html|part2]]
+# Hamburg F2F May 2012
 
-===== Meeting Minutes =====
+- **When:** Wednesday 9 May – Friday 11 May
+- Flipboard photos from meeting: [part1](http://lists.w3.org/Archives/Public/www-archive/2012May/0017.html), [part2](http://lists.w3.org/Archives/Public/www-archive/2012May/0018.html)
+
+## Meeting Minutes
+
 ** Thursday, 10 May:**
-  * [[http://lists.w3.org/Archives/Public/www-style/2012May/0520.html| Part I]], Flexbox
-  * [[http://lists.w3.org/Archives/Public/www-style/2012May/0527.html|Part II]], Administrative, Testing
-  * [[http://lists.w3.org/Archives/Public/www-style/2012May/0530.html|Part III]], Alignment, Grid Layouts, Fonts
+- [ Part I](http://lists.w3.org/Archives/Public/www-style/2012May/0520.html), Flexbox
+- [Part II](http://lists.w3.org/Archives/Public/www-style/2012May/0527.html), Administrative, Testing
+- [Part III](http://lists.w3.org/Archives/Public/www-style/2012May/0530.html), Alignment, Grid Layouts, Fonts
 
 **Friday, 11 May:**
-  * [[http://lists.w3.org/Archives/Public/www-style/2012May/0531.html|Part I]], Regions and Exclusions
-  * [[http://lists.w3.org/Archives/Public/www-style/2012May/0536.html|Part II]], XSLFO and CSS3 Layout
-  * [[http://lists.w3.org/Archives/Public/www-style/2012May/0538.html|Part III]], GCPM and Fragmentation
-  * [[http://lists.w3.org/Archives/Public/www-style/2012May/0541.html|Part IV]], Text and Writing Modes
-  * [[http://lists.w3.org/Archives/Public/www-style/2012May/0542.html|Part V]], Line Layout, Values and Units
+- [Part I](http://lists.w3.org/Archives/Public/www-style/2012May/0531.html), Regions and Exclusions
+- [Part II](http://lists.w3.org/Archives/Public/www-style/2012May/0536.html), XSLFO and CSS3 Layout
+- [Part III](http://lists.w3.org/Archives/Public/www-style/2012May/0538.html), GCPM and Fragmentation
+- [Part IV](http://lists.w3.org/Archives/Public/www-style/2012May/0541.html), Text and Writing Modes
+- [Part V](http://lists.w3.org/Archives/Public/www-style/2012May/0542.html), Line Layout, Values and Units
 
-===== Agenda =====
+## Agenda
 
-==== Wednesday ====
-=== AM ===
-  * FX task force meeting with the SVG Working Group (use [[http://www.w3.org/Graphics/fx/wiki/F2F/Hamburg_2012_Agenda|FX wiki]] for agenda items)
+### Wednesday
 
-=== PM ===
-  * Transforms
-  * Transitions
-  * Animations
+#### AM
 
-==== Thursday ====
-=== AM ===
-  * CSS3 Flexbox
+- FX task force meeting with the SVG Working Group (use [FX wiki](http://www.w3.org/Graphics/fx/wiki/F2F/Hamburg_2012_Agenda) for agenda items)
 
-=== PM ===
-  * Future Meetings (15 min)
-  * Style Attribute Spec (15 min)
-  * Testing (15 min)
-  * Box Alignment (30 min)
-  * Grid Template (1 hr)
-  * Fonts (1 hr)
+#### PM
 
-==== Friday ====
-=== AM ===
-  * XSL-FO (1 hr)
-  * Regions (1 hr)
-  * Exclusions (15 min)
-  * Page Templates (30 min)
-  * Box Generation (30 min)
+- Transforms
+- Transitions
+- Animations
+
+### Thursday
+
+#### AM
+
+- CSS3 Flexbox
+
+#### PM
+
+- Future Meetings (15 min)
+- Style Attribute Spec (15 min)
+- Testing (15 min)
+- Box Alignment (30 min)
+- Grid Template (1 hr)
+- Fonts (1 hr)
+
+### Friday
+
+#### AM
+
+- XSL-FO (1 hr)
+- Regions (1 hr)
+- Exclusions (15 min)
+- Page Templates (30 min)
+- Box Generation (30 min)
   
-=== PM ===
-  * GCPM (30 min)
-  * CSS3 Fragmentation (30 min)
-  * CSS3 Text LC (1 hr)
-  * Writing Modes (30 min)
-  * Line Layout (1 hr)
-  * Values and Units (1 hr)
 
-==== Left Overs ====
-  * Prefixes
-    * FPWD CSS3 text-size-adjust
-    * [[http://lists.w3.org/Archives/Public/www-style/2012May/0125.html|Changing the prefix policy?]]
-  * Device adaptation
-  * Media Queries level 4: discussion ideas and direction for the next level of the spec
-  * Spec stylesheet
-    * Use of alternate stylesheet
-    * Changing default font 
-  * CSS3 Syntax
-    * Tab started working on it again.  Briefly discuss plans and make sure no one hates it. (20 min)
-  * Parsing scientific notation in CSS (1 hr) 
+#### PM
 
-==== Proposed Topics ====
+- GCPM (30 min)
+- CSS3 Fragmentation (30 min)
+- CSS3 Text LC (1 hr)
+- Writing Modes (30 min)
+- Line Layout (1 hr)
+- Values and Units (1 hr)
 
-  * Prefixes and how to prioritize specs with heavy -webkit- prefix adoption.
-    * CSS3 Transforms: resolve issues - what's blocking LCWD?
-    * CSS3 Transitions & Animations: resolve issues (at FX joint meeting) - what's blocking LCWD?
-    * FPWD CSS3 text-size-adjust
-    * [[http://lists.w3.org/Archives/Public/www-style/2012May/0125.html|Changing the prefix policy?]]
-    * Time limit discussion to avoid ratholing?
-  * fantasai's [[http://fantasai.inkedblade.net/style/specs/css3-align/|Box Alignment proposal]]
-  * Box generation: should we have a module to allow CSS box generation? (15733)
-  * CSS3 Fragmentation: 1 issue + republication
-  * CSS3 Flexbox LC:
-    * resolve all open issues
-    * request for early in the F2F, so edits can be made and approved by the end of the week
-    * estimate 2 hours, with maybe 1 hour follow-up later in the week
-  * CSS3 Text:
-    * prepare LC: resolve or assign actions to all open issues - < 40 min, excepting any text-transform flamewars ;) suggest for Friday
-    * resolve @text-transform and text-transform: full-size-kana
-  * CSS3 Values and Units CR: 
-    * resolve all LC issues - 1hr?
-    * [[http://lists.w3.org/Archives/Public/www-style/2012May/0311.html|identifier and reserved keyword issue]]
-  * CSS3 Writing Modes:
-    * create a roadmap for getting to LC (what needs to be solved, what can be deferred) - 30min max, suggest for Friday
-    * Maybe a bit more time to discuss on [[http://lists.w3.org/Archives/Public/www-style/2012May/0082.html|allowing UA dependent behavior in text-orientation]] and on [[http://lists.w3.org/Archives/Public/www-style/2012Apr/0688.html|text-combine-mode]]
-  * CSS3 Grid Template:
-    * Present a new syntax that merges templates and grid layout (15-20 minutes).
-    * Discuss the [[http://dev.w3.org/csswg/css3-layout/#history|design choices]] and the features: which are in, which are out, which are for level 4... (90-100 minutes).
-  * CSS4 Grid Template:
-    * region-based styling, chaining regions, grid templates for paged media...
-    * maybe be a subtopic of a larger topic about advanced layout, page templates, learning from XSL, needs of the publishing industry, etc., with help from Liam.
-  * CSS Page Templates Proposal: [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15187|Issue 15187]] and [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=15186|Issue 15186]]
-  * Advanced printing controls from XSL-FO
-  * GCPM: Page and column floats, alternative syntax, publish WD
-  * CSS Regions:
-    * Issue 16858: should elements be disallowed as regions
-    * Issue 15832: Discussion region-overflow
-    * Issue 16636: should we re-introduce region-order? Should be possible with the region processing model
-    * Issue 15734: @region and specificity
-  * CSS Exclusions Issues
-  * Device adaptation
-  * Media Queries level 4: discussion ideas and direction for the next level of the spec
-  * CSS3 Fonts:
-    * [[http://lists.w3.org/Archives/Public/www-style/2012May/0369.html|subscript/superscript fallback]]
-    * [[http://lists.w3.org/Archives/Public/www-style/2012May/0375.html|small-caps fallback]]
-  * CSS Line Layout Module
-  * Testing:
-    * Exchanging reviews on tests
-    * Testing hackathon in SF
-    * Multicol test suite
-  * CSS style attribute spec to PR (5 minutes)
-  * Future meetings
-    * Offer to host F2F meeting in September (Andreas Neumann, [[http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Hamburg_2012/agenda_proposals|proposal]])
-    * March 2013 Tokyo
-  * Spec stylesheet
-    * Use of alternate stylesheet
-    * Changing default font 
-  * CSS3 Syntax
-    * Tab started working on it again.  Briefly discuss plans and make sure no one hates it. (20 min)
-  * Parsing scientific notation in CSS (1 hr) 
+### Left Overs
 
+- Prefixes
+  - FPWD CSS3 text-size-adjust
+  - [Changing the prefix policy?](http://lists.w3.org/Archives/Public/www-style/2012May/0125.html)
+- Device adaptation
+- Media Queries level 4: discussion ideas and direction for the next level of the spec
+- Spec stylesheet
+  - Use of alternate stylesheet
+  - Changing default font 
+- CSS3 Syntax
+  - Tab started working on it again.  Briefly discuss plans and make sure no one hates it. (20 min)
+- Parsing scientific notation in CSS (1 hr) 
 
-===== Participants =====
-^ Name ^ Representing ^ Arrive ^ Leave ^ Hotel ^ Flight Info ^ Notes ^
-| Glenn Adams | Cox | May 8 | May 12 | East | UA1687/908, UA59/1002 | |
-| David Baron | Mozilla | May 5, 7:30am | May 12, 11:20am | Hotel am Holstenwall Novum Hamburg Mitte | CO74, LH3274 | |
-| Rik Cabanier | Adobe | May 5, 11:45am | May 12, 8:45am | | KLM 1779 / KLM 1778 | |
-| Edward O'Connor | Apple | May 6 | May 14 | 25Hours Hotel HafenCity | UA0954 UA9238 / UA9045 UA0901 | |
-| John Daggett | Mozilla | May 7 | May 11 | [[http://gasthafen.de/home.php|AirBnB apartment in Ottensen]] | JL407/JL408 | |
-| Vincent Hardy | Adobe | May 3rd| May 12th| East | ?? |  |
-| Dirk Schulze | Adobe | May 6th| May 13th| East | ?? |  |
-| Molly Holzschlag | W3C Invited Experts | Not able to attend |
-| Peter Linss | HP | May 8 | May 12 | East | UA9238 / UA75 | |
-| Luke Macpherson | Google | ?? | ?? | ?? | ?? | |
-| Liam Quin | W3C | May 8, 9:10am | May 12, 11:20am | City Hotel Monopol | LH 2704 / LH 3274 | |
-| Steve Zilles | Adobe | ??| ??| ?? | ?? |  |
-| Florian Rivoal | Opera | May 8 | May 12 | Hanse Clipper Haus | ?? | |
-| Bert Bos | W3C | May 8, 14:05 | May 12, 11:35 | Motel One Hamburg-Alster | LX1056 / SN2624 | |
-| Daniel Glazman | Disruptive Innovations | May 8, 5pm| May 12, 9:40am | Hotel Lafayette | AF2310/1411 | |
-| Alan Stearns | Adobe | May 7th | May 12th | East |  |  |
-| Sylvain Galineau | Microsoft | May 8th, 9pm | May 11th, 3pm | Radisson |  |  |
-| Tab Atkins | Google | May 6th | May 13th | Clipper Elb | ? | |
-| fantasai | Mozilla | 1:10pm May 8th | 9:35am May 12th | Clipper Elb | LH455 / LH12 | LX1051 / LX38 |
-| Koji Ishii | Invited Expert | 5/8 | 5/12 | Imperial Hamburg | KL862+KL1783, KL1782+KL863 | |
-| Shane Stephens | Google | May 7th | May 12th | Hafen Hamburg | ?? | |
-| Jet Villegas | Mozilla | May 6th | May 12th | Grand Elysse Hamburg | ?? | |
-| Chris Lilley | W3C|  |  |  |  | remote|
-| Ren Ando | Rakuten/Kobo | 5/9 | 5/12 | Hotel Aachener Hof Novum | Flight Info:  BA 006, BA 972, LH 3274 | Plan to fly from Hamburg to Nice to attend Advisory Committee Meeting.|
-| Håkon Wium Lie | Opera |
+### Proposed Topics
+
+- Prefixes and how to prioritize specs with heavy -webkit- prefix adoption.
+  - CSS3 Transforms: resolve issues - what's blocking LCWD?
+  - CSS3 Transitions & Animations: resolve issues (at FX joint meeting) - what's blocking LCWD?
+  - FPWD CSS3 text-size-adjust
+  - [Changing the prefix policy?](http://lists.w3.org/Archives/Public/www-style/2012May/0125.html)
+  - Time limit discussion to avoid ratholing?
+- fantasai's [Box Alignment proposal](http://fantasai.inkedblade.net/style/specs/css3-align/)
+- Box generation: should we have a module to allow CSS box generation? (15733)
+- CSS3 Fragmentation: 1 issue + republication
+- CSS3 Flexbox LC:
+  - resolve all open issues
+  - request for early in the F2F, so edits can be made and approved by the end of the week
+  - estimate 2 hours, with maybe 1 hour follow-up later in the week
+- CSS3 Text:
+  - prepare LC: resolve or assign actions to all open issues - < 40 min, excepting any text-transform flamewars ;) suggest for Friday
+  - resolve @text-transform and text-transform: full-size-kana
+- CSS3 Values and Units CR: 
+  - resolve all LC issues - 1hr?
+  - [identifier and reserved keyword issue](http://lists.w3.org/Archives/Public/www-style/2012May/0311.html)
+- CSS3 Writing Modes:
+  - create a roadmap for getting to LC (what needs to be solved, what can be deferred) - 30min max, suggest for Friday
+  - Maybe a bit more time to discuss on [allowing UA dependent behavior in text-orientation](http://lists.w3.org/Archives/Public/www-style/2012May/0082.html) and on [text-combine-mode](http://lists.w3.org/Archives/Public/www-style/2012Apr/0688.html)
+- CSS3 Grid Template:
+  - Present a new syntax that merges templates and grid layout (15-20 minutes).
+  - Discuss the [design choices](http://dev.w3.org/csswg/css3-layout/#history) and the features: which are in, which are out, which are for level 4... (90-100 minutes).
+- CSS4 Grid Template:
+  - region-based styling, chaining regions, grid templates for paged media...
+  - maybe be a subtopic of a larger topic about advanced layout, page templates, learning from XSL, needs of the publishing industry, etc., with help from Liam.
+- CSS Page Templates Proposal: [Issue 15187](https://www.w3.org/Bugs/Public/show_bug.cgi?id=15187) and [Issue 15186](https://www.w3.org/Bugs/Public/show_bug.cgi?id=15186)
+- Advanced printing controls from XSL-FO
+- GCPM: Page and column floats, alternative syntax, publish WD
+- CSS Regions:
+  - Issue 16858: should elements be disallowed as regions
+  - Issue 15832: Discussion region-overflow
+  - Issue 16636: should we re-introduce region-order? Should be possible with the region processing model
+  - Issue 15734: @region and specificity
+- CSS Exclusions Issues
+- Device adaptation
+- Media Queries level 4: discussion ideas and direction for the next level of the spec
+- CSS3 Fonts:
+  - [subscript/superscript fallback](http://lists.w3.org/Archives/Public/www-style/2012May/0369.html)
+  - [small-caps fallback](http://lists.w3.org/Archives/Public/www-style/2012May/0375.html)
+- CSS Line Layout Module
+- Testing:
+  - Exchanging reviews on tests
+  - Testing hackathon in SF
+  - Multicol test suite
+- CSS style attribute spec to PR (5 minutes)
+- Future meetings
+  - Offer to host F2F meeting in September (Andreas Neumann, [proposal](http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Hamburg_2012/agenda_proposals))
+  - March 2013 Tokyo
+- Spec stylesheet
+  - Use of alternate stylesheet
+  - Changing default font 
+- CSS3 Syntax
+  - Tab started working on it again.  Briefly discuss plans and make sure no one hates it. (20 min)
+- Parsing scientific notation in CSS (1 hr) 
+
+## Participants
+
+| Name | Representing | Arrive | Leave | Hotel | Flight Info | Notes |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Glenn Adams | Cox | May 8 | May 12 | East | UA1687/908, UA59/1002 |  |  |
+| David Baron | Mozilla | May 5, 7:30am | May 12, 11:20am | Hotel am Holstenwall Novum Hamburg Mitte | CO74, LH3274 |  |  |
+| Rik Cabanier | Adobe | May 5, 11:45am | May 12, 8:45am |  | KLM 1779 / KLM 1778 |  |  |
+| Edward O'Connor | Apple | May 6 | May 14 | 25Hours Hotel HafenCity | UA0954 UA9238 / UA9045 UA0901 |  |  |
+| John Daggett | Mozilla | May 7 | May 11 | [[http://gasthafen.de/home.php | AirBnB apartment in Ottensen]] | JL407/JL408 |  |
+| Vincent Hardy | Adobe | May 3rd | May 12th | East | ?? |  |  |
+| Dirk Schulze | Adobe | May 6th | May 13th | East | ?? |  |  |
+| Molly Holzschlag | W3C Invited Experts | Not able to attend |  |  |  |  |  |
+| Peter Linss | HP | May 8 | May 12 | East | UA9238 / UA75 |  |  |
+| Luke Macpherson | Google | ?? | ?? | ?? | ?? |  |  |
+| Liam Quin | W3C | May 8, 9:10am | May 12, 11:20am | City Hotel Monopol | LH 2704 / LH 3274 |  |  |
+| Steve Zilles | Adobe | ?? | ?? | ?? | ?? |  |  |
+| Florian Rivoal | Opera | May 8 | May 12 | Hanse Clipper Haus | ?? |  |  |
+| Bert Bos | W3C | May 8, 14:05 | May 12, 11:35 | Motel One Hamburg-Alster | LX1056 / SN2624 |  |  |
+| Daniel Glazman | Disruptive Innovations | May 8, 5pm | May 12, 9:40am | Hotel Lafayette | AF2310/1411 |  |  |
+| Alan Stearns | Adobe | May 7th | May 12th | East |  |  |  |
+| Sylvain Galineau | Microsoft | May 8th, 9pm | May 11th, 3pm | Radisson |  |  |  |
+| Tab Atkins | Google | May 6th | May 13th | Clipper Elb | ? |  |  |
+| fantasai | Mozilla | 1:10pm May 8th | 9:35am May 12th | Clipper Elb | LH455 / LH12 | LX1051 / LX38 |  |
+| Koji Ishii | Invited Expert | 5/8 | 5/12 | Imperial Hamburg | KL862+KL1783, KL1782+KL863 |  |  |
+| Shane Stephens | Google | May 7th | May 12th | Hafen Hamburg | ?? |  |  |
+| Jet Villegas | Mozilla | May 6th | May 12th | Grand Elysse Hamburg | ?? |  |  |
+| Chris Lilley | W3C |  |  |  |  | remote |  |
+| Ren Ando | Rakuten/Kobo | 5/9 | 5/12 | Hotel Aachener Hof Novum | Flight Info:  BA 006, BA 972, LH 3274 | Plan to fly from Hamburg to Nice to attend Advisory Committee Meeting. |  |
+| Håkon Wium Lie | Opera |  |  |  |  |  |  |
 
 Regrets:
-  * Tantek Çelik
-  * Anton Prowse
+- Tantek Çelik
+- Anton Prowse
 
-===== Logistics =====
+## Logistics
 
-**Where:** [[http://maps.google.com/maps?q=Adobe%20Systems%20Engineering%20GmbH%0D%0AGroße%20Elbstraße%2027%0D%0A22767%20Hamburg%20%28Altona%2DAltstadt%29%20%0D%0A|google map]] [[http://www.adobe.com/aboutadobe/careeropp/locations.html#Anchor-Hamburg-45656|Adobe Hamburg Office Description]]
+**Where:** [google map](http://maps.google.com/maps?q=Adobe%20Systems%20Engineering%20GmbH%0D%0AGroße%20Elbstraße%2027%0D%0A22767%20Hamburg%20%28Altona%2DAltstadt%29%20%0D%0A) [Adobe Hamburg Office Description](http://www.adobe.com/aboutadobe/careeropp/locations.html#Anchor-Hamburg-45656)
 
-<file>
+```
  Adobe Systems Engineering GmbH 
  Große Elbstraße 27 
  22767 Hamburg (Altona-Altstadt) 
  Germany
  Tel.0049 40 306360
-</file>
+```
 
 NOTE: There will _not_ be any issue with registration since the room is outside the restricted area.
 
@@ -179,16 +196,16 @@ NOTE: There will _not_ be any issue with registration since the room is outside 
 
 **Registration:** TBD 
 
-**Weather:** [[http://weather.yahoo.com/germany/hamburg/hamburg-656958/|Hamburg weather]]
+**Weather:** [Hamburg weather](http://weather.yahoo.com/germany/hamburg/hamburg-656958/)
 
-==== Hosted Dinner ====
+### Hosted Dinner
 
 There will be a hosted diner on the night of the joint FX Task Force meeting at La Vela: - La Vela, italian place right downstairs from the office (Pete knows this well). This would avoid any logistical problems.
 .
 
-==== Lodging ====
+### Lodging
 
-<file>
+```
 Ideally, the SVG WG members not attending the CSS WG meeting would stay at 
 the Clipper Elb and the other members at the Hafen Hamburg or the East.
 
@@ -226,78 +243,78 @@ We have blocked a number of rooms, the detailed hotel information is below.
    5 superior suites 112 €
    3 junior suites tes 106 €
    2 executive suites 118€
-</file>
+```
 
-=== Hanse Clipper Haus ===
+#### Hanse Clipper Haus
 
-<file>
+```
 Clipper Boardinghouse GmbH & Co. KG
 Ditmar-Koel-Straße 1
 20459 Hamburg
 Tel 0049-40 37696-0
 Mail: info-hch@clipper-hotels.de
 www.clipper-boardinghouses.de 
-</file>
+```
 
-=== Hyatt Hotel, 220 Euros (incl. breakfast) ===
-<file>
+#### Hyatt Hotel, 220 Euros (incl. breakfast)
+
+```
 Bugenhagenstr.8-­10
 20095 Hamburg
 Tel.0049 40 3332 1234
 Mail: Hamburg.park@hyatt.com
 http://www.hamburg.park.hyatt.de
-</file>
+```
 
-=== Hafen Hamburg ===
+#### Hafen Hamburg
 
-<file>
+```
 Seewartenstr.9
 20459 Hamburg	
 Tel.0049 40 31 1130
 Mail: info@hotel-­hamburg.de	
 http://www.hotel-­hafen-­hamburg.de
-</file>
+```
 
-=== Clipper Elb Ledge  ===
+#### Clipper Elb Ledge
 
-<file>
+```
 Carsten-­Rehder-­Str.71	
 22767 Hamburg
 Tel.0049 40 80 9010	
 Mail: info@clipper-­boardinghouses.de	
 http://www.clipper-­hotels.de
-</file>
+```
 
-=== East ===
+#### East
 
-<file>
+```
 Simon-von-Utrecht Strasse 31
 20359 Hamburg
 Tel: +49(0) 40-3099-30
 Mail: info@east-hamburg.de
-</file>
+```
 
-==== Hamburg Port Anniversary information ====
+### Hamburg Port Anniversary information
 
 http://www.hamburg-tourism.de/en/events/port-birthday-hamburg/
 
-==== Transport to/from Airport ====
+### Transport to/from Airport
 
-  * Taxi recommended
+- Taxi recommended
 
 WARNING: There will be a detour because of the Port Anniversary (see above) so maybe the prices for the taxi drive are going a bit up!
 
-  * Public transport
+- Public transport
 
 The S-Bahn runs every 10 minutes from the airport of Hamburg to the city centre ( called: Hauptbahnhof ) in just 25 minutes.
 The price for a one-way-ticket is 2,85 € or you can chose an All-Day-Ticket for 6,95€ or a 3-Day-Ticket for 16,85€ per person.
 For more information: www.hvv.de. To go to the East-Hotel you can also use the S-Bahn but then you have to  go to the station “ Reeperbahn”, 
 it is about 10 minutes longer to run but it is the same line ( S-Bahn No.1 Direction to Wedel or Blankenese).
 
-==== Hamburg Subway ====
+### Hamburg Subway
 
-  * Subway: [[http://www.hvv.de/|http://www.hvv.de/]]
-  * [[http://www.hvv.de/en/tickets/day-tickets/all-day-ticket/|Daily ticket (starting before 9 o’clock)]]: 6.95 €
-  * [[http://www.hvv.de/en/tickets/day-tickets/9-o-clock-day-ticket/|Daily ticket (starting at 9 o’clock)]]: 5.60 €
-  * [[http://www.hvv.de/en/tickets/day-tickets/3-day-ticket/|3-Day-Ticket]]: 16.80 €
-
+- Subway: [http://www.hvv.de/](http://www.hvv.de/)
+- [Daily ticket (starting before 9 o’clock)](http://www.hvv.de/en/tickets/day-tickets/all-day-ticket/): 6.95 €
+- [Daily ticket (starting at 9 o’clock)](http://www.hvv.de/en/tickets/day-tickets/9-o-clock-day-ticket/): 5.60 €
+- [3-Day-Ticket](http://www.hvv.de/en/tickets/day-tickets/3-day-ticket/): 16.80 €

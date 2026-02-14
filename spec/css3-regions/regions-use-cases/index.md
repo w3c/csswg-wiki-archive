@@ -1,16 +1,20 @@
-=== Introduction ===
+---
+title: "Introduction"
+---
+
+#### Introduction
 
 This page captures use cases for CSS Regions (and exclusions).
 
-CSS Regions can be coupled with [[ideas:css3-exclusions-use-cases|CSS Exclusions and Shapes use cases]] for rich layouts with non-rectangular and intruding boxes.
+CSS Regions can be coupled with [CSS Exclusions and Shapes use cases](/ideas/css3-exclusions-use-cases/) for rich layouts with non-rectangular and intruding boxes.
 
-==== Flowing content between arbitrary areas ====
+### Flowing content between arbitrary areas
 
 The following image illustrates flowing the same content across regions of different widths. As the content is resized, so are the various regions and the content simply flows between the different regions.
 
-{{:spec:css3-regions:simple_single_thread.png?600|}}
+![](../../../assets/images/spec/css3-regions/simple_single_thread.png)
 
-<code css>
+```css
 /* extract the content of #source into a named flow - 'article' */
 #source {
   flow-into: article;
@@ -28,8 +32,8 @@ The following image illustrates flowing the same content across regions of diffe
 }
 #region_1, #region_3 { width:flex(1); }
 #region_2 { width:flex(1.7); height:40%; }
-</code>     
-<code html>
+```
+```html
 <div id="source">
   <p>Lorem ipsum dolor sit amet ...</p>
 </div>
@@ -38,13 +42,13 @@ The following image illustrates flowing the same content across regions of diffe
   <div id="region_2" class="region"></div>
   <div id="region_3" class="region"></div>
 </div>
-</code>
+```
 
-==== Flowing content between areas of a non-grid layout ====
+### Flowing content between areas of a non-grid layout
 
-{{:spec:css3-regions:regions_non-grid-layout.jpg?600|}}
+![](../../../assets/images/spec/css3-regions/regions_non-grid-layout.jpg)
 
-<code css>
+```css
 /* extract the content of #source into a named flow - 'article' */
 #source {
   flow-into: article;
@@ -76,24 +80,24 @@ The following image illustrates flowing the same content across regions of diffe
   top:      40px;
   right:    0;
 }
-</code>
-<code html>
+```
+```html
 <div id="source">
   <p>Lorem ipsum dolor sit amet ...</p>
 </div>  
 <div id="region_1" class="region"></div>
 <div id="region_2" class="region"></div>
 <div id="region_3" class="region"></div>
-</code>
+```
 
-==== Flowing content between areas and overlapping pull quote exclusion ====
+### Flowing content between areas and overlapping pull quote exclusion
 
 Use case from Korean News Paper layout: http://lists.w3.org/Archives/Public/www-archive/2011Oct/att-0033/KoreanNewspapers-exclusionAreas.pdf.
-{{:spec:css3-regions:exclusions_pullquote_offset.jpg?600|}}
+![](../../../assets/images/spec/css3-regions/exclusions_pullquote_offset.jpg)
 
 Sample with CSS Regions and Exclusions
 
-<code css>
+```css
 /* extract the content of #source into a named flow - 'article' */
 #source {
   flow-into: article;
@@ -127,23 +131,23 @@ blockquote {
   color: lightblue;
   font-size: 2em;
 }
-</code>
-<code html>
+```
+```html
     <div id="source">
         <p>Lorem ipsum dolor sit amet ...</p>
     </div>
     <div id="region_1" class="region"></div>
     <div id="region_2" class="region"></div>
     <blockquote>Lorem ipsum dolor ...</blockquote>
-</code>
+```
 
-==== Flowing content into transformed areas ====
+### Flowing content into transformed areas
 
 See Stagger and Swagger at http://24ways.org/2009/type-inspired-interfaces
 
-{{:spec:css3-regions:regions_rotated_columns.jpg?600|}}
+![](../../../assets/images/spec/css3-regions/regions_rotated_columns.jpg)
 
-<code css>
+```css
 /* extract the content of #source into a named flow - 'article' */
 #source {
   flow-into: article;
@@ -164,24 +168,23 @@ See Stagger and Swagger at http://24ways.org/2009/type-inspired-interfaces
 #region_2 {
   transform: rotate(-5.5deg) translate(0, 40px);
 }
-</code>
-<code html>
+```
+```html
     <div id="source">
         <p>Lorem ipsum dolor sit amet ...</p>
     </div>
     <div id="region_1" class="region"></div>
     <div id="region_2" class="region"></div>
-</code>
+```
 
-==== Filtering content - "Breaking news" ====
+### Filtering content - "Breaking news"
 
 With CSS Regions I can filter the content and surface it. Possible use cases: "breaking news" lists, terms of content summary, collecting references from a page, such as bugs or external links.
 
-{{:spec:css3-regions:screeny-shot-feb-5-2012-8.14.34-pm.png?600|}}
-
+![](../../../assets/images/spec/css3-regions/screeny-shot-feb-5-2012-8.14.34-pm.png)
 
 **Example with extra container**
-<code css>
+```css
 /* extract the breaking news into a separate named flow - 'breaking-news' */
 .breaking{
     background: yellow;
@@ -199,8 +202,8 @@ With CSS Regions I can filter the content and surface it. Possible use cases: "b
     flow-from: breaking-news;
 }   
 
-</code>
-<code html>
+```
+```html
 <h2>Surfacing breaking news</h2>
 <ul class="breaking-news"></ul>
 
@@ -211,13 +214,10 @@ With CSS Regions I can filter the content and surface it. Possible use cases: "b
     <li><a href="//example.com/story/4">Slow news day</a></li>
     <li class="breaking"><a href="//example.com/story/5">Critical story</a></li>
 </ul>
-</code>
-
-
-
+```
 
 **Example with pseudo-element overload**
-<code css>
+```css
 /* extract the breaking news into a separate named flow - 'breaking-news' */
 .breaking{
     background: yellow;
@@ -238,8 +238,8 @@ With CSS Regions I can filter the content and surface it. Possible use cases: "b
     region-fragment: auto;
     overflow: auto;
 }    
-</code>
-<code html>
+```
+```html
 <h2>Surfacing breaking news</h2>
 
 <ul class="stories">
@@ -249,48 +249,49 @@ With CSS Regions I can filter the content and surface it. Possible use cases: "b
     <li><a href="//example.com/story/4">Slow news day</a></li>
     <li class="breaking"><a href="//example.com/story/5">Critical story</a></li>
 </ul>
-</code>
+```
 
-Idea from [[https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html#shadow-dom-example|Shadow DOM Example]]
+Idea from [Shadow DOM Example](https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html#shadow-dom-example)
 
-==== Converting hard breaks to named flows ====
+### Converting hard breaks to named flows
 
-Some pages (see [[http://ilovetypography.com/2012/04/06/type-camp-india/|Type Camp India]]) break up a single article into segments in order to create the layout they want. Instead of using these hard breaks, the content could go into a named flow and the sections could be turned into regions. The regions can then be sized and arranged according to the layout desired and the content flowed smoothly between them.
+Some pages (see [Type Camp India](http://ilovetypography.com/2012/04/06/type-camp-india/)) break up a single article into segments in order to create the layout they want. Instead of using these hard breaks, the content could go into a named flow and the sections could be turned into regions. The regions can then be sized and arranged according to the layout desired and the content flowed smoothly between them.
 
 If you have markup like this:
 
-<code html>
+```html
 <div class="segment"><p>Some segment of the content...</p></div>
 <img/>
 <div class="segment"><p>...next segment of the content...</p></div>
 <img/>
 <div class="segment"><p>...next segment of the content...</p></div>
 ...
-</code>
+```
 
 You can take the contents of each segment and place them into a named flow:
 
-<code css>
+```css
 .segment > * {
   flow-into: combined-segments;
 }
-</code>
+```
 
 Then create a region chain out of the segments, usually giving them a height to take up in the layout:
 
-<code css>
+```css
 .segment {
   flow-from: combined-segments;
   height: 50vh;
 }
-</code>
+```
 
 This works only if the class="segment" elements have no direct content, because we only have > * to work with. It would be better if there was an "all content" selector we could use.
-==== Capturing region overflow content ====
 
-{{:spec:css3-regions:regions_region-overflow.jpg?600|}}
+### Capturing region overflow content
 
-<code css>
+![](../../../assets/images/spec/css3-regions/regions_region-overflow.jpg)
+
+```css
 /* extract the content of #source into a named flow - 'article' */
 #source {
     flow-into: article;
@@ -321,8 +322,8 @@ This works only if the class="segment" elements have no direct content, because 
     region-fragment:auto;
     overflow:auto;
 } 
-</code>
-<code html>
+```
+```html
     <div id="source">
         <p>Lorem ipsum dolor sit amet ...</p>
     </div>  
@@ -330,14 +331,13 @@ This works only if the class="segment" elements have no direct content, because 
     <div id="region1" class="region"></div>
     <div id="region2" class="region"></div>
     <div id="region3" class="region"></div>
-</code>
+```
 
+### Fancy illustration layout
 
-==== Fancy illustration layout ====
+![](../../../assets/images/spec/css3-regions/advanced_piechart.jpg)
 
-{{:spec:css3-regions:advanced_piechart.jpg?600|}}
-
-<code css>
+```css
 /* extract the content of #source into a named flow - 'article' */
 #source{
   flow-into: article;
@@ -386,8 +386,8 @@ This works only if the class="segment" elements have no direct content, because 
   top:      0;
   right:    0;
 }
-</code>
-<code html>
+```
+```html
 <h1>The <em>not so hidden</em> Cost$</h1>
 <div id="source">
   <p>Not every meal is going to be ...</p>       
@@ -398,27 +398,26 @@ This works only if the class="segment" elements have no direct content, because 
   <div id="slice_3" class="region"></div> 
   <div id="slice_4" class="region"></div>    
 </div> 
-</code>
+```
 
-
-==== Multi-lingual in parallel columns ====
+### Multi-lingual in parallel columns
 
 Pages showing multicolumn layout with two flows, one French and the other English text.
 
 See this real-life example of an airline magazine with english/french side by side. 
 
-{{:spec:css3-regions:multi-lingual.png?700|}}
+![](../../../assets/images/spec/css3-regions/multi-lingual.png)
 
-==== Content re-ordering on the client ====
+### Content re-ordering on the client
 
 There are content management systems that assemble markup on demand, but have limited options for changing the markup (and therefore the layout) based on the capabilities of the client that requests a page. One not-so-good solution is to offer a separate 'mobile' page using a different URL if there are layout considerations that require re-ordering the markup to achieve the layout desired on mobile. Using named flows and region chains allows you to define radically different layouts based on media queries in your CSS without changing the underlying markup.
 
-==== CSSOM use cases ====
+### CSSOM use cases
 
 The spec includes more than the usual amount of CSSOM, as the basic capabilities of named flows and region chains are very well suited to being extended via script. Here are some use cases for the scripting access included in the spec.
 
-  - Modifying the region chain based on content changes or window resizing. This could involve adding or removing CSS Regions, or changing region geometry. This case makes use of the regionLayoutUpdate event for noticing when changes may be required Then the NamedFlow.overset, NamedFlow.firstEmptyRegionIndex, and Region.regionOverset properties are used to determine what needs done.
-  - Modifying the content based on the region chain. This is the reverse of the first use case. If the size and position of the region chain is fixed, script can modify the contents (usually through font-size) to make it fit. This can take the form of enlarging headlines to fill the available space, or slightly reducing body text size to bring in a few lines of overset text. NamedFlow.overset is particularly useful here.
-  - Handing events on named flow contents - using the OM to determine the CSS Region(s) that contain the content. NamedFlow.getRegionsByContent() allows you to move from the contents to the containers.
-  - Layout extensions implemented via script (script-based layout constraints). If you have a script-based layout system that uses a different set of constraints than existing CSS layout modes, script access to the region chain through NamedFlow.getRegions() and NamedFlow.getRegionsByContent() is required to solve the layout puzzle. 
-  - Paginated views. Until pagination has an agreed-upon solution, script-based paginated views will need OM access to named flow contents and region chains. And the eventual agreed-upon pagination solution will likely have some voids that can be filled by script, so OM access will continue to be useful (for a smaller set of requirements).
+1. Modifying the region chain based on content changes or window resizing. This could involve adding or removing CSS Regions, or changing region geometry. This case makes use of the regionLayoutUpdate event for noticing when changes may be required Then the NamedFlow.overset, NamedFlow.firstEmptyRegionIndex, and Region.regionOverset properties are used to determine what needs done.
+1. Modifying the content based on the region chain. This is the reverse of the first use case. If the size and position of the region chain is fixed, script can modify the contents (usually through font-size) to make it fit. This can take the form of enlarging headlines to fill the available space, or slightly reducing body text size to bring in a few lines of overset text. NamedFlow.overset is particularly useful here.
+1. Handing events on named flow contents - using the OM to determine the CSS Region(s) that contain the content. NamedFlow.getRegionsByContent() allows you to move from the contents to the containers.
+1. Layout extensions implemented via script (script-based layout constraints). If you have a script-based layout system that uses a different set of constraints than existing CSS layout modes, script access to the region chain through NamedFlow.getRegions() and NamedFlow.getRegionsByContent() is required to solve the layout puzzle. 
+1. Paginated views. Until pagination has an agreed-upon solution, script-based paginated views will need OM access to named flow contents and region chains. And the eventual agreed-upon pagination solution will likely have some voids that can be filled by script, so OM access will continue to be useful (for a smaller set of requirements).

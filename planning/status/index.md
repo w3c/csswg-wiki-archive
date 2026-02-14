@@ -1,534 +1,538 @@
-====== Specification Status Scratchspace ======
+---
+title: "Specification Status Scratchspace"
+---
+
+# Specification Status Scratchspace
 
 This is scratch space for tracking the state of the CSS specs and what needs to be done for each. **It is not an exhaustive to-do list.** It's mainly used to track CSSWG-assigned items, though editors might also add their own items occasionally. (Other to-do items are stored on www-style, various issue-trackers, dispositions of comments, and editors' heads.)
 
 It was last updated on 25 October 2017 and tracks backwards through about August 2013 or so.
 
+Animation Scrolling
+: [Please see minutes for all of the tasks pertaining to this spec.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0357.html)
 
-  ; Animation Scrolling
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0357.html|Please see minutes for all of the tasks pertaining to this spec.]]
+Animations
+: [Resolved: Accept strings as animation-names](https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html)
+: [Resolved: No animation events when subtrees are destroyed.](https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/)
+: [Resolved: In level 1 of Animations we describe the current behavior of findRule and deleteRule](https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html)
+: [Resolved: Make appendRule always add at the end of the keyframe no matter if the key already exists](https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html)
+: [Resolved: No change for now for “Should CSSKeyframesRule inherit from CSSGroupingRule” bug (available here).](https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html)
+: [Resolved: For multiple values we expect the number and order of values to match, but whitespace will be trimmed by browser. As long as number and order is good, you’ll get the last rule that matches.](https://www.w3.org/blog/CSS/2014/12/18/minutes-telecon-232/)
+: [Resolved: Keywords are invalid @keyframes names and will throw an error when set through the OM](https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/)
+: [Resolved: findRule/deleteRule return/delete the last rule with the specified key.](https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/)
+: [Resolved: Animation properties don’t apply inside @keyframe rules except the animation timing function (where we have explainer text already)](https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/)
+: [Resolved: animation-fill-mode applies whenever it’s updated.](https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/)
+: [Resolved: Use Option G Beta.](https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html)
+: [Resolved: Animations and Transitions both really do have the behavior that non-interpolable properties switch at 50% of the timing function.](https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html)
+: [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|ACTION: TabAtkins to write up proposal for www-style
 
-  ; Animations
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html|Resolved: Accept strings as animation-names]]
-  : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|Resolved: No animation events when subtrees are destroyed.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html|Resolved: In level 1 of Animations we describe the current behavior of findRule and deleteRule]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html|Resolved: Make appendRule always add at the end of the keyframe no matter if the key already exists]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Dec/0300.html|Resolved: No change for now for “Should CSSKeyframesRule inherit from CSSGroupingRule” bug (available here).]]
-  : [[https://www.w3.org/blog/CSS/2014/12/18/minutes-telecon-232/|Resolved: For multiple values we expect the number and order of values to match, but whitespace will be trimmed by browser. As long as number and order is good, you’ll get the last rule that matches.]]
-  : [[https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/|Resolved: Keywords are invalid @keyframes names and will throw an error when set through the OM]]
-  : [[https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/|Resolved: findRule/deleteRule return/delete the last rule with the specified key.]]
-  : [[https://www.w3.org/blog/CSS/2014/10/23/minutes-telecon-226/|Resolved: Animation properties don’t apply inside @keyframe rules except the animation timing function (where we have explainer text already)]]
-  : [[https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/|Resolved: animation-fill-mode applies whenever it’s updated.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: Use Option G Beta.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: Animations and Transitions both really do have the behavior that non-interpolable properties switch at 50% of the timing function.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|ACTION: TabAtkins to write up proposal for www-style
   <trackbot> Created ACTION-636]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: When animation-duration:0s, start/end events fire with 0 elapsedTime.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html|Resolved: Iteration events only fire for iterations that are actually run e.g. those not ‘absorbed’ by a negative delay.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Resolved: Remove bit about waiting for document load event before starting animations.]]
-  : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Use percentage values for key arguments and map from/to keywords to 0% and 100% respectively in Animations.]]
-  : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Keytext on setting invalid value should throw an error in Animations.]]
-  : [[https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/|Resolved: Defer new timing keywords for bounce animations to level 2.]]
-  : [[https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/|Resolved: Defer a new steps() timing function to level 2.]]
-  : [[https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/|Resolved: Accept the edit proposed in this e-mail.]]
-  : [[https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/|Resolved: Inserting an @keyframe rule if it wasn’t there starts an animation.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2012Apr/0110.html|Note about seizures?]]
+  : [Resolved: When animation-duration:0s, start/end events fire with 0 elapsedTime.](https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html)
+  : [Resolved: Iteration events only fire for iterations that are actually run e.g. those not ‘absorbed’ by a negative delay.](https://lists.w3.org/Archives/Public/www-style/2014Oct/0290.html)
+  : [Resolved: Remove bit about waiting for document load event before starting animations.](https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html)
+  : [Resolved: Use percentage values for key arguments and map from/to keywords to 0% and 100% respectively in Animations.](https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/)
+  : [Resolved: Keytext on setting invalid value should throw an error in Animations.](https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/)
+  : [Resolved: Defer new timing keywords for bounce animations to level 2.](https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/)
+  : [Resolved: Defer a new steps() timing function to level 2.](https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/)
+  : [Resolved: Accept the edit proposed in this e-mail.](https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/)
+  : [Resolved: Inserting an @keyframe rule if it wasn’t there starts an animation.](https://www.w3.org/blog/CSS/2014/07/16/minutes-telecon-220/)
+  : [Note about seizures?](https://lists.w3.org/Archives/Public/www-style/2012Apr/0110.html)
 
-  ; Block Layout
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: 0px width float that is next to a line box does count as shortening a line box]]
+Block Layout
+: [Resolved: 0px width float that is next to a line box does count as shortening a line box](https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html)
 
-  ; Compositing
-  : [[https://www.w3.org/blog/CSS/2014/06/26/minutes-telecon-216/|Resolved: Solve background-blend on the root element as Rik requests.]]
+Compositing
+: [Resolved: Solve background-blend on the root element as Rik requests.](https://www.w3.org/blog/CSS/2014/06/26/minutes-telecon-216/)
 
-  ; Containment
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0039.html|Resolved: Accept #3 from the e-mail (Overflow is allowed visually, but it doesn’t project its “geometry” past the layout-contained ancestor, so it can’t trigger overflow past a layout-containment boundary) and say hit testing is currently undefined.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0039.html|Resolved: Mark the undefined hit testing as an issue.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|ACTION TabAtkins ask his implementor about layout containment and overflow.]]
-  : [[https://www.w3.org/blog/CSS/2015/08/06/minutes-telecon-258/|Resolved: Clarify contain to make sure it specifies the order of operations.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|Remove any mention of overflow:clip from the containment spec and change section 3.3 to define that clipping happens (just not by affecting value of'overflow').]]
+Containment
+: [Resolved: Accept #3 from the e-mail (Overflow is allowed visually, but it doesn’t project its “geometry” past the layout-contained ancestor, so it can’t trigger overflow past a layout-containment boundary) and say hit testing is currently undefined.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0039.html)
+: [Resolved: Mark the undefined hit testing as an issue.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0039.html)
+: [ACTION TabAtkins ask his implementor about layout containment and overflow.](https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html)
+: [Resolved: Clarify contain to make sure it specifies the order of operations.](https://www.w3.org/blog/CSS/2015/08/06/minutes-telecon-258/)
+: [Remove any mention of overflow:clip from the containment spec and change section 3.3 to define that clipping happens (just not by affecting value of'overflow').](https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html)
 
-  ; Colors
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html|Resolved: Not breaking on nbsp; for the break-all value.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html|Resolved: break-all should do the same as normal for preserved spaces]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html|Resolved: break-spaces goes into overflow-wrap instead of word-break]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html|Resolved: Keep current hanging-punctuation values in Level 3.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html|Resolved: Add note that more non-CJK-relevant keywords will be added to Level 4]]
-  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|ACTION: ask ICC guys how authors can choose colors outside  sRGB. SteveZ ask authoring tool people how authors can specify  colors outside sRGB.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0605.html|Resolved: Add this property/functionality to Color 4 with names TBD.]]
-  : [[https://www.w3.org/blog/CSS/2014/07/31/minutes-telecon-221/|Resolved: Accept rgb() with single values and rgba() with 2 values and keep exploring other potential values.]]
+Colors
+: [Resolved: Not breaking on nbsp; for the break-all value.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html)
+: [Resolved: break-all should do the same as normal for preserved spaces](https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html)
+: [Resolved: break-spaces goes into overflow-wrap instead of word-break](https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html)
+: [Resolved: Keep current hanging-punctuation values in Level 3.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html)
+: [Resolved: Add note that more non-CJK-relevant keywords will be added to Level 4](https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html)
+: [ACTION: ask ICC guys how authors can choose colors outside  sRGB. SteveZ ask authoring tool people how authors can specify  colors outside sRGB.](https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/)
+: [Resolved: Add this property/functionality to Color 4 with names TBD.](https://lists.w3.org/Archives/Public/www-style/2014Jan/0605.html)
+: [Resolved: Accept rgb() with single values and rgba() with 2 values and keep exploring other potential values.](https://www.w3.org/blog/CSS/2014/07/31/minutes-telecon-221/)
 
-  ; Colors 4
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Accept the changes in this commit: https://github.com/w3c/csswg-drafts/commit/054f195a222718e182352a0ff1f87affaafb7114 to allow percentages as a resolved type.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Hoist opacity from table box to its wrapper box]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Use this color syntax: color( [ <colorspace>? [ <number>+ | <string> ] [ / <alpha> ]? ]# [ , <color> ]? )]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Backport slash to the short functions like: rgb( [<r>, <g>, <b>] | [ <r> <g> <b> [ / <alpha> ] )]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Resolved: Add AbobeRGB and ProPhotoRGB as predefined spaces. Allow either the table of numbers or an ICC v.4 profile with relative colorimetric intent]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Resolved: Add a single CMYK profile, with relative colorimetric intent, mainly to use as a fallback]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: All alpha for color functions can be <number> and <percentage>]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: Opacity also takes <number> or <percentage>]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: rgb() should be extended to allow an optional alpha. Likewise hsl(). Pending compat analysis by TabAtkins]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Action-782: TabAtkins figure out if there's compat risk on "rgb()should be extended to allow an optional alpha. Likewise hsl()"]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Resolved: Do black point compensation when converting from profile to another.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Resolved: If you accurately describe the output device's color profile in an @color-profile rule then a sane implementation will not alter your colors so this is sufficient as a replacement for device-cmyk in general and provides a good RGB fallback automatically.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Add ChrisL as co-editor on CSS4 color]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Pull in SVG2 color section into CSS4 color]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: rgb() and rgba() will accent number rather than integer]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Allow angle in place of number for hues]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Accept percentage as alpha-value]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Accept rgba hex colors]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: No change to number of arguments to rgb/hsl]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html|Resolved: Add color-correction property to CSS4 color draft, with issue about the problem it’s trying to solve and consideration that it might not be the right solution.]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/729|Drop color-correction property]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/728|Propose color profile feature for css]]
+Colors 4
+: [Resolved: Accept the changes in this commit: https://github.com/w3c/csswg-drafts/commit/054f195a222718e182352a0ff1f87affaafb7114 to allow percentages as a resolved type.](https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html)
+: [Resolved: Hoist opacity from table box to its wrapper box](https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html)
+: [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Use this color syntax: color( [ <colorspace>? [ <number>+ | <string> ] [ / <alpha> ]? ]# [ , <color> ]? )]]
+: [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: Backport slash to the short functions like: rgb( [<r>, <g>, <b>] | [ <r> <g> <b> [ / <alpha> ] )]]
+: [Resolved: Add AbobeRGB and ProPhotoRGB as predefined spaces. Allow either the table of numbers or an ICC v.4 profile with relative colorimetric intent](https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html)
+: [Resolved: Add a single CMYK profile, with relative colorimetric intent, mainly to use as a fallback](https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html)
+: [Resolved: All alpha for color functions can be <number> and <percentage>](https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html)
+: [Resolved: Opacity also takes <number> or <percentage>](https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html)
+: [Resolved: rgb() should be extended to allow an optional alpha. Likewise hsl(). Pending compat analysis by TabAtkins](https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html)
+: [Action-782: TabAtkins figure out if there's compat risk on "rgb()should be extended to allow an optional alpha. Likewise hsl()"](https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html)
+: [Resolved: Do black point compensation when converting from profile to another.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html)
+: [Resolved: If you accurately describe the output device's color profile in an @color-profile rule then a sane implementation will not alter your colors so this is sufficient as a replacement for device-cmyk in general and provides a good RGB fallback automatically.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html)
+: [Resolved: Add ChrisL as co-editor on CSS4 color](https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html)
+: [Resolved: Pull in SVG2 color section into CSS4 color](https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html)
+: [Resolved: rgb() and rgba() will accent number rather than integer](https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html)
+: [Resolved: Allow angle in place of number for hues](https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html)
+: [Resolved: Accept percentage as alpha-value](https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html)
+: [Resolved: Accept rgba hex colors](https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html)
+: [Resolved: No change to number of arguments to rgb/hsl](https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html)
+: [Resolved: Add color-correction property to CSS4 color draft, with issue about the problem it’s trying to solve and consideration that it might not be the right solution.](https://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html)
+: [Drop color-correction property](https://www.w3.org/Style/CSS/Tracker/actions/729)
+: [Propose color profile feature for css](https://www.w3.org/Style/CSS/Tracker/actions/728)
 
-  ; Contain
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0210.html|RESOLVED: Publish FPWD of css-contain-1 after edits on overflow dependency]]
+Contain
+: [RESOLVED: Publish FPWD of css-contain-1 after edits on overflow dependency](https://lists.w3.org/Archives/Public/www-style/2016May/0210.html)
 
-  ; CSS2.1
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Make the changes listed in css2.1 and position (Issues: https://github.com/w3c/csswg-drafts/issues/1436#issuecomment-313215820 )]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: Add gsnedders as editor to CSS2.2]]
-  : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/|Resolved: Accept Myles’ proposal to make baseline of overflow non-visible inline blocks the higher of the actual baseline (at initial scroll position) and the margin-box bottom. Separately investigate whether to switch from margin-box bottom to padding-box bottom for sanity. (requries web-compat check)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0252.html|Resolved: Moving a float to the next fragmentainer does not move in-flow content that comes after the float. (However, per CSS2.1, subsequent floats do move down.)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html|Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Jul/0032.html|ACTION Bert to take Rossen's text and export it to level 2 <trackbot> Created ACTION-699.]]
-  : [[https://www.w3.org/blog/CSS/2015/05/27/minutes-new-york-f2f-ii/|Resolved: FPWD of CSS2.2.]]
-  : [[https://www.w3.org/blog/CSS/2015/05/27/minutes-new-york-f2f-ii/|Resolved: Republish CSS2.1 with more angry red boxes.]]
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/|Resolved: Change the 3rd bullet point of margin collapsing (CSS 2.1 section 8.3.1): Bottom margin of last inflow child and the bottom margin of parent, no longer collapse if the parent has non-zero min-height and the bottom margin of the last inflow child collapses with the top margin of the parent. Exact changes pending more testing.]]
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/|Resolved: Backport @charset parsing rules from CSS3 to CSS2.1. dbaron to propose errata; zcorpan to update tests.]]
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/|ACTION fantasai: propose errata for margin collapsing issue<trackbot> Created ACTION-666]]
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/|ACTION dbaron: propose errata for @charset in 2.1 that brings it into alignment with CSS3 Syntax<trackbot> Created ACTION-665]]
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/|ACTION zcorpan edit CSS 2.1 @charset tests to make them compliant with CSS3 syntax Created ACTION-667]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.]]
+CSS2.1
+: [Resolved: Make the changes listed in css2.1 and position (Issues: https://github.com/w3c/csswg-drafts/issues/1436#issuecomment-313215820 )](https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html)
+: [Resolved: Add gsnedders as editor to CSS2.2](https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html)
+: [Resolved: Accept Myles’ proposal to make baseline of overflow non-visible inline blocks the higher of the actual baseline (at initial scroll position) and the margin-box bottom. Separately investigate whether to switch from margin-box bottom to padding-box bottom for sanity. (requries web-compat check)](https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-243/)
+: [Resolved: Moving a float to the next fragmentainer does not move in-flow content that comes after the float. (However, per CSS2.1, subsequent floats do move down.)](https://lists.w3.org/Archives/Public/www-style/2015Sep/0252.html)
+: [Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.](https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html)
+: [ACTION Bert to take Rossen's text and export it to level 2 <trackbot> Created ACTION-699.](https://lists.w3.org/Archives/Public/www-style/2015Jul/0032.html)
+: [Resolved: FPWD of CSS2.2.](https://www.w3.org/blog/CSS/2015/05/27/minutes-new-york-f2f-ii/)
+: [Resolved: Republish CSS2.1 with more angry red boxes.](https://www.w3.org/blog/CSS/2015/05/27/minutes-new-york-f2f-ii/)
+: [Resolved: Change the 3rd bullet point of margin collapsing (CSS 2.1 section 8.3.1): Bottom margin of last inflow child and the bottom margin of parent, no longer collapse if the parent has non-zero min-height and the bottom margin of the last inflow child collapses with the top margin of the parent. Exact changes pending more testing.](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/)
+: [Resolved: Backport @charset parsing rules from CSS3 to CSS2.1. dbaron to propose errata; zcorpan to update tests.](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/)
+: [ACTION fantasai: propose errata for margin collapsing issue<trackbot> Created ACTION-666](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/)
+: [ACTION dbaron: propose errata for @charset in 2.1 that brings it into alignment with CSS3 Syntax<trackbot> Created ACTION-665](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/)
+: [ACTION zcorpan edit CSS 2.1 @charset tests to make them compliant with CSS3 syntax Created ACTION-667](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/)
+: [Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.](https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html)
 
-  ; CSS Backgrounds 3
-  : Bikeshedify and publish
+CSS Backgrounds 3
+: Bikeshedify and publish
 
-  ; CSS Conditional Rules
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html|Resolved: Add @else to the next level of conditionals pending review by dbaron.]]
+CSS Conditional Rules
+: [Resolved: Add @else to the next level of conditionals pending review by dbaron.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html)
 
-  ; CSS Forms
-  : [[https://www.w3.org/blog/CSS/2016/03/18/minutes-telecon-278/|TabAtkins will write up a proposal for checkbox and radio buttons for next week detailing his thoughts while everyone else reviews the e-mails.]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/673|Make page of all form controls]]
+CSS Forms
+: [TabAtkins will write up a proposal for checkbox and radio buttons for next week detailing his thoughts while everyone else reviews the e-mails.](https://www.w3.org/blog/CSS/2016/03/18/minutes-telecon-278/)
+: [Make page of all form controls](https://www.w3.org/Style/CSS/Tracker/actions/673)
 
-  ; CSS Logical Properties
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Resolved: adopt inset as the new positioning property name that’s used for shorthand]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html|Action: fremy to create a poll to get more data on the inset name]]
+CSS Logical Properties
+: [Resolved: adopt inset as the new positioning property name that’s used for shorthand](https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html)
+: [Action: fremy to create a poll to get more data on the inset name](https://lists.w3.org/Archives/Public/www-style/2017Jun/0039.html)
 
-  ; CSS OM
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html|Resolved: Make color properties return used value as resolved value]]
-  : [[https://www.w3.org/blog/CSS/2015/05/07/minutes-telecon-247/|Resolved: Accept the behavior of document.scrollingElement but add more definition.]]
-  : [[https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/|Resolved: Change the behavior of setProperty() according to last week’s proposal following Rossen’s approval.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html|Resolved: setProperty‘s handling of importance logically behaves same as appending a declaration (like IE/WebKit).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html|Resolved: Add a setPropertyValue and setPropertyPriority application programming interfaces.]]
+CSS OM
+: [Resolved: Make color properties return used value as resolved value](https://lists.w3.org/Archives/Public/www-style/2016Dec/0076.html)
+: [Resolved: Accept the behavior of document.scrollingElement but add more definition.](https://www.w3.org/blog/CSS/2015/05/07/minutes-telecon-247/)
+: [Resolved: Change the behavior of setProperty() according to last week’s proposal following Rossen’s approval.](https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/)
+: [Resolved: setProperty‘s handling of importance logically behaves same as appending a declaration (like IE/WebKit).](https://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html)
+: [Resolved: Add a setPropertyValue and setPropertyPriority application programming interfaces.](https://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html)
 
-  ; CSS OM View
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html|Resolved: Adopt the Gecko/Edge behavior and specify that .offsetParent is based on the nearest abspos containing block or table cell]]
-  : [[https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/|<zcorpan> action spieters to reply to Boris' e-mail * trackbot is creating a new ACTION. <trackbot> Created ACTION-655 - Reply to boris' e-mail [on Simon Pieters - due 2014-10-08].]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0443.html|Resolved: When a range endpoint falls in the middle of a grapheme cluster, Range.getClientRects() should include the entire grapheme cluster.]]
+CSS OM View
+: [Resolved: Adopt the Gecko/Edge behavior and specify that .offsetParent is based on the nearest abspos containing block or table cell](https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html)
+: [[https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/|<zcorpan> action spieters to reply to Boris' e-mail * trackbot is creating a new ACTION. <trackbot> Created ACTION-655 - Reply to boris' e-mail [on Simon Pieters - due 2014-10-08].]]
+: [Resolved: When a range endpoint falls in the middle of a grapheme cluster, Range.getClientRects() should include the entire grapheme cluster.](https://lists.w3.org/Archives/Public/www-style/2016Apr/0443.html)
 
-  ; CSS Overflow 3
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0231.html|RESOLVED: Publish a new WD for overflow]]
+CSS Overflow 3
+: [RESOLVED: Publish a new WD for overflow](https://lists.w3.org/Archives/Public/www-style/2016May/0231.html)
 
-  ; CSS Overflow 4
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: FPWD of Overflow 4]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: Change this (overflow:hidden not scrolling) from SHOULD to MUST.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: For the quoted [Overflow spec] text we are changing SHOULD to MUST and MAY to MUST. (Text quoted here: https://github.com/w3c/csswg-drafts/issues/666)
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: region-break gets folded into the new property, too.]]
+CSS Overflow 4
+: [Resolved: FPWD of Overflow 4](https://lists.w3.org/Archives/Public/www-style/2017May/0032.html)
+: [Resolved: Change this (overflow:hidden not scrolling) from SHOULD to MUST.](https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html)
+: [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: For the quoted [Overflow spec] text we are changing SHOULD to MUST and MAY to MUST. (Text quoted here: https://github.com/w3c/csswg-drafts/issues/666)
+: [Resolved: region-break gets folded into the new property, too.](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/)
 
-  ; Device Adaptation
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html|Take pull request 714: https://github.com/w3c/csswg-drafts/pull/714]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html|Resolved: Change the <meta> viewport text to normative and add two issues. One to test if the description matches reality. Second is while we spec with the same mechanism there may be differences as we tease out compat.]]
-  : [[https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/|ACTION spieters Bug Rune about CSS Device Adaptation spec, what to do about it <trackbot> Created ACTION-649.]]
-  : [[https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/|ACTION TabAtkins: Define zooming, 2 types, for insertion into either MQ or device-adapt <trackbot> Created ACTION-572]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/739|Review changes in device-adaptation to see if we need a new wd or just a date bump]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/738|Review status of device adaptation]]
+Device Adaptation
+: [Take pull request 714: https://github.com/w3c/csswg-drafts/pull/714](https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html)
+: [Resolved: Change the <meta> viewport text to normative and add two issues. One to test if the description matches reality. Second is while we spec with the same mechanism there may be differences as we tease out compat.](https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html)
+: [ACTION spieters Bug Rune about CSS Device Adaptation spec, what to do about it <trackbot> Created ACTION-649.](https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/)
+: [ACTION TabAtkins: Define zooming, 2 types, for insertion into either MQ or device-adapt <trackbot> Created ACTION-572](https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/)
+: [Review changes in device-adaptation to see if we need a new wd or just a date bump](https://www.w3.org/Style/CSS/Tracker/actions/739)
+: [Review status of device adaptation](https://www.w3.org/Style/CSS/Tracker/actions/738)
 
-  ; Display 3
-  : 
+Display 3
+: 
 
-  ; Display 4
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Drop inline-list-item]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Publish new WD of css-display]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: Blocks are turned into inline-blocks.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: We are provisionally going with option b (inline-block-> block; inline flow-root -> flow-root).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: Define this (Propagation of text-decoration with display:contents) as a box-tree concept.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html|Resolved: Let's try it out, go forward with the diff (https://github.com/w3c/csswg-drafts/issues/1118#issuecomment-301942276)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html|Make display into a short hand and add an issue on naming for the long hands.]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/613|Clarify how omitted values are handled for display shorthand (and other shorthands he might've forgotten to handle.]]
+Display 4
+: [Resolved: Drop inline-list-item](https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html)
+: [Resolved: Publish new WD of css-display](https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html)
+: [Resolved: Blocks are turned into inline-blocks.](https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html)
+: [Resolved: We are provisionally going with option b (inline-block-> block; inline flow-root -> flow-root).](https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html)
+: [Resolved: Define this (Propagation of text-decoration with display:contents) as a box-tree concept.](https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html)
+: [Resolved: Let's try it out, go forward with the diff (https://github.com/w3c/csswg-drafts/issues/1118#issuecomment-301942276)](https://lists.w3.org/Archives/Public/www-style/2017Jun/0009.html)
+: [Make display into a short hand and add an issue on naming for the long hands.](https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html)
+: [Clarify how omitted values are handled for display shorthand (and other shorthands he might've forgotten to handle.](https://www.w3.org/Style/CSS/Tracker/actions/613)
 
-  ; Exclusions
-  : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: shorten minimum/maximum to min/max in exclusions values.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|RESOLVED: When a line is split by an exclusion, each side is its own line box for the purposes of bidi algorithm (i.e. they are effectively separated by a soft line wrap). Which line box is first depends on the block's directionality.]]
+Exclusions
+: [Resolved: shorten minimum/maximum to min/max in exclusions values.](https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/)
+: [RESOLVED: When a line is split by an exclusion, each side is its own line box for the purposes of bidi algorithm (i.e. they are effectively separated by a soft line wrap). Which line box is first depends on the block's directionality.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html)
+
   
-  ; Fill Stroke 3
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Add -webkit-background-clip-text to the spec stating that authors must not use it but browsers may support it. (Deprecated appendix.)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Figure out dashing origin for text or make text undashable.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Mark stroke-align at-risk and note issues.]]
 
+Fill Stroke 3
+: [Investigate the paint order of the glyphs with respect to shadow and stroke and fill.](https://www.w3.org/Style/CSS/Tracker/actions/755)
+: [RESOLVED: Add -webkit-background-clip-text to the spec stating that authors must not use it but browsers may support it. (Deprecated appendix.)](https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html)
+: [Figure out dashing origin for text or make text undashable.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html)
+: [Mark stroke-align at-risk and note issues.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html)
 
-  ; Filters
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Tav presented a new filter primitive he'd like added to level 2; dino agreed it was interesting and will look into adding it to the spec.]]
+Filters
+: [Tav presented a new filter primitive he'd like added to level 2; dino agreed it was interesting and will look into adding it to the spec.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html)
 
-  ; Flexbox
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html|Resolved: Publish an updated CR of Flexbox.]]
+Flexbox
+: [Resolved: Publish an updated CR of Flexbox.](https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html)
 
-  ; Fonts 4
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html|Resolved: Publish a new Fonts 3 CR.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html|Resolved: Drop the requirement to subtract scrollbar size from vh/vw units for overflow scroll.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html|Resolved: Change spec text to read first available font that would match the U+0020 (space) character. (This change will be applied to both Fonts 3 and 4)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Action Myles to respond to the dwrite issue and ChrisL's asks for font edits. <trackbot> Created ACTION-838]]
-  : [[https://www.w3.org/blog/CSS/2014/07/03/minutes-telecon-218/|Resolved: Add min and max font-size properties. Define whether these properties affect the computed font size.]]
+Fonts 4
+: [Resolved: Publish a new Fonts 3 CR.](https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html)
+: [Resolved: Drop the requirement to subtract scrollbar size from vh/vw units for overflow scroll.](https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html)
+: [Resolved: Change spec text to read first available font that would match the U+0020 (space) character. (This change will be applied to both Fonts 3 and 4)](https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html)
+: [Action Myles to respond to the dwrite issue and ChrisL's asks for font edits. <trackbot> Created ACTION-838](https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html)
+: [Resolved: Add min and max font-size properties. Define whether these properties affect the computed font size.](https://www.w3.org/blog/CSS/2014/07/03/minutes-telecon-218/)
 
-  ; Font Loading
-  : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/|Resolved: font-loading control is only an @font-face descriptor, not a property.]]
-  : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/|Resolved: accept "font-display-thing-whatever-loading" property with four values to be renamed later:]] "block | swap | fallback | optional." i.block shows blank, swaps in fallback at 3s, swaps in real font whenever it loads. ii. swap shows fallback, swaps in real font whenever it loads. iii. fallback shows fallback, swaps in real font if it loads before 3s. iv. optional shows real font if it loads from cache (very short timeout), otherwise shows fallback; optional allows UA to not continue loading the font for the next time.
-  : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/|Resolved: Move Font Loading Control to the Font Loading spec.]]
-  : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/|Resolved: We are recommending informatively .cur support. Normatively must support PNG and SVG and saying should support animated formats too.]]
-  : [[https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/|ACTION TabAtkins to provide more info to jdaggett<trackbot> Created ACTION-679.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0060.html|Prepare for CR.]]
+Font Loading
+: [Resolved: font-loading control is only an @font-face descriptor, not a property.](https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/)
+: [Resolved: accept "font-display-thing-whatever-loading" property with four values to be renamed later:](https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-iii/) "block | swap | fallback | optional." i.block shows blank, swaps in fallback at 3s, swaps in real font whenever it loads. ii. swap shows fallback, swaps in real font whenever it loads. iii. fallback shows fallback, swaps in real font if it loads before 3s. iv. optional shows real font if it loads from cache (very short timeout), otherwise shows fallback; optional allows UA to not continue loading the font for the next time.
+: [Resolved: Move Font Loading Control to the Font Loading spec.](https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/)
+: [Resolved: We are recommending informatively .cur support. Normatively must support PNG and SVG and saying should support animated formats too.](https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/)
+: [ACTION TabAtkins to provide more info to jdaggett<trackbot> Created ACTION-679.](https://www.w3.org/blog/CSS/2015/04/09/minutes-telecon-242/)
+: [Prepare for CR.](https://lists.w3.org/Archives/Public/www-style/2014Jun/0060.html)
 
-  ; Generated Content
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.]]
+Generated Content
+: [Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.](https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html)
 
-  ; Geometry
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ]]
+Geometry
+: [zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19 ](https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html)
 
-  ; Grid
-  : 
+Grid
+: 
 
-  ; Images 3
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Accept the change in https://github.com/w3c/csswg-drafts/issues/1578]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: Move gradient midpoint to Images L3.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: Revert the edit to image-set in CSS Images.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Resolved: Move everything with no impl to next level and mark everything with 1 impl as at risk.]]
-  : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.]]
-  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Allow nearest neighbor for image rendering in both directions but allow browsers to do prettier in the down directions.]]
-  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Include image rendering in Images 3.]]
-  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Close the issue (regarding guessing resolution from file size in Images 3) with no change because we’ll fix it later in harmony with HTML.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html|Resolved: Drop fallback from image except fallback to color. Later we introduce that fallback as an explicit function.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html|Resolved: Cut out everything not defined for image-orientation, remove additions, move it to an appendix, call it obsolete and make a custom CR exit criteria stating it doesn’t need to be tested to exit CR.]]
-  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Have image set in Images 3.]]
-  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Move crossfade to Images 3.]]
-  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Action TabAtkins to e-mail the list about lifting restrictions on nesting image set * trackbot is creating a new ACTION. <trackbot> Created ACTION-652 - E-mail the list about lifting restrictions on nesting image set -on Tab Atkins Jr. - due 2014-10-01.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html|Resolved: When transitioning from plain image A to foo(A), infer the foo() on the other side (using no-op arguments).]]
-  : [[https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/|Resolved: Allow image-resolution to accept two values (for X and Y axes) for resolution, to allow explicit values to match from-image in capabilities.
-  : [[https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/|Resolved: Clarify spec that CSS units (not physical units) are used for resolutions taken from image data.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html|Resolved: Mark as open issue whether interpolating complex images with the same source (e.g. foo(A) to bar(A)) uses recursive interpolation (building a stack of compatible functions, e.g.foo(bar(A))) or just uses cross-fade().]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html|Resolved: Accept proposal to shift misordered gradient stop fixup rules to after missing position interpolation and transition interpolation in order to make transitions layout-independent.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html|Resolved: No magic length interpolation for angle transitions in linear-gradient().]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html|Resolved: Cannot interpolate to/from gradients with keyword direction unless using the same keyword.]]
+Images 3
+: [Resolved: Accept the change in https://github.com/w3c/csswg-drafts/issues/1578](https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html)
+: [Resolved: Move gradient midpoint to Images L3.](https://lists.w3.org/Archives/Public/www-style/2017May/0010.html)
+: [Resolved: Revert the edit to image-set in CSS Images.](https://lists.w3.org/Archives/Public/www-style/2017May/0010.html)
+: [Resolved: Move everything with no impl to next level and mark everything with 1 impl as at risk.](https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html)
+: [fantasai to edit CSS Image and specify how to determine the coordinate system of the image<trackbot> Created ACTION-683.](https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/)
+: [Resolved: Allow nearest neighbor for image rendering in both directions but allow browsers to do prettier in the down directions.](https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/)
+: [Resolved: Include image rendering in Images 3.](https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/)
+: [Resolved: Close the issue (regarding guessing resolution from file size in Images 3) with no change because we’ll fix it later in harmony with HTML.](https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/)
+: [Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.](https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html)
+: [Resolved: Drop fallback from image except fallback to color. Later we introduce that fallback as an explicit function.](https://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html)
+: [Resolved: Cut out everything not defined for image-orientation, remove additions, move it to an appendix, call it obsolete and make a custom CR exit criteria stating it doesn’t need to be tested to exit CR.](https://lists.w3.org/Archives/Public/www-style/2014Jun/0058.html)
+: [Resolved: Have image set in Images 3.](https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/)
+: [Resolved: Move crossfade to Images 3.](https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/)
+: [Action TabAtkins to e-mail the list about lifting restrictions on nesting image set * trackbot is creating a new ACTION. <trackbot> Created ACTION-652 - E-mail the list about lifting restrictions on nesting image set -on Tab Atkins Jr. - due 2014-10-01.](https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/)
+: [Resolved: When transitioning from plain image A to foo(A), infer the foo() on the other side (using no-op arguments).](https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html)
+: [[https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/|Resolved: Allow image-resolution to accept two values (for X and Y axes) for resolution, to allow explicit values to match from-image in capabilities.
+: [Resolved: Clarify spec that CSS units (not physical units) are used for resolutions taken from image data.](https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/)
+: [Resolved: Mark as open issue whether interpolating complex images with the same source (e.g. foo(A) to bar(A)) uses recursive interpolation (building a stack of compatible functions, e.g.foo(bar(A))) or just uses cross-fade().](https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html)
+: [Resolved: Accept proposal to shift misordered gradient stop fixup rules to after missing position interpolation and transition interpolation in order to make transitions layout-independent.](https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html)
+: [Resolved: No magic length interpolation for angle transitions in linear-gradient().](https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html)
+: [Resolved: Cannot interpolate to/from gradients with keyword direction unless using the same keyword.](https://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html)
 
-  ; Image 4
-  : [[https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/|Resolved: Make the image() function always respect EXIF orientation metadata in Backgrounds.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0609.html|Resolved: Change CSS Images 4’s specification of colorless color stops to use Rik’s proposal (i.e. use power curves).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html|Action: krit to write up canvas for css4 images <trackbot> Created ACTION-588 - Write up canvas for css4 images (on Dirk Schulze - due 2013-11-17)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html|Resolved: The working group would like to see work on canvas for CSS Image.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|Either AmeliaBR or Tav will create a proposal to either offer author control or spec guidance for browsers on dithering.]]
+Image 4
+: [Resolved: Make the image() function always respect EXIF orientation metadata in Backgrounds.](https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/)
+: [Resolved: Change CSS Images 4’s specification of colorless color stops to use Rik’s proposal (i.e. use power curves).](https://lists.w3.org/Archives/Public/www-style/2014Feb/0609.html)
+: [Action: krit to write up canvas for css4 images <trackbot> Created ACTION-588 - Write up canvas for css4 images (on Dirk Schulze - due 2013-11-17)](https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html)
+: [Resolved: The working group would like to see work on canvas for CSS Image.](https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html)
+: [Either AmeliaBR or Tav will create a proposal to either offer author control or spec guidance for browsers on dithering.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html)
 
-  ; Inline
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html|Publish inline]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Middle (half of the x height) and Alignment (synonym for text top and text bottom) baselines may be useful to add to CSS Inline.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Need to clarify that line boxes are fitted to nonrectangular shapes by requiring zero intersection.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Need to define default baseline positions for all baselines.]]
+Inline
+: [Publish inline](https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html)
+: [Middle (half of the x height) and Alignment (synonym for text top and text bottom) baselines may be useful to add to CSS Inline.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html)
+: [Need to clarify that line boxes are fitted to nonrectangular shapes by requiring zero intersection.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html)
+: [Need to define default baseline positions for all baselines.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html)
 
-  ; Input Modality
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0112.html|Resolved: bkardell as editor of new ED for input modality (name pending)]]
+Input Modality
+: [Resolved: bkardell as editor of new ED for input modality (name pending)](https://lists.w3.org/Archives/Public/www-style/2015Sep/0112.html)
 
-  ; Line Grid
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Nov/0226.html|Resolved: Line-grid will restart in the case of orthogonal flows between parent and child.]]
+Line Grid
+: [Resolved: Line-grid will restart in the case of orthogonal flows between parent and child.](https://lists.w3.org/Archives/Public/www-style/2015Nov/0226.html)
 
-  ; Lists
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html|Resolved: Add new syntax (TBD) to control counter scoping and consider reversing too.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0059.html|Resolved: We handle the list-style custom-ident in the fashion of Animation.]]
+Lists
+: [Resolved: Add new syntax (TBD) to control counter scoping and consider reversing too.](https://lists.w3.org/Archives/Public/www-style/2016May/0209.html)
+: [Resolved: We handle the list-style custom-ident in the fashion of Animation.](https://lists.w3.org/Archives/Public/www-style/2014Jun/0059.html)
 
-  ; Overflow 3
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: We will work on a solution to accommodate issue 92 (https://github.com/w3c/csswg-drafts/issues/92)]]
-  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|clip-path and masking do not affect scrollable bounds]]
-  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|Spec the current behavior for nested transforms and add a note that this could be improved]]
+Overflow 3
+: [Resolved: We will work on a solution to accommodate issue 92 (https://github.com/w3c/csswg-drafts/issues/92)](https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html)
+: [clip-path and masking do not affect scrollable bounds](https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/)
+: [Spec the current behavior for nested transforms and add a note that this could be improved](https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/)
 
-  ;Masking
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html|Resolved:  mask-mode can be anywhere in the mask shorthand other than between position and size]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: Match webkit/blink behavior for initial value of mask-repeat and mask-position]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: ChrisL, TabAtkins, and shane as editors for masking spec.]]
-  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|esprehn will look into the compat for clip-path]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/756|Investigate dropping mask-type property]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|RESOLVED: Change 'auto' value of mask-mode to 'match-source'.]]
+Masking
+: [Resolved:  mask-mode can be anywhere in the mask shorthand other than between position and size](https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html)
+: [Resolved: Match webkit/blink behavior for initial value of mask-repeat and mask-position](https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html)
+: [Resolved: ChrisL, TabAtkins, and shane as editors for masking spec.](https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html)
+: [esprehn will look into the compat for clip-path](https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/)
+: [Investigate dropping mask-type property](https://www.w3.org/Style/CSS/Tracker/actions/756)
+: [RESOLVED: Change 'auto' value of mask-mode to 'match-source'.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html)
 
-  ; Media Queries
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html|Resolved: Revert the Media Queries spec on the whitespace requirement.]]
-  : [[https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/|Resolved: In media queries, use boolean maybe semantics to handle unsupported syntax, i.e. false and unknown = false. (Re-evaluate if this ends up with back-compat problems.)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0060.html|Resolved: Make MQ lists and EventTarget for the change event and alias the existing listener to addEventListener and removeEventListener]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html|Action: hober and matt to write a proposed resolution to resolve the proposal about device resolution (using unambiguous terms) <trackbot> Created ACTION-589 - And matt to write a proposed resolution to resolve the proposal about device resolution (using unambiguous terms) (on Edward O'Connor - due 2013-11-17)]]
-  : [[https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/|ACTION TabAtkins: Define zooming, 2 types, for insertion into either MQ or device-adapt <trackbot> Created ACTION-572]]
-  : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: Remove the on-demand value from hover.]]
-  : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: Move light-level to the next level of Media Queries.]]
-  : [[https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/|Resolved: Add defining a minimum for the onload property as an issue in the Media Queries spec.]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/740|Republish mq4]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html|overflow-block and overflow-inline will be combined into overflow with properties to specify inline and block direction. fantasai will write up proposed text for the new properties.]]
+Media Queries
+: [Resolved: Revert the Media Queries spec on the whitespace requirement.](https://lists.w3.org/Archives/Public/www-style/2015Aug/0051.html)
+: [Resolved: In media queries, use boolean maybe semantics to handle unsupported syntax, i.e. false and unknown = false. (Re-evaluate if this ends up with back-compat problems.)](https://www.w3.org/blog/CSS/2015/04/30/minutes-telecon-246/)
+: [Resolved: Make MQ lists and EventTarget for the change event and alias the existing listener to addEventListener and removeEventListener](https://lists.w3.org/Archives/Public/www-style/2014Jun/0060.html)
+: [Action: hober and matt to write a proposed resolution to resolve the proposal about device resolution (using unambiguous terms) <trackbot> Created ACTION-589 - And matt to write a proposed resolution to resolve the proposal about device resolution (using unambiguous terms) (on Edward O'Connor - due 2013-11-17)](https://lists.w3.org/Archives/Public/www-style/2013Nov/0349.html)
+: [ACTION TabAtkins: Define zooming, 2 types, for insertion into either MQ or device-adapt <trackbot> Created ACTION-572](https://www.w3.org/blog/CSS/2013/08/15/resolutions-104/)
+: [Resolved: Remove the on-demand value from hover.](https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/)
+: [Resolved: Move light-level to the next level of Media Queries.](https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/)
+: [Resolved: Add defining a minimum for the onload property as an issue in the Media Queries spec.](https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/)
+: [Republish mq4](https://www.w3.org/Style/CSS/Tracker/actions/740)
+: [overflow-block and overflow-inline will be combined into overflow with properties to specify inline and block direction. fantasai will write up proposed text for the new properties.](https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html)
 
-  ; Media Queries 3
-  : [[https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/|Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)]]
-  : [[https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/|Resolved: Allow empty string in media-query]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0052.html|Resolved: Update Media Queries 3 wording on never having to evaluate a style sheet unless specified explicitly otherwise.]]
+Media Queries 3
+: [Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)](https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/)
+: [Resolved: Allow empty string in media-query](https://www.w3.org/blog/CSS/2014/10/01/minutes-telecon-223/)
+: [Resolved: Update Media Queries 3 wording on never having to evaluate a style sheet unless specified explicitly otherwise.](https://lists.w3.org/Archives/Public/www-style/2014Feb/0052.html)
 
-  ; Media Queries 4
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: New WD of MQ4.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Mark the various hover and pointer things as at-risk.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Close https://github.com/w3c/csswg-drafts/issues/841 no change.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Push scripting MQ values to L5.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html|Resolved: Accept the proposal (Proposal: Make the device-width/etc MQs use the same concepts as CSSOM is using for returning device dimensions.)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html|Resolved: Change MQ4 to p3 from dci-p3]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Rename update-frequency to update (Media Queries issue #1).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Rename normal to fast (Media Queries issue #1).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Move inverted colors to level 5 (Media Queries issue #8)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Move custom MQ to level 5 (Media Queries issue #9).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Publish a new WD of Media Queries 4.]]
-  : [[https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/|Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)]]
-  : [[https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/|Resolved: Remove the old text that negates the entire media query if an unrecognized media value or feature appears.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0261.html|Resolved: Add color-inverted media feature with values none and inverted.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html|Resolved: Add infinite value to resolution MQ.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html|fantasai draw up a proposal for overflow MQ ACTION-763]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html|Florian write up a proposal for raster MQ ACTION-764]]
+Media Queries 4
+: [Resolved: New WD of MQ4.](https://lists.w3.org/Archives/Public/www-style/2017May/0032.html)
+: [Resolved: Mark the various hover and pointer things as at-risk.](https://lists.w3.org/Archives/Public/www-style/2017May/0032.html)
+: [Resolved: Close https://github.com/w3c/csswg-drafts/issues/841 no change.](https://lists.w3.org/Archives/Public/www-style/2017May/0032.html)
+: [Resolved: Push scripting MQ values to L5.](https://lists.w3.org/Archives/Public/www-style/2017May/0032.html)
+: [Resolved: Accept the proposal (Proposal: Make the device-width/etc MQs use the same concepts as CSSOM is using for returning device dimensions.)](https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html)
+: [Resolved: Change MQ4 to p3 from dci-p3](https://lists.w3.org/Archives/Public/www-style/2016Jul/0048.html)
+: [Resolved: Rename update-frequency to update (Media Queries issue #1).](https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html)
+: [Resolved: Rename normal to fast (Media Queries issue #1).](https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html)
+: [Resolved: Move inverted colors to level 5 (Media Queries issue #8)](https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html)
+: [Resolved: Move custom MQ to level 5 (Media Queries issue #9).](https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html)
+: [Resolved: Publish a new WD of Media Queries 4.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html)
+: [Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)](https://www.w3.org/blog/CSS/2015/06/25/minutes-telecon-251/)
+: [Resolved: Remove the old text that negates the entire media query if an unrecognized media value or feature appears.](https://www.w3.org/blog/CSS/2014/10/09/minutes-telecon-224/)
+: [Resolved: Add color-inverted media feature with values none and inverted.](https://lists.w3.org/Archives/Public/www-style/2014Oct/0261.html)
+: [Resolved: Add infinite value to resolution MQ.](https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html)
+: [fantasai draw up a proposal for overflow MQ ACTION-763](https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html)
+: [Florian write up a proposal for raster MQ ACTION-764](https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html)
 
-  ; Media Queries 5
-  : [[https://www.w3.org/blog/CSS/2015/04/23/minutes-telecon-245/|Tab and Florian to write proposal to Allow custom MQ before @import Action Florian to write a proposal for the mailing list <trackbot> Created ACTION-681.]]
-  : [[https://www.w3.org/blog/CSS/2015/04/23/minutes-telecon-245/|Action TabAtkins to write a proposal for the mailing list.<trackbot> Created ACTION-682.]]
+Media Queries 5
+: [Tab and Florian to write proposal to Allow custom MQ before @import Action Florian to write a proposal for the mailing list <trackbot> Created ACTION-681.](https://www.w3.org/blog/CSS/2015/04/23/minutes-telecon-245/)
+: [Action TabAtkins to write a proposal for the mailing list.<trackbot> Created ACTION-682.](https://www.w3.org/blog/CSS/2015/04/23/minutes-telecon-245/)
 
-  ; Misc
-  :[[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Action-783 TabAtkins to start collecting namespaces history and future plans on a wiki so we can show the community and allow input.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html|Issues won't be closed on github until a decision is reach or the working group resolves on them.]]
-  : TabAtkins brought his proposal to address the possibility of font name being duplicated inside and outside a shadow DOM. The proposal would create a mapping where the external font is translated into a guaranteed unique name when passed into the shadow DOM. dbaron raised the possibility of instead using a function that gets the name from the scope, which was a cleaner solution. TabAtkins will write-up a new proposal using functions and send it to the mailing list for review.
-  : ACTION leaverou write outdated-spec-watermark script for w3.org to put on /TR
-  : ACTION glazou Investigate which data needs to be added and how to automate current-work <trackbot> Created ACTION-685 - glazou: OK, so we will do these actions, and then go back to AC/plh and iterate
+Misc
+: [Action-783 TabAtkins to start collecting namespaces history and future plans on a wiki so we can show the community and allow input.](https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html)
+: [Issues won't be closed on github until a decision is reach or the working group resolves on them.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html)
+: TabAtkins brought his proposal to address the possibility of font name being duplicated inside and outside a shadow DOM. The proposal would create a mapping where the external font is translated into a guaranteed unique name when passed into the shadow DOM. dbaron raised the possibility of instead using a function that gets the name from the scope, which was a cleaner solution. TabAtkins will write-up a new proposal using functions and send it to the mailing list for review.
+: ACTION leaverou write outdated-spec-watermark script for w3.org to put on /TR
+: ACTION glazou Investigate which data needs to be added and how to automate current-work <trackbot> Created ACTION-685 - glazou: OK, so we will do these actions, and then go back to AC/plh and iterate
 
-  ; Motion
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: New WD of Motion Path]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html|Resolved: Rename offset-rotation to be offset-rotate]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html|Resolved: Update motion draft on TR]]
+Motion
+: [Resolved: New WD of Motion Path](https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html)
+: [Resolved: Rename offset-rotation to be offset-rotate](https://lists.w3.org/Archives/Public/www-style/2016Nov/0107.html)
+: [Resolved: Update motion draft on TR](https://lists.w3.org/Archives/Public/www-style/2017Apr/0018.html)
 
-  ; Multicol 1
-  : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/|ACTION: TabAtkins talk with WebApps about a reordering API<trackbot> Created ACTION-692.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html|ACTION rossen to add spec text to multicol specifying that text draws over column rules. <trackbot> Created ACTION-578]]
+Multicol 1
+: [ACTION: TabAtkins talk with WebApps about a reordering API<trackbot> Created ACTION-692.](https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-ii/)
+: [ACTION rossen to add spec text to multicol specifying that text draws over column rules. <trackbot> Created ACTION-578](https://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html)
 
-  ; Namespaces
-  : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.]]
+Namespaces
+: [Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.](https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/)
 
-  ; Paged Media
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: page: name is not inheritable, creates a group, but does not force page breaks between groups of the same name (for compat). First page of the group might be the last of another group. Delete the page-group property.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: Keep :nth() as the name, but extend functionality like L4 :nth-child() to solve the “first of group” problem.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html|Resolved: Add :first(A) to select first page of an A group. (A:first only selects a first page of the doc that also happens to be named A).]]
+Paged Media
+: [Resolved: page: name is not inheritable, creates a group, but does not force page breaks between groups of the same name (for compat). First page of the group might be the last of another group. Delete the page-group property.](https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html)
+: [Resolved: Keep :nth() as the name, but extend functionality like L4 :nth-child() to solve the “first of group” problem.](https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html)
+: [Resolved: Add :first(A) to select first page of an A group. (A:first only selects a first page of the doc that also happens to be named A).](https://lists.w3.org/Archives/Public/www-style/2014Feb/0606.html)
 
-  ; Positioned Layout
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: Close issue 1660 no change.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html|Resolved: Make the changes listed in css2.1 and position (Issues: https://github.com/w3c/csswg-drafts/issues/1436#issuecomment-313215820 )]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html|Resolved: Standardize on Edge behavior as described by dbaron in the issue (https://github.com/w3c/csswg-drafts/issues/609#issuecomment-259058527)]]
-  : [[https://www.w3.org/blog/CSS/2015/07/02/minutes-telecon-252/|ACTION Rossen add position: fixed as s full stacking context to positioning <trackbot> Created ACTION-698.]]
+Positioned Layout
+: [Resolved: Close issue 1660 no change.](https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html)
+: [Resolved: Make the changes listed in css2.1 and position (Issues: https://github.com/w3c/csswg-drafts/issues/1436#issuecomment-313215820 )](https://lists.w3.org/Archives/Public/www-style/2017Jul/0015.html)
+: [Resolved: Standardize on Edge behavior as described by dbaron in the issue (https://github.com/w3c/csswg-drafts/issues/609#issuecomment-259058527)](https://lists.w3.org/Archives/Public/www-style/2016Nov/0085.html)
+: [ACTION Rossen add position: fixed as s full stacking context to positioning <trackbot> Created ACTION-698.](https://www.w3.org/blog/CSS/2015/07/02/minutes-telecon-252/)
 
-  ; Pseudo-Elements
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html|Remove this section (https://drafts.csswg.org/css-pseudo/#cssom) from the current level 4 draft and move the work to Houdini]]
-  : [[https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/|Resolved: Remove special case from ::first-letter]]
+Pseudo-Elements
+: [Remove this section (https://drafts.csswg.org/css-pseudo/#cssom) from the current level 4 draft and move the work to Houdini](https://lists.w3.org/Archives/Public/www-style/2016Aug/0034.html)
+: [Resolved: Remove special case from ::first-letter](https://www.w3.org/blog/CSS/2014/09/24/minutes-telecon-222-2/)
 
-  ; Round Display
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Action: jihye to move offset- properties to motion-path spec]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Change the initial value of offset-rotation to 0deg.]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/751|Add @viewport switch for opting into full round display size as viewport]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0240.html|Add 'viewport-fit: contain']]
+Round Display
+: [Action: jihye to move offset- properties to motion-path spec](https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html)
+: [Change the initial value of offset-rotation to 0deg.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html)
+: [Add @viewport switch for opting into full round display size as viewport](https://www.w3.org/Style/CSS/Tracker/actions/751)
+: [Add 'viewport-fit: contain'](https://lists.w3.org/Archives/Public/www-style/2016Apr/0240.html)
 
-  ; Ruby
-  : [[https://www.w3.org/blog/CSS/2016/11/17/minutes-telecon-306/|Resolved: initial-letter and ruby is explicitly undefined.]]
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: writing-mode: vertical-lr on the rt based on parent’s ‘display’ & ‘ruby-position’.]]
-  : [[https://www.w3.org/blog/CSS/2014/07/31/minutes-telecon-221/|Resolved: Floats are passed up through Ruby to the containing block.]]
+Ruby
+: [Resolved: initial-letter and ruby is explicitly undefined.](https://www.w3.org/blog/CSS/2016/11/17/minutes-telecon-306/)
+: [Resolved: writing-mode: vertical-lr on the rt based on parent’s ‘display’ & ‘ruby-position’.](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/)
+: [Resolved: Floats are passed up through Ruby to the containing block.](https://www.w3.org/blog/CSS/2014/07/31/minutes-telecon-221/)
 
-  ; Scoping
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html|Resolved: Allow ::before/after after ::slotted() but not opening it to general stacking of elements. ]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html|Resolved: Move fragment styling and @scope to a delta level 4 of scoping module]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html|Selecting an Outside Scoping Box - ACTION TabAtkins fantasai Add an example to section 2.2.2<trackbot> Created ACTION-625]]
+Scoping
+: [Resolved: Allow ::before/after after ::slotted() but not opening it to general stacking of elements. ](https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html)
+: [Resolved: Move fragment styling and @scope to a delta level 4 of scoping module](https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html)
+: [Selecting an Outside Scoping Box - ACTION TabAtkins fantasai Add an example to section 2.2.2<trackbot> Created ACTION-625](https://lists.w3.org/Archives/Public/www-style/2014Jun/0106.html)
 
-  ; Selectors 3
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Request PR on Selectors 3.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Change the title to subsequent. (In reference to better terminology for ~ sibling combinator: Issue 1382)
-  : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.]]
+Selectors 3
+: [Resolved: Request PR on Selectors 3.](https://lists.w3.org/Archives/Public/www-style/2017May/0032.html)
+: [[https://lists.w3.org/Archives/Public/www-style/2017May/0032.html|Resolved: Change the title to subsequent. (In reference to better terminology for ~ sibling combinator: Issue 1382)
+: [Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.](https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/)
 
-  ; Selectors 4
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Oct/0012.html|Resolved: Add :focus-ring to Selectors 4 or 5.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0111.html|Resolved: Keep section 3.6.3. (Pseudo-classing Pseudo-elements) overall. Add guidance to people developing new pseudo-elements on when to specify if they accept user action pseudo-classes. Remove the statement from :hover that it applies to all pseudo-elements: pseudo-elements must individually enable pseudo-classes they need.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html|Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.]]
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/|Florian brought back some documented need for a selector that propagates input states to the corresponding label.Resolved: Florian to work on a proposal for a selector that propagates input states to the corresponding label and/or other associated elements.]]
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/|ACTION dbaron review performance characteristics of parent and previous-sibling combinator, potentially combinable <trackbot> Created ACTION-668]]
-  : [[https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-iii/|Resolved: add :role() to selectors]]
-  : [[https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-iii/|Resolved: unprefix :dir and :lang]]
-  : [[https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/|Resolved: extend :matches() to pseudo-elements]]
-  : [[https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/|Resolved: The specificity of a :matches() inside a :not() is the specificity of the most specific]]
-  : [[https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/|Resolved: reuse the hook from :active on :focus]]
-  : [[https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/|Resolved: define a new :focus-within that matches on the same things as :focus, plus parents, including if there are Shadow DOMs]]
-  : [[https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/|Resolved: both :hover and :active should propagate from the labeled control to the label, in addition to the other direction.]]
-  : [[https://www.w3.org/blog/CSS/2014/11/20/minutes-telecon-228/|A tracking tool for the moved and removed pseudo-elements and pseudo-classes is available here.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html|Resolved: Complex selectors in :matches/:not to move to fast profile, assuming bz agrees.]]
-  : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.]]
-  : [[https://www.w3.org/blog/CSS/2014/05/08/minutes-telecon-215/|Resolved: Add :modal to Selectors level 4]]
-  : [[https://www.w3.org/blog/CSS/2013/12/12/resolutions119/|Resolved: Add :sorted pseudoclass to selectors 4.]]
+Selectors 4
+: [Resolved: Add :focus-ring to Selectors 4 or 5.](https://lists.w3.org/Archives/Public/www-style/2015Oct/0012.html)
+: [Resolved: Keep section 3.6.3. (Pseudo-classing Pseudo-elements) overall. Add guidance to people developing new pseudo-elements on when to specify if they accept user action pseudo-classes. Remove the statement from :hover that it applies to all pseudo-elements: pseudo-elements must individually enable pseudo-classes they need.](https://lists.w3.org/Archives/Public/www-style/2015Sep/0111.html)
+: [Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.](https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html)
+: [Florian brought back some documented need for a selector that propagates input states to the corresponding label.Resolved: Florian to work on a proposal for a selector that propagates input states to the corresponding label and/or other associated elements.](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/)
+: [ACTION dbaron review performance characteristics of parent and previous-sibling combinator, potentially combinable <trackbot> Created ACTION-668](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-i/)
+: [Resolved: add :role() to selectors](https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-iii/)
+: [Resolved: unprefix :dir and :lang](https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-iii/)
+: [Resolved: extend :matches() to pseudo-elements](https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/)
+: [Resolved: The specificity of a :matches() inside a :not() is the specificity of the most specific](https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/)
+: [Resolved: reuse the hook from :active on :focus](https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/)
+: [Resolved: define a new :focus-within that matches on the same things as :focus, plus parents, including if there are Shadow DOMs](https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/)
+: [Resolved: both :hover and :active should propagate from the labeled control to the label, in addition to the other direction.](https://www.w3.org/blog/CSS/2014/11/26/minutes-telecon-229/)
+: [A tracking tool for the moved and removed pseudo-elements and pseudo-classes is available here.](https://www.w3.org/blog/CSS/2014/11/20/minutes-telecon-228/)
+: [Resolved: Complex selectors in :matches/:not to move to fast profile, assuming bz agrees.](https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html)
+: [Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.](https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/)
+: [Resolved: Add :modal to Selectors level 4](https://www.w3.org/blog/CSS/2014/05/08/minutes-telecon-215/)
+: [Resolved: Add :sorted pseudoclass to selectors 4.](https://www.w3.org/blog/CSS/2013/12/12/resolutions119/)
 
-  ; Shapes
-  : [[https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/|Resolved: Publish new version of CSS Shapes.]]
+Shapes
+: [Resolved: Publish new version of CSS Shapes.](https://www.w3.org/blog/CSS/2016/03/30/minutes-telecon-280/)
 
-  ; Sizing
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0210.html|Resolved: Intrinsic sizes that don't require layout to recalculate are treated as definite.]]
-  : [[https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-ii/|ACTION TabAtkins: spec their float layout for intrinsic sizes<trackbot> Created ACTION-659]]
-  : [[https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-ii/|ACTION dbaron: spec their float layout for intrinsic sizes<trackbot> Created ACTION-660]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html|Need to clarify that line boxes are fitted to nonrectangular shapes by requiring zero intersection.]]
+Sizing
+: [Resolved: Intrinsic sizes that don't require layout to recalculate are treated as definite.](https://lists.w3.org/Archives/Public/www-style/2016May/0210.html)
+: [ACTION TabAtkins: spec their float layout for intrinsic sizes<trackbot> Created ACTION-659](https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-ii/)
+: [ACTION dbaron: spec their float layout for intrinsic sizes<trackbot> Created ACTION-660](https://www.w3.org/blog/CSS/2014/12/18/minutes-santa-clara-part-ii/)
+: [Need to clarify that line boxes are fitted to nonrectangular shapes by requiring zero intersection.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0359.html)
 
-  ; Sizing 3
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|ACTION: fantasai figure out what it was wrt percentage sizing<trackbot> Created ACTION-670]]
+Sizing 3
+: [ACTION: fantasai figure out what it was wrt percentage sizing<trackbot> Created ACTION-670](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/)
 
-  ; Snapshot
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0180.html|Resolved: Link to the compat spec in the Snapshot and specs with relevant entires and monitor for problems in the future.]]
-  : [[https://www.w3.org/blog/CSS/2015/08/12/minutes-telecon-259/|Resolved: unprefix min/max-content - gregwhitworth will work on building out a test suite for CSS Sizing]]
-  : [[https://www.w3.org/blog/CSS/2016/03/18/minutes-telecon-278/|Resolved: Republish 2015 Snap Shot with Will Change added.]]
-  : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: Add edits to 2015 snapshot and then republish.]]
-  : [[https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/|Resolved: Start an ED for 2016 snapshot.]]
+Snapshot
+: [Resolved: Link to the compat spec in the Snapshot and specs with relevant entires and monitor for problems in the future.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0180.html)
+: [Resolved: unprefix min/max-content - gregwhitworth will work on building out a test suite for CSS Sizing](https://www.w3.org/blog/CSS/2015/08/12/minutes-telecon-259/)
+: [Resolved: Republish 2015 Snap Shot with Will Change added.](https://www.w3.org/blog/CSS/2016/03/18/minutes-telecon-278/)
+: [Resolved: Add edits to 2015 snapshot and then republish.](https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/)
+: [Resolved: Start an ED for 2016 snapshot.](https://www.w3.org/blog/CSS/2016/03/24/minutes-telecon-279/)
 
-  ; Speech
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html|abAtkins: We have time-dimensional pseudos, defined for WebVTT. TabAtkins: Anyone know if they're implemented anywhere? ACTION fantasai: make sure timeline is defined for Speech to use: current, etc <trackbot> Created ACTION-607
+Speech
+: [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0607.html|abAtkins: We have time-dimensional pseudos, defined for WebVTT. TabAtkins: Anyone know if they're implemented anywhere? ACTION fantasai: make sure timeline is defined for Speech to use: current, etc <trackbot> Created ACTION-607
 
-  ; SVG
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html|Resolved: The root SVG element automatically creates a stacking context, as does foreignObject.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html|Resolved: SVG elements honor z-index automatically (like flex items), without requiring position.]]
+SVG
+: [Resolved: The root SVG element automatically creates a stacking context, as does foreignObject.](https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html)
+: [Resolved: SVG elements honor z-index automatically (like flex items), without requiring position.](https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html)
 
-  ; Syntax
-  : 
+Syntax
+: 
 
-  ; Tables
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/754|Look into allowing min-width on tables to work, and auto to work like it currently does - will require test cases for l2 of tables and possibly sizing as dbaron said it's helpful for intrinsic sizing beyond tables.]]
+Tables
+: [Look into allowing min-width on tables to work, and auto to work like it currently does - will require test cases for l2 of tables and possibly sizing as dbaron said it's helpful for intrinsic sizing beyond tables.](https://www.w3.org/Style/CSS/Tracker/actions/754)
 
-  ; Testing
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0211.html|Resolved: Drop requirement for author or reviewer metadata]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0211.html|Resolved: Move to primary <link> to spec+section being inferred from directory structure. Supplemental <link>s must be inline.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0211.html|Resolved: spec-shortname/N-levels-of-ignored-subdirectory-names/frag-id-of-section]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0211.html|Resolved: Remove any title requirement, other than having one (implied by validity of HTML requirement)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0211.html|Resolved: testharness.js tests don't need a meta assert (but reftests still do)]]
-  : [[https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/|Resolved: Down-level tests (e.g. CSS2.1 color tests) should be updated to not fail on higher-level implementations (e.g. CSS4 color implementations), but should also leave the old pass conditions intact so that down-level clients can still pass the tests for the older featureset.]]
+Testing
+: [Resolved: Drop requirement for author or reviewer metadata](https://lists.w3.org/Archives/Public/www-style/2016May/0211.html)
+: [Resolved: Move to primary <link> to spec+section being inferred from directory structure. Supplemental <link>s must be inline.](https://lists.w3.org/Archives/Public/www-style/2016May/0211.html)
+: [Resolved: spec-shortname/N-levels-of-ignored-subdirectory-names/frag-id-of-section](https://lists.w3.org/Archives/Public/www-style/2016May/0211.html)
+: [Resolved: Remove any title requirement, other than having one (implied by validity of HTML requirement)](https://lists.w3.org/Archives/Public/www-style/2016May/0211.html)
+: [Resolved: testharness.js tests don't need a meta assert (but reftests still do)](https://lists.w3.org/Archives/Public/www-style/2016May/0211.html)
+: [Resolved: Down-level tests (e.g. CSS2.1 color tests) should be updated to not fail on higher-level implementations (e.g. CSS4 color implementations), but should also leave the old pass conditions intact so that down-level clients can still pass the tests for the older featureset.](https://www.w3.org/blog/CSS/2015/09/14/minutes-paris-f2f-2015-08-25-part-i/)
 
-  ; Text
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html|Resolved: No change for issue about adding no-wrap]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html|Resolved: Allow text-justify:none to apply to inlines.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html|Resolved: Line break opportunities should be controlled by the parent.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Jan/0006.html|Resolved: Layout methods should depend on writing system in addition to language convention.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0350.html|RESOLVED: left-align the alignment characters.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|In order to prevent overflow or wrapping of invisible white space, spaces at the end of a line must either be visually collapsed to fit within the line or must hang outside the line (as in hanging punctuation).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|RESOLVED: Add 'word-break: break-spaces'.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|RESOLVED: Drop pre-wrap-auto.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|RESOLVED: text-wrap: balance evaluation works off of remaining space in the line, not average line length.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html|RESOLVED: Add word-break: break-word to spec if Edge/Firefox find it critical enough to Web compat to implement it.]]
+Text
+: [Resolved: No change for issue about adding no-wrap](https://lists.w3.org/Archives/Public/www-style/2017Jul/0002.html)
+: [Resolved: Allow text-justify:none to apply to inlines.](https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html)
+: [Resolved: Line break opportunities should be controlled by the parent.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0158.html)
+: [Resolved: Layout methods should depend on writing system in addition to language convention.](https://lists.w3.org/Archives/Public/www-style/2015Jan/0006.html)
+: [RESOLVED: left-align the alignment characters.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0350.html)
+: [In order to prevent overflow or wrapping of invisible white space, spaces at the end of a line must either be visually collapsed to fit within the line or must hang outside the line (as in hanging punctuation).](https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html)
+: [RESOLVED: Add 'word-break: break-spaces'.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html)
+: [RESOLVED: Drop pre-wrap-auto.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html)
+: [RESOLVED: text-wrap: balance evaluation works off of remaining space in the line, not average line length.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html)
+: [RESOLVED: Add word-break: break-word to spec if Edge/Firefox find it critical enough to Web compat to implement it.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0352.html)
 
-  ; Text 3
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html|Resolved: line-break: break-all on its own has the effect of allowing breaks everywhere.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: No change on this issue (https://github.com/w3c/csswg-drafts/issues/618).
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: No change to the spec because it already requires customary line breaking rules.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html|Resolved: Rich text copy/paste is undefined in text level 3.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html|Resolved: White space property is applied to plain text paste output.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html|Resolved: Don't define interaction between hanging punctuation and kerning and leave it up to UA to decide how to adjust.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: Accept the proposal for issue 96 (for linebreak transformation rules ambiguous characters are narrow unless it's Chinese or Japanese or Yi in which case they are wide)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: Make tab size animatable]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: Make tab size <<number>>]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: Have tab-size account for letter spacing and word spacing]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: No change to the spec for issue 110]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: Capitalize only title cases lower case things, not upper case letters]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html|Resolved: text-align-last: justify will compute to center for CJK]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0231.html|RESOLVED: Add overflow-wrap: break-spaces to level 3]]
-  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/|Hanging punctuation causes ink overflow. [Note: This discussion has since been reopened. See this email]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html|Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.]]
-  : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-19-ii/|Resolved: Add leading-spaces/trailing-spaces to text-decoration-skip in L4. Change default behavior to skip leading/trailing spaces. Add UA rule that ins and del don’t skip anything. Add note from L3 to L4 indicating impending changes.]]
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: Treat replaced elements as ideographic chars for line-breaking. Based on data, possible add an exception for &nbsp.]]
-  : [[https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-f2f-part-iv/|Resolved: No examples of justification algorithm for text-justify: auto]]
-  : [[https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-f2f-part-iv/|Resolved: Link to a wiki or NOTE collating information about language-specific justification conventions.]]
-  : [[https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/|Action fantasai and koji to make a poll on which options are most live-withable for universal justification.<trackbot> Created ACTION-637]]
-  : [[https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/|ACTION fantasai: clarify that ko-Han is different from ko-Hangul<trackbot> Created ACTION-638]]
-  : [[https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/|Action fantasai to ask i18n for help in setting up and maintaining the justification references <trackbot> Created ACTION-639]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0167.html|Resolved: Require which lines are justified even if the justification method is not defined]]
+Text 3
+: [Resolved: line-break: break-all on its own has the effect of allowing breaks everywhere.](https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html)
+: [[https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html|Resolved: No change on this issue (https://github.com/w3c/csswg-drafts/issues/618).
+: [Resolved: No change to the spec because it already requires customary line breaking rules.](https://lists.w3.org/Archives/Public/www-style/2016Nov/0009.html)
+: [Resolved: Rich text copy/paste is undefined in text level 3.](https://lists.w3.org/Archives/Public/www-style/2016Oct/0130.html)
+: [Resolved: White space property is applied to plain text paste output.](https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html)
+: [Resolved: Don't define interaction between hanging punctuation and kerning and leave it up to UA to decide how to adjust.](https://lists.w3.org/Archives/Public/www-style/2016Oct/0115.html)
+: [Resolved: Accept the proposal for issue 96 (for linebreak transformation rules ambiguous characters are narrow unless it's Chinese or Japanese or Yi in which case they are wide)](https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html)
+: [Resolved: Make tab size animatable](https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html)
+: [Resolved: Make tab size <<number>>](https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html)
+: [Resolved: Have tab-size account for letter spacing and word spacing](https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html)
+: [Resolved: No change to the spec for issue 110](https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html)
+: [Resolved: Capitalize only title cases lower case things, not upper case letters](https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html)
+: [Resolved: text-align-last: justify will compute to center for CJK](https://lists.w3.org/Archives/Public/www-style/2016Oct/0068.html)
+: [RESOLVED: Add overflow-wrap: break-spaces to level 3](https://lists.w3.org/Archives/Public/www-style/2016May/0231.html)
+: [Hanging punctuation causes ink overflow. [Note: This discussion has since been reopened. See this email](https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow/)
+: [Resolved: Add the form feed character (U+000C) and make sure all CSS specs align on the definition of white space.](https://lists.w3.org/Archives/Public/www-style/2015Sep/0165.html)
+: [Resolved: Add leading-spaces/trailing-spaces to text-decoration-skip in L4. Change default behavior to skip leading/trailing spaces. Add UA rule that ins and del don’t skip anything. Add note from L3 to L4 indicating impending changes.](https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-19-ii/)
+: [Resolved: Treat replaced elements as ideographic chars for line-breaking. Based on data, possible add an exception for &nbsp.](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/)
+: [Resolved: No examples of justification algorithm for text-justify: auto](https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-f2f-part-iv/)
+: [Resolved: Link to a wiki or NOTE collating information about language-specific justification conventions.](https://www.w3.org/blog/CSS/2015/01/02/minutes-santa-clara-f2f-part-iv/)
+: [Action fantasai and koji to make a poll on which options are most live-withable for universal justification.<trackbot> Created ACTION-637](https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/)
+: [ACTION fantasai: clarify that ko-Han is different from ko-Hangul<trackbot> Created ACTION-638](https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/)
+: [Action fantasai to ask i18n for help in setting up and maintaining the justification references <trackbot> Created ACTION-639](https://www.w3.org/blog/CSS/2014/10/15/minutes-sophia-antipolis-vi/)
+: [Resolved: Require which lines are justified even if the justification method is not defined](https://lists.w3.org/Archives/Public/www-style/2014Jun/0167.html)
 
-  ; Text 4
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0096.html|fantasai> ACTION TabAtkins Find unhappy dude at Google who dislikes hyphenation properties and have him send email explaining his unhappiness to www-style <trackbot> Created ACTION-715]]
+Text 4
+: [fantasai> ACTION TabAtkins Find unhappy dude at Google who dislikes hyphenation properties and have him send email explaining his unhappiness to www-style <trackbot> Created ACTION-715](https://lists.w3.org/Archives/Public/www-style/2015Sep/0096.html)
 
-  ; Transforms
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html|Resolved: Any value of opacity less than one forces transform styles to be flat.]]
-  : [[https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow|Resolved: Republish Transforms]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html|Resolved: Treat all 0deg rotate3d() as a single equivalent identity transform]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html|Resolved: Treat rotate3d() with anti-parallel axis as interpolatable]]
-  : [[https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/|Resolved: Adopt second suggestion from Cameron (available here) about the UA style sheet plus a note saying initial transform-origin for SVG elements won’t lead to an expected result]]
-  : [[https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/|<glazou> ACTION glazou: email krit about resolution item 1
+Transforms
+: [Resolved: Any value of opacity less than one forces transform styles to be flat.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0026.html)
+: [Resolved: Republish Transforms](https://www.w3.org/blog/CSS/2016/03/13/minutes-sydney-f2f-2016-02-01-part-ii-writing-modes-line-grid-overflow)
+: [Resolved: Treat all 0deg rotate3d() as a single equivalent identity transform](https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html)
+: [Resolved: Treat rotate3d() with anti-parallel axis as interpolatable](https://lists.w3.org/Archives/Public/www-style/2015Sep/0109.html)
+: [Resolved: Adopt second suggestion from Cameron (available here) about the UA style sheet plus a note saying initial transform-origin for SVG elements won’t lead to an expected result](https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/)
+: [[https://www.w3.org/blog/CSS/2015/06/18/minutes-telecon-250/|<glazou> ACTION glazou: email krit about resolution item 1
+
   <trackbot> Created ACTION-694]]
-  : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/612|Send update to mailing list]]
-  : [[https://www.w3.org/Style/CSS/Tracker/actions/611|Share transform testcases with the group.]]
-  : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).]]
+  : [<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).](https://www.w3.org/blog/CSS/2013/11/23/resolutions117/)
+  : [Send update to mailing list](https://www.w3.org/Style/CSS/Tracker/actions/612)
+  : [Share transform testcases with the group.](https://www.w3.org/Style/CSS/Tracker/actions/611)
+  : [<fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).](https://www.w3.org/blog/CSS/2013/11/23/resolutions117/)
 
-  ; Transitions
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Resolved: Remove the paint server definition from Transitions, deferring to the Images definition for transitioning values.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html|Resolved: Remove the gradient animation text from Transitions.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0057.html|Resolved: Migrate Shane’s document (http://rawgit.com/shans/98cb810920ac43876020/raw/b77db7529411066c9f3cdd36a52d0b98553525f9/Overview.html) into the dev pages and the SotD section should say that it’s intended to be incorporated into Transitions and Animations 4.]]
-  : [[https://www.w3.org/blog/CSS/2014/03/27/minutes-telecon-210/|Resolved: Move to matrix for the serialization of the computed value for Transitions.]]
-  : [[https://www.w3.org/blog/CSS/2013/11/23/resolutions117/|Action: Fantasai Define prop def table (in "Snapshot").]]
+Transitions
+: [Resolved: Remove the paint server definition from Transitions, deferring to the Images definition for transitioning values.](https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html)
+: [Resolved: Remove the gradient animation text from Transitions.](https://lists.w3.org/Archives/Public/www-style/2014Jan/0606.html)
+: [Resolved: Migrate Shane’s document (http://rawgit.com/shans/98cb810920ac43876020/raw/b77db7529411066c9f3cdd36a52d0b98553525f9/Overview.html) into the dev pages and the SotD section should say that it’s intended to be incorporated into Transitions and Animations 4.](https://lists.w3.org/Archives/Public/www-style/2014Jun/0057.html)
+: [Resolved: Move to matrix for the serialization of the computed value for Transitions.](https://www.w3.org/blog/CSS/2014/03/27/minutes-telecon-210/)
+: [Action: Fantasai Define prop def table (in "Snapshot").](https://www.w3.org/blog/CSS/2013/11/23/resolutions117/)
 
-  ; UI
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html|Resolved: Take CSS UI 3 to PR.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html|Resolved: Take CSS UI 4 to an updated WD.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html|Resolved: Re-point CSS UI link to CSS UI 4 spec.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: SVG without intrinsic dimensions MAY be supported (not MUST), add a note (to indicate the working group's original intent to have this a MUST).]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html|Resolved: Leave spec as-is, no changes. Accept all current requirements as listed in issue (Github: https://github.com/w3c/csswg-drafts/issues/1770 )
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html|Resolved: Add the proposed text from the github issue https://github.com/w3c/csswg-drafts/issues/1691 ]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html|Resolved: option 1: no change and add perhaps a non-normative note explaining adding this on the root isn't a great pattern]]
-  : [[http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html|Resolved: Change the applies to line to all elements]]
-  : [[http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html|Resolved: Add an informative note as to what is a caret and what is not.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|Rossen and/or gregwhitworth will help Florian decide what that set of values should be.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|ACTION Florian determine set of -webkit-user-select values to spec <trackbot> Created ACTION-75]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html|ACTION Rossen figure out what's needed for -webkit-user-select <trackbot> Created ACTION-759]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Nov/0272.html|ACTION Florian write a note on user-select for multi-range<trackbot> Created ACTION-745]]
-  : [[https://www.w3.org/blog/CSS/2015/06/11/minutes-telecon-249/|Resolved: Add Florian’s proposed text to user-select: none regarding its use in template-based editing.]]
-  : [[https://www.w3.org/blog/CSS/2015/06/11/minutes-telecon-249/|Resolved: user-select must not apply to ::first-line or ::first-letter.]]
-  : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-i/|Florian to add a note to user-select:none about it's use in template-based editing <trackbot> Created ACTION-690.]]
-  : [[https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-i/|Action Florian to come up with a resolution for user-select:none being included or not when selecting across <trackbot> Created ACTION-691.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2015Sep/0040.html|ACTION Florian to figure out with the editing TF if there are and what are the requirements for caret-animation<trackbot> Created ACTION-705.]]
-  : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: Replace region-fragment with ‘fragmentation’, written by Florian, determine where it belongs.]]
-  : [[https://www.w3.org/blog/CSS/2015/02/26/minutes-telecon-237/|Resolved: Tighten the language of the directional focus property behavior and include an informative note about the behaviors we’re considering and welcome/actively solicit input.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2013Nov/0361.html|Resolved: Effects affect scrollbars and focus rings. We may work on controls later.]]
+UI
+: [Resolved: Take CSS UI 3 to PR.](https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html)
+: [Resolved: Take CSS UI 4 to an updated WD.](https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html)
+: [Resolved: Re-point CSS UI link to CSS UI 4 spec.](https://lists.w3.org/Archives/Public/www-style/2017Oct/0044.html)
+: [Resolved: SVG without intrinsic dimensions MAY be supported (not MUST), add a note (to indicate the working group's original intent to have this a MUST).](https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html)
+: [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0014.html|Resolved: Leave spec as-is, no changes. Accept all current requirements as listed in issue (Github: https://github.com/w3c/csswg-drafts/issues/1770 )
+: [Resolved: Add the proposed text from the github issue https://github.com/w3c/csswg-drafts/issues/1691 ](https://lists.w3.org/Archives/Public/www-style/2017Aug/0026.html)
+: [Resolved: option 1: no change and add perhaps a non-normative note explaining adding this on the root isn't a great pattern](https://lists.w3.org/Archives/Public/www-style/2017Jun/0028.html)
+: [Resolved: Change the applies to line to all elements](http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html)
+: [Resolved: Add an informative note as to what is a caret and what is not.](http://lists.w3.org/Archives/Public/www-style/2016Nov/0123.html)
+: [Rossen and/or gregwhitworth will help Florian decide what that set of values should be.](https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html)
+: [ACTION Florian determine set of -webkit-user-select values to spec <trackbot> Created ACTION-75](https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html)
+: [ACTION Rossen figure out what's needed for -webkit-user-select <trackbot> Created ACTION-759](https://lists.w3.org/Archives/Public/www-style/2016Feb/0183.html)
+: [ACTION Florian write a note on user-select for multi-range<trackbot> Created ACTION-745](https://lists.w3.org/Archives/Public/www-style/2015Nov/0272.html)
+: [Resolved: Add Florian’s proposed text to user-select: none regarding its use in template-based editing.](https://www.w3.org/blog/CSS/2015/06/11/minutes-telecon-249/)
+: [Resolved: user-select must not apply to ::first-line or ::first-letter.](https://www.w3.org/blog/CSS/2015/06/11/minutes-telecon-249/)
+: [Florian to add a note to user-select:none about it's use in template-based editing <trackbot> Created ACTION-690.](https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-i/)
+: [Action Florian to come up with a resolution for user-select:none being included or not when selecting across <trackbot> Created ACTION-691.](https://www.w3.org/blog/CSS/2015/06/22/minutes-new-york-f2f-2015-05-20-i/)
+: [ACTION Florian to figure out with the editing TF if there are and what are the requirements for caret-animation<trackbot> Created ACTION-705.](https://lists.w3.org/Archives/Public/www-style/2015Sep/0040.html)
+: [Resolved: Replace region-fragment with ‘fragmentation’, written by Florian, determine where it belongs.](https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/)
+: [Resolved: Tighten the language of the directional focus property behavior and include an informative note about the behaviors we’re considering and welcome/actively solicit input.](https://www.w3.org/blog/CSS/2015/02/26/minutes-telecon-237/)
+: [Resolved: Effects affect scrollbars and focus rings. We may work on controls later.](https://lists.w3.org/Archives/Public/www-style/2013Nov/0361.html)
 
-  ; Undefined Spec
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html|stakagi presented some very detailed work he had done (Available here: https://www.w3.org/Graphics/SVG/WG/wiki/Proposals/Investigation_of_APIs_for_Level_of_detail)]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0044.html|Adopt the proposed convention for propdef tables for shorthands]]
+Undefined Spec
+: [stakagi presented some very detailed work he had done (Available here: https://www.w3.org/Graphics/SVG/WG/wiki/Proposals/Investigation_of_APIs_for_Level_of_detail)](https://lists.w3.org/Archives/Public/www-style/2016Mar/0360.html)
+: [Adopt the proposed convention for propdef tables for shorthands](https://lists.w3.org/Archives/Public/www-style/2016May/0044.html)
 
+Values and Units 3
+: 
 
-  ; Values and Units 3
-  : 
+Values and Units 4
+: [Resolved: Close issue #309 no change.](https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html)
+: [Resolved: Add a clarifying note referencing cascade and then close issue #1782.](https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html)
+: [Resolved: Add the x unit to <resolution> type in Values & Units 4.](https://lists.w3.org/Archives/Public/www-style/2017May/0010.html)
+: [Resolved: Add proposed DOM load events to Values & Units.](https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html)
+: [Resolved: Only spec the unitless 0 quirk for transforms & gradients.](https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html)
+: [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html|Resolved: Don't add any new syntax for [ <foo>+ ]#, just add a note explaining it.]]
+: [Resolved: Add lh and rlh with a note on use cases it doesn't solve and a link to max-lines.](https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html)
+: [Resolved: Accept text as proposed for the ideographic character unit.](https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html)
+: [Resolved: A calc() with only percentage or only length is required to be resolved in V&U 4](https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html)
+: [Resolved: Adapt the element() function so that it can be used to refer to always-local references](https://lists.w3.org/Archives/Public/www-style/2016May/0209.html)
+: [Resolved: Add vi and vb to values & units 4.](https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html)
+: Need reviews of all the calc() and serialization issues
+: [Add ideographic advance unit to Values and Units 4, come back to WG for approval after details worked out.](https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html)
+: [Resolved: Add calc() algebra to level 4 and keep an issue in there about +0/-0 handling.](https://www.w3.org/blog/CSS/2014/04/24/minutes-telecon-213/)
+: [Resolved: Make the image() function always respect EXIF orientation metadata in Backgrounds.](https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/)
+: [<trackbot> ACTION-632 on TabAtkins - Figure out if enhancing url() works](https://lists.w3.org/Archives/Public/www-style/2014Jun/0168.html)
+: [Resolved: Accept TabAtkins proposal for calc() serialization and add a note that there remains a concern about editors getting access to the bare string.](https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html)
+: [Resolved: Start a level 4 draft of Values & Units, move calc() serialization to it, and then publish the remainder of Values & Units 3 as CR.](https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html)
 
-  ; Values and Units 4
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html|Resolved: Close issue #309 no change.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0028.html|Resolved: Add a clarifying note referencing cascade and then close issue #1782.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017May/0010.html|Resolved: Add the x unit to <resolution> type in Values & Units 4.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html|Resolved: Add proposed DOM load events to Values & Units.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Apr/0027.html|Resolved: Only spec the unitless 0 quirk for transforms & gradients.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Sep/0000.html|Resolved: Don't add any new syntax for [ <foo>+ ]#, just add a note explaining it.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html|Resolved: Add lh and rlh with a note on use cases it doesn't solve and a link to max-lines.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html|Resolved: Accept text as proposed for the ideographic character unit.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0068.html|Resolved: A calc() with only percentage or only length is required to be resolved in V&U 4]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html|Resolved: Adapt the element() function so that it can be used to refer to always-local references]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jun/0010.html|Resolved: Add vi and vb to values & units 4.]]
-  : Need reviews of all the calc() and serialization issues
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|Add ideographic advance unit to Values and Units 4, come back to WG for approval after details worked out.]]
-  : [[https://www.w3.org/blog/CSS/2014/04/24/minutes-telecon-213/|Resolved: Add calc() algebra to level 4 and keep an issue in there about +0/-0 handling.]]
-  : [[https://www.w3.org/blog/CSS/2014/04/17/minutes-telecon-212/|Resolved: Make the image() function always respect EXIF orientation metadata in Backgrounds.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2014Jun/0168.html|<trackbot> ACTION-632 on TabAtkins - Figure out if enhancing url() works]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Apr/0093.html|Resolved: Accept TabAtkins proposal for calc() serialization and add a note that there remains a concern about editors getting access to the bare string.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Jul/0051.html|Resolved: Start a level 4 draft of Values & Units, move calc() serialization to it, and then publish the remainder of Values & Units 3 as CR.]]
+Variables
+: [Resolved: Rename what was 'constant' variables to 'environment' variables using env().](https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html)
+: [Resolved: Add this as an ED of variables L2.](https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html)
+: [Resolved: Add dino as an editor of variables L2 with TabAtkins.](https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html)
+: [Resolved: The initial set is safe area top, bottom, left and right.](https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html)
+: [Action: gsnedders to check if Variables test coverage is from many browsers](https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html)
 
-  ; Variables
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: Rename what was 'constant' variables to 'environment' variables using env().]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: Add this as an ED of variables L2.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: Add dino as an editor of variables L2 with TabAtkins.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2017Sep/0045.html|Resolved: The initial set is safe area top, bottom, left and right.]]
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Aug/0009.html|Action: gsnedders to check if Variables test coverage is from many browsers]]
-
-
-  ; Writing Modes
-  : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html|ACTION hober: Look into unprefixing writing modes features in WebKit]]
+Writing Modes
+: [ACTION hober: Look into unprefixing writing modes features in WebKit](https://lists.w3.org/Archives/Public/www-style/2016Mar/0207.html)

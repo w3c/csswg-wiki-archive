@@ -1,64 +1,73 @@
-====== CSSWG meeting at TPAC 2023 ======
+---
+title: "CSSWG meeting at TPAC 2023"
+---
 
-[[https://www.w3.org/2023/09/TPAC/|TPAC 2023]] is scheduled for **11-15 September 2023** in Sevilla, Spain, with options for both in-person and remote participation. 
+# CSSWG meeting at TPAC 2023
 
-  * CSSWG F2F: **Thursday-Friday, 14-15 September, 2023**.  Meeting room available [[https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSSWG+F2F&iso=20230914T0930&p1=321&ah=9|9:30-18:30 CEST]]. (see [[https://www.w3.org/2023/09/TPAC/schedule.html|overall schedule]])
-  * HTML/WHATWG-CSSWG Joint Meeting: [[https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSSWG+F2F&iso=20230914T1430&p1=321&ah=2|14:30-16:30 CEST Thu 14 Sept]].
-  * A11y-CSSWG Joint Meeting: [[https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSSWG+F2F&iso=20230915T17&p1=321&ah=1|17:00-18:00 CEST Fri 15 Sept]].
-  * i18n-CSSWG Joint Meeting [[https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSSWG+F2F&iso=20230914T1130&p1=321&ah=1|11:30-12:30 CEST Thu 14 Sept]].
+[TPAC 2023](https://www.w3.org/2023/09/TPAC/) is scheduled for **11-15 September 2023** in Sevilla, Spain, with options for both in-person and remote participation. 
 
-===== Agenda =====
+- CSSWG F2F: **Thursday-Friday, 14-15 September, 2023**.  Meeting room available [9:30-18:30 CEST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSSWG+F2F&iso=20230914T0930&p1=321&ah=9). (see [overall schedule](https://www.w3.org/2023/09/TPAC/schedule.html))
+- HTML/WHATWG-CSSWG Joint Meeting: [14:30-16:30 CEST Thu 14 Sept](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSSWG+F2F&iso=20230914T1430&p1=321&ah=2).
+- A11y-CSSWG Joint Meeting: [17:00-18:00 CEST Fri 15 Sept](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSSWG+F2F&iso=20230915T17&p1=321&ah=1).
+- i18n-CSSWG Joint Meeting [11:30-12:30 CEST Thu 14 Sept](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSSWG+F2F&iso=20230914T1130&p1=321&ah=1).
 
-[[https://github.com/w3c/csswg-drafts/projects/39|Agenda project]]
+## Agenda
 
-  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+TPAC%22|Agenda+ TPAC]]
-  * [[https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22topic%3A+masonry%22+|Masonry Layout]]
-===== Participants =====
+[Agenda project](https://github.com/w3c/csswg-drafts/projects/39)
 
-==== In-Person ====
+- [Agenda+ TPAC](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+TPAC%22)
+- [Masonry Layout](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22topic%3A+masonry%22+)
 
-**Please note that signing up here is not enough; you must [[https://www.w3.org/2023/09/TPAC/#registration|register]] for TPAC itself.**
+## Participants
+
+### In-Person
+
+**Please note that signing up here is not enough; you must [register](https://www.w3.org/2023/09/TPAC/#registration) for TPAC itself.**
 
 (sorted by first name)
 
 | **Name** | **Affiliation** | **Dates** | **Accomodation** | **Other** |
-| Alan Stearns | Adobe | 2023/09/07-2023/09/19 | AirBnB | |
-| Chris Lilley | W3C| 2023/09/09-2023/09/19 | Hotel Pasarela | |
-| fantasai | Apple | 2023/09/06-2023/09/17 | Melia Sevilla | |
-| Florian Rivoal | Invited Expert | 2023/09/09–2023/09/17  | Hotel Pasarela | |
-| François Remy | Invited Expert | September 12 to September 16 | Silken Al Andalus Hotel | |
-| Lea Verou | Invited Expert| 2023/09/09-2023/09/19 | Hotel Pasarela | 
-| Tim Nguyen | Apple| 2023/09/10-2023/09/17 | Hotel Pasarela | 
-| Myles C. Maxfield | Apple | in town all week | | |
-| Oriol Brufau | Igalia | 2023/09/10–2023/09/16  | Occidental Sevilla Viapol | |
-| Tab Atkins-Bittner | Google | 2023-09-10 to 2023-09-16 | Hotel Un Patio en Santa Cruz | |
-| Theresa O'Connor | Apple | in town all week, in CSS WG sporadically | | |
-| Vladimir Levin | Google | all week | Melia Sevilla | |
-| Emilio | Mozilla | sunday to friday | Melia | |
-| Yehonatan Daniv | Wix | 2023/09/12-2023/09/16 | Nh Collection Sevilla | |
-| Khushal Sagar | Google | all week | Melia Sevilla | |
-==== Remote ====
+| --- | --- | --- | --- | --- |
+| Alan Stearns | Adobe | 2023/09/07-2023/09/19 | AirBnB |  |
+| Chris Lilley | W3C | 2023/09/09-2023/09/19 | Hotel Pasarela |  |
+| fantasai | Apple | 2023/09/06-2023/09/17 | Melia Sevilla |  |
+| Florian Rivoal | Invited Expert | 2023/09/09–2023/09/17 | Hotel Pasarela |  |
+| François Remy | Invited Expert | September 12 to September 16 | Silken Al Andalus Hotel |  |
+| Lea Verou | Invited Expert | 2023/09/09-2023/09/19 | Hotel Pasarela |  |
+| Tim Nguyen | Apple | 2023/09/10-2023/09/17 | Hotel Pasarela |  |
+| Myles C. Maxfield | Apple | in town all week |  |  |
+| Oriol Brufau | Igalia | 2023/09/10–2023/09/16 | Occidental Sevilla Viapol |  |
+| Tab Atkins-Bittner | Google | 2023-09-10 to 2023-09-16 | Hotel Un Patio en Santa Cruz |  |
+| Theresa O'Connor | Apple | in town all week, in CSS WG sporadically |  |  |
+| Vladimir Levin | Google | all week | Melia Sevilla |  |
+| Emilio | Mozilla | sunday to friday | Melia |  |
+| Yehonatan Daniv | Wix | 2023/09/12-2023/09/16 | Nh Collection Sevilla |  |
+| Khushal Sagar | Google | all week | Melia Sevilla |  |
 
-| **Name** | **Affiliation** | **Timezone** | **CEST (UTC+2) Availability** | **Other Notes** |
-| David Baron | Google | [[https://www.openstreetmap.org/relation/6496417|America/New_York]] | //some/most// of 11:30-14:30; //definitely// 14:30-23:45; //maybe// 10:00-11:30 if needed and planned in advance |  |
-| Daniel Holbert | Mozilla | PDT | TBD | |
-| Jen Simmons | Apple | [[https://www.openstreetmap.org/relation/6496417|America/New_York]] | |  
-| Eric Meyer | Igalia | America/New_York (not linking because OSM’s boundary is //massively// wrong) | 1400–2200, could make 1100–2200 work if necessary |
-| Bramus | Google | CEST | 9-5, except on Wednesday. |
-| Chris de Almeida | IBM | [[https://www.openstreetmap.org/relation/6491494|America/Chicago]] | N/A | ignore me for scheduling purposes. I will attend if I can, but will likely only be observing anyway. 🙏 |
-| Ian Kilpatrick | Google Chrome | PDT | 2pm - 6:30pm CEST both days | If possible layout related topics in afternoon. |
-| Alison Maher | Microsoft | PDT | 3PM CEST onward | |
-| Megan Gardner | Apple | PDT | 4PM CEST or later | Highlights or other selection pseudos are my main areas of interest |
-| Jonathan Kew | Mozilla | Europe/London | Flexible, will be guided by agenda | Font, text & i18n-related topics |
-| Rune Lillesveen | Google | CEST | 9-17 | |
-| Rob Flack | Google | EST | 1PM CEST or later | |
-| Simon Fraser | Apple | PDT | |  |
-| Brad Kemper | Invited Expert | PDT | 5pm CEST and later | reading-order, a11y, backgrounds + borders, etc. |
+### Remote
 
-==== Regrets ====
+| **Name** | **Affiliation** | **Timezone** | **CEST (UTC+2) Availability** | **Other Notes** |  |
+| --- | --- | --- | --- | --- | --- |
+| David Baron | Google | [[https://www.openstreetmap.org/relation/6496417 | America/New_York]] | *some/most* of 11:30-14:30; *definitely* 14:30-23:45; *maybe* 10:00-11:30 if needed and planned in advance |  |
+| Daniel Holbert | Mozilla | PDT | TBD |  |  |
+| Jen Simmons | Apple | [[https://www.openstreetmap.org/relation/6496417 | America/New_York]] |  |  |
+| Eric Meyer | Igalia | America/New_York (not linking because OSM’s boundary is *massively* wrong) | 1400–2200, could make 1100–2200 work if necessary |  |  |
+| Bramus | Google | CEST | 9-5, except on Wednesday. |  |  |
+| Chris de Almeida | IBM | [[https://www.openstreetmap.org/relation/6491494 | America/Chicago]] | N/A | ignore me for scheduling purposes. I will attend if I can, but will likely only be observing anyway. 🙏 |
+| Ian Kilpatrick | Google Chrome | PDT | 2pm - 6:30pm CEST both days | If possible layout related topics in afternoon. |  |
+| Alison Maher | Microsoft | PDT | 3PM CEST onward |  |  |
+| Megan Gardner | Apple | PDT | 4PM CEST or later | Highlights or other selection pseudos are my main areas of interest |  |
+| Jonathan Kew | Mozilla | Europe/London | Flexible, will be guided by agenda | Font, text & i18n-related topics |  |
+| Rune Lillesveen | Google | CEST | 9-17 |  |  |
+| Rob Flack | Google | EST | 1PM CEST or later |  |  |
+| Simon Fraser | Apple | PDT |  |  |  |
+| Brad Kemper | Invited Expert | PDT | 5pm CEST and later | reading-order, a11y, backgrounds + borders, etc. |  |
+
+### Regrets
 
 | **Name** | **Affiliation** |
+| --- | --- |
 
-==== CSSWG TPAC Registrant List ====
+### CSSWG TPAC Registrant List
 
-[[https://www.w3.org/register/tpac2023/registrants#meeting-203|Member-only link]] (includes observers)
+[Member-only link](https://www.w3.org/register/tpac2023/registrants#meeting-203) (includes observers)

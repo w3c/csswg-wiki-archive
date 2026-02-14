@@ -1,13 +1,18 @@
-====== Frequently Asked Questions ======
+---
+title: "Frequently Asked Questions"
+---
 
-===== Selectors that Depend on Layout =====
+# Frequently Asked Questions
 
-=== Question ===
-  * I would like an :overflowing pseudo class to select elements which overflow
-  * I would like a :stuck pseudo class to select elements with position:sticky which are currently stuck
-  * I would like a :on-screen pseudo class to select elements which are currently in the viewport
+## Selectors that Depend on Layout
 
-=== Answer ===
+#### Question
+
+- I would like an :overflowing pseudo class to select elements which overflow
+- I would like a :stuck pseudo class to select elements with position:sticky which are currently stuck
+- I would like a :on-screen pseudo class to select elements which are currently in the viewport
+
+#### Answer
 
 This falls into a class of problems that unlikely to be solvable in CSS:
 selectors in general, and pseudo classes in particular, cannot depend on layout,
@@ -18,9 +23,9 @@ and we get stuck in an infinite loop of contradictions.
 
 For a simple example:
 
-<code css>
+```css
 :stuck { position: static; }
-</code>
+```
 
 Now what?
 
@@ -32,7 +37,7 @@ and would enable this kind of contradictions.
 So even though many of the problem people are trying to address using such pseudo classes are legitimate,
 selectors are unlikely to be the answer.
 
-== More details ==
+##### More details
 
 It may seem that we could simply disallow/make invalid anything that could cause an infinite loop,
 but that doesn't actually solve the problem.
@@ -43,15 +48,15 @@ in a rule targeting a :stuck element.
 This is already more restrictive than many potential users of :stuck would be happy with,
 but this works for this case.  
 
-Next week, someone comes up with a similar circularity they want to allow (like [[https://tabatkins.github.io/specs/css-toggle-states/ |the Toggle States proposal]], which has properties interacting with :checked).  We disallow that circularity too.
+Next week, someone comes up with a similar circularity they want to allow (like [the Toggle States proposal](https://tabatkins.github.io/specs/css-toggle-states/ ), which has properties interacting with :checked).  We disallow that circularity too.
 
 Now someone writes
 
-<code css>
+```css
 .foo { toggle-states: 2; toggle-initial: 1; } /* makes it checked */
 :checked { position: sticky; }
 :stuck { toggle-states: none; }
-</code>
+```
 
 When it's checked, it becomes sticky. (Assume the page is scrolled such that it becomes stuck immediately.)  When it's stuck, it becomes uncheckable, which means it's no longer sticky, so it's not stuck, so it goes back to being checkable, and so it's checked, and so it's sticky, and so it's stuck, and so it's uncheckable...
 
@@ -80,7 +85,7 @@ on top of which it would require significant changes in browser architecture.
 
 Instead of doing all of this, so far we've just short-circuited the entire debate and disallowed selectors from being affected by properties.
 
-== Why Doesn't This Argument Apply To :hover? ==
+##### Why Doesn't This Argument Apply To :hover?
 
 A common retort to the above is "we already have :hover, which has circularity issues, why can't we add this?".
 
@@ -90,23 +95,21 @@ Second, and more important, the circularity of :hover is very "wide" - when you 
 
 Furthermore, hit-testing is easy to for UAs to "tweak" to mostly get around the hover problems - UAs generally don't rerun hit-testing until the user moves their pointer, so as soon as they stop moving it, it settles on one rendering or the other.  Again, this isn't the case for other circular pseudo-classes.
 
-=== References ===
-  * https://github.com/w3c/csswg-drafts/issues/2011
-  * https://github.com/w3c/csswg-drafts/issues/1656
-  * https://lists.w3.org/Archives/Public/www-style/2016Jan/0255.html / https://lists.w3.org/Archives/Public/www-style/2016Jan/0282.html
+#### References
 
+- https://github.com/w3c/csswg-drafts/issues/2011
+- https://github.com/w3c/csswg-drafts/issues/1656
+- https://lists.w3.org/Archives/Public/www-style/2016Jan/0255.html / https://lists.w3.org/Archives/Public/www-style/2016Jan/0282.html
 
+## Versioning CSS, Fixing Design Mistakes
 
+#### Question
 
-===== Versioning CSS, Fixing Design Mistakes =====
+- There are quite a few things in CSS that are [ considered design mistakes](https://wiki.csswg.org/ideas/mistakes ), and that would be done differently if they were being designed to today. Can't we just fix these?
+- CSS is terrible; we need to change FOO, BAR and BLAH, to work differently.
+- Can we introduce a `@css 3;` or `@css 3 { }` rule to instruct the browser to switch to a different processing model? The old one has lots of flaws.
 
-=== Question ===
-
-  * There are quite a few things in CSS that are [[https://wiki.csswg.org/ideas/mistakes | considered design mistakes]], and that would be done differently if they were being designed to today. Can't we just fix these?
-  * CSS is terrible; we need to change FOO, BAR and BLAH, to work differently.
-  * Can we introduce a ''@css 3;'' or ''@css 3 { }'' rule to instruct the browser to switch to a different processing model? The old one has lots of flaws.
-
-=== Answer ===
+#### Answer
 
 CSS is a widely successful technology so it's probably not **that** bad,
 but there have certainly been a number of decisions that in hindsight were wrong.
@@ -132,66 +135,68 @@ and the breakage is very limited. But that's the exception, not the rule, and it
 because nobody is the boss of the web and can order everyone to update. Unless everybody
 is convinced that breaking existing sites is a good idea, the change will not happen.
 
-== More details ==
+##### More details
 
 Occasionally, people accept that the current model cannot be changed,
 but suggest that we could introduce a different model if we told the browser about it using
-some versioning scheme, like a ''@css: 3;'' or ''@css 3 { }'' rule.
+some versioning scheme, like a `@css: 3;` or `@css 3 { }` rule.
 
 Things along this line have been suggested and considered multiple times
 over the years, but ultimately rejected, as that would not work.
 
-Any page without ''@css: 3;'' will be interpreted as css21. But initially,
-so will any page that has ''@css: 3'', because browsers that don't know
+Any page without `@css: 3;` will be interpreted as css21. But initially,
+so will any page that has `@css: 3`, because browsers that don't know
 about it (currently all of them) will just drop this line, an render the page
 as usual, and so even browsers who would want to use special css3
 semantics would have to render it using css21 rules, otherwise the 
 pages would work differently in different browsers, which would be
 terrible.
 
-We could instead have ''@css3 { /*put your stylesheet with new semantics here*/ }'', as that
+We could instead have `@css3 { /*put your stylesheet with new semantics here*/ }`, as that
 would be ignored by old browsers, but even then every (new) browser
 would have to support both the old way and the new way forever, which
 is quite costly. For authors, it would be costly as well, as they would
-have to write their stylesheet twice: once using ''@css3{}'' for new browsers
+have to write their stylesheet twice: once using `@css3{}` for new browsers
 and once without it for old ones.
 
 Even though everybody recognizes that some decisions made in the past
 are not ideal and that this causes some pain,
 the pain is not nearly enough to justify making everybody do twice the work.
 
-=== References ===
-  * https://lists.w3.org/Archives/Public/www-style/2018Jan/0061.html
-  * https://lists.w3.org/Archives/Public/www-style/2018Jan/0062.html
+#### References
 
-===== Error Handling in Selectors, aka Breaking Pages by Making Them Work =====
+- https://lists.w3.org/Archives/Public/www-style/2018Jan/0061.html
+- https://lists.w3.org/Archives/Public/www-style/2018Jan/0062.html
 
-=== Question ===
+## Error Handling in Selectors, aka Breaking Pages by Making Them Work
+
+#### Question
 
 When a selector has a syntax error in it, or when it has new syntax that old browsers don't know about, the entire selector is dropped. CSS would be more robust and maintainable if the browser only dropped to the next comma.
 
 Take this code:
 
-<code css>
+```css
 #sensible .selector,
 syntax = !error,
 :new-feature {
   background: red;
 }
-</code>
+```
 
 Because of how selectors are parsed, this is not applied at all.
-Wouldn't it be nicer if it could apply to elements that match ''#sensible .selector'',
-also apply in up to date browsers to elements that match '':new-feature'',
+Wouldn't it be nicer if it could apply to elements that match `#sensible .selector`,
+also apply in up to date browsers to elements that match `:new-feature`,
 and just skip the syntax error?
 
-=== Answer ===
+#### Answer
 
-Broadly speaking, this is impossible for the reasons explained in [[https://wiki.csswg.org/faq#versioning-css-fixing-design-mistakes | Versioning CSS, Fixing Design Mistakes]]:
+Broadly speaking, this is impossible for the reasons explained in [ Versioning CSS, Fixing Design Mistakes](https://wiki.csswg.org/faq#versioning-css-fixing-design-mistakes ):
 changing how CSS works breaks existing content,
 and that goes against everybody's interests.
 
-== more details ==
+##### more details
+
 However, this particular case it interesting. If we did this change, all previously valid pages would continue to work, so what's the problem?
 
 It turns out that since mistyping a selector is an easy mistake to make,
@@ -214,62 +219,60 @@ It doesn't matter that the source of the “randomness“ is the author's previo
 And so, even though most people agree that error handling at commas in selectors would be nicer,
 this is not something that can be changed.
 
-=== References ===
+#### References
+
  TBD
 
-===== Adding more named colors =====
+## Adding more named colors
 
-=== Question ===
+#### Question
 
 Can we add new named colors to CSS?
 
-
-=== Answer ===
+#### Answer
 
 No.
 
-== more details ==
+##### more details
 
 The built-in set of named colors in CSS is weird and bad, and we keep them mainly for legacy interop reasons. There's very little utility to adding to a set of colors where you have to look up the proper spelling and remember what actual colors the names map to.
 
 Naming colors can be done in stylesheets using custom properties. It is not likely we will ever add more names to the built-in set.
 
-=== References ===
+#### References
 
-  * https://github.com/w3c/csswg-drafts/issues/3192#issuecomment-427132614
-  * https://www.youtube.com/watch?v=HmStJQzclHc
+- https://github.com/w3c/csswg-drafts/issues/3192#issuecomment-427132614
+- https://www.youtube.com/watch?v=HmStJQzclHc
 
+## Adding British variants for names
 
-===== Adding British variants for names =====
-
-=== Question ===
+#### Question
 
 Can we add British English variants for names in CSS?
 
-=== Answer ===
+#### Answer
 
-While there are color names using British English spelling like `grey` in addition to the American English versions, those are considered to be legacy. Actually, the [[https://wiki.csswg.org/faq#adding-more-named-colors|whole built-in set of named colors is considered to be legacy]]. See [[https://www.youtube.com/watch?v=HmStJQzclHc|Alex Sexton's talk about the history of these colors]].
-Everything new introduced into CSS //only// uses American English spelling. So there's only one variant of names for properties, keywords, functions, etc. like in other programming languages.
+While there are color names using British English spelling like `grey` in addition to the American English versions, those are considered to be legacy. Actually, the [whole built-in set of named colors is considered to be legacy](https://wiki.csswg.org/faq#adding-more-named-colors). See [Alex Sexton's talk about the history of these colors](https://www.youtube.com/watch?v=HmStJQzclHc).
+Everything new introduced into CSS *only* uses American English spelling. So there's only one variant of names for properties, keywords, functions, etc. like in other programming languages.
 
-== more details ==
+##### more details
 
 While, from an author's perspective it may seem to be just another name for something, introducing aliases for feature names comes with a cost.
-For authors introducing aliases may cause some confusion and cognitive load, as they may expect a different spelling or even a completely different word. They require precedence and de-duplicating rules in case both are specified in implementations. Also, every new feature would require specification work regarding the alias. And also there would need to be [[https://wpt.fyi/results/css|Web Platform Tests]] covering those variations. And all that for very little author benefit.
+For authors introducing aliases may cause some confusion and cognitive load, as they may expect a different spelling or even a completely different word. They require precedence and de-duplicating rules in case both are specified in implementations. Also, every new feature would require specification work regarding the alias. And also there would need to be [Web Platform Tests](https://wpt.fyi/results/css) covering those variations. And all that for very little author benefit.
 
-=== References ===
+#### References
 
-  * https://github.com/w3c/csswg-drafts/issues/3298#issuecomment-437089314
-  * https://github.com/w3c/csswg-drafts/issues/3192#issuecomment-427132614
-  * https://www.youtube.com/watch?v=HmStJQzclHc
+- https://github.com/w3c/csswg-drafts/issues/3298#issuecomment-437089314
+- https://github.com/w3c/csswg-drafts/issues/3192#issuecomment-427132614
+- https://www.youtube.com/watch?v=HmStJQzclHc
 
+## Real Physical Lengths
 
-===== Real Physical Lengths =====
-
-=== Question ===
+#### Question
 
 A '1in' length usually isn't actually 1 inch. Can we get physical units that are the correct size, so we can create rulers/etc on webpages that actually work?
 
-=== Answer ===
+#### Answer
 
 Currently, no.
 
@@ -279,42 +282,44 @@ Later, Mozilla attempted to address this again, by adding a separate "mozmm" uni
 
 The overall conclusion is that trying to present accurate real-world units is a failure; browsers can't do it reliably, and authors often misuse them anyway, giving users a bad experience.
 
-=== Workarounds ===
+#### Workarounds
 
 There's a reasonable workaround strategy, however. If you are writing a webpage that does need accurate real-world units, such as a webapp that wants to help people measure things, you need to do per-device calibration:
 
-  - Have a calibration page, where you ask the user to measure the distance between two lines that are some CSS distance apart (say, 10cm), and input the value they get.
-  - Use this to find the scaling factor necessary for that screen (CSS length divided by user-provided length), and store it locally (via localStorage, or a cookie, etc).
-  - On the pages where you need the accurate length, fetch it from local storage, and set a ''--unit-scale: 1.07;'' (subbing in the real value) property on the html element.
-  - Anywhere you use a length that needs to be accurate, instead of ''width: 5cm;'', write ''width: calc(5cm * var(--unit-scale, 1))'';.
+1. Have a calibration page, where you ask the user to measure the distance between two lines that are some CSS distance apart (say, 10cm), and input the value they get.
+1. Use this to find the scaling factor necessary for that screen (CSS length divided by user-provided length), and store it locally (via localStorage, or a cookie, etc).
+1. On the pages where you need the accurate length, fetch it from local storage, and set a `--unit-scale: 1.07;` (subbing in the real value) property on the html element.
+1. Anywhere you use a length that needs to be accurate, instead of `width: 5cm;`, write `width: calc(5cm * var(--unit-scale, 1))`;.
 
-This is a robust and minimal scheme that is guaranteed to give correct results on a given device, and "fails open" - if the user hasn't calibrated yet, or has cleared their local storage, etc, the ''var()'' will fall back to 1 and you'll just get the standard browser units.
+This is a robust and minimal scheme that is guaranteed to give correct results on a given device, and "fails open" - if the user hasn't calibrated yet, or has cleared their local storage, etc, the `var()` will fall back to 1 and you'll just get the standard browser units.
 
 (Note: a common follow-up request is to bake this unit-scale-factor into a CSS property that auto-scales all lengths for you. You don't actually want this - calibrating a ruler shouldn't rescale your UI as well.)
 
-=== References ===
+#### References
 
 * https://github.com/w3c/csswg-drafts/issues/614
 
-===== Styling <sup> And <sub> Using font-variant-position =====
+## Styling <sup> And <sub> Using font-variant-position
 
-=== Question ===
+#### Question
+
 HTML currently specifies the following default styles for sup and sub:
 
-<code css>
+```css
 sub { vertical-align: sub; }
 sup { vertical-align: super; }
 sub, sup { line-height: normal; font-size: smaller; }
-</code>
+```
 
 This works, but this is not very good typography. The following uses fonts the way they're meant to be, wouldn't it be much better?
 
-<code css>
+```css
 sub { font-variant-position: sub; }
 sup { font-variant-position: sup; }
-</code>
+```
 
-=== Answer ===
+#### Answer
+
 It is indeed better typography,
 and even if the font does not have the dedicated glyphs,
 the browser is required to synthesize them,
@@ -327,16 +332,16 @@ While these are not overly common it does exist,
 and this style change would induce a rendering with an apparently different meaning.
 
 Consider the following:
-<code html>
+```html
 2<sup>2<sup>2</sup></sup> = 16
-</code>
+```
 
 Even if the typography isn't great,
 This correctly looks like 2^2^2 = 16 with the legacy styling,
 but would look like 2^22=16 with the proposed change,
 which is wrong.
 
-== More details ==
+##### More details
 
 There were various attempts to define font-variant-position differently to make it handle such situations,
 but they were rejected for being either too complex, not solving the problem correctly, or both.
@@ -348,7 +353,7 @@ but was not judged sufficiently robust in the general case to be accepted as a n
 in part because fonts with inaccurate metrics (which are unfortunately reasonably common) may break it,
 and in part because it does not handle images and other non textual content in the sub/superscripts.
 
-<code css>
+```css
 sub { font-variant-position: sub; }
 sup { font-variant-position: super; }
 
@@ -357,11 +362,10 @@ sup { font-variant-position: super; }
    it would shift too much. */
 sub sub { vertical-align: sub; }
 sup sup { vertical-align: super; }
-</code>
+```
 
-=== References ===
-  * https://github.com/w3c/csswg-drafts/issues/1888
-  * https://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html
-  * https://lists.w3.org/Archives/Public/www-style/2011Apr/0391.html
+#### References
 
-
+- https://github.com/w3c/csswg-drafts/issues/1888
+- https://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html
+- https://lists.w3.org/Archives/Public/www-style/2011Apr/0391.html

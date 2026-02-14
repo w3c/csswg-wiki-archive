@@ -1,9 +1,12 @@
-====== Guide to CVS ======
+---
+title: "Guide to CVS"
+---
 
-//This document is licensed under the [[http://creativecommons.org/licenses/by-sa/2.0/|Creative Commons Attribution Share-Alike License 2.0]]. The [[http://developer.mozilla.org/tools/cvs/|original]] was written for [[http://www.mozilla.org/|mozilla.org]].//
+# Guide to CVS
 
+*This document is licensed under the [Creative Commons Attribution Share-Alike License 2.0](/http/*creativecommons.org/licenses/by-sa/2.0//). The [original](http://developer.mozilla.org/tools/cvs/) was written for [mozilla.org](http://www.mozilla.org/).//
 
-===== What is CVS? =====
+## What is CVS?
 
 <html>
   <p><dfn>CVS</dfn> is the <a href="http://www.nongnu.org/cvs/">Concurrent
@@ -21,10 +24,9 @@
     manually resolved before trying again.</p>
 </html>
 
+## Using Command-line CVS
 
-===== Using Command-line CVS =====
-
-==== Setting $CVSROOT ====
+### Setting $CVSROOT
 
 <html>
     <p>Before you can do anything with cvs, you first need to tell it where
@@ -46,9 +48,11 @@
         <dd><pre><kbd>setenv CVSROOT <var>cvsroot-string</var></kbd></pre></dd>
       </dl>
       <p>where <var>cvsroot-string</var> is of the form
-        <code>:protocol:username@server:/path-to-repository</code>. (<strong>The
+```
+:protocol:username@server:/path-to-repository</code>. (<strong>The
         <var>cvsroot-string</var> for anonymous read-only access to dev.w3.org
-        is <code>:pserver:anonymous@dev.w3.org:/sources/public</code>.</strong>)</p>
+        is <code>:pserver:anonymous@dev.w3.org:/sources/public
+```
     </div>
 
     <p>To use <code>-d</code> instead, add <kbd>-d <var>cvsroot-string</var></kbd>
@@ -60,7 +64,8 @@
     </div>
 </html>
 
-==== Logging in ====
+### Logging in
+
 <html>
     <pre><kbd>cvs login</kbd></pre>
 
@@ -69,7 +74,8 @@
       <code class="filename">.cvspass</code> file in your home directory, so
       you only need to log in once. If CVS complains about you not having
       a home directory, it's probably because you need to set the
-      <code>$HOME</code> environment variable to a reasonable directory
+```
+$HOME</code> environment variable to a reasonable directory
       path.</p>
 </html>
 
@@ -90,7 +96,8 @@
     <pre><kbd>cvs -z3 co CSS</kbd></pre>
     <pre><kbd>cvs -z3 co CSS/CSS2.1-test-suite/README</kbd></pre>
 
-    <p>The <code>-z3</code> parameter is to cause the files (and diffs) to be
+    <p>The <code>-z3
+```
       compressed while in transit. This is almost always the right thing to do;
       so much so that you should probably just put <code>cvs -z3</code>  in
       your <code class="filename">$HOME/.cvsrc file</code>, to make it be the
@@ -98,7 +105,8 @@
 
     <p>(Note that <code>-z9</code> offers a logarithmic improvement in
       compression at an exponential cost in CPU time. Therefore, we recommend
-      <code>-z3</code>; that seems to be about optimal in most cases.)</p>
+```
+-z3</code>; that seems to be about optimal in most cases.)</p>
 
     <p>If the -z3 parameter doesn't work, that means you don't have cvs and/or
       gzip installed correctly. Your life will be much easier if you correct
@@ -123,11 +131,12 @@
       <pre><kbd>cvs <strong>diff -pu</strong> path/to/file1 path/to/file2 ... > patch.out</kbd></pre>
 
       <p>The last part (<kbd>> patch.out</kbd>) dumps the output of that command
-        to the file <code class="filename">patch.out</code>. If you leave it out,
+        to the file <code class="filename">patch.out
+```
         cvs will just print everything to the screen.
 </html>
 
-=== More Context ===
+#### More Context
 
 <html>
       <p>Some reviewers prefer having a bit more context for each of the changes:</p>
@@ -138,7 +147,7 @@
         instead of the usual 3.</p>
 </html>
 
-=== Ignoring Whitespace ===
+#### Ignoring Whitespace
 
 <html>
       <p>If you're making a lot of whitespace/indentation changes, it's often
@@ -148,7 +157,8 @@
       <pre><kbd>cvs <strong>diff -pu8w</strong> path/to/file1 path/to/file2 ... > patch.out</kbd></pre>
 </html
 
-=== New Files ===
+#### New Files
+
 <html>
 	    <p>If you're creating a new file, you can add that change to the diff as
 	      well. First, open up the <code class="filename">CVS/Entries</code> file that's
@@ -163,8 +173,7 @@
 	    <pre><kbd>cvs diff -pu8N path/to/file1 path/to/file2 ... > patch.out</kbd></pre>
 </html>
 
-
-==== Committing Changes ====
+### Committing Changes
 
 <html>
     <p><strong>Always run the <code class="command">cvs diff</code> command and
@@ -184,8 +193,7 @@
       besides you.</p>
 </html>
 
-
-==== Adding New Files ====
+### Adding New Files
 
 <html>
     <p>To add a file to the tree, first <strong><code class="command">cd</code> to its
@@ -201,8 +209,7 @@
     <pre><kbd>cvs add -kb <var>filename</var></kbd></pre>
 </html>
 
-
-==== Removing Files ====
+### Removing Files
 
 <html>
     <p>To remove a file from the tree, first delete your own copy, then, from

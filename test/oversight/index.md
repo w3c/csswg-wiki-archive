@@ -1,8 +1,12 @@
-====== Test Suite Oversight ======
+---
+title: "Test Suite Oversight"
+---
 
-The W3C CSS Testing project is governed on a module ownership model. Each test suite has an Owner, and potentially some Peers, who are responsible for maintaining the integrity of the test suite. Currently all test suites follow the CSS2.1 [[review|CSS2.1 review process]]; however the Selectors and Media Queries test suites use a different test format.
+# Test Suite Oversight
 
-===== Owners and Peers =====
+The W3C CSS Testing project is governed on a module ownership model. Each test suite has an Owner, and potentially some Peers, who are responsible for maintaining the integrity of the test suite. Currently all test suites follow the CSS2.1 [CSS2.1 review process](/review/); however the Selectors and Media Queries test suites use a different test format.
+
+## Owners and Peers
 
 The test suite Owner is the person most responsible for the test suite. A Peer
 is someone the test suite Owner considers equally capable of evaluating changes to
@@ -11,40 +15,41 @@ review from a Peer carries equal weight to a review from an Owner.
 
 The following table shows the owners and peers of the CSS Test Suites. Currently, all the Owners of one suite are considered Peers of the other suites.
 
-^ Test Suite ^ Owner / Peers |
-| [[http://www.w3.org/Style/CSS/Test/CSS2.1/|CSS2.1]] | Elika J. Etemad, Gérard Talbot |
-| [[http://www.w3.org/Style/CSS/Test/CSS3/Selectors/|Selectors]] | Ian Hickson |
-| [[http://www.w3.org/Style/CSS/Test/MediaQueries/|Media Queries]] | Anne van Kesteren |
-| CSS3 Backgrounds and Borders | John Jansen |
-| [[http://www.w3.org/Style/CSS/Test/CSS3/Color/|CSS3 Color]] | L. David Baron, Chris Lilley |
-| CSS3 Multi-column Layout | Håkon Wium Lie |
-| [[http://www.w3.org/Style/CSS/Test/CSS3/Namespace/|CSS Namespaces]] | Anne van Kesteren |
-| [[http://www.w3.org/Style/CSS/Test/CSS3/Page/|CSS3 Paged Media]] | Elika J. Etemad |
-| CSS Transforms | Edward O'Connor |
-| CSS Animations | Øyvind Stenhaug |
-| CSSOM | Glenn Adams |
-| Compositing & Blending | Mirela Budaes, Rik Cabanier |
-| CSS3 Regions | Mihai Balan, Alan Stearns |
-| CSS3 Shapes | Rebecca Hauck, Alan Stearns |
-| CSS3 Exclusions | Alan Stearns |
+| Test Suite | Owner / Peers |  |
+| --- | --- | --- |
+| [[http://www.w3.org/Style/CSS/Test/CSS2.1/ | CSS2.1]] | Elika J. Etemad, Gérard Talbot |
+| [[http://www.w3.org/Style/CSS/Test/CSS3/Selectors/ | Selectors]] | Ian Hickson |
+| [[http://www.w3.org/Style/CSS/Test/MediaQueries/ | Media Queries]] | Anne van Kesteren |
+| CSS3 Backgrounds and Borders | John Jansen |  |
+| [[http://www.w3.org/Style/CSS/Test/CSS3/Color/ | CSS3 Color]] | L. David Baron, Chris Lilley |
+| CSS3 Multi-column Layout | Håkon Wium Lie |  |
+| [[http://www.w3.org/Style/CSS/Test/CSS3/Namespace/ | CSS Namespaces]] | Anne van Kesteren |
+| [[http://www.w3.org/Style/CSS/Test/CSS3/Page/ | CSS3 Paged Media]] | Elika J. Etemad |
+| CSS Transforms | Edward O'Connor |  |
+| CSS Animations | Øyvind Stenhaug |  |
+| CSSOM | Glenn Adams |  |
+| Compositing & Blending | Mirela Budaes, Rik Cabanier |  |
+| CSS3 Regions | Mihai Balan, Alan Stearns |  |
+| CSS3 Shapes | Rebecca Hauck, Alan Stearns |  |
+| CSS3 Exclusions | Alan Stearns |  |
 
 The overall Owner for the W3C CSS Testing efforts is Rebecca Hauck. Finally, the CSS Working Group has the highest authority over the project and may be consulted where deemed necessary.
 
-===== Approvers =====
+## Approvers
 
-An Approver is someone who has demonstrated a very strong understanding of the CSS specs and test methodology and an active commitment to working on the test suite but who hasn't quite racked up enough experience points to become a full test suite Peer. An Approver has write access to the repository and can [[review|approve]] tests but may only review his own company's tests under the Owner's oversight.
+An Approver is someone who has demonstrated a very strong understanding of the CSS specs and test methodology and an active commitment to working on the test suite but who hasn't quite racked up enough experience points to become a full test suite Peer. An Approver has write access to the repository and can [approve](/review/) tests but may only review his own company's tests under the Owner's oversight.
 
 Currently the following people are Approvers:
 
-  * Arron Eicholz (Microsoft)
+- Arron Eicholz (Microsoft)
 
-===== Becoming a Peer =====
+## Becoming a Peer
 
 There are three basic qualifications you must satisfy to become a Peer:
 
-  * You must demonstrate the ability to read and interpret the spec correctly.
-  * You must demonstrate a thorough understanding of the test suite guidelines.
-  * You must demonstrate that you are trustworthy.
+- You must demonstrate the ability to read and interpret the spec correctly.
+- You must demonstrate a thorough understanding of the test suite guidelines.
+- You must demonstrate that you are trustworthy.
 
 The first two qualifications can be met by submitting good-quality tests for the test suite
 and intelligently critiquing others' tests.

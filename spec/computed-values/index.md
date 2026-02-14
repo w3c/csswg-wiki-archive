@@ -1,4 +1,8 @@
-====== Computed Values Patterns ======
+---
+title: "Computed Values Patterns"
+---
+
+# Computed Values Patterns
 
 Computed Value (the concept in the propdef table) is a UA-internal
 representation of a property mainly meant for supporting animations. It’s
@@ -34,14 +38,14 @@ This page lists a number of design patterns that have been identified for comput
 
 If you're a spec editor, you should check the "computed value:" definition of the properties in your spec with this document.
 
-  - computed values should depend only on the specified or computed values of properties on the element or its parent
-  - computed values must never depend on layout
-  - shorthand properties do not have computed values. For them, simply specify: 
-    * Computed value: see individual properties
-  - url() resolvability cannot affect the computed value, since the concept of computed value shouldn't require accessing the network.
-  - which format a url() resource is (e.g. whether the browser supports it) also cannot affect the computed value
-  - URIs in computed values are absolute. E.g. 
-    * Computed value: as specified, except with any relative URLs converted to absolute
-  - properties that just accept keyword or IDREF values, should just specify: 
-    * Computed value: as specified
-  - (disputed) computed values should never depend on containing block hierarchy (though note that they already do in CSS21, eg 'height' for percentage values (http://lists.w3.org/Archives/Public/www-style/2011Sep/0008.html)
+1. computed values should depend only on the specified or computed values of properties on the element or its parent
+1. computed values must never depend on layout
+1. shorthand properties do not have computed values. For them, simply specify: 
+  - Computed value: see individual properties
+1. url() resolvability cannot affect the computed value, since the concept of computed value shouldn't require accessing the network.
+1. which format a url() resource is (e.g. whether the browser supports it) also cannot affect the computed value
+1. URIs in computed values are absolute. E.g. 
+  - Computed value: as specified, except with any relative URLs converted to absolute
+1. properties that just accept keyword or IDREF values, should just specify: 
+  - Computed value: as specified
+1. (disputed) computed values should never depend on containing block hierarchy (though note that they already do in CSS21, eg 'height' for percentage values (http://lists.w3.org/Archives/Public/www-style/2011Sep/0008.html)
