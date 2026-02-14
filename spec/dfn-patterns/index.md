@@ -1,0 +1,175 @@
+---
+title: "<dfn> Patterns for Proper Cross-Linking"
+---
+
+# \<dfn\> Patterns for Proper Cross-Linking
+
+Historically, CSS drafts have had very little structure in the way they mark up definitions, beyond the basics of using a \`\<dfn\>\` element. This makes it much harder for machines to understand the data, and thus for tools to help with the data. For example, if one attempts to write an automatic cross-reference tool, and a spec links to “flex”, is that referring to the property or the 'display' value? If it links to “auto”, which property's “auto” value is it referring to?
+
+This page documents the patterns and attributes that are recognized by [Shepherd, our spec parsing tool, and Tab's preprocessor](http://wiki.csswg.org/tools). By using these in your own specs, you make your life and the lives of other editors easier, and contribute to better automatically-generated CSS documentation.
+
+## Summary
+
+All `<dfn>` elements have a definition type. This can usually be inferred from the contents or context, but might need to be explicitly specified.
+
+Some types of definitions are part of some higher construct. This should be indicated with a `data-dfn-for` attribute on the definition or a container.
+
+“dfn” type definitions (ones that don't fit into any other category) aren't exported for cross-referencing by default. If you intend them to be linkable by other specs, indicate it with a `data-export` attribute.
+
+Getting this metadata right is easy and helps with auto-crossreferencing (in Tab's preprocessor) and automatically generated documentation (in Shepherd), so please get it right.
+
+## \<dfn\> Types
+
+To aid with cross-linking and automatic documentation, definitions are now classified into one of several categories:
+
+- property
+- descriptor (the things inside at-rules like @font-face)
+- value (any value that goes inside of a property, at-rule, etc.)
+- type (an abstract type, like \<length\> or \<image\>)
+- at-rule
+- function (like counter() or linear-gradient())
+- selector
+- token
+
+There are additional categories for WebIDL definitions:
+
+- interface
+- method
+- attribute
+- dictionary
+- dictmember
+- enum
+- const
+
+And for HTML definitions:
+
+- html-element
+- html-attribute
+
+And finally, a catch-all category for general terms and phrases, and anything that doesn't fall into one of the other categories:
+
+- dfn
+
+In many cases, the definition type can be automatically inferred. In others, you may have to manually mark up the type using any of several methods, whichever is most convenient.
+
+The following methods are listed in order of convenience to use, but in **reverse** order of power. That is, the very last method (manually specifying the type) wins out over everything else, and the very first method (inferring type from contents) will only be used if all the others fail.
+
+### Inferring \<dfn\> Type From Contents
+
+If a definition's type isn't explicitly specified with one of the following methods, the tools will attempt to infer it from its contents:
+
+- Is it surrounded by double single quotes in the source, like ''foo''? Then it's a **value**.
+- Does it start with an @? Then it's an **at-rule**.
+- Is it surrounded by \<\>? Then it's a **type**.
+- Is it surrounded by 〈〉? Then it's a **token**.
+- Does it start with a :? Then it's a **selector**. (This is a simplistic auto-detection for pseudo-classes and pseudo-elements.)
+- Does it end with ()? Then it's a **function**.
+- Otherwise, it's a **dfn**.
+
+Remember, this is a last-resort effort. Specifying the type with any of the following methods will override this detection.
+
+### Inferring Type from Container Class
+
+If a definition's type hasn't been determined by one of the following methods, the tools will attempt to infer it by looking for specific classes on the ancestors of the definition. The following table lists the classes and what types they map to:
+
+| class         | definition type |
+|---------------|-----------------|
+| propdef       | property        |
+| descdef       | descriptor      |
+| valuedef      | value           |
+| typedef       | type            |
+| at-ruledef    | at-rule         |
+| funcdef       | function        |
+| selectordef   | selector        |
+| tokendef      | token           |
+| interfacedef  | interface       |
+| methoddef     | method          |
+| attrdef       | attribute       |
+| dictdef       | dictionary      |
+| dictmemberdef | dictmember      |
+| enumdef       | enum            |
+| constdef      | const           |
+| html-elemdef  | html-element    |
+| html-attrdef  | html-attribute  |
+
+For example, since the spec template puts property definitions inside of `<table class=“propdef”>`, we don't need to worry about specifying that the definitions there are for properties - it's automatically inferred by the class on the table.
+
+### Inferring Type from Definition ID
+
+If a definition's type isn't explicitly specified by the following method, the tools will attempt to infer it by looking at the definition's ID attribute, if it was explicitly specified. If the ID has a particular prefix, this will automatically classify it as a particular type:
+
+| ID prefix      | definition type |
+|----------------|-----------------|
+| propdef-       | property        |
+| descdef-       | descriptor      |
+| valuedef-      | value           |
+| typedef-       | type            |
+| at-ruledef-    | at-rule         |
+| funcdef-       | function        |
+| selectordef-   | selector        |
+| tokendef-      | token           |
+| interfacedef-  | interface       |
+| methoddef-     | method          |
+| attrdef-       | attribute       |
+| dictdef-       | dictionary      |
+| dictmemberdef- | dictmember      |
+| enumdef-       | enum            |
+| constdef-      | const           |
+| html-elemdef-  | html-element    |
+| html-attrdef-  | html-attribute  |
+
+(You may notice this is the same as the class table from the previous method.)
+
+For example, writing `<dfn id=propdef-foo>foo</dfn>` will automatically classify this definition as for a property.
+
+(This method is mainly used for recognizing some legacy definitions, and definitions from the HTML spec. You can use it, but it's likely better to use one of the other methods, and let the id be auto-generated.)
+
+### Manually Specifying the Definition Type
+
+Finally, one may manually specify the definition type. This is very simple - just add a `data-dfn-type` attribute to the definition, with its value set to one of the definition types above (the types, like “property”, not the classes or prefixes like “propdef”).
+
+If using [Tab's preprocessor](http://wiki.csswg.org/tools), this is easier - just add the definition type as a boolean attribute. That is, instead of writing:
+
+`<dfn data-dfn-type=function>foo()</dfn>`
+
+just write
+
+`<dfn function>foo()</dfn>`
+
+The preprocessor will automatically canonicalize this into a valid `data-dfn-type` attribute in the output.
+
+## Specifying What A Definition Is For
+
+Some types of definitions are for things that are part of a larger whole. For example, any “value” definitions are by definition part of something else, either a property, descriptor, type, at-rule, or function. A “type” definition may be part of a larger type. “descriptor” definitions are a part of an at-rule. “method” and “attribute” definitions are part of some interface.
+
+Knowing this information helps with auto-generated documentation. For example, if every definition that was part of `<image>` was tagged appropriately, we could automatically list all the values of `<image>`, across specs. It also helps with auto-linking - specifying which property you're referring to when you link to “auto” is easier than specifying which spec you intend. (Plus, there may be multiple properties in a single spec which have an “auto” value!)
+
+To specify what higher construct a given definition is for, add a `data-dfn-for` attribute to the definition, with the value being the name of the higher construct: @foo, foo(), \<foo\>, etc. If there's no identifying syntax, like:
+
+`<dfn data-dfn-for=width>''auto''</dfn>`
+
+..it's assumed to be referring to a property. To instead refer to a descriptor, list out both the at-rule and the descriptor it's for, like:
+
+`<dfn data-dfn-for=“@font-face font-weight”>''bolder''</dfn>`
+
+(because multiple at-rules may name their descriptors the same).
+
+“descriptor” type definitions can be automatically linked to their at-rule by instead adding a “For” line to their descdef table, with its value being the at-rule they belong to. See [Counter Styles](http://dev.w3.org/csswg/css-counter-styles/#counter-style-system) for an example of this in use.
+
+As a shortcut, the `data-dfn-for` attribute may instead be placed on a container element, which is equivalent to specifying it on all the definitions within. For example, if you define all the values for a property in a `<dl>` following the propdef, simple write
+
+`<dl data-dfn-for=“my-prop”>`
+
+rather than adding that attribute to every individual `<dfn>` element.
+
+If using Tab's preprocessor, you may instead use a simple `for` attribute on the `<dfn>`, or a `dfn-for` attribute on a container. As well, Tab's preprocessor automatically enforces the use of “for” indicators, flagging an error if they're missing. (TODO: Rather, it will soon. Haven't coded it up quite yet.)
+
+## Exporting Definitions
+
+Definitions have a concept of being “exported” from a spec, which makes them available for automatic cross-referencing. Most types of definitions are *automatically* exported, with no additional effort from you. The only exception is “dfn” type definitions - to make these available for cross-referencing, you must add a `data-export` attribute to them or an ancestor.
+
+For example, the Flexbox spec contains a definition like `<dfn>flex item</dfn>`. This isn't auto-detected as any of the other types, so it (correctly) gets the type “dfn”. As it stands, though, this definition can't be auto-linked from any other spec. To make that happen, it needs to be written as `<dfn data-export>flex item</dfn>` (or in Tab's preprocessor, `<dfn export>flex item</dfn>`).
+
+Conversely, if you want to \*block\* a particular definition from being exported (because it's only meaningful locally), add a `data-noexport` attribute to the definition or an ancestor.
+
+If using Tab's preprocessor, you may instead just use an `export` or `noexport` attribute.

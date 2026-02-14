@@ -1,0 +1,197 @@
+---
+title: "Cupertino F2F July 2023"
+---
+
+# Cupertino F2F July 2023
+
+- Host: Apple
+- Location: One Apple Park Way, Cupertino CA 95014, USA
+  - Visitor entrance is at [Tantau Reception Center](https://goo.gl/maps/cGQYeU23PkEGfnpn7), 10503 North Tantau Avenue, Cupertino, CA 95014. This is adjacent to the intersection of North Tantau Avenue and Pruneridge Avenue.
+  - Conference room is named “Space Oddity” in Section 2
+  - If you're driving there, the visitor parking is in an underground garage whose entrance is [at this point](https://goo.gl/maps/371ED4eugJoaGooy5), adjacent to the Apple Park Visitor Center, 10600 North Tantau Avenue, Cupertino, CA 95014. This is just across North Tantau Avenue from the visitor entrance.
+- Weather Forecast: [⁰C](http://forecast.weather.gov/MapClick.php?smap=1&lat=37.335&lon=-122.009&unit=1&mp=1) or [⁰F](http://forecast.weather.gov/MapClick.php?smap=1&lat=37.335&lon=-122.009&unit=0&mp=1), Current Weather Conditions: [⁰C](https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG&unit=1) or [⁰F](https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG)
+- Dates: Tuesday 18 July - Friday 21 July 2023
+- Times: 8am-4pm (early start to accommodate Europe dial-ins)
+  - 7:30am - reception open for visitors, breakfast available
+  - 8am - meeting start
+  - 9:30am-10am morning break
+  - 12:00pm-1pm lunch break
+  - 2:00pm-2:30pm afternoon break
+  - 4pm - meeting end
+- Scheduled Extras:
+  - [Lightning Pitches](https://lists.w3.org/Archives/Member/w3c-css-wg/2023JulSep/0031.html) - 1min-5min informal pitches to ask for engagement on particular issues, concerns, or feature requests that aren't ready for formal discussion
+  - Wednesday evening - host dinner, 6:30 PM outside on the patio at Water Tower Kitchen: 201 Orchard City Drive, Campbell, CA 95008 <https://www.watertowerkitchen.com>
+  - Thursday evening - [DIY backyard barbecue](../../planning/logistics/cupertino-2023/ "planning:logistics:cupertino-2023"), fantasai &co hosting, 10min drive from Apple, extra guests welcome, please come even if you're local…
+- Airports:
+  - SJC - San Jose Airport (16km drive, **closest**, be careful to use correct airport code)
+  - SFO - San Francisco Airport (54km drive, **major hub**)
+  - OAK - Oakland Airport (69km drive)
+- [Dial-in info for virtual attendees](https://lists.w3.org/Archives/Member/w3c-css-wg/2023JulSep/0048.html)
+
+## Agenda
+
+<https://github.com/w3c/csswg-drafts/projects/38>
+
+### Meeting Minutes
+
+- Tuesday, July 18
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0011.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0012.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0013.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0014.html>
+- Wednesday, July 19
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0015.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0016.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0017.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0018.html>
+- Thursday, July 20
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0019.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0020.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0021.html>
+- Friday, July 21
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0022.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0023.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0024.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2023Sep/0025.html>
+
+### Goals
+
+- Reduce Agenda+ backlog:
+  - [Agenda+ F2F](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22)
+  - [Agenda+](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3AAgenda%2B)
+  - [Agenda+ Later](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+Later%22)
+  - [Houdini Agenda+](https://github.com/w3c/css-houdini-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B%22+)
+  - [FXTF Agenda+](https://github.com/w3c/fxtf-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B%22+)
+- Allow time and space for fuzzier open-ended discussions and breakouts
+- Post-pandemic repair of group communication and collaboration (particularly across company boundaries)
+
+### Possible breakout topics
+
+- Line-breaking and related features in [CSS Text Level 4](https://www.w3.org/TR/css-text-4/)
+- line-clamp, continue: discard, and friends (also listed as a main track topic, but a break-out might be useful for a deep-dive, before bringing back potential conclusions to the main track) (Andreu Botella would like to join remotely. Europe-friendly scheduling appreciated)
+- ??? Add Suggestions Here ???
+
+### Regular-track topics
+
+In addition to [Agenda+ F2F Issues](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22)…
+
+- Anchor Positioning
+- Masonry?
+- CSS Grid Layout L1 fixes (any output from Tab+Oriol+fantasai’s workday on Monday)
+- Line-clamp (Andreu Botella would like to join remotely. Europe-friendly scheduling appreciated)
+- styling of details elements (see [somewhat draft-y document](https://github.com/dbaron/details-styling)) (could be a lightning pitch, except I think a little discussion would be useful)
+- ??? Add topics you want to discuss / present here so the chairs can schedule them ???
+- FXTF/Houdini - merging back into CSSWG?
+- Future of SVG - WG has been effectively dead for years, should we take it over? Do something else?
+
+### Lightning Pitches
+
+1min-5min informal pitches to ask for CSSWG’s attention / help on particular issues, concerns, or feature requests that aren't ready for formal discussion, see [Lightning Pitches Description](https://lists.w3.org/Archives/Member/w3c-css-wg/2023JulSep/0031.html). Register your name and/or topics below if you want the wiki to help you remember.
+
+- Sebastian Zartner: [Advanced transforms](https://github.com/SebastianZ/advanced-transforms)
+- Yehonatan Daniv: animation-trigger, [issue](https://github.com/w3c/csswg-drafts/issues/8942)
+- Yehonatan Daniv: Expand filter capabilities, [reference tweet](https://twitter.com/anatudor/status/1669878134932488194)
+- Christopher Cameron: Dynamic range limit for HDR content [issue](https://github.com/w3c/csswg-drafts/issues/9074), [proposal](https://github.com/ccameron-chromium/hdr-headroom-limit/blob/main/EXPLAINER.md), [slides](https://docs.google.com/presentation/d/1K2xbf2eaWFszl-3lhbeaRUc_GdL6Jjr5jAZBqBpv2vI/edit?usp=sharing)
+- David Baron: focusability of \`display: contents\`; see [mozilla/standards-positions#772](https://github.com/mozilla/standards-positions/issues/772) and [WebKit/standards-positions#164](https://github.com/WebKit/standards-positions/issues/164)
+- fantasai: [counters() nonsense](https://github.com/w3c/csswg-drafts/issues/9076)
+- Sebastian Zartner: [feature testing nesting](https://github.com/w3c/csswg-drafts/issues/8399) + [avoid double-importing stylesheets](https://github.com/w3c/csswg-drafts/issues/9082)
+- bramus: \`@config\`
+- fantasai: CSS Grid and CSS Flexbox should not be 3-5 years out of date.
+- bramus: Animation Timelines
+- bramus: catering for scrollbars – overflow state query + [issue](https://github.com/w3c/csswg-drafts/issues/4691) + [issue](https://github.com/w3c/csswg-drafts/issues/7697#issuecomment-1314481766)
+- Sebastian Zartner: [cropping in the middle of a string](https://github.com/w3c/csswg-drafts/issues/3937)
+
+## Attendees
+
+### Hosts
+
+Apple attendees who can help visitors with issues they may encounter during the F2F.
+
+IN-PERSON SIGN-UPS ARE NOW CLOSED!!!
+
+| Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
+|----|----|----|----|----|----|
+| Theresa O'Connor (hober) | local | local | local |  |  |
+| fantasai | early | late | AirBnB | gluten-free appreciated |  |
+| Tim Nguyen (ntim) | local | local | local |  |  |
+| Megan Gardner | local | local | local |  |  |
+| Jen Simmons | week before | week after | nearby hotel | will get my own food since I cannot eat 99% of foods / can only eat about 12 ingredients |  |
+| Simon Fraser | local | local | local |  |  |
+| Myles C. Maxfield | local | local | local |  |  |
+| Brandon Stewart | Jul 16 | Jul 22 | nearby hotel | none |  |
+| Sammy Gill | Jul 17 | Jul 22 | Residence Inn Cupertino |  | AS 3453, AS 3498 |
+
+IN-PERSON SIGN-UPS ARE NOW CLOSED!!!
+
+### In-Person Participants
+
+When in a U-shape configuration, the room has capacity for 30 people. But the maximum capacity of the room is 160, so we can probably squeeze a few more than 30 in pretty comfortably.
+
+IN-PERSON SIGN-UPS ARE NOW CLOSED!!!
+
+| Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
+|----|----|----|----|----|----|
+| Alan | Jul 17 | Jul 21 | Courtyard by Marriot Sunnyvale |  | Will rent car, can give people rides from the NW direction if needed |
+| Rachel Andrew | Jul 17 | Jul 23 | Homewood Suites Silicon Valley | [I made a list.](https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9) | BA283 + AA4863 - AS2401 + BA282 |
+| Oriol Brufau | Jul 15 | Jul 22 | AirBnB | Strong dislike of cheese and shellfish |  |
+| Bramus | Jul 16 | Jul 26 | Wild Palms Hotel | None | SAS 594+935 - SAS 936+597 |
+| Miriam Suzanne | Jul 17 | Jul 22 | AirBnB | vegetarian |  |
+| Rossen | Jul 18 | Jul 22 | AirBnB | pescatarian |  |
+| ChangSeok Oh | local | local | local |  |  |
+| Tab Atkins-Bittner | local | local | local |  |  |
+| David Baron | Jul 17 | Jul 21 | Wild Palms Hotel | no red meat | [UA 1742](https://flightaware.com/live/flight/UAL1742) (Mon 15:25 SFO), [UA 2046](https://flightaware.com/live/flight/UAL2046) (Fri 21:35 SFO) |
+| Sebastian Zartner | July 17 | July 22 | AirBnB | no shellfish | [UA 195](https://flightaware.com/live/flight/UAL195) (Mon 14:20 SFO), [UA 8882](https://flightaware.com/live/flight/UAL8882) (Sat 21:10 SFO) |
+| Florian Rivoal | July 17 | July 22 | AirBnB | omnivore | KL2084+KL5192 / AF2840+AF0009 |
+| Ian Kilpatrick | local | local | local | no shellfish |  |
+| Cassondra Roberts | Jul 17 | Jul 21 | Element Santa Clara | mostly vegan but flexible w/honey, fish, etc. | Delta into SJC |
+| Daniel Holbert | local | local | local | None | Planning to attend in-person for at least one day (not sure yet which day(s)) |
+| Nicole Sullivan | local | local | local |  |  |
+| Tantek Çelik | local | local | local | vegan | in-person on 2023-07-20 |
+| Emilio Cobos | July 17 | July 22 | AirBnB | omnivore |  |
+
+IN-PERSON SIGN-UPS ARE NOW CLOSED!!!
+
+### Virtual Participants
+
+**Dial-in info can be found [in the w3c-css-wg archives](https://www.w3.org/mid/m27cr46d98.fsf@apple.com).**
+
+Please list your availability in California time (morning/afternoon/all or specific time ranges). See [Time Converter](https://www.worldtimebuddy.com/?pl=1&lid=5391959,2988507,293397,2158177&h=5391959&date=7/18/2023%7C3&hf=1)
+
+| Name | Timezone | PDT Availability | Other Notes |
+|----|----|----|----|
+| François Remy | CEST (PDT+9) | 08:00-16:00 | Tuesday for two hours, All the other days until I fall asleep (possibly until EOD, as I'm jetlagged) |
+| Yehonatan Daniv | IDT (PDT+10) | 08:00-15:00 |  |
+| Chris Lilley | EEST (PDT+10) | 08:00-11:00 | unable to travel |
+| Lea Verou | EEST (PDT+10) | 9am-11am every day, also 8am-9am on Fri |  |
+| Vladimir Levin | EDT | 08:00-15:00 |  |
+| Rob Flack | EDT | 08:00-15:00 |  |
+| Jonathan Kew | (PDT+8) | 08:00-14:00 | Part-time, depending on schedule of agenda topics |
+| Vitor Ribeiro Roriz | CEST |  |  |
+| Cameron McCormack | AEST (PDT+17) | 13:00-17:00 | Will be in and out Tue-Thu afternoons, not available Fri |
+| Matthieu Dubet | CEST (PDT+9) |  |  |
+| Khushal Sagar | EDT | 08:00-16:00 | Can attend all day Tuesday + Wednesday. Won't be able to attend the last 2 days |
+| David Leininger | EDT |  | Double booked for a week long office event in NYC. Will in and out as available. |
+| Mason Freed | PDT | 08:00-16:00 | Very part-time, depending on agenda |
+| Fernando Serboncini | EDT | 08:00-16:00 |  |
+| Federico Bucchi | PDT | 09:00-13:00 |  |
+| Jennifer Strickland | EDT | all | in and out |
+| Una Kravets | EDT | all | in and out |
+| Mu-An Chiou | PDT+15 | 08:00-09:00, 15:00-16:00 | timezones |
+| Adam Argyle | PDT | all | in and out |
+| Delan Azabani | AWST (PDT+15) | 08:00-11:00 |  |
+| Peter Linss | PDT | 08:00-16:00 |  |
+| Noam Rosenthal | PDT+10 | 10:00-11:30 | Available Tue-Thu |
+| Joey Arhar | PDT |  |  |
+| Stephen Chenney | EDT | 8:00 - 13:00, limited other times | Highlight pseudo issues + others of interest |
+| Xiaocheng Hu | PDT |  |  |
+| Alison Maher | PDT | all | Part-time, depending on agenda |
+| Andreu Botella | CEST | 08:00-14:00 | Preferably 8:00-12:00 |
+| Christopher Cameron | CEST | 12:00-15:00 | in and out |
+| Chris Harrelson | PDT | 8:00-16:00 | In and out |
+| Greg Whitworth | PDT | 08:00-16:00 | Tooltip & Anchor positioning |
+
+### Regrets
+
+| Name            |
+|-----------------|
+| Bobby Jo Steffl |

@@ -1,0 +1,33 @@
+---
+title: "How to host a CSS Working Group meeting"
+---
+
+# How to host a CSS Working Group meeting
+
+(See also the general ["Hosting W3C Face to Face Meetings."](http://www.w3.org/Guide/hosting.htm) and [F2F Illustration](http://w3cmemes.tumblr.com/post/52184246050/for-future-reference-wg-members-are-assumed))
+
+To host a CSS meeting, you MUST provide:
+
+- A meeting room where the group can meet, without needing to sign any NDA or other agreement. Meetings are typically 3 days (4 days if co-hosting a [Houdini](https://wiki.css-houdini.org/) meeting), and a room is needed the entire time. It SHOULD be the same room every day.
+- Chairs for people to sit in and tables for them to put their laptops at (which SHOULD be arranged in a U shape) such that the participants can easily hear each other speak. Attendance may vary, but is typically around 30 people.
+- electricity for everybody's laptops (probably assume greater than 1 device per person average)
+- network connectivity that allows at least access to Web, IRC, and email, and preferably also skype/VoIP
+- A projection screen easily visible from all the chairs, and preferably to which anyone in any of the chairs can project from their seats
+- Either a whiteboard or flipchart that people can draw on, also visible from all the seats.
+- A setup that allows participants to participate remotely (for example, via Zoom), so that remote participants can hear those in the room, and those in the room can hear the remote participants
+- All of the above MUST be ready to go by 9am on each meeting day, and must remain available until the end of the meeting at 6pm.
+- The meeting room SHOULD be available half an hour before the meeting start so that people can arrive, and SHOULD remain available for at least 30 minutes to an hour after the likely end of the meeting, both so that the meeting can continue a few minutes longer if needed, and so that participants can linger to finish ongoing conversations, make dinner plans, etc.
+- instructions for how to get to the meeting location
+
+You also SHOULD provide:
+
+- food and drinks for during the meeting (or have them otherwise reasonably available): mid-morning coffee break, lunch, mid-afternoon break, and MAY also have breakfast available. You should reasonably accommodate vegetarians, such as having eggs during breakfast to provide non-meat protein. Accommodating other food restrictions is desirable if possible. (More details here.)
+- natural light in the meeting room (which helps people who are jetlagged)
+- a meeting space that does not permit smoking indoors
+- A secondary meeting room, to enable the group to temporarily split and discuss in parallel topics which only interest a subset of the members.
+- On-premise or nearby child care during meeting hours
+
+You MAY also:
+
+- Invite everybody for dinner once during the F2F. This is often done and appreciated, but is not a requirement and members do understand that you may have budget constraints.
+- Organize a side event to meet with local web developers. If you do so, you SHOULD inform the CSSWG members well in advance, as they may otherwise have conflicting travel plans.

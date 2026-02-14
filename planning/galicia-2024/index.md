@@ -1,0 +1,142 @@
+---
+title: "A Coruña F2F June 2024"
+---
+
+# A Coruña F2F June 2024
+
+- Host: Igalia
+- Location: A Coruña, Galicia, Spain
+- Dates: June 11-13
+- Times: 10am-6pm
+
+Where:
+
+``` code
+  A Coruña, Galicia, Spain
+  Igalia office
+  Rúa de José Luis Bugallal Marchesi, 22
+  https://maps.app.goo.gl/eCban5rx1iHKsZ1J8
+  
+```
+
+Nearby Airports:
+
+- A Coruña (LCG) - closest
+- Santiago de Compostela (SCQ) - about 1hr drive, or half hour train from downtown
+
+If you're in A Coruña on June 10 or 14 (the days before and after), you’re welcome to come to the Igalia office and work from there.
+
+If you're already planning to get flights and hotels, you should know that we have a discount for F2F attendees at the nearby Hotel Avenida (<https://www.hotelavenida.com/en/>). This is the hotel we use frequently and it is very convenient to the office. June 10 and 11 - only accommodation 52€ and with breakfast 58€. On the 12th and 13th - only accommodation 72€ and with breakfast 78€. We have requested them to hold 20-25 rooms for us and would need names if you would like us to get them held with reservations (payment due at the hotel). Please contact us or note it in the wiki page as soon as possible if you believe that sounds good.
+
+We can also provide childcare if needed. Feel free to contact us or note that in the wiki page.
+
+Note that Igalia is also organizing the Web Engines Hackfest the week before, on June 3-5, also in A Coruña. You can find more info at <https://webengineshackfest.org/>. I know some of you are attending or speaking at CSS Day, which would make it harder to also attend the Web Engines Hackfest, but it would be great if you could make it.
+
+The Web Engines Hackfest website also has travel instructions to get to A Coruña, although that event takes place at a different venue.
+
+- Pandemic protocol: same as previous recent meetings
+  - Masks required in meeting room/common spaces; can be removed only while actively eating/drinking.
+  - COVID testing before arrival, and daily before meetings.
+  - Outdoor dining encouraged, weather permitting
+  - Wear a mask in all indoor public space 72 hours before Tuesday’s meeting
+  - Wear a mask during your entire travel journey (onboard a flight, train or federally-regulated vessel, as well as in airports and other points of entry) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt
+
+Some additional information for during f2f week…
+
+Igalia has done our best to make accommodations, here are some notes:
+
+### Meals
+
+1\. Breakfast at the hotel is buffet style and normally on the inside, however, the hotel has made the terrace available so it is possible to take breakfast outdoors.
+
+2\. Igalia has arranged for catering in the office for coffee/snacks and lunch. We aren't able to provide specifically outdoor accommodation for that, but attendees are welcome to take food and drinks outside or find a nearby place if they are more comfortable.
+
+3\. We have arranged for a group dinner at Comarea Marina (<https://www.instagram.com/comareamarinacoruna/>) for Wednesday 12th at 8:30 PM. It is outdoors.
+
+All dietary notes have been taken into consideration.
+
+### Tour and Meetup
+
+Igalia has also arranged a city tour for anyone interested.
+
+Igalia is also working with a local users group GPUL to set up a meetup on Tuesday 11th, from 7 PM to 9 PM. It will be held in the Computer Science Department of A Coruña University (<https://www.google.com/maps/search/?api=1&query=43.332886%2C%20-8.410934>), lecture room 3.3
+
+Rachel has offered to give a talk for this meeting, probably at least a bit on how the CSSWG and standards work, and then we will have a panel/Q&A which Eric and/or I can moderate. We still need some volunteers for said panel. We can note a masking preference, but we can't really require non-wg members to mask for this event.
+
+### Tour
+
+We have also arranged a guided bus tour for anyone interested, just before the group dinner. A bus will pick up our group on Wednesday 12th at 6:30 PM near the office, guide us through interesting sites like San Pedro and Torre de Hércules, teach us some local history and finally drop us off at the group dinner location.
+
+### Chats
+
+As you might know Igalia has a podcast called Igalia chats. We thought it might be fun to try to squeeze in some quick recorded interviews with attendees during breaks or downtime about what's happening at the f2f, or what exactly they're like/why they're valuable, etc.. There's no real specific plan here other than that we'll have a couple of microphones and a small quiet area set up, and if you're willing to participate in that, let us know. We're also happy to share that with any other podcasters in the group as I know we have a few.
+
+## Agenda
+
+- [Agenda+ F2F](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22)
+- [WICG Canvas Text](https://github.com/Igalia/explainers/tree/canvas-formatted-text/canvas-formatted-text) proposal intro
+- Other topics?
+
+[Agenda Project](https://github.com/orgs/w3c/projects/88/views/1)
+
+## Attendees
+
+### In-Person Participants
+
+(alphabetical by first name)
+
+| Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
+|----|----|----|----|----|----|
+| Alan Stearns | June 10 | June 14 | Hotel Avenida |  |  |
+| Alison Maher | June 10 | June 14 | AC Hotel A Coruña |  |  |
+| Andreu Botella | TBD | TBD | Hotel Avenida |  |  |
+| Brian Kardell | TBD | TBD | Hotel Avenida | pescatarian |  |
+| Chris Lilley | 8 June | 14 June | Hotel Avenida |  | childcare requested |
+| David Baron | Monday 10 June, 11:50 (LCG) | Friday 14 June, 8:35 (LCG) | [Hotel Avenida](https://www.hotelavenida.com/) | no red meat | [UA260](https://www.flightaware.com/live/flight/UAL260)+[UX7231](https://www.flightaware.com/live/flight/AEA7231), [UX7232](https://www.flightaware.com/live/flight/AEA7232)+[UA261](https://www.flightaware.com/live/flight/UAL261) ([map](http://www.gcmap.com/mapui?P=IAD-MAD-LCG,LCG-MAD-IAD)) |
+| Eric Meyer | 9 or 10 June | 14 June |  | Avocado allergy |  |
+| fantasai | 6/10 | 6/14 | Hotel Avenida | gluten-free appreciated |  |
+| Florian | 2024-06-10 | 2024-06-14 | Hotel Avenida | omnivore | [AF0291](https://www.flightaware.com/live/flight/AFR291)+[AF1400](https://www.flightaware.com/live/flight/AFR1400)+train / train+[AF1001](https://www.flightaware.com/live/flight/AFR1001)+[AF0292](https://www.flightaware.com/live/flight/AFR292) |
+| Javier Fernandez | TBD | TBD | Local |  |  |
+| Joey Arhar | TBD | TBD | Hotel Avenida |  |  |
+| Kevin Babbitt | 9 June, 16:25 | 13 June, 21:10 | AC Hotel A Coruña |  |  |
+| Khushal Sagar | TBD |  |  | vegetarian |  |
+| Lea Verou | 8 June | 14 June | Hotel Avenida (with Chris) |  | childcare requested |
+| Luke Warlow | TBD | TBD | Hotel Avenida | pescatarian |  |
+| Matthieu Dubet | 10 June | 14 June | Hotel Avenida |  |  |
+| Miriam Suzanne | 8 June | 15 June | Hotel Avenida | vegetarian |  |
+| Oriol Brufau | TBD | TBD | Hotel Avenida | Strong dislike of cheese and shellfish |  |
+| Rachel Andrew | 2024-06-09 | 2024-06-14 | Doubletree | [list](https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9) |  |
+| Roman Komarov | TBD | TBD | Hotel Avenida |  |  |
+| Tab Atkins-Bittner | 9 June | 14 June | Hotel Avenida |  |  |
+| Yehonatan Daniv | 10 June | 14 June | Hotel Avenida |  |  |
+| Zoe Lilley-Verou | 8 June | 14 June | Hotel Avenida (with Chris) |  | not a WG member |
+| Nicole Sullivan | 8 June | 15 June | Hotel Avenida (2 rooms) |  |  |
+| Fernando Serboncini | 10 June | 14 June | Hotel Exe Coruña |  |  |
+| Ian Kilpatrick | 11 June | 15 June |  | Shellfish Allergy |  |
+| Una Kravets | 8 June | 13 June | Hotel Avenida |  |  |
+
+### Virtual Participants
+
+Please list your availability in Spanish time (morning/afternoon/all or specific time ranges). See [Time Converter](https://www.worldtimebuddy.com/?pl=1&lid=3117735,5391959,2158177,293397&h=5391959&hf=1)
+
+| Name              | Timezone | CEDT Availability            | Other Notes |
+|-------------------|----------|------------------------------|-------------|
+| Daniel Holbert    | PDT      | Late Afternoon               |             |
+| Stephen Chenney   | EDT      | 12:30 - 18:00                |             |
+| Bramus            | CEST     | Business Hours               |             |
+| Emilio Cobos      | CEST     | Business Hours               |             |
+| David Leininger   | CDT      | TBD                          |             |
+| Brandon Stewart   | PDT      | Late Afternoon               |             |
+| Cassondra Roberts | EST      | Flexible                     |             |
+| Jonathan Kew      | BST      | Absent Tue, flexible Wed/Thu |             |
+| Rob Flack         | EST      | Afternoon                    |             |
+| Chris Harrelson   | CET      | Thursday, a bit on Wednesday |             |
+
+### Regrets
+
+| Name |
+|------|
+
+Jen Simmons — this is scheduled for the same time as Apple's biggest event of the year
+
+Brad Kemper - unable to be there, and time zone make virtual attendance unlikely as well.

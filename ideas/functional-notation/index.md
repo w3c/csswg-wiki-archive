@@ -1,0 +1,178 @@
+---
+title: "Functional Notation Systematization"
+---
+
+# Functional Notation Systematization
+
+## General Principles
+
+1.  Functions group/namespace a set of CSS-like values, and so should abide by general CSS value syntax principles
+    1.  Optionality is handled as for CSS values, as far as possible
+    2.  Ordering should be flexible as much as possible/prudent
+2.  Lists of parallel items are comma-separated
+3.  Lowest operator is comma
+4.  Backwards compat should be preserved unless there's a very good reason otherwise
+
+More explanation:
+
+1.  Functional notation is a way of wrapping a subset of a property's value for labeling or grouping purposes. As such, it should generally follow the same design principles that property values do. As much as possible/prudent of the value should be optional and re-orderable, as long as it doesn't affect parsing (by producing ambiguity, or introducing look-ahead).
+2.  The comma should be used as a separator between parallel values (similar to background-\*) or fallback values (similar to font-family).
+3.  Otherwise, values should be space-separated, as normal for property values. In general, the comma is the lowest-precedence operator in the grammar for a property.
+4.  When a function is overtly math-y, it may make sense to use commas to separate arguments, even if there's no other good reason to use a comma, just because it matches standard usage so well. (We're not quite certain of this - we might want to drop it.)
+5.  In rare cases, keywords may be used to prefix sets of values to allow unambiguous parsing. This should be avoided when possible; often, fixing a particular order for the values or making some of the values required can remove ambiguity. Only when it's very valuable for the values to be optional or reorderable should this be considered.
+
+<http://lists.w3.org/Archives/Public/www-style/2012Jan/0933.html>
+
+## Rounding Functions
+
+Before
+: `roundup(<modulus>)` (automatically applied to width/height only) also `rounddown()` and `round()`
+
+After
+: `roundup(<css-value>, <modulus>)`
+
+Rationale
+: Generalizing the round functions seems useful for calc() and other places.  The order “value then modulus” matches basically every programming language.  However, you need 1-token lookahead if you omit the comma, because the <css-value> could be any number of arbitrary tokens.  Also, the common representation of this in math uses commas.
+
+## Transforms
+
+Before
+: `matrix(<number>, <number>, <number>, <number>, <number>, <number>)`
+
+After
+: `matrix(<number>{2}, <number>{2}, <number>{2})`
+
+Rationale
+: Six comma-separated numbers make it difficult to discern the structure of the matrix: is it 1×6, 2×3, 3×2, or 6×1?  Other languages such as Matlab use different separators for numbers-in-a-row and rows-in-a-matrix (Matlab uses spaces and semicolons).  We should match.  (Our matrices are column-major, but the point stands.)
+
+Extra Note
+: The same reasoning applies, much more strongly, to the 4×4 3d matrix with 16 comma-separated values.
+
+—
+
+Before
+: `translate(<x>, <y>)`
+
+After
+: `translate(<x> <y>)`
+
+Rationale
+: The comma isn't needed for grouping or disambiguation. Other places in CSS that accept an x and y length space-separate, like 'border-spacing' and 'background-position'.
+
+Extra Note
+: The same applies to `scale()`.
+
+## Animations
+
+Before
+: `steps(<number> [, [start | end]]? )`
+
+After
+: `steps(<number> && [start | end]?)`
+
+Rationale
+: The comma isn't needed for grouping or disambiguation.  The ordering constraint can also be relaxed without ambiguity.
+
+—
+
+Before
+: `cubic-bezier(<number>, <number>, <number>, <number>)`
+
+After
+: `cubic-bezier(<number>{2}, <number>{2})`
+
+Rationale
+: Similar to `matrix()`, the value here is two pairs of numbers, not four numbers, and so the grouping should reflect that.  Positions are space-separated in CSS (though this is obviously a restricted form of “position”).
+
+## Color
+
+No change to Color as part of this effort. (We believe that percentages should be usable for opacity, and angles for hue, but those will be pursued as part of Colors 4.)
+
+## Shapes
+
+Before
+: `rectangle(<length>, <length>, <length>, <length> [, [<length>,] <length>])`
+
+After
+: `rectangle(<length>{4} [<'border-corner-shape'> <length>{1,2}]? )`
+
+Rationale
+: SVG makes all commas optional.  It's most common to see viewBox specified with no commas at all.  As well, `rect()` in CSS already allows space separation.  The addition of border-corner-shape allows greater flexibility in the future and serves to make it clearer what the trailing 1 or 2 lengths mean.
+
+Extra Note
+: We recommend shortening the name to `rect()`, and unifying with the 'clip' value.
+
+—
+
+Before
+: `circle(<length>, <length>, <length>)`
+
+After
+: `circle(<length>{3})`
+
+Rationale
+: No need for commas for grouping or disambiguation.  Dropping commas is consistent with `rectangle()`.
+
+—
+
+Before
+: `ellipse(<length>, <length>, <length>, <length>)`
+
+After
+: `ellipse(<length>{4})`
+
+Rationale
+: Same as `circle()`
+
+—
+
+Before
+: `polygon([<fill-rule>,]? [<length>, <length>]# )`
+
+After
+: `polygon([<fill-rule>,]? <length>{2}# )`
+
+Rationale
+: Same as `cubic-bezier()`, but moreso - a list of points should be indicated with different separators between the components and the points, or else a long list becomes unreadable without writing conventions or manual counting.  `<fill-rule>` doesn't need a comma for disambuation, but we left it in due to Principle 3 and to match the gradient functions.
+
+## Fonts
+
+No change suggested to any functions in Fonts - they all accept either a single argument, or a comma-separated list of parallel items.
+
+## GCPM
+
+We **would** recommend removing the commas from `target-text()`, as they're not necessary for disambiguation or grouping, but we think it is more valuable to match the syntax of `target-counter()` (which is constrained by the syntax of `counter()`) for consistency.
+
+## Grid
+
+No change suggested to any functions in Grid. We would suggest removing the comma from `minmax()`, as it's not necessary for disambiguation or grouping, but we feel this is a math-like function and, like `round()`, may be more natural to see with commas.
+
+## Images
+
+No change suggested to any functions in Image Values. (`image()` takes a comma-separated list of parallel arguments, `element()` takes a single argument, and the gradient functions already follow the principles above)
+
+## Template
+
+Same as Grid.
+
+## Lists
+
+No change suggested to Lists. We would suggest removing the commas from `counter()` and `counters()`, but back-compat dictates they stay the same unless there's a good reason to change them. Given that, we don't feel this change is significantly helpful enough to justify itself. (`symbols()` already follows the principles above.)
+
+## Position
+
+We suggest that `rect()` be defined such that space separation MUST be accepted. We believe this matches all major UAs. Also, maybe align with the suggestions for `rectangle()` from Exclusions.
+
+## Values & Units
+
+Before
+
+`attr(<name>[, <type> [, <default>]?]?)`
+
+After
+
+`attr(<name> <type>? [, <default>]?)`
+
+Rationale
+
+The comma between the name and type was not necessary for disambiguation or grouping. Removing it more closely represents the association between the name and the type, and lets the comma operate in its traditional role as a fallback operator (Principle 2). Finally, it lets the author omit type but specify default, which was not possible in the old grammar due to ambiguity.

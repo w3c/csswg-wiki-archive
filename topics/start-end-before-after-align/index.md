@@ -1,0 +1,36 @@
+---
+title: "Alignment Keywords: start/start/end/end vs. 4-directional"
+---
+
+# Alignment Keywords: start/start/end/end vs. 4-directional
+
+**Spec:** css3-flexbox, css3-align | **Owner:** fantasai | **Status:** Closed | **Added:** 2012-05-16 | **Action:** Discuss and resolve. | **Issue:** [http://lists.w3.org/Archives/Public/www-style/2012May/0556.html](http://lists.w3.org/Archives/Public/www-style/2012May/0556.html)
+
+#### RESOLVED
+
+Further discussion revealed that, not only does Flexbox have the problem that its justify/align-\* properties aren't necessarily tied to the logical directions (which makes the start/end/before/after keywords somewhat awkward). So, some favored the start/start/end/end solution better. Even worse, though, the flexbox's direction can be such that the “main-start” of the flexbox (flex-direction-relative) is actually the “logical-end” side of the Flexbox, so using start/end at all can be confusing.
+
+As such, it was resolved to introduce special flex-direction-relative keywords for flexbox. The properties in question now accept flex-start/end as keywords.
+
+The Box Alignment spec will define that flex-start/end map to start/head or end/foot on non-flexboxes, and define start/end/head/foot as properly logical.
+
+#### Background
+
+The alignment properties are divided into two dimensions, one for each flow-relative dimension. In order to have terms for all four sides of a box, the terminology used in each dimension is different: the inline dimension uses start/end, while the stacking dimension uses before/after. (But see open issue on [renaming before/after](../../topics/rename-before-after/ "topics:rename-before-after").) Right now the layout specs proposing new alignment properties use start/end keywords in both dimensions.
+
+Note: Flexbox will be the first spec to go to CR with logical keywords.
+
+#### Problem Statement
+
+Should alignment properties use flow-relative terms, or use start/end in both dimensions?
+
+#### Proposal(s)
+
+The proposal is to have the Box Alignment proposal's '-align' properties, which align in the stacking dimension, to use block-relative directions, not start/end (which are the inline-relative terms).
+
+#### Links to More Info
+
+1.  <http://dev.w3.org/csswg/css3-flexbox/#flex-align>
+2.  <http://www.w3.org/TR/css3-grid-layout/#grid-item-alignment>
+3.  <http://dev.w3.org/csswg/css3-align/#align-outside>
+4.  <http://lists.w3.org/Archives/Public/www-style/2012May/0885.html>

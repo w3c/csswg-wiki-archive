@@ -1,0 +1,187 @@
+---
+title: "Paris F2F 2013"
+---
+
+# Paris F2F 2013
+
+**Dates**: 2013 September 11-13
+
+**Location**: Mozilla Paris, 16bis blvd. Montmartre, Paris 75009, France. Room 123, Salle Des Fêtes
+
+From the metro, use one of the following two stations:
+
+- **Grands Boulevards**: Follow the signs to exit 2 (boulevard Montmartre). After you reach the top of the stairs, continue straight ahead until you reach a large doorway with the number 16<sup>*BIS*</sup> over it, just after the Pret a Manger.
+- **Richelieu-Drouot**: This station does not have numbered exits. Follow the signs for exits (signs with “SORTIE”, with white letters on a blue background) to the exit for “RUE DROUOT”. At the top of these stairs, continue straight ahead and immediately cross Rue Drouot (the smaller of the two streets at the intersection), and continue straight ahead until you find a large doorway with the number 16<sup>*BIS*</sup> over it, just before the Pret a Manger.
+
+From Gare du Nord, you could take the metro (see above; it requires a change of train), or you could walk (it's about 20-25 minutes), for which you should have a map.
+
+Once you're at this large door, you'll need to go through `three` doors to enter the Mozilla space:
+
+- First, the large door to the street with the number 16<sup>*BIS*</sup> over it. It has a keypad to the right of it. On this keypad you can use the arrows to select “MOZILLA” and then press the button with a bell symbol to call to be let in. Once you are let in, you need to push on the `left` half of the door. Push on the bar rather than the doorway, since there is a smaller door (hard to see) that does not take up the full doorway. (Note that both halves of the door have a bar to push on, but you need to push on the bar on the left half.) This door is **quite heavy**, and you will have to push **hard**.
+- Second, you need to cross a metal gate just inside this doorway. Follow exactly the same procedure on the freestanding keypad before the gate. Then pull on the right half of the gate to enter.
+- Then, walk forward about 10 meters, and on your right you will see a doorway with the word “Mozilla” on the glass. This door has a simple doorbell button on it you can use to be let in. On this door, pull on the left half of the door (which is the only half with a handle).
+
+Then walk up the stairs into the Mozilla space. Turn right past the reception desk, and you will reach the Salle Des Fêtes.
+
+**Food**: We will have catering for both breakfast and lunch.
+
+**Group Dinner**: Wednesday, 19h30, [Les Athlètes](https://plus.google.com/105664254861136730001/about) ([menu](http://www.lesathlètes.com/menu/menu.pdf))
+
+## Meeting Minutes
+
+**Monday, 11 September**:
+
+- [Part I](http://lists.w3.org/Archives/Public/www-style/2013Sep/0468.html), Grid Layout
+- [Part II](http://lists.w3.org/Archives/Public/www-style/2013Sep/0469.html), Style Attrs, Spec Tools, CSSOM
+- [Part III](http://lists.w3.org/Archives/Public/www-style/2013Sep/0470.html), Transitioning Image Values
+- [Part IV](http://lists.w3.org/Archives/Public/www-style/2013Sep/0471.html), Multicol
+- [Part V](http://lists.w3.org/Archives/Public/www-style/2013Sep/0472.html), Shapes, Regions, Transforms
+
+**Tuesday, 12 September**
+
+- [Part I](http://lists.w3.org/Archives/Public/www-style/2013Sep/0874.html), Font Load Events, TPAC and F2F Schedule
+- [Part II](http://lists.w3.org/Archives/Public/www-style/2013Sep/0875.html), Masking, Naming of DOMPoint, Quad, and Matrix, Sticky Position, Text-Combine Naming
+- [Part III](http://lists.w3.org/Archives/Public/www-style/2013Sep/0876.html), GCPM
+- [Part IV](http://lists.w3.org/Archives/Public/www-style/2013Sep/0878.html), Writing Modes, Issue 2 in Compositing Spec
+
+**Wednesday, 13 September**
+
+- [Part I](http://lists.w3.org/Archives/Public/www-style/2013Sep/0884.html), CSS Masking, Display Tree or DOM, Flexbox
+- [Part II](http://lists.w3.org/Archives/Public/www-style/2013Sep/0885.html), Color Module
+- [Part III](http://lists.w3.org/Archives/Public/www-style/2013Sep/0886.html), Charter
+- [Part IV](http://lists.w3.org/Archives/Public/www-style/2013Oct/0000.html), Ruby
+- [Part V](http://lists.w3.org/Archives/Public/www-style/2013Oct/0001.html), Text, Writing Modes, Animations
+
+## Adjacent Events
+
+before:
+
+- 2013-09-06 [dConstruct](http://2013.dconstruct.org), Brighton, UK.
+- 2013-09-07…08 [IndieWebCampUK](http://indiewebcamp.com/2013/UK), Brighton, UK.
+- 2013-09-10 [Responsive Images meetup](http://lists.w3.org/Archives/Public/public-html/2013Jul/0055.html), Paris.
+
+after:
+
+- 2013-09-16…17 [W3C Publishing Workshop](http://www.w3.org/2012/12/global-publisher/), Paris.
+- 2013-09-17…18 [W3C AB](https://www.w3.org/Member/Board/), Cambridge, MA, USA
+
+## Participants
+
+Sorted by family name:
+
+| Name | Representing | Arrive | Leave | Hotel | Flight Info | Notes | Wine-Testing |
+|----|----|----|----|----|----|----|----|
+| Adams, Glenn | CoxCom | 2013-09-10 | 2013-09-14 | Hotel Aston | FI542/541 |  | yes |
+| Atanassov, Rossen | Microsoft | 2013-09-09 | 2013-09-14 | airbnb apt | DL615 | Going to Images | yes |
+| Atkins, Tab | Google | 2013-09-10 | 2013-09-14 | ? | In=LX39/LX656 Out=LX633/LX38 |  | Yes |
+| Balan, Mihai | Adobe | 2013-09-10 | 2013-09-14 | Vendome Saint Germain | AF1889 / AF1588 |  |  |
+| Baron, L. David | Mozilla | 2013-09-08 | 2013-09-14 | ? | Eurostar/UA991 |  |  |
+| Bos, Bert | W3C | 2013-09-10 | 2013-09-18 | at a friend's | TGV | also workshop | yes |
+| Çelik, Tantek | Mozilla | 2013-09-10 | 2013-09-13 | airbnb apt | Eurostar 2013-09-10 18:47 / Eurostar 2013-09-13 17:43 |  |  |
+| fantasai | Mozilla | 2013-09-10 11:10 | 2013-09-17 16:10 | Mozilla apt | AF83/AF80 | no |  |
+| Galineau, Sylvain | Adobe | 09/09/2013 | ? | ? | ? |  |  |
+| Glazman, Daniel | Disruptive Innovations | N/A | N/A | home | N/A |  | yes |
+| Hilerio, Israel | Microsoft | 2013-09-09 | 2013-09-14 | ? | ? | Going to Images/Workshop |  |
+| Ishii, Koji | Rakuten | 2013-09-10 | 2013-09-14 | AF275 | AF276 | Faubourg |  |
+| Kazutaka, Yamamoto | NTT | 2013-09-10 | 2013-09-18 | LE MERIDIEN | LH1028／NH0206 | Also going to Workshop | yes |
+| Kilpatrick, Ian | Google | ? | ? | ? | ? | Observer |  |
+| Lie, Håkon Wium | Opera | ? | ? | ? | ? |  |  |
+| Lilley, Chris | W3C | 2013-09-10 | 2013-09-14 | Hôtel Vivienne | TGV |  | yes |
+| Linss, Peter | HP | 2013-09-09 | 2013-09-18 | Pullman Paris Montparnasse | UA 987 / UA 55 | Also going to workshop |  |
+| O'Connor, Edward | Apple | 2013-09-08 | 2013-09-21 | Hôtel Les Jardins du Marais | UA990/UA991 | Also images/workshop |  |
+| Pieters, Simon | Opera | 2013-09-09 | 2013-09-13 | TRYP Paris Francois | ? | Also going to images |  |
+| Quin, Liam | W3C | 2013-09-10 | 2013-09-17 | ? | ? | Also going to Workshop |  |
+| concolato, Cyril | Observer | ? | ? | ? | Observer |  |  |
+| Rivoal, Florian | Invited Expert | ? | ? | ? | ? | Only attending on Friday |  |
+| Sapin, Simon | Mozilla | 2013-09-10 | 2013-09-14 | ? | ? |  | yes |
+| Schulze, Dirk | Adobe | ? | ? | ? | ? |  |  |
+| Stearns, Alan | Adobe | 2013-09-09 | 2013-09-18 | 3rd Ar. BnB | Delta 615/614 | Also going to Images/Workshop | yes |
+| Stephens, Shane | Google | 2013-09-10 | 2013-09-14 | Concorde Opera Paris Hotel | MH20 |  | If I'm in town |
+| Storset, Leif Arne | Opera | 2013-09-10 | 2013-09-14 | ? | DY1496 / DY1491 |  | yes |
+| Taichi, Kawabata | NTT | 2013-09-10 | 2013-09-18 | Meridienne | JL041/JL414 | Also going to Workshop | yes |
+| Verou, Lea | Invited Expert | 2013-09-09 10:15 | 2013-09-13 | ? | LX634 | Will miss Friday | If I’m in town |
+| Villegas, Jet | Mozilla | ? | ? | ? | ? |  |  |
+| Zilles, Steve | Adobe | 9/10/2013 | 9/16/2013 | ? | ? |  |  |
+
+Regrets: John Daggett, Anton Prowse
+
+## Agenda
+
+### Wed
+
+#### AM
+
+- Grid Layout: Resolve remaining recent changes, work on open issues.
+- Style Attributes: Implementation Report? Move to PR?
+- Spec preprocessor Bert's scripts, Tab's thingy, status and plan
+- CSSStyleDeclaration: Setting only a value or a priority <http://lists.w3.org/Archives/Public/www-style/2013Aug/0431.html>
+
+#### PM
+
+- CSS Images: Animation of generated images (gradients, repeating gradients, cross-fade, filter)
+- CSS Multi-column Layout: assess test suite, resolve last remaining issues – move to PR?
+- CSS Shapes: New WD (last WD before LC?)
+- Introduce Mihai as Regions test suite owner
+
+### Thu
+
+#### AM
+
+- CSS Font Load Events (Wed AM) briefly discuss new Promises-based proposal from Tab
+- F2F Planning (Thurs AM) Sunday at TPAC, 2014 dates/places
+  - Joint day with SVG?
+- CSS Masking: resolve shorthand syntax
+- DOMPoint, Quad, CSSMatrix common naming and scope (www-style)
+- Sticky positioning
+
+#### PM
+
+- CSS Generated Content for Paged Media: publish WD
+- CSS3 Writing Modes (Thurs, late PM) issues, UTR50 status, publish WD?
+- Compositing & Blending: Resolve issue 2, or why background-blend-mode is more author-friendly than creating n elements and positioning them in the background.
+
+### Fri
+
+#### AM
+
+- Any interest in working out selection/editing based on display tree rather than DOM?
+- Flexbox: Remaining issues, LC
+- Tab's color module
+- Charter renewal
+  - Milestones
+  - Liaison with DPub IG (TF? joint calls? other?)
+
+#### PM
+
+- Charter cont'd
+- CSS Ruby (Thurs, late PM) Review new draft, WD
+- CSS3 Text (Thurs, late PM) text-align-last, how to resolve letter-spacing issues?
+- Counter Styles: DoC, CR?
+- Transforms & Animations, if edits are completed, any next steps
+
+## Proposed Agenda Items
+
+- Charter renewal
+  - Milestones
+  - Liaison with DPub IG (TF? joint calls? other?)
+- **CSS Masking**: resolve shorthand syntax
+- **CSS Multi-column Layout**: assess test suite, resolve last remaining issues – move to PR?
+- **CSS Generated Content for Paged Media**: publish WD
+- **CSS Images**: Animation of generated images (gradients, repeating gradients, cross-fade, filter)
+- DOMPoint, Quad, CSSMatrix common naming and scope ([www-style](http://lists.w3.org/Archives/Public/www-style/2013Aug/0605.html))
+- CSSStyleDeclaration: Setting only a value or a priority <http://lists.w3.org/Archives/Public/www-style/2013Aug/0431.html>
+- **Transforms & Animations**, if edits are completed, any next steps
+- **CSS3 Text** (Thurs, late PM) text-align-last, how to resolve letter-spacing issues?
+- **CSS3 Writing Modes** (Thurs, late PM) issues, UTR50 status, publish WD?
+- **Counter Styles**: DoC, CR?
+- **Style Attributes**: Implementation Report? Move to PR?
+- **Flexbox**: Remaining issues, LC
+- **Grid Layout**: Resolve remaining recent changes, work on open issues.
+- **CSS Ruby** (Thurs, late PM) Review new draft, WD
+- **Compositing & Blending**: Resolve issue 2, or why background-blend-mode is more author-friendly than creating n elements and positioning them in the background.
+- **CSS Shapes**: New WD (last WD before LC?)
+- Any interest in working out selection/editing based on display tree rather than DOM?
+- **CSS Font Load Events** (Wed AM) briefly discuss new Promises-based proposal from Tab
+- **F2F Planning** (Thurs AM) Sunday at TPAC, 2014 dates/places
+- **Spec preprocessor** Bert's scripts, Tab's thingy, status and plan
+- sticky positioning

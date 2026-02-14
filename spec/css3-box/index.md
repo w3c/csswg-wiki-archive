@@ -1,0 +1,196 @@
+---
+title: "CSS Box Module Level 3"
+---
+
+# CSS Box Module Level 3
+
+The goals of the CSS3 Box spec are to rewrite the CSS2.1 box model such that it is:
+
+- more understandable (better organization and clearer prose)
+- more precise (defines vague or missing concepts from CSS2.1, defines undefined concepts from CSS2.1)
+- generalized to handle vertical text (See CSS Writing Modes module)
+
+This page is to track specifically the remaining work on the CSS Box module. Please post issues to [www-style](http://lists.w3.org/Archives/Public/www-style/) first for discussion, then add a summary and a link to the discussion and/or any key messages below.
+
+# General Problems to Solve
+
+This section is for describing general problems that the CSS Box module must solve, e.g. concepts that need defining or refining, or spec areas that should be rewritten to improve clarity.
+
+## Property transfer from elements to boxes
+
+CSS21 is clear that properties belong to elements, not boxes, but they cause boxes to be have in certain ways.
+
+In reality, though, everyone talks about properties on boxes, and so the css3-box spec currently says that “we refer interchangeably to “the P property of an element” and “the P property of a box” (both of which actually mean “the value of property P of…”), unless it is important to distinguish the box and the element, e.g., because the element has several boxes and they don't all have the same value for the property”. Unfortunately this doesn't really work, though, because it's necessary (or at least very desirable, editorially) to be able to be able to identify boxes by their properties, and that's not possible unless there's a clearly defined way of transferring properties from an element to its boxes in the case that an element generates multiple boxes.
+
+A better approach is to formalize the use of properties on boxes. Current thinking:
+
+- Every property which can be set on an element also exists for the box. Need to exclude the 'display' property though, since it doesn't make sense to talk about a box with display:table (the wrapper box is actually a block or inline-block box, and the table box is block-level with some undefined internal display type); also, flex items are flex-level but the display value of elements which generate them is 'block', so there's no good display value to associate to the box.
+- Just as for elements, some or all of any given property's values might have no effect on a given box.
+- The concept of specified value doesn't make sense for boxes. But there are computed, used and actual values just as for elements.
+- For each inheritable property that is set on a box, the computed, used or actual value is the same as that for the element to which the box belongs. That is, elements transfer values of their inheritable properties to the boxes which they generate. (Unless otherwise specified? Will there ever be a situation in which an inheritable property on an element which generates multiple boxes gets transferred unequally to those boxes? I can't imagine one right now.)
+- For non-inheritable properties, except when otherwise specified:
+  - for principal boxes, the same is true; property values come straight from the element
+  - for non-principal boxes, the initial value is used as the computed, used and actual value. (This assumes that a property's initial value is always a valid used and actual value, and that it doesn't get transformed when moving from computed to used or from used to actual… which I /think/ is true but is not actually specified anywhere.)
+
+NOTE: check out css3-page where properties are assigned from page context and margin context to boxes; need to align
+
+NOTE: how does this work for box fragments?
+
+## Containing blocks
+
+We have seen frequent cases of spec authors using incorrect terminology or awkward constructions when referring to containing blocks, due to the lack of clarity and suitable hooks in CSS21:
+
+- “each element that is a containing block for the given element”
+
+Problem: a containing block is a rectangle, not an element or box\
+Problem: a containing block is associated to a box, not to an element\
+Problem: a containing block is established by a box, not by an element
+
+- “Some values of these properties result in the creation of a containing block”
+- “Note that such an element is always a containing block.”
+
+Problem: not every rectangle that could *potentially* be a containing block for some box is actually a containing block for an actual box in the formatting structure
+
+- “The containing block of an element with 'position: absolute' is determined as specified in CSS 2.1, except that an ancestor element with 'transform' other than 'none' is treated the same as one with a 'position' of 'absolute', 'fixed', or 'relative'.”
+
+Problem: difficulty in inserting new rules to modify how the containing block of a box with particular properties is determined
+
+- “Flex containers form a containing block for their contents exactly like block containers do”
+- “Column boxes act as the containing block for their content. That is, column boxes behave like block-level, table cell, and inline-block boxes as per CSS 2.1, section 10.1, item 2 \[CSS21\]. However, column boxes do not establish containing blocks for elements with ‘position: fixed’ or ‘position: absolute’.”
+
+Problem: difficulty in restricting attention to only those boxes for whom the container will establish the containing block\
+Problem: difficulty in removing boxes from the set of potential containing block–establishing boxes for a given kind of box.
+
+Note: need to incorporate extensions specified in the positioning spec
+
+## Anonymous boxes
+
+What, really, is an anonymous box? There currently seem to be two rather different interpretations:
+
+- a “fix-up” box, ie a box inserted into the formatting structure in order to ensure that content which participates in a given formatting context is grouped in such a way that it obeys the requirements of that formatting context
+- a box that cannot be addressed with CSS selectors
+
+#### Potential candidates for "anonymous" status
+
+- obvious fix-up boxes:
+  - block boxes and inline boxes generated to ensure that block container boxes contain no “loose” content
+  - boxes generated to ensure a sensible table structure in a table formatting context
+  - flex-item boxes generated to group “loose” text in a flex formatting context
+  - grid-item boxes generated to group “loose” text in a grid formatting context
+- boxes which are necessarily generated for an element (depending on its property values) irrespective of its content:
+  - marker box of a list item
+  - table wrapper box / table box of a table element
+  - column box(es) of a multicol element
+  - ruby boxes (?)
+- other:
+  - region flow content box
+
+#### Relevant quotes
+
+From CSS21:
+
+- “since anonymous boxes are not part of the document tree, they are not counted when calculating the first child.” (:first-child pseudo-class)
+- “inheritance follows the document tree and is not intercepted by anonymous boxes”
+- “The properties of anonymous boxes are inherited from the enclosing non-anonymous box. Non-inherited properties have their initial value.”
+- “Anonymous block boxes are ignored when resolving percentage values that would refer to it: the closest non-anonymous ancestor box is used instead. For example, if the child of the anonymous block box inside the DIV above needs to know the height of its containing block to resolve a percentage height, then it will use the height of the containing block formed by the DIV, not of the anonymous block box.”
+- “The latter are called anonymous inline boxes, because they do not have an associated inline-level element”
+- “anonymous inline boxes inherit inheritable properties from their block parent box. Non-inherited properties have their initial value.”
+
+From css3-images:
+
+- “Objects inserted via the CSS2.1 ‘content’ property are anonymous replaced elements, and are sized the same way. \[CSS21\] Note that such anonymous elements have all their non-inherited properties (including ‘width’, ‘height’, etc.) set to their initial values.”
+
+#### Observations
+
+- The inheritance mechanism works on document tree elements, not psuedo-elements or boxes, and hence the fact that it ignores certain boxes is obvious, and doesn't even need to be stated in CSS21. This fact is a red herring when it comes to defining anonymous boxes.
+- That an anonymous box can't be selected (eg by pseudo-elements) seems to be a design pattern rather than part of the definition of anonymous box…
+- …and even if a box can't be selected right now, it may well become possible to select it in future using a pseudo-element.
+
+#### Current thinking
+
+Technically, I think it's unnecessary to identify “anonymous boxes” on the basis of how properties are distributed. Properties are set on elements, and elements generate boxes based on its properties and on the formatting context in which its contents participate. How an element imparts its properties to the boxes that it generates is the business of that element, and I don't see that we need a special term to describe a box whose property values all arise in some particular way. For example, I see no difference between the way that a table element distributes its property values between the wrapper box and the table box and the way that a block element distributes its properties to a so-called anonymous box; inheritable properties are inherited down the box tree (although CSS doesn't state that explicitly anywhere) and non-inheritable properties get their values from somewhere as defined by the element “type”.
+
+If the definition of principal box is modified so that an inline element generates a principal box (possibly fragmented across multiple line boxes), then perhaps we can define an anonymous box to be any box which is not a principal box. In that case, “derived box” might be a better term since such a box might not be anonymous in the sense that there may well exist a selector which can directly address some properties of that box (eg table element selector which addresses the table box, list item selector which addresses the marker box or even a ::marker pseudo-element).
+
+Editorially, it's be helpful to have a name for “fix-up boxes” introduced into the formatting structure in order to ensure that the rules of each formatting context are met. Perhaps the term “anonymous box” could be used for this purpose? Need to define fix-up box: perhaps say that it's a box which cannot be distinguished by its property values and characteristics from a box generated by some hypothetical document element. Implications: column boxes and probably certain ruby boxes would \*not\* be anonymous, since no hypothetical document element could create them. A misparented table cell can result in the creation of an anonymous/fix-up table wrapper box, but is it reasonable to call the table box anonymous? Is the table box a fix-up, really, or is the wrapper box the fix up and the table box the natural consequence of the wrapper box?
+
+My preferred approach is currently to equate anonymous boxes with “fix-up boxes” as just described.
+
+## Flow roots, flows and formatting contexts
+
+CSS has “normal flow”, “in-flow” and “out of flow”, but never really explains what the/a normal flow is. It's reasonably clear about what a flow is though.
+
+#### Relevant quotes for flow
+
+From CSS21:
+
+- “normal flow includes block formatting of block-level boxes, inline formatting of inline-level boxes”
+- “An element is called out of flow if it is floated, absolutely positioned, or is the root element. An element is called in-flow if it is not out-of-flow.”
+- “The flow of an element A is the set consisting of A and all in-flow elements whose nearest out-of-flow ancestor is A.” …hence the flow of an in-flow element is the singleton consisting of itself… which seems nonsensical; presumably this sentence is assuming that A is an out-of-flow element.
+- “Boxes in the normal flow belong to a formatting context, which in CSS 2.1 may be table, block or inline. In future levels of CSS, other types of formatting context will be introduced. Block-level boxes participate in a block formatting context. Inline-level boxes participate in an inline formatting context.” (wording taken from errata)
+- “The baseline of an 'inline-block' is the baseline of its last line box in the normal flow, unless it has either no in-flow line boxes or \[…\]”
+- “User Agents must apply these properties to block-level elements in the normal flow of the root element” ('page-break-\*')
+
+From css3-break:
+
+- “User Agents must apply these \['break-\*'\] properties to boxes in the normal flow of the fragmentation root. User agents should also apply these properties to floated boxes whose containing block is in the normal flow of the root fragmented element.”
+
+Fros css3-regions:
+
+- “A named flow is the ordered sequence of elements associated with a flow with a given identifier. Elements in a named flow are ordered according to the document order.”
+- Any element, 'flow-into:\<ident\>': “The element is taken out of its parent's flow and placed into the flow with the name ‘\<ident\>’. The element is said to have a specified flow.”
+- “If an element has the same specified flow as one of its ancestors, it becomes a sibling of its ancestor for the purpose of layout in the region chain laying out content from that flow.”
+- 
+
+\[Note: css3-page 9.4 (Allowed page breaks) says: “In the normal flow, page breaks may occur at the following places”. What does this mean? Does this indicate that a nested flow root may be fragmented if its its in-flow content has page break opportunities as specified? Or is it trying to say that page break opportunities only exist in the outermost flow (whatever that actually is)?\]
+
+\[Note: according to CSS21 9.3, the root element is out of flow. Is this correct? Surely it participates in the block formatting context established by the initial containing block.\]
+
+#### Relevant quotes for formatting contexts
+
+From flexbox:
+
+- “A flex container establishes a new flex formatting context for its contents. This is the same as establishing a block formatting context, except that flex layout is used instead of block layout: floats do not intrude into the flex container, and the flex container's margins do not collapse with the margins of its contents.”
+
+From multicol:
+
+- “A multi-column element establishes a new block formatting context, as per CSS 2.1 section 9.4.1. Example: A top margin set on the first child element of a multicol element will not collapse with the margins of the multicol element.”
+- The 'all' value of 'column-span': “The element spans across all columns of the nearest multicol ancestor in the same block formatting context. \[…\] The element establishes a new block formatting context.”
+
+From exclusions:
+
+- “An exclusion element \[block-level element which is not a float and generates an exclusion box (ie ‘wrap-flow’ property's computed value is not ‘auto’)\] establishes a new block formatting context”
+
+From writing-modes:
+
+- “If an element has a different block flow direction than its containing block \[…, and\] the element is a block container, then it establishes a new block formatting context.”
+
+From regions:
+
+- “CSS Regions establish a new block formatting Context.”
+
+#### Current thinking
+
+Formatting contexts are established by (possibly anonymous) boxes which may or may not be flow roots, whilst a flow root necessarily establishes a formatting context of some kind, depending on the box's properties.
+
+A flow root is roughly a box whose normal flow is rendered in a location that's out-of-sync with the normal flow content that surrounds the flow root's box in the box tree. I'm not yet clear whether its even necessary to care about the concept of flow root. The more obviously important concept is that of formatting context.
+
+- Regions, floats and abspos boxes are flow roots.
+- Neither column boxes, page boxes nor align boxes are inherently flow roots, but they do establish new formatting contexts.
+- (The “align box” type exists merely to artifically establish a new block formatting context. Its name desperately needs changing.)
+- Boxes whose used value of ‘overflow’ is not ‘visible’, table wrapper boxes, table cells, inline blocks, transform boxes and boxes whose directionality is orthogonal to their parent are *probably* not flow roots, but they do establish new formatting contexts.
+- A ‘child-align’ box is neither a flow root nor inherently establishes a new formatting context.
+
+Column boxes establish column formatting contexts which are currently identical in behaviour to block formatting contexts. (In future, column formatting contexts might allow the overflow of a float from a previous column to affect the block formatting of the column in which the overflow sits. Perhaps 'clear' will react to that float overflow too.)
+
+Recall that the scope of float behaviour and clearance behaviour is restricted to the block formatting context in which the float and clearing element participates.
+
+Interesting note: no flow root can ever establish an inline formatting context, because inline formatting contexts can only exist inside of another non-inline formatting context. This is because inline formatting contexts may contain floats, and how those floats behave depends on the outer formatting context. If the outer formatting context is a BFC then the float floats, though it's not clear where its box belongs in the box tree. If the outer formatting context is something else (and no examples exist of this yet in CSS) then whether and how the float floats is up to that formatting context.
+
+Random note: block formatting contexts are not concerned merely with the formatting of block-level elements. They're also concerned with the formatting of floats and of list marker boxes. Of course, if such things are defined to be block-level then semantically there's no issue… but the description of block-level formatting needs to make reference to these things, even if it leaves the details to other specs.
+
+Random note: each formatting context needs to explain how to resolve the battle between a child's intrinsic size and extrinsic size.
+
+# Spec Issues
+
+This section is for listing errors in the spec and mismatches against CSS2.1.

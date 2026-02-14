@@ -1,0 +1,56 @@
+---
+title: "Mountain View F2F March 2011"
+---
+
+# Mountain View F2F March 2011
+
+- 2011 March 7-9
+- Mountain View, CA, USA
+- Organizer: Mozilla (David Baron)
+
+## Meeting Minutes
+
+- [Monday, 7 March](http://lists.w3.org/Archives/Public/www-style/2011Mar/0258.html) - CSS2.1 Issues & Test Failures
+- [Tuesday, 8 March](http://lists.w3.org/Archives/Public/www-style/2011Mar/0272.html) - Adobe's Regions Proposal, Grid Layout Proposal, Flexbox, CSS Multicol, Testing, Tokyo Workshop, Line Grid, Compositing, CSS2.1 Issues
+- [Wednesday, 9 March](http://lists.w3.org/Archives/Public/www-style/2011Mar/0306.html) - CSS2.1, Charter
+
+## Proposed topics
+
+Topics for the [March 2011 CSS Working Group Face-to-Face](http://www.w3.org/Style/Group/2011/MountainView) meeting in Mountain View, California.
+
+### Monday
+
+- **9:15am-5:30pm** CSS 2.1 [Remaining Issues](http://wiki.csswg.org/spec/css2.1)
+- **5:30pm-6pm** CSS 2.1 Remaining Blocked Tests
+
+### Tuesday
+
+**Morning**
+
+- **9:15am-10:30am** Adobe's CSS Regions Proposal – Arno Gourdol, Adobe
+- **10:30am-noon** CSS3 Grid Alignment – Phil Cupp, Microsoft
+
+**Afternoon**
+
+- **1:10pm** Request for resolution to move Grid Spec from Editor Draft to Working draft
+- **1:15pm-2:00pm** Flexbox – Tab
+- **2:00pm-2:45pm** \[css3-multicol\] Resolve pseudo-algorithm and test suite startup (20min) - Håkon
+- **3:00pm-3:40pm** [Tokyo forum or workshop topics and dates](../../planning/tokyo-workshop-2011/ "planning:tokyo-workshop-2011") - Jay
+- **3:40pm-4:00pm** CSS3 Line Grid (if time allows)
+- **4:!5pm-6:15pm** CSS2.1 Issues
+
+### Wednesday
+
+- **9:00am-11:00am** \[css3-fonts\] font-specific feature definition - jdaggett
+- **11:15am-12:10pm** \[css3-fonts\] revisions to the font matching algorithm - jdaggett
+- **12:10pm-12:20pm** \[css3-fonts\] WOFF and same origin restriction - jdaggett
+- **1:00pm-2:00pm** Q&A with Mozilla
+- **2:00pm-3:00pm** 2.1 last issues - assign responses, discuss next steps
+- **3:00pm-3:10pm** Charter extension (current charter expires 3/31)
+- **3:10-6:30pm** CSS3 Text - fantasai
+- CSS3 Module Template <http://dev.w3.org/csswg/css-module/>
+- EPUB requirements (chairs should restrict to 1/2 hr or 1hr)
+
+## Notes
+
+- …

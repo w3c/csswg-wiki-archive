@@ -1,0 +1,402 @@
+---
+title: "Fragments, Columns, Regions, Pages"
+---
+
+# Fragments, Columns, Regions, Pages
+
+*Background/overview Notes and examples in support of discussion on Regions and paged view*
+
+See [Paged View](../../spec/page-view/ "spec:page-view") for use cases and proposals
+
+## Layout Engine with Fragmentation Support
+
+Implementations of regions, columns and paginations will vary but in most general situation it is reasonable to assume that there is a layout engine that takes formatted content in DOM as input and fills one or more container with that content:
+
+\<html\>
+
+\<div class=“figure” style=“border:thin solid silver; width:35em; margin:auto; padding:1em;”\>
+
+``` code
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+```
+
+``` code
+  <div style="margin:1em"></div>
+  
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+```
+
+``` code
+  <div style="margin:0.5em"></div>
+    
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+  </div>
+```
+
+\</div\> \</html\>
+
+That's what all layout engines do, the most common cases being
+
+- Layout for screen
+
+\<html\> \<div class=“figure” style=“border:thin solid silver; width:35em; margin:auto; padding:1em; font-size:66%; -float:right; clear:right;”\>
+
+``` code
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+```
+
+``` code
+  <div style="margin:1em"></div>
+    
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+```
+
+``` code
+  <div style="margin:0.5em"></div>
+    
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:block;margin:0.5em;border:1px dashed black;padding:0.5em; border-bottom-style:none;height:3em;">
+      </div>
+  </div>
+```
+
+\</div\> \</html\>
+
+(there is only one container, usually with auto height) and
+
+- printing
+
+\<html\> \<div class=“figure” style=“border:thin solid silver; width:35em; margin:auto; padding:1em; font-size:66%; -float:right; clear:right;”\>
+
+``` code
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+```
+
+``` code
+  <div style="margin:1em"></div>
+    
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+```
+
+``` code
+  <div style="margin:0.5em"></div>
+    
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+  </div>
+```
+
+\</div\> \</html\>
+
+(a sequence of containers, usually all of the same size)
+
+This doesn't yet show what layout engine do, it just shows some possible situations. It could be noted that if containers exist before layout engine has done any work, we must be assuming that containers are exernal to layout engine. That is not necessarily so, we are just trying to keep these general illustrations simple.
+
+## Fragmentation
+
+When layout engine actually does its work, it outputs pieces of content that are laid out to fit into given containers. For the purposes of describing the layout process, let's call filling multiple containers with content “fragmentation”. Then the containers can be called “space fragments” and visual representation of portions of content will be “fragment boxes”.
+
+*Note: This is not an attempt to introduce formal definitions or terminology for fragmentation (fragmentation will have a [dedicated module](../../spec/css4-page/ "spec:css4-page")). The purpose of this summary is to visualize possible relationships between content, conainers and layout results, which, hopefully, will be useful for evaluation of proposed solution in this space. Feel free to correct any trems or concepts if they look inconsistent with formal definitions elsewhere*
+
+\<html\> \<div class=“figure” style=“border:thin solid silver; width:35em; margin:auto; padding:1em;”\>
+
+``` code
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+    
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+  
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+    
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+  
+  <div class="legend" style="font-style:italic">Fragment boxes</div>
+  <div style="text-align:center">
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      Lorem
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      ipsum
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      dolor
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      sit
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      amet
+      </div>
+  </div>
+  
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em; ">
+      </div>
+  </div>
+```
+
+\</div\>
+
+\</html\>
+
+Note that as layout engine fills containers with content, there may be content than there is space in containers:
+
+\<html\> \<div class=“figure” style=“border:thin solid silver; width:35em; font-size:66%; margin:auto; padding:1em;”\>
+
+``` code
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+    
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+  
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+    
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+  
+  <div class="legend" style="font-style:italic">Fragment boxes</div>
+  <div style="text-align:center">
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      Lorem
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      ipsum
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      dolor
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      sit
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:#ff8888;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      amet
+      </div>
+  </div>
+  
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em; visibility:hidden;">
+      </div>
+  </div>
+```
+
+\</div\> \</html\>
+
+… and there may be more space than content:
+
+\<html\> \<div class=“figure” style=“border:thin solid silver; width:35em; font-size:66%; margin:auto; padding:1em;”\>
+
+``` code
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+    
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+  
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+    
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+  
+  <div class="legend" style="font-style:italic">Fragment boxes</div>
+  <div style="text-align:center">
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      Lorem
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      ipsum
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      dolor
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      sit
+      </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em; visibility:hidden;">
+      amet
+      </div>
+  </div>
+  
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed red;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+  </div>
+```
+
+\</div\>
+
+\</html\>
+
+Which gets us to the questions of “where do the containers come from?” and “how to get more?”
+
+## Containers
+
+Considering that a target container for fragmentation is a rectangle or shape with size and possibly position, there are many ways to create and manage theem.
+
+Some existing or anticipated ways to provide containers for fragmentation are
+
+- Columns
+  - As defined in css3-multicol ([CR](http://www.w3.org/TR/css3-multicol/))
+  - With column selectors ([ED](http://dev.w3.org/csswg/css3-gcpm/#regions))
+- Pages
+  - Printing or print preview (built-in in browsers)
+  - Automatic page view ([ED](http://dev.w3.org/csswg/css3-gcpm/#paged-presentations))
+  - Regions+script page view ([ED](http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions), [WD](http://www.w3.org/TR/css3-regions/#cssom_view_and_css_regions))
+  - Page templates ([EPub proposal](http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml))
+- Regions
+  - Static ([ED](http://dev.w3.org/csswg/css3-regions/), [WD](http://www.w3.org/TR/css3-regions/))
+  - Scripted ([ED](http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions), [WD](http://www.w3.org/TR/css3-regions/#cssom_view_and_css_regions))
+  - Generated (discussion: ?)
+
+Let's compare the different kinds of fragmenting containers, specifically looking at who is in control and how they are manated dynamically:
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Container type</th>
+<th>how created</th>
+<th>dynamic ?</th>
+<th>details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Columns - CSS3</strong></td>
+<td>“columns:N”<br />
+multicol properties</td>
+<td>partially</td>
+<td>new columns are added in overfrlow</td>
+</tr>
+<tr>
+<td><strong>Columns - new</strong></td>
+<td>automatic</td>
+<td>dynamic</td>
+<td>control size &amp; position sith column selectors:<br />
+article::column(2) {…}</td>
+</tr>
+<tr>
+<td><strong>Pages - print</strong></td>
+<td>printing app or layout engine in print mode; hardcoded</td>
+<td>dynamic</td>
+<td>follows paged media <abbr title="specification">spec</abbr>; no reading UI defined beyond print preview</td>
+</tr>
+<tr>
+<td><strong>Pages - auto paged view</strong></td>
+<td>“overflow:paged”</td>
+<td>dynamic</td>
+<td>by default all “pages” are same size; can be customized with page selectors (like columns); default UI</td>
+</tr>
+<tr>
+<td><strong>Pages - regions+script</strong></td>
+<td>from script</td>
+<td>script</td>
+<td>all custom, no declarative page generation, no default UI, all in script</td>
+</tr>
+<tr>
+<td><strong>Pages - page templates</strong></td>
+<td>automatic</td>
+<td>dynamic</td>
+<td>a set of templates and template selection rules; multiple flows can be supported; no default UI; can be combined with any other generated containers</td>
+</tr>
+<tr>
+<td><strong>Regions - static</strong></td>
+<td>“flow-from:&lt;flowname&gt;”</td>
+<td>static</td>
+<td>current specs don't define declarative ways to generate regions</td>
+</tr>
+<tr>
+<td><strong>Regions - scripted</strong></td>
+<td>regionOverflow, regionLayoutUpdate</td>
+<td>script</td>
+<td>regions <abbr title="specification">spec</abbr> adds minimal <abbr title="Application Programming Interface">API</abbr> for layout results and timing</td>
+</tr>
+</tbody>
+</table>
+
+## Using fragmentation
+
+See [Paged View](../../spec/page-view/ "spec:page-view")

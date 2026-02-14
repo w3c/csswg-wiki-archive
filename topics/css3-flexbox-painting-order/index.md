@@ -1,0 +1,33 @@
+---
+title: "Painting Order of Reordered Flexbox Items"
+---
+
+# Painting Order of Reordered Flexbox Items
+
+**Spec:** css3-flexbox | **Owner:** tabatkins | **Status:** Closed | **Added:** 2012-05-16 | **Action:** Pick A or B
+
+#### Background
+
+The 'flex-order' property “reorders” flexbox items, allowing them to display independently of their source order.
+
+#### Problem Statement
+
+Does this reordering affect painting order? That is, given the following markup:
+
+`<flexbox> <a style=“flex-order:2;”>foo</a> <b style=“flex-order:1;”>bar</b> </flexbox>`
+
+If the \<b\> child overlaps the \<a\> child, should it paint above (that is, according to its source order) or below (according to its display order)?
+
+#### Proposal(s)
+
+A. 'flex-order' affects the painting order - items moved earlier paint underneath items moved later.
+
+B. 'flex-order' has no effect on painting order - the original source order determines whether things are painted above/below others.
+
+#### Resolution
+
+Resolved on A.
+
+#### Links to More Info
+
+1.  WebKit's implementation chooses option A.

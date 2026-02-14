@@ -1,0 +1,273 @@
+---
+title: "Radial Gradient Readability"
+---
+
+## Radial Gradient Readability
+
+We've agreed that radial gradients should have a literate syntax. Linear gradients already kinda have one, in a simple way, and hopefully radials should end up thematically consistent.
+
+### Latest Proposal
+
+- for CSS3: `radial-gradient([ <extent> || <shape> ] at <position>, <colors>)`
+- for CSS4: `radial-gradient([ <extent> || <shape> ] at <position> [from <position> | from-offset <length>{1,2}], <colors>)`
+
+Because the default size is `cover`, this means:
+
+- `radial-gradient(from 25% 25%, <colors>)` makes the 0% color at 25% 25%, and the 100% color is at a box-centered box-covering ellipse.
+- `radial-gradient(at 25% 25%, <colors>)` makes the 0% color at 25% 25%, and the 100% color at a 25% 25%-centered box-covering ellipse.
+
+\<html\>\<a href=“data:text/html;charset=utf-8,\<!DOCTYPE%20html\>%0A\<div\>\<%2Fdiv\>%0A\<div\>%0A\<style\>%0Adiv%20%7B%20%0Awidth%3A%20200px%3B%0Aheight%3A%20200px%3B%0Aborder%3A%20thin%20solid%3B%0Afloat%3A%20left%3B%0Amargin%3A%2010px%3B%0A%7D%0Adiv%3Afirst-child%20%7B%20%0Abackground%3A%20-webkit-gradient(radial%2C%2025%25%2025%25%2C%200%2C%2050%25%2050%25%2C%20150%2C%20from(white)%2C%20to(black))%3B%0A%7D%0Adiv%3Anth-child(2)%20%7B%0Abackground%3A%20-webkit-gradient(radial%2C%2025%25%2025%25%2C%200%2C%2025%25%2025%25%2C%20225%2C%20from(white)%2C%20to(black))%3B%0A%7D”\>Illustration of moving geometric center vs. moving color focus\</a\>\</html\> (view in webkit)
+
+The `<extent>` is either a `farthest/closest-side/corner` keyword or an explicit `<length>{1,2}`. Example: `radial-gradient(5em circle at 10% 15%, white, black)`
+
+Everything is optional except the colors. Examples: `radial-gradient(5em, white, black)`, `radial-gradient(circle, white, black)`, `radial-gradient(at top left, white, black)`, `radial-gradient(white, black)`.
+
+\<html\> \<table rules=“groups” class=“data” cellpadding=“5”\> \<caption\>Syntax Comparison for Level 3\</caption\> \<thead\> \<tr\> \<th\>\<a href=“<http://www.w3.org/TR/2011/WD-css3-images-20110908/#repeating-gradients>”\>Current WD\</a\> \</th\> \<th\>Preview\</th\>
+
+\<th\>\<a href=“<http://dev.w3.org/cvsweb/~checkout~/csswg/css3-images/Overview.html?rev=1.200;content-type=text%2Fhtml>”\>Latest ED\</a\>\</th\> \</tr\> \</thead\> \<tbody\> \<tr\> \<td\>
+
+``` code
+radial-gradient(white, black)
+```
+
+\</td\> \<td rowspan=“2”\>\<img src=“<http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial1.png>”/\> \</td\> \<td\>
+
+``` code
+radial-gradient(white, black)
+```
+
+\</td\> \</tr\> \<tr\> \<td\>
+
+``` code
+radial-gradient(center, farthest-corner ellipse, white, black)
+```
+
+\</td\> \<td\>
+
+``` code
+radial-gradient(farthest-corner ellipse at center, white, black)
+```
+
+\</td\>
+
+\</tr\> \</tbody\> \<tbody\> \<tr\> \<td\>
+
+``` code
+radial-gradient(top left, white, black)
+```
+
+\</td\> \<td rowspan=“2”\>\<img src=“<http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial2.png>”/\> \</td\> \<td\>
+
+``` code
+radial-gradient(at top left, white, black)
+```
+
+\</td\> \</tr\> \<tr\> \<td\>
+
+``` code
+radial-gradient(top left, farthest-corner ellipse, white, black)
+```
+
+\</td\> \<td\>
+
+``` code
+radial-gradient(farthest-corner ellipse at top left, white, black)
+```
+
+\</td\> \</tr\>
+
+\</tbody\> \<tbody\> \<tr\> \<td\>
+
+``` code
+radial-gradient(circle, white, black)
+```
+
+\</td\> \<td rowspan=“2”\>\<img src=“<http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial3.png>”/\> \</td\> \<td\>
+
+``` code
+radial-gradient(circle, white, black)
+```
+
+\</td\> \</tr\> \<tr\> \<td\>
+
+``` code
+radial-gradient(circle, center, white, black)
+```
+
+\</td\> \<td\>
+
+``` code
+radial-gradient(circle at center, white, black)
+```
+
+\</td\> \</tr\> \</tbody\>
+
+\<tbody\> \<tr\> \<td\>
+
+``` code
+radial-gradient(center, 5em 5em, white, black)
+```
+
+\</td\> \<td rowspan=“2”\>\<img src=“<http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial4.png>”/\> \</td\> \<td\>
+
+``` code
+radial-gradient(5em, white, black)
+```
+
+\</td\> \</tr\> \<tr\> \<td\>
+
+``` code
+radial-gradient(center, 5em 5em, white, black)
+```
+
+\</td\> \<td\>
+
+``` code
+radial-gradient(circle 5em at center, white, black)
+```
+
+\</td\> \</tr\> \</tbody\> \<tbody\>
+
+\<tr\> \<td\>
+
+``` code
+radial-gradient(75% 75%, closest-side circle, white, black)
+```
+
+\</td\> \<td rowspan=“2”\>\<img src=“<http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial5.png>”/\> \</td\> \<td\>
+
+``` code
+radial-gradient(closet-side circle at 75% 75%, white, black)
+```
+
+\</td\> \</tr\> \</tbody\> \<tbody\> \<tr\> \<td\>
+
+``` code
+radial-gradient(25% 2em, 15px 30%, white, black)
+```
+
+\</td\> \<td rowspan=“2”\>\<img src=“<http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial6.png>”/\> \</td\> \<td\>
+
+``` code
+radial-gradient(15px 30% ellipse at 25% 2em, white, black)
+```
+
+\</td\>
+
+\</tr\> \</tbody\> \</table\> \</html\>
+
+### Original Proposal
+
+The original proposal was `radial-gradient(<shape> to <extent> at <position>, <colors>)`. In this proposal all arguments after `<shape>` could be reordered. However, [feedback on CSS3.info](http://www.css3.info/radial-gradient-readability/) indicated that people find “to \<length\>” awkward, hence the Latest Proposal above.
+
+For example, `radial-gradient(5em circle at 25% 50px, white, black)`
+
+Comparison to other proposal:
+
+\<html\> \<table rules=“groups” class=“data” cellpadding=“5”\> \<caption\>Examples\</caption\> \<thead\> \<tr\> \<th\>Alternate Proposal \</th\> \<th\>Preview\</th\>
+
+\<th\>\<a href=“<http://dev.w3.org/cvsweb/~checkout~/csswg/css3-images/Overview.html?rev=1.200;content-type=text%2Fhtml>”\>Current ED\</a\>\</th\> \</tr\> \</thead\> \<tbody\> \<tr\> \<td\>
+
+``` code
+radial-gradient(white, black)
+```
+
+\</td\> \<td rowspan=“2”\>\<img src=“<http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial1.png>”/\> \</td\> \<td\>
+
+``` code
+radial-gradient(white, black)
+```
+
+\</td\> \</tr\> \<tr\> \<td\>
+
+``` code
+radial-gradient(ellipse farthest-corner at center, white, black)
+```
+
+\</td\> \<td\>
+
+``` code
+radial-gradient(ellipse to farthest-corner at center, white, black)
+```
+
+\</td\>
+
+\</tr\> \</tbody\> \<tbody\> \<tr\> \<td\>
+
+``` code
+radial-gradient(at top left, white, black)
+```
+
+\</td\> \<td rowspan=“2”\>\<img src=“<http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial2.png>”/\> \</td\> \<td\>
+
+``` code
+radial-gradient(at top left, white, black)
+```
+
+\</td\> \</tr\> \<tr\> \<td\>
+
+``` code
+radial-gradient(farthest-corner ellipse at top left, white, black)
+```
+
+\</td\> \<td\>
+
+``` code
+radial-gradient(ellipse at top left to farthest-corner, white, black)
+```
+
+\</td\> \</tr\>
+
+\</tbody\> \<tbody\> \<tr\> \<td\>
+
+``` code
+radial-gradient(5em circle, white, black)
+```
+
+\</td\> \<td rowspan=“2”\>\<img src=“<http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial4.png>”/\> \</td\> \<td\>
+
+``` code
+radial-gradient(to 5em, white, black)
+```
+
+\</td\> \</tr\> \<tr\> \<td\>
+
+``` code
+radial-gradient(5em circle at center white, black)
+```
+
+\</td\> \<td\>
+
+``` code
+radial-gradient(circle to 5em at center, white, black)
+```
+
+\</td\> \</tr\> \</tbody\> \<tbody\>
+
+\<tr\> \<td\>
+
+``` code
+radial-gradient(closest-side circle at 75% 75%, white, black)
+```
+
+\</td\> \<td rowspan=“2”\>\<img src=“<http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial5.png>”/\> \</td\> \<td\>
+
+``` code
+radial-gradient(circle at 75% 75% to closest-side, white, black)
+```
+
+\</td\> \</tr\> \</tbody\> \<tbody\> \<tr\> \<td\>
+
+``` code
+radial-gradient(15px 30% ellipse at 25% 2em, white, black)
+```
+
+\</td\> \<td rowspan=“2”\>\<img src=“<http://lists.w3.org/Archives/Public/www-archive/2011Nov/att-0019/radial6.png>”/\> \</td\> \<td\>
+
+``` code
+radial-gradient(ellipse to 15px 30% at 25% 2em, white, black)
+```
+
+\</td\>
+
+\</tr\> \</tbody\> \</table\> \</html\>

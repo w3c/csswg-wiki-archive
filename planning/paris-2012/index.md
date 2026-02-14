@@ -1,0 +1,227 @@
+---
+title: "Paris F2F February 2012"
+---
+
+# Paris F2F February 2012
+
+Topics for the February 2012 CSS Working Group Face-to-Face meeting in Paris, France.
+
+**When:** Monday 6 February – Wednesday 8 February
+
+**Where:** [23 avenue d'Italie](http://maps.google.com/maps?q=23+avenue+d%27Italie,+paris&ie=UTF8&sll=46.75984,1.738281&sspn=8.943171,23.269043&vpsrc=0&hnear=23+Avenue+d%27Italie,+75013+Paris,+%C3%8Ele-de-France&t=m&z=16) 75012 Paris
+
+Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
+
+**Registration:** TBD (none? this link is broken: <http://www.w3.org/2002/09/wbs/99999/csswg-f2f-paris-2012-01/> )
+
+**Weather:** very cold, below freezing. likely dry, but rain and snow are possible. icy roads, sidewalks. be careful when walking.
+
+## Meeting Minutes
+
+**Monday, 6 February:**
+
+- [Monday Morning](http://lists.w3.org/Archives/Public/www-style/2012Feb/0313.html), Administrivia, Vendor Prefixes, Property/Value Alias OM
+- [Monday Afternoon](http://lists.w3.org/Archives/Public/www-style/2012Feb/0325.html), Functional Notation, Values and Units, Regions Scope
+
+**Tuesday, 7 February:**
+
+- [Tuesday Morning I](http://lists.w3.org/Archives/Public/www-style/2012Feb/0526.html), Regions Issues, Nested Style Rules
+- [Tuesday Morning II](http://lists.w3.org/Archives/Public/www-style/2012Feb/0527.html), Fullscreen, Snapshot, Media Queries REC
+- [Tuesday Afternoon I](http://lists.w3.org/Archives/Public/www-style/2012Feb/0528.html), Webkit Prefixes Cont., css3-background, css3-images
+- [Tuesday Afternoon II](http://lists.w3.org/Archives/Public/www-style/2012Feb/0529.html), CSS2.1 Errata, Spec Process Proposal
+
+**Wednesday, 8 February:**
+
+- [Wednesday Morning I](http://lists.w3.org/Archives/Public/www-style/2012Feb/0530.html), Dropping Prefixes, css3-images, CSS 2.1 errata, Media Queries
+- [Wednesday Morning II](http://lists.w3.org/Archives/Public/www-style/2012Feb/0531.html), Exclusions
+- [Wednesday Afternoon I](http://lists.w3.org/Archives/Public/www-style/2012Feb/0549.html), Flexbox, Line Layout
+- [Wednesday Afternoon II](http://lists.w3.org/Archives/Public/www-style/2012Feb/0550.html), Writing Modes & UTR50, Fragmentation, Transforms
+
+## Agenda
+
+#### Monday
+
+##### Monday AM
+
+- [Splitting www-style](http://lists.w3.org/Archives/Public/www-style/2012Feb/0007.html)
+- Status of “[W3C mercurial For Dummies](../../tools/hg/install/ "tools:hg:install")” documentation that's comparable to [W3C CVS For Dummies](../../spec/cvs/ "spec:cvs")
+- Why and how to implement other vendor-prefixed properties
+
+##### Monday PM
+
+- Discussion of prefixed properties and the CSS OM
+- Functional syntax, to comma or not to comma?
+- CSS3 Values and Units LCWD?
+- CSS Regions: feedback on region scope
+
+#### Tuesday
+
+##### Tuesday AM
+
+- CSS Regions:
+  - short proposal on representing issues and binding to Bugzilla
+  - review [pending issues](https://www.w3.org/Bugs/Public/buglist.cgi?product=CSS&component=CSS%20Regions&resolution=---)
+  - resolve feedback on scope
+  - demos (authoring and uses)
+- Nesting Style Rules
+- Status of Fullscreen (5 minutes)
+- Schedule for Snapshot 2012: end or start of the year? (10 minutes)
+- [Media Queries REC](http://lists.w3.org/Archives/Public/public-css-testsuite/2012Jan/0001.html)
+
+##### Tuesday PM
+
+- Module priority re -webkit- prefix list
+- CSS3 Backgrounds and Borders republish CR
+- CSS Image Values: LC status. CR?
+- CSS 2.1 Errata Issues
+- Agile spec development process
+
+#### Wednesday
+
+##### Wednesday AM
+
+- Discussion about unprefixing transforms, transitions and animations
+- Extend Images last call
+- CSS 2.1 Errata Issues (cont'd)
+- Media Queries Editorial Issue (Florian)
+- CSS Exclusion: spec scope, shape extraction model, shape syntax…
+
+##### Wednesday PM
+
+- CSS Flexbox: open issues and feedback, LC?
+- Line Grid FPWD? Line Module
+- CSS3 Writing Modes - update on text-orientation
+- CSS Fragmentation: FPWD?
+- length units in matrix() and matrix3d() transform functions
+- Request to publish CSS 2D Transform and CSS 3D Transform with note pointing to the merged CSS Transform spec. which is in progress.
+
+## Proposed Topics
+
+- [HTML5 Scoped Stylesheets](http://dev.w3.org/html5/spec/the-style-element.html#attr-style-scoped) - need for formal group comment? potential [problems](https://www.w3.org/Bugs/Public/show_bug.cgi?id=15821)?
+- CSS3 Text - collect/resolve remaining issues?
+- CSS3 Text - text-shadow - support for spread radius? (Supported in IE10)
+
+<!-- -->
+
+- Animations/Transitions
+- Selectors 4
+
+<!-- -->
+
+- Discuss overlap between grid layout and template layout.
+- @text-transform
+- CSS3 Regions: Plan A, B, or C?
+- CSS3 GCPM
+- CSS4 Media Queries
+
+## Participants
+
+| Name | Representing | Arrive | Leave | Hotel | Flight Info | Notes |
+|----|----|----|----|----|----|----|
+| Daniel Glazman | Disruptive Innovations | (host) | (host) | home | N/A |  |
+| Glenn Adams | Cox | TBD | TBD |  |  | irc or telcon only due to other pre-scheduled commitments |
+| Tab Atkins | Google | Sometime Feb 4 | 2012-02-09 12:40 CDG | Apt-Share-1 | ??? |  |
+| Tantek Çelik | Mozilla Foundation | 2012-028(1/28) 13:55 CDG | 2012-039(2/8) 12:25 CDG | 028-035:Montmartre, 035-039:Apt-Share-1 | arriving:BA0308, departing:BA0309 |  |
+| fantasai | Mozilla Foundation | 2012-02-05 13:15 CDG | temporarily local | Apt-Share-1 |  |  |
+| Molly Holzschlag | Invited Expert | ??? | ??? | ??? pref: apt share | ??? | Hope to be present, but other factors postponing decision for now |
+| Chris Lilley | W3C | Sun, TGV from Brussels | Thu | La Manufacture | Train |  |
+| Peter Linss | HP | 2012-02-03 11:25 CDG | 2012-02-12 09:55 CDG | Mercure Paris Place d'Italie | UA132 / UA33 |  |
+| Brad Kemper | Invited Expert | ??? | ??? | ??? | ??? | I'd like to go, but don't know yet if I can swing it. Cost is a big issue. |
+| Florian Rivoal | Opera | ??? | ??? | La Manufacture | ??? |  |
+| Simon Fraser | Apple | ??? | ??? | ??? | ??? |  |
+| Vincent Hardy | Adobe | 02/04/11 | 02/13/11 | Marriott | arriving: AIR FRANCE 2457 (from Bucharest), departing: AIR FRANCE 84 |  |
+| L. David Baron | Mozilla | 2012-01-28 11:30 CDG | 2012-02-12 10:40 CDG | apartment (studio, not shared) | AF83/AF84 |  |
+| Bert | W3C | Feb 5 15:18 | Feb 12 10:49 (?) | Coypel | TGV, Gare de Lyon |  |
+| John Daggett | Mozilla | 2012-02-03 15:50 CDG | 2012-02-10 11:00 CDG | Airbnb apt | JL405/JL042 |  |
+| Luke Macpherson | Google | 2012-02-04 17:55 CDG | 2012-02-09 17:50 CDG | ??? | Ask me |  |
+| Koji Ishii | Invited Expert | 2012-02-05 17:45 CDG | 2012-02-09 12:45 CDG | Apt-Share-1 | KL1243/KL2012 |  |
+| Anton P | Invited Expert | 2012-02-05 16:40 CDG | 2012-02-09 18:35 CDG | Apt-Share-1 |  |  |
+| Sylvain Galineau | Microsoft | Feb 3 or 4 | ??? | Airbnb apt | ??? |  |
+| Alan Stearns | Adobe | Feb 5 | Feb 11 | Ibis | ??? |  |
+| Håkon Wium Lie | Opera | Feb 5 | Feb 8 |  |  |  |
+| Alex Mogilevsky | Microsoft | Feb 4 | Feb 10 | Airbnb apt | Delta 842 / Delta 184 |  |
+| Jet Villegas | Mozilla | 2012-02-05 11:30 CDG | 2012-02-09 10:40 CDG | Best Western Hotel De Weha |  |  |
+| Rossen Atanassov | Microsoft | Feb 4 | Feb 10 | Airbnb apt |  |  |
+
+## Housing
+
+### Nearby Hotels
+
+#### Hotel Ibis Paris Avenue d'Italie
+
+``` code
+ 15 bis Avenue d'italie
+ 20 meters away from the venue
+ not a very nice hotel but if you really want to stay at 20m from the
+   venue...
+```
+
+``` code
+ http://accorhotels.com
+ Phone: +33 1 5379 6000
+```
+
+#### Hotel Mercure Paris Place d'Italie
+
+``` code
+ 25 Boulevard Auguste Blanqui
+ a bit better than the above
+ at walking distance
+ http://accorhotels.com
+ Phone: +33 1 1 4580 8223
+```
+
+#### Hotel la Manufacture
+
+``` code
+ 8 Rue Philippe de Champagne
+ just on the other side of Place d'Italie, at walking distance
+ I don't know that hotel, a friend told me it's nice.
+ http://hotel-la-manufacture.com‎
+ Phone: +33 1 4535 4525
+```
+
+#### Citadines Place d'Italie Paris
+
+``` code
+ Studios and greater flats
+ only 150 meters away from the venue
+ 18 Place d'Italie
+ http://citadines.com‎
+```
+
+#### Marriott Rive Gauche
+
+``` code
+ 17 Boulevard Saint-Jacques
+ ten minutes walking from the venue or 2 short subway stations
+ used to be *the* hotel for all japanese tourists with the best
+   japanese gastronomy restaurant inside
+ http://parismarriottrivegauche.com‎
+ Phone: +33 1 4078 7980
+```
+
+### Apartment Share
+
+Apartment 1 has been claimed by Anton, fantasai, Tab, and Tantek.
+
+People interested:
+
+| Name     | In        | Out                           | Sponsored? |
+|----------|-----------|-------------------------------|------------|
+| dbaron   | FOSDEM?   | Sun Feb 12 (or hotel earlier) | Y          |
+| Florian? | FOSDEM?   | ?                             | Y          |
+| Koji     | Sun Feb 5 | Thu Feb 9                     | N          |
+
+Proposed: In appreciation for their self-volunteered time and travel expenses, let's exclude unsponsored Invited Experts from the cost split.
+
+Note: FOSDEM is Sat-Sun Feb 4-5, so people attending FOSDEM would probably be taking the train from Brussels to Paris late on Sunday February 5.
+
+## Transport to/from CDG
+
+- Take the blue RER B from CDG to Denfert Rochereau and transfer to the light green Metro \#6 (direction Nation) to Place d'Italie
+
+### CDG Transport Warnings
+
+- RER Train unreliability. On 2012-01-28 afternoon all train service was shut down out of CDG due to a fire somewhere along the line. If this happens when you're at CDG you may need to go to Terminal 3 and get on a shuttle bus to a train station \*after\* the fire/obstruction/problems, OR you can maybe take a bus directly to your destination in Paris. Ask for details at the information booth.
+- CDG Airtrain unreliability. On 2012-01-28 the airtrain that goes between CDG terminals was \*not\* stopping at Terminal 3 due to construction/maintenance/other reasons. You may need to walk from your arriving terminal (e.g. Terminal 2) to Terminal 3, or you may be able to take the CDG airtrain to one of the parking stops near Terminal 3, and then walk from there. It may be cold, wet, icy, rainy, snowy, so be prepared to potentially walk a distance with all your luggage to Terminal 3.

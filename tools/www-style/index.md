@@ -1,0 +1,62 @@
+---
+title: "www-style Etiquette"
+---
+
+# www-style Etiquette
+
+The [www-style mailing list](http://lists.w3.org/Archives/Public/www-style/) is the primary forum for discussing the development of CSS.
+
+Note: This does not mean development *with* CSS; for help with using CSS, see [css-discuss](http://www.css-discuss.org/) for that.
+
+## Start Subjects with Bracketed Topics/Specs
+
+When writing an email to www-style about a particular spec, please summarize the topic in the subject line and start the subject with the spec code in brackets, e.g.
+
+- \[css3-ui\] text-overflow - what happens to overflow when you scroll
+- \[CSS21\] overconstrained fixed table layouts underdefined
+
+The spec codes allow editors to more reliably track and address feedback on their specs, and help direct other interested people to the thread.
+
+## Interleave Replies and Trim Quoted Text
+
+Interleave or bottom-post replies, and trim quotations to quote only relevant parts. Previous discussion is always available in full in the [archive](http://lists.w3.org/Archives/Public/www-style/).
+
+## Don't reply to announcement threads
+
+Occasionally a CSSWG member will post meeting minutes, a draft publication announcement, or a meeting agenda to the list. If you want to discuss one of the topics in the message, quote the relevant part and start a new thread with a new subject line. Only reply to the announcement thread if you're offering a correction or missing background info.
+
+Announcement threads should be marked with \[CSSWG\].
+
+## Change the subject when a starting new discussion
+
+A lot of emails get posted to www-style which can spark new / specific discussions in subthreads. When replying any such email and following-up on a specific aspect or subject, please start a \*new\* subject with the particular topic in brackets. This helps people notice the topic change.
+
+E.g. bad:
+
+- RE: \[CSSWG\] Minutes Telecon 2012-02-29
+  - when the actual message is about a technical issue in the Animations spec
+
+better:
+
+- animating vertical-align (RE: \[CSSWG\] Minutes Telecon 2012-02-29)
+
+best:
+
+- \[css3-animations\] animating vertical-align
+
+## Use standard text conventions for quotes, not colors or name-tags
+
+Some mail clients like Outlook prefer to indicate quoted text simply by coloring it (often a dark blue). This is extremely inaccessible - it's hard to read in the best of situations, and once it hits the mail archive, the color disappears entirely and renders the email unreadable.
+
+Alternately, some people indicate quoting by simple interleaving, and tagging the passages from the quoted message with a short name tag, like:
+
+``` code
+[AB] And then I said, rectum, I hardly knew 'im!
+I don't get the joke.
+```
+
+This is often unclear in the best of situations, again, but as soon as someone quotes a second time, the quoting level is lost entirely, and the email becomes an unreadable mess.
+
+Prefer, instead, to quote using the standard text convention of prepending a “\>” character to lines that are quoted. This is widely recognized as quoting, preserves nesting levels, and is maintained in the mail archives. All mail clients can be configured to use this style of quoting - just look up instructions.
+
+If you must, use a proper `<blockquote>` element in the markup - most email readers will convert that into textual quoting.

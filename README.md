@@ -1,27 +1,118 @@
-# CSS Working Group Wiki Archive
+# CSS Working Group Wiki
 
-This is a read-only static archive of the [CSS Working Group Wiki](https://wiki.csswg.org/), originally hosted on DokuWiki at wiki.csswg.org.
+Community-editable documentation for the [CSS Working Group](https://www.w3.org/Style/CSS/). **Live site:** https://w3c.github.io/csswg-wiki/
 
-**Live site:** https://w3c.github.io/csswg-wiki-archive/
+This repo replaces the legacy wiki.csswg.org wiki. Pages are now Markdown files you can edit directly on GitHub.
 
 ## Contents
 
-The archive contains 294 pages covering:
+This repo was initially populated with 294 pages converted from wiki.csswg.org, covering:
 
-- **Specification Issues and Planning** (`/spec/`) — Wiki pages for tracking spec-related thoughts
-- **Ideas and Resolutions** (`/ideas/`) — Ideas not yet in a spec
-- **Testing** (`/test/`) — CSS testing documentation
-- **Meeting Planning** (`/planning/`) — Face-to-face meeting plans and schedules
-- **CSSWG Tools** (`/tools/`) — Documentation about working group tools
+- **[Meeting Planning](/planning/)** — Face-to-face meeting plans and schedules
+- **[Ideas and Resolutions](/ideas/)** — Ideas not yet in a spec
+- **[CSSWG Tools](/tools/)** — Documentation about working group tools
+- **[Specification Issues and Planning](/spec/)** — Wiki pages for tracking spec-related thoughts
+- **[Testing](/test/)** — CSS testing documentation
 
-## Last Modified Dates
+## Editing
+
+Each page has _“edit this page”_ links that take you to the GitHub web editing UI. Changes are deployed automatically when merged or committed to `main`.
+
+## Local development
+
+The site uses Jekyll. To preview locally:
+
+```bash
+gem install jekyll
+jekyll serve
+```
+
+Then open http://localhost:4000/csswg-wiki/
+
+## Frontend design
+
+The site uses a modern, accessible frontend built with vanilla HTML, CSS, and JavaScript.
+
+### Responsive design
+
+- **Mobile-first layout** with hamburger menu on screens under 640px
+- **Fluid typography** using CSS `clamp()` for readable text at any viewport
+- **Sticky header** for persistent navigation access
+- **Responsive tables** wrapped for horizontal scrolling on small screens
+
+### Accessibility
+
+The site follows WCAG 2.1 AA guidelines:
+
+- **Skip link** — "Skip to main content" link for keyboard users
+- **ARIA landmarks** — `banner`, `navigation`, `main`, `complementary` roles
+- **Focus indicators** — Visible 2px outline on all interactive elements
+- **Keyboard navigation** — Escape closes mobile menu, focus is managed
+- **Reduced motion** — Respects `prefers-reduced-motion` preference
+- **High contrast** — Supports Windows High Contrast Mode (`forced-colors`)
+- **Touch targets** — Minimum 44×44px tap targets on interactive elements
+- **Current page indication** — `aria-current` on navigation and breadcrumbs
+
+### Browser support
+
+- All modern browsers (Chrome, Firefox, Safari, Edge)
+- Graceful degradation for older browsers
+- Print stylesheet with expanded URLs
+
+## Conversion from wiki.csswg.org
+
+The sources here were converted from the DokuWiki installation at wiki.csswg.org in February 2026.
+
+### Conversion process
+
+1. **Scrape** — A Python scraper (`bin/scrape.py`) crawled the DokuWiki site and extracted all 294 pages as static HTML files with clean styling.
+
+2. **Convert to Markdown** — A conversion script (`bin/convert-to-markdown.py`) processed the HTML using pandoc to generate Markdown source files, with special handling for DokuWiki plugins:
+
+   **Definition lists** — DokuWiki’s `plugin_definitionlist` used `<dl>/<dt>/<dd>` markup. Since pandoc doesn’t output [kramdown’s definition list syntax](https://kramdown.gettalong.org/syntax.html#definition-lists), the script extracts these before pandoc runs and restores them afterward as proper kramdown:
+
+   ```
+   Term
+   : Definition
+   ```
+
+   **GFM-style alerts** — DokuWiki’s `plugin_note` divs (with classes like `noteimportant`, `notewarning`, `notetip`) are converted to GitHub-flavored Markdown alert syntax, rendered at runtime by `assets/alerts.js`:
+
+   ```
+   > [!IMPORTANT]
+   > Alert content here
+   ```
+
+   **Topic metadata** — The `dataplugin_entry` structured data (used on `/topics/` pages for tracking spec issues) is converted to inline metadata:
+
+   ```
+   **Spec:** css3-flexbox | **Owner:** tabatkins | **Status:** Closed | **Added:** 2012-05-16
+   ```
+
+   **Emoji conversion** — DokuWiki smiley images (`/lib/images/smileys/*.svg`) are replaced with Unicode emoji: `:!:` → ⚠️, `:?:` → ❓, `FIXME` → 🚧, etc.
+
+   **Broken media cleanup** — References to missing wiki images (`/_media/`) and DokuWiki proxy URLs (`/lib/exe/fetch.php`) are removed or replaced with placeholder text.
+
+   **General cleanup** — Stripped `rel`, `class`, and `id` attributes from links; removed redundant `title` attributes; converted `<span class="abbr">` to plain text (handled by JavaScript at runtime).
+
+3. **Jekyll setup** — Added Jekyll configuration, layout template with “edit this page” links, and automatic breadcrumb generation.
+
+4. **Abbreviation handling** — Added `assets/abbr.js` to wrap known abbreviations (CSS, HTML, W3C, IRC, URL, GUI) in `<abbr>` tags with tooltips at runtime.
+
+### Requirements for re-conversion
+
+- Python 3.8+
+- pandoc
+- Network access to wiki.csswg.org
+
+## Chronicle of historical wiki.csswg.org page activity
 
 Generated: 2026-02-14
 
 This listing excludes 166 pages that were bulk-imported on 2014/12/09.
 
 | Year | Count | Path | Pages |
-|------|-------|------|-------|
+| ------ | ------- | ------ | ------- |
 | 2026 | 9 | planning/ | [cupertino-2026](https://wiki.csswg.org/planning/cupertino-2026), [berlin-2026](https://wiki.csswg.org/planning/berlin-2026), [cupertino-2023](https://wiki.csswg.org/planning/cupertino-2023), [redmond-2026](https://wiki.csswg.org/planning/redmond-2026), [scribing](https://wiki.csswg.org/planning/scribing), [cupertino-2025](https://wiki.csswg.org/planning/cupertino-2025) |
 | | | (root) | [main](https://wiki.csswg.org/main), [tools](https://wiki.csswg.org/tools), [planning](https://wiki.csswg.org/planning) |
 | 2025 | 3 | planning/ | [tpac-2025](https://wiki.csswg.org/planning/tpac-2025), [paris-2025](https://wiki.csswg.org/planning/paris-2025), [newyork-2025](https://wiki.csswg.org/planning/newyork-2025) |
@@ -64,48 +155,6 @@ This listing excludes 166 pages that were bulk-imported on 2014/12/09.
 | | | spec/ | [css-flexbox-2](https://wiki.csswg.org/spec/css-flexbox-2), [vendor-prefixes](https://wiki.csswg.org/spec/vendor-prefixes), [css-grid-2](https://wiki.csswg.org/spec/css-grid-2), [css3-ui](https://wiki.csswg.org/spec/css3-ui), [css-backgrounds-4](https://wiki.csswg.org/spec/css-backgrounds-4), [css-ruby-2](https://wiki.csswg.org/spec/css-ruby-2), [css-multicol](https://wiki.csswg.org/spec/css-multicol), [css3-flexbox](https://wiki.csswg.org/spec/css3-flexbox) |
 | | | test/ | [to-do](https://wiki.csswg.org/test/to-do), [css-writing-modes-3](https://wiki.csswg.org/test/css-writing-modes-3) |
 | 2014 | 3 | planning/ | [sophia-2014](https://wiki.csswg.org/planning/sophia-2014), [seoul-2014](https://wiki.csswg.org/planning/seoul-2014), [seattle-2014](https://wiki.csswg.org/planning/seattle-2014) |
-
-To regenerate this listing:
-
-```bash
-python3 bin/list-timestamps.py
-```
-
-## Regenerating the Archive
-
-The archive was generated using a Python scraper that crawls the DokuWiki site and produces static HTML files.
-
-### Requirements
-
-- Python 3.8+
-- Network access to wiki.csswg.org
-
-### Usage
-
-```bash
-# Scrape the wiki and output to a directory
-python3 bin/scrape.py /path/to/output
-
-# Or output to current directory
-python3 bin/scrape.py .
-
-# Preview locally
-python3 -m http.server -d /path/to/output
-```
-
-The scraper:
-1. Discovers all pages by crawling the DokuWiki index
-2. Fetches each page and extracts the main content
-3. Generates clean HTML with modern styling and dark mode support
-4. Creates proper relative links for hosting at any URL path
-
-### Rate Limiting
-
-The scraper includes a 0.3-second delay between requests, to be nice to the server. A full scrape of ~294 pages takes approximately 2 minutes.
-
-## Deployment
-
-The site is automatically deployed to GitHub Pages via the workflow in `.github/workflows/deploy.yml` whenever changes are pushed to the `main` branch.
 
 ## License
 

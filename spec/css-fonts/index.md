@@ -1,0 +1,47 @@
+---
+title: "Adding new generic font families"
+---
+
+# Adding new generic font families
+
+*Note that this section is still under discussion, and not final.*
+
+## Requirements for adding new generic font families
+
+Each newly proposed *generic font family* must pass a test to be considered as an addition to the specification. This test is necessary, but not sufficient, for its addition.
+
+The purpose of this test is to limit the proliferation of *generic font families*.
+
+1.  There need to be at least two distinct typefaces in the world which can map to the *generic font family*. In this case, “distinct” requires that they are developed by different unaffiliated people or groups.
+2.  Because *generic font families* are only relevant for *pre-installed fonts*, common configurations of at least two major platforms (operating systems with distinct GUIs) need to ship a font which would be mapped to this *generic font family*. Again, “distinct” requires that the platforms are maintained by different unaffiliated groups. The font shipped may be the same nevertheless.
+
+Resources
+
+- [Windows 10](https://docs.microsoft.com/en-us/typography/fonts/windows_10_font_list)
+- [macOS Mojave](https://support.apple.com/en-us/HT208968)
+
+## Goals for adding new font families
+
+CSSWG is still discussing what are acceptable purposes for adding new generics. Some categories being considered include:
+
+- Categories required for common patterns of typographic differentiation used for semantic purposes, e.g. for emphasis (as in Roman vs. Italic in Latin), where this differentiation is not otherwise generically possible in a given writing system.
+- Broadly-applicable stylistic categories. \[Globally-relevant categories only? Or also writing-system specific ones?\]
+- Categories required to represent important regional variations within a writing system. \[There's some argument that this should happen automatically by changing interpretation of existing generics based on the document language, rather than requiring the author to specify explicitly.\]
+
+Discussion Resources
+
+- [GitHub Issue](https://github.com/w3c/csswg-drafts/issues/4910)
+- Minutes 2020-04-29
+
+## Additional Considerations
+
+- Some of these goals have different use case requirements wrt fallback behavior. For example, a `fangsong` generic maybe need not be mapped to more than one font, since it is only really defined for CJK, but a `sans-serif` or `rounded` generic should not result in a `serif` fallback font when glyphs from a different writing system are drawn in.
+- Adjusting generic font mappings, e.g. to use newer fonts on a newer OS, can have Web-compat impact.
+
+## Use Cases
+
+Some use cases for generics include:
+
+- Fallback fonts for when Web fonts are blocked or otherwise not downloadable.
+- Matching to the system environment.
+- Ebooks, which do not want to package large font files (particularly in CJK environments) or pay per-copy licensing fees, but do want some amount of stylistic choice over font-family choices.

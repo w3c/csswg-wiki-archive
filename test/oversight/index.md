@@ -1,0 +1,55 @@
+---
+title: "Test Suite Oversight"
+---
+
+# Test Suite Oversight
+
+The W3C CSS Testing project is governed on a module ownership model. Each test suite has an Owner, and potentially some Peers, who are responsible for maintaining the integrity of the test suite. Currently all test suites follow the CSS2.1 [CSS2.1 review process](../../test/review/ "test:review"); however the Selectors and Media Queries test suites use a different test format.
+
+## Owners and Peers
+
+The test suite Owner is the person most responsible for the test suite. A Peer is someone the test suite Owner considers equally capable of evaluating changes to the test suite and responsible enough to have write access to the test suite. A review from a Peer carries equal weight to a review from an Owner.
+
+The following table shows the owners and peers of the CSS Test Suites. Currently, all the Owners of one suite are considered Peers of the other suites.
+
+| Test Suite | Owner / Peers |
+|----|----|
+| [CSS2.1](http://www.w3.org/Style/CSS/Test/CSS2.1/) | Elika J. Etemad, Gérard Talbot |
+| [Selectors](http://www.w3.org/Style/CSS/Test/CSS3/Selectors/) | Ian Hickson |
+| [Media Queries](http://www.w3.org/Style/CSS/Test/MediaQueries/) | Anne van Kesteren |
+| CSS3 Backgrounds and Borders | John Jansen |
+| [CSS3 Color](http://www.w3.org/Style/CSS/Test/CSS3/Color/) | L. David Baron, Chris Lilley |
+| CSS3 Multi-column Layout | Håkon Wium Lie |
+| [CSS Namespaces](http://www.w3.org/Style/CSS/Test/CSS3/Namespace/) | Anne van Kesteren |
+| [CSS3 Paged Media](http://www.w3.org/Style/CSS/Test/CSS3/Page/) | Elika J. Etemad |
+| CSS Transforms | Edward O'Connor |
+| CSS Animations | Øyvind Stenhaug |
+| CSSOM | Glenn Adams |
+| Compositing & Blending | Mirela Budaes, Rik Cabanier |
+| CSS3 Regions | Mihai Balan, Alan Stearns |
+| CSS3 Shapes | Rebecca Hauck, Alan Stearns |
+| CSS3 Exclusions | Alan Stearns |
+
+The overall Owner for the W3C CSS Testing efforts is Rebecca Hauck. Finally, the CSS Working Group has the highest authority over the project and may be consulted where deemed necessary.
+
+## Approvers
+
+An Approver is someone who has demonstrated a very strong understanding of the CSS specs and test methodology and an active commitment to working on the test suite but who hasn't quite racked up enough experience points to become a full test suite Peer. An Approver has write access to the repository and can [approve](../../test/review/ "test:review") tests but may only review his own company's tests under the Owner's oversight.
+
+Currently the following people are Approvers:
+
+- Arron Eicholz (Microsoft)
+
+## Becoming a Peer
+
+There are three basic qualifications you must satisfy to become a Peer:
+
+- You must demonstrate the ability to read and interpret the spec correctly.
+- You must demonstrate a thorough understanding of the test suite guidelines.
+- You must demonstrate that you are trustworthy.
+
+The first two qualifications can be met by submitting good-quality tests for the test suite and intelligently critiquing others' tests.
+
+The third qualification is met by someone vouching for you. This could be a test suite Owner or Peer, or it could be someone else trusted by an Owner. For example, since fantasai trusts active members of the CSS Working Group, an employee of Microsoft can ask his CSS Working Group representative to vouch. As another example, since fantasai trusts Mozilla module owners and peers, a contributor to that project could ask one of them to vouch. By vouching, a voucher is putting his or her reputation on the line, and is confirming that the candidate has established enough credibility in the voucher's experience that the voucher would entrust him or her with a similar level of write privileges in their own project.
+
+If the Owner is satisfied that a candidate would make a suitable Peer, s/he will then request write access to any relevant systems for the candidate and add him or her to the Peers list.
