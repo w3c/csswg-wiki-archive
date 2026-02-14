@@ -1,0 +1,110 @@
+---
+title: "CSS3 Floats"
+---
+
+## CSS3 Floats
+
+THIS PAGE IS DEPRECATED AND REPLACED BY THE [CSS exclusions and shapes](../../ideas/css3-exclusions/ "ideas:css3-exclusions") page.
+
+This page contains the issues that are not yet listed in the specification and the resolutions for issues that were in the spec. but got resolved.
+
+There is a companion [use cases](../../ideas/css3-floats-use-cases/ "ideas:css3-floats-use-cases") page.
+
+## General Note
+
+Floats have a number of aspects/characteristics:
+
+1.  The content if removed from normal flow
+2.  A BFC is set up and shrink-wrapped
+3.  The BFC is positioned
+    1.  Relative to the marker left behind when the content is removed
+    2.  Floats do not overlap one another and are stacked or cleared
+    3.  Positioning is limited to the “containing block”
+4.  The BFC is an exclusion using it Border box as the wrap-shape
+
+For exclusions,
+
+1.  Positioning removes the content from normal flow (or the content is left in normal flow)
+2.  Positioning also sets up a BFC and shrink-wraps it; wrap-shape may be default or explicit
+3.  Positioning positions the exclusion,
+    1.  The marker is used to resolve “auto” values in absolute positioning
+    2.  The Exclusions proposal has groups and order to control exclusion interaction
+    3.  Interaction is not limited per b.
+4.  The wrap-shape (or pair of shapes) is the exclusion.
+
+We noted that “float” should have been better tied to “position” because it currently turns of the “position” property and replaces it.
+
+## Action Items
+
+- Vincent: add 'inherit' to all property values.
+- [ACTION 356](http://www.w3.org/Style/CSS/Tracker/actions/356) Vincent: Make the default value for wrap-mode be auto
+- Vincent: Create a stub specification for CSS Floats.
+- Rossen. Write up the processing model for exclusions.
+- Editor. Note that the wrapping side (left, right, both) is always 'auto' for floats.
+- Editor. single trigger and wrap-shape propertyl. With wrap-shape: outside(\[shape \[auto\|both\|left\|right\])\|auto) inside(shape)
+- Editor. wrapping options are auto, left, right, both and none. Note that top and bottom is assumed for all values.
+- Editor. Add that we may consider having multiple shapes to define the inside and ouside shapes separately.
+- Editor. Add that we should have a 'wrap-shape-outline' or a 'stroke' property to let the user draw the outline of a wrap-shape
+- Editor. Clarify what happens when there are separate sub-shapes in an exclusion.
+
+## Issues
+
+## Issue 1: Processing model
+
+Do one pass to position the exclusions. Then, do another pass with the exclusions present.
+
+## Issue 2: Exclusion trigger (what makes an element become an exclusion?)
+
+Triggered with a single property that can specify that an inside or inside wrap-shape exists (or both), and how the content flows around the shape (for outside wrapping). Something like:
+
+wrap-mode: default\|none\|inside\|\[outside-\[left\|right\|both\]\|\[all-\[left+right+both\] initial: default
+
+Need to define default wrap-mode to be compatible with current float behavior. For example, a 'float: left' should have its default computed wrap-mode be 'outside-right', a 'float: right' would be 'outside-left'.
+
+## Issue 3: Containment model
+
+Use the containing block model of CSS.
+
+## Issue 4: Enabling or disabling exclusions
+
+Rename flow-wrap to something different like 'external exclusions allowed'.
+
+## Issue 5: Ordering of exclusions
+
+Same as z-index. Should we have a separate property or not?
+
+Proposal: use the same z-index property because having both z-index and an additional property may create issues and create surprising results.
+
+## Issue 6: Positioning of exclusions
+
+As defined in CSS2.
+
+## Issue 7: Shrink wrap of container with floats having wrap-shapes (inside)
+
+The shrink wrap is done with the float's box.
+
+## Issue 8: should we use something else than 'wrap'?
+
+The use of 'wrap' in properties such as 'wrap-type' or 'wrap-mode' may be confusing because of a different meaning for wrap in the FlexBox specification ('flex-wrap' property) see Flex Box [issues](../../spec/css3-flexbox/#issue-1 "spec:css3-flexbox").
+
+## Issue 9: painting order and interactivity with exclusions
+
+Description
+: when an element has a wrap shape (inside our outside), what happens with events that happen within the element's box but outside the outside wrap-shape?
+
+Proposal
+: events are clipped to the 'outside' wrap-shape.
+
+## Issue 10: painting order and interactivity with exclusions
+
+Description
+: should the inside wrap shape be constrained to the outside wrap shape?
+
+Proposal
+: yes, the inside wrap shape should be clipped to the outside wrap shape.
+
+## Resolutions
+
+[Kyoto F2F June 2011, Friday](http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html)
+
+Make css3-floats module to bring together proposals for floats and exclusions

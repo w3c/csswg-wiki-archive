@@ -1,0 +1,178 @@
+---
+title: "TPAC 2018"
+---
+
+## TPAC 2018
+
+### Place, Logistics, etc.
+
+- <https://www.w3.org/2018/10/TPAC/>
+- full TPAC week is 22-26 October 2018
+- CSS WG meeting days are Mon-Tue 22-23 from 9am to 6pm
+- Houdini meeting is Thu 25 October from 09:00-???
+- Lyon, France at the Lyon Convention Center
+- [Monday night developer meetup](https://www.w3.org/2018/10/Meetup/) (requires registration)
+- Jiminy Panoz, a Lyon resident (and friend of EPUB and CSS), has posted a [guide to Lyon](https://docs.google.com/document/d/1nzfUxp1LWo5WqN1GymLLK14UCpFxmSsqw7pKi3zBSsY/edit) for TPAC attendees
+
+### Participants
+
+Please, put your name in this table if you plan to participate (alphabetical order by given name):
+
+| Name | Arrival | Departure | Hotel | Flight info and notes | Conflicts |
+|----|----|----|----|----|----|
+| Alan Stearns |  |  |  |  |  |
+| Chris Lilley | Sunday | Sunday |  |  |  |
+| Dave Cramer | Sunday | Friday |  |  | PWG most of Tuesday |
+| Dominik Röttsches | Sunday evening | Thursday evening | Marriott Cité Internationale |  |  |
+| Emil A Eklund | Sunday 16:45 | Saturday 06:50 | Marriott Cité Internationale | BA284+BA362 / BA365+BA285 |  |
+| Eric Willigers | Saturday | Sunday | Crowne Plaza Lyon |  |  |
+| fantasai | Monday 8:50am | Friday-ish |  |  | Early Monday Morning |
+| Florian Rivoal | Sunday | Sunday | Temporim Lyon Cité Internationale |  | at AC meeting 15h00-17h00 Tuesday |
+| François REMY | Sunday | TBD |  |  |  |
+| Hiroshi Sakakibara | Sunday | Saturday |  |  |  |
+| Jen Simmons | Sunday | Thursday | Marriott |  |  |
+| Jihye Hong | Sunday | Saturday | ibis |  | Early Monday afternoon |
+| Lea Verou | Sunday | Sunday |  |  |  |
+| L. David Baron | Saturday 16:00 | Saturday 17:04 | Hôtel le Roosevelt | AF83+[TGV5119](https://www.sncf.com/fr/itineraire-reservation/recherche-numero-train/details-train/5119?date=20%2F10%2F2018&codeCirculation=OCESN005119F02005&codeZoneArret=OCE87223263) / [TGV6626](https://www.sncf.com/fr/itineraire-reservation/recherche-numero-train/details-train/6626?codeCirculation=OCESN006626F01004&codeZoneArret=OCE87722025&date=27%2F10%2F2018) | probably at TAG roughly 09h00-10h00 Monday; at AC meeting 15h00-17h00 Tuesday |
+| Majid Valipour | Sunday | Friday | AirBnB |  |  |
+| Manuel Rego | Sunday | Thursday's night |  |  |  |
+| Melanie Richards | Saturday | Sunday | Crown Plaza |  |  |
+| Myles C. Maxfield |  |  |  |  |  |
+| Rachel Andrew | Sunday 16:45 | Saturday 06:50 | Marriott | BA362, BA365 |  |
+| Rakina Amni |  |  |  |  |  |
+| Rossen Atanassov | Sunday | Friday | Crowne Plaza |  |  |
+| Rune Lillesveen | Sunday | Friday-ish |  |  |  |
+| Simon Fraser | ? | ? |  |  |  |
+| Surma | Sunday | Saturday | Crowne Plaza |  |  |
+| Tab Atkins | ? | ? | ? |  |  |
+| Tantek Çelik | Monday | Thursday | Hôtel le Roosevelt |  |  |
+| Fuqiao Xue | Sunday | Saturday |  |  |  |
+| Chris Harrelson | Saturday | Saturday |  |  |  |
+| Dirk Schulze |  |  |  |  |  |
+
+Regrets:
+
+\- …
+
+See also the current <https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants> \[member-only\].
+
+### Proposed Agenda
+
+### Schedule
+
+#### Monday
+
+##### Morning
+
+(9am schedule wrangling and introductions)
+
+- Accessibility API Mappings (<https://w3c.github.io/html-aam/>) - What it is, how it matters to CSS, when we need to ping a11y people about implications. Focus on display:contents being unexpectedly troublesome. – Alice Boxhall
+- Identify new people to represent the CSSWG in the CSS a11y task force
+- \[css-break-4\] control space before element depending on page position: <https://github.com/w3c/csswg-drafts/issues/253>
+
+10am - Break
+
+- \[css-align\] gap properties for block layout: <https://github.com/w3c/csswg-drafts/issues/3068>
+- css-multicol
+  - What happens to the mbp of the empty fragment created by a spanner being first-child of an element: <https://github.com/w3c/csswg-drafts/issues/2552>
+  - Margin collapsing does not make sense with column-spans: <https://github.com/w3c/csswg-drafts/issues/2203>
+  - Improve column-fill and make it backward-compatible: <https://github.com/w3c/csswg-drafts/issues/3224>
+
+<!-- -->
+
+- Css-text-3:
+  - Revisit text-align shorthanding text-align-last: <https://github.com/w3c/csswg-drafts/issues/3117>
+  - word-wrap/overflow-wrap: break-word should affect min-content <https://github.com/w3c/csswg-drafts/issues/2682>
+- Text-4
+  - Allow letter-spacing to have unitless values like line-height: <https://github.com/w3c/csswg-drafts/issues/2165>
+  - [\[css-text-4\] Text-spacing is too strict](https://github.com/w3c/csswg-drafts/issues/3229)
+
+12pm - Lunch
+
+##### Afternoon
+
+- \[css-flexbox\] Investigate applying align-content to single-line flex containers: <https://github.com/w3c/csswg-drafts/issues/3052>
+
+<!-- -->
+
+- Initial Letter Layout Model and other CSS Inline Layout Issues (could this happen Monday? –dauwhe)
+  - Should first/last baseline values of \`vertical-align\` belong to \`alignment-baseline\` or separate longhand? <https://github.com/w3c/csswg-drafts/issues/861>
+  - better name for initial-letters property: <https://github.com/w3c/csswg-drafts/issues/2950>
+
+<!-- -->
+
+- Css-overflow-3
+  - Intrinsic sizing of elements with continue:discard <https://github.com/w3c/csswg-drafts/issues/3214>
+  - Define the behavior of overly long block ellipsis strings <https://github.com/w3c/csswg-drafts/issues/3213>
+  - block-overflow, ::first-line, and ::first letter <https://github.com/w3c/csswg-drafts/issues/2906>
+  - Allowing (or not) alternate ellipsis behavior for block-overflow <https://github.com/w3c/csswg-drafts/issues/2905>
+
+3pm - Joint meeting with the Math on Web Pages CG
+
+- vertically align to nth-child: <https://github.com/w3c/csswg-drafts/issues/1339>
+
+3:30pm - break
+
+4pm - Joint meeting with [WPT](https://github.com/web-platform-tests/wpt/wiki/TPAC-2018)
+
+- [Scroll-linked Animations](https://wicg.github.io/scroll-animations/) - Spec is on WICG and Blink now has a partial experimental implementation (majidvp@ can demo). Gathering status and see if there is interest in moving it (or a subset) forward.
+
+<!-- -->
+
+- CSS-UI
+  - fieldset/legend (<https://github.com/w3c/csswg-drafts/issues/3094>)—Florian
+  - Dark mode and native form controls (discussion)—fremy
+  - Should we define outline more tightly and aim for close interop, or leave it open to UI innovation? (see [3184](https://github.com/w3c/csswg-drafts/issues/3184) for a recent example, but also the spec is full of “may”)—Florian
+
+#### Tuesday
+
+##### Morning
+
+(start at 9am - the room will be occupied until then)
+
+- Spatial Navigation — Jihye and Florian (prefers Tuesday, not during AC meeting, definitely avoid Monday early afternoon and avoid from 5pm Tuesday)
+- css-fonts-4
+  - src: local() font unique name matching ambiguous & restricts matched locale <https://github.com/w3c/csswg-drafts/issues/3177>
+- \[css-overscroll-behavior\] Moving [spec](https://drafts.csswg.org/css-overscroll-behavior/) to FPWD. This was recently migrated from WICG.
+- aspect-ratio draft proposal: <https://drafts.csswg.org/css-sizing-4/#ratios>
+
+10am - Break
+
+- \[css-shadow-parts\] confirm browser support (Tuesday): <https://github.com/w3c/csswg-drafts/issues/2368>
+
+11am - Joint meeting with [i18n](https://www.w3.org/International/wiki/2018TPACAgenda)
+
+- [Propose adding lang as a font-face descriptor](https://github.com/w3c/csswg-drafts/issues/1744) ideally with I18n Core
+- \[css-logical\] Flow-relative syntax for \`margin\`-like shorthands: <https://github.com/w3c/csswg-drafts/issues/1282>
+
+12pm - Lunch
+
+##### Afternoon
+
+- Environment Variables spec - path to fpwd?
+- [Constructable Stylesheets](https://wicg.github.io/construct-stylesheets/index.html) (Tuesday) – Rakina & Eric & Tab
+  - [Can the same constructed stylesheet be used in two different Documents?](https://github.com/WICG/construct-stylesheets/issues/23)
+  - [Need to define what fetch groups various loads from the sheet go in](https://github.com/WICG/construct-stylesheets/issues/15)
+  - [Can we use CSSStyleSheets from \<style\>/\<link\> in adoptedStyleSheets?](https://github.com/WICG/construct-stylesheets/issues/34)
+  - [Should we use FrozenArray instead of StyleSheetList for adoptedStyleSheets](https://github.com/WICG/construct-stylesheets/issues/36)
+  - Should this spec move from WICG to CSS WG?
+  - Blink is interested in shipping.
+- CSS-UI
+  - Path forward for the appearance property (<https://github.com/w3c/csswg-drafts/issues/3024>)—Florian
+
+3:30pm - break
+
+- Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?
+  - [getComputedStyle and scrollbar-color](https://github.com/w3c/csswg-drafts/issues/3237)
+- Effect of filter element on root element <https://github.com/w3c/fxtf-drafts/issues/282> –chrishtr
+- backdrop-filter spec issues: <https://github.com/w3c/fxtf-drafts/issues/53>
+- Text-decoration
+  - [text-underline-offset](https://github.com/w3c/csswg-drafts/issues/3118)
+  - [Rename text-decoration-width?](https://twitter.com/Litherum/status/1053686215898288129)
+- \[CSS-cascade\] import only in moment when we need it: <https://github.com/w3c/csswg-drafts/issues/3050>
+- \[css-conditional-4\] selector() feature query function for selector support: <https://github.com/w3c/csswg-drafts/issues/3207>
+- \[selectors4\] Name the “functional pseudo-class like :matches() with 0 specificity”: <https://github.com/w3c/csswg-drafts/issues/2143>
+
+#### Thursday
+
+Houdini

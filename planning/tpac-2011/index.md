@@ -1,0 +1,219 @@
+---
+title: "TPAC 2011"
+---
+
+# TPAC 2011
+
+Agenda and Logistics for November 2011 CSS Working Group Face-to-Face meeting (Sunday October 30 - Tuesday November 1, 2011) at TPAC. Note: This should be a technical meeting, and focus should be on topics that benefit from us all being in the same room.
+
+**Sunday meeting**
+
+- **Where?** Adobe Systems Headquarters, 345 Park Ave, San Jose, CA 95113.
+- **When?** 9am to 5pm/6pm. Breakfast and lunch catered. Many thanks to Adobe for hosting on that day.
+- **Is there parking available?** Yes, parking is available at 345 Park Ave (West Tower). If asked, mention that you are a member of the W3C.
+- **How do we get in?** We will be in the “\_Park\_” conference room. This conference room is right outside the East Tower Lobby. You can access it directly from 321 Park Avenue. Getting access does not require signing in or signing any legal agreement (NDA, etc…)
+- **What if I get lost?** Give Arno a call at +1.415.350.3946.
+- **What about dinner Sunday evening?** We have a reservation at **Mezcal** 25 West San Fernando Street (within walking distance) under the name “Deepa Subramaniam”at **18:30**. The restaurant has vegetarian options and can adjust dishes according to various dietary needs.
+
+**Monday-Tuesday meeting**
+
+- at [TPAC](http://www.w3.org/2011/11/TPAC/)
+
+**Calling in**
+
+- You can call into the WG meeting through Skype at w3c-csswg
+
+## Meeting Minutes
+
+**Sunday, 30 October**
+
+- [Sunday Morning](http://lists.w3.org/Archives/Public/www-style/2011Nov/0713.html)- Issue Tracking, Regions
+- [Sunday Afternoon I](http://lists.w3.org/Archives/Public/www-style/2011Nov/0714.html)- UTR50, radial-gradient(), Exclusions and Shapes
+- [Sunday Afternoon II](http://lists.w3.org/Archives/Public/www-style/2011Nov/0715.html)- Style Attr, Selectors 4, Paginated Layout on Screen
+
+**Monday, 31 October**
+
+- [Monday Morning](http://lists.w3.org/Archives/Public/www-style/2011Nov/0709.html)- Values & Units, Positioning, Animations
+- [Monday Afternoon](http://lists.w3.org/Archives/Public/www-style/2011Nov/0711.html)- @font-face, Flexbox, Multicol, GCPM
+
+**Tuesday, 1 November**
+
+- [Tuesday Morning I](http://lists.w3.org/Archives/Public/www-style/2011Nov/0710.html)- CSSOM, IDPF
+- [Tuesday Morning II](http://lists.w3.org/Archives/Public/www-style/2011Nov/0717.html)- Testing, CSS2.1, CSS3 Borders
+- [Tuesday Noonish](http://lists.w3.org/Archives/Public/www-style/2011Nov/0716.html)- radial-gradient() and argument notation, text-transform
+- [Tuesday Afternoon](http://lists.w3.org/Archives/Public/www-style/2011Nov/0712.html)- Variables, Accessibility, Multicol
+
+## Agenda Brainstorming
+
+Please add your agenda topic suggestions here for prioritization and sorting.
+
+- Gradients (1 hour)
+  - Pending issues e.g radial Gradient syntax
+  - Publish LC
+- CSS OM
+  - DOM interfaces for new @-rules
+    - Minimal requirements
+    - How fine-grained does the interface need to be?
+  - Constants for @-rules <http://wiki.csswg.org/spec/cssom-constants>
+  - Define event for font loads?
+- CSS Exclusions & Shapes <http://dev.w3.org/csswg/css3-exclusions/>
+- CSS Positioned Layout <http://dev.w3.org/csswg/css3-positioning/>
+- Test suite issues (CSS 2.1)
+- CSS3 Values and Units [issues](http://www.w3.org/Style/CSS/Tracker/products/8) / LC
+- CSS3 Images any other issues remaining; move to LC
+- CSS3 Animations
+  - display:none and animations/transitions
+  - Next publication
+- CSS Flexbox: pending issues, update WD
+- Media Queries: test suite
+- CSS regions: remaining [issues](http://wiki.csswg.org/spec/css3-regions#issues-to-resolve-with-the-css-wg)
+- CSS3 Fonts
+- CSS3 Writing Modes
+  - **Brief** discussion of ongoing work on [UTR \#50](http://www.unicode.org/reports/tr50/tr50-1.html) and how if affects text-orientation
+  - Proposed time: Sunday afternoon so that Ken Lunde and Taro Yamamoto from Adobe can attend
+- [Invitation from 3D Community Group](https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0085.html)
+- CSS GCPM: I'd like to publish updated WD.
+- CSS multicol: We should settle margin collapsing issue for spanners, and define more exact behavior for break-\* properties
+
+Text Orientation and Unicode issues on Sunday afternoon with invitees from Adobe.
+
+Joint meeting with WebApps and WebAppsSec [Monday 11-12am on CORS and From-Origin](http://www.w3.org/2008/webapps/wiki/TPAC2011). Affects CSS3 Fonts and other API's relying on cross-origin embedding.
+
+Joint meeting with PF WG on Tuesday 3:30pm-5pm regarding a11y and CSS layout.
+
+Joint meeting with FXTF on Thursday at 9am (in SVG WG meeting room).
+
+Declarative 3D Community Group meeting Tuesday 9am-1pm \[Simon, Ted?\]
+
+## Proposed Schedule
+
+#### Sunday
+
+- Welcome + agenda + extras (0h15)
+- How the WG should track spec issues (1h30)
+- *break* (0h15)
+- Gradients (1h)
+- CSS Regions issues (0h45)
+- *lunch* (1h)
+- Orientation and Unicode properties for vertical text layout (1h45)
+- *break* (0h15à
+- CSS3 Writing Modes (0h30)
+- CSS Exclusions and Shapes (1h)
+- CSS GCPM (0h15)
+
+#### Monday
+
+- CSS3 Values & Units (1h)
+- CSS3 Positioned Layout Module (0h45)
+- *break* (0h15)
+- CSS3 Animations (1h)
+- Joint meeting with WebApps/WebAppsSec on CORS and From-Origin (1h)
+- CSS Media Queries Test Suite (0h30)
+- *lunch* (1h)
+- CSS Flexbox (1h15)
+- *break* (0h15)
+- CSS Multicol (2h)
+
+<!-- -->
+
+- HCG meetup for WG chairs, Staff Contact, … 6pm, hotel's bar
+
+#### Tuesday
+
+- AC session for AC-Reps
+- CSS OM in CSS WG room, 9am, 1h
+- Joint meeting IDPF/EPUB in CSS WG room, 10:00, 1h
+- *break* in CSS WG room, 0h15
+- Test Suite (2.1) issues in CSS WG room, 11:15, 1h
+- Backgrounds and Borders
+- CSS3 Text - Text Transform
+- *lunch* (1h)
+- CSS3 Images, 2pm, 1h
+- Variables
+- Status of specs and how to move forward
+- *break* in CSS WG room, 0h15
+- Joint meeting PF WG in CSS WG room, 3:30pm, 1h30
+
+#### Thursday
+
+- Joint meeting FXTF in SVG WG room, 9am-6pm
+
+## Attendee Contact Information
+
+Please add your arrival and departure dates, hotel name and mobile phone info (for those comfortable in doing so).
+
+| Name | Dates | Hotel | Contact \# |  |
+|----|----|----|----|----|
+| Rossen Atanassov | 29 Oct – 4 Nov | Marriott | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| L. David Baron | \- | at home | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| Kimberly Blessing | 30 Oct – 4 Nov | Marriott | @obiwankimberly |  |
+| Bert Bos | 29 Oct - 5 Nov | Marriott | see [e-mail](https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0087.html) |  |
+| Tantek Çelik | \- | … | [@t](http://twitter.com/t), [aim:tantekc](../../aim/goim/?screenname=tantekc "aim:goim") |  |
+| John Daggett | 29 Oct – 4 Nov | Avatar | \- |  |
+| Arron Eicholz | 29 Oct – 3 Nov | Marriott | \- |  |
+| Elika J. Etemad | 29 Oct – 4 Nov | Avatar | I'm not posting my cell phone publicly, sorry. |  |
+| Simon Fraser | 31 Oct - 3 Nov | local | \- |  |
+| Sylvain Galineau | 29 Oct – 4 Nov | Avatar | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| Daniel Glazman (chair) | 28 Oct – 3 Nov | Avatar | \- |  |
+| Arno Gourdol | 28 Oct – 3 Nov | Home | +1 415 350 3946 |  |
+| Vincent Hardy | 28 Oct – 3 Nov | Home | +1 415 290 85 17 |  |
+| Molly E. Holzschlag | 28 Oct – 5 Nov | Marriott | +1 520 250 8022 |  |
+| Koji Ishii | 29 Oct - 5 Nov | Avatar | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| Brad Kemper | 29 Oct - 2 Nov | home |  |  |
+| Håkon Wium Lie | 30 Oct - 2 Nov |  | +47 90192217 |  |
+| Chris Lilley | 25 Oct - 5 Nov | Avatar then Marriott | @svgeesus |  |
+| Peter Linss | 27 Oct – 5 Nov | Marriott | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| Edward O'Connor | \- | at home | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| Florian Rivoal | 29 Oct – 3 Nov | Avatar | \- |  |
+| Alan Stearns | 27 Oct – 3 Nov | Avatar | +1 206 550 4299 |  |
+| Steve Zilles | 28 Oct - 3 Nov | Home | \- |  |
+| Alex Mogilevsky | 30 Oct – 3 Nov | Mariott | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| John Jansen | 27 Oct - 2 Nov | Marriott |  |  |
+| Name | Dates | Hotel | Contact |  |
+
+(Editorial/admin note: any way to add class names to an HTML table like the above to say each TR and TD (by column position) ?)
+
+## Hotels and Transportation
+
+Most people will be at the Marriott, but there are other hotels in the area that are more affordable and include free parking and/or WIFI.
+
+### Hotels
+
+- [The Marriott (Conference Hotel)](http://www.marriott.com/hotels/travel/sjcga-santa-clara-marriott/)
+- [The Avatar](http://www.jdvhotels.com/hotels/avatar)
+
+### Transportation
+
+- According to the Santa Clara Marriott's web site, there is no shuttle service at this hotel
+- SJC and SFO are served by South & East Bay Shuttle (408) 866-6660; fee: 25 USD SJC/69 USD SFO (one way); reservation required
+- There is an on-site Hertz Rental Car at the Marriott
+- Public transport from SFO: take BART from the airport to Millbrae, then switch to Caltran to Mountain View, then switch to Santa Clara Light Rail. Get off at either Old Ironsides or Great America and walk South on Great America to the Marriott.
+
+### Carpool for Sunday
+
+From Santa Clara Avatar / Mariott to Adobe. Meet in respective hotel lobby at 8:30am, depart by 8:40am latest.
+
+#### Have Car Will Pool
+
+- David Baron (4 seats)
+- Molly Holzschlag ( 4 seats)
+- John Daggett (4 seats)
+- Peter Linss (4 seats) @ Marriott
+- John Jansen (no idea, \> 1 seat)
+- Daniel Glazman (4 seats)
+
+#### Need Seat
+
+- Bert Bos (Mariott)
+- Elika Etemad (Avatar)
+- Sylvain Galineau (Avatar)
+- Koji Ishii? (Avatar)
+- Chris Lilley (Marriott)
+- Rossen Atanassov (Mariott)
+- Alan Stearns (Avatar)
+- Arron Eicholz (Mariott)
+- Florian Rivoal (Avatar)
+
+## Special Needs/Requests
+
+Please use this section to discuss any special requirements of which the group should be aware.

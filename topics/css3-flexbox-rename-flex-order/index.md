@@ -1,0 +1,25 @@
+---
+title: "Rename 'flex-order'"
+---
+
+# Rename 'flex-order'
+
+**Spec:** css3-flexbox | **Owner:** tabatkins | **Status:** Closed | **Added:** 2012-05-16 | **Action:** Pick A, B, or C? | **Issue:** [http://lists.w3.org/Archives/Public/www-style/2012Feb/0741.html](http://lists.w3.org/Archives/Public/www-style/2012Feb/0741.html)
+
+#### RESOLVED
+
+The WG resolved to go with a fourth option, and just use the name 'order'.
+
+#### Problem Statement
+
+Should we rename the 'flex-order' property? It has nothing to do with flexing, and its functionality may be useful in other new layout specs, e.g. Grid's auto-layout algorithm.
+
+As well, 'flex-order' might be a good name in the future for putting elements in “flex groups”, such that one group gets first crack at the free space ahead of other (in the old flexbox spec, this was called 'box-flex-group').
+
+#### Proposal(s)
+
+A. (current spec) Name it 'flex-order'.
+
+B. Name it 'box-order'.
+
+C. Name it 'display-order'.

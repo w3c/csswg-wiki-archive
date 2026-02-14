@@ -1,0 +1,198 @@
+---
+title: "TPAC 2017"
+---
+
+## TPAC 2017
+
+### Meeting Minutes
+
+- Monday, November 6
+  - [Part 1](https://lists.w3.org/Archives/Public/www-style/2017Dec/0004.html): Sizing
+  - [Part 2](https://lists.w3.org/Archives/Public/www-style/2017Dec/0005.html): Backgrounds, Grid
+  - [Part 3](https://lists.w3.org/Archives/Public/www-style/2017Dec/0006.html): Flexbox, Image Decoding, Line Clamping, Cleaning up OWNERS files, Feedback on testing policy
+  - [Part 4](https://lists.w3.org/Archives/Public/www-style/2017Dec/0007.html): Values and Units, Contains, Line Grid, Line Heights
+- Tuesday, November 7
+  - [Part 1](https://lists.w3.org/Archives/Public/www-style/2017Dec/0038.html): .style append/replace, list marker layout, scroll-snap & scrolling APIs
+  - [Part 2](https://lists.w3.org/Archives/Public/www-style/2017Dec/0039.html): Spatial Navigation, nav-\*/tabindex, a11y Joint Meeting
+  - [Part 3](https://lists.w3.org/Archives/Public/www-style/2017Dec/0040.html): 3D Transforms, Scrollbars, Selectors, Color Spaces
+  - [Part 4](https://lists.w3.org/Archives/Public/www-style/2017Dec/0041.html): Constructible Style Sheets, ::selection cascade, Multicol
+
+### Place, Logistics, etc.
+
+- <https://www.w3.org/2017/11/TPAC/>
+- full TPAC week is 06-10 November 2017
+- CSS WG meeting days are Mon-Tue 06-07 from 9am to 6pm
+- Houdini meeting is Thu 09 November from 09:00-12:00
+  - <https://github.com/w3c/css-houdini-drafts/wiki/TPAC-F2F-November-2017>
+- Burlingame, CA, USA at the Hyatt Regency SFO
+
+### Participants
+
+Please, put your name in this table if you plan to participate (alphabetical order by given name):
+
+| Name | Arrival | Departure | Hotel | Flight info and notes |
+|----|----|----|----|----|
+| Alan Stearns |  |  |  |  |
+| Dave Cramer | 7 Nov | 11 Nov | Hyatt Regency SFO | massive conflict with PWG |
+| Emil A Eklund | n/a | n/a | Home | Will miss first two hours on Monday |
+| Eric Willigers | 5 Nov | 10 Nov |  |  |
+| fantasai |  |  | AirBnB | likely BART+bicycle |
+| Florian Rivoal | 5 Nov | 11 Nov | Bay Landing Hotel | KE724+KE023 / KE026+KE723 |
+| François REMY | 5 Nov | 11 Nov | TPAC Hotel | Airplane |
+| Geoffrey Sneddon | 5 Nov | 18 Nov | Hyatt Regency SFO | Monday only, conflict with WPT on Tuesday; EI3221+EI147 / BA286+BA1488 |
+| Javier Fernández | 5 Nov | 9 Nov | Hyatt Regency SFO | BA7111+BA4271+BA4369 |
+| Jen Simmons | 29 Oct | 10 Nov | AirBnB | airplane to An Event Apart San Fran, plus rental car |
+| Jihye Hong | 5 Nov | 10 Nov | Holiday Inn Exp SF Airport South |  |
+| L. David Baron | 30 Sep | 10 Dec | home | probably BART to Millbrae + walk or bus; will miss roughly 9:00-11:00 Monday (TAG), and possibly 15:00-18:00 Tuesday (AC) |
+| Melanie Richards | 5 Nov | 9 Nov | Hyatt Regency SFO | Alaska 324, 323 |
+| Naina Raisinghani | 5 Nov | 11 Nov | Crowne Plaza San Francisco Airport |  |
+| Nat McCully | 3 Nov | 7 Nov | AirBnB |  |
+| Peter Linss | 5 Nov | 11 Nov | Hyatt Regency SFO | YZF-R1 |
+| Rachel Andrew | 5 Nov | 8 Nov | AirBNB |  |
+| Rob Flack | 5 Nov | 9 Nov | Holiday Inn Exp SF Airport South |  |
+| Simon Fraser | n/a | n/a | Local |  |
+| Simon Pieters | 5 Nov | 8 Nov | AirBnB | UA 2400 / SK 936 |
+| Tab Atkins | local |  |  |  |
+| Tantek Çelik | 2017-10-19 | 2017-12-08 | home | ground transport |
+| Tomoya Kimura | 5 Nov | 12 Nov | Bay Landing Hotel | JL002 / JL001 |
+| Greg Whitworth | 5 Nov | 11 Nov |  |  |
+| Xidorn Quan | 5 Nov | 11 Nov | AirBnB | NZ 8 |
+| Lea Verou | 5 Nov | 13 Nov | Hyatt, then AirBnB |  |
+| Chris Lilley | 5 Nov | 13 Nov | Hyatt, then AirBnB |  |
+| Jet Villegas | 6 Nov | 7 Nov | home |  |
+| Brad Kemper | 6 Nov | 7 Nov | home | Driving |
+
+Regrets:
+
+\* Koji Ishii, can't make due to a conflict, but would like to call in for text topics if possible.
+
+\* Hiroshi Sakakibara, got a severe cold..
+
+See also the current [TPAC registrations](https://www.w3.org/2002/09/wbs/35125/TPAC2017/registrants#CSS) \[member-only\].
+
+### Schedule
+
+#### Monday
+
+##### Morning
+
+- \[sizing\]
+  - max-content size of percentage-sized replaced elements <https://github.com/w3c/csswg-drafts/issues/1722>
+  - Auto-resize iframes and textarea based on content <https://github.com/w3c/csswg-drafts/issues/1771>
+  - intrinsic size of 'overflow: auto/scroll' and its impact on auto-sized grid/flex item ancestors <https://github.com/w3c/csswg-drafts/issues/1865> (put on monday)
+  - Restrict 'stretch' and 'fit-content' to width/height and max-\* <https://github.com/w3c/csswg-drafts/issues/1913>
+  - Define which replaced elements are affected by width: % rule zeroing min-content <https://github.com/w3c/csswg-drafts/issues/1889>
+  - Move min-width and min-height partial definitions to css-sizing <https://github.com/w3c/csswg-drafts/issues/1920>
+- \[css-backgrounds\] Background-clip and text underline <https://github.com/w3c/csswg-drafts/issues/900>
+- \[css-transform\] 3d contexts <https://github.com/w3c/csswg-drafts/issues/1944>
+  - Used value of backface-visibility:hidden makes the element a pseudo stacking context (as if having position:relative) if not a stacking context already.
+  - A (pseudo) stacking context with backface-visibility:hidden determines the visibility of its background phase and normal-flow phase by computing the face-orientation of its screen matrix. Painting of the phases is skipped if it is back-facing.
+- \[grid\]
+  - [%s and intrinsic sizes in Grid](https://github.com/w3c/csswg-drafts/issues/509) (tab & fantasai) (put on monday)
+  - [\[css-grid\] Percentage tracks and indefinite sizes](https://github.com/w3c/csswg-drafts/issues/1921)
+  - Basic support for “equal gutter” with justify-content on grid items <https://github.com/w3c/csswg-drafts/issues/1116>
+
+##### Afternoon
+
+- [Non-interop on sizing images in flexbox](https://github.com/w3c/csswg-drafts/issues/1322) (tab & fantasai & jen) (put on monday)
+- Image decoding (async or not) \[smfr\]
+- line-clamp (tab & eae?) (<https://twitter.com/bfgeek/status/925486371937980416>) (put on monday)
+- Cleaning up owners files for testing (gregwhitworth)
+- WG feedback about [testing policy](https://github.com/w3c/csswg-drafts/issues/1755), experience so far, what is needed (zcorpan)
+- \[css-values\] Computed value of a negative calc unit that doesn't allow negative lengths. <https://github.com/w3c/csswg-drafts/issues/434>
+- CSS Contain (Florian)
+  - To which box does paint containment clip? <https://github.com/w3c/csswg-drafts/issues/1809>
+  - Clarify style containment effect 1 <https://github.com/w3c/csswg-drafts/issues/1872>
+  - Do scoped counters create new counters <https://github.com/w3c/csswg-drafts/issues/1887>
+  - Becoming a formatting context root vs ruby: what should that do <https://github.com/w3c/csswg-drafts/issues/1457>
+- line height / line spacing related
+  - [unifying line grid / rhythm / line spacing proposals](https://lists.w3.org/Archives/Public/www-style/2017Oct/0013.html) (dbaron)
+  - Baseline considerations for Japanese (Nat) and Math (Daniel)
+  - Interop on the line-height property <https://github.com/w3c/csswg-drafts/issues/1796> (Florian)
+  - Interaction between line grid + size + position <https://github.com/w3c/csswg-drafts/issues/1856> (Florian)
+  - Clarify lh/rlh with line-height:normal (tbd after issue 1796) <https://github.com/w3c/csswg-drafts/issues/1253> Florian
+  - [Avoiding accidental double spacing](https://github.com/w3c/csswg-drafts/issues/938) (if remote is possible, probably after dbaron's proposal, koji)
+
+#### Tuesday
+
+##### Morning
+
+- [Interop on List-item outside marker](https://github.com/w3c/csswg-drafts/issues/1934) (fremy)
+- [logical/physical property cascade and the .style API](https://github.com/w3c/csswg-drafts/issues/1898) (tabatkins)
+- Interaction of scroll-snap and JS scrolling APIs (tab & fantasai) ([\#1707](https://github.com/w3c/csswg-drafts/issues/1707), [\#1708](https://github.com/w3c/csswg-drafts/issues/1708))
+- Navigation related (Tuesday please)
+  - [APIs for the spatial focus navigation proposal](https://github.com/lgeweb/spatial-navigation/blob/master/explainer.md) (jihye)
+  - Making spatial navigation properties more composable <https://github.com/w3c/csswg-drafts/issues/1910> (Florian)
+  - Turning spatial navigation on <https://github.com/w3c/csswg-drafts/issues/1940> (Florian)
+  - Controlling sequential navigation: <https://github.com/w3c/csswg-drafts/issues/1748> + <https://github.com/w3c/csswg-drafts/issues/1764> (Florian)
+
+11am: APA/ARIA
+
+11:30am-1pm: 3D transforms breakout.
+
+##### Afternoon
+
+- [scrollbar colors for compat](https://bugzilla.mozilla.org/show_bug.cgi?id=77790) (Tantek)
+  - draft: <https://github.com/tantek/css-scrollbar-style/blob/master/Overview.bs>
+- \[selectors\]
+  - Functional pseudo-class like :matches() with 0 specificity <https://github.com/w3c/csswg-drafts/issues/1170>
+  - :target-within? <https://github.com/w3c/csswg-drafts/issues/457>
+- \[css-color-4\] Working colorspace options (15min, before 2pm, Chris)
+- New author proposal for css-transforms-2 \[smfr\]
+- [Constructable Stylesheets](https://tabatkins.github.io/specs/construct-stylesheets/) (tab & eric)
+- [::selection cascade](https://github.com/w3c/csswg-drafts/issues/374)
+- \[css-multicol\] Small legacy issues (Rachel)
+  - z-order of column-rule and column scrolling <https://github.com/w3c/csswg-drafts/issues/1739>
+  - Text describing column boxes as block container boxes <https://github.com/w3c/csswg-drafts/issues/1738>
+  - Proposal to drop example XVII <https://github.com/w3c/csswg-drafts/issues/1740>
+- \[css-multicol\] Related issues with regard to column-span (Rachel)
+  - How do elements between column-span and its multicol ancestor appear around the span <https://github.com/w3c/csswg-drafts/issues/1072>
+  - Specification should define interaction between 'column-span' and 'column-fill' <https://github.com/w3c/csswg-drafts/issues/1075>
+  - how does absolute positioning work in a containing block that was split by a column-span? <https://github.com/w3c/csswg-drafts/issues/1894>
+- [Move Web Animations to CSSWG](https://lists.w3.org/Archives/Member/w3c-css-wg/2017OctDec/0091.html)
+- \[filter-effects\] filter
+  - filter should be defined to establish a containing block for fixed and absolutely positioned elements <https://github.com/w3c/fxtf-drafts/issues/11>
+- [Root Scroller - proposal to control what element counts as the "root" scroller for the page](https://github.com/bokand/root-scroller) (David Bokan) - any time except this morning
+
+#### Thursday
+
+09:00-12:00 [Houdini f2f](https://github.com/w3c/css-houdini-drafts/wiki/TPAC-F2F-November-2017) in Cypress C
+
+### Proposed Agenda
+
+- \[css-fonts-4\] Computed value for font-variation-settings <https://github.com/w3c/csswg-drafts/issues/1959> (Greg)
+- \[css-ui-4\] appearance (Florian)
+  - compatibility with existing content <https://github.com/w3c/csswg-drafts/issues/1250>
+  - what aspect of complex controls to preserve when appearance is none <https://github.com/w3c/csswg-drafts/issues/356>
+  - appearance:none and replaced elements <https://github.com/w3c/csswg-drafts/issues/1018>
+- \[css-ui-4\] user-select (Florian)
+  - user-select on form controls <https://github.com/w3c/csswg-drafts/issues/285>
+  - user-select on generated content and list markers <https://github.com/w3c/csswg-drafts/issues/284> (Florian, probably needs to get some WebPlat folks in the room)
+- \[css-ui-4\] Scrollbar styling <https://github.com/w3c/csswg-drafts/issues/107> (Florian)
+- Prepare snapshot 2018 (Florian)
+  - borken indices in the 2017 snapshot <https://github.com/w3c/csswg-drafts/issues/1007>
+  - Copy document conventions (and conformance?) from 2.1 to the snapshot? <https://github.com/w3c/csswg-drafts/issues/1867>
+
+### Scribes list
+
+Monday am
+
+- ~~Greg~~
+- ~~Brian~~
+- ~~Francois~~
+
+Monday pm
+
+- Ian
+- Tab
+- Emil
+
+Tuesday am
+
+- Greg
+- Tab
+
+Tuesday pm
+
+- Emil
+- -your name here-

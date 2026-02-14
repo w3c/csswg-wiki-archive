@@ -1,0 +1,185 @@
+---
+title: "CSS Region Templates"
+---
+
+# CSS Region Templates
+
+*This is a collection of ideas spawned from discussions at TPAC2011. Not very organized yet. This may evolve into zero or more new spec modules. May overlap with existing modules too.*
+
+*Related: [Paged View](../../spec/page-view/ "spec:page-view")*\
+*Related: [Fragments, Columns, Regions, Pages](../../spec/fragments-columns-regions-pages/ "spec:fragments-columns-regions-pages")*
+
+## Goals
+
+- Define a declarative way to generate regions or pages based on (a) amount of content in paged presentation and (b) some description of page design
+- Make it easy to produce a simple paginated view without script
+- Provide a way to generate pages with different layout, based on document design and available content
+- Have appropriate extensiblity to enable custom design and custom logic for page generation
+
+## Ideas
+
+### 1. Element-per-region
+
+Peter's template design \[1\] relies on region functionality where a region consumes exactly one element from flow. This is close to what would have happen if there was a forced break after each element, but region auto sizing doesn't work that way now.
+
+This calls for a special kind of region, and it will work better than manipulating with forced breaks.
+
+How about this:
+
+**region-type**: page \| column \| box \| slot \| frame \| auto (initial: auto)
+
+Region types have this meaning:
+
+- **page** - paginate the flow (“region-overflow:break”); “break-\*:page” treats region as a page
+- **column** - same as page, but “break-\*:column” moves to next region and content can be balanced (TBD how to tell which columns are on same page)
+- **box** - consuming one element at a time from the flow. No pagination, layout works as if the element from flow was the only child of the region
+- **slot** - same as 'box' but the element from flow replaces the region. Useful for incompatible containers (e.g. region is \<p\> and element is \<div\>). TBD how region and content properties are merged.
+- **frame** - consume all of the flow content, layout as if it was actual content
+- **auto** - page (if content doesn't fit) or frame (if it does) - as defined currently for “region-overflow:auto”
+
+This would replace 'region-overflow' property.
+
+> [!WARNING]
+> This idea is confusing for most who asked about it. It may still make sense if one property can solve multiple issues, but it will need better naming then and better description. There are other ideas on the way, this to be updated
+
+### 2. 'flow-into': element vs. content
+
+The issue of nested containers in regions (“region-type:box” vs. “region-type:slot”) can also be addressed by named flow source element sending its content to the flow – by adding a flow property to control that, or a new value for 'display' property **“display:content”**:
+
+``` code
+   <div style="flow-into:title; display:content">Lorem Revisited</div>
+```
+
+Then if template has a region for “title” flow
+
+``` code
+   <h1 style="flow-from:title; region-type: box"></h1>
+```
+
+it will not get an extra div in the heading.
+
+This can solve other issues of regions adding hierarchy that gets in the way:
+
+- Combine multiple \<OL\> elements in a flow and merge numbering
+- Remove semantic grouping elements which don't have rendering (and allow content to be laid out by parent layout, e.g. grid)
+
+Note that “display:content” can have effect when applied to any element (not necessarily related with flows and regions) – it has the same effect as if the element would be replaced in the DOM tree with its content.
+
+And of course this is a way to solve the problem of \<iframe\> special behavior:
+
+``` code
+   <iframe style="flow-into:article; "> -- iframe is named flow
+   <iframe style="flow-into:article; display:content"> -- iframe content is named flow
+   <iframe style="display:content"> -- similar to "seamless" iframe, but not transparent for dom and styles.
+```
+
+Effect on replaced elements is undefined, but at least should reset any non-default properties (e.g. \<img style=“border:medium solid red; display:content”\> would probably display the image but no border).
+
+> [!WARNING]
+> Issue: It may not be a good idea to reuse 'display' property, as it will create same kind of issues as 'display:none' – it overrides the display type that would be used if 'flow-into' property was removed. A special property would be safer, maybe **'flow-content-into'** or **flow-content-type:node\|content**
+
+### 3. Template from named flow
+
+This should work without any new features:
+
+``` code
+<div style="flow-into:template">
+   <div style="flow-from:header; region-type:frame;"></div>
+   <div style="flow-from:page; region-type:page;"></div>
+   <div style="flow-from:footer; region-type:frame;"></div>
+
+```
+
+Since regions and flow content are in the same document, nested flows must work (but for iframe-based flow it would not work without allowing flows to be shared across documents).
+
+Note: this style of headers/footers require that “region-type:frame” can render multiple copies of the flow.
+
+> [!WARNING]
+> Add a complete example, showing how named-flow template would work
+
+### 4. Page view with generated pages
+
+There may be many ways to generate pages from templates, but the outcome is reasonable to expect to be something like this:
+
+``` code
+<div id="page-view">
+   <!-- custom UI for page fiew -->
+   <div id="page-container">
+         <!-- generated pages, may or may not be in DOM -->
+         <div id="page1"></div>
+         <div id="page2"></div>
+         ...
+         <div id="pageN"></div>
+   </div>
+
+```
+
+> [!WARNING]
+> this example is probably misplaced, it doesn't help define a page
+
+#### 4.1. GC option - pages as generated content
+
+There could be a construct like this:
+
+``` code
+   Div#page-container { content:pages(first-template-flow-name) }
+```
+
+or even something more advanced, perhaps matching actual flows with flow placeholders in templates.
+
+Generated pages are not visible in DOM, but selectors should work:
+
+``` code
+   #page-container * { border: 1px solid black; }
+   #page-container::nth-child(even) { position:relative; left:<page-width> }
+```
+
+Selectors will work, but dynamically changing page properties from script needs something better than tweaking stylesheet. Perhaps R/W access to style of generated content elements via selector. Or perhaps a generic way to access content in “shadow dom”.
+
+#### 4.2. Script option - pages in DOM
+
+Generating pages by script doesn't need any new statndards. Not sure if there is middle ground of generating pages with some kind of databinding and then leaving in dom for scrip to modify if needed. To be explored.
+
+### 5. Selecting page templates
+
+#### 5.1. Automatic template selection
+
+Peter's page templates proposal \[1\] describes in detail one way of matching position in multi-stream content to the most appropriate next template. Formalizing such algorithm belongs to a much longer discussion, but in general the idea is to describe what a template can handle and match a template to available content.
+
+The template properties could be defined like this:
+
+``` code
+@page-template cover {
+    min-width:600px;
+    max-width:1200px;
+    flows:author title subtitle publisher;
+    flow-from:cover-page-template;
+}
+```
+
+Then at every new page currently available flows are matched with a template that can display some or all of the flows.
+
+#### 5.2. Event for page template selection
+
+It is very likely that advanced applications will require custom logic for content selection. That logic would need to be invoked when a new page is created.
+
+Could be like this:
+
+``` code
+function onNewPage(e) {
+    if (e.pageNumber == 1) {
+        e.pageTemplate = "template-cover";
+    } else {
+        e.pageTemplate = "template-two-column";
+    }
+}
+```
+
+### 6. Integration with "overflow:paged"
+
+Built-in page view (“overflow:paged”) could be defined as a set of paged generated from default empty template, binding to default flow (there is no such thing as “default flow” currently but it would make sense for such purpose).
+
+# References:
+
+- <http://epub-revision.googlecode.com/svn/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml> – templates proposal from IDPF/Adobe
+- <http://lists.w3.org/Archives/Public/www-style/2011Nov/0123.html> – post-tpac-11 “thoughts on page templates” from Alex

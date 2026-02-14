@@ -1,0 +1,110 @@
+---
+title: "Seattle F2F July 2011"
+---
+
+# Seattle F2F July 2011
+
+Topics for the [July 2011 CSS Working Group Face-to-Face](http://www.w3.org/Style/Group/2011/Seattle.html) meeting in Seattle, WA.
+
+- **When:** Sunday 24 – Tuesday 26 (adjacent to [SVG meeting](http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2011) with joint meeting on Tusday July 26)
+- **Where:** [South Lake Union Mariott Courtyard](http://www.marriott.com/hotels/travel/seacd-courtyard-seattle-downtown-lake-union/), Room: Puget Sound
+- **Registration:** [survey](http://www.w3.org/2002/09/wbs/99999/csswg-f2f-seattle-2011-07/)
+- **Weather:** [°C](http://forecast.weather.gov/MapClick.php?lat=47.627&lon=-122.341&unit=1&lg=en&FcstType=text) / [°F](http://forecast.weather.gov/MapClick.php?lat=47.627&lon=-122.341&unit=0&lg=en&FcstType=text)
+
+## Meeting Minutes
+
+**Sunday, 24 July**
+
+- [Sunday am](http://lists.w3.org/Archives/Public/www-style/2011Jul/0536.html) - IVS, Flexbox, HTML5
+- [Sunday pm](http://lists.w3.org/Archives/Public/www-style/2011Jul/0538.html) - F2Fs, Selectors 4, CSS3 Text, Serialization, Testing
+
+**Monday, 25 July**
+
+- [Monday am and early pm (with all Monday IRC)](http://lists.w3.org/Archives/Public/www-style/2011Aug/0069.html) - CSSOM, Regions, Floats/Exclusions
+- [rest of Monday pm](http://lists.w3.org/Archives/Public/www-style/2011Aug/0072.html) - Writing Modes, Gradients, Grid, Positioning
+
+**Tuesday, 26 July**
+
+- [Tuesday (joint with SVG)](http://lists.w3.org/Archives/Public/www-style/2011Aug/0176.html) - paint servers, pointer-events
+
+# Agenda
+
+## Sunday
+
+### Morning
+
+- IVS Feedback
+- Flexbox
+- HTML5 last call comments (deadline 3 Aug - I won't be there myself, Bert)
+
+### Afternoon
+
+- first two face-to-face meetings of 2012
+- Selectors 4 FPWD?
+- CSS3 Text
+- How we should spec serialization
+- CSS3 Conditional Rules FPWD?
+- View Mode Media Feature, Media Queries and MQ test suite
+- Testing
+
+## Monday
+
+### Morning
+
+- CSSOM
+- CSS Regions issues [CSS Regions Page](../../spec/css3-regions/ "spec:css3-regions")
+- CSS Floats / CSS Exclusions issues [CSS3 Floats](../../ideas/css3-floats/ "ideas:css3-floats")
+
+### Afternoon
+
+- Writing Modes - text orientation (after lunch, JDaggett to call in)
+- Gradients (or Tuesday?)
+- Grids
+- CSS Positioning - new ED submission
+- Flexbox followup
+
+## Tuesday
+
+- [CSS/SVG Joint Meeting](http://www.w3.org/Graphics/SVG/WG/wiki/F2F/Seattle_2011/Agenda)
+  - CSS3-UI / CSS/SVG overlap and harmonization (e.g. 'pointer-events' - see [issue 4 onward](http://wiki.csswg.org/spec/css3-ui#issue-4).) - Tantek
+  - …
+
+# Participants
+
+| Name | Representing | Arrive | Leave | Hotel | Flight Info |
+|----|----|----|----|----|----|
+| Tantek Çelik | self | 2011-07-23 19:30 SEA | 2011-07-26 17:30 train to Portland for OSCON | Concord Condominiums, Belltown | arriving: VA 746 |
+| Elika Etemad | self | 2011-07-23 12:04 SEA | 2011-07-31 10:00 SEA | ??? | AK 303 / AK 2637 |
+| Molly Holzschlag | self | 2011-07-23 18:36 SEA | 2011-07-27 SEA | Courtyard Lake Union | arriving: UA5464 leaving: UA876 |
+| Peter Linss | HP | 2011-07-23 16:32 | 2011-07-27 11:40 | Courtyard Lake Union | AA 6847 / AA 6978 |
+| Anne van Kesteren | Opera | 2011-07-23 18:53 | 2011-07-29 15:00 | Courtyard Lake Union | KL 4746 |
+| Alan Stearns | Adobe | n/a | n/a | Home | Cycling in |
+| Florian Rivoal | Opera | 2011-07-23 19:59 | 2011-07-27 11:12 | Courtyard Lake Union | coming: UA 998, leaving: UA 942 |
+| Daniel Glazman | Disruptive Innovations | 2011-07-22 11:50 | 2011-07-27 13:50 | Holiday Inn on Dexter Av. | coming: AF 306, leaving AF 309 |
+| Arron Eicholz | Microsoft | n/a | n/a | Home | Driving in |
+| Divya Manian | Opera | n/a | n/a | Home | Walking :) |
+| L. David Baron | Mozilla | 2011-07-23 13:23 | 2011-07-27 11:45 | [Best Western Loyal Inn](http://book.bestwestern.com/bestwestern/US/WA/Seattle-hotels/BEST-WESTERN-Loyal-Inn/Hotel-Overview.do?propertyCode=48062&srcPage=SelectHotel&isMapOpen=true&selectedHotels=) | UA322, UA844 |
+| Koji Ishii | self | 2011-07-23 09:37 SEA | 2011-07-27 13:32 SEA | ??? | UA 876 / UA 875 |
+| Tab Atkins | Google | ??? | ??? | ??? | ??? |
+| Kimberly Blessing | Comcast | 2011-07-23 10:23 | 2011-07-26 08:45 | Courtyard Lake Union | US 70 / US 78 |
+| Alex Mogilevsky | Microsoft | n/a | n/a | Casa de Alex | hitchiking |
+| Shane Stephens | Google | 2011-07-23 19:48 SEA | 2011-07-26 18:40 SEA | Courtyard Lake Union | QF3757 / QF3754 |
+| Sylvain Galineau | Microsoft | n/a | n/a | Home | Morning seaplane |
+| Simon Fraser | Apple | 2011-07-25 | 2011-07-26 | B&B | Train |
+| Dean Jackson | Apple | 2011-07-25 | 2011-07-26 | Courtyard Lake Union | Somehow |
+| Arno Gourdol | Adobe | 2011-07-24 | 2011-07-25 | Courtyard Lake Union |  |
+| Vincent Hardy | Adobe |  |  | Courtyard Lake Union |  |
+| Rik Cabanier | Adobe | 2011-07-26 | 2011-07-26 | Home | Driving |
+
+## Transport from to SEA
+
+2011-07-23:
+
+- Anne (18:53), Tantek (19:30), Florian (19:59) arrive around the same time - it probably makes most sense to just go hop on the light rail to our respective hotels/destinations. -t
+
+Peter will have a rental car and is available for rides from/to the airport for those with similar flight times.
+
+### Central Link Light Rail
+
+- [The Central Link Light Rail](http://en.wikipedia.org/wiki/Central_Link) is direct, frequent and close to both the suggested locations (and possibly hotels).
+- See [airport station map](http://www.portseattle.org/seatac/ground/publictransit.shtml) for detail.

@@ -1,0 +1,174 @@
+---
+title: "Tucson F2F 2013"
+---
+
+# Tucson F2F 2013
+
+**When**: February 4-6 2013
+
+**Where**: Tucson, Arizona USA
+
+**Hosts**: [Molly E. Holzschlag](http://about.me/mollydotcom) \| [City of Tucson](http://cms3.tucsonaz.gov/) \| [Office of the City Manager](http://cms3.tucsonaz.gov/citymgr) \| [University of Arizona](http://www.arizona.edu/) \| [Knowbility](http://www.knowbility.org/)
+
+## Meeting Minutes
+
+**Monday, 4 February:**
+
+- [Minutes Tucson F2F 2013-02-04 Monday Morning: Case-sensitivity, Transitions, Syntax, F2F Scheduling](http://lists.w3.org/Archives/Public/www-style/2013Feb/0255.html)
+- [Minutes Tucson F2F 2013-02-04 Monday Afternoon I: Text Decoration, Multi-col](http://lists.w3.org/Archives/Public/www-style/2013Feb/0363.html)
+- [Minutes Tucson F2F 2013-02-04 Monday Afternoon II: Backgrounds and Borders, Placeholder Styling](http://lists.w3.org/Archives/Public/www-style/2013Feb/0381.html)
+- [Minutes Tucson F2F 2013-02-04 Monday Afternoon III: Writing Modes, CSS2.1, CSS3 Syntax](http://lists.w3.org/Archives/Public/www-style/2013Feb/0382.html)
+
+**Tuesday, 5 February:**
+
+- [Minutes Tucson F2F 2013-02-05 Tue AM I: Paged Media 4, Flexbox](http://lists.w3.org/Archives/Public/www-style/2013Feb/0384.html)
+- [Minutes Tucson F2F 2013-02-05 Tue AM II: Transitions and Animations, Tokyo F2F](http://lists.w3.org/Archives/Public/www-style/2013Feb/0385.html)
+- [Minutes Tucson F2F 2013-02-05 Tue PM I: Fonts](http://lists.w3.org/Archives/Public/www-style/2013Feb/0391.html)
+- [Minutes Tucson F2F 2013-02-05 Tue PM II: Counter Styles, Top Layer Positioning, Variables](http://lists.w3.org/Archives/Public/www-style/2013Feb/0392.html)
+
+**Wednesday, 6 February:**
+
+- [Minutes Tucson F2F 2013-02-06 Wed AM I: Variables II, Placeholder Styling II, Regions, Conditional Rules](http://lists.w3.org/Archives/Public/www-style/2013Feb/0393.html)
+- [Minutes Tucson F2F 2013-02-06 Wed AM II: multi-col shrink-to-fit](http://lists.w3.org/Archives/Public/www-style/2013Feb/0471.html)
+- [Minutes Tucson F2F 2013-02-06 Wed PM I: Fragmenting Transformed Elements, Intrinsic Sizing Principles](http://lists.w3.org/Archives/Public/www-style/2013Feb/0472.html)
+- [Minutes Tucson F2F 2013-02-06 Wed PM II: CSS3 Text](http://lists.w3.org/Archives/Public/www-style/2013Feb/0474.html)
+
+## Meeting Information
+
+Note that these are the hours the rooms are reserved for us. We can start/stop accordingly.
+
+- Meeting location: University of Arizona, [Student Union Memorial Center](http://www.arizona.edu/buildings/student-union-memorial-center)
+- Monday 4th: Santa Rita Room 08:30 - 18:30
+- Tuesday 5th: Santa Cruz Room 08:30 - 17:00
+- Wednesday 6th: Santa Rita Room 08:30 - 18:30
+
+We will have standard catering with continental breakfast, morning coffee, box lunches (w/ vegetarian options), and afternoon tea (tea, coffee, baked goods). The Student Union has many restaurants and cafe's so while we need to be careful about waste, you do have plenty of options if your preferences are not met by these arrangements or you want something special. Information on parking, food venues and room locations are listed here: <http://www.union.arizona.edu/infodesk/maps/index.php>
+
+Weather Forecast: [°C](http://forecast.weather.gov/MapClick.php?lat=32.215&lon=-110.909&unit=1) or [°F](http://forecast.weather.gov/MapClick.php?lat=32.215&lon=-110.909)
+
+## Lodging
+
+DoubleTree by Hilton Hotel Tucson Reid Park\
+445 S. Alvernon Way,\
+Tucson, Arizona, 85711-4198, USA\
+TEL: 1-520-881-4200\
+
+- Reservations are now closed. If you need assistance at this point, let Molly know.
+
+## Dining and Events
+
+**Evening Meals** All meals are “Buy Your Own” unless otherwise noted.
+
+- Sunday: We have reservations from 7:30 at Old Pueblo Grille <http://www.metrorestaurants.com/restaurants/opg.asp> for anyone who wants to join. It's near the hotel, and has a fabulous historic atmosphere and great outdoor areas too. If you get in later than 7:30 pm not to worry, we're close to the airport too. Just text me via number on our private email list.
+- Monday: [Main Gate Square](http://www.maingatesquare.com/) - there's a wide selection of lovely [restaurants](http://www.maingatesquare.com/merchants/restaurants/) and [cafes](http://www.maingatesquare.com/merchants/cafes-desserts-coffee/) at the University of Arizona's Main Gate - walking distance from our meeting rooms. We can gather in groups and determine where to go. We will send at least one car back to the hotel and then down to the main area for folks who want to stay in or quickly drop things off.
+- Tuesday: Meeting wraps at 17:00 for the [Community Meetup](http://csswgtucson.eventbrite.com/). Folks can grab a bite before, return to the hotel if not participating, or come on down to the meetup where we'll have beer, wine and nibbles freely available. We'll be a hop and a skip from [4th Avenue](http://www.fourthavenue.org/) and [Downtown Tucson](http://www.downtowntucson.org/visit/dining/) with with all kinds of restaurants, bars and cafes for those wishing to eat a full meal before or after.
+- Wednesday: Normally we'd have a banquet, but it appears people are leaving and/or working on Wednesday night. I propose a small gathering at my place for those who wish to eat and socialize. Depending upon interest, this will be catered as I'm too busy to cook for all y'all. This time.
+- Thursday: For those still around, we can meet up for a casual breakfast or anything you like. I recommend we take a drive through the Saguaro National Monument for a look at some of the area's wildlife.
+
+I promise once again not to make Bert ride a horse.
+
+**Tuesday Meetup**
+
+Please see <http://csswgtucson.eventbrite.com/> for community meetup location and times.
+
+## Transport to/from Airport
+
+If you want a known face to meet you upon arrival, make sure you've added that to your notes. Otherwise, taxis and shared-ride shuttles are available (15.00 - 20.00) from the airport. With advanced notice, the Doubletree also offers pickup for free (please tip your driver, however)
+
+Be advised Tucson is very spread out and public transportation is really limited.
+
+## Transport to/from Meeting and Evening Event Locations
+
+Cars - cars will run each morning and evening of the event. On meeting days, please meet in the hotel lobby at 08:00.
+
+If you want to explore on your own, a rental car or taxi is best.
+
+## Participants
+
+Sorted by family name:
+
+| Name | Representing | Arrive | Leave | Hotel | Flight Info | Notes |
+|----|----|----|----|----|----|----|
+| Adams, Glenn | Cox | 03FEB | 07FEB | Doubletree |  | driving from CO |
+| Atkins, Tab | Google | Sun | Wednesday morning | DoubleTree | US 2952 13:55 |  |
+| Baron, L. David | Mozilla | Sun 3, 19:16 | Wed 6, 19:10 | Doubletree | UA 5532 / US 2779 + US 415 | have rental car reserved |
+| Bos, Bert | W3C | Sun 3, 21:05 | Thu 7, 12:55 | Doubletree | AA1379 / AA1546 | Pick up from the airport would be nice |
+| Çelik, Tantek | Mozilla | 2013-034 13:51 PHX | 2013-037 19:10 TUS | Doubletree | UA5588 / US2779+US415 | foodpref: pescatarian[\*](http://tantek.com/w/FoodPreferences) |
+| Daggett, John | Mozilla | Sun 3 Feb | Thurs 7 Feb | Doubletwee | UA 5532/6369 |  |
+| fantasai | Mozilla | ? | ? | Doubletree | ? | will take a rental car |
+| Fraser, Simon | Apple | Sun 3, 17:25 | Wed 6, 17:55 | Doubletree | SWA 539 / SWA 1337, SWA 2051 |  |
+| Holzschlag, Molly | W3C Invited Experts | n/a | n/a | Doubletree | n/a |  |
+| Linss, Peter | HP | 2/3 | 2/7 | Doubletree | driving | will have own car |
+| Sapin, Simon | Kozea | Sun 3, 21:45 | Thu 7, 9:40 | Doubletree | SWA 2784, SWA 3933 | Pick up from the airport would be nice |
+| Zilles, Steve | Adobe | 2/5 | 2/7 | ? | ? | Likely to arrive morning of 2/5, fly out late 2/7; Low Carbs diet |
+| Glazman, Daniel | Disruptive Innovations | Sun 3, 12:05pm | Thu 7, 02:05pm | Doubletree | SWA 2523, SWA 2782 | Pick up from the airport would be nice; spicy food forbidden |
+| Ishii, Koji | Rakuten | 2/2 | 2/7 | Doubletree | UA5479/AA2663 | Lodge on the dessert on 2/6 |
+| Taichi, Kawabata | NTT | 2/3 | 2/7 | DoubleTree | JL7562/AA1606 |  |
+| Atanassov, Rossen | Microsoft | Sun 3 | Wed 6 | Doubletree | ? | foodpred: same as Tantek |
+| Kazutaka, YAMAMOTO | NTT | 2/3 | 2/7 | DoubleTree | UA6452/UA6341 |  |
+
+Regrets:
+
+- Alan Stearns (conflicting company event)
+- Florian Rivoal (Cannot take vacations away from university at these dates)
+- Anton Prowse (Too far to travel)
+- Leif Arne Storset (Something came up that makes the timing really unfortunate)
+- Chris Lilley (Sorry)
+- John Jansen
+- Jet Villegas
+- Arron Eicholz (I will be on IRC)
+
+## Agenda
+
+#### Mon
+
+##### AM
+
+- case sensitivity of user identifiers
+- css3-syntax: [Have some parse errors make rules invalid without error recovery](http://lists.w3.org/Archives/Public/www-style/2013Feb/0040.html) eg. `@media ], all {…}`
+- css3-transitions issues ([round 1 of proposals](http://lists.w3.org/Archives/Public/www-style/2013Feb/0124.html), [proposal 2](https://www.w3.org/Bugs/Public/show_bug.cgi?id=14621))
+- F2F schedule: decide dates for Tokyo F2F, decide date/location for summer F2F (Europe?), confirm whether meeting at TPAC in Shenzhen
+
+##### PM
+
+- Text Decoration
+- css3-multicol: how can we speed up the REC? \[Bert\]
+- css3-background: how can we speed up the REC? \[Bert\]
+- Placeholder styling
+- Writing Modes
+- CSS2.1 – status of errata, editor's draft, publication
+
+#### Tue
+
+##### AM
+
+- Paged media
+- css3-flexbox issues
+- css3-animations issues - 11am
+
+##### PM
+
+- css3-fonts: font loader object, font matching details, remaining spec issues
+- Counter style issues
+- Top layer rendering <http://lists.w3.org/Archives/Public/www-style/2013Jan/0223.html>
+- Variables
+
+#### Wed
+
+##### AM
+
+- Variables followup
+- placeholder styling followup
+- Regions Update
+- Multicol
+
+##### PM
+
+- [rotating fragmented blocks](http://www.w3.org/mid/AFDF40EF-A5C9-45B0-8F74-082A461939FF@adobe.com)
+- Sizing - min/max
+- css3-text: text-justify, letter and word spacing, defining consistent behavior for line-break, word-break
+
+#### Deferred
+
+- css3-overflow
+- Techniques to allow for fast content appending <http://www.w3.org/mid/DUB120-DS13F99B5BEF632CC5EC5719A5370@phx.gbl> <http://lists.w3.org/Archives/Public/www-style/2013Jan/0183.html>

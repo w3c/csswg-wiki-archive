@@ -1,0 +1,122 @@
+---
+title: "Scribing For Meetings"
+---
+
+# Scribing For Meetings
+
+Minutes must be taken for every CSS Working Group call. At the beginning of each call, the chair chooses a scribe.
+
+## How To Scribe On IRC
+
+See the [IRC page on the W3C Wiki](https://www.w3.org/wiki/IRC) to find out how to join IRC. The CSSWG meet in the channel `#css`.
+
+Whether you're scribing or not, use this command first to declare you are present:
+
+``` code
+present+
+```
+
+Before you can scribe, you need to declare it. If you are the main scribe for the meeting, use this command:
+
+``` code
+ScribeNick: your_irc_nickname_here
+```
+
+If you are an additional scribe, use this command:
+
+``` code
+Scribe+
+```
+
+Once the meeting starts, each discussion needs to go in a topic. When about to discuss a topic that is *not* on GitHub, use this command. You can get the topic name from the agenda.
+
+``` code
+Topic: Topic name here
+```
+
+For topics on GitHub, you can ask github-bot to set the topic and post the minutes to the issue like this:
+
+``` code
+github-bot, topic https://github.com/w3c/csswg-drafts/issues/123456
+```
+
+You can end a topic by either starting a new topic, or telling github-bot to `end topic`. This will tell github-bot to post the minutes to a comment in the issue.
+
+If you don't want github-bot to comment in the issue, use this command:
+
+``` code
+github: none
+```
+
+You can also use “Subtopic” instead of “Topic” for subtopics, to create a hierarchy when there are related topics. It otherwise has the same effect as “Topic”.
+
+Once you've set the topic, people can start discussing it. To record what people are saying, use their IRC nickname like so. You don't need to write every word; just a summary of what they are saying.
+
+``` code
+SomeonesName: i propose we change the initial value of box-sizing to border-box
+SomeonesName: it would make more sense than content-box
+SomeoneElse: no, that would break web compat
+```
+
+If it's easier for you, you can use `…` instead of repeating their IRC nickname.
+
+``` code
+SomeonesName: i propose we change the initial value of box-sizing to border-box
+... it would make more sense than content-box
+SomeoneElse: no, that would break web compat
+```
+
+It is everyone's responsibility to make sure the minutes get recorded. If you can't keep up with everyone who's talking, you should interrupt and ask people to: speak more slowly, repeat themselves or stop talking while you catch up. Don't feel embarrassed about interrupting; we expect you to do it!
+
+When everyone agrees a resolution on a topic, use this command to record it. The chair will normally say the resolution, so they will tell you how to phrase it. Make sure you record it accurately.
+
+``` code
+RESOLVED: The resolution here
+```
+
+If the resolution sounds complicated, it's OK to ask someone else to write the resolution for you.
+
+Sometimes the chair forgets to call for a resolution before switching topics even though there seems to be agreement… this is a good opportunity to ask them if there is a resolution to record for the minutes. :) Sometimes they forget.
+
+Don't forget to tend the last topic at the end of the meeting.
+
+For more info, see [Scribing Conventions](../../tools/scribing-conventions/ "tools:scribing-conventions") and the blog post [How to scribe at TPAC](https://www.bocoup.com/blog/how-to-scribe-at-tpac).
+
+## Scribe Rota
+
+This Scribe Rota is a proposal that we are currently trialling. If you have feedback, please reply to the email thread about it on the w3c-css-wg mailing list. See the [2025-05-21 telecon minutes](https://lists.w3.org/Archives/Public/www-style/2025May/0016.html) for the original discussion about it.
+
+The scribe rota is a list of CSSWG members who are willing to be the main scribe for calls. Each week, we rotate to the next person in the list. When the meeting agenda is sent out, it will include the next three people on the rota.
+
+**Issue:** We discussed using a semi-random selection to select the next scribe. Do we want to try that instead? If so, how would we do that?
+
+If someone on the scribe rota is due to scribe next but they send regrets or don't want to scribe for that meeting, they can ask to postpone their turn and swap with the next person on the rota.
+
+If you do wish to postpone your turn to scribe, try to give advanced notice - if you can - by replying to the agenda email, so that we can let the next person on the rota know. However, it's OK to say at the start of the call, and we can ask an ad-hoc scribe to replace you instead.
+
+If the scribe wants to speak during the meeting, they can ask if the someone else on the scribe rota or ad-hoc scribe list is able to.
+
+The following people are signed up to the scribe rota. We are always looking for new scribes, so if you're willing to scribe, please add your name. If you no longer wish to do it, you can remove your name from the list at any time.
+
+1.  TabAtkins
+2.  ydaniv
+3.  emilio
+4.  fantasai
+5.  JoshT
+6.  kbabbitt
+
+### Ad-Hoc Scribes
+
+Some people would like to help with scribing, but are unable to commit to being on the scribe rota. Those people can sign up to be ad-hoc scribes.
+
+Ad-hoc scribes can help to scribe when:
+
+- we need someone to scribe for the main scribe when they speak
+- the main scribe is unable to scribe, and they weren't able to tell us in advance of the meeting
+- the main scribe can't scribe for the entire call
+
+The following people are signed up to be ad-hoc scribes. We are always looking for new scribes, so if you're willing to scribe, please add your name. If you no longer wish to do it, you can remove your name from the list at any time.
+
+(Alphabetical by IRC nickname)
+
+- bramus

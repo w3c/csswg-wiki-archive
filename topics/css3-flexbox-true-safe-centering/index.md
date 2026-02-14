@@ -1,0 +1,27 @@
+---
+title: "\"Safe\" or \"True\" Centering in Flexbox"
+---
+
+# "Safe" or "True" Centering in Flexbox
+
+**Spec:** css3-align | **Owner:** tabatkins, fantasai | **Status:** Resolved | **Added:** 2012-05-16 | **Action:** Decide between safe and true centering
+
+#### Background
+
+Existing centering methods, such as using auto margins or the 'text-align' property, use “safe” centering - if an object is wider than the container, it stops centering, and instead start/before aligns. This helps ensure that content doesn't accidentally fall off into an unscrollable area past the top/left edge of the screen.
+
+#### Problem Statement
+
+Safe centering is “safe”, and common. However, there are good use-cases for “true” centering, which continues to properly center an item even if it's larger than the container. Which one should we default to? Should we make it possible to opt into the other, and how?
+
+#### Proposal(s)
+
+A. (Current draft) “Safe” center by default. Authors can opt into true centering by adding the “true” keyword alongside their alignment value. (This violates the current Flexbox draft behavior.)
+
+B. “True” center by default. Authors can opt into safe centering by adding the “safe” keyword alongside their alignment value. (This doesn't match how Block layout usually works.)
+
+C. Assuming the alignment property is generalized, make it default to centering being layout-mode defined. Flexbox keeps its current behavior of “true” centering.
+
+#### Resolved
+
+Flexbox is true alignment. Other layout modes should be consistent if possible.

@@ -1,0 +1,45 @@
+---
+title: "Spec Advancement Process Proposal"
+---
+
+# Spec Advancement Process Proposal
+
+By default the CSSWG follows the W3C Process: <http://www.w3.org/Consortium/Process/>
+
+Here are some thoughts on improvements.
+
+## test and implementation driven agile spec advancement
+
+One of the most common criticisms of the CSSWG is that specs/features take too long. In particular many features have been implemented with vendor prefixes, inconveniencing authors and implementers alike for \*years\* and resulting in a need to maintain support for prefixed properties ([or worse](https://wiki.mozilla.org/Platform/Layout/CSS_Compatibility#CSS_vendor-prefix_compatibility)).
+
+This proposal provides improvements that encourage rapid draft advancement based on implementations and tests. - Tantek 2012-038
+
+### principles
+
+Drafts should:
+
+- be published early and often to show interest/activity
+- transparently note objections/issues
+- advance as rapidly as implementations and tests show interest/interop
+- drop/postpone features lacking implementation(s) to not hold up interoperable features
+
+### process for advancement
+
+Here are proposed improvements to accelerate the advancement of specs. These improvements can be adopted by the group as a whole, but they're also designed for individual editors to follow as a way to more rapidly advance their drafts.
+
+- \<html\>\<span style=“font-size:2em;font-weight:bold;vertical-align:-.1em;line-height:0.5em”\>✍\</span\>\</html\>**→ED.** Any member of the CSSWG may check-in an editor's draft to present ideas/content for consideration. Contents of the draft must be within the WG charter. Any objections raised by CSSWG members must be noted in the ED.
+- **ED→WD.** When any feature is implemented (as shown by publicly posted test case document), a public working draft is published.
+- **WD→LC.** When any feature is interoperably implemented by more than one implementation, the WD is automatically published as a LC with a 6 week review period. Any unimplemented feature is marked \*at-risk\*.
+  - This assessment is made at the CSSWG telcon/f2f.
+  - Since the CSSWG telcon is on Wednesday and the draft publication occurs the next Tuesday, if anyone posts a public test case document that disproves the interoperability before that Monday, the LC is merely published as another WD.
+  - When anyone posts public test case document(s) that disproves interoperability of all previously shown interoperable features, the LC review period clock is stopped.
+    - When implementations are updated to once again demonstrate interoperability of at least one feature, the 6 week LC review period is restarted as of that date.
+  - **LC→LC** updates may be published per editor discretion, e.g. when more features are implemented, which may result in fewer being \*at-risk\*. This restarts a new 6 week LC review period.
+- **LC→CR.** At the end of the LC review period, the LC is automatically published as a CR with a 6 month implementation period. Any unimplemented features are dropped and postponed to the next version. Any features with only one implementation, or not interoperably implemented are marked \*at-risk\*.
+  - **CR→CR** updates may be published per editor discretion, e.g. when more features are interoperably implemented, which may result in fewer being marked \*at-risk\*. The 6 month implementation period is \*not\* restarted.
+- **CR→PR.** At the end of the CR implementation period, the CR is automatically published as a PR. Any features that are not interoperably implemented are dropped and postponed to the next version.
+- **PR→REC.** Follow standard W3C process. Suggestions welcome.
+
+## See Also
+
+\* [W3C Spec Advancement proposal](http://www.w3.org/wiki/Spec_Advancement) - a generic form of this proposal for any W3C spec.

@@ -1,0 +1,315 @@
+---
+title: "CSS3 Grid Layout"
+---
+
+## CSS3 Grid Layout
+
+This page contains material to facilitate discussion of issues surrounding the CSS3 Grid Layout module.
+
+> [!NOTE]
+> This page is no longer used and exists only for historical reasons. File issues by emailing www-style.
+
+## spec pointers
+
+Link to current Working Draft:<http://www.w3.org/TR/css3-grid-layout/>
+
+Link to current Editor's draft: <http://dev.w3.org/csswg/css3-grid-align/>
+
+## Issues for San Diego, 2012 F2F Meeting
+
+#### Issues for Discussion
+
+##### Removal of named lines
+
+1.  Problems created through competing syntax of lines and templates
+    1.  Named lines must use strings to differentiate themselves from the idents of template layout. Requiring the quotes for lines seems unnecessary except to avoid syntax collision.
+    2.  Named lines require 4 times the number of named things when compared to template layout, e.g. grid-area: area; vs. grid-area: “top” “right” “bottom” “left”; See example below.
+    3.  Named lines combined with template syntax make it hard to create an all-encompassing shorthand for the grid as the strings for lines are conflicting with the strings for template rows.
+    4.  Span properties allow the author to specify the size of an item independent of its position, while lines (named or otherwise) are only denoting an ending position. The existence of both span and lines makes it confusing to authors as to which properties can be specified in short hands since the numbers used for lines versus spans are off by one. As a result we have declared that lines can only be referenced by names when used in short hands (numbers always refer to the span length).
+    5.  Specifying a (span) length for an auto placed grid item can't be done using the line syntax
+    6.  Arguments in favor of named lines is that they allow aliasing of positions even if grid items are overlapping (templates can't do that).
+    7.  Proposal is to remove named lines. In overlapping cases authors are still free to refer to position by number.
+
+Example showing named areas versus named lines:
+
+``` code
+<!-- Named areas using template property -->
+<style type="text/css">
+  @media (orientation: portrait) {
+      #grid { 
+          display: grid;
+          
+          /* The rows, columns and areas of the grid are defined visually using the */
+          /* grid-template property.  Each string is a row, and each word an area.  */
+          /* The number of words in a string determines the number of               */
+          /* columns. Note the number of words in each string must be identical.    */
+          grid-template: "title stats"
+                         "score stats"
+                         "board board"
+                         "ctrls ctrls";
+          
+          /* Columns and rows created with the template property can be assigned a sizing */
+          /* function with the grid-definition-columns and grid-definition-rows properties. */
+          grid-definition-columns: auto minmax(min-content, 1fr); 
+          grid-definition-rows: auto auto minmax(min-content, 1fr) auto
+      }
+  }
+  @media (orientation: landscape) {
+      #grid { 
+          display: grid;
+          
+          /* Again the template property defines areas of the same name, but this time */
+          /* positioned differently to better suit a landscape orientation.            */
+          grid-template: "title board"
+                         "stats board"
+                         "score ctrls";
+          
+          grid-definition-columns: auto minmax(min-content, 1fr); 
+          grid-definition-rows: auto minmax(min-content, 1fr) auto
+      }
+  }
+  /* The grid-area property places a grid item into named region (area) of the grid. */
+  #title    { grid-area: title }
+  #score    { grid-area: score }
+  #stats    { grid-area: stats }
+  #board    { grid-area: board }
+  #controls { grid-area: ctrls }
+</style>
+<div id="grid">
+  <div id="title">Game Title</div>
+  <div id="score">Score</div>
+  <div id="stats">Stats</div>
+  <div id="board">Board</div>
+  <div id="controls">Controls</div>
+
+```
+
+``` code
+<!-- Same markup using named line syntax instead -->
+<style type="text/css">
+  @media (orientation: portrait) {
+      #grid { 
+          display: grid;
+          
+          grid-definition-columns: 
+              "board-start" "ctrls-start" "title-start" "score-start" auto 
+              "title-end" "score-end" "stats-start"                   minmax(min-content, 1fr) 
+              "stats-end" "board-end" "ctrls-end";
+               
+          grid-definition-rows: 
+              "title-head" "stats-head"               auto 
+              "title-foot" "score-head"               auto 
+              "score-foot" "stats-foot" "board-head"  minmax(min-content, 1fr) 
+              "board-foot" "ctrls-head"               auto
+              "ctrls-foot"
+      }
+  }
+  @media (orientation: landscape) {
+      #grid { 
+          display: grid;
+          
+          grid-definition-columns: 
+              "title-start" "stats-start" "score-start"                          auto 
+              "title-end" "stats-end" "score-end" "board-start" "ctrls-start"    minmax(min-content, 1fr) 
+              "board-end" "ctrls-end";
+               
+          grid-definition-rows: 
+              "title-head" "board-head"                             auto 
+              "title-foot" "stats-head"                             auto 
+              "stats-foot" "board-foot" "score-head" "ctrls-head"   minmax(min-content, 1fr) 
+              "score-foot" "ctrls-foot"
+      }
+  }
+  /* The grid-area property places a grid item into region of the grid identified by */
+  /* top, right, bottom and left grid lines. */
+  #title    { grid-area: "title-head" "title-end" "title-foot" "title-start"}
+  #score    { grid-area: "score-head" "score-end" "score-foot" "score-start" }
+  #stats    { grid-area: "stats-head" "stats-end" "stats-foot" "stats-start" }
+  #board    { grid-area: "board-head" "board-end" "board-foot" "board-start" }
+  #controls { grid-area: "ctrls-head" "ctrls-end" "ctrls-foot" "ctrls-start" }
+</style>
+<div id="grid">
+  <div id="title">Game Title</div>
+  <div id="score">Score</div>
+  <div id="stats">Stats</div>
+  <div id="board">Board</div>
+  <div id="controls">Controls</div>
+
+```
+
+##### Anonymous grid items and positioning
+
+Latest ED incorporates text from latest Flexbox draft. Given the code below:
+
+``` code
+  <div id=”container” style=”display: grid”>
+    Text before
+    <div id=”gridItem”>Grid item</div>
+    Text after
+  </div>
+```
+
+1.  In the current draft we mimic flexbox behavior. Here is an image where each run of loose text and the one valid grid item are all treated as separate grid items when grid-auto-flow is none: \[Image not available\]
+2.  Here's the behavior when grid-auto-flow is columns: \[Image not available\]
+3.  Here's a proposed change in behavior where the grid element has its entire contents placed in a default anonymous grid item and then grid items are pulled out of the default grid item's flow by specifying a grid-row/column property resulting in a picture like this: \[Image not available\]
+4.  There is also proposal just like the last but allowing descendants of the grid (not just children) to become valid grid items by specifying a grid-column/row. If we were to adopt that proposal what to do with markup that surrounds the elements which became grid items, but that we don't want to position in our grid? Consider the markup below:
+
+``` code
+  <head>
+  <style>
+    #container{display:grid; grid-auto-flow:columns;}
+    label{grid-column: 1;}
+    input{grid-column: 2;}
+  </style>
+  </head>
+  <body>
+  <form id=”container” style=”display: grid”>
+    <ul>
+      <li>
+        <label id="label1">Input 1</label>
+        <input type="text" id="input1">
+      </li>
+      <li>
+        <label id="label2">Input 2</label>
+        <input type="text" id="input2">
+      </li>
+      <li>
+        <label id="label3">Input 3</label>
+        <input type="text" id="input3">
+      </li>
+    </ul>
+  </form>
+  </body>
+```
+
+Proposal is to postpone positioning of descendant grid item until level 2, when this issue can be more fully worked through. We could instead make it our mission to make the current spec future compatible with what we anticipate level 2 to contain.
+
+##### Shorthand naming
+
+1.  Was: Grid-rows, Grid-columns
+2.  Now: Grid-definition-rows, Grid-defintiion-columns
+3.  Alternative: Grid-row-tracks, Grid-column-tracks
+
+#### Other Status
+
+1.  Template now takes \<identifier\>s
+2.  Automatic placement updated
+    1.  Corrected issues in algorithm
+    2.  Adopted forward-only approach without backfilling items
+3.  Added new shorthand properties
+
+#### Next Steps
+
+1.  Planning to add gutters using column/row-gap
+2.  Also adding support for rules centered in gutters (rules don't take up space just like multi-column)
+3.  Work on remaining issues
+
+## Issues for August 8th, 2012 Telcon
+
+#### Alignment of Grid Items versus Flex Items versus Block-level Boxes
+
+Three scenarios where boxes are stretch aligned that we could make agree in their behavior (or not):
+
+1.  Resolving the width and left/right margins of block-level boxes that “stretch” to touch the edges of their containing block
+2.  Resolving the cross size property and cross margins of a flex item such that its margin box stretches to touch the cross edges of its line
+3.  Resolving the width or height and margins of a grid item such that the box touches the edges of its grid cell (now calling this grid-area in most recent ED)
+
+In each of these cases we satisfy the equation:
+
+margin_size1 + border_size1 + padding_size1 + box_size + padding_size2 + border_size2 + margin_size2 == space afforded to item by parent container
+
+1.  If box_size is auto then first we adjust it up or down to make the equation true while respecting any min/max constraints on the applicable dimension
+2.  If that isn't sufficient we do additional adjustments on margins
+    1.  If only one margin was auto we adjust that one to make the equation true
+    2.  If both of the margins were auto we take the additional space needed to make the equation true and divide it by 2 then assign it to each margin
+    3.  If neither margin is auto (the over-constrained case), we take the second margin (nearest the ending edge) and adjust it to make the equation true
+
+When both margins are auto though, and the box is larger than the space afforded to it by its container, a paragraph of section 9.3 for css3-box <http://www.w3.org/TR/css3-box/#blockwidth> says:
+
+If ‘width’ is not ‘auto’ and ‘border-left-width’ + ‘padding-left’ + ‘width’ + ‘padding-right’ + ‘border-right-width’ + scrollbar width (if any) (plus any of ‘margin-left’ or ‘margin-right’ that are not ‘auto’) is larger than the width of the containing block, then any ‘auto’ values for ‘margin-left’ or ‘margin-right’ are, for the following rules, treated as zero. We should drop this paragraph. It causes blocks that are wider than their parent not to be centered (unlike blocks that are narrower), which looks strange.
+
+The Grid ignores the paragraph above as suggested so that two auto margins will always result in a centered item whenever width/height is not auto. I noticed that Flexbox keeps the last sentence per its example 10 in the latest ED <http://dev.w3.org/csswg/css3-flexbox/#auto-margins>.
+
+#### Valid Grid Items
+
+Options:
+
+1.  Snap to definition of Flex Items i.e. every child element is a valid Grid Item and runs of loose text are surrounded in anonymous items (current ED)
+2.  Make contents of a Grid Element wrapped in a default Grid Item (which is an anonymous flow) and then pull elements out of that flow and onto grid by using the grid-\* properties
+
+The first option works well with auto-positioning while the second would require the author to write a (trivial) rule to declare that all elements are in fact grid items: \#grid \> \* { grid-area: auto; } The second option could be used position descendants of the grid in addition to just children, but breaks from the pattern established by flexbox and would differ from IE's current implementation.
+
+#### Shorthands
+
+We have four leaf level properties and five proposed shorthands. Are we overdoing it? See table below from Hamburg F2F.
+
+## Issues for Hamburg F2F
+
+#### Scoping
+
+1.  Scoping of Grid Layout and Template Layout specs
+2.  Drop named lines from this level of Grid Layout
+3.  Adopting column-gap etc., adding row equivalents, to handle gutters
+
+#### Naming
+
+1.  grid-flow: row \| column \| layer
+2.  rename grid-rows –\> grid-row-tracks, grid-columns –\> grid-column-tracks
+3.  auto/fit-content becomes fit-content
+4.  grid positioning properties:
+
+| *grid-area*   | grid-column          | grid-row          |
+|---------------|----------------------|-------------------|
+| grid-position | grid-column-position | grid-row-position |
+| grid-span     | grid-column-span     | grid-row-span     |
+
+=
+
+| *C R ΔC ΔR* | C ΔC | R ΔR |
+|-------------|------|------|
+| C R         | C    | R    |
+| ΔC ΔR       | ΔC   | ΔR   |
+
+#### Default handling of content
+
+1.  auto-placement is progressive pack w/ pointer @ start before corner
+2.  auto-placement vs. anonymous block
+3.  default value of grid-flow?
+4.  using “display: grid” vs implied grid lines
+5.  default track sizing is an open issue, if you have ideas let us know
+
+## Action Items
+
+## Issues
+
+### Issue 1:
+
+Grid-layer vs. z-index property for Grid
+
+##### Summary:
+
+Grid-layer is currently used to control the stacking of grid items in a grid element; one example of this that is mentioned in the current Editor's Draft would be using Grid to build a range control where the “thumb” of the control is displayed on top of the underlying track. However, grid-layer is in many ways similar to the existing z-index property. Is a separate property needed, or can z-index replace the grid-layer property?
+
+We have three primary goals w/r/t stacking Grid Items:
+
+1.  Grid Items draw atomically. Like positioned elements, Grid has among its primary scenarios the ability to overlap and layer its items (see section 2.4 Grid Layering of Elements). To avoid a counter-intuitive interleaving of backgrounds, floats, and inline content, Grid Items should form a new stacking context.
+2.  Grid Items are in front of the Grid Element, even when the Grid Item is given a negative z-index. Imagine an author using a tool, right-clicking an item and choosing “send to back” from a context menu. The tool should set a negative z-index on the Grid Item and not have the Grid Item disappear behind the background of the Grid Element. Also, if a nested Grid is given a positive z-index, it should not cover its Grid Items. Therefore we need the Grid Element to serve as a stacking context for its Grid Items.
+3.  We want to avoid impacting any positioning scenarios. It would be unexpected if the author inadvertently changed the containing block or the stacking context for a positioned descendant just by inserting a Grid layout in its ancestry.
+
+##### Proposal:
+
+Z-index should be used to replace the grid-layer property (i.e. z-index applies to statically-positioned Grid Items.) Specifically, in cases where Grid Items overlap, z-index provides control over the drawing order of Grid Items. Both Grid elements and Grid Items generate a stacking context as described for floats (step 5, section 14) in the [CSS3 Box Model](http://www.w3.org/TR/2007/WD-css3-box-20070809/#stacking).
+
+Note also that using z-index in place of grid-layer has been [previously discussed](http://lists.w3.org/Archives/Public/www-style/2011May/0344.html) on the www-styling mailing list.
+
+### Issue 2:
+
+Fractional-track sizing algorithm update
+
+##### Summary:
+
+The grid-sizing algorithm introduced in the previous [Editor's Draft](http://dev.w3.org/csswg/css3-grid-align) did not define the expected behavior for sizing a fractionally-sized track (e.g. 1fr, 2fr,…) when a Grid Element was shrink-to-fit. This should be addressed so that future implementations of Grid Layout behave predictably across platforms.
+
+##### Proposal:
+
+We propose to modify the existing grid sizing algorithm as follows: if the Grid Element is shrink-to-fit, then we set the size of a fractional track (i.e. determine the size of a '1fr' track) by making sure that 1) the proportions of all fractional tracks are preserved (e.g. a '1fr' track is half the size of a '2fr' track) and 2) fractional tracks are large enough contain all Grid Items that span them. If the Grid Element is not shrink-to-fit, then the algorithm follows its current path. The specific algorithm updates can be found in step 6 of the updated Editor's Draft.

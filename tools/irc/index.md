@@ -1,0 +1,68 @@
+---
+title: "Internet Relay Chat (IRC)"
+---
+
+# Internet Relay Chat (IRC)
+
+IRC stands for “Internet Relay Chat”. It's a chat protocol used extensively at W3C.
+
+The CSSWG's channels aren't particularly busy except during meetings or events, but they're a critical part of our communication tools. You're most likely to run into people during West Coast daytime / Europe evenings.
+
+## Server Info
+
+The main CSSWG channel is used by the CSS Working Group members during meetings and for quick coordination during off-hours. Topic is anything we work on. (Help with using CSS is off-topic.)
+
+Server
+: irc.w3.org
+
+Port
+: 6679 (or 80 if 6665 is blocked on your end)
+
+Channel
+: #css
+
+We also have a channel dedicated to CSS conformance testing. Here's the information you'll need:
+
+Server
+: irc.w3.org
+
+Port
+: 6679 (or 80 if 6665 is blocked on your end)
+
+Channel
+: #css-test
+
+## IRC Clients
+
+You'll need an IRC client. Opera has one built-in. Mozilla has “Chatzilla”, which is part of Seamonkey and available as an add-on for Firefox. Pidgin and Trillian can also do IRC. There's a web interface to IRC called [Mibbit](http://www.mibbit.com/) (type 'irc.w3.org:6665' as the server name). And there are various stand-alone programs you can download.
+
+## IRC Commands
+
+IRC commands are prefixed with a slash. (Any other text you type into a channel gets posted as a message to the channel.) Some basic commands:
+
+/nick gabriele
+: change your IRC nick to gabriele
+
+/join #css-test
+: join the #css-test channel
+
+/query fantasai
+: start a private chat with fantasai
+
+/me waves hi
+: speak in the third person
+
+/away sleep
+: set your away message to “sleep”
+
+/away
+: remove your away message
+
+/whois fantasai
+: see information about user fantasai including idle time and away msg (if any)
+
+## IRC Log
+
+The main CSSWG channel is archived by day at:
+
+- <https://logs.csswg.org/irc.w3.org/css/>

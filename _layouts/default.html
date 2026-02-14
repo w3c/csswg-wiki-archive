@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0366d6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#58a6ff" media="(prefers-color-scheme: dark)">
+<title>{{ page.title }} - CSS Working Group Wiki</title>
+<style>
+/* CSS Custom Properties */
+:root {
+  --color-bg: #fff;
+  --color-bg-subtle: #f6f8fa;
+  --color-text: #1f2328;
+  --color-text-muted: #656d76;
+  --color-link: #0366d6;
+  --color-link-hover: #0256b9;
+  --color-border: #d1d5db;
+  --color-border-muted: #e5e7eb;
+  --color-accent: #ddf4ff;
+  --color-accent-border: #54aeff;
+  --color-focus: #0366d6;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Monaco, "Cascadia Code", monospace;
+  --radius: 6px;
+  --radius-sm: 3px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --transition: 0.15s ease;
+  --container: min(900px, 100% - 2rem);
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --min-tap-size: 44px;
+  --focus-outline: 2px solid var(--color-focus);
+  --focus-offset: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0d1117;
+    --color-bg-subtle: #161b22;
+    --color-text: #e6edf3;
+    --color-text-muted: #8b949e;
+    --color-link: #58a6ff;
+    --color-link-hover: #79b8ff;
+    --color-border: #30363d;
+    --color-border-muted: #21262d;
+    --color-accent: #0c2d6b;
+    --color-accent-border: #1f6feb;
+    --color-focus: #58a6ff;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Reset & Base */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.0625rem);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Screen Reader Only - Visually hidden but accessible */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip Link for Accessibility */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-md);
+  background: var(--color-focus);
+  color: #fff;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius);
+  z-index: 1000;
+  text-decoration: none;
+  font-weight: 600;
+}
+.skip-link:focus {
+  top: var(--space-md);
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+
+/* Focus Styles - Consistent and visible */
+:focus {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+:focus:not(:focus-visible) {
+  outline: none;
+}
+:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+  border-radius: var(--radius-sm);
+}
+
+/* Container */
+.container {
+  width: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--space-md);
+}
+
+/* Edit Banner */
+.edit-banner {
+  background: var(--color-accent);
+  border-bottom: 1px solid var(--color-accent-border);
+  padding: var(--space-sm) 0;
+  font-size: 0.875rem;
+}
+.edit-banner .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-xs) var(--space-sm);
+  text-align: center;
+}
+.edit-banner a {
+  color: var(--color-link);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.edit-banner a:hover,
+.edit-banner a:focus {
+  text-decoration-thickness: 2px;
+}
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-md) 0;
+  position: sticky;
+  top: 0;
+  background: var(--color-bg);
+  z-index: 100;
+}
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm) var(--space-md);
+}
+.site-title {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.site-title a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+.site-title a:hover,
+.site-title a:focus {
+  text-decoration: underline;
+}
+
+/* Mobile Menu Toggle - Minimum touch target */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-sm);
+  min-width: var(--min-tap-size);
+  min-height: var(--min-tap-size);
+  cursor: pointer;
+  color: var(--color-text);
+  line-height: 1;
+  align-items: center;
+  justify-content: center;
+}
+.menu-toggle svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+  pointer-events: none;
+}
+.menu-toggle .icon-close { display: none; }
+.menu-toggle[aria-expanded="true"] .icon-menu { display: none; }
+.menu-toggle[aria-expanded="true"] .icon-close { display: block; }
+
+/* Navigation */
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs) var(--space-md);
+}
+.main-nav a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: 0.9375rem;
+  padding: var(--space-xs) var(--space-sm);
+  min-height: var(--min-tap-size);
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-sm);
+  transition: color var(--transition), background var(--transition);
+}
+.main-nav a:hover,
+.main-nav a:focus {
+  color: var(--color-link);
+  background: var(--color-bg-subtle);
+}
+.main-nav a[aria-current="page"] {
+  color: var(--color-text);
+  font-weight: 600;
+}
+.main-nav .nav-home svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+/* Mobile Navigation */
+@media (max-width: 640px) {
+  .menu-toggle { display: flex; }
+
+  .main-nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+    padding-top: var(--space-md);
+    border-top: 1px solid var(--color-border);
+    margin-top: var(--space-sm);
+  }
+  .main-nav.open { display: flex; }
+
+  .main-nav a {
+    padding: var(--space-md);
+    border-bottom: 1px solid var(--color-border-muted);
+    font-size: 1rem;
+    min-height: var(--min-tap-size);
+  }
+  .main-nav a:last-child { border-bottom: none; }
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: var(--space-lg) 0 var(--space-xl);
+}
+.main-content > .container {
+  max-width: var(--container);
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-md);
+  padding: var(--space-sm) 0;
+}
+.breadcrumb a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  padding: 0.25em 0.5em;
+  margin: -0.25em -0.5em;
+  border-radius: var(--radius-sm);
+  transition: color var(--transition), background var(--transition);
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+  color: var(--color-link);
+  background: var(--color-bg-subtle);
+}
+.breadcrumb a svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+.breadcrumb-current {
+  color: var(--color-text);
+  font-weight: 500;
+}
+.breadcrumb-sep {
+  color: var(--color-text-muted);
+  opacity: 0.5;
+  user-select: none;
+  font-size: 0.75em;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-sm);
+  line-height: 1.3;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child { margin-top: 0; }
+
+h1 { font-size: clamp(1.5rem, 1.3rem + 1vw, 2rem); }
+h2 { font-size: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem); }
+h3 { font-size: clamp(1.1rem, 1.05rem + 0.25vw, 1.25rem); }
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+a:hover { color: var(--color-link-hover); }
+
+p { margin: var(--space-md) 0; }
+
+/* Code */
+code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  background: var(--color-bg-subtle);
+  padding: 0.15em 0.35em;
+  border-radius: var(--radius-sm);
+}
+pre {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  background: var(--color-bg-subtle);
+  padding: var(--space-md);
+  border-radius: var(--radius);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+}
+
+/* Tables - Responsive with accessibility */
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: var(--space-md) 0;
+}
+.table-wrapper:focus {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 400px;
+}
+th, td {
+  border: 1px solid var(--color-border);
+  padding: var(--space-sm) var(--space-md);
+  text-align: left;
+}
+th {
+  background: var(--color-bg-subtle);
+  font-weight: 600;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: var(--space-lg);
+  margin: var(--space-md) 0;
+}
+li { margin: var(--space-xs) 0; }
+li::marker { color: var(--color-text-muted); }
+
+/* Definition Lists */
+dl { margin: var(--space-md) 0; }
+dt {
+  font-weight: 600;
+  color: var(--color-text);
+  margin-top: var(--space-md);
+}
+dt:first-child { margin-top: 0; }
+dd {
+  margin-left: 0;
+  padding-left: var(--space-lg);
+  border-left: 3px solid var(--color-border);
+  margin-top: var(--space-xs);
+  margin-bottom: var(--space-sm);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--color-border);
+  margin: var(--space-md) 0;
+  padding: var(--space-sm) var(--space-md);
+  color: var(--color-text-muted);
+  background: var(--color-bg-subtle);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
+/* Abbreviations */
+abbr[title] {
+  text-decoration: underline dotted;
+  text-decoration-thickness: 1px;
+  cursor: help;
+}
+
+/* GFM Alerts */
+.gfm-alert {
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+  border-radius: var(--radius);
+  border-left: 4px solid;
+}
+.gfm-alert p { margin: var(--space-sm) 0; }
+.gfm-alert p:first-child { margin-top: 0; }
+.gfm-alert p:last-child { margin-bottom: 0; }
+.gfm-alert-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-weight: 600;
+  margin-bottom: var(--space-xs) !important;
+}
+.gfm-alert-title svg { flex-shrink: 0; }
+
+.gfm-alert-note { background: #ddf4ff; border-color: #54aeff; color: #1f2328; }
+.gfm-alert-note .gfm-alert-title { color: #0969da; }
+.gfm-alert-tip { background: #d1fae5; border-color: #34d399; color: #1f2328; }
+.gfm-alert-tip .gfm-alert-title { color: #059669; }
+.gfm-alert-important { background: #e2d8f8; border-color: #a371f7; color: #1f2328; }
+.gfm-alert-important .gfm-alert-title { color: #8250df; }
+.gfm-alert-warning { background: #fff8c5; border-color: #d4a72c; color: #1f2328; }
+.gfm-alert-warning .gfm-alert-title { color: #9a6700; }
+.gfm-alert-caution { background: #ffebe9; border-color: #ff8182; color: #1f2328; }
+.gfm-alert-caution .gfm-alert-title { color: #d1242f; }
+
+@media (prefers-color-scheme: dark) {
+  .gfm-alert-note { background: #0c2d6b; border-color: #1f6feb; color: #e6edf3; }
+  .gfm-alert-note .gfm-alert-title { color: #58a6ff; }
+  .gfm-alert-tip { background: #0d3320; border-color: #238636; color: #e6edf3; }
+  .gfm-alert-tip .gfm-alert-title { color: #3fb950; }
+  .gfm-alert-important { background: #2d1f4d; border-color: #8957e5; color: #e6edf3; }
+  .gfm-alert-important .gfm-alert-title { color: #a371f7; }
+  .gfm-alert-warning { background: #3d2e00; border-color: #9e6a03; color: #e6edf3; }
+  .gfm-alert-warning .gfm-alert-title { color: #d29922; }
+  .gfm-alert-caution { background: #4d0d0d; border-color: #da3633; color: #e6edf3; }
+  .gfm-alert-caution .gfm-alert-title { color: #f85149; }
+}
+
+/* Selection */
+::selection {
+  background: var(--color-link);
+  color: #fff;
+}
+
+/* High Contrast Mode (Windows) */
+@media (forced-colors: active) {
+  .skip-link,
+  .menu-toggle,
+  .gfm-alert {
+    border: 1px solid currentColor;
+  }
+  a:focus,
+  button:focus {
+    outline: 2px solid currentColor;
+  }
+}
+
+/* Print Styles */
+@media print {
+  body { background: #fff; color: #000; }
+  .edit-banner, .menu-toggle, .skip-link { display: none; }
+  .site-header { position: static; border-bottom: 1px solid #ccc; }
+  a { color: #000; text-decoration: underline; }
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+  pre, code { background: #f5f5f5; }
+  .breadcrumb { display: none; }
+}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<div class="edit-banner" role="complementary" aria-label="Edit page">
+<div class="container">
+This is a replacement for wiki.csswg.org. <a href="https://github.com/{{ site.repository }}/edit/main/{{ page.path }}">You can edit this page.</a>
+</div>
+</div>
+
+<header class="site-header" role="banner">
+<div class="container header-content">
+<p class="site-title"><a href="{{ site.baseurl }}/">CSS Working Group Wiki</a></p>
+<button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+<svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+<path d="M3 12h18M3 6h18M3 18h18"/>
+</svg>
+<svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+<path d="M18 6L6 18M6 6l12 12"/>
+</svg>
+</button>
+<nav id="main-nav" class="main-nav" role="navigation" aria-label="Main">
+<a href="{{ site.baseurl }}/" class="nav-home" aria-label="Home">
+<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z"/></svg>
+</a>
+<a href="{{ site.baseurl }}/planning/">Planning</a>
+<a href="{{ site.baseurl }}/ideas/">Ideas</a>
+<a href="{{ site.baseurl }}/spec/">Specs</a>
+<a href="{{ site.baseurl }}/test/">Testing</a>
+<a href="{{ site.baseurl }}/wiki/">About</a>
+</nav>
+</div>
+</header>
+
+<main id="main-content" class="main-content" role="main">
+<div class="container">
+{% assign dir_parts = page.dir | remove_first: "/" | split: "/" %}
+{% if dir_parts.size > 0 and dir_parts[0] != "" %}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+<a href="{{ site.baseurl }}/" aria-label="Home">
+<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z"/></svg>
+</a>
+{%- assign crumb_path = "" -%}
+{%- for part in dir_parts -%}
+{%- assign crumb_path = crumb_path | append: "/" | append: part -%}
+<span class="breadcrumb-sep" aria-hidden="true">›</span>
+{%- if forloop.last -%}
+<span class="breadcrumb-current" aria-current="page">{{ part }}</span>
+{%- else -%}
+<a href="{{ site.baseurl }}{{ crumb_path }}/">{{ part }}</a>
+{%- endif -%}
+{%- endfor -%}
+</nav>
+{% endif %}
+{{ content }}
+</div>
+</main>
+
+<script>
+(function() {
+  'use strict';
+
+  // Mobile menu toggle with keyboard support
+  const menuToggle = document.querySelector('.menu-toggle');
+  const mainNav = document.getElementById('main-nav');
+
+  if (menuToggle && mainNav) {
+    menuToggle.addEventListener('click', function() {
+      const expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !expanded);
+      this.setAttribute('aria-label', expanded ? 'Open menu' : 'Close menu');
+      mainNav.classList.toggle('open');
+    });
+
+    // Close menu on Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && mainNav.classList.contains('open')) {
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.setAttribute('aria-label', 'Open menu');
+        mainNav.classList.remove('open');
+        menuToggle.focus();
+      }
+    });
+  }
+
+  // Mark current page in navigation
+  const currentPath = window.location.pathname;
+  document.querySelectorAll('.main-nav a').forEach(function(link) {
+    const linkPath = link.getAttribute('href');
+    if (linkPath === currentPath ||
+        (linkPath !== '/' && linkPath !== '/csswg-wiki/' && currentPath.startsWith(linkPath))) {
+      link.setAttribute('aria-current', 'page');
+    }
+  });
+
+  // Wrap tables for responsive scrolling with accessibility
+  document.querySelectorAll('main table').forEach(function(table, index) {
+    if (!table.parentElement.classList.contains('table-wrapper')) {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'table-wrapper';
+      wrapper.setAttribute('role', 'region');
+      wrapper.setAttribute('aria-label', 'Scrollable table');
+      wrapper.setAttribute('tabindex', '0');
+      table.parentNode.insertBefore(wrapper, table);
+      wrapper.appendChild(table);
+    }
+  });
+
+})();
+</script>
+<script src="{{ site.baseurl }}/assets/abbr.js"></script>
+<script src="{{ site.baseurl }}/assets/alerts.js"></script>
+</body>
+</html>
