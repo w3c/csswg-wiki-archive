@@ -1,145 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fonts for CSS Testing - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../test/">test</a> / fonts</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Fonts for CSS Testing"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#fonts-for-css-testing">Fonts for CSS Testing</a><ul class="toc">
-<li class="level2"><a href="#the-ahem-font">The Ahem Font</a><ul class="toc">
-<li class="level3"><a href="#installing-ahem-on-windows">Installing Ahem on Windows</a></li>
-<li class="level3"><a href="#installing-ahem-on-mac-os-x">Installing Ahem on Mac OS X</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#additional-fonts">Additional Fonts</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+\<html\> \<strong\> \<div style=“color: red; font-size: 20px; border: 2px solid red; padding: 10px; line-height: 1.5; text-align: center;”\> This page has been deprecated and is no longer being maintained. \<br\>For information on test fonts and authoring CSS Test suites, see: \<br\>\<a href=“<http://testthewebforward.org/docs/test-style-guidelines.html#special-fonts>”\><http://testthewebforward.org/docs/test-style-guidelines.html#special-fonts>\</a\> \</strong\> \</div\> \</html\>
 
-<p>
-&lt;html&gt;
-&lt;strong&gt;
-&lt;div style=“color: red; font-size: 20px; border: 2px solid red; padding: 10px; line-height: 1.5; text-align: center;”&gt;
-This page has been deprecated and is no longer being maintained. 
-&lt;br&gt;For information on test fonts and authoring <abbr title="Cascading Style Sheets">CSS</abbr> Test suites, see: 
-&lt;br&gt;&lt;a href=“<a href="http://testthewebforward.org/docs/test-style-guidelines.html#special-fonts" title="http://testthewebforward.org/docs/test-style-guidelines.html#special-fonts" rel="noopener">http://testthewebforward.org/docs/test-style-guidelines.html#special-fonts</a>”&gt;<a href="http://testthewebforward.org/docs/test-style-guidelines.html#special-fonts" title="http://testthewebforward.org/docs/test-style-guidelines.html#special-fonts" rel="noopener">http://testthewebforward.org/docs/test-style-guidelines.html#special-fonts</a>&lt;/a&gt;
-&lt;/strong&gt;
-&lt;/div&gt;
-&lt;/html&gt;
-</p>
+# Fonts for CSS Testing
 
-<h1 id="fonts-for-css-testing">Fonts for CSS Testing</h1>
-<p>
-If you don&#039;t have the <abbr title="Cascading Style Sheets">CSS</abbr> testing fonts installed, many tests will appear to fail! Install the <a href="http://www.w3.org/Style/CSS/Test/Fonts/" title="http://www.w3.org/Style/CSS/Test/Fonts/" rel="noopener">CSS Testing Fonts</a> if you want accurate test results.
-</p><h2 id="the-ahem-font">The Ahem Font</h2>
-<p>
-Many of the tests in the <abbr title="Cascading Style Sheets">CSS</abbr> Test Suite rely on the <a href="http://dev.w3.org/CSS/fonts/ahem/" title="http://dev.w3.org/CSS/fonts/ahem/" rel="noopener">Ahem font</a>. Ahem&#039;s glyphs are all rectangles, which makes it easy to test the inline box model. More details are available in the <a href="http://dev.w3.org/CSS/fonts/ahem/README" title="http://dev.w3.org/CSS/fonts/ahem/README" rel="noopener">Ahem README file</a>.
-</p>
+If you don't have the CSS testing fonts installed, many tests will appear to fail! Install the [CSS Testing Fonts](http://www.w3.org/Style/CSS/Test/Fonts/) if you want accurate test results.
 
-<p>
-The Ahem font is available in several formats for different systems. If we are missing yours, and you can create one, we would welcome your contribution. Send us a message on the <a href="http://lists.w3.org/Archives/Public/public-css-testsuite" title="http://lists.w3.org/Archives/Public/public-css-testsuite" rel="noopener">public-css-testsuite mailing list</a>.
-</p><h3 id="installing-ahem-on-windows">Installing Ahem on Windows</h3>
-<ol>
-<li class="level1">Download the <a href="http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF" title="http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF" rel="noopener">TrueType version of Ahem</a>.</li>
-<li class="level1 node">Open the folder where you downloaded the font file.<ul>
-<li class="level3 node"><strong>For Windows XP/Server 2003:</strong><ol>
-<li class="level6">Open the Fonts folder from the Control Panel.</li>
-<li class="level6">Drag-and-drop the downloaded file to the fonts folder.</li>
-</ol>
-</li>
-<li class="level3 node"><strong>For Windows Vista/Server 2008</strong><ol>
-<li class="level6">Right-click the downloaded font file and select “Install”.</li>
-<li class="level6">Confirm your acceptance to the User Account Control (UAC) pop-up window by selecting “continue”.</li>
-</ol>
-</li>
-</ul>
-</li>
-</ol><h3 id="installing-ahem-on-mac-os-x">Installing Ahem on Mac OS X</h3>
-<ol>
-<li class="level1">Download the <a href="http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF" title="http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF" rel="noopener">TrueType version of Ahem</a>.</li>
-<li class="level1">Right-click the font and select “Install”</li>
-<li class="level1">Alternatively, drag and drop in either <code>/Library/Fonts</code> (available for all users on the machine) or <code>~/Library/Fonts</code> (available to current user only)</li>
-</ol><h2 id="additional-fonts">Additional Fonts</h2>
-<p>
-Some tests require <a href="http://www.w3.org/Style/CSS/Test/Fonts/" title="http://www.w3.org/Style/CSS/Test/Fonts/" rel="noopener">additional fonts</a>. A zipfile of all <abbr title="Cascading Style Sheets">CSS</abbr> testing fonts is available.
-</p>
-</main>
-</body>
-</html>
+## The Ahem Font
+
+Many of the tests in the CSS Test Suite rely on the [Ahem font](http://dev.w3.org/CSS/fonts/ahem/). Ahem's glyphs are all rectangles, which makes it easy to test the inline box model. More details are available in the [Ahem README file](http://dev.w3.org/CSS/fonts/ahem/README).
+
+The Ahem font is available in several formats for different systems. If we are missing yours, and you can create one, we would welcome your contribution. Send us a message on the [public-css-testsuite mailing list](http://lists.w3.org/Archives/Public/public-css-testsuite).
+
+### Installing Ahem on Windows
+
+1.  Download the [TrueType version of Ahem](http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF).
+2.  Open the folder where you downloaded the font file.
+    - **For Windows XP/Server 2003:**
+      1.  Open the Fonts folder from the Control Panel.
+      2.  Drag-and-drop the downloaded file to the fonts folder.
+    - **For Windows Vista/Server 2008**
+      1.  Right-click the downloaded font file and select “Install”.
+      2.  Confirm your acceptance to the User Account Control (UAC) pop-up window by selecting “continue”.
+
+### Installing Ahem on Mac OS X
+
+1.  Download the [TrueType version of Ahem](http://dev.w3.org/CSS/fonts/ahem/AHEM____.TTF).
+2.  Right-click the font and select “Install”
+3.  Alternatively, drag and drop in either `/Library/Fonts` (available for all users on the machine) or `~/Library/Fonts` (available to current user only)
+
+## Additional Fonts
+
+Some tests require [additional fonts](http://www.w3.org/Style/CSS/Test/Fonts/). A zipfile of all CSS testing fonts is available.

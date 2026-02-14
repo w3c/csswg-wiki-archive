@@ -1,318 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>test:planning - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../test/">test</a> / planning</div>
-<main>
-<p>
-This is where fantasai dumps her todo list and tries to make sense of it.
-</p>
+---
+title: "test:planning"
+---
 
-<p>
-Time estimates are raw: multiply by three for planning purposes. <img src="/lib/images/smileys/wink.svg" class="icon smiley" alt=";-)" />
-</p>
-<div class="table sectionedit1"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> P </th><th class="col1"> Task </th><th class="col2"> Estimate </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> 1 </td><td class="col1"> Set up test.csswg.org to give useful information on stuff in SVN </td><td class="col2"> - </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> 2 </td><td class="col1"> … Set up automatic build of all validating tests on test.csswg.org (tests not in format aren&#039;t built, but can be repo) </td><td class="col2"> 1 day </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0 leftalign">   </td><td class="col1"> … … Set up Makefile on dev.w3.org to have option for importing tests from test.csswg.org </td><td class="col2"> 1/2 day </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> 2 </td><td class="col1"> … … Create test validation script </td><td class="col2"> 3 days </td>
-	</tr>
-	<tr class="row5">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … Set up validation framework </td><td class="col2"> 1/2 day </td>
-	</tr>
-	<tr class="row6">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … Validate filenames </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … … Complete renaming transition </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … Validate as well-formed XML or die </td><td class="col2"> 3 hours </td>
-	</tr>
-	<tr class="row9">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … Validate as XHTML (but don&#039;t die if HTMLonly) </td><td class="col2"> 3 hours</td>
-	</tr>
-	<tr class="row10">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … Validate <abbr title="Cascading Style Sheets">CSS</abbr> unless invalid flag (but don&#039;t die in case validator has bug) </td><td class="col2"> 3 hours </td>
-	</tr>
-	<tr class="row11">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … Validate other format-related stuff? </td><td class="col2"> ? </td>
-	</tr>
-	<tr class="row12">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … Dump reports of what fails validation </td><td class="col2"> 3 hours </td>
-	</tr>
-	<tr class="row13">
-		<td class="col0 leftalign">   </td><td class="col1"> … … Dump list of all filenames </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> W </td><td class="col1"> … Create nice coverage report with summary and one detailed page per section </td><td class="col2"> 1/2 day </td>
-	</tr>
-	<tr class="row15">
-		<td class="col0"> 3 </td><td class="col1"> … … Create index of tests by section, including title and assertions, to check for coverage </td><td class="col2"> 3 hours </td>
-	</tr>
-	<tr class="row16">
-		<td class="col0"> 1 </td><td class="col1"> … Set up directories for css3-background, others [need] (fantasai) </td><td class="col2"> 2 hours </td>
-	</tr>
-	<tr class="row17">
-		<td class="col0"> 1 </td><td class="col1"> … Set up ViewVC [need] (Peter) </td><td class="col2"> ? </td>
-	</tr>
-	<tr class="row18">
-		<td class="col0"> W </td><td class="col1"> … Create index of tests by contributor </td><td class="col2"> 2 hours </td>
-	</tr>
-	<tr class="row19">
-		<td class="col0"> 1 </td><td class="col1"> … Strip out Eira&#039;s completed tests (fantasai) </td><td class="col2"> done </td>
-	</tr>
-	<tr class="row20">
-		<td class="col0"> 1 </td><td class="col1"> … Check in Gabriele&#039;s first set of tests and strip out completed tests (fantasai) </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row21">
-		<td class="col0"> 1 </td><td class="col1"> … Assign Revenution to check in all their tests (Melinda) </td><td class="col2"> ? </td>
-	</tr>
-	<tr class="row22">
-		<td class="col0"> 1 </td><td class="col1"> … Get Microsoft&#039;s tests all checked in (Arron) </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row23">
-		<td class="col0"> 1 </td><td class="col1"> … Give Lachy, bz, Melinda, Zack SVN access (fantasai) </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row24">
-		<td class="col0 leftalign">   </td><td class="col1"> Get half of tests checked in without going through fantasai </td><td class="col2"> - </td>
-	</tr>
-	<tr class="row25">
-		<td class="col0 leftalign">   </td><td class="col1"> … Give more people dev.w3.org CVS access </td><td class="col2"> - </td>
-	</tr>
-	<tr class="row26">
-		<td class="col0 leftalign">   </td><td class="col1"> … … Teach Arron, Eira, Gabriele to check in tests </td><td class="col2"> ? </td>
-	</tr>
-	<tr class="row27">
-		<td class="col0 leftalign">   </td><td class="col1"> … Get review queue under control (2 weeks max lag for review) </td><td class="col2"> - </td>
-	</tr>
-	<tr class="row28">
-		<td class="col0 leftalign">   </td><td class="col1"> … … HP tests reviewed </td><td class="col2"> 30 hours </td>
-	</tr>
-	<tr class="row29">
-		<td class="col0 leftalign">   </td><td class="col1"> … … Eira&#039;s tests reviewed and checked in </td><td class="col2"> 8 hours </td>
-	</tr>
-	<tr class="row30">
-		<td class="col0 leftalign">   </td><td class="col1"> … … Microsoft tests partly reviewed </td><td class="col2"> ? </td>
-	</tr>
-	<tr class="row31">
-		<td class="col0 leftalign">   </td><td class="col1"> … Train several people (Arron, Eira, Gabriele?) to review tests well </td><td class="col2"> ? </td>
-	</tr>
-	<tr class="row32">
-		<td class="col0 leftalign">   </td><td class="col1"> … … Explain how to get involved reviewing tests ⇒ </td><td class="col2"> 4 hours </td>
-	</tr>
-	<tr class="row33">
-		<td class="col0"> 1 </td><td class="col1"> … … Handle all submissions through Subversion </td><td class="col2"> - </td>
-	</tr>
-	<tr class="row34">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … Set up test.csswg.org to give useful information on stuff in SVN ⇒ </td><td class="col2"> - </td>
-	</tr>
-	<tr class="row35">
-		<td class="col0"> 5 </td><td class="col1"> Write a blog post to encourage contributions </td><td class="col2"> 6 hours </td>
-	</tr>
-	<tr class="row36">
-		<td class="col0 leftalign">   </td><td class="col1"> … Figure out which tasks people can do at different ability levels </td><td class="col2 rightalign">  1 hour </td>
-	</tr>
-	<tr class="row37">
-		<td class="col0 leftalign">   </td><td class="col1"> … Explain how to get involved writing tests </td><td class="col2"> 2 hours </td>
-	</tr>
-	<tr class="row38">
-		<td class="col0"> 1 </td><td class="col1"> … … Teach Gabriele to use SVN and ask for feedback on process/documentation </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row39">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … Write documentation on using SVN to submit tests [need] </td><td class="col2"> 6 hours </td>
-	</tr>
-	<tr class="row40">
-		<td class="col0 leftalign">   </td><td class="col1"> … Explain how to get involved reviewing tests </td><td class="col2"> 3 hours </td>
-	</tr>
-	<tr class="row41">
-		<td class="col0 leftalign">   </td><td class="col1"> … … Set up a review system that people can use comfortably or at least list all tests that need review somewhere </td><td class="col2"> ? </td>
-	</tr>
-	<tr class="row42">
-		<td class="col0"> 1 </td><td class="col1"> … … … Write a requirements document for review system </td><td class="col2"> 4 hours </td>
-	</tr>
-	<tr class="row43">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … … Set up telecon for writing req document </td><td class="col2"> 15 min </td>
-	</tr>
-	<tr class="row44">
-		<td class="col0"> 1 </td><td class="col1"> … … Update review process on wiki </td><td class="col2"> done </td>
-	</tr>
-	<tr class="row45">
-		<td class="col0"> 2 </td><td class="col1"> … … Explain how to do a good review on the wiki </td><td class="col2"> 2 hours </td>
-	</tr>
-	<tr class="row46">
-		<td class="col0"> W </td><td class="col1"> … Explain how to get involved generating test results </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row47">
-		<td class="col0 leftalign">   </td><td class="col1"> … … Complete naming transition </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row48">
-		<td class="col0 leftalign">   </td><td class="col1"> … … Set up production harness on w3.org (Berfanger) </td><td class="col2"> ? </td>
-	</tr>
-	<tr class="row49">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … Get prototype harness to production quality (Berfanger) </td><td class="col2"> ? </td>
-	</tr>
-	<tr class="row50">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … … Create message-flag mapping table </td><td class="col2"> 2 hours </td>
-	</tr>
-	<tr class="row51">
-		<td class="col0 leftalign">   </td><td class="col1"> … … … … Create sample grouping table </td><td class="col2"> 3 hours </td>
-	</tr>
-	<tr class="row52">
-		<td class="col0 leftalign">   </td><td class="col1"> … Explain how to get involved reporting problems with existing reviewed tests </td><td class="col2"> 2 hours </td>
-	</tr>
-	<tr class="row53">
-		<td class="col0"> W </td><td class="col1"> … … Set up feedback system for tests and hook up to harness </td><td class="col2"> 4 hours </td>
-	</tr>
-	<tr class="row54">
-		<td class="col0"> 5 </td><td class="col1"> … Explain how to get involved fixing broken tests </td><td class="col2"> 3 hours </td>
-	</tr>
-	<tr class="row55">
-		<td class="col0"> 6 </td><td class="col1"> … … List all old tests and mark ones that need improvement </td><td class="col2"> ? </td>
-	</tr>
-	<tr class="row56">
-		<td class="col0"> 3 </td><td class="col1"> … … Set up Bugzilla to take bug reports against tests </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row57">
-		<td class="col0"> 3 </td><td class="col1"> … Load all harness and build system issues into Bugzilla </td><td class="col2"> 3 hours </td>
-	</tr>
-	<tr class="row58">
-		<td class="col0"> 3 </td><td class="col1"> … … Set up Bugzilla to take bug reports for harness </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row59">
-		<td class="col0"> W </td><td class="col1"> … Move wiki to csswg.org </td><td class="col2"> 4 hours </td>
-	</tr>
-	<tr class="row60">
-		<td class="col0"> W </td><td class="col1"> … Update w3.org/Style/<abbr title="Cascading Style Sheets">CSS</abbr> to be a better testing resource </td><td class="col2"> 1/2 day </td>
-	</tr>
-	<tr class="row61">
-		<td class="col0 leftalign">   </td><td class="col1"> … … Update w3.org/Style/<abbr title="Cascading Style Sheets">CSS</abbr> to new structure </td><td class="col2"> 1/2 day </td>
-	</tr>
-	<tr class="row62">
-		<td class="col0"> 2 </td><td class="col1"> … Organize a weekly test day [Wed or Thurs, ask Gabriele? </td><td class="col2"> done </td>
-	</tr>
-	<tr class="row63">
-		<td class="col0"> 1 </td><td class="col1"> Relicense all <abbr title="Cascading Style Sheets">CSS</abbr> test suites </td><td class="col2"> 4 hours </td>
-	</tr>
-	<tr class="row64">
-		<td class="col0 leftalign">   </td><td class="col1"> … Add new license links to all test suites </td><td class="col2"> 2 hours </td>
-	</tr>
-	<tr class="row65">
-		<td class="col0 leftalign">   </td><td class="col1"> … Update /Style/<abbr title="Cascading Style Sheets">CSS</abbr>/Test to point to new license </td><td class="col2"> done </td>
-	</tr>
-	<tr class="row66">
-		<td class="col0 leftalign">   </td><td class="col1"> Convince MSFT to develop tests in public </td><td class="col2"> - </td>
-	</tr>
-	<tr class="row67">
-		<td class="col0 leftalign">   </td><td class="col1"> … Talk with Dean/Jason/Chris about benefits of developing <abbr title="Cascading Style Sheets">CSS</abbr> tests in public SVN </td><td class="col2"> 1 hour</td>
-	</tr>
-	<tr class="row68">
-		<td class="col0 leftalign">   </td><td class="col1"> … … Make presentation on benefits of developing <abbr title="Cascading Style Sheets">CSS</abbr> tests in public </td><td class="col2"> 2 hours </td>
-	</tr>
-	<tr class="row69">
-		<td class="col0 leftalign">   </td><td class="col1"> Get at least one Opera employee contributing tests </td><td class="col2"> - </td>
-	</tr>
-	<tr class="row70">
-		<td class="col0 leftalign">   </td><td class="col1"> … Talk with snorre and chaals at TPAC </td><td class="col2"> - </td>
-	</tr>
-	<tr class="row71">
-		<td class="col0 leftalign">   </td><td class="col1"> Get at least one Mozilla employee (besides dbaron) contributing tests </td><td class="col2"> - </td>
-	</tr>
-	<tr class="row72">
-		<td class="col0 leftalign">   </td><td class="col1"> … Talk with Zack about creating/checking in css3-background tests </td><td class="col2"> 1 hour </td>
-	</tr>
-	<tr class="row73">
-		<td class="col0"> 7 </td><td class="col1"> Set up automatic build of test harness on csswg.org (Berfanger) </td><td class="col2"> ? </td>
-	</tr>
-	<tr class="row74">
-		<td class="col0"> 4 </td><td class="col1"> Set up build systems for css3-page etc. </td><td class="col2"> 1 day </td>
-	</tr>
-	<tr class="row75">
-		<td class="col0 leftalign">   </td><td class="col1"> Make system for importing tests from one suite to another </td><td class="col2"> 3 days </td>
-	</tr>
-</table>
-</main>
-</body>
-</html>
+This is where fantasai dumps her todo list and tries to make sense of it.
+
+Time estimates are raw: multiply by three for planning purposes. 😉
+
+| P | Task | Estimate |
+|----|----|----|
+| 1 | Set up test.csswg.org to give useful information on stuff in SVN | \- |
+| 2 | … Set up automatic build of all validating tests on test.csswg.org (tests not in format aren't built, but can be repo) | 1 day |
+|  | … … Set up Makefile on dev.w3.org to have option for importing tests from test.csswg.org | 1/2 day |
+| 2 | … … Create test validation script | 3 days |
+|  | … … … Set up validation framework | 1/2 day |
+|  | … … … Validate filenames | 1 hour |
+|  | … … … … Complete renaming transition | 1 hour |
+|  | … … … Validate as well-formed XML or die | 3 hours |
+|  | … … … Validate as XHTML (but don't die if HTMLonly) | 3 hours |
+|  | … … … Validate CSS unless invalid flag (but don't die in case validator has bug) | 3 hours |
+|  | … … … Validate other format-related stuff? | ? |
+|  | … … … Dump reports of what fails validation | 3 hours |
+|  | … … Dump list of all filenames | 1 hour |
+| W | … Create nice coverage report with summary and one detailed page per section | 1/2 day |
+| 3 | … … Create index of tests by section, including title and assertions, to check for coverage | 3 hours |
+| 1 | … Set up directories for css3-background, others \[need\] (fantasai) | 2 hours |
+| 1 | … Set up ViewVC \[need\] (Peter) | ? |
+| W | … Create index of tests by contributor | 2 hours |
+| 1 | … Strip out Eira's completed tests (fantasai) | done |
+| 1 | … Check in Gabriele's first set of tests and strip out completed tests (fantasai) | 1 hour |
+| 1 | … Assign Revenution to check in all their tests (Melinda) | ? |
+| 1 | … Get Microsoft's tests all checked in (Arron) | 1 hour |
+| 1 | … Give Lachy, bz, Melinda, Zack SVN access (fantasai) | 1 hour |
+|  | Get half of tests checked in without going through fantasai | \- |
+|  | … Give more people dev.w3.org CVS access | \- |
+|  | … … Teach Arron, Eira, Gabriele to check in tests | ? |
+|  | … Get review queue under control (2 weeks max lag for review) | \- |
+|  | … … HP tests reviewed | 30 hours |
+|  | … … Eira's tests reviewed and checked in | 8 hours |
+|  | … … Microsoft tests partly reviewed | ? |
+|  | … Train several people (Arron, Eira, Gabriele?) to review tests well | ? |
+|  | … … Explain how to get involved reviewing tests ⇒ | 4 hours |
+| 1 | … … Handle all submissions through Subversion | \- |
+|  | … … … Set up test.csswg.org to give useful information on stuff in SVN ⇒ | \- |
+| 5 | Write a blog post to encourage contributions | 6 hours |
+|  | … Figure out which tasks people can do at different ability levels | 1 hour |
+|  | … Explain how to get involved writing tests | 2 hours |
+| 1 | … … Teach Gabriele to use SVN and ask for feedback on process/documentation | 1 hour |
+|  | … … … Write documentation on using SVN to submit tests \[need\] | 6 hours |
+|  | … Explain how to get involved reviewing tests | 3 hours |
+|  | … … Set up a review system that people can use comfortably or at least list all tests that need review somewhere | ? |
+| 1 | … … … Write a requirements document for review system | 4 hours |
+|  | … … … … Set up telecon for writing req document | 15 min |
+| 1 | … … Update review process on wiki | done |
+| 2 | … … Explain how to do a good review on the wiki | 2 hours |
+| W | … Explain how to get involved generating test results | 1 hour |
+|  | … … Complete naming transition | 1 hour |
+|  | … … Set up production harness on w3.org (Berfanger) | ? |
+|  | … … … Get prototype harness to production quality (Berfanger) | ? |
+|  | … … … … Create message-flag mapping table | 2 hours |
+|  | … … … … Create sample grouping table | 3 hours |
+|  | … Explain how to get involved reporting problems with existing reviewed tests | 2 hours |
+| W | … … Set up feedback system for tests and hook up to harness | 4 hours |
+| 5 | … Explain how to get involved fixing broken tests | 3 hours |
+| 6 | … … List all old tests and mark ones that need improvement | ? |
+| 3 | … … Set up Bugzilla to take bug reports against tests | 1 hour |
+| 3 | … Load all harness and build system issues into Bugzilla | 3 hours |
+| 3 | … … Set up Bugzilla to take bug reports for harness | 1 hour |
+| W | … Move wiki to csswg.org | 4 hours |
+| W | … Update w3.org/Style/CSS to be a better testing resource | 1/2 day |
+|  | … … Update w3.org/Style/CSS to new structure | 1/2 day |
+| 2 | … Organize a weekly test day \[Wed or Thurs, ask Gabriele? | done |
+| 1 | Relicense all CSS test suites | 4 hours |
+|  | … Add new license links to all test suites | 2 hours |
+|  | … Update /Style/CSS/Test to point to new license | done |
+|  | Convince MSFT to develop tests in public | \- |
+|  | … Talk with Dean/Jason/Chris about benefits of developing CSS tests in public SVN | 1 hour |
+|  | … … Make presentation on benefits of developing CSS tests in public | 2 hours |
+|  | Get at least one Opera employee contributing tests | \- |
+|  | … Talk with snorre and chaals at TPAC | \- |
+|  | Get at least one Mozilla employee (besides dbaron) contributing tests | \- |
+|  | … Talk with Zack about creating/checking in css3-background tests | 1 hour |
+| 7 | Set up automatic build of test harness on csswg.org (Berfanger) | ? |
+| 4 | Set up build systems for css3-page etc. | 1 day |
+|  | Make system for importing tests from one suite to another | 3 days |

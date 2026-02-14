@@ -1,1006 +1,606 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Current test coverage of the Writing Modes spec - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../test/">test</a> / css-writing-modes-3</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Current test coverage of the Writing Modes spec"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#current-test-coverage-of-the-writing-modes-spec">Current test coverage of the Writing Modes spec</a><ul class="toc">
-<li class="level2"><a href="#introduction-to-writing-modes">§1 Introduction to Writing Modes</a><ul class="toc">
-<li class="level3"><a href="#module-interactions">§1.1 Module Interactions</a></li>
-<li class="level3"><a href="#values">§1.2 Values</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#inline-direction-and-bidirectionality">§2 Inline Direction and Bidirectionality</a><ul class="toc">
-<li class="level3"><a href="#specifying-directionalitythe-direction-property">§2.1 Specifying Directionality: the direction property</a></li>
-<li class="level3"><a href="#embeddings-and-overridesthe-unicode-bidi-property">§2.2 Embeddings and Overrides: the unicode-bidi property</a></li>
-<li class="level3"><a href="#example-of-bidirectional-text">§2.3 Example of Bidirectional Text</a></li>
-<li class="level3"><a href="#box-model-for-inline-boxes-in-bidirectional-context">§2.4 Box model for inline boxes in bidirectional context</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#introduction-to-vertical-text">§3 Introduction to Vertical Text</a><ul class="toc">
-<li class="level3"><a href="#block-flow-directionthe-writing-mode-property">§3.1 Block Flow Direction: the writing-mode property</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#inline-level-alignment4-inline-level-alignment">§4 Inline-level Alignment4 Inline-level Alignment</a><ul class="toc">
-<li class="level3"><a href="#introduction-to-baselines">§4.1 Introduction to Baselines</a></li>
-<li class="level3"><a href="#text-baselines">§4.2 Text Baselines</a></li>
-<li class="level3"><a href="#atomic-inline-baselines">§4.3 Atomic Inline Baselines</a></li>
-<li class="level3"><a href="#baseline-alignment">§4.4 Baseline Alignment</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#introduction-to-vertical-text-layout">§5 Introduction to Vertical Text Layout</a><ul class="toc">
-<li class="level3"><a href="#orienting-textthe-text-orientation-property">§5.1 Orienting Text: the text-orientation property</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#abstract-box-terminology">§6 Abstract Box Terminology</a><ul class="toc">
-<li class="level3"><a href="#abstract-dimensions">§6.1 Abstract Dimensions</a></li>
-<li class="level3"><a href="#flow-relative-directions">§6.2 Flow-relative Directions</a></li>
-<li class="level3"><a href="#line-relative-directions">§6.3 Line-relative Directions</a></li>
-<li class="level3"><a href="#abstract-to-physical-mappings">§6.4 Abstract-to-Physical Mappings</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#abstract-box-layout">§7 Abstract Box Layout</a><ul class="toc">
-<li class="level3"><a href="#principles-of-layout-in-vertical-writing-modes">§7.1 Principles of Layout in Vertical Writing Modes</a></li>
-<li class="level3"><a href="#dimensional-mapping">§7.2 Dimensional Mapping</a></li>
-<li class="level3"><a href="#orthogonal-flows">§7.3 Orthogonal Flows</a></li>
-<li class="level3"><a href="#flow-relative-mappings">§7.4 Flow-Relative Mappings</a></li>
-<li class="level3"><a href="#line-relative-mappings">§7.5 Line-Relative Mappings</a></li>
-<li class="level3"><a href="#purely-physical-mappings">§7.6 Purely Physical Mappings</a></li>
-<li class="level3"><a href="#table-caption-mappingsthe-caption-side-keywords">§7.7 Table Caption Mappings: the caption-side keywords</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#page-flowthe-page-progression-direction">§8 Page Flow: the page progression direction</a></li>
-<li class="level2"><a href="#glyph-composition">§9 Glyph Composition</a><ul class="toc">
-<li class="level3"><a href="#horizontal-in-vertical-compositionthe-text-combine-upright-property">§9.1 Horizontal-in-Vertical Composition: the text-combine-upright property</a></li>
-<li class="level3"><a href="#appendix-a-characters-and-properties">§Appendix A. Characters and Properties</a></li>
-<li class="level3"><a href="#appendix-bbidi-rules-for-html-4">§Appendix B: Bidi Rules for HTML 4</a></li>
-<li class="level3"><a href="#appendix-cvertical-scripts-in-unicode">§Appendix C: Vertical Scripts in Unicode</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# Current test coverage of the Writing Modes spec
 
-<h1 id="current-test-coverage-of-the-writing-modes-spec">Current test coverage of the Writing Modes spec</h1><h2 id="introduction-to-writing-modes">§1 Introduction to Writing Modes</h2>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#text-flow" title="http://www.w3.org/TR/css-writing-modes-3/#text-flow" rel="noopener">§1 Introduction to Writing Modes</a>
-</p>
+## §1 Introduction to Writing Modes
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1" rel="noopener">0/0 tests done.</a>
-</p>
+[§1 Introduction to Writing Modes](http://www.w3.org/TR/css-writing-modes-3/#text-flow)
 
-<p>
+[0/0 tests done.](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1)
+
 This section is just a general introduction to writing modes.
-</p><h3 id="module-interactions">§1.1 Module Interactions</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#placement" title="http://www.w3.org/TR/css-writing-modes-3/#placement" rel="noopener">§1.1 Module Interactions</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1.1" rel="noopener">0/0 tests done.</a>
-</p><h3 id="values">§1.2 Values</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#values" title="http://www.w3.org/TR/css-writing-modes-3/#values" rel="noopener">§1.2 Values</a>
-</p>
+### §1.1 Module Interactions
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1.2" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1.2" rel="noopener">0/0 tests done.</a>
-</p>
+[§1.1 Module Interactions](http://www.w3.org/TR/css-writing-modes-3/#placement)
 
-<p>
+[0/0 tests done.](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1.1)
+
+### §1.2 Values
+
+[§1.2 Values](http://www.w3.org/TR/css-writing-modes-3/#values)
+
+[0/0 tests done.](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-1.htm#s1.2)
+
 Albeit…
-</p>
 
-<p>
-<strong>“all properties defined in this specification also accept the inherit keyword as their property value”</strong>
-</p>
+**“all properties defined in this specification also accept the inherit keyword as their property value”**
 
-<p>
 requires appropriate tests for each property.
-</p><h2 id="inline-direction-and-bidirectionality">§2 Inline Direction and Bidirectionality</h2>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#text-direction" title="http://www.w3.org/TR/css-writing-modes-3/#text-direction" rel="noopener">§2 Inline Direction and Bidirectionality</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2" rel="noopener">96 tests done</a>
-</p>
+## §2 Inline Direction and Bidirectionality
 
-<p>
-“
-In <abbr title="Cascading Style Sheets">CSS</abbr>, the paragraph embedding level must be set (following UAX9 clause HL1) according to the direction property of the paragraph’s containing block rather than by the heuristic given in steps P2 and P3 of the Unicode algorithm. There is, however, one exception: when the computed unicode-bidi of the paragraph’s containing block is plaintext, the Unicode heuristics in P2 and P3 are used as described in [UAX9], without the HL1 override. 
-”
-</p>
-<ul>
-<li class="level1">Need to import CSS2.1 tests and Mozilla tests for UAX9 compliance and evaluate coverage.</li>
-</ul><h3 id="specifying-directionalitythe-direction-property">§2.1 Specifying Directionality: the direction property</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#direction" title="http://www.w3.org/TR/css-writing-modes-3/#direction" rel="noopener">§2.1 Specifying Directionality: the direction property</a>
-</p>
+[§2 Inline Direction and Bidirectionality](http://www.w3.org/TR/css-writing-modes-3/#text-direction)
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.1" rel="noopener">1 test done</a>
-</p>
+[96 tests done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2)
 
-<p>
+“ In CSS, the paragraph embedding level must be set (following UAX9 clause HL1) according to the direction property of the paragraph’s containing block rather than by the heuristic given in steps P2 and P3 of the Unicode algorithm. There is, however, one exception: when the computed unicode-bidi of the paragraph’s containing block is plaintext, the Unicode heuristics in P2 and P3 are used as described in \[UAX9\], without the HL1 override. ”
+
+- Need to import CSS2.1 tests and Mozilla tests for UAX9 compliance and evaluate coverage.
+
+### §2.1 Specifying Directionality: the direction property
+
+[§2.1 Specifying Directionality: the direction property](http://www.w3.org/TR/css-writing-modes-3/#direction)
+
+[1 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.1)
+
 At least 12 tests could be done.
-</p>
-<ol>
-<li class="level1">direction specifies inline base direction of a non-bidi paragraph</li>
-<li class="level1 node">direction specifies inline base direction of a bidi paragraph<ol>
-<li class="level2">direction specifies inline base direction of a bidi paragraph with unicode-bidi: embedding</li>
-<li class="level2">direction specifies inline base direction of a bidi paragraph with unicode-bidi: isolate</li>
-<li class="level2">direction specifies inline base direction of a bidi paragraph with unicode-bidi: override</li>
-</ol>
-</li>
-<li class="level1">direction informs the ordering of table column layout</li>
-<li class="level1">direction informs the direction of horizontal overflow</li>
-<li class="level1">direction informs the default alignment of text within a line <em>(isn&#039;t that the same as saying that direction specifies inline base direction of anon-bidi parg?)</em></li>
-<li class="level1">direction informs other layout effects that depend on the box’s inline base direction <em>so here we have to be creative or imaginative… eg lists, </em></li>
-<li class="level1">direction property has no effect on bidi reordering when specified on inline boxes whose unicode-bidi property’s value is normal</li>
-<li class="level1">The value of the direction property on the root element is also propagated to the initial containing block <em>Is this testable?</em></li>
-<li class="level1">direction set on <abbr title="HyperText Markup Language">HTML</abbr> Body element will only apply to background and overflow properties <em>How does it apply to background; how would it apply to background?</em></li>
-<li class="level1">The direction property, when specified for table column boxes, is not inherited by cells in the column</li>
-</ol>
 
-<p>
-“
-This property specifies the inline base direction or directionality of any bidi paragraph, embedding, isolate, or override established by the box. (See unicode-bidi.) In addition, it informs the ordering of table column layout, the direction of horizontal overflow, and the default alignment of text within a line, and other layout effects that depend on the box’s inline base direction.
-”
-</p><h3 id="embeddings-and-overridesthe-unicode-bidi-property">§2.2 Embeddings and Overrides: the unicode-bidi property</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#unicode-bidi" title="http://www.w3.org/TR/css-writing-modes-3/#unicode-bidi" rel="noopener">§2.2 Embeddings and Overrides: the unicode-bidi property</a>
-</p>
+1.  direction specifies inline base direction of a non-bidi paragraph
+2.  direction specifies inline base direction of a bidi paragraph
+    1.  direction specifies inline base direction of a bidi paragraph with unicode-bidi: embedding
+    2.  direction specifies inline base direction of a bidi paragraph with unicode-bidi: isolate
+    3.  direction specifies inline base direction of a bidi paragraph with unicode-bidi: override
+3.  direction informs the ordering of table column layout
+4.  direction informs the direction of horizontal overflow
+5.  direction informs the default alignment of text within a line *(isn't that the same as saying that direction specifies inline base direction of anon-bidi parg?)*
+6.  direction informs other layout effects that depend on the box’s inline base direction *so here we have to be creative or imaginative… eg lists,*
+7.  direction property has no effect on bidi reordering when specified on inline boxes whose unicode-bidi property’s value is normal
+8.  The value of the direction property on the root element is also propagated to the initial containing block *Is this testable?*
+9.  direction set on HTML Body element will only apply to background and overflow properties *How does it apply to background; how would it apply to background?*
+10. The direction property, when specified for table column boxes, is not inherited by cells in the column
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.2" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.2" rel="noopener">0 test done</a>
-</p>
+“ This property specifies the inline base direction or directionality of any bidi paragraph, embedding, isolate, or override established by the box. (See unicode-bidi.) In addition, it informs the ordering of table column layout, the direction of horizontal overflow, and the default alignment of text within a line, and other layout effects that depend on the box’s inline base direction. ”
 
-<p>
+### §2.2 Embeddings and Overrides: the unicode-bidi property
+
+[§2.2 Embeddings and Overrides: the unicode-bidi property](http://www.w3.org/TR/css-writing-modes-3/#unicode-bidi)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.2)
+
 Tests to be done:
-</p>
-<ul>
-<li class="level1">cross-link unicode-bidi tests linked to §2</li>
-<li class="level1">1 test: block-plaintext-004 variation with block-in-inline split paragraphs</li>
-<li class="level1">2 tests: block-plaintext-006 variation with white-space: pre and white-space: pre-lines</li>
-</ul>
 
-<p>
-non-&#039;normal&#039; unicode-bidi values will cause inline boxes to create scope which will override the intrinsic directionality of text
-</p>
-<ol>
-<li class="level1 node">a bidi parg with an unicode-bidi: normal inline box: the inline box is transparent to the unicode bidi algorithm; content is ordered as if the box’s boundaries were not there. <em>Weird: wasn&#039;t this already stated in 2.1? Compare: 2.1 statement: “The direction property has no effect on bidi reordering when specified on inline boxes whose unicode-bidi property’s value is normal, because the box does not open an additional level of embedding with respect to the bidirectional algorithm.” 2.2 statement: “when unicode-bidi is normal) an inline box is transparent to the unicode bidi algorithm; content is ordered as if the box’s boundaries were not there.”</em><ul>
-<li class="level2">Requires a test, e.g. with string of neutrals between two strong characters, element boundary in the middle</li>
-</ul>
-</li>
-<li class="level1">a bidi parg with an unicode-bidi: {embed | isolate | bidi-override | isolate-override | plaintext | inherit} inline box: <em>6 tests to do</em></li>
-<li class="level1 node">Because the unicode-bidi property does not inherit, setting bidi-override or plaintext on a block box will not affect any descendant blocks. Therefore these values are best used on blocks and inlines that do not contain any block-level structures.<ul>
-<li class="level3">This is tested above.</li>
-</ul>
-</li>
-</ol>
+- cross-link unicode-bidi tests linked to §2
+- 1 test: block-plaintext-004 variation with block-in-inline split paragraphs
+- 2 tests: block-plaintext-006 variation with white-space: pre and white-space: pre-lines
 
-<p>
-Notes: 
-</p>
+non-'normal' unicode-bidi values will cause inline boxes to create scope which will override the intrinsic directionality of text
 
-<p>
+1.  a bidi parg with an unicode-bidi: normal inline box: the inline box is transparent to the unicode bidi algorithm; content is ordered as if the box’s boundaries were not there. *Weird: wasn't this already stated in 2.1? Compare: 2.1 statement: “The direction property has no effect on bidi reordering when specified on inline boxes whose unicode-bidi property’s value is normal, because the box does not open an additional level of embedding with respect to the bidirectional algorithm.” 2.2 statement: “when unicode-bidi is normal) an inline box is transparent to the unicode bidi algorithm; content is ordered as if the box’s boundaries were not there.”*
+    - Requires a test, e.g. with string of neutrals between two strong characters, element boundary in the middle
+2.  a bidi parg with an unicode-bidi: {embed \| isolate \| bidi-override \| isolate-override \| plaintext \| inherit} inline box: *6 tests to do*
+3.  Because the unicode-bidi property does not inherit, setting bidi-override or plaintext on a block box will not affect any descendant blocks. Therefore these values are best used on blocks and inlines that do not contain any block-level structures.
+    - This is tested above.
+
+Notes:
+
 LRE (U+202A) LEFT-TO-RIGHT EMBEDDING
-</p>
 
-<p>
 RLE (U+202B) RIGHT-TO-LEFT EMBEDDING
-</p>
 
-<p>
 LRI (U+2066) LEFT-TO-RIGHT ISOLATE
-</p>
 
-<p>
 RLI (U+2067) RIGHT-TO-LEFT ISOLATE
-</p>
 
-<p>
 LRO (U+202D) LEFT-TO-RIGHT OVERRIDE
-</p>
 
-<p>
 RLO (U+202E) RIGHT-TO-LEFT OVERRIDE
-</p>
 
-<p>
 PDF (U+202C) POP DIRECTIONAL FORMATTING
-</p>
 
-<p>
 PDI (U+2069) POP DIRECTIONAL ISOLATE
-</p>
 
-<p>
 FSI (U+2068) FIRST STRONG ISOLATE
-</p>
 
-<p>
 LRM (U+200E) LEFT-TO-RIGHT MARK
-</p>
 
-<p>
 RLM (U+200F) RIGHT-TO-LEFT MARK
-</p><h3 id="example-of-bidirectional-text">§2.3 Example of Bidirectional Text</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#bidi-example" title="http://www.w3.org/TR/css-writing-modes-3/#bidi-example" rel="noopener">§2.3 Example of Bidirectional Text</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.3" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.3" rel="noopener">0 test done</a>
-</p>
+### §2.3 Example of Bidirectional Text
 
-<p>
+[§2.3 Example of Bidirectional Text](http://www.w3.org/TR/css-writing-modes-3/#bidi-example)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.3)
+
 2 tests could be done here: 1 with example 2 without lines breaking and 1 with example 2 with lines breaking by using a narrow container. We would need real hebrew characters.
-</p><h3 id="box-model-for-inline-boxes-in-bidirectional-context">§2.4 Box model for inline boxes in bidirectional context</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#bidi-box-model" title="http://www.w3.org/TR/css-writing-modes-3/#bidi-box-model" rel="noopener">§2.4 Box model for inline boxes in bidirectional context</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.4" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.4" rel="noopener">0 test done</a>
-</p>
+### §2.4 Box model for inline boxes in bidirectional context
 
-<p>
+[§2.4 Box model for inline boxes in bidirectional context](http://www.w3.org/TR/css-writing-modes-3/#bidi-box-model)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-2.htm#s2.4)
+
 x test to be done.
-</p><h2 id="introduction-to-vertical-text">§3 Introduction to Vertical Text</h2>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#vertical-intro" title="http://www.w3.org/TR/css-writing-modes-3/#vertical-intro" rel="noopener">§3 Introduction to Vertical Text</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-3.htm" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-3.htm" rel="noopener">0 test done</a>
-</p>
+## §3 Introduction to Vertical Text
 
-<p>
+[§3 Introduction to Vertical Text](http://www.w3.org/TR/css-writing-modes-3/#vertical-intro)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-3.htm)
+
 0 test to be done.
-</p>
 
-<p>
-This subsection has 4 examples. 
-</p>
+This subsection has 4 examples.
 
-<p>
 “This subsection is non-normative.”
-</p><h3 id="block-flow-directionthe-writing-mode-property">§3.1 Block Flow Direction: the writing-mode property</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#writing-mode" title="http://www.w3.org/TR/css-writing-modes-3/#writing-mode" rel="noopener">§3.1 Block Flow Direction: the writing-mode property</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-3.htm#s3.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-3.htm#s3.1" rel="noopener">13 tests done</a>
-</p>
+### §3.1 Block Flow Direction: the writing-mode property
 
-<p>
+[§3.1 Block Flow Direction: the writing-mode property](http://www.w3.org/TR/css-writing-modes-3/#writing-mode)
+
+[13 tests done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-3.htm#s3.1)
+
 ? test to be done.
-</p>
 
-<p>
 Testable: The principal writing mode of the document is determined by the writing-mode and direction values specified on the root element.
-</p>
 
-<p>
-<em>One idea is to create tests that will output, when passed, this reference file:
+*One idea is to create tests that will output, when passed, this reference file: <http://test.csswg.org/suites/css-multicol-1_dev/nightly-unstable/html4/reference/multicol-count-002-ref.htm>*
 
-<a href="http://test.csswg.org/suites/css-multicol-1_dev/nightly-unstable/html4/reference/multicol-count-002-ref.htm" title="http://test.csswg.org/suites/css-multicol-1_dev/nightly-unstable/html4/reference/multicol-count-002-ref.htm" rel="noopener">http://test.csswg.org/suites/css-multicol-1_dev/nightly-unstable/html4/reference/multicol-count-002-ref.htm</a>
-</em>
-</p>
-<pre class="code">a) block flow direction of block-level boxes in a block formatting context</pre>
+``` code
+a) block flow direction of block-level boxes in a block formatting context
+```
 
-<p>
 Test assertion: This test checks that block-level boxes in a horizontal-tb block formatting context are ordered from top to bottom
-</p>
 
-<p>
-Test assertion: This test checks that block-level boxes in a vertical-rl block formatting context are ordered from right to left
-<a href="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc.html" title="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc.html" rel="noopener">http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc.html</a>
-</p>
+Test assertion: This test checks that block-level boxes in a vertical-rl block formatting context are ordered from right to left <http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc.html>
 
-<p>
-Test assertion: This test checks that block-level boxes in a vertical-lr block formatting context are ordered from left to right
-<a href="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc4.html" title="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc4.html" rel="noopener">http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc4.html</a>
-</p>
+Test assertion: This test checks that block-level boxes in a vertical-lr block formatting context are ordered from left to right <http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc4.html>
 
-<p>
-Test assertion: This test checks that block-level boxes in a { right-floating box | abs. pos. box | inline-block | list | table-cell | table-caption } with &#039;writing-mode&#039; set to { &#039;vertical-lr&#039; | &#039;vertical-rl&#039; } creates a block formatting context for its block boxes.
-</p>
-<pre class="code">b) line box direction in a block container that contains inlines</pre>
+Test assertion: This test checks that block-level boxes in a { right-floating box \| abs. pos. box \| inline-block \| list \| table-cell \| table-caption } with 'writing-mode' set to { 'vertical-lr' \| 'vertical-rl' } creates a block formatting context for its block boxes.
 
-<p>
+``` code
+b) line box direction in a block container that contains inlines
+```
+
 Test assertion: This test checks that lines boxes in a horizontal-tb block container that contains inlines are ordered from top to bottom; the first line box of such block container is the topmost
-</p>
 
-<p>
 (Sub-test would be: Test assertion: This test checks that lines boxes in a horizontal-tb block container with direction set to rtl that contains inlines are ordered from top to bottom; the first line box of such block container is the topmost)
-</p>
 
-<p>
-Test assertion: This test checks that lines boxes in a vertical-rl block container that contains inlines are ordered from right to left; the first line box of such block container is the rightmost
-<a href="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc2.html" title="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc2.html" rel="noopener">www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc2.html</a>
-</p>
+Test assertion: This test checks that lines boxes in a vertical-rl block container that contains inlines are ordered from right to left; the first line box of such block container is the rightmost [www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc2.html](http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc2.html)
 
-<p>
-Test assertion: This test checks that lines boxes in a vertical-lr block container that contains inlines are ordered from left to right; the first line box of such block container is the leftmost
-<a href="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc3.html" title="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc3.html" rel="noopener">http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc3.html</a>
-</p>
+Test assertion: This test checks that lines boxes in a vertical-lr block container that contains inlines are ordered from left to right; the first line box of such block container is the leftmost <http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/testadhoc3.html>
 
-<p>
-Test assertion: This test checks that lines boxes in a { &#039;vertical-lr&#039; | &#039;vertical-rl&#039; } block container { right-floating box | abs. pos. box | inline-block | list | table-cell | table-caption } that contains inlines are ordered from { left to right | right to left }; the first line box of such block container is the { leftmost | rightmost }.
-</p>
-<pre class="code">c) progression of rows in a table</pre>
+Test assertion: This test checks that lines boxes in a { 'vertical-lr' \| 'vertical-rl' } block container { right-floating box \| abs. pos. box \| inline-block \| list \| table-cell \| table-caption } that contains inlines are ordered from { left to right \| right to left }; the first line box of such block container is the { leftmost \| rightmost }.
 
-<p>
+``` code
+c) progression of rows in a table
+```
+
 Test assertion: This test checks that rows in a horizontal-tb table are ordered from top to bottom; the first row is the topmost row
-</p>
 
-<p>
 (Sub-test would be: Test assertion: This test checks that rows in a horizontal-tb table with direction rtl are ordered from top to bottom; the first row is the topmost row.)
-</p>
 
-<p>
 Test assertion: This test checks that rows in a vertical-rl table are ordered from right to left; the first row is the rightmost row
-</p>
 
-<p>
 Test assertion: This test checks that rows in a vertical-lr table are ordered from left to right; the first row is the leftmost row
-</p>
 
-<p>
 For each of these tests, we need additional tests with
-</p>
-<ul>
-<li class="level1">1 test with colspan=2</li>
-<li class="level1">1 test with rowspan=2</li>
-<li class="level1">1 test with 1 thead, 2 tbody and 1 tfoot</li>
-</ul>
-<pre class="code">d) line boxes&#039; orientation</pre>
 
-<p>
-Test assertion: This test checks that line boxes&#039; orientation in a vertical-rl block container box is toward the right
-</p>
+- 1 test with colspan=2
+- 1 test with rowspan=2
+- 1 test with 1 thead, 2 tbody and 1 tfoot
 
-<p>
-Test assertion: This test checks that line boxes&#039; orientation in a vertical-lr block container box is toward the right
-</p>
-<pre class="code">e) &quot;the writing-mode property of the HTML BODY element is not propagated to the viewport.&quot;</pre>
+``` code
+d) line boxes' orientation
+```
 
-<p>
-<em>Possible (draft) tests for now: <a href="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/body-propagation-viewport-001.html" title="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/body-propagation-viewport-001.html" rel="noopener">body and rl</a> , <a href="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/body-propagation-viewport-004.html" title="http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/body-propagation-viewport-004.html" rel="noopener">body and lr</a>.</em>
-</p>
+Test assertion: This test checks that line boxes' orientation in a vertical-rl block container box is toward the right
 
-<p>
-<em>related CSS2.1 tests are <a href="http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5504-mrgn-l-002.htm" title="http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5504-mrgn-l-002.htm" rel="noopener">http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5504-mrgn-l-002.htm</a> 
-<a href="http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-012.htm" title="http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-012.htm" rel="noopener">http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-012.htm</a>
-<a href="http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-013.htm" title="http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-013.htm" rel="noopener">http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-013.htm</a>
-<a href="http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-014.htm" title="http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-014.htm" rel="noopener">http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-014.htm</a> 
-</em>
-</p>
+Test assertion: This test checks that line boxes' orientation in a vertical-lr block container box is toward the right
 
-<p>
-<em>There is a <abbr title="specification">spec</abbr> issue related to this; direction set on body should propagate to viewport. If such issue is resolved as such, then this will impact writing-modes <abbr title="specification">spec</abbr> and will make “rl” behave the same as &#039;direction: rtl&#039; set on body and vice versa for “lr” and &#039;direction: ltr&#039;.
-<a href="http://lists.w3.org/Archives/Public/www-style/2014Dec/0003.html" title="http://lists.w3.org/Archives/Public/www-style/2014Dec/0003.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2014Dec/0003.html</a>
-Implementors are converging interoperably toward propagating &#039;direction&#039; and &#039;writing-mode&#039;
-from body to viewport (or ICB); so issue 239 should be reopened and resolved accordingly
-<a href="https://wiki.csswg.org/spec/css2.1#issue-239" title="https://wiki.csswg.org/spec/css2.1#issue-239" rel="noopener">https://wiki.csswg.org/spec/css2.1#issue-239</a>
-</em>
-</p>
-<pre class="code">f) &quot;If a box has a different block flow direction than its containing block:
+``` code
+e) "the writing-mode property of the HTML BODY element is not propagated to the viewport."
+```
+
+*Possible (draft) tests for now: [body and rl](http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/body-propagation-viewport-001.html) , [body and lr](http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/body-propagation-viewport-004.html).*
+
+*related CSS2.1 tests are <http://test.csswg.org/suites/css2.1/nightly-unstable/html4/c5504-mrgn-l-002.htm> <http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-012.htm> <http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-013.htm> <http://test.csswg.org/suites/css2.1/nightly-unstable/html4/background-root-014.htm>*
+
+*There is a spec issue related to this; direction set on body should propagate to viewport. If such issue is resolved as such, then this will impact writing-modes spec and will make “rl” behave the same as 'direction: rtl' set on body and vice versa for “lr” and 'direction: ltr'. <http://lists.w3.org/Archives/Public/www-style/2014Dec/0003.html> Implementors are converging interoperably toward propagating 'direction' and 'writing-mode' from body to viewport (or ICB); so issue 239 should be reopened and resolved accordingly <https://wiki.csswg.org/spec/css2.1#issue-239>*
+
+``` code
+f) "If a box has a different block flow direction than its containing block:
 If the box has a specified display of inline, its display computes to inline-block. [CSS21]
 If the box is a block container, then it establishes a new block formatting context. 
-&quot;</pre>
+"
+```
 
-<p>
-<em>2 tests can be written out of this multiplied by 3 writing-modes values; we could create javascript tests as well</em>
-</p>
-<pre class="code">g) Testable: The content of replaced elements do not rotate due to the writing mode: 
-images, for example, remain upright.</pre>
-<pre class="code">h) Testable: However replaced content involving text (such as MathML content or form elements) 
+*2 tests can be written out of this multiplied by 3 writing-modes values; we could create javascript tests as well*
+
+``` code
+g) Testable: The content of replaced elements do not rotate due to the writing mode: 
+images, for example, remain upright.
+```
+
+``` code
+h) Testable: However replaced content involving text (such as MathML content or form elements) 
 should match the replaced element’s writing mode and line orientation if the UA supports such a 
-vertical writing mode for the replaced content.</pre>
+vertical writing mode for the replaced content.
+```
 
-<p>
-<em>2 tests can be written out of this multiplied by 3 writing-mode values</em>
-</p><h4 id="svg11-writing-mode-values">§3.1.1 SVG1.1 writing-mode Values</h4>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#svg-writing-mode" title="http://www.w3.org/TR/css-writing-modes-3/#svg-writing-mode" rel="noopener">§3.1.1 SVG1.1 writing-mode Values</a>
-</p>
+*2 tests can be written out of this multiplied by 3 writing-mode values*
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-3.htm#s3.1.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-3.htm#s3.1.1" rel="noopener">0 tests done</a>
-</p>
+#### §3.1.1 SVG1.1 writing-mode Values
 
-<p>
+[§3.1.1 SVG1.1 writing-mode Values](http://www.w3.org/TR/css-writing-modes-3/#svg-writing-mode)
+
+[0 tests done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-3.htm#s3.1.1)
+
 0 test to be done.
-</p><h2 id="inline-level-alignment4-inline-level-alignment">§4 Inline-level Alignment4 Inline-level Alignment</h2>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#inline-alignment" title="http://www.w3.org/TR/css-writing-modes-3/#inline-alignment" rel="noopener">§4 Inline-level Alignment4 Inline-level Alignment</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm" rel="noopener">0 test done</a>
-</p>
+## §4 Inline-level Alignment4 Inline-level Alignment
 
-<p>
-0 test to be done. 
-</p><h3 id="introduction-to-baselines">§4.1 Introduction to Baselines</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#intro-baselines" title="http://www.w3.org/TR/css-writing-modes-3/#intro-baselines" rel="noopener">§4.1 Introduction to Baselines</a>
-</p>
+[§4 Inline-level Alignment4 Inline-level Alignment](http://www.w3.org/TR/css-writing-modes-3/#inline-alignment)
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.1" rel="noopener">0 test done</a>
-</p>
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm)
 
-<p>
 0 test to be done.
-</p>
 
-<p>
+### §4.1 Introduction to Baselines
+
+[§4.1 Introduction to Baselines](http://www.w3.org/TR/css-writing-modes-3/#intro-baselines)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.1)
+
+0 test to be done.
+
 “This section is non-normative.” The section is mostly typography explanations.
-</p><h3 id="text-baselines">§4.2 Text Baselines</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#text-baselines" title="http://www.w3.org/TR/css-writing-modes-3/#text-baselines" rel="noopener">§4.2 Text Baselines</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.2" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.2" rel="noopener">5 tests done</a>
-</p>
+### §4.2 Text Baselines
 
-<p>
+[§4.2 Text Baselines](http://www.w3.org/TR/css-writing-modes-3/#text-baselines)
+
+[5 tests done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.2)
+
 x test to be done.
-</p>
 
-<p>
-What tests can be created out of this section? We set text-orientation to upright and then put several consecutive x&#039;es of different sizes?
-</p><h3 id="atomic-inline-baselines">§4.3 Atomic Inline Baselines</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#replaced-baselines" title="http://www.w3.org/TR/css-writing-modes-3/#replaced-baselines" rel="noopener">§4.3 Atomic Inline Baselines</a>
-</p>
+What tests can be created out of this section? We set text-orientation to upright and then put several consecutive x'es of different sizes?
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.3" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.3" rel="noopener">10 tests done</a>
-</p>
+### §4.3 Atomic Inline Baselines
 
-<p>
-If an atomic inline (such as an inline-block, inline-table, or replaced inline element) is not capable of providing its own baseline information, then the UA synthesizes a baseline table thus:
-alphabetic
-</p>
-<pre class="code">  The alphabetic baseline is assumed to be at the under margin edge.</pre>
+[§4.3 Atomic Inline Baselines](http://www.w3.org/TR/css-writing-modes-3/#replaced-baselines)
 
-<p>
+[10 tests done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.3)
+
+If an atomic inline (such as an inline-block, inline-table, or replaced inline element) is not capable of providing its own baseline information, then the UA synthesizes a baseline table thus: alphabetic
+
+``` code
+  The alphabetic baseline is assumed to be at the under margin edge.
+```
+
 central
-</p>
-<pre class="code">  The central baseline is assumed to be halfway between the under and over margin edges of the box. </pre>
 
-<p>
+``` code
+  The central baseline is assumed to be halfway between the under and over margin edges of the box. 
+```
+
 Only 9 tests would need to be done:
-</p>
-<ol>
-<li class="level1">an inline-block that is not capable of providing its own baseline information inside horizontal-tb text</li>
-<li class="level1">an inline-table that is not capable of providing its own baseline information inside horizontal-tb text</li>
-<li class="level1">a replaced inline element that is not capable of providing its own baseline information inside horizontal-tb text</li>
-<li class="level1">an inline-block that is not capable of providing its own baseline information inside vertical-rl text</li>
-<li class="level1">an inline-table that is not capable of providing its own baseline information inside vertical-rl text</li>
-<li class="level1">a replaced inline element that is not capable of providing its own baseline information inside vertical-rl text</li>
-<li class="level1">an inline-block that is not capable of providing its own baseline information inside vertical-lr text</li>
-<li class="level1">an inline-table that is not capable of providing its own baseline information inside vertical-lr text</li>
-<li class="level1">a replaced inline element that is not capable of providing its own baseline information inside vertical-lr text</li>
-</ol><h3 id="baseline-alignment">§4.4 Baseline Alignment</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#baseline-alignment" title="http://www.w3.org/TR/css-writing-modes-3/#baseline-alignment" rel="noopener">§4.4 Baseline Alignment</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.4" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.4" rel="noopener">50 tests done</a>
-</p>
+1.  an inline-block that is not capable of providing its own baseline information inside horizontal-tb text
+2.  an inline-table that is not capable of providing its own baseline information inside horizontal-tb text
+3.  a replaced inline element that is not capable of providing its own baseline information inside horizontal-tb text
+4.  an inline-block that is not capable of providing its own baseline information inside vertical-rl text
+5.  an inline-table that is not capable of providing its own baseline information inside vertical-rl text
+6.  a replaced inline element that is not capable of providing its own baseline information inside vertical-rl text
+7.  an inline-block that is not capable of providing its own baseline information inside vertical-lr text
+8.  an inline-table that is not capable of providing its own baseline information inside vertical-lr text
+9.  a replaced inline element that is not capable of providing its own baseline information inside vertical-lr text
 
-<p>
+### §4.4 Baseline Alignment
+
+[§4.4 Baseline Alignment](http://www.w3.org/TR/css-writing-modes-3/#baseline-alignment)
+
+[50 tests done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-4.htm#s4.4)
+
 x test to be done.
-</p>
 
-<p>
 “Aligning glyphs from different fonts within the same inline box. The glyphs are aligned by matching up the positions of the dominant baseline in their corresponding fonts.”
-</p>
-<ol>
-<li class="level1">The dominant baseline is used for alignment when aligning glyphs from different fonts within the same inline box. <em>Which font will decide in aligning all the glyphs of both fonts? The parent?</em></li>
-</ol>
 
-<p>
-  <em> Eg &lt;div&gt;&lt;span id=“outer”&gt;&lt;span style=“font-family: &#039;DejaVu Sans&#039;, Verdana;”&gt;L&lt;/span&gt;&lt;span style=“font-family: &#039;Liberation Serif&#039;, &#039;Times New Roman&#039;;&gt;Z&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;</em>
-</p>
-<pre class="code">// fc-match &quot;Times New Roman&quot; returns Liberation Serif//
+1.  The dominant baseline is used for alignment when aligning glyphs from different fonts within the same inline box. *Which font will decide in aligning all the glyphs of both fonts? The parent?*
+
+*Eg \<div\>\<span id=“outer”\>\<span style=“font-family: 'DejaVu Sans', Verdana;”\>L\</span\>\<span style=“font-family: 'Liberation Serif', 'Times New Roman';\>Z\</span\>\</span\>\</div\>*
+
+``` code
+// fc-match "Times New Roman" returns Liberation Serif//
 // fc-match Verdana returns DejaVu Sans//
-- The dominant baseline is used for alignment when aligning a child inline-level box within its parent. For the vertical-align value of baseline, child is aligned to the parent by matching the parent’s dominant baseline to the same baseline in the child. (E.g. if the parent’s dominant baseline is alphabetic, then the child’s alphabetic baseline is matched to the parent’s alphabetic baseline, even if the child’s dominant baseline is something else.) For values of sub, super, &lt;length&gt;, and &lt;percentage&gt;, the baselines are aligned as for baseline, but the child is shifted according to the offset given by its vertical-align value. 
-//So, &lt;span style=&quot;font-family: &#039;DejaVu Sans&#039;, Verdana;&quot;&gt;L &lt;span style=&quot;vertical-align: 10px;&quot;&gt;z&lt;/span&gt;&lt;/span&gt; We can create 4 tests//</pre><h2 id="introduction-to-vertical-text-layout">§5 Introduction to Vertical Text Layout</h2>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#intro-text-layout" title="http://www.w3.org/TR/css-writing-modes-3/#intro-text-layout" rel="noopener">§5 Introduction to Vertical Text Layout</a>
-</p>
+- The dominant baseline is used for alignment when aligning a child inline-level box within its parent. For the vertical-align value of baseline, child is aligned to the parent by matching the parent’s dominant baseline to the same baseline in the child. (E.g. if the parent’s dominant baseline is alphabetic, then the child’s alphabetic baseline is matched to the parent’s alphabetic baseline, even if the child’s dominant baseline is something else.) For values of sub, super, <length>, and <percentage>, the baselines are aligned as for baseline, but the child is shifted according to the offset given by its vertical-align value. 
+//So, <span style="font-family: 'DejaVu Sans', Verdana;">L <span style="vertical-align: 10px;">z</span></span> We can create 4 tests//
+```
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm" rel="noopener">0 test done</a>
-</p>
+## §5 Introduction to Vertical Text Layout
 
-<p>
+[§5 Introduction to Vertical Text Layout](http://www.w3.org/TR/css-writing-modes-3/#intro-text-layout)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm)
+
 0 test to be done.
-</p>
 
-<p>
 This subsection appears to be only terminology and presentation or introductory.
-</p><h3 id="orienting-textthe-text-orientation-property">§5.1 Orienting Text: the text-orientation property</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#text-orientation" title="http://www.w3.org/TR/css-writing-modes-3/#text-orientation" rel="noopener">§5.1 Orienting Text: the text-orientation property</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm#s5.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm#s5.1" rel="noopener">12 test done</a>
-</p>
+### §5.1 Orienting Text: the text-orientation property
 
-<p>
+[§5.1 Orienting Text: the text-orientation property](http://www.w3.org/TR/css-writing-modes-3/#text-orientation)
+
+[12 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm#s5.1)
+
 x test to be done.
-</p><h4 id="vertical-typesetting-and-font-features">§5.1.1 Vertical Typesetting and Font Features</h4>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#vertical-font-features" title="http://www.w3.org/TR/css-writing-modes-3/#vertical-font-features" rel="noopener">§5.1.1 Vertical Typesetting and Font Features</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm#s5.1.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm#s5.1.1" rel="noopener">0 test done</a>
-</p>
+#### §5.1.1 Vertical Typesetting and Font Features
 
-<p>
+[§5.1.1 Vertical Typesetting and Font Features](http://www.w3.org/TR/css-writing-modes-3/#vertical-font-features)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm#s5.1.1)
+
 x test to be done.
-</p><h4 id="mixed-vertical-orientations">§5.1.2 Mixed Vertical Orientations</h4>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#vertical-orientations" title="http://www.w3.org/TR/css-writing-modes-3/#vertical-orientations" rel="noopener">§5.1.2 Mixed Vertical Orientations</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm#s5.1.2" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm#s5.1.2" rel="noopener">0 test done</a>
-</p>
+#### §5.1.2 Mixed Vertical Orientations
 
-<p>
+[§5.1.2 Mixed Vertical Orientations](http://www.w3.org/TR/css-writing-modes-3/#vertical-orientations)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-5.htm#s5.1.2)
+
 x test to be done.
-</p><h2 id="abstract-box-terminology">§6 Abstract Box Terminology</h2>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#abstract-box" title="http://www.w3.org/TR/css-writing-modes-3/#abstract-box" rel="noopener">§6 Abstract Box Terminology</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm" rel="noopener">0 test done</a>
-</p>
+## §6 Abstract Box Terminology
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6" rel="noopener">0 test to be done</a>
-</p>
+[§6 Abstract Box Terminology](http://www.w3.org/TR/css-writing-modes-3/#abstract-box)
 
-<p>
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm)
+
+[0 test to be done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6)
+
 This section is about terminology.
-</p><h3 id="abstract-dimensions">§6.1 Abstract Dimensions</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#abstract-dimensions" title="http://www.w3.org/TR/css-writing-modes-3/#abstract-dimensions" rel="noopener">§6.1 Abstract Dimensions</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.1" rel="noopener">0 test done</a>
-</p>
+### §6.1 Abstract Dimensions
 
-<p>
+[§6.1 Abstract Dimensions](http://www.w3.org/TR/css-writing-modes-3/#abstract-dimensions)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.1)
+
 0 test to be done.
-</p>
 
-<p>
 This subsection is about terminology.
-</p><h3 id="flow-relative-directions">§6.2 Flow-relative Directions</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#logical-directions" title="http://www.w3.org/TR/css-writing-modes-3/#logical-directions" rel="noopener">§6.2 Flow-relative Directions</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.2" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.2" rel="noopener">0 test done</a>
-</p>
+### §6.2 Flow-relative Directions
 
-<p>
+[§6.2 Flow-relative Directions](http://www.w3.org/TR/css-writing-modes-3/#logical-directions)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.2)
+
 0 test to be done.
-</p>
 
-<p>
 This subsection is about terminology.
-</p><h3 id="line-relative-directions">§6.3 Line-relative Directions</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#line-directions" title="http://www.w3.org/TR/css-writing-modes-3/#line-directions" rel="noopener">§6.3 Line-relative Directions</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.3" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.3" rel="noopener">0 test done</a>
-</p>
+### §6.3 Line-relative Directions
 
-<p>
+[§6.3 Line-relative Directions](http://www.w3.org/TR/css-writing-modes-3/#line-directions)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.3)
+
 0 test to be done.
-</p>
 
-<p>
 This subsection is about terminology.
-</p><h3 id="abstract-to-physical-mappings">§6.4 Abstract-to-Physical Mappings</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#logical-to-physical" title="http://www.w3.org/TR/css-writing-modes-3/#logical-to-physical" rel="noopener">§6.4 Abstract-to-Physical Mappings</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.4" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.4" rel="noopener">0 test done</a>
-</p>
+### §6.4 Abstract-to-Physical Mappings
 
-<p>
+[§6.4 Abstract-to-Physical Mappings](http://www.w3.org/TR/css-writing-modes-3/#logical-to-physical)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-6.htm#s6.4)
+
 0 test to be done.
-</p>
 
-<p>
 This subsection is about terminology.
-</p><h2 id="abstract-box-layout">§7 Abstract Box Layout</h2>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#abstract-layout" title="http://www.w3.org/TR/css-writing-modes-3/#abstract-layout" rel="noopener">§7 Abstract Box Layout</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7" rel="noopener">0 test done</a>
-</p>
+## §7 Abstract Box Layout
 
-<p>
-y test to be done. 
-</p><h3 id="principles-of-layout-in-vertical-writing-modes">§7.1 Principles of Layout in Vertical Writing Modes</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#vertical-layout" title="http://www.w3.org/TR/css-writing-modes-3/#vertical-layout" rel="noopener">§7.1 Principles of Layout in Vertical Writing Modes</a>
-</p>
+[§7 Abstract Box Layout](http://www.w3.org/TR/css-writing-modes-3/#abstract-layout)
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.1" rel="noopener">0 test done</a>
-</p>
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7)
 
-<p>
-“Layout calculation rules (such as those in <a href="http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#Computing_widths_and_margins" title="http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#Computing_widths_and_margins" rel="noopener">CSS2.1, Section 10.3</a>) that apply to the horizontal dimension in horizontal writing modes instead apply to the vertical dimension in vertical writing modes. Likewise, layout calculation rules (such as those in <a href="http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#Computing_heights_and_margins" title="http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#Computing_heights_and_margins" rel="noopener">CSS2.1, Section 10.6</a>) that apply to the vertical dimension in horizontal writing modes instead apply to the horizontal dimension in vertical writing modes.”
-</p>
+y test to be done.
 
-<p>
+### §7.1 Principles of Layout in Vertical Writing Modes
+
+[§7.1 Principles of Layout in Vertical Writing Modes](http://www.w3.org/TR/css-writing-modes-3/#vertical-layout)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.1)
+
+“Layout calculation rules (such as those in [CSS2.1, Section 10.3](http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#Computing_widths_and_margins)) that apply to the horizontal dimension in horizontal writing modes instead apply to the vertical dimension in vertical writing modes. Likewise, layout calculation rules (such as those in [CSS2.1, Section 10.6](http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#Computing_heights_and_margins)) that apply to the vertical dimension in horizontal writing modes instead apply to the horizontal dimension in vertical writing modes.”
+
 Many tests to be done: at least one for each sub-sections of 10.3 and of 10.6.
-</p><h3 id="dimensional-mapping">§7.2 Dimensional Mapping</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#dimension-mapping" title="http://www.w3.org/TR/css-writing-modes-3/#dimension-mapping" rel="noopener">§7.2 Dimensional Mapping</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.2" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.2" rel="noopener">0 test done</a>
-</p>
+### §7.2 Dimensional Mapping
 
-<p>
+[§7.2 Dimensional Mapping](http://www.w3.org/TR/css-writing-modes-3/#dimension-mapping)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.2)
+
 x test to be done.
-</p><h3 id="orthogonal-flows">§7.3 Orthogonal Flows</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#orthogonal-flows" title="http://www.w3.org/TR/css-writing-modes-3/#orthogonal-flows" rel="noopener">§7.3 Orthogonal Flows</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3" rel="noopener">0 test done</a>
-</p>
+### §7.3 Orthogonal Flows
 
-<p>
+[§7.3 Orthogonal Flows](http://www.w3.org/TR/css-writing-modes-3/#orthogonal-flows)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3)
+
 x test to be done.
-</p>
 
-<p>
 Testable statement: “Since auto margins are resolved consistent with the containing block’s writing mode, a box establishing an orthogonal flow can, once sized, be aligned or centered within its containing block just like other block-level boxes by using auto margins.”
-</p>
 
-<p>
-Code:
-&lt;div style=“writing-mode: horizontal-tb; width: 600px; background: white url(“grid.gif”) repeat top left” id=“containing-block”&gt; &lt;div style=“writing-mode: vertical-rl; margin-right: auto; margin-left: auto; border: black solid medium; width: 194px; background-color: white;” id=“CenteredWithinItsContainingBlock”&gt;Text sample&lt;/div&gt;
-&lt;/div&gt;
-</p><h4 id="auto-sizing-in-orthogonal-flows">§7.3.1 Auto-sizing in Orthogonal Flows</h4>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#orthogonal-auto" title="http://www.w3.org/TR/css-writing-modes-3/#orthogonal-auto" rel="noopener">§7.3.1 Auto-sizing in Orthogonal Flows</a>
-</p>
+Code: \<div style=“writing-mode: horizontal-tb; width: 600px; background: white url(“grid.gif”) repeat top left” id=“containing-block”\> \<div style=“writing-mode: vertical-rl; margin-right: auto; margin-left: auto; border: black solid medium; width: 194px; background-color: white;” id=“CenteredWithinItsContainingBlock”\>Text sample\</div\> \</div\>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.1" rel="noopener">0 test done</a>
-</p>
+#### §7.3.1 Auto-sizing in Orthogonal Flows
 
-<p>
+[§7.3.1 Auto-sizing in Orthogonal Flows](http://www.w3.org/TR/css-writing-modes-3/#orthogonal-auto)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.1)
+
 x test to be done.
-</p><h4 id="auto-sizing-block-containers-in-orthogonal-flows">§7.3.2 Auto-sizing Block Containers in Orthogonal Flows</h4>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#auto-multicol" title="http://www.w3.org/TR/css-writing-modes-3/#auto-multicol" rel="noopener">§7.3.2 Auto-sizing Block Containers in Orthogonal Flows</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.2" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.2" rel="noopener">0 test done</a>
-</p>
+#### §7.3.2 Auto-sizing Block Containers in Orthogonal Flows
 
-<p>
+[§7.3.2 Auto-sizing Block Containers in Orthogonal Flows](http://www.w3.org/TR/css-writing-modes-3/#auto-multicol)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.2)
+
 x test to be done.
-</p><h4 id="auto-sizing-orthogonal-flows">§7.3.3 Auto-sizing Orthogonal Flows</h4>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#orthogonal-layout" title="http://www.w3.org/TR/css-writing-modes-3/#orthogonal-layout" rel="noopener">§7.3.3 Auto-sizing Orthogonal Flows</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.3" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.3" rel="noopener">0 test done</a>
-</p>
+#### §7.3.3 Auto-sizing Orthogonal Flows
 
-<p>
+[§7.3.3 Auto-sizing Orthogonal Flows](http://www.w3.org/TR/css-writing-modes-3/#orthogonal-layout)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.3)
+
 x test to be done.
-</p><h4 id="fragmenting-orthogonal-flows">§7.3.4 Fragmenting Orthogonal Flows</h4>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#orthogonal-pagination" title="http://www.w3.org/TR/css-writing-modes-3/#orthogonal-pagination" rel="noopener">§7.3.4 Fragmenting Orthogonal Flows</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.4" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.4" rel="noopener">0 test done</a>
-</p>
+#### §7.3.4 Fragmenting Orthogonal Flows
 
-<p>
+[§7.3.4 Fragmenting Orthogonal Flows](http://www.w3.org/TR/css-writing-modes-3/#orthogonal-pagination)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.3.4)
+
 x test to be done.
-</p><h3 id="flow-relative-mappings">§7.4 Flow-Relative Mappings</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#logical-direction-layout" title="http://www.w3.org/TR/css-writing-modes-3/#logical-direction-layout" rel="noopener">§7.4 Flow-Relative Mappings</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.4" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.4" rel="noopener">0 test done</a>
-</p>
+### §7.4 Flow-Relative Mappings
 
-<p>
+[§7.4 Flow-Relative Mappings](http://www.w3.org/TR/css-writing-modes-3/#logical-direction-layout)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.4)
+
 x test to be done.
-</p><h3 id="line-relative-mappings">§7.5 Line-Relative Mappings</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#line-mappings" title="http://www.w3.org/TR/css-writing-modes-3/#line-mappings" rel="noopener">§7.5 Line-Relative Mappings</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.5" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.5" rel="noopener">0 test done</a>
-</p>
+### §7.5 Line-Relative Mappings
 
-<p>
+[§7.5 Line-Relative Mappings](http://www.w3.org/TR/css-writing-modes-3/#line-mappings)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.5)
+
 Many tests to be done.
-</p>
 
-<p>
 text-align, float, clear, vertical-align, text-decoration; basic tests from CSS2.1 can be converted accordingly.
-</p><h3 id="purely-physical-mappings">§7.6 Purely Physical Mappings</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#physical-only" title="http://www.w3.org/TR/css-writing-modes-3/#physical-only" rel="noopener">§7.6 Purely Physical Mappings</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.6" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.6" rel="noopener">0 test done</a>
-</p>
+### §7.6 Purely Physical Mappings
 
-<p>
-”
-The following values are purely physical in their definitions and do not respond to changes in writing mode:
-</p>
-<pre class="code">  the rect() notation of the clip property [CSS21]
+[§7.6 Purely Physical Mappings](http://www.w3.org/TR/css-writing-modes-3/#physical-only)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.6)
+
+” The following values are purely physical in their definitions and do not respond to changes in writing mode:
+
+``` code
+  the rect() notation of the clip property [CSS21]
   the background properties [CSS21] [CSS3BG]
   the border-image properties [CSS3BG]
-  the offsets of the box-shadow and text-shadow properties </pre>
+  the offsets of the box-shadow and text-shadow properties 
+```
 
-<p>
 “
-</p>
 
-<p>
 4 tests to be done.
-</p><h3 id="table-caption-mappingsthe-caption-side-keywords">§7.7 Table Caption Mappings: the caption-side keywords</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#caption-side" title="http://www.w3.org/TR/css-writing-modes-3/#caption-side" rel="noopener">§7.7 Table Caption Mappings: the caption-side keywords</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.7" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.7" rel="noopener">0 test done</a>
-</p>
+### §7.7 Table Caption Mappings: the caption-side keywords
 
-<p>
+[§7.7 Table Caption Mappings: the caption-side keywords](http://www.w3.org/TR/css-writing-modes-3/#caption-side)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s7.7)
+
 x test to be done.
-</p><h2 id="page-flowthe-page-progression-direction">§8 Page Flow: the page progression direction</h2>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#page-direction" title="http://www.w3.org/TR/css-writing-modes-3/#page-direction" rel="noopener">§8 Page Flow: the page progression direction</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-8.htm#s8" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-8.htm#s8" rel="noopener">0 test done</a>
-</p>
+## §8 Page Flow: the page progression direction
 
-<p>
+[§8 Page Flow: the page progression direction](http://www.w3.org/TR/css-writing-modes-3/#page-direction)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-8.htm#s8)
+
 4 tests to be done:
-</p>
-<ol>
-<li class="level1">1 test with the root element’s writing-mode is vertical-rl</li>
-<li class="level1">1 test with the root element’s writing-mode is horizontal-tb and its direction is rtl</li>
-<li class="level1">1 test with the root element’s writing-mode is vertical-lr</li>
-<li class="level1">1 test with the root element’s writing-mode is horizontal-tb and its direction is ltr</li>
-</ol><h2 id="glyph-composition">§9 Glyph Composition</h2>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#text-combine" title="http://www.w3.org/TR/css-writing-modes-3/#text-combine" rel="noopener">§9 Glyph Composition</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s9" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s9" rel="noopener">2 tests done</a>
-</p>
+1.  1 test with the root element’s writing-mode is vertical-rl
+2.  1 test with the root element’s writing-mode is horizontal-tb and its direction is rtl
+3.  1 test with the root element’s writing-mode is vertical-lr
+4.  1 test with the root element’s writing-mode is horizontal-tb and its direction is ltr
 
-<p>
-0 test to be done. 
-</p><h3 id="horizontal-in-vertical-compositionthe-text-combine-upright-property">§9.1 Horizontal-in-Vertical Composition: the text-combine-upright property</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#text-combine-upright" title="http://www.w3.org/TR/css-writing-modes-3/#text-combine-upright" rel="noopener">§9.1 Horizontal-in-Vertical Composition: the text-combine-upright property</a>
-</p>
+## §9 Glyph Composition
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1" rel="noopener">6 tests done</a>
-</p>
+[§9 Glyph Composition](http://www.w3.org/TR/css-writing-modes-3/#text-combine)
 
-<p>
-x test to be done.
-</p><h4 id="text-run-rules">§9.1.1 Text Run Rules</h4>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#text-combine-runs" title="http://www.w3.org/TR/css-writing-modes-3/#text-combine-runs" rel="noopener">§9.1.1 Text Run Rules</a>
-</p>
+[2 tests done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-7.htm#s9)
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.1" rel="noopener">0 test done</a>
-</p>
-
-<p>
-x test to be done.
-</p><h4 id="layout-rules">§9.1.2 Layout Rules</h4>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#text-combine-layout" title="http://www.w3.org/TR/css-writing-modes-3/#text-combine-layout" rel="noopener">§9.1.2 Layout Rules</a>
-</p>
-
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.2" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.2" rel="noopener">0 test done</a>
-</p>
-
-<p>
-x test to be done.
-</p><h4 id="compression-rules">§9.1.3 Compression Rules</h4>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#text-combine-compression" title="http://www.w3.org/TR/css-writing-modes-3/#text-combine-compression" rel="noopener">§9.1.3 Compression Rules</a>
-</p>
-
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.3" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.3" rel="noopener">0 test done</a>
-</p>
-
-<p>
-x test to be done.
-</p><h5 id="full-width-characters">§9.1.3.1 Full-width Characters</h5>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#text-combine-fullwidth" title="http://www.w3.org/TR/css-writing-modes-3/#text-combine-fullwidth" rel="noopener">§9.1.3.1 Full-width Characters</a>
-</p>
-
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.3.1" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.3.1" rel="noopener">3 tests done</a>
-</p>
-
-<p>
-x test to be done. 
-</p><h3 id="appendix-a-characters-and-properties">§Appendix A. Characters and Properties</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#character-properties" title="http://www.w3.org/TR/css-writing-modes-3/#character-properties" rel="noopener">§Appendix A. Characters and Properties</a>
-</p>
-
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-A.htm" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-A.htm" rel="noopener">0 test done</a>
-</p>
-
-<p>
 0 test to be done.
-</p><h3 id="appendix-bbidi-rules-for-html-4">§Appendix B: Bidi Rules for HTML 4</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#bidi-html" title="http://www.w3.org/TR/css-writing-modes-3/#bidi-html" rel="noopener">§Appendix B: Bidi Rules for HTML 4</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-B.htm" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-B.htm" rel="noopener">0 test done</a>
-</p>
+### §9.1 Horizontal-in-Vertical Composition: the text-combine-upright property
 
-<p>
+[§9.1 Horizontal-in-Vertical Composition: the text-combine-upright property](http://www.w3.org/TR/css-writing-modes-3/#text-combine-upright)
+
+[6 tests done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1)
+
+x test to be done.
+
+#### §9.1.1 Text Run Rules
+
+[§9.1.1 Text Run Rules](http://www.w3.org/TR/css-writing-modes-3/#text-combine-runs)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.1)
+
+x test to be done.
+
+#### §9.1.2 Layout Rules
+
+[§9.1.2 Layout Rules](http://www.w3.org/TR/css-writing-modes-3/#text-combine-layout)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.2)
+
+x test to be done.
+
+#### §9.1.3 Compression Rules
+
+[§9.1.3 Compression Rules](http://www.w3.org/TR/css-writing-modes-3/#text-combine-compression)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.3)
+
+x test to be done.
+
+##### §9.1.3.1 Full-width Characters
+
+[§9.1.3.1 Full-width Characters](http://www.w3.org/TR/css-writing-modes-3/#text-combine-fullwidth)
+
+[3 tests done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-9.htm#s9.1.3.1)
+
+x test to be done.
+
+### §Appendix A. Characters and Properties
+
+[§Appendix A. Characters and Properties](http://www.w3.org/TR/css-writing-modes-3/#character-properties)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-A.htm)
+
 0 test to be done.
-</p><h3 id="appendix-cvertical-scripts-in-unicode">§Appendix C: Vertical Scripts in Unicode</h3>
-<p>
-<a href="http://www.w3.org/TR/css-writing-modes-3/#script-orientations" title="http://www.w3.org/TR/css-writing-modes-3/#script-orientations" rel="noopener">§Appendix C: Vertical Scripts in Unicode</a>
-</p>
 
-<p>
-<a href="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-C.htm" title="http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-C.htm" rel="noopener">0 test done</a>
-</p>
+### §Appendix B: Bidi Rules for HTML 4
 
-<p>
+[§Appendix B: Bidi Rules for HTML 4](http://www.w3.org/TR/css-writing-modes-3/#bidi-html)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-B.htm)
+
 0 test to be done.
-</p>
 
-<p>
+### §Appendix C: Vertical Scripts in Unicode
+
+[§Appendix C: Vertical Scripts in Unicode](http://www.w3.org/TR/css-writing-modes-3/#script-orientations)
+
+[0 test done](http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/html/chapter-C.htm)
+
+0 test to be done.
+
 “This section is informative.”
-</p>
-</main>
-</body>
-</html>

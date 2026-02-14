@@ -1,141 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>US/JA Mini-Telecon Agenda - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / agenda-mini</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "US/JA Mini-Telecon Agenda"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#usja-mini-telecon-agenda">US/JA Mini-Telecon Agenda</a><ul class="toc">
-<li class="level2"><a href="#generalmisc">General/Misc</a></li>
-<li class="level2"><a href="#css-text-level-3">CSS Text Level 3</a></li>
-<li class="level2"><a href="#css-writing-modes-level-3">CSS Writing Modes Level 3</a></li>
-<li class="level2"><a href="#backlog">Backlog</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# US/JA Mini-Telecon Agenda
 
-<h1 id="usja-mini-telecon-agenda">US/JA Mini-Telecon Agenda</h1>
-<ul>
-<li class="level1">Weekly teleconferences focused on East Asian topics</li>
-<li class="level1">Tuesday at 5pm Pacific time</li>
-</ul><h2 id="generalmisc">General/Misc</h2>
-<ol>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011May/0014.html" title="http://lists.w3.org/Archives/Public/www-style/2011May/0014.html" rel="noopener">Referring to Unicode</a></li>
-</ol><h2 id="css-text-level-3">CSS Text Level 3</h2>
-<ol>
-<li class="level1"><a href="http://dev.w3.org/csswg/css3-text/#text-emphasis-skip" title="http://dev.w3.org/csswg/css3-text/#text-emphasis-skip" rel="noopener">text-emphasis-skip</a></li>
-<li class="level1"><a href="http://dev.w3.org/csswg/css3-text/#text-spacing-prop" title="http://dev.w3.org/csswg/css3-text/#text-spacing-prop" rel="noopener">text-spacing</a> for proportional puncutation glyphs</li>
-<li class="level1"><a href="http://dev.w3.org/csswg/css3-text/#text-spacing-prop" title="http://dev.w3.org/csswg/css3-text/#text-spacing-prop" rel="noopener">Current text-spacing</a> and <a href="http://wiki.csswg.org/spec/text4#text-spacing" title="http://wiki.csswg.org/spec/text4#text-spacing" rel="noopener">the future text-spacing brainstorming</a> and line breaking?</li>
-</ol><h2 id="css-writing-modes-level-3">CSS Writing Modes Level 3</h2>
-<ol>
-<li class="level1 node"><a href="http://dev.w3.org/csswg/css3-writing-modes/#vertical-typesetting" title="http://dev.w3.org/csswg/css3-writing-modes/#vertical-typesetting" rel="noopener">Vertical typesetting</a><ol>
-<li class="level2"><a href="http://lists.w3.org/Archives/Public/www-style/2011Mar/0498.html" title="http://lists.w3.org/Archives/Public/www-style/2011Mar/0498.html" rel="noopener">Eric&#039;s e-mail to www-style 1</a> and <a href="http://lists.w3.org/Archives/Public/www-style/2011Mar/0538.html" title="http://lists.w3.org/Archives/Public/www-style/2011Mar/0538.html" rel="noopener">2</a></li>
-</ol>
-</li>
-<li class="level1">Tightening up definitions of auto-sizing for multi-column elements in <a href="http://dev.w3.org/csswg/css3-writing-modes/#orthogonal-flows" title="http://dev.w3.org/csswg/css3-writing-modes/#orthogonal-flows" rel="noopener">orthogonal flows</a> (particularly interactions with table layout).</li>
-<li class="level1"><a href="http://dev.w3.org/csswg/css3-writing-modes/#logical-direction-layout" title="http://dev.w3.org/csswg/css3-writing-modes/#logical-direction-layout" rel="noopener">Flow-relative mappings</a></li>
-<li class="level1 node"><a href="http://dev.w3.org/csswg/css3-writing-modes/#text-orientation" title="http://dev.w3.org/csswg/css3-writing-modes/#text-orientation" rel="noopener">text-orientation</a><ul>
-<li class="level2 node"><a href="http://dev.w3.org/csswg/css3-writing-modes/#vertical-typesetting-details" title="http://dev.w3.org/csswg/css3-writing-modes/#vertical-typesetting-details" rel="noopener">Vertical Typesetting Synthesis</a><ul>
-<li class="level3">Why Pd is in a separate item from Pc/Ps/Pe/Pi/Pf?</li>
-</ul>
-</li>
-<li class="level2 node">Another category proposal: upright using vertical font settings <em>if vertical alternate glyphs</em> are available, otherwise sideways<ul>
-<li class="level3"><a href="http://lists.w3.org/Archives/Public/www-archive/2011Aug/att-0017/vert.htm" title="http://lists.w3.org/Archives/Public/www-archive/2011Aug/att-0017/vert.htm" rel="noopener">U+002D in Meiryo</a> is an example. We want it be sideways, but there&#039;s a alternate glyph that adjusts baseline, so UA should render it in upright, and font makes it sideways.</li>
-<li class="level3">What should be in this category? Pc, Pd, Ps, Pe, Pi, Pf,</li>
-<li class="level3">Blocks/arrows; i.e., glyphs whose center position is very important</li>
-<li class="level3">Po? No?</li>
-<li class="level3">Co should stay in the current definition – Either upright using vertical font settings are available, otherwise sideways</li>
-</ul>
-</li>
-<li class="level2">Is it wild to make Co as upright given “upright-right” is a value for primarily East Asian? Tools like FontForge are not good at creating tables like vhea/vmtx.</li>
-<li class="level2 node">Visual glyph orientation v.s. glyph orientation from UA perspective<ul>
-<li class="level3">These two are different because the visual appearance of alternate glyphs can be either upright or sideways. Once UA determined to use alternate glyphs, UA should render it in upright, and whether its visual is upright or sideways is up to the fonts.</li>
-<li class="level3">This makes hard to distinguish between upright-right and upright. With current definitions and with Meiryo, “upright” value still makes U+002D visually sideways. Is this acceptable behavior in level 3?</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol><h2 id="backlog">Backlog</h2>
-<p>
+- Weekly teleconferences focused on East Asian topics
+- Tuesday at 5pm Pacific time
+
+## General/Misc
+
+1.  [Referring to Unicode](http://lists.w3.org/Archives/Public/www-style/2011May/0014.html)
+
+## CSS Text Level 3
+
+1.  [text-emphasis-skip](http://dev.w3.org/csswg/css3-text/#text-emphasis-skip)
+2.  [text-spacing](http://dev.w3.org/csswg/css3-text/#text-spacing-prop) for proportional puncutation glyphs
+3.  [Current text-spacing](http://dev.w3.org/csswg/css3-text/#text-spacing-prop) and [the future text-spacing brainstorming](http://wiki.csswg.org/spec/text4#text-spacing) and line breaking?
+
+## CSS Writing Modes Level 3
+
+1.  [Vertical typesetting](http://dev.w3.org/csswg/css3-writing-modes/#vertical-typesetting)
+    1.  [Eric's e-mail to www-style 1](http://lists.w3.org/Archives/Public/www-style/2011Mar/0498.html) and [2](http://lists.w3.org/Archives/Public/www-style/2011Mar/0538.html)
+2.  Tightening up definitions of auto-sizing for multi-column elements in [orthogonal flows](http://dev.w3.org/csswg/css3-writing-modes/#orthogonal-flows) (particularly interactions with table layout).
+3.  [Flow-relative mappings](http://dev.w3.org/csswg/css3-writing-modes/#logical-direction-layout)
+4.  [text-orientation](http://dev.w3.org/csswg/css3-writing-modes/#text-orientation)
+    - [Vertical Typesetting Synthesis](http://dev.w3.org/csswg/css3-writing-modes/#vertical-typesetting-details)
+      - Why Pd is in a separate item from Pc/Ps/Pe/Pi/Pf?
+    - Another category proposal: upright using vertical font settings *if vertical alternate glyphs* are available, otherwise sideways
+      - [U+002D in Meiryo](http://lists.w3.org/Archives/Public/www-archive/2011Aug/att-0017/vert.htm) is an example. We want it be sideways, but there's a alternate glyph that adjusts baseline, so UA should render it in upright, and font makes it sideways.
+      - What should be in this category? Pc, Pd, Ps, Pe, Pi, Pf,
+      - Blocks/arrows; i.e., glyphs whose center position is very important
+      - Po? No?
+      - Co should stay in the current definition – Either upright using vertical font settings are available, otherwise sideways
+    - Is it wild to make Co as upright given “upright-right” is a value for primarily East Asian? Tools like FontForge are not good at creating tables like vhea/vmtx.
+    - Visual glyph orientation v.s. glyph orientation from UA perspective
+      - These two are different because the visual appearance of alternate glyphs can be either upright or sideways. Once UA determined to use alternate glyphs, UA should render it in upright, and whether its visual is upright or sideways is up to the fonts.
+      - This makes hard to distinguish between upright-right and upright. With current definitions and with Meiryo, “upright” value still makes U+002D visually sideways. Is this acceptable behavior in level 3?
+
+## Backlog
+
 Topics that have been proposed for discussion but are currently on the back-burner.
-</p>
-</main>
-</body>
-</html>

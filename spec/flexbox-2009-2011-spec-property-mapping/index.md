@@ -1,178 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CSS Flexbox 2009/2011 Spec Syntax Property Mapping - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../spec/">spec</a> / flexbox-2009-2011-spec-property-mapping</div>
-<main>
-<h2 id="css-flexbox-20092011-spec-syntax-property-mapping">CSS Flexbox 2009/2011 Spec Syntax Property Mapping</h2>
-<p>
-This module had major changes between 2009 <abbr title="specification">spec</abbr> and current state. The following table shows mapping from old to new syntax.
-</p>
-<div class="table sectionedit2"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0 centeralign" colspan="2">     2009 draft   </th><th class="col2 centeralign" colspan="2">   Current draft  </th><th class="col4" rowspan="2"> Equivalence </th><th class="col5" rowspan="2"> Mapping(*) </th><th class="col6" rowspan="2"> Notes </th>
-	</tr>
-	<tr class="row1">
-		<th class="col0"> Property </th><th class="col1"> Values </th><th class="col2"> Property </th><th class="col3"> Values </th>
-	</tr>
-	</thead>
-	<tr class="row2">
-		<td class="col0"> display </td><td class="col1"> box <br/>
-inline-box </td><td class="col2"> display </td><td class="col3"> flexbox <br/>
-inline-flexbox </td><td class="col4"> Exact </td><td class="col5"> display:box → display:flexbox <br/>
-display:inline-box → display:inline-flexbox </td><td class="col6"></td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> box-align </td><td class="col1"> start <br/>
-end <br/>
-center <br/>
-baseline <br/>
-stretch </td><td class="col2"> flex-align </td><td class="col3"> auto <br/>
-baseline </td><td class="col4"> Close </td><td class="col5"> <em>Horizontal:</em> <br/>
-box-align:start → margin-bottom:auto <br/>
-box-align:end → margin-top:auto <br/>
-box-align:center → margin:auto 0 <br/>
-box-align:baseline → flex-align:baseline <br/>
-box-align:stretch → margin:0;height:auto <br/>
-<br/>
-<em>Vertical: same with left/right margins</em> </td><td class="col6"> </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> box-direction </td><td class="col1"> normal <br/>
-reverse </td><td class="col2" rowspan="2"> flex-direction </td><td class="col3" rowspan="2"> lr <br/>
-rl <br/>
-tb <br/>
-bt <br/>
-inline <br/>
-inline-reverse <br/>
-block <br/>
-block-reverse </td><td class="col4" rowspan="2"> Close </td><td class="col5 leftalign" rowspan="2"> (horizontal, normal) → lr (**) <br/>
-(horizontal, reverse) → rl (**) <br/>
-(vertical, normal) → tb (**) <br/>
-(vertical, reverse) → bt (**) <br/>
-(inline-axis, normal) → inline <br/>
-(inline-axis, reverse) → inline-reverse <br/>
-(block-axis, normal) → block <br/>
-(block-axis, reverse) → block-reverse  </td><td class="col6" rowspan="2"> combined direction+orientation property can&#039;t be easily extended to define a multiline flexbox <em>TODO:add issue, link to thread</em> </td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> box-orient </td><td class="col1"> horizontal <br/>
-vertical <br/>
-inline-axis <br/>
-block-axis <br/>
-inherit </td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> box-flex </td><td class="col1"> &lt;number&gt; </td><td class="col2"> width <br/>
-height <br/>
-margin <br/>
-padding </td><td class="col3 leftalign"> flex() function <br/>
-&#039;fr&#039; unit  </td><td class="col4"> Extended </td><td class="col5"> width:3em;box-flex:2.0 → width:flex(3em 2.0) (***) <br/>
-<em>(not possible)</em> –&gt; margin-right:auto </td><td class="col6"> flex() function allows setting explicit preferred size, positive and negative flexibility; &#039;fr&#039; unit is short for flex with zero preferred size: 2fr == flex(0 2fr). <br/>
-using flex() adds many combinations that were not possible in 2009 <abbr title="specification">spec</abbr> <br/>
-&#039;auto&#039; value in margin or padding is equivalent to 1fr. </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> box-flex-group </td><td class="col1"> &lt;integer&gt; </td><td class="col2"> <em>deprecated</em> </td><td class="col3"> </td><td class="col4 leftalign"> N/A	 </td><td class="col5"> </td><td class="col6"> never implemented, agreed to be expensive and unnecessary </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> box-lines </td><td class="col1"> single <br/>
-multiple </td><td class="col2"> <em>missing</em> </td><td class="col3"> </td><td class="col4"> None </td><td class="col5"> </td><td class="col6"> <a href="http://lists.w3.org/Archives/Public/www-style/2010May/thread.html#msg172" title="http://lists.w3.org/Archives/Public/www-style/2010May/thread.html#msg172" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010May/thread.html#msg172</a> </td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> box-ordinal-group </td><td class="col1"> &lt;integer&gt; </td><td class="col2"> flex-order </td><td class="col3"> &lt;integer&gt; </td><td class="col4"> Exact </td><td class="col5"> box-ordinal-group:2 → flex-order:2 </td><td class="col6"> </td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> box-pack </td><td class="col1"> start <br/>
-end <br/>
-center <br/>
-justify </td><td class="col2"> flex-pack </td><td class="col3"> start <br/>
-end <br/>
-center <br/>
-justify </td><td class="col4 leftalign"> Exact	</td><td class="col5"> box-pack:value → flex-pack:value </td><td class="col6"> </td>
-	</tr>
-</table><p>
-<em>(*) Mapping shown for horizontal LTR flow. </em>
-</p>
+---
+title: "CSS Flexbox 2009/2011 Spec Syntax Property Mapping"
+---
 
-<p>
-<em>(**) “box-direction:normal|reverse” picks up direction from writing mode, along given axis. There is no explicit LTR or RTL in 2009 draft. 6/2011 draft offers combinations that are either all physical (lr) or all logical (inline-reverse), so exact mapping is not possible </em>
-</p>
+## CSS Flexbox 2009/2011 Spec Syntax Property Mapping
 
-<p>
-<em>(***) 2009 syntax is not clear on how to use specified width - as preferred or as final. implementations differ, this example assumes preferered. </em>
-</p>
-</main>
-</body>
-</html>
+This module had major changes between 2009 spec and current state. The following table shows mapping from old to new syntax.
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">2009 draft</th>
+<th colspan="2">Current draft</th>
+<th rowspan="2">Equivalence</th>
+<th rowspan="2">Mapping(*)</th>
+<th rowspan="2">Notes</th>
+</tr>
+<tr>
+<th>Property</th>
+<th>Values</th>
+<th>Property</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>display</td>
+<td>box<br />
+inline-box</td>
+<td>display</td>
+<td>flexbox<br />
+inline-flexbox</td>
+<td>Exact</td>
+<td>display:box → display:flexbox<br />
+display:inline-box → display:inline-flexbox</td>
+<td></td>
+</tr>
+<tr>
+<td>box-align</td>
+<td>start<br />
+end<br />
+center<br />
+baseline<br />
+stretch</td>
+<td>flex-align</td>
+<td>auto<br />
+baseline</td>
+<td>Close</td>
+<td><em>Horizontal:</em><br />
+box-align:start → margin-bottom:auto<br />
+box-align:end → margin-top:auto<br />
+box-align:center → margin:auto 0<br />
+box-align:baseline → flex-align:baseline<br />
+box-align:stretch → margin:0;height:auto<br />
+<br />
+<em>Vertical: same with left/right margins</em></td>
+<td></td>
+</tr>
+<tr>
+<td>box-direction</td>
+<td>normal<br />
+reverse</td>
+<td rowspan="2">flex-direction</td>
+<td rowspan="2">lr<br />
+rl<br />
+tb<br />
+bt<br />
+inline<br />
+inline-reverse<br />
+block<br />
+block-reverse</td>
+<td rowspan="2">Close</td>
+<td rowspan="2">(horizontal, normal) → lr (**)<br />
+(horizontal, reverse) → rl (**)<br />
+(vertical, normal) → tb (**)<br />
+(vertical, reverse) → bt (**)<br />
+(inline-axis, normal) → inline<br />
+(inline-axis, reverse) → inline-reverse<br />
+(block-axis, normal) → block<br />
+(block-axis, reverse) → block-reverse</td>
+<td rowspan="2">combined direction+orientation property can't be easily extended to define a multiline flexbox <em>TODO:add issue, link to thread</em></td>
+</tr>
+<tr>
+<td>box-orient</td>
+<td>horizontal<br />
+vertical<br />
+inline-axis<br />
+block-axis<br />
+inherit</td>
+</tr>
+<tr>
+<td>box-flex</td>
+<td>&lt;number&gt;</td>
+<td>width<br />
+height<br />
+margin<br />
+padding</td>
+<td>flex() function<br />
+'fr' unit</td>
+<td>Extended</td>
+<td>width:3em;box-flex:2.0 → width:flex(3em 2.0) (***)<br />
+<em>(not possible)</em> –&gt; margin-right:auto</td>
+<td>flex() function allows setting explicit preferred size, positive and negative flexibility; 'fr' unit is short for flex with zero preferred size: 2fr == flex(0 2fr).<br />
+using flex() adds many combinations that were not possible in 2009 <abbr title="specification">spec</abbr><br />
+'auto' value in margin or padding is equivalent to 1fr.</td>
+</tr>
+<tr>
+<td>box-flex-group</td>
+<td>&lt;integer&gt;</td>
+<td><em>deprecated</em></td>
+<td></td>
+<td>N/A</td>
+<td></td>
+<td>never implemented, agreed to be expensive and unnecessary</td>
+</tr>
+<tr>
+<td>box-lines</td>
+<td>single<br />
+multiple</td>
+<td><em>missing</em></td>
+<td></td>
+<td>None</td>
+<td></td>
+<td>[http://lists.w3.org/Archives/Public/www-style/2010May/thread.html#msg172](http://lists.w3.org/Archives/Public/www-style/2010May/thread.html#msg172)</td>
+</tr>
+<tr>
+<td>box-ordinal-group</td>
+<td>&lt;integer&gt;</td>
+<td>flex-order</td>
+<td>&lt;integer&gt;</td>
+<td>Exact</td>
+<td>box-ordinal-group:2 → flex-order:2</td>
+<td></td>
+</tr>
+<tr>
+<td>box-pack</td>
+<td>start<br />
+end<br />
+center<br />
+justify</td>
+<td>flex-pack</td>
+<td>start<br />
+end<br />
+center<br />
+justify</td>
+<td>Exact</td>
+<td>box-pack:value → flex-pack:value</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+*(\*) Mapping shown for horizontal LTR flow.*
+
+*(\*\*) “box-direction:normal\|reverse” picks up direction from writing mode, along given axis. There is no explicit LTR or RTL in 2009 draft. 6/2011 draft offers combinations that are either all physical (lr) or all logical (inline-reverse), so exact mapping is not possible*
+
+*(\*\*\*) 2009 syntax is not clear on how to use specified width - as preferred or as final. implementations differ, this example assumes preferered.*

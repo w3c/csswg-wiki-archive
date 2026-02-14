@@ -1,119 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mandelieu F2F October 2008 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / mandelieu-2008</div>
-<main>
-<h1 id="mandelieu-f2f-october-2008">Mandelieu F2F October 2008</h1>
-<ul>
-<li class="level1">October 19-21, 2008 (part of <a href="https://www.w3.org/2008/10/TPAC/" title="https://www.w3.org/2008/10/TPAC/" rel="noopener">TPAC 2008</a>, October 20-24)</li>
-<li class="level1">Mandelieu, France</li>
-<li class="level1">Organizer: Bert Bos, <abbr title="World Wide Web Consortium">W3C</abbr></li>
-<li class="level1">Minutes (<abbr title="Internet Relay Chat">IRC</abbr>): <a href="http://www.w3.org/2008/10/19-css-irc.html" title="http://www.w3.org/2008/10/19-css-irc.html" rel="noopener">Sunday</a>, <a href="http://www.w3.org/2008/10/20-css-irc.html" title="http://www.w3.org/2008/10/20-css-irc.html" rel="noopener">Monday</a>, <a href="http://www.w3.org/2008/10/19-css-irc.html" title="http://www.w3.org/2008/10/19-css-irc.html" rel="noopener">Tuesday</a></li>
-</ul><h2 id="proposed-topics">Proposed topics</h2>
-<p>
-Proposed topics for topics for the October 2008 <abbr title="Cascading Style Sheets">CSS</abbr> Working Group Face-to-Face meeting in Mandelieu. 
-</p>
-<ul>
-<li class="level1">Named pages and inheritance of &#039;page&#039;</li>
-<li class="level1">Margin collapsing</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2008Sep/0232.html" title="http://lists.w3.org/Archives/Public/www-style/2008Sep/0232.html" rel="noopener">Issue with overflow/scroll in paged media</a></li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2008Sep/0230.html" title="http://lists.w3.org/Archives/Public/www-style/2008Sep/0230.html" rel="noopener">Issue with computed height in Paged Media</a></li>
-<li class="level1"><a href="http://www.w3.org/Style/CSS/Tracker/issues/63" title="http://www.w3.org/Style/CSS/Tracker/issues/63" rel="noopener">New background shorthand requires 2-token lookahead</a></li>
-<li class="level1"><a href="http://wiki.csswg.org/spec/css2.1#issue-60" title="http://wiki.csswg.org/spec/css2.1#issue-60" rel="noopener">Z-index in level 2</a></li>
-<li class="level1 node">Getting a few web designers involved as Invited Experts<ul>
-<li class="level2">Keeping Jason as an Invited Expert?</li>
-</ul>
-</li>
-<li class="level1 node">Selectors Issues<ul>
-<li class="level2"><a href="http://www.w3.org/Style/CSS/Tracker/issues/65" title="http://www.w3.org/Style/CSS/Tracker/issues/65" rel="noopener">Does :hover apply to parent of hovered element?</a></li>
-<li class="level2"><a href="http://www.w3.org/Style/CSS/Tracker/issues/66" title="http://www.w3.org/Style/CSS/Tracker/issues/66" rel="noopener">Add grammar for an+b notation in Selectors</a></li>
-<li class="level2"><a href="http://www.w3.org/Style/CSS/Tracker/issues/67" title="http://www.w3.org/Style/CSS/Tracker/issues/67" rel="noopener">::selection pseudo-element</a></li>
-<li class="level2"><a href="http://lists.w3.org/Archives/Public/www-style/2006Jan/0209.html" title="http://lists.w3.org/Archives/Public/www-style/2006Jan/0209.html" rel="noopener">:first-line interaction with inheritance</a></li>
-</ul>
-</li>
-<li class="level1">CSS3 Page Issues</li>
-<li class="level1">ftf schedule 2009 (I, Bert, only have enough budget for one foreign trip until the next TPAC…)</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Member/w3c-css-wg/2008OctDec/0020.html" title="http://lists.w3.org/Archives/Member/w3c-css-wg/2008OctDec/0020.html" rel="noopener">Text layout/direction module</a></li>
-<li class="level1">css3-color (if dbaron is ready)</li>
-<li class="level1"><a href="http://www.w3.org/Style/css2-updates/issues-4-20061106.html#issue-31" title="http://www.w3.org/Style/css2-updates/issues-4-20061106.html#issue-31" rel="noopener">special behavior of BODY</a></li>
-<li class="level1"><a href="http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2008-October/016544.html" title="http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2008-October/016544.html" rel="noopener">value pseudo-attributes</a> (wacky future idea)</li>
-<li class="level1">WAI issue on system colors (related to css3-color, may not need all of WG, details to be coordinated with Al)</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Member/w3c-html-cg/2008OctDec/0022.html" title="http://lists.w3.org/Archives/Member/w3c-html-cg/2008OctDec/0022.html" rel="noopener">User control over UI,</a> suggested as cross-WG topic by Al and Debbie, could be lunch BOF or bigger, tocuhes Media Queries</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2008Oct/0148.html" title="http://lists.w3.org/Archives/Public/www-style/2008Oct/0148.html" rel="noopener">[css3-multicol] overflow on multicol elements</a></li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Member/w3c-css-wg/2007JulSep/0177.html" title="http://lists.w3.org/Archives/Member/w3c-css-wg/2007JulSep/0177.html" rel="noopener">[css3-multicol] Define behavior for a multi-column block with a totally unconstrained width and auto height with a max constraint. </a></li>
-<li class="level1"><a href="http://dev.w3.org/csswg/css3-gcpm/Overview.html#border1" title="http://dev.w3.org/csswg/css3-gcpm/Overview.html#border1" rel="noopener">[css3-gcpm] border-parts</a></li>
-</ul>
-</main>
-</body>
-</html>
+---
+title: "Mandelieu F2F October 2008"
+---
+
+# Mandelieu F2F October 2008
+
+- October 19-21, 2008 (part of [TPAC 2008](https://www.w3.org/2008/10/TPAC/), October 20-24)
+- Mandelieu, France
+- Organizer: Bert Bos, W3C
+- Minutes (IRC): [Sunday](http://www.w3.org/2008/10/19-css-irc.html), [Monday](http://www.w3.org/2008/10/20-css-irc.html), [Tuesday](http://www.w3.org/2008/10/19-css-irc.html)
+
+## Proposed topics
+
+Proposed topics for topics for the October 2008 CSS Working Group Face-to-Face meeting in Mandelieu.
+
+- Named pages and inheritance of 'page'
+- Margin collapsing
+- [Issue with overflow/scroll in paged media](http://lists.w3.org/Archives/Public/www-style/2008Sep/0232.html)
+- [Issue with computed height in Paged Media](http://lists.w3.org/Archives/Public/www-style/2008Sep/0230.html)
+- [New background shorthand requires 2-token lookahead](http://www.w3.org/Style/CSS/Tracker/issues/63)
+- [Z-index in level 2](http://wiki.csswg.org/spec/css2.1#issue-60)
+- Getting a few web designers involved as Invited Experts
+  - Keeping Jason as an Invited Expert?
+- Selectors Issues
+  - [Does :hover apply to parent of hovered element?](http://www.w3.org/Style/CSS/Tracker/issues/65)
+  - [Add grammar for an+b notation in Selectors](http://www.w3.org/Style/CSS/Tracker/issues/66)
+  - [::selection pseudo-element](http://www.w3.org/Style/CSS/Tracker/issues/67)
+  - [:first-line interaction with inheritance](http://lists.w3.org/Archives/Public/www-style/2006Jan/0209.html)
+- CSS3 Page Issues
+- ftf schedule 2009 (I, Bert, only have enough budget for one foreign trip until the next TPAC…)
+- [Text layout/direction module](http://lists.w3.org/Archives/Member/w3c-css-wg/2008OctDec/0020.html)
+- css3-color (if dbaron is ready)
+- [special behavior of BODY](http://www.w3.org/Style/css2-updates/issues-4-20061106.html#issue-31)
+- [value pseudo-attributes](http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2008-October/016544.html) (wacky future idea)
+- WAI issue on system colors (related to css3-color, may not need all of WG, details to be coordinated with Al)
+- [User control over UI,](http://lists.w3.org/Archives/Member/w3c-html-cg/2008OctDec/0022.html) suggested as cross-WG topic by Al and Debbie, could be lunch BOF or bigger, tocuhes Media Queries
+- [\[css3-multicol\] overflow on multicol elements](http://lists.w3.org/Archives/Public/www-style/2008Oct/0148.html)
+- [\[css3-multicol\] Define behavior for a multi-column block with a totally unconstrained width and auto height with a max constraint.](http://lists.w3.org/Archives/Member/w3c-css-wg/2007JulSep/0177.html)
+- [\[css3-gcpm\] border-parts](http://dev.w3.org/csswg/css3-gcpm/Overview.html#border1)

@@ -1,301 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>New York City F2F April 2025 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / newyork-2025</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "New York City F2F April 2025"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#new-york-city-f2f-april-2025">New York City F2F April 2025</a><ul class="toc">
-<li class="level2"><a href="#covid-protocols">Covid Protocols</a></li>
-<li class="level2"><a href="#agenda">Agenda</a></li>
-<li class="level2"><a href="#minutes">Minutes</a></li>
-<li class="level2"><a href="#attendees">Attendees</a><ul class="toc">
-<li class="level3"><a href="#in-person-participants">In-Person Participants</a></li>
-<li class="level3"><a href="#virtual-participants">Virtual Participants</a></li>
-<li class="level3"><a href="#regrets">Regrets</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# New York City F2F April 2025
 
-<h1 id="new-york-city-f2f-april-2025">New York City F2F April 2025</h1>
-<ul>
-<li class="level1">Host: Microsoft</li>
-<li class="level1 node">Dial-in: We will be using Teams for the F2F call.<ul>
-<li class="level2">Join: <a href="https://teams.microsoft.com/meet/269675683080?p=dVc3U40Fonb3nszQEe" title="https://teams.microsoft.com/meet/269675683080?p=dVc3U40Fonb3nszQEe" rel="noopener">https://teams.microsoft.com/meet/269675683080?p=dVc3U40Fonb3nszQEe</a></li>
-</ul>
-</li>
-<li class="level1">Agenda: <a href="https://github.com/orgs/w3c/projects/197/views/1" title="https://github.com/orgs/w3c/projects/197/views/1" rel="noopener">https://github.com/orgs/w3c/projects/197/views/1</a></li>
-<li class="level1 node">Location: 11 Times Sq, New York, NY 10036<ul>
-<li class="level2">The main entrance for our Times Square office is in the heart of New York City on 8th avenue between 41st and 42nd Street. All visitors must enter here for access.</li>
-<li class="level2">The lobby will direct attendees when they arrive. All guests arriving at the building will check in with photo ID to receive an individualized elevator pass that calls the elevator to the floor of the event.</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li class="level1">Weather Forecast:  <a href="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=40.759028&amp;lon=-73.985046&amp;unit=1&amp;mp=1" title="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=40.759028&amp;lon=-73.985046&amp;unit=1&amp;mp=1" rel="noopener">⁰C</a> or <a href="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=40.759028&amp;lon=-73.985046&amp;unit=0&amp;mp=1" title="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=40.759028&amp;lon=-73.985046&amp;unit=0&amp;mp=1" rel="noopener">⁰F</a>, Current Weather Conditions: <a href="https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KNYC&amp;unit=1" title="https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KNYC&amp;unit=1" rel="noopener">⁰C</a> or <a href="https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KNYC" title="https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KNYC" rel="noopener">⁰F</a></li>
-<li class="level1">Dates: Tuesday April 1 - Thursday April 3 2025</li>
-<li class="level1 node">Times: <a href="https://www.worldtimebuddy.com/?qm=1&amp;lid=5128581,5391959,2643743,2988507,293397,1273294,1816670,1850147,2147714,2193733&amp;h=5128581&amp;date=2025-4-1&amp;sln=9-17&amp;hf=1" title="https://www.worldtimebuddy.com/?qm=1&amp;lid=5128581,5391959,2643743,2988507,293397,1273294,1816670,1850147,2147714,2193733&amp;h=5128581&amp;date=2025-4-1&amp;sln=9-17&amp;hf=1" rel="noopener">9am-5pm</a> (lobby opens at 8am, and light snacks/drinks should arrive at ~8:30am)<ul>
-<li class="level2">Morning break: ~10:30am</li>
-<li class="level2">Lunch break: noon</li>
-<li class="level2">Afternoon break: ~2:30pm</li>
-</ul>
-</li>
-<li class="level1 node">Airports:<ul>
-<li class="level2">LGA - LaGuardia Airport (~9.3 mile drive)</li>
-<li class="level2">JFK - John F. Kennedy International Airport (~16 mile drive)</li>
-<li class="level2">EWR - Newark Liberty International Airport (~16 mile drive)</li>
-</ul>
-</li>
-</ul>
+- Host: Microsoft
+- Dial-in: We will be using Teams for the F2F call.
+  - Join: <https://teams.microsoft.com/meet/269675683080?p=dVc3U40Fonb3nszQEe>
+- Agenda: <https://github.com/orgs/w3c/projects/197/views/1>
+- Location: 11 Times Sq, New York, NY 10036
+  - The main entrance for our Times Square office is in the heart of New York City on 8th avenue between 41st and 42nd Street. All visitors must enter here for access.
+  - The lobby will direct attendees when they arrive. All guests arriving at the building will check in with photo ID to receive an individualized elevator pass that calls the elevator to the floor of the event.
 
-<p>
-Hosted Dinner: Wednesday April 2, 2025 6:00PM @ Don Giovanni (358 WEST 44TH STREET (BETWEEN 8TH &amp; 9TH AVE.) NEW YORK, NY 10036 - 6 min walk from MSFT)
-</p><h2 id="covid-protocols">Covid Protocols</h2>
-<p>
+<!-- -->
+
+- Weather Forecast: [⁰C](http://forecast.weather.gov/MapClick.php?smap=1&lat=40.759028&lon=-73.985046&unit=1&mp=1) or [⁰F](http://forecast.weather.gov/MapClick.php?smap=1&lat=40.759028&lon=-73.985046&unit=0&mp=1), Current Weather Conditions: [⁰C](https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KNYC&unit=1) or [⁰F](https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KNYC)
+- Dates: Tuesday April 1 - Thursday April 3 2025
+- Times: [9am-5pm](https://www.worldtimebuddy.com/?qm=1&lid=5128581,5391959,2643743,2988507,293397,1273294,1816670,1850147,2147714,2193733&h=5128581&date=2025-4-1&sln=9-17&hf=1) (lobby opens at 8am, and light snacks/drinks should arrive at ~8:30am)
+  - Morning break: ~10:30am
+  - Lunch break: noon
+  - Afternoon break: ~2:30pm
+- Airports:
+  - LGA - LaGuardia Airport (~9.3 mile drive)
+  - JFK - John F. Kennedy International Airport (~16 mile drive)
+  - EWR - Newark Liberty International Airport (~16 mile drive)
+
+Hosted Dinner: Wednesday April 2, 2025 6:00PM @ Don Giovanni (358 WEST 44TH STREET (BETWEEN 8TH & 9TH AVE.) NEW YORK, NY 10036 - 6 min walk from MSFT)
+
+## Covid Protocols
+
 (no change from TPAC)
-</p>
-<ul>
-<li class="level1">Masks required in the meeting room, can be removed only while actively eating/drinking</li>
-<li class="level1">COVID testing before arrival, and daily before meetings</li>
-<li class="level1">Outdoor dining encouraged, weather permitting</li>
-<li class="level1">Strong recommendation to wear a mask during your entire travel journey (onboard a flight, train or federally-regulated vessel, as well as in airports and other points of entry) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt</li>
-<li class="level1">Accommodations will be made for anyone with a documented exemption to the above</li>
-</ul><h2 id="agenda">Agenda</h2>
-<p>
-Agenda planning: <a href="https://github.com/orgs/w3c/projects/197/views/1" title="https://github.com/orgs/w3c/projects/197/views/1" rel="noopener">https://github.com/orgs/w3c/projects/197/views/1</a>
-</p><h2 id="minutes">Minutes</h2>
-<p>
-Raw <abbr title="Internet Relay Chat">IRC</abbr> Logs:
-</p>
-<ul>
-<li class="level1"><a href="https://www.w3.org/2025/04/01-css-irc.txt" title="https://www.w3.org/2025/04/01-css-irc.txt" rel="noopener">Tuesday</a></li>
-<li class="level1"><a href="https://www.w3.org/2025/04/02-css-irc.txt" title="https://www.w3.org/2025/04/02-css-irc.txt" rel="noopener">Wednesday</a></li>
-<li class="level1"><a href="https://www.w3.org/2025/04/03-css-irc.txt" title="https://www.w3.org/2025/04/03-css-irc.txt" rel="noopener">Thursday</a></li>
-</ul>
 
-<p>
+- Masks required in the meeting room, can be removed only while actively eating/drinking
+- COVID testing before arrival, and daily before meetings
+- Outdoor dining encouraged, weather permitting
+- Strong recommendation to wear a mask during your entire travel journey (onboard a flight, train or federally-regulated vessel, as well as in airports and other points of entry) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt
+- Accommodations will be made for anyone with a documented exemption to the above
+
+## Agenda
+
+Agenda planning: <https://github.com/orgs/w3c/projects/197/views/1>
+
+## Minutes
+
+Raw IRC Logs:
+
+- [Tuesday](https://www.w3.org/2025/04/01-css-irc.txt)
+- [Wednesday](https://www.w3.org/2025/04/02-css-irc.txt)
+- [Thursday](https://www.w3.org/2025/04/03-css-irc.txt)
+
 Full minutes to come.
-</p><h2 id="attendees">Attendees</h2><h3 id="in-person-participants">In-Person Participants</h3>
-<p>
-(alphabetical by first name)
-</p>
-<div class="table sectionedit7"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Arrival </th><th class="col2"> Departure </th><th class="col3"> Hotel </th><th class="col4"> Dietary Restrictions </th><th class="col5"> Flights or Other Notes </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Alan Stearns </td><td class="col1"> March 28 </td><td class="col2"> April 6 </td><td class="col3"> A Windham </td><td class="col4"> None </td><td class="col5"> In Queens until March 31 </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Alison Maher </td><td class="col1"> March 31 </td><td class="col2"> April 6 </td><td class="col3"> Fairfield by Marriott </td><td class="col4"> none </td><td class="col5"> host (please feel free to reach out to almaher@microsoft.com with any questions) </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Brian Kardell </td><td class="col1"> March 31 </td><td class="col2"> April 4 </td><td class="col3"> ? </td><td class="col4"> - </td><td class="col5"> - </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Chris Lilley </td><td class="col1"> 31 March </td><td class="col2"> 4 April </td><td class="col3"> Margaritaville Resort Times Square </td><td class="col4"> None </td><td class="col5"> </td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> fantasai </td><td class="col1"> local </td><td class="col2"> local </td><td class="col3"> local </td><td class="col4"> GF appreciated </td><td class="col5 leftalign">  </td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> Florian Rivoal </td><td class="col1"> 2025-03-31 </td><td class="col2"> 2025-04-04 </td><td class="col3"> nearby VRBO </td><td class="col4"> </td><td class="col5 leftalign"> 🛬AC002+AC8998 🛬AF0005  </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> Jen Simmons </td><td class="col1"> 2008 </td><td class="col2"> n/a </td><td class="col3"> I live here </td><td class="col4"> significant food restrictions </td><td class="col5"></td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Kevin Babbitt </td><td class="col1"> March 31 </td><td class="col2"> April 4 </td><td class="col3"> Fairfield by Marriott </td><td class="col4"> none </td><td class="col5"></td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> Kurt Catti-Schmidt </td><td class="col1"> March 31 </td><td class="col2"> April 4 </td><td class="col3"> Fairfield by Marriott </td><td class="col4"> none </td><td class="col5"></td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> Lea Verou </td><td class="col1"> 31 March </td><td class="col2"> 4 April </td><td class="col3"> Margaritaville Resort Times Square </td><td class="col4"> None </td><td class="col5"> </td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Rachel Andrew </td><td class="col1"> March 29 </td><td class="col2"> April 4 </td><td class="col3"> Hilton Garden Inn Central Park </td><td class="col4"> GF + pescatarian <a href="https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9" title="https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9" rel="noopener">allergies</a> </td><td class="col5"> </td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Tab Atkins-Bittner </td><td class="col1"> ? </td><td class="col2"> ? </td><td class="col3"> ? </td><td class="col4"> none </td><td class="col5"> ? </td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Tim Nguyen </td><td class="col1"> March 28 </td><td class="col2"> April 5 </td><td class="col3"> Hyatt Centric Times Square New York </td><td class="col4"> None </td><td class="col5"> </td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> Zoe Lilley-Verou </td><td class="col1"> 31 March </td><td class="col2"> 4 April </td><td class="col3"> Margaritaville Resort Times Square </td><td class="col4"> None </td><td class="col5"> observer </td>
-	</tr>
-</table></div><h3 id="virtual-participants">Virtual Participants</h3>
-<p>
-Please list your availability in New York time (morning/afternoon/all or specific time ranges). See <a href="https://www.worldtimebuddy.com/?pl=1&amp;lid=5128581,5391959,2988507,2643743,1850147,2158177,293397&amp;h=5128581&amp;date=4/1/2025%7C3&amp;hf=1" title="https://www.worldtimebuddy.com/?pl=1&amp;lid=5128581,5391959,2988507,2643743,1850147,2158177,293397&amp;h=5128581&amp;date=4/1/2025%7C3&amp;hf=1" rel="noopener">Time Converter</a>
-</p>
 
-<p>
+## Attendees
+
+### In-Person Participants
+
+(alphabetical by first name)
+
+| Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
+|----|----|----|----|----|----|
+| Alan Stearns | March 28 | April 6 | A Windham | None | In Queens until March 31 |
+| Alison Maher | March 31 | April 6 | Fairfield by Marriott | none | host (please feel free to reach out to almaher@microsoft.com with any questions) |
+| Brian Kardell | March 31 | April 4 | ? | \- | \- |
+| Chris Lilley | 31 March | 4 April | Margaritaville Resort Times Square | None |  |
+| fantasai | local | local | local | GF appreciated |  |
+| Florian Rivoal | 2025-03-31 | 2025-04-04 | nearby VRBO |  | 🛬AC002+AC8998 🛬AF0005 |
+| Jen Simmons | 2008 | n/a | I live here | significant food restrictions |  |
+| Kevin Babbitt | March 31 | April 4 | Fairfield by Marriott | none |  |
+| Kurt Catti-Schmidt | March 31 | April 4 | Fairfield by Marriott | none |  |
+| Lea Verou | 31 March | 4 April | Margaritaville Resort Times Square | None |  |
+| Rachel Andrew | March 29 | April 4 | Hilton Garden Inn Central Park | GF + pescatarian [allergies](https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9) |  |
+| Tab Atkins-Bittner | ? | ? | ? | none | ? |
+| Tim Nguyen | March 28 | April 5 | Hyatt Centric Times Square New York | None |  |
+| Zoe Lilley-Verou | 31 March | 4 April | Margaritaville Resort Times Square | None | observer |
+
+### Virtual Participants
+
+Please list your availability in New York time (morning/afternoon/all or specific time ranges). See [Time Converter](https://www.worldtimebuddy.com/?pl=1&lid=5128581,5391959,2988507,2643743,1850147,2158177,293397&h=5128581&date=4/1/2025%7C3&hf=1)
+
 Alphabetize by first name.
-</p>
-<div class="table sectionedit9"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Timezone </th><th class="col2"> EDT Availability </th><th class="col3"> Other Notes </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Andreu Botella </td><td class="col1"> CEST </td><td class="col2"> Prefer AM and early PM. </td><td class="col3"> Not available in the AM on Tue and Thu. </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Bramus </td><td class="col1"> CEST </td><td class="col2"> AM (+ PM if need be) </td><td class="col3 leftalign">  </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Cassondra Roberts </td><td class="col1"> EST </td><td class="col2"> Flexible </td><td class="col3"> </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Daniel Holbert </td><td class="col1"> PDT </td><td class="col2"> PM </td><td class="col3 leftalign">  </td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> David Baron </td><td class="col1"> <a href="https://www.openstreetmap.org/relation/6496417" title="https://www.openstreetmap.org/relation/6496417" rel="noopener">America/New_York</a> </td><td class="col2"> All </td><td class="col3"> possible difficulty making 9am start promptly </td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> David Grogan </td><td class="col1 leftalign">  </td><td class="col2"> Tue 11a-2:30p; Thu 1:30p-3:30p </td><td class="col3"> Not available Wed </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> Emilio </td><td class="col1"> CEST (UTC+2) </td><td class="col2"> Flexible </td><td class="col3"> (Might be able to attend in person, but not sure yet unfortunately) </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Eric Meyer </td><td class="col1"> US/Eastern </td><td class="col2"> All </td><td class="col3"> </td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> Ethan Jimenez </td><td class="col1"> PDT </td><td class="col2"> PM </td><td class="col3"> </td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> Hoch Hochkeppel </td><td class="col1"> PDT </td><td class="col2"> PM </td><td class="col3"> Misc conflicts, but attending when possible. </td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Jonathan Kew </td><td class="col1"> BST </td><td class="col2"> Mainly AM </td><td class="col3"> </td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Kiet Ho </td><td class="col1"> PDT </td><td class="col2"> Tue: after 1p, Wed: after 3p </td><td class="col3"></td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Miriam Suzanne </td><td class="col1"> MT </td><td class="col2"> after 2pm Tues, anytime Wed </td><td class="col3"> Not available Thurs </td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> Noam Rosenthal </td><td class="col1"> GMT </td><td class="col2"> Prefer AM </td><td class="col3"> Unavailable Thu PM </td>
-	</tr>
-	<tr class="row15">
-		<td class="col0"> Oriol Brufau </td><td class="col1"> CEST (UTC+2) </td><td class="col2"> All </td><td class="col3"></td>
-	</tr>
-	<tr class="row16">
-		<td class="col0"> Rob Flack </td><td class="col1"> EDT </td><td class="col2"> All </td><td class="col3"> </td>
-	</tr>
-	<tr class="row17">
-		<td class="col0"> Roman Komarov </td><td class="col1"> CEST (UTC+2) </td><td class="col2"> Flexible </td><td class="col3"> </td>
-	</tr>
-	<tr class="row18">
-		<td class="col0"> Simon Fraser </td><td class="col1"> US/Pacific </td><td class="col2"> Some </td><td class="col3"> </td>
-	</tr>
-	<tr class="row19">
-		<td class="col0"> Stephen Chenney </td><td class="col1"> EDT </td><td class="col2"> All </td><td class="col3"> Unavailable some PM periods </td>
-	</tr>
-	<tr class="row20">
-		<td class="col0"> Yehonatan Daniv </td><td class="col1"> GMT+3 </td><td class="col2"> AM - PM as needed </td><td class="col3"></td>
-	</tr>
-</table></div><h3 id="regrets">Regrets</h3>
-<div class="table sectionedit11"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Josh Tumath, BBC </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Luke Warlow </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Sebastian Zartner </td>
-	</tr>
-</table></div>
-</main>
-</body>
-</html>
+
+| Name | Timezone | EDT Availability | Other Notes |
+|----|----|----|----|
+| Andreu Botella | CEST | Prefer AM and early PM. | Not available in the AM on Tue and Thu. |
+| Bramus | CEST | AM (+ PM if need be) |  |
+| Cassondra Roberts | EST | Flexible |  |
+| Daniel Holbert | PDT | PM |  |
+| David Baron | [America/New_York](https://www.openstreetmap.org/relation/6496417) | All | possible difficulty making 9am start promptly |
+| David Grogan |  | Tue 11a-2:30p; Thu 1:30p-3:30p | Not available Wed |
+| Emilio | CEST (UTC+2) | Flexible | (Might be able to attend in person, but not sure yet unfortunately) |
+| Eric Meyer | US/Eastern | All |  |
+| Ethan Jimenez | PDT | PM |  |
+| Hoch Hochkeppel | PDT | PM | Misc conflicts, but attending when possible. |
+| Jonathan Kew | BST | Mainly AM |  |
+| Kiet Ho | PDT | Tue: after 1p, Wed: after 3p |  |
+| Miriam Suzanne | MT | after 2pm Tues, anytime Wed | Not available Thurs |
+| Noam Rosenthal | GMT | Prefer AM | Unavailable Thu PM |
+| Oriol Brufau | CEST (UTC+2) | All |  |
+| Rob Flack | EDT | All |  |
+| Roman Komarov | CEST (UTC+2) | Flexible |  |
+| Simon Fraser | US/Pacific | Some |  |
+| Stephen Chenney | EDT | All | Unavailable some PM periods |
+| Yehonatan Daniv | GMT+3 | AM - PM as needed |  |
+
+### Regrets
+
+| Name              |
+|-------------------|
+| Josh Tumath, BBC  |
+| Luke Warlow       |
+| Sebastian Zartner |

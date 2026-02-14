@@ -1,304 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>New York City F2F August 2022 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / nyc-2022</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "New York City F2F August 2022"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#new-york-city-f2f-august-2022">New York City F2F August 2022</a><ul class="toc">
-<li class="level2"><a href="#attendees">Attendees</a><ul class="toc">
-<li class="level3"><a href="#in-person-participants">In-Person Participants</a></li>
-<li class="level3"><a href="#virtual-participants">Virtual Participants</a></li>
-<li class="level3"><a href="#regrets">Regrets</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#pandemic-protocol">Pandemic Protocol</a><ul class="toc">
-<li class="level3"><a href="#nyc-pcr-test-sites">NYC PCR Test Sites</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#proposed-topics">Proposed Topics</a></li>
-<li class="level2"><a href="#venue-pictures">Venue pictures</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# New York City F2F August 2022
 
-<h1 id="new-york-city-f2f-august-2022">New York City F2F August 2022</h1>
-<ul>
-<li class="level1">Host: Google</li>
-<li class="level1">Location: 22 Thompson Street, New York, NY 10012</li>
-<li class="level1">Dates: Monday 1 August - Wednesday 3 August 2022</li>
-<li class="level1 node">Video link information:<ul>
-<li class="level3"><a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2022JulSep/0060.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2022JulSep/0060.html" rel="noopener">Monday</a></li>
-<li class="level3"><a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2022JulSep/0065.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2022JulSep/0065.html" rel="noopener">Tuesday</a></li>
-<li class="level3"><a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2022JulSep/0071.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2022JulSep/0071.html" rel="noopener">Wednesday</a></li>
-</ul>
-</li>
-<li class="level1"><a href="https://github.com/orgs/w3c/projects/10" title="https://github.com/orgs/w3c/projects/10" rel="noopener">Agenda</a></li>
-</ul><h2 id="attendees">Attendees</h2><h3 id="in-person-participants">In-Person Participants</h3>
-<p>
+- Host: Google
+- Location: 22 Thompson Street, New York, NY 10012
+- Dates: Monday 1 August - Wednesday 3 August 2022
+- Video link information:
+  - [Monday](https://lists.w3.org/Archives/Member/w3c-css-wg/2022JulSep/0060.html)
+  - [Tuesday](https://lists.w3.org/Archives/Member/w3c-css-wg/2022JulSep/0065.html)
+  - [Wednesday](https://lists.w3.org/Archives/Member/w3c-css-wg/2022JulSep/0071.html)
+- [Agenda](https://github.com/orgs/w3c/projects/10)
+
+## Attendees
+
+### In-Person Participants
+
 In order to minimize COVID exposure, we will be catering all meals on-site. Please list all dietary restrictions in sufficient detail so we can accommodate.
-</p>
-<div class="table sectionedit4"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Arrival </th><th class="col2"> Departure </th><th class="col3"> Hotel </th><th class="col4"> Dietary Restrictions </th><th class="col5"> Flights or Other Notes </th><th class="col6"> PCR Date </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> fantasai </td><td class="col1"> local </td><td class="col2"> local </td><td class="col3"> local </td><td class="col4 leftalign">  </td><td class="col5"> I&#039;m in charge of food, so gimme all the notes and I promise you&#039;ll have nice food </td><td class="col6"> 7/29 </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Tab Atkins </td><td class="col1"> 7/30 </td><td class="col2"> 8/4 </td><td class="col3"> on-site </td><td class="col4"> omnivore, prefer vegetarian </td><td class="col5"> </td><td class="col6"> </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Rossen Atanassov </td><td class="col1"> TBD </td><td class="col2"> TBD </td><td class="col3"> on-site </td><td class="col4"> pescatarian </td><td class="col5"> </td><td class="col6"> </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Chris Lilley </td><td class="col1"> 7/31 </td><td class="col2"> 8/3 </td><td class="col3"> Four Points Sheraton </td><td class="col4"> omnivore, prefer lower-carb and higher-protein </td><td class="col5"> BA189 / BA172 </td><td class="col6"> 30 July, Negative </td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> Lea Verou </td><td class="col1"> 7/31 </td><td class="col2"> 8/3 </td><td class="col3"> Four Points Sheraton </td><td class="col4"> omnivore, prefer lower-carb and higher-protein </td><td class="col5 leftalign">  </td><td class="col6"> 30 July, Negative </td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> Jen Simmons </td><td class="col1"> local </td><td class="col2"> local </td><td class="col3"> local </td><td class="col4"> (too long to list) </td><td class="col5"> </td><td class="col6"> </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> Florian </td><td class="col1"> 7/31 </td><td class="col2"> 8/4 </td><td class="col3"> on-site </td><td class="col4"> omnivore </td><td class="col5"> BF720 / BF721</td><td class="col6"> Negative (2022.07.30) </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Alan </td><td class="col1"> 7/30 </td><td class="col2"> 8/5 </td><td class="col3"> Four Points Sheraton </td><td class="col4"> omnivore </td><td class="col5 leftalign">  </td><td class="col6"> 7/29 </td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> Bramus </td><td class="col1"> 7/30 </td><td class="col2"> 8/5 </td><td class="col3"> Hilton New York Fashion District Hotel </td><td class="col4"> omnivore </td><td class="col5 leftalign"> UA9929 / UA9928  </td><td class="col6"> 2022.07.28 </td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> Miriam Suzanne </td><td class="col1"> 7/31 </td><td class="col2"> 8/5 </td><td class="col3"> Four Points Sheraton </td><td class="col4"> vegetarian </td><td class="col5"> WN1185 / WN955 </td><td class="col6"> Negative, July 30 </td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Cassondra Roberts </td><td class="col1"> 7/30 </td><td class="col2"> 8/3 </td><td class="col3"> Four Points Sheraton </td><td class="col4"> Vegan (+ fish &amp; honey), strong dislike of mushrooms </td><td class="col5"> D4787 / D4647 </td><td class="col6"> 7/29 (myself, husband, &amp; our travel companion all returned negative results) </td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Emilio </td><td class="col1"> 7/30 </td><td class="col2"> 8/4 </td><td class="col3"> on-site </td><td class="col4"> omnivore </td><td class="col5 leftalign">  </td><td class="col6"> 7/30 </td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Una Kravets </td><td class="col1"> local </td><td class="col2"> local </td><td class="col3"> local </td><td class="col4"> </td><td class="col5"> </td><td class="col6"> </td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> Brian Kardell </td><td class="col1"> 7/30 </td><td class="col2"> 8/4 </td><td class="col3"> local </td><td class="col4"> omnivore </td><td class="col5 leftalign">  </td><td class="col6"> 7/31 negative </td>
-	</tr>
-</table></div><h3 id="virtual-participants">Virtual Participants</h3>
-<p>
-Please list your availability in NYC time (morning/afternoon/all or specific time ranges). See <a href="https://www.worldtimebuddy.com/?pl=1&amp;lid=5128581,5391959,1850147,2988507&amp;h=5128581&amp;date=8/1/2022%7C3&amp;hf=1" title="https://www.worldtimebuddy.com/?pl=1&amp;lid=5128581,5391959,1850147,2988507&amp;h=5128581&amp;date=8/1/2022%7C3&amp;hf=1" rel="noopener">Time Converter</a>
-</p>
-<div class="table sectionedit6"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Timezone </th><th class="col2"> EDT Availability </th><th class="col3"> Other Notes </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> François Remy </td><td class="col1"> CEDT </td><td class="col2"> Morning and afternoon </td><td class="col3"> Unlikely to be available on the last day </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Daniel Holbert </td><td class="col1"> PDT </td><td class="col2"> Afternoon </td><td class="col3"> I&#039;d like to present/gather-feedback-on <a href="https://github.com/w3c/csswg-drafts/issues/6988" title="https://github.com/w3c/csswg-drafts/issues/6988" rel="noopener">https://github.com/w3c/csswg-drafts/issues/6988</a> (passing theming colors/etc into SVG images)</td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> David Baron </td><td class="col1"> America/New_York </td><td class="col2"> about 8:45 until 17:30 </td><td class="col3"> in-person unlikely but possible </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Oriol Brufau </td><td class="col1"> CEST </td><td class="col2"> Morning and afternoon </td><td class="col3"> In and out depending on agenda </td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> Jonathan Kew </td><td class="col1"> UK/London </td><td class="col2"> Morning and afternoon </td><td class="col3"> Not full-time, will flex depending on agenda </td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> Rachel Andrew </td><td class="col1"> UK/Bristol </td><td class="col2"> Morning and early afternoon </td><td class="col3"> Will likely be in and out depending on agenda </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> Adam Argyle </td><td class="col1"> PDT </td><td class="col2"> Morning, afternoon, evening </td><td class="col3"> </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Vladimir Levin </td><td class="col1"> EST </td><td class="col2"> All </td><td class="col3"> </td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> Chris Harrelson </td><td class="col1"> PDT </td><td class="col2"> Can appear when necessary </td><td class="col3"> </td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> Peter Linss </td><td class="col1"> PDT </td><td class="col2"> Afternoon </td><td class="col3"> </td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Alison Maher </td><td class="col1"> PDT </td><td class="col2"> Afternoon </td><td class="col3"> Attendance dependent on agenda </td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Yehonatan Daniv </td><td class="col1"> IL/Tel-Aviv </td><td class="col2"> Morning and afternoon </td><td class="col3"> In and out depending on agenda </td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Daniel Libby </td><td class="col1"> HST </td><td class="col2"> Afternoon </td><td class="col3"> </td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> Rob Flack </td><td class="col1"> EST </td><td class="col2"> All </td><td class="col3"> Unlikely to make Monday - Canadian holiday </td>
-	</tr>
-	<tr class="row15">
-		<td class="col0"> Rune Lillesveen </td><td class="col1"> CEST </td><td class="col2"> Can appear when necessary </td><td class="col3"> </td>
-	</tr>
-	<tr class="row16">
-		<td class="col0"> Bobby Jo Steffl </td><td class="col1"> CDT </td><td class="col2"> Not Tuesday between 12:30pm &amp; 1:30pm CDT </td><td class="col3"> </td>
-	</tr>
-	<tr class="row17">
-		<td class="col0"> Dan Clark </td><td class="col1"> PDT </td><td class="col2"> All except Wednesday afternoon </td><td class="col3"> In and out depending on agenda </td>
-	</tr>
-	<tr class="row18">
-		<td class="col0"> Khushal Sagar </td><td class="col1"> </td><td class="col2"> Tue/Wed all day </td><td class="col3"> </td>
-	</tr>
-	<tr class="row19">
-		<td class="col0"> Megan Gardner </td><td class="col1"> </td><td class="col2"> Afternoons </td><td class="col3"> Highlight <abbr title="Application Programming Interface">API</abbr> issues in afternoon </td>
-	</tr>
-	<tr class="row20">
-		<td class="col0"> Simon Fraser </td><td class="col1"> PDT </td><td class="col2"> PDT-friendly times </td><td class="col3"> </td>
-	</tr>
-</table></div><h3 id="regrets">Regrets</h3>
-<div class="table sectionedit8"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Excuse </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Mike Bremford </td><td class="col1"> On an actual holiday </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Cameron McCormack </td><td class="col1"> </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Dael Jackson </td><td class="col1"> Life gets in the way of typing sometimes </td>
-	</tr>
-</table></div><h2 id="pandemic-protocol">Pandemic Protocol</h2>
-<p>
-<strong>Remember you are responsible for keeping yourself AND OTHERS safe.</strong>
-</p>
-<ul>
-<li class="level1">You must be vaccinated to the maximum eligible extent to attend.</li>
-<li class="level1 node">Avoid close contact with people outside your household for 3 days prior to travel. Close contact means:<ul>
-<li class="level2">occupying the same air space indoors without an N95-equivalent mask</li>
-<li class="level2">extended conversation at close distance outside</li>
-</ul>
-</li>
-<li class="level1">Wear an N95 mask during travel. Keep it on 100% in the airport; have your drinks and snacks in-flight on the airplane only.</li>
-<li class="level1">Do not dine indoors after you arrive (not even breakfast). There&#039;s plenty of outdoor seating in NYC; pick a venue whose seating is actually open to the air.</li>
-<li class="level1">Wear an N95/KN95/KF94 mask in all public indoor spaces (even though others might not).</li>
-<li class="level1">Get a PCR test before you show up on Monday. If you didn&#039;t need to get one before travel, get one here in NYC.</li>
-<li class="level1">You will take a rapid test every morning. They&#039;re roughly $10 at the local pharmacies.</li>
-<li class="level1">Depending on the state of the pandemic, we might all take a PCR one of the mornings.</li>
-<li class="level1">Our meeting space has windows! We will be keeping them open for cross-ventilation. Be prepared for hot humid weather! Also be prepared for A/C because lots of buildings in NYC will be robustly cooled…</li>
-<li class="level1">Jen Simmons will dictate our masking policy. :)</li>
-</ul><h3 id="nyc-pcr-test-sites">NYC PCR Test Sites</h3>
-<p>
+
+| Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes | PCR Date |
+|----|----|----|----|----|----|----|
+| fantasai | local | local | local |  | I'm in charge of food, so gimme all the notes and I promise you'll have nice food | 7/29 |
+| Tab Atkins | 7/30 | 8/4 | on-site | omnivore, prefer vegetarian |  |  |
+| Rossen Atanassov | TBD | TBD | on-site | pescatarian |  |  |
+| Chris Lilley | 7/31 | 8/3 | Four Points Sheraton | omnivore, prefer lower-carb and higher-protein | BA189 / BA172 | 30 July, Negative |
+| Lea Verou | 7/31 | 8/3 | Four Points Sheraton | omnivore, prefer lower-carb and higher-protein |  | 30 July, Negative |
+| Jen Simmons | local | local | local | (too long to list) |  |  |
+| Florian | 7/31 | 8/4 | on-site | omnivore | BF720 / BF721 | Negative (2022.07.30) |
+| Alan | 7/30 | 8/5 | Four Points Sheraton | omnivore |  | 7/29 |
+| Bramus | 7/30 | 8/5 | Hilton New York Fashion District Hotel | omnivore | UA9929 / UA9928 | 2022.07.28 |
+| Miriam Suzanne | 7/31 | 8/5 | Four Points Sheraton | vegetarian | WN1185 / WN955 | Negative, July 30 |
+| Cassondra Roberts | 7/30 | 8/3 | Four Points Sheraton | Vegan (+ fish & honey), strong dislike of mushrooms | D4787 / D4647 | 7/29 (myself, husband, & our travel companion all returned negative results) |
+| Emilio | 7/30 | 8/4 | on-site | omnivore |  | 7/30 |
+| Una Kravets | local | local | local |  |  |  |
+| Brian Kardell | 7/30 | 8/4 | local | omnivore |  | 7/31 negative |
+
+### Virtual Participants
+
+Please list your availability in NYC time (morning/afternoon/all or specific time ranges). See [Time Converter](https://www.worldtimebuddy.com/?pl=1&lid=5128581,5391959,1850147,2988507&h=5128581&date=8/1/2022%7C3&hf=1)
+
+| Name | Timezone | EDT Availability | Other Notes |
+|----|----|----|----|
+| François Remy | CEDT | Morning and afternoon | Unlikely to be available on the last day |
+| Daniel Holbert | PDT | Afternoon | I'd like to present/gather-feedback-on <https://github.com/w3c/csswg-drafts/issues/6988> (passing theming colors/etc into SVG images) |
+| David Baron | America/New_York | about 8:45 until 17:30 | in-person unlikely but possible |
+| Oriol Brufau | CEST | Morning and afternoon | In and out depending on agenda |
+| Jonathan Kew | UK/London | Morning and afternoon | Not full-time, will flex depending on agenda |
+| Rachel Andrew | UK/Bristol | Morning and early afternoon | Will likely be in and out depending on agenda |
+| Adam Argyle | PDT | Morning, afternoon, evening |  |
+| Vladimir Levin | EST | All |  |
+| Chris Harrelson | PDT | Can appear when necessary |  |
+| Peter Linss | PDT | Afternoon |  |
+| Alison Maher | PDT | Afternoon | Attendance dependent on agenda |
+| Yehonatan Daniv | IL/Tel-Aviv | Morning and afternoon | In and out depending on agenda |
+| Daniel Libby | HST | Afternoon |  |
+| Rob Flack | EST | All | Unlikely to make Monday - Canadian holiday |
+| Rune Lillesveen | CEST | Can appear when necessary |  |
+| Bobby Jo Steffl | CDT | Not Tuesday between 12:30pm & 1:30pm CDT |  |
+| Dan Clark | PDT | All except Wednesday afternoon | In and out depending on agenda |
+| Khushal Sagar |  | Tue/Wed all day |  |
+| Megan Gardner |  | Afternoons | Highlight API issues in afternoon |
+| Simon Fraser | PDT | PDT-friendly times |  |
+
+### Regrets
+
+| Name              | Excuse                                   |
+|-------------------|------------------------------------------|
+| Mike Bremford     | On an actual holiday                     |
+| Cameron McCormack |                                          |
+| Dael Jackson      | Life gets in the way of typing sometimes |
+
+## Pandemic Protocol
+
+**Remember you are responsible for keeping yourself AND OTHERS safe.**
+
+- You must be vaccinated to the maximum eligible extent to attend.
+- Avoid close contact with people outside your household for 3 days prior to travel. Close contact means:
+  - occupying the same air space indoors without an N95-equivalent mask
+  - extended conversation at close distance outside
+- Wear an N95 mask during travel. Keep it on 100% in the airport; have your drinks and snacks in-flight on the airplane only.
+- Do not dine indoors after you arrive (not even breakfast). There's plenty of outdoor seating in NYC; pick a venue whose seating is actually open to the air.
+- Wear an N95/KN95/KF94 mask in all public indoor spaces (even though others might not).
+- Get a PCR test before you show up on Monday. If you didn't need to get one before travel, get one here in NYC.
+- You will take a rapid test every morning. They're roughly \$10 at the local pharmacies.
+- Depending on the state of the pandemic, we might all take a PCR one of the mornings.
+- Our meeting space has windows! We will be keeping them open for cross-ventilation. Be prepared for hot humid weather! Also be prepared for A/C because lots of buildings in NYC will be robustly cooled…
+- Jen Simmons will dictate our masking policy. :)
+
+### NYC PCR Test Sites
+
 Your most convenient options include:
-</p>
 
-<p>
 1-2 day turnaround, outdoors on the sidewalk all over the city, no lines, limited weekend hours:
-</p>
-<ul>
-<li class="level1"><a href="https://labq.com/covid-mobile-testing/" title="https://labq.com/covid-mobile-testing/" rel="noopener">LabQ test tents</a> - available only with US insurance; fantasai&#039;s test run Monday 7/25 at 3pm returned Tuesday 7/26 at 6am</li>
-<li class="level1"><a href="https://labworq.com/" title="https://labworq.com/" rel="noopener">Labworq test tents</a> - available for $100 without insurance</li>
-<li class="level1"><a href="https://rapidtestingnyandct.com/" title="https://rapidtestingnyandct.com/" rel="noopener">Expert Medical Diagnostics, 2 blocks from venue</a> - 7 days a week</li>
-</ul>
 
-<p>
+- [LabQ test tents](https://labq.com/covid-mobile-testing/) - available only with US insurance; fantasai's test run Monday 7/25 at 3pm returned Tuesday 7/26 at 6am
+- [Labworq test tents](https://labworq.com/) - available for \$100 without insurance
+- [Expert Medical Diagnostics, 2 blocks from venue](https://rapidtestingnyandct.com/) - 7 days a week
+
 1 hour turnaround:
-</p>
-<ul>
-<li class="level1"><a href="https://rapidtestingnyandct.com/" title="https://rapidtestingnyandct.com/" rel="noopener">Expert Medical Diagnostics, 2 blocks from venue</a> rapid PCR $150 uninsured, $95 with insurance</li>
-<li class="level1"><a href="https://www.rapidtest.nyc/" title="https://www.rapidtest.nyc/" rel="noopener">Rapid Test NYC, downstairs from venue</a> $350</li>
-</ul><h2 id="proposed-topics">Proposed Topics</h2>
-<ul>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22" title="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22" rel="noopener">Agenda+ F2F Issues</a></li>
-<li class="level1"><a href="https://github.com/orgs/w3c/projects/10" title="https://github.com/orgs/w3c/projects/10" rel="noopener">Agenda project</a></li>
-<li class="level1">Scroll Animations</li>
-<li class="level1"><del>Indexing jargon (side discussion between Florian, Tab, fantasai, and anyone else interested)</del></li>
-</ul><h2 id="venue-pictures">Venue pictures</h2>
-<ul>
-<li class="level1"><a href="https://wiki.csswg.org/_media/planning/venue-nyc-2022-1.jpg" title="https://wiki.csswg.org/_media/planning/venue-nyc-2022-1.jpg" rel="noopener"> 1</a></li>
-<li class="level1"><a href="https://wiki.csswg.org/_media/planning/venue-nyc-2022-1.jpg" title="https://wiki.csswg.org/_media/planning/venue-nyc-2022-1.jpg" rel="noopener"> 2</a></li>
-</ul>
-</main>
-</body>
-</html>
+
+- [Expert Medical Diagnostics, 2 blocks from venue](https://rapidtestingnyandct.com/) rapid PCR \$150 uninsured, \$95 with insurance
+- [Rapid Test NYC, downstairs from venue](https://www.rapidtest.nyc/) \$350
+
+## Proposed Topics
+
+- [Agenda+ F2F Issues](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22)
+- [Agenda project](https://github.com/orgs/w3c/projects/10)
+- Scroll Animations
+- ~~Indexing jargon (side discussion between Florian, Tab, fantasai, and anyone else interested)~~
+
+## Venue pictures
+
+- [1](https://wiki.csswg.org/_media/planning/venue-nyc-2022-1.jpg)
+- [2](https://wiki.csswg.org/_media/planning/venue-nyc-2022-1.jpg)

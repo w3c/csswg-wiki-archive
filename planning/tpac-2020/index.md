@@ -1,344 +1,228 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CSSWG 3nd Virtual F2F, at TPAC 2020 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / tpac-2020</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "CSSWG 3nd Virtual F2F, at TPAC 2020"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#csswg-3nd-virtual-f2f-at-tpac-2020">CSSWG 3nd Virtual F2F, at TPAC 2020</a><ul class="toc">
-<li class="level2"><a href="#dial-in-logistics">Dial-in Logistics</a></li>
-<li class="level2"><a href="#schedule">Schedule</a></li>
-<li class="level2"><a href="#venue-tech">Venue tech</a></li>
-<li class="level2"><a href="#participants">Participants</a></li>
-<li class="level2"><a href="#agenda-schedule">Agenda Schedule</a></li>
-<li class="level2"><a href="#proposed-agenda">Proposed Agenda</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# CSSWG 3nd Virtual F2F, at TPAC 2020
 
-<h1 id="csswg-3nd-virtual-f2f-at-tpac-2020">CSSWG 3nd Virtual F2F, at TPAC 2020</h1>
-<p>
-<a href="https://www.w3.org/2020/10/TPAC/" title="https://www.w3.org/2020/10/TPAC/" rel="noopener">TPAC Virtual Meeting</a> is scheduled for <strong>October 2020</strong>
-</p>
-<ul>
-<li class="level1">12-16 October for <a href="https://www.w3.org/wiki/TPAC/2020/GroupMeetings" title="https://www.w3.org/wiki/TPAC/2020/GroupMeetings" rel="noopener">joint meetings with other groups</a> (TBD groups include I18N, TTWG, APA, <abbr title="Mathematical Markup Language">MathML</abbr>?, SVGWG?)</li>
-<li class="level1">19-23 October for our own meetings; see <a href="https://www.w3.org/wiki/TPAC/2020/GroupMeetings" title="https://www.w3.org/wiki/TPAC/2020/GroupMeetings" rel="noopener">W3C-wide group meeting calendar</a></li>
-<li class="level1">26-30 October is <a href="https://www.w3.org/2020/10/TPAC/breakout-schedule.html" title="https://www.w3.org/2020/10/TPAC/breakout-schedule.html" rel="noopener">breakout week</a></li>
-</ul><h2 id="dial-in-logistics">Dial-in Logistics</h2>
-<p>
+[TPAC Virtual Meeting](https://www.w3.org/2020/10/TPAC/) is scheduled for **October 2020**
+
+- 12-16 October for [joint meetings with other groups](https://www.w3.org/wiki/TPAC/2020/GroupMeetings) (TBD groups include I18N, TTWG, APA, MathML?, SVGWG?)
+- 19-23 October for our own meetings; see [W3C-wide group meeting calendar](https://www.w3.org/wiki/TPAC/2020/GroupMeetings)
+- 26-30 October is [breakout week](https://www.w3.org/2020/10/TPAC/breakout-schedule.html)
+
+## Dial-in Logistics
+
 Links to Meet: TBD
-</p><h2 id="schedule">Schedule</h2>
-<p>
-<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=202012T17" title="https://www.timeanddate.com/worldclock/fixedtime.html?iso=202012T17" rel="noopener">October 12 (13) 17:00 UTC</a> - <a href="https://github.com/WICG/open-ui/blob/master/meetings/telecon/tpac-openui-csswg-oct-2020.md" title="https://github.com/WICG/open-ui/blob/master/meetings/telecon/tpac-openui-csswg-oct-2020.md" rel="noopener">Joint Meeting with Open UI</a>
-</p>
-<pre class="code">  7pm - 11pm Paris
+
+## Schedule
+
+[October 12 (13) 17:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=202012T17) - [Joint Meeting with Open UI](https://github.com/WICG/open-ui/blob/master/meetings/telecon/tpac-openui-csswg-oct-2020.md)
+
+``` code
+  7pm - 11pm Paris
   6pm - 10pm London
   1pm -  5pm New York
  10am -  3pm San Francisco
   2am -  6am Tokyo
-  4am -  8am Melbourne</pre>
+  4am -  8am Melbourne
+```
 
-<p>
-<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=202014T15" title="https://www.timeanddate.com/worldclock/fixedtime.html?iso=202014T15" rel="noopener">October 14 (15) 15:00 UTC</a> - Joint Meeting with Accessibility (<a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0034.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0034.html" rel="noopener">Dial-in Info</a>)
-</p>
-<pre class="code">  5pm -  6pm Paris
+[October 14 (15) 15:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=202014T15) - Joint Meeting with Accessibility ([Dial-in Info](https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0034.html))
+
+``` code
+  5pm -  6pm Paris
   4pm -  5pm London
  11am - 12pm New York
   8am -  9am San Francisco
  12am -  1am Tokyo
-  2am -  3am Melbourne</pre>
+  2am -  3am Melbourne
+```
 
-<p>
-<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201015T15" title="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201015T15" rel="noopener">October 15 (16) 15:00 UTC</a> - <a href="https://lists.w3.org/Archives/Member/member-i18n-core/2020Oct/0003.html" title="https://lists.w3.org/Archives/Member/member-i18n-core/2020Oct/0003.html" rel="noopener">Joint Meeting with Internationalization</a> (<a href="https://www.w3.org/2017/09/i18n-meeting-info.html" title="https://www.w3.org/2017/09/i18n-meeting-info.html" rel="noopener">using i18n dial-in info</a>)
-</p>
-<pre class="code">  5pm -  6pm Paris
+[October 15 (16) 15:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201015T15) - [Joint Meeting with Internationalization](https://lists.w3.org/Archives/Member/member-i18n-core/2020Oct/0003.html) ([using i18n dial-in info](https://www.w3.org/2017/09/i18n-meeting-info.html))
+
+``` code
+  5pm -  6pm Paris
   4pm -  5pm London
  11am - 12pm New York
   8am -  9am San Francisco
  12am -  1am Tokyo
-  2am -  3am Melbourne</pre>
+  2am -  3am Melbourne
+```
 
-<p>
-<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201019T14" title="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201019T14" rel="noopener">October 19 (20) 14:00 UTC</a>- <a href="https://www.w3.org/2011/webtv/wiki/TPAC_2020_meeting#color" title="https://www.w3.org/2011/webtv/wiki/TPAC_2020_meeting#color" rel="noopener">Joint Meeting with Color on the Web CG, Media and Entertainment IG (about HDR)</a>
-</p>
-<pre class="code">  4pm -  5pm Paris
+[October 19 (20) 14:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201019T14)- [Joint Meeting with Color on the Web CG, Media and Entertainment IG (about HDR)](https://www.w3.org/2011/webtv/wiki/TPAC_2020_meeting#color)
+
+``` code
+  4pm -  5pm Paris
   3pm -  4pm London
  10am - 11am New York
   7am -  8am San Francisco
  11pm - 12am Tokyo
-  1am -  2am Melbourne</pre>
+  1am -  2am Melbourne
+```
 
-<p>
-<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201019T20" title="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201019T20" rel="noopener">October 19 (20) 20:00 UTC</a> - CSSWG (<a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html" rel="noopener">Dial-in</a>)
-</p>
-<pre class="code"> 10pm -  1am Paris
+[October 19 (20) 20:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201019T20) - CSSWG ([Dial-in](https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html))
+
+``` code
+ 10pm -  1am Paris
   9pm - 12am London
   4pm -  7pm New York
   1pm -  4pm San Francisco
   5am -  8am Tokyo
-  7am - 10am Melbourne</pre>
+  7am - 10am Melbourne
+```
 
-<p>
-<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201020T20" title="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201020T20" rel="noopener">October 20 (21) 20:00 UTC</a>- CSSWG (<a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html" rel="noopener">Dial-in</a>)
-</p>
-<pre class="code"> 10pm -  1am Paris
+[October 20 (21) 20:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201020T20)- CSSWG ([Dial-in](https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html))
+
+``` code
+ 10pm -  1am Paris
   9pm - 12am London
   4pm -  7pm New York
   1pm -  4pm San Francisco
   5am -  8am Tokyo
-  7am - 10am Melbourne</pre>
+  7am - 10am Melbourne
+```
 
-<p>
-<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201022T14" title="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201022T14" rel="noopener">October 22 (23) 14:00 UTC</a>- CSSWG (<a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html" rel="noopener">Dial-in</a>)
-</p>
-<pre class="code">  4pm -  7pm Paris
+[October 22 (23) 14:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201022T14)- CSSWG ([Dial-in](https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html))
+
+``` code
+  4pm -  7pm Paris
   3pm -  6pm London
  10am -  1pm New York
   7am - 10am San Francisco
  11pm -  2am Tokyo
-  1am -  4am Melbourne</pre>
+  1am -  4am Melbourne
+```
 
-<p>
-<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201023T14" title="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201023T14" rel="noopener">October 23 (24) 14:00 UTC</a> - CSSWG (<a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html" rel="noopener">Dial-in</a>)
-</p>
-<pre class="code">  4pm -  7pm Paris
+[October 23 (24) 14:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201023T14) - CSSWG ([Dial-in](https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html))
+
+``` code
+  4pm -  7pm Paris
   3pm -  6pm London
  10am -  1pm New York
   7am - 10am San Francisco
  11pm -  2am Tokyo
-  1am -  4am Melbourne</pre><h2 id="venue-tech">Venue tech</h2>
-<p>
+  1am -  4am Melbourne
+```
+
+## Venue tech
+
 Meet. Details on the member-only list: TBD
-</p>
 
-<p>
-We will use #css on <abbr title="Internet Relay Chat">IRC</abbr> for all meeting coordination. People can use the chat in Meet for backchannel conversations, but please do not expect the meeting chairs or scribe to notice or follow that extra channel.
-</p><h2 id="participants">Participants</h2>
-<div class="table sectionedit6"><table class="inline">
-	<tr class="row0">
-		<td class="col0"> <strong>Name</strong> </td><td class="col1"> <strong>Affiliation</strong> </td><td class="col2"> Monday </td><td class="col3"> Tuesday </td><td class="col4"> Thursday </td><td class="col5"> Friday </td>
-	</tr>
-	<tr class="row1">
-		<td class="col0"> Alan Stearns </td><td class="col1"> Adobe </td><td class="col2"> yes </td><td class="col3"> yes </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Cameron McCormack </td><td class="col1"> Mozilla </td><td class="col2"> yes </td><td class="col3"> yes </td><td class="col4"> no </td><td class="col5"> no </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Chris Lilley </td><td class="col1"> <abbr title="World Wide Web Consortium">W3C</abbr></td><td class="col2"> yes </td><td class="col3"> yes </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Devin Rousso </td><td class="col1"> Apple </td><td class="col2"> yes </td><td class="col3"> yes </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> fantasai </td><td class="col1"> Invited Expert </td><td class="col2"> yes </td><td class="col3"> yes </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> Jen Simmons </td><td class="col1"> Apple, Inc. </td><td class="col2"> yes </td><td class="col3"> yes </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> Lea Verou </td><td class="col1"> Invited Expert </td><td class="col2"> no </td><td class="col3"> no </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Myles C. Maxfield </td><td class="col1"> Apple, Inc. </td><td class="col2"> yes </td><td class="col3"> yes </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> Morgan Rae Reschenberg </td><td class="col1"> Mozilla </td><td class="col2"> yes </td><td class="col3"> yes </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> Oriol Brufau </td><td class="col1"> Igalia </td><td class="col2"> yes </td><td class="col3"> yes </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Rachel Andrew </td><td class="col1"> Fronteers </td><td class="col2"> no </td><td class="col3"> no </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Rossen Atanassov </td><td class="col1"> Microsoft </td><td class="col2"> no </td><td class="col3"> yes </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Simon Fraser </td><td class="col1"> Apple, Inc. </td><td class="col2"> 2nd half </td><td class="col3"> yes </td><td class="col4"> some </td><td class="col5"> some </td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> Tantek Çelik </td><td class="col1"> Mozilla </td><td class="col2"> yes </td><td class="col3"> yes </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row15">
-		<td class="col0"> Ting-Yu Lin </td><td class="col1"> Mozilla </td><td class="col2"> yes </td><td class="col3"> yes </td><td class="col4"> yes </td><td class="col5"> yes </td>
-	</tr>
-	<tr class="row16">
-		<td class="col0"> Daniel Holbert </td><td class="col1"> Mozilla </td><td class="col2"> no </td><td class="col3"> yes </td><td class="col4"> no </td><td class="col5"> no </td>
-	</tr>
-</table><p>
-If you can&#039;t make one of the days, mark any topics you want to be present for with a milestone for a day you can attend.
-</p><h2 id="agenda-schedule">Agenda Schedule</h2><h4 id="monday">Monday</h4>
-<p>
-<a href="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-19" title="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-19" rel="noopener">Issues by milestone</a>
-</p>
-<ul>
-<li class="level1">Republishing Tasks <a href="https://github.com/w3c/csswg-drafts/issues/5613" title="https://github.com/w3c/csswg-drafts/issues/5613" rel="noopener">5613</a></li>
-<li class="level1">[css-grid-1] Fix aspect-ratio errors in css-grid-1 <a href="https://github.com/w3c/csswg-drafts/issues/5615" title="https://github.com/w3c/csswg-drafts/issues/5615" rel="noopener">5615</a></li>
-<li class="level1">[css-grid] Resolution of percentage row tracks and gutters with indefinite height <a href="https://github.com/w3c/csswg-drafts/issues/5566" title="https://github.com/w3c/csswg-drafts/issues/5566" rel="noopener">5566</a></li>
-<li class="level1">[css-2020] Clear &#039;aspect-ratio&#039; for shipping <a href="https://github.com/w3c/csswg-drafts/issues/5598" title="https://github.com/w3c/csswg-drafts/issues/5598" rel="noopener">5598</a></li>
-<li class="level1">How widely should <abbr title="HyperText Markup Language">HTML</abbr>&#039;s &#039;aspect-ratio&#039; presentational attribute be applied? <a href="https://github.com/w3c/csswg-drafts/issues/5608" title="https://github.com/w3c/csswg-drafts/issues/5608" rel="noopener">5608</a></li>
-<li class="level1">Revisiting standardization of the `zoom` property <a href="https://github.com/w3c/csswg-drafts/issues/5623" title="https://github.com/w3c/csswg-drafts/issues/5623" rel="noopener">5623</a></li>
-<li class="level1">Updating the css `env()` function to enable selection by index from a list of pre-defined environment variables <a href="https://github.com/w3c/csswg-drafts/issues/5622" title="https://github.com/w3c/csswg-drafts/issues/5622" rel="noopener">5622</a></li>
-<li class="level1">[css-values-4] Ratio of `0/0`? <a href="https://github.com/w3c/csswg-drafts/issues/4954" title="https://github.com/w3c/csswg-drafts/issues/4954" rel="noopener">4954</a></li>
-<li class="level1">[cssom] [mediaqueries] Media query serialization doesn&#039;t work for newer <abbr title="specification">spec</abbr> features <a href="https://github.com/w3c/csswg-drafts/issues/5627" title="https://github.com/w3c/csswg-drafts/issues/5627" rel="noopener">5627</a></li>
-<li class="level1">[mediaqueries-5] duplication of `forced-colors: active` and `prefers-contrast: forced` <a href="https://github.com/w3c/csswg-drafts/issues/5433" title="https://github.com/w3c/csswg-drafts/issues/5433" rel="noopener">5433</a></li>
-<li class="level1">[mediaqueries-5] Updating the <abbr title="Cascading Style Sheets">CSS</abbr> media feature syntax for foldable &amp; dual-screen devices <a href="https://github.com/w3c/csswg-drafts/issues/5621" title="https://github.com/w3c/csswg-drafts/issues/5621" rel="noopener">5621</a></li>
-</ul><h4 id="tuesday">Tuesday</h4>
-<p>
-<a href="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-20" title="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-20" rel="noopener">Issues by milestone</a>
-</p>
-<ul>
-<li class="level1">Masonry <a href="https://raw.githack.com/mozilla/gecko-dev/master/layout/docs/css-grid-3/Overview.html" title="https://raw.githack.com/mozilla/gecko-dev/master/layout/docs/css-grid-3/Overview.html" rel="noopener">Draft</a> <a href="https://github.com/w3c/csswg-drafts/issues/4650" title="https://github.com/w3c/csswg-drafts/issues/4650" rel="noopener">4650</a></li>
-<li class="level1">[css-contain-2] Proposal: content-visibility: hidden-matchable <a href="https://github.com/w3c/csswg-drafts/issues/5595" title="https://github.com/w3c/csswg-drafts/issues/5595" rel="noopener">5595</a></li>
-<li class="level1">[css-contain] contain:size needs to mention its effect on aspect-ratio <a href="https://github.com/w3c/csswg-drafts/issues/5585" title="https://github.com/w3c/csswg-drafts/issues/5585" rel="noopener">5585</a></li>
-<li class="level1">[css-contain] Computed value of shortcut values <a href="https://github.com/w3c/csswg-drafts/issues/5511" title="https://github.com/w3c/csswg-drafts/issues/5511" rel="noopener">5511</a></li>
-<li class="level1">[css-contain-2] Combination of shortcuts and values <a href="https://github.com/w3c/csswg-drafts/issues/5506" title="https://github.com/w3c/csswg-drafts/issues/5506" rel="noopener">5506</a></li>
-<li class="level1">[css-contain] Terminology question <a href="https://github.com/w3c/csswg-drafts/issues/5590" title="https://github.com/w3c/csswg-drafts/issues/5590" rel="noopener">5590</a></li>
-<li class="level1">[css-sizing-4] Use cases for explicit intrinsic-size <a href="https://github.com/w3c/csswg-drafts/issues/4585" title="https://github.com/w3c/csswg-drafts/issues/4585" rel="noopener">4585</a></li>
-<li class="level1">[css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis? <a href="https://github.com/w3c/csswg-drafts/issues/3973" title="https://github.com/w3c/csswg-drafts/issues/3973" rel="noopener">3973</a></li>
-<li class="level1">[css-sizing] cyclic percentage concept should not exist <a href="https://github.com/w3c/csswg-drafts/issues/3010" title="https://github.com/w3c/csswg-drafts/issues/3010" rel="noopener">3010</a></li>
-<li class="level1">[css-sizing-3][css-images-3] Distinguish intrinsic size&#039;s two definitions with two terms <a href="https://github.com/w3c/csswg-drafts/issues/4961" title="https://github.com/w3c/csswg-drafts/issues/4961" rel="noopener">4961</a></li>
-<li class="level1">[css-sizing-4][css-contain] Clarify on specifying aspect-ratio and contain:size on replaced elements <a href="https://github.com/w3c/csswg-drafts/issues/5550" title="https://github.com/w3c/csswg-drafts/issues/5550" rel="noopener">5550</a></li>
-<li class="level1">[css-logical-1] Interaction of shorthands and logical properties <a href="https://github.com/w3c/csswg-drafts/issues/3030" title="https://github.com/w3c/csswg-drafts/issues/3030" rel="noopener">3030</a></li>
-</ul><h4 id="thursday">Thursday</h4>
-<p>
-<a href="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-22" title="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-22" rel="noopener">Issues by milestone</a>
-</p>
-<ul>
-<li class="level1">[css-variables][css-conditional] is trailing semicolon valid in @supports conditions <a href="https://github.com/w3c/csswg-drafts/issues/3171" title="https://github.com/w3c/csswg-drafts/issues/3171" rel="noopener">3171</a></li>
-<li class="level1">[css-conditional-3] define whether/how it matters if namespace prefixes are declared <a href="https://github.com/w3c/csswg-drafts/issues/3220" title="https://github.com/w3c/csswg-drafts/issues/3220" rel="noopener">3220</a></li>
-<li class="level1">[css-conditional-3] Are there issues with !important in @supports? (Is the grammar wrong?) <a href="https://github.com/w3c/csswg-drafts/issues/5559" title="https://github.com/w3c/csswg-drafts/issues/5559" rel="noopener">5559</a></li>
-<li class="level1">[css-color][cssom] Serialization of specified &lt;color&gt; values <a href="https://github.com/w3c/csswg-drafts/issues/1004" title="https://github.com/w3c/csswg-drafts/issues/1004" rel="noopener">1004</a></li>
-<li class="level1">[cssom][css-color] Need clarification on serialization of `rgb` &amp; `rgba` in light of css-color-4&#039;s syntax changes <a href="https://github.com/w3c/csswg-drafts/issues/585" title="https://github.com/w3c/csswg-drafts/issues/585" rel="noopener">585</a></li>
-<li class="level1">[css-images-3] Allow impls to not respect exif data if it&#039;s after the image data <a href="https://github.com/w3c/csswg-drafts/issues/4929" title="https://github.com/w3c/csswg-drafts/issues/4929" rel="noopener">4929</a></li>
-<li class="level1">[css-images] Integrate with SVG Integration <abbr title="specification">spec</abbr> <a href="https://github.com/w3c/csswg-drafts/issues/4640" title="https://github.com/w3c/csswg-drafts/issues/4640" rel="noopener">4640</a></li>
-<li class="level1">[css2][css-images] Zero or infinite intrinsic ratio <a href="https://github.com/w3c/csswg-drafts/issues/4572" title="https://github.com/w3c/csswg-drafts/issues/4572" rel="noopener">4572</a></li>
-<li class="level1">[css-images] Should the values of image-orientation include the &lt;angle&gt; variants? <a href="https://github.com/w3c/csswg-drafts/issues/4164" title="https://github.com/w3c/csswg-drafts/issues/4164" rel="noopener">4164</a></li>
-<li class="level1">[css-text-3][css-fonts-3][css-text-decor-3] Distinguish applying to text vs applying to boxes <a href="https://github.com/w3c/csswg-drafts/issues/5303" title="https://github.com/w3c/csswg-drafts/issues/5303" rel="noopener">5303</a></li>
-<li class="level1">[css-fonts] Reduce layout shift via @font-face descriptor(s) overriding inline spacing <a href="https://github.com/w3c/csswg-drafts/issues/5533" title="https://github.com/w3c/csswg-drafts/issues/5533" rel="noopener">5533</a></li>
-<li class="level1">[css-lists] <abbr title="Cascading Style Sheets">CSS</abbr> counter scope/inheritance is incompatible with <abbr title="HyperText Markup Language">HTML</abbr> ordinals <a href="https://github.com/w3c/csswg-drafts/issues/5477" title="https://github.com/w3c/csswg-drafts/issues/5477" rel="noopener">5477</a></li>
-<li class="level1">[css-color] Prevent fingerprinting with deprecated system colors <a href="https://github.com/w3c/csswg-drafts/issues/3873" title="https://github.com/w3c/csswg-drafts/issues/3873" rel="noopener">3873</a></li>
-<li class="level1">[css-color-adjust] Re-add `only` to mean “don&#039;t auto-adjust me”, per WebKit&#039;s behavior <a href="https://github.com/w3c/csswg-drafts/issues/5089" title="https://github.com/w3c/csswg-drafts/issues/5089" rel="noopener">5089</a></li>
-<li class="level1">[css-color-adjust-1] Is forced color computed or used value? <a href="https://github.com/w3c/csswg-drafts/issues/4915" title="https://github.com/w3c/csswg-drafts/issues/4915" rel="noopener">4915</a></li>
-<li class="level1">[css-color-adjust-1] more granular overriding of forced colors mode than per-element <a href="https://github.com/w3c/csswg-drafts/issues/4178" title="https://github.com/w3c/csswg-drafts/issues/4178" rel="noopener">4178</a></li>
-<li class="level1">[css-color] Change three color names <a href="https://github.com/w3c/csswg-drafts/issues/5284" title="https://github.com/w3c/csswg-drafts/issues/5284" rel="noopener">5284</a></li>
-</ul><h4 id="friday">Friday</h4>
-<p>
-<a href="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-23" title="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-23" rel="noopener">Issues by milestone</a>
-</p>
-<ul>
-<li class="level1">[css-multicol] Containing block of column spanners <a href="https://github.com/w3c/csswg-drafts/issues/5612" title="https://github.com/w3c/csswg-drafts/issues/5612" rel="noopener">5612</a></li>
-<li class="level1">[css-grid] Resolution of percentage row tracks and gutters with indefinite height <a href="https://github.com/w3c/csswg-drafts/issues/5566" title="https://github.com/w3c/csswg-drafts/issues/5566" rel="noopener">5566</a></li>
-<li class="level1"><abbr title="HyperText Markup Language">HTML</abbr> wants to mint the :modal pseudoclass for modal &lt;dialog&gt; elements <a href="https://github.com/w3c/csswg-drafts/issues/4645" title="https://github.com/w3c/csswg-drafts/issues/4645" rel="noopener">4645</a></li>
-<li class="level1">[css-logical-1] Order of inheritance vs. mapping in logical properties <a href="https://github.com/w3c/csswg-drafts/issues/3029" title="https://github.com/w3c/csswg-drafts/issues/3029" rel="noopener">3029</a></li>
-<li class="level1">[css-break-3] rules for direction to use when slicing inline borders for box-decoration-break:slice are unclear <a href="https://github.com/w3c/csswg-drafts/issues/4989" title="https://github.com/w3c/csswg-drafts/issues/4989" rel="noopener">4989</a></li>
-<li class="level1">[css-break] Specify that ink overflow doesn&#039;t fragment? <a href="https://github.com/w3c/csswg-drafts/issues/4099" title="https://github.com/w3c/csswg-drafts/issues/4099" rel="noopener">4099</a></li>
-<li class="level1">[css-break-4] orphans and widows for fragmented monolithic replaced elements <a href="https://github.com/w3c/csswg-drafts/issues/3405" title="https://github.com/w3c/csswg-drafts/issues/3405" rel="noopener">3405</a></li>
-<li class="level1">[css-break-4] Should fragmentation of block-level replaced-elements be configurable? (“object-slice”) <a href="https://github.com/w3c/csswg-drafts/issues/3404" title="https://github.com/w3c/csswg-drafts/issues/3404" rel="noopener">3404</a></li>
-<li class="level1">[css-overflow] CSSOM scrollWidth/scrollHeight behaviour of “overflow: clip”. <a href="https://github.com/w3c/csswg-drafts/issues/5572" title="https://github.com/w3c/csswg-drafts/issues/5572" rel="noopener">5572</a></li>
-<li class="level1">[cssom-view] [css-overflow] Document.scrollingElement doesn&#039;t reflect viewport propagation correctly in presence of overflow: clip <a href="https://github.com/w3c/csswg-drafts/issues/5601" title="https://github.com/w3c/csswg-drafts/issues/5601" rel="noopener">5601</a></li>
-<li class="level1">[css-pseudo] Problems with styling ::first-letter with punctuation <a href="https://github.com/w3c/csswg-drafts/issues/2040" title="https://github.com/w3c/csswg-drafts/issues/2040" rel="noopener">2040</a></li>
-<li class="level1">[css-display][css-pseudo] Is ::marker created by display:list-item or does it always exist? <a href="https://github.com/w3c/csswg-drafts/issues/1793" title="https://github.com/w3c/csswg-drafts/issues/1793" rel="noopener">1793</a></li>
-<li class="level1">[css-pseudo-4] ::selection vs ::inactive-selection <a href="https://github.com/w3c/csswg-drafts/issues/4579" title="https://github.com/w3c/csswg-drafts/issues/4579" rel="noopener">4579</a></li>
-<li class="level1">[css-sizing] how should inline-axis intrinsic sizing work for &#039;fit-content&#039; and &#039;fit-content()&#039;? <a href="https://github.com/w3c/csswg-drafts/issues/3731" title="https://github.com/w3c/csswg-drafts/issues/3731" rel="noopener">3731</a></li>
-<li class="level1">Allow specifying the “accent color” of a form control element <a href="https://github.com/w3c/csswg-drafts/issues/5187" title="https://github.com/w3c/csswg-drafts/issues/5187" rel="noopener">5187</a> (after 9am)</li>
-</ul><h2 id="proposed-agenda">Proposed Agenda</h2>
-<p>
-Please mark issues with the <code>Agenda+ TPAC</code> or <code>Agenda+ F2F</code> tag, and assign them to one of the TPAC-2020-* milestones if you have a preference for which day the discussion happens.
-</p>
+We will use \#css on IRC for all meeting coordination. People can use the chat in Meet for backchannel conversations, but please do not expect the meeting chairs or scribe to notice or follow that extra channel.
 
-<p>
+## Participants
+
+|  |  |  |  |  |  |
+|----|----|----|----|----|----|
+| **Name** | **Affiliation** | Monday | Tuesday | Thursday | Friday |
+| Alan Stearns | Adobe | yes | yes | yes | yes |
+| Cameron McCormack | Mozilla | yes | yes | no | no |
+| Chris Lilley | W3C | yes | yes | yes | yes |
+| Devin Rousso | Apple | yes | yes | yes | yes |
+| fantasai | Invited Expert | yes | yes | yes | yes |
+| Jen Simmons | Apple, Inc. | yes | yes | yes | yes |
+| Lea Verou | Invited Expert | no | no | yes | yes |
+| Myles C. Maxfield | Apple, Inc. | yes | yes | yes | yes |
+| Morgan Rae Reschenberg | Mozilla | yes | yes | yes | yes |
+| Oriol Brufau | Igalia | yes | yes | yes | yes |
+| Rachel Andrew | Fronteers | no | no | yes | yes |
+| Rossen Atanassov | Microsoft | no | yes | yes | yes |
+| Simon Fraser | Apple, Inc. | 2nd half | yes | some | some |
+| Tantek Çelik | Mozilla | yes | yes | yes | yes |
+| Ting-Yu Lin | Mozilla | yes | yes | yes | yes |
+| Daniel Holbert | Mozilla | no | yes | no | no |
+
+If you can't make one of the days, mark any topics you want to be present for with a milestone for a day you can attend.
+
+## Agenda Schedule
+
+#### Monday
+
+[Issues by milestone](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-19)
+
+- Republishing Tasks [5613](https://github.com/w3c/csswg-drafts/issues/5613)
+- \[css-grid-1\] Fix aspect-ratio errors in css-grid-1 [5615](https://github.com/w3c/csswg-drafts/issues/5615)
+- \[css-grid\] Resolution of percentage row tracks and gutters with indefinite height [5566](https://github.com/w3c/csswg-drafts/issues/5566)
+- \[css-2020\] Clear 'aspect-ratio' for shipping [5598](https://github.com/w3c/csswg-drafts/issues/5598)
+- How widely should HTML's 'aspect-ratio' presentational attribute be applied? [5608](https://github.com/w3c/csswg-drafts/issues/5608)
+- Revisiting standardization of the \`zoom\` property [5623](https://github.com/w3c/csswg-drafts/issues/5623)
+- Updating the css \`env()\` function to enable selection by index from a list of pre-defined environment variables [5622](https://github.com/w3c/csswg-drafts/issues/5622)
+- \[css-values-4\] Ratio of \`0/0\`? [4954](https://github.com/w3c/csswg-drafts/issues/4954)
+- \[cssom\] \[mediaqueries\] Media query serialization doesn't work for newer spec features [5627](https://github.com/w3c/csswg-drafts/issues/5627)
+- \[mediaqueries-5\] duplication of \`forced-colors: active\` and \`prefers-contrast: forced\` [5433](https://github.com/w3c/csswg-drafts/issues/5433)
+- \[mediaqueries-5\] Updating the CSS media feature syntax for foldable & dual-screen devices [5621](https://github.com/w3c/csswg-drafts/issues/5621)
+
+#### Tuesday
+
+[Issues by milestone](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-20)
+
+- Masonry [Draft](https://raw.githack.com/mozilla/gecko-dev/master/layout/docs/css-grid-3/Overview.html) [4650](https://github.com/w3c/csswg-drafts/issues/4650)
+- \[css-contain-2\] Proposal: content-visibility: hidden-matchable [5595](https://github.com/w3c/csswg-drafts/issues/5595)
+- \[css-contain\] contain:size needs to mention its effect on aspect-ratio [5585](https://github.com/w3c/csswg-drafts/issues/5585)
+- \[css-contain\] Computed value of shortcut values [5511](https://github.com/w3c/csswg-drafts/issues/5511)
+- \[css-contain-2\] Combination of shortcuts and values [5506](https://github.com/w3c/csswg-drafts/issues/5506)
+- \[css-contain\] Terminology question [5590](https://github.com/w3c/csswg-drafts/issues/5590)
+- \[css-sizing-4\] Use cases for explicit intrinsic-size [4585](https://github.com/w3c/csswg-drafts/issues/4585)
+- \[css-sizing-3\] Why was min-content, etc. redefined to do nothing in the block axis? [3973](https://github.com/w3c/csswg-drafts/issues/3973)
+- \[css-sizing\] cyclic percentage concept should not exist [3010](https://github.com/w3c/csswg-drafts/issues/3010)
+- \[css-sizing-3\]\[css-images-3\] Distinguish intrinsic size's two definitions with two terms [4961](https://github.com/w3c/csswg-drafts/issues/4961)
+- \[css-sizing-4\]\[css-contain\] Clarify on specifying aspect-ratio and contain:size on replaced elements [5550](https://github.com/w3c/csswg-drafts/issues/5550)
+- \[css-logical-1\] Interaction of shorthands and logical properties [3030](https://github.com/w3c/csswg-drafts/issues/3030)
+
+#### Thursday
+
+[Issues by milestone](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-22)
+
+- \[css-variables\]\[css-conditional\] is trailing semicolon valid in @supports conditions [3171](https://github.com/w3c/csswg-drafts/issues/3171)
+- \[css-conditional-3\] define whether/how it matters if namespace prefixes are declared [3220](https://github.com/w3c/csswg-drafts/issues/3220)
+- \[css-conditional-3\] Are there issues with !important in @supports? (Is the grammar wrong?) [5559](https://github.com/w3c/csswg-drafts/issues/5559)
+- \[css-color\]\[cssom\] Serialization of specified \<color\> values [1004](https://github.com/w3c/csswg-drafts/issues/1004)
+- \[cssom\]\[css-color\] Need clarification on serialization of \`rgb\` & \`rgba\` in light of css-color-4's syntax changes [585](https://github.com/w3c/csswg-drafts/issues/585)
+- \[css-images-3\] Allow impls to not respect exif data if it's after the image data [4929](https://github.com/w3c/csswg-drafts/issues/4929)
+- \[css-images\] Integrate with SVG Integration spec [4640](https://github.com/w3c/csswg-drafts/issues/4640)
+- \[css2\]\[css-images\] Zero or infinite intrinsic ratio [4572](https://github.com/w3c/csswg-drafts/issues/4572)
+- \[css-images\] Should the values of image-orientation include the \<angle\> variants? [4164](https://github.com/w3c/csswg-drafts/issues/4164)
+- \[css-text-3\]\[css-fonts-3\]\[css-text-decor-3\] Distinguish applying to text vs applying to boxes [5303](https://github.com/w3c/csswg-drafts/issues/5303)
+- \[css-fonts\] Reduce layout shift via @font-face descriptor(s) overriding inline spacing [5533](https://github.com/w3c/csswg-drafts/issues/5533)
+- \[css-lists\] CSS counter scope/inheritance is incompatible with HTML ordinals [5477](https://github.com/w3c/csswg-drafts/issues/5477)
+- \[css-color\] Prevent fingerprinting with deprecated system colors [3873](https://github.com/w3c/csswg-drafts/issues/3873)
+- \[css-color-adjust\] Re-add \`only\` to mean “don't auto-adjust me”, per WebKit's behavior [5089](https://github.com/w3c/csswg-drafts/issues/5089)
+- \[css-color-adjust-1\] Is forced color computed or used value? [4915](https://github.com/w3c/csswg-drafts/issues/4915)
+- \[css-color-adjust-1\] more granular overriding of forced colors mode than per-element [4178](https://github.com/w3c/csswg-drafts/issues/4178)
+- \[css-color\] Change three color names [5284](https://github.com/w3c/csswg-drafts/issues/5284)
+
+#### Friday
+
+[Issues by milestone](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+milestone%3ATPAC-2020-08-23)
+
+- \[css-multicol\] Containing block of column spanners [5612](https://github.com/w3c/csswg-drafts/issues/5612)
+- \[css-grid\] Resolution of percentage row tracks and gutters with indefinite height [5566](https://github.com/w3c/csswg-drafts/issues/5566)
+- HTML wants to mint the :modal pseudoclass for modal \<dialog\> elements [4645](https://github.com/w3c/csswg-drafts/issues/4645)
+- \[css-logical-1\] Order of inheritance vs. mapping in logical properties [3029](https://github.com/w3c/csswg-drafts/issues/3029)
+- \[css-break-3\] rules for direction to use when slicing inline borders for box-decoration-break:slice are unclear [4989](https://github.com/w3c/csswg-drafts/issues/4989)
+- \[css-break\] Specify that ink overflow doesn't fragment? [4099](https://github.com/w3c/csswg-drafts/issues/4099)
+- \[css-break-4\] orphans and widows for fragmented monolithic replaced elements [3405](https://github.com/w3c/csswg-drafts/issues/3405)
+- \[css-break-4\] Should fragmentation of block-level replaced-elements be configurable? (“object-slice”) [3404](https://github.com/w3c/csswg-drafts/issues/3404)
+- \[css-overflow\] CSSOM scrollWidth/scrollHeight behaviour of “overflow: clip”. [5572](https://github.com/w3c/csswg-drafts/issues/5572)
+- \[cssom-view\] \[css-overflow\] Document.scrollingElement doesn't reflect viewport propagation correctly in presence of overflow: clip [5601](https://github.com/w3c/csswg-drafts/issues/5601)
+- \[css-pseudo\] Problems with styling ::first-letter with punctuation [2040](https://github.com/w3c/csswg-drafts/issues/2040)
+- \[css-display\]\[css-pseudo\] Is ::marker created by display:list-item or does it always exist? [1793](https://github.com/w3c/csswg-drafts/issues/1793)
+- \[css-pseudo-4\] ::selection vs ::inactive-selection [4579](https://github.com/w3c/csswg-drafts/issues/4579)
+- \[css-sizing\] how should inline-axis intrinsic sizing work for 'fit-content' and 'fit-content()'? [3731](https://github.com/w3c/csswg-drafts/issues/3731)
+- Allow specifying the “accent color” of a form control element [5187](https://github.com/w3c/csswg-drafts/issues/5187) (after 9am)
+
+## Proposed Agenda
+
+Please mark issues with the `Agenda+ TPAC` or `Agenda+ F2F` tag, and assign them to one of the TPAC-2020-\* milestones if you have a preference for which day the discussion happens.
+
 TODO: Add the full list of issues on GitHub explicitly here.
-</p>
-<ul>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F" title="https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F" rel="noopener">https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F</a> + <a href="https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20TPAC" title="https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20TPAC" rel="noopener">https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20TPAC</a></li>
-<li class="level1"><a href="https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20F2F" title="https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20F2F" rel="noopener">https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20F2F</a> + <a href="https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20TPAC" title="https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20TPAC" rel="noopener">https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20TPAC</a></li>
-<li class="level1"><a href="https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F" title="https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F" rel="noopener">https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F</a> + <a href="https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20TPAC" title="https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20TPAC" rel="noopener">https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20TPAC</a></li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/5647" title="https://github.com/w3c/csswg-drafts/issues/5647" rel="noopener">Baseline alignment for text</a> [myles]</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Conditional 3 <a href="https://github.com/w3c/csswg-drafts/issues/5559" title="https://github.com/w3c/csswg-drafts/issues/5559" rel="noopener">Are there issues with !important in @supports? (Is the grammar wrong?)</a></li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Conditional 3 <a href="https://github.com/w3c/csswg-drafts/issues/3220" title="https://github.com/w3c/csswg-drafts/issues/3220" rel="noopener">define whether/how it matters if namespace prefixes are declared</a></li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Conditional 3 <a href="https://github.com/w3c/csswg-drafts/issues/3171" title="https://github.com/w3c/csswg-drafts/issues/3171" rel="noopener">is trailing semicolon valid in @supports conditions</a></li>
-<li class="level1">Adopting <a href="https://raw.githack.com/mozilla/gecko-dev/master/layout/docs/css-grid-3/Overview.html" title="https://raw.githack.com/mozilla/gecko-dev/master/layout/docs/css-grid-3/Overview.html" rel="noopener">Masonry proposal</a> into a <abbr title="specification">spec</abbr> (start of Day 2, so Mats can call in)</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Color 4 <a href="https://github.com/w3c/csswg-drafts/issues/1004" title="https://github.com/w3c/csswg-drafts/issues/1004" rel="noopener">Serialization of specified &lt;color&gt; values</a> and <a href="https://github.com/w3c/csswg-drafts/issues/585" title="https://github.com/w3c/csswg-drafts/issues/585" rel="noopener">Need clarification on serialization of `rgb` &amp; `rgba` in light of css-color-4&#039;s syntax changes</a> and <a href="https://github.com/w3c/csswg-drafts/issues/480" title="https://github.com/w3c/csswg-drafts/issues/480" rel="noopener">Serializing color() values</a> just to be sure before taking this out of CSSOM and fully defining in <abbr title="Cascading Style Sheets">CSS</abbr> Color 4, for all syntaxes, not just the rgb ones</li>
-</ul>
-</main>
-</body>
-</html>
+
+- <https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20F2F> + <https://github.com/w3c/csswg-drafts/labels/Agenda%2B%20TPAC>
+- <https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20F2F> + <https://github.com/w3c/fxtf-drafts/labels/Agenda%2B%20TPAC>
+- <https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20F2F> + <https://github.com/w3c/css-houdini-drafts/labels/Agenda%2B%20TPAC>
+- [Baseline alignment for text](https://github.com/w3c/csswg-drafts/issues/5647) \[myles\]
+- CSS Conditional 3 [Are there issues with !important in @supports? (Is the grammar wrong?)](https://github.com/w3c/csswg-drafts/issues/5559)
+- CSS Conditional 3 [define whether/how it matters if namespace prefixes are declared](https://github.com/w3c/csswg-drafts/issues/3220)
+- CSS Conditional 3 [is trailing semicolon valid in @supports conditions](https://github.com/w3c/csswg-drafts/issues/3171)
+- Adopting [Masonry proposal](https://raw.githack.com/mozilla/gecko-dev/master/layout/docs/css-grid-3/Overview.html) into a spec (start of Day 2, so Mats can call in)
+- CSS Color 4 [Serialization of specified \<color\> values](https://github.com/w3c/csswg-drafts/issues/1004) and [Need clarification on serialization of \`rgb\` & \`rgba\` in light of css-color-4's syntax changes](https://github.com/w3c/csswg-drafts/issues/585) and [Serializing color() values](https://github.com/w3c/csswg-drafts/issues/480) just to be sure before taking this out of CSSOM and fully defining in CSS Color 4, for all syntaxes, not just the rgb ones

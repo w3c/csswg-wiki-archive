@@ -1,167 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Browseable Test Harness - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../test/">test</a> / harness</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Browseable Test Harness"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#browseable-test-harness">Browseable Test Harness</a><ul class="toc">
-<li class="level2"><a href="#harness-resources">Harness Resources</a></li>
-<li class="level2"><a href="#harness-wishlist">Harness Wishlist</a><ul class="toc">
-<li class="level3"><a href="#new-harnesses">New Harnesses</a></li>
-<li class="level3"><a href="#better-reporting">Better Reporting</a></li>
-<li class="level3"><a href="#data-cleanup">Data cleanup</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#other-notes">Other Notes</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# Browseable Test Harness
 
-<h1 id="browseable-test-harness">Browseable Test Harness</h1>
-<p>
-In 2007, Dominique Hazael-Massieux created a CGI-based harness for the Mobile Web Initiative&#039;s test suites. One of the very neat things about the MWI test harness is that it associates the results with a user agent string. This means there&#039;s no need for users to log in or to select their UA. They just load a test and click Pass/Fail/Can&#039;t Tell.
-</p>
+In 2007, Dominique Hazael-Massieux created a CGI-based harness for the Mobile Web Initiative's test suites. One of the very neat things about the MWI test harness is that it associates the results with a user agent string. This means there's no need for users to log in or to select their UA. They just load a test and click Pass/Fail/Can't Tell.
 
-<p>
-An easy-to-use harness for reporting tests like this would be useful across all of <abbr title="World Wide Web Consortium">W3C</abbr>&#039;s Interaction Domain working groups. It has the potential to make the process of creating implementation reports much, much easier, and it would allow more involvement from the community outside <abbr title="World Wide Web Consortium">W3C</abbr>.
-</p>
+An easy-to-use harness for reporting tests like this would be useful across all of W3C's Interaction Domain working groups. It has the potential to make the process of creating implementation reports much, much easier, and it would allow more involvement from the community outside W3C.
 
-<p>
-The <abbr title="Cascading Style Sheets">CSS</abbr> Working Group planned to extend this harness and use it for the <abbr title="Cascading Style Sheets">CSS</abbr> conformance tests and implementation reports. HP took Dominique&#039;s source code, created a more flexible back-end and implementing some of the <a href="http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0027.html" title="http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0027.html" rel="noopener">improvements</a> we felt were needed. Dominique posted the results of HP&#039;s work on the <abbr title="World Wide Web Consortium">W3C</abbr> site, along with a working prototype. But HP then disengaged from the project after a company reorganization.
-</p>
+The CSS Working Group planned to extend this harness and use it for the CSS conformance tests and implementation reports. HP took Dominique's source code, created a more flexible back-end and implementing some of the [improvements](http://lists.w3.org/Archives/Public/public-css-testsuite/2008Apr/0027.html) we felt were needed. Dominique posted the results of HP's work on the W3C site, along with a working prototype. But HP then disengaged from the project after a company reorganization.
 
-<p>
-The current state of the project is that nobody here knows how the harness works, whether it&#039;s reliable, or how to set it up with a new set of tests. The reporting half of the improvements were not implemented, and the output is mostly unhelpful in its current state.
-</p>
+The current state of the project is that nobody here knows how the harness works, whether it's reliable, or how to set it up with a new set of tests. The reporting half of the improvements were not implemented, and the output is mostly unhelpful in its current state.
 
-<p>
-The source code, bug database, and prototype <abbr title="Uniform Resource Locator">URL</abbr> are all listed below. If you are interested in taking ownership of this project, and have any questions, please contact the <a href="http://lists.w3.org/Archives/Public/public-css-testsuite" title="http://lists.w3.org/Archives/Public/public-css-testsuite" rel="noopener">public-css-testuite</a> or <a href="http://lists.w3.org/Archives/Public/public-test-infra/" title="http://lists.w3.org/Archives/Public/public-test-infra/" rel="noopener">public-test-infra</a> mailing list.
-</p><h2 id="harness-resources">Harness Resources</h2>
-<ul>
-<li class="level1"><strong><a href="http://test.csswg.org/harness/" title="http://test.csswg.org/harness/" rel="noopener">Current Harness for CSS2.1</a></strong></li>
-<li class="level1"><a href="http://www.w3.org/2007/03/mth/harness" title="http://www.w3.org/2007/03/mth/harness" rel="noopener">MWI&#039;s harness</a></li>
-<li class="level1"><a href="http://dev.w3.org/cvsweb/2007/mobile-test-harness/" title="http://dev.w3.org/cvsweb/2007/mobile-test-harness/" rel="noopener">MWI&#039;s harness source code</a></li>
-<li class="level1"><a href="http://www.w3.org/2008/07/test-harness-css/" title="http://www.w3.org/2008/07/test-harness-css/" rel="noopener">Harness prototype</a></li>
-<li class="level1"><a href="http://dev.w3.org/cvsweb/2008/test-harness/" title="http://dev.w3.org/cvsweb/2008/test-harness/" rel="noopener">Harness source code</a></li>
-<li class="level1"><a href="http://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;product=Test+Harness+for+Browser+testing&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" title="http://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;product=Test+Harness+for+Browser+testing&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" rel="noopener">Harness bug database</a></li>
-</ul><h2 id="harness-wishlist">Harness Wishlist</h2>
-<p>
-These are the improvements we&#039;d like to see, numbered roughly by priority.
-</p><h3 id="new-harnesses">New Harnesses</h3>
-<ul>
-<li class="level1">(1) Harness using <code>&lt;object&gt;</code> to contain the test and pass/fail buttons on the containing page rather than inside the test file. (This format is good for browsers.) The <code>&lt;object&gt;</code> will contain a hypertext link to the test as fallback.</li>
-</ul>
-<ul>
-<li class="level1">(2) Harness using links to open the test and pass/fail buttons on the page containing the link rather than inside the test file. This format will also allow the tester to enter the UA string manually, for cases where the UA being tested is non-interactive. (This format is necessary for printers.)</li>
-</ul>
+The source code, bug database, and prototype URL are all listed below. If you are interested in taking ownership of this project, and have any questions, please contact the [public-css-testuite](http://lists.w3.org/Archives/Public/public-css-testsuite) or [public-test-infra](http://lists.w3.org/Archives/Public/public-test-infra/) mailing list.
 
-<p>
+## Harness Resources
+
+- **[Current Harness for CSS2.1](http://test.csswg.org/harness/)**
+- [MWI's harness](http://www.w3.org/2007/03/mth/harness)
+- [MWI's harness source code](http://dev.w3.org/cvsweb/2007/mobile-test-harness/)
+- [Harness prototype](http://www.w3.org/2008/07/test-harness-css/)
+- [Harness source code](http://dev.w3.org/cvsweb/2008/test-harness/)
+- [Harness bug database](http://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&product=Test+Harness+for+Browser+testing&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=)
+
+## Harness Wishlist
+
+These are the improvements we'd like to see, numbered roughly by priority.
+
+### New Harnesses
+
+- \(1\) Harness using `<object>` to contain the test and pass/fail buttons on the containing page rather than inside the test file. (This format is good for browsers.) The `<object>` will contain a hypertext link to the test as fallback.
+
+<!-- -->
+
+- \(2\) Harness using links to open the test and pass/fail buttons on the page containing the link rather than inside the test file. This format will also allow the tester to enter the UA string manually, for cases where the UA being tested is non-interactive. (This format is necessary for printers.)
+
 In both cases the test itself should be referenced as a link, not fed through the CGI script. (This avoids tampering with the HTTP headers that normally get served up with the tests.)
-</p>
-<ul>
-<li class="level1">(8) It would be nice if these harnesses could include some meta information about the test in addition to the buttons. E.g. the test ID (filename  before extension), test title, any requirements documented in the test (“Warning: Must install Ahem font.” etc). (We can extract this information into a flat-file database during the test suite build process so the harness doesn&#039;t have to do any analysis of the tests themselves.)</li>
-</ul><h3 id="better-reporting">Better Reporting</h3>
-<ul>
-<li class="level1">(3) Ability to consolidate results for various user agent strings under one category name. E.g. consolidate results for all UA strings that represent Opera 9.25 Beta 1 regardless of <abbr title="Operating System">OS</abbr> and localization.</li>
-</ul>
-<ul>
-<li class="level1">(4) Pass/fail scores for the whole test suite</li>
-</ul>
-<ul>
-<li class="level1">(5) Ability to report consolidated pass/fail scores for a named groups of tests. (To create e.g. a summary of what features are supported and to what level.)</li>
-</ul>
-<ul>
-<li class="level1">(6) Interface for generating reports based on various parameters. URLs to these reports should be short and clean so they can be passed around in blogs/IM/email etc.</li>
-</ul>
-<ul>
-<li class="level1">(9) Prettier reports. :)</li>
-</ul><h3 id="data-cleanup">Data cleanup</h3>
-<ul>
-<li class="level1">(7) Ability to delete all data for a given test (so that when a test is changed we can invalidate the results for that test). This process could be triggered manually on the command line rather than via CGI—that avoids the need for a login system.</li>
-</ul><h2 id="other-notes">Other Notes</h2>
-<ul>
-<li class="level1">Put requirements up front</li>
-<li class="level1">Add Skip button</li>
-<li class="level1">Track session so that a bad user&#039;s data can be deleted</li>
-</ul>
-</main>
-</body>
-</html>
+
+- \(8\) It would be nice if these harnesses could include some meta information about the test in addition to the buttons. E.g. the test ID (filename before extension), test title, any requirements documented in the test (“Warning: Must install Ahem font.” etc). (We can extract this information into a flat-file database during the test suite build process so the harness doesn't have to do any analysis of the tests themselves.)
+
+### Better Reporting
+
+- \(3\) Ability to consolidate results for various user agent strings under one category name. E.g. consolidate results for all UA strings that represent Opera 9.25 Beta 1 regardless of OS and localization.
+
+<!-- -->
+
+- \(4\) Pass/fail scores for the whole test suite
+
+<!-- -->
+
+- \(5\) Ability to report consolidated pass/fail scores for a named groups of tests. (To create e.g. a summary of what features are supported and to what level.)
+
+<!-- -->
+
+- \(6\) Interface for generating reports based on various parameters. URLs to these reports should be short and clean so they can be passed around in blogs/IM/email etc.
+
+<!-- -->
+
+- \(9\) Prettier reports. :)
+
+### Data cleanup
+
+- \(7\) Ability to delete all data for a given test (so that when a test is changed we can invalidate the results for that test). This process could be triggered manually on the command line rather than via CGI—that avoids the need for a login system.
+
+## Other Notes
+
+- Put requirements up front
+- Add Skip button
+- Track session so that a bad user's data can be deleted

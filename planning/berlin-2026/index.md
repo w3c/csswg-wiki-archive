@@ -1,154 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Berlin F2F August 2026 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / berlin-2026</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Berlin F2F August 2026"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#berlin-f2f-august-2026">Berlin F2F August 2026</a><ul class="toc">
-<li class="level2"><a href="#covid-protocols">Covid Protocols</a></li>
-<li class="level2"><a href="#agenda">Agenda</a></li>
-<li class="level2"><a href="#attendees">Attendees</a><ul class="toc">
-<li class="level3"><a href="#in-person-participants">In-Person Participants</a></li>
-<li class="level3"><a href="#virtual-participants">Virtual Participants</a></li>
-<li class="level3"><a href="#regrets">Regrets</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# Berlin F2F August 2026
 
-<h1 id="berlin-f2f-august-2026">Berlin F2F August 2026</h1>
-<ul>
-<li class="level1">Host: Mozilla</li>
-<li class="level1">Dial-in: TBD</li>
-<li class="level1">Location: Mozilla, Schlesische Strasse 27, Entrance C, 4 Floor, 10997 Berlin</li>
-<li class="level1">Weather Forecast: TBD</li>
-<li class="level1">Dates: Tuesday 4th August - Thursday 6th August 2026</li>
-<li class="level1 node">Times: 10am - 6pm<ul>
-<li class="level2">Breakfast: TBD</li>
-<li class="level2">Morning break: TBD</li>
-<li class="level2">Lunch break: TBD</li>
-<li class="level2">Afternoon break: TBD</li>
-<li class="level2">Host dinner: TBD</li>
-</ul>
-</li>
-<li class="level1 node">Airports:<ul>
-<li class="level3">BER - Berlin Brandenburg Airport</li>
-</ul>
-</li>
-</ul><h2 id="covid-protocols">Covid Protocols</h2>
-<ul>
-<li class="level1">Masks recommended, but not required, in the meeting room.</li>
-<li class="level1">COVID testing daily before meeting.</li>
-<li class="level1">Outdoor dining encouraged, weather permitting.</li>
-<li class="level1">Strong recommendation to wear a mask in airports and on airplanes (particularly during takeoff and landing) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt.</li>
-</ul><h2 id="agenda">Agenda</h2>
-<p>
-Flag issues with <a href="https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Agenda%2B%20F2F%22" title="https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Agenda%2B%20F2F%22" rel="noopener">Agenda+ F2F</a> or <a href="https://lists.w3.org/Archives/Member/w3c-css-wg/" title="https://lists.w3.org/Archives/Member/w3c-css-wg/" rel="noopener">email the list with requests</a>.
-</p><h2 id="attendees">Attendees</h2><h3 id="in-person-participants">In-Person Participants</h3>
-<p>
+- Host: Mozilla
+- Dial-in: TBD
+- Location: Mozilla, Schlesische Strasse 27, Entrance C, 4 Floor, 10997 Berlin
+- Weather Forecast: TBD
+- Dates: Tuesday 4th August - Thursday 6th August 2026
+- Times: 10am - 6pm
+  - Breakfast: TBD
+  - Morning break: TBD
+  - Lunch break: TBD
+  - Afternoon break: TBD
+  - Host dinner: TBD
+- Airports:
+  - BER - Berlin Brandenburg Airport
+
+## Covid Protocols
+
+- Masks recommended, but not required, in the meeting room.
+- COVID testing daily before meeting.
+- Outdoor dining encouraged, weather permitting.
+- Strong recommendation to wear a mask in airports and on airplanes (particularly during takeoff and landing) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt.
+
+## Agenda
+
+Flag issues with [Agenda+ F2F](https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Agenda%2B%20F2F%22) or [email the list with requests](https://lists.w3.org/Archives/Member/w3c-css-wg/).
+
+## Attendees
+
+### In-Person Participants
+
 (alphabetical by first name)
-</p>
-<div class="table sectionedit6"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Arrival </th><th class="col2"> Departure </th><th class="col3"> Hotel </th><th class="col4"> Dietary Restrictions </th><th class="col5"> Flights or Other Notes </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Elika </td><td class="col1"> TBD </td><td class="col2"> TBD </td><td class="col3"> TBD </td><td class="col4"> low-gluten </td><td class="col5"> TBD </td>
-	</tr>
-</table></div><h3 id="virtual-participants">Virtual Participants</h3>
-<p>
-Please list your availability in Berlin time (morning/afternoon/all or specific time ranges). See <a href="https://www.worldtimebuddy.com/?qm=1&amp;lid=5391959,2158177,1850147,293397,2988507,2643743,5128581&amp;h=5391959&amp;date=2025-1-29&amp;sln=8-16&amp;hf=1" title="https://www.worldtimebuddy.com/?qm=1&amp;lid=5391959,2158177,1850147,293397,2988507,2643743,5128581&amp;h=5391959&amp;date=2025-1-29&amp;sln=8-16&amp;hf=1" rel="noopener">Time Converter</a>
-</p>
-<div class="table sectionedit8"><table class="inline">
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Timezone </th><th class="col2"> PST Availability </th><th class="col3"> Other Notes </th>
-	</tr>
-</table></div><h3 id="regrets">Regrets</h3>
-<div class="table sectionedit10"><table class="inline">
-	<tr class="row0">
-		<th class="col0"> Name </th>
-	</tr>
-</table></div>
-</main>
-</body>
-</html>
+
+| Name  | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
+|-------|---------|-----------|-------|----------------------|------------------------|
+| Elika | TBD     | TBD       | TBD   | low-gluten           | TBD                    |
+
+### Virtual Participants
+
+Please list your availability in Berlin time (morning/afternoon/all or specific time ranges). See [Time Converter](https://www.worldtimebuddy.com/?qm=1&lid=5391959,2158177,1850147,293397,2988507,2643743,5128581&h=5391959&date=2025-1-29&sln=8-16&hf=1)
+
+| Name | Timezone | PST Availability | Other Notes |
+|------|----------|------------------|-------------|
+
+### Regrets
+
+| Name |
+|------|

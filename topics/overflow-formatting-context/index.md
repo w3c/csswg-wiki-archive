@@ -1,181 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Define &quot;formatting context&quot; and fix &#039;Applies to&#039; line of &#039;overflow&#039; property - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../topics/">topics</a> / overflow-formatting-context</div>
-<main>
-<h1 id="define-formatting-context-and-fix-applies-to-line-of-overflow-property">Define &quot;formatting context&quot; and fix &#039;Applies to&#039; line of &#039;overflow&#039; property</h1>
-<div class="inline dataplugin_entry  sectionedit2"><dl><dt class="spec">Spec<span class="sep">: </span></dt><dd class="spec"><a href="../../spec?dataflt%5B0%5D=spec_%3Dcss21" title="Show pages matching 'css21'">css21</a><span class="sep">, </span><a href="../../spec?dataflt%5B0%5D=spec_%3Dcss3-flexbox" title="Show pages matching 'css3-flexbox'">css3-flexbox</a></dd><dt class="owner">Owner<span class="sep">: </span></dt><dd class="owner"><a href="../../owner?dataflt%5B0%5D=owner_%3Dfantasai" title="Show pages matching 'fantasai'">fantasai</a><span class="sep">, </span><a href="../../owner?dataflt%5B0%5D=owner_%3Dantonp" title="Show pages matching 'antonp'">antonp</a><span class="sep">, </span><a href="../../owner?dataflt%5B0%5D=owner_%3DTabAtkins" title="Show pages matching 'TabAtkins'">TabAtkins</a></dd><dt class="status">Status<span class="sep">: </span></dt><dd class="status"><a href="../../status?dataflt%5B0%5D=status_%3DResolved" title="Show pages matching 'Resolved'">Resolved</a></dd><dt class="added">Added<span class="sep">: </span></dt><dd class="added">2012-05-15</dd><dt class="action">Action<span class="sep">: </span></dt><dd class="action">React to CfC - http://lists.w3.org/Archives/Public/www-style/2012Jul/0342.html</dd><dt class="issue">Issue<span class="sep">: </span></dt><dd class="issue"><a href='https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381' class='urlextern' rel="nofollow">https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381</a></dd><dt class="proposal">Proposal<span class="sep">: </span></dt><dd class="proposal"><a href='http://lists.w3.org/Archives/Public/www-style/2012May/0494.html' class='urlextern' rel="nofollow">http://lists.w3.org/Archives/Public/www-style/2012May/0494.html</a></dd></dl></div><h4 id="problem-statement">Problem Statement</h4>
-<p>
-The <code>overflow</code> property says it only applies to block containers, but it should also apply to tables and flex containers.  
-</p><h4 id="related-problems">Related Problems</h4>
-<p>
-For non-root elements whose position is &#039;relative&#039; or &#039;static&#039;, the containing block is defined to be formed by the content edge of the nearest block container ancestor box [or table box], but it should be formed by other types of layout container for certain elements in other layout schemes (for example by the flexbox for flexbox items).
-</p>
+---
+title: "Define \"formatting context\" and fix 'Applies to' line of 'overflow' property"
+---
 
-<p>
-Note that the issue of other layout schemes needing such adjustments to <code>overflow</code> and the containing block hierarchy already exists within CSS21 itself:
-</p>
-<ul>
-<li class="level1">Bug 15381 - Incorrect “Applies To” line for &#039;overflow&#039; property (Error in resolution for Issue 120) - <a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381" title="https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381" rel="noopener">https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381</a></li>
-<li class="level1">Bug 15686 - Containing block for internal tables elements should be table not table wrapper (Error in resolution for Issue 120) - <a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=15686" title="https://www.w3.org/Bugs/Public/show_bug.cgi?id=15686" rel="noopener">https://www.w3.org/Bugs/Public/show_bug.cgi?id=15686</a></li>
-</ul>
+# Define "formatting context" and fix 'Applies to' line of 'overflow' property
 
-<p>
-Both these issues arose through an oversight when introducing the terms “block container” etc, namely that table boxes were overlooked.  This illustrates the special-casing that <abbr title="specification">spec</abbr> editors must remember to perform in individual layout specs if the problem is not solved more generally.
-</p><h4 id="approach">Approach</h4>
-<ul>
-<li class="level1">Define the concept of a “formatting context”.  (Alternative possibility: redefine “block formatting context” to not only apply to blocks.  See Bug 17121 - Desire to introduce the concept of a “formatting context” for forwards compatibility - <a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=17121" title="https://www.w3.org/Bugs/Public/show_bug.cgi?id=17121" rel="noopener">https://www.w3.org/Bugs/Public/show_bug.cgi?id=17121</a> )</li>
-<li class="level1">Change the definition of <code>overflow</code></li>
-<li class="level1">Change the containing block hierarchy (optional addition to proposal)</li>
-</ul><h4 id="proposal">Proposal</h4><h5 id="formatting-context">Formatting context</h5>
-<p>
+**Spec:** css21, css3-flexbox | **Owner:** fantasai, antonp, TabAtkins | **Status:** Resolved | **Added:** 2012-05-15 | **Action:** React to CfC - http://lists.w3.org/Archives/Public/www-style/2012Jul/0342.html | **Issue:** [https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381](https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381) | **Proposal:** [http://lists.w3.org/Archives/Public/www-style/2012May/0494.html](http://lists.w3.org/Archives/Public/www-style/2012May/0494.html)
+
+#### Problem Statement
+
+The `overflow` property says it only applies to block containers, but it should also apply to tables and flex containers.
+
+#### Related Problems
+
+For non-root elements whose position is 'relative' or 'static', the containing block is defined to be formed by the content edge of the nearest block container ancestor box \[or table box\], but it should be formed by other types of layout container for certain elements in other layout schemes (for example by the flexbox for flexbox items).
+
+Note that the issue of other layout schemes needing such adjustments to `overflow` and the containing block hierarchy already exists within CSS21 itself:
+
+- Bug 15381 - Incorrect “Applies To” line for 'overflow' property (Error in resolution for Issue 120) - <https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381>
+- Bug 15686 - Containing block for internal tables elements should be table not table wrapper (Error in resolution for Issue 120) - <https://www.w3.org/Bugs/Public/show_bug.cgi?id=15686>
+
+Both these issues arose through an oversight when introducing the terms “block container” etc, namely that table boxes were overlooked. This illustrates the special-casing that spec editors must remember to perform in individual layout specs if the problem is not solved more generally.
+
+#### Approach
+
+- Define the concept of a “formatting context”. (Alternative possibility: redefine “block formatting context” to not only apply to blocks. See Bug 17121 - Desire to introduce the concept of a “formatting context” for forwards compatibility - <https://www.w3.org/Bugs/Public/show_bug.cgi?id=17121> )
+- Change the definition of `overflow`
+- Change the containing block hierarchy (optional addition to proposal)
+
+#### Proposal
+
+##### Formatting context
+
 In 9.4 (Normal flow), replace:
-</p>
-<pre class="code"> # Boxes in the normal flow belong to a formatting context, which may
+
+``` code
+ # Boxes in the normal flow belong to a formatting context, which may
  # be block or inline, but not both simultaneously. Block-level boxes
  # participate in a block formatting context. Inline-level boxes
- # participate in an inline formatting context.</pre>
+ # participate in an inline formatting context.
+```
 
-<p>
 with:
-</p>
-<pre class="code"> | Boxes in the normal flow belong to a formatting context, which in
+
+``` code
+ | Boxes in the normal flow belong to a formatting context, which in
  | CSS21 may be block, inline or table. In future levels of CSS, other
  | types of formatting context will be introduced. Block-level boxes
  | participate in a block formatting context. Inline-level boxes
  | participate in an inline formatting context. Table formatting
- | contexts are described in the chapter on _tables_.</pre>
+ | contexts are described in the chapter on _tables_.
+```
 
-<p>
 In 17.4 (Tables in the visual formatting model), replace:
-</p>
-<pre class="code"> # [...] The table wrapper box establishes a block formatting context.
- # [...]</pre>
 
-<p>
+``` code
+ # [...] The table wrapper box establishes a block formatting context.
+ # [...]
+```
+
 with:
-</p>
-<pre class="code"> | [...] The table wrapper box establishes a block formatting context,
- | and the table box establishes a table formatting context. [...]</pre>
 
-<p>
+``` code
+ | [...] The table wrapper box establishes a block formatting context,
+ | and the table box establishes a table formatting context. [...]
+```
+
 In 17.5 (Visual layout of table contents), replace:
-</p>
-<pre class="code"> # Internal table elements generate rectangular boxes with content and
- # borders. Cells have padding as well. Internal table elements do not
- # have margins.</pre>
 
-<p>
+``` code
+ # Internal table elements generate rectangular boxes with content and
+ # borders. Cells have padding as well. Internal table elements do not
+ # have margins.
+```
+
 with:
-</p>
-<pre class="code"> | Internal table elements generate rectangular boxes which
+
+``` code
+ | Internal table elements generate rectangular boxes which
  | participate in the table formatting context established by the
  | table box. These boxes have content and borders, and cells have
- | padding as well. Internal table elements do not have margins.</pre><h5 id="overflow">&#039;&#039;overflow&#039;&#039;</h5>
-<p>
+ | padding as well. Internal table elements do not have margins.
+```
+
+##### ''overflow''
+
 In 11.1.1 (Overflow), replace:
-</p>
-<pre class="code"> # Applies to: block containers</pre>
 
-<p>
+``` code
+ # Applies to: block containers
+```
+
 with:
-</p>
-<pre class="code"> | Applies to: block containers and boxes that establish a formatting context</pre><h5 id="containing-block-hierarchy-optional-addition-to-proposal">Containing block hierarchy (optional addition to proposal)</h5>
-<p>
+
+``` code
+ | Applies to: block containers and boxes that establish a formatting context
+```
+
+##### Containing block hierarchy (optional addition to proposal)
+
 (This has neither been reviewed nor discussed on the public mailing list.)
-</p>
 
-<p>
 In 10.1 (Definition of “containing block”), replace:
-</p>
-<pre class="code"> # 2. For other elements, if the element&#039;s position is &#039;relative&#039; or
- #    &#039;static&#039;, the containing block is formed by the content edge of
- #    the nearest block container ancestor box. </pre>
 
-<p>
+``` code
+ # 2. For other elements, if the element's position is 'relative' or
+ #    'static', the containing block is formed by the content edge of
+ #    the nearest block container ancestor box. 
+```
+
 with:
-</p>
-<pre class="code"> | 2. For other elements, if the element&#039;s position is &#039;relative&#039; or
- |    &#039;static&#039;, the containing block is formed by the content edge of
+
+``` code
+ | 2. For other elements, if the element's position is 'relative' or
+ |    'static', the containing block is formed by the content edge of
  |    the nearest ancestor box that is a block container or which
- |    establishes a formatting context.</pre><h4 id="links-to-more-info">Links to More Info</h4>
-<ol>
-<li class="level1">Thread start: <a href="http://lists.w3.org/Archives/Public/www-style/2012May/0438.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/0438.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2012May/0438.html</a></li>
-<li class="level1">Bug 17122 - “Applies To” line for &#039;overflow&#039; property hinders forwards-compatibility - <a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=17122" title="https://www.w3.org/Bugs/Public/show_bug.cgi?id=17122" rel="noopener">https://www.w3.org/Bugs/Public/show_bug.cgi?id=17122</a></li>
-<li class="level1">Resolution: <a href="http://lists.w3.org/Archives/Public/www-style/2012Jun/0475.html" title="http://lists.w3.org/Archives/Public/www-style/2012Jun/0475.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2012Jun/0475.html</a> , <a href="http://lists.w3.org/Archives/Public/www-style/2012Jun/0656.html" title="http://lists.w3.org/Archives/Public/www-style/2012Jun/0656.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2012Jun/0656.html</a></li>
-<li class="level1">Call for Censensus on additional clarifying text: <a href="http://lists.w3.org/Archives/Public/www-style/2012Jul/0342.html" title="http://lists.w3.org/Archives/Public/www-style/2012Jul/0342.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2012Jul/0342.html</a></li>
-</ol>
-</main>
-</body>
-</html>
+ |    establishes a formatting context.
+```
+
+#### Links to More Info
+
+1.  Thread start: <http://lists.w3.org/Archives/Public/www-style/2012May/0438.html>
+2.  Bug 17122 - “Applies To” line for 'overflow' property hinders forwards-compatibility - <https://www.w3.org/Bugs/Public/show_bug.cgi?id=17122>
+3.  Resolution: <http://lists.w3.org/Archives/Public/www-style/2012Jun/0475.html> , <http://lists.w3.org/Archives/Public/www-style/2012Jun/0656.html>
+4.  Call for Censensus on additional clarifying text: <http://lists.w3.org/Archives/Public/www-style/2012Jul/0342.html>

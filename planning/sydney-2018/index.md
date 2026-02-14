@@ -1,345 +1,172 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sydney F2F July 2018 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / sydney-2018</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Sydney F2F July 2018"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#sydney-f2f-july-2018">Sydney F2F July 2018</a><ul class="toc">
-<li class="clear">
-<ul class="toc">
-<li class="level3"><a href="#participants">Participants</a></li>
-<li class="level3"><a href="#regrets">Regrets</a></li>
-<li class="level3"><a href="#agenda">Agenda</a></li>
-<li class="level3"><a href="#schedule">Schedule</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# Sydney F2F July 2018
 
-<h1 id="sydney-f2f-july-2018">Sydney F2F July 2018</h1>
-<ul>
-<li class="level1">Host: Google</li>
-<li class="level1">Location: <a href="https://goo.gl/maps/qCPZZAyfY1F2" title="https://goo.gl/maps/qCPZZAyfY1F2" rel="noopener">Google, Sydney (Fairfax Media building)</a></li>
-<li class="level1 node">Dates:<ul>
-<li class="level3">Monday July 2: Houdini Meeting - <a href="https://github.com/w3c/css-houdini-drafts/wiki/Sydney-F2F-July-2018" title="https://github.com/w3c/css-houdini-drafts/wiki/Sydney-F2F-July-2018" rel="noopener">https://github.com/w3c/css-houdini-drafts/wiki/Sydney-F2F-July-2018</a></li>
-<li class="level3">Tuesday-Thursday July 3-5: <abbr title="Cascading Style Sheets">CSS</abbr> WG Meeting</li>
-</ul>
-</li>
-<li class="level1">Group Dinner: Wednesday</li>
-</ul><h3 id="participants">Participants</h3>
-<div class="table sectionedit3"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Arrival </th><th class="col2"> Departure </th><th class="col3"> Hotel </th><th class="col4"> Flight info and notes </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Alan Stearns </td><td class="col1"> June 30 </td><td class="col2"> July 9 </td><td class="col3"> Glebe apt. </td><td class="col4 leftalign">  </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Brian Birtles </td><td class="col1"> June 30 </td><td class="col2"> July 6 </td><td class="col3"> TBD </td><td class="col4"> JL771 / JL772 </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Cameron McCormack </td><td class="col1"> TBD </td><td class="col2"> TBD </td><td class="col3"> TBD </td><td class="col4"> </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Chris Lilley </td><td class="col1"> July 1 </td><td class="col2 leftalign"> 5 July  </td><td class="col3"> AirBnB </td><td class="col4"> BA4137 / BA4136 </td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> Dean Jackson </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> Some hotel </td><td class="col4"> Coming from Yass via horse </td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> Emil A Eklund </td><td class="col1"> July 1 </td><td class="col2"> July 13 </td><td class="col3"> Sheraton on the Park </td><td class="col4"> QF 12 / QF 81 </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> Emilio Cobos Álvarez </td><td class="col1"> <del>July 2</del><em class="u">July 3</em>, 05:30 </td><td class="col2"> July 11 </td><td class="col3"> Meriton Suites Campbell Street </td><td class="col4"> BA987+BA15/?? </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Eric Willigers </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> Home </td><td class="col4"></td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> fantasai </td><td class="col1"> July 1 </td><td class="col2"> July 9 </td><td class="col3"> Meriton Suites World Tower </td><td class="col4"></td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> Florian Rivoal </td><td class="col1"> July 2 </td><td class="col2"> July 5 </td><td class="col3"> Meriton Suites World Tower </td><td class="col4"></td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Francois REMY </td><td class="col1"> July 1 </td><td class="col2"> July 9 </td><td class="col3"> Hilton </td><td class="col4"></td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Hiroshi Sakakibara </td><td class="col1"> July 2 </td><td class="col2"> July 7 </td><td class="col3"> Hyatt Regency Sydney </td><td class="col4">JL771 / JL772</td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Ian Kilpatrick </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> </td><td class="col4"></td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> Jihye Hong </td><td class="col1"> July 2 </td><td class="col2"> July 6 </td><td class="col3"> Meriton Suites Kent St. </td><td class="col4"></td>
-	</tr>
-	<tr class="row15">
-		<td class="col0"> Koji Ishii </td><td class="col1"> July 1 </td><td class="col2"> July 6 </td><td class="col3"> Hyatt Regency Sydney </td><td class="col4"></td>
-	</tr>
-	<tr class="row16">
-		<td class="col0"> Lea Verou </td><td class="col1"> June 30 </td><td class="col2"> Jul 5 </td><td class="col3"> Same as ChrisL </td><td class="col4"></td>
-	</tr>
-	<tr class="row17">
-		<td class="col0"> L. David Baron </td><td class="col1"> Jun 30 </td><td class="col2"> Jul 12 </td><td class="col3"> Meriton Suites Campbell Street </td><td class="col4"> UA863 / UA870 </td>
-	</tr>
-	<tr class="row18">
-		<td class="col0"> Myles C. Maxfield </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> Sydney Opera House </td><td class="col4"> 🛸 </td>
-	</tr>
-	<tr class="row19">
-		<td class="col0"> Peter Linss </td><td class="col1"> Jul 1 </td><td class="col2"> Jul 13 </td><td class="col3"> Meriton Suites World Tower </td><td class="col4"> VA2 / VA790/7 </td>
-	</tr>
-	<tr class="row20">
-		<td class="col0"> Philip Walton </td><td class="col1"> June 30 </td><td class="col2"> Jul 12 </td><td class="col3"> Hyatt Regency </td><td class="col4"> UA863 / UA870 </td>
-	</tr>
-	<tr class="row21">
-		<td class="col0"> Rachel Andrew </td><td class="col1"> Jul 1 </td><td class="col2"> Jul 7 </td><td class="col3"> Pier One Sydney Harbour </td><td class="col4"> EK416 (QF8416) / EK419 (QF8419) </td>
-	</tr>
-	<tr class="row22">
-		<td class="col0"> Rossen Atanassov </td><td class="col1"> July 1 </td><td class="col2"> July 6 </td><td class="col3"> TBD </td><td class="col4"> Flying carpet </td>
-	</tr>
-	<tr class="row23">
-		<td class="col0"> Shane Stephens </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> Home </td><td class="col4"></td>
-	</tr>
-	<tr class="row24">
-		<td class="col0"> Tab Atkins-Bittner </td><td class="col1"> 2018-07-01 </td><td class="col2"> 2018-07-06 </td><td class="col3"> Meriton Suites World Tower </td><td class="col4"> QF74 / QF73 </td>
-	</tr>
-	<tr class="row25">
-		<td class="col0"> Tantek Çelik </td><td class="col1"> 2018-07-02 </td><td class="col2"> 2018-07-06 </td><td class="col3"> Meriton Suites World Tower </td><td class="col4"> UA863 / UA870 </td>
-	</tr>
-	<tr class="row26">
-		<td class="col0"> Xidorn Quan </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> Home </td><td class="col4"></td>
-	</tr>
-</table></div><h3 id="regrets">Regrets</h3>
-<ul>
-<li class="level1">Dave Cramer</li>
-<li class="level1">Dael Jackson</li>
-<li class="level1">gsnedders</li>
-<li class="level1">Jen Simmons</li>
-<li class="level1">Greg Whitworth</li>
-<li class="level1">…</li>
-</ul><h3 id="agenda">Agenda</h3><h3 id="schedule">Schedule</h3><h4 id="constraints">Constraints</h4>
-<ul>
-<li class="level1">Dave Cramer available Tues or Thurs morning</li>
-<li class="level1">Chris Lilley out on Thursday</li>
-<li class="level1">Dirk available only on afternoons</li>
-<li class="level1">Philip out on Thursday</li>
-</ul><h4 id="tuesday">Tuesday</h4><h5 id="morning">Morning</h5>
-<ul>
-<li class="level1">2019 meetings</li>
-<li class="level1 node">Publishing Stuff That&#039;s Almost Ready To Publish<ul>
-<li class="level3"><abbr title="Cascading Style Sheets">CSS</abbr> Values and Units 3 CR / 4 FPWD</li>
-<li class="level3"><abbr title="Cascading Style Sheets">CSS</abbr> Cascade 3 &amp; 4 CR</li>
-<li class="level3"><abbr title="Cascading Style Sheets">CSS</abbr> Display 3 CR?</li>
-<li class="level3"><abbr title="Cascading Style Sheets">CSS</abbr> Scroll Snap 1 CR update</li>
-<li class="level3"><abbr title="Cascading Style Sheets">CSS</abbr> Conditional Rules 3 CR update</li>
-<li class="level3"><abbr title="Cascading Style Sheets">CSS</abbr> Writing Modes 3 next step</li>
-</ul>
-</li>
-<li class="level1">Need <abbr title="specification">spec</abbr> for margin/padding and box-styling terminolgy: <a href="https://github.com/w3c/csswg-drafts/issues/2851" title="https://github.com/w3c/csswg-drafts/issues/2851" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2851</a></li>
-<li class="level1">link to .bs source: <a href="https://github.com/w3c/csswg-drafts/issues/2472" title="https://github.com/w3c/csswg-drafts/issues/2472" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2472</a></li>
-<li class="level1">11am? <a href="https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html" title="https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html" rel="noopener">initial-letter (~19 issues?)</a></li>
-</ul><h5 id="afternoon-main-room">Afternoon Main Room</h5>
-<ul>
-<li class="level1 node">Fonts Level 4 issues<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-fonts-4" title="https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-fonts-4" rel="noopener">~16 Agenda+ F2F issues</a></li>
-</ul>
-</li>
-<li class="level1 node">Values<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2798" title="https://github.com/w3c/csswg-drafts/issues/2798" rel="noopener">should ic unit use 永 instead of 水?</a></li>
-</ul>
-</li>
-<li class="level1 node">Text<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/698" title="https://github.com/w3c/csswg-drafts/issues/698" rel="noopener">cursive shaping breaks needs better scoping</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/855" title="https://github.com/w3c/csswg-drafts/issues/855" rel="noopener">Question re white space processing rules for U+000D</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/1597" title="https://github.com/w3c/csswg-drafts/issues/1597" rel="noopener">Percentage of &#039;text-indent&#039; against intrinsically sized box?</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2390" title="https://github.com/w3c/csswg-drafts/issues/2390" rel="noopener"> close word-break-break-word with no change</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2818" title="https://github.com/w3c/csswg-drafts/issues/2818" rel="noopener">Consider adding a third value (skip?) for text-decoration-skip-ink.</a></li>
-</ul>
-</li>
-</ul><h5 id="afternoon-breakout-at-2pm">Afternoon Breakout at 2pm</h5>
-<ul>
-<li class="level1 node">Transforms, Animations, Transitions - all open issues<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/927" title="https://github.com/w3c/csswg-drafts/issues/927" rel="noopener">Smarter interpolation of truncated transform lists</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/913" title="https://github.com/w3c/csswg-drafts/issues/913" rel="noopener">Explicitly specify that a transform is a containing block for all descendants</a></li>
-<li class="level3">If above issues were resolved: <abbr title="Cascading Style Sheets">CSS</abbr> Transforms LCWD</li>
-<li class="level3">Updating editors of Web Animations</li>
-<li class="level3">More animations/transitions issues?</li>
-</ul>
-</li>
-</ul><h4 id="wednesday">Wednesday</h4><h5 id="morning1">Morning</h5>
-<ul>
-<li class="level1 node">Backgrounds<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2766" title="https://github.com/w3c/csswg-drafts/issues/2766" rel="noopener">&lt;color&gt; in &lt;shadow&gt; should default to currentcolor</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2274" title="https://github.com/w3c/csswg-drafts/issues/2274" rel="noopener">Inconsistent position serialization</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2532" title="https://github.com/w3c/csswg-drafts/issues/2532" rel="noopener">Issues with listifying border-color (Using Single dimensional images™️ for multiple border colors)</a></li>
-</ul>
-</li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/2875" title="https://github.com/w3c/csswg-drafts/issues/2875" rel="noopener">color-filter</a> (Myles/Dino/Thor)</li>
-<li class="level1 node">New <abbr title="Cascading Style Sheets">CSS</abbr> Images 3 CR (fantasai, leaverou)<ul>
-<li class="level2">cross-fade() interpolation issues</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/2852" title="https://github.com/w3c/csswg-drafts/issues/2852" rel="noopener">Reversing same images</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/2853" title="https://github.com/w3c/csswg-drafts/issues/2853" rel="noopener">Promoting image to cross-fade() for flattening</a></li>
-<li class="level2">Defer gradient interpolation to L4?</li>
-</ul>
-</li>
-</ul><h5 id="afternoon">Afternoon</h5>
-<ul>
-<li class="level1 node">env() values for full-screen, rounded corners, and phone notches (dino)<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2820" title="https://github.com/w3c/csswg-drafts/issues/2820" rel="noopener">Process for adding env values</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2868" title="https://github.com/w3c/csswg-drafts/issues/2868" rel="noopener">safe-area-insets</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2871" title="https://github.com/w3c/csswg-drafts/issues/2871" rel="noopener">fullscreen-insets</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2872" title="https://github.com/w3c/csswg-drafts/issues/2872" rel="noopener">fullscreen-auto-hide</a></li>
-</ul>
-</li>
-<li class="level1 node">Variables<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2518" title="https://github.com/w3c/csswg-drafts/issues/2518" rel="noopener">Does `all` reset custom properties?</a></li>
-</ul>
-</li>
-<li class="level1 node">Media Queries (dino)<ul>
-<li class="level3">prefers-high-contrast</li>
-<li class="level3">prefers-dark-interface</li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2370" title="https://github.com/w3c/csswg-drafts/issues/2370" rel="noopener">Proposal: &quot;prefers-reduced-data&quot;</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2413" title="https://github.com/w3c/csswg-drafts/issues/2413" rel="noopener">Port Media Groups section of CSS2.1</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2791" title="https://github.com/w3c/csswg-drafts/issues/2791" rel="noopener">Is the `&lt;mf-range&gt;` &quot;swapping value and name&quot; syntax really useful?</a></li>
-</ul>
-</li>
-<li class="level1 node">Bikeshed Bonanza<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2143" title="https://github.com/w3c/csswg-drafts/issues/2143" rel="noopener">Name the “functional pseudo-class like :matches() with 0 specificity”</a></li>
-</ul>
-</li>
-<li class="level1 node">CSSOM/Cascade/Syntax<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2529" title="https://github.com/w3c/csswg-drafts/issues/2529" rel="noopener">getComputedStyle and shorthands</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/1964" title="https://github.com/w3c/csswg-drafts/issues/1964" rel="noopener">What should getComputedStyle return for an element which isn&#039;t in the flat tree?</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2757" title="https://github.com/w3c/csswg-drafts/issues/2757" rel="noopener">Consider disallowing NULL code points in stylesheets</a></li>
-</ul>
-</li>
-<li class="level1">nesting: <a href="https://github.com/w3c/csswg-drafts/issues/2701" title="https://github.com/w3c/csswg-drafts/issues/2701" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2701</a></li>
-</ul><h4 id="thursday">Thursday</h4><h5 id="morning2">Morning</h5>
-<ul>
-<li class="level1">ResizeObserver - two items (Microsoft)</li>
-<li class="level1 node">Contain<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2804" title="https://github.com/w3c/csswg-drafts/issues/2804" rel="noopener">specified column/row sizes on grid containers should contribute to contain:size</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2737" title="https://github.com/w3c/csswg-drafts/issues/2737" rel="noopener">`contain` may not want to be animatable.</a></li>
-</ul>
-</li>
-<li class="level1 node">Display<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2673" title="https://github.com/w3c/csswg-drafts/issues/2673" rel="noopener">Blockifications should establish BFC in block containers</a></li>
-</ul>
-</li>
-<li class="level1 node">Grid<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2592" title="https://github.com/w3c/csswg-drafts/issues/2592" rel="noopener">subgrid border/padding/margin</a></li>
-</ul>
-</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Box Alignment - Remaining issues, CR transition or 2nd LC?</li>
-</ul><h5 id="afternoon1">Afternoon</h5>
-<ul>
-<li class="level1">Investigate simplifying logical properties? (frremy)</li>
-<li class="level1 node">Overflow<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2860" title="https://github.com/w3c/csswg-drafts/issues/2860" rel="noopener">max-lines not forwards compatible with fragmented overflow?</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2421" title="https://github.com/w3c/csswg-drafts/issues/2421" rel="noopener">How does max-lines interact with hidden content?</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2561" title="https://github.com/w3c/csswg-drafts/issues/2561" rel="noopener">&#039;overflow-block&#039; and &#039;block-overflow&#039; are too similar</a></li>
-<li class="level3">Updated WD for <abbr title="Cascading Style Sheets">CSS</abbr> Oveflow 3</li>
-</ul>
-</li>
-<li class="level1 node">Multicol<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2582" title="https://github.com/w3c/csswg-drafts/issues/2582" rel="noopener">Multi-col, spanner margin collapsing, and formatting contexts</a></li>
-</ul>
-</li>
-<li class="level1 node">Text Decoration<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/2817" title="https://github.com/w3c/csswg-drafts/issues/2817" rel="noopener">Define how text-decoration-skip{,-ink} interacts with text-decoration</a></li>
-</ul>
-</li>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr> Scrollbars<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1958" title="https://github.com/w3c/csswg-drafts/issues/1958" rel="noopener">scrollbar-width</a></li>
-<li class="level2">FPWD</li>
-</ul>
-</li>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr>-UI-4<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/1815" title="https://github.com/w3c/csswg-drafts/issues/1815" rel="noopener">let user-select:contain prohibit selection from outside</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/285" title="https://github.com/w3c/csswg-drafts/issues/285" rel="noopener">Readonly form control and user-select</a></li>
-</ul>
-</li>
-</ul>
-</main>
-</body>
-</html>
+- Host: Google
+- Location: [Google, Sydney (Fairfax Media building)](https://goo.gl/maps/qCPZZAyfY1F2)
+- Dates:
+  - Monday July 2: Houdini Meeting - <https://github.com/w3c/css-houdini-drafts/wiki/Sydney-F2F-July-2018>
+  - Tuesday-Thursday July 3-5: CSS WG Meeting
+- Group Dinner: Wednesday
+
+### Participants
+
+| Name | Arrival | Departure | Hotel | Flight info and notes |
+|----|----|----|----|----|
+| Alan Stearns | June 30 | July 9 | Glebe apt. |  |
+| Brian Birtles | June 30 | July 6 | TBD | JL771 / JL772 |
+| Cameron McCormack | TBD | TBD | TBD |  |
+| Chris Lilley | July 1 | 5 July | AirBnB | BA4137 / BA4136 |
+| Dean Jackson |  |  | Some hotel | Coming from Yass via horse |
+| Emil A Eklund | July 1 | July 13 | Sheraton on the Park | QF 12 / QF 81 |
+| Emilio Cobos Álvarez | ~~July 2~~*July 3*, 05:30 | July 11 | Meriton Suites Campbell Street | BA987+BA15/?? |
+| Eric Willigers |  |  | Home |  |
+| fantasai | July 1 | July 9 | Meriton Suites World Tower |  |
+| Florian Rivoal | July 2 | July 5 | Meriton Suites World Tower |  |
+| Francois REMY | July 1 | July 9 | Hilton |  |
+| Hiroshi Sakakibara | July 2 | July 7 | Hyatt Regency Sydney | JL771 / JL772 |
+| Ian Kilpatrick |  |  |  |  |
+| Jihye Hong | July 2 | July 6 | Meriton Suites Kent St. |  |
+| Koji Ishii | July 1 | July 6 | Hyatt Regency Sydney |  |
+| Lea Verou | June 30 | Jul 5 | Same as ChrisL |  |
+| L. David Baron | Jun 30 | Jul 12 | Meriton Suites Campbell Street | UA863 / UA870 |
+| Myles C. Maxfield |  |  | Sydney Opera House | 🛸 |
+| Peter Linss | Jul 1 | Jul 13 | Meriton Suites World Tower | VA2 / VA790/7 |
+| Philip Walton | June 30 | Jul 12 | Hyatt Regency | UA863 / UA870 |
+| Rachel Andrew | Jul 1 | Jul 7 | Pier One Sydney Harbour | EK416 (QF8416) / EK419 (QF8419) |
+| Rossen Atanassov | July 1 | July 6 | TBD | Flying carpet |
+| Shane Stephens |  |  | Home |  |
+| Tab Atkins-Bittner | 2018-07-01 | 2018-07-06 | Meriton Suites World Tower | QF74 / QF73 |
+| Tantek Çelik | 2018-07-02 | 2018-07-06 | Meriton Suites World Tower | UA863 / UA870 |
+| Xidorn Quan |  |  | Home |  |
+
+### Regrets
+
+- Dave Cramer
+- Dael Jackson
+- gsnedders
+- Jen Simmons
+- Greg Whitworth
+- …
+
+### Agenda
+
+### Schedule
+
+#### Constraints
+
+- Dave Cramer available Tues or Thurs morning
+- Chris Lilley out on Thursday
+- Dirk available only on afternoons
+- Philip out on Thursday
+
+#### Tuesday
+
+##### Morning
+
+- 2019 meetings
+- Publishing Stuff That's Almost Ready To Publish
+  - CSS Values and Units 3 CR / 4 FPWD
+  - CSS Cascade 3 & 4 CR
+  - CSS Display 3 CR?
+  - CSS Scroll Snap 1 CR update
+  - CSS Conditional Rules 3 CR update
+  - CSS Writing Modes 3 next step
+- Need spec for margin/padding and box-styling terminolgy: <https://github.com/w3c/csswg-drafts/issues/2851>
+- link to .bs source: <https://github.com/w3c/csswg-drafts/issues/2472>
+- 11am? [initial-letter (~19 issues?)](https://lists.w3.org/Archives/Public/www-style/2018Jun/0020.html)
+
+##### Afternoon Main Room
+
+- Fonts Level 4 issues
+  - [~16 Agenda+ F2F issues](https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-fonts-4)
+- Values
+  - [should ic unit use 永 instead of 水?](https://github.com/w3c/csswg-drafts/issues/2798)
+- Text
+  - [cursive shaping breaks needs better scoping](https://github.com/w3c/csswg-drafts/issues/698)
+  - [Question re white space processing rules for U+000D](https://github.com/w3c/csswg-drafts/issues/855)
+  - [Percentage of 'text-indent' against intrinsically sized box?](https://github.com/w3c/csswg-drafts/issues/1597)
+  - [close word-break-break-word with no change](https://github.com/w3c/csswg-drafts/issues/2390)
+  - [Consider adding a third value (skip?) for text-decoration-skip-ink.](https://github.com/w3c/csswg-drafts/issues/2818)
+
+##### Afternoon Breakout at 2pm
+
+- Transforms, Animations, Transitions - all open issues
+  - [Smarter interpolation of truncated transform lists](https://github.com/w3c/csswg-drafts/issues/927)
+  - [Explicitly specify that a transform is a containing block for all descendants](https://github.com/w3c/csswg-drafts/issues/913)
+  - If above issues were resolved: CSS Transforms LCWD
+  - Updating editors of Web Animations
+  - More animations/transitions issues?
+
+#### Wednesday
+
+##### Morning
+
+- Backgrounds
+  - [\<color\> in \<shadow\> should default to currentcolor](https://github.com/w3c/csswg-drafts/issues/2766)
+  - [Inconsistent position serialization](https://github.com/w3c/csswg-drafts/issues/2274)
+  - [Issues with listifying border-color (Using Single dimensional images™️ for multiple border colors)](https://github.com/w3c/csswg-drafts/issues/2532)
+- [color-filter](https://github.com/w3c/csswg-drafts/issues/2875) (Myles/Dino/Thor)
+- New CSS Images 3 CR (fantasai, leaverou)
+  - cross-fade() interpolation issues
+  - [Reversing same images](https://github.com/w3c/csswg-drafts/issues/2852)
+  - [Promoting image to cross-fade() for flattening](https://github.com/w3c/csswg-drafts/issues/2853)
+  - Defer gradient interpolation to L4?
+
+##### Afternoon
+
+- env() values for full-screen, rounded corners, and phone notches (dino)
+  - [Process for adding env values](https://github.com/w3c/csswg-drafts/issues/2820)
+  - [safe-area-insets](https://github.com/w3c/csswg-drafts/issues/2868)
+  - [fullscreen-insets](https://github.com/w3c/csswg-drafts/issues/2871)
+  - [fullscreen-auto-hide](https://github.com/w3c/csswg-drafts/issues/2872)
+- Variables
+  - [Does \`all\` reset custom properties?](https://github.com/w3c/csswg-drafts/issues/2518)
+- Media Queries (dino)
+  - prefers-high-contrast
+  - prefers-dark-interface
+  - [Proposal: "prefers-reduced-data"](https://github.com/w3c/csswg-drafts/issues/2370)
+  - [Port Media Groups section of CSS2.1](https://github.com/w3c/csswg-drafts/issues/2413)
+  - [Is the \`\<mf-range\>\` "swapping value and name" syntax really useful?](https://github.com/w3c/csswg-drafts/issues/2791)
+- Bikeshed Bonanza
+  - [Name the “functional pseudo-class like :matches() with 0 specificity”](https://github.com/w3c/csswg-drafts/issues/2143)
+- CSSOM/Cascade/Syntax
+  - [getComputedStyle and shorthands](https://github.com/w3c/csswg-drafts/issues/2529)
+  - [What should getComputedStyle return for an element which isn't in the flat tree?](https://github.com/w3c/csswg-drafts/issues/1964)
+  - [Consider disallowing NULL code points in stylesheets](https://github.com/w3c/csswg-drafts/issues/2757)
+- nesting: <https://github.com/w3c/csswg-drafts/issues/2701>
+
+#### Thursday
+
+##### Morning
+
+- ResizeObserver - two items (Microsoft)
+- Contain
+  - [specified column/row sizes on grid containers should contribute to contain:size](https://github.com/w3c/csswg-drafts/issues/2804)
+  - [\`contain\` may not want to be animatable.](https://github.com/w3c/csswg-drafts/issues/2737)
+- Display
+  - [Blockifications should establish BFC in block containers](https://github.com/w3c/csswg-drafts/issues/2673)
+- Grid
+  - [subgrid border/padding/margin](https://github.com/w3c/csswg-drafts/issues/2592)
+- CSS Box Alignment - Remaining issues, CR transition or 2nd LC?
+
+##### Afternoon
+
+- Investigate simplifying logical properties? (frremy)
+- Overflow
+  - [max-lines not forwards compatible with fragmented overflow?](https://github.com/w3c/csswg-drafts/issues/2860)
+  - [How does max-lines interact with hidden content?](https://github.com/w3c/csswg-drafts/issues/2421)
+  - ['overflow-block' and 'block-overflow' are too similar](https://github.com/w3c/csswg-drafts/issues/2561)
+  - Updated WD for CSS Oveflow 3
+- Multicol
+  - [Multi-col, spanner margin collapsing, and formatting contexts](https://github.com/w3c/csswg-drafts/issues/2582)
+- Text Decoration
+  - [Define how text-decoration-skip{,-ink} interacts with text-decoration](https://github.com/w3c/csswg-drafts/issues/2817)
+- CSS Scrollbars
+  - [scrollbar-width](https://github.com/w3c/csswg-drafts/issues/1958)
+  - FPWD
+- CSS-UI-4
+  - [let user-select:contain prohibit selection from outside](https://github.com/w3c/csswg-drafts/issues/1815)
+  - [Readonly form control and user-select](https://github.com/w3c/csswg-drafts/issues/285)

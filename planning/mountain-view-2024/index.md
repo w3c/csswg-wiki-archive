@@ -1,287 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mountain View F2F February 2024 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / mountain-view-2024</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Mountain View F2F February 2024"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#mountain-view-f2f-february-2024">Mountain View F2F February 2024</a><ul class="toc">
-<li class="level2"><a href="#social-activities">Social activities</a></li>
-<li class="level2"><a href="#agenda">Agenda</a></li>
-<li class="level2"><a href="#attendees">Attendees</a><ul class="toc">
-<li class="level3"><a href="#in-person-participants">In-Person Participants</a></li>
-<li class="level3"><a href="#virtual-participants">Virtual Participants</a></li>
-<li class="level3"><a href="#regrets">Regrets</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# Mountain View F2F February 2024
 
-<h1 id="mountain-view-f2f-february-2024">Mountain View F2F February 2024</h1>
-<ul>
-<li class="level1">Host: Google</li>
-<li class="level1">Location: <a href="https://maps.app.goo.gl/bruTeKLJZ8uCfjDn7" title="https://maps.app.goo.gl/bruTeKLJZ8uCfjDn7" rel="noopener">Google Building 2000</a>, 2000 Charleston Rd, Mountain View, CA 94043, USA</li>
-<li class="level1">Park in the *surface-level* lot around the building (not the below-ground one), or use the <a href="https://maps.app.goo.gl/MCM6gY1oE6BwZW1LA" title="https://maps.app.goo.gl/MCM6gY1oE6BwZW1LA" rel="noopener">Alta Garage</a> nearby</li>
-<li class="level1">Weather Forecast: <a href="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=37.425&amp;lon=-122.095&amp;unit=1&amp;mp=1" title="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=37.425&amp;lon=-122.095&amp;unit=1&amp;mp=1" rel="noopener">⁰C</a> or <a href="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=37.425&amp;lon=-122.095&amp;unit=0&amp;mp=1" title="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=37.425&amp;lon=-122.095&amp;unit=0&amp;mp=1" rel="noopener">⁰F</a></li>
-<li class="level1">Dates: Monday 12 February - Wednesday 14 February, 2024</li>
-<li class="level1">Times: 9am-5pm</li>
-<li class="level1 node">Airports:<ul>
-<li class="level3">SJC - San Jose Airport (20km drive, <strong>closest</strong>, be careful to use correct airport code)</li>
-<li class="level3">SFO - San Francisco Airport (37km drive, <strong>major hub</strong>)</li>
-<li class="level3">OAK - Oakland Airport (63km drive)</li>
-</ul>
-</li>
-<li class="level1 node">Pandemic protocol: same as previous recent meetings<ul>
-<li class="level3">Masks required in meeting room/common spaces; can be removed only while actively eating/drinking.</li>
-<li class="level3">COVID testing before arrival, and daily before meetings.</li>
-<li class="level3">Outdoor dining encouraged, weather permitting (Feb might be cold and rainy, or perfectly fine)</li>
-<li class="level3">Wear a mask in all indoor public space 72 hours before Monday’s meeting</li>
-<li class="level3">Wear a mask during your entire travel journey (onboard a flight, train or federally-regulated vessel, as well as in airports and other points of entry) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt</li>
-</ul>
-</li>
-</ul><h2 id="social-activities">Social activities</h2>
-<p>
-* If others are interested, dbaron can probably plan a birdwatching walk in the morning one day before the meeting starts.  We&#039;re very near one of the best winter birdwatching spots in western North America.  We can probably walk from <a href="https://maps.app.goo.gl/dfRUDbbSGYad7BCG6" title="https://maps.app.goo.gl/dfRUDbbSGYad7BCG6" rel="noopener">the end of San Antonio Road</a>, assuming we have transportation to get there and back easily (meaning faster than the 20 minute walk between GWC5 and the trailhead, which would probably require too early a start to get back in time for the meeting).
-</p>
+- Host: Google
+- Location: [Google Building 2000](https://maps.app.goo.gl/bruTeKLJZ8uCfjDn7), 2000 Charleston Rd, Mountain View, CA 94043, USA
+- Park in the \*surface-level\* lot around the building (not the below-ground one), or use the [Alta Garage](https://maps.app.goo.gl/MCM6gY1oE6BwZW1LA) nearby
+- Weather Forecast: [⁰C](http://forecast.weather.gov/MapClick.php?smap=1&lat=37.425&lon=-122.095&unit=1&mp=1) or [⁰F](http://forecast.weather.gov/MapClick.php?smap=1&lat=37.425&lon=-122.095&unit=0&mp=1)
+- Dates: Monday 12 February - Wednesday 14 February, 2024
+- Times: 9am-5pm
+- Airports:
+  - SJC - San Jose Airport (20km drive, **closest**, be careful to use correct airport code)
+  - SFO - San Francisco Airport (37km drive, **major hub**)
+  - OAK - Oakland Airport (63km drive)
+- Pandemic protocol: same as previous recent meetings
+  - Masks required in meeting room/common spaces; can be removed only while actively eating/drinking.
+  - COVID testing before arrival, and daily before meetings.
+  - Outdoor dining encouraged, weather permitting (Feb might be cold and rainy, or perfectly fine)
+  - Wear a mask in all indoor public space 72 hours before Monday’s meeting
+  - Wear a mask during your entire travel journey (onboard a flight, train or federally-regulated vessel, as well as in airports and other points of entry) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt
 
-<p>
-* Group dinner at <a href="https://maps.app.goo.gl/5hDrBW7KetmmULYx6" title="https://maps.app.goo.gl/5hDrBW7KetmmULYx6" rel="noopener">Ludwig&#039;s Biergarten</a> on Tuesday, at 6pm.
-</p>
+## Social activities
 
-<p>
-* Drinks and snacks social at end-of-day Wednesday, at the meeting room.
-</p><h2 id="agenda">Agenda</h2>
-<p>
-<a href="https://github.com/w3c/csswg-drafts/projects/40" title="https://github.com/w3c/csswg-drafts/projects/40" rel="noopener">Agenda project</a>
-</p>
-<ul>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22" title="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22" rel="noopener">Agenda+ F2F</a></li>
-<li class="level1"><a href="https://css.oddbird.net/sasslike/mixins-functions/" title="https://css.oddbird.net/sasslike/mixins-functions/" rel="noopener">Mixins &amp; Functions</a></li>
-<li class="level1 node"><a href="https://drafts.csswg.org/css-anchor-position-1/" title="https://drafts.csswg.org/css-anchor-position-1/" rel="noopener">Anchor Positioning</a> (Tuesday morning)<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/9862" title="https://github.com/w3c/csswg-drafts/issues/9862" rel="noopener">inset-area syntax</a></li>
-<li class="level2 node"><a href="https://github.com/w3c/csswg-drafts/issues/9196#issuecomment-1912788896" title="https://github.com/w3c/csswg-drafts/issues/9196#issuecomment-1912788896" rel="noopener">position-try proposal</a><ul>
-<li class="level4"><a href="https://github.com/w3c/csswg-drafts/issues/9047" title="https://github.com/w3c/csswg-drafts/issues/9047" rel="noopener">position-try-order - choosing the try order</a></li>
-<li class="level4"><a href="https://github.com/w3c/csswg-drafts/issues/8200" title="https://github.com/w3c/csswg-drafts/issues/8200" rel="noopener">final try memory - default to historical position</a></li>
-<li class="level4"><a href="https://github.com/w3c/csswg-drafts/issues/9380" title="https://github.com/w3c/csswg-drafts/issues/9380" rel="noopener">final try choices via `position-try-final`</a></li>
-</ul>
-</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/9195#issuecomment-1934982421" title="https://github.com/w3c/csswg-drafts/issues/9195#issuecomment-1934982421" rel="noopener">acceptable try properties</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/9598#issuecomment-1836854109" title="https://github.com/w3c/csswg-drafts/issues/9598#issuecomment-1836854109" rel="noopener">animation via position packaging</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/9868" title="https://github.com/w3c/csswg-drafts/issues/9868" rel="noopener">position-fallback-bounds vs position-container</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/7758#issuecomment-1912799837" title="https://github.com/w3c/csswg-drafts/issues/7758#issuecomment-1912799837" rel="noopener">anchorpos and clipping</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/9149" title="https://github.com/w3c/csswg-drafts/issues/9149" rel="noopener">try option style cascade</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/8171" title="https://github.com/w3c/csswg-drafts/issues/8171" rel="noopener">conditional styling - exploratory discussion</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/8895" title="https://github.com/w3c/csswg-drafts/issues/8895" rel="noopener">choosing the anchor fragment</a></li>
-</ul>
-</li>
-</ul><h2 id="attendees">Attendees</h2><h3 id="in-person-participants">In-Person Participants</h3>
-<div class="table sectionedit6"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Arrival </th><th class="col2"> Departure </th><th class="col3"> Hotel </th><th class="col4"> Dietary Restrictions </th><th class="col5"> Flights or Other Notes </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Alan Stearns </td><td class="col1"> Sun </td><td class="col2"> Thurs </td><td class="col3"> Best Western </td><td class="col4 leftalign">  </td><td class="col5 leftalign">  </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Brad Kemper </td><td class="col1"> Local </td><td class="col2"> Local </td><td class="col3"> Local </td><td class="col4 leftalign">  </td><td class="col5"> driving from Hayward </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Bramus </td><td class="col1"> Sat 10, 20:55 (SFO) </td><td class="col2"> Fri 16, 20:35 (SFO) </td><td class="col3"> Bay View Suites </td><td class="col4"> None </td><td class="col5 leftalign">  </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> David Baron </td><td class="col1"> Sun 17:18 (SFO) </td><td class="col2"> Fri 8:40 (SFO) </td><td class="col3"> Hampton Inn and Suites Mountain View </td><td class="col4"> no red meat </td><td class="col5"> <a href="https://www.flightaware.com/live/flight/UAL1110" title="https://www.flightaware.com/live/flight/UAL1110" rel="noopener">UA1110</a> / <a href="https://www.flightaware.com/live/flight/UAL1954" title="https://www.flightaware.com/live/flight/UAL1954" rel="noopener">UA1954</a> </td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> Daniel Holbert </td><td class="col1"> Local </td><td class="col2"> Local </td><td class="col3"> Local </td><td class="col4 leftalign">  </td><td class="col5 leftalign">  </td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> fantasai </td><td class="col1"> TBD </td><td class="col2"> TBD </td><td class="col3"> TBD </td><td class="col4"> gluten-free appreciated </td><td class="col5 leftalign">  </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> Florian Rivoal </td><td class="col1"> 2024-02-10 14:48 (SJC) </td><td class="col2"> 2024-02-15 10:10 (SJC) </td><td class="col3"> TBD </td><td class="col4"> omnivore </td><td class="col5"> DL680 / ZG029 </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Ian Kilpatrick </td><td class="col1"> Local </td><td class="col2"> Local </td><td class="col3"> Local </td><td class="col4"> Shellfish </td><td class="col5 leftalign">  </td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> Miriam Suzanne </td><td class="col1"> Sun 5:30pm SJC </td><td class="col2"> Thu 11:40am SJC </td><td class="col3"> Hampton Inn &amp; Suites Mountain View </td><td class="col4"> vegetarian </td><td class="col5"> WN 878 / WN 2305 </td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> Rachel Andrew </td><td class="col1"> Sat 18:33 (SJC) </td><td class="col2"> Fri 12:10 (SJC) </td><td class="col3"> Aloft Mountain View </td><td class="col4"> <a href="https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9" title="https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9" rel="noopener">my list</a> </td><td class="col5 leftalign">  </td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Vladimir Levin </td><td class="col1"> TBD </td><td class="col2"> TBD </td><td class="col3"> TBD </td><td class="col4"> </td><td class="col5"> </td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Khushal Sagar </td><td class="col1"> Sun </td><td class="col2"> Thurs </td><td class="col3"> 100 Moffet, MTV </td><td class="col4"> vegetarian </td><td class="col5"> </td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Megan Gardner </td><td class="col1"> Local </td><td class="col2"> Local </td><td class="col3"> Local </td><td class="col4 leftalign">  </td><td class="col5 leftalign">  </td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> <del>Cassondra Roberts</del> </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td><td class="col5"> </td>
-	</tr>
-	<tr class="row15">
-		<td class="col0"> Emilio Cobos </td><td class="col1"> TBD </td><td class="col2"> TBD </td><td class="col3"> TBD </td><td class="col4"> </td><td class="col5"> </td>
-	</tr>
-	<tr class="row16">
-		<td class="col0"> <del>Alison Maher</del> </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td><td class="col5"> </td>
-	</tr>
-	<tr class="row17">
-		<td class="col0"> Kevin Babbitt </td><td class="col1"> Sun 5:58pm SJC </td><td class="col2"> Th 10:14am SJC </td><td class="col3"> The Ameswell Hotel </td><td class="col4"> </td><td class="col5"> AS 1158 / AS 1226 </td>
-	</tr>
-	<tr class="row18">
-		<td class="col0"> Oriol Brufau </td><td class="col1"> Sat 12:00 SFO </td><td class="col2"> Thu 14:05 SFO </td><td class="col3"> TBD </td><td class="col4"> Strong dislike of cheese and shellfish </td><td class="col5"> </td>
-	</tr>
-	<tr class="row19">
-		<td class="col0"> Matthieu Dubet </td><td class="col1"> Sun 4PM SJC </td><td class="col2"> Sun </td><td class="col3"> TBD </td><td class="col4"> </td><td class="col5"> </td>
-	</tr>
-	<tr class="row20">
-		<td class="col0"> Brandon Stewart </td><td class="col1"> TBD </td><td class="col2"> TBD </td><td class="col3"> TBD </td><td class="col4"> </td><td class="col5"> </td>
-	</tr>
-	<tr class="row21">
-		<td class="col0"> Tim Nguyen </td><td class="col1"> TBD </td><td class="col2"> TBD </td><td class="col3"> TBD </td><td class="col4"> </td><td class="col5"> </td>
-	</tr>
-	<tr class="row22">
-		<td class="col0"> Frances Cornwall </td><td class="col1"> TBD </td><td class="col2"> TBD </td><td class="col3"> TBD </td><td class="col4"> </td><td class="col5"> </td>
-	</tr>
-	<tr class="row23">
-		<td class="col0"> Jen Simmons </td><td class="col1"> Sun before </td><td class="col2"> long after </td><td class="col3"> Yes </td><td class="col4"> severe, to hard to describe </td><td class="col5"> Airplanes, yes </td>
-	</tr>
-	<tr class="row24">
-		<td class="col0"> Nicole Sullivan </td><td class="col1"> Monday </td><td class="col2"> Thursday </td><td class="col3"> TBD </td><td class="col4"> None </td><td class="col5"> </td>
-	</tr>
-	<tr class="row25">
-		<td class="col0"> Chris Harrelson </td><td class="col1"> Tuesday </td><td class="col2"> Tuesday </td><td class="col3"> None </td><td class="col4"> None </td><td class="col5"> </td>
-	</tr>
-</table></div><h3 id="virtual-participants">Virtual Participants</h3>
-<p>
-Please list your availability in California time (morning/afternoon/all or specific time ranges). See <a href="https://www.worldtimebuddy.com/?pl=1&amp;lid=5391959,2988507,293397,2158177&amp;h=5391959&amp;date=7/18/2023%7C3&amp;hf=1" title="https://www.worldtimebuddy.com/?pl=1&amp;lid=5391959,2988507,293397,2158177&amp;h=5391959&amp;date=7/18/2023%7C3&amp;hf=1" rel="noopener">Time Converter</a>
-</p>
-<div class="table sectionedit8"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Timezone </th><th class="col2"> PDT Availability </th><th class="col3"> Other Notes </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Chris Lilley </td><td class="col1"> EST </td><td class="col2"> 7am-1pm </td><td class="col3 leftalign">  </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> François Remy </td><td class="col1"> CET </td><td class="col2"> Morning+ </td><td class="col3"></td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Lea Verou </td><td class="col1"> EST </td><td class="col2"> 7am-1pm </td><td class="col3 leftalign">  </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Noam Rosenthal </td><td class="col1"> GMT </td><td class="col2"> Morning </td><td class="col3"></td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> ChangSeok Oh </td><td class="col1"> PDT </td><td class="col2"> </td><td class="col3"></td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> Stephen Chenney </td><td class="col1"> EST </td><td class="col2"> 7am-1pm </td><td class="col3"></td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> Yehonatan Daniv </td><td class="col1"> PDT+10 </td><td class="col2"> Morning </td><td class="col3"> Only Mon and Wed </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> David Leininger </td><td class="col1"> CT </td><td class="col2"> 7am-3pm </td><td class="col3"></td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> Cassondra Roberts </td><td class="col1"> EST </td><td class="col2"> 7am-1pm </td><td class="col3"> </td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> Alison Maher </td><td class="col1"> PDT </td><td class="col2"> 9am-6pm </td><td class="col3"> </td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Tess </td><td class="col1"> PST </td><td class="col2"> 10am–3pm ish </td><td class="col3"> </td>
-	</tr>
-</table></div><h3 id="regrets">Regrets</h3>
-<div class="table sectionedit10"><table class="inline">
-	<tr class="row0">
-		<th class="col0"> Name </th>
-	</tr>
-</table></div>
-</main>
-</body>
-</html>
+\* If others are interested, dbaron can probably plan a birdwatching walk in the morning one day before the meeting starts. We're very near one of the best winter birdwatching spots in western North America. We can probably walk from [the end of San Antonio Road](https://maps.app.goo.gl/dfRUDbbSGYad7BCG6), assuming we have transportation to get there and back easily (meaning faster than the 20 minute walk between GWC5 and the trailhead, which would probably require too early a start to get back in time for the meeting).
+
+\* Group dinner at [Ludwig's Biergarten](https://maps.app.goo.gl/5hDrBW7KetmmULYx6) on Tuesday, at 6pm.
+
+\* Drinks and snacks social at end-of-day Wednesday, at the meeting room.
+
+## Agenda
+
+[Agenda project](https://github.com/w3c/csswg-drafts/projects/40)
+
+- [Agenda+ F2F](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22)
+- [Mixins & Functions](https://css.oddbird.net/sasslike/mixins-functions/)
+- [Anchor Positioning](https://drafts.csswg.org/css-anchor-position-1/) (Tuesday morning)
+  - [inset-area syntax](https://github.com/w3c/csswg-drafts/issues/9862)
+  - [position-try proposal](https://github.com/w3c/csswg-drafts/issues/9196#issuecomment-1912788896)
+    - [position-try-order - choosing the try order](https://github.com/w3c/csswg-drafts/issues/9047)
+    - [final try memory - default to historical position](https://github.com/w3c/csswg-drafts/issues/8200)
+    - [final try choices via \`position-try-final\`](https://github.com/w3c/csswg-drafts/issues/9380)
+  - [acceptable try properties](https://github.com/w3c/csswg-drafts/issues/9195#issuecomment-1934982421)
+  - [animation via position packaging](https://github.com/w3c/csswg-drafts/issues/9598#issuecomment-1836854109)
+  - [position-fallback-bounds vs position-container](https://github.com/w3c/csswg-drafts/issues/9868)
+  - [anchorpos and clipping](https://github.com/w3c/csswg-drafts/issues/7758#issuecomment-1912799837)
+  - [try option style cascade](https://github.com/w3c/csswg-drafts/issues/9149)
+  - [conditional styling - exploratory discussion](https://github.com/w3c/csswg-drafts/issues/8171)
+  - [choosing the anchor fragment](https://github.com/w3c/csswg-drafts/issues/8895)
+
+## Attendees
+
+### In-Person Participants
+
+| Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
+|----|----|----|----|----|----|
+| Alan Stearns | Sun | Thurs | Best Western |  |  |
+| Brad Kemper | Local | Local | Local |  | driving from Hayward |
+| Bramus | Sat 10, 20:55 (SFO) | Fri 16, 20:35 (SFO) | Bay View Suites | None |  |
+| David Baron | Sun 17:18 (SFO) | Fri 8:40 (SFO) | Hampton Inn and Suites Mountain View | no red meat | [UA1110](https://www.flightaware.com/live/flight/UAL1110) / [UA1954](https://www.flightaware.com/live/flight/UAL1954) |
+| Daniel Holbert | Local | Local | Local |  |  |
+| fantasai | TBD | TBD | TBD | gluten-free appreciated |  |
+| Florian Rivoal | 2024-02-10 14:48 (SJC) | 2024-02-15 10:10 (SJC) | TBD | omnivore | DL680 / ZG029 |
+| Ian Kilpatrick | Local | Local | Local | Shellfish |  |
+| Miriam Suzanne | Sun 5:30pm SJC | Thu 11:40am SJC | Hampton Inn & Suites Mountain View | vegetarian | WN 878 / WN 2305 |
+| Rachel Andrew | Sat 18:33 (SJC) | Fri 12:10 (SJC) | Aloft Mountain View | [my list](https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9) |  |
+| Vladimir Levin | TBD | TBD | TBD |  |  |
+| Khushal Sagar | Sun | Thurs | 100 Moffet, MTV | vegetarian |  |
+| Megan Gardner | Local | Local | Local |  |  |
+| ~~Cassondra Roberts~~ |  |  |  |  |  |
+| Emilio Cobos | TBD | TBD | TBD |  |  |
+| ~~Alison Maher~~ |  |  |  |  |  |
+| Kevin Babbitt | Sun 5:58pm SJC | Th 10:14am SJC | The Ameswell Hotel |  | AS 1158 / AS 1226 |
+| Oriol Brufau | Sat 12:00 SFO | Thu 14:05 SFO | TBD | Strong dislike of cheese and shellfish |  |
+| Matthieu Dubet | Sun 4PM SJC | Sun | TBD |  |  |
+| Brandon Stewart | TBD | TBD | TBD |  |  |
+| Tim Nguyen | TBD | TBD | TBD |  |  |
+| Frances Cornwall | TBD | TBD | TBD |  |  |
+| Jen Simmons | Sun before | long after | Yes | severe, to hard to describe | Airplanes, yes |
+| Nicole Sullivan | Monday | Thursday | TBD | None |  |
+| Chris Harrelson | Tuesday | Tuesday | None | None |  |
+
+### Virtual Participants
+
+Please list your availability in California time (morning/afternoon/all or specific time ranges). See [Time Converter](https://www.worldtimebuddy.com/?pl=1&lid=5391959,2988507,293397,2158177&h=5391959&date=7/18/2023%7C3&hf=1)
+
+| Name              | Timezone | PDT Availability | Other Notes      |
+|-------------------|----------|------------------|------------------|
+| Chris Lilley      | EST      | 7am-1pm          |                  |
+| François Remy     | CET      | Morning+         |                  |
+| Lea Verou         | EST      | 7am-1pm          |                  |
+| Noam Rosenthal    | GMT      | Morning          |                  |
+| ChangSeok Oh      | PDT      |                  |                  |
+| Stephen Chenney   | EST      | 7am-1pm          |                  |
+| Yehonatan Daniv   | PDT+10   | Morning          | Only Mon and Wed |
+| David Leininger   | CT       | 7am-3pm          |                  |
+| Cassondra Roberts | EST      | 7am-1pm          |                  |
+| Alison Maher      | PDT      | 9am-6pm          |                  |
+| Tess              | PST      | 10am–3pm ish     |                  |
+
+### Regrets
+
+| Name |
+|------|

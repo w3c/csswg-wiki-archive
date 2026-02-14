@@ -1,180 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cupertino F2F March 2010 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / cupertino-2010</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Cupertino F2F March 2010"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#cupertino-f2f-march-2010">Cupertino F2F March 2010</a><ul class="toc">
-<li class="level2"><a href="#meeting-minutes">Meeting Minutes</a></li>
-<li class="level2"><a href="#proposed-topics">Proposed topics</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# Cupertino F2F March 2010
 
-<h1 id="cupertino-f2f-march-2010">Cupertino F2F March 2010</h1>
-<ul>
-<li class="level1">2010 March 29-31</li>
-<li class="level1">Cupertino, CA, USA</li>
-<li class="level1">Organizer: Apple (David Singer)</li>
-</ul><h2 id="meeting-minutes">Meeting Minutes</h2>
-<ul>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2010Apr/0273.html" title="http://lists.w3.org/Archives/Public/www-style/2010Apr/0273.html" rel="noopener">Monday, 29 March</a>- CSS2.1 Issue and Test Suite, Vendor Prefixes and Stabilizing Properties, Status of Specs, CSS3 Backgrounds and Borders, GCPM</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2010Apr/0275.html" title="http://lists.w3.org/Archives/Public/www-style/2010Apr/0275.html" rel="noopener">Tuesday, 30 March</a>- Transitions and Animations, Fonts, i18n, CSS2.1</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2010Apr/0274.html" title="http://lists.w3.org/Archives/Public/www-style/2010Apr/0274.html" rel="noopener">Wednesday, 31 March</a>- CSSOM, Miscellaneous Issues</li>
-</ul><h2 id="proposed-topics">Proposed topics</h2>
-<p>
-Topics for the March 2010 <abbr title="Cascading Style Sheets">CSS</abbr> Working Group Face-to-Face meeting in Cupertino, California (USA).
-</p>
+- 2010 March 29-31
+- Cupertino, CA, USA
+- Organizer: Apple (David Singer)
 
-<p>
+## Meeting Minutes
+
+- [Monday, 29 March](http://lists.w3.org/Archives/Public/www-style/2010Apr/0273.html)- CSS2.1 Issue and Test Suite, Vendor Prefixes and Stabilizing Properties, Status of Specs, CSS3 Backgrounds and Borders, GCPM
+- [Tuesday, 30 March](http://lists.w3.org/Archives/Public/www-style/2010Apr/0275.html)- Transitions and Animations, Fonts, i18n, CSS2.1
+- [Wednesday, 31 March](http://lists.w3.org/Archives/Public/www-style/2010Apr/0274.html)- CSSOM, Miscellaneous Issues
+
+## Proposed topics
+
+Topics for the March 2010 CSS Working Group Face-to-Face meeting in Cupertino, California (USA).
+
 Mon AM
-</p>
-<ul>
-<li class="level1">TPAC 2010: preferred days, joint meetings, overlap… see <a href="http://www.w3.org/mid/201003051530.30984.bert@w3.org" title="http://www.w3.org/mid/201003051530.30984.bert@w3.org" rel="noopener">e-mail</a> and <a href="http://www.w3.org/2002/09/wbs/34786/TPAC2010/" title="http://www.w3.org/2002/09/wbs/34786/TPAC2010/" rel="noopener">online survey</a></li>
-<li class="level1">finalize dates for August meeting (currently listed as “(tentative)”)</li>
-<li class="level1">CSS2.1 Issues</li>
-<li class="level1">The <abbr title="Cascading Style Sheets">CSS</abbr> 2.1 test suite is a strain on the servers. Is there a way to avoid creating a new file if it is the same as an existing file?</li>
-<li class="level1">Define better commitments for reviewing test cases to help approval of all test cases.</li>
-<li class="level1">Vendor prefixes</li>
-</ul>
 
-<p>
+- TPAC 2010: preferred days, joint meetings, overlap… see [e-mail](http://www.w3.org/mid/201003051530.30984.bert@w3.org) and [online survey](http://www.w3.org/2002/09/wbs/34786/TPAC2010/)
+- finalize dates for August meeting (currently listed as “(tentative)”)
+- CSS2.1 Issues
+- The CSS 2.1 test suite is a strain on the servers. Is there a way to avoid creating a new file if it is the same as an existing file?
+- Define better commitments for reviewing test cases to help approval of all test cases.
+- Vendor prefixes
+
 Mon PM
-</p>
-<ul>
-<li class="level1"><a href="http://www.w3.org/TR/2010/WD-css-style-attr-20100121/" title="http://www.w3.org/TR/2010/WD-css-style-attr-20100121/" rel="noopener">css-style-attr</a> last call ended. Need to check comments, write DoC and publish CR.</li>
-<li class="level1"><a href="http://www.w3.org/TR/2009/CR-css3-mediaqueries-20090915/" title="http://www.w3.org/TR/2009/CR-css3-mediaqueries-20090915/" rel="noopener">css3-mediaqueries</a> CR period ended last Oct. Do we have a test suite? Can we go to Rec?</li>
-<li class="level1"><a href="http://www.w3.org/TR/2008/CR-css3-namespace-20080523/" title="http://www.w3.org/TR/2008/CR-css3-namespace-20080523/" rel="noopener">css3-namespaces</a> is still CR but seems to be implemented. Publish a Rec?</li>
-<li class="level1"><a href="http://www.w3.org/TR/2006/WD-css3-page-20061010" title="http://www.w3.org/TR/2006/WD-css3-page-20061010" rel="noopener">css3-page</a> was last call until Nov 2006. Has already been CR. If everything is implemented, we can go directly to Rec.</li>
-<li class="level1"><a href="http://www.w3.org/TR/2009/CR-css3-background-20091217" title="http://www.w3.org/TR/2009/CR-css3-background-20091217" rel="noopener">css3-background</a> in CR until June, but has no test suite yet. Can we write one? Maybe during the ftf?</li>
-<li class="level1">css3-color (and &#039;color-correction&#039;)</li>
-<li class="level1">background shorthand syntax (to slash or not to slash)</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Member/w3c-css-wg/2010JanMar/0107.html" title="http://lists.w3.org/Archives/Member/w3c-css-wg/2010JanMar/0107.html" rel="noopener">box-shadow</a></li>
-<li class="level1">CSS3 <a href="http://dev.w3.org/csswg/css3-gcpm/" title="http://dev.w3.org/csswg/css3-gcpm/" rel="noopener">GCPM</a> - discuss env() function, inline footnotes - publish WD?</li>
-</ul>
 
-<p>
+- [css-style-attr](http://www.w3.org/TR/2010/WD-css-style-attr-20100121/) last call ended. Need to check comments, write DoC and publish CR.
+- [css3-mediaqueries](http://www.w3.org/TR/2009/CR-css3-mediaqueries-20090915/) CR period ended last Oct. Do we have a test suite? Can we go to Rec?
+- [css3-namespaces](http://www.w3.org/TR/2008/CR-css3-namespace-20080523/) is still CR but seems to be implemented. Publish a Rec?
+- [css3-page](http://www.w3.org/TR/2006/WD-css3-page-20061010) was last call until Nov 2006. Has already been CR. If everything is implemented, we can go directly to Rec.
+- [css3-background](http://www.w3.org/TR/2009/CR-css3-background-20091217) in CR until June, but has no test suite yet. Can we write one? Maybe during the ftf?
+- css3-color (and 'color-correction')
+- background shorthand syntax (to slash or not to slash)
+- [box-shadow](http://lists.w3.org/Archives/Member/w3c-css-wg/2010JanMar/0107.html)
+- CSS3 [GCPM](http://dev.w3.org/csswg/css3-gcpm/) - discuss env() function, inline footnotes - publish WD?
+
 Tues AM
-</p>
-<ul>
-<li class="level1">Applying transitions to non-animatable properties (other than visibility) <a href="http://lists.w3.org/Archives/Public/www-style/2009Nov/0328.html" title="http://lists.w3.org/Archives/Public/www-style/2009Nov/0328.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2009Nov/0328.html</a></li>
-<li class="level1">Discrete/step timing function property <a href="http://lists.w3.org/Archives/Public/www-style/2010Feb/0212.html" title="http://lists.w3.org/Archives/Public/www-style/2010Feb/0212.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Feb/0212.html</a></li>
-<li class="level1">working out steps needed to progress on css3-transitions</li>
-<li class="level1">transitions vs. animations: can we find a common model/syntax?</li>
-</ul>
 
-<p>
+- Applying transitions to non-animatable properties (other than visibility) <http://lists.w3.org/Archives/Public/www-style/2009Nov/0328.html>
+- Discrete/step timing function property <http://lists.w3.org/Archives/Public/www-style/2010Feb/0212.html>
+- working out steps needed to progress on css3-transitions
+- transitions vs. animations: can we find a common model/syntax?
+
 Tues PM
-</p>
-<ul>
-<li class="level1 node">CSS3 Fonts Issues - JDaggett calling in - tentatively Monday after lunch<ul>
-<li class="level2">discussion of font feature support in <a href="http://dev.w3.org/csswg/css3-fonts/" title="http://dev.w3.org/csswg/css3-fonts/" rel="noopener">css3-fonts</a></li>
-<li class="level2">font-size-adjust: auto <a href="http://lists.w3.org/Archives/Public/www-style/2010Mar/0206.html" title="http://lists.w3.org/Archives/Public/www-style/2010Mar/0206.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2010Mar/0206.html</a></li>
-</ul>
-</li>
-<li class="level1">ruby module - HTML5 ruby, errors in CR (see Richard&#039;s edits), <a href="http://www.w3.org/TR/2009/NOTE-jlreq-20090604/#en-subheading2_3" title="http://www.w3.org/TR/2009/NOTE-jlreq-20090604/#en-subheading2_3" rel="noopener">Japanese Layout Note on ruby,</a> liaison with XSL (XSL2), next publication</li>
-<li class="level1">The I18N WG&#039;s new bidi enhancements document? <a href="http://www.w3.org/International/wiki/BidiProposal" title="http://www.w3.org/International/wiki/BidiProposal" rel="noopener">http://www.w3.org/International/wiki/BidiProposal</a> (mostly focused on on <abbr title="HyperText Markup Language">HTML</abbr>, but need a counterpart in <abbr title="Cascading Style Sheets">CSS</abbr> as well.)</li>
-</ul>
 
-<p>
+- CSS3 Fonts Issues - JDaggett calling in - tentatively Monday after lunch
+  - discussion of font feature support in [css3-fonts](http://dev.w3.org/csswg/css3-fonts/)
+  - font-size-adjust: auto <http://lists.w3.org/Archives/Public/www-style/2010Mar/0206.html>
+- ruby module - HTML5 ruby, errors in CR (see Richard's edits), [Japanese Layout Note on ruby,](http://www.w3.org/TR/2009/NOTE-jlreq-20090604/#en-subheading2_3) liaison with XSL (XSL2), next publication
+- The I18N WG's new bidi enhancements document? <http://www.w3.org/International/wiki/BidiProposal> (mostly focused on on HTML, but need a counterpart in CSS as well.)
+
 Weds AM
-</p>
-<ul>
-<li class="level1">CSSOM: impact on other <abbr title="Cascading Style Sheets">CSS</abbr> specifications</li>
-<li class="level1">CSSOM: <abbr title="Cascading Style Sheets">CSS</abbr> value <abbr title="Application Programming Interface">API</abbr></li>
-<li class="level1">CSS3 color issues</li>
-<li class="level1">animation of gradients (css3-transitions)</li>
-<li class="level1">joint w/ SVG - image-fit and image-position issues</li>
-</ul>
 
-<p>
+- CSSOM: impact on other CSS specifications
+- CSSOM: CSS value API
+- CSS3 color issues
+- animation of gradients (css3-transitions)
+- joint w/ SVG - image-fit and image-position issues
+
 Weds PM
-</p>
-<ul>
-<li class="level1">Advanced layout modules (Grid, Template, Flexbox): what&#039;s good, what&#039;s bad, how they can be worked into an intuitive whole with the other layout modes of <abbr title="Cascading Style Sheets">CSS</abbr> (static, absolute, table)</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2009Nov/0286.html" title="http://lists.w3.org/Archives/Public/www-style/2009Nov/0286.html" rel="noopener">percentage height calculations</a></li>
-<li class="level1">CSS2.1 Issue 156 followup</li>
-<li class="level1"><a href="http://dev.w3.org/csswg/css3-gcpm/" title="http://dev.w3.org/csswg/css3-gcpm/" rel="noopener">GCPM</a> followup – can we publish as WD?</li>
-<li class="level1">Other CSS2.1 Issues as time allows</li>
-</ul>
-</main>
-</body>
-</html>
+
+- Advanced layout modules (Grid, Template, Flexbox): what's good, what's bad, how they can be worked into an intuitive whole with the other layout modes of CSS (static, absolute, table)
+- [percentage height calculations](http://lists.w3.org/Archives/Public/www-style/2009Nov/0286.html)
+- CSS2.1 Issue 156 followup
+- [GCPM](http://dev.w3.org/csswg/css3-gcpm/) followup – can we publish as WD?
+- Other CSS2.1 Issues as time allows

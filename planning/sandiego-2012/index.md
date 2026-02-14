@@ -1,335 +1,182 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>San Diego F2F 2012 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / sandiego-2012</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "San Diego F2F 2012"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#san-diego-f2f-2012">San Diego F2F 2012</a><ul class="toc">
-<li class="level2"><a href="#meeting-minutes">Meeting Minutes</a></li>
-<li class="level2"><a href="#hosted-dinner">Hosted Dinner</a></li>
-<li class="level2"><a href="#lodging">Lodging</a></li>
-<li class="level2"><a href="#transport-tofrom-airport">Transport to/from Airport</a></li>
-<li class="level2"><a href="#participants">Participants</a></li>
-<li class="level2"><a href="#agenda">Agenda</a><ul class="toc">
-<li class="level3"><a href="#mon">Mon</a></li>
-<li class="level3"><a href="#tue">Tue</a></li>
-<li class="level3"><a href="#wed">Wed</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#proposed-topics">Proposed Topics</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# San Diego F2F 2012
 
-<h1 id="san-diego-f2f-2012">San Diego F2F 2012</h1>
-<p>
-<strong>When</strong>: August 13-15 2012
-</p>
+**When**: August 13-15 2012
 
-<p>
-<strong>Where</strong>: San Diego Marriott Marquis &amp; Marina - Torrey Pines 2 &amp; 3
-</p>
+**Where**: San Diego Marriott Marquis & Marina - Torrey Pines 2 & 3
 
-<p>
-<strong>Host</strong>: HP (Peter Linss)
-</p>
+**Host**: HP (Peter Linss)
 
-<p>
-<strong>Note</strong>: Meeting starts at 9:00am, the room will be open from 8:00am with a continental breakfast served.
-</p>
+**Note**: Meeting starts at 9:00am, the room will be open from 8:00am with a continental breakfast served.
 
-<p>
-<strong>Weather Forecast</strong>: <a href="http://forecast.weather.gov/MapClick.php?lat=32.708&amp;lon=-117.166&amp;unit=1" title="http://forecast.weather.gov/MapClick.php?lat=32.708&amp;lon=-117.166&amp;unit=1" rel="noopener">°C</a> or <a href="http://forecast.weather.gov/MapClick.php?lat=32.708&amp;lon=-117.166" title="http://forecast.weather.gov/MapClick.php?lat=32.708&amp;lon=-117.166" rel="noopener">°F</a>
-</p><h2 id="meeting-minutes">Meeting Minutes</h2>
-<p>
-<strong>Monday, 13 August</strong>
-</p>
-<ul>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0749.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0749.html" rel="noopener">Monday AM</a> - @supports and Selectors 4</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0770.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0770.html" rel="noopener">Monday PM I</a> - Syntax, Fragmentation</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0771.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0771.html" rel="noopener">Monday PM II</a> - Pseudo-elements and Overflow</li>
-</ul>
+**Weather Forecast**: [°C](http://forecast.weather.gov/MapClick.php?lat=32.708&lon=-117.166&unit=1) or [°F](http://forecast.weather.gov/MapClick.php?lat=32.708&lon=-117.166)
 
-<p>
-<strong>Tuesday, 14 August</strong>
-</p>
-<ul>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0848.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0848.html" rel="noopener">Tuesday AM I</a> - F2F schedule, CSSOM</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0849.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0849.html" rel="noopener">Tuesday AM II</a> - Regions, Exclusions, and Collisions</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0855.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0855.html" rel="noopener">Tuesday Noonish</a> - Images Level 4, FPWD Criteria</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0890.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0890.html" rel="noopener">Tuesday PM I</a> - Grid Layout</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0891.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0891.html" rel="noopener">Tuesday PM II</a> - <abbr title="Cascading Style Sheets">CSS</abbr> Variables</li>
-</ul>
+## Meeting Minutes
 
-<p>
-<strong>Wednesday, 15 August</strong>
-</p>
-<ul>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0894.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0894.html" rel="noopener">Wednesday AM I</a> - Experimental Features Policy aka Prefixing</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0897.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0897.html" rel="noopener">Wednesday AM II</a> - Fonts, Text</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0898.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0898.html" rel="noopener">Wednesday PM I</a> - Filters, Transforms, Masking</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0899.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0899.html" rel="noopener">Wednesday PM II</a> - Writing Modes, Lists and Counter Styles, Case-sensitivity and Normalization</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0900.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0900.html" rel="noopener">Wednesday PM III</a> - Sticky Positioning, Animations, SciNot</li>
-</ul><h2 id="hosted-dinner">Hosted Dinner</h2>
-<p>
-Tuesday August 14, 6:30pm<br/>
+**Monday, 13 August**
 
-<a href="http://www.georgesonfifth.com/" title="http://www.georgesonfifth.com/" rel="noopener">George&#039;s on Fifth</a><br/>
+- [Monday AM](http://lists.w3.org/Archives/Public/www-style/2012Aug/0749.html) - @supports and Selectors 4
+- [Monday PM I](http://lists.w3.org/Archives/Public/www-style/2012Aug/0770.html) - Syntax, Fragmentation
+- [Monday PM II](http://lists.w3.org/Archives/Public/www-style/2012Aug/0771.html) - Pseudo-elements and Overflow
 
-In the Wyatt Earp Room (yes, this place was once owned and operated by <a href="http://en.wikipedia.org/wiki/Wyatt_Earp" title="http://en.wikipedia.org/wiki/Wyatt_Earp" rel="noopener">Wyatt Earp</a>, famous Australian snake wrestler)
-</p><h2 id="lodging">Lodging</h2>
-<p>
-The preferred hotel is the:<br/>
+**Tuesday, 14 August**
 
-<a href="http://www.marriott.com/hotels/travel/sandt-san-diego-marriott-marquis-and-marina/" title="http://www.marriott.com/hotels/travel/sandt-san-diego-marriott-marquis-and-marina/" rel="noopener">San Diego Marriott Marquis &amp; Marina</a><br/>
+- [Tuesday AM I](http://lists.w3.org/Archives/Public/www-style/2012Aug/0848.html) - F2F schedule, CSSOM
+- [Tuesday AM II](http://lists.w3.org/Archives/Public/www-style/2012Aug/0849.html) - Regions, Exclusions, and Collisions
+- [Tuesday Noonish](http://lists.w3.org/Archives/Public/www-style/2012Aug/0855.html) - Images Level 4, FPWD Criteria
+- [Tuesday PM I](http://lists.w3.org/Archives/Public/www-style/2012Aug/0890.html) - Grid Layout
+- [Tuesday PM II](http://lists.w3.org/Archives/Public/www-style/2012Aug/0891.html) - CSS Variables
 
-333 West Harbor Drive<br/>
+**Wednesday, 15 August**
 
-San Diego, CA 92101<br/>
+- [Wednesday AM I](http://lists.w3.org/Archives/Public/www-style/2012Aug/0894.html) - Experimental Features Policy aka Prefixing
+- [Wednesday AM II](http://lists.w3.org/Archives/Public/www-style/2012Aug/0897.html) - Fonts, Text
+- [Wednesday PM I](http://lists.w3.org/Archives/Public/www-style/2012Aug/0898.html) - Filters, Transforms, Masking
+- [Wednesday PM II](http://lists.w3.org/Archives/Public/www-style/2012Aug/0899.html) - Writing Modes, Lists and Counter Styles, Case-sensitivity and Normalization
+- [Wednesday PM III](http://lists.w3.org/Archives/Public/www-style/2012Aug/0900.html) - Sticky Positioning, Animations, SciNot
 
-+1-619-234-1500<br/>
+## Hosted Dinner
 
-+1-800-228-9290<br/>
+Tuesday August 14, 6:30pm\
+[George's on Fifth](http://www.georgesonfifth.com/)\
+In the Wyatt Earp Room (yes, this place was once owned and operated by [Wyatt Earp](http://en.wikipedia.org/wiki/Wyatt_Earp), famous Australian snake wrestler)
 
-</p>
+## Lodging
 
-<p>
-If at all possible please book a room at this hotel, a block of rooms has been reserved at a discounted rate. A <a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2012JulSep/0059.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2012JulSep/0059.html" rel="noopener">link to the registration page is available on the member-only mailing list</a>.
-</p>
+The preferred hotel is the:\
+[San Diego Marriott Marquis & Marina](http://www.marriott.com/hotels/travel/sandt-san-diego-marriott-marquis-and-marina/)\
+333 West Harbor Drive\
+San Diego, CA 92101\
++1-619-234-1500\
++1-800-228-9290\
 
-<p>
-A partial listing of alternate hotels in the area is <a href="http://goo.gl/maps/FU1t" title="http://goo.gl/maps/FU1t" rel="noopener">available here</a>.
-</p><h2 id="transport-tofrom-airport">Transport to/from Airport</h2>
-<ul>
-<li class="level1">The meeting hotel is 3.3 miles south-east of the airport, best bet is a taxi, approximate fare US$15.</li>
-<li class="level1"><a href="http://www.sdmts.com/trolley/trolley.asp" title="http://www.sdmts.com/trolley/trolley.asp" rel="noopener">The Trolley</a> has a station near the hotel and is good for transport in the downtown area (does not go to the airport).</li>
-</ul><h2 id="participants">Participants</h2>
-<p>
+If at all possible please book a room at this hotel, a block of rooms has been reserved at a discounted rate. A [link to the registration page is available on the member-only mailing list](https://lists.w3.org/Archives/Member/w3c-css-wg/2012JulSep/0059.html).
+
+A partial listing of alternate hotels in the area is [available here](http://goo.gl/maps/FU1t).
+
+## Transport to/from Airport
+
+- The meeting hotel is 3.3 miles south-east of the airport, best bet is a taxi, approximate fare US\$15.
+- [The Trolley](http://www.sdmts.com/trolley/trolley.asp) has a station near the hotel and is good for transport in the downtown area (does not go to the airport).
+
+## Participants
+
 Sorted by family name:
-</p>
-<div class="table sectionedit7"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Representing </th><th class="col2"> Arrive </th><th class="col3"> Leave </th><th class="col4"> Hotel </th><th class="col5"> Flight Info </th><th class="col6"> Notes </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Glenn Adams </td><td class="col1"> Cox </td><td class="col2"> August 12 </td><td class="col3"> August 16 </td><td class="col4"> Marriott </td><td class="col5"> TBD </td><td class="col6"></td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Tab Atkins </td><td class="col1"> Google </td><td class="col2"> Aug 12 </td><td class="col3"> Aug 16 </td><td class="col4"> Marriott </td><td class="col5"> TBD </td><td class="col6"> </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> David Baron </td><td class="col1"> Mozilla </td><td class="col2"> Aug 12, 13:20 </td><td class="col3"> Aug 15, 20:00 </td><td class="col4"> Marriott </td><td class="col5"> VX956 / VX969 </td><td class="col6"> </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Bert Bos </td><td class="col1"> <abbr title="World Wide Web Consortium">W3C</abbr> </td><td class="col2"> Aug 12, 19:38 </td><td class="col3"> Aug 17, 13:10 </td><td class="col4"> Marriott </td><td class="col5"> UA6341/LH8731 </td><td class="col6"> </td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> Tantek Çelik </td><td class="col1"> Mozilla </td><td class="col2"> 2012-08-12 13:20 </td><td class="col3"> 2012-08-15 20:00 </td><td class="col4"> Marriott </td><td class="col5"> VX956 / VX969 </td><td class="col6"></td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> John Daggett </td><td class="col1"> Mozilla </td><td class="col2"> August 12 </td><td class="col3"> August 15 </td><td class="col4"> Hard Rock </td><td class="col5 leftalign">  </td><td class="col6"> </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> fantasai </td><td class="col1"> Mozilla </td><td class="col2"> Aug 12 </td><td class="col3"> Aug 18 </td><td class="col4"> Marriott </td><td class="col5"> in:VX956 / out:2V565+2V14 </td><td class="col6"> </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Vincent Hardy </td><td class="col1"> Adobe </td><td class="col2"> Aug 12 </td><td class="col3"> Aug 15</td><td class="col4"> Marriott </td><td class="col5"> ?? </td><td class="col6"> </td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> Daniel Glazman </td><td class="col1"> Disruptive Innovations </td><td class="col2"> Aug 12 21:45 </td><td class="col3"> Aug 16 11:37 </td><td class="col4"> Marriott </td><td class="col5"> in:DL2205 / out:UA5608 </td><td class="col6"> </td>
-	</tr>
-	<tr class="row10">
-		<td class="col0 leftalign"> Peter Linss  </td><td class="col1"> HP </td><td class="col2"> local </td><td class="col3"> – </td><td class="col4"> – </td><td class="col5"> – </td><td class="col6"> </td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Luke Macpherson </td><td class="col1"> Google </td><td class="col2"> Aug 13 </td><td class="col3"> Aug 16 </td><td class="col4"> Marriott </td><td class="col5"> </td><td class="col6"> Arriving monday afternoon. </td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Edward O&#039;Connor </td><td class="col1"> Apple </td><td class="col2"> 11th </td><td class="col3"> 19th </td><td class="col4"> Hilton Bayfront </td><td class="col5"> - </td><td class="col6"> - </td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Florian Rivoal </td><td class="col1"> Opera </td><td class="col2"> August 12 </td><td class="col3"> August 15 </td><td class="col4">Marriott </td><td class="col5">in:AA3105 / out:BA272</td><td class="col6"> </td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> Alan Stearns </td><td class="col1"> Adobe </td><td class="col2"> Aug 12 </td><td class="col3"> Aug 17 </td><td class="col4"> Marriott </td><td class="col5"> Alaska 472/487 </td><td class="col6"> </td>
-	</tr>
-	<tr class="row15">
-		<td class="col0"> Leif Arne Storset </td><td class="col1"> Opera </td><td class="col2"> August 12 </td><td class="col3"> August 15 </td><td class="col4">Marriott </td><td class="col5">in:AA3105 / out:BA272</td><td class="col6"> </td>
-	</tr>
-	<tr class="row16">
-		<td class="col0"> Steve Zilles </td><td class="col1"> Adobe </td><td class="col2"> Aug 12 </td><td class="col3"> Aug 16 </td><td class="col4"> Marriott </td><td class="col5"> TBD </td><td class="col6"> </td>
-	</tr>
-	<tr class="row17">
-		<td class="col0"> Sylvain Galineau </td><td class="col1"> Microsoft </td><td class="col2"> Aug 12 </td><td class="col3"> Aug 15 </td><td class="col4"> Marriott </td><td class="col5"> in:AS482 / out:AS485</td><td class="col6"> </td>
-	</tr>
-	<tr class="row18">
-		<td class="col0"> Koji Ishii </td><td class="col1"> Rakuten </td><td class="col2"> Aug 12</td><td class="col3"> Aug 16 </td><td class="col4"> Marriott </td><td class="col5"> DL156+DL7677/DL4807+DL283 </td><td class="col6"> </td>
-	</tr>
-	<tr class="row19">
-		<td class="col0"> Rossen Atanassov </td><td class="col1"> Microsoft </td><td class="col2"> Aug 12 </td><td class="col3"> Aug 15 </td><td class="col4"> Marriott </td><td class="col5"> in:TBD / out:TBD </td><td class="col6"> </td>
-	</tr>
-	<tr class="row20">
-		<td class="col0"> Molly Holzschlag </td><td class="col1"> <abbr title="World Wide Web Consortium">W3C</abbr> Invited Experts </td><td class="col2"> August 13 </td><td class="col3"> August 15 </td><td class="col4"> Marriott </td><td class="col5"> TBD </td><td class="col6"></td>
-	</tr>
-</table><p>
+
+| Name | Representing | Arrive | Leave | Hotel | Flight Info | Notes |
+|----|----|----|----|----|----|----|
+| Glenn Adams | Cox | August 12 | August 16 | Marriott | TBD |  |
+| Tab Atkins | Google | Aug 12 | Aug 16 | Marriott | TBD |  |
+| David Baron | Mozilla | Aug 12, 13:20 | Aug 15, 20:00 | Marriott | VX956 / VX969 |  |
+| Bert Bos | W3C | Aug 12, 19:38 | Aug 17, 13:10 | Marriott | UA6341/LH8731 |  |
+| Tantek Çelik | Mozilla | 2012-08-12 13:20 | 2012-08-15 20:00 | Marriott | VX956 / VX969 |  |
+| John Daggett | Mozilla | August 12 | August 15 | Hard Rock |  |  |
+| fantasai | Mozilla | Aug 12 | Aug 18 | Marriott | in:VX956 / out:2V565+2V14 |  |
+| Vincent Hardy | Adobe | Aug 12 | Aug 15 | Marriott | ?? |  |
+| Daniel Glazman | Disruptive Innovations | Aug 12 21:45 | Aug 16 11:37 | Marriott | in:DL2205 / out:UA5608 |  |
+| Peter Linss | HP | local | – | – | – |  |
+| Luke Macpherson | Google | Aug 13 | Aug 16 | Marriott |  | Arriving monday afternoon. |
+| Edward O'Connor | Apple | 11th | 19th | Hilton Bayfront | \- | \- |
+| Florian Rivoal | Opera | August 12 | August 15 | Marriott | in:AA3105 / out:BA272 |  |
+| Alan Stearns | Adobe | Aug 12 | Aug 17 | Marriott | Alaska 472/487 |  |
+| Leif Arne Storset | Opera | August 12 | August 15 | Marriott | in:AA3105 / out:BA272 |  |
+| Steve Zilles | Adobe | Aug 12 | Aug 16 | Marriott | TBD |  |
+| Sylvain Galineau | Microsoft | Aug 12 | Aug 15 | Marriott | in:AS482 / out:AS485 |  |
+| Koji Ishii | Rakuten | Aug 12 | Aug 16 | Marriott | DL156+DL7677/DL4807+DL283 |  |
+| Rossen Atanassov | Microsoft | Aug 12 | Aug 15 | Marriott | in:TBD / out:TBD |  |
+| Molly Holzschlag | W3C Invited Experts | August 13 | August 15 | Marriott | TBD |  |
+
 Regrets:
-</p>
-<ul>
-<li class="level1">Anton Prowse</li>
-<li class="level1">Brad Kemper (I really thought I would go, but the timing turns out to be terrible for me)</li>
-<li class="level1">Ryan Betts</li>
-<li class="level1">Simon Fraser</li>
-<li class="level1">Jet Villegas</li>
-<li class="level1">Håkon</li>
-<li class="level1">John Jansen (I too thought I was going to make it, but the timing is off)</li>
-<li class="level1">Arron Eicholz (I unfortunately can&#039;t make it but I will be on <abbr title="Internet Relay Chat">IRC</abbr> the whole time as usual)</li>
-</ul><h2 id="agenda">Agenda</h2><h3 id="mon">Mon</h3><h5 id="am">AM</h5>
-<ul>
-<li class="level1">css3-conditional (what to do about the missing OM section)</li>
-<li class="level1">CSS3 Conditional Object Model - publish WD</li>
-<li class="level1">Selectors 4</li>
-</ul><h5 id="pm">PM</h5>
-<ul>
-<li class="level1">CSS3 Syntax: review, FPWD</li>
-<li class="level1">CSS3 Fragmentation: review of edits, WD</li>
-<li class="level1">Aliasing page-break and break</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html" rel="noopener">Pseudo-elements proposal</a></li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html" rel="noopener">Region overflow proposal</a></li>
-<li class="level1">overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). <a href="http://lists.w3.org/Archives/Public/www-style/2012May/1197.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/1197.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2012May/1197.html</a></li>
-</ul><h3 id="tue">Tue</h3><h5 id="am1">AM</h5>
-<ul>
-<li class="level1"><a href="../../planning/2013/" title="planning:2013">Future meetings</a></li>
-<li class="level1">CSSOM: White-space and line breaks in serialization</li>
-<li class="level1">Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes</li>
-<li class="level1">collision: auto | collide | avoid</li>
-<li class="level1">CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.</li>
-</ul><h5 id="pm1">PM</h5>
-<ul>
-<li class="level1">CSS3 Grid Layout</li>
-<li class="level1">Variables</li>
-</ul><h3 id="wed">Wed</h3><h5 id="am2">AM</h5>
-<ul>
-<li class="level1">Prefixing policy - 1 hr max</li>
-<li class="level1">CSS3 Fonts: default features, publish new WD?</li>
-<li class="level1">CSS3 Text: remaining issues, letter-spacing and justification, preparation for LC?</li>
-</ul><h5 id="pm2">PM</h5>
-<ul>
-<li class="level1"><a href="../../topics/fpwd-filter-effects/" title="topics:fpwd-filter-effects">Request for FPWD of Filter Effects 1.0</a></li>
-<li class="level1"><a href="../../topics/interpolation-rotate3d/" title="topics:interpolation-rotate3d">Interpolation behavior on rotate3d</a></li>
-<li class="level1"><a href="http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html" title="http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html" rel="noopener">CSS Masking</a></li>
-<li class="level1">CSS3 Writing Modes: UTR50, how to avoid bikeshedding, communication with the UTC, text-orientation: upright, and how to make progress</li>
-<li class="level1">CSS3 Lists, <abbr title="Cascading Style Sheets">CSS</abbr> Counter Styles: Review, publishing. Rearrange the specs so that @counter-style moves to the Counter Style doc and goes to LC or should this be a Rec track <abbr title="specification">spec</abbr>?</li>
-<li class="level1">Sticky positioning</li>
-<li class="level1">css3-animations: open issues, update WD, when could we go LC?</li>
-</ul><h2 id="proposed-topics">Proposed Topics</h2>
-<ul>
-<li class="level1">Prefixing policy</li>
-<li class="level1"><a href="../../planning/2013/" title="planning:2013">Future meetings</a></li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html" rel="noopener">Region overflow proposal</a></li>
-<li class="level1">overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). <a href="http://lists.w3.org/Archives/Public/www-style/2012May/1197.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/1197.html" rel="noopener">http://lists.w3.org/Archives/Public/www-style/2012May/1197.html</a></li>
-<li class="level1">Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes</li>
-<li class="level1">CSS3 Grid Layout</li>
-<li class="level1">CSS3 Fragmentation: review of edits, WD</li>
-<li class="level1">Aliasing page-break and break</li>
-<li class="level1">Sticky positioning</li>
-<li class="level1">collision: auto | collide | avoid</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html" title="http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html" rel="noopener">Pseudo-elements proposal</a></li>
-<li class="level1">CSS3 Fonts: default features, publish new WD?</li>
-<li class="level1">CSS3 Text: remaining issues, letter-spacing and justification, preparation for LC?</li>
-<li class="level1">CSS3 Writing Modes: UTR50, how to avoid bikeshedding, communication with the UTC, text-orientation: upright, and how to make progress</li>
-<li class="level1">Selectors 4</li>
-<li class="level1">Variables</li>
-<li class="level1">CSS3 Syntax: review, FPWD</li>
-<li class="level1">css3-conditional (what to do about the missing OM section)</li>
-<li class="level1">CSS3 Conditional Object Model - publish WD</li>
-<li class="level1">CSSOM: White-space and line breaks in serialization</li>
-<li class="level1">CSS3 Lists, <abbr title="Cascading Style Sheets">CSS</abbr> Counter Styles: Review, publishing. Rearrange the specs so that @counter-style moves to the Counter Style doc and goes to LC or should this be a Rec track <abbr title="specification">spec</abbr>?</li>
-<li class="level1">CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.</li>
-<li class="level1">css3-animations: open issues, update WD, when could we go LC?</li>
-<li class="level1"><a href="../../topics/fpwd-filter-effects/" title="topics:fpwd-filter-effects">Request for FPWD of Filter Effects 1.0</a></li>
-<li class="level1"><a href="../../topics/interpolation-rotate3d/" title="topics:interpolation-rotate3d">Interpolation behavior on rotate3d</a></li>
-<li class="level1"><a href="http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html" title="http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html" rel="noopener">CSS Masking</a></li>
-</ul>
-</main>
-</body>
-</html>
+
+- Anton Prowse
+- Brad Kemper (I really thought I would go, but the timing turns out to be terrible for me)
+- Ryan Betts
+- Simon Fraser
+- Jet Villegas
+- Håkon
+- John Jansen (I too thought I was going to make it, but the timing is off)
+- Arron Eicholz (I unfortunately can't make it but I will be on IRC the whole time as usual)
+
+## Agenda
+
+### Mon
+
+##### AM
+
+- css3-conditional (what to do about the missing OM section)
+- CSS3 Conditional Object Model - publish WD
+- Selectors 4
+
+##### PM
+
+- CSS3 Syntax: review, FPWD
+- CSS3 Fragmentation: review of edits, WD
+- Aliasing page-break and break
+- [Pseudo-elements proposal](http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html)
+- [Region overflow proposal](http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html)
+- overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). <http://lists.w3.org/Archives/Public/www-style/2012May/1197.html>
+
+### Tue
+
+##### AM
+
+- [Future meetings](../../planning/2013/ "planning:2013")
+- CSSOM: White-space and line breaks in serialization
+- Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
+- collision: auto \| collide \| avoid
+- CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.
+
+##### PM
+
+- CSS3 Grid Layout
+- Variables
+
+### Wed
+
+##### AM
+
+- Prefixing policy - 1 hr max
+- CSS3 Fonts: default features, publish new WD?
+- CSS3 Text: remaining issues, letter-spacing and justification, preparation for LC?
+
+##### PM
+
+- [Request for FPWD of Filter Effects 1.0](../../topics/fpwd-filter-effects/ "topics:fpwd-filter-effects")
+- [Interpolation behavior on rotate3d](../../topics/interpolation-rotate3d/ "topics:interpolation-rotate3d")
+- [CSS Masking](http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html)
+- CSS3 Writing Modes: UTR50, how to avoid bikeshedding, communication with the UTC, text-orientation: upright, and how to make progress
+- CSS3 Lists, CSS Counter Styles: Review, publishing. Rearrange the specs so that @counter-style moves to the Counter Style doc and goes to LC or should this be a Rec track spec?
+- Sticky positioning
+- css3-animations: open issues, update WD, when could we go LC?
+
+## Proposed Topics
+
+- Prefixing policy
+- [Future meetings](../../planning/2013/ "planning:2013")
+- [Region overflow proposal](http://lists.w3.org/Archives/Public/www-style/2012Aug/0181.html)
+- overflow-x and overflow-y overhaul (considering paged overflow and repeat overflow). <http://lists.w3.org/Archives/Public/www-style/2012May/1197.html>
+- Publish quarterly WDs of CSS3 Regions and CSS3 Exclusions and Shapes
+- CSS3 Grid Layout
+- CSS3 Fragmentation: review of edits, WD
+- Aliasing page-break and break
+- Sticky positioning
+- collision: auto \| collide \| avoid
+- [Pseudo-elements proposal](http://lists.w3.org/Archives/Public/www-style/2012Aug/0217.html)
+- CSS3 Fonts: default features, publish new WD?
+- CSS3 Text: remaining issues, letter-spacing and justification, preparation for LC?
+- CSS3 Writing Modes: UTR50, how to avoid bikeshedding, communication with the UTC, text-orientation: upright, and how to make progress
+- Selectors 4
+- Variables
+- CSS3 Syntax: review, FPWD
+- css3-conditional (what to do about the missing OM section)
+- CSS3 Conditional Object Model - publish WD
+- CSSOM: White-space and line breaks in serialization
+- CSS3 Lists, CSS Counter Styles: Review, publishing. Rearrange the specs so that @counter-style moves to the Counter Style doc and goes to LC or should this be a Rec track spec?
+- CSS4 Images: Issues with element() and image-set(), so we can unprefix quickly since they already have impls.
+- css3-animations: open issues, update WD, when could we go LC?
+- [Request for FPWD of Filter Effects 1.0](../../topics/fpwd-filter-effects/ "topics:fpwd-filter-effects")
+- [Interpolation behavior on rotate3d](../../topics/interpolation-rotate3d/ "topics:interpolation-rotate3d")
+- [CSS Masking](http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html)

@@ -1,224 +1,161 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rename the Alignment Properties to Generic Names - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../topics/">topics</a> / alignment-names</div>
-<main>
-<h1 id="rename-the-alignment-properties-to-generic-names">Rename the Alignment Properties to Generic Names</h1>
-<div class="inline dataplugin_entry  sectionedit2"><dl><dt class="spec">Spec<span class="sep">: </span></dt><dd class="spec"><a href="../../spec?dataflt%5B0%5D=spec_%3Dcss3-align" title="Show pages matching 'css3-align'">css3-align</a><span class="sep">, </span><a href="../../spec?dataflt%5B0%5D=spec_%3Dcss3-flexbox" title="Show pages matching 'css3-flexbox'">css3-flexbox</a></dd><dt class="owner">Owner<span class="sep">: </span></dt><dd class="owner"><a href="../../owner?dataflt%5B0%5D=owner_%3Dfantasai" title="Show pages matching 'fantasai'">fantasai</a></dd><dt class="status">Status<span class="sep">: </span></dt><dd class="status"><a href="../../status?dataflt%5B0%5D=status_%3DClosed" title="Show pages matching 'Closed'">Closed</a></dd><dt class="added">Added<span class="sep">: </span></dt><dd class="added">2012-05-16</dd><dt class="action">Action<span class="sep">: </span></dt><dd class="action">Choose some names.</dd><dt class="issue">Issue<span class="sep">: </span></dt><dd class="issue"><a href='http://lists.w3.org/Archives/Public/www-style/2012May/0476.html' class='urlextern' rel="nofollow">http://lists.w3.org/Archives/Public/www-style/2012May/0476.html</a></dd></dl></div><h4 id="resolved">RESOLVED</h4>
-<p>
+---
+title: "Rename the Alignment Properties to Generic Names"
+---
+
+# Rename the Alignment Properties to Generic Names
+
+**Spec:** css3-align, css3-flexbox | **Owner:** fantasai | **Status:** Closed | **Added:** 2012-05-16 | **Action:** Choose some names. | **Issue:** [http://lists.w3.org/Archives/Public/www-style/2012May/0476.html](http://lists.w3.org/Archives/Public/www-style/2012May/0476.html)
+
+#### RESOLVED
+
 The WG resolved to go with Option D based on a straw poll in a telcon: justify-self/content/items and align-self/content/items.
-</p><h4 id="background">Background</h4>
-<p>
-Fundamentally, we&#039;re breaking down the properties along two axes:
-</p>
-<ul>
-<li class="level1 node">in which dimension are things being shifted? There are two:<ul>
-<li class="level3">X) inline (main)</li>
-<li class="level3">Y) stacking (cross)</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li class="level1 node">what&#039;s being aligned within what?<ul>
-<li class="level3">A) element itself within its containing block</li>
-<li class="level3">B) element&#039;s contents within itself</li>
-<li class="level3">C) element&#039;s child items within their container</li>
-</ul>
-</li>
-</ul>
 
-<p>
-We&#039;re going with &#039;justify&#039; vs. &#039;align&#039; to distinguish X vs. Y, but still need a scheme for A/B/C
-</p><h4 id="problem-statement">Problem Statement</h4>
-<p>
+#### Background
+
+Fundamentally, we're breaking down the properties along two axes:
+
+- in which dimension are things being shifted? There are two:
+  - X\) inline (main)
+  - Y\) stacking (cross)
+
+<!-- -->
+
+- what's being aligned within what?
+  - A\) element itself within its containing block
+  - B\) element's contents within itself
+  - C\) element's child items within their container
+
+We're going with 'justify' vs. 'align' to distinguish X vs. Y, but still need a scheme for A/B/C
+
+#### Problem Statement
+
 What naming scheme do we use to indicate various alignment targets?
-</p><h4 id="proposal-s">Proposal(s)</h4>
-<p>
-See <a href="http://dev.w3.org/csswg/css3-align/#overview" title="http://dev.w3.org/csswg/css3-align/#overview" rel="noopener">http://dev.w3.org/csswg/css3-align/#overview</a>
-</p>
 
-<p>
-If we don&#039;t have a clear consensus, we can pick something now and leave it open as an LC issue to give us more time.
-</p>
+#### Proposal(s)
 
-<p>
+See <http://dev.w3.org/csswg/css3-align/#overview>
+
+If we don't have a clear consensus, we can pick something now and leave it open as an LC issue to give us more time.
+
 Set 1: Box/Content/Default
-</p>
-<pre class="code">  +--------X----------------Y------
+
+``` code
+  +--------X----------------Y------
 A |     box-justify      box-align
 B | content-justify  content-align
-C | default-justify  default-align</pre>
+C | default-justify  default-align
+```
 
-<p>
 Set 2: Self/Content/Item
-</p>
-<pre class="code">  +--------X----------------Y------
+
+``` code
+  +--------X----------------Y------
 A |    self-justify     self-align
 B | content-justify  content-align
-C |    item-justify     item-align</pre>
+C |    item-justify     item-align
+```
 
-<p>
 Set 3: Outside/Inside/Items
-</p>
-<pre class="code">  +--------X----------------Y------
+
+``` code
+  +--------X----------------Y------
 A | justify-outside  align-outside
 B | justify-inside   align-inside
-C | justify-items    align-items</pre>
+C | justify-items    align-items
+```
 
-<p>
 Added after initial discussions…
-</p>
 
-<p>
 Set 4: Self/Content/Items Inversion
-</p>
-<pre class="code">  +--------X----------------Y------
+
+``` code
+  +--------X----------------Y------
 A | justify-self     align-self
 B | justify-content  align-content
-C | justify-items    align-items</pre>
+C | justify-items    align-items
+```
 
-<p>
 Set 5: Self/Content/Items Inline/Stack
-</p>
-<pre class="code">  +--------X----------------Y------
+
+``` code
+  +--------X----------------Y------
 A | align-self-inline     align-self-stack
 B | align-content-inline  align-content-stack
-C | align-items-inline    align-items-stack</pre><h4 id="summary-of-comments">Summary of Comments</h4>
-<p>
-<a href="http://lists.w3.org/Archives/Public/www-style/2012May/0481.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/0481.html" rel="noopener">Anton</a>:
-</p>
-<pre class="code">For me, Set 1 is too abstract. (Which box? Which default?)  I like
+C | align-items-inline    align-items-stack
+```
+
+#### Summary of Comments
+
+[Anton](http://lists.w3.org/Archives/Public/www-style/2012May/0481.html):
+
+``` code
+For me, Set 1 is too abstract. (Which box? Which default?)  I like
 self/content/item because I find it very self-descriptive.  I like
 outside/inside/items because it will match nicely with our future
-display-inside and display-outside.  I wouldn&#039;t have trouble
-remembering and applying the property names in Set 2 or Set 3.</pre>
+display-inside and display-outside.  I wouldn't have trouble
+remembering and applying the property names in Set 2 or Set 3.
+```
 
-<p>
-<a href="http://lists.w3.org/Archives/Public/www-style/2012May/0484.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/0484.html" rel="noopener">Florian</a>:
-</p>
-<pre class="code">box and content make sense to me, and so do outside and inside.
+[Florian](http://lists.w3.org/Archives/Public/www-style/2012May/0484.html):
+
+``` code
+box and content make sense to me, and so do outside and inside.
 self and content are a bit cryptic to me.
 As for default vs item, no strong opinion. Neither seem very much
-clearer than the other. </pre>
+clearer than the other. 
+```
 
-<p>
-<a href="http://lists.w3.org/Archives/Public/www-style/2012May/0493.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/0493.html" rel="noopener">Remy</a>:
-</p>
-<pre class="code">outer-align; outer-justify;
+[Remy](http://lists.w3.org/Archives/Public/www-style/2012May/0493.html):
+
+``` code
+outer-align; outer-justify;
 inner-align; inner-justify;
 child-outer-align; child-outer-justify;
 
-However, I&#039;m not completely sold to &quot;child-outer-align&quot; and &quot;child-outer-justify&quot;.
-This case is better solved with a pseudo-class. </pre>
+However, I'm not completely sold to "child-outer-align" and "child-outer-justify".
+This case is better solved with a pseudo-class. 
+```
 
-<p>
-<a href="http://lists.w3.org/Archives/Public/www-style/2012May/0495.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/0495.html" rel="noopener">Tab</a>:
-</p>
-<pre class="code">[Set 3] is my favorite.
+[Tab](http://lists.w3.org/Archives/Public/www-style/2012May/0495.html):
 
-For one, I value the swapped ordering.  Having &quot;justify&quot; and &quot;align&quot;
+``` code
+[Set 3] is my favorite.
+
+For one, I value the swapped ordering.  Having "justify" and "align"
 come first makes more sense to me, given our general rules for how
 alignment works.  It also puts us slightly farther away from the
 existing text/vertical-align properties, which is good.
 
 For two, outside/inside is very difficult to confuse, especially as we
-introduce more things using the inside/outside pair.</pre>
+introduce more things using the inside/outside pair.
+```
 
-<p>
-<a href="http://lists.w3.org/Archives/Public/www-style/2012May/0515.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/0515.html" rel="noopener">Alan</a>:
-</p>
-<pre class="code">[Set 3] is my choice as well. Grouping these related properties together
+[Alan](http://lists.w3.org/Archives/Public/www-style/2012May/0515.html):
+
+``` code
+[Set 3] is my choice as well. Grouping these related properties together
 with justify and align coming first makes the most sense to me.
 I vastly prefer items [over default], as that conveys to me a group of
 discrete things to distribute.
 And I have a slight preference for inside/outside over self/content.
-I do not think &#039;box&#039; should be used - it&#039;s too overloaded as a term.
+I do not think 'box' should be used - it's too overloaded as a term.
 So I think this should be the easiest set to explain to someone new to
-the concepts.</pre>
+the concepts.
+```
 
-<p>
-<a href="http://lists.w3.org/Archives/Public/www-style/2012May/0517.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/0517.html" rel="noopener">dbaron</a>:
-</p>
-<pre class="code">I&#039;m actually not so happy about the *-outside terms here.  The
+[dbaron](http://lists.w3.org/Archives/Public/www-style/2012May/0517.html):
+
+``` code
+I'm actually not so happy about the *-outside terms here.  The
 display-outside/inside distinction is about two halves of the same
-thing; here&#039; align-outside and align-items are about the same
-behavior, on different things.</pre>
+thing; here' align-outside and align-items are about the same
+behavior, on different things.
+```
 
-<p>
-<a href="http://lists.w3.org/Archives/Public/www-style/2012May/0519.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/0519.html" rel="noopener">Christoph</a>:
-</p>
-<pre class="code">The “Inversion” row makes some sense, because ‘justify-box’/‘align-box’
+[Christoph](http://lists.w3.org/Archives/Public/www-style/2012May/0519.html):
+
+``` code
+The “Inversion” row makes some sense, because ‘justify-box’/‘align-box’
 sound like English phrases in the imperative mood, whereas ‘box-justify’/
 ‘box-align’ sound odder (to me as a non-native speaker) than
 ‘box-justification’/‘box-alignment’.
@@ -235,36 +172,38 @@ the latter as proposed doesn’t match my mental model, which makes me prefer
   +--------X--------------Y--------
 A | justify-outside  align-outside
 B | justify[-self]   align[-self]
-C | justify-inside   align-inside</pre>
+C | justify-inside   align-inside
+```
 
-<p>
-<a href="http://lists.w3.org/Archives/Public/www-style/2012May/0681.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/0681.html" rel="noopener">Lea</a>:
-</p>
-<pre class="code">The align- and justify- prefixes are confusing to me too,
+[Lea](http://lists.w3.org/Archives/Public/www-style/2012May/0681.html):
+
+``` code
+The align- and justify- prefixes are confusing to me too,
 especially the latter. However, I understand the concerns
-against using &quot;horizontal&quot; and &quot;vertical&quot; in the name.
+against using "horizontal" and "vertical" in the name.
 How about using the axes in the naming? i.e. inline-align-*
 and stacking-align-* (the latter could just be align-*).
 
-I also find &quot;-inside&quot; and &quot;-outside&quot; unintuitive. self/content
+I also find "-inside" and "-outside" unintuitive. self/content
 sounds the most straightforward to me. inside/outside can mean
 a number of different things (align the element based on the
-outside? Align what&#039;s outside the element? Something else?)
+outside? Align what's outside the element? Something else?)
 but self/content are not as prone to misinterpretation. Of
 course, introducing more inside/outside pairs in CSS helps,
 by forming a convention, but it does not change the fact that
-it&#039;s incomprehensible without that convention, which needs to
+it's incomprehensible without that convention, which needs to
 be learned.
 
 However, opinions (even justified ones) are pointless when the
 problem is basically a usability issue (naming is to languages/
 APIs what UI is to applications). You need to conduct some sort
-of usability test [...]</pre>
+of usability test [...]
+```
 
-<p>
-<a href="http://lists.w3.org/Archives/Public/www-style/2012May/0835.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/0835.html" rel="noopener">fantasai</a>:
-</p>
-<pre class="code">I think I&#039;m leaning towards [Set 4] myself, since it seems to fit
+[fantasai](http://lists.w3.org/Archives/Public/www-style/2012May/0835.html):
+
+``` code
+I think I'm leaning towards [Set 4] myself, since it seems to fit
 reasonably well with the flexbox model:
 
 Set on flex container:
@@ -272,21 +211,21 @@ Set on flex container:
   justify-content - to set distribution of items in each flex line
   align-items     - to set (default) cross-position of items
 Set on flex item:
-  align-self      - to set individual cross-position of item</pre>
+  align-self      - to set individual cross-position of item
+```
 
-<p>
-<a href="http://lists.w3.org/Archives/Public/www-style/2012May/0843.html" title="http://lists.w3.org/Archives/Public/www-style/2012May/0843.html" rel="noopener">Remy</a>:
-</p>
-<pre class="code">If you want to keep consistency with other CSS properties (border,
+[Remy](http://lists.w3.org/Archives/Public/www-style/2012May/0843.html):
+
+``` code
+If you want to keep consistency with other CSS properties (border,
 background-position, ...) the axis should be at the end of the
-property name and there should be a shorthand to modify both axises. </pre><h4 id="conclusions">Conclusions</h4>
-<ul>
-<li class="level1">People seem to be leaning towards the inverted variants.</li>
-<li class="level1">A few people like “box”, but several others think it&#039;s overloaded.</li>
-<li class="level1">There seems to be general agreement that &#039;items&#039; is better than &#039;default&#039; (or the previous alternative, &#039;child&#039;).</li>
-<li class="level1">There are concerns about the &#039;inside&#039;/&#039;outside&#039; pair being too cryptic or too confusable, and lacking parallel with &#039;items&#039;.</li>
-<li class="level1">Some concern over align vs. justify being unmemorable and undescriptive.</li>
-</ul>
-</main>
-</body>
-</html>
+property name and there should be a shorthand to modify both axises. 
+```
+
+#### Conclusions
+
+- People seem to be leaning towards the inverted variants.
+- A few people like “box”, but several others think it's overloaded.
+- There seems to be general agreement that 'items' is better than 'default' (or the previous alternative, 'child').
+- There are concerns about the 'inside'/'outside' pair being too cryptic or too confusable, and lacking parallel with 'items'.
+- Some concern over align vs. justify being unmemorable and undescriptive.

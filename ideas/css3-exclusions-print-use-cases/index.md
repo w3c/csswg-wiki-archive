@@ -1,180 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Use Cases from Print Layouts for Exclusions and Shapes - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
+---
+title: "Use Cases from Print Layouts for Exclusions and Shapes"
+---
+
+### Use Cases from Print Layouts for Exclusions and Shapes
+
+#### Shapes
+
+\[Image not available\]
+
+Here there's a circle shape affecting the flow of two columns. This could be done as a float with a shape (with the addition of a float-offset property), as an absolutely positioned exclusion, or with grid positioning placing an exclusion over a multicol element or pair of regions. You can see a markup example of a reconstruction of that use case [here](http://disruptive-innovations.com/zoo/customers/Adobe/FFMC.html). Below is a screenshot of that reconstruction in a browser and the second code block is the CSS code used to create the exclusion. The first code block uses a much simpler mechanism from GCPM.
+
+``` code
+#exclusion {
+  float: top right;
+  float-offset: -50% 50%;
+  shape-outside: url(motorbike.png);
 }
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
+```
+
+``` code
+#lipsum {
+  position: relative;
 }
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
+ 
+#exclusion {
+  position: absolute;
+  top: -webkit-calc(50% - 67px);
+  left: -webkit-calc(50% - 67px);
+  -webkit-wrap-flow: both;
+  -webkit-shape-outside: url(motorbike.png);
 }
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../ideas/">ideas</a> / css3-exclusions-print-use-cases</div>
-<main>
-<h3 id="use-cases-from-print-layouts-for-exclusions-and-shapes">Use Cases from Print Layouts for Exclusions and Shapes</h3><h4 id="shapes">Shapes</h4>
-<p>
-<img src="/_media/spec/css3-floats-use-cases/2columns_1excl.png" class="mediacenter" loading="lazy" alt="" />
-</p>
+```
 
-<p>
-Here there&#039;s a circle shape affecting the flow of two columns. This could be done as a float with a shape (with the addition of a float-offset property), as an absolutely positioned exclusion, or with grid positioning placing an exclusion over a multicol element or pair of regions. You can see a markup example of a reconstruction of that use case <a href="http://disruptive-innovations.com/zoo/customers/Adobe/FFMC.html" title="http://disruptive-innovations.com/zoo/customers/Adobe/FFMC.html" rel="noopener">here</a>. Below is a screenshot of that reconstruction in a browser and the second code block is the <abbr title="Cascading Style Sheets">CSS</abbr> code used to create the exclusion. The first code block uses a much simpler mechanism from GCPM.
-</p>
-<pre class="code css"><span class="re0">#exclusion</span> <span class="br0">&#123;</span>
-  <span class="kw1">float</span><span class="sy0">:</span> <span class="kw2">top</span> <span class="kw2">right</span><span class="sy0">;</span>
-  float-offset<span class="sy0">:</span> <span class="re3">-50%</span> <span class="re3">50%</span><span class="sy0">;</span>
-  <span class="kw1">shape-outside</span><span class="sy0">:</span> <span class="kw3">url</span><span class="br0">&#40;</span><span class="co2">motorbike.png</span><span class="br0">&#41;</span><span class="sy0">;</span>
-<span class="br0">&#125;</span></pre>
-<pre class="code css"><span class="re0">#lipsum</span> <span class="br0">&#123;</span>
-  <span class="kw1">position</span><span class="sy0">:</span> <span class="kw2">relative</span><span class="sy0">;</span>
-<span class="br0">&#125;</span>
-&nbsp;
-<span class="re0">#exclusion</span> <span class="br0">&#123;</span>
-  <span class="kw1">position</span><span class="sy0">:</span> <span class="kw2">absolute</span><span class="sy0">;</span>
-  <span class="kw1">top</span><span class="sy0">:</span> -webkit-calc<span class="br0">&#40;</span><span class="re3">50%</span> - <span class="re3">67px</span><span class="br0">&#41;</span><span class="sy0">;</span>
-  <span class="kw1">left</span><span class="sy0">:</span> -webkit-calc<span class="br0">&#40;</span><span class="re3">50%</span> - <span class="re3">67px</span><span class="br0">&#41;</span><span class="sy0">;</span>
-  -webkit-wrap-flow<span class="sy0">:</span> <span class="kw2">both</span><span class="sy0">;</span>
-  -webkit-shape-outside<span class="sy0">:</span> <span class="kw3">url</span><span class="br0">&#40;</span><span class="co2">motorbike.png</span><span class="br0">&#41;</span><span class="sy0">;</span>
-<span class="br0">&#125;</span></pre>
+\[Image not available\]
 
-<p>
-<a href="../../lib/exe/fetch.php?tok=d467bb&amp;media=http%3A%2F%2Fdisruptive-innovations.com%2Fzoo%2Fcustomers%2FAdobe%2FFFMC2.png" class="media" title="http://disruptive-innovations.com/zoo/customers/Adobe/FFMC2.png"><img src="/lib/exe/fetch.php?w=400&amp;tok=e0f99f&amp;media=http%3A%2F%2Fdisruptive-innovations.com%2Fzoo%2Fcustomers%2FAdobe%2FFFMC2.png" class="mediacenter" loading="lazy" alt="" width="400" /></a>
-</p>
+This layout has many interesting possible expressions in CSS:
 
-<p>
-<img src="/_media/spec/css3-floats-use-cases/2reg_2excl.png" class="mediacenter" loading="lazy" alt="" />
-</p>
+1.  A background with a shape
+    1.  pulled from image data
+    2.  extracted from content edges
+    3.  defined in a path
+2.  A bottom-positioned float with a shape
+3.  One or more exclusions outside the text flow
 
-<p>
-This layout has many interesting possible expressions in <abbr title="Cascading Style Sheets">CSS</abbr>:
-</p>
-<ol>
-<li class="level1 node">A background with a shape<ol>
-<li class="level2">pulled from image data</li>
-<li class="level2">extracted from content edges</li>
-<li class="level2">defined in a path</li>
-</ol>
-</li>
-<li class="level1">A bottom-positioned float with a shape</li>
-<li class="level1">One or more exclusions outside the text flow</li>
-</ol>
+You can see a markup example of a reconstruction of that use case [here](http://disruptive-innovations.com/zoo/customers/Adobe/Veste.html). Below is a screenshot of that reconstruction in a browser:
 
-<p>
-You can see a markup example of a reconstruction of that use case <a href="http://disruptive-innovations.com/zoo/customers/Adobe/Veste.html" title="http://disruptive-innovations.com/zoo/customers/Adobe/Veste.html" rel="noopener">here</a>. Below is a screenshot of that reconstruction in a browser:
-</p>
+#### Pull Quotes
 
-<p>
-<a href="../../lib/exe/fetch.php?tok=ab7203&amp;media=http%3A%2F%2Fdisruptive-innovations.com%2Fzoo%2Fcustomers%2FAdobe%2FVeste.png" class="media" title="http://disruptive-innovations.com/zoo/customers/Adobe/Veste.png"><img src="/lib/exe/fetch.php?w=400&amp;tok=66574a&amp;media=http%3A%2F%2Fdisruptive-innovations.com%2Fzoo%2Fcustomers%2FAdobe%2FVeste.png" class="mediacenter" loading="lazy" alt="" width="400" /></a>
-</p><h4 id="pull-quotes">Pull Quotes</h4>
-<p>
-<img src="/_media/spec/css3-floats-use-cases/centered-pull-quotes.png" class="mediacenter" loading="lazy" alt="" />
-</p>
+\[Image not available\]
 
-<p>
 These pull quotes are from separate flows - the top from the left-side English translation and the bottom from the right-side French translation. While there might be some combination of new float positioning properties that could achieve this effect, two absolutely positioned exclusions is likely to be the simpler design to execute. Given an appropriate containing block for the flows, the pull-quotes as exclusions could be positioned like this:
-</p>
-<pre class="code css"><span class="re1">.top-pull</span> <span class="br0">&#123;</span>
-  <span class="kw1">position</span><span class="sy0">:</span><span class="kw2">absolute</span><span class="sy0">;</span>
-  <span class="kw1">right</span><span class="sy0">:</span> <span class="re3">45%</span><span class="sy0">;</span>
-  <span class="kw1">bottom</span><span class="sy0">:</span> <span class="re3">50%</span><span class="sy0">;</span>
-  <span class="kw1">max-width</span><span class="sy0">:</span><span class="re3">15%</span><span class="sy0">;</span>
-  wrap-flow<span class="sy0">:</span><span class="kw2">both</span><span class="sy0">;</span>
-<span class="br0">&#125;</span>
-<span class="re1">.bottom-pull</span> <span class="br0">&#123;</span>
-  <span class="kw1">position</span><span class="sy0">:</span><span class="kw2">absolute</span><span class="sy0">;</span>
-  <span class="kw1">top</span><span class="sy0">:</span> <span class="re3">50%</span><span class="sy0">;</span>
-  <span class="kw1">left</span><span class="sy0">:</span> <span class="re3">45%</span><span class="sy0">;</span>
-  <span class="kw1">max-width</span><span class="sy0">:</span><span class="re3">15%</span><span class="sy0">;</span>
-  wrap-flow<span class="sy0">:</span><span class="kw2">both</span><span class="sy0">;</span>
-<span class="br0">&#125;</span></pre><h4 id="background-exclusion">Background Exclusion</h4>
-<p>
-<img src="/_media/spec/css3-floats-use-cases/pagination_08.png" class="mediacenter" loading="lazy" alt="" />
-</p>
 
-<p>
+``` code
+.top-pull {
+  position:absolute;
+  right: 45%;
+  bottom: 50%;
+  max-width:15%;
+  wrap-flow:both;
+}
+.bottom-pull {
+  position:absolute;
+  top: 50%;
+  left: 45%;
+  max-width:15%;
+  wrap-flow:both;
+}
+```
+
+#### Background Exclusion
+
+\[Image not available\]
+
 The ribbon and star are part of the overall page design - more of a title than anything else. This could be done either as a background or an absolutely positioned exclusion.
-</p><h4 id="complex-exclusion-interacting-with-multiple-flows">Complex Exclusion Interacting with Multiple Flows</h4>
-<p>
-<img src="/_media/spec/css3-floats-use-cases/excl_inside_and_outside.png" class="mediacenter" loading="lazy" alt="" />
-</p>
 
-<p>
+#### Complex Exclusion Interacting with Multiple Flows
+
+\[Image not available\]
+
 The trap in the middle uses multiple shapes to affect the wrap of text around the image and enclose the caption inside. Note that it overlaps the image to its top left and does not use a content edge shape on the bottom left.
-</p>
 
-<p>
-<img src="/_media/spec/css3-floats-use-cases/sciences_et_vie_excl.png" class="mediacenter" loading="lazy" alt="" />
-</p>
+\[Image not available\]
 
-<p>
 Here the large oval wraps the article text and the text of its top two captions, but the remaining captions are not affected by the shape.
-</p>
 
-<p>
-More examples collected at the top of this blog post: <a href="http://galjot.si/css-exclusions" title="http://galjot.si/css-exclusions" rel="noopener">http://galjot.si/css-exclusions</a>
-</p>
-</main>
-</body>
-</html>
+More examples collected at the top of this blog post: <http://galjot.si/css-exclusions>

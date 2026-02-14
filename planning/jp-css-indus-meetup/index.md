@@ -1,178 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Japanese Industry Meet-up with the CSSWG - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / jp-css-indus-meetup</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Japanese Industry Meet-up with the CSSWG"
+---
 
-<ul class="toc">
-<li class="level2"><a href="#japanese-industry-meet-up-with-the-csswg">Japanese Industry Meet-up with the CSSWG</a><ul class="toc">
-<li class="level3"><a href="#participants">Participants</a></li>
-<li class="level3"><a href="#logistics">Logistics</a></li>
-<li class="level3"><a href="#agenda">Agenda</a></li>
-<li class="level3"><a href="#dialing-in">Dialing in</a></li>
-<li class="level3"><a href="#dinner-info">Dinner Info</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+## Japanese Industry Meet-up with the CSSWG
 
-<h2 id="japanese-industry-meet-up-with-the-csswg">Japanese Industry Meet-up with the CSSWG</h2>
-<p>
-The <abbr title="Cascading Style Sheets">CSS</abbr> Working Group will be meeting in Sapporo, and will take this opportunity to meet with the Japanese Industry.
-</p>
+The CSS Working Group will be meeting in Sapporo, and will take this opportunity to meet with the Japanese Industry.
 
-<p>
-Details in Japanese: <a href="http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup" title="http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup" rel="noopener">http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup</a>
-</p>
+Details in Japanese: <http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup>
 
-<p>
-If you have questions, contact Hiroshi Sakakibara at <a href="mailto:&#106;&#112;&#105;&#110;&#100;&#50;&#48;&#49;&#53;&#64;&#98;&#112;&#115;&#105;&#110;&#99;&#46;&#106;&#112;" class="mail" title="&#106;&#112;&#105;&#110;&#100;&#50;&#48;&#49;&#53;&#64;&#98;&#112;&#115;&#105;&#110;&#99;&#46;&#106;&#112;">&#106;&#112;&#105;&#110;&#100;&#50;&#48;&#49;&#53;&#64;&#98;&#112;&#115;&#105;&#110;&#99;&#46;&#106;&#112;</a>
-</p><h3 id="participants">Participants</h3>
-<p>
+If you have questions, contact Hiroshi Sakakibara at [jpind2015@bpsinc.jp](mailto:jpind2015@bpsinc.jp)
+
+### Participants
+
 Participation is open to anyone interested, but please registed if you want to come.
-</p>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> From the CSSWG</span></dt>
-<dd><a href="https://wiki.csswg.org/planning/tpac-2015#participants" title="https://wiki.csswg.org/planning/tpac-2015#participants" rel="noopener">https://wiki.csswg.org/planning/tpac-2015#participants</a></dd>
-<dt><span class="term"> From Japan</span></dt>
-<dd><a href="http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup#content_1_3" title="http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup#content_1_3" rel="noopener">http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup#content_1_3</a></dd>
-</dl>
 
-<p>
-If you are not on either list (and do not have write access to either wiki), please contact Hiroshi Sakakibara at <a href="mailto:&#106;&#112;&#105;&#110;&#100;&#50;&#48;&#49;&#53;&#64;&#98;&#112;&#115;&#105;&#110;&#99;&#46;&#106;&#112;" class="mail" title="&#106;&#112;&#105;&#110;&#100;&#50;&#48;&#49;&#53;&#64;&#98;&#112;&#115;&#105;&#110;&#99;&#46;&#106;&#112;">&#106;&#112;&#105;&#110;&#100;&#50;&#48;&#49;&#53;&#64;&#98;&#112;&#115;&#105;&#110;&#99;&#46;&#106;&#112;</a>.
-</p><h3 id="logistics">Logistics</h3>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> When</span></dt>
-<dd>Sunday October 25th (Sunday) 2015, from 16:00 to 19:00 JST</dd>
-<dt><span class="term"> Venue Name(en)</span></dt>
-<dd>Meeting Room “Infinite Loop”, Building “Sapporo Factory”</dd>
-<dt><span class="term"> Venue Name(jp)</span></dt>
-<dd>株式会社インフィニットループ 会議室</dd>
-<dt><span class="term"> Address(jp)</span></dt>
-<dd>札幌市中央区北1条東4丁目1番地1　サッポロファクトリー1条館　3階</dd>
-<dt><span class="term"> Address(en)</span></dt>
-<dd>3rd Floor, Sapporo Factory ichi-jokan, 4−1−1, Kita 1 Jo Higashi, Chuo-ku, Sapporo-shi, Hokkaido</dd>
-<dt><span class="term"> Map</span></dt>
-<dd><a href="http://www.infiniteloop.co.jp/map/" title="http://www.infiniteloop.co.jp/map/" rel="noopener">http://www.infiniteloop.co.jp/map/</a></dd>
-<dt><span class="term"> How to get there</span></dt>
-<dd><a href="http://www.infiniteloop.co.jp/blog/2015/07/keiro/" title="http://www.infiniteloop.co.jp/blog/2015/07/keiro/" rel="noopener"> pictures with arrows on how to find the place depending on where you&#039;re arriving from, in Japanese</a></dd>
-</dl><h3 id="agenda">Agenda</h3>
-<ul>
-<li class="level1">Presentation (by Fantasai) about how the <abbr title="World Wide Web Consortium">W3C</abbr> and CSSWG work</li>
-<li class="level1 node">Group discussion / Q&amp;A based on questions by Japanese attendees<ul>
-<li class="level2">Details to be added</li>
-</ul>
-</li>
-</ul>
+From the CSSWG
+: https://wiki.csswg.org/planning/tpac-2015#participants
 
-<p>
+From Japan
+: http://csslab.bpsinc.jp/wiki/index.php?JPIndustryMeetup#content_1_3
+
+If you are not on either list (and do not have write access to either wiki), please contact Hiroshi Sakakibara at [jpind2015@bpsinc.jp](mailto:jpind2015@bpsinc.jp).
+
+### Logistics
+
+When
+: Sunday October 25th (Sunday) 2015, from 16:00 to 19:00 JST
+
+Venue Name(en)
+: Meeting Room “Infinite Loop”, Building “Sapporo Factory”
+
+Venue Name(jp)
+: 株式会社インフィニットループ 会議室
+
+Address(jp)
+: 札幌市中央区北1条東4丁目1番地1　サッポロファクトリー1条館　3階
+
+Address(en)
+: 3rd Floor, Sapporo Factory ichi-jokan, 4−1−1, Kita 1 Jo Higashi, Chuo-ku, Sapporo-shi, Hokkaido
+
+Map
+: http://www.infiniteloop.co.jp/map/
+
+How to get there
+: pictures with arrows on how to find the place depending on where you're arriving from, in Japanese
+
+### Agenda
+
+- Presentation (by Fantasai) about how the W3C and CSSWG work
+- Group discussion / Q&A based on questions by Japanese attendees
+  - Details to be added
+
 Moderation / translation:
-</p>
-<ul>
-<li class="level1">Hiroshi Sakakibara (BPS)</li>
-<li class="level1">Florian Rivoal (Vivliostyle)</li>
-</ul><h3 id="dialing-in">Dialing in</h3>
-<p>
-If you need to join remotely, call into the following skype account: bps.aska 
-</p><h3 id="dinner-info">Dinner Info</h3>
-<p>
+
+- Hiroshi Sakakibara (BPS)
+- Florian Rivoal (Vivliostyle)
+
+### Dialing in
+
+If you need to join remotely, call into the following skype account: bps.aska
+
+### Dinner Info
+
 The meeting will be followed by a dinner.
-</p>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> Venue name(jp)</span></dt>
-<dd>海鮮居酒屋 だんまや水産 札幌駅前店</dd>
-<dt><span class="term"> Venue name(en)</span></dt>
-<dd>Danmya-suisan Sapporo-ekimae-ten</dd>
-<dt><span class="term"> Restaurant&#039;s site</span></dt>
-<dd><a href="http://www.hotpepper.jp/strJ000027568/" title="http://www.hotpepper.jp/strJ000027568/" rel="noopener">http://www.hotpepper.jp/strJ000027568/</a></dd>
-<dt><span class="term"> Address(jp)</span></dt>
-<dd>北海道札幌市中央区北3条西3丁目1-56マルゲンビル2F</dd>
-<dt><span class="term"> Address(en)</span></dt>
-<dd>Marugen Bld, 2nd Floor, 3-1-35, Kita 3 Jo Nishi, Chuo-ku, Sapporo-shi, Hokkaido</dd>
-<dt><span class="term"> Restaurant phone number</span></dt>
-<dd>(+81)50-5834-4784</dd>
-<dt><span class="term"> Map</span></dt>
-<dd><a href="https://www.google.com/maps/place/Japan,+%E3%80%92060-0003+Hokkaid%C5%8D,+Sapporo-shi,+Ch%C5%AB%C5%8D-ku,+Kita+3+J%C5%8Dnishi,+3+Chome+%E3%83%9E%E3%83%AB%E3%82%B2%E3%83%B3%E3%83%93%E3%83%AB/@43.065377,141.3500402,17z/data=!3m1!4b1!4m2!3m1!1s0x5f0b2975ecaafb8d:0x7218101ddba599a9" title="https://www.google.com/maps/place/Japan,+%E3%80%92060-0003+Hokkaid%C5%8D,+Sapporo-shi,+Ch%C5%AB%C5%8D-ku,+Kita+3+J%C5%8Dnishi,+3+Chome+%E3%83%9E%E3%83%AB%E3%82%B2%E3%83%B3%E3%83%93%E3%83%AB/@43.065377,141.3500402,17z/data=!3m1!4b1!4m2!3m1!1s0x5f0b2975ecaafb8d:0x7218101ddba599a9" rel="noopener"> Google maps</a></dd>
-<dt><span class="term"> Street View</span></dt>
-<dd><a href="https://www.google.com/maps/@43.0654776,141.3524304,3a,75y,300.35h,97.45t/data=!3m6!1e1!3m4!1sVcSK2Q34weVjQbpFrS0wQQ!2e0!7i13312!8i6656" title="https://www.google.com/maps/@43.0654776,141.3524304,3a,75y,300.35h,97.45t/data=!3m6!1e1!3m4!1sVcSK2Q34weVjQbpFrS0wQQ!2e0!7i13312!8i6656" rel="noopener"> The one in the middle, with the blue and white sign</a></dd>
-<dt><span class="term"> Walking instructions</span></dt>
-<dd><a href="https://goo.gl/maps/BDWN5FxtwRH2" title="https://goo.gl/maps/BDWN5FxtwRH2" rel="noopener"> Going there from the meeting, Google maps walking instructions, 13 minutes</a>
-</main>
-</body>
-</html>
+
+Venue name(jp)
+
+海鮮居酒屋 だんまや水産 札幌駅前店
+
+Venue name(en)
+
+Danmya-suisan Sapporo-ekimae-ten
+
+Restaurant's site
+
+<http://www.hotpepper.jp/strJ000027568/>
+
+Address(jp)
+
+北海道札幌市中央区北3条西3丁目1-56マルゲンビル2F
+
+Address(en)
+
+Marugen Bld, 2nd Floor, 3-1-35, Kita 3 Jo Nishi, Chuo-ku, Sapporo-shi, Hokkaido
+
+Restaurant phone number
+
+(+81)50-5834-4784
+
+Map
+
+[Google maps](https://www.google.com/maps/place/Japan,+%E3%80%92060-0003+Hokkaid%C5%8D,+Sapporo-shi,+Ch%C5%AB%C5%8D-ku,+Kita+3+J%C5%8Dnishi,+3+Chome+%E3%83%9E%E3%83%AB%E3%82%B2%E3%83%B3%E3%83%93%E3%83%AB/@43.065377,141.3500402,17z/data=!3m1!4b1!4m2!3m1!1s0x5f0b2975ecaafb8d:0x7218101ddba599a9)
+
+Street View
+
+[The one in the middle, with the blue and white sign](https://www.google.com/maps/@43.0654776,141.3524304,3a,75y,300.35h,97.45t/data=!3m6!1e1!3m4!1sVcSK2Q34weVjQbpFrS0wQQ!2e0!7i13312!8i6656)
+
+Walking instructions
+
+[Going there from the meeting, Google maps walking instructions, 13 minutes](https://goo.gl/maps/BDWN5FxtwRH2)

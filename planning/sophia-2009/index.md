@@ -1,101 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sophia-Antipolis F2F June 2009 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / sophia-2009</div>
-<main>
-<h1 id="sophia-antipolis-f2f-june-2009">Sophia-Antipolis F2F June 2009</h1>
-<ul>
-<li class="level1">2009 June 3-5</li>
-<li class="level1">Sophia-Antipolis, France</li>
-<li class="level1">Organizer: <abbr title="World Wide Web Consortium">W3C</abbr> (Bert Bos)</li>
-<li class="level1">Minutes: <a href="https://www.w3.org/2009/06/03-CSS-irc.html" title="https://www.w3.org/2009/06/03-CSS-irc.html" rel="noopener">Wednesday</a>, <a href="https://www.w3.org/2009/06/04-CSS-irc.html" title="https://www.w3.org/2009/06/04-CSS-irc.html" rel="noopener">Thursday</a>, <a href="https://www.w3.org/2009/06/05-CSS-minutes.html" title="https://www.w3.org/2009/06/05-CSS-minutes.html" rel="noopener">Friday</a></li>
-</ul><h2 id="proposed-topics">Proposed topics</h2>
-<p>
-Proposed topics for topics for the June 2009 <abbr title="Cascading Style Sheets">CSS</abbr> Working Group Face-to-Face meeting in Sophia-Antipolis (France).
-</p>
-<ul>
-<li class="level1">Multi-Column Last Call Comments</li>
-<li class="level1">GCPM: a new draft will be presented</li>
-<li class="level1">Reflecting font features into <abbr title="Cascading Style Sheets">CSS</abbr></li>
-<li class="level1">Test Suites [ please add detail ]</li>
-<li class="level1">outstanding CSS3 Paged Media issues</li>
-<li class="level1">additional test suite format: reftest (dbaron)</li>
-<li class="level1">css3-flexbox publication status (dbaron)</li>
-<li class="level1">text-overflow</li>
-<li class="level1">Anonymous table box construction (and whitespace)</li>
-<li class="level1">outstanding CSS3 Backgrounds and Borders issues</li>
-</ul>
-</main>
-</body>
-</html>
+---
+title: "Sophia-Antipolis F2F June 2009"
+---
+
+# Sophia-Antipolis F2F June 2009
+
+- 2009 June 3-5
+- Sophia-Antipolis, France
+- Organizer: W3C (Bert Bos)
+- Minutes: [Wednesday](https://www.w3.org/2009/06/03-CSS-irc.html), [Thursday](https://www.w3.org/2009/06/04-CSS-irc.html), [Friday](https://www.w3.org/2009/06/05-CSS-minutes.html)
+
+## Proposed topics
+
+Proposed topics for topics for the June 2009 CSS Working Group Face-to-Face meeting in Sophia-Antipolis (France).
+
+- Multi-Column Last Call Comments
+- GCPM: a new draft will be presented
+- Reflecting font features into CSS
+- Test Suites \[ please add detail \]
+- outstanding CSS3 Paged Media issues
+- additional test suite format: reftest (dbaron)
+- css3-flexbox publication status (dbaron)
+- text-overflow
+- Anonymous table box construction (and whitespace)
+- outstanding CSS3 Backgrounds and Borders issues

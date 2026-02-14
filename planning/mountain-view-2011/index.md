@@ -1,151 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mountain View F2F March 2011 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / mountain-view-2011</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Mountain View F2F March 2011"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#mountain-view-f2f-march-2011">Mountain View F2F March 2011</a><ul class="toc">
-<li class="level2"><a href="#meeting-minutes">Meeting Minutes</a></li>
-<li class="level2"><a href="#proposed-topics">Proposed topics</a><ul class="toc">
-<li class="level3"><a href="#monday">Monday</a></li>
-<li class="level3"><a href="#tuesday">Tuesday</a></li>
-<li class="level3"><a href="#wednesday">Wednesday</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#notes">Notes</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# Mountain View F2F March 2011
 
-<h1 id="mountain-view-f2f-march-2011">Mountain View F2F March 2011</h1>
-<ul>
-<li class="level1">2011 March 7-9</li>
-<li class="level1">Mountain View, CA, USA</li>
-<li class="level1">Organizer: Mozilla (David Baron)</li>
-</ul><h2 id="meeting-minutes">Meeting Minutes</h2>
-<ul>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Mar/0258.html" title="http://lists.w3.org/Archives/Public/www-style/2011Mar/0258.html" rel="noopener">Monday, 7 March</a> - CSS2.1 Issues &amp; Test Failures</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Mar/0272.html" title="http://lists.w3.org/Archives/Public/www-style/2011Mar/0272.html" rel="noopener">Tuesday, 8 March</a> - Adobe&#039;s Regions Proposal, Grid Layout Proposal, Flexbox, <abbr title="Cascading Style Sheets">CSS</abbr> Multicol, Testing, Tokyo Workshop, Line Grid, Compositing, CSS2.1 Issues</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Mar/0306.html" title="http://lists.w3.org/Archives/Public/www-style/2011Mar/0306.html" rel="noopener">Wednesday, 9 March</a> - CSS2.1, Charter</li>
-</ul><h2 id="proposed-topics">Proposed topics</h2>
-<p>
-Topics for the <a href="http://www.w3.org/Style/Group/2011/MountainView" title="http://www.w3.org/Style/Group/2011/MountainView" rel="noopener">March 2011 CSS Working Group Face-to-Face</a> meeting in Mountain View, California.
-</p><h3 id="monday">Monday</h3>
-<ul>
-<li class="level1"><strong>9:15am-5:30pm</strong> <abbr title="Cascading Style Sheets">CSS</abbr> 2.1 <a href="http://wiki.csswg.org/spec/css2.1" title="http://wiki.csswg.org/spec/css2.1" rel="noopener">Remaining Issues</a></li>
-<li class="level1"><strong>5:30pm-6pm</strong> <abbr title="Cascading Style Sheets">CSS</abbr> 2.1 Remaining Blocked Tests</li>
-</ul><h3 id="tuesday">Tuesday</h3>
-<p>
-<strong>Morning</strong>
-</p>
-<ul>
-<li class="level1"><strong>9:15am-10:30am</strong> Adobe&#039;s <abbr title="Cascading Style Sheets">CSS</abbr> Regions Proposal – Arno Gourdol, Adobe</li>
-<li class="level1"><strong>10:30am-noon</strong> CSS3 Grid Alignment – Phil Cupp, Microsoft</li>
-</ul>
+- 2011 March 7-9
+- Mountain View, CA, USA
+- Organizer: Mozilla (David Baron)
 
-<p>
-<strong>Afternoon</strong>
-</p>
-<ul>
-<li class="level1"><strong>1:10pm</strong> Request for resolution to move Grid Spec from Editor Draft to Working draft</li>
-<li class="level1"><strong>1:15pm-2:00pm</strong> Flexbox  – Tab</li>
-<li class="level1"><strong>2:00pm-2:45pm</strong> [css3-multicol] Resolve pseudo-algorithm and test suite startup (20min) - Håkon</li>
-<li class="level1"><strong>3:00pm-3:40pm</strong> <a href="../../planning/tokyo-workshop-2011/" title="planning:tokyo-workshop-2011">Tokyo forum or workshop topics and dates</a> - Jay</li>
-<li class="level1"><strong>3:40pm-4:00pm</strong> CSS3 Line Grid (if time allows)</li>
-<li class="level1"><strong>4:!5pm-6:15pm</strong> CSS2.1 Issues</li>
-</ul><h3 id="wednesday">Wednesday</h3>
-<ul>
-<li class="level1"><strong>9:00am-11:00am</strong> [css3-fonts] font-specific feature definition - jdaggett</li>
-<li class="level1"><strong>11:15am-12:10pm</strong> [css3-fonts] revisions to the font matching algorithm - jdaggett</li>
-<li class="level1"><strong>12:10pm-12:20pm</strong> [css3-fonts] WOFF and same origin restriction - jdaggett</li>
-<li class="level1"><strong>1:00pm-2:00pm</strong> Q&amp;A with Mozilla</li>
-<li class="level1"><strong>2:00pm-3:00pm</strong> 2.1 last issues - assign responses, discuss next steps</li>
-<li class="level1"><strong>3:00pm-3:10pm</strong> Charter extension (current charter expires 3/31)</li>
-<li class="level1"><strong>3:10-6:30pm</strong> CSS3 Text - fantasai</li>
-<li class="level1">CSS3 Module Template <a href="http://dev.w3.org/csswg/css-module/" title="http://dev.w3.org/csswg/css-module/" rel="noopener">http://dev.w3.org/csswg/css-module/</a></li>
-<li class="level1">EPUB requirements (chairs should restrict to 1/2 hr or 1hr)</li>
-</ul><h2 id="notes">Notes</h2>
-<ul>
-<li class="level1">…</li>
-</ul>
-</main>
-</body>
-</html>
+## Meeting Minutes
+
+- [Monday, 7 March](http://lists.w3.org/Archives/Public/www-style/2011Mar/0258.html) - CSS2.1 Issues & Test Failures
+- [Tuesday, 8 March](http://lists.w3.org/Archives/Public/www-style/2011Mar/0272.html) - Adobe's Regions Proposal, Grid Layout Proposal, Flexbox, CSS Multicol, Testing, Tokyo Workshop, Line Grid, Compositing, CSS2.1 Issues
+- [Wednesday, 9 March](http://lists.w3.org/Archives/Public/www-style/2011Mar/0306.html) - CSS2.1, Charter
+
+## Proposed topics
+
+Topics for the [March 2011 CSS Working Group Face-to-Face](http://www.w3.org/Style/Group/2011/MountainView) meeting in Mountain View, California.
+
+### Monday
+
+- **9:15am-5:30pm** CSS 2.1 [Remaining Issues](http://wiki.csswg.org/spec/css2.1)
+- **5:30pm-6pm** CSS 2.1 Remaining Blocked Tests
+
+### Tuesday
+
+**Morning**
+
+- **9:15am-10:30am** Adobe's CSS Regions Proposal – Arno Gourdol, Adobe
+- **10:30am-noon** CSS3 Grid Alignment – Phil Cupp, Microsoft
+
+**Afternoon**
+
+- **1:10pm** Request for resolution to move Grid Spec from Editor Draft to Working draft
+- **1:15pm-2:00pm** Flexbox – Tab
+- **2:00pm-2:45pm** \[css3-multicol\] Resolve pseudo-algorithm and test suite startup (20min) - Håkon
+- **3:00pm-3:40pm** [Tokyo forum or workshop topics and dates](../../planning/tokyo-workshop-2011/ "planning:tokyo-workshop-2011") - Jay
+- **3:40pm-4:00pm** CSS3 Line Grid (if time allows)
+- **4:!5pm-6:15pm** CSS2.1 Issues
+
+### Wednesday
+
+- **9:00am-11:00am** \[css3-fonts\] font-specific feature definition - jdaggett
+- **11:15am-12:10pm** \[css3-fonts\] revisions to the font matching algorithm - jdaggett
+- **12:10pm-12:20pm** \[css3-fonts\] WOFF and same origin restriction - jdaggett
+- **1:00pm-2:00pm** Q&A with Mozilla
+- **2:00pm-3:00pm** 2.1 last issues - assign responses, discuss next steps
+- **3:00pm-3:10pm** Charter extension (current charter expires 3/31)
+- **3:10-6:30pm** CSS3 Text - fantasai
+- CSS3 Module Template <http://dev.w3.org/csswg/css-module/>
+- EPUB requirements (chairs should restrict to 1/2 hr or 1hr)
+
+## Notes
+
+- …

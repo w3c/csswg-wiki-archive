@@ -1,174 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>www-style Etiquette - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../tools/">tools</a> / www-style</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "www-style Etiquette"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#www-style-etiquette">www-style Etiquette</a><ul class="toc">
-<li class="level2"><a href="#start-subjects-with-bracketed-topicsspecs">Start Subjects with Bracketed Topics/Specs</a></li>
-<li class="level2"><a href="#interleave-replies-and-trim-quoted-text">Interleave Replies and Trim Quoted Text</a></li>
-<li class="level2"><a href="#don-t-reply-to-announcement-threads">Don&#039;t reply to announcement threads</a></li>
-<li class="level2"><a href="#change-the-subject-when-a-starting-new-discussion">Change the subject when a starting new discussion</a></li>
-<li class="level2"><a href="#use-standard-text-conventions-for-quotes-not-colors-or-name-tags">Use standard text conventions for quotes, not colors or name-tags</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# www-style Etiquette
 
-<h1 id="www-style-etiquette">www-style Etiquette</h1>
-<p>
-The <a href="http://lists.w3.org/Archives/Public/www-style/" title="http://lists.w3.org/Archives/Public/www-style/" rel="noopener">www-style mailing list</a> is the primary forum for discussing the development of <abbr title="Cascading Style Sheets">CSS</abbr>.
-</p>
+The [www-style mailing list](http://lists.w3.org/Archives/Public/www-style/) is the primary forum for discussing the development of CSS.
 
-<p>
-Note: This does not mean development <em>with</em> <abbr title="Cascading Style Sheets">CSS</abbr>; for help with using <abbr title="Cascading Style Sheets">CSS</abbr>, see <a href="http://www.css-discuss.org/" title="http://www.css-discuss.org/" rel="noopener">css-discuss</a> for that.
-</p><h2 id="start-subjects-with-bracketed-topicsspecs">Start Subjects with Bracketed Topics/Specs</h2>
-<p>
-When writing an email to www-style about a particular <abbr title="specification">spec</abbr>, please summarize the topic in the subject line and start the subject with the <abbr title="specification">spec</abbr> code in brackets, e.g.
-</p>
-<ul>
-<li class="level1">[css3-ui] text-overflow - what happens to overflow when you scroll</li>
-<li class="level1">[CSS21] overconstrained fixed table layouts underdefined</li>
-</ul>
+Note: This does not mean development *with* CSS; for help with using CSS, see [css-discuss](http://www.css-discuss.org/) for that.
 
-<p>
-The <abbr title="specification">spec</abbr> codes allow editors to more reliably track and address feedback on their specs, and help direct other interested people to the thread.
-</p><h2 id="interleave-replies-and-trim-quoted-text">Interleave Replies and Trim Quoted Text</h2>
-<p>
-Interleave or bottom-post replies, and trim quotations to quote only relevant parts. Previous discussion is always available in full in the <a href="http://lists.w3.org/Archives/Public/www-style/" title="http://lists.w3.org/Archives/Public/www-style/" rel="noopener">archive</a>.
-</p><h2 id="don-t-reply-to-announcement-threads">Don&#039;t reply to announcement threads</h2>
-<p>
-Occasionally a CSSWG member will post meeting minutes, a draft publication announcement, or a meeting agenda to the list. If you want to discuss one of the topics in the message, quote the relevant part and start a new thread with a new subject line. Only reply to the announcement thread if you&#039;re offering a correction or missing background info.
-</p>
+## Start Subjects with Bracketed Topics/Specs
 
-<p>
-Announcement threads should be marked with [CSSWG].
-</p><h2 id="change-the-subject-when-a-starting-new-discussion">Change the subject when a starting new discussion</h2>
-<p>
-A lot of emails get posted to www-style which can spark new / specific discussions in subthreads. When replying any such email and following-up on a specific aspect or subject, please start a *new* subject with the particular topic in brackets. This helps people notice the topic change.
-</p>
+When writing an email to www-style about a particular spec, please summarize the topic in the subject line and start the subject with the spec code in brackets, e.g.
 
-<p>
+- \[css3-ui\] text-overflow - what happens to overflow when you scroll
+- \[CSS21\] overconstrained fixed table layouts underdefined
+
+The spec codes allow editors to more reliably track and address feedback on their specs, and help direct other interested people to the thread.
+
+## Interleave Replies and Trim Quoted Text
+
+Interleave or bottom-post replies, and trim quotations to quote only relevant parts. Previous discussion is always available in full in the [archive](http://lists.w3.org/Archives/Public/www-style/).
+
+## Don't reply to announcement threads
+
+Occasionally a CSSWG member will post meeting minutes, a draft publication announcement, or a meeting agenda to the list. If you want to discuss one of the topics in the message, quote the relevant part and start a new thread with a new subject line. Only reply to the announcement thread if you're offering a correction or missing background info.
+
+Announcement threads should be marked with \[CSSWG\].
+
+## Change the subject when a starting new discussion
+
+A lot of emails get posted to www-style which can spark new / specific discussions in subthreads. When replying any such email and following-up on a specific aspect or subject, please start a \*new\* subject with the particular topic in brackets. This helps people notice the topic change.
+
 E.g. bad:
-</p>
-<ul>
-<li class="level1 node">RE: [CSSWG] Minutes Telecon 2012-02-29<ul>
-<li class="level2">when the actual message is about a technical issue in the Animations <abbr title="specification">spec</abbr></li>
-</ul>
-</li>
-</ul>
 
-<p>
+- RE: \[CSSWG\] Minutes Telecon 2012-02-29
+  - when the actual message is about a technical issue in the Animations spec
+
 better:
-</p>
-<ul>
-<li class="level1">animating vertical-align (RE: [CSSWG] Minutes Telecon 2012-02-29)</li>
-</ul>
 
-<p>
+- animating vertical-align (RE: \[CSSWG\] Minutes Telecon 2012-02-29)
+
 best:
-</p>
-<ul>
-<li class="level1">[css3-animations] animating vertical-align</li>
-</ul><h2 id="use-standard-text-conventions-for-quotes-not-colors-or-name-tags">Use standard text conventions for quotes, not colors or name-tags</h2>
-<p>
-Some mail clients like Outlook prefer to indicate quoted text simply by coloring it (often a dark blue).  This is extremely inaccessible - it&#039;s hard to read in the best of situations, and once it hits the mail archive, the color disappears entirely and renders the email unreadable.
-</p>
 
-<p>
+- \[css3-animations\] animating vertical-align
+
+## Use standard text conventions for quotes, not colors or name-tags
+
+Some mail clients like Outlook prefer to indicate quoted text simply by coloring it (often a dark blue). This is extremely inaccessible - it's hard to read in the best of situations, and once it hits the mail archive, the color disappears entirely and renders the email unreadable.
+
 Alternately, some people indicate quoting by simple interleaving, and tagging the passages from the quoted message with a short name tag, like:
-</p>
-<pre class="code">[AB] And then I said, rectum, I hardly knew &#039;im!
-I don&#039;t get the joke.</pre>
 
-<p>
+``` code
+[AB] And then I said, rectum, I hardly knew 'im!
+I don't get the joke.
+```
+
 This is often unclear in the best of situations, again, but as soon as someone quotes a second time, the quoting level is lost entirely, and the email becomes an unreadable mess.
-</p>
 
-<p>
-Prefer, instead, to quote using the standard text convention of prepending a “&gt;” character to lines that are quoted.  This is widely recognized as quoting, preserves nesting levels, and is maintained in the mail archives.  All mail clients can be configured to use this style of quoting - just look up instructions.
-</p>
+Prefer, instead, to quote using the standard text convention of prepending a “\>” character to lines that are quoted. This is widely recognized as quoting, preserves nesting levels, and is maintained in the mail archives. All mail clients can be configured to use this style of quoting - just look up instructions.
 
-<p>
-If you must, use a proper <code>&lt;blockquote&gt;</code> element in the markup - most email readers will convert that into textual quoting.
-</p>
-</main>
-</body>
-</html>
+If you must, use a proper `<blockquote>` element in the markup - most email readers will convert that into textual quoting.
