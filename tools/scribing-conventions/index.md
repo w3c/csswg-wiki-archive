@@ -1,0 +1,29 @@
+---
+title: "General IRC conventions"
+---
+
+# General IRC conventions
+
+- say `present+` (or `present+ ircNickHere`) at the start of the meeting to record your attendance.
+- `/me goes to look it up` comments are omitted from the record. Use it when you're saying something off-topic; **don't** use it when you're saying something that should be in the minutes.
+- `q+` puts you on the speaking queue. `qq+` puts you at the \*front\* of the queue. Saying `q+ to say XXX` will leave a reminder message of what you wanted to talk about, which'll be displayed when you're acknowledged in the queue. Saying `q+ anythingelse` will add someone named “anythingelse” to the queue.
+- `ack ircNickHere` drops the named person from the queue, showing their reminder message if set.
+- `q?` shows the current queue.
+- all of the `q+`, `q?`, and `ack` commands can be used with `/me` (for example `/me q+`) so that they're omitted from the minutes and the logs that github-bot posts to github issues
+
+# Scribing Conventions
+
+- Make sure Zakim, RRSAgent, and github-bot are all in the channel. Ping the chairs if they aren't. Zakim and RRSAgent can be invited to the channel with the `/invite` command; github-bot should be in the channel automatically.
+- If your meeting will cross midnight UTC, say `rrsagent, this meeting spans midnight`
+- If you want Zakim to stay for a long time (say, the entire day of a face-to-face), ask Zakim to remind you of something in X hours (e.g., `Zakim, remind us in 9 hours to go home`)
+- If you're scribing, use `ScribeNick: yourircnick` to tell the bot your messages should be read as scribing rather than comments.
+  - If there's more than one scribe at the same time, you can use `Scribe+ nickname`. But note that this lasts for the entire meeting, whereas a later `ScribeNick` overrides an earlier one.
+- Write all scribing comments as `speakersIRCnick: blah blah blah`. You should be able to rely on tab completion for names.
+- `github-bot, topic `[`https://github.com/.../issues/1234`](https://github.com/.../issues/1234) (or, preferably, `/me github-bot, topic `[`https://github.com/.../issues/1234`](https://github.com/.../issues/1234)) starts a new topic, and instructs the bot to fetch the issue title and use it as the topic. When another topic starts, it will post all the minutes as a comment to that issue. `github-bot, subtopic [url]` similarly works if you want a thematic break in the minutes.
+  - `Topic: Deciding on lunch` just starts a new topic, closing the old one.
+  - `github: `[`https://github.com/`](https://github.com/)`…` just changes the issue the current topic is associated with.
+  - `github-bot, end topic` (or, preferably, `/me github-bot, end topic`) just closes the current topic without opening a new one.
+- There are a few log-editing commands that are supported by [scribe.perl](https://github.com/w3c/scribe2), which the CSSWG generally doesn't use, but many other working groups use (via the [RRSAgent](https://www.w3.org/2002/03/RRSAgent) bot, which invokes it when generating minutes. They may eventually be supported by github-bot as well, but currently aren't (but members reading the minutes can still self-apply them, so it's useful to record):
+  - `s/foo/foo, but bar/` Perl syntax (or `s$$$` if you'd rather escape dollar signs than slashes) can be used to correct lines in the minutes. By default it makes the substitution in the most recent matching line; you can apply it globally with `s/typo'd name/correct name/g`.
+  - `i/search/addition/` can be used to add lines to the minutes. For example, if you missed a `ScribeNick` command, you can write `i/what about the text-combine-horizontal property/ScribeNick: heycam/` to add a `ScribeNick: heycam` line before the most recent line that contains `what about the text-combine-horizontal property`.
+- `RESOLVED: Apply X to Y` records a resolution for the current topic. (The all-caps is important.) These will get collected and displayed at the top of the topics by the minutes displayers.

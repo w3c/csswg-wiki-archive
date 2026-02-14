@@ -1,0 +1,15 @@
+---
+title: "Media Queries Level 4"
+---
+
+# Media Queries Level 4
+
+## Feature requests
+
+### high contrast mode
+
+Some platforms have a “high contrast mode” for accessibility. This mode should trigger another media query selector so that the author can provide high contrast styling accordingly.
+
+In short: we need a standard version of what IE is shipping as described here:
+
+<http://msdn.microsoft.com/en-us/library/windows/apps/hh465764%28v=vs.85%29.aspx>

@@ -1,0 +1,105 @@
+---
+title: "Mountain View F2F February 2024"
+---
+
+# Mountain View F2F February 2024
+
+- Host: Google
+- Location: [Google Building 2000](https://maps.app.goo.gl/bruTeKLJZ8uCfjDn7), 2000 Charleston Rd, Mountain View, CA 94043, USA
+- Park in the \*surface-level\* lot around the building (not the below-ground one), or use the [Alta Garage](https://maps.app.goo.gl/MCM6gY1oE6BwZW1LA) nearby
+- Weather Forecast: [⁰C](http://forecast.weather.gov/MapClick.php?smap=1&lat=37.425&lon=-122.095&unit=1&mp=1) or [⁰F](http://forecast.weather.gov/MapClick.php?smap=1&lat=37.425&lon=-122.095&unit=0&mp=1)
+- Dates: Monday 12 February - Wednesday 14 February, 2024
+- Times: 9am-5pm
+- Airports:
+  - SJC - San Jose Airport (20km drive, **closest**, be careful to use correct airport code)
+  - SFO - San Francisco Airport (37km drive, **major hub**)
+  - OAK - Oakland Airport (63km drive)
+- Pandemic protocol: same as previous recent meetings
+  - Masks required in meeting room/common spaces; can be removed only while actively eating/drinking.
+  - COVID testing before arrival, and daily before meetings.
+  - Outdoor dining encouraged, weather permitting (Feb might be cold and rainy, or perfectly fine)
+  - Wear a mask in all indoor public space 72 hours before Monday’s meeting
+  - Wear a mask during your entire travel journey (onboard a flight, train or federally-regulated vessel, as well as in airports and other points of entry) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt
+
+## Social activities
+
+\* If others are interested, dbaron can probably plan a birdwatching walk in the morning one day before the meeting starts. We're very near one of the best winter birdwatching spots in western North America. We can probably walk from [the end of San Antonio Road](https://maps.app.goo.gl/dfRUDbbSGYad7BCG6), assuming we have transportation to get there and back easily (meaning faster than the 20 minute walk between GWC5 and the trailhead, which would probably require too early a start to get back in time for the meeting).
+
+\* Group dinner at [Ludwig's Biergarten](https://maps.app.goo.gl/5hDrBW7KetmmULYx6) on Tuesday, at 6pm.
+
+\* Drinks and snacks social at end-of-day Wednesday, at the meeting room.
+
+## Agenda
+
+[Agenda project](https://github.com/w3c/csswg-drafts/projects/40)
+
+- [Agenda+ F2F](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22)
+- [Mixins & Functions](https://css.oddbird.net/sasslike/mixins-functions/)
+- [Anchor Positioning](https://drafts.csswg.org/css-anchor-position-1/) (Tuesday morning)
+  - [inset-area syntax](https://github.com/w3c/csswg-drafts/issues/9862)
+  - [position-try proposal](https://github.com/w3c/csswg-drafts/issues/9196#issuecomment-1912788896)
+    - [position-try-order - choosing the try order](https://github.com/w3c/csswg-drafts/issues/9047)
+    - [final try memory - default to historical position](https://github.com/w3c/csswg-drafts/issues/8200)
+    - [final try choices via \`position-try-final\`](https://github.com/w3c/csswg-drafts/issues/9380)
+  - [acceptable try properties](https://github.com/w3c/csswg-drafts/issues/9195#issuecomment-1934982421)
+  - [animation via position packaging](https://github.com/w3c/csswg-drafts/issues/9598#issuecomment-1836854109)
+  - [position-fallback-bounds vs position-container](https://github.com/w3c/csswg-drafts/issues/9868)
+  - [anchorpos and clipping](https://github.com/w3c/csswg-drafts/issues/7758#issuecomment-1912799837)
+  - [try option style cascade](https://github.com/w3c/csswg-drafts/issues/9149)
+  - [conditional styling - exploratory discussion](https://github.com/w3c/csswg-drafts/issues/8171)
+  - [choosing the anchor fragment](https://github.com/w3c/csswg-drafts/issues/8895)
+
+## Attendees
+
+### In-Person Participants
+
+| Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
+|----|----|----|----|----|----|
+| Alan Stearns | Sun | Thurs | Best Western |  |  |
+| Brad Kemper | Local | Local | Local |  | driving from Hayward |
+| Bramus | Sat 10, 20:55 (SFO) | Fri 16, 20:35 (SFO) | Bay View Suites | None |  |
+| David Baron | Sun 17:18 (SFO) | Fri 8:40 (SFO) | Hampton Inn and Suites Mountain View | no red meat | [UA1110](https://www.flightaware.com/live/flight/UAL1110) / [UA1954](https://www.flightaware.com/live/flight/UAL1954) |
+| Daniel Holbert | Local | Local | Local |  |  |
+| fantasai | TBD | TBD | TBD | gluten-free appreciated |  |
+| Florian Rivoal | 2024-02-10 14:48 (SJC) | 2024-02-15 10:10 (SJC) | TBD | omnivore | DL680 / ZG029 |
+| Ian Kilpatrick | Local | Local | Local | Shellfish |  |
+| Miriam Suzanne | Sun 5:30pm SJC | Thu 11:40am SJC | Hampton Inn & Suites Mountain View | vegetarian | WN 878 / WN 2305 |
+| Rachel Andrew | Sat 18:33 (SJC) | Fri 12:10 (SJC) | Aloft Mountain View | [my list](https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9) |  |
+| Vladimir Levin | TBD | TBD | TBD |  |  |
+| Khushal Sagar | Sun | Thurs | 100 Moffet, MTV | vegetarian |  |
+| Megan Gardner | Local | Local | Local |  |  |
+| ~~Cassondra Roberts~~ |  |  |  |  |  |
+| Emilio Cobos | TBD | TBD | TBD |  |  |
+| ~~Alison Maher~~ |  |  |  |  |  |
+| Kevin Babbitt | Sun 5:58pm SJC | Th 10:14am SJC | The Ameswell Hotel |  | AS 1158 / AS 1226 |
+| Oriol Brufau | Sat 12:00 SFO | Thu 14:05 SFO | TBD | Strong dislike of cheese and shellfish |  |
+| Matthieu Dubet | Sun 4PM SJC | Sun | TBD |  |  |
+| Brandon Stewart | TBD | TBD | TBD |  |  |
+| Tim Nguyen | TBD | TBD | TBD |  |  |
+| Frances Cornwall | TBD | TBD | TBD |  |  |
+| Jen Simmons | Sun before | long after | Yes | severe, to hard to describe | Airplanes, yes |
+| Nicole Sullivan | Monday | Thursday | TBD | None |  |
+| Chris Harrelson | Tuesday | Tuesday | None | None |  |
+
+### Virtual Participants
+
+Please list your availability in California time (morning/afternoon/all or specific time ranges). See [Time Converter](https://www.worldtimebuddy.com/?pl=1&lid=5391959,2988507,293397,2158177&h=5391959&date=7/18/2023%7C3&hf=1)
+
+| Name              | Timezone | PDT Availability | Other Notes      |
+|-------------------|----------|------------------|------------------|
+| Chris Lilley      | EST      | 7am-1pm          |                  |
+| François Remy     | CET      | Morning+         |                  |
+| Lea Verou         | EST      | 7am-1pm          |                  |
+| Noam Rosenthal    | GMT      | Morning          |                  |
+| ChangSeok Oh      | PDT      |                  |                  |
+| Stephen Chenney   | EST      | 7am-1pm          |                  |
+| Yehonatan Daniv   | PDT+10   | Morning          | Only Mon and Wed |
+| David Leininger   | CT       | 7am-3pm          |                  |
+| Cassondra Roberts | EST      | 7am-1pm          |                  |
+| Alison Maher      | PDT      | 9am-6pm          |                  |
+| Tess              | PST      | 10am–3pm ish     |                  |
+
+### Regrets
+
+| Name |
+|------|

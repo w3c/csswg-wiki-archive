@@ -1,0 +1,192 @@
+---
+title: "Tokyo F2F Apr 19-21 2017"
+---
+
+## Tokyo F2F Apr 19-21 2017
+
+- Host: BPS/Keio
+- Location: Mita Campus, Keio University(慶應義塾大学 三田キャンパス), Tokyo
+  - Room: 19th & 21st: East Research Building 6th Floor (No3 in [Campus map](https://www.keio.ac.jp/en/maps/mita.html)) [Room Info](http://mari.bpsinc.jp/~skk/tokyof2f/guide_6fd_select.pdf)
+  - Room: 20th: Faculty Research Building A and B room 1st Floor (No10 in [Campus map](https://www.keio.ac.jp/en/maps/mita.html))[Room Picture](http://mari.bpsinc.jp/~skk/tokyof2f/research_room.jpg)
+    - The room A and B are relatively small, so can be changed when more bigger room can be reserved.
+- Address: [2-15-45 Mita, Minato-ku, Tokyo 108-8345 Japan](https://www.google.co.jp/maps/place/%E6%85%B6%E6%87%89%E7%BE%A9%E5%A1%BE%E5%A4%A7%E5%AD%A6/@35.6489643,139.7429376,15z/data=!4m5!3m4!1s0x0:0x5df1bbe84d05a9d4!8m2!3d35.6489643!4d139.7429376)
+- Dates: Wednesday–Friday, Apr 19-21 2017
+- Doors will open from 8:30am. Meeting can run from 9:00am-6:00pm as required.
+
+### Minutes
+
+- [Wed 2017-04-19 Part I: Administrivia, UA-defined Variables, Animation Worklets](https://lists.w3.org/Archives/Public/www-style/2017May/0043.html)
+- [Wed 2017-04-19 Part II: Writing Modes PR, USVString, Baseline Alignment \[css-writing-modes-3\]\[cssom\]\[css-align\]](https://lists.w3.org/Archives/Public/www-style/2017May/0044.html)
+- [Wed 2017-04-19 Part III: Grid Layout / Subgrid, Fonts 3 & 4 \[css-grid-2\]\[css-fonts\]](https://lists.w3.org/Archives/Public/www-style/2017May/0045.html)
+- [Wed 2017-04-19 Part IV: Box Alignment, display:contents, Containment, Interpreting url()s \[css-align\]\[css-contain\]\[css-values\]\[css-masking\]](https://lists.w3.org/Archives/Public/www-style/2017May/0046.html)
+- [Thu 2017-04-20 Part I: Repeated Headers, Line Breaking, Line Height Calculations \[css-text\]\[css-inline\]\[css-rhythm\]](https://lists.w3.org/Archives/Public/www-style/2017May/0047.html)
+- [Thu 2017-04-20 Part II: Transforms \[css-transforms\]](https://lists.w3.org/Archives/Public/www-style/2017May/0048.html)
+- [Thu 2017-04-20 Part III: Multi-color Borders and Outlines \[css-backgrounds-4\]\[css-ui-4\]](https://lists.w3.org/Archives/Public/www-style/2017May/0049.html)
+- [Thu 2017-04-20 Part IV: Japanese Vertical Text Design Awards & Miscellaneous Commentary \[css-fonts\]\[css-rhythm\]](https://lists.w3.org/Archives/Public/www-style/2017May/0050.html)
+- [Fri 2017-04-21 Part I: CSS Images L3, Interpretation of url() \[css-images\]\[css-values\]](https://lists.w3.org/Archives/Public/www-style/2017May/0051.html)
+- [Fri 2017-04-21 Part II: Page Floats Redesign \[css-page-floats\]](https://lists.w3.org/Archives/Public/www-style/2017May/0052.html)
+- [Fri 2017-04-21 Part III: CSS-SVG Box Correspondences, CSS Color \[css-color\]\[css-transforms\]](https://lists.w3.org/Archives/Public/www-style/2017May/0053.html)
+- [Fri 2017-04-21 Part IV: F2Fs, Motion Path \[css-motion\]](https://lists.w3.org/Archives/Public/www-style/2017May/0054.html)
+- [Fri 2017-04-21 Part V: Containment, Scroll Anchoring, Line Height Calculations \[css-inline\]\[css-contain\]](https://lists.w3.org/Archives/Public/www-style/2017May/0055.html)
+
+### How to get there / Japan Info
+
+- <https://www.keio.ac.jp/en/maps/mita.html>
+- Cash/Credit Card
+  - Compared to Western countries, credit cards cannot be accepted in some shops/vending machines/etc. Please ensure you have some cash. Japanese Post Office has Western-Visa-compatible machines, but is only open business hours Mon-Fri. 7-11 ATMs (7 Bank) also generally support western cards.
+- Electricity
+  - Outlets in Japan are like the ones in the US in shape, and similar in voltage.
+
+### Adjacent meetings
+
+- 2017-04-18 [Houdini Meeting](https://github.com/w3c/css-houdini-drafts/wiki/Tokyo-F2F-April-18-2017)
+- 2017-04-23..25 AC meeting@Beijing, China
+
+### Group Dinner
+
+20th (more details soon)
+
+- The Place of Tokyo (<http://place-tokyo.com/>)
+- 15min walk from the venue.
+
+### Place
+
+- 2-15-45 Mita, Minato-ku, Tokyo 108-8345 Japan
+
+### Participants
+
+Please, put your name in this table if you plan to participate (alphabetical order):
+
+| Name | Arrival | Departure | Hotel | Flight info and notes | Dietary Restricions |
+|----|----|----|----|----|----|
+| Alan Stearns | 16 Apr | 27 Apr | AirBnB | Delta 167/166 |  |
+| Brian Birtles | N/A | N/A | HOME | N/A |  |
+| Chris Lilley | Apr 16, 16:00 | Apr 23, 18:10 |  | JL0007 / JL0008 | Low carb |
+| Dean Jackson |  |  |  | Private Jet |  |
+| Emil A Eklund | TBD | 27 Apr | Westin Tokyo | TBD / JL 2 to SFO |  |
+| fantasai | 14 Apr | 22 Apr | TBD |  |  |
+| Florian Rivoal | 19 Apr | 21 Apr | FLEXSTAY INN Shinagawa | Shinkansen |  |
+| Hiroshi Sakakibara | N/A | N/A | HOME | N/A |  |
+| Ian Kilpatrick | 12 Apr | 21 Apr | Prince Park Tower |  |  |
+| Jack Moffitt |  |  |  |  |  |
+| Jeff Xu | 16 Apr | 28 Apr | Airbnb | AC 5 / 6 |  |
+| Jet Villegas | TBD | TBD | TBD |  |  |
+| Jihye Hong | 19 Apr | 21 Apr | TBD |  |  |
+| John Daggett |  |  | local | Wed PM and Thurs |  |
+| L. David Baron | Apr 15, 20:50 | Apr 22, 17:20 | Villa Fontaine - Tamachi | ANA 854 from TSA / ANA 963 to PEK |  |
+| Lea Verou | Apr 16, 16:00 | Apr 23, 18:10 | TBD | JL0007 / JL0008 | Low carb |
+| Koji Ishii | N/A | N/A | HOME | N/A |  |
+| Myles C. Maxfield | TBD | TBD | TBD |  |  |
+| Peter Linss | 17 Apr | 2 May | AirBnB | NH468 / UA838 |  |
+| Philip Walton | 15 Apr | 22 Apr | Ritz Carlton |  |  |
+| Rachel Andrew | 2017-04-18 | 2017-04-24 | Celestine Hotel | AY0832 and JL0414 inbound, JL0421 and BA0234 out. | Pescatarian / vegetarian. Allergic to shellfish, eggplant |
+| Rick Byers | 16 Apr | 22 Apr | Westin | AA 175 / AA 8405 |  |
+| Rob Flack | 16 Apr | 22 Apr | Westin | AA 175 / AA 8405 |  |
+| Rossen Atanassov | 17 Apr | 22 Apr | TBD | [Teleportation](http://farm3.static.flickr.com/2469/3643767261_c734af04ce_o.jpg) | Pescatarian (vegetarian is good as well) |
+| Shane Stephens | 18 Apr | 28 Apr | Ritz Carlton | QF 25 / QF 26 |  |
+| Shinyu Murakami | N/A | N/A | HOME | N/A | Pescatarian (vegetarian is good as well) |
+| Simon Fraser | 17 Apr | 21 Apr |  |  |  |
+| Simon Sapin | TBD | TBD | TBD |  |  |
+| Surma “Surma” Surma |  |  |  |  |  |
+| Tab Atkins | 17 Apr | 22 Apr | Prince Park Tower | JL1 / JL2 |  |
+| Tantek Çelik | 2017-04-18 | 2017-04-21 | APA Hotel Mita | UA 837 / UA 838 | Pescetarian |
+| Toru Kawakubo | N/A | N/A | home | Will come on Thursday, may come on other days but would prefer not to. |  |
+| Till Schneidereit |  |  |  |  |  |
+| Yuzu Saijo | N/A | N/A | Home | N/A |  |
+| Vladimir Levantovsky | 2017-04-17 | 2017-04-22 | TBD | NH880 into Haneda from Sydney, UA882 out of Narita |  |
+
+### Regrets
+
+- Dave Cramer
+- Benjamin De Cock
+- Melanie Richards
+- Simon Pieters
+- Bert Bos
+
+### Topics
+
+#### Wednesday
+
+##### Morning
+
+- Resolve on dates for the first meeting of 2018 in Sydney
+  - January 22 - January 25
+  - January 29 - February 1
+  - February 5 - February 9
+- Conditional Rules - resolve discrepancies with CSSOM
+- UA-defined variables - smfr/dino
+- [CanIUse panels in specs](https://github.com/w3c/csswg-drafts/issues/1219)
+- CSS Writing Modes Level 3 [implementation report](https://drafts.csswg.org/css-writing-modes-3/implementation-report.html), [DoC update](https://drafts.csswg.org/css-writing-modes-3/issues-cr-2015), and the last open issue:
+  - [Criteria to blockify the writing mode roots](https://github.com/w3c/csswg-drafts/issues/1212)
+- [Consider USVString instead of DOMString in CSSOM, replacing surrogates with U+FFFD](https://github.com/w3c/csswg-drafts/issues/1217)
+- [Last Baseline Alignment of Scrollable Boxes](https://github.com/w3c/csswg-drafts/issues/766)
+
+##### Afternoon
+
+- (possible breakout for reconciling web animations and animation worklets)
+- Subgrid - call for a breakout session to try and define a more complete and implementable model [Some use cases and links to subgrid discussion](https://4075834c10a34498ade2a927666cc81a.codepen.website)
+- Fonts
+  - Tests for Fonts3 ([ChrisL tests](https://www.w3.org/People/chris/fwf/))
+  - [OM issues](https://github.com/w3c/csswg-drafts/issues/825)
+  - min/max-font-size & computed value implications (font-relative units on self and other properties)
+  - FPWD for [Fonts 4](https://drafts.csswg.org/css-fonts-4/)
+  - Status of [CSS Font Load Events (edited Monday!)](https://drafts.csswg.org/css-font-loading/)
+  - [\[css-fonts\] font-language-override property and descriptor](https://lists.w3.org/Archives/Public/www-style/2017Feb/0028.html)
+- [partial implementations of space-evenly in grid but not flexbox](https://github.com/w3c/csswg-drafts/issues/1167)
+- CSS Display - finish dealing with form controls etc. and get this to CR
+- Box Alignment - resolve open issues, prep for CR? (approx 1hr)
+- \[Selectors\] propagation of the :focus pseudo <https://github.com/w3c/csswg-drafts/issues/1240> (Florian)
+- css-contain open issues: <https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-contain-1> (Florian)
+
+#### Thursday
+
+##### Morning
+
+- Track 1
+  - Transforms 1 issues (breakout session)
+- Track 2
+  - css-text-3
+    - Adding `word-break: break-word` (issue 94)
+    - word-break: break-all doesn't break before sentence-ending punctuation if UAX \#14 is used <https://github.com/w3c/csswg-drafts/issues/1171> (Florian)
+  - Rhythm issues
+    - <https://github.com/w3c/csswg-drafts/issues/938>
+  - Proposed new spec: Repeated Headers and Footers <https://specs.rivoal.net/css-repeat/> (Florian)
+- [Two different colours for a "double" style outline](https://github.com/w3c/csswg-drafts/issues/1172)
+
+##### Afternoon
+
+- Tate-Yoko Award Report
+  - (Will be uploaded slides)
+- JP Industry Meetup 2nd
+  - Introduction slides: <http://mari.bpsinc.jp/~skk/tokyof2f/intro_all.pptx>
+  - Issue lists: <http://mari.bpsinc.jp/~skk/tokyof2f/issue_list.xlsx>
+  - Conclusion Slides: <http://mari.bpsinc.jp/~skk/tokyof2f/Conclusion.ppt>
+
+#### Friday
+
+##### Morning
+
+- Update on URL discussion (part of images)
+- Images 3 issues - leaverou (Friday)
+- breakout remainder
+  - Page floats (Florian):
+    - <https://github.com/w3c/csswg-drafts/issues/1236>
+    - <https://github.com/w3c/csswg-drafts/issues/1235>
+    - <https://github.com/w3c/csswg-drafts/issues/1233>
+    - <https://github.com/w3c/csswg-drafts/issues/1234>
+    - <https://github.com/w3c/csswg-drafts/issues/1237>
+    - <https://github.com/w3c/csswg-drafts/issues/1239>
+- Main room
+  - SVG and CSS boxes and all of their relations
+  - Some [open issues on Color Level 4](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22Agenda%2B+F2F%22+label%3Acss-color-4) - dino
+
+##### Afternoon
+
+- Confirm 2018 f2f plan
+- Motion path issues - particularly 51, 69, 73, 78 - shans
+- Focus of custom textbox-like elements - shans
+- Last css-contain issue and CR? <http://www.w3.org/mid/55BA836C.6060404@mozilla.com>
+- Scroll Linked Animations - could we review the current status of the spec? (shans but birtles should do the review)
+- Go through TAG review of [Scroll anchoring opt out / exclusion API (overflow-anchor)](https://github.com/w3c/csswg-drafts/issues/676)
+- [Test computed styles from user agent stylesheet?](https://github.com/w3c/web-platform-tests/issues/5625)
+- line-height: normal (<https://github.com/w3c/csswg-drafts/issues/1254>)

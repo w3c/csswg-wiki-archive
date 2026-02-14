@@ -1,0 +1,42 @@
+---
+title: "Oslo F2F August 2010"
+---
+
+# Oslo F2F August 2010
+
+- 2010 August 23-25
+- Oslo, Norway
+- Organizer: Opera (Håkon Wium Lie)
+
+## Meeting Minutes
+
+- [Monday, 23 August](http://lists.w3.org/Archives/Public/www-style/2010Sep/0001.html)- CSS2.1 Issues and Test Suite, CSSWG Charter, Viewport Meta and CSS Syntax
+- [Tuesday, 24 August](http://lists.w3.org/Archives/Public/www-style/2010Sep/0002.html)- CSS3 Generated Content for Paged Media, Hit Testing, Styling Attributes, Media Queries, Snapshot 2010, Selector Serialization, Flexbox, Multi-Column Layout, box-shadow, Future F2F Schedule
+- [Wednesday, 25 August](http://lists.w3.org/Archives/Public/www-style/2010Sep/0003.html)- Testing and PR, Fonts, Writing Modes, \#rrggbbaa, CSS3 UI and UI Selectors, i18n: list-styles and Indic layout, CSS Template Layout, Values and Units and calc()
+
+## Proposed topics
+
+Topics for the August 2010 CSS Working Group Face-to-Face meeting in Oslo, Norway.
+
+- Review Vendor Prefix policy - what happens when CR reverts to WD. Vendors' submission responsbilities when a vendor-specific feature is very widely used.
+- Define ::selection
+- CSS3 Text Layout - discuss vertical text support, physical vs. logical properties, impact on HTML, other CSS3 modules (2 hours) <http://nadita.com/murakami/epub-css/>
+- Font feature support in CSS3 Fonts (2 hours)
+- CSS 2.1 Test Suite - current status, remaining issues (1 hour)
+- CSS 2.1 LC-to-REC schedule/planning
+- Charter update (1 hour)
+- CSS 2.1 Issues and Status (1 day)
+- box-shadow blur definition
+- CSS Viewport (incl. \<meta name=viewport\>) - <http://people.opera.com/rune/TR/ED-css-viewport-20100806/>
+- Discuss Media Queries Test Suite. <http://lists.w3.org/Archives/Public/www-style/2010Jul/0448.html>
+- [Hit testing](../../ideas/pointer-events/ "ideas:pointer-events") <http://lists.w3.org/Archives/Public/www-style/2010Aug/0407.html>
+- GCPM – ready for CR? – should hyphenation properties go elsewhere? <http://www.w3.org/TR/css3-gcpm/#hyphenation> (1 hour)
+- Publishing css-style-attr as CR
+- box-shadow issues
+- Template Layout
+- CSS3 Multicol layout: should column rules be clipped? Should 'none', 'hidden', 'inset' and 'outset' be removed from list of column rule styles? How many implementations do we have?
+- Wed 3PM: coffee break and 1-hour panel on CSS3
+
+# Notes
+
+- Anne will not be there on Monday. (Only post-5PM most likely.) Wonder if CSS 2.1 issues can be done on Monday?

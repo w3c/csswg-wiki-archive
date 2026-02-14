@@ -218,11 +218,15 @@ def make_breadcrumb(page_path, home_path):
 
 def fix_internal_links(content, home_path):
     """Convert absolute wiki links to relative paths."""
-    # Fix internal wiki links: /page/ -> {home_path}page/
+    # Fix internal wiki links: /page -> {home_path}page/
     def fix_link(m):
         path = m.group(1)
-        return f'href="{home_path}{path}'
-    content = re.sub(r'href="/([a-z])', fix_link, content)
+        query = m.group(2) or ""
+        fragment = m.group(3) or ""
+        if not path.endswith("/"):
+            path += "/"
+        return f'href="{home_path}{path}{query}{fragment}"'
+    content = re.sub(r'href="/([a-z][^"#?]*)(\?[^"#]*)?(#[^"]*)?"', fix_link, content)
     return content
 
 

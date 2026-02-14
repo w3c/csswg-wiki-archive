@@ -1,0 +1,125 @@
+---
+title: "Define \"formatting context\" and fix 'Applies to' line of 'overflow' property"
+---
+
+# Define "formatting context" and fix 'Applies to' line of 'overflow' property
+
+**Spec:** css21, css3-flexbox | **Owner:** fantasai, antonp, TabAtkins | **Status:** Resolved | **Added:** 2012-05-15 | **Action:** React to CfC - http://lists.w3.org/Archives/Public/www-style/2012Jul/0342.html | **Issue:** [https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381](https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381) | **Proposal:** [http://lists.w3.org/Archives/Public/www-style/2012May/0494.html](http://lists.w3.org/Archives/Public/www-style/2012May/0494.html)
+
+#### Problem Statement
+
+The `overflow` property says it only applies to block containers, but it should also apply to tables and flex containers.
+
+#### Related Problems
+
+For non-root elements whose position is 'relative' or 'static', the containing block is defined to be formed by the content edge of the nearest block container ancestor box \[or table box\], but it should be formed by other types of layout container for certain elements in other layout schemes (for example by the flexbox for flexbox items).
+
+Note that the issue of other layout schemes needing such adjustments to `overflow` and the containing block hierarchy already exists within CSS21 itself:
+
+- Bug 15381 - Incorrect “Applies To” line for 'overflow' property (Error in resolution for Issue 120) - <https://www.w3.org/Bugs/Public/show_bug.cgi?id=15381>
+- Bug 15686 - Containing block for internal tables elements should be table not table wrapper (Error in resolution for Issue 120) - <https://www.w3.org/Bugs/Public/show_bug.cgi?id=15686>
+
+Both these issues arose through an oversight when introducing the terms “block container” etc, namely that table boxes were overlooked. This illustrates the special-casing that spec editors must remember to perform in individual layout specs if the problem is not solved more generally.
+
+#### Approach
+
+- Define the concept of a “formatting context”. (Alternative possibility: redefine “block formatting context” to not only apply to blocks. See Bug 17121 - Desire to introduce the concept of a “formatting context” for forwards compatibility - <https://www.w3.org/Bugs/Public/show_bug.cgi?id=17121> )
+- Change the definition of `overflow`
+- Change the containing block hierarchy (optional addition to proposal)
+
+#### Proposal
+
+##### Formatting context
+
+In 9.4 (Normal flow), replace:
+
+``` code
+ # Boxes in the normal flow belong to a formatting context, which may
+ # be block or inline, but not both simultaneously. Block-level boxes
+ # participate in a block formatting context. Inline-level boxes
+ # participate in an inline formatting context.
+```
+
+with:
+
+``` code
+ | Boxes in the normal flow belong to a formatting context, which in
+ | CSS21 may be block, inline or table. In future levels of CSS, other
+ | types of formatting context will be introduced. Block-level boxes
+ | participate in a block formatting context. Inline-level boxes
+ | participate in an inline formatting context. Table formatting
+ | contexts are described in the chapter on _tables_.
+```
+
+In 17.4 (Tables in the visual formatting model), replace:
+
+``` code
+ # [...] The table wrapper box establishes a block formatting context.
+ # [...]
+```
+
+with:
+
+``` code
+ | [...] The table wrapper box establishes a block formatting context,
+ | and the table box establishes a table formatting context. [...]
+```
+
+In 17.5 (Visual layout of table contents), replace:
+
+``` code
+ # Internal table elements generate rectangular boxes with content and
+ # borders. Cells have padding as well. Internal table elements do not
+ # have margins.
+```
+
+with:
+
+``` code
+ | Internal table elements generate rectangular boxes which
+ | participate in the table formatting context established by the
+ | table box. These boxes have content and borders, and cells have
+ | padding as well. Internal table elements do not have margins.
+```
+
+##### ''overflow''
+
+In 11.1.1 (Overflow), replace:
+
+``` code
+ # Applies to: block containers
+```
+
+with:
+
+``` code
+ | Applies to: block containers and boxes that establish a formatting context
+```
+
+##### Containing block hierarchy (optional addition to proposal)
+
+(This has neither been reviewed nor discussed on the public mailing list.)
+
+In 10.1 (Definition of “containing block”), replace:
+
+``` code
+ # 2. For other elements, if the element's position is 'relative' or
+ #    'static', the containing block is formed by the content edge of
+ #    the nearest block container ancestor box. 
+```
+
+with:
+
+``` code
+ | 2. For other elements, if the element's position is 'relative' or
+ |    'static', the containing block is formed by the content edge of
+ |    the nearest ancestor box that is a block container or which
+ |    establishes a formatting context.
+```
+
+#### Links to More Info
+
+1.  Thread start: <http://lists.w3.org/Archives/Public/www-style/2012May/0438.html>
+2.  Bug 17122 - “Applies To” line for 'overflow' property hinders forwards-compatibility - <https://www.w3.org/Bugs/Public/show_bug.cgi?id=17122>
+3.  Resolution: <http://lists.w3.org/Archives/Public/www-style/2012Jun/0475.html> , <http://lists.w3.org/Archives/Public/www-style/2012Jun/0656.html>
+4.  Call for Censensus on additional clarifying text: <http://lists.w3.org/Archives/Public/www-style/2012Jul/0342.html>

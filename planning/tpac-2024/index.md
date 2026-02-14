@@ -1,0 +1,102 @@
+---
+title: "CSSWG meeting at TPAC 2024"
+---
+
+# CSSWG meeting at TPAC 2024
+
+[TPAC 2024](https://www.w3.org/2024/09/TPAC/) is scheduled for **23-27 September 2024** in Anaheim, California, United States with options for both in-person and remote participation.
+
+- CSSWG F2F: **Thursday-Friday, 26-27 September 09:00-18:00**.
+- ~~Monday 23 Sep, 09:00 - 10:30, joint meeting with Immersive Web WG~~ (canceled)
+- Monday 23 Sep, 14:00 - 16:00, joint meeting with WHATWG
+- Monday 23 Sep, 16:30 - 18:00, joint meeting with Accessible Platform Architectures WG
+- Tuesday 24 Sep, 09:30 – 12:30, Styleable form controls (CSS, WHATWG, OpenUI)
+- Tuesday 24 Sep, 16:30 - 18:00, joint meeting with Internationalization WG
+
+<!-- -->
+
+- Weather Forecast: [⁰C](https://forecast.weather.gov/MapClick.php?smap=1&lat=33.801&lon=-117.918&unit=1&mp=1) or [⁰F](https://forecast.weather.gov/MapClick.php?smap=1&lat=33.801&lon=-117.918&unit=0&mp=1)
+
+## Covid Protocols
+
+([resolved](https://log.csswg.org/irc.w3.org/css/2024-07-24/#e1636894) on July 24)
+
+- Masks required in the meeting room Thursday and Friday, can be removed only while actively eating/drinking
+- COVID testing before arrival, and daily before meetings
+- Outdoor dining encouraged, weather permitting
+- Strong recommendation to wear a mask during your entire travel journey (onboard a flight, train or federally-regulated vessel, as well as in airports and other points of entry) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt
+
+## Agenda
+
+<https://github.com/orgs/w3c/projects/122/views/1?layout=board>
+
+## Participants
+
+### In-Person
+
+**Please note that signing up here is not enough; you must [register](https://www.w3.org/2024/09/TPAC/registration.html) for TPAC itself (see [registrants list](https://www.w3.org/register/tpac2024/registrants#meeting-290)).**
+
+Also see the TPAC-wide [Meeting Taxis](https://www.w3.org/wiki/MeetingTaxis) wiki.
+
+(sorted by first name)
+
+|  |  |  |  |  |
+|----|----|----|----|----|
+| **Name** | **Affiliation** | **Dates** | **Accomodation** | **Other** |
+| Alan Stearns | Adobe |  |  |  |
+| Alison Maher | Microsoft | All | Sheraton Park |  |
+| Andreu Botella | Igalia | All |  |  |
+| Brian Kardell | Igalia | tbd |  |  |
+| Chris Lilley | W3C | All | Hilton |  |
+| David Baron | Google | All | ? | arrive LAX Sun 15:18, depart LAX Fri 21:30 |
+| Emilio Cobos | Mozilla |  |  |  |
+| Eric Meyer | Igalia |  |  |  |
+| fantasai | Apple | All | Venue |  |
+| Florian Rivoal | Invited Expert | All | Clarion Hotel Anaheim Resort |  |
+| Keith Cirkel | Microsoft |  |  |  |
+| Kevin Babbitt | Microsoft | All | Sheraton Park |  |
+| Lea Verou | IE | All | Hilton |  |
+| Matthieu Dubet | Apple | Thur - Fri | Venue |  |
+| Munira Tursunova | Google |  |  |  |
+| Noam Rosenthal | Google | All |  |  |
+| Rachel Andrew | Google | All | Venue |  |
+| Rob Flack | Google | All |  |  |
+| Rossen Atanassov | Microsoft | Fri |  |  |
+| Sammy Gill | Apple | Thur - Fri | Venue |  |
+| Tab Atkins-Bittner | Google | All | Hilton Embassy Suites | arrive SNA Sun 10:34, depart SNA Saturday 13:15 |
+| Tantek Çelik | Mozilla | All |  | [@tantek.com@tantek.com](https://tantek.com/) |
+| Tim Nguyen | Apple | All |  |  |
+| Yehonatan Daniv | Wix | All | Venue |  |
+| Chris Harrelson | Google | All | Venue |  |
+| Vladimir Levin | Google | All | Venue |  |
+| Jennifer Strickland | MITRE | All | Venue |  |
+| Miriam Suzanne | Invited Expert | All | Venue |  |
+| Penelope McLachlan | Google | Tue - Fri | Sheraton Park |  |
+| Mason Freed | Google | Mon-Wed (in person) Thu - Fri (virtual) | Residence Inn |  |
+| Oriol Brufau | Igalia | All |  |  |
+| Khushal Sagar | Google | All | Sheraton Park |  |
+| Sanket Joshi | Microsoft | All |  |  |
+| Brandon Stewart | Apple | Wed - Fri |  |  |
+
+### Remote
+
+|  |  |  |  |  |
+|----|----|----|----|----|
+| **Name** | **Affiliation** | **Timezone** | **PDT (UTC-7) Availability** | **Other Notes** |
+| Rune Lillesveen | Google | CET | Before lunch |  |
+| Daniel Holbert | Mozilla | PDT | 9am-1pm, 2:30pm-5pm |  |
+| Bramus | Google | CET | Before lunch |  |
+| David Leininger | NY Times | CDT | Before lunch |  |
+| Roman Komarov | DataDog | CET | Before lunch |  |
+| Cassondra Roberts | Adobe | EST | Flexible |  |
+
+### Regrets
+
+|              |                 |
+|--------------|-----------------|
+| **Name**     | **Affiliation** |
+| David Grogan | Google          |
+
+### CSSWG TPAC Registrant List
+
+[CSSWG registrants list](https://www.w3.org/register/tpac2024/registrants#meeting-290)

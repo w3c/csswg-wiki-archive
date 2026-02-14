@@ -1,0 +1,38 @@
+---
+title: "Styling Placeholders"
+---
+
+# Styling Placeholders
+
+[CSS4 UI](../../spec/css4-ui/ "spec:css4-ui") is exploring new [UI related selectors](../../spec/css4-ui/#more-selectors "spec:css4-ui"), such as a :placeholder psuedo-class (or ::placeholder pseudo-element).
+
+The overarching issue is whether to use a pseudoclass or pseudo-element. A sub-issue here is how to style the placeholder text; different methods bias us toward resolving the main issue in different ways.
+
+If we add a pseudoclass, it represents an input element in the state of showing its placeholder. Using a pseudoclass is generally more powerful, as it lets you style the input in useful ways, such as adding a border to all placeholder-showing inputs.
+
+If we add a pseudo-element, it represents an inline element \*inside of\* the input, wrapping the placeholder text. This is more powerful in a narrow way, as it lets you apply some properties to the text without having them apply to the input as a whole, such as opacity.
+
+Here are the options that we've come up with so far:
+
+1.  Add nothing new, use a :placeholder pseudoclass. Specify that UA styles for placeholders are roughly “input:placeholder { color: \#999; }”.
+2.  Add nothing new, use a ::placeholder pseudo-element. Specify that UA styles for placeholders are roughly “input::placeholder { opacity: .5; }”.
+3.  Add a :placeholder pseudoclass, and revive the ::value pseudo-element that once existed in CSS3 UI. Specify that UA styles for placeholders are roughly “input:placeholder::value { opacity: .5; }”.
+4.  Add a new 'color-opacity' or 'foreground-opacity' property, use a :placeholder pseudoclass. Specify that UA styles for placeholders are roughly “input:placeholder { foreground-opacity: .5; }”.
+5.  Adopt SVG's fill/fill-opacity/stroke/stroke-opacity properties, specifying that they only apply to text, and use a :placeholder pseudoclass. Specify that UA styles for placeholders are roughly “input:placeholder { fill-opacity: .5; }”.
+6.  Have both pseudo-element and pseudo-class, since there are uses for styling the input element in that state \*and\* styling the placeholder text. Placeholder names: :unedited and ::suggestion
+
+## Tab's Opinions
+
+I think that \#1 is bad. It requires the author to remember to change \*two\* 'color' properties whenever they change the 'background-color' of an input. dbaron states that FF's experience is that authors generally don't, which matches my intuition.
+
+I agree with Sylvain that \#2 isn't great either - adding a pseudo-element to solve such a specific problem feels like overkill, and it doesn't allow some reasonable stylings that we think authors will want to use.
+
+\#3 is a better variant of \#2, as it gets us the best of both worlds. However, nobody's cared much about ::value so far. On the other hand, two browsers \*already have\* ::placeholder, so switching the code over to just always wrap the displayed value in a ::value (rather than only sometimes, when it's a placeholder, wrapping it) probably isn't hard.
+
+However, I prefer \#4 and \#5 the best, as they're nice generative solutions that would additionally fulfill some long-standing dev requests. (Accidentally solving other problems beyond your own is a great property for any solution to have. 😊) \#5 is my favorite, as lots of people have asked for the ability to stroke text, and fill it with something other than flat colors (and WebKit already has prefixed properties that allow this). It also pulls some existing SVG properties into CSS proper, which is always nice when it happens as it reduces duplication across technologies.
+
+So, I recommend we adopt \#5. We can look to WebKit's existing properties for guidance in figuring out the fiddly details (like sizing/positioning of images used for fill/stroke). The properties will probably go in Text Decoration, but we can figure out exactly where to put them later.
+
+## On \#6 versus \#3
+
+Option 6 (best of both worlds, new names) is preferable to 3 in that the pseudo-class name better represents the element state, and a specific pseudo-element for the suggested text is more clear than styling a 'placeholder value' which is never properly a value of the input element. Perhaps, given the 'placeholder' attribute in the HTML spec (referring to the suggested text, not the input element state) the pseudo-element should be named ::placeholder and the pseudo-class named :blank or :unedited

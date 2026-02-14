@@ -1,0 +1,90 @@
+---
+title: "Japan F2F June 2011"
+---
+
+# Japan F2F June 2011
+
+- 2011 June 2-4
+- [Kyoto Research Park](http://www.krp.co.jp/english/), Kyoto, Japan
+
+## Meeting Minutes
+
+- [Thursday, 2 June](http://lists.w3.org/Archives/Public/www-style/2011Jun/0323.html) - Kyoto Forum Issues, Line Grid, Writing Modes
+- [Friday, 3 June](http://lists.w3.org/Archives/Public/www-style/2011Jun/0325.html) - Transitions, Ideographic Variants, Text, Charter, Floats, Regions
+- [Saturday, 4 June](http://lists.w3.org/Archives/Public/www-style/2011Jun/0329.html) - Fonts, Flexbox, Regions, Device Adaptation, Variables and Mixins, CSS3 Conditional Rules, Selectors 4, text-overflow, gradients, Module Template, Test Suite Owners, Charter, F2F Scheduling
+
+## Proposed topics
+
+Topics for the [June 2011 CSS Working Group Face-to-Face](http://www.w3.org/Style/Group/2011/Kyoto_f2f.htm) meeting in Japan.
+
+### Thurs AM
+
+- From Tokyo/[Kyoto Japan forum](http://www.w3.org/Style/Japan-2011/Kyoto.htm) (5/30, 6/1)
+- [Line Grid proposal](http://dev.w3.org/csswg/css-line-grid/)
+
+### Thurs PM
+
+- [Line Grid proposal](http://dev.w3.org/csswg/css-line-grid/) (cont'd)
+- CSS3 Writing Modes (all open issues)
+
+### Fri AM
+
+- Transitions/Animations 4 (directions for future)
+- Unifying variant glyphs across IVS collections
+- CSS3 Text (all open issues)
+
+### Fri PM
+
+- CSS3 Text (all open issues, cont'd)
+- [Draft charter:](http://www.w3.org/2010/09/CSSWG/charter.html) some details
+- CSS Regions and CSS Exclusions
+  - region styling
+  - breaking properties
+  - exclusion model
+  - moving from Editor Draft to Working Draft.
+
+### Sat AM
+
+- CSS3 Fonts (same origin restriction and WOFF, superscript/subscript)
+- Flexbox status update
+- CSS Regions (cont'd)
+
+### Sat PM
+
+- F2F Scheduling
+- [CSS Device Adaptation](http://dev.w3.org/csswg/css-device-adapt)
+- Variables and Mixins
+- @supports
+- Nesting/Hierarchy (nesting selectors)
+- Selectors 4 (roughly, what do we want to include/exclude?)
+- Dropping prefixes
+- text-overflow (\<string\>, 2 values)
+- CSS Regions integration with other modules
+
+<!-- -->
+
+- Gradient angles
+- Multicol Test Suite
+
+# Participants
+
+- Please [register](http://www.w3.org/2002/09/wbs/32061/css-ftf-2011-06/) if you haven't done yet.
+
+| Name | Representing | Arrive | Leave | Hotel | Flight Info |
+|----|----|----|----|----|----|
+| Tab Atkins | Google | ?? | ?? | ?? | ?? |
+| David Baron | Mozilla | 29 May 15:15 | 5 June 17:10 | Aranvert Hotel Kyoto | UA 885 / UA 886 |
+| Bert Bos | W3C | 31 May 15:00 | 5 Jun 09:50 | Kyoto Tokyu Hotel | NH 172 / LH 741 |
+| John Daggett | Mozilla | 31 May 18:00 | 4 June 19:00 | Kazariya | train |
+| Elika Etemad | Invited Expert | 31 May 19:30 | train TBD | Heianbo / APA Eki-Horikawadori | ?? |
+| Sylvain Galineau | Microsoft | 31 May 16:00 | 5 June 17:35 | Hotel Granvia Kyoto | DL 183 / DL 182 |
+| Arno Gourdol | Adobe | ?? | ?? | ?? | ?? |
+| Masayuki Ihara | NTT | ?? | ?? | ?? | ?? |
+| Koji Ishii | Invited Expert | 31 May | 5 June | APA Horikawadori | train |
+| John Jansen | Microsoft | ?? | ?? | ?? | ?? |
+| Vincent Hardy | Adobe | 30 May 15:15pm | 5 June 17:10 | Kyoto Tokyu Hotel | UA 885 / UA 886 |
+| Peter Linss | HP | 26 May 15:15 | 7 June 17:10 | Rihga Royal Hotel Kyoto | UA 885 / UA 886 |
+| Alex Mogilevsky | Microsoft | 30 May 16:00 | 5 June 17:35 | Hotel Granvia Kyoto | DL 183 / DL 182 |
+| Shinyu Murakami | Antenna House | ?? | ?? | ?? | ?? |
+| Edward O'Connor | Apple | 29 May 15:15 | 5 June 17:10 | Hotel Granvia Kyoto | UA 885 / UA 886 |
+| Kazutaka Yamamoto | NTT | ?? | ?? | ?? | ?? |

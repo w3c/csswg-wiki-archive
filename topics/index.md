@@ -1,0 +1,51 @@
+---
+title: "Topics for WG Discussion"
+---
+
+# Topics for WG Discussion
+
+- To add a new topic create a new page under the `/topics` heading.
+  1.  Append `/my-new-topic` to the URL of this page and navigate there.
+  2.  Click “Create this page”.
+  3.  Edit the source template and save.
+- To find topics, use the tag clouds above the table to filter and/or click table headings to sort.
+- When you close a topic, make sure all the relevant info has been archived on www-style, Tracker, or Bugzilla.
+
+### Open Topics
+
+- [css3-align](../topics/?dataflt%5B0%5D=spec_%3Dcss3-align "Show pages matching 'css3-align'")
+- [css3-flexbox](../topics/?dataflt%5B0%5D=spec_%3Dcss3-flexbox "Show pages matching 'css3-flexbox'")
+- [css3-transforms](../topics/?dataflt%5B0%5D=spec_%3Dcss3-transforms "Show pages matching 'css3-transforms'")
+
+<!-- -->
+
+- [Closed](../topics/?dataflt%5B0%5D=status_%3DClosed "Show pages matching 'Closed'")
+- [Open](../topics/?dataflt%5B0%5D=status_%3DOpen "Show pages matching 'Open'")
+- [Resolved](../topics/?dataflt%5B0%5D=status_%3DResolved "Show pages matching 'Resolved'")
+
+| [Summary](../topics/?datasrt=%25title%25 "Sort by this column") | [Spec](../topics/?datasrt=spec "Sort by this column") | [Owner](../topics/?datasrt=owner "Sort by this column") | ↓ [Added](../topics/?datasrt=%5Eadded "Sort by this column") | [Status](../topics/?datasrt=status "Sort by this column") | [WG Action](../topics/?datasrt=action "Sort by this column") |
+|----|----|----|----|----|----|
+| [Define "formatting context" and fix 'Applies to' line of 'overflow' property](../topics/overflow-formatting-context/ "topics:overflow-formatting-context") | [css21](../spec/?dataflt%5B0%5D=spec_%3Dcss21 "Show pages matching 'css21'"), [css3-flexbox](../spec/?dataflt%5B0%5D=spec_%3Dcss3-flexbox "Show pages matching 'css3-flexbox'") | [fantasai](../owner/?dataflt%5B0%5D=owner_%3Dfantasai "Show pages matching 'fantasai'"), [antonp](../owner/?dataflt%5B0%5D=owner_%3Dantonp "Show pages matching 'antonp'"), [TabAtkins](../owner/?dataflt%5B0%5D=owner_%3DTabAtkins "Show pages matching 'TabAtkins'") | 2012-05-15 | [Resolved](../status/?dataflt%5B0%5D=status_%3DResolved "Show pages matching 'Resolved'") | React to CfC - http://lists.w3.org/Archives/Public/www-style/2012Jul/0342.html |
+| ["Safe" or "True" Centering in Flexbox](../topics/css3-flexbox-true-safe-centering/ "topics:css3-flexbox-true-safe-centering") | [css3-align](../spec/?dataflt%5B0%5D=spec_%3Dcss3-align "Show pages matching 'css3-align'") | [tabatkins](../owner/?dataflt%5B0%5D=owner_%3Dtabatkins "Show pages matching 'tabatkins'"), [fantasai](../owner/?dataflt%5B0%5D=owner_%3Dfantasai "Show pages matching 'fantasai'") | 2012-05-16 | [Resolved](../status/?dataflt%5B0%5D=status_%3DResolved "Show pages matching 'Resolved'") | Decide between safe and true centering |
+| [Case-sensitivity of Author-defined Identifiers](../topics/custom-ident-case-sensitivity/ "topics:custom-ident-case-sensitivity") | [css4-values](../spec/?dataflt%5B0%5D=spec_%3Dcss4-values "Show pages matching 'css4-values'") | [fantasai](../owner/?dataflt%5B0%5D=owner_%3Dfantasai "Show pages matching 'fantasai'") | 2012-06-28 | [Resolved](../status/?dataflt%5B0%5D=status_%3DResolved "Show pages matching 'Resolved'") |  |
+| [Placeholders and Static Position of Abspos Flex Items](../topics/flex-abspos-placeholders/ "topics:flex-abspos-placeholders") | [css3-flexbox](../spec/?dataflt%5B0%5D=spec_%3Dcss3-flexbox "Show pages matching 'css3-flexbox'") | [fantasai](../owner/?dataflt%5B0%5D=owner_%3Dfantasai "Show pages matching 'fantasai'"), [TabAtkins](../owner/?dataflt%5B0%5D=owner_%3DTabAtkins "Show pages matching 'TabAtkins'") | 2012-07-23 | [Resolved](../status/?dataflt%5B0%5D=status_%3DResolved "Show pages matching 'Resolved'") |  |
+| [Premultiply transform functions before interpolation on unequal transform function primitives](../topics/transform-interpolation/ "topics:transform-interpolation") | [css3-transforms](../spec/?dataflt%5B0%5D=spec_%3Dcss3-transforms "Show pages matching 'css3-transforms'") | [krit](../owner/?dataflt%5B0%5D=owner_%3Dkrit "Show pages matching 'krit'") | 2012-07-24 | [Resolved](../status/?dataflt%5B0%5D=status_%3DResolved "Show pages matching 'Resolved'") | Resolve if current spec behavior or the behavior suggested by Mozilla should be chosen. |
+| [Publish WD of the CSS compositing and blending specification](../topics/css-compositing/ "topics:css-compositing") | [css-compositing](../spec/?dataflt%5B0%5D=spec_%3Dcss-compositing "Show pages matching 'css-compositing'") | [cabanier](../owner/?dataflt%5B0%5D=owner_%3Dcabanier "Show pages matching 'cabanier'") | 2012-07-27 | [Resolved](../status/?dataflt%5B0%5D=status_%3DResolved "Show pages matching 'Resolved'") | Publish WD of the CSS compositing and blending specification |
+| [Request for FPWD of Filter Effects 1.0](../topics/fpwd-filter-effects/ "topics:fpwd-filter-effects") | [filter-effects](../spec/?dataflt%5B0%5D=spec_%3Dfilter-effects "Show pages matching 'filter-effects'") | [dschulze](../owner/?dataflt%5B0%5D=owner_%3Ddschulze "Show pages matching 'dschulze'") | 2012-08-10 | [Resolved](../status/?dataflt%5B0%5D=status_%3DResolved "Show pages matching 'Resolved'") | Publish FPWD |
+| [Interpolation behavior on rotate3d](../topics/interpolation-rotate3d/ "topics:interpolation-rotate3d") | [css3-transforms](../spec/?dataflt%5B0%5D=spec_%3Dcss3-transforms "Show pages matching 'css3-transforms'") | [dschulze](../owner/?dataflt%5B0%5D=owner_%3Ddschulze "Show pages matching 'dschulze'") | 2012-08-10 | [Resolved](../status/?dataflt%5B0%5D=status_%3DResolved "Show pages matching 'Resolved'") | Resolve interpolation behavior for rotate3d |
+| [Proposal CSS Masking](../topics/css-masking/ "topics:css-masking") | [css-masking](../spec/?dataflt%5B0%5D=spec_%3Dcss-masking "Show pages matching 'css-masking'") | [dschulze](../owner/?dataflt%5B0%5D=owner_%3Ddschulze "Show pages matching 'dschulze'") | 2012-08-28 | [Resolved](../status/?dataflt%5B0%5D=status_%3DResolved "Show pages matching 'Resolved'") | Resolve to continue on ED |
+| [FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion Topic](../topics/text-align-last-shorthand/ "topics:text-align-last-shorthand") | [css3-text](../spec/?dataflt%5B0%5D=spec_%3Dcss3-text "Show pages matching 'css3-text'") | [fantasai](../owner/?dataflt%5B0%5D=owner_%3Dfantasai "Show pages matching 'fantasai'") | 2013-08-08 | [Open](../status/?dataflt%5B0%5D=status_%3DOpen "Show pages matching 'Open'") | Approve/disapprove proposal! |
+
+### Status Codes
+
+Open
+: Ready for WG discussion
+
+Pending
+: Waiting for something before ready for WG discussion
+
+Closed
+: WG discussion has concluded
+
+Urgent
+: Should be addressed asap

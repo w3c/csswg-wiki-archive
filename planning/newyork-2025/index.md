@@ -1,0 +1,112 @@
+---
+title: "New York City F2F April 2025"
+---
+
+# New York City F2F April 2025
+
+- Host: Microsoft
+- Dial-in: We will be using Teams for the F2F call.
+  - Join: <https://teams.microsoft.com/meet/269675683080?p=dVc3U40Fonb3nszQEe>
+- Agenda: <https://github.com/orgs/w3c/projects/197/views/1>
+- Location: 11 Times Sq, New York, NY 10036
+  - The main entrance for our Times Square office is in the heart of New York City on 8th avenue between 41st and 42nd Street. All visitors must enter here for access.
+  - The lobby will direct attendees when they arrive. All guests arriving at the building will check in with photo ID to receive an individualized elevator pass that calls the elevator to the floor of the event.
+
+<!-- -->
+
+- Weather Forecast: [⁰C](http://forecast.weather.gov/MapClick.php?smap=1&lat=40.759028&lon=-73.985046&unit=1&mp=1) or [⁰F](http://forecast.weather.gov/MapClick.php?smap=1&lat=40.759028&lon=-73.985046&unit=0&mp=1), Current Weather Conditions: [⁰C](https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KNYC&unit=1) or [⁰F](https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=KNYC)
+- Dates: Tuesday April 1 - Thursday April 3 2025
+- Times: [9am-5pm](https://www.worldtimebuddy.com/?qm=1&lid=5128581,5391959,2643743,2988507,293397,1273294,1816670,1850147,2147714,2193733&h=5128581&date=2025-4-1&sln=9-17&hf=1) (lobby opens at 8am, and light snacks/drinks should arrive at ~8:30am)
+  - Morning break: ~10:30am
+  - Lunch break: noon
+  - Afternoon break: ~2:30pm
+- Airports:
+  - LGA - LaGuardia Airport (~9.3 mile drive)
+  - JFK - John F. Kennedy International Airport (~16 mile drive)
+  - EWR - Newark Liberty International Airport (~16 mile drive)
+
+Hosted Dinner: Wednesday April 2, 2025 6:00PM @ Don Giovanni (358 WEST 44TH STREET (BETWEEN 8TH & 9TH AVE.) NEW YORK, NY 10036 - 6 min walk from MSFT)
+
+## Covid Protocols
+
+(no change from TPAC)
+
+- Masks required in the meeting room, can be removed only while actively eating/drinking
+- COVID testing before arrival, and daily before meetings
+- Outdoor dining encouraged, weather permitting
+- Strong recommendation to wear a mask during your entire travel journey (onboard a flight, train or federally-regulated vessel, as well as in airports and other points of entry) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt
+- Accommodations will be made for anyone with a documented exemption to the above
+
+## Agenda
+
+Agenda planning: <https://github.com/orgs/w3c/projects/197/views/1>
+
+## Minutes
+
+Raw IRC Logs:
+
+- [Tuesday](https://www.w3.org/2025/04/01-css-irc.txt)
+- [Wednesday](https://www.w3.org/2025/04/02-css-irc.txt)
+- [Thursday](https://www.w3.org/2025/04/03-css-irc.txt)
+
+Full minutes to come.
+
+## Attendees
+
+### In-Person Participants
+
+(alphabetical by first name)
+
+| Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
+|----|----|----|----|----|----|
+| Alan Stearns | March 28 | April 6 | A Windham | None | In Queens until March 31 |
+| Alison Maher | March 31 | April 6 | Fairfield by Marriott | none | host (please feel free to reach out to almaher@microsoft.com with any questions) |
+| Brian Kardell | March 31 | April 4 | ? | \- | \- |
+| Chris Lilley | 31 March | 4 April | Margaritaville Resort Times Square | None |  |
+| fantasai | local | local | local | GF appreciated |  |
+| Florian Rivoal | 2025-03-31 | 2025-04-04 | nearby VRBO |  | 🛬AC002+AC8998 🛬AF0005 |
+| Jen Simmons | 2008 | n/a | I live here | significant food restrictions |  |
+| Kevin Babbitt | March 31 | April 4 | Fairfield by Marriott | none |  |
+| Kurt Catti-Schmidt | March 31 | April 4 | Fairfield by Marriott | none |  |
+| Lea Verou | 31 March | 4 April | Margaritaville Resort Times Square | None |  |
+| Rachel Andrew | March 29 | April 4 | Hilton Garden Inn Central Park | GF + pescatarian [allergies](https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9) |  |
+| Tab Atkins-Bittner | ? | ? | ? | none | ? |
+| Tim Nguyen | March 28 | April 5 | Hyatt Centric Times Square New York | None |  |
+| Zoe Lilley-Verou | 31 March | 4 April | Margaritaville Resort Times Square | None | observer |
+
+### Virtual Participants
+
+Please list your availability in New York time (morning/afternoon/all or specific time ranges). See [Time Converter](https://www.worldtimebuddy.com/?pl=1&lid=5128581,5391959,2988507,2643743,1850147,2158177,293397&h=5128581&date=4/1/2025%7C3&hf=1)
+
+Alphabetize by first name.
+
+| Name | Timezone | EDT Availability | Other Notes |
+|----|----|----|----|
+| Andreu Botella | CEST | Prefer AM and early PM. | Not available in the AM on Tue and Thu. |
+| Bramus | CEST | AM (+ PM if need be) |  |
+| Cassondra Roberts | EST | Flexible |  |
+| Daniel Holbert | PDT | PM |  |
+| David Baron | [America/New_York](https://www.openstreetmap.org/relation/6496417) | All | possible difficulty making 9am start promptly |
+| David Grogan |  | Tue 11a-2:30p; Thu 1:30p-3:30p | Not available Wed |
+| Emilio | CEST (UTC+2) | Flexible | (Might be able to attend in person, but not sure yet unfortunately) |
+| Eric Meyer | US/Eastern | All |  |
+| Ethan Jimenez | PDT | PM |  |
+| Hoch Hochkeppel | PDT | PM | Misc conflicts, but attending when possible. |
+| Jonathan Kew | BST | Mainly AM |  |
+| Kiet Ho | PDT | Tue: after 1p, Wed: after 3p |  |
+| Miriam Suzanne | MT | after 2pm Tues, anytime Wed | Not available Thurs |
+| Noam Rosenthal | GMT | Prefer AM | Unavailable Thu PM |
+| Oriol Brufau | CEST (UTC+2) | All |  |
+| Rob Flack | EDT | All |  |
+| Roman Komarov | CEST (UTC+2) | Flexible |  |
+| Simon Fraser | US/Pacific | Some |  |
+| Stephen Chenney | EDT | All | Unavailable some PM periods |
+| Yehonatan Daniv | GMT+3 | AM - PM as needed |  |
+
+### Regrets
+
+| Name              |
+|-------------------|
+| Josh Tumath, BBC  |
+| Luke Warlow       |
+| Sebastian Zartner |

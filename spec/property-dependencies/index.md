@@ -1,0 +1,37 @@
+---
+title: "Property dependencies"
+---
+
+# Property dependencies
+
+This page lists the ways in which the computed value of one property depends on the computed value of another. This is important to track so that we can avoid creating circular dependencies.
+
+## Type-based Dependencies
+
+| Depended-on property | Dependent property | Reason |
+|----|----|----|
+| color | every property taking \<color\> | currentColor (css3-color), initial value of border (CSS21) |
+| font-size | every property taking \<length\> | em units (CSS21) |
+| font-size, font-family, font-size-adjust, font-kerning, font-stretch, font-style, font-variant-\*, font-weight, font-feature-settings, font-variation-settings | every property taking \<length\> | ex units (CSS21), ch units (css-values-3), ic units (css-values-4), cap units (css-values-4) |
+| line-height | every property taking \<length\> | lh units (css-values-4) |
+| text-orientation, writing-mode | every property taking \<length\> | ch units (css-values-3) |
+
+## Other Dependencies
+
+| Depended-on property | Dependent property | Reason |
+|----|----|----|
+| align-items, justify-items | align-self, justify-self | `auto` value |
+| border-\*-style | border-\*-width | 'none' and 'hidden' (CSS21) |
+| column-rule-style | column-rule-width | 'none' and 'hidden' (css3-columns) |
+| display | align-content, justify-content | `auto` value |
+| display | box-suppress | `display:none` makes `box-suppress` compute to `discard` |
+| font-size | line-height | % units (CSS21) |
+| direction, writing-mode, text-orientation | ??? (some on element, some on parent) | logical box properties (css3-logical-props) |
+| direction | text-align | text-align: match-parent (css3-text) |
+| line-height | vertical-align | % units (CSS21) |
+| outline-style | outline-width | 'none' and 'hidden' (CSS21) |
+| position | float | absolute/fixed position makes float:none (CSS21) |
+| position, float | display | float/position make things block-like (CSS21) |
+| position | align-content, justify-content | `auto` value |
+| ??? | content | content: normal (css3-content) |
+| ruby-position, display | writing-mode | ruby-position: inter-character (css-ruby) |

@@ -1,0 +1,102 @@
+---
+title: "Cupertino F2F January 2025"
+---
+
+# Cupertino F2F January 2025
+
+Hosted Dinner Oren’s Hummus 6pm
+
+- Host: Apple
+- Dial-in: [Wednesday](https://lists.w3.org/Archives/Member/w3c-css-wg/2025JanMar/0063.html), [Thursday and Friday](https://lists.w3.org/Archives/Member/w3c-css-wg/2025JanMar/0082.html)
+- [Agenda](https://github.com/orgs/w3c/projects/162)
+- Location: One Apple Park Way, Cupertino CA 95014, USA
+  - Visitor entrance is at [Tantau Reception Center](https://goo.gl/maps/cGQYeU23PkEGfnpn7), 10503 North Tantau Avenue, Cupertino, CA 95014. This is adjacent to the intersection of North Tantau Avenue and Pruneridge Avenue.
+  - If you're driving there, the visitor parking is in an underground garage whose entrance is [at this point](https://goo.gl/maps/371ED4eugJoaGooy5), adjacent to the Apple Park Visitor Center, 10600 North Tantau Avenue, Cupertino, CA 95014. This is just across North Tantau Avenue from the visitor entrance.
+- Weather Forecast: [⁰C](http://forecast.weather.gov/MapClick.php?smap=1&lat=37.335&lon=-122.009&unit=1&mp=1) or [⁰F](http://forecast.weather.gov/MapClick.php?smap=1&lat=37.335&lon=-122.009&unit=0&mp=1), Current Weather Conditions: [⁰C](https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG&unit=1) or [⁰F](https://mesowest.utah.edu/cgi-bin/droman/meso_base_dyn.cgi?stn=463PG)
+- Dates: Wednesday 29 January - Friday 31 January 2025
+- Times: 8am-4pm
+  - Morning break: ~10am
+  - Lunch break: noon
+  - Afternoon break: ~2pm
+- Airports:
+  - SJC - San Jose Airport (16km drive, **closest**, be careful to use correct airport code)
+  - SFO - San Francisco Airport (54km drive, **major hub**)
+  - OAK - Oakland Airport (69km drive)
+
+## Covid Protocols
+
+(no change from TPAC)
+
+- Masks required in the meeting room, can be removed only while actively eating/drinking
+- COVID testing before arrival, and daily before meetings
+- Outdoor dining encouraged, weather permitting
+- Strong recommendation to wear a mask during your entire travel journey (onboard a flight, train or federally-regulated vessel, as well as in airports and other points of entry) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt
+- Accommodations will be made for anyone with a documented exemption to the above
+
+## Agenda
+
+Agenda planning: <https://github.com/orgs/w3c/projects/162/views/1>
+
+## Attendees
+
+### In-Person Participants
+
+(alphabetical by first name)
+
+| Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
+|----|----|----|----|----|----|
+| Alan | Jan 28 | Feb 1 | Woodcrest Hotel | none | ? |
+| Alison Maher | Jan 28 | Feb 1 | Woodcrest Hotel | none | \- |
+| bramus | Jan 26 | Feb 2 | ? | \- | Airplanes, yes. |
+| castastrophe | Jan 28 | Feb 1 | Courtyard | Vegan + honey, fish | \- |
+| Chris Lilley | Jan 28 | Feb 2 | AirBnB | \- | ? |
+| Daniel Holbert | N/A | N/A | N/A | none | Local; was expecting to be in-person, but need to dial in from home for family reasons |
+| Di Zhang | Jan 30 | Jan 30 | \- | none | Thursday only, in person |
+| Emilio | Jan 27 | Feb 1 | AirBnB | none | \- |
+| fantasai | Jan 26 | Feb 11 | AirBnB | GF | host |
+| Florian | Jan 27 | Feb 1 | AirBnB | \- | 🛬:OZ113+OZ212 🛫:OZ211+OZ112 |
+| Ian Kilpatrick | N/A | N/A | N/A | Shellfish | N/A |
+| Jen Simmons | Jan 28 | Feb 19 | Hyatt House for CSSWG f2f | too many to list |  |
+| Kevin Babbitt | Jan 28 | Feb 1 | Woodcrest Hotel | None | \- |
+| Lea Verou | Jan 28 | Feb 2 | AirBnB | \- | ? |
+| Megan Gardner | N/A | N/A | N/A | None | Local |
+| Nicole Sullivan | ? | ? | Hyatt House | none |  |
+| ntim | ? | ? | ? | \- | ? |
+| Oriol Brufau | Jan 27 | Feb 1 | AirBnB | Strong dislike of cheese and shellfish | \- |
+| rachelandrew | ? | ? | ? | GF + pescatarian [allergies](https://gist.github.com/rachelandrew/7dc7f20632c9d2b5d4e906c2778bb4d9) | \- |
+| Sam Weinig | N/A | N/A | Local | none | observer enthusiastic about color issues |
+| Simon Fraser | ? | ? | Local | none |  |
+| Tab Atkins-Bittner | n/a | n/a | n/a | none | n/a |
+| Tess | N/A | N/A | N/A | none | will be around sporadically around other meetings and commuting |
+| Yehonatan Daniv | Jan 28 | Feb 1 | Woodcrest Hotel | none | ? |
+| Zoe Lilley-Verou | Jan 28 | Feb 2 | ? | \- | observer |
+| Brandon Stewart | Jan 27 | Jan 31 | ? | \- |  |
+
+### Virtual Participants
+
+Please list your availability in California time (morning/afternoon/all or specific time ranges). See [Time Converter](https://www.worldtimebuddy.com/?qm=1&lid=5391959,2158177,1850147,293397,2988507,2643743,5128581&h=5391959&date=2025-1-29&sln=8-16&hf=1)
+
+| Name | Timezone | PST Availability | Other Notes |
+|----|----|----|----|
+| Brian Kardell | US Eastern | 8:00-16:00 |  |
+| David Baron | [America/New_York](https://www.openstreetmap.org/relation/6496417) | 8:00-14:30 | attendence hopeful but uncertain, possibly leaving in the middle |
+| David Grogan |  | Thurs 10:30a-12:30p, Fri 9a-12:30p |  |
+| Miriam Suzanne | US Mountain | 8:00-16:00 | may have to come and go some |
+| Roman Komarov | EU France | 8:00-16:00 | may be late up to ~30min at the beginning of each day |
+| Stephen Chenney | US Eastern | 8:00-16:00 | unavailable early afternoon |
+| Andreu Botella | CET | 8:00-16:00 | likely unavailable on the 31st |
+| Kiet Ho | ICT (+7) | 3pm - 5pm | Not available on 1/30, might be available on 1/31 and 2/1 |
+| Noam Rosenthal | UTC+1 | Thu 8am - 12am |  |
+| Sammy Gill | Pacific | 9am - 5pm | Will be in and out, should be around for layout related issues |
+| Stephanie Eckles | US Central | 8am-3pm |  |
+| Eric Meyer | America/New_York | 6am-3pm |  |
+| Kurt Catti-Schmidt | PST | 9am-5pm |  |
+| Adam Argyle | PST | 8am-4pm |  |
+| Sam Davis Omekara | PST | 9am-5pm |  |
+
+### Regrets
+
+| Name                        |
+|-----------------------------|
+| Josh Tumath, BBC            |
+| Brad Kemper, Invited Expert |

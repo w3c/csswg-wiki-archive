@@ -1,0 +1,51 @@
+---
+title: "Make Replaced Elements Always Be Flexbox Items"
+---
+
+# Make Replaced Elements Always Be Flexbox Items
+
+**Spec:** css3-flexbox | **Owner:** tabatkins | **Status:** Closed | **Added:** 2012-05-16 | **Action:** Pick proposal A, B, C or D | **Issue:** [http://lists.w3.org/Archives/Public/www-style/2012May/0558.html](http://lists.w3.org/Archives/Public/www-style/2012May/0558.html) | **Proposal:** [http://lists.w3.org/Archives/Public/www-style/2012May/0558.html](http://lists.w3.org/Archives/Public/www-style/2012May/0558.html)
+
+#### Background
+
+Flexbox promotes flex container child elements of all display types except 'inline' into being flex items. However, one common point of confusion for users of flexbox was why e.g. buttons do not get turned into flex items by default. So the Flexbox spec currently has some magic to make inline replaced elements into flex items. People seem happy with this. The question here is what kind of magic should be used to do this.
+
+A complication is that replaced elements such as \<img\> and \<object\> are display:inline, and if the resource does not load, are treated in some UAs as regular inline elements containing the alt text. (E.g. Firefox does this, as the HTML5 spec seems to require.) So a given element could be either an inline replaced element or an inline non-replaced element depending on resource availability.
+
+#### Problem Statement
+
+How should images and buttons be promoted to flex items?
+
+#### Proposal(s)
+
+All proposals except C ensure that flex-itemness (and thus the box tree structure) is deterministic regardless of resource loading.
+
+##### Proposal A
+
+- Make the following elements always become flexbox items, regardless of 'display': \<img\>, \<canvas\>, \<svg\>, \<math\>, \<audio\>, \<video\>, \<iframe\>, \<object\>, \<embed\>, \<input\>, \<button\>, \<select\>, or \<textarea\>
+- This can be extended later into Proposal B by reimplementing it in terms of ua.css rules.
+
+##### Proposal B
+
+1.  Introduce 'display: flex-item', which computes to 'inline' except on the child of a 'display: flex' element.
+    - Corollary: Make flex items with 'display-inside: block' return 'flex-item' as their computed 'display'.
+    - Alternative: If we want the behavior of 'flex-item' outside a flex container to be something else (e.g. compute to 'block' or 'inline-block' or create an anonymous flex container parent), we could use the keyword 'inline-flex-item' instead.
+2.  Assign it to the elements listed above in ua.css.
+
+This is the most disruptive proposal, spec-wise. But if it winds up introducing 'display: flex-item', it also prevents us from getting stuck on returning 'display: block' for flex items.
+
+##### Proposal C
+
+- Replaced inlines are flex items, non-replaced inlines are not.
+
+This means whether two elements are separate flex items or merged into an anonymous flex item depends on whether resources load. Consistent with replaced-element magic elsewhere (such as applicability of 'width' and 'height'), but with a more dramatic effect.
+
+##### Proposal D
+
+- Make all child elements of a flex container turn into flex items.
+
+This can be nonsensical for some kinds of content, e.g. a flex container filled with marked-up prose. However, this is not a use case for flexbox.
+
+#### Resolution
+
+Resolved on D.

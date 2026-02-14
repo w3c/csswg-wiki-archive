@@ -1,0 +1,15 @@
+---
+title: "Scoped Names Interop"
+---
+
+# Scoped Names Interop
+
+In \<<https://drafts.csswg.org/css-scoping/#shadow-names>\> a reasonable behavior for name-defining constructs (such as @font-face or @counter-style) in shadow trees is defined. However, browsers currently have a confusing panoply of behaviors, likely mostly accidental. Here we collect the current behaviors, to help inform our adoption of the specified behavior and find whether there are any compat issues we'll have to deal with.
+
+|  | Firefox | Chrome | Safari |
+|----|----|----|----|
+| @font-face | Doesn't work | @-rules in shadow trees are ignored. @-rules in document scope match from all scopes |  |
+| @font-feature-values | Doesn't work | Not implemented |  |
+| @font-palette-values | Not Yet Implemented | Not implemented |  |
+| @counter-style | Doesn't work |  |  |
+| @keyframes | Code lives in \<<https://searchfox.org/mozilla-central/rev/1df3b4b4d27d413675fb66f375230cb25d636450/servo/components/style/stylist.rs#1346>\>. We try to look animations up in the element's shadow first (this is necessary for :host { animation: .. }), then on the containing scope, if any, and otherwise on the global scope. | First looks up element's shadow (for :host) and then the element's scope. Does not fall back to document. Does not work for slotted. |  |

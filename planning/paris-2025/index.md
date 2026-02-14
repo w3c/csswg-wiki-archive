@@ -1,0 +1,117 @@
+---
+title: "Paris F2F August 2025"
+---
+
+# Paris F2F August 2025
+
+- Host: Google
+- Dial-in:
+- Agenda:
+- Location: 25 Rue de Clichy, 75009 Paris, France
+  - [Metro](https://en.wikipedia.org/wiki/Paris_M%C3%A9tro): Trinité – d'Estienne d'Orves (line 12, exit 1), [Saint-Lazare](https://www.ratp.fr/vos-lignes/vos-stations/saint-lazare) (lines 3, 12, 13, 14, exit 11), Liège (line 13), [Havre - Caumartin](https://www.ratp.fr/vos-lignes/vos-stations/havre-caumartin) (lines 3 and 9, exit 2), with many others within a short walk
+  - [RER](https://en.wikipedia.org/wiki/R%C3%A9seau_Express_R%C3%A9gional): Haussmann–Saint-Lazare (line E), [Auber](https://www.ratp.fr/vos-lignes/vos-stations/auber) (line A, a little further a walk)
+  - close to the [Saint-Lazare train station](https://en.wikipedia.org/wiki/Gare_Saint-Lazare) (written in French as Paris Saint-Lazare or as Gare Saint-Lazare)
+- Weather Forecast:
+- Dates: Tuesday August 19 - Thursday August 21 2025
+- Times: [9am-5pm](https://www.worldtimebuddy.com/?qm=1&lid=2988507,5391959,5128581,2643743,293397,1273294,1816670,1850147,2147714,2193733&h=2988507&date=2025-8-19&sln=9-17&hf=1)
+  - Light French breakfast (pastries) is provided.
+  - Morning break:
+  - Lunch break:
+  - Afternoon break:
+- Airports:
+  - [CDG](https://www.parisaeroport.fr/en/passengers/charles-de-gaulle-airport) - main international airport (47 minutes by RER with 1 transfer, 32km by road)
+  - [ORY](https://www.parisaeroport.fr/en/passengers/orly-airport) - secondary international airport (35 minutes by metro, 27km by road)
+
+Hosted Dinner:
+
+- Bourgogne Sud, right across the street from the office. Wednesday at 6:30.
+
+## Covid Protocols
+
+(to be verified, copied from New York page)
+
+(no change from TPAC)
+
+- Masks required in the meeting room, can be removed only while actively eating/drinking
+- COVID testing before arrival, and daily before meetings
+- Outdoor dining encouraged, weather permitting
+- Strong recommendation to wear a mask during your entire travel journey (onboard a flight, train or federally-regulated vessel, as well as in airports and other points of entry) except for brief periods while eating, drinking, or taking oral medication, or unless otherwise exempt
+- Accommodations will be made for anyone with a documented exemption to the above
+
+## Agenda
+
+Agenda planning:
+
+- CSSWG Explainers Workshop (20min)
+- GIF animation
+- CSS Parser Extensions (20min)
+
+<https://github.com/orgs/w3c/projects/209/views/1>
+
+## Minutes
+
+Raw IRC Logs:
+
+Full minutes to come.
+
+## Attendees
+
+### In-Person Participants
+
+(alphabetical by first name)
+
+| Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
+|----|----|----|----|----|----|
+| . | August ? | August ? | . | . | . |
+| Alan Stearns | August 16 | August 25 | Antin Trinité | . | . |
+| Alison Maher | August 18 | August 22 | Maison Pigalle | GF | . |
+| Anders Hartvoll Ruud | August 18 | August 21 | Hotel Eden Opéra | None | N/A |
+| Andreu Botella | August 17 | August 24 | Exe Paris Centre | None | . |
+| Chris Lilley | August 18 | August 22 | ? | None | . |
+| Diego Gonzalez | August 19 | August 21 | Maison Pigalle | . | . |
+| Emilio | ? | ? | AirBnB | ? | ? |
+| Elika Etemad | August 17 | August 22 | AirBnB | GF appreciated, but no allergies |  |
+| Florian Rivoal | August 18? | August 22? | AirBnB | omnivore | local/train |
+| Kevin Babbitt | August 18 | August 25 | Maison Pigalle | None |  |
+| Lea Verou | August 18 | August 22 | ? | None | . |
+| Matthieu Dubet | August 18 | August 21 | ? | None | N/A |
+| Munira Tursunova | August 18 | August 21 | Hotel Eden Opéra | No pork | N/A |
+| Nicole Sullivan | August 11 | August 24 | . | None | Air France |
+| Noam Rosenthal | August 18 | August 21 (AM) | Hotel Eden Opéra | None | Eurostar |
+| Oriol Brufau | ? | ? | AirBnB | Strong dislike of cheese and shellfish | ? |
+| Roman Komarov | Here already | N/A | Local | None | N/A |
+| Sebastian Zartner | August 18 | August 22 | New Hotel Saint Lazare | None | N/A |
+| Tab Atkins | ? | ? | ? | ? | ? |
+| Tim Nguyen | August 16 | August 29 | Villa Marquis Meliá Collection | None | Air France |
+| Yehonatan Daniv | August 18 | August 26 | Airbnb | . | . |
+
+### Virtual Participants
+
+Please list your availability in Paris time (morning/afternoon/all or specific time ranges). See [Time Converter](https://www.worldtimebuddy.com/?qm=1&lid=2988507,5391959,5128581,2643743,293397,1273294,1816670,1850147,2147714,2193733&h=2988507&date=2025-8-19&sln=9-17&hf=1)
+
+Alphabetize by first name.
+
+| Name | Timezone | CEST Availability | Other Notes |
+|----|----|----|----|
+| Bramus | CEST | 09:00—16:30 |  |
+| Brandon Stewart | US-PST |  |  |
+| Cassondra Roberts | US-EST | Flexible |  |
+| Celeste Pan | US-PST | 09:00-11:00 or 15:00-17:00 | For Masonry issues |
+| Divyansh Mangal | IST | 11:00-17:00 | For Issue \#12376 related to CSS units on \<svg\> elements |
+| Daniel Holbert | US-PDT | 15:00-17:00 (or as early as 14:00 depending on topic) |  |
+| Ian Kilpatrick | US-PDT | 15:00-17:00 (or as early as 14:00 depending on topic) |  |
+| Josh Tumath | GMT+1 | Tuesday morning, Wednesday afternoon | For Masonry and Gap Decorations issues |
+| Miriam Suzanne | US-MT | 9-10 or 15-17 |  |
+| Rachel Andrew | GMT+1 | All (some conflicting PM meetings) |  |
+| Ragvesh Sharma | IST | 11:00-17:00 | For Issue \#12376 related to CSS units on \<svg\> elements |
+| Rob Flack | EST | 14:00 - … |  |
+| Rune Lillesveen | CEST | All |  |
+| Sam Davis Omekara Jr. | US-PST | 15:00-17:00 + somewhat flexible | For Gap Decorations issues |
+| Stephen Chenney | US-NYC | 14:00 - … |  |
+| Jonathan Watt | CEST | 09:00—16:30, day 3 |  |
+
+### Regrets
+
+| Name                |
+|---------------------|
+| David Baron, Google |

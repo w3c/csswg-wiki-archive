@@ -1,0 +1,57 @@
+---
+title: "Virtual Meeting 5 (July 2021)"
+---
+
+### Virtual Meeting 5 (July 2021)
+
+#### Date/Time
+
+July 27, 7-10am PDT (afternoon for Europe, night for APAC)
+
+<https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210727T14>
+
+July 29, 2-5pm PDT (morning for APAC, night for Europe)
+
+<https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210729T21>
+
+Each meeting will be for 3 hours with hourly breaks.
+
+Meet links: sent to member-only list, look for email titled “[Dial-in Information for this week's f2f](https://lists.w3.org/Archives/Member/w3c-css-wg/2021JulSep/0038.html)” from Tab
+
+#### Agenda
+
+I have created two new milestones for sorting issues for these meetings. Please take a look at the currently-tagged “Agenda+ F2F” issues and assign a milestone if you have a meeting time preference. New issues tagged for these meetings should select a milestone.
+
+`EUR VF2F-2021-07-27`
+
+`APAC VF2F-2021-07-29`
+
+<https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3A%22Agenda%2B+F2F%22>
+
+#### Schedule
+
+- Tuesday: <https://github.com/w3c/csswg-drafts/projects/19>
+- Thursday: <https://github.com/w3c/csswg-drafts/projects/20>
+
+## Participants
+
+|  |  |  |  |
+|----|----|----|----|
+| **Name** | **Affiliation** | Tuesday | Thursday |
+| Alan Stearns | Adobe | yes | yes |
+| Rossen Atanassov | Microsoft | late | yes |
+| Miriam Suzanne | Invited Expert | yes | maybe |
+| Lea Verou | Invited Expert | yes | maybe |
+| Chris Lilley | W3C | yes | maybe |
+| Adam Argyle | Google | yes | yes |
+| fantasai | Invited Expert | yes | yes |
+| Daniel Holbert | Mozilla | yes | yes |
+| Oriol Brufau | Igalia | yes | no |
+| Tab Atkins-Bittner | Google | yes | yes |
+| David Baron | Google | mostly no | all but last 30 minutes |
+| Cameron McCormack | Apple | no | yes |
+| Myles C. Maxfield | Apple | yes | yes |
+| Jen Simmons | Apple | yes | yes |
+| Emilio | Mozilla | yes | maybe |
+| Rachel Andrew | Invited Expert | yes | no |
+| Tantek Çelik | Mozilla | no | maybe |

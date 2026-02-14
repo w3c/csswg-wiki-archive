@@ -1,0 +1,57 @@
+---
+title: "CSSWG meeting at TPAC 2022"
+---
+
+# CSSWG meeting at TPAC 2022
+
+[TPAC 2022](https://www.w3.org/2022/09/TPAC/Overview.html) is scheduled for **12-16 September 2022** in Vancouver, with options for both in-person and remote participation.
+
+- CSSWG primary meeting time: Thursday-Friday 15-16 September
+- [Thursday 15 Sep event page](https://www.w3.org/events/meetings/1c0e4736-d0cc-4ee3-8b2d-7eb1fbe59797)
+  - [Joint meeting with APA](https://www.w3.org/WAI/APA/wiki/Meetings/TPAC_2022#CSS_.26_APA_Joint_Meeting%5D): 15 Sep 10:30-11:30 am.
+  - [Agenda](https://github.com/w3c/csswg-drafts/projects/31)
+- [Friday 16 Sep event page](https://www.w3.org/events/meetings/4470940b-41a0-47fb-93cb-a9fc30a275fb)
+  - [Agenda](https://github.com/w3c/csswg-drafts/projects/32)
+  - Joint meeting with i18n: 16 Sep 10:30-11:30 am.
+
+## Participants
+
+### In-Person
+
+|  |  |
+|----|----|
+| **Name** | **Other Info TBD** |
+| Alan Stearns | Sept 10-17 |
+| Rachel Andrew |  |
+| Cameron McCormack |  |
+| Dominik Röttsches |  |
+| François Remy | Sept 12–17 @ AirBnb (host and myself will wear a mask if/when interacting) |
+| Miriam Suzanne | Sept 11–17 @ Sheraton |
+| fantasai |  |
+| Chris Harrelson | Sep 12-16 (might not attend some sessions due to conflicts) @ Sheraton |
+| Chris Lilley | Sep 11-17 @ Residence Inn by Mariott |
+| Florian Rivoal | Sept 11–17 @ Sheraton |
+| Tantek Çelik | 2022-09-11…16 @ Sheraton |
+| Mason Freed | Sep 12 to 15 @ Sheraton |
+| Rossen Atanassov |  |
+| Dan Clark | Sep 12 to 15 @ Century Plaza |
+
+### Remote
+
+|  |  |  |  |  |
+|----|----|----|----|----|
+| **Name** | **Affiliation** | **Timezone** | **PDT Availability** | **Other Notes** |
+| David Baron | Google | [America/New_York](https://www.openstreetmap.org/relation/6496417) | 5:45-14:30 | maybe intermittently available a little later |
+| Daniel Holbert | Mozilla | Pacific Time | 9:30am - 5pm |  |
+| Bobby Jo Steffl | Thomson Reuters | CDT |  |  |
+| Tab Atkins-Bittner | Google | Pacific Time | 9am - 5pm |  |
+| Megan Gardner | Apple | Pacific Time | 9am - 5pm |  |
+| Jen Simmons | Apple | Eastern Time | 7am - 3pm |  |
+| Eric Meyer | Igalia | America/New_York | 5am - 2:30pm |  |
+| Alison Maher | Microsoft | PDT | 9am - 5pm |  |
+| Myles C. Maxfield | Apple | PDT | very complicated |  |
+
+### Regrets
+
+- Lea Verou
+- Bramus

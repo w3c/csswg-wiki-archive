@@ -1,0 +1,79 @@
+---
+title: "W3C Workshop on CSS Print"
+---
+
+# W3C Workshop on CSS Print
+
+**Date:** February 13th, 2020
+
+**Location:** University of Economics, Prague, Czech Republic as a part of [XML Prague conference](http://xmlprague.cz)
+
+## Goals
+
+- Identify status of individual CSS Print related specs and see if and how they can be moved to REC status in order to send positive signal about maturity of technology to users and publishing industry
+- Identify what is needed in order to move forward, e.g.:
+  - more editorial resources
+  - create tests
+  - involvement from implementers
+  - identify incompatibilities between implementations
+  - collect new requirements (common vendor extension, features from XSL-FO, <https://www.w3.org/TR/xslfo20-req/WD-xslfo20-req.html>)
+  - …
+- Recruit fresh blood to help with tasks above
+- Briefly explain how CSS WG works and how specs are developed and implemented
+
+## Schedule
+
+15:00 Introducing how W3C CSS WG works (Rachel Andrew) – [presentation](https://noti.st/rachelandrew/Hy20NS/introduction-to-the-css-working-group)
+
+15:30 Presentation of position papers
+
+15:30 Antenna House (Michael Miller) – [position paper](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0017/Antenna_House_CSS_Position.pdf) – [presentation](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0035/CSSWG_Antenna_House_XML_Prague_2020.pdf)
+
+15:40 Compart (Katharina Udemadu) – [position paper](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0018/Compart-CssPositionPaper.pdf) – [presentation](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0036/Compart-PositionPaper.pdf)
+
+15:50 Hachette (Dave Cramer) – [position paper](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0016/Prague-cramer.pdf) – [presentation](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0032/Cramer-PrintWorkshop-XMLPrague.pdf)
+
+16:00 Andreas Jung – [presentation](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0034/01-part)
+
+16:10 paged.js (Julie Blanc) – [position paper](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0019/position-paper-w3C-workshop.html) – [presentation](http://slides.julie-blanc.fr/20200213_W3C-prague.html)
+
+16:20 Liam Quin – [position paper](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0020/2020-02-css-workshop.pdf) – [presentation](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/att-0038/02-css-workshop-prague.pdf)
+
+16:30 Coffee break
+
+17:00 Discussion
+
+18:30 End of workshop
+
+## How to participate
+
+Workshop is open to anyone. However as it is organized as a part of [XML Prague conference](http://xmlprague.cz) attendees need to [register for XML Prague](https://www.xmlprague.cz/conference-registration/). For those who are not interested in other days of XML Prague there is special pass for only 40 € for workshop day. This will include lunch and two coffee breaks.
+
+There will be tutorial for people who are not yet familiar with using CSS for producing print output from 12:00.
+
+If you are implementer or heavy user of CSS Print we would like to get your feedback about the current state of technology and related CSS specifications. Please submit position paper. During workshop you will be able to present your position paper and later on discuss it. Length of individual presentation slots will be allocated once we know many position papers we have received.
+
+## Submitting position paper
+
+Please submit position papers by sending email to mailing list [public-css-print@w3.org](mailto:public-css-print@w3.org) Please note that you must first subscribe to the mailing list by sending email to the following email address: [public-css-print-request@w3.org](mailto:public-css-print-request@w3.org)
+
+Archives of the mailing list are available at <https://lists.w3.org/Archives/Public/public-css-print/>
+
+Deadline for sending position papers is February 3rd, 2020.
+
+### Position Papers Received
+
+- [Dave Cramer, Hachette Livre](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0016.html)
+- [Michael Miller, AntennaHouse](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0017.html)
+- [Katharina Udemadu, Compart](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0018.html)
+- [Julie Blanc, paged.js](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0019.html)
+- [Liam Quin, Delightful Computing](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0020.html)
+- [Guillaume Ayoub, WeasyPrint](https://lists.w3.org/Archives/Public/public-css-print/2020JanMar/0021.html)
+
+## Participants
+
+**From CSS WG:** Rachel Andrew, Jirka Kosek, Dave Cramer
+
+**Implementers:** Antenna House
+
+**Users of CSS Print:** 20-60 people expected

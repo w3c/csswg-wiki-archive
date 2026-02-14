@@ -1,0 +1,5 @@
+---
+title: "spec:promises"
+---
+
+Here is a guide to using Promises in specifications, with helpful tips and spec-ese shortcuts: <https://github.com/domenic/promises-unwrapping/blob/master/writing-specifications-with-promises.md>
