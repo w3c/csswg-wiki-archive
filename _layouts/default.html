@@ -493,6 +493,234 @@ abbr[title] {
   .gfm-alert-caution .gfm-alert-title { color: #f85149; }
 }
 
+/* Search */
+.search-form {
+  display: flex;
+  align-items: center;
+}
+.search-form input[type="search"] {
+  font-family: inherit;
+  font-size: 0.875rem;
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+  color: var(--color-text);
+  width: 160px;
+  min-height: var(--min-tap-size);
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+.search-form input[type="search"]:focus {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+  border-color: var(--color-focus);
+}
+.search-form input[type="search"]::placeholder {
+  color: var(--color-text-muted);
+}
+@media (max-width: 640px) {
+  .search-form {
+    width: 100%;
+    margin-top: var(--space-sm);
+    order: 10;
+  }
+  .search-form input[type="search"] {
+    width: 100%;
+  }
+}
+
+/* Search Results Page */
+.search-page-form {
+  display: flex;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+.search-page-form input[type="search"] {
+  flex: 1;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+  color: var(--color-text);
+  min-height: var(--min-tap-size);
+}
+.search-page-form input[type="search"]:focus {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+  border-color: var(--color-focus);
+}
+.search-page-form button {
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--color-link);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  min-height: var(--min-tap-size);
+  min-width: var(--min-tap-size);
+  transition: background var(--transition);
+}
+.search-page-form button:hover {
+  background: var(--color-link-hover);
+}
+.search-page-form button:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+.search-page-form button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-btn-icon { display: none; }
+@media (max-width: 640px) {
+  .search-btn-text { display: none; }
+  .search-btn-icon { display: block; }
+  .search-page-form button {
+    padding: var(--space-sm);
+    aspect-ratio: 1;
+  }
+}
+.search-results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.search-result {
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+.search-result:last-child {
+  border-bottom: none;
+}
+.search-result-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  margin-bottom: var(--space-xs);
+}
+.search-result-title:hover {
+  text-decoration: underline;
+}
+.search-result-path {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  display: block;
+  margin-bottom: var(--space-xs);
+}
+.search-result-excerpt {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+.search-result-excerpt mark {
+  background: #fef08a;
+  color: #1f2328;
+  padding: 0.1em 0.2em;
+  border-radius: var(--radius-sm);
+}
+@media (prefers-color-scheme: dark) {
+  .search-result-excerpt mark {
+    background: #fbbf24;
+    color: #1f2328;
+  }
+}
+
+/* Edit Controls */
+.edit-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--min-tap-size);
+  min-height: var(--min-tap-size);
+  padding: var(--space-sm);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  border-radius: var(--radius);
+  transition: color var(--transition), background var(--transition);
+}
+.edit-icon-link:hover,
+.edit-icon-link:focus {
+  color: var(--color-link);
+  background: var(--color-bg-subtle);
+}
+.edit-icon-link svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Page title with edit (JS-injected) */
+.page-title-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+}
+.page-title-wrapper h1 {
+  flex: 1;
+}
+.page-title-edit {
+  flex-shrink: 0;
+  margin-top: 0.35em;
+  min-width: auto;
+  min-height: auto;
+  padding: var(--space-xs) var(--space-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--color-border);
+}
+.page-title-edit svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* Footer edit link */
+.edit-footer {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border-muted);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm) var(--space-lg);
+}
+.edit-footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: 0.9375rem;
+  padding: var(--space-sm) 0;
+}
+.edit-footer-link:hover,
+.edit-footer-link:focus {
+  color: var(--color-link);
+}
+.edit-footer-link svg {
+  width: 16px;
+  height: 16px;
+}
+.edit-footer-link:last-of-type svg {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 1px;
+}
+.edit-footer-sep {
+  color: var(--color-border);
+  line-height: 1;
+}
+
 /* Selection */
 ::selection {
   background: var(--color-link);
@@ -515,7 +743,7 @@ abbr[title] {
 /* Print Styles */
 @media print {
   body { background: #fff; color: #000; }
-  .edit-banner, .menu-toggle, .skip-link { display: none; }
+  .edit-banner, .menu-toggle, .skip-link, .search-form, .page-title-edit, .edit-footer { display: none; }
   .site-header { position: static; border-bottom: 1px solid #ccc; }
   a { color: #000; text-decoration: underline; }
   a[href^="http"]::after {
@@ -558,6 +786,9 @@ This is a replacement for wiki.csswg.org. <a href="https://github.com/{{ site.re
 <a href="{{ site.baseurl }}/test/">Testing</a>
 <a href="{{ site.baseurl }}/wiki/">About</a>
 </nav>
+<form action="{{ site.baseurl }}/search/" method="get" class="search-form" role="search" aria-label="Site search">
+<input type="search" name="q" placeholder="Search…" aria-label="Search wiki">
+</form>
 </div>
 </header>
 
@@ -582,6 +813,17 @@ This is a replacement for wiki.csswg.org. <a href="https://github.com/{{ site.re
 </nav>
 {% endif %}
 {{ content }}
+<footer class="edit-footer">
+<a href="https://github.com/{{ site.repository }}/edit/main/{{ page.path }}" class="edit-footer-link">
+<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="m14.515.456.965.965a1.555 1.555 0 0 1 0 2.2L9.745 9.355a1.549 1.549 0 0 1-.672.396l-2.89.826a.67.67 0 0 1-.828-.474.66.66 0 0 1 .004-.35l.825-2.89c.073-.254.209-.486.396-.673L12.315.456c.144-.145.316-.259.505-.337a1.538 1.538 0 0 1 1.19 0c.189.078.361.192.505.337Zm-3.322 3.008-3.67 3.669a.214.214 0 0 0-.057.096L6.97 8.965l1.736-.496a.218.218 0 0 0 .096-.056l3.67-3.67Zm2.065-2.066L12.135 2.52l1.28 1.28 1.122-1.122a.216.216 0 0 0 .065-.157.216.216 0 0 0-.065-.157l-.965-.966a.216.216 0 0 0-.157-.065.226.226 0 0 0-.157.065Z"/><path d="M0 14.25V2.75A1.75 1.75 0 0 1 1.75 1H7a.75.75 0 0 1 0 1.5H1.75a.25.25 0 0 0-.25.25v11.5a.25.25 0 0 0 .25.25h11.5a.25.25 0 0 0 .25-.25V8.5a.75.75 0 0 1 1.5 0v5.75c0 .464-.184.909-.513 1.237A1.746 1.746 0 0 1 13.25 16H1.75A1.75 1.75 0 0 1 0 14.25Z"/></svg>
+Edit this page
+</a>
+<span class="edit-footer-sep" aria-hidden="true">|</span>
+<a href="https://github.com/{{ site.repository }}/commits/main/{{ page.path }}" class="edit-footer-link">
+<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M7.75 14A1.75 1.75 0 0 1 6 12.25v-8.5C6 2.784 6.784 2 7.75 2h6.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14Zm-.25-1.75c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25h-6.5a.25.25 0 0 0-.25.25ZM4.9 3.508a.75.75 0 0 1-.274 1.025.249.249 0 0 0-.126.217v6.5c0 .09.048.173.126.217a.75.75 0 0 1-.752 1.298A1.75 1.75 0 0 1 3 11.25v-6.5c0-.649.353-1.214.874-1.516a.75.75 0 0 1 1.025.274ZM1.625 5.533h.001a.249.249 0 0 0-.126.217v4.5c0 .09.048.173.126.217a.75.75 0 0 1-.752 1.298A1.748 1.748 0 0 1 0 10.25v-4.5a1.748 1.748 0 0 1 .873-1.516.75.75 0 1 1 .752 1.299Z"/></svg>
+View version history
+</a>
+</footer>
 </div>
 </main>
 
@@ -635,6 +877,25 @@ This is a replacement for wiki.csswg.org. <a href="https://github.com/{{ site.re
     }
   });
 
+  // Inject edit icon next to first h1
+  const firstH1 = document.querySelector('main h1');
+  if (firstH1 && !firstH1.closest('.page-title-wrapper')) {
+    const editUrl = document.querySelector('.edit-footer-link')?.href;
+    if (editUrl) {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'page-title-wrapper';
+      firstH1.parentNode.insertBefore(wrapper, firstH1);
+      wrapper.appendChild(firstH1);
+      
+      const editLink = document.createElement('a');
+      editLink.href = editUrl;
+      editLink.className = 'edit-icon-link page-title-edit';
+      editLink.setAttribute('aria-label', 'Edit this page on GitHub');
+      editLink.setAttribute('title', 'Edit this page');
+      editLink.innerHTML = '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="m14.515.456.965.965a1.555 1.555 0 0 1 0 2.2L9.745 9.355a1.549 1.549 0 0 1-.672.396l-2.89.826a.67.67 0 0 1-.828-.474.66.66 0 0 1 .004-.35l.825-2.89c.073-.254.209-.486.396-.673L12.315.456c.144-.145.316-.259.505-.337a1.538 1.538 0 0 1 1.19 0c.189.078.361.192.505.337Zm-3.322 3.008-3.67 3.669a.214.214 0 0 0-.057.096L6.97 8.965l1.736-.496a.218.218 0 0 0 .096-.056l3.67-3.67Zm2.065-2.066L12.135 2.52l1.28 1.28 1.122-1.122a.216.216 0 0 0 .065-.157.216.216 0 0 0-.065-.157l-.965-.966a.216.216 0 0 0-.157-.065.226.226 0 0 0-.157.065Z"/><path d="M0 14.25V2.75A1.75 1.75 0 0 1 1.75 1H7a.75.75 0 0 1 0 1.5H1.75a.25.25 0 0 0-.25.25v11.5a.25.25 0 0 0 .25.25h11.5a.25.25 0 0 0 .25-.25V8.5a.75.75 0 0 1 1.5 0v5.75c0 .464-.184.909-.513 1.237A1.746 1.746 0 0 1 13.25 16H1.75A1.75 1.75 0 0 1 0 14.25Z"/></svg>Edit';
+      wrapper.appendChild(editLink);
+    }
+  }
 })();
 </script>
 <script src="{{ site.baseurl }}/assets/abbr.js"></script>

@@ -14,6 +14,17 @@ This repo was initially populated with 294 pages converted from wiki.csswg.org, 
 - **[Specification Issues and Planning](/spec/)** — Wiki pages for tracking spec-related thoughts
 - **[Testing](/test/)** — CSS testing documentation
 
+## Search
+
+The site includes client-side full-text search powered by [Lunr.js](https://lunrjs.com/):
+
+- **Build-time indexing** — `search.json` generates a JSON index of all pages at build time
+- **Client-side search** — No server required; search runs entirely in the browser
+- **Highlighted excerpts** — Search results show matching terms highlighted in context
+- **Keyboard accessible** — Header search form submits to dedicated results page
+
+Search is available via the search box in the site header, or directly at `/search/`.
+
 ## Editing
 
 Each page has _“edit this page”_ links that take you to the GitHub web editing UI. Changes are deployed automatically when merged or committed to `main`.
