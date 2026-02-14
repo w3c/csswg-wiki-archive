@@ -1,154 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Current URL Selector - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../ideas/">ideas</a> / current-url-selector</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Current URL Selector"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#current-url-selector">Current URL Selector</a><ul class="toc">
-<li class="level2"><a href="#need">Need</a></li>
-<li class="level2"><a href="#solution">Solution</a></li>
-<li class="level2"><a href="#use-cases">Use Cases</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# Current URL Selector
 
-<h1 id="current-url-selector">Current URL Selector</h1>
-<div class="plugin_note noteclassic">This proposal was <a href="https://www.w3.org/TR/2011/WD-selectors4-20110929/" title="https://www.w3.org/TR/2011/WD-selectors4-20110929/" rel="noopener">adopted into Selectors Level 4 as the :local-link() selector</a>.
-<p>
-It was subsequently simplified to the just a <a href="https://www.w3.org/TR/selectors-4/#the-local-link-pseudo" title="https://www.w3.org/TR/selectors-4/#the-local-link-pseudo" rel="noopener">:local-link selector</a>.
-</p>
+> [!NOTE]
+> This proposal was [adopted into Selectors Level 4 as the :local-link() selector](https://www.w3.org/TR/2011/WD-selectors4-20110929/).
+>
+> It was subsequently simplified to the just a [:local-link selector](https://www.w3.org/TR/selectors-4/#the-local-link-pseudo).
 
-</div><h2 id="need">Need</h2>
-<p>
-Current <abbr title="Cascading Style Sheets">CSS</abbr> standards allow for the independent styling of links based on the client history using the visited link pseudo-class. This allows designers to indicate which links the visitor has been to previously. However, visitors need to not only know where they have been, but where they are and where they are going as well. Web designers need a way to conveniently style a link based on the clients current <abbr title="Uniform Resource Identifier">URI</abbr> in order to create more useful menus and bread-crumb trails as well as indicate whether a link is pointing out of the current site.
-</p><h2 id="solution">Solution</h2>
-<p>
-In order style links based on the users current location within a site and to differentiate internal versus external links, I propose the addition of a new “current” link pseudo-class. This pseudo-class would not only be used to style a link if it&#039;s href matched the clients current <abbr title="Uniform Resource Identifier">URI</abbr>, but also style links based on directory level. 
-</p>
+## Need
 
-<p>
+Current CSS standards allow for the independent styling of links based on the client history using the visited link pseudo-class. This allows designers to indicate which links the visitor has been to previously. However, visitors need to not only know where they have been, but where they are and where they are going as well. Web designers need a way to conveniently style a link based on the clients current URI in order to create more useful menus and bread-crumb trails as well as indicate whether a link is pointing out of the current site.
+
+## Solution
+
+In order style links based on the users current location within a site and to differentiate internal versus external links, I propose the addition of a new “current” link pseudo-class. This pseudo-class would not only be used to style a link if it's href matched the clients current URI, but also style links based on directory level.
+
 The current link pseudo-class selector would have the following pattern:
-</p>
-<pre class="code">E:current(n)</pre>
 
-<p>
-Matches element <code>E</code> if <code>E</code> is the source anchor of a hyperlink of which the target matches the clients current <abbr title="Uniform Resource Identifier">URI</abbr> if no number (<code>n</code>) is included or matches up to the directory level indicated by <code>n</code>. A value of <code>n=0</code> compares only the top level domain.
-</p>
+``` code
+E:current(n)
+```
 
-<p>
+Matches element `E` if `E` is the source anchor of a hyperlink of which the target matches the clients current URI if no number (`n`) is included or matches up to the directory level indicated by `n`. A value of `n=0` compares only the top level domain.
+
 So, given the links:
-</p>
-<ol>
-<li class="level1"><code>&lt;a href=”<a href="http://www.bered.com" title="http://www.bered.com" rel="noopener">http://www.bered.com</a>”&gt;RED&lt;/a&gt;</code></li>
-<li class="level1"><code>&lt;a href=”<a href="http://www.bered.com/style" title="http://www.bered.com/style" rel="noopener">http://www.bered.com/style</a>&gt;Style&lt;/a&gt;</code></li>
-<li class="level1"><code>&lt;a href=”<a href="http://www.bered.com/style/prom.html" title="http://www.bered.com/style/prom.html" rel="noopener">http://www.bered.com/style/prom.html</a>&gt;Prom Styles&lt;/a&gt;</code></li>
-</ol>
 
-<p>
+1.  `<a href=”`[`http://www.bered.com`](http://www.bered.com)`”>RED</a>`
+2.  `<a href=”`[`http://www.bered.com/style`](http://www.bered.com/style)`>Style</a>`
+3.  `<a href=”`[`http://www.bered.com/style/prom.html`](http://www.bered.com/style/prom.html)`>Prom Styles</a>`
+
 and the styles
-</p>
-<ol>
-<li class="level1"><code>a:current {}</code></li>
-<li class="level1"><code>a:current(0) {}</code></li>
-<li class="level1"><code>a:current(1) {}</code></li>
-<li class="level1"><code>a:current(2) {}</code></li>
-</ol>
 
-<p>
-If the client&#039;s current <abbr title="Uniform Resource Identifier">URI</abbr> is: <code><a href="http://www.bered.com/style/prom.html" title="http://www.bered.com/style/prom.html" rel="noopener">http://www.bered.com/style/prom.html</a></code>
-</p>
-<ol>
-<li class="level1">Link 1 would receive style 2</li>
-<li class="level1">Link 2 would receive style 3</li>
-<li class="level1">Link 3 would receive style 1 and 3</li>
-<li class="level1">Style 4 would <em>not</em> be applied</li>
-</ol><h2 id="use-cases">Use Cases</h2>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> Site Navigation Menus</span></dt>
-<dd>Site menus could be consistently styled based on the visitor&#039;s location within the site giving them a quick visual representation.</dd>
-<dt><span class="term"> Bread-crumb menus</span></dt>
-<dd>Levels in a bread-crumb trail can be displayed based on the current page <abbr title="Uniform Resource Identifier">URI</abbr>, eliminating the need to use server-side technology, JavaScript, or create separate instance for every page within the site.</dd>
-<dt><span class="term"> Internal/External links</span></dt>
-<dd>Links that point to another domain can be styled separately from links that keep the visitor within the domain. In addition, once the <abbr title="Cascading Style Sheets">CSS</abbr> target attribute is added, this will allow designers the ability to always target external links to a new window.</dd>
-</dl>
-</main>
-</body>
-</html>
+1.  `a:current {}`
+2.  `a:current(0) {}`
+3.  `a:current(1) {}`
+4.  `a:current(2) {}`
+
+If the client's current URI is: [`http://www.bered.com/style/prom.html`](http://www.bered.com/style/prom.html)
+
+1.  Link 1 would receive style 2
+2.  Link 2 would receive style 3
+3.  Link 3 would receive style 1 and 3
+4.  Style 4 would *not* be applied
+
+## Use Cases
+
+Site Navigation Menus
+: Site menus could be consistently styled based on the visitor's location within the site giving them a quick visual representation.
+
+Bread-crumb menus
+: Levels in a bread-crumb trail can be displayed based on the current page URI, eliminating the need to use server-side technology, JavaScript, or create separate instance for every page within the site.
+
+Internal/External links
+: Links that point to another domain can be styled separately from links that keep the visitor within the domain. In addition, once the CSS target attribute is added, this will allow designers the ability to always target external links to a new window.

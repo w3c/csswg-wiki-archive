@@ -1,395 +1,219 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TPAC 2011 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / tpac-2011</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "TPAC 2011"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#tpac-2011">TPAC 2011</a><ul class="toc">
-<li class="level2"><a href="#meeting-minutes">Meeting Minutes</a></li>
-<li class="level2"><a href="#agenda-brainstorming">Agenda Brainstorming</a></li>
-<li class="level2"><a href="#proposed-schedule">Proposed Schedule</a></li>
-<li class="level2"><a href="#attendee-contact-information">Attendee Contact Information</a></li>
-<li class="level2"><a href="#hotels-and-transportation">Hotels and Transportation</a><ul class="toc">
-<li class="level3"><a href="#hotels">Hotels</a></li>
-<li class="level3"><a href="#transportation">Transportation</a></li>
-<li class="level3"><a href="#carpool-for-sunday">Carpool for Sunday</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#special-needsrequests">Special Needs/Requests</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# TPAC 2011
 
-<h1 id="tpac-2011">TPAC 2011</h1>
-<p>
-Agenda and Logistics for November 2011 <abbr title="Cascading Style Sheets">CSS</abbr> Working Group Face-to-Face meeting (Sunday October 30 - Tuesday November 1, 2011) at TPAC. Note: This should be a technical meeting, and focus should be on topics that benefit from us all being in the same room.
-</p>
+Agenda and Logistics for November 2011 CSS Working Group Face-to-Face meeting (Sunday October 30 - Tuesday November 1, 2011) at TPAC. Note: This should be a technical meeting, and focus should be on topics that benefit from us all being in the same room.
 
-<p>
-<strong>Sunday meeting</strong>
-</p>
-<ul>
-<li class="level1"><strong>Where?</strong> Adobe Systems Headquarters, 345 Park Ave, San Jose, CA 95113.</li>
-<li class="level1"><strong>When?</strong> 9am to 5pm/6pm. Breakfast and lunch catered. Many thanks to Adobe for hosting on that day.</li>
-<li class="level1"><strong>Is there parking available?</strong> Yes, parking is available at 345 Park Ave (West Tower). If asked, mention that you are a member of the <abbr title="World Wide Web Consortium">W3C</abbr>.</li>
-<li class="level1"><strong>How do we get in?</strong> We will be in the “_Park_” conference room. This conference room is right outside the East Tower Lobby. You can access it directly from 321 Park Avenue. Getting access does not require signing in or signing any legal agreement (NDA, etc…)</li>
-<li class="level1"><strong>What if I get lost?</strong> Give Arno a call at +1.415.350.3946.</li>
-<li class="level1"><strong>What about dinner Sunday evening?</strong> We have a reservation at <strong>Mezcal</strong> 25 West San Fernando Street (within walking distance) under the name “Deepa Subramaniam”at <strong>18:30</strong>. The restaurant has vegetarian options and can adjust dishes according to various dietary needs.</li>
-</ul>
+**Sunday meeting**
 
-<p>
-<strong>Monday-Tuesday meeting</strong>
-</p>
-<ul>
-<li class="level1">at <a href="http://www.w3.org/2011/11/TPAC/" title="http://www.w3.org/2011/11/TPAC/" rel="noopener">TPAC</a></li>
-</ul>
+- **Where?** Adobe Systems Headquarters, 345 Park Ave, San Jose, CA 95113.
+- **When?** 9am to 5pm/6pm. Breakfast and lunch catered. Many thanks to Adobe for hosting on that day.
+- **Is there parking available?** Yes, parking is available at 345 Park Ave (West Tower). If asked, mention that you are a member of the W3C.
+- **How do we get in?** We will be in the “\_Park\_” conference room. This conference room is right outside the East Tower Lobby. You can access it directly from 321 Park Avenue. Getting access does not require signing in or signing any legal agreement (NDA, etc…)
+- **What if I get lost?** Give Arno a call at +1.415.350.3946.
+- **What about dinner Sunday evening?** We have a reservation at **Mezcal** 25 West San Fernando Street (within walking distance) under the name “Deepa Subramaniam”at **18:30**. The restaurant has vegetarian options and can adjust dishes according to various dietary needs.
 
-<p>
-<strong>Calling in</strong>
-</p>
-<ul>
-<li class="level1">You can call into the WG meeting through Skype at w3c-csswg</li>
-</ul><h2 id="meeting-minutes">Meeting Minutes</h2>
-<p>
-<strong>Sunday, 30 October</strong>
-</p>
-<ul>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0713.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0713.html" rel="noopener">Sunday Morning</a>- Issue  Tracking, Regions</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0714.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0714.html" rel="noopener">Sunday Afternoon I</a>- UTR50, radial-gradient(), Exclusions and Shapes</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0715.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0715.html" rel="noopener">Sunday Afternoon II</a>- Style Attr, Selectors 4, Paginated Layout on Screen</li>
-</ul>
+**Monday-Tuesday meeting**
 
-<p>
-<strong>Monday, 31 October</strong>
-</p>
-<ul>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0709.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0709.html" rel="noopener">Monday Morning</a>- Values &amp; Units,  Positioning, Animations</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0711.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0711.html" rel="noopener">Monday Afternoon</a>- @font-face, Flexbox, Multicol, GCPM</li>
-</ul>
+- at [TPAC](http://www.w3.org/2011/11/TPAC/)
 
-<p>
-<strong>Tuesday, 1 November</strong>
-</p>
-<ul>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0710.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0710.html" rel="noopener">Tuesday Morning I</a>- CSSOM, IDPF</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0717.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0717.html" rel="noopener">Tuesday Morning II</a>- Testing, CSS2.1, CSS3 Borders</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0716.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0716.html" rel="noopener">Tuesday Noonish</a>- radial-gradient() and argument notation, text-transform</li>
-<li class="level1"><a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0712.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0712.html" rel="noopener">Tuesday Afternoon</a>- Variables, Accessibility, Multicol</li>
-</ul><h2 id="agenda-brainstorming">Agenda Brainstorming</h2>
-<p>
+**Calling in**
+
+- You can call into the WG meeting through Skype at w3c-csswg
+
+## Meeting Minutes
+
+**Sunday, 30 October**
+
+- [Sunday Morning](http://lists.w3.org/Archives/Public/www-style/2011Nov/0713.html)- Issue Tracking, Regions
+- [Sunday Afternoon I](http://lists.w3.org/Archives/Public/www-style/2011Nov/0714.html)- UTR50, radial-gradient(), Exclusions and Shapes
+- [Sunday Afternoon II](http://lists.w3.org/Archives/Public/www-style/2011Nov/0715.html)- Style Attr, Selectors 4, Paginated Layout on Screen
+
+**Monday, 31 October**
+
+- [Monday Morning](http://lists.w3.org/Archives/Public/www-style/2011Nov/0709.html)- Values & Units, Positioning, Animations
+- [Monday Afternoon](http://lists.w3.org/Archives/Public/www-style/2011Nov/0711.html)- @font-face, Flexbox, Multicol, GCPM
+
+**Tuesday, 1 November**
+
+- [Tuesday Morning I](http://lists.w3.org/Archives/Public/www-style/2011Nov/0710.html)- CSSOM, IDPF
+- [Tuesday Morning II](http://lists.w3.org/Archives/Public/www-style/2011Nov/0717.html)- Testing, CSS2.1, CSS3 Borders
+- [Tuesday Noonish](http://lists.w3.org/Archives/Public/www-style/2011Nov/0716.html)- radial-gradient() and argument notation, text-transform
+- [Tuesday Afternoon](http://lists.w3.org/Archives/Public/www-style/2011Nov/0712.html)- Variables, Accessibility, Multicol
+
+## Agenda Brainstorming
+
 Please add your agenda topic suggestions here for prioritization and sorting.
-</p>
-<ul>
-<li class="level1 node">Gradients (1 hour)<ul>
-<li class="level2">Pending issues e.g radial Gradient syntax</li>
-<li class="level2">Publish LC</li>
-</ul>
-</li>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr> OM<ul>
-<li class="level2 node">DOM interfaces for new @-rules<ul>
-<li class="level3">Minimal requirements</li>
-<li class="level3">How fine-grained does the interface need to be?</li>
-</ul>
-</li>
-<li class="level2">Constants for @-rules <a href="http://wiki.csswg.org/spec/cssom-constants" title="http://wiki.csswg.org/spec/cssom-constants" rel="noopener">http://wiki.csswg.org/spec/cssom-constants</a></li>
-<li class="level2">Define event for font loads?</li>
-</ul>
-</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Exclusions &amp; Shapes <a href="http://dev.w3.org/csswg/css3-exclusions/" title="http://dev.w3.org/csswg/css3-exclusions/" rel="noopener">http://dev.w3.org/csswg/css3-exclusions/</a></li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Positioned Layout <a href="http://dev.w3.org/csswg/css3-positioning/" title="http://dev.w3.org/csswg/css3-positioning/" rel="noopener">http://dev.w3.org/csswg/css3-positioning/</a></li>
-<li class="level1">Test suite issues (<abbr title="Cascading Style Sheets">CSS</abbr> 2.1)</li>
-<li class="level1">CSS3 Values and Units <a href="http://www.w3.org/Style/CSS/Tracker/products/8" title="http://www.w3.org/Style/CSS/Tracker/products/8" rel="noopener">issues</a> / LC</li>
-<li class="level1">CSS3 Images any other issues remaining; move to LC</li>
-<li class="level1 node">CSS3 Animations<ul>
-<li class="level2">display:none and animations/transitions</li>
-<li class="level2">Next publication</li>
-</ul>
-</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Flexbox: pending issues, update WD</li>
-<li class="level1">Media Queries: test suite</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> regions: remaining <a href="http://wiki.csswg.org/spec/css3-regions#issues-to-resolve-with-the-css-wg" title="http://wiki.csswg.org/spec/css3-regions#issues-to-resolve-with-the-css-wg" rel="noopener">issues</a></li>
-<li class="level1">CSS3 Fonts</li>
-<li class="level1 node">CSS3 Writing Modes<ul>
-<li class="level2"><strong>Brief</strong> discussion of ongoing work on <a href="http://www.unicode.org/reports/tr50/tr50-1.html" title="http://www.unicode.org/reports/tr50/tr50-1.html" rel="noopener">UTR #50</a> and how if affects text-orientation</li>
-<li class="level2">Proposed time: Sunday afternoon so that Ken Lunde and Taro Yamamoto from Adobe can attend</li>
-</ul>
-</li>
-<li class="level1"><a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0085.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0085.html" rel="noopener">Invitation from 3D Community Group</a></li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> GCPM: I&#039;d like to publish updated WD.</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> multicol: We should settle margin collapsing issue for spanners, and define more exact behavior for break-* properties</li>
-</ul>
 
-<p>
+- Gradients (1 hour)
+  - Pending issues e.g radial Gradient syntax
+  - Publish LC
+- CSS OM
+  - DOM interfaces for new @-rules
+    - Minimal requirements
+    - How fine-grained does the interface need to be?
+  - Constants for @-rules <http://wiki.csswg.org/spec/cssom-constants>
+  - Define event for font loads?
+- CSS Exclusions & Shapes <http://dev.w3.org/csswg/css3-exclusions/>
+- CSS Positioned Layout <http://dev.w3.org/csswg/css3-positioning/>
+- Test suite issues (CSS 2.1)
+- CSS3 Values and Units [issues](http://www.w3.org/Style/CSS/Tracker/products/8) / LC
+- CSS3 Images any other issues remaining; move to LC
+- CSS3 Animations
+  - display:none and animations/transitions
+  - Next publication
+- CSS Flexbox: pending issues, update WD
+- Media Queries: test suite
+- CSS regions: remaining [issues](http://wiki.csswg.org/spec/css3-regions#issues-to-resolve-with-the-css-wg)
+- CSS3 Fonts
+- CSS3 Writing Modes
+  - **Brief** discussion of ongoing work on [UTR \#50](http://www.unicode.org/reports/tr50/tr50-1.html) and how if affects text-orientation
+  - Proposed time: Sunday afternoon so that Ken Lunde and Taro Yamamoto from Adobe can attend
+- [Invitation from 3D Community Group](https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0085.html)
+- CSS GCPM: I'd like to publish updated WD.
+- CSS multicol: We should settle margin collapsing issue for spanners, and define more exact behavior for break-\* properties
+
 Text Orientation and Unicode issues on Sunday afternoon with invitees from Adobe.
-</p>
 
-<p>
-Joint meeting with WebApps and WebAppsSec <a href="http://www.w3.org/2008/webapps/wiki/TPAC2011" title="http://www.w3.org/2008/webapps/wiki/TPAC2011" rel="noopener">Monday 11-12am on CORS and From-Origin</a>. Affects CSS3 Fonts and other <abbr title="Application Programming Interface">API</abbr>&#039;s relying on cross-origin embedding.
-</p>
+Joint meeting with WebApps and WebAppsSec [Monday 11-12am on CORS and From-Origin](http://www.w3.org/2008/webapps/wiki/TPAC2011). Affects CSS3 Fonts and other API's relying on cross-origin embedding.
 
-<p>
-Joint meeting with PF WG on Tuesday 3:30pm-5pm regarding a11y and <abbr title="Cascading Style Sheets">CSS</abbr> layout.
-</p>
+Joint meeting with PF WG on Tuesday 3:30pm-5pm regarding a11y and CSS layout.
 
-<p>
 Joint meeting with FXTF on Thursday at 9am (in SVG WG meeting room).
-</p>
 
-<p>
-Declarative 3D Community Group meeting Tuesday 9am-1pm [Simon, Ted?]
-</p><h2 id="proposed-schedule">Proposed Schedule</h2><h4 id="sunday">Sunday</h4>
-<ul>
-<li class="level1">Welcome + agenda + extras (0h15)</li>
-<li class="level1">How the WG should track <abbr title="specification">spec</abbr> issues (1h30)</li>
-<li class="level1"><em>break</em> (0h15)</li>
-<li class="level1">Gradients (1h)</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Regions issues (0h45)</li>
-<li class="level1"><em>lunch</em> (1h)</li>
-<li class="level1">Orientation and Unicode properties for vertical text layout (1h45)</li>
-<li class="level1"><em>break</em> (0h15à</li>
-<li class="level1">CSS3 Writing Modes (0h30)</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Exclusions and Shapes (1h)</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> GCPM (0h15)</li>
-</ul><h4 id="monday">Monday</h4>
-<ul>
-<li class="level1">CSS3 Values &amp; Units (1h)</li>
-<li class="level1">CSS3 Positioned Layout Module (0h45)</li>
-<li class="level1"><em>break</em> (0h15)</li>
-<li class="level1">CSS3 Animations (1h)</li>
-<li class="level1">Joint meeting with WebApps/WebAppsSec on CORS and From-Origin (1h)</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Media Queries Test Suite (0h30)</li>
-<li class="level1"><em>lunch</em> (1h)</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Flexbox (1h15)</li>
-<li class="level1"><em>break</em> (0h15)</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Multicol (2h)</li>
-</ul>
-<ul>
-<li class="level1">HCG meetup for WG chairs, Staff Contact, … 6pm, hotel&#039;s bar</li>
-</ul><h4 id="tuesday">Tuesday</h4>
-<ul>
-<li class="level1">AC session for AC-Reps</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> OM in <abbr title="Cascading Style Sheets">CSS</abbr> WG room, 9am, 1h</li>
-<li class="level1">Joint meeting IDPF/EPUB in <abbr title="Cascading Style Sheets">CSS</abbr> WG room, 10:00, 1h</li>
-<li class="level1"><em>break</em> in <abbr title="Cascading Style Sheets">CSS</abbr> WG room, 0h15</li>
-<li class="level1">Test Suite (2.1) issues in <abbr title="Cascading Style Sheets">CSS</abbr> WG room, 11:15, 1h</li>
-<li class="level1">Backgrounds and Borders</li>
-<li class="level1">CSS3 Text - Text Transform</li>
-<li class="level1"><em>lunch</em> (1h)</li>
-<li class="level1">CSS3 Images, 2pm, 1h</li>
-<li class="level1">Variables</li>
-<li class="level1">Status of specs and how to move forward</li>
-<li class="level1"><em>break</em> in <abbr title="Cascading Style Sheets">CSS</abbr> WG room, 0h15</li>
-<li class="level1">Joint meeting PF WG in <abbr title="Cascading Style Sheets">CSS</abbr> WG room, 3:30pm, 1h30</li>
-</ul><h4 id="thursday">Thursday</h4>
-<ul>
-<li class="level1">Joint meeting FXTF in SVG WG room, 9am-6pm</li>
-</ul><h2 id="attendee-contact-information">Attendee Contact Information</h2>
-<p>
+Declarative 3D Community Group meeting Tuesday 9am-1pm \[Simon, Ted?\]
+
+## Proposed Schedule
+
+#### Sunday
+
+- Welcome + agenda + extras (0h15)
+- How the WG should track spec issues (1h30)
+- *break* (0h15)
+- Gradients (1h)
+- CSS Regions issues (0h45)
+- *lunch* (1h)
+- Orientation and Unicode properties for vertical text layout (1h45)
+- *break* (0h15à
+- CSS3 Writing Modes (0h30)
+- CSS Exclusions and Shapes (1h)
+- CSS GCPM (0h15)
+
+#### Monday
+
+- CSS3 Values & Units (1h)
+- CSS3 Positioned Layout Module (0h45)
+- *break* (0h15)
+- CSS3 Animations (1h)
+- Joint meeting with WebApps/WebAppsSec on CORS and From-Origin (1h)
+- CSS Media Queries Test Suite (0h30)
+- *lunch* (1h)
+- CSS Flexbox (1h15)
+- *break* (0h15)
+- CSS Multicol (2h)
+
+<!-- -->
+
+- HCG meetup for WG chairs, Staff Contact, … 6pm, hotel's bar
+
+#### Tuesday
+
+- AC session for AC-Reps
+- CSS OM in CSS WG room, 9am, 1h
+- Joint meeting IDPF/EPUB in CSS WG room, 10:00, 1h
+- *break* in CSS WG room, 0h15
+- Test Suite (2.1) issues in CSS WG room, 11:15, 1h
+- Backgrounds and Borders
+- CSS3 Text - Text Transform
+- *lunch* (1h)
+- CSS3 Images, 2pm, 1h
+- Variables
+- Status of specs and how to move forward
+- *break* in CSS WG room, 0h15
+- Joint meeting PF WG in CSS WG room, 3:30pm, 1h30
+
+#### Thursday
+
+- Joint meeting FXTF in SVG WG room, 9am-6pm
+
+## Attendee Contact Information
+
 Please add your arrival and departure dates, hotel name and mobile phone info (for those comfortable in doing so).
-</p>
-<div class="table sectionedit6"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0 leftalign"> Name     </th><th class="col1 leftalign"> Dates       </th><th class="col2 leftalign"> Hotel         </th><th class="col3"> Contact # </th><td class="col4"></td>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Rossen Atanassov </td><td class="col1"> 29 Oct – 4 Nov </td><td class="col2"> Marriott</td><td class="col3"> see <a href="https://www.w3.org/2000/09/dbwg/details?group=32061" title="https://www.w3.org/2000/09/dbwg/details?group=32061" rel="noopener">member-only data</a> </td><td class="col4"></td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> L. David Baron </td><td class="col1"> - </td><td class="col2"> at home </td><td class="col3"> see <a href="https://www.w3.org/2000/09/dbwg/details?group=32061" title="https://www.w3.org/2000/09/dbwg/details?group=32061" rel="noopener">member-only data</a> </td><td class="col4"></td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Kimberly Blessing </td><td class="col1"> 30 Oct – 4 Nov </td><td class="col2"> Marriott </td><td class="col3"> @obiwankimberly </td><td class="col4"></td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Bert Bos </td><td class="col1"> 29 Oct - 5 Nov </td><td class="col2"> Marriott </td><td class="col3"> see <a href="https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0087.html" title="https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0087.html" rel="noopener">e-mail</a> </td><td class="col4"></td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> Tantek Çelik </td><td class="col1"> - </td><td class="col2"> … </td><td class="col3"> <a href="http://twitter.com/t" title="http://twitter.com/t" rel="noopener">@t</a>, <a href="../../aim/goim?screenname=tantekc" title="aim:goim" rel="nofollow">aim:tantekc</a> </td><td class="col4"></td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> John Daggett </td><td class="col1"> 29 Oct – 4 Nov </td><td class="col2"> Avatar </td><td class="col3"> - </td><td class="col4"></td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> Arron Eicholz </td><td class="col1"> 29 Oct – 3 Nov </td><td class="col2"> Marriott </td><td class="col3"> - </td><td class="col4"></td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Elika J. Etemad </td><td class="col1"> 29 Oct – 4 Nov </td><td class="col2"> Avatar </td><td class="col3"> I&#039;m not posting my cell phone publicly, sorry. </td><td class="col4"></td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> Simon Fraser </td><td class="col1"> 31 Oct - 3 Nov </td><td class="col2"> local </td><td class="col3"> - </td><td class="col4"></td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> Sylvain Galineau </td><td class="col1"> 29 Oct – 4 Nov </td><td class="col2"> Avatar </td><td class="col3"> see <a href="https://www.w3.org/2000/09/dbwg/details?group=32061" title="https://www.w3.org/2000/09/dbwg/details?group=32061" rel="noopener">member-only data</a> </td><td class="col4"></td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Daniel Glazman (chair)</td><td class="col1"> 28 Oct – 3 Nov </td><td class="col2"> Avatar </td><td class="col3"> - </td><td class="col4"></td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Arno Gourdol </td><td class="col1"> 28 Oct – 3 Nov </td><td class="col2"> Home </td><td class="col3"> +1 415 350 3946 </td><td class="col4"></td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Vincent Hardy</td><td class="col1"> 28 Oct – 3 Nov </td><td class="col2"> Home </td><td class="col3"> +1 415 290 85 17 </td><td class="col4"></td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> Molly E. Holzschlag </td><td class="col1"> 28 Oct – 5 Nov </td><td class="col2"> Marriott </td><td class="col3"> +1 520 250 8022 </td><td class="col4"></td>
-	</tr>
-	<tr class="row15">
-		<td class="col0"> Koji Ishii </td><td class="col1"> 29 Oct - 5 Nov </td><td class="col2"> Avatar </td><td class="col3"> see <a href="https://www.w3.org/2000/09/dbwg/details?group=32061" title="https://www.w3.org/2000/09/dbwg/details?group=32061" rel="noopener">member-only data</a> </td><td class="col4"></td>
-	</tr>
-	<tr class="row16">
-		<td class="col0"> Brad Kemper </td><td class="col1"> 29 Oct - 2 Nov </td><td class="col2"> home </td><td class="col3 leftalign">  </td><td class="col4 leftalign">  </td>
-	</tr>
-	<tr class="row17">
-		<td class="col0"> Håkon Wium Lie </td><td class="col1"> 30 Oct - 2 Nov </td><td class="col2 leftalign">  </td><td class="col3"> +47 90192217 </td><td class="col4"></td>
-	</tr>
-	<tr class="row18">
-		<td class="col0"> Chris Lilley </td><td class="col1"> 25 Oct - 5 Nov </td><td class="col2">Avatar then Marriott</td><td class="col3"> @svgeesus </td><td class="col4"></td>
-	</tr>
-	<tr class="row19">
-		<td class="col0"> Peter Linss </td><td class="col1"> 27 Oct – 5 Nov </td><td class="col2"> Marriott </td><td class="col3"> see <a href="https://www.w3.org/2000/09/dbwg/details?group=32061" title="https://www.w3.org/2000/09/dbwg/details?group=32061" rel="noopener">member-only data</a> </td><td class="col4"></td>
-	</tr>
-	<tr class="row20">
-		<td class="col0"> Edward O&#039;Connor </td><td class="col1"> - </td><td class="col2"> at home </td><td class="col3"> see <a href="https://www.w3.org/2000/09/dbwg/details?group=32061" title="https://www.w3.org/2000/09/dbwg/details?group=32061" rel="noopener">member-only data</a> </td><td class="col4"></td>
-	</tr>
-	<tr class="row21">
-		<td class="col0"> Florian Rivoal </td><td class="col1"> 29 Oct – 3 Nov </td><td class="col2"> Avatar </td><td class="col3"> - </td><td class="col4"></td>
-	</tr>
-	<tr class="row22">
-		<td class="col0"> Alan Stearns </td><td class="col1"> 27 Oct – 3 Nov </td><td class="col2"> Avatar </td><td class="col3"> +1 206 550 4299 </td><td class="col4"></td>
-	</tr>
-	<tr class="row23">
-		<td class="col0"> Steve Zilles </td><td class="col1"> 28 Oct - 3 Nov </td><td class="col2"> Home </td><td class="col3"> - </td><td class="col4"></td>
-	</tr>
-	<tr class="row24">
-		<td class="col0"> Alex Mogilevsky</td><td class="col1"> 30 Oct – 3 Nov </td><td class="col2"> Mariott </td><td class="col3"> see <a href="https://www.w3.org/2000/09/dbwg/details?group=32061" title="https://www.w3.org/2000/09/dbwg/details?group=32061" rel="noopener">member-only data</a> </td><td class="col4"></td>
-	</tr>
-	<tr class="row25">
-		<td class="col0"> John Jansen </td><td class="col1"> 27 Oct - 2 Nov </td><td class="col2"> Marriott </td><td class="col3 leftalign">  </td><td class="col4"></td>
-	</tr>
-	<tr class="row26">
-		<td class="col0"> Name </td><td class="col1"> Dates </td><td class="col2"> Hotel </td><td class="col3"> Contact </td><td class="col4"></td>
-	</tr>
-</table><p>
-(Editorial/admin note: any way to add class names to an <abbr title="HyperText Markup Language">HTML</abbr> table like the above to say each TR and TD (by column position) ?)
-</p><h2 id="hotels-and-transportation">Hotels and Transportation</h2>
-<p>
-Most people will be at the Marriott, but there are other hotels in the area that are more affordable and include free parking and/or WIFI. 
-</p><h3 id="hotels">Hotels</h3>
-<ul>
-<li class="level1"><a href="http://www.marriott.com/hotels/travel/sjcga-santa-clara-marriott/" title="http://www.marriott.com/hotels/travel/sjcga-santa-clara-marriott/" rel="noopener"> The Marriott (Conference Hotel) </a></li>
-<li class="level1"><a href="http://www.jdvhotels.com/hotels/avatar" title="http://www.jdvhotels.com/hotels/avatar" rel="noopener"> The Avatar </a></li>
-</ul><h3 id="transportation">Transportation</h3>
-<ul>
-<li class="level1">According to the Santa Clara Marriott&#039;s web site, there is no shuttle service at this hotel</li>
-<li class="level1">SJC and SFO are served by South &amp; East Bay Shuttle (408) 866-6660; fee: 25 USD SJC/69 USD SFO (one way); reservation required</li>
-<li class="level1">There is an on-site Hertz Rental Car at the Marriott</li>
-<li class="level1">Public transport from SFO: take BART from the airport to Millbrae, then switch to Caltran to Mountain View, then switch to Santa Clara Light Rail. Get off at either Old Ironsides or Great America and walk South on Great America to the Marriott.</li>
-</ul><h3 id="carpool-for-sunday">Carpool for Sunday</h3>
-<p>
+
+| Name | Dates | Hotel | Contact \# |  |
+|----|----|----|----|----|
+| Rossen Atanassov | 29 Oct – 4 Nov | Marriott | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| L. David Baron | \- | at home | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| Kimberly Blessing | 30 Oct – 4 Nov | Marriott | @obiwankimberly |  |
+| Bert Bos | 29 Oct - 5 Nov | Marriott | see [e-mail](https://lists.w3.org/Archives/Member/w3c-css-wg/2011OctDec/0087.html) |  |
+| Tantek Çelik | \- | … | [@t](http://twitter.com/t), [aim:tantekc](../../aim/goim/?screenname=tantekc "aim:goim") |  |
+| John Daggett | 29 Oct – 4 Nov | Avatar | \- |  |
+| Arron Eicholz | 29 Oct – 3 Nov | Marriott | \- |  |
+| Elika J. Etemad | 29 Oct – 4 Nov | Avatar | I'm not posting my cell phone publicly, sorry. |  |
+| Simon Fraser | 31 Oct - 3 Nov | local | \- |  |
+| Sylvain Galineau | 29 Oct – 4 Nov | Avatar | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| Daniel Glazman (chair) | 28 Oct – 3 Nov | Avatar | \- |  |
+| Arno Gourdol | 28 Oct – 3 Nov | Home | +1 415 350 3946 |  |
+| Vincent Hardy | 28 Oct – 3 Nov | Home | +1 415 290 85 17 |  |
+| Molly E. Holzschlag | 28 Oct – 5 Nov | Marriott | +1 520 250 8022 |  |
+| Koji Ishii | 29 Oct - 5 Nov | Avatar | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| Brad Kemper | 29 Oct - 2 Nov | home |  |  |
+| Håkon Wium Lie | 30 Oct - 2 Nov |  | +47 90192217 |  |
+| Chris Lilley | 25 Oct - 5 Nov | Avatar then Marriott | @svgeesus |  |
+| Peter Linss | 27 Oct – 5 Nov | Marriott | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| Edward O'Connor | \- | at home | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| Florian Rivoal | 29 Oct – 3 Nov | Avatar | \- |  |
+| Alan Stearns | 27 Oct – 3 Nov | Avatar | +1 206 550 4299 |  |
+| Steve Zilles | 28 Oct - 3 Nov | Home | \- |  |
+| Alex Mogilevsky | 30 Oct – 3 Nov | Mariott | see [member-only data](https://www.w3.org/2000/09/dbwg/details?group=32061) |  |
+| John Jansen | 27 Oct - 2 Nov | Marriott |  |  |
+| Name | Dates | Hotel | Contact |  |
+
+(Editorial/admin note: any way to add class names to an HTML table like the above to say each TR and TD (by column position) ?)
+
+## Hotels and Transportation
+
+Most people will be at the Marriott, but there are other hotels in the area that are more affordable and include free parking and/or WIFI.
+
+### Hotels
+
+- [The Marriott (Conference Hotel)](http://www.marriott.com/hotels/travel/sjcga-santa-clara-marriott/)
+- [The Avatar](http://www.jdvhotels.com/hotels/avatar)
+
+### Transportation
+
+- According to the Santa Clara Marriott's web site, there is no shuttle service at this hotel
+- SJC and SFO are served by South & East Bay Shuttle (408) 866-6660; fee: 25 USD SJC/69 USD SFO (one way); reservation required
+- There is an on-site Hertz Rental Car at the Marriott
+- Public transport from SFO: take BART from the airport to Millbrae, then switch to Caltran to Mountain View, then switch to Santa Clara Light Rail. Get off at either Old Ironsides or Great America and walk South on Great America to the Marriott.
+
+### Carpool for Sunday
+
 From Santa Clara Avatar / Mariott to Adobe. Meet in respective hotel lobby at 8:30am, depart by 8:40am latest.
-</p><h4 id="have-car-will-pool">Have Car Will Pool</h4>
-<ul>
-<li class="level1">David Baron (4 seats)</li>
-<li class="level1">Molly Holzschlag ( 4 seats)</li>
-<li class="level1">John Daggett (4 seats)</li>
-<li class="level1">Peter Linss (4 seats) @ Marriott</li>
-<li class="level1">John Jansen (no idea, &gt; 1 seat)</li>
-<li class="level1">Daniel Glazman (4 seats)</li>
-</ul><h4 id="need-seat">Need Seat</h4>
-<ul>
-<li class="level1">Bert Bos (Mariott)</li>
-<li class="level1">Elika Etemad (Avatar)</li>
-<li class="level1">Sylvain Galineau (Avatar)</li>
-<li class="level1">Koji Ishii? (Avatar)</li>
-<li class="level1">Chris Lilley (Marriott)</li>
-<li class="level1">Rossen Atanassov (Mariott)</li>
-<li class="level1">Alan Stearns (Avatar)</li>
-<li class="level1">Arron Eicholz (Mariott)</li>
-<li class="level1">Florian Rivoal (Avatar)</li>
-</ul><h2 id="special-needsrequests">Special Needs/Requests</h2>
-<p>
+
+#### Have Car Will Pool
+
+- David Baron (4 seats)
+- Molly Holzschlag ( 4 seats)
+- John Daggett (4 seats)
+- Peter Linss (4 seats) @ Marriott
+- John Jansen (no idea, \> 1 seat)
+- Daniel Glazman (4 seats)
+
+#### Need Seat
+
+- Bert Bos (Mariott)
+- Elika Etemad (Avatar)
+- Sylvain Galineau (Avatar)
+- Koji Ishii? (Avatar)
+- Chris Lilley (Marriott)
+- Rossen Atanassov (Mariott)
+- Alan Stearns (Avatar)
+- Arron Eicholz (Mariott)
+- Florian Rivoal (Avatar)
+
+## Special Needs/Requests
+
 Please use this section to discuss any special requirements of which the group should be aware.
-</p>
-</main>
-</body>
-</html>

@@ -1,381 +1,187 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Paris F2F August 2017 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / paris-2017</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Paris F2F August 2017"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#paris-f2f-august-2017">Paris F2F August 2017</a><ul class="toc">
-<li class="clear">
-<ul class="toc">
-<li class="level3"><a href="#meeting-minutes">Meeting Minutes</a></li>
-<li class="level3"><a href="#location">Location</a></li>
-<li class="level3"><a href="#participants">Participants</a></li>
-<li class="level3"><a href="#observers">Observers</a></li>
-<li class="level3"><a href="#topics">Topics</a></li>
-<li class="level3"><a href="#proposed-agenda-topics">Proposed Agenda Topics</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# Paris F2F August 2017
 
-<h1 id="paris-f2f-august-2017">Paris F2F August 2017</h1>
-<ul>
-<li class="level1">Host: Mozilla</li>
-<li class="level1 node">Dinner: Thursday 7PM<ul>
-<li class="level2"><a href="http://www.restaurant-aupetitriche.com/en" title="http://www.restaurant-aupetitriche.com/en" rel="noopener">Au Petit Riche</a>, 25 rue Le peletier 75009 Paris</li>
-<li class="level2"><a href="http://www.restaurant-aupetitriche.com/en/the-menu/menus/#contenttop" title="http://www.restaurant-aupetitriche.com/en/the-menu/menus/#contenttop" rel="noopener">Menu</a></li>
-</ul>
-</li>
-<li class="level1 node">Dates: Wednesday-Friday, August 2-4, 2017<ul>
-<li class="level2">with a <a href="https://github.com/w3c/css-houdini-drafts/wiki/Paris-F2F-August-1st-2017" title="https://github.com/w3c/css-houdini-drafts/wiki/Paris-F2F-August-1st-2017" rel="noopener">Houdini task force meeting</a> at the same location on Tuesday, August 1, 2017</li>
-</ul>
-</li>
-</ul><h3 id="meeting-minutes">Meeting Minutes</h3>
-<ul>
-<li class="level1">Wednesday, Aug 2 <a href="https://lists.w3.org/Archives/Public/www-style/2017Aug/0034.html" title="https://lists.w3.org/Archives/Public/www-style/2017Aug/0034.html" rel="noopener">Part I</a>, <a href="https://lists.w3.org/Archives/Public/www-style/2017Aug/0035.html" title="https://lists.w3.org/Archives/Public/www-style/2017Aug/0035.html" rel="noopener">Part II</a>, <a href="https://lists.w3.org/Archives/Public/www-style/2017Aug/0036.html" title="https://lists.w3.org/Archives/Public/www-style/2017Aug/0036.html" rel="noopener">Part III</a>, <a href="https://lists.w3.org/Archives/Public/www-style/2017Aug/0037.html" title="https://lists.w3.org/Archives/Public/www-style/2017Aug/0037.html" rel="noopener">Part IV</a></li>
-<li class="level1">Thursday, Aug 3 <a href="https://lists.w3.org/Archives/Public/www-style/2017Aug/0031.html" title="https://lists.w3.org/Archives/Public/www-style/2017Aug/0031.html" rel="noopener">Part I</a>, <a href="https://lists.w3.org/Archives/Public/www-style/2017Aug/0040.html" title="https://lists.w3.org/Archives/Public/www-style/2017Aug/0040.html" rel="noopener">Part II</a>, <a href="https://lists.w3.org/Archives/Public/www-style/2017Aug/0041.html" title="https://lists.w3.org/Archives/Public/www-style/2017Aug/0041.html" rel="noopener">Part III</a>, <a href="https://lists.w3.org/Archives/Public/www-style/2017Aug/0042.html" title="https://lists.w3.org/Archives/Public/www-style/2017Aug/0042.html" rel="noopener">Part IV</a></li>
-<li class="level1">Friday, Aug 4 <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0000.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0000.html" rel="noopener">Part I</a>, <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0001.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0001.html" rel="noopener">Part II</a>, <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0002.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0002.html" rel="noopener">Part III</a>, <a href="https://lists.w3.org/Archives/Public/www-style/2017Sep/0003.html" title="https://lists.w3.org/Archives/Public/www-style/2017Sep/0003.html" rel="noopener">Part IV</a></li>
-</ul><h3 id="location">Location</h3>
-<p>
-<a href="https://wiki.mozilla.org/Paris" title="https://wiki.mozilla.org/Paris" rel="noopener">Mozilla Paris</a>, 16bis Boulevard Montmartre, 75009 Paris, France
-</p>
+- Host: Mozilla
+- Dinner: Thursday 7PM
+  - [Au Petit Riche](http://www.restaurant-aupetitriche.com/en), 25 rue Le peletier 75009 Paris
+  - [Menu](http://www.restaurant-aupetitriche.com/en/the-menu/menus/#contenttop)
+- Dates: Wednesday-Friday, August 2-4, 2017
+  - with a [Houdini task force meeting](https://github.com/w3c/css-houdini-drafts/wiki/Paris-F2F-August-1st-2017) at the same location on Tuesday, August 1, 2017
 
-<p>
-See <a href="https://wiki.mozilla.org/Paris" title="https://wiki.mozilla.org/Paris" rel="noopener">Mozilla Paris wiki</a> for important directions on finding and entering the space
-</p><h3 id="participants">Participants</h3>
-<div class="table sectionedit5"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Arrival </th><th class="col2"> Departure </th><th class="col3"> Hotel </th><th class="col4"> Flight info and notes </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Alan Stearns </td><td class="col1"> 28 July </td><td class="col2"> 5 Aug </td><td class="col3"> AirBnB </td><td class="col4"> </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Benjamin De Cock </td><td class="col1"> 2 Aug </td><td class="col2"> 5 Aug </td><td class="col3"> Millennium Opera Hotel </td><td class="col4"> Thalys </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Bert </td><td class="col1"> 31 Jul </td><td class="col2"> 4 Aug </td><td class="col3"> Hôtel Joséphine </td><td class="col4"> Train (Gare de Lyon) </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Brian Birtles </td><td class="col1"> 30 July </td><td class="col2"> 2 Aug </td><td class="col3"> Hôtel Saint-Marc </td><td class="col4"> JL415/416 </td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> Daniel Glazman </td><td class="col1"> N/A </td><td class="col2"> N/A </td><td class="col3"> home </td><td class="col4"> N/A </td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> Dave Cramer</td><td class="col1"> 1 Aug </td><td class="col2"> 5 Aug</td><td class="col3"> </td><td class="col4 leftalign">  </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> Dean Jackson</td><td class="col1"> 1 Aug </td><td class="col2"> 4 Aug</td><td class="col3"> </td><td class="col4"> Walking, Swimming, Crawling </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Emil A Eklund</td><td class="col1"> 1 Aug </td><td class="col2"> 5 Aug </td><td class="col3"> W Opera </td><td class="col4"> TBD </td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> Eric Willigers </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> fantasai </td><td class="col1"> 31 July </td><td class="col2"> 6 Aug </td><td class="col3"> AirBnB </td><td class="col4"> </td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Florian Rivoal</td><td class="col1"> </td><td class="col2"> </td><td class="col3"> AirBnB </td><td class="col4"> Train </td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Francois Remy </td><td class="col1"> 31 July </td><td class="col2"> 4 Aug </td><td class="col3"> AirBnB </td><td class="col4"></td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Geoffrey Sneddon </td><td class="col1"> 31 Jul </td><td class="col2"> 5 Aug </td><td class="col3"> Mercure Paris Opera Louvre </td><td class="col4"> (Probably some Eurostar) </td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> Greg Whitworth </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> </td><td class="col4"></td>
-	</tr>
-	<tr class="row15">
-		<td class="col0"> Ian Kilpatrick </td><td class="col1"> Lundi </td><td class="col2"> Samedi </td><td class="col3"> ??? </td><td class="col4"> Stallion </td>
-	</tr>
-	<tr class="row16">
-		<td class="col0"> Jack Moffitt </td><td class="col1"></td><td class="col2"></td><td class="col3"></td><td class="col4"></td>
-	</tr>
-	<tr class="row17">
-		<td class="col0"> Jen Simmons </td><td class="col1"> 31 July </td><td class="col2"> 5 Aug </td><td class="col3"> AirBnb </td><td class="col4"> BA304 (from London) / BA 8003 </td>
-	</tr>
-	<tr class="row18">
-		<td class="col0"> Jet Villegas </td><td class="col1"> 28 July </td><td class="col2"> 5 Aug </td><td class="col3"> AirBnb </td><td class="col4"> TBD </td>
-	</tr>
-	<tr class="row19">
-		<td class="col0"> Koji Ishii</td><td class="col1"> 31 July </td><td class="col2"> 5 Aug </td><td class="col3"> TBD </td><td class="col4"> TBD </td>
-	</tr>
-	<tr class="row20">
-		<td class="col0"> L. David Baron </td><td class="col1"> 28 July </td><td class="col2"> 5 Aug </td><td class="col3 leftalign"> Hôtel Acadia - Astotel  </td><td class="col4"> Eurostar 9032 / UA 984 </td>
-	</tr>
-	<tr class="row21">
-		<td class="col0"> Melanie Richards </td><td class="col1"> 28 July </td><td class="col2"> 5 Aug </td><td class="col3"> Hotel Athenee </td><td class="col4"> AF3653 / AF3622 </td>
-	</tr>
-	<tr class="row22">
-		<td class="col0"> Myles C. Maxfield </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> Eiffel Tower </td><td class="col4"> Submarine </td>
-	</tr>
-	<tr class="row23">
-		<td class="col0"> Naina Raisinghani </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td>
-	</tr>
-	<tr class="row24">
-		<td class="col0"> Peter Linss</td><td class="col1"> 31 July </td><td class="col2"> 5 Aug </td><td class="col3"> AirBnB </td><td class="col4"> Eurostar </td>
-	</tr>
-	<tr class="row25">
-		<td class="col0"> Rachel Andrew</td><td class="col1"> 30 July </td><td class="col2"> 5 Aug </td><td class="col3"> </td><td class="col4"> BA315/BA314 </td>
-	</tr>
-	<tr class="row26">
-		<td class="col0"> Rob Flack</td><td class="col1"> 31 July </td><td class="col2"> 8 Aug </td><td class="col3"> Hôtel Flor Rivoli </td><td class="col4"> AC880/AC881 </td>
-	</tr>
-	<tr class="row27">
-		<td class="col0"> Rossen Atanassov</td><td class="col1"> 1 Aug </td><td class="col2"> 5 Aug </td><td class="col3"> hotel </td><td class="col4"> uber </td>
-	</tr>
-	<tr class="row28">
-		<td class="col0"> Simon Sapin </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> home </td><td class="col4"></td>
-	</tr>
-	<tr class="row29">
-		<td class="col0"> Surma </td><td class="col1"> 31 Jul </td><td class="col2"> 5 Aug </td><td class="col3"> Millennium Opera Hotel </td><td class="col4"> BA336/BA335 </td>
-	</tr>
-	<tr class="row30">
-		<td class="col0"> Tab Atkins </td><td class="col1"> 30 Jul </td><td class="col2"> 5 Aug </td><td class="col3"> AirBnB </td><td class="col4"> FI548/FI549 </td>
-	</tr>
-	<tr class="row31">
-		<td class="col0"> Tantek Çelik </td><td class="col1"> 2017-08-01 </td><td class="col2"> 2017-08-10 </td><td class="col3"> AirBnB </td><td class="col4"> UA990/UA984 </td>
-	</tr>
-	<tr class="row32">
-		<td class="col0"> Till Schneidereit </td><td class="col1"></td><td class="col2"></td><td class="col3"></td><td class="col4"></td>
-	</tr>
-</table><p>
-<strong>(alphabetical by given name)</strong>
-</p>
+### Meeting Minutes
 
-<p>
-<strong> Regrets </strong>
-</p>
-<ul>
-<li class="level1">Chris Lilley (no travel funding)</li>
-<li class="level1">Lea Verou (speaking in Australia)</li>
-<li class="level1">Dael Jackson</li>
-<li class="level1">Hiroshi Sakakibara (my first baby will born) 🎁</li>
-<li class="level1">Jihye Hong</li>
-<li class="level1">Simon Pieters</li>
-</ul><h3 id="observers">Observers</h3>
-<div class="table sectionedit7"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Arrival </th><th class="col2"> Departure </th><th class="col3"> Hotel </th><th class="col4"> Flight info and notes </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> David Grogan (Google) </td><td class="col1"> 1 Aug </td><td class="col2"> 4 Aug </td><td class="col3"> </td><td class="col4"> </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Fred Wang (Igalia) </td><td class="col1"> 1 Aug </td><td class="col2"> 1 Aug </td><td class="col3"> </td><td class="col4"> </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Sergio Villar Senin (Igalia) </td><td class="col1"> 1 Aug </td><td class="col2"> 1 Aug </td><td class="col3"> </td><td class="col4"> </td>
-	</tr>
-</table></div><h3 id="topics">Topics</h3><h4 id="wednesday">Wednesday</h4><h5 id="morning">Morning</h5>
-<ul>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr> Timing <abbr title="specification">spec</abbr> (prefer Wednesday)<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1577" title="https://github.com/w3c/csswg-drafts/issues/1577" rel="noopener">Rename to CSS Easing Functions</a>?</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1301" title="https://github.com/w3c/csswg-drafts/issues/1301" rel="noopener">Naming of frames()</a></li>
-</ul>
-</li>
-<li class="level1">Counter Styles Open Issues, if not already covered. <a href="https://drafts.csswg.org/css-counter-styles-3/issues-cr-20150611" title="https://drafts.csswg.org/css-counter-styles-3/issues-cr-20150611" rel="noopener">https://drafts.csswg.org/css-counter-styles-3/issues-cr-20150611</a></li>
-<li class="level1">Media Queries 4: CR? <a href="https://drafts.csswg.org/mediaqueries-4/issues-wd-2016-01-26.html" title="https://drafts.csswg.org/mediaqueries-4/issues-wd-2016-01-26.html" rel="noopener">https://drafts.csswg.org/mediaqueries-4/issues-wd-2016-01-26.html</a></li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/1594" title="https://github.com/w3c/csswg-drafts/issues/1594" rel="noopener">Additive CSS</a> (On Wednesday please!) - Brian</li>
-<li class="level1 node">Align issues<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1002" title="https://github.com/w3c/csswg-drafts/issues/1002" rel="noopener">Allowing fallback alignments without breaking shorthands</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1039" title="https://github.com/w3c/csswg-drafts/issues/1039" rel="noopener">Baseline self-alignment may affect the intrinsic size contribution of the alignment subject.</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1365" title="https://github.com/w3c/csswg-drafts/issues/1365" rel="noopener">How items with synthesized baseline affect the size of intrinsic tracks</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1572" title="https://github.com/w3c/csswg-drafts/issues/1572" rel="noopener">Baseline of a multi-col box?</a></li>
-</ul>
-</li>
-</ul><h5 id="afternoon">Afternoon</h5>
-<ul>
-<li class="level1">Flexbox Open Issues: <a href="https://drafts.csswg.org/css-flexbox/issues-cr-20160526" title="https://drafts.csswg.org/css-flexbox/issues-cr-20160526" rel="noopener">https://drafts.csswg.org/css-flexbox/issues-cr-20160526</a></li>
-<li class="level1">selectors4 publication and review of dbaron&#039;s recent edit to <abbr title="Application Programming Interface">API</abbr> hooks (see <a href="https://lists.w3.org/Archives/Public/www-style/2017Jul/0022.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jul/0022.html" rel="noopener">email</a>)</li>
-<li class="level1">[selectors] propagation of the :focus pseudo <a href="https://github.com/w3c/csswg-drafts/issues/1240" title="https://github.com/w3c/csswg-drafts/issues/1240" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1240</a></li>
-<li class="level1 node">focus-ring<ul>
-<li class="level2">standardising as written <a href="https://wicg.github.io/focus-ring/spec/focusring.html" title="https://wicg.github.io/focus-ring/spec/focusring.html" rel="noopener">https://wicg.github.io/focus-ring/spec/focusring.html</a></li>
-<li class="level2 node">Open questions:<ul>
-<li class="level4">whether to (heuristically) match on any keyboard event, or only on tab/shift-tab <a href="https://github.com/WICG/focus-ring/issues/33" title="https://github.com/WICG/focus-ring/issues/33" rel="noopener">https://github.com/WICG/focus-ring/issues/33</a></li>
-<li class="level4">how to “reset” to “original” focus style</li>
-<li class="level4">whether finer-grained control should be available over when :focus-ring should match for a particular element (to allow matching the behaviour of e.g. &lt;input&gt;)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="level1">inert (<a href="https://github.com/WICG/inert/blob/master/README.md" title="https://github.com/WICG/inert/blob/master/README.md" rel="noopener">https://github.com/WICG/inert/blob/master/README.md</a>)</li>
-<li class="level1 node">Sizing<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/765" title="https://github.com/w3c/csswg-drafts/issues/765" rel="noopener">765</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/951" title="https://github.com/w3c/csswg-drafts/issues/951" rel="noopener">951</a></li>
-</ul>
-</li>
-</ul><h4 id="thursday">Thursday</h4><h5 id="morning1">Morning</h5>
-<ul>
-<li class="level1 node">Tables Issues - Greg/Francois<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/508#issuecomment-317529294" title="https://github.com/w3c/csswg-drafts/issues/508#issuecomment-317529294" rel="noopener">input{display:table-*}</a> - Greg</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/607#issuecomment-317532741" title="https://github.com/w3c/csswg-drafts/issues/607#issuecomment-317532741" rel="noopener">td{min-width:%}</a> - Francois</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/474#issuecomment-317544515" title="https://github.com/w3c/csswg-drafts/issues/474#issuecomment-317544515" rel="noopener">td&gt;div{height:%}</a> - Francois</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/484#issuecomment-317546569" title="https://github.com/w3c/csswg-drafts/issues/484#issuecomment-317546569" rel="noopener">fixed-layout width distribution</a> - Greg</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/478" title="https://github.com/w3c/csswg-drafts/issues/478" rel="noopener">col{visibility:collapse}</a> - Greg</li>
-</ul>
-</li>
-<li class="level1">Automating Test Coverage - Greg</li>
-<li class="level1">Revisiting policy around requiring tests for normative changes (see <a href="http://www.w3.org/mid/E68C12B1-A354-44CD-8F9A-334728997955@adobe.com" title="http://www.w3.org/mid/E68C12B1-A354-44CD-8F9A-334728997955@adobe.com" rel="noopener">email</a>) - Geoffrey/Chris (who isn&#039;t here)</li>
-<li class="level1 node">[<abbr title="Cascading Style Sheets">CSS</abbr>-UI-3] (Florian)<ul>
-<li class="level2">Getting ready for PR <a href="https://test.csswg.org/harness/results/css-ui-3_dev/grouped/filter/17/" title="https://test.csswg.org/harness/results/css-ui-3_dev/grouped/filter/17/" rel="noopener">https://test.csswg.org/harness/results/css-ui-3_dev/grouped/filter/17/</a></li>
-<li class="level2">Keep most cursor changes in the UA stylesheet? <a href="https://github.com/w3c/csswg-drafts/issues/1598" title="https://github.com/w3c/csswg-drafts/issues/1598" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1598</a></li>
-<li class="level2">Meaning of “must not affect dispatching of pointer events” <a href="https://github.com/w3c/csswg-drafts/issues/1637" title="https://github.com/w3c/csswg-drafts/issues/1637" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1637</a></li>
-<li class="level2">Note pointing to <abbr title="HyperText Markup Language">HTML</abbr>&#039;s definition of cursor applying to image maps? <a href="https://github.com/w3c/csswg-drafts/issues/1618" title="https://github.com/w3c/csswg-drafts/issues/1618" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1618</a></li>
-</ul>
-</li>
-</ul><h5 id="afternoon1">Afternoon</h5>
-<ul>
-<li class="level1 node">Fonts (Myles)<ul>
-<li class="level2">TAG review of OpenType variable fonts <a href="https://github.com/w3ctag/design-reviews/issues/183" title="https://github.com/w3ctag/design-reviews/issues/183" rel="noopener">https://github.com/w3ctag/design-reviews/issues/183</a></li>
-<li class="level2">[css-fonts] CSSFontFaceRule does not seem Web compatible <a href="https://github.com/w3c/csswg-drafts/issues/825" title="https://github.com/w3c/csswg-drafts/issues/825" rel="noopener">https://github.com/w3c/csswg-drafts/issues/825</a></li>
-<li class="level2">[css-fonts-4] We can&#039;t add new values to the font-synthesis property <a href="https://github.com/w3c/csswg-drafts/issues/1641" title="https://github.com/w3c/csswg-drafts/issues/1641" rel="noopener">1641</a></li>
-<li class="level2">“Ignored” @font-face <a href="https://github.com/w3c/csswg-drafts/issues/1133" title="https://github.com/w3c/csswg-drafts/issues/1133" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1133</a></li>
-<li class="level2">Which font properties are reset by the font shorthand? <a href="https://github.com/w3c/csswg-drafts/issues/1349" title="https://github.com/w3c/csswg-drafts/issues/1349" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1349</a></li>
-<li class="level2">Animating font-weight <a href="https://github.com/w3c/csswg-drafts/issues/1579" title="https://github.com/w3c/csswg-drafts/issues/1579" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1579</a></li>
-</ul>
-</li>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr> Display Level 3<ul>
-<li class="level2">Relation of <code>inline foo</code> and <code>inline-foo</code> (<a href="https://github.com/w3c/csswg-drafts/issues/1486" title="https://github.com/w3c/csswg-drafts/issues/1486" rel="noopener">1486</a> and <a href="https://github.com/w3c/csswg-drafts/issues/1246" title="https://github.com/w3c/csswg-drafts/issues/1246" rel="noopener">1246</a>)</li>
-<li class="level2">Potential reworking of flow-root syntax (<a href="https://github.com/w3c/csswg-drafts/issues/1496" title="https://github.com/w3c/csswg-drafts/issues/1496" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1496</a>)</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1486" title="https://github.com/w3c/csswg-drafts/issues/1486" rel="noopener">Should all the `inline-foo` and `inline foo` forms be distinct?</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1457" title="https://github.com/w3c/csswg-drafts/issues/1457" rel="noopener">Becoming a formatting context</a></li>
-<li class="level2">Any other open issues blocking CR</li>
-</ul>
-</li>
-<li class="level1">[<abbr title="Cascading Style Sheets">CSS</abbr>-UI-4] &#039;auto&#039; as the initial value for the &#039;appearance&#039; property may not be web-compatible <a href="https://github.com/w3c/csswg-drafts/issues/1250" title="https://github.com/w3c/csswg-drafts/issues/1250" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1250</a></li>
-<li class="level1">Which font properties should be resolved by the font shorthand? <a href="https://github.com/w3c/csswg-drafts/issues/1636" title="https://github.com/w3c/csswg-drafts/issues/1636" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1636</a></li>
-</ul><h4 id="friday">Friday</h4><h5 id="morning2">Morning</h5>
-<ul>
-<li class="level1"><a href="https://tabatkins.github.io/specs/css-shadow-parts/" title="https://tabatkins.github.io/specs/css-shadow-parts/" rel="noopener">CSS Shadow Parts</a> (poking into Shadow DOM in a more controlled manner)</li>
-<li class="level1 node">Review of TTML: send as a group or individually? (<a href="https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html" title="https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html" rel="noopener">https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html</a>)<ul>
-<li class="level2">coordination with TT WG over their requirements (followup from TAG meeting last week)</li>
-<li class="level2">Nigel Megitt could attend remotely on Friday</li>
-</ul>
-</li>
-<li class="level1">[css-break] Consider adding clone-most-nested <a href="https://github.com/w3c/csswg-drafts/issues/1633" title="https://github.com/w3c/csswg-drafts/issues/1633" rel="noopener">1633</a></li>
-<li class="level1 node">[css-text-3] letter-spacing - Koji<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1518" title="https://github.com/w3c/csswg-drafts/issues/1518" rel="noopener">End edge behavior</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1517" title="https://github.com/w3c/csswg-drafts/issues/1517" rel="noopener">Bidi-mixed directions</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1509" title="https://github.com/w3c/csswg-drafts/issues/1509" rel="noopener">Applying after line breaking</a></li>
-<li class="level2">finalizing “line-break: break-all” Bikesheding <a href="https://github.com/w3c/csswg-drafts/issues/1561" title="https://github.com/w3c/csswg-drafts/issues/1561" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1561</a> and merging <a href="https://github.com/w3c/csswg-drafts/pull/1438" title="https://github.com/w3c/csswg-drafts/pull/1438" rel="noopener">https://github.com/w3c/csswg-drafts/pull/1438</a> (Florian)</li>
-</ul>
-</li>
-<li class="level1">[css-text-4] <a href="https://github.com/w3c/csswg-drafts/issues/1668" title="https://github.com/w3c/csswg-drafts/issues/1668" rel="noopener"> text-spacing fullwidth punctuation collapsing</a> (Florian)</li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/1391" title="https://github.com/w3c/csswg-drafts/issues/1391" rel="noopener">[css-writing-modes] Orthogonal Flow Constraint: viewport vs scroller</a></li>
-</ul><h5 id="afternoon2">Afternoon</h5>
-<ul>
-<li class="level1">Renaming the dynamic and static profiles of selectors <a href="https://github.com/w3c/csswg-drafts/issues/1694" title="https://github.com/w3c/csswg-drafts/issues/1694" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1694</a> (Florian)</li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/1693" title="https://github.com/w3c/csswg-drafts/issues/1693" rel="noopener">CSS Variables that are not changed by the user</a> (dino)</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Grid issues</li>
-<li class="level1 node">maintenance of multicol<ul>
-<li class="level2">Adding Rachel Andrew as an editor</li>
-</ul>
-</li>
-<li class="level1">Quick intro to APL <a href="https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html" title="https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html" rel="noopener">https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html</a> (Florian)</li>
-<li class="level1 node">Inline Layout<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/938#issuecomment-314690847" title="https://github.com/w3c/csswg-drafts/issues/938#issuecomment-314690847" rel="noopener">Florian&#039;s further testing and investigations</a></li>
-</ul>
-</li>
-<li class="level1 node">[css-rhythm][css-line-grid] - Florian/Koji<ul>
-<li class="level2"><a href="https://groups.google.com/forum/#!msg/mozilla.dev.platform/cnEN_sccXJY/1ddo5XifAwAJ" title="https://groups.google.com/forum/#!msg/mozilla.dev.platform/cnEN_sccXJY/1ddo5XifAwAJ" rel="noopener">dbaron&#039;s comments on mozilla.dev.platform</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/938#issuecomment-318495149" title="https://github.com/w3c/csswg-drafts/issues/938#issuecomment-318495149" rel="noopener">Tab/Shane&#039;s proposal</a></li>
-</ul>
-</li>
-</ul><h3 id="proposed-agenda-topics">Proposed Agenda Topics</h3>
-<ul>
-<li class="level1 node">Informal breakout on difficult sizing issues?<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/794" title="https://github.com/w3c/csswg-drafts/issues/794" rel="noopener">794</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/1609" title="https://github.com/w3c/csswg-drafts/issues/1609" rel="noopener">1609</a></li>
-</ul>
-</li>
-</ul>
-</main>
-</body>
-</html>
+- Wednesday, Aug 2 [Part I](https://lists.w3.org/Archives/Public/www-style/2017Aug/0034.html), [Part II](https://lists.w3.org/Archives/Public/www-style/2017Aug/0035.html), [Part III](https://lists.w3.org/Archives/Public/www-style/2017Aug/0036.html), [Part IV](https://lists.w3.org/Archives/Public/www-style/2017Aug/0037.html)
+- Thursday, Aug 3 [Part I](https://lists.w3.org/Archives/Public/www-style/2017Aug/0031.html), [Part II](https://lists.w3.org/Archives/Public/www-style/2017Aug/0040.html), [Part III](https://lists.w3.org/Archives/Public/www-style/2017Aug/0041.html), [Part IV](https://lists.w3.org/Archives/Public/www-style/2017Aug/0042.html)
+- Friday, Aug 4 [Part I](https://lists.w3.org/Archives/Public/www-style/2017Sep/0000.html), [Part II](https://lists.w3.org/Archives/Public/www-style/2017Sep/0001.html), [Part III](https://lists.w3.org/Archives/Public/www-style/2017Sep/0002.html), [Part IV](https://lists.w3.org/Archives/Public/www-style/2017Sep/0003.html)
+
+### Location
+
+[Mozilla Paris](https://wiki.mozilla.org/Paris), 16bis Boulevard Montmartre, 75009 Paris, France
+
+See [Mozilla Paris wiki](https://wiki.mozilla.org/Paris) for important directions on finding and entering the space
+
+### Participants
+
+| Name | Arrival | Departure | Hotel | Flight info and notes |
+|----|----|----|----|----|
+| Alan Stearns | 28 July | 5 Aug | AirBnB |  |
+| Benjamin De Cock | 2 Aug | 5 Aug | Millennium Opera Hotel | Thalys |
+| Bert | 31 Jul | 4 Aug | Hôtel Joséphine | Train (Gare de Lyon) |
+| Brian Birtles | 30 July | 2 Aug | Hôtel Saint-Marc | JL415/416 |
+| Daniel Glazman | N/A | N/A | home | N/A |
+| Dave Cramer | 1 Aug | 5 Aug |  |  |
+| Dean Jackson | 1 Aug | 4 Aug |  | Walking, Swimming, Crawling |
+| Emil A Eklund | 1 Aug | 5 Aug | W Opera | TBD |
+| Eric Willigers |  |  |  |  |
+| fantasai | 31 July | 6 Aug | AirBnB |  |
+| Florian Rivoal |  |  | AirBnB | Train |
+| Francois Remy | 31 July | 4 Aug | AirBnB |  |
+| Geoffrey Sneddon | 31 Jul | 5 Aug | Mercure Paris Opera Louvre | (Probably some Eurostar) |
+| Greg Whitworth |  |  |  |  |
+| Ian Kilpatrick | Lundi | Samedi | ??? | Stallion |
+| Jack Moffitt |  |  |  |  |
+| Jen Simmons | 31 July | 5 Aug | AirBnb | BA304 (from London) / BA 8003 |
+| Jet Villegas | 28 July | 5 Aug | AirBnb | TBD |
+| Koji Ishii | 31 July | 5 Aug | TBD | TBD |
+| L. David Baron | 28 July | 5 Aug | Hôtel Acadia - Astotel | Eurostar 9032 / UA 984 |
+| Melanie Richards | 28 July | 5 Aug | Hotel Athenee | AF3653 / AF3622 |
+| Myles C. Maxfield |  |  | Eiffel Tower | Submarine |
+| Naina Raisinghani |  |  |  |  |
+| Peter Linss | 31 July | 5 Aug | AirBnB | Eurostar |
+| Rachel Andrew | 30 July | 5 Aug |  | BA315/BA314 |
+| Rob Flack | 31 July | 8 Aug | Hôtel Flor Rivoli | AC880/AC881 |
+| Rossen Atanassov | 1 Aug | 5 Aug | hotel | uber |
+| Simon Sapin |  |  | home |  |
+| Surma | 31 Jul | 5 Aug | Millennium Opera Hotel | BA336/BA335 |
+| Tab Atkins | 30 Jul | 5 Aug | AirBnB | FI548/FI549 |
+| Tantek Çelik | 2017-08-01 | 2017-08-10 | AirBnB | UA990/UA984 |
+| Till Schneidereit |  |  |  |  |
+
+**(alphabetical by given name)**
+
+**Regrets**
+
+- Chris Lilley (no travel funding)
+- Lea Verou (speaking in Australia)
+- Dael Jackson
+- Hiroshi Sakakibara (my first baby will born) 🎁
+- Jihye Hong
+- Simon Pieters
+
+### Observers
+
+| Name                         | Arrival | Departure | Hotel | Flight info and notes |
+|------------------------------|---------|-----------|-------|-----------------------|
+| David Grogan (Google)        | 1 Aug   | 4 Aug     |       |                       |
+| Fred Wang (Igalia)           | 1 Aug   | 1 Aug     |       |                       |
+| Sergio Villar Senin (Igalia) | 1 Aug   | 1 Aug     |       |                       |
+
+### Topics
+
+#### Wednesday
+
+##### Morning
+
+- CSS Timing spec (prefer Wednesday)
+  - [Rename to CSS Easing Functions](https://github.com/w3c/csswg-drafts/issues/1577)?
+  - [Naming of frames()](https://github.com/w3c/csswg-drafts/issues/1301)
+- Counter Styles Open Issues, if not already covered. <https://drafts.csswg.org/css-counter-styles-3/issues-cr-20150611>
+- Media Queries 4: CR? <https://drafts.csswg.org/mediaqueries-4/issues-wd-2016-01-26.html>
+- [Additive CSS](https://github.com/w3c/csswg-drafts/issues/1594) (On Wednesday please!) - Brian
+- Align issues
+  - [Allowing fallback alignments without breaking shorthands](https://github.com/w3c/csswg-drafts/issues/1002)
+  - [Baseline self-alignment may affect the intrinsic size contribution of the alignment subject.](https://github.com/w3c/csswg-drafts/issues/1039)
+  - [How items with synthesized baseline affect the size of intrinsic tracks](https://github.com/w3c/csswg-drafts/issues/1365)
+  - [Baseline of a multi-col box?](https://github.com/w3c/csswg-drafts/issues/1572)
+
+##### Afternoon
+
+- Flexbox Open Issues: <https://drafts.csswg.org/css-flexbox/issues-cr-20160526>
+- selectors4 publication and review of dbaron's recent edit to API hooks (see [email](https://lists.w3.org/Archives/Public/www-style/2017Jul/0022.html))
+- \[selectors\] propagation of the :focus pseudo <https://github.com/w3c/csswg-drafts/issues/1240>
+- focus-ring
+  - standardising as written <https://wicg.github.io/focus-ring/spec/focusring.html>
+  - Open questions:
+    - whether to (heuristically) match on any keyboard event, or only on tab/shift-tab <https://github.com/WICG/focus-ring/issues/33>
+    - how to “reset” to “original” focus style
+    - whether finer-grained control should be available over when :focus-ring should match for a particular element (to allow matching the behaviour of e.g. \<input\>)
+- inert (<https://github.com/WICG/inert/blob/master/README.md>)
+- Sizing
+  - [765](https://github.com/w3c/csswg-drafts/issues/765)
+  - [951](https://github.com/w3c/csswg-drafts/issues/951)
+
+#### Thursday
+
+##### Morning
+
+- Tables Issues - Greg/Francois
+  - [input{display:table-\*}](https://github.com/w3c/csswg-drafts/issues/508#issuecomment-317529294) - Greg
+  - [td{min-width:%}](https://github.com/w3c/csswg-drafts/issues/607#issuecomment-317532741) - Francois
+  - [td\>div{height:%}](https://github.com/w3c/csswg-drafts/issues/474#issuecomment-317544515) - Francois
+  - [fixed-layout width distribution](https://github.com/w3c/csswg-drafts/issues/484#issuecomment-317546569) - Greg
+  - [col{visibility:collapse}](https://github.com/w3c/csswg-drafts/issues/478) - Greg
+- Automating Test Coverage - Greg
+- Revisiting policy around requiring tests for normative changes (see [email](http://www.w3.org/mid/E68C12B1-A354-44CD-8F9A-334728997955@adobe.com)) - Geoffrey/Chris (who isn't here)
+- \[CSS-UI-3\] (Florian)
+  - Getting ready for PR <https://test.csswg.org/harness/results/css-ui-3_dev/grouped/filter/17/>
+  - Keep most cursor changes in the UA stylesheet? <https://github.com/w3c/csswg-drafts/issues/1598>
+  - Meaning of “must not affect dispatching of pointer events” <https://github.com/w3c/csswg-drafts/issues/1637>
+  - Note pointing to HTML's definition of cursor applying to image maps? <https://github.com/w3c/csswg-drafts/issues/1618>
+
+##### Afternoon
+
+- Fonts (Myles)
+  - TAG review of OpenType variable fonts <https://github.com/w3ctag/design-reviews/issues/183>
+  - \[css-fonts\] CSSFontFaceRule does not seem Web compatible <https://github.com/w3c/csswg-drafts/issues/825>
+  - \[css-fonts-4\] We can't add new values to the font-synthesis property [1641](https://github.com/w3c/csswg-drafts/issues/1641)
+  - “Ignored” @font-face <https://github.com/w3c/csswg-drafts/issues/1133>
+  - Which font properties are reset by the font shorthand? <https://github.com/w3c/csswg-drafts/issues/1349>
+  - Animating font-weight <https://github.com/w3c/csswg-drafts/issues/1579>
+- CSS Display Level 3
+  - Relation of `inline foo` and `inline-foo` ([1486](https://github.com/w3c/csswg-drafts/issues/1486) and [1246](https://github.com/w3c/csswg-drafts/issues/1246))
+  - Potential reworking of flow-root syntax (<https://github.com/w3c/csswg-drafts/issues/1496>)
+  - [Should all the \`inline-foo\` and \`inline foo\` forms be distinct?](https://github.com/w3c/csswg-drafts/issues/1486)
+  - [Becoming a formatting context](https://github.com/w3c/csswg-drafts/issues/1457)
+  - Any other open issues blocking CR
+- \[CSS-UI-4\] 'auto' as the initial value for the 'appearance' property may not be web-compatible <https://github.com/w3c/csswg-drafts/issues/1250>
+- Which font properties should be resolved by the font shorthand? <https://github.com/w3c/csswg-drafts/issues/1636>
+
+#### Friday
+
+##### Morning
+
+- [CSS Shadow Parts](https://tabatkins.github.io/specs/css-shadow-parts/) (poking into Shadow DOM in a more controlled manner)
+- Review of TTML: send as a group or individually? (<https://lists.w3.org/Archives/Public/www-style/2017Jul/0007.html>)
+  - coordination with TT WG over their requirements (followup from TAG meeting last week)
+  - Nigel Megitt could attend remotely on Friday
+- \[css-break\] Consider adding clone-most-nested [1633](https://github.com/w3c/csswg-drafts/issues/1633)
+- \[css-text-3\] letter-spacing - Koji
+  - [End edge behavior](https://github.com/w3c/csswg-drafts/issues/1518)
+  - [Bidi-mixed directions](https://github.com/w3c/csswg-drafts/issues/1517)
+  - [Applying after line breaking](https://github.com/w3c/csswg-drafts/issues/1509)
+  - finalizing “line-break: break-all” Bikesheding <https://github.com/w3c/csswg-drafts/issues/1561> and merging <https://github.com/w3c/csswg-drafts/pull/1438> (Florian)
+- \[css-text-4\] [text-spacing fullwidth punctuation collapsing](https://github.com/w3c/csswg-drafts/issues/1668) (Florian)
+- [\[css-writing-modes\] Orthogonal Flow Constraint: viewport vs scroller](https://github.com/w3c/csswg-drafts/issues/1391)
+
+##### Afternoon
+
+- Renaming the dynamic and static profiles of selectors <https://github.com/w3c/csswg-drafts/issues/1694> (Florian)
+- [CSS Variables that are not changed by the user](https://github.com/w3c/csswg-drafts/issues/1693) (dino)
+- CSS Grid issues
+- maintenance of multicol
+  - Adding Rachel Andrew as an editor
+- Quick intro to APL <https://www.kri.sfc.keio.ac.jp/en/lab/aplab.html> (Florian)
+- Inline Layout
+  - [Florian's further testing and investigations](https://github.com/w3c/csswg-drafts/issues/938#issuecomment-314690847)
+- \[css-rhythm\]\[css-line-grid\] - Florian/Koji
+  - [dbaron's comments on mozilla.dev.platform](https://groups.google.com/forum/#!msg/mozilla.dev.platform/cnEN_sccXJY/1ddo5XifAwAJ)
+  - [Tab/Shane's proposal](https://github.com/w3c/csswg-drafts/issues/938#issuecomment-318495149)
+
+### Proposed Agenda Topics
+
+- Informal breakout on difficult sizing issues?
+  - [794](https://github.com/w3c/csswg-drafts/issues/794)
+  - [1609](https://github.com/w3c/csswg-drafts/issues/1609)

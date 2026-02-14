@@ -1,118 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How to host a CSS Working Group meeting - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / hosting</div>
-<main>
-<h1 id="how-to-host-a-css-working-group-meeting">How to host a CSS Working Group meeting</h1>
-<p>
-(See also the general <a href="http://www.w3.org/Guide/hosting.htm" title="http://www.w3.org/Guide/hosting.htm" rel="noopener">&quot;Hosting W3C Face to Face Meetings.&quot;</a> and <a href="http://w3cmemes.tumblr.com/post/52184246050/for-future-reference-wg-members-are-assumed" title="http://w3cmemes.tumblr.com/post/52184246050/for-future-reference-wg-members-are-assumed" rel="noopener">F2F Illustration</a>)
-</p>
+---
+title: "How to host a CSS Working Group meeting"
+---
 
-<p>
-To host a <abbr title="Cascading Style Sheets">CSS</abbr> meeting, you MUST provide:
-</p>
-<ul>
-<li class="level1">A meeting room where the group can meet, without needing to sign any NDA or other agreement. Meetings are typically 3 days (4 days if co-hosting a <a href="https://wiki.css-houdini.org/" title="https://wiki.css-houdini.org/" rel="noopener"> Houdini</a> meeting), and a room is needed the entire time. It SHOULD be the same room every day.</li>
-<li class="level1">Chairs for people to sit in and tables for them to put their laptops at (which SHOULD be arranged in a U shape) such that the participants can easily hear each other speak. Attendance may vary, but is typically around 30 people.</li>
-<li class="level1">electricity for everybody&#039;s laptops (probably assume greater than 1 device per person average)</li>
-<li class="level1">network connectivity that allows at least access to Web, <abbr title="Internet Relay Chat">IRC</abbr>, and email, and preferably also skype/VoIP</li>
-<li class="level1">A projection screen easily visible from all the chairs, and preferably to which anyone in any of the chairs can project from their seats</li>
-<li class="level1">Either a whiteboard or flipchart that people can draw on, also visible from all the seats.</li>
-<li class="level1">A setup that allows participants to participate remotely (for example, via Zoom), so that remote participants can hear those in the room, and those in the room can hear the remote participants</li>
-<li class="level1">All of the above MUST be ready to go by 9am on each meeting day, and must remain available until the end of the meeting at 6pm.</li>
-<li class="level1">The meeting room SHOULD be available half an hour before the meeting start so that people can arrive, and SHOULD remain available for at least 30 minutes to an hour after the likely end of the meeting, both so that the meeting can continue a few minutes longer if needed, and so that participants can linger to finish ongoing conversations, make dinner plans, etc.</li>
-<li class="level1">instructions for how to get to the meeting location</li>
-</ul>
+# How to host a CSS Working Group meeting
 
-<p>
+(See also the general ["Hosting W3C Face to Face Meetings."](http://www.w3.org/Guide/hosting.htm) and [F2F Illustration](http://w3cmemes.tumblr.com/post/52184246050/for-future-reference-wg-members-are-assumed))
+
+To host a CSS meeting, you MUST provide:
+
+- A meeting room where the group can meet, without needing to sign any NDA or other agreement. Meetings are typically 3 days (4 days if co-hosting a [Houdini](https://wiki.css-houdini.org/) meeting), and a room is needed the entire time. It SHOULD be the same room every day.
+- Chairs for people to sit in and tables for them to put their laptops at (which SHOULD be arranged in a U shape) such that the participants can easily hear each other speak. Attendance may vary, but is typically around 30 people.
+- electricity for everybody's laptops (probably assume greater than 1 device per person average)
+- network connectivity that allows at least access to Web, IRC, and email, and preferably also skype/VoIP
+- A projection screen easily visible from all the chairs, and preferably to which anyone in any of the chairs can project from their seats
+- Either a whiteboard or flipchart that people can draw on, also visible from all the seats.
+- A setup that allows participants to participate remotely (for example, via Zoom), so that remote participants can hear those in the room, and those in the room can hear the remote participants
+- All of the above MUST be ready to go by 9am on each meeting day, and must remain available until the end of the meeting at 6pm.
+- The meeting room SHOULD be available half an hour before the meeting start so that people can arrive, and SHOULD remain available for at least 30 minutes to an hour after the likely end of the meeting, both so that the meeting can continue a few minutes longer if needed, and so that participants can linger to finish ongoing conversations, make dinner plans, etc.
+- instructions for how to get to the meeting location
+
 You also SHOULD provide:
-</p>
-<ul>
-<li class="level1">food and drinks for during the meeting (or have them otherwise reasonably available):  mid-morning coffee break, lunch, mid-afternoon break, and MAY also have breakfast available.  You should reasonably accommodate vegetarians, such as having eggs during breakfast to provide non-meat protein. Accommodating other food restrictions is desirable if possible. (More details here.)</li>
-<li class="level1">natural light in the meeting room (which helps people who are jetlagged)</li>
-<li class="level1">a meeting space that does not permit smoking indoors</li>
-<li class="level1">A secondary meeting room, to enable the group to temporarily split and discuss in parallel topics which only interest a subset of the members.</li>
-<li class="level1">On-premise or nearby child care during meeting hours</li>
-</ul>
 
-<p>
+- food and drinks for during the meeting (or have them otherwise reasonably available): mid-morning coffee break, lunch, mid-afternoon break, and MAY also have breakfast available. You should reasonably accommodate vegetarians, such as having eggs during breakfast to provide non-meat protein. Accommodating other food restrictions is desirable if possible. (More details here.)
+- natural light in the meeting room (which helps people who are jetlagged)
+- a meeting space that does not permit smoking indoors
+- A secondary meeting room, to enable the group to temporarily split and discuss in parallel topics which only interest a subset of the members.
+- On-premise or nearby child care during meeting hours
+
 You MAY also:
-</p>
-<ul>
-<li class="level1">Invite everybody for dinner once during the F2F. This is often done and appreciated, but is not a requirement and members do understand that you may have budget constraints.</li>
-<li class="level1">Organize a side event to meet with local web developers. If you do so, you SHOULD inform the CSSWG members well in advance, as they may otherwise have conflicting travel plans.</li>
-</ul>
-</main>
-</body>
-</html>
+
+- Invite everybody for dinner once during the F2F. This is often done and appreciated, but is not a requirement and members do understand that you may have budget constraints.
+- Organize a side event to meet with local web developers. If you do so, you SHOULD inform the CSSWG members well in advance, as they may otherwise have conflicting travel plans.

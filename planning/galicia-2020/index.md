@@ -1,310 +1,168 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>A Coruña F2F January 2020 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / galicia-2020</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "A Coruña F2F January 2020"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#a-coruña-f2f-january-2020">A Coruña F2F January 2020</a><ul class="toc">
-<li class="level2"><a href="#logisticsregistration">Logistics / Registration</a></li>
-<li class="level2"><a href="#agenda">Agenda</a></li>
-<li class="level2"><a href="#schedule">Schedule</a><ul class="toc">
-<li class="level3"><a href="#constraints">Constraints</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# A Coruña F2F January 2020
 
-<h1 id="a-coruña-f2f-january-2020">A Coruña F2F January 2020</h1><h2 id="logisticsregistration">Logistics / Registration</h2>
-<ul>
-<li class="level1">Host: Igalia</li>
-<li class="level1">Location: <a href="https://goo.gl/maps/34b8ARCndsT2" title="https://goo.gl/maps/34b8ARCndsT2" rel="noopener">Igalia, A Coruña, Galicia, Spain</a></li>
-<li class="level1">Dates: Wednesday-Friday, January 22-24, 2020</li>
-<li class="level1">Times: Each day will be <strong>10:00 to 19:00</strong> (10am to 7pm) (<a href="https://log.csswg.org/irc.w3.org/css/2019-09-15/#e1234653" title="https://log.csswg.org/irc.w3.org/css/2019-09-15/#e1234653" rel="noopener">resolution</a>)</li>
-<li class="level1">Lunch: In the office all days 14:00-15:00</li>
-<li class="level1"><a href="../../planning/logistics/galicia-2020/" title="planning:logistics:galicia-2020">Participants / Registration</a></li>
-<li class="level1">See also <a href="https://www.meetup.com/GPUL-Labs/events/267002801/" title="https://www.meetup.com/GPUL-Labs/events/267002801/" rel="noopener">Developers Meetup</a></li>
-</ul><h2 id="agenda">Agenda</h2>
-<ul>
-<li class="level1"><strong>Also see <a href="https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&amp;q=label%3A%22Agenda%2B+F2F%22" title="https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&amp;q=label%3A%22Agenda%2B+F2F%22" rel="noopener">csswg-drafts issues</a> and <a href="https://github.com/w3c/fxtf-drafts/issues?utf8=%E2%9C%93&amp;q=label%3A%22Agenda%2B+F2F%22" title="https://github.com/w3c/fxtf-drafts/issues?utf8=%E2%9C%93&amp;q=label%3A%22Agenda%2B+F2F%22" rel="noopener">fxtf-drafts issues</a>.</strong></li>
-<li class="level1">Display Level 4: Display Noneness of Various Kinds <strong>(LINK PLEASE???)</strong></li>
-</ul><h2 id="schedule">Schedule</h2>
-<p>
-<strong>Wednesday Morning</strong>
-</p>
-<ul>
-<li class="level1 node">V&amp;U issues:<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/2513" title="https://github.com/w3c/csswg-drafts/issues/2513" rel="noopener">round()/floor()/ceil()/mod()</a> (tab)</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4673" title="https://github.com/w3c/csswg-drafts/issues/4673" rel="noopener">sign()</a> (tab)</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4688" title="https://github.com/w3c/csswg-drafts/issues/4688" rel="noopener">the rest of the JS math functions</a> (tab)</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4551" title="https://github.com/w3c/csswg-drafts/issues/4551" rel="noopener">require double precision for calculation trees</a> (tab)</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4329" title="https://github.com/w3c/csswg-drafts/issues/4329" rel="noopener">vhc unit, or other ways to address the shortcomings of viewport units in mobile cases</a> (fantasai, jensimmons)</li>
-</ul>
-</li>
-</ul>
+## Logistics / Registration
 
-<p>
-<strong>Wednesday Afternoon</strong>
-</p>
-<ul>
-<li class="level1">Finalize dates for summer meeting</li>
-<li class="level1 node">Align<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4033" title="https://github.com/w3c/csswg-drafts/issues/4033" rel="noopener">vertical-align in orthogonal table cells</a> - side prep discussion with fremy, fantasai, florian, Tab, then WG discussion</li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/3611" title="https://github.com/w3c/csswg-drafts/issues/3611" rel="noopener">[css-align] Special case for inline-block+scroll-container elements needs to cover inline blocks that **contain** scroll containers</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4525" title="https://github.com/w3c/csswg-drafts/issues/4525" rel="noopener">[css-align] Does stretch work when width/height only behaves as auto?</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4659" title="https://github.com/w3c/csswg-drafts/issues/4659" rel="noopener">[css-align] Center alignment can be improved</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4660" title="https://github.com/w3c/csswg-drafts/issues/4660" rel="noopener">[css-align-3] Punt baseline-alignment to level 4</a></li>
-<li class="level2">All remaining issues, go to CR?</li>
-</ul>
-</li>
-<li class="level1 node">Scroll Snap<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4651" title="https://github.com/w3c/csswg-drafts/issues/4651" rel="noopener">[css-scroll-snap-1] Snapping on both axes allows re-snap after layout to choose inconsistent snap targets</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4609" title="https://github.com/w3c/csswg-drafts/issues/4609" rel="noopener">[css-scroll-snap-1] re-snapping after layout with animations</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4496" title="https://github.com/w3c/csswg-drafts/issues/4496" rel="noopener">[css-scroll-snap-1] Snap area trapping behavior of non scrollable elements</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4393" title="https://github.com/w3c/csswg-drafts/issues/4393" rel="noopener">[css-scroll-anchoring] [css-scroll-snap] What&#039;s the optimal viewing rect on the root scroller?</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/3815" title="https://github.com/w3c/csswg-drafts/issues/3815" rel="noopener">[css-scroll-snap-1] Clarify which writing-mode is used for scroll-snap-align, scroll container or snap position element? </a></li>
-</ul>
-</li>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr> Backgrounds Level 3<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4135" title="https://github.com/w3c/csswg-drafts/issues/4135" rel="noopener">[css-backgrounds] Number of layers in getComputedStyle results</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/2675" title="https://github.com/w3c/csswg-drafts/issues/2675" rel="noopener">[css-backgrounds-3] background-size with &quot;&lt;length-percentage&gt; auto&quot; and gradient image is not interoperably implemented</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Aissue+label%3Acss-backgrounds-3++-label%3A%22Needs+Edits%22+" title="https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Aissue+label%3Acss-backgrounds-3++-label%3A%22Needs+Edits%22+" rel="noopener">Remaining issues: do we need to do anything with them, or close them out?</a></li>
-</ul>
-</li>
-</ul>
-<ul>
-<li class="level1"><a href="https://github.com/w3c/svgwg/issues/773" title="https://github.com/w3c/svgwg/issues/773" rel="noopener">Support pathLength via CSS</a> — request from SVG WG for <abbr title="Cascading Style Sheets">CSS</abbr> WG to sign off on a new geometry property (pending review of implementability, as discussed in the issue) (tab, others?)</li>
-</ul>
-<ul>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/4470" title="https://github.com/w3c/csswg-drafts/issues/4470" rel="noopener">[css-cascade] Custom cascade origins</a> (jensimmons, perhaps with Miriam Suzanne calling in)</li>
-</ul>
+- Host: Igalia
+- Location: [Igalia, A Coruña, Galicia, Spain](https://goo.gl/maps/34b8ARCndsT2)
+- Dates: Wednesday-Friday, January 22-24, 2020
+- Times: Each day will be **10:00 to 19:00** (10am to 7pm) ([resolution](https://log.csswg.org/irc.w3.org/css/2019-09-15/#e1234653))
+- Lunch: In the office all days 14:00-15:00
+- [Participants / Registration](../../planning/logistics/galicia-2020/ "planning:logistics:galicia-2020")
+- See also [Developers Meetup](https://www.meetup.com/GPUL-Labs/events/267002801/)
 
-<p>
-<strong>Thursday Morning</strong>
-</p>
-<ul>
-<li class="level1 node">Multicol<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4689" title="https://github.com/w3c/csswg-drafts/issues/4689" rel="noopener">[css-multicol] Defining what happens with column-fill in unconstrained containers for continuous and fragmented contexts </a></li>
-<li class="level2">Organizing cross-<abbr title="specification">spec</abbr> multicol tests</li>
-</ul>
-</li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/4650" title="https://github.com/w3c/csswg-drafts/issues/4650" rel="noopener">[css-grid-2] Masonry layout</a></li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/3973" title="https://github.com/w3c/csswg-drafts/issues/3973" rel="noopener">[css-sizing-3] Why was min-content, etc. redefined to do nothing in the block axis?</a></li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518" title="https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518" rel="noopener">Rhythm, line-grid and tests</a></li>
-</ul>
-<ul>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/4662" title="https://github.com/w3c/csswg-drafts/issues/4662" rel="noopener">[css-transforms-1] &#039;view-box&#039; definition doesn&#039;t make sense</a></li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/4674" title="https://github.com/w3c/csswg-drafts/issues/4674" rel="noopener">[css-overflow-4] scrollbar-gutter is too complex</a></li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/4670" title="https://github.com/w3c/csswg-drafts/issues/4670" rel="noopener">[css-env] safe-area-insets-* for embedded document by iframe</a></li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/3153" title="https://github.com/w3c/csswg-drafts/issues/3153" rel="noopener">[web-animations-1][css-ui] Animating user-interaction controls</a></li>
-</ul>
-<ul>
-<li class="level1 node">TRIAGE ALL THE SPECS - What needs publishing? What&#039;s blocked? What has outstanding edits needed? Let&#039;s get things up-to-date.<ul>
-<li class="level2">FPWD!!!!! resize-observer, mediaqueries-5, css-transforms-2, css-conditional-4, css-highlight-api-1, css-color-5, anything else?</li>
-</ul>
-</li>
-</ul>
+## Agenda
 
-<p>
-<strong>Thursday Afternoon</strong>
-</p>
-<ul>
-<li class="level1 node">Constructable Style Sheets (heycam)<ul>
-<li class="level2"><a href="https://github.com/WICG/construct-stylesheets/issues/105" title="https://github.com/WICG/construct-stylesheets/issues/105" rel="noopener">CSSStyleSheetInit dictionary may have unintended usage</a></li>
-<li class="level2"><a href="https://github.com/WICG/construct-stylesheets/issues/95" title="https://github.com/WICG/construct-stylesheets/issues/95" rel="noopener">Defined location/href of Constructed Stylesheets</a></li>
-<li class="level2"><a href="https://github.com/WICG/construct-stylesheets/issues/93" title="https://github.com/WICG/construct-stylesheets/issues/93" rel="noopener">Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?</a></li>
-<li class="level2"><a href="https://github.com/WICG/construct-stylesheets/issues/45" title="https://github.com/WICG/construct-stylesheets/issues/45" rel="noopener">Instead of assignable FrozenArray, use add / remove</a></li>
-</ul>
-</li>
-</ul>
-<ul>
-<li class="level1 node">Color<ul>
-<li class="level2 node">Serialization/OM issues<ul>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/982" title="https://github.com/w3c/csswg-drafts/issues/982" rel="noopener">[css-color-4][cssom] Overlap between the definition of resolving color values and serializing &lt;color&gt; component values.</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/480" title="https://github.com/w3c/csswg-drafts/issues/480" rel="noopener">[css-color] Serializing color() values</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/1004" title="https://github.com/w3c/csswg-drafts/issues/1004" rel="noopener">[css-color][cssom] Serialization of specified &lt;color&gt; values</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/1891" title="https://github.com/w3c/csswg-drafts/issues/1891" rel="noopener">[css-color-4] Computed/used value of color doesn&#039;t specify how to serialize.</a></li>
-<li class="level3"><a href="https://github.com/w3c/csswg-drafts/issues/585" title="https://github.com/w3c/csswg-drafts/issues/585" rel="noopener">[cssom][css-color] Need clarification on serialization of `rgb` &amp; `rgba` in light of css-color-4&#039;s syntax changes</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li class="level1 node">Fonts<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4606" title="https://github.com/w3c/csswg-drafts/issues/4606" rel="noopener">[css-fonts] The Cursive = Chinese Kaiti equivalent</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4573" title="https://github.com/w3c/csswg-drafts/issues/4573" rel="noopener">Add ISO 15924 script codes to unicode-range</a></li>
-</ul>
-</li>
-</ul>
-<ul>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/4645" title="https://github.com/w3c/csswg-drafts/issues/4645" rel="noopener">[dialog element] &lt;dialog&gt; positioning should be describable in CSS</a> (smfr would like to call in)</li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/4680" title="https://github.com/w3c/csswg-drafts/issues/4680" rel="noopener">[css-om-view] How does scrolling relate to mouseWheel event propagation?</a> (smfr would like to call in)</li>
-</ul>
-<ul>
-<li class="level1 node">Motion<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/3468" title="https://github.com/w3c/csswg-drafts/issues/3468" rel="noopener">Decide on final approach for merging all uses of shapes</a> (amelia, tab, krit?)</li>
-<li class="level2"><a href="https://github.com/w3c/fxtf-drafts/issues/369" title="https://github.com/w3c/fxtf-drafts/issues/369" rel="noopener">[motion-1] The definition of &quot;containing box&quot; for ray() function</a></li>
-</ul>
-</li>
-<li class="level1 node">Fonts for afternoon callers<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4108" title="https://github.com/w3c/csswg-drafts/issues/4108" rel="noopener">[css-fonts-4] font-display: optional without relayout</a> (tabatkins, chrishtr)</li>
-</ul>
-</li>
-</ul>
+- **Also see [csswg-drafts issues](https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22) and [fxtf-drafts issues](https://github.com/w3c/fxtf-drafts/issues?utf8=%E2%9C%93&q=label%3A%22Agenda%2B+F2F%22).**
+- Display Level 4: Display Noneness of Various Kinds **(LINK PLEASE???)**
 
-<p>
-<strong>Friday Morning</strong>
-</p>
-<ul>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/4497" title="https://github.com/w3c/csswg-drafts/issues/4497" rel="noopener">[css-fonts] limit local fonts to those selected by users in browser settings</a> Pete Snyder may call in</li>
-<li class="level1 node">Text part 1<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4276" title="https://github.com/w3c/csswg-drafts/issues/4276" rel="noopener">[css-text-decor] Clarifying skip-ink:auto behavior in relation to CJK text </a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4492" title="https://github.com/w3c/csswg-drafts/issues/4492" rel="noopener">[css-ruby-1] ruby overhang control</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4419" title="https://github.com/w3c/csswg-drafts/issues/4419" rel="noopener">[css-text] Line breaking for ambiguous characters; e.g., U+2010, U+2013</a></li>
-</ul>
-</li>
-<li class="level1 node">Inline 3: <a href="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3Acss-inline-3+label%3A%22Agenda%2B+F2F%22" title="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3Acss-inline-3+label%3A%22Agenda%2B+F2F%22" rel="noopener">leading-trim etc.</a><ul>
-<li class="level3 node">higher priority<ul>
-<li class="level5"><a href="https://github.com/w3c/csswg-drafts/issues/3978" title="https://github.com/w3c/csswg-drafts/issues/3978" rel="noopener">make text of leading-trim interoperable?</a></li>
-<li class="level5"><a href="https://github.com/w3c/csswg-drafts/issues/3955" title="https://github.com/w3c/csswg-drafts/issues/3955" rel="noopener">apply leading-trim to inlines?</a></li>
-<li class="level5"><a href="https://github.com/w3c/csswg-drafts/issues/4171" title="https://github.com/w3c/csswg-drafts/issues/4171" rel="noopener">initial-letter feedback from implementation</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="level1 node">Text part 2<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4576" title="https://github.com/w3c/csswg-drafts/issues/4576" rel="noopener">[css-text] Atomic inlines being equivalent to ID for line breaking is not web-compatible</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4445" title="https://github.com/w3c/csswg-drafts/issues/4445" rel="noopener">[css-text] Writing System prose is currently unimplementable on ICU</a></li>
-</ul>
-</li>
-</ul>
+## Schedule
 
-<p>
-<strong>Friday Afternoon</strong>
-</p>
-<ul>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/4608" title="https://github.com/w3c/csswg-drafts/issues/4608" rel="noopener">[css-color-adjust] Used color-scheme should affect the root element color, not initial color </a></li>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/2513" title="https://github.com/w3c/csswg-drafts/issues/2513" rel="noopener">idea to resolve the mod() conflict</a> (tab)</li>
-<li class="level1 node">Text part 3<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4419" title="https://github.com/w3c/csswg-drafts/issues/4419" rel="noopener"> [css-text] Line breaking for ambiguous characters; e.g., U+2010, U+2013</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4405" title="https://github.com/w3c/csswg-drafts/issues/4405" rel="noopener">[css-text] treat all-neutral lines same as empty ones for plaintext alignment</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4297" title="https://github.com/w3c/csswg-drafts/issues/4297" rel="noopener">[css-text] Hanging spaces can&#039;t be scrollable overflow</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/3481" title="https://github.com/w3c/csswg-drafts/issues/3481" rel="noopener">[css-text] Remove collapsible line breaks adjacent to word separators</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/337" title="https://github.com/w3c/csswg-drafts/issues/337" rel="noopener">[css-text] https://github.com/w3c/csswg-drafts/issues/337</a></li>
-</ul>
-</li>
-<li class="level1 node">Inline 3: <a href="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3Acss-inline-3+label%3A%22Agenda%2B+F2F%22" title="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3Acss-inline-3+label%3A%22Agenda%2B+F2F%22" rel="noopener">leading-trim etc.</a><ul>
-<li class="level3 node">lower priority<ul>
-<li class="level5"><a href="https://github.com/w3c/csswg-drafts/issues/4495" title="https://github.com/w3c/csswg-drafts/issues/4495" rel="noopener">vertical-align: middle in vertical text</a></li>
-<li class="level5"><a href="https://github.com/w3c/csswg-drafts/issues/4010" title="https://github.com/w3c/csswg-drafts/issues/4010" rel="noopener">leading-trim overflow: ink or scrollable?</a></li>
-<li class="level5"><a href="https://github.com/w3c/csswg-drafts/issues/3956" title="https://github.com/w3c/csswg-drafts/issues/3956" rel="noopener">leading-trim vs descendant inlines</a></li>
-<li class="level5"><a href="https://github.com/w3c/csswg-drafts/issues/3749" title="https://github.com/w3c/csswg-drafts/issues/3749" rel="noopener">resolved value of line-height - follow-up</a></li>
-<li class="level5"><a href="https://github.com/w3c/csswg-drafts/issues/3698" title="https://github.com/w3c/csswg-drafts/issues/3698" rel="noopener">initial-letter zero sink?</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li class="level1">5PM <a href="https://github.com/w3c/csswg-drafts/issues/4531" title="https://github.com/w3c/csswg-drafts/issues/4531" rel="noopener">[css-sizing] intrinsic-size lost the thread</a></li>
-<li class="level1 node">Fonts for afternoon callers part 2?<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/4108" title="https://github.com/w3c/csswg-drafts/issues/4108" rel="noopener">[css-fonts-4] font-display: optional without relayout</a> (tabatkins, chrishtr)</li>
-</ul>
-</li>
-</ul><h3 id="constraints">Constraints</h3>
-<p>
-* Please schedule motion topics in AM (Eric will dial in)
-</p>
+**Wednesday Morning**
 
-<p>
-* Dialog positioning, mouseWheel (and maybe vhc unit) at a US-friendly time for smfr
-</p>
+- V&U issues:
+  - [round()/floor()/ceil()/mod()](https://github.com/w3c/csswg-drafts/issues/2513) (tab)
+  - [sign()](https://github.com/w3c/csswg-drafts/issues/4673) (tab)
+  - [the rest of the JS math functions](https://github.com/w3c/csswg-drafts/issues/4688) (tab)
+  - [require double precision for calculation trees](https://github.com/w3c/csswg-drafts/issues/4551) (tab)
+  - [vhc unit, or other ways to address the shortcomings of viewport units in mobile cases](https://github.com/w3c/csswg-drafts/issues/4329) (fantasai, jensimmons)
 
-<p>
-* cbiesinger has to leave a bit early on Friday, please schedule intrinsic size before that
-</p>
+**Wednesday Afternoon**
 
-<p>
-* chrishtr will be able to dial in at 4:45pm or later on Friday for the intrinsic size discussion
-</p>
-</main>
-</body>
-</html>
+- Finalize dates for summer meeting
+- Align
+  - [vertical-align in orthogonal table cells](https://github.com/w3c/csswg-drafts/issues/4033) - side prep discussion with fremy, fantasai, florian, Tab, then WG discussion
+  - [\[css-align\] Special case for inline-block+scroll-container elements needs to cover inline blocks that \*\*contain\*\* scroll containers](https://github.com/w3c/csswg-drafts/issues/3611)
+  - [\[css-align\] Does stretch work when width/height only behaves as auto?](https://github.com/w3c/csswg-drafts/issues/4525)
+  - [\[css-align\] Center alignment can be improved](https://github.com/w3c/csswg-drafts/issues/4659)
+  - [\[css-align-3\] Punt baseline-alignment to level 4](https://github.com/w3c/csswg-drafts/issues/4660)
+  - All remaining issues, go to CR?
+- Scroll Snap
+  - [\[css-scroll-snap-1\] Snapping on both axes allows re-snap after layout to choose inconsistent snap targets](https://github.com/w3c/csswg-drafts/issues/4651)
+  - [\[css-scroll-snap-1\] re-snapping after layout with animations](https://github.com/w3c/csswg-drafts/issues/4609)
+  - [\[css-scroll-snap-1\] Snap area trapping behavior of non scrollable elements](https://github.com/w3c/csswg-drafts/issues/4496)
+  - [\[css-scroll-anchoring\] \[css-scroll-snap\] What's the optimal viewing rect on the root scroller?](https://github.com/w3c/csswg-drafts/issues/4393)
+  - [\[css-scroll-snap-1\] Clarify which writing-mode is used for scroll-snap-align, scroll container or snap position element?](https://github.com/w3c/csswg-drafts/issues/3815)
+- CSS Backgrounds Level 3
+  - [\[css-backgrounds\] Number of layers in getComputedStyle results](https://github.com/w3c/csswg-drafts/issues/4135)
+  - [\[css-backgrounds-3\] background-size with "\<length-percentage\> auto" and gradient image is not interoperably implemented](https://github.com/w3c/csswg-drafts/issues/2675)
+  - [Remaining issues: do we need to do anything with them, or close them out?](https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Acss-backgrounds-3++-label%3A%22Needs+Edits%22+)
+
+<!-- -->
+
+- [Support pathLength via CSS](https://github.com/w3c/svgwg/issues/773) — request from SVG WG for CSS WG to sign off on a new geometry property (pending review of implementability, as discussed in the issue) (tab, others?)
+
+<!-- -->
+
+- [\[css-cascade\] Custom cascade origins](https://github.com/w3c/csswg-drafts/issues/4470) (jensimmons, perhaps with Miriam Suzanne calling in)
+
+**Thursday Morning**
+
+- Multicol
+  - [\[css-multicol\] Defining what happens with column-fill in unconstrained containers for continuous and fragmented contexts](https://github.com/w3c/csswg-drafts/issues/4689)
+  - Organizing cross-spec multicol tests
+- [\[css-grid-2\] Masonry layout](https://github.com/w3c/csswg-drafts/issues/4650)
+- [\[css-sizing-3\] Why was min-content, etc. redefined to do nothing in the block axis?](https://github.com/w3c/csswg-drafts/issues/3973)
+- [Rhythm, line-grid and tests](https://github.com/w3c/csswg-drafts/issues/938#issuecomment-575499518)
+
+<!-- -->
+
+- [\[css-transforms-1\] 'view-box' definition doesn't make sense](https://github.com/w3c/csswg-drafts/issues/4662)
+- [\[css-overflow-4\] scrollbar-gutter is too complex](https://github.com/w3c/csswg-drafts/issues/4674)
+- [\[css-env\] safe-area-insets-\* for embedded document by iframe](https://github.com/w3c/csswg-drafts/issues/4670)
+- [\[web-animations-1\]\[css-ui\] Animating user-interaction controls](https://github.com/w3c/csswg-drafts/issues/3153)
+
+<!-- -->
+
+- TRIAGE ALL THE SPECS - What needs publishing? What's blocked? What has outstanding edits needed? Let's get things up-to-date.
+  - FPWD!!!!! resize-observer, mediaqueries-5, css-transforms-2, css-conditional-4, css-highlight-api-1, css-color-5, anything else?
+
+**Thursday Afternoon**
+
+- Constructable Style Sheets (heycam)
+  - [CSSStyleSheetInit dictionary may have unintended usage](https://github.com/WICG/construct-stylesheets/issues/105)
+  - [Defined location/href of Constructed Stylesheets](https://github.com/WICG/construct-stylesheets/issues/95)
+  - [Should adoptedStyleSheets be ordered before other style sheets in the tree, instead of after?](https://github.com/WICG/construct-stylesheets/issues/93)
+  - [Instead of assignable FrozenArray, use add / remove](https://github.com/WICG/construct-stylesheets/issues/45)
+
+<!-- -->
+
+- Color
+  - Serialization/OM issues
+    - [\[css-color-4\]\[cssom\] Overlap between the definition of resolving color values and serializing \<color\> component values.](https://github.com/w3c/csswg-drafts/issues/982)
+    - [\[css-color\] Serializing color() values](https://github.com/w3c/csswg-drafts/issues/480)
+    - [\[css-color\]\[cssom\] Serialization of specified \<color\> values](https://github.com/w3c/csswg-drafts/issues/1004)
+    - [\[css-color-4\] Computed/used value of color doesn't specify how to serialize.](https://github.com/w3c/csswg-drafts/issues/1891)
+    - [\[cssom\]\[css-color\] Need clarification on serialization of \`rgb\` & \`rgba\` in light of css-color-4's syntax changes](https://github.com/w3c/csswg-drafts/issues/585)
+
+<!-- -->
+
+- Fonts
+  - [\[css-fonts\] The Cursive = Chinese Kaiti equivalent](https://github.com/w3c/csswg-drafts/issues/4606)
+  - [Add ISO 15924 script codes to unicode-range](https://github.com/w3c/csswg-drafts/issues/4573)
+
+<!-- -->
+
+- [\[dialog element\] \<dialog\> positioning should be describable in CSS](https://github.com/w3c/csswg-drafts/issues/4645) (smfr would like to call in)
+- [\[css-om-view\] How does scrolling relate to mouseWheel event propagation?](https://github.com/w3c/csswg-drafts/issues/4680) (smfr would like to call in)
+
+<!-- -->
+
+- Motion
+  - [Decide on final approach for merging all uses of shapes](https://github.com/w3c/csswg-drafts/issues/3468) (amelia, tab, krit?)
+  - [\[motion-1\] The definition of "containing box" for ray() function](https://github.com/w3c/fxtf-drafts/issues/369)
+- Fonts for afternoon callers
+  - [\[css-fonts-4\] font-display: optional without relayout](https://github.com/w3c/csswg-drafts/issues/4108) (tabatkins, chrishtr)
+
+**Friday Morning**
+
+- [\[css-fonts\] limit local fonts to those selected by users in browser settings](https://github.com/w3c/csswg-drafts/issues/4497) Pete Snyder may call in
+- Text part 1
+  - [\[css-text-decor\] Clarifying skip-ink:auto behavior in relation to CJK text](https://github.com/w3c/csswg-drafts/issues/4276)
+  - [\[css-ruby-1\] ruby overhang control](https://github.com/w3c/csswg-drafts/issues/4492)
+  - [\[css-text\] Line breaking for ambiguous characters; e.g., U+2010, U+2013](https://github.com/w3c/csswg-drafts/issues/4419)
+- Inline 3: [leading-trim etc.](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3Acss-inline-3+label%3A%22Agenda%2B+F2F%22)
+  - higher priority
+    - [make text of leading-trim interoperable?](https://github.com/w3c/csswg-drafts/issues/3978)
+    - [apply leading-trim to inlines?](https://github.com/w3c/csswg-drafts/issues/3955)
+    - [initial-letter feedback from implementation](https://github.com/w3c/csswg-drafts/issues/4171)
+- Text part 2
+  - [\[css-text\] Atomic inlines being equivalent to ID for line breaking is not web-compatible](https://github.com/w3c/csswg-drafts/issues/4576)
+  - [\[css-text\] Writing System prose is currently unimplementable on ICU](https://github.com/w3c/csswg-drafts/issues/4445)
+
+**Friday Afternoon**
+
+- [\[css-color-adjust\] Used color-scheme should affect the root element color, not initial color](https://github.com/w3c/csswg-drafts/issues/4608)
+- [idea to resolve the mod() conflict](https://github.com/w3c/csswg-drafts/issues/2513) (tab)
+- Text part 3
+  - [\[css-text\] Line breaking for ambiguous characters; e.g., U+2010, U+2013](https://github.com/w3c/csswg-drafts/issues/4419)
+  - [\[css-text\] treat all-neutral lines same as empty ones for plaintext alignment](https://github.com/w3c/csswg-drafts/issues/4405)
+  - [\[css-text\] Hanging spaces can't be scrollable overflow](https://github.com/w3c/csswg-drafts/issues/4297)
+  - [\[css-text\] Remove collapsible line breaks adjacent to word separators](https://github.com/w3c/csswg-drafts/issues/3481)
+  - [\[css-text\] https://github.com/w3c/csswg-drafts/issues/337](https://github.com/w3c/csswg-drafts/issues/337)
+- Inline 3: [leading-trim etc.](https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+label%3Acss-inline-3+label%3A%22Agenda%2B+F2F%22)
+  - lower priority
+    - [vertical-align: middle in vertical text](https://github.com/w3c/csswg-drafts/issues/4495)
+    - [leading-trim overflow: ink or scrollable?](https://github.com/w3c/csswg-drafts/issues/4010)
+    - [leading-trim vs descendant inlines](https://github.com/w3c/csswg-drafts/issues/3956)
+    - [resolved value of line-height - follow-up](https://github.com/w3c/csswg-drafts/issues/3749)
+    - [initial-letter zero sink?](https://github.com/w3c/csswg-drafts/issues/3698)
+
+<!-- -->
+
+- 5PM [\[css-sizing\] intrinsic-size lost the thread](https://github.com/w3c/csswg-drafts/issues/4531)
+- Fonts for afternoon callers part 2?
+  - [\[css-fonts-4\] font-display: optional without relayout](https://github.com/w3c/csswg-drafts/issues/4108) (tabatkins, chrishtr)
+
+### Constraints
+
+\* Please schedule motion topics in AM (Eric will dial in)
+
+\* Dialog positioning, mouseWheel (and maybe vhc unit) at a US-friendly time for smfr
+
+\* cbiesinger has to leave a bit early on Friday, please schedule intrinsic size before that
+
+\* chrishtr will be able to dial in at 4:45pm or later on Friday for the intrinsic size discussion

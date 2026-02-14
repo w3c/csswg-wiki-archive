@@ -1,143 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CSS3 Positioning - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../spec/">spec</a> / css3-positioning</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "CSS3 Positioning"
+---
 
-<ul class="toc">
-<li class="level2"><a href="#css3-positioning">CSS3 Positioning</a></li>
-<li class="level2"><a href="#action-items">Action Items</a></li>
-<li class="level2"><a href="#issues">Issues</a><ul class="toc">
-<li class="level3"><a href="#issue-1">Issue 1:</a></li>
-<li class="level3"><a href="#issue-2">Issue 2:</a></li>
-<li class="level3"><a href="#issue-3">Issue 3:</a></li>
-<li class="level3"><a href="#issue-4">Issue 4:</a></li>
-<li class="level3"><a href="#issue-5">Issue 5:</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+## CSS3 Positioning
 
-<h2 id="css3-positioning">CSS3 Positioning</h2>
-<p>
-This page contains the issues that are not yet listed in the specification and the resolutions for issues that were in the <abbr title="specification">spec</abbr>. but got resolved.
-</p><h2 id="action-items">Action Items</h2><h2 id="issues">Issues</h2><h3 id="issue-1">Issue 1:</h3>
-<p>
+This page contains the issues that are not yet listed in the specification and the resolutions for issues that were in the spec. but got resolved.
+
+## Action Items
+
+## Issues
+
+### Issue 1:
+
 Changing the positioning edge. Or changing the containing block.
-</p>
 
-<p>
-There are issues with circular references. Need a way to handle this. 
-</p>
+There are issues with circular references. Need a way to handle this.
 
-<p>
-Original proposal: <a href="http://www.xanthir.com/blog/b48H0" title="http://www.xanthir.com/blog/b48H0" rel="noopener">http://www.xanthir.com/blog/b48H0</a>
-</p>
+Original proposal: <http://www.xanthir.com/blog/b48H0>
 
-<p>
 Posponed discussion until TPAC
-</p><h3 id="issue-2">Issue 2:</h3>
-<p>
+
+### Issue 2:
+
 Vertical centering using position.
-</p>
 
-<p>
-Proposal from Tantek and Ian: <a href="http://lists.w3.org/Archives/Member/w3c-css-wg/2002JulSep/0296.html" title="http://lists.w3.org/Archives/Member/w3c-css-wg/2002JulSep/0296.html" rel="noopener">http://lists.w3.org/Archives/Member/w3c-css-wg/2002JulSep/0296.html</a>
-</p>
+Proposal from Tantek and Ian: <http://lists.w3.org/Archives/Member/w3c-css-wg/2002JulSep/0296.html>
 
-<p>
 Resolved: Proposal modified and added
-</p><h3 id="issue-3">Issue 3:</h3>
-<p>
-Need to add in logic to all the positioning logic to account for vertical layouts.
-</p><h3 id="issue-4">Issue 4:</h3>
-<p>
-z-index needs to account for CSS3-floats
-</p>
 
-<p>
-Resolved: Handled in <abbr title="Cascading Style Sheets">CSS</abbr> Exclusions and Shapes
-</p><h3 id="issue-5">Issue 5:</h3>
-<p>
-The CSS3 Positioning module needs a section that explains exactly how *static position* is computed. As part of this definition the following should be added: 
-“The static position of any <abbr title="Cascading Style Sheets">CSS</abbr> 2.1 absolutely positioned element or exclusion element is determined without taking into consideration the wrapping context.”
-</p>
-</main>
-</body>
-</html>
+### Issue 3:
+
+Need to add in logic to all the positioning logic to account for vertical layouts.
+
+### Issue 4:
+
+z-index needs to account for CSS3-floats
+
+Resolved: Handled in CSS Exclusions and Shapes
+
+### Issue 5:
+
+The CSS3 Positioning module needs a section that explains exactly how \*static position\* is computed. As part of this definition the following should be added: “The static position of any CSS 2.1 absolutely positioned element or exclusion element is determined without taking into consideration the wrapping context.”

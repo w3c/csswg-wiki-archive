@@ -1,117 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Spec Status Scratch Space - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../spec/">spec</a> / fantasai</div>
-<main>
-<h1 id="spec-status-scratch-space">Spec Status Scratch Space</h1>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Display L3</span></dt>
-<dd> Awaiting <a href="https://github.com/w3c/csswg-drafts/issues/6516#issuecomment-1341575031" title="https://github.com/w3c/csswg-drafts/issues/6516#issuecomment-1341575031" rel="noopener">CRS Resolution</a></dd>
-<dd> Needs updated DoC</dd>
-<dd> Needs WPT</dd>
-</dl>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Display L4</span></dt>
-<dd> Awaiting <a href="https://github.com/w3c/csswg-drafts/issues/7387#issuecomment-1364364487" title="https://github.com/w3c/csswg-drafts/issues/7387#issuecomment-1364364487" rel="noopener">CSSWG review</a></dd>
-<dd> Awaiting<a href="https://github.com/w3c/csswg-drafts/issues/6429" title="https://github.com/w3c/csswg-drafts/issues/6429" rel="noopener"> edits for animatable `display`</a></dd>
-</dl>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Images L3</span></dt>
-<dd> Awaiting final audit before CRS.</dd>
-</dl>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Overflow L4</span></dt>
-<dd> Need to fix Chrome&#039;s <a href="https://github.com/w3c/csswg-drafts/issues/7144" title="https://github.com/w3c/csswg-drafts/issues/7144" rel="noopener">replaced element overflow snarl</a></dd>
-<dd> <a href="https://github.com/w3c/csswg-drafts/issues/8271" title="https://github.com/w3c/csswg-drafts/issues/8271" rel="noopener">Level shuffling</a></dd>
-</dl>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Text L3</span></dt>
-<dd> Awaiting CSSWG resolution for CRS.</dd>
-</dl>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Values</span></dt>
-<dd> Need edits for VDS functional notation integration</dd>
-</dl>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> <abbr title="Cascading Style Sheets">CSS</abbr> Values L4</span></dt>
-<dd> Need to integrate results of Viewport Investigation</dd>
-<dd> Need to address <a href="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22topic%3A+urls%22+label%3Acss-values-4" title="https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3A%22topic%3A+urls%22+label%3Acss-values-4" rel="noopener">URL-related issues</a></dd>
-</dl>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> Selectors L4</span></dt>
-<dd> Needs changes audit and republication</dd>
-</dl>
-</main>
-</body>
-</html>
+---
+title: "Spec Status Scratch Space"
+---
+
+# Spec Status Scratch Space
+
+CSS Display L3
+: Awaiting CRS Resolution
+: Needs updated DoC
+: Needs WPT
+ 
+
+CSS Display L4
+: Awaiting CSSWG review
+: Awaiting edits for animatable `display`
+ 
+
+CSS Images L3
+: Awaiting final audit before CRS.
+ 
+
+CSS Overflow L4
+: Need to fix Chrome's replaced element overflow snarl
+: Level shuffling
+ 
+
+CSS Text L3
+: Awaiting CSSWG resolution for CRS.
+ 
+
+CSS Values
+: Need edits for VDS functional notation integration
+ 
+
+CSS Values L4
+: Need to integrate results of Viewport Investigation
+: Need to address URL-related issues
+ 
+
+Selectors L4
+: Needs changes audit and republication

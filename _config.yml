@@ -1,0 +1,23 @@
+title: CSS Working Group Wiki
+description: Community-editable wiki for CSS Working Group documentation
+url: https://w3c.github.io
+baseurl: /csswg-wiki
+repository: w3c/csswg-wiki
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - bin/
+  - .mypy_cache/

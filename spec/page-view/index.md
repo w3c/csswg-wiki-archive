@@ -1,512 +1,345 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Paged View - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../spec/">spec</a> / page-view</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Paged View"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#paged-view">Paged View</a></li>
-<li class="level1"><a href="#use-cases">Use Cases</a><ul class="toc">
-<li class="level2"><a href="#page-view-in-window-or-element">Page view in window or element</a><ul class="toc">
-<li class="level3"><a href="#proposal">Proposal:</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#paged-view-with-custom-controls">Paged view with custom controls</a><ul class="toc">
-<li class="level3"><a href="#proposals">Proposals</a></li>
-<li class="level3"><a href="#ideas">Ideas</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#paged-view-with-custom-pages">Paged view with custom pages</a><ul class="toc">
-<li class="level3"><a href="#ideas1">Ideas</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#magazine-viewer">Magazine viewer</a><ul class="toc">
-<li class="level3"><a href="#proposals1">Proposals</a></li>
-<li class="level3"><a href="#ideas2">Ideas</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#adaptive-magazine-with-page-templates">Adaptive magazine with page templates</a><ul class="toc">
-<li class="level3"><a href="#proposals2">Proposals</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#column-breaks-and-page-breaks-in-regions">Column breaks and page breaks in regions</a></li>
-<li class="level2"><a href="#printing-generated-pages">Printing generated pages</a></li>
-</ul>
-</li>
-<li class="level1"><a href="#issues">Issues</a></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# Paged View
 
-<h1 id="paged-view">Paged View</h1>
-<p>
-<em>See also <a href="../../spec/fragments-columns-regions-pages/" title="spec:fragments-columns-regions-pages">Fragments, Columns, Regions, Pages</a>, <a href="../../spec/css3-region-templates/" title="spec:css3-region-templates">CSS Region Templates</a></em>
-</p>
+*See also [Fragments, Columns, Regions, Pages](../../spec/fragments-columns-regions-pages/ "spec:fragments-columns-regions-pages"), [CSS Region Templates](../../spec/css3-region-templates/ "spec:css3-region-templates")*
 
-<p>
-“Paged view” or “page view” as a term relates broadly to the kind of presentation where content is laid out in discrete pages and shown to user one page at a time (or several pages at a time). 
-</p>
+“Paged view” or “page view” as a term relates broadly to the kind of presentation where content is laid out in discrete pages and shown to user one page at a time (or several pages at a time).
 
-<p>
-A wide variety of paged view situations require the same or similar support from the core layout engine – primarily the ability to flow content into multiple containers, thus producing multiple boxes with fragments of content (see “<a href="../../spec/fragments-columns-regions-pages/" title="spec:fragments-columns-regions-pages">Fragments, Columns, Regions, Pages</a>”). Solutions differ in how the fragmentation functionality is invoked.
-</p>
+A wide variety of paged view situations require the same or similar support from the core layout engine – primarily the ability to flow content into multiple containers, thus producing multiple boxes with fragments of content (see “[Fragments, Columns, Regions, Pages](../../spec/fragments-columns-regions-pages/ "spec:fragments-columns-regions-pages")”). Solutions differ in how the fragmentation functionality is invoked.
 
-<p>
 The problems to be solved in implementing paged views revolve around encoding the design intent and UI behavior, both requiring novel approaches: design intent often derives from experience in print media, which must become adaptive to target multiple devices and resolutions. The UI of navigating pages on screen also doesn’t have an established tradition, although many implementations use similar concepts.
-</p>
 
-<p>
 This set of use cases shows some expected uses of paged views.
-</p>
 
-<p>
 The uses cases, analysis and proposals found here probably don’t correspond to a single specification. The goal here is to get a holistic view of each case, which will help to compare proposals and understand the relative importance of lower level problems.
-</p><h1 id="use-cases">Use Cases</h1><h2 id="page-view-in-window-or-element">Page view in window or element</h2>
-<p>
-<strong>Goal:</strong> easy declarative way to create paged view, good behavior with default settings and default UI.
-</p>
 
-<p>
-&lt;html&gt;
-&lt;div style=“display:inline-block; width:9em;”&gt;
-</p>
+# Use Cases
 
-<p>
-&lt;div style=“background:gray; –padding:1em; text-align:justify; vertical-align:middle;”&gt;
-</p>
-<pre class="code">&lt;div style=&quot;background:white;border:1px solid black; --width:7em; padding:1em; text-align:justify&quot;&gt;
-  &lt;div&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;text-align:justify; padding:0 1em;&quot;&gt;
-  &lt;div style=&quot;display:inline-block; color:lightgray; font-size:1.2em;&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&lt;/div&gt;
-  &lt;div style=&quot;display:inline-block; color:lightgray; font-size:1.2em;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/div&gt;
-  &lt;div style=&quot;display:inline-block; width:6em; height:0; visibility:hidden&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;</pre>
+## Page view in window or element
 
-<p>
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/html&gt;
-</p><h3 id="proposal">Proposal:</h3>
-<ul>
-<li class="level1">New value for &#039;overflow property: <strong>“overflow:paged”</strong></li>
-</ul>
+**Goal:** easy declarative way to create paged view, good behavior with default settings and default UI.
 
-<p>
-<strong>Example:</strong>
-</p>
-<pre class="code">div.book { overflow:paged }</pre>
+\<html\> \<div style=“display:inline-block; width:9em;”\>
 
-<p>
-Element with “overflow:paged” shows one page of content at a time. 
-</p>
+\<div style=“background:gray; –padding:1em; text-align:justify; vertical-align:middle;”\>
 
-<p>
+``` code
+<div style="background:white;border:1px solid black; --width:7em; padding:1em; text-align:justify">
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+
+<div style="text-align:justify; padding:0 1em;">
+  <div style="display:inline-block; color:lightgray; font-size:1.2em;">&lt;&lt;&lt;</div>
+  <div style="display:inline-block; color:lightgray; font-size:1.2em;">&gt;&gt;&gt;</div>
+  <div style="display:inline-block; width:6em; height:0; visibility:hidden"></div>
+
+```
+
+\</div\> \</div\> \</html\>
+
+### Proposal:
+
+- New value for 'overflow property: **“overflow:paged”**
+
+**Example:**
+
+``` code
+div.book { overflow:paged }
+```
+
+Element with “overflow:paged” shows one page of content at a time.
+
 All pages are of the same size - the size of content area of the element.
-</p>
 
-<p>
-UI is provided by UA, it may be gestures on touch device, or page navigation controls (perhaps similar to controls on &lt;video&gt; element)
-</p>
+UI is provided by UA, it may be gestures on touch device, or page navigation controls (perhaps similar to controls on \<video\> element)
 
-<p>
-<strong>Example:</strong>
-</p>
-<pre class="code">html { width:100%; height:100%; overflow:paged }</pre>
+**Example:**
 
-<p>
+``` code
+html { width:100%; height:100%; overflow:paged }
+```
+
 This should put the whole document in paged view. If UA is also in full screen mode, this works particularly well on tablet devices as full-screen reading mode
-</p>
 
-<p>
-<strong>Example:</strong>
-</p>
-<pre class="code">iframe.magazine { overflow:paged }</pre>
+**Example:**
 
-<p>
+``` code
+iframe.magazine { overflow:paged }
+```
+
 Presents content of a separate document in paged view. Can be used to build a page viewer with custom UI.
-</p><h4 id="in-addition-add-on-to-proposal">In addition... (Add-On to Proposal):</h4>
-<ul>
-<li class="level1"><strong>@page</strong> applies to “overflow:paged”</li>
-</ul>
 
-<p>
-Any item with &#039;overflow:paged&#039; is treated by @page and related as though it was paged media. Everything in <a href="http://dev.w3.org/csswg/css3-page/" title="http://dev.w3.org/csswg/css3-page/" rel="noopener">CSS Paged Media Module Level 3</a> applies to it. Thus, you can use @page pseudo-classes, margin boxes with generated content (headers, footers, page numbers via page-based counters, etc.), page breaking rules, named pages, etc. 
-</p>
+#### In addition... (Add-On to Proposal):
 
-<p>
-If you want a different presentation on-screen than in print, you simply embed the @page rules inside @media rules. 
-</p>
+- **@page** applies to “overflow:paged”
 
-<p>
-If the &#039;size&#039; property creates a page that is larger than the paged element, then traditional scrolling mechanisms can be used to reveal the extra content of that page. Otherwise, &#039;size&#039; with absolute dimensions can give intrinsic width, height, and aspect ratio to the paged element.
-</p>
+Any item with 'overflow:paged' is treated by @page and related as though it was paged media. Everything in [CSS Paged Media Module Level 3](http://dev.w3.org/csswg/css3-page/) applies to it. Thus, you can use @page pseudo-classes, margin boxes with generated content (headers, footers, page numbers via page-based counters, etc.), page breaking rules, named pages, etc.
 
-<p>
+If you want a different presentation on-screen than in print, you simply embed the @page rules inside @media rules.
+
+If the 'size' property creates a page that is larger than the paged element, then traditional scrolling mechanisms can be used to reveal the extra content of that page. Otherwise, 'size' with absolute dimensions can give intrinsic width, height, and aspect ratio to the paged element.
+
 If the author wishes an element on the page to have different @page rules than the page itself, or of an ancestor with @page, then named pages can be used.
-</p>
 
-<p>
-<strong>Example:</strong>
-</p>
-<pre class="code">@page { ... }
+**Example:**
+
+``` code
+@page { ... }
 @page myInner { ... }
 html { width: 100%; height: 100%; overflow: paged }
-innerDiv { width: 50em; height: 10em; overflow: paged; page: myInner; }</pre><h2 id="paged-view-with-custom-controls">Paged view with custom controls</h2>
-<p>
-<strong>Goal:</strong> Add custom controls to paged view.
-</p>
+innerDiv { width: 50em; height: 10em; overflow: paged; page: myInner; }
+```
 
-<p>
+## Paged view with custom controls
+
+**Goal:** Add custom controls to paged view.
+
 Ideally, UA should provide well designed, usable and accessible controls for pagination. There will inevitably be situations however that require custom UI, for style or to provide unique functions. It could look like this:
-</p>
 
-<p>
-&lt;html&gt;
-&lt;div style=“display:inline-block”&gt;
-&lt;div style=“height:2em; background:black; padding:0.5em 1em; font-family:sans-serif; font-weight:bold; text-align:center;”&gt;
-</p>
-<pre class="code">&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;print&lt;/div&gt;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;share&lt;/div&gt;
-&amp;nbsp;&amp;nbsp;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;&amp;lt;&lt;/div&gt;
-&lt;div style=&quot;display:inline-block; border:1px solid white; background:white; padding:0.25em; font-weight:normal&quot;&gt;page #&lt;/div&gt;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;&amp;gt;&lt;/div&gt;
-&amp;nbsp;&amp;nbsp;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;zoom&lt;/div&gt;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;bookmark&lt;/div&gt;
-&amp;nbsp;&amp;nbsp;
-&lt;div style=&quot;display:inline-block; border:1px solid white; background:white; padding:0.25em 5em 0.25em 0.25em ; font-weight:normal&quot;&gt;&amp;nbsp;&lt;/div&gt;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;search&lt;/div&gt;</pre>
+\<html\> \<div style=“display:inline-block”\> \<div style=“height:2em; background:black; padding:0.5em 1em; font-family:sans-serif; font-weight:bold; text-align:center;”\>
 
-<p>
-&lt;/div&gt;
-</p>
+``` code
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">print</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">share</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&lt;</div>
+<div style="display:inline-block; border:1px solid white; background:white; padding:0.25em; font-weight:normal">page #</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&gt;</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">zoom</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">bookmark</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; background:white; padding:0.25em 5em 0.25em 0.25em ; font-weight:normal">&nbsp;</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">search</div>
+```
 
-<p>
-&lt;div style=“background:gray; padding:1em; text-align:center;”&gt;
-</p>
-<pre class="code">  &lt;div style=&quot;display:inline-block;background:white;border:1px solid black; width:7em; padding:1em; text-align:justify&quot;&gt;
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/div&gt;</pre>
+\</div\>
 
-<p>
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/html&gt;
-</p>
+\<div style=“background:gray; padding:1em; text-align:center;”\>
 
-<p>
+``` code
+  <div style="display:inline-block;background:white;border:1px solid black; width:7em; padding:1em; text-align:justify">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+```
+
+\</div\> \</div\> \</html\>
+
 Custom controls will activate a custom script, which in some cases will need to access pagination results or modify the view.
-</p>
 
-<p>
 Implementation of custom page UI needs some or all of the following:
-</p>
-<ul>
-<li class="level1">Modify or replace the default pagination UI</li>
-<li class="level1">Know number of pages</li>
-<li class="level1">Show a particular page</li>
-<li class="level1">Know if everything fits (in automatic page layout, there will be always enough pages generated, but there may be unprocessed content due to timing or additional constraints)</li>
-<li class="level1">Determine what content is in a given page (a potentially disjoint range of content)</li>
-<li class="level1">Determine on what page or pages a given range of content is</li>
-<li class="level1">Determine if content of interest didn&#039;t fit on any page</li>
-<li class="level1">Find content that intersects with a point or shape, relative to a given page or current page</li>
-<li class="level1">Find exact coordinates and page(s) of laid out content</li>
-<li class="level1">Know when number of pages changes or layout of content on a page changes</li>
-</ul>
 
-<p>
+- Modify or replace the default pagination UI
+- Know number of pages
+- Show a particular page
+- Know if everything fits (in automatic page layout, there will be always enough pages generated, but there may be unprocessed content due to timing or additional constraints)
+- Determine what content is in a given page (a potentially disjoint range of content)
+- Determine on what page or pages a given range of content is
+- Determine if content of interest didn't fit on any page
+- Find content that intersects with a point or shape, relative to a given page or current page
+- Find exact coordinates and page(s) of laid out content
+- Know when number of pages changes or layout of content on a page changes
+
 To achieve that, pages and paged viewer need exposure in styles and OM
-</p><h3 id="proposals">Proposals</h3><h4 id="control-default-ui-with-overflow-property-httpdevw3orgcsswgcss3-gcpmpaged-presentations-gcpm-ed">Control default UI with &#039;overflow&#039; property (([[http://dev.w3.org/csswg/css3-gcpm/#paged-presentations|GCPM - ED]]))</h4>
-<ul>
-<li class="level1"><strong>overflow-style</strong>:&lt;existing values&gt;|paged-x|paged-y|paged-x-controls|paged-y-controls</li>
-</ul>
 
-<p>
-<strong>Example</strong>
-</p>
+### Proposals
 
-<p>
+#### Control default UI with 'overflow' property ((\[\[http://dev.w3.org/csswg/css3-gcpm/#paged-presentations\|GCPM - ED\]\]))
+
+- **overflow-style**:\<existing values\>\|paged-x\|paged-y\|paged-x-controls\|paged-y-controls
+
+**Example**
+
 “paged-x” layout adds overflow pages along X axis. Custom page UI controls which page is displayed in pagination control
-</p>
-<pre class="code">  .pager { overflow:paged-x; }
-  &lt;div class=&quot;pageview&quot;&gt;
-    &lt;div class=&quot;toolbar&quot;&gt;
-      &lt;button onclick=&quot;prevPage()&quot;&gt;previous&lt;/button&gt;
-      &lt;button onclick=&quot;nextPage()&quot;&gt;next&lt;/button&gt;
+
+``` code
+  .pager { overflow:paged-x; }
+  <div class="pageview">
+    <div class="toolbar">
+      <button onclick="prevPage()">previous</button>
+      <button onclick="nextPage()">next</button>
       ...
-    &lt;/div&gt;
-    &lt;div class=&quot;pager&quot;&gt;
-      &lt;iframe class=&quot;pages&quot; src=&quot;content.html&quot;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;script&gt;
+    </div>
+    <div class="pager">
+      <iframe class="pages" src="content.html"></iframe>
+    </div>
+  </div>
+  <script>
     function nextPage() {
-      if (pager.currentPage &lt; pager.pageCount) {
+      if (pager.currentPage < pager.pageCount) {
         pager.currentPage++;
       }
     }
-  &lt;/script&gt;</pre><h3 id="ideas">Ideas</h3><h4 id="paged-view-dom">Paged View DOM</h4>
-<p>
-<em>Some <abbr title="Application Programming Interface">API</abbr> as in <a href="http://dev.opera.com/articles/view/opera-reader-a-new-way-to-read-the-web/" title="http://dev.opera.com/articles/view/opera-reader-a-new-way-to-read-the-web/" rel="noopener">Opera Reader</a>, other added as it seems needed for completness. Please correct if there are newer proposals</em>
-</p>
-<ul>
-<li class="level1">interface <strong>PagedView</strong> – implemented on HTMLElement (and maybe on HTMLDocument). Alternatively all members are exposed directly on element (that would match scope of scroll <abbr title="Application Programming Interface">API</abbr>)</li>
-<li class="level1">PagedView Element.<strong>pagedView</strong> – paged view of element&#039;s content. NULL if not applicable</li>
-<li class="level1">int PagedView.<strong>pageCount</strong> – get number of pages</li>
-</ul>
+  </script>
+```
 
-<p>
-This should wait synchronously for content pagination to be completed, if needed, following the patter of &#039;offsetHeight&#039; etc. (which always return correct value, forcing synchronous layout)
-</p>
-<ul>
-<li class="level1">void PagedView.<strong>showPage</strong>(pageNumber)</li>
-<li class="level1">int[] PagedView.<strong>getPagesFromContentNode</strong>(Node contentNode) – get page numbers for pages that show any portion of given node</li>
-<li class="level1">Rect[] PagedView.<strong>rectsOnPage</strong>(pageNumber, Node contentnode) – get bounding rects of content rendering on specific page</li>
-<li class="level1">Range[] PagedView.<strong>getContentRangesOnPage</strong>(pageNumber) – range(s) of content that falls on that page</li>
-<li class="level1">Node <strong>elementFromPoint</strong>(pageNumber, x, y) – element under the point, in coordinates of the page</li>
-<li class="level1">event <strong>onpagechange</strong> – fired when current page changes</li>
-</ul><h2 id="paged-view-with-custom-pages">Paged view with custom pages</h2>
-<p>
-<strong>Goal:</strong> Apply content formatting to specific pages and position pages on screen
-</p>
+### Ideas
 
-<p>
-&lt;html&gt;
-&lt;div style=“display:inline-block”&gt;
-&lt;div style=“height:2em; background:black; padding:0.5em 1em; font-family:sans-serif; font-weight:bold; text-align:center;”&gt;
-</p>
-<pre class="code">&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;print&lt;/div&gt;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;share&lt;/div&gt;
-&amp;nbsp;&amp;nbsp;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;&amp;lt;&lt;/div&gt;
-&lt;div style=&quot;display:inline-block; border:1px solid white; background:white; padding:0.25em; font-weight:normal&quot;&gt;page #&lt;/div&gt;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;&amp;gt;&lt;/div&gt;
-&amp;nbsp;&amp;nbsp;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;zoom&lt;/div&gt;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;bookmark&lt;/div&gt;
-&amp;nbsp;&amp;nbsp;
-&lt;div style=&quot;display:inline-block; border:1px solid white; background:white; padding:0.25em 5em 0.25em 0.25em ; font-weight:normal&quot;&gt;&amp;nbsp;&lt;/div&gt;
-&lt;div style=&quot;display:inline-block; border:1px solid white; color:white; padding:0.25em&quot;&gt;search&lt;/div&gt;</pre>
+#### Paged View DOM
 
-<p>
-&lt;/div&gt;
-</p>
+*Some API as in [Opera Reader](http://dev.opera.com/articles/view/opera-reader-a-new-way-to-read-the-web/), other added as it seems needed for completness. Please correct if there are newer proposals*
 
-<p>
-&lt;div style=“background:gray; padding:1em; text-align:center;”&gt;
-</p>
-<pre class="code">  &lt;div style=&quot;display:inline-block;background:white;border:1px solid black; margin:0.5em&quot;&gt;
-  &lt;div style=&quot;width:6.5em; height:9em; margin:1em; overflow:hidden; text-align:justify; color:green;&quot;&gt;
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce     &lt;/div&gt;
-  &lt;/div&gt;</pre>
-<pre class="code">  &lt;div style=&quot;display:inline-block;background:white;border:1px solid black; margin:0.5em&quot;&gt;
-  &lt;div style=&quot;width:6.5em; height:9em; margin:1em; overflow:hidden; text-align:justify; color:blue;&quot;&gt;</pre>
+- interface **PagedView** – implemented on HTMLElement (and maybe on HTMLDocument). Alternatively all members are exposed directly on element (that would match scope of scroll API)
+- PagedView Element.**pagedView** – paged view of element's content. NULL if not applicable
+- int PagedView.**pageCount** – get number of pages
 
-<p>
+This should wait synchronously for content pagination to be completed, if needed, following the patter of 'offsetHeight' etc. (which always return correct value, forcing synchronous layout)
+
+- void PagedView.**showPage**(pageNumber)
+- int\[\] PagedView.**getPagesFromContentNode**(Node contentNode) – get page numbers for pages that show any portion of given node
+- Rect\[\] PagedView.**rectsOnPage**(pageNumber, Node contentnode) – get bounding rects of content rendering on specific page
+- Range\[\] PagedView.**getContentRangesOnPage**(pageNumber) – range(s) of content that falls on that page
+- Node **elementFromPoint**(pageNumber, x, y) – element under the point, in coordinates of the page
+- event **onpagechange** – fired when current page changes
+
+## Paged view with custom pages
+
+**Goal:** Apply content formatting to specific pages and position pages on screen
+
+\<html\> \<div style=“display:inline-block”\> \<div style=“height:2em; background:black; padding:0.5em 1em; font-family:sans-serif; font-weight:bold; text-align:center;”\>
+
+``` code
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">print</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">share</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&lt;</div>
+<div style="display:inline-block; border:1px solid white; background:white; padding:0.25em; font-weight:normal">page #</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&gt;</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">zoom</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">bookmark</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; background:white; padding:0.25em 5em 0.25em 0.25em ; font-weight:normal">&nbsp;</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">search</div>
+```
+
+\</div\>
+
+\<div style=“background:gray; padding:1em; text-align:center;”\>
+
+``` code
+  <div style="display:inline-block;background:white;border:1px solid black; margin:0.5em">
+  <div style="width:6.5em; height:9em; margin:1em; overflow:hidden; text-align:justify; color:green;">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce     </div>
+  </div>
+```
+
+``` code
+  <div style="display:inline-block;background:white;border:1px solid black; margin:0.5em">
+  <div style="width:6.5em; height:9em; margin:1em; overflow:hidden; text-align:justify; color:blue;">
+```
+
 posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-</p>
-<pre class="code">  &lt;/div&gt;
-  &lt;/div&gt;</pre>
 
-<p>
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/html&gt;
-</p>
-<ul>
-<li class="level1">left page has green text, right page has blue text</li>
-<li class="level1">even and odd pages are positioned differently to create a two-page view</li>
-</ul><h3 id="ideas1">Ideas</h3>
-<p>
-<strong>Page selectors</strong>
-</p>
-<pre class="code">#paged { width:6.5in; height:9in; overflow:paged; }
+``` code
+  </div>
+  </div>
+```
+
+\</div\> \</div\> \</html\>
+
+- left page has green text, right page has blue text
+- even and odd pages are positioned differently to create a two-page view
+
+### Ideas
+
+**Page selectors**
+
+``` code
+#paged { width:6.5in; height:9in; overflow:paged; }
 #paged * { border: 1px solid black; }
-#paged::nth-child(even) { position:relative; left:&lt;page-width&gt; } /**</pre>
+#paged::nth-child(even) { position:relative; left:<page-width> } /**
+```
 
-<p>
-<strong>Page View DOM</strong>
-</p>
+**Page View DOM**
 
-<p>
-<em>There are no formal proposals on DOM for overflow:paged at this time. If it is added, it should be similar what regions expose for same purposes</em>
-</p>
+*There are no formal proposals on DOM for overflow:paged at this time. If it is added, it should be similar what regions expose for same purposes*
 
-<p>
-In addition to <abbr title="Application Programming Interface">API</abbr> for page display, DOM for custom paged view needs writable access to page size and position
-</p>
-<ul>
-<li class="level1">int PagedView.<strong>pageTop</strong>(pageNumber)</li>
-<li class="level1">int PagedView.<strong>pageLeft</strong>(pageNumber)</li>
-<li class="level1">int PagedView.<strong>pageWidth</strong>(pageNumber)</li>
-<li class="level1">int PagedView.<strong>pageHeight</strong>(pageNumber)</li>
-<li class="level1">void PagedView.<strong>setPageTop</strong>(pageNumber)</li>
-<li class="level1">void PagedView.<strong>setPageLeft</strong>(pageNumber)</li>
-<li class="level1">void PagedView.<strong>setPageWidth</strong>(pageNumber)</li>
-<li class="level1">void PagedView.<strong>setPageHeight</strong>(pageNumber)</li>
-</ul>
+In addition to API for page display, DOM for custom paged view needs writable access to page size and position
 
-<p>
-Content properties can be set by detecting range(s) of content on page, then traversing content and applying properties. Of course care has to be taken as it can&#039;t be assumed that modified content will still fit the same page.
-</p>
+- int PagedView.**pageTop**(pageNumber)
+- int PagedView.**pageLeft**(pageNumber)
+- int PagedView.**pageWidth**(pageNumber)
+- int PagedView.**pageHeight**(pageNumber)
+- void PagedView.**setPageTop**(pageNumber)
+- void PagedView.**setPageLeft**(pageNumber)
+- void PagedView.**setPageWidth**(pageNumber)
+- void PagedView.**setPageHeight**(pageNumber)
 
-<p>
-<strong>Example:</strong>
-</p>
-<pre class="code">TODO</pre><h2 id="magazine-viewer">Magazine viewer</h2>
-<p>
-<strong>Goal:</strong> enable complex page design with multiple content flows and graphics, approaching or exceeding capabilities of print design
-</p>
+Content properties can be set by detecting range(s) of content on page, then traversing content and applying properties. Of course care has to be taken as it can't be assumed that modified content will still fit the same page.
 
-<p>
-A magazine article (pretty simple one) could look like this. 
-</p>
+**Example:**
 
-<p>
-<a href="/_detail/spec/magazine1.png?id=spec%3Apage-view" class="media" title="spec:magazine1.png"><img src="/_media/spec/magazine1.png" class="media" loading="lazy" alt="" /></a>
-</p>
+``` code
+TODO
+```
 
-<p>
-The user reads the magazine in a reader application, <a href="/_detail/spec/magazine2.png?id=spec%3Apage-view" class="media" title="spec:magazine2.png"><img src="/_media/spec/magazine2.png" class="mediaright" loading="lazy" alt="" /></a> with same options for page navigation control as in previous examples of page view. 
-</p>
+## Magazine viewer
 
-<p>
+**Goal:** enable complex page design with multiple content flows and graphics, approaching or exceeding capabilities of print design
+
+A magazine article (pretty simple one) could look like this.
+
+\[Image not available\]
+
+The user reads the magazine in a reader application, \[Image not available\] with same options for page navigation control as in previous examples of page view.
+
 Each individual page can have unique design and can include content from multiple sources: multiple text streams (main story, side bar, pull quotes) and images (some included in text, some placed directly as related visuals or advertisements).
-</p>
 
-<p>
-<em>Note that at this point we don&#039;t make assumptions on how exactly each “page” is constructed. It may be automatically generated with some adaptive mechanism or it may be manually put together by a design team with print design experience. That distinction will be important for next use case, here we are looking at ways to represent the layout</em>
-</p><h3 id="proposals1">Proposals</h3><h4 id="css3-regions-with-script">[css3-regions] with script</h4>
-<p>
+*Note that at this point we don't make assumptions on how exactly each “page” is constructed. It may be automatically generated with some adaptive mechanism or it may be manually put together by a design team with print design experience. That distinction will be important for next use case, here we are looking at ways to represent the layout*
+
+### Proposals
+
+#### \[css3-regions\] with script
+
 The design of the viewer with custom controls is same as in previous examples. Difference is at the lowest level, where navigation to each page has to be implemented by managing a collectoin of elements, pseudo-elements or any other visual capable to represent an individual page. At this time pages as elements is the only available option.
-</p>
 
-<p>
-Individual custom page may look like this. It may be read from a separate <abbr title="HyperText Markup Language">HTML</abbr> source, built from script or generated in some other way (see the next section “Adaptive magazine with page templates”)
-</p>
+Individual custom page may look like this. It may be read from a separate HTML source, built from script or generated in some other way (see the next section “Adaptive magazine with page templates”)
 
-<p>
 The first page of this sample article has the following design decisions encoded in some way:
-</p>
-<ul>
-<li class="level1">The page is built on  a 5-column grid</li>
-<li class="level1">Main image is 66% width of the page and whatever height is derived from its aspect ratio. It is place at  top</li>
-</ul>
 
-<p>
+- The page is built on a 5-column grid
+- Main image is 66% width of the page and whatever height is derived from its aspect ratio. It is place at top
+
 right of the page
-</p>
-<ul>
-<li class="level1">Secondary image takes the rest of the page width, it preserves its aspect ratio and placed at bottom left of the page</li>
-<li class="level1">Title may overlap with the main image</li>
-<li class="level1">Main story text wraps around everything else</li>
-</ul>
 
-<p>
+- Secondary image takes the rest of the page width, it preserves its aspect ratio and placed at bottom left of the page
+- Title may overlap with the main image
+- Main story text wraps around everything else
+
 The design can be implemented like this:
-</p>
-<pre class="code">&lt;style&gt;
+
+``` code
+<style>
   .page { display:grid; grid-columns:(1fr)[5]; grid-rows:(auto)[2] 1fr; }
   .figures { grid-column-span:5; display:flexbox; flex-flow:reverse; z-index:1; }
-  .figures &gt; * { wrap-flow:both; }
+  .figures > * { wrap-flow:both; }
   .title { grid-row:1; flow-from:title; z-index:2; wrap-through:none;}
   .subtitle { grid-row:2; flow-from:subtitle; z-index:2; wrap-through:none;}
   .sidebar { grid-row:3; grid-column:5; grid-row-align:end; grid-column-align:end; z-index:2; 
              flow-from:sidebar; width:8em; wrap-flow:both;}
   .story { grid-row: grid-column-span:4; flow-from:story; z-index:0; }
-&lt;/style&gt;
+</style>
 
-&lt;div style=&quot;page&quot;&gt;
-  &lt;div class=&quot;figures&quot;&gt;
-    &lt;img src=&quot;imgMain.jpg&quot; style=&quot;width:66%;&quot;&gt;&lt;/div&gt;
-    &lt;img src=&quot;img1.jpg&quot; style=&quot;min-width:200px; grid-row-align:end;&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;title&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;subtitle&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;sidebar&quot;&gt;&lt;/div&gt;  
-  &lt;div class=&quot;story&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;</pre><h4 id="css3-regions-with-css3-page">[css3-regions] with [css3-page]</h4>
-<p>
-[css3-page] already has the concept of different pages having boxes of variable content and style depending on their order, and on certain elements triggering different @page layouts: margin boxes. Margin boxes are created by margin at-rules inside the page context. Margin boxes can accept a subset of <abbr title="Cascading Style Sheets">CSS</abbr> properties, just as Regions do. So, in the same way that margin boxes are declared using @margin inside different named or pseudo-classed @page rules, other boxes <em>within</em> the “page area” would be created using @slot inside different named or pseudo-classed @page rules. Each @slot could have a &#039;flow-from&#039; property or &#039;content&#039; property to give it contents. &#039;flow-from&#039; makes the @slot into a region. When it there is more content that will fit, it flows to the next region that can contain it, even if that region is on another page. If a page break or &#039;page&#039; property in another element results in another @page being used that does not contain a region for this flow, then the flow is deferred to a subsequent page that does accept this flow.
-</p>
-<pre class="code">
+<div style="page">
+  <div class="figures">
+    <img src="imgMain.jpg" style="width:66%;"></div>
+    <img src="img1.jpg" style="min-width:200px; grid-row-align:end;"></div>
+  </div>
+  <div class="title"></div>
+  <div class="subtitle"></div>
+  <div class="sidebar"></div>  
+  <div class="story"></div>
+
+```
+
+#### \[css3-regions\] with \[css3-page\]
+
+\[css3-page\] already has the concept of different pages having boxes of variable content and style depending on their order, and on certain elements triggering different @page layouts: margin boxes. Margin boxes are created by margin at-rules inside the page context. Margin boxes can accept a subset of CSS properties, just as Regions do. So, in the same way that margin boxes are declared using @margin inside different named or pseudo-classed @page rules, other boxes *within* the “page area” would be created using @slot inside different named or pseudo-classed @page rules. Each @slot could have a 'flow-from' property or 'content' property to give it contents. 'flow-from' makes the @slot into a region. When it there is more content that will fit, it flows to the next region that can contain it, even if that region is on another page. If a page break or 'page' property in another element results in another @page being used that does not contain a region for this flow, then the flow is deferred to a subsequent page that does accept this flow.
+
+``` code
+
 HTML, body { height:100%; margin:0; }
 body { overflow: paged; }
 @page {
@@ -520,183 +353,159 @@ body { overflow: paged; }
 
 article { flow-into: article-flow;  }
 aside { flow-into: sidebar-flow; }
-article h1 { page-break-before: always; page: chapter-start-page; }</pre><h3 id="ideas2">Ideas</h3>
-<p>
-<em>Is it possible to achieve same results with further extensions of &#039;overflow:paged&#039; and using pseudo-elements?</em>
-</p><h2 id="adaptive-magazine-with-page-templates">Adaptive magazine with page templates</h2>
-<p>
-<strong>Goal:</strong> automatically generate complex pages based on content, encoded design intent and media properties
-</p>
+article h1 { page-break-before: always; page: chapter-start-page; }
+```
 
-<p>
-<a href="/_detail/spec/magpageportrait.png?id=spec%3Apage-view" class="media" title="spec:magpageportrait.png"><img src="/_media/spec/magpageportrait.png" class="mediaright" loading="lazy" alt="" /></a><a href="/_detail/spec/magpagelandscape.png?id=spec%3Apage-view" class="media" title="spec:magpagelandscape.png"><img src="/_media/spec/magpagelandscape.png" class="mediaright" loading="lazy" alt="" /></a>
-</p>
+### Ideas
 
-<p>
+*Is it possible to achieve same results with further extensions of 'overflow:paged' and using pseudo-elements?*
+
+## Adaptive magazine with page templates
+
+**Goal:** automatically generate complex pages based on content, encoded design intent and media properties
+
+\[Image not available\]\[Image not available\]
+
 Online magazine must work on devices on different sizes, resolution and orientation. Just as any other adaptive content using media queries, same magazine will look very different on different devices.
-</p>
 
-<p>
 Same content may end up on different pages, order of content may change, and content may change too (different images may be used in different orientation, some images may be dropped, some text may be replaced with links).
-</p>
 
-<p>
-&lt;html&gt;&lt;div style=“clear:both”&gt;&lt;/div&gt;&lt;/html&gt;
-</p><h3 id="proposals2">Proposals</h3><h4 id="css3-regions-with-script1">[css3-regions] with script</h4>
-<p>
-Programmatic solution has complete freedom in representation of page templates – it can generate templates from scratch or load from any format - <abbr title="HyperText Markup Language">HTML</abbr>, XML, JSON etc.
-</p>
+\<html\>\<div style=“clear:both”\>\</div\>\</html\>
 
-<p>
+### Proposals
+
+#### \[css3-regions\] with script
+
+Programmatic solution has complete freedom in representation of page templates – it can generate templates from scratch or load from any format - HTML, XML, JSON etc.
+
 Selection algorithm also have no restrictions. Selection of specific template can be based on resolution, availability of specific content.
-</p>
 
-<p>
-<a href="http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions" title="http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions" rel="noopener">Regions OM</a> provides
-</p>
-<ul>
-<li class="level1"><strong>regionOverflow</strong> property to detect if flow in region has more content</li>
-<li class="level1">event <strong>regionLayoutUpdate</strong> to inform about dynamic content change</li>
-</ul>
+[Regions OM](http://dev.w3.org/csswg/css3-regions/#cssom_view_and_css_regions) provides
 
-<p>
+- **regionOverflow** property to detect if flow in region has more content
+- event **regionLayoutUpdate** to inform about dynamic content change
+
 Which is enough for generating pages this way
-</p><h4 id="css3-regions-with-css3-page1">[css3-regions] with [css3-page]</h4>
-<p>
+
+#### \[css3-regions\] with \[css3-page\]
+
 See previous section about combining css3-page @page with regions and a new @slot feature. Then imagine different variations of that sample code embedded in different media queries. @page provides named @page rules that act as templates, and media queries would let you use different @page rules and templates for varying orientations and screen sizes.
-</p><h4 id="idpf-page-templates-proposal">IDPF page templates proposal</h4>
-<p>
-<a href="http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml" title="http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml" rel="noopener"> IDPF Page Templates Proposal</a> adds
-</p>
-<ul>
-<li class="level1">declarative syntax for specifying page templates (called “page masters”)</li>
-</ul>
-<pre class="code">@page-master
+
+#### IDPF page templates proposal
+
+[IDPF Page Templates Proposal](http://epub-revision.googlecode.com/svn-history/r3025/trunk/src/proposals/css_page_templates/csspgt-doc.xhtml) adds
+
+- declarative syntax for specifying page templates (called “page masters”)
+
+``` code
+@page-master
 {
-    &lt;propname&gt;: &lt;propvalue&gt;;
+    <propname>: <propvalue>;
     ...
-    @region &lt;name&gt; {
+    @region <name> {
     {
-        &lt;propname&gt;: &lt;propvalue&gt;;
+        <propname>: <propvalue>;
         ...
     }
-}</pre>
-<ul>
-<li class="level1 node">specific set of rules and page-specific properties for page master selection, such as<ul>
-<li class="level2">&#039;min-page-width&#039; and &#039;min-page-height&#039; properites – for template selectoin based on page dimensions</li>
-<li class="level2">&#039;flow-priority&#039;, &#039;region-placement&#039;, &#039;required-regions&#039;, &#039;conflicting-regions&#039; and other properties - for page master selection and tuning</li>
-</ul>
-</li>
-</ul><h2 id="column-breaks-and-page-breaks-in-regions">Column breaks and page breaks in regions</h2>
-<p>
-<strong>Goal:</strong> provide a way to control layout in columns and pages, when columns, pages or both are parts of a template-based paged view
-</p>
+}
+```
 
-<p>
+- specific set of rules and page-specific properties for page master selection, such as
+  - 'min-page-width' and 'min-page-height' properites – for template selectoin based on page dimensions
+  - 'flow-priority', 'region-placement', 'required-regions', 'conflicting-regions' and other properties - for page master selection and tuning
+
+## Column breaks and page breaks in regions
+
+**Goal:** provide a way to control layout in columns and pages, when columns, pages or both are parts of a template-based paged view
+
 In magazine layout, what user percieves as “columns” can have irregular shape and position (and may be regions rather than boxes of multicol layout) and be placed to “pages” in a custom way.
-</p>
 
-<p>
 Content flown throuh such “colums” needs to be able to use column breaks and page breaks, for example to make sure that a new chapter starts at a new page:
-</p>
 
-<p>
-&lt;<abbr title="HyperText Markup Language">HTML</abbr>&gt;
-</p>
-<pre class="code">&lt;div id=&quot;page1&quot; class=&quot;pageFrame&quot; style=&quot;float:left; background:white; border:2px solid blue; margin:1em; width:18em; height:22em;&quot;&gt;
-  &lt;div class=&quot;pageContent&quot; style=&quot;margin:2em; width:13em; height:18em; position:relative; text-align:left; xoutline:1px solid lime&quot;&gt;
-    &lt;div class=&quot;titleImg&quot; style=&quot;background:salmon; width:8.3em; height:50%; float:right;&quot;&gt;&lt;/div&gt;
-    &lt;div class=&quot;mainStory&quot;&gt;
-      &lt;div style=&quot;float:left; width:4em; height:18em; overflow:hidden; margin-right:0.5em;outline:2px solid green;&quot;&gt;
-        &lt;div style=&quot;color:red; font-weight:bold&quot;&gt;One&lt;/div&gt;
+\<HTML\>
+
+``` code
+<div id="page1" class="pageFrame" style="float:left; background:white; border:2px solid blue; margin:1em; width:18em; height:22em;">
+  <div class="pageContent" style="margin:2em; width:13em; height:18em; position:relative; text-align:left; xoutline:1px solid lime">
+    <div class="titleImg" style="background:salmon; width:8.3em; height:50%; float:right;"></div>
+    <div class="mainStory">
+      <div style="float:left; width:4em; height:18em; overflow:hidden; margin-right:0.5em;outline:2px solid green;">
+        <div style="color:red; font-weight:bold">One</div>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. 
         Fusce posuere, magna 
-      &lt;/div&gt; 
-      &lt;div style=&quot;float:left; width:4em; height:8.5em; overflow:hidden; margin:0.5em 0.5em 0;outline:2px solid green;&quot;&gt;</pre>
+      </div> 
+      <div style="float:left; width:4em; height:8.5em; overflow:hidden; margin:0.5em 0.5em 0;outline:2px solid green;">
+```
 
-<p>
-pulvinar ultricies, purus lectus malesuada libero, sit amet 
-</p>
-<pre class="code">      &lt;/div&gt; 
-      &lt;div style=&quot;float:left; width:4em; height:8.5em; overflow:hidden; margin:0.5em -1em 0 0.5em;outline:2px solid green;&quot;&gt;
-      &lt;/div&gt; 
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+pulvinar ultricies, purus lectus malesuada libero, sit amet
 
-  &lt;div id=&quot;page1&quot; class=&quot;pageFrame&quot; style=&quot;float:left; background:white; border:2px solid blue; margin:1em; width:18em; height:22em;&quot;&gt;
-  &lt;div class=&quot;pageContent&quot; style=&quot;margin:2em; width:13em; height:18em; position:relative; text-align:left; xoutline:1px solid lime&quot;&gt;
-    &lt;div class=&quot;mainStory&quot;&gt;
-      &lt;div style=&quot;float:left; width:4em; height:10em; overflow:hidden; margin-right:0.5em;outline:2px solid green;&quot;&gt;
-        &lt;div style=&quot;color:red; font-weight:bold&quot;&gt;Two&lt;/div&gt;
+``` code
+      </div> 
+      <div style="float:left; width:4em; height:8.5em; overflow:hidden; margin:0.5em -1em 0 0.5em;outline:2px solid green;">
+      </div> 
+    </div>
+  </div>
+
+  <div id="page1" class="pageFrame" style="float:left; background:white; border:2px solid blue; margin:1em; width:18em; height:22em;">
+  <div class="pageContent" style="margin:2em; width:13em; height:18em; position:relative; text-align:left; xoutline:1px solid lime">
+    <div class="mainStory">
+      <div style="float:left; width:4em; height:10em; overflow:hidden; margin-right:0.5em;outline:2px solid green;">
+        <div style="color:red; font-weight:bold">Two</div>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-      &lt;/div&gt; 
-      &lt;div style=&quot;float:left; width:4em; height:10em; overflow:hidden; margin:4em 0.5em 0;outline:2px solid green;&quot;&gt;</pre>
+      </div> 
+      <div style="float:left; width:4em; height:10em; overflow:hidden; margin:4em 0.5em 0;outline:2px solid green;">
+```
 
-<p>
-Maecenas porttitor congue massa. 
-</p>
-<pre class="code">        Fusce posuere, magna sed 
-      &lt;/div&gt; 
-      &lt;div style=&quot;float:left; width:4em; height:10em; overflow:hidden; margin:8em -1em 0 0.5em;outline:2px solid green;&quot;&gt;
+Maecenas porttitor congue massa.
+
+``` code
+        Fusce posuere, magna sed 
+      </div> 
+      <div style="float:left; width:4em; height:10em; overflow:hidden; margin:8em -1em 0 0.5em;outline:2px solid green;">
         pulvinar ultricies, purus lectus malesuada libero, sit amet 
         commodo 
-        &lt;/div&gt; 
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</pre>
+        </div> 
+    </div>
+  </div>
 
-<p>
-&lt;div style=“clear:both”&gt;&lt;/div&gt;
-</p>
+```
 
-<p>
-&lt;/<abbr title="HyperText Markup Language">HTML</abbr>&gt;
-</p>
+\<div style=“clear:both”\>\</div\>
 
-<p>
+\</HTML\>
+
 If “page” is an element or pseudo-element generated from template and rendered in a custom page viewer, layout engine may need additional information to know which column is first column of a page.
-</p>
 
-<p>
-<em>Note that this may or may not be an issue, depending on how pages are built.</em>
-</p>
+*Note that this may or may not be an issue, depending on how pages are built.*
 
-<p>
-<strong>Proposal:</strong>
-<em>TODO. Named breaks have been discussed, add a specific proposal here</em>
-</p><h4 id="css3-page">[css3-page]</h4>
-<p>
-[css3-page] already has this feature, we just need to make sure that it applies to &#039;overflow:paged&#039;. For example:
-</p>
-<pre class="code">article h1 { page-break-before: always; page: chapter-start-page; }</pre>
+**Proposal:** *TODO. Named breaks have been discussed, add a specific proposal here*
 
-<p>
+#### \[css3-page\]
+
+\[css3-page\] already has this feature, we just need to make sure that it applies to 'overflow:paged'. For example:
+
+``` code
+article h1 { page-break-before: always; page: chapter-start-page; }
+```
+
 The above code starts a new page whenever there is an H1, and then uses the @page named “chapter-start-page” as its template.
-</p>
 
-<p>
 Even without considering regions and @slot, the “chapter-start-page” could have a different font-size, color, number of columns, column-rules, page area, etc., while the other declarations for H1 could make it like a header, with its own background, height, :after and/or :before pseudo-elements, etc., to help give the page a unique design. With @slot, it could also have other css-3 regions flows in it, and additional content elements.
-</p><h2 id="printing-generated-pages">Printing generated pages</h2>
-<p>
-In many of the page view situation, it is reasonable to expect that user would wish to print the content that is already preseneted in paged manner. They may prefer to either print the exact pages that they see on screen, or re-generate adaptive content for print. Either way, they will be printing content of page view, which may not be the root element of <abbr title="HyperText Markup Language">HTML</abbr> document.
-</p>
 
-<p>
-Selection of paged content for printing may have to be implemented directly in UA. 
-</p>
+## Printing generated pages
 
-<p>
+In many of the page view situation, it is reasonable to expect that user would wish to print the content that is already preseneted in paged manner. They may prefer to either print the exact pages that they see on screen, or re-generate adaptive content for print. Either way, they will be printing content of page view, which may not be the root element of HTML document.
+
+Selection of paged content for printing may have to be implemented directly in UA.
+
 Running script before print (to generate a new set of pages for print media) – may need an event on HTMLDocument (and not sure it is a good idea).
-</p><h4 id="proposal1">Proposal</h4>
-<ul>
-<li class="level1">UA should treat any object with &#039;overflow:paged&#039; in a way similar to iframes: providing UI to print just that one element, but defaulting to print it along with the entire root page. If printing just the overflow:paged element, its position within its parent or ancestors is ignored, and the upper left corner of the element will go in the upper left corner of the printable area of the paper. Right-clicking on an element should also present an option to print any of the ancestors that have &#039;overflow:paged&#039; on them.</li>
-<li class="level1">the &#039;.print()&#039; function of &#039;window&#039; should be extended to also be used on any element, so that document.getElementById(“myPagedView”).print() would work to print that one element. Then authors can include a button to print their paged element.</li>
-</ul><h1 id="issues">Issues</h1>
-<ul>
-<li class="level1">Paged view doesn&#039;t automatically mean “paged media” (which is commonly used as “for printing” and can&#039;t be repurposed). Should there be a way to declare that a paginating viewer (e.g. iframe) needs to render the same visuals as what would be printed?</li>
-<li class="level1">Media queries for paged view/columns/regions?</li>
-</ul>
-</main>
-</body>
-</html>
+
+#### Proposal
+
+- UA should treat any object with 'overflow:paged' in a way similar to iframes: providing UI to print just that one element, but defaulting to print it along with the entire root page. If printing just the overflow:paged element, its position within its parent or ancestors is ignored, and the upper left corner of the element will go in the upper left corner of the printable area of the paper. Right-clicking on an element should also present an option to print any of the ancestors that have 'overflow:paged' on them.
+- the '.print()' function of 'window' should be extended to also be used on any element, so that document.getElementById(“myPagedView”).print() would work to print that one element. Then authors can include a button to print their paged element.
+
+# Issues
+
+- Paged view doesn't automatically mean “paged media” (which is commonly used as “for printing” and can't be repurposed). Should there be a way to declare that a paginating viewer (e.g. iframe) needs to render the same visuals as what would be printed?
+- Media queries for paged view/columns/regions?

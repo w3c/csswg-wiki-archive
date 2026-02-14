@@ -1,173 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Designing the Algo - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../spec/">spec</a> / async-algos</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Designing the Algo"
+---
 
-<ul class="toc">
-<li class="level2"><a href="#designing-the-algo">Designing the Algo</a></li>
-<li class="level2"><a href="#writing-the-algo">Writing the Algo</a></li>
-<li class="level2"><a href="#handling-errors-in-async-algos">Handling Errors in Async Algos</a></li>
-<li class="level2"><a href="#making-author-observable-changes-to-page-state">Making Author-Observable Changes to Page State</a></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+## Designing the Algo
 
-<h2 id="designing-the-algo">Designing the Algo</h2>
-<p>
-First, consider the design of the function.  If it&#039;s async, it should probably be handled with either an event (if it recurs multiple times) or a promise (if it happens once and then is done).  A lot of legacy specs invented their own custom callback systems, because events were too “heavy” and promises hadn&#039;t been standardized yet; don&#039;t look to them for inspiration.
-</p>
+First, consider the design of the function. If it's async, it should probably be handled with either an event (if it recurs multiple times) or a promise (if it happens once and then is done). A lot of legacy specs invented their own custom callback systems, because events were too “heavy” and promises hadn't been standardized yet; don't look to them for inspiration.
 
-<p>
-Note that some recurring things can be handled by promises as well, if the specific piece of information the author is looking for is a single occurrence of the recurring thing.  For example, a page can cycle between “loading fonts” and “all pending font loads completed” multiple times, as more fonts are added or content is added which uses currently-unused fonts.  However, an author will generally be interested in knowing whether there are any font loads pending right now, and if so, when they next end, with no desire for knowledge of future font loads, so the <code>&#039;FontFaceSet#ready</code>&#039; attribute returns a promise, which is renewed with a fresh unfulfilled promise as necessary, for this event.
-</p><h2 id="writing-the-algo">Writing the Algo</h2>
-<p>
+Note that some recurring things can be handled by promises as well, if the specific piece of information the author is looking for is a single occurrence of the recurring thing. For example, a page can cycle between “loading fonts” and “all pending font loads completed” multiple times, as more fonts are added or content is added which uses currently-unused fonts. However, an author will generally be interested in knowing whether there are any font loads pending right now, and if so, when they next end, with no desire for knowledge of future font loads, so the `'FontFaceSet#ready`' attribute returns a promise, which is renewed with a fresh unfulfilled promise as necessary, for this event.
+
+## Writing the Algo
+
 When writing an asynchronous algorithm, one must be very clear about which parts of the algorithm are performed immediately (synchronously), finishing before the function call returns, and which parts are done at some later point (asynchronously).
-</p>
 
-<p>
 If the async part of the algorithm is relatively short, write the entire algorithm inline, specifying precisely where the function returns and the rest of the algo is run async, like:
-</p>
-<blockquote><div class="no">
- When the load() method is called, execute these steps:<br/>
- <br/>
- 1. Let font face be the FontFace object on which this method was called.<br/>
- <br/>
- 2. If font face’s [[Urls]] slot is null, or its status attribute is anything other than &quot;unloaded&quot;, return font face’s [[FontStatusPromise]] and abort these steps.<br/>
- <br/>
- 3. Otherwise, set font face’s status attribute to “loading”, return font face’s [[FontStatusPromise]], and continue executing the rest of this algorithm asynchronously.<br/>
- <br/>
- 4. Using the value of font face’s [[Urls]] slot, attempt to load a font as defined in [CSS3-FONTS], as if it was the value of a @font-face rule’s src descriptor.<br/>
- <br/>
- 5. If the attempt to load fails, reject font face’s [[FontStatusPromise]] with a NetworkError and set font face’s status attribute to &quot;error&quot;.<br/>
- <br/>
- 6. Otherwise, font face now represents the loaded font; fulfill font face’s [[FontStatusPromise]] with font face and set font face’s status attribute to &quot;loaded&quot;.</div></blockquote>
 
-<p>
-<strong>Important Note: The above code is slightly broken for simplicity.  See the “Making Author-Observable Changes to Page State” for a fully correct version of this algorithm.</strong>
-</p>
+> > [!CAUTION]
+> >
+> > When the load() method is called, execute these steps:\
+> > \
+> > 1. Let font face be the FontFace object on which this method was called.\
+> > \
+> > 2. If font face’s \[\[Urls\]\] slot is null, or its status attribute is anything other than "unloaded", return font face’s \[\[FontStatusPromise\]\] and abort these steps.\
+> > \
+> > 3. Otherwise, set font face’s status attribute to “loading”, return font face’s \[\[FontStatusPromise\]\], and continue executing the rest of this algorithm asynchronously.\
+> > \
+> > 4. Using the value of font face’s \[\[Urls\]\] slot, attempt to load a font as defined in \[CSS3-FONTS\], as if it was the value of a @font-face rule’s src descriptor.\
+> > \
+> > 5. If the attempt to load fails, reject font face’s \[\[FontStatusPromise\]\] with a NetworkError and set font face’s status attribute to "error".\
+> > \
+> > 6. Otherwise, font face now represents the loaded font; fulfill font face’s \[\[FontStatusPromise\]\] with font face and set font face’s status attribute to "loaded".
+> >
+> >
 
-<p>
-Note how Step 3 is clearly the last synchronous step.  If possible, use that exact wording: “return XXX, and continue executing the rest of this algorithm asynchronously”.
-</p>
+**Important Note: The above code is slightly broken for simplicity. See the “Making Author-Observable Changes to Page State” for a fully correct version of this algorithm.**
 
-<p>
+Note how Step 3 is clearly the last synchronous step. If possible, use that exact wording: “return XXX, and continue executing the rest of this algorithm asynchronously”.
+
 If the async part of the algorithm is relatively complex, write it as a separate named algorithm, and invoke it by name asychronously, in a similar fashion to above.
-</p><h2 id="handling-errors-in-async-algos">Handling Errors in Async Algos</h2>
-<p>
-If a method returns a promise, and is thus asynchronous, <strong>never</strong> throw an exception from it; instead, reject the promise with the exception.  Mixing sync and async error-handling is a bad time, often requiring fragile duplication of error-handling code both in a try/catch block and in the rejection handler for the promise.  Even seemingly “obvious” errors, like argument parsing, should reject the promise rather than throwing.
-</p><h2 id="making-author-observable-changes-to-page-state">Making Author-Observable Changes to Page State</h2>
-<p>
-Be careful about making any change to the state of the document within the asynchronous portion of the algorithm.  Any observable change must define precisely when it happens, so that observable state cannot change in the middle of author JS code; that violates JS&#039;s run-to-completion semantics.  Instead, all changes must happen in a defined task or microtask.  For example, the above algorithm is erroneous; it changes the font face&#039;s <code>&#039;status</code>&#039; attribute, an author-observable piece of information, without clarifying precisely when it happens.
-</p>
 
-<p>
-The correct way to make an observable change is in a synchronous block that is explicitly put on a task queue.  There is nice <abbr title="specification">spec</abbr> language for invoking this.  Here&#039;s the corrected version of the above code using the correct language:
-</p>
-<blockquote><div class="no">
- When the load() method is called, execute these steps:<br/>
- <br/>
- 1. Let font face be the FontFace object on which this method was called.<br/>
- <br/>
- 2. If font face’s [[Urls]] slot is null, or its status attribute is anything other than &quot;unloaded&quot;, return font face’s [[FontStatusPromise]] and abort these steps.<br/>
- <br/>
- 3. Otherwise, set font face’s status attribute to “loading”, return font face’s [[FontStatusPromise]], and continue executing the rest of this algorithm asynchronously.<br/>
- <br/>
- 4. Using the value of font face’s [[Urls]] slot, attempt to load a font as defined in [CSS3-FONTS], as if it was the value of a @font-face rule’s src descriptor.<br/>
-<br/>
- 5. Once the attempt to load either completes with either success or failure, await a stable state, then synchronously execute the following steps:<br/>
-<br/>
-   5a. If the attempt to load failed, set font face&#039;s status attribute to “error”, then reject font face&#039;s [[FontStatusPromise]] with a NetworkError.<br/>
-<br/>
-   5b. Otherwise, set font face&#039;s status attribute to “loaded”, then fulfill font face&#039;s [[FontStatusPromise]] with font face.</div></blockquote>
+## Handling Errors in Async Algos
 
-<p>
-The “await a stable state” language ensures that author code has reached a point where other code can run, and that nothing else is in the queue to be run.  This ensures that, for example, the promise&#039;s callbacks will be called immediately after the status attribute is changed.
-</p>
+If a method returns a promise, and is thus asynchronous, **never** throw an exception from it; instead, reject the promise with the exception. Mixing sync and async error-handling is a bad time, often requiring fragile duplication of error-handling code both in a try/catch block and in the rejection handler for the promise. Even seemingly “obvious” errors, like argument parsing, should reject the promise rather than throwing.
 
-<p>
+## Making Author-Observable Changes to Page State
+
+Be careful about making any change to the state of the document within the asynchronous portion of the algorithm. Any observable change must define precisely when it happens, so that observable state cannot change in the middle of author JS code; that violates JS's run-to-completion semantics. Instead, all changes must happen in a defined task or microtask. For example, the above algorithm is erroneous; it changes the font face's `'status`' attribute, an author-observable piece of information, without clarifying precisely when it happens.
+
+The correct way to make an observable change is in a synchronous block that is explicitly put on a task queue. There is nice spec language for invoking this. Here's the corrected version of the above code using the correct language:
+
+> > [!CAUTION]
+> >
+> > When the load() method is called, execute these steps:\
+> > \
+> > 1. Let font face be the FontFace object on which this method was called.\
+> > \
+> > 2. If font face’s \[\[Urls\]\] slot is null, or its status attribute is anything other than "unloaded", return font face’s \[\[FontStatusPromise\]\] and abort these steps.\
+> > \
+> > 3. Otherwise, set font face’s status attribute to “loading”, return font face’s \[\[FontStatusPromise\]\], and continue executing the rest of this algorithm asynchronously.\
+> > \
+> > 4. Using the value of font face’s \[\[Urls\]\] slot, attempt to load a font as defined in \[CSS3-FONTS\], as if it was the value of a @font-face rule’s src descriptor.\
+> > \
+> > 5. Once the attempt to load either completes with either success or failure, await a stable state, then synchronously execute the following steps:\
+> > \
+> > 5a. If the attempt to load failed, set font face's status attribute to “error”, then reject font face's \[\[FontStatusPromise\]\] with a NetworkError.\
+> > \
+> > 5b. Otherwise, set font face's status attribute to “loaded”, then fulfill font face's \[\[FontStatusPromise\]\] with font face.
+> >
+> >
+
+The “await a stable state” language ensures that author code has reached a point where other code can run, and that nothing else is in the queue to be run. This ensures that, for example, the promise's callbacks will be called immediately after the status attribute is changed.
+
 If there is further asynchronous work to be done, explicitly state “Perform the rest of this algorithm asynchronously.”, to avoid any possible confusion.
-</p>
 
-<p>
-Note that fulfilling a promise is not author-observable, because the state of a promise isn&#039;t directly exposed anywhere (and it automatically queues the promise callbacks for an upcoming microtask checkpoint).  It can be done freely in an async algorithm without the above contortions.
-</p>
-</main>
-</body>
-</html>
+Note that fulfilling a promise is not author-observable, because the state of a promise isn't directly exposed anywhere (and it automatically queues the promise callbacks for an upcoming microtask checkpoint). It can be done freely in an async algorithm without the above contortions.

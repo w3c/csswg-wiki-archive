@@ -1,365 +1,178 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TPAC 2018 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / tpac-2018</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "TPAC 2018"
+---
 
-<ul class="toc">
-<li class="level2"><a href="#tpac-2018">TPAC 2018</a><ul class="toc">
-<li class="level3"><a href="#place-logistics-etc">Place, Logistics, etc.</a></li>
-<li class="level3"><a href="#participants">Participants</a></li>
-<li class="level3"><a href="#proposed-agenda">Proposed Agenda</a></li>
-<li class="level3"><a href="#schedule">Schedule</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+## TPAC 2018
 
-<h2 id="tpac-2018">TPAC 2018</h2><h3 id="place-logistics-etc">Place, Logistics, etc.</h3>
-<ul>
-<li class="level1"><a href="https://www.w3.org/2018/10/TPAC/" title="https://www.w3.org/2018/10/TPAC/" rel="noopener">https://www.w3.org/2018/10/TPAC/</a></li>
-<li class="level1">full TPAC week is 22-26 October 2018</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> WG meeting days are Mon-Tue 22-23 from 9am to 6pm</li>
-<li class="level1">Houdini meeting is Thu 25 October from 09:00-???</li>
-<li class="level1">Lyon, France at the Lyon Convention Center</li>
-<li class="level1"><a href="https://www.w3.org/2018/10/Meetup/" title="https://www.w3.org/2018/10/Meetup/" rel="noopener">Monday night developer meetup</a> (requires registration)</li>
-<li class="level1">Jiminy Panoz, a Lyon resident (and friend of EPUB and <abbr title="Cascading Style Sheets">CSS</abbr>), has posted a <a href="https://docs.google.com/document/d/1nzfUxp1LWo5WqN1GymLLK14UCpFxmSsqw7pKi3zBSsY/edit" title="https://docs.google.com/document/d/1nzfUxp1LWo5WqN1GymLLK14UCpFxmSsqw7pKi3zBSsY/edit" rel="noopener">guide to Lyon</a> for TPAC attendees</li>
-</ul><h3 id="participants">Participants</h3>
-<p>
+### Place, Logistics, etc.
+
+- <https://www.w3.org/2018/10/TPAC/>
+- full TPAC week is 22-26 October 2018
+- CSS WG meeting days are Mon-Tue 22-23 from 9am to 6pm
+- Houdini meeting is Thu 25 October from 09:00-???
+- Lyon, France at the Lyon Convention Center
+- [Monday night developer meetup](https://www.w3.org/2018/10/Meetup/) (requires registration)
+- Jiminy Panoz, a Lyon resident (and friend of EPUB and CSS), has posted a [guide to Lyon](https://docs.google.com/document/d/1nzfUxp1LWo5WqN1GymLLK14UCpFxmSsqw7pKi3zBSsY/edit) for TPAC attendees
+
+### Participants
+
 Please, put your name in this table if you plan to participate (alphabetical order by given name):
-</p>
-<div class="table sectionedit4"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Arrival </th><th class="col2"> Departure </th><th class="col3"> Hotel </th><th class="col4"> Flight info and notes </th><th class="col5"> Conflicts </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Alan Stearns </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td><td class="col5"></td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Chris Lilley </td><td class="col1"> Sunday </td><td class="col2"> Sunday </td><td class="col3"> </td><td class="col4"> </td><td class="col5"></td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Dave Cramer </td><td class="col1"> Sunday </td><td class="col2"> Friday </td><td class="col3"> </td><td class="col4"> </td><td class="col5">PWG most of Tuesday </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Dominik Röttsches </td><td class="col1"> Sunday evening </td><td class="col2"> Thursday evening </td><td class="col3"> Marriott Cité Internationale </td><td class="col4"> </td><td class="col5"></td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> Emil A Eklund </td><td class="col1"> Sunday 16:45 </td><td class="col2"> Saturday 06:50 </td><td class="col3"> Marriott Cité Internationale </td><td class="col4"> BA284+BA362 / BA365+BA285 </td><td class="col5"></td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> Eric Willigers </td><td class="col1"> Saturday </td><td class="col2"> Sunday </td><td class="col3"> Crowne Plaza Lyon </td><td class="col4 leftalign">  </td><td class="col5"></td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> fantasai </td><td class="col1"> Monday 8:50am </td><td class="col2"> Friday-ish </td><td class="col3 leftalign">  </td><td class="col4 leftalign">  </td><td class="col5"> Early Monday Morning </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Florian Rivoal </td><td class="col1"> Sunday </td><td class="col2"> Sunday </td><td class="col3"> Temporim Lyon Cité Internationale </td><td class="col4"> </td><td class="col5"> at AC meeting 15h00-17h00 Tuesday </td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> François REMY </td><td class="col1"> Sunday </td><td class="col2"> TBD </td><td class="col3 leftalign">  </td><td class="col4 leftalign">  </td><td class="col5"></td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> Hiroshi Sakakibara </td><td class="col1"> Sunday </td><td class="col2"> Saturday </td><td class="col3 leftalign">  </td><td class="col4 leftalign">  </td><td class="col5"></td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Jen Simmons </td><td class="col1"> Sunday </td><td class="col2"> Thursday </td><td class="col3"> Marriott </td><td class="col4 leftalign">  </td><td class="col5"></td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Jihye Hong </td><td class="col1"> Sunday </td><td class="col2"> Saturday </td><td class="col3"> ibis </td><td class="col4 leftalign">  </td><td class="col5"> Early Monday afternoon</td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Lea Verou </td><td class="col1"> Sunday </td><td class="col2"> Sunday </td><td class="col3"> </td><td class="col4"> </td><td class="col5"></td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> L. David Baron </td><td class="col1"> Saturday 16:00 </td><td class="col2"> Saturday 17:04 </td><td class="col3"> Hôtel le Roosevelt </td><td class="col4"> AF83+<a href="https://www.sncf.com/fr/itineraire-reservation/recherche-numero-train/details-train/5119?date=20%2F10%2F2018&amp;codeCirculation=OCESN005119F02005&amp;codeZoneArret=OCE87223263" title="https://www.sncf.com/fr/itineraire-reservation/recherche-numero-train/details-train/5119?date=20%2F10%2F2018&amp;codeCirculation=OCESN005119F02005&amp;codeZoneArret=OCE87223263" rel="noopener">TGV5119</a> / <a href="https://www.sncf.com/fr/itineraire-reservation/recherche-numero-train/details-train/6626?codeCirculation=OCESN006626F01004&amp;codeZoneArret=OCE87722025&amp;date=27%2F10%2F2018" title="https://www.sncf.com/fr/itineraire-reservation/recherche-numero-train/details-train/6626?codeCirculation=OCESN006626F01004&amp;codeZoneArret=OCE87722025&amp;date=27%2F10%2F2018" rel="noopener">TGV6626</a> </td><td class="col5"> probably at TAG roughly 09h00-10h00 Monday; at AC meeting 15h00-17h00 Tuesday </td>
-	</tr>
-	<tr class="row15">
-		<td class="col0"> Majid Valipour</td><td class="col1"> Sunday </td><td class="col2"> Friday</td><td class="col3">AirBnB</td><td class="col4"> </td><td class="col5"> </td>
-	</tr>
-	<tr class="row16">
-		<td class="col0"> Manuel Rego </td><td class="col1"> Sunday </td><td class="col2"> Thursday&#039;s night </td><td class="col3 leftalign">  </td><td class="col4 leftalign">  </td><td class="col5"></td>
-	</tr>
-	<tr class="row17">
-		<td class="col0"> Melanie Richards </td><td class="col1"> Saturday </td><td class="col2"> Sunday </td><td class="col3"> Crown Plaza </td><td class="col4"> </td><td class="col5"></td>
-	</tr>
-	<tr class="row18">
-		<td class="col0"> Myles C. Maxfield </td><td class="col1 leftalign">  </td><td class="col2 leftalign">  </td><td class="col3 leftalign">  </td><td class="col4 leftalign">  </td><td class="col5"></td>
-	</tr>
-	<tr class="row19">
-		<td class="col0"> Rachel Andrew </td><td class="col1"> Sunday 16:45 </td><td class="col2"> Saturday 06:50 </td><td class="col3"> Marriott </td><td class="col4"> BA362, BA365 </td><td class="col5"></td>
-	</tr>
-	<tr class="row20">
-		<td class="col0"> Rakina Amni </td><td class="col1 leftalign">  </td><td class="col2 leftalign">  </td><td class="col3 leftalign">  </td><td class="col4 leftalign">  </td><td class="col5"></td>
-	</tr>
-	<tr class="row21">
-		<td class="col0"> Rossen Atanassov </td><td class="col1"> Sunday </td><td class="col2"> Friday </td><td class="col3"> Crowne Plaza </td><td class="col4"> </td><td class="col5"></td>
-	</tr>
-	<tr class="row22">
-		<td class="col0"> Rune Lillesveen </td><td class="col1"> Sunday </td><td class="col2"> Friday-ish </td><td class="col3 leftalign">  </td><td class="col4 leftalign">  </td><td class="col5"></td>
-	</tr>
-	<tr class="row23">
-		<td class="col0"> Simon Fraser </td><td class="col1"> ? </td><td class="col2"> ? </td><td class="col3 leftalign">  </td><td class="col4 leftalign">  </td><td class="col5"></td>
-	</tr>
-	<tr class="row24">
-		<td class="col0"> Surma </td><td class="col1"> Sunday </td><td class="col2"> Saturday </td><td class="col3"> Crowne Plaza</td><td class="col4"></td><td class="col5"></td>
-	</tr>
-	<tr class="row25">
-		<td class="col0"> Tab Atkins </td><td class="col1"> ? </td><td class="col2"> ? </td><td class="col3"> ? </td><td class="col4"> </td><td class="col5"></td>
-	</tr>
-	<tr class="row26">
-		<td class="col0"> Tantek Çelik </td><td class="col1"> Monday </td><td class="col2"> Thursday </td><td class="col3"> Hôtel le Roosevelt </td><td class="col4"> </td><td class="col5"></td>
-	</tr>
-	<tr class="row27">
-		<td class="col0"> Fuqiao Xue </td><td class="col1"> Sunday </td><td class="col2"> Saturday </td><td class="col3 leftalign">  </td><td class="col4 leftalign">  </td><td class="col5"></td>
-	</tr>
-	<tr class="row28">
-		<td class="col0"> Chris Harrelson </td><td class="col1"> Saturday </td><td class="col2"> Saturday </td><td class="col3 leftalign">  </td><td class="col4 leftalign">  </td><td class="col5"></td>
-	</tr>
-	<tr class="row29">
-		<td class="col0"> Dirk Schulze </td><td class="col1"> </td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td><td class="col5"></td>
-	</tr>
-</table><p>
+
+| Name | Arrival | Departure | Hotel | Flight info and notes | Conflicts |
+|----|----|----|----|----|----|
+| Alan Stearns |  |  |  |  |  |
+| Chris Lilley | Sunday | Sunday |  |  |  |
+| Dave Cramer | Sunday | Friday |  |  | PWG most of Tuesday |
+| Dominik Röttsches | Sunday evening | Thursday evening | Marriott Cité Internationale |  |  |
+| Emil A Eklund | Sunday 16:45 | Saturday 06:50 | Marriott Cité Internationale | BA284+BA362 / BA365+BA285 |  |
+| Eric Willigers | Saturday | Sunday | Crowne Plaza Lyon |  |  |
+| fantasai | Monday 8:50am | Friday-ish |  |  | Early Monday Morning |
+| Florian Rivoal | Sunday | Sunday | Temporim Lyon Cité Internationale |  | at AC meeting 15h00-17h00 Tuesday |
+| François REMY | Sunday | TBD |  |  |  |
+| Hiroshi Sakakibara | Sunday | Saturday |  |  |  |
+| Jen Simmons | Sunday | Thursday | Marriott |  |  |
+| Jihye Hong | Sunday | Saturday | ibis |  | Early Monday afternoon |
+| Lea Verou | Sunday | Sunday |  |  |  |
+| L. David Baron | Saturday 16:00 | Saturday 17:04 | Hôtel le Roosevelt | AF83+[TGV5119](https://www.sncf.com/fr/itineraire-reservation/recherche-numero-train/details-train/5119?date=20%2F10%2F2018&codeCirculation=OCESN005119F02005&codeZoneArret=OCE87223263) / [TGV6626](https://www.sncf.com/fr/itineraire-reservation/recherche-numero-train/details-train/6626?codeCirculation=OCESN006626F01004&codeZoneArret=OCE87722025&date=27%2F10%2F2018) | probably at TAG roughly 09h00-10h00 Monday; at AC meeting 15h00-17h00 Tuesday |
+| Majid Valipour | Sunday | Friday | AirBnB |  |  |
+| Manuel Rego | Sunday | Thursday's night |  |  |  |
+| Melanie Richards | Saturday | Sunday | Crown Plaza |  |  |
+| Myles C. Maxfield |  |  |  |  |  |
+| Rachel Andrew | Sunday 16:45 | Saturday 06:50 | Marriott | BA362, BA365 |  |
+| Rakina Amni |  |  |  |  |  |
+| Rossen Atanassov | Sunday | Friday | Crowne Plaza |  |  |
+| Rune Lillesveen | Sunday | Friday-ish |  |  |  |
+| Simon Fraser | ? | ? |  |  |  |
+| Surma | Sunday | Saturday | Crowne Plaza |  |  |
+| Tab Atkins | ? | ? | ? |  |  |
+| Tantek Çelik | Monday | Thursday | Hôtel le Roosevelt |  |  |
+| Fuqiao Xue | Sunday | Saturday |  |  |  |
+| Chris Harrelson | Saturday | Saturday |  |  |  |
+| Dirk Schulze |  |  |  |  |  |
+
 Regrets:
-</p>
 
-<p>
-- …
-</p>
+\- …
 
-<p>
-See also the current <a href="https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants" title="https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants" rel="noopener">https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants</a> [member-only].
-</p><h3 id="proposed-agenda">Proposed Agenda</h3><h3 id="schedule">Schedule</h3><h4 id="monday">Monday</h4><h5 id="morning">Morning</h5>
-<p>
+See also the current <https://www.w3.org/2002/09/wbs/35125/TPAC2018/registrants> \[member-only\].
+
+### Proposed Agenda
+
+### Schedule
+
+#### Monday
+
+##### Morning
+
 (9am schedule wrangling and introductions)
-</p>
-<ul>
-<li class="level1">Accessibility <abbr title="Application Programming Interface">API</abbr> Mappings (<a href="https://w3c.github.io/html-aam/" title="https://w3c.github.io/html-aam/" rel="noopener">https://w3c.github.io/html-aam/</a>) - What it is, how it matters to <abbr title="Cascading Style Sheets">CSS</abbr>, when we need to ping a11y people about implications. Focus on display:contents being unexpectedly troublesome. – Alice Boxhall</li>
-<li class="level1">Identify new people to represent the CSSWG in the <abbr title="Cascading Style Sheets">CSS</abbr> a11y task force</li>
-<li class="level1">[css-break-4] control space before element depending on page position: <a href="https://github.com/w3c/csswg-drafts/issues/253" title="https://github.com/w3c/csswg-drafts/issues/253" rel="noopener">https://github.com/w3c/csswg-drafts/issues/253</a></li>
-</ul>
 
-<p>
+- Accessibility API Mappings (<https://w3c.github.io/html-aam/>) - What it is, how it matters to CSS, when we need to ping a11y people about implications. Focus on display:contents being unexpectedly troublesome. – Alice Boxhall
+- Identify new people to represent the CSSWG in the CSS a11y task force
+- \[css-break-4\] control space before element depending on page position: <https://github.com/w3c/csswg-drafts/issues/253>
+
 10am - Break
-</p>
-<ul>
-<li class="level1">[css-align] gap properties for block layout: <a href="https://github.com/w3c/csswg-drafts/issues/3068" title="https://github.com/w3c/csswg-drafts/issues/3068" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3068</a></li>
-<li class="level1 node">css-multicol<ul>
-<li class="level2">What happens to the mbp of the empty fragment created by a spanner being first-child of an element: <a href="https://github.com/w3c/csswg-drafts/issues/2552" title="https://github.com/w3c/csswg-drafts/issues/2552" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2552</a></li>
-<li class="level2">Margin collapsing does not make sense with column-spans: <a href="https://github.com/w3c/csswg-drafts/issues/2203" title="https://github.com/w3c/csswg-drafts/issues/2203" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2203</a></li>
-<li class="level2">Improve column-fill and make it backward-compatible: <a href="https://github.com/w3c/csswg-drafts/issues/3224" title="https://github.com/w3c/csswg-drafts/issues/3224" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3224</a></li>
-</ul>
-</li>
-</ul>
-<ul>
-<li class="level1 node">Css-text-3:<ul>
-<li class="level2">Revisit text-align shorthanding text-align-last: <a href="https://github.com/w3c/csswg-drafts/issues/3117" title="https://github.com/w3c/csswg-drafts/issues/3117" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3117</a></li>
-<li class="level2">word-wrap/overflow-wrap: break-word should affect min-content <a href="https://github.com/w3c/csswg-drafts/issues/2682" title="https://github.com/w3c/csswg-drafts/issues/2682" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2682</a></li>
-</ul>
-</li>
-<li class="level1 node">Text-4<ul>
-<li class="level2">Allow letter-spacing to have unitless values like line-height: <a href="https://github.com/w3c/csswg-drafts/issues/2165" title="https://github.com/w3c/csswg-drafts/issues/2165" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2165</a></li>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/3229" title="https://github.com/w3c/csswg-drafts/issues/3229" rel="noopener">[css-text-4] Text-spacing is too strict</a></li>
-</ul>
-</li>
-</ul>
 
-<p>
+- \[css-align\] gap properties for block layout: <https://github.com/w3c/csswg-drafts/issues/3068>
+- css-multicol
+  - What happens to the mbp of the empty fragment created by a spanner being first-child of an element: <https://github.com/w3c/csswg-drafts/issues/2552>
+  - Margin collapsing does not make sense with column-spans: <https://github.com/w3c/csswg-drafts/issues/2203>
+  - Improve column-fill and make it backward-compatible: <https://github.com/w3c/csswg-drafts/issues/3224>
+
+<!-- -->
+
+- Css-text-3:
+  - Revisit text-align shorthanding text-align-last: <https://github.com/w3c/csswg-drafts/issues/3117>
+  - word-wrap/overflow-wrap: break-word should affect min-content <https://github.com/w3c/csswg-drafts/issues/2682>
+- Text-4
+  - Allow letter-spacing to have unitless values like line-height: <https://github.com/w3c/csswg-drafts/issues/2165>
+  - [\[css-text-4\] Text-spacing is too strict](https://github.com/w3c/csswg-drafts/issues/3229)
+
 12pm - Lunch
-</p><h5 id="afternoon">Afternoon</h5>
-<ul>
-<li class="level1">[css-flexbox] Investigate applying align-content to single-line flex containers: <a href="https://github.com/w3c/csswg-drafts/issues/3052" title="https://github.com/w3c/csswg-drafts/issues/3052" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3052</a></li>
-</ul>
-<ul>
-<li class="level1 node">Initial Letter Layout Model and other <abbr title="Cascading Style Sheets">CSS</abbr> Inline Layout Issues (could this happen Monday? –dauwhe)<ul>
-<li class="level2">Should first/last baseline values of `vertical-align` belong to `alignment-baseline` or separate longhand? <a href="https://github.com/w3c/csswg-drafts/issues/861" title="https://github.com/w3c/csswg-drafts/issues/861" rel="noopener">https://github.com/w3c/csswg-drafts/issues/861</a></li>
-<li class="level2">better name for initial-letters property: <a href="https://github.com/w3c/csswg-drafts/issues/2950" title="https://github.com/w3c/csswg-drafts/issues/2950" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2950</a></li>
-</ul>
-</li>
-</ul>
-<ul>
-<li class="level1 node">Css-overflow-3<ul>
-<li class="level2">Intrinsic sizing of elements with continue:discard <a href="https://github.com/w3c/csswg-drafts/issues/3214" title="https://github.com/w3c/csswg-drafts/issues/3214" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3214</a></li>
-<li class="level2">Define the behavior of overly long block ellipsis strings <a href="https://github.com/w3c/csswg-drafts/issues/3213" title="https://github.com/w3c/csswg-drafts/issues/3213" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3213</a></li>
-<li class="level2">block-overflow, ::first-line, and ::first letter <a href="https://github.com/w3c/csswg-drafts/issues/2906" title="https://github.com/w3c/csswg-drafts/issues/2906" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2906</a></li>
-<li class="level2">Allowing (or not) alternate ellipsis behavior for block-overflow <a href="https://github.com/w3c/csswg-drafts/issues/2905" title="https://github.com/w3c/csswg-drafts/issues/2905" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2905</a></li>
-</ul>
-</li>
-</ul>
 
-<p>
+##### Afternoon
+
+- \[css-flexbox\] Investigate applying align-content to single-line flex containers: <https://github.com/w3c/csswg-drafts/issues/3052>
+
+<!-- -->
+
+- Initial Letter Layout Model and other CSS Inline Layout Issues (could this happen Monday? –dauwhe)
+  - Should first/last baseline values of \`vertical-align\` belong to \`alignment-baseline\` or separate longhand? <https://github.com/w3c/csswg-drafts/issues/861>
+  - better name for initial-letters property: <https://github.com/w3c/csswg-drafts/issues/2950>
+
+<!-- -->
+
+- Css-overflow-3
+  - Intrinsic sizing of elements with continue:discard <https://github.com/w3c/csswg-drafts/issues/3214>
+  - Define the behavior of overly long block ellipsis strings <https://github.com/w3c/csswg-drafts/issues/3213>
+  - block-overflow, ::first-line, and ::first letter <https://github.com/w3c/csswg-drafts/issues/2906>
+  - Allowing (or not) alternate ellipsis behavior for block-overflow <https://github.com/w3c/csswg-drafts/issues/2905>
+
 3pm - Joint meeting with the Math on Web Pages CG
-</p>
-<ul>
-<li class="level1">vertically align to nth-child: <a href="https://github.com/w3c/csswg-drafts/issues/1339" title="https://github.com/w3c/csswg-drafts/issues/1339" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1339</a></li>
-</ul>
 
-<p>
+- vertically align to nth-child: <https://github.com/w3c/csswg-drafts/issues/1339>
+
 3:30pm - break
-</p>
 
-<p>
-4pm - Joint meeting with <a href="https://github.com/web-platform-tests/wpt/wiki/TPAC-2018" title="https://github.com/web-platform-tests/wpt/wiki/TPAC-2018" rel="noopener">WPT</a>
-</p>
-<ul>
-<li class="level1"><a href="https://wicg.github.io/scroll-animations/" title="https://wicg.github.io/scroll-animations/" rel="noopener"> Scroll-linked Animations </a> - Spec is on WICG and Blink now has a partial experimental implementation (majidvp@ can demo). Gathering status and see if there is interest in moving it (or a subset) forward.</li>
-</ul>
-<ul>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr>-UI<ul>
-<li class="level2">fieldset/legend (<a href="https://github.com/w3c/csswg-drafts/issues/3094" title="https://github.com/w3c/csswg-drafts/issues/3094" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3094</a>)—Florian</li>
-<li class="level2">Dark mode and native form controls (discussion)—fremy</li>
-<li class="level2">Should we define outline more tightly and aim for close interop, or leave it open to UI innovation? (see <a href="https://github.com/w3c/csswg-drafts/issues/3184" title="https://github.com/w3c/csswg-drafts/issues/3184" rel="noopener">3184</a> for a recent example, but also the <abbr title="specification">spec</abbr> is full of “may”)—Florian</li>
-</ul>
-</li>
-</ul><h4 id="tuesday">Tuesday</h4><h5 id="morning1">Morning</h5>
-<p>
+4pm - Joint meeting with [WPT](https://github.com/web-platform-tests/wpt/wiki/TPAC-2018)
+
+- [Scroll-linked Animations](https://wicg.github.io/scroll-animations/) - Spec is on WICG and Blink now has a partial experimental implementation (majidvp@ can demo). Gathering status and see if there is interest in moving it (or a subset) forward.
+
+<!-- -->
+
+- CSS-UI
+  - fieldset/legend (<https://github.com/w3c/csswg-drafts/issues/3094>)—Florian
+  - Dark mode and native form controls (discussion)—fremy
+  - Should we define outline more tightly and aim for close interop, or leave it open to UI innovation? (see [3184](https://github.com/w3c/csswg-drafts/issues/3184) for a recent example, but also the spec is full of “may”)—Florian
+
+#### Tuesday
+
+##### Morning
+
 (start at 9am - the room will be occupied until then)
-</p>
-<ul>
-<li class="level1">Spatial Navigation — Jihye and Florian (prefers Tuesday, not during AC meeting, definitely avoid Monday early afternoon and avoid from 5pm Tuesday)</li>
-<li class="level1 node">css-fonts-4<ul>
-<li class="level2">src: local() font unique name matching ambiguous &amp; restricts matched locale <a href="https://github.com/w3c/csswg-drafts/issues/3177" title="https://github.com/w3c/csswg-drafts/issues/3177" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3177</a></li>
-</ul>
-</li>
-<li class="level1">[css-overscroll-behavior] Moving <a href="https://drafts.csswg.org/css-overscroll-behavior/" title="https://drafts.csswg.org/css-overscroll-behavior/" rel="noopener">spec</a> to FPWD. This was recently migrated from WICG.</li>
-<li class="level1">aspect-ratio draft proposal: <a href="https://drafts.csswg.org/css-sizing-4/#ratios" title="https://drafts.csswg.org/css-sizing-4/#ratios" rel="noopener">https://drafts.csswg.org/css-sizing-4/#ratios</a></li>
-</ul>
 
-<p>
+- Spatial Navigation — Jihye and Florian (prefers Tuesday, not during AC meeting, definitely avoid Monday early afternoon and avoid from 5pm Tuesday)
+- css-fonts-4
+  - src: local() font unique name matching ambiguous & restricts matched locale <https://github.com/w3c/csswg-drafts/issues/3177>
+- \[css-overscroll-behavior\] Moving [spec](https://drafts.csswg.org/css-overscroll-behavior/) to FPWD. This was recently migrated from WICG.
+- aspect-ratio draft proposal: <https://drafts.csswg.org/css-sizing-4/#ratios>
+
 10am - Break
-</p>
-<ul>
-<li class="level1">[css-shadow-parts] confirm browser support (Tuesday): <a href="https://github.com/w3c/csswg-drafts/issues/2368" title="https://github.com/w3c/csswg-drafts/issues/2368" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2368</a></li>
-</ul>
 
-<p>
-11am - Joint meeting with <a href="https://www.w3.org/International/wiki/2018TPACAgenda" title="https://www.w3.org/International/wiki/2018TPACAgenda" rel="noopener">i18n</a>
-</p>
-<ul>
-<li class="level1"><a href="https://github.com/w3c/csswg-drafts/issues/1744" title="https://github.com/w3c/csswg-drafts/issues/1744" rel="noopener">Propose adding lang as a font-face descriptor</a> ideally with I18n Core</li>
-<li class="level1">[css-logical] Flow-relative syntax for `margin`-like shorthands: <a href="https://github.com/w3c/csswg-drafts/issues/1282" title="https://github.com/w3c/csswg-drafts/issues/1282" rel="noopener">https://github.com/w3c/csswg-drafts/issues/1282</a></li>
-</ul>
+- \[css-shadow-parts\] confirm browser support (Tuesday): <https://github.com/w3c/csswg-drafts/issues/2368>
 
-<p>
+11am - Joint meeting with [i18n](https://www.w3.org/International/wiki/2018TPACAgenda)
+
+- [Propose adding lang as a font-face descriptor](https://github.com/w3c/csswg-drafts/issues/1744) ideally with I18n Core
+- \[css-logical\] Flow-relative syntax for \`margin\`-like shorthands: <https://github.com/w3c/csswg-drafts/issues/1282>
+
 12pm - Lunch
-</p><h5 id="afternoon1">Afternoon</h5>
-<ul>
-<li class="level1">Environment Variables <abbr title="specification">spec</abbr> - path to fpwd?</li>
-<li class="level1 node"><a href="https://wicg.github.io/construct-stylesheets/index.html" title="https://wicg.github.io/construct-stylesheets/index.html" rel="noopener">Constructable Stylesheets</a> (Tuesday) – Rakina &amp; Eric &amp; Tab<ul>
-<li class="level2"><a href="https://github.com/WICG/construct-stylesheets/issues/23" title="https://github.com/WICG/construct-stylesheets/issues/23" rel="noopener">Can the same constructed stylesheet be used in two different Documents?</a></li>
-<li class="level2"><a href="https://github.com/WICG/construct-stylesheets/issues/15" title="https://github.com/WICG/construct-stylesheets/issues/15" rel="noopener">Need to define what fetch groups various loads from the sheet go in</a></li>
-<li class="level2"><a href="https://github.com/WICG/construct-stylesheets/issues/34" title="https://github.com/WICG/construct-stylesheets/issues/34" rel="noopener">Can we use CSSStyleSheets from &lt;style&gt;/&lt;link&gt; in adoptedStyleSheets?</a></li>
-<li class="level2"><a href="https://github.com/WICG/construct-stylesheets/issues/36" title="https://github.com/WICG/construct-stylesheets/issues/36" rel="noopener">Should we use FrozenArray instead of StyleSheetList for adoptedStyleSheets</a></li>
-<li class="level2">Should this <abbr title="specification">spec</abbr> move from WICG to <abbr title="Cascading Style Sheets">CSS</abbr> WG?</li>
-<li class="level2">Blink is interested in shipping.</li>
-</ul>
-</li>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr>-UI<ul>
-<li class="level2">Path forward for the appearance property (<a href="https://github.com/w3c/csswg-drafts/issues/3024" title="https://github.com/w3c/csswg-drafts/issues/3024" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3024</a>)—Florian</li>
-</ul>
-</li>
-</ul>
 
-<p>
+##### Afternoon
+
+- Environment Variables spec - path to fpwd?
+- [Constructable Stylesheets](https://wicg.github.io/construct-stylesheets/index.html) (Tuesday) – Rakina & Eric & Tab
+  - [Can the same constructed stylesheet be used in two different Documents?](https://github.com/WICG/construct-stylesheets/issues/23)
+  - [Need to define what fetch groups various loads from the sheet go in](https://github.com/WICG/construct-stylesheets/issues/15)
+  - [Can we use CSSStyleSheets from \<style\>/\<link\> in adoptedStyleSheets?](https://github.com/WICG/construct-stylesheets/issues/34)
+  - [Should we use FrozenArray instead of StyleSheetList for adoptedStyleSheets](https://github.com/WICG/construct-stylesheets/issues/36)
+  - Should this spec move from WICG to CSS WG?
+  - Blink is interested in shipping.
+- CSS-UI
+  - Path forward for the appearance property (<https://github.com/w3c/csswg-drafts/issues/3024>)—Florian
+
 3:30pm - break
-</p>
-<ul>
-<li class="level1 node">Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/3237" title="https://github.com/w3c/csswg-drafts/issues/3237" rel="noopener">getComputedStyle and scrollbar-color</a></li>
-</ul>
-</li>
-<li class="level1">Effect of filter element on root element <a href="https://github.com/w3c/fxtf-drafts/issues/282" title="https://github.com/w3c/fxtf-drafts/issues/282" rel="noopener">https://github.com/w3c/fxtf-drafts/issues/282</a> –chrishtr</li>
-<li class="level1">backdrop-filter <abbr title="specification">spec</abbr> issues: <a href="https://github.com/w3c/fxtf-drafts/issues/53" title="https://github.com/w3c/fxtf-drafts/issues/53" rel="noopener">https://github.com/w3c/fxtf-drafts/issues/53</a></li>
-<li class="level1 node">Text-decoration<ul>
-<li class="level2"><a href="https://github.com/w3c/csswg-drafts/issues/3118" title="https://github.com/w3c/csswg-drafts/issues/3118" rel="noopener">text-underline-offset</a></li>
-<li class="level2"><a href="https://twitter.com/Litherum/status/1053686215898288129" title="https://twitter.com/Litherum/status/1053686215898288129" rel="noopener">Rename text-decoration-width?</a></li>
-</ul>
-</li>
-<li class="level1">[<abbr title="Cascading Style Sheets">CSS</abbr>-cascade] import only in moment when we need it: <a href="https://github.com/w3c/csswg-drafts/issues/3050" title="https://github.com/w3c/csswg-drafts/issues/3050" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3050</a></li>
-<li class="level1">[css-conditional-4] selector() feature query function for selector support: <a href="https://github.com/w3c/csswg-drafts/issues/3207" title="https://github.com/w3c/csswg-drafts/issues/3207" rel="noopener">https://github.com/w3c/csswg-drafts/issues/3207</a></li>
-<li class="level1">[selectors4] Name the “functional pseudo-class like :matches() with 0 specificity”: <a href="https://github.com/w3c/csswg-drafts/issues/2143" title="https://github.com/w3c/csswg-drafts/issues/2143" rel="noopener">https://github.com/w3c/csswg-drafts/issues/2143</a></li>
-</ul><h4 id="thursday">Thursday</h4>
-<p>
+
+- Scrollbar Styling - FPWD, experimental implementation(s), and maybe even demo(s)?
+  - [getComputedStyle and scrollbar-color](https://github.com/w3c/csswg-drafts/issues/3237)
+- Effect of filter element on root element <https://github.com/w3c/fxtf-drafts/issues/282> –chrishtr
+- backdrop-filter spec issues: <https://github.com/w3c/fxtf-drafts/issues/53>
+- Text-decoration
+  - [text-underline-offset](https://github.com/w3c/csswg-drafts/issues/3118)
+  - [Rename text-decoration-width?](https://twitter.com/Litherum/status/1053686215898288129)
+- \[CSS-cascade\] import only in moment when we need it: <https://github.com/w3c/csswg-drafts/issues/3050>
+- \[css-conditional-4\] selector() feature query function for selector support: <https://github.com/w3c/csswg-drafts/issues/3207>
+- \[selectors4\] Name the “functional pseudo-class like :matches() with 0 specificity”: <https://github.com/w3c/csswg-drafts/issues/2143>
+
+#### Thursday
+
 Houdini
-</p>
-</main>
-</body>
-</html>

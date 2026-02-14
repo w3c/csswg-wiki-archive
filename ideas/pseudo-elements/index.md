@@ -1,209 +1,192 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Additional Pseudo-Elements - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../ideas/">ideas</a> / pseudo-elements</div>
-<main>
-<h1 id="additional-pseudo-elements">Additional Pseudo-Elements</h1>
-<p>
-The ::outside pseudo-element was cut from css3-content and has not been tracked since. Other pseudo-elements concepts like wrapping a range of elements have been discussed from time to time. Additional pseudo-elements with more control over where they are positioned in the tree could help reduce markup clutter where elements are added to <abbr title="HyperText Markup Language">HTML</abbr> for the sole purpose of <abbr title="Cascading Style Sheets">CSS</abbr> styling (<a href="http://lists.w3.org/Archives/Public/www-style/2011Dec/0463.html" title="http://lists.w3.org/Archives/Public/www-style/2011Dec/0463.html" rel="noopener">Markup Clutter thread</a>) (<a href="http://lists.w3.org/Archives/Public/www-style/2010Jul/0160.html" title="http://lists.w3.org/Archives/Public/www-style/2010Jul/0160.html" rel="noopener">Thread discussing wrapping multiple elements</a>). See also: <a href="http://lists.w3.org/Archives/Public/www-style/2012Feb/0193.html" title="http://lists.w3.org/Archives/Public/www-style/2012Feb/0193.html" rel="noopener">cross-post from whatwg about anonymous grouping</a>.
-</p>
+---
+title: "Additional Pseudo-Elements"
+---
 
-<p>
-One issue is that there is very little scripting access to pseudo-elements currently. If we end up relying on pseudo-elements for wrappers or for inserting presentational boxes there should be a way to attach event handlers to pseudo-elements: <a href="http://lists.w3.org/Archives/Public/www-style/2012Feb/0626.html" title="http://lists.w3.org/Archives/Public/www-style/2012Feb/0626.html" rel="noopener">post with use cases for interaction in layout</a>
-</p>
+# Additional Pseudo-Elements
 
-<p>
-Another issue is how to provide a way to override pseudo-element styling. If one stylesheet defines a pseudo-element wrapper with some styling, how can a second stylesheet import the first and override the wrapper&#039;s style?
-</p>
+The ::outside pseudo-element was cut from css3-content and has not been tracked since. Other pseudo-elements concepts like wrapping a range of elements have been discussed from time to time. Additional pseudo-elements with more control over where they are positioned in the tree could help reduce markup clutter where elements are added to HTML for the sole purpose of CSS styling ([Markup Clutter thread](http://lists.w3.org/Archives/Public/www-style/2011Dec/0463.html)) ([Thread discussing wrapping multiple elements](http://lists.w3.org/Archives/Public/www-style/2010Jul/0160.html)). See also: [cross-post from whatwg about anonymous grouping](http://lists.w3.org/Archives/Public/www-style/2012Feb/0193.html).
 
-<p>
-Here is a list of possible pseudo-element additions that could be made in a future <abbr title="specification">spec</abbr>.
-</p><h4 id="simple-wrapping-of-a-single-element">1. Simple wrapping of a single element</h4>
-<p>
-In CSS3 Content, <code>::outside</code> was meant to create a pseudo element containing a single element.
-</p>
-<pre class="code css">div<span class="sy0">::</span><span class="kw2">outside</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span><span class="br0">&#125;</span></pre>
-<pre class="code html4strict"><span class="sc-1">&lt;!-- pseudo-element --&gt;</span>
-  <span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>markup content<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-<span class="sc-1">&lt;!--end --&gt;</span></pre><h4 id="complex-wrapping-of-an-element-range">2. Complex wrapping of an element range</h4>
-<p>
+One issue is that there is very little scripting access to pseudo-elements currently. If we end up relying on pseudo-elements for wrappers or for inserting presentational boxes there should be a way to attach event handlers to pseudo-elements: [post with use cases for interaction in layout](http://lists.w3.org/Archives/Public/www-style/2012Feb/0626.html)
+
+Another issue is how to provide a way to override pseudo-element styling. If one stylesheet defines a pseudo-element wrapper with some styling, how can a second stylesheet import the first and override the wrapper's style?
+
+Here is a list of possible pseudo-element additions that could be made in a future spec.
+
+#### 1. Simple wrapping of a single element
+
+In CSS3 Content, `::outside` was meant to create a pseudo element containing a single element.
+
+``` code
+div::outside {border: thick solid green;}
+```
+
+``` code
+<!-- pseudo-element -->
+  <div>markup content</div>
+<!--end -->
+```
+
+#### 2. Complex wrapping of an element range
+
 A wrapper that contains a range of elements specified by indices. This could be specified as a child interval on a parent, or directly from an element with a number of siblings to contain.
-</p>
-<pre class="code css"><span class="re0">#parent</span><span class="coMULTI">/*&gt;*/</span><span class="sy0">::</span>wrap<span class="br0">&#40;</span><span class="nu0">2</span><span class="sy0">,</span><span class="nu0">5</span><span class="br0">&#41;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span><span class="br0">&#125;</span> <span class="coMULTI">/* child interval */</span></pre>
-<pre class="code css"><span class="re0">#parent</span><span class="sy0">&gt;:</span><span class="kw5">nth-child</span><span class="br0">&#40;</span><span class="nu0">2</span><span class="br0">&#41;</span><span class="sy0">::</span>wrap<span class="br0">&#40;</span><span class="nu0">3</span><span class="br0">&#41;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">lime</span><span class="sy0">;</span><span class="br0">&#125;</span> <span class="coMULTI">/* sibling interval */</span></pre>
-<pre class="code html4strict"><span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">id</span><span class="sy0">=</span>parent&gt;</span>
-  <span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>1<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-  <span class="sc-1">&lt;!-- pseudo-element containing the next three elements --&gt;</span>
-    <span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>2<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-    <span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>3<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-    <span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>4<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-  <span class="sc-1">&lt;!--end --&gt;</span>
-  <span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>5<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
 
-<p>
-If the second idea (starting from the first element to be wrapped, and specifying how many elements to include in the wrapping) is adopted, it could be used to solve #1 as well, by allowing an appropriate default value to wrap only the single element.  That is, something like <code>div::wrap</code> could be equivalent to <code>div::wrap(1)</code>, which wraps only the single <code>div</code>.
-</p><h4 id="complex-wrapping-of-selector-range">3. Complex wrapping of selector range</h4>
-<p>
-A wrapper that contains a range of elements specified by selectors. In this case the declared range is from every &lt;dt&gt; element until the next &lt;dt&gt; following a &lt;dd&gt;.
-</p>
-<pre class="code css">dl<span class="sy0">::</span>wrap<span class="br0">&#40;</span><span class="sy0">:</span>matches<span class="br0">&#40;</span><span class="sy0">:</span><span class="kw5">first-child</span><span class="sy0">,</span> dt<span class="br0">&#41;</span><span class="sy0">,</span> dd<span class="sy0">+</span>dt<span class="br0">&#41;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span><span class="br0">&#125;</span></pre>
-<pre class="code html4strict"><span class="sc2">&lt;<a href="http://december.com/html/4/element/dl.html"><span class="kw2">dl</span></a>&gt;</span>
-  <span class="sc-1">&lt;!-- pseudo-element &lt;di&gt; --&gt;</span>
-    <span class="sc2">&lt;<a href="http://december.com/html/4/element/dt.html"><span class="kw2">dt</span></a>&gt;</span> Last modified time <span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/dt.html"><span class="kw2">dt</span></a>&gt;</span>
-    <span class="sc2">&lt;<a href="http://december.com/html/4/element/dd.html"><span class="kw2">dd</span></a>&gt;</span> 2004-12-23T23:33Z <span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/dd.html"><span class="kw2">dd</span></a>&gt;</span>
-  <span class="sc-1">&lt;!-- end &lt;/di&gt; --&gt;</span>
-  <span class="sc-1">&lt;!-- pseudo-element &lt;di&gt; --&gt;</span>
-    <span class="sc2">&lt;<a href="http://december.com/html/4/element/dt.html"><span class="kw2">dt</span></a>&gt;</span> Recommended update interval <span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/dt.html"><span class="kw2">dt</span></a>&gt;</span>
-    <span class="sc2">&lt;<a href="http://december.com/html/4/element/dd.html"><span class="kw2">dd</span></a>&gt;</span> 60s <span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/dd.html"><span class="kw2">dd</span></a>&gt;</span>
-  <span class="sc-1">&lt;!-- end &lt;/di&gt; --&gt;</span>
-  <span class="sc-1">&lt;!-- pseudo-element &lt;di&gt; --&gt;</span>
-    <span class="sc2">&lt;<a href="http://december.com/html/4/element/dt.html"><span class="kw2">dt</span></a>&gt;</span> Editors <span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/dt.html"><span class="kw2">dt</span></a>&gt;</span>
-    <span class="sc2">&lt;<a href="http://december.com/html/4/element/dd.html"><span class="kw2">dd</span></a>&gt;</span> Robert Rothman <span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/dd.html"><span class="kw2">dd</span></a>&gt;</span>
-    <span class="sc2">&lt;<a href="http://december.com/html/4/element/dd.html"><span class="kw2">dd</span></a>&gt;</span> Daniel Jackson <span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/dd.html"><span class="kw2">dd</span></a>&gt;</span>
-  <span class="sc-1">&lt;!-- end &lt;/di&gt; --&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/dl.html"><span class="kw2">dl</span></a>&gt;</span></pre><h4 id="sibling-pseudo-elements">4. Sibling pseudo-elements</h4>
-<p>
-A pseudo-element as a previous or next sibling to an element. In the case below you should be able to place this pseudo-element as following &lt;h1&gt; or previous to &lt;p&gt;.
-</p>
-<pre class="code css">h1<span class="sy0">::</span>next <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span><span class="br0">&#125;</span></pre>
-<pre class="code css">p<span class="sy0">::</span>prev <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span><span class="br0">&#125;</span></pre>
-<pre class="code html4strict"><span class="sc2">&lt;<a href="http://december.com/html/4/element/h1.html"><span class="kw2">h1</span></a>&gt;</span>heading<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/h1.html"><span class="kw2">h1</span></a>&gt;</span>
-<span class="sc-1">&lt;!-- pseudo-element --&gt;</span>
-<span class="sc2">&lt;<a href="http://december.com/html/4/element/p.html"><span class="kw2">p</span></a>&gt;</span>paragraph<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/p.html"><span class="kw2">p</span></a>&gt;</span></pre><h4 id="proliferation">5. Proliferation</h4>
-<p>
-Mechanisms for adding more than one pseudo-element in some or all of the existing pseudo-element schemes.  CSS3 Content previously had the ability to specify multiples of a pseudo by specifying an index in square brackets.
-</p>
-<pre class="code css">div<span class="sy0">::</span><span class="kw5">before</span><span class="br0">&#91;</span><span class="nu0">1</span><span class="br0">&#93;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span><span class="br0">&#125;</span>
-div<span class="sy0">::</span><span class="kw5">before</span><span class="br0">&#91;</span><span class="nu0">2</span><span class="br0">&#93;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">lime</span><span class="sy0">;</span><span class="br0">&#125;</span></pre>
-<pre class="code html4strict"><span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-  <span class="sc-1">&lt;!-- ::before pseudo-element 1 --&gt;</span>
-  <span class="sc-1">&lt;!-- ::before pseudo-element 2 --&gt;</span>
+``` code
+#parent/*>*/::wrap(2,5) {border: thick solid green;} /* child interval */
+```
+
+``` code
+#parent>:nth-child(2)::wrap(3) {border: thick solid lime;} /* sibling interval */
+```
+
+``` code
+<div id=parent>
+  <div>1</div>
+  <!-- pseudo-element containing the next three elements -->
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+  <!--end -->
+  <div>5</div>
+
+```
+
+If the second idea (starting from the first element to be wrapped, and specifying how many elements to include in the wrapping) is adopted, it could be used to solve \#1 as well, by allowing an appropriate default value to wrap only the single element. That is, something like `div::wrap` could be equivalent to `div::wrap(1)`, which wraps only the single `div`.
+
+#### 3. Complex wrapping of selector range
+
+A wrapper that contains a range of elements specified by selectors. In this case the declared range is from every \<dt\> element until the next \<dt\> following a \<dd\>.
+
+``` code
+dl::wrap(:matches(:first-child, dt), dd+dt) {border: thick solid green;}
+```
+
+``` code
+<dl>
+  <!-- pseudo-element <di> -->
+    <dt> Last modified time </dt>
+    <dd> 2004-12-23T23:33Z </dd>
+  <!-- end </di> -->
+  <!-- pseudo-element <di> -->
+    <dt> Recommended update interval </dt>
+    <dd> 60s </dd>
+  <!-- end </di> -->
+  <!-- pseudo-element <di> -->
+    <dt> Editors </dt>
+    <dd> Robert Rothman </dd>
+    <dd> Daniel Jackson </dd>
+  <!-- end </di> -->
+</dl>
+```
+
+#### 4. Sibling pseudo-elements
+
+A pseudo-element as a previous or next sibling to an element. In the case below you should be able to place this pseudo-element as following \<h1\> or previous to \<p\>.
+
+``` code
+h1::next {border: thick solid green;}
+```
+
+``` code
+p::prev {border: thick solid green;}
+```
+
+``` code
+<h1>heading</h1>
+<!-- pseudo-element -->
+<p>paragraph</p>
+```
+
+#### 5. Proliferation
+
+Mechanisms for adding more than one pseudo-element in some or all of the existing pseudo-element schemes. CSS3 Content previously had the ability to specify multiples of a pseudo by specifying an index in square brackets.
+
+``` code
+div::before[1] {border: thick solid green;}
+div::before[2] {border: thick solid lime;}
+```
+
+``` code
+<div>
+  <!-- ::before pseudo-element 1 -->
+  <!-- ::before pseudo-element 2 -->
   markup content
-<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
-<pre class="code css">div<span class="sy0">::</span><span class="kw5">before</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span> <span class="kw2">content</span><span class="sy0">=</span><span class="st0">&quot;text1&quot;</span><span class="sy0">;</span><span class="br0">&#125;</span>
-div<span class="sy0">::</span><span class="kw5">before</span><span class="sy0">::</span><span class="kw5">before</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">lime</span><span class="sy0">;</span> <span class="kw2">content</span><span class="sy0">=</span><span class="st0">&quot;text2&quot;</span><span class="sy0">;</span><span class="br0">&#125;</span>
-div<span class="sy0">::</span><span class="kw5">after</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span> <span class="kw2">content</span><span class="sy0">=</span><span class="st0">&quot;text3&quot;</span><span class="sy0">;</span><span class="br0">&#125;</span>
-div<span class="sy0">::</span><span class="kw5">after</span><span class="sy0">::</span><span class="kw5">after</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">lime</span><span class="sy0">;</span> <span class="kw2">content</span><span class="sy0">=</span><span class="st0">&quot;text4&quot;</span><span class="sy0">;</span><span class="br0">&#125;</span></pre>
-<pre class="code html4strict"><span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-  <span class="sc-1">&lt;!-- ::before pseudo-element --&gt;</span>
-    <span class="sc-1">&lt;!-- nesting ::before pseudo-element --&gt;</span>
+
+```
+
+``` code
+div::before {border: thick solid green; content="text1";}
+div::before::before {border: thick solid lime; content="text2";}
+div::after {border: thick solid green; content="text3";}
+div::after::after {border: thick solid lime; content="text4";}
+```
+
+``` code
+<div>
+  <!-- ::before pseudo-element -->
+    <!-- nesting ::before pseudo-element -->
       text2
-    <span class="sc-1">&lt;!-- end --&gt;</span>
+    <!-- end -->
     text1
-  <span class="sc-1">&lt;!-- end --&gt;</span>
+  <!-- end -->
   markup content
-  <span class="sc-1">&lt;!-- ::after pseudo-element --&gt;</span>
+  <!-- ::after pseudo-element -->
     text3
-    <span class="sc-1">&lt;!-- nesting ::after pseudo-element --&gt;</span>
+    <!-- nesting ::after pseudo-element -->
       text4
-    <span class="sc-1">&lt;!-- end --&gt;</span>
-  <span class="sc-1">&lt;!-- end --&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
-<pre class="code css">div<span class="sy0">::</span><span class="kw2">outside</span><span class="br0">&#91;</span><span class="nu0">1</span><span class="br0">&#93;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span><span class="br0">&#125;</span>
-div<span class="sy0">::</span><span class="kw2">outside</span><span class="br0">&#91;</span><span class="nu0">2</span><span class="br0">&#93;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">lime</span><span class="sy0">;</span><span class="br0">&#125;</span></pre>
-<pre class="code html4strict"><span class="sc-1">&lt;!-- nesting ::outside pseudo-element --&gt;</span>
-  <span class="sc-1">&lt;!-- nesting ::outside pseudo-element --&gt;</span>
-    <span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>markup content<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-  <span class="sc-1">&lt;!-- end --&gt;</span>
-<span class="sc-1">&lt;!-- end --&gt;</span></pre>
-<pre class="code css">h1<span class="sy0">::</span>next<span class="br0">&#91;</span><span class="nu0">1</span><span class="br0">&#93;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span><span class="br0">&#125;</span>
-h1<span class="sy0">::</span>next<span class="br0">&#91;</span><span class="nu0">2</span><span class="br0">&#93;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">lime</span><span class="sy0">;</span><span class="br0">&#125;</span>
-h1<span class="sy0">::</span>next<span class="br0">&#91;</span><span class="nu0">3</span><span class="br0">&#93;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">olive</span><span class="sy0">;</span><span class="br0">&#125;</span></pre>
-<pre class="code html4strict"><span class="sc2">&lt;<a href="http://december.com/html/4/element/h1.html"><span class="kw2">h1</span></a>&gt;</span>heading<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/h1.html"><span class="kw2">h1</span></a>&gt;</span>
-<span class="sc-1">&lt;!-- multiple sibling pseudo-elements --&gt;</span>
-<span class="sc-1">&lt;!-- multiple sibling pseudo-elements --&gt;</span>
-<span class="sc-1">&lt;!-- multiple sibling pseudo-elements --&gt;</span>
-<span class="sc2">&lt;<a href="http://december.com/html/4/element/p.html"><span class="kw2">p</span></a>&gt;</span>paragraph<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/p.html"><span class="kw2">p</span></a>&gt;</span>  </pre><h4 id="complex-wrapping-of-ranges-of-similar-elements">6. Complex wrapping of ranges of similar elements</h4>
-<p>
-A wrapper that contains contiguous elements that share a selectable characteristic. In this case, instead of making three simple wrappers around each instance of class <code>bar</code>, it would group the first two <code>bar</code> elements together in one wrapper.
-</p>
-<pre class="code css"><span class="sy0">::</span>wrap<span class="br0">&#40;</span><span class="co2">div.bar</span><span class="br0">&#41;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span><span class="br0">&#125;</span></pre>
-<pre class="code html4strict"><span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span>foo&gt;&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-<span class="sc-1">&lt;!-- pseudo-element that wraps class bar --&gt;</span>
-  <span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span>bar&gt;&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-  <span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span>bar&gt;&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-<span class="sc-1">&lt;!-- end --&gt;</span>
-<span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span>foo&gt;&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-<span class="sc-1">&lt;!-- pseudo-element that wraps class bar --&gt;</span>
-  <span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span>bar&gt;&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
-<span class="sc-1">&lt;!-- end --&gt;</span></pre>
+    <!-- end -->
+  <!-- end -->
 
-<p>
-This could potentially also be addressed with #3.
-</p>
-<pre class="code css"><span class="sy0">::</span>wrap<span class="br0">&#40;</span>div<span class="re1">.bar</span><span class="sy0">,</span> <span class="sy0">:</span><span class="kw5">not</span><span class="br0">&#40;</span><span class="co2">div.bar</span><span class="br0">&#41;</span><span class="br0">&#41;</span> <span class="br0">&#123;</span><span class="kw1">border</span><span class="sy0">:</span> <span class="kw2">thick</span> <span class="kw2">solid</span> <span class="kw4">green</span><span class="sy0">;</span><span class="br0">&#125;</span></pre>
-</main>
-</body>
-</html>
+```
+
+``` code
+div::outside[1] {border: thick solid green;}
+div::outside[2] {border: thick solid lime;}
+```
+
+``` code
+<!-- nesting ::outside pseudo-element -->
+  <!-- nesting ::outside pseudo-element -->
+    <div>markup content</div>
+  <!-- end -->
+<!-- end -->
+```
+
+``` code
+h1::next[1] {border: thick solid green;}
+h1::next[2] {border: thick solid lime;}
+h1::next[3] {border: thick solid olive;}
+```
+
+``` code
+<h1>heading</h1>
+<!-- multiple sibling pseudo-elements -->
+<!-- multiple sibling pseudo-elements -->
+<!-- multiple sibling pseudo-elements -->
+<p>paragraph</p>  
+```
+
+#### 6. Complex wrapping of ranges of similar elements
+
+A wrapper that contains contiguous elements that share a selectable characteristic. In this case, instead of making three simple wrappers around each instance of class `bar`, it would group the first two `bar` elements together in one wrapper.
+
+``` code
+::wrap(div.bar) {border: thick solid green;}
+```
+
+``` code
+<div class=foo></div>
+<!-- pseudo-element that wraps class bar -->
+  <div class=bar></div>
+  <div class=bar></div>
+<!-- end -->
+<div class=foo></div>
+<!-- pseudo-element that wraps class bar -->
+  <div class=bar></div>
+<!-- end -->
+```
+
+This could potentially also be addressed with \#3.
+
+``` code
+::wrap(div.bar, :not(div.bar)) {border: thick solid green;}
+```

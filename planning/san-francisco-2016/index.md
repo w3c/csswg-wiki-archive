@@ -1,324 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>San Francisco F2F May 9-11 2016 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../planning/">planning</a> / san-francisco-2016</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "San Francisco F2F May 9-11 2016"
+---
 
-<ul class="toc">
-<li class="level2"><a href="#san-francisco-f2f-may-9-11-2016">San Francisco F2F May 9-11 2016</a><ul class="toc">
-<li class="level3"><a href="#meeting-minutes">Meeting Minutes</a></li>
-<li class="level3"><a href="#adjacent-meetings">Adjacent meetings</a></li>
-<li class="level3"><a href="#dates-to-schedule-around">Dates to schedule around</a></li>
-<li class="level3"><a href="#group-dinner">Group Dinner</a></li>
-<li class="level3"><a href="#place">Place</a></li>
-<li class="level3"><a href="#participants">Participants</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#observers">Observers</a></li>
-<li class="level2"><a href="#regrets">Regrets</a><ul class="toc">
-<li class="level3"><a href="#proposed-agenda-topics">Proposed Agenda Topics</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+## San Francisco F2F May 9-11 2016
 
-<h2 id="san-francisco-f2f-may-9-11-2016">San Francisco F2F May 9-11 2016</h2>
-<ul>
-<li class="level1">Host: Google</li>
-<li class="level1">Address: 345 Spear St, San Francisco</li>
-<li class="level1">Dates: Monday-Wednesday, May 09-11, 2016</li>
-<li class="level1">Times: 08:30 doors open, 09:00 meeting start, 18:00 meeting end (each day)</li>
-<li class="level1">Location: <a href="https://www.google.com/maps/place/Google+San+Francisco/@37.7899358,-122.3923733,17z/data=!3m2!4b1!5s0x808580700892716d:0xd104ce6ddb61b683!4m2!3m1!1s0x8085807aa599c429:0xf5a373d09072e1ac" title="https://www.google.com/maps/place/Google+San+Francisco/@37.7899358,-122.3923733,17z/data=!3m2!4b1!5s0x808580700892716d:0xd104ce6ddb61b683!4m2!3m1!1s0x8085807aa599c429:0xf5a373d09072e1ac" rel="noopener"> Map</a></li>
-</ul><h3 id="meeting-minutes">Meeting Minutes</h3>
-<ul>
-<li class="level1"><a href="https://lists.w3.org/Archives/Public/www-style/2016May/0208.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0208.html" rel="noopener">Monday, 9 May Part I: Flexbox, Box Alignment, Grid]
-  * [[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html|Monday, 9 May Part II: Counters, Values &amp; Units</a></li>
-<li class="level1"><a href="https://lists.w3.org/Archives/Public/www-style/2016May/0210.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0210.html" rel="noopener">Monday, 9 May Part III: Media Queries, Sizing, Flexbox, CSS Containment</a></li>
-<li class="level1"><a href="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0211.html" rel="noopener">Monday, 9 May Part IV: CSS Content, Testing</a></li>
-<li class="level1"><a href="https://lists.w3.org/Archives/Public/www-style/2016May/0233.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0233.html" rel="noopener">Tuesday, 10 May Part I: Scheduling, Round Display</a></li>
-<li class="level1"><a href="https://lists.w3.org/Archives/Public/www-style/2016May/0234.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0234.html" rel="noopener">Tuesday, 10 May Part II: CSS tables status update, CSS 4 UI, Page Media Query, Generated Content Spec</a></li>
-<li class="level1"><a href="https://lists.w3.org/Archives/Public/www-style/2016May/0235.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0235.html" rel="noopener">Tuesday, 10 May Part III: Report on vertical writing award website, Testing, Sizing</a></li>
-<li class="level1"><a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0018.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0018.html" rel="noopener">Wednesday, 11 May Part I: Step-Sizing, CSSOM View</a></li>
-<li class="level1"><a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html" rel="noopener">Wednesday, 11 May Part II: CSS Text 3 &amp; 4, Logical properties and margins in vertical text</a></li>
-<li class="level1"><a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html" rel="noopener">Wednesday, 11 May Part III: Scroll Snapping</a></li>
-<li class="level1"><a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html" title="https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html" rel="noopener">Wednesday, 11 May Part IV: CSS Color, Grid, Flexbox, Inline</a></li>
-</ul><h3 id="adjacent-meetings">Adjacent meetings</h3>
-<ul>
-<li class="level1">2016-05-12..13 <a href="https://github.com/w3c/css-houdini-drafts/wiki/San-Francisco-F2F-May-12-13-2016" title="https://github.com/w3c/css-houdini-drafts/wiki/San-Francisco-F2F-May-12-13-2016" rel="noopener"> Houdini in San Francisco</a></li>
-</ul><h3 id="dates-to-schedule-around">Dates to schedule around</h3>
-<ul>
-<li class="level1">2016-05-05 <a href="http://www.typecamp.org/camps/san-francisco-blackletter/" title="http://www.typecamp.org/camps/san-francisco-blackletter/" rel="noopener">Typecamp Blackletter</a></li>
-<li class="level1">2016-05-15 <a href="http://www.zapposbaytobreakers.com/" title="http://www.zapposbaytobreakers.com/" rel="noopener">Bay to Breakers</a></li>
-</ul><h3 id="group-dinner">Group Dinner</h3>
-<p>
-<a href="http://www.garaje475.com/" title="http://www.garaje475.com/" rel="noopener">Garaje</a> - <a href="https://www.google.com/maps/place/475+3rd+St,+San+Francisco,+CA+94107/@37.7817918,-122.3982266,17z/data=!3m1!4b1!4m5!3m4!1s0x8085807ed5c920b9:0xc2aea581df3918e4!8m2!3d37.7817918!4d-122.3960326" title="https://www.google.com/maps/place/475+3rd+St,+San+Francisco,+CA+94107/@37.7817918,-122.3982266,17z/data=!3m1!4b1!4m5!3m4!1s0x8085807ed5c920b9:0xc2aea581df3918e4!8m2!3d37.7817918!4d-122.3960326" rel="noopener">475 3rd St</a> - Wednesday at 6pm
-</p>
+- Host: Google
+- Address: 345 Spear St, San Francisco
+- Dates: Monday-Wednesday, May 09-11, 2016
+- Times: 08:30 doors open, 09:00 meeting start, 18:00 meeting end (each day)
+- Location: [Map](https://www.google.com/maps/place/Google+San+Francisco/@37.7899358,-122.3923733,17z/data=!3m2!4b1!5s0x808580700892716d:0xd104ce6ddb61b683!4m2!3m1!1s0x8085807aa599c429:0xf5a373d09072e1ac)
 
-<p>
+### Meeting Minutes
+
+- [Monday, 9 May Part I: Flexbox, Box Alignment, Grid\] \* \[\[https://lists.w3.org/Archives/Public/www-style/2016May/0209.html\|Monday, 9 May Part II: Counters, Values & Units](https://lists.w3.org/Archives/Public/www-style/2016May/0208.html)
+- [Monday, 9 May Part III: Media Queries, Sizing, Flexbox, CSS Containment](https://lists.w3.org/Archives/Public/www-style/2016May/0210.html)
+- [Monday, 9 May Part IV: CSS Content, Testing](https://lists.w3.org/Archives/Public/www-style/2016May/0211.html)
+- [Tuesday, 10 May Part I: Scheduling, Round Display](https://lists.w3.org/Archives/Public/www-style/2016May/0233.html)
+- [Tuesday, 10 May Part II: CSS tables status update, CSS 4 UI, Page Media Query, Generated Content Spec](https://lists.w3.org/Archives/Public/www-style/2016May/0234.html)
+- [Tuesday, 10 May Part III: Report on vertical writing award website, Testing, Sizing](https://lists.w3.org/Archives/Public/www-style/2016May/0235.html)
+- [Wednesday, 11 May Part I: Step-Sizing, CSSOM View](https://lists.w3.org/Archives/Public/www-style/2016Jun/0018.html)
+- [Wednesday, 11 May Part II: CSS Text 3 & 4, Logical properties and margins in vertical text](https://lists.w3.org/Archives/Public/www-style/2016Jun/0019.html)
+- [Wednesday, 11 May Part III: Scroll Snapping](https://lists.w3.org/Archives/Public/www-style/2016Jun/0020.html)
+- [Wednesday, 11 May Part IV: CSS Color, Grid, Flexbox, Inline](https://lists.w3.org/Archives/Public/www-style/2016Jun/0021.html)
+
+### Adjacent meetings
+
+- 2016-05-12..13 [Houdini in San Francisco](https://github.com/w3c/css-houdini-drafts/wiki/San-Francisco-F2F-May-12-13-2016)
+
+### Dates to schedule around
+
+- 2016-05-05 [Typecamp Blackletter](http://www.typecamp.org/camps/san-francisco-blackletter/)
+- 2016-05-15 [Bay to Breakers](http://www.zapposbaytobreakers.com/)
+
+### Group Dinner
+
+[Garaje](http://www.garaje475.com/) - [475 3rd St](https://www.google.com/maps/place/475+3rd+St,+San+Francisco,+CA+94107/@37.7817918,-122.3982266,17z/data=!3m1!4b1!4m5!3m4!1s0x8085807ed5c920b9:0xc2aea581df3918e4!8m2!3d37.7817918!4d-122.3960326) - Wednesday at 6pm
+
 Great Mexican place, very vegetarian-friendly, amazing beer selection (and non-alcohol, obvs)
-</p><h3 id="place">Place</h3>
-<ul>
-<li class="level1"><a href="https://maps.google.com/?q=Google%20San%20Francisco@37.789904,-122.390576&amp;hl=en" title="https://maps.google.com/?q=Google%20San%20Francisco@37.789904,-122.390576&amp;hl=en" rel="noopener">Google San Francisco</a>, 345 Spear Street, San Francisco, CA 94105, United States</li>
-<li class="level1">Weather Forecast: <a href="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=37.7895&amp;lon=-122.3890&amp;unit=1&amp;mp=1" title="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=37.7895&amp;lon=-122.3890&amp;unit=1&amp;mp=1" rel="noopener">°C</a> or <a href="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=37.7895&amp;lon=-122.3890&amp;mp=1" title="http://forecast.weather.gov/MapClick.php?smap=1&amp;lat=37.7895&amp;lon=-122.3890&amp;mp=1" rel="noopener">°F</a></li>
-</ul>
 
-<p>
+### Place
+
+- [Google San Francisco](https://maps.google.com/?q=Google%20San%20Francisco@37.789904,-122.390576&hl=en), 345 Spear Street, San Francisco, CA 94105, United States
+- Weather Forecast: [°C](http://forecast.weather.gov/MapClick.php?smap=1&lat=37.7895&lon=-122.3890&unit=1&mp=1) or [°F](http://forecast.weather.gov/MapClick.php?smap=1&lat=37.7895&lon=-122.3890&mp=1)
+
 The simplest way to get to the meeting room is to walk into the lobby entrance off spear street (the entrance is directly opposite a big bike rental rack). Take the elevators to level 7 and a security guard should be able to direct you to the correct room (which is called Elastigirl).
-</p><h3 id="participants">Participants</h3>
-<p>
+
+### Participants
+
 Please, put your name in this table if you plan to participate (alphabetical order):
-</p>
-<div class="table sectionedit8"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0"> Name </th><th class="col1"> Arrival </th><th class="col2"> Departure </th><th class="col3"> Hotel </th><th class="col4"> Flight info and notes </th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0"> Alan Stearns </td><td class="col1"> May 8 </td><td class="col2"> May 14 </td><td class="col3"> AirBnB </td><td class="col4"> ??? </td>
-	</tr>
-	<tr class="row2">
-		<td class="col0"> Andrey Rybka </td><td class="col1"> May 8 </td><td class="col2"> May 11 </td><td class="col3"> Club Quarters </td><td class="col4"> UA443 </td>
-	</tr>
-	<tr class="row3">
-		<td class="col0"> Brad Kemper </td><td class="col1"> N/A </td><td class="col2"> N/A </td><td class="col3"> home </td><td class="col4"> Driving or BART from Hayward </td>
-	</tr>
-	<tr class="row4">
-		<td class="col0"> Chris Lilley </td><td class="col1"> May 7</td><td class="col2"> May 15</td><td class="col3"> AirBnB </td><td class="col4"> UA783 / UA 242</td>
-	</tr>
-	<tr class="row5">
-		<td class="col0"> Dave Cramer </td><td class="col1"> May 8 </td><td class="col2"> May 14 </td><td class="col3"> Mosser Hotel </td><td class="col4"> UA912 / UA1146 </td>
-	</tr>
-	<tr class="row6">
-		<td class="col0"> Edward O&#039;Connor </td><td class="col1"> N/A </td><td class="col2"> N/A </td><td class="col3"> home </td><td class="col4"> bike or muni </td>
-	</tr>
-	<tr class="row7">
-		<td class="col0"> Elliott Sprehn </td><td class="col1"> ?? </td><td class="col2"> ?? </td><td class="col3"> ?? </td><td class="col4"> ?? </td>
-	</tr>
-	<tr class="row8">
-		<td class="col0"> Florian Rivoal </td><td class="col1"> May 7 </td><td class="col2"> May 12 </td><td class="col3"> AirBnB </td><td class="col4"> KE2726+KE023 / KE024+KE721 </td>
-	</tr>
-	<tr class="row9">
-		<td class="col0"> Greg Whitworth </td><td class="col1"> May ?? </td><td class="col2"> May ?? </td><td class="col3"> ??? </td><td class="col4"> Delta </td>
-	</tr>
-	<tr class="row10">
-		<td class="col0"> Geoffrey Sneddon </td><td class="col1"> May 8 </td><td class="col2"> May 15 </td><td class="col3"> AirBnB</td><td class="col4"> BA287 / BA286+BA1488 </td>
-	</tr>
-	<tr class="row11">
-		<td class="col0"> Hiroshi Sakakibara </td><td class="col1"> May 8 </td><td class="col2"> May 14 </td><td class="col3"> AirBnB </td><td class="col4"> DL636+DL2778 / DL2759+DL637 </td>
-	</tr>
-	<tr class="row12">
-		<td class="col0"> Ian Kilpatrick </td><td class="col1"> ?? </td><td class="col2"> ?? </td><td class="col3"> ?? </td><td class="col4"> ?? </td>
-	</tr>
-	<tr class="row13">
-		<td class="col0"> Jen Simmons </td><td class="col1"> May 8 </td><td class="col2"> May 12 </td><td class="col3"> Harbor Court Hotel </td><td class="col4"> Delta </td>
-	</tr>
-	<tr class="row14">
-		<td class="col0"> Jet Villegas </td><td class="col1"> N/A </td><td class="col2"> N/A </td><td class="col3"> home </td><td class="col4"> bike </td>
-	</tr>
-	<tr class="row15">
-		<td class="col0"> Jihye Hong </td><td class="col1"> May 9 </td><td class="col2"> May 13 </td><td class="col3"> Courtyard </td><td class="col4"> OZ 212 / OZ 211 </td>
-	</tr>
-	<tr class="row16">
-		<td class="col0"> Joone Hur </td><td class="col1"> May 9 </td><td class="col2"> May 11 </td><td class="col3"> ??? </td><td class="col4"> air shuttle </td>
-	</tr>
-	<tr class="row17">
-		<td class="col0"> Koji Ishii </td><td class="col1"> ?? </td><td class="col2"> ?? </td><td class="col3"> ?? </td><td class="col4"> ?? </td>
-	</tr>
-	<tr class="row18">
-		<td class="col0"> L. David Baron </td><td class="col1"> N/A </td><td class="col2"> N/A </td><td class="col3"> home </td><td class="col4"> BART </td>
-	</tr>
-	<tr class="row19">
-		<td class="col0"> Myles Maxfield </td><td class="col1"> N/A </td><td class="col2"> N/A </td><td class="col3"> home </td><td class="col4 leftalign">  </td>
-	</tr>
-	<tr class="row20">
-		<td class="col0"> Ojan Vafai </td><td class="col1"> ?? </td><td class="col2"> ?? </td><td class="col3"> ?? </td><td class="col4"> ?? </td>
-	</tr>
-	<tr class="row21">
-		<td class="col0"> Peter Linss </td><td class="col1"> May 8 </td><td class="col2"> May 14 </td><td class="col3"> Courtyard </td><td class="col4"> UA1271 / UA497 </td>
-	</tr>
-	<tr class="row22">
-		<td class="col0"> Rossen Atanassov </td><td class="col1"> May 8 </td><td class="col2"> May 15 </td><td class="col3"> ??? </td><td class="col4"> Delta </td>
-	</tr>
-	<tr class="row23">
-		<td class="col0"> Shane Stephens </td><td class="col1"> May 6 </td><td class="col2"> May 13 </td><td class="col3"> Triton </td><td class="col4"> QF73 / QF74 </td>
-	</tr>
-	<tr class="row24">
-		<td class="col0"> Simon Pieters </td><td class="col1"> May 8 </td><td class="col2"> May 13 </td><td class="col3"> AirBnB </td><td class="col4"> UA7063+UA949 / UA926+UA9070 </td>
-	</tr>
-	<tr class="row25">
-		<td class="col0"> Simon Fraser </td><td class="col1"> N/A </td><td class="col2"> N/A </td><td class="col3"> home </td><td class="col4"> none </td>
-	</tr>
-	<tr class="row26">
-		<td class="col0"> Tab Atkins </td><td class="col1"> ?? </td><td class="col2"> ?? </td><td class="col3"> ?? </td><td class="col4"> ?? </td>
-	</tr>
-	<tr class="row27">
-		<td class="col0"> Takao Baba </td><td class="col1"> May 8 </td><td class="col2"> May 12 </td><td class="col3"> AirBnB </td><td class="col4"> DL636+DL2778 / DL2769+DL637 </td>
-	</tr>
-	<tr class="row28">
-		<td class="col0"> Tantek Çelik </td><td class="col1"> 2016-05-09 </td><td class="col2"> N/A </td><td class="col3"> home </td><td class="col4"> UA 8829 / none </td>
-	</tr>
-</table></div><h2 id="observers">Observers</h2>
-<ul>
-<li class="level1">Daniel Holbert</li>
-<li class="level1">Eliot Kimber</li>
-<li class="level1">Rik Cabanier</li>
-</ul><h2 id="regrets">Regrets</h2>
-<ul>
-<li class="level1">Dael Jackson</li>
-<li class="level1">Hyojin Song</li>
-<li class="level1">Lea Verou (partial regrets: I will be in the area, but attending a conference (CHI 2016). I might be able to drop by for certain agenda items)</li>
-</ul><h3 id="proposed-agenda-topics">Proposed Agenda Topics</h3><h5 id="monday">Monday</h5>
-<ul>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr> Grid (tab and fantasai)<ul>
-<li class="level3">subgrid</li>
-<li class="level3">any other remaining issues</li>
-</ul>
-</li>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr> Box Alignment (tab and fantasai)<ul>
-<li class="level3">application of justify-content to multicol columns</li>
-<li class="level3">default overflow-alignment value</li>
-<li class="level3">anything else?</li>
-</ul>
-</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Counters - <a href="https://lists.w3.org/Archives/Public/www-style/2016Apr/0364.html" title="https://lists.w3.org/Archives/Public/www-style/2016Apr/0364.html" rel="noopener">suggested change to counter inheritance/nested scopes</a> (tab)</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> V&amp;U - url(#frag) resolution when base url is changed (tab)</li>
-<li class="level1">MediaQueries - remaining issues (fantasai)</li>
-<li class="level1">Breakout Session about <a href="https://lists.w3.org/Archives/Public/www-style/2016Apr/0329.html" title="https://lists.w3.org/Archives/Public/www-style/2016Apr/0329.html" rel="noopener">percentages against indefinite sizes</a> (tab, fantasai, dholbert, dbaron, rossen)</li>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr> Flexbox<ul>
-<li class="level3">new CR? (tab and fantasai)</li>
-<li class="level3">running layout to compute intrinsic sizes (shrinkwrapping a multi-line column flexbox) - implementable enough, or do we need to change the <abbr title="specification">spec</abbr>? (tab)</li>
-</ul>
-</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Containment — FPWD? (Florian)</li>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr>-Content (Florian)<ul>
-<li class="level3"><a href="https://lists.w3.org/Archives/Public/www-style/2016Feb/0074.html" title="https://lists.w3.org/Archives/Public/www-style/2016Feb/0074.html" rel="noopener">https://lists.w3.org/Archives/Public/www-style/2016Feb/0074.html</a></li>
-<li class="level3"><a href="https://lists.w3.org/Archives/Public/www-style/2012Feb/0745.html" title="https://lists.w3.org/Archives/Public/www-style/2012Feb/0745.html" rel="noopener">https://lists.w3.org/Archives/Public/www-style/2012Feb/0745.html</a></li>
-</ul>
-</li>
-<li class="level1">Testsuite metadata &amp; future of Shepherd and issue tracking</li>
-</ul><h5 id="tuesday">Tuesday</h5>
-<ul>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr> Round Display (jihye)<ul>
-<li class="level3 node">&#039;shape&#039; media feature<ul>
-<li class="level4"><a href="https://lists.w3.org/Archives/Public/www-style/2016Apr/0273.html" title="https://lists.w3.org/Archives/Public/www-style/2016Apr/0273.html" rel="noopener">https://lists.w3.org/Archives/Public/www-style/2016Apr/0273.html</a></li>
-<li class="level4">extensions to the Screen Interface for supporting the round display</li>
-</ul>
-</li>
-<li class="level3 node">&#039;viewport-fit&#039; and terms related to viewport<ul>
-<li class="level4"><a href="https://drafts.csswg.org/css-round-display/#extending-viewport-rule" title="https://drafts.csswg.org/css-round-display/#extending-viewport-rule" rel="noopener">https://drafts.csswg.org/css-round-display/#extending-viewport-rule</a></li>
-</ul>
-</li>
-<li class="level3">polar coordinates model</li>
-</ul>
-</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Tables Status Update</li>
-<li class="level1 node"><abbr title="Cascading Style Sheets">CSS</abbr> UI 4 (florian)<ul>
-<li class="level3"><a href="https://drafts.csswg.org/css-ui-4/#issue-2e1305f8" title="https://drafts.csswg.org/css-ui-4/#issue-2e1305f8" rel="noopener">https://drafts.csswg.org/css-ui-4/#issue-2e1305f8</a></li>
-<li class="level3"><a href="https://lists.w3.org/Archives/Public/www-style/2016Apr/0394.html" title="https://lists.w3.org/Archives/Public/www-style/2016Apr/0394.html" rel="noopener">https://lists.w3.org/Archives/Public/www-style/2016Apr/0394.html</a> / <a href="https://drafts.csswg.org/css-ui-4/#issue-5b8a5418" title="https://drafts.csswg.org/css-ui-4/#issue-5b8a5418" rel="noopener">https://drafts.csswg.org/css-ui-4/#issue-5b8a5418</a></li>
-<li class="level3"><a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0190.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0190.html" rel="noopener">https://lists.w3.org/Archives/Public/www-style/2016Mar/0190.html</a></li>
-</ul>
-</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Page — MQs should respond to page size <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0071.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0071.html" rel="noopener">https://lists.w3.org/Archives/Public/www-style/2016May/0071.html</a> (florian)</li>
-<li class="level1">New WD for <abbr title="Cascading Style Sheets">CSS</abbr> Generated Content, a11y issues (dauwhe)</li>
-<li class="level1">A report on vertical-writing design award <a href="http://tategaki.github.io/awards/" title="http://tategaki.github.io/awards/" rel="noopener">Award Web Site</a> (Not on Monday, please)</li>
-</ul><h5 id="wednesday">Wednesday</h5>
-<ul>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Step Sizing - more feedback and FPWD?</li>
-<li class="level1">Step sizing and alternatives</li>
-<li class="level1">CSSOM View <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0045.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0045.html" rel="noopener">getBoundingClientRect when the first rect is empty</a> (koji)</li>
-<li class="level1"><abbr title="Cascading Style Sheets">CSS</abbr> Text word-break:break-all and word-break:break-spaces (florian) (Not monday)</li>
-<li class="level1">Hanging punctuation - add start and discuss character classes</li>
-<li class="level1">css-logical-props css-writing-modes Margins and margin collapsing and writing modes <a href="https://lists.w3.org/Archives/Public/www-style/2016May/0098.html" title="https://lists.w3.org/Archives/Public/www-style/2016May/0098.html" rel="noopener">https://lists.w3.org/Archives/Public/www-style/2016May/0098.html</a> (zcorpan)</li>
-<li class="level1 node">Track 1<ul>
-<li class="level2"><abbr title="Cascading Style Sheets">CSS</abbr> Scroll Snap - All remaining issues and merge differences (tab, fantasai, matt - afternoon)</li>
-</ul>
-</li>
-<li class="level1 node">Track 2<ul>
-<li class="level2">Color Gamut media query <a href="https://lists.w3.org/Archives/Public/www-style/2016Mar/0316.html" title="https://lists.w3.org/Archives/Public/www-style/2016Mar/0316.html" rel="noopener">https://lists.w3.org/Archives/Public/www-style/2016Mar/0316.html</a> - smfr/Rik/ChrisL/dino - afternoon</li>
-<li class="level2"><abbr title="Cascading Style Sheets">CSS</abbr> Color 4 - review color(), p3/rec2020, @profile and open issues (ChrisL) - afternoon</li>
-</ul>
-</li>
-</ul><h5 id="unassigned">Unassigned</h5>
-<ul>
-<li class="level1"><a href="http://xkcd.com/1676/" title="http://xkcd.com/1676/" rel="noopener">Snake justification</a></li>
-</ul>
-</main>
-</body>
-</html>
+
+| Name | Arrival | Departure | Hotel | Flight info and notes |
+|----|----|----|----|----|
+| Alan Stearns | May 8 | May 14 | AirBnB | ??? |
+| Andrey Rybka | May 8 | May 11 | Club Quarters | UA443 |
+| Brad Kemper | N/A | N/A | home | Driving or BART from Hayward |
+| Chris Lilley | May 7 | May 15 | AirBnB | UA783 / UA 242 |
+| Dave Cramer | May 8 | May 14 | Mosser Hotel | UA912 / UA1146 |
+| Edward O'Connor | N/A | N/A | home | bike or muni |
+| Elliott Sprehn | ?? | ?? | ?? | ?? |
+| Florian Rivoal | May 7 | May 12 | AirBnB | KE2726+KE023 / KE024+KE721 |
+| Greg Whitworth | May ?? | May ?? | ??? | Delta |
+| Geoffrey Sneddon | May 8 | May 15 | AirBnB | BA287 / BA286+BA1488 |
+| Hiroshi Sakakibara | May 8 | May 14 | AirBnB | DL636+DL2778 / DL2759+DL637 |
+| Ian Kilpatrick | ?? | ?? | ?? | ?? |
+| Jen Simmons | May 8 | May 12 | Harbor Court Hotel | Delta |
+| Jet Villegas | N/A | N/A | home | bike |
+| Jihye Hong | May 9 | May 13 | Courtyard | OZ 212 / OZ 211 |
+| Joone Hur | May 9 | May 11 | ??? | air shuttle |
+| Koji Ishii | ?? | ?? | ?? | ?? |
+| L. David Baron | N/A | N/A | home | BART |
+| Myles Maxfield | N/A | N/A | home |  |
+| Ojan Vafai | ?? | ?? | ?? | ?? |
+| Peter Linss | May 8 | May 14 | Courtyard | UA1271 / UA497 |
+| Rossen Atanassov | May 8 | May 15 | ??? | Delta |
+| Shane Stephens | May 6 | May 13 | Triton | QF73 / QF74 |
+| Simon Pieters | May 8 | May 13 | AirBnB | UA7063+UA949 / UA926+UA9070 |
+| Simon Fraser | N/A | N/A | home | none |
+| Tab Atkins | ?? | ?? | ?? | ?? |
+| Takao Baba | May 8 | May 12 | AirBnB | DL636+DL2778 / DL2769+DL637 |
+| Tantek Çelik | 2016-05-09 | N/A | home | UA 8829 / none |
+
+## Observers
+
+- Daniel Holbert
+- Eliot Kimber
+- Rik Cabanier
+
+## Regrets
+
+- Dael Jackson
+- Hyojin Song
+- Lea Verou (partial regrets: I will be in the area, but attending a conference (CHI 2016). I might be able to drop by for certain agenda items)
+
+### Proposed Agenda Topics
+
+##### Monday
+
+- CSS Grid (tab and fantasai)
+  - subgrid
+  - any other remaining issues
+- CSS Box Alignment (tab and fantasai)
+  - application of justify-content to multicol columns
+  - default overflow-alignment value
+  - anything else?
+- CSS Counters - [suggested change to counter inheritance/nested scopes](https://lists.w3.org/Archives/Public/www-style/2016Apr/0364.html) (tab)
+- CSS V&U - url(#frag) resolution when base url is changed (tab)
+- MediaQueries - remaining issues (fantasai)
+- Breakout Session about [percentages against indefinite sizes](https://lists.w3.org/Archives/Public/www-style/2016Apr/0329.html) (tab, fantasai, dholbert, dbaron, rossen)
+- CSS Flexbox
+  - new CR? (tab and fantasai)
+  - running layout to compute intrinsic sizes (shrinkwrapping a multi-line column flexbox) - implementable enough, or do we need to change the spec? (tab)
+- CSS Containment — FPWD? (Florian)
+- CSS-Content (Florian)
+  - <https://lists.w3.org/Archives/Public/www-style/2016Feb/0074.html>
+  - <https://lists.w3.org/Archives/Public/www-style/2012Feb/0745.html>
+- Testsuite metadata & future of Shepherd and issue tracking
+
+##### Tuesday
+
+- CSS Round Display (jihye)
+  - 'shape' media feature
+    - <https://lists.w3.org/Archives/Public/www-style/2016Apr/0273.html>
+    - extensions to the Screen Interface for supporting the round display
+  - 'viewport-fit' and terms related to viewport
+    - <https://drafts.csswg.org/css-round-display/#extending-viewport-rule>
+  - polar coordinates model
+- CSS Tables Status Update
+- CSS UI 4 (florian)
+  - <https://drafts.csswg.org/css-ui-4/#issue-2e1305f8>
+  - <https://lists.w3.org/Archives/Public/www-style/2016Apr/0394.html> / <https://drafts.csswg.org/css-ui-4/#issue-5b8a5418>
+  - <https://lists.w3.org/Archives/Public/www-style/2016Mar/0190.html>
+- CSS Page — MQs should respond to page size <https://lists.w3.org/Archives/Public/www-style/2016May/0071.html> (florian)
+- New WD for CSS Generated Content, a11y issues (dauwhe)
+- A report on vertical-writing design award [Award Web Site](http://tategaki.github.io/awards/) (Not on Monday, please)
+
+##### Wednesday
+
+- CSS Step Sizing - more feedback and FPWD?
+- Step sizing and alternatives
+- CSSOM View [getBoundingClientRect when the first rect is empty](https://lists.w3.org/Archives/Public/www-style/2016May/0045.html) (koji)
+- CSS Text word-break:break-all and word-break:break-spaces (florian) (Not monday)
+- Hanging punctuation - add start and discuss character classes
+- css-logical-props css-writing-modes Margins and margin collapsing and writing modes <https://lists.w3.org/Archives/Public/www-style/2016May/0098.html> (zcorpan)
+- Track 1
+  - CSS Scroll Snap - All remaining issues and merge differences (tab, fantasai, matt - afternoon)
+- Track 2
+  - Color Gamut media query <https://lists.w3.org/Archives/Public/www-style/2016Mar/0316.html> - smfr/Rik/ChrisL/dino - afternoon
+  - CSS Color 4 - review color(), p3/rec2020, @profile and open issues (ChrisL) - afternoon
+
+##### Unassigned
+
+- [Snake justification](http://xkcd.com/1676/)

@@ -1,150 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CSS Writing Modes Level 3 - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../spec/">spec</a> / css3-writing-modes</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "CSS Writing Modes Level 3"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#css-writing-modes-level-3">CSS Writing Modes Level 3</a><ul class="toc">
-<li class="level2"><a href="#data-table">Data Table</a><ul class="toc">
-<li class="level3"><a href="#general-categories-without-exceptions">General Categories Without Exceptions</a></li>
-<li class="level3"><a href="#latin-1">Latin-1</a></li>
-<li class="level3"><a href="#general-punctuation">General Punctuation</a></li>
-<li class="level3"><a href="#arrows-and-box-drawing">Arrows and Box Drawing</a></li>
-<li class="level3"><a href="#special-numbers">Special numbers</a></li>
-<li class="level3"><a href="#all-other-symbols-so">All Other Symbols (So)</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# CSS Writing Modes Level 3
 
-<h1 id="css-writing-modes-level-3">CSS Writing Modes Level 3</h1>
-<p>
-The biggest issue is the default text-orientation of common symbols and punctuation, so here&#039;s a table to start figuring it all out. :)
-</p>
-<div class="table sectionedit2"><table class="inline">
-	<thead>
-	<tr class="row0">
-		<th class="col0">Orientation Code</th><th class="col1">Meaning</th>
-	</tr>
-	</thead>
-	<tr class="row1">
-		<td class="col0">U</td><td class="col1">always upright</td>
-	</tr>
-	<tr class="row2">
-		<td class="col0">S</td><td class="col1">always sideways</td>
-	</tr>
-	<tr class="row3">
-		<td class="col0">G</td><td class="col1">upright with alt glyph, else fallback to sideways</td>
-	</tr>
-	<tr class="row4">
-		<td class="col0">?</td><td class="col1">unknown, please fill in</td>
-	</tr>
-	<tr class="row5">
-		<td class="col0">[1]</td><td class="col1">Special Behavior #1 (see notes below table)</td>
-	</tr>
-</table></div><h2 id="data-table">Data Table</h2>
-<div class="plugin_note noteclassic">If a column has different behavior for Japanese and Chinese, then write both with a slash: Ja/Zh.
+The biggest issue is the default text-orientation of common symbols and punctuation, so here's a table to start figuring it all out. :)
 
-</div><h3 id="general-categories-without-exceptions">General Categories Without Exceptions</h3>
-<p>
-Name	CatCode	Char	CSSWG	Unicode	AH	InDesign	MSFT	Vrt2	Notes
-</p>
+| Orientation Code | Meaning                                           |
+|------------------|---------------------------------------------------|
+| U                | always upright                                    |
+| S                | always sideways                                   |
+| G                | upright with alt glyph, else fallback to sideways |
+| ?                | unknown, please fill in                           |
+| \[1\]            | Special Behavior \#1 (see notes below table)      |
 
-<p>
-Currency Symbols	Sc	$£€	S	?	?	?	?	?	Except Fullwidth = Upright
-Math Symbols	Sm	+	S	?	?	?	?	?	Except Fullwidth = Upright
-Modifier Symbols	Sk	¸˦῁	S	?	?	?	?	?	
-</p><h3 id="latin-1">Latin-1</h3>
-<p>
-Name	Codepoint	Char	CSSWG	Unicode	AH	InDesign	MSFT	Vrt2	Notes
-</p>
+## Data Table
 
-<p>
-Exclamation Mark	U+0021	!	S	?	?	?	?	?	Has fullwidth variant
-Middle Dot	U+00B7	⋅	[1]	?	?	?	?	?	Sideways in Japanese, Upright in Chinese
-</p><h4 id="notes">Notes</h4>
-<p>
-[1] <strong>U</strong> if <code>lang=zh</code>, else <strong>S</strong>
-</p><h3 id="general-punctuation">General Punctuation</h3>
-<pre class="code">U+2016 ( ‖ ) DOUBLE VERTICAL LINE                    U
+> [!NOTE]
+> If a column has different behavior for Japanese and Chinese, then write both with a slash: Ja/Zh.
+
+### General Categories Without Exceptions
+
+Name CatCode Char CSSWG Unicode AH InDesign MSFT Vrt2 Notes
+
+Currency Symbols Sc \$£€ S ? ? ? ? ? Except Fullwidth = Upright Math Symbols Sm + S ? ? ? ? ? Except Fullwidth = Upright Modifier Symbols Sk ¸˦῁ S ? ? ? ? ?
+
+### Latin-1
+
+Name Codepoint Char CSSWG Unicode AH InDesign MSFT Vrt2 Notes
+
+Exclamation Mark U+0021 ! S ? ? ? ? ? Has fullwidth variant Middle Dot U+00B7 ⋅ \[1\] ? ? ? ? ? Sideways in Japanese, Upright in Chinese
+
+#### Notes
+
+\[1\] **U** if `lang=zh`, else **S**
+
+### General Punctuation
+
+``` code
+U+2016 ( ‖ ) DOUBLE VERTICAL LINE                    U
 U+2017 ( ‗ ) DOUBLE LOW LINE                         U
 U+2020 ( † ) DAGGER                                  U
 U+2021 ( ‡ ) DOUBLE DAGGER                           U
@@ -209,28 +103,23 @@ U+2E2C ( ⸬ ) SQUARED FOUR DOT PUNCTUATION
 U+2E2D ( ⸭ ) FIVE DOT MARK
 U+2E2E ( ⸮ ) REVERSED QUESTION MARK
 U+2E30 ( ⸰ ) RING POINT
-U+2E31 ( ⸱ ) WORD SEPARATOR MIDDLE DOT</pre><h3 id="arrows-and-box-drawing">Arrows and Box Drawing</h3>
-<p>
+U+2E31 ( ⸱ ) WORD SEPARATOR MIDDLE DOT
+```
+
+### Arrows and Box Drawing
+
 U+2190–U+21FF, U+261A–U+261F, U+2B00–U+2B11, U+2B45–U+2B46, U+2794–U+27BE
-</p>
 
-<p>
 U+2500–U+257F, U+2580–U+259F
-</p><h3 id="special-numbers">Special numbers</h3>
-<p>
+
+### Special numbers
+
 U+00B2, U+00B3, U+00B9, U+20070, U+2074–U+2079, U+2080–U+2089, U+00BC–U+00BE, U+2150–U+215F, U+2189
-</p>
 
-<p>
 Anything else in No category?
-</p>
 
-<p>
-<strong>Unicode Error</strong>* Aegean numbers U+10107–U+10133 and North Indic fractions U+A830–U+A835 will be in ScriptExtensions.txt in Unicode 6.1, and therefore not Common, and therefore Sideways.
-</p><h3 id="all-other-symbols-so">All Other Symbols (So)</h3>
-<p>
+**Unicode Error**\* Aegean numbers U+10107–U+10133 and North Indic fractions U+A830–U+A835 will be in ScriptExtensions.txt in Unicode 6.1, and therefore not Common, and therefore Sideways.
+
+### All Other Symbols (So)
+
 …
-</p>
-</main>
-</body>
-</html>

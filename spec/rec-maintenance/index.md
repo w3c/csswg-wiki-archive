@@ -1,134 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>REC maintenance - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../spec/">spec</a> / rec-maintenance</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "REC maintenance"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#rec-maintenance">REC maintenance</a><ul class="toc">
-<li class="clear">
-<ul class="toc">
-<li class="level3"><a href="#goals">Goals:</a></li>
-<li class="level3"><a href="#options-with-problems">Options with Problems</a></li>
-<li class="level3"><a href="#proposal">Proposal</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# REC maintenance
 
-<h1 id="rec-maintenance">REC maintenance</h1>
-<p>
 The issues and solutions below have come from a discussion of how to make changes to the CSS2 REC, but could be applied to any REC maintenance.
-</p><h3 id="goals">Goals:</h3>
-<ul>
-<li class="level1">We want a draft with changes in-line for review published on TR</li>
-<li class="level1">We want to minimize the time/effort required to update the REC</li>
-<li class="level1">We want the REC to be in REC status as much as possible, not stuck in a WD-CR loop</li>
-</ul>
 
-<p>
-For reference, here&#039;s the process diagram for modifying a REC:
-<a href="https://dvcs.w3.org/hg/AB/raw-file/default/cover.html#rec-modify" title="https://dvcs.w3.org/hg/AB/raw-file/default/cover.html#rec-modify" rel="noopener">https://dvcs.w3.org/hg/AB/raw-file/default/cover.html#rec-modify</a>
-</p>
+### Goals:
 
-<p>
-The path to consider is the one where there are substantive changes but no new features. According to the diagram, we should be able to skip the WD phase. But skipping the WD phase means we can&#039;t get the changes published on TR until they are ready for inclusion in a CR draft. Review needs to happen before a change is ready for CR.
-</p><h3 id="options-with-problems">Options with Problems</h3>
-<p>
-One option is to always take the REC back to WD, even for changes that should allow us to skip that step. This gets the changes published on TR and gives us the WD stage to review and vet the changes with tests. This full process cycle should not be necessary, and it&#039;s a little strange to have a REC stuck in WD just to get substantive errata done.
-</p>
+- We want a draft with changes in-line for review published on TR
+- We want to minimize the time/effort required to update the REC
+- We want the REC to be in REC status as much as possible, not stuck in a WD-CR loop
 
-<p>
-Another option is to keep the changes in an ED until they&#039;re ready for CR. This fails the goal of having changes reviewed on TR. 
-</p>
+For reference, here's the process diagram for modifying a REC: <https://dvcs.w3.org/hg/AB/raw-file/default/cover.html#rec-modify>
 
-<p>
+The path to consider is the one where there are substantive changes but no new features. According to the diagram, we should be able to skip the WD phase. But skipping the WD phase means we can't get the changes published on TR until they are ready for inclusion in a CR draft. Review needs to happen before a change is ready for CR.
+
+### Options with Problems
+
+One option is to always take the REC back to WD, even for changes that should allow us to skip that step. This gets the changes published on TR and gives us the WD stage to review and vet the changes with tests. This full process cycle should not be necessary, and it's a little strange to have a REC stuck in WD just to get substantive errata done.
+
+Another option is to keep the changes in an ED until they're ready for CR. This fails the goal of having changes reviewed on TR.
+
 Both of the options above also have some churn when we have some changes but not all ready to graduate to CR - we have to prepare a draft with only those changes ready for CR, move them through the process, then reintroduce the rest of the changes to a new ED/WD
-</p>
 
-<p>
-Another option, and I think more usual, is to issue a Proposed Edited Rec (this is the same as publishing directly as a CR, skipping all earlier stages) - <a href="https://www.w3.org/2015/Process-20150901/#revised-rec" title="https://www.w3.org/2015/Process-20150901/#revised-rec" rel="noopener">https://www.w3.org/2015/Process-20150901/#revised-rec</a> - the CR can be republished if and as needed without going back to WD. This does not affect the Recommendation status of the original until the new version is published as a final REC - Liam - (Alan&#039;s response: this is the method we want to use in the proposal below for those changes we know are ready for a quick CR. When we&#039;re not sure which changes will survive review and/or be adopted and testable, the problem is that the REC gets stuck in a republished CR cycle. I don&#039;t think it&#039;s good to take a REC back to CR for changes that haven&#039;t yet been vetted)
-</p><h3 id="proposal">Proposal</h3>
-<p>
+Another option, and I think more usual, is to issue a Proposed Edited Rec (this is the same as publishing directly as a CR, skipping all earlier stages) - <https://www.w3.org/2015/Process-20150901/#revised-rec> - the CR can be republished if and as needed without going back to WD. This does not affect the Recommendation status of the original until the new version is published as a final REC - Liam - (Alan's response: this is the method we want to use in the proposal below for those changes we know are ready for a quick CR. When we're not sure which changes will survive review and/or be adopted and testable, the problem is that the REC gets stuck in a republished CR cycle. I don't think it's good to take a REC back to CR for changes that haven't yet been vetted)
+
+### Proposal
+
 So the WG has proposed a new mechanism for making reviewable changes available on TR. We will produce a copy of the REC (CSS2 in this case) as a NOTE (CSS2-testing). This NOTE will be kept up-to-date with all proposed substantive changes to the REC, and people will be directed to review these changes in the NOTE. Periodically we will check the state of the changes in the NOTE, and those changes that have passed review and have passing tests will be folded in to the REC. This allows us to produce a CR of the Edited Recommendation that is ready to pass through the PR and REC stages as quickly as possible.
-</p>
-</main>
-</body>
-</html>

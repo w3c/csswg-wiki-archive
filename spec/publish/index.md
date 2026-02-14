@@ -1,172 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Step-by-step Publishing a CSS Spec - CSS Working Group Wiki (Archive)</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  max-width: 900px; margin: 0 auto; padding: 1.5em 1em; line-height: 1.6;
-  color: #1f2328; background: #fff;
-}
-.archive-banner {
-  background: #fff8c5; border: 1px solid #d4a72c; border-radius: 6px;
-  padding: 0.75em 1em; margin-bottom: 1.5em; font-size: 0.9em;
-}
-.archive-banner strong { color: #6e5600; }
-header { border-bottom: 1px solid #d1d5db; padding-bottom: 1em; margin-bottom: 1.5em; }
-header h1 { margin: 0; font-size: 1.25em; }
-header h1 a { color: #0366d6; text-decoration: none; }
-header h1 a:hover { text-decoration: underline; }
-nav { margin-top: 0.5em; font-size: 0.9em; }
-nav a { color: #656d76; text-decoration: none; margin-right: 1em; }
-nav a:hover { color: #0366d6; }
-h1, h2, h3, h4 { color: #1f2328; margin-top: 1.5em; }
-h1:first-child { margin-top: 0; }
-a { color: #0366d6; }
-code { background: #f6f8fa; padding: 0.15em 0.3em; border-radius: 3px; font-size: 0.9em; }
-pre { background: #f6f8fa; padding: 1em; overflow: auto; border-radius: 6px; }
-pre code { background: none; padding: 0; }
-table { border-collapse: collapse; margin: 1em 0; }
-th, td { border: 1px solid #d1d5db; padding: 0.4em 0.8em; }
-th { background: #f6f8fa; }
-img { max-width: 100%; }
-.breadcrumb { font-size: 0.85em; color: #656d76; margin-bottom: 1em; }
-.breadcrumb a { color: #656d76; }
-ul, ol { padding-left: 1.5em; }
-li { margin: 0.25em 0; }
-.plugin_note { background: #f0f4f8; border-left: 4px solid #0366d6; padding: 0.75em 1em; margin: 1em 0; border-radius: 3px; }
-abbr { text-decoration: underline dotted; cursor: help; }
-@media (prefers-color-scheme: dark) {
-  body { background: #0d1117; color: #e6edf3; }
-  .archive-banner { background: #3d2e00; border-color: #6e5600; }
-  .archive-banner strong { color: #f0c000; }
-  header { border-bottom-color: #30363d; }
-  header h1 a { color: #58a6ff; }
-  nav a { color: #8b949e; }
-  nav a:hover { color: #58a6ff; }
-  h1, h2, h3, h4 { color: #e6edf3; }
-  a { color: #58a6ff; }
-  code, pre { background: #161b22; }
-  th, td { border-color: #30363d; }
-  th { background: #161b22; }
-  .breadcrumb, .breadcrumb a { color: #8b949e; }
-  .plugin_note { background: #161b22; border-color: #58a6ff; }
-}
-</style>
-</head>
-<body>
-<div class="archive-banner">
-<strong>Archive Notice:</strong> This is a read-only archive of the CSS Working Group Wiki.
-The original wiki was hosted at wiki.csswg.org.
-</div>
-<header>
-<h1><a href="../../">CSS Working Group Wiki</a></h1>
-<nav>
-<a href="../../">Home</a>
-<a href="../../spec/">Specs</a>
-<a href="../../ideas/">Ideas</a>
-<a href="../../test/">Testing</a>
-<a href="../../wiki/">About</a>
-</nav>
-</header>
-<div class="breadcrumb"><a href="../../">Home</a> / <a href="../../spec/">spec</a> / publish</div>
-<main>
-<!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle">Table of Contents</h3>
-<div>
+---
+title: "Step-by-step Publishing a CSS Spec"
+---
 
-<ul class="toc">
-<li class="level1"><a href="#step-by-step-publishing-a-css-spec">Step-by-step Publishing a CSS Spec</a><ul class="toc">
-<li class="level2"><a href="#announcement-templates">Announcement Templates</a><ul class="toc">
-<li class="level3"><a href="#template-for-wd-announcement-to-www-style">Template for WD Announcement to www-style</a></li>
-<li class="level3"><a href="#template-for-cr-announcement-to-www-style">Template for CR Announcement to www-style</a></li>
-<li class="level3"><a href="#template-for-pr-announcement-to-www-style">Template for PR Announcement to www-style</a></li>
-<li class="level3"><a href="#template-for-wd-announcement-to-blog">Template for WD Announcement to Blog</a></li>
-<li class="level3"><a href="#template-for-pr-announcement-to-blog">Template for PR Announcement to Blog</a></li>
-<li class="level3"><a href="#template-for-twitter-announcement">Template for Twitter Announcement</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#steps-for-manual-publication">Steps for Manual Publication</a><ul class="toc">
-<li class="level3"><a href="#direct-manual-publication">Direct Manual Publication</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- TOC END -->
+# Step-by-step Publishing a CSS Spec
 
-<h1 id="step-by-step-publishing-a-css-spec">Step-by-step Publishing a CSS Spec</h1>
-<ol>
-<li class="level1 node"><strong>Summarize Changes -</strong> Make a Changes section summarizing the major changes since the last publication. (“Major” is relative—for a CR, it&#039;s any non-editorial change, but for an early-stage WD it would be sections that got an overhaul, major syntactic changes, or major behavioral changes, not every minor detail that got fixed.) This will help reviewers focus their review.<ul>
-<li class="level2">If there have been only <a href="https://www.w3.org/2019/Process-20190301/#correction-classes" title="https://www.w3.org/2019/Process-20190301/#correction-classes" rel="noopener">editorial</a> changes, make such a statement and, ideally, link to a <a href="https://services.w3.org/htmldiff" title="https://services.w3.org/htmldiff" rel="noopener">diff</a> of those changes so reviewers can verify this. E.g. <code>There have been only <em class="u">editorial</em> changes since the <em class="u">previous Working Draft</em>; see <em class="u">diffs</em>.</code></li>
-<li class="level2">FPWD doesn&#039;t need a Changes section, since there&#039;s no previous version.</li>
-</ul>
-</li>
-<li class="level1 node"><strong>CSSWG Resolution -</strong> Get an official CSSWG Resolution to publish. Make any changes requested.<ul>
-<li class="level2"><strong>For WD</strong> if there are only non-controversial <a href="https://www.w3.org/2019/Process-20190301/#correction-classes" title="https://www.w3.org/2019/Process-20190301/#correction-classes" rel="noopener">editorial</a> changes and/or substantive changes approved by the WG, there is no requirement to get an explicit WG resolution. The decision <abbr title="Uniform Resource Locator">URL</abbr> is this wiki page, and you can publish using Echidna.</li>
-<li class="level2"><strong>For LCWD</strong> (last Working Draft before a CR transition request), establish with the WG a deadline (3 weeks minimum, 4 is typical) and a list of other WGs to ask for comments. After publication, send a request for comments to all these groups and make sure that you <a href="https://www.w3.org/Guide/documentreview/" title="https://www.w3.org/Guide/documentreview/" rel="noopener">file all horizontal review requests</a> if you haven&#039;t already.</li>
-</ul>
-</li>
-<li class="level1 node"><strong>Prepare Draft -</strong><ul>
-<li class="level2">Update the Previous Version link at the top to the latest dated <abbr title="Uniform Resource Locator">URL</abbr> on /TR (Omit or write “none” if there is none)</li>
-<li class="level2"><a href="http://validator.w3.org/" title="http://validator.w3.org/" rel="noopener">Validate</a> Overview.html</li>
-<li class="level2"><a href="http://www.w3.org/2009/07/webidl-check" title="http://www.w3.org/2009/07/webidl-check" rel="noopener">WebIDL check</a> Overview.html</li>
-<li class="level2"><a href="http://validator.w3.org/checklink" title="http://validator.w3.org/checklink" rel="noopener">Link-check</a> your <abbr title="specification">spec</abbr>.</li>
-<li class="level2">run a spellchecker on your <abbr title="specification">spec</abbr></li>
-<li class="level2">Optional: If you feel so inclined, you can use <a href="https://labs.w3.org/pubrules/" title="https://labs.w3.org/pubrules/" rel="noopener">the new pubrules checker</a> (if it&#039;s working), review its results, and correct any errors. (Some errors are expected/harmless if you check an editor&#039;s draft, so read carefully!)</li>
-</ul>
-</li>
-<li class="level1 node"><strong>Request Publication -</strong><ul>
-<li class="level2"><strong>For regular Working Drafts (WD) and Candidate Recommendation Drafts (CRD) </strong> on Bikeshed-formatted specs, you can generally <strong>use the <code><a href="https://tabatkins.github.io/bikeshed/#cli-echidna" title="https://tabatkins.github.io/bikeshed/#cli-echidna" rel="noopener">bikeshed echidna</a></code> command</strong>. (Don&#039;t forget to <a href="https://tabatkins.github.io/bikeshed/#metadata-status" title="https://tabatkins.github.io/bikeshed/#metadata-status" rel="noopener">set the status</a> first.) If you need to publish manually for some reason (non-Bikeshed specs, <abbr title="specification">spec</abbr> shortname changes, other weirdness), see <a href="#steps-for-manual-publication" title="spec:publish ↵">steps-for-manual-publication</a>.</li>
-<li class="level2"><strong>For FPWD</strong>, you also need a resolution on the shortname of the <abbr title="specification">spec</abbr>, and need the <abbr title="World Wide Web Consortium">W3C</abbr> domain leader (plh, in our case) to approve the FPWD publication and the choice of <abbr title="Uniform Resource Locator">URL</abbr> before the manual publication request. Best way to do this is to <a href="https://github.com/w3c/transitions" title="https://github.com/w3c/transitions" rel="noopener">file an issue in the Transitions repo</a>. The Team will publish the FPWD.</li>
-<li class="level2"><strong>For Candidate Recommendation Snapshots (CRS), PR, REC </strong> See <a href="https://www.w3.org/Guide/transitions" title="https://www.w3.org/Guide/transitions" rel="noopener">Spec Status Transitions Documentation</a>. You will need to file an issue in the <a href="https://github.com/w3c/transitions" title="https://github.com/w3c/transitions" rel="noopener">Transitions Repo</a>; ask ChrisL or fantasai for guidance and complain at plh for any poor documentation. The Team will publish the <abbr title="specification">spec</abbr> and send out relevant announcements.</li>
-</ul>
-</li>
-<li class="level1"><strong>Wait for Publication -</strong> Wait for the <abbr title="specification">spec</abbr> to be published. For Echidna-published specs, this should take a few minutes. For other specs, <abbr title="World Wide Web Consortium">W3C</abbr> publishes on Tuesdays and Thursdays once webreq has approved the publication.</li>
-<li class="level1 node"><strong>Announce Your Spec -</strong> If there were substantial changes since the previous draft, post an announcement of your new <abbr title="specification">spec</abbr> to <a href="mailto:&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#119;&#119;&#45;&#115;&#116;&#121;&#108;&#101;&#64;&#119;&#51;&#46;&#111;&#114;&#103;" class="mail" title="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#119;&#119;&#45;&#115;&#116;&#121;&#108;&#101;&#64;&#119;&#51;&#46;&#111;&#114;&#103;">www-style</a> (and cross-post to <a href="mailto:&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#117;&#98;&#108;&#105;&#99;&#45;&#114;&#101;&#118;&#105;&#101;&#119;&#45;&#97;&#110;&#110;&#111;&#117;&#110;&#99;&#101;&#64;&#119;&#51;&#46;&#111;&#114;&#103;" class="mail" title="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#117;&#98;&#108;&#105;&#99;&#45;&#114;&#101;&#118;&#105;&#101;&#119;&#45;&#97;&#110;&#110;&#111;&#117;&#110;&#99;&#101;&#64;&#119;&#51;&#46;&#111;&#114;&#103;">public-review-announce</a> and any other relevant mailing lists) and the <a href="https://www.w3.org/blog/CSS/wp-admin/" title="https://www.w3.org/blog/CSS/wp-admin/" rel="noopener">CSSWG Blog</a> (See Templates Below) and link the blog post from <a href="http://twitter.com/csswg" title="http://twitter.com/csswg" rel="noopener">@csswg</a>. If you need help with this, ask fantasai. A good announcement includes:<ul>
-<li class="level2">A link to the <abbr title="specification">spec</abbr></li>
-<li class="level2">An explanation of what&#039;s new, what&#039;s cool, what&#039;s changed, maybe what to expect going forward, but most importantly what you would especially like feedback on.</li>
-<li class="level2">Instructions for sending feedback</li>
-</ul>
-<ol>
-<li class="level2">The CSSWG blog is your communication channel to people who aren&#039;t technical enough or devoted enough to follow www-style/GitHub. Take advantage of it, and engage your audience.</li>
-</ol>
-</li>
-<li class="level1"><strong>Post-publication edits -</strong> Add the new “Previous version” link to the editor&#039;s draft, and if you edited the editors draft to have Status: and Date: fields in them, restore Status to ED, remove Date, and possibly remove Deadline</li>
-</ol>
+1.  **Summarize Changes -** Make a Changes section summarizing the major changes since the last publication. (“Major” is relative—for a CR, it's any non-editorial change, but for an early-stage WD it would be sections that got an overhaul, major syntactic changes, or major behavioral changes, not every minor detail that got fixed.) This will help reviewers focus their review.
+    - If there have been only [editorial](https://www.w3.org/2019/Process-20190301/#correction-classes) changes, make such a statement and, ideally, link to a [diff](https://services.w3.org/htmldiff) of those changes so reviewers can verify this. E.g. `There have been only `*`editorial`*` changes since the `*`previous Working Draft`*`; see `*`diffs`*`.`
+    - FPWD doesn't need a Changes section, since there's no previous version.
+2.  **CSSWG Resolution -** Get an official CSSWG Resolution to publish. Make any changes requested.
+    - **For WD** if there are only non-controversial [editorial](https://www.w3.org/2019/Process-20190301/#correction-classes) changes and/or substantive changes approved by the WG, there is no requirement to get an explicit WG resolution. The decision URL is this wiki page, and you can publish using Echidna.
+    - **For LCWD** (last Working Draft before a CR transition request), establish with the WG a deadline (3 weeks minimum, 4 is typical) and a list of other WGs to ask for comments. After publication, send a request for comments to all these groups and make sure that you [file all horizontal review requests](https://www.w3.org/Guide/documentreview/) if you haven't already.
+3.  **Prepare Draft -**
+    - Update the Previous Version link at the top to the latest dated URL on /TR (Omit or write “none” if there is none)
+    - [Validate](http://validator.w3.org/) Overview.html
+    - [WebIDL check](http://www.w3.org/2009/07/webidl-check) Overview.html
+    - [Link-check](http://validator.w3.org/checklink) your spec.
+    - run a spellchecker on your spec
+    - Optional: If you feel so inclined, you can use [the new pubrules checker](https://labs.w3.org/pubrules/) (if it's working), review its results, and correct any errors. (Some errors are expected/harmless if you check an editor's draft, so read carefully!)
+4.  **Request Publication -**
+    - **For regular Working Drafts (WD) and Candidate Recommendation Drafts (CRD)** on Bikeshed-formatted specs, you can generally **use the [`bikeshed echidna`](https://tabatkins.github.io/bikeshed/#cli-echidna) command**. (Don't forget to [set the status](https://tabatkins.github.io/bikeshed/#metadata-status) first.) If you need to publish manually for some reason (non-Bikeshed specs, spec shortname changes, other weirdness), see [steps-for-manual-publication](#steps-for-manual-publication "spec:publish ↵").
+    - **For FPWD**, you also need a resolution on the shortname of the spec, and need the W3C domain leader (plh, in our case) to approve the FPWD publication and the choice of URL before the manual publication request. Best way to do this is to [file an issue in the Transitions repo](https://github.com/w3c/transitions). The Team will publish the FPWD.
+    - **For Candidate Recommendation Snapshots (CRS), PR, REC** See [Spec Status Transitions Documentation](https://www.w3.org/Guide/transitions). You will need to file an issue in the [Transitions Repo](https://github.com/w3c/transitions); ask ChrisL or fantasai for guidance and complain at plh for any poor documentation. The Team will publish the spec and send out relevant announcements.
+5.  **Wait for Publication -** Wait for the spec to be published. For Echidna-published specs, this should take a few minutes. For other specs, W3C publishes on Tuesdays and Thursdays once webreq has approved the publication.
+6.  **Announce Your Spec -** If there were substantial changes since the previous draft, post an announcement of your new spec to [www-style](mailto:mailto:www-style@w3.org) (and cross-post to [public-review-announce](mailto:mailto:public-review-announce@w3.org) and any other relevant mailing lists) and the [CSSWG Blog](https://www.w3.org/blog/CSS/wp-admin/) (See Templates Below) and link the blog post from [@csswg](http://twitter.com/csswg). If you need help with this, ask fantasai. A good announcement includes:
+    - A link to the spec
+    - An explanation of what's new, what's cool, what's changed, maybe what to expect going forward, but most importantly what you would especially like feedback on.
+    - Instructions for sending feedback
 
-<p>
-Note: The above combines steps specific to the <abbr title="Cascading Style Sheets">CSS</abbr> WG and general <abbr title="World Wide Web Consortium">W3C</abbr>-wide <a href="http://services.w3.org/xslt?xmlfile=http://www.w3.org/2005/08/01-transitions.html&amp;xslfile=http://www.w3.org/2005/08/transitions.xsl" title="http://services.w3.org/xslt?xmlfile=http://www.w3.org/2005/08/01-transitions.html&amp;xslfile=http://www.w3.org/2005/08/transitions.xsl" rel="noopener">publication rules.</a> See the latter also for steps to publishing a Note, CR, PR, etc.
-</p><h2 id="announcement-templates">Announcement Templates</h2>
-<p>
-Templates provided for convenience; you don&#039;t have to use them as long as you include the relevant information (see above).
-</p><h3 id="template-for-wd-announcement-to-www-style">Template for WD Announcement to www-style</h3>
-<p>
-The www-style message is your chance to update WG and www-style members who haven&#039;t been reading all of your module&#039;s deeply involved threads as to what&#039;s happening with your module.
-</p>
+    1.  The CSSWG blog is your communication channel to people who aren't technical enough or devoted enough to follow www-style/GitHub. Take advantage of it, and engage your audience.
+7.  **Post-publication edits -** Add the new “Previous version” link to the editor's draft, and if you edited the editors draft to have Status: and Date: fields in them, restore Status to ED, remove Date, and possibly remove Deadline
 
-<p>
-Replace !!!!marked!!!! items. Here&#039;s an <a href="http://lists.w3.org/Archives/Public/www-style/2011Nov/0790.html" title="http://lists.w3.org/Archives/Public/www-style/2011Nov/0790.html" rel="noopener">example WD announcement</a> and here&#039;s an <a href="http://lists.w3.org/Archives/Public/www-style/2013Jan/0013.html" title="http://lists.w3.org/Archives/Public/www-style/2013Jan/0013.html" rel="noopener">example LCWD announcement</a>:
-</p>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> To</span></dt>
-<dd>www-style@ and public-review-announce@</dd>
-<dt><span class="term"> Subject</span></dt>
-<dd>[CSSWG][!!!!css-foo!!!!] Updated WD of !!!!<abbr title="Cascading Style Sheets">CSS</abbr> Foo L#!!!!</dd>
-<dt><span class="term"> Body</span></dt>
-<dd></dd>
-</dl>
-<pre class="code">The CSS WG has published an updated Working Draft of the !!!!CSS Foo Module Level #!!!!:
+Note: The above combines steps specific to the CSS WG and general W3C-wide [publication rules.](http://services.w3.org/xslt?xmlfile=http://www.w3.org/2005/08/01-transitions.html&xslfile=http://www.w3.org/2005/08/transitions.xsl) See the latter also for steps to publishing a Note, CR, PR, etc.
+
+## Announcement Templates
+
+Templates provided for convenience; you don't have to use them as long as you include the relevant information (see above).
+
+### Template for WD Announcement to www-style
+
+The www-style message is your chance to update WG and www-style members who haven't been reading all of your module's deeply involved threads as to what's happening with your module.
+
+Replace !!!!marked!!!! items. Here's an [example WD announcement](http://lists.w3.org/Archives/Public/www-style/2011Nov/0790.html) and here's an [example LCWD announcement](http://lists.w3.org/Archives/Public/www-style/2013Jan/0013.html):
+
+To
+: www-style@ and public-review-announce@
+
+Subject
+: [CSSWG][!!!!css-foo!!!!] Updated WD of !!!!CSS Foo L#!!!!
+
+Body
+
+``` code
+The CSS WG has published an updated Working Draft of the !!!!CSS Foo Module Level #!!!!:
 
     !!!!http://www.w3.org/TR/css-foo-#/!!!!
 
 !!!!one-sentence summary of module!!!!
 
-!!!!What&#039;s new, what&#039;s cool, what you&#039;d like feedback on, and what to expect
+!!!!What's new, what's cool, what you'd like feedback on, and what to expect
 going forward!!!!
 
 Significant changes are listed at:
@@ -174,34 +65,36 @@ Significant changes are listed at:
   !!!!http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes  **note dated URL!** !!!!
 
 Please review the draft, and send any comments to this mailing list,
-&lt;www-style@w3.org&gt;, prefixed with [css-!!!!FOO!!!!] (as I did on this
+<www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
 message) or (preferably) file them in the GitHub repository at
   https://github.com/w3c/csswg-drafts/issues
 
 For the CSS WG,
-!!!!your signature!!!!</pre><h3 id="template-for-cr-announcement-to-www-style">Template for CR Announcement to www-style</h3>
-<p>
-The www-style message is your chance to update WG and www-style members who haven&#039;t been reading all of your module&#039;s deeply involved threads as to what&#039;s happening with your module, as well as put out an explicit call for implementations.
-</p>
+!!!!your signature!!!!
+```
 
-<p>
-Replace !!!!marked!!!! items. Here&#039;s an <a href="https://lists.w3.org/Archives/Public/www-style/2015Jul/0096.html" title="https://lists.w3.org/Archives/Public/www-style/2015Jul/0096.html" rel="noopener">example CR announcement</a>:
-</p>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> To</span></dt>
-<dd>www-style@ and public-review-announce@</dd>
-<dt><span class="term"> Subject</span></dt>
-<dd>[CSSWG][!!!!css-foo!!!!] CR of !!!!<abbr title="Cascading Style Sheets">CSS</abbr> Foo L#!!!!</dd>
-<dt><span class="term"> Body</span></dt>
-<dd></dd>
-</dl>
-<pre class="code">The CSS WG has published a Candidate Recommendation and invites implementations of the !!!!CSS Foo Module Level #!!!!:
+### Template for CR Announcement to www-style
+
+The www-style message is your chance to update WG and www-style members who haven't been reading all of your module's deeply involved threads as to what's happening with your module, as well as put out an explicit call for implementations.
+
+Replace !!!!marked!!!! items. Here's an [example CR announcement](https://lists.w3.org/Archives/Public/www-style/2015Jul/0096.html):
+
+To
+: www-style@ and public-review-announce@
+
+Subject
+: [CSSWG][!!!!css-foo!!!!] CR of !!!!CSS Foo L#!!!!
+
+Body
+
+``` code
+The CSS WG has published a Candidate Recommendation and invites implementations of the !!!!CSS Foo Module Level #!!!!:
 
     !!!!http://www.w3.org/TR/css-foo-#/!!!!
 
 !!!!one-sentence summary of module!!!!
 
-!!!!What&#039;s new, what&#039;s cool, what you&#039;d like feedback on, and what to expect
+!!!!What's new, what's cool, what you'd like feedback on, and what to expect
 going forward!!!!
 
 Significant changes are listed at:
@@ -213,28 +106,30 @@ Disposition of comments:
   !!!http://dev.w3.org/csswg/css-foo/issues-YYYY !!!!
 
 Please review the draft, and send any comments to this mailing list,
-&lt;www-style@w3.org&gt;, prefixed with [css-!!!!FOO!!!!] (as I did on this
+<www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
 message) or (preferably) file them in the GitHub repository at
   https://github.com/w3c/csswg-drafts/issues
 
 For the CSS WG,
-!!!!your signature!!!!</pre><h3 id="template-for-pr-announcement-to-www-style">Template for PR Announcement to www-style</h3>
-<p>
-The www-style message is your chance to update WG and www-style members who haven&#039;t been reading all of your module&#039;s deeply involved threads as to what&#039;s happening with your module, as well as put out an explicit call for AC Reps to vote on it.
-</p>
+!!!!your signature!!!!
+```
 
-<p>
+### Template for PR Announcement to www-style
+
+The www-style message is your chance to update WG and www-style members who haven't been reading all of your module's deeply involved threads as to what's happening with your module, as well as put out an explicit call for AC Reps to vote on it.
+
 Replace !!!!marked!!!! items.
-</p>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> To</span></dt>
-<dd>www-style@ and public-review-announce@</dd>
-<dt><span class="term"> Subject</span></dt>
-<dd>[CSSWG][!!!!css-foo!!!!] PR of !!!!<abbr title="Cascading Style Sheets">CSS</abbr> Foo L#!!!!</dd>
-<dt><span class="term"> Body</span></dt>
-<dd></dd>
-</dl>
-<pre class="code">The CSS WG has published a Proposed Recommendation of the !!!!CSS Foo Module Level #!!!!:
+
+To
+: www-style@ and public-review-announce@
+
+Subject
+: [CSSWG][!!!!css-foo!!!!] PR of !!!!CSS Foo L#!!!!
+
+Body
+
+``` code
+The CSS WG has published a Proposed Recommendation of the !!!!CSS Foo Module Level #!!!!:
 
     !!!!http://www.w3.org/TR/css-foo-#/!!!!
 
@@ -261,98 +156,107 @@ Implementation Report:
   
 
 Please review the draft, and send any comments to this mailing list,
-&lt;www-style@w3.org&gt;, prefixed with [css-!!!!FOO!!!!] (as I did on this
+<www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
 message) or (preferably) file them in the GitHub repository at
   https://github.com/w3c/csswg-drafts/issues
 
 For the CSS WG,
-!!!!your signature!!!!</pre><h3 id="template-for-wd-announcement-to-blog">Template for WD Announcement to Blog</h3>
-<p>
-The <a href="http://www.w3.org/blog/CSS" title="http://www.w3.org/blog/CSS" rel="noopener">CSSWG blog</a> is your communication channel to people who aren&#039;t technical enough or devoted enough to follow www-style. Take advantage of it, and engage your audience. <strong><a href="https://www.w3.org/blog/CSS/wp-admin/" title="https://www.w3.org/blog/CSS/wp-admin/" rel="noopener">Log in to CSSWG Blog</a></strong>
-</p>
+!!!!your signature!!!!
+```
 
-<p>
-Replaced the »marked« items. Here&#039;s a standard <a href="http://www.w3.org/blog/CSS/2011/09/08/september_text_update/" title="http://www.w3.org/blog/CSS/2011/09/08/september_text_update/" rel="noopener">example</a> . Here&#039;s a <a href="http://www.w3.org/blog/CSS/2011/12/28/css3-images-pre-lc/" title="http://www.w3.org/blog/CSS/2011/12/28/css3-images-pre-lc/" rel="noopener">more customized example</a>.
-</p>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> Subject</span></dt>
-<dd> <abbr title="Cascading Style Sheets">CSS</abbr> FOOOOOOOO Draft Updated</dd>
-<dt><span class="term"> Category</span></dt>
-<dd>Publications</dd>
-<dt><span class="term"> Contents :</span></dt>
-</dl>
-<pre class="code">The CSS Working Group has published an updated Working Draft of &lt;a href=&quot;http://www.w3.org/TR/css-FOOOOOOOO&quot;&gt;CSS FOOOOOOOO&lt;/a&gt;. &gt;&gt;one-sentence summary of module&lt;&lt;
+### Template for WD Announcement to Blog
 
-&gt;&gt;What&#039;s new, what&#039;s cool, what you&#039;d like feedback on, what to expect going forward&lt;&lt;
-Changes since the last Working Draft are listed in the &lt;a href=&quot;http://www.w3.org/TR/2012/WD-css-FOOOOOOOO-20120501/#changes&quot;&gt;Changes section&lt;/a&gt;.
+The [CSSWG blog](http://www.w3.org/blog/CSS) is your communication channel to people who aren't technical enough or devoted enough to follow www-style. Take advantage of it, and engage your audience. **[Log in to CSSWG Blog](https://www.w3.org/blog/CSS/wp-admin/)**
 
-Please send feedback by either &lt;a href=&quot;https://github.com/w3c/csswg-drafts/issues&quot;&gt;filing an issue in GitHub&lt;/a&gt; (preferable) or sending mail to the (&lt;a href=&quot;http://lists.w3.org/Archives/Public/www-style/&quot;&gt;archived&lt;/a&gt;) public mailing list &lt;a href=&quot;mailto:www-style@w3.org?Subject=%5Bcss-FOOOOOOOO%5D%20PUT%20SUBJECT%20HERE&quot;&gt;www-style@w3.org&lt;/a&gt; with the spec code (&lt;code&gt;[css-FOOOOOOOO]&lt;/code&gt;) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)</pre><h3 id="template-for-pr-announcement-to-blog">Template for PR Announcement to Blog</h3>
-<p>
-Replace !!!marked!!! items. <strong><a href="https://www.w3.org/blog/CSS/wp-admin/" title="https://www.w3.org/blog/CSS/wp-admin/" rel="noopener">Log in to CSSWG Blog</a></strong>
-</p>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> Subject</span></dt>
-<dd> PR of !!!<abbr title="Cascading Style Sheets">CSS</abbr> FOOOOOOOO!!!</dd>
-<dt><span class="term"> Category</span></dt>
-<dd>Publications</dd>
-<dt><span class="term"> Contents :</span></dt>
-</dl>
-<pre class="code">The CSS WG has published a Proposed Recommendation of the &lt;a href=&quot;!!!http://www.w3.org/TR/css-FOOOOOOOO!!!&quot;&gt;!!!CSS FOOOOOOOO!!!&lt;/a&gt;. !!!one-sentence summary of module!!!
+Replaced the »marked« items. Here's a standard [example](http://www.w3.org/blog/CSS/2011/09/08/september_text_update/) . Here's a [more customized example](http://www.w3.org/blog/CSS/2011/12/28/css3-images-pre-lc/).
+
+Subject
+: CSS FOOOOOOOO Draft Updated
+
+Category
+: Publications
+
+``` code
+The CSS Working Group has published an updated Working Draft of [CSS FOOOOOOOO](http://www.w3.org/TR/css-FOOOOOOOO). >>one-sentence summary of module<<
+
+>>What's new, what's cool, what you'd like feedback on, what to expect going forward<<
+Changes since the last Working Draft are listed in the [Changes section](http://www.w3.org/TR/2012/WD-css-FOOOOOOOO-20120501/#changes).
+
+Please send feedback by either [filing an issue in GitHub](https://github.com/w3c/csswg-drafts/issues) (preferable) or sending mail to the ([archived](http://lists.w3.org/Archives/Public/www-style/)) public mailing list [www-style@w3.org](mailto:www-style@w3.org?Subject=%5Bcss-FOOOOOOOO%5D%20PUT%20SUBJECT%20HERE) with the spec code (<code>[css-FOOOOOOOO]</code>) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)
+```
+
+### Template for PR Announcement to Blog
+
+Replace !!!marked!!! items. **[Log in to CSSWG Blog](https://www.w3.org/blog/CSS/wp-admin/)**
+
+Subject
+: PR of !!!CSS FOOOOOOOO!!!
+
+Category
+: Publications
+
+``` code
+The CSS WG has published a Proposed Recommendation of the [!!!CSS FOOOOOOOO!!!](!!!http://www.w3.org/TR/css-FOOOOOOOO!!!). !!!one-sentence summary of module!!!
 
 This document is intended to become a W3C Recommendation. This document will remain a Proposed Recommendation at least until !!!DATE HERE!!! in order to ensure the opportunity for wide review. The W3C Membership and other interested parties are invited to review the document and send comments. Advisory Committee Representatives should consult their WBS questionnaires.
 
-Changes since the last Working Draft are listed in the &lt;a href=&quot;!!!http://www.w3.org/TR/2012/WD-css-FOOOOOOOO-20120501/#changes note the date URL!!!&quot;&gt;Changes section&lt;/a&gt;.
+Changes since the last Working Draft are listed in the [Changes section](!!!http://www.w3.org/TR/2012/WD-css-FOOOOOOOO-20120501/#changes note the date URL!!!).
 
-A &lt;a href=&quot;!!!URL to DoC!!!&quot;&gt;disposition of comments&lt;/a&gt; and &lt;a href=&quot;!!!URL to implementation report!!!&quot;&gt;implementation report&lt;/a&gt; are available.
+A [disposition of comments](!!!URL to DoC!!!) and [implementation report](!!!URL to implementation report!!!) are available.
 
-Please send feedback by either &lt;a href=&quot;https://github.com/w3c/csswg-drafts/issues&quot;&gt;filing an issue in GitHub&lt;/a&gt; (preferable) or sending mail to the (&lt;a href=&quot;http://lists.w3.org/Archives/Public/www-style/&quot;&gt;archived&lt;/a&gt;) public mailing list &lt;a href=&quot;mailto:www-style@w3.org?Subject=%5B!!!css-FOOOOOOOO!!!%5D%20PUT%20SUBJECT%20HERE&quot;&gt;www-style@w3.org&lt;/a&gt; with the spec code (&lt;code&gt;[!!!css-FOOOOOOOO!!!]&lt;/code&gt;) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)</pre><h3 id="template-for-twitter-announcement">Template for Twitter Announcement</h3>
-<p>
+Please send feedback by either [filing an issue in GitHub](https://github.com/w3c/csswg-drafts/issues) (preferable) or sending mail to the ([archived](http://lists.w3.org/Archives/Public/www-style/)) public mailing list [www-style@w3.org](mailto:www-style@w3.org?Subject=%5B!!!css-FOOOOOOOO!!!%5D%20PUT%20SUBJECT%20HERE) with the spec code (<code>[!!!css-FOOOOOOOO!!!]</code>) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)
+```
+
+### Template for Twitter Announcement
+
 Feel free to adjust the template as it seems useful.
-</p>
-<pre class="code">CSS Foo L? [ updated WD | updated CR | published CR | FPWD (new) ]
+
+``` code
+CSS Foo L? [ updated WD | updated CR | published CR | FPWD (new) ]
 ? brief summary of changes, if that seems manageable, to garner interest ?
-? link to blog post for details ?</pre>
+? link to blog post for details ?
+```
 
-<p>
 e.g.
-</p>
-<pre class="code">CSS Box Alignment L3 updated WD
+
+``` code
+CSS Box Alignment L3 updated WD
 Added new/renamed row-gap/column-gap/gap for Grid and Flexbox
-https://www.w3.org/blog/CSS/2017/12/31/spec-updates-2017/#align</pre><h2 id="steps-for-manual-publication">Steps for Manual Publication</h2>
-<p>
-To request manual publication (e.g. if the shortname needs changing or there is some other glitch that can&#039;t be handled by Echidna), send a request by email to webreq and our staff contacts. Replace »marked« items:
-</p>
-<dl class="plugin_definitionlist">
-<dt><span class="term"> To</span></dt>
-<dd>chris@, xfq@, webreq@</dd>
-<dt><span class="term"> CC</span></dt>
-<dd>w3c-css-wg@</dd>
-<dt><span class="term"> Subject</span></dt>
-<dd>[Publish]»[SHORTNAME]« Publish »TITLE« »STATUS«</dd>
-<dt><span class="term"> Body</span></dt>
-<dd></dd>
-</dl>
-<pre class="code">Hello Chris, &amp; Webreq
+https://www.w3.org/blog/CSS/2017/12/31/spec-updates-2017/#align
+```
+
+## Steps for Manual Publication
+
+To request manual publication (e.g. if the shortname needs changing or there is some other glitch that can't be handled by Echidna), send a request by email to webreq and our staff contacts. Replace »marked« items:
+
+To
+: chris@, xfq@, webreq@
+
+CC
+: w3c-css-wg@
+
+Subject
+: [Publish]»[SHORTNAME]« Publish »TITLE« »STATUS«
+
+Body
+
+``` code
+Hello Chris, & Webreq
 The CSS Working Group would like to publish an updated Working Draft of:
-  &gt;&gt;CSS Foo&lt;&lt;.
+  >>CSS Foo<<.
 The resolution to publish is recorded here:
-  &gt;&gt;http://lists.w3.org/...&lt;&lt;
-The editor&#039;s draft is here:
-  &gt;&gt;http://dev.w3.org/...&lt;&lt;
-Can you please set this up for publication? Is &gt;&gt;future date&lt;&lt; an acceptable publishing date?
+  >>http://lists.w3.org/...<<
+The editor's draft is here:
+  >>http://dev.w3.org/...<<
+Can you please set this up for publication? Is >>future date<< an acceptable publishing date?
 Thanks,
-&gt;&gt;your signature&lt;&lt;</pre>
+>>your signature<<
+```
 
-<p>
 Where »future date« is a Tuesday or Thursday giving the Webmaster enough time to check and correct the draft. Follow-up and make sure it actually gets published, then send out your announcements as usual.
-</p><h3 id="direct-manual-publication">Direct Manual Publication</h3>
-<p>
-If for some reason you need to publish directly with the Webmaster (e.g. staff contacts are MIA), leave out the staff contact from the publication request, and inform webreq that you will be the contact person for the publication. Then send a reply only to webreq with a zipfile of the publication. (This way we&#039;re all on the thread, but only webreq gets the attachment.)
-</p>
 
-<p>
-To prepare the zipfile, regenerate the <abbr title="specification">spec</abbr> for /TR publication and ensure that the files validate and pass pubrules (to the extent that you can check this). Also make sure that all files necessary for the publication &lt;em&gt;including default.css&lt;/em&gt; are inside the same folder (and they continue to link up correctly). Zip that folder and send it to webreq as an attachment begging them to set it up for you.
-</p>
-</main>
-</body>
-</html>
+### Direct Manual Publication
+
+If for some reason you need to publish directly with the Webmaster (e.g. staff contacts are MIA), leave out the staff contact from the publication request, and inform webreq that you will be the contact person for the publication. Then send a reply only to webreq with a zipfile of the publication. (This way we're all on the thread, but only webreq gets the attachment.)
+
+To prepare the zipfile, regenerate the spec for /TR publication and ensure that the files validate and pass pubrules (to the extent that you can check this). Also make sure that all files necessary for the publication \<em\>including default.css\</em\> are inside the same folder (and they continue to link up correctly). Zip that folder and send it to webreq as an attachment begging them to set it up for you.
