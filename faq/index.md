@@ -219,7 +219,7 @@ This is a robust and minimal scheme that is guaranteed to give correct results o
 
 \* <https://github.com/w3c/csswg-drafts/issues/614>
 
-## Styling \<sup\> And \<sub\> Using font-variant-position
+## Styling `<sup>` And `<sub>` Using font-variant-position
 
 #### Question
 
