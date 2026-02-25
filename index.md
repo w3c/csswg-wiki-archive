@@ -12,8 +12,6 @@ The CSS Working Group welcomes your feedback on our work! Public discussion of o
 
 The working group uses the [planning](./planning/ "planning") page to coordinate topics for our face-to-face meetings.
 
-Due to abuse by spam bots, account registration has been disabled on this wiki. [Registration is available on the draft server](https://drafts.csswg.org/register/) and accounts are shared with the wiki.
-
 See [recent changes](http://wiki.csswg.org/?do=recent) for currently active topics.
 
 ## Sections
