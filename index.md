@@ -14,7 +14,6 @@ The CSS Working Group welcomes your feedback on our work! Public discussion of o
 
 The working group uses the [planning](/planning/) page to coordinate topics for our face-to-face meetings.
 
-See [recent changes](http://wiki.csswg.org/?do=recent) for currently active topics.
 
 ## Sections
 
