@@ -30,17 +30,15 @@ Note: A mode switch that is not lexically scoped would cause declarations writte
 
 For example:
 
-``` code
-<coordinate-mode> = [ logical | physical ] or [ relative | absolute ] or ...
+    <coordinate-mode> = [ logical | physical ] or [ relative | absolute ] or ...
 
-@mode <coordinate-mode>; /* must come after @import and before any style rules */
+    @mode <coordinate-mode>; /* must come after @import and before any style rules */
 
-@mode <coordinate-mode> { <stylesheet> }
+    @mode <coordinate-mode> { <stylesheet> }
 
-selector {
-  property: value  !<coordinate-mode>;
-}
-```
+    selector {
+      property: value  !<coordinate-mode>;
+    }
 
 For example, if a box has a margin to avoid drawing over part of a background image, this needs to be a physical margin even if the stylesheet is written in logical coordinates overall in order to accommodate translations.
 

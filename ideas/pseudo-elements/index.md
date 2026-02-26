@@ -16,11 +16,11 @@ Here is a list of possible pseudo-element additions that could be made in a futu
 
 In CSS3 Content, `::outside` was meant to create a pseudo element containing a single element.
 
-``` code
+```css
 div::outside {border: thick solid green;}
 ```
 
-``` code
+```html
 <!-- pseudo-element -->
   <div>markup content</div>
 <!--end -->
@@ -30,15 +30,15 @@ div::outside {border: thick solid green;}
 
 A wrapper that contains a range of elements specified by indices. This could be specified as a child interval on a parent, or directly from an element with a number of siblings to contain.
 
-``` code
+```css
 #parent/*>*/::wrap(2,5) {border: thick solid green;} /* child interval */
 ```
 
-``` code
+```css
 #parent>:nth-child(2)::wrap(3) {border: thick solid lime;} /* sibling interval */
 ```
 
-``` code
+```html
 <div id=parent>
   <div>1</div>
   <!-- pseudo-element containing the next three elements -->
@@ -56,11 +56,11 @@ If the second idea (starting from the first element to be wrapped, and specifyin
 
 A wrapper that contains a range of elements specified by selectors. In this case the declared range is from every \<dt\> element until the next \<dt\> following a \<dd\>.
 
-``` code
+```css
 dl::wrap(:matches(:first-child, dt), dd+dt) {border: thick solid green;}
 ```
 
-``` code
+```html
 <dl>
   <!-- pseudo-element <di> -->
     <dt> Last modified time </dt>
@@ -82,15 +82,15 @@ dl::wrap(:matches(:first-child, dt), dd+dt) {border: thick solid green;}
 
 A pseudo-element as a previous or next sibling to an element. In the case below you should be able to place this pseudo-element as following \<h1\> or previous to \<p\>.
 
-``` code
+```css
 h1::next {border: thick solid green;}
 ```
 
-``` code
+```css
 p::prev {border: thick solid green;}
 ```
 
-``` code
+```html
 <h1>heading</h1>
 <!-- pseudo-element -->
 <p>paragraph</p>
@@ -100,12 +100,12 @@ p::prev {border: thick solid green;}
 
 Mechanisms for adding more than one pseudo-element in some or all of the existing pseudo-element schemes. CSS3 Content previously had the ability to specify multiples of a pseudo by specifying an index in square brackets.
 
-``` code
+```css
 div::before[1] {border: thick solid green;}
 div::before[2] {border: thick solid lime;}
 ```
 
-``` code
+```html
 <div>
   <!-- ::before pseudo-element 1 -->
   <!-- ::before pseudo-element 2 -->
@@ -113,14 +113,14 @@ div::before[2] {border: thick solid lime;}
 
 ```
 
-``` code
+```css
 div::before {border: thick solid green; content="text1";}
 div::before::before {border: thick solid lime; content="text2";}
 div::after {border: thick solid green; content="text3";}
 div::after::after {border: thick solid lime; content="text4";}
 ```
 
-``` code
+```html
 <div>
   <!-- ::before pseudo-element -->
     <!-- nesting ::before pseudo-element -->
@@ -138,12 +138,12 @@ div::after::after {border: thick solid lime; content="text4";}
 
 ```
 
-``` code
+```css
 div::outside[1] {border: thick solid green;}
 div::outside[2] {border: thick solid lime;}
 ```
 
-``` code
+```html
 <!-- nesting ::outside pseudo-element -->
   <!-- nesting ::outside pseudo-element -->
     <div>markup content</div>
@@ -151,13 +151,13 @@ div::outside[2] {border: thick solid lime;}
 <!-- end -->
 ```
 
-``` code
+```css
 h1::next[1] {border: thick solid green;}
 h1::next[2] {border: thick solid lime;}
 h1::next[3] {border: thick solid olive;}
 ```
 
-``` code
+```html
 <h1>heading</h1>
 <!-- multiple sibling pseudo-elements -->
 <!-- multiple sibling pseudo-elements -->
@@ -169,11 +169,11 @@ h1::next[3] {border: thick solid olive;}
 
 A wrapper that contains contiguous elements that share a selectable characteristic. In this case, instead of making three simple wrappers around each instance of class `bar`, it would group the first two `bar` elements together in one wrapper.
 
-``` code
+```css
 ::wrap(div.bar) {border: thick solid green;}
 ```
 
-``` code
+```html
 <div class=foo></div>
 <!-- pseudo-element that wraps class bar -->
   <div class=bar></div>
@@ -187,6 +187,6 @@ A wrapper that contains contiguous elements that share a selectable characterist
 
 This could potentially also be addressed with \#3.
 
-``` code
+```css
 ::wrap(div.bar, :not(div.bar)) {border: thick solid green;}
 ```

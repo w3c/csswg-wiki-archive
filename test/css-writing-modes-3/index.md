@@ -148,9 +148,7 @@ Testable: The principal writing mode of the document is determined by the writin
 
 *One idea is to create tests that will output, when passed, this reference file: <http://test.csswg.org/suites/css-multicol-1_dev/nightly-unstable/html4/reference/multicol-count-002-ref.htm>*
 
-``` code
-a) block flow direction of block-level boxes in a block formatting context
-```
+    a) block flow direction of block-level boxes in a block formatting context
 
 Test assertion: This test checks that block-level boxes in a horizontal-tb block formatting context are ordered from top to bottom
 
@@ -160,9 +158,7 @@ Test assertion: This test checks that block-level boxes in a vertical-lr block f
 
 Test assertion: This test checks that block-level boxes in a { right-floating box \| abs. pos. box \| inline-block \| list \| table-cell \| table-caption } with 'writing-mode' set to { 'vertical-lr' \| 'vertical-rl' } creates a block formatting context for its block boxes.
 
-``` code
-b) line box direction in a block container that contains inlines
-```
+    b) line box direction in a block container that contains inlines
 
 Test assertion: This test checks that lines boxes in a horizontal-tb block container that contains inlines are ordered from top to bottom; the first line box of such block container is the topmost
 
@@ -174,9 +170,7 @@ Test assertion: This test checks that lines boxes in a vertical-lr block contain
 
 Test assertion: This test checks that lines boxes in a { 'vertical-lr' \| 'vertical-rl' } block container { right-floating box \| abs. pos. box \| inline-block \| list \| table-cell \| table-caption } that contains inlines are ordered from { left to right \| right to left }; the first line box of such block container is the { leftmost \| rightmost }.
 
-``` code
-c) progression of rows in a table
-```
+    c) progression of rows in a table
 
 Test assertion: This test checks that rows in a horizontal-tb table are ordered from top to bottom; the first row is the topmost row
 
@@ -192,17 +186,15 @@ For each of these tests, we need additional tests with
 - 1 test with rowspan=2
 - 1 test with 1 thead, 2 tbody and 1 tfoot
 
-``` code
-d) line boxes' orientation
-```
+<!-- -->
+
+    d) line boxes' orientation
 
 Test assertion: This test checks that line boxes' orientation in a vertical-rl block container box is toward the right
 
 Test assertion: This test checks that line boxes' orientation in a vertical-lr block container box is toward the right
 
-``` code
-e) "the writing-mode property of the HTML BODY element is not propagated to the viewport."
-```
+    e) "the writing-mode property of the HTML BODY element is not propagated to the viewport."
 
 *Possible (draft) tests for now: [body and rl](http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/body-propagation-viewport-001.html) , [body and lr](http://www.gtalbot.org/BrowserBugsSection/CSS3WritingModes/body-propagation-viewport-004.html).*
 
@@ -210,25 +202,19 @@ e) "the writing-mode property of the HTML BODY element is not propagated to the 
 
 *There is a spec issue related to this; direction set on body should propagate to viewport. If such issue is resolved as such, then this will impact writing-modes spec and will make “rl” behave the same as 'direction: rtl' set on body and vice versa for “lr” and 'direction: ltr'. <http://lists.w3.org/Archives/Public/www-style/2014Dec/0003.html> Implementors are converging interoperably toward propagating 'direction' and 'writing-mode' from body to viewport (or ICB); so issue 239 should be reopened and resolved accordingly <https://wiki.csswg.org/spec/css2.1#issue-239>*
 
-``` code
-f) "If a box has a different block flow direction than its containing block:
-If the box has a specified display of inline, its display computes to inline-block. [CSS21]
-If the box is a block container, then it establishes a new block formatting context. 
-"
-```
+    f) "If a box has a different block flow direction than its containing block:
+    If the box has a specified display of inline, its display computes to inline-block. [CSS21]
+    If the box is a block container, then it establishes a new block formatting context. 
+    "
 
 *2 tests can be written out of this multiplied by 3 writing-modes values; we could create javascript tests as well*
 
-``` code
-g) Testable: The content of replaced elements do not rotate due to the writing mode: 
-images, for example, remain upright.
-```
+    g) Testable: The content of replaced elements do not rotate due to the writing mode: 
+    images, for example, remain upright.
 
-``` code
-h) Testable: However replaced content involving text (such as MathML content or form elements) 
-should match the replaced element’s writing mode and line orientation if the UA supports such a 
-vertical writing mode for the replaced content.
-```
+    h) Testable: However replaced content involving text (such as MathML content or form elements) 
+    should match the replaced element’s writing mode and line orientation if the UA supports such a 
+    vertical writing mode for the replaced content.
 
 *2 tests can be written out of this multiplied by 3 writing-mode values*
 
@@ -276,15 +262,11 @@ What tests can be created out of this section? We set text-orientation to uprigh
 
 If an atomic inline (such as an inline-block, inline-table, or replaced inline element) is not capable of providing its own baseline information, then the UA synthesizes a baseline table thus: alphabetic
 
-``` code
-  The alphabetic baseline is assumed to be at the under margin edge.
-```
+      The alphabetic baseline is assumed to be at the under margin edge.
 
 central
 
-``` code
-  The central baseline is assumed to be halfway between the under and over margin edges of the box. 
-```
+      The central baseline is assumed to be halfway between the under and over margin edges of the box. 
 
 Only 9 tests would need to be done:
 
@@ -312,12 +294,10 @@ x test to be done.
 
 *Eg \<div\>\<span id=“outer”\>\<span style=“font-family: 'DejaVu Sans', Verdana;”\>L\</span\>\<span style=“font-family: 'Liberation Serif', 'Times New Roman';\>Z\</span\>\</span\>\</div\>*
 
-``` code
-// fc-match "Times New Roman" returns Liberation Serif//
-// fc-match Verdana returns DejaVu Sans//
-- The dominant baseline is used for alignment when aligning a child inline-level box within its parent. For the vertical-align value of baseline, child is aligned to the parent by matching the parent’s dominant baseline to the same baseline in the child. (E.g. if the parent’s dominant baseline is alphabetic, then the child’s alphabetic baseline is matched to the parent’s alphabetic baseline, even if the child’s dominant baseline is something else.) For values of sub, super, <length>, and <percentage>, the baselines are aligned as for baseline, but the child is shifted according to the offset given by its vertical-align value. 
-//So, <span style="font-family: 'DejaVu Sans', Verdana;">L <span style="vertical-align: 10px;">z</span></span> We can create 4 tests//
-```
+    // fc-match "Times New Roman" returns Liberation Serif//
+    // fc-match Verdana returns DejaVu Sans//
+    - The dominant baseline is used for alignment when aligning a child inline-level box within its parent. For the vertical-align value of baseline, child is aligned to the parent by matching the parent’s dominant baseline to the same baseline in the child. (E.g. if the parent’s dominant baseline is alphabetic, then the child’s alphabetic baseline is matched to the parent’s alphabetic baseline, even if the child’s dominant baseline is something else.) For values of sub, super, <length>, and <percentage>, the baselines are aligned as for baseline, but the child is shifted according to the offset given by its vertical-align value. 
+    //So, <span style="font-family: 'DejaVu Sans', Verdana;">L <span style="vertical-align: 10px;">z</span></span> We can create 4 tests//
 
 ## §5 Introduction to Vertical Text Layout
 
@@ -499,12 +479,10 @@ text-align, float, clear, vertical-align, text-decoration; basic tests from CSS2
 
 ” The following values are purely physical in their definitions and do not respond to changes in writing mode:
 
-``` code
-  the rect() notation of the clip property [CSS21]
-  the background properties [CSS21] [CSS3BG]
-  the border-image properties [CSS3BG]
-  the offsets of the box-shadow and text-shadow properties 
-```
+      the rect() notation of the clip property [CSS21]
+      the background properties [CSS21] [CSS3BG]
+      the border-image properties [CSS3BG]
+      the offsets of the box-shadow and text-shadow properties 
 
 “
 

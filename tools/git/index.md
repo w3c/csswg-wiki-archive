@@ -25,15 +25,11 @@ title: "Quick Guide To Using Git"
 >
 > You can see if you already have Git installed by opening up a command shell and typing:
 >
-> ``` code
 > git --version
-> ```
 >
 > You should see something like:
 >
-> ``` code
 > git version 2.7.1
-> ```
 >
 > ### Setting Up Mercurial Preferences
 >
@@ -46,7 +42,6 @@ title: "Quick Guide To Using Git"
 >
 > Create a file in your home directory called `.hgrc`, or `%USERPROFILE%\mercurial.ini` on Windows. Give it the following contents, but with your name, email, username, password, and editor replaced appropriately:
 >
-> ``` code
 > [ui]
 > username = Your Full Name <your@email.address.example>
 > merge = internal:merge
@@ -88,7 +83,6 @@ title: "Quick Guide To Using Git"
 > w3c.prefix = https://dvcs.w3.org/hg/
 > w3c.username = your_w3.org_username
 > w3c.password = your_w3.org_password #optional
-> ```
 >
 > **IMPORTANT**: If you will be pushing changes to the CSSWG Test Repository, and you use the Full Name \<email\> format for the username in the \[ui\] section, be sure the email address you enter is the same as that associated with your wiki account. Alternatively, replace “`Your Full Name `<a href="mailto:your@email.address.example" class="mail"><code>your@email.address.example</code></a>” with “`your_csswg.org_username`”.
 >
@@ -117,65 +111,51 @@ In a shell/terminal window, set your current directory to wherever you want hg t
 
 **CSSWG Test Suite Repository**
 
-``` code
-cd /mirror/hg/hg.csswg.org/   #just an example, pick your own local directory
-hg clone https://hg.csswg.org/test/
-```
+    cd /mirror/hg/hg.csswg.org/   #just an example, pick your own local directory
+    hg clone https://hg.csswg.org/test/
 
 You should see some text like:
 
-``` code
-destination directory: test
-requesting all changes
-adding changesets
-adding manifests
-adding file changes
-added 3289 changesets with 85693 changes to 50963 files
-updating to branch default
-cloning subrepo tools/w3ctestlib from http://hg.csswg.org/dev/w3ctestlib
-requesting all changes
-adding changesets
-adding manifests
-adding file changes
-added 95 changesets with 245 changes to 31 files
-21921 files updated, 0 files merged, 0 files removed, 0 files unresolved
-```
+    destination directory: test
+    requesting all changes
+    adding changesets
+    adding manifests
+    adding file changes
+    added 3289 changesets with 85693 changes to 50963 files
+    updating to branch default
+    cloning subrepo tools/w3ctestlib from http://hg.csswg.org/dev/w3ctestlib
+    requesting all changes
+    adding changesets
+    adding manifests
+    adding file changes
+    added 95 changesets with 245 changes to 31 files
+    21921 files updated, 0 files merged, 0 files removed, 0 files unresolved
 
 **Resources directory (for script tests)**
 
 This directory contains testharness.js which is needed if you'll be running script tests locally. This is maintained in a separate repository in GitHub. See the [instructions on GitHub](https://help.github.com/articles/set-up-git/) for setting up git, then:
 
-``` code
-cd /     #not required, but resources directory is located at root level in repository
-git clone https://github.com/w3c/testharness.js.git resources
-```
+    cd /     #not required, but resources directory is located at root level in repository
+    git clone https://github.com/w3c/testharness.js.git resources
 
 **CSSWG Draft Repository**
 
-``` code
-cd /mirror/hg.csswg.org/   #just an example, pick your own local directory
-hg clone https://hg.csswg.org/drafts/
-```
+    cd /mirror/hg.csswg.org/   #just an example, pick your own local directory
+    hg clone https://hg.csswg.org/drafts/
 
 **FXTF Draft Repository**
 
-``` code
-hg clone https://hg.fxtf.org/drafts/ 
-```
+    hg clone https://hg.fxtf.org/drafts/ 
 
 **Fullscreen Spec**
 
-``` code
-hg clone https://dvcs.w3.org/hg/fullscreen/
-```
+    hg clone https://dvcs.w3.org/hg/fullscreen/
 
 Once this command is complete, you now have a working directory that also contains your very own local repository (in a hidden directory named `.hg`). Your local repository is, at this point, an identical clone of the central repository. You can begin making changes in your working directory at will. In general, do not modify the contents of the `.hg` directory directly.
 
 Note: By default, the working directory name will match the name of the central repository on the server (the last path component of the URL). If you want to use a different name for your working directory, enter it at the end of the clone command, e.g.:
 
-``` code
-hg clone https://hg.csswg.org/drafts/ csswg
-```
+    hg clone https://hg.csswg.org/drafts/ csswg
 
 ### Obtaining Write Access
 
@@ -204,23 +184,19 @@ In a nutshell, your workflow will be:
 
 You can do that with the following commands:
 
-``` code
-hg pull --rebase
-<make edits>
-hg commit -m "[css-foo] commit message describing your work"
-hg push
-```
+    hg pull --rebase
+    <make edits>
+    hg commit -m "[css-foo] commit message describing your work"
+    hg push
 
 (Always include the shortname of the spec you're committing work for, just you would when sending email.)
 
 ⚠️ Note that (unlike CVS or Subversion) these Mercurial commands operate on the entire repository, not just the directory you're in. You can commit only changes in your current working directory by appending “.”:
 
-``` code
-hg pull --rebase
-<make edits>
-hg commit -m "[css-foo] commit message describing your work" .
-hg push
-```
+    hg pull --rebase
+    <make edits>
+    hg commit -m "[css-foo] commit message describing your work" .
+    hg push
 
 Congratulations, you're now a Mercurial user.
 
@@ -262,10 +238,8 @@ This section covers:
 
 While you are working, you can see an overview of your changes by entering:
 
-``` code
-hg status   # all files in the repository
-hg status . # only files in this directory
-```
+    hg status   # all files in the repository
+    hg status . # only files in this directory
 
 This command will give a list of files in your working directory that differ from the current state of your local repository, marking each with a status code before it's name:
 
@@ -285,24 +259,18 @@ This command can be abbreviated as `hg stat`.
 
 You can also see the actual changes you've made by asking for a diff:
 
-``` code
-hg diff   # all files in the repository
-hg diff . # only files in this directory
-```
+    hg diff   # all files in the repository
+    hg diff . # only files in this directory
 
 You can create a patch file by redirecting to a file: Append ` > filename.patch` to the diff command, e.g.
 
-``` code
-hg diff > filename.patch
-```
+    hg diff > filename.patch
 
 #### Reverting Changes: hg revert
 
 If you decide you don't want to keep changes you made to a file, or removed a file by mistake, you can restore that file to the last committed version by typing:
 
-``` code
-hg revert filename
-```
+    hg revert filename
 
 ### Synchronizing Changes
 
@@ -317,9 +285,7 @@ This section covers:
 
 You can resync your copy of the repository with the central copy by pulling:
 
-``` code
-hg pull -u
-```
+    hg pull -u
 
 This will pull any new changesets in the central repository and merge them with your local (uncommitted) changes. In most cases, this should Just Work. If both you and someone else have changed the same area in the same file, however, you'll need to resolve the conflict manually. See [Resolving Conflicts](#resolving-conflictshg-resolve "tools:git ↵"), below.
 
@@ -334,19 +300,15 @@ This will pull any new changesets in the central repository and merge them with 
 >
 > When you're sure you want to submit to the server, **pull first** to synchronize with the central repository (`hg pull -u`), and resolve any resulting conflicts. Then commit your changes into a local changeset (`hg commit`) and push your changeset to the central repository (`hg push`). Like this:
 >
-> ``` code
 > hg pull -u
 > hg commit -m "[css-foo] Commit message explaining your changes"
 > hg push
-> ```
 >
 > Always include the shortname of the spec you're committing work for, just you would when sending email. If you're working on a bash command line, put the following command into your `.bash_functions` file:
 >
-> ``` code
 > function commit {
 > hg commit -m "[${PWD##*/}] ${1}" . && hg pull --rebase && hg push
 > }
-> ```
 >
 > Now you can do a full commit with a properly formatted commit message just by running `commit “message here”` in the spec's folder. The function will take care of adding the spec's shortname for you automatically. (If you're using the regeneration script from above, feel free to put that first on the line like `regen && …`.)
 >
@@ -355,9 +317,7 @@ This will pull any new changesets in the central repository and merge them with 
 >
 > Use `.` to commit only changes in the current directory, e.g.
 >
-> ``` code
 > hg commit -m "[css-foo] Fix all typos in this directory" .
-> ```
 >
 > ❓ If you see a message similar to: “abort: push creates new remote head”, then you either forgot to pull and synchronize your local repository with the central repository, or someone else has pushed changesets since you last did. The error message describes re-trying the push with the “-f” option to force it working. **DON'T DO THIS**. Doing this would create a branch in the central repository. Pull, merge, commit, then try the push again. See the section below about merging.
 >
@@ -371,16 +331,12 @@ This will pull any new changesets in the central repository and merge them with 
 >
 > When you pull, if you have committed changes to your repository (but haven't pushed them yet), and others have pushed changes to the central repository, Mercurial automatically creates two branches to track the different lines of work. You'll know this happened if you see a message about “heads”, like this:
 >
-> ``` code
 > added 2 changesets with 1 changes to 1 files (+1 heads)
 > (run 'hg heads' to see heads, 'hg merge' to merge)
-> ```
 >
 > What this means is that you have to merge the two lines of work before you can push back to the central repository. To merge, simply type:
 >
-> ``` code
 > hg merge
-> ```
 >
 > In most cases Mercurial will be able to handle the merge completely by itself. But if both you and others have changed the same area in the same files, there may be a conflict, which you will need to resolve manually.
 >
@@ -388,19 +344,15 @@ This will pull any new changesets in the central repository and merge them with 
 >
 > Once the merge is complete (and you've resolved any conflicts), you'll need to commit it as a changeset (which represents the merge operation):
 >
-> ``` code
 > hg commit -m "merge"
-> ```
 >
 > #### Resolving Conflicts: hg resolve
 >
-> ``` code
 > merging foo.txt
 > warning: conflicts during merge.
 > merging foo.txt failed!
 > 0 files updated, 0 files merged, 0 files removed, 1 files unresolved
 > use 'hg resolve' to retry unresolved file merges
-> ```
 >
 > If your merge or update operation resulted in conflicts, you need to correct those conflicts before proceeding. Unlike CVS and Subversion, Mercurial helps you track which conflicts have been resolved or are unresolved. Consequently, you need to tell it when you're done resolving conflicts in a file.
 >
@@ -408,9 +360,7 @@ This will pull any new changesets in the central repository and merge them with 
 >
 > You can list all the files that had merge conflicts with:
 >
-> ``` code
 > hg resolve --list
-> ```
 >
 > >
 > |     |                                |
@@ -422,23 +372,19 @@ This will pull any new changesets in the central repository and merge them with 
 
 Open any files with conflicts in your favorite editor and search for conflict markers, which Mercurial has inserted to show you where and how the two versions of the file (yours and theirs) diverge. Conflict markers look like this:
 
-``` code
-...
-<<<<<<< local
-a line that I changed locally
-======
-the changed line as it exists in the central repository
->>>>>>> other
-...
-```
+    ...
+    <<<<<<< local
+    a line that I changed locally
+    ======
+    the changed line as it exists in the central repository
+    >>>>>>> other
+    ...
 
 Remove everything between (and including) the `<<<<<<<` and the `>>>>>>>` lines, replacing with the correctly-merged contents. Repeat as needed for remaining conflicts until all conflicts have been resolved.
 
 ❓ If you mess up, you can retry by asking Mercurial to restore the conflict markers:
 
-``` code
-hg resolve filename
-```
+    hg resolve filename
 
 > [!NOTE]
 > For every file that has a merge conflict, Mercurial will create an untracked copy with the same name and the additional extension `.orig`. (You can find these by running `hg status`.) This new file will be the original contents of your version of the file before the merge and is available for your reference. Once all the conflicts have been resolved and committed, you should delete the files with the `.orig` extensions to avoid any confusion. Note that it is not necessary to `hg remove` those files as they were never tracked by Mercurial.
@@ -447,9 +393,7 @@ hg resolve filename
 
 Once you've merged all the conflicts, tell Mercurial to mark them resolved with:
 
-``` code
-hg resolve -m
-```
+    hg resolve -m
 
 Now that Mercurial knows the conflicts are resolved, it will allow you to commit your changes.
 
@@ -470,9 +414,7 @@ This section covers:
 
 If you create a new file or directory, you'll need to tell Mercurial to start tracking it. You do this by the following:
 
-``` code
-hg add filename
-```
+    hg add filename
 
 Adding a directory recursively adds all of its contents. Note that Mercurial will ignore empty directories.
 
@@ -482,9 +424,7 @@ Once you add a file it'll show up in the status listing with an “A”. Note th
 
 To remove a file or directory from the repository type:
 
-``` code
-hg remove filename
-```
+    hg remove filename
 
 Once a file is removed, it'll show up in the status listing with a “R”. The file is removed from your working directory immediately, but it isn't removed from the repository until your next commit. If you remove all the files in a directory, the directory will be automatically removed as well. Removing a directory recursively removes all of its contents.
 
@@ -494,25 +434,19 @@ This command can be abbreviated as `hg rm`.
 
 To move or rename a file or directory:
 
-``` code
-hg move old_location new_location
-```
+    hg move old_location new_location
 
 This will preserve the revision history of the file or directory from its old name or location.
 
 This command can be abbreviated as `hg mv` and is equivalent to `hg rename`:
 
-``` code
-hg rename old_name new_name
-```
+    hg rename old_name new_name
 
 #### Copies and Forks: hg copy
 
 To copy a file or directory:
 
-``` code
-hg copy original copied
-```
+    hg copy original copied
 
 This will preserve history in both copies, effectively forking the file.
 
@@ -526,16 +460,12 @@ The fundamental difference between working with a distributed version control sy
 
 The command
 
-``` code
-hg pull -u
-```
+    hg pull -u
 
 combines two operations in one: an `hg pull` followed by an `hg update`.
 
-``` code
-hg pull
-hg update
-```
+    hg pull
+    hg update
 
 Pulling only updates your local repository so it knows about the newer changesets on the server; it does not affect your working directory (i.e. you'll have the changes, but you won't see them). Update brings your working directory up to date by merging those new changesets into your working directory (so they show up in your files). If you want to download new changesets while you are connected but merge them with your changes sometime later, you can pull now (without `-u`) and update later (with `hg update`).
 
@@ -555,21 +485,15 @@ Mercurial's branching and merge operations gracefully handle multiple people sim
 
 Rebasing tells Mercurial to recompute your changes so that they appear to be made after the changes that other people have made. If your changes don't conflict, this can be simply achieved by replacing your pull operation with:
 
-``` code
-hg pull --rebase
-```
+    hg pull --rebase
 
 You can alternatively rebase your changes after a pull (in place of a merge) using:
 
-``` code
-hg rebase
-```
+    hg rebase
 
 If there are conflicts, you can abort the rebase operation and then merge your work instead (as described above):
 
-``` code
-hg rebase --abort
-```
+    hg rebase --abort
 
 Resolving rebase conflicts is beyond the scope of this document. Rebasing is not currently considered mandatory for our repositories, but it is good form.
 
@@ -583,9 +507,7 @@ You may find it useful to compare the state of your local repository to the cent
 
 You can list the set of changesets that you have made, which have not been sent to the central repository, by the following:
 
-``` code
-hg outgoing
-```
+    hg outgoing
 
 This lists all changesets that would be sent to the central repostitory if you `hg push`. If it doesn't list any, then you have no local changesets and won't need to `hg merge` when you pull.
 
@@ -597,9 +519,7 @@ This command can be abbreviated as `hg out`.
 
 You can list the set of changesets that other people have made to the central repository, which you do not already have locally, by the following:
 
-``` code
-hg incoming
-```
+    hg incoming
 
 This lists all changesets that would be received from the central repositor if you `hg pull`. If it's empty, there are no new changesets to pull from the repository or merge with your local changes.
 
@@ -632,15 +552,13 @@ In particular, `hg strip` is useful for dropping the most recent changeset.
 
 If you are used to using Subversion or CVS, the following commands are roughly equivalent:
 
-``` code
-cvs update  == svn update  ==  hg pull --rebase
-cvs commit  == svn commit  ==  hg commit . ; hg push
-cvs stat    == svn status  ==  hg status .
-cvs diff -u == svn diff    ==  hg diff .
-cvs add     == svn add     ==  hg add
-               svn move    ==  hg move
-cvs remove  == svn remove  ==  hg remove
-```
+    cvs update  == svn update  ==  hg pull --rebase
+    cvs commit  == svn commit  ==  hg commit . ; hg push
+    cvs stat    == svn status  ==  hg status .
+    cvs diff -u == svn diff    ==  hg diff .
+    cvs add     == svn add     ==  hg add
+                   svn move    ==  hg move
+    cvs remove  == svn remove  ==  hg remove
 
 ⚠️ Note that unlike CVS or Subversion, most Mercurial commands operate on the entire repository by default, not just the directory you're in.
 
@@ -658,15 +576,11 @@ There are many more in-depth guides to Mercurial available on the web, here are 
 
 Also Mercurial itself has pretty good documentation. Use
 
-``` code
-hg help
-```
+    hg help
 
 for a list of commands and
 
-``` code
-hg help command
-```
+    hg help command
 
 for documentation on a particular command.
 

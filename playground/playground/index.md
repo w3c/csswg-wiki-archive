@@ -7,16 +7,12 @@ title: "PlayGround"
 paragraph
 
 > [!NOTE]
-> ``` code
 > Example
-> ```
 >
 > - list item
 >
 > >
-> ``` code
 > Tip
-> ```
 
 term
 : definition

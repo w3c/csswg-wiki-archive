@@ -63,53 +63,51 @@ A major design principle is to integrate with Subversion so that changes in SVN 
 
 ### Database Tables
 
-``` code
-test suite
-  suite short name
-  suite full name
-  url prefix
+    test suite
+      suite short name
+      suite full name
+      url prefix
 
-tests
-  id    #
-  testID    (filename without extension) - should be unique (error if not)
-  path in svn 
-  metadata  (from test file)
-    author(s)        name + url
-    help link(s)     url to spec
-    title            string (unique)
-    assertion        string (unique)
-    flags            tokens
-  status           - add "invalid (wrong)"
-  checked-in       binary flag
-  current revision?
-  owner (username) initial value is from initial checkin
+    tests
+      id    #
+      testID    (filename without extension) - should be unique (error if not)
+      path in svn 
+      metadata  (from test file)
+        author(s)        name + url
+        help link(s)     url to spec
+        title            string (unique)
+        assertion        string (unique)
+        flags            tokens
+      status           - add "invalid (wrong)"
+      checked-in       binary flag
+      current revision?
+      owner (username) initial value is from initial checkin
 
-comments
-  id    (of test)
-  date
-  comment
-  commenter (username)
-  validation script result  (enum)
-  revision at time of comment
-  status change
-  commenter name (if anon user)
+    comments
+      id    (of test)
+      date
+      comment
+      commenter (username)
+      validation script result  (enum)
+      revision at time of comment
+      status change
+      commenter name (if anon user)
 
-svn status      (tracking what happened in svn)
-  id    
-  committer svn username
-  rev
-  date
-  comment
-  commit type   (update, copy, delete)
+    svn status      (tracking what happened in svn)
+      id    
+      committer svn username
+      rev
+      date
+      comment
+      commit type   (update, copy, delete)
 
-  - need to track svn renames
+      - need to track svn renames
 
-user    (drupal)
-  username
-  email
-  realname
-  role  (svn access)
-```
+    user    (drupal)
+      username
+      email
+      realname
+      role  (svn access)
 
 ### UI Pages
 

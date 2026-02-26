@@ -21,7 +21,7 @@ Theme is usually parametrized by set of colors,images,border widths, etc.
 
 Example:
 
-``` code
+```css
 @const THEME_DARK_COLOR: #FAA
  
 #sidebar
@@ -37,7 +37,7 @@ Example:
 
 Another example is style sheet of this wiki installation. For example it has following declaration:
 
-``` code
+```css
 #config__manager fieldset {
   margin: 1em;
   width: auto;
@@ -58,7 +58,7 @@ Author: Andrew Fedoniouk. Implementation below is used in h-smile core engine. (
 
 ### Declaration of the const.
 
-``` code
+```css
 @const name: value(s);
 ```
 
@@ -69,7 +69,7 @@ Where:
 
 Example:
 
-``` code
+```css
 @const  THEME-BORDER-WIDTH:  1px 1px 1px 1px;
 @const  THEME-BACKGROUND-COLOR:  orange;
 @const  THEME-DEFAULT-FONT:  12pt arial, helvetica, sans-serif;
@@ -79,7 +79,7 @@ Example:
 
 const insertion point may appear in attribute value production and is marked by '@' symbol immediately followed by the name of the constant:
 
-``` code
+```css
 #something {
    border-width: @THEME-BORDER-WIDTH;
    left-border: @THEME-BORDER-WIDTH solid black;
@@ -97,7 +97,7 @@ const insertion point may appear in attribute value production and is marked by 
 
 non-existent constants produce empty insertion. So
 
-``` code
+```css
 #something {
    left-border: @DOES_NOT_EXIST solid black;
 }
@@ -105,7 +105,7 @@ non-existent constants produce empty insertion. So
 
 will be transformed to
 
-``` code
+```css
 #something {
    left-border: solid black;
 }

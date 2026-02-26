@@ -16,15 +16,11 @@ See <https://github.com/tabatkins/bikeshed#bikeshed-a-spec-preprocessor> for mor
 
 You'll most likely be editing a file called:
 
-``` code
-Overview.bs
-```
+    Overview.bs
 
 that you'll need to turn into (and update in place when it's already there)
 
-``` code
-Overview.html
-```
+    Overview.html
 
 by running Bikeshed **before** committing your work.
 
@@ -34,9 +30,7 @@ by running Bikeshed **before** committing your work.
 
 Bikeshed is best installed with [Pipx](https://speced.github.io/bikeshed/#install-pipx); Linux distributions with
 
-``` code
-apt
-```
+    apt
 
 can install it from there, and the Pipx install page has instructions for other OSes.
 
@@ -44,9 +38,7 @@ After that, follow [the install instructions in the docs](https://speced.github.
 
 Once it's installed, just go to the spec's source folder and type:
 
-``` code
-$ bikeshed
-```
+    $ bikeshed
 
 Further instructions and tips can be found in the [Bikeshed docs](https://speced.github.io/bikeshed/).
 
@@ -54,9 +46,7 @@ Further instructions and tips can be found in the [Bikeshed docs](https://speced
 
 If you're on a system with [curl](http://curl.haxx.se/) on it, just save the following line to a file somewhere in your executable path:
 
-``` code
-curl https://api.csswg.org/bikeshed/ -F file=@Overview.bs -F force=1 > Overview.html
-```
+    curl https://api.csswg.org/bikeshed/ -F file=@Overview.bs -F force=1 > Overview.html
 
 Mark the file as executable, then just run it from within the folder of the spec you're working on. It will automatically submit `Overview.bs` to the post-processor and save the results to `Overview.html`.
 
@@ -73,9 +63,7 @@ Mark the file as executable, then just run it from within the folder of the spec
 
 If you get an error:
 
-``` code
-Error running preprocessor, returned code: 1.
-[1;31mFATAL ERROR:[0m The document requires at least one metadata block.
-```
+    Error running preprocessor, returned code: 1.
+    [1;31mFATAL ERROR:[0m The document requires at least one metadata block.
 
 See <https://web.archive.org/web/20160402124506/https://github.com/tabatkins/bikeshed/blob/master/docs/metadata.md> for how to create a metadata block for your spec.

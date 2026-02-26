@@ -8,19 +8,15 @@ title: "FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Title/Summary of Discussion 
 
 #### Background
 
-``` code
- p {
-   text-align: justify;
-   text-align-last: justify;
- }
-```
+     p {
+       text-align: justify;
+       text-align-last: justify;
+     }
 
-``` code
- p.special {
-   text-align: center;
-   /* last line will be justified!? */
- }
-```
+     p.special {
+       text-align: center;
+       /* last line will be justified!? */
+     }
 
 Having the two properties be independent creates this cascading problem.
 

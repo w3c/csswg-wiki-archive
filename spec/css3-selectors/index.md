@@ -32,12 +32,10 @@ Need to clarify whether the 'xml' prefix is pre-declared.
 
 \<bz\> ideally, how would we \_specify\_ first-line?
 
-``` code
-  p::first-line { color: green; float: left }
-  p { float: none }
-  span { float: inherit }
-  <p><span>Text</span></p>
-```
+      p::first-line { color: green; float: left }
+      p { float: none }
+      span { float: inherit }
+      <p><span>Text</span></p>
 
 \<bz\> What's the rendering?\
 \<elif\> bz: you're not allowed to specify float on first-line\

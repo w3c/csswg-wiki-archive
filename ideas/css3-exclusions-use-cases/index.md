@@ -18,7 +18,7 @@ One exclusion over two columns of content.
 
 ### CSS Exclusions and Shapes
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -66,7 +66,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 
 ### CSS Exclusions and Shapes
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -121,7 +121,7 @@ Repeating exclusion shape on x, y or both axes.
 
 \<html\>\<span style=“color:red”\>No support for repeating exclusion shapes. Solution:TBD\</span\>\</html\>
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -165,7 +165,7 @@ Image to determine the disjoint shapes by alpha channel transparency.
 
 Multiple solutions possible with single image, multiple positioned images or SVG shapes.
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -230,7 +230,7 @@ Reuse an exclusion shape on different elements
 
 \* low reusability: requires duplication of markup
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css">
@@ -304,7 +304,7 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 
 (!) Content inside the shape will have transformations applied, as well
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css">
@@ -379,7 +379,7 @@ Custom-shaped container with margin for outer content and padding for inner cont
 
 ### CSS Exclusions and Shapes
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -421,7 +421,7 @@ Custom-shaped container with a background image / background color.
 
 ### CSS Exclusions and Shapes
 
-``` code
+```html
 <html>
 <head>
         <circle id="myCircle" cx="50%" cy="50%" width="50%" height="50%" />
@@ -453,7 +453,7 @@ One exclusion along a text.
 
 ### CSS Exclusions and Shapes
 
-``` code
+```html
 <style>
     /* with SVG shape */
      #dropMany{      

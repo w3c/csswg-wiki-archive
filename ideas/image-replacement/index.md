@@ -8,7 +8,7 @@ Image replacement techniques are used on many websites today to replace text, su
 
 The CSSWG has resolved to allow the `content` property on all elements in CSS3. This property can take a \<uri\>, creating a replaced element. In CSS3, `content` takes a comma-separated list, so that fallbacks can be specified. Here's an example:
 
-``` code
+```css
   /* Use image, failing that use element's content. */
   H1 { content: url(sparkly_heading_text.png), contents }
 ```
@@ -28,15 +28,13 @@ At the May 2006 face-to-face meeting, the CSSWG [accepted a proposal](http://lis
 
 The consensus on syntax was:
 
-``` code
- Syntax:
-    require-font
-    require-font(<string>)
-    require-font(<family-name>)
- Edge cases to cover:
-    require-font()
-    require-font(generic-name) (e.g. require-font(serif))
-```
+     Syntax:
+        require-font
+        require-font(<string>)
+        require-font(<family-name>)
+     Edge cases to cover:
+        require-font()
+        require-font(generic-name) (e.g. require-font(serif))
 
 The `require-font` keyword would automatically take the first font in font-family as its implied argument. This is not merely syntactic sugar for the author, but also causes a user's font override, if any, to become the required font: in typical usage, this would disable the image replacement fallback and display the contents in the user's selected font.
 
@@ -56,13 +54,13 @@ Would require-font(Arial, Verdana) require both, require at least one, or be syn
 
 A basic example from Ian, demonstrating a range of fallback possibilities.
 
-``` code
+```html
 <h1>Hello World</h1>
 ```
 
 …with one of:
 
-``` code
+```css
 h1 { content: "Hello"; }
 h1 { content: url(images/hello.png), "Hello"; }
 h1 { content: url(images/hello.png); }
@@ -80,11 +78,11 @@ h1 { font-family: Zapfino, Wingdings, Arial;
 
 Another example from Bert, demonstrating the advantage of separating the method of specifying a font (`font-family`) from requiring it (`require-font` on `content`):
 
-``` code
+```html
 <h1>This is <span>huge!</span></h1>
 ```
 
-``` code
+```css
 h1 span { font-family: biggy }
 h1      { font-family: Times New Roman }
 h1      { content: require-font(biggy) contents, url(replacement.png) }
@@ -92,7 +90,7 @@ h1      { content: require-font(biggy) contents, url(replacement.png) }
 
 The `contents` keyword is implied and the last line can therefore be written:
 
-``` code
+```css
 h1      { content: require-font(biggy), url(replacement.png) }
 ```
 

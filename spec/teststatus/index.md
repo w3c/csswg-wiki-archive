@@ -26,12 +26,10 @@ Currently tests are mapped to the most relevant section of the specification. Th
 
 The first step is to ensure that all section headings within the specification have unique identifiers set to their 'id' attribute. It is good practice to use the same name on the id as for the title of the section. Example:
 
-``` code
-<h2 id="transform-origin-property">
- The 'transform-origin' Property
-</h2>
-<p>...
-```
+    <h2 id="transform-origin-property">
+     The 'transform-origin' Property
+    </h2>
+    <p>...
 
 Second, all testable assertions within the specification should also have a unique 'id' attribute on their smallest containing element. The paragraph or even sentence level is generally suitable. Non-testable areas of the specification must have one of the following class attributes: 'example', 'note', 'doc', 'no-toc', 'informative'.
 
@@ -49,9 +47,7 @@ Once a sufficient number of tests have been submitted, [email Peter](mailto:mail
 
 Once the test suite is created, the testing status information can be embedded into the specification. This is done by adding the following script to the header of the specification:
 
-``` code
-<script src='http://test.csswg.org/harness/annotate.js#<test-suite>' type='text/javascript' defer></script>
-```
+    <script src='http://test.csswg.org/harness/annotate.js#<test-suite>' type='text/javascript' defer></script>
 
 Note that '\<test-suite\>' must be replaced by the identifier used by the testing harness for the test suite. This can be found in the URL of the testing pages within the test harness. This is e.g 'CSS3-TRANSFORMS_DEV' for CSS3 Transforms.
 

@@ -63,7 +63,7 @@ A test can be both a [self-describing tests](../../test/selftest/ "test:selftest
 
 Like the format for the test file, the reftest reference format is also XHTML or HTML5 in UTF-8 with bitmap images in PNG format. Unlike the format for the test file, there is no metadata except for the [author credits](../../test/format/#credits "test:format") and optionally [reference links](../../test/format/#reference-links "test:format"), [reviewer information](../../test/format/#reviewer "test:format"), and [requirement flags](../../test/format/#requirement-flags "test:format"). [Specification links](../../test/format/#specification-links "test:format") must NOT be present in reference files.
 
-``` code
+```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
@@ -108,12 +108,10 @@ The reftest manifest should be named `reftest.list` and placed in the `reference
 
 Here is an example of a reftest manifest.
 
-``` code
-# reftest.list snippet
-== ../test-topic-000.xht test-topic-000-ref.xht
-== ../test-topic-001.xht test-topic-001-ref.xht
-== ../test-topic-002.xht test-topic-000-ref.xht # note same reference as test 000
-```
+    # reftest.list snippet
+    == ../test-topic-000.xht test-topic-000-ref.xht
+    == ../test-topic-001.xht test-topic-001-ref.xht
+    == ../test-topic-002.xht test-topic-000-ref.xht # note same reference as test 000
 
 [Mozilla's manifest format](http://mxr.mozilla.org/mozilla-central/source/layout/tools/reftest/README.txt), which is more-or-less a superset of the W3C format, allows annotations such as whether the test is expected to pass or fail. These can be useful when setting up automated regression testing.
 

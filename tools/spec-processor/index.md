@@ -10,15 +10,11 @@ title: "CSSWG and other post processing"
 
 For the CSSWG and other groups, you'll likely be editing a file called:
 
-``` code
- Overview.src.html
-```
+     Overview.src.html
 
 that you'll need to turn into (and update in place when it's already there)
 
-``` code
- Overview.html
-```
+     Overview.html
 
 BEFORE committing your work.
 
@@ -34,9 +30,7 @@ BEFORE committing your work.
 
 If you're on a system with [curl](http://curl.haxx.se/) on it, just save the following line to a file somewhere in your executable path:
 
-``` code
-curl -u USERNAME:PASSWORD -F file=@Overview.src.html -F group=CSS -F output=html -F method=file https://www.w3.org/Style/Group/process.cgi -o Overview.html
-```
+    curl -u USERNAME:PASSWORD -F file=@Overview.src.html -F group=CSS -F output=html -F method=file https://www.w3.org/Style/Group/process.cgi -o Overview.html
 
 (Replace the USERNAME:PASSWORD with your W3C username and password, the same that you would enter when visiting the web form linked above.)
 
@@ -44,9 +38,7 @@ Mark the file as executable, then just run it from within the folder of the spec
 
 If you use the [Keyring extension for Mercurial](http://mercurial.selenic.com/wiki/KeyringExtension) you can use this script instead, to avoid storing the password in the script:
 
-``` code
-W3C_USER='your username'
-curl -u $W3C_USER:$(python -c "import keyring;print(keyring.get_password('Mercurial', '$W3C_USER@@https://dvcs.w3.org/hg/'))") -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html
-```
+    W3C_USER='your username'
+    curl -u $W3C_USER:$(python -c "import keyring;print(keyring.get_password('Mercurial', '$W3C_USER@@https://dvcs.w3.org/hg/'))") -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html
 
 (Before using this script you need to push at least once so that the password is in the keyring.)

@@ -12,18 +12,16 @@ This is to allow opting in into justification (or other forms of layout, such as
 
 By the end of the thread, the proposal is something like this:
 
-``` code
-p {
-  text-align: left;
-}
-p:supports-hyphenation {
-  hypens: auto;
-  text-align: justify;
-}
-p:not(:supports-hyphenation):nice-justification {
-  text-align: justify;
-}
-```
+    p {
+      text-align: left;
+    }
+    p:supports-hyphenation {
+      hypens: auto;
+      text-align: justify;
+    }
+    p:not(:supports-hyphenation):nice-justification {
+      text-align: justify;
+    }
 
 The second one would match on elements where the declared language is one the browser can hyphenate, and the third one would match on elements where the declared language is not one the browser can hyphenate but is one where the browser knows how to justify nicely. For example arabic if the browser supports kashida, or Japanese where nothing in particular is needed.
 

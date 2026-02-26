@@ -60,7 +60,7 @@ When using any characters beyond the ASCII set, in any encoding, the character e
 
 A template for new tests follows. Copy and paste the code below into a new file or save [this template file](/_media/test/css2.1/test-topic-000.xht) and replace the bracketed parts as described below.
 
-``` code
+```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
@@ -82,7 +82,7 @@ A template for new tests follows. Copy and paste the code below into a new file 
 
 Alternatively, you can use this HTML5 template:
 
-``` code
+```html
 <!DOCTYPE html>
 <title>CSS Test: [Title/Scope of Test]</title>
 <link rel="author" title="[Name of Author]" href="[mailto: or http: contact address]">
@@ -102,7 +102,7 @@ Alternatively, you can use this HTML5 template:
 
 ### Title element
 
-``` code
+```html
 <title>CSS Test: SCOPE OF TEST</title>
 ```
 
@@ -111,7 +111,7 @@ The title appears in the generated index, so make sure it is *concise*, *unique*
 > [!NOTE]
 > Bad example:
 >
-> ``` code
+> ``` html
 > <title>CSS Test: Border Conflict Resolution</title>
 > ```
 >
@@ -119,7 +119,7 @@ The title appears in the generated index, so make sure it is *concise*, *unique*
 >
 > Good example:
 >
-> ``` code
+> ``` html
 > <title>CSS Test: Border Conflict Resolution (width) - hidden/double</title>
 > ```
 >
@@ -127,7 +127,7 @@ The title appears in the generated index, so make sure it is *concise*, *unique*
 >
 > ### Credits
 >
-> ``` code
+> ``` html
 > <link rel="author" title="NAME_OF_AUTHOR" href="mailto:EMAIL OR http://CONTACT_PAGE" />
 > ```
 >
@@ -136,25 +136,25 @@ The title appears in the generated index, so make sure it is *concise*, *unique*
 > >
 > Example 1:
 >
-> ``` code
+> ``` html
 > <link rel="author" title="Boris Zbarsky" href="mailto:bzbarsky@mit.edu" />
 > ```
 >
 > Example 2:
 >
-> ``` code
+> ``` html
 > <link rel="author" title="Bert Bos" href="http://www.w3.org/People/Bos/" />
 > ```
 >
 > Example 3:
 >
-> ``` code
+> ``` html
 > <link rel="author" title="Microsoft" href="http://microsoft.com/" />
 > ```
 
 ### Reviewer
 
-``` code
+```html
 <link rel="reviewer" title="NAME_OF_REVIEWER" href="mailto:EMAIL OR http://CONTACT_PAGE" /> <!-- YYYY-MM-DD -->
 ```
 
@@ -163,13 +163,13 @@ If a test has passed review, then the reviewer should note this by adding his or
 > [!NOTE]
 > Example 1:
 >
-> ``` code
+> ``` html
 > <link rel="reviewer" title="Boris Zbarsky" href="mailto:bzbarsky@mit.edu" /> <!-- 2008-02-19 -->
 > ```
 >
 > Example 2:
 >
-> ``` code
+> ``` html
 > <link rel="reviewer" title="Bert Bos" href="http://www.w3.org/People/Bos/" /> <!-- 2005-05-03 -->
 > ```
 >
@@ -178,7 +178,7 @@ If a test has passed review, then the reviewer should note this by adding his or
 > >
 > Example of a fully-reviewed test:
 >
-> ``` code
+> ``` html
 > <link rel="author" title="Bert Bos" href="http://www.w3.org/People/Bos/" />
 > <link rel="reviewer author" title="Boris Zbarsky" href="mailto:bzbarsky@mit.edu" /> <!-- 2008-02-19 -->
 > <link rel="reviewer" title="Bert Bos" href="http://www.w3.org/People/Bos/" /> <!-- 2008-04-22 -->
@@ -188,7 +188,7 @@ If a test has passed review, then the reviewer should note this by adding his or
 
 ### Specification Links
 
-``` code
+```html
 <link rel="help" href="RELEVANT_SPEC_SECTION" />
 ```
 
@@ -205,13 +205,13 @@ The specification link elements provide a way to align the test with information
 > [!NOTE]
 > Example 1:
 >
-> ``` code
+> ``` html
 > <link rel="help" href="http://www.w3.org/TR/CSS21/text.html#alignment-prop" />
 > ```
 >
 > Example 2:
 >
-> ``` code
+> ``` html
 > <link rel="help" href="http://www.w3.org/TR/CSS21/text.html#alignment-prop" />
 > <link rel="help" href="http://www.w3.org/TR/CSS21/visudet.html#q7" />
 > <link rel="help" href="http://www.w3.org/TR/CSS21/visudet.html#line-height" />
@@ -220,7 +220,7 @@ The specification link elements provide a way to align the test with information
 
 ### Reference Links
 
-``` code
+```html
 <link rel="match" href="RELATIVE_PATH_TO_REFERENCE_FILE" />
 <link rel="mismatch" href="RELATIVE_PATH_TO_REFERENCE_FILE" />
 ```
@@ -237,13 +237,13 @@ The reference link elements are used in [reftests](../../test/reftest/ "test:ref
 > [!NOTE]
 > Example 1:
 >
-> ``` code
+> ``` html
 > <link rel="match" href="green-box-ref.xht" />
 > ```
 >
 > Example 2:
 >
-> ``` code
+> ``` html
 > <link rel="match" href="green-box-ref.xht" />
 > <link rel="match" href="blue-box-ref.xht" />
 > <link rel="mismatch" href="red-box-notref.xht" />
@@ -252,7 +252,7 @@ The reference link elements are used in [reftests](../../test/reftest/ "test:ref
 
 ### Requirement Flags
 
-``` code
+```html
 <meta name="flags" content="TOKENS" />
 ```
 
@@ -289,25 +289,25 @@ All flags documented elsewhere are deprecated except the following:
 > [!NOTE]
 > Example 1 (one token applies):
 >
-> ``` code
+> ``` html
 > <meta name="flags" content="invalid" />
 > ```
 >
 > Example 2 (multiple tokens apply):
 >
-> ``` code
+> ``` html
 > <meta name="flags" content="ahem image scroll" />
 > ```
 >
 > Example 3 (no tokens apply):
 >
-> ``` code
+> ``` html
 > <meta name="flags" content="" />
 > ```
 
 ### Test Assertions
 
-``` code
+```html
 <meta name="assert" content="TEST ASSERTION" />
 ```
 
@@ -332,7 +332,7 @@ The test assertion is **optional**. It helps the reviewer understand the goal of
 
 ### Style Element (embedded styles)
 
-``` code
+```html
 <style type="text/css"><![CDATA[
    CSS FOR TEST
   ]]></style>
@@ -342,7 +342,7 @@ When creating styles primarily use type, ID or Class selectors. Inline styles sh
 
 ### Script type (embedded script)
 
-``` code
+```html
 <script type="text/javascript"><![CDATA[
    ... Javascript code here ...
   ]]></script>
@@ -354,7 +354,7 @@ Although type=“application/javascript” and type=“application/ecmascript”
 
 ### ''body'' Content
 
-``` code
+```html
  <body>
    <p>Test passes if [description of pass condition].</p>
    [Content of test]
@@ -433,7 +433,7 @@ Some test may require special user style sheets to be applied in order for the c
 
 In order for proper indications and prerequisite to be displayed every user style sheet should contain the following rules.
 
-``` code
+```css
 #user-stylesheet-indication
 {
     /* Used by the harness to display and indication there is a user style sheet applied */
@@ -447,7 +447,7 @@ A harness should identify test that need a user style sheet by looking at their 
 
 Harness style sheet rules:
 
-``` code
+```css
 #userstyle
 {
     color: green;
@@ -462,13 +462,13 @@ Harness style sheet rules:
 
 Harness `userstyle` flag found:
 
-``` code
+```html
 <p id="user-stylesheet-indication" class="userstyle">A user style sheet is applied.</p>
 ```
 
 Harness `userstyle` flag NOT found:
 
-``` code
+```html
 <p id="user-stylesheet-indication" class="nouserstyle">A user style sheet is applied.</p>
 ```
 
@@ -476,7 +476,7 @@ Within the test case it is recommended that the case itself indicate the necessa
 
 Examples: (code for the cascade.css file)
 
-``` code
+```css
 #cascade /* ID name should match user style sheet file name */
 {
     /* Used by the test to hide the prerequisite */
@@ -488,7 +488,7 @@ The rule `#cascade` in the example above is used by the test page to hid the pre
 
 Examples: (code for the cascade-### XHTML files)
 
-``` code
+```html
 <p id="cascade">PREREQUISITE: The ["cascade.css"](support/cascade.css) file is enabled as the user agent's user style sheet.</p>
 ```
 
@@ -500,10 +500,8 @@ Please flag test that require user style sheets with the `userstyle` flag so peo
 
 Some tests may require special HTTP headers. These should be configured in a `.htaccess` file located in the same directory as the relevant file. An example configuration is shown below. Note that multiple file extensions are supported in the configuration so that exported formats are all handled correctly. The build scripts will concatenate all `.htaccess` files in the test sources' parent directories and support directories.
 
-``` code
-<Files ~ "^lang-selector-005\.(xht|xhtml|xml|html|htm)$">
-AddLanguage fr .xht .xhtml .xml .html .htm
-</Files>
-```
+    <Files ~ "^lang-selector-005\.(xht|xhtml|xml|html|htm)$">
+    AddLanguage fr .xht .xhtml .xml .html .htm
+    </Files>
 
 Please flag tests that require HTTP interaction with the `http` flag so people running the tests locally know their results will not be valid.

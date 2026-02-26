@@ -10,7 +10,7 @@ title: "Use Cases from Print Layouts for Exclusions and Shapes"
 
 Here there's a circle shape affecting the flow of two columns. This could be done as a float with a shape (with the addition of a float-offset property), as an absolutely positioned exclusion, or with grid positioning placing an exclusion over a multicol element or pair of regions. You can see a markup example of a reconstruction of that use case [here](http://disruptive-innovations.com/zoo/customers/Adobe/FFMC.html). Below is a screenshot of that reconstruction in a browser and the second code block is the CSS code used to create the exclusion. The first code block uses a much simpler mechanism from GCPM.
 
-``` code
+```css
 #exclusion {
   float: top right;
   float-offset: -50% 50%;
@@ -18,7 +18,7 @@ Here there's a circle shape affecting the flow of two columns. This could be don
 }
 ```
 
-``` code
+```css
 #lipsum {
   position: relative;
 }
@@ -51,7 +51,7 @@ You can see a markup example of a reconstruction of that use case [here](http://
 
 These pull quotes are from separate flows - the top from the left-side English translation and the bottom from the right-side French translation. While there might be some combination of new float positioning properties that could achieve this effect, two absolutely positioned exclusions is likely to be the simpler design to execute. Given an appropriate containing block for the flows, the pull-quotes as exclusions could be positioned like this:
 
-``` code
+```css
 .top-pull {
   position:absolute;
   right: 45%;

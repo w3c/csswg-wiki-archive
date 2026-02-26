@@ -184,12 +184,10 @@ Exclusions
 
 ; Fill Stroke 3
 
-``` code
-: [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
-: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Add -webkit-background-clip-text to the spec stating that authors must not use it but browsers may support it. (Deprecated appendix.)]]
-: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Figure out dashing origin for text or make text undashable.]]
-: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Mark stroke-align at-risk and note issues.]]
-```
+    : [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
+    : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Add -webkit-background-clip-text to the spec stating that authors must not use it but browsers may support it. (Deprecated appendix.)]]
+    : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Figure out dashing origin for text or make text undashable.]]
+    : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Mark stroke-align at-risk and note issues.]]
 
 Filters
 : Tav presented a new filter primitive he'd like added to level 2; dino agreed it was interesting and will look into adding it to the spec.

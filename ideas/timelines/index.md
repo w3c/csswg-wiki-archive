@@ -26,11 +26,9 @@ Scroll-linked animations use a timeline based on scroll position, rather than on
 
 These are animations whose timeline goes from 0% to 100% based on the scroll position of an ancestor scroll container. Proposal is to use an inline functional notation to identify the timeline using the `animation-timeline` property.
 
-``` code
-animation-timeline: auto | scroll(DIRECTION? SCROLLERNAME?);
-DIRECTION = block | inline | vertical | horizontal
-SCROLLERNAME = root | nearest | IDENT
-```
+    animation-timeline: auto | scroll(DIRECTION? SCROLLERNAME?);
+    DIRECTION = block | inline | vertical | horizontal
+    SCROLLERNAME = root | nearest | IDENT
 
 **nearest** (the default) references the nearest ancestor scroll container; **root** references the main viewport scroller. IDENT references the `container-name` property: it filters the lookup to the nearest scroll container with the given `container-name`. The default direction is `block`.
 
@@ -38,11 +36,9 @@ SCROLLERNAME = root | nearest | IDENT
 
 Alternately, some `scroll-timeline` properties could be defined, which when used on a scroll container would allow naming its timeline for a more indirect but reusable approach.
 
-``` code
-scroll-timeline-name: IDENT#;
-scroll-timeline-direction: DIRECTION#;
-scroll-timeline: [DIRECTION? IDENT]#;
-```
+    scroll-timeline-name: IDENT#;
+    scroll-timeline-direction: DIRECTION#;
+    scroll-timeline: [DIRECTION? IDENT]#;
 
 ### Animations linked to view progress as timeline
 
@@ -68,27 +64,23 @@ Query-linked interpolation uses a set of keyframes (minimally, two) to interpola
 
 The `@timeline` rule defines a named timeline. It can be expanded later to define other types of timelines, but here we're defining only two types: media query timelines and container query timelines.
 
-``` code
-@timeline NAME {
-  type: media | container;
-  feature: <media-feature-name> | <container-feature-name>;
-  from: <value>; /* 0% of the timeline */
-  to: <value>; /* 100% of the timeline */
-  container: <'container'>; /* only applies to container query timelines,
-                               same seeking function as container queries */
-}
-```
+    @timeline NAME {
+      type: media | container;
+      feature: <media-feature-name> | <container-feature-name>;
+      from: <value>; /* 0% of the timeline */
+      to: <value>; /* 100% of the timeline */
+      container: <'container'>; /* only applies to container query timelines,
+                                   same seeking function as container queries */
+    }
 
 A typical example might look like:
 
-``` code
-@timeline font-size-timeline {
-  type: media;
-  feature: width;
-  from: 20em;
-  to: 60em;
-}
-```
+    @timeline font-size-timeline {
+      type: media;
+      feature: width;
+      from: 20em;
+      to: 60em;
+    }
 
 Query-linked timelines are allowed by naming them in `animation-timeline`, but it's not recommended to use this method in most cases because it would cause cascading problems—where anyone using query-based interpolation via animation properties would override all affected properties at levels of the cascade. They can instead be referenced by an interpolation function within the affected property declarations, which allows the interpolated value to cascade the same as any other declared value.
 
@@ -100,15 +92,11 @@ Value interpolation uses a percentage value to indicate how close or far from th
 
 \[See [Native interpolation function in CSS](https://github.com/w3c/csswg-drafts/issues/581) issue.\]
 
-``` code
-  mix( [ PERCENT && [ by EASING ]? ] ; STARTVALUE ; ENDVALUE)
-```
+      mix( [ PERCENT && [ by EASING ]? ] ; STARTVALUE ; ENDVALUE)
 
 PERCENT represents the percent of progress between STARTVALUE and ENDVALUE, and EASE is used to calculate the mix ratio represented by that amount of progress. The default easing function is linear.
 
-``` code
-  opacity: mix( 70% by ease ; 0% ; 100% )
-```
+      opacity: mix( 70% by ease ; 0% ; 100% )
 
 Note: The generic `mix()` function needs to use semicolons instead of commas, because commas can be part of the value space of various properties. (Since one key use case for the generic interpolation function is used to represent intermediate states in the OM, it has to be able to represent the interpolation of any two values on any two properties.)
 
@@ -116,9 +104,7 @@ Note: The generic `mix()` function needs to use semicolons instead of commas, be
 
 \[See [Interpolate values between breakpoints](https://github.com/w3c/csswg-drafts/issues/6245) issue.\]
 
-``` code
-  mix( [ TIMELINE && [ by EASE ]? ] ; STARTVALUE ; ENDVALUE)
-```
+      mix( [ TIMELINE && [ by EASE ]? ] ; STARTVALUE ; ENDVALUE)
 
 By naming a timeline instead of giving a percentage directly, the author can use progress along a timeline as the progress percentage. Any value valid for `animation-timeline` or any timeline name defined via `@timeline` is valid, which allows the mix() to respond to query-linked timelines and scroll-linked timelines.
 
@@ -126,9 +112,7 @@ By naming a timeline instead of giving a percentage directly, the author can use
 
 For more complex interpolation curves, the STARTVALUE and ENDVALUE can be replaced by a reference to a named set of keyframes.
 
-``` code
-  mix( [ TIMELINE && [ by EASE ]? && of KEYFRAMES ] )
-```
+      mix( [ TIMELINE && [ by EASE ]? && of KEYFRAMES ] )
 
 Note: Using keyword markers (as in gradients) allows the arguments to be reordered, so that authors don't have to memorize positions of arguments.
 

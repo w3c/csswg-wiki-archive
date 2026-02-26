@@ -4,7 +4,7 @@ title: "ideas:color-object"
 
 This has been superseded by work on a common color API for the Web Platform and by work on Typed OM for manipulating CSS syntax specifically.
 
-``` code
+```idl
   [Constructor(double r, double g, double b, optional double a=1),
    Constructor(RGBAColorInit color)]
   interface RGBAColor {
@@ -32,7 +32,7 @@ The `toString()` method looks up the type in the `RGBAColor.serializationTypes M
 
 Authors can define their own color formats by adding a `fromFoo()` to `RGBAColor`, a `toFoo()` to `RGBAColor.prototype`, and adding an appropriate serialization tag to `RGBAColor.serializationTypes`.
 
-``` code
+```idl
   dictionary RGBAColorInit {
     double r = 0;
     double g = 0;

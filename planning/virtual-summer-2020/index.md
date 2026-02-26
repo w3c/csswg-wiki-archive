@@ -16,53 +16,45 @@ We will work in 45-minute shifts, with a 15-minute break, a 30-minute break, the
 
 July 27 (28)
 
-``` code
- 10pm -  2am Paris
-  9pm -  1am London
-  4pm -  8pm New York
-  1pm -  5pm San Francisco
-  5am -  9am Tokyo
-  6am - 10am Melbourne
-```
+     10pm -  2am Paris
+      9pm -  1am London
+      4pm -  8pm New York
+      1pm -  5pm San Francisco
+      5am -  9am Tokyo
+      6am - 10am Melbourne
 
 <https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200728T20>
 
 July 28 (29)
 
-``` code
- 10pm -  2am Paris
-  9pm -  1am London
-  4pm -  8pm New York
-  1pm -  5pm San Francisco
-  5am -  9am Tokyo
-  6am - 10am Melbourne
-```
+     10pm -  2am Paris
+      9pm -  1am London
+      4pm -  8pm New York
+      1pm -  5pm San Francisco
+      5am -  9am Tokyo
+      6am - 10am Melbourne
 
 <https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200730T14>
 
 July 30 (31)
 
-``` code
-  4pm -  8pm Paris
-  3pm -  7pm London
- 10am -  2pm New York
-  7am - 11am San Francisco
- 11pm -  3am Tokyo
- 12am -  4am Melbourne
-```
+      4pm -  8pm Paris
+      3pm -  7pm London
+     10am -  2pm New York
+      7am - 11am San Francisco
+     11pm -  3am Tokyo
+     12am -  4am Melbourne
 
 <https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200731T14>
 
 July 31 (Aug 1)
 
-``` code
-  4pm -  8pm Paris
-  3pm -  7pm London
- 10am -  2pm New York
-  7am - 11am San Francisco
- 11pm -  3am Tokyo
- 12am -  4am Melbourne
-```
+      4pm -  8pm Paris
+      3pm -  7pm London
+     10am -  2pm New York
+      7am - 11am San Francisco
+     11pm -  3am Tokyo
+     12am -  4am Melbourne
 
 ## Venue tech
 
