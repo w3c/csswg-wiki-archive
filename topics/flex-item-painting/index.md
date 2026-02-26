@@ -10,7 +10,7 @@ title: "Flex Item Painting Rules"
 
 See [CSS2.1 Appendix E](http://www.w3.org/TR/CSS21/zindex.html)
 
-\[Image not available\]
+![](../../assets/images/topics/appendixe.jpg)
 
 #### Problem Statement
 

@@ -122,7 +122,7 @@ You can also use an image to link to another internal or external page by combin
 [[http://www.php.net|{% raw %}{{{% endraw %}wiki:dokuwiki-128.png}}]]
 ```
 
-[[Image not available]](http://www.php.net)
+![](../../assets/images/wiki/dokuwiki-128.png)
 
 Please note: The image formatting is the only formatting syntax accepted in link names.
 
@@ -160,11 +160,11 @@ By using four or more dashes, you can make a horizontal line:
 
 You can include external and internal [images](https://www.dokuwiki.org/images) with curly brackets. Optionally you can specify the size of them.
 
-Real size: \[Image not available\]
+Real size: ![](../../assets/images/wiki/dokuwiki-128.png)
 
-Resize to given width: \[Image not available\]
+Resize to given width: ![](../../assets/images/wiki/dokuwiki-128.png)
 
-Resize to given width and height<sup>[2)](#fn__2)</sup>: \[Image not available\]
+Resize to given width and height<sup>[2)](#fn__2)</sup>: ![](../../assets/images/wiki/dokuwiki-128.png)
 
 Resized external image:
 
@@ -177,11 +177,11 @@ Resized external image:           {% raw %}{{{% endraw %}http://de3.php.net/imag
 
 By using left or right whitespaces you can choose the alignment.
 
-\[Image not available\]
+![](../../assets/images/wiki/dokuwiki-128.png)
 
-\[Image not available\]
+![](../../assets/images/wiki/dokuwiki-128.png)
 
-\[Image not available\]
+![](../../assets/images/wiki/dokuwiki-128.png)
 
 ``` code
 {% raw %}{{{% endraw %} wiki:dokuwiki-128.png}}
@@ -191,7 +191,7 @@ By using left or right whitespaces you can choose the alignment.
 
 Of course, you can add a title (displayed as a tooltip by most browsers), too.
 
-\[Image not available\]
+![This is the caption](../../assets/images/wiki/dokuwiki-128.png)
 
 ``` code
 {% raw %}{{{% endraw %} wiki:dokuwiki-128.png |This is the caption}}
@@ -610,11 +610,11 @@ The refresh period defaults to 4 hours. Any value below 10 minutes will be treat
 {% raw %}{{{% endraw %}rss>http://slashdot.org/index.rss 5 author date 1h }}
 ```
 
-- [Detroit Automakers Take \$50 Billion Hit](https://tech.slashdot.org/story/26/02/13/191242/detroit-automakers-take-50-billion-hit?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/13 15:30)
-- [Meta's New Patent: an AI That Likes, Comments and Messages For You When You're Dead](https://tech.slashdot.org/story/26/02/13/1929209/metas-new-patent-an-ai-that-likes-comments-and-messages-for-you-when-youre-dead?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/13 13:30)
-- [Google Warns EU Risks Undermining Own Competitiveness With Tech Sovereignty Push](https://tech.slashdot.org/story/26/02/13/1844218/google-warns-eu-risks-undermining-own-competitiveness-with-tech-sovereignty-push?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/13 12:31)
-- [Spotify Says Its Best Developers Haven't Written a Line of Code Since December, Thanks To AI](https://developers.slashdot.org/story/26/02/13/1834228/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/13 11:30)
-- [FTC Ratchets Up Microsoft Probe, Queries Rivals on Cloud, AI](https://slashdot.org/story/26/02/13/1757219/ftc-ratchets-up-microsoft-probe-queries-rivals-on-cloud-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/13 10:31)
+- [Americans Are Leaving the US in Record Numbers](https://news.slashdot.org/story/26/02/26/127223/americans-are-leaving-the-us-in-record-numbers?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/26 04:07)
+- [Cloudflare Experiment Ports Most of Next.js API in 'One Week' With AI](https://tech.slashdot.org/story/26/02/26/0543208/cloudflare-experiment-ports-most-of-nextjs-api-in-one-week-with-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/26 01:00)
+- [Uber Employees Have Built an AI Clone of Their CEO To Practice Presentations Before the Real Thing](https://slashdot.org/story/26/02/25/1814206/uber-employees-have-built-an-ai-clone-of-their-ceo-to-practice-presentations-before-the-real-thing?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/25 22:01)
+- [AI Can Find Hundreds of Software Bugs -- Fixing Them Is Another Story](https://it.slashdot.org/story/26/02/25/1743213/ai-can-find-hundreds-of-software-bugs----fixing-them-is-another-story?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/25 19:30)
+- [Prediction Market Platform Kalshi Discloses First Insider Trading Enforcement Action](https://slashdot.org/story/26/02/25/1732220/prediction-market-platform-kalshi-discloses-first-insider-trading-enforcement-action?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/25 17:30)
 
 ## Control Macros
 

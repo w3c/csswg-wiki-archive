@@ -114,7 +114,7 @@ Warning: the limousine bus mentioned on the reservation form is for people landi
 
 Click on the map of the hotel/venue area below to see a larger version of it:
 
-\[Image not available\]
+![Map of the hotel and venue area](../../assets/images/planning/seoul2014-venue-map.png)
 
 ## Transport to/from Airport
 
@@ -124,17 +124,17 @@ It takes between 60 to 80 minutes (yes…) from Incheon or Gimpo International A
   - At Incheon International Airport Gate 8A (1st floor) Bus Stop Station, Limousine bus No.5300 and 5400 runs to Seohyeon Bus Station, the first stop, every 20/30 minutes from 05:20 to 22:40. It costs KRW 12,000 one way.
     - [Detailed information on Limousine bus No. 5300](http://www.airport.kr/airport/traffic/bus/busView.iia?seq=103&flag=E)
     - [Detailed information on Limousine bus No. 5400](http://www.airport.kr/airport/traffic/bus/busView.iia?seq=102&flag=E)
-    - Incheon Airport map with exit for Airport Limo Buses: \[Image not available\]
+    - Incheon Airport map with exit for Airport Limo Buses: ![Incheon Airport map with exit for Airport Limo Buses](../../assets/images/planning/seoul2014-incheon-airport.png)
   - At Gimpo International Airport Gate 1 Bus Stop Station, Limousine bus No. 5100 and 5200 runs to Seohyeon Station, the first stop, every 30 minutes from 06:00 to 22:00. It costs KRW 6000.
     - [Detailed information on Limousine bus No. 5100](http://www.airport.co.kr/mbs/gimpoeng/jsp/bus/busView.jsp?id=gimpoeng_030101010000&categoryId=11275&busIdx=177631)
     - [Detailed information on Limousine bus No. 5200](http://www.airport.co.kr/mbs/gimpoeng/jsp/bus/busView.jsp?id=gimpoeng_030101010000&categoryId=11275&busIdx=177532)
-    - Gimpo Airport map with exit for Airport Limo Buses: \[Image not available\]
+    - Gimpo Airport map with exit for Airport Limo Buses: ![Gimpo Airport map with exit for Airport Limo Buses](../../assets/images/planning/seoul2014-gimpo-airport.png)
 - By Taxi
   - Taxi is always available from the Incheon International Airport, whose fare (one way) will be approximately KRW 120,000~140,000 for deluxe taxi and KRW 80,000~100,000 for normal taxi( tall gate fee will be added). Again, all taxis accept VISA for payment.
   - Taxi fare (one way) from the Gimpo International Airport will be approximately KRW 100,000 for deluxe taxi and KRW 60,000~80,000 for normal taxi (tall gate fee will be added).
   - Taxi fares are of course subject to traffic condition…
   - Here is something you can print and show to the taxi driver…
-  - \[Image not available\]
+  - ![Take me to Hotel Gallery please](../../assets/images/planning/seoul2014-message-for-taxis.png)
 
 ## Travel to/from Hotel/TTA Office
 

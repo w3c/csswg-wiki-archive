@@ -33,6 +33,150 @@ def fetch(url):
         return None
 
 
+def fetch_binary(url):
+    """Fetch binary content (images) from a URL."""
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return resp.read()
+    except Exception as e:
+        print(f"  Error downloading {url}: {e}")
+        return None
+
+
+def download_media(content, output_dir, page_path):
+    """Download /_media/ images and rewrite src attributes to local paths."""
+    media_dir = output_dir / "assets" / "images"
+
+    # Find all /_media/ image sources
+    seen = set()
+
+    def rewrite_img(m):
+        full_match = m.group(0)
+        prefix = m.group(1)  # everything before src value
+        media_path = m.group(2)  # path after /_media/
+        params = m.group(3) or ""  # ?w=500&tok=... etc.
+        suffix = m.group(4)  # everything after the src value
+
+        # Strip query params for the local filename
+        local_path = media_path
+        dest = media_dir / local_path
+        dest.parent.mkdir(parents=True, exist_ok=True)
+
+        # Download if not already fetched
+        if local_path not in seen:
+            seen.add(local_path)
+            # Download without resize params to get full-size original
+            download_url = f"{BASE_URL}/_media/{media_path}"
+            time.sleep(DELAY)
+            data = fetch_binary(download_url)
+            if data:
+                dest.write_bytes(data)
+                print(f"    Downloaded: {local_path}")
+            else:
+                return full_match  # leave unchanged if download fails
+
+        # Calculate relative path from page to assets/images/
+        if page_path == "main":
+            rel = f"assets/images/{local_path}"
+        else:
+            depth = len(page_path.split("/"))
+            rel = "../" * depth + f"assets/images/{local_path}"
+
+        return f'{prefix}{rel}{suffix}'
+
+    # Rewrite src="/_media/..." in img tags
+    content = re.sub(
+        r'(<img[^>]*src=")/_media/([^"?]+)(\?[^"]*)?("[^>]*/?>)',
+        rewrite_img,
+        content
+    )
+
+    # Also rewrite href="/_detail/..." links to point to the image
+    def rewrite_detail_link(m):
+        media_path = m.group(1)
+        params = m.group(2) or ""
+        # Strip query params for local path
+        if page_path == "main":
+            rel = f"assets/images/{media_path}"
+        else:
+            depth = len(page_path.split("/"))
+            rel = "../" * depth + f"assets/images/{media_path}"
+        return f'href="{rel}"'
+
+    content = re.sub(
+        r'href="/_detail/([^"?]+)(\?[^"]*)?"',
+        rewrite_detail_link,
+        content
+    )
+
+    # Handle lib/exe/fetch.php URLs - extract the media parameter
+    def rewrite_fetch_img(m):
+        full_match = m.group(0)
+        prefix = m.group(1)
+        fetch_url = m.group(2)
+        suffix = m.group(3)
+
+        # Extract media path from fetch.php URL
+        media_m = re.search(r'media=([^&"]+)', fetch_url)
+        if not media_m:
+            return full_match
+        media_id = media_m.group(1)
+        # DokuWiki uses : as namespace separator
+        media_path = media_id.replace(":", "/")
+
+        dest = media_dir / media_path
+        dest.parent.mkdir(parents=True, exist_ok=True)
+
+        if media_path not in seen:
+            seen.add(media_path)
+            download_url = f"{BASE_URL}/_media/{media_path}"
+            time.sleep(DELAY)
+            data = fetch_binary(download_url)
+            if data:
+                dest.write_bytes(data)
+                print(f"    Downloaded: {media_path}")
+            else:
+                return full_match
+
+        if page_path == "main":
+            rel = f"assets/images/{media_path}"
+        else:
+            depth = len(page_path.split("/"))
+            rel = "../" * depth + f"assets/images/{media_path}"
+
+        return f'{prefix}{rel}{suffix}'
+
+    content = re.sub(
+        r'(<img[^>]*src=")[^"]*lib/exe/fetch\.php[^"]*?media=([^"]+)("[^>]*/?>)',
+        rewrite_fetch_img,
+        content
+    )
+
+    # Also rewrite fetch.php href links
+    def rewrite_fetch_link(m):
+        fetch_url = m.group(1)
+        media_m = re.search(r'media=([^&"]+)', fetch_url)
+        if not media_m:
+            return m.group(0)
+        media_id = media_m.group(1)
+        media_path = media_id.replace(":", "/")
+        if page_path == "main":
+            rel = f"assets/images/{media_path}"
+        else:
+            depth = len(page_path.split("/"))
+            rel = "../" * depth + f"assets/images/{media_path}"
+        return f'href="{rel}"'
+
+    content = re.sub(
+        r'href="([^"]*lib/exe/fetch\.php[^"]*)"',
+        rewrite_fetch_link,
+        content
+    )
+
+    return content
+
+
 def get_all_pages():
     """Discover all wiki pages by crawling the index."""
     pages = set()
@@ -246,6 +390,7 @@ def save_page(output_dir, page_path, html):
         out_dir.mkdir(parents=True, exist_ok=True)
         out_path = out_dir / 'index.html'
 
+    content = download_media(content, output_dir, page_path)
     breadcrumb = make_breadcrumb(page_path, home_path)
     content = fix_internal_links(content, home_path)
 

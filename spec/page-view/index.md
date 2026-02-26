@@ -281,9 +281,9 @@ TODO
 
 A magazine article (pretty simple one) could look like this.
 
-\[Image not available\]
+![](../../assets/images/spec/magazine1.png)
 
-The user reads the magazine in a reader application, \[Image not available\] with same options for page navigation control as in previous examples of page view.
+The user reads the magazine in a reader application, ![](../../assets/images/spec/magazine2.png) with same options for page navigation control as in previous examples of page view.
 
 Each individual page can have unique design and can include content from multiple sources: multiple text streams (main story, side bar, pull quotes) and images (some included in text, some placed directly as related visuals or advertisements).
 
@@ -364,7 +364,7 @@ article h1 { page-break-before: always; page: chapter-start-page; }
 
 **Goal:** automatically generate complex pages based on content, encoded design intent and media properties
 
-\[Image not available\]\[Image not available\]
+![](../../assets/images/spec/magpageportrait.png)![](../../assets/images/spec/magpagelandscape.png)
 
 Online magazine must work on devices on different sizes, resolution and orientation. Just as any other adaptive content using media queries, same magazine will look very different on different devices.
 

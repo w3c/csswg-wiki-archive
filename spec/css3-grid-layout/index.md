@@ -149,9 +149,9 @@ Latest ED incorporates text from latest Flexbox draft. Given the code below:
   </div>
 ```
 
-1.  In the current draft we mimic flexbox behavior. Here is an image where each run of loose text and the one valid grid item are all treated as separate grid items when grid-auto-flow is none: \[Image not available\]
-2.  Here's the behavior when grid-auto-flow is columns: \[Image not available\]
-3.  Here's a proposed change in behavior where the grid element has its entire contents placed in a default anonymous grid item and then grid items are pulled out of the default grid item's flow by specifying a grid-row/column property resulting in a picture like this: \[Image not available\]
+1.  In the current draft we mimic flexbox behavior. Here is an image where each run of loose text and the one valid grid item are all treated as separate grid items when grid-auto-flow is none: ![](../../assets/images/spec/separateitemswithoutautoplacement.png)
+2.  Here's the behavior when grid-auto-flow is columns: ![](../../assets/images/spec/separateitemswithautoplacement.png)
+3.  Here's a proposed change in behavior where the grid element has its entire contents placed in a default anonymous grid item and then grid items are pulled out of the default grid item's flow by specifying a grid-row/column property resulting in a picture like this: ![](../../assets/images/spec/onedefaultgriditemwithautoplacement.png)
 4.  There is also proposal just like the last but allowing descendants of the grid (not just children) to become valid grid items by specifying a grid-column/row. If we were to adopt that proposal what to do with markup that surrounds the elements which became grid items, but that we don't want to position in our grid? Consider the markup below:
 
 ``` code
