@@ -18,7 +18,7 @@ This falls into a class of problems that unlikely to be solvable in CSS: selecto
 
 For a simple example:
 
-``` code
+```css
 :stuck { position: static; }
 ```
 
@@ -38,7 +38,7 @@ Next week, someone comes up with a similar circularity they want to allow (like 
 
 Now someone writes
 
-``` code
+```css
 .foo { toggle-states: 2; toggle-initial: 1; } /* makes it checked */
 :checked { position: sticky; }
 :stuck { toggle-states: none; }
@@ -115,7 +115,7 @@ When a selector has a syntax error in it, or when it has new syntax that old bro
 
 Take this code:
 
-``` code
+```css
 #sensible .selector,
 syntax = !error,
 :new-feature {
@@ -225,7 +225,7 @@ This is a robust and minimal scheme that is guaranteed to give correct results o
 
 HTML currently specifies the following default styles for sup and sub:
 
-``` code
+```css
 sub { vertical-align: sub; }
 sup { vertical-align: super; }
 sub, sup { line-height: normal; font-size: smaller; }
@@ -233,7 +233,7 @@ sub, sup { line-height: normal; font-size: smaller; }
 
 This works, but this is not very good typography. The following uses fonts the way they're meant to be, wouldn't it be much better?
 
-``` code
+```css
 sub { font-variant-position: sub; }
 sup { font-variant-position: sup; }
 ```
@@ -244,7 +244,7 @@ It is indeed better typography, and even if the font does not have the dedicated
 
 Consider the following:
 
-``` code
+```html
 2<sup>2<sup>2</sup></sup> = 16
 ```
 
@@ -256,7 +256,7 @@ There were various attempts to define font-variant-position differently to make 
 
 The following code comes reasonably close to giving good typography in the base case, and handling some cases of nesting as well, so web page authors may want to use it if it works for their content, but was not judged sufficiently robust in the general case to be accepted as a new default styling, in part because fonts with inaccurate metrics (which are unfortunately reasonably common) may break it, and in part because it does not handle images and other non textual content in the sub/superscripts.
 
-``` code
+```css
 sub { font-variant-position: sub; }
 sup { font-variant-position: super; }
  

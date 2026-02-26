@@ -6,17 +6,15 @@ title: "Radial Gradient Wars"
 
 #### Syntax A
 
-``` code
-  <radial-gradient> = radial-gradient(
-    [<position>,]? 
-    [[
-        [<shape> || <size>]
-        |
-        [<length> | <percentage>]{2}
-    ],]? 
-    <color-stop>[, <color-stop>]+
-  )
-```
+      <radial-gradient> = radial-gradient(
+        [<position>,]? 
+        [[
+            [<shape> || <size>]
+            |
+            [<length> | <percentage>]{2}
+        ],]? 
+        <color-stop>[, <color-stop>]+
+      )
 
 ##### Key posts:
 
@@ -39,15 +37,13 @@ title: "Radial Gradient Wars"
 
 #### Syntax B
 
-``` code
-  <radial-gradient> = radial-gradient(
-    [ from <side-or-corner-or-center> ,]? 
-        [circle,]? 
-        <color-stop>[, <color-stop>]+
-  )
-  
-  <side-or-corner-or-center> = [[left | right] || [top | bottom]] | center
-```
+      <radial-gradient> = radial-gradient(
+        [ from <side-or-corner-or-center> ,]? 
+            [circle,]? 
+            <color-stop>[, <color-stop>]+
+      )
+      
+      <side-or-corner-or-center> = [[left | right] || [top | bottom]] | center
 
 If \<side-or-corner-or-center\> is omitted, or if it is 'center', then the gradient goes starts with the 0% color-stop in the center of the image, and the 100% color-stop aligned to the four edges. Otherwise, the gradient center is aligned with the indicated side(s), with 0% in the corner (if two sides are indicated) or in the middle of a side (if only one side is indicated) and extends out with 100% color-stop aligned to the other three sides.
 
@@ -139,7 +135,7 @@ The 'circle' keyword sets the intrinsic ratio of the image to 1:1.
 </tr>
 <tr>
 <td>Hearts Grid</td>
-<td><pre class="code"><code> background: 
+<td><pre><code> background: 
   radial-gradient(60% 43%, 25px 25px, #b03 99%, transparent),
   radial-gradient(40% 43%, 25px 25px, #b03 99%, transparent),
   radial-gradient(40% 22%, 25px 25px, #d35 99%, transparent),
@@ -147,7 +143,7 @@ The 'circle' keyword sets the intrinsic ratio of the image to 1:1.
   radial-gradient(50% 35%, 25px 25px, #d35 99%, transparent),
   #b03;
 background-size:100px 100px;</code></pre></td>
-<td><pre class="code"><code>background:
+<td><pre><code>background:
   radial-gradient(#b03 24%, transparent 25%), 
   radial-gradient(#b03 24%, transparent 25%),
   radial-gradient(#d35 24%, transparent 25%),
@@ -163,11 +159,11 @@ background-position: 60px 43px,
 </tr>
 <tr>
 <td>[Spotlight effect](http://lists.w3.org/Archives/Public/www-style/2011Oct/att-0306/GradientOffCenterBK.htm)</td>
-<td><pre class="code"><code>background-image: 
+<td><pre><code>background-image: 
   radial-gradient(&lt;set by script to the mouse position&gt;, 
                   circle, 
                   transparent 100px, rgba(0,0,0,.5) 100px, black 200px)</code></pre></td>
-<td><pre class="code"><code>background-image: 
+<td><pre><code>background-image: 
   radial-gradient(circle, 
                   transparent 100px, rgba(0,0,0,.5) 100px, black 200px);
 background-size: 200% 200%;

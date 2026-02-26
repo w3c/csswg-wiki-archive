@@ -19,6 +19,4 @@ The scripts described here offer the following features:
 
 To enable the tracking script, add the following to your document:
 
-``` file
-<script>...</script>
-```
+    <script>...</script>

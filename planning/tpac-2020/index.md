@@ -18,91 +18,75 @@ Links to Meet: TBD
 
 [October 12 (13) 17:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=202012T17) - [Joint Meeting with Open UI](https://github.com/WICG/open-ui/blob/master/meetings/telecon/tpac-openui-csswg-oct-2020.md)
 
-``` code
-  7pm - 11pm Paris
-  6pm - 10pm London
-  1pm -  5pm New York
- 10am -  3pm San Francisco
-  2am -  6am Tokyo
-  4am -  8am Melbourne
-```
+      7pm - 11pm Paris
+      6pm - 10pm London
+      1pm -  5pm New York
+     10am -  3pm San Francisco
+      2am -  6am Tokyo
+      4am -  8am Melbourne
 
 [October 14 (15) 15:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=202014T15) - Joint Meeting with Accessibility ([Dial-in Info](https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0034.html))
 
-``` code
-  5pm -  6pm Paris
-  4pm -  5pm London
- 11am - 12pm New York
-  8am -  9am San Francisco
- 12am -  1am Tokyo
-  2am -  3am Melbourne
-```
+      5pm -  6pm Paris
+      4pm -  5pm London
+     11am - 12pm New York
+      8am -  9am San Francisco
+     12am -  1am Tokyo
+      2am -  3am Melbourne
 
 [October 15 (16) 15:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201015T15) - [Joint Meeting with Internationalization](https://lists.w3.org/Archives/Member/member-i18n-core/2020Oct/0003.html) ([using i18n dial-in info](https://www.w3.org/2017/09/i18n-meeting-info.html))
 
-``` code
-  5pm -  6pm Paris
-  4pm -  5pm London
- 11am - 12pm New York
-  8am -  9am San Francisco
- 12am -  1am Tokyo
-  2am -  3am Melbourne
-```
+      5pm -  6pm Paris
+      4pm -  5pm London
+     11am - 12pm New York
+      8am -  9am San Francisco
+     12am -  1am Tokyo
+      2am -  3am Melbourne
 
 [October 19 (20) 14:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201019T14)- [Joint Meeting with Color on the Web CG, Media and Entertainment IG (about HDR)](https://www.w3.org/2011/webtv/wiki/TPAC_2020_meeting#color)
 
-``` code
-  4pm -  5pm Paris
-  3pm -  4pm London
- 10am - 11am New York
-  7am -  8am San Francisco
- 11pm - 12am Tokyo
-  1am -  2am Melbourne
-```
+      4pm -  5pm Paris
+      3pm -  4pm London
+     10am - 11am New York
+      7am -  8am San Francisco
+     11pm - 12am Tokyo
+      1am -  2am Melbourne
 
 [October 19 (20) 20:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201019T20) - CSSWG ([Dial-in](https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html))
 
-``` code
- 10pm -  1am Paris
-  9pm - 12am London
-  4pm -  7pm New York
-  1pm -  4pm San Francisco
-  5am -  8am Tokyo
-  7am - 10am Melbourne
-```
+     10pm -  1am Paris
+      9pm - 12am London
+      4pm -  7pm New York
+      1pm -  4pm San Francisco
+      5am -  8am Tokyo
+      7am - 10am Melbourne
 
 [October 20 (21) 20:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201020T20)- CSSWG ([Dial-in](https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html))
 
-``` code
- 10pm -  1am Paris
-  9pm - 12am London
-  4pm -  7pm New York
-  1pm -  4pm San Francisco
-  5am -  8am Tokyo
-  7am - 10am Melbourne
-```
+     10pm -  1am Paris
+      9pm - 12am London
+      4pm -  7pm New York
+      1pm -  4pm San Francisco
+      5am -  8am Tokyo
+      7am - 10am Melbourne
 
 [October 22 (23) 14:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201022T14)- CSSWG ([Dial-in](https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html))
 
-``` code
-  4pm -  7pm Paris
-  3pm -  6pm London
- 10am -  1pm New York
-  7am - 10am San Francisco
- 11pm -  2am Tokyo
-  1am -  4am Melbourne
-```
+      4pm -  7pm Paris
+      3pm -  6pm London
+     10am -  1pm New York
+      7am - 10am San Francisco
+     11pm -  2am Tokyo
+      1am -  4am Melbourne
 
 [October 23 (24) 14:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201023T14) - CSSWG ([Dial-in](https://lists.w3.org/Archives/Member/w3c-css-wg/2020OctDec/0042.html))
 
-``` code
-  4pm -  7pm Paris
-  3pm -  6pm London
- 10am -  1pm New York
-  7am - 10am San Francisco
- 11pm -  2am Tokyo
-  1am -  4am Melbourne
-```
+      4pm -  7pm Paris
+      3pm -  6pm London
+     10am -  1pm New York
+      7am - 10am San Francisco
+     11pm -  2am Tokyo
+      1am -  4am Melbourne
 
 ## Venue tech
 

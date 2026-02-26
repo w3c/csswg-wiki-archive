@@ -82,7 +82,7 @@ One exclusion over two columns of content.
 
 ### CSS Exclusions and Shapes
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -124,7 +124,7 @@ One exclusion over two columns of content.
 
 ### CSS3 Floats
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -166,7 +166,7 @@ One exclusion over two columns of content.
 
 ### Daniel Glazman's proposal
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -198,7 +198,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 
 ### CSS Exclusions and Shapes
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -245,7 +245,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 
 ### CSS3 Floats
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -296,7 +296,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 
 Limitation: cannot add “exclusion” on a custom-shaped element. See details in the issues section.
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -359,7 +359,7 @@ Repeating exclusion shape on x, y or both axes.
 
 \<html\>\<span style=“color:red”\>No support for repeating exclusion shapes. Solution:TBD\</span\>\</html\>
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -389,7 +389,7 @@ Repeating exclusion shape on x, y or both axes.
 
 ### CSS3 Floats
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -426,7 +426,7 @@ Repeating exclusion shape on x, y or both axes.
 
 ### Daniel Glazman's proposal
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -470,7 +470,7 @@ Image to determine the disjoint shapes by alpha channel transparency.
 
 Multiple solutions possible with single image, multiple positioned images or SVG shapes.
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -529,7 +529,7 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 
 Multiple solutions possible with single image, multiple positioned images or SVG shapes.
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -571,7 +571,7 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 
 Multiple solutions possible with single image or multiple positioned images. The mask and the shape of the overlying article need to be manually aligned. This gets more complex on adaptive layouts.
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -650,7 +650,7 @@ Reuse an exclusion shape on different elements
 
 \* low reusability: requires duplication of markup
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css">
@@ -718,7 +718,7 @@ Reuse an exclusion shape on different elements
 
 \* low reusability: requires duplication of markup
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css">
@@ -787,7 +787,7 @@ Reuse an exclusion shape on different elements
 
 good reusability of the region-image without additional placeholder markup
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -834,7 +834,7 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 
 (!) Content inside the shape will have transformations applied, as well
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css">
@@ -905,7 +905,7 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 
 (!) Content inside the shape will have transformations applied, as well
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css">
@@ -986,7 +986,7 @@ Custom-shaped container with margin for outer content and padding for inner cont
 
 ### CSS Exclusions and Shapes
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -1022,7 +1022,7 @@ Custom-shaped container with margin for outer content and padding for inner cont
 
 ### CSS3 Floats
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -1062,7 +1062,7 @@ Limitation: region-image only affects the container, no effect on the bottom ele
 
 Question: How does padding work? There is no explicit padding method specified. Is the standard “padding” method overloaded?
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -1113,7 +1113,7 @@ Custom-shaped container with a background image / background color.
 
 ### CSS Exclusions and Shapes
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -1153,7 +1153,7 @@ Custom-shaped container with a background image / background color.
 
 ### CSS3 Floats
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -1189,7 +1189,7 @@ Custom-shaped container with a background image / background color.
 
 ### Daniel Glazman's proposal
 
-``` code
+```html
 <html>
 <head>
     <style type="text/css"> 
@@ -1224,7 +1224,7 @@ One exclusion along a text.
 
 ### CSS Exclusions and Shapes
 
-``` code
+```html
 <style>
     /* with SVG shape */
      #dropMany{      
@@ -1247,7 +1247,7 @@ One exclusion along a text.
 
 ### CSS3 Floats
 
-``` code
+```html
 <style>
     /* with SVG shape */
     #dropMany{ 
@@ -1264,7 +1264,7 @@ One exclusion along a text.
 
 ### Daniel Glazman's Proposal
 
-``` code
+```html
 <style>
     #dropMore{
         region-restriction: outside; 

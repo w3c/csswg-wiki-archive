@@ -8,32 +8,30 @@ There appear to be several good use-cases for wanting to know when a particular 
 
 ## IDL
 
-``` code
-[Constructor(DOMString type, optional FontFaceEventInit eventInitDict)]
-interface FontFaceEvent : Event {
-  readonly attribute DOMString? family;
-  readonly attribute DOMString? src;
-  readonly attribute DOMString? usedSrc;
-  readonly attribute DOMString? style;
-  readonly attribute DOMString? weight;
-  readonly attribute DOMString? stretch;
-  readonly attribute DOMString? unicodeRange;
-  readonly attribute DOMString? variant;
-  readonly attribute DOMString? featureSettings;
-};
+    [Constructor(DOMString type, optional FontFaceEventInit eventInitDict)]
+    interface FontFaceEvent : Event {
+      readonly attribute DOMString? family;
+      readonly attribute DOMString? src;
+      readonly attribute DOMString? usedSrc;
+      readonly attribute DOMString? style;
+      readonly attribute DOMString? weight;
+      readonly attribute DOMString? stretch;
+      readonly attribute DOMString? unicodeRange;
+      readonly attribute DOMString? variant;
+      readonly attribute DOMString? featureSettings;
+    };
 
-dictionary FontFaceEventInit : EventInit {
-  DOMString family;
-  DOMString src;
-  DOMString usedSrc;
-  DOMString style;
-  DOMString weight;
-  DOMString stretch;
-  DOMString unicodeRange;
-  DOMString variant;
-  DOMString featureSettings;
-}
-```
+    dictionary FontFaceEventInit : EventInit {
+      DOMString family;
+      DOMString src;
+      DOMString usedSrc;
+      DOMString style;
+      DOMString weight;
+      DOMString stretch;
+      DOMString unicodeRange;
+      DOMString variant;
+      DOMString featureSettings;
+    }
 
 ## Attributes
 

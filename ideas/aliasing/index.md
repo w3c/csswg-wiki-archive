@@ -36,7 +36,7 @@ In these cases, Microsoft's approach is to return the canonical name, while Flor
 
 so given this:
 
-``` code
+```css
 p {page-break-before:avoid;}
 div {break-before:avoid;}
 ```
@@ -71,7 +71,7 @@ This behavior is fairly simple to implement, but gives a relatively unpredictabl
 
 We could treat the **break-**\* as shorthands for the **page-break-**\* properties. Under this model, we would have internal properties with **column-break-**\* and **region-break-**\* semantics.
 
-``` code
+```css
 break-brefore:avoid
   ->
 page-break-before:avoid
@@ -97,7 +97,7 @@ This behavior makes some amount of sense, but if we go that way, it feels strang
 
 Also, this allows you to express things you couldn't otherwise:
 
-``` code
+```css
 p{
  break-brefore:avoid-column;
  page-break-before:avoid;
@@ -106,7 +106,7 @@ p{
 
 The computed values for this would be
 
-``` code
+```css
 break-brefore:"" /*can't be represented */
 page-break-before:avoid
 ?column-break-before:avoid

@@ -16,21 +16,15 @@ There are three possible behaviors for distributing items evenly along an axis:
 
 **Edges flush**
 
-``` code
- |[item]<-------->[item]<-------->[item]|
-```
+     |[item]<-------->[item]<-------->[item]|
 
 **Equal spacing**
 
-``` code
- |<--->[item]<--->[item]<--->[item]<--->|
-```
+     |<--->[item]<--->[item]<--->[item]<--->|
 
 **Equal margins**
 
-``` code
- |<-->[item]<---->[item]<---->[item]<-->|
-```
+     |<-->[item]<---->[item]<---->[item]<-->|
 
 Note: In Flexbox, you can get the equal-margins effect with `auto` margins, but only if you want the minimum spacing to be zero. Which might be sufficient for this level, but would be a candidate for future extension.
 

@@ -286,8 +286,34 @@ def clean_media(html):
     return html
 
 
+def fix_code_language(html):
+    """Rewrite <pre class="code LANG"> so pandoc picks up the actual language.
+
+    DokuWiki marks code blocks as <pre class="code css"> where "code" (or
+    "file") is a generic marker and the second class is the language.  Pandoc
+    uses the *first* class as the fenced-code language, so without this fix
+    every block becomes ``` code instead of ``` css.
+    """
+    lang_map = {'html4strict': 'html', 'html5': 'html'}
+
+    def rewrite_pre(m):
+        classes = m.group(1).split()
+        # Strip generic DokuWiki markers
+        classes = [c for c in classes if c not in ('code', 'file')]
+        # Normalise language names
+        classes = [lang_map.get(c, c) for c in classes]
+        if classes:
+            return f'<pre class="{classes[0]}">'
+        return '<pre>'
+
+    return re.sub(r'<pre class="([^"]+)">', rewrite_pre, html)
+
+
 def cleanup_html(html):
     """Clean up HTML before pandoc conversion."""
+    # Fix code-block language classes before pandoc sees them
+    html = fix_code_language(html)
+
     # Convert plugin_note divs to alert-marked divs
     html = convert_plugin_notes(html)
     
@@ -431,6 +457,9 @@ def cleanup_markdown(md):
     md = re.sub(r'<span class="abbr" title="[^"]*">([^<]*)</span>', r'\1', md)
     md = re.sub(r'<span[^>]*class="term"[^>]*>([^<]*)</span>', r'\1', md)
     
+    # Remove space between fence and language identifier (``` css -> ```css)
+    md = re.sub(r'^(```) (\w+)$', r'\1\2', md, flags=re.MULTILINE)
+
     # Clean up multiple blank lines
     md = re.sub(r'\n{3,}', '\n\n', md)
 

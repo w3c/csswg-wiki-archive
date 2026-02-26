@@ -8,16 +8,14 @@ This page is recording ideas on margin controls.
 
 #### Syntax Summary
 
-``` code
-margin-trim: none | block | inline | <logical-sides>
-margin-trim-skip: <'margin-trim'>
-margin-break: [ auto | keep | discard ] keep?
-margin-collapse: [ auto | separate | discard ]{1,2}
-  margin-start-collapse
-  margin-end-collapse
+    margin-trim: none | block | inline | <logical-sides>
+    margin-trim-skip: <'margin-trim'>
+    margin-break: [ auto | keep | discard ] keep?
+    margin-collapse: [ auto | separate | discard ]{1,2}
+      margin-start-collapse
+      margin-end-collapse
 
-<logical-sides> = inline-start || inline-end || block-start || block-end
-```
+    <logical-sides> = inline-start || inline-end || block-start || block-end
 
 #### margin-trim
 

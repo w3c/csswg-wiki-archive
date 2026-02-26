@@ -29,7 +29,7 @@ The basic usage of the test harness ([testharness.js](http://w3c-test.org/resour
 
 - To use the harness, import both scripts into the test document per the script tag below. Note that an expectation is that all tests must be run-able in place in the W3C's test repository. As such, an absolute path to the script file must be used and the script file will be in resources directory at the root of the repository.
 
-``` code
+```html
 <script type="text/javascript" src="/resources/testharness.js"></script>
 <script type="text/javascript" src="/resources/testharnessreport.js"></script>
 ```
@@ -58,7 +58,7 @@ Test-specific metadata can be passed in the properties object to the test constr
 
 Example:
 
-``` code
+```html
 test(function() { assert_true(true); },
      'test_name', 
      { help: 'http://www.w3.org/TR/spec#section', 

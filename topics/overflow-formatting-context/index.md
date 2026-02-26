@@ -33,68 +33,52 @@ Both these issues arose through an oversight when introducing the terms “block
 
 In 9.4 (Normal flow), replace:
 
-``` code
- # Boxes in the normal flow belong to a formatting context, which may
- # be block or inline, but not both simultaneously. Block-level boxes
- # participate in a block formatting context. Inline-level boxes
- # participate in an inline formatting context.
-```
+     # Boxes in the normal flow belong to a formatting context, which may
+     # be block or inline, but not both simultaneously. Block-level boxes
+     # participate in a block formatting context. Inline-level boxes
+     # participate in an inline formatting context.
 
 with:
 
-``` code
- | Boxes in the normal flow belong to a formatting context, which in
- | CSS21 may be block, inline or table. In future levels of CSS, other
- | types of formatting context will be introduced. Block-level boxes
- | participate in a block formatting context. Inline-level boxes
- | participate in an inline formatting context. Table formatting
- | contexts are described in the chapter on _tables_.
-```
+     | Boxes in the normal flow belong to a formatting context, which in
+     | CSS21 may be block, inline or table. In future levels of CSS, other
+     | types of formatting context will be introduced. Block-level boxes
+     | participate in a block formatting context. Inline-level boxes
+     | participate in an inline formatting context. Table formatting
+     | contexts are described in the chapter on _tables_.
 
 In 17.4 (Tables in the visual formatting model), replace:
 
-``` code
- # [...] The table wrapper box establishes a block formatting context.
- # [...]
-```
+     # [...] The table wrapper box establishes a block formatting context.
+     # [...]
 
 with:
 
-``` code
- | [...] The table wrapper box establishes a block formatting context,
- | and the table box establishes a table formatting context. [...]
-```
+     | [...] The table wrapper box establishes a block formatting context,
+     | and the table box establishes a table formatting context. [...]
 
 In 17.5 (Visual layout of table contents), replace:
 
-``` code
- # Internal table elements generate rectangular boxes with content and
- # borders. Cells have padding as well. Internal table elements do not
- # have margins.
-```
+     # Internal table elements generate rectangular boxes with content and
+     # borders. Cells have padding as well. Internal table elements do not
+     # have margins.
 
 with:
 
-``` code
- | Internal table elements generate rectangular boxes which
- | participate in the table formatting context established by the
- | table box. These boxes have content and borders, and cells have
- | padding as well. Internal table elements do not have margins.
-```
+     | Internal table elements generate rectangular boxes which
+     | participate in the table formatting context established by the
+     | table box. These boxes have content and borders, and cells have
+     | padding as well. Internal table elements do not have margins.
 
 ##### ''overflow''
 
 In 11.1.1 (Overflow), replace:
 
-``` code
- # Applies to: block containers
-```
+     # Applies to: block containers
 
 with:
 
-``` code
- | Applies to: block containers and boxes that establish a formatting context
-```
+     | Applies to: block containers and boxes that establish a formatting context
 
 ##### Containing block hierarchy (optional addition to proposal)
 
@@ -102,20 +86,16 @@ with:
 
 In 10.1 (Definition of “containing block”), replace:
 
-``` code
- # 2. For other elements, if the element's position is 'relative' or
- #    'static', the containing block is formed by the content edge of
- #    the nearest block container ancestor box. 
-```
+     # 2. For other elements, if the element's position is 'relative' or
+     #    'static', the containing block is formed by the content edge of
+     #    the nearest block container ancestor box. 
 
 with:
 
-``` code
- | 2. For other elements, if the element's position is 'relative' or
- |    'static', the containing block is formed by the content edge of
- |    the nearest ancestor box that is a block container or which
- |    establishes a formatting context.
-```
+     | 2. For other elements, if the element's position is 'relative' or
+     |    'static', the containing block is formed by the content edge of
+     |    the nearest ancestor box that is a block container or which
+     |    establishes a formatting context.
 
 #### Links to More Info
 

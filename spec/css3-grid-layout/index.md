@@ -32,155 +32,149 @@ Link to current Editor's draft: <http://dev.w3.org/csswg/css3-grid-align/>
 
 Example showing named areas versus named lines:
 
-``` code
-<!-- Named areas using template property -->
-<style type="text/css">
-  @media (orientation: portrait) {
-      #grid { 
-          display: grid;
-          
-          /* The rows, columns and areas of the grid are defined visually using the */
-          /* grid-template property.  Each string is a row, and each word an area.  */
-          /* The number of words in a string determines the number of               */
-          /* columns. Note the number of words in each string must be identical.    */
-          grid-template: "title stats"
-                         "score stats"
-                         "board board"
-                         "ctrls ctrls";
-          
-          /* Columns and rows created with the template property can be assigned a sizing */
-          /* function with the grid-definition-columns and grid-definition-rows properties. */
-          grid-definition-columns: auto minmax(min-content, 1fr); 
-          grid-definition-rows: auto auto minmax(min-content, 1fr) auto
+    <!-- Named areas using template property -->
+    <style type="text/css">
+      @media (orientation: portrait) {
+          #grid { 
+              display: grid;
+              
+              /* The rows, columns and areas of the grid are defined visually using the */
+              /* grid-template property.  Each string is a row, and each word an area.  */
+              /* The number of words in a string determines the number of               */
+              /* columns. Note the number of words in each string must be identical.    */
+              grid-template: "title stats"
+                             "score stats"
+                             "board board"
+                             "ctrls ctrls";
+              
+              /* Columns and rows created with the template property can be assigned a sizing */
+              /* function with the grid-definition-columns and grid-definition-rows properties. */
+              grid-definition-columns: auto minmax(min-content, 1fr); 
+              grid-definition-rows: auto auto minmax(min-content, 1fr) auto
+          }
       }
-  }
-  @media (orientation: landscape) {
-      #grid { 
-          display: grid;
-          
-          /* Again the template property defines areas of the same name, but this time */
-          /* positioned differently to better suit a landscape orientation.            */
-          grid-template: "title board"
-                         "stats board"
-                         "score ctrls";
-          
-          grid-definition-columns: auto minmax(min-content, 1fr); 
-          grid-definition-rows: auto minmax(min-content, 1fr) auto
+      @media (orientation: landscape) {
+          #grid { 
+              display: grid;
+              
+              /* Again the template property defines areas of the same name, but this time */
+              /* positioned differently to better suit a landscape orientation.            */
+              grid-template: "title board"
+                             "stats board"
+                             "score ctrls";
+              
+              grid-definition-columns: auto minmax(min-content, 1fr); 
+              grid-definition-rows: auto minmax(min-content, 1fr) auto
+          }
       }
-  }
-  /* The grid-area property places a grid item into named region (area) of the grid. */
-  #title    { grid-area: title }
-  #score    { grid-area: score }
-  #stats    { grid-area: stats }
-  #board    { grid-area: board }
-  #controls { grid-area: ctrls }
-</style>
-<div id="grid">
-  <div id="title">Game Title</div>
-  <div id="score">Score</div>
-  <div id="stats">Stats</div>
-  <div id="board">Board</div>
-  <div id="controls">Controls</div>
+      /* The grid-area property places a grid item into named region (area) of the grid. */
+      #title    { grid-area: title }
+      #score    { grid-area: score }
+      #stats    { grid-area: stats }
+      #board    { grid-area: board }
+      #controls { grid-area: ctrls }
+    </style>
+    <div id="grid">
+      <div id="title">Game Title</div>
+      <div id="score">Score</div>
+      <div id="stats">Stats</div>
+      <div id="board">Board</div>
+      <div id="controls">Controls</div>
+    </div>
 
-```
-
-``` code
-<!-- Same markup using named line syntax instead -->
-<style type="text/css">
-  @media (orientation: portrait) {
-      #grid { 
-          display: grid;
-          
-          grid-definition-columns: 
-              "board-start" "ctrls-start" "title-start" "score-start" auto 
-              "title-end" "score-end" "stats-start"                   minmax(min-content, 1fr) 
-              "stats-end" "board-end" "ctrls-end";
-               
-          grid-definition-rows: 
-              "title-head" "stats-head"               auto 
-              "title-foot" "score-head"               auto 
-              "score-foot" "stats-foot" "board-head"  minmax(min-content, 1fr) 
-              "board-foot" "ctrls-head"               auto
-              "ctrls-foot"
+    <!-- Same markup using named line syntax instead -->
+    <style type="text/css">
+      @media (orientation: portrait) {
+          #grid { 
+              display: grid;
+              
+              grid-definition-columns: 
+                  "board-start" "ctrls-start" "title-start" "score-start" auto 
+                  "title-end" "score-end" "stats-start"                   minmax(min-content, 1fr) 
+                  "stats-end" "board-end" "ctrls-end";
+                   
+              grid-definition-rows: 
+                  "title-head" "stats-head"               auto 
+                  "title-foot" "score-head"               auto 
+                  "score-foot" "stats-foot" "board-head"  minmax(min-content, 1fr) 
+                  "board-foot" "ctrls-head"               auto
+                  "ctrls-foot"
+          }
       }
-  }
-  @media (orientation: landscape) {
-      #grid { 
-          display: grid;
-          
-          grid-definition-columns: 
-              "title-start" "stats-start" "score-start"                          auto 
-              "title-end" "stats-end" "score-end" "board-start" "ctrls-start"    minmax(min-content, 1fr) 
-              "board-end" "ctrls-end";
-               
-          grid-definition-rows: 
-              "title-head" "board-head"                             auto 
-              "title-foot" "stats-head"                             auto 
-              "stats-foot" "board-foot" "score-head" "ctrls-head"   minmax(min-content, 1fr) 
-              "score-foot" "ctrls-foot"
+      @media (orientation: landscape) {
+          #grid { 
+              display: grid;
+              
+              grid-definition-columns: 
+                  "title-start" "stats-start" "score-start"                          auto 
+                  "title-end" "stats-end" "score-end" "board-start" "ctrls-start"    minmax(min-content, 1fr) 
+                  "board-end" "ctrls-end";
+                   
+              grid-definition-rows: 
+                  "title-head" "board-head"                             auto 
+                  "title-foot" "stats-head"                             auto 
+                  "stats-foot" "board-foot" "score-head" "ctrls-head"   minmax(min-content, 1fr) 
+                  "score-foot" "ctrls-foot"
+          }
       }
-  }
-  /* The grid-area property places a grid item into region of the grid identified by */
-  /* top, right, bottom and left grid lines. */
-  #title    { grid-area: "title-head" "title-end" "title-foot" "title-start"}
-  #score    { grid-area: "score-head" "score-end" "score-foot" "score-start" }
-  #stats    { grid-area: "stats-head" "stats-end" "stats-foot" "stats-start" }
-  #board    { grid-area: "board-head" "board-end" "board-foot" "board-start" }
-  #controls { grid-area: "ctrls-head" "ctrls-end" "ctrls-foot" "ctrls-start" }
-</style>
-<div id="grid">
-  <div id="title">Game Title</div>
-  <div id="score">Score</div>
-  <div id="stats">Stats</div>
-  <div id="board">Board</div>
-  <div id="controls">Controls</div>
-
-```
+      /* The grid-area property places a grid item into region of the grid identified by */
+      /* top, right, bottom and left grid lines. */
+      #title    { grid-area: "title-head" "title-end" "title-foot" "title-start"}
+      #score    { grid-area: "score-head" "score-end" "score-foot" "score-start" }
+      #stats    { grid-area: "stats-head" "stats-end" "stats-foot" "stats-start" }
+      #board    { grid-area: "board-head" "board-end" "board-foot" "board-start" }
+      #controls { grid-area: "ctrls-head" "ctrls-end" "ctrls-foot" "ctrls-start" }
+    </style>
+    <div id="grid">
+      <div id="title">Game Title</div>
+      <div id="score">Score</div>
+      <div id="stats">Stats</div>
+      <div id="board">Board</div>
+      <div id="controls">Controls</div>
+    </div>
 
 ##### Anonymous grid items and positioning
 
 Latest ED incorporates text from latest Flexbox draft. Given the code below:
 
-``` code
-  <div id=”container” style=”display: grid”>
-    Text before
-    <div id=”gridItem”>Grid item</div>
-    Text after
-  </div>
-```
+      <div id=”container” style=”display: grid”>
+        Text before
+        <div id=”gridItem”>Grid item</div>
+        Text after
+      </div>
 
 1.  In the current draft we mimic flexbox behavior. Here is an image where each run of loose text and the one valid grid item are all treated as separate grid items when grid-auto-flow is none: ![](../../assets/images/spec/separateitemswithoutautoplacement.png)
 2.  Here's the behavior when grid-auto-flow is columns: ![](../../assets/images/spec/separateitemswithautoplacement.png)
 3.  Here's a proposed change in behavior where the grid element has its entire contents placed in a default anonymous grid item and then grid items are pulled out of the default grid item's flow by specifying a grid-row/column property resulting in a picture like this: ![](../../assets/images/spec/onedefaultgriditemwithautoplacement.png)
 4.  There is also proposal just like the last but allowing descendants of the grid (not just children) to become valid grid items by specifying a grid-column/row. If we were to adopt that proposal what to do with markup that surrounds the elements which became grid items, but that we don't want to position in our grid? Consider the markup below:
 
-``` code
-  <head>
-  <style>
-    #container{display:grid; grid-auto-flow:columns;}
-    label{grid-column: 1;}
-    input{grid-column: 2;}
-  </style>
-  </head>
-  <body>
-  <form id=”container” style=”display: grid”>
-    <ul>
-      <li>
-        <label id="label1">Input 1</label>
-        <input type="text" id="input1">
-      </li>
-      <li>
-        <label id="label2">Input 2</label>
-        <input type="text" id="input2">
-      </li>
-      <li>
-        <label id="label3">Input 3</label>
-        <input type="text" id="input3">
-      </li>
-    </ul>
-  </form>
-  </body>
-```
+<!-- -->
+
+      <head>
+      <style>
+        #container{display:grid; grid-auto-flow:columns;}
+        label{grid-column: 1;}
+        input{grid-column: 2;}
+      </style>
+      </head>
+      <body>
+      <form id=”container” style=”display: grid”>
+        <ul>
+          <li>
+            <label id="label1">Input 1</label>
+            <input type="text" id="input1">
+          </li>
+          <li>
+            <label id="label2">Input 2</label>
+            <input type="text" id="input2">
+          </li>
+          <li>
+            <label id="label3">Input 3</label>
+            <input type="text" id="input3">
+          </li>
+        </ul>
+      </form>
+      </body>
 
 Proposal is to postpone positioning of descendant grid item until level 2, when this issue can be more fully worked through. We could instead make it our mission to make the current spec future compatible with what we anticipate level 2 to contain.
 

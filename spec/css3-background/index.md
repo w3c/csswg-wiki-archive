@@ -12,9 +12,7 @@ The following are known problems in the [16 February 2005 CSS Backgrounds and Bo
 
 ### Issue 1
 
-``` code
-Dup of issue 6
-```
+    Dup of issue 6
 
 ### Issue 2
 

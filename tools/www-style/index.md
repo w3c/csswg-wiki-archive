@@ -50,10 +50,8 @@ Some mail clients like Outlook prefer to indicate quoted text simply by coloring
 
 Alternately, some people indicate quoting by simple interleaving, and tagging the passages from the quoted message with a short name tag, like:
 
-``` code
-[AB] And then I said, rectum, I hardly knew 'im!
-I don't get the joke.
-```
+    [AB] And then I said, rectum, I hardly knew 'im!
+    I don't get the joke.
 
 This is often unclear in the best of situations, again, but as soon as someone quotes a second time, the quoting level is lost entirely, and the email becomes an unreadable mess.
 

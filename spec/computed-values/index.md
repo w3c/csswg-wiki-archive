@@ -10,19 +10,17 @@ Serialization (such as the result from getComputedStyle) is a valid CSS string r
 
 Here are some examples using background-position:
 
-``` code
-Declared value: right 10px
-Computed value: (100% - 10px), (50% + 0px)
-getComputedValue result: right 10px
+    Declared value: right 10px
+    Computed value: (100% - 10px), (50% + 0px)
+    getComputedValue result: right 10px
 
-Declared value: bottom 50px top 10%
-Computed value: (10% + 0px), (100% - 50px)
-getComputedValue result: 10% bottom 50px
+    Declared value: bottom 50px top 10%
+    Computed value: (10% + 0px), (100% - 50px)
+    getComputedValue result: 10% bottom 50px
 
-Declared value: center center
-Computed value: (50% + 0px), (50% + 0px)
-getComputedValue result: center
-```
+    Declared value: center center
+    Computed value: (50% + 0px), (50% + 0px)
+    getComputedValue result: center
 
 This page lists a number of design patterns that have been identified for computed values.
 

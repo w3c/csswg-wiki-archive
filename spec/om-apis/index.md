@@ -17,12 +17,8 @@ There are multiple problems with this:
 
 Instead of code like:
 
-``` code
-  if (list.operationType == CSSTransformValue.CSS_TRANSLATE3D)
-```
+      if (list.operationType == CSSTransformValue.CSS_TRANSLATE3D)
 
 You can instead have code like:
 
-``` code
-  if (list.operationType == "translate3d")
-```
+      if (list.operationType == "translate3d")

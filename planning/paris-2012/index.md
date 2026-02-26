@@ -149,57 +149,45 @@ Room: Blue room Monday, Green room Tuesday and Wednesday, 5th floor
 
 #### Hotel Ibis Paris Avenue d'Italie
 
-``` code
- 15 bis Avenue d'italie
- 20 meters away from the venue
- not a very nice hotel but if you really want to stay at 20m from the
-   venue...
-```
+     15 bis Avenue d'italie
+     20 meters away from the venue
+     not a very nice hotel but if you really want to stay at 20m from the
+       venue...
 
-``` code
- http://accorhotels.com
- Phone: +33 1 5379 6000
-```
+     http://accorhotels.com
+     Phone: +33 1 5379 6000
 
 #### Hotel Mercure Paris Place d'Italie
 
-``` code
- 25 Boulevard Auguste Blanqui
- a bit better than the above
- at walking distance
- http://accorhotels.com
- Phone: +33 1 1 4580 8223
-```
+     25 Boulevard Auguste Blanqui
+     a bit better than the above
+     at walking distance
+     http://accorhotels.com
+     Phone: +33 1 1 4580 8223
 
 #### Hotel la Manufacture
 
-``` code
- 8 Rue Philippe de Champagne
- just on the other side of Place d'Italie, at walking distance
- I don't know that hotel, a friend told me it's nice.
- http://hotel-la-manufacture.com‎
- Phone: +33 1 4535 4525
-```
+     8 Rue Philippe de Champagne
+     just on the other side of Place d'Italie, at walking distance
+     I don't know that hotel, a friend told me it's nice.
+     http://hotel-la-manufacture.com‎
+     Phone: +33 1 4535 4525
 
 #### Citadines Place d'Italie Paris
 
-``` code
- Studios and greater flats
- only 150 meters away from the venue
- 18 Place d'Italie
- http://citadines.com‎
-```
+     Studios and greater flats
+     only 150 meters away from the venue
+     18 Place d'Italie
+     http://citadines.com‎
 
 #### Marriott Rive Gauche
 
-``` code
- 17 Boulevard Saint-Jacques
- ten minutes walking from the venue or 2 short subway stations
- used to be *the* hotel for all japanese tourists with the best
-   japanese gastronomy restaurant inside
- http://parismarriottrivegauche.com‎
- Phone: +33 1 4078 7980
-```
+     17 Boulevard Saint-Jacques
+     ten minutes walking from the venue or 2 short subway stations
+     used to be *the* hotel for all japanese tourists with the best
+       japanese gastronomy restaurant inside
+     http://parismarriottrivegauche.com‎
+     Phone: +33 1 4078 7980
 
 ### Apartment Share
 

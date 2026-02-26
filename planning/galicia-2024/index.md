@@ -11,13 +11,11 @@ title: "A Coruña F2F June 2024"
 
 Where:
 
-``` code
-  A Coruña, Galicia, Spain
-  Igalia office
-  Rúa de José Luis Bugallal Marchesi, 22
-  https://maps.app.goo.gl/eCban5rx1iHKsZ1J8
-  
-```
+      A Coruña, Galicia, Spain
+      Igalia office
+      Rúa de José Luis Bugallal Marchesi, 22
+      https://maps.app.goo.gl/eCban5rx1iHKsZ1J8
+      
 
 Nearby Airports:
 
