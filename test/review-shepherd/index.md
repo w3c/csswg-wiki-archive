@@ -14,7 +14,7 @@ Whether using this process or Github, test authors and reviewers must adhere to 
 
 The general process looks like this:
 
-\[Image not available\]
+![](../../assets/images/test/review-flowchart-v2.png)
 
 ### Process for New Tests
 

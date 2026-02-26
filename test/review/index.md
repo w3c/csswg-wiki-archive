@@ -23,7 +23,7 @@ Tests pending approval are linked from the [pending review](../../test/css2.1/pe
 
 The review process looks like this:
 
-\[Image not available\]
+![](../../assets/images/test/css2.1/review-flowchart.png)
 
 Changes to the build scripts must be reviewed by a test suite Owner.
 

@@ -232,4 +232,4 @@ Wednesday Wineries in Saratoga:
 - Adenilson Cavalcanti + lunch
 - Mihnea + lunch
 
-[101202414597](../../lib/exe/fetch.php/?tok=e14e03&amp;media=http%3A%2F%2Fw3cmemes.tumblr.com%2Fimage%2F101202414597)
+[101202414597](../../assets/images/http%3A%2F%2Fw3cmemes.tumblr.com%2Fimage%2F101202414597)
