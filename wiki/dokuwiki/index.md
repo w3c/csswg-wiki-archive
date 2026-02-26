@@ -4,7 +4,7 @@ title: "DokuWiki"
 
 # DokuWiki
 
-[[Image not available]](https://www.dokuwiki.org/wiki%3Adokuwiki) DokuWiki is a standards compliant, simple to use [Wiki](https://en.wikipedia.org/wiki/Wiki), mainly aimed at creating documentation of any kind. It is targeted at developer teams, workgroups and small companies. It has a simple but powerful [Formatting Syntax](../../wiki/syntax/ "wiki:syntax") which makes sure the datafiles remain readable outside the Wiki and eases the creation of structured texts. All data is stored in plain text files – no database is required.
+![](../../assets/images/wiki/dokuwiki-128.png) DokuWiki is a standards compliant, simple to use [Wiki](https://en.wikipedia.org/wiki/Wiki), mainly aimed at creating documentation of any kind. It is targeted at developer teams, workgroups and small companies. It has a simple but powerful [Formatting Syntax](../../wiki/syntax/ "wiki:syntax") which makes sure the datafiles remain readable outside the Wiki and eases the creation of structured texts. All data is stored in plain text files – no database is required.
 
 Read the [DokuWiki Manual](https://www.dokuwiki.org/manual) to unleash the full power of DokuWiki.
 

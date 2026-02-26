@@ -78,7 +78,7 @@ The content in an element is affected by the stacking of the region-image and th
 
 One exclusion over two columns of content.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_simple.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -194,7 +194,7 @@ One exclusion over two columns of content.
 
 Multiple overlapping exclusions that affect each other and the content around them.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_overlapping.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -353,7 +353,7 @@ Limitation: cannot add “exclusion” on a custom-shaped element. See details i
 
 Repeating exclusion shape on x, y or both axes.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_repeating.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -458,13 +458,13 @@ Repeating exclusion shape on x, y or both axes.
 
 Multiple disjoint shapes that compose an exclusion
 
-\[Image not available\]
+![](../../assets/images/ideas/exclusions_disjoint_shapes.jpg)
 
 ### Resources:
 
 Image to determine the disjoint shapes by alpha channel transparency.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_disjoint_shapes_mask.png)
 
 ### CSS Exclusions and Shapes
 
@@ -644,7 +644,7 @@ Multiple solutions possible with single image or multiple positioned images. The
 
 Reuse an exclusion shape on different elements
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_reusable.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -828,7 +828,7 @@ good reusability of the region-image without additional placeholder markup
 
 Apply transformations (scale, skew, rotate) to an exclusion shape.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_transforms.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -982,7 +982,7 @@ Limitation:
 
 Custom-shaped container with margin for outer content and padding for inner content
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_padding_margin.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -1109,7 +1109,7 @@ Question: How does padding work? There is no explicit padding method specified. 
 
 Custom-shaped container with a background image / background color.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_background.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -1220,7 +1220,7 @@ Custom-shaped container with a background image / background color.
 
 One exclusion along a text.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions-dropcap.png)
 
 ### CSS Exclusions and Shapes
 
@@ -1303,7 +1303,7 @@ One exclusion along a text.
 - An element can't have a shape and part of it excluded because there's only one “region-restriction” property per element.
 - The following example cannot be achieved with two independent images
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_glazman-limitation-1.jpg)
 
 - Shapes are currently defined only by static images. Support for SVG-defined shapes (like Exclusions & CSS3Floats) would enable scripted manipulation of shapes.
 - Cannot have transforms on only the exclusion image (rotation, scale)

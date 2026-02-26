@@ -14,7 +14,7 @@ This page contains use cases for exclusions and comparative examples of markup u
 
 One exclusion over two columns of content.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_simple.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -62,7 +62,7 @@ One exclusion over two columns of content.
 
 Multiple overlapping exclusions that affect each other and the content around them.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_overlapping.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -115,7 +115,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 
 Repeating exclusion shape on x, y or both axes.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_repeating.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -153,13 +153,13 @@ Repeating exclusion shape on x, y or both axes.
 
 Multiple disjoint shapes that compose an exclusion
 
-\[Image not available\]
+![](../../assets/images/ideas/exclusions_disjoint_shapes.jpg)
 
 ### Resources:
 
 Image to determine the disjoint shapes by alpha channel transparency.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_disjoint_shapes_mask.png)
 
 ### CSS Exclusions and Shapes
 
@@ -224,7 +224,7 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 
 Reuse an exclusion shape on different elements
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_reusable.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -298,7 +298,7 @@ Reuse an exclusion shape on different elements
 
 Apply transformations (scale, skew, rotate) to an exclusion shape.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_transforms.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -375,7 +375,7 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 
 Custom-shaped container with margin for outer content and padding for inner content
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_padding_margin.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -417,7 +417,7 @@ Custom-shaped container with margin for outer content and padding for inner cont
 
 Custom-shaped container with a background image / background color.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions_background.jpg)
 
 ### CSS Exclusions and Shapes
 
@@ -449,7 +449,7 @@ Custom-shaped container with a background image / background color.
 
 One exclusion along a text.
 
-\[Image not available\]
+![](../../assets/images/ideas/css3-floats-use-cases/exclusions-dropcap.png)
 
 ### CSS Exclusions and Shapes
 

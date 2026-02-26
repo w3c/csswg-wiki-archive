@@ -228,9 +228,23 @@ def convert_no_divs(html):
     return html
 
 
-def remove_broken_media(html):
-    """Remove or fix broken DokuWiki media references."""
-    # Remove DokuWiki proxy fetch URLs
+def clean_media(html):
+    """Clean up media elements for conversion."""
+    # Unwrap <a class="media"> wrappers around images, keeping the <img>
+    html = re.sub(
+        r'<a[^>]*class="media"[^>]*>\s*(<img[^>]*/?>)\s*</a>',
+        r'\1',
+        html
+    )
+
+    # Remove DokuWiki logo
+    html = re.sub(
+        r'<img[^>]*src="[^"]*/_media/wiki/dokuwiki[^"]*"[^>]*/?>',
+        '',
+        html
+    )
+
+    # Remove any remaining unrewritten /_media/ or fetch.php references
     html = re.sub(
         r'<a[^>]*href="[^"]*lib/exe/fetch\.php[^"]*"[^>]*>\s*<(?:img|embed)[^>]*>\s*</a>',
         '',
@@ -241,26 +255,34 @@ def remove_broken_media(html):
         '',
         html
     )
-    
-    # Remove broken /_media/ references
     html = re.sub(
-        r'<a[^>]*href="[^"]*/_(?:media|detail)/[^"]*"[^>]*>\s*<img[^>]*>\s*</a>',
-        '[Image not available]',
-        html
-    )
-    html = re.sub(
-        r'<img[^>]*src="/_media/[^"]*"[^>]*/?>',
-        '[Image not available]',
-        html
-    )
-    
-    # Remove DokuWiki logo
-    html = re.sub(
-        r'<img[^>]*src="/_media/wiki/dokuwiki[^"]*"[^>]*/?>',
+        r'<img[^>]*src="[^"]*/_media/[^"]*"[^>]*/?>',
         '',
         html
     )
-    
+
+    # Strip DokuWiki attributes from <img> so pandoc converts to ![alt](src)
+    def strip_img_attrs(m):
+        tag = m.group(0)
+        tag = re.sub(r'\s+class="media(?:left|right|center)?"', '', tag)
+        tag = re.sub(r'\s+loading="lazy"', '', tag)
+        tag = re.sub(r'\s+width="\d+"', '', tag)
+        tag = re.sub(r'\s+height="\d+"', '', tag)
+        return tag
+
+    html = re.sub(r'<img[^>]*/?>',  strip_img_attrs, html)
+
+    # Remove title that duplicates alt on images (avoids redundant ![alt](src "alt"))
+    def strip_dup_title(m):
+        tag = m.group(0)
+        alt_m = re.search(r'alt="([^"]*)"', tag)
+        title_m = re.search(r'title="([^"]*)"', tag)
+        if alt_m and title_m and alt_m.group(1) == title_m.group(1):
+            tag = re.sub(r'\s+title="[^"]*"', '', tag)
+        return tag
+
+    html = re.sub(r'<img[^>]*/?>',  strip_dup_title, html)
+
     return html
 
 
@@ -276,7 +298,7 @@ def cleanup_html(html):
     html = convert_no_divs(html)
     
     # Remove/fix broken media references
-    html = remove_broken_media(html)
+    html = clean_media(html)
     
     # Remove rel="noopener", rel="nofollow" and similar attributes
     html = re.sub(r'\s+rel="[^"]*"', '', html)
