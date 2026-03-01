@@ -10,16 +10,22 @@ title: "Formatting Syntax"
 
 DokuWiki supports **bold**, *italic*, *underlined* and `monospaced` texts. Of course you can **`combine`** all these.
 
-    DokuWiki supports **bold**, //italic//, __underlined__ and ''monospaced'' texts.
-    Of course you can **__//''combine''//__** all these.
+```
+DokuWiki supports **bold**, //italic//, __underlined__ and ''monospaced'' texts.
+Of course you can **__//''combine''//__** all these.
+```
 
 You can use <sub>subscript</sub> and <sup>superscript</sup>, too.
 
-    You can use <sub>subscript</sub> and <sup>superscript</sup>, too.
+```
+You can use <sub>subscript</sub> and <sup>superscript</sup>, too.
+```
 
 You can mark something as ~~deleted~~ as well.
 
-    You can mark something as <del>deleted</del> as well.
+```
+You can mark something as <del>deleted</del> as well.
+```
 
 **Paragraphs** are created from blank lines. If you want to **force a newline** without a paragraph, you can use two backslashes followed by a whitespace or the end of line.
 
@@ -28,9 +34,11 @@ Note that the two backslashes are only recognized at the end of a line\
 or followed by\
 a whitespace \\this happens without it.
 
-    This is some text with some linebreaks\\ Note that the
-    two backslashes are only recognized at the end of a line\\
-    or followed by\\ a whitespace \\this happens without it.
+```
+This is some text with some linebreaks\\ Note that the
+two backslashes are only recognized at the end of a line\\
+or followed by\\ a whitespace \\this happens without it.
+```
 
 You should use forced newlines only if really needed.
 
@@ -42,29 +50,37 @@ DokuWiki supports multiple ways of creating links.
 
 External links are recognized automagically: <http://www.google.com> or simply [www.google.com](http://www.google.com) - You can set the link text as well: [This Link points to google](http://www.google.com). Email addresses like this one: [andi@splitbrain.org](mailto:andi@splitbrain.org) are recognized, too.
 
-    DokuWiki supports multiple ways of creating links. External links are recognized
-    automagically: http://www.google.com or simply www.google.com - You can set
-    link text as well: [[http://www.google.com|This Link points to google]]. Email
-    addresses like this one: <andi@splitbrain.org> are recognized, too.
+```
+DokuWiki supports multiple ways of creating links. External links are recognized
+automagically: http://www.google.com or simply www.google.com - You can set
+link text as well: [[http://www.google.com|This Link points to google]]. Email
+addresses like this one: <andi@splitbrain.org> are recognized, too.
+```
 
 ### Internal
 
 Internal links are created by using square brackets. You can either just give a [pagename](../../wiki/pagename/ "wiki:pagename") or use an additional [link text](../../wiki/pagename/ "wiki:pagename").
 
-    Internal links are created by using square brackets. You can either just give
-    a [[pagename]] or use an additional [[pagename|link text]].
+```
+Internal links are created by using square brackets. You can either just give
+a [[pagename]] or use an additional [[pagename|link text]].
+```
 
 [Wiki pagenames](https://www.dokuwiki.org/pagename) are converted to lowercase automatically, special characters are not allowed.
 
 You can use [namespaces](../../some/namespaces/ "some:namespaces") by using a colon in the pagename.
 
-    You can use [[some:namespaces]] by using a colon in the pagename.
+```
+You can use [[some:namespaces]] by using a colon in the pagename.
+```
 
 For details about namespaces see [namespaces](https://www.dokuwiki.org/namespaces).
 
 Linking to a specific section is possible, too. Just add the section name behind a hash character as known from HTML. This links to [this Section](../../wiki/syntax/#internal "wiki:syntax").
 
-    This links to [[syntax#internal|this Section]].
+```
+This links to [[syntax#internal|this Section]].
+```
 
 Notes:
 
@@ -76,29 +92,35 @@ Notes:
 
 DokuWiki supports [Interwiki](https://www.dokuwiki.org/Interwiki) links. These are quick links to other Wikis. For example this is a link to Wikipedia's page about Wikis: [Wiki](https://en.wikipedia.org/wiki/Wiki).
 
-    DokuWiki supports [[doku>Interwiki]] links. These are quick links to other Wikis.
-    For example this is a link to Wikipedia's page about Wikis: [[wp>Wiki]].
+```
+DokuWiki supports [[doku>Interwiki]] links. These are quick links to other Wikis.
+For example this is a link to Wikipedia's page about Wikis: [[wp>Wiki]].
+```
 
 ### Windows Shares
 
 Windows shares like [this](file://///server/share) are recognized, too. Please note that these only make sense in a homogeneous user group like a corporate [Intranet](https://en.wikipedia.org/wiki/Intranet).
 
-    Windows Shares like [[\\server\share|this]] are recognized, too.
+```
+Windows Shares like [[\\server\share|this]] are recognized, too.
+```
 
 Notes:
 
 - For security reasons direct browsing of windows shares only works in Microsoft Internet Explorer per default (and only in the “local zone”).
 - For Mozilla and Firefox it can be enabled through different workaround mentioned in the [Mozilla Knowledge Base](http://kb.mozillazine.org/Links_to_local_pages_do_not_work). However, there will still be a JavaScript warning about trying to open a Windows Share. To remove this warning (for all users), put the following line in `conf/local.protected.php`:
 
-<!-- -->
-
-    $lang['js']['nosmblinks'] = '';
+```
+$lang['js']['nosmblinks'] = '';
+```
 
 ### Image Links
 
 You can also use an image to link to another internal or external page by combining the syntax for links and [images](#images_and_other_files "wiki:syntax ↵") (see below) like this:
 
-    [[http://www.php.net|{% raw %}{{{% endraw %}wiki:dokuwiki-128.png}}]]
+```css
+[[http://www.php.net|{% raw %}{{{% endraw %}wiki:dokuwiki-128.png}}]]
+```
 
 ![](../../assets/images/wiki/dokuwiki-128.png)
 
@@ -110,7 +132,9 @@ The whole [image](#images_and_other_files "wiki:syntax ↵") and [link](#links "
 
 You can add footnotes <sup>[1)](#fn__1)</sup> by using double parentheses.
 
-    You can add footnotes ((This is a footnote)) by using double parentheses.
+```
+You can add footnotes ((This is a footnote)) by using double parentheses.
+```
 
 ## Sectioning
 
@@ -122,9 +146,11 @@ You can use up to five different levels of headlines to structure your content. 
 
 ##### Headline Level 5
 
-    ==== Headline Level 3 ====
-    === Headline Level 4 ===
-    == Headline Level 5 ==
+```
+==== Headline Level 3 ====
+=== Headline Level 4 ===
+== Headline Level 5 ==
+```
 
 By using four or more dashes, you can make a horizontal line:
 
@@ -142,10 +168,12 @@ Resize to given width and height<sup>[2)](#fn__2)</sup>: ![](../../assets/images
 
 Resized external image:
 
-    Real size:                        {% raw %}{{{% endraw %}wiki:dokuwiki-128.png}}
-    Resize to given width:            {% raw %}{{{% endraw %}wiki:dokuwiki-128.png?50}}
-    Resize to given width and height: {% raw %}{{{% endraw %}wiki:dokuwiki-128.png?200x50}}
-    Resized external image:           {% raw %}{{{% endraw %}http://de3.php.net/images/php.gif?200x50}}
+```css
+Real size:                        {% raw %}{{{% endraw %}wiki:dokuwiki-128.png}}
+Resize to given width:            {% raw %}{{{% endraw %}wiki:dokuwiki-128.png?50}}
+Resize to given width and height: {% raw %}{{{% endraw %}wiki:dokuwiki-128.png?200x50}}
+Resized external image:           {% raw %}{{{% endraw %}http://de3.php.net/images/php.gif?200x50}}
+```
 
 By using left or right whitespaces you can choose the alignment.
 
@@ -155,15 +183,19 @@ By using left or right whitespaces you can choose the alignment.
 
 ![](../../assets/images/wiki/dokuwiki-128.png)
 
-    {% raw %}{{{% endraw %} wiki:dokuwiki-128.png}}
-    {% raw %}{{{% endraw %}wiki:dokuwiki-128.png }}
-    {% raw %}{{{% endraw %} wiki:dokuwiki-128.png }}
+```
+{% raw %}{{{% endraw %} wiki:dokuwiki-128.png}}
+{% raw %}{{{% endraw %}wiki:dokuwiki-128.png }}
+{% raw %}{{{% endraw %} wiki:dokuwiki-128.png }}
+```
 
 Of course, you can add a title (displayed as a tooltip by most browsers), too.
 
 ![This is the caption](../../assets/images/wiki/dokuwiki-128.png)
 
-    {% raw %}{{{% endraw %} wiki:dokuwiki-128.png |This is the caption}}
+```
+{% raw %}{{{% endraw %} wiki:dokuwiki-128.png |This is the caption}}
+```
 
 If you specify a filename (external or internal) that is not an image (`gif, jpeg, png`), then it will be displayed as a link instead.
 
@@ -183,17 +215,17 @@ Dokuwiki supports ordered and unordered lists. To create a list item, indent you
     1.  Just use indention for deeper levels
 3.  That's it
 
-<!-- -->
+```
+  * This is a list
+  * The second item
+    * You may have different levels
+  * Another item
 
-      * This is a list
-      * The second item
-        * You may have different levels
-      * Another item
-
-      - The same list but ordered
-      - Another item
-        - Just use indention for deeper levels
-      - That's it
+  - The same list but ordered
+  - Another item
+    - Just use indention for deeper levels
+  - That's it
+```
 
 Also take a look at the [FAQ on list items](https://www.dokuwiki.org/faq%3Alists).
 
@@ -234,8 +266,10 @@ Typography: [DokuWiki](../../wiki/dokuwiki/ "wiki:dokuwiki") can convert simple 
 
 → ← ↔ ⇒ ⇐ ⇔ » « – — 640×480 © ™ ® “He thought 'It's a man's world'…”
 
-    -> <- <-> => <= <=> >> << -- --- 640x480 (c) (tm) (r)
-    "He thought 'It's a man's world'..."
+```
+-> <- <-> => <= <=> >> << -- --- 640x480 (c) (tm) (r)
+"He thought 'It's a man's world'..."
+```
 
 The same can be done to produce any kind of HTML, it just needs to be added to the [pattern file](https://www.dokuwiki.org/entities).
 
@@ -245,17 +279,19 @@ There are three exceptions which do not come from that pattern file: multiplicat
 
 Some times you want to mark some text to show it's a reply or comment. You can use the following syntax:
 
-    I think we should do it
+```
+I think we should do it
 
-    > No we shouldn't
+> No we shouldn't
 
-    >> Well, I say we should
+>> Well, I say we should
 
-    > Really?
+> Really?
 
-    >> Yes!
+>> Yes!
 
-    >>> Then lets do it!
+>>> Then lets do it!
+```
 
 I think we should do it
 
@@ -337,10 +373,12 @@ DokuWiki supports a simple syntax to create tables.
 
 Table rows have to start and end with a `|` for normal rows or a `^` for headers.
 
-    ^ Heading 1      ^ Heading 2       ^ Heading 3          ^
-    | Row 1 Col 1    | Row 1 Col 2     | Row 1 Col 3        |
-    | Row 2 Col 1    | some colspan (note the double pipe) ||
-    | Row 3 Col 1    | Row 3 Col 2     | Row 3 Col 3        |
+```
+^ Heading 1      ^ Heading 2       ^ Heading 3          ^
+| Row 1 Col 1    | Row 1 Col 2     | Row 1 Col 3        |
+| Row 2 Col 1    | some colspan (note the double pipe) ||
+| Row 3 Col 1    | Row 3 Col 2     | Row 3 Col 3        |
+```
 
 To connect cells horizontally, just make the next cell completely empty as shown above. Be sure to have always the same amount of cell separators!
 
@@ -354,10 +392,12 @@ Vertical tableheaders are possible, too.
 
 As you can see, it's the cell separator before a cell which decides about the formatting:
 
-    |              ^ Heading 1            ^ Heading 2          ^
-    ^ Heading 3    | Row 1 Col 2          | Row 1 Col 3        |
-    ^ Heading 4    | no colspan this time |                    |
-    ^ Heading 5    | Row 2 Col 2          | Row 2 Col 3        |
+```
+|              ^ Heading 1            ^ Heading 2          ^
+^ Heading 3    | Row 1 Col 2          | Row 1 Col 3        |
+^ Heading 4    | no colspan this time |                    |
+^ Heading 5    | Row 2 Col 2          | Row 2 Col 3        |
+```
 
 You can have rowspans (vertically connected cells) by adding `:::` into the cells below the one to which they should connect.
 
@@ -388,10 +428,12 @@ You can have rowspans (vertically connected cells) by adding `:::` into the cell
 
 Apart from the rowspan syntax those cells should not contain anything else.
 
-    ^ Heading 1      ^ Heading 2                  ^ Heading 3          ^
-    | Row 1 Col 1    | this cell spans vertically | Row 1 Col 3        |
-    | Row 2 Col 1    | :::                        | Row 2 Col 3        |
-    | Row 3 Col 1    | :::                        | Row 2 Col 3        |
+```
+^ Heading 1      ^ Heading 2                  ^ Heading 3          ^
+| Row 1 Col 1    | this cell spans vertically | Row 1 Col 3        |
+| Row 2 Col 1    | :::                        | Row 2 Col 3        |
+| Row 3 Col 1    | :::                        | Row 2 Col 3        |
+```
 
 You can align the table contents, too. Just add at least two whitespaces at the opposite end of your text: Add two spaces on the left to align right, two spaces on the right to align left and two spaces at least at both ends for centered text.
 
@@ -422,10 +464,12 @@ You can align the table contents, too. Just add at least two whitespaces at the 
 
 This is how it looks in the source:
 
-    ^           Table with alignment           ^^^
-    |         right|    center    |left          |
-    |left          |         right|    center    |
-    | xxxxxxxxxxxx | xxxxxxxxxxxx | xxxxxxxxxxxx |
+```
+^           Table with alignment           ^^^
+|         right|    center    |left          |
+|left          |         right|    center    |
+| xxxxxxxxxxxx | xxxxxxxxxxxx | xxxxxxxxxxxx |
+```
 
 Note: Vertical alignment is not supported.
 
@@ -435,32 +479,46 @@ If you need to display text exactly like it is typed (without any formatting), e
 
 This is some text which contains addresses like this: http://www.splitbrain.org and \*\*formatting\*\*, but nothing is done with it. The same is true for //\_\_this\_\_ text// with a smiley ;-).
 
-    <nowiki>
-    This is some text which contains addresses like this: http://www.splitbrain.org and **formatting**, but nothing is done with it.
-    </nowiki>
-    The same is true for %%//__this__ text// with a smiley ;-)%%.
+```
+<nowiki>
+This is some text which contains addresses like this: http://www.splitbrain.org and **formatting**, but nothing is done with it.
+</nowiki>
+The same is true for %%//__this__ text// with a smiley ;-)%%.
+```
 
 ## Code Blocks
 
 You can include code blocks into your documents by either indenting them by at least two spaces (like used for the previous examples) or by using the tags `<code>` or `<file>`.
 
-    This is text is indented by two spaces.
+```
+This is text is indented by two spaces.
+```
 
-    This is preformatted code all spaces are preserved: like              <-this
+```
+This is preformatted code all spaces are preserved: like              <-this
+```
 
-    This is pretty much the same, but you could use it to show that you quoted a file.
+```
+This is pretty much the same, but you could use it to show that you quoted a file.
+```
 
 Those blocks were created by this source:
 
-      This is text is indented by two spaces.
+```
+  This is text is indented by two spaces.
+```
 
-    <code>
-    This is preformatted code all spaces are preserved: like              <-this
-    </code>
+```html
+<code>
+This is preformatted code all spaces are preserved: like              <-this
+</code>
+```
 
-    <file>
-    This is pretty much the same, but you could use it to show that you quoted a file.
-    </file>
+```
+<file>
+This is pretty much the same, but you could use it to show that you quoted a file.
+</file>
+```
 
 ### Syntax Highlighting
 
@@ -484,9 +542,11 @@ The following language strings are currently recognized: *4cs, abap, actionscrip
 
 When you use the `<code>` or `<file>` syntax as above, you might want to make the shown code available for download as well. You can to this by specifying a file name after language code like this:
 
-    <file php myexample.php>
-    <?php echo "hello world!"; ?>
-    </file>
+```
+<file php myexample.php>
+<?php echo "hello world!"; ?>
+</file>
+```
 
 myexample.php
 : <?php echo "hello world!"; ?>
@@ -499,27 +559,31 @@ You can embed raw HTML or PHP code into your documents by using the `<html>` or 
 
 HTML example:
 
-    <html>
-    This is some <span style="color:red;font-size:150%;">inline HTML</span>
-    </html>
-    <HTML>
-    <p style="border:2px dashed red;">And this is some block HTML</p>
-    </HTML>
+```html
+<html>
+This is some <span style="color:red;font-size:150%;">inline HTML</span>
+</html>
+<HTML>
+<p style="border:2px dashed red;">And this is some block HTML</p>
+</HTML>
+```
 
 \<html\> This is some \<span style=“color:red;font-size:150%;”\>inline HTML\</span\> \</html\> \<HTML\> \<p style=“border:2px dashed red;”\>And this is some block HTML\</p\> \</HTML\>
 
 PHP example:
 
-    <php>
-    echo 'A logo generated by PHP:';
-    echo '<img src="' . $_SERVER['PHP_SELF'] . '?=' . php_logo_guid() . '" alt="PHP Logo !" />';
-    echo '(generated inline HTML)';
-    </php>
-    <PHP>
-    echo '<table class="inline"><tr><td>The same, but inside a block level element:</td>';
-    echo '<td><img src="' . $_SERVER['PHP_SELF'] . '?=' . php_logo_guid() . '" alt="PHP Logo !" /></td>';
-    echo '</tr></table>';
-    </PHP>
+```php
+<php>
+echo 'A logo generated by PHP:';
+echo '<img src="' . $_SERVER['PHP_SELF'] . '?=' . php_logo_guid() . '" alt="PHP Logo !" />';
+echo '(generated inline HTML)';
+</php>
+<PHP>
+echo '<table class="inline"><tr><td>The same, but inside a block level element:</td>';
+echo '<td><img src="' . $_SERVER['PHP_SELF'] . '?=' . php_logo_guid() . '" alt="PHP Logo !" /></td>';
+echo '</tr></table>';
+</PHP>
+```
 
 \<php\> echo 'A logo generated by PHP:'; echo '\<img src=“' . \$\_SERVER\['PHP_SELF'\] . '?=' . php_logo_guid() . '” alt=“PHP Logo !” /\>'; echo '(inline HTML)'; \</php\> \<PHP\> echo '\<table class=“inline”\>\<tr\>\<td\>The same, but inside a block level element:\</td\>'; echo '\<td\>\<img src=“' . \$\_SERVER\['PHP_SELF'\] . '?=' . php_logo_guid() . '” alt=“PHP Logo !” /\>\</td\>'; echo '\</tr\>\</table\>'; \</PHP\>
 
@@ -542,13 +606,15 @@ The refresh period defaults to 4 hours. Any value below 10 minutes will be treat
 
 **Example:**
 
-    {% raw %}{{{% endraw %}rss>http://slashdot.org/index.rss 5 author date 1h }}
+```
+{% raw %}{{{% endraw %}rss>http://slashdot.org/index.rss 5 author date 1h }}
+```
 
-- [Americans Are Leaving the US in Record Numbers](https://news.slashdot.org/story/26/02/26/127223/americans-are-leaving-the-us-in-record-numbers?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/26 04:07)
-- [Cloudflare Experiment Ports Most of Next.js API in 'One Week' With AI](https://tech.slashdot.org/story/26/02/26/0543208/cloudflare-experiment-ports-most-of-nextjs-api-in-one-week-with-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/26 01:00)
-- [Uber Employees Have Built an AI Clone of Their CEO To Practice Presentations Before the Real Thing](https://slashdot.org/story/26/02/25/1814206/uber-employees-have-built-an-ai-clone-of-their-ceo-to-practice-presentations-before-the-real-thing?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/25 22:01)
-- [AI Can Find Hundreds of Software Bugs -- Fixing Them Is Another Story](https://it.slashdot.org/story/26/02/25/1743213/ai-can-find-hundreds-of-software-bugs----fixing-them-is-another-story?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/25 19:30)
-- [Prediction Market Platform Kalshi Discloses First Insider Trading Enforcement Action](https://slashdot.org/story/26/02/25/1732220/prediction-market-platform-kalshi-discloses-first-insider-trading-enforcement-action?utm_source=rss1.0mainlinkanon&utm_medium=feed) by msmash (2026/02/25 17:30)
+- [NASA Reveals Identity of Astronaut Who Suffered Medical Incident Aboard ISS](https://science.slashdot.org/story/26/02/27/002252/nasa-reveals-identity-of-astronaut-who-suffered-medical-incident-aboard-iss?utm_source=rss1.0mainlinkanon&utm_medium=feed) by BeauHD (2026/02/26 23:00)
+- [Anthropic CEO Says AI Company 'Cannot In Good Conscience Accede' To Pentagon](https://tech.slashdot.org/story/26/02/26/2352217/anthropic-ceo-says-ai-company-cannot-in-good-conscience-accede-to-pentagon?utm_source=rss1.0mainlinkanon&utm_medium=feed) by BeauHD (2026/02/26 19:30)
+- [Four Convicted Over Spyware Affair That Shook Greece](https://yro.slashdot.org/story/26/02/26/2242230/four-convicted-over-spyware-affair-that-shook-greece?utm_source=rss1.0mainlinkanon&utm_medium=feed) by BeauHD (2026/02/26 16:45)
+- [Colorado Lawmakers Push for Age Verification at the Operating System Level](https://tech.slashdot.org/story/26/02/26/233213/colorado-lawmakers-push-for-age-verification-at-the-operating-system-level?utm_source=rss1.0mainlinkanon&utm_medium=feed) by BeauHD (2026/02/26 16:02)
+- [Jack Dorsey's Block Cuts Nearly Half of Its Staff In AI Gamble](https://slashdot.org/story/26/02/26/2250206/jack-dorseys-block-cuts-nearly-half-of-its-staff-in-ai-gamble?utm_source=rss1.0mainlinkanon&utm_medium=feed) by BeauHD (2026/02/26 15:20)
 
 ## Control Macros
 

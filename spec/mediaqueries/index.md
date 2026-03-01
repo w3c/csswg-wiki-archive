@@ -54,18 +54,20 @@ RESOLVED - syntax is now part of the draft.
 
 An idea based on the CSS 2.1 grammar:
 
-    media_query_list
-     : S* media_query [ COMMA S* media_query]*
-     ;
-    media_query
-     : [[ONLY | NOT] S+ media_type [S+ AND S+ expression ]*] | expression [ S+ AND S+ expression ]*
-     ;
-    media_type
-     : IDENT
-     ;
-    expression
-     : media_feature [':' S* term]?
-     ;
-    media_feature
-     : IDENT S*
-     ;
+```
+media_query_list
+ : S* media_query [ COMMA S* media_query]*
+ ;
+media_query
+ : [[ONLY | NOT] S+ media_type [S+ AND S+ expression ]*] | expression [ S+ AND S+ expression ]*
+ ;
+media_type
+ : IDENT
+ ;
+expression
+ : media_feature [':' S* term]?
+ ;
+media_feature
+ : IDENT S*
+ ;
+```

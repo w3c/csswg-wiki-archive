@@ -37,72 +37,74 @@ Exclamation Mark U+0021 ! S ? ? ? ? ? Has fullwidth variant Middle Dot U+00B7 �
 
 ### General Punctuation
 
-    U+2016 ( ‖ ) DOUBLE VERTICAL LINE                    U
-    U+2017 ( ‗ ) DOUBLE LOW LINE                         U
-    U+2020 ( † ) DAGGER                                  U
-    U+2021 ( ‡ ) DOUBLE DAGGER                           U
-    U+2022 ( • ) BULLET                                  U
-    U+2023 ( ‣ ) TRIANGULAR BULLET                       U
-    U+2024 ( ․ ) ONE DOT LEADER                          s
-    U+2025 ( ‥ ) TWO DOT LEADER                          s
-    U+2026 ( … ) HORIZONTAL ELLIPSIS                     s
-    U+2027 ( ‧ ) HYPHENATION POINT
-    U+2030 ( ‰ ) PER MILLE SIGN                          c
-    U+2031 ( ‱ ) PER TEN THOUSAND SIGN                   c
-    U+2032 ( ′ ) PRIME                                   c
-    U+2033 ( ″ ) DOUBLE PRIME                            c
-    U+2034 ( ‴ ) TRIPLE PRIME                            c
-    U+2035 ( ‵ ) REVERSED PRIME                          c
-    U+2036 ( ‶ ) REVERSED DOUBLE PRIME                   c
-    U+2037 ( ‷ ) REVERSED TRIPLE PRIME                   c
-    U+2038 ( ‸ ) CARET                                   S
-    U+203B ( ※ ) REFERENCE MARK                         S
-    U+203D ( ‽ ) INTERROBANG                             U
-    U+203E ( ‾ ) OVERLINE                                S
-    U+2041 ( ⁁ ) CARET INSERTION POINT                   S
-    U+2042 ( ⁂ ) ASTERISM                                S
-    U+2043 ( ⁃ ) HYPHEN BULLET                           S
-    U+204A ( ⁊ ) TIRONIAN SIGN ET                        S
-    U+204B ( ⁋ ) REVERSED PILCROW SIGN                   S
-    U+204C ( ⁌ ) BLACK LEFTWARDS BULLET                  S
-    U+204D ( ⁍ ) BLACK RIGHTWARDS BULLET                 S
-    U+204E ( ⁎ ) LOW ASTERISK                            S
-    U+204F ( ⁏ ) REVERSED SEMICOLON                      S
-    U+2050 ( ⁐ ) CLOSE UP                                S
-    U+2051 ( ⁑ ) TWO ASTERISKS ALIGNED VERTICALLY        S
-    U+2053 ( ⁓ ) SWUNG DASH                              S
-    U+2055 ( ⁕ ) FLOWER PUNCTUATION MARK                 S
-    U+2057 ( ⁗ ) QUADRUPLE PRIME                         c
+```
+U+2016 ( ‖ ) DOUBLE VERTICAL LINE                    U
+U+2017 ( ‗ ) DOUBLE LOW LINE                         U
+U+2020 ( † ) DAGGER                                  U
+U+2021 ( ‡ ) DOUBLE DAGGER                           U
+U+2022 ( • ) BULLET                                  U
+U+2023 ( ‣ ) TRIANGULAR BULLET                       U
+U+2024 ( ․ ) ONE DOT LEADER                          s
+U+2025 ( ‥ ) TWO DOT LEADER                          s
+U+2026 ( … ) HORIZONTAL ELLIPSIS                     s
+U+2027 ( ‧ ) HYPHENATION POINT
+U+2030 ( ‰ ) PER MILLE SIGN                          c
+U+2031 ( ‱ ) PER TEN THOUSAND SIGN                   c
+U+2032 ( ′ ) PRIME                                   c
+U+2033 ( ″ ) DOUBLE PRIME                            c
+U+2034 ( ‴ ) TRIPLE PRIME                            c
+U+2035 ( ‵ ) REVERSED PRIME                          c
+U+2036 ( ‶ ) REVERSED DOUBLE PRIME                   c
+U+2037 ( ‷ ) REVERSED TRIPLE PRIME                   c
+U+2038 ( ‸ ) CARET                                   S
+U+203B ( ※ ) REFERENCE MARK                         S
+U+203D ( ‽ ) INTERROBANG                             U
+U+203E ( ‾ ) OVERLINE                                S
+U+2041 ( ⁁ ) CARET INSERTION POINT                   S
+U+2042 ( ⁂ ) ASTERISM                                S
+U+2043 ( ⁃ ) HYPHEN BULLET                           S
+U+204A ( ⁊ ) TIRONIAN SIGN ET                        S
+U+204B ( ⁋ ) REVERSED PILCROW SIGN                   S
+U+204C ( ⁌ ) BLACK LEFTWARDS BULLET                  S
+U+204D ( ⁍ ) BLACK RIGHTWARDS BULLET                 S
+U+204E ( ⁎ ) LOW ASTERISK                            S
+U+204F ( ⁏ ) REVERSED SEMICOLON                      S
+U+2050 ( ⁐ ) CLOSE UP                                S
+U+2051 ( ⁑ ) TWO ASTERISKS ALIGNED VERTICALLY        S
+U+2053 ( ⁓ ) SWUNG DASH                              S
+U+2055 ( ⁕ ) FLOWER PUNCTUATION MARK                 S
+U+2057 ( ⁗ ) QUADRUPLE PRIME                         c
 
-    # General Punctuation — Double punctuation for vertical text
-    U+203C ( ‼ ) DOUBLE EXCLAMATION MARK                 U
-    U+2047 ( ⁇ ) DOUBLE QUESTION MARK                    U
-    U+2048 ( ⁈ ) QUESTION EXCLAMATION MARK               U
-    U+2049 ( ⁉ ) EXCLAMATION QUESTION MARK               U
+# General Punctuation — Double punctuation for vertical text
+U+203C ( ‼ ) DOUBLE EXCLAMATION MARK                 U
+U+2047 ( ⁇ ) DOUBLE QUESTION MARK                    U
+U+2048 ( ⁈ ) QUESTION EXCLAMATION MARK               U
+U+2049 ( ⁉ ) EXCLAMATION QUESTION MARK               U
 
-    # General Punctuation — Archaic punctuation
-    U+2056 ( ⁖ ) THREE DOT PUNCTUATION                   S
-    U+2058 ( ⁘ ) FOUR DOT PUNCTUATION                    S
-    U+2059 ( ⁙ ) FIVE DOT PUNCTUATION                    S
-    U+205A ( ⁚ ) TWO DOT PUNCTUATION                     S
-    U+205B ( ⁛ ) FOUR DOT MARK                           S
-    U+205C ( ⁜ ) DOTTED CROSS                            S
-    U+205D ( ⁝ ) TRICOLON                                S
-    U+205E ( ⁞ ) VERTICAL FOUR DOTS                      S
+# General Punctuation — Archaic punctuation
+U+2056 ( ⁖ ) THREE DOT PUNCTUATION                   S
+U+2058 ( ⁘ ) FOUR DOT PUNCTUATION                    S
+U+2059 ( ⁙ ) FIVE DOT PUNCTUATION                    S
+U+205A ( ⁚ ) TWO DOT PUNCTUATION                     S
+U+205B ( ⁛ ) FOUR DOT MARK                           S
+U+205C ( ⁜ ) DOTTED CROSS                            S
+U+205D ( ⁝ ) TRICOLON                                S
+U+205E ( ⁞ ) VERTICAL FOUR DOTS                      S
 
-    # Supplemental Punctuation — Dictionary punctuation
-    U+2E1B ( ⸛ ) TILDE WITH RING ABOVE
-    U+2E1E ( ⸞ ) TILDE WITH DOT ABOVE
-    U+2E1F ( ⸟ ) TILDE WITH DOT BELOW
+# Supplemental Punctuation — Dictionary punctuation
+U+2E1B ( ⸛ ) TILDE WITH RING ABOVE
+U+2E1E ( ⸞ ) TILDE WITH DOT ABOVE
+U+2E1F ( ⸟ ) TILDE WITH DOT BELOW
 
-    # Supplemental Punctuation — Archaic punctuation
-    U+2E2A ( ⸪ ) TWO DOTS OVER ONE DOT PUNCTUATION
-    U+2E2B ( ⸫ ) ONE DOT OVER TWO DOTS PUNCTUATION
-    U+2E2C ( ⸬ ) SQUARED FOUR DOT PUNCTUATION
-    U+2E2D ( ⸭ ) FIVE DOT MARK
-    U+2E2E ( ⸮ ) REVERSED QUESTION MARK
-    U+2E30 ( ⸰ ) RING POINT
-    U+2E31 ( ⸱ ) WORD SEPARATOR MIDDLE DOT
+# Supplemental Punctuation — Archaic punctuation
+U+2E2A ( ⸪ ) TWO DOTS OVER ONE DOT PUNCTUATION
+U+2E2B ( ⸫ ) ONE DOT OVER TWO DOTS PUNCTUATION
+U+2E2C ( ⸬ ) SQUARED FOUR DOT PUNCTUATION
+U+2E2D ( ⸭ ) FIVE DOT MARK
+U+2E2E ( ⸮ ) REVERSED QUESTION MARK
+U+2E30 ( ⸰ ) RING POINT
+U+2E31 ( ⸱ ) WORD SEPARATOR MIDDLE DOT
+```
 
 ### Arrows and Box Drawing
 

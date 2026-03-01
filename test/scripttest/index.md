@@ -60,8 +60,8 @@ Example:
 
 ```html
 test(function() { assert_true(true); },
-     'test_name', 
-     { help: 'http://www.w3.org/TR/spec#section', 
+     'test_name',
+     { help: 'http://www.w3.org/TR/spec#section',
        assert: ['This tests something.', 'This also tests something else.'],
        author: ['John Doe <john@doe.com>', 'Jane Doe http://example.com/doe/jane'] }
 );

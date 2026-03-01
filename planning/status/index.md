@@ -10,7 +10,6 @@ It was last updated on 25 October 2017 and tracks backwards through about August
 
 Animation Scrolling
 : Please see minutes for all of the tasks pertaining to this spec.
- 
 
 Animations
 : Resolved: Accept strings as animation-names
@@ -37,15 +36,12 @@ Animations
 : Resolved: Accept the edit proposed in this e-mail.
 : Resolved: Inserting an @keyframe rule if it wasn’t there starts an animation.
 : Note about seizures?
- 
 
 Block Layout
 : Resolved: 0px width float that is next to a line box does count as shortening a line box
- 
 
 Compositing
 : Resolved: Solve background-blend on the root element as Rik requests.
- 
 
 Containment
 : Resolved: Accept #3 from the e-mail (Overflow is allowed visually, but it doesn’t project its “geometry” past the layout-contained ancestor, so it can’t trigger overflow past a layout-containment boundary) and say hit testing is currently undefined.
@@ -53,7 +49,6 @@ Containment
 : ACTION TabAtkins ask his implementor about layout containment and overflow.
 : Resolved: Clarify contain to make sure it specifies the order of operations.
 : Remove any mention of overflow:clip from the containment spec and change section 3.3 to define that clipping happens (just not by affecting value of'overflow').
- 
 
 Colors
 : Resolved: Not breaking on nbsp; for the break-all value.
@@ -64,7 +59,6 @@ Colors
 : ACTION: ask ICC guys how authors can choose colors outside  sRGB. SteveZ ask authoring tool people how authors can specify  colors outside sRGB.
 : Resolved: Add this property/functionality to Color 4 with names TBD.
 : Resolved: Accept rgb() with single values and rgba() with 2 values and keep exploring other potential values.
- 
 
 Colors 4
 : Resolved: Accept the changes in this commit: https://github.com/w3c/csswg-drafts/commit/054f195a222718e182352a0ff1f87affaafb7114 to allow percentages as a resolved type.
@@ -89,11 +83,9 @@ Colors 4
 : Resolved: Add color-correction property to CSS4 color draft, with issue about the problem it’s trying to solve and consideration that it might not be the right solution.
 : Drop color-correction property
 : Propose color profile feature for css
- 
 
 Contain
 : RESOLVED: Publish FPWD of css-contain-1 after edits on overflow dependency
- 
 
 CSS2.1
 : Resolved: Make the changes listed in css2.1 and position (Issues: https://github.com/w3c/csswg-drafts/issues/1436#issuecomment-313215820 )
@@ -110,25 +102,20 @@ CSS2.1
 : ACTION dbaron: propose errata for @charset in 2.1 that brings it into alignment with CSS3 Syntax<trackbot> Created ACTION-665
 : ACTION zcorpan edit CSS 2.1 @charset tests to make them compliant with CSS3 syntax Created ACTION-667
 : Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.
- 
 
 CSS Backgrounds 3
 : Bikeshedify and publish
- 
 
 CSS Conditional Rules
 : Resolved: Add @else to the next level of conditionals pending review by dbaron.
- 
 
 CSS Forms
 : TabAtkins will write up a proposal for checkbox and radio buttons for next week detailing his thoughts while everyone else reviews the e-mails.
 : Make page of all form controls
- 
 
 CSS Logical Properties
 : Resolved: adopt inset as the new positioning property name that’s used for shorthand
 : Action: fremy to create a poll to get more data on the inset name
- 
 
 CSS OM
 : Resolved: Make color properties return used value as resolved value
@@ -136,24 +123,20 @@ CSS OM
 : Resolved: Change the behavior of setProperty() according to last week’s proposal following Rossen’s approval.
 : Resolved: setProperty‘s handling of importance logically behaves same as appending a declaration (like IE/WebKit).
 : Resolved: Add a setPropertyValue and setPropertyPriority application programming interfaces.
- 
 
 CSS OM View
 : Resolved: Adopt the Gecko/Edge behavior and specify that .offsetParent is based on the nearest abspos containing block or table cell
 : <zcorpan> action spieters to reply to Boris' e-mail * trackbot is creating a new ACTION. <trackbot> Created ACTION-655 - Reply to boris' e-mail [on Simon Pieters - due 2014-10-08].
 : Resolved: When a range endpoint falls in the middle of a grapheme cluster, Range.getClientRects() should include the entire grapheme cluster.
- 
 
 CSS Overflow 3
 : RESOLVED: Publish a new WD for overflow
- 
 
 CSS Overflow 4
 : Resolved: FPWD of Overflow 4
 : Resolved: Change this (overflow:hidden not scrolling) from SHOULD to MUST.
 : Resolved: For the quoted [Overflow spec] text we are changing SHOULD to MUST and MAY to MUST. (Text quoted here: https://github.com/w3c/csswg-drafts/issues/666)
   : [[https://www.w3.org/blog/CSS/2015/03/25/minutes-sydney-f2f-part-ii/|Resolved: region-break gets folded into the new property, too.
- 
 
 Device Adaptation
 : Take pull request 714: https://github.com/w3c/csswg-drafts/pull/714
@@ -162,10 +145,8 @@ Device Adaptation
 : ACTION TabAtkins: Define zooming, 2 types, for insertion into either MQ or device-adapt <trackbot> Created ACTION-572
 : Review changes in device-adaptation to see if we need a new wd or just a date bump
 : Review status of device adaptation
- 
 
 Display 3
- 
 
 Display 4
 : Resolved: Drop inline-list-item
@@ -176,7 +157,6 @@ Display 4
 : Resolved: Let's try it out, go forward with the diff (https://github.com/w3c/csswg-drafts/issues/1118#issuecomment-301942276)
 : Make display into a short hand and add an issue on naming for the long hands.
 : Clarify how omitted values are handled for display shorthand (and other shorthands he might've forgotten to handle.
- 
 
 Exclusions
 : Resolved: shorten minimum/maximum to min/max in exclusions values.
@@ -184,18 +164,18 @@ Exclusions
 
 ; Fill Stroke 3
 
-    : [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
-    : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Add -webkit-background-clip-text to the spec stating that authors must not use it but browsers may support it. (Deprecated appendix.)]]
-    : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Figure out dashing origin for text or make text undashable.]]
-    : [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Mark stroke-align at-risk and note issues.]]
+```
+: [[https://www.w3.org/Style/CSS/Tracker/actions/755|Investigate the paint order of the glyphs with respect to shadow and stroke and fill.]]
+: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|RESOLVED: Add -webkit-background-clip-text to the spec stating that authors must not use it but browsers may support it. (Deprecated appendix.)]]
+: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Figure out dashing origin for text or make text undashable.]]
+: [[https://lists.w3.org/Archives/Public/www-style/2016Mar/0358.html|Mark stroke-align at-risk and note issues.]]
+```
 
 Filters
 : Tav presented a new filter primitive he'd like added to level 2; dino agreed it was interesting and will look into adding it to the spec.
- 
 
 Flexbox
 : Resolved: Publish an updated CR of Flexbox.
- 
 
 Fonts 4
 : Resolved: Publish a new Fonts 3 CR.
@@ -203,7 +183,6 @@ Fonts 4
 : Resolved: Change spec text to read first available font that would match the U+0020 (space) character. (This change will be applied to both Fonts 3 and 4)
 : Action Myles to respond to the dwrite issue and ChrisL's asks for font edits. <trackbot> Created ACTION-838
 : Resolved: Add min and max font-size properties. Define whether these properties affect the computed font size.
- 
 
 Font Loading
 : Resolved: font-loading control is only an @font-face descriptor, not a property.
@@ -212,18 +191,14 @@ Font Loading
 : Resolved: We are recommending informatively .cur support. Normatively must support PNG and SVG and saying should support animated formats too.
 : ACTION TabAtkins to provide more info to jdaggett<trackbot> Created ACTION-679.
 : Prepare for CR.
- 
 
 Generated Content
 : Resolved: Change to MAY on default object size shrinking from 300×150 for small devices.
- 
 
 Geometry
 : zcorpan requested review of the edits he made in the WHATWG geometry spec https://github.com/whatwg/compat/issues/19
- 
 
 Grid
- 
 
 Images 3
 : Resolved: Accept the change in https://github.com/w3c/csswg-drafts/issues/1578
@@ -247,7 +222,6 @@ Images 3
 : Resolved: Accept proposal to shift misordered gradient stop fixup rules to after missing position interpolation and transition interpolation in order to make transitions layout-independent.
 : Resolved: No magic length interpolation for angle transitions in linear-gradient().
 : Resolved: Cannot interpolate to/from gradients with keyword direction unless using the same keyword.
- 
 
 Image 4
 : Resolved: Make the image() function always respect EXIF orientation metadata in Backgrounds.
@@ -255,33 +229,27 @@ Image 4
 : Action: krit to write up canvas for css4 images <trackbot> Created ACTION-588 - Write up canvas for css4 images (on Dirk Schulze - due 2013-11-17)
 : Resolved: The working group would like to see work on canvas for CSS Image.
 : Either AmeliaBR or Tav will create a proposal to either offer author control or spec guidance for browsers on dithering.
- 
 
 Inline
 : Publish inline
 : Middle (half of the x height) and Alignment (synonym for text top and text bottom) baselines may be useful to add to CSS Inline.
 : Need to clarify that line boxes are fitted to nonrectangular shapes by requiring zero intersection.
 : Need to define default baseline positions for all baselines.
- 
 
 Input Modality
 : Resolved: bkardell as editor of new ED for input modality (name pending)
- 
 
 Line Grid
 : Resolved: Line-grid will restart in the case of orthogonal flows between parent and child.
- 
 
 Lists
 : Resolved: Add new syntax (TBD) to control counter scoping and consider reversing too.
 : Resolved: We handle the list-style custom-ident in the fashion of Animation.
- 
 
 Overflow 3
 : Resolved: We will work on a solution to accommodate issue 92 (https://github.com/w3c/csswg-drafts/issues/92)
 : clip-path and masking do not affect scrollable bounds
 : Spec the current behavior for nested transforms and add a note that this could be improved
- 
 
 Masking
 : Resolved:  mask-mode can be anywhere in the mask shorthand other than between position and size
@@ -290,7 +258,6 @@ Masking
 : esprehn will look into the compat for clip-path
 : Investigate dropping mask-type property
 : RESOLVED: Change 'auto' value of mask-mode to 'match-source'.
- 
 
 Media Queries
 : Resolved: Revert the Media Queries spec on the whitespace requirement.
@@ -303,13 +270,11 @@ Media Queries
 : Resolved: Add defining a minimum for the onload property as an issue in the Media Queries spec.
 : Republish mq4
 : overflow-block and overflow-inline will be combined into overflow with properties to specify inline and block direction. fantasai will write up proposed text for the new properties.
- 
 
 Media Queries 3
 : Resolved: Accept TabAtkins proposal for removing ambiguity from Resolution Media Query (thread with proposal)
 : Resolved: Allow empty string in media-query
 : Resolved: Update Media Queries 3 wording on never having to evaluate a style sheet unless specified explicitly otherwise.
- 
 
 Media Queries 4
 : Resolved: New WD of MQ4.
@@ -329,12 +294,10 @@ Media Queries 4
 : Resolved: Add infinite value to resolution MQ.
 : fantasai draw up a proposal for overflow MQ ACTION-763
 : Florian write up a proposal for raster MQ ACTION-764
- 
 
 Media Queries 5
 : Tab and Florian to write proposal to Allow custom MQ before @import Action Florian to write a proposal for the mailing list <trackbot> Created ACTION-681.
 : Action TabAtkins to write a proposal for the mailing list.<trackbot> Created ACTION-682.
- 
 
 Misc
 : Action-783 TabAtkins to start collecting namespaces history and future plans on a wiki so we can show the community and allow input.
@@ -342,65 +305,54 @@ Misc
 : TabAtkins brought his proposal to address the possibility of font name being duplicated inside and outside a shadow DOM. The proposal would create a mapping where the external font is translated into a guaranteed unique name when passed into the shadow DOM. dbaron raised the possibility of instead using a function that gets the name from the scope, which was a cleaner solution. TabAtkins will write-up a new proposal using functions and send it to the mailing list for review.
 : ACTION leaverou write outdated-spec-watermark script for w3.org to put on /TR
 : ACTION glazou Investigate which data needs to be added and how to automate current-work <trackbot> Created ACTION-685 - glazou: OK, so we will do these actions, and then go back to AC/plh and iterate
- 
 
 Motion
 : Resolved: New WD of Motion Path
 : Resolved: Rename offset-rotation to be offset-rotate
 : Resolved: Update motion draft on TR
- 
 
 Multicol 1
 : ACTION: TabAtkins talk with WebApps about a reordering API<trackbot> Created ACTION-692.
 : ACTION rossen to add spec text to multicol specifying that text draws over column rules. <trackbot> Created ACTION-578
- 
 
 Namespaces
 : Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.
- 
 
 Paged Media
 : Resolved: page: name is not inheritable, creates a group, but does not force page breaks between groups of the same name (for compat). First page of the group might be the last of another group. Delete the page-group property.
 : Resolved: Keep :nth() as the name, but extend functionality like L4 :nth-child() to solve the “first of group” problem.
 : Resolved: Add :first(A) to select first page of an A group. (A:first only selects a first page of the doc that also happens to be named A).
- 
 
 Positioned Layout
 : Resolved: Close issue 1660 no change.
 : Resolved: Make the changes listed in css2.1 and position (Issues: https://github.com/w3c/csswg-drafts/issues/1436#issuecomment-313215820 )
 : Resolved: Standardize on Edge behavior as described by dbaron in the issue (https://github.com/w3c/csswg-drafts/issues/609#issuecomment-259058527)
 : ACTION Rossen add position: fixed as s full stacking context to positioning <trackbot> Created ACTION-698.
- 
 
 Pseudo-Elements
 : Remove this section (https://drafts.csswg.org/css-pseudo/#cssom) from the current level 4 draft and move the work to Houdini
 : Resolved: Remove special case from ::first-letter
- 
 
 Round Display
 : Action: jihye to move offset- properties to motion-path spec
 : Change the initial value of offset-rotation to 0deg.
 : Add @viewport switch for opting into full round display size as viewport
 : Add 'viewport-fit: contain'
- 
 
 Ruby
 : Resolved: initial-letter and ruby is explicitly undefined.
 : Resolved: writing-mode: vertical-lr on the rt based on parent’s ‘display’ & ‘ruby-position’.
 : Resolved: Floats are passed up through Ruby to the containing block.
- 
 
 Scoping
 : Resolved: Allow ::before/after after ::slotted() but not opening it to general stacking of elements.
 : Resolved: Move fragment styling and @scope to a delta level 4 of scoping module
 : Selecting an Outside Scoping Box - ACTION TabAtkins fantasai Add an example to section 2.2.2<trackbot> Created ACTION-625
- 
 
 Selectors 3
 : Resolved: Request PR on Selectors 3.
 : Resolved: Change the title to subsequent. (In reference to better terminology for ~ sibling combinator: Issue 1382)
   : [[https://www.w3.org/blog/CSS/2014/04/03/minutes-telecon-211/|Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.
- 
 
 Selectors 4
 : Resolved: Add :focus-ring to Selectors 4 or 5.
@@ -420,22 +372,18 @@ Selectors 4
 : Resolved: Modification of the validity of an unknown prefix in selectors and insertion of namespace rules.
 : Resolved: Add :modal to Selectors level 4
 : Resolved: Add :sorted pseudoclass to selectors 4.
- 
 
 Shapes
 : Resolved: Publish new version of CSS Shapes.
- 
 
 Sizing
 : Resolved: Intrinsic sizes that don't require layout to recalculate are treated as definite.
 : ACTION TabAtkins: spec their float layout for intrinsic sizes<trackbot> Created ACTION-659
 : ACTION dbaron: spec their float layout for intrinsic sizes<trackbot> Created ACTION-660
 : Need to clarify that line boxes are fitted to nonrectangular shapes by requiring zero intersection.
- 
 
 Sizing 3
 : ACTION: fantasai figure out what it was wrt percentage sizing<trackbot> Created ACTION-670
- 
 
 Snapshot
 : Resolved: Link to the compat spec in the Snapshot and specs with relevant entires and monitor for problems in the future.
@@ -443,7 +391,6 @@ Snapshot
 : Resolved: Republish 2015 Snap Shot with Will Change added.
 : Resolved: Add edits to 2015 snapshot and then republish.
 : Resolved: Start an ED for 2016 snapshot.
- 
 
 Speech
 : abAtkins: We have time-dimensional pseudos, defined for WebVTT. TabAtkins: Anyone know if they're implemented anywhere? ACTION fantasai: make sure timeline is defined for Speech to use: current, etc <trackbot> Created ACTION-607
@@ -451,14 +398,11 @@ Speech
   ; SVG
   : [[https://lists.w3.org/Archives/Public/www-style/2014Oct/0260.html|Resolved: The root SVG element automatically creates a stacking context, as does foreignObject.
 : Resolved: SVG elements honor z-index automatically (like flex items), without requiring position.
- 
 
 Syntax
- 
 
 Tables
 : Look into allowing min-width on tables to work, and auto to work like it currently does - will require test cases for l2 of tables and possibly sizing as dbaron said it's helpful for intrinsic sizing beyond tables.
- 
 
 Testing
 : Resolved: Drop requirement for author or reviewer metadata
@@ -467,7 +411,6 @@ Testing
 : Resolved: Remove any title requirement, other than having one (implied by validity of HTML requirement)
 : Resolved: testharness.js tests don't need a meta assert (but reftests still do)
 : Resolved: Down-level tests (e.g. CSS2.1 color tests) should be updated to not fail on higher-level implementations (e.g. CSS4 color implementations), but should also leave the old pass conditions intact so that down-level clients can still pass the tests for the older featureset.
- 
 
 Text
 : Resolved: No change for issue about adding no-wrap
@@ -480,7 +423,6 @@ Text
 : RESOLVED: Drop pre-wrap-auto.
 : RESOLVED: text-wrap: balance evaluation works off of remaining space in the line, not average line length.
 : RESOLVED: Add word-break: break-word to spec if Edge/Firefox find it critical enough to Web compat to implement it.
- 
 
 Text 3
 : Resolved: line-break: break-all on its own has the effect of allowing breaks everywhere.
@@ -507,11 +449,9 @@ Text 3
 : ACTION fantasai: clarify that ko-Han is different from ko-Hangul<trackbot> Created ACTION-638
 : Action fantasai to ask i18n for help in setting up and maintaining the justification references <trackbot> Created ACTION-639
 : Resolved: Require which lines are justified even if the justification method is not defined
- 
 
 Text 4
 : fantasai> ACTION TabAtkins Find unhappy dude at Google who dislikes hyphenation properties and have him send email explaining his unhappiness to www-style <trackbot> Created ACTION-715
- 
 
 Transforms
 : Resolved: Any value of opacity less than one forces transform styles to be flat.
@@ -525,7 +465,6 @@ Transforms
 : Send update to mailing list
 : Share transform testcases with the group.
 : <fantasai> ACTION: fantasai write up with Tab potential changes to transform-origin to reduce/alter inconsistencies with background-position <trackbot> Created ACTION-599 - Write up with tab potential changes to transform-origin to reduce/alter inconsistencies with background-position (on Elika Etemad - due 2013-11-19).
- 
 
 Transitions
 : Resolved: Remove the paint server definition from Transitions, deferring to the Images definition for transitioning values.
@@ -533,7 +472,6 @@ Transitions
 : Resolved: Migrate Shane’s document (http://rawgit.com/shans/98cb810920ac43876020/raw/b77db7529411066c9f3cdd36a52d0b98553525f9/Overview.html) into the dev pages and the SotD section should say that it’s intended to be incorporated into Transitions and Animations 4.
 : Resolved: Move to matrix for the serialization of the computed value for Transitions.
 : Action: Fantasai Define prop def table (in "Snapshot").
- 
 
 UI
 : Resolved: Take CSS UI 3 to PR.
@@ -557,15 +495,12 @@ UI
 : Resolved: Replace region-fragment with ‘fragmentation’, written by Florian, determine where it belongs.
 : Resolved: Tighten the language of the directional focus property behavior and include an informative note about the behaviors we’re considering and welcome/actively solicit input.
 : Resolved: Effects affect scrollbars and focus rings. We may work on controls later.
- 
 
 Undefined Spec
 : stakagi presented some very detailed work he had done (Available here: https://www.w3.org/Graphics/SVG/WG/wiki/Proposals/Investigation_of_APIs_for_Level_of_detail)
 : Adopt the proposed convention for propdef tables for shorthands
- 
 
 Values and Units 3
- 
 
 Values and Units 4
 : Resolved: Close issue #309 no change.
@@ -586,7 +521,6 @@ Values and Units 4
 : <trackbot> ACTION-632 on TabAtkins - Figure out if enhancing url() works
 : Resolved: Accept TabAtkins proposal for calc() serialization and add a note that there remains a concern about editors getting access to the bare string.
 : Resolved: Start a level 4 draft of Values & Units, move calc() serialization to it, and then publish the remainder of Values & Units 3 as CR.
- 
 
 Variables
 : Resolved: Rename what was 'constant' variables to 'environment' variables using env().

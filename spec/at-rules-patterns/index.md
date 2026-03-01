@@ -45,41 +45,49 @@ When creating a new at-rule, you need to add some CSSOM stuff as well:
 
 **A new constant** (coordinated at the [CSSOM Constants](../../spec/cssom-constants/ "spec:cssom-constants") page), added to the CSSRule interface like:
 
-      partial interface CSSRule {
-          const unsigned short FOO_RULE = [number];
-      };
+```css
+  partial interface CSSRule {
+      const unsigned short FOO_RULE = [number];
+  };
+```
 
 **A new interface:**
 
 For category 1 rules, the interface should inherit from CSSRule, and have attributes exposing all the information they contain. For example, here's the @import rule:
 
-      interface CSSImportRule : CSSRule {
-          readonly attribute DOMString href;
-          readonly attribute MediaList media;
-          readonly attribute CSSStyleSheet styleSheet;
-      };
+```css
+  interface CSSImportRule : CSSRule {
+      readonly attribute DOMString href;
+      readonly attribute MediaList media;
+      readonly attribute CSSStyleSheet styleSheet;
+  };
+```
 
 For category 2 rules, the interface should inherit from CSSGroupingRule, and have attributes for any other information they contain. For example, here's the @media rule:
 
-      interface CSSMediaRule : CSSConditionRule {
-          readonly attribute MediaList media;
-      }
+```css
+  interface CSSMediaRule : CSSConditionRule {
+      readonly attribute MediaList media;
+  }
+```
 
 (CSSConditionRule inherits from CSSGroupingRule, so it still satisfies the above criteria.)
 
 For category 3 and 4 rules, the interface should expose attributes for all the descriptors, and attributes for any other information they contain, like the name of a @counter-style. For example, here's the @counter-style rule.
 
-      interface CSSCounterStyleRule : CSSRule {
-          readonly attribute DOMString name;
-          readonly attribute DOMString type;
-          readonly attribute DOMString symbols;
-          readonly attribute DOMString additiveSymbols;
-          readonly attribute DOMString negative;
-          readonly attribute DOMString prefix;
-          readonly attribute DOMString suffix;
-          readonly attribute DOMString range;
-          readonly attribute DOMString fallback;
-      }
+```css
+  interface CSSCounterStyleRule : CSSRule {
+      readonly attribute DOMString name;
+      readonly attribute DOMString type;
+      readonly attribute DOMString symbols;
+      readonly attribute DOMString additiveSymbols;
+      readonly attribute DOMString negative;
+      readonly attribute DOMString prefix;
+      readonly attribute DOMString suffix;
+      readonly attribute DOMString range;
+      readonly attribute DOMString fallback;
+  }
+```
 
 If you don't understand how to write WebIDL for the interfaces, just ask.
 

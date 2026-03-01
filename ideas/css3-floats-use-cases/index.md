@@ -85,7 +85,7 @@ One exclusion over two columns of content.
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
@@ -98,15 +98,15 @@ One exclusion over two columns of content.
         top: 50%;
         left: 50%;
         wrap-flow: both;
-        shape-outside: circle(50%, 50%, 30%);    
-    } 
+        shape-outside: circle(50%, 50%, 30%);
+    }
  
     /* with image */
      #shape{
         position: absolute;
         top: 50%;
         left: 50%;
-        wrap-flow: both; 
+        wrap-flow: both;
         shape-outside: url(mycircle.png);
         shape-image-threshold: 100%;
     }
@@ -127,7 +127,7 @@ One exclusion over two columns of content.
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
@@ -140,17 +140,17 @@ One exclusion over two columns of content.
         position:absolute;
         top:50%;
         left:50%;
-        wrap-shape: polygon(x1,y1 ... xn,yn);    
-    } 
+        wrap-shape: polygon(x1,y1 ... xn,yn);
+    }
  
     /* with image */
      #shape{
         float:positioned;
         position:absolute;
         top:50%;
-        left:50%; 
+        left:50%;
         wrap-image: url(mycircle.png);
-        wrap-image-threshold: 100%; 
+        wrap-image-threshold: 100%;
     }
  
     </style>
@@ -161,7 +161,7 @@ One exclusion over two columns of content.
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
     </div>
 </body>
-</html>   
+</html>
 ```
 
 ### Daniel Glazman's proposal
@@ -169,7 +169,7 @@ One exclusion over two columns of content.
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
@@ -177,8 +177,8 @@ One exclusion over two columns of content.
         region-restriction: outside; /* how do I have inside and outside wrapping? */
         region-image: url(mycircle.png); /* how do I adjust the alpha threshold? */
  
-        region-position: 50% 50%;  
-    } 
+        region-position: 50% 50%;
+    }
  
     </style>
 </head>
@@ -201,7 +201,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
@@ -211,25 +211,25 @@ Multiple overlapping exclusions that affect each other and the content around th
     #circle{
         position: absolute;
         top: 20%;
-        left: 60%;   
+        left: 60%;
         color: red;
  
         z-index: 1; /* avoid being affected by #square */
-        wrap-flow: both; 
+        wrap-flow: both;
         wrap-margin: 10px;
-        wrap-shape: circle(50%, 50%, 30%);    
+        wrap-shape: circle(50%, 50%, 30%);
     }
  
-    /* will be affected by #circle because the z-index is 0 by default */   
+    /* will be affected by #circle because the z-index is 0 by default */
     #square{
         position:absolute;
         bottom:20%;
         left:30%;
-        color:blue;    
+        color:blue;
  
-        wrap-flow: both;  
+        wrap-flow: both;
         wrap-shape: rect(10%, 50%, 200px 200px);
-    } 
+    }
  
     </style>
 </head>
@@ -240,7 +240,7 @@ Multiple overlapping exclusions that affect each other and the content around th
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
     </div>
 </body>
-</html> 
+</html>
 ```
 
 ### CSS3 Floats
@@ -248,7 +248,7 @@ Multiple overlapping exclusions that affect each other and the content around th
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
@@ -260,11 +260,11 @@ Multiple overlapping exclusions that affect each other and the content around th
         float: positioned;
         position: absolute;
         top: 20%;
-        left: 60%;   
+        left: 60%;
         color: red;
  
-        z-index: 2;    
-        wrap-shape: polygon(x1,y1 ... xn,yn);    
+        z-index: 2;
+        wrap-shape: polygon(x1,y1 ... xn,yn);
         wrap-margin: 10px;
     }
  
@@ -273,12 +273,12 @@ Multiple overlapping exclusions that affect each other and the content around th
         position: absolute;
         bottom: 20%;
         left: 30%;
-        color: blue;    
+        color: blue;
  
         z-index: 1;
-        wrap-shape: rectangle(x, y, 200px 200px);    
+        wrap-shape: rectangle(x, y, 200px 200px);
         wrap-margin: 10px;
-    } 
+    }
  
     </style>
 </head>
@@ -289,7 +289,7 @@ Multiple overlapping exclusions that affect each other and the content around th
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
     </div>
 </body>
-</html>   
+</html>
 ```
 
 ### Daniel Glazman's proposal
@@ -299,11 +299,11 @@ Limitation: cannot add “exclusion” on a custom-shaped element. See details i
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
-        column-gap: 1em;  
+        column-gap: 1em;
  
         /* exclusion for the two overlapping shapes */
         region-restriction: outside;
@@ -314,28 +314,28 @@ Limitation: cannot add “exclusion” on a custom-shaped element. See details i
     #shape1{
         position:absolute;
         top:20%;
-        left:60%;   
-        color:red;  
+        left:60%;
+        color:red;
  
         /* shape for the content */
-        region-restriction: inside; 
-        region-image: url(mycircle.png); 
+        region-restriction: inside;
+        region-image: url(mycircle.png);
     }
  
     /*
-    Cannot have a region-restriction: outside 
+    Cannot have a region-restriction: outside
     because the element would lose it's custom shape.
     */
-    #shape2{ 
-        position:absolute; 
+    #shape2{
+        position:absolute;
         bottom:20%;
         left:30%;
-        color:blue;    
+        color:blue;
  
         /* CANNOT add the "exclusion" of the circle shape! */
-        region-restriction: inside; 
-        region-image: url(mysquare.png); 
-    } 
+        region-restriction: inside;
+        region-image: url(mysquare.png);
+    }
  
     </style>
 </head>
@@ -362,7 +362,7 @@ Repeating exclusion shape on x, y or both axes.
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
@@ -374,7 +374,7 @@ Repeating exclusion shape on x, y or both axes.
         height:100%;
         width:20px;
         left:0;
-    }                         
+    }
  
     </style>
 </head>
@@ -392,26 +392,26 @@ Repeating exclusion shape on x, y or both axes.
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
         column-gap: 1em;
         }
  
-    #shape{ 
+    #shape{
         float:positioned;
         position:absolute;
         height:100%;
         width:20px;
-        left:0; 
+        left:0;
  
-        wrap-type: right;  
-        wrap-shape: url("triangle_90deg.png"); 
+        wrap-type: right;
+        wrap-shape: url("triangle_90deg.png");
         wrap-image-position: top left;
-        wrap-image-repeat: repeat-y; 
-        wrap-image-threshold: 100%; 
-    }                         
+        wrap-image-repeat: repeat-y;
+        wrap-image-threshold: 100%;
+    }
  
     </style>
 </head>
@@ -421,7 +421,7 @@ Repeating exclusion shape on x, y or both axes.
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
     </div>
 </body>
-</html>   
+</html>
 ```
 
 ### Daniel Glazman's proposal
@@ -429,20 +429,20 @@ Repeating exclusion shape on x, y or both axes.
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
         column-gap: 1em;
-        height:100%;      
+        height:100%;
  
-        region-restriction: outside; 
-        region-image: url("triangle_90deg.png"); 
+        region-restriction: outside;
+        region-image: url("triangle_90deg.png");
         /*missing alpha threshold property*/
  
-        region-repeat: repeat-y; 
+        region-repeat: repeat-y;
         region-position: top left;
-    }                         
+    }
  
     </style>
 </head>
@@ -473,9 +473,9 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
-    #article{ 
+    #article{
         width:100%;
         column-count: 2;
         column-gap: 1em;
@@ -490,7 +490,7 @@ Multiple solutions possible with single image, multiple positioned images or SVG
         bottom: 0;
  
         wrap-flow: both;
-        wrap-padding: 10px;  
+        wrap-padding: 10px;
         /* circle and triangle SVG shapes */
         shape-outside: circle(cx,cy,r), polygon(x1, y1, x2, y2, x3, y3);
  
@@ -506,14 +506,14 @@ Multiple solutions possible with single image, multiple positioned images or SVG
         color: red;
         bottom: 0;
  
-        wrap-flow: both;  
-        shape-image: url("disjoint-shapes-mask.png"); 
+        wrap-flow: both;
+        shape-image: url("disjoint-shapes-mask.png");
         shape-image-threshold: 100%;
     }
  
     </style>
 </head>
-<body> 
+<body>
     <div id="disjoint-article">
          nousmod tempor inciditunt ut...
     </div>
@@ -532,13 +532,13 @@ Multiple solutions possible with single image, multiple positioned images or SVG
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
-    #article{ 
+    #article{
         width:100%;
         column-count: 2;
         column-gap: 1em;
-        }  
+        }
  
     #disjoint-article{
         float:positioned;
@@ -548,14 +548,14 @@ Multiple solutions possible with single image, multiple positioned images or SVG
         color:red;
         bottom:0;
  
-        wrap-image: url("disjoint-shapes-mask.png"); 
+        wrap-image: url("disjoint-shapes-mask.png");
         wrap-image-position: bottom left;
         wrap-image-threshold: 100%;
     }
  
     </style>
 </head>
-<body> 
+<body>
     <div id="disjoint-article">
          nousmod tempor inciditunt ut...
     </div>
@@ -564,7 +564,7 @@ Multiple solutions possible with single image, multiple positioned images or SVG
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
     </div>
 </body>
-</html>      
+</html>
 ```
 
 ### Daniel Glazman's proposal
@@ -574,19 +574,19 @@ Multiple solutions possible with single image or multiple positioned images. The
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
-    /* Single image ---------------------------------------------------------------------*/  
-    #article{ 
+    /* Single image ---------------------------------------------------------------------*/
+    #article{
         position:relative; /* so I can position the #disjoint-article over the mask*/
         width:100%;
         column-count: 2;
         column-gap: 1em;
  
-        region-restriction: outside; /* create mask (exclusion effect) to match "#disjoint-article" */ 
+        region-restriction: outside; /* create mask (exclusion effect) to match "#disjoint-article" */
         region-image: url("disjoint-shapes-mask.png"); /* how do I adjust the alpha threshold? */
-        region-position: bottom left;  
-    }  
+        region-position: bottom left;
+    }
  
     #disjoint-article{
         position:absolute;
@@ -596,22 +596,22 @@ Multiple solutions possible with single image or multiple positioned images. The
         bottom:0; /* align with mask on #article */
         left:0;
  
-        region-restriction: inside; /* create shape for the text container */  
+        region-restriction: inside; /* create shape for the text container */
         region-image: url("disjoint-shapes-mask.png"); /* how do I adjust the alpha threshold? */
     }
  
  
-    /* Multiple images ------------------------------------------------------------------*/  
-    #article{ 
-        position:relative; 
+    /* Multiple images ------------------------------------------------------------------*/
+    #article{
+        position:relative;
         width:100%;
         column-count: 2;
         column-gap: 1em;
  
-        region-restriction: outside; /* create mask (exclusion effect) to match "#disjoint-article" */ 
-        region-image: url("triangle.png"), url("circle.png"); 
-        region-position: 90% left, 60% right;  
-    }  
+        region-restriction: outside; /* create mask (exclusion effect) to match "#disjoint-article" */
+        region-image: url("triangle.png"), url("circle.png");
+        region-position: 90% left, 60% right;
+    }
  
     #disjoint-article{
         position:absolute;
@@ -621,14 +621,14 @@ Multiple solutions possible with single image or multiple positioned images. The
         bottom:0; /* align with mask on #article */
         left:0;
  
-        region-restriction: inside; /* create shape for the text container */  
-        region-image: url("triangle.png"), url("circle.png"); 
+        region-restriction: inside; /* create shape for the text container */
+        region-image: url("triangle.png"), url("circle.png");
         region-position: bottom left, top right; /* tricky to align to "#article" mask*/
-     }  
+     }
  
     </style>
 </head>
-<body> 
+<body>
  
     <div id="article">
         <div id="disjoint-article">
@@ -655,15 +655,15 @@ Reuse an exclusion shape on different elements
 <head>
     <style type="text/css">
  
-    #article1{ 
+    #article1{
         position: relative;
     }
  
-    #article2{ 
+    #article2{
         position:relative;
         column-count: 2;
         column-gap: 1em;
-        color: red; 
+        color: red;
     }
  
     /* with SVG Shape */
@@ -671,7 +671,7 @@ Reuse an exclusion shape on different elements
         position: absolute;
  
         wrap-flow: both;
-        shape-outside: polygon(x1, y1 ... xn, yn); 
+        shape-outside: polygon(x1, y1 ... xn, yn);
     }
  
     /* with image */
@@ -681,7 +681,7 @@ Reuse an exclusion shape on different elements
  
         position: absolute;
  
-        wrap-flow: both;  
+        wrap-flow: both;
         shape-image: url("triangle.png");
         shape-image-threshold: 100%;
     }
@@ -695,7 +695,7 @@ Reuse an exclusion shape on different elements
     #article2 .exclusion{
         top: 50%;
         left: 70%
-    } 
+    }
  
     </style>
 </head>
@@ -709,7 +709,7 @@ Reuse an exclusion shape on different elements
     <div id="article2">
         <div class="exclusion"></div>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
-    </div> 
+    </div>
 </body>
 </html>
 ```
@@ -723,11 +723,11 @@ Reuse an exclusion shape on different elements
 <head>
     <style type="text/css">
  
-    #article1{ 
+    #article1{
         position:relative;
         }
  
-    #article2{ 
+    #article2{
         position:relative;
         column-count: 2;
         column-gap: 1em;
@@ -739,7 +739,7 @@ Reuse an exclusion shape on different elements
         float:positioned;
         position:absolute;
  
-        wrap-shape: poly(x1,y1 ... xn,yn); 
+        wrap-shape: poly(x1,y1 ... xn,yn);
     }
  
     /* with image */
@@ -764,7 +764,7 @@ Reuse an exclusion shape on different elements
     #article2 .exclusion{
         top:50%;
         left:70%
-    } 
+    }
  
     </style>
 </head>
@@ -778,9 +778,9 @@ Reuse an exclusion shape on different elements
     <div id="article2">
         <div class="exclusion"></div>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
-    </div> 
+    </div>
 </body>
-</html>   
+</html>
 ```
 
 ### Daniel Glazman's proposal
@@ -790,23 +790,23 @@ good reusability of the region-image without additional placeholder markup
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
-    .triangle{  
-        region-image: url("triangle_90deg.png"); 
-        region-restriction: outside; 
-    }   
+    .triangle{
+        region-image: url("triangle_90deg.png");
+        region-restriction: outside;
+    }
  
     #article1{
         region-position: 50% 30%;
     }
  
     #article2{
-        region-position: 50% 70%;  
+        region-position: 50% 70%;
  
         column-count: 2;
         column-gap: 1em;
-        color:red; 
+        color:red;
     }
  
  
@@ -819,9 +819,9 @@ good reusability of the region-image without additional placeholder markup
  
     <div id="article2" class="triangle">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
-    </div> 
+    </div>
 </body>
-</html> 
+</html>
 ```
 
 ## UC 6: shape transforms
@@ -839,15 +839,15 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 <head>
     <style type="text/css">
  
-    #article1{ 
+    #article1{
         position: relative;
     }
  
-    #article2{ 
+    #article2{
         position: relative;
         column-count: 2;
         column-gap: 1em;
-        color: red; 
+        color: red;
     }
  
     /* with SVG Shape */
@@ -855,7 +855,7 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
         position: absolute;
  
         wrap-flow: both;
-        shape-outside: polygon(x1, y1 ... xn, yn); 
+        shape-outside: polygon(x1, y1 ... xn, yn);
     }
  
     /* with image */
@@ -865,7 +865,7 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
  
         position:absolute;
  
-        wrap-flow: both;  
+        wrap-flow: both;
         shape-image: url("triangle.png");
         shape-image-threshold: 100%;
     }
@@ -878,11 +878,11 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
  
     #article2 .exclusion{
         top: 50%;
-        left: 70%; 
+        left: 70%;
  
-        /* increase scale, then flip on x-axis */  
+        /* increase scale, then flip on x-axis */
         transform: scale(1.5) scale(1, -1);
-    } 
+    }
  
     </style>
 </head>
@@ -896,7 +896,7 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
     <div id="article2">
         <div class="exclusion"></div>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
-    </div> 
+    </div>
 </body>
 </html>
 ```
@@ -910,15 +910,15 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
 <head>
     <style type="text/css">
  
-    #article1{ 
+    #article1{
         position:relative;
     }
  
-    #article2{ 
+    #article2{
         position:relative;
         column-count: 2;
         column-gap: 1em;
-        color:red; 
+        color:red;
     }
  
     /* with SVG Shape */
@@ -926,7 +926,7 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
         float:positioned;
         position:absolute;
  
-        wrap-shape: poly(x1,y1 ... xn,yn); 
+        wrap-shape: poly(x1,y1 ... xn,yn);
     }
  
     /* with image */
@@ -950,15 +950,15 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
  
     #article2 .exclusion{
         top:50%;
-        left:70%;   
-        /* increase scale, then flip on x-axis*/  
-        transform: scale(1.5) scale(1, -1); 
-    } 
+        left:70%;
+        /* increase scale, then flip on x-axis*/
+        transform: scale(1.5) scale(1, -1);
+    }
  
     </style>
 </head>
 <body>
-    <div id="article1"> 
+    <div id="article1">
         <div class="exclusion"></div>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
     </div>
@@ -966,9 +966,9 @@ Apply transformations (scale, skew, rotate) to an exclusion shape.
     <div id="article2">
         <div class="exclusion"></div>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
-    </div> 
+    </div>
 </body>
-</html>   
+</html>
 ```
 
 ### Daniel Glazman's proposal
@@ -989,7 +989,7 @@ Custom-shaped container with margin for outer content and padding for inner cont
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
@@ -1000,13 +1000,13 @@ Custom-shaped container with margin for outer content and padding for inner cont
     #shape{
         position: absolute;
         top: 50%;
-        left: 50%;   
+        left: 50%;
         color: blue;
  
-        wrap-flow: both;    
+        wrap-flow: both;
         shape-outside: polygon(x1, y1, ... xn, yn);
-        wrap-margin: 15px;    
-        wrap-padding: 5px;    
+        wrap-margin: 15px;
+        wrap-padding: 5px;
     }
  
     </style>
@@ -1017,7 +1017,7 @@ Custom-shaped container with margin for outer content and padding for inner cont
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
     </div>
 </body>
-</html>     
+</html>
 ```
 
 ### CSS3 Floats
@@ -1025,7 +1025,7 @@ Custom-shaped container with margin for outer content and padding for inner cont
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
@@ -1037,12 +1037,12 @@ Custom-shaped container with margin for outer content and padding for inner cont
         float:positioned;
         position:absolute;
         top:50%;
-        left:50%;   
+        left:50%;
         color:blue;
  
         wrap-shape: poly(x1,y1 ... xn,yn);
-        wrap-margin: 15px;    
-        wrap-padding: 5px;    
+        wrap-margin: 15px;
+        wrap-padding: 5px;
     }
  
     </style>
@@ -1053,7 +1053,7 @@ Custom-shaped container with margin for outer content and padding for inner cont
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
     </div>
 </body>
-</html>   
+</html>
 ```
 
 ### Daniel Glazman's proposal
@@ -1065,26 +1065,26 @@ Question: How does padding work? There is no explicit padding method specified. 
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
         column-count: 2;
         column-gap: 1em;
  
         /* exclusion effect on the bottom container */
-        region-restriction: outside;      
+        region-restriction: outside;
  
         /* faking margin with a larger circle image */
         region-image: url(larger-circle.png);
         region-position: center center;
     }
  
-    #shape{ 
+    #shape{
         position:absolute;
         width: 200px; /* width of smaller-circle.png */
         height: 200px;  /* height of smaller-circle.png */
         top:50%;
-        left:50%;   
+        left:50%;
         color:blue;
  
         /* how does "padding" work? */
@@ -1116,27 +1116,27 @@ Custom-shaped container with a background image / background color.
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
-    /* with SVG shape */ 
+    /* with SVG shape */
     #article{
-        shape-inside: polygon(x1,y1 ...xn,yn); 
+        shape-inside: polygon(x1,y1 ...xn,yn);
         wrap-padding: 10px;
  
-        background-image: url(airplane.png); 
-        background-position: center center; 
+        background-image: url(airplane.png);
+        background-position: center center;
         mask-box-image: url(circle.png) 100 stretch;
         color:blue;
     }
  
-    /* with image */ 
+    /* with image */
     #article{
         shape-image: url(circle.png);
-        shape-image-threshold: 100%; 
+        shape-image-threshold: 100%;
         wrap-padding: 10px;
  
-        background-image: url(airplane.png); 
-        background-position: center center; 
+        background-image: url(airplane.png);
+        background-position: center center;
         mask-box-image: url(circle.png) 100 stretch;
         color:blue;
     }
@@ -1156,24 +1156,24 @@ Custom-shaped container with a background image / background color.
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
-    /* with SVG shape */ 
+    /* with SVG shape */
     #article{
         wrap-shape: poly(x1,y1 ...xn,yn);
  
-        background-image: url(airplane.png); 
-        background-position: center center; 
+        background-image: url(airplane.png);
+        background-position: center center;
             color:blue;
     }
  
-    /* with image */ 
+    /* with image */
     #article{
         wrap-image: url(circle.png);
         wrap-image-threshold: 100%;
  
-        background-image: url(airplane.png); 
-        background-position: center center; 
+        background-image: url(airplane.png);
+        background-position: center center;
             color:blue;
     }
  
@@ -1184,7 +1184,7 @@ Custom-shaped container with a background image / background color.
         Lorem ipsum dolor sit amet, consectetur adipisicing elit...
     </div>
 </body>
-</html>    
+</html>
 ```
 
 ### Daniel Glazman's proposal
@@ -1192,15 +1192,15 @@ Custom-shaped container with a background image / background color.
 ```html
 <html>
 <head>
-    <style type="text/css"> 
+    <style type="text/css">
  
     #article{
-        region-position: center center;  
-        region-image: url(circle.png); 
-        region-restriction: inside; 
+        region-position: center center;
+        region-image: url(circle.png);
+        region-restriction: inside;
  
-        background-image: url(airplane.png); 
-        background-position: center center; 
+        background-image: url(airplane.png);
+        background-position: center center;
         mask-box-image: url(circle.png) 100 stretch;
         color:blue;
     }
@@ -1227,16 +1227,16 @@ One exclusion along a text.
 ```html
 <style>
     /* with SVG shape */
-     #dropMany{      
+     #dropMany{
         wrap-flow: right;
         shape-outside: polygon(0px,0px 280px,0px 220px,125px 0px,125px);
-    }  
+    }
  
     /* with image */
-     #dropMany{   
+     #dropMany{
         wrap-flow: right;
         shape-image: url(shape-for-many.png);
-        shape-image-threshold: 100%; 
+        shape-image-threshold: 100%;
     }
 </style>
 <div>
@@ -1250,10 +1250,10 @@ One exclusion along a text.
 ```html
 <style>
     /* with SVG shape */
-    #dropMany{ 
+    #dropMany{
         float:positioned;
         wrap-shape: poly(0px,0px 280px,0px 220px,125px 0px,125px);
-    }  
+    }
  
 </style>
 <div id="article">
@@ -1267,10 +1267,10 @@ One exclusion along a text.
 ```html
 <style>
     #dropMore{
-        region-restriction: outside; 
-        region-image: url(shape-for-many.png);  
+        region-restriction: outside;
+        region-image: url(shape-for-many.png);
         region-position: left top;
-    }  
+    }
 </style>
 <div>
      <p><span id="dropMore">Many</span> instances ...</p>

@@ -140,7 +140,7 @@ Fros css3-regions:
 - “A named flow is the ordered sequence of elements associated with a flow with a given identifier. Elements in a named flow are ordered according to the document order.”
 - Any element, 'flow-into:\<ident\>': “The element is taken out of its parent's flow and placed into the flow with the name ‘\<ident\>’. The element is said to have a specified flow.”
 - “If an element has the same specified flow as one of its ancestors, it becomes a sibling of its ancestor for the purpose of layout in the region chain laying out content from that flow.”
-- 
+-
 
 \[Note: css3-page 9.4 (Allowed page breaks) says: “In the normal flow, page breaks may occur at the following places”. What does this mean? Does this indicate that a nested flow root may be fragmented if its its in-flow content has page break opportunities as specified? Or is it trying to say that page break opportunities only exist in the outermost flow (whatever that actually is)?\]
 

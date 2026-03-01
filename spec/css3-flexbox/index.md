@@ -126,13 +126,19 @@ Summary
 Proposal
 : http://lists.w3.org/Archives/Public/www-style/2011Jun/0303.html
 
-      flex-wrap: no-wrap | wrap | balance
+```
+  flex-wrap: no-wrap | wrap | balance
+```
 
 or
 
-      flex-lines: single | multiple
+```
+  flex-lines: single | multiple
+```
 
-      flex-wrap: no-wrap | wrap
+```
+  flex-wrap: no-wrap | wrap
+```
 
 ('balance') is not included into the spec yet. Can keep it as an issue until there is a strong need for it.
 
@@ -155,42 +161,45 @@ Current draft combines orientation and direction in one property <http://dev.w3.
 
 Proposal
 : Some options for adding multiline are listed here: http://lists.w3.org/Archives/Public/www-style/2011Jun/0116.html - options 1 to 6
- 
 
 Proposal
 : http://lists.w3.org/Archives/Public/www-style/2011Jun/0134.html – best proposal so far (from Fantasai)
 
-    Option 7:
-      flex-orientation: rows | columns | horizontal | vertical
-      flex-wrap: no-wrap | wrap | balance*
-      flex-direction: [ forward | backward ] || reverse-stack
+```
+Option 7:
+  flex-orientation: rows | columns | horizontal | vertical
+  flex-wrap: no-wrap | wrap | balance*
+  flex-direction: [ forward | backward ] || reverse-stack
+```
 
 (this doesn't include “line-progression”)
 
 Proposal
 : http://lists.w3.org/Archives/Public/www-style/2011Jul/0406.html
 
-    Option 7 take II:
+```
+Option 7 take II:
 
-        flex-wrap: no-wrap | wrap | balance
-        flex-flow: [ rows | columns | horizontal | vertical ] || [ reverse-line || reverse-wrap ]
-                   |
-                   [ ltr | rtl | auto ] || [ ttb | btt | auto ]
+    flex-wrap: no-wrap | wrap | balance
+    flex-flow: [ rows | columns | horizontal | vertical ] || [ reverse-line || reverse-wrap ]
+               |
+               [ ltr | rtl | auto ] || [ ttb | btt | auto ]
 
-    Examples:             
-                   
-        flex-flow: rows;                     /* forwards inline row (default) */
-        flex-flow: horizontal;               /* forwards horizontal row */
-        flex-flow: reverse-line;             /* backwards inline row */
-        flex-flow: reverse-wrap;             /* reverse-stacking forwards inline rows */
-        flex-flow: reverse-line vertical;    /* backwards vertical column */
-        flex-flow: reverse-line columns;     /* backwards block-oriented column */
+Examples:
 
-        flex-flow: ltr;                      /* horizontal ltr row, auto stacking */
-        flex-flow: ltr auto;                 /* same thing */
-        flex-flow: ttb;                      /* vertical ttb column, auto stacking */
-        flex-flow: ltr ttb;                  /* horizontal ltr row, ttb stacking */
-        flex-flow: auto ttb;                 /* horizontal auto row, ttb stacking */
+    flex-flow: rows;                     /* forwards inline row (default) */
+    flex-flow: horizontal;               /* forwards horizontal row */
+    flex-flow: reverse-line;             /* backwards inline row */
+    flex-flow: reverse-wrap;             /* reverse-stacking forwards inline rows */
+    flex-flow: reverse-line vertical;    /* backwards vertical column */
+    flex-flow: reverse-line columns;     /* backwards block-oriented column */
+
+    flex-flow: ltr;                      /* horizontal ltr row, auto stacking */
+    flex-flow: ltr auto;                 /* same thing */
+    flex-flow: ttb;                      /* vertical ttb column, auto stacking */
+    flex-flow: ltr ttb;                  /* horizontal ltr row, ttb stacking */
+    flex-flow: auto ttb;                 /* horizontal auto row, ttb stacking */
+```
 
 Any missing directions are taken from the writing mode. Forwards for a particular dimension is matching the block or inline direction (whichever) is appropriate.
 
@@ -199,29 +208,35 @@ Proposal
 
 Option 7.3 (one property)
 
-      flex-flow: [ rows | columns | horizontal | vertical ] || 
-                 [ normal | reverse | ltr | rtl | ttb | btt ] ||
-                 [ wrap | wrap-reverse | wrap-ltr | wrap-rtl | wrap-ttb | wrap-btt ]
+```
+  flex-flow: [ rows | columns | horizontal | vertical ] ||
+             [ normal | reverse | ltr | rtl | ttb | btt ] ||
+             [ wrap | wrap-reverse | wrap-ltr | wrap-rtl | wrap-ttb | wrap-btt ]
+```
 
 Option 7.4
 
-      flex-flow: [ rows | columns | horizontal | vertical ] || 
-                 [ normal | reverse | ltr | rtl | ttb | btt ] ||
-                 [ wrap | wrap-reverse | wrap-left | wrap-right | wrap-down| wrap-up ]
+```
+  flex-flow: [ rows | columns | horizontal | vertical ] ||
+             [ normal | reverse | ltr | rtl | ttb | btt ] ||
+             [ wrap | wrap-reverse | wrap-left | wrap-right | wrap-down| wrap-up ]
+```
 
 Proposal
 : http://lists.w3.org/Archives/Public/www-style/2011Jul/0487.html
 
 Option 8:
 
-    flex-flow: 
-        [ row | row-reverse | column | column-reverse ] || [ wrap | wrap-reverse ] |
+```
+flex-flow:
+    [ row | row-reverse | column | column-reverse ] || [ wrap | wrap-reverse ] |
 
-        [ horizontal | horizontal-reverse | horizontal-ltr| horizontal-rtl ] && 
-        [ wrap| wrap-reverse | wrap-down| wrap-up ]? |
+    [ horizontal | horizontal-reverse | horizontal-ltr| horizontal-rtl ] &&
+    [ wrap| wrap-reverse | wrap-down| wrap-up ]? |
 
-        [ vertical| vertical-reverse| vertical-ttb| vertical-btt ] && 
-        [ wrap | wrap-reverse | wrap-left | wrap-right ]?
+    [ vertical| vertical-reverse| vertical-ttb| vertical-btt ] &&
+    [ wrap | wrap-reverse | wrap-left | wrap-right ]?
+```
 
 Status
 : Resolved
@@ -364,11 +379,13 @@ This is important for display types that wrap inappropriately-displayed items, l
 
 In other words, doing this:
 
-    <div display:flexbox>
-      <div>foo</div>
-      <div position:absolute>bar</div>
-      <div>baz</div>
-    </div>
+```html
+<div display:flexbox>
+  <div>foo</div>
+  <div position:absolute>bar</div>
+  <div>baz</div>
+
+```
 
 …should create a flexbox with three flexbox items - the 'foo' and 'baz' elements, and an anonymous block wrapping the placeholder for 'bar'.
 
@@ -395,13 +412,15 @@ Summary
 
 Given the following markup:
 
-    <div display:flexbox>
-      <span>
-        foo
-        <div>bar</div>
-        baz
-      </span>
-    </div>
+```html
+<div display:flexbox>
+  <span>
+    foo
+    <div>bar</div>
+    baz
+  </span>
+
+```
 
 …do you get 1 or 3 flexbox items? Whether you're operating on the box-tree or the element-tree changes the answer. In the element-tree, the algorithm sees a single inline child, and creates a single anonymous wrapper block. In the box-tree, the algorithm sees an anonymous block box, the \<div\>'s block box, then another anonymous block box, for a total of three items.
 
@@ -529,8 +548,10 @@ Option 1
 
 “width:flex(auto); min-width:0” – treat as “min-width:min-content”
 
-    "width:flex(1000px); min-width:0" -- treat as "min-width:0"
-    "height:flex(<anything>); min-height:0" -- nothing special, min-height used only if specified
+```
+"width:flex(1000px); min-width:0" -- treat as "min-width:0"
+"height:flex(<anything>); min-height:0" -- nothing special, min-height used only if specified
+```
 
 Option 2
 : use min-width only if specified

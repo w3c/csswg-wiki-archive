@@ -8,22 +8,26 @@ See discussion in: <https://github.com/w3c/csswg-drafts/issues/2748> and <https:
 
 Existing properties:
 
-    column-rule: <color> || <line-style> || <line-width>
-      column-rule-color: <color>
-      column-rule-style: <line-style>
-      column-rule-width: <line-width>
+```html
+column-rule: <color> || <line-style> || <line-width>
+  column-rule-color: <color>
+  column-rule-style: <line-style>
+  column-rule-width: <line-width>
+```
 
 Proposed properties (plus also row- and unprefixed versions of all these):
 
-    column-rule-extent: span-skip | no-skip | span-break | corner-break
-    column-rule-inset: nearest | center | farthest | <length>
-    column-rule-image: <border image syntax but with only one axis>
-      rule-image-source: none | <image>
-      rule-image-slice: [ <number [0,∞]> | <percentage [0,∞]> ]{1,2}
-      rule-image-width: [ <length-percentage [0,∞]> | <number [0,∞]> | auto ]
-      rule-image-outset: [ <length [0,∞]> | <number [0,∞]> ]{1,2}
-      rule-image-repeat: [ stretch | repeat | round | space ]
-      
+```
+column-rule-extent: span-skip | no-skip | span-break | corner-break
+column-rule-inset: nearest | center | farthest | <length>
+column-rule-image: <border image syntax but with only one axis>
+  rule-image-source: none | <image>
+  rule-image-slice: [ <number [0,∞]> | <percentage [0,∞]> ]{1,2}
+  rule-image-width: [ <length-percentage [0,∞]> | <number [0,∞]> | auto ]
+  rule-image-outset: [ <length [0,∞]> | <number [0,∞]> ]{1,2}
+  rule-image-repeat: [ stretch | repeat | round | space ]
+
+```
 
 #### column-rule-image
 
@@ -69,12 +73,16 @@ Note: `center` and `farthest` cannot compute to a length, because gaps can depen
 
 Alternative syntax (positive numbers outward):
 
-    column-rule-outset: <length> | gap-center | gap-width
+```
+column-rule-outset: <length> | gap-center | gap-width
+```
 
 ### Styling Individual Gaps
 
 Styling individual gaps could be done with a pseudo-element that accepts all the above properties (and no other properties). Something like this might work:
 
-    container::[column-|row-]?gap( <An+B> | <line-name> )
+```html
+container::[column-|row-]?gap( <An+B> | <line-name> )
+```
 
 Styling individual segments would be much more complicated, as identifying the segments in a robust manner is not straightforward.

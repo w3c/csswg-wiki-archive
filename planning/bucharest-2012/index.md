@@ -8,13 +8,15 @@ title: "Bucharest F2F May 2012"
 
 **Where:** [Adobe Bucharest Office](http://maps.google.com/maps?q=Anchor+Plaza,+Bucharest+Romania&hl=en&ll=44.429942,26.035087&spn=0.006267,0.007864&sll=37.0625,-95.677068&sspn=56.200193,64.423828&vpsrc=6&hq=Anchor+Plaza,&hnear=Bucharest,+Bucuresti,+Romania&t=h&z=17)
 
-     Adobe Systems Romania
-     Anchor Plaza, Ninth Floor
-     26Z Timisoara Blvd.
-     061331, Bucharest
-     Romania
-     Tel: +40 (0) 31 413 35 00
-     Fax: +40 (0) 21 413 36 26
+```
+ Adobe Systems Romania
+ Anchor Plaza, Ninth Floor
+ 26Z Timisoara Blvd.
+ 061331, Bucharest
+ Romania
+ Tel: +40 (0) 31 413 35 00
+ Fax: +40 (0) 21 413 36 26
+```
 
 **Room**: TBD
 
@@ -26,8 +28,10 @@ title: "Bucharest F2F May 2012"
 
 \* [Intercontinental Bucharest](http://www.ichotelsgroup.com/intercontinental/en/gb/locations/bucharest)
 
-       4 BULEVARDUL NICOLAE BLCESC
-       BUCHAREST 010051 ROMANIA
+```
+   4 BULEVARDUL NICOLAE BLCESC
+   BUCHAREST 010051 ROMANIA
+```
 
 Rates:\
 \
@@ -37,8 +41,10 @@ Rates:\
 
 \* [West Plaza](http://www.booking.com/hotel/ro/west-plaza.en.html?aid=311984;label=west-plaza-*OoKKJOyvWQgulWx8IuihwS11220894673;ws=&gclid=CLu9hqXMga0CFSEhtAodcyJ5Ig)
 
-    Str. Rostogolea Gheorghe nr.. 12, 
-    61426 Bucharest 
+```
+Str. Rostogolea Gheorghe nr.. 12,
+61426 Bucharest
+```
 
 This hotel is 1mn away from the office and is brand new.
 
@@ -48,9 +54,11 @@ Rates:\
 
 \* [Crystal Palace Hotel](http://www.crystalpalacehotel.ro/) (~80 EUR / night)
 
-    18-20 Alexandru
-    Serbanescu Street,
-    1st District, Bucharest, Romania
+```
+18-20 Alexandru
+Serbanescu Street,
+1st District, Bucharest, Romania
+```
 
 Rates:\
 \
@@ -60,8 +68,10 @@ Rates:\
 
 \* [Howard Johnson](http://howardjohnsongrandplaza.h-rsv.com/index.htm?lbl=ggl-en)
 
-    5-7 Calea Dorobanti Sector 1, 
-    Off Piata Romana, Bucharest, Romania
+```
+5-7 Calea Dorobanti Sector 1,
+Off Piata Romana, Bucharest, Romania
+```
 
 [Map from the office to Howard Johnson](http://maps.google.com/maps?saddr=26Z+Timisoara+Blvd.++061331,+Bucharest&daddr=5-7+Calea+Dorobanti+Sector+1,++Bucharest,+Romania&hl=en&sll=44.446452,26.098938&sspn=0.012531,0.020878&geocode=FQPtpQIdfEONASk3Lt2JygGyQDFBXn4gvR_uCQ%3BFfQypgId-jyOASnBNYCNTf-xQDEAa_2i9Zir_g&vpsrc=0&mra=ls&t=h&z=14)
 

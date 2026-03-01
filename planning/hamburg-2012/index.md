@@ -184,11 +184,13 @@ Regrets:
 
 **Where:** [google map](http://maps.google.com/maps?q=Adobe%20Systems%20Engineering%20GmbH%0D%0AGroße%20Elbstraße%2027%0D%0A22767%20Hamburg%20%28Altona%2DAltstadt%29%20%0D%0A) [Adobe Hamburg Office Description](http://www.adobe.com/aboutadobe/careeropp/locations.html#Anchor-Hamburg-45656)
 
-     Adobe Systems Engineering GmbH 
-     Große Elbstraße 27 
-     22767 Hamburg (Altona-Altstadt) 
-     Germany
-     Tel.0049 40 306360
+```
+ Adobe Systems Engineering GmbH
+ Große Elbstraße 27
+ 22767 Hamburg (Altona-Altstadt)
+ Germany
+ Tel.0049 40 306360
+```
 
 NOTE: There will \_not\_ be any issue with registration since the room is outside the restricted area.
 
@@ -204,83 +206,95 @@ There will be a hosted diner on the night of the joint FX Task Force meeting at 
 
 ### Lodging
 
-    Ideally, the SVG WG members not attending the CSS WG meeting would stay at 
-    the Clipper Elb and the other members at the Hafen Hamburg or the East.
+```
+Ideally, the SVG WG members not attending the CSS WG meeting would stay at
+the Clipper Elb and the other members at the Hafen Hamburg or the East.
 
-    We have blocked a number of rooms, the detailed hotel information is below.
+We have blocked a number of rooms, the detailed hotel information is below.
 
-      - Park Hyatt, Hamburg (reservation name Adobe)
-      4 single rooms from 06th May – 13th May 
-      The price per room and night is:
-        06th May-11th May 235€
-        11thMay -13th May 320€
-        
-      - Hanse Clipper Haus (reservation name Adobe group reservation)
-      info-hch@clipper-hotels.de
-      10 rooms from 6th May until 11th May 
-           (5 Junior-Suites price per night 97€ and 5 Maisonette Suites price per night 107€)
-           
-      - Hafen Hamburg (reservation name Adobe060512) 
-      reservierung@hotel-hamburg.de
-      15 Single, 140 €
-      
-      - East (reservation name Adobe)
-      info@east-hamburg.de
-      3 rooms 175 €
-      2 rooms size s 160 €
+  - Park Hyatt, Hamburg (reservation name Adobe)
+  4 single rooms from 06th May – 13th May
+  The price per room and night is:
+    06th May-11th May 235€
+    11thMay -13th May 320€
 
-      - Clipper Elb Lodge (reservation name Adobe 33360)
-      info@clipper-boardinghouses.de
-      
-       IMPORTANT NOTE: Only for May 6th to May 9th
-       
-       3 superior suite suites 112 €
-       2 juniur suite 106 €
-       
-       IMPORTANT NOTE: Only for May 9th to May 11th
-       5 superior suites 112 €
-       3 junior suites tes 106 €
-       2 executive suites 118€
+  - Hanse Clipper Haus (reservation name Adobe group reservation)
+  info-hch@clipper-hotels.de
+  10 rooms from 6th May until 11th May
+       (5 Junior-Suites price per night 97€ and 5 Maisonette Suites price per night 107€)
+
+  - Hafen Hamburg (reservation name Adobe060512)
+  reservierung@hotel-hamburg.de
+  15 Single, 140 €
+
+  - East (reservation name Adobe)
+  info@east-hamburg.de
+  3 rooms 175 €
+  2 rooms size s 160 €
+
+  - Clipper Elb Lodge (reservation name Adobe 33360)
+  info@clipper-boardinghouses.de
+
+   IMPORTANT NOTE: Only for May 6th to May 9th
+
+   3 superior suite suites 112 €
+   2 juniur suite 106 €
+
+   IMPORTANT NOTE: Only for May 9th to May 11th
+   5 superior suites 112 €
+   3 junior suites tes 106 €
+   2 executive suites 118€
+```
 
 #### Hanse Clipper Haus
 
-    Clipper Boardinghouse GmbH & Co. KG
-    Ditmar-Koel-Straße 1
-    20459 Hamburg
-    Tel 0049-40 37696-0
-    Mail: info-hch@clipper-hotels.de
-    www.clipper-boardinghouses.de 
+```
+Clipper Boardinghouse GmbH & Co. KG
+Ditmar-Koel-Straße 1
+20459 Hamburg
+Tel 0049-40 37696-0
+Mail: info-hch@clipper-hotels.de
+www.clipper-boardinghouses.de
+```
 
 #### Hyatt Hotel, 220 Euros (incl. breakfast)
 
-    Bugenhagenstr.8-­10
-    20095 Hamburg
-    Tel.0049 40 3332 1234
-    Mail: Hamburg.park@hyatt.com
-    http://www.hamburg.park.hyatt.de
+```
+Bugenhagenstr.8-­10
+20095 Hamburg
+Tel.0049 40 3332 1234
+Mail: Hamburg.park@hyatt.com
+http://www.hamburg.park.hyatt.de
+```
 
 #### Hafen Hamburg
 
-    Seewartenstr.9
-    20459 Hamburg   
-    Tel.0049 40 31 1130
-    Mail: info@hotel-­hamburg.de    
-    http://www.hotel-­hafen-­hamburg.de
+```
+Seewartenstr.9
+20459 Hamburg
+Tel.0049 40 31 1130
+Mail: info@hotel-­hamburg.de
+http://www.hotel-­hafen-­hamburg.de
+```
 
 #### Clipper Elb Ledge
 
-    Carsten-­Rehder-­Str.71    
-    22767 Hamburg
-    Tel.0049 40 80 9010 
-    Mail: info@clipper-­boardinghouses.de   
-    http://www.clipper-­hotels.de
+```
+Carsten-­Rehder-­Str.71
+22767 Hamburg
+Tel.0049 40 80 9010
+Mail: info@clipper-­boardinghouses.de
+http://www.clipper-­hotels.de
+```
 
 #### East
 
-    Simon-von-Utrecht Strasse 31
-    20359 Hamburg
-    Tel: +49(0) 40-3099-30
-    Mail: info@east-hamburg.de
+```
+Simon-von-Utrecht Strasse 31
+20359 Hamburg
+Tel: +49(0) 40-3099-30
+Mail: info@east-hamburg.de
+```
 
 ### Hamburg Port Anniversary information
 

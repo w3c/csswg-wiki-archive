@@ -111,7 +111,7 @@ The title appears in the generated index, so make sure it is *concise*, *unique*
 > [!NOTE]
 > Bad example:
 >
-> ``` html
+> ```html
 > <title>CSS Test: Border Conflict Resolution</title>
 > ```
 >
@@ -119,7 +119,7 @@ The title appears in the generated index, so make sure it is *concise*, *unique*
 >
 > Good example:
 >
-> ``` html
+> ```html
 > <title>CSS Test: Border Conflict Resolution (width) - hidden/double</title>
 > ```
 >
@@ -127,7 +127,7 @@ The title appears in the generated index, so make sure it is *concise*, *unique*
 >
 > ### Credits
 >
-> ``` html
+> ```html
 > <link rel="author" title="NAME_OF_AUTHOR" href="mailto:EMAIL OR http://CONTACT_PAGE" />
 > ```
 >
@@ -136,19 +136,19 @@ The title appears in the generated index, so make sure it is *concise*, *unique*
 > >
 > Example 1:
 >
-> ``` html
+> ```html
 > <link rel="author" title="Boris Zbarsky" href="mailto:bzbarsky@mit.edu" />
 > ```
 >
 > Example 2:
 >
-> ``` html
+> ```html
 > <link rel="author" title="Bert Bos" href="http://www.w3.org/People/Bos/" />
 > ```
 >
 > Example 3:
 >
-> ``` html
+> ```html
 > <link rel="author" title="Microsoft" href="http://microsoft.com/" />
 > ```
 
@@ -163,13 +163,13 @@ If a test has passed review, then the reviewer should note this by adding his or
 > [!NOTE]
 > Example 1:
 >
-> ``` html
+> ```html
 > <link rel="reviewer" title="Boris Zbarsky" href="mailto:bzbarsky@mit.edu" /> <!-- 2008-02-19 -->
 > ```
 >
 > Example 2:
 >
-> ``` html
+> ```html
 > <link rel="reviewer" title="Bert Bos" href="http://www.w3.org/People/Bos/" /> <!-- 2005-05-03 -->
 > ```
 >
@@ -178,7 +178,7 @@ If a test has passed review, then the reviewer should note this by adding his or
 > >
 > Example of a fully-reviewed test:
 >
-> ``` html
+> ```html
 > <link rel="author" title="Bert Bos" href="http://www.w3.org/People/Bos/" />
 > <link rel="reviewer author" title="Boris Zbarsky" href="mailto:bzbarsky@mit.edu" /> <!-- 2008-02-19 -->
 > <link rel="reviewer" title="Bert Bos" href="http://www.w3.org/People/Bos/" /> <!-- 2008-04-22 -->
@@ -205,13 +205,13 @@ The specification link elements provide a way to align the test with information
 > [!NOTE]
 > Example 1:
 >
-> ``` html
+> ```html
 > <link rel="help" href="http://www.w3.org/TR/CSS21/text.html#alignment-prop" />
 > ```
 >
 > Example 2:
 >
-> ``` html
+> ```html
 > <link rel="help" href="http://www.w3.org/TR/CSS21/text.html#alignment-prop" />
 > <link rel="help" href="http://www.w3.org/TR/CSS21/visudet.html#q7" />
 > <link rel="help" href="http://www.w3.org/TR/CSS21/visudet.html#line-height" />
@@ -237,13 +237,13 @@ The reference link elements are used in [reftests](../../test/reftest/ "test:ref
 > [!NOTE]
 > Example 1:
 >
-> ``` html
+> ```html
 > <link rel="match" href="green-box-ref.xht" />
 > ```
 >
 > Example 2:
 >
-> ``` html
+> ```html
 > <link rel="match" href="green-box-ref.xht" />
 > <link rel="match" href="blue-box-ref.xht" />
 > <link rel="mismatch" href="red-box-notref.xht" />
@@ -289,19 +289,19 @@ All flags documented elsewhere are deprecated except the following:
 > [!NOTE]
 > Example 1 (one token applies):
 >
-> ``` html
+> ```html
 > <meta name="flags" content="invalid" />
 > ```
 >
 > Example 2 (multiple tokens apply):
 >
-> ``` html
+> ```html
 > <meta name="flags" content="ahem image scroll" />
 > ```
 >
 > Example 3 (no tokens apply):
 >
-> ``` html
+> ```html
 > <meta name="flags" content="" />
 > ```
 
@@ -500,8 +500,10 @@ Please flag test that require user style sheets with the `userstyle` flag so peo
 
 Some tests may require special HTTP headers. These should be configured in a `.htaccess` file located in the same directory as the relevant file. An example configuration is shown below. Note that multiple file extensions are supported in the configuration so that exported formats are all handled correctly. The build scripts will concatenate all `.htaccess` files in the test sources' parent directories and support directories.
 
-    <Files ~ "^lang-selector-005\.(xht|xhtml|xml|html|htm)$">
-    AddLanguage fr .xht .xhtml .xml .html .htm
-    </Files>
+```
+<Files ~ "^lang-selector-005\.(xht|xhtml|xml|html|htm)$">
+AddLanguage fr .xht .xhtml .xml .html .htm
+</Files>
+```
 
 Please flag tests that require HTTP interaction with the `http` flag so people running the tests locally know their results will not be valid.

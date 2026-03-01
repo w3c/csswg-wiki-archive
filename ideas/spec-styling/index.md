@@ -99,17 +99,24 @@ In addition, please provide an option to print specs without such narrow columns
 
 In the body of Vincent's spec, I suppose one given element, let's say \#main, has a fixed size through a width or max-width property. Something like
 
-     #main {
-       max-width: 50em;
-    }
+```css
+ #main {
+   max-width: 50em;
+}
+```
 
 Just tweak that to
 
-     #main:target {
-       max-width: 50em;
-     }
+```css
+ #main:target {
+   max-width: 50em;
+ }
+```
 
 and your document can have two different renderings for the regular URL without fragment id and the one with \#main fragment id.
 
-     index.html      will be viweport-wide
-     index.html#main will be 50em-wide
+```
+ index.html      will be viweport-wide
+ index.html#main will be 50em-wide
+
+```

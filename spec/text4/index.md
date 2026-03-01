@@ -28,13 +28,17 @@ Ideas to consider for future CSS Text specs
 
 ## text-spacing
 
-    [ class-before class-after [ none | default [ [ [ min max ] | '/' alternate ] priority? ]? ] ]+
+```
+[ class-before class-after [ none | default [ [ [ min max ] | '/' alternate ] priority? ]? ] ]+
+```
 
-    @text-spacing-rule rule-name [ font-name [ ',' font-name ]* ] {
-      line-head opening 0%;
-      closing line-end 50%/0%;
-      ideograph alphabet 25% 12.5% 50% 2;
-    }
+```css
+@text-spacing-rule rule-name [ font-name [ ',' font-name ]* ] {
+  line-head opening 0%;
+  closing line-end 50%/0%;
+  ideograph alphabet 25% 12.5% 50% 2;
+}
+```
 
 1.  The relationshipo of expansion opportunities defined here and other properties (text-justify, word-spacing, letter-spacing) is an issue
 2.  JIS/JLREQ/InDesign style (trim and specify how much to add), or specify how much to add/remove?

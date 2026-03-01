@@ -19,4 +19,6 @@ The scripts described here offer the following features:
 
 To enable the tracking script, add the following to your document:
 
-    <script>...</script>
+```html
+<script>...</script>
+```

@@ -32,11 +32,13 @@ Various options:
 
 [Simon Sapin writes](http://lists.w3.org/Archives/Public/www-style/2012May/0509.html):
 
-    I’d prefer to avoid 1A. because Unicode case-folding is very easy to 
-    implement almost-but-not-quite right, and depends on a locale. (Eg. in 
-    Python it is tempting to use the 'lower' or 'upper' method of Unicode 
-    objects, but these only map codepoints one-to-one and are not proper 
-    case folding.)
+```
+I’d prefer to avoid 1A. because Unicode case-folding is very easy to
+implement almost-but-not-quite right, and depends on a locale. (Eg. in
+Python it is tempting to use the 'lower' or 'upper' method of Unicode
+objects, but these only map codepoints one-to-one and are not proper
+case folding.)
+```
 
 #### Resolution
 

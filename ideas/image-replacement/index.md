@@ -28,13 +28,15 @@ At the May 2006 face-to-face meeting, the CSSWG [accepted a proposal](http://lis
 
 The consensus on syntax was:
 
-     Syntax:
-        require-font
-        require-font(<string>)
-        require-font(<family-name>)
-     Edge cases to cover:
-        require-font()
-        require-font(generic-name) (e.g. require-font(serif))
+```
+ Syntax:
+    require-font
+    require-font(<string>)
+    require-font(<family-name>)
+ Edge cases to cover:
+    require-font()
+    require-font(generic-name) (e.g. require-font(serif))
+```
 
 The `require-font` keyword would automatically take the first font in font-family as its implied argument. This is not merely syntactic sugar for the author, but also causes a user's font override, if any, to become the required font: in typical usage, this would disable the image replacement fallback and display the contents in the user's selected font.
 

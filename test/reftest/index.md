@@ -108,10 +108,12 @@ The reftest manifest should be named `reftest.list` and placed in the `reference
 
 Here is an example of a reftest manifest.
 
-    # reftest.list snippet
-    == ../test-topic-000.xht test-topic-000-ref.xht
-    == ../test-topic-001.xht test-topic-001-ref.xht
-    == ../test-topic-002.xht test-topic-000-ref.xht # note same reference as test 000
+```
+# reftest.list snippet
+== ../test-topic-000.xht test-topic-000-ref.xht
+== ../test-topic-001.xht test-topic-001-ref.xht
+== ../test-topic-002.xht test-topic-000-ref.xht # note same reference as test 000
+```
 
 [Mozilla's manifest format](http://mxr.mozilla.org/mozilla-central/source/layout/tools/reftest/README.txt), which is more-or-less a superset of the W3C format, allows annotations such as whether the test is expected to pass or fail. These can be useful when setting up automated regression testing.
 

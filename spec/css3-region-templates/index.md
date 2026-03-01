@@ -46,11 +46,15 @@ This would replace 'region-overflow' property.
 
 The issue of nested containers in regions (“region-type:box” vs. “region-type:slot”) can also be addressed by named flow source element sending its content to the flow – by adding a flow property to control that, or a new value for 'display' property **“display:content”**:
 
-       <div style="flow-into:title; display:content">Lorem Revisited</div>
+```html
+   <div style="flow-into:title; display:content">Lorem Revisited</div>
+```
 
 Then if template has a region for “title” flow
 
-       <h1 style="flow-from:title; region-type: box"></h1>
+```html
+   <h1 style="flow-from:title; region-type: box"></h1>
+```
 
 it will not get an extra div in the heading.
 
@@ -63,9 +67,11 @@ Note that “display:content” can have effect when applied to any element (not
 
 And of course this is a way to solve the problem of \<iframe\> special behavior:
 
-       <iframe style="flow-into:article; "> -- iframe is named flow
-       <iframe style="flow-into:article; display:content"> -- iframe content is named flow
-       <iframe style="display:content"> -- similar to "seamless" iframe, but not transparent for dom and styles.
+```html
+   <iframe style="flow-into:article; "> -- iframe is named flow
+   <iframe style="flow-into:article; display:content"> -- iframe content is named flow
+   <iframe style="display:content"> -- similar to "seamless" iframe, but not transparent for dom and styles.
+```
 
 Effect on replaced elements is undefined, but at least should reset any non-default properties (e.g. \<img style=“border:medium solid red; display:content”\> would probably display the image but no border).
 
@@ -76,11 +82,13 @@ Effect on replaced elements is undefined, but at least should reset any non-defa
 
 This should work without any new features:
 
-    <div style="flow-into:template">
-       <div style="flow-from:header; region-type:frame;"></div>
-       <div style="flow-from:page; region-type:page;"></div>
-       <div style="flow-from:footer; region-type:frame;"></div>
-    </div>
+```html
+<div style="flow-into:template">
+   <div style="flow-from:header; region-type:frame;"></div>
+   <div style="flow-from:page; region-type:page;"></div>
+   <div style="flow-from:footer; region-type:frame;"></div>
+
+```
 
 Since regions and flow content are in the same document, nested flows must work (but for iframe-based flow it would not work without allowing flows to be shared across documents).
 
@@ -93,16 +101,18 @@ Note: this style of headers/footers require that “region-type:frame” can ren
 
 There may be many ways to generate pages from templates, but the outcome is reasonable to expect to be something like this:
 
-    <div id="page-view">
-       <!-- custom UI for page fiew -->
-       <div id="page-container">
-             <!-- generated pages, may or may not be in DOM -->
-             <div id="page1"></div>
-             <div id="page2"></div>
-             ...
-             <div id="pageN"></div>
-       </div>
-    </div>
+```html
+<div id="page-view">
+   <!-- custom UI for page fiew -->
+   <div id="page-container">
+         <!-- generated pages, may or may not be in DOM -->
+         <div id="page1"></div>
+         <div id="page2"></div>
+         ...
+         <div id="pageN"></div>
+   </div>
+
+```
 
 > [!WARNING]
 > this example is probably misplaced, it doesn't help define a page
@@ -111,14 +121,18 @@ There may be many ways to generate pages from templates, but the outcome is reas
 
 There could be a construct like this:
 
-       Div#page-container { content:pages(first-template-flow-name) }
+```css
+   Div#page-container { content:pages(first-template-flow-name) }
+```
 
 or even something more advanced, perhaps matching actual flows with flow placeholders in templates.
 
 Generated pages are not visible in DOM, but selectors should work:
 
-       #page-container * { border: 1px solid black; }
-       #page-container::nth-child(even) { position:relative; left:<page-width> }
+```css
+   #page-container * { border: 1px solid black; }
+   #page-container::nth-child(even) { position:relative; left:<page-width> }
+```
 
 Selectors will work, but dynamically changing page properties from script needs something better than tweaking stylesheet. Perhaps R/W access to style of generated content elements via selector. Or perhaps a generic way to access content in “shadow dom”.
 
@@ -134,12 +148,14 @@ Peter's page templates proposal \[1\] describes in detail one way of matching po
 
 The template properties could be defined like this:
 
-    @page-template cover {
-        min-width:600px;
-        max-width:1200px;
-        flows:author title subtitle publisher;
-        flow-from:cover-page-template;
-    }
+```css
+@page-template cover {
+    min-width:600px;
+    max-width:1200px;
+    flows:author title subtitle publisher;
+    flow-from:cover-page-template;
+}
+```
 
 Then at every new page currently available flows are matched with a template that can display some or all of the flows.
 
@@ -149,13 +165,15 @@ It is very likely that advanced applications will require custom logic for conte
 
 Could be like this:
 
-    function onNewPage(e) {
-        if (e.pageNumber == 1) {
-            e.pageTemplate = "template-cover";
-        } else {
-            e.pageTemplate = "template-two-column";
-        }
+```css
+function onNewPage(e) {
+    if (e.pageNumber == 1) {
+        e.pageTemplate = "template-cover";
+    } else {
+        e.pageTemplate = "template-two-column";
     }
+}
+```
 
 ### 6. Integration with "overflow:paged"
 

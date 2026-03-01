@@ -49,18 +49,18 @@ Consider adding a new 'caret' property.
 
 - [Proposed by Lea Verou](http://lists.w3.org/Archives/Public/www-style/2011Nov/0772.html)
 
-<!-- -->
-
-    Name: caret
-    Value: auto | <color> | invert
-    Initial: auto
-    Applies to: Any element that accepts textual input
-    Inherited: Yes
-    Percentages: N/A
-    Media: Interactive
-    Computed value: The computed value for 'invert' is 'invert'. For <color> 
-    values, the computed value is as defined for the [CSS3COLOR] 'color' 
-    property.
+```
+Name: caret
+Value: auto | <color> | invert
+Initial: auto
+Applies to: Any element that accepts textual input
+Inherited: Yes
+Percentages: N/A
+Media: Interactive
+Computed value: The computed value for 'invert' is 'invert'. For <color>
+values, the computed value is as defined for the [CSS3COLOR] 'color'
+property.
+```
 
 UAs set the color of the caret cursor to the value of the 'caret' property.
 
@@ -83,7 +83,9 @@ Consider incorporating a 'focusable' property (like in SVG)
 
 Alternate syntax suggestion (because boolean properties are the devil):
 
-    nav-focus: _normal_ | ignore | focus
+```
+nav-focus: _normal_ | ignore | focus
+```
 
 ### more selectors
 
@@ -456,7 +458,7 @@ URL
 : http://dev.w3.org/csswg/css3-ui/#pointer-events
 
 Proposed resolution
-: informative note in the definition of the 'pointer-events' property would help steer authors to think about how they are using this (such as a suggestion that if pointer-events are turned off, authors should also consider making the element not 
+: informative note in the definition of the 'pointer-events' property would help steer authors to think about how they are using this (such as a suggestion that if pointer-events are turned off, authors should also consider making the element not
 focusable, as well).
 
 Status

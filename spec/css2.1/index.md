@@ -1290,11 +1290,11 @@ Summary
 : No shortening of line boxes next to later floats
 
 URL
-: http://lists.w3.org/Archives/Public/www-style/2010Sep/0131.html 
+: http://lists.w3.org/Archives/Public/www-style/2010Sep/0131.html
 (Issue 1)
-http://lists.w3.org/Archives/Public/www-style/2010Sep/0148.html 
+http://lists.w3.org/Archives/Public/www-style/2010Sep/0148.html
 (first half)
-http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html 
+http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
 (first third)
 
 Test case
@@ -1398,9 +1398,9 @@ Summary
 : left float can be to the right of a right float
 
 URL
-: http://lists.w3.org/Archives/Public/www-style/2010Sep/0131.html 
+: http://lists.w3.org/Archives/Public/www-style/2010Sep/0131.html
 (Issue 2)
- http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html 
+ http://lists.w3.org/Archives/Public/www-style/2010Sep/0150.html
 (second third)
 
 Proposal
@@ -1415,11 +1415,11 @@ Status
 ### Issue 281
 
 Summary
-: 'line-height' is a property (and its values are 'quantities') not a 
+: 'line-height' is a property (and its values are 'quantities') not a
 physical entity; nothing can “start” there.
 
 URL
-: http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html 
+: http://lists.w3.org/Archives/Public/www-style/2009Mar/0004.html
 (Issue 3b)
 http://lists.w3.org/Archives/Public/www-style/2009May/0191.html
 

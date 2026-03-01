@@ -16,7 +16,7 @@ Other events to consider:
 - avoid March 8-17 SXSW (March)
 - avoid March 16-23
 - avoid early March
-- 
+-
 
 ## Spring
 

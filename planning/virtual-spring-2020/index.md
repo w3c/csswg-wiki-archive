@@ -10,39 +10,47 @@ As the title suggests and in order to keep the world a safe place for living, th
 
 <https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200429T14> April 29 (a.k.a. Time Slot A)
 
-      4pm -  8pm Paris
-      3pm -  7pm London
-     10am -  2pm New York
-      7am - 11am San Francisco
-     11pm -  3am Tokyo
-     12am -  4am Melbourne
+```
+  4pm -  8pm Paris
+  3pm -  7pm London
+ 10am -  2pm New York
+  7am - 11am San Francisco
+ 11pm -  3am Tokyo
+ 12am -  4am Melbourne
+```
 
 <https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200430T20> April 30/31 (a.k.a. Time Slot B)
 
-     10pm -  2am Paris
-      9pm -  1am London
-      4pm -  8pm New York
-      1pm -  5pm San Francisco
-      5am -  9am Tokyo
-      6am - 10am Melbourne
+```
+ 10pm -  2am Paris
+  9pm -  1am London
+  4pm -  8pm New York
+  1pm -  5pm San Francisco
+  5am -  9am Tokyo
+  6am - 10am Melbourne
+```
 
 <https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200506T13> May 6
 
-     3pm -  6pm Paris
-     2pm -  5pm London
-     9am -  12pm New York
-     6am -  9am San Francisco
-    10pm -  1am Tokyo
-    11pm -  2am Melbourne
+```
+ 3pm -  6pm Paris
+ 2pm -  5pm London
+ 9am -  12pm New York
+ 6am -  9am San Francisco
+10pm -  1am Tokyo
+11pm -  2am Melbourne
+```
 
 <https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200507T21> May 7/8
 
-    11pm -  2am Paris
-    10pm -  1am London
-     5pm -  8pm New York
-     2pm -  5pm San Francisco
-     6am -  9am Tokyo
-     7am - 10am Melbourne
+```
+11pm -  2am Paris
+10pm -  1am London
+ 5pm -  8pm New York
+ 2pm -  5pm San Francisco
+ 6am -  9am Tokyo
+ 7am - 10am Melbourne
+```
 
 ## Venue tech
 

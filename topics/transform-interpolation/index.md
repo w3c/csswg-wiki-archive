@@ -10,13 +10,17 @@ title: "Premultiply transform functions before interpolation on unequal transfor
 
 If two transforms lists should be interpolated but transform function pairs don't equal, the spec currently wants the UA to premultiply all functions on each list and interpolate the resulting matrices.
 
-    translate() rotate()
-    translate() scale()
+```
+translate() rotate()
+translate() scale()
+```
 
 get to
 
-    matrix()
-    matrix()
+```
+matrix()
+matrix()
+```
 
 and interpolated.
 
@@ -24,13 +28,17 @@ and interpolated.
 
 Mozilla asks if we can do the decision on a per transform function pair basis. For the example above:
 
-    translate() rotate()
-    translate() scale()
+```
+translate() rotate()
+translate() scale()
+```
 
 get to
 
-    translate() matrix()
-    translate() matrix()
+```
+translate() matrix()
+translate() matrix()
+```
 
 The first function pair gets interpolated numerically, the second needs matrix interpolation.
 
@@ -40,13 +48,17 @@ I would suggest keeping the specified behavior for performance reasons.
 
 Imagine following example:
 
-    translate() rotate() scale()
-    scale() translate() rotate()
+```
+translate() rotate() scale()
+scale() translate() rotate()
+```
 
 would get to
 
-    matrix() matrix() matrix()
-    matrix() matrix() matrix()
+```
+matrix() matrix() matrix()
+matrix() matrix() matrix()
+```
 
 Each function pair would need matrix decomposing and interpolation. I also don't see any benefit of this way.
 

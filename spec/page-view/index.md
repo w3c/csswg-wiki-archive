@@ -26,14 +26,16 @@ The uses cases, analysis and proposals found here probably don’t correspond to
 
 \<div style=“background:gray; –padding:1em; text-align:justify; vertical-align:middle;”\>
 
-    <div style="background:white;border:1px solid black; --width:7em; padding:1em; text-align:justify">
-      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
-    </div>
-    <div style="text-align:justify; padding:0 1em;">
-      <div style="display:inline-block; color:lightgray; font-size:1.2em;">&lt;&lt;&lt;</div>
-      <div style="display:inline-block; color:lightgray; font-size:1.2em;">&gt;&gt;&gt;</div>
-      <div style="display:inline-block; width:6em; height:0; visibility:hidden"></div>
-    </div>
+```html
+<div style="background:white;border:1px solid black; --width:7em; padding:1em; text-align:justify">
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+
+<div style="text-align:justify; padding:0 1em;">
+  <div style="display:inline-block; color:lightgray; font-size:1.2em;">&lt;&lt;&lt;</div>
+  <div style="display:inline-block; color:lightgray; font-size:1.2em;">&gt;&gt;&gt;</div>
+  <div style="display:inline-block; width:6em; height:0; visibility:hidden"></div>
+
+```
 
 \</div\> \</div\> \</html\>
 
@@ -43,7 +45,9 @@ The uses cases, analysis and proposals found here probably don’t correspond to
 
 **Example:**
 
-    div.book { overflow:paged }
+```css
+div.book { overflow:paged }
+```
 
 Element with “overflow:paged” shows one page of content at a time.
 
@@ -53,13 +57,17 @@ UI is provided by UA, it may be gestures on touch device, or page navigation con
 
 **Example:**
 
-    html { width:100%; height:100%; overflow:paged }
+```css
+html { width:100%; height:100%; overflow:paged }
+```
 
 This should put the whole document in paged view. If UA is also in full screen mode, this works particularly well on tablet devices as full-screen reading mode
 
 **Example:**
 
-    iframe.magazine { overflow:paged }
+```css
+iframe.magazine { overflow:paged }
+```
 
 Presents content of a separate document in paged view. Can be used to build a page viewer with custom UI.
 
@@ -77,10 +85,12 @@ If the author wishes an element on the page to have different @page rules than t
 
 **Example:**
 
-    @page { ... }
-    @page myInner { ... }
-    html { width: 100%; height: 100%; overflow: paged }
-    innerDiv { width: 50em; height: 10em; overflow: paged; page: myInner; }
+```css
+@page { ... }
+@page myInner { ... }
+html { width: 100%; height: 100%; overflow: paged }
+innerDiv { width: 50em; height: 10em; overflow: paged; page: myInner; }
+```
 
 ## Paged view with custom controls
 
@@ -90,25 +100,29 @@ Ideally, UA should provide well designed, usable and accessible controls for pag
 
 \<html\> \<div style=“display:inline-block”\> \<div style=“height:2em; background:black; padding:0.5em 1em; font-family:sans-serif; font-weight:bold; text-align:center;”\>
 
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">print</div>
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">share</div>
-    &nbsp;&nbsp;
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&lt;</div>
-    <div style="display:inline-block; border:1px solid white; background:white; padding:0.25em; font-weight:normal">page #</div>
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&gt;</div>
-    &nbsp;&nbsp;
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">zoom</div>
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">bookmark</div>
-    &nbsp;&nbsp;
-    <div style="display:inline-block; border:1px solid white; background:white; padding:0.25em 5em 0.25em 0.25em ; font-weight:normal">&nbsp;</div>
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">search</div>
+```html
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">print</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">share</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&lt;</div>
+<div style="display:inline-block; border:1px solid white; background:white; padding:0.25em; font-weight:normal">page #</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&gt;</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">zoom</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">bookmark</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; background:white; padding:0.25em 5em 0.25em 0.25em ; font-weight:normal">&nbsp;</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">search</div>
+```
 
 \</div\>
 
 \<div style=“background:gray; padding:1em; text-align:center;”\>
 
-      <div style="display:inline-block;background:white;border:1px solid black; width:7em; padding:1em; text-align:justify">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+```html
+  <div style="display:inline-block;background:white;border:1px solid black; width:7em; padding:1em; text-align:justify">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+```
 
 \</div\> \</div\> \</html\>
 
@@ -139,24 +153,26 @@ To achieve that, pages and paged viewer need exposure in styles and OM
 
 “paged-x” layout adds overflow pages along X axis. Custom page UI controls which page is displayed in pagination control
 
-      .pager { overflow:paged-x; }
-      <div class="pageview">
-        <div class="toolbar">
-          <button onclick="prevPage()">previous</button>
-          <button onclick="nextPage()">next</button>
-          ...
-        </div>
-        <div class="pager">
-          <iframe class="pages" src="content.html"></iframe>
-        </div>
-      </div>
-      <script>
-        function nextPage() {
-          if (pager.currentPage < pager.pageCount) {
-            pager.currentPage++;
-          }
-        }
-      </script>
+```html
+  .pager { overflow:paged-x; }
+  <div class="pageview">
+    <div class="toolbar">
+      <button onclick="prevPage()">previous</button>
+      <button onclick="nextPage()">next</button>
+      ...
+    </div>
+    <div class="pager">
+      <iframe class="pages" src="content.html"></iframe>
+    </div>
+  </div>
+  <script>
+    function nextPage() {
+      if (pager.currentPage < pager.pageCount) {
+        pager.currentPage++;
+      }
+    }
+  </script>
+```
 
 ### Ideas
 
@@ -183,35 +199,43 @@ This should wait synchronously for content pagination to be completed, if needed
 
 \<html\> \<div style=“display:inline-block”\> \<div style=“height:2em; background:black; padding:0.5em 1em; font-family:sans-serif; font-weight:bold; text-align:center;”\>
 
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">print</div>
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">share</div>
-    &nbsp;&nbsp;
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&lt;</div>
-    <div style="display:inline-block; border:1px solid white; background:white; padding:0.25em; font-weight:normal">page #</div>
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&gt;</div>
-    &nbsp;&nbsp;
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">zoom</div>
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">bookmark</div>
-    &nbsp;&nbsp;
-    <div style="display:inline-block; border:1px solid white; background:white; padding:0.25em 5em 0.25em 0.25em ; font-weight:normal">&nbsp;</div>
-    <div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">search</div>
+```html
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">print</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">share</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&lt;</div>
+<div style="display:inline-block; border:1px solid white; background:white; padding:0.25em; font-weight:normal">page #</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">&gt;</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">zoom</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">bookmark</div>
+&nbsp;&nbsp;
+<div style="display:inline-block; border:1px solid white; background:white; padding:0.25em 5em 0.25em 0.25em ; font-weight:normal">&nbsp;</div>
+<div style="display:inline-block; border:1px solid white; color:white; padding:0.25em">search</div>
+```
 
 \</div\>
 
 \<div style=“background:gray; padding:1em; text-align:center;”\>
 
-      <div style="display:inline-block;background:white;border:1px solid black; margin:0.5em">
-      <div style="width:6.5em; height:9em; margin:1em; overflow:hidden; text-align:justify; color:green;">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce     </div>
-      </div>
+```html
+  <div style="display:inline-block;background:white;border:1px solid black; margin:0.5em">
+  <div style="width:6.5em; height:9em; margin:1em; overflow:hidden; text-align:justify; color:green;">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce     </div>
+  </div>
+```
 
-      <div style="display:inline-block;background:white;border:1px solid black; margin:0.5em">
-      <div style="width:6.5em; height:9em; margin:1em; overflow:hidden; text-align:justify; color:blue;">
+```html
+  <div style="display:inline-block;background:white;border:1px solid black; margin:0.5em">
+  <div style="width:6.5em; height:9em; margin:1em; overflow:hidden; text-align:justify; color:blue;">
+```
 
 posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
 
-      </div>
-      </div>
+```
+  </div>
+  </div>
+```
 
 \</div\> \</div\> \</html\>
 
@@ -222,9 +246,11 @@ posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet c
 
 **Page selectors**
 
-    #paged { width:6.5in; height:9in; overflow:paged; }
-    #paged * { border: 1px solid black; }
-    #paged::nth-child(even) { position:relative; left:<page-width> } /**
+```css
+#paged { width:6.5in; height:9in; overflow:paged; }
+#paged * { border: 1px solid black; }
+#paged::nth-child(even) { position:relative; left:<page-width> } /**
+```
 
 **Page View DOM**
 
@@ -245,7 +271,9 @@ Content properties can be set by detecting range(s) of content on page, then tra
 
 **Example:**
 
-    TODO
+```
+TODO
+```
 
 ## Magazine viewer
 
@@ -282,46 +310,51 @@ right of the page
 
 The design can be implemented like this:
 
-    <style>
-      .page { display:grid; grid-columns:(1fr)[5]; grid-rows:(auto)[2] 1fr; }
-      .figures { grid-column-span:5; display:flexbox; flex-flow:reverse; z-index:1; }
-      .figures > * { wrap-flow:both; }
-      .title { grid-row:1; flow-from:title; z-index:2; wrap-through:none;}
-      .subtitle { grid-row:2; flow-from:subtitle; z-index:2; wrap-through:none;}
-      .sidebar { grid-row:3; grid-column:5; grid-row-align:end; grid-column-align:end; z-index:2; 
-                 flow-from:sidebar; width:8em; wrap-flow:both;}
-      .story { grid-row: grid-column-span:4; flow-from:story; z-index:0; }
-    </style>
+```html
+<style>
+  .page { display:grid; grid-columns:(1fr)[5]; grid-rows:(auto)[2] 1fr; }
+  .figures { grid-column-span:5; display:flexbox; flex-flow:reverse; z-index:1; }
+  .figures > * { wrap-flow:both; }
+  .title { grid-row:1; flow-from:title; z-index:2; wrap-through:none;}
+  .subtitle { grid-row:2; flow-from:subtitle; z-index:2; wrap-through:none;}
+  .sidebar { grid-row:3; grid-column:5; grid-row-align:end; grid-column-align:end; z-index:2;
+             flow-from:sidebar; width:8em; wrap-flow:both;}
+  .story { grid-row: grid-column-span:4; flow-from:story; z-index:0; }
+</style>
 
-    <div style="page">
-      <div class="figures">
-        <img src="imgMain.jpg" style="width:66%;"></div>
-        <img src="img1.jpg" style="min-width:200px; grid-row-align:end;"></div>
-      </div>
-      <div class="title"></div>
-      <div class="subtitle"></div>
-      <div class="sidebar"></div>  
-      <div class="story"></div>
-    </div>
+<div style="page">
+  <div class="figures">
+    <img src="imgMain.jpg" style="width:66%;"></div>
+    <img src="img1.jpg" style="min-width:200px; grid-row-align:end;"></div>
+  </div>
+  <div class="title"></div>
+  <div class="subtitle"></div>
+  <div class="sidebar"></div>
+  <div class="story"></div>
+
+```
 
 #### \[css3-regions\] with \[css3-page\]
 
 \[css3-page\] already has the concept of different pages having boxes of variable content and style depending on their order, and on certain elements triggering different @page layouts: margin boxes. Margin boxes are created by margin at-rules inside the page context. Margin boxes can accept a subset of CSS properties, just as Regions do. So, in the same way that margin boxes are declared using @margin inside different named or pseudo-classed @page rules, other boxes *within* the “page area” would be created using @slot inside different named or pseudo-classed @page rules. Each @slot could have a 'flow-from' property or 'content' property to give it contents. 'flow-from' makes the @slot into a region. When it there is more content that will fit, it flows to the next region that can contain it, even if that region is on another page. If a page break or 'page' property in another element results in another @page being used that does not contain a region for this flow, then the flow is deferred to a subsequent page that does accept this flow.
 
-    HTML, body { height:100%; margin:0; }
-    body { overflow: paged; }
-    @page {
-        @slot(0) { flow-from: article-flow; ... }
-        @slot(1) { flow-from: sidebar-flow; ... }
-    }
-    @page chapter-start-page {
-        @slot(0) { flow-from: article-flow;  ... }
-        @slot(Logo) { content:url(logo.png); position:absolute; top:0; right:0; .. }
-    }
+```css
 
-    article { flow-into: article-flow;  }
-    aside { flow-into: sidebar-flow; }
-    article h1 { page-break-before: always; page: chapter-start-page; }
+HTML, body { height:100%; margin:0; }
+body { overflow: paged; }
+@page {
+    @slot(0) { flow-from: article-flow; ... }
+    @slot(1) { flow-from: sidebar-flow; ... }
+}
+@page chapter-start-page {
+    @slot(0) { flow-from: article-flow;  ... }
+    @slot(Logo) { content:url(logo.png); position:absolute; top:0; right:0; .. }
+}
+
+article { flow-into: article-flow;  }
+aside { flow-into: sidebar-flow; }
+article h1 { page-break-before: always; page: chapter-start-page; }
+```
 
 ### Ideas
 
@@ -364,18 +397,18 @@ See previous section about combining css3-page @page with regions and a new @slo
 
 - declarative syntax for specifying page templates (called “page masters”)
 
-<!-- -->
-
-    @page-master
+```css
+@page-master
+{
+    <propname>: <propvalue>;
+    ...
+    @region <name> {
     {
         <propname>: <propvalue>;
         ...
-        @region <name> {
-        {
-            <propname>: <propvalue>;
-            ...
-        }
     }
+}
+```
 
 - specific set of rules and page-specific properties for page master selection, such as
   - 'min-page-width' and 'min-page-height' properites – for template selectoin based on page dimensions
@@ -391,46 +424,51 @@ Content flown throuh such “colums” needs to be able to use column breaks and
 
 \<HTML\>
 
-    <div id="page1" class="pageFrame" style="float:left; background:white; border:2px solid blue; margin:1em; width:18em; height:22em;">
-      <div class="pageContent" style="margin:2em; width:13em; height:18em; position:relative; text-align:left; xoutline:1px solid lime">
-        <div class="titleImg" style="background:salmon; width:8.3em; height:50%; float:right;"></div>
-        <div class="mainStory">
-          <div style="float:left; width:4em; height:18em; overflow:hidden; margin-right:0.5em;outline:2px solid green;">
-            <div style="color:red; font-weight:bold">One</div>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. 
-            Fusce posuere, magna 
-          </div> 
-          <div style="float:left; width:4em; height:8.5em; overflow:hidden; margin:0.5em 0.5em 0;outline:2px solid green;">
+```html
+<div id="page1" class="pageFrame" style="float:left; background:white; border:2px solid blue; margin:1em; width:18em; height:22em;">
+  <div class="pageContent" style="margin:2em; width:13em; height:18em; position:relative; text-align:left; xoutline:1px solid lime">
+    <div class="titleImg" style="background:salmon; width:8.3em; height:50%; float:right;"></div>
+    <div class="mainStory">
+      <div style="float:left; width:4em; height:18em; overflow:hidden; margin-right:0.5em;outline:2px solid green;">
+        <div style="color:red; font-weight:bold">One</div>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.
+        Fusce posuere, magna
+      </div>
+      <div style="float:left; width:4em; height:8.5em; overflow:hidden; margin:0.5em 0.5em 0;outline:2px solid green;">
+```
 
 pulvinar ultricies, purus lectus malesuada libero, sit amet
 
-          </div> 
-          <div style="float:left; width:4em; height:8.5em; overflow:hidden; margin:0.5em -1em 0 0.5em;outline:2px solid green;">
-          </div> 
-        </div>
+```html
+      </div>
+      <div style="float:left; width:4em; height:8.5em; overflow:hidden; margin:0.5em -1em 0 0.5em;outline:2px solid green;">
       </div>
     </div>
+  </div>
 
-      <div id="page1" class="pageFrame" style="float:left; background:white; border:2px solid blue; margin:1em; width:18em; height:22em;">
-      <div class="pageContent" style="margin:2em; width:13em; height:18em; position:relative; text-align:left; xoutline:1px solid lime">
-        <div class="mainStory">
-          <div style="float:left; width:4em; height:10em; overflow:hidden; margin-right:0.5em;outline:2px solid green;">
-            <div style="color:red; font-weight:bold">Two</div>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-          </div> 
-          <div style="float:left; width:4em; height:10em; overflow:hidden; margin:4em 0.5em 0;outline:2px solid green;">
+  <div id="page1" class="pageFrame" style="float:left; background:white; border:2px solid blue; margin:1em; width:18em; height:22em;">
+  <div class="pageContent" style="margin:2em; width:13em; height:18em; position:relative; text-align:left; xoutline:1px solid lime">
+    <div class="mainStory">
+      <div style="float:left; width:4em; height:10em; overflow:hidden; margin-right:0.5em;outline:2px solid green;">
+        <div style="color:red; font-weight:bold">Two</div>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      </div>
+      <div style="float:left; width:4em; height:10em; overflow:hidden; margin:4em 0.5em 0;outline:2px solid green;">
+```
 
 Maecenas porttitor congue massa.
 
-            Fusce posuere, magna sed 
-          </div> 
-          <div style="float:left; width:4em; height:10em; overflow:hidden; margin:8em -1em 0 0.5em;outline:2px solid green;">
-            pulvinar ultricies, purus lectus malesuada libero, sit amet 
-            commodo 
-            </div> 
-        </div>
+```html
+        Fusce posuere, magna sed
       </div>
+      <div style="float:left; width:4em; height:10em; overflow:hidden; margin:8em -1em 0 0.5em;outline:2px solid green;">
+        pulvinar ultricies, purus lectus malesuada libero, sit amet
+        commodo
+        </div>
     </div>
+  </div>
+
+```
 
 \<div style=“clear:both”\>\</div\>
 
@@ -446,7 +484,9 @@ If “page” is an element or pseudo-element generated from template and render
 
 \[css3-page\] already has this feature, we just need to make sure that it applies to 'overflow:paged'. For example:
 
-    article h1 { page-break-before: always; page: chapter-start-page; }
+```css
+article h1 { page-break-before: always; page: chapter-start-page; }
+```
 
 The above code starts a new page whenever there is an H1, and then uses the @page named “chapter-start-page” as its template.
 

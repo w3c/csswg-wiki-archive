@@ -34,19 +34,27 @@ The ability to format numbers without changing their actual value is a common pr
 
 #### Example HTML
 
-    <span class="phone">123467</span>
+```html
+<span class="phone">123467</span>
+```
 
 Should be displayed and spoken as “12 34 56”
 
-    <td class="price">987654321</td>
+```html
+<td class="price">987654321</td>
+```
 
 Should be displayed as \[987,654,321.00 USD\] and spoken as “nine hundred and eighty seven million six hundred and fifty four thousand three hundred and twenty one point zero zero US dollars”
 
-    <td class="sweprice">987654321</td>
+```html
+<td class="sweprice">987654321</td>
+```
 
 Should be displayed as \[987 654 321,00 SEK\] and spoken as “nine hundred and eighty seven million six hundred and fifty four thousand three hundred and twenty one **comma** zero zero Swedish crowns”
 
-    <span class="creditcard">1234567890123456</span>
+```html
+<span class="creditcard">1234567890123456</span>
+```
 
 Should be displayed as `1234 5678 9012 3456` and spoken as `12 34 56 78 90 12 34 56`
 
@@ -66,67 +74,69 @@ It consists of two parts for its value. A string that is identical to the second
 
 ### Example CSS
 
-    @decimal-format phone {
-      grouping-separator: " ";
-    }
-    @decimal-format price {
-      grouping-separator: ",";
-      decimal-separator : "."
-    }
-    @decimal-format sweprice {
-      grouping-separator: " ";
-      decimal-separator : ","
-    }
-    @decimal-format creditcard {
-      grouping-separator: " ";
-    }
-    @media all {
-      td.phone {
-          number-format: "## ##", "phone";
-      }
-    }
-    @media screen {
-      td.price {
-          number-format: "###,##0.00", "price";
-          /* price is actually redundant as this format would be the default */
-      }
-      td.price::after {
-          content: " USD";
-      }
-      td.sweprice {
-          number-format: "### ##0,00", "sweprice";
-      }
-      .creditcard {
-          number-format: "#### ####", "creditcard";
-      }
-      td.sweprice::after {
-          content: " SEK";
-      }
-    }
-    @media speech {
-      /* 
-          Grouping both unnecessary and unwanted, words like
-         "billion", "million" and "thousand" should be spelled out
-         Those words should only be spelled out by a screen reader when
-         grouping is not specified.
-      */ 
-      td.price {
-          number-format: "0.00", "price";
-      }
-      td.sweprice {
-          number-format: "0,00", "sweprice";
-      }
-      td.price::after {
-          content: " US dollars";
-      }
-      td.sweprice::after {
-          content: " Swedish crowns";
-      }
-      .creditcard {
-          /* Speak numbers in pairs, no nead to hear the word "thousand" */
-          number-format: "## ## ## ##", "creditcard";
-      }
-    }
+```css
+@decimal-format phone {
+  grouping-separator: " ";
+}
+@decimal-format price {
+  grouping-separator: ",";
+  decimal-separator : "."
+}
+@decimal-format sweprice {
+  grouping-separator: " ";
+  decimal-separator : ","
+}
+@decimal-format creditcard {
+  grouping-separator: " ";
+}
+@media all {
+  td.phone {
+      number-format: "## ##", "phone";
+  }
+}
+@media screen {
+  td.price {
+      number-format: "###,##0.00", "price";
+      /* price is actually redundant as this format would be the default */
+  }
+  td.price::after {
+      content: " USD";
+  }
+  td.sweprice {
+      number-format: "### ##0,00", "sweprice";
+  }
+  .creditcard {
+      number-format: "#### ####", "creditcard";
+  }
+  td.sweprice::after {
+      content: " SEK";
+  }
+}
+@media speech {
+  /*
+      Grouping both unnecessary and unwanted, words like
+     "billion", "million" and "thousand" should be spelled out
+     Those words should only be spelled out by a screen reader when
+     grouping is not specified.
+  */
+  td.price {
+      number-format: "0.00", "price";
+  }
+  td.sweprice {
+      number-format: "0,00", "sweprice";
+  }
+  td.price::after {
+      content: " US dollars";
+  }
+  td.sweprice::after {
+      content: " Swedish crowns";
+  }
+  .creditcard {
+      /* Speak numbers in pairs, no nead to hear the word "thousand" */
+      number-format: "## ## ## ##", "creditcard";
+  }
+}
+```
 
 ### Parsing
 

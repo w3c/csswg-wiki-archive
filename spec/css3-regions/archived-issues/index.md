@@ -1,0 +1,555 @@
+---
+title: "Action Items"
+---
+
+## Action Items
+
+[ACTION 376](http://www.w3.org/Style/CSS/Tracker/actions/376)
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Alex\</span\>\</html\>: need new proposal about the behavior of iframe or a different way to create named flow from url
+
+## Completed or Duplicated Actions
+
+[ACTION 350](http://www.w3.org/Style/CSS/Tracker/actions/350)
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Alex\</span\>\</html\>: to add an api to find out which element is in a named flow
+
+Done: <http://lists.w3.org/Archives/Public/www-style/2011Oct/0532.html>
+
+L-Action-7
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Alex\</span\>\</html\>: provide feedback on applicability of seamless frames in CSS regions.
+
+**Feedback:** Seamless iframes don't automatically provide the desired behavior. Seamless iframe is actually transparent for styling, it is intended to be equivalent to literally inserting the content into the master document, while what we want for indirect flow is the flow looking and behaving as if it was the document being shown in paged media – styled exactly as author intended for the content, with no interaction with styling of the template.
+
+(as noted in <http://lists.w3.org/Archives/Public/www-style/2011Sep/0098.html>)
+
+[Issue 19](http://wiki.csswg.org/spec/css3-regions#issue-19special-behavior-of-iframe-flow) still need a resolution, but seamless iframe is not the answer.
+
+[ACTION 351](http://www.w3.org/Style/CSS/Tracker/actions/351)
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: rework the issue of resolved sizes for regions and come up with an alt solution for the group along with use cases and examples.
+  - Added comment to original issues following discussions with Rossen and agreement to stick to width:auto meaning 0.
+  - height:auto based on the content as usual. Add a note that this is inconsistent (between width and height) and that implementation feedback will be needed to finalize the best behavior).
+  - Done in 09/30/2011 CVS update to editor draft.
+
+L-Action-9
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: insert issue markers / pointers in the spec.
+- Done in 09/30/2011 CVS update to editor draft.
+
+L-Action-10
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: rework ::region-before and ::region-after. Align with text-overflow.
+  - Proposal from David Hyatt to align with display:run-in to make :before and :after inline. Add a note saying that run-in on :after is more complex than on before, because you need to back-track.
+  - Done in 09/30/2011 CVS update to editor draft.
+
+L-Action-15
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: WARNING (ISSUE STILL NOT RESOLVED). Add note that floats and scrolling divs are not breakable (and therefore overflow their region).
+  - There has been a discussion about this with Alan Stearns, David Hyatt, Alex and Rossen. Do we have a resolution? How does this need to show in the spec.
+  - Meeting w/ Rossen and Alex, 09/27/2011: this issue should be dealt with in the pagination spec.
+
+L-Action-5
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: pagination region: what happens when flowing between containers of varying width? e..g., \<div style=“width:auto”\>…\</div\> flowing across regions of various widths. Action: Vincent to illustrate the use case (body with text flowing through multiple pages of different width, and width=100%).
+  - This issue is closed because of ACTION 351 where we decided that width:auto resolves to 0.
+
+L-Action-17
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: Move content to 'flow-from' and note issue about concerns about interplay with 'content'.
+
+[ACTION 354](http://www.w3.org/Style/CSS/Tracker/actions/354)
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: Come up with a proposal for breaks either a page-break or a general type of break or both and related use cases
+
+L-Action-8
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: make sure circular dependencies are covered in the spec. and that the behavior is consistent with an invalid flow-from reference.
+
+L-Action-11
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: write up new proposal based on Rossen's 'option 1' discussion (see attached [auto-sizing.pdf](/_media/spec/css3-regions/auto-sizing.pdf)) and raise as issue with the working group.
+
+L-Action-12
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: add a note that the overflow property works as usual on all regions in case there is an overflow (e.g., borders and characters).
+
+L-Action-13
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: rename content-order to region-order.
+
+L-Action-14
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: update the spec. to specify that regions establish a BFC.
+
+L-Action-16
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: Regions initial containing block: The edges of first regions in a region chain associated to a named flow establish the rectangle that is the initial containing block of the named flow.
+
+L-Action-6
+
+- \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Rossen\</span\>\</html\>: respond to Alex's email on auto sizing.
+
+L-Action-1
+
+- ✔ \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: remove all issues from draft and move to wiki.
+
+L-Action-2
+
+- ✔ \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: Remove “Integration with other specifications section”
+
+L-Action-3
+
+- ✔ \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: Update Wiki with remaining actions.
+
+L-Action-4
+
+- ✔ \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Alex\</span\>\</html\>: sendemail about content v.s., flow-from to www-style.
+
+[ACTION 352](http://www.w3.org/Style/CSS/Tracker/actions/352)
+
+- ✔ \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: for this version we are limiting regions to be block containers; will add a note that this may be expanded in future levels
+
+[ACTION 330](http://www.w3.org/Style/CSS/Tracker/actions/330)
+
+- ✔ \<html\>\<span style=“color:gray;font-weight:bold;”\>Vincent (duplicate of ACTION-354)\</span\>\</html\>: Regions spec. editors to specify a model for breaking flow content across areas that accounts for regions, columns and pages. Build on paged media and propose behavior for nested flows breaks. See the [breaks use cases](../../../spec/css3-regions/breaks-use-cases/ "spec:css3-regions:breaks-use-cases") page.
+
+See: [Vincent's action email](http://lists.w3.org/Archives/Public/www-style/2011Jul/0241.html) See: [Alex's proposal](http://lists.w3.org/Archives/Member/w3c-css-wg/2011JulSep/0107.html)
+
+✔ \<html\>\<span style=“color:#6c6;font-weight:bold;”\>Vincent\</span\>\</html\>: document the from-flow v.s. content issue and create proposal. See Issue 1 below.
+
+## Open Issues
+
+### Issue 23: should regions be non-breakable
+
+URL
+: https://www.w3.org/Bugs/Public/show_bug.cgi?id=15189
+
+### Issue 20: List of region style properties
+
+URL
+: https://www.w3.org/Bugs/Public/show_bug.cgi?id=15190
+
+### Issue 24: Creating a named flow from external resource
+
+URL
+: http://www.w3.org/Style/CSS/Tracker/actions/376
+
+Description
+: It should be possible to create a named flow directly from content of a separate document. Previously it was defined that <iframe style=“flow-into:flowname”> its content into the flow, rather than itself. That special case was deemed inappropriate and removed from the spec with action (Alex) to propose a different syntax.
+
+Option 1
+: two ‘flow-into’ properties:
+
+  <iframe style="flow-into:flow1"> --  add iframe to flow as a replaced element
+  <iframe style="flow-content-into:flow1"> --  add content of the iframe to flow
+
+ISSUE: that would apply to all elements, sometimes useful, but potentially with more special cases to deal with.
+
+Option 2
+: a separate property to specify what to add to flow, with the same effect:
+
+  <iframe style="flow-into:flow1; flow-source-type:element"> --  add iframe to flow as a replaced element
+  <iframe style="flow-into:flow1; flow-source-type:content"> --  add content of the iframe to flow
+
+Option 3
+: use a rule@flow flow1 "story1.html";
+@flow flow2 url("story1.html");
+
+ISSUE: what will OM for programmatic flow source control look like?
+
+Option 4
+: seamless iframe<iframe seamless style="flow-into:flow1" src="article1.html">
+
+This would almost work, but the definition of seamless iframe includes being transparent for DOM and styles, which is not what is expected from external flow.
+
+It will work \*if\* HTML5 iframe adds an option to isolate its DOM (a new attribute - 'noseamlessdom' or 'isolated')
+
+Option 5
+: <link> element
+  <link rel="namedflow" type="text/html-sandboxed" title="flow1" href="article1.html" />
+
+The effect of loading the document via link and then sending content into a named flow should be identical to loading in an iframe and sending iframe content into a named flow with name specified in 'title', including all security restrictions and sandboxing (if “type=text/html-sandboxed”).
+
+Concatenating multiple external documents in one named flow is difficult or impossible, so external flow should allow only one document per named flow. If multiple flow links have same title, the first one should be used.
+
+ISSUE: requires a change in HTML5
+
+Option 6
+: 'content' property.
+CSS3 generated content already has a way to include a file:#source1 { content:url(article1.html); flow-into:flow1; }
+
+There is no requirement that HTML is supported as supported format in generated content (and there is no perecent either), but syntax would allow it.
+Of course this is equivalent to iether iframe or seamless iframe (depends on how it is defined), but options to control the behavior of included content are entirely in scope of CSS
+
+Proposal
+: TODO
+
+Status
+: Open
+
+## Issues Resolved by Editors
+
+### Issue 21: When does a flow get created?
+
+URL
+: none
+
+Description
+
+```html
+  <style>
+  .article{
+    flow-into: thread;
+  }
+  .region{
+    flow-from: thread;
+  }
+  </style>
+  <html>
+  <body>
+    <div class=region>div content</div>
+  </body>
+  </html>
+```
+
+Proposal
+: Added example to the spec. that was already clear that the flow-from property makes an element a region and therefore its content is not rendered, even if there is no content in the region.
+
+### Issue 14: ::region-lines pseudo-selector
+
+REPLACED BY ISSUE 20. THERE IS NO MORE ::region-lines IN THE CURRENT EDITOR DRAFT.
+
+```
+
+ ;URL : http://lists.w3.org/Archives/Public/www-style/2011May/0518.html">
+ ;Description : there is concern (see link) that the ''first-line'' precedent is underspecified and that more specification is needed in addition to referencing the existing precedent.
+ ;Proposal : modify region styling to only have @region rules and limit the number of properties that can be part of the @ rule. For example, disallow width/height, display, float, position and properties that change the nature of the element.
+```
+
+### Issue 2 : Auto-sizing of regions
+
+URL
+: http://lists.w3.org/Archives/Public/www-style/2011Jun/0629.html
+
+Summary
+: Define intrinsic size of regions (currently zero, but there isn't a consensus that it's the best choice)
+
+There are different options for behavior of regions of undefined size, with different pros and cons.
+
+See [Possible Options](http://lists.w3.org/Archives/Public/www-style/2011Jun/0682.html)
+
+Proposal
+: Closed as it is addressed by ACTION-351
+
+### Issue 3 : Regions Break
+
+URL
+: http://lists.w3.org/Archives/Public/www-style/2011Jul/0241.html
+
+Summary
+: Should we add a new type of break for content in regions or should we specify which breaks should be honored when flowing content in regions?
+
+Discussion
+: see URL and response from Alex. The general idea is that we should be able to define a region 'type' for content that is getting laid out and honor breaks for that container 'type'. So if a region has 'flow-container-type' set to column, then it will honor column breaks in the content it lays out.
+
+### Issue 11: Should not allow pseudo-elements to move to a named flow
+
+Summary
+: The current spec. says that the 'flow-into' property only applies to elements but it does not explicitly rule out pseudo-elements such as '::first-line'
+
+Discussion
+: Since the '::first-line' pseudo-element is layout based, it seems difficult to allow moving it to a flow and raises questions (e.g., after the first-line has been moved to the named flow, what happens to the new 'first line'? Should it also be moved to the named flow?).
+
+Proposal
+: (latest editor draft as of 08/11/2011) 'flow-into' does not apply to ::first-line and ::first-character because they only support a limited number of properties. It is undefined what float-into() does for generated content such as ::marker, ::before and ::after. May change depending on implementation feedback. 09/27/2011, discussion with Rossen and Alex. Keep as-is, since, even though odd, this does not show obvious technical issue.
+
+### Issue 17: Behavior of broken floats
+
+Description
+: what happens if a float is broken across regions of different width? In particular, what happens if the float fragment on a second (or third) region, is in the middle of the region (x-axis)? How does that interact with subsequent floats? How does that interact with elements and clear behavior?
+
+Proposal
+: disallow breaking floats across regions. They overflow.
+
+Resolution
+: L-Action-15 to edit spec. HOWEVER: There is disagreement on this discussion (Adobe implementation team feedback) because floats are split in multi-column. Issue closed because this behavior will be part of the pagination module.
+
+### Issue 7 : CSS Regions Model
+
+URL: http://lists.w3.org/Archives/Public/www-style/2011Jun/0594.html
+Summary
+: the current model is that any element that has a) a layout it applies to its 'content' and b) a 'content' source (either the children or a flow segment). It would be simpler to restrict this model and specify that regions are elements with 'display-inside: block' only.
+
+Discussion
+: the current model allows chaining a block, a table and a flex box, for example, and that seem both complex and not most useful.
+
+Proposal
+: modify the region model as described in the summary. If a flow-from property is set on an element that is not 'display-inside: block', then the element is not added to the chain of regions and has no effect. Having a 'display-inside' property would be help
+
+Resolution
+: changed made to the specification (following WG resolution on limiting regions to be block containers http://krijnhoetmer.nl/irc-logs/css/20110725).
+
+### Issue 13: Should we rename content-order to region-order?
+
+Summary
+: the current draft uses the 'content-order' property to sequence regions in a region chain. It seems that the 'region-order' property would be more appropriate.
+
+Proposal
+: rename the 'content-order' property to 'region-order'
+
+Resolution
+: L-Action-13 to rename.
+
+### Issue 15: Do regions establish a new BFC?
+
+URL
+: http://www.w3.org/TR/CSS21/visuren.html#block-formatting
+
+Description
+: unclear if pages (the region precedent) establish a new BFC.
+
+Proposal
+: regions should establish a BFC because there is no sense in having their content participate in the region parent's BFC, under any circumstance.
+
+Resolution
+: L-Action-14 to edit spec.
+
+### Issue 16: Scrolling behavior for split blocks
+
+Description
+: what happens to scroll overflow for blocks that are split across regions.
+
+Options
+: could either say that scrollable regions cannot be broken or that a scrollbar only appears on the second segment.
+
+Proposal
+: scroll blocks are not breakable.
+
+Resolution
+: L-Action-15 to edit spec.
+
+### Issue 9: Absolute Positioning in Regions
+
+Summary
+: The current spec. says that the containing block for an absolutely positioned element in a flow is the 'current' region box. This is problematic because it means that the containing block for absolutely positioned elements can only be computed after laying out content that precedes the element in the flow.
+
+Proposal
+: Modify the definition of containing block for positioned elements in a flow to match what CSS 3 Paged media says in section 3 (http://www.w3.org/TR/css3-page/#page-box-page-rule):
+
+The edges of the page area on the first page establish the rectangle that is the initial containing block of the document.
+
+For CSS regions, we should have:
+
+The edges of first regions in a region chain associated to a named flow establish the rectangle that is the initial containing block of the named flow.
+
+Resolution
+: L-Action-16 to edit the spec.
+
+## Resolved Issues: San Jose / Santa Clara Meeting, October 2011
+
+See: <http://krijnhoetmer.nl/irc-logs/css/20111030>
+
+### Issue 12: Should we allow multi-column elements to be regions?
+
+Now tracked with <https://www.w3.org/Bugs/Public/show_bug.cgi?id=15191>
+
+URL
+: http://lists.w3.org/Archives/Public/www-style/2011Aug/0264.html
+
+Summary
+: should we allow the following: a magazine articles with regions galore on the first page, and then it switches to simple multi-column layout from page 2 and onwards
+
+Proposal
+: May be an interesting feature, but should move to next revision of CSS regions for simplicity.
+
+Resolution
+: ACTION-375 Bring a proposal for interaction between multicol and region
+
+### Issue 18: Interplay of flow-from and content
+
+URL
+: http://krijnhoetmer.nl/irc-logs/css/20110824
+
+Description
+: During the 08/24/2011, the working group resolved to use the 'flow-from' property instead of the content property to make an element a region. Fantasai expressed reserves and Steve Zilles suggested to add an issue.
+
+Proposal
+: close this issue and wait for a formal issue expressing specific technical problems.
+
+Resolution
+: close issue 18, reopen if needed later.
+
+### Issue 10: Should the regionLayoutUpdate event by Sync or Async?
+
+Summary
+: The current spec. says that regionLayoutUpdate event is Sync (see (http://www.w3.org/TR/DOM-Level-3-Events/#sync-async). Should the event be made Async.
+
+Discussion
+: In DOM Level 3 events, all events are Sync. except 'error', 'load', 'wheel' and 'scroll' which are Async. Not clear what guides making an event Sync or Async.
+
+Proposal
+: Async. (implemented in IE10).
+
+Resolution
+: Async.
+
+### Issue 22: content v.s. flow-from precedence
+
+URL
+: http://lists.w3.org/Archives/Public/www-style/2011Oct/0568.html
+
+Description: see email thread.
+Proposal
+: reverse text and say that content takes precedence over flow-from.
+
+Resolution
+: If 'content' computes to 'normal', then the element takes the flow.
+
+### Issue 19: Special behavior of iframe flow
+
+URL
+: http://lists.w3.org/Archives/Public/www-style/2011Sep/0072.html
+
+Description
+: iframe has special behavior when used as a flow source (http://dev.w3.org/csswg/css3-regions/#the-flow-into-property) – it puts its content into the flow, rather than itself. The model would be cleaner if the behavior was triggered by a property, not element tag.
+
+Option 1
+: two ‘flow-into’ properties:
+
+  <iframe style="flow-into:flow1"> --  add iframe to flow as a replaced element
+  <iframe style="flow-content-into:flow1"> --  add content of the iframe to flow
+
+Option 2
+: a separate property to specify what to add to flow, with the same effect:
+
+  <iframe style="flow-into:flow1; flow-source-type:element"> --  add iframe to flow as a replaced element
+  <iframe style="flow-into:flow1; flow-source-type:content"> --  add content of the iframe to flow
+
+Option 3
+: use a rule@flow flow1 "story1.html";
+@flow flow2 url("story1.html");
+
+Note that with this approach, it is not possible to concatenate content from multiple urls in one flow (which may be a good thing, concatenation is not an expected use pattern for flow indirection feature.
+
+- \*pro\* no special case for iframe
+
+<!-- -->
+
+- \*con\* different OM for programmatic flow source control.
+- \*con\* content is provided/defined by stylesheet, which seems wrong.
+
+Option 4
+: use a <link> element to create a flow from separate URL
+
+Markup TBD
+
+Proposal
+: Alex's option #1
+
+It is the smallest change and it achieves the goals of content separation; security issues appear to be understoood and require little new work to load/manage the separate content.
+
+However using a separate, new mechanism for content indirection (e.g. a link) may be cleaner
+
+Resolution
+: ACTION-376 - Remove text about special iframe behavior and alex to write proposal about the behavior of iframe [on Alex Mogilevsky - due 2011-11-06]
+
+## Resolved Issues: Seattle F2F Meeting, July 2011
+
+See: <http://lists.w3.org/Archives/Public/www-style/2011Aug/0069.html>
+
+### Issue 4 : Copying Flow Content
+
+URL
+: http://lists.w3.org/Archives/Public/www-style/2011May/0521.html
+
+Summary
+: Should we allow copying content in a flow instead of moving it in the flow?
+
+Discussion
+: this brings complexity and the benefits do not seem to offset that drawback (more complex DOM access, CSS OM View and computed style issues).
+
+Proposal
+: in the first version of CSS Regions, only allows moving content to a flow, not copying.
+
+### Issue 5 : API to find which region displays an element in a named flow
+
+URL
+: http://lists.w3.org/Archives/Public/www-style/2011May/0379.html
+
+Summary
+: should we add an API to find out which region displays an element in a named flow?
+
+Discussion
+: this has been proposed by Alex and seems like a nice functionality.
+
+Proposal
+: create an ACTION to have a specific API in the next draft.
+
+Proposal
+: add a method to NamedFlow interface   [supplemental] interface NamedFlow {
+    ...
+    Element[] getRegionsContainingElement(Element element);
+    /*or*/
+    NodeList getRegionsByContent(Node contentNode);
+}
+
+or document
+
+[supplemental] interface Document {
+    ...
+    Element[] getRegionsContainingElement(Element element, string flowName);
+}
+
+### Issue 6 : Compatibility with CSS Grid Layout Module Section 7.2
+
+URL
+: http://www.w3.org/TR/2011/WD-css3-grid-layout-20110407/#explicitly-defined-grid-cells
+
+Summary
+: there should be a way to make grid cells regions. If the issue on grid cell is resolved as suggested in the section 7.2 issue, then it will be possible.
+
+Proposal
+: have a RESOLUTION on section 7.2 issue that allows compatibility with CSS Regions.
+
+### Issue 1 : content: from-flow(\<flow-name\>) v.s. flow-from: \<flow-name\>
+
+URL
+: WG Conference Call, [CSSWG] Minutes and Resolutions 2011-06-15
+
+Summary
+: content: from-flow(<flow-name>) v.s. flow-from: <flow-name>
+
+Proposal
+: content: from-flow(<flow-name>)
+
+**cons**:
+
+- collapses two different concepts together.
+
+**pros**:
+
+- clear interaction between 'content' and 'flow-from'
+
+**cons**:
+
+- Need to define the precedent between the content property and the flow-from property.
+- Concerns about the cascade implications of having flow-from: none
+
+**pros**:
+
+- Separate concepts (content for content belonging to the element, flow-from for getting a segment of content from the flow)
+
+This requires no alteration to the definition of 'content', clearly separates the concept of flow and the concept of generated content.
+
+### Issue 8 : flow or flow-into ?
+
+URL
+: none
+
+Summary
+: the current specification uses the 'flow' property to direct an element to a named flow. With the proposal to use 'flow-from' (see Issue 1), it would make more sense to keep the properties symmetrical. Also, the prefix (here 'flow') is usually reserved for a possible shorthand (as in 'border' and 'border-top' for example).
+
+Proposal
+: rename 'flow' to 'flow-into' if the 'flow-from' proposal is adopted.

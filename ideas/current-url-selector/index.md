@@ -19,7 +19,9 @@ In order style links based on the users current location within a site and to di
 
 The current link pseudo-class selector would have the following pattern:
 
-    E:current(n)
+```
+E:current(n)
+```
 
 Matches element `E` if `E` is the source anchor of a hyperlink of which the target matches the clients current URI if no number (`n`) is included or matches up to the directory level indicated by `n`. A value of `n=0` compares only the top level domain.
 

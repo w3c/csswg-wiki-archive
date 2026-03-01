@@ -84,17 +84,19 @@ title: "W3C CVS For Dummies"
 >
 > - Install CVS by entering this command into a Terminal window:
 >
-> ``` bash
+> ```bash
 > sudo port install cvs
 > ```
 >
 > If you get an error message like:
 >
+> ```
 > sudo: port: command not found
+> ```
 >
 > Then open a \*new\* Terminal window and try the command again:
 >
-> ``` bash
+> ```bash
 > sudo port install cvs
 > ```
 >
@@ -102,6 +104,7 @@ title: "W3C CVS For Dummies"
 >
 > You should then see a bunch of messages like:
 >
+> ```
 > --->  Fetching cvs
 > --->  Attempting to fetch cvs-1.11.23.tar.bz2 from http://distfiles.macports.org/cvs
 > --->  Verifying checksum(s) for cvs
@@ -112,6 +115,7 @@ title: "W3C CVS For Dummies"
 > --->  Installing cvs @1.11.23_0
 > --->  Activating cvs @1.11.23_0
 > --->  Cleaning cvs
+> ```
 >
 > Congratulations, you've installed the command-line cvs tool on your Mac.
 >
@@ -125,19 +129,21 @@ title: "W3C CVS For Dummies"
 >
 > The short version, type this into a terminal window (e.g. in the Terminal application on MacOSX)
 >
-> ``` bash
+> ```bash
 > export CVS_RSH=ssh
 > ```
 >
 > Now test that you did the right thing by typing in:
 >
-> ``` bash
+> ```bash
 > echo $CVS_RSH
 > ```
 >
 > You should see a message like:
 >
+> ```
 > ssh
+> ```
 >
 > followed immediately by a prompt.
 >
@@ -151,7 +157,7 @@ title: "W3C CVS For Dummies"
 >
 > Here is a command to add the above export command to your .bash_profile for you (which automatically creates a .bash_profile for you if you don't have one already, otherwise appends the command to the end).
 >
-> ``` bash
+> ```bash
 > echo "export CVS_RSH=ssh" | cat >> .bash_profile
 > ```
 >
@@ -187,34 +193,42 @@ title: "W3C CVS For Dummies"
 > - now use “cd” in your terminal/shell window/application to navigate to the directory where you want to create a new “csswg” directory.
 > - execute this command in your shell (it will create a new directory called csswg)
 >
-> ``` bash
+> ```bash
 > cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co csswg
 > ```
 >
 > You might see a message like:
 >
+> ```
 > The authenticity of host 'dev.w3.org (128.30.52.19)' can't be established.
 > RSA key fingerprint is fb:30:ab:09:1c:b3:1a:74:93:67:57:fd:69:16:0b:97.
+> ```
 >
 > That's the right one. If you get a different fingerprint back you're being hacked.
 >
 > Then when asked:
 >
+> ```
 > Are you sure you want to continue connecting (yes/no)?
+> ```
 >
 > Answer:
 >
-> ``` bash
+> ```bash
 > yes
 > ```
 >
 > Then you'll likely get a warning like:
 >
+> ```
 > Warning: Permanently added 'dev.w3.org,128.30.52.19' (RSA) to the list of known hosts.
+> ```
 >
 > IF you get an error message like
 >
+> ```
 > Permission denied (publickey).
+> ```
 >
 > FIRST check to make sure you typed in your username \*case-sensitively\* including proper capitals if any.
 >
@@ -241,14 +255,18 @@ title: "W3C CVS For Dummies"
 >
 > You may get a message like:
 >
+> ```
 > Identity added: /Users/USERNAME/.ssh/id_dsa (/Users/USERNAME/.ssh/id_dsa)
+> ```
 >
 > where USERNAME is your login alias for your client box.
 >
 > IF you get an error message like:
 >
+> ```
 > Connection closed by 128.30.52.19
 > cvs [checkout aborted]: end of file from server (consult above messages if any)
+> ```
 >
 > THEN it could be a number of things. E.g.
 >
@@ -257,10 +275,13 @@ title: "W3C CVS For Dummies"
 >
 > You SHOULD see a message like:
 >
+> ```
 > cvs.bin checkout: Updating csswg
+> ```
 >
 > and then a bunch of messages like:
 >
+> ```
 > U csswg/.htaccess
 > U csswg/default.css
 > U csswg/logo-ED.png
@@ -268,6 +289,7 @@ title: "W3C CVS For Dummies"
 > U csswg/css-style-attr/Overview.html
 > U csswg/css-style-attr/Overview.src.html
 > U csswg/css-style-attr/issues-lc-2009.txt
+> ```
 >
 > …
 >
@@ -281,7 +303,7 @@ title: "W3C CVS For Dummies"
 >
 > First make sure that your Terminal application/window is in the directory where you want to create the “html5” check out, and then execute a command like:
 >
-> ``` bash
+> ```bash
 > cvs -d :ext:Tantekelik@dev.w3.org:/sources/public co html5
 > ```
 >
@@ -333,7 +355,7 @@ title: "W3C CVS For Dummies"
 >
 > Or `cd` to that directory and do a
 >
-> ``` bash
+> ```bash
 > mkdir css3-foo
 > ```
 >
@@ -341,19 +363,19 @@ title: "W3C CVS For Dummies"
 >
 > Then you need to do an explicit `cvs add` on the directory, e.g.
 >
-> ``` bash
+> ```bash
 > cvs add css3-foo
 > ```
 >
 > You should get a message back like:
 >
-> ``` bash
+> ```bash
 > Directory /sources/public/csswg/css3-foo added to the repository
 > ```
 >
 > If you get a message like:
 >
-> ``` bash
+> ```bash
 > cvs-debian-1.12.13 checkout: cannot find module `csswg/css3-foo - New directory
 > ' - ignored
 > ```
@@ -362,7 +384,7 @@ title: "W3C CVS For Dummies"
 >
 > Now cd into that directory
 >
-> ``` bash
+> ```bash
 > cd css3-foo
 > ```
 >
@@ -374,20 +396,20 @@ title: "W3C CVS For Dummies"
 >
 > To commit this file and thus create the new directory, you have to do a cvs add, e.g. from the shell.
 >
-> ``` bash
+> ```bash
 > cvs add Overview.src.html
 > ```
 >
 > You should see messages like:
 >
-> ``` bash
+> ```bash
 > cvs.bin add: scheduling file `Overview.src.html' for addition
 > cvs.bin add: use 'cvs.bin commit' to add this file permanently
 > ```
 >
 > Now you have to do a cvs commit of the file and the directory, which means first going to (cding up to) its parent.
 >
-> ``` bash
+> ```bash
 > cd ..
 > ```
 >
@@ -395,25 +417,25 @@ title: "W3C CVS For Dummies"
 >
 > copy the following line:
 >
-> ``` bash
+> ```bash
 > cvs commit -m "YOUR COMMIT MESSAGE HERE" css3-foo
 > ```
 >
 > and replace
 >
-> ``` bash
+> ```bash
 > YOUR COMMIT MESSAGE HERE
 > ```
 >
 > with something more meaningful, like:
 >
-> ``` bash
+> ```bash
 > creating css3-foo for the CSS3 Foo module spec
 > ```
 >
 > Now you should see a set of messages like:
 >
-> ``` bash
+> ```bash
 > cvs commit: Examining css3-foo
 > RCS file: /sources/public/csswg/css3-foo/Overview.src.html,v
 > done
@@ -432,7 +454,7 @@ title: "W3C CVS For Dummies"
 >
 > IF you forget to type -m and a commit message in the cvs command line, e.g. type something like:
 >
-> ``` bash
+> ```bash
 > cvs commit css3-foo
 > ```
 >
@@ -440,7 +462,7 @@ title: "W3C CVS For Dummies"
 >
 > You might quickly see a message like:
 >
-> ``` bash
+> ```bash
 > cvs commit: Examining css3-foo
 > ```
 >
@@ -452,7 +474,7 @@ title: "W3C CVS For Dummies"
 >
 > Regardless of which editor, you'll see lines at the top starting with:
 >
-> ``` bash
+> ```bash
 > CVS: ----------------------------------------------------------------------
 > CVS: Enter Log.  Lines beginning with `CVS:' are removed automatically
 > ```
@@ -471,7 +493,7 @@ title: "W3C CVS For Dummies"
 >
 > You should see messages like:
 >
-> ``` bash
+> ```bash
 > RCS file: /sources/public/csswg/css3-foo/Overview.src.html,v
 > done
 > Checking in css3-foo/Overview.src.html;
@@ -485,7 +507,7 @@ title: "W3C CVS For Dummies"
 >
 > In order to avoid vim popping up like that in the future, be sure to to always explicitly specify a commit message with -m like
 >
-> ``` bash
+> ```bash
 > cvs commit -m "YOUR COMMIT MESSAGE HERE" css3-foo
 > ```
 >
@@ -527,14 +549,14 @@ title: "W3C CVS For Dummies"
 >
 > Look for the W3C style sheet \<link\> tag - it will look something like this:
 >
-> ``` html
+> ```html
 > <link rel="stylesheet" type="text/css"
 > href="http://www.w3.org/StyleSheets/TR/W3C-CR">
 > ```
 >
 > It may end in “W3C-WD” or “W3C-PR” or something else. Make sure it is the EDITOR's stylesheet by using this \<link\> element:
 >
-> ``` html
+> ```html
 > <link rel="stylesheet" type="text/css"
 > href="http://www.w3.org/StyleSheets/TR/W3C-ED">
 > ```
@@ -549,46 +571,46 @@ title: "W3C CVS For Dummies"
 >
 > `cd` to your CVS checkout, e.g. if your check out is in your home directory:
 >
-> ``` bash
+> ```bash
 > cd ~/csswg
 > cvs up -d
 > ```
 >
 > IF it seems to stall and not do anything, or eventually gives an error message like:
 >
-> ``` bash
+> ```bash
 > lionel-hutz.w3.org: Connection refused
 > cvs [update aborted]: end of file from server (consult above messages if any)
 > ```
 >
 > OR an error message like:
 >
-> ``` bash
+> ```bash
 > cvs [update aborted]: cannot exec value: No such file or directory
 > cvs [update aborted]: end of file from server (consult above messages if any)
 > ```
 >
 > THEN check to see if your `CVS_RSH` is defined by trying:
 >
-> ``` bash
+> ```bash
 > echo $CVS_RSH
 > ```
 >
 > IF you get nothing but a blank line or something other than “ssh”, THEN do this (you likely need to setup your CVS_RSH system variable as documented in [Step 1 setup cvs_rsh](../../spec/cvs/#step-1-setup-cvs_rsh "spec:cvs")) :
 >
-> ``` bash
+> ```bash
 > export CVS_RSH=ssh
 > ```
 >
 > THEN retry the cvs up line:
 >
-> ``` bash
+> ```bash
 > cvs up -d
 > ```
 >
 > You should see messages like:
 >
-> ``` bash
+> ```bash
 > cvs.bin update: Updating .
 > cvs.bin update: Updating css-style-attr
 > ```
@@ -597,7 +619,7 @@ title: "W3C CVS For Dummies"
 >
 > If you see a line starting with a “M”, like:
 >
-> ``` bash
+> ```bash
 > M css3-color/Overview.src.html
 > ```
 >
@@ -605,7 +627,7 @@ title: "W3C CVS For Dummies"
 >
 > If you see a line starting with a “P”, like:
 >
-> ``` bash
+> ```bash
 > P css3-background/Overview.src.html
 > ```
 >
@@ -613,7 +635,7 @@ title: "W3C CVS For Dummies"
 >
 > If you see a line starting with a “U”, like:
 >
-> ``` bash
+> ```bash
 > U css3-transitions/step.png
 > ```
 >
@@ -639,7 +661,9 @@ title: "W3C CVS For Dummies"
 >
 > If you're on a system with [curl](http://curl.haxx.se/) on it, just save the following line to a file somewhere in your executable path:
 >
+> ```
 > curl -u USERNAME:PASSWORD -F file=@Overview.src.html -F group=CSS -F output=html -F method=file http://cgi.w3.org/member-bin/process.cgi -o Overview.html''
+> ```
 >
 > (Replace the USERNAME:PASSWORD with your W3C username and password, the same that you would enter when visiting the web form linked above.)
 >
@@ -651,7 +675,7 @@ title: "W3C CVS For Dummies"
 >
 > You can also just check-in from their parent folder by cding in a terminal window to their directory and then:
 >
-> ``` bash
+> ```bash
 > cvs -m "COMMIT MESSAGE HERE" commit
 > ```
 >
@@ -661,13 +685,13 @@ title: "W3C CVS For Dummies"
 >
 > “cd” to a directory that you have a checkout and try a
 >
-> ``` bash
+> ```bash
 > cvs version
 > ```
 >
 > IF you get an error message like:
 >
-> ``` bash
+> ```bash
 > Client: Concurrent Versions System (CVS) 1.11.18 (client/server)
 > lionel-hutz.w3.org: Operation timed out
 > Server: cvs [version aborted]: end of file from server (consult above messages if any)
@@ -677,19 +701,19 @@ title: "W3C CVS For Dummies"
 >
 > TRY:
 >
-> ``` bash
+> ```bash
 > echo $CVS_RSH
 > ```
 >
 > IF it shows just a blank line then you need to set it:
 >
-> ``` bash
+> ```bash
 > export CVS_RSH=ssh
 > ```
 >
 > try again:
 >
-> ``` bash
+> ```bash
 > cvs version
 > ```
 >
@@ -697,7 +721,7 @@ title: "W3C CVS For Dummies"
 >
 > IF you see a message like (On MacOSX 10.4 at least) :
 >
-> ``` bash
+> ```bash
 > The authenticity of host 'dev.w3.org (128.30.52.19)' can't be established.
 > RSA key fingerprint is fb:30:ab:09:1c:b3:1a:74:93:67:57:fd:69:16:0b:97.
 > Are you sure you want to continue connecting (yes/no)?
@@ -705,7 +729,7 @@ title: "W3C CVS For Dummies"
 >
 > Verify that the fingerprint is correct and then type in
 >
-> ``` bash
+> ```bash
 > yes
 > ```
 >
@@ -713,13 +737,13 @@ title: "W3C CVS For Dummies"
 >
 > you may see a message like:
 >
-> ``` bash
+> ```bash
 > Warning: Permanently added 'dev.w3.org' (RSA) to the list of known hosts.
 > ```
 >
 > You may be asked:
 >
-> ``` bash
+> ```bash
 > Enter passphrase for key '/Users/USERNAME/.ssh/id_dsa':
 > ```
 >
@@ -731,25 +755,25 @@ title: "W3C CVS For Dummies"
 >
 > THEN try
 >
-> ``` bash
+> ```bash
 > ssh-add ~/.ssh/id_dsa
 > ```
 >
 > you might get an error like:
 >
-> ``` bash
+> ```bash
 > Could not open a connection to your authentication agent.
 > ```
 >
 > TRY
 >
-> ``` bash
+> ```bash
 > ssh-agent -s
 > ```
 >
 > Now you might see something like:
 >
-> ``` bash
+> ```bash
 > SSH_AUTH_SOCK=/tmp/ssh-VWXYZVWXYZ/agent.555; export SSH_AUTH_SOCK;
 > SSH_AGENT_PID=333; export SSH_AGENT_PID;
 > echo Agent pid 333;
@@ -759,14 +783,14 @@ title: "W3C CVS For Dummies"
 >
 > Now try:
 >
-> ``` bash
+> ```bash
 > eval `ssh-agent -s`
 > ssh-add ~/.ssh/id_dsa
 > ```
 >
 > and you might see a message like:
 >
-> ``` bash
+> ```bash
 > Enter passphrase for /Users/USERNAME/.ssh/id_dsa:
 > ```
 >
@@ -776,19 +800,19 @@ title: "W3C CVS For Dummies"
 >
 > Then you might see a message like this: (at least on Mac OS X)
 >
-> ``` bash
+> ```bash
 > Identity added: /Users/USERNAME/.ssh/id_dsa (/Users/USERNAME/.ssh/id_dsa)
 > ```
 >
 > Now try:
 >
-> ``` bash
+> ```bash
 > cvs version
 > ```
 >
 > And you should get messages like:
 >
-> ``` bash
+> ```bash
 > Client: Concurrent Versions System (CVS) 1.11.18 (client/server)
 > Server: Concurrent Versions System (CVS) 1.11.22 (client/server)
 > ```
@@ -827,7 +851,7 @@ title: "W3C CVS For Dummies"
 >
 > In a Terminal window, be sure to cd to the directory you want to create the new checkout, then modify this command line:
 >
-> ``` bash
+> ```bash
 > cvs -d Tantekelik@cvs.w3.org:/w3ccvs co WWW
 > ```
 >
@@ -839,34 +863,42 @@ title: "W3C CVS For Dummies"
 >
 > You might see a message like:
 >
+> ```
 > The authenticity of host 'cvs.w3.org (128.30.52.19)' can't be established.
 > RSA key fingerprint is fb:30:ab:09:1c:b3:1a:74:93:67:57:fd:69:16:0b:97.
+> ```
 >
 > That's the right one. If you get a different fingerprint back you're being hacked.
 >
 > Then when asked:
 >
+> ```
 > Are you sure you want to continue connecting (yes/no)?
+> ```
 >
 > Answer:
 >
-> ``` bash
+> ```bash
 > yes
 > ```
 >
 > Then you'll likely get a warning like:
 >
+> ```
 > Warning: Permanently added 'cvs.w3.org' (RSA) to the list of known hosts.
+> ```
 >
 > IF you get messages like:
 >
+> ```
 > cvs.bin checkout: Updating WWW
 > cvs.bin checkout: cannot open directory /w3ccvs/WWW: Permission denied
 > cvs.bin checkout: skipping directory WWW
+> ```
 >
 > Then you don't have access to the top level WWW directory. You'll have to pick a subdirectory instead, perhaps associated with the working group you're working with, e.g. for the W3C CSS Working Group, use a command like this instead:
 >
-> ``` bash
+> ```bash
 > cvs -d Tantekelik@cvs.w3.org:/w3ccvs co WWW/Style/Group
 > ```
 >
@@ -874,10 +906,13 @@ title: "W3C CVS For Dummies"
 >
 > You SHOULD see a message like:
 >
+> ```
 > cvs.bin checkout: Updating WWW/Style/Group
+> ```
 >
 > and then a bunch of messages like:
 >
+> ```
 > U WWW/Style/Group/970117-usersettings.html
 > U WWW/Style/Group/CSS-X-schema.gif
 > U WWW/Style/Group/CSS-X-schema.idraw
@@ -885,6 +920,7 @@ title: "W3C CVS For Dummies"
 > U WWW/Style/Group/CSS-X.html
 > U WWW/Style/Group/CSS-selectors.html
 > U WWW/Style/Group/History.html
+> ```
 >
 > …
 >
@@ -896,46 +932,56 @@ title: "W3C CVS For Dummies"
 >
 > If it seems to get “stuck”, i.e. you've left it running for a while, and it's stopped on a status line like:
 >
+> ```
 > cvs.bin checkout: Updating WWW/Style/Group/2002
+> ```
 >
 > You can try ctrl-c to stop the check out - whereby it will probably give you messages like:
 >
+> ```
 > ^Ccvs [checkout aborted]: received interrupt signal
 > cvs [checkout aborted]: received interrupt signal
+> ```
 >
 > Now go the specific directory you checked out:
 >
-> ``` bash
+> ```bash
 > cd WWW/Style/Group
 > ```
 >
 > and restart your checkout:
 >
-> ``` bash
+> ```bash
 > cvs up -d
 > ```
 >
 > If it still seems to stall in the same place, e.g. on
 >
+> ```
 > cvs.bin checkout: Updating WWW/Style/Group/2002
+> ```
 >
 > Just give it a bit longer - there's a 100+ MB .rm file in that directory that may just be taking a while to pull down.
 >
 > Eventually, you should see a bunch of `cvs.bin updated: Updating …` lines like:
 >
+> ```
 > cvs.bin update: Updating .
 > cvs.bin update: Updating 2003
 > cvs.bin update: Updating 2003/WD-css3-content-20030514
 > cvs.bin update: Updating 2003/WD-css3-template-20030514
 > cvs.bin update: Updating 2004
+> ```
 >
 > …
 >
 > etc. Just give a little while to finish with something like:
 >
+> ```
 > cvs.bin update: Updating pjirc/img
 > cvs.bin update: Updating pjirc/snd
 > cvs.bin update: Updating test-suite
+> ```
 >
 > CONGRATULATIONS!
 >
@@ -943,19 +989,19 @@ title: "W3C CVS For Dummies"
 >
 > If you're in the CSS Working group, you probably also want to check out the `WWW/Style/``CSS` CVS repository. Do a quick:
 >
-> ``` bash
+> ```bash
 > pwd
 > ```
 >
 > if the path returned ends with “/WWW/Style/Group” then cd back out of it:
 >
-> ``` bash
+> ```bash
 > cd ../../..
 > ```
 >
 > and then issue a new check out command like before but with the `WWW/Style/``CSS`:
 >
-> ``` bash
+> ```bash
 > cvs -d Tantekelik@cvs.w3.org:/w3ccvs co WWW/Style/CSS
 > ```
 >
@@ -963,10 +1009,12 @@ title: "W3C CVS For Dummies"
 >
 > You should see messages like:
 >
+> ```
 > cvs.bin checkout: Updating WWW/Style/CSS
 > U WWW/Style/CSS/.Disclosures.var
 > U WWW/Style/CSS/.Overview.var
 > U WWW/Style/CSS/.htaccess
+> ```
 >
 > … etc.
 >

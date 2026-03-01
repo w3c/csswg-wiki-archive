@@ -8,16 +8,18 @@ This page lists information on maintaining the [2008 Charter Table of Specificat
 
 Each module advocate needs to fill out the following information:
 
-    ===== Specification Name =====
+```
+===== Specification Name =====
 
-      ; Latest Working Draft : pasteURLhere
-      ; Advocate : Your Name Here
-      ; Description : Describe here what it is.
-      ; Status : Explain current status, expected next status, how big of a project it is.
-      ; Implementations : Explain current status and expectations.
-      ; Test Suite : Explain current and expected status, how big of a project it will be.
-      ; Blocked by : Explain anything that is blocking progress.
-      ; Rationale : Explain why we want this, why it is important.
+  ; Latest Working Draft : pasteURLhere
+  ; Advocate : Your Name Here
+  ; Description : Describe here what it is.
+  ; Status : Explain current status, expected next status, how big of a project it is.
+  ; Implementations : Explain current status and expectations.
+  ; Test Suite : Explain current and expected status, how big of a project it will be.
+  ; Blocked by : Explain anything that is blocking progress.
+  ; Rationale : Explain why we want this, why it is important.
+```
 
 The CSSWG's [current work page](http://www.w3.org/Style/CSS/current-work) is a good starting point. fantasai's [article on specification stages](http://www.w3.org/blog/CSS/2007/11/01/css_recommendation_track) might be helpful for describing status. It defines the following stages:
 

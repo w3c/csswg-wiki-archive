@@ -162,7 +162,7 @@ h1::next[3] {border: thick solid olive;}
 <!-- multiple sibling pseudo-elements -->
 <!-- multiple sibling pseudo-elements -->
 <!-- multiple sibling pseudo-elements -->
-<p>paragraph</p>  
+<p>paragraph</p>
 ```
 
 #### 6. Complex wrapping of ranges of similar elements

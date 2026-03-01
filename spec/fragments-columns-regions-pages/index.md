@@ -16,30 +16,36 @@ Implementations of regions, columns and paginations will vary but in most genera
 
 \<div class=“figure” style=“border:thin solid silver; width:35em; margin:auto; padding:1em;”\>
 
-      <div class="legend" style="font-style:italic">Content</div>
-      <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+```html
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+```
 
-      <div style="margin:1em"></div>
-      
-      <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
-          Layout engine
-      </div>
+```html
+  <div style="margin:1em"></div>
 
-      <div style="margin:0.5em"></div>
-        
-      <div class="legend" style="font-style:italic">Containers</div>
-      <div style="text-align:center">
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
-          </div>
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+```
+
+```html
+  <div style="margin:0.5em"></div>
+
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
       </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+  </div>
+```
 
 \</div\> \</html\>
 
@@ -49,22 +55,28 @@ That's what all layout engines do, the most common cases being
 
 \<html\> \<div class=“figure” style=“border:thin solid silver; width:35em; margin:auto; padding:1em; font-size:66%; -float:right; clear:right;”\>
 
-      <div class="legend" style="font-style:italic">Content</div>
-      <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+```html
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+```
 
-      <div style="margin:1em"></div>
-        
-      <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
-          Layout engine
-      </div>
+```html
+  <div style="margin:1em"></div>
 
-      <div style="margin:0.5em"></div>
-        
-      <div class="legend" style="font-style:italic">Containers</div>
-      <div style="text-align:center">
-          <div class="box" style="display:block;margin:0.5em;border:1px dashed black;padding:0.5em; border-bottom-style:none;height:3em;">
-          </div>
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+```
+
+```html
+  <div style="margin:0.5em"></div>
+
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:block;margin:0.5em;border:1px dashed black;padding:0.5em; border-bottom-style:none;height:3em;">
       </div>
+  </div>
+```
 
 \</div\> \</html\>
 
@@ -74,30 +86,36 @@ That's what all layout engines do, the most common cases being
 
 \<html\> \<div class=“figure” style=“border:thin solid silver; width:35em; margin:auto; padding:1em; font-size:66%; -float:right; clear:right;”\>
 
-      <div class="legend" style="font-style:italic">Content</div>
-      <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+```html
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+```
 
-      <div style="margin:1em"></div>
-        
-      <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
-          Layout engine
-      </div>
+```html
+  <div style="margin:1em"></div>
 
-      <div style="margin:0.5em"></div>
-        
-      <div class="legend" style="font-style:italic">Containers</div>
-      <div style="text-align:center">
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+```
+
+```html
+  <div style="margin:0.5em"></div>
+
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
       </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+  </div>
+```
 
 \</div\> \</html\>
 
@@ -113,55 +131,57 @@ When layout engine actually does its work, it outputs pieces of content that are
 
 \<html\> \<div class=“figure” style=“border:thin solid silver; width:35em; margin:auto; padding:1em;”\>
 
-      <div class="legend" style="font-style:italic">Content</div>
-      <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
-        
-      <div class="down-arrow" style="width:2em;margin:0.5em auto;">
-      <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
-      <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+```html
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+
+  <div class="legend" style="font-style:italic">Fragment boxes</div>
+  <div style="text-align:center">
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      Lorem
       </div>
-      
-      <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
-          Layout engine
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      ipsum
       </div>
-        
-      <div class="down-arrow" style="width:2em;margin:0.5em auto;">
-      <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
-      <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      dolor
       </div>
-      
-      <div class="legend" style="font-style:italic">Fragment boxes</div>
-      <div style="text-align:center">
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          Lorem
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
-          ipsum
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          dolor
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          sit
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
-          amet
-          </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      sit
       </div>
-      
-      <div class="legend" style="font-style:italic">Containers</div>
-      <div style="text-align:center">
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em; ">
-          </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      amet
       </div>
+  </div>
+
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em; ">
+      </div>
+  </div>
+```
 
 \</div\>
 
@@ -171,55 +191,57 @@ Note that as layout engine fills containers with content, there may be content t
 
 \<html\> \<div class=“figure” style=“border:thin solid silver; width:35em; font-size:66%; margin:auto; padding:1em;”\>
 
-      <div class="legend" style="font-style:italic">Content</div>
-      <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
-        
-      <div class="down-arrow" style="width:2em;margin:0.5em auto;">
-      <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
-      <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+```html
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+
+  <div class="legend" style="font-style:italic">Fragment boxes</div>
+  <div style="text-align:center">
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      Lorem
       </div>
-      
-      <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
-          Layout engine
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      ipsum
       </div>
-        
-      <div class="down-arrow" style="width:2em;margin:0.5em auto;">
-      <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
-      <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      dolor
       </div>
-      
-      <div class="legend" style="font-style:italic">Fragment boxes</div>
-      <div style="text-align:center">
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          Lorem
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
-          ipsum
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          dolor
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          sit
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:#ff8888;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          amet
-          </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      sit
       </div>
-      
-      <div class="legend" style="font-style:italic">Containers</div>
-      <div style="text-align:center">
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em; visibility:hidden;">
-          </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:#ff8888;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      amet
       </div>
+  </div>
+
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em; visibility:hidden;">
+      </div>
+  </div>
+```
 
 \</div\> \</html\>
 
@@ -227,55 +249,57 @@ Note that as layout engine fills containers with content, there may be content t
 
 \<html\> \<div class=“figure” style=“border:thin solid silver; width:35em; font-size:66%; margin:auto; padding:1em;”\>
 
-      <div class="legend" style="font-style:italic">Content</div>
-      <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
-        
-      <div class="down-arrow" style="width:2em;margin:0.5em auto;">
-      <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
-      <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+```html
+  <div class="legend" style="font-style:italic">Content</div>
+  <div class="" style="background:silver">. . . Lorem ipsum dolor sit amet, consectetur . . . </div>
+
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+
+  <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
+      Layout engine
+  </div>
+
+  <div class="down-arrow" style="width:2em;margin:0.5em auto;">
+  <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
+  <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+  </div>
+
+  <div class="legend" style="font-style:italic">Fragment boxes</div>
+  <div style="text-align:center">
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      Lorem
       </div>
-      
-      <div class="centerbox" style="width:10em;margin:auto;border:1px solid black;padding:0.5em;text-align:center;">
-          Layout engine
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      ipsum
       </div>
-        
-      <div class="down-arrow" style="width:2em;margin:0.5em auto;">
-      <div style="width:1em; height:1.5em; margin:auto; background:lightgray;"></div>
-      <div style="width:0; height:0; border-width:1em 1em 0; border-style:solid; border-color:lightgray transparent;"></div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      dolor
       </div>
-      
-      <div class="legend" style="font-style:italic">Fragment boxes</div>
-      <div style="text-align:center">
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          Lorem
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
-          ipsum
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          dolor
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          sit
-          </div>
-          <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em; visibility:hidden;">
-          amet
-          </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      sit
       </div>
-      
-      <div class="legend" style="font-style:italic">Containers</div>
-      <div style="text-align:center">
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
-          </div>
-          <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed red;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
-          </div>
+      <div class="fragment" style="display:inline-block;margin:0.5em;background:silver;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em; visibility:hidden;">
+      amet
       </div>
+  </div>
+
+  <div class="legend" style="font-style:italic">Containers</div>
+  <div style="text-align:center">
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed black;padding:0.5em;width:2em;height:3em;">
+      </div>
+      <div class="box" style="display:inline-block;margin:0.5em;border:1px dashed red;padding:0.5em;width:3em;height:2em; margin-bottom:1.5em;">
+      </div>
+  </div>
+```
 
 \</div\>
 

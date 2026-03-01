@@ -50,26 +50,28 @@ Subject
 
 Body
 
-    The CSS WG has published an updated Working Draft of the !!!!CSS Foo Module Level #!!!!:
+```
+The CSS WG has published an updated Working Draft of the !!!!CSS Foo Module Level #!!!!:
 
-        !!!!http://www.w3.org/TR/css-foo-#/!!!!
+    !!!!http://www.w3.org/TR/css-foo-#/!!!!
 
-    !!!!one-sentence summary of module!!!!
+!!!!one-sentence summary of module!!!!
 
-    !!!!What's new, what's cool, what you'd like feedback on, and what to expect
-    going forward!!!!
+!!!!What's new, what's cool, what you'd like feedback on, and what to expect
+going forward!!!!
 
-    Significant changes are listed at:
+Significant changes are listed at:
 
-      !!!!http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes  **note dated URL!** !!!!
+  !!!!http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes  **note dated URL!** !!!!
 
-    Please review the draft, and send any comments to this mailing list,
-    <www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
-    message) or (preferably) file them in the GitHub repository at
-      https://github.com/w3c/csswg-drafts/issues
+Please review the draft, and send any comments to this mailing list,
+<www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
+message) or (preferably) file them in the GitHub repository at
+  https://github.com/w3c/csswg-drafts/issues
 
-    For the CSS WG,
-    !!!!your signature!!!!
+For the CSS WG,
+!!!!your signature!!!!
+```
 
 ### Template for CR Announcement to www-style
 
@@ -85,30 +87,32 @@ Subject
 
 Body
 
-    The CSS WG has published a Candidate Recommendation and invites implementations of the !!!!CSS Foo Module Level #!!!!:
+```
+The CSS WG has published a Candidate Recommendation and invites implementations of the !!!!CSS Foo Module Level #!!!!:
 
-        !!!!http://www.w3.org/TR/css-foo-#/!!!!
+    !!!!http://www.w3.org/TR/css-foo-#/!!!!
 
-    !!!!one-sentence summary of module!!!!
+!!!!one-sentence summary of module!!!!
 
-    !!!!What's new, what's cool, what you'd like feedback on, and what to expect
-    going forward!!!!
+!!!!What's new, what's cool, what you'd like feedback on, and what to expect
+going forward!!!!
 
-    Significant changes are listed at:
+Significant changes are listed at:
 
-      !!!!http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes  **note dated URL!** !!!!
+  !!!!http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes  **note dated URL!** !!!!
 
-    Disposition of comments:
-      
-      !!!http://dev.w3.org/csswg/css-foo/issues-YYYY !!!!
+Disposition of comments:
 
-    Please review the draft, and send any comments to this mailing list,
-    <www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
-    message) or (preferably) file them in the GitHub repository at
-      https://github.com/w3c/csswg-drafts/issues
+  !!!http://dev.w3.org/csswg/css-foo/issues-YYYY !!!!
 
-    For the CSS WG,
-    !!!!your signature!!!!
+Please review the draft, and send any comments to this mailing list,
+<www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
+message) or (preferably) file them in the GitHub repository at
+  https://github.com/w3c/csswg-drafts/issues
+
+For the CSS WG,
+!!!!your signature!!!!
+```
 
 ### Template for PR Announcement to www-style
 
@@ -124,39 +128,40 @@ Subject
 
 Body
 
-    The CSS WG has published a Proposed Recommendation of the !!!!CSS Foo Module Level #!!!!:
+```
+The CSS WG has published a Proposed Recommendation of the !!!!CSS Foo Module Level #!!!!:
 
-        !!!!http://www.w3.org/TR/css-foo-#/!!!!
+    !!!!http://www.w3.org/TR/css-foo-#/!!!!
 
-    !!!!one-sentence summary of module!!!!
+!!!!one-sentence summary of module!!!!
 
-    This document is intended to become a W3C Recommendation. This
-    document will remain a Proposed Recommendation at least until !!!DATE!!!
-    in order to ensure the opportunity for wide review. The W3C
-    Membership and other interested parties are invited to review
-    the document and send comments. Advisory Committee Representatives
-    should consult their WBS questionnaires.
+This document is intended to become a W3C Recommendation. This
+document will remain a Proposed Recommendation at least until !!!DATE!!!
+in order to ensure the opportunity for wide review. The W3C
+Membership and other interested parties are invited to review
+the document and send comments. Advisory Committee Representatives
+should consult their WBS questionnaires.
 
-    Significant changes are listed at:
+Significant changes are listed at:
 
-      !!!!http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes  **note dated URL!** !!!!
+  !!!!http://www.w3.org/TR/2012/WD-css3-foo-20120501/#changes  **note dated URL!** !!!!
 
-    Disposition of comments:
-      
-      !!!http://dev.w3.org/csswg/css-foo/issues-YYYY-YYYY.html !!!!
-      
-    Implementation Report:
-      
-      !!!http://dev.w3.org/csswg/css-foo/report.html !!!!
-      
+Disposition of comments:
 
-    Please review the draft, and send any comments to this mailing list,
-    <www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
-    message) or (preferably) file them in the GitHub repository at
-      https://github.com/w3c/csswg-drafts/issues
+  !!!http://dev.w3.org/csswg/css-foo/issues-YYYY-YYYY.html !!!!
 
-    For the CSS WG,
-    !!!!your signature!!!!
+Implementation Report:
+
+  !!!http://dev.w3.org/csswg/css-foo/report.html !!!!
+
+Please review the draft, and send any comments to this mailing list,
+<www-style@w3.org>, prefixed with [css-!!!!FOO!!!!] (as I did on this
+message) or (preferably) file them in the GitHub repository at
+  https://github.com/w3c/csswg-drafts/issues
+
+For the CSS WG,
+!!!!your signature!!!!
+```
 
 ### Template for WD Announcement to Blog
 
@@ -170,12 +175,14 @@ Subject
 Category
 : Publications
 
-    The CSS Working Group has published an updated Working Draft of [CSS FOOOOOOOO](http://www.w3.org/TR/css-FOOOOOOOO). >>one-sentence summary of module<<
+```html
+The CSS Working Group has published an updated Working Draft of [CSS FOOOOOOOO](http://www.w3.org/TR/css-FOOOOOOOO). >>one-sentence summary of module<<
 
-    >>What's new, what's cool, what you'd like feedback on, what to expect going forward<<
-    Changes since the last Working Draft are listed in the [Changes section](http://www.w3.org/TR/2012/WD-css-FOOOOOOOO-20120501/#changes).
+>>What's new, what's cool, what you'd like feedback on, what to expect going forward<<
+Changes since the last Working Draft are listed in the [Changes section](http://www.w3.org/TR/2012/WD-css-FOOOOOOOO-20120501/#changes).
 
-    Please send feedback by either [filing an issue in GitHub](https://github.com/w3c/csswg-drafts/issues) (preferable) or sending mail to the ([archived](http://lists.w3.org/Archives/Public/www-style/)) public mailing list [www-style@w3.org](mailto:www-style@w3.org?Subject=%5Bcss-FOOOOOOOO%5D%20PUT%20SUBJECT%20HERE) with the spec code (<code>[css-FOOOOOOOO]</code>) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)
+Please send feedback by either [filing an issue in GitHub](https://github.com/w3c/csswg-drafts/issues) (preferable) or sending mail to the ([archived](http://lists.w3.org/Archives/Public/www-style/)) public mailing list [www-style@w3.org](mailto:www-style@w3.org?Subject=%5Bcss-FOOOOOOOO%5D%20PUT%20SUBJECT%20HERE) with the spec code (<code>[css-FOOOOOOOO]</code>) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)
+```
 
 ### Template for PR Announcement to Blog
 
@@ -187,29 +194,35 @@ Subject
 Category
 : Publications
 
-    The CSS WG has published a Proposed Recommendation of the [!!!CSS FOOOOOOOO!!!](!!!http://www.w3.org/TR/css-FOOOOOOOO!!!). !!!one-sentence summary of module!!!
+```html
+The CSS WG has published a Proposed Recommendation of the [!!!CSS FOOOOOOOO!!!](!!!http://www.w3.org/TR/css-FOOOOOOOO!!!). !!!one-sentence summary of module!!!
 
-    This document is intended to become a W3C Recommendation. This document will remain a Proposed Recommendation at least until !!!DATE HERE!!! in order to ensure the opportunity for wide review. The W3C Membership and other interested parties are invited to review the document and send comments. Advisory Committee Representatives should consult their WBS questionnaires.
+This document is intended to become a W3C Recommendation. This document will remain a Proposed Recommendation at least until !!!DATE HERE!!! in order to ensure the opportunity for wide review. The W3C Membership and other interested parties are invited to review the document and send comments. Advisory Committee Representatives should consult their WBS questionnaires.
 
-    Changes since the last Working Draft are listed in the [Changes section](!!!http://www.w3.org/TR/2012/WD-css-FOOOOOOOO-20120501/#changes note the date URL!!!).
+Changes since the last Working Draft are listed in the [Changes section](!!!http://www.w3.org/TR/2012/WD-css-FOOOOOOOO-20120501/#changes note the date URL!!!).
 
-    A [disposition of comments](!!!URL to DoC!!!) and [implementation report](!!!URL to implementation report!!!) are available.
+A [disposition of comments](!!!URL to DoC!!!) and [implementation report](!!!URL to implementation report!!!) are available.
 
-    Please send feedback by either [filing an issue in GitHub](https://github.com/w3c/csswg-drafts/issues) (preferable) or sending mail to the ([archived](http://lists.w3.org/Archives/Public/www-style/)) public mailing list [www-style@w3.org](mailto:www-style@w3.org?Subject=%5B!!!css-FOOOOOOOO!!!%5D%20PUT%20SUBJECT%20HERE) with the spec code (<code>[!!!css-FOOOOOOOO!!!]</code>) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)
+Please send feedback by either [filing an issue in GitHub](https://github.com/w3c/csswg-drafts/issues) (preferable) or sending mail to the ([archived](http://lists.w3.org/Archives/Public/www-style/)) public mailing list [www-style@w3.org](mailto:www-style@w3.org?Subject=%5B!!!css-FOOOOOOOO!!!%5D%20PUT%20SUBJECT%20HERE) with the spec code (<code>[!!!css-FOOOOOOOO!!!]</code>) and your comment topic in the subject line.  (Alternatively, you can email one of the editors and ask them to forward your comment.)
+```
 
 ### Template for Twitter Announcement
 
 Feel free to adjust the template as it seems useful.
 
-    CSS Foo L? [ updated WD | updated CR | published CR | FPWD (new) ]
-    ? brief summary of changes, if that seems manageable, to garner interest ?
-    ? link to blog post for details ?
+```
+CSS Foo L? [ updated WD | updated CR | published CR | FPWD (new) ]
+? brief summary of changes, if that seems manageable, to garner interest ?
+? link to blog post for details ?
+```
 
 e.g.
 
-    CSS Box Alignment L3 updated WD
-    Added new/renamed row-gap/column-gap/gap for Grid and Flexbox
-    https://www.w3.org/blog/CSS/2017/12/31/spec-updates-2017/#align
+```
+CSS Box Alignment L3 updated WD
+Added new/renamed row-gap/column-gap/gap for Grid and Flexbox
+https://www.w3.org/blog/CSS/2017/12/31/spec-updates-2017/#align
+```
 
 ## Steps for Manual Publication
 
@@ -226,16 +239,18 @@ Subject
 
 Body
 
-    Hello Chris, & Webreq
-    The CSS Working Group would like to publish an updated Working Draft of:
-      >>CSS Foo<<.
-    The resolution to publish is recorded here:
-      >>http://lists.w3.org/...<<
-    The editor's draft is here:
-      >>http://dev.w3.org/...<<
-    Can you please set this up for publication? Is >>future date<< an acceptable publishing date?
-    Thanks,
-    >>your signature<<
+```
+Hello Chris, & Webreq
+The CSS Working Group would like to publish an updated Working Draft of:
+  >>CSS Foo<<.
+The resolution to publish is recorded here:
+  >>http://lists.w3.org/...<<
+The editor's draft is here:
+  >>http://dev.w3.org/...<<
+Can you please set this up for publication? Is >>future date<< an acceptable publishing date?
+Thanks,
+>>your signature<<
+```
 
 Where »future date« is a Tuesday or Thursday giving the Webmaster enough time to check and correct the draft. Follow-up and make sure it actually gets published, then send out your announcements as usual.
 
