@@ -286,6 +286,23 @@ def clean_media(html):
     return html
 
 
+def guess_code_language(text):
+    """Guess whether unlabeled code is HTML or CSS based on content."""
+    stripped = text.strip()
+    # HTML: contains tags (entity-encoded or literal)
+    tag_open = r'(?:<|&lt;)'
+    html_tags = (r'!DOCTYPE|!--|html|head|body|div|span|p[ >/]|h[1-6]|a |'
+                 r'table|t[rdh][ >/]|ul|ol|li|link|meta|title|style|script|'
+                 r'img|iframe|form|input|button|label|section|header|'
+                 r'footer|main|nav|article|pre|code|em |strong|br|hr')
+    if re.search(tag_open + r'(?:' + html_tags + r')', stripped, re.IGNORECASE):
+        return 'html'
+    # CSS: has selector { property: value } patterns
+    if re.search(r'[.#@:\w][^{}]*\{[^}]*[:;]', stripped, re.DOTALL):
+        return 'css'
+    return None
+
+
 def fix_code_language(html):
     """Rewrite <pre class="code LANG"> so pandoc picks up the actual language.
 
@@ -294,19 +311,26 @@ def fix_code_language(html):
     uses the *first* class as the fenced-code language, so without this fix
     every block becomes ``` code instead of ``` css.
     """
-    lang_map = {'html4strict': 'html', 'html5': 'html'}
+    lang_map = {'html4strict': 'html', 'html5': 'html', 'idl': 'webidl'}
 
     def rewrite_pre(m):
         classes = m.group(1).split()
+        body = m.group(2)
         # Strip generic DokuWiki markers
-        classes = [c for c in classes if c not in ('code', 'file')]
+        langs = [c for c in classes if c not in ('code', 'file')]
         # Normalise language names
-        classes = [lang_map.get(c, c) for c in classes]
-        if classes:
-            return f'<pre class="{classes[0]}">'
-        return '<pre>'
+        langs = [lang_map.get(c, c) for c in langs]
+        if langs:
+            return f'<pre class="{langs[0]}">{body}</pre>'
+        # No explicit language — try to guess from content
+        guessed = guess_code_language(body)
+        if guessed:
+            return f'<pre class="{guessed}">{body}</pre>'
+        # Keep a dummy class so pandoc produces fenced (not indented) blocks
+        return f'<pre class="code">{body}</pre>'
 
-    return re.sub(r'<pre class="([^"]+)">', rewrite_pre, html)
+    return re.sub(r'<pre class="([^"]+)">(.*?)</pre>',
+                  rewrite_pre, html, flags=re.DOTALL)
 
 
 def cleanup_html(html):
@@ -458,7 +482,17 @@ def cleanup_markdown(md):
     md = re.sub(r'<span[^>]*class="term"[^>]*>([^<]*)</span>', r'\1', md)
     
     # Remove space between fence and language identifier (``` css -> ```css)
-    md = re.sub(r'^(```) (\w+)$', r'\1\2', md, flags=re.MULTILINE)
+    # Also handles fences inside blockquotes (> ``` css) and indented contexts
+    md = re.sub(r'^([> ]*)(```) (\w+)', r'\1\2\3', md, flags=re.MULTILINE)
+
+    # Strip dummy "code" language pandoc picked up from our placeholder class
+    md = re.sub(r'^([> ]*)```code', r'\1```', md, flags=re.MULTILINE)
+
+    # Strip dummy class="code" from <pre> tags in raw HTML (e.g. inside tables)
+    md = re.sub(r'<pre class="code">', '<pre>', md)
+
+    # Strip trailing whitespace from lines
+    md = re.sub(r' +$', '', md, flags=re.MULTILINE)
 
     # Clean up multiple blank lines
     md = re.sub(r'\n{3,}', '\n\n', md)

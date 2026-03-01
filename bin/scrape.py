@@ -178,45 +178,32 @@ def download_media(content, output_dir, page_path):
 
 
 def get_all_pages():
-    """Discover all wiki pages by crawling the index."""
+    """Discover all wiki pages by crawling the index recursively."""
     pages = set()
-    namespaces = set()
+
+    def expand_namespace(ns, label=None):
+        """Expand a DokuWiki namespace, recursing into sub-namespaces."""
+        if label:
+            print(f"Expanding: {label}")
+        time.sleep(DELAY)
+        idx_param = f"&idx={ns}" if ns else ""
+        html = fetch(f"{BASE_URL}/?do=index{idx_param}")
+        if not html:
+            return
+        # Collect page links
+        for m in re.finditer(r'href="/([^"?#]+)"', html):
+            p = m.group(1)
+            if not p.startswith(('lib/', '_', 'feed')) and '?' not in p:
+                pages.add(p)
+        # Recurse into sub-namespaces (colons may be URL-encoded as %3A)
+        escaped_ns = re.escape(ns).replace(":", "(?::|%3A)") if ns else ""
+        ns_pattern = rf'\?idx=({escaped_ns}(?::|%3A)[a-z0-9_.+-]+)' if ns else r'\?idx=([a-z0-9_-]+)'
+        for m in re.finditer(ns_pattern, html, re.IGNORECASE):
+            sub_ns = urllib.parse.unquote(m.group(1))
+            expand_namespace(sub_ns, label=sub_ns.replace(":", "/"))
 
     print("Fetching main index...")
-    html = fetch(f"{BASE_URL}/?do=index")
-    if not html:
-        return []
-
-    # Find namespace links like ?idx=ideas
-    for m in re.finditer(r'\?idx=([a-z0-9_-]+)', html):
-        namespaces.add(m.group(1))
-
-    # Find top-level page links
-    for m in re.finditer(r'href="/([a-z0-9_-]+)"', html):
-        page = m.group(1)
-        if page not in ('lib', '_export', '_detail', '_media') and not page.startswith('feed'):
-            pages.add(page)
-
-    # Expand each namespace to find all pages within it
-    for ns in sorted(namespaces):
-        print(f"Expanding: {ns}")
-        time.sleep(DELAY)
-        html = fetch(f"{BASE_URL}/?do=index&idx={ns}")
-        if html:
-            for m in re.finditer(r'href="/([^"?#]+)"', html):
-                p = m.group(1)
-                if not p.startswith(('lib/', '_', 'feed')) and '?' not in p:
-                    pages.add(p)
-            # Check for sub-namespaces
-            for m in re.finditer(rf'\?idx=({ns}:[a-z0-9_:-]+)', html):
-                sub_ns = m.group(1)
-                time.sleep(DELAY)
-                sub_html = fetch(f"{BASE_URL}/?do=index&idx={sub_ns}")
-                if sub_html:
-                    for m2 in re.finditer(r'href="/([^"?#]+)"', sub_html):
-                        p = m2.group(1)
-                        if not p.startswith(('lib/', '_', 'feed')) and '?' not in p:
-                            pages.add(p)
+    expand_namespace("")
 
     return sorted(pages)
 
