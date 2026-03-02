@@ -38,6 +38,7 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | --- | --- | --- | --- | --- | --- |
 | Alison Maher | n/a | n/a | n/a | GF + preferred dairy free | host |
 | Florian Rivoal | 03/29 (KE742+KE041) | 04/03 (KE042+KE721) | TBD | omnivore |  |
+| Kevin Babbitt | n/a | n/a | n/a | None | Local |
 
 ### Virtual Participants
 
