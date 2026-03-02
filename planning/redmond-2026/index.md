@@ -13,6 +13,7 @@ title: "Redmond F2F April 2026"
   - Morning break: ~10:30am
   - Lunch break: noon
   - Afternoon break: ~2:30pm
+  - Hosted Dinner: Evening of Wednesday 01 April 2026, location TBD
 - Airports:
     - SEA - Seattle-Tacoma Airport (32km drive, **major hub and closest**)
     - PAE - Paine Field Airport (39km drive, **small airport**)
