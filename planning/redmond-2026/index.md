@@ -45,6 +45,8 @@ Please list your availability in California time (morning/afternoon/all or speci
 
 | Name | Timezone | PST Availability | Other Notes |
 | --- | --- | --- | --- |
+| Miriam Suzanne | MT | 8am-4pm(ish) | --- |
+
 
 ### Regrets
 
