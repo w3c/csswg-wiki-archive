@@ -39,14 +39,17 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | --- | --- | --- | --- | --- | --- |
 | Alison Maher | n/a | n/a | n/a | GF + preferred dairy free | host |
 | Celeste Pan | n/a | n/a | n/a | None | Local, partial attendance |
+| Chris Lilley | ? | ? | ? | low carb high protein (diabetic) | ? |
 | Florian Rivoal | 03/29 (KE742+KE041) | 04/03 (KE042+KE721) | TBD | omnivore |  |
 | Hoch Hochkeppel | n/a | n/a | n/a | None | Local |
 | Kevin Babbitt | n/a | n/a | n/a | None | Local |
+| Kurt Catti-Schmidt | n/a | n/a | n/a | None | Local |
+| Lea Verou | ? | ? | ? | none | ? |
 | Oriol Brufau | 2026-03-29 | 2026-04-03 | Airbnb? | Strong dislike of cheese and shellfish | Flying to/from SEA |
 | Sam Davis Omekara Jr. | n/a | n/a | n/a | shellfish | Local |
 | Tab Atkins-Bittner | ? | ? | ? | none | ? |
 | Yanling Wang | n/a | n/a | n/a | None | Local, partial attendance |
-| Kurt Catti-Schmidt | n/a | n/a | n/a | None | Local |
+| Zoe Lilley-Verou | ? | ? | ? | none | observer |
 
 ### Virtual Participants
 
