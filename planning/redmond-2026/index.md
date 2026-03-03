@@ -58,6 +58,7 @@ Please list your availability in California time (morning/afternoon/all or speci
 | Daniel Holbert | PDT | 9am-5pm | --- |
 | Miriam Suzanne | MT | 8am-4pm(ish) | --- |
 | Stephen Chenney | EDT | 6am - 3pm | Some single hours not available |
+| Yehonatan Daniv | UTC+3 | preferably before 2 pm | Probably going to miss Wednesday (Passover eve) |
 
 ### Regrets
 
