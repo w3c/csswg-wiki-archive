@@ -29,7 +29,7 @@ title: "Redmond F2F April 2026"
    - The building is ~10min walk from the Redmond Technology [link light](https://www.soundtransit.org/ride-with-us/routes-schedules/2-line?direction=0&at=1772611200000&view=table&route_tab=schedule&stops_0=40_N23%2C40_E31&stops_1=40_E31%2C40_N23) station (Seattle's local subway system):
       <br><img width="278" height="92" alt="image" src="https://github.com/user-attachments/assets/bf727368-7dcc-4d1f-be2a-d5de1a37fd10" />
     - If you stay in downtown Redmond or downtown Bellevue, there are link light stops in those locations that connect to the Redmond Technology station on Microsoft campus:
-      <img width="352" height="454" alt="image" src="https://github.com/user-attachments/assets/eaad99af-c54b-4ea0-9542-c32848950638" />
+      <br><img width="352" height="454" alt="image" src="https://github.com/user-attachments/assets/eaad99af-c54b-4ea0-9542-c32848950638" />
 
      - The link light line 2 opens from Seattle to Redmond March 27, 2026 (right before the F2F) https://www.soundtransit.org/system-expansion/east-link-extension. This connects to the SEA airport, and if up and running as expected, it will be an easy way to get to and from SEA.
 
