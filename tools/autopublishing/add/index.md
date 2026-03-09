@@ -31,7 +31,7 @@ It includes the contents of `auto-publish-template.yml` which should be the same
 To add a new spec:
 
 - First, ask a chair or team contact to:
-  - make a [token](https://github.com/w3c/echidna/wiki/Token-creation)
+  - make a [token](https://github.com/w3c/echidna/wiki/Token-creation) by telling them the name of your spec
   - add it to the CSSWG repo as a Secret named like `TR_TOKEN_CSS_FOO_2`
 
 Once this is done:
