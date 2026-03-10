@@ -66,7 +66,8 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | Name | Arrival | Departure | Hotel | Dietary Restrictions | Flights or Other Notes |
 | --- | --- | --- | --- | --- | --- |
 | Alan Stearns | n/a | n/a | n/a | omnivore | |
-| Alison Maher | n/a | n/a | n/a | GF + preferred dairy free | host |
+| Alex Kyereboah | n/a | n/a | n/a | Peanut | Local, partial attendance |
+| Alison Maher | n/a | n/a | n/a | GF | host |
 | Celeste Pan | n/a | n/a | n/a | None | Local, partial attendance |
 | Chris Lilley | ? | ? | ? | low carb high protein (diabetic) | ? |
 | Chris Wilson | n/a | n/a | n/a | omnivore | |
