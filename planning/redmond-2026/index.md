@@ -72,6 +72,7 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | Chris Wilson | n/a | n/a | n/a | omnivore | |
 | Florian Rivoal | 03/29 (KE742+KE041) | 04/03 (KE042+KE721) | TBD | omnivore |  |
 | Hoch Hochkeppel | n/a | n/a | n/a | None | Local |
+| Javier Contreras | n/a | n/a | n/a | None | Local, partial attendance |
 | Kevin Babbitt | n/a | n/a | n/a | None | Local |
 | Kurt Catti-Schmidt | n/a | n/a | n/a | None | Local |
 | Lea Verou | ? | ? | ? | none | ? |
