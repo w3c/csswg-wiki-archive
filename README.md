@@ -1,6 +1,6 @@
 # CSS Working Group Wiki
 
-Community-editable documentation for the [CSS Working Group](https://www.w3.org/Style/CSS/). **Live site:** https://w3c.github.io/csswg-wiki/
+Community-editable documentation for the [CSS Working Group](https://www.w3.org/Style/CSS/). **Live site:** https://wiki.csswg.org/
 
 This repo replaces the legacy wiki.csswg.org wiki. Pages are now Markdown files you can edit directly on GitHub.
 
@@ -38,7 +38,7 @@ gem install jekyll
 jekyll serve
 ```
 
-Then open http://localhost:4000/csswg-wiki/
+Then open http://localhost:4000/
 
 ## Frontend design
 

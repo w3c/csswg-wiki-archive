@@ -1,7 +1,6 @@
 title: CSS Working Group Wiki
 description: Community-editable wiki for CSS Working Group documentation
-url: https://w3c.github.io
-baseurl: /csswg-wiki
+url: https://wiki.csswg.org
 repository: w3c/csswg-wiki
 
 markdown: kramdown
