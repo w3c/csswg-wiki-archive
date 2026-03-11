@@ -82,6 +82,7 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | Sammy Gill | 03/30 | 04/03 | ? | None | |
 | Tab Atkins-Bittner | ? | ? | ? | none | ? |
 | Yanling Wang | n/a | n/a | n/a | None | Local, partial attendance |
+| Cassondra Roberts | 3/30 (DL0354) | 4/3 (DL0489) | ? | vegan but honey ok | |
 | Zoe Lilley-Verou | ? | ? | ? | none | observer |
 
 ### Virtual Participants
