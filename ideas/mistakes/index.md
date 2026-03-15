@@ -31,7 +31,7 @@ That should be corrected if anyone invents a time machine. :P
 - `rgba()` and `hsla()` should not exist, `rgb()` and `hsl()`  should have gotten an optional fourth parameter instead (and the alpha value should have used the same format as R, G, and B or S and L).
 - Descendant combinator should have been `>>` and indirect sibling combinator should have been `++`, so there's some logical relationships among the selectors' ascii art
 - The `*-blend-mode` properties should've just been `*-blend`
-- The syntax of unicode ranges should have consistent with the rest of CSS, like `u0001-u00c8`.
+- The syntax of unicode ranges should have been consistent with the rest of CSS, like `u0001-u00c8`.
 - Unicode ranges should not have had a separate microsyntax with their own tokenization or token handling.  The tokenization hacks required either to make selectors (e.g., u+a) handle things that are unicode-range tokens, or make unicode-range handle the other huge range of tokens (numbers and dimensions with and without scientific notation, identifiers, +) are both horrible.
 - `font-family` should have required the font name to be quoted (like all other values that come from "outside" CSS).  The rules for handling unquoted font names make parsing `font` stupid, as it requires a `font-size` value for disambiguation.
 - Flexbox should have been less crazy about `flex-basis` vs `width`/`height`.  Perhaps: if `width`/`height` is `auto`, use `flex-basis`; otherwise, stick with `width`/`height` as an inflexible size.  (This also makes min/max width/height behavior fall out of the generic definition.)
