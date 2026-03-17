@@ -71,6 +71,7 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | Celeste Pan | n/a | n/a | n/a | None | Local, partial attendance |
 | Chris Lilley | ? | ? | ? | low carb high protein (diabetic) | ? |
 | Chris Wilson | n/a | n/a | n/a | omnivore | |
+| Elika Etemad | 3/30 | 04/04 | n/a | GF appreciated | will have a car |
 | Emilio Cobos | 03/30 | 04/03 | TBD | omnivore |  |
 | Florian Rivoal | 03/29 (KE742+KE041) | 04/03 (KE042+KE721) | TBD | omnivore |  |
 | Hoch Hochkeppel | n/a | n/a | n/a | None | Local |
