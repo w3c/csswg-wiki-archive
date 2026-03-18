@@ -17,7 +17,7 @@ The [Status page](/planning/status/) tracks outstanding resolutions. Editors, pl
 
 - [GitHub Workflow](https://w3c.github.io/workflow.html) for editors and other contributors
 - [bikeshed](/tools/bikeshed/) --- generating `Overview.html` from `Overview.bs` (auto-generating section numbers, indices, cross-links, and other mundane things).  (Or here's a guide for the [older processor](/tools/spec-processor/).)
-- [CSS Module Template](https://drafts.csswg.org/css-module/) — for starting new specs (and formatting old ones)
+- [CSS Module Template](https://github.com/w3c/csswg-drafts/blob/main/css-module/Overview.bs) — for starting new specs (and formatting old ones)
 - [format-update](/spec/format-update/) --- for updating existing specs to our latest "specs should include"
 - [check](/spec/check/) -- checking your spec is good to go
 - [publish](/spec/publish/) --- getting your spec on www.w3.org
