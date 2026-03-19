@@ -13,7 +13,7 @@ title: "Redmond F2F April 2026"
   - Morning break: ~10:30am
   - Lunch break: noon
   - Afternoon break: ~2:30pm
-  - Hosted Dinner: Evening of Wednesday 01 April 2026, location: Bai Tong in Redmond (14804 NE 24th St, Redmond, WA 98052)
+  - Hosted Dinner: Evening of Wednesday 01 April 2026, 6PM. Location: Bai Tong in Redmond (14804 NE 24th St, Redmond, WA 98052)
 - Visitor registration:
    - Please register at the building 122 lobby when entering to pick up a visitor badge.
 
