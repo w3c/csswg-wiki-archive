@@ -103,6 +103,6 @@ Please list your availability in California time (morning/afternoon/all or speci
 
 ### Regrets
 
-| Name |
-| --- |
-| Name, Affiliation |
+| Name | Affiliation |
+| --- | --- |
+| Anders Hartvoll Ruud | Google |
