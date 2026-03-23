@@ -82,7 +82,7 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | Oriol Brufau | 2026-03-29 | 2026-04-03 | Airbnb? | Strong dislike of cheese and shellfish | Flying to/from SEA |
 | Sam Davis Omekara Jr. | n/a | n/a | n/a | shellfish | Local |
 | Sammy Gill | 03/30 | 04/03 | ? | None | |
-| Tab Atkins-Bittner | ? | ? | ? | none | ? |
+| Tab Atkins-Bittner | 03/30 | 04/03 | Aloft Seattle Redmond | none |  |
 | Yanling Wang | n/a | n/a | n/a | None | Local, partial attendance |
 | Cassondra Roberts | 3/30 (DL0354) | 4/3 (DL0489) | ? | vegan but honey ok | |
 | Zoe Lilley-Verou | ? | ? | ? | none | observer |
