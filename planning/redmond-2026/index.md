@@ -93,7 +93,7 @@ Please list your availability in California time (morning/afternoon/all or speci
 
 | Name | Timezone | PDT Availability | Other Notes |
 | --- | --- | --- | --- |
-| Andreu Botella | CEST | preferably before 3 pm | won't be available for the first hour on tuesday |
+| Andreu Botella | CEST | preferably before 3 pm | won't be available for the first hour on tuesday or thursday |
 | Bramus | CEST | 8am-12pm | --- |
 | Daniel Holbert | PDT | 9am-5pm | --- |
 | Miriam Suzanne | MT | 8am-4pm(ish) | --- |
