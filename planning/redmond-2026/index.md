@@ -103,6 +103,7 @@ Please list your availability in California time (morning/afternoon/all or speci
 | Roman Komarov | CEST | 9am-5pm | --- |
 | David Shin | EDT | 6am - 3pm | --- |
 | Vladimir Levin | EDT | 10am - 3pm | --- |
+| Romain Menke | CEST | 8am-11am(ish) | --- |
 
 ### Regrets
 
