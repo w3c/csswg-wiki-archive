@@ -85,7 +85,6 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | Tab Atkins-Bittner | 03/30 | 04/03 | Aloft Seattle Redmond | none |  |
 | Tim Nguyen | 03/29 | 04/03 | AirBnB | |
 | Yanling Wang | n/a | n/a | n/a | None | Local, partial attendance |
-| Cassondra Roberts | 3/30 (DL0354) | 4/3 (DL0489) | ? | vegan but honey ok | |
 | Zoe Lilley-Verou | ? | ? | ? | none | observer |
 
 ### Virtual Participants
@@ -104,6 +103,7 @@ Please list your availability in California time (morning/afternoon/all or speci
 | David Shin | EDT | 6am - 3pm | --- |
 | Vladimir Levin | EDT | 10am - 3pm | --- |
 | Romain Menke | CEST | 8am-11am(ish) | --- |
+| Cassondra Roberts | EDT | 5am-2pm | --- |
 
 ### Regrets
 
