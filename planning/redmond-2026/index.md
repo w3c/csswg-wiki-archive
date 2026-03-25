@@ -69,7 +69,7 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | Alex Kyereboah | n/a | n/a | n/a | Peanut | Local, partial attendance |
 | Alison Maher | n/a | n/a | n/a | GF | host |
 | Celeste Pan | n/a | n/a | n/a | None | Local, partial attendance |
-| Chris Lilley | ? | ? | ? | low carb high protein (diabetic) | ? |
+| Chris Lilley | 03/29 | 04/03 | AirBnB | low carb high protein (diabetic) | ? |
 | Chris Wilson | n/a | n/a | n/a | omnivore | |
 | Dan Clark | n/a | n/a | n/a | | Local, partial attendance |
 | Elika Etemad | 3/30 | 04/04 | n/a | GF appreciated | will have a car |
@@ -79,7 +79,7 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | Javier Contreras | n/a | n/a | n/a | None | Local, partial attendance |
 | Kevin Babbitt | n/a | n/a | n/a | None | Local |
 | Kurt Catti-Schmidt | n/a | n/a | n/a | None | Local |
-| Lea Verou | ? | ? | ? | none | ? |
+| Lea Verou | 03/29 | 04/03 | AirBnB | none | ? |
 | Mike Jackson | n/a | n/a | n/a | None | Local |
 | Oriol Brufau | 2026-03-29 | 2026-04-03 | Airbnb? | Strong dislike of cheese and shellfish | Flying to/from SEA |
 | Sam Davis Omekara Jr. | n/a | n/a | n/a | shellfish | Local |
@@ -87,7 +87,7 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | Tab Atkins-Bittner | 03/30 | 04/03 | Aloft Seattle Redmond | none |  |
 | Tim Nguyen | 03/29 | 04/03 | AirBnB | |
 | Yanling Wang | n/a | n/a | n/a | None | Local, partial attendance |
-| Zoe Lilley-Verou | ? | ? | ? | none | observer |
+| Zoe Lilley-Verou | 03/29 | 04/03 | AirBnB | none | observer |
 
 ### Virtual Participants
 
