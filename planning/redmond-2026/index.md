@@ -99,6 +99,7 @@ Please list your availability in California time (morning/afternoon/all or speci
 | Bramus | CEST | 8am-12pm | --- |
 | Cassondra Roberts | EDT | 5am-2pm | --- |
 | Daniel Holbert | PDT | 9am-5pm | --- |
+| David Baron | EDT | 7am - 2pm | --- |
 | David Shin | EDT | 6am - 3pm | --- |
 | Miriam Suzanne | MT | 8am-4pm(ish) | --- |
 | Romain Menke | CEST | 8am-11am(ish) | --- |
