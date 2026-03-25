@@ -81,7 +81,6 @@ Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
 | Kurt Catti-Schmidt | n/a | n/a | n/a | None | Local |
 | Lea Verou | ? | ? | ? | none | ? |
 | Oriol Brufau | 2026-03-29 | 2026-04-03 | Airbnb? | Strong dislike of cheese and shellfish | Flying to/from SEA |
-| Parth Patel | ? | ? | ? | Vegan | |
 | Sam Davis Omekara Jr. | n/a | n/a | n/a | shellfish | Local |
 | Sammy Gill | 03/30 | 04/03 | ? | None | |
 | Tab Atkins-Bittner | 03/30 | 04/03 | Aloft Seattle Redmond | none |  |
@@ -101,6 +100,7 @@ Please list your availability in California time (morning/afternoon/all or speci
 | Daniel Holbert | PDT | 9am-5pm | --- |
 | David Shin | EDT | 6am - 3pm | --- |
 | Miriam Suzanne | MT | 8am-4pm(ish) | --- |
+| Parth Patel | ? | PST | ? |  | |
 | Romain Menke | CEST | 8am-11am(ish) | --- |
 | Roman Komarov | CEST | 9am-5pm | --- |
 | Stephen Chenney | EDT | 6am - 3pm | Some single hours not available |
