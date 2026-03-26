@@ -55,7 +55,9 @@ title: "Redmond F2F April 2026"
 
 ## Agenda
 
-Agenda planning TBD. Flag issues with Agenda+ F2F or note them here.
+[Project](https://github.com/orgs/w3c/projects/232/views/1)
+
+Flag issues with Agenda+ F2F or note them here.
 
 ## Attendees
 
