@@ -105,6 +105,7 @@ Please list your availability in California time (morning/afternoon/all or speci
 | David Baron | EDT | 7am - 2pm | --- |
 | David Shin | EDT | 6am - 3pm | --- |
 | Miriam Suzanne | MT | 8am-4pm(ish) | --- |
+| Parth Patel | ? | PST | ? |  | |
 | Romain Menke | CEST | 8am-11am(ish) | --- |
 | Roman Komarov | CEST | 9am-5pm | --- |
 | Stephen Chenney | EDT | 6am - 3pm | Some single hours not available |
