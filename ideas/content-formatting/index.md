@@ -35,7 +35,7 @@ The ability to format numbers without changing their actual value is a common pr
 
 #### Example HTML
 
-  <span class="phone">123467</span>
+  <span class="phone">123456</span>
 
 Should be displayed and spoken as "12 34 56"
 
